@@ -148,7 +148,10 @@ The commitment does not identify a built project, local burden, worker outcome,
 consumer-price change, ownership shift, or reduced geopolitical dependence.
 The NIST CHIPS award record and TSMC Arizona status then add partial project
 realization and workforce stages, but actual disbursement, output, job quality,
-resource burden, and supply-chain substitution remain open.
+resource burden, and supply-chain substitution remain open. The NIST community-
+impact report also commits to childcare subsidies, extended care access, and
+small-business participation; take-up, household time saved, and realized local
+awards remain unmeasured.
 
 The [HTOPS local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
 confirms that the retained local panel record contains no represented

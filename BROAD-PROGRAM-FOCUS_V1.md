@@ -190,7 +190,10 @@ output, domestic ownership, lower prices, or reduced strategic dependence.
 The NIST CHIPS award page and TSMC project page now add partial realization:
 milestone-based public funding, one operating fab, reported employment, and a
 technician pipeline—still without independent output, completed disbursement,
-local burden, or full supply-chain replacement evidence.
+local burden, or full supply-chain replacement evidence. The companion NIST
+community-impact report adds childcare and supplier-diversity commitments—an
+important household and local-business bridge, but still no take-up, new seats,
+worker time/retention, or realized local-award evidence.
 
 The next active rotation is now a **storage-light event-compatibility gate**:
 find one dated material or service episode that can be followed through the

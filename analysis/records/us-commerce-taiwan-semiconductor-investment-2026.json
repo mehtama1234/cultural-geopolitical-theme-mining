@@ -62,6 +62,25 @@
       "source_url": "https://www.nist.gov/chips/tsmc-arizona-phoenix",
       "retrieval_hash": "sha256:acbcb37b17f85f3cec3558ed114831e1be57b33d8c05888a21530dc5e05ac7d9",
       "status": "reported"
+    },
+    {
+      "period": "TSMC Arizona CHIPS Community Impact Report dated November 15, 2024; commitment status checked September 17, 2026",
+      "denominator": {"value": null, "unit": "TSMC Arizona facility workforce, contractors, nearby care system, and local small-business opportunity", "value_type": "not_disclosed"},
+      "measures": {
+        "annual_childcare_subsidy": {"value": 1800, "unit": "US dollars per child per year; Arizona facility workforce; licensed or friend/family/neighbor care", "value_type": "reported_commitment"},
+        "provider_discount": {"value": 10, "unit": "percent tuition discount, with enrollment fees waived at participating providers", "value_type": "reported_commitment"},
+        "extended_childcare_hours": {"value": "5:30 AM to 6:30 PM at two locations near the project site, with possible further extension", "unit": "reported care-access commitment", "value_type": "reported_commitment"},
+        "care_navigation": {"value": "Tootris navigation for center and in-home providers, expanded hours, transportation, and back-up care", "unit": "reported support commitment", "value_type": "reported_commitment"},
+        "small_business_participation": {"value": "local spending goals, supplier-diversity training, award and solicitation tracking, small-business solicitation lists, and public opportunity pages", "unit": "reported procurement commitments for women-owned, minority-owned, and veteran-owned businesses", "value_type": "reported_commitment"},
+        "household_and_local_outcomes": {"value": "not observed", "unit": "missing take-up, seats, care stability, time, contract, and distribution endpoint", "value_type": "unmeasured"}
+      },
+      "method": "NIST/CHIPS Community Impact Report review; childcare, workforce-support, and small-business commitments are coded separately from project realization and measured household or supplier outcomes.",
+      "uncertainty": "The report does not disclose subsidy take-up, eligible-worker count, new or occupied seats, provider capacity, care costs after support, worker absence or retention, realized procurement awards, award values, or distribution across local businesses.",
+      "subgroup": "TSMC Arizona employees and contractors with care needs, children and caregivers, childcare providers, nearby families, women-owned/minority-owned/veteran-owned small businesses, and public officials administering CHIPS commitments.",
+      "counterinterpretation": "A subsidy, discount, or navigation tool may expand formal options without making care affordable or available for every shift; supplier-diversity goals may improve access without changing realized award concentration or local economic power.",
+      "source_url": "https://www.nist.gov/system/files/documents/2024/11/14/CHIPS%20for%20America%20TSMC%20Arizona%20Community%20Impact%20Report.pdf",
+      "retrieval_hash": "sha256:c92ca57c4528656fab6271671f04a88101379ead40e33af991bf0361475d57d3",
+      "status": "reported"
     }
   ],
   "related_sources": [
