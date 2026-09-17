@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-281 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+282 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -209,6 +209,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Medical-expense hardship reaches turnout and targeted political participation in CES module extracts | cost, voice | care_health_reproduction, household_room_consumption, political_judgment_action, public_systems_feedback, trust_identity_meaning, unequal_exposure_status | CES 2018 and 2020 public crisis-module Stata extracts in the Politics of Personal Crisis replication package | United States | 2 | 2018 CES crisis module; 2020 CES crisis module | inferred | [open](records/us-cces-medical-affordability-political-participation-2018-2020.json) |
 
 **Boundary:** This record establishes a same-respondent descriptive acquisition layer from medical-expense hardship through responsibility attribution to political participation, including a pooled year-stability screen. It does not establish a causal medical-specific effect, a design-based confidence interval, a bill-to-remedy pathway, or a trust/legitimacy outcome. The 2018 attribution flags allow multiple responses and the 2020 attribution/timing cells are sparse; all category and timing results remain exploratory.
+
+| Reported job loss is followed by lower political action but not uniformly lower Congress approval in a CCES panel | work, voice | work_control_bargaining, unequal_exposure_status, trust_identity_meaning, political_judgment_action, public_systems_feedback | 9,500 respondents in the 2010–2012–2014 Cooperative Congressional Election Study panel; same-panel descriptive comparison using a 2012 retrospective job-loss item and 2014 political outcomes | United States | 1 | 2012 retrospective job-loss screen followed by 2014 political outcomes | compared | [open](records/us-cces-panel-job-loss-political-followup-2012-2014.json) |
+
+**Boundary:** This is a same-panel descriptive follow-up from a retrospective job-loss screen to 2014 institutional approval and political action. It does not establish a dated job-loss effect, causal political response, trust change, attribution, remedy, household recovery, or exit.
 
 | Trust and civic action diverge across joint gig-work and student-debt conditions | cost, voice, work | household_room_consumption, work_control_bargaining, trust_identity_meaning, political_judgment_action, unequal_exposure_status | CCES 2024 post-election respondent | United States | 4 | 2024; no gig work and no student-loan responsibility; 2024; gig work and student-loan responsibility; 2024; no gig work and student-loan responsibility; 2024; gig work and no student-loan responsibility | compared | [open](records/us-cces-trust-action-joint-material-proxies-2024.json) |
 

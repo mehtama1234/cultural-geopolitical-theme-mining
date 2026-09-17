@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 281 records and
-1024 observations.
+have exact registered-URL references. The trend registry holds 282 records and
+1025 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -192,6 +192,11 @@ The companion [Azwar time-control record](projects/ai-work-control/uber-azwar-re
 adds an eligibility-stage distinction between logged-on standby availability,
 paid trip time, and a recurring work pattern; it does not add a remedy or exit
 outcome.
+The retained 2010–2014 CCES panel now adds a compact same-panel work-to-action
+screen: reported job loss precedes 2014 Congress approval, congressional
+contact, and local political action. Lower action with non-uniform approval is
+a counterexample to a single hardship-to-withdrawal or hardship-to-distrust
+rule; exact separation date, attribution, recovery, and exit remain open.
 
 The storage-light Amazon Prime recheck adds an implementation-status
 counterpoint: the settlement administrator FAQ states a July 27, 2026 claims

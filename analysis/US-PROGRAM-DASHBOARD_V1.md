@@ -20,8 +20,8 @@ a source and next test.
 ## Current scale
 
 - **14** program themes
-- **281** validated machine-readable trend records
-- **1024** period-specific observations
+- **282** validated machine-readable trend records
+- **1025** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem

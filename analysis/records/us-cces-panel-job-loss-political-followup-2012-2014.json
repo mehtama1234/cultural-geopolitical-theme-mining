@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cces-panel-job-loss-political-followup-2012-2014",
+  "title": "Reported job loss is followed by lower political action but not uniformly lower Congress approval in a CCES panel",
+  "theme_ids": ["work", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback"
+  ],
+  "source_unit": "9,500 respondents in the 2010–2012–2014 Cooperative Congressional Election Study panel; same-panel descriptive comparison using a 2012 retrospective job-loss item and 2014 political outcomes",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2012 retrospective job-loss screen followed by 2014 political outcomes",
+      "denominator": {
+        "value": 9500,
+        "unit": "panel respondents with valid 2012 job-loss item and supplied panel weight; outcome-specific valid rows vary",
+        "value_type": "linked_panel_respondents"
+      },
+      "measures": {
+        "job_loss_screen": {
+          "value": "829 yes (9.71% weighted); 8,671 no",
+          "unit": "respondents reporting they lost a job during the prior two years in CC12_387_4",
+          "value_type": "weighted_panel_group_counts"
+        },
+        "congress_approval_favorable": {
+          "value": "13.86% after reported job loss versus 10.06% without reported job loss",
+          "unit": "weighted share approving Congress somewhat or strongly in 2014; valid n=827 and 8,626",
+          "value_type": "weighted_followup_comparison"
+        },
+        "congress_approval_unfavorable": {
+          "value": "80.85% after reported job loss versus 81.88% without reported job loss",
+          "unit": "weighted share disapproving Congress somewhat or strongly in 2014; valid n=827 and 8,626",
+          "value_type": "weighted_followup_comparison"
+        },
+        "any_congress_contact": {
+          "value": "37.36% after reported job loss versus 39.14% without reported job loss",
+          "unit": "weighted share reporting any 2014 congressional contact route among visited/called/written/received/public-event/other fields",
+          "value_type": "weighted_followup_comparison"
+        },
+        "any_local_political_action": {
+          "value": "23.93% after reported job loss versus 31.57% without reported job loss",
+          "unit": "weighted share reporting any 2014 local political meeting, political sign, campaign work, or political donation",
+          "value_type": "weighted_followup_comparison"
+        }
+      },
+      "method": "Read the retained CCES panel Stata file; classify CC12_387_4=1 as reported job loss and =2 as no reported job loss; apply the supplied panel weight to 2014 outcome shares. Favorable Congress approval is codes 1–2 and unfavorable approval codes 3–4. Any congressional contact is any affirmative CC14_360x_2 through CC14_360x_8; any local political action is any affirmative CC14_417a_1 through CC14_417a_4.",
+      "uncertainty": "Job loss is a retrospective two-year item, not a dated separation, employer, reason, income loss, or benefit-loss event. The panel is selected and retained; the supplied weight's representativeness for this derived transition is not independently re-established here. Outcome-specific missingness, prior political identity, health, income, unemployment duration, local conditions, and other shocks remain. No replicate-weight or causal uncertainty estimate is claimed.",
+      "subgroup": "2012 reported job loss versus no reported job loss among the retained three-wave panel; 2014 outcomes are separate valid-answer universes.",
+      "counterinterpretation": "A job loss may reduce time, resources, or political action while leaving institution-specific approval shaped by party identity, attribution, economic expectations, or other conditions. The slightly higher favorable Congress share among the job-loss group is a counterexample to a uniform material-hardship-to-distrust rule.",
+      "source_url": "https://doi.org/10.7910/DVN/TOE8I1",
+      "retrieval_hash": "panel_dta:sha256:82c281acaa6a896a1e3071f457f64c68272a746fb43d34e8be50646f7fdc330b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://cces.gov.harvard.edu/frequently-asked-questions",
+      "claim": "The Cooperative Election Study identifies the 2010–2014 panel as a three-wave panel with 9,500 respondents re-interviewed in 2014.",
+      "status": "official-study-description"
+    },
+    {
+      "source_url": "projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md",
+      "claim": "The local audit records variable definitions, panel denominator, weighted calculations, and interpretation boundaries.",
+      "status": "repository-reproduction-audit"
+    }
+  ],
+  "boundary": "This is a same-panel descriptive follow-up from a retrospective job-loss screen to 2014 institutional approval and political action. It does not establish a dated job-loss effect, causal political response, trust change, attribution, remedy, household recovery, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Retained local 9,500-row CCES panel Stata extract; raw panel file remains outside the repository",
+    "retrieval_hash": "panel_dta:sha256:82c281acaa6a896a1e3071f457f64c68272a746fb43d34e8be50646f7fdc330b",
+    "checked": "2026-09-17"
+  }
+}
