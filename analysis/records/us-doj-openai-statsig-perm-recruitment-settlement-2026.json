@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doj-openai-statsig-perm-recruitment-settlement-2026",
+  "title": "Recruitment-channel friction can become a measurable barrier with back-pay and access-restoration obligations",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "US Department of Justice Immigrant and Employee Rights Section settlement agreement with OpenAI OpCo, LLC and Statsig, Inc.",
+  "geography": "United States; OpenAI and Statsig PERM-related recruitment",
+  "observations": [
+    {
+      "period": "2023-06 through 2026-08-03; OpenAI/Statsig settlement effective 2026-08-03",
+      "denominator": {"value": 6, "unit": "five OpenAI PERM-related advertisements and one Statsig PERM-related recruitment identified in the settlement agreement", "value_type": "case_count"},
+      "measures": {
+        "access_barrier": {"value": "US workers were required to submit PERM applications by mail while other applications could be submitted electronically through external job websites", "unit": "recruitment-channel rule", "value_type": "reported"},
+        "covered_period": {"value": "OpenAI beginning no later than June 2023 through at least April 2025; Statsig July 2025", "unit": "case chronology", "value_type": "reported"},
+        "institutional_response": {"value": "$1,200,000 payment to the Treasury plus $2,000,000 reserved for potential back pay to US workers", "unit": "settlement obligation", "value_type": "reported_rule"},
+        "restoration_controls": {"value": "unique posting identifiers, external posting, electronic applications, applicant-tracking capture/searchability, good-faith qualification review, semiannual recruiting reports, and three years of IER oversight", "unit": "prospective settlement controls", "value_type": "reported_rule"},
+        "individual_recovery_process": {"value": "Respondents provide claimant information within 90 days; IER contacts potential claimants within 180 days and determines eligibility; payment is due within 30 days after required forms and waiver", "unit": "back-pay administration route", "value_type": "reported_rule"}
+      },
+      "method": "Targeted review of the official seven-page DOJ settlement agreement; agreement PDF retrieved for page-level inspection and hashed, but not retained in Git.",
+      "uncertainty": "The agreement does not disclose the number of affected US workers, applications, qualified applicants, individual back-pay recipients, completed payments, or whether the new application and tracking controls were implemented by the recheck date. OpenAI denies the allegations and the agreement is not an admission of liability.",
+      "subgroup": "US workers who applied or attempted to apply for PERM positions with OpenAI since 2023-06-01 or Statsig since 2025-07-01 and meet the agreement's protected-individual and qualification conditions; the potential-claimant denominator is not public.",
+      "counterinterpretation": "The agreement treats an additional mail requirement as an unlawful burden in this PERM context, but it does not establish that every mailed applicant was rejected or deterred, that the companies' ordinary recruitment was AI-mediated, or that the back-pay fund was fully distributed. A mandated restoration channel is not the same as verified individual recovery.",
+      "source_url": "https://www.justice.gov/crt/media/1455621/dl?inline=",
+      "retrieval_hash": "sha256:4450829d68d6583b875cfa5fe5ae47078213381af12887ccfd73f54236732e39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.justice.gov/crt/settlements-and-lawsuits", "claim": "The DOJ settlement ledger identifies the August 2026 OpenAI/Statsig settlement, its back-pay fund, penalties, monitoring, and access changes.", "status": "primary-case-ledger"},
+    {"source_url": "../../projects/ai-work-control/worker-workplace-event-ledger-v1.md", "claim": "The worker/workplace ledger defines the missing exposure, outcome, voice, household, and exit fields.", "status": "design-specification"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-084.md", "claim": "The Elegant case is a differently governed comparator with AI-generated advertisements and prospective controls but no public individual-recovery record.", "status": "comparative-case"}
+  ],
+  "boundary": "This is a named US recruitment-enforcement event that links a defined access burden to an official charge/investigation, a potential back-pay fund, access-restoration requirements, and oversight. It does not estimate discrimination prevalence, prove AI involvement in the OpenAI/Statsig process, establish individual payment or restored opportunity, or close later trust, switching, political, household, or geopolitical consequences."
+}

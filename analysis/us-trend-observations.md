@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-261 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+262 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -341,6 +341,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | AI-generated hiring language can convert recruiting automation into an enforceable exclusion and institutional correction | work, voice, cost | work_control_bargaining, unequal_exposure_status, public_systems_feedback, firm_sector_market_power, trust_identity_meaning, political_judgment_action | US Department of Justice Immigrant and Employee Rights Section investigation and settlement record | United States; Elegant Enterprise-Wide Solutions, Inc., a Virginia-based IT services provider | 2 | 2026-02-23 settlement; official DOJ page updated 2026-04-28; 2026-02-23 executed settlement agreement; three-year term from latest signature | reported | [open](records/us-doj-elegant-ai-generated-job-ad-settlement-2026.json) |
 
 **Boundary:** This is a named US AI-assisted recruiting enforcement event linking automated language to an alleged exclusion and dated institutional correction. It does not estimate AI discrimination prevalence, independently identify the model's role in the decision, establish applicant-level opportunity loss or recovery, or close later trust, switching, political action, household, or geopolitical consequences.
+
+| Recruitment-channel friction can become a measurable barrier with back-pay and access-restoration obligations | work, voice, cost | work_control_bargaining, unequal_exposure_status, public_systems_feedback, firm_sector_market_power, trust_identity_meaning, political_judgment_action | US Department of Justice Immigrant and Employee Rights Section settlement agreement with OpenAI OpCo, LLC and Statsig, Inc. | United States; OpenAI and Statsig PERM-related recruitment | 1 | 2023-06 through 2026-08-03; OpenAI/Statsig settlement effective 2026-08-03 | reported | [open](records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json) |
+
+**Boundary:** This is a named US recruitment-enforcement event that links a defined access burden to an official charge/investigation, a potential back-pay fund, access-restoration requirements, and oversight. It does not estimate discrimination prevalence, prove AI involvement in the OpenAI/Statsig process, establish individual payment or restored opportunity, or close later trust, switching, political, household, or geopolitical consequences.
 
 | Energy efficiency turns a public label into a household-cost, market, and climate-choice infrastructure | cost, energy, voice | household_room_consumption, trust_identity_meaning, firm_sector_market_power, public_systems_feedback | EPA ENERGY STAR 2023 annual overview, program impacts, and 2024 Most Efficient criteria | United States; national program and consumer/product market frame | 3 | 2022–2023 program overview; household awareness and purchasing; 1992–2023; program-reported cumulative impact and cost-saving frame; 2024; ENERGY STAR Most Efficient criteria for selected residential products | reported | [open](records/us-energy-star-consumer-efficiency-program-2023-2024.json) |
 
