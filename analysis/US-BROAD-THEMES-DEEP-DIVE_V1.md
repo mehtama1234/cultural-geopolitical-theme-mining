@@ -210,6 +210,14 @@ time/money burden, formal assistance, adequacy, and later trust or movement.
 Read: [neighbor trust and mutual aid](projects/us-cost-trust-politics/pew-2025-neighbor-trust-help-community-capacity-layer-v1.md)
 and [formal/informal support-capacity synthesis](projects/us-cost-trust-politics/formal-informal-support-capacity-cross-source-synthesis-v1.md).
 
+The March 2026 HTOPS screen adds a useful same-round refinement: frequent
+loneliness, low social/emotional support, and food insufficiency rise strongly
+with household expense difficulty, while five-or-more weekly telephone/video
+contact is comparatively flat. Material pressure may therefore narrow the
+adequacy or experience of connection before it eliminates contact. The result
+is descriptive and cross-sectional; it does not identify who supplied help or
+whether connection changed later recovery or action. See the [full finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).
+
 ## 7. Population change reaches politics through conversion stages
 
 Population growth, foreign-born share, citizenship, eligible-voter status,

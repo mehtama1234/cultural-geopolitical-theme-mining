@@ -2919,3 +2919,13 @@ lists corrected March PUF files (the CSV is 19.2 MB), so the route is
 metadata-accessible but not storage-free and is cross-sectional rather than a
 longitudinal bridge. Preserve the gate; do not download or substitute the PUF
 without revalidating the vintage, dictionary, weights, and variables.
+
+The corrected March PUF has now passed a storage-light structural gate and
+produced [one bounded expense-to-social-connection finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).
+Using `EXPENSE_DIFFICULT` with `SOC_LONELY`, `SOC_SUPPORT`, `SOC_TALK`, and
+`FD_SUFF`, plus 80 aligned person replicate weights, the screen shows sharp
+gradients in frequent loneliness, low support, and food insufficiency while
+frequent telephone/video contact is comparatively flat. This is a descriptive
+same-round result, not a causal or longitudinal estimate. The raw 19 MB ZIP is
+temporary and not retained; the next test is a repeated/event design with
+actual help, alternatives, and later recovery or action.

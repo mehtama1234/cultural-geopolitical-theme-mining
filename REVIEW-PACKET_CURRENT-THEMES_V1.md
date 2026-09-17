@@ -149,6 +149,15 @@ index or a claim that the same people appear in every source.
    cross-sectional file; the relevant spreadsheets remain unavailable and no
    estimate has been promoted.
 
+The new [March HTOPS expense-to-social-connection finding](site/us-cost-trust-politics-032.html)
+uses the corrected PUF and 80 replicate weights for a bounded same-round
+screen. Frequent loneliness, low social/emotional support, and food
+insufficiency rise sharply with expense difficulty, while five-or-more weekly
+telephone/video contact is comparatively flat. This strengthens the claim that
+social connection has distinct contact, perceived-connection, and support-
+adequacy currencies; it remains cross-sectional and does not identify a bill,
+actor, remedy, or causal pathway.
+
 ## Recent cross-theme additions
 
 These routes extend the broad chain while keeping each evidence unit and
