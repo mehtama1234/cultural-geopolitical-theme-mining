@@ -105,6 +105,12 @@ attribution, and targeted participation; and ANES supplies worry-to-vote
 ordering. None supplies the full dated event, responsible actor, alternatives,
 meaning, action, remedy, and recovery chain.
 
+The [HTOPS local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
+confirms that the retained local panel record contains no represented
+attribution, distinct civic/political action, remedy, recovery, switching, or
+exit field. This is a local-artifact boundary, not evidence that the source
+PUFs lack those variables.
+
 ## Next decisive test
 
 Prioritize one existing panel or event-compatible source that can observe a

@@ -154,6 +154,13 @@ route. It shows material follow-up without automatic political translation and
 defines the next event-level fields needed for attribution, action, remedy, and
 recovery.
 
+The [HTOPS local endpoint observability audit](htops-2025-local-endpoint-observability-audit-v1.md)
+now makes the immediate acquisition boundary explicit: the retained local
+panel record exposes 36 material and judgment measures, but no attribution,
+distinct action, remedy, recovery, switching, or exit endpoint. This audits the
+local record only; it does not claim those fields are absent from the original
+Census PUFs.
+
 The [political-action menu synthesis](political-action-menu-not-ladder-synthesis-v1.md)
 advances the next broad-program rotation. It keeps voting, contacting,
 volunteering, information exposure, complaint, organizing, switching, and

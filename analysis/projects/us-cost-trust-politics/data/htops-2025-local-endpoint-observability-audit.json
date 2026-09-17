@@ -1,0 +1,74 @@
+{
+  "format": "htops-2025-local-endpoint-observability-audit-v1",
+  "record": "analysis/records/us-census-htops-material-trust-panel-april-june-2025.json",
+  "linked_ids": 6564,
+  "retained_measure_count": 36,
+  "endpoint_status": [
+    {
+      "endpoint": "timed_material_condition_or_followup",
+      "status": "exposed",
+      "retained_measure_keys": [
+        "any_expense_difficulty_no_to_no",
+        "any_expense_difficulty_no_to_yes",
+        "any_expense_difficulty_yes_to_no",
+        "any_expense_difficulty_yes_to_yes",
+        "any_work_last_seven_days_no_to_no",
+        "any_work_last_seven_days_no_to_yes",
+        "any_work_last_seven_days_yes_to_no",
+        "any_work_last_seven_days_yes_to_yes",
+        "food_insufficiency_no_to_no",
+        "food_insufficiency_no_to_yes",
+        "food_insufficiency_yes_to_no",
+        "food_insufficiency_yes_to_yes",
+        "prices_increased_no_to_no",
+        "prices_increased_no_to_yes",
+        "prices_increased_yes_to_no",
+        "prices_increased_yes_to_yes",
+        "recent_household_job_loss_no_to_no",
+        "recent_household_job_loss_no_to_yes",
+        "recent_household_job_loss_yes_to_no",
+        "recent_household_job_loss_yes_to_yes",
+        "unable_to_pay_energy_bill_no_to_no",
+        "unable_to_pay_energy_bill_no_to_yes",
+        "unable_to_pay_energy_bill_yes_to_no",
+        "unable_to_pay_energy_bill_yes_to_yes"
+      ],
+      "interpretation": "The retained record exposes April-to-June linked material transitions and selected later material outcomes."
+    },
+    {
+      "endpoint": "institutional_judgment",
+      "status": "exposed",
+      "retained_measure_keys": [
+        "agrees_policy_makers_need_federal_statistics_no_to_no",
+        "agrees_policy_makers_need_federal_statistics_no_to_yes",
+        "agrees_policy_makers_need_federal_statistics_yes_to_no",
+        "agrees_policy_makers_need_federal_statistics_yes_to_yes",
+        "high_confidence_in_congress_no_to_no",
+        "high_confidence_in_congress_no_to_yes",
+        "high_confidence_in_congress_yes_to_no",
+        "high_confidence_in_congress_yes_to_yes"
+      ],
+      "interpretation": "The retained record exposes confidence/agreement measures, which are judgment outcomes rather than attribution or action."
+    },
+    {
+      "endpoint": "responsible_actor_or_attribution",
+      "status": "not_exposed_in_retained_record",
+      "retained_measure_keys": [],
+      "interpretation": "No actor, blame, responsibility, fairness, or causal attribution field is represented in the committed local panel record."
+    },
+    {
+      "endpoint": "distinct_civic_or_political_action",
+      "status": "not_exposed_in_retained_record",
+      "retained_measure_keys": [],
+      "interpretation": "No vote, contact, complaint, appeal, organizing, volunteering, registration, or withdrawal field is represented in the committed local panel record."
+    },
+    {
+      "endpoint": "remedy_recovery_switching_or_exit",
+      "status": "not_exposed_in_retained_record",
+      "retained_measure_keys": [],
+      "interpretation": "No remedy receipt, later recovery, switching, non-use, or exit field is represented in the committed local panel record."
+    }
+  ],
+  "boundary": "This is an audit of the committed local trend record, not a complete Census PUF codebook audit. A missing endpoint here means it was not retained or represented in the local artifact; it does not prove the original public-use files lack the field. No national estimate or causal claim is made.",
+  "next_gate": "If the PUFs are reacquired, inspect both dictionaries and the shared respondent field surface for dated actor attribution, distinct action, remedy, recovery, switching, and exit before extending the panel estimate."
+}

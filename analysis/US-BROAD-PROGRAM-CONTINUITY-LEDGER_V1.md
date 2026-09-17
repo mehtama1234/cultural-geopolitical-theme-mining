@@ -363,6 +363,15 @@ universe is not row-merged with the R4 screen. This advances the material →
 work → later-status arrow while keeping claim identity, alternatives, remedy,
 household recovery, meaning, action, and exit open.
 
+The thirtieth rotation audits the retained HTOPS panel record's endpoint
+observability through the [local endpoint audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md).
+The record exposes 36 timed material and institutional-judgment measures but
+does not represent attribution, distinct civic/political action, remedy,
+recovery, switching, or exit. This turns the next acquisition into a precise
+dictionary-and-shared-ID check while preserving the distinction between a
+missing local artifact and a missing source variable; no large acquisition or
+new estimate was made.
+
 
 The consumer-power lane was refreshed on 2026-09-13 with a live CFPB
 aggregate-only API snapshot and reusable fetcher. This is current

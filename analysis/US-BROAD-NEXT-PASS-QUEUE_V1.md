@@ -145,6 +145,11 @@ persistence, entry, or recovery sits alongside institutional judgment,
 attribution, trust, and distinct civic action. Keep selected linkage, wave
 timing, attrition, and the distinction between confidence, vote, contact,
 complaint, action, and withdrawal explicit. No large acquisition is required.
+The new [local endpoint observability audit](projects/us-cost-trust-politics/htops-2025-local-endpoint-observability-audit-v1.md)
+confirms that the retained panel record does not expose attribution, distinct
+action, remedy, recovery, switching, or exit. If the PUFs return to the
+workspace, the next step is a dictionary-and-shared-ID audit for those fields
+before any new estimate; the local audit does not imply source-level absence.
 
 ### ILOSTAT comparison gate
 
