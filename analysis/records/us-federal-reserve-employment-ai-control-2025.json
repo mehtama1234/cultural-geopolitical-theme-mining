@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-employment-ai-control-2025",
+  "title": "A softening labor market narrows mobility while AI access and control remain stratified",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "time_hidden_price", "infrastructure_technology_dependency", "trust_identity_meaning", "consumer_power_recourse"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; employment, job-movement, schedule, and generative-AI tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023 to 2025; difficulty finding work among adults ages 18 to 29",
+      "denominator": {"value": 100, "unit": "published percentage base among adults ages 18 to 29; reason categories can coexist", "value_type": "survey_population"},
+      "measures": {
+        "not_working_could_not_find_work_2023": {"value": 11, "unit": "percent of adults ages 18 to 29", "value_type": "subgroup_share"},
+        "not_working_could_not_find_work_2025": {"value": 15, "unit": "percent of adults ages 18 to 29", "value_type": "subgroup_share"},
+        "part_time_could_not_find_full_time_2025": {"value": 10, "unit": "percent of adults ages 18 to 29", "value_type": "subgroup_share"},
+        "total_difficulty_finding_work_2025": {"value": 25, "unit": "percent of adults ages 18 to 29; sum of two reported categories, not a unique-person estimate" , "value_type": "reported_comparison"}
+      },
+      "method": "Federal Reserve 2025 SHED published age-specific reason-for-not-working and part-time-for-no-full-time estimates; the two reasons are retained as separate measures.",
+      "uncertainty": "The cross-sectional survey does not identify duration, prior work history, search intensity, local labor demand, household support, or whether the categories overlap beyond the report's combined presentation.",
+      "subgroup": "Adults ages 18 to 29.",
+      "counterinterpretation": "Not working or working part time may reflect schooling, health, care, preference, or another reason; difficulty finding work is a reported contribution, not a complete causal account.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm",
+      "retrieval_hash": "sha256:f8a7d4219b19976db459dfba21ffac27865284b2e5b2cf855afabee548ebf00b",
+      "status": "compared"
+    },
+    {
+      "period": "2022 to 2025; layoffs, voluntary exits, and job changes among adults",
+      "denominator": {"value": 100, "unit": "published percentage bases among all adults; indicators are separate populations/events", "value_type": "survey_population"},
+      "measures": {
+        "laid_off_2024": {"value": 6, "unit": "percent of adults", "value_type": "reported_comparison"},
+        "laid_off_2025": {"value": 7, "unit": "percent of adults", "value_type": "share"},
+        "black_adults_laid_off_2025": {"value": 13, "unit": "percent of Black adults", "value_type": "subgroup_share"},
+        "left_job_voluntarily_2024": {"value": 9, "unit": "percent of adults", "value_type": "reported_comparison"},
+        "left_job_voluntarily_2025": {"value": 8, "unit": "percent of adults", "value_type": "share"},
+        "started_new_job_2022": {"value": 15, "unit": "percent of adults; peak reported in comparison", "value_type": "reported_comparison"},
+        "started_new_job_2025": {"value": 13, "unit": "percent of adults", "value_type": "share"},
+        "new_job_better_2025": {"value": 60, "unit": "percent of adults who changed jobs and answered the comparison item", "value_type": "conditional_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published annual job-separation and job-movement comparisons; layoffs, voluntary exits, new jobs, and perceived improvement retain separate denominators.",
+      "uncertainty": "These are retrospective self-reports with changing question comparability before 2020; they do not measure employer-level layoffs, job duration, wages, benefits, or the reasons for each move.",
+      "subgroup": "All adults, with a reported Black-adult layoff subgroup and job changers for the improvement measure.",
+      "counterinterpretation": "Lower voluntary exits can reflect job satisfaction, fewer attractive alternatives, or both; a job described as better does not establish durable security or bargaining power.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm",
+      "retrieval_hash": "sha256:f8a7d4219b19976db459dfba21ffac27865284b2e5b2cf855afabee548ebf00b",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; generative-AI use, perceived benefits, and replacement concern among workers",
+      "denominator": {"value": 100, "unit": "published percentage base among workers; use and attitude items have distinct response wording", "value_type": "conditional_population"},
+      "measures": {
+        "used_generative_ai_prior_month": {"value": 25, "unit": "percent of workers", "value_type": "share"},
+        "ai_saves_time_all_workers": {"value": 44, "unit": "percent of workers agreeing generative AI saves time in their job", "value_type": "attitude_share"},
+        "ai_improves_quality_all_workers": {"value": 52, "unit": "percent of workers who used generative AI agreeing it improved quality", "value_type": "conditional_share"},
+        "ai_use_high_school_or_less": {"value": 10, "unit": "percent of workers with high school degree or less", "value_type": "subgroup_share"},
+        "ai_use_graduate_degree": {"value": 43, "unit": "percent of workers with a graduate degree", "value_type": "subgroup_share"},
+        "ai_use_high_task_control": {"value": 30, "unit": "percent of employees often or always controlling how to complete tasks", "value_type": "subgroup_share"},
+        "ai_use_lower_task_control": {"value": 20, "unit": "percent of employees with less control over how to complete work", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published worker-reported generative-AI use, attitudes, education groups, and task-control groups; the report does not treat observed association as a causal effect.",
+      "uncertainty": "The survey does not identify tool, task, intensity, employer policy, productivity, pay, displacement, or whether control caused adoption; subgroup categories and attitude items are not a worker-level panel.",
+      "subgroup": "Workers overall, by education, and by reported control over how work is completed.",
+      "counterinterpretation": "AI use may be higher where tasks fit the tool or employers permit it; lower use can reflect job type, privacy, quality concerns, or restricted access rather than lower capability.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm",
+      "retrieval_hash": "sha256:f8a7d4219b19976db459dfba21ffac27865284b2e5b2cf855afabee548ebf00b",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; work location and schedule control",
+      "denominator": {"value": 100, "unit": "published percentage base among workers or employees as specified", "value_type": "conditional_population"},
+      "measures": {
+        "worked_from_home_any": {"value": 39, "unit": "percent of workers in the prior week", "value_type": "share"},
+        "worked_entirely_from_home": {"value": 17, "unit": "percent of workers in the prior week", "value_type": "share"},
+        "employer_needs_schedule_variation": {"value": 16, "unit": "percent of employees with schedules varying based on employer needs", "value_type": "subgroup_share"},
+        "worker_requested_schedule_variation": {"value": 10, "unit": "percent of employees with schedules varying at their own request", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published work-from-home and schedule-variation estimates; work location and schedule items describe separate dimensions of work organization.",
+      "uncertainty": "The measures do not identify commute time, hours, pay, schedule predictability, care outcomes, employer power, or whether a requested schedule change was granted.",
+      "subgroup": "Workers for work-location measures and employees for schedule-variation measures.",
+      "counterinterpretation": "Employer-driven schedule variation can be compatible with flexibility in some jobs, while a fixed schedule can still be difficult or inaccessible; neither measure alone ranks job quality.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm",
+      "retrieval_hash": "sha256:f8a7d4219b19976db459dfba21ffac27865284b2e5b2cf855afabee548ebf00b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/jlt/", "claim": "BLS JOLTS supplies employer-based openings, hires, quits, and layoffs context with a different unit and denominator.", "status": "related", "access_boundary": "Employer rates are not respondent-level job movement or AI exposure."},
+    {"source_url": "https://www.nber.org/papers/w34255", "claim": "The NBER task-level generative-AI study supplies a complementary task/adoption surface.", "status": "related", "access_boundary": "Task-level evidence and SHED worker perceptions are not interchangeable."}
+  ],
+  "boundary": "This record establishes 2025 respondent-level labor-market friction, mobility, work organization, and AI-use/control differences. It does not establish causal AI displacement, productivity, job quality, bargaining power, household welfare, political response, or a worker-level path from layoff or control to adoption and later exit. Employment, mobility, schedule, AI use, perceived benefit, and replacement concern remain separate stages."
+}

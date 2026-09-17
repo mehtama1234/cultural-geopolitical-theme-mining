@@ -70,6 +70,7 @@ forty-eight estimates of one phenomenon:
 | 30. Formal digital-payment remedy versus lived recovery | [CFPB Cash App fraud redress case record](projects/us-customer-automation-recourse/cfpb-cash-app-fraud-redress-case-record-v1.md) | A named US enforcement action documents fraud/dispute-process failures, required operational changes, and up to $120 million in consumer redress; formal remedy is separated from individual receipt, correction, trust, and exit | Case-level loss, dispute effort, payment receipt, restored access, repeat contact, alternative provider, switching, trust, and practical exit |
 | 31. Banking access, substitution, and fraud recourse | [2025 SHED banking-substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md) | Income-patterned unbanked status, overdraft exposure, nonbank transaction routes, fraud recovery, provider contact, and reported switching are visible as distinct stages | Dated account/case event, provider responsibility, verified recovery, alternative quality, trust, and practical exit |
 | 32. Care, living arrangements, and paid-work tradeoffs | [2025 SHED care and living-arrangements finding](projects/us-aging-care-strain/findings/us-aging-care-strain-003.md) | Multigenerational living, paid/unpaid childcare, cost relative to housing, gendered caretaker roles, adult caregiving, and caregiving-related employment status are visible as distinct population surfaces | Dated care need, alternative quality, schedule control, displaced work/time, employer or public response, recovery, meaning, and action |
+| 33. Labor mobility, workplace control, and AI access | [2025 SHED employment and AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-017.md) | Young-adult entry friction, layoffs, voluntary exits, new-job starts, work schedules, and education/control-stratified AI use are visible as separate surfaces | Same-worker job event, employer policy, task control, schedule/pay/benefit change, remedy, household effect, trust, and political response |
 | 31. Administrative redress distribution versus individual recovery | [CFPB BrightSpeed redress distribution record](projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md) | A public case page identifies an eligible class, aggregate compensable harm, payment administrator, and ongoing distribution; aggregate distribution status is stronger than an order alone but is not a consumer recovery rate | Successful payment receipt, amount received, remaining loss, repeat effort, restored practical options, trust, switching, and exit |
 | 32. Compensation versus obligation restoration | [CFPB Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md) | The CFPB reports ongoing checks while explicitly stating that payments do not change or reduce affected student loans; compensation and restoration are separate endpoints | Payment receipt, loan-balance correction, repayment-plan change, remaining loss, servicing effort, trust, switching, and exit |
 | 33. Subscription attention and practical exit | [Recurring payment and consumer exit](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md) | The FTC's Shutterstock case connects alleged unclear renewal terms and difficult cancellation to a proposed disclosure/consent/simple-exit remedy, while leaving prevalence and household incidence open | Same-account notice, charge, customer intent, attempted cancellation, effort, relief receipt, continued use, switching, and trust |
@@ -81,7 +82,7 @@ forty-eight estimates of one phenomenon:
 
 ### The common pattern
 
-Across the forty-nine rotations, the strongest recurring theme is **unequal
+Across the fifty rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
@@ -487,7 +488,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 292 machine-readable records, 1043 observations,
+The current registry contains 293 machine-readable records, 1047 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
