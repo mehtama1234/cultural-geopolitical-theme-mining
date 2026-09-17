@@ -186,6 +186,7 @@ same people appear in every route.
 - [Pew 2026 Muslim-American discrimination, capacity, and political-visibility layer](analysis/projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md): community population, mosques, and representation grew while negative public judgments, discrimination, and partisan polarization remained substantial.
 - [BLS 2025 major work stoppages and collective-action boundary](analysis/projects/ai-work-control/bls-2025-major-work-stoppages-collective-action-boundary-v1.md): major stoppages provide an observed worker-action event, while count, scale, settlement, service incidence, and bargaining power remain distinct.
 - [Pew 2026 press-freedom limits and public-information norms layer](analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md): broad support for press freedom coexists with conditional support for restrictions and a sharp partisan reversal in perceived freedom and concern.
+- [BLS 2025 foreign-born work, earnings, and labor-room boundary](analysis/projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md): foreign-born workers are a large labor-force component with distinct occupational, earnings, regional, gender, and care patterns, without a causal migration claim.
 
 The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later

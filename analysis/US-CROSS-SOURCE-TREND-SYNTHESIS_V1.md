@@ -650,6 +650,15 @@ falls from 33% in 2024-25 to 28% in 2026, while the partisan pattern reverses:
 while high concern is 29% versus 64%. These are public norms and perceptions,
 not censorship, accuracy, platform-control, or media-effect measures.
 
+The [BLS 2025 foreign-born work, earnings, and labor-room boundary](projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md)
+adds a labor-market migration surface: foreign-born workers were 19.1% of the
+civilian labor force, with 4.2% unemployment versus 4.3% among native-born
+workers, but median weekly earnings of $1,059 versus $1,236 for full-time wage
+and salary workers. Occupational, regional, gender, and care differences are
+visible, but the release does not identify causal migration effects, worker
+displacement, household welfare, or public-service demand. BLS's shutdown-year
+comparability warning remains explicit.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

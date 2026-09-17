@@ -341,6 +341,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-latino-american-dream-mobility-meaning-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/institutional-legitimacy-power-attribution-cross-source-synthesis-v1.md")
     memos.append(ROOT / "analysis/projects/us-food-budget-security/usda-2024-food-security-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-household-financial-pressure/census-2025-income-poverty-insurance-vintage-layer-v1.md")

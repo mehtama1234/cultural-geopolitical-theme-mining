@@ -2583,6 +2583,15 @@ the existing press-government relationship layer. The next test is a defined
 information controversy joined to source use, accuracy judgment, platform or
 government response, sharing/reporting behavior, and political action.
 
+The [BLS 2025 foreign-born work, earnings, and labor-room boundary](projects/us-immigration-local-demand/bls-2025-foreign-born-work-labor-room-boundary-v1.md)
+adds a migration-to-work distribution surface: foreign-born workers were 19.1%
+of the civilian labor force, with distinct earnings, occupations, regions,
+gender, and care patterns. The BLS release excludes October because of the
+federal shutdown and direct retrieval is blocked, so this remains a detailed
+source-vintage memo rather than a canonical record. The next test is a local
+labor-market and household design joining work, housing, childcare, transport,
+service capacity, and later meaning or political action.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
