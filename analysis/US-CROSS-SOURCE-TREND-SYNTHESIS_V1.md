@@ -546,7 +546,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 302 machine-readable records, 1078 observations,
+The current registry contains 303 machine-readable records, 1081 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -640,6 +640,15 @@ government stoppages. The comparison also shows why event count is not power:
 2023 involved 458,900 workers across 33 stoppages, versus 306,800 across 30 in
 2025. Stoppage, settlement, service incidence, worker security, and political
 meaning remain separate stages.
+
+The [Pew 2026 press-freedom limits and public-information norms layer](projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md)
+adds a conditional-legitimacy surface to the media lane. Seventy-three percent
+say press freedom is highly important to society, but 53% prioritize preventing
+inaccurate reporting even if freedom is limited. Perceived complete freedom
+falls from 33% in 2024-25 to 28% in 2026, while the partisan pattern reverses:
+41% of Republicans versus 18% of Democrats see the press as completely free,
+while high concern is 29% versus 64%. These are public norms and perceptions,
+not censorship, accuracy, platform-control, or media-effect measures.
 
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)

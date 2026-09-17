@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-press-freedom-limits-2026",
+  "title": "Americans broadly value press freedom while accepting conditional restrictions and dividing by party over current constraints",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center Pew-Knight Initiative American Trends Panel surveys and focus groups",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "June 22-28, 2026; importance of press freedom and accuracy tradeoff",
+      "denominator": {"value": 3488, "unit": "US adults in Pew American Trends Panel survey; weighted estimates", "value_type": "survey_respondents"},
+      "measures": {"press_freedom_extremely_or_very_important": {"value": 73, "unit": "percent", "value_type": "published_share"}, "press_freedom_little_or_not_important": {"value": 8, "unit": "percent", "value_type": "published_share"}, "prioritize_accuracy_over_freedom": {"value": 53, "unit": "percent choosing prevention of inaccurate reporting even if press freedom is limited", "value_type": "published_share"}, "prioritize_freedom_over_accuracy": {"value": 45, "unit": "percent choosing press freedom even if some reporting is inaccurate", "value_type": "published_share"}},
+      "method": "Pew weighted American Trends Panel survey with a forced-choice normative item; nonresponses are not shown in the published contrast.",
+      "uncertainty": "Importance and tradeoff responses are normative judgments. The survey does not define inaccurate reporting operationally or identify who respondents authorize to decide.",
+      "subgroup": "US adults",
+      "counterinterpretation": "A respondent can value press freedom highly and still support a narrowly defined restriction; the two measures are not logical opposites.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:b6dcf79a0ae707b6a6a27920a6917515cfa36943baa005b4e165ac132bf7cd3a",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; perceived press freedom and concern about restrictions",
+      "denominator": {"value": 3488, "unit": "US adults in 2026 Pew American Trends Panel survey; historical comparison uses source-reported survey waves", "value_type": "survey_respondents"},
+      "measures": {"completely_free_2024": {"value": 33, "unit": "percent", "value_type": "published_share"}, "completely_free_2025": {"value": 33, "unit": "percent", "value_type": "published_share"}, "completely_free_2026": {"value": 28, "unit": "percent", "value_type": "published_share"}, "high_concern_2024": {"value": 41, "unit": "percent extremely or very concerned", "value_type": "published_share"}, "high_concern_2026": {"value": 46, "unit": "percent", "value_type": "published_share"}},
+      "method": "Repeated Pew survey items with source-defined wording and weighted estimates.",
+      "uncertainty": "Perceived freedom is not a legal, content, or institutional audit; political context and question wording can influence responses.",
+      "subgroup": "US adults across 2024-2026 survey waves",
+      "counterinterpretation": "A lower perceived freedom score may reflect changing expectations, political salience, or information environments rather than a measured change in press constraints.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:b6dcf79a0ae707b6a6a27920a6917515cfa36943baa005b4e165ac132bf7cd3a",
+      "status": "reported"
+    },
+    {
+      "period": "June 22-28, 2026; partisan differences in perceived freedom and concern",
+      "denominator": {"value": 3488, "unit": "US adults in Pew survey; subgroup estimates by party identification/leaning", "value_type": "survey_respondents"},
+      "measures": {"republican_completely_free": {"value": 41, "unit": "percent", "value_type": "published_share"}, "democratic_completely_free": {"value": 18, "unit": "percent", "value_type": "published_share"}, "republican_high_concern": {"value": 29, "unit": "percent", "value_type": "published_share"}, "democratic_high_concern": {"value": 64, "unit": "percent", "value_type": "published_share"}},
+      "method": "Pew party-identification/leaning subgroup comparison; source reports 2024-2026 reversal in partisan direction.",
+      "uncertainty": "Party groups differ in political context, media use, ideology, and interpretation of restriction; the contrast does not identify a single cause.",
+      "subgroup": "Republican/Republican-leaning and Democratic/Democratic-leaning US adults",
+      "counterinterpretation": "The partisan reversal may reflect which party controls the presidency and current news conflict rather than a permanent party difference in press norms.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/09/15/americans-value-press-freedom-but-differ-on-its-limits/",
+      "retrieval_hash": "sha256:b6dcf79a0ae707b6a6a27920a6917515cfa36943baa005b4e165ac132bf7cd3a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/", "claim": "The companion layer measures perceived government-news relationship quality, media power, and norms of reciprocal criticism.", "status": "cross-source-context"}, {"source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/", "claim": "Public-life engagement groups provide a separate political-interest, source-trust, and action context.", "status": "cross-source-context"}],
+  "boundary": "This record measures public importance judgments, perceived press freedom, conditional restriction preferences, and party differences. It does not measure actual censorship, news accuracy, platform moderation, ownership, exposure, source switching, political participation, or causal media effects; focus groups are not representative and are not pooled with survey estimates.",
+  "retrieval_hash": "sha256:b6dcf79a0ae707b6a6a27920a6917515cfa36943baa005b4e165ac132bf7cd3a"
+}

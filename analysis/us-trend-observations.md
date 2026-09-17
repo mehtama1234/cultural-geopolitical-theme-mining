@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-302 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+303 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -817,6 +817,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Platform-mediated news and civic life divide into distinct attention, trust, and action routes | voice, cost, work | platforms_data_attention, trust_identity_meaning, political_judgment_action, unequal_exposure_status, consumer_power_recourse | Pew Research Center US adult surveys and selected public social-media news-influencer accounts | United States | 3 | Late 2025; 19-measure news, political, civic, religious, and attention typology; March 2025; news-source familiarity, use, trust, and distrust survey; 2025; social-media news-influencer exposure and perceived informational difference | reported | [open](records/us-pew-news-platform-civic-engagement-2025.json) |
 
 **Boundary:** This record measures distinct population engagement styles, partisan news-source ecosystems, and social-media news-influencer exposure. It does not join respondents across studies, establish platform causation, measure actual content accuracy, or infer that attention, trust, sharing, or continued use equals informed control or political influence. The retrieval hash covers the committed Pew synthesis memo.
+
+| Americans broadly value press freedom while accepting conditional restrictions and dividing by party over current constraints | voice, cost, time | platforms_data_attention, trust_identity_meaning, political_judgment_action, public_systems_feedback, unequal_exposure_status | Pew Research Center Pew-Knight Initiative American Trends Panel surveys and focus groups | United States | 3 | June 22-28, 2026; importance of press freedom and accuracy tradeoff; 2024-2026; perceived press freedom and concern about restrictions; June 22-28, 2026; partisan differences in perceived freedom and concern | reported | [open](records/us-pew-press-freedom-limits-2026.json) |
+
+**Boundary:** This record measures public importance judgments, perceived press freedom, conditional restriction preferences, and party differences. It does not measure actual censorship, news accuracy, platform moderation, ownership, exposure, source switching, political participation, or causal media effects; focus groups are not representative and are not pooled with survey estimates.
 
 | Americans judge the press-government relationship as bad while disagreeing over media power and permissible criticism | voice, cost | trust_identity_meaning, platforms_data_attention, political_judgment_action, public_systems_feedback, unequal_exposure_status | Pew Research Center Pew-Knight Initiative surveys and focus groups on press freedom | United States | 3 | June 22-28, 2026; perceived relationship between the Trump administration and US news media; June 22-28, 2026; perceived political power of US news organizations; June 22-28, 2026; acceptability of public criticism between journalists and politicians | reported | [open](records/us-pew-press-government-media-legitimacy-2026.json) |
 

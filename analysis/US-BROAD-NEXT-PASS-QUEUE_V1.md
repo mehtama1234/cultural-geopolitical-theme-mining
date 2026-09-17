@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 302 records and
-1078 observations.
+have exact registered-URL references. The trend registry holds 303 records and
+1081 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2574,6 +2574,14 @@ retrieval, this remains a detailed source-vintage memo rather than a canonical
 machine record. The next test is a named-stoppage ledger linking demands,
 settlement, employer response, service-user effects, worker security, and later
 organizing or political action.
+
+The [Pew press-freedom limits and public-information norms layer](projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md)
+adds a conditional-legitimacy test: 73% value press freedom highly, but 53%
+prioritize preventing inaccurate reporting even if freedom is limited. The
+partisan reversal in perceived freedom and concern is recorded separately from
+the existing press-government relationship layer. The next test is a defined
+information controversy joined to source use, accuracy judgment, platform or
+government response, sharing/reporting behavior, and political action.
 
 ## Sequencing rule
 
