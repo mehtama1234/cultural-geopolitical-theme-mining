@@ -25,3 +25,9 @@ adds a customer-side case: closure raised observed travel distance and created
 highly uneven modeled welfare losses even without durable aggregate price
 effects. It complements the loan result but does not measure aid receipt,
 worker security, or owner recovery.
+
+The [Harvey recovery-and-legitimacy finding](findings/us-harvey-recovery-aid-legitimacy-001.md)
+adds a resident judgment layer: recovery progress coexisted with persistent
+disruption, unmet-help reports, and doubts that relief reached those most in
+need. It is descriptive survey evidence, not a causal aid-to-political-action
+estimate.

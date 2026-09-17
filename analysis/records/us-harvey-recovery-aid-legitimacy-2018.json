@@ -1,0 +1,38 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-harvey-recovery-aid-legitimacy-2018",
+  "title": "A year after Hurricane Harvey, recovery disruption and doubts about aid distribution remained concentrated among affected residents",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["unequal_exposure_status", "public_systems_feedback", "political_judgment_action", "trust_identity_meaning", "household_room_consumption", "housing_place_mobility", "care_health_reproduction"],
+  "source_unit": "KFF/Episcopal Health Foundation weighted survey of adults in 24 heavily impacted Texas Gulf Coast counties, fielded late June through late July 2018; follow-up about 10–11 months after Harvey",
+  "geography": "United States; 24 Texas Gulf Coast counties containing about 94% of the population in 41 declared disaster counties",
+  "observations": [
+    {
+      "period": "June–July 2018, approximately one year after Hurricane Harvey",
+      "denominator": {"value": null, "unit": "Weighted adult resident survey; exact respondent count is not stated in the retained report summary", "value_type": "not_disclosed"},
+      "measures": {
+        "affected_share": {"value": 58, "unit": "percent of residents reporting home/vehicle damage or household job, hours, or income loss", "value_type": "weighted_share"},
+        "still_disrupted": {"value": 30, "unit": "percent of affected residents reporting lives very or somewhat disrupted nearly one year later", "value_type": "weighted_share"},
+        "not_getting_needed_help": {"value": 42, "unit": "percent of affected residents", "value_type": "weighted_share"},
+        "financial_situation_worse": {"value": 23, "unit": "percent of affected residents attributing a worse personal financial situation to Harvey", "value_type": "weighted_share"},
+        "quality_of_life_worse": {"value": 17, "unit": "percent of affected residents attributing worse overall quality of life to Harvey", "value_type": "weighted_share"},
+        "relief_confidence": {"value": 54, "unit": "percent of all 24-county residents very or somewhat confident relief money benefits those who need it most; 42% not too/not at all confident", "value_type": "weighted_share"},
+        "public_input_awareness": {"value": 9, "unit": "percent of all area residents aware of long-term federal funding and saying there is a public-input route; report summary also says 73% did not know enough to say", "value_type": "weighted_share"},
+        "federal_or_sba_application": {"value": 41, "unit": "percent of affected residents reporting an application to FEMA or SBA; among applicants 39% said approved and 42% denied", "value_type": "weighted_share"}
+      },
+      "method": "Use the KFF/EHF weighted resident survey as a descriptive follow-up, preserving affected-resident definitions, geography, subgroup contrasts, perceived help, and relief-confidence measures; do not infer political action from confidence or awareness.",
+      "uncertainty": "The survey is representative of the selected 24-county region, not the United States or all Harvey residents. Affected status is self-reported; aid application, approval, satisfaction, confidence, and public-input awareness are survey reports rather than linked administrative records. The cross-section does not identify later voting, contacting, protest, exit, or causal attribution.",
+      "subgroup": "Affected residents, with reported contrasts by Black identity, Hispanic identity, income below 200% FPL, Golden Triangle/coastal geography, major damage, and continued displacement.",
+      "counterinterpretation": "A majority saying relief is reaching those most in need can coexist with substantial unmet need; confidence may reflect general preparedness judgments or information rather than realized recovery. Awareness of a public-input route is not participation.",
+      "source_url": "https://www.kff.org/mental-health/one-year-after-storm-texas-gulf-coast-residents-views-experiences-hurricane-harvey-recovery/",
+      "retrieval_hash": "source_packet:sha256:768e1aa1c9855c7b1ec565a1a5ef4c692ffbd054064ae8fd9b995ac34de56493",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md", "claim": "The committed source packet records the survey source and its geography and interpretation limits.", "status": "repository-source-packet"},
+    {"source_url": "https://www.kff.org/mental-health/one-year-after-storm-texas-gulf-coast-residents-views-experiences-hurricane-harvey-recovery/", "claim": "The report provides detailed resident recovery, aid, financial, health, and relief-confidence measures.", "status": "survey-report"}
+  ],
+  "boundary": "This record closes a descriptive exposure-to-recovery-judgment arrow for a defined Texas Gulf Coast population after Harvey. It does not establish a causal effect of aid, firm survival, customer access, political participation, trust change, or general disaster legitimacy.",
+  "reproduction_audit": {"retrieval_hash_scope": "Existing local source-search packet and KFF/EHF report page; no survey microdata or bulk files retained", "retrieval_hash": "source_packet:sha256:768e1aa1c9855c7b1ec565a1a5ef4c692ffbd054064ae8fd9b995ac34de56493", "checked": "2026-09-17"}
+}

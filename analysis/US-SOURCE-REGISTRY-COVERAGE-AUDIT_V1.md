@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **76**
+- Observed domains outside registered families: **77**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -178,6 +178,7 @@ family that will be acquired, compared, or maintained over time.
 | `hrs.isr.umich.edu` | 6 | `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md` |
 | `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
+| `kff.org` | 5 | `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md`; `analysis/projects/us-small-business-disaster-liquidity/findings/us-harvey-recovery-aid-legitimacy-001.md` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `afajof.org` | 4 | `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md`; `analysis/projects/us-small-business-disaster-liquidity/effect-size-audit-v1.md` |
 | `benklopack.github.io` | 4 | `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md`; `analysis/projects/us-small-business-disaster-liquidity/findings/us-harvey-firm-turnover-consumer-welfare-001.md` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 | `freemalaysiatoday.com` | 3 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
 | `ftrebbi.com` | 3 | `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json`; `analysis/records/us-nber-real-wages-inflation-elections-2021-2024.json` |
-| `ils.dole.gov.ph` | 3 | `analysis/projects/ai-work-control/philippines-fairwork-platform-management-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md`; `analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md` |
 
 ## Reverse-audit decisions
 
@@ -228,6 +228,7 @@ without a recurring acquisition need and source-specific metadata.
 | `hrs.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
+| `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |

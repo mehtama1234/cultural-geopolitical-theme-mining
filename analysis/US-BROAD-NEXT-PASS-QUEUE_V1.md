@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-16):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 287 records and
-1030 observations.
+have exact registered-URL references. The trend registry holds 288 records and
+1031 observations.
 The reverse audit shows 33 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -240,6 +240,14 @@ localized modeled welfare losses, while higher-value entry did not fully replace
 stores in the hardest-hit neighborhoods. The next step is to align customer
 income, vehicle access, trip purpose, and missed purchases with firm aid or
 insurance receipt; the raw payment-card panel is not needed by default.
+
+The Harvey recovery survey adds the judgment layer: 30% of affected residents
+still reported disruption nearly a year later, 42% said they were not getting
+needed help, and confidence that relief reached those most in need was lower
+among more heavily affected groups. This is a descriptive legitimacy surface,
+not a causal aid-to-action result; the next route is a lawful same-resident
+link to verified aid, displacement, health/work recovery, and later civic
+behavior.
 
 ### ILOSTAT comparison gate
 
