@@ -1451,6 +1451,11 @@ market-transition or household result.
   tenure contrast is comparatively flat. These are small, status-conditioned
   Fay-BRR comparisons; stable hours are not stable security and the result is
   not a food, child, or resource causal effect.
+- **SIPP household-room synthesis:** the [non-pooled synthesis](projects/us-household-calendar-integration/findings/us-household-calendar-integration-037.md)
+  makes the central interpretation explicit: measured hours can remain stable
+  while earnings, care arrangements, housing position, unpaid time, or
+  hardship narrow household room. It is an interpretive bridge across separate
+  SIPP surfaces, not a pooled burden index or a dated household episode.
 - **SIPP utility/care security bridge:** the selected renter layer now keeps
   utility difficulty and annual child-care work prevention beside following
   mortgage hardship, food insecurity, and resource-band movement. The
