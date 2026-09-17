@@ -2793,3 +2793,11 @@ benefits, eligibility churn, food/health security, and comparable firms. Keep
 individual work, household SNAP receipt, Medicaid enrollment, and employer
 presence as distinct universes; do not infer employer intent or “dependency”
 from co-occurrence.
+
+The [GAO disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
+adds a labor-market entry test to the care and safety-net lanes. The next pass
+should use compact official evidence for accommodation requests, interpreter
+and technology access, outside-training barriers, service completion, placement,
+retention, and monitoring correction. Preserve voluntary non-disclosure and
+missingness; do not read a disability count, guidance document, or monitoring
+visit as successful employment access.

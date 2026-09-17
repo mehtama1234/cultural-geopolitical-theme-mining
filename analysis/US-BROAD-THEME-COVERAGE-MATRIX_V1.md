@@ -160,3 +160,9 @@ adds physical, sensory, communication, digital, bias, data, and civil-rights
 oversight conditions to themes 2, 5, 6, and 10. It strengthens the distinction
 between nominal coverage and usable care, while leaving barrier prevalence,
 completed-episode effects, correction, and exit open.
+
+The [GAO disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
+adds disability disclosure, accommodation, job-center and training access,
+service completion, employment outcomes, and DOL monitoring to themes 2, 5, 6,
+7, and 10. It strengthens the public-interface-to-work arrow while leaving
+causal barriers, provider differences, and durable employment effects open.

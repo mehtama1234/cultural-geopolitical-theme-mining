@@ -1042,3 +1042,9 @@ to Medicaid or SNAP, with private-sector and occupational concentration plus
 selected-state repeated employers. It keeps open the arrows from hours, wages,
 benefits, and eligibility continuity to household security, worker mobility,
 and employer responsibility.
+
+The [GAO disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
+adds public employment infrastructure between disability-related need and labor
+market opportunity. It preserves the open links from voluntary disclosure and
+accommodation to completed service, placement, retention, household security,
+and local oversight correction.

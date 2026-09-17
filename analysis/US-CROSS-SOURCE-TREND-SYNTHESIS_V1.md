@@ -1321,6 +1321,16 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
+extends the accessibility thesis into labor-market entry. Seven percent of
+participants in selected DOL workforce programs reported disabilities, 43% of
+those reporters did not provide a disability type, and GAO found local
+challenges with interpreters, outside training accessibility, monitoring
+aggregation, and guidance awareness. The participant and job-center samples do
+not identify causal barriers or employment effects. The next test links
+voluntary accommodation need to service completion, placement, retention, and
+local corrective action.
+
 The [GAO 2026 working adults, Medicaid/SNAP, and employer reliance layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
 adds a labor–safety-net bridge. About 13.8 million Medicaid-enrolled adults and
 10.6 million adults in SNAP-receiving households worked at some point in 2024;

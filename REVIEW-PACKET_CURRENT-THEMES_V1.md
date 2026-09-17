@@ -75,6 +75,10 @@ index or a claim that the same people appear in every source.
    large employers, but work intensity, household receipt, benefit continuity,
    and employer responsibility are separate questions. Read the [working
    adults and safety-net layer](site/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.html).
+11. **Workforce access is an institutional conversion chain:** job-center
+   eligibility, accommodation, technology, training completion, placement, and
+   retention can diverge, especially when DOL cannot aggregate local monitoring.
+   Read the [disability workforce-program access layer](site/gao-2026-disability-workforce-program-access-layer-v1.html).
 
 ## Recent cross-theme additions
 
