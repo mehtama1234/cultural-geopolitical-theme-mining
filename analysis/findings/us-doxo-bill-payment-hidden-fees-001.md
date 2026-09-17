@@ -33,6 +33,15 @@ information, and express informed consent. The public release does not show
 who receives redress, how much, whether a bill was successfully paid, or
 whether a household avoided late fees, arrears, or service interruption.
 
+## Short answer
+
+The Doxo record adds a bounded household-payment mechanism: a third-party bill
+route can make affiliation and total cost harder to understand, shifting money
+and recourse effort onto consumers before any downstream bill or service effect
+is observed. The FTC remedy makes institutional response visible, but the
+public evidence still cannot identify payment success, household incidence,
+service continuity, redress receipt, or later switching.
+
 ## Evidence boundary
 
 | Stage | Public evidence | Still open |

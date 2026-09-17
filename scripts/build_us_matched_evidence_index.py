@@ -38,6 +38,7 @@ routes = {
     "us-health-cost-household-choice-matched-evidence-001": ("Cost / health / work / voice", "medical cost → care choice → debt or work shock", "same-household health, income, and trust result"),
     "us-consumer-credit-liquidity-matched-evidence-001": ("Cost / finance / voice", "bill shock → cash gap → credit → future room", "same-household repayment and later access"),
     "us-hidden-fees-price-salience-matched-evidence-001": ("Cost / customer / finance / voice", "headline price → late cost → choice → final burden", "same-household cost, quality, and repeat choice"),
+    "us-doxo-bill-payment-hidden-fees-001": ("Cost / time / voice", "bill due → search route → intermediary fee or friction → public remedy", "payment success, bill status, service continuity, and remedy receipt"),
     "us-bank-fees-household-wellbeing-matched-evidence-001": ("Cost / finance / voice", "low account cash → fee or overdraft → later cost", "payment success and household recovery"),
     "us-bank-depositor-inertia-matched-evidence-001": ("Cost / finance / voice", "account habit → switching effort → lower return or stable funding", "customer net return and bank stability"),
     "us-benefit-cliff-work-choice-matched-evidence-001": ("Cost / work / voice", "earnings rise → aid changes → real household room", "same-family net resources and work outcome"),
@@ -69,7 +70,9 @@ routes = {
     "us-utility-shutoff-reconnection-rules-matched-evidence-001": ("Energy / cost / housing / public power", "missed payment → protection or shutoff → reconnection and later arrears", "whether the rule creates recovery or delay"),
     "us-housing-type-energy-affordability-matched-evidence-001": ("Energy / housing / cost / customer", "housing type and tenure → bill and repair control → recovery path", "whether control changes affordability and safety"),
 }
-for path in sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md")):
+paths = sorted((ROOT / "analysis/findings").glob("*-matched-evidence-001.md"))
+paths.append(ROOT / "analysis/findings/us-doxo-bill-payment-hidden-fees-001.md")
+for path in paths:
     text = path.read_text()
     title = re.search(r"^# (.+)$", text, re.M).group(1)
     short_match = re.search(r"## (?:Short answer|The argument)\n\n(.+?)(?=\n\n## )", text, re.S)

@@ -653,3 +653,13 @@ A car repair is not just a transport bill. For a household with little cash, it 
 Weatherization can lower energy use and improve safety and comfort. But projected savings can overstate what a household actually receives. An upgrade is not successful because a model predicted a lower bill. The home must use less energy without leaving people cold, unsafe, or unable to pay another basic cost.  The same measured decline in energy use can mean different things. The building may have improved. A family may still be rationing heat. Equipment may have changed. The bill may have fallen because the household spent less time at home. Without temperature, air, safety, health, and work records, the number is hard to interpret.  The deeper finding is that energy work sits between housing quality and household finance. A good upgrade can protect cash and health for years. A badly targeted or delayed upgrade can leave the family paying the same risk in a different form.  The work also has a time cost. A household may wait through a winter, move before the contractor arrives, or take time off for an inspection and repair. A tenant may qualify but lose the lease before the owner approves the work. A retrofit that is free at the point of service can still be hard to reach if the family cannot wait or cannot control the building.
 
 [Read the HTML page](../site/us-weatherization-health-household-outcomes-matched-evidence-001.html) · [Read the Markdown memo](findings/us-weatherization-health-household-outcomes-matched-evidence-001.md)
+
+### 66. Bill-payment convenience can become a hidden household cost
+
+**Theme:** Cost / time / voice
+**Route:** bill due → search route → intermediary fee or friction → public remedy
+**Still open:** payment success, bill status, service continuity, and remedy receipt
+
+The Doxo record adds a bounded household-payment mechanism: a third-party bill route can make affiliation and total cost harder to understand, shifting money and recourse effort onto consumers before any downstream bill or service effect is observed. The FTC remedy makes institutional response visible, but the public evidence still cannot identify payment success, household incidence, service continuity, redress receipt, or later switching.
+
+[Read the HTML page](../site/us-doxo-bill-payment-hidden-fees-001.html) · [Read the Markdown memo](findings/us-doxo-bill-payment-hidden-fees-001.md)
