@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "e5b3b6d855ab15379503a4e6a1e7be4e317f74a5a3c96b4dd791822b5c5300dd",
+  "matrix_sha256": "168cee10b3486c3be988a7f67e94bf96fbe523ce7810a81c33ff6dae9df2e073",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -68,9 +68,9 @@
     },
     {
       "current_status": "Compared / Reported",
-      "evidence_anchor_count": 13,
+      "evidence_anchor_count": 15,
       "measurement_level": "Worker, task, job, workplace, firm, respondent",
-      "next_required_test": "Pair system, ownership, or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the worker-power synthesis separates financial stake, meaning, voice, technical control, recourse, remedy, and exit; the SHED employment bridge adds mobility, schedule, and education/control-stratified AI-use context without a same-worker causal link.",
+      "next_required_test": "Pair system, ownership, or benefit exposure with decision rights, schedule, pay, health, worker voice, household security, bargaining outcome, and whether material strain is associated with civic availability; the worker-power synthesis separates financial stake, meaning, voice, technical control, recourse, remedy, and exit; the SHED employment bridge adds mobility, schedule, and education/control-stratified AI-use context without a same-worker causal link. The Malaysia/Philippines records add an institutional-capacity comparison, not a US worker estimate: enacted route/hearing and state dialogue/complaint planning remain distinct from correction, payment, and durable protection.",
       "same_unit_end_to_end_link": false,
       "source_line": 18,
       "status_tokens": [
