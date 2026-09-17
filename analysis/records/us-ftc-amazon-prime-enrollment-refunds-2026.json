@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-amazon-prime-enrollment-refunds-2026",
+  "title": "A large subscription remedy can distribute refunds without closing the individual recovery chain",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "consumer_power_recourse", "platforms_data_attention", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Federal Trade Commission Amazon Prime ROSCA enforcement case and official refund administration page; case and refund-program records, not a representative household sample",
+  "geography": "United States federal consumer-protection enforcement and eligible Amazon Prime customers",
+  "observations": [
+    {
+      "period": "September 25, 2025; court-entered Amazon Prime settlement described by FTC",
+      "denominator": {"value": 1, "unit": "named federal enforcement case", "value_type": "institutional_case_count"},
+      "measures": {
+        "total_settlement": {"value": 2500000000, "unit": "US dollars", "value_type": "reported_settlement_amount"},
+        "customer_refund_pool": {"value": 1500000000, "unit": "US dollars", "value_type": "reported_refund_pool"},
+        "civil_penalty": {"value": 1000000000, "unit": "US dollars", "value_type": "reported_civil_penalty"},
+        "eligibility_window": {"value": "June 23, 2019 through June 23, 2025 for customers in challenged enrollment flows or who attempted cancellation through the online flow", "unit": "FTC-described eligibility rule", "value_type": "reported_eligibility_rule"},
+        "maximum_individual_refund": {"value": 51, "unit": "US dollars per eligible Prime customer", "value_type": "reported_refund_cap"}
+      },
+      "method": "FTC official Amazon case docket and refund page; settlement amounts and eligibility language are recorded as agency-reported program terms, not independently estimated household loss.",
+      "uncertainty": "The settlement and allegations do not establish that every enrolled customer lacked consent or wanted to cancel. The aggregate refund pool is not a refund rate, average payment, or measure of household hardship; eligibility depends on specified flows and dates.",
+      "subgroup": "Prime customers meeting the FTC-described challenged-enrollment or attempted-cancellation criteria; noneligible customers and all Prime customers are not interchangeable denominators.",
+      "counterinterpretation": "Prime can provide valued delivery, media, or other continuity, and a customer can be eligible under a legal rule without describing the charge as unwanted. Aggregate relief can coexist with different individual experiences.",
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2123050-amazoncom-inc-rosca-ftc-v",
+      "retrieval_hash": "sha256:f0f94543564c1cc59598708af1ea203931ec9031417bd92f2350eb5dd0ab95b6",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026 through late 2026; FTC refund administration update checked September 17, 2026",
+      "denominator": {"value": 1, "unit": "FTC-administered Amazon Prime refund program; customer-level denominator not published on the page", "value_type": "program_scope"},
+      "measures": {
+        "automatic_refunds_sent": {"value": "November and December 2025", "unit": "FTC-reported payment period", "value_type": "reported_distribution_stage"},
+        "claims_notices": {"value": "sent beginning January 2026 to eligible Prime customers who did not receive an automatic refund", "unit": "FTC-reported administration stage", "value_type": "reported_distribution_stage"},
+        "remaining_claim_payment_timing": {"value": "expected in late 2026; mailing date not yet available", "unit": "FTC-reported expectation", "value_type": "reported_future_stage"},
+        "refund_receipt": {"value": "not observed at individual-customer level in the public page", "unit": "missing outcome field", "value_type": "unmeasured"}
+      },
+      "method": "FTC official refund page checked for distribution stages, payment timing, eligibility, and individual-refund limits.",
+      "uncertainty": "The page documents the administration design and reported timing, not how many eligible customers received automatic refunds, how many claims succeeded, payment amounts received, failed notices, or later household recovery and trust.",
+      "subgroup": "Automatic-refund recipients, claim-notice recipients, and customers still awaiting a claims payment are distinct stages and should not be pooled.",
+      "counterinterpretation": "A refund may restore money without restoring time, confidence, or the ability to judge future renewal terms; conversely, a timely refund may resolve the financial issue for some customers without changing continued Prime use.",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds",
+      "retrieval_hash": "sha256:0a4992d4f2d00f98b8bd868a9e9e52a2b41cf44105e4934b669fab0539d5a388",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/09/ftc-secures-historic-25-billion-settlement-against-amazon", "claim": "FTC announcement of the Amazon Prime settlement and its monetary components.", "status": "official-press-release"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2123050-amazoncom-inc-rosca-ftc-v", "claim": "FTC case docket lists the court-entered stipulated order and current case status.", "status": "official-case-record"},
+    {"source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds", "claim": "FTC describes eligibility, automatic refunds, claims notices, refund cap, and expected later payment timing.", "status": "official-refund-administration"}
+  ],
+  "boundary": "This record adds a large named subscription remedy to the consumer-attention atlas. It establishes aggregate remedy design and reported distribution stages, not the prevalence of unwanted enrollment, individual payment receipt, restored household room, time recovery, continued use, switching, trust, or practical exit. The next test is a de-identified account-level or authorized administrator follow-up preserving eligibility, notice, claim, receipt, amount, delay, continued use, switching, and later trust separately."
+}

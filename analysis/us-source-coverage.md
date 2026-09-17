@@ -2102,7 +2102,7 @@
 
 **Project:** `us-subscription-inattention`
 
-**Status:** short discovery pass; no settled finding
+**Status:** promoted case finding; prevalence and implementation follow-up remain open
 
 **Question:** When people stop valuing a subscription, what keeps the payment going?
 

@@ -17,6 +17,15 @@ renewal rate or prove that every continuing customer wanted to leave. The
 [machine-readable record](../../records/us-ftc-shutterstock-subscription-cancellation-2026.json)
 keeps the allegation, remedy, and open implementation questions separate.
 
+The [Amazon Prime refund finding](findings/us-subscription-inattention-002.md)
+adds the comparison case. The FTC describes a $1.5 billion customer-refund
+pool inside a $2.5 billion settlement, automatic refunds in late 2025, and a
+claims process continuing into late 2026. This exposes aggregate remedy
+distribution without pretending that a refund pool is an individual recovery
+rate. Its [machine-readable record](../../records/us-ftc-amazon-prime-enrollment-refunds-2026.json)
+keeps eligibility, distribution stage, receipt, and later household outcomes
+separate.
+
 ## Possible connection
 
 A monthly charge can become a quiet household cost when stopping it requires an active decision. The burden may be larger for people with less financial room or less time to watch many accounts.

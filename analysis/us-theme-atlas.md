@@ -1120,6 +1120,7 @@ Sources collected in the opening pass; listing a source does not mean its full s
 - [NBER Digest: Consumer Inattention and Subscription Renewals](https://www.nber.org/digest/202310/consumer-inattention-and-subscription-renewals)
 - [HBS Working Knowledge: With Subscription Fatigue Setting In, Companies Need to Think Hard About Fees](https://www.library.hbs.edu/working-knowledge/with-subscription-fatigue-setting-in-companies-need-to-think-hard-about-fees)
 - [FTC Shutterstock settlement](https://www.ftc.gov/news-events/news/press-releases/2026/05/shutterstock-pay-35-million-settle-ftc-allegations-over-illegal-subscription-cancellation-practices)
+- [FTC case-docket recheck](https://www.ftc.gov/legal-library/browse/cases-proceedings/shutterstock-inc)
 
 #### Evidence check: A monthly charge can survive after its value fades
 
@@ -3414,6 +3415,7 @@ A platform-owned product can serve a real customer preference while the platform
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [Vertical Integration and Consumer Choice: Evidence from a Field Experiment](https://www.nber.org/papers/w34135)
+- [FTC Amazon Prime refund administration page](https://www.ftc.gov/enforcement/refunds/amazon-refunds)
 - [Amazon 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm)
 - [FTC and states Amazon case record](https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce)
 - [FTC and states Amazon advertising case](https://search.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme)

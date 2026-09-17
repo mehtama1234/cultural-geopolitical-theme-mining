@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. These artifacts are bounded syntheses, not
-thirty-three estimates of one phenomenon:
+thirty-four estimates of one phenomenon:
 
 | Rotation | Cross-source artifact | What it adds | Arrow still open |
 |---|---|---|---|
@@ -71,10 +71,11 @@ thirty-three estimates of one phenomenon:
 | 31. Administrative redress distribution versus individual recovery | [CFPB BrightSpeed redress distribution record](projects/us-customer-automation-recourse/cfpb-brightspeed-redress-distribution-record-v1.md) | A public case page identifies an eligible class, aggregate compensable harm, payment administrator, and ongoing distribution; aggregate distribution status is stronger than an order alone but is not a consumer recovery rate | Successful payment receipt, amount received, remaining loss, repeat effort, restored practical options, trust, switching, and exit |
 | 32. Compensation versus obligation restoration | [CFPB Navient compensation/obligation record](projects/us-customer-automation-recourse/cfpb-navient-compensation-obligation-record-v1.md) | The CFPB reports ongoing checks while explicitly stating that payments do not change or reduce affected student loans; compensation and restoration are separate endpoints | Payment receipt, loan-balance correction, repayment-plan change, remaining loss, servicing effort, trust, switching, and exit |
 | 33. Subscription attention and practical exit | [Recurring payment and consumer exit](projects/us-subscription-inattention/findings/us-subscription-inattention-001.md) | The FTC's Shutterstock case connects alleged unclear renewal terms and difficult cancellation to a proposed disclosure/consent/simple-exit remedy, while leaving prevalence and household incidence open | Same-account notice, charge, customer intent, attempted cancellation, effort, relief receipt, continued use, switching, and trust |
+| 34. Aggregate subscription relief and individual recovery | [Amazon Prime refund distribution](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md) | The FTC's Amazon case adds a court-entered $2.5B settlement, $1.5B refund pool, and reported refund/claims stages without exposing individual receipt or later household recovery | Eligibility, notice, claim, receipt, amount, delay, continued use, switching, trust, and remaining loss in the same account |
 
 ### The common pattern
 
-Across the thirty-three rotations, the strongest recurring theme is **unequal
+Across the thirty-four rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
@@ -470,9 +471,9 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 266 machine-readable records, 994 observations,
+The current registry contains 267 machine-readable records, 996 observations,
 and 103 source packets across 14 program themes. It does not claim that the
-266 records describe separate evidence units rather than the same people or that one
+267 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
 proposition: financial improvement can coexist with worse health; SNAP exit
 can coexist with hardship; continued receipt can coexist with utility burden;
@@ -518,6 +519,16 @@ continued payment, unwanted payment, and failed practical exit remain separate
 states. The next test is implementation and same-account follow-up, including
 relief receipt, current cancellation effort, continued use, switching, and
 trust.
+
+The companion [Amazon Prime refund finding](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md)
+adds an implementation-stage contrast. The FTC reports a court-entered $2.5
+billion settlement with a $1.5 billion customer-refund pool, automatic refunds
+in late 2025, and a claims process whose remaining payments were expected in
+late 2026. This is stronger than a proposed remedy alone, but aggregate relief
+still does not identify eligibility, receipt, amount, delay, remaining loss,
+continued use, switching, or trust for any individual customer. The broad
+chain now has a visible institutional distribution stage and an explicit
+individual-recovery gap.
 
 The [AI synthetic-contact experiment](projects/us-cost-trust-politics/findings/us-cost-trust-politics-026.md)
 adds a rare causal middle step to this otherwise mostly descriptive political

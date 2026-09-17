@@ -28,6 +28,13 @@ The source supports a customer-welfare tradeoff in the tested setting. It does n
 
 The additional market records make the conflict more concrete: Amazon earns money from its own store, outside sellers, advertising, and fulfillment. Its filing describes the revenue streams; the FTC case records describe alleged links among seller prices, seller data, advertising, Featured Offers, Prime, and product promotion. These records show why the platform has several interests at once, but they do not prove the size of customer harm.
 
+The separate [FTC Amazon Prime refund administration page](https://www.ftc.gov/enforcement/refunds/amazon-refunds)
+now supplies a remedy-distribution source for the subscription/attention lane:
+the FTC reports a $1.5 billion customer-refund pool, automatic refunds in
+November and December 2025, and a claims process with remaining payments
+expected in late 2026. It is being promoted in the subscription project, not
+pooled with the platform-owned-product field experiment or seller records.
+
 ## Counterpoint to keep visible
 
 Self-preferencing can make it harder for outside sellers to grow even when some customers like the platform product. Short-run customer benefit and long-run seller competition can point in different directions.
