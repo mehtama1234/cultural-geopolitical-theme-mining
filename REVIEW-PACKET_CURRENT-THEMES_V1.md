@@ -83,6 +83,10 @@ index or a claim that the same people appear in every source.
    can exist while time, accessibility, familiarity, cost, parking, and shift
    fit determine whether passengers and workers can actually use it. Read the
    [airport transit adoption layer](site/gao-2026-airport-transit-availability-adoption-layer-v1.html).
+13. **Telework redistributes demand across systems:** changed work geography
+   affects transit ridership, fare revenue, driving, housing, commercial real
+   estate, and planning models on different clocks. Read the [telework and
+   changing travel patterns layer](site/gao-2026-telework-travel-real-estate-planning-layer-v1.html).
 
 ## Recent cross-theme additions
 

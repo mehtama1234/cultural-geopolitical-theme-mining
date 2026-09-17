@@ -1054,3 +1054,9 @@ adds place-level transportation usability between infrastructure provision and
 passenger or worker mobility. It preserves open links from route availability
 to time, cost, accessibility, shift fit, completed trips, congestion, and
 demand-management outcomes.
+
+The [GAO telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
+adds changed work geography between worker arrangements and collective place
+outcomes. It preserves open links from telework to trip timing, transit finance,
+vehicle use, real-estate demand, investment, distributional burden, and public
+response.

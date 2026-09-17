@@ -172,3 +172,9 @@ adds airport service, passenger and worker adoption, accessibility, shift fit,
 demand management, congestion, and practical mobility to themes 1, 5, 7, 10,
 and 14. It strengthens the infrastructure-to-consumer-choice arrow while
 leaving causal ridership, worker access, and household-cost effects open.
+
+The [GAO telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
+adds telework frequency, trip geography, transit finance, vehicle use, housing,
+commercial real estate, MPO capacity, and investment response to themes 1, 5,
+7, 10, 12, and 14. It strengthens the work-to-place arrow while leaving causal
+household welfare, emissions, and local distribution open.

@@ -1321,6 +1321,16 @@ carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
 
+The [GAO 2026 telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
+adds a collective-geography consequence to changing work arrangements. Average
+telework remained about twice 2019 levels; MPOs reported lower transit
+ridership/fare revenue, changed driving geography, and shifts in commercial
+real-estate and housing demand. Only one of the 26 largest transit cities had
+2024 ridership above 2019, while over 90% of MPOs wanted more DOT guidance.
+These are not causal household or city welfare estimates; the next test is a
+place-month-mode ledger linking telework, trips, service, property, investment,
+distribution, and public response.
+
 The [GAO 2026 airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
 adds a place and mobility conversion test. Nearly all of 51 reviewed airports
 had some transit service, yet passenger use ranged from 4% to 19% at the 12

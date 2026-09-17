@@ -2809,3 +2809,11 @@ transit benefits, completed trips, and congestion response at comparable
 airports. Keep route presence, practical availability, adoption, trip
 completion, labor access, and emissions separate; do not treat a map line or
 promotion as realized mobility.
+
+The [GAO telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
+adds a work-geography test. The next pass should use compact official evidence
+for telework frequency, trip timing, transit boardings and revenue, vehicle use,
+office and housing demand, tax base, and MPO investment response. Keep worker
+flexibility, non-teleworker burden, mode shift, service finance, land-use
+change, and local welfare separate; do not infer urban decline or household
+benefit from ridership alone.
