@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-259 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+260 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -257,6 +257,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Medical-cost exposure is translated into credit visibility, partial reporting relief, and contested federal remedy | cost, voice | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | CFPB Consumer Credit Panel and federal regulatory record | United States | 5 | 2017 to 2022; medical collection tradelines; Quarter before and quarter of medical collection reporting; 2017 to 2022; March 2022; consumers with reported medical collections; 2017 to 2022; consumers with medical collections and census-tract distribution; January to July 2025; federal medical-debt reporting rule | reported | [open](records/us-cfpb-medical-collections-credit-response-2022-2025.json) |
 
 **Boundary:** This credit-system and legal-response layer does not link a particular medical bill to a particular care choice, household trade-off, housing/work/insurance outcome, dispute, remedy, trust judgment, political action, or geopolitical consequence.
+
+| Consumer compensation can coexist with an unreduced underlying obligation | cost, voice, work | consumer_power_recourse, household_room_consumption, public_systems_feedback, trust_identity_meaning, unequal_exposure_status | Official CFPB case-level payment and remedy page | United States; affected Navient/Pioneer student-loan consumers | 1 | 2026-09-16 official page recheck; CFPB v. Navient | reported | [open](records/us-cfpb-navient-compensation-obligation-2026.json) |
+
+**Boundary:** This machine-readable case observation separates publicly reported compensation from restoration of an underlying student-loan obligation. It does not estimate a recovery rate, causal effect, loan-balance change, trust change, political response, switching, or practical exit.
 
 | CFPB recorded response routes remain strongly product-shaped across 2024 and 2025 | voice, cost | consumer_power_recourse, platforms_data_attention, trust_identity_meaning, firm_sector_market_power | published CFPB complaint record in a product-filtered API aggregation, grouped by calendar year received | United States | 12 | 2024; checking/savings complaints; 2024; credit-card complaints; 2024; debt-collection complaints; 2024; mortgage complaints; 2024; student-loan complaints; 2024; vehicle-loan complaints; 2025; checking/savings complaints; 2025; credit-card complaints; 2025; debt-collection complaints; 2025; mortgage complaints; 2025; student-loan complaints; 2025; vehicle-loan complaints | observed | [open](records/us-cfpb-product-response-routes-2024-2025.json) |
 

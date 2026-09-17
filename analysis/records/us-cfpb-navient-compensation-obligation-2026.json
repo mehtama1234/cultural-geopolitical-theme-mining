@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-navient-compensation-obligation-2026",
+  "title": "Consumer compensation can coexist with an unreduced underlying obligation",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Official CFPB case-level payment and remedy page",
+  "geography": "United States; affected Navient/Pioneer student-loan consumers",
+  "observations": [
+    {
+      "period": "2026-09-16 official page recheck; CFPB v. Navient",
+      "denominator": {
+        "value": null,
+        "unit": "case-level public remedy record; affected-consumer denominator not disclosed on the page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "compensation_status": {
+          "value": "affected consumers are receiving a check",
+          "unit": "official case-page status",
+          "value_type": "reported"
+        },
+        "underlying_student_loan_reduction": {
+          "value": "no",
+          "unit": "official statement about the scope of the payment",
+          "value_type": "reported"
+        },
+        "payment_administrator": {
+          "value": "Rust Consulting",
+          "unit": "named administrator",
+          "value_type": "reported"
+        },
+        "distribution_start": {
+          "value": "2026-02-13",
+          "unit": "official compensation date; distribution remains ongoing",
+          "value_type": "reported"
+        }
+      },
+      "method": "Targeted recheck of the official CFPB payments-by-case page; no respondent file or administrator payment file downloaded.",
+      "uncertainty": "The page does not disclose person-level eligibility, check issuance, successful receipt, payment amount, loan balance, credit-record correction, remaining loss, or later behavior. A case-level status is not a payment rate.",
+      "subgroup": "Consumers affected by the CFPB's Navient/Pioneer settlement; the public page does not provide a person-level subgroup frame.",
+      "counterinterpretation": "A cash payment may compensate for a distinct harm even when the underlying loan obligation appropriately remains; the record alone cannot assess adequacy, hardship, or whether servicing dependence changed.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/navient/",
+      "retrieval_hash": "sha256:36c9dd6b4a0e53e6cebd690544991165335facb6c6d627a39d370dfee551086b",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This machine-readable case observation separates publicly reported compensation from restoration of an underlying student-loan obligation. It does not estimate a recovery rate, causal effect, loan-balance change, trust change, political response, switching, or practical exit."
+}
