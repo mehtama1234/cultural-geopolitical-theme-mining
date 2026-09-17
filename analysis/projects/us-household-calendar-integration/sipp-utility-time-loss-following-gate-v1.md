@@ -3,6 +3,9 @@
 **Checked:** 2026-09-15  
 **Status:** conditional time-loss acquisition diagnostic; not a burden estimate
 
+The gate was exactly reproduced from the retained v18 slice on 2026-09-16;
+see the [reproduction recheck](sipp-utility-time-loss-reproduction-recheck-2026-09-16.md).
+
 ## Why this gate matters
 
 The broader SIPP bridge uses `EWORKMORE`, which records whether childcare
