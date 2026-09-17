@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 290 machine-readable records, 1036 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 572 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 573 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -32,7 +32,7 @@ substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
 The current continuation mode is a broad rotation across the twenty-five priority
-bridges and 38 documented rotations recorded in the [canonical cross-source
+bridges and 47 documented rotations recorded in the [canonical cross-source
 synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
 The first cycle covered consumer practical exit, AI/platform optionality,
 public-system route divergence, firm/infrastructure capacity,
@@ -87,6 +87,15 @@ The new [program-wide theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
 reported or compared.
+
+The latest [machine-readable coverage control audit](data/us-broad-theme-end-to-end-coverage-audit-2026-09-17.json)
+rechecks the matrix without new acquisition: all 14 themes are represented,
+with 14 Compared, 12 Reported, 5 Open, and 3 Inferred status tokens; five
+themes explicitly declare an open same-unit end-to-end link. These are matrix
+control counts, not population rates or completed causal arrows. The next
+executable step remains the authenticated PSID wave-file gate, followed by
+retention, missingness, and weight checks; no PSID archive is to be fetched
+before account access is available.
 
 The material/time/care lane remains active, but it is not a program-wide gate.
 Existing annual and panel evidence can establish distributions, persistence,
