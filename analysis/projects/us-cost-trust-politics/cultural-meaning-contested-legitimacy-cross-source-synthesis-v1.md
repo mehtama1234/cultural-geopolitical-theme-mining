@@ -20,6 +20,7 @@ This is visible across apparently unrelated surfaces:
 | Smartphones | 73% say phones help them stay informed; 51% say they help connection | 53% report too much time; 41% report harm to sleep; cutback success is incomplete | Utility/overuse → logged behavior, time displacement, privacy choice, or exit |
 | Moral values | 56% rate national moral values poor; 80% say they are worsening | 69% say policy affects values, but 50% oppose and 45% support government promotion | Moral concern → attribution, policy support, vote, protest, or conduct |
 | U.S. global role | Americans and foreign publics differ on whether the U.S. contributes to peace/stability | U.S. party groups and foreign audiences interpret power and interference differently | Capability/perception → cooperation, reputation, leverage, or domestic consent |
+| Neighborhood ties | 44% trust all/most neighbors and reported willingness to help often exceeds expectation of reciprocal help | Local trust, generalized trust, similarity, place, and resources do not align automatically | Local goodwill → delivered aid, burden-sharing, household recovery, or civic capacity |
 
 The shared signal is therefore not consensus. It is the presence of a common
 referent—religion, diversity, a phone, morality, or national power—around which
@@ -67,6 +68,15 @@ The moral-values and diversity layers concern collective legitimacy and public
 rules. The former cannot be inferred from the latter, and individual attempts
 cannot be treated as proof that platforms, employers, or government changed.
 The broad program needs both personal and institutional observations.
+
+### 6. Informal institutions can protect households while transferring burden
+
+Neighbor trust and willingness to help add a missing middle between formal
+institutions and individual outcomes. Keys, meals, errands, money, and emergency
+conservation can be real capacity, but the survey shows a gap between what
+people say they would do and what they expect others to do for them. Informal
+support should therefore be coded as a possible protection route with its own
+labor, money, reciprocity, and adequacy costs—not as free resilience.
 
 ## What the combined evidence supports
 

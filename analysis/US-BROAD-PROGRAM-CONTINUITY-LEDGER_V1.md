@@ -1117,3 +1117,8 @@ The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-m
 turns the broad cultural synthesis into a row-level control. It preserves the
 distinction between partial same-unit bridges and a completed end-to-end route,
 and records the next acquisition schema needed to close adjacent stages.
+
+The [Pew 2025 neighbor trust and mutual-aid layer](projects/us-cost-trust-politics/pew-2025-neighbor-trust-help-community-capacity-layer-v1.md)
+adds an informal social-institution stage between place and household
+protection. It preserves open links from local trust to requested and delivered
+help, reciprocal burden, formal services, recovery, mobility, and later action.

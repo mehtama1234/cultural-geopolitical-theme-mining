@@ -23,6 +23,7 @@ that stage. Adjacent sources are not treated as the same people.
 | [Pew diversity/workplace layer](pew-2026-racial-diversity-cultural-workplace-meaning-layer-v1.md) | Same survey respondent; Nov–Dec 2025 | Perceived national diversity | Cultural impact, workplace obligation, fairness | Open | Open | Strong meaning and legitimacy surface; no workplace episode |
 | [Gallup moral-values layer](gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md) | Same survey respondent; May 2026 | Perceived moral decline and issue conditions | Government influence, legitimacy, religious influence, acceptability | Open | Open | Strong attribution/legitimacy surface; no observed conduct or policy action |
 | [Pew religious identity layer](pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md) | Same survey respondent; 2023–24 RLS | Childhood/current affiliation and switching | Spirituality, cultural/family connection, practice | Open | Open | Strong identity/meaning surface; no linked community or political episode |
+| [Pew neighbor trust and mutual-aid layer](pew-2025-neighbor-trust-help-community-capacity-layer-v1.md) | Same survey respondent; March 2025 | Local proximity and neighborhood relationships | Familiarity, trust, similarity, willingness, and reciprocity expectations | Stated neighbor/friend help and public-request compliance | Open | Strong informal-capacity surface; no dated shock, delivered aid, burden, or recovery |
 
 ## Coverage result
 

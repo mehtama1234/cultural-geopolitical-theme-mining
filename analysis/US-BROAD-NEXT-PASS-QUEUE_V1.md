@@ -2891,3 +2891,10 @@ is now the acquisition gate. Prioritize one lawful repeated or event-compatible
 source with at least three adjacent stages and a usable clock. Check access,
 variables, permitted use, and estimand before any large archive; prefer closing
 an arrow over adding another unlinked attitude percentage.
+
+The [Pew 2025 neighbor trust and mutual-aid layer](projects/us-cost-trust-politics/pew-2025-neighbor-trust-help-community-capacity-layer-v1.md)
+adds an informal-infrastructure test. The next pass should use compact
+place-linked or repeated evidence on a dated shock, help requested, help
+delivered, time/money burden, formal assistance, recovery, and later trust or
+movement. Keep familiarity, trust, willingness, expectation, actual help,
+reciprocity, adequacy, and cost separate.

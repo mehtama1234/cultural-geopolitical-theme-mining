@@ -127,6 +127,11 @@ index or a claim that the same people appear in every source.
    transitions, and attitude surveys each close different adjacent stages, but
    no retained route closes condition, meaning, action, response, recovery, and
    later trust or exit together. Read the [cultural-meaning episode matrix](site/cultural-meaning-episode-matrix-v1.html).
+24. **Local trust is an informal infrastructure with unequal reciprocity:**
+   Americans report more willingness to help neighbors than confidence that
+   neighbors would help them, with strong age, place, income, education, and
+   religious-attendance differences. Read the [neighbor trust and mutual-aid
+   layer](site/pew-2025-neighbor-trust-help-community-capacity-layer-v1.html).
 
 ## Recent cross-theme additions
 

@@ -239,3 +239,9 @@ adds a same-unit observability audit across themes 1, 5, 9, 10, 11, and 14. It
 shows where temporal ordering, attribution, action, meaning, and material
 outcomes are separately available, while confirming that no retained row closes
 the full condition-to-response-to-recovery chain.
+
+The [Pew 2025 neighbor trust and mutual-aid layer](projects/us-cost-trust-politics/pew-2025-neighbor-trust-help-community-capacity-layer-v1.md)
+adds local social proximity, trust, similarity, mutual-help expectation, and
+informal protection to themes 1, 2, 6, 9, 10, and 14. It strengthens the
+place-to-community-capacity arrow while leaving actual aid, burden, adequacy,
+formal substitution, recovery, and action open.
