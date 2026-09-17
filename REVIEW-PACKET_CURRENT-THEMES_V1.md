@@ -96,6 +96,25 @@ its unresolved arrows visible:
 - [Taiwan semiconductor capacity route](site/ai-work-control-090.html):
   strategic commitment and partial realization; independent output, local
   burden, replaceability, and reduced geopolitical dependence remain open.
+- [Employee-ownership retention finding](site/us-employee-ownership-meaning-001.html):
+  a field experiment links concrete explanations of a contingent financial
+  claim to lower short-run turnover and stronger cultural identification;
+  payout, wealth, governance, and control remain open.
+- [Worker-power channels synthesis](site/us-employee-ownership-meaning-002.html):
+  financial stake, intelligible communication, representative voice, technical
+  control, recourse, and monetary remedy are separated rather than collapsed
+  into one empowerment measure.
+- [Immigration concern and essential-activity non-use](site/us-immigration-local-demand-002.html):
+  perceived status or information-sharing risk is associated with reported
+  avoidance of essential work, care, school, transport, community, police, and
+  safety-net routes; causal ordering and later political action remain open.
+- [Migration participation-currencies synthesis](site/us-immigration-local-demand-003.html):
+  population presence, local capacity, institution-specific trust, civic
+  action, voting, and safe institutional use are distinct outcomes.
+- [Care-time hidden-price synthesis](site/us-household-calendar-integration-044.html):
+  stable annual time averages can coexist with selected childcare-related work
+  time loss and later household hardship; protected and sacrificed outcomes
+  remain unjoined.
 
 ## Latest local evidence to review
 
