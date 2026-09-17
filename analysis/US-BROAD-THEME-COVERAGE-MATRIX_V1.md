@@ -245,3 +245,9 @@ adds local social proximity, trust, similarity, mutual-help expectation, and
 informal protection to themes 1, 2, 6, 9, 10, and 14. It strengthens the
 place-to-community-capacity arrow while leaving actual aid, burden, adequacy,
 formal substitution, recovery, and action open.
+
+The [formal/informal support-capacity synthesis](projects/us-cost-trust-politics/formal-informal-support-capacity-cross-source-synthesis-v1.md)
+adds a cross-route protection comparison to themes 1, 2, 6, 9, 10, and 14. It
+strengthens the need-to-route-to-protection arrow while preserving separate
+recipient/provider units and leaving actual delivery, burden, adequacy,
+continuity, recovery, and meaning open.

@@ -1122,3 +1122,9 @@ The [Pew 2025 neighbor trust and mutual-aid layer](projects/us-cost-trust-politi
 adds an informal social-institution stage between place and household
 protection. It preserves open links from local trust to requested and delivered
 help, reciprocal burden, formal services, recovery, mobility, and later action.
+
+The [formal/informal support-capacity synthesis](projects/us-cost-trust-politics/formal-informal-support-capacity-cross-source-synthesis-v1.md)
+adds a protection-portfolio stage across family, neighbor, community, market,
+and public routes. It preserves the distinction between potential availability,
+requested help, delivered aid, provider burden, adequacy, continuity, and later
+trust or exit.

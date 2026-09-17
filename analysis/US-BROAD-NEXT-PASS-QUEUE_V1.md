@@ -2898,3 +2898,10 @@ place-linked or repeated evidence on a dated shock, help requested, help
 delivered, time/money burden, formal assistance, recovery, and later trust or
 movement. Keep familiarity, trust, willingness, expectation, actual help,
 reciprocity, adequacy, and cost separate.
+
+The [formal/informal support-capacity synthesis](projects/us-cost-trust-politics/formal-informal-support-capacity-cross-source-synthesis-v1.md)
+sets the next route module: need, available route, selected/forced route,
+request effort, provider burden, aid received, adequacy, continuity, dignity,
+trust, and exit. Start with existing recontact or event-compatible artifacts;
+do not rank informal and formal support or build a resilience score from
+co-occurring protections.

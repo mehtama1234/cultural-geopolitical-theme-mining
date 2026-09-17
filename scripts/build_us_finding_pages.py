@@ -376,6 +376,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/pew-2025-neighbor-trust-help-community-capacity-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/formal-informal-support-capacity-cross-source-synthesis-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

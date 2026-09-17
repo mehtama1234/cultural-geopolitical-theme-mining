@@ -132,6 +132,10 @@ index or a claim that the same people appear in every source.
    neighbors would help them, with strong age, place, income, education, and
    religious-attendance differences. Read the [neighbor trust and mutual-aid
    layer](site/pew-2025-neighbor-trust-help-community-capacity-layer-v1.html).
+25. **Household protection is a portfolio of formal and informal routes:**
+   family, neighbors, religious/community institutions, charity, employers,
+   markets, and public programs protect through different burdens and failure
+   points. Read the [formal/informal support-capacity synthesis](site/formal-informal-support-capacity-cross-source-synthesis-v1.html).
 
 ## Recent cross-theme additions
 
