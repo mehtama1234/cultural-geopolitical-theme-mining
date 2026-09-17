@@ -66,6 +66,10 @@ index or a claim that the same people appear in every source.
 8. **Political response is not a single backlash channel:** affordability,
    economic blame, trust, identity, turnout, contact, protest, and voting can
    diverge across groups and time. Read the [material-to-action route](#route-13-material-pressure-becomes-meaning-and-political-action).
+9. **Nominal coverage is not usable access:** disability-related equipment,
+   sensory, communication, digital, bias, and oversight barriers can prevent
+   formal health-care capacity from becoming a completed care episode. Read the
+   [disability accessibility layer](site/gao-2026-disability-healthcare-accessibility-layer-v1.html).
 
 ## Recent cross-theme additions
 

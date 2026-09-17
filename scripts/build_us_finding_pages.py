@@ -351,6 +351,7 @@ def main():
     memos.append(ROOT / "analysis/projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md")
+    memos.append(ROOT / "analysis/projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

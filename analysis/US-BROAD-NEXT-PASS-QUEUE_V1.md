@@ -2777,3 +2777,11 @@ quality, family use, parent work, and military readiness. The next test is an
 installation-year ledger linking incentive changes to vacancies, staffed
 capacity, wait time, family work schedules, alternative providers, and later
 retention; do not treat bonuses or program scale as dependable access.
+
+The [GAO 2026 disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
+adds a usability and civil-rights oversight test to the care lane. The next
+pass should acquire only compact official tables or HTML evidence for
+accommodation requests, failed or delayed encounters, disability subgroup and
+place differences, provider implementation, and OCR/CMS correction. Keep
+coverage, appointment supply, accessibility, completed care, health outcome,
+and exit as separate stages; do not infer low harm from low complaint volume.

@@ -1029,3 +1029,9 @@ an intermediate checkpoint is green.
 Related controls: [current-status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md),
 [broad research pass](US-BROAD-RESEARCH-PASS_V1.md), [next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md),
 and [recovery brief](../END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md).
+
+The [GAO disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
+adds the institutional-usability stage: disability-related needs can encounter
+equipment, sensory, communication, digital, bias, and oversight barriers after
+coverage or capacity exists. It preserves the open arrows from accommodation
+to completed care, health/work consequence, correction, trust, and exit.

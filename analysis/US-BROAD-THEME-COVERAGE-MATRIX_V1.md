@@ -147,3 +147,9 @@ adds provider labor, incentives, waitlists, staffed-slot capacity, and employer
 readiness to themes 2, 5, 6, 7, and 10. It extends the household care-to-work
 bridge while preserving the nonrepresentative DOD setting and the open link
 from incentives to reliable access and parent outcomes.
+
+The [GAO disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
+adds physical, sensory, communication, digital, bias, data, and civil-rights
+oversight conditions to themes 2, 5, 6, and 10. It strengthens the distinction
+between nominal coverage and usable care, while leaving barrier prevalence,
+completed-episode effects, correction, and exit open.

@@ -1320,3 +1320,13 @@ Every new record should enter the [trend-observation registry](us-trend-observat
 carry its own denominator and boundary, and add either a new time period,
 subgroup/place conditioning, uncertainty, reversal, or same-unit link before a
 provisional trend is strengthened.
+
+The [GAO 2026 disability health-care accessibility and oversight layer](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md)
+adds the usability stage after nominal coverage, facility capacity, or an
+appointment offer. GAO identifies physical, sensory, communication, digital,
+and bias barriers, while finding that none of 12 HHS population-health surveys
+collect national-level data on most accessibility barriers. This strengthens
+the interface thesis but does not estimate barrier prevalence or prove effects
+on diagnosis, health, work, or provider exit. The next test is an encounter-
+level accessibility ledger linking accommodation need, completed or failed
+care, family/time burden, complaint, correction, and oversight response.
