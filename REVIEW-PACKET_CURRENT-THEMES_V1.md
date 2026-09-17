@@ -136,6 +136,11 @@ index or a claim that the same people appear in every source.
    family, neighbors, religious/community institutions, charity, employers,
    markets, and public programs protect through different burdens and failure
    points. Read the [formal/informal support-capacity synthesis](site/formal-informal-support-capacity-cross-source-synthesis-v1.html).
+26. **A same-release Census bridge may connect material pressure to social
+   connection:** the March 2026 HTOPS tables place loneliness, interaction,
+   community engagement, arts, food, employment, expense, energy, and transport
+   modules in one release. Read the [HTOPS social-connectedness acquisition
+   gate](site/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.html).
 
 ## Recent cross-theme additions
 

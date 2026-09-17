@@ -2905,3 +2905,9 @@ request effort, provider burden, aid received, adequacy, continuity, dignity,
 trust, and exit. Start with existing recontact or event-compatible artifacts;
 do not rank informal and formal support or build a resilience score from
 co-occurring protections.
+
+The [Census HTOPS 2026 social-connectedness acquisition gate](projects/us-cost-trust-politics/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.md)
+is the next concrete bridge candidate. First verify the corrected March 2026
+vintage, person/household unit, reference periods, compatible denominators,
+standard errors, and PUF linkage; then retrieve only the minimum table or file
+needed for one pre-specified contrast such as expense difficulty × loneliness.

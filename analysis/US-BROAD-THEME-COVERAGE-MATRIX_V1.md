@@ -251,3 +251,9 @@ adds a cross-route protection comparison to themes 1, 2, 6, 9, 10, and 14. It
 strengthens the need-to-route-to-protection arrow while preserving separate
 recipient/provider units and leaving actual delivery, burden, adequacy,
 continuity, recovery, and meaning open.
+
+The [Census HTOPS 2026 social-connectedness acquisition gate](projects/us-cost-trust-politics/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.md)
+adds a same-release source route to themes 1, 2, 6, 9, 10, and 14. It could
+connect material pressure to loneliness, support, interaction, community or
+arts engagement, and place capacity, but currently establishes availability
+only; no cross-tab estimate is promoted.

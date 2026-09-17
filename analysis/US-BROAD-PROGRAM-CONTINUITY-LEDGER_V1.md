@@ -1128,3 +1128,9 @@ adds a protection-portfolio stage across family, neighbor, community, market,
 and public routes. It preserves the distinction between potential availability,
 requested help, delivered aid, provider burden, adequacy, continuity, and later
 trust or exit.
+
+The [Census HTOPS 2026 social-connectedness acquisition gate](projects/us-cost-trust-politics/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.md)
+adds a possible same-release household/social bridge. It preserves the need to
+verify corrected weights, compatible units, table denominators, uncertainty,
+and lawful linkage before connecting material pressure to social or cultural
+participation.
