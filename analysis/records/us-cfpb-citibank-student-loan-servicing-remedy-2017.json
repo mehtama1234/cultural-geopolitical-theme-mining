@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-citibank-student-loan-servicing-remedy-2017",
+  "title": "Student-loan servicing errors can shift tax access, payment burden, and credit information before a regulatory remedy",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "CFPB enforcement action and consent order against Citibank, N.A.",
+  "geography": "United States; private student-loan servicing",
+  "observations": [
+    {
+      "period": "2006-2013 servicing practices; 2017-11-21 enforcement action",
+      "denominator": {"value": 1, "unit": "named CFPB enforcement event", "value_type": "case_count"},
+      "measures": {
+        "servicing_scale": {"value": "Citibank or its affiliate serviced approximately 253,000 private education loans valued at approximately $2.3 billion as of June 30, 2017", "unit": "serviced loans and value", "value_type": "reported_context"},
+        "tax_access": {"value": "The CFPB found borrowers were misled about qualified-interest tax deductions; approximately 640,692 borrowers who made interest payments from 2010-2012 had not filed the required W-9S, about 85% of those making interest payments in that period", "unit": "borrower and share context", "value_type": "reported"},
+        "payment_burden": {"value": "Certain in-school deferments were erroneously terminated, producing late fees and capitalized interest; some mixed-status account statements overstated the minimum payment due", "unit": "servicing practice", "value_type": "reported"},
+        "remedy_and_controls": {"value": "$3.75 million restitution to harmed consumers, a $2.75 million civil penalty, accurate interest information, reversal of erroneous interest and late fees, and specified adverse-action disclosures", "unit": "ordered dollars and controls", "value_type": "reported_rule"}
+      },
+      "method": "Targeted review of the official CFPB enforcement page, contemporaneous press release, and consent-order PDF; no borrower-level file or bulk data retained.",
+      "uncertainty": "The public record does not provide the number of consumers receiving each remedy, individual payment amounts or timing, whether borrowers claimed the foregone tax benefit, household substitutions, later repayment or credit outcomes, complaint effort, trust, or political action. The consent order records agency findings and respondent consent without admission or denial of the findings except jurisdictional facts.",
+      "subgroup": "Borrowers in the affected Citibank private-loan servicing categories: tax-information, late-fee, loan-interest-capitalization, minimum-payment, and deficient co-signer-release notice groups.",
+      "counterinterpretation": "A named enforcement action and ordered remediation show institutional recognition and a remedy route, but do not establish the prevalence of harm across all student-loan borrowers or prove that restitution restored tax access, payment capacity, credit standing, household security, or trust.",
+      "source_url": "https://www.consumerfinance.gov/enforcement/actions/citibank-na-student-loan-servicing/",
+      "retrieval_hash": "sha256:60c495c3ce9d363d6879f31b156efd3b8a465f8d3e2532574cc27c8d5b9bbd91",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-against-citibank-student-loan-servicing-failures-harmed-borrowers/", "claim": "The contemporaneous CFPB release describes the servicing failures, affected mechanisms, scale context, remedy, and prospective controls.", "status": "primary-enforcement-release"},
+    {"source_url": "https://files.consumerfinance.gov/f/documents/cfpb_citibank-n.a._consent-order_112017.pdf", "claim": "The consent order supplies the legal findings, affected-consumer definitions, historical servicing context, and required remediation.", "status": "primary-consent-order", "retrieval_hash": "sha256:484c0121a3e2e225d1f0dc66e17c74474711fe08b6443d4cdc921a5d27fb7e43"},
+    {"source_url": "../../../projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-017.md", "claim": "The student-loan timing audit supplies the broader complaint-field measurement boundary that this named case cannot replace.", "status": "comparative-local-finding"}
+  ],
+  "boundary": "This is a named US student-loan servicing enforcement event. It demonstrates documented administrative failures, borrower exposure mechanisms, and an ordered remedy, but does not estimate population prevalence, establish individual causal loss, verify remedy receipt or adequacy, measure durable compliance, or close household, trust, action, switching, or exit consequences."
+}

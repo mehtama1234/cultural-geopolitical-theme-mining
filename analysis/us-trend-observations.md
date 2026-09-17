@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-263 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+264 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -249,6 +249,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | CFPB case-route labels and API fields change across complaint vintages | cost, time, voice, work | consumer_power_recourse, public_systems_feedback, firm_sector_market_power, time_hidden_price, trust_identity_meaning | Capped retrieval-order sample of published CFPB complaint records with case-level route fields | United States complaint records; consumer state and ZIP are reported fields | 8 | 2024; 2024; 2024; 2024; 2025; 2025; 2025; 2025 | compared | [open](records/us-cfpb-case-route-vintage-comparison-2024-2025.json) |
 
 **Boundary:** This is an API-vintage and route-field comparison, not a consumer-harm, remedy, or service-quality estimate. The 2025 response omits has_narrative in the returned sample, so it cannot be compared with 2024 narrative prevalence. Timely is not substituted for elapsed routing time, and routing is not remedy.
+
+| Student-loan servicing errors can shift tax access, payment burden, and credit information before a regulatory remedy | cost, voice, security | consumer_power_recourse, public_systems_feedback, trust_identity_meaning, unequal_exposure_status, firm_sector_market_power | CFPB enforcement action and consent order against Citibank, N.A. | United States; private student-loan servicing | 1 | 2006-2013 servicing practices; 2017-11-21 enforcement action | reported | [open](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json) |
+
+**Boundary:** This is a named US student-loan servicing enforcement event. It demonstrates documented administrative failures, borrower exposure mechanisms, and an ordered remedy, but does not estimate population prevalence, establish individual causal loss, verify remedy receipt or adequacy, measure durable compliance, or close household, trust, action, switching, or exit consequences.
 
 | Credit-card cost, access, rewards, and dispute exposure differ across the US market | cost, voice | household_room_consumption, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | US credit-card market, issuer account, cardholder credit-tier, and dispute measures | United States | 3 | 2024; credit-card market snapshot; 2024; purchase volume, credit tier, and promotional pricing; 2024; credit-card transaction disputes | reported | [open](records/us-cfpb-credit-card-market-2025.json) |
 

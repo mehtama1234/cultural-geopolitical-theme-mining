@@ -1,90 +1,93 @@
-# Consumer loss and complaint visibility occupy different stages of recourse
+# Finding 018: Citibank servicing errors show how account information can redistribute student-loan cost before remedy
 
-**Status:** provisional cross-source consumer-power finding · **Checked:** 2026-09-14
+**Status:** provisional named US enforcement finding · **Checked:** 2026-09-17
 
 ## The bounded finding
 
-The current US evidence separates two parts of the consumer-recourse chain that
-are often collapsed:
+The CFPB reported on November 21, 2017 that Citibank’s student-loan servicing
+practices misled borrowers about tax-deduction eligibility, erroneously ended
+some in-school deferments, charged late fees and capitalized interest, misstated
+some minimum payments, and sent incomplete co-signer-release notices. The
+consent order required $3.75 million in consumer restitution, a $2.75 million
+civil penalty, and changes to information and reversal practices.
 
-1. The 2024 Federal Reserve SHED estimates that 21% of adults experienced any
-   financial fraud, 63% of adults reporting non-credit-card fraud lost money,
-   32% of that conditional group had some money not recovered, and about 30%
-   spent ten or more hours dealing with or recovering from the incident.
-2. The 2024 CFPB case-route sample shows how selected complaints become
-   institutionally visible: web submission ranged from 88.4% to 99.0% across
-   four products, while same-day routing ranged from 90.0% to 100.0%. Company
-   response labels also differed: mortgage and student-loan samples were
-   explanation-heavy, while checking/savings had a larger monetary-relief
-   share and credit reporting a larger non-monetary-relief share.
+The safe interpretation is:
 
-Together these layers establish a measurement asymmetry: household loss and
-time burden are not the same denominator as published complaints, and a
-complaint route or response label is not verified recovery.
+> A servicer can redistribute money, payment timing, and access to financial
+> information through account-status and notice systems before a regulator
+> creates a correction route. An ordered remedy establishes institutional
+> response, but the public case record does not show whether affected borrowers
+> received the remedy, recovered the missed tax or payment opportunity, or
+> changed trust, behavior, or exit.
 
-## What the sources measure
-
-| Layer | Unit | Direct contribution | Boundary |
-|---|---|---|---|
-| Federal Reserve SHED | Weighted adult respondent; conditional fraud paths | Exposure, direct loss, non-recovery, and time burden | Self-report; no verified provider response, complaint, or exit |
-| SHED subgroup extraction | 12,295 public-use adult rows; conditional subgroup cells | Income, age, and payment-route differences | No replicate variance fields; selected P2P/account cells |
-| CFPB case-route sample | 500 capped published records per selected product | Routing time, channel, narrative visibility, public response, and labels | Retrieval-order sample; no population complaint rate, account denominator, or remedy verification |
-
-The layers should not be pooled. The SHED fraud denominator includes people who
-may never contact a firm or regulator; CFPB records include people who entered a
-visible complaint system and survived the agency's publication/routing process.
-The gap between them is itself an acquisition target, not a missing percentage
-that can be inferred.
-
-## Mechanism under test
+## Event chain
 
 ```text
-fraud or account problem
-  -> loss, recovery time, and practical burden
-  -> access to a complaint or correction route
-  -> firm/agency response and verified remedy
-  -> repeat effort, switching, continued dependence, trust, or exit
+student-loan servicing and account information
+  -> misleading tax information, erroneous deferment termination, or overstated bill
+  -> foregone tax access, late fees, capitalized interest, or payment confusion
+  -> CFPB enforcement and restitution/control order
+  -> [open] receipt, adequacy, household substitution, repayment, trust, or exit
 ```
 
-The current evidence reaches the first stage and parts of the second and
-third. It does not follow the same customer from loss through remedy and later
-choice.
+## What the public record supplies
 
-## Counterexamples and safeguards
+| Stage | Observed case evidence | Still open |
+|---|---|---|
+| Institutional exposure | Citibank or its affiliate serviced approximately 253,000 private education loans valued at about $2.3 billion as of June 2017 | Exact affected count by failure category and individual account history |
+| Information/control failure | CFPB found tax-information misrepresentation, erroneous deferment termination, overstated minimum payments, and incomplete adverse-action notices | Individual borrower comprehension, attempted correction, and time/cost of response |
+| Material consequence | Some borrowers did not seek a potentially available tax deduction; others incurred late fees or capitalized interest that should not have accrued | Actual tax loss, payment interruption, credit effects, household borrowing, and care/work substitution |
+| Remedy | $3.75m restitution, $2.75m penalty, accurate information, reversal of erroneous charges, and specified disclosures | Payment receipt, amount, timing, adequacy, and whether the missed opportunity was restored |
+| Meaning/action | A formal public enforcement and correction route exists | Complaint effort, attribution, trust, switching, non-use, organizing, or political action |
 
-- A household can suffer loss without filing a complaint; complaint counts do
-  not estimate fraud incidence or the probability of recovery.
-- A fast CFPB routing time is administrative handoff, not company resolution
-  time or money returned.
-- An explanation, monetary-relief, or non-monetary-relief label is not an
-  independently verified outcome.
-- P2P cases show higher descriptive non-recovery and time burden than selected
-  non-P2P cases, but the comparison does not establish payment-route causation.
-- Older adults show higher published fraud exposure/loss measures in some SHED
-  comparisons, but that does not by itself establish weaker digital ability,
-  higher vulnerability, or lower recovery capacity.
-- Continued use after an unresolved problem may indicate necessity or lack of
-  alternatives rather than trust or satisfaction.
+The consent order also records a large historical tax-information denominator:
+approximately 640,692 borrowers who made student-loan interest payments in
+2010–2012 had not filed the relevant W-9S, about 85% of borrowers making such
+payments in that period. That is context for the information pathway, not a
+count of borrowers who actually lost a tax deduction.
 
-## Next end-to-end test
+## Why it matters to the broader atlas
 
-Select one essential financial service and build a lawful same-case or linked
-panel from first contact through 12 months. Preserve attempted but unsubmitted
-contacts, non-complainants where possible, account alternatives, effort,
-transfers, response authority, verified correction/payment/restored access,
-repeat contact, switching, non-use, trust, attribution, and essential-service
-consequences. The comparison must retain a quickly remedied case and a case
-with a real substitute as counterexamples.
+This case makes the consumer-power mechanism concrete: the “product” is not
+only the loan contract, but the account-state, notice, and servicing interface
+through which borrowers learn what they owe and what alternatives they can
+use. A wrong status can move cost into fees, capitalization, taxes, time, and
+dependence before a borrower can exercise a correction or appeal.
 
-## Reproduction and sources
+It complements the 2024–2025 CFPB complaint timing audit. The audit measures
+administrative response fields across published complaints; Citibank supplies a
+named case with documented mechanisms and a remedy order. Neither establishes
+a population-wide causal effect or a completed lived-recovery result.
 
-- [Federal Reserve household fraud/recovery record](../../../records/us-federal-reserve-household-fraud-recovery-2024.json)
-- [SHED subgroup record](../../../records/us-shed-fraud-recovery-subgroups-2024.json)
-- [CFPB case-route record](../../../records/us-cfpb-case-route-sample-2024.json)
-- [Consumer recourse cross-source bridge](../consumer-recourse-power-exit-cross-source-bridge-v1.md)
-- [Federal Reserve 2024 household economic well-being](https://www.federalreserve.gov/publications/2025-economic-well-being-of-us-households-in-2024-banking-and-credit.htm)
-- [CFPB consumer complaint data](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+## Limits and counterexamples
 
-**Evidence status:** cross-source descriptive synthesis with distinct survey and
-administrative denominators; no same-customer remedy, trust, switching, or
-political-action estimate is claimed.
+- The case is a historical enforcement event, not a current student-loan
+  prevalence estimate.
+- Citibank consented to the order without admitting or denying the findings
+  except jurisdictional facts.
+- The public release does not report restitution recipients, individual amounts,
+  payment timing, or whether borrowers recovered forgone tax benefits.
+- The ordered controls do not prove durable compliance or eliminate servicing
+  risk elsewhere in the market.
+- No household, worker, trust, collective-action, switching, or exit outcome is
+  observed.
+
+## Next decisive test
+
+Find the order’s implementation or payment records, if publicly available, and
+retain consumer-category counts, payment timing, correction evidence, and any
+follow-up separately. The smallest borrower-side design would join account
+status and notice receipt to attempted correction, actual charge/tax result,
+remedy receipt, later repayment or credit status, and trust or non-use.
+
+## Sources and reproduction
+
+- [CFPB Citibank enforcement page](https://www.consumerfinance.gov/enforcement/actions/citibank-na-student-loan-servicing/)
+- [CFPB contemporaneous enforcement release](https://www.consumerfinance.gov/archive/newsroom/cfpb-takes-action-against-citibank-student-loan-servicing-failures-harmed-borrowers/)
+- [CFPB Citibank consent order](https://files.consumerfinance.gov/f/documents/cfpb_citibank-n.a._consent-order_112017.pdf)
+- [Student-loan timing-field audit](us-customer-automation-recourse-017.md)
+- [Machine-readable trend record](../../../records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json)
+
+**Storage boundary:** only two CFPB HTML pages and one official consent-order
+PDF were checked; no borrower file, bulk complaint data, or respondent-level
+material was downloaded or retained.
