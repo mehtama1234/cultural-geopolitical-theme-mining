@@ -40,6 +40,8 @@ goal, with household work treated as one evidence lane.
 For a compact review of the writeups and active themes, use the [current themes
 review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md), then open the [trend
 observations index](site/us-trend-observations.html) for the underlying records.
+For the longer narrative explaining the recurring mechanisms, evidence levels,
+and missing end-to-end links, read the [detailed themes deep dive](analysis/US-BROAD-THEMES-DEEP-DIVE_V1.md).
 The [recurrent-source vintage watchlist](analysis/US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md)
 keeps release dates, refresh actions, revision boundaries, and account-gated
 acquisition dependencies visible across research cycles.
