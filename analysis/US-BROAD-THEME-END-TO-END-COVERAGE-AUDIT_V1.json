@@ -1,7 +1,7 @@
 {
   "interpretation": "This audit summarizes the matrix's declared evidence states. It does not infer causality, convert source layers into a common denominator, or treat a non-open status token as a completed end-to-end result.",
   "matrix": "analysis/US-BROAD-THEME-COVERAGE-MATRIX_V1.md",
-  "matrix_sha256": "bdad6d7bbf32800290211a3ea45bafe322ae4d806b24ed71d0be694dd2b6cf07",
+  "matrix_sha256": "9804e9cf4b0fa10bf59cad8592f2564c239ff23f53bb7528c51501572c1dfcf1",
   "schema": "us-broad-theme-end-to-end-coverage-audit-v1",
   "status": "control_audit",
   "status_token_counts": {
@@ -159,9 +159,9 @@
     },
     {
       "current_status": "Reported / Compared / Inferred",
-      "evidence_anchor_count": 11,
+      "evidence_anchor_count": 16,
       "measurement_level": "Firm, product, market, worker, owner, community, state, county",
-      "next_required_test": "Record when a firm decision shifts price, waiting, access, risk, or data among customers, workers, owners, public systems, and future users\u2014and who can resist; the sector and state layers show that application volume, establishment flow, net-job intensity, entry, and exit diverge; the finance-capacity screen is contextual and non-causal, not a market-power estimate.",
+      "next_required_test": "Record when a firm decision shifts price, waiting, access, risk, or data among customers, workers, owners, public systems, and future users\u2014and who can resist; the new records distinguish establishment capacity, AI utilization, output/cost associations, executive expectations, and payment-system redistribution from realized market power; the sector and state layers show that application volume, establishment flow, net-job intensity, entry, and exit diverge; the finance-capacity screen is contextual and non-causal.",
       "same_unit_end_to_end_link": false,
       "source_line": 25,
       "status_tokens": [
