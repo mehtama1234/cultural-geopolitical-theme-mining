@@ -33,7 +33,7 @@ claim.
 
 The latest rotation cycle deliberately moved across the full program rather
 than deepening one household lane. The continuity ledger records 51 documented
-rotations; the 41 numbered entries below are the cross-source synthesis
+rotations; the 42 numbered entries below are the cross-source synthesis
 artifacts currently carried in this table. They are bounded syntheses, not
 estimates of one pooled phenomenon:
 
@@ -84,6 +84,7 @@ estimates of one pooled phenomenon:
 | 39. Consumer-remedy visibility versus lived recovery | [Eight-route practical-exit qualification](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md) | Doxo adds bill-payment search confusion, alleged fees, and order-stage controls; Grubhub adds aggregate checks/PayPal distribution and prospective worker, account, and restaurant controls; both strengthen the formal-response surface without showing the affected unit's usable alternative or protected outcome | Payment or income success, individual remedy receipt, durability, residual loss, trust, switching, non-use, and exit |
 | 40. AI recruiting rules and worker contestability | [Elegant settlement compliance follow-up](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md) and [NYC AEDT enforcement follow-up](projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md) | A named federal settlement supplies prospective policy, training, penalty, notice, and monitoring powers, while a city rule supplies bias-audit, notice, complaint, and referral routes; both make institutional contestability visible without showing worker-level correction or recovery | Tool-level exposure, notice receipt, appeal/override, decision correction, compensation, monitoring result, recurrence, worker trust, bargaining, and exit |
 | 41. Platform-work governance before verified remedy | [Malaysia Act 872 outcome audit](projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md) and [Philippines DOLE platform-governance record](projects/ai-work-control/philippines-dole-platform-governance-record-v1.md) | Malaysia shows an enacted complaint/conciliation/Tribunal architecture with a reported first hearing; the Philippines shows official dialogue, platform position-paper requests, and planned complaint capacity. These are distinct institutional stages, not a pooled regulatory-strength measure | Primary case record, merits decision, payment, enforcement, unit launch/caseload, corrected automated decision, recurrence prevention, worker trust, bargaining, and exit |
+| 42. Material pressure and social connection | [HTOPS expense-to-social-connection finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md) | In the corrected March 2026 PUF, frequent loneliness, low social/emotional support, and food insufficiency rise sharply across expense-difficulty categories, while frequent telephone/video contact is comparatively flat; the age-conditioned direction persists across 25–44, 45–64, and 65+ | Dated bill or service event, practical help requested/received, relationship quality, recovery, trust, community engagement, and political action for the same unit |
 
 ### The common pattern
 
