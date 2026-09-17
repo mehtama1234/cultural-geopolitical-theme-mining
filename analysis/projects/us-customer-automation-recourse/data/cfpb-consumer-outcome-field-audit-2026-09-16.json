@@ -6,6 +6,12 @@
   "returned_records": 3,
   "published_total_for_query": 21474,
   "retrieval_sha256": "sha256:6a56fed1d5285b0a464e00d74304ac02603b9c5d522864e007ae757a158a343e",
+  "all_fields_probe": {
+    "query_addition": {"field": "all"},
+    "returned_records": 3,
+    "retrieval_sha256": "sha256:e393884962b0fd6bf0a7bfeab2c35a2de6554572510939eb0b3ad169dd2e95a3",
+    "field_set_same_as_default_probe": true
+  },
   "observed_fields": ["company", "company_public_response", "company_response", "complaint_id", "date_received", "date_sent_to_company", "issue", "product", "state", "sub_issue", "sub_product", "submitted_via", "tags", "timely", "zip_code"],
   "downstream_fields_not_observed": ["consumer_disputed", "verified_correction_or_payment", "repeat_contact_or_effort", "account_change_or_closure", "switching_or_non_use", "post_response_consumer_assessment"],
   "boundary": "This is a three-record schema probe, not a population remedy estimate. The returned public fields expose complaint receipt, routing, response labels, and place/product context; they do not verify a consumer outcome or practical exit. Field absence in this response is not proof that no private or administrative follow-up exists."

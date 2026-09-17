@@ -36,6 +36,12 @@ Compared with the prior probe, this response did not include
 observation, not evidence that narratives or underlying consumer experiences
 do not exist elsewhere in the system.
 
+To test whether the omission was caused by the request shape, a second
+three-record request added the API's `field=all` parameter. It returned the
+same 15-field set as the default request. The result strengthens the current
+API-response boundary while still not proving that no narrative or follow-up
+data exists in another endpoint, access tier, or administrative system.
+
 The probe did not expose a usable `consumer_disputed` value. In the returned
 records the key was absent rather than a documented yes/no outcome. It also did
 not expose a verified correction, amount returned, repeat contact, account
