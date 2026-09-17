@@ -3,6 +3,7 @@
 **Status:** metadata-screened acquisition route; no raw file downloaded
 **Checked:** 2026-09-16
 **Machine record:** [HTOPS endpoint acquisition gate](data/htops-2025-fraud-recovery-trust-acquisition-gate-v1.json)
+**Screen output:** [April fraud/recovery screen](data/htops-2025-fraud-recovery-screen-2025-04.json)
 
 ## Why this route matters
 
@@ -27,10 +28,13 @@ The official April 2025 user notes list `FRAUD1` through `FRAUD8`, including
 scam exposure, reporting to law enforcement or a government agency, reasons for
 not reporting, money loss, amount lost before recovery, government/law-
 enforcement recovery, scam method, and preferred government warning method.
-They also list life satisfaction (`OECD`), social/emotional support and
-loneliness (`SOC1_first`–`SOC6`), and institutional-trust fields (`Trust1`–
-`Trust3`). The June 2025 notes list material conditions and `Trust1`–`Trust3`
-but do not list the fraud module.
+The released dictionary maps those question IDs to columns such as
+`TFRAUD5`, `FRAUD3_1`–`FRAUD3_14`, and `FRAUD8_1`–`FRAUD8_7`; the question ID
+and column name must not be conflated. It also maps life satisfaction (`OECD`)
+to `SATISFACTION`, social/emotional support to `SOCIAL1_first`, and
+institutional-trust questions to `TRUST1` and `FEDSTAT_TRUST`. The June 2025
+notes list material conditions and trust fields but do not list the fraud
+module.
 
 The official release page says each release includes a PUF, replicate-weight
 file, and data dictionary. The current workspace does not retain the April or
@@ -70,11 +74,35 @@ replicate weights, compatible respondent key, interpretable recovery coding,
 or a bounded denominator. Stop before any second archive if the April module
 cannot support a defensible same-respondent screen.
 
+The bounded screen is reproducible with:
+
+```text
+python3 scripts/analyze_htops_2025_fraud_recovery.py \
+  --puf /tmp/cgtm-htops-2504/TOPICAL_2504_PUF.csv \
+  --dictionary /tmp/cgtm-htops-2504/HTOPS_2504_PUF_DATA_DICTIONARY_CSV.xlsx \
+  --replicate-weights /tmp/cgtm-htops-2504/HTOPS_2504_repwgt_puf.csv \
+  --output analysis/projects/us-cost-trust-politics/data/htops-2025-fraud-recovery-screen-2025-04.json
+```
+
+The script reads the temporary PUF, checks the dictionary and released column
+names, verifies exact respondent-ID coverage in the 80-replicate-weight file,
+preserves the conditional universes, records input hashes, and writes
+aggregate results only. It does not copy respondent rows into Git.
+
+The first local screen found 8,850 PUF rows, 8,827 positive person-weight
+rows, and 85 valid loss-and-report recovery-universe rows. Weighted descriptive
+shares were 83.7055% scam exposure among valid respondents, 9.3728% reporting
+among exposed respondents with valid reporting answers, 3.9568% money loss
+among exposed respondents with valid loss answers, and 34.9790% recovery among
+the loss-and-report universe. These are route and outcome distributions, not
+evidence that a dated scam caused a later change in trust or life satisfaction.
+
 ## Official metadata sources
 
 - [Census 2025 PUF release page](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html)
 - [April 2025 HTOPS user notes](https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2504_HTOPS_Household_Pulse_User_Notes.pdf)
 - [June 2025 HTOPS user notes](https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2506_HTOPS_Household_Pulse_User_Notes_04232026.pdf)
 
-The official notes and release page were inspected as metadata only. No raw
-HTOPS archive was downloaded in creating this gate.
+The official notes and release page were inspected first. The single April
+archive was then used temporarily under the 20 MB budget; its raw files are
+not retained in the repository.

@@ -2,7 +2,10 @@
   "format": "htops-2025-fraud-recovery-trust-acquisition-gate-v1",
   "status": "metadata_screened_acquisition_route",
   "checked": "2026-09-16",
-  "raw_downloaded": false,
+  "raw_downloaded": true,
+  "raw_retained": false,
+  "screen_record": "analysis/projects/us-cost-trust-politics/data/htops-2025-fraud-recovery-screen-2025-04.json",
+  "screen_status": "schema_and_replicate_weight_gate_passed; weighted_descriptive_screen_completed",
   "route": "April HTOPS fraud exposure -> reporting/recovery -> trust, support, and life satisfaction",
   "candidate_fields": {
     "exposure": ["FRAUD1", "FRAUD7"],
@@ -32,5 +35,5 @@
     "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2504_HTOPS_Household_Pulse_User_Notes.pdf",
     "https://www2.census.gov/programs-surveys/demo/technical-documentation/hhp/2506_HTOPS_Household_Pulse_User_Notes_04232026.pdf"
   ],
-  "boundary": "Metadata-only route selection; no raw HTOPS archive or estimate is retained."
+  "boundary": "The raw archive was used temporarily under the 20 MB budget, then removed; only hashes, schema checks, and aggregate output are retained. The screen is retrospective and descriptive, not a dated causal episode or practical-exit estimate."
 }

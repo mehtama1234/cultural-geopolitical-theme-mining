@@ -1,0 +1,176 @@
+{
+  "format": "htops-2025-fraud-recovery-screen-v1",
+  "status": "weighted_descriptive_screen",
+  "checked": "2026-09-16",
+  "period": "April 15\u201329, 2025; fraud questions refer to the prior 12 months",
+  "source_unit": "April 2025 HTOPS topical PUF respondent",
+  "rows": 8850,
+  "valid_positive_person_weight_rows": 8850,
+  "candidate_variable_map": {
+    "FRAUD1": "FRAUD1",
+    "FRAUD2": "FRAUD2",
+    "FRAUD4": "FRAUD4",
+    "FRAUD5_amount": "TFRAUD5",
+    "FRAUD6": "FRAUD6",
+    "life_satisfaction": "SATISFACTION",
+    "social_support": "SOCIAL1_first",
+    "loneliness": "SOCIAL2_first",
+    "institutional_trust": "TRUST1",
+    "statistics_policy_trust": "FEDSTAT_TRUST",
+    "person_weight": "PWEIGHT",
+    "respondent_id": "SCRAMID"
+  },
+  "dictionary_metadata": {
+    "FEDSTAT_TRUST": {
+      "question_id": "Trust3",
+      "label": "Agree or disagree that: Policy makers need federal statistics to make good decisions about things like federal funding.",
+      "values": "1) Strongly agree\n2) Somewhat agree\n3) Neither agree nor disagree\n4) Somewhat disagree\n5) Strongly disagree\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    },
+    "FRAUD1": {
+      "question_id": "FRAUD1",
+      "label": "Encountered scams in the last 12 months",
+      "values": "1) Yes\n2) No\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    },
+    "FRAUD2": {
+      "question_id": "FRAUD2",
+      "label": "Reported scam(s) to law enforcement or a government agency",
+      "values": "1) Yes\n2) No\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "FRAUD1=1"
+    },
+    "FRAUD4": {
+      "question_id": "FRAUD4",
+      "label": "Lost money from scams",
+      "values": "1) Yes\n2) No\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "FRAUD1=1"
+    },
+    "FRAUD6": {
+      "question_id": "FRAUD6",
+      "label": "Recovery of funds by law enforcement / government agency",
+      "values": "1) Yes (specify)\n2) No\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "FRAUD4=1  and FRAUD2=1"
+    },
+    "PWEIGHT": {
+      "question_id": "None",
+      "label": "Person weight",
+      "values": "<varied>",
+      "universe": "None"
+    },
+    "SATISFACTION": {
+      "question_id": "OECD",
+      "label": "Overall Satisfaction",
+      "values": "1) 0 (Not satisfied at all)\n2) 1\n3) 2\n4) 3\n5) 4\n6) 5\n7) 6\n8) 7\n9) 8\n10) 9\n11) 10 (Completely satisfied)\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    },
+    "SCRAMID": {
+      "question_id": "None",
+      "label": "Scrambled ID for linking files",
+      "values": "text",
+      "universe": "All respondents"
+    },
+    "SOCIAL1_first": {
+      "question_id": "SOC1_first",
+      "label": "Social and emotional support ",
+      "values": "1) Always\n2) Usually\n3) Sometimes\n4) Rarely\n5) Never\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    },
+    "SOCIAL2_first": {
+      "question_id": "SOC2_first",
+      "label": "Frequency of Loneliness",
+      "values": "1) Always\n2) Usually\n3) Sometimes\n4) Rarely\n5) Never\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    },
+    "TFRAUD5": {
+      "question_id": "FRAUD5",
+      "label": "Topcoded dollar amount of lost funds",
+      "values": "top- and bottom-coded extreme 0.5% of distribution\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "FRAUD4=1"
+    },
+    "TRUST1": {
+      "question_id": "Trust1",
+      "label": "Trust in federal statistics",
+      "values": "1) Tend to trust federal statistics\n2) Tend not to trust federal statistics\n-99) Question seen but category not selected\n-88) Missing / Did not report",
+      "universe": "All respondents"
+    }
+  },
+  "metrics": {
+    "scam_exposure_among_valid_weighted_respondents": {
+      "weighted_percent": 83.7055,
+      "unweighted_valid_n": 8827,
+      "weighted_denominator": 260553005.7983
+    },
+    "government_or_law_enforcement_reporting_among_exposed": {
+      "weighted_percent": 9.3728,
+      "unweighted_valid_n": 7763,
+      "weighted_denominator": 217767447.7395
+    },
+    "money_loss_among_exposed": {
+      "weighted_percent": 3.9568,
+      "unweighted_valid_n": 7763,
+      "weighted_denominator": 217577096.3292
+    },
+    "recovery_among_loss_and_report_universe": {
+      "weighted_percent": 34.979,
+      "unweighted_valid_n": 85,
+      "weighted_denominator": 2638024.1003
+    },
+    "positive_reported_loss_amount_among_loss_universe": {
+      "weighted_percent": 90.9866,
+      "unweighted_valid_n": 295,
+      "weighted_denominator": 8608998.7966
+    },
+    "mean_life_satisfaction_among_valid_weighted_respondents": {
+      "weighted_mean_0_to_10": 8.1654,
+      "unweighted_valid_n": 8846
+    }
+  },
+  "raw_code_counts": {
+    "FRAUD1": {
+      "-99": 23,
+      "1": 7781,
+      "2": 1046
+    },
+    "FRAUD2": {
+      "-88": 1069,
+      "-99.0": 18,
+      "1.0": 758,
+      "2.0": 7005
+    },
+    "FRAUD4": {
+      "-88": 1069,
+      "-99.0": 18,
+      "1.0": 295,
+      "2.0": 7468
+    },
+    "FRAUD6": {
+      "-88": 8765,
+      "1.0": 20,
+      "2.0": 65
+    },
+    "TRUST1": {
+      "-99": 46,
+      "1": 6431,
+      "2": 2373
+    },
+    "FEDSTAT_TRUST": {
+      "-99": 28,
+      "1": 5280,
+      "2": 2337,
+      "3": 880,
+      "4": 172,
+      "5": 153
+    }
+  },
+  "boundary": "This is a weighted descriptive screen. Fraud exposure is retrospective and does not identify an incident date, named actor, alternatives, effort, remedy timing, or later trust change. Reporting and agency recovery are distinct outcomes; no causal, longitudinal, practical-exit, or population-harm claim is promoted. TFRAUD5 is a topcoded amount field and is not treated as an exact uncensored loss total.",
+  "source_files": {
+    "puf": "/tmp/cgtm-htops-2504/TOPICAL_2504_PUF.csv",
+    "dictionary": "/tmp/cgtm-htops-2504/HTOPS_2504_PUF_DATA_DICTIONARY_CSV.xlsx",
+    "replicate_weights": "/tmp/cgtm-htops-2504/HTOPS_2504_repwgt_puf.csv",
+    "puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "dictionary_sha256": "sha256:909498d228971200fbd0f4bb0c584de0336b6633ad0082f72034477430bcbae0",
+    "replicate_weights_sha256": "sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c",
+    "replicate_weight_columns": 163,
+    "replicate_weight_file_present_in_archive": true
+  }
+}
