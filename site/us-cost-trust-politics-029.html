@@ -6,14 +6,17 @@
 a 2012 retrospective question about job loss during the prior two years can be
 followed into 2014 Congress approval, congressional contact, and local political
 action. Among 829 respondents reporting job loss and 8,671 reporting no job
-loss, the job-loss group had lower weighted local political action (23.93% versus
-31.57%) and slightly lower congressional contact (37.36% versus 39.14%).</p>
+loss, the job-loss group had much higher weighted no-insurance shares in both
+2012 (41.15% versus 12.72%) and 2014 (25.87% versus 8.96%), lower local
+political action (23.93% versus 31.57%), and slightly lower congressional
+contact (37.36% versus 39.14%).</p>
 <p>Congress approval did not move in the same direction: favorable approval was
 13.86% in the job-loss group versus 10.06% in the no-loss group, while
 unfavorable approval was 80.85% versus 81.88%. This is a counterexample to
 equating material disruption with uniform institutional distrust or withdrawal.</p>
 <h2 id="event-chain-and-limits">Event chain and limits</h2>
 <pre><code class="language-text">retrospective job-loss screen
+  -&gt; health-insurance and benefit-security context
   -&gt; later Congress approval and contact
   -&gt; later local political action
   -&gt; [open] dated attribution, remedy, recovery, trust change, or exit
@@ -37,6 +40,11 @@ conditions, and other events.</p>
 <td>Work disruption</td>
 <td>829 respondents reported losing a job in the prior two years</td>
 <td>Date, actor, involuntary status, income/benefit/time loss</td>
+</tr>
+<tr>
+<td>Material security</td>
+<td>No-insurance shares were higher in the job-loss group in both 2012 and 2014; reported benefit cuts were 22.32% versus 8.87%</td>
+<td>Coverage loss timing, employer/benefit mechanism, payment, replacement coverage, household recovery</td>
 </tr>
 <tr>
 <td>Institutional judgment</td>
@@ -65,13 +73,14 @@ respondents; contact and action use 829 and 8,671. Percentages use the supplied
 panel weight. No replicate-weight or causal interval is claimed.</p>
 <h2 id="why-this-matters-to-the-broad-atlas">Why this matters to the broad atlas</h2>
 <p>This is a stronger temporal arrangement than a single cross-sectional proxy: the
-same respondent supplies an earlier work-disruption screen and later political
-outcomes. Its main value is diagnostic. It shows that work disruption may
+same respondent supplies an earlier work-disruption screen, material-security
+measures, and later political outcomes. Its main value is diagnostic. It shows that work disruption may
 coincide with reduced action availability while institution-specific approval
 does not simply fall. The result keeps “political judgment,” “institutional
 contact,” and “collective action” as separate downstream currencies.</p>
 <h2 id="coding-consequence">Coding consequence</h2>
 <pre><code class="language-text">retrospective job loss       != dated involuntary separation
+insurance noncoverage        != verified job-loss consequence
 lower action                 != political apathy
 Congress approval            != generalized trust
 same-panel ordering          != causal effect

@@ -20,6 +20,8 @@ Study. The derived screen uses:
 | Stage | Variable | Coding |
 |---|---|---|
 | Earlier material/work exposure | `CC12_387_4` | 1 = lost job during the prior two years; 2 = no |
+| Material-security follow-up | `healthins_6_12`, `healthins_6_14` | 1 = no health insurance; 2 = some form of insurance |
+| Benefit-loss context | `CC12_387_5` | 1 = employee benefits cut during the prior two years; 2 = no |
 | Later institutional judgment | `CC14_308b` | 1–2 = favorable Congress approval; 3–4 = unfavorable; 5 = not sure |
 | Later institutional contact | `CC14_360x_2`–`_8` | any affirmative contact route |
 | Later political action | `CC14_417a_1`–`_4` | any local political meeting, sign, campaign work, or donation |
@@ -38,10 +40,20 @@ group contains 829 respondents (9.71% weighted); the no-loss group contains
 | Any congressional contact | 37.36% | 39.14% | 829 / 8,671 |
 | Any local political action | 23.93% | 31.57% | 829 / 8,671 |
 
+The same panel also places material security on the timeline:
+
+| Material outcome | Reported job loss | No reported job loss | Valid n by group |
+|---|---:|---:|---:|
+| No health insurance in 2012 | 41.15% | 12.72% | 829 / 8,671 |
+| No health insurance in 2014 | 25.87% | 8.96% | 829 / 8,671 |
+| Employee benefits cut in prior two years | 22.32% | 8.87% | 829 / 8,671 |
+
 The screen therefore supplies a counterexample to a single translation rule:
-reported job loss coincides with lower measured action but not uniformly lower
-Congress approval. The approval item is institution-specific and may encode
-party identity or attribution rather than generalized trust.
+reported job loss coincides with a large health-insurance gap and lower measured
+action but not uniformly lower Congress approval. The approval item is
+institution-specific and may encode party identity or attribution rather than
+generalized trust. Insurance noncoverage is a material-security correlate, not
+proof that the job loss caused loss of coverage.
 
 ## Interpretation boundary
 

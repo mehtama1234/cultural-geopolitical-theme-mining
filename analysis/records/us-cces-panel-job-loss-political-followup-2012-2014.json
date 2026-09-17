@@ -26,6 +26,16 @@
           "unit": "respondents reporting they lost a job during the prior two years in CC12_387_4",
           "value_type": "weighted_panel_group_counts"
         },
+        "no_health_insurance": {
+          "value": "2012: 41.15% after reported job loss versus 12.72% without; 2014: 25.87% versus 8.96%",
+          "unit": "weighted share coded as having no health insurance; valid n=829 and 8,671 in each wave",
+          "value_type": "weighted_material_security_followup"
+        },
+        "employee_benefits_cut": {
+          "value": "22.32% after reported job loss versus 8.87% without reported job loss",
+          "unit": "weighted share reporting employee benefits such as health insurance were cut during the prior two years",
+          "value_type": "weighted_material_security_comparison"
+        },
         "congress_approval_favorable": {
           "value": "13.86% after reported job loss versus 10.06% without reported job loss",
           "unit": "weighted share approving Congress somewhat or strongly in 2014; valid n=827 and 8,626",
@@ -47,7 +57,7 @@
           "value_type": "weighted_followup_comparison"
         }
       },
-      "method": "Read the retained CCES panel Stata file; classify CC12_387_4=1 as reported job loss and =2 as no reported job loss; apply the supplied panel weight to 2014 outcome shares. Favorable Congress approval is codes 1–2 and unfavorable approval codes 3–4. Any congressional contact is any affirmative CC14_360x_2 through CC14_360x_8; any local political action is any affirmative CC14_417a_1 through CC14_417a_4.",
+      "method": "Read the retained CCES panel Stata file; classify CC12_387_4=1 as reported job loss and =2 as no reported job loss; apply the supplied panel weight to 2012 and 2014 outcome shares. Health-insurance noncoverage is CC12/CC14 healthins_6=1; employee-benefit cuts are CC12_387_5=1. Favorable Congress approval is codes 1–2 and unfavorable approval codes 3–4. Any congressional contact is any affirmative CC14_360x_2 through CC14_360x_8; any local political action is any affirmative CC14_417a_1 through CC14_417a_4.",
       "uncertainty": "Job loss is a retrospective two-year item, not a dated separation, employer, reason, income loss, or benefit-loss event. The panel is selected and retained; the supplied weight's representativeness for this derived transition is not independently re-established here. Outcome-specific missingness, prior political identity, health, income, unemployment duration, local conditions, and other shocks remain. No replicate-weight or causal uncertainty estimate is claimed.",
       "subgroup": "2012 reported job loss versus no reported job loss among the retained three-wave panel; 2014 outcomes are separate valid-answer universes.",
       "counterinterpretation": "A job loss may reduce time, resources, or political action while leaving institution-specific approval shaped by party identity, attribution, economic expectations, or other conditions. The slightly higher favorable Congress share among the job-loss group is a counterexample to a uniform material-hardship-to-distrust rule.",
