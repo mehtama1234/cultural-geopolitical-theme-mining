@@ -1366,6 +1366,13 @@ market-transition or household result.
   cells now have official-universe Fay-BRR estimates. Renters show higher
   assistance and work prevention but lower paid-care use than owners/buyers;
   the sparse no-rent cells are not ranked and housing causation remains open.
+- **SIPP tenure-conditioned work-transition finding:** among respondents with
+  a reported work-limiting condition, owner/renter job-count movement is close
+  at the displayed low- and high-resource endpoints, while renters with one or
+  two jobs show higher next-month resource-band movement. The two-job cells are
+  small, resource-band movement has no direction, and tenure is not a causal
+  estimate; this is a counterweight to treating housing status as a universal
+  explanation of work instability. See the [bounded finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-040.md).
 - **SIPP joint-constraint diagnostic:** a same-record December cross-tab now
   places utility difficulty, annual child-care work prevention, tenure, and
   rent/mortgage hardship together. It adds a joint-constraint screen and a
