@@ -1,6 +1,6 @@
 # UAS health-cost episode and legitimacy acquisition audit v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-16
 **Status:** official documentation route verified; registration-gated microdata not yet acquired; no estimate promoted
 
 ## Why this is the next acquisition
@@ -17,7 +17,7 @@ gated, and the public documentation does not by itself establish the final
 usable overlap, response timing, or weight availability. Those are acquisition
 checks, not assumptions.
 
-## Access verification (2026-09-15)
+## Access verification (2026-09-16)
 
 The official UAS pages were rechecked on 2026-09-15. USC describes UAS as a
 probability-based panel of approximately 15,000 U.S. residents and provides a
@@ -30,6 +30,15 @@ page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3) continues to
 label the file download as registration required. The current [UAS home
 page](https://uasdata.usc.edu/index.php) also distinguishes the public
 Interactive Data Explorer from research-file access.
+
+The 2026-09-16 page recheck also confirms the substantive fit of the route:
+the Monthly Panel description says that each respondent-wave record covers
+the preceding month and includes medical expenditures alongside health,
+employment, life-satisfaction, and pain measures. The public routing pages for
+UAS 537 and UAS 698 expose candidate care-access, bill, outside-help,
+provider-experience, and institution-specific trust questions. These are
+documented candidate fields only; they do not establish that the files share a
+usable respondent-wave overlap, weights, or a complete episode.
 
 This recheck confirms that public metadata and visualization are available,
 but it does not create a public microdata substitute. The UAS terms page is
