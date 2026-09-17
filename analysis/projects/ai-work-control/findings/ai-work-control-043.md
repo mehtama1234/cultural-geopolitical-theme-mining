@@ -1,6 +1,6 @@
 # Barracuda-500M remains at the announced implementation and planning stage in the public record
 
-**Status:** time-indexed realization watchpoint · **Checked:** 2026-09-14
+**Status:** time-indexed realization watchpoint · **Checked:** 2026-09-17
 
 ## What was checked
 
@@ -26,6 +26,16 @@ The current official record contains:
   partnership; and
 - the September 8–11 MSPO exhibition context, which documents a major defense
   industry event and networking platform.
+
+The 17 September 2026 recheck of the official Ministry of National Defence
+pages found no later realization notice. The Barracuda page still describes
+the July agreement as enabling assembly, then production and servicing, with
+future polonization/europeanization work; it does not report first assembly,
+plant commissioning, completed quantity, acceptance, delivery, or operational
+use. The official JASSM-ER page still states that deliveries under the 2024
+agreement are planned for 2026–2030. These are current public-source status
+observations, not evidence that an unannounced or private milestone did not
+occur.
 
 ## The non-observation
 
