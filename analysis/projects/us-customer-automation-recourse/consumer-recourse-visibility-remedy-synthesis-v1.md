@@ -243,6 +243,33 @@ outcome. See the [Citibank servicing-remedy finding](findings/us-customer-automa
 | Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
 | BrightSpeed | Enforcement action against payment processing for fraudsters | 122,507 eligible consumers, $53.9M compensable harm, administrator, ongoing distribution | Issuance, delivery, amount received, residual loss, recovery, trust, exit |
 
+### Formal redress has multiple clocks
+
+The platform-work lane supplies a useful non-complaint counterexample. In
+*Rehman v Portier Pacific*, the Fair Work Commission recorded voluntary
+reactivation, considered a $5,500 settlement offer, and ordered formal
+reactivation plus $7,096.96 gross lost remuneration. Those are three different
+states: access eligibility, proposed settlement, and adjudicated restoration.
+The record still does not show that the order was paid, that the background
+check was corrected, that access remained durable, or that the worker had an
+alternative route or later exited.
+
+This is structurally comparable to the CFPB cases only at the level of the
+missing endpoint—not at the level of population, unit, law, or remedy amount:
+
+```text
+public route or proceeding
+  -> institutional decision or order
+  -> distribution, payment, or actual restoration [separate clock]
+  -> residual loss, dependence, trust, switching, or exit [open]
+```
+
+The medical-debt API recheck adds a related data-control lesson: a requested
+sub-product filter was not applied to returned complaint rows, so qualifying
+cases had to be verified locally before any route ledger was retained. A
+public label, a formal order, and a lived outcome must each pass their own
+field-level and timing checks.
+
 The closed American Debt Settlement Solutions case supplies a fourth
 distribution state. The CFPB says eligible consumers received compensation,
 records two distributions from May 2014 through June 2016, and states that the
@@ -307,6 +334,8 @@ ANES, or political action is claimed.
 - [CPSC hazard, recall, and remedy record](../../records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json)
 - [CPSC consumer-safety finding](../us-marketplace-product-safety/cpsc-hazard-recall-remedy-layer-v1.md)
 - [Federal Reserve fraud/recovery source](../../records/us-federal-reserve-household-fraud-recovery-2024.json)
+- [Rehman platform remedy record](../ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md)
+- [Medical-debt API filtering audit](../us-health-cost-household-choice/cfpb-medical-debt-event-ledger-audit-v1.md)
 - [Consumer-recourse project](README.md)
 
 **Evidence status:** cross-source household and administrative synthesis. It
