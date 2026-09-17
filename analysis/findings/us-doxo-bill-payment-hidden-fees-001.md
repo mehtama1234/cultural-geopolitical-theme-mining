@@ -26,12 +26,15 @@ consumers contacted Doxo about its payment process. These are not population
 rates: the survey is internal and selected, while complaint contacts are
 conditioned on awareness and access to a complaint route.
 
-On August 17, 2026, the FTC announced a proposed settlement requiring $2.1
-million in consumer redress and controls for biller-affiliation claims, fee and
-total-cost disclosure, negative-option terms, cancellation, financial
-information, and express informed consent. The public release does not show
-who receives redress, how much, whether a bill was successfully paid, or
-whether a household avoided late fees, arrears, or service interruption.
+On August 17, 2026, the FTC announced a settlement under a proposed order
+requiring $2.1 million in consumer redress and controls for biller-affiliation
+claims, fee and total-cost disclosure, negative-option terms, cancellation,
+financial information, and express informed consent. The FTC case page also
+lists a stipulated order for permanent injunction, monetary judgment, and
+other relief, while marking the case pending. This updates the institutional
+stage but does not show who receives redress, how much, whether a bill was
+successfully paid, or whether a household avoided late fees, arrears, or
+service interruption.
 
 ## Short answer
 
@@ -49,7 +52,7 @@ service continuity, redress receipt, or later switching.
 | Route discovery | FTC alleges misleading search ads and landing pages made Doxo appear connected to billers | Search exposure, consumer belief, device, biller, and alternatives |
 | Payment cost | Complaint alleges delivery fees and recurring subscription charges | Fee amount per episode, consent, payment success, and bill status |
 | Household effect | Utility, car-loan, and other bill payments can affect money, timing, and service continuity | Late fees, arrears, shutoff, stress, time spent, and substitution |
-| Institutional response | Proposed $2.1M redress and disclosure/consent controls | Signed-order implementation, redress receipt, correction, recurrence, and trust |
+| Institutional response | $2.1M settlement/redress design; FTC case page lists an August 17 stipulated order while case status remains pending | Order implementation, redress receipt, correction, recurrence, and trust |
 
 The key distinction is between a payment being completed and a payment route
 being understood. A household may pay on time while paying an avoidable fee;
@@ -72,6 +75,7 @@ hardship from the complaint or settlement alone.
 - [FTC Doxo case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo)
 - [Machine-readable Doxo record](../records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 
-**Evidence status:** official complaint, internal-survey reference, and proposed
-redress/control design; representative household incidence, payment success,
-service continuity, remedy receipt, and later behavior remain unobserved.
+**Evidence status:** official complaint, internal-survey reference, settlement
+announcement, and case-page order-stage update; representative household
+incidence, payment success, service continuity, order implementation, remedy
+receipt, and later behavior remain unobserved.
