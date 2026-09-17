@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 291 machine-readable records, 1039 observations,
+**Current registry state:** 292 machine-readable records, 1043 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 574 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 575 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -32,7 +32,7 @@ substitute for new evidence or a claim that scheduled releases will preserve
 comparability.
 
 The current continuation mode is a broad rotation across the twenty-five priority
-bridges and 47 documented rotations recorded in the [canonical cross-source
+bridges and 49 documented rotations recorded in the [canonical cross-source
 synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
 The first cycle covered consumer practical exit, AI/platform optionality,
 public-system route divergence, firm/infrastructure capacity,
@@ -1647,10 +1647,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 291 trend records and 1039 observations pass the
+the current checkpoint: 292 trend records and 1043 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,208 local Markdown links and 574 published HTML pages pass link
+families; 1,209 local Markdown links and 575 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

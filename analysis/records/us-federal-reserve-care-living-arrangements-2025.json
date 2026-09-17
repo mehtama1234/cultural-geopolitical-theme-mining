@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-federal-reserve-care-living-arrangements-2025",
+  "title": "Care is organized through multigenerational living, unpaid substitution, and gendered work tradeoffs",
+  "theme_ids": ["time", "cost", "work"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "work_control_bargaining", "housing_place_mobility", "trust_identity_meaning"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking adult respondent, 2025; living-arrangement, childcare, and adult-care tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 SHED; household living arrangements",
+      "denominator": {"value": 100, "unit": "published percentage base among all adults", "value_type": "survey_population"},
+      "measures": {
+        "lives_with_two_or_more_adult_generations": {"value": 33, "unit": "percent of adults", "value_type": "share"},
+        "lives_with_adult_child": {"value": 19, "unit": "percent of adults", "value_type": "share"},
+        "lives_with_parent": {"value": 15, "unit": "percent of adults", "value_type": "share"},
+        "under_30_lives_with_parent": {"value": 49, "unit": "percent of adults under age 30; 6 percentage points above 2022 and 12 above 2019", "value_type": "subgroup_share"},
+        "age_60_plus_lives_alone": {"value": 20, "unit": "percent of adults age 60 or older", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published living-arrangement estimates; respondents could select multiple household relationships.",
+      "uncertainty": "Cross-sectional household composition does not identify whether co-residence is chosen, affordable, protective, crowded, or driven by care need; household and person units are not interchangeable.",
+      "subgroup": "All adults, adults under age 30, and adults age 60 or older.",
+      "counterinterpretation": "Multigenerational living can provide care, housing, income pooling, and belonging rather than indicate constraint; living alone can reflect preference as well as unmet support.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm",
+      "retrieval_hash": "sha256:3a4f8270e8b93b021ea1cd7d529c244071c3333b3381269b9e5ce456d42dd117",
+      "status": "reported"
+    },
+    {
+      "period": "2025 SHED; paid childcare and housing-cost comparison",
+      "denominator": {"value": 100, "unit": "published conditional bases among adults living with their own children under age 13; expense comparison conditions on positive payments", "value_type": "conditional_population"},
+      "measures": {
+        "any_paid_childcare_under_13": {"value": 25, "unit": "percent of parents of young children using paid childcare in the prior week", "value_type": "conditional_share"},
+        "any_paid_childcare_income_under_50k": {"value": 15, "unit": "percent of parents of children under 13 with family income below $50,000", "value_type": "subgroup_share"},
+        "any_paid_childcare_income_100k_plus": {"value": 35, "unit": "percent of parents of children under 13 with family income of $100,000 or more", "value_type": "subgroup_share"},
+        "median_monthly_childcare_payment": {"value": 1083, "unit": "US dollars among families paying for childcare and housing", "value_type": "median"},
+        "median_monthly_housing_payment_comparator": {"value": 1900, "unit": "US dollars among families paying for childcare and housing", "value_type": "median"},
+        "childcare_to_housing_median_ratio": {"value": 0.57, "unit": "ratio of median monthly childcare to median monthly housing payment", "value_type": "derived_ratio"}
+      },
+      "method": "Federal Reserve 2025 SHED published childcare-use and expense estimates; childcare and housing payment medians use the report's separate positive-payment universes.",
+      "uncertainty": "The weekly childcare measure and monthly payment comparison are different reference periods and conditional populations; the source does not identify quality, availability, commute, work schedule, or unpaid alternatives for each family.",
+      "subgroup": "Parents living with their own children under age 13, conditioned by family income and positive childcare/housing payments.",
+      "counterinterpretation": "Higher paid-care use among higher-income families may reflect greater employment, desired care, or affordability rather than greater need; lower paid-care use can mean unpaid support, nonemployment, unavailable care, or unaffordability.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm",
+      "retrieval_hash": "sha256:3a4f8270e8b93b021ea1cd7d529c244071c3333b3381269b9e5ce456d42dd117",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; unpaid childcare by family/employment structure",
+      "denominator": {"value": 100, "unit": "published conditional bases among adults living with their own children under age 13", "value_type": "conditional_population"},
+      "measures": {
+        "any_unpaid_childcare": {"value": 44, "unit": "percent of parents of children under age 13", "value_type": "conditional_share"},
+        "unpaid_childcare_working_single_parent": {"value": 58, "unit": "percent of working single parents", "value_type": "subgroup_share"},
+        "unpaid_childcare_two_working_parents": {"value": 36, "unit": "percent of two-working-parent households", "value_type": "subgroup_share"},
+        "paid_childcare_two_working_parents": {"value": 36, "unit": "percent of two-working-parent households", "value_type": "subgroup_share"},
+        "paid_childcare_one_working_parent": {"value": 11, "unit": "percent of households with one working and one non-working parent", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published paid/unpaid childcare estimates by family and employment structure; paid and unpaid categories are separate responses.",
+      "uncertainty": "The data do not identify hours, provider reliability, schedule control, work quality, or whether unpaid care displaced rest, paid work, education, or another household activity; categories may coexist.",
+      "subgroup": "Parents living with their own children under age 13, grouped by partnership and employment structure.",
+      "counterinterpretation": "Unpaid care can be a preferred or supportive arrangement; more use among working single parents may reflect network strength, necessity, or both.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm",
+      "retrieval_hash": "sha256:3a4f8270e8b93b021ea1cd7d529c244071c3333b3381269b9e5ce456d42dd117",
+      "status": "compared"
+    },
+    {
+      "period": "2025 SHED; gendered childcare and adult-care work effects",
+      "denominator": {"value": 100, "unit": "published conditional bases among parents of children under age 13, non-working parents, and adults providing unpaid adult care", "value_type": "conditional_population"},
+      "measures": {
+        "mothers_primary_caretaker_with_partner_and_young_children": {"value": 58, "unit": "percent of mothers versus 12% of fathers in the same living-arrangement frame", "value_type": "subgroup_share"},
+        "working_mothers_primary_caretaker_dual_earner": {"value": 49, "unit": "percent of working mothers versus 8% of working fathers", "value_type": "subgroup_share"},
+        "mothers_not_working_parents_under_13": {"value": 37, "unit": "percent of mothers versus 18% of fathers among parents living with children under 13", "value_type": "subgroup_share"},
+        "adult_care_any": {"value": 18, "unit": "percent of adults regularly providing unpaid care to an adult relative or friend", "value_type": "share"},
+        "prime_age_adult_carers_without_paid_job": {"value": 32, "unit": "percent of prime-age adults caring for another adult versus 23% without that responsibility", "value_type": "subgroup_share"},
+        "daily_prime_age_carers_without_paid_job": {"value": 44, "unit": "percent of prime-age adults providing daily adult care", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED published caretaker, employment, and adult-care estimates; caretaker identity and employment measures use separate conditional universes.",
+      "uncertainty": "The survey is cross-sectional and self-reported; caretaker roles can reflect preference, norms, income, schedule, household composition, or care intensity. Adult-care questions exclude irregular or very low-frequency care by design.",
+      "subgroup": "Parents of children under age 13, mothers/fathers, working parents, non-working parents, and prime-age adult caregivers.",
+      "counterinterpretation": "Caregiving can provide meaning, reciprocity, and family support; association with nonemployment does not establish that care caused a work exit or that paid work would be preferable.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm",
+      "retrieval_hash": "sha256:3a4f8270e8b93b021ea1cd7d529c244071c3333b3381269b9e5ce456d42dd117",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/tus/", "claim": "ATUS supplies diary-day time allocation and care-work measurement with a different unit and design.", "status": "related", "access_boundary": "Annual SHED care and employment responses are not diary minutes or the same respondents."},
+    {"source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm", "claim": "The 2025 SHED income-and-expenses chapter supplies budget-margin and outside-support context for care costs.", "status": "related", "access_boundary": "Care spending and household financial support are separate response surfaces."}
+  ],
+  "boundary": "This record establishes 2025 population-level living arrangements, paid and unpaid childcare, adult caregiving, gendered caretaker roles, and caregiving/employment associations. It does not establish a causal childcare-price or caregiving effect, care quality, schedule control, household recovery, trust, political action, or a same-family longitudinal displacement path. Paid care, unpaid care, co-residence, nonemployment, and meaning remain separate stages."
+}
