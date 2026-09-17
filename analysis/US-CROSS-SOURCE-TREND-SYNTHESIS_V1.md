@@ -695,6 +695,15 @@ attribution and congressional legitimacy also diverge: 42% frame their vote as
 against Trump while 72% view Congress unfavorably. This identifies political
 salience and representation uncertainty, not a causal price-to-vote arrow.
 
+The [EIA 2024 household energy-insecurity consequence layer](projects/us-repeat-energy-crises/eia-2024-household-energy-insecurity-consequence-layer-v1.md)
+adds an infrastructure-to-household endpoint. Among 132.54 million primary
+residence homes, 43.56 million reported at least one listed energy-insecurity
+condition, 32.89 million reduced or forgone food or medicine to pay energy
+costs, and 16.19 million received a disconnect or delivery-stop notice. The
+categories can overlap and do not establish a price cause, completed shutoff,
+assistance response, or health effect; they do show why service continuity,
+payment threat, substitution, equipment, and remedy must remain separate.
+
 The AI/work and digital-habits lanes now deepen the synthesis in two ways. The
 [AI capability conditions finding](projects/ai-work-control/findings/ai-work-control-022.md)
 places NBER worker/task adoption beside BEA, BIS, IMF, World Bank, and OFR

@@ -2627,6 +2627,15 @@ information, blame, candidate evaluation, and validated participation. The
 cross-sectional survey does not establish that an observed price series caused
 a vote.
 
+The [EIA 2024 household energy-insecurity consequence layer](projects/us-repeat-energy-crises/eia-2024-household-energy-insecurity-consequence-layer-v1.md)
+adds an infrastructure and household-adaptation surface: energy pressure is
+reported through food/medicine sacrifice, unhealthy temperatures,
+disconnect/delivery-stop notices, and unusable equipment. The next test is a
+dated bill or fuel-price event ledger joining service status, payer/landlord or
+utility responsibility, assistance, repair/reconnection, protected or
+sacrificed needs, and later health, work, trust, or political action. Do not
+pool the overlapping RECS categories into one rate.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
