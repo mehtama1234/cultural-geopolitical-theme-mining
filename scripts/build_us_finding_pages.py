@@ -234,6 +234,8 @@ def main():
         ROOT / "analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md",
         ROOT / "analysis/projects/ai-work-control/australian-remedy-implementation-acquisition-audit-2026-09-15.md",
         ROOT / "analysis/projects/ai-work-control/australia-malaysia-cambodia-stage-compatible-comparison-v1.md",
+        ROOT / "analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md",
+        ROOT / "analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md",
         ROOT / "analysis/projects/ai-work-control/global-platform-remedy-comparison-v1.md",
         ROOT / "analysis/projects/ai-work-control/remedy-spectrum-cross-domain-synthesis-v1.md",
         ROOT / "analysis/projects/ai-work-control/findings/ai-work-control-087.md",

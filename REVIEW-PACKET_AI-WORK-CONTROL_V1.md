@@ -9,7 +9,7 @@ to organizations before they make work better for the people doing it. The
 central empirical question is who can see, change, contest, and ultimately bear
 the consequences of a decision.
 
-## The ten-piece route
+## The eleven-piece route
 
 ### 1. The theme map: the argument in outline
 
@@ -160,6 +160,38 @@ formal contestability and prospective compliance powers are visible, but the
 public evidence stops before worker-level correction, durable compliance,
 trust, bargaining, or exit. They should not be converted into an AEDT
 compliance rate or a worker-welfare estimate.
+
+### 11. Malaysia and the Philippines: institutional capacity before outcome
+
+The [Malaysia Act 872 outcome acquisition audit](analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md)
+and [Philippines DOLE platform-governance record](analysis/projects/ai-work-control/philippines-dole-platform-governance-record-v1.md)
+extend the comparison into two different early implementation states.
+Malaysia has an Act in force, an e-Aduan route, conciliation and Tribunal
+regulations, formally established institutions, and a reported first GrabCar
+hearing. The public record still stops before the primary case identifier,
+merits finding, award, payment, enforcement, or recurrence prevention. The
+Philippines has an official dialogue that names algorithmic management,
+privacy, social protection, and effective remedies; requested platform
+position papers; and an announced 24/7 gig-worker complaint unit. Its general
+Hotline 1349 is listed as operational, but the gig-specific unit's launch,
+caseload, resolution, and any corrected automated decision are not observed.
+
+The comparison therefore measures institutional translation rather than
+regulatory strength:
+
+| Evidence layer | Malaysia | Philippines |
+|---|---|---|
+| Legal or policy status | Act 872 in force; implementing routes published | Policy dialogue and readiness assessment; no comparable enacted remedy in this packet |
+| Access surface | e-Aduan, conciliation, and Tribunal route | General hotline plus announced gig-specific unit |
+| Case visibility | First hearing reported, outcome not located | Safety inspection episode, but not an algorithmic-remedy case |
+| Worker-level correction or payment | Not observed | Not observed |
+| Decisive next artifact | Primary case record, award, payment, enforcement | Unit launch/caseload, position papers, implementation instrument, or resolved case |
+
+Neither country should be coded as having delivered an algorithmic remedy on
+the basis of a portal, regulation, dialogue, inspection, or hearing-in-
+progress. This is precisely the gap the broader atlas is designed to keep
+visible: institutional capacity can become more legible before a worker can
+show corrected access, recovered pay, durable protection, trust, or exit.
 
 ## Themes to test while reviewing
 
