@@ -124,6 +124,13 @@ compensable harm, a named payment administrator, and an ongoing distribution
 are publicly documented, while successful individual receipt and recovery are
 not.
 
+The [CFPB Navient compensation/obligation record](cfpb-navient-compensation-obligation-record-v1.md)
+adds a distinct remedy boundary: affected consumers are receiving checks, but
+the CFPB says the payments do not change or reduce the affected student loans.
+This separates compensation from restoration of the underlying obligation and
+continued servicing dependence; individual receipt, balance correction,
+repeat effort, trust, switching, and exit remain open.
+
 ## Scope
 
 - US customers and firms;

@@ -220,6 +220,14 @@ administrative payment route than a formal order alone, but it still does not
 reveal how many checks were issued, successfully delivered, or sufficient to
 repair each person's loss.
 
+Navient adds a different boundary within an ongoing distribution. The CFPB
+says affected consumers are receiving checks through Rust Consulting, while
+also stating that the payments do not change or reduce the affected student
+loans. Compensation can therefore be visible without restoration of the
+underlying obligation or an end to servicing dependence. The record still
+does not provide person-level receipt, balance correction, remaining loss,
+repeat effort, trust, switching, or exit. See the [Navient compensation and obligation record](cfpb-navient-compensation-obligation-record-v1.md).
+
 | Case | Formal response | Public distribution surface | Still unknown |
 |---|---|---|---|
 | Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
