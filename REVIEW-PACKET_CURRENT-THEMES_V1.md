@@ -123,6 +123,10 @@ index or a claim that the same people appear in every source.
    object or concern while disagreeing about its meaning, responsible actor,
    and legitimate response. Read the [cross-source cultural-meaning
    synthesis](site/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.html).
+23. **The same-unit end-to-end gap is now auditable:** existing panels, modules,
+   transitions, and attitude surveys each close different adjacent stages, but
+   no retained route closes condition, meaning, action, response, recovery, and
+   later trust or exit together. Read the [cultural-meaning episode matrix](site/cultural-meaning-episode-matrix-v1.html).
 
 ## Recent cross-theme additions
 

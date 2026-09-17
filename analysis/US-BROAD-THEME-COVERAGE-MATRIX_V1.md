@@ -233,3 +233,9 @@ religious influence, and issue-specific cultural acceptability to themes 9, 10,
 11, and 14. It strengthens the condition-to-attribution-to-legitimacy arrow
 while leaving personal conduct, policy exposure, action, and social cohesion
 open.
+
+The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
+adds a same-unit observability audit across themes 1, 5, 9, 10, 11, and 14. It
+shows where temporal ordering, attribution, action, meaning, and material
+outcomes are separately available, while confirming that no retained row closes
+the full condition-to-response-to-recovery chain.

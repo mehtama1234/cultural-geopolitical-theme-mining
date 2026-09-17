@@ -123,6 +123,15 @@ def rewrite_published_links(body: str, memo: Path, published_outputs: dict[Path,
         parts = urlsplit(href)
         if parts.scheme or parts.netloc or not parts.path or parts.path.startswith("/"):
             return match.group(0)
+        # Review packets are authored from the repository root and commonly
+        # link into ``site/``. Once rendered under ``site/`` that prefix would
+        # become ``site/site/...``; normalize it directly when the target is a
+        # published page, even if the page is being generated in this pass.
+        if parts.path.startswith("site/"):
+            site_target = ROOT / "site" / parts.path[len("site/"):]
+            if site_target.exists():
+                published_target = parts.path[len("site/"):]
+                return f"{prefix}{urlunsplit((parts.scheme, parts.netloc, published_target, parts.query, parts.fragment))}{suffix}"
         source_target = (memo.parent / parts.path).resolve()
         try:
             source_target.relative_to(ROOT.resolve())
@@ -365,6 +374,7 @@ def main():
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-smartphone-time-control-wellbeing-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md")
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/pew-2026-hispanic-identity-advantage-barrier-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-immigration-local-demand/census-2025-population-slowdown-migration-geography-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md")

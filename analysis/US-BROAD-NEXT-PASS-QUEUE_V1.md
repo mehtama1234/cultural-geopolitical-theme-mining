@@ -2885,3 +2885,9 @@ interpretation, action, institutional response, outcome, and missingness across
 existing artifacts, then seek one lawful repeated or event-compatible source
 that closes at least three adjacent stages. Do not join sources by date or
 geography and call them one longitudinal public.
+
+The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
+is now the acquisition gate. Prioritize one lawful repeated or event-compatible
+source with at least three adjacent stages and a usable clock. Check access,
+variables, permitted use, and estimand before any large archive; prefer closing
+an arrow over adding another unlinked attitude percentage.

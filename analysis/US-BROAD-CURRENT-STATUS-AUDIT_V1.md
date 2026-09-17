@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 303 machine-readable records, 1081 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 628 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 629 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1650,7 +1650,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 303 trend records and 1081 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,252 local Markdown links and 628 published HTML pages pass link
+families; 1,253 local Markdown links and 629 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1852,3 +1852,9 @@ compares religious identity, diversity, smartphone use, moral mood, and U.S.
 global-role reception. It identifies a recurring shared-referent/group-specific
 meaning structure while preserving separate units and clocks; no pooled cultural
 index, common respondent history, or causal political effect is claimed.
+
+The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
+audits ten retained routes against condition, interpretation, action, actor
+response, outcome, and later trust/exit. It confirms that complementary partial
+bridges exist but no same-unit route closes the full chain; this is an
+observability result, not a population estimate.

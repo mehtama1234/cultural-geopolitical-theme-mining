@@ -1112,3 +1112,8 @@ The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-
 adds a cultural-mood stage between perceived national conditions and public
 authority. It preserves open links from moral judgment to attribution, religious
 meaning, issue behavior, policy support, trust, and political action.
+
+The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
+turns the broad cultural synthesis into a row-level control. It preserves the
+distinction between partial same-unit bridges and a completed end-to-end route,
+and records the next acquisition schema needed to close adjacent stages.
