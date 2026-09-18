@@ -1,6 +1,6 @@
 # WBNS public-use route acquisition audit v1
 
-**Checked:** 2026-09-16; browser-capable ICPSR metadata, Urban catalog, and access guidance rechecked during continuation pass
+**Checked:** 2026-09-18; browser-capable ICPSR metadata, Urban catalog, and access guidance rechecked during continuation pass
 **Status:** public-use acquisition identified and metadata independently verified; data-file access still requires an authenticated free account; no new estimates promoted yet  
 **Purpose:** prepare a reproducible 2024 WBNS extraction that joins lived SNAP route experience to food, housing, work, health, and financial-security measures.
 
@@ -95,6 +95,24 @@ It fixes the study identity, version date, collection month, individual unit,
 rate note, and route fields that still require file-level verification. The
 record intentionally does not promote the catalog's availability labels into
 a successful local download or an estimate.
+
+## Current official ICPSR access recheck — 2026-09-18
+
+The official [ICPSR 39691 study page](https://www.icpsr.umich.edu/web/HMCA/studies/39691)
+still reports version 1 with a June 4, 2026 release date. It identifies the
+December 2024 collection as an individual-level, cross-sectional survey of the
+household population ages 18–64, with approximately 7,500 sampled adults and
+post-stratification weights. The page still labels the public-use files as
+available to the general public without ICPSR-member affiliation.
+
+The official [HMCA Find Data guidance](https://www.icpsr.umich.edu/sites/hmca/find-data)
+still states that data-file access requires login with a free ICPSR account or
+an existing supported account, while documentation files do not require login.
+The browser-capable recheck confirms the acquisition boundary but did not
+retrieve a respondent file, codebook package, SDA output, weights, or route
+variables. No WBNS estimate is promoted. The next operational step remains an
+authenticated file or online-analysis session followed by the existing
+`Q53A`/`Q110`/`Q54` schema, universe, weight, and missingness gate.
 
 ## Current-vintage universe boundary
 
