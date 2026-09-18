@@ -302,5 +302,12 @@
   ],
   "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the named CFPB redress/distribution records, Doxo and Grubhub consumer-remedy records, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
+  "promotion_gate": {
+    "qualifies": false,
+    "alternative_or_nonuse_observed_surfaces": 1,
+    "verified_remedy_or_outcome_followup_observed_surfaces": 0,
+    "rule": "A new end-to-end finding may be promoted only when at least one retained surface observes an episode-level alternative or non-use outcome and at least one retained surface observes verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
+    "failure_reason": "No retained local surface satisfies both required gate fields; institutional response and aggregate distribution remain distinct from lived remedy and outcome."
+  },
   "storage_boundary": "Uses sixteen committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
 }

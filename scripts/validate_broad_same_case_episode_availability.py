@@ -27,6 +27,7 @@ REQUIRED_TOP_LEVEL = {
     "sources",
     "result",
     "next_test",
+    "promotion_gate",
     "storage_boundary",
 }
 
@@ -81,6 +82,15 @@ def main() -> int:
         }
         if summary != computed:
             raise ValueError(f"{stage} stage summary does not match source rows")
+    gate = data["promotion_gate"]
+    if gate.get("qualifies") is not False:
+        raise ValueError("current audit must not qualify a new end-to-end finding")
+    if gate.get("alternative_or_nonuse_observed_surfaces") != data["stage_summary"]["alternative_or_nonuse"]["observed"]:
+        raise ValueError("promotion gate alternative count does not match stage summary")
+    if gate.get("verified_remedy_or_outcome_followup_observed_surfaces") != 0:
+        raise ValueError("promotion gate currently requires zero observed verified-remedy/outcome-follow-up surfaces")
+    if not gate.get("rule") or not gate.get("failure_reason"):
+        raise ValueError("promotion gate must state its rule and current failure reason")
     print(f"VALID broad same-case episode availability audit: {len(rows)} local source surfaces")
     return 0
 

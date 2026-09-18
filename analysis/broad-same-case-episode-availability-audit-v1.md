@@ -88,6 +88,12 @@ household episode or verified remedy. This explains why the program should
 prioritize an episode key and stage-specific missingness over additional
 cross-sectional pressure measures.
 
+The machine record now encodes the promotion decision explicitly: `qualifies`
+is `false`, one retained surface observes an alternative or non-use field, and
+zero retained surfaces observe verified remedy receipt or a defined outcome
+follow-up. A future pass must satisfy both gate fields before a new
+end-to-end finding is promoted.
+
 ## Next decisive test
 
 Choose one lawful source with a stable episode identifier—consumer complaint,
