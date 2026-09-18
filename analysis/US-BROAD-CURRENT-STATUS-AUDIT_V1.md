@@ -671,6 +671,14 @@ adoption and substantial variation among workers doing similar work, while
 occupation/task exposure explains only part of that variation and survey and
 chat-log task measures diverge. This is adoption and measurement evidence, not
 worker control, productivity, pay, or employer-policy evidence.
+The new [worker voice/control trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds the missing institutional conversion hypothesis: JRC's 70,316-person EU
+worker survey associates selected algorithmic-management practices with lower
+autonomy, less break control, and greater stress, while five ILO cases show
+bargaining, works-council review, data access, public action, and legal challenge
+as possible routes to rule change. These are non-pooled comparative sources, not
+a U.S. causal estimate; the same-workplace deployment-to-voice-to-remedy path
+remains open.
 The follow-up O*NET 31.0 audit finds unique normalized-label matches for 1,653
 of 1,655 DWA rows and all 322 IWA rows, but no exact identifier matches; all
 nine BWA IDs now have transparent O*NET GWA prefix members while semantic

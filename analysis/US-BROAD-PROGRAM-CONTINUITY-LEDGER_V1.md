@@ -1525,3 +1525,11 @@ variation and a survey-versus-chat-log measurement boundary: exposure is not
 adoption, and adoption is not control. The next test is a versioned
 worker/task/workplace ledger joining access, training, employer rules,
 monitoring, pace, pay, discretion, voice, and later movement or exit.
+
+The next work-control conversion rotation promotes the [worker voice/control
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). JRC and ILO add a bounded
+comparative stage between algorithmic exposure and actual control: worker voice
+can alter consent, monitoring, workload, discretion, or remedy, but consultation
+may be symbolic and case outcomes may remain partial or unresolved. The next
+test is a same-workplace U.S. ledger joining deployment, exposure, institutional
+voice, rule change, appeal, enforcement, and later worker movement or exit.

@@ -1,6 +1,6 @@
 # Source registry coverage audit v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 
 This control compares the registered source universe with the files under
 `analysis/`. It distinguishes a registered source from evidence that uses
