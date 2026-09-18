@@ -586,6 +586,14 @@ reduced. This separates compensation for a distinct harm from balance
 correction, restored financial room, and practical exit; person-level receipt,
 adequacy, credit correction, remaining burden, trust, and action remain open.
 
+The new [Auto-IRA balance-sheet trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the policy-exposure result beyond a conditioning note. Oregon exposure
+is associated in the retained summary with higher retirement and liquid-account
+ownership and balances alongside higher credit-card debt. This is a useful
+countervailing balance-sheet result, not a net-security estimate; take-home
+pay, debt cost, withdrawals, consumption, subgroup effects, and later adequacy
+remain open.
+
 The SHED 2024–2025 financial-path health/care comparison is also preserved as
 six validated conditional trend observations, keeping the health and adult-care
 entry universes separate rather than pooling them into one stress index.

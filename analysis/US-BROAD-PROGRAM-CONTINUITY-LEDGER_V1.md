@@ -1495,3 +1495,11 @@ unchanged, making payment, account correction, adequacy, and exit distinct
 stages. The next test is a lawful claimant ledger joining eligibility, check
 issuance and receipt, amount/channel, balance and credit correction, remaining
 burden, and later servicing dependence or switching.
+
+The next household-room rotation promotes the [Auto-IRA balance-sheet trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The Oregon policy-exposure summary
+places higher retirement and liquid-account ownership beside higher
+credit-card debt, making long-term assets, current liquidity, debt cost, and
+life-course timing separate stages. The next test is a same-worker ledger for
+enrollment, contribution, take-home pay, credit use/cost, withdrawal,
+retirement balance, work or claiming timing, and later financial room.
