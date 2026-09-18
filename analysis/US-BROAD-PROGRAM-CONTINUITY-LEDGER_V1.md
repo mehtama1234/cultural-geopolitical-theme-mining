@@ -1596,3 +1596,12 @@ design finding. The next test is a same-account ledger joining eligibility,
 notice, automatic or claimed payment, amount/date/receipt, delay, continued
 use, switching, trust, and household room; preserve informed retention and
 unresolved claims.
+
+The next financial-access rotation promotes the [FDIC financial-access trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). FDIC/Census adds a household route
+frame for account ownership, underbanking, mainstream-credit visibility, online
+payments, prepaid cards, and BNPL performance beside SHED fraud/recovery/
+switching evidence. The next test is a same-account ledger joining dated need,
+route choice, cost/effort, approval or transaction success, correction/remedy,
+payment performance, switching, trust, and later household room; preserve
+intentional avoidance and useful nonbank use.

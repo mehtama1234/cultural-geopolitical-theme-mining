@@ -2473,3 +2473,10 @@ restraint, and public privacy comments visible as institutional stages before
 applicant outcomes. The sources do not establish fraud prevalence, applicant
 notice, benefit continuity, privacy exposure, chilling, remedy, trust, or
 political action; legal posture remains separate from household security.
+
+The new [FDIC financial-access trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a nationally representative household frame beside SHED and Findex. It
+separates unbanked and underbanked status, mainstream-credit visibility, online
+payments, prepaid cards, and BNPL performance. These are access and route
+surfaces, not liquidity, affordability, remedy, trust, switching, or political
+outcomes; the same-household account episode remains open.
