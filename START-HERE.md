@@ -12,6 +12,19 @@ for the latest coverage and open arrows.
 The [program continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md)
 is the durable control record for the long-term objective, active lanes,
 acquisition gates, and session handoffs.
+
+**Current operating checkpoint — 2026-09-18:** the atlas has 14 themes, 311
+machine-readable records, 1,108 observations, 103 source packets, 25 public
+episode events, and 2 validated episode arrows. The active depth objective is
+still a storage-light same-case episode route through alternatives,
+effort/payment, institutional response, remedy/recovery, meaning/trust, action,
+and exit. The CPSC and HRS route rechecks are now current: CPSC's one-key
+workbook refresh reproduced the existing VRURC snapshot, while HRS downloads
+require login at the moved [HRS Data Downloads host](https://hrsdata.isr.umich.edu/data-products).
+Neither result is a purchaser- or respondent-level outcome. Start the next
+session with the [next-pass queue](analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md) and
+the [ranked episode selection](analysis/broad-next-episode-selection-v1.md);
+do not treat another aggregate refresh as closure of the open arrows.
 The [server-visible program dashboard](site/us-program-dashboard.html) is the
 quick operating view of the 14 themes, source ecosystem, current evidence
 volume, active depth lane, acquisition gate, and open arrows.
