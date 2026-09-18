@@ -2725,3 +2725,14 @@ observe realized household or political behavior. The next test is a
 respondent ledger joining identity and source exposure, institutional encounter,
 information seeking/avoidance, interpretation, expectation, rate/credit or
 material outcome, attribution, trust, policy demand, and action.
+
+The next geopolitical-capacity rotation promotes the [SIPRI military-
+expenditure 2025 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The new vintage
+adds global, U.S., China, European, Asian, and NATO spending trajectories while
+keeping estimates, GDP burdens, alliance aggregation, procurement, readiness,
+and household incidence separate. Monetary totals do not establish usable
+capability, delivery, strategic intent, social-spending displacement, or
+geopolitical leverage. The next test is a budget/procurement ledger joining
+appropriation, contract, delivery, acceptance, readiness/use, supplier and
+worker effects, public attribution, alliance response, and household or
+social-program incidence.

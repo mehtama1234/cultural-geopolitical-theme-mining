@@ -1875,3 +1875,12 @@ ledger joining policy information, prior beliefs, actual rate/credit terms,
 expectations, spending/saving/portfolio, debt, work, attribution, trust, and
 action; preserve quota sampling, treatment, follow-up, knowledge, and
 intended-versus-realized boundaries.
+
+The next geopolitical-capacity rotation promotes the [SIPRI military-
+expenditure 2025 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The new vintage
+adds global, U.S., China, European, Asian, and NATO spending trajectories. The
+next test is a budget/procurement ledger joining appropriation, contract,
+delivery, acceptance, readiness/use, supplier and worker effects, public
+attribution, alliance response, and household or social-program incidence;
+preserve estimated spending versus actual delivery, usable capability,
+replaceability, interoperability, and non-realized cases.
