@@ -4,7 +4,7 @@
   "title": "Allied semiconductor investment commitments convert supply dependence into a domestic-capacity promise",
   "theme_ids": ["work", "energy", "voice"],
   "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "household_room_consumption"],
-  "source_unit": "U.S. Department of Commerce Taiwan trade and investment fact sheet; policy commitment and historical capacity context, not a project-level production record",
+  "source_unit": "U.S. Department of Commerce Taiwan trade and investment fact sheet plus TSMC Arizona project materials; policy commitment, project-stage, and design-capacity evidence, not an independently audited production record",
   "geography": "United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship",
   "observations": [
     {
@@ -49,13 +49,14 @@
       "measures": {
         "first_fab_realization": {"value": "high-volume N4 production started in Q4 2024", "unit": "project milestone", "value_type": "reported_realization"},
         "current_direct_employment": {"value": 3000, "unit": "employees at TSMC Arizona, more than", "value_type": "reported_employment_count"},
+        "site_design_capacity": {"value": "tens of thousands of semiconductor wafers per month", "unit": "TSMC Arizona design/output claim for the site; no exact monthly denominator disclosed", "value_type": "reported_design_capacity"},
         "second_fab_stage": {"value": "structure construction completed in 2025; N3 volume production targeted for second half of 2027", "unit": "project milestone and target", "value_type": "reported_stage"},
         "third_and_fourth_fab_stage": {"value": "third fab broke ground in April 2025 and targets production by the end of the decade; fourth fab and first advanced-packaging fab entered initial construction in early 2026", "unit": "project milestones and targets", "value_type": "reported_stage"},
         "technician_pipeline": {"value": 43, "unit": "Manufacturing Specialist Intensive Training Program graduates in August 2026; direct interviews offered", "value_type": "reported_training_count"},
         "local_burden_and_supply_chain_replacement": {"value": "not observed in the company project page", "unit": "missing outcome endpoint", "value_type": "unmeasured"}
       },
       "method": "TSMC Arizona official project page and current local-news entries; production, employment, construction, target dates, and training are coded as separate company-reported stages rather than one completed-capacity estimate.",
-      "uncertainty": "Company-reported milestones and targets do not independently audit output, yield, uptime, full employment composition, public subsidy, water/power use, local wage effects, or reduction in US/Taiwan supply dependence.",
+      "uncertainty": "The page's 'tens of thousands of wafers per month' statement is a site design/output claim, not a reported monthly production series. Company-reported milestones and targets do not independently audit actual output, yield, uptime, full employment composition, public subsidy, water/power use, local wage effects, or reduction in US/Taiwan supply dependence.",
       "subgroup": "TSMC Arizona employees, construction and technician trainees, Phoenix-area workers and community, US chip customers, and the broader allied semiconductor supply chain.",
       "counterinterpretation": "A functioning first fab and expanding workforce pipeline demonstrate partial realization, but later fabs remain staged or targeted; local jobs and training can coexist with external ownership, imported tools/materials, resource burden, and continued dependency on the wider Taiwan-centered ecosystem.",
       "source_url": "https://www.tsmc.com/static/abouttsmcaz/index.htm",
@@ -105,6 +106,6 @@
     {"source_url": "https://www.commerce.gov/news/press-releases/2024/04/biden-harris-administration-announces-preliminary-terms-tsmc-expanded", "claim": "Earlier TSMC Arizona preliminary terms provide a project-level comparison for domestic semiconductor expansion.", "status": "official-comparator"},
     {"source_url": "https://www.energy.gov/oe/articles/does-office-electricity-publishes-2026-draft-national-transmission-needs-study", "claim": "DOE identifies transmission needs associated with data centers and expanding domestic manufacturing.", "status": "official-infrastructure-comparator"}
   ],
-  "boundary": "This record establishes a reported Taiwan-linked investment commitment and a historical US wafer-fabrication share comparison. It does not establish disbursement, construction, operating capacity, domestic ownership, jobs, prices, local burden, supply-chain replacement, or geopolitical leverage.",
+  "boundary": "This record establishes a reported Taiwan-linked investment commitment, a historical US wafer-fabrication share comparison, and partial TSMC Arizona realization: first-fab N4 high-volume production, a reported workforce count, staged later-fab construction, and a non-specific site design-capacity claim. It does not establish measured monthly output, yield, uptime, disbursement, aggregate portfolio completion, domestic ownership, job quality, prices, local burden, supply-chain replacement, or geopolitical leverage.",
   "reproduction_audit": {"retrieval_hash_scope": "Commerce fact-sheet HTML retrieved without retaining a repository copy", "retrieval_hash": "sha256:d40ffafc42f82dd422dcbdb5b7825f8780c47a61fbf031c84337e4694ece9e6b", "checked": "2026-09-17"}
 }
