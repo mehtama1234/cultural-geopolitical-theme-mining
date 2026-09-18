@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 330 records and
-1175 observations.
+have exact registered-URL references. The trend registry holds 331 records and
+1178 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3050,6 +3050,12 @@ evidence on caregiver work, disability, housing, childcare, benefits, legal
 status, school/health needs, respite, and placement stability. Keep foster and
 non-foster routes distinct and do not treat family care, poverty correlation,
 or program availability as proof of sustainability or child outcome.
+
+The [canonical kinship-family record](records/us-gao-kinship-families-intergenerational-care-support-2025.json)
+now preserves population, formal-status, and selected community-resource
+stages. The next decisive artifact remains a family-year episode ledger with
+caregiver capacity, housing, work, benefits/respite receipt, child needs, and
+later stability or exit.
 
 The [Pew 2026 electorate racial and ethnic composition layer](projects/us-cost-trust-politics/pew-2026-electorate-racial-ethnic-composition-layer-v1.md)
 adds a demographic-to-political conversion test. The next pass should use

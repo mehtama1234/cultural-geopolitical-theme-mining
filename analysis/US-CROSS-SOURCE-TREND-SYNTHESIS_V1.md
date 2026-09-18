@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 330 machine-readable records, 1175 observations,
+The current registry contains 331 machine-readable records, 1178 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1374,6 +1374,11 @@ special-education needs. For every child in foster care, about 18 kinship
 children were not, while formal supports varied by legal status and community.
 The next test follows caregiver capacity, benefits, housing, work, and child
 stability in the same family episode.
+
+The [canonical kinship-family record](records/us-gao-kinship-families-intergenerational-care-support-2025.json)
+preserves the national descriptive frame, foster/non-foster distinction, and
+selected qualitative community evidence without pooling their denominators or
+turning family substitution into a welfare outcome.
 
 The [GAO 2026 assisted-living spending and Medicaid-coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
 adds a care-and-housing financing bridge. Medicaid and traditional Medicare

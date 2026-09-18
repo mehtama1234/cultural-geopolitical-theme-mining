@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-kinship-families-intergenerational-care-support-2025",
+  "title": "Kinship care preserves family continuity while redistributing hidden household capacity",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107658; nationally representative Census/HHS kinship-family characteristics and selected community/caregiver support evidence",
+  "geography": "United States kinship families, with selected communities in Mississippi, New Mexico, and Oklahoma and caregiver interviews from 10 states and two Tribes",
+  "observations": [
+    {
+      "period": "2023; national kinship-family population frame",
+      "denominator": {"value": 2400000, "unit": "children raised by relatives or close family friends because parents were unable to care for them", "value_type": "reported_population_estimate"},
+      "measures": {
+        "kinship_children": {"value": 2400000, "unit": "children", "value_type": "reported_count"},
+        "kinship_to_foster_ratio": {"value": 18, "unit": "children in kinship families not in foster care per one child in foster care, approximate reported ratio", "value_type": "reported_ratio"},
+        "formal_route_boundary": {"value": "families with children in foster care may access financial and other resources if caregivers meet state requirements, while other kinship families may be ineligible", "unit": "formal-support distinction", "value_type": "reported_boundary"}
+      },
+      "method": "GAO analysis of nationally representative Census Bureau and HHS data for 2019–2023; 2020 Census data excluded because of collection differences.",
+      "uncertainty": "The population frame is not all multigenerational households or all informal caregiving; the 18-to-1 comparison is not a resource-need ratio, causal estimate, or evidence that non-foster families need the same intervention.",
+      "subgroup": "Children raised by relatives or close family friends because parents cannot care for them, separated by foster-care status where reported.",
+      "counterinterpretation": "Kinship arrangements can preserve family, community, culture, school, and stability; formal foster status may change eligibility without determining the quality, safety, or sustainability of daily care.",
+      "source_url": "https://www.gao.gov/products/gao-26-107658",
+      "retrieval_hash": "sha256:d68a4a6f157feab452544cfd7db32941a2de22af073e349334047c9b3882f070",
+      "status": "reported"
+    },
+    {
+      "period": "2023; kinship-family household, caregiver, and child characteristics",
+      "denominator": {"value": null, "unit": "national kinship-family households and children; measure-specific denominators vary and are not disclosed in this record", "value_type": "not_disclosed"},
+      "measures": {
+        "poverty_context": {"value": "kinship families were more likely than all families to live in poverty", "unit": "descriptive comparison", "value_type": "reported_comparison"},
+        "caregiver_context": {"value": "households were typically headed by grandparents, who were more likely than the general population to have a disability and be out of the labor force", "unit": "household and caregiver context", "value_type": "reported_comparison"},
+        "child_need_context": {"value": "children living with grandparents more often had physical or mental health issues and special-education needs", "unit": "child characteristic comparison", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of nationally representative Census/HHS data and review of kinship-family characteristics.",
+      "uncertainty": "These are descriptive associations; they do not establish whether kinship care caused poverty, caregiver labor-force exit, disability, child health or education needs, or the intensity and quality of care.",
+      "subgroup": "Kinship families, grandparent-headed households, children living with grandparents, and comparison families/populations.",
+      "counterinterpretation": "Caregiver age, disability, labor-force status, household resources, and child needs may precede the arrangement, respond to it, or jointly shape it; family care can be protective and costly at the same time.",
+      "source_url": "https://www.gao.gov/products/gao-26-107658",
+      "retrieval_hash": "sha256:d68a4a6f157feab452544cfd7db32941a2de22af073e349334047c9b3882f070",
+      "status": "compared"
+    },
+    {
+      "period": "2023–2025; selected community and caregiver challenge/resource evidence",
+      "denominator": {"value": 6, "unit": "communities reviewed across three counties and three Tribes in Mississippi, New Mexico, and Oklahoma; plus 16 caregiver interviews from 10 states and two Tribes", "value_type": "selected_qualitative_scope"},
+      "measures": {
+        "persistent_challenges": {"value": "some kinship families continued to report unmet childcare and affordable-housing needs; some officials and most interviewed caregivers reported worsened cost-of-living or mental-health challenges since the pandemic", "unit": "selected qualitative finding", "value_type": "reported_finding"},
+        "resource_variation": {"value": "resources and supports varied across the six communities; foster-care-specific resources were discussed in all communities", "unit": "community comparison", "value_type": "reported_comparison"},
+        "federal_role": {"value": "HHS leads awareness/collaboration efforts and administers funds through programs states may use to support kinship families", "unit": "federal support route", "value_type": "reported_policy"}
+      },
+      "method": "GAO site visits, interviews with local officials and 16 kinship caregivers, and federal program/interagency document review.",
+      "uncertainty": "The selected communities and caregiver interviews are not representative; reported challenge, resource availability, referral, eligibility, receipt, caregiver burden, child outcome, and later stability are separate stages.",
+      "subgroup": "Selected counties, Tribes, local officials, service providers, and interviewed kinship caregivers.",
+      "counterinterpretation": "Local variation may reflect different community assets, tribal or state structures, provider networks, or awareness; federal funding availability does not establish local capacity or successful support.",
+      "source_url": "https://www.gao.gov/products/gao-26-107658",
+      "retrieval_hash": "sha256:d68a4a6f157feab452544cfd7db32941a2de22af073e349334047c9b3882f070",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107658", "claim": "Official GAO review supplies kinship-family population scale, foster/non-foster distinction, household characteristics, selected challenges, resources, federal support, methods, and limits.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a kinship-family, intergenerational care, formal-support, and selected community-resource surface. It does not establish caregiver hours, cost, employment change, housing move, child safety or school outcome, benefit receipt, respite, placement stability, reunification, caregiver exhaustion, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, Census/HHS microdata, case records, community directories, and caregiver files not retained",
+    "html_sha256": "sha256:d68a4a6f157feab452544cfd7db32941a2de22af073e349334047c9b3882f070",
+    "checked": "2026-09-18"
+  }
+}
