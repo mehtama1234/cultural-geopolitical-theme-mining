@@ -983,6 +983,13 @@ The new [digital-life synthesis](projects/us-digital-habits-attention/findings/u
 places the adult, teen, chatbot, news, and civic-engagement records on one
 bounded map. It shows that platform exposure splits by life stage and purpose;
 reach, frequency, trust, action, and practical exit remain separate endpoints.
+The new [time-intensive platform trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds an experimental/model bridge from ad load and platform time to substitution
+and competition analysis. NBER W34743 reports low ad-load elasticity and
+online/offline substitution in two Facebook/Instagram field experiments, while
+its model makes time cost relevant to diversion ratios. The study does not
+measure household welfare, work/care displacement, practical exit, or an actual
+separation, and its antitrust disclosure remains part of the source boundary.
 
 The deeper file-structure check confirms a large longitudinal base—9,152
 families and 85,536 persons reported for the 2023 PSID family and cross-year

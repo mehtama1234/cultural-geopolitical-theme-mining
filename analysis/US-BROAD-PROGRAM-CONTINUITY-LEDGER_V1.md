@@ -1552,3 +1552,11 @@ consumer loss or remedy. The next test is a same-account ledger joining
 disclosure, enrollment, charge, cancellation effort, refund/relief receipt,
 continued use, switching, trust, and recurrence; preserve informed retention
 and useful continuity as counterexamples.
+
+The next digital-consumption rotation promotes the [time-intensive platform
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). NBER W34743 places ad load,
+platform time, online/offline substitution, and modeled diversion in one
+bounded mechanism while keeping user benefit, household opportunity cost,
+practical exit, and actual competition change open. The next test is a
+consented time-use/substitution panel joining platform exposure, ad load,
+content value, work/care/sleep, switching, non-use, and later trust.
