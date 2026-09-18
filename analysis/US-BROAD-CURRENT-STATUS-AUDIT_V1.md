@@ -2892,6 +2892,10 @@ codebook audit](projects/us-health-cost-household-choice/uas-health-cost-legitim
 likewise confirms a registered-user download gate while tightening the
 episode-field manifest from the public Older Ages codebook. These are current
 acquisition controls, not evidence gaps to paper over.
+The [HRS fallback access recheck](projects/us-health-cost-household-choice/data/hrs-access-recheck-2026-09-18.json)
+also confirms that HRS public-file downloads now route through a current host
+and require login; its codebooks remain usable for planning, but no respondent
+merge is promoted.
 
 The executable next move remains the same-case compatibility gate: obtain an
 authorized WBNS/UAS/PSID route when credentials are available, then test dated

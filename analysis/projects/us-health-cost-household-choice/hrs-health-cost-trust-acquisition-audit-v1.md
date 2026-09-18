@@ -1,6 +1,6 @@
 # HRS health-cost and institutional-trust acquisition audit v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-18
 **Status:** official-codebook route verified; no local microdata estimate promoted; age-50-plus boundary retained
 
 ## Why this is a useful parallel route
@@ -16,6 +16,23 @@ than the all-adult UAS panel.
 This is an acquisition route, not a completed end-to-end result. HRS files and
 module samples must be merged using the official identifiers and sample
 weights, with module eligibility, missingness, and timing preserved.
+
+## Current official access recheck — 2026-09-18
+
+The former HRS public-data page now redirects to the current [HRS Data
+Downloads](https://hrsdata.isr.umich.edu/data-products) host. The live page
+states that users must be logged in to download data files and still exposes
+public survey, RAND, and contributed-project documentation categories. The
+official [HRS conditions of use](https://hrs.isr.umich.edu/data-products/access-to-public-data/conditions-of-use)
+continues to require registration for public-release file downloads. No HRS
+microdata were available in the workspace and no file was downloaded in this
+recheck; the codebook route remains usable for field planning, while the
+respondent-level merge remains registration-gated.
+
+This is an access-route update, not a new HRS estimate. The first authorized
+file pass remains the structural audit of the 2020 health-services, COVID, and
+psychosocial modules, followed by overlap, weights, timing, and missingness
+checks before any health-cost-to-trust interpretation.
 
 ## Published 2019 codebook baseline
 

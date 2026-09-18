@@ -2043,6 +2043,9 @@ microdata or SDA output. The [UAS access/codebook recheck](projects/us-health-co
 confirms the registered-user data gate and supplies the current public-codebook
 field contract for a later dated episode extract. These remain explicit
 dependencies in the ledger rather than silent assumptions.
+The [HRS fallback access recheck](projects/us-health-cost-household-choice/data/hrs-access-recheck-2026-09-18.json)
+records the moved public-download host and the continuing login requirement;
+HRS codebooks remain a planning surface, not a respondent-level result.
 
 The program therefore resumes from a clean control state: 14 themes, 311
 machine-readable records, 1,108 observations, 103 source packets, and a

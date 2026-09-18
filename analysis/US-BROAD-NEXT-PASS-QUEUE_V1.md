@@ -58,6 +58,13 @@ hashes, person keys, module overlap, eligibility, weights, timing, and
 missingness. Only after that gate can a same-person health-cost-to-trust or
 recovery result enter the atlas.
 
+**HRS access recheck — 2026-09-18:** the legacy HRS public-data page now
+redirects to the current HRS Data Downloads host, whose live page requires
+login for file downloads. The [machine access recheck](projects/us-health-cost-household-choice/data/hrs-access-recheck-2026-09-18.json)
+records the moved route and confirms that no HRS respondent file is locally
+available. HRS remains a documented fallback, not an executable estimate, and
+the first authorized pass must still run the structural merge audit.
+
 The new [MEPS institutional-friction follow-up finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md)
 adds a bounded round-to-round screen while those acquisition gates remain open:
 reported denial or prior-authorization delay is followed by more perceived

@@ -1,0 +1,12 @@
+{
+  "audit_type": "hrs-public-data-access-recheck-v1",
+  "checked": "2026-09-18",
+  "legacy_access_url": "https://hrs.isr.umich.edu/data-products/access-to-public-data",
+  "current_download_url": "https://hrsdata.isr.umich.edu/data-products",
+  "conditions_url": "https://hrs.isr.umich.edu/data-products/access-to-public-data/conditions-of-use",
+  "result": "The legacy public-data page redirects to the current HRS Data Downloads host, whose live page states that login is required to download files.",
+  "public_documentation": true,
+  "microdata_download_access": "registration/login required",
+  "workspace_microdata_found": false,
+  "interpretation": "The HRS codebook and field route remain available for acquisition planning, but no respondent-level health-cost/trust merge can be promoted before authorized file access and structural checks."
+}
