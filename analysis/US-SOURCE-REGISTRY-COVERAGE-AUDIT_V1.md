@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **89**
+- Observed domains outside registered families: **90**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -271,8 +271,8 @@ without a recurring acquisition need and source-specific metadata.
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `kpms.mesko.com.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `mesko.com.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ssrn.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -291,6 +291,7 @@ without a recurring acquisition need and source-specific metadata.
 | `iza.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `journals.uchicago.edu` | academic publisher | Retain the cited paper/publisher route; it is not currently a maintained recurring family in the atlas. |
 | `kho.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `kpms.mesko.com.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `legifrance.gouv.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mlvt.gov.kh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
