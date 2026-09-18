@@ -178,8 +178,10 @@ weight, and shared-ID checks. The [April-to-June follow-up](projects/us-cost-tru
 joins 6,564 respondents and adds later food, energy, work-loss, and trust
 surfaces. Its candidate route is retrospective scam exposure →
 reporting/recovery → later household/institutional context; it remains
-associative, with an 11-person recovered subgroup, and must not be treated as
-a dated causal effect or practical-exit result. The [within-panel
+associative, with an 11-person recovered subgroup. That subgroup is not lower
+on the later hardship screens than the broader loss-and-report group, a sparse
+counterexample to equating reported recovery with restored security; it must
+not be treated as a dated causal effect or practical-exit result. The [within-panel
 material-versus-fraud comparison](projects/us-cost-trust-politics/htops-material-vs-fraud-counterexample-v1.md)
 now records the counterexample: exposure alone is not equivalent to realized
 loss or general expense difficulty. The next priority is an observed

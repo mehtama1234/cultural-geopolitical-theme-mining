@@ -34,10 +34,15 @@ and the June survey does not verify the event, remedy, or causal pathway.
 | Loss, report, and reported recovery | 11 | 26.57% | 78.80% | 26.03% |
 
 The 11-person recovery cell is retained as a warning and a route for future
-work, not as a stable population estimate. Its large energy-bill figure cannot
-show failed recovery: recovery is self-reported, may have occurred before the
-June interview, and is not linked to a verified payment, correction, or
-restored household position.
+work, not as a stable population estimate. Descriptively, it is not lower on
+the three later hardship screens than the broader loss-and-report group: food
+insufficiency is 26.57% versus 12.22%, inability to pay an energy bill is
+78.80% versus 44.86%, and recent household job loss is 26.03% versus 11.56%.
+This is a sparse-cell counterexample to treating a respondent's report of
+agency recovery as proof of restored material security. It cannot show failed
+recovery: recovery is self-reported, may have occurred before the June
+interview, and is not linked to a verified payment, correction, or restored
+household position.
 
 The institutional measures are similarly conditional. In the broad exposure
 group, code-1 shares were 72.43% for trust in federal statistics and 3.93% for
@@ -63,6 +68,11 @@ realized loss != general expense difficulty
 reported recovery != restored security
 later hardship != proven causal effect
 ```
+
+The recovery comparison is therefore an explicit boundary, not a recovery
+rate: the observed later hardship pattern may reflect selection, timing,
+intervening shocks, or the fact that the reported recovery was partial or
+unrelated to the household condition measured in June.
 
 This prevents the broad atlas from treating every consumer exposure as an
 equivalent shock. The conversion step—whether money was actually lost, an
