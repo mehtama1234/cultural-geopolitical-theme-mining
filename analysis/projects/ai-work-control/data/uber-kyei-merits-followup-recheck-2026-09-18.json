@@ -1,0 +1,39 @@
+{
+  "format": "platform-remedy-followup-recheck-v1",
+  "checked": "2026-09-18",
+  "case_id": "AU-18",
+  "matter": "UDE2025/105",
+  "scope": "Targeted Fair Work Commission public-document search for the later merits and remedy outcome after Kyei's timing-extension decision.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/document-view/media/download/677165",
+      "role": "primary_merits_decision_[2025]_FWC_3550",
+      "retrieval_sha256": "395409f72344a729d9acaf904022d683e76a5fe2be656ab848f26ee84ef31c2c",
+      "result": "Process deficiencies found, but numerous safety complaints supplied a valid reason; deactivation found not unfair and application dismissed."
+    },
+    {
+      "url": "https://www.fwc.gov.au/document-view/media/download/684323",
+      "role": "prior_timing_decision_[2025]_FWC_2269",
+      "retrieval_sha256": "d7973b0b70b3e39d5a6137473e56889577e431660e8a7548df48cf63cb52ffed",
+      "result": "Filing extension granted and case allowed to proceed."
+    },
+    {
+      "url": "https://www.fwc.gov.au/document-search?search-ui=decisions&keyword=UDE2025%2F105",
+      "role": "official_exact_matter_search",
+      "result": "Located the merits decision, prior timing decision, and related procedural documents; no payment or post-decision implementation record located."
+    }
+  ],
+  "stages": {
+    "filing_extension": "observed_adjudicated",
+    "human_discussion": "observed_not_provided",
+    "further_inquiry": "observed_warranted_not_completed",
+    "valid_reason": "observed_adjudicated_safety_complaints",
+    "unfair_deactivation": "adjudicated_dismissed",
+    "correction_restoration": "not_observed_no_remedy_ordered",
+    "payment_compensation": "not_observed",
+    "later_access_or_work": "not_observed",
+    "alternatives_or_exit": "not_observed"
+  },
+  "boundary": "The merits dismissal is a counterexample to treating a Code process defect as sufficient for restoration. It does not establish later account status, continued work, alternative work, payment, recurrence, non-retaliation, trust, or exit.",
+  "storage_boundary": "No bulk download or personal exhibits were retained; only public decision metadata, hashes, and stage coding are stored."
+}

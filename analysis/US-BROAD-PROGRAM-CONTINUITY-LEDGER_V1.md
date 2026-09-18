@@ -1621,6 +1621,11 @@ open. The next test is a same-case platform-worker ledger joining review,
 restoration, payment receipt, alternatives, recurrence, worker-reported
 recovery, switching, and exit while preserving jurisdiction and procedural
 differences.
+The Kyei merits follow-up adds a counterexample within that ledger: a requested
+discussion and further inquiry were not provided, but the Commission accepted a
+safety-related valid reason and dismissed the unfair-deactivation claim. The
+case now separates process deficiency from merits unfairness and restoration;
+later access, work, payment, recurrence, and exit remain open.
 
 The next recruitment-equity rotation promotes the [OpenAI/Statsig recruitment
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The DOJ settlement exposes a

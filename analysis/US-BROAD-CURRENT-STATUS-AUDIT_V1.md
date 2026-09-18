@@ -1785,7 +1785,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 317 trend records and 1142 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,299 local Markdown links and 661 published HTML pages pass link
+families; 1,300 local Markdown links and 661 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1808,6 +1808,13 @@ lost remuneration in 3, and durable recurrence prevention and worker exit in
 none. These overlapping counts expose the institutional-stage gap; they do not
 estimate remedy effectiveness, payment receipt, worker welfare, dependence, or
 U.S. prevalence.
+
+The new [Kyei merits follow-up](projects/ai-work-control/uber-kyei-merits-followup-recheck-2026-09-18.md)
+adds a counterexample: the Commission found process deficiencies but dismissed
+the unfair-deactivation claim after accepting a safety-related valid reason.
+It strengthens the distinction between process compliance, merits fairness,
+restoration, and lived recovery; no later access, work, payment, or exit is
+observed.
 
 The new [Grubhub multi-sided remedy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 adds a U.S. platform program with multiple affected sides. FTC/Illinois records

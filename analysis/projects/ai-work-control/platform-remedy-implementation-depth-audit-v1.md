@@ -38,6 +38,12 @@ establishes net recovery, durable access, or protection from retaliation. The
 Mansoor evidence also does not show that substitute work was freely chosen or
 equivalent in conditions.
 
+The Kyei merits follow-up supplies a counterexample on the decision side: the
+Commission found a missed discussion and warranted further inquiry, yet accepted
+the safety-related reason and dismissed the unfair-deactivation claim. A process
+defect therefore does not by itself imply restoration, payment, or worker
+recovery.
+
 ## Remedy chain
 
 ```text

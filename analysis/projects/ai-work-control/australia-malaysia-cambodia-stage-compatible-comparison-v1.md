@@ -75,7 +75,9 @@ dismissal, and merits-level reactivation. The FWC primary record confirms:
   regular work below the Code's illustrative numerical thresholds, but the
   remaining issues were stayed and no later public final outcome was located.
 - Kyei (`UDE2025/105`): a late application received an extension because the
-  worker pursued internal review and raised an arguable Code-process issue.
+  worker pursued internal review and raised an arguable Code-process issue;
+  the later merits decision found process defects but accepted the safety
+  reason and dismissed the unfair-deactivation claim.
 - Mohamed (`UDE2025/120`) and Ali (`UDE2025/122`) add rating countercases:
   Mohamed's process was found compliant, while Ali's process was found
   non-compliant but the deactivation was not unfair in the circumstances.
@@ -186,7 +188,8 @@ convert contact into resolution.
    records; identify one complaint with a documented platform or state outcome.
 3. Australia: locate the post-order payment and access evidence for Bandameeda,
    Mansoor, Hotak, Al Hussein, Warraich, and the later indexed matters; search
-   Kyei and Phillipps-Lewis for final relisting outcomes.
+   Phillipps-Lewis for final relisting outcomes; Kyei now has a final merits
+   dismissal but still lacks downstream access and work evidence.
 4. Normalize all future records with the same fields: decision surface,
    reason, contest channel, reviewer, correction, payment, recurrence, and
    retaliation.

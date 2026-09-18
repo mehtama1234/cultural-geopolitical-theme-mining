@@ -2,7 +2,7 @@
 
 **Status:** bounded official-bulletin inventory; not a complete FWC database
 export
-**Checked:** 2026-09-16
+**Checked:** 2026-09-18
 
 ## Purpose
 
@@ -48,7 +48,7 @@ is counted once despite preliminary and merits/order stages.
 | AU-15 | Rehman v Portier Pacific | UDE2025/384; [2026] FWC 953 | Merits and remedy | `reactivation_plus_7096_96_lost_remuneration` — background-check deactivation; later voluntary reactivation did not eliminate formal remedy analysis; `$7,096.96` gross lost remuneration ordered | Receipt, continued access, process change |
 | AU-16 | Singh v Portier Pacific | UDE2025/293; [2026] FWC 409 | Eligibility | `eligibility_dismissal` — the Commission found the statutory six-month regular-work protection was not met; pre-26 August 2024 work could not be counted | Merits, process, and underlying deactivation evidence |
 | AU-17 | Phillipps-Lewis v Rasier Pacific | UDE2025/94; [2025] FWC 2398; PR790745 | Eligibility objection, then stay | `eligibility_objection_dismissed_merits_stayed` — recurring weekend work qualified as a regular pattern even below the Code’s illustrative thresholds; proceedings were stayed pending the Hotak Full Bench | Deactivation status, merits, lost-pay claim, later orders |
-| AU-18 | Kyei v Rasier Pacific | UDE2025/105; [2025] FWC 2269 | Timing and case management | `within_time_case_proceeds` — extension granted despite a 60-day delay because the worker sought internal review and the merits case was arguable; matter was relisted with directions | Merits, Code compliance, restoration, payment |
+| AU-18 | Kyei v Rasier Pacific | UDE2025/105; [2025] FWC 2269; [2025] FWC 3550 | Timing, then merits | `merits_dismissal_after_process_defect` — extension granted despite a 60-day delay; later decision found the requested discussion was not provided and further inquiry was warranted, but accepted numerous safety complaints as a valid reason and dismissed the unfair-deactivation application | Later access, continued work, alternatives, recurrence, non-retaliation, exit |
 | AU-19 | Mohamed v Portier Pacific | UDE2025/120; [2025] FWC 2337 | Merits | `dismissal_after_compliant_process` — persistent low satisfaction ratings, warning, notice, opportunity to respond, and human consideration were found sufficient under the Code | Rating correction, review quality, downstream effects |
 | AU-20 | Ali v Portier Pacific | UDE2025/122; [2025] FWC 3243 | Merits | `dismissal_despite_code_noncompliance` — the Commission found the low-rating process inconsistent with the Code but held the deactivation was not unfair in the circumstances | Appeal, rating correction, downstream effects |
 | AU-21 | Azwar v Rasier Pacific | UDE2025/50; [2025] FWC 2370 | Eligibility | `eligibility_protection_found` — logged-on standby time was not counted as paid hours, but trip logs showed paid work on an average of 3 days per week over at least six months | Merits, process, restoration, payment, alternative work |
@@ -65,8 +65,8 @@ The twenty-one-row inventory is not a remedy rate because the stages are mixed:
 ```text
 21 identified proceeding surfaces
   ├─ 6 eligibility / threshold endpoints (Jibril, Bakar, Abukar, Singh, Phillipps-Lewis, Azwar)
-  ├─ 1 timing / case-management endpoint (Kyei)
-  ├─ 6 merits dismissals (Kumar, Mohamed, Mohammed, Abdalla, Dar, Ali)
+  ├─ 0 timing-only endpoints (Kyei now proceeds to merits)
+  ├─ 7 merits dismissals (Kumar, Mohamed, Mohammed, Abdalla, Dar, Ali, Kyei)
   ├─ 1 Full Bench + merits restoration (Hotak)
   └─ 6 merits restoration matters (Bandameeda, Mansoor, Al Hussein, Warraich, Khan, Rehman)
 ```
@@ -115,10 +115,13 @@ paid work on three days per week was enough to establish regular work over at
 least six months. Legal protection can therefore depend on a patterned work
 schedule even when unpaid availability and total paid hours point in different
 directions.
-Kyei shows a separate gate: a late application can still proceed where the
+Kyei shows both gates: a late application can still proceed where the
 Commission finds exceptional circumstances, including an internal review route
-and an arguable case about Code compliance. Timing is therefore not clerical
-noise; it can determine whether a worker reaches the merits.
+and an arguable case about Code compliance; the later merits decision then
+dismissed the application. The Commission found a missed discussion and
+warranted further inquiry, but held that numerous safety complaints supplied a
+valid reason and that the deactivation was not unfair. Timing is therefore not
+clerical noise, and a process defect is not automatically a restoration remedy.
 Mohamed supplies a merits counterweight to the restoration cases. The
 Commission accepted a persistent low-rating process, a worker response, and a
 human representative’s consideration as Code-compliant, while distinguishing

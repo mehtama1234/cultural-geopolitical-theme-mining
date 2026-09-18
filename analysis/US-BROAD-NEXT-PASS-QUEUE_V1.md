@@ -1164,6 +1164,14 @@ protected/sacrificed outcomes, and meaning/action are unknown in all 27. The
 next remedy pass must add a defined post-decision window and actual alternative
 before using `access_restored` as anything beyond a source-coded status.
 
+The [Kyei merits follow-up](projects/ai-work-control/uber-kyei-merits-followup-recheck-2026-09-18.md)
+now closes the previously open merits stage for one procedural case. The
+Commission found that the requested discussion was not provided and further
+inquiry was warranted, but accepted the safety-related reason and dismissed the
+unfair-deactivation application. This is a counterexample to treating a process
+defect as sufficient for restoration; later access, work, payment, recurrence,
+and exit remain unobserved.
+
 The new [consumer-loss/recourse/recovery bridge](projects/ai-work-control/findings/ai-work-control-054.md)
 places Federal Reserve household burden beside FTC administrative loss and CFPB
 response/timing fields. It clarifies that reporting, routing, explanation,

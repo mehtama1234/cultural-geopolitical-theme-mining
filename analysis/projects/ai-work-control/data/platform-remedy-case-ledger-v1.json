@@ -54,10 +54,10 @@
       "source_type": "Fair_Work_Commission_primary_timing_decision",
       "decision_surface": ["deactivation_date", "filing_deadline", "internal_review", "Code_process"],
       "worker_route": "Worker challenge, internal review, statutory unfair-deactivation application and extension request",
-      "implementation_stage": "timing_extension_granted_merits_relisted",
-      "stages": {"explanation": "open_arguable_process_issue_not_adjudicated", "human_review": "open", "correction_restoration": "not_observed", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
-      "evidence_strength": "high_for_extension_and_relisting_low_for_merits_and_remedy",
-      "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. The decision did not determine unfairness, restoration, payment, or later access."
+      "implementation_stage": "merits_dismissal_after_timing_extension_process_defect_and_safety_reason_observed",
+      "stages": {"explanation": "observed_platform_notice_and_safety_complaints", "human_review": "observed_discussion_requested_not_provided_further_inquiry_warranted", "correction_restoration": "not_observed_no_remedy_ordered", "payment_compensation": "not_observed", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_timing_and_merits_dismissal_low_for_later_access_downstream_outcomes_and_generalization",
+      "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. [2025] FWC 3550 later found that the requested discussion was not provided and a further inquiry was warranted, but held that numerous safety complaints supplied a valid reason and that the deactivation was not unfair. No reactivation, payment, later access, continued work, alternative work, recurrence, or exit outcome is observed."
     },
     {
       "id": "PR-026",

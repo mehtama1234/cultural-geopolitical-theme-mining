@@ -3,8 +3,10 @@
 **Decision:** [2025] FWC 2269, *Kwasi Kyei v Rasier Pacific Pty Ltd*
 (`UDE2025/105`)
 
-**Finding:** the Commission extended the filing period and allowed the case to
-proceed to directions; it did not decide the deactivation merits.
+**Finding at original stage:** the Commission extended the filing period and
+allowed the case to proceed to directions. A later merits decision, [2025]
+FWC 3550, dismissed the unfair-deactivation application after finding process
+deficiencies but accepting the safety-related reason for deactivation.
 
 ## Why this case matters
 
@@ -44,9 +46,9 @@ lost pay / compensation       open
 post-order                    relisting with directions observed
 ```
 
-The extension is not a finding that Uber acted unfairly. The arguable merits
-issue is preserved as a reason the case was allowed to continue, not promoted
-as an adjudicated process failure.
+The extension was not a finding that Uber acted unfairly. The later decision
+resolved the merits against the applicant, while separately finding that the
+requested discussion was not provided and that further inquiry was warranted.
 
 ## Cross-case use
 
@@ -64,10 +66,11 @@ case-management events, rather than counting only final merits decisions.
 
 ## Open acquisition
 
-Search UDE2025/105 for the relisting outcome, final Code/merits decision,
-reactivation, lost-pay order, payment, and continued access. The current public
-record establishes only the extension and procedural continuation.
+The final merits record is now located. Search UDE2025/105 for any future
+access, continued-work, payment, recurrence, or exit evidence; the current
+public record establishes no downstream outcome after dismissal.
 
 ## Source
 
 - [Kyei, [2025] FWC 2269 — primary decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2269.pdf)
+- [Kyei, [2025] FWC 3550 — merits decision](https://www.fwc.gov.au/document-view/media/download/677165)
