@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-htops-expense-difficulty-cross-lagged-2025",
+  "title": "Baseline expense difficulty predicts a later material-pressure gradient without a clean confidence shift",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "April-to-June 2025 Census HTOPS public-use respondent intersection linked by SCRAMID; selected linked sample, not an attrition-adjusted national panel",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 15–29 to June 16–25, 2025; baseline expense difficulty versus no difficulty",
+      "denominator": {
+        "value": 6564,
+        "unit": "exact SCRAMID-linked respondents; outcome-specific valid counts range from 2,574 to 3,961",
+        "value_type": "same_respondent_linked_sample"
+      },
+      "measures": {
+        "later_food_insufficiency_expense_difficult": {"value": 12.3, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.43, "unweighted_valid_n": 2582},
+        "later_food_insufficiency_expense_not_difficult": {"value": 1.1, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 0.42, "unweighted_valid_n": 3957},
+        "later_energy_nonpayment_expense_difficult": {"value": 21.4, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.36, "unweighted_valid_n": 2580},
+        "later_energy_nonpayment_expense_not_difficult": {"value": 2.2, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 0.45, "unweighted_valid_n": 3961},
+        "later_job_loss_expense_difficult": {"value": 11.7, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.16, "unweighted_valid_n": 2582},
+        "later_job_loss_expense_not_difficult": {"value": 2.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 0.36, "unweighted_valid_n": 3960},
+        "later_high_confidence_in_congress_expense_difficult": {"value": 17.2, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.38, "unweighted_valid_n": 2574},
+        "later_high_confidence_in_congress_expense_not_difficult": {"value": 16.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.03, "unweighted_valid_n": 3952}
+      },
+      "method": "Exact SCRAMID intersection of April and June HTOPS public-use files; baseline PWEIGHT and 80 April replicate weights retained for the descriptive cross-lagged cells.",
+      "uncertainty": "April weights and replicate weights are not documented as attrition-adjusted longitudinal weights. Expense difficulty is self-reported, follow-up outcomes are descriptive, item universes differ, and no causal effect or national transition estimate is claimed.",
+      "subgroup": "Linked respondents classified by April usual-expense difficulty; later June food, energy, job-loss, and Congress-confidence outcomes use their own valid universes.",
+      "counterinterpretation": "Baseline expense difficulty may proxy prior income, health, housing, debt, family, or other shocks. Later hardship can reflect intervening events, and the near-equal Congress-confidence shares do not identify attribution, trust change, or political action.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
+      "retrieval_hash": "baseline_puf:sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; followup_puf:sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json", "claim": "Machine-readable audit preserves linked IDs, measures, standard errors, valid counts, and raw-file hashes.", "status": "local-audit"},
+    {"source_url": "../../projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md", "claim": "Linkage, weight, retention, and interpretation boundaries are documented.", "status": "local-method-audit"}
+  ],
+  "boundary": "This record establishes a same-respondent cross-lagged descriptive association between April expense difficulty and selected June material and institutional outcomes. It does not establish a dated bill, actor, causality, attrition-adjusted population transition, remedy, recovery, trust change, political action, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Retained HTOPS cross-lagged audit and its April/June public-use file hashes; no new raw files downloaded in this pass",
+    "baseline_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "followup_puf_sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+    "checked": "2026-09-18"
+  }
+}

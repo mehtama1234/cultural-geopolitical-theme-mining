@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-319 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+320 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -597,6 +597,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | HRSA HPSA operational fields are unevenly populated across designation categories | time, cost, voice | care_health_reproduction, housing_place_mobility, unequal_exposure_status, public_systems_feedback | Current designated primary-care HRSA HPSA row; operational fields grouped by overlapping designation/type/population categories | United States 50 states and DC; territories and Palau excluded; 20,905 rows and 2,888 counties | 5 | Current HRSA file; all designated primary-care rows; Current HRSA file; geographic HPSA type; Current HRSA file; population HPSA type; Current HRSA file; facility/site HPSA type; Current HRSA file; migrant/seasonal population code | compared; observed | [open](records/us-hrsa-hpsa-operational-fields-2026.json) |
 
 **Boundary:** This record audits current HRSA designation fields. It does not establish active provider capacity, patient access, quality, price, travel, household outcomes, trust, or political response; overlapping component rows must not be summed into national totals.
+
+| Baseline expense difficulty predicts a later material-pressure gradient without a clean confidence shift | cost, voice, work | household_room_consumption, consumer_power_recourse, work_control_bargaining, trust_identity_meaning, political_judgment_action | April-to-June 2025 Census HTOPS public-use respondent intersection linked by SCRAMID; selected linked sample, not an attrition-adjusted national panel | United States | 1 | April 15–29 to June 16–25, 2025; baseline expense difficulty versus no difficulty | compared | [open](records/us-htops-expense-difficulty-cross-lagged-2025.json) |
+
+**Boundary:** This record establishes a same-respondent cross-lagged descriptive association between April expense difficulty and selected June material and institutional outcomes. It does not establish a dated bill, actor, causality, attrition-adjusted population transition, remedy, recovery, trust change, political action, switching, or exit.
 
 | Retrospective fraud loss is followed by mixed material and institutional responses in a linked HTOPS panel | cost, voice | household_room_consumption, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, public_systems_feedback | April-to-June 2025 Census HTOPS public-use respondents linked by exact SCRAMID; same-respondent descriptive follow-up, not a representative incident sample or attrition-adjusted causal panel | United States HTOPS/HPS public-use panel | 1 | April 15–29 to June 16–25, 2025; retrospective fraud/loss groups followed to later material and institutional responses | compared | [open](records/us-htops-fraud-loss-following-trust-2025.json) |
 

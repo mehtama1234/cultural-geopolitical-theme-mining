@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 319 machine-readable records, 1146 observations,
+**Current registry state:** 320 machine-readable records, 1147 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 661 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 662 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -486,6 +486,14 @@ shows materially higher later food, energy, and job-loss shares among baseline
 expense-difficulty respondents, without a parallel Congress-confidence
 difference. These are selected-panel associations, not causal or population
 transition estimates.
+
+The new [HTOPS expense cross-lagged finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-042.md)
+promotes that audit as a separate canonical record. It adds item-specific
+standard errors and valid counts, and makes the political counterexample
+explicit: later material-pressure shares diverge sharply while high confidence
+in Congress is nearly flat. The result remains selected-panel association;
+dated bills, responsible actors, alternatives, remedies, recovery, and action
+are unobserved.
 
 The [SIPRI military-expenditure record](records/us-sipri-military-expenditure-state-capacity-2015-2024.json)
 adds a geopolitical resource-allocation baseline: global, US, and NATO spending
@@ -1782,10 +1790,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 319 trend records and 1146 observations pass the
+the current checkpoint: 320 trend records and 1147 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,304 local Markdown links and 661 published HTML pages pass link
+families; 1,305 local Markdown links and 662 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

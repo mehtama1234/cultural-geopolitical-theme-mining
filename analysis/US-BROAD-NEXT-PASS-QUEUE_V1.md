@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 319 records and
-1146 observations.
+have exact registered-URL references. The trend registry holds 320 records and
+1147 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1786,6 +1786,11 @@ The [cross-lagged audit](projects/us-cost-trust-politics/data/htops-2025-cross-l
 now shows baseline expense difficulty alongside later food, energy, and
 job-loss outcomes without a parallel Congress-confidence shift; the next test
 is dated exposure and a valid attrition or event adjustment.
+The new [expense cross-lagged finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-042.md)
+promotes this as a distinct bounded trend record with outcome-specific standard
+errors and valid counts. It advances temporal ordering and preserves the
+near-flat institutional-confidence comparison, but does not close the dated
+event, attribution, remedy, recovery, or action fields.
 
 The new [Federal Reserve income-volatility and support layer](projects/us-cost-trust-politics/federal-reserve-income-volatility-support-2025-layer-v1.md)
 adds the room around that adaptation: income timing, outside-household help,
