@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 316 machine-readable records, 1137 observations,
+**Current registry state:** 317 machine-readable records, 1142 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 658 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1780,10 +1780,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 316 trend records and 1137 observations pass the
+the current checkpoint: 317 trend records and 1142 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,289 local Markdown links and 658 published HTML pages pass link
+families; 1,290 local Markdown links and 659 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1867,15 +1867,16 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Fourteen local source surfaces cover
+health, political, and worker routes. Eighteen local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
 verified remedy, meaning/action, recovery, and exit. The OpenAI/Statsig and
-Apple PERM records and three named CFPB redress records sharpen the remedy
-comparison: a potential claimant
-fund and a reported exhausted back-pay fund are different remedy clocks, and
-neither is worker-level restored opportunity or household recovery. This is a
+Apple PERM records, five IER individual-resolution summaries, and three named
+CFPB redress records sharpen the remedy comparison: a potential claimant fund,
+a reported exhausted back-pay fund, and agency-reported individual payments
+are different remedy clocks, and none establishes restored opportunity or
+household recovery. This is a
 program-wide measurement boundary, not evidence that those outcomes did not
 occur.
 

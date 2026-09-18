@@ -44,13 +44,13 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 316 machine-readable records; 1137 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 317 machine-readable records; 1142 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 316 records/1137 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 317 records/1142 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -749,6 +749,14 @@ compliance, worker voice, household recovery, trust, and exit open. It is a
 named implementation event, not a prevalence estimate or causal worker-outcome
 result.
 
+The [IER individual-remedy follow-up record](records/us-doj-ier-individual-remedy-followups-2026.json)
+adds four agency-reported individual paid-remedy cases and one larger back-pay
+offer from FY2026 letters of resolution. These cases move the remedy stage
+beyond an aggregate fund or prospective obligation, but the public summaries
+do not provide alternatives, payment instruments, restored work, durable
+compliance, household recovery, trust, action, or exit. The cases therefore
+strengthen the remedy comparator without closing the same-episode chain.
+
 The thirty-seventh rotation returns to the bridge between institutional voice
 and lived remedy through the [political action menu](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md)
 and [consumer recourse synthesis](projects/us-customer-automation-recourse/consumer-recourse-visibility-remedy-synthesis-v1.md).
@@ -1192,18 +1200,20 @@ same-unit gap remains: no retained record follows a dated material event
 through attribution, action, remedy, recovery, and later exit or trust.
 
 The [same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
-now makes that gap quantitative across 17 retained episode or remedy surfaces.
-Fourteen surfaces observe a dated event or exposure, ten observe a responsible
-actor, and fourteen observe an institutional response; only one observes an
-alternative or non-use outcome, while none observes a verified remedy, meaning
+now makes that gap quantitative across 18 retained episode or remedy surfaces.
+Fifteen surfaces observe a dated event or exposure, ten observe a responsible
+actor, and fifteen observe an institutional response; only one observes an
+alternative or non-use outcome, while one observes an agency-reported
+individual remedy, meaning
 or trust/action endpoint, and none closes recovery, persistence, or exit. Eleven
 surfaces have partial remedy information and eleven have partial effort or
 trade-off information, but these partial stages do not form a common
 denominator. The [ranked next-episode selection](broad-next-episode-selection-v1.md)
 therefore retains a strict promotion gate: a future pass must add both an
-episode-level alternative/non-use field and a receipt or outcome follow-up,
-with denominators, missingness, and the distinction between institutional
-response and lived outcome preserved. This is a measurement result and an
+episode-level alternative/non-use field and a receipt or outcome follow-up on
+the same source or explicit episode key, with denominators, missingness, and
+the distinction between institutional response and lived outcome preserved.
+This is a measurement result and an
 acquisition boundary, not a claim that the broad program lacks meaningful
 context; no raw data were downloaded for this checkpoint.
 
@@ -2057,7 +2067,7 @@ The [HRS fallback access recheck](projects/us-health-cost-household-choice/data/
 records the moved public-download host and the continuing login requirement;
 HRS codebooks remain a planning surface, not a respondent-level result.
 
-The program therefore resumes from a clean control state: 14 themes, 316
+The program therefore resumes from a clean control state: 14 themes, 317
 machine-readable records, 1,116 observations, 103 source packets, and a
 published site whose link-validated count is refreshed by the build. The next
 research action is still the authorized same-case route test through event,

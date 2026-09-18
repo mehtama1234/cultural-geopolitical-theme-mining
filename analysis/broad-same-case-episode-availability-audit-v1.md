@@ -1,7 +1,7 @@
 # Broad same-case episode availability audit v1
 
 **Status:** stage-availability audit; no synthetic episode or causal estimate
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Machine record:** [same-case episode availability audit](data/broad-same-case-episode-availability-audit-v1.json)
 
 ## Why this audit matters
@@ -34,6 +34,7 @@ separate.
 | Platform remedy dry-run (27 episodes) | Adjudication, reactivation, some lost-remuneration orders | Alternatives, remedy receipt/durability, post-event status, practical exit |
 | OpenAI/Statsig PERM settlement (6 recruitment items) | Named recruitment-channel burden, claimant-identification route, potential back-pay, access-restoration controls, oversight | Applicant-level exposure, alternatives/effort, payment receipt, restored opportunity, durable compliance, trust/action, household recovery, exit |
 | Apple PERM implementation (1 settlement event) | Named recruitment-channel burden, individualized lost-income review, $18.25m back-pay processing/exhaustion, access-control requirements | Individual payment distribution/timing, restored opportunity, post-monitoring compliance, worker voice, trust/action, household recovery, exit |
+| IER individual remedy follow-ups (5 resolution summaries) | Four agency-reported individual paid-remedy cases, one back-pay offer, and employer training/policy controls | Employer and worker identities, alternatives, payment instruments, restored work, durable compliance, household recovery, trust/action, exit |
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
@@ -46,22 +47,22 @@ separate.
 
 ## Stage-level coverage count
 
-The 17 surfaces can also be summarized without pooling their units. A status is
+The 18 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 14 | 1 | 2 |
-| Responsible actor | 10 | 5 | 2 |
-| Alternative or non-use | 1 | 5 | 11 |
-| Effort, money, or time trade-off | 1 | 11 | 5 |
-| Adaptation or protected/sacrificed outcome | 2 | 6 | 9 |
-| Institutional or firm response | 14 | 1 | 2 |
-| Verified remedy | 0 | 11 | 6 |
-| Meaning, trust, or action | 0 | 2 | 15 |
-| Recovery, persistence, or exit | 0 | 5 | 12 |
+| Dated event or exposure | 15 | 1 | 2 |
+| Responsible actor | 10 | 6 | 2 |
+| Alternative or non-use | 1 | 5 | 12 |
+| Effort, money, or time trade-off | 1 | 11 | 6 |
+| Adaptation or protected/sacrificed outcome | 2 | 6 | 10 |
+| Institutional or firm response | 15 | 1 | 2 |
+| Verified remedy | 1 | 11 | 6 |
+| Meaning, trust, or action | 0 | 2 | 16 |
+| Recovery, persistence, or exit | 0 | 5 | 13 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -71,7 +72,10 @@ received, or what happened to meaning, recovery, or exit.
 
 ## Result
 
-No current local source supplies all nine required stages. The platform ledger,
+No current local source supplies all nine required stages. The IER summaries
+advance the verified-remedy stage with four agency-reported individual
+payments, but do not supply alternatives, later recovery, trust/action, or
+exit. The platform ledger,
 the CFPB named redress/distribution records, and the Doxo and Grubhub
 consumer-remedy records,
 the OpenAI/Statsig and Apple recruitment-remedy events, and the Hotak follow-up

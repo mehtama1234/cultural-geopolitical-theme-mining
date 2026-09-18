@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 316 records and
-1137 observations.
+have exact registered-URL references. The trend registry holds 317 records and
+1142 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1089,10 +1089,10 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 17 local episode/remedy surfaces, including the OpenAI/Statsig
-potential-claimant settlement, Apple's reported back-pay implementation, and
-three named CFPB redress/distribution records plus the VRURC recall
-implementation bridge.
+now covers 18 local episode/remedy surfaces, including the OpenAI/Statsig
+potential-claimant settlement, Apple's reported back-pay implementation, five
+IER individual-resolution summaries, and three named CFPB
+redress/distribution records plus the VRURC recall implementation bridge.
 The immediate selection rule is to choose one lawful source with a stable
 episode key and add the missing actor, alternative, effort,
 protected/sacrificed outcome, verified remedy, meaning/action, recovery, and
@@ -1100,15 +1100,15 @@ exit fields; if those fields are unavailable, record the gap and rotate to
 another theme. The two worker records are remedy-stage comparators, not a
 worker prevalence or individual-recovery estimate.
 
-**Stage-bottleneck promotion gate (2026-09-17):** across those 17 surfaces,
-14 have an observed dated event/exposure and 14 have an observed institutional
-or firm response, but only 1 has an observed alternative/non-use stage, none
-has a fully observed verified remedy, and none has a fully observed
+**Stage-bottleneck promotion gate (2026-09-18):** across those 18 surfaces,
+15 have an observed dated event/exposure and 15 have an observed institutional
+or firm response, but only 1 has an observed alternative/non-use stage, 1 has
+an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record
-now encodes `qualifies: false` and requires both an episode-level
-alternative/non-use field and a verified remedy or outcome follow-up before a
-new end-to-end finding can be promoted. Another exposure, complaint volume,
-or aggregate remedy count alone does not qualify as end-to-end depth.
+now encodes `qualifies: false` and requires both fields on the same retained
+episode source, or through an explicit episode key, before a new end-to-end
+finding can be promoted. Another exposure, complaint volume, or aggregate
+remedy count alone does not qualify as end-to-end depth.
 
 The ranked [next-episode selection](../analysis/broad-next-episode-selection-v1.md)
 chooses MEPS as the primary local route because its staged ledger contains

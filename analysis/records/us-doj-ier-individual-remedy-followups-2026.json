@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doj-ier-individual-remedy-followups-2026",
+  "title": "Individual enforcement resolutions can document paid remedy while leaving durable recovery open",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "US Department of Justice Immigrant and Employee Rights Section FY2026 letters-of-resolution summary",
+  "geography": "United States; named charging-party employment and recruitment discrimination resolutions",
+  "observations": [
+    {
+      "period": "December 11, 2025 IER resolution; summary updated September 15, 2026",
+      "denominator": {"value": 1, "unit": "named charging-party resolution summarized by IER", "value_type": "case_count"},
+      "measures": {
+        "reported_exposure": {"value": "A naturalized US citizen alleged a staffing company withdrew a position after requesting citizenship proof", "unit": "reported employment-discrimination episode", "value_type": "reported_allegation"},
+        "individual_remedy": {"value": 5600, "unit": "US dollars in back pay; IER summary states the charging party received it", "value_type": "reported_individual_remedy"},
+        "institutional_response": {"value": "Relevant staff training on the anti-discrimination provision of the Immigration and Nationality Act", "unit": "employer control change", "value_type": "reported_control"}
+      },
+      "method": "Targeted review of the official IER FY2026 letters-of-resolution summary; the page's agency-reported payment and control action are kept separate from later worker outcomes.",
+      "uncertainty": "The summary does not identify the company or worker, provide a payment instrument or date, or report continued employment, comparable opportunity, household recovery, trust, or later action.",
+      "subgroup": "One naturalized US citizen charging party in the IER summary; no population denominator.",
+      "counterinterpretation": "A reported payment can address assessed back pay without recreating the lost opportunity or establishing durable correction.",
+      "source_url": "https://www.justice.gov/crt/ier-letters-resolutions-fy-2026",
+      "retrieval_hash": "sha256:9ac7886a7630cd07d39db06302175e34185b3269834d9da95fedbfc34408e9b5",
+      "status": "reported"
+    },
+    {
+      "period": "February 20, 2026 IER resolution; summary updated September 15, 2026",
+      "denominator": {"value": 1, "unit": "named charging-party resolution summarized by IER", "value_type": "case_count"},
+      "measures": {
+        "reported_exposure": {"value": "A building-supply-chain worker alleged retaliation and unfair documentary practice after termination of a lawful permanent resident", "unit": "reported employment-verification episode", "value_type": "reported_allegation"},
+        "individual_remedy": {"value": 16730, "unit": "US dollars paid to the charging party; IER found no reasonable cause for a violation but identified practice deficiencies", "value_type": "reported_individual_remedy"},
+        "institutional_response": {"value": "Form I-9 and E-Verify training", "unit": "employer control change", "value_type": "reported_control"}
+      },
+      "method": "Targeted review of the official IER FY2026 letters-of-resolution summary; payment, finding status, and training are coded as distinct stages.",
+      "uncertainty": "The summary does not identify the company or worker, provide payment timing or receipt documentation beyond the agency statement, or report reinstatement, later employment, household recovery, trust, or action.",
+      "subgroup": "One charging party in the IER summary; no population denominator.",
+      "counterinterpretation": "Payment and training can resolve a documented administrative deficiency without proving discrimination, durable compliance, or restored employment.",
+      "source_url": "https://www.justice.gov/crt/ier-letters-resolutions-fy-2026",
+      "retrieval_hash": "sha256:9ac7886a7630cd07d39db06302175e34185b3269834d9da95fedbfc34408e9b5",
+      "status": "reported"
+    },
+    {
+      "period": "May 28, 2026 IER resolution; summary updated September 15, 2026",
+      "denominator": {"value": 1, "unit": "named charging-party resolution summarized by IER", "value_type": "case_count"},
+      "measures": {
+        "reported_exposure": {"value": "A worker alleged termination discrimination and unfair documentary practice involving an asylum I-94 during reverification", "unit": "reported employment-verification episode", "value_type": "reported_allegation"},
+        "individual_remedy": {"value": 30000, "unit": "US dollars in back pay; IER summary states the charging party was paid", "value_type": "reported_individual_remedy"},
+        "access_restoration_offer": {"value": "Reinstatement was offered", "unit": "employment remedy offer", "value_type": "reported_offer"},
+        "institutional_response": {"value": "Human-resources staff completed IER training", "unit": "employer control change", "value_type": "reported_control"}
+      },
+      "method": "Targeted review of the official IER FY2026 letters-of-resolution summary; paid back pay, reinstatement offer, and training are not merged into a completed return-to-work outcome.",
+      "uncertainty": "The summary does not report whether reinstatement was accepted, whether work resumed, payment timing or instrument, continued employment, household recovery, trust, or later action.",
+      "subgroup": "One charging party in the IER summary; no population denominator.",
+      "counterinterpretation": "A paid remedy plus an offer of reinstatement creates a stronger response route than a prospective fund, but an offer is not accepted reemployment or durable recovery.",
+      "source_url": "https://www.justice.gov/crt/ier-letters-resolutions-fy-2026",
+      "retrieval_hash": "sha256:9ac7886a7630cd07d39db06302175e34185b3269834d9da95fedbfc34408e9b5",
+      "status": "reported"
+    },
+    {
+      "period": "June 17, 2026 IER resolution; summary updated September 15, 2026",
+      "denominator": {"value": 1, "unit": "named charging-party resolution summarized by IER", "value_type": "case_count"},
+      "measures": {
+        "reported_exposure": {"value": "A US citizen alleged termination after an E-Verify tentative nonconfirmation and employer refusal to rerun the case using the Social Security Administration's instructed name format", "unit": "reported employment-verification episode", "value_type": "reported_allegation"},
+        "individual_remedy": {"value": 8000, "unit": "US dollars in front pay and back pay; IER summary states the employee received it", "value_type": "reported_individual_remedy"},
+        "institutional_response": {"value": "Form I-9 and E-Verify policies were created and human-resources employees were trained", "unit": "employer control change", "value_type": "reported_control"}
+      },
+      "method": "Targeted review of the official IER FY2026 letters-of-resolution summary; front pay, back pay, policy change, and training are retained as separate stages.",
+      "uncertainty": "The summary does not report payment timing or receipt documentation beyond the agency statement, reinstatement, later employment, household recovery, trust, or action.",
+      "subgroup": "One charging party in the IER summary; no population denominator.",
+      "counterinterpretation": "Front and back pay can compensate a terminated worker without restoring the original job or demonstrating durable institutional change.",
+      "source_url": "https://www.justice.gov/crt/ier-letters-resolutions-fy-2026",
+      "retrieval_hash": "sha256:9ac7886a7630cd07d39db06302175e34185b3269834d9da95fedbfc34408e9b5",
+      "status": "reported"
+    },
+    {
+      "period": "September 4, 2026 IER resolution; summary updated September 15, 2026",
+      "denominator": {"value": 1, "unit": "named charging-party resolution summarized by IER", "value_type": "case_count"},
+      "measures": {
+        "reported_exposure": {"value": "A transferred worker alleged forced resignation and non-hire after becoming a lawful permanent resident", "unit": "reported transfer and hiring episode", "value_type": "reported_allegation"},
+        "individual_remedy_offer": {"value": 485000, "unit": "US dollars in full back pay and benefits offered; payment is not reported", "value_type": "reported_offer"},
+        "institutional_response": {"value": "The company changed policy to explicitly prohibit citizenship-status discrimination", "unit": "employer policy change", "value_type": "reported_control"}
+      },
+      "method": "Targeted review of the official IER FY2026 letters-of-resolution summary; the offer is deliberately separated from paid-remedy cases.",
+      "uncertainty": "The summary does not report acceptance or payment, reinstatement, later employment, household recovery, trust, or action.",
+      "subgroup": "One charging party in the IER summary; no population denominator.",
+      "counterinterpretation": "A large back-pay offer indicates a potentially material remedy route but cannot be coded as payment, restored opportunity, or recovery.",
+      "source_url": "https://www.justice.gov/crt/ier-letters-resolutions-fy-2026",
+      "retrieval_hash": "sha256:9ac7886a7630cd07d39db06302175e34185b3269834d9da95fedbfc34408e9b5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.justice.gov/crt/settlements-and-lawsuits", "claim": "The IER case ledger supplies the broader federal worker-protection enforcement context.", "status": "primary-case-ledger"},
+    {"source_url": "../../projects/ai-work-control/worker-workplace-event-ledger-v1.md", "claim": "The worker/workplace ledger specifies the missing post-remedy work, household, voice, and exit fields.", "status": "design-specification"}
+  ],
+  "boundary": "This record adds five official IER resolution summaries, including four agency-reported individual paid-remedy cases and one back-pay offer. It strengthens the verified-remedy stage at case level but does not establish payment receipt independently, restored opportunity, continued work, household recovery, trust, political action, switching, or exit; the cases are not pooled into a prevalence estimate."
+}
