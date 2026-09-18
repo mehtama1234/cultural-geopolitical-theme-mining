@@ -1088,6 +1088,13 @@ The 2025 CPS ASEC release puts median income, official poverty, SPM poverty,
 and full-year uninsured status on separate clocks. This strengthens the national
 baseline while leaving same-household disposable room, care access, adaptation,
 trust, action, and recovery open.
+
+The next market-activity rotation adds the [Census retail-demand boundary finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-041.md).
+The August 2026 establishment-sales release records nominal retail and
+food-services growth and a contemporaneous revision, but no price-adjusted
+quantity, household incidence, payment/debt route, firm margin, local access,
+or survival outcome. It extends the household-security baseline without
+turning sales into a welfare or confidence measure.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

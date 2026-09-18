@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,279 local Markdown links and 653 published HTML pages pass link
+families; 1,280 local Markdown links and 654 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1867,6 +1867,14 @@ release places a $87,460 real median household income beside 10.2% official
 poverty, 13.1% SPM poverty, and 7.9% full-year uninsured status. These measures
 use different concepts and universes and do not establish disposable room,
 care access, benefit adequacy, trust, political action, or household recovery.
+
+The [retail-demand boundary finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-041.md)
+adds the August 2026 Census establishment-sales checkpoint. Seasonally
+adjusted retail and food-services sales were $773.9 billion, up 1.2% month over
+month and 6.0% year over year, but the series is not price-adjusted and does
+not identify real quantity, household affordability, payment/debt, margins,
+local access, or firm survival. The next test is a linked product,
+establishment, place, and household ledger.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
