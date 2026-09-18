@@ -1511,3 +1511,10 @@ attenuates to a small, non-significant estimate. The next test is repeated,
 disclosed AI exposure followed through real human contact, cooperation, trust,
 civic action, and persistence, with model, topic, party, and refusal routes
 kept separate.
+
+The next work-control rotation promotes the [generative-AI work-pattern trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The six-month field experiment adds a
+randomized access-to-time stage across 66 firms: email and after-hours work
+decline while task composition does not show a detected shift. The next test
+is a same-worker/workplace ledger joining time saved to workload, schedule
+control, pay, care, voice, employer expectations, and later movement or exit.

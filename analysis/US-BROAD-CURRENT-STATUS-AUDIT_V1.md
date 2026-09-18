@@ -645,6 +645,12 @@ retaining the non-panel and non-food-specific boundary.
 The AI work/control finding is now represented as a validated cross-source
 record, preserving adoption, productivity, time, and task-performance units
 without promoting them to a general worker-control or employment trend.
+The new [generative-AI work-pattern trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds randomized worker-level timing to that lane: access across 66 firms is
+followed by less email and after-hours work, faster document completion, and no
+detected individual task-composition shift in the retained abstract summaries.
+Assignment and take-up estimates use different denominators; saved time is not
+identified as rest, care, additional work, autonomy, or household benefit.
 The [JRC/OECD AI assistance and algorithmic-control finding](projects/ai-work-control/findings/ai-work-control-005.md)
 adds a comparator-level meaning/control distinction: work can feel easier when
 AI assists a task while monitoring or automated direction can reduce autonomy,
