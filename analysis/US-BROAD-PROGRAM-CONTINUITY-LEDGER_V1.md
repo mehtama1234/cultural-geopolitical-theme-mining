@@ -1417,6 +1417,13 @@ media power and majority norms for reciprocal criticism. It adds structured
 interpretation and attribution, not a censorship, exposure, trust, or action
 estimate; the next test remains a same-respondent source-to-response ledger.
 
+The next work/care rotation promotes the [SIPP resource/work-direction
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). It adds a bounded counterexample
+to hours-loss narratives: earnings can move while hours remain stable across
+resource, child, and SNAP contexts. The result is descriptive, with separate
+valid-pair universes and no benefit, care, employer, recovery, trust, or action
+effect; the next test is an event-compatible person/household route.
+
 The next firm/household rotation promotes the [owner-business cash-flow
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). NBER linked financial-account
 evidence places a severe business-revenue shock beside owner consumption and

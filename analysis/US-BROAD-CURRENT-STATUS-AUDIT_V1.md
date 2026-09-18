@@ -2311,6 +2311,15 @@ exposure, retaliation, institutional performance, or political action, so the
 layer strengthens the interpretation/legitimacy stage without closing a
 media-to-behavior pathway.
 
+The new [SIPP resource/work-direction trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+deepens the existing work and care lane without treating another cross-tab as
+a causal estimate. In child-present, below-1× resource pairs, earnings moved
+in both directions while hours were unchanged for 86.64%; in the below-1× SNAP
+cell, hours were unchanged for 85.19%. The separate earnings and hours
+universes, 240 Fay–BRR replicates, conditioning markers, and missing care/event
+fields remain explicit. Stable hours therefore cannot be read as stable pay,
+security, or control.
+
 The new [owner-business cash-flow trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 adds the missing owner-household bridge to the firm and disaster lanes. Linked
 financial-account data report a 40% early-pandemic business-revenue decline and
