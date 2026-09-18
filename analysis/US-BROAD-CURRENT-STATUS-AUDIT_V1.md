@@ -2340,6 +2340,9 @@ official population surface. The result strengthens the outside-options and
 workplace-control map but does not establish AI displacement, productivity,
 pay, bargaining power, employer permission, trust, or political action. A
 same-worker longitudinal route remains open.
+The [2025 SHED employment/AI-control record](records/us-federal-reserve-employment-ai-control-2025.json)
+is now linked directly to the finding, preserving the separate job-movement,
+schedule, AI-use, education, and task-control denominators.
 
 The [material-to-political-friction finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-031.md)
 adds a non-pooled meaning/action counterexample. In the retained CCES panel,

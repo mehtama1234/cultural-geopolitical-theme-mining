@@ -959,6 +959,9 @@ conditional boundaries. The [employment/AI-control trend]
 friction, labor mobility, schedule organization, education-stratified AI use,
 and task-control differences as a distinct work/technology surface. It does
 not establish displacement, productivity, bargaining power, or worker action.
+The [2025 SHED employment/AI-control record](records/us-federal-reserve-employment-ai-control-2025.json)
+now supplies the machine-readable provenance for those surfaces; its worker,
+employee, age, education, and task-control bases remain non-pooled.
 The [material-to-political-friction trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then separates capacity to act, institutional judgment, contact, and
 collective action across the direct CCES panel comparisons and HTOPS surfaces;
