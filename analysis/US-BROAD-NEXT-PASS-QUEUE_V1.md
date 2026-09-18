@@ -2512,9 +2512,10 @@ or exit occurred. No bulk data was downloaded. The next qualifying pass must
 obtain one lawful small event ledger or valid panel with those missing fields;
 otherwise rotate to a subgroup/place reversal from retained data.
 
-The detailed practical-exit finding extends this comparison to nine routes by
+The detailed practical-exit finding extends this comparison to ten routes by
 adding the Doxo bill-payment enforcement case and Grubhub's aggregate remedy
-program, plus the VRURC recall implementation bridge. Those records improve coverage of formal consumer response and
+program, plus the VRURC recall implementation bridge and Amazon Flex tip-refund
+program. Those records improve coverage of formal consumer response and
 distribution, but remain open on person-level alternatives, payment success,
 remedy receipt, protected outcomes, trust, switching, and exit; they do not
 change the qualification result.
