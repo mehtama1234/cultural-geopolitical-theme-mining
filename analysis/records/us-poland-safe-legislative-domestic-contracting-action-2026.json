@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-safe-legislative-domestic-contracting-action-2026",
+  "title": "Poland moves SAFE from legislative authorization to a reported domestic defense-contracting wave",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "political_judgment_action", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "Polish Sejm SAFE legislative process and Polish Ministry of National Defence implementation summaries",
+  "geography": "Poland; Polish defense industry and armed forces",
+  "observations": [
+    {
+      "period": "February 2026; Sejm government SAFE bill, druk 2227",
+      "denominator": {"value": 1, "unit": "government bill and parliamentary legislative process", "value_type": "documented_legislative_action"},
+      "measures": {
+        "safe_legislative_framework": {"value": "SAFE financing instrument enacted through the parliamentary process for defense-investment financing", "unit": "reported legislative stage", "value_type": "reported_action"},
+        "financing_route": {"value": "dedicated SAFE financing routed through a Polish institutional framework and defense-fund mechanism", "unit": "reported policy design", "value_type": "reported_policy"}
+      },
+      "method": "Bounded extraction from the official Sejm legislative-process page for the government SAFE bill. The parliamentary authorization stage is kept separate from later contracts, obligations, delivery, and capability realization.",
+      "uncertainty": "The process page does not by itself establish the amount drawn, contract performance, supplier shares, delivery, acceptance, or operational effect. Procedural metadata is not a public-opinion or household-incidence measure.",
+      "subgroup": "Polish national legislative and defense-financing institutions.",
+      "counterinterpretation": "Legislative authorization can create a financing route without proving that funds are drawn, that domestic firms receive the intended work, or that capability and independence improve.",
+      "source_url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=2227",
+      "retrieval_hash": "artifact:sha256:22d33b8f77da7429d0d8308070d7f285dd5ddb41366e3cf95b5628549400cb07",
+      "status": "reported"
+    },
+    {
+      "period": "2026-05-28 through 2026-05-30; reported by MON 2026-06-08",
+      "denominator": {"value": 62, "unit": "SAFE-financed contracts reported by the Polish Armament Agency and Cyber Defense Component", "value_type": "reported_contract_count"},
+      "measures": {
+        "reported_contract_count": {"value": 62, "unit": "contracts", "value_type": "reported_count"},
+        "reported_contract_value": {"value": 120000000000, "unit": "Polish zloty; approximately", "value_type": "reported_amount"},
+        "reported_recipient_scope": {"value": "all contracts stated by MON to have been concluded with Polish defense industry", "unit": "institutional recipient category", "value_type": "reported_scope"},
+        "reported_borsuk_quantity": {"value": 146, "unit": "Borsuk infantry fighting vehicles in listed contract scope", "value_type": "reported_contract_scope"},
+        "reported_flyeye_quantity": {"value": 190, "unit": "FlyEye unmanned-system sets in listed contract scope", "value_type": "reported_contract_scope"},
+        "reported_warmate_quantity": {"value": 400, "unit": "minimum; Warmate sets in listed contract scope", "value_type": "reported_contract_scope"},
+        "reported_san_modules": {"value": 18, "unit": "SAN air-defense fire modules in listed contract scope", "value_type": "reported_contract_scope"},
+        "reported_155mm_ammunition": {"value": "hundreds of thousands", "unit": "reported artillery-round contract scope", "value_type": "reported_contract_scope"}
+      },
+      "method": "Bounded extraction from the official Polish Ministry of National Defence SAFE program page. Contract count, reported value, recipient category, and selected listed equipment scopes are retained as signed-contract observations, not pooled delivered quantities.",
+      "uncertainty": "The page does not provide full contract texts, obligations, payment schedules, supplier-level value shares, delivery dates, acceptance records, or evidence that any listed item was delivered. The source-level category ‘Polish defense industry’ does not establish domestic control of critical components, design authority, or replaceability.",
+      "subgroup": "Polish Armament Agency and Cyber Defense Component SAFE contracts with the Polish defense industry.",
+      "counterinterpretation": "A large signed-contract wave can strengthen expected domestic demand and industrial workload while leaving execution, imported inputs, workforce effects, delivery, and operational readiness unresolved.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/program-safe",
+      "retrieval_hash": "artifact:sha256:22d33b8f77da7429d0d8308070d7f285dd5ddb41366e3cf95b5628549400cb07",
+      "status": "reported"
+    },
+    {
+      "period": "2026-06-01; MON public implementation and strategic framing summary",
+      "denominator": {"value": 1, "unit": "official Ministry of National Defence implementation summary and senior-official statements", "value_type": "documented_institutional_framing"},
+      "measures": {
+        "domestic_security_framing": {"value": "SAFE is framed as Polish equipment for the Polish armed forces and as an investment in future generations' security", "unit": "official institutional framing", "value_type": "reported_interpretation"},
+        "production_independence_framing": {"value": "the summary links the program to greater operational capability and day-to-day independence of defense production", "unit": "official institutional framing", "value_type": "reported_interpretation"},
+        "industrial_contracting_summary": {"value": 62, "unit": "contracts reported as signed in three days", "value_type": "reported_count"},
+        "industrial_contracting_value": {"value": 120000000000, "unit": "Polish zloty; approximately", "value_type": "reported_amount"}
+      },
+      "method": "Translation-neutral extraction of the official MON implementation summary and statements. Contracting facts and institutional meaning claims are retained separately from independently measured output, public reception, or sovereignty.",
+      "uncertainty": "The summary is an official account and does not independently verify contract performance, delivery, acceptance, local-content shares, public approval, or strategic leverage. Rhetorical claims about expectations and independence are not outcome measures.",
+      "subgroup": "Polish defense, government, and armed-forces institutions communicating SAFE implementation.",
+      "counterinterpretation": "Institutional claims about patriotism, public expectations, and independence can legitimate borrowing and procurement while coexist­ing with foreign technology, components, finance, and approval dependence.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/budujemy-sile-polskiej-armii-ponad-120-mld-na-uzbrojenie-zakontraktowane-z-programu-safe",
+      "retrieval_hash": "artifact:sha256:22d33b8f77da7429d0d8308070d7f285dd5ddb41366e3cf95b5628549400cb07",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/data/poland-safe-legislative-contracting-action-2026-05-28.txt", "claim": "Normalized local note preserves the legislative, contract-count, value, scope, and interpretation boundaries.", "status": "local-artifact"},
+    {"source_url": "../../records/us-poland-defense-financing-public-opinion-2026.json", "claim": "CBOS supplies the separate public-judgment layer about competing defense-financing routes.", "status": "related-record"},
+    {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "The Poland-US record supplies the separate reciprocal-access, Barracuda co-production, and implementation-stage route.", "status": "related-record"},
+    {"source_url": "https://www.gov.pl/web/obrona-narodowa/program-safe", "claim": "MON supplies the official count, amount, listed equipment scopes, and Polish-defense-industry recipient category for SAFE contracts.", "status": "primary-source"}
+  ],
+  "boundary": "This record establishes a Polish legislative and institutional contracting action under SAFE, plus official domestic-industry and independence framing. It does not establish Barracuda inclusion, contract performance, plant commissioning, completed output, acceptance, delivery, local-content shares, household incidence, public reception, or geopolitical leverage. Signed contracts are not delivered capability."
+}

@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 312 records and
-1117 observations.
+have exact registered-URL references. The trend registry holds 313 records and
+1120 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1443,6 +1443,20 @@ resource checkpoint: Poland reports $4 billion in FMF and acceleration of
 existing contracts, including Apache helicopters. It is not Barracuda-specific,
 so it belongs to the financing/implementation stage and cannot substitute for
 plant, output, delivery, or local-content evidence.
+The separate SAFE route now adds a dated political and institutional action
+stage: the Sejm process enacted the financing framework, and the Polish
+Ministry of National Defence reports 62 SAFE-financed contracts signed on
+2026-05-28 through 2026-05-30 for approximately PLN 120 billion, all with
+Polish defense industry. The listed contract scopes include Borsuk, FlyEye,
+Warmate, SAN, artillery ammunition, and other systems. This is stronger than
+financing opinion or institutional framing because it records signed
+contracts, but it remains an official implementation summary: it does not
+establish Barracuda inclusion, obligation/payment, delivery, acceptance,
+local-content share, or independent production sovereignty.
+The [SAFE legislative and domestic-contracting action record](records/us-poland-safe-legislative-domestic-contracting-action-2026.json)
+therefore advances the political-decision → institutional-allocation arrow
+while leaving performance, household incidence, public reception, and
+geopolitical leverage open.
 The [September realization watchpoint](projects/ai-work-control/findings/ai-work-control-043.md)
 records the current public-source non-observation and prevents the same
 agreement-stage evidence from being counted as a new production result.
