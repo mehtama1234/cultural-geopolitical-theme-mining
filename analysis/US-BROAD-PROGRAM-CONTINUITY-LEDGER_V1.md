@@ -1737,3 +1737,13 @@ information, contact/protest, policy demand, institutional response, remedy,
 later health and household room, trust, turnout, vote, organizing, switching,
 or exit; preserve multiple-response attribution, sparse cells, survey weights,
 and the non-causal boundary.
+
+The next health-cost legitimacy rotation promotes the [ANES health-cost concern
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The ANES panel record adds
+forward-looking payment concern, federal trust, insurance-help demand, and
+party/health/insurance/income-conditioned comparisons beside the CES medical-
+affordability action layer. The next test is a same-respondent or household
+ledger joining dated cost exposure, bill/care choice, actor, information, trust,
+policy demand, contact/vote, institutional response, remedy, later health and
+financial room, and exit; preserve panel attrition, non-monotonicity, subgroup
+cell size, and the separation from MEPS/SHED respondents.

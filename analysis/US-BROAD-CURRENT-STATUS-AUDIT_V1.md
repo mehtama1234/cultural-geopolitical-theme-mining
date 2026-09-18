@@ -2592,3 +2592,11 @@ contact, protest, donation, and attribution patterns among respondents reporting
 medical-expense hardship. These are exploratory weighted descriptive contrasts,
 not design-based causal estimates; the extracts do not identify a dated bill,
 stable blame, remedy, trust change, or later household recovery.
+
+The new [ANES health-cost concern trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a panel-based trust and policy-demand layer beside the CES action screen.
+Health-care payment concern is associated with federal-trust and insurance-help
+responses, but the gradients are non-monotonic and strongly conditioned by party
+identity; controls for health condition, insurance, and income remain descriptive.
+The forward-looking concern item is not a bill or care event, and the tables do
+not establish causal trust change, remedy receipt, direct action, or recovery.
