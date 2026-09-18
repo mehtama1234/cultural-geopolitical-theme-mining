@@ -142,7 +142,8 @@
         "fy2027_request_quantity": {"value": 1000, "unit": "reported FAMM all-up-round quantity", "value_type": "reported_budget_quantity"},
         "fy2026_p1_exhibit_quantity": {"value": 3010, "unit": "reported FAMM quantity in FY2026 Air Force Missile Procurement Exhibit P-1", "value_type": "reported_exhibit_quantity"},
         "fy2026_p1_exhibit_cost": {"value": 656333000, "unit": "US dollars; reported FAMM cost in FY2026 P-1 exhibit columns", "value_type": "reported_exhibit_cost"},
-        "multiyear_authorization": {"value": 7, "unit": "years requested for multiyear procurement authorization", "value_type": "reported_policy_request"}
+        "multiyear_authorization": {"value": 7, "unit": "years requested for multiyear procurement authorization", "value_type": "reported_policy_request"},
+        "named_famm_vendors": {"value": "Zone 5 Technologies, CoAspire, and Anduril Industries", "unit": "three vendors named in the Air Force justification for FAMM-P/FAMM-L development activities", "value_type": "reported_vendor_set"}
       },
       "method": "Non-pooled extraction from the official Air Force FY2027 FAMM00 P-40 justification and FY2026 Air Force Missile Procurement P-1 exhibit. Fiscal-year request, spend-plan, quantity, cost, and multiyear-authorization fields are retained by document and are not summed or treated as obligations.",
       "uncertainty": "Budget exhibits contain separate fiscal-year and column contexts; the P-1 quantity/cost and P-40 request figures are not interchangeable. Neither document identifies a task order, obligation, selected vendor, production output, delivery, acceptance, or Polish demand. FAMM-P is not assigned to Barracuda SLB-500M.",
