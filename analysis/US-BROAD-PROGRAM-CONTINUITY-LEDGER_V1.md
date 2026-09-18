@@ -979,6 +979,10 @@ then adds an exact same-respondent exposure-to-loss-to-later-context route.
 It strengthens the distinction between exposure, realized burden, reporting,
 reported recovery, and restored security, while leaving verified remedy,
 durability, alternatives, trust change, switching, and exit open.
+The [HTOPS fraud-loss canonical record](records/us-htops-fraud-loss-followup-2025.json)
+now carries that route directly into the broad provenance chain, including the
+184-person exposure-plus-loss subgroup and the 11-person loss/report/recovery
+cell as sparse descriptive boundaries rather than recovery estimates.
 The [Rehman platform-remedy record](records/au-rehman-platform-remedy-2026.json)
 then supplies an observed comparative remedy stage: deactivation, worker
 application, voluntary reactivation, formal access restoration, and ordered

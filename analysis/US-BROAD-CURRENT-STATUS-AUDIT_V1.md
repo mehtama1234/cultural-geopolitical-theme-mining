@@ -2286,6 +2286,11 @@ not a stable estimate. The route advances event timing and conversion logic
 while leaving actor, dated incident, alternatives, remedy receipt, durability,
 trust change, switching, and exit open.
 
+The [HTOPS fraud-loss canonical record](records/us-htops-fraud-loss-followup-2025.json)
+is now linked directly alongside the finding, preserving the same-respondent
+intersection, selective retention, retrospective exposure clock, and sparse
+11-person recovery cell.
+
 The [Rehman platform remedy finding](projects/ai-work-control/findings/ai-work-control-091.md)
 adds a different, observed remedy-stage boundary: one Australian platform
 worker's deactivation was followed by an application, voluntary reactivation,
