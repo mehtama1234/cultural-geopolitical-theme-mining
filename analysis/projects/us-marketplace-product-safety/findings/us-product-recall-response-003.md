@@ -1,7 +1,7 @@
 # Finding 003: A recall key links correction progress without proving consumer recovery
 
 **Status:** verified single-recall implementation bridge; consumer recovery open  
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -66,6 +66,23 @@ The correction count is consequently best coded as **reported implementation
 progress**, not “29% of consumers recovered.” This is exactly the kind of
 measurement boundary the broad atlas needs when moving from institutional
 capacity to lived consumer outcome.
+
+## Current source-route recheck — 2026-09-18
+
+The CPSC [Monthly Progress Reports page](https://www.cpsc.gov/Data/Monthly-Progress-Reports)
+still publishes an MPR download covering recalls from August 1, 2022 to the
+present and describes MPRs as firm-submitted data on recall-remedy progress.
+The CPSC recall page also warns that recall-remedy data may change daily as
+company operating status or remedy availability changes. The compact VRURC
+bridge retained here remains specifically an **August 21, 2026 workbook
+snapshot**; the live availability of the workbook does not silently update the
+stored VRURC counts. A future refresh must retrieve the workbook, verify its
+vintage and row schema, then recheck recall key `23-238` before replacing the
+snapshot.
+
+This route recheck strengthens source availability, not the consumer outcome:
+notice reach, contact, replacement receipt, safe restoration, residual cost,
+trust, continued use, switching, and exit remain unobserved.
 
 ## What the bridge establishes
 
