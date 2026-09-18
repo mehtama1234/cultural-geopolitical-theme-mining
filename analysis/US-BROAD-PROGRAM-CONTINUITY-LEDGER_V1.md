@@ -1439,3 +1439,11 @@ firm-capacity lane. COVID subsidies and restricted spending opportunities,
 unobserved liquidity buffers, and missing worker/customer outcomes prevent a
 general business-shock rule; comparison with disaster loans requires aligned
 shock, intervention, unit, and follow-up.
+
+The consumer-safety rotation now deepens the [recall implementation trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) with the CPSC surveillance pipeline:
+injury-data architecture, voluntary recalls, violation notices, import
+examinations, e-commerce takedowns, and revised response measures. It adds
+institutional capacity around the dated VRURC bridge, but does not convert
+agency activity or firm-reported correction into purchaser exposure, notice,
+receipt, avoided injury, or restored safety.

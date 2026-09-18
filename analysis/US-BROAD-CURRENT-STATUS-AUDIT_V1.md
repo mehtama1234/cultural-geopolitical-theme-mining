@@ -2336,3 +2336,11 @@ pass-through persisting through 2021. The result is not evidence that owners
 were unaffected: wealth buffers, subsidies, debt, investment, survival,
 workers, customers, and political response remain unobserved in the retained
 abstract-level packet. It must not be pooled with disaster-loan results.
+
+The CPSC consumer-safety record deepens the recall trend upstream and
+downstream: FY2024 reports 333 voluntary recalls covering about 41 million
+units, 2,969 violation notices, more than 58,000 e-commerce removals, and more
+than 65,000 import examinations; the revised average response measure is 51%
+for FY2024 and 44.55% for FY2025. These are institutional and firm-reported
+performance surfaces, not exposure, notice, remedy-receipt, avoided-injury, or
+household-recovery rates.
