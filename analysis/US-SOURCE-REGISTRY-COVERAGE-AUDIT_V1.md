@@ -177,6 +177,7 @@ family that will be acquired, compared, or maintained over time.
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
 | `eur-lex.europa.eu` | 6 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md` |
 | `kff.org` | 6 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
+| `sam.gov` | 6 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
 | `afajof.org` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `benklopack.github.io` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `anduril.com` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-043.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `commerce.gov` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json` |
 | `comptroller.war.gov` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
-| `dropbox.com` | 3 | `analysis/projects/us-household-monetary-policy/nber-w35090-acquisition-audit-v1.md`; `analysis/projects/us-household-monetary-policy/findings/us-household-monetary-policy-002.md`; `analysis/records/us-nber-monetary-policy-information-treatments-2026.json` |
 
 ## Reverse-audit decisions
 
@@ -227,6 +227,7 @@ without a recurring acquisition need and source-specific metadata.
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
 | `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `sam.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -255,7 +256,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ils.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
 | `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `sam.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `subscriptionmembershipsettlement.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `bwc.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |

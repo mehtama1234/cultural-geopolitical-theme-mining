@@ -115,6 +115,24 @@
       "status": "reported"
     },
     {
+      "period": "2026-07-28; FAMM-P BAR closed risk-reduction acquisition stage",
+      "denominator": {"value": 1, "unit": "official SAM.gov acquisition notice and closed risk-reduction spiral", "value_type": "acquisition_strategy_notice"},
+      "measures": {
+        "risk_reduction_duration": {"value": 3, "unit": "months", "value_type": "reported_duration"},
+        "rfi_date": {"value": "2026-04-17", "unit": "official notice date", "value_type": "reported_date"},
+        "industry_day_date": {"value": "2026-05-06", "unit": "official notice date", "value_type": "reported_date"},
+        "vendor_access": {"value": "limited to vendors down-selected from the RFI and industry day", "unit": "closed-spiral participation rule", "value_type": "reported_rule"},
+        "follow_on_status": {"value": "possible development-prototype effort subject to approvals and funding; competitive if released", "unit": "official acquisition status", "value_type": "conditional_follow_on"}
+      },
+      "method": "Bounded extraction from the official SAM.gov AFLCMC ADRR CSO amendment for the Family of Affordable Mass Missiles-Palletized Beyond Adversary's Reach effort. Risk-reduction duration, market-shaping dates, access restriction, CUI distribution, and conditional follow-on language are retained as separate acquisition stages.",
+      "uncertainty": "The notice does not name Anduril, Barracuda SLB-500M, a selected vendor, a funded prototype, a production quantity, an obligation, delivery, acceptance, or Polish demand. CUI materials are not public in the notice.",
+      "subgroup": "U.S. Air Force Armament Directorate FAMM-P BAR acquisition route and down-selected vendor set.",
+      "counterinterpretation": "A closed risk-reduction spiral can narrow technical and vendor options without becoming a production commitment; a possible follow-on remains contingent on approvals, funding, and a future competitive release.",
+      "source_url": "https://sam.gov/workspace/contract/opp/8087fd0ac8f2446cb1daeb89fd4fc09f/view",
+      "retrieval_hash": "artifact:sha256:4224cf7d302f3bffb93a71b7c6419151efb19583578f7e603a24013e307ec2c3",
+      "status": "reported"
+    },
+    {
       "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
       "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
       "measures": {
@@ -141,6 +159,7 @@
     {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"},
     {"source_url": "https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf", "claim": "The official FY2026 allocation plan supplies a federal financing and program-category stage for low-cost cruise-missile development without a Barracuda-specific attribution.", "status": "primary-source"}
     ,{"source_url": "https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view", "claim": "The SAM.gov award notice supplies an executed Anduril federal contract vehicle while preserving the difference between a ceiling and a product-specific obligation.", "status": "primary-source"}
+    ,{"source_url": "https://sam.gov/workspace/contract/opp/8087fd0ac8f2446cb1daeb89fd4fc09f/view", "claim": "The official FAMM-P BAR notice supplies a closed risk-reduction acquisition stage while preserving the distinction from a funded production award.", "status": "primary-source"}
   ],
-  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an executed but broadly scoped Anduril contract vehicle, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish a product-specific Barracuda obligation, operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified product-level orders, production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
+  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an executed but broadly scoped Anduril contract vehicle, an official FAMM-P BAR risk-reduction acquisition stage, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish a product-specific Barracuda obligation, production award, operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified product-level orders, production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
 }
