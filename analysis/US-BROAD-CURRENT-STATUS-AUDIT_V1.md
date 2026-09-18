@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,278 local Markdown links and 652 published HTML pages pass link
+families; 1,279 local Markdown links and 653 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1860,6 +1860,13 @@ federal-government trust remains low across all four and perceived news
 unfairness remains high. Cluster assignment is not a fixed identity, causal
 type, objective news audit, or civic ladder; time/resources, activity movement,
 source exposure, institutional response, and later action remain open.
+
+The [household-security baseline finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-040.md)
+adds the current Census national income/poverty/insurance surface. The 2025
+release places a $87,460 real median household income beside 10.2% official
+poverty, 13.1% SPM poverty, and 7.9% full-year uninsured status. These measures
+use different concepts and universes and do not establish disposable room,
+care access, benefit adequacy, trust, political action, or household recovery.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:

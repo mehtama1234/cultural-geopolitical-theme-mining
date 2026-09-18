@@ -1082,6 +1082,12 @@ trust: high political interest varies widely, while federal trust stays low and
 perceived news unfairness stays high. The next test is a same-respondent route
 through time/resources, source exposure, activity, trust, institutional
 response, and later action or withdrawal.
+
+The next household-security rotation adds the [Census income/poverty/insurance finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-040.md).
+The 2025 CPS ASEC release puts median income, official poverty, SPM poverty,
+and full-year uninsured status on separate clocks. This strengthens the national
+baseline while leaving same-household disposable room, care access, adaptation,
+trust, action, and recovery open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
