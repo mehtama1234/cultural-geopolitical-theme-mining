@@ -313,6 +313,10 @@ adds a consumer-power measurement control: `timely` is kept separate from
 elapsed routing, response labels are kept separate from remedy, and an omitted
 `has_narrative` field is recorded as unavailable rather than zero. This
 prevents API-vintage changes from being misread as a consumer trend.
+The [CFPB case-route vintage record](records/us-cfpb-case-route-vintage-comparison-2024-2025.json)
+is now linked directly in the evidence matrix, preserving product-specific
+sample caps, retrieval-order selection, field-presence diagnostics, and the
+distinction between administrative labels and verified consumer recovery.
 The [medical-debt complaint-visibility finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-007.md)
 adds a coded CFPB medical-debt subproduct as an institutional visibility layer.
 It is a published complaint-category count, not medical-debt prevalence,

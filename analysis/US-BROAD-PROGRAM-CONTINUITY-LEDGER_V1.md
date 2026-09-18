@@ -1987,3 +1987,11 @@ and wording boundaries, partisan conditioning, and the separation between
 expected job loss and realized workplace displacement; the next test remains a
 same-worker ledger joining AI exposure, employer control, job/schedule/pay
 change, attribution, trust, organizing, and exit.
+
+The consumer-recourse provenance rotation now links the [CFPB case-route
+vintage record](records/us-cfpb-case-route-vintage-comparison-2024-2025.json)
+to the route-vintage audit and evidence matrix. It preserves the capped
+retrieval-order samples, product/vintage field-availability differences, and
+the separation between administrative response labels and verified remedy; the
+next test remains a same-complaint ledger joining receipt, routing, response,
+repeat effort, correction/payment, remaining loss, trust, switching, and exit.
