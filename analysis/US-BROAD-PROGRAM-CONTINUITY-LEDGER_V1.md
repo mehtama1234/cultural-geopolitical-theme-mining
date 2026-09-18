@@ -1587,3 +1587,12 @@ outcomes. The next test is a same-participant ledger for drivers, diners, and
 restaurants joining eligibility, receipt, account or visibility correction,
 income/sales outcome, control use, alternatives, continued use, switching,
 trust, and exit.
+
+The next subscription-remedy rotation promotes the [Amazon Prime refund trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The court-entered settlement and FTC
+administration record add a $1.5 billion refund pool, a $51 individual cap,
+automatic refunds, and a claims-notice stage after the earlier subscription
+design finding. The next test is a same-account ledger joining eligibility,
+notice, automatic or claimed payment, amount/date/receipt, delay, continued
+use, switching, trust, and household room; preserve informed retention and
+unresolved claims.

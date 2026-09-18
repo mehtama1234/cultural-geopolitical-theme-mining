@@ -1893,6 +1893,13 @@ consent failures in the Shutterstock matter and a cancellation path reaching
 remain institutional stages, not account-level billing, completed exit, refund
 receipt, or recurrence outcomes. Both cases are preserved as allegations or
 pending proceedings rather than population estimates.
+The new [Amazon Prime refund trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a later remedy clock to that subscription lane. The court-entered FTC
+settlement includes a $1.5 billion customer-refund pool, a reported $51 maximum
+individual refund, an eligibility window, automatic-refund payments, and a
+claims-notice route for customers not automatically refunded. The public record
+still lacks account-level eligibility, receipt, claim completion, delay,
+continued use, switching, and household-recovery outcomes.
 
 The [Amazon advertising-auction finding](projects/us-local-business-place/findings/us-local-business-place-013.md)
 adds a firm-to-household cost mechanism. The FTC and 22 states allege hidden
