@@ -1856,6 +1856,14 @@ concentrated in one BBB channel, and neither source establishes customer-wide
 data exposure, unauthorized payment, medical harm, treatment interruption,
 verified remedy, trust change, or practical exit.
 
+The new [subscription-cancellation trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a second named consumer-interface route. FTC records allege renewal and
+consent failures in the Shutterstock matter and a cancellation path reaching
+23 screens and 32 actions in the Uber One matter; proposed relief and controls
+remain institutional stages, not account-level billing, completed exit, refund
+receipt, or recurrence outcomes. Both cases are preserved as allegations or
+pending proceedings rather than population estimates.
+
 The [Amazon advertising-auction finding](projects/us-local-business-place/findings/us-local-business-place-013.md)
 adds a firm-to-household cost mechanism. The FTC and 22 states allege hidden
 Sponsored Products auction surcharges affecting more than 1 million brands and

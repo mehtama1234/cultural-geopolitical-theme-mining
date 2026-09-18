@@ -1543,3 +1543,12 @@ advance the household/work arrow without establishing need, causation, remedy,
 or verified recovery. The next test is a same-episode ledger joining coverage,
 claim or fill, amount owed, treatment continuity, work/care time, correction,
 and later household and institutional response.
+
+The next consumer-exit rotation promotes the [subscription-cancellation trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). FTC Shutterstock and Uber One cases
+make renewal, consent, billing, and cancellation effort visible as interface
+stages, while proposed controls and pending litigation remain distinct from
+consumer loss or remedy. The next test is a same-account ledger joining
+disclosure, enrollment, charge, cancellation effort, refund/relief receipt,
+continued use, switching, trust, and recurrence; preserve informed retention
+and useful continuity as counterexamples.
