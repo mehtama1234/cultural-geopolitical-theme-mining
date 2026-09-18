@@ -15,6 +15,32 @@ Before handing off or starting a new research cycle, run the consolidated
 sync, source coverage, provenance, observation records, finding and watchlist
 parity, published links, local links, and whitespace together.
 
+## Verified current checkpoint — 2026-09-18
+
+The atlas currently contains 14 themes, 316 machine-readable records, 1,137
+observations, 103 source packets, 174 connections, 85 reading paths, 25 public
+episode events, and 2 validated episode arrows. The publication gate passes all
+20 checks, and the worktree is kept clean at local commits.
+
+The active depth lane is a storage-light same-case or event-compatible route:
+
+```text
+dated exposure or decision
+  -> alternative or non-use
+  -> effort, money, time, or access trade-off
+  -> institutional response and verified remedy
+  -> protected/sacrificed outcome and recovery
+  -> meaning, trust, action, persistence, or exit
+```
+
+The current 17-surface availability audit finds no retained source that closes
+all nine stages. One surface observes an episode-level alternative or non-use
+field, while none observes verified remedy receipt or a defined outcome
+follow-up. UAS, PSID, HRS, and WBNS respondent routes remain access-gated; the
+next valid advance is an authorized event-compatible acquisition or a retained
+subgroup/place reversal that changes an open arrow. Another aggregate exposure
+or settlement count does not qualify as end-to-end closure.
+
 ## The big end-to-end goal
 
 Build a durable, evidence-grounded system for discovering and testing recurring
