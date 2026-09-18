@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`168cee10b3486c3be988a7f67e94bf96fbe523ce7810a81c33ff6dae9df2e073`.
+`45f98b0dd619ce6e10d0be6ec384401561da25b79b37e1fd26c0d95251b0636f`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
