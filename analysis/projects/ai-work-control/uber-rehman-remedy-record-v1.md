@@ -1,7 +1,7 @@
 # Rehman v Portier: reactivation and lost-remuneration remedy record v1
 
 **Status:** primary adjudicated remedy record; receipt and practical exit remain open
-**Checked:** 2026-09-16
+**Checked:** 2026-09-18
 **Case:** Tanzeel Ur Rehman v Portier Pacific Pty Ltd, UDE2025/384
 **Machine record:** [Rehman remedy record](data/uber-rehman-remedy-record-v1.json)
 
@@ -21,13 +21,16 @@ durable protection.
 | 15 Dec 2025 | Uber Driver Platform account deactivated over an alleged failed background check | Primary FWC decision | The decision records the allegation; it does not make a general platform-risk estimate |
 | 30 Dec 2025 | Unfair-deactivation application filed | Primary FWC decision | This is a case route, not a denominator of all deactivated workers |
 | 20 Feb 2026 | Portier voluntarily reactivated access and communicated same terms/conditions and deemed regular work during the gap | Primary FWC decision | Communication is not the same as an enforceable order or proof of payment |
-| 20 Mar 2026 | FWC found the deactivation unfair and issued concurrent reactivation and lost-remuneration orders | Primary FWC decision | Formal remedy is observed; compliance, receipt, and durability are not |
-| 20 Mar 2026 | $7,096.96 gross lost remuneration ordered | FWC decision summary and primary decision | Ordered gross remuneration is not verified receipt, net income, compensation for expenses, or household recovery |
+| 20 Mar 2026 | FWC found the deactivation unfair and issued concurrent reactivation and lost-remuneration orders | Primary FWC decision and order | Formal remedy is observed; compliance, receipt, and durability are not |
+| 20 Mar 2026 | $7,096.96 gross lost remuneration ordered, payable within 14 days | Primary FWC order | Ordered gross remuneration and a deadline are not verified receipt, net income, compensation for expenses, or household recovery |
 
 The Commission’s calculation used an average weekly earnings method and
-treated the reactivation period as approximately 9.5 weeks. The record also
-notes that no evidence was submitted addressing expenses the worker would have
-incurred had he continued working.
+treated the reactivation period as approximately 9.5 weeks. The primary
+decision also records that the platform offered $5,500 in exchange for a
+settlement and discontinuance, that the matter did not resolve, and that no
+paid work had been performed after deactivation to the hearing on the evidence
+before the Commission. The record notes that no evidence was submitted
+addressing expenses the worker would have incurred had he continued working.
 
 ## Stage coding
 
@@ -37,6 +40,8 @@ worker route                          observed_application
 voluntary access restoration          observed_communication
 formal access restoration             observed_order
 lost-remuneration amount              observed_ordered_gross_amount
+payment deadline                      observed_ordered_14_day_deadline
+settlement offer                      observed_offer_not_accepted_as_payment
 payment receipt                       not_observed
 net earnings / avoided expenses       not_observed
 alternative platform or work          not_observed
@@ -77,13 +82,14 @@ unit, and generalizability explicit.
 ## Next decisive test
 
 Locate the issued order’s compliance or payment evidence and any worker-side
-record of receipt, post-order trips, expenses, or alternative work. A second
-case with a documented alternative or a verified non-payment outcome would
-provide the needed counterexample for practical exit.
+record of receipt, post-order trips, expenses, or alternative work. The order
+and deadline are now verified; the next missing observation is receipt or a
+bounded public-record follow-up, not another restatement of the order.
 
 ## Sources
 
 - [Primary FWC decision, [2026] FWC 953](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc953.pdf)
+- [Primary FWC reactivation and lost-pay order, PR797881](https://www.fwc.gov.au/document-view/media/download/846500)
 - [FWC Bulletin Volume 4/26](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm)
 - [FWC decisions and orders search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
 

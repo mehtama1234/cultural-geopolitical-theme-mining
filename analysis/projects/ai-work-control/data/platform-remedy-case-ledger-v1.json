@@ -333,13 +333,13 @@
       "id": "PR-018",
       "place": "Australia",
       "population": "Rehman and Portier Pacific",
-      "source_type": "Fair_Work_Commission_bulletin_and_primary_decision",
-      "decision_surface": ["background_check", "deactivation", "voluntary_reactivation", "lost_remuneration"],
+      "source_type": "Fair_Work_Commission_primary_decision_and_order",
+      "decision_surface": ["background_check", "deactivation", "voluntary_reactivation", "lost_remuneration", "settlement_offer", "payment_deadline"],
       "worker_route": "Platform reactivation; statutory unfair-deactivation application",
       "implementation_stage": "adjudicated_remedy_and_payment_order",
       "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "observed_adjudicated_lost_remuneration_ordered_not_compensation", "anti_retaliation": "not_observed"},
-      "evidence_strength": "high_for_decision_and_order_low_for_payment_receipt_durability_and_generalization",
-      "boundary": "The Commission recorded voluntary reactivation but still made a formal order, including $7,096.96 gross lost remuneration. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified."
+      "evidence_strength": "high_for_primary_decision_order_and_payment_deadline_low_for_payment_receipt_durability_and_generalization",
+      "boundary": "The primary decision records voluntary reactivation on 20 February 2026, no paid work reported during the deactivation gap to the hearing, and a $5,500 settlement offer that did not resolve the matter. The concurrent order requires reactivation if not already done and $7,096.96 gross lost remuneration within 14 days. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified."
     }
   ]
 }

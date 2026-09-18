@@ -1,7 +1,7 @@
 {
   "format": "uber-rehman-remedy-record-v1",
   "status": "primary_adjudicated_remedy_record",
-  "checked": "2026-09-16",
+  "checked": "2026-09-18",
   "case_id": "AU-REHMAN-UDE2025-384",
   "matter": "Tanzeel Ur Rehman v Portier Pacific Pty Ltd",
   "jurisdiction": "Australia",
@@ -17,6 +17,8 @@
     "application_route": "observed_application",
     "voluntary_access_restoration": "observed_communication",
     "formal_access_restoration": "observed_order",
+    "settlement_offer": {"value": 5500.0, "unit": "Australian dollars, offer reported in primary decision; not accepted payment", "evidence_status": "observed_offer"},
+    "paid_work_during_deactivation_gap_to_hearing": "not_observed_in_primary_decision",
     "lost_remuneration": {
       "value": 7096.96,
       "unit": "Australian dollars, gross, ordered lost remuneration",
@@ -40,8 +42,9 @@
     "lost_pay_method": "average weekly earnings method; approximately 9.5 weeks; no expense evidence submitted"
   },
   "boundary": "A formal reactivation and lost-remuneration order is not verified payment, net recovery, continued access, alternative work, durable protection, household security, trust change, or practical exit. The case is one Australian adjudicated matter and is not a population estimate.",
-  "sources": [
+    "sources": [
     "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc953.pdf",
+    "https://www.fwc.gov.au/document-view/media/download/846500",
     "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm",
     "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders"
   ]
