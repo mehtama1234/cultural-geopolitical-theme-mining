@@ -2344,3 +2344,11 @@ than 65,000 import examinations; the revised average response measure is 51%
 for FY2024 and 44.55% for FY2025. These are institutional and firm-reported
 performance surfaces, not exposure, notice, remedy-receipt, avoided-injury, or
 household-recovery rates.
+
+The HTOPS fraud lane is now deepened by the [April-to-June linked follow-up]
+(records/us-htops-fraud-loss-following-trust-2025.json). Among 6,564 exact
+`SCRAMID` links, the exposure-plus-loss group shows a sharply different later
+energy-bill context from exposure alone, while the loss/report/recovery cell
+has only 11 respondents and institution-specific coded responses move in
+different directions. This adds a same-respondent descriptive follow-up, not a
+fraud effect, trust-change estimate, verified recovery rate, or action path.

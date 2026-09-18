@@ -1447,3 +1447,11 @@ examinations, e-commerce takedowns, and revised response measures. It adds
 institutional capacity around the dated VRURC bridge, but does not convert
 agency activity or firm-reported correction into purchaser exposure, notice,
 receipt, avoided injury, or restored safety.
+
+The next fraud/recourse rotation deepens the [fraud-loss trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) with the April-to-June HTOPS linked
+follow-up. Exact `SCRAMID` linkage adds later energy-bill and institution-coded
+responses after retrospective exposure/loss/reporting groups, while preserving
+selective retention, missing dated incidents, no attrition-adjusted longitudinal
+weight, and the 11-person recovery cell. It strengthens timing and mixed
+institutional-response evidence without closing remedy, trust, action, or exit.
