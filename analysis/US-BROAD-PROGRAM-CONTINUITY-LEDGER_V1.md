@@ -1006,6 +1006,12 @@ flexible interviews, office access, age exemptions, and recertification
 mechanisms alter participation or procedural denial without proving employment
 or household-security gains. The evidence remains deliberately non-pooled and
 leaves notice, effort, appeal, adequacy, remedy, trust, and action open.
+The [Citibank servicing-remedy record](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json)
+then adds a named financial-interface event: account-state and notice errors
+could move cost into tax access, fees, capitalized interest, and payment
+demands before an ordered restitution and control route. It leaves individual
+receipt, adequacy, corrected account/tax position, credit, household recovery,
+trust, switching, and exit open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

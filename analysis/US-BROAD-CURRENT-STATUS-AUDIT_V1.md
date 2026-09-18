@@ -1766,6 +1766,14 @@ neither is worker-level restored opportunity or household recovery. This is a
 program-wide measurement boundary, not evidence that those outcomes did not
 occur.
 
+The [Citibank servicing-remedy record](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json)
+adds a named financial-interface mechanism to the same-case map: account and
+notice errors could shift tax access, fees, capitalized interest, and payment
+demands before CFPB restitution and control requirements. The enforcement
+record does not disclose category-level affected counts, individual receipt,
+adequacy, corrected tax/payment position, credit outcome, durable compliance,
+trust, switching, or exit.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage
