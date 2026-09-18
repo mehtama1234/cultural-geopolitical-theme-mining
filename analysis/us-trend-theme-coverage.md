@@ -1,6 +1,6 @@
 # US trend-theme coverage
 
-The current registry contains 317 machine-readable records and 1142 observations. This view groups them by the canonical 14-theme program inventory; counts are coverage controls, not evidence-quality scores.
+The current registry contains 317 machine-readable records and 1143 observations. This view groups them by the canonical 14-theme program inventory; counts are coverage controls, not evidence-quality scores.
 
 | Theme ID | Records | Observations | Evidence records |
 |---|---:|---:|---|

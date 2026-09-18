@@ -1,4 +1,4 @@
-# JASSM-ER delivery watchpoint — 2026-09-15
+# JASSM-ER delivery watchpoint — 2026-09-18
 
 The JASSM-ER geopolitical case was revisited against the current official
 Polish Ministry of National Defence page. The page still describes the May
@@ -21,6 +21,14 @@ This is a time-indexed non-observation of the next required arrow, not proof
 that no delivery has occurred. It means the current public source does not
 support promoting the case from procurement intent to realized capability.
 The earlier 2017 JASSM delivery remains a separate historical comparator.
+
+On 2026-09-18, the official Polish Ministry page and targeted Polish/US
+defense-release searches were checked again. The page still reports the
+2026–2030 planned window, and no identifier-bearing quantity, acceptance,
+fielding, training, or inventory event for the 2024 order was located. The
+direct page retrieval hashed to
+`sha256:76cc131fbdd435ecdabd7102f0a5475fc6dada1be30bc81c7434f249f1a2e7ca`.
+This extends the dated non-observation; it does not establish non-delivery.
 
 ```text
 US-approved/contracted capability

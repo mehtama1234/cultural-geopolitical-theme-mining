@@ -1,6 +1,6 @@
 # Poland’s JASSM-ER order still has a schedule, not a public delivery record
 
-**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-16
+**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-18
 
 ## The finding
 
@@ -21,6 +21,11 @@ window for the 2024 agreement. The current page capture hashes to
 `sha256:7c1b10d4365b6eed6274b239c1b9e957712e21dd507ed3a799c55f77768f5d52`.
 This remains a public-source non-observation, not proof that no delivery has
 occurred outside the reviewed releases.
+
+The 2026-09-18 recheck likewise found no new identifier-bearing realization
+event; the directly retrieved ministry page had SHA-256
+`76cc131fbdd435ecdabd7102f0a5475fc6dada1be30bc81c7434f249f1a2e7ca` and still
+reported the same planned window.
 
 This is a **public-source non-observation**, not a claim that no delivery has
 occurred. It means the reviewed official record does not support promoting the

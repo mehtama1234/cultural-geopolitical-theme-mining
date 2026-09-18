@@ -58,6 +58,22 @@
       "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
       "retrieval_hash": "sha256:7c1b10d4365b6eed6274b239c1b9e957712e21dd507ed3a799c55f77768f5d52",
       "status": "compared"
+    },
+    {
+      "period": "2026-09-18 current-source recheck",
+      "denominator": {"value": 1, "unit": "official Polish Ministry JASSM-ER page plus targeted Polish/US defense-release search", "value_type": "source_audit"},
+      "measures": {
+        "new_identifier_bearing_realization_event_found": {"value": false, "unit": "boolean in reviewed source set", "value_type": "nonobservation"},
+        "page_delivery_window": {"value": "2026–2030", "unit": "planned delivery years", "value_type": "reported_schedule"},
+        "lot_quantity_acceptance_fielding_training_inventory": {"value": "not stated", "unit": "reviewed official source set", "value_type": "open"}
+      },
+      "method": "Direct retrieval of the official Polish Ministry page plus targeted official-source search for an identifier-bearing lot, acceptance, delivery, fielding, training, or inventory event.",
+      "uncertainty": "The recheck cannot establish that no delivery occurred; it establishes only that no qualifying event was located in the reviewed public sources.",
+      "subgroup": "2024 Polish JASSM-ER order.",
+      "counterinterpretation": "A realization event may be unpublished, delayed, or labeled under a broader modernization or air-force program.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/jassm-er",
+      "retrieval_hash": "sha256:76cc131fbdd435ecdabd7102f0a5475fc6dada1be30bc81c7434f249f1a2e7ca",
+      "status": "compared"
     }
   ],
   "related_sources": [

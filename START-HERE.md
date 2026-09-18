@@ -14,7 +14,7 @@ is the durable control record for the long-term objective, active lanes,
 acquisition gates, and session handoffs.
 
 **Current operating checkpoint — 2026-09-18:** the atlas has 14 themes, 317
-machine-readable records, 1,142 observations, 103 source packets, 25 public
+machine-readable records, 1,143 observations, 103 source packets, 25 public
 episode events, and 2 validated episode arrows. The active depth objective is
 still a storage-light same-case episode route through alternatives,
 effort/payment, institutional response, remedy/recovery, meaning/trust, action,

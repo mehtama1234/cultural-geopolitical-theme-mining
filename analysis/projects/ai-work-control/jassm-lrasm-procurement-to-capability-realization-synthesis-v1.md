@@ -1,6 +1,6 @@
 # Procurement is not capability: the JASSM/LRASM realization clock
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-18
 **Status:** bounded procurement-to-capability synthesis; no leverage claim
 
 ## The question
@@ -25,7 +25,9 @@ possible sale / procurement agreement
 ```
 
 Only the earlier and middle stages are currently visible for the selected
-case. The missing later stages are not clerical details: they determine
+case. A 2026-09-18 official-source recheck still found no identifier-bearing
+Polish lot, acceptance, delivery, fielding, or training record. The missing
+later stages are not clerical details: they determine
 whether an announced investment has become an option that a state can use.
 
 ## What the evidence currently establishes
