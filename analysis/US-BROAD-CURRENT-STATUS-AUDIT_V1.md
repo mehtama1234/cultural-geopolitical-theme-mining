@@ -1944,6 +1944,14 @@ business/household recovery, trust, and exit are not. This extends the recourse
 map beyond driver refunds without turning administrator totals into recovery
 rates.
 
+The remedy-distribution comparison now also includes [Invitation Homes](records/us-ftc-invitation-homes-renter-refunds-2026.json)
+and [AT&T data-throttling](records/us-ftc-att-data-throttling-refunds-2026.json)
+programs. The former reports 444,131 checks totaling more than $47.2 million
+after alleged rental-fee and move-out-charge practices; the latter reports
+more than $5.6 million refunded and a reissue route after alleged throttling.
+These expand the currency comparison to housing and connectivity while leaving
+cash receipt, restored housing/service access, alternatives, and exit open.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage

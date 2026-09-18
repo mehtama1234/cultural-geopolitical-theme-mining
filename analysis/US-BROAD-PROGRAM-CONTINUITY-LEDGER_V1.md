@@ -1386,6 +1386,13 @@ marketing, while individual receipt, restored opportunity, alternatives,
 survival, trust, and exit remain open. The comparison extends the remedy
 implementation lane without pooling unlike claimant populations.
 
+The remedy-distribution lane is deepened by the [Invitation Homes and AT&T
+records](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Housing-fee and connectivity-
+quality cases add large administrator-reported distributions and a reissue
+route beside payment-processing and credit-marketing remedies. They do not
+close individual receipt, restored housing or connectivity, alternative access,
+continued use, trust, or practical exit; claimant populations remain separate.
+
 The next infrastructure/geopolitical rotation adds the [bulk-power security trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md).
 Executive Order 14421 and DOE's implementation RFI make federal authority,
 security risk surfaces, and stakeholder-input categories visible, but not
