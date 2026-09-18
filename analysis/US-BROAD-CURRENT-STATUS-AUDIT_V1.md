@@ -2352,3 +2352,11 @@ energy-bill context from exposure alone, while the loss/report/recovery cell
 has only 11 respondents and institution-specific coded responses move in
 different directions. This adds a same-respondent descriptive follow-up, not a
 fraud effect, trust-change estimate, verified recovery rate, or action path.
+
+The new [SNAP data-governance trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the DOJ, judicial, and Federal Register record into the canonical
+register. It makes federal-state data authority, database safeguards, judicial
+restraint, and public privacy comments visible as institutional stages before
+applicant outcomes. The sources do not establish fraud prevalence, applicant
+notice, benefit continuity, privacy exposure, chilling, remedy, trust, or
+political action; legal posture remains separate from household security.
