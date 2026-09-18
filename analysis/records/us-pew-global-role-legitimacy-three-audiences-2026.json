@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-global-role-legitimacy-three-audiences-2026",
+  "title": "U.S. global-role legitimacy separates foreign reception, domestic judgment, and partisan meaning",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "political_judgment_action", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "Pew 2026 Global Attitudes Survey and U.S. American Trends Panel supplement; country publics and US respondents kept separate",
+  "geography": "36 non-US countries and United States",
+  "observations": [
+    {
+      "period": "February 8-May 13, 2026; 36-country international survey",
+      "denominator": {"value": 42151, "unit": "adults surveyed across 36 countries", "value_type": "reported_sample"},
+      "measures": {"median_say_us_contributes_to_peace": {"value": 35, "unit": "percent across non-US countries", "value_type": "country_median"}, "median_say_us_does_not_contribute_to_peace": {"value": 63, "unit": "percent across non-US countries", "value_type": "country_median"}, "median_say_us_considers_other_countries_interests": {"value": 32, "unit": "percent across non-US countries", "value_type": "country_median"}},
+      "method": "Pew cross-country survey as reported in the retained official analysis.",
+      "uncertainty": "Equal-country median is not a population-weighted global estimate; public perception does not measure government behavior, alliance coordination, or capability.",
+      "subgroup": "Adults in the 36 surveyed non-US countries.",
+      "counterinterpretation": "Poor public reception can coexist with continued cooperation or material capability, and positive reception can coexist with disagreement.",
+      "retrieval_hash": "sha256:2dd60a0e6b72f5b9058a8af0a2801f7e2b11aca5762363f4e8c1629000e7b1e3",
+      "source_url": "https://www.pewresearch.org/global/2026/06/23/comparing-how-americans-and-others-around-the-world-view-the-united-states-global-role/",
+      "status": "reported"
+    },
+    {
+      "period": "March 23-29, 2026; U.S. American Trends Panel supplement",
+      "denominator": {"value": 3507, "unit": "US adults surveyed", "value_type": "reported_sample"},
+      "measures": {"say_us_contributes_to_peace": {"value": 57, "unit": "percent", "value_type": "reported_share"}, "say_us_respects_personal_freedoms": {"value": 57, "unit": "percent", "value_type": "reported_share"}, "say_us_interferes_in_other_countries": {"value": 83, "unit": "percent", "value_type": "reported_share"}, "say_us_should_consider_other_countries_interests_even_with_compromise": {"value": 65, "unit": "percent", "value_type": "reported_share"}},
+      "method": "Pew U.S. supplement as reported in the retained official analysis.",
+      "uncertainty": "Normative and descriptive judgments are not actual policy outcomes, later action, or validated capability assessments.",
+      "subgroup": "US adults; each question has its own valid response base.",
+      "counterinterpretation": "Shared judgment about interference does not imply shared approval or a common policy demand.",
+      "retrieval_hash": "sha256:2dd60a0e6b72f5b9058a8af0a2801f7e2b11aca5762363f4e8c1629000e7b1e3",
+      "source_url": "https://www.pewresearch.org/global/2026/06/23/comparing-how-americans-and-others-around-the-world-view-the-united-states-global-role/",
+      "status": "reported"
+    },
+    {
+      "period": "March 23-29, 2026; U.S. partisan comparison",
+      "denominator": {"value": 3507, "unit": "US adults supplement; partisan subgroups have separate valid bases", "value_type": "reported_sample"},
+      "measures": {"republican_peace_stability": {"value": 82, "unit": "percent", "value_type": "reported_share"}, "democratic_peace_stability": {"value": 35, "unit": "percent", "value_type": "reported_share"}, "republican_says_us_considers_foreign_interests": {"value": 70, "unit": "percent approximately", "value_type": "reported_share"}, "democratic_says_us_considers_foreign_interests": {"value": 24, "unit": "percent", "value_type": "reported_share"}, "republican_interference": {"value": 77, "unit": "percent", "value_type": "reported_share"}, "democratic_interference": {"value": 89, "unit": "percent", "value_type": "reported_share"}},
+      "method": "Pew partisan subgroup comparisons from the U.S. supplement.",
+      "uncertainty": "Partisan differences are descriptive and do not identify event attribution, media cause, stable cohort change, or later political action.",
+      "subgroup": "Republican/Republican-leaning and Democratic/Democratic-leaning US adults.",
+      "counterinterpretation": "Partisans can disagree about legitimacy while sharing a descriptive judgment that the US is highly interventionist.",
+      "retrieval_hash": "sha256:2dd60a0e6b72f5b9058a8af0a2801f7e2b11aca5762363f4e8c1629000e7b1e3",
+      "source_url": "https://www.pewresearch.org/global/2026/06/23/comparing-how-americans-and-others-around-the-world-view-the-united-states-global-role/",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md", "claim": "Pew survey frames, global and domestic results, and interpretation limits.", "status": "local-source-note"},
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-085.md", "claim": "Material capacity and leverage clocks remain separate from legitimacy perception.", "status": "related-finding"},
+    {"source_url": "../../records/us-material-to-trust-action-bridge-2022-2025.json", "claim": "Domestic material-to-trust/action records provide a separate political-meaning comparison.", "status": "related-record"}
+  ],
+  "boundary": "This is a deliberately non-pooled legitimacy synthesis. It distinguishes foreign reception, domestic judgment, and partisan meaning, but does not estimate a causal policy effect, international reputation trend, alliance response, state capability, geopolitical leverage, or political action from the survey. An event-country-party-year behavior ledger remains open."
+}

@@ -550,7 +550,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 306 machine-readable records, 1091 observations,
+The current registry contains 307 machine-readable records, 1094 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1431,7 +1431,7 @@ transport, health, or social time—remain separate. The next test is a
 same-family care episode with alternatives, support receipt, schedule control,
 and later stability; the comparison is not a pooled family-burden estimate.
 
-The [domestic capacity/autonomy realization synthesis](projects/ai-work-control/findings/ai-work-control-084.md)
+The [domestic capacity/autonomy realization synthesis](projects/ai-work-control/findings/ai-work-control-085.md)
 adds the material-input layer below infrastructure and procurement. Critical
 minerals, CHIPS awards and milestones, data-center/grid records, and JASSM/LRASM
 orders show separate commitment, capacity, operating, replaceability, and
@@ -1441,3 +1441,14 @@ switching remain unresolved. The next test is one identifier-bearing
 mineral/application or procurement event followed through output, local
 incidence, substitute qualification, and an observed switch or external
 response; no autonomy or leverage score is inferred.
+
+The [three-audience legitimacy synthesis](projects/ai-work-control/findings/ai-work-control-093.md)
+adds the interpretation layer above material capability. Pew separates foreign
+public reception, Americans' national judgment, and domestic partisan meaning:
+foreign publics were less likely than Americans to say the US contributes to
+peace and stability, while Republicans and Democrats differed sharply inside
+the US. The shared judgment that the US interferes abroad shows that common
+descriptive perception can coexist with divergent legitimacy evaluations. The
+next test is an event-country-party-year ledger linking a dated policy event to
+cooperation, refusal, market/cultural response, or institutional action; polling
+alone is not geopolitical leverage.
