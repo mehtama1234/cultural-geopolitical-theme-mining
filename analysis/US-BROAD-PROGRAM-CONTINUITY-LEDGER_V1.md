@@ -1886,6 +1886,13 @@ attribution, alliance response, and household or social-program incidence;
 preserve estimated spending versus actual delivery, usable capability,
 replaceability, interoperability, and non-realized cases.
 
+The procurement-realization rotation now links the [Poland JASSM-ER
+delivery-boundary record](records/us-poland-jassm-er-delivery-nonobservation-2026.json)
+into the matrix. It preserves the 2024 agreement, conflicting schedule
+vintages, and missing public delivery/acceptance event; the next test remains an
+identifier-bearing order/lot ledger through delivery, acceptance, training,
+inventory, use, maintenance, and external response.
+
 The next AI-capability rotation promotes the [World Bank AI capability and
 governance trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The World Development
 Report 2026 contributes an adopt/adapt/advance framework, local-complement

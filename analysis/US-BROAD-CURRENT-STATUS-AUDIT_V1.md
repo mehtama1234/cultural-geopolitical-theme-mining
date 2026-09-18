@@ -565,6 +565,10 @@ records the 2026-09-16 official-source recheck and keeps this a public-source
 non-observation: a scheduled agreement is not promoted to delivered or
 accepted capability without a dated quantity, fielding, training, or inventory
 event.
+The [Poland JASSM-ER delivery-boundary record](records/us-poland-jassm-er-delivery-nonobservation-2026.json)
+is now linked directly in the evidence matrix, preserving the conflicting
+schedule vintages and the distinction between non-observation and proof of
+non-occurrence.
 The related [NIK documentation-control finding](projects/ai-work-control/findings/ai-work-control-082.md)
 and [FMS delivery/settlement timing finding](projects/ai-work-control/findings/ai-work-control-083.md)
 add a control counterexample: audited production or settlement language and
