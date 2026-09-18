@@ -972,6 +972,11 @@ then places social connection beside institution-specific confidence while
 preserving March and July as separate cross-sectional releases. It adds a
 cross-scale measurement bridge, not a pooled social-isolation or distrust
 estimate.
+The [HTOPS fraud-loss follow-up trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+then adds an exact same-respondent exposure-to-loss-to-later-context route.
+It strengthens the distinction between exposure, realized burden, reporting,
+reported recovery, and restored security, while leaving verified remedy,
+durability, alternatives, trust change, switching, and exit open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

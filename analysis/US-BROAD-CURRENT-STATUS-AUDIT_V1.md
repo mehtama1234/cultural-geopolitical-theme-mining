@@ -1910,6 +1910,16 @@ stages until receipt, durability, alternatives, protected outcomes, and later
 behavior are observed. The next executable test is one lawful small ledger or
 valid panel that supplies the missing alternative and verified outcome fields.
 
+The [HTOPS fraud-loss follow-up](projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md)
+adds the strongest retained same-respondent event-stage boundary. Exact
+`SCRAMID` linkage follows retrospective exposure into reported loss, reporting
+or recovery, and later food, energy, work-loss, and institutional context.
+Exposure alone is not equivalent to realized loss; reported recovery is not
+verified payment or restored security; and the 11-person recovery subgroup is
+not a stable estimate. The route advances event timing and conversion logic
+while leaving actor, dated incident, alternatives, remedy receipt, durability,
+trust change, switching, and exit open.
+
 The [2025 SHED banking substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
 adds a financial-access counterexample to the same boundary. Formal account
 ownership is income-patterned, unbanked adults use nonbank transaction routes
