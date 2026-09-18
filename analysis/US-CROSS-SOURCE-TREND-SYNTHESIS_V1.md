@@ -550,7 +550,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 307 machine-readable records, 1094 observations,
+The current registry contains 308 machine-readable records, 1097 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -707,6 +707,15 @@ costs, and 16.19 million received a disconnect or delivery-stop notice. The
 categories can overlap and do not establish a price cause, completed shutoff,
 assistance response, or health effect; they do show why service continuity,
 payment threat, substitution, equipment, and remedy must remain separate.
+
+The [energy household-consequence/public-restoration synthesis](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-001.md)
+connects that EIA surface to LIHEAP reach/restoration and the retained SIPP
+utility-to-following-outcome screen. It makes the missing middle explicit:
+household sacrifice or notice is not verified assistance, program reach is not
+prevention, restoration is not durable stability, and following hardship is not
+a causal bill effect. The next test is a dated household bill or notice linked
+to assistance, reconnection, next-bill status, and later recovery or action;
+the three current sources remain non-pooled.
 
 The [GAO 2026 FEMA disaster-assistance delivery and capacity layer](projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
 adds the institutional-response stage. FEMA provided over $3 billion to 1.2

@@ -11,6 +11,7 @@ When a household needs energy help more than once, is the cause a short cash gap
 - [Repeated help is a signal, not yet a diagnosis](../../findings/us-repeat-energy-crises-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-repeat-energy-crises-matched-evidence-001.html)
 - [Source search record](source-search-2026-09-11.md)
+- [Energy insecurity: household sacrifice versus public restoration](findings/us-repeat-energy-crises-001.md)
 
 ## Decision rule
 

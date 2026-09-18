@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-energy-household-consequence-public-restoration-2024-2026",
+  "title": "Energy insecurity separates household sacrifice, public reach, restoration, and durable recovery",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "time_hidden_price", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action", "care_health_reproduction"],
+  "source_unit": "Deliberately non-pooled comparison of EIA RECS housing-unit consequences, LIHEAP program aggregates, and SIPP utility-to-following-outcome person-month records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; EIA Residential Energy Consumption Survey household energy insecurity",
+      "denominator": {"value": 132540000, "unit": "primary-residence housing units", "value_type": "reported_housing_unit_frame"},
+      "measures": {"any_energy_insecurity": {"value": 43560000, "unit": "homes", "value_type": "reported_count"}, "food_or_medicine_tradeoff": {"value": 32890000, "unit": "homes", "value_type": "reported_count"}, "unhealthy_temperature": {"value": 17550000, "unit": "homes", "value_type": "reported_count"}, "disconnect_or_delivery_stop_notice": {"value": 16190000, "unit": "homes", "value_type": "reported_count"}},
+      "method": "EIA RECS Table HC11.1 as summarized in the retained local layer.",
+      "uncertainty": "Conditions can overlap and are not sequential; a notice is not a completed shutoff and the table does not identify duration, cause, or remedy.",
+      "subgroup": "Primary-residence housing units with published income, children, tenure, age, and race/ethnicity cells.",
+      "counterinterpretation": "Some households may preserve service through assistance, payment, borrowing, informal support, or a change in use.",
+      "retrieval_hash": "sha256:6c9e4d3c412602b75d13b0f444d3769af6bcf1c31b6099ae2ae932efdb70cae8",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf",
+      "status": "reported"
+    },
+    {
+      "period": "FY2024; LIHEAP reach and restoration aggregates",
+      "denominator": {"value": null, "unit": "HHS/ACF annual-report aggregate; household-level denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {"liheap_reach": {"value": "nearly 6 million", "unit": "individuals and families helped", "value_type": "reported_bound"}, "heating_assistance_households": {"value": 5000000, "unit": "households", "value_type": "reported_count"}, "restored_home_energy_instances": {"value": 279000, "unit": "reported restoration instances", "value_type": "reported_count"}},
+      "method": "Official HHS/ACF FY2024 LIHEAP annual-report summary.",
+      "uncertainty": "Reach and restoration are separate program endpoints; no benefit amount, timing, prevention denominator, restoration duration, next-bill status, or repeat-crisis linkage is disclosed.",
+      "subgroup": "LIHEAP-assisted individuals, families, heating-assistance households, and reported restoration instances.",
+      "counterinterpretation": "Restoration can interrupt an immediate loss while arrears, equipment, or repeat affordability problems persist.",
+      "retrieval_hash": "sha256:e5f56f4f71f58a4540a239b2b9c8966a370e253f08767c13e52ff3adf9fbd233",
+      "source_url": "https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights",
+      "status": "reported"
+    },
+    {
+      "period": "2024; SIPP utility difficulty followed by food, housing, and resource screens",
+      "denominator": {"value": 1, "unit": "same-person monthly transition records; outcome cells retain separate valid denominators", "value_type": "non_pooled_transition_screen"},
+      "measures": {"utility_difficulty_to_following_food_security": {"value": "observed in retained transition record", "unit": "following-month descriptive screen", "value_type": "reported_transition"}, "utility_difficulty_to_following_housing_or_resource_outcome": {"value": "observed in retained transition record", "unit": "following-month descriptive screen", "value_type": "reported_transition"}},
+      "method": "Existing SIPP November-to-December utility/care/following-outcome bridge with replicate-weight checks.",
+      "uncertainty": "Reference-period fields may repeat across months; no dated bill, assistance receipt, provider, shutoff, or causal counterfactual is observed.",
+      "subgroup": "Selected SIPP person-month pairs with utility difficulty and valid following outcome fields.",
+      "counterinterpretation": "Utility difficulty may reflect income, housing, health, household composition, equipment, or reporting changes; following hardship is not proof of utility causation.",
+      "retrieval_hash": "sha256:8ab6abd1e9f3558b2ef724fc70fcfcd7a9ce65e4dddd2cf0984ac1a9e07473b8",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-repeat-energy-crises/eia-2024-household-energy-insecurity-consequence-layer-v1.md", "claim": "EIA household consequences, service threats, sacrifice, and equipment boundaries.", "status": "local-source-note"},
+    {"source_url": "../../records/us-liheap-reach-restoration-fy2024.json", "claim": "LIHEAP reach and reported restoration remain separate public-system endpoints.", "status": "related-record"},
+    {"source_url": "../../records/us-sipp-utility-care-following-outcomes-2024.json", "claim": "SIPP provides the utility-to-following-outcome descriptive transition screen.", "status": "related-record"}
+  ],
+  "boundary": "This deliberately non-pooled synthesis separates household energy consequences, public program reach/restoration, and SIPP following outcomes. It does not estimate a causal price effect, LIHEAP take-up or restoration rate, durable recovery, health effect, trust change, or political action. A dated household bill/notice linked to assistance, reconnection, next bill, and later outcome remains open."
+}

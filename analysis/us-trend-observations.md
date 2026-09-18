@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-307 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+308 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -397,6 +397,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Federal-state control of SNAP applicant data becomes a governance and accountability conflict | voice, cost | public_systems_feedback, political_judgment_action, infrastructure_technology_dependency, geopolitical_state_consequences, trust_identity_meaning | US Department of Justice press release describing federal lawsuits against four state SNAP agencies | United States; Kentucky, Pennsylvania, Michigan, Minnesota, and other state SNAP agencies | 1 | 2026-06-26 DOJ lawsuit announcement; updated 2026-06-29 | reported | [open](records/us-doj-snap-data-access-federal-state-conflict-2026.json) |
 
 **Boundary:** This is a dated federal-state information-governance and enforcement event. It does not establish fraud or overpayment prevalence, state administrative performance, applicant privacy risk, household benefit loss, remedy, trust, political action, or causal differences between data-sharing positions. Treat agency statements as reported claims until underlying data and court outcomes are available.
+
+| Energy insecurity separates household sacrifice, public reach, restoration, and durable recovery | energy, cost, time, voice | household_room_consumption, time_hidden_price, housing_place_mobility, unequal_exposure_status, public_systems_feedback, political_judgment_action, care_health_reproduction | Deliberately non-pooled comparison of EIA RECS housing-unit consequences, LIHEAP program aggregates, and SIPP utility-to-following-outcome person-month records | United States | 3 | 2024; EIA Residential Energy Consumption Survey household energy insecurity; FY2024; LIHEAP reach and restoration aggregates; 2024; SIPP utility difficulty followed by food, housing, and resource screens | compared; reported | [open](records/us-energy-household-consequence-public-restoration-2024-2026.json) |
+
+**Boundary:** This deliberately non-pooled synthesis separates household energy consequences, public program reach/restoration, and SIPP following outcomes. It does not estimate a causal price effect, LIHEAP take-up or restoration rate, durable recovery, health effect, trust change, or political action. A dated household bill/notice linked to assistance, reconnection, next bill, and later outcome remains open.
 
 | Energy efficiency turns a public label into a household-cost, market, and climate-choice infrastructure | cost, energy, voice | household_room_consumption, trust_identity_meaning, firm_sector_market_power, public_systems_feedback | EPA ENERGY STAR 2023 annual overview, program impacts, and 2024 Most Efficient criteria | United States; national program and consumer/product market frame | 3 | 2022–2023 program overview; household awareness and purchasing; 1992–2023; program-reported cumulative impact and cost-saving frame; 2024; ENERGY STAR Most Efficient criteria for selected residential products | reported | [open](records/us-energy-star-consumer-efficiency-program-2023-2024.json) |
 
