@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,275 local Markdown links and 649 published HTML pages pass link
+families; 1,276 local Markdown links and 650 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1836,6 +1836,14 @@ parent-to-self progress, child expectations, nativity differences, and
 open-ended meanings. The survey does not establish income/wealth mobility,
 housing access, legal-status effects, belonging, trust, or political action;
 progress, attainability, and material outcomes remain separate.
+
+The [working-class identity finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-037.md)
+adds a status-meaning layer between work/material position and political voice.
+Pew reports a rise from 54% to 60% in adults saying working class describes
+them well, with gradients by party, income, education, financial stress, and
+work type. The label is not objective class position, class consciousness,
+material decline, or action; same-worker identity, respect, employer
+treatment, trust, organizing, and voting remain open.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
