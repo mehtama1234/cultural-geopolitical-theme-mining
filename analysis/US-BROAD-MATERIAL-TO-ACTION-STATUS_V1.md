@@ -187,6 +187,24 @@ and order gross lost remuneration after voluntary reactivation, while payment
 receipt, alternatives, net recovery, durability, and practical exit remain
 unobserved. The case is comparative Australian evidence, not a US estimate.
 
+## Latest event-compatible additions
+
+The current rotation now has four additional detailed cases that advance the
+institutional middle without closing the final meaning/action or recovery
+arrows:
+
+| Case | Unit and stage advanced | Still open |
+|---|---|---|
+| [HTOPS fraud/loss follow-up](projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md) | Same respondent: retrospective exposure → reported loss/report/recovery → later household context | Dated incident, verified remedy, durable security, causal trust/action, switching, exit |
+| [CPSC VRURC recall bridge](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md) | Recall key: hazard → notice/replacement → firm-reported correction snapshot | Purchaser reach, replacement receipt, safe restoration, residual cost, trust, repurchase, exit |
+| [AI work-time/control synthesis](projects/ai-work-control/findings/ai-work-control-094.md) | Non-pooled worker/firm studies: assigned access or management tool → time/output/monitoring movement | Who controls saved capacity, worker appeal, pay, household time, durable enforcement, exit |
+| [New York DFS housing recourse](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md) | State administrative route: insurance complaint → closure/recovery label → availability/policy-exit reporting | Claim adequacy, repair, coverage retention, debt, move/stay, trust, political action |
+
+These cases are deliberately not pooled. Their value is structural: they show
+that a broad end-to-end program can advance by closing different intermediate
+stages while preserving the exact unit, denominator, clock, and missing final
+outcome for each lane.
+
 The follow-on implementation audit now includes an exact public-record recheck
 of Bandameeda's `UDE2025/62` matter and `PR795363` order. The public record
 establishes a `$12,126.31` lost-remuneration obligation payable within 35 days,
