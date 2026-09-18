@@ -2520,3 +2520,10 @@ pandemic support cycle and sharply patterned by children, income, race/ethnicity
 disability, and age. The 2025 methodology change, cross-sectional design, and
 missing benefit, health, and recovery linkage prevent a causal policy or
 same-household persistence claim.
+
+The new [UNDP AI agency trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds a
+cross-country perception layer to the AI/work and legitimacy lanes. It keeps
+weekly use, perceived control, confidence in government AI use, and confidence
+that AI serves people’s interests separate. These measures do not establish
+actual control, service quality, productivity, governance performance, or
+causal trust change; country and item-specific survey boundaries remain open.

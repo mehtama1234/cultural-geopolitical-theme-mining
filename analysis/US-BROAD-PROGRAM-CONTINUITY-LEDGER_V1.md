@@ -1650,3 +1650,12 @@ food-security status, price/work context, public/charitable/informal route,
 food quantity and quality, health, care/schooling, repeated need, correction,
 recovery, trust, and later stability; preserve methodology, subgroup, and
 household/person boundaries.
+
+The next AI-agency rotation promotes the [UNDP AI agency trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The UNDP survey adds country-comparable
+signals for weekly use, perceived control, government confidence, and design
+legitimacy beside the worker-control and public-meaning layers. The next test
+is a same-person ledger joining disclosed AI exposure, task/service use,
+privacy, human review, correction, institutional response, continued use or
+avoidance, trust, and later work or civic action; preserve item, country, and
+confidence-versus-performance boundaries.
