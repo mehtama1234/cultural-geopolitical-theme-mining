@@ -3,7 +3,7 @@
 **Checked:** 2026-09-17
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 308 canonical records, 1097 observations, 14 program
+**Registry checkpoint:** 309 canonical records, 1100 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),
@@ -37,6 +37,7 @@ follows a distinct mechanism while stating its evidence boundary:
 - [Domestic capacity does not become autonomy at the announcement stage](analysis/projects/ai-work-control/findings/ai-work-control-085.md): critical minerals, CHIPS, data centers, defense procurement, qualified output, replaceability, and state leverage.
 - [Legitimacy has three audiences before it becomes geopolitical power](analysis/projects/ai-work-control/findings/ai-work-control-093.md): foreign public reception, American domestic judgment, partisan meaning, and the missing behavior bridge.
 - [Energy insecurity shows the gap between household sacrifice and public restoration](analysis/projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-001.md): food/medicine tradeoffs, service threats, LIHEAP reach, restoration, and durable recovery.
+- [Fraud exposure becomes a household event only when loss is realized](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md): same-respondent exposure, realized loss, reporting, sparse recovery, later household strain, and the open remedy/exit boundary.
 - [Practical exit observability audit](analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md): remedies across benefits, platforms, fraud, finance, insurance, local services, and product recalls.
 
 The common question across these deep dives is: what is actually protected,

@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-htops-fraud-loss-followup-2025",
+  "title": "Retrospective fraud exposure is not equivalent to realized loss or restored household security",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "April-to-June 2025 HTOPS same-respondent public-use intersection linked by SCRAMID",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 15–29 to June 16–25, 2025; reported exposure versus no exposure",
+      "denominator": {"value": 6549, "unit": "linked respondents with selected valid June outcomes; group-specific valid counts vary", "value_type": "same_respondent_followup"},
+      "measures": {"not_exposed_food_insufficiency": {"value": 9.3702, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "exposed_food_insufficiency": {"value": 6.121, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "not_exposed_energy_nonpayment": {"value": 16.8375, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "exposed_energy_nonpayment": {"value": 10.6566, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "not_exposed_job_loss": {"value": 9.2152, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "exposed_job_loss": {"value": 6.8622, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}},
+      "method": "Exact SCRAMID intersection of April and June public-use files; apply April PWEIGHT to linked respondents and compare valid June outcomes.",
+      "uncertainty": "Retrospective prior-12-month exposure is not dated; linked retention is selective; April weights are not documented as attrition-adjusted longitudinal weights; no causal estimate or replicate variance is claimed.",
+      "subgroup": "Respondents reporting scam exposure versus no exposure in April; selected valid June outcome universes.",
+      "counterinterpretation": "Exposure may differ by prior financial security, age, health, reporting propensity, and unmeasured events; the lower exposure-group outcomes do not show protection.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey.html",
+      "retrieval_hash": "followup_json:sha256:49ec10fccf87732a4005340458b030c8462ffa9f251b7bf7d0170f59b8e8e828; raw_april:sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; raw_june:sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+      "status": "compared"
+    },
+    {
+      "period": "April 15–29 to June 16–25, 2025; exposure with reported loss versus no exposure",
+      "denominator": {"value": 184, "unit": "linked respondents reporting exposure and monetary loss; selected valid June outcomes", "value_type": "same_respondent_followup_sparse_subgroup"},
+      "measures": {"food_insufficiency": {"value": 23.8158, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "unable_to_pay_energy_bill": {"value": 43.8064, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "recent_household_job_loss": {"value": 8.3057, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}},
+      "method": "Within the same linked intersection, classify reported exposure plus monetary loss and follow valid June household outcomes.",
+      "uncertainty": "Loss is retrospective and not amount- or incident-date verified; this selected subgroup is not matched or randomized and cannot establish that loss caused June outcomes.",
+      "subgroup": "April-exposed respondents reporting monetary loss; unweighted n=184 before outcome-specific missingness.",
+      "counterinterpretation": "The group may contain pre-existing material hardship or other concurrent shocks; job loss is not monotonic with food or energy strain.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey.html",
+      "retrieval_hash": "followup_json:sha256:49ec10fccf87732a4005340458b030c8462ffa9f251b7bf7d0170f59b8e8e828; counterexample_json:sha256:355bce48805fc22483dac3a0a8da1d21f009159a833346c5d27975bb5fd05797",
+      "status": "compared"
+    },
+    {
+      "period": "April 15–29 to June 16–25, 2025; loss, report, and reported agency recovery",
+      "denominator": {"value": 11, "unit": "linked respondents reporting monetary loss, agency report, and recovery; all selected June outcomes", "value_type": "same_respondent_followup_sparse_subgroup"},
+      "measures": {"food_insufficiency": {"value": 26.5658, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "unable_to_pay_energy_bill": {"value": 78.8011, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "recent_household_job_loss": {"value": 26.025, "unit": "percent; April PWEIGHT weighted share", "value_type": "weighted_share"}, "statistics_policy_trust_code_1": {"value": 90.2759, "unit": "percent; survey code-1 screen", "value_type": "coded_response_share"}},
+      "method": "Retain the smallest nested group in the linked April-to-June screen and report descriptive weighted shares without subgroup inference.",
+      "uncertainty": "Unweighted n=11; reported recovery is not an administrative receipt, amount, date, or durable restoration; no reliable population estimate or causal interpretation is claimed.",
+      "subgroup": "Respondents reporting loss, agency report, and recovery in April; June outcomes are later survey context.",
+      "counterinterpretation": "Recovery may be partial, delayed, or unrelated to June hardship; sparse-cell values are retained only to define the next measurement requirement.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey.html",
+      "retrieval_hash": "followup_json:sha256:49ec10fccf87732a4005340458b030c8462ffa9f251b7bf7d0170f59b8e8e828",
+      "status": "open"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md", "claim": "Detailed finding explains the exposure, loss, reporting, recovery, household, and institutional boundaries.", "status": "detailed-finding"},
+    {"source_url": "../../projects/us-cost-trust-politics/data/htops-material-vs-fraud-counterexample-2025.json", "claim": "Parallel material-pressure screen supplies the nonpooled counterexample.", "status": "counterexample"}
+  ],
+  "boundary": "This is a same-respondent descriptive follow-up. It does not establish a dated fraud effect, verified remedy, restored security, trust change, political action, switching, exit, or causality. Exposure and loss are retrospective, linked retention is selective, and the recovery subgroup has 11 respondents."
+}

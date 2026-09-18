@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-308 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+309 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -589,6 +589,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Retrospective fraud loss is followed by mixed material and institutional responses in a linked HTOPS panel | cost, voice | household_room_consumption, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, public_systems_feedback | April-to-June 2025 Census HTOPS public-use respondents linked by exact SCRAMID; same-respondent descriptive follow-up, not a representative incident sample or attrition-adjusted causal panel | United States HTOPS/HPS public-use panel | 1 | April 15–29 to June 16–25, 2025; retrospective fraud/loss groups followed to later material and institutional responses | compared | [open](records/us-htops-fraud-loss-following-trust-2025.json) |
 
 **Boundary:** This is an associative same-respondent follow-up, not a causal fraud effect or political-action estimate. It does not establish a dated incident, actor responsibility, trust change, remedy receipt, recovery, switching, or exit.
+
+| Retrospective fraud exposure is not equivalent to realized loss or restored household security | cost, voice | consumer_power_recourse, household_room_consumption, unequal_exposure_status, public_systems_feedback, trust_identity_meaning, political_judgment_action | April-to-June 2025 HTOPS same-respondent public-use intersection linked by SCRAMID | United States | 3 | April 15–29 to June 16–25, 2025; reported exposure versus no exposure; April 15–29 to June 16–25, 2025; exposure with reported loss versus no exposure; April 15–29 to June 16–25, 2025; loss, report, and reported agency recovery | boundary_signal; compared | [open](records/us-htops-fraud-loss-followup-2025.json) |
+
+**Boundary:** This is a same-respondent descriptive follow-up. It does not establish a dated fraud effect, verified remedy, restored security, trust change, political action, switching, exit, or causality. Exposure and loss are retrospective, linked retention is selective, and the recovery subgroup has 11 respondents.
 
 | The linked material-to-Congress-confidence path varies by income and race/ethnicity | cost, voice, work | household_room_consumption, unequal_exposure_status, trust_identity_meaning, political_judgment_action | US Census HTOPS April and June 2025 linked public-use respondents; subgroup cross-lags among retained SCRAMID matches | United States | 1 | April 15–29 to June 16–25, 2025; subgroup cross-lag | compared | [open](records/us-htops-material-trust-subgroups-2025.json) |
 
