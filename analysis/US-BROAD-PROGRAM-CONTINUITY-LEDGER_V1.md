@@ -1068,6 +1068,13 @@ Pew's 2026 identity measure crosses income, education, party, financial stress,
 and work type, showing why “working class” cannot serve as a hidden composite
 class variable. The next test is a same-worker route from job quality and
 respect through identity, attribution, voice, organizing, and political action.
+
+The next legitimacy rotation adds the [institutional-legitimacy finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-038.md).
+Gallup's near-historic-low average confidence coexists with a sharp small-
+business/large-technology contrast and partisan institution judgments. This
+keeps capability, dependence, confidence, performance, use, contestation, and
+action on separate clocks; the next test is a named encounter-to-response
+ledger.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
