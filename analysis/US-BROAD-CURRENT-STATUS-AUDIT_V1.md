@@ -2584,3 +2584,11 @@ and depression improved but objective physical-health and labor outcomes did not
 show the same movement. The evidence is historical and local to low-income
 uninsured adults in Oregon; enrollment, network fit, dated bills, treatment
 completion, household adaptation, trust, and action remain open.
+
+The new [CES medical-affordability political-participation trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds a same-respondent material-to-action
+screen. The 2018 and 2020 CES crisis modules show different turnout, official
+contact, protest, donation, and attribution patterns among respondents reporting
+medical-expense hardship. These are exploratory weighted descriptive contrasts,
+not design-based causal estimates; the extracts do not identify a dated bill,
+stable blame, remedy, trust change, or later household recovery.

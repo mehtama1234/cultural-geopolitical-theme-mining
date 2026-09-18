@@ -1726,3 +1726,14 @@ network access, dated need and bill, care completion, payment/collections,
 health, work/care time, household adaptation, correction, trust, and action;
 preserve historical Oregon, lottery-selection, enrollment, and outcome-horizon
 boundaries.
+
+The next material-to-action rotation promotes the [CES medical-affordability
+political-participation trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The CES
+crisis-module record adds same-respondent medical-expense hardship, attribution,
+turnout, official contact, protest, donation/campaign activity, and year-specific
+exploratory models beside the CCES, ANES, HTOPS, and material-pressure layers.
+The next test is a dated bill or care-barrier ledger joining responsible actor,
+information, contact/protest, policy demand, institutional response, remedy,
+later health and household room, trust, turnout, vote, organizing, switching,
+or exit; preserve multiple-response attribution, sparse cells, survey weights,
+and the non-causal boundary.
