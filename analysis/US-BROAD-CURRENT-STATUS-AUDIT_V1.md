@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,273 local Markdown links and 647 published HTML pages pass link
+families; 1,274 local Markdown links and 648 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1819,6 +1819,15 @@ heating-assistance households, and 279,000 restoration instances; SIPP adds a
 non-pooled following-month screen. These endpoints do not establish take-up,
 receipt, durable affordability, next-bill status, repeat-crisis prevention, or
 causal utility effects.
+
+The [capacity-realization finding](projects/ai-work-control/findings/ai-work-control-097.md)
+adds a cross-domain realization boundary to the state/geopolitical lane. It
+places mineral dependence, CHIPS disbursement and milestones, data-center/grid
+capacity, and defense procurement on separate commitment-to-operation clocks.
+Funding, capacity, and planned delivery do not establish output,
+replaceability, domestic autonomy, or leverage; identifier-bearing production,
+customer/partner use, substitute qualification, maintenance, and external
+response remain open.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:

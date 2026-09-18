@@ -1049,6 +1049,13 @@ following-month screen now sit together as a deliberately non-pooled route.
 This makes sacrifice, public reach, immediate restoration, and durable recovery
 distinct clocks; dated bills, receipt, reconnection, next-bill affordability,
 repeat crisis, and later trust/action remain open.
+
+The next state/geopolitical rotation adds the [capacity-realization finding](projects/ai-work-control/findings/ai-work-control-097.md).
+Critical minerals, CHIPS awards, data-center/grid capacity, and defense
+procurement now share a formal realization-stage comparison without being
+pooled. Authorization, funding, milestones, operation, replaceability,
+affected-actor response, and leverage remain separate clocks; the next test is
+an identifier-bearing production-to-use and response ledger.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
