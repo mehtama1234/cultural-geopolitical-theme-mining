@@ -124,6 +124,24 @@
       "source_url": "https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK",
       "retrieval_hash": "artifact:sha256:a25ab9414b189533dc4f4add96527975ab590a853d2799c1803b9e0e62699195",
       "status": "reported"
+    },
+    {
+      "period": "2026-08-26 official response to Interpelacja nr 18336; checked 2026-09-18",
+      "denominator": {"value": 1, "unit": "official Polish Ministry of State Assets response to parliamentary interpellation", "value_type": "documented ministerial response"},
+      "measures": {
+        "agreement_stage": {"value": "the 2026-07-06 document is characterized as a cooperation agreement appropriate to the current development, analysis, and work stage", "unit": "official ministerial characterization", "value_type": "reported_stage"},
+        "demand_condition": {"value": "detailed production, licensing, and technology-transfer obligations depend on confirmation of demand by the Polish Armed Forces", "unit": "reported implementation condition", "value_type": "reported_condition"},
+        "production_volume_condition": {"value": "the agreement's defined production volume is directly tied to an order from, among others, the Polish Armed Forces", "unit": "reported production-demand linkage", "value_type": "reported_condition"},
+        "working_group_status": {"value": "joint working groups had begun preparing technical, organizational, production, technology-transfer, and supply-chain arrangements", "unit": "reported implementation activity", "value_type": "reported_event"},
+        "first_phase_scope": {"value": "assembly and servicing by PGZ companies, including WZL-2; gradual Polish and European component localization is described for later phases", "unit": "reported staged implementation scope", "value_type": "reported_plan"}
+      },
+      "method": "Bounded extraction from the official Sejm metadata and ministerial response to Interpelacja nr 18336, with a normalized response note retained in the project data directory. The response is treated as direct official evidence of implementation-stage terms and conditions, not as proof of a purchase order or realized output.",
+      "uncertainty": "The response does not disclose a Polish Armed Forces purchase order, order volume, signed licence or technology-transfer agreement, plant commissioning, completed unit count, acceptance, delivery, or fielding. Some technical and defense-planning information is withheld as trade secret or classified.",
+      "subgroup": "Polish Ministry of State Assets response concerning the PGZ/WZL-2/Anduril Barracuda implementation route.",
+      "counterinterpretation": "A ministerial response can describe an active preparation path while leaving demand, financing, licensing, and production realization contingent. Working groups and a defined conditional volume do not establish a funded order, independent Polish control, or operational capability.",
+      "source_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body",
+      "retrieval_hash": "artifact:sha256:ecba3d94f8a5793cf50905d99c99c67bc4ebc3360827c9b974fc0bfa602b20a0",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -138,7 +156,13 @@
       "claim": "An official parliamentary interpellation records a public-information boundary around whether a Polish MOD or Armament Agency purchase contract for Barracuda-500M exists and requests clarification.",
       "status": "control-boundary",
       "access_boundary": "The inquiry is not evidence that no contract, negotiation, production, or delivery exists."
+    },
+    {
+      "source_url": "https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body",
+      "claim": "The official response characterizes the July document as a cooperation agreement, makes detailed production/licensing/technology-transfer obligations contingent on Polish Armed Forces demand, and describes active working groups plus staged assembly/service and later localization.",
+      "status": "official-response",
+      "access_boundary": "The response does not establish a Polish purchase order, signed licence, commissioned plant, produced unit, acceptance, delivery, or fielding."
     }
   ],
-  "boundary": "This record establishes seven official 2026 cooperation, financing, implementation, production-plan, follow-up, and parliamentary-oversight observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
+  "boundary": "This record establishes eight official 2026 cooperation, financing, implementation, production-plan, follow-up, parliamentary-oversight, and ministerial-response observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
 }

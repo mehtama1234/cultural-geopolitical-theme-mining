@@ -1,6 +1,6 @@
 # Barracuda-500M remains at the announced implementation and planning stage in the public record
 
-**Status:** time-indexed realization watchpoint · **Checked:** 2026-09-17
+**Status:** time-indexed realization watchpoint · **Checked:** 2026-09-18
 
 ## What was checked
 
@@ -25,7 +25,12 @@ The current official record contains:
   contracts (including Apache helicopters) and strengthening the strategic
   partnership; and
 - the September 8–11 MSPO exhibition context, which documents a major defense
-  industry event and networking platform.
+  industry event and networking platform; and
+- the August 26 official response to Sejm Interpelacja 18336, which
+  characterizes the July document as a cooperation agreement for the current
+  project stage, says detailed production/licensing/technology-transfer
+  obligations depend on confirmed Polish Armed Forces demand, and reports that
+  joint working groups had begun preparing implementation arrangements.
 
 The 17 September 2026 recheck of the official Ministry of National Defence
 pages found no later realization notice. The Barracuda page still describes
@@ -86,6 +91,17 @@ accountability boundary, not evidence that no contract exists. The interpellatio
 cannot be used to infer non-production or non-delivery; a procurement,
 acceptance, or delivery record would still be required.
 
+The August 26 ministerial response sharpens the stage boundary. It describes
+the first phase as assembly and servicing by PGZ companies, including WZL-2;
+it places gradual Polish and European component localization in later phases;
+and it says the defined production volume is directly tied to an order from,
+among others, the Polish Armed Forces. It also reports that joint working
+groups had started preparing technical, organizational, production,
+technology-transfer, and supply-chain arrangements. This is stronger evidence
+of active implementation work than a press announcement alone, but it still
+does not report a Polish purchase order, signed licence, commissioned line,
+completed unit, acceptance, delivery, or fielding.
+
 ## Next acquisition gate
 
 The next check should seek a dated document from PGZ, WZL-2, Anduril, the
@@ -93,6 +109,8 @@ Polish Ministry of Defence, or a named regional customer containing at least
 one of:
 
 - assembly or production start with date and facility;
+- confirmed Polish or regional demand/order and any signed licence or
+  technology-transfer agreement;
 - completed/accepted quantity;
 - procurement or delivery contract;
 - supplier onboarding and local-content denominator;
@@ -113,6 +131,8 @@ framing should remain a separate evidence type.
 - [Official MSPO 2026 event context](https://www.paih.gov.pl/events/mspo-2026/)
 - [Polish Ministry of National Defence: September 2026 FMF agreement](https://redakcja.www.gov.pl/web/obrona-narodowa/4-mld-dolarow-dla-polskiej-armii-kolejny-etap-strategicznego-partnerstwa-z-usa)
 - [Polish Sejm: Barracuda-500M procurement-information interpellation](https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK)
+- [Polish Sejm API: official response to Interpelacja 18336](https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body)
+- [Normalized response excerpt and hash](../data/sejm-barracuda-interpellation-18336-response-2026-08-26.txt)
 
 **Evidence status:** public-source realization watchpoint; implementation
 terms and production targets are documented, while assembly, commissioning,
