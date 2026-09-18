@@ -1354,3 +1354,9 @@ energy-assistance status beside earnings and hours movement with Fay–BRR
 uncertainty. This adds timing discipline to the energy/work arrow while leaving
 the exact bill or shutoff, assistance receipt, desired hours, provider/employer
 response, recovery, and later action unobserved.
+
+The next food-security rotation adds the [SIPP utility/food layer](projects/us-household-calendar-integration/sipp-energy-assistance-food-following-layer-v1.md).
+Adjacent-month person records place utility difficulty and energy assistance
+beside following food insecurity and severity, including a targeted joint
+cell. The layer strengthens the material-to-protection route while leaving
+benefit timing, adequacy, recovery, repeat crisis, trust, and action open.

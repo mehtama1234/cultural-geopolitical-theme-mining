@@ -1903,6 +1903,15 @@ screen does not identify a dated bill, shutoff, receipt, desired hours,
 employer response, or recovery. It remains a timing surface, not a causal
 utility-to-work result.
 
+The [SIPP utility/food layer](projects/us-household-calendar-integration/sipp-energy-assistance-food-following-layer-v1.md)
+now adds a separate following-food outcome to the same energy route. Utility
+difficulty and assistance both sit beside higher following food insecurity than
+their comparison groups, and the joint difficulty-plus-assistance cell remains
+especially severe. This is consistent with targeting or incomplete protection,
+not evidence that assistance caused food insecurity or restored food security;
+the screen still lacks a dated bill, benefit timing/amount, adequacy, recovery,
+trust, and action.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage
