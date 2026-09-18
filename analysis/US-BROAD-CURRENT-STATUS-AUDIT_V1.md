@@ -2796,3 +2796,14 @@ decision, causal direction, remedy, or household trajectory is observed. The
 next test is a household ledger joining bill/notice, payment route, credit and
 rate, savings drawdown, assistance, arrears/restoration, next bill,
 food/health/work adaptation, correction, trust, and action.
+
+The next household-room rotation promotes the [SIPP work-care-room
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The deliberately non-pooled
+record places resource-conditioned earnings/hours direction beside
+tenure-conditioned childcare prevention and a selected stable-SNAP hardship
+bridge. It does not estimate one work, care, tenure, SNAP, or hardship effect;
+annual care and monthly work/hardship clocks differ, and selected cells are
+sparse. The next test is a household ledger joining work limitation,
+earnings/hours, care need and alternatives, tenure, SNAP notice/receipt,
+rent/utility hardship, schedule/unpaid time, employer/provider response, later
+earnings/health/school outcomes, trust, and action.

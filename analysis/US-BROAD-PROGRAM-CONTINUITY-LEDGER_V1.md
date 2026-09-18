@@ -1943,3 +1943,14 @@ time lost, schedule adaptation, agency/provider response, later
 earnings/health/school outcomes, trust, and action; preserve annual-versus-
 monthly clocks, stable-state selection, sparse cells, replicate uncertainty,
 and non-estimable entry/exit routes.
+
+The next household-room rotation promotes the [SIPP work-care-room
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The deliberately non-pooled
+record places resource-conditioned earnings/hours direction beside
+tenure-conditioned childcare prevention and a selected stable-SNAP hardship
+bridge. The next test is a household ledger joining work limitation,
+earnings/hours, care need and alternatives, tenure, SNAP notice/receipt,
+rent/utility hardship, schedule/unpaid time, employer/provider response, later
+earnings/health/school outcomes, trust, and action; preserve non-pooled units,
+annual-versus-monthly clocks, resource/tenure conditioning, stable-state
+selection, and sparse-cell boundaries.
