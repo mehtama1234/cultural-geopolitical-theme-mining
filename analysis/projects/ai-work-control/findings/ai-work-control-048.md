@@ -35,6 +35,7 @@ observed external actor changing behavior as a result.
 | Federal financing/program category | The FY2026 Comptroller plan identifies $1.5B for low-cost cruise-missile development, procurement, and integration, including reported quantities of 1,000 FAMM-Palletized and 1,000 LCCM-GL systems. | Official allocation plan and program categories | No Barracuda, Anduril, recipient, contract line, obligation, production, delivery, acceptance, or Polish-demand attribution |
 | Executed contract vehicle | SAM.gov reports Anduril's W9128Z-26-D-A001 single-award Enterprise Contract with a $20B ceiling and five-year base plus five-year option structure. | Broad federal IDIQ vehicle | No SLB-500M task order, obligation, delivery, acceptance, production output, or Polish demand; ceiling is not realized product funding |
 | FAMM-P acquisition stage | SAM.gov reports a three-month closed FAMM-P BAR risk-reduction effort after an April RFI and May industry day; a possible development-prototype effort remains subject to approvals and funding. | Official acquisition-strategy notice | No named vendor, funded prototype, production quantity, obligation, delivery, acceptance, or Barracuda attribution |
+| Air Force FAMM budget line | The Air Force FAMM00 justification reports a FY2026 mandatory spend plan of $335M for 1,000 rounds and a FY2027 request of $355M for 1,000 rounds; a separate FY2026 P-1 exhibit reports 3,010 units and $656.333M in its budget columns. | Official budget exhibits with separate fiscal-year contexts | Budget authority/request is not an obligation, vendor selection, production, delivery, acceptance, or Barracuda attribution |
 | Foreign procurement | Poland's 2024 JASSM-ER agreement reports approximately $735M and a planned 2026–2030 delivery window. | Government procurement announcement | Delivery, acceptance, fielding, maintenance, and operational use |
 | Reciprocal/co-production stage | 2026 official announcements describe buyer/seller access, Poland-US-Estonia-Latvia Barracuda cooperation, assembly followed by production, technology/know-how language, a “thousands” target, and a broader $4B FMF agreement. | Agreements, plans, financing, and institutional follow-up | Commissioned line, completed units, local-content share, component control, replaceability, and regional customer behavior |
 
@@ -138,6 +139,18 @@ if released. This is stronger than a generic program label, but it still does
 not identify Anduril, Barracuda, a selected vendor, a funded prototype, a
 production quantity, or a delivery.
 
+### A named budget line is still not an executed order
+
+The Air Force budget exhibits make the state-demand route more concrete than
+the Comptroller category alone. The FAMM00 justification reports a FY2026
+mandatory spend plan of $335M for 1,000 rounds and a FY2027 request of $355M
+for 1,000 rounds, while a separate FY2026 P-1 exhibit reports 3,010 units and
+$656.333M in its own budget columns. These figures are retained by document
+and fiscal-year context rather than summed. They establish planned budget
+authority and procurement intent, not a funded task order, selected vendor,
+production output, delivery, or acceptance. They also do not establish that
+FAMM-P is Barracuda SLB-500M.
+
 ### Co-production creates a testable autonomy claim
 
 The Polish case is valuable because it moves beyond a buyer-side procurement
@@ -215,6 +228,9 @@ capability-to-response mechanism is documented.
 - [Normalized Anduril contract-vehicle evidence note](../data/sam-anduril-enterprise-contract-2026-03-13.txt)
 - [SAM.gov FAMM-P BAR risk-reduction notice](https://sam.gov/workspace/contract/opp/8087fd0ac8f2446cb1daeb89fd4fc09f/view)
 - [Normalized FAMM-P acquisition-stage evidence note](../data/sam-famm-p-bar-risk-reduction-2026-07-28.txt)
+- [Air Force FY2027 FAMM00 budget justification](https://www.saffm.hq.af.mil/LinkClick.aspx?fileticket=tCHJmd9t66c%3D&portalid=84%2F)
+- [Air Force FY2026 Missile Procurement P-1 exhibit](https://www.saffm.hq.af.mil/Portals/84/documents/FY26/FY26%20Air%20Force%20Missile%20Procurement.pdf?ver=x-XGa7JzdnR0WwzVQkWiDg%3D%3D)
+- [Normalized FAMM budget-line evidence note](../data/air-force-famm-budget-line-fy2026-fy2027.txt)
 
 **Evidence status:** bounded resource-to-capability comparison; operational
 delivery, domestic incidence, replaceability, public reception, leverage, and

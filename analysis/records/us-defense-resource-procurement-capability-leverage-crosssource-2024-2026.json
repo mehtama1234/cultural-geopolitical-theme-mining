@@ -133,6 +133,26 @@
       "status": "reported"
     },
     {
+      "period": "FY2026-FY2027; Air Force FAMM00 budget-line justification",
+      "denominator": {"value": 2, "unit": "two official Air Force budget exhibits with separate fiscal-year and column contexts", "value_type": "budget_document_set"},
+      "measures": {
+        "fy2026_mandatory_spend_plan": {"value": 335000000, "unit": "US dollars; mandatory FAMM spend-plan amount", "value_type": "reported_budget_amount"},
+        "fy2026_spend_plan_quantity": {"value": 1000, "unit": "reported FAMM all-up-round quantity", "value_type": "reported_budget_quantity"},
+        "fy2027_total_request": {"value": 355000000, "unit": "US dollars; $55M discretionary plus $300M mandatory request", "value_type": "reported_budget_request"},
+        "fy2027_request_quantity": {"value": 1000, "unit": "reported FAMM all-up-round quantity", "value_type": "reported_budget_quantity"},
+        "fy2026_p1_exhibit_quantity": {"value": 3010, "unit": "reported FAMM quantity in FY2026 Air Force Missile Procurement Exhibit P-1", "value_type": "reported_exhibit_quantity"},
+        "fy2026_p1_exhibit_cost": {"value": 656333000, "unit": "US dollars; reported FAMM cost in FY2026 P-1 exhibit columns", "value_type": "reported_exhibit_cost"},
+        "multiyear_authorization": {"value": 7, "unit": "years requested for multiyear procurement authorization", "value_type": "reported_policy_request"}
+      },
+      "method": "Non-pooled extraction from the official Air Force FY2027 FAMM00 P-40 justification and FY2026 Air Force Missile Procurement P-1 exhibit. Fiscal-year request, spend-plan, quantity, cost, and multiyear-authorization fields are retained by document and are not summed or treated as obligations.",
+      "uncertainty": "Budget exhibits contain separate fiscal-year and column contexts; the P-1 quantity/cost and P-40 request figures are not interchangeable. Neither document identifies a task order, obligation, selected vendor, production output, delivery, acceptance, or Polish demand. FAMM-P is not assigned to Barracuda SLB-500M.",
+      "subgroup": "U.S. Air Force Family of Affordable Mass Missile procurement line; FAMM-P palletized and FAMM-L lugged configurations as described in the justification.",
+      "counterinterpretation": "A named procurement line and budget request make planned state demand more concrete while remaining subject to appropriation, contracting, design, vendor selection, production, and delivery stages.",
+      "source_url": "https://www.saffm.hq.af.mil/LinkClick.aspx?fileticket=tCHJmd9t66c%3D&portalid=84%2F",
+      "retrieval_hash": "artifact:sha256:d110bbb83222f2f19a7eb76c738ac5204cfbba174be10471d6ecd5086e6f5768",
+      "status": "compared"
+    },
+    {
       "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
       "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
       "measures": {
@@ -160,6 +180,8 @@
     {"source_url": "https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf", "claim": "The official FY2026 allocation plan supplies a federal financing and program-category stage for low-cost cruise-missile development without a Barracuda-specific attribution.", "status": "primary-source"}
     ,{"source_url": "https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view", "claim": "The SAM.gov award notice supplies an executed Anduril federal contract vehicle while preserving the difference between a ceiling and a product-specific obligation.", "status": "primary-source"}
     ,{"source_url": "https://sam.gov/workspace/contract/opp/8087fd0ac8f2446cb1daeb89fd4fc09f/view", "claim": "The official FAMM-P BAR notice supplies a closed risk-reduction acquisition stage while preserving the distinction from a funded production award.", "status": "primary-source"}
+    ,{"source_url": "https://www.saffm.hq.af.mil/LinkClick.aspx?fileticket=tCHJmd9t66c%3D&portalid=84%2F", "claim": "The official Air Force FAMM00 budget justification supplies named procurement-line, quantity, request, and multiyear-authorization evidence without establishing a contract obligation or Barracuda attribution.", "status": "primary-source"}
+    ,{"source_url": "https://www.saffm.hq.af.mil/Portals/84/documents/FY26/FY26%20Air%20Force%20Missile%20Procurement.pdf?ver=x-XGa7JzdnR0WwzVQkWiDg%3D%3D", "claim": "The official FY2026 Air Force Missile Procurement P-1 exhibit supplies a separate FAMM quantity/cost budget context retained without pooling with the P-40 request.", "status": "primary-source"}
   ],
   "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an executed but broadly scoped Anduril contract vehicle, an official FAMM-P BAR risk-reduction acquisition stage, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish a product-specific Barracuda obligation, production award, operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified product-level orders, production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
 }

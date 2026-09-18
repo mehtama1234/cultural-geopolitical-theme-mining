@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **84**
+- Observed domains outside registered families: **85**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -182,6 +182,7 @@ family that will be acquired, compared, or maintained over time.
 | `afajof.org` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `benklopack.github.io` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
+| `saffm.hq.af.mil` | 5 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `cambridge.org` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-economic-voting-real-wages/source-search-2026-09-11.md` |
@@ -199,7 +200,6 @@ family that will be acquired, compared, or maintained over time.
 | `uitspraken.rechtspraak.nl` | 4 | `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md` |
 | `anduril.com` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-043.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `commerce.gov` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json` |
-| `comptroller.war.gov` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 
 ## Reverse-audit decisions
 
@@ -232,6 +232,7 @@ without a recurring acquisition need and source-specific metadata.
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
+| `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
 | `cambridge.org` | academic publisher | Retain the cited paper/publisher route; promote the specific research program only when it becomes a maintained acquisition lane. |
