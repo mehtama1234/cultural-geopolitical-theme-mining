@@ -189,7 +189,7 @@ unobserved. The case is comparative Australian evidence, not a US estimate.
 
 ## Latest event-compatible additions
 
-The current rotation now has four additional detailed cases that advance the
+The current rotation now has six additional detailed cases that advance the
 institutional middle without closing the final meaning/action or recovery
 arrows:
 
@@ -199,6 +199,8 @@ arrows:
 | [CPSC VRURC recall bridge](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md) | Recall key: hazard → notice/replacement → firm-reported correction snapshot | Purchaser reach, replacement receipt, safe restoration, residual cost, trust, repurchase, exit |
 | [AI work-time/control synthesis](projects/ai-work-control/findings/ai-work-control-094.md) | Non-pooled worker/firm studies: assigned access or management tool → time/output/monitoring movement | Who controls saved capacity, worker appeal, pay, household time, durable enforcement, exit |
 | [New York DFS housing recourse](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md) | State administrative route: insurance complaint → closure/recovery label → availability/policy-exit reporting | Claim adequacy, repair, coverage retention, debt, move/stay, trust, political action |
+| [Disaster-recovery policy synthesis](projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md) | Firm-level intervention: recovery loans → survival, bankruptcy, employment, revenue, credit, and delinquency movement | Worker pay, customer prices/service continuity, owner-household recovery, resident fairness, remedy receipt, political action |
+| [Firm-size allocation finding](projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md) | Eligibility boundary: expanded support access → larger-firm contract allocation alongside smaller-firm exit, wages, revenue, and patenting differences | Customer/local-service effects, owner-household security, worker mobility, perceived fairness, trust, and collective action |
 
 These cases are deliberately not pooled. Their value is structural: they show
 that a broad end-to-end program can advance by closing different intermediate
