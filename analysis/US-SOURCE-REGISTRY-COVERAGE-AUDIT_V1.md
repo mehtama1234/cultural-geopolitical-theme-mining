@@ -108,7 +108,7 @@ or proof that every source item was read in full.
 | [Chicago Council on Global Affairs](https://globalaffairs.org/) | US and comparative public-opinion and geopolitical context on migration, foreign policy, security, and international engagement | 0 | 11 | 5 | 8 | evidence-bearing; machine-record URL |
 | [US Department of Defense](https://www.defense.gov/) | US defense policy, force posture, procurement, industrial-base, alliance, and operational-capacity records | 0 | 3 | 3 | 2 | evidence-bearing; machine-record URL |
 | [Defense Security Cooperation Agency](https://www.dsca.mil/) | US foreign military sales, security cooperation notifications, partner procurement, and defense-transfer records | 0 | 4 | 4 | 2 | evidence-bearing; machine-record URL |
-| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 64 | 18 | 21 | evidence-bearing; machine-record URL |
+| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 68 | 19 | 25 | evidence-bearing; machine-record URL |
 | [International Finance Corporation](https://www.ifc.org/) | development-finance, private-sector investment, infrastructure, technology, and cross-country capability evidence | 1 | 12 | 9 | 1 | evidence-bearing; machine-record URL |
 | [Defense Visual Information Distribution Service](https://www.dvidshub.net/) | public US defense visual and operational event records used for milestone and activity context | 0 | 1 | 1 | 1 | evidence-bearing; machine-record URL |
 | [Virginia State Corporation Commission](https://www.scc.virginia.gov/) | Virginia utility, rate-case, reliability, large-load, and public-service governance records | 0 | 24 | 7 | 14 | evidence-bearing; machine-record URL |
@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **86**
+- Observed domains outside registered families: **87**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -269,6 +269,7 @@ without a recurring acquisition need and source-specific metadata.
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |

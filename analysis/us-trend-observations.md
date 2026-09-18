@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-314 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+315 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -897,6 +897,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | The 2024 Polish JASSM-ER order remains scheduled without a public delivery or acceptance record | cost, voice, work | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency, political_judgment_action | Official Polish procurement page, schedule-vintage briefing, historical delivery comparator, and current-source non-observation audit | Poland and US-origin JASSM-ER procurement relationship | 3 | 2024-05-28 agreement; current page rechecked 2026-09-16; 2024-12-02 schedule-vintage comparison; rechecked 2026-09-14; 2026-09-16 current-source non-observation | compared; observed | [open](records/us-poland-jassm-er-delivery-nonobservation-2026.json) |
 
 **Boundary:** This record preserves a dated public-source non-observation. It does not prove no delivery occurred; it does establish that the reviewed official sources do not support promoting the 2024 JASSM-ER order to accepted, delivered, fielded, or operational capability.
+
+| Piorun SAFE contracting develops into a reported multilateral allied procurement route | work, voice, cost | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency, political_judgment_action | Polish and Lithuanian defense-ministry/government Piorun procurement announcements | Poland, Lithuania, Latvia, Norway, and Estonia; NATO/EU defense procurement | 3 | 2026-08-24; Polish SAFE framework agreement; 2026-09-11; first executive contract and reported external procurement response; 2026-01-16 and 2026-09-09; Lithuanian procurement and supply-chain confirmation | reported | [open](records/us-poland-piorun-safe-multilateral-procurement-response-2026.json) |
+
+**Boundary:** This record advances the domestic SAFE contracting -> allied procurement and market-response arrow. It does not establish delivered Piorun quantities, acceptance, readiness, battlefield use, export revenue, supplier replaceability, or a causal effect of SAFE on foreign procurement decisions.
 
 | Poland moves SAFE from legislative authorization to a reported domestic defense-contracting wave | work, cost, voice | geopolitical_state_consequences, political_judgment_action, firm_sector_market_power, infrastructure_technology_dependency | Polish Sejm SAFE legislative process and Polish Ministry of National Defence implementation summaries | Poland; Polish defense industry and armed forces | 3 | February 2026; Sejm government SAFE bill, druk 2227; 2026-05-28 through 2026-05-30; reported by MON 2026-06-08; 2026-06-01; MON public implementation and strategic framing summary | reported | [open](records/us-poland-safe-legislative-domestic-contracting-action-2026.json) |
 

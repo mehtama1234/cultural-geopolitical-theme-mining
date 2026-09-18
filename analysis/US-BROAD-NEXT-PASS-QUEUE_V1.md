@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 314 records and
-1122 observations.
+have exact registered-URL references. The trend registry holds 315 records and
+1125 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1464,6 +1464,15 @@ later SAFE page lists 146 Borsuks in a separate contract scope. The comparison
 advances the product-family delivery baseline without claiming that SAFE-funded
 vehicles have been delivered; same-product quantities remain non-pooled until
 contract identifiers, acceptance, and delivery records are matched.
+The [Piorun multilateral procurement response record](records/us-poland-piorun-safe-multilateral-procurement-response-2026.json)
+adds a downstream external-action layer: Poland's August SAFE framework covers
+several thousand Piorun systems for Poland and allied users, the September
+update reports the first executive contract, and Polish and Lithuanian official
+records identify allied procurement by Lithuania, Latvia, Norway, and Estonia's
+participation in the common route. This is evidence of allied demand and
+cross-border supply-chain response, not delivered export volume or realized
+geopolitical leverage; the next check remains country-level contract,
+delivery, acceptance, and operational-use evidence.
 The [September realization watchpoint](projects/ai-work-control/findings/ai-work-control-043.md)
 records the current public-source non-observation and prevents the same
 agreement-stage evidence from being counted as a new production result.
