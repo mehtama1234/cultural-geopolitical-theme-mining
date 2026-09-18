@@ -965,6 +965,22 @@ requiring repository navigation. The publication gate passes, but the central
 same-unit gap remains: no retained record follows a dated material event
 through attribution, action, remedy, recovery, and later exit or trust.
 
+The [same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
+now makes that gap quantitative across 16 retained episode or remedy surfaces.
+Thirteen surfaces observe a dated event or exposure, nine observe a responsible
+actor, and thirteen observe an institutional response; only one observes an
+alternative or non-use outcome, while none observes a verified remedy, meaning
+or trust/action endpoint, and none closes recovery, persistence, or exit. Ten
+surfaces have partial remedy information and five have partial effort or
+trade-off information, but these partial stages do not form a common
+denominator. The [ranked next-episode selection](broad-next-episode-selection-v1.md)
+therefore retains a strict promotion gate: a future pass must add both an
+episode-level alternative/non-use field and a receipt or outcome follow-up,
+with denominators, missingness, and the distinction between institutional
+response and lived outcome preserved. This is a measurement result and an
+acquisition boundary, not a claim that the broad program lacks meaningful
+context; no raw data were downloaded for this checkpoint.
+
 ## Active research lanes
 
 These lanes rotate. The next available source does not redefine the program.
