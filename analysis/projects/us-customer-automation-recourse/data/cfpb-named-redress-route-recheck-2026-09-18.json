@@ -1,0 +1,25 @@
+{
+  "audit_type": "cfpb-named-redress-route-recheck-v1",
+  "checked": "2026-09-18",
+  "routes": {
+    "brightspeed": {
+      "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/brightspeed/",
+      "html_sha256": "492c89bfc34a1f6b6f6bddf1321df5f669d9bbd4ac78fa2530af9baf0eefd303",
+      "eligible_consumers": 122507,
+      "compensable_harm": 53885244,
+      "administrator": "Epiq Systems",
+      "status": "July 23, 2024 – Ongoing: Distribution",
+      "page_last_modified": "2024-07-23"
+    },
+    "navient": {
+      "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/navient/",
+      "html_sha256": "36c9dd6b4a0e53e6cebd690544991165335facb6c6d627a39d370dfee551086b",
+      "administrator": "Rust Consulting",
+      "status": "February 13, 2026 – Ongoing",
+      "page_last_modified": "2026-02-13",
+      "payment_statement": "Affected consumers are receiving a check; payments do not change or reduce affected student loans."
+    }
+  },
+  "interpretation": "The current official pages preserve aggregate or reported distribution stages, but do not provide recipient-level issuance, receipt, amount, correction, remaining loss, trust, switching, or exit.",
+  "storage_note": "Only page hashes and compact status fields are retained; no administrator or recipient-level data was downloaded."
+}

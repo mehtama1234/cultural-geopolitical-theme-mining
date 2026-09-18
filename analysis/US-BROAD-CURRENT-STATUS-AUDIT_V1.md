@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 311 machine-readable records, 1108 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 657 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 658 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1780,7 +1780,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 311 trend records and 1108 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,282 local Markdown links and 657 published HTML pages pass link
+families; 1,283 local Markdown links and 658 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -2910,3 +2910,9 @@ monetary relief` label: 25 of 21,425 matching records were mapped and passed
 the event-ledger contract. This strengthens the formal-response comparator,
 not lived remedy; amount, issuance, receipt, correction, remaining loss, trust,
 switching, and exit remain unknown.
+
+The [named CFPB redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
+refreshes BrightSpeed and Navient: BrightSpeed remains an ongoing aggregate
+distribution, while Navient reports checks to affected consumers but explicitly
+does not reduce the underlying loans. These sharpen compensation-versus-
+restoration without establishing individual receipt or recovery.

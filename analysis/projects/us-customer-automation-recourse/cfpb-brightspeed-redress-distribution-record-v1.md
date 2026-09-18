@@ -1,6 +1,6 @@
 # CFPB BrightSpeed redress distribution record v1
 
-**Checked:** 2026-09-17 (official page rechecked)
+**Checked:** 2026-09-18 (official page rechecked)
 **Status:** official aggregate compensation and distribution record; individual recovery remains unobserved
 
 ## Why this is a useful comparison
@@ -34,7 +34,7 @@ administrative status observation, not evidence that every eligible consumer
 was paid or that distribution is progressing uniformly.
 
 The recheck therefore records “ongoing distribution still reported as of
-2026-09-17,” while leaving payment issuance, successful receipt, amount,
+2026-09-18,” while leaving payment issuance, successful receipt, amount,
 residual loss, and later behavior unobserved. No administrator file or
 respondent data was downloaded.
 
@@ -82,3 +82,6 @@ places BrightSpeed among ongoing Civil Penalty Fund cases and explains the
 different compensation routes.
 
 No data file was downloaded for this record.
+
+The paired [named-redress route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
+preserves the current page hash and status alongside Navient.

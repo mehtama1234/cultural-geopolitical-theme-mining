@@ -2060,3 +2060,9 @@ adds a current response-category-conditioned administrative surface: 25
 recently returned records within a 21,425-record filtered universe all carry
 the published monetary-relief label. This is a formal response comparator, not
 verified issuance or consumer receipt, and does not change the same-case gate.
+
+The [named CFPB redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
+refreshes BrightSpeed and Navient as current formal-remedy comparators:
+BrightSpeed remains ongoing distribution, while Navient reports checks without
+reducing the affected loans. Recipient receipt, correction, remaining loss,
+trust, and exit remain open.

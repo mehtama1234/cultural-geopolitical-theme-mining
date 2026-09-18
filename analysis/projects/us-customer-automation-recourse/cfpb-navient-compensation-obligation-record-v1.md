@@ -1,6 +1,6 @@
 # CFPB Navient compensation alongside continuing student-loan obligation v1
 
-**Checked:** 2026-09-17 (official page rechecked)
+**Checked:** 2026-09-18 (official page rechecked)
 **Status:** official ongoing compensation record; payment and loan-level recovery remain unobserved
 
 ## Why this case advances the broad goal
@@ -25,7 +25,7 @@ the administrator, and dates the ongoing compensation route from **February
 
 The same page states that the payments **do not change or reduce any affected
 student loans** and advises consumers to continue working with their servicers.
-The official page was rechecked on 2026-09-17 and still reported the route as
+The official page was rechecked on 2026-09-18 and still reported the route as
 ongoing from February 13, 2026. This is an official statement about the
 remedy's scope, not a person-level estimate of payment receipt or loan status.
 
@@ -73,3 +73,6 @@ individual recovery and practical exit remain open.
 Primary source: [CFPB v. Navient payment record](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/navient/).
 
 No data file was downloaded for this record.
+
+The paired [named-redress route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
+preserves the current page hash and status alongside BrightSpeed.
