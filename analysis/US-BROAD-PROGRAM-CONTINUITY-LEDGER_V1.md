@@ -1766,3 +1766,12 @@ test is a same-episode ledger joining notice, application/recertification,
 reason, decision, benefit timing/amount, interruption/exit, food outcome,
 work/care/health adaptation, appeal/correction, trust, and recovery; preserve
 voluntary/administrative routes and adequacy boundaries.
+
+The next financial-infrastructure rotation promotes the [IMF provider-capacity
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The IMF FAS record adds provider
+counts, branch density, and balance-to-GDP context beside household FDIC,
+Findex, and SHED access routes. The next test is a same-person or same-account
+ledger joining provider/branch change, digital and cash alternatives, payment or
+credit need, fee/travel/time cost, success/failure, correction/remedy, household
+outcome, trust, switching, and exit; preserve provider/user units and the
+non-causal divergence boundary.

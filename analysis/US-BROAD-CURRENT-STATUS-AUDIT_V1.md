@@ -2615,3 +2615,11 @@ timeliness, and transition-context records. SIPP classifies selected entry and
 exit reasons and links them to following-month low or very low food security with
 Fay–BRR uncertainty; the cells do not establish notice, benefit timing or
 adequacy, remedy, trust, or causal protection.
+
+The new [IMF provider-capacity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a supply-side financial-infrastructure layer beside FDIC, Findex, SHED,
+and household-route evidence. U.S. provider counts and commercial-bank branch
+density contracted from 2020 to 2024 while separate adult-reported account
+ownership rose; balance-to-GDP ratios also moved but are not household balances.
+The divergence does not establish exclusion, digital substitution, service
+quality, welfare, or a same-person access pathway.
