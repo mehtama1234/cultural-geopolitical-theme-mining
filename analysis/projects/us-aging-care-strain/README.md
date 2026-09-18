@@ -12,6 +12,7 @@ Trace care from the need for help to the time and money supplied by a family, th
 
 - [Unpaid eldercare can become a second job before it becomes a bill](../../findings/us-aging-care-strain-matched-evidence-001.md)
 - [Reader-friendly HTML](../../../site/us-aging-care-strain-matched-evidence-001.html)
+- [Family care is infrastructure, not a free buffer](findings/us-aging-care-strain-004.md)
 
 ```text
 aging or illness

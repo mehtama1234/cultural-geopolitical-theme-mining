@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-aging-care-family-care-public-capacity-synthesis-2026",
+  "title": "Family care operates as distributed infrastructure with uneven private costs",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "time_hidden_price", "household_room_consumption", "work_control_bargaining", "housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "Deliberately non-pooled comparison of GAO kinship-family and assisted-living reviews, Federal Reserve SHED, Census SIPP, and BLS ATUS",
+  "geography": "United States; national descriptive frames with selected-community and source-specific limits",
+  "observations": [
+    {
+      "period": "2023; GAO kinship-family population frame",
+      "denominator": {"value": 2400000, "unit": "children living in kinship families", "value_type": "reported_population_estimate"},
+      "measures": {"children_in_kinship_families": {"value": 2400000, "unit": "children", "value_type": "reported_count"}, "kinship_to_foster_comparison": {"value": 18, "unit": "kinship children outside foster care per child in foster care, approximate reported ratio", "value_type": "reported_ratio"}},
+      "method": "GAO national descriptive Census/HHS frame plus selected community visits and caregiver interviews.",
+      "uncertainty": "Kinship-family definitions and foster-care status are not equivalent need measures; selected qualitative communities are not nationally representative.",
+      "subgroup": "Children raised by relatives or close family friends because parents cannot care for them.",
+      "counterinterpretation": "Kinship living can preserve relationships and continuity and is not itself evidence of hardship or inadequate care.",
+      "retrieval_hash": "sha256:a77144c5379b0c108b2ed76b524f0456d0dd619276f8bc8ee326d5cd5347ae88",
+      "source_url": "https://www.gao.gov/products/gao-26-107658",
+      "status": "reported"
+    },
+    {
+      "period": "2024; SIPP childcare and work-adaptation screens",
+      "denominator": {"value": 24144, "unit": "valid person-record/month records in the child-care-use universe for selected paid-care measures; conditional measures have separate denominators", "value_type": "source_specific_valid_records"},
+      "measures": {"paid_childcare_under18_household_universe": {"value": 30.148, "unit": "percent", "value_type": "weighted_conditional_share"}, "childcare_prevented_work_or_more_work": {"value": 3.843, "unit": "percent; separate conditional universe", "value_type": "weighted_conditional_share"}, "reported_time_lost_from_work_due_to_childcare": {"value": 17.420, "unit": "percent; separate conditional universe", "value_type": "weighted_conditional_share"}},
+      "method": "Official SIPP universe and Fay-BRR records as preserved in the existing childcare work-adaptation record.",
+      "uncertainty": "Measures use different reference periods and conditional universes; time-loss estimates are less precise and do not identify a dated provider event or causal work loss.",
+      "subgroup": "Households with one or more members under 18 and relevant childcare/work fields.",
+      "counterinterpretation": "Paid-care use and work prevention can reflect employment, preference, resources, provider availability, or care need.",
+      "retrieval_hash": "sha256:17e24c0c21fa45decf6854820933b9704404fb8b9e88020466a1e2c3dd6223b7",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2025; SHED and ATUS adult-care comparisons",
+      "denominator": {"value": 1, "unit": "source-specific survey and diary denominators; not pooled", "value_type": "non_pooled_comparison"},
+      "measures": {"regular_unpaid_adult_care": {"value": 18, "unit": "percent of adults in 2025 SHED, source-reported", "value_type": "reported_share"}, "atus_2024_eldercare_minutes_difference": {"value": 70.702, "unit": "provider minus nonprovider primary-activity minutes per diary day in standardized cells", "value_type": "standardized_difference"}, "atus_2024_paid_work_minutes_difference": {"value": -19.7, "unit": "provider minus nonprovider paid-work minutes per diary day in standardized cells", "value_type": "standardized_difference"}},
+      "method": "Separate published SHED care/work estimates and ATUS standardized diary contrasts.",
+      "uncertainty": "Cross-sectional and annual samples do not identify care onset, intensity, recipient outcomes, employer response, or causality; the measures are not pooled.",
+      "subgroup": "Adults reporting regular unpaid care and ATUS eldercare-roster providers versus comparison respondents.",
+      "counterinterpretation": "Care can be meaningful and reciprocal; time differences may reflect health, family support, distance, occupation, or selection.",
+      "retrieval_hash": "sha256:4d4f2d5a7bb35c240e82004b8555f31a10bd4f33dfb7ed2c501a5dcfea0b2521; sha256:f3ea981ea4bcba096438119afd3efb62cbea75469a5b2452cd7e04275bbe66e0",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2025; GAO assisted-living financing frame",
+      "denominator": {"value": 44, "unit": "state Medicaid programs covering assisted-living services as of March 2025", "value_type": "reported_state_count"},
+      "measures": {"medicaid_medicare_assisted_living_spending_floor_2024": {"value": 12000000000, "unit": "US dollars, at least", "value_type": "reported_spending_floor"}, "states_with_medicaid_assisted_living_coverage": {"value": 44, "unit": "states", "value_type": "reported_count"}, "states_using_hcbs_waivers": {"value": 29, "unit": "states", "value_type": "reported_count"}},
+      "method": "GAO review of assisted-living spending identification and state Medicaid coverage.",
+      "uncertainty": "Spending is likely undercounted because settings are not uniformly identified; coverage does not establish slots, affordability, quality, or receipt.",
+      "subgroup": "State Medicaid programs and assisted-living services, not individual residents.",
+      "counterinterpretation": "Public coverage and spending can coexist with room/board costs, waiting, family substitution, and uneven local capacity.",
+      "retrieval_hash": "sha256:7807250a2579704cf85a1fa82395dc82fc15cb0ba4f3dda8eda8415c0d214200",
+      "source_url": "https://www.gao.gov/products/gao-26-107815",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md", "claim": "Kinship family scale, formal-status split, and caregiver/community boundaries.", "status": "local-source-note"},
+    {"source_url": "../../projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md", "claim": "Assisted-living spending and state coverage architecture.", "status": "local-source-note"},
+    {"source_url": "../../records/us-federal-reserve-care-living-arrangements-2025.json", "claim": "SHED care, living arrangement, and work-adaptation evidence.", "status": "related-record"},
+    {"source_url": "../../records/us-care-time-material-mobility-crosssource-2022-2025.json", "claim": "Existing SIPP, SHED, ATUS, and NHTS care/time/material comparison.", "status": "related-record"}
+  ],
+  "boundary": "This is a deliberately non-pooled family-care capacity synthesis. It supports distributed care capacity and uneven private-cost mechanisms across US evidence surfaces, but does not estimate a common care burden, causal intervention effect, verified support receipt, recovery, trust, political action, or household-to-state consequence. A dated same-family care episode with alternatives and follow-up remains open."
+}
