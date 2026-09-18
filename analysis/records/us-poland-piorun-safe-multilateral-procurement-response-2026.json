@@ -22,7 +22,7 @@
       "subgroup": "Mesko Piorun production and allied common-procurement route under SAFE.",
       "counterinterpretation": "A multilateral framework can signal shared demand and supplier influence while leaving actual orders, financing drawdown, delivery, and dependence on foreign inputs unresolved.",
       "source_url": "https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -38,7 +38,7 @@
       "subgroup": "Polish Armament Agency, Mesko, and allied Piorun procurement route at MSPO 2026.",
       "counterinterpretation": "A public announcement of allied purchasing can reflect a framework or political commitment that later changes, and may strengthen Polish export positioning without proving durable bargaining power or production independence.",
       "source_url": "https://www.gov.pl/web/premier/polski-przemysl-obronny-przyspiesza-dzieki-safe",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -56,7 +56,7 @@
       "subgroup": "MESKO/PGZ EDIRPA VSHORAD framework for Poland, Lithuania, Latvia, and Norway.",
       "counterinterpretation": "A stated 2030 horizon can indicate a long implementation runway without proving that contracts will be fully exercised, delivered on schedule, accepted, or operationally available.",
       "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -73,7 +73,7 @@
       "subgroup": "MESKO/PGZ Piorun production capacity in the Polish defense-industrial base.",
       "counterinterpretation": "Higher stated capacity may improve the ability to absorb demand while leaving bottlenecks, input dependence, delivery sequencing, and effective customer access unresolved.",
       "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -90,7 +90,43 @@
       "subgroup": "Norwegian Piorun export route separate from the 2026 Poland-led SAFE/EDIRPA framework unless a contract match is later documented.",
       "counterinterpretation": "A reported first-batch handover demonstrates an export-delivery stage for Norway but does not demonstrate SAFE execution, general delivery performance, increased production, or reduced allied dependence.",
       "source_url": "https://www.mesko.com.pl/aktualnosci/38",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
+      "status": "reported"
+    },
+    {
+      "period": "2022-11-29 contract; deliveries stated to begin in 2023",
+      "denominator": {"value": 1, "unit": "Norwegian Defence Materiel Agency Piorun contract", "value_type": "documented_contract"},
+      "measures": {
+        "norway_contract_value": {"value": 350000000, "unit": "Norwegian kroner; approximate contract value", "value_type": "reported_amount"},
+        "contract_date": {"value": "2022-11-29", "unit": "contract-signing date", "value_type": "documented_date"},
+        "delivery_start": {"value": 2023, "unit": "calendar year; stated start of deliveries", "value_type": "reported_schedule"},
+        "intended_user": {"value": "Norwegian Army", "unit": "reported end user", "value_type": "reported_scope"},
+        "safe_edripa_link": {"value": "not applicable; contract predates 2026 SAFE/EDIRPA framework", "unit": "scope boundary", "value_type": "bounded_non_attribution"}
+      },
+      "method": "Bounded extraction from the official Norwegian Defence Materiel Agency contract announcement. The record establishes a dated bilateral contract, approximate value, intended user, and stated delivery start; it is retained as a pre-SAFE comparator.",
+      "uncertainty": "The announcement does not state exact missile or launcher quantities, lot-level delivery, acceptance, payment completion, operational availability, or later performance. The approximate contract value is not treated as delivered value.",
+      "subgroup": "Norwegian Army Piorun acquisition under the 2022 bilateral Mesko contract.",
+      "counterinterpretation": "A signed contract and scheduled deliveries establish procurement commitment, not by themselves accepted or operational capability; later Norwegian evidence is required for that arrow.",
+      "source_url": "https://www.fma.no/aktuelt-og-media/2020/forsvarsmateriell-kjoper-baerbart-luftvern-til-haeren",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
+      "status": "reported"
+    },
+    {
+      "period": "2024-08-16; first Norwegian Piorun live-fire and fielding report",
+      "denominator": {"value": 1, "unit": "Norwegian portable-air-defense troop and first live-fire report", "value_type": "documented_operational_event"},
+      "measures": {
+        "first_live_fire": {"value": 1, "unit": "reported first live-fire event with Piorun", "value_type": "reported_event"},
+        "fielding_location": {"value": "Porsangmoen and Halkavarre firing and training range, Mid-Finnmark", "unit": "reported training location", "value_type": "reported_geography"},
+        "initial_unit": {"value": "portable-air-defense troop at Garnisonen i Sør-Varanger", "unit": "reported Norwegian Army unit", "value_type": "reported_fielding"},
+        "intended_effect": {"value": "protect Jegerbataljonen and contribute to layered air defense in Finnmark", "unit": "reported operational purpose", "value_type": "reported_use"},
+        "safe_edripa_link": {"value": "not applicable; event concerns the pre-2026 Norwegian contract", "unit": "scope boundary", "value_type": "bounded_non_attribution"}
+      },
+      "method": "Bounded extraction from the official Norwegian Armed Forces report. The first live-fire and identified fielding unit are treated as reported operational-use/implementation evidence, not as an independent estimate of readiness or combat effectiveness.",
+      "uncertainty": "The report does not provide inventory quantity, acceptance documentation, availability rate, hit/miss results, sustainment performance, later unit expansion, or combat use. It describes planned further spread to other units as a future possibility, not a completed rollout.",
+      "subgroup": "Norwegian Army portable-air-defense fielding in Finnmark under the pre-SAFE Piorun acquisition.",
+      "counterinterpretation": "A first live-fire and dedicated troop show fielding and training use, but not full force-wide operational availability, deterrence effect, or realized alliance leverage.",
+      "source_url": "https://www.forsvaret.no/aktuelt-og-presse/aktuelt/piorun",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -106,7 +142,7 @@
       "subgroup": "Lithuanian defense procurement and Poland-Lithuania industrial cooperation linked to the Piorun route.",
       "counterinterpretation": "External participation can widen demand and supply-chain ties without reducing dependence on Polish or non-Polish components, and a procurement-stage commitment is not realized capability.",
       "source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -121,7 +157,7 @@
       "subgroup": "Lithuanian Piorun acquisition route within the wider Poland-led SAFE/common-procurement pathway.",
       "counterinterpretation": "A planned purchase can coexist with a signed framework or later negotiation progress; absence of a located SAFE-attributable public handover notice does not establish absence of delivery, and a separate pre- or non-SAFE export handover cannot be pooled into SAFE performance.",
       "source_url": "https://kam.lt/kariuomenes-sandeliai-pildomi-atsargomis-uz-400-mln-eur-nuo-raketu-iki-priestankiniu-minu-ir-soviniu/",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     },
     {
@@ -136,7 +172,7 @@
       "subgroup": "Mesko Piorun production before the 2026 SAFE framework and multilateral procurement route.",
       "counterinterpretation": "Existing production demonstrates prior industrial capability but does not establish that the later SAFE framework was unnecessary, that capacity can meet the new scope, or that Poland controls all critical inputs and technology.",
       "source_url": "https://www.gov.pl/web/aktywa-panstwowe/mesko-produkuje-milion-sztuk-amunicji-dziennie",
-      "retrieval_hash": "artifact:sha256:d47993ef859d136ff4ce3fe937312128c4820bf7e8ae22d3aceb11f053cf4d7a",
+      "retrieval_hash": "artifact:sha256:b6ca966270588a7c227b73f313942a0bcd1039bd46f1f08fa1a713eedf60e85d",
       "status": "reported"
     }
   ],
@@ -148,7 +184,9 @@
     {"source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/", "claim": "Lithuanian MoD supplies external procurement-stage corroboration and an approximate Lithuanian-side value.", "status": "primary-source"},
     {"source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy", "claim": "MESKO supplies the reported quantity classes, delivery horizon, and production-capacity context for the Piorun EDIRPA/SAFE framework.", "status": "primary-source"},
     {"source_url": "https://kpms.mesko.com.pl/aktualnosci/spolka-przekazuje-pierwsza-partie-piorunow-do-norwegii", "claim": "MESKO reports the first Norway batch handover and describes the separate bilateral contract scope.", "status": "primary-source"},
-    {"source_url": "https://www.mesko.com.pl/aktualnosci/38", "claim": "MESKO's archive dates the Norway first-batch handover to 2023-12-12.", "status": "primary-source"}
+    {"source_url": "https://www.mesko.com.pl/aktualnosci/38", "claim": "MESKO's archive dates the Norway first-batch handover to 2023-12-12.", "status": "primary-source"},
+    {"source_url": "https://www.fma.no/aktuelt-og-media/2020/forsvarsmateriell-kjoper-baerbart-luftvern-til-haeren", "claim": "Norwegian Defence Materiel Agency supplies the 2022 contract date, approximate value, intended user, and stated delivery start.", "status": "primary-source"},
+    {"source_url": "https://www.forsvaret.no/aktuelt-og-presse/aktuelt/piorun", "claim": "Norwegian Armed Forces supply the 2024 first live-fire and initial fielding context.", "status": "primary-source"}
   ],
   "boundary": "This record advances the domestic SAFE contracting -> allied procurement and market-response arrow. It does not establish delivered Piorun quantities, acceptance, readiness, battlefield use, export revenue, supplier replaceability, or a causal effect of SAFE on foreign procurement decisions."
 }

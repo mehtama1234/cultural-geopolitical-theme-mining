@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **90**
+- Observed domains outside registered families: **92**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -269,6 +269,8 @@ without a recurring acquisition need and source-specific metadata.
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.oii.ox.ac.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `fma.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `forsvaret.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
