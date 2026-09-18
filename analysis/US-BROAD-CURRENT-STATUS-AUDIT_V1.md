@@ -2644,6 +2644,18 @@ The next test is a same-episode ledger joining income or profit, price and
 credit terms, public rule or monitoring, payment/liquidity, service or
 investment outcome, institutional response, trust, action, and recovery.
 
+The next firm-capacity rotation promotes the [New York Fed small-business
+capacity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The Small Business Credit
+Survey record adds size-differentiated profitability, revenue expectations,
+employment, financing, debt, and pricing surfaces beside the World Bank firm
+profile, Census/BLS firm context, and household/credit layers. The SBCS is a
+weighted but non-random firm survey, and its retrospective profitability,
+expectation, employment, and financing questions have separate valid universes.
+The next test is an identifier-bearing firm ledger joining revenue,
+prices/quantities, costs, financing terms, debt service, employment, pay/hours,
+customer access, owner household, survival/exit, public support, and trust or
+political response.
+
 The next distributional macro rotation promotes the [New York Fed
 economic-heterogeneity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The EHI
 record adds constructed demographic inflation gaps, employed-worker earnings
