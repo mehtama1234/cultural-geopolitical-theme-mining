@@ -1871,6 +1871,19 @@ audit of censorship, accuracy, platform moderation, source exposure, or civic
 action; the next test is a defined information controversy followed through
 source choice, accuracy judgment, institutional response, and later behavior.
 
+The [Pew 2026 Muslim-American capacity and visibility layer](projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md)
+adds an inclusion counterexample: estimated Muslim population rose from 2.4
+million in 2007 to 5.5 million in 2026, mosque counts from roughly 1,200 in
+2000 to nearly 2,800 in 2020, and Muslim members of Congress from zero in 2001
+to four in 2026. Yet 42% of U.S. adults said Muslim Americans have a negative
+impact, 59% of Muslim adults reported a lot of discrimination, and 51% of
+adults in 2026 associated Islam with violence compared with 25% in 2002. The
+series demonstrate institutional presence and public legitimacy are different
+clocks; they do not measure total discrimination, equal access, safety,
+agenda-setting power, or a causal effect of representation. The next test is a
+local institution/encounter ledger linking treatment to support-seeking or
+avoidance, public-system use, organizing, and institutional response.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
