@@ -10,6 +10,13 @@
     "decision": "No retained local route qualifies for end-to-end promotion; UAS remains the next acquisition candidate, while CFPB/platform records remain remedy-stage comparators.",
     "reason": "MEPS lacks alternatives and remedy follow-up; CFPB/platform records lack recipient-level receipt and durable outcome; SHED/HTOPS lack a dated actor-linked remedy episode; UAS is registration-gated and its public documentation does not establish a verified remedy field."
   },
+  "same_case_gate": {
+    "audit": "analysis/data/broad-same-case-episode-availability-audit-v1.json",
+    "local_surface_count": 16,
+    "observed_alternative_or_nonuse_surfaces": 1,
+    "observed_verified_remedy_or_outcome_followup_surfaces": 0,
+    "qualifies": false
+  },
   "ranked_routes": [
     {
       "rank": 1,
