@@ -2467,6 +2467,9 @@ are not representative household rates, and the public record does not show
 episode-level payment success, bill status, service continuity, redress receipt,
 or switching. This strengthens the service/recourse lane without claiming
 household incidence or practical recovery.
+The [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
+is now linked directly to the recourse matrix, preserving the named-case,
+internal-survey, proposed-order, and unobserved household-outcome boundaries.
 
 The new [small-business support-size trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 promotes the NBER/Census eligibility-boundary result into the canonical
