@@ -1,0 +1,41 @@
+{
+  "format": "platform-remedy-followup-recheck-v1",
+  "checked": "2026-09-18",
+  "case_id": "AU-07",
+  "matter": "UDE2025/141",
+  "scope": "Targeted Fair Work Commission public-document search for post-order implementation, payment, and actual access after Mansoor v Rasier Pacific.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf",
+      "role": "primary_merits_decision",
+      "result": "reactivation and $6,073.23 gross lost-earnings order; substitute Baysec and Didi earnings documented in the calculation"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf",
+      "role": "primary_order",
+      "result": "reactivation within seven days and payment within 14 days; document was re-filed to correct the respondent spelling"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm",
+      "role": "official_bulletin",
+      "result": "summarizes the Mansoor reactivation and lost-earnings order"
+    },
+    {
+      "url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "role": "official_search_route",
+      "result": "targeted search by case name, matter number, order number, and payment terms located no later public implementation record in the checked route"
+    }
+  ],
+  "stages": {
+    "alternative_earnings": "observed_adjudicated",
+    "reactivation_order": "observed_adjudicated",
+    "payment_order": "observed_adjudicated",
+    "order_correction_reissue": "observed_official_document_event",
+    "payment_receipt": "not_observed",
+    "actual_access_restoration": "not_observed",
+    "continued_work_or_switching": "not_observed",
+    "household_outcome": "not_observed"
+  },
+  "boundary": "A targeted public-document non-observation as of 2026-09-18 does not prove that private payment, account restoration, continued work, switching, or exit did not occur.",
+  "storage_boundary": "No bulk download or personal exhibits were retained; only source URLs, stage statuses, and the bounded search result are stored."
+}
