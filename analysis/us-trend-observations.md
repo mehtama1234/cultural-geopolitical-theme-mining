@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-317 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+318 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -794,6 +794,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is a descriptive 2022 NHTS urban/rural transport-option comparison. Household, person, and trip units are kept separate; urban/rural categories are not interchangeable with USDA RUCC or county capacity. The record does not establish dependence, service access, affordability, missed work/care, or a causal place effect. The official archive is externally retrieved and hash-identified; derived slices are temporary and not committed.
 
+| A city can mandate measurement of algorithmic work impacts before worker outcomes are publicly visible | work, voice, cost | work_control_bargaining, public_systems_feedback, political_judgment_action, trust_identity_meaning, platforms_data_attention | New York City Local Law 25 of 2026 and City Council enactment record concerning a study of algorithmic tools and automated employment decision tools | New York City municipal civil service and algorithmic employment decision context | 1 | 2026-01-17 enactment; effective 30 days after enactment; current study/report status checked 2026-09-18 | reported | [open](records/us-nyc-local-law-25-algorithmic-work-study-2026.json) |
+
+**Boundary:** This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate. It does not establish study completion, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.
+
 | Household inflation, earnings, and consumption diverge across US groups | cost, work, voice | household_room_consumption, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | New York Fed Economic Heterogeneity Indicator for demographic, economic, and geographic group consumption baskets and outcomes | United States national indicators, with metro, regional, demographic, and urban/rural groupings | 3 | December 2025 national inflation indicators; December 2025 national earnings indicators; 2023 through November 2025 national consumer-spending indicators | estimated; reported | [open](records/us-nyfed-economic-heterogeneity-2025.json) |
 
 **Boundary:** This record measures constructed demographic inflation, employed-worker earnings ratios, and aggregate receipt-based retail-consumption directions through December/November 2025. It does not establish household-specific prices, policy causality, trust, political action, or a same-household cost-to-behavior chain. The EHI indicators are not official estimates of the Federal Reserve System or FOMC.
@@ -902,7 +906,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This record establishes an audited documentation/control gap for a JASSM-ER production-cost settlement and separately reports a non-JASSM-attributed 32-unit comparator. It does not estimate production, acceptance, delivery, fielding, operational readiness, delay, or geopolitical leverage for the 2024 Polish JASSM-ER order.
 
-| The 2024 Polish JASSM-ER order remains scheduled without a public delivery or acceptance record | cost, voice, work | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency, political_judgment_action | Official Polish procurement page, schedule-vintage briefing, historical delivery comparator, and current-source non-observation audit | Poland and US-origin JASSM-ER procurement relationship | 3 | 2024-05-28 agreement; current page rechecked 2026-09-16; 2024-12-02 schedule-vintage comparison; rechecked 2026-09-14; 2026-09-16 current-source non-observation | compared; observed | [open](records/us-poland-jassm-er-delivery-nonobservation-2026.json) |
+| The 2024 Polish JASSM-ER order remains scheduled without a public delivery or acceptance record | cost, voice, work | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency, political_judgment_action | Official Polish procurement page, schedule-vintage briefing, historical delivery comparator, and current-source non-observation audit | Poland and US-origin JASSM-ER procurement relationship | 4 | 2024-05-28 agreement; current page rechecked 2026-09-16; 2024-12-02 schedule-vintage comparison; rechecked 2026-09-14; 2026-09-16 current-source non-observation; 2026-09-18 current-source recheck | compared; observed | [open](records/us-poland-jassm-er-delivery-nonobservation-2026.json) |
 
 **Boundary:** This record preserves a dated public-source non-observation. It does not prove no delivery occurred; it does establish that the reviewed official sources do not support promoting the 2024 JASSM-ER order to accepted, delivered, fielded, or operational capability.
 

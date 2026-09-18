@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 317 records and
-1143 observations.
+have exact registered-URL references. The trend registry holds 318 records and
+1144 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -562,6 +562,12 @@ It does not establish implementation, enforcement, or worker outcomes. The
 next worker-control pass should compare this written architecture with an
 implementation artifact, such as a system inventory, review record, audit,
 correction log, or worker account.
+
+The new [NYC Local Law 25 algorithmic-work study record](projects/ai-work-control/nyc-local-law-25-algorithmic-work-study-record-v1.md)
+adds an enacted municipal measurement mandate covering hiring, regular work
+functions, and employee feedback. It advances the state-response and worker-
+voice stages, but the study/report, named tool, implementation, worker
+decision, remedy, and lived outcome remain open.
 
 The new [NBER W33795 field-experiment finding](projects/ai-work-control/findings/ai-work-control-075.md)
 adds a randomized worker-level time and coordination layer: individual AI

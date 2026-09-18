@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **93**
+- Observed domains outside registered families: **95**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -194,12 +194,12 @@ family that will be acquired, compared, or maintained over time.
 | `ilostat.github.io` | 4 | `analysis/us-theme-atlas.md`; `analysis/projects/ai-work-control/source-search-2026-09-11.md`; `analysis/projects/ai-work-control/ilostat-access-audit-2026-09-15.md` |
 | `internetconsultatie.nl` | 4 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
+| `legistar.council.nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-local-law-25-algorithmic-work-study-record-v1.md`; `analysis/projects/ai-work-control/nyc-local-law-25-algorithmic-work-study-record-v1.md`; `analysis/records/us-nyc-local-law-25-algorithmic-work-study-2026.json` |
 | `nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md` |
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
 | `support.leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `uitspraken.rechtspraak.nl` | 4 | `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md` |
-| `anduril.com` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-043.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 
 ## Reverse-audit decisions
 
@@ -244,6 +244,7 @@ without a recurring acquisition need and source-specific metadata.
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
 | `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `leapeasy.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
+| `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |
@@ -273,6 +274,7 @@ without a recurring acquisition need and source-specific metadata.
 | `fma.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `forsvaret.no` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `home4.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `mesko.com.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
