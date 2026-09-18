@@ -1826,6 +1826,12 @@ heating-assistance households, and 279,000 restoration instances; SIPP adds a
 non-pooled following-month screen. These endpoints do not establish take-up,
 receipt, durable affordability, next-bill status, repeat-crisis prevention, or
 causal utility effects.
+The new [energy/public-restoration trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes this non-pooled synthesis into the canonical register. It makes the
+household sacrifice, public reach, restoration, and following-outcome stages
+visible together while retaining their different denominators and clocks; a
+dated bill-to-reconnection-to-next-bill episode, durable recovery, trust, and
+action remain unobserved.
 
 The [capacity-realization finding](projects/ai-work-control/findings/ai-work-control-097.md)
 adds a cross-domain realization boundary to the state/geopolitical lane. It

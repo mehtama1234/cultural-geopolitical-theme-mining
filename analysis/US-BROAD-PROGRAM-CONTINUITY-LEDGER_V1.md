@@ -1471,3 +1471,11 @@ boundary. They do not establish durable dependence, actual deletion or
 switching, harm, remedy, or a unified audit-to-experiment user path; the next
 test is a same-user exit ledger with tactic exposure, continued exchange,
 alternatives, complaint, platform response, and later use or departure.
+
+The next energy/public-capacity rotation promotes the [energy/public-restoration
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). EIA household consequences,
+LIHEAP reach/restoration, and SIPP following outcomes now sit in one bounded
+route without a pooled restoration rate. The next test is a dated bill or
+notice through application, receipt, reconnection, next bill, repeat crisis,
+and later household meaning or action; durable recovery and take-up remain
+open.
