@@ -2276,7 +2276,7 @@ The [practical-exit qualification finding](projects/us-customer-automation-recou
 now makes the open middle explicit across ten retained routes. The same-unit
 promotion rule requires a dated trigger, an alternative or non-use choice, an
 institutional response, a verified protected or sacrificed outcome, and a
-later meaning/action or exit endpoint; the retained screen qualifies 0 of 10.
+later meaning/action or exit endpoint; the retained screen qualifies 0 of 11.
 This is an observability and acquisition boundary, not evidence that remedies
 or exits did not occur. Complaint closure, access restoration, program exit,
 market movement, and aggregate payment distribution remain institutional

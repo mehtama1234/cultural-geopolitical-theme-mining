@@ -6,7 +6,7 @@
 
 The current U.S.-centered atlas contains many measured pressures, institutional
 routes, administrative decisions, and some access-restoration or recovery
-signals. A systematic screen of ten retained routes finds **zero** that meet
+signals. A systematic screen of eleven retained routes finds **zero** that meet
 the program's stronger practical-optionality standard: the same unit must have
 a dated trigger, an observed alternative or non-use choice, an institutional
 response, a verified protected or sacrificed outcome, and a later behavior or
@@ -37,12 +37,13 @@ condition or restriction
 | Grubhub multisided redress | Named platform program; 640,038 reported recipients | Aggregate checks/PayPal distribution and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit | No |
 | VRURC product-recall implementation | Single recall key; notice and later CPSC progress snapshot | Dated hazard, stop-use/replacement instruction, and reported correction counts | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit | No |
 | Amazon Flex tip-refund program | Named FTC refund program; aggregate payment rounds and Zelle reissue route | Consent order, reported distribution, and failed/uncashed payment reissue stage | Eligible-driver denominator, individual receipt, remaining loss, continued/alternative work, bargaining, switching/exit | No |
+| IER individual employment remedy | Five FY2026 resolution summaries; four reported paid remedies and one offer | Agency-reported individual payments, training/policy correction, and one reinstatement offer | Alternative/non-use, payment instrument and timing, restored work, durable compliance, household recovery, trust/action, exit | No |
 
 The machine-readable [qualification register](../data/end-to-end-event-qualification-register-2026-09-17.json)
 preserves the route-level units, denominators, missing fields, and next
-minimum field for the ten-route screen. The latest synchronization includes
-Doxo, Grubhub, the VRURC recall implementation bridge, and the Amazon Flex
-tip-refund program. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
+minimum field for the eleven-route screen. The latest synchronization includes
+Doxo, Grubhub, the VRURC recall implementation bridge, the Amazon Flex
+tip-refund program, and the IER individual-remedy summaries. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
 is the broader cross-domain inventory; this finding applies its promotion rule
 to a smaller, explicit candidate set.
 

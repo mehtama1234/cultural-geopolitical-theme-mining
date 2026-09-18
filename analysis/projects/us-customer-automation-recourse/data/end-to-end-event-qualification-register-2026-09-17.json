@@ -133,12 +133,25 @@
       "later_action_or_exit": "continued work, alternative work, bargaining, switching, and exit missing",
       "qualifies": false,
       "next_minimum_field": "eligible-driver ledger separating paid, uncashed, reissued, failed, and unknown status, with receipt, amount, remaining loss, continued/alternative work, and exit"
+    },
+    {
+      "route_id": "IER-individual-employment-remedy",
+      "domain": "employment_discrimination_recourse",
+      "unit": "named charging-party resolution summary",
+      "denominator": "five FY2026 IER resolution summaries; four reported paid remedies and one back-pay offer; not a representative worker sample",
+      "dated_trigger": "reported employment, recruitment, or work-authorization episode dated in the IER summary",
+      "alternative_or_non_use_choice": "missing; the summaries do not report other jobs, non-use, or a rejected/accepted substitute route",
+      "institutional_response": "IER resolution plus employer training, policy correction, or reinstatement offer observed",
+      "verified_remedy_or_recovery": "agency-reported individual payment observed in four summaries; payment instrument, timing, net amount, and later recovery missing; one case is an offer only",
+      "later_action_or_exit": "missing; continued work, restored opportunity, trust, switching, organizing, and exit are not reported",
+      "qualifies": false,
+      "next_minimum_field": "stable charging-party key with alternative work/non-use, payment confirmation, accepted or refused reinstatement, later employment, household security, recurrence, trust, and exit"
     }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 10,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, and Amazon Flex additions improve consumer and worker payment-response visibility without adding person-level alternatives, verified receipt, safe restoration, or later exit. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
-    "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data."
+    "screened_routes": 11,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, and IER additions improve payment or remedy visibility without adding a same-unit alternative plus verified later outcome. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data. The IER route specifically requires worker-side alternative, payment-confirmation, and later-employment fields."
   }
 }
