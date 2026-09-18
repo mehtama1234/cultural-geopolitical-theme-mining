@@ -1909,6 +1909,9 @@ individual refund, an eligibility window, automatic-refund payments, and a
 claims-notice route for customers not automatically refunded. The public record
 still lacks account-level eligibility, receipt, claim completion, delay,
 continued use, switching, and household-recovery outcomes.
+This is now promoted as trend #122; the FTC page and settlement-administrator
+FAQ retain a payment-timing discrepancy, so the two implementation vintages are
+not silently reconciled into a completed-payout claim.
 
 The [Amazon advertising-auction finding](projects/us-local-business-place/findings/us-local-business-place-013.md)
 adds a firm-to-household cost mechanism. The FTC and 22 states allege hidden
