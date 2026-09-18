@@ -573,6 +573,12 @@ adds 74 returned rows, 51 named recipients, UEI/location fields, and $1.1427B
 in returned subaward amount. The top five recipients comprise 49.5004% of this
 extract, which is a supplier-visibility concentration lead—not a defense-
 industrial market-share, production, delivery, or replaceability estimate.
+The new [domestic-capacity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the cross-case realization record into the canonical register. It
+keeps critical-mineral dependence, CHIPS disbursement and milestones,
+data-center/grid capacity, and defense procurement on separate clocks. The
+record does not establish realized autonomy, replaceability, customer use,
+accepted delivery, affected-actor burden, or changed external behavior.
 
 The SHED 2024–2025 financial-path health/care comparison is also preserved as
 six validated conditional trend observations, keeping the health and adult-care

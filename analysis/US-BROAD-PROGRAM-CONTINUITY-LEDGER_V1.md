@@ -1479,3 +1479,11 @@ route without a pooled restoration rate. The next test is a dated bill or
 notice through application, receipt, reconnection, next bill, repeat crisis,
 and later household meaning or action; durable recovery and take-up remain
 open.
+
+The next capacity/geopolitical rotation promotes the [domestic-capacity trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Critical-mineral dependence, CHIPS
+milestones, data-center/grid capacity, and JASSM/LRASM procurement now share a
+stage-aware reader route without a pooled autonomy or leverage estimate. The
+next test is one identifier-bearing realization ledger joining supplier,
+place, milestone, acceptance, customer use, substitute qualification,
+maintenance, disruption, affected actor, and later external response.
