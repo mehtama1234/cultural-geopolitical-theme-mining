@@ -2766,3 +2766,13 @@ practical agency, security, and institutional trust. The next test is a
 person/household ledger joining health, education, income, housing, care, work,
 digital exposure, institutional treatment, alternatives, capability use,
 trust, and action or exit.
+
+The next public-support-scale rotation promotes the [USDA SNAP current-
+context trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The USDA record adds
+FY2025 participant scale, federal spending, average benefit, participating-
+household income composition, benefit distribution, and state range. These
+figures do not establish eligibility, take-up, adequacy, continuity, food
+security, or household recovery; state timeliness and case-level routes remain
+separate. The next test is a household ledger joining eligibility, notice,
+application/recertification, decision, timing/amount, food/work/health
+adaptation, interruption, appeal/correction, trust, and persistence.
