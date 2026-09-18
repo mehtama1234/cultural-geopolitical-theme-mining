@@ -1,0 +1,32 @@
+{
+  "audit_type": "cpsc-recall-key-api-mpr-bridge-v1",
+  "checked": "2026-09-17",
+  "recall_key": "23-238",
+  "api_query": "https://www.saferproducts.gov/RestWebServices/Recall?RecallNumber=23238&format=json",
+  "mpr_source": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+  "api_notice": {
+    "recall_id": 9663,
+    "recall_date": "2023-07-06",
+    "product": "VRURC portable chargers, model OD-B7",
+    "units": "About 190,000",
+    "sale_route": "Exclusively at Amazon.com, July 2021–May 2023, $30–$40",
+    "manufacturing_country": "China",
+    "hazard": "Can ignite, posing a fire hazard",
+    "injury_signal": "One reported fire during a commercial flight; four flight attendants transported to hospital for smoke inhalation",
+    "remedy_option": "Replace",
+    "remedy": "Stop use immediately and contact VRURC for a free replacement product"
+  },
+  "mpr_snapshot_as_of_2026-08-21": {
+    "products_recalled": 256845,
+    "manufacturer_corrected": 0,
+    "distributor_corrected": 0,
+    "retailer_corrected": 330,
+    "consumer_corrected": 64963,
+    "total_corrected": 65293,
+    "consumer_percent_reported": 0.29,
+    "total_percent_reported": 0.25
+  },
+  "interpretation": "The same recall key joins a dated hazard/remedy notice to a later recall-level progress snapshot with consumer correction counts. The two unit fields differ substantially from the API notice's about-190,000 product description, and CPSC defines the starred consumer percentage using a consumer-held denominator that can differ from total recalled products; this is a reconciliation question, not a corrected exposure rate.",
+  "boundary": "The bridge does not identify unique purchasers, notice receipt, replacement receipt, timing of correction, remaining loss, safe use, or avoided injury. MPR values are firm-reported cumulative progress and the live API/Workbook sources can change.",
+  "storage_note": "Only compact derived fields for one recall key are retained; no raw API response or workbook is retained."
+}

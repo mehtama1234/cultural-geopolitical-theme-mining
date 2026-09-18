@@ -163,6 +163,28 @@ consumers notified, completed repairs, payment receipt, safe restoration,
 avoided injury, or residual household cost. The compact derived inspection is
 [here](../data/cpsc-mpr-bounded-sample-2026-08-21.json).
 
+## One-recall-key bridge
+
+The API and MPR layers can be joined for at least one bounded product episode.
+Recall key `23-238` identifies VRURC portable chargers (model OD-B7), about
+190,000 units sold exclusively on Amazon.com from July 2021 through May 2023
+for $30–$40. The API records a fire hazard, one reported fire during a
+commercial flight with four flight attendants hospitalized for smoke
+inhalation, and a free replacement remedy. The MPR snapshot later reports
+64,963 consumer-level corrections and 65,293 total corrections, with reported
+consumer and total percentages of 29% and 25%.
+
+This is the first compact key-level bridge in the lane from hazard to
+institutional remedy progress. It is not yet an end-to-end consumer episode:
+the API notice says about 190,000 units, while the MPR row says 256,845
+products recalled, and the workbook explains that the consumer percentage uses
+a consumer-held denominator that can differ from products recalled. The
+reconciliation itself is therefore evidence that recall-level denominators
+need version, definition, and reporting-window control. We still do not know
+who received notice or a replacement, when correction occurred, what it cost,
+or whether safety was restored for the individual purchaser. The compact
+joined audit is [here](../data/cpsc-vrurc-recall-key-bridge-2026-09-17.json).
+
 ## Counterexamples and limits
 
 - A free professional repair may impose less consumer effort than destruction

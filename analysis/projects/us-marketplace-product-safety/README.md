@@ -35,6 +35,11 @@ retailer, and consumer correction fields. A 17-row snapshot shows wide
 reported consumer-level progress, but not a comparable rate or verified
 individual recovery. The workbook was streamed in memory and not retained.
 
+The [VRURC recall-key bridge](data/cpsc-vrurc-recall-key-bridge-2026-09-17.json)
+joins one API hazard/remedy notice to its later MPR correction row. It adds a
+dated product-level implementation path, but the API and MPR unit counts do
+not match and individual replacement receipt remains unobserved.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.

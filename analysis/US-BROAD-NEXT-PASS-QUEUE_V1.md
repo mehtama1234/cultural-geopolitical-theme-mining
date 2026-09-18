@@ -2966,3 +2966,11 @@ field, but reporting durations and denominators are not harmonized. This
 advances implementation visibility without becoming a consumer-recovery rate;
 the next step remains one recall cohort with verified exposure and individual
 outcome linkage.
+
+The [VRURC recall-key bridge](projects/us-marketplace-product-safety/data/cpsc-vrurc-recall-key-bridge-2026-09-17.json)
+joins one API notice to the later MPR progress row: hazard, injury signal,
+replacement remedy, consumer corrections, and total corrections are all
+visible under one key. The API’s roughly 190,000 units and the MPR’s 256,845
+products recalled do not match, so the bridge advances implementation staging
+but also opens a denominator/version reconciliation task. Receipt, timing,
+safe restoration, and remaining household loss are still missing.
