@@ -119,6 +119,27 @@ California facility. This strengthens the existence of a US production-demand
 hypothesis, but it does not establish a Polish order, a Polish allocation,
 license, transfer of work, or Polish output.
 
+## Public-financing opinion is a separate reception comparator
+
+The CBOS Flash 11/2026 survey supplies a public-judgment layer, but not a
+Barracuda-specific reception measure. Among 1,000 adult residents surveyed on
+23–25 March 2026, 51% supported Poland's participation in the EU SAFE
+low-interest military-equipment loan and 36% opposed it. The alternative
+proposal to finance armaments from NBP profit on gold operations drew 46%
+support and 37% opposition. The two routes were politically divided: SAFE
+support was 84% on the left and 59% in the center, while 65% on the right
+opposed it; the NBP proposal was supported by 65% on the right, with majority
+opposition on the left and in the center. In the cross-tab, 17% supported both
+routes, 35% SAFE only, 29% NBP only, and 8% opposed both.
+
+This closes a dated public-judgment surface around the cost, sovereignty, and
+party-political meaning of defense financing. It does not show that residents
+support Barracuda-500M, the Polish production agreement, a supplier, a local
+plant, or a particular procurement route; nor does opinion support an inference
+of political action, trust change, production, delivery, or geopolitical
+leverage. The survey is therefore a comparator for the still-open reception
+arrow, not a realization milestone.
+
 ## Next acquisition gate
 
 The next check should seek a dated document from PGZ, WZL-2, Anduril, the
@@ -153,6 +174,9 @@ framing should remain a separate evidence type.
 - [Polish Sejm API: official response to Interpelacja 18336](https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body)
 - [Normalized response excerpt and hash](../data/sejm-barracuda-interpellation-18336-response-2026-08-26.txt)
 - [Anduril: US Barracuda-500M framework and production disclosure](https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m)
+- [CBOS Flash 11/2026: Polish opinion on defense-financing sources](https://www.cbos.pl/PL/publikacje/flashe_tekst.php?nr=11%2F2026)
+- [Normalized CBOS public-financing opinion evidence note](../data/cbos-polish-defense-financing-opinion-2026-03-23.txt)
+- [CBOS public-financing opinion observation record](../../../records/us-poland-defense-financing-public-opinion-2026.json)
 
 **Evidence status:** public-source realization watchpoint; implementation
 terms and production targets are documented, while assembly, commissioning,

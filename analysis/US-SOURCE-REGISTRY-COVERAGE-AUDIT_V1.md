@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **85**
+- Observed domains outside registered families: **86**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -199,7 +199,7 @@ family that will be acquired, compared, or maintained over time.
 | `support.leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `uitspraken.rechtspraak.nl` | 4 | `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md`; `analysis/projects/ai-work-control/uber-ola-automated-decision-remedy-case-record-v1.md` |
 | `anduril.com` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-043.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
-| `commerce.gov` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json` |
+| `cbos.pl` | 3 | `analysis/projects/ai-work-control/findings/ai-work-control-043.md`; `analysis/records/us-poland-defense-financing-public-opinion-2026.json`; `analysis/records/us-poland-defense-financing-public-opinion-2026.json` |
 
 ## Reverse-audit decisions
 
@@ -249,6 +249,7 @@ without a recurring acquisition need and source-specific metadata.
 | `support.leapeasy.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
 | `uitspraken.rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `anduril.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `cbos.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `commerce.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `comptroller.war.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dropbox.com` | file delivery host | Do not register; preserve the NBER or author-provided artifact, version, and hash. |

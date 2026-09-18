@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-defense-financing-public-opinion-2026",
+  "title": "Polish public support for defense financing is positive but divided across SAFE and NBP funding routes",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "political_judgment_action", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "CBOS Flash 11/2026 adult-resident survey",
+  "geography": "Poland",
+  "observations": [
+    {
+      "period": "2026-03-23 through 2026-03-25; published 2026-03-30 as CBOS Flash 11/2026",
+      "denominator": {"value": 1000, "unit": "adult residents of Poland; CATI 80% and CAWI 20%", "value_type": "survey_sample"},
+      "measures": {
+        "safe_support": {"value": 51, "unit": "percent", "value_type": "reported_share"},
+        "safe_oppose": {"value": 36, "unit": "percent", "value_type": "reported_share"},
+        "safe_unaware": {"value": 7, "unit": "percent", "value_type": "reported_share"},
+        "safe_strong_support": {"value": 36, "unit": "percent", "value_type": "reported_share"},
+        "safe_categorical_oppose": {"value": 27, "unit": "percent", "value_type": "reported_share"},
+        "safe_support_left": {"value": 84, "unit": "percent; respondents on the left", "value_type": "reported_subgroup_share"},
+        "safe_support_center": {"value": 59, "unit": "percent; respondents in the center", "value_type": "reported_subgroup_share"},
+        "safe_oppose_right": {"value": 65, "unit": "percent; respondents on the right", "value_type": "reported_subgroup_share"},
+        "nbp_gold_profit_support": {"value": 46, "unit": "percent", "value_type": "reported_share"},
+        "nbp_gold_profit_oppose": {"value": 37, "unit": "percent", "value_type": "reported_share"},
+        "nbp_support_right": {"value": 65, "unit": "percent; respondents on the right", "value_type": "reported_subgroup_share"},
+        "nbp_oppose_left": {"value": 52, "unit": "percent; respondents on the left", "value_type": "reported_subgroup_share"},
+        "nbp_oppose_center": {"value": 50, "unit": "percent; respondents in the center", "value_type": "reported_subgroup_share"},
+        "support_both_routes": {"value": 17, "unit": "percent", "value_type": "reported_cross_tab_share"},
+        "support_safe_only": {"value": 35, "unit": "percent", "value_type": "reported_cross_tab_share"},
+        "support_nbp_only": {"value": 29, "unit": "percent", "value_type": "reported_cross_tab_share"},
+        "oppose_both_routes": {"value": 8, "unit": "percent", "value_type": "reported_cross_tab_share"}
+      },
+      "method": "Translation-neutral extraction of the published CBOS Flash 11/2026. The fieldwork dates, mixed CATI/CAWI design, sample denominator, overall shares, ideology subgroup shares, and cross-tab route preferences are retained as separate survey measures.",
+      "uncertainty": "This is cross-sectional self-reported public opinion. Subgroup base sizes and sampling errors are not reproduced here; ideology and potential-electorate groupings are survey classifications. The result does not identify weapon-specific preferences or subsequent behavior.",
+      "subgroup": "Adult residents of Poland; political-ideology and potential-electorate groupings as reported by CBOS.",
+      "counterinterpretation": "Support for a financing route does not equal support for Barracuda-500M, a local-production agreement, a particular supplier, or a procurement order. The political split may reflect broader EU, sovereignty, fiscal, and party-identification views.",
+      "source_url": "https://www.cbos.pl/PL/publikacje/flashe_tekst.php?nr=11%2F2026",
+      "retrieval_hash": "artifact:sha256:143b78e5e5f7c4f85867e52af10bc8239066191df1fdb89e706008422135fbcc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/findings/ai-work-control-043.md", "claim": "Barracuda realization watchpoint supplies the separate implementation, production, and delivery boundary.", "status": "related-finding"},
+    {"source_url": "../../projects/ai-work-control/data/cbos-polish-defense-financing-opinion-2026-03-23.txt", "claim": "Normalized local evidence note preserves the CBOS survey denominator, percentages, and interpretation boundary.", "status": "local-artifact"},
+    {"source_url": "https://www.cbos.pl/PL/publikacje/flashe_tekst.php?nr=11%2F2026", "claim": "CBOS primary survey supplies dated Polish public judgment about alternative defense-financing routes and their political division.", "status": "primary-source"}
+  ],
+  "boundary": "This record measures Polish public judgment about defense-financing routes. It does not measure Barracuda-500M demand, public reception of the local-production agreement, production, delivery, trust change, political action, or geopolitical leverage. The observed support shares are judgments, not behavioral outcomes."
+}
