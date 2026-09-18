@@ -579,6 +579,12 @@ keeps critical-mineral dependence, CHIPS disbursement and milestones,
 data-center/grid capacity, and defense procurement on separate clocks. The
 record does not establish realized autonomy, replaceability, customer use,
 accepted delivery, affected-actor burden, or changed external behavior.
+The new [Navient compensation trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a remedy counterexample to the consumer-recourse lane: the CFPB reports
+checks being distributed while the underlying student-loan obligation is not
+reduced. This separates compensation for a distinct harm from balance
+correction, restored financial room, and practical exit; person-level receipt,
+adequacy, credit correction, remaining burden, trust, and action remain open.
 
 The SHED 2024–2025 financial-path health/care comparison is also preserved as
 six validated conditional trend observations, keeping the health and adult-care

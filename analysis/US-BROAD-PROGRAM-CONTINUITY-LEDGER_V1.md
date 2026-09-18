@@ -1487,3 +1487,11 @@ stage-aware reader route without a pooled autonomy or leverage estimate. The
 next test is one identifier-bearing realization ledger joining supplier,
 place, milestone, acceptance, customer use, substitute qualification,
 maintenance, disruption, affected actor, and later external response.
+
+The next consumer-recourse rotation promotes the [Navient compensation trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The official CFPB case page exposes
+ongoing compensation while leaving the underlying student-loan obligation
+unchanged, making payment, account correction, adequacy, and exit distinct
+stages. The next test is a lawful claimant ledger joining eligibility, check
+issuance and receipt, amount/channel, balance and credit correction, remaining
+burden, and later servicing dependence or switching.
