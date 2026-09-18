@@ -81,6 +81,23 @@
       "status": "reported"
     },
     {
+      "period": "FY2026; U.S. Department of War Comptroller mandatory funding allocation plan",
+      "denominator": {"value": 1, "unit": "official federal funding-allocation plan; program categories are not pooled with product-specific awards", "value_type": "official_plan"},
+      "measures": {
+        "low_cost_cruise_missile_funding": {"value": 1500000000, "unit": "US dollars for development, procurement, and integration of low-cost cruise missiles", "value_type": "reported_allocation"},
+        "famm_palletized_quantity": {"value": 1000, "unit": "reported procurement quantity", "value_type": "reported_quantity"},
+        "lccm_ground_launched_quantity": {"value": 1000, "unit": "reported procurement quantity for Low-Cost Containerized Missile-Ground Launched systems", "value_type": "reported_quantity"},
+        "industrial_base_policy": {"value": "testing, procurement, production-rate, and surge-capacity support including allies and partners", "unit": "official plan description", "value_type": "reported_policy_scope"}
+      },
+      "method": "Bounded extraction from the official U.S. Department of War Comptroller FY2026 Mandatory Funding Allocation Plan. Funding, named program categories, quantities, and industrial-base language are retained as an allocation-stage observation rather than matched to a product-specific award.",
+      "uncertainty": "The plan does not identify Anduril, Barracuda SLB-500M, a recipient, contract line, obligation, production site, delivery, acceptance, or Polish demand. The reported LCCM-GL quantity cannot be assigned to Barracuda without a program-specific federal record.",
+      "subgroup": "U.S. low-cost cruise-missile and Affordable Mass Munitions funding categories; ally/partner industrial-base language.",
+      "counterinterpretation": "A federal allocation category can make a capability-development route more plausible while leaving execution, contractor assignment, production, delivery, and operational readiness unresolved.",
+      "source_url": "https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf",
+      "retrieval_hash": "source-pdf:sha256:4dcd91ae15ea37508d0d77b9fa67139c5dcf2e909b946b9339b9358cc217fd2f; artifact:sha256:73648cda0a589e44eadce2dc8c23a50f64645617ed72fbe511c60e4b3c15ff1e",
+      "status": "reported"
+    },
+    {
       "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
       "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
       "measures": {
@@ -104,7 +121,8 @@
     {"source_url": "../../records/us-sipri-military-expenditure-2025-state-capacity.json", "claim": "SIPRI supplies resource-allocation and alliance-spending context.", "status": "related-record"},
     {"source_url": "../../records/us-imf-weo-geopolitical-fiscal-shock-2026.json", "claim": "IMF WEO supplies conditional defense-boom, fiscal, social-spending, and conflict-risk context.", "status": "related-record"},
     {"source_url": "../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json", "claim": "USAspending supplies a bounded award-to-subaward and component-description route.", "status": "related-record"},
-    {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"}
+    {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"},
+    {"source_url": "https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf", "claim": "The official FY2026 allocation plan supplies a federal financing and program-category stage for low-cost cruise-missile development without a Barracuda-specific attribution.", "status": "primary-source"}
   ],
-  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
+  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
 }

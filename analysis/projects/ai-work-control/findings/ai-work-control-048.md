@@ -1,6 +1,6 @@
 # Finding 048: Defense spending and procurement are inputs to state capacity, not proof of leverage
 
-**Status:** provisional non-pooled geopolitical/state-capacity bridge · **Checked:** 2026-09-14
+**Status:** provisional non-pooled geopolitical/state-capacity bridge · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -12,7 +12,10 @@ The atlas now follows the defense question across four distinct stages:
    growth, inflation, and social spending.
 3. USAspending exposes one US JASSM/LRASM award's subordinate recipients and
    component-description structure.
-4. Polish and US-linked official announcements show procurement, reciprocal
+4. The FY2026 Comptroller allocation plan adds an official financing and
+   program-category stage for low-cost cruise missiles and Affordable Mass
+   Munitions.
+5. Polish and US-linked official announcements show procurement, reciprocal
    access, financing, planned co-production, and implementation objectives.
 
 The defensible synthesis is: **resources, contracts, supplier structures, and
@@ -29,6 +32,7 @@ observed external actor changing behavior as a result.
 | Fiscal/social trade-off | IMF reports a typical defense-boom increase of 2.7 percentage points of GDP, with 67% financed through deficits and public debt rising 7 points within three years in its cross-country analysis. | Historical cross-country estimates and conditional projections | Exact national budget composition, distribution, and political response |
 | Industrial award route | One USAspending parent-award extract contains 74 returned subaward records, 51 recipient names, and $1.143B in reported subordinate amounts. | Bounded federal subaward extract | Complete supply chain, ownership, facility, production, delivery, or supplier competition |
 | US Barracuda demand/capacity route | Anduril's May 2026 release reports a framework agreement for at least 3,000 SLB-500M systems over three years, a minimum 1,000-round annual rate, first deliveries in the first half of 2027, and a producing 115,000-plus-square-foot Southern California facility. | Contractor-reported framework and capacity disclosure | Independently verified federal obligation, delivery, acceptance, operational inventory, or transfer of this demand to Poland |
+| Federal financing/program category | The FY2026 Comptroller plan identifies $1.5B for low-cost cruise-missile development, procurement, and integration, including reported quantities of 1,000 FAMM-Palletized and 1,000 LCCM-GL systems. | Official allocation plan and program categories | No Barracuda, Anduril, recipient, contract line, obligation, production, delivery, acceptance, or Polish-demand attribution |
 | Foreign procurement | Poland's 2024 JASSM-ER agreement reports approximately $735M and a planned 2026–2030 delivery window. | Government procurement announcement | Delivery, acceptance, fielding, maintenance, and operational use |
 | Reciprocal/co-production stage | 2026 official announcements describe buyer/seller access, Poland-US-Estonia-Latvia Barracuda cooperation, assembly followed by production, technology/know-how language, a “thousands” target, and a broader $4B FMF agreement. | Agreements, plans, financing, and institutional follow-up | Commissioned line, completed units, local-content share, component control, replaceability, and regional customer behavior |
 
@@ -93,6 +97,18 @@ remain contractor-reported and do not establish a matched federal award file,
 accepted inventory, or Polish demand. They also cannot be used to assume that
 the US order finances or guarantees Poland's later assembly and localization
 path.
+
+### Federal funding category is not a product award
+
+The Comptroller's FY2026 Mandatory Funding Allocation Plan adds an important
+intermediate stage: official federal financing and program-category intent. It
+identifies $1.5B for low-cost cruise-missile development, procurement, and
+integration and names 1,000 FAMM-Palletized and 1,000 LCCM-GL systems,
+alongside testing, production-rate, and surge-capacity language. This makes a
+broader industrial-capacity route more concrete, but it does not identify
+Barracuda, Anduril, a recipient, an obligation, a production line, or Polish
+demand. The LCCM-GL quantity therefore remains a category-level observation,
+not a Barracuda quantity.
 
 ### Co-production creates a testable autonomy claim
 
@@ -165,6 +181,8 @@ capability-to-response mechanism is documented.
 - [JASSM-ER procurement record](../../../records/us-jassm-er-poland-external-procurement-response-2024-2030.json)
 - [Anduril US Barracuda-500M framework and production disclosure](https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m)
 - [Normalized US Barracuda evidence note](../data/anduril-us-barracuda-500m-framework-agreement-2026-05-13.txt)
+- [FY2026 Comptroller low-cost cruise-missile funding plan](https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf)
+- [Normalized federal funding evidence note](../data/fy2026-mandatory-funding-low-cost-cruise-missile-plan-2026.txt)
 
 **Evidence status:** bounded resource-to-capability comparison; operational
 delivery, domestic incidence, replaceability, public reception, leverage, and
