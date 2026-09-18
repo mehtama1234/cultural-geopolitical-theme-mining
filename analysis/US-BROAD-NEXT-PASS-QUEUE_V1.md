@@ -3063,3 +3063,14 @@ promote the 2023 national BDS baseline into a 2023→2024 comparison. The next
 BDS action is an available state/county-sector table with explicit geography,
 sector, denominators, and a counterexample, or a return to the dated event
 ledger if geographic comparability cannot be established.
+
+The new [BDS county turnover profile](projects/us-local-business-place/bds-county-turnover-profile-v1.md)
+uses the available nationwide 2023 state–county aggregate rather than the
+Puerto Rico-only `bdspr` public-use route or the 275 MB county-sector table.
+Among 3,107 county rows with comparable rates, 907 had exit above entry and
+885 had negative net job creation. This advances the realized-employer stage
+and supplies high-turnover positive-net and negative-net counterexamples, but
+it is not sector-specific and does not link applications to firms or services.
+The next BDS step is a storage-justified county-sector slice with a pre-specified
+geography/sector universe, or a dated event ledger; do not download the full
+275 MB table by default.

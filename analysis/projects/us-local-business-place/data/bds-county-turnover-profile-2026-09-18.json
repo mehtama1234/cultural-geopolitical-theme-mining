@@ -1,0 +1,26 @@
+{
+  "audit_type": "bds-county-turnover-profile-v1",
+  "checked": "2026-09-18",
+  "source_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty.csv",
+  "source_sha256": "7592cb39c1dcd712815c29a6452b258674529d4aed0de07acb5eb13c76d309114",
+  "source_unit": "state-county aggregate across industries",
+  "year": 2023,
+  "rows": 3194,
+  "state_codes": 51,
+  "positive_establishment_rows": 3192,
+  "rate_comparable_rows": 3107,
+  "negative_net_job_creation_rate_rows": 885,
+  "exit_rate_greater_than_entry_rate_rows": 907,
+  "medians": {
+    "establishment_entry_rate": 9.463,
+    "establishment_exit_rate": 8.527,
+    "net_job_creation_rate": 1.912
+  },
+  "illustrative_rows": [
+    {"st": "56", "cty": "033", "estabs": 1891, "emp": 14487, "entry_rate": 26.599, "exit_rate": 14.366, "net_job_creation_rate": 7.214, "role": "high-turnover positive-net counterexample"},
+    {"st": "48", "cty": "033", "estabs": 11, "emp": 49, "entry_rate": 36.364, "exit_rate": 36.364, "net_job_creation_rate": -3.922, "role": "high-turnover negative-net counterexample"},
+    {"st": "32", "cty": "021", "estabs": 55, "emp": 647, "entry_rate": 10.256, "exit_rate": 22.222, "net_job_creation_rate": -57.448, "role": "exit-dominant negative-net counterexample"}
+  ],
+  "boundary": "This is a county aggregate across industries. It does not identify firms, sectors, applications, survival, service access, wages, ownership, household outcomes, political response, or geopolitical consequence. Disclosure marks are not zeros.",
+  "raw_storage": "not retained; transient official download only"
+}

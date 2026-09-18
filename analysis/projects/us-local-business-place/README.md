@@ -99,6 +99,11 @@ adds geographic depth: selected sectors have different entry, exit, and net-job
 patterns across states, so a national growth signal cannot be treated as one
 uniform social experience.
 
+The [BDS county turnover profile](bds-county-turnover-profile-v1.md) adds the
+available nationwide county aggregate. It shows that 907 of 3,107 comparable
+county rows had exit above entry in 2023 and that 885 rows had negative net job
+creation, while preserving the fact that this file is not sector-specific.
+
 The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-population-layer-v1.md)
 normalizes manufacturing, retail, care, and food establishments by county
 population. It is a rough local-capacity baseline, not a measure of access,

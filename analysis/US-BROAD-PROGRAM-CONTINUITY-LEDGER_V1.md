@@ -2077,6 +2077,15 @@ reducing the affected loans, and ADSS records two completed distributions with
 the matter closed. Recipient receipt, correction, remaining loss, trust, and
 exit remain open.
 
+The [BDS county turnover profile](projects/us-local-business-place/bds-county-turnover-profile-v1.md)
+adds a nationwide realized-employer geography layer: in 2023, 907 of 3,107
+county rows with comparable entry/exit rates were exit-dominant, and 885 had
+negative net job creation. This is an aggregate-across-industries diagnostic,
+not a county-sector, application-to-firm, service-access, household, or
+political arrow. The profile retains high-turnover positive-net and
+high-turnover negative-net counterexamples and keeps the full county-sector
+file outside default storage.
+
 The [BDS 2024 sector availability recheck](projects/us-local-business-place/bds-2024-sector-availability-recheck-2026-09-18.md)
 tested the next non-authenticated local-business depth step. Census's official
 time-series index exposes 2018–2023 but not a 2024 directory, and the direct
