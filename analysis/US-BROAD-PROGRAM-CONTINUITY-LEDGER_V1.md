@@ -211,6 +211,12 @@ boundary that later status is not verified recovery: claim identity,
 treatment continuity, alternatives, remedy, household trade-offs, trust, and
 exit remain open.
 
+The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
+tested whether the official February PUF could extend the existing fraud
+follow-up. It found zero exact `SCRAMID` overlap with April or June, while the
+April–June intersection remains 6,564. Preserve the two-wave boundary and do
+not infer a three-wave baseline from the broader 2025 longitudinal design.
+
 The sixteenth rotation deepens the institutional-response arrow through the
 [MEPS friction-to-later-panel screen](projects/us-household-constraint-cascade/meps-friction-later-panel-v1.md).
 It carries route-specific denial or prior-authorization reports on the strict

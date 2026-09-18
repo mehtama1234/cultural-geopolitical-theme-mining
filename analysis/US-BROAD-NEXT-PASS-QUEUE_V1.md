@@ -194,6 +194,14 @@ It is now promoted into the canonical comparative [remedy record](records/au-reh
 and [detailed finding](projects/ai-work-control/findings/ai-work-control-091.md),
 which preserves the one-case Australian boundary and separates access and
 financial remedies.
+
+The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
+tested the official February PUF against the April and June respondent keys.
+It found zero February–April and zero February–June `SCRAMID` overlap, while
+April–June retains 6,564 linked respondents. The February file therefore cannot
+extend this route to a three-wave baseline; the existing April–June screen
+remains the only valid linkage, and the next priority stays a dated remedy or
+alternative case rather than another cross-sectional HTOPS comparison.
 The 2026-09-17 official Bulletin recheck also preserves the distinction
 between Portier's $5,500 settlement offer and the Commission's $7,096.96 gross
 order; neither is payment receipt.

@@ -1,0 +1,40 @@
+{
+  "format": "htops-2025-february-linkage-recheck-v1",
+  "checked": "2026-09-18",
+  "key": "SCRAMID",
+  "release_design_note": "Census identifies HTOPS as longitudinal throughout 2025; beginning in March 2026 it transitioned to a cross-sectional design.",
+  "releases": {
+    "february_2025": {
+      "puf_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HTOPS_HPS_2502_CSV.zip",
+      "supplemental_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HPS_HTOPS_2502_Supplemental_PUF_CSV.zip",
+      "puf_zip_sha256": "ce51ccb58ff55cc52e3d919bf106e0673e0b334de8e08cb3922e36c660258a72",
+      "supplemental_zip_sha256": "1d773a666a2de95fe1181f8a933c68b3dcdfbb063d8d8fd72de7e8f794a1dafc",
+      "puf_csv_sha256": "66fe76c322b6664c7b9782849044937da8653181a68347a478f550695978556f",
+      "replicate_csv_sha256": "f3f5c53aca906b4ad0c89b5c6806aae34a0c8868bd1dba79af52ee09d1ef3045",
+      "supplemental_csv_sha256": "4c5fe41eb74fa16397f7dc429d3bc8a3c155543f9d1b04fe7e2f50198a32e6ab",
+      "puf_rows": 6740,
+      "unique_scramid": 6740
+    },
+    "april_2025": {
+      "puf_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HTOPS_HPS_2504_CSV.zip",
+      "puf_zip_sha256": "c6976130ec387f0555200fa1197bd4875966b8b8a4ad847ba3220749a939673e",
+      "puf_csv_sha256": "d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+      "puf_rows": 8850,
+      "unique_scramid": 8850
+    },
+    "june_2025": {
+      "puf_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2025/topical/HTOPS_HPS_2506_CSV.zip",
+      "puf_zip_sha256": "8d14cf52f5c3bc4fab5e74e3136cb753ab1195a06314725f00761035158172d4",
+      "puf_csv_sha256": "938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+      "puf_rows": 7485,
+      "unique_scramid": 7485
+    }
+  },
+  "overlap": {
+    "february_april": 0,
+    "february_june": 0,
+    "april_june": 6564,
+    "february_april_june": 0
+  },
+  "interpretation": "February cannot be joined to the retained April-June same-respondent route by SCRAMID; retain April-June as the only valid linkage and do not promote a three-wave estimate."
+}

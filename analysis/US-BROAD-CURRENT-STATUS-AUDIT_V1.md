@@ -1780,7 +1780,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 311 trend records and 1108 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,283 local Markdown links and 658 published HTML pages pass link
+families; 1,284 local Markdown links and 658 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -2918,3 +2918,10 @@ explicitly does not reduce the underlying loans, and ADSS records two completed
 distributions with the matter closed. These sharpen compensation-versus-
 restoration and closed-distribution boundaries without establishing individual
 receipt or recovery.
+
+The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
+tested the official February PUF against the April and June files and found no
+exact `SCRAMID` overlap with either, while April–June retains 6,564 linked
+respondents. This closes the tempting but invalid three-wave extension: the
+HTOPS fraud route remains an April–June exploratory linkage, not a February
+baseline or a verified recovery panel.
