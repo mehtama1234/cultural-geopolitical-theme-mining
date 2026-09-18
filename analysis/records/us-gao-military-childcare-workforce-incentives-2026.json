@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-military-childcare-workforce-incentives-2026",
+  "title": "Child-care incentives can coexist with staffed-capacity and waitlist pressure",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107831; Department of Defense child-development-center workforce incentives and capacity",
+  "geography": "United States Department of Defense child-care program, with service and state incentive comparisons",
+  "observations": [
+    {
+      "period": "Fiscal year 2024; DOD child-care program workforce and children served",
+      "denominator": {"value": 19000, "unit": "approximately nonappropriated-fund DOD child-care workers", "value_type": "reported_program_population"},
+      "measures": {
+        "children_served": {"value": 172000, "unit": "nearly children of service members and DOD civilian employees", "value_type": "reported_program_population"},
+        "program_status": {"value": "DOD operates the largest U.S. employer-sponsored child-care program; recruiting and retaining workers has been difficult and contributed to lengthy waitlists and wait times", "unit": "institutional capacity finding", "value_type": "reported_finding"}
+      },
+      "method": "GAO review of DOD and military-service documents, service data, and interviews with officials about workforce incentives, benefits, and workplace initiatives.",
+      "uncertainty": "These are DOD program totals, not the civilian child-care workforce or all military-family need; the report does not quantify unmet slots, waitlist duration, family work loss, worker turnover, or the causal contribution of recruitment difficulty.",
+      "subgroup": "DOD child-development-center workers paid using nonappropriated funds and children of service members and DOD civilian employees.",
+      "counterinterpretation": "A large employer-sponsored program may provide substantial protection even when some installations face shortages; waitlists can reflect demand, local mobility, eligibility, or scheduling as well as worker supply.",
+      "source_url": "https://www.gao.gov/products/gao-26-107831",
+      "retrieval_hash": "sha256:e14a6f6b27328a93b6e3636ab769235e5e216cead283a529f876938640499951",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2024; Air Force, Army, and Marine Corps child-care worker incentives",
+      "denominator": {"value": 14546, "unit": "child-care workers employed at any point during 2024 across the three services included in the incentive table", "value_type": "reported_worker_denominator"},
+      "measures": {
+        "recruitment_bonuses": {"value": 505, "unit": "incentives", "value_type": "reported_count"},
+        "retention_allowances": {"value": 4450, "unit": "incentives", "value_type": "reported_count"},
+        "relocation_bonuses": {"value": 0, "unit": "incentives", "value_type": "reported_count"},
+        "total_incentives": {"value": 4955, "unit": "incentives", "value_type": "reported_count"},
+        "service_concentration": {"value": "Air Force 4,074; Army 455; Marine Corps 426", "unit": "reported total incentives by service", "value_type": "reported_breakdown"}
+      },
+      "method": "GAO analysis of summary data from the Air Force, Army, and Marine Corps; the Air Force includes 354 Space Force child-care workers in its reported workforce.",
+      "uncertainty": "Navy data were excluded because officials could not readily separate recruitment bonuses and retention allowances from performance awards; incentive issuance is not a hire, retained worker, lower turnover, staffed slot, or family outcome.",
+      "subgroup": "Nonappropriated-fund child-care workers in the Air Force, Army, and Marine Corps; Navy is not quantitatively comparable in this table.",
+      "counterinterpretation": "Retention allowances may preserve experienced staff and classroom continuity even without increasing headcount; concentration may reflect service size or different administrative systems rather than unequal need.",
+      "source_url": "https://www.gao.gov/products/gao-26-107831",
+      "retrieval_hash": "sha256:e14a6f6b27328a93b6e3636ab769235e5e216cead283a529f876938640499951",
+      "status": "reported"
+    },
+    {
+      "period": "2024; benefit and workplace-initiative implementation context",
+      "denominator": {"value": null, "unit": "DOD child-care workforce and installation programs; no common implementation denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "benefit_route": {"value": "services may offer child-care fee discounts, including a 100 percent discount for a first child enrolled at a DOD child-development center", "unit": "benefit design", "value_type": "reported_policy"},
+        "workplace_initiatives": {"value": "training, mentoring, classroom-assessment, and classroom-environment initiatives are used to recruit or retain workers", "unit": "institutional intervention menu", "value_type": "reported_policy"},
+        "geographic_concentration": {"value": "California, Florida, Colorado, Texas, and Virginia had the most reported incentives", "unit": "state concentration context", "value_type": "reported_context"}
+      },
+      "method": "GAO review of service policies, documents, and official interviews; services can combine incentives and initiatives based on service and installation needs.",
+      "uncertainty": "The report does not estimate benefit take-up, effective fee burden, classroom quality, turnover, waitlist change, parent work schedules, or the causal effect of any intervention; state incentive totals do not locate the greatest shortage or family burden.",
+      "subgroup": "DOD child-care workers, military families, and installations with service-specific benefit and workforce systems.",
+      "counterinterpretation": "A fee discount can improve affordability without adding a slot; training can improve quality or retention but may temporarily reduce coverage while workers participate; local conditions can dominate national incentive counts.",
+      "source_url": "https://www.gao.gov/products/gao-26-107831",
+      "retrieval_hash": "sha256:e14a6f6b27328a93b6e3636ab769235e5e216cead283a529f876938640499951",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107831", "claim": "Official GAO review supplies DOD program scale, service incentive counts, state concentration, benefit examples, methods, and data limitations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a DOD child-care provider-workforce and institutional-capacity surface. It does not establish incentive effects on turnover, waitlists, staffed slots, quality, fee affordability, parent work attendance, military readiness, household security, trust, political action, or civilian child-care conditions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; accessible report PDF, DOD administrative archive, installation data, and family microdata not retained",
+    "html_sha256": "sha256:e14a6f6b27328a93b6e3636ab769235e5e216cead283a529f876938640499951",
+    "checked": "2026-09-18"
+  }
+}

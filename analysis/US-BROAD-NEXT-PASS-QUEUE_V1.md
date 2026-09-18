@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 324 records and
-1157 observations.
+have exact registered-URL references. The trend registry holds 325 records and
+1160 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2951,6 +2951,14 @@ now preserves the official paper's conditional household universe, converted
 work-time measure, replicate-weight boundary, and non-mutually-exclusive
 adaptation menu. It advances the care-to-work bridge without closing the dated
 provider event, subsidy/leave route, later recovery, trust, or action fields.
+
+The [canonical military child-care workforce record](records/us-gao-military-childcare-workforce-incentives-2026.json)
+now adds the provider-side complement: DOD program scale, service incentives,
+fee discounts, training, waitlist pressure, and local variation. It advances the
+care-supply stage without establishing staffed-slot reliability, parent work,
+readiness, incentive effects, or civilian generalization. The next decisive
+test remains an installation-year ledger linking worker conditions to staffed
+slots, waitlist movement, family use, and parent work.
 
 The [GAO 2026 military child-care workforce and capacity layer](projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md)
 adds the provider-supply and institutional-readiness stage. It separates
