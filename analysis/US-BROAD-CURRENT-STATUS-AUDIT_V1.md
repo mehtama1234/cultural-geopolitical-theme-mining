@@ -1778,6 +1778,14 @@ none. These overlapping counts expose the institutional-stage gap; they do not
 estimate remedy effectiveness, payment receipt, worker welfare, dependence, or
 U.S. prevalence.
 
+The new [Grubhub multi-sided remedy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a U.S. platform program with multiple affected sides. FTC/Illinois records
+report more than $23.8 million distributed to 640,038 identified consumers and
+prospective controls for driver-pay claims, blocked-account disputes, and
+restaurant consent. The announcement does not separate drivers, diners, and
+restaurants or establish individual receipt, account/income restoration,
+implementation quality, continued use, switching, or exit.
+
 The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
 adds a stronger payment-distribution comparator: the FTC reports more than
 $60.6 million returned through earlier rounds and a current Zelle route for

@@ -1578,3 +1578,12 @@ as a separate remedy clock. The next test is a same-applicant ledger joining
 channel, effort, qualification, consideration, claimant eligibility, payment
 receipt, post-settlement hiring, monitoring, recurrence, and later household
 or political meaning.
+
+The next multi-sided-remedy rotation promotes the [Grubhub multi-sided remedy
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The reported program combines
+aggregate consumer payments with driver-pay, blocked-account, and restaurant-
+consent controls, but does not publish group-specific denominators or lived
+outcomes. The next test is a same-participant ledger for drivers, diners, and
+restaurants joining eligibility, receipt, account or visibility correction,
+income/sales outcome, control use, alternatives, continued use, switching,
+trust, and exit.
