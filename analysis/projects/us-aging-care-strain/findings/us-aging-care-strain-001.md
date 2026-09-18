@@ -12,7 +12,9 @@ of household income. Only 3.7% reported problems obtaining care that prevented
 more work, but affected households reported an average of 65.8 converted work
 days lost.
 
-The response is a menu rather than one outcome: 15.6% selected paid leave,
+The paper reports replicate-weight margins of error: ±0.7 percentage points for
+paid-care use, ±$403 for mean spending, ±0.3 points for the care-problem share,
+and ±7.5 days for overall work-time loss. The response is a menu rather than one outcome: 15.6% selected paid leave,
 8.1% unpaid leave, 6.7% cutting hours, 2.0% quitting a job, 4.1% not looking
 for a job, and 6.8% supervising children while working. The categories are not
 mutually exclusive.
@@ -23,7 +25,7 @@ The income-conditioned pattern is the key reversal. Households below 100% of
 the federal poverty level reported paid leave at 4.9% and non-search at 14.0%;
 households above 400% reported paid leave at 21.2% and non-search at 6.9%.
 Among affected households, average converted work-time loss was 114.6 days
-below 100% of poverty versus 43.3 days above 400%.
+(MOE 19.7) below 100% of poverty versus 43.3 days (MOE 9.3) above 400%.
 
 This does not show that income caused the adaptation. It shows why paid-care
 spending, leave, labor-force participation, and care burden cannot be collapsed
@@ -44,7 +46,10 @@ care need or unavailable/unsafe/unaffordable care
 - The CPS ASEC questions refer to 2024 and do not follow households into a
   later period.
 - “Days lost” is converted from hours, days, or weeks; the paper top-codes some
-  reports and notes that unit selection differs by labor-force status.
+  reports and notes that unit selection differs by labor-force status. Overall,
+  25% reported hours, 29% days, and 46% weeks; week reports averaged 123.9
+  converted days versus 15.4 for hour reports, so the measure is not a simple
+  absence count.
 - Adaptation responses permit multiple selections and do not identify the
   chosen sequence, duration, wages, provider, commute, subsidy, employer rule,
   or child outcome.
