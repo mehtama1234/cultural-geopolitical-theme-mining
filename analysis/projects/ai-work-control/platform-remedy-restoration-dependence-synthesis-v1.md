@@ -68,8 +68,11 @@ The strongest individual records currently visible are:
   not evidence that the worker lacked alternatives or freely chose dependence.
 - **PR-020:** reactivation and a $6,073.23 gross lost-earnings order with a
   payment deadline are visible; actual receipt remains unobserved.
-- **PR-021, PR-022, PR-016, and PR-017:** reactivation or reactivation orders
-  are visible while lost-pay quantum, payment, or implementation remains open.
+- **PR-022 / Waheed:** a 16 June 2026 appeal-stay order makes a $259.38-per-week
+  interim payment obligation visible from 28 May 2026, but receipt, actual
+  access, final quantum, and appeal outcome remain unobserved.
+- **PR-021, PR-016, and PR-017:** reactivation or reactivation orders are
+  visible while lost-pay quantum, payment, or implementation remains open.
 
 These are not pooled estimates. They are a deliberately small set of public
 case records whose unit is a proceeding or named worker, with uneven follow-up

@@ -1614,10 +1614,13 @@ The next platform-remedy rotation promotes the [platform-remedy restoration
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 27-record comparative ledger
 shows restoration, compensation recognition, refusal, dismissal, and continued
 use as separate institutional stages; it records no durable recurrence
-prevention or worker exit. The next test is a same-case platform-worker ledger
-joining review, restoration, payment receipt, alternatives, recurrence,
-worker-reported recovery, switching, and exit while preserving jurisdiction and
-procedural differences.
+prevention or worker exit. The Waheed appeal-stay recheck adds a distinct
+conditional interim-payment-obligation stage ($259.38 per week) while keeping
+receipt, actual access, final quantum, appeal outcome, and worker recovery
+open. The next test is a same-case platform-worker ledger joining review,
+restoration, payment receipt, alternatives, recurrence, worker-reported
+recovery, switching, and exit while preserving jurisdiction and procedural
+differences.
 
 The next recruitment-equity rotation promotes the [OpenAI/Statsig recruitment
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The DOJ settlement exposes a

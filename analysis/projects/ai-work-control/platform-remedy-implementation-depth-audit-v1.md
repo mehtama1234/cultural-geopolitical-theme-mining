@@ -22,6 +22,7 @@ interchangeable:
 | Access resumed without merits remedy | 1 | Access resumption is reported, but not as a final merits remedy |
 | Continued work after restoration | 1 | One primary record reports more than 150 later trips |
 | Alternative earnings during interruption | 1 | Mansoor's merits decision documents Baysec and increased Didi earnings used in the lost-pay calculation |
+| Conditional interim payment obligation | 1 | Waheed appeal-stay order conditions the stay on $259.38 per week; receipt is not observed |
 | Payment or lost-earnings stage observed | 23 | A rule, entitlement, order, or wage consequence is recorded; this broad stage count includes formal rules and status consequences, not only individual paid remedies |
 | Verified payment receipt | 0 | Not observed in the ledger |
 | Durable access or non-retaliation | 0 | Not observed in the ledger |
@@ -29,9 +30,13 @@ interchangeable:
 The counts overlap. A case may have both a reactivation order and a payment
 order. They are stage counts, not percentages of workers or independent
 outcomes. The continued-work record is the Hotak case; the alternative-earnings
-record is the Mansoor case. Neither establishes net recovery, payment receipt,
-durable access, or protection from retaliation. The Mansoor evidence also does
-not show that substitute work was freely chosen or equivalent in conditions.
+record is the Mansoor case; and the conditional interim-payment obligation is
+the Waheed case. The Waheed order is stronger than an unquantified entitlement,
+but it does not establish that payment was received, that access was restored,
+or that the appeal and final quantum were resolved. None of these records
+establishes net recovery, durable access, or protection from retaliation. The
+Mansoor evidence also does not show that substitute work was freely chosen or
+equivalent in conditions.
 
 ## Remedy chain
 

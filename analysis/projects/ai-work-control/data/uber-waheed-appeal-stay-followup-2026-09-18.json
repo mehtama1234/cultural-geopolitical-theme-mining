@@ -1,0 +1,26 @@
+{
+  "format": "platform-remedy-followup-recheck-v1",
+  "checked": "2026-09-18",
+  "case_id": "PR-022",
+  "matter": "UDE2025/160; appeal C2026/7842",
+  "scope": "Targeted official Fair Work Commission search for post-merits implementation, appeal stay, interim payment, and later appeal outcome.",
+  "sources_reviewed": [
+    {"url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc1801.pdf", "role": "primary_merits_decision", "retrieval_sha256": "5d839fca6435d4e9ed59948a6faceffa4012ca9f98f1ccd91708c80e328f0854", "result": "Deactivation found unfair; reactivation ordered within 7 days; lost remuneration ordered in principle with quantum to be determined."},
+    {"url": "https://www.fwc.gov.au/document-view/media/download/855694", "role": "primary_appeal_stay_order", "retrieval_sha256": "dea96afad44d6ba814b3fc5aa19131d7ed83772114065001c8797d96749b56aa", "result": "16 June 2026 consent stay pending appeal; Rasier conditioned to pay $259.38 per week from 28 May 2026 and not seek repayment of those interim payments."},
+    {"url": "https://www.fwc.gov.au/document-search?search-ui=decisions&keyword=Waheed", "role": "official_document_search", "result": "Located the merits decision and appeal stay order; no later public appeal determination or final quantum/payment-receipt record located in the returned Waheed results."}
+  ],
+  "stages": {
+    "unfair_deactivation_merits": "observed_adjudicated",
+    "reactivation_order": "observed_adjudicated_stayed_pending_appeal",
+    "lost_remuneration_order_in_principle": "observed_adjudicated_quantum_open",
+    "interim_payment_obligation": "observed_consent_stay_condition",
+    "interim_payment_receipt": "not_observed",
+    "actual_access_restoration": "not_observed",
+    "final_quantum": "not_observed",
+    "appeal_outcome": "not_observed",
+    "continued_work_or_switching": "not_observed",
+    "durable_access_or_non_retaliation": "not_observed"
+  },
+  "boundary": "An interim payment obligation is stronger than an unquantified entitlement but is not evidence of payment receipt. A stay condition and reactivation order do not establish actual account access, final lost-pay quantum, continued work, or durable recovery.",
+  "storage_boundary": "Only official decision metadata, URLs, hashes, stage statuses, and bounded search results are stored; no personal exhibits or bulk case-file material is retained."
+}

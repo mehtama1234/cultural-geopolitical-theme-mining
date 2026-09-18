@@ -160,7 +160,7 @@ family that will be acquired, compared, or maintained over time.
 
 | Domain | References | Example evidence files |
 |---|---:|---|
-| `fwc.gov.au` | 102 | `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md` |
+| `fwc.gov.au` | 105 | `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md` |
 | `doi.org` | 67 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-003.md` |
 | `justice.gov` | 28 | `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |

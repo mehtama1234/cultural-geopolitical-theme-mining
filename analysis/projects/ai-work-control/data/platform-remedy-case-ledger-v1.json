@@ -88,12 +88,12 @@
       "place": "Australia",
       "population": "Musharaf Waheed and Uber Driver Platform",
       "source_type": "Fair_Work_Commission_primary_merits_decision",
-      "decision_surface": ["rider_complaints", "warnings", "platform_access", "complaint_history", "lost_remuneration"],
+      "decision_surface": ["rider_complaints", "warnings", "platform_access", "complaint_history", "lost_remuneration", "appeal_stay", "interim_payment_obligation"],
       "worker_route": "Worker responses, union-supported application, statutory unfair-deactivation merits proceeding",
-      "implementation_stage": "adjudicated_unfair_deactivation_reactivation_and_lost_pay_entitlement_quantum_open",
-      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "observed_adjudicated_lost_remuneration_in_principle_quantum_open", "anti_retaliation": "not_observed"},
-      "evidence_strength": "high_for_merits_and_reactivation_low_for_quantum_receipt_durability_and_generalization",
-      "boundary": "[2026] FWC 1801 found the Code process deficient and deactivation unfair, ordered reactivation within 7 days, and ordered lost remuneration in principle. Quantum, payment, actual access, recurrence prevention, and anti-retaliation are not observed."
+      "implementation_stage": "appeal_stay_order_and_interim_payment_obligation_observed_reactivation_and_quantum_open",
+      "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered_stayed_pending_appeal", "payment_compensation": "observed_adjudicated_lost_remuneration_in_principle_interim_payment_obligation_quantum_open", "anti_retaliation": "not_observed"},
+      "evidence_strength": "high_for_merits_stay_and_interim_payment_condition_low_for_final_quantum_receipt_actual_access_durability_and_generalization",
+      "boundary": "[2026] FWC 1801 found the Code process deficient and deactivation unfair, ordered reactivation and lost remuneration in principle. The 16 June 2026 consent stay stayed those orders pending appeal, conditioned on Rasier paying $259.38 per week from 28 May 2026 and not seeking repayment. The public record does not establish that the weekly payments were received, that access was restored in practice, the final quantum, appeal outcome, recurrence prevention, or anti-retaliation."
     },
     {
       "id": "PR-001",
