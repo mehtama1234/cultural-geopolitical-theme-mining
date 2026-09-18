@@ -1933,3 +1933,13 @@ assistance, arrears/restoration, next bill, food/health/work adaptation,
 correction, trust, and action; preserve person-weighted rows, field-specific
 universes, replicate uncertainty, and credit-as-buffer versus limited-access
 counterexamples.
+
+The next care/work-timing rotation promotes the [SIPP SNAP-childcare
+time-loss trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record pairs
+adjacent-month stable SNAP status with annual childcare work-prevention and
+hours/days/weeks time-loss fields. The next test is a family ledger joining
+childcare need, paid/unpaid alternatives, SNAP notice/receipt, work prevention,
+time lost, schedule adaptation, agency/provider response, later
+earnings/health/school outcomes, trust, and action; preserve annual-versus-
+monthly clocks, stable-state selection, sparse cells, replicate uncertainty,
+and non-estimable entry/exit routes.

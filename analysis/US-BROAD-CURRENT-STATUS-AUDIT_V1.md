@@ -2777,6 +2777,16 @@ separate. The next test is a household ledger joining eligibility, notice,
 application/recertification, decision, timing/amount, food/work/health
 adaptation, interruption, appeal/correction, trust, and persistence.
 
+The next care/work-timing rotation promotes the [SIPP SNAP-childcare
+time-loss trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record pairs
+adjacent-month stable SNAP status with annual childcare work-prevention and
+hours/days/weeks time-loss fields, preserving 240 Fay–BRR replicates and sparse
+denominators. Annual and monthly clocks differ, stable status is selected, and
+no SNAP effect, care quality, or recovery is observed. The next test is a
+family ledger joining childcare need, paid/unpaid alternatives, SNAP
+notice/receipt, work prevention, time lost, schedule adaptation, agency/provider
+response, later earnings/health/school outcomes, trust, and action.
+
 The next household-finance rotation promotes the [SIPP utility-credit-savings
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The joint diagnostic adds
 credit-balance carrying, savings-account ownership, and monthly resource
