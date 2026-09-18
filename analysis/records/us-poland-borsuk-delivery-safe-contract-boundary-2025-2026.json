@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-poland-borsuk-delivery-safe-contract-boundary-2025-2026",
+  "title": "Borsuk delivery is documented for an earlier contract while SAFE lists a separate later contract scope",
+  "theme_ids": ["work", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "Polish Ministry of National Defence Borsuk and SAFE program pages",
+  "geography": "Poland; Polish Armed Forces and Polish defense industry",
+  "observations": [
+    {
+      "period": "2025-03-27 contract; first delivery reported December 2025",
+      "denominator": {"value": 111, "unit": "Borsuk infantry fighting vehicles in the March 2025 executive contract", "value_type": "contract_quantity"},
+      "measures": {
+        "contracted_borsuk_quantity": {"value": 111, "unit": "vehicles", "value_type": "reported_contract_quantity"},
+        "first_serial_delivery": {"value": 15, "unit": "vehicles handed over to the Polish Armed Forces", "value_type": "reported_delivered_quantity"},
+        "delivery_window": {"value": "2025–2029", "unit": "planned delivery years for the 111-vehicle contract", "value_type": "reported_schedule"},
+        "receiving_institution": {"value": "Polish Armed Forces", "unit": "reported recipient", "value_type": "reported"}
+      },
+      "method": "Bounded extraction from the official Polish Ministry of National Defence Borsuk program and contract pages. The 15-vehicle handover is retained as a product-level delivery event tied by the source to the earlier 111-vehicle contract.",
+      "uncertainty": "The source does not provide the full vehicle serial list, acceptance protocol, exact unit location, production-workforce measure, or a connection to the later SAFE contract. Delivery is not the same as operational employment or full capability.",
+      "subgroup": "Borsuk vehicles under the March 2025 executive contract with PGZ and Huta Stalowa Wola.",
+      "counterinterpretation": "A first delivery demonstrates realized output for one contract while leaving remaining production, sustainment, local-content control, and operational availability unresolved.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/bwp-borsuk",
+      "retrieval_hash": "artifact:sha256:20a893042cc80fd39606968068102782efa7d38ff092225b638f65156622fe53",
+      "status": "reported"
+    },
+    {
+      "period": "2026-05-28 through 2026-05-30; reported 2026-06-08",
+      "denominator": {"value": 146, "unit": "Borsuk vehicles listed in the SAFE-financed contract scope", "value_type": "reported_contract_scope"},
+      "measures": {
+        "safe_borsuk_scope": {"value": 146, "unit": "vehicles", "value_type": "reported_contract_quantity"},
+        "safe_contract_stage": {"value": "signed contract scope; no SAFE-specific delivery or acceptance in the cited source", "unit": "implementation stage", "value_type": "bounded_stage"}
+      },
+      "method": "Bounded extraction from the official MON SAFE program page. The 146-vehicle figure is retained as the later SAFE contract scope and is not pooled with the earlier 111-vehicle contract or its 15 reported deliveries.",
+      "uncertainty": "The source does not disclose a SAFE contract identifier, delivery schedule, obligation/payment record, acceptance, serial output, or vehicle-level link to the 15 units delivered under the earlier contract.",
+      "subgroup": "Borsuk scope listed among SAFE-financed contracts with the Polish defense industry.",
+      "counterinterpretation": "A same-product contract can expand expected demand without proving incremental production, delivery timing, domestic content, or operational availability.",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/program-safe",
+      "retrieval_hash": "artifact:sha256:20a893042cc80fd39606968068102782efa7d38ff092225b638f65156622fe53",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/data/borsuk-delivery-safe-contract-boundary-2025-2026.txt", "claim": "Normalized note preserves the earlier delivery, later SAFE scope, and non-pooling boundary.", "status": "local-artifact"},
+    {"source_url": "../../records/us-poland-safe-legislative-domestic-contracting-action-2026.json", "claim": "The SAFE contracting record supplies the broader legislative and domestic-contracting context.", "status": "related-record"},
+    {"source_url": "https://www.gov.pl/web/obrona-narodowa/bwp-borsuk", "claim": "MON supplies the Borsuk contract and first 15-vehicle delivery observation.", "status": "primary-source"},
+    {"source_url": "https://www.gov.pl/web/obrona-narodowa/program-safe", "claim": "MON supplies the later 146-vehicle SAFE contract scope.", "status": "primary-source"}
+  ],
+  "boundary": "This is a stage-compatible same-product comparison, not a pooled delivery estimate. It establishes one earlier Borsuk delivery and a separate later SAFE contract scope. It does not establish delivery or acceptance of the SAFE-funded 146 vehicles, production increment, local-content share, operational use, public reception, or geopolitical leverage."
+}

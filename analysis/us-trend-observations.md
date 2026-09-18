@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-313 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+314 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -881,6 +881,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Platform review can restore access while leaving payment, durability, and exit unobserved | voice, time, cost, work | consumer_power_recourse, platforms_data_attention, work_control_bargaining, public_systems_feedback, firm_sector_market_power, trust_identity_meaning | 27 named platform-worker case or comparative records in a non-pooled public remedy ledger across Australia, the United Kingdom, the European Union, Malaysia, Uganda, Kenya, and the Philippines | Comparative platform-work cases; not a US population estimate | 1 | 2024-2026; public platform-worker remedy and review case ledger | compared | [open](records/us-platform-remedy-restoration-dependence-2024-2026.json) |
 
 **Boundary:** This comparative case layer makes institutional review, restoration, payment recognition, refusal, continued use, and missing exit visible. It does not estimate remedy probability, worker welfare, platform dependence, payment receipt, recurrence prevention, trust change, switching, or US population prevalence.
+
+| Borsuk delivery is documented for an earlier contract while SAFE lists a separate later contract scope | work, cost | geopolitical_state_consequences, firm_sector_market_power, infrastructure_technology_dependency | Polish Ministry of National Defence Borsuk and SAFE program pages | Poland; Polish Armed Forces and Polish defense industry | 2 | 2025-03-27 contract; first delivery reported December 2025; 2026-05-28 through 2026-05-30; reported 2026-06-08 | reported | [open](records/us-poland-borsuk-delivery-safe-contract-boundary-2025-2026.json) |
+
+**Boundary:** This is a stage-compatible same-product comparison, not a pooled delivery estimate. It establishes one earlier Borsuk delivery and a separate later SAFE contract scope. It does not establish delivery or acceptance of the SAFE-funded 146 vehicles, production increment, local-content share, operational use, public reception, or geopolitical leverage.
 
 | Polish public support for defense financing is positive but divided across SAFE and NBP funding routes | cost, voice | geopolitical_state_consequences, political_judgment_action, trust_identity_meaning, household_room_consumption | CBOS Flash 11/2026 adult-resident survey | Poland | 1 | 2026-03-23 through 2026-03-25; published 2026-03-30 as CBOS Flash 11/2026 | reported | [open](records/us-poland-defense-financing-public-opinion-2026.json) |
 

@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 313 records and
-1120 observations.
+have exact registered-URL references. The trend registry holds 314 records and
+1122 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1457,6 +1457,13 @@ The [SAFE legislative and domestic-contracting action record](records/us-poland-
 therefore advances the political-decision → institutional-allocation arrow
 while leaving performance, household incidence, public reception, and
 geopolitical leverage open.
+The [Borsuk delivery boundary record](records/us-poland-borsuk-delivery-safe-contract-boundary-2025-2026.json)
+adds a product-level realization comparator: MON reports 15 serial Borsuks
+handed over in December 2025 under an earlier 111-vehicle contract, while the
+later SAFE page lists 146 Borsuks in a separate contract scope. The comparison
+advances the product-family delivery baseline without claiming that SAFE-funded
+vehicles have been delivered; same-product quantities remain non-pooled until
+contract identifiers, acceptance, and delivery records are matched.
 The [September realization watchpoint](projects/ai-work-control/findings/ai-work-control-043.md)
 records the current public-source non-observation and prevents the same
 agreement-stage evidence from being counted as a new production result.
