@@ -141,3 +141,18 @@ trust, and exit.
 The reusable [event-ledger builder](../../../scripts/build_cfpb_event_ledger_sample.py)
 derives its period label from `date_received` so future samples cannot silently
 inherit the wrong year.
+
+## 2026 freshness recheck
+
+The [2026-09-18 freshness recheck](cfpb-student-loan-event-ledger-freshness-recheck-2026-09-18.md)
+repeated the bounded first-25 retrieval design for January 1–September 19,
+2026. The API reported 14,696 matching student-loan records. All 25 returned
+records were web-submitted and labelled timely; 13 had an `In progress`
+company-response label and 12 were `Closed with explanation`. Only one had a
+public company response, and none had a narrative in the derived record. The
+sample spans September 12–16, 2026 and passed the broad event-ledger validator.
+
+This confirms that the administrative route is current and still does not
+observe remedy receipt, correction, recovery, trust, switching, or exit. The
+2026 sample is retained as a freshness checkpoint, not pooled with the earlier
+retrieval-order samples and not promoted as a route or consumer-outcome trend.
