@@ -1904,3 +1904,12 @@ income/consumption, prices, services, hazard, protective assets,
 conflict/displacement, social protection, recovery, trust, and action; preserve
 global comparative context, poverty-line, projection, exposure, and missing-
 data boundaries.
+
+The next capability-distribution rotation promotes the [UNDP human-
+development choice trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record
+adds a U.S. HDI trend and 193-country comparison while keeping the composite’s
+health, education, and income inputs separate from lived capability and agency.
+The next test is a person/household ledger joining health, education, income,
+housing, care, work, digital exposure, institutional treatment, alternatives,
+capability use, trust, and action or exit; preserve aggregate index, rank,
+subgroup, place, and practical-agency boundaries.

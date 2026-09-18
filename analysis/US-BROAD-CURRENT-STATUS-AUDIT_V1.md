@@ -2757,3 +2757,12 @@ household estimate; poverty lines, projections, exposure, and data availability
 remain separate. The next test is a household/place ledger joining
 income/consumption, prices, services, hazard, protective assets,
 conflict/displacement, social protection, recovery, trust, and action.
+
+The next capability-distribution rotation promotes the [UNDP human-
+development choice trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record
+adds a U.S. HDI trend and 193-country comparison while keeping the composite’s
+health, education, and income inputs separate from within-country distribution,
+practical agency, security, and institutional trust. The next test is a
+person/household ledger joining health, education, income, housing, care, work,
+digital exposure, institutional treatment, alternatives, capability use,
+trust, and action or exit.
