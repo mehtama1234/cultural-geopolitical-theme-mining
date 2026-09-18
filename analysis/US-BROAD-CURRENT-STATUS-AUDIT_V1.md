@@ -2236,6 +2236,10 @@ restrictions (64% versus 29%). These are public norms and perceptions, not an
 audit of censorship, accuracy, platform moderation, source exposure, or civic
 action; the next test is a defined information controversy followed through
 source choice, accuracy judgment, institutional response, and later behavior.
+The [Pew press-freedom norms record](records/us-pew-press-freedom-limits-2026.json)
+is now linked directly to the layer, preserving the forced-choice normative
+item, repeated perceived-freedom measures, partisan subgroup comparison, and
+the boundary between public judgment and observed media constraint.
 
 The [Pew 2026 Muslim-American capacity and visibility layer](projects/us-cost-trust-politics/pew-2026-muslim-americans-discrimination-capacity-visibility-layer-v1.md)
 adds an inclusion counterexample: estimated Muslim population rose from 2.4

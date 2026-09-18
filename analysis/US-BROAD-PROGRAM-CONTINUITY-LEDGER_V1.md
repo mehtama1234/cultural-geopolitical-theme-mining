@@ -1431,6 +1431,10 @@ places a broad bad-relationship judgment beside partisan disagreement over
 media power and majority norms for reciprocal criticism. It adds structured
 interpretation and attribution, not a censorship, exposure, trust, or action
 estimate; the next test remains a same-respondent source-to-response ledger.
+The [Pew press-freedom norms record](records/us-pew-press-freedom-limits-2026.json)
+now supplies the canonical survey provenance; its importance, restriction,
+perceived-freedom, and partisan fields remain public-norm measures rather than
+an audit of censorship, accuracy, exposure, or civic action.
 
 The next work/care rotation promotes the [SIPP resource/work-direction
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). It adds a bounded counterexample
