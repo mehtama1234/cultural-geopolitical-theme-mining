@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-322 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+323 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -545,6 +545,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Institutional confidence is low overall but highly conditional on political and social position | voice, cost | trust_identity_meaning, political_judgment_action, consumer_power_recourse, work_control_bargaining, unequal_exposure_status | Gallup Poll Social Series respondent; U.S. adults asked confidence in named institutions | United States | 3 | June 2–26, 2025; confidence in 18 institutions; June 2–26, 2025; nine institutions tracked consistently since 1979; June 2–26, 2025; selected racial-group confidence comparisons | compared; reported | [open](records/us-gallup-institutional-confidence-party-race-2025.json) |
 
 **Boundary:** This is a bounded reported Gallup confidence layer. It establishes institution-specific national, party, and racial-group confidence differences, not institutional performance, material causation, discrimination causation, political withdrawal, service use, legitimacy, or geopolitical/state capacity. The underlying respondent microdata are not locally archived in this pass.
+
+| Import reliance is not the same as usable substitution or strategic autonomy | cost, work, voice | infrastructure_technology_dependency, firm_sector_market_power, geopolitical_state_consequences, work_control_bargaining | U.S. Government Accountability Office technology assessment GAO-26-108687; battery and semiconductor critical-mineral substitution and recycling technologies | United States supply chains with battery and semiconductor applications | 3 | 2026 GAO assessment; current critical-mineral supply and technology-readiness frame; 2026 GAO assessment; battery substitution and recycling pathway; 2026 GAO assessment; semiconductor substitution and recycling pathway | compared; reported | [open](records/us-gao-critical-minerals-substitution-recycling-dependence-2026.json) |
+
+**Boundary:** This record establishes a technology and supply-chain dependence surface beneath batteries and semiconductors. It does not establish realized disruption, shortage, price, production, household, worker, environmental, alliance, or geopolitical effects; import reliance, substitute potential, recycling maturity, policy option, and autonomy remain separate stages.
 
 | National insurance costs rose modestly in real terms while disaster-prone and regulated markets diverged | cost, time, voice | housing_place_mobility, household_room_consumption, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | GAO analysis of estimated private homeowners-insurance premiums, insurer filings, and state residual-plan information | United States; state, disaster-risk, and regulatory comparisons | 4 | 2019-2024; national estimated homeowners-insurance premium; 2019-2024; disaster-risk premium association; 2020-2024; state premium-rate filing review; As of August 2025; state residual insurance systems | reported | [open](records/us-gao-homeowners-insurance-premium-availability-2019-2024.json) |
 

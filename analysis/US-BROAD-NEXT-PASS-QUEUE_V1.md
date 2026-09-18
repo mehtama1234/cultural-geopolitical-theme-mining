@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 322 records and
-1151 observations.
+have exact registered-URL references. The trend registry holds 323 records and
+1154 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2857,6 +2857,11 @@ recycling feedstock, commercial maturity, and state leverage. The next test is
 a mineral-application event ledger linking disruption or export control to
 shipment, price, inventory, redesign, output, local burden, supplier switch,
 and external response; do not infer autonomy from domestic production value.
+The [canonical critical-minerals record](records/us-gao-critical-minerals-substitution-recycling-dependence-2026.json)
+now preserves the GAO assessment's general, battery, and semiconductor stages
+with separate technology and implementation boundaries. It advances the
+geopolitical material-input lane without closing a disruption, shipment,
+redesign, output, supplier-switch, or external-response event.
 
 ## Sequencing rule
 

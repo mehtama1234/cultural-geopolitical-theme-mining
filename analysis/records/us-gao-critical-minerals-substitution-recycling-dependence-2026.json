@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-critical-minerals-substitution-recycling-dependence-2026",
+  "title": "Import reliance is not the same as usable substitution or strategic autonomy",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office technology assessment GAO-26-108687; battery and semiconductor critical-mineral substitution and recycling technologies",
+  "geography": "United States supply chains with battery and semiconductor applications",
+  "observations": [
+    {
+      "period": "2026 GAO assessment; current critical-mineral supply and technology-readiness frame",
+      "denominator": {"value": 60, "unit": "minerals considered critical by the United States because of economic/security importance and disruption-vulnerable supply chains", "value_type": "reported_policy_scope"},
+      "measures": {
+        "application_scope": {"value": "batteries and semiconductors used in electric vehicles, grid storage, consumer electronics, and defense", "unit": "technology and supply-chain scope", "value_type": "reported_scope"},
+        "strategic_dependency_stage": {"value": "import reliance, processing, substitute performance, recycling feedstock, manufacturing capacity, and policy response are distinct stages", "unit": "analytical chain", "value_type": "stage_boundary"}
+      },
+      "method": "GAO technology assessment based on interviews with federal officials and experts and review of academic, agency, expert, and federal policy documentation.",
+      "uncertainty": "The assessment does not estimate a particular export-control shock, price effect, factory interruption, consumer burden, defense delay, or realized geopolitical concession; technology potential and policy options are not operating capacity.",
+      "subgroup": "Critical minerals and application-specific battery or semiconductor technologies; substitution performance varies by use case.",
+      "counterinterpretation": "Domestic production or a policy announcement can coexist with foreign processing, feedstock, technology, ownership, or customer dependence; import reliance alone does not identify vulnerability or leverage.",
+      "source_url": "https://www.gao.gov/products/gao-26-108687",
+      "retrieval_hash": "sha256:527de03bf19db449a566d368a63fea5f71c8f88bc584cd1d84e14623944c863b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 GAO assessment; battery substitution and recycling pathway",
+      "denominator": {"value": null, "unit": "battery application and recycling technologies; application-specific potential, no national facility denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "battery_recycling_window": {"value": "2–3 years", "unit": "potential time horizon for reducing some import reliance if capacity and feedstock constraints are resolved", "value_type": "assessment_potential"},
+        "battery_substitution_boundary": {"value": "lithium iron phosphate may reduce cobalt, manganese, and nickel reliance for stationary grid storage but performs less well in some long-haul vehicle applications", "unit": "application-specific technical comparison", "value_type": "reported_boundary"},
+        "recycling_capacity_boundary": {"value": "battery recycling technologies are mature, but U.S. recycler capacity is limited and feedstock is often landfilled or exported", "unit": "implementation constraint", "value_type": "reported_constraint"}
+      },
+      "method": "GAO synthesis of technology maturity, performance, infrastructure, feedstock, and adoption evidence.",
+      "uncertainty": "The 2–3 year window is not a completed deployment or import-reliance estimate; yield, collection, permitting, demand, price, ownership, and customer uptake remain unmeasured.",
+      "subgroup": "Battery chemistries, stationary storage, electric vehicles, and battery recycling systems.",
+      "counterinterpretation": "A technically mature recycling process does not create strategic supply without collection, safe transport, feedstock, processing capacity, competitively priced output, and downstream qualification.",
+      "source_url": "https://www.gao.gov/products/gao-26-108687",
+      "retrieval_hash": "sha256:527de03bf19db449a566d368a63fea5f71c8f88bc584cd1d84e14623944c863b",
+      "status": "compared"
+    },
+    {
+      "period": "2026 GAO assessment; semiconductor substitution and recycling pathway",
+      "denominator": {"value": null, "unit": "semiconductor material applications and recycling technologies; no facility or shipment denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "semiconductor_short_term_boundary": {"value": "substitution and recycling are unlikely to reduce short-term import reliance for minerals such as gallium and indium", "unit": "near-term assessment", "value_type": "reported_boundary"},
+        "performance_requirement": {"value": "industry adoption requires substitutes to perform at the same level as current materials in the intended application", "unit": "qualification condition", "value_type": "reported_requirement"},
+        "recycling_maturity": {"value": "manufacturing scrap is a potential source, while electronic-waste recovery is generally pilot-stage and market development remains a challenge", "unit": "technology and market stage", "value_type": "reported_constraint"}
+      },
+      "method": "GAO synthesis of semiconductor material performance, manufacturing scrap, electronic-waste, and recycling-market evidence.",
+      "uncertainty": "The assessment does not identify a particular supplier, shipment, redesign, production loss, price effect, or policy response; future research may change maturity and qualification timelines.",
+      "subgroup": "Gallium, indium, arsenic, germanium, and other semiconductor-relevant materials and recovery routes.",
+      "counterinterpretation": "A future substitute or recycling route may become viable, but current technical and market constraints prevent coding policy potential as realized autonomy or replaceability.",
+      "source_url": "https://www.gao.gov/products/gao-26-108687",
+      "retrieval_hash": "sha256:527de03bf19db449a566d368a63fea5f71c8f88bc584cd1d84e14623944c863b",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-108687", "claim": "Official GAO technology assessment page supplies technology windows, constraints, policy options, and application boundaries.", "status": "official-report"},
+    {"source_url": "https://pubs.usgs.gov/publication/mcs2026", "claim": "USGS 2026 mineral summaries provide a complementary mineral production and reliance source family; this record does not pool its estimates into the GAO stages.", "status": "official-complementary-source"}
+  ],
+  "boundary": "This record establishes a technology and supply-chain dependence surface beneath batteries and semiconductors. It does not establish realized disruption, shortage, price, production, household, worker, environmental, alliance, or geopolitical effects; import reliance, substitute potential, recycling maturity, policy option, and autonomy remain separate stages.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; GAO report PDF, USGS tables, and company or facility files not retained",
+    "html_sha256": "sha256:527de03bf19db449a566d368a63fea5f71c8f88bc584cd1d84e14623944c863b",
+    "checked": "2026-09-18"
+  }
+}

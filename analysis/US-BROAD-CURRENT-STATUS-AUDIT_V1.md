@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 322 machine-readable records, 1151 observations,
+**Current registry state:** 323 machine-readable records, 1154 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 664 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 665 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -607,6 +607,12 @@ ledgers. It finds commitments and intermediate capacity or operational-stress
 signals, but no complete public/partner outcome, credible replaceability, or
 observed external behavior change. The cases are stage-comparable, not pooled
 capacity or leverage measures.
+The new [critical-minerals substitution record](records/us-gao-critical-minerals-substitution-recycling-dependence-2026.json)
+now separates general critical-mineral scope, battery recycling/substitution
+potential, and semiconductor qualification constraints. It strengthens the
+infrastructure/geopolitical chain without treating a 2–3 year potential window,
+technical maturity, or import reliance as realized autonomy, output, leverage,
+or household/worker impact.
 The follow-on [JASSM/LRASM subaward control-surface audit](projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md)
 adds 74 returned rows, 51 named recipients, UEI/location fields, and $1.1427B
 in returned subaward amount. The top five recipients comprise 49.5004% of this
@@ -1806,10 +1812,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 322 trend records and 1151 observations pass the
+the current checkpoint: 323 trend records and 1154 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,307 local Markdown links and 664 published HTML pages pass link
+families; 1,308 local Markdown links and 665 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
