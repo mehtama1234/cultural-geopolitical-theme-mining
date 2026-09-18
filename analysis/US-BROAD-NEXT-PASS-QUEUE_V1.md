@@ -513,6 +513,12 @@ explicit realization clock, while keeping accepted quantity, customer
 delivery, operational inventory, replaceability, and external response open.
 The next pass must locate one identifier-bearing realization event rather than
 another procurement or capacity announcement.
+The new [capability-to-response finding](projects/ai-work-control/findings/ai-work-control-095.md)
+promotes that realization discipline into a detailed state-power test: public
+revenue, local capacity, or a procurement agreement is not yet replaceability,
+an affected-actor response, or geopolitical leverage. The next decisive event
+remains shipment/acceptance/operation plus a dated partner, supplier, utility,
+business, household, or political response.
 
 The new [comparative worker-control finding](projects/ai-work-control/findings/ai-work-control-068.md)
 adds the worker-side JRC survey and ILO social-dialogue case layer to the US
