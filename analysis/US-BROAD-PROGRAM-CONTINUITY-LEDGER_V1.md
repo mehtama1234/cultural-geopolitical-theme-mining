@@ -967,6 +967,11 @@ trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) then separates loneliness,
 support adequacy, contact frequency, and food insufficiency under material
 pressure; it remains a cross-sectional, differently timed HTOPS surface rather
 than a same-person help or recovery path.
+The [cross-release material-pressure trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+then places social connection beside institution-specific confidence while
+preserving March and July as separate cross-sectional releases. It adds a
+cross-scale measurement bridge, not a pooled social-isolation or distrust
+estimate.
 
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI

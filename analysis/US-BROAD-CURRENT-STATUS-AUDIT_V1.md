@@ -1959,6 +1959,16 @@ and food security. The release is cross-sectional with different item clocks;
 it does not identify practical help, a named bill or actor, delivered support,
 remedy, recovery, or later trust/action.
 
+The [cross-release material-pressure synthesis](projects/us-cost-trust-politics/findings/us-cost-trust-politics-033.md)
+connects the social and institutional surfaces without treating them as one
+respondent path. March expense difficulty aligns with loneliness, support
+adequacy, and food insufficiency; July expense difficulty aligns differently
+with confidence in federal statistical agencies and Congress. This supports a
+multiple-currency interpretation of material pressure, not a generalized
+social-isolation or distrust score. Separate releases leave the links between
+social experience, institutional judgment, help, remedy, recovery, and action
+open.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
