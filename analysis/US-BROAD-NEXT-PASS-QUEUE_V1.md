@@ -1062,7 +1062,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 14 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 16 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, and
 three named CFPB redress/distribution records.
 The immediate selection rule is to choose one lawful source with a stable
@@ -1072,14 +1072,15 @@ exit fields; if those fields are unavailable, record the gap and rotate to
 another theme. The two worker records are remedy-stage comparators, not a
 worker prevalence or individual-recovery estimate.
 
-**Stage-bottleneck promotion gate (2026-09-17):** across those 14 surfaces,
-11 have an observed dated event/exposure and 11 have an observed institutional
+**Stage-bottleneck promotion gate (2026-09-17):** across those 16 surfaces,
+13 have an observed dated event/exposure and 13 have an observed institutional
 or firm response, but only 1 has an observed alternative/non-use stage, none
 has a fully observed verified remedy, and none has a fully observed
-meaning/trust/action or recovery/persistence/exit stage. The next substantive
-pass therefore qualifies only if it adds an episode-level alternative or
-non-use field and a receipt/outcome follow-up; another exposure, complaint
-volume, or aggregate remedy count alone does not qualify as end-to-end depth.
+meaning/trust/action or recovery/persistence/exit stage. The machine record
+now encodes `qualifies: false` and requires both an episode-level
+alternative/non-use field and a verified remedy or outcome follow-up before a
+new end-to-end finding can be promoted. Another exposure, complaint volume,
+or aggregate remedy count alone does not qualify as end-to-end depth.
 
 The ranked [next-episode selection](../analysis/broad-next-episode-selection-v1.md)
 chooses MEPS as the primary local route because its staged ledger contains
