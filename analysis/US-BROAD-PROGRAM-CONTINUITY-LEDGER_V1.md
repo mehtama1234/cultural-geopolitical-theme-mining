@@ -1623,3 +1623,12 @@ lanes. The next test is a same-establishment ledger joining size, ownership,
 sector, training, infrastructure, finance, workforce, revenue, worker
 pay/hours, customer access, survival, alternatives, and later local/state
 capacity; preserve composition and indicator-universe boundaries.
+
+The next state-route rotation promotes the [SNAP state-route trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). USDA/FNS adds state-level participation,
+application timeliness, recertification timeliness, and Program Access Index
+signals beside the WBNS interruption and SIPP transition layers. The next test
+is a state/local case ledger joining notice, application or recertification,
+processing stage, decision, benefit timing/amount, interruption, appeal or
+correction, household adaptation, trust, and persistence; preserve ecological,
+period, denominator, and voluntary-exit boundaries.

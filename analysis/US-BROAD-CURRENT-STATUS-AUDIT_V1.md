@@ -2496,3 +2496,11 @@ training, outage exposure, bank-financed investment, and manager-reported
 obstacles across small, medium, and large firms. These are distinct capacity
 surfaces, not a size effect, productivity estimate, worker-welfare measure, or
 local-capacity outcome; the same-establishment path remains open.
+
+The new [SNAP state-route trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds the official USDA/FNS state-performance frame beside the WBNS household
+interruption layer. Across 50 states and DC, participation, application
+timeliness, recertification timeliness, and the Program Access Index have
+different ranges, years, denominators, and correlations. These aggregates do
+not establish household continuity, eligible nonparticipation, benefit
+adequacy, administrative causality, or food-security change.
