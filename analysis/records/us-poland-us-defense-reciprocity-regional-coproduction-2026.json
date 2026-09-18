@@ -109,6 +109,21 @@
       "source_url": "https://redakcja.www.gov.pl/web/obrona-narodowa/4-mld-dolarow-dla-polskiej-armii-kolejny-etap-strategicznego-partnerstwa-z-usa",
       "retrieval_hash": "sha256:a90d35bf78e6f4b577fc44e73a0bbc77137ca296a18824649a56c3e9e8c20dc2",
       "status": "reported"
+    },
+    {
+      "period": "2026-08-26 parliamentary interpellation; public procurement-information boundary checked 2026-09-18",
+      "denominator": {"value": 1, "unit": "official Polish Sejm interpellation concerning Barracuda-500M", "value_type": "documented parliamentary inquiry"},
+      "measures": {
+        "public_procurement_information_boundary": {"value": "the interpellation states that public announcements had not presented information on a Polish Ministry of National Defence or Armament Agency purchase contract and asks whether such a contract, negotiations, plans, volume, and economic analysis exist", "unit": "official parliamentary inquiry text", "value_type": "reported_control_signal"},
+        "implementation_stage_control": {"value": "industrial-cooperation announcements cannot be treated as evidence of a Polish armed-forces procurement contract, realized demand, production, or delivery", "unit": "bounded interpretation", "value_type": "control_boundary"}
+      },
+      "method": "Bounded reading of the official Polish Sejm interpellation, with a normalized excerpt retained in the project data directory. The item is retained as a public-information and accountability checkpoint, not as evidence that no contract exists; the inquiry itself requests clarification about contract status and future plans.",
+      "uncertainty": "The interpellation does not establish the true contractual status, classified arrangements, negotiations, or subsequent action. It records a parliamentary request and a stated public-information gap.",
+      "subgroup": "Polish parliamentary oversight of the Barracuda-500M implementation and procurement route.",
+      "counterinterpretation": "A parliamentary inquiry can reflect an information or oversight gap rather than absence of a contract. It cannot establish non-production, non-delivery, or non-use without a separate authoritative procurement or acceptance record.",
+      "source_url": "https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK",
+      "retrieval_hash": "artifact:sha256:a25ab9414b189533dc4f4add96527975ab590a853d2799c1803b9e0e62699195",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -117,7 +132,13 @@
       "claim": "Poland's 2024 JASSM-ER agreement remains a separate procurement-stage comparator with deliveries scheduled for 2026–2030.",
       "status": "context",
       "access_boundary": "The comparator does not establish delivery or operational use of the JASSM-ER order."
+    },
+    {
+      "source_url": "https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK",
+      "claim": "An official parliamentary interpellation records a public-information boundary around whether a Polish MOD or Armament Agency purchase contract for Barracuda-500M exists and requests clarification.",
+      "status": "control-boundary",
+      "access_boundary": "The inquiry is not evidence that no contract, negotiation, production, or delivery exists."
     }
   ],
-  "boundary": "This record establishes six official 2026 cooperation, financing, implementation, production-plan, and follow-up observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
+  "boundary": "This record establishes seven official 2026 cooperation, financing, implementation, production-plan, follow-up, and parliamentary-oversight observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
 }

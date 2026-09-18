@@ -77,6 +77,15 @@ to the broader Poland-US defense relationship, but the official announcement
 does not allocate the funds to Barracuda-500M. It therefore cannot be used as
 evidence of Barracuda production, delivery, or reduced dependence.
 
+An official Polish Sejm interpellation adds an oversight checkpoint: its text
+states that public announcements had not presented information on a Polish
+Ministry of National Defence or Armament Agency purchase contract for
+Barracuda-500M and asks whether a contract, negotiations, plans, volume, and
+economic analysis exist. This is evidence of a public-information and
+accountability boundary, not evidence that no contract exists. The interpellation
+cannot be used to infer non-production or non-delivery; a procurement,
+acceptance, or delivery record would still be required.
+
 ## Next acquisition gate
 
 The next check should seek a dated document from PGZ, WZL-2, Anduril, the
@@ -103,6 +112,7 @@ framing should remain a separate evidence type.
 - [Polish government: MSPO 2026 defense-industry event](https://www.gov.pl/web/obrona-narodowa/mspo-34-kraje-ponad-1200-firm-sektora-zbrojeniowego-w-kielcach-ruszyly-jedne-z-najwiekszych-w-europie-targow-zbrojeniowych)
 - [Official MSPO 2026 event context](https://www.paih.gov.pl/events/mspo-2026/)
 - [Polish Ministry of National Defence: September 2026 FMF agreement](https://redakcja.www.gov.pl/web/obrona-narodowa/4-mld-dolarow-dla-polskiej-armii-kolejny-etap-strategicznego-partnerstwa-z-usa)
+- [Polish Sejm: Barracuda-500M procurement-information interpellation](https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK)
 
 **Evidence status:** public-source realization watchpoint; implementation
 terms and production targets are documented, while assembly, commissioning,

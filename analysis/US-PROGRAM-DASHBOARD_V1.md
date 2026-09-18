@@ -1,6 +1,6 @@
 # US program dashboard v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Status:** active long-term program control view
 
 The program maintains a US-centered, cross-source living atlas of cultural,
@@ -21,7 +21,7 @@ a source and next test.
 
 - **14** program themes
 - **311** validated machine-readable trend records
-- **1108** period-specific observations
+- **1109** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem

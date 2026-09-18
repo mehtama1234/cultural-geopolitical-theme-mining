@@ -2976,6 +2976,7 @@ Changing the size rule for public support can shift contracts, revenue, exits, w
 Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
 
 - [How Big is Small? The Economic Effects of Access to Small Business Government Support](https://www.nber.org/papers/w35703)
+- [How Big is Small? CES-24-28 / IZA DP 17092](https://www.census.gov/library/working-papers/2024/adrm/CES-WP-24-28.html)
 
 #### Evidence check: A bigger small-business rule can squeeze the smallest firms
 
@@ -3981,6 +3982,9 @@ Sources collected in the opening pass; listing a source does not mean its full s
 
 - [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326)
 - [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+- [After the Storm: Direct and Spillover Benefits from Disaster Loans to Small Businesses](https://afajof.org/management/viewp.php?n=42000)
+- [Rebuilding After the Storm: Firm Turnover and Consumer Welfare After Hurricane Harvey](https://benklopack.github.io/files/2024_12_11_Harvey.pdf)
+- [One Year After the Storm: Texas Gulf Coast Residents' Views and Experiences with Hurricane Harvey Recovery](https://www.kff.org/mental-health/one-year-after-storm-texas-gulf-coast-residents-views-experiences-hurricane-harvey-recovery/)
 
 #### Evidence check: Emergency business credit can keep local work alive
 
