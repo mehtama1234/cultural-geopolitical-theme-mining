@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-chips-rd-capacity-governance-2026",
+  "title": "CHIPS implementation advances on award and milestone clocks while R&D governance remains unsettled",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-109121; semiconductor incentives and advanced microelectronics R&D implementation",
+  "geography": "United States semiconductor facilities, materials, packaging, workforce, and research institutions",
+  "observations": [
+    {
+      "period": "Through July 2026; CHIPS program scope and announced incentive awards",
+      "denominator": {"value": 50000000000, "unit": "dollars in semiconductor-related programs overseen by Commerce; $39 billion facilities/equipment incentives and $11 billion advanced microelectronics R&D", "value_type": "reported_program_scope"},
+      "measures": {
+        "project_count": {"value": 49, "unit": "projects across 24 companies", "value_type": "reported_count"},
+        "manufacturing_projects": {"value": 33, "unit": "projects concerning chip manufacturing", "value_type": "reported_count"},
+        "materials_projects": {"value": 11, "unit": "projects concerning materials production", "value_type": "reported_count"},
+        "assembly_testing_packaging_projects": {"value": 9, "unit": "projects concerning assembly, testing, or packaging", "value_type": "reported_count"}
+      },
+      "method": "GAO review of Commerce program implementation, awards, documents, and interviews; project categories can overlap and are not additive to a unique-project total.",
+      "uncertainty": "Award and project counts do not establish operating facilities, qualified output, yield, customer delivery, worker retention, or reduced import dependence; the program-scope denominator is authorization/appropriation rather than realized capacity.",
+      "subgroup": "CHIPS facilities/equipment incentives and advanced microelectronics R&D programs administered by Commerce.",
+      "counterinterpretation": "Multiple project categories can reflect a diversified supply strategy, while award announcements can coexist with qualification, permitting, construction, or market constraints.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html",
+      "retrieval_hash": "sha256:3116c9e527343d6236db4515cca2bab3ec9b4b7b51d0943fd7dbb9f2ac4a2492",
+      "status": "reported"
+    },
+    {
+      "period": "As of April 2026; incentive disbursement, milestone, and workforce stage",
+      "denominator": {"value": 31200000000, "unit": "dollars in direct awards used for the reported disbursement comparison", "value_type": "reported_direct_award_denominator"},
+      "measures": {
+        "disbursed": {"value": 13100000000, "unit": "dollars; approximately 42% of roughly $31.2 billion in direct awards", "value_type": "reported_finance_stage"},
+        "completed_milestones": {"value": 24, "unit": "milestones for which 11 awardees had received disbursements", "value_type": "reported_count"},
+        "in_progress_milestones": {"value": 125, "unit": "milestones", "value_type": "reported_count"},
+        "past_anticipated_dates": {"value": 9, "unit": "milestones past anticipated dates", "value_type": "reported_count"},
+        "workforce_activity_award": {"value": 11200000, "unit": "dollars received by four awardees for workforce activities", "value_type": "reported_amount"},
+        "prior_awardee_workforce_coverage": {"value": "13 of 19 companies", "unit": "prior awards that included workforce funding", "value_type": "reported_ratio"}
+      },
+      "method": "GAO review of award disbursement and milestone records; completed milestones reviewed by GAO met contractual due dates.",
+      "uncertainty": "The 42% share is a finance stage, not a completion rate. Nine milestones were past anticipated dates, not necessarily contractual deadlines. Workforce funding is not a measure of worker supply, job quality, wages, housing, childcare, transport, or retention.",
+      "subgroup": "CHIPS direct-award projects, milestone disbursements, and workforce activities.",
+      "counterinterpretation": "Milestone-linked payments can reduce delivery risk and build capability even when output and retention are not yet observable; delay against an anticipated date may be administratively recoverable.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html",
+      "retrieval_hash": "sha256:3116c9e527343d6236db4515cca2bab3ec9b4b7b51d0943fd7dbb9f2ac4a2492",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 report vintage; advanced microelectronics R&D cancellation and governance transition",
+      "denominator": {"value": 11000000000, "unit": "dollars appropriated for advanced microelectronics R&D", "value_type": "reported_appropriation_denominator"},
+      "measures": {
+        "canceled_r_and_d_awards": {"value": 7800000000, "unit": "dollars in canceled awards", "value_type": "reported_amount"},
+        "expended_r_and_d": {"value": 506800000, "unit": "dollars expended as of the report's stated vintage", "value_type": "reported_amount"},
+        "governance_status": {"value": "Commerce lacked a sufficiently detailed plan and timeline for fully meeting statutory requirements for the NSTC, NAPMP, and Industrial Advisory Committee; the NSTC operator award was canceled in 2025 and Natcast ceased operations and laid off employees", "unit": "institutional implementation status", "value_type": "reported_finding"}
+      },
+      "method": "GAO assessment of advanced microelectronics R&D implementation, governance documents, statutory requirements, and institutional transition.",
+      "uncertainty": "Canceled awards and reported expenditures do not by themselves establish technological failure, waste, lost economic value, or final institutional performance; the new charter and any replacement vehicles may change the implementation path.",
+      "subgroup": "NSTC, NAPMP, Industrial Advisory Committee, and advanced microelectronics R&D governance vehicles.",
+      "counterinterpretation": "A governance reset can preserve or improve capability if assets, research, relationships, and statutory responsibilities are transferred effectively; the current record does not resolve that counterfactual.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html",
+      "retrieval_hash": "sha256:3116c9e527343d6236db4515cca2bab3ec9b4b7b51d0943fd7dbb9f2ac4a2492",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html", "claim": "Official GAO review supplies program scope, award and milestone status, workforce activity, R&D cancellation, governance findings, and limitations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a CHIPS implementation, workforce-program, and R&D-governance stage beneath any claim about domestic semiconductor capacity. It does not establish output, yield, employment, wages, worker retention, consumer prices, customer delivery, defense supply, innovation, import substitution, alliance leverage, or reduced foreign dependence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML review page retrieved and hashed; full report PDF, project database, and company or facility archives not retained",
+    "html_sha256": "sha256:3116c9e527343d6236db4515cca2bab3ec9b4b7b51d0943fd7dbb9f2ac4a2492",
+    "checked": "2026-09-18"
+  }
+}

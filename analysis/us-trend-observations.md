@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-323 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+324 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -545,6 +545,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Institutional confidence is low overall but highly conditional on political and social position | voice, cost | trust_identity_meaning, political_judgment_action, consumer_power_recourse, work_control_bargaining, unequal_exposure_status | Gallup Poll Social Series respondent; U.S. adults asked confidence in named institutions | United States | 3 | June 2–26, 2025; confidence in 18 institutions; June 2–26, 2025; nine institutions tracked consistently since 1979; June 2–26, 2025; selected racial-group confidence comparisons | compared; reported | [open](records/us-gallup-institutional-confidence-party-race-2025.json) |
 
 **Boundary:** This is a bounded reported Gallup confidence layer. It establishes institution-specific national, party, and racial-group confidence differences, not institutional performance, material causation, discrimination causation, political withdrawal, service use, legitimacy, or geopolitical/state capacity. The underlying respondent microdata are not locally archived in this pass.
+
+| CHIPS implementation advances on award and milestone clocks while R&D governance remains unsettled | work, cost, voice | infrastructure_technology_dependency, firm_sector_market_power, geopolitical_state_consequences, work_control_bargaining, public_systems_feedback | U.S. Government Accountability Office GAO-26-109121; semiconductor incentives and advanced microelectronics R&D implementation | United States semiconductor facilities, materials, packaging, workforce, and research institutions | 3 | Through July 2026; CHIPS program scope and announced incentive awards; As of April 2026; incentive disbursement, milestone, and workforce stage; 2025–2026 report vintage; advanced microelectronics R&D cancellation and governance transition | reported | [open](records/us-gao-chips-rd-capacity-governance-2026.json) |
+
+**Boundary:** This record establishes a CHIPS implementation, workforce-program, and R&D-governance stage beneath any claim about domestic semiconductor capacity. It does not establish output, yield, employment, wages, worker retention, consumer prices, customer delivery, defense supply, innovation, import substitution, alliance leverage, or reduced foreign dependence.
 
 | Import reliance is not the same as usable substitution or strategic autonomy | cost, work, voice | infrastructure_technology_dependency, firm_sector_market_power, geopolitical_state_consequences, work_control_bargaining | U.S. Government Accountability Office technology assessment GAO-26-108687; battery and semiconductor critical-mineral substitution and recycling technologies | United States supply chains with battery and semiconductor applications | 3 | 2026 GAO assessment; current critical-mineral supply and technology-readiness frame; 2026 GAO assessment; battery substitution and recycling pathway; 2026 GAO assessment; semiconductor substitution and recycling pathway | compared; reported | [open](records/us-gao-critical-minerals-substitution-recycling-dependence-2026.json) |
 
