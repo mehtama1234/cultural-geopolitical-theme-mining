@@ -2290,3 +2290,14 @@ are not representative household rates, and the public record does not show
 episode-level payment success, bill status, service continuity, redress receipt,
 or switching. This strengthens the service/recourse lane without claiming
 household incidence or practical recovery.
+
+The new [small-business support-size trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the NBER/Census eligibility-boundary result into the canonical
+register. Its quasi-random timing design reports procurement reallocation
+toward larger firms and lower revenue, higher exit, lower wages, and lower
+patenting among affected smaller firms, with stronger effects for younger,
+more productive, and financially constrained firms. The earlier CES/IZA exit
+estimate remains version-specific. The evidence does not yet identify the
+program threshold, customer prices or quality, owner-household outcomes,
+worker hours/benefits, or local service effects, so this is a firm-allocation
+finding rather than a universal welfare claim.

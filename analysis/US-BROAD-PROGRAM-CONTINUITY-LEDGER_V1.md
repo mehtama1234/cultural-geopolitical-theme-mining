@@ -1401,3 +1401,11 @@ customer distance and modeled welfare, and disruption, aid, and legitimacy.
 They are not pooled into a universal disaster effect; worker household
 security, owner recovery, affordable services, verified aid causality, and
 political response remain open.
+
+The next firm-capacity rotation promotes the [small-business support-size
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER/Census study adds a
+quasi-random eligibility-boundary route from public support access to contract
+allocation and smaller-firm revenue, exit, wage, and patenting outcomes. It
+counterbalances disaster-loan survival evidence, but the two policy settings
+must not be pooled; customer quality/prices, owner households, worker hours,
+and local political or legitimacy effects remain open.
