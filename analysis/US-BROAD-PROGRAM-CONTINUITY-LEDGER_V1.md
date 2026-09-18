@@ -1865,3 +1865,13 @@ joining identity/source exposure, institutional encounter, information
 seeking/avoidance, interpretation, expectation, rate/credit or material
 outcome, attribution, trust, policy demand, and action; preserve perceived
 alignment versus actual conduct and scenario versus observed behavior.
+
+The next household-rate rotation promotes the [BIS household monetary-policy
+beliefs trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The BIS record adds
+randomized hypothetical rate and information treatments, a three-month
+follow-up, financial-knowledge heterogeneity, inflation-expectation channels,
+and intended spending/portfolio responses. The next test is a same-household
+ledger joining policy information, prior beliefs, actual rate/credit terms,
+expectations, spending/saving/portfolio, debt, work, attribution, trust, and
+action; preserve quota sampling, treatment, follow-up, knowledge, and
+intended-versus-realized boundaries.
