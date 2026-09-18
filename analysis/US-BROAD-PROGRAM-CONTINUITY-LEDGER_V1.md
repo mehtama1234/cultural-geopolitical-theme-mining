@@ -1687,3 +1687,12 @@ implementation, task allocation, output/productivity, employment, pay, hours,
 training, monitoring, voice/bargaining, household effects, correction, and
 exit; preserve employer/employee, country, and expectation-versus-outcome
 boundaries.
+
+The next place-capacity rotation promotes the [place-capacity synthesis trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The non-pooled record adds county
+population change, provider-capacity and mobility context, local immigration
+attitudes, trust, and civic action beside the local-business and migration
+lanes. The next test is a same-geography or matched-place ledger joining
+population, providers, transport, housing/work conditions, service use,
+migration exposure, belonging, attribution, trust, action, vote, and response;
+preserve contextual, respondent, local-survey, and non-causal boundaries.

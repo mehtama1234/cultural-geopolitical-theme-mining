@@ -2550,3 +2550,11 @@ retrospective effects, and forward productivity, output, and employment
 expectations, including different employer and employee perspectives. It does
 not establish realized productivity, job loss or gain, pay, hours, control,
 bargaining, or household effects.
+
+The new [place-capacity synthesis trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a deliberately non-pooled place-to-meaning layer. County population
+change, health/social-assistance establishment density, zero-vehicle context,
+local immigration attitudes, trust, and civic action show different patterns
+rather than one capacity gradient. The synthesis does not establish local
+causality, provider adequacy, belonging, or political effects; place and
+respondent units remain separate.
