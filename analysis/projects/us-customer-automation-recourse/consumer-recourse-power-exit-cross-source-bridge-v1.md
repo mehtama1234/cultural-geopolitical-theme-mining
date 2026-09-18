@@ -1,6 +1,6 @@
 # Consumer recourse, institutional power, and practical exit cross-source bridge v1
 
-**Checked:** 2026-09-13
+**Checked:** 2026-09-17
 **Scope:** US consumer-facing financial and service institutions  
 **Status:** compared administrative and cultural layers; no same-customer causal estimate
 
@@ -29,6 +29,16 @@ toward explanation, but product routes diverged and the student-loan timing
 fields are distinct. This is a change in recorded institutional endpoints, not
 a consumer-remedy or trust trend.
 
+Two newer case-level anchors sharpen the bridge without creating a common
+consumer denominator. The [HTOPS fraud/loss follow-up](../us-cost-trust-politics/findings/us-cost-trust-politics-035.md)
+links retrospective exposure, reported loss, agency reporting, and later
+household conditions for the same respondent, while keeping recovery receipt,
+trust change, and exit open. The [CPSC VRURC recall bridge](../us-marketplace-product-safety/findings/us-product-recall-response-003.md)
+links a dated hazard notice and replacement offer to a later firm-reported
+correction snapshot, while keeping purchaser exposure, replacement receipt,
+safe restoration, and residual cost open. These are stage-compatible cases,
+not joinable people or pooled remedy rates.
+
 ## Source comparison
 
 | Source layer | Unit | What is measured | What remains outside the record |
@@ -37,6 +47,8 @@ a consumer-remedy or trust trend.
 | [CFPB 2025 process-scale layer](cfpb-2025-process-scale-shift-layer-v1.md) | Received, screened, routed complaint | Intake, screening, referral, company routing, response capacity, and visible workload | Population harm rate, authentic-complaint share, and later recovery |
 | [CFPB 2025 product-response layer](cfpb-2025-product-response-asymmetry-layer-v1.md) | Complaint sent to company by product | Product-specific explanation, non-monetary relief, monetary relief, prior contact, and no-timely-response categories | Account denominator, customer constraints, verified remedy, switching, and non-complainants |
 | [CFPB cultural-themes layer](cfpb-2025-consumer-financial-cultural-themes-layer-v1.md) | Complaint narrative/theme | Identity, essential access, rule legibility, human reach, time, dependence, and repair meanings | Theme prevalence in the population, measured attribution, dignity, trust change, and action |
+| [HTOPS fraud/loss follow-up](../us-cost-trust-politics/findings/us-cost-trust-politics-035.md) | Same respondent across April and June; retrospective fraud module | Exposure, reported loss, agency report/recovery, later food, energy, work-loss, and coded institutional context | Dated incident, verified remedy receipt, restored security, causal trust change, switching, and exit |
+| [CPSC VRURC recall implementation bridge](../us-marketplace-product-safety/findings/us-product-recall-response-003.md) | Single recall key across notice API and MPR snapshot | Hazard, injury signal, replacement offer, firm-reported consumer correction, and denominator mismatch | Purchaser identity, notice reach, replacement receipt, safe restoration, residual cost, trust, and exit |
 | [SHED household fraud layers](../us-consumer-fraud-trust/shed-fraud-subgroup-layer-v1.md) and [annual comparison](../us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md) | Weighted adult respondent; separate annual samples | Fraud exposure, direct loss, unrecovered money, recovery time, age/income conditioning, and a 2024 payment-route screen | Verified account outcome, provider response, panel-level trust or exit, and a common denominator with CFPB/FTC |
 | [Consumer culture layer](../us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Customer/respondent, review, report, transaction | Search, privacy, help-seeking, reporting, reviews, status, trust, and practical use | Same-case linkage from experience to remedy and later exit |
 | [Firm/market power layer](../us-local-business-place/firm-market-power-distribution-layer-v1.md) | Firm, market, customer, worker, place | How terms, data, access, risk, and control may be distributed | A named case joining firm decision, customer burden, alternatives, remedy, and public response |
@@ -97,6 +109,28 @@ published complaint and response traces. Their alignment locates a broader
 problem space, but cannot estimate the probability that a harmed household
 complains, receives a remedy, or exits.
 
+### 7. A stage-compatible case is still not a common outcome unit
+
+The new fraud and recall cases make the distinction concrete. Both contain a
+condition, an institutional route, and a later-looking response or outcome,
+but their units are different: a retained survey respondent in the fraud
+screen versus a product-level recall key in the CPSC bridge. CFPB is different
+again: a published complaint case with routing and response labels. The safe
+cross-source synthesis is therefore a stage map:
+
+```text
+condition or hazard
+  -> attempted institutional route
+  -> recorded response or correction
+  -> verified remedy and protected outcome
+  -> trust, switching, non-use, or exit
+```
+
+The first three stages are visible in different degrees across the sources.
+The final two remain open in all three. This is a stronger research result
+than a pooled “recourse effectiveness” number because it identifies the exact
+missing denominator and outcome for the next acquisition.
+
 ## Arrow ledger
 
 | Arrow | Current status | Safe conclusion | Required depth test |
@@ -108,6 +142,14 @@ complains, receives a remedy, or exits.
 | Remedy/failure → future consumer choice | Open | Continued use cannot be interpreted as loyalty without alternatives | Follow repeat contact, closure, provider switch, non-use, and essential-service loss |
 | Encounter → trust, identity, and dignity | Open / partly measured | Complaint themes identify meanings worth testing | Same-customer follow-up with attribution, trust, dignity, and perceived fairness |
 | Customer experience → firm, regulator, or political response | Open | Complaints and reviews can make problems visible | Link lawful case aggregates to firm change, enforcement, organizing, or political demand |
+
+The cross-source case check now has three explicit boundaries:
+
+| Case surface | Unit held constant | Stage advanced | Stage still open |
+|---|---|---|---|
+| CFPB student-loan route | De-identified complaint case | Receipt → routing → response label | Verified correction, repeat effort, recovery, switching, trust, exit |
+| HTOPS fraud/loss | Same respondent across two survey waves | Exposure → loss/report/recovery report → later household context | Dated incident, receipt, durable security, causal meaning/action, exit |
+| CPSC VRURC recall | Recall key/product episode | Hazard → notice/remedy → firm-reported correction | Purchaser reach, replacement receipt, safe restoration, residual cost, trust, exit |
 
 ## Practical exit test
 
