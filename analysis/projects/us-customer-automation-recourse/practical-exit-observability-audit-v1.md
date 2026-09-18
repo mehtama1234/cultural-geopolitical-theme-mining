@@ -1,7 +1,7 @@
 # Practical exit observability audit v1
 
 **Status:** cross-domain evidence audit; no pooled exit rate  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-18
 **Purpose:** determine which forms of staying, switching, non-use, moving, and
 exit are actually visible in the current US-centered atlas
 
@@ -28,7 +28,7 @@ whether it observes the alternatives that make the branch meaningful.
 | Domain | Current unit and concrete evidence | What is genuinely observed | What “exit” cannot yet mean | Smallest missing field |
 |---|---|---|---|---|
 | SNAP/public assistance | SIPP adjacent-month person transitions; 437 entries and 387 exits, with 188 classified exits | A program-state transition and following material context; resource ratio declined after 69.46% of selected three-month exit sequences | Exit is not recovery, voluntary choice, work transition, or improved security | Notice, reason, amount, effort/appeal, alternatives, and later food/housing/security outcome in the same episode |
-| Platform work | 27-case public proceeding inventory; practical-exit contract dry-run | 8 records have explicit access-restoration language; 19 remain unknown; 0 are promoted to practical exit; broader inventory also has lost-remuneration orders | Reactivation is not autonomy; a lost-pay order is not payment; continued trips are not proof of free choice | Post-remedy account status, payment receipt, alternative platform/work, recurrence, and documented return/switch/exit reason |
+| Platform work | 27-case public proceeding inventory; practical-exit contract dry-run | 8 records have explicit access-restoration language; 1 named case documents Baysec/Didi substitute earnings; 19 remain unknown; 0 are promoted to practical exit | Reactivation is not autonomy; substitute earnings are not free choice; a lost-pay order is not payment; continued trips are not proof of free choice | Post-remedy account status, payment receipt, alternative-work cost/choice, recurrence, and documented return/switch/exit reason |
 | Consumer fraud | SHED adult respondent and incident-level conditional outcomes | 21% reported financial fraud; among non-credit-card incidents, 32% reported some money unrecovered and 30% spent at least 10 hours dealing with it | Non-reporting is not satisfaction; recovery effort is not switching; continued product use is unobserved | Provider/account identity, attempted contacts, verified recovery, replacement route, continued use, and switching/non-use |
 | Product safety recall | CPSC recall notice plus one recall-keyed Monthly Progress Report bridge; product, hazard, remedy instructions, and manufacturer/distributor/retailer/consumer correction fields | Registration, destruction/disposal or photo proof, repair/replacement/refund choices, and reported correction fields are visible as remedy requirements and implementation stages | A correction row is not exposed-purchaser reach, completed repair, safe restoration, refund receipt, or household exit from the product category | Exposed purchaser, notice reach, remedy attempt, verified completion, receipt/timing, safe restoration, residual loss, and replacement choice |
 | Consumer finance recourse | CFPB published complaint records, 5,452,107 in 2025; 25-record student-loan event-ledger dry-run | Complaint submission, routing, response labels, explanation, and relief labels; all 25 dry-run rows remain unknown for post-event status | A published complaint is not the full exposed customer population, verified remedy, account closure, or exit | Account-level exposure, repeat contact, correction, remedy receipt, closure/switch, and non-complainant denominator |
@@ -64,9 +64,12 @@ quality, or what the behavior protected or sacrificed.
 
 The platform case inventory has unusually concrete adjudicated outcomes, yet
 none of its 27 cases links restoration or refusal to a later switch or exit.
-The public record can show a returned account, subsequent trips, or an ordered
-payment while leaving alternatives, payment receipt, and the reason for
-continued use unknown. This is contestability without an observed exit rate.
+One case now documents substitute earnings during the interruption: Mansoor's
+Baysec and increased Didi earnings were used in calculating a lost-pay order.
+That advances the alternative-work stage, but the public record still leaves
+choice, route conditions, payment receipt, durable access, and the reason for
+continued use unknown. This is contestability with one partial alternative
+surface, not an observed exit rate.
 
 ### 3. Recovery burden can be visible while choice remains invisible
 
@@ -77,9 +80,10 @@ shows whether the person closed an account, changed provider, stopped using a
 service, or stayed because no safe alternative existed.
 
 The two contract dry-runs make this asymmetry measurable. The platform ledger
-can expose a narrow access-restored label in 8 of 27 records, while the CFPB
-event ledger exposes route and response stages in all 25 rows but no later
-status. These are coverage results from existing records, not comparable rates:
+can expose a narrow access-restored label in 8 of 27 records and substitute
+earnings in one named case, while the CFPB event ledger exposes route and
+response stages in all 25 rows but no later status. These are coverage results
+from existing records, not comparable rates:
 the ledgers have different units, source designs, and outcome definitions.
 
 The CPSC recall bridge adds a different kind of remedy clock. A product-safety
