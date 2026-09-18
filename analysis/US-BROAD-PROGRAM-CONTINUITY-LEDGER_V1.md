@@ -862,6 +862,10 @@ and recovery, provider contact, and reported bank switching from one official
 2025 publication. These are distinct conditional surfaces, not a causal
 account-to-loss sequence: the next missing fields are the dated account/case,
 verified recovery, alternative quality, and reason for staying or leaving.
+The [2025 SHED banking substitution/recourse record](records/us-federal-reserve-banking-substitution-recourse-2025.json)
+now supplies the machine-readable provenance for that rotation, keeping the
+formal-access, nonbank-route, recovery, provider-contact, and switching bases
+separate.
 
 The forty-ninth rotation adds the [2025 SHED care and living-arrangements finding](projects/us-aging-care-strain/findings/us-aging-care-strain-003.md).
 It makes multigenerational living, paid and unpaid childcare, childcare cost,

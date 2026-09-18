@@ -2321,6 +2321,10 @@ recovery, and switching are visible as separate conditional surfaces. The
 finding strengthens the access/substitution/recourse map but does not identify
 provider responsibility, verified recovery, alternative quality, or why a
 person stayed or switched. A dated account-linked episode remains open.
+The [2025 SHED banking substitution/recourse record](records/us-federal-reserve-banking-substitution-recourse-2025.json)
+is now linked directly to the finding, preserving the income-conditioned
+account bases and separate fraud loss, recovery, provider-contact, and
+switching denominators.
 
 The [2025 SHED care/living-arrangements finding](projects/us-aging-care-strain/findings/us-aging-care-strain-003.md)
 adds a second official population surface to the care lane. It shows
