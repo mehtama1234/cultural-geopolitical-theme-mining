@@ -1410,6 +1410,13 @@ counterbalances disaster-loan survival evidence, but the two policy settings
 must not be pooled; customer quality/prices, owner households, worker hours,
 and local political or legitimacy effects remain open.
 
+The next information-legitimacy rotation promotes the [press-government
+legitimacy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Pew's 2026 survey
+places a broad bad-relationship judgment beside partisan disagreement over
+media power and majority norms for reciprocal criticism. It adds structured
+interpretation and attribution, not a censorship, exposure, trust, or action
+estimate; the next test remains a same-respondent source-to-response ledger.
+
 The next firm/household rotation promotes the [owner-business cash-flow
 trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). NBER linked financial-account
 evidence places a severe business-revenue shock beside owner consumption and

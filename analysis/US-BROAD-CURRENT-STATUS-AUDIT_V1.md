@@ -2302,6 +2302,15 @@ program threshold, customer prices or quality, owner-household outcomes,
 worker hours/benefits, or local service effects, so this is a firm-allocation
 finding rather than a universal welfare claim.
 
+The new [press-government legitimacy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the Pew-Knight layer into the canonical register. It separates a
+shared perception that the government/news relationship is bad from partisan
+views of media power and norms governing criticism in each direction. The
+survey and focus groups do not measure censorship, accuracy, ownership,
+exposure, retaliation, institutional performance, or political action, so the
+layer strengthens the interpretation/legitimacy stage without closing a
+media-to-behavior pathway.
+
 The new [owner-business cash-flow trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 adds the missing owner-household bridge to the firm and disaster lanes. Linked
 financial-account data report a 40% early-pandemic business-revenue decline and
