@@ -1606,6 +1606,15 @@ route choice, cost/effort, approval or transaction success, correction/remedy,
 payment performance, switching, trust, and later household room; preserve
 intentional avoidance and useful nonbank use.
 
+The next public-aid continuity rotation promotes the [SNAP interruption trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Urban Institute WBNS adds reported
+interruption, notice, time, paperwork, interview, and help-source routes beside
+FNS timeliness and SIPP transition evidence. The next test is a same-household
+ledger joining notice, deadline, submission, eligibility decision, interruption
+or continuity, help, appeal/correction, benefit timing and amount, food/health/
+work adaptation, trust, and persistence or exit; preserve voluntary exits and
+non-applicant routes.
+
 The next firm-capacity rotation promotes the [World Bank firm-capacity trend]
 (US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 2,589-establishment Enterprise
 Survey profile adds size-stratified growth, training, outage, bank-finance, and
