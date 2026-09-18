@@ -32,6 +32,13 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+The current [provisional trend register](analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+now adds a cultural-political trend on **national pessimism and personal hope**:
+current dissatisfaction, long-run institutional expectations, personal future
+affect, partisan convergence on future division, and age differences are
+separate currencies. The source memo and trend row do not imply that mood
+causes disengagement, consumption change, migration, or political action.
+
 ## Latest detailed deep dives
 
 These are the newest long-form writeups added to the broad program. Each
