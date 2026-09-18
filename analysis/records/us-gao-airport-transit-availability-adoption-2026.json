@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-airport-transit-availability-adoption-2026",
+  "title": "Airport transit availability is not the same as practical mobility",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "care_health_reproduction"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107817; airport public-transit availability, passenger and employee use, and transportation-demand management",
+  "geography": "United States commercial airports; all 31 large-hub airports and selected medium/small airports, plus Census employee-commute estimates",
+  "observations": [
+    {
+      "period": "2025–2026 airport review; 51 airports including all 31 large hubs and 20 selected medium/small hubs",
+      "denominator": {"value": 51, "unit": "airports reviewed; all 31 large-hub airports plus a random selection of 20 medium- and small-hub airports", "value_type": "selected_airport_scope"},
+      "measures": {
+        "any_transit_service": {"value": "all but two small airports reviewed had some bus or rail service", "unit": "airport availability finding", "value_type": "reported_finding"},
+        "large_airport_rail": {"value": 23, "unit": "of 31 large airports with rail service; 18 connected on airport grounds or by dedicated air-train and 5 by free bus from off-site rail", "value_type": "reported_count"},
+        "medium_small_service": {"value": "the 20 selected medium and small airports generally had bus service between the airport curb and local downtown", "unit": "airport service context", "value_type": "reported_context"}
+      },
+      "method": "GAO review of airport websites and documentation, confirmation contacts with all 51 airports, literature review, and interviews with DOT and stakeholder organizations.",
+      "uncertainty": "The 51-airport design is not a complete census of every commercial airport or trip; some service does not establish frequency, span, fare, reliability, directness, accessibility, residential reach, or shift fit.",
+      "subgroup": "Large-hub airports and selected medium/small-hub airports under the stated FAA 2023 enplanement frame.",
+      "counterinterpretation": "A route may be practically useful for a subset of passengers or workers even when it is not suitable for early shifts, dispersed origins, mobility-aid needs, or unfamiliar riders; low uptake is not by itself service failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107817",
+      "retrieval_hash": "sha256:7e95d1b3d77fb1153ac8c58c71c83722a49ba989f165f4c643eddd529b1384b7",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2023 Census commute data and airport reports reviewed in 2025–2026; transit use",
+      "denominator": {"value": 12, "unit": "airports with usable passenger mode reports; separate from two visited-airport employee surveys and national Census employee estimates", "value_type": "field_specific_denominator"},
+      "measures": {
+        "passenger_transit_use_range": {"value": "4%–19%", "unit": "public-transit share across the 12 airports with passenger mode reports", "value_type": "reported_range"},
+        "visited_employee_transit_use": {"value": "17% and 19%", "unit": "public-transit share among surveyed employees at two large airports", "value_type": "reported_share"},
+        "national_airport_airline_employee_transit": {"value": 4, "unit": "percent estimated to use public transit to commute, based on GAO Census analysis", "value_type": "estimated_share"}
+      },
+      "method": "GAO synthesis of airport passenger mode reports, two visited-airport employee surveys, and 2019–2023 Census commute analysis.",
+      "uncertainty": "These figures use different universes, designs, reporting methods, and geographies; they are not a national ridership average, causal comparison, or measure of completed trips, missed work, household cost, or worker choice.",
+      "subgroup": "Passengers at 12 airports with usable reports, employees at two visited large airports, and national airport/airline employees in Census commute data.",
+      "counterinterpretation": "Higher use at a local airport can reflect better service, residential geography, parking cost, workforce composition, or fewer alternatives; lower use can reflect preference, unfamiliarity, shift timing, or service mismatch.",
+      "source_url": "https://www.gao.gov/products/gao-26-107817",
+      "retrieval_hash": "sha256:7e95d1b3d77fb1153ac8c58c71c83722a49ba989f165f4c643eddd529b1384b7",
+      "status": "compared"
+    },
+    {
+      "period": "2025–2026; factors affecting transit decisions and transportation-demand management",
+      "denominator": {"value": 5, "unit": "airports GAO visited that were implementing transportation-demand-management strategies", "value_type": "selected_airport_scope"},
+      "measures": {
+        "decision_factors": {"value": "cost, travel time, familiarity, elevator or mobility-aid accommodation, parking, transit benefits, and work-shift matching", "unit": "reported rider and stakeholder factors", "value_type": "reported_context"},
+        "tdm_strategies": {"value": "signage, advertising, reduced-cost or free transit, and related promotion/incentive efforts", "unit": "intervention menu", "value_type": "reported_policy"},
+        "goal_measurement": {"value": 2, "unit": "visited airports that set or planned to assess transit-use goals", "value_type": "reported_count"}
+      },
+      "method": "GAO interviews and review of airport/transit-agency transportation-demand-management strategies and plans.",
+      "uncertainty": "An intervention or stated goal is not increased ridership, dependable trip completion, lower congestion, reduced emissions, lower household cost, or improved labor access; distributional effects and intervention timing remain unmeasured.",
+      "subgroup": "Passengers, airport and airline employees, airports, transit agencies, and workers with early/overnight shifts or mobility-access needs.",
+      "counterinterpretation": "Promotion may improve discoverability for riders who already have a workable route while leaving those with inaccessible, costly, or shift-incompatible service dependent on private vehicles.",
+      "source_url": "https://www.gao.gov/products/gao-26-107817",
+      "retrieval_hash": "sha256:7e95d1b3d77fb1153ac8c58c71c83722a49ba989f165f4c643eddd529b1384b7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107817", "claim": "Official GAO review supplies airport availability, passenger and employee use, decision factors, TDM strategies, methods, and measurement limits.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes airport transit supply, use, and demand-management stages beneath practical mobility. It does not establish route-level accessibility, completed trips, missed work, household transport cost, airport labor supply, congestion, emissions, intervention effects, trust, or political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, Census microdata, transit schedules, and airport administrative files not retained",
+    "html_sha256": "sha256:7e95d1b3d77fb1153ac8c58c71c83722a49ba989f165f4c643eddd529b1384b7",
+    "checked": "2026-09-18"
+  }
+}

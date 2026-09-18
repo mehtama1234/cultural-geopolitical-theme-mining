@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 327 records and
-1166 observations.
+have exact registered-URL references. The trend registry holds 328 records and
+1169 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3010,6 +3010,11 @@ transit benefits, completed trips, and congestion response at comparable
 airports. Keep route presence, practical availability, adoption, trip
 completion, labor access, and emissions separate; do not treat a map line or
 promotion as realized mobility.
+
+The [canonical airport transit record](records/us-gao-airport-transit-availability-adoption-2026.json)
+now preserves the service, use, decision-factor, and intervention stages. The
+next decisive artifact remains a route-day-shift ledger with origin, fare,
+headway, accessibility, attempted/completed trip, worker fit, and outcome.
 
 The [GAO telework, travel, real-estate, and planning layer](projects/us-transport-mobility/gao-2026-telework-travel-real-estate-planning-layer-v1.md)
 adds a work-geography test. The next pass should use compact official evidence

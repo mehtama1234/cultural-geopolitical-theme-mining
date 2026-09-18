@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 327 machine-readable records, 1166 observations,
+The current registry contains 328 machine-readable records, 1169 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1402,6 +1402,10 @@ nationwide used transit to commute. Travel time, accessibility, familiarity,
 parking, benefits, and shift timing separate route presence from practical use;
 the next test is a route-day-shift ledger linking service design to completed
 trips, work access, cost, congestion, and intervention response.
+
+The [canonical airport transit record](records/us-gao-airport-transit-availability-adoption-2026.json)
+adds the official service and usage stages without pooling passenger reports,
+airport employee surveys, and national Census commute estimates.
 
 The [GAO 2026 disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
 extends the accessibility thesis into labor-market entry. Seven percent of
