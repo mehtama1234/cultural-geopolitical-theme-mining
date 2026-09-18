@@ -962,7 +962,11 @@ not establish displacement, productivity, bargaining power, or worker action.
 The [material-to-political-friction trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then separates capacity to act, institutional judgment, contact, and
 collective action across CCES and HTOPS surfaces; it does not establish a
-hardship-to-distrust or hardship-to-vote pathway.
+hardship-to-distrust or hardship-to-vote pathway. The [social-connection
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) then separates loneliness,
+support adequacy, contact frequency, and food insufficiency under material
+pressure; it remains a cross-sectional, differently timed HTOPS surface rather
+than a same-person help or recovery path.
 
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI

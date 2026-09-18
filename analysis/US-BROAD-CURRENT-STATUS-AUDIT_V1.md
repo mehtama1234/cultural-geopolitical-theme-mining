@@ -1949,6 +1949,16 @@ judgment, contact, and collective action are different currencies. They do not
 establish a hardship-to-distrust or hardship-to-vote path; dated exposure,
 attribution, remedy, recovery, and later action remain open.
 
+The [March 2026 HTOPS social-connection finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md)
+adds a cultural counterexample to contact-only accounts of material strain.
+Expense difficulty is accompanied by large gradients in frequent loneliness,
+low social/emotional support, and food insufficiency, while frequent
+phone/video contact is comparatively flat until the most difficult group.
+This separates contact opportunity, subjective connection, support adequacy,
+and food security. The release is cross-sectional with different item clocks;
+it does not identify practical help, a named bill or actor, delivered support,
+remedy, recovery, or later trust/action.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
