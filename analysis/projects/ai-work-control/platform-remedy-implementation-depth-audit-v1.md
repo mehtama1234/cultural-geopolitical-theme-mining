@@ -22,7 +22,7 @@ interchangeable:
 | Access resumed without merits remedy | 1 | Access resumption is reported, but not as a final merits remedy |
 | Continued work after restoration | 1 | One primary record reports more than 150 later trips |
 | Alternative earnings during interruption | 1 | Mansoor's merits decision documents Baysec and increased Didi earnings used in the lost-pay calculation |
-| Payment or lost-earnings stage observed | 6 | A rule, entitlement, order, or wage consequence is recorded |
+| Payment or lost-earnings stage observed | 23 | A rule, entitlement, order, or wage consequence is recorded; this broad stage count includes formal rules and status consequences, not only individual paid remedies |
 | Verified payment receipt | 0 | Not observed in the ledger |
 | Durable access or non-retaliation | 0 | Not observed in the ledger |
 
