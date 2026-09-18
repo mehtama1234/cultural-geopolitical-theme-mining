@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-meps-dated-medical-event-household-work-2024",
+  "title": "Dated medical events expose household and work pressure on different clocks",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "time_hidden_price", "work_control_bargaining", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "MEPS 2024 HC-256, HC-036BRR, and HC-254 event files; month-ordered person-level descriptive screens",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "MEPS 2024; first prescription event strictly between R3/1 and R4/2",
+      "denominator": {"value": 1773, "unit": "event-window people; complementary round-valid group 16,950", "value_type": "source_specific_valid_records"},
+      "measures": {"event_payment": {"value": 12.76, "unit": "US dollars, weighted mean self/family payment for first event", "value_type": "weighted_mean"}, "care_delay": {"value": 8.09, "unit": "percent versus 6.45% complementary", "value_type": "weighted_share"}, "medical_debt": {"value": 19.45, "unit": "percent versus 15.17% complementary", "value_type": "weighted_share"}, "collector_contact": {"value": 15.03, "unit": "percent versus 13.08% complementary", "value_type": "weighted_share"}, "not_employed_r4_2": {"value": 37.53, "unit": "percent versus 33.42% complementary", "value_type": "weighted_share"}},
+      "method": "Select the first valid month-ordered prescription event between person-specific R3/1 and R4/2 endpoints, then compare with the complementary round-valid group using PERWT24F and 128 HC-036BRR replicates.",
+      "uncertainty": "The event may follow a pre-existing need; the comparison group is not event-free; round-level outcomes do not identify the event's claim, fill, bill, remedy, or causal pathway.",
+      "subgroup": "MEPS respondents with a valid prescription event and round-order fields.",
+      "counterinterpretation": "The recorded payment is not total price, deductible, balance, unpaid obligation, or forgone-care cost; higher contextual burden need not be caused by the event.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp",
+      "retrieval_hash": "sha256:72808206961171c77774cc191bc9954e67a2d82eb76f8b7543e77309f174fd38",
+      "status": "compared"
+    },
+    {
+      "period": "MEPS 2024; first emergency-room event strictly between R3/1 and R4/2",
+      "denominator": {"value": 1101, "unit": "event-window people; complementary round-valid group 17,622", "value_type": "source_specific_valid_records"},
+      "measures": {"event_payment": {"value": 155.52, "unit": "US dollars, weighted mean self/family payment for first event", "value_type": "weighted_mean"}, "care_delay": {"value": 9.59, "unit": "percent versus 6.44% complementary", "value_type": "weighted_share"}, "medical_bill_problem": {"value": 15.14, "unit": "percent versus 7.19% complementary", "value_type": "weighted_share"}, "medical_debt": {"value": 24.12, "unit": "percent versus 15.10% complementary", "value_type": "weighted_share"}, "not_employed_r4_2": {"value": 47.62, "unit": "percent versus 32.98% complementary", "value_type": "weighted_share"}},
+      "method": "Month-order the first valid emergency-room event and compare later round-level household and work fields with the complementary round-valid group.",
+      "uncertainty": "The result is a level comparison with selection, severity, coverage, and endpoint limitations; it does not estimate job loss, event causation, or recovery.",
+      "subgroup": "MEPS respondents with a valid emergency-room event and round-order fields.",
+      "counterinterpretation": "An emergency-room event can be downstream of prior illness or household strain, and nonemployment is a status level rather than a transition or earnings loss.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp",
+      "retrieval_hash": "sha256:72808206961171c77774cc191bc9954e67a2d82eb76f8b7543e77309f174fd38",
+      "status": "compared"
+    },
+    {
+      "period": "MEPS 2024; first inpatient event strictly between R3/1 and R4/2",
+      "denominator": {"value": 545, "unit": "event-window people; complementary round-valid group 18,178", "value_type": "source_specific_valid_records"},
+      "measures": {"event_payment": {"value": 733.03, "unit": "US dollars, weighted mean self/family payment for first event", "value_type": "weighted_mean"}, "medical_bill_problem": {"value": 11.13, "unit": "percent versus 7.52% complementary", "value_type": "weighted_share"}, "medical_debt": {"value": 16.61, "unit": "percent versus 15.55% complementary", "value_type": "weighted_share"}, "not_employed_r4_2": {"value": 60.13, "unit": "percent versus 33.03% complementary", "value_type": "weighted_share"}},
+      "method": "Month-order the first valid inpatient event and compare later round-level household and work fields with the complementary round-valid group.",
+      "uncertainty": "The inpatient group is selected and small; the screen does not identify admission cause, claim, employment transition, household adaptation, remedy, or recovery.",
+      "subgroup": "MEPS respondents with a valid inpatient event and round-order fields.",
+      "counterinterpretation": "The large nonemployment difference may reflect baseline illness, disability, age, or other selection rather than an event-caused work loss.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp",
+      "retrieval_hash": "sha256:72808206961171c77774cc191bc9954e67a2d82eb76f8b7543e77309f174fd38",
+      "status": "compared"
+    },
+    {
+      "period": "MEPS 2024; prescription event window carried to R5/3",
+      "denominator": {"value": 724, "unit": "three-round event-window people; complementary group 17,967", "value_type": "source_specific_valid_records"},
+      "measures": {"health_worsened": {"value": 19.62, "unit": "percent versus 22.16% complementary", "value_type": "weighted_share"}, "employment_status_changed": {"value": 13.15, "unit": "percent versus 9.32% complementary", "value_type": "weighted_share"}, "nonemployment_onset": {"value": 12.81, "unit": "percent versus 7.11% complementary among valid transition cells", "value_type": "weighted_share"}, "nonemployment_resolved": {"value": 11.43, "unit": "percent versus 5.19% complementary among valid transition cells", "value_type": "weighted_share"}},
+      "method": "Carry the prescription event-window definition through valid R5/3 round ordering; use field-specific valid denominators and replicate-weight uncertainty.",
+      "uncertainty": "The later clock is selected and mixed-direction; transition cells are small; R5/3 is not a verified one-, three-, or six-month recovery endpoint.",
+      "subgroup": "MEPS respondents with valid three-round prescription-event ordering.",
+      "counterinterpretation": "Health worsening is not higher in this screen while work-status movement is higher; there is no basis for a single harm or recovery narrative.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp",
+      "retrieval_hash": "sha256:72808206961171c77774cc191bc9954e67a2d82eb76f8b7543e77309f174fd38",
+      "status": "compared"
+    },
+    {
+      "period": "MEPS 2024; route and measurement boundary",
+      "denominator": {"value": 18457, "unit": "privacy-minimized person/event rows in the staged ledger before event-family screens", "value_type": "source_specific_valid_records"},
+      "measures": {"event_fields": {"value": 1, "unit": "month-level event dates, payment, care-delay, denial/authorization, and follow-up context are available; claim-level need, alternatives, remedy, meaning/action, and usable geography are not", "value_type": "field_availability_boundary"}},
+      "method": "Event-field availability audit over the staged MEPS ledger and the documented dated-event screens.",
+      "uncertainty": "Availability does not imply valid linkage to an initiating need, claim, provider decision, or household outcome.",
+      "subgroup": "MEPS staged event ledger.",
+      "counterinterpretation": "A same-person event-to-round ordering is stronger than an annual association but remains insufficient for a causal household episode.",
+      "source_url": "https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp",
+      "retrieval_hash": "sha256:72808206961171c77774cc191bc9954e67a2d82eb76f8b7543e77309f174fd38",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md", "claim": "Dated event-window results and weighting boundaries.", "status": "local-source-note"},
+    {"source_url": "../projects/us-household-constraint-cascade/meps-prescription-event-cascade-v1.md", "claim": "Prescription event-to-household context comparison.", "status": "local-source-note"},
+    {"source_url": "../projects/us-household-constraint-cascade/meps-prescription-event-six-month-followup-v1.md", "claim": "Later health and employment clock comparison.", "status": "local-source-note"}
+  ],
+  "boundary": "This record supports a month-ordered, same-person descriptive event-to-context screen. It does not establish event causation, claim-level need, fill or adherence, payment obligation, alternatives, remedy, household adaptation, verified recovery, trust, political action, switching, or exit. The complementary groups are not causal counterfactuals."
+}

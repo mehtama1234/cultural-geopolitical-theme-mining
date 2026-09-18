@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 310 machine-readable records, 1103 observations,
+**Current registry state:** 311 machine-readable records, 1108 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 644 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1682,7 +1682,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 310 trend records and 1103 observations pass the
+the current checkpoint: 311 trend records and 1108 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
 families; 1,280 local Markdown links and 654 published HTML pages pass link
@@ -1883,6 +1883,15 @@ and reported correction progress, but the API's approximately 190,000 units
 and the MPR's 256,845 products recalled are not one denominator. Purchaser
 notice, replacement receipt, safe restoration, residual cost, and later use or
 exit remain open.
+
+The [MEPS dated medical-event record](records/us-meps-dated-medical-event-household-work-2024.json)
+formalizes the next event-compatible route. Month-ordered prescription, office,
+emergency-room, and inpatient events can be compared with same-person care,
+bill, debt, collector, employment, and later-round context; acute event groups
+show higher selected burden levels in some surfaces, while the prescription
+follow-up is mixed across health and work clocks. The route is not causal and
+does not yet contain claim need, alternatives, treatment continuity, remedy,
+verified recovery, trust, action, or exit.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
