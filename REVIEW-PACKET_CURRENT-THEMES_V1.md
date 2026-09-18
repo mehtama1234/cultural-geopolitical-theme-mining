@@ -19,6 +19,10 @@ The newest remedy comparison is the [Grubhub platform-remedy finding](analysis/f
 which adds reported aggregate payment distribution and operational controls to
 the worker, diner, and restaurant chain while keeping individual receipt,
 restored income/access, adequacy, continued use, switching, and exit open. The
+[Amazon Flex tip-refund finding](analysis/projects/ai-work-control/findings/ai-work-control-087.md)
+adds a worker-side comparison with more than $60.6 million in reported prior
+distribution and a Zelle reissue route, while keeping individual receipt,
+remaining loss, continued work, bargaining power, and exit open. The
 [Apple back-pay implementation finding](analysis/projects/ai-work-control/findings/ai-work-control-086.md)
 remains a useful worker-side comparator because its completed fund-processing
 stage still does not prove individual restored opportunity or household recovery.
