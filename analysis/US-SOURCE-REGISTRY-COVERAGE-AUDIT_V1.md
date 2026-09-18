@@ -172,6 +172,7 @@ family that will be acquired, compared, or maintained over time.
 | `cfpnet.com` | 7 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `hrs.isr.umich.edu` | 7 | `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/hrs-health-cost-trust-acquisition-audit-v1.md` |
 | `ico.org.uk` | 7 | `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md`; `analysis/projects/ai-work-control/uk-ico-automated-recruitment-remedy-record-v1.md` |
+| `saffm.hq.af.mil` | 7 | `analysis/projects/ai-work-control/findings/ai-work-control-080.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md` |
 | `cage.report` | 6 | `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/usaspending-jassm-lrasm-subaward-ownership-route-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-079.md` |
 | `dms-uat.fwc.gov.au` | 6 | `analysis/projects/ai-work-control/amazon-bandameeda-deactivation-remedy-record-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md`; `analysis/projects/ai-work-control/australian-platform-deactivation-case-census-v1.md` |
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
@@ -184,7 +185,6 @@ family that will be acquired, compared, or maintained over time.
 | `benklopack.github.io` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
 | `kam.lt` | 5 | `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-poland-piorun-safe-multilateral-procurement-response-2026.json` |
-| `saffm.hq.af.mil` | 5 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `cambridge.org` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-economic-voting-real-wages/source-search-2026-09-11.md` |
@@ -222,6 +222,7 @@ without a recurring acquisition need and source-specific metadata.
 | `cfpnet.com` | case-specific market source | Retain the California FAIR Plan citation, but use California DOI and official plan records as the durable source family. |
 | `hrs.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cage.report` | delivery/lookup host | Do not register; use official DLA CAGE records as the authoritative identity source. |
 | `dms-uat.fwc.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
@@ -234,7 +235,6 @@ without a recurring acquisition need and source-specific metadata.
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
 | `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
 | `cambridge.org` | academic publisher | Retain the cited paper/publisher route; promote the specific research program only when it becomes a maintained acquisition lane. |

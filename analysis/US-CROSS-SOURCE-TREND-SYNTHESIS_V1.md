@@ -336,10 +336,13 @@ remain separate gates.
 The [realization-stage milestone finding](projects/ai-work-control/findings/ai-work-control-080.md)
 adds dated movement beyond procurement intent: a DoD JASSM/LRASM
 production-support IDIQ, Lockheed Martin capacity investment/ramp-up evidence,
-and a completed first phase of LRASM F-35C flight-science testing. This
-strengthens the production-support and integration stages while preserving the
-missing accepted quantity, delivery, fielding, maintenance, replaceability,
-and external-response links.
+and a completed first phase of LRASM F-35C flight-science testing. The Air
+Force FY2026 exhibit adds a government-reported Troy, Alabama minimum
+sustained rate of 396 combined JASSM/LRASM missiles, allocated as 336 JASSM
+and 60 LRASM, attributed to a new operational production facility. These
+stages strengthen production-capacity evidence while preserving the missing
+realized throughput, accepted quantity, delivery, fielding, maintenance,
+replaceability, and external-response links.
 
 The [Poland JASSM-ER delivery non-observation](projects/ai-work-control/findings/ai-work-control-081.md)
 keeps the foreign customer stage honest. The May 2024 agreement's 2026–2030
@@ -550,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 316 machine-readable records, 1136 observations,
+The current registry contains 316 machine-readable records, 1137 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the

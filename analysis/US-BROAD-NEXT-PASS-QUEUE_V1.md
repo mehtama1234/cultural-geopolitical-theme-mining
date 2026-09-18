@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1136 observations.
+1137 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -504,9 +504,12 @@ The [realization-stage milestone finding](projects/ai-work-control/findings/ai-w
 adds a dated support/capacity/test layer. DoD records a $999M JASSM/LRASM
 production-support IDIQ; Lockheed reports capacity investment and ramp-up; and
 its 2026 release records completion of the first F-35C LRASM flight-science
-phase. The next pass must locate accepted quantities, shipment/delivery,
-fielding, inventory, or maintenance records rather than treat production
-support or flight testing as delivered capability.
+phase. The Air Force FY2026 exhibit adds a Troy, Alabama production-rate stage:
+396 combined JASSM/LRASM minimum sustained rate, with 336 JASSM and 60 LRASM,
+attributed to a new operational production facility. The next pass must still
+locate accepted quantities, shipment/delivery, fielding, inventory, or
+maintenance records rather than treat capacity or flight testing as delivered
+capability.
 
 The [Poland JASSM-ER delivery non-observation](projects/ai-work-control/findings/ai-work-control-081.md)
 rechecks that customer arrow. The official Polish page still states a

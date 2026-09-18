@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 316 machine-readable records, 1136 observations,
+**Current registry state:** 316 machine-readable records, 1137 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 658 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -548,8 +548,11 @@ The [production-support and integration milestone finding](projects/ai-work-cont
 and its production/integration realization record add a reported October 2024
 capacity-expansion action and a March 2025 initial LRASM–F-35B integration
 flight test, with a DoD Lot 22/FMS contract notice retained as corroborative
-context. These milestones advance the realization arrow but do not establish
-output, acceptance, inventory, or operational readiness.
+context. The Air Force FY2026 exhibit adds a government-reported Troy,
+Alabama minimum sustained rate of 396 combined JASSM/LRASM missiles, allocated
+as 336 JASSM and 60 LRASM, attributed to a new operational production
+facility. These milestones advance the realization arrow but do not establish
+realized throughput, output, acceptance, inventory, or operational readiness.
 The geopolitical realization branch now adds Poland's May 2024 Ministry of
 National Defence agreement for approximately $735M in JASSM-ER, with planned
 2026–2030 deliveries and an explicitly stated inventory/security rationale.
@@ -1777,7 +1780,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 316 trend records and 1136 observations pass the
+the current checkpoint: 316 trend records and 1137 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
 families; 1,289 local Markdown links and 658 published HTML pages pass link

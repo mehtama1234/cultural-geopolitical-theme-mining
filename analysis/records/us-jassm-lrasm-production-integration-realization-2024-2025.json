@@ -8,6 +8,25 @@
   "geography": "United States; Lockheed Martin and DoD work locations reported in Orlando, Florida and the US production base",
   "observations": [
     {
+      "period": "FY2026 Air Force Missile Procurement Exhibit P-21, June 2025; official SAF/FM document checked September 18, 2026",
+      "denominator": {"value": 1, "unit": "official Air Force JASSM/LRASM production-schedule exhibit", "value_type": "government_document"},
+      "measures": {
+        "manufacturer_and_location": {"value": "Lockheed Martin - Troy, Alabama", "unit": "reported manufacturer/location", "value_type": "reported"},
+        "combined_minimum_sustained_rate": {"value": 396, "unit": "missiles per year; JASSM and LRASM combined FY2026 minimum sustained rate", "value_type": "reported_production_rate"},
+        "jassm_minimum_sustained_rate": {"value": 336, "unit": "missiles per year; JASSM allocation within shared FY2026 production rate", "value_type": "reported_production_rate"},
+        "lrasm_capacity_allocation": {"value": 60, "unit": "missiles per year; LRASM allocation within shared FY2026 production rate", "value_type": "reported_production_rate"},
+        "capacity_change_reason": {"value": "minimum sustained rate increased due to a new operational production facility", "unit": "budget-exhibit explanation", "value_type": "reported_capacity_change"},
+        "accepted_output_and_customer_delivery": {"value": "not observed", "unit": "missing accepted quantity, shipment, delivery, fielding, and inventory endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official Air Force budget-exhibit extraction via the SAF/FM FY2026 missile-procurement document; the shared production rate, variant allocation, manufacturer/location, and stated capacity-change reason are kept separate from delivered or accepted output.",
+      "uncertainty": "The exhibit reports a planned/minimum sustained production rate and shared-line allocation, not realized FY2026 throughput, lot acceptance, delivery timing, inventory, staffing, yield, or facility-specific assignment of a customer order. The local command-line PDF retrieval returned a TLS error, so the exhibit is retained from official indexed/web access without a repository copy.",
+      "subgroup": "Lockheed Martin Troy production site, JASSM and LRASM program offices, Air Force procurement, US and foreign military customers, production workers, and suppliers sharing the line.",
+      "counterinterpretation": "A higher minimum sustained rate and new facility can expand potential replenishment capacity while bottlenecks, variant mix, testing, acceptance, customer priority, or supply constraints limit delivered operational inventory.",
+      "source_url": "https://www.saffm.hq.af.mil/Portals/84/documents/FY26/FY26%20Air%20Force%20Missile%20Procurement.pdf?ver=x-XGa7JzdnR0WwzVQkWiDg%3D%3D",
+      "retrieval_hash": "local-http-error:sha256:8d3cf9c492afda03fec4cc6229005b6de0b5684ee84c9b1883921d6524ba19f0",
+      "status": "reported"
+    },
+    {
       "period": "2024-10-14; production-capacity announcement",
       "denominator": {"value": 1, "unit": "Lockheed Martin JASSM/LRASM program announcement"},
       "measures": {
