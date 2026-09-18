@@ -116,6 +116,12 @@ designation surface. It demonstrates that health-sector employer growth and
 institutional shortage status are distinct measurements, not interchangeable
 proof of care adequacy.
 
+The [BDS–PLACES health-flow bridge](bds-places-health-flow-outcome-bridge-v1.md)
+joins 2023 health-sector net-job direction to same-year modeled county social
+need and routine-care measures. The near-identical medians across negative and
+nonnegative flow groups preserve a counterexample against treating employer
+growth as care improvement.
+
 The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-population-layer-v1.md)
 normalizes manufacturing, retail, care, and food establishments by county
 population. It is a rough local-capacity baseline, not a measure of access,

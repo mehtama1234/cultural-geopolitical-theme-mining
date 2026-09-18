@@ -2095,6 +2095,14 @@ mean 2024 dynamics were unchanged or absent. The 2023 realized firm/job layer
 remains a baseline, while the next executable route is state/county-sector
 geography with comparable denominators or a dated event ledger.
 
+The [BDS–PLACES health-flow bridge](projects/us-local-business-place/bds-places-health-flow-outcome-bridge-v1.md)
+adds a same-year county outcome surface after sector realization. Negative and
+nonnegative health-sector net-job counties have nearly identical medians on
+selected modeled social-need and routine-care measures. This keeps employer
+flows, modeled outcomes, provider access, and resident episodes as separate
+objects and preserves the missing links to use, time/money cost, recovery,
+trust, and action.
+
 The [BDS county-sector divergence layer](projects/us-local-business-place/bds-county-sector-divergence-layer-v1.md)
 extends that county realization layer with a storage-bounded 2023 sector
 screen. Retail, transportation, health, and accommodation/food have distinct

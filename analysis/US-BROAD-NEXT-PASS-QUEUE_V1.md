@@ -3075,6 +3075,16 @@ The next BDS step is a storage-justified county-sector slice with a pre-specifie
 geography/sector universe, or a dated event ledger; do not download the full
 275 MB table by default.
 
+The [BDS–PLACES health-flow bridge](projects/us-local-business-place/bds-places-health-flow-outcome-bridge-v1.md)
+now tests the first measured outcome surface after county-sector realization.
+Across 2,878 common counties, negative versus nonnegative 2023 health-sector
+net-job flow produced nearly identical medians for food insecurity,
+transportation insecurity, routine checkups, insurance, and mental distress.
+This is a useful same-year ecological counterexample, not a null causal test:
+employer flow is not provider capacity or resident use. The next decisive
+route is a dated care episode with provider availability, travel/wait,
+insurance/price, attempted and completed use, and household/work consequence.
+
 The [BDS county-sector divergence layer](projects/us-local-business-place/bds-county-sector-divergence-layer-v1.md)
 now executes that storage-bounded route. A 12 MB official suffix contains all
 60,686 2023 county-sector rows; the selected retail, transport, health, and

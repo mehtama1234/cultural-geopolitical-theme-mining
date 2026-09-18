@@ -1,0 +1,21 @@
+{
+  "audit_type": "bds-places-health-flow-outcome-bridge-v1",
+  "checked": "2026-09-18",
+  "bds_year": 2023,
+  "places_release": "2025",
+  "places_data_year": 2023,
+  "places_source_url": "https://data.cdc.gov/d/swc5-untb",
+  "places_source_sha256": "0f093ce4a185a46eaaa53a09d556cbd37dee7d6d8059666c1a08d03db754d73f",
+  "bds_source_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+  "bds_suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+  "county_join": {"bds_health_rate_counties": 3015, "common_counties_with_selected_places": 2878, "negative_bds_health_net_counties": 973, "nonnegative_bds_health_net_counties": 1905},
+  "measure_comparisons": {
+    "food_insecurity": {"negative_bds_health_net": {"count": 783, "median": 14.9}, "nonnegative_bds_health_net": {"count": 1468, "median": 14.8}},
+    "transportation_insecurity": {"negative_bds_health_net": {"count": 783, "median": 8.1}, "nonnegative_bds_health_net": {"count": 1468, "median": 8.1}},
+    "routine_checkup": {"negative_bds_health_net": {"count": 973, "median": 78.4}, "nonnegative_bds_health_net": {"count": 1905, "median": 78.4}},
+    "lack_health_insurance": {"negative_bds_health_net": {"count": 973, "median": 9.9}, "nonnegative_bds_health_net": {"count": 1905, "median": 10.0}},
+    "frequent_mental_distress": {"negative_bds_health_net": {"count": 973, "median": 17.1}, "nonnegative_bds_health_net": {"count": 1905, "median": 17.3}}
+  },
+  "boundary": "This is a same-year county ecological comparison between employer flows and modeled PLACES estimates. It does not identify providers or residents, establish causation, or measure appointment availability, use, delay, recovery, trust, or action.",
+  "raw_storage": "PLACES compact county file already retained; BDS raw table not retained and was read through a transient suffix."
+}
