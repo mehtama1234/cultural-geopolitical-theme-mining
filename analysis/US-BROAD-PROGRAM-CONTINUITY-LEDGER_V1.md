@@ -1056,6 +1056,12 @@ procurement now share a formal realization-stage comparison without being
 pooled. Authorization, funding, milestones, operation, replaceability,
 affected-actor response, and leverage remain separate clocks; the next test is
 an identifier-bearing production-to-use and response ledger.
+
+The next migration/cultural-meaning rotation adds the [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md).
+Pew's Latino survey places perceived family progress beside American-Dream
+attainability, nativity, future children, and open-ended definitions of a good
+life. This adds meaning and reference-group structure without treating survey
+judgment as observed mobility, belonging, trust, or political action.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
