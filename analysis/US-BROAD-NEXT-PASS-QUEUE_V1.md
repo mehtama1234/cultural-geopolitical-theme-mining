@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 318 records and
-1144 observations.
+1145 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -240,6 +240,12 @@ maximum total payment to $200, with later phases still scheduled. Aggregate
 acceptance advances the remedy arrow, but individual receipt, amount, delay,
 continued use, switching, trust, and household recovery remain open; the next
 decisive artifact is still a lawful account-level follow-up.
+
+The [Amazon Flex refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
+now adds the FTC's annual-report receipt stage: 2,806 successful Zelle
+payments raised reported participation from 90.3% to 92.3%, and 130,952 drivers
+were reported fully compensated. This is an aggregate payment-reach result,
+not a driver-level recovery, continued-work, alternative-work, or exit result.
 
 The small-business disaster-liquidity source pass adds a causal firm-level
 middle layer: recovery loans reduce exit and bankruptcy while increasing

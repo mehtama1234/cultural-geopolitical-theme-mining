@@ -44,13 +44,13 @@ never the completion condition.
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 318 machine-readable records; 1144 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Trend registry | 318 machine-readable records; 1145 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 318 records/1144 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 318 records/1145 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -1031,10 +1031,11 @@ voluntary reactivation before the formal order, while lost-pay quantum,
 payment, net recovery, alternatives, durability, and exit remained open. This
 separates work activity from financial restoration and unconstrained choice.
 The [Amazon Flex refund record](records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
-then adds the next remedy stage: the FTC reports aggregate payment distribution
-and a live reissue route for uncashed checks. It advances beyond an obligation
-or order without closing driver-level receipt, remaining loss, continued work,
-household recovery, bargaining power, or exit.
+then adds the next remedy stage: the FTC reports aggregate payment distribution,
+2,806 successful Zelle reissue payments, and participation rising from 90.3%
+to 92.3%. It advances beyond an obligation or order and makes program-level
+receipt visible without closing driver-level linkage, remaining loss,
+continued work, household recovery, bargaining power, or exit.
 The [MEPS friction route-direction record](records/us-meps-2024-friction-route-direction-comparison.json)
 then rotates the program back to health: repeated-round denial or
 prior-authorization reports are followed by more perceived-health worsening,
@@ -2081,7 +2082,7 @@ records the moved public-download host and the continuing login requirement;
 HRS codebooks remain a planning surface, not a respondent-level result.
 
 The program therefore resumes from a clean control state: 14 themes, 318
-machine-readable records, 1,144 observations, 103 source packets, and a
+machine-readable records, 1,145 observations, 103 source packets, and a
 published site whose link-validated count is refreshed by the build. The next
 research action is still the authorized same-case route test through event,
 alternative, effort/payment, response, remedy/recovery, trust/meaning, action,

@@ -59,6 +59,25 @@
       "source_url": "https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers",
       "retrieval_hash": "sha256:1ef5d398a210267b3be9d0300c76d918a69a154aa8d509a72a254b5dfed215ba",
       "status": "reported"
+    },
+    {
+      "period": "2024 FTC annual refund report; payment status as of 2024-12-31",
+      "denominator": {"value": 1, "unit": "Amazon Flex refund program; administrator-reported eligible-driver population", "value_type": "named_refund_program"},
+      "measures": {
+        "successful_zelle_payments": {"value": 2806, "unit": "drivers; successful Zelle payments after uncashed-check reissue", "value_type": "reported_payment_count"},
+        "participation_before_zelle": {"value": 90.3, "unit": "percent of eligible drivers", "value_type": "reported_payment_reach_share"},
+        "participation_after_zelle": {"value": 92.3, "unit": "percent of eligible drivers", "value_type": "reported_payment_reach_share"},
+        "drivers_full_compensation": {"value": 130952, "unit": "drivers reported to have received full compensation", "value_type": "reported_recipient_count"},
+        "total_compensation": {"value": 58500000, "unit": "US dollars, more than", "value_type": "reported_payment_distribution_total"},
+        "continued_work_switching_household_recovery": {"value": "not observed", "unit": "missing downstream endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official FTC annual refund report; administrator-reported successful Zelle payments and aggregate payment reach are kept separate from customer-level linkage and downstream work or household outcomes.",
+      "uncertainty": "The report gives aggregate reach and recipient counts as of December 31, 2024 but does not link payment to a named driver's loss, timing, remaining loss, continued work, alternative work, household recovery, or bargaining outcome.",
+      "subgroup": "Amazon Flex drivers eligible under the 2021 settlement, including earlier recipients and drivers reached through the Zelle reissue route; no representative worker denominator is inferred.",
+      "counterinterpretation": "Higher aggregate participation after Zelle shows improved payment reach for the program, not that every driver recovered the same loss or changed platform behavior.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "retrieval_hash": "sha256:14cb059063eda15e5de03cb651a340296a9a20ae2ac4aa31b2c1a342e67fea84",
+      "status": "reported"
     }
   ],
   "related_sources": [
@@ -71,7 +90,12 @@
       "source_url": "https://consumer.ftc.gov/consumer-alerts/2021/11/ftc-returns-60-million-amazon-illegally-took-flex-drivers",
       "claim": "FTC reported initial check and PayPal distribution counts and amounts.",
       "status": "official-payment-announcement"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "claim": "FTC annual report records successful Zelle payments, aggregate participation increase, and drivers reported to have received full compensation as of December 31, 2024.",
+      "status": "official-annual-refund-report"
     }
   ],
-  "boundary": "This record establishes administrator-reported worker payment distribution and a current reissue route. It does not establish individual receipt, average recovery, remaining loss, continued work, alternative work, household security, bargaining power, trust, collective action, or exit. It is not a representative worker trend or a causal estimate."
+  "boundary": "This record establishes administrator-reported aggregate worker payment reach, including successful Zelle reissue payments and a reported full-compensation count. It does not provide driver-level linkage, average recovery, remaining loss, continued work, alternative work, household security, bargaining power, trust, collective action, or exit. It is not a representative worker trend or a causal estimate."
 }

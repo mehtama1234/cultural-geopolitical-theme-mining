@@ -36,7 +36,7 @@ condition or restriction
 | Doxo bill-payment enforcement | Named institutional case; 2 observations | Search-route confusion, alleged fees, subscription friction, and order-stage controls | Payment success, bill status, service continuity, remedy receipt, trust, switching/exit | No |
 | Grubhub multisided redress | Named platform program; 640,038 reported recipients | Aggregate checks/PayPal distribution and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit | No |
 | VRURC product-recall implementation | Single recall key; notice and later CPSC progress snapshot | Dated hazard, stop-use/replacement instruction, and reported correction counts | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit | No |
-| Amazon Flex tip-refund program | Named FTC refund program; aggregate payment rounds and Zelle reissue route | Consent order, reported distribution, and failed/uncashed payment reissue stage | Eligible-driver denominator, individual receipt, remaining loss, continued/alternative work, bargaining, switching/exit | No |
+| Amazon Flex tip-refund program | Named FTC refund program; 130,952 drivers reportedly received full compensation and participation rose from 90.3% to 92.3% after 2,806 successful Zelle payments | Consent order, aggregate receipt/reach, and failed/uncashed payment reissue stage | Driver-level linkage, remaining loss, continued/alternative work, bargaining, switching/exit | No |
 | IER individual employment remedy | Five FY2026 resolution summaries; four reported paid remedies and one offer | Agency-reported individual payments, training/policy correction, and one reinstatement offer | Alternative/non-use, payment instrument and timing, restored work, durable compliance, household recovery, trust/action, exit | No |
 | HTOPS fraud/recovery follow-up | 6,564 exact April–June 2025 respondent matches; sparse loss/report/recovery subgroups | Retrospective exposure, loss, government reporting, self-reported recovery, and later material/trust measures | Dated incident, actor, alternatives, verified recovery, replacement route, later use/switch/non-use/action | No |
 
@@ -62,6 +62,12 @@ The comparison identifies a recurring structural split. The four latest
 consumer-remedy cases sharpen it: even when an enforcement or recall record names an
 operator and a formal control or payment distribution, it may still omit the
 affected unit's usable alternative and lived outcome.
+
+The Amazon Flex annual report adds an important intermediate stage: the FTC
+reports aggregate payment reach and successful reissue payments, including a
+rise from 90.3% to 92.3% participation after Zelle. That is stronger than a
+payment offer or a failed-payment route, but it remains program-level receipt
+evidence; it does not link the same driver's loss, payment, later work, or exit.
 
 - **Visibility:** the problem enters a public, administrative, survey, or market
   record.
@@ -141,6 +147,7 @@ alternative → remedy/recovery → later meaning/action or exit**.
 - [Grubhub remedy record](../../../records/us-ftc-grubhub-multisided-remedy-2026.json)
 - [VRURC recall implementation record](../../../records/us-cpsc-vrurc-recall-implementation-2023-2026.json)
 - [Amazon Flex tip-refund record](../../../records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
+- [FTC 2024 annual refund report](https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf)
 
 This finding reads retained local records and audits only. It adds no bulk
 download and makes no population-level exit or remedy estimate.

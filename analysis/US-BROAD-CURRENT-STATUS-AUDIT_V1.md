@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 318 machine-readable records, 1144 observations,
+**Current registry state:** 318 machine-readable records, 1145 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 661 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1782,7 +1782,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 318 trend records and 1144 observations pass the
+the current checkpoint: 318 trend records and 1145 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
 families; 1,303 local Markdown links and 661 published HTML pages pass link
@@ -1833,11 +1833,12 @@ individual receipt, remaining loss, continued work, alternatives, household
 recovery, bargaining power, and exit open.
 
 The [Amazon Flex refund record](records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
-is now promoted as a canonical distribution-stage trend. It demonstrates
-administrator-reported money movement and a reissue path, not a driver-level
-recovery rate: paid, uncashed, reissued, ineligible, and unknown-status drivers
-remain distinct, and receipt, remaining loss, continued work, household
-recovery, bargaining power, and exit are not publicly observed.
+is now promoted as a canonical distribution-stage trend. The FTC annual report
+adds aggregate receipt evidence: 2,806 successful Zelle payments raised
+reported participation from 90.3% to 92.3%, and 130,952 drivers were reported
+to have received full compensation. This is stronger than a reissue offer but
+not a driver-level recovery rate: payment linkage, remaining loss, continued
+work, household recovery, bargaining power, and exit remain open.
 
 The latest AI/work-control endpoint audit adds a storage-light stage check across
 local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.
