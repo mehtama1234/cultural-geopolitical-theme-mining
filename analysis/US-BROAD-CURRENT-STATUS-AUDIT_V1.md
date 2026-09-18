@@ -2567,3 +2567,12 @@ separate screen aligns denial or prior-authorization delay with care delay,
 medical debt, and collector contact. These are cross-sectional, field-specific
 associations rather than same-bill or causal pathways; claim timing, appeal,
 resolution, treatment completion, remedy, trust, and action remain unobserved.
+
+The new [medical-debt-relief trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds randomized intervention evidence to the health-cost lane. Two experiments
+find bounded credit-score and credit-limit effects under one reporting context,
+no credit-report effect under another, a later collections result, and no
+average detected health, utilization, or financial-wellness effect. The
+participants come from selected downstream medical-debt portfolios; relief
+receipt, original care decisions, household trade-offs, heterogeneous effects,
+trust, and political action remain outside the retained evidence.

@@ -1706,3 +1706,13 @@ coverage, authorization, notice, amount owed, payment/debt, delay or completion,
 appeal/correction, provider response, work/care adaptation, verified remedy,
 later health and financial room, trust, and action; preserve cross-sectional,
 field-specific, non-same-bill, and non-causal boundaries.
+
+The next health-cost intervention rotation promotes the [medical-debt-relief
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The randomized record adds
+reporting-context-dependent credit effects, a later-collections outcome, and
+average nulls for selected health, utilization, and financial-wellness measures
+beside the observational MEPS layers. The next test is a same-recipient ledger
+joining medical need and bill formation, collection/reporting, relief notice and
+receipt, credit access/use, later bills, care utilization, health, household
+adaptation, financial room, trust, and action; preserve selected portfolios,
+treatment/control, reporting exposure, and heterogeneous-effect boundaries.
