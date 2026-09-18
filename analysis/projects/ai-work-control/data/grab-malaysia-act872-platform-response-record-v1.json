@@ -1,0 +1,30 @@
+{
+  "format": "platform-response-record-v1",
+  "checked": "2026-09-18",
+  "platform": "Grab Malaysia",
+  "jurisdiction": "Malaysia",
+  "source_unit": "company public Act 872 response page; not a worker sample or compliance audit",
+  "source_url": "https://www.grab.com/my/gigbill/",
+  "retrieval_sha256": "4419b80a6f982ea6c07f8ee45428baf90860f3565aea649504c44811de9c115",
+  "page_stated_update": "27 March 2026",
+  "reported_surfaces": {
+    "service_agreements": "clear Terms of Service agreements claimed",
+    "earnings": "fair and transparent earning framework claimed",
+    "adverse_decision_process": "fair strike system before termination and strengthened appeal/discipline processes claimed",
+    "dispute_resolution": "appeal and dispute-resolution channels claimed",
+    "social_protection": "SOCSO co-contribution and guided registration/deduction support described",
+    "partner_program": "more than RM10 million reported for partner protection and empowerment"
+  },
+  "stages": {
+    "platform_response": "reported_platform_response",
+    "policy_or_program_commitment": "reported_commitment",
+    "worker_uptake": "not_observed",
+    "appeal_use": "not_observed",
+    "changed_decision_or_access": "not_observed",
+    "payment_or_earnings_recovery": "not_observed",
+    "socso_enrollment_denominator": "not_observed",
+    "durability_trust_or_exit": "not_observed"
+  },
+  "boundary": "The page is a company-reported policy and commitment surface. It does not establish worker-level compliance, use, appeal outcomes, account restoration, payment, SOCSO enrollment, recurrence prevention, trust, switching, or exit, and it is not linked publicly to the reported GrabCar Tribunal claimant.",
+  "storage_boundary": "Only the public page hash and bounded extracted claims are retained; no partner or operational records were downloaded."
+}

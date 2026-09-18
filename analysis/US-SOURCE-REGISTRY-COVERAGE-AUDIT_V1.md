@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **92**
+- Observed domains outside registered families: **93**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -287,6 +287,7 @@ without a recurring acquisition need and source-specific metadata.
 | `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `grab.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrsdata.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `icpsr.github.io` | data delivery/documentation host | Do not register separately; preserve ICPSR or the originating survey as the durable source family. |

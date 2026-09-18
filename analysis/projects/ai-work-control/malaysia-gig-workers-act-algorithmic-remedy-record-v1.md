@@ -4,6 +4,8 @@
 
 **Checked:** 2026-09-15
 
+**Platform-response follow-up:** [Grab Malaysia Act 872 response record](grab-malaysia-act872-platform-response-record-v1.md), checked 2026-09-18
+
 ## Why this record matters
 
 Malaysia provides a non-European statutory comparator for the algorithmic-
@@ -130,6 +132,13 @@ Tribunal award, or enforcement decision identifying an automated-monitoring or
 automated-decision dispute. The next
 acquisition should test whether those records are non-public, newly emerging,
 or available through a formal information request.
+
+Grab's public Act 872 page adds a company-reported response layer: clear terms,
+an earnings framework, a pre-termination strike system, appeal and dispute
+channels, and SOCSO-related commitments. The [bounded platform-response
+record](grab-malaysia-act872-platform-response-record-v1.md) keeps these claims
+separate from independently verified compliance, worker uptake, appeal results,
+payment, account restoration, or the reported GrabCar claimant's outcome.
 
 The detailed search boundary is maintained in the [Malaysia Act 872 outcome
 acquisition audit](malaysia-act872-outcome-acquisition-audit-2026-09-15.md).
