@@ -97,6 +97,16 @@ executable step remains the authenticated PSID wave-file gate, followed by
 retention, missingness, and weight checks; no PSID archive is to be fetched
 before account access is available.
 
+The [latest counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+adds six bounded reversals to the current status: fraud exposure is not
+realized loss, recall correction is not purchaser recovery, AI output/time is
+not worker control, complaint closure is not secure housing, firm recovery is
+not community recovery, and larger-firm eligibility is not broadly shared
+opportunity. Together with the [practical-exit synthesis](projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md),
+these additions narrow the broad proposition to unequal options and
+institutional mediation; they do not support a universal decline or failure
+claim.
+
 The latest financial-access addition is the [2025 SHED banking-substitution
 finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md).
 It adds official subgroup and response surfaces for unbanked status, overdraft,
