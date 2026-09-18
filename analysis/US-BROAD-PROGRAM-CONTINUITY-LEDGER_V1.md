@@ -1533,3 +1533,13 @@ can alter consent, monitoring, workload, discretion, or remedy, but consultation
 may be symbolic and case outcomes may remain partial or unresolved. The next
 test is a same-workplace U.S. ledger joining deployment, exposure, institutional
 voice, rule change, appeal, enforcement, and later worker movement or exit.
+
+The next health-cost rotation promotes the [dated medical-event trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). MEPS now supplies a month-ordered
+event-to-context stage across prescription, emergency-room, and inpatient
+episodes, with payment, delay, bill, debt, collection, employment, and later
+round fields kept separate. Acute-event burden and mixed prescription follow-up
+advance the household/work arrow without establishing need, causation, remedy,
+or verified recovery. The next test is a same-episode ledger joining coverage,
+claim or fill, amount owed, treatment continuity, work/care time, correction,
+and later household and institutional response.
