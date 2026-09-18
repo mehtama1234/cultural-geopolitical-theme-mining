@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 328 records and
-1169 observations.
+have exact registered-URL references. The trend registry holds 329 records and
+1172 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3023,6 +3023,12 @@ office and housing demand, tax base, and MPO investment response. Keep worker
 flexibility, non-teleworker burden, mode shift, service finance, land-use
 change, and local welfare separate; do not infer urban decline or household
 benefit from ridership alone.
+
+The [canonical telework/travel/planning record](records/us-gao-telework-travel-real-estate-planning-2026.json)
+now preserves behavior, local response, and federal planning-execution stages.
+The next decisive artifact remains a place-month-mode ledger that joins worker
+telework and non-teleworker exposure to trips, service, property, investment,
+subgroup burden, and public response.
 
 The [GAO assisted-living spending and coverage layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md)
 adds an aging-care financing test. The next pass should use compact official

@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 328 machine-readable records, 1169 observations,
+The current registry contains 329 machine-readable records, 1172 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1393,6 +1393,10 @@ real-estate and housing demand. Only one of the 26 largest transit cities had
 These are not causal household or city welfare estimates; the next test is a
 place-month-mode ledger linking telework, trips, service, property, investment,
 distribution, and public response.
+
+The [canonical telework/travel/planning record](records/us-gao-telework-travel-real-estate-planning-2026.json)
+preserves the community-survey, selected-city, and federal-execution stages
+without treating telework context or MPO action as a causal welfare estimate.
 
 The [GAO 2026 airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
 adds a place and mobility conversion test. Nearly all of 51 reviewed airports

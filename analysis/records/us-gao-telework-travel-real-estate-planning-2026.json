@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-telework-travel-real-estate-planning-2026",
+  "title": "Telework changes travel and place demand faster than planning systems can adjust",
+  "theme_ids": ["time", "work", "cost", "voice", "energy"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107532; telework, travel patterns, transit, real estate, MPO response, and DOT planning guidance",
+  "geography": "United States communities within 410 metropolitan planning organization boundaries; 2019–2024 data and planning actions through March 2025",
+  "observations": [
+    {
+      "period": "2019–2024; telework and travel context across communities over 50,000 people",
+      "denominator": {"value": 410, "unit": "metropolitan planning organizations surveyed; 86% response rate", "value_type": "surveyed_planning_scope"},
+      "measures": {
+        "telework_level": {"value": "average telework rates remained about twice 2019 levels across large, medium, and small communities", "unit": "community telework context", "value_type": "reported_average_context"},
+        "geographic_concentration": {"value": "average increases were highest in communities with populations of 1 million or more", "unit": "community-size comparison", "value_type": "reported_comparison"},
+        "system_surfaces": {"value": "changes were reported in transit ridership and fare revenue, when and where people drove, and commercial-real-estate and housing demand away from some central business districts", "unit": "cross-system reported surfaces", "value_type": "reported_context"}
+      },
+      "method": "GAO analysis of telework and transportation data from 2019–2024, survey of 410 MPOs, literature and federal-document review, and interviews with nine selected MPOs.",
+      "uncertainty": "Average community telework rates do not identify worker-level exposure, occupation, employer policy, care, income, housing, or non-teleworker burden; simultaneous pandemic, migration, service, fuel, and employer changes prevent a universal causal claim.",
+      "subgroup": "Communities within MPO boundaries, with size comparisons and selected MPO responses; telework access varies across workers and occupations.",
+      "counterinterpretation": "Telework can reduce one commute while shifting travel to other times or purposes; transit and real-estate changes can reflect multiple shocks and may benefit some households or places while burdening others.",
+      "source_url": "https://www.gao.gov/products/gao-26-107532",
+      "retrieval_hash": "sha256:e6bf65e051bf7dc5c7c3d60b3c79a851bbed8a920ef872f097154a6beea0e716",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2024; transit and community response across 352 responding MPOs",
+      "denominator": {"value": 352, "unit": "MPOs responding to the relevant survey items; not every MPO answered every question", "value_type": "item_specific_survey_denominator"},
+      "measures": {
+        "large_transit_city_recovery": {"value": 1, "unit": "of 26 largest transit cities with 2024 ridership above 2019 levels", "value_type": "reported_count"},
+        "service_response": {"value": "more than half of MPOs reported transit providers improved or increased service to attract riders", "unit": "MPO-reported share", "value_type": "reported_share_summary"},
+        "planning_uncertainty": {"value": "about one-third of MPOs reported they did not intend, or did not know how, to incorporate telework into planning", "unit": "MPO-reported planning condition", "value_type": "reported_share_summary"},
+        "guidance_demand": {"value": ">90", "unit": "percent of MPOs wanting more DOT guidance on incorporating telework into forecasting", "value_type": "reported_share_summary"}
+      },
+      "method": "GAO survey of MPO actions and planning practices, selected transit-city ridership comparison, and review of studies and agency materials.",
+      "uncertainty": "Reported actions are not common treatments and do not establish improved ridership, revenue, reliability, access, congestion, emissions, land use, or household welfare; selected 26-city ridership is not all transit modes or communities.",
+      "subgroup": "MPOs, transit providers, and selected large transit cities; item response varies across the 352 respondents.",
+      "counterinterpretation": "Increasing service may preserve future capacity or improve access for some riders even when aggregate ridership remains below 2019; planning uncertainty may reflect prudent model revision rather than failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107532",
+      "retrieval_hash": "sha256:e6bf65e051bf7dc5c7c3d60b3c79a851bbed8a920ef872f097154a6beea0e716",
+      "status": "reported"
+    },
+    {
+      "period": "November 2023–April 2026; federal travel-demand study and guidance implementation",
+      "denominator": {"value": 1, "unit": "DOT travel-demand data and modeling study/guidance requirement reviewed by GAO", "value_type": "federal_requirement_scope"},
+      "measures": {
+        "required_deadline": {"value": "November 2023", "unit": "statutory deadline for DOT study", "value_type": "reported_deadline"},
+        "execution_status": {"value": "DOT had begun related work but did not have a detailed plan or timeline for completion at GAO review; recommendation remained open", "unit": "federal implementation status", "value_type": "reported_finding"},
+        "recommendation": {"value": "establish and implement a detailed plan with clear steps and timelines to complete the study and guidance", "unit": "GAO recommendation; DOT concurred", "value_type": "reported_recommendation"}
+      },
+      "method": "GAO review of federal law, DOT documents, agency actions, and recommendation status.",
+      "uncertainty": "An open federal planning recommendation does not establish local investment error, service failure, or household burden; later DOT execution may change the information available to MPOs.",
+      "subgroup": "DOT/FHWA, MPOs, transit providers, local governments, and communities making transportation-investment decisions.",
+      "counterinterpretation": "A complex and continuously changing travel system may require iterative modeling; contracting for best practices can produce useful guidance before a final study is complete.",
+      "source_url": "https://www.gao.gov/products/gao-26-107532",
+      "retrieval_hash": "sha256:e6bf65e051bf7dc5c7c3d60b3c79a851bbed8a920ef872f097154a6beea0e716",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107532", "claim": "Official GAO review supplies telework, transit, vehicle, real-estate, MPO-response, and DOT-planning evidence with survey scope and limitations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a work-geography, travel-demand, transit, real-estate, and planning stage. It does not establish telework causality for ridership, fares, vehicle travel, emissions, housing or office prices, vacancy, tax bases, household welfare, political action, or local investment effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, MPO survey file, transit operations archive, and real-estate microdata not retained",
+    "html_sha256": "sha256:e6bf65e051bf7dc5c7c3d60b3c79a851bbed8a920ef872f097154a6beea0e716",
+    "checked": "2026-09-18"
+  }
+}
