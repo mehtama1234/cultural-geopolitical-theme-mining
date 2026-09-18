@@ -1898,6 +1898,18 @@ family-year or care-episode ledger linking alternatives, hours, work and
 housing change, benefit/respite receipt, remaining burden, and later stability
 or exit; foster/non-foster and paid/unpaid routes must remain distinct.
 
+The [practical-exit qualification finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md)
+now makes the open middle explicit across ten retained routes. The same-unit
+promotion rule requires a dated trigger, an alternative or non-use choice, an
+institutional response, a verified protected or sacrificed outcome, and a
+later meaning/action or exit endpoint; the retained screen qualifies 0 of 10.
+This is an observability and acquisition boundary, not evidence that remedies
+or exits did not occur. Complaint closure, access restoration, program exit,
+market movement, and aggregate payment distribution remain institutional
+stages until receipt, durability, alternatives, protected outcomes, and later
+behavior are observed. The next executable test is one lawful small ledger or
+valid panel that supplies the missing alternative and verified outcome fields.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
