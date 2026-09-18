@@ -21,5 +21,9 @@ The notice does not identify SLB-500M, a Barracuda quantity, a task order,
 obligation, delivery, acceptance, production output, or Polish demand. The
 $20B figure is a ceiling across the vehicle; it cannot be used as Barracuda
 funding without a product-specific order and obligation record. A separate
-USAspending keyword search for exact “SLB-500M” returned no award match on
-2026-09-18, so the product-specific federal execution arrow remains open.
+USAspending `spending_by_award` search on 2026-09-18, using award types A/B/C/D
+and exact keywords `SLB-500M`, `LCCM-GL`, and `FAMM-Palletized`, returned zero
+award results for each query. The endpoint search window begins at 2007-10-01.
+This is a bounded public-data non-observation, not proof that no differently
+described, classified, or newly posted record exists; the product-specific
+federal execution arrow therefore remains open.

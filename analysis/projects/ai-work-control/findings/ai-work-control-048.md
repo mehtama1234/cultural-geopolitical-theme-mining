@@ -119,8 +119,11 @@ ceiling and a five-year base plus five-year option period. That matters for
 access to future federal demand, but the ceiling aggregates commercial
 software, hardware, data/compute infrastructure, and support offerings. It
 does not identify SLB-500M, a task order, an obligation, a delivered round, or
-Polish demand. The exact `SLB-500M` USAspending search returned no award match
-in this pass, so product-level federal execution remains an open arrow.
+Polish demand. Exact USAspending searches for `SLB-500M`, `LCCM-GL`, and
+`FAMM-Palletized` returned no award matches in this pass. That bounded
+public-data non-observation does not prove that no differently described,
+classified, or newly posted record exists, so product-level federal execution
+remains an open arrow.
 
 ### Co-production creates a testable autonomy claim
 
