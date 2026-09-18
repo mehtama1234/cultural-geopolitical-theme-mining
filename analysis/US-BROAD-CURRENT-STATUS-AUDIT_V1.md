@@ -4,7 +4,7 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 318 machine-readable records, 1145 observations,
+**Current registry state:** 319 machine-readable records, 1146 observations,
 103 source packets, and 14 program themes. The published link-validated site
 currently has 661 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
@@ -1782,10 +1782,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 318 trend records and 1145 observations pass the
+the current checkpoint: 319 trend records and 1146 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,303 local Markdown links and 661 published HTML pages pass link
+families; 1,304 local Markdown links and 661 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1825,6 +1825,14 @@ and restaurant consent. The public record still does not separate drivers,
 diners, and restaurants or establish individual cashing/acceptance,
 account/income restoration, implementation quality, continued use, switching,
 or exit.
+
+The [Walmart Spark Driver remedy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a worker-specific court implementation stage. FTC materials separate a
+$100 million judgment into $79 million for drivers, $10 million for FTC driver
+distribution, and $11 million in state penalties; they also report payments
+beginning in mid-2025 and a 10-year earnings-verification program. The record
+does not yet establish driver-level receipt, corrected pay, restored work,
+schedule control, alternative work, trust, switching, or exit.
 
 The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
 adds a stronger payment-distribution comparator: the FTC reports more than

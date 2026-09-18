@@ -160,11 +160,24 @@
       "qualifies": false,
       "next_minimum_field": "dated incident and actor, attempted alternatives and effort, verified recovery or account correction, replacement route, and later use/switch/non-use or action reason"
     }
+    ,{
+      "route_id": "Walmart-Spark-Driver-remedy",
+      "domain": "platform_worker_recourse",
+      "unit": "named platform-worker settlement program",
+      "denominator": "eligible Spark Drivers not fully disclosed; nationwide eligibility rule",
+      "dated_trigger": "reported missing base pay, tips, incentives, or promotions tied to accepted work",
+      "alternative_or_non_use_choice": "missing; later alternative work, non-use, and reason for staying/exit not recorded",
+      "institutional_response": "court-entered $100 million judgment, driver/state allocation, 10-year earnings-verification program, and payment-identification process observed",
+      "verified_remedy_or_recovery": "payment began mid-2025 and some driver payment-date emails are reported; individual receipt, amount, unresolved count, and restored work missing",
+      "later_action_or_exit": "continued work, alternative work, schedule control, switching, trust, and exit missing",
+      "qualifies": false,
+      "next_minimum_field": "driver-level eligibility, amount owed, payment date/receipt, correction or appeal, continued/alternative work, schedule control, recurrence, and exit"
+    }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 12,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, IER, and HTOPS additions improve payment, remedy, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. Grubhub now separates court-entered payment authority and administrator-sent payments from individual receipt. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "screened_routes": 13,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, IER, HTOPS, and Walmart additions improve payment, remedy, worker-allocation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. Grubhub now separates court-entered payment authority and administrator-sent payments from individual receipt, while Walmart adds a court-entered driver allocation, payment timing, and prospective earnings-verification stage. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
     "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data. The HTOPS route specifically requires dated incident/actor, alternative or non-use, verified recovery, and later use/action fields."
   }
 }

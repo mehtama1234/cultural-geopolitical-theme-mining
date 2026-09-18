@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 318 records and
-1145 observations.
+have exact registered-URL references. The trend registry holds 319 records and
+1146 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2645,13 +2645,22 @@ or exit occurred. No bulk data was downloaded. The next qualifying pass must
 obtain one lawful small event ledger or valid panel with those missing fields;
 otherwise rotate to a subgroup/place reversal from retained data.
 
-The detailed practical-exit finding extends this comparison to ten routes by
+The detailed practical-exit finding extends this comparison with
 adding the Doxo bill-payment enforcement case and Grubhub's court-entered,
 administrator-distributed remedy program, plus the VRURC recall implementation
 bridge and Amazon Flex tip-refund program. Those records improve coverage of
 formal consumer response, payment authority, and distribution, but remain open
 on person-level alternatives, payment acceptance, protected outcomes, trust,
 switching, and exit; they do not change the qualification result.
+
+The [Walmart Spark Driver remedy finding](findings/us-walmart-spark-driver-remedy-001.md)
+adds a worker-specific implementation comparator: the court-entered judgment and
+FAQ separate a $79 million driver allocation, $10 million for FTC driver
+distribution, $11 million in state penalties, mid-2025 payment timing, and a
+10-year earnings-verification program. The public record still does not provide
+driver-level receipt, amount, corrected pay record, restored work, schedule
+control, alternative work, trust, switching, or exit. The next test is a
+driver-level remedy ledger rather than another aggregate allocation.
 
 The [subgroup-conditioned SIPP work-direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-045.md)
 now supplies that reversal from retained data. Across children-present,

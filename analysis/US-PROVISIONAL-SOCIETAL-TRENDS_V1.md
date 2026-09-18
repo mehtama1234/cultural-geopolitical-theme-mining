@@ -306,6 +306,8 @@ The register does not claim that every arrow is observed. It is a guide for
 choosing the next source and for refusing to treat an attractive narrative as a
 completed explanation.
 
+| 86 | **A platform-worker judgment can separate missing-pay correction from restored work control.** | The court-entered FTC/state order in the Walmart Spark Driver case records a $100 million judgment; the official FAQ allocates $79 million directly to drivers, $10 million to the FTC for intended driver distribution, and $11 million to 11 states as civil penalties. It reports payments beginning in mid-2025, nationwide eligibility for specified unpaid base-pay, tip, incentive, and promotion claims, a 10-year earnings-verification program, and partial status through payment-date emails and ongoing driver identification. The [Walmart Spark Driver remedy record](records/us-ftc-walmart-spark-driver-remedy-2026.json) keeps allocation, dispatch, receipt, and later work separate. | That the judgment or allocation proves driver-level receipt, restored earnings opportunity, schedule control, continued work, alternative work, trust, or exit. The public materials do not disclose the complete eligible denominator, individual amounts, receipt, unresolved-payment count, correction status, or later worker outcomes. | Follow one driver from promised pay or incentive and completed work through eligibility, amount owed, payment date and receipt, record correction or appeal, continued/alternative work, schedule control, recurrence, trust, and exit; preserve noneligible, unreached, and pre-payment exits. |
+
 ## What cuts across the trends
 
 1. **Headline outcomes hide the adjustment.** Employment, housing, service

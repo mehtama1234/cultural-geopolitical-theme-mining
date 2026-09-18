@@ -6,7 +6,7 @@
 
 The current U.S.-centered atlas contains many measured pressures, institutional
 routes, administrative decisions, and some access-restoration or recovery
-signals. A systematic screen of eleven retained routes finds **zero** that meet
+signals. A systematic screen of thirteen retained routes finds **zero** that meet
 the program's stronger practical-optionality standard: the same unit must have
 a dated trigger, an observed alternative or non-use choice, an institutional
 response, a verified protected or sacrificed outcome, and a later behavior or
@@ -39,13 +39,14 @@ condition or restriction
 | Amazon Flex tip-refund program | Named FTC refund program; 130,952 drivers reportedly received full compensation and participation rose from 90.3% to 92.3% after 2,806 successful Zelle payments | Consent order, aggregate receipt/reach, and failed/uncashed payment reissue stage | Driver-level linkage, remaining loss, continued/alternative work, bargaining, switching/exit | No |
 | IER individual employment remedy | Five FY2026 resolution summaries; four reported paid remedies and one offer | Agency-reported individual payments, training/policy correction, and one reinstatement offer | Alternative/non-use, payment instrument and timing, restored work, durable compliance, household recovery, trust/action, exit | No |
 | HTOPS fraud/recovery follow-up | 6,564 exact April–June 2025 respondent matches; sparse loss/report/recovery subgroups | Retrospective exposure, loss, government reporting, self-reported recovery, and later material/trust measures | Dated incident, actor, alternatives, verified recovery, replacement route, later use/switch/non-use/action | No |
+| Walmart Spark Driver remedy | Named platform-worker program; eligible denominator not disclosed | Court-entered $100M judgment, driver/state allocations, mid-2025 payment timing, 10-year earnings verification, partial payment status | Individual receipt, amount, corrected pay record, continued/alternative work, schedule control, trust, switching/exit | No |
 
 The machine-readable [qualification register](../data/end-to-end-event-qualification-register-2026-09-17.json)
 preserves the route-level units, denominators, missing fields, and next
-minimum field for the twelve-route screen. The latest synchronization includes
+minimum field for the thirteen-route screen. The latest synchronization includes
 Doxo, Grubhub, the VRURC recall implementation bridge, the Amazon Flex
 tip-refund program, the IER individual-remedy summaries, and the linked HTOPS
-fraud/recovery follow-up. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
+fraud/recovery follow-up, and the Walmart Spark Driver remedy. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
 is the broader cross-domain inventory; this finding applies its promotion rule
 to a smaller, explicit candidate set.
 
@@ -100,7 +101,7 @@ recovery, and market movement into household mobility.
   evidence, but they do not identify a provider-level remedy or later switching.
 - Insurance backstop growth and establishment counts describe the option
   environment, not a particular household's usable choice.
-- The ten routes use different units, clocks, denominators, and selection
+- The routes use different units, clocks, denominators, and selection
   mechanisms. They cannot be pooled into a practical-exit rate.
 
 ## Next qualifying design

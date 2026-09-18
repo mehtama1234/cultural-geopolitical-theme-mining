@@ -1,0 +1,103 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-walmart-spark-driver-remedy-2026",
+  "title": "A platform-worker judgment can separate missing-pay correction from restored work control",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission and state enforcement case, court-entered order, and official Walmart Spark Driver payment FAQ; affected drivers are a remedy-program population, not a representative worker sample",
+  "geography": "United States Walmart Spark Driver program; settlement relief is nationwide for eligible drivers",
+  "observations": [
+    {
+      "period": "February 26, 2026 complaint/settlement; March 3, 2026 court-entered order; payment and compliance status rechecked September 18, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "eligible Spark Drivers with specified unpaid base-pay, tip, incentive, or promotion claims; complete denominator not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "court_entered_judgment": {
+          "value": 100000000,
+          "unit": "US dollars; court-entered March 3, 2026 judgment",
+          "value_type": "court_entered_monetary_judgment"
+        },
+        "direct_driver_allocation": {
+          "value": 79000000,
+          "unit": "US dollars directed to drivers under the settlement distribution",
+          "value_type": "ordered_driver_relief_allocation"
+        },
+        "ftc_driver_distribution_allocation": {
+          "value": 10000000,
+          "unit": "US dollars Walmart pays to the FTC for intended driver distribution",
+          "value_type": "ordered_driver_relief_allocation"
+        },
+        "state_civil_penalty_allocation": {
+          "value": 11000000,
+          "unit": "US dollars paid as civil penalty to 11 participating states",
+          "value_type": "ordered_civil_penalty"
+        },
+        "payment_timing": {
+          "value": "Walmart began making payments to drivers in mid-2025 before the settlement announcement; the FAQ states these payments are included in the settlement",
+          "unit": "reported implementation stage",
+          "value_type": "reported_payment_timing"
+        },
+        "eligibility_scope": {
+          "value": "nationwide relief for drivers who accepted Spark delivery or shopping offers and did not receive promised base pay, tips, incentives, or promotions; not every driver will receive a payment",
+          "unit": "settlement eligibility rule",
+          "value_type": "reported_eligibility_rule"
+        },
+        "earnings_verification_program": {
+          "value": "10 years",
+          "unit": "prospective compliance duration",
+          "value_type": "ordered_compliance_duration"
+        },
+        "individual_payment_status": {
+          "value": "some drivers who already received payments should have emails stating payment dates; other drivers remain in identification/payment processing; aggregate sent, received, and unresolved counts are not published in the FAQ",
+          "unit": "administrator/company-reported status categories",
+          "value_type": "partial_individual_status_surface"
+        },
+        "later_work_and_exit": {
+          "value": "not observed",
+          "unit": "missing continued work, alternative work, schedule/control, switching, trust, and exit endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC case page, court-entered order listing, complaint, settlement FAQ, and public payment/compliance description; court authority, allocation, pre-announcement payment timing, eligibility, and later work status are retained as separate stages.",
+      "retrieval_hash": "sha256:ee36d937c608e103114b0bc836cee541b2718fd6bab27129c6fec2cb0082e8c9",
+      "uncertainty": "The public materials do not disclose the complete eligible-driver denominator, individual payment amounts, payment receipt or dates for each driver, unresolved payment count, correction of driver records, continued platform work, alternative work, schedule control, recurrence, trust, or exit.",
+      "subgroup": "Drivers affected by alleged base-pay, tip, incentive, or promotion nonpayment; drivers who received pre-announcement payments; drivers still being identified; noneligible Spark Drivers; and drivers outside the participating states who remain eligible under the nationwide rule.",
+      "counterinterpretation": "A large ordered allocation and prospective earnings verification can correct monetary exposure without restoring the missed opportunity, schedule control, trust, or platform alternatives of each driver; a payment may compensate a past shortfall while the driver has already switched or stopped working.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/02/walmart-agrees-100-million-judgment-settle-ftc-states-charges-over-deceptive-earnings-claims-related/walmart-spark-driver-faqs",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/232-3055-walmart-inc-ftc-et-al-v-walmart-spark-driver",
+      "claim": "FTC case page records the March 3, 2026 court-entered stipulated order and case identifiers.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2323055walmartsparkdriverenteredorder.pdf",
+      "claim": "Court-entered order establishes the $100 million judgment, driver and state allocations, injunction, and prospective compliance requirements.",
+      "status": "official-court-entered-order"
+    },
+    {
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/WalmartSparkDriverComplaint.pdf",
+      "claim": "Complaint describes alleged unpaid base pay, tips, incentives, and promotions in the Spark Driver program.",
+      "status": "official-complaint"
+    }
+  ],
+  "boundary": "This record establishes a court-entered platform-worker remedy with explicit allocation, nationwide eligibility, pre-announcement payment timing, and a ten-year earnings-verification program. It does not establish the eligible-driver denominator, individual payment receipt, restored earnings opportunity, continued or alternative work, schedule control, trust, switching, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FTC FAQ HTML route hashed; case page, complaint, and court-entered order routes reviewed without retaining the 16 MB order or respondent-level files",
+    "retrieval_hash": "sha256:ee36d937c608e103114b0bc836cee541b2718fd6bab27129c6fec2cb0082e8c9",
+    "case_page_retrieval_hash": "sha256:975e1f485530bf26c79ee34203b725e1e1ee7c7649b1d02efe4056ff1b48e788",
+    "checked": "2026-09-18"
+  }
+}
