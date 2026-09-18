@@ -3104,3 +3104,12 @@ cross-vintage descriptive counterexample, not a shortage effect or care-access
 estimate. The next step is component-level provider/travel/wait/use evidence
 or a dated household care event, preserving HPSA population and partial-county
 boundaries.
+
+The [BDS–PLACES health-flow bridge](projects/us-local-business-place/bds-places-health-flow-outcome-bridge-v1.md)
+adds a same-year modeled outcome surface after that capacity context. Across
+2,878 common counties, negative versus nonnegative health-sector net-job flow
+has nearly identical medians for food insecurity, transportation insecurity,
+routine checkups, insurance, and mental distress. Treat this as a boundary and
+counterexample, not as evidence of no effect. The next decisive route remains
+a dated care episode with provider availability, travel/wait, insurance/price,
+attempted and completed use, and household/work consequence.
