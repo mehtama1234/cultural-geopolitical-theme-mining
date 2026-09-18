@@ -2941,3 +2941,12 @@ decisive step is one stable-unit interface ledger with an offered route,
 usable alternative, effort or trade-off, completion/abandonment, and response
 after failure. This rotation adds a broad mechanism while preserving the rule
 against another exposure-only cross-tab.
+
+The [CPSC live-remedy finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-002.md)
+adds a consumer-safety implementation test. Current notices make registration,
+destruction, disposal, photo proof, refund choice, and repeat repair visible as
+distinct remedy requirements, while individual notice reach, completion,
+receipt, safety restoration, and residual cost remain unobserved. The next
+small acquisition is one recall family from the CPSC Monthly Progress Report
+route, filtered by recall key only after the workbook schema and eligible-unit
+denominator are verified; no historical bulk export is warranted yet.

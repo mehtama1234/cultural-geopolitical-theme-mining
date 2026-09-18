@@ -14,6 +14,15 @@ Separate seller identity, review signal, product certification, listing visibili
 - [Reader-friendly HTML](../../../site/us-marketplace-product-safety-matched-evidence-001.html)
 - [Source search record](source-search-2026-09-11.md)
 
+The [current CPSC remedy-design finding](findings/us-product-recall-response-002.md)
+adds a live implementation layer: current notices can require registration,
+destruction, disposal, photographic proof, or a second repair. These
+instructions expose consumer effort and evidence burden, but they do not show
+notice reach, completed action, remedy receipt, or safe restoration. The next
+storage-light step is one bounded recall family joined to Monthly Progress
+Reports, after checking for a recall key, eligible-unit denominator, and
+action/receipt fields.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.
