@@ -977,6 +977,13 @@ then adds an exact same-respondent exposure-to-loss-to-later-context route.
 It strengthens the distinction between exposure, realized burden, reporting,
 reported recovery, and restored security, while leaving verified remedy,
 durability, alternatives, trust change, switching, and exit open.
+The [Rehman platform-remedy record](records/au-rehman-platform-remedy-2026.json)
+then supplies an observed comparative remedy stage: deactivation, worker
+application, voluntary reactivation, formal access restoration, and ordered
+gross lost remuneration. It closes neither payment receipt nor net recovery,
+alternative work, durability, recurrence protection, nor practical exit, so
+it is remedy architecture and counterexample evidence rather than a
+population estimate.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

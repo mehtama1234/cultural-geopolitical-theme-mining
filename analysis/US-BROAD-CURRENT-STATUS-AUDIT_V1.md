@@ -1920,6 +1920,16 @@ not a stable estimate. The route advances event timing and conversion logic
 while leaving actor, dated incident, alternatives, remedy receipt, durability,
 trust change, switching, and exit open.
 
+The [Rehman platform remedy finding](projects/ai-work-control/findings/ai-work-control-091.md)
+adds a different, observed remedy-stage boundary: one Australian platform
+worker's deactivation was followed by an application, voluntary reactivation,
+formal access-restoration and A$7,096.96 gross lost-remuneration orders. This
+is a single adjudicated case, not a U.S. estimate or platform incidence rate;
+the order does not verify payment, net recovery, expenses, alternative work,
+durability, recurrence protection, or practical exit. It therefore separates
+access remedy from financial recovery and formal case action from later
+worker behavior.
+
 The [2025 SHED banking substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
 adds a financial-access counterexample to the same boundary. Formal account
 ownership is income-patterned, unbanked adults use nonbank transaction routes
