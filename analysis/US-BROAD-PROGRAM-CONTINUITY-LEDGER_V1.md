@@ -1677,3 +1677,13 @@ ledger joining product, balance, rate, payment burden, hardship, delinquency,
 lender contact, correction/remedy, substitution, later financial room, trust,
 and action; preserve aggregate versus household units and demand, supply, and
 distress interpretations.
+
+The next firm-AI rotation promotes the [firm AI-expectations trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER executive survey adds
+employer-side adoption, retrospective-effect, and forward productivity,
+output, and employment-expectation measures beside worker-control and public
+perception layers. The next test is a firm-and-worker ledger joining adoption,
+implementation, task allocation, output/productivity, employment, pay, hours,
+training, monitoring, voice/bargaining, household effects, correction, and
+exit; preserve employer/employee, country, and expectation-versus-outcome
+boundaries.

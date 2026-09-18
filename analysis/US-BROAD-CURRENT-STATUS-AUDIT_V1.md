@@ -2542,3 +2542,11 @@ and financial-access evidence. It separates total and product balances,
 quarterly movement, and delinquency from borrower distribution, payment burden,
 hardship, lender remedy, and household recovery. The aggregate layer cannot be
 read as a household trajectory or causal distress estimate.
+
+The new [firm AI-expectations trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds an employer-side layer beside worker adoption, control, and public AI
+perception. The NBER executive survey separates current firm use, reported
+retrospective effects, and forward productivity, output, and employment
+expectations, including different employer and employee perspectives. It does
+not establish realized productivity, job loss or gain, pay, hours, control,
+bargaining, or household effects.
