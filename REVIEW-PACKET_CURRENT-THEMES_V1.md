@@ -50,6 +50,25 @@ The common question across these deep dives is: what is actually protected,
 who controls the alternative, and what later behavior or recovery is observed?
 None is a pooled index or a completed universal causal chain.
 
+## Latest counterexamples to the broad interpretation
+
+The [counterexample register](analysis/US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+now includes six recent bounded reversals that should be read alongside the
+deep dives:
+
+- fraud exposure does not establish realized loss or recovery;
+- recall correction counts do not establish purchaser-level safe restoration;
+- AI time or output effects do not establish worker control;
+- insurance complaint closure does not establish repairability or secure stay;
+- firm recovery does not establish worker, customer, or resident recovery; and
+- larger-firm eligibility expansion does not establish broadly distributed local opportunity.
+
+These are not failures of the underlying sources. They identify the exact
+stage at which a plausible broad story would overreach. The current synthesis
+can therefore support a conditional claim about unequal options and
+institutional mediation, but it cannot claim that response equals remedy,
+remedy equals recovery, or recovery equals trust, action, or exit.
+
 For a longer thematic narrative, read the [detailed themes reading guide](analysis/US-BROAD-THEMES-DEEP-DIVE_V1.md).
 It explains the recurring mechanisms across the individual routes and keeps
 the observed, compared, inferred, and open portions of each theme explicit.
