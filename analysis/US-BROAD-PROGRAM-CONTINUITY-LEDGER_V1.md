@@ -1659,3 +1659,12 @@ is a same-person ledger joining disclosed AI exposure, task/service use,
 privacy, human review, correction, institutional response, continued use or
 avoidance, trust, and later work or civic action; preserve item, country, and
 confidence-versus-performance boundaries.
+
+The next AI daily-life rotation promotes the [Pew AI daily-life trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Pew adds U.S. chatbot use, purpose,
+privacy, pace, regulatory-confidence, and expected-impact measures beside the
+UNDP agency layer. The next test is a same-person ledger joining AI exposure
+and purpose, disclosure, privacy, task/service outcome, human alternative,
+perceived control, correction, provider or regulatory response, continued use
+or avoidance, trust, and later work/care/civic action; preserve instrumental
+use, concern-with-adoption, age, and wording boundaries.

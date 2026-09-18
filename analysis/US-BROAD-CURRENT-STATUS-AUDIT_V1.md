@@ -2527,3 +2527,11 @@ weekly use, perceived control, confidence in government AI use, and confidence
 that AI serves people’s interests separate. These measures do not establish
 actual control, service quality, productivity, governance performance, or
 causal trust change; country and item-specific survey boundaries remain open.
+
+The new [Pew AI daily-life trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds a
+direct U.S. public-use and legitimacy layer beside the UNDP cross-country
+confidence record. Pew separates chatbot use and purpose from privacy concern,
+perceived pace, regulatory confidence, and expected personal or societal
+impact. These are not observed privacy loss, productivity, dependence,
+regulatory performance, or durable action; wording, item universes, and
+instrumental-use boundaries remain explicit.
