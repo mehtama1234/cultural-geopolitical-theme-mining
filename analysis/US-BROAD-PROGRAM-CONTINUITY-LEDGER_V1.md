@@ -1632,3 +1632,12 @@ is a state/local case ledger joining notice, application or recertification,
 processing stage, decision, benefit timing/amount, interruption, appeal or
 correction, household adaptation, trust, and persistence; preserve ecological,
 period, denominator, and voluntary-exit boundaries.
+
+The next charitable-food rotation promotes the [charitable-food trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Urban Institute WBNS adds annual
+receipt, unmet need, access difficulty, safety, treatment, and barrier reasons
+beside formal SNAP route evidence. The next test is a same-household ledger
+joining food need, eligibility, awareness, schedule/transport, arrival, wait,
+treatment, quantity/variety, receipt or nonreceipt, alternative source,
+health/work adaptation, repeat need, trust, and later stability; preserve
+public, charitable, informal, and no-use routes.

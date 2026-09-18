@@ -2504,3 +2504,11 @@ timeliness, recertification timeliness, and the Program Access Index have
 different ranges, years, denominators, and correlations. These aggregates do
 not establish household continuity, eligible nonparticipation, benefit
 adequacy, administrative causality, or food-security change.
+
+The new [charitable-food trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds a
+buffer-and-unmet-need layer beside formal SNAP route evidence. WBNS shows
+charitable-food receipt remaining above 2019 levels while unmet need persists,
+including among food-insecure adults; reported barriers include closure,
+awareness, comfort, transport, variety, safety, and treatment. Receipt is not
+adequacy, nutrition, SNAP replacement, provider capacity, or recovery, and the
+cross-sectional survey does not identify a same-household substitution path.
