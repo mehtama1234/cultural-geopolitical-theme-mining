@@ -22,7 +22,7 @@
       "subgroup": "Mesko Piorun production and allied common-procurement route under SAFE.",
       "counterinterpretation": "A multilateral framework can signal shared demand and supplier influence while leaving actual orders, financing drawdown, delivery, and dependence on foreign inputs unresolved.",
       "source_url": "https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe",
-      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
@@ -38,7 +38,7 @@
       "subgroup": "Polish Armament Agency, Mesko, and allied Piorun procurement route at MSPO 2026.",
       "counterinterpretation": "A public announcement of allied purchasing can reflect a framework or political commitment that later changes, and may strengthen Polish export positioning without proving durable bargaining power or production independence.",
       "source_url": "https://www.gov.pl/web/premier/polski-przemysl-obronny-przyspiesza-dzieki-safe",
-      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
@@ -56,7 +56,7 @@
       "subgroup": "MESKO/PGZ EDIRPA VSHORAD framework for Poland, Lithuania, Latvia, and Norway.",
       "counterinterpretation": "A stated 2030 horizon can indicate a long implementation runway without proving that contracts will be fully exercised, delivered on schedule, accepted, or operationally available.",
       "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
-      "retrieval_hash": "artifact:sha256:56b1dd903e9e00a631f887c050a1c736acf496d6822a4c8d18293ad7481b8771",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
@@ -73,7 +73,24 @@
       "subgroup": "MESKO/PGZ Piorun production capacity in the Polish defense-industrial base.",
       "counterinterpretation": "Higher stated capacity may improve the ability to absorb demand while leaving bottlenecks, input dependence, delivery sequencing, and effective customer access unresolved.",
       "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
-      "retrieval_hash": "artifact:sha256:56b1dd903e9e00a631f887c050a1c736acf496d6822a4c8d18293ad7481b8771",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
+      "status": "reported"
+    },
+    {
+      "period": "Undated MESKO page accessed 2026-09-18; contract described as signed approximately one year earlier",
+      "denominator": {"value": 1, "unit": "MESKO-reported first Norway Piorun handover", "value_type": "company_reported_delivery_event"},
+      "measures": {
+        "norway_first_batch_handover": {"value": 1, "unit": "reported first batch transfer event", "value_type": "reported_delivery"},
+        "reported_norway_scope": {"value": "several hundred Piorun missiles and launchers", "unit": "reported bilateral export scope", "value_type": "reported_target"},
+        "contract_timing": {"value": "contract signed in Oslo approximately one year before the page's stated handover", "unit": "reported relative timing", "value_type": "reported_timing"},
+        "safe_edripa_link": {"value": "not identified on the page", "unit": "scope boundary", "value_type": "bounded_non_attribution"}
+      },
+      "method": "Bounded extraction from an official MESKO page reporting that a first batch was being handed over to Norway. Because the page has no visible publication date and does not identify the SAFE/EDIRPA framework, this is kept as a separately scoped export-delivery observation rather than pooled with the 2026 SAFE route.",
+      "uncertainty": "The page does not give an exact publication or handover date, contract identifier, exact quantity, acceptance record, payment status, or operational-use evidence. Its relative statement that the contract was signed approximately one year earlier cannot be converted into a precise contract year from the page alone.",
+      "subgroup": "Norwegian Piorun export route separate from the 2026 Poland-led SAFE/EDIRPA framework unless a contract match is later documented.",
+      "counterinterpretation": "A reported first-batch handover demonstrates an export-delivery stage for Norway but does not demonstrate SAFE execution, general delivery performance, increased production, or reduced allied dependence.",
+      "source_url": "https://kpms.mesko.com.pl/aktualnosci/spolka-przekazuje-pierwsza-partie-piorunow-do-norwegii",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
@@ -89,22 +106,22 @@
       "subgroup": "Lithuanian defense procurement and Poland-Lithuania industrial cooperation linked to the Piorun route.",
       "counterinterpretation": "External participation can widen demand and supply-chain ties without reducing dependence on Polish or non-Polish components, and a procurement-stage commitment is not realized capability.",
       "source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/",
-      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
-      "period": "2026-06-23; official Lithuanian inventory/planning update rechecked 2026-09-18",
+      "period": "2026-06-23; official Lithuanian inventory/planning update and SAFE-route delivery recheck through 2026-09-18",
       "denominator": {"value": 1, "unit": "Lithuanian Ministry of National Defence Piorun planning statement and bounded official-source recheck", "value_type": "bounded_non_observation"},
       "measures": {
         "planned_purchase_status": {"value": "Piorun acquisition described as planned for the year", "unit": "official procurement-planning stage", "value_type": "reported_plan"},
-        "country_level_delivery_notice_found": {"value": 0, "unit": "bounded search for official country-level Piorun handover, acceptance, or operational-use notice through 2026-09-18", "value_type": "bounded_non_observation"}
+        "safe_route_delivery_notice_found": {"value": 0, "unit": "bounded search for a country-level Piorun handover, acceptance, or operational-use notice attributable to the 2026 SAFE/EDIRPA route through 2026-09-18", "value_type": "bounded_non_observation"}
       },
-      "method": "Bounded reading of the official Lithuanian Ministry of National Defence inventory update, followed by a targeted official-source recheck for country-level Piorun delivery, acceptance, or operational-use notices. The result is retained as an acquisition-stage checkpoint, not as proof of non-delivery.",
-      "uncertainty": "Search coverage is limited to the official-source route checked and cannot exclude a private, classified, differently named, or unindexed event. The planning statement does not identify a contract, quantity, payment, delivery lot, or acceptance record.",
+      "method": "Bounded reading of the official Lithuanian Ministry of National Defence inventory update, followed by a targeted official-source recheck for country-level Piorun delivery, acceptance, or operational-use notices attributable to the 2026 SAFE/EDIRPA route. A separate undated MESKO report of a Norway handover is retained separately and does not invalidate this route-specific non-observation.",
+      "uncertainty": "Search coverage is limited to the official-source route checked and cannot exclude a private, classified, differently named, or unindexed event. The planning statement does not identify a contract, quantity, payment, delivery lot, or acceptance record; the separate Norway page is undated and not linked to SAFE/EDIRPA.",
       "subgroup": "Lithuanian Piorun acquisition route within the wider Poland-led SAFE/common-procurement pathway.",
-      "counterinterpretation": "A planned purchase can coexist with a signed framework or later negotiation progress; absence of a located public handover notice does not establish absence of delivery.",
+      "counterinterpretation": "A planned purchase can coexist with a signed framework or later negotiation progress; absence of a located SAFE-attributable public handover notice does not establish absence of delivery, and a separate pre- or non-SAFE export handover cannot be pooled into SAFE performance.",
       "source_url": "https://kam.lt/kariuomenes-sandeliai-pildomi-atsargomis-uz-400-mln-eur-nuo-raketu-iki-priestankiniu-minu-ir-soviniu/",
-      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     },
     {
@@ -119,7 +136,7 @@
       "subgroup": "Mesko Piorun production before the 2026 SAFE framework and multilateral procurement route.",
       "counterinterpretation": "Existing production demonstrates prior industrial capability but does not establish that the later SAFE framework was unnecessary, that capacity can meet the new scope, or that Poland controls all critical inputs and technology.",
       "source_url": "https://www.gov.pl/web/aktywa-panstwowe/mesko-produkuje-milion-sztuk-amunicji-dziennie",
-      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "retrieval_hash": "artifact:sha256:e715de938c7b73bd4bd684d5fd3319451f3577e8c918da2e14525758b2d4423c",
       "status": "reported"
     }
   ],
@@ -129,7 +146,8 @@
     {"source_url": "https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe", "claim": "MON supplies the Piorun SAFE framework, scope, value, and named allied-user route.", "status": "primary-source"},
     {"source_url": "https://www.gov.pl/web/premier/polski-przemysl-obronny-przyspiesza-dzieki-safe", "claim": "The Prime Minister's Office supplies the first executive-contract and reported allied procurement response.", "status": "primary-source"},
     {"source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/", "claim": "Lithuanian MoD supplies external procurement-stage corroboration and an approximate Lithuanian-side value.", "status": "primary-source"},
-    {"source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy", "claim": "MESKO supplies the reported quantity classes, delivery horizon, and production-capacity context for the Piorun EDIRPA/SAFE framework.", "status": "primary-source"}
+    {"source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy", "claim": "MESKO supplies the reported quantity classes, delivery horizon, and production-capacity context for the Piorun EDIRPA/SAFE framework.", "status": "primary-source"},
+    {"source_url": "https://kpms.mesko.com.pl/aktualnosci/spolka-przekazuje-pierwsza-partie-piorunow-do-norwegii", "claim": "MESKO reports a separately scoped, undated first-batch Norway handover under a contract described as signed approximately one year earlier.", "status": "primary-source"}
   ],
   "boundary": "This record advances the domestic SAFE contracting -> allied procurement and market-response arrow. It does not establish delivered Piorun quantities, acceptance, readiness, battlefield use, export revenue, supplier replaceability, or a causal effect of SAFE on foreign procurement decisions."
 }

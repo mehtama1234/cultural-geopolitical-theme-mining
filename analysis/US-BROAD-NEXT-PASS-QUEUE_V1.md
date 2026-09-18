@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1130 observations.
+1131 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1474,11 +1474,14 @@ cross-border supply-chain response, not delivered export volume or realized
 geopolitical leverage; the next check remains country-level contract,
 delivery, acceptance, and operational-use evidence.
 The official Lithuanian June planning page still described Piorun acquisition
-as planned for that year, and the 2026-09-18 bounded recheck located no
-country-level Piorun handover, acceptance, or operational-use notice. This is
-a current public-record non-observation, not evidence of non-delivery; it
-keeps the Piorun route at procurement/external-response stage until a matched
-country contract and performance record appears.
+as planned for that year. The 2026-09-18 bounded recheck located no
+country-level Piorun handover, acceptance, or operational-use notice
+attributable to the 2026 SAFE/EDIRPA route. A separate, undated MESKO page
+reports a first Norway batch under a contract described as signed approximately
+one year earlier; because it does not identify SAFE/EDIRPA, it is retained as
+a prior or separately scoped export-delivery boundary rather than pooled SAFE
+performance. The SAFE route therefore remains at procurement/external-response
+stage until a matched country contract and performance record appears.
 MESKO's official company account adds a bounded scale and schedule layer: the
 EDIRPA VSHORAD framework is described as several thousand missiles and several
 hundred launchers, with deliveries through 2030 and more than 80% intended for
