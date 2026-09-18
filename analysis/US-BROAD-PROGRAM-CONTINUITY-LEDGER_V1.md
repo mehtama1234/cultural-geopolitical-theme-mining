@@ -959,6 +959,10 @@ conditional boundaries. The [employment/AI-control trend]
 friction, labor mobility, schedule organization, education-stratified AI use,
 and task-control differences as a distinct work/technology surface. It does
 not establish displacement, productivity, bargaining power, or worker action.
+The [material-to-political-friction trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+then separates capacity to act, institutional judgment, contact, and
+collective action across CCES and HTOPS surfaces; it does not establish a
+hardship-to-distrust or hardship-to-vote pathway.
 
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI

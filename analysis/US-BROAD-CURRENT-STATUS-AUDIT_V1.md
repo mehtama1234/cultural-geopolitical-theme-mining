@@ -1938,6 +1938,17 @@ workplace-control map but does not establish AI displacement, productivity,
 pay, bargaining power, employer permission, trust, or political action. A
 same-worker longitudinal route remains open.
 
+The [material-to-political-friction finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-031.md)
+adds a non-pooled meaning/action counterexample. Earlier job loss and
+insurance status align with lower later contact or local action while Congress
+approval does not move in one uniform direction; expense difficulty aligns
+differently with confidence in federal statistical agencies and Congress; and
+the linked fraud panel separates exposure from realized loss and later
+material response. These surfaces show that capacity to act, institutional
+judgment, contact, and collective action are different currencies. They do not
+establish a hardship-to-distrust or hardship-to-vote path; dated exposure,
+attribution, remedy, recovery, and later action remain open.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
