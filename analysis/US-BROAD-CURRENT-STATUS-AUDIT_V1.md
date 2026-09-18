@@ -2776,3 +2776,13 @@ security, or household recovery; state timeliness and case-level routes remain
 separate. The next test is a household ledger joining eligibility, notice,
 application/recertification, decision, timing/amount, food/work/health
 adaptation, interruption, appeal/correction, trust, and persistence.
+
+The next household-finance rotation promotes the [SIPP utility-credit-savings
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The joint diagnostic adds
+credit-balance carrying, savings-account ownership, and monthly resource
+conditioning beside utility difficulty, with 240 replicate-weight uncertainty.
+It is person-weighted and cross-sectional: no dated bill, rate, lender
+decision, causal direction, remedy, or household trajectory is observed. The
+next test is a household ledger joining bill/notice, payment route, credit and
+rate, savings drawdown, assistance, arrears/restoration, next bill,
+food/health/work adaptation, correction, trust, and action.

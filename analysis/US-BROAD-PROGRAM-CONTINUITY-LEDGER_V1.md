@@ -1923,3 +1923,13 @@ application/recertification, decision, timing/amount, food/work/health
 adaptation, interruption, appeal/correction, trust, and persistence; preserve
 program scale versus household award, state range versus case route, and
 participation versus adequacy or recovery.
+
+The next household-finance rotation promotes the [SIPP utility-credit-savings
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The joint diagnostic adds
+credit-balance carrying, savings-account ownership, and monthly resource
+conditioning beside utility difficulty. The next test is a household ledger
+joining bill/notice, payment route, credit and rate, savings drawdown,
+assistance, arrears/restoration, next bill, food/health/work adaptation,
+correction, trust, and action; preserve person-weighted rows, field-specific
+universes, replicate uncertainty, and credit-as-buffer versus limited-access
+counterexamples.
