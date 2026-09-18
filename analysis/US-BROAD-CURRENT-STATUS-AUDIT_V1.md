@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,272 local Markdown links and 646 published HTML pages pass link
+families; 1,273 local Markdown links and 647 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1810,6 +1810,15 @@ Rider T1 residential increase falling from $2.90 to $0.94 per month after an
 amended allocation method. These are different event, policy, projection, and
 filing units; actual bills, payments, facility exposure, reliability, full
 public-cost recovery, and legitimacy remain unobserved.
+
+The [energy/public-restoration finding](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-002.md)
+adds a household-to-public-system energy route. EIA reports 43.56 million
+energy-insecure homes and overlapping food/medicine sacrifice, unhealthy
+temperature, and service-notice measures; HHS/ACF reports FY2024 LIHEAP reach,
+heating-assistance households, and 279,000 restoration instances; SIPP adds a
+non-pooled following-month screen. These endpoints do not establish take-up,
+receipt, durable affordability, next-bill status, repeat-crisis prevention, or
+causal utility effects.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:

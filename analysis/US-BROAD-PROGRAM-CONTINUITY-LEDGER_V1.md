@@ -1042,6 +1042,13 @@ contract rules and a modeled reduction in the typical residential Rider T1
 increase. It strengthens the observable state-response stage while leaving
 actual bills, facility exposure, reliability, public-cost recovery, local
 burden, and legitimacy open.
+
+The next household/public-capacity rotation adds the [energy/public-restoration finding](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-002.md).
+EIA household consequences, LIHEAP reach/restoration aggregates, and a SIPP
+following-month screen now sit together as a deliberately non-pooled route.
+This makes sacrifice, public reach, immediate restoration, and durable recovery
+distinct clocks; dated bills, receipt, reconnection, next-bill affordability,
+repeat crisis, and later trust/action remain open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
