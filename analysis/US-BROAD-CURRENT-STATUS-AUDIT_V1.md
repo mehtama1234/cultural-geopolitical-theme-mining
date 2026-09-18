@@ -1969,6 +1969,16 @@ social-isolation or distrust score. Separate releases leave the links between
 social experience, institutional judgment, help, remedy, recovery, and action
 open.
 
+The [availability-to-use conversion finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md)
+adds a cross-domain mechanism rule: nominal capacity, entitlement, enrollment,
+coverage, or device access is not the same as a usable option. Airport transit,
+disability health and workforce programs, working public-benefit recipients,
+and smartphone self-regulation each expose different interface costs in time,
+price, information, physical usability, schedule, disclosure, reliability, or
+alternatives. The units are not pooled; the next test is one interface-to-
+outcome ledger linking offered route, usable alternative, attempt/completion,
+protected outcome, and later correction, dependence, or exit.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
