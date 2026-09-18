@@ -1770,6 +1770,13 @@ prevention and post-remedy worker exit remain unobserved. Continued platform
 use after reactivation is preserved as its own endpoint; it cannot be read as
 autonomy, dependence, or successful remedy without alternatives, receipt,
 follow-up, and worker-reported reason.
+The new [platform-remedy restoration trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes that case ledger into the canonical register. Across 27 purposive,
+non-pooled records, restoration/resumption appears in 9, ordered or recognized
+lost remuneration in 3, and durable recurrence prevention and worker exit in
+none. These overlapping counts expose the institutional-stage gap; they do not
+estimate remedy effectiveness, payment receipt, worker welfare, dependence, or
+U.S. prevalence.
 
 The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
 adds a stronger payment-distribution comparator: the FTC reports more than

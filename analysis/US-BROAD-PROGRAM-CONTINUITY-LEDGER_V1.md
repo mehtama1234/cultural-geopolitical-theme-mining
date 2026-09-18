@@ -1560,3 +1560,12 @@ bounded mechanism while keeping user benefit, household opportunity cost,
 practical exit, and actual competition change open. The next test is a
 consented time-use/substitution panel joining platform exposure, ad load,
 content value, work/care/sleep, switching, non-use, and later trust.
+
+The next platform-remedy rotation promotes the [platform-remedy restoration
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 27-record comparative ledger
+shows restoration, compensation recognition, refusal, dismissal, and continued
+use as separate institutional stages; it records no durable recurrence
+prevention or worker exit. The next test is a same-case platform-worker ledger
+joining review, restoration, payment receipt, alternatives, recurrence,
+worker-reported recovery, switching, and exit while preserving jurisdiction and
+procedural differences.
