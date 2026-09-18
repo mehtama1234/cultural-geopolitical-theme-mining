@@ -29,6 +29,12 @@ consumer-instruction fields without requiring the historical export. It does
 not expose exposed purchasers, completed repairs, issued payments, or safely
 restored units.
 
+The [bounded MPR inspection](data/cpsc-mpr-bounded-sample-2026-08-21.json)
+confirms that the workbook adds recall-keyed manufacturer, distributor,
+retailer, and consumer correction fields. A 17-row snapshot shows wide
+reported consumer-level progress, but not a comparable rate or verified
+individual recovery. The workbook was streamed in memory and not retained.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.

@@ -2957,3 +2957,12 @@ remedy, and consumer-instruction fields. It does not supply exposed purchasers,
 completed repairs, payment issuance, or safe restoration, so it advances field
 availability rather than consumer recovery. Keep the next acquisition to one
 recall key and one progress-report slice.
+
+The [CPSC MPR checkpoint](projects/us-marketplace-product-safety/data/cpsc-mpr-bounded-sample-2026-08-21.json)
+now confirms a recall-keyed implementation surface with separate manufacturer,
+distributor, retailer, and consumer correction fields. The selected 17-row
+snapshot ranges from zero or blank to 44% on the reported consumer-level
+field, but reporting durations and denominators are not harmonized. This
+advances implementation visibility without becoming a consumer-recovery rate;
+the next step remains one recall cohort with verified exposure and individual
+outcome linkage.

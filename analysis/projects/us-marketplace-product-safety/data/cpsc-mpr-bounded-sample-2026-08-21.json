@@ -1,0 +1,40 @@
+{
+  "audit_type": "cpsc-monthly-progress-report-bounded-sample-v1",
+  "checked": "2026-09-17",
+  "workbook_snapshot": "MPR sheet states that its data were up to date as of 2026-08-21",
+  "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+  "sheet": "MPR",
+  "columns": {
+    "recall_key": "PRESS RELEASE NUMBER",
+    "products_recalled": "NUMBER OF PRODUCTS RECALLED",
+    "manufacturer_corrected": "NUMBER OF PRODUCTS CORRECTED MANUFACTURER LEVEL",
+    "distributor_corrected": "NUMBER OF PRODUCTS CORRECTED DISTRIBUTOR LEVEL",
+    "retailer_corrected": "NUMBER OF PRODUCTS CORRECTED RETAILER LEVEL",
+    "consumer_corrected": "NUMBER OF PRODUCTS CORRECTED CONSUMER LEVEL",
+    "total_corrected": "TOTAL CORRECTED",
+    "consumer_percent": "PERCENT OF PRODUCTS CORRECTED CONSUMER LEVEL*",
+    "total_percent": "TOTAL PERCENT CORRECTED**"
+  },
+  "rows_with_numeric_progress": [
+    {"recall_key":"23-090","products_recalled":2047,"manufacturer_corrected":0,"distributor_corrected":84,"retailer_corrected":154,"consumer_corrected":790,"total_corrected":1028,"consumer_percent":0.44,"total_percent":0.50},
+    {"recall_key":"24-127","products_recalled":60000,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":7164,"total_corrected":7164,"consumer_percent":0.12,"total_percent":0.12},
+    {"recall_key":"24-128","products_recalled":2240,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":195,"total_corrected":195,"consumer_percent":0.0852678571,"total_percent":0.0852678571},
+    {"recall_key":"24-130","products_recalled":33500,"manufacturer_corrected":2287,"distributor_corrected":58,"retailer_corrected":1405,"consumer_corrected":524,"total_corrected":4274,"consumer_percent":0.0167731092,"total_percent":0.1268358209},
+    {"recall_key":"22-234","products_recalled":1675,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":277,"total_corrected":277,"consumer_percent":0.165,"total_percent":0.165},
+    {"recall_key":"22-235","products_recalled":15236,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":1064,"total_corrected":1064,"consumer_percent":0.07,"total_percent":0.07},
+    {"recall_key":"24-065","products_recalled":25000,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":1319,"total_corrected":1319,"consumer_percent":0.04944,"total_percent":0.04944},
+    {"recall_key":"24-014","products_recalled":124940,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":7360,"consumer_corrected":2600,"total_corrected":9960,"consumer_percent":0.0217470192,"total_percent":0.0790539408},
+    {"recall_key":"23-716","products_recalled":3300,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":67,"total_corrected":67,"consumer_percent":0.0190909091,"total_percent":0.0190909091},
+    {"recall_key":"23-007","products_recalled":21774,"manufacturer_corrected":0,"distributor_corrected":136,"retailer_corrected":0,"consumer_corrected":2165,"total_corrected":2301,"consumer_percent":0.10,"total_percent":0.105},
+    {"recall_key":"24-084","products_recalled":583024,"manufacturer_corrected":6963,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":10582,"total_corrected":17545,"consumer_percent":0.0175661431,"total_percent":0.0268462362},
+    {"recall_key":"24-076","products_recalled":46000,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":1862,"total_corrected":1862,"consumer_percent":0.0394347826,"total_percent":0.0394347826},
+    {"recall_key":"23-059","products_recalled":51735,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":0,"total_corrected":0,"consumer_percent":0.0,"total_percent":0.0},
+    {"recall_key":"23-231","products_recalled":40000,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":8109,"total_corrected":8109,"consumer_percent":0.20,"total_percent":0.20},
+    {"recall_key":"23-204","products_recalled":5521749,"manufacturer_corrected":612252,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":35873,"total_corrected":648125,"consumer_percent":0.0073058401,"total_percent":0.1173758532},
+    {"recall_key":"23-238","products_recalled":256845,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":330,"consumer_corrected":64963,"total_corrected":65293,"consumer_percent":0.29,"total_percent":0.25},
+    {"recall_key":"24-702","products_recalled":280,"manufacturer_corrected":0,"distributor_corrected":0,"retailer_corrected":0,"consumer_corrected":0,"total_corrected":0,"consumer_percent":null,"total_percent":null}
+  ],
+  "interpretation": "The visible snapshot contains recall-level progress fields and shows wide heterogeneity in reported consumer-level correction, from zero or blank to 44% in this selected sheet. These are not comparable recall rates without release date, reporting duration, consumer-held denominator, and recall-mix controls.",
+  "boundary": "Firm-reported cumulative corrections are not unique consumers, notice reach, completed safe restoration, refund receipt, avoided injury, or household recovery. The workbook note says blank fields can mean data are not yet due, not provided, being processed, or barred from disclosure; consumer-level percentages use a consumer-held denominator that may differ from products recalled.",
+  "storage_note": "The 129,697-byte workbook was streamed into memory for schema and row inspection; the workbook was not retained. This derived JSON preserves only 17 compact rows."
+}

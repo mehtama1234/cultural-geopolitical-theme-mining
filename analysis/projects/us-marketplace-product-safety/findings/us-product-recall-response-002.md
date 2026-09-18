@@ -138,6 +138,31 @@ photos, gift cards issued, or safely restored units. It advances the
 product-level implementation route by one stage while leaving consumer
 completion and recovery open. The compact derived audit is [here](../data/cpsc-recall-api-bounded-sample-2026-09-17.json).
 
+## Monthly Progress Report checkpoint
+
+The CPSC Monthly Progress Report workbook supplies a stronger implementation
+stage than the API notice alone. Its visible `MPR` sheet, current to August 21,
+2026, carries a press-release number and cumulative counts corrected at the
+manufacturer, distributor, retailer, and consumer levels, plus total and
+percentage fields. A compact 17-row inspection shows reported consumer-level
+correction percentages ranging from zero or blank to 44% across the selected
+recall rows. This is heterogeneity in firm-reported progress, not a consumer
+recovery rate.
+
+The source also explains why interpretation must remain cautious. Blank fields
+can mean that information is not yet due, has not been provided, is being
+processed, or is barred from disclosure. The starred consumer percentage uses
+a denominator for products consumers have or had in their possession, which
+can differ from the total products recalled. Reporting duration, recall mix,
+consumer-held denominator, and correction definition therefore matter before
+any cross-recall comparison.
+
+The checkpoint advances the route from “remedy language exists” to “the firm
+reports correction progress by channel.” It still does not show unique
+consumers notified, completed repairs, payment receipt, safe restoration,
+avoided injury, or residual household cost. The compact derived inspection is
+[here](../data/cpsc-mpr-bounded-sample-2026-08-21.json).
+
 ## Counterexamples and limits
 
 - A free professional repair may impose less consumer effort than destruction
@@ -172,21 +197,23 @@ product/model/UPC and exposure route
   -> trust, repurchase, seller/platform switching, complaint, or non-use
 ```
 
-The first storage-light acquisition should use one recall family and one
-bounded Monthly Progress Report file, inspect the sheet schema and reporting
-periods, and filter locally to the recall number before retaining any derived
-rows. Do not download the full historical dataset until the report contains a
-recall key, eligible-unit denominator, action/receipt fields, and a defensible
-estimand. If those fields are absent, retain the exact absence as an
-implementation boundary rather than promote aggregate recall-response rates as
-consumer recovery.
+The first storage-light acquisition has now inspected one bounded Monthly
+Progress Report workbook in memory. The next step is to filter one recall key
+and verify whether its reporting periods, consumer-held denominator, and
+correction fields support a defensible within-recall trajectory. Do not
+download the full historical dataset until it contains action/receipt fields
+and a defensible estimand. If those fields are absent, retain the exact
+absence as an implementation boundary rather than promote aggregate
+recall-response rates as consumer recovery.
 
 ## Provenance and storage boundary
 
-This pass read the official CPSC recall and data pages only. No CPSC report PDF,
-full recall export, or Monthly Progress Report workbook was downloaded. The
-current examples and remedy wording should be rechecked before any quantitative
-use because the source is live and remedy data can change daily.
+This pass read the official CPSC recall and data pages and streamed one
+129,697-byte Monthly Progress Report workbook into memory for schema and
+17-row inspection. No CPSC report PDF, full recall export, or raw workbook was
+retained. The current examples and remedy wording should be rechecked before
+any quantitative use because the source is live and remedy data can change
+daily.
 
 - [CPSC recalls and product safety warnings](https://www.cpsc.gov/Recalls)
 - [CPSC data/API page](https://www.cpsc.gov/es/node/49820)
