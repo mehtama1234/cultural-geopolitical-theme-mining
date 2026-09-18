@@ -2747,3 +2747,13 @@ outcomes remain separate. The next test is an actor ledger joining
 infrastructure, skills, data, language fit, adoption or adaptation,
 procurement, task/service outcome, provider dependence, correction, attribution,
 trust, and switching or exit.
+
+The next comparative-capacity rotation promotes the [World Bank poverty,
+prosperity, and planet trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record
+adds poverty-line and prosperity-gap measures, regional and fragility
+concentration, climate-risk exposure, a 2030 baseline projection, and missing
+household-survey coverage. It is comparative global context rather than a U.S.
+household estimate; poverty lines, projections, exposure, and data availability
+remain separate. The next test is a household/place ledger joining
+income/consumption, prices, services, hazard, protective assets,
+conflict/displacement, social protection, recovery, trust, and action.
