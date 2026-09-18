@@ -120,6 +120,24 @@ Monthly Progress Reports supplied by recalling firms. The existence of those
 fields makes a product-level implementation study feasible, but it does not
 make the consumer-level denominator or receipt observable by itself.
 
+## Bounded API recheck
+
+A query for one current recall number confirms the field-level route without
+retaining a bulk export. Recall `26773` identifies about 10,605 US units of
+Char-Broil Bistro Pro electric grills sold from October 2025 through June 2026
+for $150–$250, with China listed as the manufacturing country and no injuries
+reported in the record. Its remedy is not simply “repair available”: the
+consumer must stop using the grill, register for a kit and instructions,
+complete the repair, affix a label, and submit photographic documentation to
+receive a digital $25 gift card.
+
+This sample makes the conversion burden concrete. The API exposes the product,
+market, hazard, remedy option, and instruction fields, but it does not expose
+the number of exposed purchasers, registrations, completed repairs, submitted
+photos, gift cards issued, or safely restored units. It advances the
+product-level implementation route by one stage while leaving consumer
+completion and recovery open. The compact derived audit is [here](../data/cpsc-recall-api-bounded-sample-2026-09-17.json).
+
 ## Counterexamples and limits
 
 - A free professional repair may impose less consumer effort than destruction

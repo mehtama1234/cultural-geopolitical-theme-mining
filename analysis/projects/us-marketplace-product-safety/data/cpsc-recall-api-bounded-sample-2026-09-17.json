@@ -1,0 +1,37 @@
+{
+  "audit_type": "cpsc-recall-api-bounded-sample-v1",
+  "checked": "2026-09-17",
+  "purpose": "Inspect one product-level recall route without downloading the historical CPSC export.",
+  "query_url": "https://www.saferproducts.gov/RestWebServices/Recall?RecallNumber=26773&format=json",
+  "result_count": 1,
+  "record": {
+    "recall_id": 10989,
+    "recall_number": "26773",
+    "recall_date": "2026-09-17",
+    "title": "Char-Broil Recalls Bistro Pro Electric Grills Due to Risk of Electric Shock",
+    "product": "Charbroil Bistro Pro Electric Grills",
+    "units": "About 10,605 in the United States; 342 sold in Canada",
+    "sold_window": "October 2025 through June 2026",
+    "price_range": "$150–$250",
+    "manufacturer_country": "China",
+    "injury_field": "None reported",
+    "hazard": "Grounding wire for the heating element can disconnect and lose fault protection, posing an electric-shock hazard.",
+    "remedy_option": "Repair",
+    "remedy_summary": "Stop use; register for a repair kit and instructions; complete the repair; affix the supplied label; submit photo documentation of the completed repair to receive a digital $25 gift card."
+  },
+  "fields_confirmed": [
+    "RecallID",
+    "RecallNumber",
+    "RecallDate",
+    "URL",
+    "Products.NumberOfUnits",
+    "Retailers",
+    "ManufacturerCountries",
+    "Injuries",
+    "Hazards",
+    "Remedies",
+    "RemedyOptions"
+  ],
+  "boundary": "This is one live API response, not a recall prevalence estimate, exposed-household denominator, remedy-completion rate, or verified consumer receipt. CPSC recall records and remedy language can change; the derived sample should be rechecked before quantitative use.",
+  "storage_note": "One JSON response was inspected; no full recall export, workbook, or report PDF was downloaded."
+}

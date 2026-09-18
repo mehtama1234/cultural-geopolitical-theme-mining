@@ -23,6 +23,12 @@ storage-light step is one bounded recall family joined to Monthly Progress
 Reports, after checking for a recall key, eligible-unit denominator, and
 action/receipt fields.
 
+The [bounded Recall API sample](data/cpsc-recall-api-bounded-sample-2026-09-17.json)
+confirms that one query exposes product, units, hazard, injury, remedy, and
+consumer-instruction fields without requiring the historical export. It does
+not expose exposed purchasers, completed repairs, issued payments, or safely
+restored units.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.

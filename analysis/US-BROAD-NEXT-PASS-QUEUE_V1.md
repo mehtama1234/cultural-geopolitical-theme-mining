@@ -2950,3 +2950,10 @@ receipt, safety restoration, and residual cost remain unobserved. The next
 small acquisition is one recall family from the CPSC Monthly Progress Report
 route, filtered by recall key only after the workbook schema and eligible-unit
 denominator are verified; no historical bulk export is warranted yet.
+
+The bounded [CPSC Recall API sample](projects/us-marketplace-product-safety/data/cpsc-recall-api-bounded-sample-2026-09-17.json)
+now confirms that a single query supplies product, units, hazard, injury,
+remedy, and consumer-instruction fields. It does not supply exposed purchasers,
+completed repairs, payment issuance, or safe restoration, so it advances field
+availability rather than consumer recovery. Keep the next acquisition to one
+recall key and one progress-report slice.
