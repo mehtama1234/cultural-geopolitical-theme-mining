@@ -1,12 +1,12 @@
 # US broad program current-status audit v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 311 machine-readable records, 1108 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 644 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 656 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -2870,3 +2870,32 @@ sparse. The next test is a household ledger joining work limitation,
 earnings/hours, care need and alternatives, tenure, SNAP notice/receipt,
 rent/utility hardship, schedule/unpaid time, employer/provider response, later
 earnings/health/school outcomes, trust, and action.
+
+## 2026-09-18 continuation checkpoint
+
+The latest recovery pass refreshed the broad program's access and vintage
+boundaries without claiming a new end-to-end arrow. The [CFPB student-loan
+freshness recheck](projects/us-customer-automation-recourse/cfpb-student-loan-event-ledger-freshness-recheck-2026-09-18.md)
+retrieved a current official API sample: receipt, product, routing, response,
+and timeliness fields remain observable, while remedy receipt, recovery,
+continued use, switching, non-use, trust, and action remain unknown. The
+[CPSC source-vintage recheck](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md)
+confirms that the live monthly-progress-report route is available and that
+remedy figures can change, but the stored VRURC evidence remains an
+2026-08-21 snapshot with no purchaser-level receipt or safe-restoration field.
+
+The [WBNS access recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
+confirms that current ICPSR catalog metadata and documentation are public,
+while file/SDA access still requires an authenticated ICPSR route; no local
+respondent file or route estimate has been invented. The [UAS access and
+codebook audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md)
+likewise confirms a registered-user download gate while tightening the
+episode-field manifest from the public Older Ages codebook. These are current
+acquisition controls, not evidence gaps to paper over.
+
+The executable next move remains the same-case compatibility gate: obtain an
+authorized WBNS/UAS/PSID route when credentials are available, then test dated
+event, alternatives, effort or payment, institutional response, remedy or
+recovery, meaning/trust, action, and exit with units, weights, missingness, and
+counterexamples preserved. Until then, the atlas remains a living 14-theme
+mechanism map with open arrows rather than a closed universal causal story.

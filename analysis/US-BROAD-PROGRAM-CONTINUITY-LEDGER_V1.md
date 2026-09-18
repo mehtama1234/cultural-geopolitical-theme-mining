@@ -1,6 +1,6 @@
 # US broad program continuity ledger v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Status:** active long-term program control record  
 **Scope:** the complete 14-theme Cultural, Social, and Geopolitical Theme
 Mining program
@@ -2024,3 +2024,30 @@ retrieval-order samples, product/vintage field-availability differences, and
 the separation between administrative response labels and verified remedy; the
 next test remains a same-complaint ledger joining receipt, routing, response,
 repeat effort, correction/payment, remaining loss, trust, switching, and exit.
+
+## 2026-09-18 continuation checkpoint
+
+This session restored continuity across the newest source audits. The [CFPB
+student-loan freshness recheck](projects/us-customer-automation-recourse/cfpb-student-loan-event-ledger-freshness-recheck-2026-09-18.md)
+shows that a current official API sample still provides complaint receipt,
+routing, response labels, and timeliness, but not verified remedy, recovery,
+continued use, switching, non-use, trust, or action. The [CPSC source-vintage
+recheck](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md)
+keeps the live monthly-progress-report route distinct from the stored
+2026-08-21 VRURC progress snapshot and retains purchaser receipt and safe
+restoration as open fields.
+
+The [WBNS authenticated-route recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
+confirms public catalog/documentation metadata but no unauthenticated local
+microdata or SDA output. The [UAS access/codebook recheck](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md)
+confirms the registered-user data gate and supplies the current public-codebook
+field contract for a later dated episode extract. These remain explicit
+dependencies in the ledger rather than silent assumptions.
+
+The program therefore resumes from a clean control state: 14 themes, 311
+machine-readable records, 1,108 observations, 103 source packets, and a
+published site whose link-validated count is refreshed by the build. The next
+research action is still the authorized same-case route test through event,
+alternative, effort/payment, response, remedy/recovery, trust/meaning, action,
+and exit; broad rotation continues while those credentials or files are not
+available.
