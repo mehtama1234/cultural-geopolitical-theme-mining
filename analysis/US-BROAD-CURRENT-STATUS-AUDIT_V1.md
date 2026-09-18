@@ -1858,6 +1858,19 @@ It separates device adoption from attention control and perceived well-being;
 logged behavior, dependence, clinical outcomes, platform design, and later
 consumer or political action remain open.
 
+The [Pew 2026 press-freedom norms layer](projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md)
+adds a conditional information-legitimacy surface: 73% say press freedom is
+very or extremely important, but 53% prioritize preventing inaccurate reporting
+even if freedom is limited. The share saying the media is completely free fell
+from 33% in 2024 and 2025 to 28% in 2026, while high concern about restrictions
+rose from 41% to 46%. The partisan pattern is context-sensitive: Republicans
+were more likely to say the media is completely free (41% versus 18% among
+Democrats), while Democrats were more likely to be highly concerned about
+restrictions (64% versus 29%). These are public norms and perceptions, not an
+audit of censorship, accuracy, platform moderation, source exposure, or civic
+action; the next test is a defined information controversy followed through
+source choice, accuracy judgment, institutional response, and later behavior.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
