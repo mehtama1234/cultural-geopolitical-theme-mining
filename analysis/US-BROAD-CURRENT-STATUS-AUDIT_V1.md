@@ -1665,6 +1665,12 @@ market-transition or household result.
   difficulty is not a dated bill or shutoff, and the result does not estimate a
   utility, childcare, tenure, assistance, recovery, remedy, trust, or political-
   action effect.
+- **SIPP full constraint-cascade support record:** the broader 2,600-pair
+  utility/tenure/childcare screen is now linked as a supporting diagnostic. It
+  retains owner/buyer and renter counter-surfaces and separate next-month
+  earnings, hours, rent/mortgage, food, and resource-band outcomes. Sparse joint
+  cells, mixed annual/monthly clocks, person-row repetition, and observational
+  selection prevent treating it as a single household burden or causal cascade.
 - **SIPP utility-to-work timing screen:** the [bounded utility-difficulty and
   assistance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md)
   places payment difficulty or energy assistance beside the same person's

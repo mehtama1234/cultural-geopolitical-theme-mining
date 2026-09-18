@@ -1968,6 +1968,10 @@ need and alternatives, tenure, work and unpaid time, rent/food/health outcome,
 next bill, provider/employer response, correction, recovery, trust, and action;
 preserve renter selection, sparse cells, mixed clocks, and non-causal
 counter-surfaces.
+The broader [SIPP constraint-cascade record](records/us-sipp-constraint-cascade-screen-2024.json)
+is retained as the supporting owner/buyer and renter counter-surface for this
+rotation; its separate work and security outcomes do not create a pooled burden
+index or causal cascade.
 
 The AI-meaning provenance rotation now links the [Pew AI concern and
 expected-jobs record](records/us-pew-ai-concern-partisan-jobs-2026.json)
