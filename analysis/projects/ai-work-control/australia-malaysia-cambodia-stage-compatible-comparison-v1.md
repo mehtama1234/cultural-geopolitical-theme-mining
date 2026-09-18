@@ -100,6 +100,11 @@ record does not identify the claim amount, precise relief, legal provisions
 applied, Tribunal reasoning, award, payment, correction, or enforcement. The
 appropriate code is therefore:
 
+The official-route [recheck](malaysia-act872-official-route-recheck-2026-09-18.md)
+confirms that the Ministry and JTKSM surfaces remain maintained but still do not
+publish a case identifier, hearing record, award, or payment outcome for this
+proceeding.
+
 ```text
 statutory route                 observed_official
 institutional use               observed_case_report
@@ -198,6 +203,7 @@ convert contact into resolution.
 
 - [Australian case census](australian-platform-deactivation-case-census-v1.md)
 - [Malaysia GrabCar hearing record](malaysia-grabcar-tribunal-first-hearing-case-record-v1.md)
+- [Malaysia Act 872 official-route recheck](malaysia-act872-official-route-recheck-2026-09-18.md)
 - [Cambodia ILO diagnostic record](cambodia-platform-work-diagnostic-record-v1.md)
 - [Fair Work Commission Bulletin Volume 1/26](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-12-31.htm)
 - [Fair Work Commission Bulletin Volume 11/25](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm)

@@ -1,6 +1,7 @@
 # Malaysia Act 872 outcome acquisition audit — 2026-09-15
 
 **Status:** infrastructure located; case-level outcome not publicly located
+**Latest official-route recheck:** [2026-09-18 recheck](malaysia-act872-official-route-recheck-2026-09-18.md)
 
 ## Acquisition question
 

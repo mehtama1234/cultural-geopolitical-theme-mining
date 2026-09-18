@@ -1,0 +1,44 @@
+{
+  "format": "official-route-recheck-v1",
+  "checked": "2026-09-18",
+  "jurisdiction": "Malaysia",
+  "question": "Do current official Act 872 routes expose a primary case record or outcome for the reported GrabCar Tribunal proceeding?",
+  "sources_reviewed": [
+    {
+      "url": "https://www.mohr.gov.my/aktapekerjagig2025/",
+      "role": "Ministry_Act_872_portal",
+      "result": "Act, FAQ, information kit, Tribunal, and e-Aduan routes visible; no public case register or award located."
+    },
+    {
+      "url": "https://www.mohr.gov.my/aktapekerjagig2025/download.html",
+      "role": "Ministry_implementation_download_page",
+      "result": "Subsidiary legislation and implementation materials visible; no case-level GrabCar record located."
+    },
+    {
+      "url": "https://jtksm.mohr.gov.my/ms/penguatkuasaan-akta-pekerja-gig-2025-jtksm",
+      "role": "JTKSM_enforcement_page",
+      "result": "Page updated 15 September 2026 and exposes Act and implementing materials; no public complaint or outcome statistics located."
+    },
+    {
+      "url": "https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA144_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28TRIBUNAL%20PEKERJA%20GIG%29.pdf",
+      "role": "Tribunal_regulations",
+      "result": "Rules confirm proceedings records, settlement awards, reasons, and hearing procedure; they do not identify the reported case or outcome."
+    },
+    {
+      "url": "https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/Act%20872.pdf",
+      "role": "primary_Act",
+      "result": "Act provides Tribunal award architecture and a practicable 30-day post-hearing timing expectation; no case outcome."
+    }
+  ],
+  "stages": {
+    "official_route": "observed_official",
+    "maintained_implementation_surface": "observed_official",
+    "public_case_identifier": "not_observed",
+    "filed_claim_or_hearing_record": "not_observed",
+    "award_or_merits_reasoning": "not_observed",
+    "payment_correction_or_restoration": "not_observed",
+    "durability_or_anti_retaliation": "not_observed"
+  },
+  "boundary": "A maintained official route and published Tribunal procedure do not establish that the reported GrabCar proceeding reached a public award, payment, correction, or worker outcome.",
+  "storage_boundary": "No complaint, claimant, or Tribunal case file was downloaded or retained."
+}
