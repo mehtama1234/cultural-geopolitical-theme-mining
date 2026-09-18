@@ -1919,6 +1919,16 @@ finding strengthens the access/substitution/recourse map but does not identify
 provider responsibility, verified recovery, alternative quality, or why a
 person stayed or switched. A dated account-linked episode remains open.
 
+The [2025 SHED care/living-arrangements finding](projects/us-aging-care-strain/findings/us-aging-care-strain-003.md)
+adds a second official population surface to the care lane. It shows
+multigenerational co-residence, paid and unpaid childcare, childcare cost,
+gender-patterned caretaker roles, adult caregiving, and caregiving-related
+employment status in one survey module. These measures strengthen the
+distributed-care interpretation but do not identify a dated care need, hours
+displaced, alternative quality, schedule control, employer response, or later
+recovery; SHED remains descriptive context until a same-family or person-level
+episode design is available.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
