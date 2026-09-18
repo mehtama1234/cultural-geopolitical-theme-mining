@@ -2512,3 +2512,11 @@ including among food-insecure adults; reported barriers include closure,
 awareness, comfort, transport, variety, safety, and treatment. Receipt is not
 adequacy, nutrition, SNAP replacement, provider capacity, or recovery, and the
 cross-sectional survey does not identify a same-household substitution path.
+
+The new [food-insecurity persistence trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds the household hardship endpoint that the charitable-food and SNAP route
+layers do not supply. WBNS shows food insecurity remaining elevated after the
+pandemic support cycle and sharply patterned by children, income, race/ethnicity,
+disability, and age. The 2025 methodology change, cross-sectional design, and
+missing benefit, health, and recovery linkage prevent a causal policy or
+same-household persistence claim.

@@ -1641,3 +1641,12 @@ joining food need, eligibility, awareness, schedule/transport, arrival, wait,
 treatment, quantity/variety, receipt or nonreceipt, alternative source,
 health/work adaptation, repeat need, trust, and later stability; preserve
 public, charitable, informal, and no-use routes.
+
+The next food-security rotation promotes the [food-insecurity persistence
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Urban Institute WBNS adds the
+household hardship endpoint and subgroup gradients beside SNAP administration
+and charitable-food receipt. The next test is a same-household ledger joining
+food-security status, price/work context, public/charitable/informal route,
+food quantity and quality, health, care/schooling, repeated need, correction,
+recovery, trust, and later stability; preserve methodology, subgroup, and
+household/person boundaries.
