@@ -121,13 +121,22 @@ status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MA
 
 ## Verified resumption checkpoint — 2026-09-17
 
-The publication gate currently passes all 20 checks: 293 canonical records,
-1,047 observations, 103 source packets, 14 themes, 575 published HTML pages,
-and 1,209 Markdown files are synchronized and locally linked. The broad
+The publication gate currently passes all 20 checks: 310 canonical records,
+1,103 observations, 103 source packets, 14 themes, 644 published HTML pages,
+and 1,269 Markdown files are synchronized and locally linked. The broad
 same-case episode audit confirms that the atlas has substantial exposure,
 adaptation, institutional-response, and selected follow-up evidence, but no
 retained source closes the complete sequence from dated exposure and usable
 alternatives through verified remedy, meaning/action, recovery, and exit.
+
+The current cross-domain proposition is conditional rather than universal:
+institutional visibility and response are easier to observe than the affected
+person’s final condition. A complaint can close without a repair, a recall can
+advance without purchaser restoration, a firm can recover without proving
+community recovery, and an AI productivity or time effect can occur without
+worker control. The [counterexample register](analysis/US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
+and [practical-exit synthesis](analysis/projects/us-customer-automation-recourse/practical-exit-cross-domain-synthesis-v1.md)
+now make that boundary explicit.
 
 The active execution rule is therefore: use existing local artifacts first,
 make no bulk download, and advance one lawful same-unit or valid matched arrow
