@@ -64,6 +64,14 @@ adds a controlled short-run bridge from an outgroup-representing chatbot to
 warmth, belief accuracy, and willingness to choose real outgroup contact, with
 rapid one-week decay. It does not establish durable depolarization, voting,
 institutional trust, or safe generalization across topics and populations.
+The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
+adds a political-meaning endpoint to the work-control lane: concern about AI
+in daily life rose from 37% in 2021 to 52% in 2026, and the share expecting
+fewer US jobs over 20 years rose from 64% in 2024 to 71% in 2026. In 2026,
+both concern and job-loss expectation were higher among Democrats than
+Republicans, reversing the 2024 ordering for expected job loss. These are
+attitudes and expectations, not realized displacement, workplace exposure,
+control, policy attribution, or political action.
 Its new cross-source synthesis frames confidence, payment,
 platform attention, charitable-food access, and digital recourse as distinct
 currencies of participation under unequal optionality.
