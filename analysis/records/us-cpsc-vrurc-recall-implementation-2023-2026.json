@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-vrurc-recall-implementation-2023-2026",
+  "title": "A recall key links a dated hazard notice to reported correction progress without proving consumer recovery",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "CPSC recall API notice and Monthly Progress Report row joined by recall key 23-238",
+  "geography": "United States product market",
+  "observations": [
+    {
+      "period": "2023-07-06 recall notice; VRURC OD-B7 portable chargers",
+      "denominator": {"value": 190000, "unit": "approximately recalled units described in API notice; not unique purchasers", "value_type": "product_units_approximate"},
+      "measures": {"reported_fire_events": {"value": 1, "unit": "reported fire in notice", "value_type": "reported_event_count"}, "hospital_transports": {"value": 4, "unit": "flight attendants transported for smoke inhalation in reported incident", "value_type": "reported_injury_signal"}, "remedy": {"value": 1, "unit": "free replacement route offered after stop-use/contact instruction", "value_type": "remedy_offered_indicator"}},
+      "method": "Read the official recall API record for recall key 23238/23-238 and retain product, date, market, hazard, injury signal, and remedy fields.",
+      "uncertainty": "The notice count is approximate product scale, not exposed households or purchaser risk; the injury signal is a reported incident and not an incidence estimate.",
+      "subgroup": "VRURC OD-B7 portable chargers sold exclusively through Amazon.com from July 2021 through May 2023.",
+      "counterinterpretation": "The reported incident does not establish that all listed units were defective, used, or exposed to the same conditions.",
+      "source_url": "https://www.saferproducts.gov/RestWebServices/Recall?RecallNumber=23238&format=json",
+      "retrieval_hash": "bridge_json:sha256:9ea5f53476f4d5e10065e540e351a0168ccda834ab8524834a5f4b3e757d490f",
+      "status": "observed"
+    },
+    {
+      "period": "MPR snapshot current to 2026-08-21; recall key 23-238",
+      "denominator": {"value": 256845, "unit": "products recalled in MPR row; CPSC consumer-held percentage denominator may differ", "value_type": "reported_product_denominator"},
+      "measures": {"consumer_corrected": {"value": 64963, "unit": "firm-reported cumulative products corrected at consumer level", "value_type": "reported_correction_count"}, "total_corrected": {"value": 65293, "unit": "firm-reported cumulative total corrections", "value_type": "reported_correction_count"}, "consumer_percent_reported": {"value": 29, "unit": "percent reported consumer-level correction; denominator defined by MPR note", "value_type": "reported_percentage"}, "total_percent_reported": {"value": 25, "unit": "percent reported total correction", "value_type": "reported_percentage"}},
+      "method": "Select the MPR row with press-release number 23-238 and preserve the workbook's manufacturer, distributor, retailer, consumer, total, and percentage fields.",
+      "uncertainty": "MPR fields are firm-reported cumulative progress; blank/late fields and reporting duration can affect interpretation; correction counts are not unique consumers or verified replacement receipt.",
+      "subgroup": "Recall-keyed MPR implementation row for VRURC portable chargers.",
+      "counterinterpretation": "A reported correction may represent a product-level action rather than a distinct purchaser, and a corrected product may not establish safe household restoration.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+      "retrieval_hash": "bridge_json:sha256:9ea5f53476f4d5e10065e540e351a0168ccda834ab8524834a5f4b3e757d490f; mpr_json:sha256:6f2816dfbbec05c77af424105da8cbe1ca0da403e7dd576b77692054fd2d9d8d",
+      "status": "reported"
+    },
+    {
+      "period": "2023 notice versus 2026-08-21 MPR denominator reconciliation",
+      "denominator": {"value": 256845, "unit": "MPR products-recalled denominator used only to describe the cross-source mismatch", "value_type": "reconciliation_frame"},
+      "measures": {"mpr_minus_api_approximate_units": {"value": 66845, "unit": "products; 256,845 MPR minus approximately 190,000 API units", "value_type": "denominator_difference"}, "difference_as_share_of_mpr": {"value": 35.2, "unit": "percent; arithmetic comparison, not an exposure or underreporting estimate", "value_type": "denominator_difference_share"}},
+      "method": "Compare the two source-reported scale fields while retaining CPSC's note that consumer-level percentages use a consumer-held denominator that can differ from total recalled products.",
+      "uncertainty": "The mismatch may reflect version, scope, product, reporting-window, or denominator definitions; it cannot be resolved into a corrected exposure rate from these compact artifacts.",
+      "subgroup": "Same recall key across API notice and MPR row.",
+      "counterinterpretation": "The two fields may be valid for different operational populations; treating their difference as missing consumers would be an unsupported inference.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+      "retrieval_hash": "bridge_json:sha256:9ea5f53476f4d5e10065e540e351a0168ccda834ab8524834a5f4b3e757d490f; mpr_json:sha256:6f2816dfbbec05c77af424105da8cbe1ca0da403e7dd576b77692054fd2d9d8d",
+      "status": "open"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md", "claim": "Detailed finding explains the hazard, notice, remedy, correction, denominator, and consumer-recovery boundary.", "status": "detailed-finding"},
+    {"source_url": "../projects/us-marketplace-product-safety/data/cpsc-vrurc-recall-key-bridge-2026-09-17.json", "claim": "Compact recall-key bridge preserves the joined fields and storage boundary.", "status": "case-audit"}
+  ],
+  "boundary": "This is a product-level implementation bridge, not a consumer-level recovery estimate. It does not establish purchaser exposure, notice receipt, replacement receipt, timing, safe restoration, residual cost, trust, switching, or exit. The notice and MPR denominators differ and require reconciliation."
+}

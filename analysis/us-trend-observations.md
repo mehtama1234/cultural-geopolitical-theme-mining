@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-309 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+310 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -346,6 +346,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** CPSC adds a consumer-safety institutional layer linking hazard detection, recalls, import screening, e-commerce takedowns, and injury surveillance. It does not establish product exposure, recall awareness, remedy receipt, injury prevention, firm liability, household cost, trust, or political response for the same consumer.
 
+| A recall key links a dated hazard notice to reported correction progress without proving consumer recovery | cost, voice | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC recall API notice and Monthly Progress Report row joined by recall key 23-238 | United States product market | 3 | 2023-07-06 recall notice; VRURC OD-B7 portable chargers; MPR snapshot current to 2026-08-21; recall key 23-238; 2023 notice versus 2026-08-21 MPR denominator reconciliation | observed; open; reported | [open](records/us-cpsc-vrurc-recall-implementation-2023-2026.json) |
+
+**Boundary:** This is a product-level implementation bridge, not a consumer-level recovery estimate. It does not establish purchaser exposure, notice receipt, replacement receipt, timing, safe restoration, residual cost, trust, switching, or exit. The notice and MPR denominators differ and require reconciliation.
+
 | Data-center capacity, public revenue, and utility governance do not identify household benefit | energy, cost, voice, work | infrastructure_technology_dependency, firm_sector_market_power, public_systems_feedback, household_room_consumption, housing_place_mobility, geopolitical_state_consequences | Deliberately non-pooled comparison of LBNL modeled national load, county fiscal reporting, and state utility-governance records | United States; national, Prince William County Virginia, Virginia, Texas, and Georgia layers | 4 | 2023 historical estimate and 2030 reference/sensitivity scenarios; Tax Year 2025; Prince William County fiscal and capacity report; 2025-2026; Virginia, Texas, and Georgia large-load governance records; July 2024-February 2025; Virginia large-load operational stress events | compared; estimated; reported | [open](records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json) |
 
 **Boundary:** This is a non-pooled infrastructure-to-governance bridge. It establishes a measurable path from digital demand to modeled physical load, local fiscal capacity, utility risk allocation, and reported operational stress. It does not establish household benefit, jobs or wages, water or environmental incidence, public trust, provider replaceability, state leverage, or geopolitical consequence. Those require linked local, customer, firm, workforce, environmental, and behavioral evidence.
@@ -590,7 +594,7 @@ Each record preserves its source unit, geography, period-specific denominator, m
 
 **Boundary:** This is an associative same-respondent follow-up, not a causal fraud effect or political-action estimate. It does not establish a dated incident, actor responsibility, trust change, remedy receipt, recovery, switching, or exit.
 
-| Retrospective fraud exposure is not equivalent to realized loss or restored household security | cost, voice | consumer_power_recourse, household_room_consumption, unequal_exposure_status, public_systems_feedback, trust_identity_meaning, political_judgment_action | April-to-June 2025 HTOPS same-respondent public-use intersection linked by SCRAMID | United States | 3 | April 15–29 to June 16–25, 2025; reported exposure versus no exposure; April 15–29 to June 16–25, 2025; exposure with reported loss versus no exposure; April 15–29 to June 16–25, 2025; loss, report, and reported agency recovery | boundary_signal; compared | [open](records/us-htops-fraud-loss-followup-2025.json) |
+| Retrospective fraud exposure is not equivalent to realized loss or restored household security | cost, voice | consumer_power_recourse, household_room_consumption, unequal_exposure_status, public_systems_feedback, trust_identity_meaning, political_judgment_action | April-to-June 2025 HTOPS same-respondent public-use intersection linked by SCRAMID | United States | 3 | April 15–29 to June 16–25, 2025; reported exposure versus no exposure; April 15–29 to June 16–25, 2025; exposure with reported loss versus no exposure; April 15–29 to June 16–25, 2025; loss, report, and reported agency recovery | compared; open | [open](records/us-htops-fraud-loss-followup-2025.json) |
 
 **Boundary:** This is a same-respondent descriptive follow-up. It does not establish a dated fraud effect, verified remedy, restored security, trust change, political action, switching, exit, or causality. Exposure and loss are retrospective, linked retention is selective, and the recovery subgroup has 11 respondents.
 
