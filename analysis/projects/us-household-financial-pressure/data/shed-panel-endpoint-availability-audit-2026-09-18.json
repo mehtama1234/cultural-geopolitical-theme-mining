@@ -1,0 +1,38 @@
+{
+  "format": "us-shed-panel-endpoint-availability-audit-v1",
+  "checked": "2026-09-18",
+  "source_unit": "SHED respondent recontact panel, 2024 to 2025",
+  "panel_pairs": 4419,
+  "paired_health_path_rows": 4163,
+  "available_same_respondent_stages": [
+    "broad financial condition transition",
+    "reported price and household adaptations",
+    "adaptation persistence and re-entry",
+    "self-rated health direction",
+    "care entry and persistence surfaces",
+    "income-band conditioning",
+    "2025 panel weighting"
+  ],
+  "available_endpoint_status": {
+    "material_condition": "observed and linked across 2024-2025",
+    "adaptation": "observed and linked across 2024-2025",
+    "health_or_care_context": "observed for compatible paired universes",
+    "trust_or_institutional_confidence": "not present in retained panel outputs",
+    "actor_attribution": "not present in retained panel outputs",
+    "civic_or_political_action": "not present in retained panel outputs",
+    "verified_remedy_or_recovery": "not present",
+    "switching_nonuse_or_practical_exit": "not present"
+  },
+  "evidence_basis": [
+    "data/shed-panel-adaptation-income-path-2024-2025.json",
+    "data/shed-panel-adaptation-health-path-2024-2025.json",
+    "shed-2024-2025-panel-persistence-layer-v1.md",
+    "shed-panel-adaptation-condition-path-layer-v1.md",
+    "shed-panel-adaptation-health-path-layer-v1.md",
+    "shed-panel-reproduction-audit-2026-09-13.json"
+  ],
+  "interpretation": "The retained SHED panel can advance the same-respondent material-condition-to-adaptation and partial recovery arrows, but it cannot close the later meaning, trust, action, remedy, or practical-exit arrows. No new cross-tab or end-to-end finding should be promoted from this panel without a retained source surface containing those fields.",
+  "next_smallest_aligned_route": "Acquire or authenticate a respondent-level event-compatible source with a dated trigger, alternatives, institutional response, and later trust or action; do not treat another SHED aggregate or adaptation cross-tab as that route.",
+  "variance_estimation": false,
+  "causal_estimation": false
+}

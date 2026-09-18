@@ -1205,6 +1205,15 @@ purchases, while reduced-savings persistence is lower in the improved-health
 path. This advances the recovery arrow but remains descriptive: annual health
 categories do not identify a dated bill, treatment decision, or causal ordering.
 
+The [SHED endpoint-availability audit](projects/us-household-financial-pressure/shed-panel-endpoint-availability-audit-2026-09-18.md)
+now confirms the retained panel boundary: same-respondent material condition,
+adaptation, health/care context, persistence, and reversal are available, but
+actor attribution, trust, civic action, verified remedy/recovery, and practical
+exit are not present in the retained outputs. This is an acquisition boundary,
+not a reason to promote another SHED cross-tab. The next aligned route remains
+a dated event-compatible source with alternatives, institutional response, and
+a later meaning or action endpoint.
+
 The [ATUS care/work trend record](records/us-atus-eldercare-work-time-2023-2024.json)
 adds a population-scale time/care source to the registry: 38.192 million
 reported eldercare providers, a high provider rate among ages 55–64, and
