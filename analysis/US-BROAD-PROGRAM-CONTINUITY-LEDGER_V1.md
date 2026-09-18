@@ -2054,3 +2054,9 @@ research action is still the authorized same-case route test through event,
 alternative, effort/payment, response, remedy/recovery, trust/meaning, action,
 and exit; broad rotation continues while those credentials or files are not
 available.
+
+The [targeted CFPB credit-card monetary-relief recheck](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
+adds a current response-category-conditioned administrative surface: 25
+recently returned records within a 21,425-record filtered universe all carry
+the published monetary-relief label. This is a formal response comparator, not
+verified issuance or consumer receipt, and does not change the same-case gate.

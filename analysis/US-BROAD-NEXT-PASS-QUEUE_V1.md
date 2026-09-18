@@ -3019,3 +3019,12 @@ leaving purchaser notice, replacement receipt, safe restoration, residual
 cost, trust, switching, and exit open. The next qualifying extension remains
 a lawful consumer-level or linked implementation ledger, not another aggregate
 MPR refresh.
+
+**CFPB response-category recheck — 2026-09-18:** a targeted current API query
+for `Credit card` complaints marked `Closed with monetary relief` returned a
+21,425-record filtered universe; a first-25 sample passed the administrative
+event-ledger contract. The [recheck memo](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
+adds a current formal-response comparator but does not verify payment amount,
+issuance, receipt, account correction, remaining loss, trust, switching, or
+exit. It therefore advances the response stage without qualifying the
+same-case promotion gate.

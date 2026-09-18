@@ -6,7 +6,7 @@ financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 311 machine-readable records, 1108 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 656 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 657 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1780,7 +1780,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 311 trend records and 1108 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,281 local Markdown links and 656 published HTML pages pass link
+families; 1,282 local Markdown links and 657 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -2903,3 +2903,10 @@ event, alternatives, effort or payment, institutional response, remedy or
 recovery, meaning/trust, action, and exit with units, weights, missingness, and
 counterexamples preserved. Until then, the atlas remains a living 14-theme
 mechanism map with open arrows rather than a closed universal causal story.
+
+The [targeted CFPB monetary-relief response slice](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
+adds a current credit-card sample conditioned on the published `Closed with
+monetary relief` label: 25 of 21,425 matching records were mapped and passed
+the event-ledger contract. This strengthens the formal-response comparator,
+not lived remedy; amount, issuance, receipt, correction, remaining loss, trust,
+switching, and exit remain unknown.

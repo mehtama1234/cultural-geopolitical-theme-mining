@@ -1,0 +1,34 @@
+{
+  "audit_type": "cfpb-targeted-response-category-event-ledger-recheck-v1",
+  "checked": "2026-09-18",
+  "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
+  "query": {
+    "product": "Credit card",
+    "company_response": "Closed with monetary relief",
+    "date_received_min": "2025-01-01",
+    "date_received_max": "2026-09-19",
+    "size": 25,
+    "retrieval_design": "first 25 records returned after response-category and product/date filters; not random or weighted"
+  },
+  "matching_records_reported": 21425,
+  "returned_records": 25,
+  "observed_date_span": "2026-09-08 to 2026-09-16",
+  "raw_input_sha256": "364bbdf431c1d027a959bf71a01ad48ce05602b0f09fdbfd4812d2842cb06c60",
+  "derived_event_ledger_sha256": "bbb30f63a09c7a5c75c1767d2bfa1333a95814d13663aabdaa044e42484d851a",
+  "bounded_counts": {
+    "company_response_monetary_relief": 25,
+    "timely_yes": 25,
+    "submitted_via_web": 23,
+    "submitted_via_referral": 2,
+    "company_public_response_present": 15,
+    "company_public_response_absent": 10,
+    "narrative_field_present": 0
+  },
+  "event_ledger_contract": {
+    "events": 25,
+    "arrows": 2,
+    "status": "passed"
+  },
+  "interpretation": "This is a current, response-category-conditioned administrative route sample. The company_response label makes a monetary-response category visible but does not verify amount, issuance, receipt, correction, remaining loss, trust, switching, or exit.",
+  "storage_note": "Raw API JSON and derived ledger were used transiently for the bounded validation and are not retained; hashes and aggregate field diagnostics are retained."
+}

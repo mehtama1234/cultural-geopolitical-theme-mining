@@ -188,6 +188,7 @@ def main():
     # server publishes the acquisition boundary alongside the findings.
     memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-public-event-ledger-acquisition-audit-2026-09-14.md")
     memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-student-loan-event-ledger-freshness-recheck-2026-09-18.md")
+    memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md")
     memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-api-vintage-refresh-2026-09-14.md")
     memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md")
     memos.append(ROOT / "analysis/projects/us-customer-automation-recourse/cfpb-2024-aggregation-refresh-2026-09-13.md")
