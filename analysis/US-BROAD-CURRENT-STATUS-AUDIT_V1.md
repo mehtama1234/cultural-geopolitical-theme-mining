@@ -2632,3 +2632,15 @@ selected household/firm credit pressure, elevated delinquencies, inflation,
 labor, consumption, and relatively tight credit for small businesses and
 households. These are monitoring judgments and aggregate conditions, not a
 household welfare, firm-incidence, or causal shock estimate.
+
+The next distributional macro rotation promotes the [New York Fed
+economic-heterogeneity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The EHI
+record adds constructed demographic inflation gaps, employed-worker earnings
+ratios, and receipt-panel consumption directions beside the aggregate price,
+income, labor, debt, and household-room layers. It preserves the boundary that
+these are not one household panel: the demographic inflation index is
+author-constructed from BLS expenditure shares and CPI prices, earnings ratios
+condition on employment, and Numerator is a permissioned market-research panel.
+The next test is a same-household ledger joining prices paid, earnings/hours,
+benefits, debt/credit, quantities and substitution, care/housing/health
+trade-offs, attribution, trust, action, and recovery.

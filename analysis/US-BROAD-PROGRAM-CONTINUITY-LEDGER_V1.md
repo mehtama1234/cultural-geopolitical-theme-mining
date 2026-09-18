@@ -1786,3 +1786,13 @@ credit terms, application/approval, payment burden, delinquency, lender
 response, substitution, correction/remedy, work/consumption, trust, and
 recovery; preserve report dates, aggregate units, selected subgroups, and
 judgment-versus-outcome boundaries.
+
+The next distributional macro rotation promotes the [New York Fed
+economic-heterogeneity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The EHI
+record adds constructed demographic inflation gaps, employed-worker earnings
+ratios, and receipt-panel consumption directions beside the aggregate price,
+income, labor, debt, and household-room layers. The next test is a
+same-household ledger joining prices paid, earnings/hours, benefits, debt/credit,
+quantities and substitution, care/housing/health trade-offs, attribution,
+trust, action, and recovery; preserve constructed-index, employed-worker,
+receipt-panel, household, and nonemployed boundaries.
