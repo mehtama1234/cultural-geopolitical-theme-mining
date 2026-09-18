@@ -1880,6 +1880,18 @@ global-role reception. It identifies a recurring shared-referent/group-specific
 meaning structure while preserving separate units and clocks; no pooled cultural
 index, common respondent history, or causal political effect is claimed.
 
+The [Pew 2026 three-audience global-role layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+now gives that geopolitical meaning bridge a canonical status. Across 36
+non-U.S. countries, a median 35% said the U.S. contributes to global peace and
+stability, compared with 57% of Americans. Within the U.S., the same judgment
+was 82% among Republicans and 35% among Democrats, while 83% of Americans
+agreed that the U.S. interferes in other countries' affairs at least a fair
+amount. This is a three-audience legitimacy pattern—not a pooled public
+consensus—and it does not measure actual intervention, alliance coordination,
+rights performance, capability, or geopolitical leverage. The next test is an
+event-country-party-year ledger linking a dated policy or conflict to external
+reception, domestic framing, institutional response, and later action.
+
 The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
 audits ten retained routes against condition, interpretation, action, actor
 response, outcome, and later trust/exit. It confirms that complementary partial
