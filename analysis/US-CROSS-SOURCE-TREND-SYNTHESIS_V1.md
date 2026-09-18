@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 326 machine-readable records, 1163 observations,
+The current registry contains 327 machine-readable records, 1166 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1412,6 +1412,11 @@ aggregation, and guidance awareness. The participant and job-center samples do
 not identify causal barriers or employment effects. The next test links
 voluntary accommodation need to service completion, placement, retention, and
 local corrective action.
+
+The [canonical disability workforce-program record](records/us-gao-disability-workforce-program-access-2026.json)
+preserves participant, local implementation, oversight, and recommendation
+stages separately, including voluntary non-disclosure as a substantive data
+boundary.
 
 The [GAO 2026 working adults, Medicaid/SNAP, and employer reliance layer](projects/us-safety-net-access/gao-2026-working-adults-medicaid-snap-employer-reliance-layer-v1.md)
 adds a labor–safety-net bridge. About 13.8 million Medicaid-enrolled adults and

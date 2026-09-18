@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disability-workforce-program-access-2026",
+  "title": "Workforce-program eligibility does not guarantee an accessible route to completion",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107473; Department of Labor workforce-program participation, accessibility, data, and oversight",
+  "geography": "United States DOL-funded workforce programs, selected state/local agencies, and 12 visited job centers",
+  "observations": [
+    {
+      "period": "July 1, 2023–June 30, 2024; selected DOL workforce-program participants",
+      "denominator": {"value": 7, "unit": "percent of participants in reviewed DOL workforce programs reporting a disability", "value_type": "reported_share"},
+      "measures": {
+        "disability_type_missing": {"value": 43, "unit": "percent of participants reporting a disability who did not report disability type", "value_type": "reported_share"},
+        "employment_outcome_context": {"value": "participants reporting disabilities had worse employment outcomes", "unit": "reported comparison", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of participant-level DOL data for the most recent year available at review, with disability reporting and employment outcomes kept as separate fields.",
+      "uncertainty": "The reviewed programs and reported disability status are not all job seekers or all disability prevalence; worse outcomes do not identify accommodation barriers, disability type, prior work history, local demand, service mix, or causality. Non-disclosure may be voluntary and privacy-protective.",
+      "subgroup": "Participants in selected DOL workforce programs reporting a disability during the stated program year.",
+      "counterinterpretation": "Participants may withhold sensitive information by choice, and outcome differences may reflect selection, disability severity, prior experience, local labor demand, or program composition rather than inaccessible services.",
+      "source_url": "https://www.gao.gov/products/gao-26-107473",
+      "retrieval_hash": "sha256:0d5f258abc7b81637219ce5ed5ac2bba439299febc4d300bc238ff972cce93a4",
+      "status": "reported"
+    },
+    {
+      "period": "2021–2024; labor-market demand frame for people with disabilities",
+      "denominator": {"value": 500000, "unit": "more than people with disabilities unemployed and actively looking for work in each year", "value_type": "reported_lower_bound"},
+      "measures": {
+        "potential_demand": {"value": "more than 500,000 in each year from 2021 through 2024", "unit": "annual unemployment and active job search frame", "value_type": "reported_series"},
+        "program_route_boundary": {"value": "job centers and DOL-funded employment/training programs are required to provide accessible services and prohibit disability discrimination", "unit": "formal institutional route", "value_type": "reported_policy"}
+      },
+      "method": "GAO report synthesis of labor-market context, Workforce Innovation and Opportunity Act requirements, and DOL program access review.",
+      "uncertainty": "The labor-market frame is not the number needing or using DOL services, requesting accommodation, or failing to complete a program; formal legal access does not establish practical access or job placement.",
+      "subgroup": "People with disabilities unemployed and actively looking for work, compared with selected program participants.",
+      "counterinterpretation": "A formal accessible route may be effective for many users even when local service gaps remain; unemployment can reflect labor demand, health, transport, discrimination, or preferences outside the DOL program.",
+      "source_url": "https://www.gao.gov/products/gao-26-107473",
+      "retrieval_hash": "sha256:0d5f258abc7b81637219ce5ed5ac2bba439299febc4d300bc238ff972cce93a4",
+      "status": "reported"
+    },
+    {
+      "period": "2023–2026 report and recommendation-status review; local implementation and DOL oversight",
+      "denominator": {"value": 12, "unit": "job centers visited in Arkansas, Oregon, Virginia, and the District of Columbia; non-generalizable sample", "value_type": "selected_site_scope"},
+      "measures": {
+        "access_barriers": {"value": "officials reported challenges providing sign-language interpreters and ensuring training outside job centers was accessible; visited agencies also reported assistive technology", "unit": "selected local implementation finding", "value_type": "reported_finding"},
+        "monitoring_gap": {"value": "DOL did not routinely analyze state and local monitoring reports at an aggregate level", "unit": "oversight process finding", "value_type": "reported_gap"},
+        "recommendations": {"value": 3, "unit": "open recommendations to improve disability-type data, analyze monitoring reports, and evaluate guidance awareness/use", "value_type": "reported_recommendation_count"},
+        "recommendation_status": {"value": "DOL disagreed with the first recommendation and agreed with the other two; all remained open in the report's July 2026 status update", "unit": "agency response and status", "value_type": "reported_status"}
+      },
+      "method": "GAO interviews, document review, participant data analysis, and visits selected for variation in geography, urban/rural population, and disability-participant share.",
+      "uncertainty": "The 12 sites are not representative; an assistive-technology report is not successful use, service completion, placement, or retention; monitoring and guidance activity are not correction or improved employment outcomes.",
+      "subgroup": "Selected state/local workforce agencies, job centers, DOL oversight systems, and participants with disabilities.",
+      "counterinterpretation": "Local agencies may resolve individual barriers without aggregate visibility, and DOL's later procedures or dissemination commitments may improve the route; the current record does not measure implementation effects.",
+      "source_url": "https://www.gao.gov/products/gao-26-107473",
+      "retrieval_hash": "sha256:0d5f258abc7b81637219ce5ed5ac2bba439299febc4d300bc238ff972cce93a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107473", "claim": "Official GAO report supplies participant shares, outcome comparison, local implementation barriers, monitoring gap, recommendations, and July 2026 status update.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a disability-access and workforce-program implementation stage beneath formal eligibility and above employment outcome. It does not establish accommodation request or receipt, service abandonment, completion, placement, wages, retention, benefit transition, employer response, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, DOL participant file, state administrative records, and job-center archives not retained",
+    "html_sha256": "sha256:0d5f258abc7b81637219ce5ed5ac2bba439299febc4d300bc238ff972cce93a4",
+    "checked": "2026-09-18"
+  }
+}

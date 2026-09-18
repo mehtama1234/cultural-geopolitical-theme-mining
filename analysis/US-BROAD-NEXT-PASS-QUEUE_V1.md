@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 326 records and
-1163 observations.
+have exact registered-URL references. The trend registry holds 327 records and
+1166 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2997,6 +2997,11 @@ and technology access, outside-training barriers, service completion, placement,
 retention, and monitoring correction. Preserve voluntary non-disclosure and
 missingness; do not read a disability count, guidance document, or monitoring
 visit as successful employment access.
+
+The [canonical disability workforce-program record](records/us-gao-disability-workforce-program-access-2026.json)
+now preserves the participant, local-access, monitoring, and recommendation
+stages. It advances the accessibility-to-work bridge without closing
+accommodation receipt, service completion, placement, retention, or mobility.
 
 The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
 adds a place-level mobility test. The next pass should use compact official
