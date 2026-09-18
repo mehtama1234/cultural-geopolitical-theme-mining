@@ -1012,6 +1012,12 @@ could move cost into tax access, fees, capitalized interest, and payment
 demands before an ordered restitution and control route. It leaves individual
 receipt, adequacy, corrected account/tax position, credit, household recovery,
 trust, switching, and exit open.
+The [Apple PERM implementation record](records/us-doj-apple-perm-backpay-distribution-2026.json)
+then adds a stronger completed-remedy stage: DOJ reports individualized
+lost-income review, an exhausted $18.25 million back-pay fund, and qualifying
+worker compensation, while recruitment controls and monitoring continue. It
+still leaves claimant denominator, individual receipt, restored opportunity,
+durable compliance, household recovery, trust, and exit open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

@@ -1774,6 +1774,15 @@ record does not disclose category-level affected counts, individual receipt,
 adequacy, corrected tax/payment position, credit outcome, durable compliance,
 trust, switching, or exit.
 
+The [Apple PERM implementation record](records/us-doj-apple-perm-backpay-distribution-2026.json)
+adds a stronger monetary-remedy stage than a reserved fund: DOJ reports
+$18.25 million processed after individualized lost-income review, exhaustion of
+the fund, and compensation of qualifying workers, alongside recruitment-channel
+controls and monitoring. This remains an implementation report rather than a
+worker-level payment audit; claimant denominator, individual amount/date/receipt,
+restored consideration, post-monitoring compliance, household recovery, trust,
+and exit remain open.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage
