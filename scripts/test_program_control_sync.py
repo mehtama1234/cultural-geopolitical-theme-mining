@@ -3,7 +3,11 @@
 
 from __future__ import annotations
 
-from validate_program_control_sync import validate_handoff_counts, validate_local_markdown_count
+from validate_program_control_sync import (
+    validate_handoff_counts,
+    validate_local_markdown_count,
+    validate_recovery_brief_checkpoint,
+)
 
 
 def main() -> int:
@@ -30,6 +34,15 @@ def main() -> int:
         assert str(error) == "current-status audit Markdown-file count is stale", error
     else:
         raise AssertionError("stale Markdown-file count was accepted")
+
+    recovery = "The atlas currently contains 14 themes, 255 machine-readable records, 979\nobservations,"
+    validate_recovery_brief_checkpoint(recovery, 14, 255, 979)
+    try:
+        validate_recovery_brief_checkpoint(recovery, 14, 252, 961)
+    except ValueError as error:
+        assert str(error) == "end-to-end recovery brief checkpoint is stale", error
+    else:
+        raise AssertionError("stale recovery brief checkpoint was accepted")
 
     print("PASS program control handoff-count regression checks")
     return 0

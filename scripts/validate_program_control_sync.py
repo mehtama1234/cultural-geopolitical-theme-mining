@@ -58,6 +58,21 @@ def validate_local_markdown_count(current_status: str, markdown_files: int) -> N
         raise ValueError("current-status audit Markdown-file count is stale")
 
 
+def validate_recovery_brief_checkpoint(
+    recovery_brief: str,
+    themes: int,
+    records: int,
+    observations: int,
+) -> None:
+    """Require the crash-recovery brief to carry the live registry checkpoint."""
+    expected = (
+        f"The atlas currently contains {themes} themes, {records} machine-readable records, "
+        f"{observations:,}\nobservations,"
+    )
+    if expected not in recovery_brief:
+        raise ValueError("end-to-end recovery brief checkpoint is stale")
+
+
 def main() -> int:
     records = [json.loads(path.read_text(encoding="utf-8")) for path in sorted((ROOT / "analysis/records").glob("*.json"))]
     observations = sum(len(record.get("observations", [])) for record in records)
@@ -79,6 +94,7 @@ def main() -> int:
     current_status = (ROOT / "analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md").read_text(encoding="utf-8")
     next_queue = (ROOT / "analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md").read_text(encoding="utf-8")
     review_packet = (ROOT / "REVIEW-PACKET_CURRENT-THEMES_V1.md").read_text(encoding="utf-8")
+    recovery_brief = (ROOT / "END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md").read_text(encoding="utf-8")
     big_picture = (ROOT / "analysis/us-big-picture-synthesis.md").read_text(encoding="utf-8")
     big_picture_site = (ROOT / "site/us-big-picture-synthesis.html").read_text(encoding="utf-8")
     connections = json.loads((ROOT / "manifests/us-theme-connections.json").read_text(encoding="utf-8"))
@@ -121,6 +137,7 @@ def main() -> int:
         raise SystemExit("program dashboard registry count is stale")
     try:
         validate_handoff_counts(current_status, next_queue, review_packet, len(records), observations)
+        validate_recovery_brief_checkpoint(recovery_brief, len(catalog), len(records), observations)
         markdown_files = sum(
             1
             for path in ROOT.rglob("*.md")
