@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1127 observations.
+1128 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1479,6 +1479,11 @@ country-level Piorun handover, acceptance, or operational-use notice. This is
 a current public-record non-observation, not evidence of non-delivery; it
 keeps the Piorun route at procurement/external-response stage until a matched
 country contract and performance record appears.
+The Mesko production baseline is separately dated: Poland's Ministry of State
+Assets reports that the three-thousandth Piorun left the production line in
+2024. This confirms pre-SAFE product output, but does not quantify the later
+SAFE framework's incremental production, delivery rate, export allocation, or
+critical-input control.
 The [Lithuanian SAFE vehicle implementation record](records/us-lithuania-safe-vehicle-contract-implementation-2026.json)
 adds a separate foreign execution comparator: Lithuania reports a partly
 SAFE-financed approximately EUR 1B military-vehicle contract with 2026–2032

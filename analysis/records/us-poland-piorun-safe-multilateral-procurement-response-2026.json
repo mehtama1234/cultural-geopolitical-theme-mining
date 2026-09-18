@@ -22,7 +22,7 @@
       "subgroup": "Mesko Piorun production and allied common-procurement route under SAFE.",
       "counterinterpretation": "A multilateral framework can signal shared demand and supplier influence while leaving actual orders, financing drawdown, delivery, and dependence on foreign inputs unresolved.",
       "source_url": "https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe",
-      "retrieval_hash": "artifact:sha256:eaf73755027af6f74d649a23b0207b0ba51c2b7dbc5f0832c56dc96c8582cde5",
+      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
       "status": "reported"
     },
     {
@@ -38,7 +38,7 @@
       "subgroup": "Polish Armament Agency, Mesko, and allied Piorun procurement route at MSPO 2026.",
       "counterinterpretation": "A public announcement of allied purchasing can reflect a framework or political commitment that later changes, and may strengthen Polish export positioning without proving durable bargaining power or production independence.",
       "source_url": "https://www.gov.pl/web/premier/polski-przemysl-obronny-przyspiesza-dzieki-safe",
-      "retrieval_hash": "artifact:sha256:eaf73755027af6f74d649a23b0207b0ba51c2b7dbc5f0832c56dc96c8582cde5",
+      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
       "status": "reported"
     },
     {
@@ -54,7 +54,7 @@
       "subgroup": "Lithuanian defense procurement and Poland-Lithuania industrial cooperation linked to the Piorun route.",
       "counterinterpretation": "External participation can widen demand and supply-chain ties without reducing dependence on Polish or non-Polish components, and a procurement-stage commitment is not realized capability.",
       "source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/",
-      "retrieval_hash": "artifact:sha256:eaf73755027af6f74d649a23b0207b0ba51c2b7dbc5f0832c56dc96c8582cde5",
+      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
       "status": "reported"
     },
     {
@@ -69,7 +69,22 @@
       "subgroup": "Lithuanian Piorun acquisition route within the wider Poland-led SAFE/common-procurement pathway.",
       "counterinterpretation": "A planned purchase can coexist with a signed framework or later negotiation progress; absence of a located public handover notice does not establish absence of delivery.",
       "source_url": "https://kam.lt/kariuomenes-sandeliai-pildomi-atsargomis-uz-400-mln-eur-nuo-raketu-iki-priestankiniu-minu-ir-soviniu/",
-      "retrieval_hash": "artifact:sha256:eaf73755027af6f74d649a23b0207b0ba51c2b7dbc5f0832c56dc96c8582cde5",
+      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
+      "status": "reported"
+    },
+    {
+      "period": "2024 production milestone; reported 2025-06-17",
+      "denominator": {"value": 3000, "unit": "Piorun systems reported as having left the Mesko production line by the three-thousandth unit milestone", "value_type": "reported_production_milestone"},
+      "measures": {
+        "piorun_production_milestone": {"value": 3000, "unit": "systems; reported three-thousandth unit produced in 2024", "value_type": "reported_output_milestone"},
+        "safe_attribution": {"value": "not attributed to the 2026 SAFE framework", "unit": "scope boundary", "value_type": "bounded_non_attribution"}
+      },
+      "method": "Bounded extraction from the official Polish Ministry of State Assets report about Mesko. The three-thousandth-unit milestone is retained as a historical product-level production baseline and is not treated as a 2026 SAFE output measure.",
+      "uncertainty": "The report does not provide annual production series, delivery/acceptance records, customer allocation, export quantities, or a plant-level output denominator. A cumulative milestone cannot be converted into a production rate or SAFE incremental quantity.",
+      "subgroup": "Mesko Piorun production before the 2026 SAFE framework and multilateral procurement route.",
+      "counterinterpretation": "Existing production demonstrates prior industrial capability but does not establish that the later SAFE framework was unnecessary, that capacity can meet the new scope, or that Poland controls all critical inputs and technology.",
+      "source_url": "https://www.gov.pl/web/aktywa-panstwowe/mesko-produkuje-milion-sztuk-amunicji-dziennie",
+      "retrieval_hash": "artifact:sha256:36bd0b0c3e61dff7c112b8b4333deb868441bcbb9a3085c596ab7dbb227d820b",
       "status": "reported"
     }
   ],
