@@ -1310,6 +1310,10 @@ adds external audiences and domestic partisan meaning between material state
 capacity and geopolitical consequence. It preserves open links from policy
 events to foreign trust, alliance cooperation, cultural/market reception,
 domestic consent, and later strategic response.
+The [Pew three-audience global-role record](records/us-pew-global-role-legitimacy-three-audiences-2026.json)
+now supplies the machine-readable provenance for that bridge; its foreign,
+domestic, and partisan units remain separate rather than forming a capability
+or causal legitimacy index.
 
 The [Pew 2025 religious affiliation and cultural identity layer](projects/us-cost-trust-politics/pew-2025-religious-affiliation-switching-cultural-identity-layer-v1.md)
 adds identity and community institutions between family transmission and public

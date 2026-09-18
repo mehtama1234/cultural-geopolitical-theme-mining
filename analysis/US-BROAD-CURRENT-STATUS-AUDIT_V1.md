@@ -2413,6 +2413,10 @@ consensus—and it does not measure actual intervention, alliance coordination,
 rights performance, capability, or geopolitical leverage. The next test is an
 event-country-party-year ledger linking a dated policy or conflict to external
 reception, domestic framing, institutional response, and later action.
+The [Pew three-audience global-role record](records/us-pew-global-role-legitimacy-three-audiences-2026.json)
+is now linked directly to that layer, preserving the equal-country median,
+separate U.S. supplement, partisan subgroup bases, and survey-perception versus
+capability boundary.
 
 The [cultural-meaning episode matrix](projects/us-cost-trust-politics/cultural-meaning-episode-matrix-v1.md)
 audits ten retained routes against condition, interpretation, action, actor
