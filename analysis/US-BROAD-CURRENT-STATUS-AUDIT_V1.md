@@ -2480,3 +2480,11 @@ separates unbanked and underbanked status, mainstream-credit visibility, online
 payments, prepaid cards, and BNPL performance. These are access and route
 surfaces, not liquidity, affordability, remedy, trust, switching, or political
 outcomes; the same-household account episode remains open.
+
+The new [World Bank firm-capacity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a bounded U.S. establishment-size profile to the firm and work lanes. The
+2,589-establishment Enterprise Survey separates employment growth, formal
+training, outage exposure, bank-financed investment, and manager-reported
+obstacles across small, medium, and large firms. These are distinct capacity
+surfaces, not a size effect, productivity estimate, worker-welfare measure, or
+local-capacity outcome; the same-establishment path remains open.

@@ -1605,3 +1605,12 @@ switching evidence. The next test is a same-account ledger joining dated need,
 route choice, cost/effort, approval or transaction success, correction/remedy,
 payment performance, switching, trust, and later household room; preserve
 intentional avoidance and useful nonbank use.
+
+The next firm-capacity rotation promotes the [World Bank firm-capacity trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 2,589-establishment Enterprise
+Survey profile adds size-stratified growth, training, outage, bank-finance, and
+obstacle signals beside the existing worker, owner-household, and support-rule
+lanes. The next test is a same-establishment ledger joining size, ownership,
+sector, training, infrastructure, finance, workforce, revenue, worker
+pay/hours, customer access, survival, alternatives, and later local/state
+capacity; preserve composition and indicator-universe boundaries.
