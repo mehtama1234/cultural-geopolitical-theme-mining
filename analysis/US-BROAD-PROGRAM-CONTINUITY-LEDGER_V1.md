@@ -1846,3 +1846,12 @@ information, prior beliefs, announcement perception, rate/credit terms, prices,
 borrowing/saving/spending, attribution, trust, and later action; preserve
 vignette, RCT, event-study, awareness, perception, and expectation-versus-
 behavior boundaries.
+
+The next payment-incidence rotation promotes the [payment-rewards
+redistribution trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER record
+adds merchant settlement and point-of-sale data plus a modeled transfer from
+cash/debit users to credit-card users and toward higher-income households. The
+next test is a transaction ledger joining payment method, fee/reward, price,
+product choice, credit/overdraft, income, merchant margin, substitution,
+remedy, trust, and later behavior or exit; preserve observed merchant data
+versus modeled incidence and cash/debit/credit routes.

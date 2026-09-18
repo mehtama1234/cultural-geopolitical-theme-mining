@@ -2703,3 +2703,14 @@ trust, or political action; event-study exposure also includes concurrent
 announcement information. The next test is a same-respondent ledger joining
 information, prior beliefs, announcement perception, rate/credit terms, prices,
 borrowing/saving/spending, attribution, trust, and later action.
+
+The next payment-incidence rotation promotes the [payment-rewards
+redistribution trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER record
+adds merchant settlement and point-of-sale data plus a sufficient-statistics
+estimate of transfers from cash/debit users to credit-card users and toward
+higher-income households. The central dollar estimates remain modeled: the
+merchant platforms are not nationally representative household samples, and
+pass-through, sorting, rewards value, credit access, and welfare are not
+observed on one bill. The next test is a transaction ledger joining payment
+method, fee/reward, price, product choice, credit/overdraft, income, merchant
+margin, substitution, remedy, trust, and later behavior or exit.
