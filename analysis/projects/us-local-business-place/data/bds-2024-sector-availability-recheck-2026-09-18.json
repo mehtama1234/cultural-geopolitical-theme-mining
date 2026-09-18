@@ -1,0 +1,24 @@
+{
+  "audit_type": "bds-sector-release-availability-recheck-v1",
+  "checked": "2026-09-18",
+  "program": "Census Business Dynamics Statistics",
+  "directory_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/",
+  "directory_status": "official index lists 2018, 2019, 2020, 2021, 2022, and 2023 directories; no 2024 directory is listed",
+  "listed_years": [2018, 2019, 2020, 2021, 2022, 2023],
+  "probed_routes": [
+    {
+      "url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2024/",
+      "http_status": 404,
+      "interpretation": "No 2024 time-series directory was available at the official path on the check date."
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2024/bds2024_sec.csv",
+      "http_status": 404,
+      "content_type": "text/html",
+      "interpretation": "The guessed 2024 national sector CSV was not available at the official path."
+    }
+  ],
+  "available_2023_route": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_sec.csv",
+  "boundary": "This is a release/path availability result, not evidence that BDS 2024 does not exist elsewhere or that sector dynamics were unchanged. No 2023-to-2024 national sector comparison is promoted.",
+  "next_action": "Use the available BDS state/county-sector tables for a geography-by-sector realization pass, or defer the national second-period comparison until Census publishes an official 2024 table."
+}

@@ -3052,3 +3052,14 @@ ongoing aggregate distribution, Navient reports checks and an unchanged
 underlying loan obligation, and ADSS records two completed distributions with
 the matter closed. This adds current compensation-versus-restoration and
 closed-distribution boundaries, not recipient-level recovery results.
+
+**BDS release-availability recheck — 2026-09-18:** the official Census
+[time-series index](https://www2.census.gov/programs-surveys/bds/tables/time-series/)
+still lists 2018–2023 directories only; the direct 2024 directory and guessed
+2024 national sector CSV both returned 404. The [machine recheck](projects/us-local-business-place/data/bds-2024-sector-availability-recheck-2026-09-18.json)
+and [memo](projects/us-local-business-place/bds-2024-sector-availability-recheck-2026-09-18.md)
+preserve this as a release/path boundary, not a substantive null. Do not
+promote the 2023 national BDS baseline into a 2023→2024 comparison. The next
+BDS action is an available state/county-sector table with explicit geography,
+sector, denominators, and a counterexample, or a return to the dated event
+ledger if geographic comparability cannot be established.

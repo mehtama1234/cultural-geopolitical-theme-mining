@@ -2076,3 +2076,12 @@ BrightSpeed remains ongoing distribution, Navient reports checks without
 reducing the affected loans, and ADSS records two completed distributions with
 the matter closed. Recipient receipt, correction, remaining loss, trust, and
 exit remain open.
+
+The [BDS 2024 sector availability recheck](projects/us-local-business-place/bds-2024-sector-availability-recheck-2026-09-18.md)
+tested the next non-authenticated local-business depth step. Census's official
+time-series index exposes 2018–2023 but not a 2024 directory, and the direct
+2024 directory/sector-file probes returned 404. This prevents a defensible
+2023→2024 national sector comparison at the current source path; it does not
+mean 2024 dynamics were unchanged or absent. The 2023 realized firm/job layer
+remains a baseline, while the next executable route is state/county-sector
+geography with comparable denominators or a dated event ledger.
