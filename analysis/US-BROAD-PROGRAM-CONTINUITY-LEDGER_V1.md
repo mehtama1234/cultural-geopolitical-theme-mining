@@ -1836,3 +1836,13 @@ fuel exposure, income/hours, vehicle/route, substitution, financing,
 employment/pay, customer access, public response, trust, action, and recovery;
 preserve constructed-index, receipt-panel, firm-survey, national/regional,
 income, and size boundaries.
+
+The next communication/mechanism rotation promotes the [monetary-policy
+information-treatment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER
+record adds a September 2025 Federal Reserve announcement comparison across a
+hypothetical vignette, randomized information treatment, repeated cross-section,
+and balanced panel. The next test is a same-respondent ledger joining
+information, prior beliefs, announcement perception, rate/credit terms, prices,
+borrowing/saving/spending, attribution, trust, and later action; preserve
+vignette, RCT, event-study, awareness, perception, and expectation-versus-
+behavior boundaries.

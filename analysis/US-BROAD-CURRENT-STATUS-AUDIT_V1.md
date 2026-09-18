@@ -2691,3 +2691,15 @@ firm survival, or causal policy effect is observed. The next test is a
 household/firm event ledger joining fuel exposure, income/hours, vehicle/route,
 substitution, financing, employment/pay, customer access, public response,
 trust, action, and recovery.
+
+The next communication/mechanism rotation promotes the [monetary-policy
+information-treatment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The NBER
+record adds a September 2025 Federal Reserve announcement comparison across a
+hypothetical vignette, randomized information treatment, repeated cross-section,
+and balanced panel. Prior awareness materially changes the randomized response,
+while the vignette is much larger than the RCT and event-study estimates. The
+record does not convert expectations into realized spending, debt, saving,
+trust, or political action; event-study exposure also includes concurrent
+announcement information. The next test is a same-respondent ledger joining
+information, prior beliefs, announcement perception, rate/credit terms, prices,
+borrowing/saving/spending, attribution, trust, and later action.
