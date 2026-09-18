@@ -3030,7 +3030,8 @@ exit. It therefore advances the response stage without qualifying the
 same-case promotion gate.
 
 The [named redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
-also refreshes two formal remedy comparators: BrightSpeed still reports an
-ongoing aggregate distribution, while Navient reports checks and an unchanged
-underlying loan obligation. This adds a current compensation-versus-
-restoration boundary, not a recipient-level recovery result.
+also refreshes three formal remedy comparators: BrightSpeed still reports an
+ongoing aggregate distribution, Navient reports checks and an unchanged
+underlying loan obligation, and ADSS records two completed distributions with
+the matter closed. This adds current compensation-versus-restoration and
+closed-distribution boundaries, not recipient-level recovery results.

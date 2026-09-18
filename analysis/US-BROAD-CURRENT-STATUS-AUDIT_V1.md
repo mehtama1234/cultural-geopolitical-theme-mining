@@ -2912,7 +2912,9 @@ not lived remedy; amount, issuance, receipt, correction, remaining loss, trust,
 switching, and exit remain unknown.
 
 The [named CFPB redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
-refreshes BrightSpeed and Navient: BrightSpeed remains an ongoing aggregate
-distribution, while Navient reports checks to affected consumers but explicitly
-does not reduce the underlying loans. These sharpen compensation-versus-
-restoration without establishing individual receipt or recovery.
+refreshes BrightSpeed, Navient, and ADSS: BrightSpeed remains an ongoing
+aggregate distribution, Navient reports checks to affected consumers but
+explicitly does not reduce the underlying loans, and ADSS records two completed
+distributions with the matter closed. These sharpen compensation-versus-
+restoration and closed-distribution boundaries without establishing individual
+receipt or recovery.

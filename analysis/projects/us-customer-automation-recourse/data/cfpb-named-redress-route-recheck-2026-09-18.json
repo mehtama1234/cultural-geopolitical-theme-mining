@@ -18,8 +18,21 @@
       "status": "February 13, 2026 – Ongoing",
       "page_last_modified": "2026-02-13",
       "payment_statement": "Affected consumers are receiving a check; payments do not change or reduce affected student loans."
+    },
+    "adss": {
+      "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/american-debt-solutions/",
+      "html_sha256": "4cdc377528f074a83fa1bba12fa84d793682e719477a8fd74906ee98453fdaf2",
+      "status": "Closed",
+      "administrator": "Epiq Systems, Inc.",
+      "eligible_consumer_statement": "Eligible consumers harmed by ADSS's unlawful practices received compensation from the CFPB.",
+      "distribution_windows": [
+        "May 21, 2014 – December 09, 2015: First distribution",
+        "March 04, 2016 – June 02, 2016: Second distribution"
+      ],
+      "reissue_statement": "Payments and check reissue requests are no longer being honored.",
+      "page_last_modified": "2023-05-16"
     }
   },
-  "interpretation": "The current official pages preserve aggregate or reported distribution stages, but do not provide recipient-level issuance, receipt, amount, correction, remaining loss, trust, switching, or exit.",
+  "interpretation": "The current official pages preserve aggregate, reported, or closed distribution stages, but do not provide recipient-level issuance, receipt, amount, correction, remaining loss, trust, switching, or exit.",
   "storage_note": "Only page hashes and compact status fields are retained; no administrator or recipient-level data was downloaded."
 }

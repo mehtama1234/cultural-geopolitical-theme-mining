@@ -277,6 +277,9 @@ matter is closed and check reissue requests are no longer honored. This is
 evidence that a distribution can reach a documented closed state, but the page
 does not provide a person-level receipt file, payment amount distribution,
 remaining loss, or later financial behavior. See the [ADSS payment record](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/payments-by-case/american-debt-solutions/).
+The [current named-route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
+preserves the page hash and this closed-stage boundary alongside the current
+BrightSpeed and Navient routes.
 
 The comparison prevents a common error: reading an enforcement order,
 administrator listing, or aggregate harm amount as proof that a particular
