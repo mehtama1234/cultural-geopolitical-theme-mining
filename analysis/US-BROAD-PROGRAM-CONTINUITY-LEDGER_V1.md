@@ -986,6 +986,11 @@ then places social connection beside institution-specific confidence while
 preserving March and July as separate cross-sectional releases. It adds a
 cross-scale measurement bridge, not a pooled social-isolation or distrust
 estimate.
+The [HTOPS fraud-loss-following-trust record](records/us-htops-fraud-loss-following-trust-2025.json)
+now supplies the machine-readable provenance for the institution-specific
+follow-up: exact SCRAMID linkage, non-equivalent subgroup counts, coded-response
+limits, selective retention, and the 11-person loss/report/recovery boundary
+remain explicit rather than being converted into a causal trust estimate.
 The [HTOPS fraud-loss follow-up trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds an exact same-respondent exposure-to-loss-to-later-context route.
 It strengthens the distinction between exposure, realized burden, reporting,
