@@ -1035,6 +1035,13 @@ The case is not adjudicated and provides no auction logs, seller margins,
 product prices, purchases, returns, firm survival, or household denominator.
 This adds a new firm-to-household distribution mechanism while preserving the
 separate seller, product, and consumer clocks.
+
+The next infrastructure rotation adds the [Virginia large-load governance finding](projects/ai-work-control/findings/ai-work-control-096.md).
+The SCC record places reported Dominion load-drop events beside GS-5 demand and
+contract rules and a modeled reduction in the typical residential Rider T1
+increase. It strengthens the observable state-response stage while leaving
+actual bills, facility exposure, reliability, public-cost recovery, local
+burden, and legitimacy open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
