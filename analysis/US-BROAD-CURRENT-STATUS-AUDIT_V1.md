@@ -2280,3 +2280,13 @@ identifies a compact same-release route combining social connection, community
 engagement, arts, material pressure, food, work, energy, and transportation.
 No spreadsheet or PUF was downloaded; corrected-vintage, unit, denominator,
 uncertainty, and estimand checks remain prerequisites.
+
+The new [Doxo bill-payment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes an already-reviewed FTC case into the canonical trend register. It
+adds a named household-payment route in which search visibility and alleged
+affiliation confusion may precede add-on fees, recurring charges, and a formal
+redress/control response. The internal heavy-user survey and complaint volume
+are not representative household rates, and the public record does not show
+episode-level payment success, bill status, service continuity, redress receipt,
+or switching. This strengthens the service/recourse lane without claiming
+household incidence or practical recovery.

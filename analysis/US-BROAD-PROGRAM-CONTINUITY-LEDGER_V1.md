@@ -1357,6 +1357,15 @@ verify corrected weights, compatible units, table denominators, uncertainty,
 and lawful linkage before connecting material pressure to social or cultural
 participation.
 
+The next consumer-recourse rotation promotes the [Doxo bill-payment trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The FTC complaint and August 2026
+settlement-stage materials expose a named search-to-payment route, alleged
+affiliation confusion, add-on fees, recurring charges, and prospective
+disclosure/redress controls. They do not expose representative household
+incidence, payment success, bill status, service continuity, individual redress
+receipt, or switching; the route remains an institutional case and acquisition
+specification rather than a household hardship rate.
+
 The next household-energy rotation adds the [SIPP utility-to-work finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md).
 Same-person month-to-next-month pairs place utility-payment difficulty and
 energy-assistance status beside earnings and hours movement with Fay–BRR
