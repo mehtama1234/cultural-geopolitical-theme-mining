@@ -1,6 +1,6 @@
 # US broad program next-pass queue v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
 
@@ -3001,3 +3001,14 @@ The new [detailed VRURC implementation finding](projects/us-marketplace-product-
 promotes this bridge into the canonical trend registry while preserving the
 same boundary; it does not convert firm-reported correction into consumer
 recovery.
+
+**CPSC one-key route recheck — 2026-09-18:** the current official MPR download
+was retrieved transiently and filtered only to recall key `23-238`. The `MPR`
+sheet and row schema were verified, and the row exactly reproduced the retained
+August 21, 2026 snapshot; no newer VRURC progress vintage was exposed by this
+route. The [machine recheck](projects/us-marketplace-product-safety/data/cpsc-vrurc-recall-key-recheck-2026-09-18.json)
+now closes the source-availability and vintage-stability question while
+leaving purchaser notice, replacement receipt, safe restoration, residual
+cost, trust, switching, and exit open. The next qualifying extension remains
+a lawful consumer-level or linked implementation ledger, not another aggregate
+MPR refresh.

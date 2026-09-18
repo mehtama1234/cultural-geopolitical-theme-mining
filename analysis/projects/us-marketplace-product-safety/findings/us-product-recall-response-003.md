@@ -75,10 +75,11 @@ present and describes MPRs as firm-submitted data on recall-remedy progress.
 The CPSC recall page also warns that recall-remedy data may change daily as
 company operating status or remedy availability changes. The compact VRURC
 bridge retained here remains specifically an **August 21, 2026 workbook
-snapshot**; the live availability of the workbook does not silently update the
-stored VRURC counts. A future refresh must retrieve the workbook, verify its
-vintage and row schema, then recheck recall key `23-238` before replacing the
-snapshot.
+snapshot**. A current route recheck retrieved the official download, verified
+the `MPR` sheet and row schema, and reproduced the same `23-238` row exactly.
+The [recheck record](../data/cpsc-vrurc-recall-key-recheck-2026-09-18.json)
+preserves the current workbook hash, row number, and result; it does not turn
+source-vintage stability into a newer progress observation.
 
 This route recheck strengthens source availability, not the consumer outcome:
 notice reach, contact, replacement receipt, safe restoration, residual cost,
@@ -156,6 +157,7 @@ Related evidence:
 - [Current CPSC remedy-design finding](us-product-recall-response-002.md)
 - [Recall-key bridge audit](../data/cpsc-vrurc-recall-key-bridge-2026-09-17.json)
 - [MPR bounded sample](../data/cpsc-mpr-bounded-sample-2026-08-21.json)
+- [Current-workbook recall-key recheck](../data/cpsc-vrurc-recall-key-recheck-2026-09-18.json)
 
 **Evidence status:** one dated product-level hazard-to-implementation bridge is
 verified; purchaser exposure, remedy receipt, safe restoration, residual cost,

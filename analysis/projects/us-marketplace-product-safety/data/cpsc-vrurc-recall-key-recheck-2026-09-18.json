@@ -1,0 +1,26 @@
+{
+  "audit_type": "cpsc-recall-key-current-workbook-recheck-v1",
+  "checked": "2026-09-18",
+  "recall_key": "23-238",
+  "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+  "source_page": "https://www.cpsc.gov/Data/Monthly-Progress-Reports",
+  "coverage": "Recalls August 1, 2022 to present",
+  "workbook_sha256": "0d5534f0c1ebf4b195fcb4f6a6b376dbd47ed9a49653df61235eaeeb67e3ad128",
+  "sheet": "MPR",
+  "row_number": 40,
+  "workbook_vintage": "Most up-to-date data as of August 21, 2026",
+  "row": {
+    "notice_date": "2023-07-06",
+    "products_recalled": 256845,
+    "manufacturer_corrected": 0,
+    "distributor_corrected": 0,
+    "retailer_corrected": 330,
+    "consumer_corrected": 64963,
+    "total_corrected": 65293,
+    "consumer_percent_reported": 0.29,
+    "total_percent_reported": 0.25
+  },
+  "recheck_result": "The live official download was retrieved and the recall-key row reproduces the retained August 21, 2026 snapshot exactly; no newer VRURC progress vintage was exposed by this route.",
+  "interpretation": "This confirms current route availability and source-vintage stability, not purchaser notice, replacement receipt, safe restoration, residual cost, trust, switching, or exit.",
+  "storage_note": "The raw workbook was used transiently for one-key filtering and is not retained in the repository."
+}
