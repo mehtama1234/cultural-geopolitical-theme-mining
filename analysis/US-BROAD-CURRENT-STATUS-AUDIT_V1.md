@@ -1829,6 +1829,13 @@ replaceability, domestic autonomy, or leverage; identifier-bearing production,
 customer/partner use, substitute qualification, maintenance, and external
 response remain open.
 
+The [bulk-power security record](records/us-eo-14421-bulk-power-security-2026.json)
+adds a dated federal security-governance surface. Executive Order 14421 names
+foreign equipment and remote-access risks and authorizes possible restriction,
+monitoring, replacement, and vendor prequalification; DOE's RFI adds a
+stakeholder-input stage. No affected vendor, transaction, replacement cost,
+reliability, rate, outage, household, or geopolitical outcome is observed.
+
 The [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md)
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside

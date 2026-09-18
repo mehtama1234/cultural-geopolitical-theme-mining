@@ -1369,3 +1369,11 @@ distribution and reissue visible across payment processing and credit
 marketing, while individual receipt, restored opportunity, alternatives,
 survival, trust, and exit remain open. The comparison extends the remedy
 implementation lane without pooling unlike claimant populations.
+
+The next infrastructure/geopolitical rotation adds the [bulk-power security trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md).
+Executive Order 14421 and DOE's implementation RFI make federal authority,
+security risk surfaces, and stakeholder-input categories visible, but not
+covered-equipment determinations, replacement, cost, reliability, household
+service, or geopolitical leverage. The route preserves policy intent,
+implementation, essential-service incidence, and external consequence as
+separate stages.
