@@ -1787,6 +1787,16 @@ response, substitution, correction/remedy, work/consumption, trust, and
 recovery; preserve report dates, aggregate units, selected subgroups, and
 judgment-versus-outcome boundaries.
 
+The next public-capacity rotation promotes the [public-financial-capacity
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Its non-pooled record places BEA
+growth and profits, Federal Reserve system and household conditions, New York
+Fed aggregate debt, OFR analytical capacity, IMF fiscal projections, and SHED
+liquidity/credit pressure in adjacent stages. The next test is a same-episode
+ledger joining income or profit, price and credit terms, public rule or
+monitoring, payment/liquidity, service or investment outcome, institutional
+response, trust, action, and recovery; preserve aggregate, projected,
+institutional-workforce, selected-borrower, and household units.
+
 The next distributional macro rotation promotes the [New York Fed
 economic-heterogeneity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The EHI
 record adds constructed demographic inflation gaps, employed-worker earnings

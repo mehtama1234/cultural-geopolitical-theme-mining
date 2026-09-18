@@ -2633,6 +2633,17 @@ labor, consumption, and relatively tight credit for small businesses and
 households. These are monitoring judgments and aggregate conditions, not a
 household welfare, firm-incidence, or causal shock estimate.
 
+The next public-capacity rotation promotes the [public-financial-capacity
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Its non-pooled record places BEA
+growth and profits, Federal Reserve system and household conditions, New York
+Fed aggregate debt, OFR analytical capacity, IMF fiscal projections, and SHED
+liquidity/credit pressure in adjacent stages. These do not form a financial-
+health index or causal chain: the units include national accounts, institutional
+reports, regulator staffing, projections, aggregate credit, and respondents.
+The next test is a same-episode ledger joining income or profit, price and
+credit terms, public rule or monitoring, payment/liquidity, service or
+investment outcome, institutional response, trust, action, and recovery.
+
 The next distributional macro rotation promotes the [New York Fed
 economic-heterogeneity trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The EHI
 record adds constructed demographic inflation gaps, employed-worker earnings
