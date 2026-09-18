@@ -1653,6 +1653,15 @@ market-transition or household result.
   prevention cell has 12 pairs, so this is a joint-constraint diagnostic, not
   a causal utility or care result; the canonical record preserves the timing
   and denominator boundary in the [trend registry](records/us-sipp-utility-care-following-outcomes-2024.json).
+- **SIPP utility/care renter-insecurity trend:** the utility/care bridge is now
+  promoted as trend #121. Among renter reference-parent pairs with utility
+  difficulty, prevention-positive pairs show higher following mortgage/rent
+  hardship, food insecurity, and resource-band movement than prevention-negative
+  pairs, but the prevention-positive cell has only 12 pairs and wide intervals.
+  The annual care field is not a newly observed December event, utility
+  difficulty is not a dated bill or shutoff, and the result does not estimate a
+  utility, childcare, tenure, assistance, recovery, remedy, trust, or political-
+  action effect.
 - **SIPP utility-to-work timing screen:** the [bounded utility-difficulty and
   assistance finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md)
   places payment difficulty or energy assistance beside the same person's

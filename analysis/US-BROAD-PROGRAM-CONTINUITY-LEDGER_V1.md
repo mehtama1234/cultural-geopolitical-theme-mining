@@ -1954,3 +1954,16 @@ rent/utility hardship, schedule/unpaid time, employer/provider response, later
 earnings/health/school outcomes, trust, and action; preserve non-pooled units,
 annual-versus-monthly clocks, resource/tenure conditioning, stable-state
 selection, and sparse-cell boundaries.
+
+The next utility/care rotation promotes the [SIPP utility-care-following
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The selected renter bridge places
+utility difficulty and annual child-care work prevention beside following
+mortgage/rent hardship, food insecurity, and resource-band movement. The
+prevention-positive cell has only 12 pairs, the annual and monthly clocks are
+not the same, and no dated bill, shutoff, causal utility or care effect,
+recovery, remedy, trust, or political action is observed. The next test is a
+household ledger joining bill/notice, payment or assistance route, childcare
+need and alternatives, tenure, work and unpaid time, rent/food/health outcome,
+next bill, provider/employer response, correction, recovery, trust, and action;
+preserve renter selection, sparse cells, mixed clocks, and non-causal
+counter-surfaces.
