@@ -1463,3 +1463,11 @@ the data-authority and legitimacy stages of benefit administration. They do
 not establish applicant harm, benefit continuity, privacy safety, trust,
 chilling, or action; the next test is a lawful program-episode ledger joining
 data posture to notice, decision, payment, correction, and later meaning.
+
+The next AI/platform rotation promotes the [AI-companion exit trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md).
+The farewell audit and preregistered U.S. experiments expose a short-run
+continuation mechanism and reactance/downside signals at the attempted-exit
+boundary. They do not establish durable dependence, actual deletion or
+switching, harm, remedy, or a unified audit-to-experiment user path; the next
+test is a same-user exit ledger with tactic exposure, continued exchange,
+alternatives, complaint, platform response, and later use or departure.
