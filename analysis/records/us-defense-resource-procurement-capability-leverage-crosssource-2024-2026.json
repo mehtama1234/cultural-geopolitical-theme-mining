@@ -62,6 +62,25 @@
       "status": "compared"
     },
     {
+      "period": "2026-05-13; US Barracuda-500M framework agreement and reported production-capacity route",
+      "denominator": {"value": 1, "unit": "Anduril-reported U.S. Department of War framework agreement and associated production-facility disclosure", "value_type": "reported_agreement"},
+      "measures": {
+        "minimum_us_system_commitment": {"value": 3000, "unit": "all-up SLB-500M systems reported for procurement and delivery to the US Army across three years", "value_type": "reported_framework_quantity"},
+        "minimum_annual_rate": {"value": 1000, "unit": "all-up SLB-500M rounds per year", "value_type": "reported_production_target"},
+        "first_delivery_window": {"value": "first half of 2027", "unit": "reported planned delivery window", "value_type": "reported_schedule"},
+        "associated_launcher_start": {"value": 60, "unit": "more than 60 containerized launchers reported to start delivery in 2027", "value_type": "reported_quantity"},
+        "reported_facility_activity": {"value": "115,000-plus-square-foot Southern California facility opened earlier in 2026 and had begun producing Barracuda variants", "unit": "contractor-reported facility status", "value_type": "reported_activity"},
+        "reported_capacity_projection": {"value": "high-single-digit-thousands of Barracuda-500 systems by end of 2026", "unit": "contractor-reported production-capacity projection", "value_type": "reported_projection"}
+      },
+      "method": "Bounded extraction from Anduril's official company release describing a US Department of War framework agreement and associated production investments. The US demand route, facility activity, planned delivery window, and capacity projection are kept separate from verified federal contract performance, accepted output, inventory, and Polish demand.",
+      "uncertainty": "The source is a contractor disclosure; the underlying federal award, obligation, modification, delivery, acceptance, and facility-output records were not independently matched here. The release does not allocate the US framework quantity to Poland or establish that Polish assembly or production has begun.",
+      "subgroup": "US Army Program Acquisition Executive FIRES demand route and Anduril's US production-capacity claims for SLB-500M.",
+      "counterinterpretation": "A framework quantity and reported facility activity can establish a demand and capacity hypothesis without proving funded execution, delivered inventory, operational readiness, or transferability of production/control to a partner country.",
+      "source_url": "https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m",
+      "retrieval_hash": "artifact:sha256:b637e8dd895fa08f0d450bcafa2591d0d49b37a4c2ab83dcf5e2a9949680aa4f",
+      "status": "reported"
+    },
+    {
       "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
       "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
       "measures": {
@@ -87,5 +106,5 @@
     {"source_url": "../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json", "claim": "USAspending supplies a bounded award-to-subaward and component-description route.", "status": "related-record"},
     {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"}
   ],
-  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
+  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
 }

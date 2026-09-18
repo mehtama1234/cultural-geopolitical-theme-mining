@@ -102,6 +102,14 @@ of active implementation work than a press announcement alone, but it still
 does not report a Polish purchase order, signed licence, commissioned line,
 completed unit, acceptance, delivery, or fielding.
 
+The separate US demand route is more concrete but remains a different unit:
+Anduril reports a US framework agreement for at least 3,000 SLB-500M systems
+over three years, a minimum 1,000-round annual rate, and first deliveries in
+the first half of 2027. The same release reports a producing Southern
+California facility. This strengthens the existence of a US production-demand
+hypothesis, but it does not establish a Polish order, a Polish allocation,
+license, transfer of work, or Polish output.
+
 ## Next acquisition gate
 
 The next check should seek a dated document from PGZ, WZL-2, Anduril, the
@@ -133,6 +141,7 @@ framing should remain a separate evidence type.
 - [Polish Sejm: Barracuda-500M procurement-information interpellation](https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK)
 - [Polish Sejm API: official response to Interpelacja 18336](https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body)
 - [Normalized response excerpt and hash](../data/sejm-barracuda-interpellation-18336-response-2026-08-26.txt)
+- [Anduril: US Barracuda-500M framework and production disclosure](https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m)
 
 **Evidence status:** public-source realization watchpoint; implementation
 terms and production targets are documented, while assembly, commissioning,

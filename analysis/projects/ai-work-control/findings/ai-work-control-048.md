@@ -28,6 +28,7 @@ observed external actor changing behavior as a result.
 | Resource allocation | SIPRI estimates 2025 global military spending at $2.887T, US spending at $954B, Europe up 14% in real terms, and NATO at 55% of world spending. | Monetary estimates and alliance aggregates | Readiness, usable inventory, interoperability, household incidence, and strategic effect |
 | Fiscal/social trade-off | IMF reports a typical defense-boom increase of 2.7 percentage points of GDP, with 67% financed through deficits and public debt rising 7 points within three years in its cross-country analysis. | Historical cross-country estimates and conditional projections | Exact national budget composition, distribution, and political response |
 | Industrial award route | One USAspending parent-award extract contains 74 returned subaward records, 51 recipient names, and $1.143B in reported subordinate amounts. | Bounded federal subaward extract | Complete supply chain, ownership, facility, production, delivery, or supplier competition |
+| US Barracuda demand/capacity route | Anduril's May 2026 release reports a framework agreement for at least 3,000 SLB-500M systems over three years, a minimum 1,000-round annual rate, first deliveries in the first half of 2027, and a producing 115,000-plus-square-foot Southern California facility. | Contractor-reported framework and capacity disclosure | Independently verified federal obligation, delivery, acceptance, operational inventory, or transfer of this demand to Poland |
 | Foreign procurement | Poland's 2024 JASSM-ER agreement reports approximately $735M and a planned 2026–2030 delivery window. | Government procurement announcement | Delivery, acceptance, fielding, maintenance, and operational use |
 | Reciprocal/co-production stage | 2026 official announcements describe buyer/seller access, Poland-US-Estonia-Latvia Barracuda cooperation, assembly followed by production, technology/know-how language, a “thousands” target, and a broader $4B FMF agreement. | Agreements, plans, financing, and institutional follow-up | Commissioned line, completed units, local-content share, component control, replaceability, and regional customer behavior |
 
@@ -81,6 +82,17 @@ for industrial dependence. It is not a complete tier map, a legal-entity
 ownership analysis, or a measure of alternative suppliers. Repeated lots and
 reporting conventions can make a network look more or less diversified than
 the actual production system.
+
+### US demand is not Polish demand
+
+The Anduril Barracuda release adds a different stage: an announced US demand
+route and a contractor-reported production base. The minimum 3,000-system
+framework quantity, annual rate, first-delivery window, and facility disclosure
+make the US production hypothesis more concrete than a generic target. They
+remain contractor-reported and do not establish a matched federal award file,
+accepted inventory, or Polish demand. They also cannot be used to assume that
+the US order finances or guarantees Poland's later assembly and localization
+path.
 
 ### Co-production creates a testable autonomy claim
 
@@ -151,6 +163,8 @@ capability-to-response mechanism is documented.
 - [USAspending JASSM/LRASM subaward record](../../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json)
 - [Poland-US reciprocity/co-production record](../../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json)
 - [JASSM-ER procurement record](../../../records/us-jassm-er-poland-external-procurement-response-2024-2030.json)
+- [Anduril US Barracuda-500M framework and production disclosure](https://www.anduril.com/news/anduril-department-of-war-sign-production-agreement-for-surface-launched-barracuda-500m)
+- [Normalized US Barracuda evidence note](../data/anduril-us-barracuda-500m-framework-agreement-2026-05-13.txt)
 
 **Evidence status:** bounded resource-to-capability comparison; operational
 delivery, domestic incidence, replaceability, public reception, leverage, and
