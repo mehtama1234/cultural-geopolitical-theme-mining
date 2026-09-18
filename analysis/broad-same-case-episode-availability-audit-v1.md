@@ -40,7 +40,7 @@ separate.
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
-| Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, order-stage controls | Person-level payment success, bill status, service continuity, remedy receipt, trust, switching/exit |
+| Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, complaint-level payment-timing/service-risk consequences, order-stage controls | Person-level payment success, bill status or service continuity, remedy receipt, trust, switching/exit |
 | Grubhub multisided remedy program (1 reported program) | Aggregate checks/PayPal payments and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit |
 | VRURC portable-charger recall bridge (1 recall key) | Dated hazard notice, replacement instruction, later recall-level correction snapshot | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit |
 
@@ -57,7 +57,7 @@ reference-period and unknown statuses).
 | Responsible actor | 10 | 5 | 2 |
 | Alternative or non-use | 1 | 5 | 11 |
 | Effort, money, or time trade-off | 1 | 11 | 5 |
-| Adaptation or protected/sacrificed outcome | 2 | 5 | 10 |
+| Adaptation or protected/sacrificed outcome | 2 | 6 | 9 |
 | Institutional or firm response | 14 | 1 | 2 |
 | Verified remedy | 0 | 11 | 6 |
 | Meaning, trust, or action | 0 | 2 | 15 |
