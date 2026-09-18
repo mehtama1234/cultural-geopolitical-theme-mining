@@ -1377,3 +1377,11 @@ covered-equipment determinations, replacement, cost, reliability, household
 service, or geopolitical leverage. The route preserves policy intent,
 implementation, essential-service incidence, and external consequence as
 separate stages.
+
+The next disaster-recovery rotation adds the [firm/customer/resident recovery synthesis](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md).
+The causal emergency-loan design, Harvey firm/customer case, and Gulf Coast
+resident survey expose different recovery currencies—firm survival and jobs,
+customer distance and modeled welfare, and disruption, aid, and legitimacy.
+They are not pooled into a universal disaster effect; worker household
+security, owner recovery, affordable services, verified aid causality, and
+political response remain open.

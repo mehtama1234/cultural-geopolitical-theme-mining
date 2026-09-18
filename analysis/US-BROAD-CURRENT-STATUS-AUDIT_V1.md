@@ -1836,6 +1836,14 @@ monitoring, replacement, and vendor prequalification; DOE's RFI adds a
 stakeholder-input stage. No affected vendor, transaction, replacement cost,
 reliability, rate, outage, household, or geopolitical outcome is observed.
 
+The [disaster-recovery synthesis](projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md)
+now adds a non-pooled firm/customer/resident recovery comparison. The causal
+loan design reports lower firm exit and bankruptcy plus higher employment,
+revenue, private credit, and lower delinquency; Harvey evidence adds closure,
+customer travel distance, modeled welfare, and resident disruption/unmet-help
+surfaces. These do not establish worker household security, affordable service,
+owner recovery, aid causality, or political legitimacy.
+
 The [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md)
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside
