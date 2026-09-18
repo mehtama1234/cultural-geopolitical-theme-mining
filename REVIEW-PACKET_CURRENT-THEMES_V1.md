@@ -42,6 +42,7 @@ follows a distinct mechanism while stating its evidence boundary:
 - [AI can change work time before the record shows who controls it](analysis/projects/ai-work-control/findings/ai-work-control-094.md): randomized time and task effects, algorithmic-management monitoring, executive expectations, formal representation, and the open worker-control arrow.
 - [Insurance complaint recovery is not the same as keeping a home repairable](analysis/projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md): New York DFS complaint closure, reported recovery, availability governance, policy-exit reporting, and the open repair/stay/move chain.
 - [Capacity becomes geopolitical power only after an affected actor responds](analysis/projects/ai-work-control/findings/ai-work-control-095.md): JASSM-ER and data-center realization clocks, replaceability, affected actors, public incidence, and the missing external response.
+- [Disaster policy redistributes recovery, access, and legitimacy—not just liquidity](analysis/projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md): firm survival, owner buffers, customer access, resident fairness, and the open remedy/action chain.
 - [Practical exit observability audit](analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md): remedies across benefits, platforms, fraud, finance, insurance, local services, and product recalls.
 
 The common question across these deep dives is: what is actually protected,
