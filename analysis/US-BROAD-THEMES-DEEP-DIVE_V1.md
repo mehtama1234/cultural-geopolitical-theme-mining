@@ -302,6 +302,76 @@ an aggregate program can improve while access worsens for a subgroup; a person
 can report trust while retaining an exit option; a firm can grow while a local
 service disappears; a country can build capacity while remaining dependent.
 
+### 9.1 The newest cross-domain pattern: response is easier to observe than recovery
+
+The latest evidence makes one narrower proposition increasingly useful:
+**institutions are often able to record that they responded before the atlas
+can show that the affected person, worker, customer, owner, or resident was
+actually restored.** This is not a claim that responses are ineffective. It is
+a claim about the observable stages and about where broad narratives most
+often overreach.
+
+The pattern appears in at least six different systems:
+
+1. **Fraud and household loss.** The HTOPS follow-up distinguishes reported
+   scam exposure from realized loss, reporting, and a very small recovered
+   subgroup. Exposure is therefore not a household-loss rate, and a report is
+   not recovery. The later food, energy, work-loss, and trust fields widen the
+   context without supplying a verified remedy receipt or a practical exit.
+   Read the [fraud follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md)
+   and [counterexample finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md).
+
+2. **Product recalls.** The VRURC recall key joins a hazard and replacement
+   remedy to a later CPSC progress row with reported consumer corrections.
+   That is a meaningful implementation stage. The API and progress report use
+   different unit totals, however, and the public record does not identify
+   which exposed purchaser received a replacement, when safe use resumed, or
+   what residual cost remained. Firm-reported correction is not purchaser-level
+   recovery. Read the [recall implementation finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md).
+
+3. **AI-mediated work.** Time or output can change before the record shows who
+   controls the schedule, task allocation, monitoring, evaluation, or appeal.
+   The current AI work-control route separates randomized time effects,
+   algorithmic-management monitoring, executive expectations, representation,
+   and formal remedy. These are not interchangeable currencies: a worker may
+   save time while losing discretion, or receive an order while lacking a
+   durable alternative. Read the [AI work-control endpoint audit](projects/ai-work-control/findings/ai-work-control-094.md)
+   and [Rehman remedy record](projects/ai-work-control/findings/ai-work-control-091.md).
+
+4. **Insurance and housing.** A New York DFS complaint can be closed and a
+   reported recovery can be visible without showing that a household could
+   complete repairs, remain insured, stay in place, or avoid a move. Complaint
+   closure is an institutional endpoint; repairability and secure residence
+   are lived endpoints. Read the [insurance recovery finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md).
+
+5. **Disaster and firm recovery.** Disaster-liquidity research can show firm
+   survival, employment, revenue, credit, and delinquency improvements, while
+   owner-household consumption, worker pay, customer access, and resident
+   fairness remain separate questions. A recovered firm is not automatically a
+   recovered community. Read the [disaster recovery synthesis](projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md).
+
+6. **Eligibility and opportunity.** Expanding a small-business size boundary
+   can reallocate procurement eligibility and contract opportunity toward
+   larger firms, while the downstream effect on small-firm survival, wages,
+   local customers, and owner households remains open. Administrative reach or
+   eligibility is therefore not the same as broadly distributed opportunity.
+   Read the [size-rule finding](projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md).
+
+Taken together, these cases support a disciplined interpretation of the
+current societal trend: **modern systems are becoming better at producing
+formal response records, but the conversion from response to usable recovery,
+control, or exit remains uneven and hard to observe.** That proposition spans
+consumer protection, labor, housing, disaster policy, and procurement without
+pretending that the six sources share a denominator or a causal design.
+
+The missing fields are remarkably consistent: exposed or affected unit,
+usable alternative, effort and time cost, receipt or completion, protected or
+sacrificed outcome, remaining loss, later trust or meaning, and switching,
+non-use, or exit. A future result should be promoted only when it observes
+enough of those fields for one episode or a valid matched design. Until then,
+the right conclusion is a stage-specific finding plus an explicit recovery
+boundary.
+
 ## Current research discipline
 
 The next empirical artifact should close at least one adjacent arrow through a
