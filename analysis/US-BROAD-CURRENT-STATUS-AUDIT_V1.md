@@ -2147,15 +2147,17 @@ pay, bargaining power, employer permission, trust, or political action. A
 same-worker longitudinal route remains open.
 
 The [material-to-political-friction finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-031.md)
-adds a non-pooled meaning/action counterexample. Earlier job loss and
-insurance status align with lower later contact or local action while Congress
-approval does not move in one uniform direction; expense difficulty aligns
-differently with confidence in federal statistical agencies and Congress; and
-the linked fraud panel separates exposure from realized loss and later
-material response. These surfaces show that capacity to act, institutional
-judgment, contact, and collective action are different currencies. They do not
-establish a hardship-to-distrust or hardship-to-vote path; dated exposure,
-attribution, remedy, recovery, and later action remain open.
+adds a non-pooled meaning/action counterexample. In the retained CCES panel,
+reported job loss is followed by 23.93% local political action versus 31.57%
+without reported loss, and no-insurance status by 21.81% versus 32.48%, while
+favorable Congress approval is 13.86% versus 10.06% and 11.51% versus 10.23%
+respectively. Expense difficulty aligns differently with confidence in federal
+statistical agencies and Congress, and the linked fraud panel separates
+exposure from realized loss and later material response. These surfaces show
+that capacity to act, institutional judgment, contact, and collective action
+are different currencies. They do not establish a hardship-to-distrust or
+hardship-to-vote path; dated exposure, attribution, remedy, recovery, and later
+action remain open.
 
 The [March 2026 HTOPS social-connection finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md)
 adds a cultural counterexample to contact-only accounts of material strain.
