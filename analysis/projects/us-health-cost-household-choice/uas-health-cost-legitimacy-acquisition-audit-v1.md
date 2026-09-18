@@ -103,6 +103,28 @@ first, then test `uasid` structure, wave timing, weights, missingness, and
 event/outcome overlap before considering the broader Monthly Panel or UAS
 537/698 modules.
 
+### Public Older Ages codebook recheck — 2026-09-18
+
+The publicly linked Older Ages codebook confirms the first-run audit contract:
+the panel has 52 waves, 5,426 respondents who completed at least one wave, and
+one row per `uasid` × `wave`. It identifies `final_weight`, `yrmo_covered`,
+`yrmo_fielded`, and `uas_surv_num` as panel metadata; `uasid` is the stable
+person key, while `survhhid` is survey-specific and may change when a person
+moves between households. The codebook also documents `.z`, `.a`, `.e`, and
+`.t` missing-value meanings, so missingness cannot be collapsed into ordinary
+zero or no-event values.
+
+For the event-first route, the codebook confirms dated illness/injury and
+financial-setback blocks (`le001`/`le011_1_` and `le009`/`le011_9_`), selected
+repeat-event confirmation fields, and medical-expenditure measures including
+out-of-pocket medical, hospital, doctor, dental, and other-medical amounts.
+It separately lists next-wave candidates for health, life satisfaction, pain,
+employment, hours, and earnings. This confirms that the repository's minimum
+field manifest matches the public documentation; it still does not establish
+actual file overlap, observed value domains, usable weights after filtering,
+or a verified remedy, trust, action, or recovery endpoint. The dataset remains
+registration-gated and no respondent data were downloaded.
+
 ### Overall-workspace retention search — 2026-09-17
 
 Before treating registration-gated access as the only explanation for the
