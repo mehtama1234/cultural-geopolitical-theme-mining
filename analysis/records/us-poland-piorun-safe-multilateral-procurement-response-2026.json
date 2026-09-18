@@ -42,6 +42,41 @@
       "status": "reported"
     },
     {
+      "period": "2026-08-24; MESKO framework scale and delivery horizon",
+      "denominator": {"value": 1, "unit": "MESKO account of the EDIRPA VSHORAD framework agreement", "value_type": "company_reported_framework_account"},
+      "measures": {
+        "reported_missile_scope": {"value": "several thousand Piorun missiles", "unit": "reported framework quantity class", "value_type": "reported_target"},
+        "reported_launcher_scope": {"value": "several hundred Piorun launchers", "unit": "reported framework quantity class", "value_type": "reported_target"},
+        "planned_framework_value": {"value": 8000000000, "unit": "Polish zloty net; planned value of executive contracts reported by MESKO", "value_type": "reported_amount"},
+        "planned_delivery_horizon": {"value": 2030, "unit": "calendar year; reported end of delivery horizon", "value_type": "reported_schedule"},
+        "polish_force_share": {"value": 80, "unit": "percent or more of missiles and launchers stated as intended for Polish Armed Forces", "value_type": "reported_share"}
+      },
+      "method": "Bounded extraction from MESKO's official company account of the 2026-08-24 EDIRPA VSHORAD framework. The source adds quantity classes and a delivery horizon to the government-reported framework, but remains a company-reported agreement-stage account.",
+      "uncertainty": "The source does not provide country-by-country quantities, lot dates, payment or obligation schedules, acceptance criteria, completed deliveries, or the SAFE-funded incremental production actually assigned to this framework. Several thousand and several hundred are intentionally retained as quantity classes rather than converted to point estimates.",
+      "subgroup": "MESKO/PGZ EDIRPA VSHORAD framework for Poland, Lithuania, Latvia, and Norway.",
+      "counterinterpretation": "A stated 2030 horizon can indicate a long implementation runway without proving that contracts will be fully exercised, delivered on schedule, accepted, or operationally available.",
+      "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
+      "retrieval_hash": "artifact:sha256:56b1dd903e9e00a631f887c050a1c736acf496d6822a4c8d18293ad7481b8771",
+      "status": "reported"
+    },
+    {
+      "period": "2026-08-24; MESKO/PGZ reported production-capacity context",
+      "denominator": {"value": 1, "unit": "MESKO/PGZ public capacity statement", "value_type": "company_reported_capacity_statement"},
+      "measures": {
+        "earlier_annual_capacity": {"value": 300, "unit": "Piorun missiles per year; reported earlier capability", "value_type": "reported_capacity"},
+        "current_annual_capacity": {"value": 1500, "unit": "Piorun missiles per year; reported current capability", "value_type": "reported_capacity"},
+        "ambition_annual_capacity": {"value": 2000, "unit": "Piorun missiles per year; reported ambition is above this level", "value_type": "reported_target"},
+        "capacity_multiplier_claim": {"value": 5, "unit": "reported approximate multiple from earlier to current capacity", "value_type": "reported_comparison"}
+      },
+      "method": "Bounded extraction from MESKO's official company account. Capacity statements are retained as reported industrial context and are not treated as independently audited output, plant throughput, or SAFE-attributable production.",
+      "uncertainty": "The source does not define the earlier and current measurement windows, plant boundary, product configuration, utilization rate, critical-input constraints, accepted output, or allocation across Polish and foreign customers. The ambition above 2,000 is a target, not realized capacity.",
+      "subgroup": "MESKO/PGZ Piorun production capacity in the Polish defense-industrial base.",
+      "counterinterpretation": "Higher stated capacity may improve the ability to absorb demand while leaving bottlenecks, input dependence, delivery sequencing, and effective customer access unresolved.",
+      "source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy",
+      "retrieval_hash": "artifact:sha256:56b1dd903e9e00a631f887c050a1c736acf496d6822a4c8d18293ad7481b8771",
+      "status": "reported"
+    },
+    {
       "period": "2026-01-16 and 2026-09-09; Lithuanian procurement and supply-chain confirmation",
       "denominator": {"value": 2, "unit": "two Lithuanian Ministry of National Defence records concerning Piorun acquisition and Poland-Lithuania supply-chain cooperation", "value_type": "documented_external_follow_up_set"},
       "measures": {
@@ -93,7 +128,8 @@
     {"source_url": "../../records/us-poland-safe-legislative-domestic-contracting-action-2026.json", "claim": "The SAFE contracting record supplies the broader Polish legislative and domestic-industry allocation stage.", "status": "related-record"},
     {"source_url": "https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe", "claim": "MON supplies the Piorun SAFE framework, scope, value, and named allied-user route.", "status": "primary-source"},
     {"source_url": "https://www.gov.pl/web/premier/polski-przemysl-obronny-przyspiesza-dzieki-safe", "claim": "The Prime Minister's Office supplies the first executive-contract and reported allied procurement response.", "status": "primary-source"},
-    {"source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/", "claim": "Lithuanian MoD supplies external procurement-stage corroboration and an approximate Lithuanian-side value.", "status": "primary-source"}
+    {"source_url": "https://kam.lt/en/polish-defence-minister-and-i-have-agreed-on-collaboration-with-the-establishment-of-kapciamiestis-training-area-says-r-kaunas/", "claim": "Lithuanian MoD supplies external procurement-stage corroboration and an approximate Lithuanian-side value.", "status": "primary-source"},
+    {"source_url": "https://w.mesko.com.pl/aktualnosci/rekordowy-kontrakt-na-pioruna-hit-eksportowy-pgz-wzmacnia-bezpieczenstwo-europy", "claim": "MESKO supplies the reported quantity classes, delivery horizon, and production-capacity context for the Piorun EDIRPA/SAFE framework.", "status": "primary-source"}
   ],
   "boundary": "This record advances the domestic SAFE contracting -> allied procurement and market-response arrow. It does not establish delivered Piorun quantities, acceptance, readiness, battlefield use, export revenue, supplier replaceability, or a causal effect of SAFE on foreign procurement decisions."
 }

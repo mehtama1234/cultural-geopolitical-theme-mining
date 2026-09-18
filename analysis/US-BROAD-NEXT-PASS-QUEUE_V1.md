@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1128 observations.
+1130 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1479,6 +1479,14 @@ country-level Piorun handover, acceptance, or operational-use notice. This is
 a current public-record non-observation, not evidence of non-delivery; it
 keeps the Piorun route at procurement/external-response stage until a matched
 country contract and performance record appears.
+MESKO's official company account adds a bounded scale and schedule layer: the
+EDIRPA VSHORAD framework is described as several thousand missiles and several
+hundred launchers, with deliveries through 2030 and more than 80% intended for
+Polish forces. The same account reports annual Piorun capacity of about 1,500
+missiles, up from about 300, with an ambition above 2,000. These are
+company-reported framework and capacity measures, not accepted inventory,
+audited output, SAFE-attributable incremental production, or proof of delivery
+on schedule; quantity classes remain non-point estimates.
 The Mesko production baseline is separately dated: Poland's Ministry of State
 Assets reports that the three-thousandth Piorun left the production line in
 2024. This confirms pre-SAFE product output, but does not quantify the later
