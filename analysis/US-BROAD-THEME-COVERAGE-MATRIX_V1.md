@@ -42,6 +42,14 @@ not pooled into one causal estimate:
 | [Disaster policy redistributes recovery, access, and legitimacy—not just liquidity](projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md) | Firm power; household room; place; trust | Cross-source firm → owner → worker/customer → resident-judgment chain | Verified aid, worker security, household recovery, civic action |
 | [Expanding a small-business boundary can redistribute opportunity toward scale](projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md) | Firm power; work; unequal exposure | Eligibility boundary → contract allocation → small-firm revenue/exit/wage/patent effects | Customer prices, owner household, local service, worker quality, politics |
 
+These latest anchors also update the row-level interpretation for themes 3 and
+12: the VRURC recall implementation is consumer-power evidence of correction
+progress without purchaser recovery, while the disaster-recovery and
+firm-size findings are firm-power evidence of business outcomes without a
+completed worker/customer/owner-household/resident chain. They should be read
+as stage-specific additions to the corresponding rows above, not as new pooled
+rates.
+
 **Latest place conditioning:** [county growth × HPSA capacity layer](projects/us-immigration-local-demand/migration-growth-hpsa-capacity-layer-v1.md) conditions visible health capacity on population-growth quartile and shortage context; it deepens themes 6–8 while leaving lived access open.
 
 **Latest care/work conditioning:** [SIPP care/work tenure × poverty layer](projects/us-household-calendar-integration/sipp-care-work-tenure-poverty-layer-v1.md)
