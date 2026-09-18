@@ -111,6 +111,22 @@
       "status": "reported"
     },
     {
+      "period": "2026-09-08 MSPO domestic-competence and sovereignty framing",
+      "denominator": {"value": 1, "unit": "official Polish National Security Bureau event statement at MSPO 2026", "value_type": "documented_institutional_framing"},
+      "measures": {
+        "domestic_competence_framing": {"value": "building durable domestic industrial and technological competencies is described as as important as acquiring systems", "unit": "official strategic framing", "value_type": "reported_interpretation"},
+        "sovereignty_framing": {"value": "own technological capabilities are described as a foundation of strategic resilience and state sovereignty", "unit": "official strategic framing", "value_type": "reported_interpretation"},
+        "allied_solidarity_framing": {"value": "MSPO's international participation is described as evidence that security requires solidarity, cooperation, and responsibility", "unit": "official event framing", "value_type": "reported_interpretation"}
+      },
+      "method": "Translation-neutral extraction of a dated official Polish National Security Bureau statement from the opening of MSPO 2026. Domestic competence, resilience, sovereignty, and allied-solidarity language are retained as institutional meaning claims and kept separate from production, public reception, or capability outcomes.",
+      "uncertainty": "The statement does not measure resident or voter reception, trust, production, commissioning, local-content share, delivery, operational capability, or changed external behavior. It is not Barracuda-specific and does not establish realized autonomy.",
+      "subgroup": "Polish national-security institutional discourse at an international defense-industry exhibition.",
+      "counterinterpretation": "Sovereignty language can legitimate future industrial investment or signal political identity while coexisting with foreign design, component, finance, approval, or demand dependence.",
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10481,Szef-BBN-na-MSPO-w-Kielcach.html",
+      "retrieval_hash": "artifact:sha256:20c276be5bcb5f3a1ded600a7dedec3c49d8747e03cef26c2407947434956859",
+      "status": "reported"
+    },
+    {
       "period": "2026-08-26 parliamentary interpellation; public procurement-information boundary checked 2026-09-18",
       "denominator": {"value": 1, "unit": "official Polish Sejm interpellation concerning Barracuda-500M", "value_type": "documented parliamentary inquiry"},
       "measures": {
@@ -162,7 +178,13 @@
       "claim": "The official response characterizes the July document as a cooperation agreement, makes detailed production/licensing/technology-transfer obligations contingent on Polish Armed Forces demand, and describes active working groups plus staged assembly/service and later localization.",
       "status": "official-response",
       "access_boundary": "The response does not establish a Polish purchase order, signed licence, commissioned plant, produced unit, acceptance, delivery, or fielding."
+    },
+    {
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10481,Szef-BBN-na-MSPO-w-Kielcach.html",
+      "claim": "The BBN MSPO statement supplies official domestic-competence, resilience, sovereignty, and allied-solidarity framing around defense-industrial development.",
+      "status": "institutional-framing",
+      "access_boundary": "The statement is not a measure of public reception, production, local content, delivery, operational capability, or leverage."
     }
   ],
-  "boundary": "This record establishes eight official 2026 cooperation, financing, implementation, production-plan, follow-up, parliamentary-oversight, and ministerial-response observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
+  "boundary": "This record establishes nine official 2026 cooperation, financing, implementation, production-plan, follow-up, institutional-framing, parliamentary-oversight, and ministerial-response observations that expand the observable institutional response around a US-linked defense relationship. It does not establish a Barracuda-specific financing allocation, commissioned or delivered capability, actual production scale, realized local-content share, domestic self-sufficiency, supplier replaceability, public reception, deterrence, alliance cohesion, bargaining leverage, or changed adversary behavior."
 }

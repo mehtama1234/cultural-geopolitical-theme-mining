@@ -42,6 +42,13 @@ agreement are planned for 2026–2030. These are current public-source status
 observations, not evidence that an unannounced or private milestone did not
 occur.
 
+The September 8 BBN statement from MSPO adds a separate meaning layer. It
+frames durable domestic industrial and technological competence as a basis for
+strategic resilience, independent crisis action, and state sovereignty, while
+also emphasizing allied solidarity. This is evidence of official institutional
+framing at a public defense-industry event, not evidence of public reception,
+production, local content, or realized autonomy.
+
 ## The non-observation
 
 As of the checked public-source set, I did not locate a primary-source notice
@@ -52,7 +59,9 @@ reporting:
 3. a completed unit count or acceptance record;
 4. a named Polish or regional customer contract for delivered B500M systems;
 5. a supplier contract or measured Polish/European local-content share; or
-6. an operational deployment, test, inventory change, or maintenance event.
+6. an operational deployment, test, inventory change, or maintenance event;
+7. resident, worker, voter, or customer reception to the sovereignty and
+   industrial-competence framing.
 
 This is a bounded non-observation, not evidence that none of these events has
 occurred privately or has not yet been publicly announced. It means that the
@@ -137,6 +146,8 @@ framing should remain a separate evidence type.
 - [Polish Ministry of State Assets: regional production agreement](https://www.gov.pl/web/aktywa-panstwowe/strategiczne-porozumienie-w-zakresie-produkcji-i-dostaw-pociskow-barracuda-500m-dla-panstw-regionu)
 - [Polish government: MSPO 2026 defense-industry event](https://www.gov.pl/web/obrona-narodowa/mspo-34-kraje-ponad-1200-firm-sektora-zbrojeniowego-w-kielcach-ruszyly-jedne-z-najwiekszych-w-europie-targow-zbrojeniowych)
 - [Official MSPO 2026 event context](https://www.paih.gov.pl/events/mspo-2026/)
+- [Polish National Security Bureau: MSPO domestic-competence and sovereignty framing](https://www.bbn.gov.pl/pl/wydarzenia/10481,Szef-BBN-na-MSPO-w-Kielcach.html)
+- [Normalized MSPO institutional-framing evidence note](../data/bbn-mspo-domestic-competence-sovereignty-framing-2026-09-08.txt)
 - [Polish Ministry of National Defence: September 2026 FMF agreement](https://redakcja.www.gov.pl/web/obrona-narodowa/4-mld-dolarow-dla-polskiej-armii-kolejny-etap-strategicznego-partnerstwa-z-usa)
 - [Polish Sejm: Barracuda-500M procurement-information interpellation](https://www.sejm.gov.pl/Sejm10.nsf/InterpelacjaTresc.xsp?key=DXHBWK)
 - [Polish Sejm API: official response to Interpelacja 18336](https://api.sejm.gov.pl/sejm/term10/interpellations/18336/reply/DXDJBT/body)
