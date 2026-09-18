@@ -1826,3 +1826,13 @@ support/payment, confidence or attribution, remedy, later material state,
 trust, action, and recovery; preserve selected retention, item-specific
 denominators, transition direction, and Congress-confidence versus
 federal-statistics-agreement measures.
+
+The next energy/firm rotation promotes the [April 2026 national EHI
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The national and Second District
+records add a gasoline-shock comparison across constructed transportation and
+demographic inflation, receipt-panel gasoline/retail directions, and regional
+small-firm expectations. The next test is a household/firm event ledger joining
+fuel exposure, income/hours, vehicle/route, substitution, financing,
+employment/pay, customer access, public response, trust, action, and recovery;
+preserve constructed-index, receipt-panel, firm-survey, national/regional,
+income, and size boundaries.

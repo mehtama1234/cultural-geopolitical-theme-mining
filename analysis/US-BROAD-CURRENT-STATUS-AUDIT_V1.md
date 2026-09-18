@@ -2679,3 +2679,15 @@ selected, and the items do not identify a dated bill, assistance route,
 institutional blame, causality, or political action. The next test is a
 same-household event ledger joining exposure, support/payment, confidence or
 attribution, remedy, later material state, trust, action, and recovery.
+
+The next energy/firm rotation promotes the [April 2026 national EHI
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The national and Second District
+records add a gasoline-shock comparison: constructed transportation and
+demographic inflation, receipt-panel gasoline/retail directions, and regional
+small-firm employment/profitability expectations. They preserve the distinct
+boundaries of constructed indexes, permissioned receipt data, and non-random
+firm surveys; no household fuel bill, commuting necessity, worker outcome,
+firm survival, or causal policy effect is observed. The next test is a
+household/firm event ledger joining fuel exposure, income/hours, vehicle/route,
+substitution, financing, employment/pay, customer access, public response,
+trust, action, and recovery.
