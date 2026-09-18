@@ -2,6 +2,8 @@
 
 **Status:** bounded currentness audit; no consumer-outcome trend promoted
 
+**Machine record:** [freshness recheck JSON](data/cfpb-student-loan-event-ledger-freshness-recheck-2026-09-18.json)
+
 ## Query and reproducibility
 
 The CFPB Consumer Complaint Database API was queried for `product=Student

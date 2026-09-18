@@ -1,0 +1,46 @@
+{
+  "format": "cfpb-student-loan-event-ledger-freshness-recheck-v1",
+  "status": "bounded_currentness_audit",
+  "checked": "2026-09-18",
+  "source": {
+    "endpoint": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
+    "filters": {
+      "product": "Student loan",
+      "date_received_min": "2026-01-01",
+      "date_received_max": "2026-09-19",
+      "size": 25
+    },
+    "api_matching_records": 14696,
+    "retrieval_order": "first 25 returned records; not random, weighted, or representative",
+    "raw_input_sha256": "3bba34a99b0b59a0ca1104273789a508142300b2bc249536139a945a419da7dc",
+    "derived_ledger_sha256": "03ca06416daa5a1908f6206274bffa2b880f86f4a95c9de863d20ed813e2b59f"
+  },
+  "observed_sample": {
+    "records": 25,
+    "event_date_min": "2026-09-12",
+    "event_date_max": "2026-09-16",
+    "submitted_via_web": 25,
+    "timely_yes": 25,
+    "timely_no": 0,
+    "company_response_in_progress": 13,
+    "company_response_closed_with_explanation": 12,
+    "public_company_response_present": 1,
+    "public_company_response_absent": 24,
+    "narrative_present_in_derived_record": 0
+  },
+  "validated_ledger": {
+    "events": 25,
+    "arrows": 2,
+    "validator": "scripts/validate_us_broad_event_ledger.py"
+  },
+  "unobserved_stages": [
+    "alternatives",
+    "effort_or_money_time_tradeoff",
+    "protected_or_sacrificed_outcome",
+    "verified_remedy_receipt",
+    "recovery",
+    "trust_or_meaning",
+    "switching_or_exit"
+  ],
+  "interpretation_boundary": "Current administrative complaint, routing, and response labels are observed. They are not consumer-harm rates, verified corrections, payment receipts, recovery, trust, switching, or exit outcomes. Do not compare this retrieval-order sample with earlier samples as a time trend without a stable universe, field definition, ordering rule, and denominator."
+}
