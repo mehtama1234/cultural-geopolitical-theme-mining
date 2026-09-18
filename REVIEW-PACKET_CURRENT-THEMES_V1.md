@@ -380,6 +380,11 @@ The current next test is not another adjacent cross-tab. It is a dated,
 same-unit episode with alternatives, response, remedy or recovery, and later
 meaning or action; see the [broad next-episode selection](analysis/broad-next-episode-selection-v1.md)
 and [same-case episode availability audit](analysis/broad-same-case-episode-availability-audit-v1.md).
+That audit now covers 17 local episode/remedy surfaces, including the VRURC
+recall implementation bridge. Fourteen surfaces show a dated event and 14
+show institutional response, but no surface yet shows fully verified remedy
+receipt or a closed recovery/exit endpoint; this is a stage-availability
+boundary, not a failure-rate estimate.
 
 - [SHED coverage-transition route and adaptation table](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-paths-v1.md), with its [reproduction audit](analysis/projects/us-health-cost-household-choice/shed-panel-coverage-care-foregoing-reproduction-audit-2026-09-16.md): four coverage paths, care entry/persistence, debt, saving, delayed purchases, and health.
 - [SIPP utility × tenure → following-month work layer](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-following-layer-v1.md), with its [current reproduction audit](analysis/projects/us-household-calendar-integration/sipp-utility-work-tenure-reproduction-audit-2026-09-16.json): utility difficulty conditioned by housing tenure with Fay-BRR uncertainty.
