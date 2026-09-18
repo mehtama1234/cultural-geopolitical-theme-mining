@@ -199,6 +199,14 @@ groups, baseline health shapes the direction, and the annual friction field
 still does not establish claim timing, treatment continuity, remedy, or
 causation.
 
+The [MEPS friction route-direction record](records/us-meps-2024-friction-route-direction-comparison.json)
+now promotes this as a canonical longitudinal boundary: the denial/delay
+group shows 25.11% perceived-health worsening versus 21.74% among
+non-reporters, but employment retention and transitions are close and
+improvement remains common. The repeated-round design and BRR uncertainty do
+not supply a dated claim, appeal, treatment completion, payment, verified
+correction, or later recovery; the result is descriptive and route-specific.
+
 The consolidated [health-cost layered end-to-end finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-end-to-end-001.md)
 now makes the broad health route reviewable in one place. It connects care
 foregoing, debt and savings adaptation, coverage and institutional response,
