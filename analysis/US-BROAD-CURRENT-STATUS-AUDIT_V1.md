@@ -2331,6 +2331,9 @@ distributed-care interpretation but do not identify a dated care need, hours
 displaced, alternative quality, schedule control, employer response, or later
 recovery; SHED remains descriptive context until a same-family or person-level
 episode design is available.
+The [2025 SHED care/living-arrangements record](records/us-federal-reserve-care-living-arrangements-2025.json)
+is now linked directly to the finding, preserving co-residence, paid/unpaid
+childcare, adult-care, caretaker, and employment bases as separate surfaces.
 
 The [2025 SHED employment/AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-030.md)
 adds an AI/work counterexample to simple displacement narratives. It places
