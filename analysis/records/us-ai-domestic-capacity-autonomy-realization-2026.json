@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-domestic-capacity-autonomy-realization-2026",
+  "title": "Domestic strategic capacity has multiple clocks before autonomy or leverage",
+  "theme_ids": ["work", "cost", "energy", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "geopolitical_state_consequences", "firm_sector_market_power", "public_systems_feedback", "work_control_bargaining", "household_room_consumption"],
+  "source_unit": "Deliberately non-pooled comparison of US critical-mineral, CHIPS, data-center/grid, and JASSM/LRASM realization records",
+  "geography": "United States and named partner/procurement contexts",
+  "observations": [
+    {
+      "period": "2025-2026; critical-mineral exposure and substitution assessment",
+      "denominator": {"value": 60, "unit": "minerals designated critical in the cited US framework; selected application evidence has separate units", "value_type": "reported_scope"},
+      "measures": {"selected_materials_with_100_percent_net_import_reliance": {"value": 5, "unit": "selected materials named by USGS, not all critical minerals", "value_type": "reported_count"}, "china_major_source_count": {"value": 14, "unit": "of 33 critical minerals on which the US most depends", "value_type": "reported_count"}, "battery_recycling_potential_window": {"value": "2-3", "unit": "years; GAO potential assessment", "value_type": "assessment_window"}},
+      "method": "GAO technology assessment and USGS Mineral Commodity Summaries as preserved in the local critical-minerals layer.",
+      "uncertainty": "Import reliance is not a cutoff or harm measure; recycling and substitution potential are not realized output or supplier switching.",
+      "subgroup": "Selected minerals and battery/semiconductor applications.",
+      "counterinterpretation": "A concentrated source can remain commercially reliable, and an alternative may exist for one application but not another.",
+      "retrieval_hash": "sha256:3bb2db581e2f672ffb7e009ead9316258912fff669edc50c7ba0a54a7b0744aa",
+      "source_url": "https://www.gao.gov/products/gao-26-108687",
+      "status": "compared"
+    },
+    {
+      "period": "April-July 2026; CHIPS program realization stage",
+      "denominator": {"value": 49, "unit": "awarded projects across 24 companies", "value_type": "reported_project_count"},
+      "measures": {"direct_awards_disbursed": {"value": 13100000000, "unit": "US dollars", "value_type": "reported_disbursement"}, "completed_milestones": {"value": 24, "unit": "milestones", "value_type": "reported_count"}, "milestones_in_progress": {"value": 125, "unit": "milestones", "value_type": "reported_count"}},
+      "method": "GAO review of Commerce semiconductor incentives, milestones, workforce activity, and R&D governance.",
+      "uncertainty": "Disbursement and milestones do not establish yield, customer delivery, worker retention, or reduced import dependence.",
+      "subgroup": "Commerce-funded semiconductor, materials, packaging, and R&D projects.",
+      "counterinterpretation": "A milestone may represent genuine capability progress even when public output and strategic substitution remain unmeasured.",
+      "retrieval_hash": "sha256:0f5d528b1dd56c68fdd2ecdcc4b900c340782416721c9d56eb2128cfd49153a5",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; US data-center/grid realization and governance records",
+      "denominator": {"value": 1, "unit": "non-pooled national, county, utility-event, and governance record set", "value_type": "non_pooled_comparison"},
+      "measures": {"national_historical_data_center_use": {"value": 176, "unit": "TWh in 2023 estimate", "value_type": "modeled_estimate"}, "prince_william_new_capacity": {"value": 621, "unit": "MW added in TY2025 report", "value_type": "reported_local_aggregate"}, "reported_large_load_drop_events": {"value": "1551 and 1800", "unit": "MW in separate events", "value_type": "reported_event_values"}},
+      "method": "Retained LBNL, county, Virginia governance, and utility-event ledgers.",
+      "uncertainty": "National estimates, local aggregates, and utility events cannot establish facility-level compute, household incidence, ownership, or replaceability.",
+      "subgroup": "US data-center electricity and Virginia large-load systems.",
+      "counterinterpretation": "Capacity and fiscal revenue can coexist with useful services; observed load drops do not by themselves establish lasting reliability harm.",
+      "retrieval_hash": "sha256:937ea9945896d914890a79e310c5f8516b177259ecd9020a550868aebd198d6f",
+      "source_url": "https://eta-publications.lbl.gov/publications/united-states-data-center-energy-2025",
+      "status": "compared"
+    },
+    {
+      "period": "2024-2026; JASSM/LRASM and Poland customer-realization records",
+      "denominator": {"value": 1, "unit": "non-pooled US award, facility, test, and Polish order record set", "value_type": "non_pooled_comparison"},
+      "measures": {"poland_planned_delivery_window": {"value": "2026-2030", "unit": "planned delivery window", "value_type": "reported_plan"}, "production_support_idiq": {"value": 999000000, "unit": "US dollars ceiling", "value_type": "reported_contract_ceiling"}, "specific_order_accepted_quantity": {"value": "not observed", "unit": "missing realization field", "value_type": "unmeasured"}},
+      "method": "Retained USAspending, facility, production-support, testing, Polish official, and realization-stage records.",
+      "uncertainty": "A planned window, broad delivery list, or test does not establish shipment, acceptance, fielding, inventory, or external response for a specific order.",
+      "subgroup": "JASSM/LRASM US production/control surface and Poland JASSM-ER order.",
+      "counterinterpretation": "Public non-observation is not proof of non-delivery; procurement and physical realization can run on asynchronous clocks.",
+      "retrieval_hash": "sha256:23ea6e9eef1cfe58f3da3995431eea43662baf5f5ba3bf5c8f38152d8ba7714b; sha256:5710214420b99ca303a359c5fa65d49d0e612faa544ab5b224bf13b6ab90ee61",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/gao-2026-chips-rd-capacity-governance-dependence-layer-v1.md", "claim": "CHIPS awards, disbursements, milestones, workforce, and governance boundaries.", "status": "local-source-note"},
+    {"source_url": "../../projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md", "claim": "Mineral import reliance, processing concentration, substitution, and recycling boundaries.", "status": "local-source-note"},
+    {"source_url": "../../projects/ai-work-control/data/us-data-center-realization-ledger-v1.json", "claim": "Data-center capacity, governance, load events, and missing realized-capability joins.", "status": "related-record"},
+    {"source_url": "../../projects/ai-work-control/data/capacity-dependence-realization-audit-v1.json", "claim": "Cross-case realization-stage audit for data centers and JASSM-ER.", "status": "related-record"}
+  ],
+  "boundary": "This deliberately non-pooled synthesis distinguishes commitment, capacity, operation, replaceability, and leverage. It does not estimate domestic autonomy, causal investment effects, household incidence, supplier-switching rates, or geopolitical leverage. Identifier-bearing production, acceptance, customer use, substitute qualification, or external response remains the next decisive evidence."
+}

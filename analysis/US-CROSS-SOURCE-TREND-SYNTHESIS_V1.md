@@ -550,7 +550,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 305 machine-readable records, 1087 observations,
+The current registry contains 306 machine-readable records, 1091 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1430,3 +1430,14 @@ belonging, or care received—and the sacrificed outcome—work, money, housing,
 transport, health, or social time—remain separate. The next test is a
 same-family care episode with alternatives, support receipt, schedule control,
 and later stability; the comparison is not a pooled family-burden estimate.
+
+The [domestic capacity/autonomy realization synthesis](projects/ai-work-control/findings/ai-work-control-084.md)
+adds the material-input layer below infrastructure and procurement. Critical
+minerals, CHIPS awards and milestones, data-center/grid records, and JASSM/LRASM
+orders show separate commitment, capacity, operating, replaceability, and
+leverage clocks. Domestic production or public spending can advance while
+foreign processing, qualified output, delivery, ownership, or supplier
+switching remain unresolved. The next test is one identifier-bearing
+mineral/application or procurement event followed through output, local
+incidence, substitute qualification, and an observed switch or external
+response; no autonomy or leverage score is inferred.

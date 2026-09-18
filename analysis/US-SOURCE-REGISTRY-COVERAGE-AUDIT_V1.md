@@ -93,7 +93,7 @@ or proof that every source item was read in full.
 | [Centers for Medicare & Medicaid Services](https://www.cms.gov/data-research) | US health coverage, claims, providers, spending, quality, and public-program evidence | 1 | 11 | 5 | 4 | evidence-bearing; machine-record URL |
 | [US Small Business Administration](https://www.sba.gov/) | US small-business programs, lending, disaster support, procurement, and firm access context | 2 | 9 | 7 | 1 | evidence-bearing; machine-record URL |
 | [US Department of the Treasury](https://home.treasury.gov/) | US financial policy, household finance, insurance, public spending, and fiscal context | 2 | 21 | 12 | 10 | evidence-bearing; machine-record URL |
-| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 8 | 46 | 30 | 6 | evidence-bearing; machine-record URL |
+| [US Government Accountability Office](https://www.gao.gov/) | US program evaluation, oversight, implementation, procurement, household, and institutional-capacity evidence | 8 | 50 | 32 | 7 | evidence-bearing; machine-record URL |
 | [General Social Survey / NORC](https://gss.norc.org/) | US repeated cross-sectional evidence on social attitudes, trust, finance, institutions, and lived conditions | 0 | 28 | 6 | 18 | evidence-bearing; machine-record URL |
 | [National Household Travel Survey](https://nhts.ornl.gov/) | US household travel, vehicle access, mobility, work, care, and place-connection evidence | 0 | 23 | 10 | 11 | evidence-bearing; machine-record URL |
 | [US Consumer Product Safety Commission](https://www.cpsc.gov/) | US consumer-product hazards, recalls, injuries, safety standards, and enforcement evidence | 5 | 24 | 6 | 3 | evidence-bearing; machine-record URL |
@@ -108,13 +108,13 @@ or proof that every source item was read in full.
 | [Chicago Council on Global Affairs](https://globalaffairs.org/) | US and comparative public-opinion and geopolitical context on migration, foreign policy, security, and international engagement | 0 | 11 | 5 | 8 | evidence-bearing; machine-record URL |
 | [US Department of Defense](https://www.defense.gov/) | US defense policy, force posture, procurement, industrial-base, alliance, and operational-capacity records | 0 | 3 | 3 | 2 | evidence-bearing; machine-record URL |
 | [Defense Security Cooperation Agency](https://www.dsca.mil/) | US foreign military sales, security cooperation notifications, partner procurement, and defense-transfer records | 0 | 4 | 4 | 2 | evidence-bearing; machine-record URL |
-| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 45 | 14 | 13 | evidence-bearing; machine-record URL |
+| [Polish government and national-security institutions](https://www.gov.pl/) | Polish defense, security, industrial, infrastructure, and alliance-policy records for geopolitical case comparisons | 0 | 46 | 15 | 14 | evidence-bearing; machine-record URL |
 | [International Finance Corporation](https://www.ifc.org/) | development-finance, private-sector investment, infrastructure, technology, and cross-country capability evidence | 1 | 12 | 9 | 1 | evidence-bearing; machine-record URL |
 | [Defense Visual Information Distribution Service](https://www.dvidshub.net/) | public US defense visual and operational event records used for milestone and activity context | 0 | 1 | 1 | 1 | evidence-bearing; machine-record URL |
 | [Virginia State Corporation Commission](https://www.scc.virginia.gov/) | Virginia utility, rate-case, reliability, large-load, and public-service governance records | 0 | 20 | 6 | 14 | evidence-bearing; machine-record URL |
 | [Prince William County, Virginia](https://www.pwcva.gov/) | local fiscal, land-use, data-center, revenue, tax, and public-capacity records | 0 | 19 | 5 | 14 | evidence-bearing; machine-record URL |
 | [California Department of Insurance](https://www.insurance.ca.gov/) | California insurance regulation, wildfire risk, market availability, FAIR Plan, and consumer protection records | 0 | 14 | 7 | 13 | evidence-bearing; machine-record URL |
-| [Lawrence Berkeley National Laboratory energy analysis](https://eta-publications.lbl.gov/) | US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis | 0 | 10 | 6 | 5 | evidence-bearing; machine-record URL |
+| [Lawrence Berkeley National Laboratory energy analysis](https://eta-publications.lbl.gov/) | US energy-system, data-center load, efficiency, infrastructure, and technology-demand analysis | 0 | 11 | 7 | 6 | evidence-bearing; machine-record URL |
 | [Berkeley Social Sciences Data Laboratory](https://sda.berkeley.edu/) | public-use survey tabulation and microdata interface for social attitudes, political behavior, and subgroup comparisons | 0 | 33 | 11 | 20 | evidence-bearing; machine-record URL |
 | [Inter-university Consortium for Political and Social Research](https://www.icpsr.umich.edu/) | archived social-science datasets, codebooks, public-use files, restricted-access routes, and reproducibility materials | 0 | 14 | 5 | 0 | evidence-bearing |
 | [Gallup public opinion research](https://gallup.com/) | US and comparative public-opinion, institutional trust, social attitudes, wellbeing, and political-meaning context | 1 | 17 | 8 | 0 | evidence-bearing |
@@ -162,7 +162,7 @@ family that will be acquired, compared, or maintained over time.
 |---|---:|---|
 | `fwc.gov.au` | 90 | `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md`; `analysis/projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md` |
 | `doi.org` | 67 | `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-joint-axes-v1.md`; `analysis/projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md`; `analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-003.md` |
-| `justice.gov` | 23 | `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md` |
+| `justice.gov` | 21 | `analysis/projects/us-safety-net-access/findings/us-safety-net-access-016.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md`; `analysis/projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md` |
 | `theguarantors.com` | 19 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
 | `mohr.gov.my` | 15 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md` |
 | `uasdata.usc.edu` | 15 | `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md`; `analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md` |
@@ -265,6 +265,7 @@ without a recurring acquisition need and source-specific metadata.
 | `hogeraad.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `link.springer.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rijksoverheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ssrn.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `tse-fr.eu` | academic/case citation | Retain the cited study route; it is not currently a maintained recurring family in the atlas. |
@@ -285,7 +286,6 @@ without a recurring acquisition need and source-specific metadata.
 | `mlvt.gov.kh` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nasbo.org` | state-fiscal policy source | Retain as a policy-research comparator for state fiscal capacity; promote it to a maintained source family only when recurring NASBO vintages are acquired and compared. |
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
-| `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
