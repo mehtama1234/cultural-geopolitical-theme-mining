@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1126 observations.
+1127 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1473,6 +1473,12 @@ participation in the common route. This is evidence of allied demand and
 cross-border supply-chain response, not delivered export volume or realized
 geopolitical leverage; the next check remains country-level contract,
 delivery, acceptance, and operational-use evidence.
+The official Lithuanian June planning page still described Piorun acquisition
+as planned for that year, and the 2026-09-18 bounded recheck located no
+country-level Piorun handover, acceptance, or operational-use notice. This is
+a current public-record non-observation, not evidence of non-delivery; it
+keeps the Piorun route at procurement/external-response stage until a matched
+country contract and performance record appears.
 The [Lithuanian SAFE vehicle implementation record](records/us-lithuania-safe-vehicle-contract-implementation-2026.json)
 adds a separate foreign execution comparator: Lithuania reports a partly
 SAFE-financed approximately EUR 1B military-vehicle contract with 2026–2032

@@ -182,6 +182,7 @@ family that will be acquired, compared, or maintained over time.
 | `afajof.org` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `benklopack.github.io` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
 | `flipsnack.com` | 5 | `analysis/projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md`; `analysis/projects/ai-work-control/prince-william-data-center-fiscal-revenue-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-033.md` |
+| `kam.lt` | 5 | `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-poland-piorun-safe-multilateral-procurement-response-2026.json` |
 | `saffm.hq.af.mil` | 5 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `services.arcgis.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-housing-insurance-risk/source-search-2026-09-11.md` |
 | `business.columbia.edu` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
@@ -191,7 +192,6 @@ family that will be acquired, compared, or maintained over time.
 | `help.theguarantors.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `ilostat.github.io` | 4 | `analysis/us-theme-atlas.md`; `analysis/projects/ai-work-control/source-search-2026-09-11.md`; `analysis/projects/ai-work-control/ilostat-access-audit-2026-09-15.md` |
 | `internetconsultatie.nl` | 4 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
-| `kam.lt` | 4 | `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-lithuania-safe-vehicle-contract-implementation-2026.json`; `analysis/records/us-poland-piorun-safe-multilateral-procurement-response-2026.json` |
 | `leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `nist.gov` | 4 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json` |
 | `nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md` |
@@ -232,6 +232,7 @@ without a recurring acquisition need and source-specific metadata.
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `flipsnack.com` | publication delivery host | Do not register; preserve the county report and issuer as the source family. |
+| `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `services.arcgis.com` | data delivery host | Do not register; preserve FEMA or agency ownership and the layer/service query separately. |
 | `business.columbia.edu` | academic case citation | Retain as a study or institutional page citation; it is not yet a recurring maintained source family in this atlas. |
@@ -241,7 +242,6 @@ without a recurring acquisition need and source-specific metadata.
 | `help.theguarantors.com` | commercial support host | Do not register; treat as product documentation under the commercial case source. |
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
 | `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `kam.lt` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `leapeasy.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `nist.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
