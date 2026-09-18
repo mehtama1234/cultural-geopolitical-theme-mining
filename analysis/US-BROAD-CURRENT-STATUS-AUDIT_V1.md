@@ -2623,3 +2623,12 @@ density contracted from 2020 to 2024 while separate adult-reported account
 ownership rose; balance-to-GDP ratios also moved but are not household balances.
 The divergence does not establish exclusion, digital substitution, service
 quality, welfare, or a same-person access pathway.
+
+The new [Federal Reserve stability/monetary-policy trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds an institutional macro layer beside
+household debt, financial-access, and provider-capacity evidence. The Fed reports
+moderate aggregate debt vulnerability and resilient-system context alongside
+selected household/firm credit pressure, elevated delinquencies, inflation,
+labor, consumption, and relatively tight credit for small businesses and
+households. These are monitoring judgments and aggregate conditions, not a
+household welfare, firm-incidence, or causal shock estimate.

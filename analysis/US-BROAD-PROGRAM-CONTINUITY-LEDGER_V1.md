@@ -1775,3 +1775,14 @@ ledger joining provider/branch change, digital and cash alternatives, payment or
 credit need, fee/travel/time cost, success/failure, correction/remedy, household
 outcome, trust, switching, and exit; preserve provider/user units and the
 non-causal divergence boundary.
+
+The next macro-financial rotation promotes the [Federal Reserve
+stability/monetary-policy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The
+record adds system resilience, asset valuation, leverage, runnable liabilities,
+selected borrower distress, inflation, labor, consumption, credit-access, and
+policy-setting context beside household debt and provider-capacity layers. The
+next test is a lawful borrower/firm/market-liability ledger joining rate and
+credit terms, application/approval, payment burden, delinquency, lender
+response, substitution, correction/remedy, work/consumption, trust, and
+recovery; preserve report dates, aggregate units, selected subgroups, and
+judgment-versus-outcome boundaries.
