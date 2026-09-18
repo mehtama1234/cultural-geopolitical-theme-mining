@@ -128,6 +128,17 @@ takedown can remove a listing while the item remains in a home or secondary
 market. A platform order can restore an account while payment, durability,
 retaliation, and alternative work remain unknown.
 
+The latest record-level additions sharpen this comparison. The CPSC VRURC
+record links a hazard notice and replacement route to later correction counts,
+but does not identify a purchaser who received a safe replacement. The New York
+DFS housing-insurance record can show complaint closure or reported recovery
+while repairability, renewal, and the ability to stay remain unknown. The
+HTOPS fraud follow-up separates reported exposure from realized loss and has
+only an 11-person recovered subgroup. These are not contradictory outcomes;
+they are different endpoints in the same practical-exit chain. They show why
+“institution acted,” “money or correction was recorded,” and “the affected
+person regained a workable option” must remain separate fields.
+
 ### 4. Time is part of the remedy
 
 The relevant outcome is not only whether a person eventually receives money or
