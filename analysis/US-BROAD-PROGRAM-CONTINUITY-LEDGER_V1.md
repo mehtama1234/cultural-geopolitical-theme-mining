@@ -40,7 +40,7 @@ never the completion condition.
 | Control | Current state | Evidence |
 |---|---|---|
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
-| Cross-source map | 51 documented rotations across the priority bridges, plus broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
+| Cross-source map | 56 numbered rotations across the priority bridges, plus later canonical trend additions and broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
@@ -935,6 +935,20 @@ non-search. It strengthens the material/time/care lane while leaving provider
 disruption, subsidy and employer access, wages, child wellbeing, and later
 recovery open.
 
+The next canonical trend additions extend this rotation without pooling their
+source universes. The [institutional-presence and contested-inclusion trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) keeps Muslim population, mosque,
+representation, public-judgment, discrimination, and violence-association
+surfaces as separate clocks; it strengthens the unequal-exposure and cultural-
+legitimacy lane while leaving local treatment, access, safety, organizing, and
+agenda-setting power open. The [distributed family-care trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) keeps kinship care, childcare work
+adaptation, unpaid adult care, and assisted-living financing distinct; it
+strengthens the material/time/care lane while leaving family-level
+alternatives, schedule control, benefit or respite receipt, remaining burden,
+and later stability open. Both are canonical trend observations, not new
+same-unit causal episodes.
+
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI
 recruiting settlement audit](projects/ai-work-control/elegant-settlement-compliance-follow-up-audit-2026-09-17.md)
@@ -993,7 +1007,18 @@ These lanes rotate. The next available source does not redefine the program.
 
 ## Next executable checkpoint
 
-The next substantive checkpoint is the PSID acquisition gate:
+The next substantive checkpoint is the storage-light event-compatibility gate,
+followed by the PSID acquisition gate when account access is available. The
+retained ten-route qualification register currently finds zero routes that
+contain all required stages: dated trigger, alternative or non-use choice,
+institutional response, verified protected or sacrificed outcome, and later
+meaning/action or exit. The next event pass must identify one lawful small
+same-unit route with those fields or publish the precise missing field and
+rotate to a retained subgroup/place reversal; it must not promote a complaint
+response, access restoration, program exit, or market movement to practical
+recovery.
+
+After that event gate, the PSID acquisition gate is:
 
 - obtain the 2019, 2021, and 2023 main family and individual files when account
   access is available;
