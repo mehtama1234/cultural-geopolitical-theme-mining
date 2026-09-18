@@ -1857,6 +1857,15 @@ religious influence, and issue-specific acceptability to themes 9, 10, 11, and
 conduct, policy exposure, causal attribution, voting, and social cohesion remain
 open.
 
+The [Pew 2026 national-mood and future-expectations layer](projects/us-cost-trust-politics/pew-2026-national-mood-future-expectations-layer-v1.md)
+adds a distinct time-horizon split: current national dissatisfaction and weak
+institutional expectations coexist with personal hope, while Republicans and
+Democrats nearly converge on expecting more future political division and age
+groups differ in optimism about that horizon. The layer separates personal
+affect, national inheritance, institutional expectation, and partisan meaning;
+it does not establish a dated exposure, behavioral consequence, or political
+action path.
+
 The [cross-source cultural-meaning synthesis](projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md)
 compares religious identity, diversity, smartphone use, moral mood, and U.S.
 global-role reception. It identifies a recurring shared-referent/group-specific
