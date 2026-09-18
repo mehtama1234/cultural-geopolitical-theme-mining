@@ -42,25 +42,26 @@ separate.
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
 | Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, order-stage controls | Person-level payment success, bill status, service continuity, remedy receipt, trust, switching/exit |
 | Grubhub multisided remedy program (1 reported program) | Aggregate checks/PayPal payments and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit |
+| VRURC portable-charger recall bridge (1 recall key) | Dated hazard notice, replacement instruction, later recall-level correction snapshot | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit |
 
 ## Stage-level coverage count
 
-The 16 surfaces can also be summarized without pooling their units. A status is
+The 17 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 13 | 1 | 2 |
-| Responsible actor | 9 | 5 | 2 |
-| Alternative or non-use | 1 | 4 | 11 |
-| Effort, money, or time trade-off | 1 | 10 | 5 |
-| Adaptation or protected/sacrificed outcome | 2 | 4 | 10 |
-| Institutional or firm response | 13 | 1 | 2 |
-| Verified remedy | 0 | 10 | 6 |
-| Meaning, trust, or action | 0 | 2 | 14 |
-| Recovery, persistence, or exit | 0 | 5 | 11 |
+| Dated event or exposure | 14 | 1 | 2 |
+| Responsible actor | 10 | 5 | 2 |
+| Alternative or non-use | 1 | 5 | 11 |
+| Effort, money, or time trade-off | 1 | 11 | 5 |
+| Adaptation or protected/sacrificed outcome | 2 | 5 | 10 |
+| Institutional or firm response | 14 | 1 | 2 |
+| Verified remedy | 0 | 11 | 6 |
+| Meaning, trust, or action | 0 | 2 | 15 |
+| Recovery, persistence, or exit | 0 | 5 | 12 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -108,4 +109,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses sixteen committed local records and downloads nothing.
+The audit uses seventeen committed local records and downloads nothing.

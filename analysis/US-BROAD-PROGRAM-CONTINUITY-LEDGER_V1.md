@@ -966,12 +966,12 @@ same-unit gap remains: no retained record follows a dated material event
 through attribution, action, remedy, recovery, and later exit or trust.
 
 The [same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
-now makes that gap quantitative across 16 retained episode or remedy surfaces.
-Thirteen surfaces observe a dated event or exposure, nine observe a responsible
-actor, and thirteen observe an institutional response; only one observes an
+now makes that gap quantitative across 17 retained episode or remedy surfaces.
+Fourteen surfaces observe a dated event or exposure, ten observe a responsible
+actor, and fourteen observe an institutional response; only one observes an
 alternative or non-use outcome, while none observes a verified remedy, meaning
-or trust/action endpoint, and none closes recovery, persistence, or exit. Ten
-surfaces have partial remedy information and five have partial effort or
+or trust/action endpoint, and none closes recovery, persistence, or exit. Eleven
+surfaces have partial remedy information and eleven have partial effort or
 trade-off information, but these partial stages do not form a common
 denominator. The [ranked next-episode selection](broad-next-episode-selection-v1.md)
 therefore retains a strict promotion gate: a future pass must add both an

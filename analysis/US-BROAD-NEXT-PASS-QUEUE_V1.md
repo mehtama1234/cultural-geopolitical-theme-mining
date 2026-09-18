@@ -1062,9 +1062,10 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 16 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 17 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, and
-three named CFPB redress/distribution records.
+three named CFPB redress/distribution records plus the VRURC recall
+implementation bridge.
 The immediate selection rule is to choose one lawful source with a stable
 episode key and add the missing actor, alternative, effort,
 protected/sacrificed outcome, verified remedy, meaning/action, recovery, and
@@ -1072,8 +1073,8 @@ exit fields; if those fields are unavailable, record the gap and rotate to
 another theme. The two worker records are remedy-stage comparators, not a
 worker prevalence or individual-recovery estimate.
 
-**Stage-bottleneck promotion gate (2026-09-17):** across those 16 surfaces,
-13 have an observed dated event/exposure and 13 have an observed institutional
+**Stage-bottleneck promotion gate (2026-09-17):** across those 17 surfaces,
+14 have an observed dated event/exposure and 14 have an observed institutional
 or firm response, but only 1 has an observed alternative/non-use stage, none
 has a fully observed verified remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record

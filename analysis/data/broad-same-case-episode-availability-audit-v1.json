@@ -16,15 +16,15 @@
   ],
   "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
   "stage_summary": {
-    "dated_event_or_exposure": {"observed": 13, "partial": 1, "open_or_unknown": 2},
-    "responsible_actor": {"observed": 9, "partial": 5, "open_or_unknown": 2},
-    "alternative_or_nonuse": {"observed": 1, "partial": 4, "open_or_unknown": 11},
-    "effort_money_or_time_tradeoff": {"observed": 1, "partial": 10, "open_or_unknown": 5},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 4, "open_or_unknown": 10},
-    "institutional_or_firm_response": {"observed": 13, "partial": 1, "open_or_unknown": 2},
-    "verified_remedy": {"observed": 0, "partial": 10, "open_or_unknown": 6},
-    "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 14},
-    "recovery_persistence_or_exit": {"observed": 0, "partial": 5, "open_or_unknown": 11}
+    "dated_event_or_exposure": {"observed": 14, "partial": 1, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 10, "partial": 5, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 1, "partial": 5, "open_or_unknown": 11},
+    "effort_money_or_time_tradeoff": {"observed": 1, "partial": 11, "open_or_unknown": 5},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 5, "open_or_unknown": 10},
+    "institutional_or_firm_response": {"observed": 14, "partial": 1, "open_or_unknown": 2},
+    "verified_remedy": {"observed": 0, "partial": 11, "open_or_unknown": 6},
+    "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 15},
+    "recovery_persistence_or_exit": {"observed": 0, "partial": 5, "open_or_unknown": 12}
   },
   "sources": [
     {
@@ -298,9 +298,26 @@
         "recovery_persistence_or_exit": "open"
       },
       "boundary": "The Grubhub record establishes aggregate checks or PayPal payments and prospective worker, account, and restaurant controls, but not group-specific exposure, individual receipt, restored income/access, alternatives, trust, or exit."
+    },
+    {
+      "source": "analysis/records/us-cpsc-vrurc-recall-implementation-2023-2026.json",
+      "unit": "single_product_recall_implementation_bridge",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_recall_notice",
+        "responsible_actor": "observed_named_manufacturer_and_retail_route",
+        "alternative_or_nonuse": "partial_stop_use_and_replacement_instruction",
+        "effort_money_or_time_tradeoff": "partial_contact_and_temporary_substitution_burden",
+        "adaptation_or_protected_sacrificed_outcome": "partial_offered_safety_protection_without_verified_restoration",
+        "institutional_or_firm_response": "observed_recall_and_progress_reporting",
+        "verified_remedy": "partial_firm_reported_correction_count",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The recall key joins a dated hazard and replacement notice to a later firm-reported correction snapshot, but purchaser exposure, notice receipt, replacement receipt, safe restoration, residual cost, trust, continued use, switching, and exit are not linked."
     }
   ],
-  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the named CFPB redress/distribution records, Doxo and Grubhub consumer-remedy records, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The closest route-specific surfaces are the named CFPB redress/distribution records, Doxo, Grubhub, and VRURC recall implementation records, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. Promote only after stage-level missingness is reported.",
   "promotion_gate": {
     "qualifies": false,
@@ -309,5 +326,5 @@
     "rule": "A new end-to-end finding may be promoted only when at least one retained surface observes an episode-level alternative or non-use outcome and at least one retained surface observes verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
     "failure_reason": "No retained local surface satisfies both required gate fields; institutional response and aggregate distribution remain distinct from lived remedy and outcome."
   },
-  "storage_boundary": "Uses sixteen committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses seventeen committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
 }
