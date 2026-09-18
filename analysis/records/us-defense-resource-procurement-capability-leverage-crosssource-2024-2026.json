@@ -98,6 +98,23 @@
       "status": "reported"
     },
     {
+      "period": "2026-03-13; Anduril Enterprise Contract award vehicle",
+      "denominator": {"value": 1, "unit": "single-award federal indefinite-delivery/indefinite-quantity contract vehicle", "value_type": "executed_contract_vehicle"},
+      "measures": {
+        "contract_ceiling": {"value": 20000000000, "unit": "US dollars maximum contract value/ceiling", "value_type": "reported_ceiling"},
+        "base_period": {"value": 5, "unit": "years", "value_type": "reported_period"},
+        "option_period": {"value": 5, "unit": "years", "value_type": "reported_option_period"},
+        "ordering_requirement": {"value": "orders require separate funding and execution under the vehicle", "unit": "contract-vehicle boundary", "value_type": "interpretation_boundary"}
+      },
+      "method": "Bounded extraction from the public SAM.gov award notice for Anduril Enterprise Contract W9128Z-26-D-A001. The ceiling, period structure, vehicle type, and broad commercial-offering description are kept separate from product-specific task orders and obligations.",
+      "uncertainty": "The award notice does not identify Barracuda SLB-500M, a product quantity, task order, obligation, delivery, acceptance, production output, or Polish demand. A same-day USAspending keyword search for exact SLB-500M returned no award match; that non-observation does not prove that no classified or differently described record exists.",
+      "subgroup": "Anduril federal contract vehicle and authorized ordering agencies; product-specific Barracuda execution remains a separate unit.",
+      "counterinterpretation": "A large IDIQ ceiling can expand a firm's access to federal demand while remaining unused, broadly scoped, or dependent on later funded orders; it is not evidence of realized missile capability or leverage.",
+      "source_url": "https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view",
+      "retrieval_hash": "artifact:sha256:9e929f08bd649c211a61e95e6532bb920a82c5b15c079669f4c3327d2b47c187",
+      "status": "reported"
+    },
+    {
       "period": "2024-2026; Poland-US procurement, reciprocal-access, financing, and Barracuda co-production announcements",
       "denominator": {"value": 1, "unit": "cross-source country-government agreement and follow-up record; each agreement/event retains its own document denominator", "value_type": "documented_agreement_set"},
       "measures": {
@@ -123,6 +140,7 @@
     {"source_url": "../../records/usaspending-jassm-lrasm-subaward-structure-2024-2025.json", "claim": "USAspending supplies a bounded award-to-subaward and component-description route.", "status": "related-record"},
     {"source_url": "../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json", "claim": "Polish official records supply reciprocal-access, co-production, financing, and implementation-stage evidence.", "status": "related-record"},
     {"source_url": "https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf", "claim": "The official FY2026 allocation plan supplies a federal financing and program-category stage for low-cost cruise-missile development without a Barracuda-specific attribution.", "status": "primary-source"}
+    ,{"source_url": "https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view", "claim": "The SAM.gov award notice supplies an executed Anduril federal contract vehicle while preserving the difference between a ceiling and a product-specific obligation.", "status": "primary-source"}
   ],
-  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
+  "boundary": "This is a non-pooled resource-to-capability bridge. It establishes spending context, conditional fiscal trade-offs, a bounded US award/supplier structure, an executed but broadly scoped Anduril contract vehicle, an official low-cost-cruise-missile financing/program-category stage, a contractor-reported US Barracuda demand/capacity route, and Poland-US agreement-stage industrial responses. It does not establish a product-specific Barracuda obligation, operational capability, domestic household or worker incidence, supplier replaceability, public legitimacy, alliance cohesion, deterrence, bargaining leverage, or changed external behavior. Those require verified product-level orders, production/delivery/acceptance, distributional incidence, control and switching evidence, and an observed state or external response."
 }

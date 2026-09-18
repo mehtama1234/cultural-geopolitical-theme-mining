@@ -33,6 +33,7 @@ observed external actor changing behavior as a result.
 | Industrial award route | One USAspending parent-award extract contains 74 returned subaward records, 51 recipient names, and $1.143B in reported subordinate amounts. | Bounded federal subaward extract | Complete supply chain, ownership, facility, production, delivery, or supplier competition |
 | US Barracuda demand/capacity route | Anduril's May 2026 release reports a framework agreement for at least 3,000 SLB-500M systems over three years, a minimum 1,000-round annual rate, first deliveries in the first half of 2027, and a producing 115,000-plus-square-foot Southern California facility. | Contractor-reported framework and capacity disclosure | Independently verified federal obligation, delivery, acceptance, operational inventory, or transfer of this demand to Poland |
 | Federal financing/program category | The FY2026 Comptroller plan identifies $1.5B for low-cost cruise-missile development, procurement, and integration, including reported quantities of 1,000 FAMM-Palletized and 1,000 LCCM-GL systems. | Official allocation plan and program categories | No Barracuda, Anduril, recipient, contract line, obligation, production, delivery, acceptance, or Polish-demand attribution |
+| Executed contract vehicle | SAM.gov reports Anduril's W9128Z-26-D-A001 single-award Enterprise Contract with a $20B ceiling and five-year base plus five-year option structure. | Broad federal IDIQ vehicle | No SLB-500M task order, obligation, delivery, acceptance, production output, or Polish demand; ceiling is not realized product funding |
 | Foreign procurement | Poland's 2024 JASSM-ER agreement reports approximately $735M and a planned 2026–2030 delivery window. | Government procurement announcement | Delivery, acceptance, fielding, maintenance, and operational use |
 | Reciprocal/co-production stage | 2026 official announcements describe buyer/seller access, Poland-US-Estonia-Latvia Barracuda cooperation, assembly followed by production, technology/know-how language, a “thousands” target, and a broader $4B FMF agreement. | Agreements, plans, financing, and institutional follow-up | Commissioned line, completed units, local-content share, component control, replaceability, and regional customer behavior |
 
@@ -110,6 +111,17 @@ Barracuda, Anduril, a recipient, an obligation, a production line, or Polish
 demand. The LCCM-GL quantity therefore remains a category-level observation,
 not a Barracuda quantity.
 
+### A contract vehicle is not a Barracuda obligation
+
+The SAM.gov Anduril Enterprise Contract closes a narrower institutional stage:
+Anduril has an executed, broad federal IDIQ vehicle with a reported $20B
+ceiling and a five-year base plus five-year option period. That matters for
+access to future federal demand, but the ceiling aggregates commercial
+software, hardware, data/compute infrastructure, and support offerings. It
+does not identify SLB-500M, a task order, an obligation, a delivered round, or
+Polish demand. The exact `SLB-500M` USAspending search returned no award match
+in this pass, so product-level federal execution remains an open arrow.
+
 ### Co-production creates a testable autonomy claim
 
 The Polish case is valuable because it moves beyond a buyer-side procurement
@@ -183,6 +195,8 @@ capability-to-response mechanism is documented.
 - [Normalized US Barracuda evidence note](../data/anduril-us-barracuda-500m-framework-agreement-2026-05-13.txt)
 - [FY2026 Comptroller low-cost cruise-missile funding plan](https://comptroller.war.gov/Portals/45/Documents/news/FY2026_Mandatory_Funding_Allocation_Plan.pdf)
 - [Normalized federal funding evidence note](../data/fy2026-mandatory-funding-low-cost-cruise-missile-plan-2026.txt)
+- [SAM.gov Anduril Enterprise Contract award notice](https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view)
+- [Normalized Anduril contract-vehicle evidence note](../data/sam-anduril-enterprise-contract-2026-03-13.txt)
 
 **Evidence status:** bounded resource-to-capability comparison; operational
 delivery, domestic incidence, replaceability, public reception, leverage, and

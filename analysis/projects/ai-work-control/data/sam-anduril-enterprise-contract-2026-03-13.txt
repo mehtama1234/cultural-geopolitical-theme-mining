@@ -1,0 +1,25 @@
+Source: SAM.gov, Anduril Enterprise Contract award notice
+URL: https://sam.gov/opp/faa1702550a947dbb4732a2ea77389dd/view
+Award number: W9128Z-26-D-A001
+Checked: 2026-09-18
+
+Normalized evidence note:
+
+The public SAM.gov award notice identifies Anduril Industries, Inc. as the
+awardee of a single-award Enterprise Contract issued by the Department of the
+Army. The notice reports a ten-year structure (five-year base plus five-year
+option period), a firm-fixed-price indefinite-delivery/indefinite-quantity
+vehicle, and a maximum contract value/ceiling of $20,000,000,000. The notice
+describes the vehicle as available for ordering by the Department of War and
+other authorized federal agencies for Anduril commercial software, hardware,
+data and compute infrastructure, and related technical support offerings.
+
+Interpretation boundary:
+
+This is an executed federal contract vehicle, not a Barracuda-specific order.
+The notice does not identify SLB-500M, a Barracuda quantity, a task order,
+obligation, delivery, acceptance, production output, or Polish demand. The
+$20B figure is a ceiling across the vehicle; it cannot be used as Barracuda
+funding without a product-specific order and obligation record. A separate
+USAspending keyword search for exact “SLB-500M” returned no award match on
+2026-09-18, so the product-specific federal execution arrow remains open.
