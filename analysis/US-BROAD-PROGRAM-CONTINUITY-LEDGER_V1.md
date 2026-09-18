@@ -1095,6 +1095,13 @@ food-services growth and a contemporaneous revision, but no price-adjusted
 quantity, household incidence, payment/debt route, firm margin, local access,
 or survival outcome. It extends the household-security baseline without
 turning sales into a welfare or confidence measure.
+
+The next consumer-recourse rotation promotes the [VRURC implementation finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md).
+One recall key joins a dated hazard notice and replacement offer to a later
+firm-reported correction snapshot, while the product denominators differ and
+consumer receipt, safe restoration, residual cost, trust, and switching remain
+unobserved. This closes an implementation-stage bridge without converting
+correction progress into household recovery.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

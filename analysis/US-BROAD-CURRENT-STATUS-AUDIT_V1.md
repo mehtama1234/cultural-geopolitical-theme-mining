@@ -1876,6 +1876,14 @@ not identify real quantity, household affordability, payment/debt, margins,
 local access, or firm survival. The next test is a linked product,
 establishment, place, and household ledger.
 
+The [VRURC implementation finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md)
+now promotes the detailed CPSC recall-key bridge into the current canonical
+set. The 2023 notice and 2026 MPR row expose a dated hazard, replacement route,
+and reported correction progress, but the API's approximately 190,000 units
+and the MPR's 256,845 products recalled are not one denominator. Purchaser
+notice, replacement receipt, safe restoration, residual cost, and later use or
+exit remain open.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage
