@@ -1347,3 +1347,10 @@ adds a possible same-release household/social bridge. It preserves the need to
 verify corrected weights, compatible units, table denominators, uncertainty,
 and lawful linkage before connecting material pressure to social or cultural
 participation.
+
+The next household-energy rotation adds the [SIPP utility-to-work finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md).
+Same-person month-to-next-month pairs place utility-payment difficulty and
+energy-assistance status beside earnings and hours movement with Fay–BRR
+uncertainty. This adds timing discipline to the energy/work arrow while leaving
+the exact bill or shutoff, assistance receipt, desired hours, provider/employer
+response, recovery, and later action unobserved.

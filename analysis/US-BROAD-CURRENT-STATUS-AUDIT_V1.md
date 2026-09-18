@@ -1895,6 +1895,14 @@ bill-problem reporting. The route is not causal and does not yet contain claim
 need, alternatives, treatment continuity, remedy, verified recovery, trust,
 action, or exit.
 
+The [SIPP utility-to-work finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md)
+now promotes a same-person monthly transition layer into the canonical trend
+set. Reported utility-payment difficulty and energy assistance sit beside
+following-month earnings and hours movement with Fay–BRR uncertainty, but the
+screen does not identify a dated bill, shutoff, receipt, desired hours,
+employer response, or recovery. It remains a timing surface, not a causal
+utility-to-work result.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage
