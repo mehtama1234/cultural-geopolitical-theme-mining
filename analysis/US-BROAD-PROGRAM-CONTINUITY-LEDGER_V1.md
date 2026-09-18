@@ -815,7 +815,7 @@ same-unit source with the missing fields, while the broad program continues
 through other lanes.
 
 The forty-fourth rotation applies the storage-light event-compatibility rule
-across the original six retained practical-exit routes. The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
+across the nine retained practical-exit routes. The [event qualification register](projects/us-customer-automation-recourse/data/end-to-end-event-qualification-register-2026-09-17.json)
 finds zero routes with all of the required stages: dated trigger, alternative
 or non-use choice, institutional response, verified protected or sacrificed
 outcome, and later meaning/action or exit. The accompanying [finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-002.md)

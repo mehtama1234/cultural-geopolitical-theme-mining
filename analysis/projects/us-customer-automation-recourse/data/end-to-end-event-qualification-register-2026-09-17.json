@@ -81,12 +81,51 @@
       "later_action_or_exit": "resident stay/switch/move/action missing",
       "qualifies": false,
       "next_minimum_field": "dated resident attempt, wait/travel/price, usable substitute, protected outcome, and later stay/switch/move"
+    },
+    {
+      "route_id": "Doxo-bill-payment-enforcement",
+      "domain": "consumer_payment",
+      "unit": "named_enforcement_case_and_surveyed_user_surface",
+      "denominator": "2 retained institutional observations; heavy-user survey share is not a payment-success denominator",
+      "dated_trigger": "reported payment-route confusion, fee, and subscription practice observed",
+      "alternative_or_non_use_choice": "direct-biller route described but person-level choice missing",
+      "institutional_response": "proposed order-stage disclosure, consent, and redress controls observed",
+      "verified_remedy_or_recovery": "missing payment success, bill status, service continuity, and remedy receipt",
+      "later_action_or_exit": "switching, continued use, and non-use reasons missing",
+      "qualifies": false,
+      "next_minimum_field": "identifier-bearing payment episode with route choice, fee, payment outcome, biller status, correction/refund, and direct-biller alternative"
+    },
+    {
+      "route_id": "Grubhub-multisided-remedy",
+      "domain": "platform_consumer_worker_recourse",
+      "unit": "named_platform_remedy_program",
+      "denominator": "aggregate reported checks/PayPal distribution; group-specific exposure denominator missing",
+      "dated_trigger": "reported platform practices affecting drivers, diners, and restaurants observed",
+      "alternative_or_non_use_choice": "group-specific alternative or non-use route missing",
+      "institutional_response": "aggregate payment distribution and prospective platform controls observed",
+      "verified_remedy_or_recovery": "individual receipt, restored income/access/visibility, and adequacy missing",
+      "later_action_or_exit": "continued use, switching, and exit reasons missing",
+      "qualifies": false,
+      "next_minimum_field": "group-specific affected-unit ledger with eligibility, receipt, restored outcome, alternative, continued use, switching, and exit"
+    },
+    {
+      "route_id": "VRURC-recall-implementation",
+      "domain": "product_safety",
+      "unit": "single_product_recall_key",
+      "denominator": "about 190,000 units in notice versus 256,845 products in MPR; purchaser denominator unresolved",
+      "dated_trigger": "dated fire-hazard recall notice and stop-use instruction observed",
+      "alternative_or_non_use_choice": "replacement instruction and stop-use route offered; purchaser choice missing",
+      "institutional_response": "recall notice, replacement route, and later correction snapshot observed",
+      "verified_remedy_or_recovery": "consumer correction count reported; replacement receipt and safe restoration missing",
+      "later_action_or_exit": "continued use, substitute purchase, switching, trust, and non-use missing",
+      "qualifies": false,
+      "next_minimum_field": "recall-key-compatible purchaser ledger with notice reach, contact, replacement receipt, temporary substitute/residual cost, and later safety or use outcome"
     }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 6,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "screened_routes": 9,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, and VRURC additions improve consumer-response and implementation visibility without adding purchaser-level alternatives, verified receipt, safe restoration, or later exit. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
     "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data."
   }
 }
