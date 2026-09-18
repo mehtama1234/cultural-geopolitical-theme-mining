@@ -1910,6 +1910,15 @@ stages until receipt, durability, alternatives, protected outcomes, and later
 behavior are observed. The next executable test is one lawful small ledger or
 valid panel that supplies the missing alternative and verified outcome fields.
 
+The [2025 SHED banking substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
+adds a financial-access counterexample to the same boundary. Formal account
+ownership is income-patterned, unbanked adults use nonbank transaction routes
+more often than banked adults, and reported fraud loss, provider contact,
+recovery, and switching are visible as separate conditional surfaces. The
+finding strengthens the access/substitution/recourse map but does not identify
+provider responsibility, verified recovery, alternative quality, or why a
+person stayed or switched. A dated account-linked episode remains open.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
