@@ -1,0 +1,52 @@
+{
+  "audit_type": "cfpb-public-narrative-filter-probe-v1",
+  "checked": "2026-09-18",
+  "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
+  "control_comparison": {
+    "shared_filters": {
+      "product": "Credit card",
+      "company_response": "Closed with monetary relief",
+      "date_received_min": "2025-01-01",
+      "date_received_max": "2026-09-18",
+      "size": 25,
+      "field": "all"
+    },
+    "probe_only_filter": {
+      "has_narrative": "true"
+    },
+    "probe_total_reported": 21425,
+    "control_total_reported": 21425,
+    "probe_returned": 25,
+    "control_returned": 25,
+    "returned_ids_identical": true,
+    "probe_raw_sha256": "1b080c8296f68ed5dd3f6fd197acb49f66ea2eefcb85097d52208442f366f5fe",
+    "control_raw_sha256": "841068ac7a99122819ea810c20e338fce476b072ae78d5da5e0468fa1adf7a85"
+  },
+  "observed_response_fields": [
+    "company",
+    "company_public_response",
+    "company_response",
+    "complaint_id",
+    "date_received",
+    "date_sent_to_company",
+    "issue",
+    "product",
+    "state",
+    "sub_issue",
+    "sub_product",
+    "submitted_via",
+    "tags",
+    "timely",
+    "zip_code"
+  ],
+  "narrative_field_observed": false,
+  "safe_interpretation": "The tested public API response and query shape did not expose complaint narrative text or a usable narrative-presence field, and the tested has_narrative=true parameter did not change the returned IDs or reported total. This is an API/filter boundary, not evidence that consumers lacked narratives.",
+  "not_established": [
+    "consumer narrative meaning or attribution",
+    "alternative or non-use decision",
+    "verified monetary relief or receipt",
+    "account correction or restored access",
+    "repeat effort, switching, trust, or exit"
+  ],
+  "storage_note": "Only query parameters, response-field inventory, aggregate diagnostics, and raw-response hashes are retained; raw complaint responses, direct identifiers, and narrative text are not retained."
+}
