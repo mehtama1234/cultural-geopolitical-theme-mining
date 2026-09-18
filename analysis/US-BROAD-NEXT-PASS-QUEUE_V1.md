@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 329 records and
-1172 observations.
+have exact registered-URL references. The trend registry holds 330 records and
+1175 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3037,6 +3037,12 @@ room/board cost, service claims, staffing, quality, family substitution, and
 resident movement. Keep payer, service, housing, informal care, and outcome
 stages separate; do not treat a state coverage count or minimum spending total
 as usable access or resident welfare.
+
+The [canonical assisted-living financing record](records/us-gao-assisted-living-spending-medicaid-coverage-2026.json)
+now preserves spending, state coverage, waiver, payer, and care-bundle stages.
+The next decisive artifact remains a state-year resident/household episode
+ledger linking need, search, authorization, wait, admission, room/board,
+services, family labor, quality, safety, and later setting choice.
 
 The [GAO kinship families and intergenerational care-support layer](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md)
 adds a family-composition test. The next pass should use compact official

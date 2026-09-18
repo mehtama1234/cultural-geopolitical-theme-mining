@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-assisted-living-spending-medicaid-coverage-2026",
+  "title": "Assisted-living coverage and spending do not establish an affordable, available care setting",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107884; federal assisted-living spending, Medicaid coverage, and state waiver structure",
+  "geography": "United States assisted-living facilities and state Medicaid programs for older adults and people with disabilities",
+  "observations": [
+    {
+      "period": "Calendar year 2024; federal Medicaid and traditional Medicare spending for services in assisted-living facilities",
+      "denominator": {"value": 12000000000, "unit": "at least dollars in identified federal Medicaid and Medicare spending for services provided in assisted-living facilities", "value_type": "reported_lower_bound"},
+      "measures": {
+        "federal_medicaid_spending": {"value": 3500000000, "unit": "at least dollars in federal Medicaid spending", "value_type": "reported_lower_bound"},
+        "traditional_medicare_spending": {"value": 8500000000, "unit": "dollars for covered health services delivered in assisted living, including services such as hospice", "value_type": "reported_amount"},
+        "spending_boundary": {"value": "likely undercount because assisted-living facilities are not uniformly defined or consistently identified in data", "unit": "measurement limitation", "value_type": "reported_constraint"}
+      },
+      "method": "GAO analysis of 2024 Medicaid and Medicare claims data, the most recent year available, with program documentation review.",
+      "uncertainty": "The $12 billion is a floor for identified services, not total assisted-living spending, resident out-of-pocket cost, room-and-board support, facility cost, quality, unmet need, or resident outcome; Medicare generally does not cover assisted-living services themselves.",
+      "subgroup": "Services delivered in assisted-living facilities and identified in federal Medicaid/Medicare claims; residents and facilities are not a uniform care or payer universe.",
+      "counterinterpretation": "A spending undercount can coexist with substantial service delivery and household protection; a larger public spending total would not by itself establish affordability, suitable placement, or better outcomes.",
+      "source_url": "https://www.gao.gov/products/gao-26-107884",
+      "retrieval_hash": "sha256:1186c80b4ec47087c29daa837a1d44d8fbbb47f98afecf20892e59c788e8cb93",
+      "status": "reported"
+    },
+    {
+      "period": "As of March 2025; state Medicaid coverage of assisted-living services",
+      "denominator": {"value": 50, "unit": "states assessed for Medicaid coverage of assisted-living services for older adults and people with disabilities", "value_type": "state_policy_denominator"},
+      "measures": {
+        "states_covering_services": {"value": 44, "unit": "states with Medicaid coverage for assisted-living services", "value_type": "reported_count"},
+        "hcbs_waiver_states": {"value": 29, "unit": "of the 44 covering states using Medicaid home- and community-based-services waivers", "value_type": "reported_count"},
+        "waiver_boundary": {"value": "waivers can target populations and limit enrollment", "unit": "coverage and rationing mechanism", "value_type": "reported_constraint"}
+      },
+      "method": "GAO review of state Medicaid program documents and coverage structures as of March 2025.",
+      "uncertainty": "State coverage is a policy measure, not eligible-person enrollment, authorized slots, provider participation, room-and-board affordability, wait time, service receipt, quality, or continuity when needs change.",
+      "subgroup": "Older adults and people with disabilities potentially eligible for state Medicaid assisted-living services.",
+      "counterinterpretation": "A state without this Medicaid service may use other home-, residential-, or state-funded routes; a waiver can target scarce resources while still leaving some people without a suitable slot.",
+      "source_url": "https://www.gao.gov/products/gao-26-107884",
+      "retrieval_hash": "sha256:1186c80b4ec47087c29daa837a1d44d8fbbb47f98afecf20892e59c788e8cb93",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2026; care-bundle financing and setting-choice boundary",
+      "denominator": {"value": null, "unit": "assisted-living residents and care bundles; no common resident-level affordability or access denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "care_setting": {"value": "assisted living is a residential alternative to in-home care and nursing homes for people needing help with activities of daily living", "unit": "setting scope", "value_type": "reported_scope"},
+        "payer_split": {"value": "Medicaid may cover assistance and supportive services; Medicare may cover other health care such as hospice; households commonly use personal resources; HUD and VA may help with room and board but amounts were unknown", "unit": "care-bundle financing structure", "value_type": "reported_boundary"},
+        "data_gap": {"value": "claims identify paid services but not all unmet needs, informal care, quality, resident choice, or later displacement", "unit": "measurement limitation", "value_type": "reported_constraint"}
+      },
+      "method": "GAO synthesis of claims, state coverage documents, federal program documentation, and assisted-living financing boundaries.",
+      "uncertainty": "The record does not observe search, eligibility, authorization, waitlist, admission, discharge, room/board payment, family labor, resident safety, work/time effect, or later setting choice in the same episode.",
+      "subgroup": "Residents and households navigating assisted living, home care, nursing homes, Medicaid, Medicare, HUD, VA, private payment, and informal support.",
+      "counterinterpretation": "Mixed payer arrangements can provide flexible protection and resident choice; financial fragmentation may be manageable for some households and constraining for others depending on assets, family support, state, and provider supply.",
+      "source_url": "https://www.gao.gov/products/gao-26-107884",
+      "retrieval_hash": "sha256:1186c80b4ec47087c29daa837a1d44d8fbbb47f98afecf20892e59c788e8cb93",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107884", "claim": "Official GAO report supplies federal spending floor, Medicaid state coverage, waiver structure, financing boundaries, methods, and data limitations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes assisted-living financing, Medicaid policy coverage, waiver, and care-bundle stages. It does not establish total spending, resident affordability, unmet need, wait time, available slots, provider capacity, quality, safety, health, family work/time, displacement, setting choice, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, Medicaid/Medicare claims, state waiver archives, facility files, and resident microdata not retained",
+    "html_sha256": "sha256:1186c80b4ec47087c29daa837a1d44d8fbbb47f98afecf20892e59c788e8cb93",
+    "checked": "2026-09-18"
+  }
+}
