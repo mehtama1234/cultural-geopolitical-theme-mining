@@ -1912,6 +1912,15 @@ not evidence that assistance caused food insecurity or restored food security;
 the screen still lacks a dated bill, benefit timing/amount, adequacy, recovery,
 trust, and action.
 
+The FTC [First American](records/us-ftc-first-american-payment-processor-refunds-2026.json)
+and [Credit Karma](records/us-ftc-credit-karma-wasted-time-refunds-2026.json)
+records add a cross-domain remedy-distribution boundary. Aggregate checks,
+refunds, and a reissue channel are visible, but individual receipt, complete
+restitution, corrected credit or transaction capacity, alternative access,
+business/household recovery, trust, and exit are not. This extends the recourse
+map beyond driver refunds without turning administrator totals into recovery
+rates.
+
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
 18,457 privacy-minimized person/event rows with exact event-to-person linkage

@@ -1362,3 +1362,10 @@ Adjacent-month person records place utility difficulty and energy assistance
 beside following food insecurity and severity, including a targeted joint
 cell. The layer strengthens the material-to-protection route while leaving
 benefit timing, adequacy, recovery, repeat crisis, trust, and action open.
+
+The next recourse rotation adds the [FTC remedy-distribution boundary](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md).
+First American small-business checks and Credit Karma refunds make aggregate
+distribution and reissue visible across payment processing and credit
+marketing, while individual receipt, restored opportunity, alternatives,
+survival, trust, and exit remain open. The comparison extends the remedy
+implementation lane without pooling unlike claimant populations.
