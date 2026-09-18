@@ -28,6 +28,21 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+## Latest detailed deep dives
+
+These are the newest long-form writeups added to the broad program. Each
+follows a distinct mechanism while stating its evidence boundary:
+
+- [Family care is infrastructure, not a free buffer](analysis/projects/us-aging-care-strain/findings/us-aging-care-strain-004.md): kinship care, childcare, unpaid adult care, assisted living, and the hidden redistribution of time, money, housing, and work.
+- [Domestic capacity does not become autonomy at the announcement stage](analysis/projects/ai-work-control/findings/ai-work-control-085.md): critical minerals, CHIPS, data centers, defense procurement, qualified output, replaceability, and state leverage.
+- [Legitimacy has three audiences before it becomes geopolitical power](analysis/projects/ai-work-control/findings/ai-work-control-093.md): foreign public reception, American domestic judgment, partisan meaning, and the missing behavior bridge.
+- [Energy insecurity shows the gap between household sacrifice and public restoration](analysis/projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-001.md): food/medicine tradeoffs, service threats, LIHEAP reach, restoration, and durable recovery.
+- [Practical exit observability audit](analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md): remedies across benefits, platforms, fraud, finance, insurance, local services, and product recalls.
+
+The common question across these deep dives is: what is actually protected,
+who controls the alternative, and what later behavior or recovery is observed?
+None is a pooled index or a completed universal causal chain.
+
 For a longer thematic narrative, read the [detailed themes reading guide](analysis/US-BROAD-THEMES-DEEP-DIVE_V1.md).
 It explains the recurring mechanisms across the individual routes and keeps
 the observed, compared, inferred, and open portions of each theme explicit.
