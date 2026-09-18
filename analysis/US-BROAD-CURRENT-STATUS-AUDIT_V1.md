@@ -2608,3 +2608,10 @@ coverage does not by itself remove medical debt, reduced savings, borrowing,
 delayed purchases, or fair/poor health. This is a selected descriptive panel;
 plan adequacy, network fit, dated bills, treatment continuity, remedy, trust,
 and causal timing remain unobserved.
+
+The new [SNAP transition-reason trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a reason-conditioned food-security layer beside the interruption,
+timeliness, and transition-context records. SIPP classifies selected entry and
+exit reasons and links them to following-month low or very low food security with
+Fay–BRR uncertainty; the cells do not establish notice, benefit timing or
+adequacy, remedy, trust, or causal protection.

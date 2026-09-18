@@ -1757,3 +1757,12 @@ ledger joining coverage start/stop, plan/network, need, bill, care decision,
 payment/debt, completion, work/care time, adaptation, correction, health, trust,
 and later persistence or exit; preserve small transition cells and descriptive,
 non-adequacy boundaries.
+
+The next public-aid route rotation promotes the [SNAP transition-reason trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The SIPP record adds classified entry
+and exit reasons beside following-month food-security outcomes and preserves
+Fay–BRR uncertainty, sparse reason cells, and unclassified transitions. The next
+test is a same-episode ledger joining notice, application/recertification,
+reason, decision, benefit timing/amount, interruption/exit, food outcome,
+work/care/health adaptation, appeal/correction, trust, and recovery; preserve
+voluntary/administrative routes and adequacy boundaries.
