@@ -540,6 +540,14 @@ test remains a workplace event that observes whether saved time becomes rest,
 care, additional work, higher expectations, reallocation, pay, or bargaining
 power.
 
+The new [AI work-time/control synthesis](projects/ai-work-control/findings/ai-work-control-094.md)
+keeps that distinction explicit across the randomized worker experiment,
+OECD manager-reported algorithmic management, executive expectations, and BLS
+representation context. It adds no pooled effect, but clarifies that measured
+time or task movement is an intermediate currency; the next decisive artifact
+must show who controls the capacity and whether a worker can appeal or obtain
+durable remedy.
+
 The new [platform remedy, restoration, and dependence synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md)
 adds a case-level remedy-to-exit screen to the platform-work lane. The current
 27-record ledger shows restoration/access resumption in 8 records and ordered
