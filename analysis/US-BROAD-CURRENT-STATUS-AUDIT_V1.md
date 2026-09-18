@@ -1884,6 +1884,20 @@ agenda-setting power, or a causal effect of representation. The next test is a
 local institution/encounter ledger linking treatment to support-seeking or
 avoidance, public-system use, organizing, and institutional response.
 
+The [family-care/public-capacity synthesis](records/us-aging-care-family-care-public-capacity-synthesis-2026.json)
+adds a care-infrastructure bridge across generations. About 2.4 million U.S.
+children lived in kinship families in 2023, with roughly 18 kinship children
+outside foster care for every child in foster care; separate SIPP, SHED, and
+ATUS surfaces show childcare-related work adaptation and unpaid adult-care
+time, while GAO reports at least $12 billion in 2024 assisted-living spending
+across 44 state Medicaid programs. These observations support distributed care
+capacity and uneven private cost, not a common burden or causal program effect.
+Family continuity may protect belonging while also shifting housing, work,
+health, legal, and emotional labor onto relatives. The next test is one
+family-year or care-episode ledger linking alternatives, hours, work and
+housing change, benefit/respite receipt, remaining burden, and later stability
+or exit; foster/non-foster and paid/unpaid routes must remain distinct.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
