@@ -185,12 +185,25 @@
       "later_action_or_exit": "later confidence item is not a distinct action; switching, non-use, complaint, organizing, and exit missing",
       "qualifies": false,
       "next_minimum_field": "dated bill or service event, actor, alternatives, payment/assistance route, correction or remedy, later security, attribution, trust, and action"
+    },
+    {
+      "route_id": "Census-childcare-work-adaptation",
+      "domain": "care_work_household_adaptation",
+      "unit": "household with child age 0-13 in 2025 CPS ASEC",
+      "denominator": "about 30.4 million households with children age 0-13; paid-care, problem, and adaptation universes differ",
+      "dated_trigger": "reported 2024 child-care need, unavailability, unaffordability, or safety concern; provider event date missing",
+      "alternative_or_non_use_choice": "adaptation menu observed but chosen sequence, provider alternative, subsidy/leave access, and practical adequacy missing",
+      "institutional_response": "paid/unpaid leave, reduced hours, job exit, non-search, and supervision while working reported; employer/provider response missing",
+      "verified_remedy_or_recovery": "work-time loss and adaptations reported; wage, job restoration, child outcome, and durable recovery missing",
+      "later_action_or_exit": "cross-sectional household responses only; later work/care stability, trust, political action, switching, and exit missing",
+      "qualifies": false,
+      "next_minimum_field": "dated care disruption, provider/informal alternatives, price/subsidy/leave route, schedule/travel cost, work/earnings, child outcome, and later recovery or action"
     }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 14,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, IER, HTOPS, and Walmart additions improve payment, remedy, worker-allocation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. Grubhub now separates court-entered payment authority and administrator-sent payments from individual receipt, Walmart adds a court-entered driver allocation and payment-timing stage, and HTOPS adds a cross-lagged material-pressure endpoint with a near-flat confidence counterexample. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "screened_routes": 15,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, IER, HTOPS, Walmart, and Census child-care additions improve payment, remedy, worker-allocation, household-adaptation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. Grubhub separates court-entered payment authority and administrator-sent payments from individual receipt, Walmart adds a court-entered driver allocation and payment-timing stage, HTOPS adds a cross-lagged material-pressure endpoint with a near-flat confidence counterexample, and Census adds an income-conditioned work-adaptation menu. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
     "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data. The HTOPS route specifically requires dated incident/actor, alternative or non-use, verified recovery, and later use/action fields."
   }
 }
