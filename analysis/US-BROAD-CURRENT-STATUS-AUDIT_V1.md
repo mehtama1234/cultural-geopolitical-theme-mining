@@ -2911,6 +2911,12 @@ The [HRS fallback access recheck](projects/us-health-cost-household-choice/data/
 also confirms that HRS public-file downloads now route through a current host
 and require login; its codebooks remain usable for planning, but no respondent
 merge is promoted.
+The [UAS current-release recheck](projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json)
+adds the June 2026 Comprehensive Panel Dataset as a documented long-format
+respondent-by-wave backbone with `uasid`, weights, and harmonized
+health/financial/employment/wellbeing content. The file remains
+registration-gated; this improves acquisition readiness but does not add a
+same-event estimate, remedy receipt, trust, action, or recovery result.
 
 The executable next move remains the same-case compatibility gate: obtain an
 authorized WBNS/UAS/PSID route when credentials are available, then test dated

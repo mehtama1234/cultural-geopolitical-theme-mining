@@ -1,0 +1,47 @@
+{
+  "format": "uas-access-recheck-v1",
+  "checked": "2026-09-18",
+  "source_family": "Understanding America Study",
+  "routes": [
+    {
+      "url": "https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3",
+      "role": "official_comprehensive_file_and_panel_page",
+      "result": "The June 2026 release documents a wide Comprehensive File and a long Comprehensive Panel Dataset; the panel has one respondent-by-wave observation, is updated quarterly, includes health, financial, employment, and wellbeing domains, and can be linked with uasid.",
+      "download_access": "registration_required"
+    },
+    {
+      "url": "https://uasdata.usc.edu/index.php?pid=Types+Of+Data&type=3",
+      "role": "official_data_access_and_missingness_page",
+      "result": "Non-registered users may inspect survey variables but cannot view or download respondent data; registered-user files include completed-survey weights and documented UAS missing-value codes.",
+      "download_access": "registration_required"
+    },
+    {
+      "url": "https://uasdata.usc.edu/index.php?r=eNpLtDKyqi62MrFSKkhMT1WyLrYytFwwskuTcjKT9VISSxL1ikuLylIrQTJARcXFmSkgprGVkqmxuZJ1LVwwjUMTrg%2C%2C",
+      "role": "UAS_537_module_page",
+      "result": "UAS 537 exposes utilization, billing, perceptions, satisfaction/access, and health-status sections; the page reports 1,136 completed surveys from 1,233 selected respondents and requires login for download.",
+      "download_access": "registration_required"
+    },
+    {
+      "url": "https://uasdata.usc.edu/index.php?r=eNpLtDK0qi62MrFSKkhMT1WyLrYyNAWyS5NyMpP1ilLTM4tLUouUrGsB_S8NFA%2C%2C",
+      "role": "official_comprehensive_file_data_description",
+      "result": "The current documentation lists UAS HRS Waves 16 and 17 and states that public release files require UAS permission; uasid remains the stable merge key and the file includes sample weights.",
+      "download_access": "registration_required"
+    }
+  ],
+  "workspace_retention": {
+    "respondent_files_found": false,
+    "interpretation": "No UAS respondent file is currently retained in the workspace; this is not evidence that no copy exists outside the workspace."
+  },
+  "acquisition_priority": {
+    "first_file": "Older Ages Monthly Events Panel and codebook",
+    "reason": "It is the narrower event-first route for adults aged 50+, with documented prior-month event timing and follow-up health, work, earnings, pain, life-satisfaction, and medical-expenditure fields.",
+    "gates_before_estimate": [
+      "verify uasid and one-row-per-person-wave structure",
+      "verify wave timing and event-date fields",
+      "verify weights and missing-value domains",
+      "measure overlap between event and follow-up fields",
+      "stop if remedy, trust, action, or recovery fields are absent"
+    ]
+  },
+  "evidence_boundary": "The live official documentation advances acquisition readiness and confirms a current panel product, but no respondent-level estimate, event overlap, remedy receipt, trust, action, or recovery result is promoted."
+}

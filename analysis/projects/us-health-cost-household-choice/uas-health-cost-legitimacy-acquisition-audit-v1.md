@@ -103,6 +103,29 @@ first, then test `uasid` structure, wave timing, weights, missingness, and
 event/outcome overlap before considering the broader Monthly Panel or UAS
 537/698 modules.
 
+### Current Comprehensive Panel Dataset recheck — 2026-09-18
+
+The live official UAS data-products page now documents a June 2026
+Comprehensive Panel Dataset (CPD) release in long format: one respondent-by-
+wave observation, updated quarterly, with harmonized health, financial,
+employment, and wellbeing content and `uasid` linkage to additional UAS files.
+The same page states that CPD downloads are registration-required. The UAS
+data-types page also confirms that non-registered users can inspect variables
+but cannot view or download respondent data, and that released survey files
+include completed-survey weights and explicit missing-value codes.
+
+This changes the acquisition specification, not the evidence status. The CPD
+is a stronger structural backbone than the earlier page-level description, but
+it is not a substitute for the event-first Older Ages file: the CPD page does
+not by itself establish dated bill/need fields, module overlap, remedy receipt,
+or later trust/action for the same episode. Once authorized access exists, the
+smallest first pass remains Older Ages plus its codebook; CPD should be used
+for harmonized person-wave structure and the broader Monthly Panel or UAS 537/
+698 should be added only after the event and outcome fields pass.
+
+The current route and field/access observations are stored in the
+[machine-readable UAS access recheck](data/uas-access-recheck-2026-09-18.json).
+
 ### Public Older Ages codebook recheck — 2026-09-18
 
 The publicly linked Older Ages codebook confirms the first-run audit contract:

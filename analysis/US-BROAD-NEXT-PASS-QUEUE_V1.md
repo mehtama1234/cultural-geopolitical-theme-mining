@@ -65,6 +65,15 @@ records the moved route and confirms that no HRS respondent file is locally
 available. HRS remains a documented fallback, not an executable estimate, and
 the first authorized pass must still run the structural merge audit.
 
+**UAS Comprehensive Panel recheck — 2026-09-18:** USC now documents a June
+2026 long-format Comprehensive Panel Dataset with one respondent-by-wave row,
+quarterly updates, harmonized health/financial/employment/wellbeing content,
+`uasid` linkage, and weights. Downloads remain registration-required, and no
+respondent file is locally retained. This strengthens the acquisition design
+but does not replace the narrower Older Ages event-first file or create an
+estimate. The [machine recheck](projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json)
+records the current route, missingness/weight boundary, and stop conditions.
+
 The new [MEPS institutional-friction follow-up finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md)
 adds a bounded round-to-round screen while those acquisition gates remain open:
 reported denial or prior-authorization delay is followed by more perceived
