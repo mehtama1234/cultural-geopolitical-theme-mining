@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-working-adults-medicaid-snap-employer-reliance-2026",
+  "title": "Work and public-benefit reliance can coexist within the same labor system",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108703; Census estimates for 2024 labor characteristics and selected state administrative employer analysis through September 2025",
+  "geography": "United States national estimates plus selected data from 15 state agencies across 11 states",
+  "observations": [
+    {
+      "period": "2024; adults ages 19–64 enrolled in Medicaid who worked at some point",
+      "denominator": {"value": 28000000, "unit": "adults ages 19–64 enrolled in Medicaid; GAO national Census estimate", "value_type": "reported_program_population"},
+      "measures": {
+        "worked_at_some_point": {"value": 13800000, "unit": "adults; estimated", "value_type": "reported_count"},
+        "full_time_share": {"value": 66.7, "unit": "approximate percent of working adults working 35 or more hours per week", "value_type": "reported_share"},
+        "private_sector_share": {"value": 88, "unit": "percent of wage-earning working adults", "value_type": "reported_share"},
+        "annual_attachment": {"value": "less likely than nonprogram wage earners to work full-time hours for 50 or more weeks", "unit": "comparative labor-attachment result", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of Census data on working-age Medicaid enrollees and labor characteristics.",
+      "uncertainty": "Worked at some point is not stable employment, adequate earnings, predictable scheduling, continuous coverage, or benefit receipt by the worker personally; the comparison does not identify selection or causality.",
+      "subgroup": "Adults ages 19–64 enrolled in Medicaid who worked at some point in 2024.",
+      "counterinterpretation": "Medicaid coverage may protect against medical-cost exposure and support work, while low wages, household composition, health, or job conditions may jointly shape eligibility; employment alone does not show independence or dependence.",
+      "source_url": "https://www.gao.gov/products/gao-26-108703",
+      "retrieval_hash": "sha256:4c32f10a2d1c858588682fd1ce667066f41daf72a0c3e350131901d77d2af747",
+      "status": "compared"
+    },
+    {
+      "period": "2024; adults ages 19–64 living in SNAP-receiving households who worked at some point",
+      "denominator": {"value": 20000000, "unit": "adults ages 19–64 living in SNAP-receiving households; GAO national Census estimate", "value_type": "reported_program_population"},
+      "measures": {
+        "worked_at_some_point": {"value": 10600000, "unit": "adults; estimated", "value_type": "reported_count"},
+        "full_time_share": {"value": 66.7, "unit": "approximate percent of working adults working 35 or more hours per week", "value_type": "reported_share"},
+        "private_sector_share": {"value": 88, "unit": "percent of wage-earning working adults", "value_type": "reported_share"},
+        "annual_attachment": {"value": "less likely than nonprogram wage earners to work full-time hours for 50 or more weeks", "unit": "comparative labor-attachment result", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of Census data on adults in SNAP-receiving households and labor characteristics.",
+      "uncertainty": "SNAP is measured at the household level; the worker need not be the benefit recipient or decision-maker. The estimates do not show benefit amount, adequacy, eligibility churn, schedule control, or causality.",
+      "subgroup": "Adults ages 19–64 living in SNAP-receiving households who worked at some point in 2024.",
+      "counterinterpretation": "Household SNAP receipt can coexist with work because wages, food needs, family composition, health costs, and hours do not align into a single independence measure; program use does not establish employer responsibility.",
+      "source_url": "https://www.gao.gov/products/gao-26-108703",
+      "retrieval_hash": "sha256:4c32f10a2d1c858588682fd1ce667066f41daf72a0c3e350131901d77d2af747",
+      "status": "compared"
+    },
+    {
+      "period": "September 2025 selected-state administrative employer analysis; report reissued August 24, 2026",
+      "denominator": {"value": 15, "unit": "state agencies across 11 states supplying selected employer data; nondisabled, nonelderly working adults for the employer component", "value_type": "selected_administrative_scope"},
+      "measures": {
+        "cross_state_top_employer_companies": {"value": 46, "unit": "companies among top 25 employers of Medicaid enrollees or SNAP beneficiaries in at least two states", "value_type": "reported_count"},
+        "fortune_500_subset": {"value": 17, "unit": "companies among the 50 largest Fortune 500 employers by employee count", "value_type": "reported_count"},
+        "program_and_occupation_context": {"value": "workers concentrated in transportation, restaurants/food preparation, and retail sales; employer identities and state rankings vary", "unit": "selected-state administrative comparison", "value_type": "reported_context"}
+      },
+      "method": "GAO analysis of employer data obtained from 15 state agencies across 11 states as of September 2025; employer results are separate from national Census estimates.",
+      "uncertainty": "Top-employer overlap is a concentration signal, not a national ranking, per-worker incidence, compensation comparison, employer policy finding, or evidence of benefit shifting; definitions and coverage vary by state and the report was revised for Rhode Island figures.",
+      "subgroup": "Nondisabled, nonelderly working adult Medicaid enrollees and working adults in SNAP-receiving households in the selected administrative data.",
+      "counterinterpretation": "Large employers can appear because of workforce size, occupation, place, or sector composition rather than intentional low compensation or public-benefit reliance; worker choice, wages, hours, employer coverage, turnover, and benefit continuity are not joined.",
+      "source_url": "https://www.gao.gov/products/gao-26-108703",
+      "retrieval_hash": "sha256:4c32f10a2d1c858588682fd1ce667066f41daf72a0c3e350131901d77d2af747",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-108703", "claim": "Official GAO report page supplies national estimates, selected-state employer scope, findings, methods, and August 24, 2026 revision note.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a mixed-universe labor and public-benefit interaction: work, safety-net participation, private-sector concentration, occupational composition, and selected-state employer overlap. It does not establish wages, schedule control, employer intent, benefit shifting, eligibility churn, household security, worker alternatives, remedy, trust, political action, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF and state administrative files not retained",
+    "html_sha256": "sha256:4c32f10a2d1c858588682fd1ce667066f41daf72a0c3e350131901d77d2af747",
+    "checked": "2026-09-18"
+  }
+}

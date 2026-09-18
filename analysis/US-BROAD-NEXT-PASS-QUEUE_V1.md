@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 321 records and
-1148 observations.
+have exact registered-URL references. The trend registry holds 322 records and
+1151 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2970,6 +2970,12 @@ benefits, eligibility churn, food/health security, and comparable firms. Keep
 individual work, household SNAP receipt, Medicaid enrollment, and employer
 presence as distinct universes; do not infer employer intent or “dependency”
 from co-occurrence.
+
+The [canonical GAO worker–safety-net record](records/us-gao-working-adults-medicaid-snap-employer-reliance-2026.json)
+now preserves the report's revised national and selected-state observation
+universes, private-sector/occupation context, and repeated top-employer signal.
+It advances the firm/public-benefit bridge without closing wages, schedule,
+benefit continuity, worker choice, household security, or employer response.
 
 The [GAO disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
 adds a labor-market entry test to the care and safety-net lanes. The next pass

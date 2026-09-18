@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 321 machine-readable records, 1148 observations,
+**Current registry state:** 322 machine-readable records, 1151 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 663 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 664 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -268,6 +268,14 @@ adult relative or friend. This is a current-vintage cross-sectional layer, not
 evidence of a Medicaid-policy effect, a same-family recovery path, or a trust/
 political-action outcome. The next stronger test remains route, substitution,
 remedy, and follow-up evidence.
+
+The new [GAO worker–safety-net–employer record](records/us-gao-working-adults-medicaid-snap-employer-reliance-2026.json)
+adds a distinct firm/public-system interaction: working Medicaid enrollees and
+adults in SNAP households, private-sector and occupational concentration, and
+selected-state repeated top employers. It does not establish wages, schedule
+control, benefit churn, employer intent, benefit shifting, household security,
+worker alternatives, trust, or exit; the national and selected-state universes
+remain separate.
 
 The [MEPS Panel 27 longitudinal health-cost layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 adds repeated 2022–2023 person-level expenditure, out-of-pocket, coverage, and
@@ -1798,10 +1806,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 321 trend records and 1148 observations pass the
+the current checkpoint: 322 trend records and 1151 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,306 local Markdown links and 663 published HTML pages pass link
+families; 1,307 local Markdown links and 664 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These

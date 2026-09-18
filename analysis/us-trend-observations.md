@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-321 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+322 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -549,6 +549,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | National insurance costs rose modestly in real terms while disaster-prone and regulated markets diverged | cost, time, voice | housing_place_mobility, household_room_consumption, unequal_exposure_status, firm_sector_market_power, public_systems_feedback | GAO analysis of estimated private homeowners-insurance premiums, insurer filings, and state residual-plan information | United States; state, disaster-risk, and regulatory comparisons | 4 | 2019-2024; national estimated homeowners-insurance premium; 2019-2024; disaster-risk premium association; 2020-2024; state premium-rate filing review; As of August 2025; state residual insurance systems | reported | [open](records/us-gao-homeowners-insurance-premium-availability-2019-2024.json) |
 
 **Boundary:** This record extends the insurance market window through 2024 and adds risk and regulatory process evidence. It does not establish individual affordability, coverage adequacy, claims, repairs, mortgage access, moves, or political response.
+
+| Work and public-benefit reliance can coexist within the same labor system | work, cost, voice | work_control_bargaining, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status | U.S. Government Accountability Office GAO-26-108703; Census estimates for 2024 labor characteristics and selected state administrative employer analysis through September 2025 | United States national estimates plus selected data from 15 state agencies across 11 states | 3 | 2024; adults ages 19–64 enrolled in Medicaid who worked at some point; 2024; adults ages 19–64 living in SNAP-receiving households who worked at some point; September 2025 selected-state administrative employer analysis; report reissued August 24, 2026 | compared; reported | [open](records/us-gao-working-adults-medicaid-snap-employer-reliance-2026.json) |
+
+**Boundary:** This record establishes a mixed-universe labor and public-benefit interaction: work, safety-net participation, private-sector concentration, occupational composition, and selected-state employer overlap. It does not establish wages, schedule control, employer intent, benefit shifting, eligibility churn, household security, worker alternatives, remedy, trust, political action, or exit.
 
 | Digital infrastructure can expand capability and external dependence together | energy, work, voice | work_control_bargaining, firm_sector_market_power, infrastructure_technology_dependency, geopolitical_state_consequences, public_systems_feedback | documented international AI-infrastructure project case | Romania and Malaysia; comparative cases relevant to US-linked finance, technology, and state capacity | 3 | Romania; 2023-2026 project window; Malaysia Johor; 2024-2025 financing and ownership milestones; Romania government cloud infrastructure; 2026-09-09 completion announcement | reported | [open](records/us-geopolitical-ai-infrastructure-case-comparison-2023-2026.json) |
 
