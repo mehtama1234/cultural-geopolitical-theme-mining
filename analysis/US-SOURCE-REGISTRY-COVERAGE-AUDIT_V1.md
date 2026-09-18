@@ -177,6 +177,7 @@ family that will be acquired, compared, or maintained over time.
 | `docs.google.com` | 6 | `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md` |
 | `eur-lex.europa.eu` | 6 | `analysis/projects/ai-work-control/germany-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-algorithmic-management-source-record-v1.md`; `analysis/projects/ai-work-control/eu-platform-work-directive-implementation-audit-v1.md` |
 | `kff.org` | 6 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
+| `nist.gov` | 6 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/projects/ai-work-control/findings/ai-work-control-090.md` |
 | `sam.gov` | 6 | `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/projects/ai-work-control/findings/ai-work-control-048.md`; `analysis/records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json` |
 | `academic.oup.com` | 5 | `analysis/us-theme-atlas.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-rct-outcome-separation-v1.md`; `analysis/projects/us-health-cost-household-choice/medical-debt-relief-randomized-response-layer-v1.md` |
 | `afajof.org` | 5 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-small-business-disaster-liquidity/source-search-2026-09-11.md` |
@@ -193,7 +194,6 @@ family that will be acquired, compared, or maintained over time.
 | `ilostat.github.io` | 4 | `analysis/us-theme-atlas.md`; `analysis/projects/ai-work-control/source-search-2026-09-11.md`; `analysis/projects/ai-work-control/ilostat-access-audit-2026-09-15.md` |
 | `internetconsultatie.nl` | 4 | `analysis/projects/ai-work-control/netherlands-platform-work-directive-implementation-source-record-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md`; `analysis/projects/ai-work-control/netherlands-platform-work-directive-draft-control-matrix-v1.md` |
 | `leapeasy.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
-| `nist.gov` | 4 | `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/projects/ai-work-control/findings/ai-work-control-090.md`; `analysis/records/us-commerce-taiwan-semiconductor-investment-2026.json` |
 | `nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md` |
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
 | `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
@@ -227,6 +227,7 @@ without a recurring acquisition need and source-specific metadata.
 | `docs.google.com` | delivery/repository host | Do not register; preserve the underlying NBER, institution, or document identity and access route. |
 | `eur-lex.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `kff.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `nist.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sam.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -243,7 +244,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ilostat.github.io` | official delivery/documentation host | Do not register separately; keep ILOSTAT as the source family and preserve this route as a delivery/access artifact. |
 | `internetconsultatie.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `leapeasy.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
-| `nist.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |

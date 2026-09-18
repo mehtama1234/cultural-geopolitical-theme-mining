@@ -1,6 +1,6 @@
 # Finding 090: Taiwan-linked semiconductor commitments turn industrial dependence into a U.S. capacity promise
 
-**Status:** provisional industrial-policy and geopolitical-capacity finding · **Checked:** 2026-09-17
+**Status:** provisional industrial-policy and geopolitical-capacity finding · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -23,6 +23,14 @@ The safe interpretation is:
 > commitment is not yet a fab, job, supply-chain substitution, lower price, or
 > independent strategic capability.
 
+On July 16, 2026, NIST/Commerce added a TSMC-specific scale update: TSMC
+announced another $100 billion of planned U.S. investment, bringing the
+reported total planned TSMC investment to $265 billion and the planned U.S.
+portfolio to twelve leading-edge semiconductor and packaging facilities, four
+of them additional to the earlier plan. This strengthens the commitment and
+planned-scale stage; it does not establish construction, commissioning,
+production, or substitution for the added facilities.
+
 ## Event chain
 
 ```text
@@ -31,6 +39,7 @@ offshore semiconductor production and allied supply dependence
   -> U.S.-Taiwan trade and investment agreement
   -> announced direct-investment and tariff-incentive pathway
   -> planned domestic fabs, energy, AI capacity, and innovation
+  -> expanded TSMC planned U.S. portfolio ($265B; 12 facilities reported)
   -> [open] construction, output, jobs, prices, resilience, local burden,
            ownership, replaceability, and geopolitical leverage
 ```
@@ -96,7 +105,7 @@ counts or values, or whether gains reach the surrounding community evenly.
 |---|---|---|
 | Baseline dependence | Commerce reports U.S. wafer-fabrication share below 10% in 2024, down from 37% in 1990 | Product-specific dependence, critical-node exposure, and substitutability |
 | Geopolitical mechanism | Agreement links Taiwan investment, tariff treatment, and domestic semiconductor capacity | Binding terms, enforcement, duration, and firm-level obligations |
-| Commitment | At least $250B in reported direct investments for semiconductor, energy, and AI production/innovation capacity | Disbursement, project list, construction, completion, and financing |
+| Commitment | At least $250B in Taiwan-linked direct investment commitments; NIST/Commerce separately reports TSMC's planned U.S. total rising to $265B with four additional facilities | Disbursement, project allocation, construction, completion, and financing |
 | Domestic capability | TSMC reports first-fab high-volume N4 production, more than 3,000 employees, staged later fabs, and a 43-person technician-training cohort; NIST records a milestone-based CHIPS award and projected jobs | Independent output, yield, uptime, completed employment, job quality, suppliers, energy/water use, operating cost, disbursement, and replacement of Taiwan-centered inputs |
 | Distribution | Potential jobs, technology access, supply resilience, childcare support, supplier access, and public strategic capacity are asserted policy benefits | Place-level jobs, wages, childcare take-up and seats, land/water/power burden, consumer prices, realized local awards, and who owns the gains |
 | Geopolitical consequence | Semiconductors are framed as industrial, technological, and military inputs | Reduced dependence, allied bargaining power, export controls, substitution, and external response |
@@ -109,8 +118,9 @@ industrial automation, and weapons. Domestic capacity may increase state room,
 but it can also concentrate public subsidies, energy demand, skilled labor, and
 ownership in particular firms and places.
 
-The record began as a commitment-stage observation and now includes a partial
-project-realization and community-capacity observations. It does not infer that tariffs create
+The record began as a commitment-stage observation and now includes a planned
+TSMC scale update, partial project-realization, and community-capacity
+observations. It does not infer that tariffs create
 factories, that foreign investment becomes domestic control, or that national
 resilience reaches households evenly. The decisive question is whether staged
 capacity becomes operating, replaceable, and publicly accountable capability—and
@@ -145,6 +155,7 @@ strengthening the resilience or household-benefit claim.
 ## Sources and storage boundary
 
 - [Commerce Taiwan semiconductor investment fact sheet](https://www.commerce.gov/news/fact-sheets/2026/01/fact-sheet-restoring-american-semiconductor-manufacturing-leadership)
+- [NIST/Commerce TSMC additional investment announcement](https://www.nist.gov/news-events/news/2026/07/trump-administration-secures-additional-100-billion-us-semiconductor)
 - [TSMC Arizona project and workforce status](https://www.tsmc.com/static/abouttsmcaz/index.htm)
 - [NIST/CHIPS TSMC Arizona award page](https://www.nist.gov/chips/tsmc-arizona-phoenix)
 - [NIST/CHIPS TSMC Arizona Community Impact Report](https://www.nist.gov/system/files/documents/2024/11/14/CHIPS%20for%20America%20TSMC%20Arizona%20Community%20Impact%20Report.pdf)

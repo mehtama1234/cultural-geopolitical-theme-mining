@@ -8,6 +8,24 @@
   "geography": "United States and Taiwan semiconductor, energy, and artificial-intelligence production and innovation relationship",
   "observations": [
     {
+      "period": "July 16, 2026 TSMC U.S. investment announcement; planned facilities and investment total reported by NIST/Commerce",
+      "denominator": {"value": null, "unit": "TSMC U.S. planned investment and advanced semiconductor manufacturing/packaging facilities", "value_type": "not_disclosed"},
+      "measures": {
+        "incremental_planned_investment": {"value": 100000000000, "unit": "US dollars; additional TSMC U.S. investment announced", "value_type": "reported_commitment"},
+        "total_planned_tsmc_us_investment": {"value": 265000000000, "unit": "US dollars; total planned TSMC U.S. investment reported by NIST/Commerce", "value_type": "reported_commitment"},
+        "additional_facilities": {"value": 4, "unit": "advanced semiconductor manufacturing and packaging facilities", "value_type": "reported_planned_facilities"},
+        "total_facilities": {"value": 12, "unit": "leading-edge semiconductor manufacturing and packaging facilities in the United States", "value_type": "reported_planned_facilities"},
+        "operating_status_of_added_facilities": {"value": "not established by the announcement", "unit": "missing construction, commissioning, production, and acceptance endpoint", "value_type": "unmeasured"}
+      },
+      "method": "NIST/Commerce official release review; incremental announcement, cumulative planned investment, facility count, and operating status are coded as separate stages and are not merged with the already observed Arizona first-fab production milestone.",
+      "uncertainty": "The release reports a planned investment and facility count but does not disclose disbursement, project-level allocation, construction completion, production, yield, uptime, ownership/control, workforce quality, energy/water burden, or supply-chain substitution for the added facilities.",
+      "subgroup": "TSMC, U.S. semiconductor and packaging workers, Arizona communities, U.S. customers, CHIPS and Commerce officials, taxpayers, allied supply-chain partners, and downstream users of chip-enabled products.",
+      "counterinterpretation": "The larger announced total can expand strategic capacity and customer proximity without proving that the added facilities will be built on schedule, operate at target yield, reduce Taiwan-centered dependence, or distribute benefits and burdens broadly.",
+      "source_url": "https://www.nist.gov/news-events/news/2026/07/trump-administration-secures-additional-100-billion-us-semiconductor",
+      "retrieval_hash": "sha256:be34c4a1a73be43d023a4b2eff2e1fc71f188bd72ca31097f6153a7933068538",
+      "status": "reported"
+    },
+    {
       "period": "January 15, 2026 agreement; historical wafer-fabrication comparison through 2024",
       "denominator": {"value": null, "unit": "reported investment commitments and global wafer-fabrication share", "value_type": "not_disclosed"},
       "measures": {
