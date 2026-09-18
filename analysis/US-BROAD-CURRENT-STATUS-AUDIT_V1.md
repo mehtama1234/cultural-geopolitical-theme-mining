@@ -275,6 +275,15 @@ institution-specific confidence as separate stages, making the trust/action
 boundary more explicit while leaving the same-case episode and remedy gate
 open.
 
+The [SNAP administrative-access record](records/us-snap-administrative-access-2026.json)
+now adds study-specific route mechanisms to that public-system boundary:
+flexible interviews, office openings/closures, work requirements, age
+exemptions, and recertification can change approvals, participation,
+procedural denial, or churn, sometimes without an employment response. These
+are not one national effect or a household-security estimate; the studies do
+not share a common episode key and leave notice, effort, appeal, benefit
+adequacy, food/health outcome, remedy, trust, and action open.
+
 The latest [CES medical-affordability/action reproduction audit](projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md)
 reruns the existing 2018/2020 crisis-module screen from the already acquired
 local files. It reproduces the reported action-specific and attribution

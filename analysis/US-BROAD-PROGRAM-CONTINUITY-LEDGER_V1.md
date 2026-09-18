@@ -1000,6 +1000,12 @@ prior-authorization reports are followed by more perceived-health worsening,
 while employment transitions are comparatively close. It adds a weighted,
 BRR-audited longitudinal boundary without closing claim timing, treatment,
 appeal, remedy, payment, household recovery, trust, or exit.
+The [SNAP administrative-access record](records/us-snap-administrative-access-2026.json)
+then returns to public-system route design: study-specific work requirements,
+flexible interviews, office access, age exemptions, and recertification
+mechanisms alter participation or procedural denial without proving employment
+or household-security gains. The evidence remains deliberately non-pooled and
+leaves notice, effort, appeal, adequacy, remedy, trust, and action open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
