@@ -1747,3 +1747,13 @@ ledger joining dated cost exposure, bill/care choice, actor, information, trust,
 policy demand, contact/vote, institutional response, remedy, later health and
 financial room, and exit; preserve panel attrition, non-monotonicity, subgroup
 cell size, and the separation from MEPS/SHED respondents.
+
+The next coverage-transition rotation promotes the [SHED coverage-transition
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The recontact panel adds stable,
+lost, gained, and persistently uninsured routes with care-foregoing paths and
+2025 debt, savings, borrowing, purchase-delay, and health context beside the
+Oregon randomized coverage-access result. The next test is a same-respondent
+ledger joining coverage start/stop, plan/network, need, bill, care decision,
+payment/debt, completion, work/care time, adaptation, correction, health, trust,
+and later persistence or exit; preserve small transition cells and descriptive,
+non-adequacy boundaries.

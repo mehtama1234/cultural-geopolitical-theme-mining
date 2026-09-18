@@ -2600,3 +2600,11 @@ responses, but the gradients are non-monotonic and strongly conditioned by party
 identity; controls for health condition, insurance, and income remain descriptive.
 The forward-looking concern item is not a bill or care event, and the tables do
 not establish causal trust change, remedy receipt, direct action, or recovery.
+
+The new [SHED coverage-transition trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a same-respondent coverage-path layer. Care-foregoing persistence is higher
+in the insured-to-uninsured and persistently uninsured routes, while gaining
+coverage does not by itself remove medical debt, reduced savings, borrowing,
+delayed purchases, or fair/poor health. This is a selected descriptive panel;
+plan adequacy, network fit, dated bills, treatment continuity, remedy, trust,
+and causal timing remain unobserved.
