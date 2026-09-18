@@ -40,6 +40,7 @@ follows a distinct mechanism while stating its evidence boundary:
 - [Fraud exposure becomes a household event only when loss is realized](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md): same-respondent exposure, realized loss, reporting, sparse recovery, later household strain, and the open remedy/exit boundary.
 - [A recall key links correction progress without proving consumer recovery](analysis/projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md): a dated VRURC hazard notice, replacement route, later CPSC correction snapshot, denominator reconciliation, and the missing purchaser-level outcome.
 - [AI can change work time before the record shows who controls it](analysis/projects/ai-work-control/findings/ai-work-control-094.md): randomized time and task effects, algorithmic-management monitoring, executive expectations, formal representation, and the open worker-control arrow.
+- [Insurance complaint recovery is not the same as keeping a home repairable](analysis/projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md): New York DFS complaint closure, reported recovery, availability governance, policy-exit reporting, and the open repair/stay/move chain.
 - [Practical exit observability audit](analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md): remedies across benefits, platforms, fraud, finance, insurance, local services, and product recalls.
 
 The common question across these deep dives is: what is actually protected,

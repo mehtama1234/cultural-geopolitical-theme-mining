@@ -872,6 +872,12 @@ result remains unweighted, descriptive, and cut-point-sensitive.
 The [California sensitivity finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-002.md)
 promotes that counterexample into the published atlas and keeps the next test
 on pre-specified multi-cut-point and property-year validation.
+The new [New York DFS housing-recourse finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-004.md)
+adds the state institutional middle: complaint closure, reported recovery,
+positive-outcome labels, availability data calls, and policy-termination
+reporting. It does not close claim adequacy, repair, coverage retention, or
+move/stay, so the next decisive artifact remains a compatible property/policy
+episode ledger.
 
 The [CES local trust/action context layer](projects/us-immigration-local-demand/migration-place-local-trust-action-context-v1.md)
 now supplies a county-keyed political-context screen from public survey data;
