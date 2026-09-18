@@ -1059,6 +1059,13 @@ pooled. Authorization, funding, milestones, operation, replaceability,
 affected-actor response, and leverage remain separate clocks; the next test is
 an identifier-bearing production-to-use and response ledger.
 
+The capacity rotation now adds the [Taiwan semiconductor partial-realization record](records/us-commerce-taiwan-semiconductor-investment-2026.json).
+TSMC Arizona supplies a first-fab production and workforce stage beside
+investment, CHIPS, later-fab, packaging, childcare, and supplier commitments.
+It strengthens the commitment-to-operation bridge without establishing output
+yield, domestic ownership, replaceability, local burden, or geopolitical
+leverage.
+
 The next migration/cultural-meaning rotation adds the [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md).
 Pew's Latino survey places perceived family progress beside American-Dream
 attainability, nativity, future children, and open-ended definitions of a good

@@ -1829,6 +1829,14 @@ replaceability, domestic autonomy, or leverage; identifier-bearing production,
 customer/partner use, substitute qualification, maintenance, and external
 response remain open.
 
+The [Taiwan semiconductor record](records/us-commerce-taiwan-semiconductor-investment-2026.json)
+adds a partial realization case to that capacity map. Commerce reports an
+at-least-$250 billion Taiwan-linked investment commitment; TSMC Arizona reports
+N4 high-volume production, more than 3,000 employees, later-fab targets, and a
+$6.6 billion CHIPS award. These stages do not establish full output, yield,
+ownership, local resource burden, supply-chain replacement, or geopolitical
+leverage.
+
 The [bulk-power security record](records/us-eo-14421-bulk-power-security-2026.json)
 adds a dated federal security-governance surface. Executive Order 14421 names
 foreign equipment and remote-access risks and authorizes possible restriction,
