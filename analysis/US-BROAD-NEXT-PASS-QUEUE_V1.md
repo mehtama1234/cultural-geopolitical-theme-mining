@@ -2619,9 +2619,10 @@ bill, alongside alleged delivery fees, recurring-subscription friction, and
 tens of thousands of consumer contacts. The complaint also alleges delayed
 paper-check timing and some utility shutoffs, insurance lapses, fees, or fines
 despite believed on-time payment; these are complaint-level consequences, not
-person-level outcomes. The August 17 stipulated order imposes a $2.1 million
-monetary judgment in three installments and disclosure/consent controls; money
-received may be used for consumer relief, but the FTC case page still marks the
+person-level outcomes. The August 17 filed stipulated proposed order sets
+proposed $2.1 million monetary-judgment terms in three installments and
+disclosure/consent controls; money received may be used for consumer relief,
+but court entry is not established and the FTC case page still marks the
 matter pending. This updates the institutional and risk stages without showing
 installment completion, payment success, person-level bill status or service
 continuity, individual remedy receipt, or switching. The next smallest test is
@@ -2645,12 +2646,12 @@ obtain one lawful small event ledger or valid panel with those missing fields;
 otherwise rotate to a subgroup/place reversal from retained data.
 
 The detailed practical-exit finding extends this comparison to ten routes by
-adding the Doxo bill-payment enforcement case and Grubhub's aggregate remedy
-program, plus the VRURC recall implementation bridge and Amazon Flex tip-refund
-program. Those records improve coverage of formal consumer response and
-distribution, but remain open on person-level alternatives, payment success,
-remedy receipt, protected outcomes, trust, switching, and exit; they do not
-change the qualification result.
+adding the Doxo bill-payment enforcement case and Grubhub's court-entered,
+administrator-distributed remedy program, plus the VRURC recall implementation
+bridge and Amazon Flex tip-refund program. Those records improve coverage of
+formal consumer response, payment authority, and distribution, but remain open
+on person-level alternatives, payment acceptance, protected outcomes, trust,
+switching, and exit; they do not change the qualification result.
 
 The [subgroup-conditioned SIPP work-direction finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-045.md)
 now supplies that reversal from retained data. Across children-present,
@@ -2663,11 +2664,13 @@ alternatives and follow-up.
 
 The [Grubhub platform-remedy finding](findings/us-grubhub-platform-remedy-001.md)
 now serves as the comparative implementation counterexample in the consumer
-lane: the FTC refund page reports 640,038 checks or PayPal payments totaling
-more than $23.8 million, with explicit cash-in/redemption windows. This closes
-an aggregate distribution stage beyond a settlement design, but not individual
-receipt, restored income/access, remedy adequacy, continued use, switching, or
-exit. The next test remains a group-specific remedy ledger rather than another
+lane: the FTC court-entered order records a $140 million judgment and $24.8
+million payment to the Commission, while the refund page reports 640,038 checks
+or PayPal payments totaling more than $23.8 million, with explicit
+cash-in/redemption windows. This closes court-authority and aggregate
+distribution stages beyond a settlement design, but not individual receipt,
+restored income/access, remedy adequacy, continued use, switching, or exit.
+The next test remains a group-specific remedy ledger rather than another
 aggregate redress total.
 
 ### Broad coverage control audit — 2026-09-17

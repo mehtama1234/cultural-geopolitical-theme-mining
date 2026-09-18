@@ -1,6 +1,6 @@
 # A platform remedy can reach workers and diners without proving lived recovery
 
-**Status:** provisional named multi-sided platform finding · **Checked:** 2026-09-17
+**Status:** provisional named multi-sided platform finding · **Checked:** 2026-09-18
 
 The Grubhub case makes the platform's several constituencies visible in one
 institutional record: diners face price and account-access rules, drivers face
@@ -35,12 +35,16 @@ and listed restaurants without permission. The settlement requires honest
 driver-pay advertising, a mechanism for users to dispute blocked accounts, and
 restaurant consent for platform listings.
 
-The August 2026 refund administration is a stronger remedy surface than a
-settlement announcement alone: the FTC identifies 640,038 payments and more
-than $23.8 million in total, with checks and PayPal payments subject to stated
-cash-in or redemption windows. Those are administrator-reported program
-measures, not a group-specific recovery rate or proof that a platform error was
-corrected for every recipient.
+The court-entered December 31, 2024 order is a stronger institutional stage
+than a settlement announcement alone: it records a $140 million judgment,
+requires $24.8 million to be paid to the FTC plus a $200,000 Illinois
+contribution, and sets account, fee, cancellation, driver-pay, and restaurant-
+consent controls. The August 2026 refund administration then identifies
+640,038 payments totaling more than $23.8 million, with checks and PayPal
+payments subject to stated cash-in or redemption windows. These are separate
+stages: court-ordered payment, administrator-sent payment, and individual
+cashing or acceptance. None is a group-specific recovery rate or proof that a
+platform error was corrected for every recipient.
 
 ## Evidence boundary
 
@@ -48,7 +52,7 @@ corrected for every recipient.
 |---|---|---|
 | Platform exposure | FTC alleges hidden delivery-cost presentation, blocked diner accounts/funds, deceptive driver earnings claims, and unauthorized restaurant listings | Individual exposure, amount, decision path, alternatives, and counterfactual platform choice |
 | Distribution | Drivers, diners, and restaurants are named as distinct affected groups | Group-specific denominators, incidence, restaurant visibility loss, driver income change, and diner loss |
-| Remedy | More than $23.8M sent to 640,038 drivers and diners; pay, dispute, and restaurant-consent controls reported | Individual receipt, correction, restored access/income, administrator completion, and implementation quality |
+| Remedy | Court-entered $140M judgment with $24.8M FTC payment and $200,000 Illinois contribution; later administrator-reported $23.8M+ sent in 640,038 payments; pay, dispute, and restaurant-consent controls reported | Individual cashing/PayPal acceptance, correction, restored access/income, administrator completion, and implementation quality |
 | Later consequence | Formal route to contestability and consent is visible | Continued use, switching, non-use, trust, collective action, and firm/market response |
 
 The important distinction is between a remedy being designed or distributed and
@@ -72,6 +76,7 @@ population denominators and from verified household or worker outcomes.
 - [FTC Grubhub payment announcement](https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-earnings-claims-other)
 - [FTC Grubhub refund page](https://www.ftc.gov/enforcement/refunds/grubhub-refunds)
 - [FTC Grubhub case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/202-3157-grubhub-inc-ftc-illinois-v)
+- [FTC Grubhub court-entered stipulated order](https://search.ftc.gov/system/files/ftc_gov/pdf/013_2024-12-31_grubhub_stipulated_order.pdf)
 - [Machine-readable Grubhub record](../records/us-ftc-grubhub-multisided-remedy-2026.json)
 
 **Evidence status:** official enforcement and refund-program records; group-

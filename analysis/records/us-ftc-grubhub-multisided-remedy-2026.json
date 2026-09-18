@@ -14,7 +14,7 @@
   "geography": "United States federal and Illinois consumer-protection enforcement involving Grubhub platform participants",
   "observations": [
     {
-      "period": "December 2024 allegations and settlement; payment administration checked August-September 2026",
+      "period": "December 31, 2024 court-entered order; payment administration checked September 18, 2026",
       "denominator": {
         "value": 640038,
         "unit": "affected consumers identified for checks or PayPal payments; group composition not disclosed in the announcement",
@@ -25,6 +25,16 @@
           "value": 23800000,
           "unit": "US dollars, more than",
           "value_type": "reported_payment_distribution_total"
+        },
+        "court_entered_monetary_judgment": {
+          "value": 140000000,
+          "unit": "US dollars; joint-and-several judgment, with $24.8 million payment and remainder suspended subject to financial representations",
+          "value_type": "court_entered_monetary_judgment"
+        },
+        "court_ordered_payment_to_ftc": {
+          "value": 24800000,
+          "unit": "US dollars payable within 7 days of order entry; court order also requires a $200,000 Illinois contribution",
+          "value_type": "court_ordered_payment"
         },
         "payment_recipients_identified": {
           "value": 640038,
@@ -50,10 +60,15 @@
           "value": "not observed in the public announcement",
           "unit": "missing endpoint",
           "value_type": "unmeasured"
+        },
+        "payment_acceptance_window": {
+          "value": "check recipients are instructed to cash within 90 days; PayPal recipients are instructed to accept within 30 days",
+          "unit": "administrator instruction; not proof of cashing or acceptance",
+          "value_type": "reported_receipt_process"
         }
       },
-      "method": "Official FTC enforcement/payment announcement and active refund-program list; the aggregate payment and recipient counts are retained as administrator-reported program measures, not as group-specific recovery rates.",
-      "uncertainty": "The announcement does not separate drivers, diners, and restaurants within the 640,038 count, disclose amounts by group, establish individual receipt or correction, or report continued platform use, alternatives, switching, trust, or exit.",
+      "method": "Official FTC court-entered order, refund-program page, payment announcement, and active refund-program list; court-ordered payment, administrator-sent payments, and recipient acceptance are retained as separate stages, not as group-specific recovery rates.",
+      "uncertainty": "The public materials do not separate drivers and diners within the 640,038 payment count, disclose amounts by group, establish individual cashing or PayPal acceptance, identify account correction or restored income, or report continued platform use, alternatives, switching, trust, or exit.",
       "subgroup": "Affected Grubhub drivers, diners, and restaurants; eligibility and program denominators are not separately published in the checked announcement.",
       "counterinterpretation": "Aggregate payments may resolve some monetary loss while leaving account access, platform visibility, or worker income unchanged; prospective controls may exist formally without being used or enforced consistently.",
       "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-earnings-claims-other",
@@ -63,15 +78,22 @@
   ],
   "related_sources": [
     {
+      "source_url": "https://search.ftc.gov/system/files/ftc_gov/pdf/013_2024-12-31_grubhub_stipulated_order.pdf",
+      "claim": "Court-entered order records a $140 million monetary judgment, a $24.8 million payment to the FTC, a $200,000 Illinois contribution, consumer-relief authority, and prospective account, fee, cancellation, pay, and restaurant controls.",
+      "status": "official-court-entered-order",
+      "retrieval_hash": "sha256:989506f9d01fb397127b230b392afb6b8ffbc810c4351cb0f0f174e89f04a9af"
+    },
+    {
       "source_url": "https://www.ftc.gov/enforcement/refunds",
       "claim": "FTC lists Grubhub refunds as an active August 2026 refund program and identifies the administrator.",
       "status": "official-refund-program-list"
     }
   ],
-  "boundary": "This record establishes a reported multi-sided platform-remedy program with aggregate payment distribution and prospective pay, account-contestability, and restaurant-consent requirements. It does not establish group-specific exposure, individual receipt, restored income or access, implementation quality, alternatives, switching, trust, collective action, or exit.",
+  "boundary": "This record establishes a court-entered multi-sided platform-remedy order, a reported $24.8 million FTC payment obligation, and an administrator-reported 640,038-payment distribution with explicit cashing/acceptance windows. It does not establish group-specific exposure, individual cashing or PayPal acceptance, restored income or access, implementation quality, alternatives, switching, trust, collective action, or exit.",
   "reproduction_audit": {
-    "retrieval_hash_scope": "FTC Grubhub press-release HTML retrieved without retaining a repository copy",
+    "retrieval_hash_scope": "FTC Grubhub court-entered-order PDF and refund/payment HTML retrieved without retaining repository copies",
     "retrieval_hash": "sha256:419738113e013dbef2f212b357b78bf4fe5b4ff14ac2a58866ddaedebc0f0f5b",
-    "checked": "2026-09-17"
+    "order_retrieval_hash": "sha256:989506f9d01fb397127b230b392afb6b8ffbc810c4351cb0f0f174e89f04a9af",
+    "checked": "2026-09-18"
   }
 }

@@ -855,10 +855,12 @@ recovery, trust, political action, and exit remain open.
 
 The forty-sixth rotation rechecks the consumer-remedy implementation lane
 through the [Grubhub finding](findings/us-grubhub-platform-remedy-001.md).
-The FTC now reports 640,038 checks or PayPal payments totaling more than
-$23.8 million and gives recipients defined cash-in or acceptance windows.
-This is stronger than a proposed remedy: aggregate distribution is observed,
-while individual receipt, restored income/access, adequacy, durability,
+The court-entered order records a $140 million judgment and a $24.8 million
+FTC payment obligation; the FTC later reports 640,038 checks or PayPal
+payments totaling more than $23.8 million and gives recipients defined
+cash-in or acceptance windows. Court authority and administrator-sent
+distribution are observed, while individual receipt, restored income/access,
+adequacy, durability,
 continued use, switching, and exit remain open. It is a comparative
 counterexample to treating a settlement design and a distributed payment as
 the same evidence stage.
@@ -904,8 +906,8 @@ The fifty-first rotation extends the practical-exit comparison with the
 [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 and [Grubhub remedy record](records/us-ftc-grubhub-multisided-remedy-2026.json).
 These cases add reported search-route confusion, alleged payment friction,
-complaint-level payment-timing/service-risk consequences, aggregate remedy distribution,
-and prospective platform controls. They still
+complaint-level payment-timing/service-risk consequences, court-entered and
+aggregate remedy stages, and prospective platform controls. They still
 do not expose the affected unit's usable alternative, payment or income
 outcome, remedy receipt, durability, trust, switching, or exit. The expanded
 eight-route finding therefore strengthens the institutional-response surface
@@ -1411,12 +1413,13 @@ participation.
 The next consumer-recourse rotation promotes the [Doxo bill-payment trend]
 (US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The FTC complaint and August 2026
 stipulated-order materials expose a named search-to-payment route, alleged
-affiliation confusion, add-on fees, recurring charges, a $2.1 million monetary
-judgment, possible consumer-relief use, and permanent disclosure/redress
-controls. They do not expose representative household incidence, payment
-success, bill status, service continuity, installment completion, individual
-redress receipt, or switching; the route remains an institutional case and
-acquisition specification rather than a household hardship rate.
+affiliation confusion, add-on fees, recurring charges, filed proposed
+$2.1 million monetary-judgment terms, possible consumer-relief use, and
+permanent disclosure/redress controls. They do not establish court entry or
+expose representative household incidence, payment success, bill status,
+service continuity, installment completion, individual redress receipt, or
+switching; the route remains an institutional case and acquisition
+specification rather than a household hardship rate.
 
 The next household-energy rotation adds the [SIPP utility-to-work finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-028.md).
 Same-person month-to-next-month pairs place utility-payment difficulty and

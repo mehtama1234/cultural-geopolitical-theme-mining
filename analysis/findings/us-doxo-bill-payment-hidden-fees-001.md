@@ -27,11 +27,12 @@ consumers contacted Doxo about its payment process. These are not population
 rates: the survey is internal and selected, while complaint contacts are
 conditioned on awareness and access to a complaint route.
 
-On August 17, 2026, the FTC case page lists a stipulated order for permanent
-injunction, a $2.1 million monetary judgment payable in three installments,
-and other relief, while marking the case pending. The order permits money
-received to be used for consumer relief, but does not guarantee or document
-individual distribution. It also requires controls for biller-affiliation
+On August 17, 2026, the FTC case page lists a filed stipulated proposed order
+for permanent injunction, a proposed $2.1 million monetary judgment payable in
+three installments, and other relief, while marking the case pending. The
+filed terms permit money received to be used for consumer relief, but do not
+establish court entry, guarantee, or document individual distribution. They
+also require controls for biller-affiliation
 claims, fee and total-cost disclosure, negative-option terms, cancellation,
 financial information, and express informed consent. This updates the
 institutional stage without showing who receives relief, how much, whether a
@@ -64,7 +65,7 @@ service continuity, redress receipt, or later switching.
 | Route discovery | FTC alleges misleading search ads and landing pages made Doxo appear connected to billers | Search exposure, consumer belief, device, biller, and alternatives |
 | Payment cost | Complaint alleges delivery fees and recurring subscription charges | Fee amount per episode, consent, payment success, and bill status |
 | Household effect | Complaint alleges delayed paper-check timing and some utility shutoffs, insurance lapses, fees, or fines despite believed on-time payment | Person-level incidence, late fees, arrears, shutoff verification, stress, time spent, and substitution |
-| Institutional response | August 17 stipulated order: $2.1M monetary judgment, possible consumer-relief use, permanent controls, and compliance duties; case status remains pending | Installment completion, consumer eligibility/distribution, redress receipt, correction, recurrence, and trust |
+| Institutional response | August 17 filed stipulated proposed order: proposed $2.1M monetary judgment, possible consumer-relief use, permanent controls, and compliance duties; case status remains pending | Court entry, installment completion, consumer eligibility/distribution, redress receipt, correction, recurrence, and trust |
 
 The key distinction is between a payment being completed and a payment route
 being understood. A household may pay on time while paying an avoidable fee;

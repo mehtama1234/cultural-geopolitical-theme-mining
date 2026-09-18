@@ -1818,11 +1818,13 @@ observed.
 
 The new [Grubhub multi-sided remedy trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 adds a U.S. platform program with multiple affected sides. FTC/Illinois records
-report more than $23.8 million distributed to 640,038 identified consumers and
-prospective controls for driver-pay claims, blocked-account disputes, and
-restaurant consent. The announcement does not separate drivers, diners, and
-restaurants or establish individual receipt, account/income restoration,
-implementation quality, continued use, switching, or exit.
+report a court-entered $140 million judgment, a $24.8 million FTC payment
+obligation, and more than $23.8 million sent to 640,038 identified consumers,
+alongside prospective controls for driver-pay claims, blocked-account disputes,
+and restaurant consent. The public record still does not separate drivers,
+diners, and restaurants or establish individual cashing/acceptance,
+account/income restoration, implementation quality, continued use, switching,
+or exit.
 
 The [Amazon Flex tip-refund follow-up](projects/ai-work-control/findings/ai-work-control-087.md)
 adds a stronger payment-distribution comparator: the FTC reports more than
@@ -2488,9 +2490,10 @@ redress receipt, or switching. This strengthens the service/recourse lane
 without claiming household incidence or practical recovery.
 The [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 is now linked directly to the recourse matrix, preserving the named-case,
-internal-survey, stipulated monetary judgment, possible consumer-relief use,
-and unobserved household-outcome boundaries. The order does not establish
-installment completion or individual redress receipt.
+internal-survey, filed stipulated proposed monetary-judgment terms, possible
+consumer-relief use, and unobserved household-outcome boundaries. The pending
+case does not establish court entry, installment completion, or individual
+redress receipt.
 
 The new [small-business support-size trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 promotes the NBER/Census eligibility-boundary result into the canonical
