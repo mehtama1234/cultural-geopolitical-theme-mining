@@ -1027,6 +1027,14 @@ channel, and limited to administrative disposition labels. This expands the
 consumer-recourse map into sensitive health-data and treatment-continuity
 control while leaving account-level exposure, payment, medical outcome,
 verified remedy, trust, switching, and practical exit open.
+
+The following rotation adds the [Amazon advertising-auction finding](projects/us-local-business-place/findings/us-local-business-place-013.md).
+The FTC and 22 states allege hidden Sponsored Products surcharges and a route
+from marketplace visibility to seller cost and possible consumer pass-through.
+The case is not adjudicated and provides no auction logs, seller margins,
+product prices, purchases, returns, firm survival, or household denominator.
+This adds a new firm-to-household distribution mechanism while preserving the
+separate seller, product, and consumer clocks.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

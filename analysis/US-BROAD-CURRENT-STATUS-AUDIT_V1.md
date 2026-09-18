@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,270 local Markdown links and 644 published HTML pages pass link
+families; 1,271 local Markdown links and 645 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1793,6 +1793,15 @@ usable disposition. The case is pending, the workbook is selected and heavily
 concentrated in one BBB channel, and neither source establishes customer-wide
 data exposure, unauthorized payment, medical harm, treatment interruption,
 verified remedy, trust change, or practical exit.
+
+The [Amazon advertising-auction finding](projects/us-local-business-place/findings/us-local-business-place-013.md)
+adds a firm-to-household cost mechanism. The FTC and 22 states allege hidden
+Sponsored Products auction surcharges affecting more than 1 million brands and
+sellers, with a claimed rise in advertisers paying their own winning bid and a
+possible consumer pass-through. These remain allegations in a pending case;
+auction logs, seller margins, product prices, purchases, returns, firm exit,
+and a consumer denominator are absent. The new layer therefore strengthens the
+marketplace-power map without creating a pass-through or household-harm rate.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
