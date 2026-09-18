@@ -1889,9 +1889,11 @@ formalizes the next event-compatible route. Month-ordered prescription, office,
 emergency-room, and inpatient events can be compared with same-person care,
 bill, debt, collector, employment, and later-round context; acute event groups
 show higher selected burden levels in some surfaces, while the prescription
-follow-up is mixed across health and work clocks. The route is not causal and
-does not yet contain claim need, alternatives, treatment continuity, remedy,
-verified recovery, trust, action, or exit.
+follow-up is mixed across health and work clocks. The companion payment/bill
+context record shows that observed event payment is not monotonic with annual
+bill-problem reporting. The route is not causal and does not yet contain claim
+need, alternatives, treatment continuity, remedy, verified recovery, trust,
+action, or exit.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
