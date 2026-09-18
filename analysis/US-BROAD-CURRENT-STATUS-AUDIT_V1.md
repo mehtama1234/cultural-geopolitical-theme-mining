@@ -2304,6 +2304,10 @@ the order does not verify payment, net recovery, expenses, alternative work,
 durability, recurrence protection, or practical exit. It therefore separates
 access remedy from financial recovery and formal case action from later
 worker behavior.
+The [Rehman platform-remedy canonical record](records/au-rehman-platform-remedy-2026.json)
+is now linked directly to that finding, preserving its one-case Australian
+jurisdiction, voluntary/formal reactivation sequence, gross ordered amount, and
+unverified payment, net-recovery, durability, and exit boundaries.
 
 The [Hotak follow-up record](records/au-hotak-reactivation-continued-work-2025.json)
 adds observed post-reactivation activity to that remedy boundary: more than
