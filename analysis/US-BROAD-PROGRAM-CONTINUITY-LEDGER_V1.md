@@ -954,7 +954,11 @@ as separate financial-power stages. The [care/living-arrangements trend]
 (US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) adds multigenerational living, paid and
 unpaid childcare, caretaker roles, and adult-care employment associations as a
 second official care surface. Both retain their cross-sectional and
-conditional boundaries.
+conditional boundaries. The [employment/AI-control trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) then adds young-adult job-search
+friction, labor mobility, schedule organization, education-stratified AI use,
+and task-control differences as a distinct work/technology surface. It does
+not establish displacement, productivity, bargaining power, or worker action.
 
 The current worker-control follow-up adds two storage-light official-source
 audits without counting them as a new population estimate. The [Elegant AI

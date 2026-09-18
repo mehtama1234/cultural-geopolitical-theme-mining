@@ -1929,6 +1929,15 @@ displaced, alternative quality, schedule control, employer response, or later
 recovery; SHED remains descriptive context until a same-family or person-level
 episode design is available.
 
+The [2025 SHED employment/AI-control finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-030.md)
+adds an AI/work counterexample to simple displacement narratives. It places
+young-adult job-search friction, layoffs, voluntary movement, schedule
+organization, education-stratified AI use, and task-control differences on one
+official population surface. The result strengthens the outside-options and
+workplace-control map but does not establish AI displacement, productivity,
+pay, bargaining power, employer permission, trust, or political action. A
+same-worker longitudinal route remains open.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds national moral mood, perceived policy influence, public-role legitimacy,
 religious influence, and issue-specific acceptability to themes 9, 10, 11, and
