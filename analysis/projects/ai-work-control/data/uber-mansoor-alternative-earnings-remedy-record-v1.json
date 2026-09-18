@@ -1,0 +1,42 @@
+{
+  "format": "platform-remedy-alternative-earnings-record-v1",
+  "checked": "2026-09-18",
+  "case_id": "AU-07",
+  "matter": "UDE2025/141",
+  "worker": "Shahid Mansoor",
+  "jurisdiction": "Australia",
+  "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf",
+  "order_url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf",
+  "observed_stages": {
+    "deactivation": "2025-06-13; adjudicated unfair deactivation",
+    "alternative_work": [
+      {
+        "route": "Baysec Group Pty Ltd",
+        "amount": 9000.0,
+        "currency": "AUD",
+        "period": "after deactivation; decision describes the amount as new earnings",
+        "evidence": "Applicant agreed to $9,000 received for work performed for Baysec; Commission deducted it as substitute earnings"
+      },
+      {
+        "route": "Didi",
+        "amount": 1760.0,
+        "currency": "AUD",
+        "period": "estimated increase after deactivation above extrapolated pre-deactivation earnings",
+        "evidence": "Commission compared approximately $1,284 extrapolated pre-deactivation earnings with approximately $3,044 in the following four months"
+      }
+    ],
+    "formal_remedy": "Reactivation on prior terms plus $6,073.23 gross less tax for lost earnings, payable within 14 days of 2025-10-17",
+    "payment_receipt": "not observed",
+    "actual_access_after_order": "not observed",
+    "later_continued_use_or_exit": "not observed"
+  },
+  "safe_interpretation": "This is an observed substitute-earnings response during a platform deactivation and a formal lost-earnings remedy in the same adjudicated case. It advances the alternative-work stage but does not establish a freely chosen equivalent, worker welfare recovery, payment receipt, durable access, or practical exit.",
+  "not_established": [
+    "whether Baysec or Didi work was available by choice rather than necessity",
+    "hours, expenses, conditions, or net income on the alternative routes",
+    "receipt of the ordered $6,073.23",
+    "actual Uber account restoration or later platform use",
+    "household protected or sacrificed outcomes, trust, recurrence, or exit"
+  ],
+  "storage_note": "Only bounded case-level fields and official source URLs are retained; no bank statements or personal identifiers from the exhibits are retained."
+}

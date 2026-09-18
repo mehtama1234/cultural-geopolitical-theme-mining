@@ -25,7 +25,7 @@ def main() -> int:
     payment = Counter(r["stages"]["payment_compensation"] for r in records)
     result = {
         "format": "platform-remedy-implementation-depth-audit-v1",
-        "checked": "2026-09-16",
+        "checked": "2026-09-18",
         "source": "analysis/projects/ai-work-control/data/platform-remedy-case-ledger-v1.json",
         "source_unit": "27 coded platform-remedy case records; not a representative sample",
         "record_count": len(records),
@@ -33,6 +33,7 @@ def main() -> int:
             "formal_reactivation_or_restoration_order": len(cases(lambda r: "reactivation_ordered" in r["stages"]["correction_restoration"])),
             "access_resumed_without_merits_remedy": len(cases(lambda r: r["stages"]["correction_restoration"] == "observed_access_resumed_not_merits_remedy")),
             "continued_work_after_restoration": len(cases(lambda r: r["stages"]["correction_restoration"] == "observed_adjudicated_reactivation_and_continued_work")),
+            "alternative_earnings_documented": len(cases(lambda r: "alternative_work" in r["decision_surface"])),
             "payment_or_lost_earnings_stage_observed": len(cases(lambda r: "observed" in r["stages"]["payment_compensation"])),
             "payment_receipt_verified": 0,
             "durable_access_or_non_retaliation_verified": 0
@@ -42,10 +43,11 @@ def main() -> int:
         "named_stage_cases": {
             "formal_reactivation_or_restoration_order": cases(lambda r: "reactivation_ordered" in r["stages"]["correction_restoration"]),
             "access_resumed_without_merits_remedy": cases(lambda r: r["stages"]["correction_restoration"] == "observed_access_resumed_not_merits_remedy"),
-            "continued_work_after_restoration": cases(lambda r: r["stages"]["correction_restoration"] == "observed_adjudicated_reactivation_and_continued_work")
+            "continued_work_after_restoration": cases(lambda r: r["stages"]["correction_restoration"] == "observed_adjudicated_reactivation_and_continued_work"),
+            "alternative_earnings_documented": cases(lambda r: "alternative_work" in r["decision_surface"])
         },
-        "result": "The ledger observes formal remedy stages more often than lived implementation. It contains orders and one continued-work record, but no verified payment receipt, durable access, or non-retaliation outcome.",
-        "boundary": "Stage strings are source-coded evidence labels, not case weights, remedy rates, worker-welfare estimates, or prevalence estimates. An order is not receipt and continued work in one case is not durable recovery.",
+        "result": "The ledger observes formal remedy stages more often than lived implementation. It contains orders, one continued-work record, and one case with substitute earnings documented during the interruption, but no verified payment receipt, durable access, or non-retaliation outcome.",
+        "boundary": "Stage strings and decision-surface labels are source-coded evidence labels, not case weights, remedy rates, worker-welfare estimates, or prevalence estimates. An order is not receipt, substitute earnings are not unconstrained choice, and continued work in one case is not durable recovery.",
         "storage_boundary": "Reads one committed JSON ledger and writes a compact JSON summary; no download or raw-data acquisition."
     }
     args.output.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")

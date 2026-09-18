@@ -250,12 +250,12 @@
       "place": "Australia",
       "population": "Shahid Mansoor and Uber Driver Platform",
       "source_type": "Fair_Work_Commission_primary_decision_and_order",
-      "decision_surface": ["complaint_based_deactivation", "platform_access", "lost_earnings"],
-      "worker_route": "Worker response, statutory unfair-deactivation application, reactivation and payment order",
+      "decision_surface": ["complaint_based_deactivation", "platform_access", "alternative_work", "lost_earnings"],
+      "worker_route": "Worker response, statutory unfair-deactivation application, substitute work through Baysec and Didi, reactivation and payment order",
       "implementation_stage": "payment_order_and_deadline_observed_receipt_open",
       "stages": {"explanation": "observed_adjudicated_insufficient", "human_review": "observed_adjudicated_insufficient", "correction_restoration": "observed_adjudicated_reactivation_ordered", "payment_compensation": "observed_adjudicated_lost_earnings_ordered", "anti_retaliation": "not_observed"},
-      "evidence_strength": "high_for_decision_order_amount_and_deadline_low_for_receipt_durability_and_generalization",
-      "boundary": "PR792727 orders reactivation on prior terms and $6,073.23 gross less tax for lost earnings, payable within 14 days. Receipt, actual access, continued work, recurrence prevention, and anti-retaliation are not observed."
+      "evidence_strength": "high_for_decision_order_amount_deadline_and_substitute_earnings_low_for_receipt_durability_and_generalization",
+      "boundary": "The merits decision documents $9,000 in new Baysec earnings and an increase in Didi earnings after deactivation; those substitute earnings were deducted in calculating a $6,073.23 gross lost-earnings order under PR792727. The record does not establish whether the work was a freely chosen equivalent, whether Uber access was restored in practice, whether the ordered amount was received, or whether access and income were durable."
     },
     {
       "id": "PR-021",

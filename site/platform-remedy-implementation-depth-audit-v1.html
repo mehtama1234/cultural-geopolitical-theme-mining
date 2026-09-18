@@ -2,7 +2,7 @@
 .toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#question">Question</a></li><li><a href="#result">Result</a></li><li><a href="#remedy-chain">Remedy chain</a></li><li><a href="#why-this-matters-for-the-broad-goal">Why this matters for the broad goal</a></li><li><a href="#smallest-decisive-next-test">Smallest decisive next test</a></li><li><a href="#reproduction">Reproduction</a></li></ul></nav></div><article id="finding" class="memo"><h1>Platform-remedy implementation-depth audit v1</h1>
 <p><strong>Status:</strong> source-coded implementation-stage audit; no remedy rate or welfare
 estimate<br />
-<strong>Checked:</strong> 2026-09-16<br />
+<strong>Checked:</strong> 2026-09-18
 <strong>Source:</strong> 27 records in the committed platform-remedy case ledger<br />
 <strong>Machine-readable audit:</strong> <a href="../analysis/projects/ai-work-control/data/platform-remedy-implementation-depth-audit-v1.json">implementation-depth audit</a></p>
 <h2 id="question">Question</h2>
@@ -36,6 +36,11 @@ interchangeable:</p>
 <td>One primary record reports more than 150 later trips</td>
 </tr>
 <tr>
+<td>Alternative earnings during interruption</td>
+<td style="text-align: right;">1</td>
+<td>Mansoor's merits decision documents Baysec and increased Didi earnings used in the lost-pay calculation</td>
+</tr>
+<tr>
 <td>Payment or lost-earnings stage observed</td>
 <td style="text-align: right;">6</td>
 <td>A rule, entitlement, order, or wage consequence is recorded</td>
@@ -54,14 +59,16 @@ interchangeable:</p>
 </table>
 <p>The counts overlap. A case may have both a reactivation order and a payment
 order. They are stage counts, not percentages of workers or independent
-outcomes. The continued-work record is the Hotak case; it does not establish
-net income, payment receipt, later access, or protection from retaliation.</p>
+outcomes. The continued-work record is the Hotak case; the alternative-earnings
+record is the Mansoor case. Neither establishes net recovery, payment receipt,
+durable access, or protection from retaliation. The Mansoor evidence also does
+not show that substitute work was freely chosen or equivalent in conditions.</p>
 <h2 id="remedy-chain">Remedy chain</h2>
 <pre><code class="language-text">deactivation
   -&gt; explanation/review
   -&gt; legal or institutional challenge
   -&gt; restoration order or voluntary access resumption
-  -&gt; actual work or service access
+  -&gt; actual work or service access / substitute earnings
   -&gt; payment receipt and income recovery
   -&gt; durable access, corrected record, and non-retaliation
 </code></pre>
@@ -78,9 +85,11 @@ implementation != receipt
 receipt != durable recovery
 continued use != unconstrained choice
 </code></pre>
-<p>It also preserves the counterexample: Hotak shows that a worker can regain
+<p>It also preserves two counterexamples: Hotak shows that a worker can regain
 access and perform substantial subsequent work while lost remuneration and
-durable protection remain open. Formal remedy and practical recovery can move
+durable protection remain open; Mansoor shows that substitute earnings can be
+documented and deducted from a formal lost-pay order while choice, receipt,
+and durable recovery remain open. Formal remedy and practical recovery can move
 on different clocks.</p>
 <h2 id="smallest-decisive-next-test">Smallest decisive next test</h2>
 <p>For one already identified case, obtain a dated worker-side or platform-side
