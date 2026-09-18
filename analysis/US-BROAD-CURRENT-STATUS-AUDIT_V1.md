@@ -2667,3 +2667,15 @@ condition on employment, and Numerator is a permissioned market-research panel.
 The next test is a same-household ledger joining prices paid, earnings/hours,
 benefits, debt/credit, quantities and substitution, care/housing/health
 trade-offs, attribution, trust, action, and recovery.
+
+The next same-respondent rotation promotes the [HTOPS material/trust panel
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The April–June 2025 SCRAMID link
+adds descriptive transitions for expense difficulty, food insufficiency,
+energy-bill difficulty, and confidence in Congress among 6,564 retained
+respondents. This strengthens the transition surface beyond the separate March
+and July cross-sectional snapshots, but it is not an attrition-adjusted
+longitudinal estimator: April weights are cross-sectional, retention is
+selected, and the items do not identify a dated bill, assistance route,
+institutional blame, causality, or political action. The next test is a
+same-household event ledger joining exposure, support/payment, confidence or
+attribution, remedy, later material state, trust, action, and recovery.
