@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-320 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+321 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -241,6 +241,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | CDC PLACES county vintages move across distinct health and social-need surfaces | cost, time, voice | care_health_reproduction, housing_place_mobility, unequal_exposure_status, public_systems_feedback, trust_identity_meaning | Same county FIPS in selected CDC PLACES 2024 and 2025 releases, with 2023 CBP health-establishment capacity quartiles | United States; 2,885 common county FIPS with capacity context | 3 | PLACES 2024 release -> PLACES 2025 release; all common counties; PLACES 2024 release -> PLACES 2025 release; low health-establishment-capacity quartile; PLACES 2024 release -> PLACES 2025 release; high health-establishment-capacity quartile | compared | [open](records/us-cdc-places-vintage-comparison-2024-2025.json) |
 
 **Boundary:** This is a descriptive vintage comparison of modeled county estimates. It does not estimate change for the same residents, local intervention effects, provider adequacy, patient access, household outcomes, trust, or political action.
+
+| Child-care difficulty converts time and money into unequal work adaptations | time, work, cost | time_hidden_price, care_health_reproduction, work_control_bargaining, household_room_consumption, unequal_exposure_status | U.S. Census Bureau 2025 CPS ASEC working paper; households with children ages 0–13, reference year 2024 | United States | 1 | 2024 reference year; 2025 CPS ASEC collection and May 2026 Census working paper | compared | [open](records/us-census-childcare-challenges-work-adaptation-2025.json) |
+
+**Boundary:** This record establishes a descriptive household care-to-work adaptation surface for the 2024 reference year. It does not establish a dated provider disruption, subsidy or leave eligibility, causal child-care policy effect, wage/job loss, child outcome, later recovery, trust, political action, or longitudinal household trajectory.
 
 | Census pulse snapshots show which household-pressure and trust measures move together across 2026 | cost, voice, energy | household_room_consumption, unequal_exposure_status, care_health_reproduction, trust_identity_meaning, political_judgment_action | US Census Bureau HTOPS/HPS March, corrected May, and July 2026 public-use person respondents | United States | 3 | March 2026; May 2026 corrected; July 2026 | compared | [open](records/us-census-htops-hps-material-trust-crosswave-2026.json) |
 

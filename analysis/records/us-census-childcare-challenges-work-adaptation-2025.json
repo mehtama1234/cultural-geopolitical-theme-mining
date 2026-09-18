@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-childcare-challenges-work-adaptation-2025",
+  "title": "Child-care difficulty converts time and money into unequal work adaptations",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Census Bureau 2025 CPS ASEC working paper; households with children ages 0–13, reference year 2024",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 reference year; 2025 CPS ASEC collection and May 2026 Census working paper",
+      "denominator": {
+        "value": 30400000,
+        "unit": "US households reporting a child age 0–13; 7.3 million used paid care",
+        "value_type": "reported_household_universe"
+      },
+      "measures": {
+        "paid_childcare_use": {"value": 23.9, "unit": "percent of households with children 0–13", "value_type": "weighted_share"},
+        "mean_paid_childcare_spending": {"value": 10520, "unit": "US dollars among households with nonzero paid-care spending", "value_type": "weighted_mean"},
+        "mean_childcare_income_share": {"value": 5.6, "unit": "percent of household income among households with paid-care spending", "value_type": "weighted_mean_share"},
+        "adequate_care_problem": {"value": 3.7, "unit": "percent of households with children reporting problems obtaining care that prevented more work", "value_type": "weighted_share"},
+        "mean_work_days_lost": {"value": 65.8, "unit": "converted work days among households reporting a child-care problem", "value_type": "weighted_mean"},
+        "below_100_fpl_work_days_lost": {"value": 114.6, "unit": "converted work days among affected households below 100% FPL", "value_type": "weighted_mean"},
+        "paid_leave_adaptation": {"value": 15.6, "unit": "percent of households with children selecting paid leave; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "unpaid_leave_adaptation": {"value": 8.1, "unit": "percent of households with children selecting unpaid leave; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "cut_hours_adaptation": {"value": 6.7, "unit": "percent of households with children selecting reduced work hours; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "quit_job_adaptation": {"value": 2.0, "unit": "percent of households with children selecting job quitting; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "did_not_look_for_job_adaptation": {"value": 4.1, "unit": "percent of households with children selecting non-search; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "supervised_while_working_adaptation": {"value": 6.8, "unit": "percent of households with children selecting supervision while working; adaptations are not mutually exclusive", "value_type": "weighted_share"},
+        "low_income_paid_leave": {"value": 4.9, "unit": "percent below 100% FPL selecting paid leave", "value_type": "weighted_share"},
+        "high_income_paid_leave": {"value": 21.2, "unit": "percent above 400% FPL selecting paid leave", "value_type": "weighted_share"},
+        "low_income_nonsearch": {"value": 14.0, "unit": "percent below 100% FPL selecting did not look for a job", "value_type": "weighted_share"},
+        "high_income_nonsearch": {"value": 6.9, "unit": "percent above 400% FPL selecting did not look for a job", "value_type": "weighted_share"}
+      },
+      "method": "Census analysis of new 2025 CPS ASEC child-care challenge and adaptation questions plus established expense, income, family, and labor-force measures; estimates use replicate weights and adaptations allow multiple responses.",
+      "uncertainty": "The reference period is 2024 and the paper is descriptive. Child-care problems, work-time loss, paid care, and adaptation categories have distinct universes; time lost is converted from hours/days/weeks with top-coding, and the paper does not follow households longitudinally or estimate a policy effect.",
+      "subgroup": "Households with children ages 0–13, conditioned by youngest-child age, poverty status, family structure, and reference-person/second-adult labor-force status.",
+      "counterinterpretation": "Lower-income households report less paid-care use and paid leave but more non-search, which may reflect limited access, different care arrangements, job conditions, or interpretation of the work-time question rather than lower care need; paid-care spending is not the total burden.",
+      "source_url": "https://www2.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.pdf",
+      "retrieval_hash": "sha256:13ed8c94380fa764ff843ddb28d5f5a2da433e5593daff81530663f928240917",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html", "claim": "Official Census landing page gives paper title, date, authors, abstract, and PDF route.", "status": "official-landing-page"},
+    {"source_url": "../../projects/us-aging-care-strain/census-2025-childcare-challenges-work-adaptation-layer-v1.md", "claim": "Local memo preserves the care-to-work interpretation and open-arrow boundary.", "status": "local-analysis-note"}
+  ],
+  "boundary": "This record establishes a descriptive household care-to-work adaptation surface for the 2024 reference year. It does not establish a dated provider disruption, subsidy or leave eligibility, causal child-care policy effect, wage/job loss, child outcome, later recovery, trust, political action, or longitudinal household trajectory.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census working-paper PDF retrieved and hashed; no CPS microdata downloaded",
+    "pdf_sha256": "sha256:13ed8c94380fa764ff843ddb28d5f5a2da433e5593daff81530663f928240917",
+    "checked": "2026-09-18"
+  }
+}

@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 320 records and
-1147 observations.
+have exact registered-URL references. The trend registry holds 321 records and
+1148 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -2941,6 +2941,11 @@ job exit, non-search, and work-plus-supervision. The next test is a dated
 care-event ledger with provider disruption, subsidy/leave access, schedule,
 informal support, work, earnings, and later care/work outcome; do not treat
 low paid-care spending as low care burden.
+The [canonical child-care/work trend](records/us-census-childcare-challenges-work-adaptation-2025.json)
+now preserves the official paper's conditional household universe, converted
+work-time measure, replicate-weight boundary, and non-mutually-exclusive
+adaptation menu. It advances the care-to-work bridge without closing the dated
+provider event, subsidy/leave route, later recovery, trust, or action fields.
 
 The [GAO 2026 military child-care workforce and capacity layer](projects/us-aging-care-strain/gao-2026-military-childcare-workforce-capacity-layer-v1.md)
 adds the provider-supply and institutional-readiness stage. It separates

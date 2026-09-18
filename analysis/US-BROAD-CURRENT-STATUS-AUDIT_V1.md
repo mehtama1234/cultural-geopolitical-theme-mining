@@ -4,9 +4,9 @@
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 320 machine-readable records, 1147 observations,
+**Current registry state:** 321 machine-readable records, 1148 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 662 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 663 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1563,6 +1563,14 @@ market-transition or household result.
   hardship, food, and job measures. The estimates remain person-weighted;
   care-field variance and an explicit one-record-per-household rule remain
   open.
+- **Census child-care/work adaptation:** the new [canonical child-care/work
+  record](records/us-census-childcare-challenges-work-adaptation-2025.json)
+  promotes the official 2025 CPS ASEC working-paper surface: care problems,
+  converted work-time loss, paid/unpaid leave, hour cuts, job exit, non-search,
+  and supervision while working. Income-stratified adaptations strengthen the
+  unequal-optionality bridge, but the reference is retrospective and does not
+  identify provider disruption, subsidy/leave access, wages, child outcomes,
+  later recovery, or political action.
 - **SIPP household-unit sensitivity:** a new executable diagnostic selects one
   ERP-preferred record per household-month and matches the selection to all 240
   replicate weights by the available person-month key. Utility-payment,
@@ -1790,10 +1798,10 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 320 trend records and 1147 observations pass the
+the current checkpoint: 321 trend records and 1148 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,305 local Markdown links and 662 published HTML pages pass link
+families; 1,306 local Markdown links and 663 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
