@@ -35,7 +35,7 @@ meaning, and action open.
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
 have exact registered-URL references. The trend registry holds 316 records and
-1134 observations.
+1136 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -232,14 +232,14 @@ contact, and local political action. Lower action with non-uniform approval is
 a counterexample to a single hardship-to-withdrawal or hardship-to-distrust
 rule; exact separation date, attribution, recovery, and exit remain open.
 
-The storage-light Amazon Prime recheck adds an implementation-status
-counterpoint: the settlement administrator FAQ states a July 27, 2026 claims
-deadline and payments by September 2026, while the FTC page checked the same
-day still says claims payments are expected in late 2026 with no mailing date.
-This source-vintage conflict is not a payout result. Individual receipt,
-amount, delay, continued use, switching, trust, and household recovery remain
-open; the next decisive artifact is still a dated distribution ledger or lawful
-account-level follow-up.
+The storage-light Amazon Prime recheck now adds an aggregate implementation
+ledger: the FTC-filed court order reports $845.2M issued and $235.5M accepted
+as of September 9, 2026, split between automatic and claims-process phases.
+The September 17 FTC revision expands automatic eligibility and raises the
+maximum total payment to $200, with later phases still scheduled. Aggregate
+acceptance advances the remedy arrow, but individual receipt, amount, delay,
+continued use, switching, trust, and household recovery remain open; the next
+decisive artifact is still a lawful account-level follow-up.
 
 The small-business disaster-liquidity source pass adds a causal firm-level
 middle layer: recovery loans reduce exit and bankruptcy while increasing
@@ -2508,13 +2508,15 @@ continued payment an unwanted payment or a failed exit without customer-level
 evidence.
 
 The [Amazon Prime refund-distribution finding](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md)
-now supplies the comparative implementation stage. The FTC reports a $1.5
-billion customer-refund pool inside a $2.5 billion settlement, automatic
-refunds in late 2025, and a claims process with remaining payments expected in
-late 2026. This closes aggregate remedy distribution but not eligibility,
-receipt, remaining loss, continued use, switching, or trust. Keep the next
-pass at a small account/administrator ledger; do not download a broad customer
-file or infer individual recovery from the pool total.
+now supplies a phase-level implementation ledger. The FTC reports a $1.5
+billion customer-refund pool inside a $2.5 billion settlement; the court filing
+reports $845.2M issued and $235.5M accepted as of September 9, 2026; and the
+September revision expands automatic eligibility and raises the maximum total
+payment to $200. This closes an aggregate issued/accepted stage but not
+eligibility, individual receipt, adequacy, remaining loss, continued use,
+switching, or trust. Keep the next pass at a small account/administrator ledger;
+do not download a broad customer file or infer individual recovery from the
+aggregate totals.
 
 The same subscription finding now includes Uber One as a service-dependence
 comparison: the FTC amended-complaint release alleges up to 23 cancellation

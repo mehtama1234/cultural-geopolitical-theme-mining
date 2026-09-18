@@ -21,7 +21,7 @@ a source and next test.
 
 - **14** program themes
 - **316** validated machine-readable trend records
-- **1134** period-specific observations
+- **1136** period-specific observations
 - **103** source-search packets
 
 ## Source ecosystem

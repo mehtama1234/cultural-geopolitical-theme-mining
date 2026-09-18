@@ -8,6 +8,45 @@
   "geography": "United States federal consumer-protection enforcement and eligible Amazon Prime customers",
   "observations": [
     {
+      "period": "September 9, 2026 payment status reported in the FTC-filed court order entered September 14, 2026",
+      "denominator": {"value": null, "unit": "Amazon Prime redress-fund payment phases; issued and accepted dollars, not eligible customers", "value_type": "not_disclosed"},
+      "measures": {
+        "automatic_payout_amount_issued": {"value": 429566794, "unit": "US dollars", "value_type": "reported_amount_issued"},
+        "automatic_payout_amount_accepted": {"value": 226806791, "unit": "US dollars", "value_type": "reported_amount_accepted"},
+        "claims_process_amount_issued": {"value": 415640896, "unit": "US dollars", "value_type": "reported_amount_issued"},
+        "claims_process_amount_accepted": {"value": 8658142, "unit": "US dollars", "value_type": "reported_amount_accepted"},
+        "total_amount_issued": {"value": 845207690, "unit": "US dollars", "value_type": "reported_amount_issued"},
+        "total_amount_accepted": {"value": 235464933, "unit": "US dollars", "value_type": "reported_amount_accepted"},
+        "customer_level_receipt_and_later_outcome": {"value": "not observed", "unit": "missing customer-level payment, amount, delay, continued-use, switching, trust, and household-recovery endpoints", "value_type": "unmeasured"}
+      },
+      "method": "FTC-filed stipulated motion/order review; phase-level dollars issued and accepted are retained separately from customer counts, individual receipt, and downstream outcomes.",
+      "uncertainty": "The order reports aggregate phase amounts and does not provide a customer-level denominator, payment-level linkage, accepted-payment distribution, failed-delivery rate, residual loss, or continued-use and household outcomes. Amount accepted is not the same as a successful outcome for every eligible customer.",
+      "subgroup": "Automatic-payout recipients, claims-process eligible consumers, consumers who accepted payments, consumers with unaccepted or voided payments, and customers not yet reached by the recorded phases.",
+      "counterinterpretation": "Aggregate acceptance shows that some redress funds reached consumers, but the lower accepted total than issued can reflect timing, unredeemed payments, voiding rules, or different payment cohorts rather than one uniform recovery rate.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2123050amazonprimeredressfundorder.pdf",
+      "retrieval_hash": "sha256:27df2598792776fc4933abdadaee50eb542261bf042619be3c1cdc53cb216ffd",
+      "status": "reported"
+    },
+    {
+      "period": "September 17, 2026 FTC announcement; revised settlement-order payment expansion beginning October 1, 2026",
+      "denominator": {"value": null, "unit": "eligible Amazon Prime consumers under revised settlement-order rules", "value_type": "not_disclosed"},
+      "measures": {
+        "additional_eligibility": {"value": "consumers who used 11 to 20 Prime benefits in a 12-month period and otherwise meet the revised rule", "unit": "reported eligibility expansion", "value_type": "reported_rule_change"},
+        "additional_automatic_payment_start": {"value": "October 1, 2026", "unit": "reported future distribution date", "value_type": "reported_future_stage"},
+        "maximum_total_payment": {"value": 200, "unit": "US dollars per eligible customer; revised total cap", "value_type": "reported_payment_cap"},
+        "additional_payment_for_prior_recipients": {"value": 149, "unit": "US dollars maximum; possible supplemental payment by April 2027 if threshold conditions are met", "value_type": "reported_future_payment"},
+        "reported_redress_issued_through_september": {"value": 845000000, "unit": "US dollars, more than; FTC reported as of September 2026", "value_type": "reported_amount_issued"},
+        "individual_receipt_and_household_recovery": {"value": "not observed", "unit": "missing customer-level receipt, adequacy, continued-use, switching, trust, and household-recovery endpoint", "value_type": "unmeasured"}
+      },
+      "method": "FTC official press release and current refund page review; observed issued amount, eligibility expansion, future payment dates, and revised cap are coded as separate implementation stages.",
+      "uncertainty": "The announcement establishes a revised program rule and future schedule, not completed payment for the newly eligible group or successful supplemental payment for prior recipients. It does not disclose customer-level eligibility, amounts, acceptance, delay, failed delivery, continued use, switching, or household recovery.",
+      "subgroup": "Previously paid customers, newly eligible 11-to-20-benefit customers, customers receiving electronic or mailed payments, and customers whose payments are not accepted or whose eligibility is unresolved.",
+      "counterinterpretation": "Expanding automatic eligibility may improve reach and reduce claim friction, but it can also prolong the remedy clock; a higher cap does not establish that the payment matches the original charge, time cost, or remaining household loss.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
+      "retrieval_hash": "sha256:c0548182405d7953eb8693caa3a420c55c65508164291639f2514592f0ead0a6",
+      "status": "reported"
+    },
+    {
       "period": "September 25, 2025; court-entered Amazon Prime settlement described by FTC",
       "denominator": {"value": 1, "unit": "named federal enforcement case", "value_type": "institutional_case_count"},
       "measures": {
