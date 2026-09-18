@@ -110,6 +110,12 @@ official county-sector file. Retail, transport, health, and food show different
 county-level turnover and net-job patterns; a same-county counterexample keeps
 aggregate local growth from being mistaken for uniform service or work growth.
 
+The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
+joins realized county-sector flows to the current primary-care shortage
+designation surface. It demonstrates that health-sector employer growth and
+institutional shortage status are distinct measurements, not interchangeable
+proof of care adequacy.
+
 The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-population-layer-v1.md)
 normalizes manufacturing, retail, care, and food establishments by county
 population. It is a rough local-capacity baseline, not a measure of access,

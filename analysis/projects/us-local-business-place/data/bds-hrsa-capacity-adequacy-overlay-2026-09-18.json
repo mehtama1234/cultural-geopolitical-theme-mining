@@ -1,0 +1,20 @@
+{
+  "audit_type": "bds-hrsa-capacity-adequacy-overlay-v1",
+  "checked": "2026-09-18",
+  "bds_year": 2023,
+  "hrsa_local_artifact_checked": "2026-09-14",
+  "hrsa_source_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv",
+  "hrsa_source_sha256": "721ede7da4d4ea579d7fd54bfe705ebde3a2adfa988276e03fc2abf5ef3e66bd",
+  "bds_source_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+  "bds_suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+  "designated_hpsa_county_fips": 2918,
+  "definition": "HPSA-represented means at least one non-Puerto-Rico HRSA row with HPSA Status=Designated and a five-digit state-county FIPS.",
+  "comparisons": {
+    "44-45": {"label": "retail trade", "hpsa_rows": 2831, "other_rows": 332, "hpsa_median_net_job_creation_rate": 0.936, "other_median_net_job_creation_rate": 0.505, "hpsa_negative_rows": 1109, "other_negative_rows": 136, "hpsa_negative_share": 0.3917, "other_negative_share": 0.4096},
+    "48-49": {"label": "transportation and warehousing", "hpsa_rows": 2686, "other_rows": 329, "hpsa_median_net_job_creation_rate": 0.244, "other_median_net_job_creation_rate": 0.433, "hpsa_negative_rows": 1237, "other_negative_rows": 150, "hpsa_negative_share": 0.4605, "other_negative_share": 0.4559},
+    "62": {"label": "health care and social assistance", "hpsa_rows": 2779, "other_rows": 336, "hpsa_median_net_job_creation_rate": 2.366, "other_median_net_job_creation_rate": 3.678, "hpsa_negative_rows": 939, "other_negative_rows": 112, "hpsa_negative_share": 0.3379, "other_negative_share": 0.3333},
+    "72": {"label": "accommodation and food services", "hpsa_rows": 2780, "other_rows": 292, "hpsa_median_net_job_creation_rate": 3.521, "other_median_net_job_creation_rate": 4.47, "hpsa_negative_rows": 881, "other_negative_rows": 73, "hpsa_negative_share": 0.3169, "other_negative_share": 0.25}
+  },
+  "boundary": "This is a cross-vintage descriptive overlay. HPSA component presence is not county-wide shortage, and BDS job flow is not provider adequacy, care use, or household outcome.",
+  "raw_storage": "No new raw archive retained; existing HRSA artifact and transient BDS suffix used."
+}

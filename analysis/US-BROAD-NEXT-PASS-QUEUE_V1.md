@@ -3084,3 +3084,13 @@ closing application-to-firm, service-use, household, trust, or political
 arrows. The next step is a small geography/sector panel joined to measured
 access, price, work, ownership, or civic response—not another national BDS
 aggregate.
+
+The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
+now joins the county-sector realization stage to an institutional service
+shortage surface. Across selected sectors, HPSA-represented and other counties
+do not form a uniform growth gradient; health-sector median net-job growth is
+2.366% versus 3.678%, while retail is 0.936% versus 0.505%. This is a
+cross-vintage descriptive counterexample, not a shortage effect or care-access
+estimate. The next step is component-level provider/travel/wait/use evidence
+or a dated household care event, preserving HPSA population and partial-county
+boundaries.

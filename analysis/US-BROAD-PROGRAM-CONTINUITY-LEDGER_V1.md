@@ -2102,3 +2102,11 @@ county medians and negative-net-job shares, and one same-county panel shows
 opposing sector directions. This adds sector-specific employer flows while
 preserving the missing links to applications, firms, services, households,
 trust, political action, and geopolitical consequence.
+
+The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
+joins realized county-sector employer flows to current primary-care shortage
+components. It confirms a key atlas boundary: health-sector employer growth is
+not provider adequacy, and an HPSA component is not a county-wide household
+care outcome. The cross-vintage overlay advances institutional-capacity
+context while leaving provider access, travel, wait, use, recovery, trust, and
+political response open.
