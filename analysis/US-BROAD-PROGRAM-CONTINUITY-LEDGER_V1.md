@@ -1884,3 +1884,13 @@ delivery, acceptance, readiness/use, supplier and worker effects, public
 attribution, alliance response, and household or social-program incidence;
 preserve estimated spending versus actual delivery, usable capability,
 replaceability, interoperability, and non-realized cases.
+
+The next AI-capability rotation promotes the [World Bank AI capability and
+governance trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The World Development
+Report 2026 contributes an adopt/adapt/advance framework, local-complement
+requirements, diffusion and value-chain concentration claims, public-service
+examples, and governance risks. The next test is an actor ledger joining
+infrastructure, skills, data, language fit, adoption or adaptation,
+procurement, task/service outcome, provider dependence, correction, attribution,
+trust, and switching or exit; preserve framework, comparative diffusion,
+measured outcome, and recommendation boundaries.

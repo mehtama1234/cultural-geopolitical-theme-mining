@@ -2736,3 +2736,14 @@ geopolitical leverage. The next test is a budget/procurement ledger joining
 appropriation, contract, delivery, acceptance, readiness/use, supplier and
 worker effects, public attribution, alliance response, and household or
 social-program incidence.
+
+The next AI-capability rotation promotes the [World Bank AI capability and
+governance trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The World Development
+Report 2026 contributes an adopt/adapt/advance framework, local-complement
+requirements, diffusion and value-chain concentration claims, public-service
+examples, and governance risks. It is not a U.S. adoption estimate or causal
+effect; framework, comparative evidence, and realized country/firm/service
+outcomes remain separate. The next test is an actor ledger joining
+infrastructure, skills, data, language fit, adoption or adaptation,
+procurement, task/service outcome, provider dependence, correction, attribution,
+trust, and switching or exit.
