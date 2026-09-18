@@ -20,7 +20,7 @@
     "responsible_actor": {"observed": 10, "partial": 5, "open_or_unknown": 2},
     "alternative_or_nonuse": {"observed": 1, "partial": 5, "open_or_unknown": 11},
     "effort_money_or_time_tradeoff": {"observed": 1, "partial": 11, "open_or_unknown": 5},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 5, "open_or_unknown": 10},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 6, "open_or_unknown": 9},
     "institutional_or_firm_response": {"observed": 14, "partial": 1, "open_or_unknown": 2},
     "verified_remedy": {"observed": 0, "partial": 11, "open_or_unknown": 6},
     "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 15},
@@ -274,13 +274,13 @@
         "responsible_actor": "observed_named_operator",
         "alternative_or_nonuse": "partial_direct_biller_comparator",
         "effort_money_or_time_tradeoff": "partial_alleged_fee_and_search_friction",
-        "adaptation_or_protected_sacrificed_outcome": "open",
+        "adaptation_or_protected_sacrificed_outcome": "partial_reported_or_alleged_service_and_penalty_consequence; no person-level outcome",
         "institutional_or_firm_response": "observed_enforcement_and_controls",
         "verified_remedy": "partial_proposed_redress_design",
         "meaning_trust_or_action": "open",
         "recovery_persistence_or_exit": "open"
       },
-      "boundary": "The Doxo record documents a reported bill-payment route, official-channel confusion, alleged fees, and order-stage controls, but not a person-level payment outcome, bill status, service continuity, remedy receipt, trust, or switching/exit."
+      "boundary": "The Doxo record documents a reported bill-payment route, official-channel confusion, alleged fees, complaint-level downstream service and penalty risks, and order-stage controls, but not a person-level payment outcome, bill status, service continuity, remedy receipt, trust, or switching/exit."
     },
     {
       "source": "analysis/records/us-ftc-grubhub-multisided-remedy-2026.json",

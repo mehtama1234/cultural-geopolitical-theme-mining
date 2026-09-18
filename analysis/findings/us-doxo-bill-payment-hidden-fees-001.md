@@ -1,6 +1,6 @@
 # Bill-payment convenience can become a hidden household cost
 
-**Status:** provisional named consumer/public-payment finding · **Checked:** 2026-09-17
+**Status:** provisional named consumer/public-payment finding · **Checked:** 2026-09-18
 
 The Doxo case connects a routine household task—paying a utility, car loan, or
 other bill—to search visibility, official-channel belief, add-on fees,
@@ -14,7 +14,8 @@ bill due or payment need
   -> search for the official payment route
   -> intermediary appears affiliated or necessary
   -> fee, subscription, time, and payment-channel uncertainty
-  -> [open] bill status, hardship, service continuity, remedy, and switching
+  -> [alleged in complaint] payment-timing and service-continuity risk
+  -> [open] individual bill status, hardship, remedy, and switching
 ```
 
 ## What the record adds
@@ -36,12 +37,22 @@ stage but does not show who receives redress, how much, whether a bill was
 successfully paid, or whether a household avoided late fees, arrears, or
 service interruption.
 
+The complaint also alleges a downstream timing risk: Doxo could charge a
+consumer immediately while sending a paper check to the biller days or weeks
+later. It further alleges that some consumers experienced utility shutoffs,
+car or health-insurance lapses, or fees and fines even though they believed
+they had paid on time. This advances the mechanism from fee confusion toward
+possible service and penalty exposure, but it is still complaint-level case
+evidence—not a person-level incidence estimate, verified shutoff record, or
+measured household recovery outcome.
+
 ## Short answer
 
 The Doxo record adds a bounded household-payment mechanism: a third-party bill
 route can make affiliation and total cost harder to understand, shifting money
-and recourse effort onto consumers before any downstream bill or service effect
-is observed. The FTC remedy makes institutional response visible, but the
+and recourse effort onto consumers before a downstream bill or service effect
+is individually verified. The complaint's alleged timing and service risks
+make that mechanism more concrete. The FTC remedy makes institutional response visible, but the
 public evidence still cannot identify payment success, household incidence,
 service continuity, redress receipt, or later switching.
 
@@ -51,7 +62,7 @@ service continuity, redress receipt, or later switching.
 |---|---|---|
 | Route discovery | FTC alleges misleading search ads and landing pages made Doxo appear connected to billers | Search exposure, consumer belief, device, biller, and alternatives |
 | Payment cost | Complaint alleges delivery fees and recurring subscription charges | Fee amount per episode, consent, payment success, and bill status |
-| Household effect | Utility, car-loan, and other bill payments can affect money, timing, and service continuity | Late fees, arrears, shutoff, stress, time spent, and substitution |
+| Household effect | Complaint alleges delayed paper-check timing and some utility shutoffs, insurance lapses, fees, or fines despite believed on-time payment | Person-level incidence, late fees, arrears, shutoff verification, stress, time spent, and substitution |
 | Institutional response | $2.1M settlement/redress design; FTC case page lists an August 17 stipulated order while case status remains pending | Order implementation, redress receipt, correction, recurrence, and trust |
 
 The key distinction is between a payment being completed and a payment route

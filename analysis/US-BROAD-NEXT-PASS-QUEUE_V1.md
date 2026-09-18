@@ -2578,11 +2578,14 @@ The [Doxo bill-payment finding](findings/us-doxo-bill-payment-hidden-fees-001.md
 adds a household/public-payment bridge: an FTC complaint reports that about 30%
 of Doxo's surveyed heavy users falsely believed it was the only way to pay a
 bill, alongside alleged delivery fees, recurring-subscription friction, and
-tens of thousands of consumer contacts. The proposed 2026 order includes $2.1
-million in consumer redress and disclosure/consent controls; the FTC case page
-now lists an August 17 stipulated order while still marking the case pending.
-This updates the institutional stage but does not show payment success, bill
-status, late fees, arrears, service continuity, remedy
+tens of thousands of consumer contacts. The complaint also alleges delayed
+paper-check timing and some utility shutoffs, insurance lapses, fees, or fines
+despite believed on-time payment; these are complaint-level consequences, not
+person-level outcomes. The proposed 2026 order includes $2.1 million in
+consumer redress and disclosure/consent controls; the FTC case page now lists
+an August 17 stipulated order while still marking the case pending. This
+updates the institutional and risk stages but does not show payment success,
+person-level bill status or service continuity, remedy
 receipt, or switching. The next smallest test is an identifier-bearing,
 privacy-approved bill-payment episode ledger joining search route, affiliation
 belief, fee, payment outcome, biller status, correction/refund, and direct-biller

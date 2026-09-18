@@ -896,7 +896,8 @@ The fifty-first rotation extends the practical-exit comparison with the
 [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 and [Grubhub remedy record](records/us-ftc-grubhub-multisided-remedy-2026.json).
 These cases add reported search-route confusion, alleged payment friction,
-aggregate remedy distribution, and prospective platform controls. They still
+complaint-level payment-timing/service-risk consequences, aggregate remedy distribution,
+and prospective platform controls. They still
 do not expose the affected unit's usable alternative, payment or income
 outcome, remedy receipt, durability, trust, switching, or exit. The expanded
 eight-route finding therefore strengthens the institutional-response surface

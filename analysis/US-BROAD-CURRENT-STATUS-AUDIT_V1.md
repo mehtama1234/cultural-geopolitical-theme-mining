@@ -2468,12 +2468,13 @@ uncertainty, and estimand checks remain prerequisites.
 The new [Doxo bill-payment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 promotes an already-reviewed FTC case into the canonical trend register. It
 adds a named household-payment route in which search visibility and alleged
-affiliation confusion may precede add-on fees, recurring charges, and a formal
+affiliation confusion may precede add-on fees, recurring charges,
+complaint-level payment-timing/service-risk consequences, and a formal
 redress/control response. The internal heavy-user survey and complaint volume
 are not representative household rates, and the public record does not show
-episode-level payment success, bill status, service continuity, redress receipt,
-or switching. This strengthens the service/recourse lane without claiming
-household incidence or practical recovery.
+episode-level payment success, person-level bill status or service continuity,
+redress receipt, or switching. This strengthens the service/recourse lane
+without claiming household incidence or practical recovery.
 The [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 is now linked directly to the recourse matrix, preserving the named-case,
 internal-survey, proposed-order, and unobserved household-outcome boundaries.
