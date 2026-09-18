@@ -202,6 +202,13 @@ April–June retains 6,564 linked respondents. The February file therefore canno
 extend this route to a three-wave baseline; the existing April–June screen
 remains the only valid linkage, and the next priority stays a dated remedy or
 alternative case rather than another cross-sectional HTOPS comparison.
+
+The [PSID acquisition gate](projects/us-household-calendar-integration/psid-acquisition-gate-v1.md)
+was rechecked on 2026-09-18. The official 2023 package route returned HTTP
+403 with a Cloudflare JavaScript/cookie challenge, and no package is locally
+available. The planned 2019/2021/2023 family bridge remains the strongest
+candidate for material/time/care depth, but it cannot advance until an
+authorized account supplies the four packages and the structural audit passes.
 The 2026-09-17 official Bulletin recheck also preserves the distinction
 between Portier's $5,500 settlement offer and the Commission's $7,096.96 gross
 order; neither is payment receipt.

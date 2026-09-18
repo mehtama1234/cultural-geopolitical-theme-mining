@@ -580,8 +580,11 @@ This advances the acquisition gate; no PSID estimate or same-unit end-to-end
 claim is implied until universe, missingness, retention, merge, and weight
 audits are run on authenticated files.
 
-The PSID access gate was rechecked on 2026-09-17: the official package routes
-remain account-controlled and no target microdata files are present locally.
+The [PSID access gate](projects/us-household-calendar-integration/psid-acquisition-gate-v1.md)
+was rechecked on 2026-09-18: the official 2023 package route returned HTTP
+403 with a Cloudflare JavaScript/cookie challenge, and no target microdata
+files are present locally. Preserve the family-bridge design as an
+authorized-account handoff rather than treating documentation as data access.
 The available SIPP household-selection diagnostic was tightened with a hashed
 2025 schema scan showing `WPFINWGT` as the only weight-related variable in the
 5,203-variable surface; one-record household results therefore remain

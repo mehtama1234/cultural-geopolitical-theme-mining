@@ -55,6 +55,13 @@ not change the local-data gate or establish package retrieval. The direct
 managed-challenge indicator. This is recorded as an access condition, not as
 evidence that the file is absent or that the planned relationship is null.
 
+**Current direct-route recheck — 2026-09-18:** an unauthenticated GET of the
+official 2023 package route returned HTTP 403, `cf-mitigated: challenge`, and
+an HTML response requiring JavaScript and cookies. Response SHA-256 is
+`4fcaf4b248cb5cf275fbf095605f4d8f1833d9cb1bcc17f8e01df36d57c3e8d4`. The
+route remains live but account/browser controlled; no respondent file was
+downloaded or used as evidence. The machine audit records this recheck.
+
 ## Required next handoff
 
 An account holder must accept the official Conditions of Use and supply the
