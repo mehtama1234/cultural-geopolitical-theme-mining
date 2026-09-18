@@ -1,0 +1,41 @@
+{
+  "format": "platform-remedy-followup-recheck-v1",
+  "checked": "2026-09-18",
+  "case_id": "AU-08",
+  "matter": "UDE2025/134",
+  "scope": "Targeted Fair Work Commission public-document search for the lost-pay confer process and implementation after Al Hussein v Rasier Pacific.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3176.pdf",
+      "role": "primary_merits_decision",
+      "result": "unfair deactivation and reactivation found; lost-pay quantum not quantified; parties directed to confer and report by 2025-11-07"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792947.pdf",
+      "role": "primary_reactivation_order",
+      "result": "reactivation and deemed work during the interruption ordered by 2025-10-31; no quantified payment in this order"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm",
+      "role": "official_bulletin",
+      "result": "summarizes the reactivation and lost-pay-confer stage"
+    },
+    {
+      "url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "role": "official_search_route",
+      "result": "targeted search by case name, matter number, order number, and lost-pay terms located no later public quantified payment order or implementation record in the checked route"
+    }
+  ],
+  "stages": {
+    "unfair_deactivation": "observed_adjudicated",
+    "reactivation_order": "observed_adjudicated",
+    "deemed_work_during_interruption": "observed_adjudicated",
+    "lost_pay_confer_direction": "observed_adjudicated",
+    "quantified_lost_pay_order": "not_observed",
+    "payment_receipt": "not_observed",
+    "actual_access_restoration": "not_observed",
+    "continued_work_or_switching": "not_observed"
+  },
+  "boundary": "A targeted public-document non-observation as of 2026-09-18 does not prove that private agreement, payment, account restoration, continued work, switching, or exit did not occur.",
+  "storage_boundary": "No bulk download or personal exhibits were retained; only source URLs, stage statuses, and the bounded search result are stored."
+}
