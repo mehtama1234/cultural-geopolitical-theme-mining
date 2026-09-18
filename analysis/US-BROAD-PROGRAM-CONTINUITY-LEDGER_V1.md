@@ -1503,3 +1503,11 @@ credit-card debt, making long-term assets, current liquidity, debt cost, and
 life-course timing separate stages. The next test is a same-worker ledger for
 enrollment, contribution, take-home pay, credit use/cost, withdrawal,
 retirement balance, work or claiming timing, and later financial room.
+
+The next political-meaning rotation promotes the [synthetic-contact trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). Five preregistered experiments add an
+immediate warmth and costly-contact-choice stage, while the one-week result
+attenuates to a small, non-significant estimate. The next test is repeated,
+disclosed AI exposure followed through real human contact, cooperation, trust,
+civic action, and persistence, with model, topic, party, and refusal routes
+kept separate.

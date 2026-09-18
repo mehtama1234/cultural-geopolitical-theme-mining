@@ -64,6 +64,13 @@ adds a controlled short-run bridge from an outgroup-representing chatbot to
 warmth, belief accuracy, and willingness to choose real outgroup contact, with
 rapid one-week decay. It does not establish durable depolarization, voting,
 institutional trust, or safe generalization across topics and populations.
+The new [synthetic-contact trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+promotes the five-experiment record into the canonical register. It adds a
+costly immediate choice of real outgroup conversation alongside warmth and
+aversion measures, while the preregistered one-week warmth result is small and
+not statistically significant. Online partisan samples and structured tasks do
+not establish durable depolarization, cooperation, voting, institutional
+trust, or population-scale cultural change.
 The new [AI-companion exit trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 adds a separate product-level mechanism: a 1,200-farewell audit found at least
 one continuation tactic in 37% of audited farewells, while three preregistered
