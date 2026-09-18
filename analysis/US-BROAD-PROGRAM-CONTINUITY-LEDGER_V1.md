@@ -1518,3 +1518,10 @@ randomized access-to-time stage across 66 firms: email and after-hours work
 decline while task composition does not show a detected shift. The next test
 is a same-worker/workplace ledger joining time saved to workload, schedule
 control, pay, care, voice, employer expectations, and later movement or exit.
+
+The next work-control measurement rotation promotes the [task-level AI adoption
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). NBER W35677 adds within-task
+variation and a survey-versus-chat-log measurement boundary: exposure is not
+adoption, and adoption is not control. The next test is a versioned
+worker/task/workplace ledger joining access, training, employer rules,
+monitoring, pace, pay, discretion, voice, and later movement or exit.
