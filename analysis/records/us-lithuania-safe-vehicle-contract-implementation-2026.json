@@ -1,0 +1,37 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-lithuania-safe-vehicle-contract-implementation-2026",
+  "title": "Lithuania signs a partly SAFE-financed military-vehicle contract with a staged delivery and payment schedule",
+  "theme_ids": ["cost", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "infrastructure_technology_dependency", "firm_sector_market_power"],
+  "source_unit": "Lithuanian Ministry of National Defence contract announcement",
+  "geography": "Lithuania; Lithuanian Armed Forces and European vehicle supplier",
+  "observations": [
+    {
+      "period": "2026-06-09 contract announcement; delivery/payment schedule 2026–2032",
+      "denominator": {"value": 1, "unit": "Lithuanian Defence Resource Agency contract with Veho Lietuva", "value_type": "documented_contract"},
+      "measures": {
+        "reported_contract_value": {"value": 1000000000, "unit": "euros; approximately", "value_type": "reported_amount"},
+        "safe_financing_status": {"value": "partly financed by European Union SAFE funds", "unit": "reported financing status", "value_type": "reported_policy"},
+        "delivery_schedule": {"value": "2026–2032", "unit": "reported delivery years", "value_type": "reported_schedule"},
+        "planned_2026_payment": {"value": 3000000, "unit": "euros; approximate planned 2026 payment", "value_type": "reported_payment_plan"},
+        "planned_2027_payment_ceiling": {"value": 100000000, "unit": "euros; payment not expected to exceed this amount in 2027", "value_type": "reported_payment_plan"},
+        "recipient_capability": {"value": "Lithuanian Armed Forces logistics and First National Infantry Division operational-capability development", "unit": "reported intended outcome", "value_type": "reported_objective"}
+      },
+      "method": "Bounded extraction from the official Lithuanian Ministry of National Defence announcement. Contract value, partial SAFE financing, delivery schedule, staged payment plan, supplier route, and intended capability are retained as separate implementation-stage measures.",
+      "uncertainty": "The source does not provide vehicle quantities, delivery lots, acceptance records, completed payments, exact SAFE tranche/share, local-content share, or operational use. Planned payments may change depending on production.",
+      "subgroup": "Lithuanian military-vehicle and logistics procurement under a partly SAFE-financed contract.",
+      "counterinterpretation": "A signed contract and staged payment schedule show a more concrete implementation route than a financing announcement, but they do not establish delivery, acceptance, domestic industrial control, or realized operational capability.",
+      "source_url": "https://kam.lt/pasirasyta-sutartis-del-kariniu-visureigi%C5%B3-ir-sunkve%C5%BEimi%C5%B3-isigijimo/",
+      "retrieval_hash": "artifact:sha256:7086fe4dfd52bdfe3936c30b618f205b7049354147610d39f650fb760825a997",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../projects/ai-work-control/data/lithuania-safe-vehicle-contract-payment-delivery-boundary-2026.txt", "claim": "Normalized note preserves the contract, payment, delivery-schedule, and non-delivery boundaries.", "status": "local-artifact"},
+    {"source_url": "../../records/us-poland-piorun-safe-multilateral-procurement-response-2026.json", "claim": "Piorun supplies a separate allied procurement and supply-chain response route; this Lithuanian vehicle contract is not Piorun evidence.", "status": "related-record"},
+    {"source_url": "../../records/us-poland-safe-legislative-domestic-contracting-action-2026.json", "claim": "The Polish SAFE record supplies a domestic contracting comparator; this record shows a separate foreign SAFE implementation route.", "status": "related-record"},
+    {"source_url": "https://kam.lt/pasirasyta-sutartis-del-kariniu-visureigi%C5%B3-ir-sunkve%C5%BEimi%C5%B3-isigijimo/", "claim": "Lithuanian MoD supplies the contract value, partial SAFE financing, delivery/payment schedule, and intended logistics-capability outcome.", "status": "primary-source"}
+  ],
+  "boundary": "This record establishes a Lithuanian partly SAFE-financed contract and staged delivery/payment plan. It does not establish delivered or accepted vehicles, operational use, Piorun procurement, Lithuanian local-content share, or geopolitical leverage. Planned delivery and payment are not completed performance."
+}

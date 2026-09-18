@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 315 records and
-1125 observations.
+have exact registered-URL references. The trend registry holds 316 records and
+1126 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1473,6 +1473,13 @@ participation in the common route. This is evidence of allied demand and
 cross-border supply-chain response, not delivered export volume or realized
 geopolitical leverage; the next check remains country-level contract,
 delivery, acceptance, and operational-use evidence.
+The [Lithuanian SAFE vehicle implementation record](records/us-lithuania-safe-vehicle-contract-implementation-2026.json)
+adds a separate foreign execution comparator: Lithuania reports a partly
+SAFE-financed approximately EUR 1B military-vehicle contract with 2026–2032
+delivery and staged payment plans. It strengthens the financing-to-implemented-
+procurement bridge across countries, but the cited record still lacks completed
+delivery, acceptance, vehicle quantities, and quantified SAFE/local-content
+shares; it must not be folded into the Piorun or Polish-industry quantities.
 The [September realization watchpoint](projects/ai-work-control/findings/ai-work-control-043.md)
 records the current public-source non-observation and prevents the same
 agreement-stage evidence from being counted as a new production result.

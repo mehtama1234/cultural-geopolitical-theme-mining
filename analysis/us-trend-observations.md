@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-315 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+316 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -641,6 +641,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | LIHEAP reaches millions while reported restoration remains a distinct endpoint | energy, cost, time | household_room_consumption, time_hidden_price, housing_place_mobility, unequal_exposure_status, public_systems_feedback, political_judgment_action | HHS/ACF FY2024 LIHEAP annual-report aggregate | United States | 2 | FY2024; households or families receiving LIHEAP assistance; FY2024; reported restoration of home energy service | reported | [open](records/us-liheap-reach-restoration-fy2024.json) |
 
 **Boundary:** This record establishes official program reach and reported restoration as separate public-system endpoints. It does not estimate LIHEAP take-up, household prevalence, benefit adequacy, restoration duration, repeat crisis, protected or sacrificed outcomes, trust, political action, or durable energy security.
+
+| Lithuania signs a partly SAFE-financed military-vehicle contract with a staged delivery and payment schedule | cost, work | geopolitical_state_consequences, infrastructure_technology_dependency, firm_sector_market_power | Lithuanian Ministry of National Defence contract announcement | Lithuania; Lithuanian Armed Forces and European vehicle supplier | 1 | 2026-06-09 contract announcement; delivery/payment schedule 2026–2032 | reported | [open](records/us-lithuania-safe-vehicle-contract-implementation-2026.json) |
+
+**Boundary:** This record establishes a Lithuanian partly SAFE-financed contract and staged delivery/payment plan. It does not establish delivered or accepted vehicles, operational use, Piorun procurement, Lithuanian local-content share, or geopolitical leverage. Planned delivery and payment are not completed performance.
 
 | Current aggregate income, price, labor, and household-room signals move on different clocks | cost, work, voice | household_room_consumption, time_hidden_price, work_control_bargaining, unequal_exposure_status, consumer_power_recourse, political_judgment_action | Deliberately non-pooled BEA aggregate accounts, BLS consumer/producer prices and labor surveys, and Federal Reserve SHED household responses | United States | 6 | July 2026; BEA personal income and outlays; August 2026; CPI-U consumer price context; August 2026; PPI final and intermediate demand; August 2026; BLS Employment Situation; January-July 2026; JOLTS partial-year mobility context; 2025; SHED household hardship and price-response context | estimated; reported | [open](records/us-macro-price-income-labor-household-room-crosssource-2026.json) |
 
