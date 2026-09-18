@@ -1002,6 +1002,11 @@ worker outcome. Together they strengthen the institutional contestability
 stage of the AI/work lane while leaving tool exposure, notice receipt,
 appeal/override, correction, compensation, durable compliance, trust,
 bargaining, and exit open.
+The [Elegant AI-recruiting trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md) now
+promotes that bounded U.S. event into the canonical register: AI-assisted
+recruiting can enter a named exclusion and produce enforceable prospective
+controls, but settlement terms are not proof of payment, completed monitoring,
+restored opportunity, durable compliance, or later worker action.
 
 The latest broad-program pass adds a detailed [material-pressure to
 meaning/action route](../REVIEW-PACKET_CURRENT-THEMES_V1.md#route-13-material-pressure-becomes-meaning-and-political-action)

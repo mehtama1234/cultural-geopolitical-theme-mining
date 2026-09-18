@@ -1710,6 +1710,16 @@ reach anticipatory governance, controlled deployment, and one company-reported
 product-design change, respectively, but none reaches independently observed
 enforcement, worker welfare, household security, or practical exit.
 
+The [Elegant AI-recruiting settlement finding](projects/ai-work-control/findings/ai-work-control-084.md)
+adds a named U.S. enforcement event: DOJ reports two AI-generated job
+advertisements with unlawful citizenship-status restrictions, followed by a
+$9,460 civil penalty, notices, policy/training obligations, inquiry authority,
+and a cure mechanism. The 2026-09-17 official-source recheck found no public
+confirmation of payment, completed controls, monitoring or cure, applicant
+restored consideration, or later worker behavior. The record therefore closes
+an institutional-correction stage while leaving exposure, individual loss,
+implementation, recurrence, trust, and action open.
+
 Targeted official Microsoft Learn documentation now corroborates the existence
 of a technical control surface for Places: consent, user override and clear,
 geography-specific administration, Inform/Ask/Off modes, and stated limits on
