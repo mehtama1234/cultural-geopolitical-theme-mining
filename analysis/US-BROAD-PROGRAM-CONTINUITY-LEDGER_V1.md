@@ -1409,3 +1409,12 @@ allocation and smaller-firm revenue, exit, wage, and patenting outcomes. It
 counterbalances disaster-loan survival evidence, but the two policy settings
 must not be pooled; customer quality/prices, owner households, worker hours,
 and local political or legitimacy effects remain open.
+
+The next firm/household rotation promotes the [owner-business cash-flow
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). NBER linked financial-account
+evidence places a severe business-revenue shock beside owner consumption and
+shows muted average pass-through, adding a distinct household bridge to the
+firm-capacity lane. COVID subsidies and restricted spending opportunities,
+unobserved liquidity buffers, and missing worker/customer outcomes prevent a
+general business-shock rule; comparison with disaster loans requires aligned
+shock, intervention, unit, and follow-up.

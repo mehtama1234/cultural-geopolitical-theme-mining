@@ -2301,3 +2301,12 @@ estimate remains version-specific. The evidence does not yet identify the
 program threshold, customer prices or quality, owner-household outcomes,
 worker hours/benefits, or local service effects, so this is a firm-allocation
 finding rather than a universal welfare claim.
+
+The new [owner-business cash-flow trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds the missing owner-household bridge to the firm and disaster lanes. Linked
+financial-account data report a 40% early-pandemic business-revenue decline and
+a 1.6-cent owner-consumption decline per dollar of lost revenue, with muted
+pass-through persisting through 2021. The result is not evidence that owners
+were unaffected: wealth buffers, subsidies, debt, investment, survival,
+workers, customers, and political response remain unobserved in the retained
+abstract-level packet. It must not be pooled with disaster-loan results.
