@@ -1,6 +1,6 @@
 # Finding 002: The atlas has route visibility, but no retained episode yet qualifies as practical exit
 
-**Status:** provisional storage-light event-compatibility finding · **Checked:** 2026-09-17
+**Status:** provisional storage-light event-compatibility finding · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -61,7 +61,9 @@ security, could choose a substitute, or left without an unacceptable cost.
 The comparison identifies a recurring structural split. The four latest
 consumer-remedy cases sharpen it: even when an enforcement or recall record names an
 operator and a formal control or payment distribution, it may still omit the
-affected unit's usable alternative and lived outcome.
+affected unit's usable alternative and lived outcome. The Doxo recheck adds an
+important institutional distinction: an ordered monetary judgment can authorize
+consumer relief without proving that any particular consumer received it.
 
 The Amazon Flex annual report adds an important intermediate stage: the FTC
 reports aggregate payment reach and successful reissue payments, including a

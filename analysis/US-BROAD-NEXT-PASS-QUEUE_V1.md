@@ -2619,12 +2619,13 @@ bill, alongside alleged delivery fees, recurring-subscription friction, and
 tens of thousands of consumer contacts. The complaint also alleges delayed
 paper-check timing and some utility shutoffs, insurance lapses, fees, or fines
 despite believed on-time payment; these are complaint-level consequences, not
-person-level outcomes. The proposed 2026 order includes $2.1 million in
-consumer redress and disclosure/consent controls; the FTC case page now lists
-an August 17 stipulated order while still marking the case pending. This
-updates the institutional and risk stages but does not show payment success,
-person-level bill status or service continuity, remedy
-receipt, or switching. The next smallest test is an identifier-bearing,
+person-level outcomes. The August 17 stipulated order imposes a $2.1 million
+monetary judgment in three installments and disclosure/consent controls; money
+received may be used for consumer relief, but the FTC case page still marks the
+matter pending. This updates the institutional and risk stages without showing
+installment completion, payment success, person-level bill status or service
+continuity, individual remedy receipt, or switching. The next smallest test is
+an identifier-bearing,
 privacy-approved bill-payment episode ledger joining search route, affiliation
 belief, fee, payment outcome, biller status, correction/refund, and direct-biller
 alternatives.

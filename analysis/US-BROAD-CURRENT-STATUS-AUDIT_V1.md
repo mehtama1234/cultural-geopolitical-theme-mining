@@ -2488,7 +2488,9 @@ redress receipt, or switching. This strengthens the service/recourse lane
 without claiming household incidence or practical recovery.
 The [Doxo bill-payment record](records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 is now linked directly to the recourse matrix, preserving the named-case,
-internal-survey, proposed-order, and unobserved household-outcome boundaries.
+internal-survey, stipulated monetary judgment, possible consumer-relief use,
+and unobserved household-outcome boundaries. The order does not establish
+installment completion or individual redress receipt.
 
 The new [small-business support-size trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 promotes the NBER/Census eligibility-boundary result into the canonical

@@ -27,15 +27,16 @@ consumers contacted Doxo about its payment process. These are not population
 rates: the survey is internal and selected, while complaint contacts are
 conditioned on awareness and access to a complaint route.
 
-On August 17, 2026, the FTC announced a settlement under a proposed order
-requiring $2.1 million in consumer redress and controls for biller-affiliation
+On August 17, 2026, the FTC case page lists a stipulated order for permanent
+injunction, a $2.1 million monetary judgment payable in three installments,
+and other relief, while marking the case pending. The order permits money
+received to be used for consumer relief, but does not guarantee or document
+individual distribution. It also requires controls for biller-affiliation
 claims, fee and total-cost disclosure, negative-option terms, cancellation,
-financial information, and express informed consent. The FTC case page also
-lists a stipulated order for permanent injunction, monetary judgment, and
-other relief, while marking the case pending. This updates the institutional
-stage but does not show who receives redress, how much, whether a bill was
-successfully paid, or whether a household avoided late fees, arrears, or
-service interruption.
+financial information, and express informed consent. This updates the
+institutional stage without showing who receives relief, how much, whether a
+bill was successfully paid, or whether a household avoided late fees, arrears,
+or service interruption.
 
 The complaint also alleges a downstream timing risk: Doxo could charge a
 consumer immediately while sending a paper check to the biller days or weeks
@@ -63,7 +64,7 @@ service continuity, redress receipt, or later switching.
 | Route discovery | FTC alleges misleading search ads and landing pages made Doxo appear connected to billers | Search exposure, consumer belief, device, biller, and alternatives |
 | Payment cost | Complaint alleges delivery fees and recurring subscription charges | Fee amount per episode, consent, payment success, and bill status |
 | Household effect | Complaint alleges delayed paper-check timing and some utility shutoffs, insurance lapses, fees, or fines despite believed on-time payment | Person-level incidence, late fees, arrears, shutoff verification, stress, time spent, and substitution |
-| Institutional response | $2.1M settlement/redress design; FTC case page lists an August 17 stipulated order while case status remains pending | Order implementation, redress receipt, correction, recurrence, and trust |
+| Institutional response | August 17 stipulated order: $2.1M monetary judgment, possible consumer-relief use, permanent controls, and compliance duties; case status remains pending | Installment completion, consumer eligibility/distribution, redress receipt, correction, recurrence, and trust |
 
 The key distinction is between a payment being completed and a payment route
 being understood. A household may pay on time while paying an avoidable fee;
@@ -84,9 +85,11 @@ hardship from the complaint or settlement alone.
 - [FTC Doxo complaint](https://www.ftc.gov/system/files/ftc_gov/pdf/Doxo-Filed-Complaint.pdf)
 - [FTC Doxo settlement announcement](https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add)
 - [FTC Doxo case page](https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo)
+- [FTC Doxo stipulated order](https://www.ftc.gov/system/files/ftc_gov/pdf/DOXO-JointStupulatedProposedOrder.pdf)
 - [Machine-readable Doxo record](../records/us-ftc-doxo-bill-payment-hidden-fees-2026.json)
 
 **Evidence status:** official complaint, internal-survey reference, settlement
-announcement, and case-page order-stage update; representative household
-incidence, payment success, service continuity, order implementation, remedy
-receipt, and later behavior remain unobserved.
+announcement, stipulated order, and case-page update; representative
+household incidence, payment success, service continuity, installment
+completion, consumer distribution, remedy receipt, and later behavior remain
+unobserved.

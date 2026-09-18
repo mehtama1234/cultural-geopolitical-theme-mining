@@ -4,7 +4,7 @@
   "title": "A bill-payment intermediary can turn search confusion and hidden fees into household payment friction",
   "theme_ids": ["cost", "voice", "time"],
   "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "public_systems_feedback", "platforms_data_attention", "firm_sector_market_power", "trust_identity_meaning", "infrastructure_technology_dependency"],
-  "source_unit": "Federal Trade Commission complaint and 2026 proposed stipulated order concerning Doxo, Inc.; institutional enforcement and internal-survey evidence, not a representative household sample",
+  "source_unit": "Federal Trade Commission complaint and August 17, 2026 stipulated order concerning Doxo, Inc.; institutional enforcement and internal-survey evidence, not a representative household sample",
   "geography": "United States online bill payment for utility, car-loan, and other bills",
   "observations": [
     {
@@ -28,27 +28,30 @@
       "status": "reported"
     },
     {
-      "period": "August 17, 2026 FTC settlement announcement; implementation design checked September 17, 2026",
+      "period": "August 17, 2026 FTC stipulated order; order terms rechecked September 18, 2026",
       "denominator": {"value": 1, "unit": "named Doxo enforcement settlement", "value_type": "institutional_case_count"},
       "measures": {
-        "proposed_consumer_redress": {"value": 2100000, "unit": "US dollars; proposed consumer redress", "value_type": "proposed_relief_amount"},
-        "formal_control_design": {"value": "prohibitions on misrepresenting biller affiliation, fees, total cost, negative-option terms, cancellation, and financial-information use; express informed consent required", "unit": "proposed stipulated order controls", "value_type": "institutional_remedy_design"},
-        "order_status": {"value": "FTC case page lists an August 17, 2026 stipulated order for permanent injunction, monetary judgment, and other relief; the case page still marks the case pending", "unit": "reported procedural status", "value_type": "reported_case_status"},
-        "redress_distribution": {"value": "not observed", "unit": "missing payment receipt, eligibility, distribution, and household recovery endpoint", "value_type": "unmeasured"}
+        "monetary_judgment": {"value": 2100000, "unit": "US dollars; judgment in favor of the FTC, payable in three scheduled installments", "value_type": "stipulated_order_monetary_judgment"},
+        "formal_control_design": {"value": "permanent prohibitions on misrepresenting biller affiliation, fees, total cost, negative-option terms, cancellation, and financial-information use; clear disclosure, express informed consent, and simple cancellation required", "unit": "stipulated order controls", "value_type": "institutional_remedy_design"},
+        "payment_schedule": {"value": "1,050,000 dollars within 7 days of entry; 525,000 within 180 days of the first payment date; 525,000 within 365 days of the first payment date", "unit": "FTC payment obligation", "value_type": "ordered_payment_schedule"},
+        "consumer_relief_authority": {"value": "money received may be used for consumer relief such as redress, with remaining money potentially used for related relief or Treasury; direct consumer distribution is not guaranteed by the public order", "unit": "order allocation authority", "value_type": "institutional_relief_rule"},
+        "order_status": {"value": "FTC case page lists the August 17, 2026 stipulated order for permanent injunction, monetary judgment, and other relief; the case page still marks the case pending", "unit": "official procedural status", "value_type": "official_case_status"},
+        "redress_distribution": {"value": "not observed", "unit": "missing payment receipt, consumer eligibility, distribution, and household recovery endpoint", "value_type": "unmeasured"}
       },
-      "method": "Official FTC settlement announcement and case-page review; the press release's proposed-order language is kept separate from the case page's listed stipulated-order file, pending case status, and consumer distribution.",
-      "uncertainty": "The public release does not disclose affected-consumer count, allocation method, individual payments, refund claims, fee reversal, bill status, or recurrence-prevention audit.",
+      "method": "Official FTC case page, stipulated-order PDF, and settlement announcement review; the ordered monetary judgment, possible consumer-relief use, and actual distribution are kept as separate stages.",
+      "uncertainty": "The public order does not disclose affected-consumer count, allocation method, individual payments, refund claims, fee reversal, bill status, or completed recurrence-prevention audit.",
       "subgroup": "Consumers allegedly charged add-on fees or recurring subscription charges, direct billers, Doxo, and households using online bill-payment search routes.",
       "counterinterpretation": "A redress fund and disclosure controls can improve future informed choice without restoring prior time or money for every household; settlement terms are not evidence that every allegation or fee affected every user.",
-      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/bill-payment-firm-doxo-pay-21-million-settle-ftc-allegations-it-deceived-consumers-charged-them-add",
-      "retrieval_hash": "sha256:113d4a9d2a5cf846e97f75b576ed595f9c71f7b6171b28295f16ca0058977520",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/DOXO-JointStupulatedProposedOrder.pdf",
+      "retrieval_hash": "sha256:24e05dc49d4d347f3108bcb81c7c80dcc7371e64b89d1c94e87241233b6fa943",
       "status": "reported"
     }
   ],
   "related_sources": [
-    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo", "claim": "FTC case page lists Doxo's complaint, summary-judgment opinion, and August 2026 stipulated-order timeline.", "status": "official-case-record"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo", "claim": "FTC case page lists the August 17, 2026 stipulated order, its pending status, and the case timeline.", "status": "official-case-record"},
+    {"source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/DOXO-JointStupulatedProposedOrder.pdf", "claim": "Stipulated order sets a $2.1 million monetary judgment, payment schedule, permanent controls, compliance duties, and possible consumer-relief use; it does not establish individual distribution.", "status": "official-stipulated-order"},
     {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2024/04/ftc-takes-action-against-bill-payment-company-doxo-misleading-consumers-tacking-millions-junk-fees", "claim": "Earlier FTC release describes the bill-payment impersonation and fee allegations at filing.", "status": "official-complaint-announcement"}
   ],
-  "boundary": "This record links online search and bill-payment-channel confusion to alleged add-on fees, recurring charges, reported downstream payment-timing risks, and a settlement/order-stage institutional response. The complaint's alleged shutoff, insurance-lapse, fee, and fine consequences are case evidence without a person-level denominator or verified individual outcome. It does not estimate household fee incidence, payment failure, arrears, utility shutoff, biller relationship, consumer hardship, order implementation, remedy receipt, or switching. The next test is an identifier-bearing bill-payment episode with search route, official affiliation belief, fee, payment success, bill status, correction/refund, service continuity, and alternative route.",
-  "reproduction_audit": {"retrieval_hash_scope": "FTC complaint PDF and settlement HTML retrieved without retaining repository copies", "complaint_retrieval_hash": "sha256:ea398e000db2ea84e2fffadced456cbe0c2746b3e2ac0b616fe646d5fa3d7594", "settlement_retrieval_hash": "sha256:113d4a9d2a5cf846e97f75b576ed595f9c71f7b6171b28295f16ca0058977520", "checked": "2026-09-17"}
+  "boundary": "This record links online search and bill-payment-channel confusion to alleged add-on fees, recurring charges, reported downstream payment-timing risks, and a formal stipulated institutional response. The complaint's alleged shutoff, insurance-lapse, fee, and fine consequences are case evidence without a person-level denominator or verified individual outcome. The $2.1 million judgment is not equivalent to consumer redress receipt; the order permits consumer-relief use but does not identify affected consumers or completed distribution. It does not estimate household fee incidence, payment failure, arrears, utility shutoff, biller relationship, consumer hardship, order compliance, remedy receipt, or switching. The next test is an identifier-bearing bill-payment episode with search route, official affiliation belief, fee, payment success, bill status, correction/refund, service continuity, and alternative route.",
+  "reproduction_audit": {"retrieval_hash_scope": "FTC complaint PDF, settlement announcement, case page, and stipulated-order PDF retrieved without retaining repository copies", "complaint_retrieval_hash": "sha256:ea398e000db2ea84e2fffadced456cbe0c2746b3e2ac0b616fe646d5fa3d7594", "stipulated_order_retrieval_hash": "sha256:24e05dc49d4d347f3108bcb81c7c80dcc7371e64b89d1c94e87241233b6fa943", "checked": "2026-09-18"}
 }
