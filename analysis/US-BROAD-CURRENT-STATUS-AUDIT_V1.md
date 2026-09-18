@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,269 local Markdown links and 644 published HTML pages pass link
+families; 1,270 local Markdown links and 644 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1782,6 +1782,17 @@ controls and monitoring. This remains an implementation report rather than a
 worker-level payment audit; claimant denominator, individual amount/date/receipt,
 restored consideration, post-monitoring compliance, household recovery, trust,
 and exit remain open.
+
+The [Hims & Hers digital-health consumer-power finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-027.md)
+adds a distinct consumer-interface mechanism. The FTC, Utah, and California
+complaint alleges health-information sharing with advertising platforms,
+prescription-subscription enrollment, refill timing, and cancellation friction;
+the accompanying FTC FOIA release contains 203 coded complaint records, with 50
+labeled resolved, 128 answered, four administratively invalid, and 21 lacking a
+usable disposition. The case is pending, the workbook is selected and heavily
+concentrated in one BBB channel, and neither source establishes customer-wide
+data exposure, unauthorized payment, medical harm, treatment interruption,
+verified remedy, trust change, or practical exit.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:

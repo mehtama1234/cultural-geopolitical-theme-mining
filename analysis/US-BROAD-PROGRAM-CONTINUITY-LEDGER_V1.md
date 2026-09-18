@@ -1018,6 +1018,15 @@ lost-income review, an exhausted $18.25 million back-pay fund, and qualifying
 worker compensation, while recruitment controls and monitoring continue. It
 still leaves claimant denominator, individual receipt, restored opportunity,
 durable compliance, household recovery, trust, and exit open.
+
+The next rotation adds the [Hims & Hers digital-health consumer-power finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-027.md).
+The FTC, Utah, and California complaint alleges a combined privacy, recurring-
+billing, refill, and cancellation interface; the FTC FOIA release adds 203
+coded complaint records but is selected, heavily concentrated in one BBB
+channel, and limited to administrative disposition labels. This expands the
+consumer-recourse map into sensitive health-data and treatment-continuity
+control while leaving account-level exposure, payment, medical outcome,
+verified remedy, trust, switching, and practical exit open.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
