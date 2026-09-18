@@ -1693,6 +1693,13 @@ an obligation or reserved fund, while leaving the complete eligible denominator,
 individual receipt, remaining loss, continued work, alternatives, household
 recovery, bargaining power, and exit open.
 
+The [Amazon Flex refund record](records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
+is now promoted as a canonical distribution-stage trend. It demonstrates
+administrator-reported money movement and a reissue path, not a driver-level
+recovery rate: paid, uncashed, reissued, ineligible, and unknown-status drivers
+remain distinct, and receipt, remaining loss, continued work, household
+recovery, bargaining power, and exit are not publicly observed.
+
 The latest AI/work-control endpoint audit adds a storage-light stage check across
 local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.
 It finds evidence at exposure, adoption, organizational implementation,

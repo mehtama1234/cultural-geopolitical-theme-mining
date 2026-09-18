@@ -989,6 +989,11 @@ adds a distinct operational-return stage: more than 150 trips followed
 voluntary reactivation before the formal order, while lost-pay quantum,
 payment, net recovery, alternatives, durability, and exit remained open. This
 separates work activity from financial restoration and unconstrained choice.
+The [Amazon Flex refund record](records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
+then adds the next remedy stage: the FTC reports aggregate payment distribution
+and a live reissue route for uncashed checks. It advances beyond an obligation
+or order without closing driver-level receipt, remaining loss, continued work,
+household recovery, bargaining power, or exit.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,
