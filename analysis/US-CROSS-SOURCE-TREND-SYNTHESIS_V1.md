@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 325 machine-readable records, 1160 observations,
+The current registry contains 326 machine-readable records, 1163 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -1430,8 +1430,11 @@ and bias barriers, while finding that none of 12 HHS population-health surveys
 collect national-level data on most accessibility barriers. This strengthens
 the interface thesis but does not estimate barrier prevalence or prove effects
 on diagnosis, health, work, or provider exit. The next test is an encounter-
-level accessibility ledger linking accommodation need, completed or failed
 care, family/time burden, complaint, correction, and oversight response.
+
+The [canonical disability accessibility record](records/us-gao-disability-healthcare-accessibility-oversight-2025.json)
+preserves the barrier, measurement, oversight, and recommendation stages as
+separate observations rather than treating formal coverage as usable care.
 
 The [family-care public-capacity synthesis](projects/us-aging-care-strain/findings/us-aging-care-strain-004.md)
 adds a cross-generational version of the same mechanism. Kinship families,

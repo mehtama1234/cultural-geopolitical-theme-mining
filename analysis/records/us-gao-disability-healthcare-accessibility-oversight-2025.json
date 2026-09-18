@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disability-healthcare-accessibility-oversight-2025",
+  "title": "Formal health-care coverage can fail at the accessibility interface",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107120; health-care accessibility barriers, HHS data collection, and federal oversight for people with disabilities",
+  "geography": "United States health-care system and HHS oversight",
+  "observations": [
+    {
+      "period": "Report published December 19, 2025; national disability and health-care accessibility frame",
+      "denominator": {"value": 4, "unit": "one in four U.S. adults reports having a disability; broad population frame", "value_type": "reported_population_share"},
+      "measures": {
+        "barrier_domains": {"value": "physical equipment and facility, sensory environment, communication, cognitive and digital interfaces, and provider bias or assumptions", "unit": "potential accessibility-barrier domains identified from literature and selected stakeholders", "value_type": "reported_scope"},
+        "survey_sample": {"value": 1194, "unit": "adults with disabilities in a nongeneralizable GAO survey", "value_type": "reported_sample"}
+      },
+      "method": "GAO review of federal laws, regulations, HHS policies, peer-reviewed literature published 2013–2024, 12 HHS population-health surveys, a nongeneralizable survey of 1,194 adults with disabilities, and interviews with disability associations, research groups, and accrediting organizations.",
+      "uncertainty": "The one-in-four frame does not estimate the prevalence of any specific barrier; the survey is nongeneralizable; barrier identification does not establish failed encounters, delayed diagnosis, health effects, provider discrimination rates, or causal work and household consequences.",
+      "subgroup": "People with disabilities across physical, sensory, intellectual, developmental, and mental-health-related experiences; needs vary by person, setting, provider, geography, income, insurance, and age.",
+      "counterinterpretation": "A barrier described in literature or stakeholder testimony may be absent or successfully accommodated in a particular encounter; formal coverage and a provider’s nominal equipment do not prove either failure or successful use.",
+      "source_url": "https://www.gao.gov/products/gao-26-107120",
+      "retrieval_hash": "sha256:f977ac60607c65745ac77512fa99d1e6c608e8b8a54ce38064adbcdb68d54978",
+      "status": "reported"
+    },
+    {
+      "period": "2013–2025 evidence and oversight review; HHS accessibility measurement and compliance visibility",
+      "denominator": {"value": 12, "unit": "HHS population-health surveys analyzed by GAO", "value_type": "reviewed_survey_count"},
+      "measures": {
+        "national_barrier_measurement": {"value": "none of the 12 surveys collected national-level data on most health-care accessibility barriers; one included a question on bias", "unit": "survey-coverage finding", "value_type": "reported_gap"},
+        "oversight_routes": {"value": "CMS inspects some accessibility aspects through Medicare-related inspections; OCR investigates some issues through compliance reviews and complaints but does not routinely share results", "unit": "federal oversight route", "value_type": "reported_process"},
+        "implementation_status": {"value": "HHS amended accessibility requirements in 2024, but GAO found current strategic plans lacked detailed steps and timelines for achieving the accessibility priority", "unit": "policy implementation status", "value_type": "reported_finding"}
+      },
+      "method": "GAO comparison of HHS survey instruments, accessibility requirements, CMS inspection processes, OCR complaint/compliance-review practices, and HHS strategic planning.",
+      "uncertainty": "A missing national survey measure does not prove that no local, administrative, or provider data exist; oversight activity is not a compliance rate, correction rate, restored-access measure, or patient outcome.",
+      "subgroup": "HHS population-health surveys and federal oversight mechanisms relevant to health-care organizations serving people with disabilities.",
+      "counterinterpretation": "Privacy, confidentiality, respondent burden, and resource constraints may justify limits on public case detail or new survey modules; limited public visibility can coexist with effective individual correction.",
+      "source_url": "https://www.gao.gov/products/gao-26-107120",
+      "retrieval_hash": "sha256:f977ac60607c65745ac77512fa99d1e6c608e8b8a54ce38064adbcdb68d54978",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025; five GAO recommendations to HHS",
+      "denominator": {"value": 5, "unit": "recommendations for executive action; all open at publication", "value_type": "reported_recommendation_count"},
+      "measures": {
+        "recommendation_scope": {"value": "national accessibility data plans, consistent ACS-6 disability-status collection, detailed Section 504 implementation plans, public summary data for OCR oversight, and additional provider guidance", "unit": "recommended institutional changes", "value_type": "reported_recommendation_scope"},
+        "agency_response": {"value": "HHS neither agreed nor disagreed with the recommendations at publication", "unit": "official recommendation response", "value_type": "reported_status"}
+      },
+      "method": "GAO recommendation and agency-comment review included in GAO-26-107120.",
+      "uncertainty": "Recommendations and agency responses are institutional stages, not completed data collection, provider implementation, accommodation receipt, correction, or improved health outcomes; later status may change.",
+      "subgroup": "HHS, CMS, OCR, health-care organizations, and people with disabilities seeking accessible care.",
+      "counterinterpretation": "Existing guidance, local accommodations, voluntary resolution agreements, or provider redesign may improve access before a national measure or public summary system is complete; the report does not measure those effects.",
+      "source_url": "https://www.gao.gov/products/gao-26-107120",
+      "retrieval_hash": "sha256:f977ac60607c65745ac77512fa99d1e6c608e8b8a54ce38064adbcdb68d54978",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107120", "claim": "Official GAO report supplies barrier domains, HHS survey-coverage gap, CMS/OCR oversight findings, recommendations, and agency-response status.", "status": "official-report"},
+    {"source_url": "https://www.gao.gov/blog/more-ramps-accessibility-issues-remain-prevalent-health-care", "claim": "GAO public explainer provides an accessible companion to the report's accessibility-barrier frame.", "status": "official-explainer"}
+  ],
+  "boundary": "This record establishes a health-care accessibility, interface, measurement, and oversight stage beneath formal coverage or appointment availability. It does not establish barrier prevalence, failed or avoided encounter rates, accommodation receipt, delayed diagnosis, health outcomes, work loss, family burden, provider exit, remedy, trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; report PDF, HHS survey files, provider records, and OCR/CMS administrative files not retained",
+    "html_sha256": "sha256:f977ac60607c65745ac77512fa99d1e6c608e8b8a54ce38064adbcdb68d54978",
+    "checked": "2026-09-18"
+  }
+}
