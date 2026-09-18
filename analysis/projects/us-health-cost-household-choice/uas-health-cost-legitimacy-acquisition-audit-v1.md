@@ -1,6 +1,6 @@
 # UAS health-cost episode and legitimacy acquisition audit v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Status:** official documentation route verified; registration-gated microdata not yet acquired; no estimate promoted
 
 ## Why this is the next acquisition
@@ -81,6 +81,27 @@ No respondent file was downloaded or retained in this recheck. The route
 remains ready for the smallest authenticated acquisition: the Older Ages panel
 and codebook first, followed by the broader Monthly Panel or UAS 537/698 only
 if the structural key, timing, and candidate episode fields pass.
+
+### Current official access recheck — 2026-09-18
+
+The official UAS Data Access page still states that UAS datasets are available
+for download to registered UAS data users. The official Monthly Surveys page
+still labels both the Monthly Panel Survey Dataset and the Older Ages Monthly
+Event Panel Dataset as registration-required downloads. The page continues to
+describe the Monthly Panel as October 2023 to the present, with one
+individual-by-wave record covering prior-month employment, health, financial,
+loss, life-satisfaction, pain, stress, and meaning/purpose measures. It also
+continues to describe the Older Ages panel as June 2019–September 2023 for
+respondents aged 50 or older, with prior-month medical expenditures, work,
+earnings, health, life satisfaction, and pain measures.
+
+This is a current access and documented-field recheck, not a microdata result.
+No respondent file was downloaded, and the repository still has no UAS or
+Older Ages respondent files. The acquisition sequence remains: register and
+accept the data-use conditions, acquire the Older Ages dataset and codebook
+first, then test `uasid` structure, wave timing, weights, missingness, and
+event/outcome overlap before considering the broader Monthly Panel or UAS
+537/698 modules.
 
 ### Overall-workspace retention search — 2026-09-17
 
