@@ -1075,6 +1075,13 @@ business/large-technology contrast and partisan institution judgments. This
 keeps capability, dependence, confidence, performance, use, contestation, and
 action on separate clocks; the next test is a named encounter-to-response
 ledger.
+
+The next civic-portfolio rotation adds the [public-life engagement finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-039.md).
+Pew's four engagement groups separate activity portfolios from generalized
+trust: high political interest varies widely, while federal trust stays low and
+perceived news unfairness stays high. The next test is a same-respondent route
+through time/resources, source exposure, activity, trust, institutional
+response, and later action or withdrawal.
 The [availability-to-use conversion trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 then adds a cross-domain interface rule: nominal capacity is not a usable
 option until price, time, information, accessibility, schedule, reliability,

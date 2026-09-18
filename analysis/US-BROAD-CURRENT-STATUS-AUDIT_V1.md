@@ -1685,7 +1685,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 310 trend records and 1103 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,277 local Markdown links and 651 published HTML pages pass link
+families; 1,278 local Markdown links and 652 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1852,6 +1852,14 @@ in large technology companies, and a 13-point Republican-over-Democratic
 average gap. These are judgments, not performance, usage, compliance, or
 withdrawal measures; named encounters, attribution, switching, complaint,
 action, and institutional response remain open.
+
+The [public-life engagement finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-039.md)
+refines the participation lane into four activity portfolios. Pew's Mobilizers,
+Connectors, Spectators, and Outsiders differ sharply in political interest, but
+federal-government trust remains low across all four and perceived news
+unfairness remains high. Cluster assignment is not a fixed identity, causal
+type, objective news audit, or civic ladder; time/resources, activity movement,
+source exposure, institutional response, and later action remain open.
 
 The ranked [next-episode selection](broad-next-episode-selection-v1.md) now
 chooses the existing MEPS 2024 staged ledger as the primary local depth route:
