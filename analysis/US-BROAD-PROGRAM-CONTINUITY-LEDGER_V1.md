@@ -1855,3 +1855,13 @@ next test is a transaction ledger joining payment method, fee/reward, price,
 product choice, credit/overdraft, income, merchant margin, substitution,
 remedy, trust, and later behavior or exit; preserve observed merchant data
 versus modeled incidence and cash/debit/credit routes.
+
+The next institutional-legitimacy rotation promotes the [NBER Fed
+partisan-trust trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 2024 survey
+experiment adds perceived Federal Reserve alignment, trust, inflation
+expectations, information demand, and information weighting across in-group,
+out-group, and party-leaning respondents. The next test is a respondent ledger
+joining identity/source exposure, institutional encounter, information
+seeking/avoidance, interpretation, expectation, rate/credit or material
+outcome, attribution, trust, policy demand, and action; preserve perceived
+alignment versus actual conduct and scenario versus observed behavior.

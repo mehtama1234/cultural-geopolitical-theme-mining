@@ -2714,3 +2714,14 @@ pass-through, sorting, rewards value, credit access, and welfare are not
 observed on one bill. The next test is a transaction ledger joining payment
 method, fee/reward, price, product choice, credit/overdraft, income, merchant
 margin, substitution, remedy, trust, and later behavior or exit.
+
+The next institutional-legitimacy rotation promotes the [NBER Fed
+partisan-trust trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 2024 survey
+experiment adds perceived Federal Reserve alignment, trust, inflation
+expectations, information demand, and information weighting across in-group,
+out-group, and party-leaning respondents. Perceived alignment is not actual Fed
+conduct, the Prolific sample is not probability-based, and the study does not
+observe realized household or political behavior. The next test is a
+respondent ledger joining identity and source exposure, institutional encounter,
+information seeking/avoidance, interpretation, expectation, rate/credit or
+material outcome, attribution, trust, policy demand, and action.
