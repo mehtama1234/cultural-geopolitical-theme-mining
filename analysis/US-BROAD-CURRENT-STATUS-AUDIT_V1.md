@@ -2535,3 +2535,10 @@ perceived pace, regulatory confidence, and expected personal or societal
 impact. These are not observed privacy loss, productivity, dependence,
 regulatory performance, or durable action; wording, item universes, and
 instrumental-use boundaries remain explicit.
+
+The new [New York Fed debt-credit trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a current aggregate credit-market snapshot beside household-level SHED
+and financial-access evidence. It separates total and product balances,
+quarterly movement, and delinquency from borrower distribution, payment burden,
+hardship, lender remedy, and household recovery. The aggregate layer cannot be
+read as a household trajectory or causal distress estimate.

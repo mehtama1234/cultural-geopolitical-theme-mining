@@ -1668,3 +1668,12 @@ and purpose, disclosure, privacy, task/service outcome, human alternative,
 perceived control, correction, provider or regulatory response, continued use
 or avoidance, trust, and later work/care/civic action; preserve instrumental
 use, concern-with-adoption, age, and wording boundaries.
+
+The next credit-market rotation promotes the [New York Fed debt-credit trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The 2026 Q2 snapshot adds aggregate
+debt, product balances, quarterly movement, and delinquency beside household
+financial-room evidence. The next test is a lawful household or credit-record
+ledger joining product, balance, rate, payment burden, hardship, delinquency,
+lender contact, correction/remedy, substitution, later financial room, trust,
+and action; preserve aggregate versus household units and demand, supply, and
+distress interpretations.
