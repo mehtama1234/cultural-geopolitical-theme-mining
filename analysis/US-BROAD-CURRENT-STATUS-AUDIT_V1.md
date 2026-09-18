@@ -1858,6 +1858,14 @@ controls and monitoring. This remains an implementation report rather than a
 worker-level payment audit; claimant denominator, individual amount/date/receipt,
 restored consideration, post-monitoring compliance, household recovery, trust,
 and exit remain open.
+The new [OpenAI/Statsig recruitment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a distinct pre-remedy access stage. DOJ identifies a mail-versus-electronic
+application burden across six PERM-related advertisements/recruitments, a
+$1.2 million Treasury payment, a $2 million potential back-pay reserve,
+prospective channel and applicant-tracking controls, and three years of
+oversight. The settlement does not disclose the affected denominator, claimant
+payments, restored consideration, implemented-control results, or recurrence;
+it is not evidence of AI involvement or a population prevalence rate.
 
 The [Hims & Hers digital-health consumer-power finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-027.md)
 adds a distinct consumer-interface mechanism. The FTC, Utah, and California

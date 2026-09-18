@@ -1569,3 +1569,12 @@ prevention or worker exit. The next test is a same-case platform-worker ledger
 joining review, restoration, payment receipt, alternatives, recurrence,
 worker-reported recovery, switching, and exit while preserving jurisdiction and
 procedural differences.
+
+The next recruitment-equity rotation promotes the [OpenAI/Statsig recruitment
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The DOJ settlement exposes a
+defined application-channel burden before a potential claimant route, access
+controls, and oversight, while keeping the Apple exhausted-fund implementation
+as a separate remedy clock. The next test is a same-applicant ledger joining
+channel, effort, qualification, consideration, claimant eligibility, payment
+receipt, post-settlement hiring, monitoring, recurrence, and later household
+or political meaning.
