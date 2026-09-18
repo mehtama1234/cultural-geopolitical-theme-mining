@@ -1940,6 +1940,14 @@ durability, recurrence protection, or practical exit. It therefore separates
 access remedy from financial recovery and formal case action from later
 worker behavior.
 
+The [Hotak follow-up record](records/au-hotak-reactivation-continued-work-2025.json)
+adds observed post-reactivation activity to that remedy boundary: more than
+150 trips were completed after voluntary access restoration before the later
+formal reactivation order, while lost-pay quantum remained open. The trip
+count demonstrates operational return to work, not unconstrained choice,
+net earnings, household recovery, continued access, or durable protection;
+payment, expenses, alternatives, recurrence, and exit remain unobserved.
+
 The [2025 SHED banking substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
 adds a financial-access counterexample to the same boundary. Formal account
 ownership is income-patterned, unbanked adults use nonbank transaction routes
