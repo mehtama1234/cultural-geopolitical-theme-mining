@@ -173,8 +173,21 @@ authority, and remedy rather than merely different answers to one question.
 **What it does not support:** inferring identity, moral decline, secularization,
 or political realignment from one attitude percentage.
 
+The 2026 national-mood layer adds a particularly useful temporal split. A
+majority is dissatisfied with the country's current direction and says its
+best years are behind it, yet a larger majority still reports feeling hopeful
+about the future. Respondents are also more pessimistic about the country's
+institutional future than about their own general future affect. Republicans
+and Democrats nearly converge on expecting more political division by 2050,
+while older adults are more likely than younger adults to expect less division
+and greater optimism. This is not a contradiction to smooth away: personal
+hope, national inheritance, institutional expectation, and partisan
+responsibility are different meaning currencies. The layer does not show which
+event changes any of them or whether they guide purchase, migration, voting,
+organizing, or exit. Read the [national-mood and future-expectations layer](projects/us-cost-trust-politics/pew-2026-national-mood-future-expectations-layer-v1.md).
+
 **Decisive next link:** repeated or event-linked measurement of the same
-person's condition, interpretation, action, institutional response, and later
+person’s condition, interpretation, action, institutional response, and later
 trust or exit.
 
 Read: [cultural meaning synthesis](projects/us-cost-trust-politics/cultural-meaning-contested-legitimacy-cross-source-synthesis-v1.md),
