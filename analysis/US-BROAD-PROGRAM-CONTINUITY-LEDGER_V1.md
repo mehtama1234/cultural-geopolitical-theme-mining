@@ -1968,3 +1968,11 @@ need and alternatives, tenure, work and unpaid time, rent/food/health outcome,
 next bill, provider/employer response, correction, recovery, trust, and action;
 preserve renter selection, sparse cells, mixed clocks, and non-causal
 counter-surfaces.
+
+The AI-meaning provenance rotation now links the [Pew AI concern and
+expected-jobs record](records/us-pew-ai-concern-partisan-jobs-2026.json)
+directly into the evidence matrix. It preserves repeated cross-sectional wave
+and wording boundaries, partisan conditioning, and the separation between
+expected job loss and realized workplace displacement; the next test remains a
+same-worker ledger joining AI exposure, employer control, job/schedule/pay
+change, attribution, trust, organizing, and exit.
