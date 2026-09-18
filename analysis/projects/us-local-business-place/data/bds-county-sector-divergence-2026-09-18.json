@@ -1,0 +1,30 @@
+{
+  "audit_type": "bds-county-sector-divergence-layer-v1",
+  "checked": "2026-09-18",
+  "source_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+  "source_last_modified": "2025-09-25",
+  "source_size_bytes": 274770797,
+  "retrieval": {
+    "method": "transient HTTP suffix retrieval",
+    "bytes_retrieved": 12000000,
+    "suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+    "2023_rows_in_suffix": 60686,
+    "counties_in_2023_rows": 3194,
+    "sectors_in_2023_rows": 19
+  },
+  "selected_sectors": {
+    "44-45": {"label": "retail trade", "rows": 3194, "rate_comparable_rows": 2181, "negative_net_job_creation_rate_rows": 1245, "exit_rate_greater_than_entry_rate_rows": 696, "median_entry_rate": 7.407, "median_exit_rate": 6.667, "median_net_job_creation_rate": 0.917},
+    "48-49": {"label": "transportation and warehousing", "rows": 3194, "rate_comparable_rows": 1539, "negative_net_job_creation_rate_rows": 1387, "exit_rate_greater_than_entry_rate_rows": 642, "median_entry_rate": 13.018, "median_exit_rate": 13.333, "median_net_job_creation_rate": 0.253},
+    "62": {"label": "health care and social assistance", "rows": 3194, "rate_comparable_rows": 1950, "negative_net_job_creation_rate_rows": 1051, "exit_rate_greater_than_entry_rate_rows": 414, "median_entry_rate": 9.31, "median_exit_rate": 6.982, "median_net_job_creation_rate": 2.471},
+    "72": {"label": "accommodation and food services", "rows": 3194, "rate_comparable_rows": 2067, "negative_net_job_creation_rate_rows": 954, "exit_rate_greater_than_entry_rate_rows": 560, "median_entry_rate": 10.952, "median_exit_rate": 9.195, "median_net_job_creation_rate": 3.575}
+  },
+  "same_county_counterexample": {
+    "st": "39",
+    "cty": "089",
+    "minimum_establishments_per_selected_sector": 100,
+    "net_job_creation_rates": {"44-45": -2.997, "48-49": 96.707, "62": 3.466, "72": 3.572},
+    "establishments": {"44-45": 406, "48-49": 104, "62": 291, "72": 325}
+  },
+  "boundary": "This is a 2023 county-sector aggregate flow layer. It does not identify firms or applications, establish survival or causation, or measure service access, prices, wages, household burden, trust, political action, or geopolitical consequence.",
+  "raw_storage": "not retained; official suffix retrieved transiently"
+}

@@ -104,6 +104,12 @@ available nationwide county aggregate. It shows that 907 of 3,107 comparable
 county rows had exit above entry in 2023 and that 885 rows had negative net job
 creation, while preserving the fact that this file is not sector-specific.
 
+The [BDS county-sector divergence layer](bds-county-sector-divergence-layer-v1.md)
+opens that sector dimension with a transient, storage-bounded read of the
+official county-sector file. Retail, transport, health, and food show different
+county-level turnover and net-job patterns; a same-county counterexample keeps
+aggregate local growth from being mistaken for uniform service or work growth.
+
 The [CBP county essential-sector capacity layer](cbp-county-essential-capacity-population-layer-v1.md)
 normalizes manufacturing, retail, care, and food establishments by county
 population. It is a rough local-capacity baseline, not a measure of access,

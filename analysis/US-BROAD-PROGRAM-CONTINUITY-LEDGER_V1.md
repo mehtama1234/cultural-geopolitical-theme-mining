@@ -2094,3 +2094,11 @@ time-series index exposes 2018–2023 but not a 2024 directory, and the direct
 mean 2024 dynamics were unchanged or absent. The 2023 realized firm/job layer
 remains a baseline, while the next executable route is state/county-sector
 geography with comparable denominators or a dated event ledger.
+
+The [BDS county-sector divergence layer](projects/us-local-business-place/bds-county-sector-divergence-layer-v1.md)
+extends that county realization layer with a storage-bounded 2023 sector
+screen. Retail, transportation, health, and accommodation/food have distinct
+county medians and negative-net-job shares, and one same-county panel shows
+opposing sector directions. This adds sector-specific employer flows while
+preserving the missing links to applications, firms, services, households,
+trust, political action, and geopolitical consequence.

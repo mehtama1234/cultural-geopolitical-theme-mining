@@ -3074,3 +3074,13 @@ it is not sector-specific and does not link applications to firms or services.
 The next BDS step is a storage-justified county-sector slice with a pre-specified
 geography/sector universe, or a dated event ledger; do not download the full
 275 MB table by default.
+
+The [BDS county-sector divergence layer](projects/us-local-business-place/bds-county-sector-divergence-layer-v1.md)
+now executes that storage-bounded route. A 12 MB official suffix contains all
+60,686 2023 county-sector rows; the selected retail, transport, health, and
+food profiles diverge, and FIPS `39/089` supplies a same-county sector
+counterexample. This advances the county-to-sector realization arrow without
+closing application-to-firm, service-use, household, trust, or political
+arrows. The next step is a small geography/sector panel joined to measured
+access, price, work, ownership, or civic response—not another national BDS
+aggregate.
