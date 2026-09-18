@@ -1716,3 +1716,13 @@ joining medical need and bill formation, collection/reporting, relief notice and
 receipt, credit access/use, later bills, care utilization, health, household
 adaptation, financial room, trust, and action; preserve selected portfolios,
 treatment/control, reporting exposure, and heterogeneous-effect boundaries.
+
+The next coverage-access rotation promotes the [Oregon Medicaid lottery trend]
+(US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The randomized record adds coverage,
+care-use, financial-exposure, self-reported-health, objective-health, and labor
+outcomes beside the observational coverage and medical-cost layers. The next
+test is a same-recipient ledger joining eligibility/selection, enrollment,
+network access, dated need and bill, care completion, payment/collections,
+health, work/care time, household adaptation, correction, trust, and action;
+preserve historical Oregon, lottery-selection, enrollment, and outcome-horizon
+boundaries.

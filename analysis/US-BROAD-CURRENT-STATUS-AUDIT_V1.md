@@ -2576,3 +2576,11 @@ average detected health, utilization, or financial-wellness effect. The
 participants come from selected downstream medical-debt portfolios; relief
 receipt, original care decisions, household trade-offs, heterogeneous effects,
 trust, and political action remain outside the retained evidence.
+
+The new [Oregon Medicaid lottery trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds randomized coverage-access evidence. Lottery selection increased coverage
+and care use and reduced selected financial exposure, while self-reported health
+and depression improved but objective physical-health and labor outcomes did not
+show the same movement. The evidence is historical and local to low-income
+uninsured adults in Oregon; enrollment, network fit, dated bills, treatment
+completion, household adaptation, trust, and action remain open.
