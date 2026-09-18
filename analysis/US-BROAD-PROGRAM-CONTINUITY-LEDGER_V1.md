@@ -1696,3 +1696,13 @@ lanes. The next test is a same-geography or matched-place ledger joining
 population, providers, transport, housing/work conditions, service use,
 migration exposure, belonging, attribution, trust, action, vote, and response;
 preserve contextual, respondent, local-survey, and non-causal boundaries.
+
+The next health-cost rotation promotes the [MEPS financial-room and care-delay
+trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The record adds unexpected-
+expense confidence, medical-debt bands, cost-related care delay, and a separate
+denial/prior-authorization friction route beside the dated medical-event and
+follow-up layers. The next test is a same-need or same-claim ledger joining
+coverage, authorization, notice, amount owed, payment/debt, delay or completion,
+appeal/correction, provider response, work/care adaptation, verified remedy,
+later health and financial room, trust, and action; preserve cross-sectional,
+field-specific, non-same-bill, and non-causal boundaries.

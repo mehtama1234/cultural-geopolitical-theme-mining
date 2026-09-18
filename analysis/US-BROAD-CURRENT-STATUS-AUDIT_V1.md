@@ -2558,3 +2558,12 @@ local immigration attitudes, trust, and civic action show different patterns
 rather than one capacity gradient. The synthesis does not establish local
 causality, provider adequacy, belonging, or political effects; place and
 respondent units remain separate.
+
+The new [MEPS financial-room and care-delay trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
+adds a health-cost access layer between household financial room and the
+existing dated medical-event evidence. MEPS 2024 cross-tabs align unexpected-
+expense confidence and medical debt with cost-related care delay, while a
+separate screen aligns denial or prior-authorization delay with care delay,
+medical debt, and collector contact. These are cross-sectional, field-specific
+associations rather than same-bill or causal pathways; claim timing, appeal,
+resolution, treatment completion, remedy, trust, and action remain unobserved.
