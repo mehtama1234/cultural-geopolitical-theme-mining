@@ -2031,6 +2031,10 @@ and reported correction progress, but the API's approximately 190,000 units
 and the MPR's 256,845 products recalled are not one denominator. Purchaser
 notice, replacement receipt, safe restoration, residual cost, and later use or
 exit remain open.
+The [VRURC recall-key record](records/us-cpsc-vrurc-recall-implementation-2023-2026.json)
+is now linked directly from the canonical trend and matrix, preserving the
+source-key join and denominator reconciliation rather than treating the MPR
+correction count as a consumer recovery rate.
 
 The [MEPS dated medical-event record](records/us-meps-dated-medical-event-household-work-2024.json)
 formalizes the next event-compatible route. Month-ordered prescription, office,
