@@ -56,25 +56,26 @@ separate.
 | VRURC portable-charger recall bridge (1 recall key) | Dated hazard notice, replacement instruction, later recall-level correction snapshot | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit |
 | Honda Talon repair ledger (1 recall key) | Dated vehicle hazard, direct-contact claim, dealer-repair route, later correction snapshot | Purchaser exposure, repair receipt, downtime, safe mobility, residual cost, trust, switching/exit |
 | CFPB credit-card monetary-relief ledger (25 cases) | Complaint receipt, routing, timely handling, and monetary-relief response label | Account exposure, alternatives, issuance/receipt, correction, remaining loss, trust, switching/exit |
+| FWC Adcon liquidation ledger (1 episode) | Employer shutdown, unpaid notice/redundancy, reported family/financial stress, lower-paid replacement work, $9,584 alternative earnings, liquidation, and $17,531.43 compensation order | Compensation receipt, FEG recovery, job duration, household recovery, durable trust, recurrence, exit |
 
 ## Stage-level coverage count
 
-The 29 surfaces can also be summarized without pooling their units. A status is
+The 30 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 25 | 2 | 2 |
-| Responsible actor | 19 | 8 | 2 |
-| Alternative or non-use | 7 | 7 | 15 |
-| Effort, money, or time trade-off | 6 | 17 | 6 |
-| Adaptation or protected/sacrificed outcome | 8 | 10 | 11 |
-| Institutional or firm response | 26 | 1 | 2 |
-| Verified remedy | 2 | 20 | 7 |
-| Meaning, trust, or action | 0 | 7 | 22 |
-| Recovery, persistence, or exit | 2 | 10 | 17 |
+| Dated event or exposure | 26 | 2 | 2 |
+| Responsible actor | 20 | 8 | 2 |
+| Alternative or non-use | 8 | 7 | 15 |
+| Effort, money, or time trade-off | 7 | 17 | 6 |
+| Adaptation or protected/sacrificed outcome | 9 | 10 | 11 |
+| Institutional or firm response | 27 | 1 | 2 |
+| Verified remedy | 2 | 21 | 7 |
+| Meaning, trust, or action | 0 | 8 | 22 |
+| Recovery, persistence, or exit | 2 | 11 | 17 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -106,8 +107,8 @@ prioritize an episode key and stage-specific missingness over additional
 cross-sectional pressure measures.
 
 The machine record now encodes the promotion decision explicitly: `qualifies`
-is `false`, one retained surface observes an alternative or non-use field, and
-zero retained surfaces observe verified remedy receipt or a defined outcome
+is `false`, eight retained surfaces observe an alternative or non-use field, and
+two retained surfaces observe verified remedy receipt or a defined outcome
 follow-up. A future pass must satisfy both gate fields before a new
 end-to-end finding is promoted.
 

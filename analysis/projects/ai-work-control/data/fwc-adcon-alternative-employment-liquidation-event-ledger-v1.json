@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_employment_liquidation_record",
+  "purpose": "Bounded Fair Work Commission case ledger preserving employer shutdown, unpaid promised entitlements, documented family and financial stress, lower-paid alternative employment, and a compensation order without treating the order as payment receipt or durable recovery.",
+  "events": [
+    {
+      "event_id": "FWC-ADCON-SMITH-2024-01-31",
+      "unit": "worker",
+      "geography": "Victoria, Australia; Adam Smith v Adcon Admin Pty Ltd, U2024/1618",
+      "actor_initiating_change": "employer",
+      "event_date": "2024-01-31",
+      "date_precision": "termination date; decision issued 2024-10-04; alternative employment began 2024-03-01; employer wound up 2024-03-31",
+      "denominator": "One publicly identified adjudicated employment case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision [2024] FWC 2775",
+      "missingness": "Worker payment instrument, compensation-order receipt, exact alternative-job conditions beyond reduced pay, later job duration, household recovery, trust, recurrence, and exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "Adcon told the worker it would stop operating, terminated him without the promised notice or redundancy payments, and entered court-appointed liquidation; unused leave was paid but notice and redundancy entitlements were not",
+      "alternatives_before_action": "The worker made efforts to find work and secured continuing alternative employment beginning 2024-03-01 at a reduced rate; the public decision does not enumerate the full offer set, search cost, or non-use alternatives",
+      "immediate_burden_or_benefit": "The decision records financial stress and family pressure from job loss and unpaid entitlements; the alternative job produced $9,584 during the period used in the compensation calculation against $24,230.81 expected remuneration",
+      "choice_or_response": "The worker contacted affected Workcover claimants, pursued an unfair-dismissal application, searched for work, and accepted lower-paid employment; the record does not measure whether acceptance was freely chosen under feasible alternatives",
+      "person_or_actor_with_control": "Adcon controlled termination and promised entitlements; the worker controlled job search and legal challenge; the Commission controlled remedy; liquidation constrained practical enforcement",
+      "remedy_or_institutional_response": "The Commission found the dismissal unfair, rejected reinstatement because the employer had wound up, and ordered $17,531.43 gross plus superannuation within 14 days; the order was increased for unpaid notice and redundancy entitlements",
+      "immediate_outcome": "A same-case lower-paid alternative job, quantified earnings trade-off, reported family/financial burden, employer liquidation, and formal compensation order are observed or reported; compensation receipt is not",
+      "protected_outcome": "The worker obtained continuing alternative employment and earned $9,584 during the relevant counterfactual period; some leave entitlements were paid",
+      "sacrificed_outcome": "The original job ended, notice and redundancy payments were initially unpaid, replacement earnings were lower, and household stress was reported; longer-term recovery is unknown",
+      "cost_risk_transfer": "The worker carried search, income-gap, and enforcement risk while employer insolvency reduced the practical value of formal remedies; the Commission recognized the residual loss in the order",
+      "later_outcome": "Alternative employment, reported stress, and formal compensation are visible, but order receipt, job durability, household recovery, trust, recurrence, switching, and exit remain unknown",
+      "meaning_and_attribution": "The worker attributed financial stress and family pressure to job loss and unpaid entitlements; this is a case-level meaning signal, not a standardized trust measure",
+      "public_or_collective_response": "Individual Commission action and communication with affected Workcover claimants are observed; no later collective or political action is reported",
+      "counterexample": "A lower-paid replacement job and partial final-pay receipt can coexist with unpaid entitlements, employer liquidation, family stress, and an unverified compensation order",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Primary Fair Work Commission [2024] FWC 2775, https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf; the decision accepts the worker's unchallenged evidence and orders compensation but does not confirm payment or later recovery"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-ADCON-A-01",
+      "from": "employer shutdown and termination",
+      "to": "financial/family stress and unpaid entitlements",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records financial stress and family pressure after job loss and states that notice and redundancy entitlements were not paid, although unused leave was paid",
+      "status": "reported",
+      "counterexample": "The case is one unchallenged claimant account, not a population estimate or causal household effect",
+      "remaining_gap": "Household budget, duration, debt, care substitution, and independent corroboration"
+    },
+    {
+      "arrow_id": "FWC-ADCON-A-02",
+      "from": "job loss",
+      "to": "search and lower-paid alternative employment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The worker secured continuing alternative employment beginning 2024-03-01 at a reduced rate and earned $9,584 during the relevant period",
+      "status": "reported",
+      "counterexample": "A replacement job does not show the full offer set, reachability, equivalence, search cost, or voluntariness",
+      "remaining_gap": "Applications, offers, hours, benefits, travel, job conditions, and later duration"
+    },
+    {
+      "arrow_id": "FWC-ADCON-A-03",
+      "from": "alternative earnings",
+      "to": "assessed residual loss and compensation order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission deducted $9,584 from $24,230.81 anticipated remuneration, then ordered $17,531.43 gross plus superannuation including an additional week for unpaid notice/redundancy effects",
+      "status": "observed",
+      "counterexample": "A legal calculation is not a welfare-equivalent measure or proof that the order was paid",
+      "remaining_gap": "Net amount, payment execution, receipt, and residual household loss"
+    },
+    {
+      "arrow_id": "FWC-ADCON-A-04",
+      "from": "employer liquidation",
+      "to": "failed reinstatement and constrained remedy",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The employer wound up and entered court-appointed liquidation; the Commission found reinstatement inappropriate and ordered compensation instead",
+      "status": "observed",
+      "counterexample": "A formal order can exist even when the original workplace no longer exists to restore",
+      "remaining_gap": "Liquidator/FEG implementation, payment priority, and actual recovery"
+    },
+    {
+      "arrow_id": "FWC-ADCON-A-05",
+      "from": "lower-paid alternative work and compensation order",
+      "to": "durable recovery, trust, recurrence, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public decision ends at alternative employment, reported stress, liquidation, and the compensation order",
+      "status": "open",
+      "counterexample": "A worker can adapt and obtain an order while remaining financially exposed and unable to recover the original job",
+      "remaining_gap": "Payment receipt, job duration, household recovery, trust, later work, recurrence, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger adds one adjudicated employment-shutdown episode with reported household stress, lower-paid alternative employment, quantified earnings, liquidation, and a compensation order. It does not establish compensation receipt, FEG recovery, durable employment, household recovery, trust, recurrence, or exit.",
+  "storage_boundary": "No claimant file, payment instrument, direct personal data beyond the public case reference, or bulk archive is retained; only bounded primary decision fields, dates, reported alternatives, money and household effects, remedy stages, uncertainty, and open downstream arrows are represented."
+}

@@ -1191,7 +1191,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 29 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 30 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1234,6 +1234,12 @@ adds a five-week transition to alternative employment, an interim income gap,
 non-return through compensation in lieu of reinstatement, and a $3,744 order.
 Treat it as an alternative-employment comparator, not receipt-verified
 recovery or durable exit.
+The [structured Adcon ledger](projects/ai-work-control/data/fwc-adcon-alternative-employment-liquidation-event-ledger-v1.json)
+adds employer shutdown and liquidation, reported family/financial stress,
+lower-paid replacement work beginning one month later, $9,584 in alternative
+earnings during the assessed period, and a $17,531.43 compensation order.
+Treat it as a household-burden and remedy-availability comparator, not proof
+of compensation receipt, FEG recovery, or durable exit.
 The [structured Mansoor platform ledger](projects/ai-work-control/data/uber-mansoor-alternative-earnings-lost-pay-event-ledger-v1.json)
 adds substitute Baysec and Didi earnings in the same deactivation case,
 reactivation, and a $6,073.23 gross lost-pay order. Treat it as a stronger
@@ -1248,9 +1254,9 @@ adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
 opportunity.
 
-**Stage-bottleneck promotion gate (2026-09-18):** across those 29 surfaces,
-25 have an observed dated event/exposure and 26 have an observed institutional
-or firm response, but only 7 have an observed alternative/non-use stage, 2 have
+**Stage-bottleneck promotion gate (2026-09-18):** across those 30 surfaces,
+26 have an observed dated event/exposure and 27 have an observed institutional
+or firm response, but only 8 have an observed alternative/non-use stage, 2 have
 an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record
 now encodes `qualifies: false` and requires both fields on the same retained
