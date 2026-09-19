@@ -3023,6 +3023,18 @@ with separate technology and implementation boundaries. It advances the
 geopolitical material-input lane without closing a disruption, shipment,
 redesign, output, supplier-switch, or external-response event.
 
+The September 18 continuation closes part of that acquisition target. A
+machine-readable sequence now records China's 2023 gallium/germanium licensing
+control, USITC-reported early Chinese shipment contraction and price movement,
+DOE's 2026 gallium-recovery selections, GlobalFoundries' Vermont GaN route, and
+the Navitas/GF September 2026 US-manufacturing shipment schedule. The current
+critical-minerals portfolio therefore has a policy-to-market-to-capability
+chain, but not yet a named US firm with confirmed delivered product, customer
+qualification, upstream gallium provenance, measurable import displacement,
+or an observed geopolitical concession. The next qualifying pass should seek
+one of those realization records; it should not relabel project selection or a
+forward-looking shipment schedule as operating autonomy.
+
 ## Sequencing rule
 
 ### Current four-rotation handoff — 2026-09-17
