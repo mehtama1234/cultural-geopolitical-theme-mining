@@ -89,6 +89,14 @@ These are real bridges, but each closes only part of the full chain:
   institutional response, but does not show any individual payment, account
   correction, repeat effort, restored security, trust, or exit. A redress pool
   is therefore not a consumer recovery rate.
+- **Marketplace power:** an FTC/state complaint alleges that Amazon's hidden
+  advertising-auction surcharges affected more than one million advertisers,
+  including more than 500,000 small and medium businesses, and that higher
+  advertising costs were largely passed to consumers. This is an allegation,
+  not an adjudicated finding or a price estimate; the missing bridge is seller
+  cost → bid/visibility → product price or assortment → actual purchase and
+  household burden. Visibility, seller participation, and consumer welfare
+  must remain separate outcomes.
 - **SIPP SNAP:** adjacent-month transitions show that benefit exit is not
   automatically improvement: 76.2% of observed exits had a lower next-month
   income-to-poverty ratio, and only about half of transitions had a classified
