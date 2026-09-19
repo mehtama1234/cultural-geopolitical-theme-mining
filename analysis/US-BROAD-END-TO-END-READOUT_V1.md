@@ -501,6 +501,14 @@ These are real bridges, but each closes only part of the full chain:
   complaint is an observed endpoint, not proof of durable employment, benefit
   use, household recovery, trust, or exit. This is one selected agency-reported
   case, but it closes more of the chain than an aggregate payment total.
+- **Rapid rehire is still not durable recovery:** a separate DOJ IER telephone
+  intervention in Disputanta, Virginia reports that an employer rehired a
+  worker within a few days after rejecting proof of an automatic work-
+  authorization extension and provided full back pay within a month. This adds
+  a tighter implementation clock—barrier → intervention → rehire → payment—
+  but the public record still lacks an independent receipt record, amount,
+  later job stability, household effect, or worker meaning/action. It is now
+  retained in the [IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json).
 - **Care and work:** among households with young children, lower-income
   households reported much more converted work-time loss when care was
   inadequate (114.6 days below poverty versus 43.3 days above 400% of

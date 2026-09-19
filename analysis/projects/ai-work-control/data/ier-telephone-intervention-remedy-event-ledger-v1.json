@@ -126,6 +126,37 @@
       "counterexample": "An offer of reinstatement is not equivalent to accepted restoration, and back pay is not equivalent to full household recovery",
       "evidence_status": "reported",
       "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-TEL-2018-02-02-DISPUTANTA",
+      "unit": "case",
+      "geography": "Disputanta, Virginia; worker employment-verification intervention",
+      "actor_initiating_change": "employer",
+      "event_date": "2018-02-02",
+      "date_precision": "IER telephone-intervention summary date; page retrieved September 19, 2026",
+      "denominator": "One reported worker case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER telephone-interventions page",
+      "missingness": "Worker and employer identities, exact wage amount, payment instrument, independent receipt confirmation, later job stability, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer refused to accept documentation showing an automatic extension of the worker's employment authorization and ended the worker's employment",
+      "alternatives_before_action": "Other work, non-use, appeal routes, and the worker's feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "The worker was out of work; IER reports that the employer rehired the worker within a few days and provided full back pay within a month",
+      "choice_or_response": "The worker called IER, which contacted the employer's corporate counsel; the worker's effort and acceptance are not independently documented",
+      "person_or_actor_with_control": "Employer controlled work access and payroll; IER controlled the intervention route; worker control after rehire is unobserved",
+      "remedy_or_institutional_response": "Employer reportedly rehired the worker and paid full back pay after IER explained the automatic extension",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "IER reports rehire and full back pay, but independent worker confirmation and payment documentation are not retained",
+      "durability_followup": "Immediate rehire and payment timing are reported; later employment, recurrence, trust, and household recovery are unknown",
+      "immediate_outcome": "Agency-reported rapid rehire and full back-pay implementation",
+      "protected_outcome": "Work access was reportedly restored within days and lost wages were reportedly paid within a month; adequacy and durable security are not observed",
+      "sacrificed_outcome": "The worker lost work access before intervention; duration, household effect, and nonfinancial costs are not reported",
+      "cost_risk_transfer": "The employer reportedly bears the back-pay response while the worker retains unknown recurrence and adequacy risk",
+      "later_outcome": "No later employment, recurrence, household recovery, trust, collective action, switching, or exit endpoint is reported",
+      "meaning_and_attribution": "No worker-reported fairness, blame, identity, or institutional-trust endpoint is retained",
+      "public_or_collective_response": "IER intervention is reported; no later collective or political response is observed",
+      "counterexample": "This is the strongest implementation example in the selected set, but rapid reported rehire and back pay still do not prove independent receipt, durable protection, or full recovery",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported case summary with no claimant follow-up"
     }
   ],
   "arrows": [
@@ -135,7 +166,7 @@
       "to": "worker hotline contact and IER intervention",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Four dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
+      "evidence": "Five dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
       "status": "reported",
       "counterexample": "These are selected intervention summaries, not a prevalence sample or complete record of all affected workers",
       "remaining_gap": "Worker denominator, effort, alternatives, non-use, and counterfactual opportunity"
@@ -157,7 +188,7 @@
       "to": "reported back pay",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The page reports six days of back pay, $3,400, $264, and $2,615 in the four selected summaries; the Miami case also reports a reinstatement offer",
+      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, and full back pay within a month across the five selected summaries; the Miami case also reports a reinstatement offer",
       "status": "reported",
       "counterexample": "Agency-reported payment is not an independently audited receipt, and a reinstatement offer is not accepted reemployment",
       "remaining_gap": "Payment instrument, date, net amount, receipt, acceptance, and adequacy"
@@ -174,6 +205,6 @@
       "remaining_gap": "Worker-linked receipt, accepted restoration, later employment, household recovery, meaning, recurrence, collective action, switching, and exit"
     }
   ],
-  "boundary": "This ledger formalizes four selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes five selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, rapid rehire in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
   "storage_boundary": "No claimant files, direct identifiers, employer identities, bulk archive, or payment instruments are retained; only bounded public case summaries, dates, reported remedy fields, uncertainty, and open arrows are represented."
 }
