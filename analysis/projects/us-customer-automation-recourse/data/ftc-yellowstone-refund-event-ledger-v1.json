@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_aggregate_consumer_refund_with_cashed_prior_payment",
+  "purpose": "Structured FTC Yellowstone refund ledger distinguishing verified prior-check cashing from later payment distribution while preserving the underlying business recovery, residual loss, and exit stages as open.",
+  "events": [
+    {
+      "event_id": "FTC-YELLOWSTONE-THIRD-REFUND-2026-09-19",
+      "unit": "case",
+      "geography": "United States; small businesses harmed by Yellowstone Capital merchant cash advances",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-19",
+      "date_precision": "FTC refund announcement date; third distribution after June 2022 and August 2024 distributions",
+      "denominator": "3,759 small businesses receiving a third check; recipients had cashed a previous check; no business-level recovery denominator",
+      "method": "Structured extraction from the official FTC Yellowstone Capital refund page",
+      "missingness": "Business identifiers, individual refund amounts, underlying account correction, remaining loss, operating status, employment, customer continuity, trust, switching, and exit are not retained",
+      "condition_or_decision": "payment",
+      "exposure": "FTC alleged Yellowstone withdrew money from business bank accounts after businesses had repaid the full amounts owed in merchant cash advance contracts",
+      "alternatives_before_action": "Businesses could seek bank intervention, dispute withdrawals, pursue legal or complaint routes, or continue operating under the affected financing relationship; individual alternatives are not published",
+      "immediate_burden_or_benefit": "The FTC reports a third distribution totaling more than $549,000 to 3,759 businesses that had cashed a previous check; the prior cashing is an aggregate receipt signal, not a complete loss-recovery measure",
+      "choice_or_response": "Businesses previously cashed a refund check and were eligible for an additional distribution; ongoing use, switching, or non-use of the financing relationship is not observed",
+      "person_or_actor_with_control": "FTC and refund administrator control distribution; Yellowstone controlled the original withdrawal process; businesses control whether and how to use available financial alternatives within unknown constraints",
+      "remedy_or_institutional_response": "FTC refund administration issued a third payment after two earlier distributions, conditioned on prior check cashing",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "FTC explicitly reports that the 3,759 recipients cashed a previous check; receipt of the third check is not yet verified in the public announcement",
+      "durability_followup": "Repeat distribution is observed, but underlying account correction, residual loss, business survival, employment, customer continuity, and later financial security are unknown",
+      "immediate_outcome": "A repeat refund route reaches a previously cashing recipient group",
+      "protected_outcome": "Some businesses received prior cash refunds and were offered additional compensation; restored liquidity or operating security is not established",
+      "sacrificed_outcome": "Unauthorized withdrawals and any residual loss after partial refunds remain unmeasured",
+      "cost_risk_transfer": "Repeated refund administration can return money while businesses retain uncertainty about the original financing relationship, residual loss, and future liquidity",
+      "later_outcome": "No business-level recovery, continued financing use, switching, employment, customer service, trust, or exit endpoint is reported",
+      "meaning_and_attribution": "No business-owner fairness, blame, institutional trust, or collective-action endpoint is observed",
+      "public_or_collective_response": "FTC enforcement and repeat distribution are visible; business organizing or later political action is not observed",
+      "counterexample": "Prior check cashing is stronger than a mere payment offer, but it does not establish that the third payment arrived or that the underlying financial harm was removed",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official FTC Yellowstone Capital refund announcement; aggregate refund administration does not expose business-level recovery or later outcomes",
+      "source_url": "https://search.ftc.gov/enforcement/refunds/yellowstone-capital-refunds"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-YELLOWSTONE-A-01",
+      "from": "unauthorized withdrawal after reported repayment",
+      "to": "FTC enforcement and refund distribution",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC describes the alleged withdrawals, settlement, and three refund rounds",
+      "status": "reported",
+      "counterexample": "The public case record does not identify the original withdrawal, repayment, or settlement effect for each business",
+      "remaining_gap": "Business-level account and transaction linkage"
+    },
+    {
+      "arrow_id": "FTC-YELLOWSTONE-A-02",
+      "from": "first refund check",
+      "to": "recipient cashing and additional-payment eligibility",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC states that the 3,759 businesses receiving the third distribution had cashed a previous check",
+      "status": "reported",
+      "counterexample": "Previous cashing does not verify the amount received, adequacy, or third-check receipt",
+      "remaining_gap": "Recipient-level payment amounts, dates, and third-check cashing"
+    },
+    {
+      "arrow_id": "FTC-YELLOWSTONE-A-03",
+      "from": "partial or repeated refund",
+      "to": "restored business liquidity and operating security",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC reports refund amounts and prior cashing but no business operating or account outcome",
+      "status": "open",
+      "counterexample": "A cashed refund can coexist with residual loss, debt, closure, or continued dependence",
+      "remaining_gap": "Account correction, residual loss, survival, employment, and customer continuity"
+    },
+    {
+      "arrow_id": "FTC-YELLOWSTONE-A-04",
+      "from": "refund receipt",
+      "to": "trust, switching, continued use, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official refund page provides no later business-level behavioral or trust follow-up",
+      "status": "open",
+      "counterexample": "Receiving money does not reveal whether the business stayed, switched financing, or changed institutional judgment",
+      "remaining_gap": "Same-business later use, switching, trust, collective action, and exit"
+    }
+  ],
+  "boundary": "This ledger adds one official consumer-financial remedy case with an explicit prior-cashing condition. It advances recipient-side receipt evidence beyond a payment offer, but it does not establish third-payment receipt, adequate recovery, account correction, business survival, trust, switching, or exit.",
+  "storage_boundary": "Only compact official page-derived fields, source URL, and uncertainty are retained; no business identifiers, administrator file, or raw payment file is downloaded."
+}

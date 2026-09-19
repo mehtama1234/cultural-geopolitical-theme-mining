@@ -119,6 +119,11 @@
       "role": "named BrightSpeed, Navient, and ADSS distribution-stage comparator"
     },
     {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC repeat refund route with explicit prior-check cashing and open business-recovery outcomes"
+    },
+    {
       "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-ombudsman-redress-reissue-event-ledger-v1.json",
       "domain": "consumer_financial_recourse",
       "role": "official illustrative recipient-side expired-check reissue and Ombudsman facilitation"

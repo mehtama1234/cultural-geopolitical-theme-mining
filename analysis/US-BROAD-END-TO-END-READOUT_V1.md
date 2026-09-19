@@ -573,8 +573,8 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
-- **Remedy visibility is still not remedy recovery:** across the 35 retained
-  event ledgers and 209 events, 34 events carry an explicit remedy stage; 11
+- **Remedy visibility is still not remedy recovery:** across the 36 retained
+  event ledgers and 210 events, 35 events carry an explicit remedy stage; 12
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
   The other 175 events have no explicit remedy-stage field. This is not proof
@@ -584,9 +584,17 @@ These are real bridges, but each closes only part of the full chain:
   the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
   The stage is also source-dependent: the employment/control ledgers carry 22
   explicit remedy stages across 33 events, product-safety ledgers carry 6 of 6,
-  customer-recourse ledgers carry 4 of 54, and health-cost ledgers carry 0 of
+  customer-recourse ledgers carry 5 of 55, and health-cost ledgers carry 0 of
   100. This is a documentation-pattern comparison, not evidence that one
   domain remedies people better than another.
+- **Prior receipt is a meaningful but incomplete consumer endpoint:** the FTC's
+  Yellowstone refund record says 3,759 small businesses receiving a third
+  distribution had already cashed a previous refund check. That is stronger
+  than a payment offer or an aggregate “issued” amount: it establishes a
+  recipient-side cashing condition and a repeat-remedy path. It still does not
+  show that the third check was cashed, that the original account problem was
+  corrected, or that the businesses recovered, stayed, switched financing, or
+  changed trust. See the [Yellowstone refund ledger](projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json).
 
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
