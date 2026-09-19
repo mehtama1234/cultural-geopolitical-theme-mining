@@ -1,5 +1,7 @@
 # US life: the big picture
 
+**Updated:** 2026-09-19
+
 ## What this map is for
 
 The full recovery brief is [US broad theme inventory v1](US-BROAD-THEME-INVENTORY_V1.md). It records the societal, cultural, consumer, political, company, sector, and geopolitical themes and the active five-bridge program. The household calendar is one measurement instrument inside that program, not its definition.
@@ -18,7 +20,10 @@ sets the common rule for that synthesis: surveys, administrative records,
 firms, markets, media, cultural measures, and international records retain
 their own units and roles while contributing to a shared arrow map.
 
-The atlas now contains 84 topics, 5 shared themes, 174 recorded cross-topic links, and 85 reading paths. Those numbers describe the map, not the size of a proven social problem.
+The atlas now contains 14 umbrella themes, 344 validated machine-readable
+records, 1,214 observations, 174 recorded cross-topic links (174 recorded
+links), and 85 reading
+paths. Those numbers describe the map, not the size of a proven social problem.
 
 The program-level finding that currently interprets the full cross-source map is
 [Unequal optionality is the recurring structure behind pressure, adaptation, and
@@ -37,6 +42,16 @@ The packets keep pointing to one practical idea:
 A family may keep paying rent by dropping insurance, care, food quality, saving, or free time. A worker may keep the same annual income while taking more trips, more jobs, more debt, or less control. A customer may keep using a service while spending more time trying to get an answer or leave.
 
 These are repeated patterns in the questions and early evidence. They are not proof that all of them are worsening together or happening to the same households.
+
+The current [retained same-unit bridge matrix](US-BROAD-RETAINED-SAME-UNIT-BRIDGE-MATRIX_V1.md)
+shows where the long chain is genuinely observed: MEPS places a dated medical
+event before later health/work movement; SHED follows financial adaptation and
+partial reversal; CCES places earlier job loss or insurance insecurity before
+later institutional judgment and political action. These are separate
+bridges, not one joined household story. Across them, adaptation, approval,
+contact, action, and recovery do not form a single ladder. That divergence is
+one of the atlas's strongest cultural findings and a reason to measure meaning
+and perceived control directly rather than infer them from hardship.
 
 ## What the latest pages add
 
