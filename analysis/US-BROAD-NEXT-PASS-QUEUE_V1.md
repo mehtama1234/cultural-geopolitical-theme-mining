@@ -1212,6 +1212,10 @@ coverage without qualifying the same-case gate.
 The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json)
 now preserves those five dated cases and keeps payment, offer, employer
 controls, restored opportunity, and later worker outcomes as separate stages.
+The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
+adds the contrasting aggregate-completion stage: a reported exhausted
+$18.25 million back-pay fund, distinct from worker-level receipt and restored
+opportunity.
 
 **Stage-bottleneck promotion gate (2026-09-18):** across those 18 surfaces,
 15 have an observed dated event/exposure and 15 have an observed institutional

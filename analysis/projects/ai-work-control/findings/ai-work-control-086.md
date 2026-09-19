@@ -96,6 +96,7 @@ security, and trust.
 - [DOJ 2023 Apple settlement announcement](https://www.justice.gov/archives/opa/pr/justice-department-secures-25-million-landmark-agreement-apple-resolve-employment)
 - [DOJ settlements and lawsuits ledger](https://www.justice.gov/crt/settlements-and-lawsuits)
 - [Machine-readable trend record](../../../records/us-doj-apple-perm-backpay-distribution-2026.json)
+- [Structured Apple PERM event ledger](../data/apple-perm-backpay-implementation-event-ledger-v1.json)
 - [OpenAI/Statsig prospective-remedy comparator](ai-work-control-085.md)
 
 **Storage boundary:** only two official DOJ press-release pages and the public

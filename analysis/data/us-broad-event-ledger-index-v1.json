@@ -67,6 +67,11 @@
       "path": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json",
       "domain": "employment_remedy",
       "role": "agency-reported individual payment and offer with employer control response"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "agency-reported aggregate back-pay fund completion and recruitment-control implementation"
     }
   ]
 }
