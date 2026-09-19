@@ -102,6 +102,13 @@ These are real bridges, but each closes only part of the full chain:
   not a resident benefit. Budget authority still has to become a program,
   notice, eligibility route, timely decision, and usable remedy before it
   changes household security or public trust.
+- **Disaster recovery and legitimacy:** after Hurricane Harvey, 70% of
+  affected residents said life was largely back to normal nearly a year later,
+  but 30% still reported disruption and 42% said they were not getting the
+  help they needed. Only 54% were confident relief benefited those who needed
+  it most. Recovery progress, aid reachability, and legitimacy therefore move
+  on different clocks; an application or public award is not receipt, adequacy,
+  or restored trust.
 - **Cash App enforcement:** the CFPB record documents fraud/dispute-process
   failures, required operational correction, and up to $120 million in
   consumer redress. It advances the route from reported loss to a named
