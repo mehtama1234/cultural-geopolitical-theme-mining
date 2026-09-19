@@ -282,6 +282,11 @@ These are real bridges, but each closes only part of the full chain:
   period; a separate 5,179-agent customer-support experiment estimated about
   14% more issues resolved per hour. Time and output moved, but ownership of
   the gain, pace, pay, and household consequence remain unobserved.
+  A separate executive survey adds a time-horizon counterexample: 90% reported
+  no past-three-year firm employment/productivity impact, while expected
+  next-three-year productivity was positive and employer/employee employment
+  expectations differed. Presently unmeasured impact and future anticipated
+  reallocation can coexist; expectations are not realized worker outcomes.
   A separate OECD employer survey reports 90% of US firms with 20+ employees
   using at least one algorithmic-management tool, 76% using ten or more, and
   55% monitoring conversation content or tone; those are employer reports, not
