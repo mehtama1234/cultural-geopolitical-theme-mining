@@ -12,24 +12,24 @@
       "date_precision": "termination date; decision issued 2024-10-04; alternative employment began 2024-03-01; employer wound up 2024-03-31",
       "denominator": "One publicly identified adjudicated employment case; no population denominator",
       "method": "Structured extraction from the primary Fair Work Commission decision [2024] FWC 2775",
-      "missingness": "Worker payment instrument, compensation-order receipt, exact alternative-job conditions beyond reduced pay, later job duration, household recovery, trust, recurrence, and exit are not retained",
+      "missingness": "The decision records correspondence advising the worker about FEG entitlements, but not a FEG application, eligibility determination, payment instrument, compensation-order receipt, exact alternative-job conditions beyond reduced pay, later job duration, household recovery, trust, recurrence, or exit",
       "condition_or_decision": "job_rule",
       "exposure": "Adcon told the worker it would stop operating, terminated him without the promised notice or redundancy payments, and entered court-appointed liquidation; unused leave was paid but notice and redundancy entitlements were not",
       "alternatives_before_action": "The worker made efforts to find work and secured continuing alternative employment beginning 2024-03-01 at a reduced rate; the public decision does not enumerate the full offer set, search cost, or non-use alternatives",
       "immediate_burden_or_benefit": "The decision records financial stress and family pressure from job loss and unpaid entitlements; the alternative job produced $9,584 during the period used in the compensation calculation against $24,230.81 expected remuneration",
       "choice_or_response": "The worker contacted affected Workcover claimants, pursued an unfair-dismissal application, searched for work, and accepted lower-paid employment; the record does not measure whether acceptance was freely chosen under feasible alternatives",
       "person_or_actor_with_control": "Adcon controlled termination and promised entitlements; the worker controlled job search and legal challenge; the Commission controlled remedy; liquidation constrained practical enforcement",
-      "remedy_or_institutional_response": "The Commission found the dismissal unfair, rejected reinstatement because the employer had wound up, and ordered $17,531.43 gross plus superannuation within 14 days; the order was increased for unpaid notice and redundancy entitlements",
-      "immediate_outcome": "A same-case lower-paid alternative job, quantified earnings trade-off, reported family/financial burden, employer liquidation, and formal compensation order are observed or reported; compensation receipt is not",
+      "remedy_or_institutional_response": "The liquidator's correspondence advised the worker about FEG entitlements; the Commission found the dismissal unfair, rejected reinstatement because the employer had wound up, and ordered $17,531.43 gross plus superannuation within 14 days; the order was increased for unpaid notice and redundancy entitlements",
+      "immediate_outcome": "A same-case lower-paid alternative job, quantified earnings trade-off, reported family/financial burden, employer liquidation, FEG entitlement advice, and formal compensation order are observed or reported; compensation or FEG receipt is not",
       "protected_outcome": "The worker obtained continuing alternative employment and earned $9,584 during the relevant counterfactual period; some leave entitlements were paid",
       "sacrificed_outcome": "The original job ended, notice and redundancy payments were initially unpaid, replacement earnings were lower, and household stress was reported; longer-term recovery is unknown",
       "cost_risk_transfer": "The worker carried search, income-gap, and enforcement risk while employer insolvency reduced the practical value of formal remedies; the Commission recognized the residual loss in the order",
       "later_outcome": "Alternative employment, reported stress, and formal compensation are visible, but order receipt, job durability, household recovery, trust, recurrence, switching, and exit remain unknown",
       "meaning_and_attribution": "The worker attributed financial stress and family pressure to job loss and unpaid entitlements; this is a case-level meaning signal, not a standardized trust measure",
       "public_or_collective_response": "Individual Commission action and communication with affected Workcover claimants are observed; no later collective or political action is reported",
-      "counterexample": "A lower-paid replacement job and partial final-pay receipt can coexist with unpaid entitlements, employer liquidation, family stress, and an unverified compensation order",
+      "counterexample": "A lower-paid replacement job and partial final-pay receipt can coexist with unpaid entitlements, FEG entitlement advice, employer liquidation, family stress, and unverified compensation recovery",
       "evidence_status": "reported",
-      "source_and_uncertainty": "Primary Fair Work Commission [2024] FWC 2775, https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf; the decision accepts the worker's unchallenged evidence and orders compensation but does not confirm payment or later recovery"
+      "source_and_uncertainty": "Primary Fair Work Commission [2024] FWC 2775, https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf; the decision records liquidator correspondence advising FEG entitlements, accepts the worker's unchallenged evidence, and orders compensation but does not confirm a FEG determination, payment, or later recovery"
     }
   ],
   "arrows": [
@@ -72,10 +72,10 @@
       "to": "failed reinstatement and constrained remedy",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The employer wound up and entered court-appointed liquidation; the Commission found reinstatement inappropriate and ordered compensation instead",
+      "evidence": "The employer wound up and entered court-appointed liquidation; the decision records liquidator correspondence advising the worker about FEG entitlements, while the Commission found reinstatement inappropriate and ordered compensation instead",
       "status": "observed",
       "counterexample": "A formal order can exist even when the original workplace no longer exists to restore",
-      "remaining_gap": "Liquidator/FEG implementation, payment priority, and actual recovery"
+      "remaining_gap": "FEG application and eligibility, liquidator implementation, payment priority, compensation receipt, and actual recovery"
     },
     {
       "arrow_id": "FWC-ADCON-A-05",
@@ -89,6 +89,6 @@
       "remaining_gap": "Payment receipt, job duration, household recovery, trust, later work, recurrence, switching, and exit"
     }
   ],
-  "boundary": "This ledger adds one adjudicated employment-shutdown episode with reported household stress, lower-paid alternative employment, quantified earnings, liquidation, and a compensation order. It does not establish compensation receipt, FEG recovery, durable employment, household recovery, trust, recurrence, or exit.",
+  "boundary": "This ledger adds one adjudicated employment-shutdown episode with reported household stress, lower-paid alternative employment, quantified earnings, liquidation, FEG entitlement advice, and a compensation order. It does not establish FEG eligibility or payment, compensation receipt, durable employment, household recovery, trust, recurrence, or exit.",
   "storage_boundary": "No claimant file, payment instrument, direct personal data beyond the public case reference, or bulk archive is retained; only bounded primary decision fields, dates, reported alternatives, money and household effects, remedy stages, uncertainty, and open downstream arrows are represented."
 }
