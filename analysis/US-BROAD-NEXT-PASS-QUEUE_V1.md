@@ -383,7 +383,12 @@ repairs the prior route-availability statement but does not create a
 household-level panel: application, payment, reconnection, next-bill, and
 repeat-crisis fields remain unobserved. The next stronger energy test is still
 a same-household application, payment, restoration, next-bill, and repeat-use
-ledger.
+ledger. A bounded API extraction now supplies national all-grantee occurrence
+counts for FY2023–FY2025: post-disconnection restoration is 159,320, 166,991,
+and 171,077; bill-payment prevention is 1,868,247, 1,752,072, and 1,853,734.
+These values are preliminary and not unique-household rates; they improve the
+program-performance layer without closing household recovery. See the
+[machine-readable extraction](projects/us-repeat-energy-crises/data/us-liheap-performance-measures-2023-2025.json).
 
 The [MEPS Panel 27 health-cost longitudinal layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 now supplies a repeated health-cost and coverage endpoint. The next material/

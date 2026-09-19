@@ -1,0 +1,57 @@
+{
+  "format": "us-public-program-performance-record-v1",
+  "record_id": "us-liheap-performance-measures-bill-payment-2023-2025",
+  "checked": "2026-09-18",
+  "source_unit": "HHS/ACF LIHEAP Performance Management API; all grantees summed",
+  "geography": "United States",
+  "data_status": "preliminary; the official site marks FY2023, FY2024, and FY2025 data as pending final validation",
+  "query": {
+    "endpoint": "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport",
+    "field_ids": {
+      "426": "Restoration of Service Due to Disconnection - All Occurrences",
+      "473": "Prevention of Service Loss Due to Bill Payment Issues - All Occurrences"
+    },
+    "grantees": "0 (All grantees summed)",
+    "years": [2023, 2024, 2025],
+    "authentication": "public token from https://stage.liheappm.acf.hhs.gov/token.php; no account-controlled household data"
+  },
+  "observations": [
+    {
+      "fiscal_year": 2023,
+      "restoration_after_disconnection_occurrences": 159320,
+      "prevention_bill_payment_occurrences": 1868247
+    },
+    {
+      "fiscal_year": 2024,
+      "restoration_after_disconnection_occurrences": 166991,
+      "prevention_bill_payment_occurrences": 1752072
+    },
+    {
+      "fiscal_year": 2025,
+      "restoration_after_disconnection_occurrences": 171077,
+      "prevention_bill_payment_occurrences": 1853734
+    }
+  ],
+  "interpretation": {
+    "safe_result": "The public performance route provides preliminary national all-grantee occurrence counts for bill-payment-related prevention and post-disconnection restoration.",
+    "not_established": [
+      "unique households or people",
+      "eligible-population rate or take-up",
+      "benefit amount or payment receipt",
+      "duration of restored service",
+      "next-bill affordability",
+      "repeat crisis or same-household persistence",
+      "health, food, medicine, housing, or work protection",
+      "trust, political action, switching, or exit"
+    ],
+    "counterinterpretation": "Changes in occurrence counts can reflect need, funding, reporting, program rules, or data validation—not a causal change in household energy security. Prevention and restoration are program-reported occurrences and should not be treated as a single household-level success rate."
+  },
+  "source_urls": [
+    "https://stage.liheappm.acf.hhs.gov/performance-measures",
+    "https://stage.liheappm.acf.hhs.gov/",
+    "https://stage.liheappm.acf.hhs.gov/faq/",
+    "https://stage.liheappm.acf.hhs.gov/api/search/custom/fieldcategories",
+    "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport"
+  ],
+  "boundary": "This is a reproducible aggregate performance extraction, not a person-level event ledger or causal trend estimate."
+}
