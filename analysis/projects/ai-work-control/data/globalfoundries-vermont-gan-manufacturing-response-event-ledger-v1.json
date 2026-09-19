@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "company_reported_domestic_compound_semiconductor_capacity_response",
+  "purpose": "Bounded firm and public-investment response record for GlobalFoundries' Vermont GaN manufacturing expansion, separated from upstream gallium-mineral autonomy.",
+  "events": [
+    {
+      "event_id": "GF-VERMONT-GAN-CAPACITY-2024-03-01",
+      "unit": "firm",
+      "geography": "Essex Junction/Burlington, Vermont, United States",
+      "actor_initiating_change": "firm",
+      "event_date": "2024-03-01",
+      "date_precision": "GlobalFoundries announcement date; planned public funding and modernization program",
+      "denominator": "One GlobalFoundries Vermont site and one announced ElevATE manufacturing partnership; funding and capacity figures are project claims, not realized output",
+      "method": "Structured extraction from GlobalFoundries company announcements and site materials",
+      "missingness": "Gallium feedstock origin, mineral supplier, refined-gallium contract, wafer output after expansion, customer qualification, unit economics, employment change attributable to GaN, and import displacement are not established",
+      "condition_or_decision": "technology",
+      "exposure": "US defense, automotive, grid, data-center, and communications applications require high-performance compound-semiconductor capacity; upstream gallium remains a separate imported-material dependency",
+      "alternatives_before_action": "Customers could source GaN or related compound devices abroad, use other semiconductor materials where technically suitable, or rely on existing US capacity; application-specific alternatives and switching costs are not reported",
+      "immediate_burden_or_benefit": "GlobalFoundries and public partners planned modernization and GaN capacity expansion at a trusted US facility, while funding, construction, qualification, and feedstock risks remained",
+      "choice_or_response": "GlobalFoundries pursued CHIPS and state support; the Vermont site planned high-volume 200mm GaN-on-silicon manufacturing, and a June 2024 ElevATE partnership identified GF as the manufacturing source for 7HV chips",
+      "person_or_actor_with_control": "GlobalFoundries controls site execution and process qualification; public agencies control funding terms; customers control design adoption and volume commitments",
+      "remedy_or_institutional_response": "Planned CHIPS and Vermont support, trusted-foundry infrastructure, and a named customer/manufacturer partnership provide an institutional and commercial response to domestic chip-supply risk",
+      "immediate_outcome": "A named US site and firm-level manufacturing route for GaN devices serving critical applications is documented; the source does not establish upstream mineral localization",
+      "protected_outcome": "Potentially greater domestic access to qualified GaN devices and secure manufacturing for defense, automotive, grid, communications, and data-center uses",
+      "sacrificed_outcome": "Capital, construction, qualification, and ongoing supplier dependence remain; silicon or other substitutes may sacrifice performance in some applications",
+      "cost_risk_transfer": "Public funding and firm capital absorb modernization and qualification risk, while customers and the upstream supply chain retain feedstock, performance, and volume risk",
+      "later_outcome": "GlobalFoundries later reports US GaN manufacturing and a Vermont center of excellence, but this ledger does not treat those company claims as proof of mineral-level import reduction or universal customer qualification",
+      "meaning_and_attribution": "GlobalFoundries frames the response as trusted domestic manufacturing and supply-chain security; no worker, resident, customer, or public legitimacy judgment is recorded",
+      "public_or_collective_response": "Vermont officials, federal CHIPS support, GlobalFoundries, and ElevATE publicly coordinated around domestic compound-semiconductor capacity; no broader alliance response is established",
+      "counterexample": "Domestic GaN device fabrication can still use imported gallium or imported wafers; downstream manufacturing autonomy is not the same as upstream mineral autonomy",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GlobalFoundries announcement dated March 1, 2024 and June 5, 2024 manufacturing-partnership announcement; company-reported planned funding and capability claims, with no retained independent production audit"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GF-VERMONT-GAN-2024-A-01",
+      "from": "domestic chip-supply and critical-application exposure",
+      "to": "planned Vermont GaN modernization",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GlobalFoundries and Vermont officials announced planned support for creating a US facility capable of high-volume next-generation GaN manufacturing",
+      "status": "reported",
+      "counterexample": "The announcement does not identify China gallium controls as the specific cause or establish upstream material sourcing",
+      "remaining_gap": "Decision rationale, final funding, construction milestone, and gallium feedstock provenance"
+    },
+    {
+      "arrow_id": "GF-VERMONT-GAN-2024-A-02",
+      "from": "planned facility modernization",
+      "to": "domestic compound-device manufacturing route",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "GF identifies the Vermont site as a GaN-on-silicon manufacturing center and describes planned high-volume capability",
+      "status": "reported",
+      "counterexample": "Planned capability is not the same as measured post-expansion output or customer qualification",
+      "remaining_gap": "Production lots, qualification records, throughput, yield, and customer volume"
+    },
+    {
+      "arrow_id": "GF-VERMONT-GAN-2024-A-03",
+      "from": "domestic manufacturing route",
+      "to": "customer or defense supply resilience",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "GF and ElevATE announced a manufacturing partnership for high-voltage chips for commercial and national-security applications, with GF describing a reliable domestic source",
+      "status": "reported",
+      "counterexample": "A manufacturing partnership does not prove delivered volume, absence of imported inputs, or reduced system-level vulnerability",
+      "remaining_gap": "Shipment, customer acceptance, system deployment, and measured resilience outcome"
+    },
+    {
+      "arrow_id": "GF-VERMONT-GAN-2024-A-04",
+      "from": "domestic GaN manufacturing",
+      "to": "reduced gallium import reliance or geopolitical autonomy",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "No source in this event identifies gallium feedstock origin, refining, recycling, or import displacement",
+      "status": "open",
+      "counterexample": "Downstream domestic fabrication may depend on imported gallium or imported GaN wafers",
+      "remaining_gap": "Upstream material contract, purity source, recycling share, and measured change in gallium imports"
+    }
+  ],
+  "boundary": "This ledger establishes a named US downstream manufacturing response and customer/manufacturer route. It does not establish upstream gallium autonomy, post-expansion production, or reduced geopolitical dependence.",
+  "storage_boundary": "No confidential customer contracts, employee records, or proprietary process data are retained; only public company announcements and explicit boundaries are represented."
+}

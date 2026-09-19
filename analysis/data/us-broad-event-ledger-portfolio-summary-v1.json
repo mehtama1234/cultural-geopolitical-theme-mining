@@ -4,9 +4,9 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 31,
-    "events": 201,
-    "arrows": 127
+    "ledgers": 32,
+    "events": 202,
+    "arrows": 131
   },
   "events_by_domain": {
     "consumer_financial_recourse": 54,
@@ -18,30 +18,31 @@
     "health_cost_material_time": 3,
     "health_cost_recourse": 97,
     "infrastructure_state_power": 5,
-    "infrastructure_technology_dependency": 2,
+    "infrastructure_technology_dependency": 3,
     "owner_household_business_tradeoff": 1,
     "platform_worker_recourse": 4,
     "product_safety_recourse": 4
   },
   "event_evidence_status": {
     "observed": 157,
-    "reported": 38,
+    "reported": 39,
     "estimated": 6
   },
   "arrow_status": {
     "observed": 34,
     "estimated": 5,
-    "open": 47,
-    "reported": 41
+    "open": 48,
+    "reported": 44
   },
   "event_units": {
     "case": 176,
     "country": 1,
     "institution": 9,
     "product": 4,
+    "firm": 1,
     "project": 2,
     "worker": 9
   },
-  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 47 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
+  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 48 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
   "storage_boundary": "This summary is derived from the committed index and ledgers only; no raw respondent, complaint, payment-card, administrative, or restricted file is added."
 }

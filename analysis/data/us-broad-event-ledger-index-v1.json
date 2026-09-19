@@ -157,6 +157,11 @@
       "path": "analysis/projects/ai-work-control/data/doe-trace-ga-domestic-recovery-response-event-ledger-v1.json",
       "domain": "infrastructure_technology_dependency",
       "role": "DOE gallium-recovery capability response, project-selection stage, and open commercialization/import-reduction outcome"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/globalfoundries-vermont-gan-manufacturing-response-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "named US downstream GaN manufacturing and customer route, separated from upstream gallium autonomy"
     }
   ]
 }
