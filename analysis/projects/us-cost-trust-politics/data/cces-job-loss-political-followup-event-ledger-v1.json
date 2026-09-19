@@ -1,0 +1,96 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "Bounded 2010-2012-2014 CCES panel ledger connecting a retrospective work-disruption screen to material-security context, later Congress judgment, congressional contact, and local political action while preserving dated separation, attribution, remedy, recovery, and exit as open.",
+  "events": [
+    {
+      "event_id": "CCES-2012-JOBLOSS-POLITICAL-FOLLOWUP-2014",
+      "unit": "case",
+      "geography": "United States; retained 2010-2012-2014 CCES panel respondents",
+      "actor_initiating_change": "unknown",
+      "event_date": "2012-01-01",
+      "date_precision": "2012 panel wave; job-loss item asks about the prior two years and does not provide a separation date",
+      "denominator": "829 respondents reporting job loss and 8,671 reporting no job loss; outcome-specific valid counts vary",
+      "method": "Same-respondent weighted descriptive comparison using the supplied CCES panel weight; no replicate-weight variance or causal estimate",
+      "missingness": "Employer, separation date, involuntary status, income loss, work alternatives, attribution, remedy, recovery, prior political identity, and exit are not retained in the compact result",
+      "condition_or_decision": "job_rule",
+      "exposure": "Reported losing a job during the prior two years, with higher observed no-insurance shares in 2012 and 2014 and reported benefit cuts",
+      "alternatives_before_action": "Alternative work, unemployment support, household resources, replacement coverage, and schedule control are not observed for the same reported loss",
+      "immediate_burden_or_benefit": "No health insurance in 2012 was 41.15% among the job-loss group versus 12.72% in the no-loss group; 2014 was 25.87% versus 8.96%; reported benefit cuts were 22.32% versus 8.87%",
+      "choice_or_response": "In 2014, 37.36% of the job-loss group reported congressional contact and 23.93% reported local political action, versus 39.14% and 31.57% among the no-loss group",
+      "person_or_actor_with_control": "Employer, benefit provider, household, and public institutions may shape the work and coverage path, but the panel does not identify authority or responsibility for an individual episode",
+      "remedy_or_institutional_response": "2014 Congress approval, congressional contact, and local political action are observed as separate downstream measures; no request, response, remedy, or institutional correction is verified",
+      "durability_followup": "No later employment, income, coverage restoration, household security, trust change, continued dependence, switching, or exit measure is linked to the reported loss",
+      "immediate_outcome": "The same panel places material-security context before later institution-specific judgment, contact, and local political action",
+      "protected_outcome": "Political contact or action may express voice, but no protected material or institutional outcome is verified",
+      "sacrificed_outcome": "Lower observed local action may reflect reduced time, resources, access, or competing pressures, but the sacrifice mechanism is not measured",
+      "cost_risk_transfer": "The panel shows unequal material-security context around reported job loss, but does not identify whether costs shifted to the household, employer, insurer, or public system",
+      "later_outcome": "Favorable Congress approval was 13.86% in the job-loss group versus 10.06% in the no-loss group, while unfavorable approval was 80.85% versus 81.88%; contact and action were lower in the job-loss group",
+      "meaning_and_attribution": "Congress approval is institution-specific and may reflect prior party identity or other expectations; blame, fairness, control, and change in trust are not identified",
+      "public_or_collective_response": "Congressional contact and a composite of local meeting, sign, campaign work, or donation are reported; organizing sequence, issue, response, and collective durability are not observed",
+      "counterexample": "Lower local action does not prove political apathy, and slightly higher favorable Congress approval does not prove trust restoration; retrospective job loss is not a dated causal exposure",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Retained 9,500-row CCES panel reproduction and canonical finding; supplied panel weight is used descriptively, attrition and causal identification are unresolved, and the job-loss denominator is a retrospective screen",
+      "source_url": "https://doi.org/10.7910/DVN/TOE8I1"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CCES-JOBLOSS-A-01",
+      "from": "reported job loss during prior two years",
+      "to": "same-panel material-security context",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The panel reports higher no-insurance shares in 2012 and 2014 and higher reported benefit cuts among job-loss respondents",
+      "status": "reported",
+      "counterexample": "The job-loss item does not date coverage change or establish that job loss caused noncoverage",
+      "remaining_gap": "Separation date, employer, benefit mechanism, income loss, replacement coverage, and household recovery"
+    },
+    {
+      "arrow_id": "CCES-JOBLOSS-A-02",
+      "from": "reported job loss and material-security context",
+      "to": "later Congress approval",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same retained respondents are observed in 2014 on favorable and unfavorable Congress approval",
+      "status": "reported",
+      "counterexample": "Approval may reflect prior party identity, national events, or expectations rather than the reported work disruption",
+      "remaining_gap": "Prior approval/identity, attribution, fairness, and a dated event-to-judgment design"
+    },
+    {
+      "arrow_id": "CCES-JOBLOSS-A-03",
+      "from": "reported job loss and material-security context",
+      "to": "later congressional contact",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Any congressional contact is observed in 2014 for the same panel respondents: 37.36% versus 39.14%",
+      "status": "reported",
+      "counterexample": "Contact purpose, request, channel access, institutional response, and resolution are not observed",
+      "remaining_gap": "Issue, contact effort, recipient response, remedy, and subsequent trust or repeat contact"
+    },
+    {
+      "arrow_id": "CCES-JOBLOSS-A-04",
+      "from": "reported job loss and material-security context",
+      "to": "later local political action",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same panel reports local meeting, sign, campaign-work, or donation activity in 2014: 23.93% versus 31.57%",
+      "status": "reported",
+      "counterexample": "A lower composite action share does not identify time scarcity, withdrawal, issue mismatch, or lack of alternatives",
+      "remaining_gap": "Action sequence, issue attribution, organizing, voting, withdrawal, and mechanism"
+    },
+    {
+      "arrow_id": "CCES-JOBLOSS-A-05",
+      "from": "later judgment, contact, or action",
+      "to": "remedy, recovery, trust change, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The retained panel screen ends at 2014 political outcomes and contains no linked remedy, recovery, trust-change, switching, or exit endpoint",
+      "status": "open",
+      "counterexample": "Political contact or action can coexist with unresolved material loss, and non-action can reflect constraint rather than satisfaction",
+      "remaining_gap": "Dated institutional response, material recovery, later trust, continued dependence, switching, withdrawal, and exit"
+    }
+  ],
+  "boundary": "This ledger strengthens the same-panel material-work to institutional-judgment-and-action bridge, but it does not establish a dated job-loss event, causal effect, attribution, remedy, recovery, trust change, switching, or exit.",
+  "storage_boundary": "Only compact published/reproduced panel estimates, source URL, denominators, and interpretation limits are retained; the local raw panel file remains outside Git."
+}
