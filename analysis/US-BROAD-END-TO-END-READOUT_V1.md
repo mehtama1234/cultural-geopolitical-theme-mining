@@ -119,6 +119,15 @@ These are real bridges, but each closes only part of the full chain:
   some of it. Provider contact, recovery, and switching are therefore separate
   routes: formal access does not guarantee liquidity, and non-switching does
   not prove satisfaction or trust.
+- **Monetary signals versus household action:** a randomized information study
+  found that a 25-basis-point rate cut changed one-year inflation expectations
+  by about 0.833 percentage points overall, while a separate household study
+  found only small intended durable-spending responses to a 1-point rate
+  surprise (about −0.05 points for one positive-surprise group and +0.08 for a
+  negative-surprise group). These are different designs and outcomes, not one
+  transmission coefficient: expectation movement is not a realized payment,
+  saving, debt, care, or political response. Borrower/saver exposure,
+  contract resets, liquidity, and later trust remain open.
 - **Help-seeking and status:** the WBNS charitable-food layer reports food
   assistance receipt for 16.7% of working-age adults, while among adults with
   unmet need, 39.9% were not comfortable getting help and 35.2% cited
