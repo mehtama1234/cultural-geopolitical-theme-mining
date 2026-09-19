@@ -23,15 +23,17 @@ dated condition or event
 | [MEPS dated event → later panel](projects/us-household-constraint-cascade/meps-event-six-month-followup-v1.md) | Person-level event window before R4/2 context, then R5/3 health and employment levels and conditional transitions; BRR-weighted descriptive denominators | Dated event → later health/work status or transition | Event may follow the real need; no alternative, payer/claim identity, treatment continuity, institutional response, verified remedy, trust, action, or exit |
 | [SHED 2024→2025 persistence](projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md) | Same respondent’s financial condition and reported substitutions, reduced use, borrowing, savings cuts, delayed purchases, and extra work across two waves | Financial pressure/adaptation → persistence or partial reversal | Trigger is not transaction-dated; alternatives, actor, institutional response, protected outcome, remedy, trust, action, and exit are absent |
 | [CCES 2010→2014 job-loss panel](projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md) | Same panel respondent’s earlier reported job loss/benefit cut, later insurance status, Congress judgment, contact, and local political action | Earlier work disruption → later institutional judgment/action | Separation date, employer, alternatives, trade-off, remedy, recovery, attribution change, and causal interpretation are absent |
+| [HTOPS April→June fraud follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md) | 6,564 exact SCRAMID links; retrospective exposure, reported loss, agency/law-enforcement reporting, sparse self-reported recovery, then later food, energy, work-loss, and institutional items | Exposure → realized loss/report/reported recovery → later household context | Incident date, actor, alternatives, effort, verified remedy, prior-to-later trust/action change, and switching/exit are absent; recovery cell has 11 respondents |
 
 ## What this proves
 
-The broad program has real longitudinal bridges at three different points in
+The broad program has real longitudinal bridges at four different points in
 the chain:
 
 1. **MEPS** supplies event-to-later-outcome timing.
 2. **SHED** supplies adaptation persistence and reversal.
 3. **CCES** supplies later judgment and action after a prior disruption.
+4. **HTOPS** separates exposure, realized loss, reporting, self-reported recovery, and later household context for linked respondents.
 
 Together they support a structured research model. They do **not** support
 joining medical events, financial adaptation, and job loss into one household
@@ -41,12 +43,14 @@ verified remedy or recovery, and direct meaning/action after the episode.
 
 ## Cross-route cultural reading
 
-The three bridges also reject a simple hardship-to-backlash story. MEPS shows
+The four bridges also reject a simple hardship-to-backlash story. MEPS shows
 that later health and work movement can run in mixed directions after a dated
 medical event. SHED shows that people can improve in broad financial condition
 while continuing some substitutions, borrowing, or reduced use. CCES shows
 that earlier job loss or insurance insecurity can coexist with different
-levels of institutional approval, contact, and local political action. In
+levels of institutional approval, contact, and local political action. HTOPS
+shows that exposure, realized loss, reporting, and reported recovery can be
+separated from later food, energy, and work-loss conditions. In
 plain terms: people do not respond to pressure with one universal sequence.
 
 They may conserve, delay, borrow, work more, stay attached to an institution,
@@ -69,12 +73,12 @@ The next high-value route must preserve a same-unit key and add at least:
 
 An aggregate exposure, complaint, settlement, or sentiment cross-tab does not
 fill these fields. The authorized UAS/PSID/HRS routes remain the strongest
-documented acquisition candidates; the retained MEPS, SHED, and CCES routes
+documented acquisition candidates; the retained MEPS, SHED, CCES, and HTOPS routes
 remain the comparison anchors and counterexamples.
 
 ## Interpretation boundary
 
-All three routes are descriptive or compared designs with source-specific
+All four routes are descriptive or compared designs with source-specific
 weights, missingness, selection, and timing limits. A bridge status means the
 specified adjacent stages are observed for the same unit; it does not mean the
 upstream condition caused the downstream result.
