@@ -1,0 +1,26 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-recall-mpr-progress-heterogeneity-2026",
+  "title": "Recall implementation reports vary widely across keys without establishing consumer recovery",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "CPSC Monthly Progress Report bounded 17-row recall-key snapshot",
+  "geography": "United States product market",
+  "observations": [
+    {
+      "period": "MPR snapshot current to 2026-08-21; 17 selected recall keys with numeric-progress rows",
+      "denominator": {"value": 17, "unit": "recall-key rows in bounded MPR snapshot", "value_type": "recall_row_count"},
+      "measures": {"rows_with_numeric_consumer_percent": {"value": 16, "unit": "recall-key rows with reported consumer-level percentage", "value_type": "row_count"}, "consumer_percent_min": {"value": 0, "unit": "percent reported consumer-level correction", "value_type": "reported_percentage_range_endpoint"}, "consumer_percent_max": {"value": 44, "unit": "percent reported consumer-level correction", "value_type": "reported_percentage_range_endpoint"}, "rows_at_zero_consumer_percent": {"value": 1, "unit": "recall-key rows with reported 0% consumer-level correction", "value_type": "row_count"}, "rows_with_blank_consumer_percent": {"value": 1, "unit": "recall-key rows with blank consumer-level percentage", "value_type": "row_count"}, "total_percent_min": {"value": 0, "unit": "percent reported total correction", "value_type": "reported_percentage_range_endpoint"}, "total_percent_max": {"value": 50, "unit": "percent reported total correction", "value_type": "reported_percentage_range_endpoint"}},
+      "method": "Bounded extraction of 17 rows from the official CPSC Monthly Progress Report MPR sheet; row-level manufacturer, distributor, retailer, consumer, total, and percentage fields were retained in the compact source audit.",
+      "uncertainty": "Reporting durations, recall mix, denominator definitions, product scope, and blank-field meanings are not harmonized. The MPR note states that consumer-level percentages use a consumer-held denominator that may differ from products recalled.",
+      "subgroup": "Selected recall keys with numeric progress in the August 2026 MPR snapshot; not a random or comprehensive recall sample.",
+      "counterinterpretation": "Heterogeneous reported correction percentages do not identify consumer need, notice reach, completed repair or replacement, safe restoration, or comparative firm performance without harmonized exposure and reporting clocks.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+      "retrieval_hash": "mpr_snapshot:sha256:6f2816dfbbec05c77af424105da8cbe1ca0da403e7dd576b77692054fd2d9d8d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/us-marketplace-product-safety/data/cpsc-mpr-bounded-sample-2026-08-21.json", "claim": "Bounded MPR row universe, schema, and selected recall-key values."}, {"source_url": "analysis/records/us-cpsc-vrurc-recall-implementation-2023-2026.json", "claim": "Named recall-key bridge illustrating denominator and receipt boundaries."}, {"source_url": "analysis/records/us-cpsc-honda-talon-recall-implementation-2023-2026.json", "claim": "Second named recall-key bridge illustrating a different denominator mismatch."}],
+  "boundary": "This is a purposive 17-row administrative implementation snapshot, not a recall completion rate or consumer welfare estimate. It does not establish purchaser exposure, notice, repair/refund receipt, safe restoration, residual cost, trust, switching, or exit.",
+  "reproduction_audit": "analysis/projects/us-marketplace-product-safety/data/cpsc-mpr-bounded-sample-2026-08-21.json"
+}

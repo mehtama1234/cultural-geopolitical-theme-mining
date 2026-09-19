@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 342 records and
-1212 observations.
+have exact registered-URL references. The trend registry holds 343 records and
+1213 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3266,6 +3266,12 @@ reports, while the MPR row reports 790 consumer-level corrections and 44% on a
 2,047-product row. The bridge strengthens implementation visibility but keeps
 the denominator mismatch, purchaser notice, repair receipt, safe restoration,
 and residual-cost arrows open.
+The [cross-key MPR heterogeneity record](records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json)
+then broadens the layer to all 17 selected rows: reported consumer-level
+correction ranges from 0% to 44%, with one blank row, while total correction
+ranges from 0% to 50%. This is a purposive implementation snapshot, not a
+completion rate; reporting clocks, recall mix, and consumer-held denominators
+remain unresolved.
 The new [detailed VRURC implementation finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md)
 promotes this bridge into the canonical trend registry while preserving the
 same boundary; it does not convert firm-reported correction into consumer

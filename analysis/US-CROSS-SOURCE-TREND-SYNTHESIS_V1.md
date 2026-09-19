@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 342 machine-readable records, 1212 observations,
+The current registry contains 343 machine-readable records, 1213 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -609,6 +609,11 @@ corrections and 44%, but the API's approximately 34,000-unit scale does not
 match the MPR's 2,047-product row. This strengthens the correction-stage map
 without treating firm-reported progress as notice receipt, completed repair, or
 safe household restoration.
+The [cross-key MPR heterogeneity record](records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json)
+extends the two named recall bridges to a 17-row purposive snapshot: reported
+consumer-level correction spans 0%–44% and total correction 0%–50%, with one
+blank consumer-level row. The range maps implementation heterogeneity, not
+consumer recovery, because recall duration, mix, and denominators differ.
 
 The [Kyei merits-dismissal record](records/au-kyei-merits-dismissal-2025.json)
 adds a negative remedy counterexample to the platform lane: process deficiencies

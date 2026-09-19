@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-342 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+343 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -393,6 +393,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | A recall key links a safety notice to reported repair progress while exposure and consumer restoration remain unresolved | cost, voice, time | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC recall API notice and Monthly Progress Report row joined by recall key 23-090 | United States product market | 3 | 2023-01-12 recall notice; Honda Talon 1000 recreational off-highway vehicles; 2026-08-21 MPR snapshot; recall key 23-090; 2023 notice versus 2026-08-21 MPR denominator reconciliation | observed; open; reported | [open](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json) |
 
 **Boundary:** This is a product-level implementation bridge, not a consumer-level recovery estimate. It does not establish purchaser exposure, notice receipt, completed repair, safe restoration, residual cost, trust, switching, or exit; the API and MPR denominators differ.
+
+| Recall implementation reports vary widely across keys without establishing consumer recovery | cost, voice, time | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC Monthly Progress Report bounded 17-row recall-key snapshot | United States product market | 1 | MPR snapshot current to 2026-08-21; 17 selected recall keys with numeric-progress rows | reported | [open](records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json) |
+
+**Boundary:** This is a purposive 17-row administrative implementation snapshot, not a recall completion rate or consumer welfare estimate. It does not establish purchaser exposure, notice, repair/refund receipt, safe restoration, residual cost, trust, switching, or exit.
 
 | A recall key links a dated hazard notice to reported correction progress without proving consumer recovery | cost, voice | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC recall API notice and Monthly Progress Report row joined by recall key 23-238 | United States product market | 3 | 2023-07-06 recall notice; VRURC OD-B7 portable chargers; MPR snapshot current to 2026-08-21; recall key 23-238; 2023 notice versus 2026-08-21 MPR denominator reconciliation | observed; open; reported | [open](records/us-cpsc-vrurc-recall-implementation-2023-2026.json) |
 
