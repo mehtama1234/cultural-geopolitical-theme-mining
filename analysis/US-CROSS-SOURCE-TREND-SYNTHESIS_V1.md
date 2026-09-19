@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 331 machine-readable records, 1178 observations,
+The current registry contains 334 machine-readable records, 1188 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -563,6 +563,17 @@ assistance participation can coexist with very low food security; adults and
 children can experience different food-security states; care can occur across
 work and financial paths; a reported response is not a verified remedy; and
 infrastructure scale is not state leverage.
+
+The latest local-capacity rotation adds a bounded BDS county-sector screen and
+two overlays. County business turnover diverges by retail, transportation,
+health/social assistance, and accommodation/food rather than forming one
+resident-facing capacity signal; the same-year BDS–PLACES comparison produces
+near-identical routine-checkup and transportation-insecurity medians across
+negative and nonnegative health-sector-flow counties; and the BDS–HRSA overlay
+shows that employer flow and shortage designation do not identify provider
+adequacy. The [three canonical records](records/us-bds-county-sector-divergence-2026.json)
+preserve these as observed ecological stages with explicit cross-vintage and
+resident-outcome boundaries.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

@@ -17,7 +17,7 @@ parity, published links, local links, and whitespace together.
 
 ## Verified current checkpoint — 2026-09-18
 
-The atlas currently contains 14 themes, 331 machine-readable records, 1,178
+The atlas currently contains 14 themes, 334 machine-readable records, 1,188
 observations, 103 source packets, 174 connections, 85 reading paths, 25 public
 episode events, and 2 validated episode arrows. The publication gate passes all
 20 checks, and the worktree is kept clean at local commits.
