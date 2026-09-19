@@ -457,6 +457,14 @@ coexist with a stronger vehicle-constraint context and high HPSA
 representation. This is a place-context result, not a resident-access or
 health-outcome estimate.
 
+The newer Ohio BDS–ACS–PLACES panel makes the access distinction concrete.
+High-zero-vehicle counties have nearly the same modeled routine-checkup median
+as low-zero-vehicle counties, but higher transportation insecurity, food
+insecurity, frequent mental distress, and lack of insurance. The sign of one
+service-use measure therefore cannot stand in for practical access or household
+security. This is an ecological same-year comparison, not a resident-level
+causal result.
+
 The [AI capability and dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md)
 extends the map from domestic firms and places to infrastructure and states.
 Its central pattern is that imported or privately owned capability can expand
