@@ -69,6 +69,11 @@
       "role": "same-person SNAP transition, recorded reason, and next-month material-security boundary"
     },
     {
+      "path": "analysis/projects/us-safety-net-access/data/wbns-snap-recertification-interruption-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "recipient-reported SNAP recertification notice, time, paperwork, and interruption route"
+    },
+    {
       "path": "analysis/projects/us-owner-household-business-tradeoff/data/owner-business-covid-revenue-consumption-event-ledger-v1.json",
       "domain": "owner_household_business_tradeoff",
       "role": "linked business-revenue shock and owner-consumption buffering"

@@ -1,0 +1,85 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_route_burden_record",
+  "purpose": "Bounded WBNS 2024 recipient-side SNAP recertification ledger connecting notice, time, paperwork, interview, and documentation barriers to reported involuntary interruption while preserving correction, appeal, material recovery, trust, and action as open.",
+  "events": [
+    {
+      "event_id": "WBNS-2024-SNAP-RECERTIFICATION-INTERRUPTION-COHORT",
+      "unit": "case",
+      "geography": "United States; adults ages 18–64 in families receiving SNAP in the prior year",
+      "actor_initiating_change": "unknown",
+      "event_date": "2024-12-01",
+      "date_precision": "December 2024 WBNS published analysis; interruption is retrospective over the prior year and not a dated administrative case",
+      "denominator": "More than 7,500 adults in the target survey population; exact item-specific analytic denominators are not disclosed in the brief; reason-specific barrier subgroup n=182 with multiple responses",
+      "method": "Structured extraction from the published Urban Institute WBNS SNAP recertification analysis and retained local route layer; descriptive weighted survey estimates, not causal estimation",
+      "missingness": "Respondent identifiers, notice date, case number, expected amount, gap days, eligibility decision, appeal, correction, benefit receipt, food quantity, household buffer, trust, action, and later reentry are not retained",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "Among SNAP-receiving families, respondents reported involuntary stopping or interruption, inability to recertify on time, and route barriers involving notice, time, paperwork, interviews, documentation, and information",
+      "alternatives_before_action": "Food, cash, credit, family, charitable, work, and other benefit alternatives are not observed for the same respondent or interruption",
+      "immediate_burden_or_benefit": "24% reported involuntary stopping or interruption, 13% cited inability to recertify on time, and among the n=182 reason subgroup 40% reported insufficient time after notice, 32% no notice, 22% difficult paperwork, 16% inability to participate in an interview, and 15% lost paperwork or documentation",
+      "choice_or_response": "Respondents reported route difficulty and interruption reasons; whether the interruption was avoidable, protective, administratively caused, or followed by another food or income route is not established",
+      "person_or_actor_with_control": "Agency notice, certification, interview, document handling, and eligibility processes shape the route, while respondent time, comprehension, work, care, and household resources shape practical ability to complete it; no case-level authority is identified",
+      "remedy_or_institutional_response": "The survey reports help from SNAP offices and community or food providers for some respondents, but no same-respondent correction, appeal, reinstatement, or benefit payment is observed",
+      "durability_followup": "The retrospective cross-sectional summary does not show interruption duration, later receipt, reentry, repeated interruption, food security, debt, trust, or action",
+      "immediate_outcome": "Recipient-reported administrative friction and involuntary benefit interruption are visible as separate route stages",
+      "protected_outcome": "A successful notice, timely recertification, or assistance route may protect continuity, but protected receipt and amount are not measured for the same respondent",
+      "sacrificed_outcome": "Time, paperwork effort, food, cash, credit, work, care, and household security may be put at risk; the source does not assign a specific sacrifice to each barrier or case",
+      "cost_risk_transfer": "Administrative requirements can shift completion costs into respondent time, comprehension, travel, work, care, and informal support while the public record does not identify who absorbs the gap",
+      "later_outcome": "No respondent-linked later food, housing, utility, work, health, trust, political action, switching, or recovery endpoint is retained",
+      "meaning_and_attribution": "Reported route difficulty may shape perceived institutional treatment, but no respondent-linked fairness, blame, dignity, or trust measure is joined to the interruption",
+      "public_or_collective_response": "No respondent-linked appeal, complaint, organizing, political action, or agency response is observed",
+      "counterexample": "A reported interruption does not by itself prove ineligibility, agency error, inadequate benefits, or lasting food insecurity; multiple barriers can coexist and categories are not mutually exclusive",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Published Urban Institute WBNS SNAP recertification analysis; retrospective self-reported estimates with undisclosed item-specific denominators and no linked administrative case file",
+      "source_url": "https://www.urban.org/research/publication/paperwork-burdens-cost-one-eight-working-age-snap-recipients-their-benefits"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "WBNS-SNAP-RECERT-A-01",
+      "from": "recertification requirement and route conditions",
+      "to": "notice, time, paperwork, interview, or documentation barrier",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The published n=182 subgroup reports multiple respondent-selected barriers to recertifying on time, including insufficient time, no notice, difficult paperwork, interview inability, and lost documentation",
+      "status": "reported",
+      "counterexample": "Retrospective self-report does not identify the notice date, agency case state, or independent cause of the barrier",
+      "remaining_gap": "Same-respondent dated notice, channel, effort, work/care schedule, and case record"
+    },
+    {
+      "arrow_id": "WBNS-SNAP-RECERT-A-02",
+      "from": "route barrier",
+      "to": "reported involuntary benefit interruption",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published survey reports 24% involuntary stopping or interruption and 13% inability to recertify on time within the target recipient population",
+      "status": "reported",
+      "counterexample": "Published percentages use different or undisclosed item-specific universes and do not establish that every interruption followed the listed barrier",
+      "remaining_gap": "Same-case interruption date, duration, amount, eligibility, and decision sequence"
+    },
+    {
+      "arrow_id": "WBNS-SNAP-RECERT-A-03",
+      "from": "benefit interruption",
+      "to": "food, cash, credit, charitable support, work, or care substitution",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The route layer does not observe same-respondent buffer use, substitute food source, work response, or care response after interruption",
+      "status": "open",
+      "counterexample": "Some households may avoid a gap through savings, family, work, or another program, while others may experience food or bill hardship",
+      "remaining_gap": "Same-respondent alternative, effort, amount, time, protected outcome, and sacrificed outcome"
+    },
+    {
+      "arrow_id": "WBNS-SNAP-RECERT-A-04",
+      "from": "interruption or restored benefit route",
+      "to": "correction, later security, trust, action, reentry, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published brief contains no respondent-linked appeal, correction, restored amount, later food security, trust, political action, or reentry endpoint",
+      "status": "open",
+      "counterexample": "Administrative interruption can be temporary or corrected without restoring depleted buffers, and continued receipt can coexist with hardship",
+      "remaining_gap": "Case-linked correction, receipt, adequacy, repeated use, reentry, trust, action, and recovery"
+    }
+  ],
+  "boundary": "This ledger formalizes a published WBNS recipient-side route-burden surface. It advances the atlas from program participation to lived notice, time, paperwork, interview, documentation, and interruption mechanisms, but it does not establish administrative causation, eligibility, benefit adequacy, correction, alternative use, recovery, trust, action, or exit.",
+  "storage_boundary": "Only compact published estimates, barrier categories, source URL, and interpretation limits are retained; no respondent microdata or administrative case file is downloaded."
+}

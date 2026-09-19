@@ -320,6 +320,10 @@ These are real bridges, but each closes only part of the full chain:
   stages—not one program-success rate. The state-level participation-to-
   application-timeliness correlation is only 0.033, reinforcing that take-up
   and administrative performance are different signals.
+- The structured [WBNS SNAP recertification ledger](projects/us-safety-net-access/data/wbns-snap-recertification-interruption-event-ledger-v1.json)
+  now preserves the recipient-side notice, time, paperwork, interview, and
+  interruption route while leaving correction, appeal, substitution, and later
+  security open.
 - **Protective non-use:** among 1,036 adults in immigrant families with
   children, 23% reported avoiding at least one essential activity because of
   immigration concerns; almost one in five reported going without public
@@ -601,11 +605,11 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
-- **Remedy visibility is still not remedy recovery:** across the 37 retained
-  event ledgers and 214 events, 38 events carry an explicit remedy stage; 13
+- **Remedy visibility is still not remedy recovery:** across the 38 retained
+  event ledgers and 215 events, 38 events carry an explicit remedy stage; 13
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
-  The other 175 events have no explicit remedy-stage field. This is not proof
+  The other 177 events have no explicit remedy-stage field. This is not proof
   that remedies failed; it is proof that the public records usually stop at
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See
