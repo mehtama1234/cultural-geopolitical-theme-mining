@@ -182,6 +182,13 @@ These are real bridges, but each closes only part of the full chain:
   who were satisfied. But reported financial direction also aligned with
   different vote intention patterns. Material position shapes meaning without
   determining one fixed cultural or political response.
+- **Party-conditioned political meaning:** the ANES panel shows that reported
+  financial worry and vote look different inside party-identity groups. Among
+  independents, the very-worried group leaned Trump (74.9%) while the not-at-
+  all-worried group leaned Harris (71.6%); strong partisans stayed highly
+  concentrated with their identity across worry levels. This is descriptive,
+  not an economic-voting causal result: identity can shape both reported worry
+  and vote, and the dated material exposure is still missing.
 - **Platform remedy case:** one worker had access voluntarily restored, then
   received a formal reactivation order and an A$7,096.96 gross lost-pay order
   with a 14-day deadline. The record still does not show payment receipt,
