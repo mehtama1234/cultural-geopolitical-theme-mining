@@ -504,6 +504,13 @@ These are real bridges, but each closes only part of the full chain:
   accommodation caused it. It shows why formal program participation must be
   separated from completed service, placement, retention, wages, workplace
   control, and durable security.
+- **Care capacity is not reachable care:** the current HRSA primary-care HPSA
+  file contains 20,905 designated rows across 2,888 counties, but FTE is
+  populated for only 16,582 rows and for just 543 of 4,866 facility/site rows;
+  the file does not show active hours, new-patient acceptance, wait, travel,
+  price, or continuity. A shortage designation or reported FTE is therefore
+  an institutional capacity signal, not a resident-level appointment or usable
+  alternative; county health outcomes cannot be assigned to a named site.
 - **Employment is not automatically security:** in 2024, about 13.8 million
   Medicaid-enrolled adults and 10.6 million adults in SNAP households worked
   at some point; roughly 88% in each group worked in the private sector.
