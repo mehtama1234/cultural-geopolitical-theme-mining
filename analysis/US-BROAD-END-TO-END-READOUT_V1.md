@@ -112,6 +112,15 @@ These are real bridges, but each closes only part of the full chain:
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or
   changed behavior by another state. Capacity and dependence can rise together.
+- **Critical minerals and strategic autonomy:** USGS import-reliance and
+  processing-concentration data, alongside GAO substitution and recycling
+  assessments, show why domestic projects are not automatically independence.
+  Recycling may reduce some battery-material reliance on a multi-year horizon,
+  while semiconductor substitutes face tighter performance constraints. A
+  domestic facility can therefore add production capacity while refined
+  feedstock, qualification, recovery infrastructure, or supplier control
+  remains external. Capability, replaceability, and geopolitical leverage are
+  separate stages.
 - **AI, work, and control:** a randomized workplace-access study found changed
   email/time patterns, while the available record does not show whether that
   time became rest, care, pay, worker voice, or higher employer expectations.
