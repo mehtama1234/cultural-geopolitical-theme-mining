@@ -3290,6 +3290,11 @@ visible under one key. The API’s roughly 190,000 units and the MPR’s 256,845
 products recalled do not match, so the bridge advances implementation staging
 but also opens a denominator/version reconciliation task. Receipt, timing,
 safe restoration, and remaining household loss are still missing.
+The [VRURC remedy event ledger](projects/us-marketplace-product-safety/data/vrurc-recall-remedy-event-ledger-v1.json)
+now makes the product-level sequence machine-readable: the notice, offered
+replacement, and later correction snapshot are retained as separate events,
+while purchaser notice, receipt, safe restoration, trust, switching, and exit
+remain explicitly open.
 The [canonical Honda Talon recall record](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json)
 adds a second key-linked counterexample: the official notice reports an
 approximately 34,000-unit hazard, a free dealer repair, and 18 incident

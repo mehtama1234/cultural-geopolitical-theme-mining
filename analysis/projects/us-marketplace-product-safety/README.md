@@ -40,6 +40,10 @@ joins one API hazard/remedy notice to its later MPR correction row. It adds a
 dated product-level implementation path, but the API and MPR unit counts do
 not match and individual replacement receipt remains unobserved.
 
+The [VRURC remedy event ledger](data/vrurc-recall-remedy-event-ledger-v1.json)
+formalizes that product-level route from hazard through offered replacement and
+reported correction without treating correction counts as consumer recovery.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.

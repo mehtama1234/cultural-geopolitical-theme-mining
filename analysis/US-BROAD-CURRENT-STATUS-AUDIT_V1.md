@@ -2980,6 +2980,10 @@ continued use, switching, non-use, trust, and action remain unknown. The
 confirms that the live monthly-progress-report route is available and that
 remedy figures can change, but the stored VRURC evidence remains an
 2026-08-21 snapshot with no purchaser-level receipt or safe-restoration field.
+The [VRURC remedy event ledger](projects/us-marketplace-product-safety/data/vrurc-recall-remedy-event-ledger-v1.json)
+now formalizes the product-level hazard → notice → offered replacement →
+reported correction sequence while keeping purchaser recovery and practical
+exit open.
 
 The [WBNS access recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
 confirms that current ICPSR catalog metadata and documentation are public,
