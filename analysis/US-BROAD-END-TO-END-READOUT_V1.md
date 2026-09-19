@@ -342,6 +342,13 @@ These are real bridges, but each closes only part of the full chain:
   notice. These are overlapping housing-unit conditions, not a sequence or a
   shutoff rate, but they show energy pressure becoming food, medicine,
   temperature, and service-continuity trade-offs.
+- **LIHEAP reach versus durable restoration:** the preliminary national
+  performance route reports 1.59 million bill-payment-prevention occurrences
+  and 159,320 post-disconnection restoration occurrences in FY2023; by FY2025
+  those counts were 1.85 million and 171,077. They are program-reported
+  occurrences, not unique households or success rates. Payment receipt,
+  reconnection duration, next-bill affordability, repeat crisis, health/food
+  protection, trust, and action remain unobserved.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
