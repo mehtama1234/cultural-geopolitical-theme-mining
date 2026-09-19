@@ -2371,6 +2371,15 @@ the missing actual-load, household-incidence, net-public-value, legitimacy,
 and provider-exit tests. The next step is a dated matched-place utility ledger,
 not another undifferentiated data-center projection.
 
+The Virginia path has since advanced from modeled allocation to an approved
+Rider T1 final-order stage. The SCC reports that the July 31, 2026 order
+approved an amended allocation method and a prospective direct-connect framework,
+then created supplemental docket PUR-2026-00131 for Dominion's implementation
+amendments. As of the September 3 public summary and the September 18 follow-up,
+the amendments, construction, customer payment, enforcement, and household bill
+incidence remain unobserved. The next qualifying infrastructure artifact is
+therefore a docket filing or implementation record, not another tariff summary.
+
 The GIS layer now quantifies the planning concentration: Brentsville and
 Gainesville hold 43.1% and 42.2% of planned campus GFA, with a four-district
 planned-GFA HHI of 0.381; only 5.2% of campus planned GFA is in completed
