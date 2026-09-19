@@ -1,6 +1,6 @@
 # Finding 002: Energy insecurity separates household sacrifice, public reach, restoration, and durable recovery
 
-**Status:** provisional cross-source energy/public-capacity finding · **Checked:** 2026-09-17
+**Status:** provisional cross-source energy/public-capacity finding · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -13,7 +13,11 @@ not a completed shutoff.
 
 The FY2024 LIHEAP annual report separately reports nearly 6 million individuals
 and families helped, 5 million heating-assistance households, and 279,000
-reported home-energy restoration instances. An existing SIPP transition screen
+reported home-energy restoration instances. The live LIHEAP performance API
+adds preliminary all-grantee occurrence counts for bill-payment-related service
+loss: post-disconnection restoration is 159,320, 166,991, and 171,077 in
+FY2023–FY2025, while prevention is 1,868,247, 1,752,072, and 1,853,734.
+These are occurrences, not unique households or restoration rates. An existing SIPP transition screen
 then follows selected person-month records from utility difficulty to later
 food, housing, or resource outcomes. These are complementary but non-pooled
 units.
@@ -41,11 +45,14 @@ energy cost, housing, income, or equipment constraint
 |---|---|---|
 | Household consequence | EIA reports 43.56 million energy-insecure homes, including 32.89 million sacrificing food/medicine, 17.55 million with unhealthy temperatures, and 16.19 million with a disconnect/delivery-stop notice | Overlap, duration, cause, completed shutoff, bill amount, and household remedy |
 | Public reach | HHS/ACF reports nearly 6 million individuals and families helped and 5 million heating-assistance households in FY2024 | Eligible denominator, application, take-up, benefit amount, timing, and repeat need |
-| Immediate restoration | LIHEAP reports 279,000 home-energy restoration instances | Which households were restored, duration, next bill, arrears, equipment, and recurrence |
+| Program performance | Preliminary LIHEAP API data report 159,320/166,991/171,077 post-disconnection restoration occurrences and 1,868,247/1,752,072/1,853,734 bill-payment prevention occurrences in FY2023/FY2024/FY2025 | Occurrences may repeat; FY2023–FY2025 data are preliminary; no unique-household denominator, effect estimate, or state comparability is implied |
+| Immediate restoration | LIHEAP reports 279,000 home-energy restoration instances in FY2024, with a separate bill-payment restoration series available through the API | Which households were restored, duration, next bill, arrears, equipment, and recurrence |
 | Following outcome | SIPP preserves a same-person monthly utility-difficulty-to-following-outcome descriptive screen | Dated bill or notice, assistance receipt, provider, causal counterfactual, and verified recovery |
 
-The EIA housing-unit, LIHEAP program, and SIPP person-month denominators are
-not interchangeable and must not be turned into a single restoration rate.
+The EIA housing-unit, LIHEAP program, LIHEAP occurrence, and SIPP person-month
+denominators are not interchangeable and must not be turned into a single
+restoration rate. The selected-state diagnostic adds reporting variation, not
+a cross-state effectiveness ranking.
 
 ## Why it matters to the broader atlas
 
@@ -79,6 +86,8 @@ without restoration, and retain non-applicants and denied routes.
 
 - [EIA 2024 Residential Energy Consumption Survey Table HC11.1](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
 - [HHS/ACF FY2024 LIHEAP annual report](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights)
+- [LIHEAP FY2023–FY2025 performance extraction](../data/us-liheap-performance-measures-2023-2025.json)
+- [Selected-state FY2025 diagnostic](../data/liheap-state-performance-diagnostic-fy2025.json)
 - [Structured energy consequence/public-restoration record](../../../records/us-energy-household-consequence-public-restoration-2024-2026.json)
 - [SIPP utility-to-following-outcome record](../../../records/us-sipp-utility-care-following-outcomes-2024.json)
 
