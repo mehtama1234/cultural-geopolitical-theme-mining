@@ -1,0 +1,42 @@
+{
+  "schema": "us-broad-event-ledger-index-v1",
+  "checked": "2026-09-18",
+  "purpose": "Explicit inventory of committed real artifacts that use the us-broad-event-ledger-schema-v1 contract; similarly named API rechecks and audit summaries are not included unless they declare that schema.",
+  "entries": [
+    {
+      "path": "analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "program-level administrator-reported payment distribution"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "adjudicated access restoration and continued work"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "adjudicated access restoration and ordered lost remuneration"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/htops-fraud-loss-followup-event-ledger-v1.json",
+      "domain": "consumer_household_institutional_followup",
+      "role": "linked respondent-cohort exposure, loss, reporting, and later context"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
+      "domain": "consumer_financial_recourse",
+      "role": "bounded administrative complaint route sample"
+    },
+    {
+      "path": "analysis/projects/us-health-cost-household-choice/data/cfpb-medical-debt-filtered-event-ledger-2024.json",
+      "domain": "health_cost_recourse",
+      "role": "bounded administrative medical-debt route sample"
+    },
+    {
+      "path": "analysis/projects/us-health-cost-household-choice/data/cfpb-medical-debt-filtered-event-ledger-2025.json",
+      "domain": "health_cost_recourse",
+      "role": "bounded administrative medical-debt route sample"
+    }
+  ]
+}

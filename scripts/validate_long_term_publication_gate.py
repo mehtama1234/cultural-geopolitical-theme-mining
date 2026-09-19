@@ -39,6 +39,10 @@ CHECKS = [
         ["scripts/test_us_broad_event_ledger_contract.py"],
     ),
     (
+        "real broad event-ledger index",
+        ["scripts/validate_real_broad_event_ledgers.py"],
+    ),
+    (
         "broad same-case availability guards",
         ["scripts/test_broad_same_case_episode_availability.py"],
     ),
