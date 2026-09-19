@@ -97,6 +97,13 @@ These are real bridges, but each closes only part of the full chain:
   cost → bid/visibility → product price or assortment → actual purchase and
   household burden. Visibility, seller participation, and consumer welfare
   must remain separate outcomes.
+- **Aggregate remedy versus household recovery:** the FTC Amazon Prime record
+  reports more than $845 million issued and about $235 million accepted across
+  payment phases, but no customer-level denominator, receipt, delay, remaining
+  loss, continued use, switching, or household outcome. Accepted dollars show
+  that some money reached consumers; they do not establish a recovery rate or
+  that the remedy restored the time, trust, or choice lost in the subscription
+  episode.
 - **SIPP SNAP:** adjacent-month transitions show that benefit exit is not
   automatically improvement: 76.2% of observed exits had a lower next-month
   income-to-poverty ratio, and only about half of transitions had a classified
