@@ -100,6 +100,14 @@ These are real bridges, but each closes only part of the full chain:
   absent.
 - **SHED:** the same respondent’s financial condition and adaptations persist or
   reverse across waves. The trigger is not transaction-dated.
+- **Adaptation is not one income ladder:** in the 2024–2025 SHED recontact
+  panel, among prior adopters on a worsening financial-condition path,
+  cheaper-product use persisted for 89.9% of respondents under $50,000,
+  87.4% at $50,000–$99,999, and 84.1% at $100,000-plus. Increased-borrowing
+  persistence was 61.5%, 57.0%, and 76.9%, respectively. The pattern says
+  resources and the type of coping strategy interact; it does not identify a
+  dated cause, wealth or liquid cash, or a universal low-income-to-adaptation
+  gradient.
 - **CCES:** an earlier job or benefit disruption is followed by institutional
   judgment, contact, and political action. The employer, remedy, and causal
   mechanism are not identified.
