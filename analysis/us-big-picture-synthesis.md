@@ -724,6 +724,12 @@ about half of entry and exit transitions had a classified recorded reason.
 Benefit exit therefore cannot be read as improved security or voluntary
 choice, and the unknown-reason share is itself part of the administrative
 friction. The result is descriptive, not a causal estimate of SNAP effects.
+The compound-hardship extension strengthens the boundary: simultaneous
+rent/mortgage and utility difficulty remains visible for 15.9% of classified
+job-loss/wage-reduction entries and 16.9% of other-income-loss entries, while
+the small exit cells for non-collection and “benefits not worth the trouble”
+also retain hardship. Receipt, exit, and household security are therefore
+separate clocks.
 
 The [population public-system event-ledger design](projects/us-safety-net-access/same-episode-event-ledger-design-v1.md)
 turns that gap into a multi-person, multi-place test: notice, effort, access

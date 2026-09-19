@@ -272,6 +272,14 @@ These are real bridges, but each closes only part of the full chain:
   income-to-poverty ratio, and only about half of transitions had a classified
   reason. Entry and exit are therefore participation states, not proof of
   adequacy, voluntary choice, or restored security.
+- **Benefit entry can coexist with immediate compound hardship:** in the
+  classified SIPP transition layer, simultaneous rent/mortgage and utility
+  hardship appeared in 15.9% of job-loss/wage-reduction entries and 16.9% of
+  other-income-loss entries. On the exit side, the small “still eligible but
+  could not/chose not to collect” group was 27.3%, and “benefits not worth the
+  trouble” was 32.3%, both with wide uncertainty. Receipt can therefore
+  coexist with unresolved bills, and exit can coexist with hardship; these are
+  descriptive transition cells, not SNAP effects.
 - **Public-system route friction:** USDA state aggregates show application
   timeliness ranging from 61.24% to 97.22% and recertification timeliness from
   25.23% to 99.87%, while a separate WBNS route sample reports 24% involuntary
