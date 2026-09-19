@@ -3173,6 +3173,12 @@ comparisons plus the Adult training-use contrast into the record and layer.
 This strengthens the measured endpoint while preserving selection, disclosure,
 accommodation, completion, placement, retention, and mobility boundaries.
 
+The [accessible work and security optionality synthesis](projects/us-safety-net-access/accessible-work-security-optionality-synthesis-v1.md)
+now links the disability workforce route to working-adult Medicaid/SNAP
+participation and workplace control. It adds a usable-middle map from formal
+eligibility through completion, security, discretion, remedy, and exit without
+joining aggregate sources into a fictitious same-person panel.
+
 The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
 adds a place-level mobility test. The next pass should use compact official
 evidence on route span, headway, fare, accessibility, shift fit, parking,

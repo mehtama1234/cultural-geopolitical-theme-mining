@@ -29,6 +29,12 @@ Adult training use is 33% versus 47%. These are participant comparisons, not
 causal accommodation effects; disclosure, service completion, placement,
 retention, and mobility remain separate stages.
 
+The [accessible work and security optionality synthesis](accessible-work-security-optionality-synthesis-v1.md)
+now connects that public workforce route to working-adult Medicaid/SNAP
+participation and workplace control. It treats formal eligibility, usable
+service completion, employment/security, discretion, remedy, and exit as
+separate stages rather than a dependency or resilience index.
+
 The [SIPP SNAP transition Fay-BRR uncertainty layer](sipp-snap-transition-fay-brr-layer-v1.md)
 adds design-based standard errors and approximate intervals to the adjacent-
 month transition shares. It improves uncertainty around the transition
