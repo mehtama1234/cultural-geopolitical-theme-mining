@@ -362,6 +362,13 @@ These are real bridges, but each closes only part of the full chain:
   who were satisfied. But reported financial direction also aligned with
   different vote intention patterns. Material position shapes meaning without
   determining one fixed cultural or political response.
+- **Institutional confidence is a map, not one score:** Gallup's 2025 battery
+  found majority confidence in small business (70%), the military (62%), and
+  science (61%), but very low confidence in Congress (10%), television news
+  (11%), and big business (15%). Low confidence is therefore institution-
+  specific, not universal anti-institutionalism; it does not tell us whether a
+  person stopped using a service, appealed, voted, organized, or received a
+  remedy.
 - **Party-conditioned political meaning:** the ANES panel shows that reported
   financial worry and vote look different inside party-identity groups. Among
   independents, the very-worried group leaned Trump (74.9%) while the not-at-
