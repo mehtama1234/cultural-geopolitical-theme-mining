@@ -654,6 +654,13 @@ These are real bridges, but each closes only part of the full chain:
   These are stronger than an order-only record, but still do not independently
   verify receipt, benefit use, durable employment, household recovery, or
   trust.
+- **A rare full exit-and-trust endpoint:** the [Mudiyanselage FWC ledger](projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json)
+  records persistent wage delay, repeated complaints, Fair Work Ombudsman
+  contact, forced exit, new employment, a documented $4,000 partial payment,
+  and a $27,424.88 gross compensation order. The worker declined reinstatement
+  because of broken trust and emotional stress. This is unusually close to the
+  lived chain, but remaining unpaid wages at the hearing and missing later
+  financial and employment follow-up prevent calling it full recovery.
 
 The cross-domain [remedy implementation and recovery synthesis](US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md)
 maps these endpoints without pooling them: access, money, status, and choice

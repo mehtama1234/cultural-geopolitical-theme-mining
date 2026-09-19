@@ -4,16 +4,16 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
-    "ledgers": 41,
-    "events": 221,
-    "events_with_explicit_remedy_stage": 41,
+    "ledgers": 42,
+    "events": 222,
+    "events_with_explicit_remedy_stage": 42,
     "events_without_explicit_remedy_stage": 180,
-    "ledgers_with_explicit_remedy_stage": 19,
+    "ledgers_with_explicit_remedy_stage": 21,
     "ledgers_without_explicit_remedy_stage": 21
   },
   "stage_counts": {
     "remedy_offered": 6,
-    "remedy_ordered": 9,
+    "remedy_ordered": 10,
     "remedy_implemented": 9,
     "remedy_reported_received": 16,
     "remedy_verified_received": 0,
@@ -63,6 +63,7 @@
     ,{"event_id": "IER-TEL-2023-01-11-CALIFORNIA-REHIRE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2021-03-19-DACA-REHIRE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2017-03-03-STERLING", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "FWC-MUDIYANSELAGE-2025-01-31", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json"}
     ,{"event_id": "FTC-YELLOWSTONE-THIRD-REFUND-2026-09-19", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json"}
   ],
   "interpretation": "The vocabulary is now applied across the 41-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",

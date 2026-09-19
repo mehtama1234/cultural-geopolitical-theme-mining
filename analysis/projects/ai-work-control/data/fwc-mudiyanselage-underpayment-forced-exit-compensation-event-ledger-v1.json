@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_case_record",
+  "purpose": "Bounded Fair Work Commission case ledger connecting persistent wage delay and underpayment to worker complaints, institutional assistance, forced exit, new employment, broken trust, partial repayment, and a compensation order without claiming full financial recovery.",
+  "events": [
+    {
+      "event_id": "FWC-MUDIYANSELAGE-2025-01-31",
+      "unit": "case",
+      "geography": "Melbourne, Australia; Fair Work Commission U2025/2081",
+      "actor_initiating_change": "employer",
+      "event_date": "2025-01-31",
+      "date_precision": "day; constructive-dismissal date found by the Commission",
+      "denominator": "One publicly adjudicated worker case; no population denominator",
+      "method": "Structured extraction from [2025] FWC 1570 and the official Fair Work Commission Bulletin Volume 9/25",
+      "missingness": "Worker identity beyond the public case, complete wage and superannuation payment history, household effects, new-job conditions, later employment, remedy receipt beyond the documented partial payment, recurrence, trust recovery, and exit after the new job are not retained",
+      "condition_or_decision": "payment",
+      "exposure": "The employer repeatedly paid wages late or not at all; at resignation the worker was owed about 12 weeks of pay and some superannuation, after earlier unpaid internship and expanded duties",
+      "alternatives_before_action": "The worker's savings, household support, other job options before resignation, bargaining power, and schedule alternatives are not observed",
+      "immediate_burden_or_benefit": "Delayed wages caused loss of financial independence; the worker reported relying on her husband and ultimately stopped working after repeated unpaid wages and failed promises",
+      "choice_or_response": "The worker complained repeatedly, contacted the Fair Work Ombudsman, issued formal payment demands, refused to return without at least partial payment, resigned on January 31, and later secured new employment",
+      "person_or_actor_with_control": "Employer controlled payroll, classification, and continued employment; FWO and the Commission provided institutional routes; the worker controlled complaints, refusal to return, and later employment choice under constrained conditions",
+      "remedy_or_institutional_response": "FWO involvement led the employer to begin paying the correct Level 1 award rate from January 6, 2025, but historical underpayment remained; the Commission found constructive dismissal and ordered $27,424.88 gross compensation plus superannuation in lieu of reinstatement",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The decision documents a $4,000 payment on April 2, 2025; approximately $7,000 of historical wages remained unpaid at the May 20 hearing, and the later compensation order is not a verified full receipt",
+      "durability_followup": "New employment and refusal of reinstatement are observed, but later job quality, financial recovery, trust recovery, repeat underpayment, and further exit are unknown",
+      "immediate_outcome": "The worker exited the original employment, obtained a partial wage payment, secured new employment, and received a compensation order rather than reinstatement",
+      "protected_outcome": "The institutional record recognizes underpayment, provides a compensation route, and preserves the worker's ability to refuse return; full financial security and future employment protection are not verified",
+      "sacrificed_outcome": "Unpaid wages, delayed financial independence, unpaid superannuation, emotional stress, and the loss of the original employment relationship were borne before and during the remedy process",
+      "cost_risk_transfer": "Persistent payroll failure shifted liquidity and dependence risk onto the worker and her household; the compensation order transferred a formal liability back to the employer, while unpaid balances remained during the proceeding",
+      "later_outcome": "The Commission found the resignation was forced, ordered compensation, and recorded new employment; the worker did not return because of broken trust and emotional stress",
+      "meaning_and_attribution": "Broken trust and emotional stress are directly reported in the adjudicated record; the case supplies a rare worker-linked meaning endpoint without measuring later institutional trust",
+      "public_or_collective_response": "The worker used repeated complaints, FWO assistance, and Fair Work litigation; no broader organizing or political action is observed",
+      "counterexample": "A compensation order and new job can coexist with residual unpaid wages, lost financial independence, and an unresolved question of whether the remedy was adequate",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary [2025] FWC 1570 records the findings, $4,000 partial payment, compensation order, broken trust, and new employment; the official bulletin summarizes the case; one adjudicated case cannot establish prevalence or a general recovery rate",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc1570.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-MUDIYANSALAGE-A-01",
+      "from": "persistent wage delay and underpayment",
+      "to": "worker complaints and Fair Work Ombudsman contact",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records repeated complaints, a December 9 FWO contact, and formal payment demands before resignation",
+      "status": "observed",
+      "counterexample": "Complaint effort does not by itself show that the employer would correct the full historical loss",
+      "remaining_gap": "Complete contact sequence, effort cost, household buffer, and alternative route"
+    },
+    {
+      "arrow_id": "FWC-MUDIYANSALAGE-A-02",
+      "from": "FWO involvement",
+      "to": "current-rate correction without full historical remediation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records correct Level 1 payments beginning January 6, 2025, while historical underpayment and superannuation remained unresolved",
+      "status": "observed",
+      "counterexample": "A current-rate correction can coexist with a large residual historical balance",
+      "remaining_gap": "Complete wage correction, superannuation receipt, timing, and adequacy"
+    },
+    {
+      "arrow_id": "FWC-MUDIYANSALAGE-A-03",
+      "from": "unpaid wages and failed payment promises",
+      "to": "forced exit, refusal to return, and new employment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found the resignation was forced; the worker refused to return without partial payment and secured new employment",
+      "status": "observed",
+      "counterexample": "New employment does not establish equivalent pay, security, conditions, or unconstrained choice",
+      "remaining_gap": "New-job pay, hours, security, quality, household effect, and later switching"
+    },
+    {
+      "arrow_id": "FWC-MUDIYANSALAGE-A-04",
+      "from": "adjudicated underpayment and forced exit",
+      "to": "partial payment and compensation order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The record documents a $4,000 payment on April 2 and a $27,424.88 gross compensation order plus superannuation, while about $7,000 remained unpaid at the May hearing",
+      "status": "observed",
+      "counterexample": "A compensation order and partial payment are not full receipt, net recovery, or proof of adequacy",
+      "remaining_gap": "Final payment, tax and superannuation receipt, residual loss, timing, and adequacy"
+    },
+    {
+      "arrow_id": "FWC-MUDIYANSALAGE-A-05",
+      "from": "compensation and new employment",
+      "to": "restored security, trust, durable protection, or practical exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Broken trust and emotional stress explain refusal of reinstatement, but later financial security, repeat harm, and future exit are not followed",
+      "status": "open",
+      "counterexample": "Leaving an employer can protect dignity while increasing financial risk, and compensation can coexist with unresolved loss",
+      "remaining_gap": "Later household security, job durability, trust change, recurrence, organizing, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes a rare same-worker public case chain from persistent wage failure through institutional complaint, forced exit, new employment, partial payment, compensation order, and worker-linked broken trust. It does not establish full remedy receipt, adequate recovery, durable employment, or general prevalence.",
+  "storage_boundary": "Only the public adjudicated case record, bounded amounts, dates, and interpretation limits are retained; no private payroll, bank, household, or employment file is added."
+}

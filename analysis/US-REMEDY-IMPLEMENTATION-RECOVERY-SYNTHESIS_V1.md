@@ -32,6 +32,7 @@ non-return can occur without proving that a viable alternative existed.
 | DOJ IER telephone interventions | Agency-reported return to work, back pay, alternate-location access, or a worker non-return decision; one case states the worker returned the next day and was paid about $420 | Independent receipt, wage adequacy, durable employment, household recovery, trust, recurrence, and exit |
 | DOJ IER wage/seniority cases | Agency-reported rehire, back pay, prior-wage restoration, and seniority restoration in individual cases | Payment instrument and receipt, actual benefit use, tenure continuity, later security, and trust |
 | Hotak platform case | Same worker's access was restored, ordinary post-restoration work payment was reported, and more than 150 later trips were recorded | Separate lost-remuneration payment, net recovery, later access, non-retaliation, alternatives, and exit |
+| Mudiyanselage wage case | Persistent underpayment led to FWO contact, forced exit, new employment, a documented $4,000 partial payment, and a $27,424.88 gross compensation order; refusal to return was linked to broken trust and emotional stress | Final compensation receipt, residual wage/superannuation loss, new-job quality, later security, and trust recovery |
 | FTC Yellowstone refund | 3,759 small businesses receiving a third distribution had cashed a previous check | Whether the third check was cashed, account harm was corrected, business recovery, continued use, switching, and trust |
 | SHED fraud route | Respondents reported provider contact, external reporting, and some provider switching after fraud | Account-level causation, completed switch, replacement quality, verified recovery, and restored trust |
 | CCES job-loss panel | Same respondents show later Congress contact and local political action after a work-disruption screen | Dated separation, attribution, remedy, recovery, trust change, and whether lower action reflects constraint or choice |
@@ -96,6 +97,7 @@ choice.
 
 - [IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
 - [Hotak platform-remedy ledger](projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json)
+- [Mudiyanselage underpayment and forced-exit ledger](projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json)
 - [Yellowstone refund ledger](projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json)
 - [SHED fraud and switching ledger](projects/us-financial-intermediation/data/shed-fraud-recovery-switching-event-ledger-v1.json)
 - [CCES job-loss political-action ledger](projects/us-cost-trust-politics/data/cces-job-loss-political-followup-event-ledger-v1.json)
