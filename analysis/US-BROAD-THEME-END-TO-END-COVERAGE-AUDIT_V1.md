@@ -1,6 +1,6 @@
 # US broad theme end-to-end coverage audit v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Status:** program-control audit; not a new trend estimate  
 **Input:** [US broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md)
 
@@ -93,7 +93,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`45f98b0dd619ce6e10d0be6ec384401561da25b79b37e1fd26c0d95251b0636f`.
+`77394dfe5fc7246881aa9429421939ac78d13ad0b4c6d772955b813140bd2bd4`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix
