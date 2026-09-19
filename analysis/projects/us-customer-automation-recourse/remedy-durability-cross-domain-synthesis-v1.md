@@ -74,6 +74,11 @@ welfare, safety restoration, or trust change. The source units include named
 cases, recall keys, program cohorts, and agency summaries rather than a common
 population denominator.
 
+The [portfolio remedy-stage audit](remedy-stage-coverage-audit-v1.md) shows that
+the vocabulary is currently explicit for only 9 of 206 event rows. That is a
+measurement-coverage result, not a remedy-failure rate: the other 197 rows are
+unknown at the standardized stage field, not coded as no remedy.
+
 The next decisive artifact is a bounded, identifier-compatible follow-up that
 preserves:
 
