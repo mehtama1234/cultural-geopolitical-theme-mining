@@ -20,6 +20,8 @@ dated material event and responsible actor
 | Source | Material | Meaning | Action | Time/actor boundary |
 |---|---|---|---|---|
 | HTOPS April→June | Same selected respondent's material transitions | June Congress confidence and statistics agreement | Not observed | Two-wave timing; no dated actor or attribution |
+| CCES job-loss panel 2012→2014 | Reported job loss, insurance, and benefit loss | 2014 Congress approval | Congressional contact and local political action | Same-panel timing; no dated separation, actor, remedy, or recovery |
+| CCES insurance panel 2012→2014 | 2012 no-insurance status | 2014 Congress approval | Congressional contact and local political action | Same-panel timing; insurance is not a dated bill or coverage-loss episode |
 | CCES 2024 | Gig work and student-loan responsibility proxies | Federal/state trust | Six civic-action indicators | Same-wave joint cells; no dated shock |
 | CES 2018/2020 medical affordability | Medical-expense hardship | Responsibility attribution | Targeted political participation | Module-year comparison; no bill/remedy follow-up |
 | ANES 2016–2020–2024 panel subset | Pre-election financial worry | Federal trust and party-conditioned judgment | Post-election reported vote | Temporal ordering, but no direct material episode or actor |
@@ -54,6 +56,19 @@ actions: turnout, contact, protest, and attribution do not move together. The
 modules support a reported hardship→attribution/action association, not proof
 that one bill caused one act or that lower turnout means withdrawal.
 
+The CCES panel supplies a stronger action endpoint than the HTOPS route, but it
+also shows why “political response” cannot be reduced to approval. Among the
+2012–2014 retained respondents, reported job loss was followed by lower local
+political action (23.93% versus 31.57%) and lower congressional contact (37.36%
+versus 39.14%) than no reported job loss, while favorable Congress approval was
+slightly higher (13.86% versus 10.06%). The no-insurance group shows the same
+direction for action—21.81% local action and 31.75% contact versus 32.48% and
+40.29% among insured respondents—while unfavorable Congress approval was lower
+(74.77% versus 83.07%). These are descriptive panel contrasts, not causal
+effects: the material measures are broad proxies, prior identity and resources
+are incompletely controlled, and no responsible actor, remedy, or recovery is
+observed.
+
 ## What this means for the broad goal
 
 Material pressure does not translate through one universal political channel.
@@ -74,6 +89,6 @@ does not rerun or extend their estimates.
 python3 scripts/validate_material_meaning_action_endpoint_audit.py
 ```
 
-The validator checks that all five committed source records exist and that each
+The validator checks that all seven committed source records exist and that each
 coverage row states its unit, surfaces, timing, actor boundary, and limitation.
 No data is downloaded.

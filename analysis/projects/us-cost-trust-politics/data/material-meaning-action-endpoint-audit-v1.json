@@ -15,6 +15,26 @@
       "boundary": "same-ID linkage and replicate-weight descriptive transitions; no dated bill, attribution, remedy, action, or attrition-adjusted population inference"
     },
     {
+      "source": "analysis/records/us-cces-panel-job-loss-political-followup-2012-2014.json",
+      "unit": "repeated_panel_respondent",
+      "material_surface": "reported job loss during the prior two years, health-insurance status, and employee-benefit loss",
+      "meaning_surface": "later Congress approval as an institution-specific judgment",
+      "action_surface": "later congressional contact and local political action",
+      "time_order": "2012 reported work/material condition to 2014 follow-up",
+      "event_actor": "job-loss actor, separation date, and involuntary status not identified",
+      "boundary": "same-panel descriptive contrast with supplied panel weight; no dated separation, attribution, remedy, recovery, or attrition-adjusted causal estimate"
+    },
+    {
+      "source": "analysis/records/us-cces-panel-insurance-political-followup-2012-2014.json",
+      "unit": "repeated_panel_respondent",
+      "material_surface": "2012 health-insurance status as a material-security proxy",
+      "meaning_surface": "later Congress approval as an institution-specific judgment",
+      "action_surface": "later congressional contact and local political action",
+      "time_order": "2012 insurance status to 2014 follow-up",
+      "event_actor": "coverage-loss actor, timing, care episode, and alternative not identified",
+      "boundary": "same-panel descriptive contrast with supplied panel weight; insurance status is not a dated bill, coverage-loss event, remedy, or causal action path"
+    },
+    {
       "source": "analysis/records/us-cces-trust-action-joint-material-proxies-2024.json",
       "unit": "post_election_respondent",
       "material_surface": "gig-work and student-loan responsibility proxies",
@@ -55,7 +75,7 @@
       "boundary": "panel/controlled descriptive tables add a policy-demand endpoint but not a dated health-cost event, alternative, remedy, or causal action path"
     }
   ],
-  "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; CCES and CES supply action or attribution but not a dated event; ANES supplies worry-to-vote and health-cost-concern-to-policy-preference ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
+  "program_result": "The strongest local material-to-meaning/action surfaces are separate partial bridges: HTOPS supplies selected same-respondent material timing and judgment but no action; the CCES job-loss and insurance panels supply same-respondent material-to-judgment-and-action timing but no dated episode, actor, or remedy; CES supplies action or attribution without a same-event panel; ANES supplies worry-to-vote and health-cost-concern-to-policy-preference ordering but not a direct material episode. No source closes the full event-to-actor-to-meaning-to-action chain.",
   "quantitative_checkpoint": {
     "anes_health_cost_concern_to_policy_preference": {
       "not_at_all_concerned_increase_help_percent": 57.5,

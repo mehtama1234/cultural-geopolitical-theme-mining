@@ -31,6 +31,20 @@ full chain:</p>
 <td>Two-wave timing; no dated actor or attribution</td>
 </tr>
 <tr>
+<td>CCES job-loss panel 2012→2014</td>
+<td>Reported job loss, insurance, and benefit loss</td>
+<td>2014 Congress approval</td>
+<td>Congressional contact and local political action</td>
+<td>Same-panel timing; no dated separation, actor, remedy, or recovery</td>
+</tr>
+<tr>
+<td>CCES insurance panel 2012→2014</td>
+<td>2012 no-insurance status</td>
+<td>2014 Congress approval</td>
+<td>Congressional contact and local political action</td>
+<td>Same-panel timing; insurance is not a dated bill or coverage-loss episode</td>
+</tr>
+<tr>
 <td>CCES 2024</td>
 <td>Gig work and student-loan responsibility proxies</td>
 <td>Federal/state trust</td>
@@ -84,6 +98,18 @@ protest shares were 11.1% and 23.6%, respectively.</p>
 actions: turnout, contact, protest, and attribution do not move together. The
 modules support a reported hardship→attribution/action association, not proof
 that one bill caused one act or that lower turnout means withdrawal.</p>
+<p>The CCES panel supplies a stronger action endpoint than the HTOPS route, but it
+also shows why “political response” cannot be reduced to approval. Among the
+2012–2014 retained respondents, reported job loss was followed by lower local
+political action (23.93% versus 31.57%) and lower congressional contact (37.36%
+versus 39.14%) than no reported job loss, while favorable Congress approval was
+slightly higher (13.86% versus 10.06%). The no-insurance group shows the same
+direction for action—21.81% local action and 31.75% contact versus 32.48% and
+40.29% among insured respondents—while unfavorable Congress approval was lower
+(74.77% versus 83.07%). These are descriptive panel contrasts, not causal
+effects: the material measures are broad proxies, prior identity and resources
+are incompletely controlled, and no responsible actor, remedy, or recovery is
+observed.</p>
 <h2 id="what-this-means-for-the-broad-goal">What this means for the broad goal</h2>
 <p>Material pressure does not translate through one universal political channel.
 The local evidence shows persistence, subgroup heterogeneity, attribution, and
@@ -98,6 +124,6 @@ does not rerun or extend their estimates.</p>
 <h2 id="reproduction">Reproduction</h2>
 <pre><code class="language-text">python3 scripts/validate_material_meaning_action_endpoint_audit.py
 </code></pre>
-<p>The validator checks that all five committed source records exist and that each
+<p>The validator checks that all seven committed source records exist and that each
 coverage row states its unit, surfaces, timing, actor boundary, and limitation.
 No data is downloaded.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
