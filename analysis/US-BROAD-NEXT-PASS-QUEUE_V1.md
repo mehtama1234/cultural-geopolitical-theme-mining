@@ -1319,6 +1319,13 @@ small transition cells reinforce the boundary: later status is not verified
 recovery, and the next gate remains adherence, continuity, remedy, and
 event-specific household recovery.
 
+The [four-event work-clock synthesis](projects/us-household-constraint-cascade/meps-four-event-work-clock-synthesis-v1.md)
+now places prescription, office, emergency-room, and inpatient event windows
+on one descriptive table. Prescription events are a useful counterexample:
+their event-window nonemployment level is lower than the comparison while
+status change, resolution, and onset are higher. The result advances timing
+and heterogeneity, not causation, remedy, household recovery, or exit.
+
 The [platform-remedy field audit](projects/us-customer-automation-recourse/platform-remedy-field-availability-audit-v1.md)
 confirms the counterexample route: route and decision are observed in all 27
 episodes, but alternatives, effort, follow-up, receipt, durability,
