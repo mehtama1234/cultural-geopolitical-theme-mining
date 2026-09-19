@@ -1,6 +1,6 @@
 # Cross-source trust, meaning, and action layer v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-19
 **Status:** cross-source societal synthesis; not a person-level join or causal estimate
 
 ## Why this layer exists
@@ -80,6 +80,25 @@ The broad working interpretation is therefore:
 
 This is a provisional synthesis across source populations, not a measured
 causal model.
+
+## Action is an ecology of routes
+
+The consumer and political records support a more precise cultural model than
+“engaged” versus “disengaged.” Different actions solve different problems and
+carry different costs:
+
+| Route | What it can mean | What it costs or requires | What cannot be inferred |
+|---|---|---|---|
+| Stay / continue using | Need, habit, trust, convenience, or no credible substitute | Dependence, switching cost, money, time, or risk tolerance | Satisfaction or legitimacy |
+| Complain / appeal | Specific attribution and belief that a procedure may work | Information, time, documentation, confidence, and reachable authority | Successful remedy or broader political empowerment |
+| Switch / exit | Practical refusal or search for a better route | A usable alternative, mobility, money, data portability, and acceptable risk | Distrust; staying may be the constrained choice |
+| Vote / contact / organize | Public judgment or collective demand | Time, identity, information, social ties, access, and perceived efficacy | That the action came from the measured hardship |
+| Silence / non-use / non-reporting | Resolution, avoidance, stigma, fear, futility, or exclusion | The hidden cost of appearing, asking, switching, or contesting | Apathy, satisfaction, or no underlying need |
+
+This route map is a cultural measurement rule: the same visible behavior can
+carry different meanings depending on alternatives, status, identity, and
+perceived control. The current evidence supports the distinction and selected
+associations, but does not yet identify those meanings within one episode.
 
 ## Keep these outcomes separate
 
