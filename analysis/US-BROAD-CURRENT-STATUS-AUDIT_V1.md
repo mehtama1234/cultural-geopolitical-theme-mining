@@ -1829,6 +1829,10 @@ simulated broad event ledger also passes as explicitly labeled test data. These
 are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
+The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
+now inventories seven schema-valid ledgers totaling 126 events and 27 arrows;
+the publication gate validates that inventory separately from the simulated
+fixture and keeps non-contract recheck artifacts out of the count.
 
 The platform-work remedy lane now has a focused [restoration and dependence
 synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md).
