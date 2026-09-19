@@ -5,6 +5,10 @@ continued work; lost-pay amount, receipt, and durability remain open
 
 **Checked:** 2026-09-15
 
+The structured [broad event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
+records the four observed/open arrows without treating access restoration as
+financial recovery or durable protection.
+
 ## Why this record matters
 
 Hotak supplies the first public follow-up in the Australian packet that goes

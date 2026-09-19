@@ -239,7 +239,9 @@ outcome.
 The Hotak follow-up now adds observed post-reactivation activity—more than 150
 trips—before a later formal reactivation order. This closes an operational
 return-to-work stage without closing net recovery, payment, durable protection,
-alternative work, or exit.
+alternative work, or exit. Its new [structured broad event ledger](projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json)
+preserves the four case arrows and their open financial, durability, trust, and
+exit fields for later implementation evidence.
 The companion CCES insurance-status follow-up now places 2012 noncoverage before
 2014 approval, congressional contact, and local political action. Lower contact
 and action with near-similar favorable Congress approval reinforces the need to
