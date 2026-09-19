@@ -207,6 +207,13 @@ These are real bridges, but each closes only part of the full chain:
   correction, remaining loss, servicing dependence, trust, switching, and exit
   open. Cash received and the original material problem removed are separate
   outcomes.
+- **Recall correction is not safe restoration:** a CPSC recall-key bridge for
+  roughly 190,000 portable chargers links a dated fire hazard and free
+  replacement offer to a later firm-reported 64,963 consumer-level corrections
+  and 65,293 total corrections. The notice and progress report use different
+  product/consumer-held denominators, and neither shows purchaser notice,
+  replacement receipt, delay, residual cost, or safe durable use. A correction
+  percentage is implementation visibility, not a consumer recovery rate.
 - **Small firms as infrastructure consumers:** the FTC reports 5,588 checks
   totaling more than $2.6 million sent to businesses charged hidden or
   unauthorized payment-processing fees, including early-termination and
