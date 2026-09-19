@@ -54,6 +54,14 @@ denominators are not interchangeable and must not be turned into a single
 restoration rate. The selected-state diagnostic adds reporting variation, not
 a cross-state effectiveness ranking.
 
+The Virginia trajectory provides a useful cross-lane caution: reported
+households served rose from 118,347 in FY2023 to 144,007 in FY2024 and then
+fell to 126,299 in preliminary FY2025, while restoration occurrences fell
+from 2,382 to 1,824 to 1,185 and prevention occurrences from 18,157 to 16,309
+to 12,509. This is program context alongside the Virginia utility-governance
+ledger, not evidence that Rider T1, large-load policy, rates, weather, or any
+other infrastructure event caused the LIHEAP trajectory.
+
 ## Why it matters to the broader atlas
 
 This layer makes a multiple-currency adjustment visible. A household can
@@ -88,6 +96,7 @@ without restoration, and retain non-applicants and denied routes.
 - [HHS/ACF FY2024 LIHEAP annual report](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights)
 - [LIHEAP FY2023–FY2025 performance extraction](../data/us-liheap-performance-measures-2023-2025.json)
 - [Selected-state FY2025 diagnostic](../data/liheap-state-performance-diagnostic-fy2025.json)
+- [Virginia FY2023–FY2025 trajectory](../data/liheap-virginia-performance-2023-2025.json)
 - [Structured energy consequence/public-restoration record](../../../records/us-energy-household-consequence-public-restoration-2024-2026.json)
 - [SIPP utility-to-following-outcome record](../../../records/us-sipp-utility-care-following-outcomes-2024.json)
 

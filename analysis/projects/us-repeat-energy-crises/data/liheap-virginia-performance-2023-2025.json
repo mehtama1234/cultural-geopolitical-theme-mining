@@ -1,0 +1,28 @@
+{
+  "format": "us-public-program-state-trajectory-v1",
+  "record_id": "us-liheap-virginia-performance-2023-2025",
+  "checked": "2026-09-18",
+  "state": "Virginia",
+  "grantee_id": 47,
+  "source_unit": "HHS/ACF LIHEAP Performance Management API; Virginia grant recipient",
+  "data_status": "preliminary; official site marks FY2023, FY2024, and FY2025 performance data pending final validation",
+  "query": {
+    "endpoint": "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport",
+    "field_ids": {"6": "Total Households Served", "426": "Restoration of Service Due to Disconnection - All Occurrences", "473": "Prevention of Service Loss Due to Bill Payment Issues - All Occurrences"},
+    "years": [2023, 2024, 2025],
+    "authentication": "public token from https://stage.liheappm.acf.hhs.gov/token.php"
+  },
+  "observations": [
+    {"fiscal_year": 2023, "households_served": 118347, "restoration_occurrences": 2382, "prevention_occurrences": 18157, "restoration_occurrences_per_served_household": 0.0201, "prevention_occurrences_per_served_household": 0.1534},
+    {"fiscal_year": 2024, "households_served": 144007, "restoration_occurrences": 1824, "prevention_occurrences": 16309, "restoration_occurrences_per_served_household": 0.0127, "prevention_occurrences_per_served_household": 0.1133},
+    {"fiscal_year": 2025, "households_served": 126299, "restoration_occurrences": 1185, "prevention_occurrences": 12509, "restoration_occurrences_per_served_household": 0.0094, "prevention_occurrences_per_served_household": 0.0990}
+  ],
+  "interpretation": {
+    "safe_result": "Virginia's reported households-served count rises in FY2024 and falls in preliminary FY2025; reported restoration and prevention occurrences fall across FY2023–FY2025.",
+    "derived_measure_label": "occurrences per served household diagnostic; not a service-loss rate or household probability",
+    "not_established": ["utility-rate effect", "causal effect of Virginia Rider T1 or large-load governance", "unique households", "benefit receipt or amount", "duration or next-bill affordability", "repeat crisis", "health/food/medicine/work protection", "trust or political action"],
+    "counterinterpretation": "The trajectory can reflect program funding, state reporting, crisis mix, definitions, weather, utility conditions, or preliminary validation rather than a change caused by state utility policy."
+  },
+  "source_urls": ["https://stage.liheappm.acf.hhs.gov/performance-measures", "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport"],
+  "boundary": "This state-program trajectory is context for the Virginia infrastructure lane, not a joined household, utility-account, or policy-effect episode."
+}
