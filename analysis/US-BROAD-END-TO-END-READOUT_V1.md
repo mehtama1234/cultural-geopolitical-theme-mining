@@ -116,6 +116,13 @@ These are real bridges, but each closes only part of the full chain:
   not proof of worker security, owner-household recovery, affordable customer
   service, or lower public risk: survival can preserve an option while moving
   obligations elsewhere.
+- **Local customer access after disaster:** after major Harvey store closures,
+  affected cardholders traveled about 15% farther to shop; entrants generated
+  modeled consumer surplus but did not fully replace exits in the hardest-hit
+  neighborhoods. Average metro welfare loss looked small (about 0.29% of
+  pre-storm retail spending) while tract-level losses were larger. Aggregate
+  prices and firm survival can therefore look stable while time, distance, and
+  local access worsen for particular neighborhoods.
 - **Cash App enforcement:** the CFPB record documents fraud/dispute-process
   failures, required operational correction, and up to $120 million in
   consumer redress. It advances the route from reported loss to a named
