@@ -42,6 +42,7 @@ ends earlier than lived recovery.
 | Apple PERM recruitment remedy | DOJ reports required electronic/external recruitment controls, individualized lost-income review, and an exhausted $18.25M back-pay fund | Applicant-level receipt, restored consideration or hiring, monitoring findings, recurrence, household recovery, trust, and exit |
 | Meadley employment enforcement case | Official FWC follow-up reports compensation payment and further court-ordered money after failed reinstatement | Worker-confirmed receipt, restored job, later employment, household recovery, recurrence, trust, and exit |
 | CFPB named redress and reissue routes | BrightSpeed, Navient, and ADSS expose aggregate distribution or check stages; an Ombudsman record exposes recipient-side reissue facilitation | Recipient receipt, account/loan correction, residual loss, durable financial recovery, trust, switching, and exit |
+| FTC refund-program administration benchmark | The FTC's 2019 report distinguishes average check-cashing rates by route: 64% for known-customer mailings, 93% for claims-process cases, and 89% when Consumer Sentinel supplied the recipient list; it also records identifiers, cashing checks, returned-check address searches, and reissue steps | These are route-specific program aggregates from July 2018 through December 2019, not a common current remedy rate or proof of adequate recovery, restored security, trust, or exit |
 | IER employment remedies | Agency summaries report individual paid remedies or offers plus employer training/policy changes | Independent receipt, accepted reinstatement, later employment, recurrence, household recovery, trust, and action |
 | Platform access cases | Some cases show review, reactivation, substitute earnings, or ordered lost remuneration | Payment, actual account status, recurrence protection, freely chosen alternatives, worker recovery, and exit |
 
@@ -65,6 +66,11 @@ different units and clocks.
 4. **Institutional legitimacy requires a longer clock.** Trust, switching,
    non-use, and continued use are not implied by payment or correction. They
    must be observed separately for the same unit and after the response.
+5. **Receipt has its own route ecology.** A known-customer mailing, a claims
+   process, and a complaint-derived recipient list produce different observed
+   cashing rates and different administrative burdens. A receipt benchmark must
+   therefore retain the eligibility route, denominator, cashing/reissue rule,
+   and vintage instead of becoming one generic remedy-success rate.
 
 ## Evidence boundary
 
@@ -106,5 +112,6 @@ durability gaps—not convert institutional completion into lived recovery.
 - [Meadley payment/enforcement ledger](../ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
 - [CFPB named redress ledger](data/cfpb-named-redress-route-event-ledger-v1.json)
 - [CFPB Ombudsman reissue ledger](data/cfpb-ombudsman-redress-reissue-event-ledger-v1.json)
+- [FTC 2019 refund administration report](https://www.ftc.gov/sites/default/files/documents/reports/2019_final_report_on_ftc_refunds_to_consumers.pdf)
 - [IER individual-remedy record](../../records/us-doj-ier-individual-remedy-followups-2026.json)
 - [Platform remedy record](../../records/us-platform-remedy-restoration-dependence-2024-2026.json)
