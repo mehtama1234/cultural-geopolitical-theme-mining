@@ -12,14 +12,14 @@
       "date_precision": "day; primary FWC decision and order preserve the sequence",
       "denominator": "one publicly identified adjudicated case; no population denominator",
       "method": "Structured extraction from the primary Fair Work Commission decision, reactivation/lost-remuneration order PR797881, official bulletin, and targeted official document-search recheck",
-      "missingness": "The public packet does not disclose payment receipt, net earnings, avoided expenses, alternative work, post-order trips, durable access, recurrence, household effects, or worker-reported meaning/action; unknown fields are not zeros",
+      "missingness": "The public packet records no paid earnings to deduct during the deactivation period, but does not disclose whether the worker sought, refused, or lacked other work; it also does not disclose payment receipt, net earnings, avoided expenses, post-order trips, durable access, recurrence, household effects, or worker-reported meaning/action",
       "condition_or_decision": "job_rule",
       "exposure": "Portier/Uber deactivated the worker's platform account on 2025-12-15 over an alleged failed background check",
-      "alternatives_before_action": "Alternative platform work, non-platform work, savings, support, or non-use choice are not observed",
+      "alternatives_before_action": "The Commission recorded no paid earnings to deduct from other work during the deactivation period; this is a negative substitute-earnings observation, not evidence of whether alternative work was available, sought, refused, or impossible",
       "immediate_burden_or_benefit": "Platform access was interrupted; the primary record does not establish net household burden or expense changes",
-      "choice_or_response": "Worker filed an unfair-deactivation application on 2025-12-30; Portier voluntarily reactivated access on 2026-02-20",
+      "choice_or_response": "Worker filed an unfair-deactivation application on 2025-12-30; Portier voluntarily reactivated access on 2026-02-20; the Commission later recorded no paid earnings to deduct and rejected the proposition that a $5,500 settlement offer established full restoration",
       "person_or_actor_with_control": "Portier/Uber controlled operational access; the Fair Work Commission controlled the adjudicative remedy",
-      "remedy_or_institutional_response": "On 2026-03-20 the Commission issued concurrent reactivation and lost-remuneration orders, including A$7,096.96 gross payable within 14 days",
+      "remedy_or_institutional_response": "Portier offered $5,500 in exchange for discontinuing proceedings; on 2026-03-20 the Commission instead issued concurrent reactivation and lost-remuneration orders, including A$7,096.96 gross payable within 14 days",
       "immediate_outcome": "Voluntary and formal access-restoration stages plus an enforceable gross lost-pay order are observed; payment receipt and actual post-order access are not",
       "protected_outcome": "The order is designed to restore platform access and the financial position associated with the interruption, but protected lived outcomes are not verified",
       "sacrificed_outcome": "The amount and duration of lost opportunity during deactivation are represented by a gross order, while residual loss and expenses remain unknown",
@@ -27,9 +27,9 @@
       "later_outcome": "Payment deadline, receipt, net recovery, continued use, alternative work, recurrence protection, household outcome, trust, action, and exit remain unknown",
       "meaning_and_attribution": "The case identifies the platform and formal Commission route but supplies no worker-reported fairness, dignity, trust, or attribution measure",
       "public_or_collective_response": "A formal individual application and adjudication are observed; no later organizing, public campaign, or political action is measured",
-      "counterexample": "A formal gross order and payment deadline can coexist with no public receipt, net recovery, alternative, or durable-access record",
+      "counterexample": "A formal gross order and payment deadline can coexist with no public receipt, net recovery, available alternative, or durable-access record; no paid earnings to deduct is not the same as observed non-use or a constrained-choice explanation",
       "evidence_status": "observed",
-      "source_and_uncertainty": "Primary FWC decision [2026] FWC 953, primary order PR797881, official FWC Bulletin Volume 4/26, and targeted official document-search recheck on 2026-09-18; one comparative Australian case, order enforceability does not prove compliance or receipt"
+      "source_and_uncertainty": "Primary FWC decision [2026] FWC 953, primary order PR797881, official FWC Bulletin Volume 4/26, and targeted official document-search recheck on 2026-09-18; the bulletin's no-earnings finding is a bounded reported absence of substitute paid earnings, not a worker-confirmed alternative or non-use choice, and order enforceability does not prove compliance or receipt"
     }
   ],
   "arrows": [

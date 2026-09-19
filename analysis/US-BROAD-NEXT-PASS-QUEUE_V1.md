@@ -1191,7 +1191,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 20 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 22 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1222,8 +1222,8 @@ adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
 opportunity.
 
-**Stage-bottleneck promotion gate (2026-09-18):** across those 20 surfaces,
-15 have an observed dated event/exposure and 15 have an observed institutional
+**Stage-bottleneck promotion gate (2026-09-18):** across those 22 surfaces,
+18 have an observed dated event/exposure and 19 have an observed institutional
 or firm response, but only 1 has an observed alternative/non-use stage, 1 has
 an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record

@@ -44,7 +44,7 @@ def main() -> int:
     expected = {
         "local_surface_count": len(same_case["sources"]),
         "observed_alternative_or_nonuse_surfaces": stage_summary["alternative_or_nonuse"]["observed"],
-        "observed_verified_remedy_or_outcome_followup_surfaces": 0,
+        "observed_verified_remedy_or_outcome_followup_surfaces": stage_summary["verified_remedy"]["observed"],
         "qualifies": same_case["promotion_gate"]["qualifies"],
     }
     for key, value in expected.items():

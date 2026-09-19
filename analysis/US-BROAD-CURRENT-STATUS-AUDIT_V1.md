@@ -1936,7 +1936,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Eighteen local source surfaces cover
+health, political, and worker routes. Twenty-two local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -1958,6 +1958,11 @@ employment-document barrier through worker or advocate contact, IER
 intervention, employer correction, and reported back pay or rehire. It still
 does not prove worker-confirmed receipt, accepted restoration, household
 recovery, trust, or exit.
+The [structured Rehman case ledger](projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json)
+adds a bounded negative substitute-earnings observation: the Commission
+recorded no paid earnings to deduct during the deactivation interval, alongside
+a gross lost-remuneration order. This is not an observed alternative choice or
+non-use decision, and payment receipt and later recovery remain open.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
