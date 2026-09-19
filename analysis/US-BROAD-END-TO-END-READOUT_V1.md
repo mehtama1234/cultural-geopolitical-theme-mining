@@ -80,6 +80,13 @@ These are real bridges, but each closes only part of the full chain:
   This is a route-specific association, not proof of claim causation or failed
   remedy; it shows how an institutional gate can coincide with both delayed
   care and downstream financial exposure.
+- **MEPS episode boundary:** the retained MEPS event ledger has 18,457
+  privacy-minimized person/event rows with hashed episode identifiers and
+  month-precision first-event dates. A strict event-window screen can carry
+  people into later health and employment rounds, but the public file does not
+  identify the event-specific alternative, payment choice, appeal, verified
+  remedy, or later trust/action/exit. A dated event therefore improves time
+  ordering without becoming a household recovery story.
 - **Persistent care foregoing:** in the 2024–2025 SHED recontact panel,
   respondents who continued foregoing care reported 41.783% medical debt,
   65.334% reduced savings, 36.389% increased borrowing, and 76.442% delayed
