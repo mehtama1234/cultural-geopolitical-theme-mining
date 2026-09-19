@@ -97,6 +97,12 @@ These are real bridges, but each closes only part of the full chain:
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or
   changed behavior by another state. Capacity and dependence can rise together.
+- **CCES political follow-up:** respondents reporting earlier job loss had a
+  large later insurance gap and lower local political action (23.9% versus
+  31.6%), but Congress approval was not uniformly lower. Earlier lack of
+  insurance showed the same action gap with near-similar favorable approval.
+  Material insecurity, institutional judgment, and political action are
+  therefore separate currencies; attribution and remedy remain unknown.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.

@@ -314,6 +314,14 @@ available, and to preserve the open boundary where a county association,
 population adaptation measure, respondent judgment, or election result cannot
 be joined causally.
 
+The retained CCES panel gives a useful counterexample inside this chain.
+Respondents reporting earlier job loss had much higher later noncoverage and
+lower local political action (23.9% versus 31.6%), while Congress approval was
+not uniformly lower. Earlier lack of insurance shows the same action gap with
+near-similar favorable approval. Material insecurity can therefore reduce one
+form of action without producing a simple distrust result; attribution,
+employer remedy, recovery, and causal sequence remain open.
+
 The [financial dissatisfaction/trust finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-012.md)
 sharpens this meaning layer with the 2024 GSS: financial satisfaction, fairness
 expectations, generalized trust, ideology, and vote intention can coexist in
