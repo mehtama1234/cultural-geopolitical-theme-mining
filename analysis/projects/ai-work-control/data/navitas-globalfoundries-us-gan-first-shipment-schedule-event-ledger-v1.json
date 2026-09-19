@@ -12,7 +12,7 @@
       "date_precision": "Company announcement date; first shipment and sample schedule is forward-looking",
       "denominator": "One Gen 5 GaNFast product family and one US 200mm GaN-on-silicon foundry route; quantities, customer count, and delivered units are not reported",
       "method": "Structured extraction from GlobalFoundries announcement and Navitas public filing describing manufacturing partners and supply-chain structure",
-      "missingness": "Actual September shipment confirmation, volume, customer identity, revenue, wafer yield, upstream gallium source, refined-material contract, recycling share, and end-system deployment are not established",
+      "missingness": "Actual September shipment confirmation, volume, customer identity, revenue, wafer yield, upstream gallium source, refined-material contract, recycling share, end-system deployment, and transition from initial wafers/samples to scaled 8-inch production are not established",
       "condition_or_decision": "technology",
       "exposure": "AI infrastructure, performance computing, industrial electrification, and national-security applications require efficient high-power devices; the route also remains dependent on upstream GaN wafer and gallium inputs",
       "alternatives_before_action": "Navitas could continue using existing Asian and US foundry partners, customers could use other GaN or SiC devices, and systems could defer or redesign power conversion; application-specific substitution is not reported",
@@ -24,12 +24,12 @@
       "protected_outcome": "Potentially improved domestic access to qualified GaN power devices for AI and critical infrastructure applications, with geographic diversification from an entirely foreign production route",
       "sacrificed_outcome": "Qualification time, customer sampling delay, and continued upstream material and multi-foundry dependence remain; delivered scale and price are unknown",
       "cost_risk_transfer": "Process qualification, yield, sampling, and demand risks are held by the firms and customers; upstream feedstock and supplier risks remain distributed across the broader supply chain",
-      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; a September 18, 2026 follow-up search found no later official company notice confirming completed September delivery, so delivered units, customer acceptance, and system deployment remain open",
+      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; a July 27, 2026 SEC-filed Navitas investor update separately describes the US 8-inch GaN ramp as a 2027–28 target with customer sampling and qualification expected before year-end. A September 18 follow-up search found no later official company notice confirming completed September delivery, so initial wafer shipment, qualification, scaled production, delivered units, and system deployment remain separate open stages",
       "meaning_and_attribution": "The firms frame the route as a trusted US domestic manufacturing source and ecosystem-resilience milestone; no customer, worker, or public assessment is recorded",
       "public_or_collective_response": "The firms publicly announced the route; no government procurement, alliance coordination, or collective customer commitment is documented here",
       "counterexample": "A US wafer-fabrication route can coexist with imported epitaxial wafers, substrates, gallium, other foundries, and incomplete customer qualification",
       "evidence_status": "reported",
-      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026 and Navitas Form 10-K filed February 27, 2026; follow-up official-source search checked September 18, 2026. Shipment and sample dates are company-reported forward-looking milestones, not independently verified delivery"
+      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026; Navitas Form 10-K filed February 27, 2026; and Navitas Q2 2026 investor update filed with the SEC July 27, 2026. Follow-up official-source search checked September 18, 2026. Shipment, sample, qualification, and 8-inch ramp dates are company-reported milestones, not independently verified delivery or scaled output"
     }
   ],
   "arrows": [
@@ -42,7 +42,7 @@
       "evidence": "The September announcement says the companies announced their long-term partnership in November 2025 and developed Gen 5 devices for production at GF's Burlington facility",
       "status": "reported",
       "counterexample": "The earlier partnership announcement itself projected production later in 2026; schedule is not proof of completed output",
-      "remaining_gap": "Pilot lot, yield, qualification, and confirmed production date"
+      "remaining_gap": "Pilot lot, yield, qualification, confirmed production date, and evidence that initial wafers transition into scaled 8-inch output"
     },
     {
       "arrow_id": "NAVITAS-GF-GAN-2026-A-02",
@@ -53,7 +53,7 @@
       "evidence": "The announcement schedules first wafers for September, internal samples for October, and strategic customer samples before year-end",
       "status": "reported",
       "counterexample": "Forward-looking schedule does not establish shipment completion or customer receipt",
-      "remaining_gap": "Shipment records, sample acceptance, and production volume; a September 18 follow-up found no later official confirmation"
+      "remaining_gap": "Shipment records, sample acceptance, production volume, qualification, and scaled 8-inch output; a September 18 follow-up found no later official confirmation"
     },
     {
       "arrow_id": "NAVITAS-GF-GAN-2026-A-03",
