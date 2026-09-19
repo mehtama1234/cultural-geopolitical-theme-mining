@@ -152,6 +152,11 @@
       "path": "analysis/projects/ai-work-control/data/china-gallium-germanium-export-control-event-ledger-v1.json",
       "domain": "infrastructure_technology_dependency",
       "role": "dated foreign export-control, early shipment contraction, price response, and open US downstream realization"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/doe-trace-ga-domestic-recovery-response-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "DOE gallium-recovery capability response, project-selection stage, and open commercialization/import-reduction outcome"
     }
   ]
 }

@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_domestic_critical_material_response_selection",
+  "purpose": "Bounded US institutional response record for DOE's 2026 TRACE-Ga gallium-recovery selections, preserving the boundary between negotiated project selections and operating domestic supply.",
+  "events": [
+    {
+      "event_id": "DOE-TRACE-GA-2026-04-14",
+      "unit": "project",
+      "geography": "United States; DOE-supported gallium recovery and semiconductor-scrap pathways",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-04-14",
+      "date_precision": "DOE announcement date; selection for award negotiations",
+      "denominator": "Five selected organizations and approximately $5.4 million announced under the TRACE-Ga initiative; not a census of all domestic gallium projects",
+      "method": "Structured extraction from the official DOE Office of Critical Minerals and Energy Innovation announcement",
+      "missingness": "Final negotiated awards, disbursements, construction, operating date, realized cost, purity, quantity, yield, buyers, workforce, environmental burden, and import-reliance effect are not reported",
+      "condition_or_decision": "infrastructure",
+      "exposure": "The US is 100% net import reliant on gallium and had not domestically produced it since 1987, while gallium is important to defense and semiconductor sectors",
+      "alternatives_before_action": "Domestic actors could continue relying on imports, qualify alternative suppliers or materials, recover gallium from metal-processing or semiconductor scrap, or develop primary recovery from US feedstocks; comparative feasibility and cost are not reported",
+      "immediate_burden_or_benefit": "DOE selected projects for rapid prototyping of domestic gallium recovery at defined cost, purity, and quantity targets; near-term supply benefit is not yet realized",
+      "choice_or_response": "DOE selected PHNX Materials, Atlantic Alumina, Found Energy, Kunin Technologies, and Indium Corporation for award negotiations covering waste, Bayer liquor, metal streams, and recycling scrap",
+      "person_or_actor_with_control": "DOE and its implementation partner controlled selection and negotiation; project performers control technical execution; downstream semiconductor buyers and regulators control qualification and adoption",
+      "remedy_or_institutional_response": "TRACE-Ga provides federal R&D and prototyping support intended to restart primary gallium recovery and complement other federal supply-chain investments",
+      "immediate_outcome": "A named domestic capability-development portfolio exists, including one project aiming at 12 tons per annum and one focused on gallium recovery from recycling scrap",
+      "protected_outcome": "The projects may create future domestic feedstock and recovery options for defense and semiconductor applications; no protected output or buyer supply is observed",
+      "sacrificed_outcome": "Import dependence, qualification delay, and execution risk remain during the prototype and negotiation stages; cost and timing are not reported",
+      "cost_risk_transfer": "Technical, financing, permitting, scale-up, and commercialization risk is shared or transferred into federal project selection and private performer execution; terms are not disclosed",
+      "later_outcome": "DOE expressly states that selection for award negotiations is not a commitment to issue an award or provide funding; operating recovery, product qualification, and reduced imports remain open",
+      "meaning_and_attribution": "DOE frames the initiative as strengthening supply-chain security and reducing reliance on foreign sources; no worker, community, firm-customer, or public legitimacy response is recorded",
+      "public_or_collective_response": "Federal program action is publicly announced; no alliance coordination, buyer commitment, or collective action is recorded in the source",
+      "counterexample": "A selected prototype can fail negotiation, fail to reach target purity or cost, or produce material without displacing imports; project selection is not domestic production",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOE announcement dated April 14, 2026. Amounts and project descriptions are announced selections for award negotiations, subject to change; no operating results are reported"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "DOE-TRACE-GA-2026-A-01",
+      "from": "100% gallium net import reliance and no US production since 1987",
+      "to": "DOE TRACE-Ga domestic-recovery selection",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "DOE describes the import-reliance condition and announces TRACE-Ga selections intended to establish a secure domestic gallium supply chain",
+      "status": "reported",
+      "counterexample": "The announcement does not say the selections were caused by the 2023 Chinese controls or identify a single triggering decision",
+      "remaining_gap": "Causal decision record, budget authorization, and linkage to a specific supply or price shock"
+    },
+    {
+      "arrow_id": "DOE-TRACE-GA-2026-A-02",
+      "from": "federal selection",
+      "to": "prototype pathways across primary feedstocks, metal streams, and recycling scrap",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "DOE names five performers and describes their distinct recovery pathways, including recycling scrap and Bayer liquor",
+      "status": "reported",
+      "counterexample": "Selection is not an award, operating facility, or validated process",
+      "remaining_gap": "Negotiated award, facility status, feedstock access, process yield, purity, cost, and timeline"
+    },
+    {
+      "arrow_id": "DOE-TRACE-GA-2026-A-03",
+      "from": "prototype pathway",
+      "to": "domestic gallium supply sufficient to reduce imports",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "DOE states the initiative is intended to reduce reliance on foreign sources and lists defined cost, purity, and quantity targets",
+      "status": "open",
+      "counterexample": "The source explicitly says selection for award negotiations is not a commitment to fund; no output or import displacement is reported",
+      "remaining_gap": "Operating output, qualified buyer, commercial price, and measured import-reliance change"
+    },
+    {
+      "arrow_id": "DOE-TRACE-GA-2026-A-04",
+      "from": "domestic recovery capability",
+      "to": "defense or semiconductor resilience and geopolitical room",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "DOE identifies defense and semiconductor sectors as beneficiaries and frames the program as supply-chain security",
+      "status": "open",
+      "counterexample": "Material recovery does not itself establish semiconductor qualification, defense inventory, supplier switching, or bargaining leverage",
+      "remaining_gap": "Application qualification, inventory, procurement, production, and observed supplier or alliance response"
+    }
+  ],
+  "boundary": "This ledger records a dated federal capability-building response to gallium dependence. It does not establish an award, operating recovery, commercial supply, import displacement, or realized geopolitical autonomy.",
+  "storage_boundary": "No proprietary proposal, personal data, or confidential project information is retained; only the public announcement and its explicit uncertainty are represented."
+}
