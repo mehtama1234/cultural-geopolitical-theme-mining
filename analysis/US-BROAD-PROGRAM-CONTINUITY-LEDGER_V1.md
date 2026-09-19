@@ -140,6 +140,12 @@ The seventh rotation advances political judgment and collective action through
 the [political-action menu synthesis](projects/us-cost-trust-politics/political-action-menu-not-ladder-synthesis-v1.md).
 It treats voting, contact, volunteering, complaint, organizing, switching,
 and withdrawal as distinct actions rather than one engagement ladder.
+The latest Pew public-life layer sharpens this boundary by separating
+Mobilizers, Connectors, Spectators, and Outsiders across political, civic,
+religious, and news activity. The clusters show different action styles, not a
+single scale from inactive to active; the same-person route from material or
+institutional exposure through interpretation, chosen action, response, and
+later legitimacy remains open.
 
 The eighth rotation advances the place and local-capacity lane through [local
 capacity is not practical exit](projects/us-local-business-place/place-capacity-practical-exit-cross-domain-synthesis-v1.md).
