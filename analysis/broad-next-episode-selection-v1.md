@@ -1,7 +1,7 @@
 # Broad next-episode selection v1
 
 **Status:** ranked route decision; promotion gate applied; no qualifying local end-to-end route
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Machine record:** [next-episode selection](data/broad-next-episode-selection-v1.json)
 
 ## Decision
@@ -48,7 +48,7 @@ Until then, the correct output is an acquisition boundary or route-specific
 comparator—not a new causal or pooled trend claim.
 
 The machine record cross-checks this decision against the [authoritative
-same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 17
+same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 18
 local surfaces, one observed alternative/non-use surface, zero observed
 verified-remedy or outcome-follow-up surfaces, and `qualifies: false`.
 
