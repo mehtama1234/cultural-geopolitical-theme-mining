@@ -173,9 +173,12 @@ turning it into a US household or geopolitical-behavior result.
 
 - [Task adoption and sector mobility](projects/ai-work-control/findings/ai-work-control-035.md)
   shows that NBER task-level AI use, BLS establishment quits, union
-  membership, and average pay describe different exposure surfaces. None is a
-  worker-control, household, or political outcome without a common worker or
-  workplace key.
+  membership, and average pay describe different exposure surfaces. The newer
+  task-level evidence finds AI reaching more than 80% of occupations and more
+  than 40% of tasks while fewer than half of workers adopt in most exposed
+  occupations; exposure is not access, use, training, permission, or control.
+  None is a worker-control, household, or political outcome without a common
+  worker or workplace key.
 - [Consumer loss and complaint visibility](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-018.md)
   places Federal Reserve/SHED fraud loss and recovery burden beside CFPB
   complaint routing and response labels. Household harm and administrative

@@ -387,6 +387,12 @@ These are real bridges, but each closes only part of the full chain:
   using at least one algorithmic-management tool, 76% using ten or more, and
   55% monitoring conversation content or tone; those are employer reports, not
   worker exposure or proof of harmful use.
+  Task-level NBER evidence adds a sharper access boundary: generative AI
+  reached more than 80% of occupations and more than 40% of tasks, but in most
+  of those occupations fewer than half of workers adopted it; no task exceeded
+  70% adoption. Occupation-level exposure is therefore not worker access, use,
+  training, permission, or control, and the public evidence still does not
+  show who captures any time or output gain.
   Across AI use, synthetic contact, and companion-product exit, immediate
   behavior can change before authority, portability, correction, or durable
   exit is observed. Usefulness and worker/consumer control are therefore
