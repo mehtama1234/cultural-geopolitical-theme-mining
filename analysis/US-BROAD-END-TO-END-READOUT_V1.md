@@ -248,7 +248,9 @@ These are real bridges, but each closes only part of the full chain:
   SNAP interruption; among a conditional subgroup, 40% reported insufficient
   time after notice and 32% no notice. Administrative speed, notice quality,
   receipt, material protection, and institutional confidence are separate
-  stages—not one program-success rate.
+  stages—not one program-success rate. The state-level participation-to-
+  application-timeliness correlation is only 0.033, reinforcing that take-up
+  and administrative performance are different signals.
 - **Protective non-use:** among 1,036 adults in immigrant families with
   children, 23% reported avoiding at least one essential activity because of
   immigration concerns; almost one in five reported going without public
