@@ -117,6 +117,17 @@ The rotations strengthen the middle of this chain and sharpen the open-arrow
 list. They do not prove one grand causal theory, and they do not make the
 unavailable PSID/UAS respondent files a program-wide dependency.
 
+The [retained same-unit bridge matrix](US-BROAD-RETAINED-SAME-UNIT-BRIDGE-MATRIX_V1.md)
+clarifies the strongest longitudinal evidence currently retained. MEPS closes
+an event-to-later-health/work bridge; SHED closes a pressure-to-adaptation and
+partial-reversal bridge; CCES closes a prior-disruption-to-later-judgment or
+action bridge. Read together, they produce a useful cultural result without a
+false join: adaptation, institutional approval, contact, political action, and
+recovery are different currencies. Hardship does not automatically become
+backlash, and continued use does not automatically mean satisfaction. The
+next decisive evidence must measure the person's perceived control, reason for
+the choice, institutional response, and later outcome in the same episode.
+
 The latest SHED additions make the optionality pattern legible across three
 everyday institutions. Banking access shows that formal entry can coexist with
 nonbank substitution and incomplete fraud recovery; care and living
