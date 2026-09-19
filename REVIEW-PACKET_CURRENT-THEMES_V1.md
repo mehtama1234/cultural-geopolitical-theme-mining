@@ -69,6 +69,8 @@ deep dives:
 
 - fraud exposure does not establish realized loss or recovery;
 - recall correction counts do not establish purchaser-level safe restoration;
+- a completed repair does not establish durable safety when a later recall says
+  the first remedy was ineffective;
 - AI time or output effects do not establish worker control;
 - insurance complaint closure does not establish repairability or secure stay;
 - firm recovery does not establish worker, customer, or resident recovery; and

@@ -3064,6 +3064,11 @@ The [Honda Talon repair event ledger](projects/us-marketplace-product-safety/dat
 adds a dealer-repair counterexample under a different recall key; direct-contact
 language and reported repair progress still do not establish purchaser receipt,
 safe mobility, or exit.
+The [Sauna360 repeat-remedy event ledger](projects/us-marketplace-product-safety/data/sauna360-repeat-remedy-event-ledger-v1.json)
+adds a product-level durability stage: the 2026 expansion states that the 2025
+repair was ineffective and offers a second professional repair. It advances
+remedy failure and repeat-correction visibility without establishing owner
+notice, completed repair, safe restoration, residual cost, trust, or exit.
 
 The [WBNS access recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
 confirms that current ICPSR catalog metadata and documentation are public,

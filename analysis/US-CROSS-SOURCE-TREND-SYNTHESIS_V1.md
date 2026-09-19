@@ -620,6 +620,12 @@ corrections and 44%, but the API's approximately 34,000-unit scale does not
 match the MPR's 2,047-product row. This strengthens the correction-stage map
 without treating firm-reported progress as notice receipt, completed repair, or
 safe household restoration.
+The [Sauna360 repeat-remedy ledger](projects/us-marketplace-product-safety/data/sauna360-repeat-remedy-event-ledger-v1.json)
+adds a durability-stage counterexample: a 2025 repair route is followed by a
+2026 CPSC expansion stating that the previous repair was ineffective and
+requiring another repair. This shows that a remedy can fail after
+implementation, while still leaving owner notice, repair completion, safe use,
+downtime, trust, and exit unobserved.
 The [cross-key MPR heterogeneity record](records/us-cpsc-recall-mpr-progress-heterogeneity-2026.json)
 extends the two named recall bridges to a 17-row purposive snapshot: reported
 consumer-level correction spans 0%–44% and total correction 0%–50%, with one
