@@ -24,10 +24,29 @@ largest single category. Reinstatement appears in 9 cases when the
 “reinstatement” and “reinstatement and lost remuneration” rows are combined.
 This is a description of formal hearing outcomes, not a worker recovery rate.
 
+## Five-year context
+
+The same official table reports the following hearing-outcome counts:
+
+| Hearing year | Total | Monetary only | Reinstatement only | Reinstatement + lost remuneration |
+|---|---:|---:|---:|---:|
+| 2020–21 | 313 | 144 | 4 | 13 |
+| 2021–22 | 215 | 50 | 1 | 20 |
+| 2022–23 | 296 | 75 | 7 | 9 |
+| 2023–24 | 265 | 142 | 4 | 13 |
+| 2024–25 | 263 | 134 | 4 | 5 |
+
+Monetary-only outcomes are the largest named category in four of the five
+years; 2021–22 is the exception, when the table shows more reinstatement-plus-
+lost-remuneration outcomes than monetary-only outcomes. The pattern is
+therefore recurring but not uniform. It describes what the Commission ordered
+or recorded at hearing, not what workers ultimately received or experienced.
+
 ## Why it matters for the end-to-end atlas
 
 The benchmark gives the case-level remedy records a useful institutional
-context:
+context. Across five years, formal outcomes repeatedly favor monetary-only
+orders over direct job restoration, while the balance varies by year:
 
 ```text
 unfair-dismissal hearing

@@ -36,7 +36,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Adjudicated unsuccessful alternative search | Fair Work Commission Greaves case | One primary decision records unsuccessful job search, eight weeks of assessed lost income, and an $8,025 plus superannuation compensation order with a payment deadline; the [structured ledger](data/fwc-no-alternative-employment-remedy-event-ledger-v1.json) keeps search effort, unemployment, order, and receipt separate | Payment receipt, later employment, household recovery, trust, recurrence, action, and exit |
 | Adjudicated non-return after workplace mechanism dispute | Fair Work Commission customer-allocation case | One primary decision records 11 job applications, new employment, a stated refusal of reinstatement because of the customer-allocation mechanism, seven weeks and five days out of work, and a $4,312 compensation order; the [structured ledger](data/fwc-alternative-employment-nonreturn-remedy-event-ledger-v1.json) keeps non-return meaning/action distinct from standardized trust and receipt | Payment receipt, job duration, standardized trust, household recovery, recurrence, switching, and exit |
 | Adjudicated post-dismissal client action | Fair Work Commission McGennan appeal | One primary appeal records alternative surf-shop earnings, client redirection to an aunt's salon, relationship breakdown, and a two-instalment $6,554.33 compensation order; the [structured ledger](data/fwc-alternative-work-client-redirection-remedy-event-ledger-v1.json) keeps action, alternative income, staged remedy, and receipt separate | Instalment receipt, later work, household recovery, standardized trust, recurrence, switching, and exit |
-| Formal hearing-outcome benchmark | Fair Work Commission 2024–25 unfair-dismissal hearings | The Commission reports 263 hearing outcomes, including 134 monetary-only remedies, 4 reinstatement-only outcomes, and 5 reinstatement-plus-lost-remuneration outcomes; the [bounded benchmark](fwc-unfair-dismissal-hearing-outcomes-2024-25-record-v1.md) keeps formal result separate from receipt and recovery | Worker-level denominator, payment, accepted/durable reinstatement, household recovery, trust, recurrence, and exit |
+| Formal hearing-outcome benchmark | Fair Work Commission 2020–21 to 2024–25 unfair-dismissal hearings | The Commission reports five years of hearing outcomes; monetary-only remedies are the largest named category in four years, while reinstatement-only plus reinstatement-with-lost-remuneration ranges from 5 to 21 cases per year; the [bounded benchmark](fwc-unfair-dismissal-hearing-outcomes-2024-25-record-v1.md) keeps formal result separate from receipt and recovery | Worker-level denominator, payment, accepted/durable reinstatement, household recovery, trust, recurrence, and exit |
 | Adjudicated alternative employment with compensation in lieu of reinstatement | Fair Work Commission Westrip case | One primary decision records dismissal of a mechanic, five weeks to alternative employment at slightly higher pay, no income during the assessed three-week notice-period loss, and a $3,744 compensation order; the [structured ledger](data/fwc-westrip-alternative-employment-compensation-event-ledger-v1.json) keeps alternative work, non-return, income gap, order, and receipt separate | Payment receipt, job duration, household recovery, durable trust, recurrence, switching, and exit |
 | Adjudicated alternative employment affecting remedy calculation | Fair Work Commission McKerrow case example | Official FWC summary reports new employment at $1,882.69 gross per fortnight plus $169.44 superannuation, a 21-day order-to-receipt window, and deductions of $2,824 wages plus $254.16 superannuation from compensation; the [bounded case record](fwc-mckerrow-alternative-employment-compensation-record-v1.md) keeps calculation separate from receipt | Job equivalence/duration, payment receipt, residual loss, household recovery, durable trust, recurrence, switching, and exit |
 | Adjudicated substitute earnings during platform deactivation | Fair Work Commission Mansoor case | One primary decision records $9,000 in Baysec earnings, an estimated $1,760 increase in Didi earnings, reactivation on prior terms, and a $6,073.23 gross lost-pay order; the [structured ledger](data/uber-mansoor-alternative-earnings-lost-pay-event-ledger-v1.json) keeps substitute-work equivalence, order, receipt, and access separate | Payment receipt, actual access, alternative equivalence, durable work, household recovery, trust, recurrence, switching, and exit |
@@ -144,14 +144,13 @@ silent on job equivalence, search cost, payment receipt, and household
 recovery. It is therefore a calculation-stage comparator, not evidence that
 the worker was made whole.
 
-The Commission's 2024–25 hearing table supplies a broader denominator for the
-institutional stage: monetary-only outcomes were recorded 134 times, while
-reinstatement appeared in 9 outcomes when reinstatement-only and
-reinstatement-plus-lost-remuneration are combined. This does not mean money is
-the wrong remedy or that reinstatement would have worked. It does mean the
-case-level atlas should keep compensation, access restoration, and durable
-workplace correction as separate remedy currencies rather than calling all of
-them “resolution.”
+The Commission's five-year hearing table supplies a broader denominator for
+the institutional stage: monetary-only outcomes are the largest named
+category in four of the five years, while any reinstatement outcome ranges
+from 5 to 21 cases per year. This does not mean money is the wrong remedy or
+that reinstatement would have worked. It does mean the case-level atlas should
+keep compensation, access restoration, and durable workplace correction as
+separate remedy currencies rather than calling all of them “resolution.”
 
 The Meadley case closes a different remedy clock. The official FWC account
 reports payment of the compensation award but failure to reinstate the worker;
