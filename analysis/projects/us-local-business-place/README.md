@@ -136,6 +136,12 @@ FTE cannot be treated as county provider capacity: most Ohio designated rows
 are census-tract or population-oriented components, with overlapping objects
 and incomplete FTE.
 
+The [Ohio option-stack synthesis](bds-ohio-option-stack-synthesis-v1.md)
+consolidates the four layers into an explicit arrow ledger. It marks employer
+flow, mobility context, modeled burden, and institutional designation as
+separate observed/estimated stages and leaves provider reach, completed use,
+recovery, trust, and action open.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
 joins realized county-sector flows to the current primary-care shortage
 designation surface. It demonstrates that health-sector employer growth and

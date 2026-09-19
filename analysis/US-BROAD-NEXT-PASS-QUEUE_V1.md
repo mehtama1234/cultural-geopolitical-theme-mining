@@ -3491,6 +3491,14 @@ provider reach, appointment use, travel, remedy, recovery, trust, or action.
 The next decisive step remains a provider/site and travel-time surface with a
 defined population or a dated care-use record.
 
+The [Ohio option-stack synthesis](projects/us-local-business-place/bds-ohio-option-stack-synthesis-v1.md)
+consolidates the completed place lane into an arrow ledger. It preserves the
+measured chain from county-sector flow and mobility context through modeled
+burden and formal designation, while explicitly leaving reachable alternatives,
+completed use, household consequence, recovery, trust, and action open. This
+lane has reached a useful boundary; rotate to another theme unless a genuine
+provider/travel/use record becomes available.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
 now joins the county-sector realization stage to an institutional service
 shortage surface. Across selected sectors, HPSA-represented and other counties
