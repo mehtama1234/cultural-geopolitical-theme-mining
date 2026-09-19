@@ -30,6 +30,13 @@ direct page retrieval hashed to
 `sha256:76cc131fbdd435ecdabd7102f0a5475fc6dada1be30bc81c7434f249f1a2e7ca`.
 This extends the dated non-observation; it does not establish non-delivery.
 
+A June 2026 Polish government report on the Ramstein Flag exercise adds a
+useful counterexample: Polish F-16s flew alongside allied aircraft and the
+report describes readiness and interoperability, but it does not identify
+JASSM-ER carriage, inventory, weapons integration, acceptance, or a missile
+delivery. Aircraft participation is therefore not a proxy for realization of
+the separate missile order.
+
 ```text
 US-approved/contracted capability
   -> Polish procurement agreement
@@ -44,6 +51,7 @@ with SHA-256
 `5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6`.
 The official [Polish Ministry page](https://www.gov.pl/web/obrona-narodowa/jassm-er)
 and [December 2024 modernization briefing](https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet)
+and [June 2026 Ramstein Flag exercise report](https://www.gov.pl/web/suomi/puolan-ilmavoimat-ramstein-flag-2026-harjoituksessa2)
 and [DSCA possible-sale notice](https://www.dsca.mil/sites/default/files/mas/Press%20Release%20-%20Poland%2024-33%20CN.pdf)
 remain separate sources: a possible-sale approval, a signed agreement, a
 delivery schedule, and a completed delivery are different stages.
