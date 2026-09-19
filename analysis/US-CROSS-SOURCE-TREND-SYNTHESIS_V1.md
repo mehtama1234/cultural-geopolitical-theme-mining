@@ -1,6 +1,6 @@
 # US cross-source trend synthesis v1
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 **Status:** living cross-source synthesis; no single causal chain claimed  
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
@@ -127,6 +127,15 @@ recovery are different currencies. Hardship does not automatically become
 backlash, and continued use does not automatically mean satisfaction. The
 next decisive evidence must measure the person's perceived control, reason for
 the choice, institutional response, and later outcome in the same episode.
+
+The case-level audit sharpens the boundary further: no retained episode has
+both a clearly observed alternative/non-use choice and recipient-level remedy
+receipt. Meadley comes closest on an official reported payment, but the
+worker's alternative is not recorded. Platform cases add reactivation,
+substitute earnings, or post-restoration work, but separate lost-pay receipt,
+durability, and later recovery remain open. This is why the atlas treats
+formal remedy, implementation, receipt, and durable recovery as separate
+clocks rather than one “resolved” outcome.
 
 The latest SHED additions make the optionality pattern legible across three
 everyday institutions. Banking access shows that formal entry can coexist with
