@@ -73,6 +73,10 @@ respondent file is locally retained. This strengthens the acquisition design
 but does not replace the narrower Older Ages event-first file or create an
 estimate. The [machine recheck](projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json)
 records the current route, missingness/weight boundary, and stop conditions.
+The current UAS terms also restrict automated access/extraction and LLM
+management or analysis of CESR-distributed data without express written
+authorization, so this remains an acquisition specification rather than an
+authorized processing route.
 
 The new [MEPS institutional-friction follow-up finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-011.md)
 adds a bounded round-to-round screen while those acquisition gates remain open:

@@ -10,6 +10,12 @@
       "download_access": "registration_required"
     },
     {
+      "url": "https://uasdata.usc.edu/index.php?pid=Terms+and+conditions&type=3",
+      "role": "official_terms_and_conditions",
+      "result": "The current public terms restrict automated access, collection, copying, scraping, or extraction and state that large language models may not manage, process, or analyze data distributed by CESR without express written authorization.",
+      "download_access": "registration_required_and_terms_limited"
+    },
+    {
       "url": "https://uasdata.usc.edu/index.php?pid=Types+Of+Data&type=3",
       "role": "official_data_access_and_missingness_page",
       "result": "Non-registered users may inspect survey variables but cannot view or download respondent data; registered-user files include completed-survey weights and documented UAS missing-value codes.",
@@ -43,5 +49,5 @@
       "stop if remedy, trust, action, or recovery fields are absent"
     ]
   },
-  "evidence_boundary": "The live official documentation advances acquisition readiness and confirms a current panel product, but no respondent-level estimate, event overlap, remedy receipt, trust, action, or recovery result is promoted."
+  "evidence_boundary": "The live official documentation advances acquisition readiness and confirms a current panel product, but no respondent-level estimate, event overlap, remedy receipt, trust, action, or recovery result is promoted. Public terms also do not authorize automated or LLM handling/analysis of distributed UAS data; any future use requires explicit authorized access and a compliant human-led workflow."
 }

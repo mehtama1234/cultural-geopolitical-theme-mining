@@ -1,7 +1,7 @@
 # UAS health-cost episode and legitimacy acquisition audit v1
 
 **Checked:** 2026-09-18
-**Status:** official documentation route verified; registration-gated microdata not yet acquired; no estimate promoted
+**Status:** official documentation route verified; registration-gated microdata not acquired; public terms restrict automated/LLM handling; no estimate promoted
 
 ## Why this is the next acquisition
 
@@ -124,7 +124,12 @@ for harmonized person-wave structure and the broader Monthly Panel or UAS 537/
 698 should be added only after the event and outcome fields pass.
 
 The current route and field/access observations are stored in the
-[machine-readable UAS access recheck](data/uas-access-recheck-2026-09-18.json).
+[machine-readable UAS access recheck](data/uas-access-recheck-2026-09-18.json). The
+current [UAS terms and conditions](https://uasdata.usc.edu/index.php?pid=Terms+and+conditions&type=3)
+also restrict automated access or extraction and state that LLMs may not manage,
+process, or analyze CESR-distributed data without express written authorization.
+The route is therefore an acquisition specification, not permission to retrieve
+or process respondent files in this workflow.
 
 ### Public Older Ages codebook recheck — 2026-09-18
 
