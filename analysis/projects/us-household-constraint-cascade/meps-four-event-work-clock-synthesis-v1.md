@@ -39,6 +39,32 @@ Each cell is **event-window / comparison**. The event and comparison
 denominators differ by outcome because only valid records enter each estimate;
 the source outputs retain BRR standard errors and field-specific valid counts.
 
+## Payment and burden context on the same event-window design
+
+The companion dated-event screen uses the same inter-round event-window rule
+and supplies a separate payment/burden context. Its payment is a weighted
+self/family event-payment mean, not the amount owed or a household obligation.
+
+| Event family | Event-window people in payment screen | Mean self/family payment | Cost-related care delay | Medical bill problem | Medical debt | Collector contact |
+|---|---:|---:|---:|---:|---:|---:|
+| Prescription | 1,773 | $12.76 | 8.09% / 6.45% | 8.82% / 7.48% | 19.45% / 15.17% | 15.03% / 13.08% |
+| Office | 3,216 | $66.87 | 6.41% / 6.64% | 8.01% / 7.52% | 16.17% / 15.45% | 13.08% / 13.30% |
+| Emergency room | 1,101 | $155.52 | 9.59% / 6.44% | 15.14% / 7.19% | 24.12% / 15.10% | 19.75% / 12.90% |
+| Inpatient | 545 | $733.03 | 6.82% / 6.60% | 11.13% / 7.52% | 16.61% / 15.55% | 14.42% / 13.23% |
+
+Each paired percentage is event-window / complementary round-valid. The
+payment and burden table has a larger event-window universe than the R5/3 work
+table because later-round validity and each outcome's nonmissingness reduce
+the usable records. It is aligned context, not a claim that every person in
+the payment table appears in the later work estimates.
+
+The useful pattern is not simply “higher payment, worse work.” Inpatient
+events have the largest payment mean and the highest later nonemployment, but
+prescription events have the lowest payment mean while showing elevated debt,
+collector contact, and later work-status movement relative to their comparison
+group. Payment amount alone is not a burden, and a lower event payment does
+not imply a lower household constraint.
+
 ## What the comparison shows
 
 1. **Event severity or route matters.** Acute ER and inpatient groups begin
@@ -61,6 +87,7 @@ the source outputs retain BRR standard errors and field-specific valid counts.
 
 | Arrow | Status | Safe conclusion | Missing link |
 |---|---|---|---|
+| Dated event → payment/burden context | Same-person descriptive | Event-family payment and care/bill/debt context can be aligned before later work screens | Amount owed, due date, balance, household payer, and event-specific obligation |
 | Dated event → R4/2 work-status level | Same-person descriptive | Event families show different contemporaneous nonemployment surfaces | Intended need, baseline job, severity, coverage, and event-specific burden |
 | R4/2 → R5/3 work-status level | Same-person ordered | Later levels and direction screens are measurable | Job start/end, hours, earnings, schedule, and reason for change |
 | Nonemployment → resolution/onset | Same-person descriptive | Movement differs by event family; prescription and acute events show mixed directions | Whether movement is desirable, adequate, voluntary, or event-related |
