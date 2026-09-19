@@ -267,6 +267,14 @@ These are real bridges, but each closes only part of the full chain:
   that some money reached consumers; they do not establish a recovery rate or
   that the remedy restored the time, trust, or choice lost in the subscription
   episode.
+- **Payment and continued platform participation are different endpoints:** the
+  Amazon Flex tip-refund program reports more than $60.6 million distributed,
+  130,952 drivers fully compensated, and participation rising from 90.3% to
+  92.3% after a Zelle reissue route. Those are aggregate administrator and
+  program measures, not driver-level receipt, remaining loss, free continued
+  work, bargaining power, trust, switching, or exit. Higher participation can
+  reflect dependence, payment reach, or ordinary platform use—not restored
+  power.
 - **SIPP SNAP:** adjacent-month transitions show that benefit exit is not
   automatically improvement: 76.2% of observed exits had a lower next-month
   income-to-poverty ratio, and only about half of transitions had a classified

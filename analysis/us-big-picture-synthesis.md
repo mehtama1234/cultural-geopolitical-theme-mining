@@ -292,6 +292,12 @@ durability, trust, and exit are still unobserved. This is why the atlas keeps
 formal remedy, implementation, receipt, restoration, and recovery as separate
 stages.
 
+The Amazon Flex refund record adds the same distinction at program scale:
+aggregate distribution and a reported rise in participation after a Zelle
+reissue route do not reveal driver-level receipt, remaining loss, bargaining
+power, trust, switching, or exit. Continued participation can reflect
+dependence or payment reach rather than restored practical power.
+
 Product-safety evidence adds a second remedy boundary: a CPSC Sauna360 recall
 expansion reports that an earlier free repair was ineffective, requiring owners
 to stop using the product and receive a new professional repair. A remedy can
