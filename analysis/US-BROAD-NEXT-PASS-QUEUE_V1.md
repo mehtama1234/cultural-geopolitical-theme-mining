@@ -3362,8 +3362,10 @@ The [named redress-route recheck](projects/us-customer-automation-recourse/cfpb-
 also refreshes three formal remedy comparators: BrightSpeed still reports an
 ongoing aggregate distribution, Navient reports checks and an unchanged
 underlying loan obligation, and ADSS records two completed distributions with
-the matter closed. This adds current compensation-versus-restoration and
-closed-distribution boundaries, not recipient-level recovery results.
+the matter closed. The [structured named-redress ledger](projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json)
+now makes those three distribution states machine-readable. This adds current
+compensation-versus-restoration and closed-distribution boundaries, not
+recipient-level recovery results.
 
 **BDS release-availability recheck — 2026-09-18:** the official Census
 [time-series index](https://www2.census.gov/programs-surveys/bds/tables/time-series/)

@@ -1830,11 +1830,11 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 18 schema-valid ledgers totaling 183 events and 67 arrows;
+now inventories 19 schema-valid ledgers totaling 186 events and 70 arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The
 [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json)
-records 152 observed, 25 reported, and 6 estimated event records, with 26
+records 152 observed, 28 reported, and 6 estimated event records, with 28
 arrows explicitly open. These are portfolio counts, not pooled effects; the
 units and denominators remain heterogeneous.
 
@@ -3061,6 +3061,10 @@ explicitly does not reduce the underlying loans, and ADSS records two completed
 distributions with the matter closed. These sharpen compensation-versus-
 restoration and closed-distribution boundaries without establishing individual
 receipt or recovery.
+The [structured named-redress ledger](projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json)
+now preserves those three distribution states and three typed arrows for the
+indexed portfolio; recipient receipt, account correction, residual loss, trust,
+switching, and exit remain open.
 
 The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
 tested the official February PUF against the April and June files and found no

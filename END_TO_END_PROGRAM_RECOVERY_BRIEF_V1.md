@@ -20,7 +20,7 @@ parity, published links, local links, and whitespace together.
 The atlas currently contains 14 themes, 343 machine-readable records, 1,213
 observations, 103 source packets, 174 connections, 85 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
-event-ledger portfolio contains 18 ledgers, 183 events, and 67 typed arrows;
+event-ledger portfolio contains 19 ledgers, 186 events, and 70 typed arrows;
 the portfolio summary and validator keep those heterogeneous units distinct.
 The publication gate passes all 22 checks, and the worktree is kept clean at
 local commits.
