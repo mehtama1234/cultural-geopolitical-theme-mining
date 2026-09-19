@@ -1209,6 +1209,9 @@ benefits offer, alongside training or policy changes. The public summaries do
 not provide independent receipt instruments, restored employment, monitoring
 results, household recovery, trust, or exit, so the route improves remedy-stage
 coverage without qualifying the same-case gate.
+The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json)
+now preserves those five dated cases and keeps payment, offer, employer
+controls, restored opportunity, and later worker outcomes as separate stages.
 
 **Stage-bottleneck promotion gate (2026-09-18):** across those 18 surfaces,
 15 have an observed dated event/exposure and 15 have an observed institutional

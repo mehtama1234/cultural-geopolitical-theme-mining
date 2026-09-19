@@ -16,15 +16,15 @@
   ],
   "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
   "stage_summary": {
-    "dated_event_or_exposure": {"observed": 15, "partial": 1, "open_or_unknown": 2},
-    "responsible_actor": {"observed": 10, "partial": 6, "open_or_unknown": 2},
-    "alternative_or_nonuse": {"observed": 1, "partial": 5, "open_or_unknown": 12},
-    "effort_money_or_time_tradeoff": {"observed": 1, "partial": 11, "open_or_unknown": 6},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 6, "open_or_unknown": 10},
-    "institutional_or_firm_response": {"observed": 15, "partial": 1, "open_or_unknown": 2},
-    "verified_remedy": {"observed": 1, "partial": 11, "open_or_unknown": 6},
-    "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 16},
-    "recovery_persistence_or_exit": {"observed": 0, "partial": 5, "open_or_unknown": 13}
+    "dated_event_or_exposure": {"observed": 16, "partial": 2, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 11, "partial": 7, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 1, "partial": 6, "open_or_unknown": 13},
+    "effort_money_or_time_tradeoff": {"observed": 1, "partial": 13, "open_or_unknown": 6},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 2, "partial": 7, "open_or_unknown": 11},
+    "institutional_or_firm_response": {"observed": 17, "partial": 1, "open_or_unknown": 2},
+    "verified_remedy": {"observed": 1, "partial": 12, "open_or_unknown": 7},
+    "meaning_trust_or_action": {"observed": 0, "partial": 2, "open_or_unknown": 18},
+    "recovery_persistence_or_exit": {"observed": 0, "partial": 5, "open_or_unknown": 15}
   },
   "sources": [
     {
@@ -332,10 +332,44 @@
         "recovery_persistence_or_exit": "open"
       },
       "boundary": "The recall key joins a dated hazard and replacement notice to a later firm-reported correction snapshot, but purchaser exposure, notice receipt, replacement receipt, safe restoration, residual cost, trust, continued use, switching, and exit are not linked."
+    },
+    {
+      "source": "analysis/projects/us-marketplace-product-safety/data/honda-talon-repair-event-ledger-v1.json",
+      "unit": "single_product_recall_key",
+      "records": 2,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_recall_notice",
+        "responsible_actor": "observed_named_manufacturer_and_dealer_route",
+        "alternative_or_nonuse": "partial_stop_use_and_dealer_repair_instruction",
+        "effort_money_or_time_tradeoff": "partial_scheduling_transport_and_downtime_burden",
+        "adaptation_or_protected_sacrificed_outcome": "partial_offered_safety_protection_without_verified_mobility_restoration",
+        "institutional_or_firm_response": "observed_recall_and_progress_reporting",
+        "verified_remedy": "partial_firm_reported_correction_count",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The recall key joins a dated vehicle hazard, direct-contact claim, free dealer-repair route, and later correction snapshot; purchaser notice, repair receipt, downtime, safe mobility, residual cost, trust, switching, and exit are not linked."
+    },
+    {
+      "source": "analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json",
+      "unit": "credit_card_public_event_rows",
+      "records": 25,
+      "stage_status": {
+        "dated_event_or_exposure": "partial",
+        "responsible_actor": "partial",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial",
+        "adaptation_or_protected_sacrificed_outcome": "open",
+        "institutional_or_firm_response": "observed_route",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "open"
+      },
+      "boundary": "The current 25-record Credit card response-category sample makes complaint receipt, routing, timely handling, and Closed with monetary relief labels visible, but account exposure, alternatives, issuance, receipt, correction, recovery, trust, switching, and exit are not linked."
     }
   ],
-  "result": "No current local source closes all nine required stages. The new IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, but they do not supply alternatives, later recovery, trust/action, or exit. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, and VRURC recall implementation records, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
-  "next_test": "Select one lawful consumer, public-system, household, or health episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. The new IER cases show that payment can be observed; promotion still requires the missing same-episode alternative and later outcome fields.",
+  "result": "No current local source closes all nine required stages. The new IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, but they do not supply alternatives, later recovery, trust/action, or exit. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "next_test": "Select one lawful consumer, public-system, household, health, or workplace episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. The IER cases show that agency-reported individual payment can be observed; promotion still requires the missing same-episode alternative and later outcome fields.",
   "promotion_gate": {
     "qualifies": false,
     "alternative_or_nonuse_observed_surfaces": 1,
@@ -343,5 +377,5 @@
     "rule": "A new end-to-end finding may be promoted only when the same retained episode source, or an explicitly linked episode key, observes both an episode-level alternative or non-use outcome and verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
     "failure_reason": "The IER source now observes agency-reported individual payments but has no episode-level alternative or non-use field and no later recovery, trust/action, or exit; the separate alternative surface is not joinable to these cases."
   },
-  "storage_boundary": "Uses seventeen committed local records; raw 1,000-row parent-product responses remain outside Git and only the 48- and 49-row de-identified filtered ledgers are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses twenty committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
 }

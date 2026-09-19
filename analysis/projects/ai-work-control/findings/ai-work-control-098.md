@@ -87,6 +87,7 @@ the cases remain remedy-stage comparators rather than end-to-end episodes.
 
 - [DOJ IER FY2026 letters of resolution](https://www.justice.gov/crt/ier-letters-resolutions-fy-2026)
 - [Machine-readable trend record](../../../records/us-doj-ier-individual-remedy-followups-2026.json)
+- [Structured IER remedy event ledger](../data/ier-individual-employment-remedy-event-ledger-v1.json)
 - [Broad same-case availability audit](../../../broad-same-case-episode-availability-audit-v1.md)
 
 **Storage boundary:** one official DOJ summary page was retrieved and hashed;

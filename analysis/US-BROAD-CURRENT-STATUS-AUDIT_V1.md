@@ -1944,6 +1944,10 @@ are different remedy clocks, and none establishes restored opportunity or
 household recovery. This is a
 program-wide measurement boundary, not evidence that those outcomes did not
 occur.
+The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json)
+now makes the five dated case summaries machine-readable while preserving the
+distinction between agency-reported payment, a back-pay offer, and worker-level
+receipt or restored employment.
 
 The [Citibank servicing-remedy record](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json)
 adds a named financial-interface mechanism to the same-case map: account and

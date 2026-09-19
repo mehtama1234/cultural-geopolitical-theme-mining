@@ -35,6 +35,7 @@ separate.
 | OpenAI/Statsig PERM settlement (6 recruitment items) | Named recruitment-channel burden, claimant-identification route, potential back-pay, access-restoration controls, oversight | Applicant-level exposure, alternatives/effort, payment receipt, restored opportunity, durable compliance, trust/action, household recovery, exit |
 | Apple PERM implementation (1 settlement event) | Named recruitment-channel burden, individualized lost-income review, $18.25m back-pay processing/exhaustion, access-control requirements | Individual payment distribution/timing, restored opportunity, post-monitoring compliance, worker voice, trust/action, household recovery, exit |
 | IER individual remedy follow-ups (5 resolution summaries) | Four agency-reported individual paid-remedy cases, one back-pay offer, and employer training/policy controls | Employer and worker identities, alternatives, payment instruments, restored work, durable compliance, household recovery, trust/action, exit |
+| IER individual-remedy event ledger (5 events) | Machine-readable case-level dates, reported individual payments/offers, and employer controls | Episode-level alternatives, independent receipt confirmation, restored work, durable compliance, household recovery, trust/action, exit |
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
@@ -44,25 +45,27 @@ separate.
 | Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, complaint-level payment-timing/service-risk consequences, order-stage controls | Person-level payment success, bill status or service continuity, remedy receipt, trust, switching/exit |
 | Grubhub multisided remedy program (1 reported program) | Aggregate checks/PayPal payments and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit |
 | VRURC portable-charger recall bridge (1 recall key) | Dated hazard notice, replacement instruction, later recall-level correction snapshot | Purchaser exposure, notice/replacement receipt, safe restoration, residual cost, trust, switching/exit |
+| Honda Talon repair ledger (1 recall key) | Dated vehicle hazard, direct-contact claim, dealer-repair route, later correction snapshot | Purchaser exposure, repair receipt, downtime, safe mobility, residual cost, trust, switching/exit |
+| CFPB credit-card monetary-relief ledger (25 cases) | Complaint receipt, routing, timely handling, and monetary-relief response label | Account exposure, alternatives, issuance/receipt, correction, remaining loss, trust, switching/exit |
 
 ## Stage-level coverage count
 
-The 18 surfaces can also be summarized without pooling their units. A status is
+The 20 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 15 | 1 | 2 |
-| Responsible actor | 10 | 6 | 2 |
-| Alternative or non-use | 1 | 5 | 12 |
-| Effort, money, or time trade-off | 1 | 11 | 6 |
-| Adaptation or protected/sacrificed outcome | 2 | 6 | 10 |
-| Institutional or firm response | 15 | 1 | 2 |
-| Verified remedy | 1 | 11 | 6 |
-| Meaning, trust, or action | 0 | 2 | 16 |
-| Recovery, persistence, or exit | 0 | 5 | 13 |
+| Dated event or exposure | 16 | 2 | 2 |
+| Responsible actor | 11 | 7 | 2 |
+| Alternative or non-use | 1 | 6 | 13 |
+| Effort, money, or time trade-off | 1 | 13 | 6 |
+| Adaptation or protected/sacrificed outcome | 2 | 7 | 11 |
+| Institutional or firm response | 17 | 1 | 2 |
+| Verified remedy | 1 | 12 | 7 |
+| Meaning, trust, or action | 0 | 2 | 18 |
+| Recovery, persistence, or exit | 0 | 5 | 15 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -113,4 +116,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses seventeen committed local records and downloads nothing.
+The audit uses twenty committed local source surfaces and downloads nothing.

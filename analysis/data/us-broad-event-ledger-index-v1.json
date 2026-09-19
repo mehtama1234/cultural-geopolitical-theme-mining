@@ -62,6 +62,11 @@
       "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json",
       "domain": "consumer_financial_recourse",
       "role": "current credit-card monetary-relief response-category route sample"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "agency-reported individual payment and offer with employer control response"
     }
   ]
 }
