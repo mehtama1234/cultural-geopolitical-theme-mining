@@ -2174,13 +2174,19 @@ health, financial, employment, and wellbeing content. It remains
 registration-gated, so the Older Ages event-first file is still the smallest
 authorized acquisition target and no UAS estimate is promoted.
 
-The program therefore resumes from a clean control state: 14 themes, 337
-machine-readable records, 1,203 observations, 103 source packets, and a
+The program therefore resumes from a clean control state: 14 themes, 343
+machine-readable records, 1,213 observations, 103 source packets, and a
 published site whose link-validated count is refreshed by the build. The next
 research action is still the authorized same-case route test through event,
 alternative, effort/payment, response, remedy/recovery, trust/meaning, action,
 and exit; broad rotation continues while those credentials or files are not
 available.
+
+The [structured Virginia large-load governance ledger](projects/ai-work-control/virginia-large-load-governance-event-ledger-v1.json)
+now preserves five event records and three typed arrows in the broad
+event-ledger index. It makes the operational-stress-to-state-response path
+machine-readable while leaving projected residential allocation, observed
+household harm, legitimacy, and geopolitical leverage explicitly open.
 
 The [targeted CFPB credit-card monetary-relief recheck](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
 adds a current response-category-conditioned administrative surface: 25
