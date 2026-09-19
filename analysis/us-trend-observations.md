@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-341 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+342 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -389,6 +389,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Consumer safety moves through injury surveillance, recalls, import screening, and platform removal | cost, voice, time | consumer_power_recourse, firm_sector_market_power, public_systems_feedback, unequal_exposure_status, infrastructure_technology_dependency, geopolitical_state_consequences | US Consumer Product Safety Commission FY2024 Annual Performance Report and public safety-data system descriptions | United States; federal consumer-product safety, import, e-commerce, recall, and hospital emergency-room surveillance system | 6 | Fiscal 2024; negotiated and implemented voluntary recalls; Fiscal 2024; regulatory notices and e-commerce takedowns; Fiscal 2024; recall response-rate performance measure; Fiscal 2024; import surveillance; Current CPSC data architecture; 2024–2025 treatment-year availability; Fiscal 2025; recall response-rate performance measure | reported | [open](records/us-cpsc-consumer-safety-recalls-import-surveillance-fy2024.json) |
 
 **Boundary:** CPSC adds a consumer-safety institutional layer linking hazard detection, recalls, import screening, e-commerce takedowns, and injury surveillance. It does not establish product exposure, recall awareness, remedy receipt, injury prevention, firm liability, household cost, trust, or political response for the same consumer.
+
+| A recall key links a safety notice to reported repair progress while exposure and consumer restoration remain unresolved | cost, voice, time | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC recall API notice and Monthly Progress Report row joined by recall key 23-090 | United States product market | 3 | 2023-01-12 recall notice; Honda Talon 1000 recreational off-highway vehicles; 2026-08-21 MPR snapshot; recall key 23-090; 2023 notice versus 2026-08-21 MPR denominator reconciliation | observed; open; reported | [open](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json) |
+
+**Boundary:** This is a product-level implementation bridge, not a consumer-level recovery estimate. It does not establish purchaser exposure, notice receipt, completed repair, safe restoration, residual cost, trust, switching, or exit; the API and MPR denominators differ.
 
 | A recall key links a dated hazard notice to reported correction progress without proving consumer recovery | cost, voice | consumer_power_recourse, household_room_consumption, public_systems_feedback, firm_sector_market_power, unequal_exposure_status, trust_identity_meaning | CPSC recall API notice and Monthly Progress Report row joined by recall key 23-238 | United States product market | 3 | 2023-07-06 recall notice; VRURC OD-B7 portable chargers; MPR snapshot current to 2026-08-21; recall key 23-238; 2023 notice versus 2026-08-21 MPR denominator reconciliation | observed; open; reported | [open](records/us-cpsc-vrurc-recall-implementation-2023-2026.json) |
 

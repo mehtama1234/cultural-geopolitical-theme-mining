@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cpsc-honda-talon-recall-implementation-2023-2026",
+  "title": "A recall key links a safety notice to reported repair progress while exposure and consumer restoration remain unresolved",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "CPSC recall API notice and Monthly Progress Report row joined by recall key 23-090",
+  "geography": "United States product market",
+  "observations": [
+    {
+      "period": "2023-01-12 recall notice; Honda Talon 1000 recreational off-highway vehicles",
+      "denominator": {"value": 34000, "unit": "approximately units described in the official notice; not unique purchasers", "value_type": "product_units_approximate"},
+      "measures": {"reported_incident_reports": {"value": 18, "unit": "firm-reported incident reports", "value_type": "reported_event_count"}, "reported_crash_with_minor_injuries": {"value": 1, "unit": "reported crash with minor occupant injuries", "value_type": "reported_injury_signal"}, "repair_remedy_offered": {"value": 1, "unit": "free dealer inspection and repair route", "value_type": "remedy_offered_indicator"}, "known_purchaser_contact_claimed": {"value": 1, "unit": "manufacturer states it is contacting all known purchasers", "value_type": "reported_process"}},
+      "method": "Read the official CPSC recall API record for recall key 23090/23-090 and retain date, product scale, hazard, incident signal, remedy, and contact language.",
+      "uncertainty": "The notice count is approximate product scale, not exposed households or purchaser risk; incident reports are not an incidence estimate and direct-contact language is not proof of notice receipt.",
+      "subgroup": "Honda Talon 1000 ROVs sold through authorized Honda Powersports dealers from March 2019 through September 2022.",
+      "counterinterpretation": "A recall notice and offered repair do not establish that every listed unit was used, defective under the same conditions, noticed, repaired, or safely restored.",
+      "source_url": "https://www.saferproducts.gov/RestWebServices/Recall?RecallNumber=23090&format=json",
+      "retrieval_hash": "api_response:sha256:35ebf0f85afdf622c5fe9b6a9a3b0070148fd57c81ec001dab19291638bae75d",
+      "status": "observed"
+    },
+    {
+      "period": "2026-08-21 MPR snapshot; recall key 23-090",
+      "denominator": {"value": 2047, "unit": "products recalled in the MPR row; not reconciled to the API notice scale", "value_type": "reported_product_denominator"},
+      "measures": {"consumer_corrected": {"value": 790, "unit": "firm-reported cumulative products corrected at consumer level", "value_type": "reported_correction_count"}, "total_corrected": {"value": 1028, "unit": "firm-reported cumulative total corrections", "value_type": "reported_correction_count"}, "consumer_percent_reported": {"value": 44, "unit": "percent reported consumer-level correction; MPR consumer-held denominator", "value_type": "reported_percentage"}, "total_percent_reported": {"value": 50, "unit": "percent reported total correction", "value_type": "reported_percentage"}},
+      "method": "Select the MPR row with press-release number 23-090 and preserve manufacturer, distributor, retailer, consumer, total, and percentage fields.",
+      "uncertainty": "MPR fields are firm-reported cumulative progress; the MPR consumer-level percentage uses a consumer-held denominator that can differ from products recalled, and correction is not verified repair receipt or safe restoration.",
+      "subgroup": "Recall-keyed MPR implementation row for Honda Talon 1000 ROVs.",
+      "counterinterpretation": "The reported correction count may represent products rather than unique purchasers, and the MPR denominator may reflect a different scope or reporting population than the API notice.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+      "retrieval_hash": "mpr_snapshot:sha256:6f2816dfbbec05c77af424105da8cbe1ca0da403e7dd576b77692054fd2d9d8d",
+      "status": "reported"
+    },
+    {
+      "period": "2023 notice versus 2026-08-21 MPR denominator reconciliation",
+      "denominator": {"value": 34000, "unit": "API approximate-unit field used only to frame the cross-source mismatch", "value_type": "reconciliation_frame"},
+      "measures": {"mpr_minus_api_approximate_units": {"value": -31953, "unit": "products; 2,047 MPR minus approximately 34,000 API units", "value_type": "denominator_difference"}, "mpr_as_share_of_api_approximate_units": {"value": 6.0, "unit": "percent; arithmetic comparison, not an exposure or completion rate", "value_type": "denominator_difference_share"}},
+      "method": "Compare the two source-reported scale fields while preserving CPSC's note that consumer-level percentages use a consumer-held denominator that can differ from total recalled products.",
+      "uncertainty": "The mismatch may reflect recall expansion, scope, product, reporting-window, or denominator definitions; it cannot be resolved into purchaser exposure, notice reach, repair receipt, or household safety from these compact artifacts.",
+      "subgroup": "Same recall key across official API notice and MPR implementation row.",
+      "counterinterpretation": "The fields may be valid for different operational populations; treating the difference as missing consumers or failed repairs would be unsupported.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/Monthly-Progress-Report-August-Update.xlsx?VersionId=1Qgv.fOIN41XUDGwF8ncAaCNVioWPisK",
+      "retrieval_hash": "reconciliation:sha256:89b3a3f581ce67d3432807871413f693010aa662802dcf98c900094f23d636c7",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/us-marketplace-product-safety/data/cpsc-mpr-bounded-sample-2026-08-21.json", "claim": "Retained MPR schema and recall-key row."}, {"source_url": "analysis/projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md", "claim": "Recall-key implementation boundary and consumer-recovery limits."}],
+  "boundary": "This is a product-level implementation bridge, not a consumer-level recovery estimate. It does not establish purchaser exposure, notice receipt, completed repair, safe restoration, residual cost, trust, switching, or exit; the API and MPR denominators differ.",
+  "reproduction_audit": "analysis/projects/us-marketplace-product-safety/data/cpsc-mpr-bounded-sample-2026-08-21.json"
+}

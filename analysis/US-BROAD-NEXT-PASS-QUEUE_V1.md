@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 341 records and
-1209 observations.
+have exact registered-URL references. The trend registry holds 342 records and
+1212 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -3259,6 +3259,13 @@ visible under one key. The API’s roughly 190,000 units and the MPR’s 256,845
 products recalled do not match, so the bridge advances implementation staging
 but also opens a denominator/version reconciliation task. Receipt, timing,
 safe restoration, and remaining household loss are still missing.
+The [canonical Honda Talon recall record](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json)
+adds a second key-linked counterexample: the official notice reports an
+approximately 34,000-unit hazard, a free dealer repair, and 18 incident
+reports, while the MPR row reports 790 consumer-level corrections and 44% on a
+2,047-product row. The bridge strengthens implementation visibility but keeps
+the denominator mismatch, purchaser notice, repair receipt, safe restoration,
+and residual-cost arrows open.
 The new [detailed VRURC implementation finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-003.md)
 promotes this bridge into the canonical trend registry while preserving the
 same boundary; it does not convert firm-reported correction into consumer

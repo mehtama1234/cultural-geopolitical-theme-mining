@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 341 machine-readable records, 1209 observations,
+The current registry contains 342 machine-readable records, 1212 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -602,6 +602,13 @@ and procedural capacity without a public GrabCar case identifier, award,
 payment, or enforcement outcome. The institutional route is therefore evidence
 of available governance architecture, not evidence of worker uptake, remedy,
 trust, or durable control.
+The [Honda Talon recall record](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json)
+adds a second recall-key implementation bridge: a dated safety notice and free
+repair route are visible, followed by an MPR row reporting 790 consumer-level
+corrections and 44%, but the API's approximately 34,000-unit scale does not
+match the MPR's 2,047-product row. This strengthens the correction-stage map
+without treating firm-reported progress as notice receipt, completed repair, or
+safe household restoration.
 
 The [Kyei merits-dismissal record](records/au-kyei-merits-dismissal-2025.json)
 adds a negative remedy counterexample to the platform lane: process deficiencies
