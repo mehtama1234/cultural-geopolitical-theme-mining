@@ -51,6 +51,13 @@ This advances two separate arrows:
 It does not close either episode's maintenance, replaceability, readiness,
 external bargaining, or geopolitical-leverage outcome.
 
+The Norwegian Armed Forces account goes one step further in language: it says
+that an adversary must account for the system and may have to fly higher, use
+flanking routes, or refrain from flying into Norwegian territory. This is an
+officially stated intended operational effect. It is not an observed adversary
+decision, a measured deterrence effect, or evidence that a particular flight
+was redirected.
+
 ## Arrow ledger
 
 | Arrow | Status | Safe conclusion | Missing evidence |
@@ -93,6 +100,8 @@ as a counterexample.
 - [Canonical Poland–US reciprocity and regional co-production record](../../records/us-poland-us-defense-reciprocity-regional-coproduction-2026.json)
 - [Strategic capability realization cross-case bridge](strategic-capability-realization-cross-case-bridge-v1.md)
 - [Capability and legitimacy clock synthesis](capability-legitimacy-clock-synthesis-v1.md)
+- [Norwegian Armed Forces first live-fire account](https://www.forsvaret.no/aktuelt-og-presse/aktuelt/piorun)
+- [Polish Ministry of National Defence SAFE framework account](https://www.gov.pl/web/obrona-narodowa/kolejne-ppzr-piorun-dla-armii-tym-razem-zakup-z-programu-safe)
 
 No classified material, facility-level production data, complete contracts,
 acceptance files, or operational inventory records are retained. This record
