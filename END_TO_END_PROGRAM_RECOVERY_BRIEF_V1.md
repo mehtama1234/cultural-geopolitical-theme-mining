@@ -15,13 +15,13 @@ Before handing off or starting a new research cycle, run the consolidated
 sync, source coverage, provenance, observation records, finding and watchlist
 parity, published links, local links, and whitespace together.
 
-## Verified current checkpoint — 2026-09-18
+## Verified current checkpoint — 2026-09-19
 
 The atlas currently contains 14 themes, 344 machine-readable records, 1,214
 observations, 103 source packets, 174 connections, 85 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
-event-ledger portfolio contains 34 ledgers, 206 events, and 141 typed arrows,
-including 51 explicitly open arrows; the portfolio summary and validator keep
+event-ledger portfolio contains 35 ledgers, 207 events, and 145 typed arrows,
+including 52 explicitly open arrows; the portfolio summary and validator keep
 those heterogeneous units distinct.
 The publication gate passes all 22 checks, and the worktree is kept clean at
 local commits.

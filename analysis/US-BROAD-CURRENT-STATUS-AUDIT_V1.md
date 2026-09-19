@@ -1,12 +1,12 @@
 # US broad program current-status audit v1
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
 **Current registry state:** 344 machine-readable records, 1214 observations,
 103 source packets, and 14 program themes. The published link-validated site
-currently has 667 link-validated HTML pages; these counts describe coverage and publication, not completion
+currently has 669 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
 
 This is a recovery and decision document. It records what is covered, what has
@@ -1836,12 +1836,12 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 34 schema-valid ledgers totaling 206 events and 141 arrows,
-including 51 explicitly open arrows;
+now inventories 35 schema-valid ledgers totaling 207 events and 145 arrows,
+including 52 explicitly open arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The
 [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json)
-records 158 observed, 42 reported, and 6 estimated event records, with 51
+records 158 observed, 42 reported, and 7 estimated event records, with 52
 arrows explicitly open. These are portfolio counts, not pooled effects; the
 units and denominators remain heterogeneous.
 
