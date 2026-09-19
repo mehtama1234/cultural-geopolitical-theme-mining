@@ -15,6 +15,11 @@ is the current synthesis of the separate evidence layers. It is where the
 program names broad trends, while the matrices remain the control documents for
 units, methods, uncertainty, and missing links.
 
+For the plain-language answer to the full end-to-end goal, see the [US broad
+end-to-end readout](US-BROAD-END-TO-END-READOUT_V1.md). It summarizes all 14
+themes, the strongest same-unit bridges, and the exact middle links still
+needed before a full lived chain can be claimed.
+
 The [broad trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
 sets the common rule for that synthesis: surveys, administrative records,
 firms, markets, media, cultural measures, and international records retain
