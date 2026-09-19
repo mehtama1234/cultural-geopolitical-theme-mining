@@ -41,6 +41,7 @@ ends earlier than lived recovery.
 | Amazon Flex worker refunds | FTC/administrator records show distribution rounds, reissue routes, and aggregate reach, including reported fully compensated drivers | Driver-level receipt, remaining loss, continued or alternative work, bargaining position, durability, and exit |
 | Apple PERM recruitment remedy | DOJ reports required electronic/external recruitment controls, individualized lost-income review, and an exhausted $18.25M back-pay fund | Applicant-level receipt, restored consideration or hiring, monitoring findings, recurrence, household recovery, trust, and exit |
 | Meadley employment enforcement case | Official FWC follow-up reports compensation payment and further court-ordered money after failed reinstatement | Worker-confirmed receipt, restored job, later employment, household recovery, recurrence, trust, and exit |
+| CFPB named redress and reissue routes | BrightSpeed, Navient, and ADSS expose aggregate distribution or check stages; an Ombudsman record exposes recipient-side reissue facilitation | Recipient receipt, account/loan correction, residual loss, durable financial recovery, trust, switching, and exit |
 | IER employment remedies | Agency summaries report individual paid remedies or offers plus employer training/policy changes | Independent receipt, accepted reinstatement, later employment, recurrence, household recovery, trust, and action |
 | Platform access cases | Some cases show review, reactivation, substitute earnings, or ordered lost remuneration | Payment, actual account status, recurrence protection, freely chosen alternatives, worker recovery, and exit |
 
@@ -102,5 +103,7 @@ durability gaps—not convert institutional completion into lived recovery.
 - [Amazon Flex refund record](../../records/us-ftc-amazon-flex-driver-tip-refunds-2026.json)
 - [Apple PERM implementation ledger](../ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 - [Meadley payment/enforcement ledger](../ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
+- [CFPB named redress ledger](data/cfpb-named-redress-route-event-ledger-v1.json)
+- [CFPB Ombudsman reissue ledger](data/cfpb-ombudsman-redress-reissue-event-ledger-v1.json)
 - [IER individual-remedy record](../../records/us-doj-ier-individual-remedy-followups-2026.json)
 - [Platform remedy record](../../records/us-platform-remedy-restoration-dependence-2024-2026.json)
