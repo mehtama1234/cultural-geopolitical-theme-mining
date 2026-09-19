@@ -193,6 +193,14 @@ These are real bridges, but each closes only part of the full chain:
   hospital. This is a direct access-behavior surface, not a vote or generalized
   distrust measure: non-use can protect against perceived risk while also
   sacrificing care, income, safety, or public support.
+- **Belonging has separate currencies:** the migration/place comparison finds
+  that fast-growing counties had lower reported federal trust than the
+  slowest-growth quartile (35.251% versus 41.927%), while state trust, civic
+  action, and reported voting did not move as one bundle. Separately,
+  immigrant-family respondents reported risk-linked non-use of essential
+  routes. Demographic presence, local capacity, institutional judgment, civic
+  action, and safe service use therefore cannot be collapsed into one
+  “integration” measure; these are different units and not a causal chain.
 - **Ohio place panel:** counties with higher zero-vehicle shares have nearly
   the same modeled routine-checkup median (76.95% versus 77.05%) but higher
   transportation insecurity, food insecurity, mental distress, and lack of
