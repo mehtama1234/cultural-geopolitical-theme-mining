@@ -357,6 +357,14 @@ These are real bridges, but each closes only part of the full chain:
   insurance showed the same action gap with near-similar favorable approval.
   Material insecurity, institutional judgment, and political action are
   therefore separate currencies; attribution and remedy remain unknown.
+- **Medical hardship can target contact rather than simply suppress action:**
+  in same-respondent 2018/2020 CES crisis extracts, hardship was associated
+  with official contact at 23.3% versus 21.4% without hardship in 2018, and
+  28.3% versus 17.9% in 2020; exploratory adjusted contact odds ratios were
+  1.69 and 1.80. Turnout, protest, campaign work, and donations did not move
+  the same way across years. This is a descriptive, model-screened bridge:
+  attribution may channel burden into institution-targeted action, but the
+  bill, remedy, effectiveness, trust change, and recovery remain open.
 - **GSS meaning layer:** respondents who were not satisfied with their finances
   reported much lower generalized trust and fairness expectations than those
   who were satisfied. But reported financial direction also aligned with
