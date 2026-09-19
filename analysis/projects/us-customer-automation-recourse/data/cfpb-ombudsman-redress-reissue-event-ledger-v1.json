@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_ombudsman_recipient_side_redress_record",
+  "purpose": "One official illustrative redress-reissue inquiry represented as a bounded case sequence from an expired check through recipient effort and Ombudsman facilitation, with final receipt and recovery open.",
+  "events": [
+    {
+      "event_id": "CFPB-OMB-REDRESS-REISSUE-2025-11-14",
+      "unit": "case",
+      "geography": "United States; anonymized servicemember redress-check inquiry",
+      "actor_initiating_change": "agency",
+      "event_date": "2025-11-14",
+      "date_precision": "FY2025 Ombudsman annual-report publication date; the inquiry's own dates are not disclosed",
+      "denominator": "One illustrative individual inquiry; no population denominator or underlying enforcement-case identifier",
+      "method": "Structured extraction from Figure 6 and accompanying text in the official CFPB Ombudsman FY2025 Annual Report",
+      "missingness": "Underlying case, check amount, issuance date, expiration date, contact dates, administrator, final reissued-check receipt or cashing, residual loss, account correction, trust, action, and exit are not reported",
+      "condition_or_decision": "payment",
+      "exposure": "A redress check expired, creating a need for reissuance even though a formal payment route had existed",
+      "alternatives_before_action": "The inquirer could contact the third-party administrator, seek CFPB/Ombudsman assistance, or remain without a usable payment; feasible alternatives and costs are not reported",
+      "immediate_burden_or_benefit": "The servicemember pursued reissuance and encountered difficulty obtaining the reissued check; time, communication, and financial costs are not reported",
+      "choice_or_response": "The servicemember correctly requested reissuance from the administrator and contacted the Ombudsman; attempt count and timing are not disclosed",
+      "person_or_actor_with_control": "The third-party administrator controlled reissuance execution; the CFPB/Ombudsman controlled an institutional escalation route; downstream recipient control is not observed",
+      "remedy_or_institutional_response": "The Ombudsman connected with relevant CFPB points of contact to facilitate the administrator's reissuance of the check",
+      "immediate_outcome": "Recipient-side payment friction and an agency-facilitated reissuance route are documented",
+      "protected_outcome": "A possible path back to redress access was facilitated; final payment receipt, cashing, and restored security are not observed",
+      "sacrificed_outcome": "Payment access, time, liquidity, and possibly use of the redress funds were delayed or put at risk; amount and duration are unknown",
+      "cost_risk_transfer": "Administrative friction left reissuance effort and interim payment-access risk with the recipient until Ombudsman facilitation",
+      "later_outcome": "No final reissued-check delivery, cashing, residual loss, account correction, trust, switching, or exit endpoint is reported",
+      "meaning_and_attribution": "No recipient-reported fairness, blame, dignity, trust, or institutional-legitimacy judgment is retained",
+      "public_or_collective_response": "An Ombudsman escalation is reported; no organizing or political action is observed",
+      "counterexample": "A documented reissuance intervention can improve the route without proving that the recipient ultimately received or cashed the payment",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official CFPB Ombudsman FY2025 Annual Report, Figure 6, published November 14, 2025; illustrative inquiry with no claimant file or final payment follow-up"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CFPB-OMB-REISSUE-A-01",
+      "from": "redress check expired",
+      "to": "recipient requests reissuance from administrator",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Figure 6 states that a servicemember contacted the Ombudsman in connection with a request to reissue an expired redress check and correctly requested reissuance from the third-party administrator",
+      "status": "reported",
+      "counterexample": "The report does not identify the underlying case, check amount, expiration date, or whether the first check was received or deposited",
+      "remaining_gap": "Stable case identity, dates, amount, first-check receipt, and precise reissuance effort"
+    },
+    {
+      "arrow_id": "CFPB-OMB-REISSUE-A-02",
+      "from": "reissuance request",
+      "to": "administrator friction and Ombudsman contact",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The report states that the servicemember had challenges obtaining a reissued check and contacted the Ombudsman",
+      "status": "reported",
+      "counterexample": "The public example does not disclose the failure mechanism, duration, number of contacts, or direct cost",
+      "remaining_gap": "Attempt history, accessibility, waiting time, and administrator explanation"
+    },
+    {
+      "arrow_id": "CFPB-OMB-REISSUE-A-03",
+      "from": "Ombudsman contact",
+      "to": "facilitated administrator reissuance route",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The report states that the Ombudsman connected with relevant CFPB points of contact to facilitate the third-party administrator's reissuance of the check",
+      "status": "reported",
+      "counterexample": "Facilitation of a reissuance route is not the same as delivery, cashing, or recovery",
+      "remaining_gap": "Reissued-check issuance, delivery, cashing, and resolution date"
+    },
+    {
+      "arrow_id": "CFPB-OMB-REISSUE-A-04",
+      "from": "facilitated reissuance route",
+      "to": "payment receipt, recovery, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The report ends after describing Ombudsman facilitation and provides no recipient-level final payment or downstream outcome",
+      "status": "open",
+      "counterexample": "A successful institutional escalation can coexist with an undelivered, uncased, inadequate, or delayed payment",
+      "remaining_gap": "Final receipt/cashing, amount, residual loss, protected outcome, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger advances a recipient-side redress-reissue and institutional-escalation stage from an official illustrative inquiry. It does not establish final payment receipt, cashing, adequacy, recovery, trust, switching, or exit, and it is not a population estimate.",
+  "storage_boundary": "No recipient file, administrator record, direct identifier, or raw payment data is retained; only the bounded public example and its unresolved stages are represented."
+}
