@@ -94,6 +94,13 @@ These are real bridges, but each closes only part of the full chain:
   income-to-poverty ratio, and only about half of transitions had a classified
   reason. Entry and exit are therefore participation states, not proof of
   adequacy, voluntary choice, or restored security.
+- **Protective non-use:** among 1,036 adults in immigrant families with
+  children, 23% reported avoiding at least one essential activity because of
+  immigration concerns; almost one in five reported going without public
+  benefits for that reason, and 10% reported not visiting a doctor, clinic, or
+  hospital. This is a direct access-behavior surface, not a vote or generalized
+  distrust measure: non-use can protect against perceived risk while also
+  sacrificing care, income, safety, or public support.
 - **Ohio place panel:** counties with higher zero-vehicle shares have nearly
   the same modeled routine-checkup median (76.95% versus 77.05%) but higher
   transportation insecurity, food insecurity, mental distress, and lack of
