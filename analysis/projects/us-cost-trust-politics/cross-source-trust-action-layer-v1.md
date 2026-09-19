@@ -81,6 +81,17 @@ The broad working interpretation is therefore:
 This is a provisional synthesis across source populations, not a measured
 causal model.
 
+The April–June 2025 HTOPS linked panel adds a bounded counterexample to the
+idea that institutional contact or reported recovery automatically restores
+security. Among the retained respondents, retrospective exposure alone was
+not the sharpest separator; reported monetary loss was associated with much
+higher later food and energy strain. The tiny group reporting loss, agency
+contact, and recovery still showed 26.57% food insufficiency, 78.80% inability
+to pay an energy bill, and 26.03% recent household job loss. The 11-person cell
+is too sparse for a subgroup estimate, and recovery is self-reported rather
+than verified. Its value is conceptual: exposure, realized loss, reporting,
+recovery, later security, and trust/action must remain separate stages.
+
 ## Action is an ecology of routes
 
 The consumer and political records support a more precise cultural model than
