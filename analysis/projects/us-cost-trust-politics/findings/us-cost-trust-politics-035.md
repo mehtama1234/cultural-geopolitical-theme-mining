@@ -44,11 +44,17 @@ recovery: recovery is self-reported, may have occurred before the June
 interview, and is not linked to a verified payment, correction, or restored
 household position.
 
-The institutional measures are similarly conditional. In the broad exposure
-group, code-1 shares were 72.43% for trust in federal statistics and 3.93% for
-confidence in Congress; in the loss-and-report group they were 70.20% and
-0.80%, respectively. These are coding screens preserved from the instrument,
-not a generalized trust index or a claim that fraud changed legitimacy.
+The institutional measures are similarly conditional—and they do not move as
+one object. In the broad exposure group, code-1 shares were 72.43% for trust
+in federal statistics and 3.93% for confidence in Congress; in the loss-and-
+report group they were 70.20% and 0.80%, respectively. In the 11-person
+loss/report/recovery cell, the corresponding shares were 65.70% and 0.00%,
+while 90.28% agreed that policymakers need federal statistics for good
+decisions. That last item is confidence in the usefulness of statistical
+evidence, not trust in Congress or proof that an agency repaired the loss.
+The recovery-cell figures are a sparse warning, not a stable estimate. These
+are coding screens preserved from the instrument, not a generalized trust
+index or a claim that fraud changed legitimacy.
 
 ## The counterexample that changes the interpretation
 
@@ -132,6 +138,7 @@ consumer exposure can be linked to later context
   -> realized loss is more informative than exposure alone
   -> reporting is an action attempt, not a remedy
   -> recovery is not restoration unless receipt and durability are observed
+  -> recovery can coexist with household strain and institution-specific judgments
   -> institutional response is not legitimacy change without attribution and prior-to-later measures
 ```
 
