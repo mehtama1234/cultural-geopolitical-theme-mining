@@ -44,6 +44,7 @@ separate.
 | FWC Greaves no-alternative-employment ledger (1 episode) | Primary adjudicated dismissal, unsuccessful job search, assessed eight-week loss, and compensation order | Payment receipt, later employment, household recovery, trust/action, recurrence, exit |
 | FWC customer-allocation non-return ledger (1 episode) | Eleven job applications, new employment, explicit non-return reasoning, assessed loss, and compensation order | Payment receipt, job duration, standardized trust measure, household recovery, recurrence, switching/exit |
 | FWC alternative-work client-redirection ledger (1 episode) | Alternative surf-shop earnings, client redirection, relationship breakdown, and staged compensation order | Instalment receipt, later work, household recovery, standardized trust, recurrence, switching/exit |
+| FWC Meadley enforced-payment ledger (1 episode) | Officially reported compensation payment, failed reinstatement, worker enforcement, and further court relief | Alternative/non-use, later employment, household recovery, durable trust, recurrence, exit |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
@@ -56,22 +57,22 @@ separate.
 
 ## Stage-level coverage count
 
-The 20 surfaces can also be summarized without pooling their units. A status is
+The 27 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 22 | 2 | 2 |
-| Responsible actor | 16 | 8 | 2 |
-| Alternative or non-use | 5 | 7 | 14 |
-| Effort, money, or time trade-off | 5 | 15 | 6 |
-| Adaptation or protected/sacrificed outcome | 6 | 9 | 11 |
-| Institutional or firm response | 23 | 1 | 2 |
-| Verified remedy | 1 | 18 | 7 |
-| Meaning, trust, or action | 0 | 4 | 22 |
-| Recovery, persistence, or exit | 0 | 9 | 17 |
+| Dated event or exposure | 23 | 2 | 2 |
+| Responsible actor | 17 | 8 | 2 |
+| Alternative or non-use | 5 | 7 | 15 |
+| Effort, money, or time trade-off | 5 | 16 | 6 |
+| Adaptation or protected/sacrificed outcome | 6 | 10 | 11 |
+| Institutional or firm response | 24 | 1 | 2 |
+| Verified remedy | 2 | 18 | 7 |
+| Meaning, trust, or action | 0 | 5 | 22 |
+| Recovery, persistence, or exit | 1 | 9 | 17 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can

@@ -4,9 +4,9 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 24,
-    "events": 194,
-    "arrows": 93
+    "ledgers": 25,
+    "events": 195,
+    "arrows": 98
   },
   "events_by_domain": {
     "consumer_financial_recourse": 53,
@@ -14,7 +14,7 @@
     "disaster_public_investment_capacity": 5,
     "disaster_public_system_delivery": 5,
     "disaster_recovery_cross_source": 2,
-    "employment_remedy": 15,
+    "employment_remedy": 16,
     "health_cost_material_time": 3,
     "health_cost_recourse": 97,
     "infrastructure_state_power": 5,
@@ -24,22 +24,22 @@
   },
   "event_evidence_status": {
     "observed": 155,
-    "reported": 33,
+    "reported": 34,
     "estimated": 6
   },
   "arrow_status": {
     "observed": 26,
     "estimated": 5,
-    "open": 36,
-    "reported": 26
+    "open": 37,
+    "reported": 30
   },
   "event_units": {
     "case": 175,
     "institution": 9,
     "product": 4,
     "project": 1,
-    "worker": 5
+    "worker": 6
   },
-  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 28 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
+  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 37 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
   "storage_boundary": "This summary is derived from the committed index and ledgers only; no raw respondent, complaint, payment-card, administrative, or restricted file is added."
 }

@@ -1936,7 +1936,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Twenty-six local source surfaces cover
+health, political, and worker routes. Twenty-seven local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -1979,6 +1979,10 @@ adds alternative surf-shop earnings, post-dismissal client redirection, and
 relationship breakdown alongside a two-instalment $6,554.33 compensation
 order. It strengthens the action comparator while keeping instalment receipt,
 later work, and exit open.
+The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
+adds the first official follow-up that reports a compensation payment while
+also reporting failed reinstatement and later court enforcement. It closes a
+payment-implementation endpoint without closing restoration or recovery.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
