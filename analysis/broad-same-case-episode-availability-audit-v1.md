@@ -1,7 +1,7 @@
 # Broad same-case episode availability audit v1
 
 **Status:** stage-availability audit; no synthetic episode or causal estimate
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 **Machine record:** [same-case episode availability audit](data/broad-same-case-episode-availability-audit-v1.json)
 
 ## Why this audit matters
@@ -37,6 +37,8 @@ separate.
 | IER individual remedy follow-ups (5 resolution summaries) | Four agency-reported individual paid-remedy cases, one back-pay offer, and employer training/policy controls | Employer and worker identities, alternatives, payment instruments, restored work, durable compliance, household recovery, trust/action, exit |
 | IER individual-remedy event ledger (5 events) | Machine-readable case-level dates, reported individual payments/offers, and employer controls | Episode-level alternatives, independent receipt confirmation, restored work, durable compliance, household recovery, trust/action, exit |
 | IER telephone-intervention remedy ledger (4 cases) | Barrier-to-intervention-to-correction sequence, including reported rehire, continued work, and back pay | Worker confirmation, accepted restoration, alternatives, receipt, durable compliance, household recovery, trust/action, exit |
+| IER DACA bilateral remedy (1 case) | Lower-wage rehire, worker complaint, signed agreement, restored wage, back pay, seniority, and complaint withdrawal | Payment instrument/date, durable employment, benefit use, household recovery, trust, recurrence, exit |
+| OSHA Texas asbestos whistleblower case (2 workers) | Safety/environmental voice, retaliatory termination, OSHA finding, reinstatement order, and ordered back wages/damages | Payment, actual safe return, employer compliance, community protection, household recovery, trust, exit |
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | Rehman lost-remuneration ledger (1 episode) | Worker application, voluntary/formal access restoration, no substitute paid earnings to deduct, and gross lost-remuneration order | Alternative availability or choice, payment receipt, net recovery, durable access, trust/action, switching/exit |
@@ -60,22 +62,22 @@ separate.
 
 ## Stage-level coverage count
 
-The 30 surfaces can also be summarized without pooling their units. A status is
+The 32 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 26 | 2 | 2 |
-| Responsible actor | 20 | 8 | 2 |
-| Alternative or non-use | 8 | 7 | 15 |
-| Effort, money, or time trade-off | 7 | 17 | 6 |
-| Adaptation or protected/sacrificed outcome | 9 | 10 | 11 |
-| Institutional or firm response | 27 | 1 | 2 |
-| Verified remedy | 2 | 21 | 7 |
-| Meaning, trust, or action | 0 | 8 | 22 |
-| Recovery, persistence, or exit | 2 | 11 | 17 |
+| Dated event or exposure | 28 | 2 | 2 |
+| Responsible actor | 21 | 9 | 2 |
+| Alternative or non-use | 8 | 7 | 17 |
+| Effort, money, or time trade-off | 7 | 19 | 6 |
+| Adaptation or protected/sacrificed outcome | 10 | 11 | 11 |
+| Institutional or firm response | 29 | 1 | 2 |
+| Verified remedy | 3 | 22 | 7 |
+| Meaning, trust, or action | 1 | 9 | 22 |
+| Recovery, persistence, or exit | 2 | 11 | 19 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -87,8 +89,10 @@ received, or what happened to meaning, recovery, or exit.
 
 No current local source supplies all nine required stages. The IER summaries
 advance the verified-remedy stage with four agency-reported individual
-payments, but do not supply alternatives, later recovery, trust/action, or
-exit. The platform ledger,
+payments, while the DACA bilateral case adds reported wage and seniority
+restoration plus complaint withdrawal, and the OSHA case adds protected safety
+voice, retaliation, and an ordered remedy. None supplies durable recovery,
+trust, recurrence, or exit. The platform ledger,
 the CFPB named redress/distribution records, and the Doxo and Grubhub
 consumer-remedy records,
 the OpenAI/Statsig and Apple recruitment-remedy events, and the Hotak follow-up
@@ -108,7 +112,7 @@ cross-sectional pressure measures.
 
 The machine record now encodes the promotion decision explicitly: `qualifies`
 is `false`, eight retained surfaces observe an alternative or non-use field, and
-two retained surfaces observe verified remedy receipt or a defined outcome
+three retained surfaces observe verified remedy receipt or a defined outcome
 follow-up. A future pass must satisfy both gate fields before a new
 end-to-end finding is promoted.
 
@@ -126,4 +130,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses twenty-six committed local source surfaces and downloads nothing.
+The audit uses thirty-two committed local source surfaces and downloads nothing.
