@@ -328,6 +328,15 @@ These are real bridges, but each closes only part of the full chain:
   these are not interchangeable evidence of compute service, accepted weapon
   inventory, readiness, or geopolitical response. Capacity and dependence can
   rise together.
+- **Geopolitical legitimacy is a separate currency:** Pew's 2026 survey of
+  42,151 adults in 36 countries found a median 35% saying the US contributes
+  to global peace and stability, versus 57% of US adults; inside the US, the
+  comparable partisan figures were 82% among Republicans and 35% among
+  Democrats. Meanwhile, 83% of Americans across parties said the US interferes
+  in other countries' affairs at least a fair amount. Capability, foreign
+  reception, domestic identity, and agreement about the role therefore do not
+  move as one bundle; the survey does not show changed alliance behavior,
+  trade, aid acceptance, or another state's choice.
 - **CHIPS implementation:** GAO reports about $50 billion in semiconductor
   programs, 49 projects across 24 companies, and $13.1 billion disbursed by
   April 2026—about 42% of direct awards—alongside 24 completed milestones,
