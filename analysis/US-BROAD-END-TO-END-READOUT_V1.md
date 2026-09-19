@@ -169,6 +169,15 @@ These are real bridges, but each closes only part of the full chain:
   facility becomes socially useful only when its time, price, accessibility,
   information, reliability, and alternatives fit the user; nominal capacity
   is not completed use, protected outcome, or practical exit.
+- **Participation is not welfare or trust:** the consumer synthesis shows that
+  searching, reporting, staying, switching, and non-use are ambiguous social
+  signals. A household may search actively without finding a usable alternative;
+  continued use may reflect dependence; and non-reporting may reflect stigma,
+  futility, lack of awareness, time, transport, or inability to leave. Trust
+  can lower friction while also increasing the data or dependence held by a
+  firm or institution. These behaviors need an episode, effort, alternative,
+  outcome, and later meaning before they can be read as satisfaction, distrust,
+  resistance, or recovery.
 - **Public capacity versus usable help:** states held very different fiscal
   cushions in the 2025 Fiscal 50 comparison, from about 320 operating days in
   Wyoming to zero rainy-day days in New Jersey. That is state operating room,
