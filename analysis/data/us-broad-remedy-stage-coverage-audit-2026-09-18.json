@@ -1,15 +1,15 @@
 {
   "schema": "us-broad-remedy-stage-coverage-audit-v1",
-  "checked": "2026-09-18",
+  "checked": "2026-09-19",
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
-    "ledgers": 34,
-    "events": 206,
+    "ledgers": 35,
+    "events": 207,
     "events_with_explicit_remedy_stage": 32,
-    "events_without_explicit_remedy_stage": 174,
+    "events_without_explicit_remedy_stage": 175,
     "ledgers_with_explicit_remedy_stage": 19,
-    "ledgers_without_explicit_remedy_stage": 15
+    "ledgers_without_explicit_remedy_stage": 16
   },
   "stage_counts": {
     "remedy_offered": 4,
@@ -20,7 +20,7 @@
     "durability_failed": 1,
     "durability_verified": 0,
     "outcome_followup": 0,
-    "unknown_or_not_recorded": 174
+    "unknown_or_not_recorded": 175
   },
   "explicit_stage_rows": [
     {"event_id": "CFPB-BRIGHTSPEED-DISTRIBUTION-2024-07-23", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
@@ -56,6 +56,6 @@
     ,{"event_id": "IER-TEL-2019-02-25-ROMANIA", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2018-04-06-MIAMI", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
   ],
-  "interpretation": "The new vocabulary is calibrated on five ledgers, but it is not yet portfolio-wide. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
+  "interpretation": "The vocabulary is now applied across the 35-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
   "next_action": "Add explicit remedy_stage, remedy_receipt, and durability_followup fields when a ledger is next touched or a new source is promoted; prioritize recipient-level receipt, protected outcome, repeat-harm, and later use/switch/trust follow-up before expanding another generic response ledger."
 }
