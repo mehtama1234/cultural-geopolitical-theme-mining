@@ -211,6 +211,15 @@ These are real bridges, but each closes only part of the full chain:
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or
   changed behavior by another state. Capacity and dependence can rise together.
+- **CHIPS implementation:** GAO reports about $50 billion in semiconductor
+  programs, 49 projects across 24 companies, and $13.1 billion disbursed by
+  April 2026—about 42% of direct awards—alongside 24 completed milestones,
+  125 in progress, and 9 past anticipated dates. Those figures show money,
+  milestones, and governance activity, not accepted output, worker retention,
+  customer delivery, or reduced foreign dependence. Industrial policy becomes
+  strategic capability only after funding reaches qualified production,
+  usable supply, replaceability, and an observed change in another actor's
+  choices.
 - **Critical minerals and strategic autonomy:** USGS import-reliance and
   processing-concentration data, alongside GAO substitution and recycling
   assessments, show why domestic projects are not automatically independence.
