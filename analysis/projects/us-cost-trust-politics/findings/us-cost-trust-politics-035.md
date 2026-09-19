@@ -1,7 +1,7 @@
 # Finding 035: Fraud exposure becomes a household event only when loss is realized
 
 **Status:** exploratory same-respondent follow-up and nonpooled counterexample  
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -95,6 +95,12 @@ The strongest contribution is therefore not a fraud effect estimate. It is a
 measurement rule for consumer and institutional trends: a credible end-to-end
 story must distinguish exposure, realized burden, response attempt, remedy,
 protected outcome, and later judgment.
+
+The same partial chain is now preserved in a [structured broad event ledger](../data/htops-fraud-loss-followup-event-ledger-v1.json).
+It uses a linked respondent-cohort case unit rather than pretending that the
+public-use file supplies a dated individual incident. The ledger makes the
+reported-loss, agency-contact, self-reported-recovery, later-household,
+trust/action, and switching/exit arrows separately auditable.
 
 ## Interpretation limits
 

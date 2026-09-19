@@ -2350,6 +2350,10 @@ verified payment or restored security; and the 11-person recovery subgroup is
 not a stable estimate. The route advances event timing and conversion logic
 while leaving actor, dated incident, alternatives, remedy receipt, durability,
 trust change, switching, and exit open.
+Its partial chain is now also represented in a [structured broad event
+ledger](projects/us-cost-trust-politics/data/htops-fraud-loss-followup-event-ledger-v1.json),
+using a linked respondent-cohort unit and preserving the retrospective and
+self-reported-recovery limits rather than promoting them to verified remedy.
 
 The [HTOPS fraud-loss canonical record](records/us-htops-fraud-loss-followup-2025.json)
 is now linked directly alongside the finding, preserving the same-respondent

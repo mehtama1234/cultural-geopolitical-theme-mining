@@ -1,0 +1,105 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "De-identified linked respondent-cohort event ledger for the April-to-June 2025 HTOPS fraud/loss follow-up; it formalizes a partial consumer-to-household bridge without treating retrospective exposure or self-reported recovery as a verified individual remedy.",
+  "events": [
+    {
+      "event_id": "HTOPS-FRAUD-LOSS-FOLLOWUP-2025-04-15",
+      "unit": "case",
+      "geography": "United States; April and June 2025 HTOPS public-use linked respondent cohort",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-04-15",
+      "date_precision": "survey-wave start; fraud incident date and actor are unavailable; April questions refer to the prior twelve months",
+      "denominator": "6,564 exact SCRAMID-linked respondents; subgroup valid counts vary and the retained intersection is not an attrition-adjusted longitudinal universe",
+      "method": "Exact SCRAMID intersection of April and June 2025 public-use files; April PWEIGHT applied to linked respondents for descriptive outcome screens; no replicate-weight variance claim",
+      "missingness": "The public-use bridge does not disclose incident date, actor, product, alternatives, effort, agency decision, recovery amount or receipt, durable security, continued use, switching, non-use, attribution, or causal trust/action timing; unknown fields are not zeros",
+      "condition_or_decision": "service_failure",
+      "exposure": "Respondents retrospectively reported scam/fraud exposure in April; reported monetary loss, agency reporting, and reported recovery are coded as separate conditional stages",
+      "alternatives_before_action": "Provider, account, replacement, non-use, and other financial alternatives are not observed; reporting and agency contact do not reveal whether another route was available or usable",
+      "immediate_burden_or_benefit": "Reported loss is observed for a subset of exposed respondents; amount, timing, direct cost, and household incidence are not observed",
+      "choice_or_response": "A subset reported contacting law enforcement or government, and a smaller subset reported recovery; contact sequence, effort, agency decision, and recovery timing are not observed",
+      "person_or_actor_with_control": "The responsible actor and provider are not identified in the retained linked output; agency and household response authority remain unspecified",
+      "remedy_or_institutional_response": "Reported agency contact and self-reported recovery are observed as respondent stages; no administrative correction, payment instrument, account restoration, or verified remedy is present",
+      "immediate_outcome": "The linked cohort supports descriptive comparison of later June food insufficiency, energy-bill difficulty, household job loss, and coded institutional items across exposure/loss/report/recovery groups; it does not establish an individual protected outcome",
+      "protected_outcome": "No protected household outcome is verified; the sparse 11-person loss-report-recovery cell remains materially burdened on selected June screens and is not a recovery estimate",
+      "sacrificed_outcome": "Later food, energy, and job-loss indicators are observed as household context, not assigned losses caused by the fraud episode; intervening events and residual loss remain unknown",
+      "cost_risk_transfer": "The linked survey makes reported loss and later household burden visible, but does not identify whether risk was transferred to a provider, agency, household member, creditor, or other actor",
+      "later_outcome": "June household outcomes and coded trust/confidence items are observed descriptively; verified recovery, durable security, continued provider use, switching, non-use, political action, and exit remain unknown",
+      "meaning_and_attribution": "Later institutional items are not a change score with prior trust, attribution, or event timing; dignity, blame, fairness, and causal legitimacy are not measured in the retained route",
+      "public_or_collective_response": "Respondent-reported agency contact is observed; no organizing, complaint detail, political action, or collective response endpoint is retained",
+      "counterexample": "Exposure is not realized loss, reported recovery is not verified restoration, and later hardship is not proof of a fraud effect; the 11-person recovery cell remains a sparse counterexample to treating recovery reports as restored security",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Retained compact HTOPS follow-up output and canonical record; April PUF, replicate-file, and June PUF hashes are preserved there. This is an associative same-respondent cohort bridge with retrospective exposure, selective retention, no attrition-adjusted longitudinal weight, and no verified remedy receipt"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "HTOPS-FRAUD-A-01",
+      "from": "retrospective fraud exposure",
+      "to": "reported monetary loss",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "April survey conditions reported loss on the exposed subgroup, but the incident date is unknown within the prior-twelve-month window",
+      "status": "reported",
+      "counterexample": "Exposure without reported loss is a distinct observed group and prevents treating every exposure as realized household harm",
+      "remaining_gap": "Dated incident, actor, amount, product, and causal sequence"
+    },
+    {
+      "arrow_id": "HTOPS-FRAUD-A-02",
+      "from": "reported loss",
+      "to": "agency reporting",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "A subset of loss respondents reported contacting law enforcement or government, but contact timing and effort are not available",
+      "status": "reported",
+      "counterexample": "Reporting is an attempted institutional route, not proof of a decision, remedy, or accessible alternative",
+      "remaining_gap": "Attempt order, transfers, documents, waiting, agency decision, and non-reporting denominator"
+    },
+    {
+      "arrow_id": "HTOPS-FRAUD-A-03",
+      "from": "agency reporting",
+      "to": "reported recovery",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Eleven linked respondents fall in the loss-report-recovery subgroup, but recovery is a survey answer without amount, receipt, or timing",
+      "status": "reported",
+      "counterexample": "Self-reported recovery can coexist with high later hardship and does not establish account correction or restored security",
+      "remaining_gap": "Verified payment/correction, amount, date, residual loss, and recovery durability"
+    },
+    {
+      "arrow_id": "HTOPS-FRAUD-A-04",
+      "from": "reported loss and recovery stage",
+      "to": "later household material context",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same SCRAMID-linked respondents are observed in June on food insufficiency, energy-bill difficulty, and recent household job-loss screens",
+      "status": "observed",
+      "counterexample": "Later hardship may reflect selection, intervening shocks, partial recovery, or unrelated events rather than the fraud episode",
+      "remaining_gap": "Dated incident, event-specific household attribution, protected outcome, and durable recovery"
+    },
+    {
+      "arrow_id": "HTOPS-FRAUD-A-05",
+      "from": "loss/report/recovery stages",
+      "to": "trust or political action",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "June coded trust/confidence items are available for linked subgroups, but prior trust, attribution, and action timing are not aligned to the incident",
+      "status": "open",
+      "counterexample": "A later institutional item is not evidence of trust change or political disengagement without prior identity and attribution",
+      "remaining_gap": "Prior-to-later trust, blame/fairness interpretation, action choice, and event attribution"
+    },
+    {
+      "arrow_id": "HTOPS-FRAUD-A-06",
+      "from": "consumer loss and institutional route",
+      "to": "switching, non-use, or exit",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The retained follow-up has no provider/account alternative, continued-use, switching, non-use, or exit field",
+      "status": "open",
+      "counterexample": "No observed switch is missingness, not evidence that the respondent stayed voluntarily or lacked a route",
+      "remaining_gap": "Named alternative, availability/cost, continued use, non-use reason, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes a partial linked respondent-cohort chain from retrospective exposure through reported loss, institutional contact, reported recovery, and later household context. It does not establish a dated individual event, verified remedy, causal hardship, trust change, political action, switching, or exit.",
+  "storage_boundary": "No raw PUF or direct identifier is retained in this ledger; only the compact aggregate follow-up output, source hashes, denominators, and missingness boundaries are represented."
+}
