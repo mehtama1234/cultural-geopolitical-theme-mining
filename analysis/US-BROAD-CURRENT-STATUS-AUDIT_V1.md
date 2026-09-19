@@ -1828,7 +1828,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 344 trend records and 1214 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,328 local Markdown links and 667 published HTML pages pass link
+families; 1,329 local Markdown links and 667 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -3069,6 +3069,13 @@ adds a product-level durability stage: the 2026 expansion states that the 2025
 repair was ineffective and offers a second professional repair. It advances
 remedy failure and repeat-correction visibility without establishing owner
 notice, completed repair, safe restoration, residual cost, trust, or exit.
+
+The new [remedy-durability cross-domain synthesis](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md)
+groups the latest consumer, worker, and product-safety records by remedy clock:
+offered or ordered, implemented, received, adequate, durable, and socially
+meaningful. It strengthens the institutional-response to lived-recovery bridge
+without pooling refunds, repairs, back pay, access orders, or correction rates
+into a success measure.
 
 The [WBNS access recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
 confirms that current ICPSR catalog metadata and documentation are public,

@@ -1,6 +1,6 @@
 # US cross-source trend synthesis v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Status:** living cross-source synthesis; no single causal chain claimed  
 **Scope:** the current machine-readable trend/case registry and its linked
 analysis layers
@@ -89,6 +89,7 @@ estimates of one pooled phenomenon:
 | 43. Material pressure, social connection, and institution-specific judgment | [HTOPS cross-release social/institutional finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-033.md) | Retained March and July 2026 HTOPS snapshots show distinct downstream currencies: expense difficulty tracks loneliness/support adequacy more sharply than contact frequency in March, while July shows lower confidence in statistical agencies and Congress with different-sized gaps; the releases are not respondent-linked | A repeated respondent or dated event joining usable alternatives, practical/informal help, social outcomes, institution-specific blame/confidence, remedy, recovery, and later action/exit |
 | 44. Nominal capacity versus usable opportunity | [Interface-to-outcome conversion finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md) | Across airport transit, disability health care and workforce programs, working public-benefit households, and smartphones, formal availability repeatedly diverges from completed or controllable use; time, price, accessibility, information, schedule, disclosure, reliability, and alternatives sit at the interface | A stable unit linking offered route, usable alternative, attempted/completed/abandoned use, protected or sacrificed outcome, correction or recovery, and later dependence, switching, trust, or exit |
 | 45. Recall remedy design and consumer recovery burden | [CPSC live-remedy finding](projects/us-marketplace-product-safety/findings/us-product-recall-response-002.md) | Current CPSC notices show that refund, replacement, repair, or credit may require registration, destruction, disposal, photo proof, or repeat repair; remedy wording is an institutional route, not verified consumer recovery | A bounded recall cohort linking notice reach, exposure, action, disposal/replacement cost, remedy receipt, safety restoration, residual harm, repeat purchase, trust, and non-use |
+| 46. Remedy durability versus lived recovery | [Remedy durability synthesis](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md) | Amazon Prime and Amazon Flex make aggregate distribution visible; IER and platform cases add paid or ordered responses; VRURC, Honda Talon, and Sauna360 show correction and repeat-correction stages. Across them, issuance, repair, access restoration, receipt, adequacy, durability, and later trust/exit remain separate clocks | Identifier-compatible follow-up preserving exposure, alternative, effort, remedy receipt, protected outcome, repeat harm/correction, and later use, switching, trust, or exit |
 
 ### The common pattern
 
