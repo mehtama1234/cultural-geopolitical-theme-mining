@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 334 records and
-1188 observations.
+have exact registered-URL references. The trend registry holds 335 records and
+1191 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1086,6 +1086,15 @@ validated from receipt, routing, channel, narrative visibility, timeliness,
 and response labels. It does not create remedy, trust, switching, or exit
 outcomes; the next consumer-power test remains a lawful same-case or linked
 follow-up design.
+
+The [canonical CFPB narrative-filter boundary record](records/us-cfpb-narrative-filter-api-boundary-2026.json)
+adds a live control/probe comparison: the tested `has_narrative=true` query
+returned the same 21,425 reported total and 25 capped IDs as its control, with
+no narrative field exposed. This rules out that parameterized public response
+as the next shortcut to meaning, alternatives, remedy receipt, trust, or exit;
+it does not show that consumers lacked narratives or that the administrative
+relief label was false. The next consumer-power route remains lawful linked,
+consented, or account-level follow-up.
 
 The [2026-09-16 CFPB schema recheck](projects/us-customer-automation-recourse/data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
 probed three mortgage records and found complaint receipt/routing/response

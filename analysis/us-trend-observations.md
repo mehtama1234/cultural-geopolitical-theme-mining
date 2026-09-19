@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-334 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+335 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -313,6 +313,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Medical-cost exposure is translated into credit visibility, partial reporting relief, and contested federal remedy | cost, voice | care_health_reproduction, household_room_consumption, consumer_power_recourse, public_systems_feedback, trust_identity_meaning | CFPB Consumer Credit Panel and federal regulatory record | United States | 5 | 2017 to 2022; medical collection tradelines; Quarter before and quarter of medical collection reporting; 2017 to 2022; March 2022; consumers with reported medical collections; 2017 to 2022; consumers with medical collections and census-tract distribution; January to July 2025; federal medical-debt reporting rule | reported | [open](records/us-cfpb-medical-collections-credit-response-2022-2025.json) |
 
 **Boundary:** This credit-system and legal-response layer does not link a particular medical bill to a particular care choice, household trade-off, housing/work/insurance outcome, dispute, remedy, trust judgment, political action, or geopolitical consequence.
+
+| A tested CFPB narrative filter does not expose the consumer meaning or outcome stages | cost, time, voice | consumer_power_recourse, public_systems_feedback, trust_identity_meaning, firm_sector_market_power, platforms_data_attention | Live CFPB public complaint API query and same-query control for credit-card complaints carrying a monetary-relief response label | United States complaint records; API query received dates 2025-01-01 through 2026-09-18 | 3 | Control query; credit card; closed with monetary relief; 2025-01-01 through 2026-09-18; Probe query; same filters plus has_narrative=true; 2025-01-01 through 2026-09-18; Control-versus-probe API comparison | compared; observed; open | [open](records/us-cfpb-narrative-filter-api-boundary-2026.json) |
+
+**Boundary:** This is a public-API schema and filter boundary. It does not establish narrative absence among consumers, complaint incidence, verified monetary relief or receipt, account correction, repeat effort, trust, switching, or exit. The next qualifying route requires lawful linked, consented, or account-level follow-up with those stages.
 
 | Consumer compensation can coexist with an unreduced underlying obligation | cost, voice, work | consumer_power_recourse, household_room_consumption, public_systems_feedback, trust_identity_meaning, unequal_exposure_status | Official CFPB case-level payment and remedy page | United States; affected Navient/Pioneer student-loan consumers | 1 | 2026-09-16 official page recheck; CFPB v. Navient | reported | [open](records/us-cfpb-navient-compensation-obligation-2026.json) |
 
