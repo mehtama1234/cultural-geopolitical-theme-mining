@@ -242,6 +242,13 @@ These are real bridges, but each closes only part of the full chain:
   income-to-poverty ratio, and only about half of transitions had a classified
   reason. Entry and exit are therefore participation states, not proof of
   adequacy, voluntary choice, or restored security.
+- **Public-system route friction:** USDA state aggregates show application
+  timeliness ranging from 61.24% to 97.22% and recertification timeliness from
+  25.23% to 99.87%, while a separate WBNS route sample reports 24% involuntary
+  SNAP interruption; among a conditional subgroup, 40% reported insufficient
+  time after notice and 32% no notice. Administrative speed, notice quality,
+  receipt, material protection, and institutional confidence are separate
+  stages—not one program-success rate.
 - **Protective non-use:** among 1,036 adults in immigrant families with
   children, 23% reported avoiding at least one essential activity because of
   immigration concerns; almost one in five reported going without public
