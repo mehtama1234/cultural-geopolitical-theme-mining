@@ -565,6 +565,15 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
+- **Remedy visibility is still not remedy recovery:** across the 35 retained
+  event ledgers and 207 events, 32 events carry an explicit remedy stage; nine
+  are marked as reported received, but none has verified recipient receipt,
+  verified durability, or a defined outcome follow-up in the portfolio audit.
+  The other 175 events have no explicit remedy-stage field. This is not proof
+  that remedies failed; it is proof that the public records usually stop at
+  order, implementation, or reported distribution rather than showing whether
+  the affected person regained a protected outcome or practical choice. See
+  the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
 
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
