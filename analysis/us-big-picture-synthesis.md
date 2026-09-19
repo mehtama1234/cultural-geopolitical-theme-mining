@@ -109,6 +109,18 @@ The newer pages make the map more concrete:
 - A charitable-food visit can fill part of a food gap while hours, transport, awareness, comfort, variety, safety, and treatment still leave need unmet.
 - Automatic saving can add retirement and liquid-account assets while also changing short-term credit-card debt; a related SIPP policy-timing study reports later retirement and Social Security claiming. The Oregon balance-sheet and seven-state timing studies use different designs and balance-sheet measures, so future security, current liquidity, and voluntary choice must be measured separately rather than pooled.
 - [Automatic saving is a multi-currency policy](findings/us-automatic-saving-multi-currency-policy-bridge-001.md) now places those Auto-IRA results beside Federal Reserve liquidity/credit and BEA aggregate income/spending. The bridge preserves the apparent cross-paper disagreement and keeps current room, later claiming, wellbeing, and political meaning as separate outcomes.
+- The new remedy cases make the conversion problem more concrete. A DOJ IER
+  case reports a lower-wage rehire followed by restored wage, back pay, and
+  seniority; an OSHA case reports safety voice followed by retaliation and an
+  ordered remedy. These are different repair currencies—money, access, status,
+  and protection—not one generic “recovery” measure. The [remedy synthesis](projects/ai-work-control/remedy-spectrum-cross-domain-synthesis-v1.md)
+  keeps payment, return, status repair, worker voice, durability, trust, and
+  exit separate.
+- The MEPS event follow-up now adds a same-person later health/work clock. It
+  strengthens the household side of the map, but the event record still does
+  not reveal the initiating need, available alternative, institutional remedy,
+  or later meaning/action. A later health or employment value is an outcome
+  surface, not automatically recovery.
 
 These are not versions of one theory. They are places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
 

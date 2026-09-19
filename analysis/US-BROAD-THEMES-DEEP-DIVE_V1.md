@@ -1,6 +1,6 @@
 # US broad themes: detailed reading guide v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Purpose:** give a reviewer a substantive route through the atlas's most
 interesting recurring societal, cultural, political, consumer, institutional,
 firm, infrastructure, and geopolitical patterns. This is a synthesis of
@@ -369,6 +369,24 @@ The pattern appears in at least six different systems:
    local customers, and owner households remains open. Administrative reach or
    eligibility is therefore not the same as broadly distributed opportunity.
    Read the [size-rule finding](projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md).
+
+7. **Remedies have different currencies.** The new DOJ IER DACA case reports a
+   lower-wage rehire followed by restoration of the prior wage, back pay,
+   seniority, and complaint withdrawal. The OSHA Texas case reports workers'
+   safety voice, retaliation, and an ordered remedy after asbestos concerns.
+   One case foregrounds money and status repair; the other foregrounds voice,
+   public risk, and protection. Neither public account proves durable safety,
+   household recovery, trust, or exit. Read the [IER case](projects/ai-work-control/ier-daca-rehire-wage-seniority-record-v1.md)
+   and [OSHA case](projects/ai-work-control/osha-texas-asbestos-whistleblower-remedy-record-v1.md).
+
+8. **A later outcome is not automatically recovery.** The strict MEPS
+   event-window follow-up carries the same person from a dated event window to
+   later R5/3 health and employment transitions. It adds a genuine persistence
+   clock, but it does not identify the initiating need, an alternative, a
+   provider or insurer response, a remedy, or whether the later state is
+   adequate. The [same-case audit](broad-same-case-episode-availability-audit-v1.md)
+   now records this as a partial later-outcome surface rather than a completed
+   recovery arrow.
 
 Taken together, these cases support a disciplined interpretation of the
 current societal trend: **modern systems are becoming better at producing
