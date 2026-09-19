@@ -3039,6 +3039,15 @@ trust, or political response. The next test remains a longitudinal worker
 design with job event, employer policy, task control, schedule, pay, benefit,
 remedy, and later movement in the same unit.
 
+The [worker-control and optionality synthesis](projects/ai-work-control/worker-control-optionality-remedy-synthesis-v1.md)
+now maps that open worker design against the selected remedy cases. It adds
+counterexamples for lower-paid replacement, unsuccessful search, non-return,
+payment without reinstatement, and access restoration without verified
+financial recovery. It does not join SHED respondents to remedy cases or
+promote a worker-power index; the next qualifying record remains one lawful
+worker/workplace episode with alternatives, control, review authority,
+restoration, and later movement.
+
 Run the next passes in four rotating lanes so breadth is preserved:
 
 1. **Material and time:** themes 1, 2, 6, and 8;

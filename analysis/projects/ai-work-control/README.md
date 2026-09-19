@@ -7,6 +7,12 @@ regulator contestability, collective bargaining, and workplace co-governance.
 It makes the central open question explicit: whether procedural rights produce
 verified recovery of access, income, identity, or control.
 
+The [worker-control and optionality synthesis](worker-control-optionality-remedy-synthesis-v1.md)
+now connects the SHED labor-mobility and AI-control surface to the remedy
+spectrum. It keeps outside alternatives, workplace discretion, contestability,
+restoration, and practical exit as separate layers; it is not a same-worker
+causal estimate or a worker-power index.
+
 The [BLS JOLTS national mobility layer](bls-jolts-national-mobility-layer-v1.md)
 adds a 2020–2025 establishment-based labor-market context: openings and quits
 peaked in 2022 and cooled afterward, while hiring remained lower. It is a
