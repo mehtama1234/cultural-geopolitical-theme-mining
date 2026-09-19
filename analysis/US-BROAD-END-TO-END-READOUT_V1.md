@@ -237,6 +237,13 @@ These are real bridges, but each closes only part of the full chain:
   product/consumer-held denominators, and neither shows purchaser notice,
   replacement receipt, delay, residual cost, or safe durable use. A correction
   percentage is implementation visibility, not a consumer recovery rate.
+- **Even repair can need a remedy for the remedy:** a September 2026 CPSC
+  Sauna360 expansion says a 2025 free repair was ineffective, then instructs
+  owners to stop using the benches and offers a second professional repair.
+  The later notice covers about 6,000 units and reports 77 additional breakage
+  reports, including six injuries. This advances the durability arrow—an
+  institutional fix can itself be corrected—but still does not show owner
+  notice, appointment, completed repair, downtime, safe use, or residual cost.
 - **Small firms as infrastructure consumers:** the FTC reports 5,588 checks
   totaling more than $2.6 million sent to businesses charged hidden or
   unauthorized payment-processing fees, including early-termination and

@@ -282,6 +282,13 @@ durability, trust, and exit are still unobserved. This is why the atlas keeps
 formal remedy, implementation, receipt, restoration, and recovery as separate
 stages.
 
+Product-safety evidence adds a second remedy boundary: a CPSC Sauna360 recall
+expansion reports that an earlier free repair was ineffective, requiring owners
+to stop using the product and receive a new professional repair. A remedy can
+therefore have its own failure-and-correction sequence. The public record still
+does not show owner notice, appointment, completed repair, downtime, safe use,
+or residual cost, so remedy durability remains distinct from consumer recovery.
+
 The latest population layers strengthen this map without narrowing it. The
 [2025 SHED price-adaptation layer](projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
 shows how adults distribute price pressure across cheaper goods, reduced use,
