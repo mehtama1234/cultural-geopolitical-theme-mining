@@ -285,6 +285,14 @@ These are real bridges, but each closes only part of the full chain:
   32.39% in the small stable-SNAP/work-prevention cell). Provider bonuses and
   retention incentives still do not prove a dependable staffed slot; time loss
   is not automatically lost earnings or a political effect.
+- **Stable hours, moving earnings:** the same-person SIPP subgroup screen
+  shows hours staying unchanged for roughly 85%–96% of adjacent-month pairs
+  across resource and household-context groups, while earnings move up or
+  down much more often—especially in low-resource households with children.
+  “Stable work” can therefore hide changing pay, job mix, schedule quality, or
+  unpaid household substitution. Children and SNAP status condition the
+  pattern, but do not identify a care event or a SNAP effect; job quality,
+  protection, remedy, trust, and action remain open.
 - **Aging and unpaid care:** BLS reports about 38.2 million people providing
   unpaid eldercare in 2023–24; care providers spent about 3.88 hours on care
   days, or 2.84 hours among employed providers, and roughly 51.6% provided
