@@ -166,6 +166,13 @@ These are real bridges, but each closes only part of the full chain:
   not proof of worker security, owner-household recovery, affordable customer
   service, or lower public risk: survival can preserve an option while moving
   obligations elsewhere.
+- **Owner buffers can hide a business shock:** linked business/household
+  account evidence reports a 40% early-COVID revenue fall, but only a 1.6-cent
+  decline in owner consumption per dollar of lost revenue, with muted average
+  pass-through persisting through 2021. That is a real owner-household bridge,
+  but not proof of safety: savings, subsidies, debt, delayed investment, and
+  later depletion are not fully observed, and the COVID shock is not the SBA
+  disaster-loan effect.
 - **Local customer access after disaster:** after major Harvey store closures,
   affected cardholders traveled about 15% farther to shop; entrants generated
   modeled consumer surplus but did not fully replace exits in the hardest-hit
