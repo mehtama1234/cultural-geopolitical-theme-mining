@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Bounded Fair Work Commission case summary preserving dismissal, documented unsuccessful alternative-employment search, known income loss, and an ordered compensation remedy without treating the order as payment receipt.",
+  "events": [
+    {
+      "event_id": "FWC-IAA-GREAVES-2024-07-08",
+      "unit": "worker",
+      "geography": "Australia; IAA work-from-home employment case [2024] FWC 3523",
+      "actor_initiating_change": "employer",
+      "event_date": "2024-07-08",
+      "date_precision": "day; primary decision records dismissal date, unsuccessful job search, and compensation order payable by 2025-01-17",
+      "denominator": "One publicly identified adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision and linked order reference",
+      "missingness": "Worker identity beyond the public case name, alternative offers, search intensity, payment receipt, household outcome, trust, collective action, recurrence, and exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer summarily dismissed a work-from-home employee during a redundancy-related dispute without meaningful consultation or an opportunity to explore alternatives",
+      "alternatives_before_action": "The worker gave evidence that she had unsuccessfully sought work after dismissal; the decision also found she had no opportunity before dismissal to explore redeployment or other acceptable employment",
+      "immediate_burden_or_benefit": "The Commission assessed eight weeks of lost income at $10,700, deducted two weeks of pay in lieu of notice, and set compensation at $8,025 gross plus superannuation",
+      "choice_or_response": "The worker attempted to mitigate loss by seeking employment, sought reinstatement, and pursued an unfair-dismissal application; the Commission found reinstatement unworkable because the relationship had broken down",
+      "person_or_actor_with_control": "Employer controlled dismissal and consultation; the worker controlled application and job-search effort; the Commission controlled the remedy decision",
+      "remedy_or_institutional_response": "The Commission found the dismissal unfair, declined reinstatement, and ordered $8,025 less tax plus 11.5% superannuation, payable by 2025-01-17",
+      "immediate_outcome": "Unsuccessful alternative-employment search and an ordered compensation remedy are observed; payment receipt and work restoration are not",
+      "protected_outcome": "The order recognizes a bounded lost-income period and provides a formal compensation route; the original work-from-home position is not restored",
+      "sacrificed_outcome": "The worker lost employment and remained without secured alternative work during the assessed period; household, health, and time effects are not quantified",
+      "cost_risk_transfer": "The worker carried unemployment and search costs until the order; the employer was assigned a gross compensation obligation subject to execution",
+      "later_outcome": "The decision records no secured alternative employment by the hearing, and no later receipt, household recovery, recurrence, trust, action, switching, or exit is public",
+      "meaning_and_attribution": "The decision records a breakdown in the employment relationship and employer-control failures, but no worker-reported trust, dignity, identity, or political-action endpoint",
+      "public_or_collective_response": "An individual application and adjudicated compensation order are observed; no later collective or political response is reported",
+      "counterexample": "A worker can actively seek alternative employment without securing it; an ordered compensation remedy does not establish payment or restore the original work arrangement",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2024] FWC 3523, especially findings on dismissal, failed alternative-employment search, compensation calculation, and payment deadline; https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc3523.pdf; payment receipt and post-order outcomes are not public"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-IAA-A-01",
+      "from": "dismissal without meaningful consultation",
+      "to": "worker alternative-employment search",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision finds no meaningful consultation or opportunity to explore alternatives before dismissal and records the worker's subsequent unsuccessful search for work",
+      "status": "observed",
+      "counterexample": "An observed search effort does not establish the size of the opportunity set or whether any offer was feasible",
+      "remaining_gap": "Search intensity, offers, constraints, non-use, and alternative-work availability"
+    },
+    {
+      "arrow_id": "FWC-IAA-A-02",
+      "from": "unsuccessful alternative-employment search",
+      "to": "known lost-income period",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission records no secured employment and calculates eight weeks of lost income, less two weeks of notice pay",
+      "status": "observed",
+      "counterexample": "Known assessed loss does not capture household, health, dignity, or longer-term career effects",
+      "remaining_gap": "Household incidence, duration beyond assessed window, health/time costs, and later work"
+    },
+    {
+      "arrow_id": "FWC-IAA-A-03",
+      "from": "unfair-dismissal finding and assessed loss",
+      "to": "ordered compensation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission ordered $8,025 less tax plus 11.5% superannuation with payment required by 2025-01-17",
+      "status": "observed",
+      "counterexample": "An order and deadline are not proof of payment receipt or net recovery",
+      "remaining_gap": "Payment execution, receipt, taxation, net amount, and residual loss"
+    },
+    {
+      "arrow_id": "FWC-IAA-A-04",
+      "from": "ordered compensation",
+      "to": "payment receipt and household recovery",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The public decision specifies an order and deadline but contains no later payment or household follow-up",
+      "status": "open",
+      "counterexample": "A formal order can coexist with nonpayment, delay, or inadequate net recovery",
+      "remaining_gap": "Receipt, timing, net recovery, household security, and later employment"
+    },
+    {
+      "arrow_id": "FWC-IAA-A-05",
+      "from": "failed restoration and compensation process",
+      "to": "trust, action, recurrence, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The decision records relationship breakdown and no later worker-linked trust, recurrence, collective action, switching, or exit endpoint",
+      "status": "open",
+      "counterexample": "A legal remedy route may preserve formal accountability while leaving institutional trust and future work choices unresolved",
+      "remaining_gap": "Worker meaning/trust, recurrence, collective response, switching, non-use, and exit"
+    }
+  ],
+  "boundary": "This ledger adds one primary adjudicated case with observed unsuccessful alternative-employment search, assessed income loss, and an ordered compensation remedy. It does not establish payment receipt, household recovery, trust, recurrence, action, switching, or exit.",
+  "storage_boundary": "No claimant file, direct identifier beyond the public case reference, bulk archive, or payment instrument is retained; only bounded primary decision fields, dates, remedy calculation, uncertainty, and open downstream arrows are represented."
+}

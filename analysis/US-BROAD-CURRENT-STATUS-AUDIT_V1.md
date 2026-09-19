@@ -1936,7 +1936,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Twenty-three local source surfaces cover
+health, political, and worker routes. Twenty-four local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through

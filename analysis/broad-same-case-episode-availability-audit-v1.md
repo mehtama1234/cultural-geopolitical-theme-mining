@@ -41,6 +41,7 @@ separate.
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | Rehman lost-remuneration ledger (1 episode) | Worker application, voluntary/formal access restoration, no substitute paid earnings to deduct, and gross lost-remuneration order | Alternative availability or choice, payment receipt, net recovery, durable access, trust/action, switching/exit |
 | FWC site-clearance alternative-employment ledger (1 episode) | Dismissal after site-clearance loss, lower-paid replacement work, travel-cost trade-off, and compensation order | Payment receipt, equivalence/duration of alternative work, household recovery, trust/action, recurrence, exit |
+| FWC Greaves no-alternative-employment ledger (1 episode) | Primary adjudicated dismissal, unsuccessful job search, assessed eight-week loss, and compensation order | Payment receipt, later employment, household recovery, trust/action, recurrence, exit |
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
@@ -60,15 +61,15 @@ reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 19 | 2 | 2 |
-| Responsible actor | 13 | 8 | 2 |
-| Alternative or non-use | 2 | 7 | 14 |
-| Effort, money, or time trade-off | 2 | 15 | 6 |
-| Adaptation or protected/sacrificed outcome | 3 | 9 | 11 |
-| Institutional or firm response | 20 | 1 | 2 |
-| Verified remedy | 1 | 15 | 7 |
-| Meaning, trust, or action | 0 | 2 | 21 |
-| Recovery, persistence, or exit | 0 | 6 | 17 |
+| Dated event or exposure | 20 | 2 | 2 |
+| Responsible actor | 14 | 8 | 2 |
+| Alternative or non-use | 3 | 7 | 14 |
+| Effort, money, or time trade-off | 3 | 15 | 6 |
+| Adaptation or protected/sacrificed outcome | 4 | 9 | 11 |
+| Institutional or firm response | 21 | 1 | 2 |
+| Verified remedy | 1 | 16 | 7 |
+| Meaning, trust, or action | 0 | 2 | 22 |
+| Recovery, persistence, or exit | 0 | 7 | 17 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -119,4 +120,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses twenty-three committed local source surfaces and downloads nothing.
+The audit uses twenty-four committed local source surfaces and downloads nothing.
