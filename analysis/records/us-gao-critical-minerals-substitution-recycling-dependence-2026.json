@@ -65,12 +65,14 @@
   "related_sources": [
     {"source_url": "https://www.gao.gov/products/gao-26-108687", "claim": "Official GAO technology assessment page supplies technology windows, constraints, policy options, and application boundaries.", "status": "official-report"},
     {"source_url": "https://pubs.usgs.gov/publication/mcs2026", "claim": "USGS 2026 mineral summaries provide a complementary mineral production and reliance source family; this record does not pool its estimates into the GAO stages.", "status": "official-complementary-source"},
-    {"source_url": "https://www.indium.com/de/press-releases/indium-corporation-awarded-3-2-million-doe-grant-to-establish-domestic-gallium-supply-chain/", "claim": "Indium Corporation reports a $3.2 million DOE grant and two-phase prototype-to-production-ready target for gallium recovery.", "status": "company-reported-award"}
+    {"source_url": "https://www.indium.com/de/press-releases/indium-corporation-awarded-3-2-million-doe-grant-to-establish-domestic-gallium-supply-chain/", "claim": "Indium Corporation reports a $3.2 million DOE grant and two-phase prototype-to-production-ready target for gallium recovery.", "status": "company-reported-award"},
+    {"source_url": "https://www.indium.com/press-releases/indium-corporation-ames-national-laboratory-team-up-to-establish-u-s-gallium-supply-chain/", "claim": "Indium and Ames National Laboratory report a June 2026 research partnership focused on scalable gallium separation.", "status": "company-and-lab-reported-partnership"},
+    {"source_url": "https://www.energy.gov/cmei/articles/does-critical-materials-innovation-hub-awards-10-million-early-stage-research-and", "claim": "DOE reports an August 2026 Critical Materials Innovation Hub award set that includes an Indium gallium-extraction project.", "status": "official-early-stage-award"}
   ],
   "boundary": "This record establishes a technology and supply-chain dependence surface beneath batteries and semiconductors. It does not establish realized disruption, shortage, price, production, household, worker, environmental, alliance, or geopolitical effects; import reliance, substitute potential, recycling maturity, policy option, and autonomy remain separate stages.",
   "reproduction_audit": {
     "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; GAO report PDF, USGS tables, and company or facility files not retained",
     "html_sha256": "sha256:527de03bf19db449a566d368a63fea5f71c8f88bc584cd1d84e14623944c863b",
-    "checked": "2026-09-18"
+    "checked": "2026-09-19"
   }
 }

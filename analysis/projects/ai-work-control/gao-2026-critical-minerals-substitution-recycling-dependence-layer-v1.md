@@ -104,6 +104,14 @@ least one metric ton of 4N gallium per year. That is stronger than selection,
 but it remains an award and target-stage signal: no produced quantity, yield,
 customer use, or import displacement is reported.
 
+The follow-up also shows an expanding research network rather than a completed
+supply chain. Indium and Ames National Laboratory announced a June 2026 R&D
+partnership focused on scalable gallium separation, and DOE's August 2026
+Critical Materials Innovation Hub announcement listed Indium among early-stage
+gallium-recovery projects. These are additional research and coordination
+signals; they do not establish a second operating facility, commercial output,
+customer qualification, or a change in US import reliance.
+
 The relevant machine-readable ledgers are:
 
 - `data/china-gallium-germanium-export-control-event-ledger-v1.json`
@@ -166,5 +174,9 @@ figures and boundaries.
 **Official GAO review:** <https://www.gao.gov/products/gao-26-108687>
 
 **Project-specific award report:** <https://www.indium.com/de/press-releases/indium-corporation-awarded-3-2-million-doe-grant-to-establish-domestic-gallium-supply-chain/>
+
+**Indium–Ames partnership:** <https://www.indium.com/press-releases/indium-corporation-ames-national-laboratory-team-up-to-establish-u-s-gallium-supply-chain/>
+
+**DOE Critical Materials Innovation Hub award:** <https://www.energy.gov/cmei/articles/does-critical-materials-innovation-hub-awards-10-million-early-stage-research-and>
 
 **Official USGS 2026 summaries:** <https://pubs.usgs.gov/publication/mcs2026>
