@@ -1828,7 +1828,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 344 trend records and 1214 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,336 local Markdown links and 668 published HTML pages pass link
+families; 1,337 local Markdown links and 668 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1972,6 +1972,14 @@ $4,712.50 in back pay, restoring seniority, and ending with complaint
 withdrawal. This closes an accepted-remedy and immediate-action stage in one
 agency account, but not long-term employment, benefit use, household
 recovery, trust, recurrence, or exit.
+The new [OSHA Texas asbestos whistleblower case](projects/ai-work-control/osha-texas-asbestos-whistleblower-remedy-record-v1.md)
+adds a different worker-power endpoint: two workers reportedly raised
+asbestos and environmental-safety concerns after Hurricane Beryl, were fired,
+and then received an OSHA retaliation finding with a reinstatement order and
+more than $200,000 in back wages, interest, and damages. This links worker
+voice to public-risk governance and retaliation, while leaving payment, safe
+return, employer compliance, community protection, household recovery, trust,
+and exit open.
 The [structured Rehman case ledger](projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json)
 adds a bounded negative substitute-earnings observation: the Commission
 recorded no paid earnings to deduct during the deactivation interval, alongside

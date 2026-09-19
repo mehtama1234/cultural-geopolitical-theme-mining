@@ -270,6 +270,7 @@ without a recurring acquisition need and source-specific metadata.
 | `bwc.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cy.ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dataverse.harvard.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dosh.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dserver.bundestag.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `eaduan-gig.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -289,7 +290,6 @@ without a recurring acquisition need and source-specific metadata.
 | `bm.soyacincau.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `cbp.gov` | federal delivery and border source | Do not register separately for the current CPSC case; preserve CBP as the official import/border comparator and promote it only if import surveillance becomes a maintained acquisition lane. |
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `english.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `exportcontrol.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
