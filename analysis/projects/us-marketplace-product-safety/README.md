@@ -44,6 +44,10 @@ The [VRURC remedy event ledger](data/vrurc-recall-remedy-event-ledger-v1.json)
 formalizes that product-level route from hazard through offered replacement and
 reported correction without treating correction counts as consumer recovery.
 
+The [Honda Talon repair event ledger](data/honda-talon-repair-event-ledger-v1.json)
+adds a recall-keyed dealer-repair counterexample: direct-contact language and
+repair progress remain distinct from verified purchaser repair or safe mobility.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.

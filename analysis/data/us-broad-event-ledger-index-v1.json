@@ -39,6 +39,11 @@
       "role": "recall-keyed hazard, offered replacement, and reported correction progress"
     },
     {
+      "path": "analysis/projects/us-marketplace-product-safety/data/honda-talon-repair-event-ledger-v1.json",
+      "domain": "product_safety_recourse",
+      "role": "recall-keyed hazard, dealer repair, and reported correction progress counterexample"
+    },
+    {
       "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
       "domain": "consumer_financial_recourse",
       "role": "bounded administrative complaint route sample"

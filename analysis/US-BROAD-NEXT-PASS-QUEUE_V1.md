@@ -3295,6 +3295,10 @@ now makes the product-level sequence machine-readable: the notice, offered
 replacement, and later correction snapshot are retained as separate events,
 while purchaser notice, receipt, safe restoration, trust, switching, and exit
 remain explicitly open.
+The [Honda Talon repair event ledger](projects/us-marketplace-product-safety/data/honda-talon-repair-event-ledger-v1.json)
+adds a dealer-repair counterexample with direct-contact language and a separate
+MPR denominator. The comparison strengthens remedy-form coverage, not consumer
+recovery; the next qualifying extension remains a lawful purchaser-level link.
 The [canonical Honda Talon recall record](records/us-cpsc-honda-talon-recall-implementation-2023-2026.json)
 adds a second key-linked counterexample: the official notice reports an
 approximately 34,000-unit hazard, a free dealer repair, and 18 incident

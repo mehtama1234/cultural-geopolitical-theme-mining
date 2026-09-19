@@ -2984,6 +2984,10 @@ The [VRURC remedy event ledger](projects/us-marketplace-product-safety/data/vrur
 now formalizes the product-level hazard → notice → offered replacement →
 reported correction sequence while keeping purchaser recovery and practical
 exit open.
+The [Honda Talon repair event ledger](projects/us-marketplace-product-safety/data/honda-talon-repair-event-ledger-v1.json)
+adds a dealer-repair counterexample under a different recall key; direct-contact
+language and reported repair progress still do not establish purchaser receipt,
+safe mobility, or exit.
 
 The [WBNS access recheck](projects/us-safety-net-access/wbns-public-use-route-acquisition-audit-v1.md)
 confirms that current ICPSR catalog metadata and documentation are public,
