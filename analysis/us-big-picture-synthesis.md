@@ -74,7 +74,9 @@ but findings that recur across different evidence layers:
 3. **Institutions measure their own success more easily than lived recovery.**
    A complaint can be routed, a payment distributed, access restored, or a
    repair completed without showing receipt, adequacy, durable protection, or
-   restored choice. See the [remedy durability synthesis](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md).
+   restored choice. Even receipt varies by route: known-customer mailings,
+   claims processes, and complaint-derived lists have different check-cashing
+   rates. See the [remedy durability synthesis](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md).
 4. **Action is an ecology, not a ladder.** Staying, complaining, switching,
    voting, organizing, and silence each have different costs and meanings.
    Continued use can be dependence; silence can be futility; voting can express

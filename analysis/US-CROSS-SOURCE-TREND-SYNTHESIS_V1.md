@@ -210,6 +210,13 @@ friction, and Ombudsman facilitation. This makes effort and institutional
 escalation visible without turning inquiry volume into a failure rate or
 facilitation into verified receipt, cashing, recovery, trust, or exit.
 
+The [FTC refund-administration benchmark](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md)
+adds a route-specific receipt measure: its 2019 report gives average check-
+cashing rates of 64% for known-customer mailings, 93% for claims-process cases,
+and 89% when Consumer Sentinel supplied the recipient list. The rates are not
+one current remedy-success rate; they show that identification route,
+contactability, claims friction, and reissue rules shape what “receipt” means.
+
 This is the current end-to-end reading of the atlas. It is deliberately a
 bridge across different units, not a merge of respondents, households,
 complaints, workers, places, or countries. The [machine-readable trend
