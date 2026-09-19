@@ -227,6 +227,14 @@ These are real bridges, but each closes only part of the full chain:
   universes and clocks, but together show why staying housed is not the same
   as staying protected: payment, coverage, energy, repair, and mobility room
   can fail at different stages.
+- **Insurance recourse is not repair:** New York's 2025 DFS assistance unit
+  received 39,443 insurance complaints, closed 39,064, and reported more than
+  $121 million in recovery. In the mixed property-casualty/service-contract
+  category, 498 of 2,869 closed cases were labeled positive outcomes, with
+  about $17.95 million reported recovered. These figures make routing and
+  reported recovery visible, but do not show adequate claim payment, completed
+  repair, renewed coverage, temporary housing, or whether the household stayed
+  or moved.
 - **Migration, belonging, and political meaning:** the joint county screen
   does not produce a simple growth or foreign-born-share explanation for
   federal trust; the lowest trust cell is high-growth/mid-nativity, while
