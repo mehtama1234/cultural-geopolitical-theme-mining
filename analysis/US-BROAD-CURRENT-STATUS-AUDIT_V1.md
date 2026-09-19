@@ -110,6 +110,13 @@ The companion CFPB student-loan event-ledger dry-run keeps all 25 rows at
 receipt, routing, response labels, and administrative visibility are observed,
 but same-customer alternatives, remedy receipt, recovery, continued use,
 switching, non-use, trust, and action are not.
+The consumer-recourse bridge now also records a current credit-card slice
+labelled `Closed with monetary relief` and three named CFPB distribution routes
+(BrightSpeed, Navient, and ADSS). These advance company-response and
+administrator-distribution visibility, but do not establish recipient-level
+receipt, account correction, residual loss, trust, switching, or exit. The
+routes remain stage-compatible comparators rather than a common consumer
+denominator.
 The new [program-wide theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md)
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is

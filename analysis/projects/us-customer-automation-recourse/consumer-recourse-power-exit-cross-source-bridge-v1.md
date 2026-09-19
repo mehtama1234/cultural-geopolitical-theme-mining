@@ -1,6 +1,6 @@
 # Consumer recourse, institutional power, and practical exit cross-source bridge v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Scope:** US consumer-facing financial and service institutions  
 **Status:** compared administrative and cultural layers; no same-customer causal estimate
 
@@ -39,6 +39,20 @@ correction snapshot, while keeping purchaser exposure, replacement receipt,
 safe restoration, and residual cost open. These are stage-compatible cases,
 not joinable people or pooled remedy rates.
 
+The latest consumer-recourse rechecks add a sharper institutional-remedy
+ladder without closing the lived-outcome arrow. A current CFPB credit-card
+slice selects the company label `Closed with monetary relief`, but the public
+records do not identify the amount, issuance, receipt, account correction, or
+remaining loss for the selected complaints. Separate CFPB payment-by-case
+routes show three different distribution states: BrightSpeed reports an
+ongoing administrator distribution, Navient reports checks being received by
+affected consumers, and ADSS reports two completed compensation distributions.
+Those statements advance the aggregate or administrator stage; they do not
+provide recipient-level receipt, amount, residual burden, trust, switching, or
+exit. The [credit-card monetary-relief recheck](cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
+and [named redress-route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
+preserve these boundaries and source-vintage hashes.
+
 ## Source comparison
 
 | Source layer | Unit | What is measured | What remains outside the record |
@@ -49,6 +63,8 @@ not joinable people or pooled remedy rates.
 | [CFPB cultural-themes layer](cfpb-2025-consumer-financial-cultural-themes-layer-v1.md) | Complaint narrative/theme | Identity, essential access, rule legibility, human reach, time, dependence, and repair meanings | Theme prevalence in the population, measured attribution, dignity, trust change, and action |
 | [HTOPS fraud/loss follow-up](../us-cost-trust-politics/findings/us-cost-trust-politics-035.md) | Same respondent across April and June; retrospective fraud module | Exposure, reported loss, agency report/recovery, later food, energy, work-loss, and coded institutional context | Dated incident, verified remedy receipt, restored security, causal trust change, switching, and exit |
 | [CPSC VRURC recall implementation bridge](../us-marketplace-product-safety/findings/us-product-recall-response-003.md) | Single recall key across notice API and MPR snapshot | Hazard, injury signal, replacement offer, firm-reported consumer correction, and denominator mismatch | Purchaser identity, notice reach, replacement receipt, safe restoration, residual cost, trust, and exit |
+| [CFPB credit-card monetary-relief recheck](cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md) | 25-record response-category-conditioned complaint slice | Complaint receipt, product/date filter, company monetary-relief label, public-response visibility | Relief amount, issuance, receipt, account correction, residual loss, repeat effort, trust, switching, and exit |
+| [CFPB named redress routes](cfpb-named-redress-route-recheck-2026-09-18.md) | Named aggregate payment/distribution route | Eligibility or reported distribution stage, administrator, and current route status | Recipient-level receipt, amount, obligation/credit correction, remaining burden, trust, switching, and exit |
 | [SHED household fraud layers](../us-consumer-fraud-trust/shed-fraud-subgroup-layer-v1.md) and [annual comparison](../us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md) | Weighted adult respondent; separate annual samples | Fraud exposure, direct loss, unrecovered money, recovery time, age/income conditioning, and a 2024 payment-route screen | Verified account outcome, provider response, panel-level trust or exit, and a common denominator with CFPB/FTC |
 | [Consumer culture layer](../us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Customer/respondent, review, report, transaction | Search, privacy, help-seeking, reporting, reviews, status, trust, and practical use | Same-case linkage from experience to remedy and later exit |
 | [Firm/market power layer](../us-local-business-place/firm-market-power-distribution-layer-v1.md) | Firm, market, customer, worker, place | How terms, data, access, risk, and control may be distributed | A named case joining firm decision, customer burden, alternatives, remedy, and public response |
@@ -148,6 +164,8 @@ The cross-source case check now has three explicit boundaries:
 | Case surface | Unit held constant | Stage advanced | Stage still open |
 |---|---|---|---|
 | CFPB student-loan route | De-identified complaint case | Receipt → routing → response label | Verified correction, repeat effort, recovery, switching, trust, exit |
+| CFPB credit-card monetary-relief slice | Response-category-conditioned complaint case | Receipt → company `Closed with monetary relief` label | Amount, issuance, receipt, correction, residual loss, trust, switching, exit |
+| CFPB named redress routes | Aggregate or administrator route | Eligibility/distribution status, including reported checks or completed distributions | Recipient-level receipt, amount, correction, residual loss, trust, switching, exit |
 | HTOPS fraud/loss | Same respondent across two survey waves | Exposure → loss/report/recovery report → later household context | Dated incident, receipt, durable security, causal meaning/action, exit |
 | CPSC VRURC recall | Recall key/product episode | Hazard → notice/remedy → firm-reported correction | Purchaser reach, replacement receipt, safe restoration, residual cost, trust, exit |
 
