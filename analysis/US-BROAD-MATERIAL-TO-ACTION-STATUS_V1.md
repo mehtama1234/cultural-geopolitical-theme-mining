@@ -1,6 +1,6 @@
 # Material exposure to political meaning/action: status ledger v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Status:** focused program-control synthesis; not a new estimate  
 **Purpose:** choose the next broad-program test without collapsing judgment,
 trust, action, turnout, and withdrawal into one outcome
@@ -244,8 +244,11 @@ already establishes that the retained panel output does not expose the full
 actor, attribution, remedy, recovery, or action chain. The raw PUFs are not
 currently retained locally, so no rerun or new panel estimate is claimed in
 this pass; the CCES panel narrows the gap for work-to-action timing but still
-lacks a dated event and mechanism. If the required fields are unavailable,
-retain that acquisition gap and specify the smallest authenticated route.
+lacks a dated event and mechanism. The current qualification register screens
+17 retained routes and finds zero with all required stages; eight expose an
+alternative or non-use field and three expose verified remedy receipt or a
+defined outcome follow-up. If the required fields are unavailable, retain that
+acquisition gap and specify the smallest authenticated route.
 
 ## Promotion rule
 
