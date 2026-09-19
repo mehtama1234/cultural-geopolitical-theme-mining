@@ -1886,6 +1886,10 @@ reported participation from 90.3% to 92.3%, and 130,952 drivers were reported
 to have received full compensation. This is stronger than a reissue offer but
 not a driver-level recovery rate: payment linkage, remaining loss, continued
 work, household recovery, bargaining power, and exit remain open.
+The same distribution route is now represented in a [structured broad event
+ledger](projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json),
+which keeps program-level receipt/reissue evidence separate from individual
+worker recovery and later work or exit.
 
 The latest AI/work-control endpoint audit adds a storage-light stage check across
 local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.

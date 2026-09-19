@@ -1062,6 +1062,9 @@ then adds the next remedy stage: the FTC reports aggregate payment distribution,
 to 92.3%. It advances beyond an obligation or order and makes program-level
 receipt visible without closing driver-level linkage, remaining loss,
 continued work, household recovery, bargaining power, or exit.
+The companion [Amazon Flex structured event ledger](projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json)
+keeps the program-level unit and aggregate-versus-individual boundary explicit
+across the five remedy arrows.
 The [MEPS friction route-direction record](records/us-meps-2024-friction-route-direction-comparison.json)
 then rotates the program back to health: repeated-round denial or
 prior-authorization reports are followed by more perceived-health worsening,

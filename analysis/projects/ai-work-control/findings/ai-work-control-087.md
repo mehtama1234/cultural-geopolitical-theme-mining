@@ -1,6 +1,6 @@
 # Finding 087: Amazon Flex tip refunds show payment distribution without proving restored worker power
 
-**Status:** provisional named worker-remedy implementation finding · **Checked:** 2026-09-17
+**Status:** provisional named worker-remedy implementation finding · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -93,6 +93,7 @@ receipt or restored worker power from the aggregate total.
 - [FTC final consent-order announcement](https://www.ftc.gov/news-events/news/press-releases/2021/06/ftc-approves-final-administrative-consent-order-against-amazon-withholding-customer-tips-amazon-flex)
 - [FTC 2021 payment distribution announcement](https://consumer.ftc.gov/consumer-alerts/2021/11/ftc-returns-60-million-amazon-illegally-took-flex-drivers)
 - [Machine-readable worker-remedy record](../data/amazon-flex-driver-tip-refund-followup-2026.json)
+- [Structured broad event ledger](../data/amazon-flex-tip-refund-event-ledger-v1.json)
 
 **Storage boundary:** only public FTC pages were inspected; no driver file,
 payment roster, or bulk data was downloaded or retained.

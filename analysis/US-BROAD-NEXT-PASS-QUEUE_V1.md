@@ -276,6 +276,9 @@ now adds the FTC's annual-report receipt stage: 2,806 successful Zelle
 payments raised reported participation from 90.3% to 92.3%, and 130,952 drivers
 were reported fully compensated. This is an aggregate payment-reach result,
 not a driver-level recovery, continued-work, alternative-work, or exit result.
+The route is now also captured in a [structured broad event ledger](projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json),
+which separates the compensation obligation, distribution, reissue, aggregate
+receipt, individual receipt, and downstream worker-power stages.
 
 The small-business disaster-liquidity source pass adds a causal firm-level
 middle layer: recovery loans reduce exit and bankruptcy while increasing

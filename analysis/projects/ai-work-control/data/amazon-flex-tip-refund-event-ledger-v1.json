@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_administrator_refund_record",
+  "purpose": "De-identified program-level event ledger for the FTC Amazon Flex tip-refund administration; it separates formal compensation, distribution, reissue, individual receipt, and downstream worker power.",
+  "events": [
+    {
+      "event_id": "FTC-AMAZON-FLEX-REFUND-2024-12-31",
+      "unit": "case",
+      "geography": "United States; FTC Amazon Flex driver tip-refund program",
+      "actor_initiating_change": "agency",
+      "event_date": "2024-12-31",
+      "date_precision": "program administration status as of 31 Dec 2024; underlying practice late 2016 through Aug 2019 and payment rounds span 2021–2026",
+      "denominator": "Named refund program and eligible Amazon Flex drivers; complete eligible-driver denominator and driver-level status file are not public",
+      "method": "Structured extraction from FTC consent-order announcement, official payment announcements, current refund-administration page, annual refund report, and retained canonical observation record",
+      "missingness": "The public program record does not disclose driver-level eligibility, amount due, individual receipt timing, remaining loss, continued work, alternative work, household recovery, bargaining position, trust, or exit; aggregate counts are not individual outcomes",
+      "condition_or_decision": "payment",
+      "exposure": "FTC alleged that Amazon withheld customer tips from Flex drivers between late 2016 and August 2019",
+      "alternatives_before_action": "Alternative platforms, other work, non-use, savings, and household support are not observed; payment-channel friction is visible only through the uncashed-check reissue route",
+      "immediate_burden_or_benefit": "Potential withheld-tip income is the reported worker burden; individual tip amounts, timing, and net household incidence are not observed",
+      "choice_or_response": "FTC enforcement produced a consent order, payment rounds, and a current Zelle reissue route for eligible drivers who did not cash earlier checks",
+      "person_or_actor_with_control": "Amazon controlled the underlying pay practice and payment administration; the FTC controlled enforcement and public refund reporting",
+      "remedy_or_institutional_response": "The consent order designated $61,710,583 for driver compensation; FTC reports more than $60.6 million distributed through earlier rounds, 2,806 successful Zelle reissue payments, and 130,952 drivers reported fully compensated as of the annual report cutoff",
+      "immediate_outcome": "Program-level payment distribution and reissue stages are observed; individual receipt, amount received, and remaining loss are not",
+      "protected_outcome": "Aggregate payment reach is reported, but no driver-level protected income, restored work opportunity, or household security is verified",
+      "sacrificed_outcome": "The alleged withheld-tip income and possible payment-channel friction are visible as program risks; residual loss, unpaid time, and household trade-offs remain unknown",
+      "cost_risk_transfer": "The formal order and administrator distribution move a compensation obligation toward eligible drivers, while eligibility, delivery, cashing, and residual risk remain distributed across the program and workers",
+      "later_outcome": "Aggregate participation rose from 90.3% to 92.3% after the Zelle route in the reported program measure; continued platform work, alternative work, bargaining, household recovery, trust, and exit remain unknown",
+      "meaning_and_attribution": "The enforcement record attributes the practice and remedy architecture but supplies no worker-reported fairness, dignity, trust, or dependence measure",
+      "public_or_collective_response": "FTC enforcement and public refund administration are observed; driver organizing, bargaining, political action, and individual complaint effort are not",
+      "counterexample": "Administrator-reported distribution can advance payment reach without proving every driver received the amount due or changed platform use; failure to cash an earlier check can reflect channel or address friction rather than refusal",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official FTC consent-order, payment-distribution, annual-refund, and current refund-administration records as preserved in the canonical observation record; aggregate program measures are not representative worker estimates and do not prove individual receipt or recovery"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "AMAZON-FLEX-REFUND-A-01",
+      "from": "alleged withheld tips",
+      "to": "formal compensation obligation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "FTC consent-order announcement identifies the late-2016-to-August-2019 practice and a $61,710,583 driver-compensation obligation",
+      "status": "observed",
+      "counterexample": "A formal amount does not identify each driver's exposure, amount due, or net loss",
+      "remaining_gap": "Driver-level exposure, tip amount, eligibility, and contemporaneous notice"
+    },
+    {
+      "arrow_id": "AMAZON-FLEX-REFUND-A-02",
+      "from": "formal compensation obligation",
+      "to": "administrator-reported distribution",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "FTC reports November 2021 and May 2025 distribution rounds totaling more than $60.6 million",
+      "status": "reported",
+      "counterexample": "Aggregate dollars and rounds are not a payment rate or average driver recovery",
+      "remaining_gap": "Complete eligible denominator, amount due, payment status, and failed-delivery categories"
+    },
+    {
+      "arrow_id": "AMAZON-FLEX-REFUND-A-03",
+      "from": "uncashed or unaccepted first payment channel",
+      "to": "reissue route",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "FTC reports a current Zelle route for eligible drivers who did not cash checks and 2,806 successful Zelle payments in the annual report",
+      "status": "reported",
+      "counterexample": "A reissue route is evidence of administrative follow-up, not proof that the reissued payment reached or was usable by each driver",
+      "remaining_gap": "Driver-level reissue eligibility, payment date/channel, cashing, fees, and failure reason"
+    },
+    {
+      "arrow_id": "AMAZON-FLEX-REFUND-A-04",
+      "from": "reported distribution and reissue",
+      "to": "individual receipt and remaining-loss resolution",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The program reports 130,952 drivers fully compensated and participation rising from 90.3% to 92.3%, but publishes no driver-level linkage or residual-loss file",
+      "status": "open",
+      "counterexample": "Program-level reach can coexist with unknown individual receipt, amount, timing, and remaining loss",
+      "remaining_gap": "Identifier-bearing eligible-driver ledger, receipt, amount, timing, remaining loss, and correction"
+    },
+    {
+      "arrow_id": "AMAZON-FLEX-REFUND-A-05",
+      "from": "individual payment receipt",
+      "to": "continued work, alternatives, bargaining, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Public refund records contain no driver-level follow-up on continued Flex work, alternative work, household security, bargaining, trust, or exit",
+      "status": "open",
+      "counterexample": "Receipt may coexist with continued platform use, switching, or no observed behavioral change; none can be inferred from distribution",
+      "remaining_gap": "Post-payment work and alternative route, household outcome, worker voice, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger advances the evidence from compensation obligation to administrator-reported distribution and reissue. It does not establish individual payment receipt, full recovery, restored opportunity, continued or alternative work, bargaining power, household security, trust, or exit.",
+  "storage_boundary": "No driver file, payment roster, or bulk personal data is retained; only official aggregate program measures, source metadata, and explicit missingness boundaries are represented."
+}
