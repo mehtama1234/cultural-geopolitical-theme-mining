@@ -58,6 +58,29 @@ record as coding screens and are not translated into “high trust” without
 preserving the dictionary labels. The pattern is not monotonic across fraud,
 loss, reporting, and recovery groups.
 
+## Later online-search behavior
+
+The June file also records whether the same linked respondent or household
+searched online for housing, jobs, food, medical assistance, public benefits,
+or credit. Checkbox `-99` values mean “not selected” and are treated as valid
+negative responses; missing `-88` values are excluded.
+
+| April group | Job search | Food search | Benefit search | Credit search |
+|---|---:|---:|---:|---:|
+| No reported exposure (`n=751`) | 21.7% | 13.3% | 10.4% | 10.4% |
+| Exposure (`n=5,798`) | 32.8% | 22.2% | 16.1% | 16.8% |
+| Exposure + loss (`n=184`) | 37.6% | 43.3% | 32.1% | 29.7% |
+| Exposure + loss + report (`n=51`) | 44.9% | 36.9% | 28.4% | 22.5% |
+| Loss + report + reported recovery (`n=11`) | 50.8% | 29.0% | 31.0% | 33.2% |
+
+This adds a useful bridge: a prior reported loss is followed by more
+option-searching in the later wave, especially among the loss groups. The
+very small reported-recovery group does not show a clean reduction in search;
+its job, benefit, and credit-search shares remain high. That is a sparse
+counterexample to treating reported recovery as restored room or completed
+exit. Because the April fraud questions refer to the prior twelve months, the
+incident date and search timing within the interval remain unknown.
+
 ## Interpretation boundary
 
 This is stronger than a cross-sectional co-occurrence table because the same
@@ -80,7 +103,7 @@ change, or exit.
 |---|---|
 | Same respondent across April and June | Observed through exact `SCRAMID` intersection |
 | Retrospective exposure → loss/report/recovery | Reported and conditionally coded in April |
-| Later material context | Longitudinally associated June outcomes |
+| Later material context | Longitudinally associated June outcomes and online-search behavior |
 | Later trust/meaning | Later coded responses available, but not prior-to-later trust change |
 | Incident date, actor, alternative, effort | Open |
 | Remedy receipt and durability | Open |

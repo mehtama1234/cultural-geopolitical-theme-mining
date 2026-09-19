@@ -331,6 +331,11 @@ The pattern appears in at least six different systems:
    subgroup. Exposure is therefore not a household-loss rate, and a report is
    not recovery. The later food, energy, work-loss, and trust fields widen the
    context without supplying a verified remedy receipt or a practical exit.
+   The linked April-to-June extension adds a same-respondent adaptation arrow:
+   loss groups show more later online searching for jobs, food, benefits, and
+   credit, while the tiny reported-recovery group still searches heavily.
+   Searching indicates pressure and option-seeking; it does not show that an
+   option was found or that recovery restored security.
    Read the [fraud follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md)
    and [counterexample finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-035.md).
 

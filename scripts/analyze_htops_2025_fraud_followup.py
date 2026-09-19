@@ -11,7 +11,7 @@ from pathlib import Path
 
 
 APRIL_FIELDS = ["SCRAMID", "PWEIGHT", "FRAUD1", "FRAUD2", "FRAUD4", "FRAUD6"]
-JUNE_FIELDS = ["SCRAMID", "CURFOODSUF", "HSE16", "WRKLOSSRV", "TRUST1", "TRUST2_CONGRESS", "FEDSTAT_TRUST"]
+JUNE_FIELDS = ["SCRAMID", "CURFOODSUF", "HSE16", "WRKLOSSRV", "TRUST1", "TRUST2_CONGRESS", "FEDSTAT_TRUST", "AI4_1", "AI4_2", "AI4_4", "AI4_5", "AI4_6", "AI4_8"]
 
 
 def number(value: str | None) -> float | None:
@@ -24,6 +24,11 @@ def number(value: str | None) -> float | None:
 def valid(value: str | None) -> bool:
     parsed = number(value)
     return parsed is not None and parsed not in (-88, -99)
+
+
+def selected(value: str | None) -> bool:
+    parsed = number(value)
+    return parsed in (1, -99)
 
 
 def sha256(path: Path) -> str:
@@ -113,6 +118,12 @@ def main() -> int:
         "june_trust_federal_statistics_code_1": lambda row: (number(row["TRUST1"]) == 1) if valid(row["TRUST1"]) else None,
         "june_confidence_in_congress_code_1": lambda row: (number(row["TRUST2_CONGRESS"]) == 1) if valid(row["TRUST2_CONGRESS"]) else None,
         "june_statistics_policy_trust_code_1": lambda row: (number(row["FEDSTAT_TRUST"]) == 1) if valid(row["FEDSTAT_TRUST"]) else None,
+        "june_online_housing_search": lambda row: (number(row["AI4_1"]) == 1) if selected(row["AI4_1"]) else None,
+        "june_online_job_search": lambda row: (number(row["AI4_2"]) == 1) if selected(row["AI4_2"]) else None,
+        "june_online_food_search": lambda row: (number(row["AI4_4"]) == 1) if selected(row["AI4_4"]) else None,
+        "june_online_medical_search": lambda row: (number(row["AI4_5"]) == 1) if selected(row["AI4_5"]) else None,
+        "june_online_benefit_search": lambda row: (number(row["AI4_6"]) == 1) if selected(row["AI4_6"]) else None,
+        "june_online_credit_search": lambda row: (number(row["AI4_8"]) == 1) if selected(row["AI4_8"]) else None,
     }
     metrics = {
         group_name: {outcome_name: weighted_share(pairs, group, outcome) for outcome_name, outcome in outcomes.items()}

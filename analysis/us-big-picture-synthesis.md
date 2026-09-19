@@ -132,6 +132,12 @@ The newer pages make the map more concrete:
   sharply with difficulty. Search is therefore an option-discovery effort,
   not proof of an obtained alternative, AI-mediated decision, remedy, or exit.
   Read the [HTOPS online-search and AI-trust finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md).
+- The April-to-June linked HTOPS fraud follow-up adds a same-respondent bridge:
+  people reporting earlier fraud exposure, especially loss, show more later
+  searching for jobs, food, benefits, and credit. The tiny reported-recovery
+  group still searches heavily, so reported recovery is not the same as
+  restored room or security. This is an association with uncertain timing,
+  not a causal remedy or exit result.
 
 These are not versions of one theory. They are places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
 
