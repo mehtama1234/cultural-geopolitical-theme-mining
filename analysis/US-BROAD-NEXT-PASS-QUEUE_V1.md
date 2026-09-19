@@ -317,6 +317,11 @@ not a causal aid-to-action result; the next route is a lawful same-resident
 link to verified aid, displacement, health/work recovery, and later civic
 behavior.
 
+The [Harvey cross-source event ledger](projects/us-small-business-disaster-liquidity/data/harvey-firm-customer-resident-event-ledger-v1.json)
+now preserves this chronology as four explicit arrows. It marks the firm,
+customer/model, and resident survey units as non-pooled; the next decisive
+artifact remains a lawful same-resident or same-firm remedy-and-outcome link.
+
 The disaster-recovery synthesis now makes the cross-source architecture
 explicit: public credit, owner cash buffers, customer travel, and resident
 fairness judgments are separate currencies that can move in opposite

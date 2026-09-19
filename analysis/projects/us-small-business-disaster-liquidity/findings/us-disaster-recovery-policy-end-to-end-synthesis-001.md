@@ -19,6 +19,10 @@ not one joined causal dataset:
    with continued disruption, unmet-help reports, and doubts that relief reached
    those most in need.
 
+The [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
+formalizes the shared chronology and open arrows without pooling the underlying
+firm, customer, modeled-welfare, and resident-survey denominators.
+
 Together these findings support a more disciplined broad claim: public
 intervention can change the survival of firms and the availability of local
 options, but its social meaning depends on who receives liquidity, who bears
@@ -117,6 +121,7 @@ administrative, or household files.
 - [Owner-household finding](../../us-owner-household-business-tradeoff/findings/us-owner-business-revenue-consumption-covid-001.md)
 - [Harvey customer-welfare finding](us-harvey-firm-turnover-consumer-welfare-001.md)
 - [Harvey recovery-and-legitimacy finding](us-harvey-recovery-aid-legitimacy-001.md)
+- [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
 - [Small-business size-rule finding](../../us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md)
 - [Project source packet](../source-search-2026-09-11.md)
 

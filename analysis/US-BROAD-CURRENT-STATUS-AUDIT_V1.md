@@ -2063,6 +2063,10 @@ customer travel distance, modeled welfare, and resident disruption/unmet-help
 surfaces. These do not establish worker household security, affordable service,
 owner recovery, aid causality, or political legitimacy.
 
+The [Harvey cross-source event ledger](projects/us-small-business-disaster-liquidity/data/harvey-firm-customer-resident-event-ledger-v1.json)
+now formalizes the four-stage chronology and keeps its heterogeneous units and
+denominators explicit; it does not create a person-level causal join.
+
 The [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md)
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside

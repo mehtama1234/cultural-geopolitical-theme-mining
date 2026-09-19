@@ -32,6 +32,10 @@ disruption, unmet-help reports, and doubts that relief reached those most in
 need. It is descriptive survey evidence, not a causal aid-to-political-action
 estimate.
 
+The [Harvey cross-source event ledger](data/harvey-firm-customer-resident-event-ledger-v1.json)
+now makes the route machine-readable while explicitly preserving the separate
+firm, cardholder/store/model, and resident-survey units and denominators.
+
 The [end-to-end synthesis](findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md)
 now combines the firm, owner-household, customer, and resident-judgment layers.
 It treats recovery as redistribution across money, time, access, security, and

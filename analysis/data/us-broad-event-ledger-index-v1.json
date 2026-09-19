@@ -29,6 +29,11 @@
       "role": "linked business-revenue shock and owner-consumption buffering"
     },
     {
+      "path": "analysis/projects/us-small-business-disaster-liquidity/data/harvey-firm-customer-resident-event-ledger-v1.json",
+      "domain": "disaster_recovery_cross_source",
+      "role": "stage-compatible firm turnover, customer access, resident recovery, and legitimacy surface"
+    },
+    {
       "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
       "domain": "consumer_financial_recourse",
       "role": "bounded administrative complaint route sample"
