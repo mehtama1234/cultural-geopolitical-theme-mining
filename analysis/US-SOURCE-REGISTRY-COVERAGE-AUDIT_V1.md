@@ -155,7 +155,7 @@ BLS). Remaining domains may be mirrors, delivery hosts, partner sites, or
 one-off citations. Promote a domain only when it represents a durable source
 family that will be acquired, compared, or maintained over time.
 
-- Observed domains outside registered families: **95**
+- Observed domains outside registered families: **98**
 - Review queue shown: **40** highest-frequency domains
 
 | Domain | References | Example evidence files |
@@ -198,8 +198,8 @@ family that will be acquired, compared, or maintained over time.
 | `legistar.council.nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-local-law-25-algorithmic-work-study-record-v1.md`; `analysis/projects/ai-work-control/nyc-local-law-25-algorithmic-work-study-record-v1.md`; `analysis/records/us-nyc-local-law-25-algorithmic-work-study-2026.json` |
 | `nyc.gov` | 4 | `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md`; `analysis/projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md` |
 | `production.humanresourcesonline.net` | 4 | `analysis/projects/ai-work-control/malaysia-gig-workers-act-algorithmic-remedy-record-v1.md`; `analysis/projects/ai-work-control/malaysia-act872-outcome-acquisition-audit-2026-09-15.md`; `analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md` |
+| `pubs.usgs.gov` | 4 | `analysis/projects/ai-work-control/china-gallium-germanium-export-control-licensing-event-v1.md`; `analysis/projects/ai-work-control/gao-2026-critical-minerals-substitution-recycling-dependence-layer-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-085.md` |
 | `sayrhino.com` | 4 | `analysis/us-theme-atlas.md`; `analysis/us-source-coverage.md`; `analysis/projects/us-rent-guarantee-insurance/source-search-2026-09-11.md` |
-| `sites.google.com` | 4 | `analysis/projects/ai-work-control/nber-w35677-paper-method-audit-2026-09-14.md`; `analysis/projects/ai-work-control/nber-w35677-index-acquisition-v1.md`; `analysis/projects/ai-work-control/findings/ai-work-control-028.md` |
 
 ## Reverse-audit decisions
 
@@ -248,6 +248,7 @@ without a recurring acquisition need and source-specific metadata.
 | `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `production.humanresourcesonline.net` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `sayrhino.com` | commercial case source | Do not register as a recurring family yet; preserve product terms and use official state/regulatory records for durable claims. |
 | `sites.google.com` | delivery/repository host | Do not register; preserve the NBER paper, author, institution, or source record separately. |
 | `support.leapeasy.com` | commercial support host | Do not register; support content is a product-route citation, not an independent recurring evidence family. |
@@ -262,7 +263,6 @@ without a recurring acquisition need and source-specific metadata.
 | `ils.dole.gov.ph` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `investors.capgemini.com` | company disclosure host | Do not register separately; preserve Capgemini as the company source family and the report/version as the evidence item. |
 | `jtksm.mohr.gov.my` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `pubs.usgs.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `subscriptionmembershipsettlement.com` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `w.mesko.com.pl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `wetgevingskalender.overheid.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -290,6 +290,8 @@ without a recurring acquisition need and source-specific metadata.
 | `denkfabrik-bmas.de` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `dol.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ec.europa.eu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `english.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `exportcontrol.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `finlex.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `howhousingmatters.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `hrsdata.isr.umich.edu` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -304,6 +306,7 @@ without a recurring acquisition need and source-specific metadata.
 | `open.gsa.gov` | government API delivery host | Do not register separately; preserve GSA/USAspending as the durable source family and the endpoint as the query route. |
 | `rechtspraak.nl` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `senat.fr` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `usitc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `vero.fi` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 
 ## Interpretation rule
