@@ -24,6 +24,11 @@
       "role": "linked respondent-cohort exposure, loss, reporting, and later context"
     },
     {
+      "path": "analysis/projects/us-owner-household-business-tradeoff/data/owner-business-covid-revenue-consumption-event-ledger-v1.json",
+      "domain": "owner_household_business_tradeoff",
+      "role": "linked business-revenue shock and owner-consumption buffering"
+    },
+    {
       "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-student-loan-event-ledger-2024-25.json",
       "domain": "consumer_financial_recourse",
       "role": "bounded administrative complaint route sample"

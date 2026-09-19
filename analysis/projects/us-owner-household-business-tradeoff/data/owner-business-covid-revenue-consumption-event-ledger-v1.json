@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "linked_financial_account_study",
+  "purpose": "De-identified linked business-owner cohort event ledger for the COVID-19 revenue-to-consumption route; it records household buffering without treating the result as a disaster-loan or worker/customer outcome.",
+  "events": [
+    {
+      "event_id": "OWNER-BUSINESS-COVID-2020-03-13",
+      "unit": "case",
+      "geography": "United States; linked small-business and owner-household financial-account study",
+      "actor_initiating_change": "unknown",
+      "event_date": "2020-03-13",
+      "date_precision": "national-emergency period; business-revenue and account timing are study-window measures rather than one disclosed firm incident date",
+      "denominator": "Linked small-business and owner-household account panel; exact analytical counts and account-selection rules are not exposed on the retained official abstract surface",
+      "method": "Structured extraction from the retained canonical record and official NBER Working Paper 28151 abstract-level design and result; no account data, code, or paper PDF retained",
+      "missingness": "The retained public summary does not disclose exact panel counts, firm identifiers, owner buffers, transfers by account, debt timing, business survival, worker outcomes, customer access, or political response; unknown fields are not zeros",
+      "condition_or_decision": "income",
+      "exposure": "Business revenue fell approximately 40% during the first two months after the March 2020 National Emergency",
+      "alternatives_before_action": "Cash buffers, federal transfers, PPP or other aid, private credit, reduced spending opportunities, and business investment alternatives are discussed as mechanisms but not observed for each linked owner",
+      "immediate_burden_or_benefit": "Owner consumption fell by an estimated $0.016 per dollar of lost business revenue on average; the household categories and timing behind the average are not exposed",
+      "choice_or_response": "The linked accounts show partial household pass-through and muted persistence through 2021; the retained summary does not identify individual borrowing, payment delay, aid application, or business investment choices",
+      "person_or_actor_with_control": "The business-owner household shares a linked financial environment, while federal subsidies and pandemic spending restrictions are proposed explanatory conditions; actor-specific control is not identified",
+      "remedy_or_institutional_response": "Federal subsidies and unusual limits on spending opportunities are reported as possible buffers; no owner-specific remedy receipt, correction, or institutional decision is observed",
+      "immediate_outcome": "A measured firm-revenue-to-linked-owner-consumption pass-through is observed at the cohort level, with substantial average consumption smoothing",
+      "protected_outcome": "Average owner consumption appears partially protected relative to the revenue shock; the source does not establish that food, housing, health, care, or debt obligations were protected for each owner",
+      "sacrificed_outcome": "Business revenue and some owner consumption were reduced; the allocation across savings, debt, investment, workers, customers, and household needs remains unknown",
+      "cost_risk_transfer": "The small average pass-through may reflect buffers, aid, timing, or unavailable spending opportunities; the route does not identify who absorbed the residual risk",
+      "later_outcome": "Muted revenue-to-consumption pass-through persisted through 2021, including after vaccines became available; firm survival, repayment, worker security, customer access, trust, action, and exit remain unknown",
+      "meaning_and_attribution": "No owner-reported fairness, attribution, dignity, trust, or political judgment endpoint is retained",
+      "public_or_collective_response": "The study context includes federal subsidies and pandemic restrictions, but no owner-level application, complaint, organizing, or political-action endpoint is observed",
+      "counterexample": "Limited consumption pass-through is not proof of low household exposure, business health, or worker security; COVID aid and restricted spending opportunities make this route distinct from a natural-disaster loan intervention",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Retained canonical record based on NBER Working Paper 28151 official abstract-level design and result; linked account selection, exact counts, standard errors, and full specification are not retained, and the COVID shock cannot be pooled with the disaster-loan study"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "OWNER-BUSINESS-COVID-A-01",
+      "from": "business revenue shock",
+      "to": "owner-household consumption",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Linked account study reports a 40% early revenue decline and an estimated 1.6-cent owner-consumption decline per dollar of lost revenue",
+      "status": "estimated",
+      "counterexample": "Average consumption smoothing can reflect buffers, aid, or restricted spending rather than absence of household burden",
+      "remaining_gap": "Owner-level wealth, cash, debt, transfer, category, and payment timing"
+    },
+    {
+      "arrow_id": "OWNER-BUSINESS-COVID-A-02",
+      "from": "early revenue shock",
+      "to": "muted pass-through through 2021",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The retained NBER summary reports muted revenue-to-consumption pass-through persisting through 2021",
+      "status": "reported",
+      "counterexample": "Persistence of an average pass-through does not identify later buffer depletion or recovery for individual owners",
+      "remaining_gap": "Account-level savings, debt, business survival, aid timing, and category recovery"
+    },
+    {
+      "arrow_id": "OWNER-BUSINESS-COVID-A-03",
+      "from": "household buffering context",
+      "to": "business survival and investment",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The retained summary does not link owner consumption buffering to firm survival, investment, or repayment outcomes",
+      "status": "open",
+      "counterexample": "A household can smooth consumption while a business contracts, borrows, or exits",
+      "remaining_gap": "Firm continuation, investment, debt, repayment, and owner-buffer depletion"
+    },
+    {
+      "arrow_id": "OWNER-BUSINESS-COVID-A-04",
+      "from": "business-owner shock",
+      "to": "worker and customer outcomes",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The linked account summary does not observe worker pay/hours/quality or customer prices/access/service continuity",
+      "status": "open",
+      "counterexample": "Owner consumption stability cannot stand in for worker security or customer welfare",
+      "remaining_gap": "Worker and customer identifiers, dated outcomes, substitution, and local service continuity"
+    },
+    {
+      "arrow_id": "OWNER-BUSINESS-COVID-A-05",
+      "from": "household/business shock",
+      "to": "trust, political judgment, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "No owner-level attribution, trust, political action, business exit reason, or household mobility endpoint is retained",
+      "status": "open",
+      "counterexample": "A linked financial account is not a measure of meaning, legitimacy, action, or practical exit",
+      "remaining_gap": "Attribution, trust, action, business closure, household security, and later exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a partial linked business-revenue-to-owner-consumption route for the early COVID period. It does not establish a natural-disaster loan effect, owner welfare for every account, business survival, worker or customer outcomes, trust, political action, or exit.",
+  "storage_boundary": "No paper PDF, financial-account data, code, direct identifier, or data appendix is retained; only the bounded canonical summary, source URL, and uncertainty fields are represented."
+}

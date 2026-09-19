@@ -2368,6 +2368,12 @@ is now linked directly alongside the finding, preserving the same-respondent
 intersection, selective retention, retrospective exposure clock, and sparse
 11-person recovery cell.
 
+The [owner-business COVID revenue/consumption route](records/us-owner-business-revenue-consumption-covid-2020.json)
+now has a [structured broad event ledger](projects/us-owner-household-business-tradeoff/data/owner-business-covid-revenue-consumption-event-ledger-v1.json).
+It formalizes a linked business-to-owner-consumption arrow and keeps that COVID
+study separate from the natural-disaster loan result, with worker, customer,
+survival, trust, action, and exit endpoints still open.
+
 The [Rehman platform remedy finding](projects/ai-work-control/findings/ai-work-control-091.md)
 adds a different, observed remedy-stage boundary: one Australian platform
 worker's deactivation was followed by an application, voluntary reactivation,

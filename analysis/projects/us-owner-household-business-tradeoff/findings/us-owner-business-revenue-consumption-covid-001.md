@@ -1,6 +1,6 @@
 # Finding 001: A business revenue shock reached the owner household, but only partially
 
-**Status:** linked account evidence summary · **Checked:** 2026-09-17
+**Status:** linked account evidence summary · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -41,6 +41,10 @@ This is the missing owner-household bridge for the disaster-liquidity lane, but
 it is a different shock and intervention environment. It should be paired with
 the disaster-loan case as a cross-case comparison, not presented as evidence
 that SBA recovery loans caused the owner-household result.
+
+The partial route is now represented in a [structured broad event ledger](../data/owner-business-covid-revenue-consumption-event-ledger-v1.json),
+which keeps the linked business-owner cohort, average pass-through, persistence,
+and open business/worker/customer/meaning arrows mechanically distinct.
 
 ## Interpretation rule
 
