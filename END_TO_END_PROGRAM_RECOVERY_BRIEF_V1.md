@@ -46,7 +46,8 @@ next valid advance is an authorized event-compatible acquisition or a retained
 subgroup/place reversal that changes an open arrow. Another aggregate exposure
 or settlement count does not qualify as end-to-end closure.
 
-The strongest retained same-unit bridges are now explicit: [MEPS event to
+The strongest retained same-unit bridges are now explicit in the [bridge
+matrix](analysis/US-BROAD-RETAINED-SAME-UNIT-BRIDGE-MATRIX_V1.md): [MEPS event to
 later-panel follow-up](analysis/projects/us-household-constraint-cascade/meps-event-six-month-followup-v1.md)
 places a dated person-level event before later health and work transitions;
 [SHED persistence](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
