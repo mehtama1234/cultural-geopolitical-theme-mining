@@ -3185,10 +3185,12 @@ do not rank informal and formal support or build a resilience score from
 co-occurring protections.
 
 The [Census HTOPS 2026 social-connectedness acquisition gate](projects/us-cost-trust-politics/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.md)
-is the next concrete bridge candidate. First verify the corrected March 2026
-vintage, person/household unit, reference periods, compatible denominators,
-standard errors, and PUF linkage; then retrieve only the minimum table or file
-needed for one pre-specified contrast such as expense difficulty × loneliness.
+has now been executed for the corrected March 2026 PUF: person/household unit,
+reference periods, compatible denominators, standard errors, and replicate-
+weight alignment were checked, and the bounded expense-difficulty × social-
+connection screen is published. The remaining gap is not another same-release
+contrast; it is repeated or event-compatible evidence of practical help,
+recovery, trust change, community engagement, or action.
 
 The HTOPS social-connectedness route remains table-artifact-blocked: the
 official index says corrected March tables will be reposted, and its two
