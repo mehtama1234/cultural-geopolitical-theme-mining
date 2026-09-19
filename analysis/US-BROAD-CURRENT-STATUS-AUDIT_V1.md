@@ -2992,3 +2992,13 @@ exact `SCRAMID` overlap with either, while April–June retains 6,564 linked
 respondents. This closes the tempting but invalid three-wave extension: the
 HTOPS fraud route remains an April–June exploratory linkage, not a February
 baseline or a verified recovery panel.
+
+The reader layer now also promotes two bounded cross-theme bridges: the [AI
+management, bargaining, and voice record](records/us-ai-management-bargaining-voice-crosssource-2024-2026.json)
+places productivity/time, algorithmic monitoring, executive expectations, and
+formal representation before the still-open worker-control arrow; the
+[health-cost end-to-end synthesis record](records/us-health-cost-household-choice-end-to-end-2024-2026.json)
+places care foregoing, household adaptation, credit, randomized coverage/debt
+relief evidence, and institutional confidence beside one another without
+claiming a same-episode legitimacy pathway. These additions strengthen the
+map's cross-theme coverage without changing the 18-surface promotion gate.
