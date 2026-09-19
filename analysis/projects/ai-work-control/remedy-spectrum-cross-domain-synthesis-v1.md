@@ -34,6 +34,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Agency-reported telephone intervention | DOJ IER employment-document cases | Four selected summaries report a worker barrier followed by IER contact and employer correction, including rehire, continued work, six days of back pay, $3,400, $264, or $2,615 plus a reinstatement offer; the [structured ledger](data/ier-telephone-intervention-remedy-event-ledger-v1.json) preserves the sequence without claiming worker-confirmed recovery | Worker confirmation, payment receipt, accepted restoration, alternatives, recurrence, household recovery, trust, and exit |
 | Adjudicated alternative-employment remedy | Fair Work Commission site-clearance case | One public case reports termination after site-clearance revocation, new lower-paid work three weeks later with significant travel costs, and an $18,192 plus superannuation compensation order; the [structured ledger](data/fwc-site-clearance-alternative-employment-remedy-event-ledger-v1.json) keeps alternative employment, trade-off, order, and receipt separate | Payment receipt, duration/equivalence of alternative work, household recovery, trust, recurrence, action, and exit |
 | Adjudicated unsuccessful alternative search | Fair Work Commission Greaves case | One primary decision records unsuccessful job search, eight weeks of assessed lost income, and an $8,025 plus superannuation compensation order with a payment deadline; the [structured ledger](data/fwc-no-alternative-employment-remedy-event-ledger-v1.json) keeps search effort, unemployment, order, and receipt separate | Payment receipt, later employment, household recovery, trust, recurrence, action, and exit |
+| Adjudicated non-return after workplace mechanism dispute | Fair Work Commission customer-allocation case | One primary decision records 11 job applications, new employment, a stated refusal of reinstatement because of the customer-allocation mechanism, seven weeks and five days out of work, and a $4,312 compensation order; the [structured ledger](data/fwc-alternative-employment-nonreturn-remedy-event-ledger-v1.json) keeps non-return meaning/action distinct from standardized trust and receipt | Payment receipt, job duration, standardized trust, household recovery, recurrence, switching, and exit |
 | Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
 | Adjudicated access and lost-pay remedy | Tanzeel Ur Rehman and Portier Pacific, Australia | Fair Work Commission records voluntary reactivation, a formal order restoring access, and A$7,096.96 gross lost remuneration ordered after deactivation | Payment receipt, net recovery, expenses, alternative work, durable access, recurrence protection, and practical exit |
 | Multi-sided platform redress | Grubhub drivers, diners, and restaurants | FTC reports more than $23.8m in payments to 640,038 affected consumers, alongside requirements for honest driver-pay advertising, blocked-account disputes, and restaurant consent | Group-specific payment and correction, implementation, continued dependence, alternatives, trust, and exit |
@@ -114,6 +115,13 @@ an eight-week loss before ordering compensation. Together, the two cases show
 that “adaptation” must distinguish obtained replacement work from unsuccessful
 search effort and continued unemployment; neither outcome establishes receipt
 of the legal remedy or later recovery.
+
+The customer-allocation case adds a bounded meaning/action signal. The worker
+applied for 11 jobs, obtained a new role, and stated that she did not want
+reinstatement because of the employer's customer-allocation mechanism. This is
+stronger than inferring distrust from a complaint alone, but it remains a
+case-level attribution rather than a standardized trust measure; the order's
+payment and the later trajectory remain open.
 
 Amazon Flex adds a fourth observable point on the same spectrum: distribution
 has occurred and the administrator is still addressing uncashed payments. That

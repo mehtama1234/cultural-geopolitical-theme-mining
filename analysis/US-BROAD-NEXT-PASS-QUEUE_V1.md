@@ -1191,7 +1191,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 24 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 25 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1221,14 +1221,18 @@ The [structured FWC site-clearance ledger](projects/ai-work-control/data/fwc-sit
 adds a same-case reported alternative job, lower-pay/travel trade-off, and
 compensation order. Treat it as a stronger alternative-stage comparator, not
 as proof of payment, household recovery, or practical exit.
+The [structured FWC customer-allocation ledger](projects/ai-work-control/data/fwc-alternative-employment-nonreturn-remedy-event-ledger-v1.json)
+adds 11 documented applications, alternative employment, and an explicit
+non-return reason linked to the workplace allocation mechanism. Treat this as
+a partial meaning/action endpoint, not a trust, receipt, or exit measure.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
 opportunity.
 
-**Stage-bottleneck promotion gate (2026-09-18):** across those 24 surfaces,
-20 have an observed dated event/exposure and 21 have an observed institutional
-or firm response, but only 3 have an observed alternative/non-use stage, 1 has
+**Stage-bottleneck promotion gate (2026-09-18):** across those 25 surfaces,
+21 have an observed dated event/exposure and 22 have an observed institutional
+or firm response, but only 4 have an observed alternative/non-use stage, 1 has
 an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record
 now encodes `qualifies: false` and requires both fields on the same retained

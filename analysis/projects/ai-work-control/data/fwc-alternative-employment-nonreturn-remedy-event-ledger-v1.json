@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Primary Fair Work Commission case ledger preserving job-search effort, alternative employment, an explicit non-return decision attributed to a workplace mechanism, and an ordered compensation remedy without treating the order as payment receipt.",
+  "events": [
+    {
+      "event_id": "FWC-CUSTOMER-ALLOCATION-2023-06-28",
+      "unit": "worker",
+      "geography": "Melbourne, Australia; Fair Work Commission case [2023] FWC 2485",
+      "actor_initiating_change": "employer",
+      "event_date": "2023-06-28",
+      "date_precision": "dismissal date; decision records new employment on 2023-09-04 and compensation order within 21 days",
+      "denominator": "One publicly identified adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision and linked order reference",
+      "missingness": "Worker identity beyond the public case name, alternative-offer set, payment receipt, net household effect, later job duration, recurrence, collective action, and exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer dismissed a part-time sales/beauty consultant after disputed performance warnings and an unresolved customer-allocation or sales-target mechanism",
+      "alternatives_before_action": "The worker applied for 11 job vacancies between 2023-07-07 and 2023-08-14 and began new full-time employment on 2023-09-04; the public record does not enumerate other feasible offers or non-use choices",
+      "immediate_burden_or_benefit": "The worker was out of work for seven weeks and five days; the Commission found the new role paid at least an equivalent amount and assessed economic loss at $4,312",
+      "choice_or_response": "The worker challenged the warnings, sought clarification and assistance, filed an unfair-dismissal application, applied for alternative jobs, and stated she no longer wished to return because of the employer's customer-allocation mechanism",
+      "person_or_actor_with_control": "Employer controlled warnings, customer allocation, and termination; the worker controlled challenge, job search, and non-return position; the Commission controlled remedy",
+      "remedy_or_institutional_response": "The Commission found dismissal unfair, deemed reinstatement inappropriate, and ordered $4,312 compensation within 21 days",
+      "immediate_outcome": "Alternative employment, explicit non-return reasoning, assessed economic loss, and an ordered compensation remedy are observed; payment receipt is not",
+      "protected_outcome": "The worker obtained a new role and a formal compensation route; the Commission found no economic loss after the new employment began",
+      "sacrificed_outcome": "The worker lost seven weeks and five days of work and the original employment relationship; customer-allocation concerns and the longer-term employment effect remain bounded",
+      "cost_risk_transfer": "The worker carried search and unemployment costs before the new role; the employer was assigned a compensation obligation subject to execution",
+      "later_outcome": "New employment and a stated refusal of reinstatement are observed, but payment receipt, job duration, household recovery, recurrence, later trust, collective action, switching, and exit remain unknown",
+      "meaning_and_attribution": "The worker's stated non-return position attributes an unacceptable employment relationship to the customer-allocation mechanism; this is a case-level meaning/action signal, not a standardized trust measure",
+      "public_or_collective_response": "The worker used the formal Commission route and job-search response; no later collective or political action is reported",
+      "counterexample": "Alternative employment and non-return can coexist with economic loss and a compensation order; an explicit refusal to return is not the same as measured institutional distrust or practical exit",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2023] FWC 2485, https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2485.pdf; decision records 11 applications, new employment, non-return reasoning, assessed loss, and a 21-day compensation order, but no payment receipt or later follow-up"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-CUSTOMER-A-01",
+      "from": "dismissal and workplace allocation dispute",
+      "to": "job-search effort and alternative employment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records 11 job applications from July 7 to August 14 and new full-time employment beginning September 4 after dismissal on June 28",
+      "status": "observed",
+      "counterexample": "Job-search counts and a new role do not reveal all available alternatives, search costs, or whether the new job was equivalent",
+      "remaining_gap": "Offer set, search intensity, constraints, job duration, and long-term equivalence"
+    },
+    {
+      "arrow_id": "FWC-CUSTOMER-A-02",
+      "from": "customer-allocation mechanism and employment breakdown",
+      "to": "stated non-return decision",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The worker submitted that reinstatement was inappropriate because she no longer wished to work there due to the customer-allocation mechanism; the Commission observed alternative employment",
+      "status": "observed",
+      "counterexample": "A stated non-return reason is not a standardized trust scale or proof that all future platform/workplace options were rejected",
+      "remaining_gap": "Meaning intensity, trust, identity, later switching, and whether non-return was voluntary under feasible alternatives"
+    },
+    {
+      "arrow_id": "FWC-CUSTOMER-A-03",
+      "from": "alternative employment and assessed seven-week loss",
+      "to": "ordered compensation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found economic loss of $4,312 and ordered compensation in that amount within 21 days",
+      "status": "observed",
+      "counterexample": "An order and deadline do not prove payment receipt or net recovery",
+      "remaining_gap": "Payment execution, receipt, taxation, and residual loss"
+    },
+    {
+      "arrow_id": "FWC-CUSTOMER-A-04",
+      "from": "new employment and non-return decision",
+      "to": "later trust, recovery, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public decision ends at the new role, non-return reasoning, and compensation order without later household, trust, recurrence, or exit follow-up",
+      "status": "open",
+      "counterexample": "A non-return decision may reflect a bounded workplace dispute rather than durable institutional distrust or broad labor-market exit",
+      "remaining_gap": "Payment receipt, job duration, household recovery, later trust, recurrence, collective action, switching, and exit"
+    },
+    {
+      "arrow_id": "FWC-CUSTOMER-A-05",
+      "from": "formal remedy route",
+      "to": "durable institutional correction",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The Commission found the dismissal unfair and ordered compensation, but the public decision reports no employer correction to the customer-allocation mechanism or recurrence monitoring",
+      "status": "open",
+      "counterexample": "Individual compensation can coexist with unchanged workplace allocation practices",
+      "remaining_gap": "Process correction, recurrence, worker voice, monitoring, and comparable-worker outcomes"
+    }
+  ],
+  "boundary": "This ledger adds one primary adjudicated case with observed job-search effort, alternative employment, an explicit non-return decision tied to a workplace mechanism, and an ordered compensation remedy. It does not establish payment receipt, full trust measurement, household recovery, recurrence, action, switching, or exit.",
+  "storage_boundary": "No claimant file, direct identifier beyond the public case reference, bulk archive, or payment instrument is retained; only bounded primary decision fields, dates, observed job-search and non-return stages, remedy amount, uncertainty, and open downstream arrows are represented."
+}
