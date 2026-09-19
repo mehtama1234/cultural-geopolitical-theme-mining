@@ -574,7 +574,7 @@ These are real bridges, but each closes only part of the full chain:
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
 - **Remedy visibility is still not remedy recovery:** across the 35 retained
-  event ledgers and 207 events, 32 events carry an explicit remedy stage; nine
+  event ledgers and 209 events, 34 events carry an explicit remedy stage; 11
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
   The other 175 events have no explicit remedy-stage field. This is not proof
@@ -583,7 +583,7 @@ These are real bridges, but each closes only part of the full chain:
   the affected person regained a protected outcome or practical choice. See
   the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
   The stage is also source-dependent: the employment/control ledgers carry 22
-  explicit remedy stages across 32 events, product-safety ledgers carry 6 of 6,
+  explicit remedy stages across 33 events, product-safety ledgers carry 6 of 6,
   customer-recourse ledgers carry 4 of 54, and health-cost ledgers carry 0 of
   100. This is a documentation-pattern comparison, not evidence that one
   domain remedies people better than another.

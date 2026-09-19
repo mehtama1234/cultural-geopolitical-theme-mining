@@ -149,7 +149,7 @@
     {
       "source": "analysis/records/us-doj-ier-individual-remedy-followups-2026.json",
       "unit": "individual_ier_resolution_summaries",
-      "records": 5,
+      "records": 6,
       "stage_status": {
         "dated_event_or_exposure": "observed_reported_employment_episode",
         "responsible_actor": "partial_anonymous_employer_summary",
@@ -178,7 +178,7 @@
         "meaning_trust_or_action": "open",
         "recovery_persistence_or_exit": "open"
       },
-      "boundary": "Five selected IER summaries provide a tighter barrier-to-intervention-to-correction sequence, including reported rehire, continued work, and back pay; worker confirmation, accepted restoration, alternatives, household recovery, trust, and exit are not public."
+      "boundary": "Six selected IER summaries provide a tighter barrier-to-intervention-to-correction sequence, including reported rehire, continued work, exact back-pay reporting, and back pay; worker confirmation, accepted restoration, alternatives, household recovery, trust, and exit are not public."
     },
     {
       "source": "analysis/projects/ai-work-control/ier-daca-rehire-wage-seniority-record-v1.md",
