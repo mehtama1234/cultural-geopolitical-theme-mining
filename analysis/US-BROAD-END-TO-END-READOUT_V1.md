@@ -655,6 +655,10 @@ These are real bridges, but each closes only part of the full chain:
   verify receipt, benefit use, durable employment, household recovery, or
   trust.
 
+The cross-domain [remedy implementation and recovery synthesis](US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md)
+maps these endpoints without pooling them: access, money, status, and choice
+can move on different clocks.
+
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
 verified remedy, durable outcome, and the meaning/action that follows.
