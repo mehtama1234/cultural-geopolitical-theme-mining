@@ -104,6 +104,14 @@ These are real bridges, but each closes only part of the full chain:
   incident date, verified remedy, and durable security are missing. The later
   search fields add an adaptation signal: loss groups search more for jobs,
   food, benefits, and credit, but searching is not a usable alternative.
+- **Material pressure and social connection:** the corrected March 2026 HTOPS
+  screen shows frequent loneliness rising from 1.8% among respondents saying
+  expenses were not difficult to 30.2% among those saying expenses were very
+  difficult; low needed support rises from 14.0% to 40.9%. Yet frequent
+  phone/video contact stays near 28%–30% in the first three groups and falls
+  to 21.8% in the most pressured group. Contact frequency, felt connection,
+  and support adequacy are therefore different currencies; this is a
+  cross-sectional association, not a causal expense-to-loneliness result.
 - **Financial access and switching:** the 2025 SHED banking layer reports
   6% of adults unbanked, rising to 21% below $25,000 income, while 12% of
   adults experiencing non-credit-card fraud changed bank or financial provider.
