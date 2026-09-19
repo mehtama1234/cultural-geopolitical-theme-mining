@@ -13,9 +13,10 @@ The [program continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.m
 is the durable control record for the long-term objective, active lanes,
 acquisition gates, and session handoffs.
 
-**Current operating checkpoint — 2026-09-18:** the atlas has 14 themes, 318
-machine-readable records, 1,145 observations, 103 source packets, 25 public
-episode events, and 2 validated episode arrows. The active depth objective is
+**Current operating checkpoint — 2026-09-19:** the atlas has 14 themes, 344
+machine-readable records, 1,214 observations, 103 source packets, 25 public
+episode events, and 2 validated episode arrows, with 669 published HTML pages
+checked by the publication gate. The active depth objective is
 still a storage-light same-case episode route through alternatives,
 effort/payment, institutional response, remedy/recovery, meaning/trust, action,
 and exit. The CPSC and HRS route rechecks are now current: CPSC's one-key
