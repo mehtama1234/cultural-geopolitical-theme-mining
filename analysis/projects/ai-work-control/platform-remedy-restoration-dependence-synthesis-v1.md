@@ -1,7 +1,7 @@
 # Platform remedy, restoration, and dependence
 
 **Status:** provisional case-level synthesis  
-**Checked:** 2026-09-16
+**Checked:** 2026-09-18
 
 ## Research question
 
@@ -74,6 +74,26 @@ The strongest individual records currently visible are:
 - **PR-021, PR-016, and PR-017:** reactivation or reactivation orders are
   visible while lost-pay quantum, payment, or implementation remains open.
 
+### Structured end-to-end comparison
+
+The two deepest same-case routes now have a shared event-ledger representation.
+The table is a stage map, not a comparison of worker welfare or remedy
+effectiveness:
+
+| Case | Exposure / challenge | Access or work after challenge | Ordered money | Receipt / durable access | Meaning, action, exit |
+|---|---|---|---|---|---|
+| Hotak / Uber | Deactivation on 8 Apr 2025; worker challenged through the FWC route | Voluntary reactivation on 19 May; more than 150 trips recorded by 21 Jul; later formal reactivation order | Lost-remuneration quantum remains open; ordinary post-reactivation work payment is distinct from lost-pay recovery | Receipt, later access, recurrence prevention, and anti-retaliation not observed | Alternatives, reason for return, trust/action, persistence, and exit not observed |
+| Rehman / Portier Pacific | Deactivation on 15 Dec 2025 over an alleged failed background check; application on 30 Dec | Voluntary reactivation on 20 Feb 2026; formal reactivation order on 20 Mar | A$7,096.96 gross lost remuneration ordered, payable within 14 days | Payment receipt, post-order work, durable access, and recurrence prevention not observed | Alternatives, reason for return, trust/action, persistence, and exit not observed |
+| Mansoor / Uber | Complaint-based deactivation; substitute Baysec and Didi work documented | Reactivation ordered; substitute earnings visible during the interruption | A$6,073.23 gross lost-earnings order after substitute earnings were deducted | Receipt, practical restoration, and durable access not observed | Whether substitute work was equivalent or freely chosen, trust/action, and exit not observed |
+| Bandameeda / Amazon Flex | Suspension and permanent deactivation after customer complaint | Reactivation on prior terms ordered | A$12,126.31 lost remuneration ordered | Receipt, continued access, recurrence prevention, and anti-retaliation not observed | Alternatives, reason for return, trust/action, persistence, and exit not observed |
+
+The Hotak and Rehman ledgers preserve the full observed event sequence and its
+open arrows in machine-readable form: [Hotak event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
+and [Rehman event ledger](data/uber-rehman-end-to-end-event-ledger-v1.json).
+Their common boundary is important: formal access restoration and a monetary
+order can be observed without observing payment receipt, durable protection,
+the worker's alternatives, or the later relationship to the platform.
+
 These are not pooled estimates. They are a deliberately small set of public
 case records whose unit is a proceeding or named worker, with uneven follow-up
 windows and different procedural postures.
@@ -145,6 +165,8 @@ any one of them.
 - [Remedy spectrum synthesis](remedy-spectrum-cross-domain-synthesis-v1.md)
 - [Amazon Flex / Bandameeda remedy record](amazon-bandameeda-deactivation-remedy-record-v1.md)
 - [Uber / Hotak reactivation and lost-pay record](uber-hotak-access-restoration-followup-record-v1.md)
+- [Uber / Hotak structured event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
+- [Uber / Rehman structured event ledger](data/uber-rehman-end-to-end-event-ledger-v1.json)
 - [Uber / Khan reactivation and lost-pay record](uber-khan-reactivation-lost-pay-record-v1.md)
 - [Uber / Waheed merits remedy record](uber-waheed-merits-remedy-record-v1.md)
 - [Uber / Azwar regular-work and time-control record](uber-azwar-regular-work-time-control-record-v1.md)
