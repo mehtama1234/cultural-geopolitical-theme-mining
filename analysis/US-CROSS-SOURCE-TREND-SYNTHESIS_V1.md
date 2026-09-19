@@ -32,8 +32,8 @@ claim.
 ## Current broad-program rotations
 
 The latest rotation cycle deliberately moved across the full program rather
-than deepening one household lane. The continuity ledger records 51 documented
-rotations; the 42 numbered entries below are the cross-source synthesis
+than deepening one household lane. The continuity ledger records 56 documented
+rotations; the 46 numbered entries below are the cross-source synthesis
 artifacts currently carried in this table. They are bounded syntheses, not
 estimates of one pooled phenomenon:
 
@@ -93,7 +93,7 @@ estimates of one pooled phenomenon:
 
 ### The common pattern
 
-Across the 51 documented rotations, the strongest recurring theme is **unequal
+Across the 56 documented rotations, the strongest recurring theme is **unequal
 optionality under institutional mediation**. A condition or capability changes
 the options available to people, consumers, workers, firms, places, or states;
 an institution then routes, prices, classifies, delays, corrects, funds, or
