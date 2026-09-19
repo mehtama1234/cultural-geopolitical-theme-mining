@@ -43,6 +43,10 @@ CHECKS = [
         ["scripts/validate_real_broad_event_ledgers.py"],
     ),
     (
+        "broad event-ledger portfolio summary",
+        ["scripts/validate_broad_event_ledger_portfolio_summary.py"],
+    ),
+    (
         "broad same-case availability guards",
         ["scripts/test_broad_same_case_episode_availability.py"],
     ),
