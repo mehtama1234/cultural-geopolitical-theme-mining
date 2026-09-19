@@ -435,6 +435,13 @@ These are real bridges, but each closes only part of the full chain:
   penalty. This is a stronger remedy-stage case because payment is observed
   while the original work relationship remains unrestored; later employment,
   household recovery, trust, and exit remain open.
+- **A remedy can repair wage and status together:** in a DOJ IER bilateral case,
+  a citizenship-document problem was followed by termination and a lower-wage
+  rehire; the worker contacted IER, then signed an agreement restoring the
+  prior hourly wage, $4,712.50 in back pay, and seniority. Withdrawal of the
+  complaint is an observed endpoint, not proof of durable employment, benefit
+  use, household recovery, trust, or exit. This is one selected agency-reported
+  case, but it closes more of the chain than an aggregate payment total.
 - **Care and work:** among households with young children, lower-income
   households reported much more converted work-time loss when care was
   inadequate (114.6 days below poverty versus 43.3 days above 400% of
