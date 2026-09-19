@@ -44,22 +44,37 @@
           "unit": "neighboring-firm and local-entry outcomes",
           "value_type": "reported_countereffect"
         },
+        "current_revision_table_4_real_outcomes": {
+          "value": "All firms: exit -13.2 percentage points (SE 4.13 pp), employer-to-nonemployer transition -5.15 pp (SE 2.81 pp), log employment +0.170 (SE 0.0831), and log revenue +0.196 (SE 0.143; not statistically starred). Employer firms: exit -16.9 pp (SE 6.41 pp), deformalization -12.1 pp (SE 5.03 pp), log employment +0.376 (SE 0.183), and log revenue +0.719 (SE 0.254).",
+          "unit": "current September 2026 NBER Working Paper 32326 Table 4 IV estimates; outcome-specific panel observation counts and means differ",
+          "value_type": "current_revision_table_transcription"
+        },
+        "current_revision_table_5_credit_outcomes": {
+          "value": "Delinquent share of debt -0.339 (SE 0.086), days late on all contracts -34.996 (SE 9.676), bankruptcy -0.038 (SE 0.022), outstanding private debt +17.712 thousand dollars (SE 3.432), private debt paid on time +16.369 thousand dollars (SE 3.350), and number of contracts +0.568 (SE 0.089).",
+          "unit": "current September 2026 NBER Working Paper 32326 Table 5 IV estimates; Experian outcome universes differ",
+          "value_type": "current_revision_table_transcription"
+        },
         "version_labeled_effect_sizes": {
-          "value": "Earlier March 2023 author version reports -13 percentage points firm exit, -5 percentage points employer-to-nonemployer transition, +18% employment in the full sample, +45% employment among employer firms, approximately +200% of mean revenue, +$18,000 non-SBA private debt, -3.8 percentage points bankruptcy, and approximately +8 local entrants",
-          "unit": "version-specific causal estimates; outcome universes differ",
+          "value": "Earlier March 2023 author version remains a historical comparison only: it reported approximately -13 percentage points firm exit, -5 percentage points employer-to-nonemployer transition, +18% employment in the full sample, +45% employment among employer firms, approximately +200% of mean revenue, +$18,000 non-SBA private debt, -3.8 percentage points bankruptcy, and approximately +8 local entrants. These are not silently substituted for the September 2026 table values.",
+          "unit": "historical version-specific causal estimates; outcome universes differ",
           "value_type": "version_labeled_effect_size"
         }
       },
-      "method": "Use the NBER authors' merged application, Census, and business-credit design as reported on the official paper page; add separately labeled numerical estimates transcribed from the authors' March 2023 version hosted by the American Finance Association. Preserve causal firm-level scope and do not treat the earlier estimates as identical to the September 2026 NBER revision.",
-      "uncertainty": "The current NBER page supplies directional results; version-labeled effect sizes come from an earlier author version and require table-level rechecking against the revision. No code, firm identifiers, loan terms, standard errors, disaster-specific treatment timing, or replication output is retained. Firm survival and employment do not establish worker pay, job quality, owner-household recovery, customer prices, service continuity, or local political meaning. Loan access, viability, insurance, collateral, and disaster selection remain design-specific considerations.",
+      "method": "Use the NBER authors' merged application, Census, and business-credit design and transcribe current September 2026 NBER Working Paper 32326 Tables 4 and 5 plus Appendix F heterogeneity tables. Preserve causal firm-level scope, outcome-specific panel universes, standard errors, table locations, and the earlier March 2023 version as a separate historical comparison.",
+      "uncertainty": "The current revision supplies table-level causal estimates but no code, firm identifiers, complete loan-term file, or replication output is retained. Table 4 outcome universes differ; the all-firm revenue estimate is not statistically starred while employer-firm revenue is positive. Firm survival and employment do not establish worker pay, job quality, owner-household recovery, customer prices, service continuity, or local political meaning. Loan access, viability, insurance, collateral, and disaster selection remain design-specific considerations.",
       "subgroup": "Firms applying for or receiving government recovery loans after distinct disasters; exact treatment/control and subgroup universes remain in the paper's full design.",
       "counterinterpretation": "Keeping firms open may preserve employment and local entry without proving that every borrower was viable, that workers gained security, or that customers retained affordable services. Positive aggregate firm outcomes can coexist with debt obligations, unequal loan access, or shifted costs.",
       "source_url": "https://www.nber.org/papers/w32326",
-      "retrieval_hash": "source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
+      "retrieval_hash": "current_pdf:sha256:5a2a6562e5cd01dc162214d18bb1374358f72e5aca8195a06d1d5e54df6a328f; source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
       "status": "estimated"
     }
   ],
   "related_sources": [
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w32326/w32326.pdf",
+      "claim": "Current September 2026 revision; Tables 4 and 5 and Appendices F and I supply the transcribed estimates and heterogeneity/spillover boundaries.",
+      "status": "current-primary-pdf"
+    },
     {
       "source_url": "https://www.sba.gov/funding-programs/disaster-assistance",
       "claim": "SBA disaster assistance provides the public-program context for repair, working-capital, and recovery financing routes.",
@@ -78,8 +93,8 @@
   ],
   "boundary": "This record establishes a causal firm-level emergency-liquidity result as summarized by the official NBER paper page, with separately labeled effect-size anchors from an earlier author version. It does not establish worker household security, customer access or prices, owner recovery, local service continuity, trust, political action, or geopolitical consequences.",
   "reproduction_audit": {
-    "retrieval_hash_scope": "Existing committed source-search packet and official NBER paper page; no working-paper PDF or microdata retained",
-    "retrieval_hash": "source_packet:sha256:9b6ac3bbcafefddd611fa45728bcd35285bc09bdd414eed2a289cbba1f3f4541",
-    "checked": "2026-09-17"
+    "retrieval_hash_scope": "Current September 2026 NBER PDF read transiently for Tables 4, 5, Appendix F, and Appendix I; PDF not retained; no microdata retained",
+    "retrieval_hash": "current_pdf:sha256:5a2a6562e5cd01dc162214d18bb1374358f72e5aca8195a06d1d5e54df6a328f",
+    "checked": "2026-09-18"
   }
 }

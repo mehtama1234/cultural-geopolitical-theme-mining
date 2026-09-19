@@ -1,6 +1,6 @@
 # Source search: US small-business disaster liquidity
 
-**Search date:** 2026-09-11  
+**Search date:** 2026-09-18
 **Geography:** United States natural disasters  
 **Status:** opening pass; firm effects are measured, household and local-service effects remain open
 
@@ -30,12 +30,13 @@ disaster damage
 
 The firm study supports a recovery effect for government credit. The broader worker, customer and household path remains open.
 
-The [effect-size audit](effect-size-audit-v1.md) adds version-labeled
-magnitudes from the authors' March 2023 version: a 13-point reduction in exit,
-an 18% employment increase in the full sample and 45% among employer firms,
-about $18,000 more private debt, and a 3.8-point reduction in bankruptcy. These
-are transcription anchors pending a table-level check against the current
-NBER revision, not pooled estimates.
+The [effect-size audit](effect-size-audit-v1.md) now transcribes the current
+September 2026 NBER Tables 4 and 5 and Appendix F/I boundaries. It preserves
+the older March 2023 version as a historical comparison rather than silently
+mixing versions. The current tables show a 13.2-point all-firm exit reduction,
+0.170 log employment increase, non-starred all-firm revenue, a 0.376 log
+employment increase among employer firms, and $17,712 more outstanding
+non-SBA private debt; outcome universes and standard errors remain explicit.
 
 ## Counterpoint to keep visible
 

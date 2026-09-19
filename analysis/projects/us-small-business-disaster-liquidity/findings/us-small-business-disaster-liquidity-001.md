@@ -1,6 +1,6 @@
 # Finding 001: Emergency disaster loans can preserve firms and employment without proving household or customer recovery
 
-**Status:** causal firm-level research summary · **Checked:** 2026-09-17
+**Status:** causal firm-level research summary · **Checked:** 2026-09-18
 
 ## The bounded finding
 
@@ -16,16 +16,16 @@ The mechanism proposed by the authors is that emergency liquidity resolves
 uncertainty about whether repairs are feasible, allowing firms that struggle to
 obtain private credit to continue operating.
 
-An earlier March 15, 2023 author version supplies scale for the result: the
-causal design reports a 13-percentage-point reduction in firm exit, a 5-point
-reduction in employer-to-nonemployer transition, an 18% employment increase in
-the full sample (about half a worker), and a 45% increase among employer firms
-(about five workers). It also reports revenue at roughly 200% of the mean,
-$18,000 more non-SBA private debt, a 3.8-point reduction in bankruptcy, and
-about eight additional local entrants. These figures are explicitly versioned
-and remain transcription anchors until rechecked against the September 2026
-NBER revision; they are not silently merged with the current abstract-level
-record.
+The current September 2026 revision supplies table-level estimates: all-firm
+exit falls 13.2 percentage points, employer-to-nonemployer transition falls
+5.15 points, log employment rises 0.170, and all-firm log revenue is positive
+but not statistically starred in Table 4. Among employer firms, exit falls
+16.9 points, log employment rises 0.376 (about 2.25 workers in the paper's
+interpretation), and log revenue rises 0.719 (roughly 100% of mean in the
+paper's discussion). Table 5 reports a $17,712 increase in outstanding
+non-SBA private debt and a 3.8-point reduction in bankruptcy. The earlier
+March 2023 values remain a separately labeled historical comparison and are
+not silently merged with the current revision.
 
 ## Event chain
 
@@ -59,10 +59,9 @@ study therefore strengthens the firm/state/finance lane while making the
 worker, customer, owner-household, and meaning/action joins more precise.
 
 Because the current repository retains no working-paper PDF, code, or
-restricted data, the atlas does not claim to reproduce the design. The
-version-labeled numbers are documented in the [effect-size audit](../effect-size-audit-v1.md)
-and remain acquisition targets for a table-level check against the current
-revision.
+restricted data, the atlas does not claim to reproduce the design. The current
+table-level transcription, PDF hash, outcome universes, and historical-version
+boundary are documented in the [effect-size audit](../effect-size-audit-v1.md).
 
 ## Coding consequence
 
@@ -89,6 +88,7 @@ spending, and local public capacity only where identifiers and dates permit.
 ## Sources and storage boundary
 
 - [NBER Working Paper 32326](https://www.nber.org/papers/w32326)
+- [Current September 2026 NBER PDF](https://www.nber.org/system/files/working_papers/w32326/w32326.pdf)
 - [SBA disaster assistance context](https://www.sba.gov/funding-programs/disaster-assistance)
 - [Committed source packet](../source-search-2026-09-11.md)
 - [Effect-size audit](../effect-size-audit-v1.md)

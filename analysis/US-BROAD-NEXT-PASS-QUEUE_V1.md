@@ -285,8 +285,13 @@ middle layer: recovery loans reduce exit and bankruptcy while increasing
 employment, revenue, private credit, and reducing delinquency across a large
 multi-disaster design. The retained result is abstract-level and does not
 establish worker pay, customer prices/service continuity, owner-household
-recovery, or local political meaning; the next step is a compact full-paper
-effect-size and heterogeneity audit rather than a bulk download.
+recovery, or local political meaning. The current September 2026 PDF is now
+audited at Table 4, Table 5, and Appendix F/I level; the all-firm revenue
+estimate is not statistically starred, employer-firm employment is about 2.25
+workers in the paper's interpretation, and private-credit expansion remains a
+new obligation as well as a recovery channel. The next step is to link this
+firm-level result to worker pay/quality, customer access, owner-household
+recovery, or local public capacity only where dates and identifiers permit.
 
 The linked owner-household pass now supplies the adjacent household arrow:
 business revenue fell 40% in the first two months of COVID-19, while each dollar
