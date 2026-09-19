@@ -1253,19 +1253,20 @@ same-unit gap remains: no retained record follows a dated material event
 through attribution, action, remedy, recovery, and later exit or trust.
 
 The [same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
-now makes that gap quantitative across 18 retained episode or remedy surfaces.
-Fifteen surfaces observe a dated event or exposure, ten observe a responsible
-actor, and fifteen observe an institutional response; only one observes an
-alternative or non-use outcome, while one observes an agency-reported
-individual remedy, meaning
-or trust/action endpoint, and none closes recovery, persistence, or exit. Eleven
-surfaces have partial remedy information and eleven have partial effort or
-trade-off information, but these partial stages do not form a common
-denominator. The [ranked next-episode selection](broad-next-episode-selection-v1.md)
-therefore retains a strict promotion gate: a future pass must add both an
-episode-level alternative/non-use field and a receipt or outcome follow-up on
-the same source or explicit episode key, with denominators, missingness, and
-the distinction between institutional response and lived outcome preserved.
+now makes that gap quantitative across 33 retained episode or remedy surfaces.
+Twenty-nine surfaces observe a dated event or exposure, 21 observe a responsible
+actor, and 29 observe an institutional response; eight observe an
+alternative or non-use field, while three observe verified remedy receipt or a
+defined outcome follow-up.
+Only one observes a meaning/trust/action endpoint, and two observe recovery,
+persistence, or exit in a limited sense; none closes the full chain. Partial
+effort/trade-off and remedy information remain common, but these stages do not
+form a common denominator. The [ranked next-episode
+selection](broad-next-episode-selection-v1.md) therefore retains a strict
+promotion gate: a future pass must add both an episode-level alternative/non-use
+field and a receipt or outcome follow-up on the same source or explicit episode
+key, with denominators, missingness, and the distinction between institutional
+response and lived outcome preserved.
 This is a measurement result and an
 acquisition boundary, not a claim that the broad program lacks meaningful
 context; no raw data were downloaded for this checkpoint.
@@ -1284,7 +1285,7 @@ These lanes rotate. The next available source does not redefine the program.
 
 The next substantive checkpoint is the storage-light event-compatibility gate,
 followed by the PSID acquisition gate when account access is available. The
-retained twelve-route qualification register currently finds zero routes that
+retained 17-route qualification register currently finds zero routes that
 contain all required stages: dated trigger, alternative or non-use choice,
 institutional response, verified protected or sacrificed outcome, and later
 meaning/action or exit. The next event pass must identify one lawful small
