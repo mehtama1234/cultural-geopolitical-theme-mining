@@ -113,6 +113,12 @@ These are real bridges, but each closes only part of the full chain:
   with a 14-day deadline. The record still does not show payment receipt,
   continued work, durable access, or household recovery. Enforceability is a
   stage between formal remedy and lived recovery.
+- **Care and work:** among households with young children, lower-income
+  households reported much more converted work-time loss when care was
+  inadequate (114.6 days below poverty versus 43.3 days above 400% of
+  poverty). Responses included leave, cutting hours, quitting, non-search, and
+  working while supervising. Provider bonuses and retention incentives still
+  do not prove a dependable staffed slot.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.

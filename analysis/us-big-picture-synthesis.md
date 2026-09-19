@@ -564,6 +564,14 @@ work capacity, and family security. They do not constitute a pooled estimate
 or a same-household causal chain, so the dated event-to-recovery arrow remains
 open.
 
+The newer Census care-to-work finding makes unequal option conversion visible:
+among affected households, converted work-time loss averaged 114.6 days below
+the poverty line versus 43.3 days above 400% of poverty. Lower spending does
+not mean lower burden; it can mean unpaid substitution, non-search, or work
+withdrawal. The provider-side GAO evidence adds the parallel boundary that
+recruitment and retention incentives do not guarantee a staffed, dependable
+care slot.
+
 The [housing-payment/coverage synthesis](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-001.md)
 sharpens the place-risk interpretation: keeping a home requires both payment
 room and usable risk coverage. Rent arrears, insurance gaps, premiums,
