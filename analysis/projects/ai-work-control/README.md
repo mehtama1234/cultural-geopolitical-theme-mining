@@ -13,6 +13,12 @@ spectrum. It keeps outside alternatives, workplace discretion, contestability,
 restoration, and practical exit as separate layers; it is not a same-worker
 causal estimate or a worker-power index.
 
+The [capability and legitimacy clock synthesis](capability-legitimacy-clock-synthesis-v1.md)
+connects the geopolitical realization lane to domestic and international
+public judgments. It keeps allocation, usable capability, local incidence,
+legitimacy, cooperation, and leverage on separate clocks and does not create a
+geopolitical power or approval index.
+
 The [BLS JOLTS national mobility layer](bls-jolts-national-mobility-layer-v1.md)
 adds a 2020–2025 establishment-based labor-market context: openings and quits
 peaked in 2022 and cooled afterward, while hiring remained lower. It is a

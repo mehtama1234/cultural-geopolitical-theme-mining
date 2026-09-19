@@ -1,0 +1,133 @@
+# State capability and legitimacy move on different clocks
+
+**Status:** provisional geopolitical meaning synthesis  
+**Checked:** 2026-09-18  
+**Scope:** U.S. strategic-capacity realization records and 2026 domestic/
+international public judgments; no capability or leverage index
+
+## The question
+
+When a state funds defense, energy, semiconductor, or digital infrastructure,
+does material capacity produce legitimacy and leverage? The retained evidence
+supports a multi-clock chain:
+
+```text
+allocation → contract/ownership → production/integration → usable capability
+       ↘ public cost and local meaning
+international reception and domestic partisan judgment
+       → cooperation, opposition, policy durability, or external response
+```
+
+The arrows are related but not interchangeable. A capability can be growing
+while public legitimacy falls; public approval can rise before a system is
+fielded; and foreign criticism can coexist with material dependence.
+
+## The evidence layers
+
+| Layer | Current evidence | What it establishes | What remains open |
+|---|---|---|---|
+| Resource and commitment | SIPRI/IMF context, USAspending awards, Poland procurement, data-center and grid records | States and firms allocate money, financing, land, energy, and institutional attention | Accepted output, service quality, household incidence, and replacement cost |
+| Realization | Production-support commitments, factory/integration activity, planned delivery windows, utility operational events | Capacity-building and some testing or operational stress are visible | Accepted quantities, fielding, maintenance, inventory, reliability, and usable alternatives |
+| Domestic meaning | Pew 2026: 57% of Americans said the U.S. contributes to global peace/stability; Republicans 82%, Democrats 35% | Americans interpret state role through sharply partisan narratives | Attribution to a dated policy/event, policy action, and durability |
+| External reception | Pew 36-country survey: median 35% said the U.S. contributes to peace/stability; 63% said it does not | Foreign publics evaluate the same state differently from the U.S. public | Alliance coordination, aid acceptance, trade/tourism, market behavior, and diplomatic response |
+| Legitimacy signals | 83% of Americans said the U.S. interferes in other countries’ affairs a great deal or fair amount; 91% said respect is important; 65% favored considering other countries’ interests even when compromise is required | Shared judgments can coexist with partisan disagreement over whether conduct is good or legitimate | Whether these judgments change budgets, alliances, firms, migration, consumer behavior, or collective action |
+| Leverage | No promoted end-state | The required test is specified: credible option plus observed response | Refusal, substitution, concession, deterrence, retaliation, or changed negotiation |
+
+The narrow defensible proposition is:
+
+> Material capacity, domestic consent, and foreign legitimacy are separate
+> resources. Their interaction may affect the durability and cost of state
+> strategy, but current evidence does not show that polling judgments changed
+> capability, cooperation, or external behavior.
+
+## Why the clocks diverge
+
+1. **Procurement clock:** authorization, contract, production, shipment,
+   acceptance, training, and operational use may span years. A budget or
+   agreement is not a fielded capability.
+2. **Local-incidence clock:** land, power, water, tax, labor, and service costs
+   can appear before a project delivers stable public benefit.
+3. **Public-judgment clock:** people interpret a country through recent events,
+   identity, media, historical memory, and partisan narratives; approval can
+   change before material output does.
+4. **External-reception clock:** allied and foreign publics may revise views
+   after conflict, aid, trade, or diplomatic events on a different schedule
+   from domestic audiences.
+5. **Leverage clock:** influence requires a usable option and another actor who
+   changes behavior because that option is credible. None of the current
+   perception measures proves this final step.
+
+## Counterexamples that prevent overclaiming
+
+- A planned delivery window is not accepted equipment, and accepted equipment
+  is not trained, maintained, or operationally available.
+- A county can gain data-center tax revenue while bearing unresolved grid,
+  water, service, or replacement-cost questions.
+- The U.S. domestic audience can be more favorable toward U.S. global conduct
+  than foreign publics while Americans remain broadly agreed that the U.S.
+  interferes abroad.
+- Republicans and Democrats can disagree sharply about peace, interests, and
+  freedoms while sharing a descriptive judgment about interference.
+- Foreign publics can judge the U.S. negatively without demonstrating a
+  diplomatic refusal, alliance break, or market exit.
+- Respect or compromise can be normatively important without showing that a
+  government actually changed policy to achieve it.
+
+These counterexamples mean the atlas must keep capability, perception,
+preference, cooperation, and action as separate fields.
+
+## Arrow ledger
+
+| Arrow | Status | Safe conclusion | Decisive next evidence |
+|---|---|---|---|
+| Strategic objective → allocation/commitment | Observed | Budgets, awards, financing, and public plans show resource commitment | Complete budget line, terms, responsible actors, and affected place |
+| Commitment → usable capability | Partly observed | Production support, integration tests, and infrastructure milestones advance realization | Shipment, acceptance, training, inventory, reliability, and maintenance |
+| Capability/project → local incidence | Open / compared | Revenue, load, cost-allocation rules, and operational events identify possible burdens and benefits | Customer-class bills, service cost, jobs, environmental burden, and public response |
+| Policy/event → public judgment | Compared / open | Domestic and foreign judgments differ and are partisan-conditioned | Repeated or event-linked survey with attribution and prior judgment |
+| Public judgment → cooperation or policy durability | Open | Legitimacy is a plausible mechanism, not an observed effect here | Alliance coordination, aid acceptance, diplomatic action, consumer/market signal, or policy change |
+| Capability → leverage | Open | No leverage claim is promoted | Credible alternative plus documented refusal, concession, substitution, deterrence, or retaliation |
+
+## What this changes in the broad atlas
+
+This bridge links the infrastructure/geopolitical and cultural-meaning themes
+without collapsing them. It gives the project a disciplined answer to “does
+capacity create power?”:
+
+```text
+capacity = what a system can do
+legitimacy = what audiences believe is justified or reliable
+leverage = what another actor does because an option is credible
+```
+
+The three may reinforce each other, conflict, or remain disconnected. A state
+can possess material strength while paying a legitimacy cost, or have high
+approval for a capability that is not yet realized. The end-to-end societal
+question is therefore distributional and institutional: who receives benefit,
+who bears cost, who can inspect or contest the system, and whether affected
+actors can switch or refuse.
+
+## Next decisive case
+
+Select one named weapon system or critical infrastructure project and preserve
+one dated event-country-place ledger containing:
+
+- objective, funding, contract, ownership, suppliers, and critical inputs;
+- production, shipment, acceptance, maintenance, and operational availability;
+- local wages, public cost, environmental burden, and service incidence;
+- domestic and external judgments before and after the event, with attribution;
+- alliance, diplomatic, market, consumer, or political response; and
+- substitution, refusal, concession, retaliation, or exit.
+
+Until such a case exists, this synthesis is a stage map and measurement rule,
+not a geopolitical power or legitimacy score.
+
+## Sources
+
+- [Pew 2026 U.S. global role and international reception layer](pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+- [State capacity, procurement, and geopolitical leverage synthesis](state-capacity-geopolitical-program-v1.md)
+- [Capacity without exit cross-domain synthesis](capacity-without-exit-cross-domain-synthesis-v1.md)
+- [Strategic capability realization ledger protocol](realization-ledger-protocol-v1.md)
+
+**Evidence status:** cross-source stage synthesis; capability realization,
+local incidence, legitimacy effects, cooperation, leverage, and external
+behavior remain partly or entirely open.
