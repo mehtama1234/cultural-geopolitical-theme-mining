@@ -116,6 +116,13 @@ nonmetro retail median net-job growth alongside weaker nonmetro health, food,
 and transport profiles, while preserving the boundary that employer flow is
 not resident access or service use.
 
+The [BDS–ACS Ohio mobility panel](bds-ohio-mobility-panel-v1.md) adds a bounded
+same-state, same-year comparison. Among 50 Ohio counties with comparable rates
+in all four selected sectors, higher zero-vehicle-household counties show
+weaker health and food job-flow profiles but a retail counterexample. The
+panel advances mobility-context conditioning without treating county vehicle
+constraints as resident-level access or service use.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
 joins realized county-sector flows to the current primary-care shortage
 designation surface. It demonstrates that health-sector employer growth and

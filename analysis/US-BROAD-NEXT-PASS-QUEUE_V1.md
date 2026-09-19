@@ -3460,6 +3460,16 @@ resident access, travel, prices, service use, worker quality, trust, or action.
 The next decisive extension remains one same-geography mobility or service-use
 measure attached to a selected sector contrast.
 
+The [BDS–ACS Ohio mobility panel](projects/us-local-business-place/bds-ohio-mobility-panel-v1.md)
+now makes that extension at a bounded same-state, same-year level. Across 50
+Ohio counties with all four selected sector rates, high-zero-vehicle counties
+show weaker health and food median net-job profiles and more negative health
+rows, while retail moves slightly in the opposite direction. The commute
+counterpattern is retained as a warning that vehicle constraint is not a full
+mobility measure. This advances context conditioning, not resident trips,
+service use, causation, household burden, trust, or action. The next decisive
+step is one service-specific outcome surface or dated closure/use record.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
 now joins the county-sector realization stage to an institutional service
 shortage surface. Across selected sectors, HPSA-represented and other counties

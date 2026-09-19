@@ -1,0 +1,128 @@
+{
+  "audit_type": "bds-ohio-mobility-panel-v1",
+  "checked": "2026-09-18",
+  "unit": "Ohio county-sector aggregate, 2023, joined to 2023 ACS 5-year county mobility context",
+  "geography": "Ohio counties (state FIPS 39)",
+  "selected_sectors": {
+    "44-45": "retail trade",
+    "48-49": "transportation and warehousing",
+    "62": "health care and social assistance",
+    "72": "accommodation and food services"
+  },
+  "sources": {
+    "bds_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+    "bds_last_modified": "2025-09-25",
+    "bds_file_size_bytes": 274770797,
+    "acs_vehicle_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+    "acs_commute_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08303.dat",
+    "rucc_url": "https://www.ers.usda.gov/media/5768/2023-rural-urban-continuum-codes.csv?v=94035"
+  },
+  "retrieval": {
+    "bds_method": "transient 12 MB suffix retrieval",
+    "bds_suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+    "bds_2023_ohio_rows_in_suffix": 352,
+    "acs_vehicle_sha256": "71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b",
+    "acs_commute_sha256": "8dc1b696d93c28a684784281211cf4e5011f01d9ca84694df2d7fb3b4ad84f51",
+    "rucc_sha256": "ec455ee2a8bc5fc8e070575ea5bee7dce46fc6037f8c3449cbf56e8b45331fa7"
+  },
+  "matched_counties_with_all_four_sectors": 50,
+  "zero_vehicle_median_cut_pct": 5.75,
+  "groups": {
+    "low_zero_vehicle": {
+      "county_count": 25,
+      "median_zero_vehicle_pct": 4.557,
+      "median_long_commute_pct": 30.75,
+      "44-45": {
+        "label": "retail trade",
+        "comparable_rows": 25,
+        "median_entry_rate": 6.358,
+        "median_exit_rate": 5.263,
+        "median_net_job_creation_rate": 0.166,
+        "negative_net_job_rows": 11,
+        "exit_greater_than_entry_rows": 6
+      },
+      "48-49": {
+        "label": "transportation and warehousing",
+        "comparable_rows": 25,
+        "median_entry_rate": 12.048,
+        "median_exit_rate": 11.538,
+        "median_net_job_creation_rate": 0.321,
+        "negative_net_job_rows": 12,
+        "exit_greater_than_entry_rows": 10
+      },
+      "62": {
+        "label": "health care and social assistance",
+        "comparable_rows": 25,
+        "median_entry_rate": 8.475,
+        "median_exit_rate": 7.168,
+        "median_net_job_creation_rate": 3.466,
+        "negative_net_job_rows": 1,
+        "exit_greater_than_entry_rows": 7
+      },
+      "72": {
+        "label": "accommodation and food services",
+        "comparable_rows": 25,
+        "median_entry_rate": 9.6,
+        "median_exit_rate": 8.04,
+        "median_net_job_creation_rate": 5.535,
+        "negative_net_job_rows": 1,
+        "exit_greater_than_entry_rows": 6
+      }
+    },
+    "high_zero_vehicle": {
+      "county_count": 25,
+      "median_zero_vehicle_pct": 7.429,
+      "median_long_commute_pct": 27.412,
+      "44-45": {
+        "label": "retail trade",
+        "comparable_rows": 25,
+        "median_entry_rate": 6.411,
+        "median_exit_rate": 6.102,
+        "median_net_job_creation_rate": 0.463,
+        "negative_net_job_rows": 11,
+        "exit_greater_than_entry_rows": 8
+      },
+      "48-49": {
+        "label": "transportation and warehousing",
+        "comparable_rows": 25,
+        "median_entry_rate": 11.65,
+        "median_exit_rate": 12.903,
+        "median_net_job_creation_rate": 0.615,
+        "negative_net_job_rows": 11,
+        "exit_greater_than_entry_rows": 13
+      },
+      "62": {
+        "label": "health care and social assistance",
+        "comparable_rows": 25,
+        "median_entry_rate": 8.247,
+        "median_exit_rate": 7.23,
+        "median_net_job_creation_rate": 1.001,
+        "negative_net_job_rows": 11,
+        "exit_greater_than_entry_rows": 8
+      },
+      "72": {
+        "label": "accommodation and food services",
+        "comparable_rows": 25,
+        "median_entry_rate": 9.967,
+        "median_exit_rate": 8.443,
+        "median_net_job_creation_rate": 4.296,
+        "negative_net_job_rows": 4,
+        "exit_greater_than_entry_rows": 7
+      }
+    }
+  },
+  "boundary": "This is a same-year, same-state descriptive comparison. It does not establish that mobility constraints caused sector turnover, that employer flow changed service access, or that any resident made a particular trip. ACS vehicle and commute measures are county aggregates; BDS values are county-sector aggregates; disclosure values are excluded rather than treated as zero.",
+  "counterexample_county": {
+    "fips": "39089",
+    "zero_vehicle_pct": 5.338,
+    "long_commute_pct": 41.54,
+    "rucc": 1,
+    "sector_net_job_creation_rates": {
+      "44-45": -2.997,
+      "48-49": 96.707,
+      "62": 3.466,
+      "72": 3.572
+    }
+  },
+  "raw_storage": "not retained; official BDS suffix, ACS table files, and RUCC file were retrieved transiently"
+}
