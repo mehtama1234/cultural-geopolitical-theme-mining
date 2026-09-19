@@ -3450,6 +3450,16 @@ arrows. The next step is a small geography/sector panel joined to measured
 access, price, work, ownership, or civic response—not another national BDS
 aggregate.
 
+The new [BDS metro/nonmetro turnover profile](projects/us-local-business-place/bds-rural-urban-turnover-profile-v1.md)
+conditions that panel on USDA 2023 RUCC status. Nonmetro counties show higher
+median retail net-job growth but weaker health, food, and transport profiles;
+negative health and food rows are also more common outside metro counties. The
+retail result is retained as a counterexample to a one-direction rural
+decline story. This advances place-conditioned employer realization, not
+resident access, travel, prices, service use, worker quality, trust, or action.
+The next decisive extension remains one same-geography mobility or service-use
+measure attached to a selected sector contrast.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
 now joins the county-sector realization stage to an institutional service
 shortage surface. Across selected sectors, HPSA-represented and other counties

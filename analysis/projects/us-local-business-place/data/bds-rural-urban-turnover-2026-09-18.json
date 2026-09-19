@@ -1,0 +1,102 @@
+{
+  "audit_type": "bds-rural-urban-turnover-layer-v1",
+  "checked": "2026-09-18",
+  "unit": "2023 county-sector aggregate, grouped by USDA 2023 RUCC metro status",
+  "source_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+  "source_last_modified": "2025-09-25",
+  "source_size_bytes": 274770797,
+  "rucc_source_url": "https://www.ers.usda.gov/media/5768/2023-rural-urban-continuum-codes.csv?v=94035",
+  "retrieval": {
+    "method": "transient HTTP suffix retrieval",
+    "suffix_bytes": 12000000,
+    "suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+    "rows_2023_in_suffix": 12776,
+    "rucc_rows": 3233
+  },
+  "selected_sectors": {
+    "44-45": "retail trade",
+    "48-49": "transportation and warehousing",
+    "62": "health care and social assistance",
+    "72": "accommodation and food services"
+  },
+  "groups": {
+    "metro": {
+      "44-45": {
+        "label": "retail trade",
+        "comparable_rows": 1021,
+        "median_entry_rate": 7.563,
+        "median_exit_rate": 6.722,
+        "median_net_job_creation_rate": 0.799,
+        "negative_net_job_rows": 393,
+        "exit_greater_than_entry_rows": 304
+      },
+      "48-49": {
+        "label": "transportation and warehousing",
+        "comparable_rows": 864,
+        "median_entry_rate": 13.387,
+        "median_exit_rate": 13.889,
+        "median_net_job_creation_rate": 0.395,
+        "negative_net_job_rows": 407,
+        "exit_greater_than_entry_rows": 396
+      },
+      "62": {
+        "label": "health care and social assistance",
+        "comparable_rows": 956,
+        "median_entry_rate": 10.377,
+        "median_exit_rate": 7.29,
+        "median_net_job_creation_rate": 3.155,
+        "negative_net_job_rows": 234,
+        "exit_greater_than_entry_rows": 152
+      },
+      "72": {
+        "label": "accommodation and food services",
+        "comparable_rows": 987,
+        "median_entry_rate": 10.773,
+        "median_exit_rate": 8.777,
+        "median_net_job_creation_rate": 4.745,
+        "negative_net_job_rows": 163,
+        "exit_greater_than_entry_rows": 217
+      }
+    },
+    "nonmetro": {
+      "44-45": {
+        "label": "retail trade",
+        "comparable_rows": 1141,
+        "median_entry_rate": 7.299,
+        "median_exit_rate": 6.643,
+        "median_net_job_creation_rate": 1.141,
+        "negative_net_job_rows": 412,
+        "exit_greater_than_entry_rows": 392
+      },
+      "48-49": {
+        "label": "transportation and warehousing",
+        "comparable_rows": 668,
+        "median_entry_rate": 11.594,
+        "median_exit_rate": 12.121,
+        "median_net_job_creation_rate": 0.0,
+        "negative_net_job_rows": 317,
+        "exit_greater_than_entry_rows": 246
+      },
+      "62": {
+        "label": "health care and social assistance",
+        "comparable_rows": 976,
+        "median_entry_rate": 7.819,
+        "median_exit_rate": 6.202,
+        "median_net_job_creation_rate": 1.983,
+        "negative_net_job_rows": 351,
+        "exit_greater_than_entry_rows": 262
+      },
+      "72": {
+        "label": "accommodation and food services",
+        "comparable_rows": 1076,
+        "median_entry_rate": 11.335,
+        "median_exit_rate": 10.101,
+        "median_net_job_creation_rate": 2.88,
+        "negative_net_job_rows": 363,
+        "exit_greater_than_entry_rows": 343
+      }
+    }
+  },
+  "boundary": "This is a descriptive 2023 county-sector flow comparison by metro status. It does not measure household access, travel, prices, wages, service quality, use, causation, trust, political action, or geopolitical consequence; missing BDS disclosure values are excluded rather than treated as zero.",
+  "raw_storage": "not retained; official BDS suffix and RUCC file were retrieved transiently"
+}

@@ -110,6 +110,12 @@ official county-sector file. Retail, transport, health, and food show different
 county-level turnover and net-job patterns; a same-county counterexample keeps
 aggregate local growth from being mistaken for uniform service or work growth.
 
+The [BDS metro/nonmetro turnover profile](bds-rural-urban-turnover-profile-v1.md)
+conditions that sector-flow layer on USDA 2023 metro status. It shows higher
+nonmetro retail median net-job growth alongside weaker nonmetro health, food,
+and transport profiles, while preserving the boundary that employer flow is
+not resident access or service use.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
 joins realized county-sector flows to the current primary-care shortage
 designation surface. It demonstrates that health-sector employer growth and
