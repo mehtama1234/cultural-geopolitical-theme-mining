@@ -200,6 +200,13 @@ These are real bridges, but each closes only part of the full chain:
   about 27 days. The label is not customer waiting time, company correction,
   payment, account repair, or practical exit; API field and vintage changes
   must also be treated as missingness rather than silently as zero.
+- **Compensation can coexist with the obligation:** the CFPB's Navient record
+  reports ongoing checks to affected consumers while explicitly stating that
+  the payments do not change or reduce the affected student loans. This closes
+  enforcement and distribution stages but leaves individual receipt, balance
+  correction, remaining loss, servicing dependence, trust, switching, and exit
+  open. Cash received and the original material problem removed are separate
+  outcomes.
 - **Small firms as infrastructure consumers:** the FTC reports 5,588 checks
   totaling more than $2.6 million sent to businesses charged hidden or
   unauthorized payment-processing fees, including early-termination and
