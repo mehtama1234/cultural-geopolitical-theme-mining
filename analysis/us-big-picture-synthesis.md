@@ -126,6 +126,12 @@ The newer pages make the map more concrete:
   not reveal the initiating need, available alternative, institutional remedy,
   or later meaning/action. A later health or employment value is an outcome
   surface, not automatically recovery.
+- A new June 2025 HTOPS screen adds a consumer-culture middle signal: expense
+  difficulty is not monotonically related to whether people use AI, but online
+  searches for jobs, housing, food, medical help, benefits, and credit rise
+  sharply with difficulty. Search is therefore an option-discovery effort,
+  not proof of an obtained alternative, AI-mediated decision, remedy, or exit.
+  Read the [HTOPS online-search and AI-trust finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md).
 
 These are not versions of one theory. They are places where the same research discipline helps: name the first change, follow the next household choice, identify who controls the next step, and stop where the evidence stops.
 

@@ -1,0 +1,72 @@
+{
+  "format": "htops-2025-expense-online-search-ai-trust-screen-v1",
+  "checked": "2026-09-19",
+  "field_window": "June 2025 HTOPS/HPS 2506 topical file",
+  "unit": "responding person, conditioned on household-reported expense difficulty",
+  "puf_rows": 7485,
+  "replicate_rows": 7485,
+  "valid_weighted_rows": 7463,
+  "alignment": {
+    "puf_replicate_id_match": true,
+    "max_abs_pweight_difference": 5.820766091346741e-11
+  },
+  "weight": "PWEIGHT with PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
+  "coding": {
+    "expense_difficulty": "EXPNS_DIF: 1 not at all, 2 a little, 3 somewhat, 4 very difficult",
+    "online_search_fields": "AI4_1, AI4_2, AI4_4, AI4_5, AI4_6, AI4_8; selected versus not selected, with missing codes excluded",
+    "ai_trust": "AI2_5 selected statement that the respondent trusts information from AI systems, among AI users with a valid response",
+    "ai_opt_out": "AI3 active opt-out response among valid responses"
+  },
+  "estimates_pct_se": {
+    "1_not_at_all": {
+      "any_ai_use": [58.983, 0.625],
+      "job_search": [20.724, 0.634],
+      "housing_search": [13.281, 0.530],
+      "food_search": [15.874, 0.456],
+      "medical_search": [10.621, 0.316],
+      "public_benefit_search": [10.693, 0.345],
+      "credit_search": [10.001, 0.324],
+      "trust_ai_information_among_ai_users": [12.534, 0.598],
+      "actively_opted_out": [22.735, 0.514]
+    },
+    "2_a_little": {
+      "any_ai_use": [52.367, 1.055],
+      "job_search": [35.479, 1.011],
+      "housing_search": [14.602, 0.713],
+      "food_search": [22.151, 0.975],
+      "medical_search": [14.416, 0.769],
+      "public_benefit_search": [15.576, 0.755],
+      "credit_search": [18.940, 0.872],
+      "trust_ai_information_among_ai_users": [14.654, 1.103],
+      "actively_opted_out": [23.713, 0.809]
+    },
+    "3_somewhat": {
+      "any_ai_use": [53.875, 1.684],
+      "job_search": [51.864, 1.719],
+      "housing_search": [21.848, 1.455],
+      "food_search": [24.616, 1.191],
+      "medical_search": [16.534, 0.920],
+      "public_benefit_search": [22.872, 1.545],
+      "credit_search": [24.506, 1.322],
+      "trust_ai_information_among_ai_users": [15.092, 1.658],
+      "actively_opted_out": [26.707, 1.501]
+    },
+    "4_very_difficult": {
+      "any_ai_use": [58.350, 2.341],
+      "job_search": [56.953, 2.664],
+      "housing_search": [29.097, 1.964],
+      "food_search": [32.483, 2.141],
+      "medical_search": [23.490, 1.733],
+      "public_benefit_search": [28.961, 2.036],
+      "credit_search": [27.049, 2.169],
+      "trust_ai_information_among_ai_users": [14.377, 1.753],
+      "actively_opted_out": [29.098, 2.088]
+    }
+  },
+  "interpretation": "Same-round weighted conditional shares. Expense difficulty is household-reported; online searches and AI attitudes are respondent/household reports. No causal, longitudinal, event-level, or AI-mediated search interpretation is permitted.",
+  "boundary": "The file does not identify a specific bill, actor, search result, alternative, remedy, outcome, or later trust/action change. Online search, AI use, AI trust, and opt-out remain separate constructs.",
+  "input_sha256": {
+    "puf": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
+    "replicate": "sha256:c75c291dd260a83eeb5b884193ee119d5fcde60c03b9ecec0ba7706489cfaea7"
+  }
+}

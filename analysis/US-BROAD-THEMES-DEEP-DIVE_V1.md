@@ -388,6 +388,15 @@ The pattern appears in at least six different systems:
    now records this as a partial later-outcome surface rather than a completed
    recovery arrow.
 
+9. **Search is an adaptation signal, not a completed alternative.** A June
+   2025 HTOPS screen finds a strong expense-difficulty gradient in online
+   searches for jobs, housing, food, medical assistance, public benefits, and
+   credit, while broad AI use is not monotonic across the same groups. This
+   suggests that material pressure may increase option-seeking across systems
+   without proving that a usable option was found, that AI mediated the search,
+   or that a later remedy or exit occurred. Read the [online-search and
+   AI-trust finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md).
+
 Taken together, these cases support a disciplined interpretation of the
 current societal trend: **modern systems are becoming better at producing
 formal response records, but the conversion from response to usable recovery,
