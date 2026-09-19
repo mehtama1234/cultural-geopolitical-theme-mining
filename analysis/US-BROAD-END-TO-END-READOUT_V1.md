@@ -83,6 +83,13 @@ These are real bridges, but each closes only part of the full chain:
   incident date, verified remedy, and durable security are missing. The later
   search fields add an adaptation signal: loss groups search more for jobs,
   food, benefits, and credit, but searching is not a usable alternative.
+- **Financial access and switching:** the 2025 SHED banking layer reports
+  6% of adults unbanked, rising to 21% below $25,000 income, while 12% of
+  adults experiencing non-credit-card fraud changed bank or financial provider.
+  Sixty-five percent of that fraud group lost money and 35% recovered only
+  some of it. Provider contact, recovery, and switching are therefore separate
+  routes: formal access does not guarantee liquidity, and non-switching does
+  not prove satisfaction or trust.
 - **Cash App enforcement:** the CFPB record documents fraud/dispute-process
   failures, required operational correction, and up to $120 million in
   consumer redress. It advances the route from reported loss to a named
