@@ -173,6 +173,13 @@ These are real bridges, but each closes only part of the full chain:
   but not proof of safety: savings, subsidies, debt, delayed investment, and
   later depletion are not fully observed, and the COVID shock is not the SBA
   disaster-loan effect.
+- **Disaster recovery is redistribution, not one resilience score:** across
+  the disaster evidence, public credit can preserve firms, owner buffers can
+  absorb revenue loss, store closures can add customer travel, and residents
+  can remain unconvinced that help reached those most in need. The relevant
+  currencies are money, time, access, security, and legitimacy; a gain in one
+  can coexist with a loss in another. The sources are deliberately not pooled
+  into a single recovery or resilience rate.
 - **Local customer access after disaster:** after major Harvey store closures,
   affected cardholders traveled about 15% farther to shop; entrants generated
   modeled consumer surplus but did not fully replace exits in the hardest-hit
