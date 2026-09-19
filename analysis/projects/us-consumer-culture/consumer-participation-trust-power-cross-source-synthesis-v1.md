@@ -1,6 +1,6 @@
 # Consumer participation, trust, and practical power: cross-source synthesis v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-19
 **Status:** bounded cross-source synthesis; no pooled consumer estimate  
 **Scope:** US consumer, household, platform, payment, public-help, and
 institutional-response layers already present in the atlas
@@ -24,6 +24,13 @@ The broad societal theme is therefore **participation under unequal
 optionality**: people can appear to choose while the feasible cost of refusing,
 contesting, or leaving differs sharply by resources, identity, information,
 payment route, transport, time, and institutional authority.
+
+The newer [remedy-stage comparison](../us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md)
+adds a crucial consumer-cultural distinction: an institution can make a remedy
+visible, distribute money, restore access, or repeat a repair without showing
+that the customer received adequate recovery or regained practical choice.
+That means continued use can reflect dependence, and non-use or non-reporting
+can reflect friction or futility—not simple satisfaction or distrust.
 
 ## Evidence matrix
 
@@ -114,7 +121,7 @@ simply produce a better record of unresolved dependence.
 | Need/exposure → participation or non-use | Compared/reported | Resources, information, routes, time, and social meaning shape what can be attempted. |
 | Participation → cost, data, attention, or status consequence | Reported/estimated | Payment, fraud, food-help, and platform records expose different currencies of participation. |
 | Participation/report → institutional learning | Observed/inferred | Transactions, complaints, reviews, and non-use can change what institutions see, but the feedback effect is not jointly measured. |
-| Institutional response → verified remedy/recovery | Open/partly observed | Response labels and route visibility are not sufficient evidence of correction or restored security. |
+| Institutional response → verified remedy/recovery | Partly observed, still open | Named redress, repair, and restoration records expose implementation clocks, but receipt, adequacy, durable protection, and restored choice remain separate. |
 | Experience → trust, identity, civic action, or exit | Open/partly measured | Separate surveys measure trust and action, but no current record joins them to the same consumer episode and later behavior. |
 
 ## The next bounded test
@@ -154,3 +161,9 @@ meaning/action → redistribution of money, time, risk, data, and power. It link
 household room, platforms and attention, unequal status, public systems, firm
 power, trust, and political judgment while preserving the fact that none of
 those links is currently a single closed causal chain.
+
+The [retained same-unit bridge matrix](../../US-BROAD-RETAINED-SAME-UNIT-BRIDGE-MATRIX_V1.md)
+shows why the consumer route remains open: other domains can follow event to
+later health/work, pressure to adaptation/reversal, or disruption to later
+judgment/action, but no retained customer episode yet combines alternatives,
+institutional response, verified remedy, recovery, and later meaning or exit.
