@@ -20,8 +20,9 @@ parity, published links, local links, and whitespace together.
 The atlas currently contains 14 themes, 344 machine-readable records, 1,214
 observations, 103 source packets, 174 connections, 85 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
-event-ledger portfolio contains 28 ledgers, 198 events, and 113 typed arrows;
-the portfolio summary and validator keep those heterogeneous units distinct.
+event-ledger portfolio contains 34 ledgers, 206 events, and 141 typed arrows,
+including 51 explicitly open arrows; the portfolio summary and validator keep
+those heterogeneous units distinct.
 The publication gate passes all 22 checks, and the worktree is kept clean at
 local commits.
 
@@ -36,10 +37,11 @@ dated exposure or decision
   -> meaning, trust, action, persistence, or exit
 ```
 
-The current 18-surface availability audit finds no retained source that closes
-all nine stages. One surface observes an episode-level alternative or non-use
-field, while none observes verified remedy receipt or a defined outcome
-follow-up. UAS, PSID, HRS, and WBNS respondent routes remain access-gated; the
+The current 30-surface availability audit finds no retained source that closes
+all nine stages. Eight surfaces observe an episode-level alternative or
+non-use field, and two observe a verified remedy or defined outcome follow-up,
+but no single retained route combines the required stages. UAS, PSID, HRS, and
+WBNS respondent routes remain access-gated; the
 next valid advance is an authorized event-compatible acquisition or a retained
 subgroup/place reversal that changes an open arrow. Another aggregate exposure
 or settlement count does not qualify as end-to-end closure.
