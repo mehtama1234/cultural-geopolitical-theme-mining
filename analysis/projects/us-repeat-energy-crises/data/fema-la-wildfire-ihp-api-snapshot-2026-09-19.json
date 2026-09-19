@@ -1,0 +1,43 @@
+{
+  "format": "fema-openfema-aggregate-snapshot-v1",
+  "checked": "2026-09-19",
+  "disaster_number": 4856,
+  "disaster": "2025 Los Angeles County wildfires",
+  "source_url": "https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms?$filter=disasterNumber%20eq%204856&$top=100000",
+  "api_rundate": "2026-09-19T07:29:42.746Z",
+  "row_count": 621,
+  "geography": {
+    "cities": 267,
+    "zip_codes": 347,
+    "county": "Los Angeles County"
+  },
+  "aggregate_measures": {
+    "total_valid_registrations": 261117,
+    "ihp_referrals": 98459,
+    "ihp_eligible": 35165,
+    "ihp_amount_usd": 182773747.01,
+    "ha_referrals": 74609,
+    "ha_eligible": 5653,
+    "ha_amount_usd": 81269814.24,
+    "ona_referrals": 94152,
+    "ona_eligible": 35083,
+    "ona_amount_usd": 101503932.77
+  },
+  "derived_descriptive_ratios": {
+    "ihp_referrals_per_valid_registration_percent": 37.7069,
+    "ihp_eligible_per_ihp_referral_percent": 35.7154,
+    "ha_eligible_per_ha_referral_percent": 7.5768,
+    "ona_eligible_per_ona_referral_percent": 37.2621
+  },
+  "interpretation": "This is a current aggregate geography/program snapshot. Referral, eligibility, and assistance categories are not a person-level longitudinal denominator; records may represent different program stages and the category populations should not be added as unique survivors.",
+  "missingness": [
+    "individual identifier or household linkage",
+    "application and appeal history",
+    "payment issuance and receipt",
+    "award adequacy and timing",
+    "repair or housing completion",
+    "insurance and other assistance interaction",
+    "later housing, work, health, trust, action, or recovery"
+  ],
+  "boundary": "The snapshot advances current registration-to-referral-to-eligibility visibility for one disaster. It does not estimate approval fairness, take-up, payment receipt, repair completion, housing stability, or survivor recovery."
+}

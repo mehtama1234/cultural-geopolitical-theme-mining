@@ -1,6 +1,6 @@
 # GAO 2026 FEMA disaster-assistance delivery and capacity layer v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Source:** US Government Accountability Office, GAO-26-108154
 **Reference events:** Hurricanes Helene and Milton, the 2025 Los Angeles wildfires, and the 2025 Texas floods
 **Status:** institutional response, access, and remedy-delivery layer; not a survivor-level recovery estimate or disaster-causality study
@@ -27,6 +27,13 @@ made whole.
 | Unequal access risk | Officials raised concerns for older adults, people with disabilities, rural residents, and people without phone or internet access | These are identified risk groups, not measured subgroup denial or recovery rates in this report |
 | State capacity | Officials from four states affected by Helene and Milton said they did not have their own individual-assistance programs; federal and state officials emphasized reliance on federal support | State capacity statements are not a complete inventory of all local nonprofit or insurance assistance |
 | Evidence base | GAO reviewed FEMA assistance data, helpline and letter information, and 56 interviews/written responses from FEMA and state/local governments | Interviews and agency data provide institutional evidence but not a representative survivor panel |
+
+The current [OpenFEMA Los Angeles wildfire snapshot](findings/us-repeat-energy-crises-003.md)
+adds a narrower aggregate stage surface for disaster 4856: 261,117 valid
+registrations, 98,459 IHP referrals, 35,165 IHP-eligible records, and $182.8
+million in IHP amounts across 621 city/ZIP rows as of September 19, 2026.
+Those ratios describe administrative stages, not unique-survivor approval;
+payment receipt, repair, housing stability, and later recovery remain open.
 
 ## The central tension
 
