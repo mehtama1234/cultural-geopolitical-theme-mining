@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 336 records and
-1194 observations.
+have exact registered-URL references. The trend registry holds 337 records and
+1197 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1103,6 +1103,14 @@ pay order. The public recheck finds no payment receipt, actual post-order
 account status, or later work/switch/non-use record. This advances the
 alternative-work and formal-response stages without promoting an order deadline
 to payment, recovery, or practical exit.
+
+The [canonical Waheed interim-payment record](records/au-waheed-interim-payment-obligation-2026.json)
+adds a second implementation distinction: a consent stay required A$259.38 per
+week into a nominated bank account while the merits reactivation and lost-pay
+orders were stayed pending appeal. The public recheck found no receipt, final
+quantum, actual access, appeal outcome, or later work/switching record. The
+obligation is therefore an observed legal-protection stage, not paid remedy or
+recovery.
 
 The [2026-09-16 CFPB schema recheck](projects/us-customer-automation-recourse/data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
 probed three mortgage records and found complaint receipt/routing/response

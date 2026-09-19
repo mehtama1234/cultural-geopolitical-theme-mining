@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-336 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+337 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -17,6 +17,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | An Australian platform worker received formal access-restoration and lost-remuneration orders after deactivation | work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One employee-like platform worker and adjudicated Fair Work Commission case; comparative institutional remedy record, not a population estimate | Australia | 1 | 2025-12-15 to 2026-03-20 | observed | [open](records/au-rehman-platform-remedy-2026.json) |
 
 **Boundary:** This comparative Australian case closes a remedy-stage arrow from platform exclusion through worker application to access restoration and ordered lost remuneration. It does not establish payment receipt, net recovery, alternative choice, durable protection, trust change, political action, or practical exit.
+
+| A conditional interim-payment obligation is a distinct stage between platform remedy and worker recovery | cost, time, work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, trust_identity_meaning | One adjudicated Fair Work Commission platform-worker case, UDE2025/160 and appeal C2026/7842 | Australia; comparative case used to test remedy implementation in the US-centered atlas | 3 | 2026-05-21; merits decision; 2026-06-16; consent appeal-stay order; 2026-09-18; targeted public implementation and appeal recheck | observed; open; reported | [open](records/au-waheed-interim-payment-obligation-2026.json) |
+
+**Boundary:** This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It distinguishes unfairness, reactivation order, conditional interim payment obligation, payment receipt, actual access, final quantum, appeal outcome, continued work, and durable recovery.
 
 | Mobility exposure varies sharply by household income and race in 2024 ACS PUMS | time, cost, voice | housing_place_mobility, time_hidden_price, unequal_exposure_status, care_health_reproduction | 2024 ACS 1-year PUMS housing and person records joined by SERIALNO | United States | 6 | 2024; households with HINCP under $35k; 2024; households with HINCP $75k or more; 2024; workers age 16+ with HINCP under $35k; 2024; workers age 16+ with HINCP $75k or more; 2024; Black workers age 16+ with positive commute minutes; 2024; White workers age 16+ with positive commute minutes | compared | [open](records/us-acs-pums-mobility-subgroups-2024.json) |
 

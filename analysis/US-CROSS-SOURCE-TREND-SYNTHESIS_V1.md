@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 336 machine-readable records, 1194 observations,
+The current registry contains 337 machine-readable records, 1197 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -580,6 +580,13 @@ substitute earnings and a formal order are visible in one adjudicated case,
 while payment receipt, actual access, durability, and later choice remain
 open. This strengthens the alternative-to-response bridge without converting a
 comparative case into a US prevalence or recovery estimate.
+
+The [Waheed interim-payment record](records/au-waheed-interim-payment-obligation-2026.json)
+adds a related legal-implementation stage: a consent-stay payment obligation is
+visible even though receipt, actual platform access, final quantum, appeal
+outcome, and later work remain unobserved. Together, the comparative cases
+separate alternative work, remedy order, conditional payment, payment receipt,
+and practical recovery rather than collapsing them into one outcome.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-waheed-interim-payment-obligation-2026",
+  "title": "A conditional interim-payment obligation is a distinct stage between platform remedy and worker recovery",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/160 and appeal C2026/7842",
+  "geography": "Australia; comparative case used to test remedy implementation in the US-centered atlas",
+  "observations": [
+    {
+      "period": "2026-05-21; merits decision",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"unfair_deactivation": {"value": 1, "unit": "adjudicated finding", "value_type": "boolean_result"}, "reactivation_order": {"value": 1, "unit": "reactivation within seven days ordered before stay", "value_type": "boolean_result"}, "lost_remuneration_quantum": {"value": "ordered in principle; amount to be determined", "unit": "formal remedy stage", "value_type": "open_endpoint"}},
+      "method": "Case-level extraction from the official Fair Work Commission merits decision.",
+      "uncertainty": "The order was later stayed pending appeal; no final quantum, payment receipt, actual access, continued work, or alternative-work route is observed.",
+      "subgroup": "One named worker with adjudicated platform deactivation.",
+      "counterinterpretation": "An adjudicated reactivation order is legal authority, not proof that the account became usable or that lost income was restored.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc1801.pdf",
+      "retrieval_hash": "official_source:sha256:5d839fca6435d4e9ed59948a6faceffa4012ca9f98f1ccd91708c80e328f0854",
+      "status": "observed"
+    },
+    {
+      "period": "2026-06-16; consent appeal-stay order",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"interim_payment_obligation": {"value": 259.38, "unit": "AUD per week into nominated bank account", "value_type": "consent_order_condition"}, "obligation_start": {"value": "2026-05-28", "unit": "payment-obligation start date", "value_type": "ordered_date"}, "repayment_protection": {"value": 1, "unit": "employer not to seek repayment of interim payments", "value_type": "boolean_result"}},
+      "method": "Case-level extraction from the official consent stay order; the obligation is kept separate from receipt.",
+      "uncertainty": "The order does not establish that any weekly payment arrived, the final quantum, actual account access, or later work.",
+      "subgroup": "Same named worker case during appeal stay.",
+      "counterinterpretation": "A conditional payment obligation may protect against some interim loss while leaving access, adequacy, receipt, and durable recovery unresolved.",
+      "source_url": "https://www.fwc.gov.au/document-view/media/download/855694",
+      "retrieval_hash": "official_source:sha256:dea96afad44d6ba814b3fc5aa19131d7ed83772114065001c8797d96749b56aa",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-18; targeted public implementation and appeal recheck",
+      "denominator": {"value": 1, "unit": "named worker case and official search route", "value_type": "case_count"},
+      "measures": {"interim_payment_receipt_observed": {"value": 0, "unit": "public receipt records located", "value_type": "availability_count"}, "actual_access_restoration_observed": {"value": 0, "unit": "public account-access records located", "value_type": "availability_count"}, "final_quantum_observed": {"value": 0, "unit": "public final lost-remuneration determinations located", "value_type": "availability_count"}, "appeal_outcome_observed": {"value": 0, "unit": "public appeal determinations located", "value_type": "availability_count"}, "continued_work_or_switching_observed": {"value": 0, "unit": "public later-work or switching records located", "value_type": "availability_count"}},
+      "method": "Targeted official Fair Work Commission search across the merits decision, stay order, and Waheed document-search route; non-observation is not coded as private non-occurrence.",
+      "uncertainty": "Public search cannot establish private payment, account status, appeal activity, work, or household recovery.",
+      "subgroup": "Same named worker case after the stay order.",
+      "counterinterpretation": "The case advances legal implementation beyond an unquantified remedy, but receipt, adequacy, access, durability, trust, and practical exit remain open.",
+      "source_url": "https://www.fwc.gov.au/document-search?search-ui=decisions&keyword=Waheed",
+      "retrieval_hash": "local_recheck:sha256:5d839fca6435d4e9ed59948a6faceffa4012ca9f98f1ccd91708c80e328f0854; sha256:dea96afad44d6ba814b3fc5aa19131d7ed83772114065001c8797d96749b56aa",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/data/uber-waheed-appeal-stay-followup-2026-09-18.json", "claim": "Bounded machine recheck preserving merits, stay, interim obligation, receipt, access, appeal, and later-work fields.", "status": "derived"}],
+  "boundary": "This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It distinguishes unfairness, reactivation order, conditional interim payment obligation, payment receipt, actual access, final quantum, appeal outcome, continued work, and durable recovery.",
+  "reproduction_audit": "analysis/projects/ai-work-control/data/uber-waheed-appeal-stay-followup-2026-09-18.json"
+}
