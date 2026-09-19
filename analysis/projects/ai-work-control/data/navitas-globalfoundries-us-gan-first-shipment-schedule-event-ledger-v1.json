@@ -24,12 +24,12 @@
       "protected_outcome": "Potentially improved domestic access to qualified GaN power devices for AI and critical infrastructure applications, with geographic diversification from an entirely foreign production route",
       "sacrificed_outcome": "Qualification time, customer sampling delay, and continued upstream material and multi-foundry dependence remain; delivered scale and price are unknown",
       "cost_risk_transfer": "Process qualification, yield, sampling, and demand risks are held by the firms and customers; upstream feedstock and supplier risks remain distributed across the broader supply chain",
-      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; a July 27, 2026 SEC-filed Navitas investor update separately describes the US 8-inch GaN ramp as a 2027–28 target with customer sampling and qualification expected before year-end. A September 18 follow-up search found no later official company notice confirming completed September delivery, so initial wafer shipment, qualification, scaled production, delivered units, and system deployment remain separate open stages",
+      "later_outcome": "The current GlobalFoundries page uses ‘delivers’ in its headline, but the body says first shipments will begin in September 2026, internal samples are scheduled for October, and strategic customer samples are expected before year-end; a July 27, 2026 SEC-filed Navitas investor update separately describes the US 8-inch GaN ramp as a 2027–28 target with customer sampling and qualification expected before year-end. The headline/body mismatch is not treated as shipment confirmation: quantity, customer receipt, qualification, scaled production, and system deployment remain separate open stages",
       "meaning_and_attribution": "The firms frame the route as a trusted US domestic manufacturing source and ecosystem-resilience milestone; no customer, worker, or public assessment is recorded",
       "public_or_collective_response": "The firms publicly announced the route; no government procurement, alliance coordination, or collective customer commitment is documented here",
       "counterexample": "A US wafer-fabrication route can coexist with imported epitaxial wafers, substrates, gallium, other foundries, and incomplete customer qualification",
       "evidence_status": "reported",
-      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026; Navitas Form 10-K filed February 27, 2026; and Navitas Q2 2026 investor update filed with the SEC July 27, 2026. Follow-up official-source search checked September 18, 2026. Shipment, sample, qualification, and 8-inch ramp dates are company-reported milestones, not independently verified delivery or scaled output"
+      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026, retrieved in the current pass; Navitas Form 10-K filed February 27, 2026; and Navitas Q2 2026 investor update filed with the SEC July 27, 2026. The announcement headline says ‘delivers’ while its body describes first shipments as beginning in September, so the current pass codes a reported schedule and wording conflict rather than completed delivery. Shipment, sample, qualification, and 8-inch ramp dates are company-reported milestones, not independently verified delivery or scaled output"
     }
   ],
   "arrows": [
@@ -50,10 +50,10 @@
       "to": "scheduled first wafers and samples",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The announcement schedules first wafers for September, internal samples for October, and strategic customer samples before year-end",
+      "evidence": "The announcement headline uses ‘delivers,’ while the body schedules first wafers for September, internal samples for October, and strategic customer samples before year-end",
       "status": "reported",
       "counterexample": "Forward-looking schedule does not establish shipment completion or customer receipt",
-      "remaining_gap": "Shipment records, sample acceptance, production volume, qualification, and scaled 8-inch output; a September 18 follow-up found no later official confirmation"
+      "remaining_gap": "Shipment records, sample acceptance, production volume, qualification, and scaled 8-inch output; headline language does not establish completed delivery"
     },
     {
       "arrow_id": "NAVITAS-GF-GAN-2026-A-03",
