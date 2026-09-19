@@ -2513,8 +2513,11 @@ route substituteability.
 The [Census HTOPS 2026 social-connectedness acquisition gate](projects/us-cost-trust-politics/census-2026-htops-social-connectedness-community-engagement-acquisition-gate-v1.md)
 identifies a compact same-release route combining social connection, community
 engagement, arts, material pressure, food, work, energy, and transportation.
-No spreadsheet or PUF was downloaded; corrected-vintage, unit, denominator,
-uncertainty, and estimand checks remain prerequisites.
+The corrected March PUF has already passed the variable, alignment, denominator,
+replicate-weight, and estimand checks for one bounded expense-to-social-
+connection screen; the raw file was temporary and is not retained. The linked
+table artifacts remain unavailable, and the result is cross-sectional rather
+than longitudinal.
 
 The new [Doxo bill-payment trend](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 promotes an already-reviewed FTC case into the canonical trend register. It

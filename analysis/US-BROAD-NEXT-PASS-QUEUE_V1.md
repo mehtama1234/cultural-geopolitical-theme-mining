@@ -3192,11 +3192,12 @@ needed for one pre-specified contrast such as expense difficulty × loneliness.
 
 The HTOPS social-connectedness route remains table-artifact-blocked: the
 official index says corrected March tables will be reposted, and its two
-relevant spreadsheet links returned 404 on the 2026-09-17 recheck. Census now
-lists corrected March PUF files (the CSV is 19.2 MB), so the route is
-metadata-accessible but not storage-free and is cross-sectional rather than a
-longitudinal bridge. Preserve the gate; do not download or substitute the PUF
-without revalidating the vintage, dictionary, weights, and variables.
+relevant spreadsheet links returned 404 on the 2026-09-17 recheck. The
+corrected March PUF route, however, has already passed the variable,
+alignment, and replicate-weight checks and produced the bounded finding below;
+the official ZIP currently responds with 19,611,452 bytes and a September 10
+last-modified date. Do not repeat that temporary acquisition or treat the PUF
+as a longitudinal bridge; the next test is repeated/event-compatible evidence.
 
 The corrected March PUF has now passed a storage-light structural gate and
 produced [one bounded expense-to-social-connection finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).

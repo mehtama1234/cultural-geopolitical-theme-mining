@@ -3,15 +3,16 @@
 **Checked:** 2026-09-17
 **Source:** U.S. Census Bureau, March 2026 Household Trends and Outlook Pulse Survey tables
 **Field window:** March 13–30, 2026
-**Status:** source-discovery and variable-availability gate; no estimates are promoted from the linked spreadsheets
+**Status:** corrected-PUF structural gate passed; linked table artifacts remain unavailable; no raw respondent file retained
 
-**Access recheck:** 2026-09-17; the official Census table index says the
-corrected March 2026 tables will be reposted, and the linked `health3a.xlsx`
-and `health3c.xlsx` URLs return 404. Census now lists corrected March 2026
-PUF files updated September 10, including a 19.2 MB CSV plus SAS and
-replicate-weight files. The PUF is metadata-accessible but is not a small
-table substitute: it is cross-sectional, requires a variable/dictionary and
-weighting check, and was not downloaded in this storage-light pass.
+**Access recheck:** 2026-09-18; the official Census table index still lists
+the corrected March 2026 tables for reposting, while the linked `health3a.xlsx`
+and `health3c.xlsx` URLs remain unavailable. The corrected March PUF URL
+responds successfully and reports a 19,611,452-byte CSV ZIP last modified on
+September 10, 2026. The PUF is not a small table substitute: it is
+cross-sectional, requires variable/dictionary and weighting checks, and was
+used only from temporary storage for the bounded screen below; no raw ZIP or
+respondent rows are retained in the repository.
 
 ## Why this source matters
 
@@ -42,15 +43,17 @@ lists the following social and cultural modules:
 The page establishes table availability and a common March 2026 release window;
 it does not establish the numeric relationships among tables. The release is
 an experimental data product. Census also notes that the March and May 2026
-public-use files were corrected for a weighting error, so any microdata
-acquisition must use the corrected vintage and preserve the user note.
+public-use files were corrected for a weighting error. The corrected March PUF
+has now passed the variable, alignment, and replicate-weight checks needed for
+one bounded expense-to-social-connection screen; its cross-sectional limits
+remain binding.
 
 The table page provides detailed tables, standard-error tables, technical
 documentation, and data-quality material. Each listed spreadsheet is under
 1 MB, but the two relevant social-connectedness files remain unavailable. The
-corrected PUF is larger and must not be retrieved merely because it exists;
-the acquisition policy still requires variable, dictionary, estimand, and
-weight checks before retrieval.
+corrected PUF is larger and was retrieved only temporarily for the pre-specified
+screen after the variable, dictionary, estimand, and weight checks; it remains
+outside Git and is not a substitute for longitudinal or event data.
 
 ## Why this could close an adjacent arrow
 
