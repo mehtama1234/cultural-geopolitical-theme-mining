@@ -1,12 +1,12 @@
 {
   "schema": "us-broad-event-ledger-portfolio-summary-v1",
-  "checked": "2026-09-18",
+  "checked": "2026-09-19",
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 34,
-    "events": 206,
-    "arrows": 141
+    "ledgers": 35,
+    "events": 207,
+    "arrows": 145
   },
   "events_by_domain": {
     "consumer_financial_recourse": 54,
@@ -21,21 +21,22 @@
     "infrastructure_technology_dependency": 4,
     "owner_household_business_tradeoff": 1,
     "platform_worker_recourse": 4,
-    "product_safety_recourse": 6
+    "product_safety_recourse": 6,
+    "public_assistance": 1
   },
   "event_evidence_status": {
+    "estimated": 7,
     "observed": 158,
-    "reported": 42,
-    "estimated": 6
+    "reported": 42
   },
   "arrow_status": {
-    "observed": 36,
-    "estimated": 6,
-    "open": 51,
-    "reported": 48
+    "estimated": 7,
+    "observed": 37,
+    "open": 52,
+    "reported": 49
   },
   "event_units": {
-    "case": 176,
+    "case": 177,
     "country": 1,
     "institution": 10,
     "product": 7,
@@ -43,6 +44,6 @@
     "project": 2,
     "worker": 9
   },
-  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 51 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
+  "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 52 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
   "storage_boundary": "This summary is derived from the committed index and ledgers only; no raw respondent, complaint, payment-card, administrative, or restricted file is added."
 }

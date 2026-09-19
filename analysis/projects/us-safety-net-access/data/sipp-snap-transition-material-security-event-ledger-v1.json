@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "De-identified SIPP cohort event ledger connecting adjacent-month SNAP transitions, recorded reasons, next-month material movement, and compound housing/utility hardship without treating benefit status as security or recovery.",
+  "events": [
+    {
+      "event_id": "SIPP-SNAP-TRANSITION-MATERIAL-SECURITY-2024",
+      "unit": "case",
+      "geography": "United States; 2025 SIPP public-use person-month slice, 2024 reference year",
+      "actor_initiating_change": "agency",
+      "event_date": "2024-01-01",
+      "date_precision": "adjacent reference-month pairs across 2024; transition month varies by person and is not a notice or decision date",
+      "denominator": "437 no-to-yes and 387 yes-to-no adjacent-month person pairs; 217 entry and 188 exit pairs have classified recorded reasons; outcome-specific valid counts vary",
+      "method": "Weighted descriptive SIPP transition comparison using WPFINWGT from the first month and Fay-BRR uncertainty with 240 replicate weights for classified reason and compound-hardship shares; no causal estimation",
+      "missingness": "Notice, application route, effort, benefit amount, decision authority, appeal, interruption, food quantity, debt response, trust, political action, and recovery are not observed; about half of transitions lack a classified reason",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "Adjacent-month SNAP receipt changes are observed as no-to-yes entry or yes-to-no exit, with recorded entry/exit reason fields where valid",
+      "alternatives_before_action": "Other assistance, work, family support, food, credit, and non-collection alternatives are not observed at the episode level",
+      "immediate_burden_or_benefit": "SNAP receipt state and next-month income-to-poverty movement are observed; 76.20% of exit pairs had a lower next-month income-to-poverty ratio, while entry and exit transitions can also show simultaneous rent/mortgage and utility hardship",
+      "choice_or_response": "Recorded reasons include job or wage loss, income change, disability, family change, recertification, requirements, time limits, non-collection, and benefits not worth the trouble; the reason is not treated as a sole cause",
+      "person_or_actor_with_control": "Agency rules and household circumstances may both shape the transition; the public-use pair does not identify the notice, caseworker, appeal authority, or household decision sequence",
+      "remedy_or_institutional_response": "Receipt entry or exit is observed, but notice, benefit adequacy, interruption correction, appeal, payment timing, and verified remedy are missing",
+      "immediate_outcome": "The same person is followed to the adjacent month for income-to-poverty movement, job-count context, and joint rent/mortgage plus utility hardship where valid",
+      "protected_outcome": "No protected food, housing, utility, health, or financial outcome is verified; entry and exit are participation states rather than security measures",
+      "sacrificed_outcome": "Lower resources and compound bill hardship are visible for some transition groups, but the ledger cannot assign a sacrifice to SNAP, an agency, a household, or an unobserved shock",
+      "cost_risk_transfer": "The transition layers show that administrative participation and household material risk can diverge; who carries the remaining cost is not identified",
+      "later_outcome": "Next-month material context is observed descriptively; longer persistence, re-entry, food security, debt, trust, political action, and recovery remain open",
+      "meaning_and_attribution": "No event-linked fairness, blame, dignity, trust, or identity judgment is measured",
+      "public_or_collective_response": "No appeal, complaint, organizing, political action, or public response is linked to the transition",
+      "counterexample": "A benefit exit can coincide with lower next-month resources, and entry can coexist with compound bill hardship; neither pattern proves program failure or causal protection",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "SIPP 2025 public-use person-month slice with official labels and 240 replicate weights; person-pair transitions are descriptive, reason classification is incomplete, and the pair is not a full administrative episode"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "SIPP-SNAP-A-01",
+      "from": "SNAP receipt state at month t",
+      "to": "SNAP entry or exit at month t+1",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same identified person is observed in adjacent reference months with a no-to-yes or yes-to-no receipt transition",
+      "status": "observed",
+      "counterexample": "A state transition does not identify a notice, application, interruption, or voluntary choice",
+      "remaining_gap": "Dated administrative episode, notice, route effort, amount, and decision sequence"
+    },
+    {
+      "arrow_id": "SIPP-SNAP-A-02",
+      "from": "SNAP transition",
+      "to": "recorded entry or exit reason",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Classified reason fields are present for 217 of 437 entries and 188 of 387 exits; reason categories are retained with Fay-BRR uncertainty",
+      "status": "reported",
+      "counterexample": "About half of transitions are unclassified, and a recorded reason is not a causal explanation or complete account of household choice",
+      "remaining_gap": "Complete reason capture, notice/renewal history, administrative burden, and household attribution"
+    },
+    {
+      "arrow_id": "SIPP-SNAP-A-03",
+      "from": "SNAP transition",
+      "to": "next-month income-to-poverty movement and compound bill hardship",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Adjacent-month SIPP fields measure resource-ratio direction and valid joint rent/mortgage plus utility hardship after classified transition pairs",
+      "status": "estimated",
+      "counterexample": "76.20% of exit pairs had a lower next-month resource ratio, while hardship can coexist with both entry and exit; timing does not establish a SNAP effect",
+      "remaining_gap": "Benefit amount, food-security quantity, debt, work/care trade-off, and design-based longitudinal causal comparison"
+    },
+    {
+      "arrow_id": "SIPP-SNAP-A-04",
+      "from": "SNAP participation state",
+      "to": "restored security, trust, political action, or exit meaning",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The SIPP transition layers do not contain episode-level adequacy, remedy, trust, attribution, action, or recovery fields",
+      "status": "open",
+      "counterexample": "Higher exit can be administrative loss, non-collection, improved income, or worsening need; continued receipt can coexist with compound hardship",
+      "remaining_gap": "Same-episode notice, effort, adequacy, appeal, remedy, later security, trust, action, and recovery"
+    }
+  ],
+  "boundary": "This ledger establishes a partial same-person public-assistance chain from adjacent-month participation transition through recorded reason and next-month material context. It does not establish program impact, voluntary choice, benefit adequacy, verified remedy, trust change, political action, or recovery.",
+  "storage_boundary": "No raw SIPP person-month or replicate files are retained in this ledger; only bounded aggregate results, denominators, and interpretation limits are represented."
+}

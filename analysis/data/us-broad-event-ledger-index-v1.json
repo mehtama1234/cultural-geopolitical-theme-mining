@@ -64,6 +64,11 @@
       "role": "linked respondent-cohort exposure, loss, reporting, and later context"
     },
     {
+      "path": "analysis/projects/us-safety-net-access/data/sipp-snap-transition-material-security-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "same-person SNAP transition, recorded reason, and next-month material-security boundary"
+    },
+    {
       "path": "analysis/projects/us-owner-household-business-tradeoff/data/owner-business-covid-revenue-consumption-event-ledger-v1.json",
       "domain": "owner_household_business_tradeoff",
       "role": "linked business-revenue shock and owner-consumption buffering"

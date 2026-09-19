@@ -92,3 +92,5 @@ python3 scripts/analyze_sipp_snap_reason_outcome_fay_brr.py \
 
 The raw files and generated JSON remain outside the repository. The reusable
 analysis script is [analyze_sipp_snap_reason_outcome_fay_brr.py](../../../scripts/analyze_sipp_snap_reason_outcome_fay_brr.py).
+
+The bounded result is also represented in the [structured broad event ledger](data/sipp-snap-transition-material-security-event-ledger-v1.json).
