@@ -2228,6 +2228,15 @@ flows, modeled outcomes, provider access, and resident episodes as separate
 objects and preserves the missing links to use, time/money cost, recovery,
 trust, and action.
 
+The latest continuation adds a JASSM-ER realization boundary: a [June 2026
+Polish F-16 exercise report](https://www.gov.pl/web/suomi/puolan-ilmavoimat-ramstein-flag-2026-harjoituksessa2) documents aircraft readiness and allied
+interoperability but does not document JASSM-ER carriage, inventory, weapons
+integration, acceptance, or delivery. Aircraft activity therefore remains a
+counterexample to treating platform readiness as missile-order realization.
+The current committed broad-ledger portfolio is 28 ledgers, 198 events, and
+113 typed arrows, including 42 explicitly open arrows; these counts are
+validated by the publication gate and supersede older handoff snapshots.
+
 The [canonical BDS county-sector divergence record](records/us-bds-county-sector-divergence-2026.json)
 promotes the sector-specific layer into the trend registry: retail,
 transportation, health/social assistance, and accommodation/food show distinct
