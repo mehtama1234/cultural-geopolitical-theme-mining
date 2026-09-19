@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 338 machine-readable records, 1200 observations,
+The current registry contains 339 machine-readable records, 1203 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -593,6 +593,15 @@ adds a counterpattern in the same comparative lane: legal reactivation and
 deemed work can be ordered while lost-pay quantification, payment, actual
 access, and later work remain open. This keeps procedural remedy, legal fiction,
 payment, and lived recovery as separate clocks.
+
+The [Malaysia Act 872 institutional-response record](records/my-grab-act872-institutional-response-2026.json)
+extends the comparison from adjudicated worker cases to governance design:
+Grab's public page reports earnings, appeal/dispute, and social-protection
+commitments, while the official Ministry and Tribunal route provides statutory
+and procedural capacity without a public GrabCar case identifier, award,
+payment, or enforcement outcome. The institutional route is therefore evidence
+of available governance architecture, not evidence of worker uptake, remedy,
+trust, or durable control.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

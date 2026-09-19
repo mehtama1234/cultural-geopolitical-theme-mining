@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "my-grab-act872-institutional-response-2026",
+  "title": "Platform governance commitments and statutory remedy routes do not establish worker-level protection",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "Malaysia Act 872 official governance route and Grab Malaysia public response page; comparative institutional layer, not worker sample",
+  "geography": "Malaysia; comparative platform-governance case used in the US-centered atlas",
+  "observations": [
+    {
+      "period": "2026-03-27; Grab Malaysia public Act 872 response page",
+      "denominator": {"value": 1, "unit": "company public response page", "value_type": "document_count"},
+      "measures": {"service_agreement_commitment": {"value": 1, "unit": "clear Terms of Service agreements claimed", "value_type": "reported_commitment"}, "earnings_framework_commitment": {"value": 1, "unit": "fair and transparent earnings framework claimed", "value_type": "reported_commitment"}, "appeal_and_discipline_commitment": {"value": 1, "unit": "appeal, strike, and dispute-resolution processes described", "value_type": "reported_commitment"}, "social_protection_commitment": {"value": 1, "unit": "SOCSO co-contribution and registration support described", "value_type": "reported_commitment"}, "partner_program_amount": {"value": 10000000, "unit": "Malaysian ringgit reported for partner protection and empowerment", "value_type": "reported_amount"}},
+      "method": "Bounded extraction from the company's public Act 872 response page; reported commitments are not treated as worker uptake or compliance.",
+      "uncertainty": "No worker denominator, appeal use, changed decision, access restoration, earnings receipt, SOCSO enrollment, durability, trust, or exit is disclosed on the page.",
+      "subgroup": "Grab Malaysia platform partners; public company-response surface.",
+      "counterinterpretation": "A company-reported policy and program amount can coexist with unknown uptake, implementation, appeal outcomes, and worker protection.",
+      "source_url": "https://www.grab.com/my/gigbill/",
+      "retrieval_hash": "official_page:sha256:23747087ae8d4429adce6a5397d5b542722b81a673ed49cb98998b94f6d16387",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-18; Malaysia Ministry Act 872 and JTKSM implementation route recheck",
+      "denominator": {"value": 1, "unit": "official ministry implementation route", "value_type": "route_count"},
+      "measures": {"act_and_tribunal_route_present": {"value": 1, "unit": "Act, subsidiary regulations, Tribunal information, and e-Aduan route exposed", "value_type": "observed_route"}, "public_case_identifier_observed": {"value": 0, "unit": "public case identifiers for the reported GrabCar proceeding located", "value_type": "availability_count"}, "public_award_or_payment_observed": {"value": 0, "unit": "public awards, payments, or enforcement outcomes located", "value_type": "availability_count"}},
+      "method": "Targeted review of the official Ministry Act 872 portal, download/implementation page, JTKSM enforcement page, and linked Tribunal route.",
+      "uncertainty": "A maintained official route can contain private or non-indexed case files; public non-observation is not evidence that no claim or outcome exists.",
+      "subgroup": "Malaysia gig-worker statutory and enforcement route.",
+      "counterinterpretation": "Formal route availability is institutional capacity, not claimant access, timely adjudication, payment, correction, or durable protection.",
+      "source_url": "https://www.mohr.gov.my/aktapekerjagig2025/",
+      "retrieval_hash": "local_recheck:sha256:055846852efc4478a9d5c9a03fedc1cb9bd70efa1c89d4591829bcfbd782053d",
+      "status": "observed"
+    },
+    {
+      "period": "2026-09-18; Gig Workers Tribunal procedural regulation route",
+      "denominator": {"value": 1, "unit": "official Tribunal regulation route", "value_type": "document_count"},
+      "measures": {"proceeding_record_capability": {"value": 1, "unit": "Registrar record-management capability described", "value_type": "reported_rule"}, "settlement_award_capability": {"value": 1, "unit": "agreed settlement can be recorded as an award", "value_type": "reported_rule"}, "hearing_to_award_period": {"value": 30, "unit": "days where practicable from last hearing", "value_type": "reported_procedure"}, "actual_grabcar_case_outcome_observed": {"value": 0, "unit": "reported GrabCar case awards, payment, or enforcement outcomes located", "value_type": "availability_count"}},
+      "method": "Official regulation and implementation-route review; procedural capability is separated from an actual case file.",
+      "uncertainty": "The regulation does not identify whether the reported GrabCar matter reached an award, settlement, payment, or enforcement stage.",
+      "subgroup": "Malaysia Gig Workers Tribunal procedural framework.",
+      "counterinterpretation": "A legal remedy architecture may remain unused, inaccessible, delayed, or unresolved for a particular worker.",
+      "source_url": "https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/PUA144_2026%20-%20PERATURAN%20PEKERJA%20GIG%20%28TRIBUNAL%20PEKERJA%20GIG%29.pdf",
+      "retrieval_hash": "local_recheck:sha256:055846852efc4478a9d5c9a03fedc1cb9bd70efa1c89d4591829bcfbd782053d",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/data/grab-malaysia-act872-platform-response-record-v1.json", "claim": "Bounded company-response extraction and public-page hash.", "status": "derived"}, {"source_url": "analysis/projects/ai-work-control/data/malaysia-act872-official-route-recheck-2026-09-18.json", "claim": "Official-route recheck preserving public availability and missing case-outcome fields.", "status": "derived"}],
+  "boundary": "This is a comparative Malaysia platform-governance layer, not a US worker prevalence estimate or a compliance audit. It distinguishes company commitments, official route capacity, procedural rules, actual case identification, worker uptake, appeal, payment, access restoration, durability, trust, and exit.",
+  "reproduction_audit": "analysis/projects/ai-work-control/data/malaysia-act872-official-route-recheck-2026-09-18.json"
+}

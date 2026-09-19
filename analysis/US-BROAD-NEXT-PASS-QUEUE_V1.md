@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 338 records and
-1200 observations.
+have exact registered-URL references. The trend registry holds 339 records and
+1203 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1118,6 +1118,14 @@ orders were stayed pending appeal. The public recheck found no receipt, final
 quantum, actual access, appeal outcome, or later work/switching record. The
 obligation is therefore an observed legal-protection stage, not paid remedy or
 recovery.
+
+The [canonical Malaysia Act 872 institutional-response record](records/my-grab-act872-institutional-response-2026.json)
+adds a comparative state–platform layer: Grab reports agreements, earnings,
+appeal/dispute, and social-protection commitments, while the official Ministry
+and Tribunal route exposes statutory and procedural capacity without a public
+GrabCar case identifier, award, payment, or enforcement outcome. This separates
+company commitment, state route capacity, procedural rule, claimant uptake, and
+lived protection; it is not a US worker estimate or a compliance audit.
 
 The [2026-09-16 CFPB schema recheck](projects/us-customer-automation-recourse/data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
 probed three mortgage records and found complaint receipt/routing/response
