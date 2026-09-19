@@ -153,6 +153,7 @@ than manufacture the episode.
 - [Broad next-episode selection](../../../../analysis/broad-next-episode-selection-v1.md)
 - [UAS health-cost legitimacy acquisition audit](../uas-health-cost-legitimacy-acquisition-audit-v1.md)
 - [MEPS 2024 bounded episode ledger](../meps-2024-bounded-episode-ledger-v1.md)
+- [Structured MEPS health-event context ledger](../data/meps-health-event-context-ledger-v1.json)
 - [AHRQ MEPS data access](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp)
 
 This finding reads the existing compact availability audit and staged ledger

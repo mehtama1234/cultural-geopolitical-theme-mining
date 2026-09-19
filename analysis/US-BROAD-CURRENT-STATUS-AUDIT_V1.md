@@ -1952,6 +1952,10 @@ The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-back
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
 distribution, restored consideration, or post-monitoring worker outcomes.
+The [structured MEPS health-event context ledger](projects/us-health-cost-household-choice/data/meps-health-event-context-ledger-v1.json)
+adds the material/time rotation's person-linked month-ordered office, ER, and
+inpatient event surfaces while preserving the missing alternatives, household
+payer, remedy, recovery, trust, and exit fields.
 
 The [Citibank servicing-remedy record](records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json)
 adds a named financial-interface mechanism to the same-case map: account and

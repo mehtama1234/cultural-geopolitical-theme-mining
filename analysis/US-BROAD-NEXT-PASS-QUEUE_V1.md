@@ -1240,6 +1240,10 @@ pass is conditional: seek event-level need, alternatives, choice, response,
 remedy, and follow-up fields; if they are absent, preserve the audit as the
 boundary and move to the CFPB/platform remedy counterexample or another broad
 theme rather than inferring recovery.
+The [structured MEPS health-event context ledger](projects/us-health-cost-household-choice/data/meps-health-event-context-ledger-v1.json)
+now records the office, emergency-room, and inpatient timing surfaces in the
+common event contract. It adds machine-readable person/event timing and later
+context, not a new causal or recovery estimate.
 
 The dated [MEPS event-to-household-response screen](projects/us-household-constraint-cascade/meps-dated-cascade-event-screen-v1.md)
 now carries a bounded R4/2 nonemployment endpoint alongside event payment,

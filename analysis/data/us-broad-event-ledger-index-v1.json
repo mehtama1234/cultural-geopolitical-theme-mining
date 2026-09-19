@@ -72,6 +72,11 @@
       "path": "analysis/projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json",
       "domain": "employment_remedy",
       "role": "agency-reported aggregate back-pay fund completion and recruitment-control implementation"
+    },
+    {
+      "path": "analysis/projects/us-health-cost-household-choice/data/meps-health-event-context-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "person-linked month-ordered health-event, payment, work, and bill context scaffold"
     }
   ]
 }
