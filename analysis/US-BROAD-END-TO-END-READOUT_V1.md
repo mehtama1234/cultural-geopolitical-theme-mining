@@ -138,6 +138,14 @@ These are real bridges, but each closes only part of the full chain:
   transportation barriers. A route can therefore exist yet remain socially,
   physically, or informationally unusable; nonreceipt is not proof of no need,
   and receipt is not proof of restored food security or dignity.
+- **Availability is not use:** across the interface synthesis, airport
+  transit use ranged from 4% to 19% at the airports with usable reports, while
+  smartphone users reported both connection benefits and difficulty reducing
+  use: 53% said they spent too much time, and only 25% of those who tried to
+  cut back felt extremely or very successful. A route, benefit, device, or
+  facility becomes socially useful only when its time, price, accessibility,
+  information, reliability, and alternatives fit the user; nominal capacity
+  is not completed use, protected outcome, or practical exit.
 - **Public capacity versus usable help:** states held very different fiscal
   cushions in the 2025 Fiscal 50 comparison, from about 320 operating days in
   Wyoming to zero rainy-day days in New Jersey. That is state operating room,
