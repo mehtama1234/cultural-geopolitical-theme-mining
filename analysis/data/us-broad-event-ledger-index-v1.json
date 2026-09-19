@@ -77,6 +77,11 @@
       "path": "analysis/projects/us-health-cost-household-choice/data/meps-health-event-context-ledger-v1.json",
       "domain": "health_cost_material_time",
       "role": "person-linked month-ordered health-event, payment, work, and bill context scaffold"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/virginia-large-load-governance-event-ledger-v1.json",
+      "domain": "infrastructure_state_power",
+      "role": "utility load-drop events through Virginia large-load governance and projected residential allocation"
     }
   ]
 }
