@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-335 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+336 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -9,6 +9,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order | work, voice | work_control_bargaining, consumer_power_recourse, time_hidden_price, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One Australian platform worker and Fair Work Commission proceeding; adjudicated same-case remedy follow-up, not a population estimate | Australia | 1 | 2025-04-08 to 2025-09-23; deactivation, reactivation, post-reactivation work, and formal order | observed | [open](records/au-hotak-reactivation-continued-work-2025.json) |
 
 **Boundary:** This comparative Australian case closes voluntary access restoration and subsequent observed work activity before a formal access-restoration order. It does not close payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.
+
+| A platform worker can show substitute earnings and a formal remedy while receipt and durable access remain open | cost, time, work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, trust_identity_meaning | One adjudicated Fair Work Commission platform-worker case, UDE2025/141 / PR792727 | Australia; comparative case used to test the platform-remedy stage of the US-centered atlas | 3 | 2025-06-13; platform deactivation and subsequent substitute-work period; 2025-10-17; Fair Work Commission remedy order; 2026-09-18; targeted public implementation recheck | observed; open; reported | [open](records/au-mansoor-platform-alternative-earnings-remedy-2025.json) |
+
+**Boundary:** This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It closes an observed substitute-earnings stage and a formal remedy-order stage for one worker, but not freely chosen alternatives, payment receipt, actual account restoration, durable protection, household recovery, trust, political action, or practical exit.
 
 | An Australian platform worker received formal access-restoration and lost-remuneration orders after deactivation | work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One employee-like platform worker and adjudicated Fair Work Commission case; comparative institutional remedy record, not a population estimate | Australia | 1 | 2025-12-15 to 2026-03-20 | observed | [open](records/au-rehman-platform-remedy-2026.json) |
 

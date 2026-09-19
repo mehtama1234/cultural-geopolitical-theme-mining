@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 335 records and
-1191 observations.
+have exact registered-URL references. The trend registry holds 336 records and
+1194 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1095,6 +1095,14 @@ as the next shortcut to meaning, alternatives, remedy receipt, trust, or exit;
 it does not show that consumers lacked narratives or that the administrative
 relief label was false. The next consumer-power route remains lawful linked,
 consented, or account-level follow-up.
+
+The [canonical Mansoor comparative platform-remedy record](records/au-mansoor-platform-alternative-earnings-remedy-2025.json)
+adds one same-worker partial chain: a dated platform deactivation is followed
+by observed Baysec and Didi substitute earnings and a formal reactivation/lost-
+pay order. The public recheck finds no payment receipt, actual post-order
+account status, or later work/switch/non-use record. This advances the
+alternative-work and formal-response stages without promoting an order deadline
+to payment, recovery, or practical exit.
 
 The [2026-09-16 CFPB schema recheck](projects/us-customer-automation-recourse/data/cfpb-consumer-outcome-field-audit-2026-09-16.json)
 probed three mortgage records and found complaint receipt/routing/response

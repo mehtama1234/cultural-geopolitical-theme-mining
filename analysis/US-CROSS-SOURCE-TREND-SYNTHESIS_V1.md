@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 335 machine-readable records, 1191 observations,
+The current registry contains 336 machine-readable records, 1194 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -574,6 +574,12 @@ shows that employer flow and shortage designation do not identify provider
 adequacy. The [three canonical records](records/us-bds-county-sector-divergence-2026.json)
 preserve these as observed ecological stages with explicit cross-vintage and
 resident-outcome boundaries.
+
+The latest platform-remedy comparison adds the [Mansoor same-worker record](records/au-mansoor-platform-alternative-earnings-remedy-2025.json):
+substitute earnings and a formal order are visible in one adjudicated case,
+while payment receipt, actual access, durability, and later choice remain
+open. This strengthens the alternative-to-response bridge without converting a
+comparative case into a US prevalence or recovery estimate.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

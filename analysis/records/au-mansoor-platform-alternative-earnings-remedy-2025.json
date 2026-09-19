@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-mansoor-platform-alternative-earnings-remedy-2025",
+  "title": "A platform worker can show substitute earnings and a formal remedy while receipt and durable access remain open",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/141 / PR792727",
+  "geography": "Australia; comparative case used to test the platform-remedy stage of the US-centered atlas",
+  "observations": [
+    {
+      "period": "2025-06-13; platform deactivation and subsequent substitute-work period",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"baysec_substitute_earnings": {"value": 9000.0, "unit": "AUD received for work performed after deactivation", "value_type": "case_amount"}, "didi_post_deactivation_earnings": {"value": 3044.0, "unit": "AUD across the following four months as described by the Commission", "value_type": "case_amount"}, "didi_extrapolated_pre_deactivation_earnings": {"value": 1284.0, "unit": "AUD across the comparable extrapolated four-month period", "value_type": "case_amount"}},
+      "method": "Case-level extraction from the Commission merits decision; substitute earnings were used in the lost-pay calculation.",
+      "uncertainty": "The public decision does not observe alternative-work availability, hours, expenses, net income, conditions, or whether the routes were freely chosen rather than necessary.",
+      "subgroup": "One named worker with adjudicated platform deactivation.",
+      "counterinterpretation": "Substitute earnings establish an observed alternative-work route, not equivalent work, restored security, or a preferred choice.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf",
+      "retrieval_hash": "local_record:sha256:eddbc4b09082eb143f1f5522eb43320db04af84eaf88ce262b0b33975a4594eb",
+      "status": "observed"
+    },
+    {
+      "period": "2025-10-17; Fair Work Commission remedy order",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"ordered_gross_lost_earnings": {"value": 6073.23, "unit": "AUD gross less tax", "value_type": "adjudicated_amount"}, "reactivation": {"value": 1, "unit": "reactivation on prior terms ordered", "value_type": "boolean_result"}, "payment_deadline_days": {"value": 14, "unit": "days after order date", "value_type": "ordered_deadline"}},
+      "method": "Case-level extraction from the Commission re-filed order and associated merits decision.",
+      "uncertainty": "An order and deadline are not payment receipt, actual account reactivation, durable protection, or later work.",
+      "subgroup": "Same named worker case after formal adjudication.",
+      "counterinterpretation": "Formal remedy authority can coexist with unobserved implementation; the passage of a deadline is not evidence of payment.",
+      "source_url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf",
+      "retrieval_hash": "local_record:sha256:eddbc4b09082eb143f1f5522eb43320db04af84eaf88ce262b0b33975a4594eb",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-18; targeted public implementation recheck",
+      "denominator": {"value": 1, "unit": "named worker case and public search route", "value_type": "case_count"},
+      "measures": {"payment_receipt_observed": {"value": 0, "unit": "public payment-receipt records located", "value_type": "availability_count"}, "actual_access_after_order_observed": {"value": 0, "unit": "public account-reactivation records located", "value_type": "availability_count"}, "later_continued_use_or_exit_observed": {"value": 0, "unit": "public later-use, switch, non-use, or exit records located", "value_type": "availability_count"}},
+      "method": "Targeted official Fair Work Commission search across the merits decision, re-filed order, bulletin, and decisions/orders route; absence is coded as public non-observation, not private non-occurrence.",
+      "uncertainty": "A public-search non-observation cannot establish that payment, access, or later work did not occur privately.",
+      "subgroup": "Same named worker case after the order.",
+      "counterinterpretation": "The case advances alternative-work and formal-remedy stages but does not close receipt, recovery, durability, trust, or practical exit.",
+      "source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "retrieval_hash": "local_recheck:sha256:ba5b9573e7d79ff5594dc1cb3e03a043037dbd907a3440ab2db014e3625b46cc",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/data/uber-mansoor-alternative-earnings-remedy-record-v1.json", "claim": "Bounded machine recheck preserving case stages, official URLs, and non-observed implementation fields.", "status": "derived"}, {"source_url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm", "claim": "Official bulletin route checked for later implementation evidence.", "status": "official-followup"}],
+  "boundary": "This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It closes an observed substitute-earnings stage and a formal remedy-order stage for one worker, but not freely chosen alternatives, payment receipt, actual account restoration, durable protection, household recovery, trust, political action, or practical exit.",
+  "reproduction_audit": "analysis/projects/ai-work-control/data/uber-mansoor-remedy-followup-recheck-2026-09-18.json"
+}
