@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-kyei-merits-dismissal-2025",
+  "title": "Process deficiencies can coexist with a valid platform reason and no restoration remedy",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/105",
+  "geography": "Australia; comparative case used to test procedural fairness, remedy, and recovery stages in the US-centered atlas",
+  "observations": [
+    {
+      "period": "2025-07-17; filing-extension decision",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"filing_extension_granted": {"value": 1, "unit": "extension granted and matter allowed to proceed", "value_type": "adjudicated_procedure"}, "merits_outcome_observed": {"value": 0, "unit": "merits outcome not yet available at this stage", "value_type": "availability_count"}},
+      "method": "Case-level extraction from the official Fair Work Commission timing decision and the later merits decision.",
+      "uncertainty": "The timing decision establishes procedural continuation, not unfairness, restoration, payment, or later worker outcome.",
+      "subgroup": "One named platform worker whose application proceeded after a filing extension.",
+      "counterinterpretation": "A matter being allowed to proceed does not imply that the underlying deactivation was unlawful or that a remedy will follow.",
+      "source_url": "https://www.fwc.gov.au/document-view/media/download/684323",
+      "retrieval_hash": "official_decision:sha256:d7973b0b70b3e39d5a6137473e56889577e431660e8a7548df48cf63cb52ffed",
+      "status": "observed"
+    },
+    {
+      "period": "2025-10-17; merits decision",
+      "denominator": {"value": 1, "unit": "same named worker case", "value_type": "case_count"},
+      "measures": {"process_deficiencies_found": {"value": 1, "unit": "procedural deficiencies identified", "value_type": "adjudicated_finding"}, "valid_safety_reason_accepted": {"value": 1, "unit": "safety complaints accepted as a valid reason for deactivation", "value_type": "adjudicated_finding"}, "unfair_deactivation_found": {"value": 0, "unit": "unfair-deactivation claim dismissed", "value_type": "boolean_result"}, "restoration_order": {"value": 0, "unit": "no restoration remedy ordered", "value_type": "availability_count"}},
+      "method": "Case-level extraction from the official Fair Work Commission merits decision.",
+      "uncertainty": "The merits decision does not establish later account status, continued work, alternative work, payment, recurrence, trust, or exit.",
+      "subgroup": "Same named worker case after procedural continuation.",
+      "counterinterpretation": "A process defect can be insufficient for restoration where the decision-maker accepts a substantive safety reason; procedural quality and merits fairness are separate stages.",
+      "source_url": "https://www.fwc.gov.au/document-view/media/download/677165",
+      "retrieval_hash": "official_decision:sha256:395409f72344a729d9acaf904022d683e76a5fe2be656ab848f26ee84ef31c2c",
+      "status": "observed"
+    },
+    {
+      "period": "2026-09-18; targeted public implementation recheck",
+      "denominator": {"value": 1, "unit": "same named worker case and official search route", "value_type": "case_count"},
+      "measures": {"payment_observed": {"value": 0, "unit": "public payment or compensation record located", "value_type": "availability_count"}, "later_access_or_work_observed": {"value": 0, "unit": "public later account-access or work record located", "value_type": "availability_count"}, "alternative_or_exit_observed": {"value": 0, "unit": "public alternative-work, switching, non-use, or exit record located", "value_type": "availability_count"}},
+      "method": "Targeted official Fair Work Commission public-document search for the later remedy and implementation outcome.",
+      "uncertainty": "Public non-observation cannot establish that private work, payment, account status, or later choice did not occur.",
+      "subgroup": "Same named worker case after merits dismissal.",
+      "counterinterpretation": "A dismissed unfair-deactivation claim is not evidence of no burden or no later consequence; it only limits what the public adjudicated record establishes about remedy.",
+      "source_url": "https://www.fwc.gov.au/document-search?search-ui=decisions&keyword=UDE2025%2F105",
+      "retrieval_hash": "local_recheck:sha256:44386606274a000adc7dd341ce69a1f25a7da885359afad4cd8633b9e9918205",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/data/uber-kyei-merits-followup-recheck-2026-09-18.json", "claim": "Bounded case recheck preserving timing, process, merits, payment, access, alternatives, and exit stages."}, {"source_url": "analysis/projects/ai-work-control/uber-kyei-merits-followup-recheck-2026-09-18.md", "claim": "Case narrative and source hierarchy."}],
+  "boundary": "This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It distinguishes filing continuation, process deficiency, substantive valid reason, unfairness finding, restoration, payment, later access, alternatives, trust, and exit.",
+  "reproduction_audit": "analysis/projects/ai-work-control/data/uber-kyei-merits-followup-recheck-2026-09-18.json"
+}

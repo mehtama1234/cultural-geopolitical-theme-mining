@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 340 records and
-1206 observations.
+have exact registered-URL references. The trend registry holds 341 records and
+1209 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -1126,6 +1126,13 @@ and Tribunal route exposes statutory and procedural capacity without a public
 GrabCar case identifier, award, payment, or enforcement outcome. This separates
 company commitment, state route capacity, procedural rule, claimant uptake, and
 lived protection; it is not a US worker estimate or a compliance audit.
+
+The [canonical Kyei merits-dismissal record](records/au-kyei-merits-dismissal-2025.json)
+adds the negative remedy counterpattern: the Commission identified process
+deficiencies but accepted safety complaints as a valid reason, dismissed the
+unfair-deactivation claim, and issued no restoration order. Later payment,
+access, alternative work, and exit remain unobserved. This keeps procedural
+defect, substantive fairness, and lived recovery as separate stages.
 
 The [canonical GrabCar first-hearing record](records/my-grabcar-tribunal-first-hearing-2026.json)
 now separates reported institutional use from the company and statutory

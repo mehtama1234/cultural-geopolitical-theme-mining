@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 340 machine-readable records, 1206 observations,
+The current registry contains 341 machine-readable records, 1209 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -602,6 +602,13 @@ and procedural capacity without a public GrabCar case identifier, award,
 payment, or enforcement outcome. The institutional route is therefore evidence
 of available governance architecture, not evidence of worker uptake, remedy,
 trust, or durable control.
+
+The [Kyei merits-dismissal record](records/au-kyei-merits-dismissal-2025.json)
+adds a negative remedy counterexample to the platform lane: process deficiencies
+were identified, but a valid safety reason was accepted and the unfair-
+deactivation claim was dismissed. No restoration, payment, later access, or
+exit is observed. This prevents procedural defect from being treated as either
+automatic worker protection or automatic proof of platform unfairness.
 
 The [GrabCar first-hearing record](records/my-grabcar-tribunal-first-hearing-2026.json)
 adds the exercised-route stage to that comparison: a reported first hearing
