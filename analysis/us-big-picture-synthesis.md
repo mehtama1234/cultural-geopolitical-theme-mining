@@ -635,6 +635,13 @@ renewal, office access, program exit, employment, food security, and trust are
 different outcomes. A lower caseload or higher exit rate is not automatically
 successful policy; the household’s next condition must be measured.
 
+The SIPP SNAP transition layers make that warning concrete. Among adjacent
+month exits, 76.2% had a lower next-month income-to-poverty ratio, while only
+about half of entry and exit transitions had a classified recorded reason.
+Benefit exit therefore cannot be read as improved security or voluntary
+choice, and the unknown-reason share is itself part of the administrative
+friction. The result is descriptive, not a causal estimate of SNAP effects.
+
 The [population public-system event-ledger design](projects/us-safety-net-access/same-episode-event-ledger-design-v1.md)
 turns that gap into a multi-person, multi-place test: notice, effort, access
 route, decision, interruption, food/work/debt result, later trust, public

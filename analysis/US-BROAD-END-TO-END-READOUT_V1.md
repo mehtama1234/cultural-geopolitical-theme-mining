@@ -83,6 +83,11 @@ These are real bridges, but each closes only part of the full chain:
   incident date, verified remedy, and durable security are missing. The later
   search fields add an adaptation signal: loss groups search more for jobs,
   food, benefits, and credit, but searching is not a usable alternative.
+- **SIPP SNAP:** adjacent-month transitions show that benefit exit is not
+  automatically improvement: 76.2% of observed exits had a lower next-month
+  income-to-poverty ratio, and only about half of transitions had a classified
+  reason. Entry and exit are therefore participation states, not proof of
+  adequacy, voluntary choice, or restored security.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
