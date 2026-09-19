@@ -33,7 +33,7 @@ dated exposure or decision
   -> meaning, trust, action, persistence, or exit
 ```
 
-The current 17-surface availability audit finds no retained source that closes
+The current 18-surface availability audit finds no retained source that closes
 all nine stages. One surface observes an episode-level alternative or non-use
 field, while none observes verified remedy receipt or a defined outcome
 follow-up. UAS, PSID, HRS, and WBNS respondent routes remain access-gated; the
