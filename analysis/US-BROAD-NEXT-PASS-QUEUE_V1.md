@@ -591,7 +591,14 @@ consolidates that rule into the geopolitical reading route. It moves the case
 from scattered award, supplier, facility, capacity, and test records to an
 explicit realization clock, while keeping accepted quantity, customer
 delivery, operational inventory, replaceability, and external response open.
-The next pass must locate one identifier-bearing realization event rather than
+The current US-side realization record now adds two different stages: a June
+2026 Dyess LRASM Event Zero that validates B-1B pre-flight procedures, and the
+2026 Marine Aviation Plan's statement that LRASM C-1 was operationally fielded
+on F/A-18E/F in FY2024. These close a bounded US operational-integration and
+fielding stage for one variant/platform; they do not establish C-3 or F-35
+fielding, quantity, sustainment, combat use, Polish delivery, or external
+response. The next pass must still locate one identifier-bearing acceptance,
+inventory/maintenance, customer-delivery, or response event rather than
 another procurement or capacity announcement.
 The new [capability-to-response finding](projects/ai-work-control/findings/ai-work-control-095.md)
 promotes that realization discipline into a detailed state-power test: public
