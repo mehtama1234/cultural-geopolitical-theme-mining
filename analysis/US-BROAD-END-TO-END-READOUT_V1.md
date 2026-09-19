@@ -73,6 +73,13 @@ These are real bridges, but each closes only part of the full chain:
   prior-authorization delay is followed by more same-round care delay, medical
   debt, collections, and bill problems across office, ER, and inpatient
   groups. Alternatives, claim-level remedy, trust, and action are missing.
+- **Health-cost institutional friction:** in the broader MEPS comparison,
+  respondents reporting insurance denial or prior-authorization delay had
+  15.18% cost-related care delay, 24.68% medical debt, and 20.26% collection
+  contact, versus 5.81%, 12.98%, and 9.77% without reported denial/delay.
+  This is a route-specific association, not proof of claim causation or failed
+  remedy; it shows how an institutional gate can coincide with both delayed
+  care and downstream financial exposure.
 - **SHED:** the same respondent’s financial condition and adaptations persist or
   reverse across waves. The trigger is not transaction-dated.
 - **CCES:** an earlier job or benefit disruption is followed by institutional
