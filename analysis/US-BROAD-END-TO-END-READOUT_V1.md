@@ -365,6 +365,13 @@ These are real bridges, but each closes only part of the full chain:
   the same way across years. This is a descriptive, model-screened bridge:
   attribution may channel burden into institution-targeted action, but the
   bill, remedy, effectiveness, trust change, and recovery remain open.
+- **Policy demand is identity-conditioned too:** in the ANES health-cost layer,
+  support for increased government help with health-insurance costs was 57.5%
+  among respondents not at all concerned about paying health-care costs and
+  61.3% among those extremely concerned. Among strong Democrats the comparable
+  values ran 84.6% to 71.2%, while among strong Republicans they ran 30.7% to
+  50.0%. Concern alone therefore does not determine one policy demand; party
+  identity changes the meaning of the material problem.
 - **GSS meaning layer:** respondents who were not satisfied with their finances
   reported much lower generalized trust and fairness expectations than those
   who were satisfied. But reported financial direction also aligned with
