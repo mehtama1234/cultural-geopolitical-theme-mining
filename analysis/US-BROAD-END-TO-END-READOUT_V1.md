@@ -122,6 +122,12 @@ These are real bridges, but each closes only part of the full chain:
   with a 14-day deadline. The record still does not show payment receipt,
   continued work, durable access, or household recovery. Enforceability is a
   stage between formal remedy and lived recovery.
+- **Payment is not restoration:** in the FWC Meadley follow-up, the official
+  account reports compensation payment, failed reinstatement, a worker's
+  court-enforcement action, and a further $15,045 award plus interest and
+  penalty. This is a stronger remedy-stage case because payment is observed
+  while the original work relationship remains unrestored; later employment,
+  household recovery, trust, and exit remain open.
 - **Care and work:** among households with young children, lower-income
   households reported much more converted work-time loss when care was
   inadequate (114.6 days below poverty versus 43.3 days above 400% of

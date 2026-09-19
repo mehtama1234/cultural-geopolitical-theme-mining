@@ -272,6 +272,16 @@ The latest cross-theme layers make the societal scope explicit. The [cross-sourc
 
 The [care cost, work, family time, and security layer](projects/us-health-cost-household-choice/care-cost-work-family-security-layer-v1.md) records social reproduction as a population-level process: health needs can be paid through bills, delayed care, unpaid family labor, lost work, food or housing tradeoffs, and reduced job freedom. The [place risk, housing security, mobility, and local life layer](projects/us-housing-insurance-affordability/place-risk-mobility-local-life-layer-v1.md) follows risk through insurance, housing, energy, transport, business formation, services, local attachment, and the ability to stay. The [optionality, unequal exposure, time, and exit layer](projects/us-household-calendar-integration/optionality-inequality-time-exit-layer-v1.md) provides the distributional spine: cash, time, alternatives, social support, rights, institutional voice, and practical exit are distinct resources.
 
+The remedy ledgers add an important counterexample to the same map. In the
+official FWC Meadley follow-up, compensation payment was reported, but
+reinstatement failed; the worker then pursued court enforcement and a further
+monetary award and penalty. The observed chain is therefore `institutional
+order -> noncompliance -> worker enforcement -> payment/additional remedy`,
+not `payment -> restored work -> household recovery`. Later employment,
+durability, trust, and exit are still unobserved. This is why the atlas keeps
+formal remedy, implementation, receipt, restoration, and recovery as separate
+stages.
+
 The latest population layers strengthen this map without narrowing it. The
 [2025 SHED price-adaptation layer](projects/us-household-financial-pressure/shed-2025-price-adaptation-layer-v1.md)
 shows how adults distribute price pressure across cheaper goods, reduced use,
