@@ -1,6 +1,6 @@
 # US provisional societal trend register v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Purpose:** synthesize the current source layers into broad, testable trends  
 **Scope:** US households, consumers, workers, firms, places, institutions,
 political culture, infrastructure, and cross-border state power
