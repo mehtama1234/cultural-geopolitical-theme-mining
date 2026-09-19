@@ -45,7 +45,7 @@ never the completion condition.
 | Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
 | Trend registry | 344 machine-readable records; 1214 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
-| Broad event-ledger portfolio | 33 schema-valid ledgers; 204 events; 137 typed arrows, including 50 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
+| Broad event-ledger portfolio | 34 schema-valid ledgers; 206 events; 141 typed arrows, including 51 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
@@ -2250,8 +2250,8 @@ Polish F-16 exercise report](https://www.gov.pl/web/suomi/puolan-ilmavoimat-rams
 interoperability but does not document JASSM-ER carriage, inventory, weapons
 integration, acceptance, or delivery. Aircraft activity therefore remains a
 counterexample to treating platform readiness as missile-order realization.
-The current committed broad-ledger portfolio is 33 ledgers, 204 events, and
-137 typed arrows, including 50 explicitly open arrows; these counts are
+The current committed broad-ledger portfolio is 34 ledgers, 206 events, and
+141 typed arrows, including 51 explicitly open arrows; these counts are
 validated by the publication gate and supersede older handoff snapshots.
 
 The [canonical BDS county-sector divergence record](records/us-bds-county-sector-divergence-2026.json)
