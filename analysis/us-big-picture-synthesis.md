@@ -47,11 +47,15 @@ The current [retained same-unit bridge matrix](US-BROAD-RETAINED-SAME-UNIT-BRIDG
 shows where the long chain is genuinely observed: MEPS places a dated medical
 event before later health/work movement; SHED follows financial adaptation and
 partial reversal; CCES places earlier job loss or insurance insecurity before
-later institutional judgment and political action. These are separate
-bridges, not one joined household story. Across them, adaptation, approval,
-contact, action, and recovery do not form a single ladder. That divergence is
-one of the atlas's strongest cultural findings and a reason to measure meaning
-and perceived control directly rather than infer them from hardship.
+later institutional judgment and political action; HTOPS separates fraud
+exposure, realized loss, reporting, self-reported recovery, and later household
+conditions; and a CFPB Ombudsman example follows an expired redress check
+through recipient effort, administrative friction, and escalation. These are
+separate bridges, not one joined household story. Across them, adaptation,
+approval, contact, action, remedy access, and recovery do not form a single
+ladder. That divergence is one of the atlas's strongest cultural findings and
+a reason to measure meaning and perceived control directly rather than infer
+them from hardship.
 
 ## The deepest findings currently supported
 
