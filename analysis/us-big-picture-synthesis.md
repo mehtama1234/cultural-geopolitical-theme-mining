@@ -121,6 +121,12 @@ The newer pages make the map more concrete:
   and protection—not one generic “recovery” measure. The [remedy synthesis](projects/ai-work-control/remedy-spectrum-cross-domain-synthesis-v1.md)
   keeps payment, return, status repair, worker voice, durability, trust, and
   exit separate.
+- The Rehman platform case adds an especially clear remedy clock: voluntary
+  access restoration was followed by a formal reactivation order and an
+  A$7,096.96 gross lost-remuneration order with a 14-day deadline. The public
+  record still does not show receipt, continued work, durable access, or
+  household recovery. Enforceability is therefore a real stage, but not the
+  lived endpoint.
 - The MEPS event follow-up now adds a same-person later health/work clock. It
   strengthens the household side of the map, but the event record still does
   not reveal the initiating need, available alternative, institutional remedy,

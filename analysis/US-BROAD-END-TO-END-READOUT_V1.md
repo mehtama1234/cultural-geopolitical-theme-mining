@@ -108,6 +108,11 @@ These are real bridges, but each closes only part of the full chain:
   who were satisfied. But reported financial direction also aligned with
   different vote intention patterns. Material position shapes meaning without
   determining one fixed cultural or political response.
+- **Platform remedy case:** one worker had access voluntarily restored, then
+  received a formal reactivation order and an A$7,096.96 gross lost-pay order
+  with a 14-day deadline. The record still does not show payment receipt,
+  continued work, durable access, or household recovery. Enforceability is a
+  stage between formal remedy and lived recovery.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
