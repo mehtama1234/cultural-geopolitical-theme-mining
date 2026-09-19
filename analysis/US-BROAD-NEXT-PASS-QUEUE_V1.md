@@ -217,6 +217,10 @@ It is now promoted into the canonical comparative [remedy record](records/au-reh
 and [detailed finding](projects/ai-work-control/findings/ai-work-control-091.md),
 which preserves the one-case Australian boundary and separates access and
 financial remedies.
+The HTOPS route is also captured in a [structured broad event ledger](projects/us-cost-trust-politics/data/htops-fraud-loss-followup-event-ledger-v1.json)
+as a linked respondent-cohort case. It formalizes six partial arrows without
+turning retrospective exposure, self-reported recovery, or later hardship into
+a dated individual remedy or causal trust/exit result.
 
 The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
 tested the official February PUF against the April and June respondent keys.

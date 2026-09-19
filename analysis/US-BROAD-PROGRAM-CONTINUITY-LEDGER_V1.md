@@ -1040,6 +1040,10 @@ The [HTOPS fraud-loss canonical record](records/us-htops-fraud-loss-followup-202
 now carries that route directly into the broad provenance chain, including the
 184-person exposure-plus-loss subgroup and the 11-person loss/report/recovery
 cell as sparse descriptive boundaries rather than recovery estimates.
+The companion [structured HTOPS event ledger](projects/us-cost-trust-politics/data/htops-fraud-loss-followup-event-ledger-v1.json)
+keeps the linked respondent-cohort unit, survey-wave timing, reported-recovery
+status, later household context, and open trust/action and switching/exit
+arrows mechanically visible.
 The [Rehman platform-remedy record](records/au-rehman-platform-remedy-2026.json)
 then supplies an observed comparative remedy stage: deactivation, worker
 application, voluntary reactivation, formal access restoration, and ordered
