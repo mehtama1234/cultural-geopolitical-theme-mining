@@ -162,6 +162,11 @@
       "path": "analysis/projects/ai-work-control/data/globalfoundries-vermont-gan-manufacturing-response-event-ledger-v1.json",
       "domain": "infrastructure_technology_dependency",
       "role": "named US downstream GaN manufacturing and customer route, separated from upstream gallium autonomy"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/navitas-globalfoundries-us-gan-first-shipment-schedule-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "scheduled US-manufactured Gen 5 GaN wafers and customer samples, with delivery and upstream material provenance open"
     }
   ]
 }

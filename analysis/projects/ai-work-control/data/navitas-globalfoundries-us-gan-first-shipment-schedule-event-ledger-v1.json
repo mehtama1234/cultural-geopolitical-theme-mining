@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "company_reported_production_schedule_and_supply_route",
+  "purpose": "Bounded realization-stage record for the Navitas–GlobalFoundries US-manufactured Gen 5 GaN route, preserving the distinction between scheduled first shipments and completed delivery or upstream gallium autonomy.",
+  "events": [
+    {
+      "event_id": "NAVITAS-GF-GAN-GEN5-2026-09-01",
+      "unit": "product",
+      "geography": "Burlington, Vermont, United States; Navitas and GlobalFoundries GaN supply route",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-09-01",
+      "date_precision": "Company announcement date; first shipment and sample schedule is forward-looking",
+      "denominator": "One Gen 5 GaNFast product family and one US 200mm GaN-on-silicon foundry route; quantities, customer count, and delivered units are not reported",
+      "method": "Structured extraction from GlobalFoundries announcement and Navitas public filing describing manufacturing partners and supply-chain structure",
+      "missingness": "Actual September shipment confirmation, volume, customer identity, revenue, wafer yield, upstream gallium source, refined-material contract, recycling share, and end-system deployment are not established",
+      "condition_or_decision": "technology",
+      "exposure": "AI infrastructure, performance computing, industrial electrification, and national-security applications require efficient high-power devices; the route also remains dependent on upstream GaN wafer and gallium inputs",
+      "alternatives_before_action": "Navitas could continue using existing Asian and US foundry partners, customers could use other GaN or SiC devices, and systems could defer or redesign power conversion; application-specific substitution is not reported",
+      "immediate_burden_or_benefit": "Navitas and GlobalFoundries created a US manufacturing route for Gen 5 GaN devices, with September first-wafer shipments, October internal samples, and strategic customer samples targeted before year-end",
+      "choice_or_response": "Navitas developed Gen 5 GaNFast FETs and power ICs for production at GF's Burlington facility; GF provided the US 200mm GaN-on-silicon manufacturing process",
+      "person_or_actor_with_control": "Navitas controls product design and customer sampling; GlobalFoundries controls foundry production and process execution; customers control qualification and adoption",
+      "remedy_or_institutional_response": "A firm-to-foundry partnership creates a domestic downstream supply path for critical power applications; no government remedy or upstream material intervention is claimed in this event",
+      "immediate_outcome": "A dated production schedule and US foundry route are publicly documented; the announcement does not verify that September shipments had already occurred",
+      "protected_outcome": "Potentially improved domestic access to qualified GaN power devices for AI and critical infrastructure applications, with geographic diversification from an entirely foreign production route",
+      "sacrificed_outcome": "Qualification time, customer sampling delay, and continued upstream material and multi-foundry dependence remain; delivered scale and price are unknown",
+      "cost_risk_transfer": "Process qualification, yield, sampling, and demand risks are held by the firms and customers; upstream feedstock and supplier risks remain distributed across the broader supply chain",
+      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; delivered units, customer acceptance, and system deployment remain open",
+      "meaning_and_attribution": "The firms frame the route as a trusted US domestic manufacturing source and ecosystem-resilience milestone; no customer, worker, or public assessment is recorded",
+      "public_or_collective_response": "The firms publicly announced the route; no government procurement, alliance coordination, or collective customer commitment is documented here",
+      "counterexample": "A US wafer-fabrication route can coexist with imported epitaxial wafers, substrates, gallium, other foundries, and incomplete customer qualification",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026 and Navitas Form 10-K filed February 27, 2026. Shipment and sample dates are company-reported forward-looking milestones, not independently verified delivery"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "NAVITAS-GF-GAN-2026-A-01",
+      "from": "November 2025 US GaN partnership",
+      "to": "September 2026 Gen 5 production schedule",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The September announcement says the companies announced their long-term partnership in November 2025 and developed Gen 5 devices for production at GF's Burlington facility",
+      "status": "reported",
+      "counterexample": "The earlier partnership announcement itself projected production later in 2026; schedule is not proof of completed output",
+      "remaining_gap": "Pilot lot, yield, qualification, and confirmed production date"
+    },
+    {
+      "arrow_id": "NAVITAS-GF-GAN-2026-A-02",
+      "from": "US 200mm GaN-on-silicon foundry route",
+      "to": "scheduled first wafers and samples",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The announcement schedules first wafers for September, internal samples for October, and strategic customer samples before year-end",
+      "status": "reported",
+      "counterexample": "Forward-looking schedule does not establish shipment completion or customer receipt",
+      "remaining_gap": "Shipment records, sample acceptance, and production volume"
+    },
+    {
+      "arrow_id": "NAVITAS-GF-GAN-2026-A-03",
+      "from": "scheduled US Gen 5 GaN output",
+      "to": "AI infrastructure and national-security supply resilience",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The firms identify AI infrastructure, performance computing, industrial electrification, and critical national-security applications for the product family",
+      "status": "open",
+      "counterexample": "Application targeting is not evidence of deployment, reduced system risk, or defense inventory",
+      "remaining_gap": "Named customer acceptance, system deployment, procurement, and measured substitution of another supply route"
+    },
+    {
+      "arrow_id": "NAVITAS-GF-GAN-2026-A-04",
+      "from": "US downstream GaN production",
+      "to": "reduced gallium import reliance or geopolitical autonomy",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Navitas describes multiple qualified suppliers and foundries, including Asia and the US, while neither source identifies gallium feedstock origin or import displacement",
+      "status": "open",
+      "counterexample": "Domestic device fabrication may continue to rely on imported epitaxial wafers, substrates, refined gallium, or Asian manufacturing stages",
+      "remaining_gap": "Material provenance, recycling share, supplier switch, and measured change in gallium or GaN import exposure"
+    }
+  ],
+  "boundary": "This ledger records the strongest current downstream realization signal: a scheduled US-manufactured Gen 5 GaN shipment and sampling path. It does not establish completed delivery, customer qualification, end-system deployment, upstream gallium autonomy, or reduced geopolitical leverage.",
+  "storage_boundary": "No confidential customer, production, or employee data is retained; only public company statements and their forward-looking uncertainty are represented."
+}
