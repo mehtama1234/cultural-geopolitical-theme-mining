@@ -48,6 +48,12 @@ The [Honda Talon repair event ledger](data/honda-talon-repair-event-ledger-v1.js
 adds a recall-keyed dealer-repair counterexample: direct-contact language and
 repair progress remain distinct from verified purchaser repair or safe mobility.
 
+The [Sauna360 repeat-remedy source note](data/sauna360-repeat-remedy-source-note-2026-09-17.md)
+adds a remedy-durability counterexample: a 2025 repair was later described as
+ineffective, prompting a 2026 expanded recall and second repair. This advances
+the durability stage without establishing owner notice, repair completion, or
+safe restoration.
+
 ## Decision rule
 
 Move on after one product-safety signal, one customer harm or recall measure, and one remedy measure. Do not treat seller verification, reviews, or a safety mark as proof that the product is safe.
