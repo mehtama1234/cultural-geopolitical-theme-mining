@@ -1830,9 +1830,13 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories seven schema-valid ledgers totaling 126 events and 27 arrows;
+now inventories 18 schema-valid ledgers totaling 183 events and 67 arrows;
 the publication gate validates that inventory separately from the simulated
-fixture and keeps non-contract recheck artifacts out of the count.
+fixture and keeps non-contract recheck artifacts out of the count. The
+[portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json)
+records 152 observed, 25 reported, and 6 estimated event records, with 26
+arrows explicitly open. These are portfolio counts, not pooled effects; the
+units and denominators remain heterogeneous.
 
 The platform-work remedy lane now has a focused [restoration and dependence
 synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md).
