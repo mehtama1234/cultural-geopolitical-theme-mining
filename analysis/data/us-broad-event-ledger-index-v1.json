@@ -82,6 +82,11 @@
       "path": "analysis/projects/ai-work-control/virginia-large-load-governance-event-ledger-v1.json",
       "domain": "infrastructure_state_power",
       "role": "utility load-drop events through Virginia large-load governance and projected residential allocation"
+    },
+    {
+      "path": "analysis/projects/us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json",
+      "domain": "disaster_public_system_delivery",
+      "role": "GAO-reported FEMA assistance scale, reachability, notice interpretation, housing bottlenecks, and delivery redesign"
     }
   ]
 }

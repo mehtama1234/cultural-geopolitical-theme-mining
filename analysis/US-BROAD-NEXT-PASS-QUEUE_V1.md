@@ -2927,6 +2927,9 @@ growth or loss as a direct measure of local welfare or capacity.
 The [GAO 2026 FEMA disaster-assistance delivery and capacity layer](projects/us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
 adds a public-system response surface: large aggregate aid can coexist with
 helpline, letter, housing, digital-access, and state/local capacity bottlenecks.
+The [structured FEMA delivery ledger](projects/us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json)
+now makes those institutional stages and four bounded arrows machine-readable;
+it does not add survivor-level receipt or recovery.
 The next test is an identified-survivor ledger from disaster trigger through
 insurance, contact, eligibility, award, payment or placement, repair/housing,
 and later work, health, mobility, trust, complaint, or political action. Do not

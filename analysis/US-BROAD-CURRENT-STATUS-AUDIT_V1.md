@@ -2079,6 +2079,13 @@ The [Harvey cross-source event ledger](projects/us-small-business-disaster-liqui
 now formalizes the four-stage chronology and keeps its heterogeneous units and
 denominators explicit; it does not create a person-level causal join.
 
+The [structured FEMA disaster-assistance delivery ledger](projects/us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json)
+adds five institution-level events and four typed arrows for aggregate aid,
+helpline reachability, eligibility-letter interpretation, direct-housing
+bottlenecks, and delivery redesign. It strengthens the public-system response
+map while leaving survivor receipt, placement, recovery, trust, and political
+action unobserved.
+
 The [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md)
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside
