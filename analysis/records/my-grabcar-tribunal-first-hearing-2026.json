@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "my-grabcar-tribunal-first-hearing-2026",
+  "title": "A reported first platform Tribunal hearing establishes institutional use without an observed worker remedy",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "One reported GrabCar proceeding before Malaysia's Gig Workers Tribunal; case-level procedural record, not a worker sample",
+  "geography": "Kuching, Sarawak, Malaysia; comparative case used in the US-centered atlas",
+  "observations": [
+    {
+      "period": "2026-09-01; reported first GrabCar Tribunal hearing",
+      "denominator": {"value": 1, "unit": "named reported Tribunal proceeding", "value_type": "case_count"},
+      "measures": {"first_hearing_reported": {"value": 1, "unit": "GrabCar proceeding reported as reaching a first hearing", "value_type": "reported_case_stage"}, "claimant_appeared_personally": {"value": 1, "unit": "claimant reported as appearing personally", "value_type": "reported_procedure"}, "respondent_employee_representation": {"value": 1, "unit": "GrabCar reported as represented by an employee", "value_type": "reported_procedure"}},
+      "method": "Bounded case-level extraction from two independent public reports attributing the hearing facts to Malaysia's Ministry of Human Resources/Gig Workers Tribunal.",
+      "uncertainty": "The primary case number, filed claim, relief sought, hearing notice, transcript, and Tribunal reasoning are not public in the checked packet.",
+      "subgroup": "One e-hailing gig worker and GrabCar Sdn Bhd in a reported Kuching proceeding.",
+      "counterinterpretation": "A reported hearing establishes institutional use, not effective review, a meritorious claim, correction, payment, or restored platform access.",
+      "source_url": "https://production.humanresourcesonline.net/malaysia-s-gig-workers-tribunal-hears-first-case",
+      "retrieval_hash": "official_report:sha256:561e270c375f52b03586861bf2d9386fee7afe42e8819421effa0b8c692ca2ce",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-01 onward; reported continuation for evidence and witness examination",
+      "denominator": {"value": 1, "unit": "same named reported Tribunal proceeding", "value_type": "case_count"},
+      "measures": {"evidence_and_witness_stage_reported": {"value": 1, "unit": "matter reported as returning for evidence and additional witness examination", "value_type": "reported_procedure"}, "award_observed": {"value": 0, "unit": "public award or final finding located in the checked packet", "value_type": "availability_count"}, "payment_observed": {"value": 0, "unit": "public payment or compensation record located", "value_type": "availability_count"}},
+      "method": "Cross-source comparison of the first-hearing reports and the local case record; procedural continuation is kept separate from a final adjudication.",
+      "uncertainty": "The next hearing date, pleadings, evidence, settlement, award, enforcement, and worker-level consequence are not identified in the available public reports.",
+      "subgroup": "Same reported GrabCar Tribunal proceeding after first hearing.",
+      "counterinterpretation": "A matter moving to evidence can remain unresolved, inaccessible, or produce no correction or payment; hearing progress is not recovery.",
+      "source_url": "https://www.freemalaysiatoday.com/category/bahasa/tempatan/2026/09/02/pertikaian-babit-grabcar-kes-pertama-didengar-tribunal-pekerja-gig",
+      "retrieval_hash": "independent_report:sha256:ae4b410f50d768a4cfb8141491ba689ff500a2fbc164dbc16c2f0d3b53ecca92",
+      "status": "open"
+    },
+    {
+      "period": "2026-09-18; official route and case-outcome recheck",
+      "denominator": {"value": 1, "unit": "reported GrabCar proceeding and official Ministry route", "value_type": "case_count"},
+      "measures": {"public_primary_case_identifier_observed": {"value": 0, "unit": "public primary case identifier located", "value_type": "availability_count"}, "public_hearing_record_observed": {"value": 0, "unit": "public hearing notice, minutes, or transcript located", "value_type": "availability_count"}, "public_award_or_enforcement_observed": {"value": 0, "unit": "public award, payment, or enforcement outcome located", "value_type": "availability_count"}, "worker_access_or_correction_observed": {"value": 0, "unit": "public changed-access or correction record located", "value_type": "availability_count"}},
+      "method": "Targeted review of the official Ministry Act 872 portal, Tribunal regulations, JTKSM route, and linked case-outcome search boundary.",
+      "uncertainty": "A public non-observation cannot establish that no private proceeding, settlement, payment, or later hearing occurred.",
+      "subgroup": "Same reported GrabCar proceeding; official-public-record visibility boundary.",
+      "counterinterpretation": "The case may have advanced outside the public search surface; the current evidence supports institutional use but not claimant outcome.",
+      "source_url": "https://www.mohr.gov.my/aktapekerjagig2025/",
+      "retrieval_hash": "local_recheck:sha256:055846852efc4478a9d5c9a03fedc1cb9bd70efa1c89d4591829bcfbd782053d",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md", "claim": "Case-level facts, source hierarchy, procedural boundary, and next acquisition."}, {"source_url": "analysis/projects/ai-work-control/malaysia-act872-official-route-recheck-2026-09-18.md", "claim": "Official route and public-outcome visibility recheck."}],
+  "boundary": "This is one reported comparative Malaysian proceeding, not a worker prevalence estimate, compliance audit, or finding that the platform violated Act 872. It distinguishes institutional establishment, reported hearing use, evidence-stage continuation, primary case identification, award, payment, access correction, durability, trust, and exit.",
+  "reproduction_audit": "analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md"
+}

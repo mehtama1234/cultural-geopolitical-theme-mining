@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 339 machine-readable records, 1203 observations,
+The current registry contains 340 machine-readable records, 1206 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -602,6 +602,13 @@ and procedural capacity without a public GrabCar case identifier, award,
 payment, or enforcement outcome. The institutional route is therefore evidence
 of available governance architecture, not evidence of worker uptake, remedy,
 trust, or durable control.
+
+The [GrabCar first-hearing record](records/my-grabcar-tribunal-first-hearing-2026.json)
+adds the exercised-route stage to that comparison: a reported first hearing
+and continuation for evidence/witness examination are visible, while the
+primary case identifier, award, payment, access correction, and enforcement
+remain unobserved. This is institutional use, not proof of effective review or
+worker recovery.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

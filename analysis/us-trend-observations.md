@@ -1,6 +1,6 @@
 # US trend-observation registry
 
-339 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+340 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
@@ -29,6 +29,10 @@ Each record preserves its source unit, geography, period-specific denominator, m
 | Platform governance commitments and statutory remedy routes do not establish worker-level protection | work, voice, cost, time | work_control_bargaining, consumer_power_recourse, public_systems_feedback, firm_sector_market_power, trust_identity_meaning | Malaysia Act 872 official governance route and Grab Malaysia public response page; comparative institutional layer, not worker sample | Malaysia; comparative platform-governance case used in the US-centered atlas | 3 | 2026-03-27; Grab Malaysia public Act 872 response page; 2026-09-18; Malaysia Ministry Act 872 and JTKSM implementation route recheck; 2026-09-18; Gig Workers Tribunal procedural regulation route | observed; open; reported | [open](records/my-grab-act872-institutional-response-2026.json) |
 
 **Boundary:** This is a comparative Malaysia platform-governance layer, not a US worker prevalence estimate or a compliance audit. It distinguishes company commitments, official route capacity, procedural rules, actual case identification, worker uptake, appeal, payment, access restoration, durability, trust, and exit.
+
+| A reported first platform Tribunal hearing establishes institutional use without an observed worker remedy | work, voice, cost, time | work_control_bargaining, consumer_power_recourse, public_systems_feedback, firm_sector_market_power, trust_identity_meaning | One reported GrabCar proceeding before Malaysia's Gig Workers Tribunal; case-level procedural record, not a worker sample | Kuching, Sarawak, Malaysia; comparative case used in the US-centered atlas | 3 | 2026-09-01; reported first GrabCar Tribunal hearing; 2026-09-01 onward; reported continuation for evidence and witness examination; 2026-09-18; official route and case-outcome recheck | open; reported | [open](records/my-grabcar-tribunal-first-hearing-2026.json) |
+
+**Boundary:** This is one reported comparative Malaysian proceeding, not a worker prevalence estimate, compliance audit, or finding that the platform violated Act 872. It distinguishes institutional establishment, reported hearing use, evidence-stage continuation, primary case identification, award, payment, access correction, durability, trust, and exit.
 
 | Mobility exposure varies sharply by household income and race in 2024 ACS PUMS | time, cost, voice | housing_place_mobility, time_hidden_price, unequal_exposure_status, care_health_reproduction | 2024 ACS 1-year PUMS housing and person records joined by SERIALNO | United States | 6 | 2024; households with HINCP under $35k; 2024; households with HINCP $75k or more; 2024; workers age 16+ with HINCP under $35k; 2024; workers age 16+ with HINCP $75k or more; 2024; Black workers age 16+ with positive commute minutes; 2024; White workers age 16+ with positive commute minutes | compared | [open](records/us-acs-pums-mobility-subgroups-2024.json) |
 
