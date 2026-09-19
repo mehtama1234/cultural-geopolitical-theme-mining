@@ -1,0 +1,83 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Bounded Fair Work Commission case summary preserving a same-episode employment loss, alternative job, lower remuneration and travel burden, and ordered compensation without treating the order as payment receipt.",
+  "events": [
+    {
+      "event_id": "FWC-SITE-CLEARANCE-2025-04-03",
+      "unit": "case",
+      "geography": "Australia; public Fair Work Commission Bulletin Volume 4/25, item 3; drive-in/drive-out mining employment case",
+      "actor_initiating_change": "employer",
+      "event_date": "2025-04-03",
+      "date_precision": "bulletin publication date; underlying site-access revocation and termination occurred in September 2024, and alternative employment began three weeks after dismissal",
+      "denominator": "One publicly summarized adjudicated case; no population denominator",
+      "method": "Structured extraction from the official Fair Work Commission bulletin summary of the merits and compensation decision",
+      "missingness": "Applicant identity, exact dismissal date, alternative-employment employer, wage comparison, compensation payment receipt, household outcome, trust, collective action, recurrence, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "A mining contractor's client revoked the worker's site clearance after attendance and performance concerns; the contractor terminated the worker after finding no suitable nearby redeployment",
+      "alternatives_before_action": "The worker obtained new employment three weeks after dismissal; the new job paid less and required significant personal travel costs, while the public record does not report other offers or a non-use option",
+      "immediate_burden_or_benefit": "The worker experienced loss of the original site-based job, lower remuneration in the replacement job, and significant personal travel costs; the Commission assessed compensation at $18,192 plus superannuation",
+      "choice_or_response": "The worker responded to the show-cause process, pursued an unfair-dismissal application, declined or did not seek reinstatement, and mitigated loss through lower-paid alternative employment",
+      "person_or_actor_with_control": "The client controlled site clearance, the employer controlled termination and redeployment efforts, and the Commission controlled the adjudicated remedy",
+      "remedy_or_institutional_response": "The Commission found the dismissal harsh and unreasonable and ordered $18,192 plus superannuation compensation; the employer's attempted redeployment and the client's clearance decision remained separate control points",
+      "immediate_outcome": "Alternative employment and a compensation order are reported in the same case, but compensation receipt and restoration of the original job are not observed",
+      "protected_outcome": "The alternative job provided continued employment after dismissal, while the remedy order recognized a remaining income loss",
+      "sacrificed_outcome": "The worker sacrificed remuneration and incurred travel costs relative to the original job; the public summary does not quantify the full household or time burden",
+      "cost_risk_transfer": "The worker initially carried lower pay and travel costs; the compensation order shifted a bounded portion of assessed loss toward the employer, subject to payment execution",
+      "later_outcome": "Alternative employment is observed, but its duration, later earnings, compensation receipt, household recovery, recurrence, trust, action, switching, and exit are unknown",
+      "meaning_and_attribution": "The decision attributes control across client clearance, employer termination, and Commission remedy, but contains no worker-reported trust, dignity, identity, or political-action endpoint",
+      "public_or_collective_response": "An individual unfair-dismissal application and adjudicated compensation order are observed; no later collective or political response is reported",
+      "counterexample": "A worker can obtain alternative employment and still experience lower pay and travel burdens; a compensation order does not prove payment or erase the original opportunity loss",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Fair Work Commission Bulletin Volume 4/25, published April 3, 2025, item 3, https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-03-31.htm; bulletin summary is public and bounded, with no underlying claimant file or payment receipt"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-SITE-A-01",
+      "from": "site-clearance revocation and termination",
+      "to": "alternative employment search and acceptance",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official bulletin reports termination after site-clearance revocation and new employment three weeks later at lower remuneration",
+      "status": "reported",
+      "counterexample": "Obtaining a replacement job does not show that it was equivalent, freely chosen among viable options, or sufficient to restore income",
+      "remaining_gap": "Alternative offers, search effort, timing, wage comparison, non-use option, and household constraints"
+    },
+    {
+      "arrow_id": "FWC-SITE-A-02",
+      "from": "alternative employment",
+      "to": "lower pay and travel-cost burden",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The bulletin reports lower salary and significant personal travel costs in the new employment",
+      "status": "reported",
+      "counterexample": "The public summary does not quantify net income, hours, expenses, or whether the alternative remained available",
+      "remaining_gap": "Comparable wage, net costs, hours/control, duration, and household/time incidence"
+    },
+    {
+      "arrow_id": "FWC-SITE-A-03",
+      "from": "unfair-dismissal finding and mitigation record",
+      "to": "ordered compensation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found the dismissal harsh and unreasonable and ordered $18,192 plus superannuation",
+      "status": "reported",
+      "counterexample": "An ordered amount is not payment receipt, net recovery, or restoration of the original job",
+      "remaining_gap": "Payment date/channel, receipt, taxation, residual loss, and implementation"
+    },
+    {
+      "arrow_id": "FWC-SITE-A-04",
+      "from": "alternative employment and compensation order",
+      "to": "household recovery, trust, action, recurrence, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public bulletin ends at the alternative-employment and compensation stages and reports no later household, trust, recurrence, action, or exit endpoint",
+      "status": "open",
+      "counterexample": "Replacement employment and an ordered remedy can coexist with persistent income, travel, or institutional-trust loss",
+      "remaining_gap": "Receipt, duration, household recovery, later meaning/trust, recurrence, collective action, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger adds one public case with an observed alternative-employment outcome and material trade-off in the same episode as an adjudicated compensation remedy. It does not establish payment receipt, full recovery, prevalence, trust, action, recurrence, or exit.",
+  "storage_boundary": "No claimant file, direct identifier, bulk archive, or payment instrument is retained; only the bounded official bulletin summary, dates, reported employment transition, remedy amount, uncertainty, and open downstream arrow are represented."
+}

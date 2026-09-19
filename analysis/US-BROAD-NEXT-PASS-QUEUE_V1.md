@@ -1191,7 +1191,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 22 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 23 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1217,14 +1217,18 @@ adds four selected cases with an agency-reported barrier-to-intervention-to-
 correction sequence. Use it as a remedy-stage comparator only: receipt,
 accepted restoration, alternatives, household recovery, trust, and exit remain
 open.
+The [structured FWC site-clearance ledger](projects/ai-work-control/data/fwc-site-clearance-alternative-employment-remedy-event-ledger-v1.json)
+adds a same-case reported alternative job, lower-pay/travel trade-off, and
+compensation order. Treat it as a stronger alternative-stage comparator, not
+as proof of payment, household recovery, or practical exit.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
 opportunity.
 
-**Stage-bottleneck promotion gate (2026-09-18):** across those 22 surfaces,
-18 have an observed dated event/exposure and 19 have an observed institutional
-or firm response, but only 1 has an observed alternative/non-use stage, 1 has
+**Stage-bottleneck promotion gate (2026-09-18):** across those 23 surfaces,
+19 have an observed dated event/exposure and 20 have an observed institutional
+or firm response, but only 2 have an observed alternative/non-use stage, 1 has
 an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record
 now encodes `qualifies: false` and requires both fields on the same retained

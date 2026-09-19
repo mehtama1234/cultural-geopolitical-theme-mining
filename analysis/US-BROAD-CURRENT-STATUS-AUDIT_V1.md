@@ -1936,7 +1936,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Twenty-two local source surfaces cover
+health, political, and worker routes. Twenty-three local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -1963,6 +1963,12 @@ adds a bounded negative substitute-earnings observation: the Commission
 recorded no paid earnings to deduct during the deactivation interval, alongside
 a gross lost-remuneration order. This is not an observed alternative choice or
 non-use decision, and payment receipt and later recovery remain open.
+The [structured FWC site-clearance ledger](projects/ai-work-control/data/fwc-site-clearance-alternative-employment-remedy-event-ledger-v1.json)
+adds one same-case reported alternative-employment transition: a lower-paid
+replacement job with significant travel costs followed dismissal, alongside
+an $18,192 plus superannuation compensation order. It improves the alternative
+and trade-off stages without proving payment receipt, equivalence, recovery, or
+exit.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
