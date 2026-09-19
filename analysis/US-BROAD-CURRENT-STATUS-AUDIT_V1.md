@@ -1936,7 +1936,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Twenty-five local source surfaces cover
+health, political, and worker routes. Twenty-six local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -1974,6 +1974,11 @@ adds 11 documented job applications, new employment, and a stated refusal of
 reinstatement attributed to the customer-allocation mechanism, alongside a
 $4,312 compensation order. This is a partial meaning/action signal, not a
 standardized trust measure or payment receipt.
+The [structured FWC client-redirection ledger](projects/ai-work-control/data/fwc-alternative-work-client-redirection-remedy-event-ledger-v1.json)
+adds alternative surf-shop earnings, post-dismissal client redirection, and
+relationship breakdown alongside a two-instalment $6,554.33 compensation
+order. It strengthens the action comparator while keeping instalment receipt,
+later work, and exit open.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
