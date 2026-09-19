@@ -4,7 +4,7 @@
 continued work, and post-reactivation payment; separate lost-pay amount, receipt,
 and durability remain open
 
-**Checked:** 2026-09-15
+**Checked:** 2026-09-18
 
 The structured [broad event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
 records the five observed/open arrows without treating ordinary post-reactivation
@@ -75,7 +75,7 @@ account reopened -> work performed/payment -> lost-pay recovery -> durable prote
 
 The first two arrows should not be silently promoted into the latter two.
 
-## Targeted public-record recheck (2026-09-16)
+## Targeted public-record recheck (2026-09-18)
 
 The official Fair Work Commission decision index and bulletin route were
 rechecked for `UDE2025/53`, `Hotak`, and a later lost-remuneration order. The
