@@ -1,6 +1,6 @@
 # US program dashboard v1
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 **Status:** active long-term program control view
 
 The program maintains a US-centered, cross-source living atlas of cultural,
@@ -49,4 +49,4 @@ The active depth lane is the material/time/care backbone. The immediate PSID
 2019/2021/2023 acquisition gate is documented, but account-controlled; no PSID
 result is promoted as downloaded evidence before the gate is passed.
 
-Read the [HTML dashboard](../site/us-program-dashboard.html), [continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md), [current status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md), [source-registry audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), and [cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
+Read the [HTML dashboard](../site/us-program-dashboard.html), [retained same-unit bridge matrix](US-BROAD-RETAINED-SAME-UNIT-BRIDGE-MATRIX_V1.md), [continuity ledger](US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md), [current status audit](US-BROAD-CURRENT-STATUS-AUDIT_V1.md), [source-registry audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), and [cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md).
