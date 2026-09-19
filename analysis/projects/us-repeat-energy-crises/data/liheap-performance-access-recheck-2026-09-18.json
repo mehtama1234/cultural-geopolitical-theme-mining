@@ -1,0 +1,35 @@
+{
+  "schema": "us-source-access-recheck-v1",
+  "checked": "2026-09-18",
+  "source_family": "HHS/ACF LIHEAP Performance Management",
+  "routes": [
+    {
+      "url": "https://stage.liheappm.acf.hhs.gov/performance-measures",
+      "status": "accessible",
+      "observation": "The official performance-measures page is live and states that FY2023, FY2024, and FY2025 data are preliminary pending final validation. It exposes performance-measure categories, including service-loss restoration and prevention, and links to dynamic warehouse reports.",
+      "evidence_boundary": "The route establishes current aggregate/state reporting availability, not a downloaded respondent or household longitudinal file."
+    },
+    {
+      "url": "https://stage.liheappm.acf.hhs.gov/",
+      "status": "accessible",
+      "observation": "The official landing page reports that preliminary FY2025 state data and grant-recipient profiles/performance-measure executive summaries were uploaded in July 2026.",
+      "evidence_boundary": "Availability of preliminary state summaries does not establish individual application, payment, reconnection, next-bill, or repeat-crisis outcomes."
+    },
+    {
+      "url": "https://stage.liheappm.acf.hhs.gov/faq/",
+      "status": "accessible",
+      "observation": "HHS explains that restoration/prevention measures count occurrences for all LIHEAP-assisted households and distinguish bill-payment issues from equipment repair/replacement; routine maintenance without imminent service-loss risk is excluded.",
+      "evidence_boundary": "The definitions improve interpretation of the aggregate endpoint but do not identify the same household across episodes or measure restoration duration."
+    }
+  ],
+  "promotion_status": {
+    "aggregate_program_reach": "already_observed",
+    "aggregate_restoration": "already_observed",
+    "state_or_grantee_performance_route": "accessible_preliminary",
+    "same_household_application_to_receipt": "not_observed",
+    "next_bill_or_repeat_crisis": "not_observed",
+    "health_food_medicine_or_work_protection": "not_observed",
+    "trust_action_or_exit": "not_observed"
+  },
+  "next_decisive_route": "Obtain an authorized state/grantee case or same-household event source with dated bill/notice, application, award or denial, receipt/reconnection, next bill, and repeat-crisis fields; do not treat the public warehouse as a person-level panel."
+}
