@@ -80,5 +80,17 @@
     "response_indicators": ["Cloudflare managed challenge", "cf-mitigated: challenge", "JavaScript and cookies required"],
     "interpretation": "The automated workspace still cannot retrieve the package without an authenticated browser/session; the 2023 package remains account-controlled and no PSID respondent file is locally available.",
     "source_url": "https://simba.isr.umich.edu/Zips/GetFileCDS.aspx?file=1214&mainurl=Y"
+  },
+  "public_documentation_recheck_2026_09_18": {
+    "checked": "2026-09-18",
+    "method": "Official PSID Getting Started, FAQ, and documentation pages reviewed through the public web surface",
+    "getting_started_result": "PSID states that public-use data are free to researchers who register and agree to the Conditions of Use; packaged ZIP files and the Data Center are the distribution routes",
+    "faq_result": "PSID states that public release files can be downloaded directly from its website after the access conditions are satisfied",
+    "interpretation": "The public-use route is a registration-and-conditions gate rather than a substantive data absence. The current workspace still lacks the packages, so no merge or estimate is authorized.",
+    "source_urls": [
+      "https://psidonline.isr.umich.edu/GettingStarted.aspx",
+      "https://psidonline.isr.umich.edu/Guide/FAQ.aspx?Type=3",
+      "https://psidonline.isr.umich.edu/Guide/documents.aspx"
+    ]
   }
 }

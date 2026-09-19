@@ -3,6 +3,11 @@
 **Checked:** 2026-09-17
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
+**Current documentation recheck:** 2026-09-18 — official PSID pages continue
+to state that public-use data are available after researcher registration and
+acceptance of the Conditions of Use. This confirms an account-controlled
+distribution route, not a substantive data absence.
+
 ## What is available
 
 The official PSID packaged-data page lists the four packages needed for the
@@ -61,6 +66,13 @@ an HTML response requiring JavaScript and cookies. Response SHA-256 is
 `4fcaf4b248cb5cf275fbf095605f4d8f1833d9cb1bcc17f8e01df36d57c3e8d4`. The
 route remains live but account/browser controlled; no respondent file was
 downloaded or used as evidence. The machine audit records this recheck.
+
+The accompanying [public-documentation recheck](psid-access-audit-2026-09-13.json)
+also records the current Getting Started and FAQ language: PSID public-release
+files are downloadable by registered researchers who accept the Conditions of
+Use. The distinction matters operationally: the automated 403 is a session and
+browser-access boundary, not evidence that the packages are unavailable or
+that the planned household relationship is null.
 
 ## Required next handoff
 
