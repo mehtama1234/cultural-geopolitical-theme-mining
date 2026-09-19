@@ -90,6 +90,12 @@ These are real bridges, but each closes only part of the full chain:
   some of it. Provider contact, recovery, and switching are therefore separate
   routes: formal access does not guarantee liquidity, and non-switching does
   not prove satisfaction or trust.
+- **Public capacity versus usable help:** states held very different fiscal
+  cushions in the 2025 Fiscal 50 comparison, from about 320 operating days in
+  Wyoming to zero rainy-day days in New Jersey. That is state operating room,
+  not a resident benefit. Budget authority still has to become a program,
+  notice, eligibility route, timely decision, and usable remedy before it
+  changes household security or public trust.
 - **Cash App enforcement:** the CFPB record documents fraud/dispute-process
   failures, required operational correction, and up to $120 million in
   consumer redress. It advances the route from reported loss to a named
