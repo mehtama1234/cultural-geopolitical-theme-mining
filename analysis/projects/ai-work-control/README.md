@@ -19,6 +19,12 @@ public judgments. It keeps allocation, usable capability, local incidence,
 legitimacy, cooperation, and leverage on separate clocks and does not create a
 geopolitical power or approval index.
 
+The [Piorun procurement-to-operational-response record](piorun-procurement-to-operational-response-record-v1.md)
+adds a concrete realization comparator: a pre-SAFE Norway contract, handover,
+and fielding signal are separated from the later SAFE framework and allied
+demand response. It advances operational and external-response coding without
+claiming SAFE-attributable delivery, readiness, or leverage.
+
 The [BLS JOLTS national mobility layer](bls-jolts-national-mobility-layer-v1.md)
 adds a 2020–2025 establishment-based labor-market context: openings and quits
 peaked in 2022 and cooled afterward, while hiring remained lower. It is a

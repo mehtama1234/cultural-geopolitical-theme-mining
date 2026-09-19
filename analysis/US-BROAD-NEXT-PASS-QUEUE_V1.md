@@ -1662,6 +1662,11 @@ participation in the common route. This is evidence of allied demand and
 cross-border supply-chain response, not delivered export volume or realized
 geopolitical leverage; the next check remains country-level contract,
 delivery, acceptance, and operational-use evidence.
+The new [Piorun procurement-to-operational-response record](projects/ai-work-control/piorun-procurement-to-operational-response-record-v1.md)
+separates the pre-SAFE Norway handover and 2024 fielding/live-fire signal from
+the 2026 SAFE framework and allied-demand response. It advances one operational
+stage and one external-response stage while preserving the causal SAFE,
+delivery, acceptance, readiness, and leverage gaps.
 The official Lithuanian June planning page still described Piorun acquisition
 as planned for that year. The 2026-09-18 bounded recheck located no
 country-level Piorun handover, acceptance, or operational-use notice
