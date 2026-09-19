@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-ombudsman-redress-process-friction-2025",
+  "title": "Redress access can require recipient effort and institutional escalation after payment issuance",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Official CFPB Ombudsman FY2025 annual report: aggregate inquiry context plus one illustrative redress-reissue example",
+  "geography": "United States; CFPB Ombudsman inquiries and anonymized servicemember example",
+  "observations": [
+    {
+      "period": "FY2025; annual report published 2025-11-14",
+      "denominator": {
+        "value": 2584,
+        "unit": "Ombudsman inquiries received in FY2025; inquiries exclude Ombudsman outreach and broader issues received through outreach",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "total_inquiries": {
+          "value": 2584,
+          "unit": "individual inquiries received by the CFPB Ombudsman in FY2025",
+          "value_type": "reported_count"
+        },
+        "question_share": {
+          "value": 42,
+          "unit": "percent of FY2025 inquiries categorized as questions; rounded by the report",
+          "value_type": "reported_percent"
+        },
+        "complaint_share": {
+          "value": 22,
+          "unit": "percent of FY2025 inquiries categorized as complaints; rounded by the report",
+          "value_type": "reported_percent"
+        },
+        "redress_process_topics": {
+          "value": "requests for address updates, inclusion on a redress list, and reissuance help including third-party-administrator difficulty are listed among recurring inquiry topics",
+          "unit": "representative topic list, not a coded frequency distribution",
+          "value_type": "reported_qualitative"
+        },
+        "illustrative_reissue_route": {
+          "value": "one servicemember example: expired check, reissue request, administrator difficulty, and Ombudsman facilitation",
+          "unit": "illustrative inquiry example; no outcome denominator",
+          "value_type": "reported_case_example"
+        }
+      },
+      "method": "Structured extraction from the official CFPB Ombudsman FY2025 Annual Report, including the FY2025 inquiry summary and Figure 6 redress-check reissuance example.",
+      "uncertainty": "The inquiry percentages are rounded categories and are not a population prevalence or remedy-success rate. The topic list is representative rather than frequency-coded. The illustrative servicemember example does not identify the enforcement case, check amount, dates, final receipt, cashing, or downstream outcome.",
+      "subgroup": "All FY2025 Ombudsman inquiries for aggregate measures; one anonymized servicemember example for the reissue route; these units must not be pooled as a recipient outcome.",
+      "counterinterpretation": "High inquiry volume or a documented reissue problem may reflect the Ombudsman's visibility and referral role rather than a system-wide failure rate. Ombudsman facilitation may resolve a process issue without proving that the payment was ultimately received or adequate.",
+      "source_url": "https://files.consumerfinance.gov/f/documents/cfpb_ombudsman-annual-report_2025.pdf",
+      "retrieval_hash": "sha256:605a2a2f31383153519bde2cec9cb99ad5ff22d31c0e81daa4d2a1af7f32a2d4",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds aggregate Ombudsman process context and one illustrative recipient-side redress-reissue route. It does not estimate consumer harm, payment failure, final receipt, recovery, trust, political action, switching, or exit, and it does not pool the aggregate inquiry denominator with the illustrative case."
+}
