@@ -66,6 +66,27 @@ may use ordinary search, public-service websites, family networks, or multiple
 routes without using an AI system; or they may use AI for work and creative
 tasks unrelated to the immediate material problem.
 
+## Need-to-search check
+
+The same-round file also lets us compare a few concrete need flags with the
+corresponding search behavior. These are weighted valid shares; standard
+errors are in parentheses.
+
+| Current need flag | Targeted online search when need is present | When need is absent |
+|---|---:|---:|
+| Recent household job loss → job search | 60.5% (2.3) | 29.4% (0.6) |
+| Food insufficiency → food search | 35.3% (2.2) | 19.1% (0.5) |
+| Energy-bill problem → public-benefit search | 27.8% (1.8) | 13.3% (0.3) |
+| Basic-expense cutback → credit search | 31.4% (1.5) | 13.7% (0.4) |
+| Housing arrears → housing search | 20.9% (2.0) | 18.2% (3.6) |
+
+This strengthens the interpretation from a general hardship gradient to a
+more specific navigation pattern: the search object often matches the current
+problem. The housing-arrears comparison is weaker and noisy, so it is retained
+as a counterexample rather than folded into a universal rule. The checks remain
+same-round associations; they do not show that the search found a resource or
+solved the problem.
+
 ### 4. Opt-out rises modestly while search rises sharply
 
 Active opt-out moves from 22.7% to 29.1% across the expense categories, while

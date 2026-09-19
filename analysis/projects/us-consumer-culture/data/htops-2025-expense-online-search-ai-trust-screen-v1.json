@@ -63,7 +63,14 @@
       "actively_opted_out": [29.098, 2.088]
     }
   },
-  "interpretation": "Same-round weighted conditional shares. Expense difficulty is household-reported; online searches and AI attitudes are respondent/household reports. No causal, longitudinal, event-level, or AI-mediated search interpretation is permitted.",
+  "need_conditioned_search_estimates_pct_se": {
+    "recent_job_loss_to_job_search": {"need": [60.536, 2.254], "no_need": [29.405, 0.594]},
+    "food_insufficiency_to_food_search": {"need": [35.305, 2.164], "no_need": [19.057, 0.465]},
+    "energy_bill_problem_to_benefit_search": {"need": [27.784, 1.778], "no_need": [13.305, 0.320]},
+    "basic_expense_cutback_to_credit_search": {"need": [31.432, 1.467], "no_need": [13.742, 0.415]},
+    "housing_arrears_to_housing_search": {"need": [20.947, 1.973], "no_need": [18.188, 3.620]}
+  },
+  "interpretation": "Same-round weighted conditional shares. Expense difficulty is household-reported; online searches and AI attitudes are respondent/household reports. Need-conditioned checks show targeted searching is higher among respondents with corresponding current need flags, especially job loss, food insufficiency, energy-bill problems, and basic-expense cutbacks. No causal, longitudinal, event-level, or AI-mediated search interpretation is permitted.",
   "boundary": "The file does not identify a specific bill, actor, search result, alternative, remedy, outcome, or later trust/action change. Online search, AI use, AI trust, and opt-out remain separate constructs.",
   "input_sha256": {
     "puf": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",

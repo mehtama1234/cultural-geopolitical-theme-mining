@@ -31,6 +31,14 @@ OUTCOMES = {
     "actively_opted_out": ["AI3"],
 }
 
+NEEDS = {
+    "recent_job_loss_to_job_search": ("WRKLOSSRV", {1, 2}, lambda s: s.eq(1), "AI4_2"),
+    "food_insufficiency_to_food_search": ("CURFOODSUF", {1, 2, 3, 4}, lambda s: s.isin([3, 4]), "AI4_4"),
+    "energy_bill_problem_to_benefit_search": ("HSE16", {1, 2}, lambda s: s.eq(1), "AI4_6"),
+    "basic_expense_cutback_to_credit_search": ("HSE14", {1, 2}, lambda s: s.eq(1), "AI4_8"),
+    "housing_arrears_to_housing_search": ("TMNTHSBHND", set(range(0, 9)), lambda s: s.gt(0), "AI4_1"),
+}
+
 
 AI_SELECTIONS = ["AI1_1", "AI1_2", "AI1_3", "AI1_4", "AI1_5", "AI1_6", "AI1_7", "AI1_9"]
 
@@ -86,6 +94,34 @@ def estimate(frame: pd.DataFrame, group: int, name: str, fields: list[str] | Non
     }
 
 
+def estimate_mask(frame: pd.DataFrame, mask: pd.Series, search_field: str, rep_cols: list[str]) -> dict[str, float | int | None]:
+    search = pd.to_numeric(frame[search_field], errors="coerce")
+    valid_mask = mask & search.isin([1, -99])
+    if not valid_mask.any():
+        return {"unweighted_n": 0, "weighted_valid": 0, "estimate_pct": None, "se_pct_points": None}
+    weights = pd.to_numeric(frame.loc[valid_mask, "PWEIGHT"], errors="coerce")
+    values = search.loc[valid_mask].eq(1).astype(float)
+    usable = weights.gt(0) & weights.notna()
+    weights = weights[usable]
+    values = values[usable]
+    if weights.empty:
+        return {"unweighted_n": 0, "weighted_valid": 0, "estimate_pct": None, "se_pct_points": None}
+    point = float((weights * values).sum() / weights.sum() * 100)
+    reps: list[float] = []
+    for col in rep_cols:
+        rw = pd.to_numeric(frame.loc[weights.index, col], errors="coerce")
+        keep = rw.gt(0) & rw.notna()
+        reps.append(float((rw[keep] * values[keep]).sum() / rw[keep].sum() * 100) if keep.any() else math.nan)
+    finite = [x for x in reps if math.isfinite(x)]
+    se = math.sqrt(sum((x - point) ** 2 for x in finite) / len(rep_cols)) if finite else math.nan
+    return {
+        "unweighted_n": int(len(values)),
+        "weighted_valid": round(float(weights.sum())),
+        "estimate_pct": round(point, 3),
+        "se_pct_points": round(se, 3) if math.isfinite(se) else None,
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--puf", type=Path, required=True)
@@ -96,6 +132,7 @@ def main() -> None:
     puf = pd.read_csv(args.puf)
     rep = pd.read_csv(args.replicate)
     required = {"SCRAMID", "EXPNS_DIF", "PWEIGHT", "AI1_8"} | {field for fields in OUTCOMES.values() if fields for field in fields}
+    required |= {spec[0] for spec in NEEDS.values()} | {spec[3] for spec in NEEDS.values()}
     missing = sorted(required - set(puf.columns))
     if missing:
         raise SystemExit(f"PUF missing fields: {missing}")
@@ -114,6 +151,16 @@ def main() -> None:
         str(group): {name: estimate(merged.loc[valid_groups], group, name, fields, rep_cols) for name, fields in OUTCOMES.items()}
         for group in GROUPS
     }
+    need_estimates = {}
+    for name, (condition_field, valid_codes, condition_fn, search_field) in NEEDS.items():
+        condition = pd.to_numeric(merged[condition_field], errors="coerce")
+        valid_condition = condition.isin(valid_codes)
+        need_mask = valid_condition & condition_fn(condition)
+        no_need_mask = valid_condition & ~condition_fn(condition)
+        need_estimates[name] = {
+            "need": estimate_mask(merged, need_mask, search_field, rep_cols),
+            "no_need": estimate_mask(merged, no_need_mask, search_field, rep_cols),
+        }
     result = {
         "format": "htops-2025-ai-material-search-screen-v1",
         "field_window": "June 2025 HTOPS/HPS 2506 topical file",
@@ -124,6 +171,7 @@ def main() -> None:
         "alignment": {"puf_replicate_id_match": True, "max_abs_pweight_difference": max_weight_difference},
         "weight": "PWEIGHT with PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
         "estimates": estimates,
+        "need_conditioned_search_estimates": need_estimates,
         "interpretation": "Same-round weighted conditional shares. AI and search fields describe respondent/household reports; expense difficulty is household-reported. No causal, longitudinal, or event-level interpretation is permitted.",
         "boundary": "The file does not identify a specific bill, actor, search result, alternative, remedy, outcome, or later trust/action change. AI use, trust, opt-out, and material search should remain separate constructs.",
     }
