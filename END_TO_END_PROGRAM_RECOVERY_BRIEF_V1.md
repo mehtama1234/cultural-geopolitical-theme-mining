@@ -23,8 +23,9 @@ episode events, and 2 validated episode arrows. Separately, the real broad
 event-ledger portfolio contains 35 ledgers, 207 events, and 145 typed arrows,
 including 52 explicitly open arrows; the portfolio summary and validator keep
 those heterogeneous units distinct.
-The publication gate passes all 22 checks, and the worktree is kept clean at
-local commits.
+The publication gate passes all 22 checks. Program-owned changes are committed;
+two pre-existing source-registry audit files remain modified and are deliberately
+not included in the program commits.
 
 The active depth lane is a storage-light same-case or event-compatible route:
 
@@ -37,10 +38,12 @@ dated exposure or decision
   -> meaning, trust, action, persistence, or exit
 ```
 
-The current 30-surface availability audit finds no retained source that closes
+The current 33-surface availability audit finds no retained source that closes
 all nine stages. Eight surfaces observe an episode-level alternative or
-non-use field, and two observe a verified remedy or defined outcome follow-up,
-but no single retained route combines the required stages. UAS, PSID, HRS, and
+non-use field, and three observe a verified remedy or defined outcome follow-up,
+but no single retained route combines the required stages. A separate
+17-route practical-optionality qualification screen also finds zero qualifying
+routes. UAS, PSID, HRS, and
 WBNS respondent routes remain access-gated; the
 next valid advance is an authorized event-compatible acquisition or a retained
 subgroup/place reversal that changes an open arrow. Another aggregate exposure
@@ -374,6 +377,16 @@ and adult-care paths), `9952c5a` (Chicagoland ACS 2024 context refresh), and
 `23acc9c` (SNAP reasons linked to following hardship). These are the current
 cross-theme breadth/depth checkpoints; they preserve open arrows rather than
 claiming end-to-end causation.
+
+Since that earlier checkpoint, the current continuation commits are `392716da`
+(wage and status remedy case), `a2272c1a` (geopolitical legitimacy),
+`2cd44211` (synthesis synchronization), `c2d46e0d` (repeat-remedy durability),
+`ac0397e1` (compound safety-net hardship), `b4eead7c` (AI exposure versus
+adoption), `160ed2c8` (reachable care capacity), `ca413d2e` (material-to-action
+qualification checkpoint), `6103938b` (practical-optionality boundary), and
+`91cc5d9a` (payment versus continued participation). These additions deepen
+partial arrows across remedies, legitimacy, public systems, AI/work, care,
+and practical exit; none changes the zero-qualifying-route result.
 
 The current continuation also includes `810ab0b` (coverage-count audit) and
 `d51c8f4` (population-level public-system event-ledger design). The latter
