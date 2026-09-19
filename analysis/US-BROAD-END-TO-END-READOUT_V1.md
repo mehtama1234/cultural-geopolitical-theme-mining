@@ -348,6 +348,13 @@ These are real bridges, but each closes only part of the full chain:
   accommodation caused it. It shows why formal program participation must be
   separated from completed service, placement, retention, wages, workplace
   control, and durable security.
+- **Employment is not automatically security:** in 2024, about 13.8 million
+  Medicaid-enrolled adults and 10.6 million adults in SNAP households worked
+  at some point; roughly 88% in each group worked in the private sector.
+  Working alongside public benefits is not proof of employer shifting or
+  inadequate wages, but it shows why “has a job” is not the same endpoint as
+  predictable hours, employer coverage, adequate income, household security,
+  or bargaining power.
 - **Energy insecurity as household allocation:** EIA estimates 43.56 million
   primary-residence homes with at least one reported energy-insecurity
   condition; 32.89 million reported reducing or forgoing food or medicine to
