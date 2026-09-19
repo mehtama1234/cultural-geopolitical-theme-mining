@@ -1836,7 +1836,7 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 36 schema-valid ledgers totaling 212 events and 149 arrows,
+now inventories 36 schema-valid ledgers totaling 213 events and 149 arrows,
 including 52 explicitly open arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The
@@ -1960,7 +1960,7 @@ now makes the five dated case summaries machine-readable while preserving the
 distinction between agency-reported payment, a back-pay offer, and worker-level
 receipt or restored employment.
 The [structured IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
-adds eight selected cases with a tighter agency-reported chronology from an
+adds nine selected cases with a tighter agency-reported chronology from an
 employment-document barrier through worker or advocate contact, IER
 intervention, employer correction, and reported back pay or rehire. It still
 does not prove worker-confirmed receipt, accepted restoration, household

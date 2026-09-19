@@ -5,7 +5,7 @@
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
     "ledgers": 36,
-    "events": 212,
+    "events": 213,
     "arrows": 149
   },
   "events_by_domain": {
@@ -14,7 +14,7 @@
     "disaster_public_investment_capacity": 5,
     "disaster_public_system_delivery": 5,
     "disaster_recovery_cross_source": 2,
-    "employment_remedy": 22,
+    "employment_remedy": 23,
     "health_cost_material_time": 3,
     "health_cost_recourse": 97,
     "infrastructure_state_power": 6,
@@ -27,7 +27,7 @@
   "event_evidence_status": {
     "estimated": 7,
     "observed": 158,
-    "reported": 47
+    "reported": 48
   },
   "arrow_status": {
     "estimated": 6,
@@ -36,7 +36,7 @@
     "reported": 51
   },
   "event_units": {
-    "case": 182,
+    "case": 183,
     "country": 1,
     "institution": 10,
     "product": 7,
