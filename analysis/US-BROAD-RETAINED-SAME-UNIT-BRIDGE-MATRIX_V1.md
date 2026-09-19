@@ -39,6 +39,24 @@ or one population pathway. The missing middle is not merely “more data”; it 
 specific fields: usable alternatives, event-specific institutional response,
 verified remedy or recovery, and direct meaning/action after the episode.
 
+## Cross-route cultural reading
+
+The three bridges also reject a simple hardship-to-backlash story. MEPS shows
+that later health and work movement can run in mixed directions after a dated
+medical event. SHED shows that people can improve in broad financial condition
+while continuing some substitutions, borrowing, or reduced use. CCES shows
+that earlier job loss or insurance insecurity can coexist with different
+levels of institutional approval, contact, and local political action. In
+plain terms: people do not respond to pressure with one universal sequence.
+
+They may conserve, delay, borrow, work more, stay attached to an institution,
+contact it, withdraw from it, or act politically—and these choices are not
+interchangeable measures of trust or resistance. The missing same-episode
+fields are therefore culturally important: they would show whether a response
+was experienced as necessity, dignity-preserving adaptation, resignation,
+fairness, betrayal, efficacy, or collective opportunity. The current evidence
+supports that as a testable proposition, not as a measured universal meaning.
+
 ## Acquisition consequence
 
 The next high-value route must preserve a same-unit key and add at least:
