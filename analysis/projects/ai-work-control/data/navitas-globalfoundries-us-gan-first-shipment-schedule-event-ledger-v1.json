@@ -24,12 +24,12 @@
       "protected_outcome": "Potentially improved domestic access to qualified GaN power devices for AI and critical infrastructure applications, with geographic diversification from an entirely foreign production route",
       "sacrificed_outcome": "Qualification time, customer sampling delay, and continued upstream material and multi-foundry dependence remain; delivered scale and price are unknown",
       "cost_risk_transfer": "Process qualification, yield, sampling, and demand risks are held by the firms and customers; upstream feedstock and supplier risks remain distributed across the broader supply chain",
-      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; delivered units, customer acceptance, and system deployment remain open",
+      "later_outcome": "First wafers are scheduled for September 2026, internal samples for October, and strategic customer samples before year-end; a September 18, 2026 follow-up search found no later official company notice confirming completed September delivery, so delivered units, customer acceptance, and system deployment remain open",
       "meaning_and_attribution": "The firms frame the route as a trusted US domestic manufacturing source and ecosystem-resilience milestone; no customer, worker, or public assessment is recorded",
       "public_or_collective_response": "The firms publicly announced the route; no government procurement, alliance coordination, or collective customer commitment is documented here",
       "counterexample": "A US wafer-fabrication route can coexist with imported epitaxial wafers, substrates, gallium, other foundries, and incomplete customer qualification",
       "evidence_status": "reported",
-      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026 and Navitas Form 10-K filed February 27, 2026. Shipment and sample dates are company-reported forward-looking milestones, not independently verified delivery"
+      "source_and_uncertainty": "GlobalFoundries/Navitas announcement dated September 1, 2026 and Navitas Form 10-K filed February 27, 2026; follow-up official-source search checked September 18, 2026. Shipment and sample dates are company-reported forward-looking milestones, not independently verified delivery"
     }
   ],
   "arrows": [
@@ -53,7 +53,7 @@
       "evidence": "The announcement schedules first wafers for September, internal samples for October, and strategic customer samples before year-end",
       "status": "reported",
       "counterexample": "Forward-looking schedule does not establish shipment completion or customer receipt",
-      "remaining_gap": "Shipment records, sample acceptance, and production volume"
+      "remaining_gap": "Shipment records, sample acceptance, and production volume; a September 18 follow-up found no later official confirmation"
     },
     {
       "arrow_id": "NAVITAS-GF-GAN-2026-A-03",
