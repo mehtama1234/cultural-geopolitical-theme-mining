@@ -13,8 +13,8 @@
   "matching_records_reported": 21425,
   "returned_records": 25,
   "observed_date_span": "2026-09-08 to 2026-09-16",
-  "raw_input_sha256": "364bbdf431c1d027a959bf71a01ad48ce05602b0f09fdbfd4812d2842cb06c60",
-  "derived_event_ledger_sha256": "bbb30f63a09c7a5c75c1767d2bfa1333a95814d13663aabdaa044e42484d851a",
+  "raw_input_sha256": "75b9ef375a866c22f9a8e225c493a2d6d8d3c4ae688eb5d90c2325cf1029853b",
+  "derived_event_ledger_sha256": "ca343abee12c2e4fedb614d245824918e31bdc899eab4511edfb976cc8232be4",
   "bounded_counts": {
     "company_response_monetary_relief": 25,
     "timely_yes": 25,
@@ -30,5 +30,5 @@
     "status": "passed"
   },
   "interpretation": "This is a current, response-category-conditioned administrative route sample. The company_response label makes a monetary-response category visible but does not verify amount, issuance, receipt, correction, remaining loss, trust, switching, or exit.",
-  "storage_note": "Raw API JSON and derived ledger were used transiently for the bounded validation and are not retained; hashes and aggregate field diagnostics are retained."
+  "storage_note": "Raw API JSON was used transiently and is not retained; the de-identified derived ledger is now retained at data/cfpb-credit-card-monetary-relief-event-ledger-v1.json, with hashes and aggregate field diagnostics preserved."
 }

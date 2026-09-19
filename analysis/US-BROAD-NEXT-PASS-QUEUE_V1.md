@@ -3336,6 +3336,9 @@ adds a current formal-response comparator but does not verify payment amount,
 issuance, receipt, account correction, remaining loss, trust, switching, or
 exit. It therefore advances the response stage without qualifying the
 same-case promotion gate.
+The [retained 25-event ledger](projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json)
+now makes the de-identified sample durable and indexed; the raw API response
+remains transient and the same-case promotion gate remains open.
 
 The [named redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
 also refreshes three formal remedy comparators: BrightSpeed still reports an

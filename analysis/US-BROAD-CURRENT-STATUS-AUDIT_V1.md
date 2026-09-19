@@ -3021,6 +3021,9 @@ monetary relief` label: 25 of 21,425 matching records were mapped and passed
 the event-ledger contract. This strengthens the formal-response comparator,
 not lived remedy; amount, issuance, receipt, correction, remaining loss, trust,
 switching, and exit remain unknown.
+The [retained credit-card event ledger](projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json)
+now preserves those 25 de-identified route events for indexed validation rather
+than leaving the derived sample only in transient storage.
 
 The [named CFPB redress-route recheck](projects/us-customer-automation-recourse/cfpb-named-redress-route-recheck-2026-09-18.md)
 refreshes BrightSpeed, Navient, and ADSS: BrightSpeed remains an ongoing

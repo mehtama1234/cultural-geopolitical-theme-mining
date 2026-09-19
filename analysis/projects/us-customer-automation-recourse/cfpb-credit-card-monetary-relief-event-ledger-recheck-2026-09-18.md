@@ -27,12 +27,14 @@ received money.
 | Public company response | 15 present; 10 absent | Public-response availability, not remedy quality |
 | Narrative field | 0 present in the returned records | Narrative absence is not absence of harm or explanation |
 
-The raw API hash is
-`364bbdf431c1d027a959bf71a01ad48ce05602b0f09fdbfd4812d2842cb06c60`; the
-derived ledger hash is
-`bbb30f63a09c7a5c75c1767d2bfa1333a95814d13663aabdaa044e42484d851a`. The
-compact [machine record](data/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.json)
-preserves the query, hashes, denominator, and field diagnostics.
+The current raw API hash is
+`75b9ef375a866c22f9a8e225c493a2d6d8d3c4ae688eb5d90c2325cf1029853b`; the
+retained de-identified ledger hash is
+`ca343abee12c2e4fedb614d245824918e31bdc899eab4511edfb976cc8232be4`. The
+compact [machine recheck record](data/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.json)
+and [event ledger](data/cfpb-credit-card-monetary-relief-event-ledger-v1.json)
+preserve the query, hashes, denominator, and field diagnostics without
+retaining raw complaint narratives or direct identifiers.
 
 ## End-to-end boundary
 
@@ -67,6 +69,10 @@ verified remedy receipt or outcome follow-up. The next consumer-power test is
 a lawful linked or account-level implementation record, not another
 response-category slice.
 
+The 25 de-identified events are now retained in the [versioned event ledger](data/cfpb-credit-card-monetary-relief-event-ledger-v1.json)
+and indexed with the other real broad ledgers. This preserves administrative
+route evidence without changing the lived-remedy boundary.
+
 ## Reproduction
 
 ```text
@@ -85,4 +91,5 @@ python3 scripts/validate_us_broad_event_ledger.py \
   /tmp/cfpb-credit-card-monetary-relief-event-ledger.json
 ```
 
-No raw archive or complaint narrative was retained.
+The raw API JSON was used transiently and is not retained. The derived,
+de-identified event ledger is retained for reproducible contract validation.
