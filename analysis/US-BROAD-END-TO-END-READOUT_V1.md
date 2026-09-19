@@ -191,6 +191,18 @@ These are real bridges, but each closes only part of the full chain:
   it most. Recovery progress, aid reachability, and legitimacy therefore move
   on different clocks; an application or public award is not receipt, adequacy,
   or restored trust.
+- **FEMA delivery makes the middle of that chain visible:** GAO's 2026 review
+  reports more than $3 billion in assistance to 1.2 million individuals and
+  households across four recent disaster contexts, while also documenting long
+  helpline waits, confusing requests for more information, housing constraints,
+  and unequal access risks for older, disabled, rural, and digitally excluded
+  survivors. A current Los Angeles wildfire aggregate snapshot adds 261,117
+  registrations, 98,459 referrals, 35,165 eligible records, and $182.8 million
+  in reported IHP amounts across 621 city/ZIP rows. These figures establish
+  administrative capacity and friction, not unique-person approval, payment
+  receipt, completed repair, stable housing, or survivor recovery. The public
+  response can therefore be large and still be practically hard to use. See the
+  [FEMA delivery finding](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-003.md).
 - **Firm survival and household/local consequences:** a threshold-based SBA
   disaster-credit study estimates a 13.2-point reduction in firm exit and
   roughly 18% higher employment for the studied firms, but also about $17,712
