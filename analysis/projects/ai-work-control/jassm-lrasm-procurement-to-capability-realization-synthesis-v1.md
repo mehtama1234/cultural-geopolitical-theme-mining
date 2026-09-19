@@ -18,6 +18,7 @@ possible sale / procurement agreement
   -> award and supplier structure
   -> facility and production-capacity investment
   -> production support and integration testing
+  -> operational-integration validation
   -> accepted quantity
   -> shipment, delivery, fielding, and training
   -> inventory, maintenance, and operational use
@@ -40,6 +41,7 @@ whether an announced investment has become an option that a state can use.
 | Production support | DoD's $999 million JASSM/LRASM production-support IDIQ | A formal support route exists; award ceiling is not delivered output |
 | Capacity investment | Lockheed reports large-lot and factory-capacity investment | Intended or built capacity is visible; actual throughput remains open |
 | Integration testing | Lockheed reports completion of an LRASM F-35C flight-science phase | A technical milestone is visible; it is not fielded inventory |
+| Operational-integration validation | US Air Force Global Strike Command reports a June 2, 2026 Dyess “Event Zero” validating B-1B/LRASM pre-flight procedures and connecting a live AGM-158C with updated hardware | A dated US-side procedure/integration milestone is visible; it is not accepted inventory, deployment, sustainment, or combat use |
 | Customer realization | Polish official sources provide a 2026–2030 planning window for the 2024 order; a separate Senate response lists JASSM-ER among equipment delivered since February 2022 | The broad prior-delivery list has no quantity, date, unit, acceptance record, or order linkage, so it cannot establish realization of the 2024 order |
 | Geopolitical consequence | No dated external behavior change tied to realized inventory was located | Leverage remains open |
 
@@ -92,7 +94,9 @@ or software dependency.
 - Company-reported capacity is useful industrial evidence but is not a neutral
   production-rate measurement.
 - A flight-science or integration test can succeed without operational
-  fielding, sustainment, or customer acceptance.
+  fielding, sustainment, or customer acceptance. The June 2026 Dyess Event Zero
+  adds a more concrete procedure-validation stage, but remains on the US side
+  of the realization clock and does not establish Polish delivery.
 - A public-source non-observation is not evidence that no delivery occurred;
   it means the reviewed public record cannot support promotion to that stage.
 - FMS accounting and physical realization can be asynchronous, so settlement
@@ -127,5 +131,6 @@ stage and do not promote a capability or leverage claim.
 - [Subaward-to-UEI and reported-location finding](findings/ai-work-control-078.md)
 - [Poland JASSM-ER delivery non-observation](findings/ai-work-control-081.md)
 - [FMS timing-asynchrony finding](findings/ai-work-control-083.md)
+- [US LRASM Event Zero source note](data/us-lrasm-event-zero-realization-source-note-2026-07-07.md)
 - [State-leverage control ledger](state-leverage-control-ledger-v1.md)
 - [Recipient-identity and facility records](data/usaspending-jassm-lrasm-rich-subaward-search-2026-09-14.json)
