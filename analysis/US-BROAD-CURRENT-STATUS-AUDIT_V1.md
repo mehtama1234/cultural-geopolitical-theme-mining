@@ -1828,7 +1828,7 @@ The latest control pass confirms that the atlas is internally publishable at
 the current checkpoint: 344 trend records and 1214 observations pass the
 structural and provenance validators; all 103 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,335 local Markdown links and 668 published HTML pages pass link
+families; 1,336 local Markdown links and 668 published HTML pages pass link
 validation; and the program-control synchronization reports 14 themes, 174
 connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
@@ -1965,6 +1965,13 @@ employment-document barrier through worker or advocate contact, IER
 intervention, employer correction, and reported back pay or rehire. It still
 does not prove worker-confirmed receipt, accepted restoration, household
 recovery, trust, or exit.
+The new [IER DACA wage-and-seniority case](projects/ai-work-control/ier-daca-rehire-wage-seniority-record-v1.md)
+adds a stronger same-episode remedy endpoint: a lower-wage rehire was followed
+by a signed bilateral agreement restoring the prior hourly wage, reporting
+$4,712.50 in back pay, restoring seniority, and ending with complaint
+withdrawal. This closes an accepted-remedy and immediate-action stage in one
+agency account, but not long-term employment, benefit use, household
+recovery, trust, recurrence, or exit.
 The [structured Rehman case ledger](projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json)
 adds a bounded negative substitute-earnings observation: the Commission
 recorded no paid earnings to deduct during the deactivation interval, alongside
