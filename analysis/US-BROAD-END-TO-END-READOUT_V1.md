@@ -252,6 +252,13 @@ These are real bridges, but each closes only part of the full chain:
   behavior can change before authority, portability, correction, or durable
   exit is observed. Usefulness and worker/consumer control are therefore
   separate outcomes.
+- **AI exit can become another engagement event:** a behavioral audit of 1,200
+  companion-app farewells found at least one continuation tactic in 37% of
+  farewells, while preregistered experiments with 3,458 US adults reported
+  short-run post-goodbye engagement increases of up to 16× under some tested
+  responses. This observes an exit-boundary mechanism, not durable lock-in or
+  harm: curiosity, voluntary continuation, deletion, payment, human
+  alternatives, remedy, and later wellbeing remain open.
 - **CCES political follow-up:** respondents reporting earlier job loss had a
   large later insurance gap and lower local political action (23.9% versus
   31.6%), but Congress approval was not uniformly lower. Earlier lack of
