@@ -53,6 +53,43 @@ contact, action, and recovery do not form a single ladder. That divergence is
 one of the atlas's strongest cultural findings and a reason to measure meaning
 and perceived control directly rather than infer them from hardship.
 
+## The deepest findings currently supported
+
+These are the program's strongest cross-theme propositions—not universal laws,
+but findings that recur across different evidence layers:
+
+1. **Unequal optionality is the hidden structure.** The same price, rule, or
+   service failure lands differently depending on cash, time, care capacity,
+   information, status, transport, institutional access, and ability to leave.
+   The [unequal-optionality finding](findings/us-broad-program-unequal-optionality-path-001.md)
+   is the program's central synthesis.
+2. **People pay in multiple currencies.** A household can preserve a bill by
+   sacrificing food quality, care, savings, rest, safety, or future flexibility;
+   a worker can preserve income by giving up time or control. Cash alone misses
+   the transfer. See [time as hidden price](projects/us-household-calendar-integration/time-as-hidden-price-cross-domain-synthesis-v1.md).
+3. **Institutions measure their own success more easily than lived recovery.**
+   A complaint can be routed, a payment distributed, access restored, or a
+   repair completed without showing receipt, adequacy, durable protection, or
+   restored choice. See the [remedy durability synthesis](projects/us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md).
+4. **Action is an ecology, not a ladder.** Staying, complaining, switching,
+   voting, organizing, and silence each have different costs and meanings.
+   Continued use can be dependence; silence can be futility; voting can express
+   identity as much as material judgment. See the [trust/action layer](projects/us-cost-trust-politics/cross-source-trust-action-layer-v1.md).
+5. **Capability and dependence can grow together.** A new factory, platform,
+   data center, or defense capacity can expand capability while leaving the
+   affected actor dependent on imported inputs, one provider, opaque rules, or
+   costly switching. Capacity becomes power only when someone can use, refuse,
+   replace, or impose a cost. See the [capacity/dependence bridge](projects/ai-work-control/capability-dependence-local-power-layer-v1.md).
+6. **Formal access is not usable access.** A service, benefit, transit route,
+   accommodation, or remedy may exist on paper while time, price, stigma,
+   reliability, accessibility, or information makes it unusable. The [interface-to-outcome finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md)
+   treats that gap as a measurable stage, not a rhetorical caveat.
+
+The common implication is that culture is not an afterthought added after the
+economic data. Meaning, dignity, trust, identity, and legitimacy shape which
+option people can use, whether they contest a decision, and whether an
+institution's formal success becomes lived security.
+
 ## What the latest pages add
 
 The newer pages make the map more concrete:
