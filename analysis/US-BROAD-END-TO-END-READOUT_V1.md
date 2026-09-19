@@ -625,7 +625,7 @@ These are real bridges, but each closes only part of the full chain:
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
 - **Remedy visibility is still not remedy recovery:** across the 41 retained
-  event ledgers and 218 events, 38 events carry an explicit remedy stage; 13
+  event ledgers and 220 events, 40 events carry an explicit remedy stage; 15
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
   The other 180 events have no explicit remedy-stage field. This is not proof
@@ -633,8 +633,8 @@ These are real bridges, but each closes only part of the full chain:
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See
   the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
-  The stage is also source-dependent: the employment/control ledgers carry 25
-  explicit remedy stages across 36 events, product-safety ledgers carry 6 of 6,
+  The stage is also source-dependent: the employment/control ledgers carry 27
+  explicit remedy stages across 38 events, product-safety ledgers carry 6 of 6,
   customer-recourse ledgers carry 5 of 55, and health-cost ledgers carry 0 of
   100. This is a documentation-pattern comparison, not evidence that one
   domain remedies people better than another.
@@ -646,6 +646,14 @@ These are real bridges, but each closes only part of the full chain:
   show that the third check was cashed, that the original account problem was
   corrected, or that the businesses recovered, stayed, switched financing, or
   changed trust. See the [Yellowstone refund ledger](projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json).
+- **Employment remedy can repair status as well as cash:** the expanded [IER
+  intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
+  now includes agency-reported cases where rehire, back pay, prior wage, and
+  seniority were restored. One DACA case reports $4,712.50 in back pay and
+  restored seniority; a California case reports $1,650 and seniority repair.
+  These are stronger than an order-only record, but still do not independently
+  verify receipt, benefit use, durable employment, household recovery, or
+  trust.
 
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,

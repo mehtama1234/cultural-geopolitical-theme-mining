@@ -1,7 +1,7 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "agency_reported_individual_employment_intervention_record",
-  "purpose": "Nine DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, offered reinstatement, non-return, lost-wage payment, or back pay.",
+  "purpose": "Eleven DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, offered reinstatement, non-return, lost-wage payment, wage restoration, seniority repair, or back pay.",
   "events": [
     {
       "event_id": "IER-TEL-2016-10-19-OAKLAND",
@@ -281,6 +281,68 @@
       "counterexample": "A remedy can restore a job opportunity while changing location and social conditions; neither the worker's acceptance nor durable recovery is established",
       "evidence_status": "reported",
       "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported case summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-TEL-2023-01-11-CALIFORNIA-REHIRE",
+      "unit": "case",
+      "geography": "California; U visa holder employment-document intervention",
+      "actor_initiating_change": "employer",
+      "event_date": "2023-01-11",
+      "date_precision": "IER telephone-intervention summary date; page retrieved September 19, 2026",
+      "denominator": "One reported worker case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER telephone-interventions page",
+      "missingness": "Worker and employer identities, termination duration, payment instrument, receipt date, benefit use, later employment, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer terminated a U visa holder because it believed a new Employment Authorization Document was required, although the worker's adjustment-of-status receipt and Form I-94 were acceptable I-9 documentation",
+      "alternatives_before_action": "Other work, income, coverage, appeal, and feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "The worker lost employment; the public account does not quantify the interruption or household effect",
+      "choice_or_response": "The worker contacted IER, which explained the documentation rule to the employer; the worker's effort and acceptance of rehire are not independently documented",
+      "person_or_actor_with_control": "Employer controlled termination, payroll, and rehire; IER controlled the intervention route; worker control after rehire is unobserved",
+      "remedy_or_institutional_response": "The employer reportedly rehired the worker, paid $1,650 in back pay, and restored her seniority date for benefits purposes",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The agency account reports back pay and seniority restoration; payment instrument, receipt, and actual benefit use are not independently confirmed",
+      "durability_followup": "Later employment, benefit continuity, recurrence, household recovery, trust, collective action, switching, and exit are unknown",
+      "immediate_outcome": "Agency-reported rehire, back-pay payment, and status/seniority repair",
+      "protected_outcome": "Reported rehire and seniority restoration could protect income continuity and future benefits; adequacy, receipt, and durable employment are not observed",
+      "sacrificed_outcome": "The worker lost work and may have borne income, time, stress, and status costs before intervention; these are not quantified",
+      "cost_risk_transfer": "The employer reportedly bears the payment and status correction while the worker retains unknown adequacy and recurrence risk",
+      "later_outcome": "No worker-linked later employment, benefit use, household recovery, trust, action, switching, or exit is reported",
+      "meaning_and_attribution": "The discrimination mechanism is described by the agency, but no worker-reported fairness, dignity, blame, or institutional-trust endpoint is retained",
+      "public_or_collective_response": "IER intervention is reported; no later collective or political response is observed",
+      "counterexample": "A reported rehire, payment, and seniority repair is stronger than an offer alone, but it does not establish independent receipt, benefit restoration, or durable recovery",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported case summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-TEL-2021-03-19-DACA-REHIRE",
+      "unit": "case",
+      "geography": "Naperville, Illinois; DACA-recipient employment-document intervention",
+      "actor_initiating_change": "employer",
+      "event_date": "2021-03-19",
+      "date_precision": "IER letter-of-resolution date; page retrieved September 19, 2026",
+      "denominator": "One reported worker case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER FY2021 letters-of-resolution page",
+      "missingness": "Worker and employer identities, exact wage path, payment instrument, receipt date, lower-wage duration, later tenure, benefit use, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "A DACA recipient reported termination linked to citizenship-status and document-practice problems, followed by rehire at a lower hourly wage",
+      "alternatives_before_action": "Other employment, bargaining options, income, coverage, and feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "The worker experienced termination and then a lower-wage rehire before the bilateral agreement; exact household and time costs are unknown",
+      "choice_or_response": "The worker submitted a matter to IER; a bilateral agreement was signed and the worker later withdrew the submission",
+      "person_or_actor_with_control": "Employer controlled termination, wage, and seniority; IER provided the enforcement route; the worker's control over continued employment is not followed",
+      "remedy_or_institutional_response": "The employer reportedly restored the prior hourly wage, paid $4,712.50 in back pay, and restored seniority under a bilateral agreement",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The agreement reports payment and restored terms; payment instrument, timing, tax, and independent receipt are not retained",
+      "durability_followup": "The withdrawal is reported, but later employment, benefit use, recurrence, household recovery, trust, collective action, switching, and exit are unknown",
+      "immediate_outcome": "Agency-reported bilateral wage, back-pay, and seniority restoration followed by complaint withdrawal",
+      "protected_outcome": "Restored wage and seniority could repair income continuity and workplace status; actual benefit use, adequacy, and durable employment are not observed",
+      "sacrificed_outcome": "Termination and lower-wage rehire shifted income and status risk onto the worker before agreement; duration and household costs are unknown",
+      "cost_risk_transfer": "The employer reportedly assumed the back-pay and wage-restoration obligation while the worker retains unknown durability and recurrence risk",
+      "later_outcome": "Complaint withdrawal is observed; later employment, household security, trust change, action, switching, and exit are not observed",
+      "meaning_and_attribution": "Withdrawal after agreement is an action endpoint, not proof of generalized trust or satisfaction; worker-reported fairness and dignity meaning are not retained",
+      "public_or_collective_response": "IER investigation and bilateral resolution are reported; no later collective or political response is observed",
+      "counterexample": "A signed agreement and reported payment can repair wage and seniority terms while leaving actual receipt, benefit use, and long-term recovery unknown",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER FY2021 letters-of-resolution page, https://www.justice.gov/crt/ier-letters-resolutions-fy-2021; agency-reported case summary with no claimant follow-up"
     }
   ],
   "arrows": [
@@ -290,7 +352,7 @@
       "to": "worker hotline contact and IER intervention",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Eight dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
+      "evidence": "Eleven dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
       "status": "reported",
       "counterexample": "These are selected intervention summaries, not a prevalence sample or complete record of all affected workers",
       "remaining_gap": "Worker denominator, effort, alternatives, non-use, and counterfactual opportunity"
@@ -312,7 +374,7 @@
       "to": "reported back pay",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, and $5,254 across selected summaries; the Miami and New York cases report reinstatement offers, while the Yulee case reports an alternate-location job opportunity",
+      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, $5,254, $1,650, and $4,712.50 across selected summaries; the Miami and New York cases report reinstatement offers, while the Yulee case reports an alternate-location job opportunity",
       "status": "reported",
       "counterexample": "Agency-reported payment is not an independently audited receipt, and a reinstatement offer is not accepted reemployment",
       "remaining_gap": "Payment instrument, date, net amount, receipt, acceptance, and adequacy"
@@ -329,6 +391,6 @@
       "remaining_gap": "Worker-linked receipt, accepted restoration, later employment, household recovery, meaning, recurrence, collective action, switching, and exit"
     }
   ],
-  "boundary": "This ledger formalizes eight selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, offered reinstatement, one reported non-return decision, rapid rehire, exact back-pay reporting in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes eleven selected DOJ IER intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, offered reinstatement, non-return decisions, rapid rehire, wage restoration, seniority repair, exact back-pay reporting, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
   "storage_boundary": "No claimant files, direct identifiers, employer identities, bulk archive, or payment instruments are retained; only bounded public case summaries, dates, reported remedy fields, uncertainty, and open arrows are represented."
 }
