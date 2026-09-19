@@ -2473,10 +2473,12 @@ preserves the five arrows from deactivation through application, restoration,
 ordered lost pay, and the open receipt/durability stages.
 
 The [Hotak follow-up record](records/au-hotak-reactivation-continued-work-2025.json)
-adds observed post-reactivation activity to that remedy boundary: more than
-150 trips were completed after voluntary access restoration before the later
-formal reactivation order, while lost-pay quantum remained open. The trip
-sequence is now also represented in a [structured broad event ledger](projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json),
+adds a case-level lived-burden stage and observed post-reactivation activity to
+that remedy boundary: the Commission record describes stress, anxiety, feeling
+unsupported, income loss, and financial hardship during the interruption; more
+than 150 trips were then completed after voluntary access restoration before
+the later formal reactivation order, while lost-pay quantum remained open. The
+trip sequence is now also represented in a [structured broad event ledger](projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json),
 which distinguishes ordinary payment for post-reactivation work from the
 separate lost-remuneration remedy and keeps durable protection, trust, and exit
 open. The case demonstrates operational return to work and ordinary work

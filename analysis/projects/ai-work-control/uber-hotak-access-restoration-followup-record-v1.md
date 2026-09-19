@@ -26,6 +26,7 @@ restored, or that later retaliation was absent.
 | Date | Event | Evidence status | Boundary |
 |---|---|---|---|
 | 8 Apr 2025 | Uber deactivated the worker | Primary agreed facts | Underlying platform decision and review record remain the merits question |
+| Between 8 Apr and 19 May 2025 | The Full Bench recorded that the worker felt extremely stressed, anxious, and unsupported and experienced significant income loss and financial hardship during the interruption | Primary Full Bench bulletin/decision summary | This is a case-level adjudicated account of lived burden; it does not quantify net loss, establish causation beyond the case sequence, or measure later recovery |
 | 19 May 2025 | Uber voluntarily reactivated access | Primary agreed facts | Voluntary access restoration is not the same as a formal remedial order |
 | After 19 May 2025 | Full Bench record states the worker performed work and received payment from Uber | Primary merits decision | Amount/timing of ordinary work payment and any separate lost-remuneration payment are not disclosed |
 | By 21 Jul 2025 | Worker had completed more than 150 trips after reactivation | Primary Full Bench record | The record does not establish net earnings, expenses, continued access after that point, or non-retaliation |
@@ -50,6 +51,13 @@ The record does not prove that the worker received the separate lost
 remuneration, that the account remained active after the reported 150 trips,
 that ratings or profiles were corrected, or that Uber changed its process for
 other workers.
+
+The case therefore now has a bounded lived-burden observation between the
+deactivation and restoration stages: the legal record describes stress,
+anxiety, feeling unsupported, income loss, and financial hardship. Those are
+not a population prevalence estimate or a validated household-recovery
+measure, but they prevent the chain from being read as only an administrative
+access event.
 
 ## Coding
 
@@ -122,6 +130,7 @@ trip activity, payment, and later recurrence.
 
 - [Hotak, [2025] FWCFB 151 — agreed facts and 150-plus trips](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf)
 - [Hotak, [2025] FWCFB 214 — merits and formal reactivation order](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf)
+- [FWC Bulletin Volume 10/25 — Hotak case summary and remedy sequence](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm)
 - [Fair Work Commission decision search](https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders)
 
 ## Boundary

@@ -33,6 +33,11 @@
           "unit": "post-reactivation platform trips",
           "value_type": "observed_activity_threshold"
         },
+        "reported_lived_burden": {
+          "value": "The Full Bench record describes extreme stress, anxiety, feeling unsupported, significant income loss, and financial hardship during the interruption",
+          "unit": "case-level reported worker experience recorded in adjudication",
+          "value_type": "adjudicated_recorded_experience"
+        },
         "post_reactivation_work_payment": {
           "value": "Full Bench record states that the worker performed work and received payment from Uber after 2025-05-19",
           "unit": "ordinary post-reactivation work payment; amount and timing not disclosed",
@@ -45,9 +50,9 @@
         }
       },
       "method": "Read the primary Fair Work Commission Full Bench and merits records as a dated single-case sequence, preserving voluntary reactivation, subsequent trip activity, formal order, and the separate open lost-pay stage.",
-      "uncertainty": "The public record establishes that payment was received for post-reactivation work, but does not establish net earnings, expenses, the amount or receipt of separate lost-remuneration relief, account status after the trip count, profile or rating correction, alternative work, recurrence protection, anti-retaliation, household recovery, trust change, collective action, or exit. One Australian case cannot estimate platform incidence or typical remedy effectiveness.",
+      "uncertainty": "The public record establishes a case-level account of stress, anxiety, lack of support, income loss, and financial hardship during the interruption and payment for post-reactivation work, but does not establish net earnings, expenses, the amount or receipt of separate lost-remuneration relief, account status after the trip count, profile or rating correction, alternative work, recurrence protection, anti-retaliation, household recovery, trust change, collective action, or exit. One Australian case cannot estimate platform incidence or typical remedy effectiveness.",
       "subgroup": "Single case: Mohammad Shareef Hotak and Uber Driver Platform / Rasier Pacific",
-      "counterinterpretation": "More than 150 trips and payment for post-reactivation work show operational return and ordinary work compensation, not unconstrained choice, recovery of lost earnings, or durable protection. Continued platform use may reflect dependence or lack of alternatives; the later formal order shows voluntary reactivation did not settle the separate lost-remuneration question.",
+      "counterinterpretation": "The recorded stress, anxiety, income loss, and financial hardship show lived burden in one adjudicated case, but not a population rate or a measured household recovery path. More than 150 trips and payment for post-reactivation work show operational return and ordinary work compensation, not unconstrained choice, recovery of lost earnings, or durable protection. Continued platform use may reflect dependence or lack of alternatives; the later formal order shows voluntary reactivation did not settle the separate lost-remuneration question.",
       "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf",
       "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
       "status": "observed"
@@ -58,6 +63,11 @@
       "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf",
       "claim": "The Full Bench merits record preserves the formal reactivation order, post-reactivation work/payment statement, and open lost-remuneration stage.",
       "status": "official-adjudicated-record"
+    },
+    {
+      "source_url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm",
+      "claim": "The official FWC bulletin summarizes the worker's reported stress, anxiety, lack of support, income loss, and financial hardship during deactivation, alongside reactivation and lost-pay stages.",
+      "status": "official-case-summary"
     },
     {
       "source_url": "projects/ai-work-control/uber-hotak-access-restoration-followup-record-v1.md",

@@ -1,12 +1,15 @@
 # Finding 092: Operational return to platform work can precede formal and financial remedy
 
-**Status:** comparative adjudicated single-case finding · **Checked:** 2026-09-17
+**Status:** comparative adjudicated single-case finding · **Checked:** 2026-09-19
 
 ## The bounded finding
 
 In the Hotak matter, Uber deactivated a worker on 2025-04-08 and voluntarily
 reactivated access on 2025-05-19. The Full Bench record states that the worker
-recommenced work and completed more than 150 trips afterward. On 2025-09-23,
+felt extremely stressed, anxious, and unsupported and experienced significant
+income loss and financial hardship during the interruption. The record then
+states that the worker recommenced work and completed more than 150 trips
+afterward. On 2025-09-23,
 the Commission ordered reactivation while leaving lost-remuneration quantum for
 further party consultation.
 
@@ -18,6 +21,8 @@ deactivation -> voluntary reactivation -> 150-plus trips
              -> [open] lost-pay amount, payment, net recovery, durability, exit
 ```
 
+The case-level burden account is evidence of lived impact in this adjudicated
+record, but not a prevalence estimate or validated household-recovery measure.
 The trips are stronger evidence than an unverified account-restoration label,
 but they do not show that the worker had a free alternative, recovered the
 income position lost during deactivation, or remained protected from recurrence.
@@ -27,6 +32,7 @@ income position lost during deactivation, or remained protected from recurrence.
 | Stage | Observed | Still open |
 |---|---|---|
 | Exclusion | Deactivation recorded in agreed facts | Platform-wide incidence or reason accuracy |
+| Lived burden | Stress, anxiety, feeling unsupported, income loss, and financial hardship recorded in the case summary | Net loss, household incidence, and later recovery |
 | Access restoration | Voluntary reactivation and later formal order | Durable account status, profile/rating correction |
 | Work activity | More than 150 trips after reactivation | Net pay, expenses, work quality, alternative work |
 | Financial remedy | Lost-pay question preserved for consultation | Amount, payment receipt, net recovery, household security |
@@ -55,6 +61,7 @@ reactivation              != durable access
 continued platform use    != unconstrained alternative choice
 formal order              != payment receipt
 work activity             != practical exit or collective power
+lived burden              != measured durable recovery
 ```
 
 Code this as **same-case adjudicated operational-return evidence with voluntary
@@ -71,6 +78,7 @@ work, recurrence, and reason for continued use or exit.
 
 - [Hotak Full Bench record](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf)
 - [Hotak merits and reactivation decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf)
+- [FWC Bulletin Volume 10/25 — Hotak case summary](https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-09-30.htm)
 - [Committed local follow-up memo](../uber-hotak-access-restoration-followup-record-v1.md)
 
 The work uses the existing compact local record and targeted official URLs. No
