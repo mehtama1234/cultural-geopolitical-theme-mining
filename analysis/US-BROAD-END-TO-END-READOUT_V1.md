@@ -244,6 +244,13 @@ These are real bridges, but each closes only part of the full chain:
   not a burden or outcome by itself: the missing links are replacement options,
   schedule control, earnings, health, recipient safety, and whether employers
   or public programs absorb any of the risk.
+- **Disability and usable work routes:** in PY2023 DOL programs, 60% of Adult
+  participants reporting disabilities were employed in the second quarter
+  after exit versus 76% reporting no disability; Adult training use was 33%
+  versus 47%. This is a bounded post-exit gap, not proof that accessibility or
+  accommodation caused it. It shows why formal program participation must be
+  separated from completed service, placement, retention, wages, workplace
+  control, and durable security.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
