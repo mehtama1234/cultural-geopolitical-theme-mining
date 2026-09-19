@@ -1,0 +1,59 @@
+{
+  "schema": "psid-public-route-recheck-v1",
+  "checked": "2026-09-19",
+  "status": "official_route_confirmed_account_controlled_no_local_microdata",
+  "official_routes": {
+    "data_page": "https://simba.isr.umich.edu/data/data.aspx",
+    "packaged_data": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",
+    "getting_started": "https://psidonline.isr.umich.edu/GettingStarted.aspx",
+    "2023_individual_documentation": "https://psidonline.isr.umich.edu/documents/psid/intro/IND2023ER_intro.pdf",
+    "data_center": "https://simba.isr.umich.edu/DC/f.aspx"
+  },
+  "officially_documented": {
+    "distribution": "PSID provides public-use data through the Data Center and packaged files after registration and acceptance of the Conditions of Use.",
+    "target_waves": [2019, 2021, 2023],
+    "2023_individual_file": {
+      "release": "Release 2",
+      "records": 85536,
+      "variables": 2771,
+      "coverage": "1968-2023 person-level information in one cross-year file, including 2019, 2021, and 2023 items",
+      "longitudinal_weight": "ER35264",
+      "cross_section_weight": "ER35265",
+      "documentation_date": "2025-12"
+    },
+    "data_center_advantage": "PSID recommends the Data Center for customized extracts automatically merged across waves and files; packaged files require manual merging."
+  },
+  "workspace_result": {
+    "registration_or_conditions_acceptance_available": false,
+    "target_microdata_present": false,
+    "automated_direct_route": "not established; prior unauthenticated route returned a Cloudflare/403 challenge",
+    "no_estimate_authorized": true
+  },
+  "revised_first_authenticated_pass": {
+    "route": "Use the PSID Data Center to request a minimal 2019/2021/2023 family-plus-person extract before considering full packaged files.",
+    "retain_first": [
+      "person and family identifiers",
+      "family interview identifiers and family-unit status",
+      "wave-specific person/family weights",
+      "response, mover-out, and family-composition indicators",
+      "survey mode and missing-value codes"
+    ],
+    "first_measure_groups": [
+      "paid work hours and employment timing",
+      "housework, shopping, child care, adult care, and social time",
+      "feeling rushed and work pressure",
+      "life satisfaction and health level/change",
+      "income, wealth/buffer, utility, and insurance burden",
+      "family composition and tenure context"
+    ],
+    "first_structural_checks": [
+      "codebook wording and universe by wave",
+      "key uniqueness and merge counts",
+      "zero, not-applicable, don't-know, refusal, and unavailable codes",
+      "retention and item missingness",
+      "weight eligibility and valid denominators",
+      "wave comparability before any pooled estimate"
+    ]
+  },
+  "boundary": "The official documentation establishes that a suitable public longitudinal route exists, but no authenticated extract or substantive PSID result exists in this workspace. Registration, Conditions-of-Use acceptance, extract retrieval, and structural validation remain required before analysis."
+}

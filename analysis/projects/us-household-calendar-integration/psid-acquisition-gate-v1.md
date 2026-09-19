@@ -1,12 +1,20 @@
 # PSID acquisition gate
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
-**Current documentation recheck:** 2026-09-18 — official PSID pages continue
+**Current documentation recheck:** 2026-09-19 — official PSID pages continue
 to state that public-use data are available after researcher registration and
 acceptance of the Conditions of Use. This confirms an account-controlled
 distribution route, not a substantive data absence.
+
+The new [public-route recheck](psid-public-route-recheck-2026-09-19.json)
+also confirms the 2023 Individual Release 2 documentation: 85,536 person
+records, 2,771 variables, cross-wave information through 2023, and documented
+longitudinal and cross-sectional weights. The Data Center is the preferred
+first route because it can create a customized multi-wave extract; the first
+authenticated pass should request a minimal field cart rather than download
+all packaged files by default.
 
 ## What is available
 
@@ -76,8 +84,10 @@ that the planned household relationship is null.
 
 ## Required next handoff
 
-An account holder must accept the official Conditions of Use and supply the
-four public-use packages. Then run the [wave-file structural audit](psid-wave-file-audit-protocol-v1.md)
+An account holder must accept the official Conditions of Use and either supply
+the four public-use packages or create the minimal multi-wave Data Center
+extract specified in the [public-route recheck](psid-public-route-recheck-2026-09-19.json).
+Then run the [wave-file structural audit](psid-wave-file-audit-protocol-v1.md)
 against the downloaded files and preserve its JSON output.
 
 The structural pass must be followed by separate checks for:
