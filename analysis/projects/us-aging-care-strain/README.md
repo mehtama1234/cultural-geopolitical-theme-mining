@@ -38,6 +38,12 @@ connects the BLS eldercare scale, employment overlap, care-day intensity,
 frequency, household/nonhousehold care, and the missing caregiver-recipient
 outcome link in one plain-language route.
 
+The [care supply/work option-stack synthesis](care-supply-work-option-stack-synthesis-v1.md)
+now connects household child-care adaptation, a same-person following-hardship
+signal, unpaid-care time, and provider-workforce pressure. It preserves the
+central boundary: paid care, benefits, and incentives are not automatically a
+dependable staffed slot or a preserved household work outcome.
+
 ## First working idea
 
 Care may be a second job that is spread unevenly through families. Its cost can appear as lost earnings, less saving, changed housing, or fewer choices rather than as a care bill. This is a working idea, not a conclusion.

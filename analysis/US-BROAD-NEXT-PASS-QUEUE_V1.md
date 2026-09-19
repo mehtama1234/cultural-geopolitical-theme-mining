@@ -3094,6 +3094,15 @@ job exit, non-search, and work-plus-supervision. The next test is a dated
 care-event ledger with provider disruption, subsidy/leave access, schedule,
 informal support, work, earnings, and later care/work outcome; do not treat
 low paid-care spending as low care burden.
+
+The [care supply/work option-stack synthesis](projects/us-aging-care-strain/care-supply-work-option-stack-synthesis-v1.md)
+now consolidates the household, SIPP following-hardship, ATUS unpaid-time, and
+provider-workforce stages. It preserves two counterexamples: low paid-care
+spending can reflect hidden substitution or work withdrawal, and a benefit or
+worker incentive can coexist with a waitlist. This advances the care-to-work
+middle without establishing a staffed slot, completed care, recovery, trust, or
+action. The next decisive artifact remains a same-household or
+installation-year care-event ledger.
 The [canonical child-care/work trend](records/us-census-childcare-challenges-work-adaptation-2025.json)
 now preserves the official paper's conditional household universe, converted
 work-time measure, replicate-weight boundary, and non-mutually-exclusive
