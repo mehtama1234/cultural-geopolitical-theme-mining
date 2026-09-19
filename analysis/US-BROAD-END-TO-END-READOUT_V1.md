@@ -69,7 +69,10 @@ The central finding so far is:
 These are real bridges, but each closes only part of the full chain:
 
 - **MEPS:** a dated medical event is followed by later health and employment
-  measures. Alternatives, remedy, trust, and action are missing.
+  measures. A separate event-family comparison finds that reported denial or
+  prior-authorization delay is followed by more same-round care delay, medical
+  debt, collections, and bill problems across office, ER, and inpatient
+  groups. Alternatives, claim-level remedy, trust, and action are missing.
 - **SHED:** the same respondent’s financial condition and adaptations persist or
   reverse across waves. The trigger is not transaction-dated.
 - **CCES:** an earlier job or benefit disruption is followed by institutional

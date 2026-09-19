@@ -126,6 +126,11 @@ The newer pages make the map more concrete:
   not reveal the initiating need, available alternative, institutional remedy,
   or later meaning/action. A later health or employment value is an outcome
   surface, not automatically recovery.
+- The MEPS event-family friction comparison adds an important middle step:
+  reported insurance denial or prior-authorization delay is associated with
+  more care delay, medical debt, collection contact, and bill problems across
+  office, ER, and inpatient groups. This is a same-round descriptive pattern,
+  not a claim-level causal effect or proof that a remedy failed.
 - A new June 2025 HTOPS screen adds a consumer-culture middle signal: expense
   difficulty is not monotonically related to whether people use AI, but online
   searches for jobs, housing, food, medical help, benefits, and credit rise
