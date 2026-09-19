@@ -179,6 +179,13 @@ These are real bridges, but each closes only part of the full chain:
   institutional response, but does not show any individual payment, account
   correction, repeat effort, restored security, trust, or exit. A redress pool
   is therefore not a consumer recovery rate.
+- **Administrative speed is not consumer remedy:** the CFPB complaint route
+  exposes an administrative `timely` label and a separate receipt-to-company
+  routing interval. In a 2025 student-loan sample, 59.8% were labeled timely,
+  while 21.6% took more than 24 hours to route and the 90th-percentile lag was
+  about 27 days. The label is not customer waiting time, company correction,
+  payment, account repair, or practical exit; API field and vintage changes
+  must also be treated as missingness rather than silently as zero.
 - **Small firms as infrastructure consumers:** the FTC reports 5,588 checks
   totaling more than $2.6 million sent to businesses charged hidden or
   unauthorized payment-processing fees, including early-termination and
