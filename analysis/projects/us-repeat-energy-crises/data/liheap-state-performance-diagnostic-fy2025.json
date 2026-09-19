@@ -1,0 +1,39 @@
+{
+  "format": "us-public-program-state-diagnostic-v1",
+  "record_id": "us-liheap-state-performance-diagnostic-fy2025",
+  "checked": "2026-09-18",
+  "source_unit": "HHS/ACF LIHEAP Performance Management API; selected state grant recipients",
+  "fiscal_year": "2025*",
+  "data_status": "preliminary; official site marks FY2025 performance data pending final validation",
+  "query": {
+    "endpoint": "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport",
+    "field_ids": {
+      "6": "Total Households Served",
+      "426": "Restoration of Service Due to Disconnection - All Occurrences",
+      "473": "Prevention of Service Loss Due to Bill Payment Issues - All Occurrences"
+    },
+    "grantee_ids": {"5": "California", "33": "New York", "36": "Ohio", "44": "Texas", "47": "Virginia"},
+    "year": 2025,
+    "authentication": "public token from https://stage.liheappm.acf.hhs.gov/token.php"
+  },
+  "observations": [
+    {"state": "California", "abbreviation": "CA", "households_served": 146843, "restoration_occurrences": 10321, "prevention_occurrences": 91894, "restoration_occurrences_per_served_household": 0.0703, "prevention_occurrences_per_served_household": 0.6259},
+    {"state": "New York", "abbreviation": "NY", "households_served": 1159724, "restoration_occurrences": 770, "prevention_occurrences": 92275, "restoration_occurrences_per_served_household": 0.0007, "prevention_occurrences_per_served_household": 0.0796},
+    {"state": "Ohio", "abbreviation": "OH", "households_served": 261341, "restoration_occurrences": 4464, "prevention_occurrences": 80692, "restoration_occurrences_per_served_household": 0.0171, "prevention_occurrences_per_served_household": 0.3089},
+    {"state": "Texas", "abbreviation": "TX", "households_served": 71847, "restoration_occurrences": 2019, "prevention_occurrences": 39939, "restoration_occurrences_per_served_household": 0.0281, "prevention_occurrences_per_served_household": 0.5559},
+    {"state": "Virginia", "abbreviation": "VA", "households_served": 126299, "restoration_occurrences": 1185, "prevention_occurrences": 12509, "restoration_occurrences_per_served_household": 0.0094, "prevention_occurrences_per_served_household": 0.0990}
+  ],
+  "interpretation": {
+    "safe_result": "Selected states show materially different reported occurrence volumes relative to the number of households served in the same preliminary FY2025 reporting surface.",
+    "derived_measure_label": "occurrences per served household diagnostic; not a service-loss rate, prevention probability, or household outcome rate",
+    "not_established": ["unique households experiencing restoration or prevention", "eligibility or take-up denominator", "benefit amount or timing", "duration or next-bill affordability", "repeat crisis", "health/food/medicine/work protection", "trust or political action"],
+    "counterinterpretation": "Differences may reflect state program design, reporting rules, fuel mix, crisis definitions, funding, case mix, repeat occurrences, or preliminary data quality—not different causal program effects."
+  },
+  "source_urls": [
+    "https://stage.liheappm.acf.hhs.gov/performance-measures",
+    "https://stage.liheappm.acf.hhs.gov/api/search/grantees",
+    "https://stage.liheappm.acf.hhs.gov/api/search/custom/fieldcategories",
+    "https://stage.liheappm.acf.hhs.gov/api/search/custom/getreport"
+  ],
+  "boundary": "This is a selected-state descriptive diagnostic designed to expose denominator and occurrence-unit differences; it is not a cross-state effectiveness ranking."
+}

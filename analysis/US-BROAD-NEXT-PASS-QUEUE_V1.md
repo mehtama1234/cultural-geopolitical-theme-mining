@@ -389,6 +389,12 @@ and 171,077; bill-payment prevention is 1,868,247, 1,752,072, and 1,853,734.
 These values are preliminary and not unique-household rates; they improve the
 program-performance layer without closing household recovery. See the
 [machine-readable extraction](projects/us-repeat-energy-crises/data/us-liheap-performance-measures-2023-2025.json).
+The same API also yields a selected-state FY2025 diagnostic for California,
+New York, Ohio, Texas, and Virginia, pairing households served with reported
+prevention and restoration occurrences. The derived occurrence-per-served-
+household values expose large variation, but are explicitly not rates because
+occurrences can repeat and the numerator/denominator units differ. See the
+[selected-state diagnostic](projects/us-repeat-energy-crises/data/liheap-state-performance-diagnostic-fy2025.json).
 
 The [MEPS Panel 27 health-cost longitudinal layer](projects/us-household-calendar-integration/meps-panel27-health-cost-longitudinal-layer-v1.md)
 now supplies a repeated health-cost and coverage endpoint. The next material/
