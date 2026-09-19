@@ -1,7 +1,7 @@
 # Remedy spectrum: from explanation to collective control
 
 **Status:** provisional cross-domain synthesis  
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 
 ## Research question
 
@@ -30,6 +30,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Collective bargaining | SAG-AFTRA performers facing digital replicas | Advance notice, informed consent, bounded use, and compensation rules were negotiated before routine deployment | Compliance, refusal consequences, enforcement, and whether synthetic substitution shifts bargaining power |
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
 | Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring; the [structured event ledger](data/apple-perm-backpay-implementation-event-ledger-v1.json) keeps completion separate from restoration | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
+| Agency-reported individual remedy | DOJ IER employment-remedy follow-ups | Four agency summaries report individual back-pay or front/back-pay payments of $5,600, $16,730, $30,000, and $8,000; a fifth reports a $485,000 full-back-pay-and-benefits offer; the [structured ledger](data/ier-individual-employment-remedy-event-ledger-v1.json) keeps these separate from independent receipt | Payment instruments, receipt, restored employment or opportunity, employer identity, durable compliance, household recovery, trust, and exit |
 | Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
 | Adjudicated access and lost-pay remedy | Tanzeel Ur Rehman and Portier Pacific, Australia | Fair Work Commission records voluntary reactivation, a formal order restoring access, and A$7,096.96 gross lost remuneration ordered after deactivation | Payment receipt, net recovery, expenses, alternative work, durable access, recurrence protection, and practical exit |
 | Multi-sided platform redress | Grubhub drivers, diners, and restaurants | FTC reports more than $23.8m in payments to 640,038 affected consumers, alongside requirements for honest driver-pay advertising, blocked-account disputes, and restaurant consent | Group-specific payment and correction, implementation, continued dependence, alternatives, trust, and exit |
@@ -78,6 +79,14 @@ administrative completion without closing the lived-recovery arrow. This is a
 cross-domain comparison, not a pooled remedy rate: the Apple record concerns
 employment-channel discrimination and back pay, while the platform cases
 concern access restoration, lost remuneration, and continued use.
+
+The IER follow-ups add a narrower but important stage: an agency can report a
+payment tied to an individual charging party without exposing the payment
+instrument, independent receipt, restored job opportunity, or later household
+outcome. These records therefore sit between an aggregate fund-completion
+claim and a verified lived-remedy episode. The four reported payments and the
+separate $485,000 offer must not be pooled into a worker recovery rate or
+joined to the Apple fund without a shared episode key.
 
 Amazon Flex adds a fourth observable point on the same spectrum: distribution
 has occurred and the administrator is still addressing uncashed payments. That

@@ -103,6 +103,13 @@ The companion CFPB student-loan event-ledger dry-run keeps all 25 rows at
 receipt, routing, response labels, and administrative visibility are observed,
 but same-customer alternatives, remedy receipt, recovery, continued use,
 switching, non-use, trust, and action are not.
+The consumer-recourse bridge now also records a current credit-card slice
+labelled <code>Closed with monetary relief</code> and three named CFPB distribution routes
+(BrightSpeed, Navient, and ADSS). These advance company-response and
+administrator-distribution visibility, but do not establish recipient-level
+receipt, account correction, residual loss, trust, switching, or exit. The
+routes remain stage-compatible comparators rather than a common consumer
+denominator.
 The new <a href="../analysis/US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md">program-wide theme end-to-end coverage audit</a>
 confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
@@ -1800,7 +1807,15 @@ connections, 85 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
 are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
-arrows have been closed.</p>
+arrows have been closed.
+The committed <a href="../analysis/data/us-broad-event-ledger-index-v1.json">real broad event-ledger index</a>
+now inventories 18 schema-valid ledgers totaling 183 events and 67 arrows;
+the publication gate validates that inventory separately from the simulated
+fixture and keeps non-contract recheck artifacts out of the count. The
+<a href="../analysis/data/us-broad-event-ledger-portfolio-summary-v1.json">portfolio summary</a>
+records 152 observed, 25 reported, and 6 estimated event records, with 26
+arrows explicitly open. These are portfolio counts, not pooled effects; the
+units and denominators remain heterogeneous.</p>
 <p>The platform-work remedy lane now has a focused <a href="../analysis/projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md">restoration and dependence
 synthesis</a>.
 Its 27-record case ledger shows restoration or access resumption in 8 records
@@ -1851,7 +1866,11 @@ adds aggregate receipt evidence: 2,806 successful Zelle payments raised
 reported participation from 90.3% to 92.3%, and 130,952 drivers were reported
 to have received full compensation. This is stronger than a reissue offer but
 not a driver-level recovery rate: payment linkage, remaining loss, continued
-work, household recovery, bargaining power, and exit remain open.</p>
+work, household recovery, bargaining power, and exit remain open.
+The same distribution route is now represented in a <a href="../analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json">structured broad event
+ledger</a>,
+which keeps program-level receipt/reissue evidence separate from individual
+worker recovery and later work or exit.</p>
 <p>The latest AI/work-control endpoint audit adds a storage-light stage check across
 local NBER, OECD, executive/union, JRC/ILO, and Microsoft implementation records.
 It finds evidence at exposure, adoption, organizational implementation,
@@ -1896,7 +1915,19 @@ a reported exhausted back-pay fund, and agency-reported individual payments
 are different remedy clocks, and none establishes restored opportunity or
 household recovery. This is a
 program-wide measurement boundary, not evidence that those outcomes did not
-occur.</p>
+occur.
+The <a href="../analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json">structured IER remedy ledger</a>
+now makes the five dated case summaries machine-readable while preserving the
+distinction between agency-reported payment, a back-pay offer, and worker-level
+receipt or restored employment.
+The <a href="../analysis/projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json">structured Apple PERM ledger</a>
+adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
+$18.25 million back-pay fund and recruitment controls, without individual
+distribution, restored consideration, or post-monitoring worker outcomes.
+The <a href="../analysis/projects/us-health-cost-household-choice/data/meps-health-event-context-ledger-v1.json">structured MEPS health-event context ledger</a>
+adds the material/time rotation's person-linked month-ordered office, ER, and
+inpatient event surfaces while preserving the missing alternatives, household
+payer, remedy, recovery, trust, and exit fields.</p>
 <p>The <a href="../analysis/records/us-cfpb-citibank-student-loan-servicing-remedy-2017.json">Citibank servicing-remedy record</a>
 adds a named financial-interface mechanism to the same-case map: account and
 notice errors could shift tax access, fees, capitalized interest, and payment
@@ -2004,6 +2035,20 @@ revenue, private credit, and lower delinquency; Harvey evidence adds closure,
 customer travel distance, modeled welfare, and resident disruption/unmet-help
 surfaces. These do not establish worker household security, affordable service,
 owner recovery, aid causality, or political legitimacy.</p>
+<p>The <a href="../analysis/projects/us-small-business-disaster-liquidity/data/harvey-firm-customer-resident-event-ledger-v1.json">Harvey cross-source event ledger</a>
+now formalizes the four-stage chronology and keeps its heterogeneous units and
+denominators explicit; it does not create a person-level causal join.</p>
+<p>The <a href="../analysis/projects/us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json">structured FEMA disaster-assistance delivery ledger</a>
+adds five institution-level events and four typed arrows for aggregate aid,
+helpline reachability, eligibility-letter interpretation, direct-housing
+bottlenecks, and delivery redesign. It strengthens the public-system response
+map while leaving survivor receipt, placement, recovery, trust, and political
+action unobserved.</p>
+<p>The <a href="../analysis/projects/us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json">structured EDA disaster-economic-recovery ledger</a>
+adds five institution/project events and four typed arrows for federal
+coordination, funding timing, project composition, and outcome-measurement
+limits. It separates public investment capacity from completed local service,
+firm, household, and resident recovery.</p>
 <p>The <a href="us-cost-trust-politics-036.html">mobility-meaning finding</a>
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside
@@ -2269,11 +2314,20 @@ Exposure alone is not equivalent to realized loss; reported recovery is not
 verified payment or restored security; and the 11-person recovery subgroup is
 not a stable estimate. The route advances event timing and conversion logic
 while leaving actor, dated incident, alternatives, remedy receipt, durability,
-trust change, switching, and exit open.</p>
+trust change, switching, and exit open.
+Its partial chain is now also represented in a <a href="../analysis/projects/us-cost-trust-politics/data/htops-fraud-loss-followup-event-ledger-v1.json">structured broad event
+ledger</a>,
+using a linked respondent-cohort unit and preserving the retrospective and
+self-reported-recovery limits rather than promoting them to verified remedy.</p>
 <p>The <a href="../analysis/records/us-htops-fraud-loss-followup-2025.json">HTOPS fraud-loss canonical record</a>
 is now linked directly alongside the finding, preserving the same-respondent
 intersection, selective retention, retrospective exposure clock, and sparse
 11-person recovery cell.</p>
+<p>The <a href="../analysis/records/us-owner-business-revenue-consumption-covid-2020.json">owner-business COVID revenue/consumption route</a>
+now has a <a href="../analysis/projects/us-owner-household-business-tradeoff/data/owner-business-covid-revenue-consumption-event-ledger-v1.json">structured broad event ledger</a>.
+It formalizes a linked business-to-owner-consumption arrow and keeps that COVID
+study separate from the natural-disaster loan result, with worker, customer,
+survival, trust, action, and exit endpoints still open.</p>
 <p>The <a href="ai-work-control-091.html">Rehman platform remedy finding</a>
 adds a different, observed remedy-stage boundary: one Australian platform
 worker's deactivation was followed by an application, voluntary reactivation,
@@ -2286,14 +2340,21 @@ worker behavior.
 The <a href="../analysis/records/au-rehman-platform-remedy-2026.json">Rehman platform-remedy canonical record</a>
 is now linked directly to that finding, preserving its one-case Australian
 jurisdiction, voluntary/formal reactivation sequence, gross ordered amount, and
-unverified payment, net-recovery, durability, and exit boundaries.</p>
+unverified payment, net-recovery, durability, and exit boundaries. A new
+<a href="../analysis/projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json">structured broad event ledger</a>
+preserves the five arrows from deactivation through application, restoration,
+ordered lost pay, and the open receipt/durability stages.</p>
 <p>The <a href="../analysis/records/au-hotak-reactivation-continued-work-2025.json">Hotak follow-up record</a>
 adds observed post-reactivation activity to that remedy boundary: more than
 150 trips were completed after voluntary access restoration before the later
 formal reactivation order, while lost-pay quantum remained open. The trip
-count demonstrates operational return to work, not unconstrained choice,
-net earnings, household recovery, continued access, or durable protection;
-payment, expenses, alternatives, recurrence, and exit remain unobserved.</p>
+sequence is now also represented in a <a href="../analysis/projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json">structured broad event ledger</a>,
+which distinguishes ordinary payment for post-reactivation work from the
+separate lost-remuneration remedy and keeps durable protection, trust, and exit
+open. The case demonstrates operational return to work and ordinary work
+payment, not unconstrained choice, net recovery, household recovery, continued
+access, or durable protection; lost-pay quantum/receipt, expenses, alternatives,
+recurrence, and exit remain unobserved.</p>
 <p>The <a href="us-financial-intermediation-003.html">2025 SHED banking substitution finding</a>
 adds a financial-access counterexample to the same boundary. Formal account
 ownership is income-patterned, unbanked adults use nonbank transaction routes
@@ -2806,7 +2867,15 @@ continued use, switching, non-use, trust, and action remain unknown. The
 <a href="us-product-recall-response-003.html">CPSC source-vintage recheck</a>
 confirms that the live monthly-progress-report route is available and that
 remedy figures can change, but the stored VRURC evidence remains an
-2026-08-21 snapshot with no purchaser-level receipt or safe-restoration field.</p>
+2026-08-21 snapshot with no purchaser-level receipt or safe-restoration field.
+The <a href="../analysis/projects/us-marketplace-product-safety/data/vrurc-recall-remedy-event-ledger-v1.json">VRURC remedy event ledger</a>
+now formalizes the product-level hazard → notice → offered replacement →
+reported correction sequence while keeping purchaser recovery and practical
+exit open.
+The <a href="../analysis/projects/us-marketplace-product-safety/data/honda-talon-repair-event-ledger-v1.json">Honda Talon repair event ledger</a>
+adds a dealer-repair counterexample under a different recall key; direct-contact
+language and reported repair progress still do not establish purchaser receipt,
+safe mobility, or exit.</p>
 <p>The <a href="wbns-public-use-route-acquisition-audit-v1.html">WBNS access recheck</a>
 confirms that current ICPSR catalog metadata and documentation are public,
 while file/SDA access still requires an authenticated ICPSR route; no local
@@ -2836,7 +2905,10 @@ adds a current credit-card sample conditioned on the published <code>Closed with
 monetary relief</code> label: 25 of 21,425 matching records were mapped and passed
 the event-ledger contract. This strengthens the formal-response comparator,
 not lived remedy; amount, issuance, receipt, correction, remaining loss, trust,
-switching, and exit remain unknown.</p>
+switching, and exit remain unknown.
+The <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json">retained credit-card event ledger</a>
+now preserves those 25 de-identified route events for indexed validation rather
+than leaving the derived sample only in transient storage.</p>
 <p>The <a href="cfpb-named-redress-route-recheck-2026-09-18.html">named CFPB redress-route recheck</a>
 refreshes BrightSpeed, Navient, and ADSS: BrightSpeed remains an ongoing
 aggregate distribution, Navient reports checks to affected consumers but
@@ -2849,4 +2921,13 @@ tested the official February PUF against the April and June files and found no
 exact <code>SCRAMID</code> overlap with either, while April–June retains 6,564 linked
 respondents. This closes the tempting but invalid three-wave extension: the
 HTOPS fraud route remains an April–June exploratory linkage, not a February
-baseline or a verified recovery panel.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
+baseline or a verified recovery panel.</p>
+<p>The reader layer now also promotes two bounded cross-theme bridges: the <a href="../analysis/records/us-ai-management-bargaining-voice-crosssource-2024-2026.json">AI
+management, bargaining, and voice record</a>
+places productivity/time, algorithmic monitoring, executive expectations, and
+formal representation before the still-open worker-control arrow; the
+<a href="../analysis/records/us-health-cost-household-choice-end-to-end-2024-2026.json">health-cost end-to-end synthesis record</a>
+places care foregoing, household adaptation, credit, randomized coverage/debt
+relief evidence, and institutional confidence beside one another without
+claiming a same-episode legitimacy pathway. These additions strengthen the
+map's cross-theme coverage without changing the 18-surface promotion gate.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

@@ -54,12 +54,14 @@ received money.</p>
 </tr>
 </tbody>
 </table>
-<p>The raw API hash is
-<code>364bbdf431c1d027a959bf71a01ad48ce05602b0f09fdbfd4812d2842cb06c60</code>; the
-derived ledger hash is
-<code>bbb30f63a09c7a5c75c1767d2bfa1333a95814d13663aabdaa044e42484d851a</code>. The
-compact <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.json">machine record</a>
-preserves the query, hashes, denominator, and field diagnostics.</p>
+<p>The current raw API hash is
+<code>75b9ef375a866c22f9a8e225c493a2d6d8d3c4ae688eb5d90c2325cf1029853b</code>; the
+retained de-identified ledger hash is
+<code>ca343abee12c2e4fedb614d245824918e31bdc899eab4511edfb976cc8232be4</code>. The
+compact <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.json">machine recheck record</a>
+and <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json">event ledger</a>
+preserve the query, hashes, denominator, and field diagnostics without
+retaining raw complaint narratives or direct identifiers.</p>
 <h2 id="end-to-end-boundary">End-to-end boundary</h2>
 <pre><code class="language-text">credit-card complaint
   -&gt; CFPB publication and company routing
@@ -86,6 +88,9 @@ promotion gate, which still requires episode-level alternatives or non-use plus
 verified remedy receipt or outcome follow-up. The next consumer-power test is
 a lawful linked or account-level implementation record, not another
 response-category slice.</p>
+<p>The 25 de-identified events are now retained in the <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-credit-card-monetary-relief-event-ledger-v1.json">versioned event ledger</a>
+and indexed with the other real broad ledgers. This preserves administrative
+route evidence without changing the lived-remedy boundary.</p>
 <h2 id="reproduction">Reproduction</h2>
 <pre><code class="language-text">curl --get 'https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/' \
   --data-urlencode 'product=Credit card' \
@@ -101,4 +106,5 @@ python3 scripts/build_cfpb_event_ledger_sample.py \
 python3 scripts/validate_us_broad_event_ledger.py \
   /tmp/cfpb-credit-card-monetary-relief-event-ledger.json
 </code></pre>
-<p>No raw archive or complaint narrative was retained.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
+<p>The raw API JSON was used transiently and is not retained. The derived,
+de-identified event ledger is retained for reproducible contract validation.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
