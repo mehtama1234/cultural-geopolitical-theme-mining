@@ -1,11 +1,15 @@
 # US trend-observation registry
 
-337 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
+338 machine-readable trend records are published below. This is a reproducible observation index, not a claim that the atlas has a complete or causal trend for every theme.
 
 Each record preserves its source unit, geography, period-specific denominator, measure unit, method, uncertainty, subgroup scope, counterinterpretation, source URL, and retrieval or artifact hash. Read the boundary before comparing records.
 
 | Trend record | Umbrella IDs | Program theme IDs | Source unit | Geography | Observations | Periods | Statuses | Record |
 |---|---|---|---|---|---:|---|---|---|
+| A reactivation order and deemed-work remedy can leave payment and later access unobserved | cost, time, work, voice | work_control_bargaining, consumer_power_recourse, unequal_exposure_status, firm_sector_market_power, trust_identity_meaning | One adjudicated Fair Work Commission platform-worker case, UDE2025/134 | Australia; comparative case used to test platform remedy and recovery stages in the US-centered atlas | 3 | 2025-10-17; merits decision; 2025-10-31; lost-pay confer direction; 2026-09-18; targeted public implementation recheck | observed; open; reported | [open](records/au-al-hussein-reactivation-deemed-work-2025.json) |
+
+**Boundary:** This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It distinguishes reactivation, deemed work, procedural lost-pay resolution, quantified payment, receipt, actual access, continued work, and practical exit.
+
 | An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order | work, voice | work_control_bargaining, consumer_power_recourse, time_hidden_price, unequal_exposure_status, trust_identity_meaning, political_judgment_action, firm_sector_market_power | One Australian platform worker and Fair Work Commission proceeding; adjudicated same-case remedy follow-up, not a population estimate | Australia | 1 | 2025-04-08 to 2025-09-23; deactivation, reactivation, post-reactivation work, and formal order | observed | [open](records/au-hotak-reactivation-continued-work-2025.json) |
 
 **Boundary:** This comparative Australian case closes voluntary access restoration and subsequent observed work activity before a formal access-restoration order. It does not close payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.

@@ -553,7 +553,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 337 machine-readable records, 1197 observations,
+The current registry contains 338 machine-readable records, 1200 observations,
 and 103 source packets across 14 program themes. It does not claim that the
 273 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -587,6 +587,12 @@ visible even though receipt, actual platform access, final quantum, appeal
 outcome, and later work remain unobserved. Together, the comparative cases
 separate alternative work, remedy order, conditional payment, payment receipt,
 and practical recovery rather than collapsing them into one outcome.
+
+The [Al Hussein record](records/au-al-hussein-reactivation-deemed-work-2025.json)
+adds a counterpattern in the same comparative lane: legal reactivation and
+deemed work can be ordered while lost-pay quantification, payment, actual
+access, and later work remain open. This keeps procedural remedy, legal fiction,
+payment, and lived recovery as separate clocks.
 
 The [Pew 2026 AI concern and expected-jobs layer](projects/ai-work-control/pew-2026-ai-concern-partisan-jobs-layer-v1.md)
 adds a current meaning-and-politics endpoint to the AI/work route. In the

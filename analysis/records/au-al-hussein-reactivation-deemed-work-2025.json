@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "au-al-hussein-reactivation-deemed-work-2025",
+  "title": "A reactivation order and deemed-work remedy can leave payment and later access unobserved",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "One adjudicated Fair Work Commission platform-worker case, UDE2025/134",
+  "geography": "Australia; comparative case used to test platform remedy and recovery stages in the US-centered atlas",
+  "observations": [
+    {
+      "period": "2025-10-17; merits decision",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"unfair_deactivation": {"value": 1, "unit": "adjudicated finding", "value_type": "boolean_result"}, "reactivation_order": {"value": 1, "unit": "reactivation ordered", "value_type": "boolean_result"}, "deemed_work_during_interruption": {"value": 1, "unit": "deemed-work remedy stage ordered", "value_type": "boolean_result"}},
+      "method": "Case-level extraction from the official Fair Work Commission merits decision and reactivation order.",
+      "uncertainty": "The public record does not quantify lost pay, establish actual account restoration, or observe later work, substitute work, payment, or household recovery.",
+      "subgroup": "One named worker with adjudicated platform deactivation.",
+      "counterinterpretation": "Deemed work is a legal remedy construct, not proof of performed work, received wages, restored access, or equivalent future opportunity.",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3176.pdf",
+      "retrieval_hash": "local_recheck:sha256:7a93193a409acfb907e26238db08e555509fc44da97cb6ae7d6230cd734ddf7c",
+      "status": "observed"
+    },
+    {
+      "period": "2025-10-31; lost-pay confer direction",
+      "denominator": {"value": 1, "unit": "named worker case", "value_type": "case_count"},
+      "measures": {"lost_pay_confer_direction": {"value": 1, "unit": "parties directed to confer and report by 2025-11-07", "value_type": "procedural_order"}, "quantified_lost_pay_order": {"value": 0, "unit": "quantified payment orders in the checked public record", "value_type": "availability_count"}},
+      "method": "Case-level extraction from the official order and bulletin; a direction to confer is kept separate from an amount, payment obligation, or receipt.",
+      "uncertainty": "A conference direction does not establish agreement, final quantum, payment, account status, or later work.",
+      "subgroup": "Same named worker case after reactivation order.",
+      "counterinterpretation": "A procedural remedy can move the case toward monetary resolution without producing a public payment or recovery outcome.",
+      "source_url": "https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792947.pdf",
+      "retrieval_hash": "local_recheck:sha256:7a93193a409acfb907e26238db08e555509fc44da97cb6ae7d6230cd734ddf7c",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-18; targeted public implementation recheck",
+      "denominator": {"value": 1, "unit": "named worker case and official search route", "value_type": "case_count"},
+      "measures": {"quantified_payment_order_observed": {"value": 0, "unit": "public quantified payment orders located", "value_type": "availability_count"}, "payment_receipt_observed": {"value": 0, "unit": "public payment-receipt records located", "value_type": "availability_count"}, "actual_access_after_order_observed": {"value": 0, "unit": "public account-access records located", "value_type": "availability_count"}, "continued_work_or_switching_observed": {"value": 0, "unit": "public later-work or switching records located", "value_type": "availability_count"}},
+      "method": "Targeted official Fair Work Commission search across the merits decision, order, bulletin, and decisions/orders route; non-observation is not coded as private non-occurrence.",
+      "uncertainty": "Public search cannot establish private agreement, payment, account restoration, continued work, switching, or exit.",
+      "subgroup": "Same named worker case after the lost-pay conference direction.",
+      "counterinterpretation": "The case advances reactivation and legal remedy architecture but leaves payment, durability, trust, and practical exit open.",
+      "source_url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "retrieval_hash": "local_memo:sha256:44386606274a000adc7dd341ce69a1f25a7da885359afad4cd8633b9e9918205",
+      "status": "open"
+    }
+  ],
+  "related_sources": [{"source_url": "analysis/projects/ai-work-control/data/uber-al-hussein-remedy-followup-recheck-2026-09-18.json", "claim": "Bounded machine recheck preserving reactivation, deemed work, conference, payment, access, and later-work fields.", "status": "derived"}, {"source_url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-10-31.htm", "claim": "Official bulletin summary of reactivation and lost-pay conference stage.", "status": "official-followup"}],
+  "boundary": "This is one comparative Australian adjudicated case, not a worker prevalence estimate or a US population result. It distinguishes reactivation, deemed work, procedural lost-pay resolution, quantified payment, receipt, actual access, continued work, and practical exit.",
+  "reproduction_audit": "analysis/projects/ai-work-control/data/uber-al-hussein-remedy-followup-recheck-2026-09-18.json"
+}

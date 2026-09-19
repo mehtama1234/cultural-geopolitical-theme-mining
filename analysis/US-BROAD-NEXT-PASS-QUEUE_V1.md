@@ -34,8 +34,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 337 records and
-1197 observations.
+have exact registered-URL references. The trend registry holds 338 records and
+1200 observations.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
@@ -147,6 +147,13 @@ The next SIPP contribution must therefore use a dated bill, transaction,
 shutoff, assistance, or service episode—or the authenticated PSID route—rather
 than treating repeated account-status fields as borrowing, repayment, or
 recovery.
+
+The [canonical Al Hussein comparative remedy record](records/au-al-hussein-reactivation-deemed-work-2025.json)
+adds a counterpattern to the Mansoor and Waheed stages: reactivation and
+deemed work were ordered, and parties were directed to confer on lost pay, but
+the checked public route contains no quantified payment order, receipt, actual
+access, or later work/switching result. This advances procedural remedy
+coverage without converting deemed work into wages or recovery.
 
 The material/time/care pass has completed its local SIPP field-timing gate and
 is preserved as an open acquisition route in the
