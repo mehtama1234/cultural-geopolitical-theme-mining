@@ -6,23 +6,27 @@
   "portfolio": {
     "ledgers": 34,
     "events": 206,
-    "events_with_explicit_remedy_stage": 28,
-    "events_without_explicit_remedy_stage": 178,
-    "ledgers_with_explicit_remedy_stage": 17,
-    "ledgers_without_explicit_remedy_stage": 17
+    "events_with_explicit_remedy_stage": 32,
+    "events_without_explicit_remedy_stage": 174,
+    "ledgers_with_explicit_remedy_stage": 19,
+    "ledgers_without_explicit_remedy_stage": 15
   },
   "stage_counts": {
     "remedy_offered": 4,
     "remedy_ordered": 9,
-    "remedy_implemented": 5,
+    "remedy_implemented": 9,
     "remedy_reported_received": 9,
     "remedy_verified_received": 0,
     "durability_failed": 1,
     "durability_verified": 0,
     "outcome_followup": 0,
-    "unknown_or_not_recorded": 178
+    "unknown_or_not_recorded": 174
   },
   "explicit_stage_rows": [
+    {"event_id": "CFPB-BRIGHTSPEED-DISTRIBUTION-2024-07-23", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
+    {"event_id": "CFPB-NAVIENT-CHECK-ROUTE-2026-02-13", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
+    {"event_id": "CFPB-ADSS-CLOSED-DISTRIBUTION-2016-06-02", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
+    {"event_id": "CFPB-OMB-REDRESS-REISSUE-2025-11-14", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-ombudsman-redress-reissue-event-ledger-v1.json"},
     {"event_id": "FTC-AMAZON-FLEX-REFUND-2024-12-31", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json"},
     {"event_id": "AU-HOTAK-2025-04-08", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json"},
     {"event_id": "AU-REHMAN-2025-12-15", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json"},
