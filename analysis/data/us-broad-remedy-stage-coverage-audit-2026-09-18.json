@@ -6,23 +6,27 @@
   "portfolio": {
     "ledgers": 34,
     "events": 206,
-    "events_with_explicit_remedy_stage": 15,
-    "events_without_explicit_remedy_stage": 191,
-    "ledgers_with_explicit_remedy_stage": 11,
-    "ledgers_without_explicit_remedy_stage": 23
+    "events_with_explicit_remedy_stage": 28,
+    "events_without_explicit_remedy_stage": 178,
+    "ledgers_with_explicit_remedy_stage": 17,
+    "ledgers_without_explicit_remedy_stage": 17
   },
   "stage_counts": {
-    "remedy_offered": 3,
-    "remedy_ordered": 7,
-    "remedy_implemented": 3,
-    "remedy_reported_received": 1,
+    "remedy_offered": 4,
+    "remedy_ordered": 9,
+    "remedy_implemented": 5,
+    "remedy_reported_received": 9,
     "remedy_verified_received": 0,
     "durability_failed": 1,
     "durability_verified": 0,
     "outcome_followup": 0,
-    "unknown_or_not_recorded": 191
+    "unknown_or_not_recorded": 178
   },
   "explicit_stage_rows": [
+    {"event_id": "FTC-AMAZON-FLEX-REFUND-2024-12-31", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json"},
+    {"event_id": "AU-HOTAK-2025-04-08", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json"},
+    {"event_id": "AU-REHMAN-2025-12-15", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json"},
+    {"event_id": "UBER-MANSOOR-2025-06-13", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/uber-mansoor-alternative-earnings-lost-pay-event-ledger-v1.json"},
     {"event_id": "FWC-SITE-CLEARANCE-2025-04-03", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-site-clearance-alternative-employment-remedy-event-ledger-v1.json"},
     {"event_id": "FWC-IAA-GREAVES-2024-07-08", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-no-alternative-employment-remedy-event-ledger-v1.json"},
     {"event_id": "FWC-CUSTOMER-ALLOCATION-2023-06-28", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-alternative-employment-nonreturn-remedy-event-ledger-v1.json"},
@@ -38,6 +42,15 @@
     {"event_id": "SAUNA360-BENCH-26783-2026-09-17", "remedy_stage": "durability_failed", "ledger": "analysis/projects/us-marketplace-product-safety/data/sauna360-repeat-remedy-event-ledger-v1.json"},
     {"event_id": "APPLE-PERM-SETTLEMENT-2023-11-09", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json"},
     {"event_id": "APPLE-PERM-DISTRIBUTION-2026-05-21", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json"}
+    ,{"event_id": "IER-FY26-2025-12-11", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-FY26-2026-02-20", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-FY26-2026-05-28", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-FY26-2026-06-17", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-FY26-2026-09-04", "remedy_stage": "remedy_offered", "ledger": "analysis/projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2021-08-31-REVERE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2020-04-13-MADISON", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2019-02-25-ROMANIA", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2018-04-06-MIAMI", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
   ],
   "interpretation": "The new vocabulary is calibrated on five ledgers, but it is not yet portfolio-wide. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
   "next_action": "Add explicit remedy_stage, remedy_receipt, and durability_followup fields when a ledger is next touched or a new source is promoted; prioritize recipient-level receipt, protected outcome, repeat-harm, and later use/switch/trust follow-up before expanding another generic response ledger."
