@@ -40,6 +40,7 @@ separate.
 | Warraich single-case follow-up (1 episode) | Formal unfairness finding, reactivation order, lost-pay direction, targeted public follow-up search | Actual access restoration, payment/receipt, continued work, alternative work, household recovery, switching/exit |
 | Hotak access-restoration follow-up (1 episode) | Voluntary reactivation, more than 150 subsequent trips, formal reactivation order | Payment/receipt, net recovery, durable access, alternatives, household outcome, switching/exit, non-retaliation |
 | Rehman lost-remuneration ledger (1 episode) | Worker application, voluntary/formal access restoration, no substitute paid earnings to deduct, and gross lost-remuneration order | Alternative availability or choice, payment receipt, net recovery, durable access, trust/action, switching/exit |
+| Mansoor substitute-earnings ledger (1 episode) | $9,000 Baysec earnings, estimated $1,760 Didi increase, reactivation, and $6,073.23 gross lost-pay order | Alternative equivalence/choice, payment receipt, actual access, durable work, household recovery, trust, switching/exit |
 | FWC site-clearance alternative-employment ledger (1 episode) | Dismissal after site-clearance loss, lower-paid replacement work, travel-cost trade-off, and compensation order | Payment receipt, equivalence/duration of alternative work, household recovery, trust/action, recurrence, exit |
 | FWC Greaves no-alternative-employment ledger (1 episode) | Primary adjudicated dismissal, unsuccessful job search, assessed eight-week loss, and compensation order | Payment receipt, later employment, household recovery, trust/action, recurrence, exit |
 | FWC customer-allocation non-return ledger (1 episode) | Eleven job applications, new employment, explicit non-return reasoning, assessed loss, and compensation order | Payment receipt, job duration, standardized trust measure, household recovery, recurrence, switching/exit |
@@ -58,22 +59,22 @@ separate.
 
 ## Stage-level coverage count
 
-The 28 surfaces can also be summarized without pooling their units. A status is
+The 29 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 24 | 2 | 2 |
-| Responsible actor | 18 | 8 | 2 |
-| Alternative or non-use | 6 | 7 | 15 |
-| Effort, money, or time trade-off | 6 | 16 | 6 |
-| Adaptation or protected/sacrificed outcome | 7 | 10 | 11 |
-| Institutional or firm response | 25 | 1 | 2 |
-| Verified remedy | 2 | 19 | 7 |
-| Meaning, trust, or action | 0 | 6 | 22 |
-| Recovery, persistence, or exit | 2 | 9 | 17 |
+| Dated event or exposure | 25 | 2 | 2 |
+| Responsible actor | 19 | 8 | 2 |
+| Alternative or non-use | 7 | 7 | 15 |
+| Effort, money, or time trade-off | 6 | 17 | 6 |
+| Adaptation or protected/sacrificed outcome | 8 | 10 | 11 |
+| Institutional or firm response | 26 | 1 | 2 |
+| Verified remedy | 2 | 20 | 7 |
+| Meaning, trust, or action | 0 | 7 | 22 |
+| Recovery, persistence, or exit | 2 | 10 | 17 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can

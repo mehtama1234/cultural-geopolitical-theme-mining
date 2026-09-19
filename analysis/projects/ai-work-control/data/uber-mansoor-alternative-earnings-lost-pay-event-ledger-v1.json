@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_platform_remedy_record",
+  "purpose": "Primary Fair Work Commission platform case ledger preserving substitute earnings during deactivation, reactivation, and a lost-pay order without treating substitute work or the order as freely chosen alternatives, payment receipt, or durable recovery.",
+  "events": [
+    {
+      "event_id": "UBER-MANSOOR-2025-06-13",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Commission matter UDE2025/141, Mansoor v Rasier Pacific",
+      "actor_initiating_change": "platform",
+      "event_date": "2025-06-13",
+      "date_precision": "deactivation date; merits decision and PR792727 order record substitute earnings and later reactivation/payment obligations",
+      "denominator": "One publicly identified adjudicated platform-worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission merits decision, reactivation/lost-pay order, and bounded public follow-up recheck",
+      "missingness": "Whether substitute work was equivalent or freely chosen, search effort, expenses, net earnings, payment receipt, actual Uber access, recurrence, household outcome, trust, and exit are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "Uber deactivated the worker after a customer complaint and related process; the Commission found the allegations were not proven and the process deficient",
+      "alternatives_before_action": "The worker earned $9,000 from Baysec Group and had an estimated $1,760 increase in Didi earnings during the deactivation period; the public record does not establish the full alternative set, reachability, equivalence, or voluntariness",
+      "immediate_burden_or_benefit": "Substitute earnings were visible during the interruption and were deducted in calculating a $6,073.23 gross lost-earnings order; expenses, hours, conditions, and residual loss are not observed",
+      "choice_or_response": "The worker pursued the statutory unfair-deactivation route and substitute platform/work activity; the record does not establish whether the alternative work was chosen freely or under constraint",
+      "person_or_actor_with_control": "Uber/Rasier controlled account access and reactivation; the worker controlled the legal challenge and substitute-work response; the Commission controlled adjudication and remedy",
+      "remedy_or_institutional_response": "The Commission ordered reactivation on prior terms and PR792727 required $6,073.23 gross less tax for lost earnings within 14 days",
+      "immediate_outcome": "A same-case substitute-earnings surface is linked to a formal reactivation and lost-pay order; payment receipt and practical restoration are not observed",
+      "protected_outcome": "The worker retained some income through Baysec and Didi during the interruption and received a formal route to reactivation and lost-pay recovery",
+      "sacrificed_outcome": "Primary Uber access and associated earnings were interrupted; the record does not measure waiting, search cost, expenses, household substitution, or durable income loss",
+      "cost_risk_transfer": "The worker carried the burden of substitute work and legal pursuit while the platform retained control over access and the ordered remedy remained subject to execution",
+      "later_outcome": "Substitute work and formal restoration are observed, but payment receipt, actual Uber reactivation, continued work, recurrence, household recovery, trust, switching, non-use, and exit remain unknown",
+      "meaning_and_attribution": "The merits route records a challenge to the platform's process, but no standardized trust, fairness, blame, identity, or later-action measure is retained",
+      "public_or_collective_response": "The worker used an individual statutory adjudication route; no later collective or political action is reported",
+      "counterexample": "Substitute earnings can reduce a formal lost-pay award without proving equivalent work, free choice, payment receipt, restored access, or durable recovery",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Fair Work Commission [2025] FWC 3111 and PR792727; https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf and https://www.fwc.gov.au/documents/awardsandorders/pdf/pr792727.pdf; public follow-up recheck found no later receipt or durable-access record"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "UBER-MANSOOR-A-01",
+      "from": "platform deactivation",
+      "to": "substitute Baysec and Didi earnings",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The merits decision records $9,000 in Baysec earnings and an estimated $1,760 increase in Didi earnings after deactivation",
+      "status": "observed",
+      "counterexample": "Observed substitute earnings do not establish a freely chosen, equivalent, reachable, or net-positive alternative",
+      "remaining_gap": "Offer set, search effort, hours, expenses, conditions, eligibility, and net household effect"
+    },
+    {
+      "arrow_id": "UBER-MANSOOR-A-02",
+      "from": "substitute earnings during interruption",
+      "to": "lost-pay calculation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission deducted substitute earnings when calculating the $6,073.23 gross lost-earnings order",
+      "status": "observed",
+      "counterexample": "A legal deduction is not a welfare-equivalent measure or proof that substitute work restored access",
+      "remaining_gap": "Actual hours, expenses, equivalence, residual loss, and household incidence"
+    },
+    {
+      "arrow_id": "UBER-MANSOOR-A-03",
+      "from": "unfair deactivation and adjudication",
+      "to": "reactivation and lost-pay order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found the process deficient, ordered reactivation on prior terms, and PR792727 set a $6,073.23 gross payment obligation with a deadline",
+      "status": "observed",
+      "counterexample": "An order and deadline do not establish actual access restoration or payment receipt",
+      "remaining_gap": "Platform implementation, payment execution, receipt, and net recovery"
+    },
+    {
+      "arrow_id": "UBER-MANSOOR-A-04",
+      "from": "substitute work and formal remedy",
+      "to": "durable access, trust, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public follow-up found no later receipt, actual access, continued Uber work, switching, non-use, household recovery, recurrence, or exit record",
+      "status": "open",
+      "counterexample": "Alternative work and a formal order can coexist with continued dependence, unresolved loss, or unobserved exit",
+      "remaining_gap": "Receipt, actual access, job/platform duration, recurrence, household recovery, trust, switching, non-use, and exit"
+    },
+    {
+      "arrow_id": "UBER-MANSOOR-A-05",
+      "from": "individual remedy route",
+      "to": "platform process correction or non-retaliation",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The record orders an individual remedy but reports no platform-wide process correction, recurrence monitoring, or anti-retaliation follow-up",
+      "status": "open",
+      "counterexample": "Individual reactivation and compensation can coexist with unchanged platform governance",
+      "remaining_gap": "Process correction, recurrence, worker voice, monitoring, and comparable-worker outcomes"
+    }
+  ],
+  "boundary": "This ledger adds a same-case platform episode with observed substitute earnings and formal restoration/lost-pay orders. It does not establish that the alternative was free or equivalent, that the order was paid, that access was restored in practice, or that recovery, trust, switching, or exit followed.",
+  "storage_boundary": "No worker file, direct identifier beyond the public case reference, payment instrument, or bulk archive is retained; only bounded primary decision/order fields, dates, substitute earnings, remedy stages, uncertainty, and open downstream arrows are represented."
+}

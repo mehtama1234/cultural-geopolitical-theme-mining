@@ -1984,6 +1984,11 @@ adds a five-week transition to alternative employment, a bounded interim
 income gap, non-return through compensation in lieu of reinstatement, and a
 $3,744 compensation order. It strengthens the alternative-employment
 comparator without establishing payment receipt or durable recovery.
+The [structured Mansoor platform ledger](projects/ai-work-control/data/uber-mansoor-alternative-earnings-lost-pay-event-ledger-v1.json)
+adds $9,000 in Baysec earnings, an estimated $1,760 increase in Didi earnings,
+and a $6,073.23 gross lost-pay order in the same deactivation case. It links
+substitute earnings to formal remedy while keeping equivalence, receipt,
+actual access, and durability open.
 The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
 adds the first official follow-up that reports a compensation payment while
 also reporting failed reinstatement and later court enforcement. It closes a

@@ -4,9 +4,9 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 26,
-    "events": 196,
-    "arrows": 103
+    "ledgers": 27,
+    "events": 197,
+    "arrows": 108
   },
   "events_by_domain": {
     "consumer_financial_recourse": 53,
@@ -19,18 +19,18 @@
     "health_cost_recourse": 97,
     "infrastructure_state_power": 5,
     "owner_household_business_tradeoff": 1,
-    "platform_worker_recourse": 3,
+    "platform_worker_recourse": 4,
     "product_safety_recourse": 4
   },
   "event_evidence_status": {
-    "observed": 156,
+    "observed": 157,
     "reported": 34,
     "estimated": 6
   },
   "arrow_status": {
-    "observed": 29,
+    "observed": 32,
     "estimated": 5,
-    "open": 39,
+    "open": 41,
     "reported": 30
   },
   "event_units": {
@@ -38,7 +38,7 @@
     "institution": 9,
     "product": 4,
     "project": 1,
-    "worker": 7
+    "worker": 8
   },
   "interpretation_boundary": "The portfolio is structurally strongest in administrative case rows and formal institutional records. Event evidence_status is not a causal-strength score, and arrow counts do not imply that the same unit travels through the portfolio. The 37 open arrows are explicit unresolved links, not missing rows to be silently filled by inference.",
   "storage_boundary": "This summary is derived from the committed index and ledgers only; no raw respondent, complaint, payment-card, administrative, or restricted file is added."
