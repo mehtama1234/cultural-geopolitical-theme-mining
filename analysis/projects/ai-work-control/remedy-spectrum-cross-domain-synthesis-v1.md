@@ -31,6 +31,7 @@ outcome. A right at one step must not be coded as achievement of the next.
 | Workplace co-governance | German works-council and union cases | Negotiated limits on monitoring, human oversight, data use, training, and technology review are reported | Timely worker use of the controls and measured effects on work, pay, autonomy, or job security |
 | Administrative back-pay completion | Apple PERM recruitment settlement affecting protected workers | DOJ reports that individualized lost-income review processed and exhausted an $18.25m back-pay fund in 2026, alongside prospective recruitment-channel controls and monitoring; the [structured event ledger](data/apple-perm-backpay-implementation-event-ledger-v1.json) keeps completion separate from restoration | Individual payment receipt, restored job consideration, post-monitoring compliance, and whether compensation restored household or status outcomes |
 | Agency-reported individual remedy | DOJ IER employment-remedy follow-ups | Four agency summaries report individual back-pay or front/back-pay payments of $5,600, $16,730, $30,000, and $8,000; a fifth reports a $485,000 full-back-pay-and-benefits offer; the [structured ledger](data/ier-individual-employment-remedy-event-ledger-v1.json) keeps these separate from independent receipt | Payment instruments, receipt, restored employment or opportunity, employer identity, durable compliance, household recovery, trust, and exit |
+| Agency-reported telephone intervention | DOJ IER employment-document cases | Four selected summaries report a worker barrier followed by IER contact and employer correction, including rehire, continued work, six days of back pay, $3,400, $264, or $2,615 plus a reinstatement offer; the [structured ledger](data/ier-telephone-intervention-remedy-event-ledger-v1.json) preserves the sequence without claiming worker-confirmed recovery | Worker confirmation, payment receipt, accepted restoration, alternatives, recurrence, household recovery, trust, and exit |
 | Administrator-reported worker payment distribution | Amazon Flex drivers affected by alleged tip withholding | FTC reports more than $60.6m returned through earlier payment rounds and a current Zelle route for eligible drivers who did not cash checks | Complete eligible-driver denominator, individual receipt and remaining loss, continued work, alternatives, bargaining power, and exit |
 | Adjudicated access and lost-pay remedy | Tanzeel Ur Rehman and Portier Pacific, Australia | Fair Work Commission records voluntary reactivation, a formal order restoring access, and A$7,096.96 gross lost remuneration ordered after deactivation | Payment receipt, net recovery, expenses, alternative work, durable access, recurrence protection, and practical exit |
 | Multi-sided platform redress | Grubhub drivers, diners, and restaurants | FTC reports more than $23.8m in payments to 640,038 affected consumers, alongside requirements for honest driver-pay advertising, blocked-account disputes, and restaurant consent | Group-specific payment and correction, implementation, continued dependence, alternatives, trust, and exit |
@@ -87,6 +88,15 @@ outcome. These records therefore sit between an aggregate fund-completion
 claim and a verified lived-remedy episode. The four reported payments and the
 separate $485,000 offer must not be pooled into a worker recovery rate or
 joined to the Apple fund without a shared episode key.
+
+The telephone-intervention records add a different kind of strength. They
+retain a short chronology from employment-document barrier, to worker or
+advocate contact, to IER explanation, to an employer decision. Several records
+also report rehire, continued work, or back pay. That makes the institutional
+intervention arrow more concrete than a prospective policy statement, but the
+public summaries still end before worker confirmation, accepted restoration,
+household recovery, trust, or exit. They are therefore useful remedy-stage
+comparators, not evidence of durable individual recovery or prevalence.
 
 Amazon Flex adds a fourth observable point on the same spectrum: distribution
 has occurred and the administrator is still addressing uncashed payments. That

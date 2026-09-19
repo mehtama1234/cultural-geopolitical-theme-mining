@@ -1952,6 +1952,12 @@ The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-
 now makes the five dated case summaries machine-readable while preserving the
 distinction between agency-reported payment, a back-pay offer, and worker-level
 receipt or restored employment.
+The [structured IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
+adds four selected cases with a tighter agency-reported chronology from an
+employment-document barrier through worker or advocate contact, IER
+intervention, employer correction, and reported back pay or rehire. It still
+does not prove worker-confirmed receipt, accepted restoration, household
+recovery, trust, or exit.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
