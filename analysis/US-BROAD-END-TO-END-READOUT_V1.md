@@ -106,6 +106,13 @@ These are real bridges, but each closes only part of the full chain:
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or
   changed behavior by another state. Capacity and dependence can rise together.
+- **AI, work, and control:** a randomized workplace-access study found changed
+  email/time patterns, while the available record does not show whether that
+  time became rest, care, pay, worker voice, or higher employer expectations.
+  Across AI use, synthetic contact, and companion-product exit, immediate
+  behavior can change before authority, portability, correction, or durable
+  exit is observed. Usefulness and worker/consumer control are therefore
+  separate outcomes.
 - **CCES political follow-up:** respondents reporting earlier job loss had a
   large later insurance gap and lower local political action (23.9% versus
   31.6%), but Congress approval was not uniformly lower. Earlier lack of
