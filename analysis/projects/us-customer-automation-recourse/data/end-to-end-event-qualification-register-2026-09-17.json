@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-17",
+  "checked": "2026-09-18",
   "purpose": "Storage-light qualification screen for a same-unit event that can be followed through alternatives, response, verified remedy or recovery, and later action or exit.",
   "promotion_rule": "A route qualifies only when the same unit has a dated trigger, an observed alternative or non-use choice, a defined institutional response, a verified protected or sacrificed outcome, and a follow-up behavior or meaning/action endpoint.",
   "storage_boundary": "Reads retained local audits and ledgers only; no respondent archive or bulk download.",
@@ -198,12 +198,38 @@
       "later_action_or_exit": "cross-sectional household responses only; later work/care stability, trust, political action, switching, and exit missing",
       "qualifies": false,
       "next_minimum_field": "dated care disruption, provider/informal alternatives, price/subsidy/leave route, schedule/travel cost, work/earnings, child outcome, and later recovery or action"
+    },
+    {
+      "route_id": "Honda-Talon-recall-repair",
+      "domain": "product_safety",
+      "unit": "single product recall key",
+      "denominator": "approximately 34,000 units in notice versus 2,047 products in MPR; purchaser denominator unresolved",
+      "dated_trigger": "dated vehicle hazard notice and reported incident signal observed",
+      "alternative_or_non_use_choice": "stop use, dealer repair, another vehicle, or continued use are possible but purchaser choice is missing",
+      "institutional_response": "recall notice, manufacturer contact claim, free dealer inspection/repair, and later correction snapshot observed",
+      "verified_remedy_or_recovery": "firm-reported correction count observed; completed repair, safe mobility, downtime, and receipt missing",
+      "later_action_or_exit": "continued use, substitute mobility, switching, trust, and non-use missing",
+      "qualifies": false,
+      "next_minimum_field": "recall-key-compatible purchaser ledger with notice reach, appointment, repair receipt, downtime/substitute cost, safe restoration, and later use outcome"
+    },
+    {
+      "route_id": "CFPB-credit-card-monetary-relief",
+      "domain": "consumer_financial_recourse",
+      "unit": "de-identified complaint case",
+      "denominator": "25-record capped retrieval-order sample from 21,425 Credit card records filtered to Closed with monetary relief; not random or weighted",
+      "dated_trigger": "complaint receipt and route timing observed",
+      "alternative_or_non_use_choice": "missing; no account alternative, non-use, or repeat-effort choice is public",
+      "institutional_response": "company response label Closed with monetary relief, timely handling, and public-response availability observed",
+      "verified_remedy_or_recovery": "monetary-relief label is not verified issuance, receipt, account correction, or remaining-loss resolution",
+      "later_action_or_exit": "repeat contact, continued use, account closure, switching, trust, and exit missing",
+      "qualifies": false,
+      "next_minimum_field": "account-level exposure, remedy amount/issuance/receipt, correction, repeat effort, alternative provider, closure/switch, and later security or trust"
     }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 15,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Amazon Flex, IER, HTOPS, Walmart, and Census child-care additions improve payment, remedy, worker-allocation, household-adaptation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. Grubhub separates court-entered payment authority and administrator-sent payments from individual receipt, Walmart adds a court-entered driver allocation and payment-timing stage, HTOPS adds a cross-lagged material-pressure endpoint with a near-flat confidence counterexample, and Census adds an income-conditioned work-adaptation menu. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "screened_routes": 17,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Honda Talon, Amazon Flex, IER, HTOPS, Walmart, Census child-care, and CFPB credit-card additions improve payment, remedy, worker-allocation, household-adaptation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. The product-safety pair separates replacement from dealer repair, while the credit-card slice separates a monetary-relief response label from verified issuance and receipt. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
     "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data. The HTOPS route specifically requires dated incident/actor, alternative or non-use, verified recovery, and later use/action fields."
   }
 }

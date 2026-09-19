@@ -6,7 +6,7 @@
 
 The current U.S.-centered atlas contains many measured pressures, institutional
 routes, administrative decisions, and some access-restoration or recovery
-signals. A systematic screen of fifteen retained routes finds **zero** that meet
+signals. A systematic screen of seventeen retained routes finds **zero** that meet
 the program's stronger practical-optionality standard: the same unit must have
 a dated trigger, an observed alternative or non-use choice, an institutional
 response, a verified protected or sacrificed outcome, and a later behavior or
@@ -42,15 +42,18 @@ condition or restriction
 | Walmart Spark Driver remedy | Named platform-worker program; eligible denominator not disclosed | Court-entered $100M judgment, driver/state allocations, mid-2025 payment timing, 10-year earnings verification, partial payment status | Individual receipt, amount, corrected pay record, continued/alternative work, schedule control, trust, switching/exit | No |
 | HTOPS expense cross-lagged follow-up | 6,564 exact April–June 2025 SCRAMID links; outcome-specific valid counts vary | Baseline expense difficulty followed by later food, energy, job-loss, and Congress-confidence measures with standard errors | Dated event, actor, alternatives, remedy, recovery, attribution, distinct action, switching/exit | No |
 | Census child-care/work adaptation | About 30.4 million households with children 0–13; care, problem, and adaptation universes differ | Paid care, expense, care problems, work-time loss, leave, hour cuts, job exit, non-search, and supervision while working | Dated provider event, alternatives, subsidy/leave route, verified work/care outcome, later recovery, trust/action, exit | No |
+| Honda Talon recall repair | Single recall key; approximately 34,000 notice units versus 2,047 MPR products | Hazard, manufacturer contact claim, dealer-repair offer, and later reported correction | Purchaser notice, repair receipt, downtime, safe mobility, residual cost, trust, switching/exit | No |
+| CFPB credit-card monetary relief | 25 capped cases from 21,425 filtered `Closed with monetary relief` records | Complaint receipt, routing, timely label, and monetary-relief response label | Account exposure, issuance/receipt, correction, remaining loss, alternatives, trust, switching/exit | No |
 
 The machine-readable [qualification register](../data/end-to-end-event-qualification-register-2026-09-17.json)
 preserves the route-level units, denominators, missing fields, and next
-minimum field for the fifteen-route screen. The latest synchronization includes
+minimum field for the seventeen-route screen. The latest synchronization includes
 Doxo, Grubhub, the VRURC recall implementation bridge, the Amazon Flex
 tip-refund program, the IER individual-remedy summaries, and the linked HTOPS
 fraud/recovery follow-up, the Walmart Spark Driver remedy, and the HTOPS
 expense cross-lagged follow-up, and the Census child-care/work adaptation
-record. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
+record, the Honda Talon repair route, and the CFPB credit-card monetary-relief
+slice. The [practical-exit observability audit](../practical-exit-observability-audit-v1.md)
 is the broader cross-domain inventory; this finding applies its promotion rule
 to a smaller, explicit candidate set.
 
