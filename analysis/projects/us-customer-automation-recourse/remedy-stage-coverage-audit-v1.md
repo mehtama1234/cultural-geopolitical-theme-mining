@@ -4,7 +4,7 @@
 **Status:** explicit-field audit; no inferred remedy stages
 
 The 34-ledger portfolio contains 206 event rows. Only 32 rows across 19 ledgers
-explicitly use the new remedy-stage vocabulary. The remaining 197 rows are not
+explicitly use the new remedy-stage vocabulary. The remaining 174 rows are not
 treated as “no remedy”; their stage is simply not recorded in the standardized
 field.
 
@@ -28,7 +28,9 @@ failed reinstatement; a firm-reported correction can coexist with unknown
 purchaser receipt; and a repair can later be described as ineffective.
 
 This audit does not estimate remedy success or failure. It measures only the
-coverage of explicit stage fields in retained ledgers. The source records and
+coverage of explicit stage fields in retained ledgers. Of the 206 event rows,
+32 have at least one explicit remedy-stage value and 174 remain unclassified
+at the standardized stage field; unclassified does not mean no remedy. The source records and
 machine-readable counts are in the [audit JSON](../../data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
 
 The next evidence target is not another generic response record. It is a

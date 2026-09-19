@@ -76,9 +76,10 @@ cases, recall keys, program cohorts, and agency summaries rather than a common
 population denominator.
 
 The [portfolio remedy-stage audit](remedy-stage-coverage-audit-v1.md) shows that
-the vocabulary is currently explicit for only 9 of 206 event rows. That is a
-measurement-coverage result, not a remedy-failure rate: the other 197 rows are
-unknown at the standardized stage field, not coded as no remedy.
+the reported-receipt stage is explicit for 9 of 206 event rows, while 32 rows
+have at least one standardized remedy-stage value. The remaining 174 rows are
+unknown at the standardized stage field, not coded as no remedy. These are
+measurement-coverage results, not remedy-failure rates.
 
 The next decisive artifact is a bounded, identifier-compatible follow-up that
 preserves:
