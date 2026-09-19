@@ -67,6 +67,35 @@ alliance choice. Conversely, a domestic facility may create capability without
 removing dependence if it still imports refined feedstock or lacks a second
 supplier.
 
+## Realization-stage evidence added
+
+The event pass now has a dated sequence rather than only a static dependence
+finding:
+
+```text
+China licensing control
+  -> early wrought-gallium/germanium export contraction and price movement
+  -> US federal gallium-recovery prototype selection
+  -> GlobalFoundries/Navitas US GaN manufacturing route
+  -> scheduled wafers and internal/customer samples
+  -> delivered product, qualification, system deployment, and upstream material provenance (open)
+```
+
+The US response is visibly layered. DOE's TRACE-Ga selection addresses
+upstream recovery, while GlobalFoundries and Navitas address downstream device
+manufacturing. The latter can create a domestic production route even if the
+gallium feedstock, epitaxial wafer, substrate, or another fabrication stage
+remains imported. That is why the atlas records the Navitas/GF September 2026
+announcement as a production schedule and sampling route, not as confirmed
+delivery or mineral independence.
+
+The relevant machine-readable ledgers are:
+
+- `data/china-gallium-germanium-export-control-event-ledger-v1.json`
+- `data/doe-trace-ga-domestic-recovery-response-event-ledger-v1.json`
+- `data/globalfoundries-vermont-gan-manufacturing-response-event-ledger-v1.json`
+- `data/navitas-globalfoundries-us-gan-first-shipment-schedule-event-ledger-v1.json`
+
 It also gives the atlas a material counterexample to “domestic production equals
 autonomy.” US production value can rise while import reliance remains high.
 Import reliance can fall while processing, technology, or ownership remains
@@ -77,7 +106,10 @@ stress.
 ## What remains unproven
 
 These sources do not establish that a particular export restriction caused a US
-shortage, price increase, factory shutdown, consumer loss, or defense delay.
+shortage, factory shutdown, consumer loss, or defense delay. The USITC briefing
+does report early Chinese shipment contraction and price movement, but the
+event ledgers preserve the causal gap between those market observations and a
+specific US downstream outcome.
 They do not show realized recycling volumes sufficient to change import
 reliance, nor do they identify which firms can switch inputs and at what cost.
 
@@ -85,6 +117,11 @@ They also do not measure environmental burden, local permitting conflict,
 worker conditions, community exposure, consumer prices, or the distribution of
 benefits from domestic mineral processing. The 2–3 year battery-recycling
 window is an assessment of potential, not a completed resilience outcome.
+
+The September 2026 Navitas/GF announcement schedules first wafers in September,
+internal samples in October, and strategic customer samples before year-end.
+No later official confirmation of completed September delivery was found in the
+current pass, so those milestones remain reported forward-looking stages.
 
 ## Next test
 
