@@ -43,6 +43,7 @@ whether an announced investment has become an option that a state can use.
 | Integration testing | Lockheed reports completion of an LRASM F-35C flight-science phase | A technical milestone is visible; it is not fielded inventory |
 | Operational-integration validation | US Air Force Global Strike Command reports a June 2, 2026 Dyess “Event Zero” validating B-1B/LRASM pre-flight procedures and connecting a live AGM-158C with updated hardware | A dated US-side procedure/integration milestone is visible; it is not accepted inventory, deployment, sustainment, or combat use |
 | Operational fielding | The US Marine Corps 2026 Marine Aviation Plan states that LRASM C-1 was operationally fielded on the F/A-18E/F in FY2024; F-35B/F-35C integration and C-3 production cut-in remain separate stages | Fielding is observed for one US variant/platform; it does not establish C-3 or F-35 fielding, quantity, sustainment, combat use, or Polish JASSM-ER realization |
+| Sustainment architecture | Navy FY2025 budget materials place LRASM within weapons-maintenance/rework and software-support systems and describe C-3 training/sustainment stand-up | A budgeted institutional support route is visible; maintained inventory, repair performance, readiness, and completed C-3 transition remain open |
 | Customer realization | Polish official sources provide a 2026–2030 planning window for the 2024 order; a separate Senate response lists JASSM-ER among equipment delivered since February 2022 | The broad prior-delivery list has no quantity, date, unit, acceptance record, or order linkage, so it cannot establish realization of the 2024 order |
 | Geopolitical consequence | No dated external behavior change tied to realized inventory was located | Leverage remains open |
 
@@ -97,8 +98,9 @@ or software dependency.
 - A flight-science or integration test can succeed without operational
   fielding, sustainment, or customer acceptance. The June 2026 Dyess Event Zero
   adds a more concrete procedure-validation stage, while the Marine Aviation
-  Plan separately establishes C-1 fielding on F/A-18E/F. Neither US-side
-  observation establishes Polish delivery or C-3/F-35 fielding.
+  Plan separately establishes C-1 fielding on F/A-18E/F. Navy budget materials
+  add sustainment architecture, not maintenance performance. None of these
+  US-side observations establishes Polish delivery or C-3/F-35 fielding.
 - A public-source non-observation is not evidence that no delivery occurred;
   it means the reviewed public record cannot support promotion to that stage.
 - FMS accounting and physical realization can be asynchronous, so settlement
@@ -135,5 +137,6 @@ stage and do not promote a capability or leverage claim.
 - [FMS timing-asynchrony finding](findings/ai-work-control-083.md)
 - [US LRASM Event Zero source note](data/us-lrasm-event-zero-realization-source-note-2026-07-07.md)
 - [US LRASM C-1 fielding source note](data/us-lrasm-c1-fielding-source-note-2026-09-18.md)
+- [US LRASM sustainment architecture source note](data/us-lrasm-sustainment-architecture-source-note-2026-09-18.md)
 - [State-leverage control ledger](state-leverage-control-ledger-v1.md)
 - [Recipient-identity and facility records](data/usaspending-jassm-lrasm-rich-subaward-search-2026-09-14.json)

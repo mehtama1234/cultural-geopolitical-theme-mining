@@ -597,9 +597,12 @@ The current US-side realization record now adds two different stages: a June
 on F/A-18E/F in FY2024. These close a bounded US operational-integration and
 fielding stage for one variant/platform; they do not establish C-3 or F-35
 fielding, quantity, sustainment, combat use, Polish delivery, or external
-response. The next pass must still locate one identifier-bearing acceptance,
-inventory/maintenance, customer-delivery, or response event rather than
-another procurement or capacity announcement.
+response. Navy FY2025 budget materials now add an institutional sustainment
+route for LRASM weapons maintenance, software support, and C-3 training/
+sustainment stand-up; they do not show a maintained inventory, repair result,
+readiness rate, or completed C-3 transition. The next pass must still locate
+one identifier-bearing acceptance, inventory/maintenance, customer-delivery,
+or response event rather than another procurement or capacity announcement.
 The new [capability-to-response finding](projects/ai-work-control/findings/ai-work-control-095.md)
 promotes that realization discipline into a detailed state-power test: public
 revenue, local capacity, or a procurement agreement is not yet replaceability,

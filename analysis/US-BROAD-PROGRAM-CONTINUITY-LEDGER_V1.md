@@ -640,6 +640,12 @@ still a dated identifier-bearing acceptance, inventory/maintenance,
 customer-delivery, or response event, not a stronger inference from contract
 value or factory capacity.
 
+The Navy FY2025 budget materials also make the sustainment architecture
+visible: LRASM appears in the weapons-maintenance/rework and software-support
+route, with a separate C-3 training/sustainment stand-up. This is an
+institutional support pathway, not evidence of maintained inventory, repair
+turnaround, readiness, or completed C-3 transition.
+
 The Prince William data-center lane now adds a county-reported 2012–2024 tax-
 revenue series plus a county-linked TY2025 extension alongside the physical GIS
 pipeline. The TY2025 report records $465.9 million, up 59% year over year, with
