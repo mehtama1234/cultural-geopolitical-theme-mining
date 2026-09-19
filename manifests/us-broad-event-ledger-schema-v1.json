@@ -39,9 +39,15 @@
     "evidence_status",
     "source_and_uncertainty"
   ],
+  "optional_event_fields": [
+    "remedy_stage",
+    "remedy_receipt",
+    "durability_followup"
+  ],
   "arrow_fields": ["arrow_id", "from", "to", "unit_held_constant", "time_order_valid", "evidence", "status", "counterexample", "remaining_gap"],
   "controlled_values": {
     "actor_initiating_change": ["household", "consumer", "worker", "family", "firm", "employer", "platform", "insurer", "lender", "utility", "agency", "court", "local_government", "state", "foreign_actor", "unknown"],
-    "condition_or_decision": ["price", "fee", "payment", "income", "job_rule", "care_need", "health_event", "benefit_rule", "service_failure", "housing", "energy", "transport", "technology", "firm_strategy", "infrastructure", "policy", "trade", "other"]
+    "condition_or_decision": ["price", "fee", "payment", "income", "job_rule", "care_need", "health_event", "benefit_rule", "service_failure", "housing", "energy", "transport", "technology", "firm_strategy", "infrastructure", "policy", "trade", "other"],
+    "remedy_stage": ["hazard_or_loss_identified", "remedy_offered", "remedy_ordered", "remedy_implemented", "remedy_reported_received", "remedy_verified_received", "durability_failed", "durability_verified", "outcome_followup", "unknown"]
   }
 }

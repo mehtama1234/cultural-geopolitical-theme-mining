@@ -23,6 +23,23 @@ def main() -> int:
         events, arrows, evidence_class = validate(valid_path)
         assert (events, arrows, evidence_class) == (1, 1, "simulated_test_data")
 
+        staged = copy.deepcopy(data)
+        staged["events"][0]["remedy_stage"] = "remedy_offered"
+        staged_path = Path(directory) / "staged.json"
+        staged_path.write_text(json.dumps(staged), encoding="utf-8")
+        assert validate(staged_path) == (1, 1, "simulated_test_data")
+
+        invalid_stage = copy.deepcopy(staged)
+        invalid_stage["events"][0]["remedy_stage"] = "payment_issued_equals_recovery"
+        invalid_stage_path = Path(directory) / "invalid-stage.json"
+        invalid_stage_path.write_text(json.dumps(invalid_stage), encoding="utf-8")
+        try:
+            validate(invalid_stage_path)
+        except ValueError as error:
+            assert "remedy stage" in str(error), error
+        else:
+            raise AssertionError("invalid remedy stage was accepted")
+
         invalid = copy.deepcopy(data)
         invalid["events"][0]["alternatives_before_action"] = ""
         invalid_path = Path(directory) / "invalid.json"

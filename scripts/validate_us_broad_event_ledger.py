@@ -37,6 +37,7 @@ def validate(path: Path) -> tuple[int, int, str]:
     statuses = set(SCHEMA["evidence_status"])
     actors = set(SCHEMA["controlled_values"]["actor_initiating_change"])
     conditions = set(SCHEMA["controlled_values"]["condition_or_decision"])
+    remedy_stages = set(SCHEMA["controlled_values"]["remedy_stage"])
     event_ids: set[str] = set()
     events = data.get("events", [])
     if not isinstance(events, list):
@@ -60,6 +61,12 @@ def validate(path: Path) -> tuple[int, int, str]:
             raise ValueError(f"invalid initiating actor for {event_id}")
         if event["condition_or_decision"] not in conditions:
             raise ValueError(f"invalid condition for {event_id}")
+        if "remedy_stage" in event:
+            if event["remedy_stage"] not in remedy_stages:
+                raise ValueError(f"invalid remedy stage for {event_id}")
+        for optional_field in ("remedy_receipt", "durability_followup"):
+            if optional_field in event and not nonempty(event[optional_field]):
+                raise ValueError(f"empty optional event field {optional_field} for {event_id}")
         if event["evidence_status"] not in statuses or event["evidence_status"] not in allowed_statuses:
             raise ValueError(f"invalid evidence status for {event_id}")
         for field in ("geography", "date_precision", "denominator", "method",
