@@ -230,6 +230,16 @@ These are real bridges, but each closes only part of the full chain:
   concentrated with their identity across worry levels. This is descriptive,
   not an economic-voting causal result: identity can shape both reported worry
   and vote, and the dated material exposure is still missing.
+- **Action styles are not one ladder:** Pew's 2025 public-life study groups
+  people as Mobilizers, Connectors, Spectators, or Outsiders across politics,
+  civic life, religion, and news. Mobilizers are more politically active, but
+  Connectors can show broad community and news involvement without the same
+  direct political activity; Outsiders are less engaged across the measured
+  activities, but the study does not identify why. This keeps voting, contact,
+  volunteering, attention, trust, and withdrawal as separate action routes.
+  The clusters are descriptive, not identities or platform-caused effects;
+  the missing end-to-end link is a dated condition, interpretation, chosen
+  action, institutional response, and later legitimacy for the same person.
 - **Platform remedy case:** one worker had access voluntarily restored, then
   received a formal reactivation order and an A$7,096.96 gross lost-pay order
   with a 14-day deadline. The record still does not show payment receipt,
