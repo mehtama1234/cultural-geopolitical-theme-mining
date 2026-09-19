@@ -509,6 +509,14 @@ These are real bridges, but each closes only part of the full chain:
   but the public record still lacks an independent receipt record, amount,
   later job stability, household effect, or worker meaning/action. It is now
   retained in the [IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json).
+- **Work access can be repaired by changing the social setting:** a June 2023
+  DOJ IER case reports that an employment-document problem was resolved and the
+  worker was offered a job at an alternate location so she would not have to
+  work with the people who rejected her documents. This is evidence that a
+  remedy may involve dignity, relationship, and location—not only back pay or
+  reinstatement. The public record does not show whether she accepted the
+  location, started work, or experienced durable safety, trust, or recovery;
+  it is retained in the [IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json).
 - **Care and work:** among households with young children, lower-income
   households reported much more converted work-time loss when care was
   inadequate (114.6 days below poverty versus 43.3 days above 400% of
@@ -574,7 +582,7 @@ These are real bridges, but each closes only part of the full chain:
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
 - **Remedy visibility is still not remedy recovery:** across the 36 retained
-  event ledgers and 210 events, 35 events carry an explicit remedy stage; 12
+  event ledgers and 211 events, 36 events carry an explicit remedy stage; 13
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
   The other 175 events have no explicit remedy-stage field. This is not proof
@@ -582,8 +590,8 @@ These are real bridges, but each closes only part of the full chain:
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See
   the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
-  The stage is also source-dependent: the employment/control ledgers carry 22
-  explicit remedy stages across 33 events, product-safety ledgers carry 6 of 6,
+  The stage is also source-dependent: the employment/control ledgers carry 23
+  explicit remedy stages across 34 events, product-safety ledgers carry 6 of 6,
   customer-recourse ledgers carry 5 of 55, and health-cost ledgers carry 0 of
   100. This is a documentation-pattern comparison, not evidence that one
   domain remedies people better than another.

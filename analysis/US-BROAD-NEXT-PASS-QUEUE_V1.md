@@ -1241,7 +1241,7 @@ The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-
 now preserves those five dated cases and keeps payment, offer, employer
 controls, restored opportunity, and later worker outcomes as separate stages.
 The [structured IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
-adds six selected cases with an agency-reported barrier-to-intervention-to-
+adds seven selected cases with an agency-reported barrier-to-intervention-to-
 correction sequence. Use it as a remedy-stage comparator only: receipt,
 accepted restoration, alternatives, household recovery, trust, and exit remain
 open.

@@ -5,8 +5,8 @@
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
     "ledgers": 35,
-    "events": 210,
-    "events_with_explicit_remedy_stage": 35,
+    "events": 211,
+    "events_with_explicit_remedy_stage": 36,
     "events_without_explicit_remedy_stage": 175,
     "ledgers_with_explicit_remedy_stage": 19,
     "ledgers_without_explicit_remedy_stage": 16
@@ -15,7 +15,7 @@
     "remedy_offered": 4,
     "remedy_ordered": 9,
     "remedy_implemented": 9,
-    "remedy_reported_received": 12,
+    "remedy_reported_received": 13,
     "remedy_verified_received": 0,
     "durability_failed": 1,
     "durability_verified": 0,
@@ -57,8 +57,9 @@
     ,{"event_id": "IER-TEL-2018-04-06-MIAMI", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2018-02-02-DISPUTANTA", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2017-06-20-OSHKOSH", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2023-06-09-YULEE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "FTC-YELLOWSTONE-THIRD-REFUND-2026-09-19", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json"}
   ],
-  "interpretation": "The vocabulary is now applied across the 35-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
+  "interpretation": "The vocabulary is now applied across the 36-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
   "next_action": "Add explicit remedy_stage, remedy_receipt, and durability_followup fields when a ledger is next touched or a new source is promoted; prioritize recipient-level receipt, protected outcome, repeat-harm, and later use/switch/trust follow-up before expanding another generic response ledger."
 }

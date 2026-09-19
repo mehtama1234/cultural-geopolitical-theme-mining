@@ -1,7 +1,7 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "agency_reported_individual_employment_intervention_record",
-  "purpose": "Four DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration or back pay.",
+  "purpose": "Seven DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, or back pay.",
   "events": [
     {
       "event_id": "IER-TEL-2021-08-31-REVERE",
@@ -188,6 +188,37 @@
       "counterexample": "An exact agency-reported payment plus return to work is stronger than an order or offer, but it still does not prove independent receipt, durable protection, or full recovery",
       "evidence_status": "reported",
       "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported case summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-TEL-2023-06-09-YULEE",
+      "unit": "case",
+      "geography": "Yulee, Florida; lawful-permanent-resident employment-verification intervention",
+      "actor_initiating_change": "employer",
+      "event_date": "2023-06-09",
+      "date_precision": "IER telephone-intervention summary date; page retrieved September 19, 2026",
+      "denominator": "One reported worker case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER telephone-interventions page",
+      "missingness": "Worker and employer identities, exact work interruption, payment, accepted location, later job stability, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer initially rejected the worker's automatically extended permanent-resident documentation combination during employment verification",
+      "alternatives_before_action": "Whether the worker had another job, could refuse the original workplace, or had other feasible alternatives is not reported",
+      "immediate_burden_or_benefit": "IER reports that the issue was resolved and the company provided a job opportunity at an alternate location so the worker would not have to work with the individuals who rejected her documents; the duration and economic cost of the original barrier are unknown",
+      "choice_or_response": "The worker contacted IER; the worker's preference for the alternate location, effort, acceptance, and later use are not independently documented",
+      "person_or_actor_with_control": "Employer controlled job location and access; IER controlled the intervention route; the worker's control over accepting the offered location is unobserved",
+      "remedy_or_institutional_response": "IER contacted corporate headquarters, the issue was resolved, and the company reportedly offered work at an alternate location",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "Agency summary reports a job opportunity at an alternate location; worker confirmation, start date, and actual access are not retained",
+      "durability_followup": "Later employment, workplace safety or dignity, recurrence, trust, and household recovery are unknown",
+      "immediate_outcome": "Agency-reported resolution with an alternate-location job opportunity",
+      "protected_outcome": "Work opportunity and some separation from the personnel who rejected the documents were reportedly provided; actual access and adequacy are not observed",
+      "sacrificed_outcome": "The worker experienced an employment-document barrier and may have borne delay, stress, or reduced workplace choice; those costs are not quantified",
+      "cost_risk_transfer": "The employer changed the work-access arrangement while the worker retains unknown acceptance, adequacy, and recurrence risk",
+      "later_outcome": "No later employment, accepted location, recurrence, household recovery, trust, collective action, switching, or exit endpoint is reported",
+      "meaning_and_attribution": "The alternate-location detail suggests a workplace dignity or relationship concern, but no worker-reported meaning, fairness judgment, or institutional trust endpoint is retained",
+      "public_or_collective_response": "IER intervention is reported; no later collective or political response is observed",
+      "counterexample": "A remedy can restore a job opportunity while changing location and social conditions; neither the worker's acceptance nor durable recovery is established",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-3; agency-reported case summary with no claimant follow-up"
     }
   ],
   "arrows": [
@@ -197,7 +228,7 @@
       "to": "worker hotline contact and IER intervention",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Six dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
+      "evidence": "Seven dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
       "status": "reported",
       "counterexample": "These are selected intervention summaries, not a prevalence sample or complete record of all affected workers",
       "remaining_gap": "Worker denominator, effort, alternatives, non-use, and counterfactual opportunity"
@@ -219,7 +250,7 @@
       "to": "reported back pay",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, and $5,254 across the six selected summaries; the Miami case also reports a reinstatement offer",
+      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, and $5,254 across selected summaries; the Miami case also reports a reinstatement offer, and the Yulee case reports an alternate-location job opportunity",
       "status": "reported",
       "counterexample": "Agency-reported payment is not an independently audited receipt, and a reinstatement offer is not accepted reemployment",
       "remaining_gap": "Payment instrument, date, net amount, receipt, acceptance, and adequacy"
@@ -236,6 +267,6 @@
       "remaining_gap": "Worker-linked receipt, accepted restoration, later employment, household recovery, meaning, recurrence, collective action, switching, and exit"
     }
   ],
-  "boundary": "This ledger formalizes six selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, rapid rehire, exact back-pay reporting in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes seven selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, rapid rehire, exact back-pay reporting in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
   "storage_boundary": "No claimant files, direct identifiers, employer identities, bulk archive, or payment instruments are retained; only bounded public case summaries, dates, reported remedy fields, uncertainty, and open arrows are represented."
 }
