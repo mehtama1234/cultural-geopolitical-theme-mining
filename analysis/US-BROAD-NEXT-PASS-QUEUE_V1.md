@@ -2944,6 +2944,10 @@ the grantee data are not reliable for economic-effect estimates. The next test
 is a place-keyed project ledger linking award, disbursement, completion,
 service/firm function, jobs/wages, household access, and later trust or action;
 do not promote award volume or grantee reports into recovery.
+The [structured EDA recovery ledger](projects/us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json)
+now makes the coordination, funding, project, and measurement stages
+machine-readable; it remains an institutional/project record rather than a
+place-level recovery estimate.
 
 The companion [GAO 2026 disaster-assistance scams, information, and trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
 adds a consumer and legitimacy surface around the recovery system. GAO finds

@@ -2086,6 +2086,12 @@ bottlenecks, and delivery redesign. It strengthens the public-system response
 map while leaving survivor receipt, placement, recovery, trust, and political
 action unobserved.
 
+The [structured EDA disaster-economic-recovery ledger](projects/us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json)
+adds five institution/project events and four typed arrows for federal
+coordination, funding timing, project composition, and outcome-measurement
+limits. It separates public investment capacity from completed local service,
+firm, household, and resident recovery.
+
 The [mobility-meaning finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-036.md)
 adds a cultural layer to the migration and household-mobility lane. Pew's
 National Survey of Latinos places reported American-Dream attainability beside
