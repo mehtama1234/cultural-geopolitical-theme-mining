@@ -2403,6 +2403,12 @@ amendments. As of the September 3 public summary and the September 18 follow-up,
 the amendments, construction, customer payment, enforcement, and household bill
 incidence remain unobserved. The next qualifying infrastructure artifact is
 therefore a docket filing or implementation record, not another tariff summary.
+The new Virginia LIHEAP FY2023–FY2025 trajectory is a pre-order public-program
+baseline: its latest preliminary year ends before the July 31, 2026 Rider T1
+order. It cannot test a post-order household effect or connect assistance,
+restoration, or hardship to the utility decision. A future comparison would
+need a post-order bill or assistance episode with a defined household/place
+unit and the same restoration/recovery fields.
 
 The GIS layer now quantifies the planning concentration: Brentsville and
 Gainesville hold 43.1% and 42.2% of planned campus GFA, with a four-district

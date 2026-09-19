@@ -2200,6 +2200,12 @@ event-ledger index. It makes the operational-stress-to-state-response path
 machine-readable while leaving projected residential allocation, observed
 household harm, legitimacy, and geopolitical leverage explicitly open.
 
+The Virginia LIHEAP FY2023–FY2025 trajectory is retained as a separate
+pre-order public-program baseline. Because its latest preliminary year ends
+before the July 31, 2026 Rider T1 final order, it cannot be used as a post-order
+household effect or joined to the utility ledger; a future post-order bill or
+assistance episode is still required.
+
 The [targeted CFPB credit-card monetary-relief recheck](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
 adds a current response-category-conditioned administrative surface: 25
 recently returned records within a 21,425-record filtered universe all carry
