@@ -290,7 +290,12 @@ These are real bridges, but each closes only part of the full chain:
 - **Infrastructure and state power:** defense authorization and data-center
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or
-  changed behavior by another state. Capacity and dependence can rise together.
+  changed behavior by another state. The retained comparison includes 621 MW
+  of reported Prince William capacity additions and separate 1,551 MW and
+  1,800 MW load-drop events, alongside a Poland JASSM-ER procurement window;
+  these are not interchangeable evidence of compute service, accepted weapon
+  inventory, readiness, or geopolitical response. Capacity and dependence can
+  rise together.
 - **CHIPS implementation:** GAO reports about $50 billion in semiconductor
   programs, 49 projects across 24 companies, and $13.1 billion disbursed by
   April 2026—about 42% of direct awards—alongside 24 completed milestones,
