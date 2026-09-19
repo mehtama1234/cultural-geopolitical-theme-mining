@@ -3168,6 +3168,10 @@ The [canonical disability workforce-program record](records/us-gao-disability-wo
 now preserves the participant, local-access, monitoring, and recommendation
 stages. It advances the accessibility-to-work bridge without closing
 accommodation receipt, service completion, placement, retention, or mobility.
+The 2026-09-18 recheck promotes GAO's exact post-exit employment and earnings
+comparisons plus the Adult training-use contrast into the record and layer.
+This strengthens the measured endpoint while preserving selection, disclosure,
+accommodation, completion, placement, retention, and mobility boundaries.
 
 The [GAO airport transit availability and adoption layer](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md)
 adds a place-level mobility test. The next pass should use compact official

@@ -1,6 +1,6 @@
 # GAO 2026 disability access to workforce programs layer v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-18
 **Source:** US Government Accountability Office, GAO-26-107473
 **Reference window:** DOL participant data July 1, 2023–June 30, 2024; job-center visits and oversight review; report published January 21, 2026
 **Status:** workforce-program access and measurement finding; not a causal evaluation of accommodations or employment outcomes
@@ -26,7 +26,7 @@ different blind spots.
 |---|---|---|
 | Potential demand | More than 500,000 people with disabilities were unemployed and actively looking for work in each year from 2021 through 2024 | This is a labor-market frame, not the number seeking DOL services or needing a specific accommodation |
 | Program participation | 7% of participants in the DOL workforce programs reviewed reported having disabilities | The review covers selected programs and reported status; it is not all job seekers or all disability prevalence |
-| Outcome difference | Participants reporting disabilities had worse employment outcomes | GAO does not establish whether access barriers, disability type, prior work history, local labor demand, service mix, or other factors caused the difference |
+| Outcome difference | Participants reporting disabilities had lower post-exit employment rates and median earnings in each core program | GAO does not establish whether access barriers, disability type, prior work history, local labor demand, service mix, or other factors caused the difference |
 | Missing type | 43% of participants reporting a disability did not report their disability type | Non-disclosure is not necessarily a data-collection failure or absence of need; the information is sensitive and may be withheld by choice |
 | State variation | Completeness of disability-type data varied widely by state | The report does not provide a single national completeness rate that can rank every state |
 | Accommodation access | Some local officials reported difficulty providing accommodations such as sign-language interpreters; training outside job centers could also be inaccessible | Visits covered a non-generalizable sample of 12 centers in Arkansas, Oregon, Virginia, and Washington, D.C. |
@@ -34,6 +34,49 @@ different blind spots.
 | Monitoring | DOL monitored state and local agencies but did not routinely analyze monitoring reports at an aggregate level | A monitoring report can exist without cross-site issue detection, corrective action, or improved participant outcomes |
 | Guidance | Officials in several local areas were not aware of or did not use DOL guidance and technical assistance | Awareness, use, implementation quality, and participant experience are separate stages |
 | Recommendations | GAO made three recommendations: improve disability-type data, analyze monitoring reports routinely, and evaluate awareness/use of guidance | DOL disagreed with the first and agreed with the other two; all remained open in the report’s July 2026 status update |
+
+## Exact outcome surface
+
+GAO's PY2023 comparison is more informative than the phrase “worse outcomes,”
+but it is still a program-participant comparison rather than a treatment effect.
+The rates below are measured after program exit; the earnings measure is the
+median second-quarter earnings among participants employed in that quarter.
+
+| Program | Employment, disability reported | Employment, no disability reported | Gap | Median second-quarter earnings, disability reported | Median earnings, no disability reported |
+|---|---:|---:|---:|---:|---:|
+| Adult, second quarter | 60% | 76% | 16 pp | $7,048 | $8,872 |
+| Adult, fourth quarter | 59% | 75% | 16 pp | — | — |
+| Dislocated Worker, second quarter | 64% | 72% | 8 pp | $7,930 | $9,502 |
+| Dislocated Worker, fourth quarter | 65% | 73% | 8 pp | — | — |
+| Youth education/employment, second quarter | 70% | 74% | 4 pp | $4,583 | $4,924 |
+| Youth education/employment, fourth quarter | 71% | 74% | 4 pp | — | — |
+| Wagner-Peyser, second quarter | 57% | 70% | 13 pp | $6,684 | $8,486 |
+| Wagner-Peyser, fourth quarter | 56% | 70% | 14 pp | — | — |
+
+Training access also diverged. In the Adult program, 33% of participants
+reporting disabilities used training services compared with 47% of those
+reporting no disability. GAO reports that training-service differences were
+not statistically significant for the Dislocated Worker program after selected
+controls. Career-service use was generally similar; in Wagner-Peyser,
+individualized career-service use was 61% versus 56% after controls.
+
+The outcome surface therefore shows a real measured gap at the end of the
+program route, while leaving the conversion mechanism unresolved:
+
+```text
+reported disability / functional need
+  -> disclosure and accommodation route (partly observed)
+  -> career and training service use (partly observed)
+  -> program exit
+  -> employment and earnings gap (observed comparison)
+```
+
+The “exit” here is an administrative program-exit definition—generally 90 days
+without services and no planned future service—not necessarily job exit,
+labor-force exit, or voluntary withdrawal. Earnings are not hourly wages and
+do not adjust for hours worked. The comparison excludes participants with
+unknown disability status and remains vulnerable to selection and composition
+differences.
 
 ## The central mechanism
 

@@ -22,6 +22,13 @@ The first matched check is [A benefit can be lost without the need going away](.
 
 The [administrative-burden and access layer](administrative-burden-access-layer-v1.md) records the causal evidence separately: work-rule exits without an employment response, parent disenrollment through administrative burden, and participation changes after office closure. It does not treat program exit as work success or participation as food security.
 
+The [GAO disability workforce-program access layer](gao-2026-disability-workforce-program-access-layer-v1.md)
+now includes exact post-exit employment and earnings comparisons: the
+Adult-program employment gap is 16 percentage points at both follow-ups, and
+Adult training use is 33% versus 47%. These are participant comparisons, not
+causal accommodation effects; disclosure, service completion, placement,
+retention, and mobility remain separate stages.
+
 The [SIPP SNAP transition Fay-BRR uncertainty layer](sipp-snap-transition-fay-brr-layer-v1.md)
 adds design-based standard errors and approximate intervals to the adjacent-
 month transition shares. It improves uncertainty around the transition
