@@ -83,6 +83,12 @@ These are real bridges, but each closes only part of the full chain:
   incident date, verified remedy, and durable security are missing. The later
   search fields add an adaptation signal: loss groups search more for jobs,
   food, benefits, and credit, but searching is not a usable alternative.
+- **Cash App enforcement:** the CFPB record documents fraud/dispute-process
+  failures, required operational correction, and up to $120 million in
+  consumer redress. It advances the route from reported loss to a named
+  institutional response, but does not show any individual payment, account
+  correction, repeat effort, restored security, trust, or exit. A redress pool
+  is therefore not a consumer recovery rate.
 - **SIPP SNAP:** adjacent-month transitions show that benefit exit is not
   automatically improvement: 76.2% of observed exits had a lower next-month
   income-to-poverty ratio, and only about half of transitions had a classified
