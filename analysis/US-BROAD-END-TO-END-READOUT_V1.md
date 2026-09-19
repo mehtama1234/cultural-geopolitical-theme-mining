@@ -93,6 +93,15 @@ These are real bridges, but each closes only part of the full chain:
   transportation insecurity, food insecurity, mental distress, and lack of
   insurance. Nominal service use can therefore coexist with weaker practical
   room; this is an ecological county comparison, not a resident-level effect.
+- **Migration, belonging, and political meaning:** the joint county screen
+  does not produce a simple growth or foreign-born-share explanation for
+  federal trust; the lowest trust cell is high-growth/mid-nativity, while
+  civic action stays comparatively stable. In the separate ANES respondent
+  layer, people distinguish economic effects, job competition, citizenship,
+  trust, and vote rather than holding one single immigration attitude. This
+  is the intended end-to-end boundary: place conditions can frame exposure,
+  but they cannot substitute for a person's reported meaning, attribution,
+  belonging, or action.
 - **Infrastructure and state power:** defense authorization and data-center
   capacity records show commitment and buildout stages, but not necessarily
   delivered capability, local control, replaceability, public benefit, or

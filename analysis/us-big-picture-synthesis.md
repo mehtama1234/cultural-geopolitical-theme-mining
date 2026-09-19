@@ -186,6 +186,15 @@ turning it into a US household or geopolitical-behavior result.
   Chicagoland policy attitudes. Capacity stocks and respondent meaning are
   distinct layers; neither population growth nor foreign-born share is a proxy
   for belonging or political action.
+- The migration lane now makes that separation more precise. A joint 2024 CES
+  county screen finds no monotonic trust/action pattern from population growth
+  and foreign-born share: the lowest federal-trust cell is high-growth/mid-
+  nativity, while civic action varies much less. A separate weighted ANES
+  respondent layer shows that immigration is interpreted through distinct
+  economic, job-competition, citizenship, institutional-trust, and electoral
+  frames. The safe chain is therefore `place exposure -> perceived benefit,
+  cost, fairness, or control -> belonging/trust/attribution -> action`, with
+  the middle links measured directly rather than inferred from demographics.
 - [California insurance sensitivity](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-002.md)
   shows that a low-income/high-risk nonrenewal ordering changes under a
   different income cut point. Place-market gradients therefore require
