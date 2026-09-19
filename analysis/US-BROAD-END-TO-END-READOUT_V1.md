@@ -574,6 +574,11 @@ These are real bridges, but each closes only part of the full chain:
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See
   the [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json).
+  The stage is also source-dependent: the employment/control ledgers carry 22
+  explicit remedy stages across 32 events, product-safety ledgers carry 6 of 6,
+  customer-recourse ledgers carry 4 of 54, and health-cost ledgers carry 0 of
+  100. This is a documentation-pattern comparison, not evidence that one
+  domain remedies people better than another.
 
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
