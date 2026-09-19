@@ -300,6 +300,25 @@ show that one price, bill, firm, or policy caused a specific person's trust or
 vote. That missing link is part of the finding, not a reason to erase the
 broader pattern.
 
+The latest SHED recontact panels add two timing boundaries. Cheaper-product use
+and borrowing do not persist on one simple income gradient: among prior
+adopters on worsening financial paths, cheaper-product persistence declined
+across income bands, while borrowing persistence rose again in the highest
+band. Separately, improved self-rated health reduced some saving-cut
+persistence without removing borrowing or new price adaptation. Financial room,
+health, debt, and consumption therefore recover on different clocks; none is a
+complete recovery endpoint by itself.
+
+The [Pew three-audience global-role layer](projects/ai-work-control/pew-2026-us-global-role-domestic-partisan-international-comparison-layer-v1.md)
+extends the same separation to state power. Foreign publics, US adults, and US
+partisans judge the US role differently: a median 35% across 36 non-US
+countries said the US contributes to global peace and stability, compared with
+57% of Americans, including 82% of Republicans and 35% of Democrats. Yet 83%
+of Americans across parties said the US interferes in other countries' affairs
+at least a fair amount. Capability, reputation, domestic identity, and foreign
+reception are therefore distinct currencies; the survey does not establish a
+change in alliance behavior, trade, aid acceptance, or another state's choice.
+
 The new NBER evidence makes the missing link more precise. The [real-wage,
 inflation, and 2024 election finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-021.md)
 uses 3,102 US counties and shows that county-level purchasing-power measures
