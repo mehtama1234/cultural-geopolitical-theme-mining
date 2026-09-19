@@ -143,6 +143,13 @@ These are real bridges, but each closes only part of the full chain:
   some of it. Provider contact, recovery, and switching are therefore separate
   routes: formal access does not guarantee liquidity, and non-switching does
   not prove satisfaction or trust.
+- **Fraud-to-exit endpoint:** the structured [SHED fraud-recovery and
+  switching ledger](projects/us-financial-intermediation/data/shed-fraud-recovery-switching-event-ledger-v1.json)
+  records a stronger practical-action endpoint: among the non-credit-card
+  fraud subgroup, 67% contacted a bank or financial company, 38% reported to
+  an authority or complaint route, and 12% reported changing banks or
+  financial companies. This still does not prove that a switch was completed,
+  caused by the fraud, improved protection, or restored trust.
 - **Staying with a bank is a constrained choice:** NBER account-opening data
   suggest only 5%–15% of depositors open a new account in a year, while its
   model estimates “sleepy” deposits account for 57% of average deposit
@@ -608,11 +615,11 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
-- **Remedy visibility is still not remedy recovery:** across the 39 retained
-  event ledgers and 216 events, 38 events carry an explicit remedy stage; 13
+- **Remedy visibility is still not remedy recovery:** across the 40 retained
+  event ledgers and 217 events, 38 events carry an explicit remedy stage; 13
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
-  The other 178 events have no explicit remedy-stage field. This is not proof
+  The other 179 events have no explicit remedy-stage field. This is not proof
   that remedies failed; it is proof that the public records usually stop at
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See

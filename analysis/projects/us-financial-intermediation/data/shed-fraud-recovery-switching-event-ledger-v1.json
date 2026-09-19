@@ -1,0 +1,85 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_subgroup_recourse_switching_record",
+  "purpose": "Bounded 2025 SHED financial-power ledger connecting non-credit-card fraud exposure to incomplete recovery, provider contact, reporting, and reported bank or financial-company switching while preserving account-level timing, remedy, trust, and durable exit as open.",
+  "events": [
+    {
+      "event_id": "SHED-2025-NONCREDIT-FRAUD-RECOURSE-SWITCHING",
+      "unit": "case",
+      "geography": "United States; adults reporting a most-recent non-credit-card fraud experience in the 2025 SHED",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-01-01",
+      "date_precision": "2025 survey reference period; most-recent fraud timing and payment rail are survey-defined, not a dated account event",
+      "denominator": "Non-credit-card fraud subgroup; published item-specific denominators vary and are not reproduced as a single pooled fraud incidence denominator",
+      "method": "Structured extraction from the Federal Reserve 2025 SHED banking publication and retained local finding; published descriptive estimates, not causal estimation",
+      "missingness": "Respondent identity, account/provider, incident date, payment rail, dispute record, provider liability, contact sequence, recovery timing, replacement route, trust, continued use, and switch reason are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "Reported non-credit-card fraud with money lost and incomplete recovery for a subgroup of affected adults",
+      "alternatives_before_action": "Other banks, financial companies, cash, nonbank routes, family support, credit, and the feasibility or cost of switching are not observed for the same incident",
+      "immediate_burden_or_benefit": "Among non-credit-card fraud cases, 65% reported losing money and 35% reported not recovering some money; the median loss was $500 before recovery and $30 after recovery",
+      "choice_or_response": "67% contacted a bank or financial company, 38% reported to an authority, credit bureau, or consumer-complaint agency, and 12% changed banks or financial companies; these are reported response endpoints, not verified case outcomes",
+      "person_or_actor_with_control": "The financial provider, payment rail, reporting institution, and respondent each shape the route, but the public table does not identify decision authority, account control, or switching constraints for an individual case",
+      "remedy_or_institutional_response": "Provider contact and external reporting are reported; dispute resolution, correction, refund, and provider accountability are not verified",
+      "durability_followup": "The publication does not show whether the respondent continued using the old provider, completed a switch, recovered later losses, or experienced repeat fraud",
+      "immediate_outcome": "Incomplete monetary recovery, provider contact, reporting, and reported switching are visible as separate consumer-recourse stages",
+      "protected_outcome": "Contact, reporting, or switching may protect future access or reduce dependence on a provider; protection and alternative quality are not measured",
+      "sacrificed_outcome": "Unrecovered money, time, dispute effort, account disruption, switching cost, and possible loss of financial continuity may be borne by the respondent; the individual amounts and costs are unknown",
+      "cost_risk_transfer": "Fraud and incomplete recovery can shift financial and administrative risk onto the household while provider responsibility and replacement costs remain unobserved",
+      "later_outcome": "Reported switching is present, but later financial room, trust, continued use, provider quality, household security, and practical exit are not observed",
+      "meaning_and_attribution": "No respondent-linked blame, fairness, institutional trust, dignity, or reason for staying or leaving is retained",
+      "public_or_collective_response": "Provider contact and external reporting are reported; no respondent-linked complaint resolution, organizing, political action, or collective response is observed",
+      "counterexample": "Contact can occur without switching, switching can occur without full recovery, and not switching can reflect satisfaction, inertia, dependence, or lack of alternatives rather than trust",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Federal Reserve 2025 SHED published banking estimates; subgroup denominators and response universes vary, and no account-level case file or causal timing is retained",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-banking.htm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "SHED-FRAUD-SWITCH-A-01",
+      "from": "non-credit-card fraud exposure",
+      "to": "money lost and incomplete recovery",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The published 2025 SHED banking table reports money lost, amount not recovered, and median loss before and after recovery among the fraud subgroup",
+      "status": "reported",
+      "counterexample": "Self-reported most-recent-fraud measures do not provide a transaction ledger, provider liability, or exact recovery date",
+      "remaining_gap": "Incident date, payment rail, amount, dispute, provider response, and verified payment receipt"
+    },
+    {
+      "arrow_id": "SHED-FRAUD-SWITCH-A-02",
+      "from": "fraud loss or incomplete recovery",
+      "to": "provider contact or external reporting",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The published subgroup reports 67% contacting a financial provider and 38% reporting to an authority, credit bureau, or consumer-complaint agency",
+      "status": "reported",
+      "counterexample": "Contact or reporting does not show a response, correction, recovery, or satisfaction",
+      "remaining_gap": "Attempt sequence, response, effort, resolution, repeat contact, and recipient-confirmed remedy"
+    },
+    {
+      "arrow_id": "SHED-FRAUD-SWITCH-A-03",
+      "from": "fraud experience and financial-provider response",
+      "to": "reported bank or financial-company switching",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The published table reports that 12% changed banks or financial companies after non-credit-card fraud",
+      "status": "reported",
+      "counterexample": "The source does not establish whether switching was caused by the incident, whether it was completed, or whether the replacement provider improved protection or cost",
+      "remaining_gap": "Provider identity, switch attempt and completion, timing, cost, replacement quality, and reason for staying or leaving"
+    },
+    {
+      "arrow_id": "SHED-FRAUD-SWITCH-A-04",
+      "from": "recovery, contact, reporting, or switching",
+      "to": "restored financial room, trust, continued use, or practical exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published survey does not provide later account-level use, trust, household security, or durable provider outcome",
+      "status": "open",
+      "counterexample": "A partial refund can coexist with residual loss, and switching can carry cost or fail to improve protection",
+      "remaining_gap": "Same-account follow-up with verified correction, durable recovery, trust, continued use, switching completion, and exit reason"
+    }
+  ],
+  "boundary": "This ledger formalizes reported fraud loss, incomplete recovery, provider contact, external reporting, and provider switching as separate financial-power stages. It advances the practical-exit lane beyond formal account ownership, but it does not establish account-level causation, verified remedy, adequate recovery, trust change, or durable exit.",
+  "storage_boundary": "Only compact published SHED estimates, source URL, and interpretation limits are retained; no respondent microdata, account records, or transaction files are downloaded."
+}
