@@ -90,6 +90,12 @@ These are real bridges, but each closes only part of the full chain:
   some of it. Provider contact, recovery, and switching are therefore separate
   routes: formal access does not guarantee liquidity, and non-switching does
   not prove satisfaction or trust.
+- **Help-seeking and status:** the WBNS charitable-food layer reports food
+  assistance receipt for 16.7% of working-age adults, while among adults with
+  unmet need, 39.9% were not comfortable getting help and 35.2% cited
+  transportation barriers. A route can therefore exist yet remain socially,
+  physically, or informationally unusable; nonreceipt is not proof of no need,
+  and receipt is not proof of restored food security or dignity.
 - **Public capacity versus usable help:** states held very different fiscal
   cushions in the 2025 Fiscal 50 comparison, from about 320 operating days in
   Wyoming to zero rainy-day days in New Jersey. That is state operating room,
