@@ -1,0 +1,66 @@
+{
+  "audit_type": "bds-ohio-hrsa-provider-surface-v1",
+  "checked": "2026-09-18",
+  "unit": "Ohio county mobility context joined to current designated primary-care HPSA component records",
+  "geography": "Ohio counties (state FIPS 39)",
+  "sources": {
+    "hrsa_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv",
+    "hrsa_local_sha256": "9601da6ee010869ac090464212537786cd139ca31793c2cc42655a53316684cf",
+    "acs_vehicle_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+    "acs_vehicle_sha256": "71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b",
+    "acs_commute_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08303.dat",
+    "acs_commute_sha256": "8dc1b696d93c28a684784281211cf4e5011f01d9ca84694df2d7fb3b4ad84f51"
+  },
+  "hrsa_file_create_date": "2026-09-14",
+  "counties": 88,
+  "zero_vehicle_median_cut_pct": 6.241,
+  "all_ohio": {
+    "county_count": 88,
+    "counties_with_designated_component": 81,
+    "designated_component_rows": 1139,
+    "distinct_hpsa_ids": 209,
+    "component_type_rows": {
+      "Census Tract": 989,
+      "Single County": 58,
+      "Unknown": 92
+    },
+    "rows_with_reported_fte": 1071,
+    "median_reported_fte_per_component": 6.6839,
+    "median_zero_vehicle_pct": 6.241,
+    "median_long_commute_pct": 31.38
+  },
+  "mobility_groups": {
+    "low_zero_vehicle": {
+      "county_count": 44,
+      "counties_with_designated_component": 39,
+      "designated_component_rows": 197,
+      "distinct_hpsa_ids": 74,
+      "component_type_rows": {
+        "Census Tract": 144,
+        "Single County": 24,
+        "Unknown": 29
+      },
+      "rows_with_reported_fte": 180,
+      "median_reported_fte_per_component": 1.75,
+      "median_zero_vehicle_pct": 4.515,
+      "median_long_commute_pct": 32.443
+    },
+    "high_zero_vehicle": {
+      "county_count": 44,
+      "counties_with_designated_component": 42,
+      "designated_component_rows": 942,
+      "distinct_hpsa_ids": 135,
+      "component_type_rows": {
+        "Census Tract": 845,
+        "Single County": 34,
+        "Unknown": 63
+      },
+      "rows_with_reported_fte": 891,
+      "median_reported_fte_per_component": 8.778,
+      "median_zero_vehicle_pct": 7.435,
+      "median_long_commute_pct": 30.892
+    }
+  },
+  "boundary": "HPSA rows are designated components, not county-wide provider inventories. Component rows can be tract-, population-, facility-, or county-based and can overlap; reported FTE is missing on some rows and is not summed into a county capacity total. This surface does not measure appointment availability, accepting providers, travel, wait, quality, completed use, or resident outcomes.",
+  "raw_storage": "HRSA input was retained locally; ACS inputs were transient"
+}

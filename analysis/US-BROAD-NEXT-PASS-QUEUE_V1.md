@@ -3480,6 +3480,17 @@ not resident care use, provider reach, causation, recovery, trust, or action.
 The next decisive step remains a provider/travel/use surface or dated local
 closure-and-care-use record.
 
+The [Ohio HPSA component surface](projects/us-local-business-place/bds-ohio-hrsa-provider-surface-v1.md)
+adds the institutional shortage object without collapsing it into county
+capacity. Eighty-one of 88 Ohio counties contain designated primary-care HPSA
+components, but most designated rows are census-tract or otherwise partial
+objects and reported FTE is incomplete. The high-zero-vehicle group has many
+more component rows, demonstrating why raw row counts are not shortage rates.
+This advances institutional classification and missingness visibility, not
+provider reach, appointment use, travel, remedy, recovery, trust, or action.
+The next decisive step remains a provider/site and travel-time surface with a
+defined population or a dated care-use record.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
 now joins the county-sector realization stage to an institutional service
 shortage surface. Across selected sectors, HPSA-represented and other counties

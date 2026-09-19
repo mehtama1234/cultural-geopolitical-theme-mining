@@ -130,6 +130,12 @@ insurance burdens while routine-checkup medians are nearly unchanged. This
 advances outcome visibility but remains an ecological county comparison, not
 resident care use or a health-flow effect.
 
+The [Ohio HPSA component surface](bds-ohio-hrsa-provider-surface-v1.md) adds
+the institutional shortage object. It shows why HPSA row counts and reported
+FTE cannot be treated as county provider capacity: most Ohio designated rows
+are census-tract or population-oriented components, with overlapping objects
+and incomplete FTE.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
 joins realized county-sector flows to the current primary-care shortage
 designation surface. It demonstrates that health-sector employer growth and
