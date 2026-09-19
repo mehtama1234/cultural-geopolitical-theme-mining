@@ -93,6 +93,10 @@ These are real bridges, but each closes only part of the full chain:
   transportation insecurity, food insecurity, mental distress, and lack of
   insurance. Nominal service use can therefore coexist with weaker practical
   room; this is an ecological county comparison, not a resident-level effect.
+- **Infrastructure and state power:** defense authorization and data-center
+  capacity records show commitment and buildout stages, but not necessarily
+  delivered capability, local control, replaceability, public benefit, or
+  changed behavior by another state. Capacity and dependence can rise together.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.

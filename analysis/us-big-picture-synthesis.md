@@ -465,6 +465,14 @@ service-use measure therefore cannot stand in for practical access or household
 security. This is an ecological same-year comparison, not a resident-level
 causal result.
 
+The strategic-capability realization bridge applies the same discipline above
+the household level. Poland’s defense procurement and US data-center records
+show authorization, named capacity, and institutional response stages, but do
+not by themselves show delivered/operational capability, replaceability,
+local incidence, or changed behavior by a partner or rival. State capacity can
+therefore expand while external dependence also deepens; “investment” is not
+yet “power.”
+
 The [AI capability and dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md)
 extends the map from domestic firms and places to infrastructure and states.
 Its central pattern is that imported or privately owned capability can expand
