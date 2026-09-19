@@ -87,6 +87,24 @@ as a counterexample rather than folded into a universal rule. The checks remain
 same-round associations; they do not show that the search found a resource or
 solved the problem.
 
+## Search is not resolution
+
+The inverse check points in the same direction. Respondents who searched were
+also more likely to report the corresponding burden in that same round:
+
+| Search behavior | Burden among searchers | Burden among non-searchers |
+|---|---:|---:|
+| Job search → recent job loss | 16.0% (0.7) | 4.9% (0.4) |
+| Food search → food insufficiency | 12.3% (0.9) | 5.7% (0.3) |
+| Benefit search → energy-bill problem | 23.6% (1.2) | 11.0% (0.4) |
+| Credit search → basic-expense cutback | 24.6% (1.1) | 10.2% (0.4) |
+
+This is not evidence that searching failed; people with greater need are more
+likely to search. But it does establish the measurement boundary clearly:
+search activity is an effort or navigation signal, not proof that the burden
+was removed. A true recovery finding would need a later observation of
+completion, assistance, affordability, restored security, or exit.
+
 ### 4. Opt-out rises modestly while search rises sharply
 
 Active opt-out moves from 22.7% to 29.1% across the expense categories, while
