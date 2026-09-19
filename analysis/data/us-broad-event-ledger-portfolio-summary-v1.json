@@ -4,9 +4,9 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Compact audit of the committed real broad event-ledger portfolio; counts describe retained artifacts and do not pool units, denominators, or causal effects.",
   "totals": {
-    "ledgers": 36,
-    "events": 213,
-    "arrows": 149
+    "ledgers": 37,
+    "events": 214,
+    "arrows": 153
   },
   "events_by_domain": {
     "consumer_financial_recourse": 55,
@@ -19,24 +19,25 @@
     "health_cost_recourse": 97,
     "infrastructure_state_power": 6,
     "infrastructure_technology_dependency": 4,
+    "migration_place_nonuse": 1,
     "owner_household_business_tradeoff": 1,
     "platform_worker_recourse": 4,
     "product_safety_recourse": 6,
     "public_assistance": 1
   },
   "event_evidence_status": {
-    "estimated": 7,
+    "estimated": 8,
     "observed": 158,
     "reported": 48
   },
   "arrow_status": {
     "estimated": 6,
     "observed": 38,
-    "open": 54,
-    "reported": 51
+    "open": 57,
+    "reported": 52
   },
   "event_units": {
-    "case": 183,
+    "case": 184,
     "country": 1,
     "institution": 10,
     "product": 7,

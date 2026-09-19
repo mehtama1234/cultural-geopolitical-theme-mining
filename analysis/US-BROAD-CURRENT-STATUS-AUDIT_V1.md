@@ -1836,7 +1836,7 @@ are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
 The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 36 schema-valid ledgers totaling 213 events and 149 arrows,
+now inventories 37 schema-valid ledgers totaling 214 events and 153 arrows,
 including 52 explicitly open arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The

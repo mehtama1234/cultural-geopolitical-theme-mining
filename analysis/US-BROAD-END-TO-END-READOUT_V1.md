@@ -326,7 +326,10 @@ These are real bridges, but each closes only part of the full chain:
   benefits for that reason, and 10% reported not visiting a doctor, clinic, or
   hospital. This is a direct access-behavior surface, not a vote or generalized
   distrust measure: non-use can protect against perceived risk while also
-  sacrificing care, income, safety, or public support.
+  sacrificing care, income, safety, or public support. The structured [WBNS
+  non-use event ledger](projects/us-immigration-local-demand/data/wbns-2025-immigration-concern-nonuse-event-ledger-v1.json)
+  now preserves this as a cohort-level behavioral endpoint while leaving
+  respondent-level alternatives, remedy, and later action open.
 - **Belonging has separate currencies:** the migration/place comparison finds
   that fast-growing counties had lower reported federal trust than the
   slowest-growth quartile (35.251% versus 41.927%), while state trust, civic
@@ -598,8 +601,8 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
-- **Remedy visibility is still not remedy recovery:** across the 36 retained
-  event ledgers and 213 events, 38 events carry an explicit remedy stage; 13
+- **Remedy visibility is still not remedy recovery:** across the 37 retained
+  event ledgers and 214 events, 38 events carry an explicit remedy stage; 13
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
   The other 175 events have no explicit remedy-stage field. This is not proof

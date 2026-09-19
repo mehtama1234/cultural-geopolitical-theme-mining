@@ -1,0 +1,85 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_subgroup_nonuse_record",
+  "purpose": "Bounded WBNS 2025 immigrant-family cohort ledger connecting perceived immigration or information-sharing risk to differentiated non-use of essential and public-system routes while preserving alternatives, remedy, later trust, and action as open.",
+  "events": [
+    {
+      "event_id": "WBNS-2025-IMMIGRATION-CONCERN-NONUSE-COHORT",
+      "unit": "case",
+      "geography": "United States; adults in immigrant families with children under 19",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-12-01",
+      "date_precision": "December 2025 WBNS published subgroup; avoidance is retrospective over the prior year and not a dated incident",
+      "denominator": "1,036 published-subgroup respondents; activity-specific valid denominators and multiple responses apply",
+      "method": "Structured extraction from the published Urban Institute WBNS subgroup summary and retained compact local metadata; descriptive subgroup estimates, not causal estimation",
+      "missingness": "Respondent identifiers, specific encounter, responsible actor, legal-status adjudication, exact days or amounts, safe alternatives, remedy, later route use, trust, collective action, vote, and exit are not retained",
+      "condition_or_decision": "policy",
+      "exposure": "Reported immigration-status, enforcement, deportation, or information-sharing concern coexists with avoidance of essential activities and public-benefit routes",
+      "alternatives_before_action": "Transit, trusted clinics, community organizations, informal work, alternate schools or care, private benefits, and other safe substitutes are not observed for the same respondent",
+      "immediate_burden_or_benefit": "23% reported avoiding at least one of six essential activities; reported avoidance included not going to work, not visiting a doctor or clinic, not sending children to school or care activities, not driving, not talking to police, and not attending religious or community events. Almost one in five reported going without public benefits because of concern",
+      "choice_or_response": "Non-use is directly reported as a protective or delayed response, but the survey does not establish whether each choice was voluntary, necessary, protective, costly, or replaced by another route",
+      "person_or_actor_with_control": "Families decide whether and how to use routes under perceived risk; employers, schools, clinics, police, agencies, and information systems may shape the practical option set, but no encounter-level authority is identified",
+      "remedy_or_institutional_response": "No respondent-linked agency, employer, school, clinic, police, or public-benefit correction or remedy is observed",
+      "durability_followup": "The retrospective cross-sectional summary does not show whether avoidance persisted, ended, shifted routes, or changed after a later encounter",
+      "immediate_outcome": "Differentiated protective or delayed non-use of essential and public-system routes is reported",
+      "protected_outcome": "Avoidance may protect against a perceived surveillance, enforcement, or status risk in the short run; the protected outcome is not directly measured",
+      "sacrificed_outcome": "Work income, medical care, child care or schooling, transportation, safety reporting, benefits, and community belonging may be forgone or delayed; the survey does not assign these costs to each respondent or route",
+      "cost_risk_transfer": "Perceived data or enforcement risk can shift access and safety costs from institutions to families, but the amount and responsible actor are not identified",
+      "later_outcome": "No same-respondent later health, work, schooling, benefit security, trust, collective action, voting, switching, or exit outcome is retained",
+      "meaning_and_attribution": "Concern and avoidance indicate a meaning/action surface, but no respondent-linked blame, dignity, identity, institutional-trust, or political attribution measure is joined to the specific avoided route",
+      "public_or_collective_response": "No respondent-linked complaint, organizing, protest, vote, or institutional response is observed",
+      "counterexample": "Non-use is not automatically apathy, generalized distrust, harm, or freedom: a family may avoid one route for protection while using a trusted substitute or organizing elsewhere",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Published Urban Institute WBNS subgroup summary; retrospective cross-sectional estimates with activity-specific denominators and no respondent microdata in the retained artifact",
+      "source_url": "https://www.urban.org/research/publication/immigration-concerns-disrupted-families-essential-activities-and-caused"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "WBNS-IMMIGRATION-NONUSE-A-01",
+      "from": "perceived immigration, enforcement, or information-sharing risk",
+      "to": "differentiated avoidance or delayed use of essential and public-benefit routes",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published subgroup reports activity-specific avoidance and public-benefit non-use coexisting with immigration concerns over a retrospective prior-year period",
+      "status": "reported",
+      "counterexample": "Cross-sectional retrospective association does not establish policy causation, incident timing, or legal-risk accuracy",
+      "remaining_gap": "Respondent-level encounter, date, actor, attribution, and valid alternative route"
+    },
+    {
+      "arrow_id": "WBNS-IMMIGRATION-NONUSE-A-02",
+      "from": "avoidance or delayed use",
+      "to": "forgone income, care, schooling, safety, benefits, transport, or belonging",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The activity categories identify routes that may carry work, health, child, safety-net, transportation, and community consequences, but respondent-specific consequences are not measured",
+      "status": "open",
+      "counterexample": "Avoidance can be protective, substituted, or costless for some respondents and costly for others",
+      "remaining_gap": "Same-respondent protected and sacrificed outcomes, duration, amount, and safe substitute"
+    },
+    {
+      "arrow_id": "WBNS-IMMIGRATION-NONUSE-A-03",
+      "from": "non-use under perceived risk",
+      "to": "institutional remedy, correction, or restored access",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published summary contains no respondent-linked complaint, appeal, agency response, or successful access-restoration record",
+      "status": "open",
+      "counterexample": "Absence of a remedy field is an observability boundary, not evidence that no family received help",
+      "remaining_gap": "Dated route attempt, responsible institution, correction, remedy receipt, and durability"
+    },
+    {
+      "arrow_id": "WBNS-IMMIGRATION-NONUSE-A-04",
+      "from": "protective or costly non-use",
+      "to": "later trust, collective action, continued use, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The subgroup summary reports no later respondent-linked trust, organizing, voting, switching, or exit endpoint",
+      "status": "open",
+      "counterexample": "Non-use of one route can coexist with use of another route, community support, organizing, or political participation",
+      "remaining_gap": "Repeated respondent or family follow-up with attribution, action, continued use, safe substitution, and exit reason"
+    }
+  ],
+  "boundary": "This ledger formalizes a published WBNS subgroup non-use surface as a cohort-level behavioral endpoint. It advances the atlas from exposure and opinion to perceived-risk-linked avoidance across differentiated essential routes, but it does not establish causal ordering, legal risk, respondent-level alternatives, remedy, protected or sacrificed outcomes, trust, collective action, switching, or exit.",
+  "storage_boundary": "Only compact published subgroup estimates, activity categories, source URL, and interpretation limits are retained; no respondent microdata or bulk WBNS file is downloaded."
+}
