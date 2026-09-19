@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_case_record",
+  "purpose": "De-identified event ledger for the Rehman platform-deactivation and formal lost-remuneration remedy sequence; it records enforceable remedy stages without claiming payment receipt or lived recovery.",
+  "events": [
+    {
+      "event_id": "AU-REHMAN-2025-12-15",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Commission case UDE2025/384",
+      "actor_initiating_change": "platform",
+      "event_date": "2025-12-15",
+      "date_precision": "day; primary FWC decision and order preserve the sequence",
+      "denominator": "one publicly identified adjudicated case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision, reactivation/lost-remuneration order PR797881, official bulletin, and targeted official document-search recheck",
+      "missingness": "The public packet does not disclose payment receipt, net earnings, avoided expenses, alternative work, post-order trips, durable access, recurrence, household effects, or worker-reported meaning/action; unknown fields are not zeros",
+      "condition_or_decision": "job_rule",
+      "exposure": "Portier/Uber deactivated the worker's platform account on 2025-12-15 over an alleged failed background check",
+      "alternatives_before_action": "Alternative platform work, non-platform work, savings, support, or non-use choice are not observed",
+      "immediate_burden_or_benefit": "Platform access was interrupted; the primary record does not establish net household burden or expense changes",
+      "choice_or_response": "Worker filed an unfair-deactivation application on 2025-12-30; Portier voluntarily reactivated access on 2026-02-20",
+      "person_or_actor_with_control": "Portier/Uber controlled operational access; the Fair Work Commission controlled the adjudicative remedy",
+      "remedy_or_institutional_response": "On 2026-03-20 the Commission issued concurrent reactivation and lost-remuneration orders, including A$7,096.96 gross payable within 14 days",
+      "immediate_outcome": "Voluntary and formal access-restoration stages plus an enforceable gross lost-pay order are observed; payment receipt and actual post-order access are not",
+      "protected_outcome": "The order is designed to restore platform access and the financial position associated with the interruption, but protected lived outcomes are not verified",
+      "sacrificed_outcome": "The amount and duration of lost opportunity during deactivation are represented by a gross order, while residual loss and expenses remain unknown",
+      "cost_risk_transfer": "The order assigns a gross lost-remuneration obligation to the platform, but tax, payment execution, expenses, and household incidence remain unresolved",
+      "later_outcome": "Payment deadline, receipt, net recovery, continued use, alternative work, recurrence protection, household outcome, trust, action, and exit remain unknown",
+      "meaning_and_attribution": "The case identifies the platform and formal Commission route but supplies no worker-reported fairness, dignity, trust, or attribution measure",
+      "public_or_collective_response": "A formal individual application and adjudication are observed; no later organizing, public campaign, or political action is measured",
+      "counterexample": "A formal gross order and payment deadline can coexist with no public receipt, net recovery, alternative, or durable-access record",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary FWC decision [2026] FWC 953, primary order PR797881, official FWC Bulletin Volume 4/26, and targeted official document-search recheck on 2026-09-18; one comparative Australian case, order enforceability does not prove compliance or receipt"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "REHMAN-A-01",
+      "from": "platform deactivation",
+      "to": "worker application",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Primary record dates deactivation to 2025-12-15 and unfair-deactivation application to 2025-12-30",
+      "status": "observed",
+      "counterexample": "A case application demonstrates route use, not general access to recourse or a population rate",
+      "remaining_gap": "Application effort, alternatives, lost income, and worker meaning are not measured"
+    },
+    {
+      "arrow_id": "REHMAN-A-02",
+      "from": "worker application",
+      "to": "voluntary access restoration",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Primary decision records voluntary reactivation communicated on 2026-02-20",
+      "status": "observed",
+      "counterexample": "Voluntary restoration did not eliminate the later formal remedy or establish durable access",
+      "remaining_gap": "Actual post-reactivation use, terms, payment, and protection from recurrence"
+    },
+    {
+      "arrow_id": "REHMAN-A-03",
+      "from": "voluntary access restoration",
+      "to": "formal access and lost-remuneration order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "On 2026-03-20 the Commission issued concurrent reactivation and A$7,096.96 gross lost-remuneration orders",
+      "status": "observed",
+      "counterexample": "Formal access and financial orders are separate outputs rather than proof of lived recovery",
+      "remaining_gap": "Order compliance, payment execution, net recovery, and continued access"
+    },
+    {
+      "arrow_id": "REHMAN-A-04",
+      "from": "gross lost-remuneration order",
+      "to": "payment receipt and net recovery",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Order specifies A$7,096.96 gross and payment within 14 days",
+      "status": "open",
+      "counterexample": "An amount and deadline can exist without a public receipt or net-household outcome",
+      "remaining_gap": "Payment date/channel, tax, receipt, expenses, residual loss, and household recovery"
+    },
+    {
+      "arrow_id": "REHMAN-A-05",
+      "from": "formal access-restoration order",
+      "to": "durable protection and practical exit",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Order requires restoration on pre-deactivation terms, while the official recheck found no later public continued-use, recurrence, or switching record",
+      "status": "open",
+      "counterexample": "An enforceable order can coexist with unknown actual access, alternatives, trust, recurrence, and exit",
+      "remaining_gap": "Actual implementation, post-order work, alternatives, recurrence, worker meaning/trust, switching, non-use, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes a partial public case chain from platform exclusion through application, voluntary restoration, formal access restoration, and an ordered gross lost-remuneration remedy. It does not establish payment receipt, net recovery, durable protection, trust, action, or exit.",
+  "storage_boundary": "No bulk download or raw personal data; only official decision/order metadata, bounded bulletin/search results, and the existing compact local case record are represented."
+}

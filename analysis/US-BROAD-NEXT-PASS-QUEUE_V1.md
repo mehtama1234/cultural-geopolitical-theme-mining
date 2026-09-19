@@ -210,6 +210,9 @@ preserving units and attrition boundaries. The targeted [Rehman platform
 remedy record](projects/ai-work-control/uber-rehman-remedy-record-v1.md) now
 adds a formal reactivation and $7,096.96 gross lost-remuneration order, while
 keeping payment receipt, alternatives, durability, and practical exit open.
+Its [structured broad event ledger](projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json)
+preserves the five case arrows and separates an enforceable gross order from
+receipt and lived recovery.
 It is now promoted into the canonical comparative [remedy record](records/au-rehman-platform-remedy-2026.json)
 and [detailed finding](projects/ai-work-control/findings/ai-work-control-091.md),
 which preserves the one-case Australian boundary and separates access and

@@ -2361,7 +2361,10 @@ worker behavior.
 The [Rehman platform-remedy canonical record](records/au-rehman-platform-remedy-2026.json)
 is now linked directly to that finding, preserving its one-case Australian
 jurisdiction, voluntary/formal reactivation sequence, gross ordered amount, and
-unverified payment, net-recovery, durability, and exit boundaries.
+unverified payment, net-recovery, durability, and exit boundaries. A new
+[structured broad event ledger](projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json)
+preserves the five arrows from deactivation through application, restoration,
+ordered lost pay, and the open receipt/durability stages.
 
 The [Hotak follow-up record](records/au-hotak-reactivation-continued-work-2025.json)
 adds observed post-reactivation activity to that remedy boundary: more than
