@@ -1,23 +1,25 @@
 # Uber / Hotak access-restoration follow-up record v1
 
-**Status:** primary Full Bench record establishes voluntary reactivation and
-continued work; lost-pay amount, receipt, and durability remain open
+**Status:** primary Full Bench record establishes voluntary reactivation,
+continued work, and post-reactivation payment; separate lost-pay amount, receipt,
+and durability remain open
 
 **Checked:** 2026-09-15
 
 The structured [broad event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
-records the four observed/open arrows without treating access restoration as
-financial recovery or durable protection.
+records the five observed/open arrows without treating ordinary post-reactivation
+payment as lost-pay recovery or durable protection.
 
 ## Why this record matters
 
 Hotak supplies the first public follow-up in the Australian packet that goes
 beyond a reactivation statement. The agreed facts recorded by the Full Bench
 state that Uber restored access on 19 May 2025, the worker recommenced work,
-and he completed more than 150 trips afterward. This is evidence of continued
-access and work activity after voluntary reactivation, not proof of payment,
-full restoration of the pre-deactivation position, or freedom from later
-retaliation.
+and he completed more than 150 trips afterward. The merits decision also states
+that he performed work and received payment from Uber after reactivation. This
+is evidence of ordinary post-reactivation work payment, not proof that separate
+lost remuneration was paid, that the pre-deactivation position was fully
+restored, or that later retaliation was absent.
 
 ## Event chain
 
@@ -25,6 +27,7 @@ retaliation.
 |---|---|---|---|
 | 8 Apr 2025 | Uber deactivated the worker | Primary agreed facts | Underlying platform decision and review record remain the merits question |
 | 19 May 2025 | Uber voluntarily reactivated access | Primary agreed facts | Voluntary access restoration is not the same as a formal remedial order |
+| After 19 May 2025 | Full Bench record states the worker performed work and received payment from Uber | Primary merits decision | Amount/timing of ordinary work payment and any separate lost-remuneration payment are not disclosed |
 | By 21 Jul 2025 | Worker had completed more than 150 trips after reactivation | Primary Full Bench record | The record does not establish net earnings, expenses, continued access after that point, or non-retaliation |
 | 23 Sep 2025 | Full Bench found the Commission could still determine the unfair-deactivation application and ordered reactivation | Primary merits decision | Lost-pay quantum required further party consultation; payment receipt is open |
 
@@ -40,10 +43,13 @@ The record supports four separate propositions:
    eliminate the need for a formal order.
 4. The formal order preserved the possibility of restoring the worker's
    financial and contractual position, not only reopening an app account.
+5. The merits record distinguishes payment for work performed after reactivation
+   from the separate lost-remuneration remedy that remained to be calculated.
 
-The record does not prove that the worker received lost remuneration, that the
-account remained active after the reported 150 trips, that ratings or profiles
-were corrected, or that Uber changed its process for other workers.
+The record does not prove that the worker received the separate lost
+remuneration, that the account remained active after the reported 150 trips,
+that ratings or profiles were corrected, or that Uber changed its process for
+other workers.
 
 ## Coding
 
@@ -52,8 +58,9 @@ voluntary_reactivation              observed_adjudicated_record
 continued_access_after_reactivation observed_adjudicated_record
 150_plus_trips                      observed_adjudicated_record
 formal_reactivation_order           observed_adjudicated_record
+post_reactivation_work_payment      observed_adjudicated_record
 lost_pay_quantum                    open_after_direction_to_confer
-payment_receipt                     not_observed
+lost_pay_payment_receipt            not_observed
 profile_or_reason_correction        not_observed
 recurrence_prevention               not_observed
 anti_retaliation                    not_observed
@@ -62,8 +69,8 @@ anti_retaliation                    not_observed
 This is a useful distinction for the remedy ledger:
 
 ```text
-account reopened -> work performed -> financial recovery -> durable protection
-       observed          observed             open                 open
+account reopened -> work performed/payment -> lost-pay recovery -> durable protection
+       observed           observed                  open                  open
 ```
 
 The first two arrows should not be silently promoted into the latter two.
@@ -72,19 +79,20 @@ The first two arrows should not be silently promoted into the latter two.
 
 The official Fair Work Commission decision index and bulletin route were
 rechecked for `UDE2025/53`, `Hotak`, and a later lost-remuneration order. The
-recheck located the Full Bench procedural decision and the merits decision, both
-of which preserve the lost-remuneration question; it did not locate a later
-public filing that verifies payment receipt, net recovery, durable access, or
+merits decision states that payment was received for work performed after
+reactivation, while the reactivation order and decision preserve a separate
+lost-remuneration calculation. The recheck did not locate a later public filing
+that verifies payment of that separate remedy, net recovery, durable access, or
 non-retaliation. This is an indexed-public-record boundary, not evidence that
-payment did not occur or that the worker stopped working.
+the separate remedy was unpaid or that the worker stopped working.
 
 The strongest currently observed chain remains:
 
 ```text
-deactivation -> voluntary reactivation -> 150-plus trips -> formal order
-      observed            observed             observed        observed
-lost-pay amount/order -> payment receipt -> durable protection
-       partial/open          open              open
+deactivation -> voluntary reactivation -> work/payment -> formal order
+      observed            observed          observed       observed
+lost-pay amount/order -> lost-pay receipt -> durable protection
+       partial/open          open                open
 ```
 
 ## Interpretation

@@ -12,7 +12,7 @@
       "date_precision": "day; primary agreed facts and later Full Bench decisions preserve the sequence",
       "denominator": "one publicly identified adjudicated case; no population denominator",
       "method": "Structured extraction from the Fair Work Commission Full Bench agreed facts and merits decision, with a targeted official public-record recheck",
-      "missingness": "The public packet does not disclose net earnings, lost-pay amount, payment receipt, post-trip account status, alternative work, household effects, recurrence, or worker-reported meaning/action; unknown fields are not zeros",
+      "missingness": "The public packet does not disclose net earnings, lost-pay amount or receipt, post-trip account status, alternative work, household effects, recurrence, or worker-reported meaning/action; ordinary payment for post-reactivation work is reported in the merits decision and is not the same as lost-pay remedy receipt",
       "condition_or_decision": "job_rule",
       "exposure": "Worker was deactivated from the Uber platform on 2025-04-08 and later received voluntary access restoration on 2025-05-19",
       "alternatives_before_action": "Alternative platform work, non-platform work, savings, support, or non-use choice are not observed in the public record",
@@ -20,16 +20,16 @@
       "choice_or_response": "Platform voluntarily reactivated access; the worker recommenced work and completed more than 150 trips by 2025-07-21",
       "person_or_actor_with_control": "Uber/Rasier Pacific controlled operational access; the Fair Work Commission later controlled the adjudicative order",
       "remedy_or_institutional_response": "Voluntary reactivation was followed by a formal 2025-09-23 reactivation order; the Commission preserved a lost-remuneration question for further party consultation",
-      "immediate_outcome": "Operational access and continued work activity are observed after reactivation; the record does not establish net financial restoration",
+      "immediate_outcome": "Operational access, continued work activity, and payment for post-reactivation work are observed after reactivation; the record does not establish net financial restoration or payment of separate lost remuneration",
       "protected_outcome": "The worker's ability to perform platform trips was restored at least through the reported 150-plus-trip follow-up",
       "sacrificed_outcome": "The amount and duration of lost earnings or other opportunity during deactivation are not observed",
       "cost_risk_transfer": "The public record leaves the financial cost of interruption and the risk of nonpayment unresolved between worker and platform",
-      "later_outcome": "Formal reactivation occurred, but payment, durable access, corrected profile/reason, non-retaliation, later work, switching, and recovery remain unknown",
+      "later_outcome": "Formal reactivation occurred and ordinary post-reactivation work payment is reported, but lost-remuneration payment, durable access, corrected profile/reason, non-retaliation, later work, switching, and recovery remain unknown",
       "meaning_and_attribution": "The case identifies platform and commission roles but supplies no worker-reported fairness, dignity, trust, or attribution measure",
       "public_or_collective_response": "A formal unfair-deactivation application and adjudication are observed; no later organizing, public campaign, or political action is measured",
       "counterexample": "Operational work resumed before final merits resolution and without a public payment record; this separates access restoration from financial recovery and durable protection",
       "evidence_status": "observed",
-      "source_and_uncertainty": "Primary Fair Work Commission decisions [2025] FWCFB 151 and [2025] FWCFB 214, plus official decision-index recheck on 2026-09-16; one comparative Australian case, public-document non-observation does not prove that private payment or later protection did not occur"
+      "source_and_uncertainty": "Primary Fair Work Commission decisions [2025] FWCFB 151 and [2025] FWCFB 214, including the statement that payment was received for work after 2025-05-19, plus official decision-index recheck on 2026-09-18; one comparative Australian case, public-document non-observation does not prove that separate lost-pay payment or later protection did not occur"
     }
   ],
   "arrows": [
@@ -58,24 +58,35 @@
     {
       "arrow_id": "HOTAK-A-03",
       "from": "continued platform work",
-      "to": "financial recovery",
+      "to": "payment for post-reactivation work",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The public record reports trip activity while leaving lost-pay quantum and payment receipt open",
-      "status": "open",
-      "counterexample": "Work can resume while the income position lost during deactivation remains unresolved",
-      "remaining_gap": "Lost-pay order, payment date/receipt, net recovery, and household effect"
+      "evidence": "The Full Bench merits decision states that the worker performed work and received payment from Uber after reactivation",
+      "status": "observed",
+      "counterexample": "Payment for post-reactivation work can coexist with an unresolved lost-remuneration remedy for the interruption period",
+      "remaining_gap": "Amount and timing of ordinary work payment, net earnings, expenses, and the separate lost-pay remedy"
     },
     {
       "arrow_id": "HOTAK-A-04",
       "from": "formal reactivation order",
+      "to": "lost-remuneration payment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The 2025-09-23 Full Bench decision directed the parties to confer on lost-pay quantum and stated that a separate order would follow; the public recheck found no later lost-pay order or receipt",
+      "status": "open",
+      "counterexample": "A formal access-restoration order and ordinary work payment can coexist with an unresolved lost-pay remedy",
+      "remaining_gap": "Lost-pay quantum, order, payment date/receipt, net recovery, and household effect"
+    },
+    {
+      "arrow_id": "HOTAK-A-05",
+      "from": "formal reactivation order",
       "to": "durable protection and practical exit",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The 2025-09-23 Full Bench decision ordered reactivation but the public recheck found no later implementation, recurrence, or switching record",
+      "evidence": "The order requires reactivation and same pre-deactivation terms, but the public recheck found no later implementation, recurrence, or switching record",
       "status": "open",
-      "counterexample": "A formal order can coexist with unknown payment, profile correction, recurrence prevention, trust, and exit",
-      "remaining_gap": "Actual order compliance, recurrence, alternatives, worker meaning/trust, switching, non-use, and exit"
+      "counterexample": "A formal order can coexist with unknown profile correction, recurrence prevention, trust, and exit",
+      "remaining_gap": "Actual durable compliance, recurrence, alternatives, worker meaning/trust, switching, non-use, and exit"
     }
   ],
   "boundary": "This ledger establishes a partial public case chain from deactivation through operational reactivation and post-reactivation work. It does not establish a complete end-to-end remedy, recovery, trust, action, or exit pathway.",

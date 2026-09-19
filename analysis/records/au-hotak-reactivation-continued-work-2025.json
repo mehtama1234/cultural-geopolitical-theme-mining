@@ -33,16 +33,21 @@
           "unit": "post-reactivation platform trips",
           "value_type": "observed_activity_threshold"
         },
+        "post_reactivation_work_payment": {
+          "value": "Full Bench record states that the worker performed work and received payment from Uber after 2025-05-19",
+          "unit": "ordinary post-reactivation work payment; amount and timing not disclosed",
+          "value_type": "adjudicated_record"
+        },
         "financial_remedy": {
           "value": "lost-remuneration quantum remained open and was directed for party consultation",
-          "unit": "formal remedy stage; payment not observed",
+          "unit": "formal lost-remuneration remedy stage; remedy payment not observed",
           "value_type": "open_remedy_endpoint"
         }
       },
       "method": "Read the primary Fair Work Commission Full Bench and merits records as a dated single-case sequence, preserving voluntary reactivation, subsequent trip activity, formal order, and the separate open lost-pay stage.",
-      "uncertainty": "The public record does not establish net earnings, expenses, payment receipt, account status after the trip count, profile or rating correction, alternative work, recurrence protection, anti-retaliation, household recovery, trust change, collective action, or exit. One Australian case cannot estimate platform incidence or typical remedy effectiveness.",
+      "uncertainty": "The public record establishes that payment was received for post-reactivation work, but does not establish net earnings, expenses, the amount or receipt of separate lost-remuneration relief, account status after the trip count, profile or rating correction, alternative work, recurrence protection, anti-retaliation, household recovery, trust change, collective action, or exit. One Australian case cannot estimate platform incidence or typical remedy effectiveness.",
       "subgroup": "Single case: Mohammad Shareef Hotak and Uber Driver Platform / Rasier Pacific",
-      "counterinterpretation": "More than 150 trips show operational return to work, not unconstrained choice, financial recovery, or durable protection. Continued platform use may reflect dependence or lack of alternatives; the later formal order shows voluntary reactivation did not settle the legal or financial remedy question.",
+      "counterinterpretation": "More than 150 trips and payment for post-reactivation work show operational return and ordinary work compensation, not unconstrained choice, recovery of lost earnings, or durable protection. Continued platform use may reflect dependence or lack of alternatives; the later formal order shows voluntary reactivation did not settle the separate lost-remuneration question.",
       "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb151.pdf",
       "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
       "status": "observed"
@@ -51,7 +56,7 @@
   "related_sources": [
     {
       "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwcfb214.pdf",
-      "claim": "The Full Bench merits record preserves the formal reactivation order and open lost-remuneration stage.",
+      "claim": "The Full Bench merits record preserves the formal reactivation order, post-reactivation work/payment statement, and open lost-remuneration stage.",
       "status": "official-adjudicated-record"
     },
     {
@@ -60,10 +65,10 @@
       "status": "repository-reproduction-audit"
     }
   ],
-  "boundary": "This comparative Australian case closes voluntary access restoration and subsequent observed work activity before a formal access-restoration order. It does not close payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.",
+  "boundary": "This comparative Australian case closes voluntary access restoration, subsequent observed work activity, and ordinary payment for post-reactivation work before and alongside a formal access-restoration order. It does not close lost-remuneration payment, net recovery, alternative work, durable protection, trust, collective action, or practical exit.",
   "reproduction_audit": {
     "retrieval_hash_scope": "Existing committed local Hotak follow-up memo and targeted official decision URLs; no bulk archive retained",
     "retrieval_hash": "local_memo:sha256:116224525f87796c0b4114a2b29cc2b2aeacbb0d50198f245e78050eb844c7d9",
-    "checked": "2026-09-17"
+    "checked": "2026-09-18"
   }
 }

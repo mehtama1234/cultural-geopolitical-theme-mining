@@ -2368,11 +2368,12 @@ adds observed post-reactivation activity to that remedy boundary: more than
 150 trips were completed after voluntary access restoration before the later
 formal reactivation order, while lost-pay quantum remained open. The trip
 sequence is now also represented in a [structured broad event ledger](projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json),
-which keeps operational return-to-work separate from financial recovery,
-durable protection, trust, and exit.
-count demonstrates operational return to work, not unconstrained choice,
-net earnings, household recovery, continued access, or durable protection;
-payment, expenses, alternatives, recurrence, and exit remain unobserved.
+which distinguishes ordinary payment for post-reactivation work from the
+separate lost-remuneration remedy and keeps durable protection, trust, and exit
+open. The case demonstrates operational return to work and ordinary work
+payment, not unconstrained choice, net recovery, household recovery, continued
+access, or durable protection; lost-pay quantum/receipt, expenses, alternatives,
+recurrence, and exit remain unobserved.
 
 The [2025 SHED banking substitution finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md)
 adds a financial-access counterexample to the same boundary. Formal account
