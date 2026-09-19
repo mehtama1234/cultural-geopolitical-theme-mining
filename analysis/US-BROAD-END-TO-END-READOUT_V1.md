@@ -123,6 +123,14 @@ These are real bridges, but each closes only part of the full chain:
   some of it. Provider contact, recovery, and switching are therefore separate
   routes: formal access does not guarantee liquidity, and non-switching does
   not prove satisfaction or trust.
+- **Staying with a bank is a constrained choice:** NBER account-opening data
+  suggest only 5%–15% of depositors open a new account in a year, while its
+  model estimates “sleepy” deposits account for 57% of average deposit
+  franchise value. Staying may protect direct deposits, bill continuity,
+  branch access, and fraud support—or reflect the time and risk of moving.
+  Advertised alternatives are therefore not completed choice; the household
+  rate gain, switching effort, error risk, service value, and later security
+  must be measured together.
 - **Monetary signals versus household action:** a randomized information study
   found that a 25-basis-point rate cut changed one-year inflation expectations
   by about 0.833 percentage points overall, while a separate household study
