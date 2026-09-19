@@ -1,6 +1,6 @@
 # US broad retained same-unit bridge matrix v1
 
-**Checked:** 2026-09-18  
+**Checked:** 2026-09-19
 **Purpose:** identify what the strongest retained same-unit routes actually
 close in the broad end-to-end model. This is a bridge audit, not a pooled
 estimate or a claim that the rows describe the same people.
@@ -25,10 +25,11 @@ dated condition or event
 | [CCES 2010→2014 job-loss panel](projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md) | Same panel respondent’s earlier reported job loss/benefit cut, later insurance status, Congress judgment, contact, and local political action | Earlier work disruption → later institutional judgment/action | Separation date, employer, alternatives, trade-off, remedy, recovery, attribution change, and causal interpretation are absent |
 | [HTOPS April→June fraud follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md) | 6,564 exact SCRAMID links; retrospective exposure, reported loss, agency/law-enforcement reporting, sparse self-reported recovery, then later food, energy, work-loss, and institutional items | Exposure → realized loss/report/reported recovery → later household context | Incident date, actor, alternatives, effort, verified remedy, prior-to-later trust/action change, and switching/exit are absent; recovery cell has 11 respondents |
 | [CFPB Ombudsman redress reissue example](projects/us-customer-automation-recourse/cfpb-ombudsman-redress-reissue-route-v1.md) | One illustrative recipient-side case: expired check → reissue request → difficulty obtaining reissue → Ombudsman-facilitated administrator route | Formal remedy access failure → recipient effort/escalation → facilitated institutional response | Final delivery, cashing, amount, adequacy, residual loss, recovery, trust, switching, and exit are absent; illustrative case is not a population estimate |
+| [DOJ IER DACA rehire and status repair](projects/ai-work-control/ier-daca-rehire-wage-seniority-record-v1.md) | One agency-reported worker case: document/status problem → termination and lower-wage rehire → worker submission → bilateral agreement → prior wage, $4,712.50 back pay, and seniority restored; complaint withdrawn | Employment-status exposure → worker action → institutional correction → wage and status remedy | Alternatives, independent payment confirmation, benefit use, durable employment, household recovery, trust, recurrence, and exit are absent; selected agency case is not a prevalence estimate |
 
 ## What this proves
 
-The broad program has real longitudinal bridges at five different points in
+The broad program has real bridges at six different points in
 the chain:
 
 1. **MEPS** supplies event-to-later-outcome timing.
@@ -36,6 +37,9 @@ the chain:
 3. **CCES** supplies later judgment and action after a prior disruption.
 4. **HTOPS** separates exposure, realized loss, reporting, self-reported recovery, and later household context for linked respondents.
 5. **CFPB Ombudsman** follows a recipient-side remedy-access failure into effort, escalation, and facilitated reissuance without pretending that facilitation equals receipt.
+6. **DOJ IER** supplies a compact remedy-stage case in which worker action is
+   followed by restored wage and seniority, while durable employment and later
+   meaning remain unobserved.
 
 Together they support a structured research model. They do **not** support
 joining medical events, financial adaptation, and job loss into one household
@@ -45,7 +49,7 @@ verified remedy or recovery, and direct meaning/action after the episode.
 
 ## Cross-route cultural reading
 
-The five bridges also reject a simple hardship-to-backlash story. MEPS shows
+The six bridges also reject a simple hardship-to-backlash story. MEPS shows
 that later health and work movement can run in mixed directions after a dated
 medical event. SHED shows that people can improve in broad financial condition
 while continuing some substitutions, borrowing, or reduced use. CCES shows
@@ -56,7 +60,9 @@ separated from later food, energy, and work-loss conditions. In
 the CFPB Ombudsman example, a formal redress route exists but is not immediately
 usable: the recipient must spend effort and escalate before a reissuance route is
 facilitated, and the public record still ends before receipt. In
-plain terms: people do not respond to pressure with one universal sequence.
+the DOJ IER case, complaint withdrawal follows a reported wage and status
+repair, but does not establish durable trust or security. In plain terms: people
+do not respond to pressure with one universal sequence.
 
 They may conserve, delay, borrow, work more, stay attached to an institution,
 contact it, withdraw from it, or act politically—and these choices are not
