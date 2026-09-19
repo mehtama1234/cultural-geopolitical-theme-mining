@@ -206,9 +206,10 @@ relevant domain rather than treating a public intervention as the endpoint.
 Two named CFPB cases sharpen the remedy boundary. In the Cash App case, the
 Bureau documented fraud and dispute-process failures, required operational
 changes, and ordered at least $75 million—and up to $120 million—in consumer
-redress. A current payment-by-case check did not list Block/Cash App as an
-active distribution case. That absence does not prove nonpayment; it means the
-public distribution status and individual receipt are not established here.
+redress. The live CFPB payment-by-case page was rechecked on 2026-09-19 and
+still did not list Block/Cash App as an ongoing or closed distribution case.
+That absence does not prove nonpayment; it means the public distribution status
+and individual receipt are not established here.
 
 BrightSpeed supplies the contrasting visible distribution stage. The CFPB
 identifies 122,507 eligible consumers, $53,885,244 in compensable harm, Epiq
