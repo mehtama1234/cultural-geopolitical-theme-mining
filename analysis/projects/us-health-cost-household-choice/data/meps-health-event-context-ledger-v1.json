@@ -1,7 +1,7 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "person_linked_health_event_context_record",
-  "purpose": "Bounded MEPS 2024 event-family ledger connecting month-precision health events to round-level payment, health, work, and bill context without treating contextual follow-up as event-specific recovery.",
+  "purpose": "Bounded MEPS 2024 event-family ledger connecting month-precision health events to round-level payment, health, work, and bill context plus a strict-window same-person R5/3 follow-up, without treating descriptive persistence or transition as event-specific recovery.",
   "events": [
     {
       "event_id": "MEPS-2024-OFFICE-FIRST-EVENT",
@@ -24,7 +24,7 @@
       "protected_outcome": "Some later health and employment context is observed; no event-specific protected outcome is established",
       "sacrificed_outcome": "Payment, health, work, and bill pressures may coexist, but household sacrifice, unpaid care, food, housing, and debt response are not assigned to this event",
       "cost_risk_transfer": "Round-level payment and bill context can reveal material exposure while leaving the payer, alternative, and institutional burden allocation unknown",
-      "later_outcome": "Later round health, employment, and bill context is available, but event-specific recovery, persistence, trust, action, switching, and exit are unknown",
+      "later_outcome": "A strict R3/1–R4/2 event window is followed by same-person R5/3 health and employment measures; event-specific recovery, persistence cause, treatment continuity, trust, action, switching, and exit remain unknown",
       "meaning_and_attribution": "No event-linked fairness, blame, trust, or identity judgment is retained",
       "public_or_collective_response": "No complaint, appeal, organizing, political action, or collective response is linked",
       "counterexample": "A later improvement or worsening can reflect baseline selection, treatment, unrelated events, or reporting context; it is not automatically event recovery or failure",
@@ -52,7 +52,7 @@
       "protected_outcome": "Some health and employment follow-up is observed; no event-specific protection or restoration is established",
       "sacrificed_outcome": "Payment and possible work/health burden are visible only as contextual measures; unpaid care, food, housing, and debt sacrifices remain unknown",
       "cost_risk_transfer": "Urgent health events may shift payment and time risk to people or families, but the ledger cannot identify who paid or what alternative was feasible",
-      "later_outcome": "Later health, employment, and bill context is available, but event-specific recovery, persistence, trust, action, switching, and exit are unknown",
+      "later_outcome": "A strict R3/1–R4/2 event window is followed by same-person R5/3 health and employment measures; event-specific recovery, persistence cause, treatment continuity, trust, action, switching, and exit remain unknown",
       "meaning_and_attribution": "No event-linked fairness, blame, trust, or identity judgment is retained",
       "public_or_collective_response": "No complaint, appeal, organizing, political action, or collective response is linked",
       "counterexample": "The before/after timing contrast is subject to baseline selection and does not identify an emergency event effect or treatment failure",
@@ -80,7 +80,7 @@
       "protected_outcome": "Some health and employment follow-up is observed; no event-specific protection, treatment continuity, or recovery is established",
       "sacrificed_outcome": "Payment and possible work/health burden are visible only as contextual measures; caregiving, food, housing, and debt sacrifices remain unknown",
       "cost_risk_transfer": "Inpatient events can shift payment, time, and caregiving risk to households, but the ledger does not identify the payer, alternative, or institutional remedy",
-      "later_outcome": "Later health, employment, and bill context is available, but event-specific recovery, persistence, trust, action, switching, and exit are unknown",
+      "later_outcome": "A strict R3/1–R4/2 event window is followed by same-person R5/3 health and employment measures; event-specific recovery, persistence cause, treatment continuity, trust, action, switching, and exit remain unknown",
       "meaning_and_attribution": "No event-linked fairness, blame, trust, or identity judgment is retained",
       "public_or_collective_response": "No complaint, appeal, organizing, political action, or collective response is linked",
       "counterexample": "Timing groups differ in baseline health and employment; follow-up differences cannot be treated as an inpatient event effect or recovery estimate",
@@ -106,10 +106,10 @@
       "to": "later health, employment, and bill context",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Timing groups retain later weighted health, employment, medical-bill-problem, and payment-context measures for office, ER, and inpatient event families",
-      "status": "estimated",
-      "counterexample": "Baseline selection, unrelated events, treatment, and reporting differences can generate follow-up contrasts; timing is not causality or recovery",
-      "remaining_gap": "Event-specific outcome, treatment continuity, household adaptation, and design-based causal comparison"
+      "evidence": "The strict R3/1–R4/2 event-window screen carries the same people to R5/3 and records fair/poor-health resolution or onset, health worsening, nonemployment resolution or onset, and status change for office, ER, and inpatient event families",
+      "status": "observed",
+      "counterexample": "These are weighted descriptive transitions, not causal effects or verified recovery: baseline severity, unrelated events, treatment, attrition, and reporting differences can generate the contrasts",
+      "remaining_gap": "Event-specific outcome, treatment continuity, household adaptation, remedy, and design-based causal comparison"
     },
     {
       "arrow_id": "MEPS-2024-A-03",
@@ -123,6 +123,6 @@
       "remaining_gap": "Need/amount, alternatives, chosen/delayed care, payment completion, appeal/correction, household security, trust, action, and exit"
     }
   ],
-  "boundary": "This ledger formalizes MEPS 2024 as a person-linked, month-ordered health-event context scaffold. It does not establish a health-cost causal effect, event-specific household burden, remedy, recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes MEPS 2024 as a person-linked, month-ordered health-event context scaffold with a strict-window same-person R5/3 follow-up. It establishes descriptive later health/work transitions, not a health-cost causal effect, event-specific household burden, remedy, verified recovery, trust, action, switching, or exit.",
   "storage_boundary": "No raw MEPS respondent or event archive is retained in this artifact; only bounded aggregate event-family fields, denominators, timing, uncertainty, and open arrows from the committed local ledger are represented."
 }

@@ -69,7 +69,8 @@ The central finding so far is:
 These are real bridges, but each closes only part of the full chain:
 
 - **MEPS:** a dated medical event is followed by later health and employment
-  measures. A separate event-family comparison finds that reported denial or
+  measures for the same person across a strict event window and R5/3 follow-up.
+  The event-family comparison finds that reported denial or
   prior-authorization delay is followed by more same-round care delay, medical
   debt, collections, and bill problems across office, ER, and inpatient
   groups. Alternatives, claim-level remedy, trust, and action are missing.
@@ -86,11 +87,12 @@ These are real bridges, but each closes only part of the full chain:
   one composite harm measure.
 - **MEPS episode boundary:** the retained MEPS event ledger has 18,457
   privacy-minimized person/event rows with hashed episode identifiers and
-  month-precision first-event dates. A strict event-window screen can carry
-  people into later health and employment rounds, but the public file does not
-  identify the event-specific alternative, payment choice, appeal, verified
-  remedy, or later trust/action/exit. A dated event therefore improves time
-  ordering without becoming a household recovery story.
+  month-precision first-event dates. The strict event-window screen carries
+  the same people into R5/3 and observes health/work transitions, but the
+  public file does not identify the event-specific alternative, payment choice,
+  appeal, verified remedy, or later trust/action/exit. A dated event therefore
+  improves time ordering and persistence measurement without becoming a
+  household recovery story.
 - **Persistent care foregoing:** in the 2024–2025 SHED recontact panel,
   respondents who continued foregoing care reported 41.783% medical debt,
   65.334% reduced savings, 36.389% increased borrowing, and 76.442% delayed
