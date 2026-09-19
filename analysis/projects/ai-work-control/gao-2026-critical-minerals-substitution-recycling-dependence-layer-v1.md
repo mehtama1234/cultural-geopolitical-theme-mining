@@ -30,7 +30,7 @@ usable.
 | Recycling horizon | GAO finds battery recycling could reduce import reliance on some minerals in about 2–3 years | This is a technology-assessment possibility, not realized capacity, output, or price parity |
 | Semiconductor constraint | GAO finds substitution and recycling may not reduce short-term semiconductor import reliance; substitute materials must meet demanding performance requirements | “May not” is a near-term technical boundary, not proof that future substitution will fail |
 | Technology maturity | Research could improve battery energy density, semiconductor performance, or recovery rates, but GAO notes research, development, and testing may not produce mature technologies in the near term | R&D potential is not a commercial process or domestic supply |
-| TRACE-Ga project stage | DOE selected five organizations for award negotiations and described phases with defined cost, purity, and quantity targets | Selection is not a funding commitment, produced gallium, operating capacity, or reduced import reliance; the target quantities and purity still require project execution and verification |
+| TRACE-Ga project stage | DOE selected five organizations for award negotiations; Indium Corporation separately reports a $3.2 million DOE grant, with Phase 1 prototype validation and Phase 2 targeting a production-ready system capable of at least one metric ton of 4N gallium per year | The Indium announcement is a company-reported award and target, not produced gallium, operating capacity, customer qualification, or reduced import reliance; the other four selections remain at the DOE negotiation-stage boundary |
 | System bottleneck | Recycling requires collection and processing infrastructure and consistent feedstock; substitution requires materials research and manufacturing capability | A policy option or facility announcement is not an operating loop |
 
 ## The central tension
@@ -97,6 +97,13 @@ recover gallium at defined cost, purity, and quantity in two phases, but the
 public announcement does not report produced material, operating yield,
 customer qualification, or import displacement.
 
+One project has since moved one stage further in its own public reporting.
+Indium Corporation says it received a $3.2 million DOE grant and will first
+validate a prototype, then scale toward a production-ready system targeting at
+least one metric ton of 4N gallium per year. That is stronger than selection,
+but it remains an award and target-stage signal: no produced quantity, yield,
+customer use, or import displacement is reported.
+
 The relevant machine-readable ledgers are:
 
 - `data/china-gallium-germanium-export-control-event-ledger-v1.json`
@@ -157,5 +164,7 @@ This memo retains the official HTML landing pages and the GAO/USGS reported
 figures and boundaries.
 
 **Official GAO review:** <https://www.gao.gov/products/gao-26-108687>
+
+**Project-specific award report:** <https://www.indium.com/de/press-releases/indium-corporation-awarded-3-2-million-doe-grant-to-establish-domestic-gallium-supply-chain/>
 
 **Official USGS 2026 summaries:** <https://pubs.usgs.gov/publication/mcs2026>
