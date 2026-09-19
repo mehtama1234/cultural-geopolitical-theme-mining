@@ -1,0 +1,61 @@
+{
+  "format": "next-authorized-longitudinal-pass-handoff-v1",
+  "checked": "2026-09-18",
+  "status": "awaiting_account_controlled_input",
+  "objective": "Close the broad program's open middle with a lawful same-unit longitudinal route linking a dated or recalled material/health event to alternatives or adaptation, money/time trade-off, later outcome, and—where the source supports it—meaning, trust, action, or exit.",
+  "current_boundary": "No PSID, UAS, HRS, or MEPS staged respondent file required for the next gated pass is currently present locally. Public documentation and field manifests are not treated as microdata evidence.",
+  "promotion_gate": {
+    "required_same_unit_fields": [
+      "event_or_exposure_and_time_window",
+      "responsible_actor_or_attribution_if_available",
+      "usable_alternative_or_nonuse",
+      "effort_money_or_time_tradeoff",
+      "adaptation_and_protected_or_sacrificed_outcome",
+      "institutional_response",
+      "verified_remedy_or_defined_outcome_followup",
+      "later_recovery_persistence_or_exit",
+      "meaning_trust_or_action_only_if_directly_measured"
+    ],
+    "rule": "Do not promote an end-to-end finding when a required field is absent, only round-level context, or inferred across different units. Preserve unknown and structurally missing states.",
+    "current_result": "not_qualified"
+  },
+  "ranked_routes": [
+    {
+      "rank": 1,
+      "route": "UAS Older Ages Monthly Events first pass",
+      "why": "Smallest documented event-first route: one uasid-by-wave row, prior-month event timing, medical expenditures, work/earnings, health, pain, and life satisfaction for adults 50+.",
+      "required_inputs": ["Older Ages respondent dataset", "Older Ages codebook"],
+      "official_access": "https://uasdata.usc.edu/index.php?pid=Data+Access&type=3",
+      "first_checks": ["file inventory and hashes", "uasid/wave uniqueness", "yrmo_covered versus yrmo_fielded timing", "weights", "missing-value codes", "event/outcome overlap", "attrition and household-id changes"],
+      "stop_if": ["download is not authorized", "stable key or wave timing fails", "event fields do not overlap later outcomes", "weights or missingness cannot be interpreted", "terms do not authorize processing"]
+    },
+    {
+      "rank": 2,
+      "route": "PSID 2019/2021/2023 material-time-care comparison",
+      "why": "Largest planned many-family bridge for material room, paid work, unpaid care, time pressure, health, wellbeing, persistence, and reversal; it is not a dated remedy episode by itself.",
+      "required_inputs": ["2019 Main Study Family File", "2021 Main Study Family File", "2023 Main Study Family File", "1968-2023 Cross-year Individual File"],
+      "official_access": "https://psidonline.isr.umich.edu/GettingStarted.aspx",
+      "first_command": "python3 scripts/audit_psid_wave_files.py --file 2019=/path/to/FAM2019ER.csv --file 2021=/path/to/FAM2021ER.csv --file 2023=/path/to/FAM2023ER.csv --file 2019=/path/to/IND1968_2023ER.csv --file 2021=/path/to/IND1968_2023ER.csv --file 2023=/path/to/IND1968_2023ER.csv --identifier ER30001 --identifier ER30002 --out analysis/projects/us-household-calendar-integration/psid-wave-file-audit-YYYY-MM-DD.json",
+      "first_checks": ["file structure", "identifier coverage and uniqueness", "codebook universes/routing", "zero versus special missing codes", "retention and mover-out", "weights and variance method", "merge counts"],
+      "stop_if": ["Conditions of Use are not accepted", "target packages are incomplete", "key architecture is ambiguous", "cross-wave fields are not comparable", "valid denominators or variance method are unavailable"]
+    },
+    {
+      "rank": 3,
+      "route": "UAS Comprehensive Panel plus 537/698",
+      "why": "Broader health, financial, employment, wellbeing, billing, access, and institution-perception route after the event-first structure passes.",
+      "required_inputs": ["Comprehensive Panel Dataset", "matching codebook", "UAS 537 and/or UAS 698 only if overlap and terms permit"],
+      "first_checks": ["uasid overlap", "wave alignment", "completed-survey weights", "module timing", "event and trust/action overlap"],
+      "stop_if": ["Older Ages structural gate fails", "module linkage is not demonstrated", "LLM/data-use authorization is absent"]
+    }
+  ],
+  "local_artifacts_to_read_first": [
+    "analysis/projects/us-household-calendar-integration/psid-acquisition-gate-v1.md",
+    "analysis/projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md",
+    "analysis/projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md",
+    "analysis/projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md",
+    "analysis/projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json",
+    "analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md"
+  ],
+  "storage_and_authority": "Use only account-authorized files supplied for this pass. Do not download large archives by default, do not bypass login or terms, do not process UAS files without express written authorization, and retain hashes, field manifests, audit outputs, and compact derived records rather than raw respondent files.",
+  "handoff_result": "The next turn with authorized files begins with structural and access checks, not estimation. If no authorized files are supplied, preserve this as an open acquisition boundary and continue only with bounded public comparators."
+}

@@ -193,6 +193,10 @@ smallest authenticated PSID/UAS or other event-compatible route. Keep selected
 linkage, timing, attrition, units, and the distinction between confidence,
 vote, contact, complaint, action, withdrawal, and recovery explicit. Do not
 download large respondent files by default.
+The crash-safe [authorized longitudinal-pass handoff](data/next-authorized-longitudinal-pass-handoff-v1.json)
+now consolidates the ranked UAS Older Ages, PSID, and UAS Comprehensive Panel
+routes, exact first structural checks, and stop conditions. It is an execution
+handoff, not evidence that account-controlled files or estimates exist.
 The storage-light HTOPS fraud/recovery route has now passed its dictionary,
 weight, and shared-ID checks. The [April-to-June follow-up](projects/us-cost-trust-politics/htops-2025-fraud-followup-v1.md)
 joins 6,564 respondents and adds later food, energy, work-loss, and trust
