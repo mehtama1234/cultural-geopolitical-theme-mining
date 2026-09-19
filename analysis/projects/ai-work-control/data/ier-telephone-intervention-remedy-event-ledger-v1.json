@@ -1,8 +1,39 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "agency_reported_individual_employment_intervention_record",
-  "purpose": "Seven DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, or back pay.",
+  "purpose": "Eight DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, offered reinstatement, non-return, or back pay.",
   "events": [
+    {
+      "event_id": "IER-TEL-2017-11-09-NEW-YORK",
+      "unit": "case",
+      "geography": "New York, New York; worker E-Verify intervention",
+      "actor_initiating_change": "employer",
+      "event_date": "2017-11-09",
+      "date_precision": "IER telephone-intervention summary date; page retrieved September 19, 2026",
+      "denominator": "One reported worker case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER telephone-interventions page",
+      "missingness": "Worker and employer identities, exact wage loss, payment, reason for non-return, alternative work, later employment, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer suspended the worker after repeated E-Verify tentative nonconfirmations and did not provide the required contest paperwork",
+      "alternatives_before_action": "The worker's other job options, financial room, non-use alternatives, and feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "IER reports that the employer offered reinstatement after intervention, but the worker ultimately decided not to return to the job; the lost-work duration and material consequence are unknown",
+      "choice_or_response": "The worker contacted IER and later chose not to return; the reason, alternative secured, and whether the decision was voluntary under adequate options are not reported",
+      "person_or_actor_with_control": "Employer controlled suspension and the reinstatement offer; IER controlled the intervention route; the worker exercised a reported non-return decision, but the conditions around that choice are unknown",
+      "remedy_or_institutional_response": "IER explained proper E-Verify procedures and the employer decided to offer reinstatement",
+      "remedy_stage": "remedy_offered",
+      "remedy_receipt": "The offer is reported, while the worker's non-return is also reported; accepted restoration and payment are not observed",
+      "durability_followup": "No later employment, alternative-work quality, recurrence, household recovery, trust, or reason for staying away is reported",
+      "immediate_outcome": "Agency-reported reinstatement offer followed by worker non-return",
+      "protected_outcome": "A formal route back to the job was offered, but the worker did not return; whether another protected outcome replaced it is unknown",
+      "sacrificed_outcome": "The worker experienced suspension and may have lost work, income, continuity, or workplace belonging; the public record does not quantify those costs",
+      "cost_risk_transfer": "The employer offered access back to the original job, while the worker retained the practical risk of non-return and an unknown alternative path",
+      "later_outcome": "Non-return is observed, but later employment, household recovery, trust, collective action, switching, and exit are not observed",
+      "meaning_and_attribution": "The choice not to return is an action endpoint, but no worker-reported fairness, blame, dignity, or institutional-trust meaning is retained",
+      "public_or_collective_response": "IER intervention is reported; no later collective or political response is observed",
+      "counterexample": "A remedy offer can coexist with non-return; non-return is not automatically successful exit, dissatisfaction, or recovery without the worker's reason and later outcome",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-1; agency-reported case summary with no claimant follow-up"
+    },
     {
       "event_id": "IER-TEL-2021-08-31-REVERE",
       "unit": "case",
@@ -228,7 +259,7 @@
       "to": "worker hotline contact and IER intervention",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Seven dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
+      "evidence": "Eight dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
       "status": "reported",
       "counterexample": "These are selected intervention summaries, not a prevalence sample or complete record of all affected workers",
       "remaining_gap": "Worker denominator, effort, alternatives, non-use, and counterfactual opportunity"
@@ -250,7 +281,7 @@
       "to": "reported back pay",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, and $5,254 across selected summaries; the Miami case also reports a reinstatement offer, and the Yulee case reports an alternate-location job opportunity",
+      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, and $5,254 across selected summaries; the Miami and New York cases report reinstatement offers, while the Yulee case reports an alternate-location job opportunity",
       "status": "reported",
       "counterexample": "Agency-reported payment is not an independently audited receipt, and a reinstatement offer is not accepted reemployment",
       "remaining_gap": "Payment instrument, date, net amount, receipt, acceptance, and adequacy"
@@ -261,12 +292,12 @@
       "to": "durable work, household recovery, trust, action, switching, or exit",
       "unit_held_constant": false,
       "time_order_valid": true,
-      "evidence": "The public intervention summaries stop at the employer decision and reported back pay or offer; no downstream worker-linked endpoint is reported",
+      "evidence": "The public intervention summaries stop at the employer decision, reported back pay or offer, and one worker-reported decision not to return; no later worker-linked outcome is reported",
       "status": "open",
       "counterexample": "A short-term correction can coexist with unresolved household loss, recurrence risk, or changed institutional trust",
       "remaining_gap": "Worker-linked receipt, accepted restoration, later employment, household recovery, meaning, recurrence, collective action, switching, and exit"
     }
   ],
-  "boundary": "This ledger formalizes seven selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, rapid rehire, exact back-pay reporting in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes eight selected DOJ IER telephone-intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, offered reinstatement, one reported non-return decision, rapid rehire, exact back-pay reporting in one case, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
   "storage_boundary": "No claimant files, direct identifiers, employer identities, bulk archive, or payment instruments are retained; only bounded public case summaries, dates, reported remedy fields, uncertainty, and open arrows are represented."
 }

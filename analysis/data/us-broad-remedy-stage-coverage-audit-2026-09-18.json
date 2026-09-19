@@ -4,15 +4,15 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
-    "ledgers": 35,
-    "events": 211,
-    "events_with_explicit_remedy_stage": 36,
+    "ledgers": 36,
+    "events": 212,
+    "events_with_explicit_remedy_stage": 37,
     "events_without_explicit_remedy_stage": 175,
     "ledgers_with_explicit_remedy_stage": 19,
     "ledgers_without_explicit_remedy_stage": 16
   },
   "stage_counts": {
-    "remedy_offered": 4,
+    "remedy_offered": 5,
     "remedy_ordered": 9,
     "remedy_implemented": 9,
     "remedy_reported_received": 13,
@@ -58,6 +58,7 @@
     ,{"event_id": "IER-TEL-2018-02-02-DISPUTANTA", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2017-06-20-OSHKOSH", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2023-06-09-YULEE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-TEL-2017-11-09-NEW-YORK", "remedy_stage": "remedy_offered", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "FTC-YELLOWSTONE-THIRD-REFUND-2026-09-19", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json"}
   ],
   "interpretation": "The vocabulary is now applied across the 36-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
