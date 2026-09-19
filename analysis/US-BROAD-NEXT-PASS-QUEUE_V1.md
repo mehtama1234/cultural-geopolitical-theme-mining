@@ -3066,13 +3066,17 @@ The September 18 continuation closes part of that acquisition target. A
 machine-readable sequence now records China's 2023 gallium/germanium licensing
 control, USITC-reported early Chinese shipment contraction and price movement,
 DOE's 2026 gallium-recovery selections, GlobalFoundries' Vermont GaN route, and
-the Navitas/GF September 2026 US-manufacturing shipment schedule. The current
+the Navitas/GF September 2026 US-manufacturing shipment schedule. A July 2026
+SEC-filed Navitas investor update adds an important scale boundary: the broader
+US 8-inch GaN ramp is targeted for 2027–28, while customer sampling and
+qualification are still expected before the end of 2026. The current
 critical-minerals portfolio therefore has a policy-to-market-to-capability
-chain, but not yet a named US firm with confirmed delivered product, customer
-qualification, upstream gallium provenance, measurable import displacement,
-or an observed geopolitical concession. The next qualifying pass should seek
-one of those realization records; it should not relabel project selection or a
-forward-looking shipment schedule as operating autonomy.
+chain, but not yet a named US firm with independently confirmed delivered
+product, customer qualification, scaled output, upstream gallium provenance,
+measurable import displacement, or an observed geopolitical concession. The
+next qualifying pass should seek one of those realization records; it should
+not relabel project selection, a forward-looking shipment schedule, or an
+initial wafer/sample stage as operating autonomy.
 
 ## Sequencing rule
 
