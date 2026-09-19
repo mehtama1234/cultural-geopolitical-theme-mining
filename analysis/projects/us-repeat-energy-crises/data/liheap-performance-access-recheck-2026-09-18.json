@@ -31,5 +31,13 @@
     "health_food_medicine_or_work_protection": "not_observed",
     "trust_action_or_exit": "not_observed"
   },
+  "accessible_reporting_surfaces": [
+    "grant-recipient one-page profiles",
+    "single-state standard reports",
+    "cross-state standard reports",
+    "custom reports",
+    "state performance-measure executive summaries"
+  ],
+  "data_vintage_boundary": "The site identifies FY2023, FY2024, and FY2025 performance-measure data as preliminary pending final validation; this recheck does not extract a state value or combine preliminary state rows into a national estimate.",
   "next_decisive_route": "Obtain an authorized state/grantee case or same-household event source with dated bill/notice, application, award or denial, receipt/reconnection, next bill, and repeat-crisis fields; do not treat the public warehouse as a person-level panel."
 }

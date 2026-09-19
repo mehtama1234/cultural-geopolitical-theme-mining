@@ -10,6 +10,12 @@ performance-measure summaries were uploaded in July 2026. The live performance
 page presents FY2023–FY2025 data as preliminary pending final validation and
 includes a service-loss restoration/prevention category.
 
+The accessible reporting surface includes grant-recipient one-page profiles,
+single-state reports, cross-state standard reports, custom reports, and state
+performance-measure executive summaries. This makes a bounded state-level
+comparison executable in principle, but the current recheck does not extract a
+state value or combine preliminary rows into a national estimate.
+
 HHS also defines restoration and prevention as occurrences among LIHEAP-
 assisted households, including bill-payment and equipment-repair/replacement
 routes. That definition is valuable because it separates restored service from
