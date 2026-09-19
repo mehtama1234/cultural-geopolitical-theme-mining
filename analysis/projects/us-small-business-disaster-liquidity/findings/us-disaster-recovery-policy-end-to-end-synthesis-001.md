@@ -4,7 +4,7 @@
 
 ## The synthesis
 
-The current disaster lane contains four complementary US evidence surfaces,
+The current disaster lane contains six complementary US evidence surfaces,
 not one joined causal dataset:
 
 1. **Firm finance:** government recovery loans can reduce firm exit and
@@ -18,6 +18,12 @@ not one joined causal dataset:
 4. **Resident judgment:** nearly a year after Harvey, recovery progress coexisted
    with continued disruption, unmet-help reports, and doubts that relief reached
    those most in need.
+5. **Survivor-facing public delivery:** GAO's FEMA review records aggregate
+   assistance, helpline reachability, eligibility-letter interpretation,
+   direct-housing bottlenecks, and a shift toward state/local delivery centers.
+6. **Community economic capacity:** GAO's EDA review records federal
+   coordination, supplemental funding and delay, project composition, and the
+   inability of current measures to validate broad economic outcomes.
 
 The [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
 formalizes the shared chronology and open arrows without pooling the underlying
@@ -27,8 +33,11 @@ Together these findings support a more disciplined broad claim: public
 intervention can change the survival of firms and the availability of local
 options, but its social meaning depends on who receives liquidity, who bears
 new debt or travel time, whose household buffers absorb the shock, and whether
-residents can see and navigate the remedy. “Recovery” is therefore a
-distributional process across money, time, access, security, and legitimacy.
+residents can see and navigate the remedy. Public capacity also has separate
+clocks: an appropriation or award can precede a usable project, and aggregate
+assistance can coexist with a difficult application interface. “Recovery” is
+therefore a distributional process across money, time, access, security, and
+legitimacy.
 
 ## Comparative evidence map
 
@@ -38,13 +47,16 @@ distributional process across money, time, access, security, and legitimacy.
 | Owner cash pool | Linked small-business and owner-household accounts | Business-household account links; early COVID through 2021 | Revenue-to-owner-consumption pass-through | Disaster-loan causality, reserves, debt, business survival, workers |
 | Customer option set | Payment-card store turnover and modeled demand after Harvey | Stores/cardholders/neighborhoods; storm through Dec. 2018 | Closure, distance, entry, relative/modelled welfare, price-path distinction | Cash users, missed trips, income-specific burden, aid receipt |
 | Resident recovery judgment | KFF/EHF weighted 24-county survey | Adults/residents; 10–11 months post-Harvey | Disruption, help adequacy, aid applications, fairness confidence, awareness | Verified payment, causal attribution, later civic action, trust change |
+| Survivor-facing public delivery | GAO FEMA review and structured delivery ledger | Agency/interface; Helene, Milton, Los Angeles fires, Texas floods | Aggregate support, reachability, notice friction, housing bottlenecks, delivery redesign | Survivor receipt, placement, adequacy, recovery, trust, action |
+| Community economic capacity | GAO EDA review and structured recovery ledger | Agency/project portfolio; FY2013–FY2025 coordination and FY2014–FY2024 grants | Coordination, award scale, funding timing, project composition, measurement limits | Disbursement-to-use, completed assets, jobs/wages, household access, local counterfactual |
 
 ## The end-to-end chain, with open arrows
 
 ```text
 natural disaster or eligibility shock
   -> physical damage, revenue loss, or public-support reallocation
-  -> loan, subsidy, insurance, private credit, savings, or no remedy
+  -> loan, subsidy, insurance, public assistance, private credit, savings, or no remedy
+  -> contact, eligibility, placement, coordination, and project implementation constraints
   -> firm survival / exit + owner consumption / debt
   -> worker jobs + customer distance, substitution, and prices
   -> household recovery, local service availability, and perceived fairness
@@ -73,6 +85,10 @@ The program should treat disaster recovery as a test of five currencies:
 - **Security:** jobs, wages, housing, health, food, and household buffers; and
 - **Legitimacy:** whether affected people see the remedy, believe it is fair,
   and can act through a public route.
+
+Public capacity is a separate currency within the map: authorization, reach,
+interpretability, placement, coordination, project usability, and validated
+outcomes must not be collapsed into a single aid or resilience score.
 
 The evidence currently measures each currency in different source families.
 It does not justify an overall “resilience” score or a claim that any one
@@ -122,6 +138,10 @@ administrative, or household files.
 - [Harvey customer-welfare finding](us-harvey-firm-turnover-consumer-welfare-001.md)
 - [Harvey recovery-and-legitimacy finding](us-harvey-recovery-aid-legitimacy-001.md)
 - [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
+- [FEMA delivery layer](../../us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
+- [FEMA structured delivery ledger](../../us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json)
+- [EDA economic-recovery layer](../../us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
+- [EDA structured recovery ledger](../../us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json)
 - [Small-business size-rule finding](../../us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md)
 - [Project source packet](../source-search-2026-09-11.md)
 
