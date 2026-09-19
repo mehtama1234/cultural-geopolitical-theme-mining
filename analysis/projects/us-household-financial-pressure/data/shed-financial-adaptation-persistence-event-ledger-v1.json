@@ -1,0 +1,85 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "Bounded SHED 2024–2025 same-respondent ledger connecting financial-condition paths to persistence and re-entry of consumer adaptations, then to health and unpaid-care paths while preserving dated trigger, remedy, trust, and action as open.",
+  "events": [
+    {
+      "event_id": "SHED-2024-2025-FINANCIAL-ADAPTATION-PERSISTENCE",
+      "unit": "case",
+      "geography": "United States; recontacted SHED respondents",
+      "actor_initiating_change": "unknown",
+      "event_date": "2024-01-01",
+      "date_precision": "2024-to-2025 annual recontact path; no dated bill, price, employer, policy, or household event is identified",
+      "denominator": "4,419 paired respondents with a valid 2024–2025 financial-condition path and nonmissing 2025 panel weight; adaptation, health, and care denominators vary",
+      "method": "Weighted descriptive SHED panel transition comparison using the 2025 panel weight; no design-based variance or causal estimation",
+      "missingness": "Dated trigger, price or bill, actor, household resources, adaptation reason, schedule control, debt terms, care intensity, remedy, trust, action, switching, and exit are not retained",
+      "condition_or_decision": "income",
+      "exposure": "Respondents moved along worsened, same broad, or improved financial-condition paths between 2024 and 2025 while reporting consumer adaptations in both waves",
+      "alternatives_before_action": "Cheaper products, reduced use, savings, borrowing, family support, work-more, and other substitutes are measured as separate reports but not as a complete feasible-choice set",
+      "immediate_burden_or_benefit": "Among prior adopters, persistence was higher on worsened than improved paths for switching to cheaper products (86.9% vs 68.8%), reduced use (84.8% vs 66.1%), reduced savings (71.0% vs 55.0%), borrowing (65.1% vs 45.0%), and delayed major purchases (75.2% vs 56.6%)",
+      "choice_or_response": "The same respondents report persistence or re-entry of consumer adaptations; the panel does not identify whether an adaptation protected cash, reduced quality or care, reflected debt, or ended because an alternative became available",
+      "person_or_actor_with_control": "Households and respondents report financial condition and adaptation, but providers, employers, prices, debt contracts, family support, and policy actors that shape practical options are not identified",
+      "remedy_or_institutional_response": "No dated provider, employer, creditor, agency, or firm remedy is linked to the financial path or adaptation",
+      "durability_followup": "Persistence and re-entry are observed descriptively across one annual recontact; longer durability, repayment, buffer restoration, and later security are unknown",
+      "immediate_outcome": "Same-respondent adaptation persistence and re-entry are visible across financial-condition paths",
+      "protected_outcome": "Working more, borrowing, using less, or buying cheaper may protect immediate cash flow or consumption; the protected outcome is not directly measured",
+      "sacrificed_outcome": "Time, quality, health, mobility, social participation, savings, future flexibility, and repayment capacity may be sacrificed; the panel does not assign those costs to a named adaptation",
+      "cost_risk_transfer": "Financial pressure can shift risk into borrowing, depleted savings, reduced use, delayed purchases, work time, health, and unpaid care, but the bearer and mechanism are not identified",
+      "later_outcome": "Health direction and unpaid-adult-care entry or exit are observed as adjacent 2025 paths, but treatment continuity, recipient outcome, household recovery, trust, action, switching, and exit are not observed",
+      "meaning_and_attribution": "No respondent-linked attribution, fairness, dignity, institutional trust, cultural meaning, or political judgment is joined to the adaptation path",
+      "public_or_collective_response": "No respondent-linked complaint, organizing, voting, policy demand, or collective response is observed",
+      "counterexample": "Improved financial condition can coexist with persistent borrowing or reduced use, while worsened condition can coexist with ended adaptation, unchanged health, or care exit; broad money recovery is not full-life recovery",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Reproduced SHED 2024–2025 same-respondent descriptive panel layers; recontact selection, broad financial categories, no replicate weights, and no dated event limit interpretation",
+      "source_url": "https://www.federalreserve.gov/consumerscommunities/shed_data.htm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "SHED-ADAPT-A-01",
+      "from": "2024 respondent state and adaptation",
+      "to": "2025 same-respondent financial-condition path and adaptation persistence or re-entry",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The recontacted panel uses shared respondent identifiers and reports 2025 adaptation among 2024 prior adopters and re-entry among prior non-adopters, stratified by the 2024–2025 financial-condition path",
+      "status": "observed",
+      "counterexample": "Annual path categories do not identify a dated trigger, causal direction, or complete household resource trajectory",
+      "remaining_gap": "Dated price, bill, income, debt, care, work, or policy event and mechanism"
+    },
+    {
+      "arrow_id": "SHED-ADAPT-A-02",
+      "from": "financial-condition path",
+      "to": "health direction and unpaid-adult-care entry or exit",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same paired respondents report health direction and care-status transitions alongside the financial-condition path",
+      "status": "estimated",
+      "counterexample": "Health, family, housing, employment, and care changes can shape both financial condition and adaptation; care status is not care hours or recipient outcome",
+      "remaining_gap": "Dated need, care intensity, work/time substitution, treatment continuity, and household attribution"
+    },
+    {
+      "arrow_id": "SHED-ADAPT-A-03",
+      "from": "persistent or ended adaptation",
+      "to": "restored material room, quality, health, care, or future flexibility",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The panel reports adaptation persistence and re-entry but does not observe whether an adaptation protected or sacrificed a defined outcome",
+      "status": "estimated",
+      "counterexample": "Reduced use can protect cash while harming quality or care; borrowing can preserve consumption while increasing future burden",
+      "remaining_gap": "Same-respondent protected/sacrificed outcome, amount, time, quality, repayment, and recovery"
+    },
+    {
+      "arrow_id": "SHED-ADAPT-A-04",
+      "from": "adaptation and later financial/health/care path",
+      "to": "trust, attribution, civic action, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The SHED adaptation panel layer contains no event-linked trust, blame, institutional response, political action, switching, or exit endpoint",
+      "status": "open",
+      "counterexample": "Repeated adaptation can reflect dependence, effective coping, preference, or lack of alternatives; behavior alone does not identify meaning or trust",
+      "remaining_gap": "Same-respondent attribution, institutional encounter, remedy, trust, civic action, provider switching, and exit reason"
+    }
+  ],
+  "boundary": "This ledger formalizes a same-respondent financial-condition-to-adaptation persistence route. It advances the atlas from population adaptation levels to repeated consumer behavior and adjacent health/care paths, but it does not establish a dated cause, remedy, complete recovery, trust change, political action, switching, or exit.",
+  "storage_boundary": "Only compact reproduced panel results, denominators, source URL, and interpretation limits are retained; raw SHED files remain outside the repository."
+}

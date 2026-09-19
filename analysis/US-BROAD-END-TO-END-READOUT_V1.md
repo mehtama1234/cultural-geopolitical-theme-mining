@@ -108,7 +108,10 @@ These are real bridges, but each closes only part of the full chain:
   cash room, debt, and delayed purchases therefore recover on different clocks;
   annual self-rated health does not establish the event, cause, or remedy.
 - **SHED:** the same respondent’s financial condition and adaptations persist or
-  reverse across waves. The trigger is not transaction-dated.
+  reverse across waves. The trigger is not transaction-dated. The structured
+  [SHED adaptation-persistence ledger](projects/us-household-financial-pressure/data/shed-financial-adaptation-persistence-event-ledger-v1.json)
+  records this as a same-person adaptation-to-health/care route while keeping
+  remedy, trust, action, switching, and exit open.
 - **Adaptation is not one income ladder:** in the 2024–2025 SHED recontact
   panel, among prior adopters on a worsening financial-condition path,
   cheaper-product use persisted for 89.9% of respondents under $50,000,
@@ -605,11 +608,11 @@ These are real bridges, but each closes only part of the full chain:
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
-- **Remedy visibility is still not remedy recovery:** across the 38 retained
-  event ledgers and 215 events, 38 events carry an explicit remedy stage; 13
+- **Remedy visibility is still not remedy recovery:** across the 39 retained
+  event ledgers and 216 events, 38 events carry an explicit remedy stage; 13
   are marked as reported received, but none has verified recipient receipt,
   verified durability, or a defined outcome follow-up in the portfolio audit.
-  The other 177 events have no explicit remedy-stage field. This is not proof
+  The other 178 events have no explicit remedy-stage field. This is not proof
   that remedies failed; it is proof that the public records usually stop at
   order, implementation, or reported distribution rather than showing whether
   the affected person regained a protected outcome or practical choice. See
