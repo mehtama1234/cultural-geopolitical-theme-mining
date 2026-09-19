@@ -1,0 +1,36 @@
+{
+  "format": "employment-remedy-followup-recheck-v1",
+  "checked": "2026-09-18",
+  "case_id": "AU-ADCON-SMITH-2024",
+  "matter": "U2024/1618; Adam Smith v Adcon Admin Pty Ltd [2024] FWC 2775",
+  "scope": "Targeted public-document search for FEG, liquidator, employee-claim, and payment follow-up after the Adcon Admin dismissal and compensation order.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2024fwc2775.pdf",
+      "role": "primary_merits_decision",
+      "result": "Records court-appointed liquidation, liquidator correspondence advising the applicant about FEG entitlements, lower-paid alternative employment, and a $17,531.43 compensation order; does not record a FEG determination or payment."
+    },
+    {
+      "url": "https://wexted-bucket.s3.ap-southeast-2.amazonaws.com/ADC_01_240619_Administrators_Report_WXA_1_6f92a54731.pdf",
+      "role": "public_administrator_report_candidate",
+      "result": "Rejected for same-episode linkage: the report identifies Adcon VIC Pty Limited, ACN 606 820 375, as the company, not Adcon Admin Pty Ltd, ACN 613 820 321. It discusses possible employee claims and FEG generally, but supplies no admissible worker-linked outcome for Mr Smith."
+    },
+    {
+      "url": "https://insolvencynotices.com.au/archive/notice_archive_1.html",
+      "role": "public_insolvency_notice_index",
+      "result": "Confirms public notices for Adcon Admin Pty Ltd, including winding-up and later creditor-meeting notices, but does not provide a worker-linked FEG determination, payment receipt, or compensation settlement."
+    }
+  ],
+  "stages": {
+    "alternative_employment": "observed_in_primary_decision",
+    "reported_household_stress": "observed_in_primary_decision",
+    "liquidation": "observed_in_primary_decision",
+    "feg_entitlement_advice": "reported_in_primary_decision",
+    "feg_application_or_eligibility": "not_observed",
+    "compensation_order": "observed_in_primary_decision",
+    "compensation_receipt": "not_observed",
+    "later_job_or_household_recovery": "not_observed"
+  },
+  "boundary": "A related-entity administrator report cannot be joined to Adcon Admin or Mr Smith merely because both use the Adcon name. The current public route establishes entitlement advice and formal remedy availability, not eligibility, payment, receipt, or recovery.",
+  "storage_boundary": "No worker file, FEG application, payment instrument, or bulk insolvency archive is retained; only bounded URLs, entity identifiers, stage statuses, and the rejected cross-entity join are recorded."
+}

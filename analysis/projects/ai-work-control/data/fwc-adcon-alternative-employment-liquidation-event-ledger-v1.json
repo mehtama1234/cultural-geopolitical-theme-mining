@@ -2,6 +2,7 @@
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "public_adjudicated_employment_liquidation_record",
   "purpose": "Bounded Fair Work Commission case ledger preserving employer shutdown, unpaid promised entitlements, documented family and financial stress, lower-paid alternative employment, and a compensation order without treating the order as payment receipt or durable recovery.",
+  "public_followup_recheck": "analysis/projects/ai-work-control/data/fwc-adcon-liquidation-followup-recheck-2026-09-18.json records the entity-specific search boundary and rejects a related Adcon VIC administrator report as a false same-case join",
   "events": [
     {
       "event_id": "FWC-ADCON-SMITH-2024-01-31",
