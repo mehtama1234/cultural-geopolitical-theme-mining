@@ -109,6 +109,13 @@ These are real bridges, but each closes only part of the full chain:
   it most. Recovery progress, aid reachability, and legitimacy therefore move
   on different clocks; an application or public award is not receipt, adequacy,
   or restored trust.
+- **Firm survival and household/local consequences:** a threshold-based SBA
+  disaster-credit study estimates a 13.2-point reduction in firm exit and
+  roughly 18% higher employment for the studied firms, but also about $17,712
+  more non-SBA private debt. The result is strong firm-level recovery evidence,
+  not proof of worker security, owner-household recovery, affordable customer
+  service, or lower public risk: survival can preserve an option while moving
+  obligations elsewhere.
 - **Cash App enforcement:** the CFPB record documents fraud/dispute-process
   failures, required operational correction, and up to $120 million in
   consumer redress. It advances the route from reported loss to a named
