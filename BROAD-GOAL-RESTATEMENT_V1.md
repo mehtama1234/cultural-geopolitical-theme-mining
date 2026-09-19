@@ -119,11 +119,11 @@ pass should strengthen one bridge that can change the atlas while preserving
 the broader scope and explicitly stating what remains open. The current bridge
 status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
 
-## Verified resumption checkpoint — 2026-09-17
+## Verified resumption checkpoint — 2026-09-19
 
-The publication gate currently passes all 22 checks: 343 canonical records,
-1,213 observations, 103 source packets, 14 themes, 667 published HTML pages,
-and 1,310 Markdown files are synchronized and locally linked. The broad
+The publication gate currently passes all 22 checks: 344 canonical records,
+1,214 observations, 103 source packets, 14 themes, and 669 published HTML
+pages are synchronized and locally linked. The broad
 same-case episode audit confirms that the atlas has substantial exposure,
 adaptation, institutional-response, and selected follow-up evidence, but no
 retained source closes the complete sequence from dated exposure and usable
