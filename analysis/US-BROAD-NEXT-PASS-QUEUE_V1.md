@@ -1191,7 +1191,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 27 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 28 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1229,6 +1229,11 @@ The [structured FWC client-redirection ledger](projects/ai-work-control/data/fwc
 adds alternative surf-shop earnings, client redirection, relationship
 breakdown, and a staged compensation schedule. Treat it as a partial action
 comparator, not as receipt-verified recovery or practical exit.
+The [structured Westrip ledger](projects/ai-work-control/data/fwc-westrip-alternative-employment-compensation-event-ledger-v1.json)
+adds a five-week transition to alternative employment, an interim income gap,
+non-return through compensation in lieu of reinstatement, and a $3,744 order.
+Treat it as an alternative-employment comparator, not receipt-verified
+recovery or durable exit.
 The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
 adds an officially reported compensation payment followed by failed
 reinstatement and court enforcement. Treat it as a payment-implementation
@@ -1238,9 +1243,9 @@ adds the contrasting aggregate-completion stage: a reported exhausted
 $18.25 million back-pay fund, distinct from worker-level receipt and restored
 opportunity.
 
-**Stage-bottleneck promotion gate (2026-09-18):** across those 27 surfaces,
-23 have an observed dated event/exposure and 24 have an observed institutional
-or firm response, but only 5 have an observed alternative/non-use stage, 2 have
+**Stage-bottleneck promotion gate (2026-09-18):** across those 28 surfaces,
+24 have an observed dated event/exposure and 25 have an observed institutional
+or firm response, but only 6 have an observed alternative/non-use stage, 2 have
 an observed agency-reported individual remedy, and none has a fully observed
 meaning/trust/action or recovery/persistence/exit stage. The machine record
 now encodes `qualifies: false` and requires both fields on the same retained

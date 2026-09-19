@@ -1,0 +1,94 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Primary Fair Work Commission case ledger preserving dismissal, the five-week transition to alternative employment, a decision not to seek reinstatement, and an ordered compensation remedy without treating the order as payment receipt.",
+  "events": [
+    {
+      "event_id": "FWC-WESTRIP-2023-05-09",
+      "unit": "worker",
+      "geography": "Sydney, Australia; Fair Work Commission case [2023] FWC 2632",
+      "actor_initiating_change": "employer",
+      "event_date": "2023-05-09",
+      "date_precision": "dismissal date; decision records alternative employment beginning 2023-06-13 and a compensation order within 21 days",
+      "denominator": "One publicly identified adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision",
+      "missingness": "Payment receipt, alternative-offer set, job duration, household effect, recurrence, collective action, and later trust or exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "The employer dismissed a qualified mechanic after disputed conduct and performance concerns, without a prior opportunity to respond; the Commission found the dismissal unfair but found a valid underlying reason and reduced the remedy scope accordingly",
+      "alternatives_before_action": "The worker obtained and began alternative employment on 2023-06-13, five weeks after dismissal, earning a little more than in the prior role; the public decision does not enumerate other feasible offers or rejected alternatives",
+      "immediate_burden_or_benefit": "The worker had no remuneration during the three weeks the Commission found he would likely have remained employed, and the decision ordered $3,744 gross less tax",
+      "choice_or_response": "The worker challenged the dismissal, sought a separation certificate, obtained alternative employment, and did not seek reinstatement because the new employment and circumstances made return inappropriate",
+      "person_or_actor_with_control": "The employer controlled dismissal and separation documentation; the worker controlled the challenge and job search; the Commission controlled the remedy determination",
+      "remedy_or_institutional_response": "The Commission found the dismissal unfair and ordered $3,744 gross less tax in lieu of reinstatement within 21 days",
+      "immediate_outcome": "A five-week transition to alternative employment, a bounded non-return/remedy choice, a defined no-income interval, and an ordered compensation remedy are observed; payment receipt is not",
+      "protected_outcome": "The worker obtained new employment at slightly higher pay and the formal decision supplied a compensation route; longer-term recovery is not measured",
+      "sacrificed_outcome": "The worker lost the original employment and had no income during the assessed three-week notice-period loss; separation-certificate and accrued-leave disputes remained unresolved in the decision",
+      "cost_risk_transfer": "The worker carried search and interim income costs while the employer received a compensation obligation subject to execution",
+      "later_outcome": "New employment and the end of the original employment relationship are observed, but payment receipt, job duration, household recovery, recurrence, later trust, collective action, switching, and exit remain unknown",
+      "meaning_and_attribution": "The record documents a workplace trust dispute and a decision not to seek reinstatement, but does not provide a standardized trust measure or durable identity judgment",
+      "public_or_collective_response": "The worker used the formal Commission route and individual job-search response; no later collective or political action is reported",
+      "counterexample": "Alternative employment can be obtained quickly enough to limit assessed compensation while the worker still loses an employment relationship and faces an interim income gap; an order is not receipt",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2023] FWC 2632, https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2632.pdf; the decision records dismissal, alternative employment, the five-week gap, no income during the assessed three weeks, and a $3,744 order, but no payment receipt or later follow-up"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-WESTRIP-A-01",
+      "from": "dismissal and procedural/trust dispute",
+      "to": "alternative employment after five weeks",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records dismissal on May 9, 2023, no income during the assessed three-week notice-period interval, and a new role beginning June 13, 2023",
+      "status": "observed",
+      "counterexample": "A new job does not reveal the full offer set, search effort, duration, or equivalence of work",
+      "remaining_gap": "Alternative availability, search intensity, job duration, working conditions, and long-term equivalence"
+    },
+    {
+      "arrow_id": "FWC-WESTRIP-A-02",
+      "from": "new employment and changed relationship",
+      "to": "non-return and compensation in lieu of reinstatement",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The worker did not seek reinstatement, the Commission found reinstatement inappropriate in light of alternative employment, and compensation was ordered in lieu of return",
+      "status": "observed",
+      "counterexample": "A decision not to seek reinstatement is not a standardized trust measure or proof of broad labor-market exit",
+      "remaining_gap": "Stated reasons in full, feasible return conditions, later switching, trust, and exit"
+    },
+    {
+      "arrow_id": "FWC-WESTRIP-A-03",
+      "from": "assessed income gap and alternative employment",
+      "to": "ordered compensation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission assessed three weeks of likely lost remuneration at $3,744, made no deduction for income during that interval, and ordered $3,744 gross less tax within 21 days",
+      "status": "observed",
+      "counterexample": "An order and deadline do not prove payment receipt, net recovery, or residual loss",
+      "remaining_gap": "Payment execution, receipt, taxation, and residual household effect"
+    },
+    {
+      "arrow_id": "FWC-WESTRIP-A-04",
+      "from": "alternative employment and compensation route",
+      "to": "later recovery, trust, recurrence, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public decision ends at the new role and compensation order without later job, household, trust, recurrence, or exit follow-up",
+      "status": "open",
+      "counterexample": "A later job can coexist with unresolved compensation, household strain, or altered trust",
+      "remaining_gap": "Payment receipt, job duration, household recovery, later trust, recurrence, action, switching, and exit"
+    },
+    {
+      "arrow_id": "FWC-WESTRIP-A-05",
+      "from": "formal adjudication",
+      "to": "workplace correction or recurrence prevention",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The decision provides individual compensation but reports no correction to the employer's process, separation-certificate route, or comparable-worker outcome",
+      "status": "open",
+      "counterexample": "Individual compensation can coexist with unchanged workplace practices",
+      "remaining_gap": "Process correction, recurrence, worker voice, monitoring, and comparable-worker outcomes"
+    }
+  ],
+  "boundary": "This ledger adds one primary adjudicated case with observed alternative employment, a five-week transition and interim income gap, non-return through compensation in lieu of reinstatement, and an ordered remedy. It does not establish payment receipt, household recovery, durable trust, recurrence, action, switching, or exit.",
+  "storage_boundary": "No claimant file, direct identifier beyond the public case reference, bulk archive, or payment instrument is retained; only bounded primary decision fields, dates, alternative-employment and remedy stages, uncertainty, and open downstream arrows are represented."
+}

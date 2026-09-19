@@ -16,15 +16,15 @@
   ],
   "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
   "stage_summary": {
-    "dated_event_or_exposure": {"observed": 23, "partial": 2, "open_or_unknown": 2},
-    "responsible_actor": {"observed": 17, "partial": 8, "open_or_unknown": 2},
-    "alternative_or_nonuse": {"observed": 5, "partial": 7, "open_or_unknown": 15},
-    "effort_money_or_time_tradeoff": {"observed": 5, "partial": 16, "open_or_unknown": 6},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 6, "partial": 10, "open_or_unknown": 11},
-    "institutional_or_firm_response": {"observed": 24, "partial": 1, "open_or_unknown": 2},
-    "verified_remedy": {"observed": 2, "partial": 18, "open_or_unknown": 7},
-    "meaning_trust_or_action": {"observed": 0, "partial": 5, "open_or_unknown": 22},
-    "recovery_persistence_or_exit": {"observed": 1, "partial": 9, "open_or_unknown": 17}
+    "dated_event_or_exposure": {"observed": 24, "partial": 2, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 18, "partial": 8, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 6, "partial": 7, "open_or_unknown": 15},
+    "effort_money_or_time_tradeoff": {"observed": 6, "partial": 16, "open_or_unknown": 6},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 7, "partial": 10, "open_or_unknown": 11},
+    "institutional_or_firm_response": {"observed": 25, "partial": 1, "open_or_unknown": 2},
+    "verified_remedy": {"observed": 2, "partial": 19, "open_or_unknown": 7},
+    "meaning_trust_or_action": {"observed": 0, "partial": 6, "open_or_unknown": 22},
+    "recovery_persistence_or_exit": {"observed": 2, "partial": 9, "open_or_unknown": 17}
   },
   "sources": [
     {
@@ -300,6 +300,23 @@
       "boundary": "The primary appeal records alternative surf-shop earnings, client redirection, relationship breakdown, and staged compensation; instalment receipt, later work, household recovery, trust, recurrence, switching, and exit are not public."
     },
     {
+      "source": "analysis/projects/ai-work-control/data/fwc-westrip-alternative-employment-compensation-event-ledger-v1.json",
+      "unit": "single_adjudicated_alternative_employment_compensation_case",
+      "records": 1,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_adjudicated_dismissal",
+        "responsible_actor": "observed_named_employer",
+        "alternative_or_nonuse": "observed_alternative_employment",
+        "effort_money_or_time_tradeoff": "observed_five_week_transition_and_three_week_income_gap",
+        "adaptation_or_protected_sacrificed_outcome": "observed_new_role_and_lost_original_job",
+        "institutional_or_firm_response": "observed_adjudication_and_compensation_order",
+        "verified_remedy": "partial_ordered_compensation_without_receipt",
+        "meaning_trust_or_action": "partial_nonreturn_and_workplace_trust_dispute",
+        "recovery_persistence_or_exit": "observed_alternative_employment_start"
+      },
+      "boundary": "The primary decision records a five-week transition to alternative employment, no income during the assessed three-week notice-period loss, non-return through compensation in lieu of reinstatement, and a $3,744 order; payment receipt, job duration, household recovery, durable trust, recurrence, and exit remain unavailable."
+    },
+    {
       "source": "analysis/projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json",
       "unit": "single_official_enforced_payment_no_reinstatement_case",
       "records": 1,
@@ -487,14 +504,14 @@
       "boundary": "The current 25-record Credit card response-category sample makes complaint receipt, routing, timely handling, and Closed with monetary relief labels visible, but account exposure, alternatives, issuance, receipt, correction, recovery, trust, switching, and exit are not linked."
     }
   ],
-  "result": "No current local source closes all nine required stages. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The FWC site-clearance and customer-allocation cases supply observed alternative employment, job-search effort, and non-return reasoning, the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up now adds an officially reported compensation payment without reinstatement and a court-enforcement action. These records show that payment, restoration, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The FWC site-clearance, customer-allocation, and Westrip cases supply observed alternative employment, job-search or transition effort, non-return reasoning, and bounded income trade-offs; the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up adds an officially reported compensation payment without reinstatement and a court-enforcement action. These records show that payment, restoration, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, health, or workplace episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. The Meadley case demonstrates that payment receipt and failed restoration can be observed; promotion still requires a same-episode alternative or non-use field plus a later household recovery, durable trust, recurrence, or exit field.",
   "promotion_gate": {
     "qualifies": false,
-    "alternative_or_nonuse_observed_surfaces": 5,
+    "alternative_or_nonuse_observed_surfaces": 6,
     "verified_remedy_or_outcome_followup_observed_surfaces": 2,
     "rule": "A new end-to-end finding may be promoted only when the same retained episode source, or an explicitly linked episode key, observes both an episode-level alternative or non-use outcome and verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
-    "failure_reason": "The Meadley case supplies an officially reported compensation payment and failed reinstatement, while the FWC cases supply obtained alternatives, unsuccessful search, stated non-return, and post-dismissal client action; no retained route combines those stages with later household recovery, durable trust/action, recurrence, or exit."
+    "failure_reason": "The Meadley case supplies an officially reported compensation payment and failed reinstatement, while the FWC cases supply obtained alternatives, unsuccessful search, stated non-return, and post-dismissal client action; no retained route combines those stages with later household recovery, durable trust/action, recurrence, or exit. Westrip strengthens the alternative-employment comparator but its compensation remains an order without receipt."
   },
-  "storage_boundary": "Uses twenty-seven committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses twenty-eight committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
 }

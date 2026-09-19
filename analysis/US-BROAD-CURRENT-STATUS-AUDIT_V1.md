@@ -1979,6 +1979,11 @@ adds alternative surf-shop earnings, post-dismissal client redirection, and
 relationship breakdown alongside a two-instalment $6,554.33 compensation
 order. It strengthens the action comparator while keeping instalment receipt,
 later work, and exit open.
+The [structured Westrip ledger](projects/ai-work-control/data/fwc-westrip-alternative-employment-compensation-event-ledger-v1.json)
+adds a five-week transition to alternative employment, a bounded interim
+income gap, non-return through compensation in lieu of reinstatement, and a
+$3,744 compensation order. It strengthens the alternative-employment
+comparator without establishing payment receipt or durable recovery.
 The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
 adds the first official follow-up that reports a compensation payment while
 also reporting failed reinstatement and later court enforcement. It closes a

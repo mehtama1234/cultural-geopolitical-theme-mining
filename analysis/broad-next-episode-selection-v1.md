@@ -48,8 +48,8 @@ Until then, the correct output is an acquisition boundary or route-specific
 comparator—not a new causal or pooled trend claim.
 
 The machine record cross-checks this decision against the [authoritative
-same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 27
-local surfaces, five observed alternative/non-use surfaces, two observed
+same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 28
+local surfaces, six observed alternative/non-use surfaces, two observed
 verified-remedy or outcome-follow-up surface, and `qualifies: false`.
 
 ## Required MEPS depth test
