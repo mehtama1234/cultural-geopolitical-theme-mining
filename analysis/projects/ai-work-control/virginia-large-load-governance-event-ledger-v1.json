@@ -142,6 +142,34 @@
       "counterexample": "An initial account roster is not a current operating population, consumption measure, or proof of cost causation",
       "evidence_status": "reported",
       "source_and_uncertainty": "Retained Dominion filing source note and Virginia governance layer; filing-stage account counts are not realized customer or facility outcomes"
+    },
+    {
+      "event_id": "VIRGINIA-RIDER-T1-FINAL-ORDER-2026-07-31",
+      "unit": "institution",
+      "geography": "United States; Virginia State Corporation Commission and Dominion Energy Virginia",
+      "actor_initiating_change": "state",
+      "event_date": "2026-07-31",
+      "date_precision": "SCC final-order date; supplemental direct-connect docket opened August 25, 2026",
+      "denominator": "One final Rider T1 proceeding, PUR-2026-00056, and one supplemental line-extension proceeding, PUR-2026-00131; revenue and projected residential values are proceeding-level figures",
+      "method": "Structured extraction from the Virginia SCC public facts page describing the final order and supplemental docket",
+      "missingness": "No account-level bills, payments, actual direct-connect cost, customer compliance, construction, residential hardship, service change, trust, or political response is retained",
+      "condition_or_decision": "policy",
+      "exposure": "Rapidly expanding large-load customers created a regulatory cost-allocation and direct-connect governance problem for transmission-related costs",
+      "alternatives_before_action": "The Commission could retain the prior allocation method, assign costs prospectively to large-load customers, or use other tariff and line-extension terms; counterfactual system and household outcomes are not observed",
+      "immediate_burden_or_benefit": "The SCC approved an amended allocation method and a framework requiring Dominion to modify its line-extension policy so qualifying direct-connect facilities are funded by the large-load customer that requires them",
+      "choice_or_response": "The Commission approved the amended methodology in PUR-2026-00056 and established PUR-2026-00131 for Dominion's proposed line-extension amendments",
+      "person_or_actor_with_control": "The SCC controls approval and methodology; Dominion must file amendments; large-load customers may bear direct-connect costs; residential customers remain an unlinked modeled class",
+      "remedy_or_institutional_response": "The final order creates a prospective direct-assignment framework and supplemental implementation docket, while retaining authority to adjust reforms if insufficient",
+      "immediate_outcome": "A modeled typical residential Rider T1 increase was reported as falling from $2.90 to $0.94 per month under the approved amended method; the final order also created a concrete implementation route",
+      "protected_outcome": "The approved framework is intended to protect existing customers from subsidizing direct-connect facilities needed only for new or expanding large loads; actual protection is not measured",
+      "sacrificed_outcome": "Large-load customers may face direct-connect contributions, minimum-demand obligations, or reduced siting flexibility; actual payments and business responses are unknown",
+      "cost_risk_transfer": "The decision attempts to transfer direct-connect infrastructure risk toward the large-load customer causing the need, while broader transmission allocation and actual residential incidence remain unresolved",
+      "later_outcome": "Dominion's proposed amendments, implementation, customer payment, construction, enforcement, household bills, hardship, trust, and political response remain open",
+      "meaning_and_attribution": "The SCC publicly frames the reform as protecting existing customers and addressing cost allocation; no linked resident or customer legitimacy judgment is observed",
+      "public_or_collective_response": "The proceeding provides a public regulatory route and supplemental docket; participant-level public input and later collective action are not linked",
+      "counterexample": "Approval of a cost-allocation framework can coexist with no actual direct-connect construction, customer payment, or reduction in residential bills",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Virginia SCC facts page posted September 3, 2026, describing the July 31, 2026 final order and August 25, 2026 supplemental docket; approved policy and modeled effects are not observed incidence"
     }
   ],
   "arrows": [
@@ -177,6 +205,28 @@
       "status": "open",
       "counterexample": "A tariff can improve cost recovery or reliability while residents experience no material change, or while large-load firms retain substantial bargaining power",
       "remaining_gap": "Same-place household bills/service, public input, trust, political action, provider/facility response, replaceability, and external dependence"
+    },
+    {
+      "arrow_id": "VIRGINIA-LARGE-LOAD-A-04",
+      "from": "Rider T1 proceeding",
+      "to": "approved amended allocation method and direct-connect implementation docket",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The SCC facts page states that the Commission approved two allocation amendments in the final Rider T1 order and established PUR-2026-00131 for Dominion's proposed line-extension amendments",
+      "status": "reported",
+      "counterexample": "A final order and new docket do not establish filed amendments, construction, payment, or enforcement",
+      "remaining_gap": "Dominion amendment filing, Commission approval, implementation date, and compliance"
+    },
+    {
+      "arrow_id": "VIRGINIA-LARGE-LOAD-A-05",
+      "from": "approved allocation method",
+      "to": "projected residential cost reduction",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The SCC reports that using the approved amended methodology instead of the previous method would reduce the projected typical 1,000-kWh residential increase from $2.90 to $0.94 per month",
+      "status": "estimated",
+      "counterexample": "The comparison is modeled and does not establish an actual bill, payment, hardship, or data-center-only causal share",
+      "remaining_gap": "Implemented tariff, account-level bills, payments, customer assistance, and household incidence"
     }
   ],
   "boundary": "This ledger formalizes a Virginia infrastructure-governance sequence from utility-reported large-load operational stress through state rate-class and projected allocation responses. It does not establish household bill incidence, net local benefit, resident legitimacy, practical exit, or geopolitical leverage.",
