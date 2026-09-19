@@ -1179,6 +1179,14 @@ exit fields; if those fields are unavailable, record the gap and rotate to
 another theme. The two worker records are remedy-stage comparators, not a
 worker prevalence or individual-recovery estimate.
 
+The [IER individual-remedy record](records/us-doj-ier-individual-remedy-followups-2026.json)
+is the strongest retained paid-remedy comparator in this set: four agency
+summaries report individual payments and a fifth reports a large back-pay and
+benefits offer, alongside training or policy changes. The public summaries do
+not provide independent receipt instruments, restored employment, monitoring
+results, household recovery, trust, or exit, so the route improves remedy-stage
+coverage without qualifying the same-case gate.
+
 **Stage-bottleneck promotion gate (2026-09-18):** across those 18 surfaces,
 15 have an observed dated event/exposure and 15 have an observed institutional
 or firm response, but only 1 has an observed alternative/non-use stage, 1 has

@@ -615,6 +615,14 @@ consumer-level correction spans 0%–44% and total correction 0%–50%, with one
 blank consumer-level row. The range maps implementation heterogeneity, not
 consumer recovery, because recall duration, mix, and denominators differ.
 
+The [IER individual-remedy record](records/us-doj-ier-individual-remedy-followups-2026.json)
+adds a cross-domain paid-remedy comparator: four official summaries report
+individual back-pay or front/back-pay payments and one reports a substantial
+offer, with employer training or policy changes. This is stronger than a
+reserved fund or conditional obligation, but the public summaries still do not
+show independent receipt, restored employment, durable compliance, household
+recovery, trust, or exit.
+
 The [Kyei merits-dismissal record](records/au-kyei-merits-dismissal-2025.json)
 adds a negative remedy counterexample to the platform lane: process deficiencies
 were identified, but a valid safety reason was accepted and the unfair-
