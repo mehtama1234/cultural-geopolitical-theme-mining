@@ -257,6 +257,11 @@ These are real bridges, but each closes only part of the full chain:
 - **AI, work, and control:** a randomized workplace-access study found changed
   email/time patterns, while the available record does not show whether that
   time became rest, care, pay, worker voice, or higher employer expectations.
+  In the six-month intervention across 66 firms and 7,137 knowledge workers,
+  treated users spent about two fewer hours per week on email in the later
+  period; a separate 5,179-agent customer-support experiment estimated about
+  14% more issues resolved per hour. Time and output moved, but ownership of
+  the gain, pace, pay, and household consequence remain unobserved.
   A separate OECD employer survey reports 90% of US firms with 20+ employees
   using at least one algorithmic-management tool, 76% using ten or more, and
   55% monitoring conversation content or tone; those are employer reports, not
