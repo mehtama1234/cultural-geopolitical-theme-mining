@@ -620,6 +620,12 @@ potential, and semiconductor qualification constraints. It strengthens the
 infrastructure/geopolitical chain without treating a 2–3 year potential window,
 technical maturity, or import reliance as realized autonomy, output, leverage,
 or household/worker impact.
+The Navitas–GlobalFoundries Gen 5 GaN follow-up adds a narrower realization
+boundary: September 2026 first-wafer and sampling milestones are reported, but
+the SEC-filed company update places the broader US 8-inch ramp in 2027–28 and
+leaves customer qualification pending. This advances the downstream route
+without establishing scaled output, customer use, upstream gallium provenance,
+import displacement, or geopolitical autonomy.
 The follow-on [JASSM/LRASM subaward control-surface audit](projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md)
 adds 74 returned rows, 51 named recipients, UEI/location fields, and $1.1427B
 in returned subaward amount. The top five recipients comprise 49.5004% of this
