@@ -79,7 +79,11 @@ These are real bridges, but each closes only part of the full chain:
   contact, versus 5.81%, 12.98%, and 9.77% without reported denial/delay.
   This is a route-specific association, not proof of claim causation or failed
   remedy; it shows how an institutional gate can coincide with both delayed
-  care and downstream financial exposure.
+  care and downstream financial exposure. In the round-to-round follow-up,
+  perceived health worsened for 25.11% of friction reporters versus 21.74% of
+  non-reporters, while employment retention was much closer (56.09% versus
+  57.28%). Health and work are therefore separate downstream currencies, not
+  one composite harm measure.
 - **MEPS episode boundary:** the retained MEPS event ledger has 18,457
   privacy-minimized person/event rows with hashed episode identifiers and
   month-precision first-event dates. A strict event-window screen can carry
