@@ -17,10 +17,12 @@
       "denominator": {"value": 60, "unit": "minerals considered critical by the United States because of economic/security importance and disruption-vulnerable supply chains", "value_type": "reported_policy_scope"},
       "measures": {
         "application_scope": {"value": "batteries and semiconductors used in electric vehicles, grid storage, consumer electronics, and defense", "unit": "technology and supply-chain scope", "value_type": "reported_scope"},
-        "strategic_dependency_stage": {"value": "import reliance, processing, substitute performance, recycling feedstock, manufacturing capacity, and policy response are distinct stages", "unit": "analytical chain", "value_type": "stage_boundary"}
+        "strategic_dependency_stage": {"value": "import reliance, processing, substitute performance, recycling feedstock, manufacturing capacity, and policy response are distinct stages", "unit": "analytical chain", "value_type": "stage_boundary"},
+        "trace_ga_selection_boundary": {"value": "DOE selected five organizations for award negotiations with cost, purity, and quantity targets; the announcement states selection is not a commitment to issue an award or provide funding", "unit": "project-stage boundary", "value_type": "reported_qualification"
+        }
       },
       "method": "GAO technology assessment based on interviews with federal officials and experts and review of academic, agency, expert, and federal policy documentation.",
-      "uncertainty": "The assessment does not estimate a particular export-control shock, price effect, factory interruption, consumer burden, defense delay, or realized geopolitical concession; technology potential and policy options are not operating capacity.",
+      "uncertainty": "The assessment does not estimate a particular export-control shock, price effect, factory interruption, consumer burden, defense delay, or realized geopolitical concession; technology potential, DOE project selection, and policy options are not operating capacity.",
       "subgroup": "Critical minerals and application-specific battery or semiconductor technologies; substitution performance varies by use case.",
       "counterinterpretation": "Domestic production or a policy announcement can coexist with foreign processing, feedstock, technology, ownership, or customer dependence; import reliance alone does not identify vulnerability or leverage.",
       "source_url": "https://www.gao.gov/products/gao-26-108687",

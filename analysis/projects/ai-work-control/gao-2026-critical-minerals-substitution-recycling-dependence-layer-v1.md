@@ -30,6 +30,7 @@ usable.
 | Recycling horizon | GAO finds battery recycling could reduce import reliance on some minerals in about 2–3 years | This is a technology-assessment possibility, not realized capacity, output, or price parity |
 | Semiconductor constraint | GAO finds substitution and recycling may not reduce short-term semiconductor import reliance; substitute materials must meet demanding performance requirements | “May not” is a near-term technical boundary, not proof that future substitution will fail |
 | Technology maturity | Research could improve battery energy density, semiconductor performance, or recovery rates, but GAO notes research, development, and testing may not produce mature technologies in the near term | R&D potential is not a commercial process or domestic supply |
+| TRACE-Ga project stage | DOE selected five organizations for award negotiations and described phases with defined cost, purity, and quantity targets | Selection is not a funding commitment, produced gallium, operating capacity, or reduced import reliance; the target quantities and purity still require project execution and verification |
 | System bottleneck | Recycling requires collection and processing infrastructure and consistent feedstock; substitution requires materials research and manufacturing capability | A policy option or facility announcement is not an operating loop |
 
 ## The central tension
@@ -88,6 +89,13 @@ gallium feedstock, epitaxial wafer, substrate, or another fabrication stage
 remains imported. That is why the atlas records the Navitas/GF September 2026
 announcement as a production schedule and sampling route, not as confirmed
 delivery or mineral independence.
+
+The TRACE-Ga announcement adds an important implementation boundary: DOE says
+the five selections are for award negotiations, and that selection is not a
+commitment to issue an award or provide funding. The projects are intended to
+recover gallium at defined cost, purity, and quantity in two phases, but the
+public announcement does not report produced material, operating yield,
+customer qualification, or import displacement.
 
 The relevant machine-readable ledgers are:
 
