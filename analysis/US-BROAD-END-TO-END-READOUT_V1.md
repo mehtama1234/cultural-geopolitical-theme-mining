@@ -540,6 +540,12 @@ These are real bridges, but each closes only part of the full chain:
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
 verified remedy, durable outcome, and the meaning/action that follows.
+The current storage-light qualification screen reviewed 17 retained routes and
+found zero with all of those stages in one stable unit. Eight routes expose an
+alternative or non-use field, and three expose verified remedy receipt or a
+defined outcome follow-up; none also closes the later meaning/action, recovery,
+or exit requirement. This is a measured data boundary, not evidence that
+remedies or exits never occurred.
 
 The consumer lane now makes that middle gap especially visible: households can
 actively search for a way out while the available records still cannot show
