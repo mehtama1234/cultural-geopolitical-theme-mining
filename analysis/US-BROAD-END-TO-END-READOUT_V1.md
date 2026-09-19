@@ -251,6 +251,14 @@ These are real bridges, but each closes only part of the full chain:
   accommodation caused it. It shows why formal program participation must be
   separated from completed service, placement, retention, wages, workplace
   control, and durable security.
+- **Energy insecurity as household allocation:** EIA estimates 43.56 million
+  primary-residence homes with at least one reported energy-insecurity
+  condition; 32.89 million reported reducing or forgoing food or medicine to
+  pay energy costs, 17.55 million reported leaving home at an unhealthy
+  temperature, and 16.19 million received a disconnect or delivery-stop
+  notice. These are overlapping housing-unit conditions, not a sequence or a
+  shutoff rate, but they show energy pressure becoming food, medicine,
+  temperature, and service-continuity trade-offs.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
