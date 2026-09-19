@@ -52,6 +52,7 @@ separate.
 | SHED recontact panel (4,419 respondents) | Adaptation, care/financial persistence, later status | Dated actor/event, institutional response, remedy, meaning/action, exit |
 | HTOPS linked panel (6,564 respondents) | Same-ID timing, later material outcomes, institutional confidence | Actor, alternatives, attribution, action, remedy, recovery/exit |
 | MEPS bounded event ledger (3 event surfaces) | Person-linked event ordering, payment and later health/work context | Complete route, remedy, trust/action, practical exit |
+| MEPS strict event-window follow-up (3 event families) | Same-person event-window ordering followed by R5/3 health and employment transitions | Initiating need, alternatives, institutional response, remedy, meaning/action, household recovery, practical exit |
 | CFPB medical-debt route (49 locally filtered cases) | Dated complaint, coarse place, institutional routing, response label | Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit |
 | Doxo bill-payment enforcement case (2 observations) | Search-route and official-channel confusion, alleged fees, complaint-level payment-timing/service-risk consequences, order-stage controls | Person-level payment success, bill status or service continuity, remedy receipt, trust, switching/exit |
 | Grubhub multisided remedy program (1 reported program) | Aggregate checks/PayPal payments and prospective worker, account, and restaurant controls | Group-specific exposure, individual receipt, restored income/access, alternatives, trust, switching/exit |
@@ -62,22 +63,22 @@ separate.
 
 ## Stage-level coverage count
 
-The 32 surfaces can also be summarized without pooling their units. A status is
+The 33 surfaces can also be summarized without pooling their units. A status is
 classified as **observed** when it begins with `observed`, **partial** when it
 begins with `partial`, and **open/unknown** for all other labels (including
 reference-period and unknown statuses).
 
 | Required stage | Observed | Partial | Open/unknown |
 |---|---:|---:|---:|
-| Dated event or exposure | 28 | 2 | 2 |
-| Responsible actor | 21 | 9 | 2 |
-| Alternative or non-use | 8 | 7 | 17 |
-| Effort, money, or time trade-off | 7 | 19 | 6 |
-| Adaptation or protected/sacrificed outcome | 10 | 11 | 11 |
-| Institutional or firm response | 29 | 1 | 2 |
-| Verified remedy | 3 | 22 | 7 |
-| Meaning, trust, or action | 1 | 9 | 22 |
-| Recovery, persistence, or exit | 2 | 11 | 19 |
+| Dated event or exposure | 29 | 2 | 2 |
+| Responsible actor | 21 | 10 | 2 |
+| Alternative or non-use | 8 | 7 | 18 |
+| Effort, money, or time trade-off | 7 | 20 | 6 |
+| Adaptation or protected/sacrificed outcome | 10 | 12 | 11 |
+| Institutional or firm response | 29 | 1 | 3 |
+| Verified remedy | 3 | 22 | 8 |
+| Meaning, trust, or action | 1 | 9 | 23 |
+| Recovery, persistence, or exit | 2 | 12 | 19 |
 
 This count is a stage-availability diagnostic, not a success rate or a common
 denominator. It identifies the sharpest broad-program bottleneck: records can
@@ -87,7 +88,9 @@ received, or what happened to meaning, recovery, or exit.
 
 ## Result
 
-No current local source supplies all nine required stages. The IER summaries
+No current local source supplies all nine required stages. The strict MEPS
+follow-up adds a same-person later health/work clock, but not a full recovery
+or remedy chain. The IER summaries
 advance the verified-remedy stage with four agency-reported individual
 payments, while the DACA bilateral case adds reported wage and seniority
 restoration plus complaint withdrawal, and the OSHA case adds protected safety
@@ -130,4 +133,4 @@ valid negative result is one that shows which stages remain unavailable.
 python3 scripts/validate_broad_same_case_episode_availability.py
 ```
 
-The audit uses thirty-two committed local source surfaces and downloads nothing.
+The audit uses thirty-three committed local source surfaces and downloads nothing.

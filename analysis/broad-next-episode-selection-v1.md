@@ -9,9 +9,10 @@
 The existing MEPS 2024 staged event ledger was the primary local depth route.
 Its 18,457 privacy-minimized person/event rows provide a dated first
 event-family scaffold with payment, coverage, health, employment, and bill
-context. The completed stage audit shows that the local representation lacks
-the initiating need, usable alternatives, event-specific response, verified
-remedy, and meaning/action endpoint.
+context. A strict event-window follow-up also carries the same person to R5/3
+health and employment transitions. The completed stage audit shows that the
+local representation still lacks the initiating need, usable alternatives,
+event-specific response, verified remedy, and meaning/action endpoint.
 
 The next primary route is therefore the registration-gated UAS acquisition
 specified in the [UAS health-cost episode audit](projects/us-health-cost-household-choice/uas-health-cost-legitimacy-acquisition-audit-v1.md).
@@ -48,7 +49,7 @@ Until then, the correct output is an acquisition boundary or route-specific
 comparator—not a new causal or pooled trend claim.
 
 The machine record cross-checks this decision against the [authoritative
-same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 32
+same-case gate](data/broad-same-case-episode-availability-audit-v1.json): 33
 local surfaces, eight observed alternative/non-use surfaces, three observed
 verified-remedy or outcome-follow-up surfaces, one observed meaning/action
 surface, and `qualifies: false`.

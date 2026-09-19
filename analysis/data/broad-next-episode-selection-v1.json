@@ -1,7 +1,7 @@
 {
   "format": "broad-next-episode-selection-v1",
   "status": "ranked_local_route_decision",
-  "checked": "2026-09-18",
+  "checked": "2026-09-19",
   "decision_question": "Which existing local source should receive the next same-case episode-depth pass?",
   "selection_rule": "Use the largest privacy-minimized same-person event surface to complete the local stage gate; once its missing middle is verified, prioritize the smallest gated acquisition capable of adding the missing event, choice, remedy, and meaning/action links, while retaining route-specific counterexamples without pooling them.",
   "promotion_gate": {
@@ -12,9 +12,9 @@
   },
   "same_case_gate": {
     "audit": "analysis/data/broad-same-case-episode-availability-audit-v1.json",
-    "local_surface_count": 30,
+    "local_surface_count": 33,
     "observed_alternative_or_nonuse_surfaces": 8,
-    "observed_verified_remedy_or_outcome_followup_surfaces": 2,
+    "observed_verified_remedy_or_outcome_followup_surfaces": 3,
     "qualifies": false
   },
   "ranked_routes": [

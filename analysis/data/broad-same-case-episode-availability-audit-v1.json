@@ -16,15 +16,15 @@
   ],
   "stage_summary_rule": "Classify a status as observed when it begins with 'observed', partial when it begins with 'partial', and open_or_unknown for all other labels, including reference-period and unknown statuses.",
   "stage_summary": {
-    "dated_event_or_exposure": {"observed": 28, "partial": 2, "open_or_unknown": 2},
-    "responsible_actor": {"observed": 21, "partial": 9, "open_or_unknown": 2},
-    "alternative_or_nonuse": {"observed": 8, "partial": 7, "open_or_unknown": 17},
-    "effort_money_or_time_tradeoff": {"observed": 7, "partial": 19, "open_or_unknown": 6},
-    "adaptation_or_protected_sacrificed_outcome": {"observed": 10, "partial": 11, "open_or_unknown": 11},
-    "institutional_or_firm_response": {"observed": 29, "partial": 1, "open_or_unknown": 2},
-    "verified_remedy": {"observed": 3, "partial": 22, "open_or_unknown": 7},
-    "meaning_trust_or_action": {"observed": 1, "partial": 9, "open_or_unknown": 22},
-    "recovery_persistence_or_exit": {"observed": 2, "partial": 11, "open_or_unknown": 19}
+    "dated_event_or_exposure": {"observed": 29, "partial": 2, "open_or_unknown": 2},
+    "responsible_actor": {"observed": 21, "partial": 10, "open_or_unknown": 2},
+    "alternative_or_nonuse": {"observed": 8, "partial": 7, "open_or_unknown": 18},
+    "effort_money_or_time_tradeoff": {"observed": 7, "partial": 20, "open_or_unknown": 6},
+    "adaptation_or_protected_sacrificed_outcome": {"observed": 10, "partial": 12, "open_or_unknown": 11},
+    "institutional_or_firm_response": {"observed": 29, "partial": 1, "open_or_unknown": 3},
+    "verified_remedy": {"observed": 3, "partial": 22, "open_or_unknown": 8},
+    "meaning_trust_or_action": {"observed": 1, "partial": 9, "open_or_unknown": 23},
+    "recovery_persistence_or_exit": {"observed": 2, "partial": 12, "open_or_unknown": 19}
   },
   "sources": [
     {
@@ -436,6 +436,23 @@
       "boundary": "MEPS supplies identified event and later status fields, but not a complete same-episode actor, alternative, remedy, trust/action, or practical-exit record."
     },
     {
+      "source": "analysis/projects/us-household-constraint-cascade/data-meps-event-six-month-followup-2024.json",
+      "unit": "strict_interround_meps_event_window_with_later_health_work_outcomes",
+      "records": 3,
+      "stage_status": {
+        "dated_event_or_exposure": "observed_round_order",
+        "responsible_actor": "partial_route_context",
+        "alternative_or_nonuse": "open",
+        "effort_money_or_time_tradeoff": "partial_event_and_work_context",
+        "adaptation_or_protected_sacrificed_outcome": "partial_later_health_work_outcome",
+        "institutional_or_firm_response": "open",
+        "verified_remedy": "open",
+        "meaning_trust_or_action": "open",
+        "recovery_persistence_or_exit": "partial_later_health_work_persistence"
+      },
+      "boundary": "The strict R3/1-to-R4/2 event window carries the same person to R5/3 health and employment transitions, adding a later-outcome clock; it does not observe the initiating need, alternatives, remedy, trust/action, household recovery, or practical exit."
+    },
+    {
       "source": "analysis/projects/us-health-cost-household-choice/data/cfpb-medical-debt-filtered-event-ledger-2024.json",
       "unit": "locally_filtered_medical_debt_public_event_rows",
       "records": 48,
@@ -572,7 +589,7 @@
       "boundary": "The case links employer shutdown, unpaid promised entitlements, reported family/financial stress, lower-paid alternative employment, quantified earnings, liquidation, and a compensation order. It does not establish order receipt, FEG recovery, durable work, household recovery, trust, recurrence, or exit."
     }
   ],
-  "result": "No current local source closes all nine required stages. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The new DACA bilateral case adds reported wage restoration, seniority restoration, and complaint withdrawal in one episode; the new OSHA Texas case adds protected safety voice, retaliation, public-risk governance, and an ordered remedy. Neither supplies durable follow-up. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The Mansoor platform case adds same-case substitute earnings alongside reactivation and a lost-pay order, while preserving the unknowns around equivalence, receipt, and durable access. The FWC site-clearance, customer-allocation, Westrip, and Adcon cases supply observed alternative employment, search or transition effort, non-return or shutdown reasoning, reported stress, and bounded income trade-offs; the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up adds an officially reported compensation payment without reinstatement and a court-enforcement action. These records show that payment, restoration, worker voice, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
+  "result": "No current local source closes all nine required stages. The strict MEPS event-window follow-up now adds a same-person later R5/3 health and employment clock, including health and work persistence transitions, but it still lacks a dated initiating need, usable alternatives, institutional response, remedy, meaning/action, and practical exit. The IER resolution summaries advance the verified-remedy stage with four agency-reported individual payments, while the telephone-intervention ledger adds a tighter reported barrier-to-correction sequence. The new DACA bilateral case adds reported wage restoration, seniority restoration, and complaint withdrawal in one episode; the new OSHA Texas case adds protected safety voice, retaliation, public-risk governance, and an ordered remedy. Neither supplies durable follow-up. The Rehman case adds a bounded no-substitute-paid-earnings observation and an enforceable gross lost-remuneration order. The Mansoor platform case adds same-case substitute earnings alongside reactivation and a lost-pay order, while preserving the unknowns around equivalence, receipt, and durable access. The FWC site-clearance, customer-allocation, Westrip, and Adcon cases supply observed alternative employment, search or transition effort, non-return or shutdown reasoning, reported stress, and bounded income trade-offs; the Greaves case supplies an observed unsuccessful alternative-employment search, and the McGennan appeal adds alternative earnings and client-redirection action. The Meadley follow-up adds an officially reported compensation payment without reinstatement and a court-enforcement action. These records show that payment, restoration, worker voice, later health/work persistence, and action are separate endpoints; later household recovery, durable trust, recurrence, and exit remain open. The Honda Talon and VRURC ledgers compare dealer repair with replacement while retaining purchaser-level gaps; the CFPB credit-card ledger makes a monetary-relief response label durable without proving issuance or receipt. The closest route-specific surfaces remain the named CFPB redress/distribution records, Doxo, Grubhub, the platform remedy ledger, the OpenAI/Statsig and Apple recruitment-remedy events, Hotak continued-work follow-up, and Warraich follow-up for formal response/remedy or implementation, and the MEPS/SHED/HTOPS panels for selected timing or persistence; they are complementary, not joinable into one episode.",
   "next_test": "Select one lawful consumer, public-system, household, health, or workplace episode source and add a stable episode key for actor, alternatives, effort, protected/sacrificed outcome, verified remedy, attribution, later trust/action, and exit. The DACA case demonstrates reported bilateral wage/status repair and immediate complaint withdrawal; the OSHA case demonstrates protected safety voice followed by retaliation and an ordered remedy; Meadley demonstrates payment receipt with failed restoration; Adcon adds reported household stress and lower-paid replacement work but no receipt. Promotion still requires a same-episode alternative or non-use field plus a later household recovery, durable trust, recurrence, or exit field.",
   "promotion_gate": {
     "qualifies": false,
@@ -581,5 +598,5 @@
     "rule": "A new end-to-end finding may be promoted only when the same retained episode source, or an explicitly linked episode key, observes both an episode-level alternative or non-use outcome and verified remedy receipt or a defined outcome follow-up, with denominators and missingness reported.",
     "failure_reason": "The DACA case supplies a reported accepted bilateral remedy and immediate complaint withdrawal, while the OSHA case supplies protected safety voice, retaliation, and an ordered remedy; neither has later household recovery, durable trust/action, recurrence, or exit. The Meadley case supplies an officially reported compensation payment and failed reinstatement, while the FWC cases, Adcon, and Mansoor platform case supply obtained alternatives, substitute earnings, unsuccessful search, stated non-return, reported household stress, and post-dismissal client action. No retained route combines those stages with later household recovery, durable trust/action, recurrence, or exit. Westrip, Adcon, and Mansoor strengthen the alternative-employment comparators but their compensation remains an order without receipt."
   },
-  "storage_boundary": "Uses thirty-two committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
+  "storage_boundary": "Uses thirty-three committed local source surfaces; raw parent-product and complaint responses remain outside Git, while compact de-identified filtered ledgers and bounded case records are retained. No prevalence estimate is promoted."
 }

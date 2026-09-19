@@ -153,6 +153,11 @@ separate.</p>
 <td>Complete route, remedy, trust/action, practical exit</td>
 </tr>
 <tr>
+<td>MEPS strict event-window follow-up (3 event families)</td>
+<td>Same-person event-window ordering followed by R5/3 health and employment transitions</td>
+<td>Initiating need, alternatives, institutional response, remedy, meaning/action, household recovery, practical exit</td>
+</tr>
+<tr>
 <td>CFPB medical-debt route (49 locally filtered cases)</td>
 <td>Dated complaint, coarse place, institutional routing, response label</td>
 <td>Underlying bill/care choice, alternatives, verified remedy, recovery, trust/action, exit</td>
@@ -190,7 +195,7 @@ separate.</p>
 </tbody>
 </table>
 <h2 id="stage-level-coverage-count">Stage-level coverage count</h2>
-<p>The 32 surfaces can also be summarized without pooling their units. A status is
+<p>The 33 surfaces can also be summarized without pooling their units. A status is
 classified as <strong>observed</strong> when it begins with <code>observed</code>, <strong>partial</strong> when it
 begins with <code>partial</code>, and <strong>open/unknown</strong> for all other labels (including
 reference-period and unknown statuses).</p>
@@ -206,56 +211,56 @@ reference-period and unknown statuses).</p>
 <tbody>
 <tr>
 <td>Dated event or exposure</td>
-<td style="text-align: right;">28</td>
+<td style="text-align: right;">29</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td>Responsible actor</td>
 <td style="text-align: right;">21</td>
-<td style="text-align: right;">9</td>
+<td style="text-align: right;">10</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td>Alternative or non-use</td>
 <td style="text-align: right;">8</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: right;">17</td>
+<td style="text-align: right;">18</td>
 </tr>
 <tr>
 <td>Effort, money, or time trade-off</td>
 <td style="text-align: right;">7</td>
-<td style="text-align: right;">19</td>
+<td style="text-align: right;">20</td>
 <td style="text-align: right;">6</td>
 </tr>
 <tr>
 <td>Adaptation or protected/sacrificed outcome</td>
 <td style="text-align: right;">10</td>
-<td style="text-align: right;">11</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: right;">11</td>
 </tr>
 <tr>
 <td>Institutional or firm response</td>
 <td style="text-align: right;">29</td>
 <td style="text-align: right;">1</td>
-<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
 </tr>
 <tr>
 <td>Verified remedy</td>
 <td style="text-align: right;">3</td>
 <td style="text-align: right;">22</td>
-<td style="text-align: right;">7</td>
+<td style="text-align: right;">8</td>
 </tr>
 <tr>
 <td>Meaning, trust, or action</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">9</td>
-<td style="text-align: right;">22</td>
+<td style="text-align: right;">23</td>
 </tr>
 <tr>
 <td>Recovery, persistence, or exit</td>
 <td style="text-align: right;">2</td>
-<td style="text-align: right;">11</td>
+<td style="text-align: right;">12</td>
 <td style="text-align: right;">19</td>
 </tr>
 </tbody>
@@ -266,7 +271,9 @@ show that an event occurred and that an institution responded, while they do
 not show what alternative the affected unit had, whether the remedy was
 received, or what happened to meaning, recovery, or exit.</p>
 <h2 id="result">Result</h2>
-<p>No current local source supplies all nine required stages. The IER summaries
+<p>No current local source supplies all nine required stages. The strict MEPS
+follow-up adds a same-person later health/work clock, but not a full recovery
+or remedy chain. The IER summaries
 advance the verified-remedy stage with four agency-reported individual
 payments, while the DACA bilateral case adds reported wage and seniority
 restoration plus complaint withdrawal, and the OSHA case adds protected safety
@@ -301,4 +308,4 @@ valid negative result is one that shows which stages remain unavailable.</p>
 <h2 id="reproduction">Reproduction</h2>
 <pre><code class="language-text">python3 scripts/validate_broad_same_case_episode_availability.py
 </code></pre>
-<p>The audit uses thirty-two committed local source surfaces and downloads nothing.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
+<p>The audit uses thirty-three committed local source surfaces and downloads nothing.</p></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>
