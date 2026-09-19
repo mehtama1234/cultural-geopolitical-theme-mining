@@ -98,6 +98,13 @@ These are real bridges, but each closes only part of the full chain:
   household adaptation surface—not proof that the original skipped-care
   decision caused every later financial outcome, or that later recovery was
   absent.
+- **Health improvement is not financial reset:** in a separate 4,163-person
+  SHED panel, among prior adopters, reduced-savings persistence was 56.9% on
+  an improved-health path versus 62.7% on a worsened path, but borrowing still
+  persisted at 56.4% after improved health versus 59.0% after worsened health.
+  New borrowing also appeared for 9.8% of improved-health non-adopters. Health,
+  cash room, debt, and delayed purchases therefore recover on different clocks;
+  annual self-rated health does not establish the event, cause, or remedy.
 - **SHED:** the same respondent’s financial condition and adaptations persist or
   reverse across waves. The trigger is not transaction-dated.
 - **Adaptation is not one income ladder:** in the 2024–2025 SHED recontact
