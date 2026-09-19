@@ -99,6 +99,14 @@ These are real bridges, but each closes only part of the full chain:
   transportation insecurity, food insecurity, mental distress, and lack of
   insurance. Nominal service use can therefore coexist with weaker practical
   room; this is an ecological county comparison, not a resident-level effect.
+- **Housing security:** the 2025 housing screen reports 23% of renters behind
+  on rent during the prior year, about 33% below $50,000 income, while 6% of
+  homeowners reported no homeowners insurance and the share was about 20%
+  below $50,000. A separate energy model puts the lowest-income-band burden
+  proxy at 28.73% versus 1.74% in the highest band. These are different
+  universes and clocks, but together show why staying housed is not the same
+  as staying protected: payment, coverage, energy, repair, and mobility room
+  can fail at different stages.
 - **Migration, belonging, and political meaning:** the joint county screen
   does not produce a simple growth or foreign-born-share explanation for
   federal trust; the lowest trust cell is high-growth/mid-nativity, while
