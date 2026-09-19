@@ -150,6 +150,14 @@ These are real bridges, but each closes only part of the full chain:
   institutional response, but does not show any individual payment, account
   correction, repeat effort, restored security, trust, or exit. A redress pool
   is therefore not a consumer recovery rate.
+- **Small firms as infrastructure consumers:** the FTC reports 5,588 checks
+  totaling more than $2.6 million sent to businesses charged hidden or
+  unauthorized payment-processing fees, including early-termination and
+  recurring “zombie” charges. The case shows how a processor can make formal
+  provider choice costly, while checks sent, checks cashed, processor
+  switching, restored transaction capacity, and business continuity remain
+  separate clocks. This links market power to local-firm practical exit, but
+  does not establish the business-level burden or recovery rate.
 - **Marketplace power:** an FTC/state complaint alleges that Amazon's hidden
   advertising-auction surcharges affected more than one million advertisers,
   including more than 500,000 small and medium businesses, and that higher
