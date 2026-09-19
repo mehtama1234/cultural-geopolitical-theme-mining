@@ -123,6 +123,13 @@ weaker health and food job-flow profiles but a retail counterexample. The
 panel advances mobility-context conditioning without treating county vehicle
 constraints as resident-level access or service use.
 
+The [BDS–ACS–PLACES Ohio outcome panel](bds-ohio-places-outcome-panel-v1.md)
+adds a modeled outcome surface across all 88 Ohio counties. High-zero-vehicle
+counties have higher modeled transportation, food, mental-distress, and
+insurance burdens while routine-checkup medians are nearly unchanged. This
+advances outcome visibility but remains an ecological county comparison, not
+resident care use or a health-flow effect.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](bds-hrsa-capacity-adequacy-overlay-v1.md)
 joins realized county-sector flows to the current primary-care shortage
 designation surface. It demonstrates that health-sector employer growth and

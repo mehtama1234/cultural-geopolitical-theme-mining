@@ -1,0 +1,99 @@
+{
+  "audit_type": "bds-ohio-places-outcome-panel-v1",
+  "checked": "2026-09-18",
+  "unit": "Ohio county, 2023 BDS sector flow + 2023 ACS mobility context + CDC PLACES 2025 modeled county estimates (data year 2023)",
+  "geography": "Ohio counties (state FIPS 39)",
+  "selected_sectors": {
+    "44-45": "retail trade",
+    "48-49": "transportation and warehousing",
+    "62": "health care and social assistance",
+    "72": "accommodation and food services"
+  },
+  "selected_places_measures": {
+    "routine_checkup": "Visits to doctor for routine checkup within the past year among adults",
+    "transportation_insecurity": "Lack of reliable transportation in the past 12 months among adults",
+    "food_insecurity": "Food insecurity in the past 12 months among adults",
+    "frequent_mental_distress": "Frequent mental distress among adults",
+    "lack_health_insurance": "Current lack of health insurance among adults aged 18-64 years"
+  },
+  "sources": {
+    "bds_url": "https://www2.census.gov/programs-surveys/bds/tables/time-series/2023/bds2023_st_cty_sec.csv",
+    "acs_vehicle_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08201.dat",
+    "acs_commute_url": "https://www2.census.gov/programs-surveys/acs/summary_file/2023/table-based-SF/data/5YRData/acsdt5y2023-b08303.dat",
+    "places_url": "https://data.cdc.gov/d/swc5-untb"
+  },
+  "retrieval": {
+    "bds_suffix_sha256": "988039900c4244fba737cbe2bd37c37d2bf42f81d88121207ed9d842cb5a7d7b",
+    "acs_vehicle_sha256": "71e502d0d2b456cb49af97cf9ff2d43fcbd9a7f9c2ee737fdb41721f9ad87a8b",
+    "acs_commute_sha256": "8dc1b696d93c28a684784281211cf4e5011f01d9ca84694df2d7fb3b4ad84f51",
+    "places_sha256": "0f093ce4a185a46eaaa53a09d556cbd37dee7d6d8059666c1a08d03db754d73f"
+  },
+  "matched_counties": 88,
+  "zero_vehicle_median_cut_pct": 6.241,
+  "mobility_groups": {
+    "low_zero_vehicle": {
+      "county_count": 44,
+      "routine_checkup": 77.05,
+      "transportation_insecurity": 7.45,
+      "food_insecurity": 13.2,
+      "frequent_mental_distress": 18.85,
+      "lack_health_insurance": 8.35
+    },
+    "high_zero_vehicle": {
+      "county_count": 44,
+      "routine_checkup": 76.95,
+      "transportation_insecurity": 8.8,
+      "food_insecurity": 15.95,
+      "frequent_mental_distress": 20.25,
+      "lack_health_insurance": 9.15
+    }
+  },
+  "health_flow_mobility_interaction": {
+    "low_zero_vehicle__negative_health_flow": {
+      "county_count": 10,
+      "routine_checkup": 76.5,
+      "transportation_insecurity": 7.8,
+      "food_insecurity": 14.05,
+      "frequent_mental_distress": 19.6,
+      "lack_health_insurance": 9.05
+    },
+    "low_zero_vehicle__nonnegative_health_flow": {
+      "county_count": 34,
+      "routine_checkup": 77.15,
+      "transportation_insecurity": 7.25,
+      "food_insecurity": 12.75,
+      "frequent_mental_distress": 18.6,
+      "lack_health_insurance": 8.0
+    },
+    "high_zero_vehicle__negative_health_flow": {
+      "county_count": 20,
+      "routine_checkup": 76.75,
+      "transportation_insecurity": 8.85,
+      "food_insecurity": 16.25,
+      "frequent_mental_distress": 20.55,
+      "lack_health_insurance": 9.1
+    },
+    "high_zero_vehicle__nonnegative_health_flow": {
+      "county_count": 24,
+      "routine_checkup": 77.1,
+      "transportation_insecurity": 8.8,
+      "food_insecurity": 15.75,
+      "frequent_mental_distress": 19.95,
+      "lack_health_insurance": 9.2
+    }
+  },
+  "counterexample_county": {
+    "fips": "39089",
+    "health_net_job_creation_rate": 3.466,
+    "zero_vehicle_pct": 5.338,
+    "places": {
+      "lack_health_insurance": 7.5,
+      "food_insecurity": 12.2,
+      "frequent_mental_distress": 18.1,
+      "transportation_insecurity": 7.0,
+      "routine_checkup": 77.2
+    }
+  },
+  "boundary": "PLACES values are modeled county estimates and are not patient episodes, provider availability, completed care, or causal outcomes. BDS and ACS are county aggregates; this is a same-year ecological comparison with no same-resident linkage. Disclosure values and unavailable estimates are excluded, not treated as zero.",
+  "raw_storage": "BDS and ACS inputs were transient; retained PLACES file was read locally"
+}

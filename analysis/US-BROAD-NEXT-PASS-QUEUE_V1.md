@@ -3470,6 +3470,16 @@ mobility measure. This advances context conditioning, not resident trips,
 service use, causation, household burden, trust, or action. The next decisive
 step is one service-specific outcome surface or dated closure/use record.
 
+The [BDS–ACS–PLACES Ohio outcome panel](projects/us-local-business-place/bds-ohio-places-outcome-panel-v1.md)
+adds that bounded outcome surface. High-zero-vehicle counties show higher
+modeled transportation, food, mental-distress, and insurance burdens, while
+routine-checkup medians are nearly identical. Conditioning on negative versus
+nonnegative health-sector flow changes the outcome medians less than the
+mobility split in this screen. This advances a same-year county outcome arrow,
+not resident care use, provider reach, causation, recovery, trust, or action.
+The next decisive step remains a provider/travel/use surface or dated local
+closure-and-care-use record.
+
 The [BDS–HRSA capacity-versus-adequacy overlay](projects/us-local-business-place/bds-hrsa-capacity-adequacy-overlay-v1.md)
 now joins the county-sector realization stage to an institutional service
 shortage surface. Across selected sectors, HPSA-represented and other counties
