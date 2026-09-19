@@ -154,8 +154,12 @@ These are real bridges, but each closes only part of the full chain:
   households reported much more converted work-time loss when care was
   inadequate (114.6 days below poverty versus 43.3 days above 400% of
   poverty). Responses included leave, cutting hours, quitting, non-search, and
-  working while supervising. Provider bonuses and retention incentives still
-  do not prove a dependable staffed slot.
+  working while supervising. Separately, stable annual time-use averages
+  conceal a selected SIPP group in which childcare-related work prevention
+  coexists with much higher following rent and utility hardship (43.65% and
+  32.39% in the small stable-SNAP/work-prevention cell). Provider bonuses and
+  retention incentives still do not prove a dependable staffed slot; time loss
+  is not automatically lost earnings or a political effect.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
