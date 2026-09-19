@@ -237,6 +237,13 @@ These are real bridges, but each closes only part of the full chain:
   32.39% in the small stable-SNAP/work-prevention cell). Provider bonuses and
   retention incentives still do not prove a dependable staffed slot; time loss
   is not automatically lost earnings or a political effect.
+- **Aging and unpaid care:** BLS reports about 38.2 million people providing
+  unpaid eldercare in 2023–24; care providers spent about 3.88 hours on care
+  days, or 2.84 hours among employed providers, and roughly 51.6% provided
+  care daily or several times a week. This establishes a large social input,
+  not a burden or outcome by itself: the missing links are replacement options,
+  schedule control, earnings, health, recipient safety, and whether employers
+  or public programs absorb any of the risk.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
