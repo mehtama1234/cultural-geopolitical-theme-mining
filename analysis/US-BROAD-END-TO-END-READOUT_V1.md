@@ -103,6 +103,11 @@ These are real bridges, but each closes only part of the full chain:
   insurance showed the same action gap with near-similar favorable approval.
   Material insecurity, institutional judgment, and political action are
   therefore separate currencies; attribution and remedy remain unknown.
+- **GSS meaning layer:** respondents who were not satisfied with their finances
+  reported much lower generalized trust and fairness expectations than those
+  who were satisfied. But reported financial direction also aligned with
+  different vote intention patterns. Material position shapes meaning without
+  determining one fixed cultural or political response.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
