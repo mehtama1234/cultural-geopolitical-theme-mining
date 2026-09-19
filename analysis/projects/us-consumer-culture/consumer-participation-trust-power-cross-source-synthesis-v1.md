@@ -32,6 +32,16 @@ that the customer received adequate recovery or regained practical choice.
 That means continued use can reflect dependence, and non-use or non-reporting
 can reflect friction or futility—not simple satisfaction or distrust.
 
+The June 2025 HTOPS search screen adds an adaptation signal: when household
+expense difficulty is higher, searches for jobs, food, benefits, and credit
+are generally more common. The April-to-June fraud follow-up extends that
+pattern to linked respondents: prior reported loss is followed by more later
+option-searching, while the tiny reported-recovery group still searches
+heavily. Together these records support a bounded proposition—burden can
+produce active search without producing a usable alternative. Search is effort
+and navigation, not proof of access, remedy, or exit; the fraud timing is
+retrospective and the group is not attrition-adjusted.
+
 ## Evidence matrix
 
 | Surface | What the local record measures | Safe interpretation | Missing arrow |
@@ -41,6 +51,7 @@ can reflect friction or futility—not simple satisfaction or distrust.
 | News and civic platforms | News-source use/trust and descriptive participation types | Attention, trust, and civic action are distinct participation styles | Platform exposure, prior identity, belief change, action cause, and durable engagement |
 | Charitable food | Receipt, unmet need, access barriers, safety, treatment, and reasons for nonreceipt | Help can be available yet socially, physically, temporally, or informationally unusable | Dated need, provider alternative, actual food/security outcome, dignity, and later trust |
 | Digital fraud and recourse | Reported loss, recovery time, unrecovered money, complaint routing, and response labels | Exposure and institutional visibility do not establish recovery, remedy, or exit | Same customer, originating contact, correction adequacy, repeat effort, trust, and switching |
+| Material pressure and option-search | Same-round expense difficulty and targeted online search; linked fraud exposure/loss and later search | Pressure is associated with searching for options, but search does not show that an option was found or usable | Dated need, search result, alternative quality, institutional response, and later recovery or exit |
 
 These records deliberately retain different units, denominators, clocks, and
 uncertainty. Their convergence justifies a research priority; it does not
@@ -114,6 +125,17 @@ the problem, returned money, protected access, prevented recurrence, or gave
 the customer a credible alternative. Visibility can improve accountability or
 simply produce a better record of unresolved dependence.
 
+### 6. Searching is an adaptation signal, not a completed alternative
+
+The consumer may be doing something active—looking for a job, food, public
+benefit, credit, or another route—while still lacking practical room. The
+HTOPS evidence shows this in same-round need-conditioned comparisons, and the
+linked fraud follow-up shows the pattern after reported loss. The tiny group
+that reported recovery does not show a clean reduction in later searching.
+This does not prove that searching failed; it shows why search activity cannot
+be coded as successful adaptation or recovery without a result, cost, and
+follow-up outcome.
+
 ## End-to-end status
 
 | Arrow | Status | Current conclusion |
@@ -121,6 +143,7 @@ simply produce a better record of unresolved dependence.
 | Need/exposure → participation or non-use | Compared/reported | Resources, information, routes, time, and social meaning shape what can be attempted. |
 | Participation → cost, data, attention, or status consequence | Reported/estimated | Payment, fraud, food-help, and platform records expose different currencies of participation. |
 | Participation/report → institutional learning | Observed/inferred | Transactions, complaints, reviews, and non-use can change what institutions see, but the feedback effect is not jointly measured. |
+| Pressure/loss → option-searching | Compared / same-round plus linked-wave descriptive | Material pressure and prior reported loss are associated with more targeted searching; the search result and usability are unknown. |
 | Institutional response → verified remedy/recovery | Partly observed, still open | Named redress, repair, and restoration records expose implementation clocks, but receipt, adequacy, durable protection, and restored choice remain separate. |
 | Experience → trust, identity, civic action, or exit | Open/partly measured | Separate surveys measure trust and action, but no current record joins them to the same consumer episode and later behavior. |
 

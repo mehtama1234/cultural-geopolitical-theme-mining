@@ -77,7 +77,9 @@ These are real bridges, but each closes only part of the full chain:
   mechanism are not identified.
 - **HTOPS:** linked respondents separate retrospective exposure, realized loss,
   reporting, sparse self-reported recovery, and later household context. The
-  incident date, verified remedy, and durable security are missing.
+  incident date, verified remedy, and durable security are missing. The later
+  search fields add an adaptation signal: loss groups search more for jobs,
+  food, benefits, and credit, but searching is not a usable alternative.
 - **CFPB Ombudsman:** one redress recipient’s expired check leads to effort,
   escalation, and facilitated reissuance. The public record stops before cash
   receipt, adequacy, trust, or exit.
@@ -85,6 +87,12 @@ These are real bridges, but each closes only part of the full chain:
 Together these bridges show that the missing piece is not “more opinion data.”
 It is the middle of the lived chain: usable alternatives, effort, control,
 verified remedy, durable outcome, and the meaning/action that follows.
+
+The consumer lane now makes that middle gap especially visible: households can
+actively search for a way out while the available records still cannot show
+whether a provider, employer, agency, or platform supplied a workable route.
+More searching is therefore a sign of constrained adaptation, not evidence of
+freedom or recovery.
 
 ## What would count as a true end-to-end result
 
@@ -114,4 +122,3 @@ That pressure may become lost time, debt, reduced care, continued dependence,
 consumer switching, silence, trust, organizing, or geopolitical constraint.
 The next phase is to observe that conversion in one stable unit, including the
 repair and meaning after the event.
-
