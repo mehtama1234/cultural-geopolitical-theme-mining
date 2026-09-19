@@ -53,7 +53,11 @@ exit. The [credit-card monetary-relief recheck](cfpb-credit-card-monetary-relief
 and [named redress-route recheck](cfpb-named-redress-route-recheck-2026-09-18.md)
 preserve these boundaries and source-vintage hashes. The [structured named-
 redress ledger](data/cfpb-named-redress-route-event-ledger-v1.json) now makes
-the three distribution states and their open arrows machine-readable.
+the three distribution states and their open arrows machine-readable. The
+[CFPB Ombudsman reissue route](cfpb-ombudsman-redress-reissue-route-v1.md)
+adds one illustrative recipient-side sequence—expired check, reissue effort,
+administrator friction, and Ombudsman facilitation—without claiming final
+receipt or recovery.
 
 ## Source comparison
 
@@ -67,6 +71,7 @@ the three distribution states and their open arrows machine-readable.
 | [CPSC VRURC recall implementation bridge](../us-marketplace-product-safety/findings/us-product-recall-response-003.md) | Single recall key across notice API and MPR snapshot | Hazard, injury signal, replacement offer, firm-reported consumer correction, and denominator mismatch | Purchaser identity, notice reach, replacement receipt, safe restoration, residual cost, trust, and exit |
 | [CFPB credit-card monetary-relief recheck](cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md) | 25-record response-category-conditioned complaint slice | Complaint receipt, product/date filter, company monetary-relief label, public-response visibility | Relief amount, issuance, receipt, account correction, residual loss, repeat effort, trust, switching, and exit |
 | [CFPB named redress routes](cfpb-named-redress-route-recheck-2026-09-18.md) and [structured route ledger](data/cfpb-named-redress-route-event-ledger-v1.json) | Named aggregate payment/distribution route | Eligibility or reported distribution stage, administrator, current route status, and separate ongoing/check/closed states | Recipient-level receipt, amount, obligation/credit correction, remaining burden, trust, switching, and exit |
+| [CFPB Ombudsman redress reissue route](cfpb-ombudsman-redress-reissue-route-v1.md) | One illustrative recipient-side inquiry | Expired check, reissue attempt, administrator friction, and Ombudsman facilitation | Final reissued-check receipt/cashing, residual loss, recovery, trust, switching, and exit |
 | [SHED household fraud layers](../us-consumer-fraud-trust/shed-fraud-subgroup-layer-v1.md) and [annual comparison](../us-consumer-fraud-trust/shed-fraud-annual-comparison-layer-v1.md) | Weighted adult respondent; separate annual samples | Fraud exposure, direct loss, unrecovered money, recovery time, age/income conditioning, and a 2024 payment-route screen | Verified account outcome, provider response, panel-level trust or exit, and a common denominator with CFPB/FTC |
 | [Consumer culture layer](../us-consumer-culture/consumer-culture-trust-status-layer-v1.md) | Customer/respondent, review, report, transaction | Search, privacy, help-seeking, reporting, reviews, status, trust, and practical use | Same-case linkage from experience to remedy and later exit |
 | [Firm/market power layer](../us-local-business-place/firm-market-power-distribution-layer-v1.md) | Firm, market, customer, worker, place | How terms, data, access, risk, and control may be distributed | A named case joining firm decision, customer burden, alternatives, remedy, and public response |
@@ -168,6 +173,7 @@ The cross-source case check now has three explicit boundaries:
 | CFPB student-loan route | De-identified complaint case | Receipt → routing → response label | Verified correction, repeat effort, recovery, switching, trust, exit |
 | CFPB credit-card monetary-relief slice | Response-category-conditioned complaint case | Receipt → company `Closed with monetary relief` label | Amount, issuance, receipt, correction, residual loss, trust, switching, exit |
 | CFPB named redress routes | Aggregate or administrator route | Eligibility/distribution status, including reported checks or completed distributions | Recipient-level receipt, amount, correction, residual loss, trust, switching, exit |
+| CFPB Ombudsman redress example | Illustrative recipient-side inquiry | Reissue effort and institutional escalation after an expired check | Final receipt/cashing, residual loss, recovery, trust, switching, exit |
 | HTOPS fraud/loss | Same respondent across two survey waves | Exposure → loss/report/recovery report → later household context | Dated incident, receipt, durable security, causal meaning/action, exit |
 | CPSC VRURC recall | Recall key/product episode | Hazard → notice/remedy → firm-reported correction | Purchaser reach, replacement receipt, safe restoration, residual cost, trust, exit |
 

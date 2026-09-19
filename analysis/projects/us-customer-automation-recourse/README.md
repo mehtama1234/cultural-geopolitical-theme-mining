@@ -131,6 +131,12 @@ This separates compensation from restoration of the underlying obligation and
 continued servicing dependence; individual receipt, balance correction,
 repeat effort, trust, switching, and exit remain open.
 
+The [CFPB Ombudsman redress-reissue route](cfpb-ombudsman-redress-reissue-route-v1.md)
+adds an official illustrative recipient-side stage: an expired redress check,
+consumer reissue effort, administrator friction, and Ombudsman facilitation.
+It advances the route beyond aggregate distribution status while leaving final
+receipt, cashing, recovery, trust, and exit open.
+
 The [Citibank student-loan servicing-remedy finding](findings/us-customer-automation-recourse-018.md)
 adds a named mechanism: misleading tax information, erroneous deferment
 termination, late fees, capitalized interest, overstated minimum payments, and
