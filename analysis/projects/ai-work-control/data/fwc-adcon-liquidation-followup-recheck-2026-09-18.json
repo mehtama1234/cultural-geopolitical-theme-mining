@@ -18,7 +18,12 @@
     {
       "url": "https://insolvencynotices.com.au/archive/notice_archive_1.html",
       "role": "public_insolvency_notice_index",
-      "result": "Confirms public notices for Adcon Admin Pty Ltd, including winding-up and later creditor-meeting notices, but does not provide a worker-linked FEG determination, payment receipt, or compensation settlement."
+      "result": "Confirms public notices for Adcon Admin Pty Ltd, including winding-up and later creditor-meeting notices, but does not provide a worker-linked FEG determination, payment receipt, or compensation settlement. The individual notice pages were access-denied during this check."
+    },
+    {
+      "url": "https://insolvencynotices.com.au/notice_archive/notice_archive_4.html",
+      "role": "later_public_insolvency_notice_index",
+      "result": "Lists Adcon Admin creditor meetings on 29 January 2025, 1 April 2025, and 3 June 2026, but supplies no claim amount, dividend, FEG outcome, or worker-linked payment record in the indexed text."
     }
   ],
   "stages": {
@@ -31,6 +36,6 @@
     "compensation_receipt": "not_observed",
     "later_job_or_household_recovery": "not_observed"
   },
-  "boundary": "A related-entity administrator report cannot be joined to Adcon Admin or Mr Smith merely because both use the Adcon name. The current public route establishes entitlement advice and formal remedy availability, not eligibility, payment, receipt, or recovery.",
+  "boundary": "A related-entity administrator report cannot be joined to Adcon Admin or Mr Smith merely because both use the Adcon name. Later Adcon Admin notice indexes show creditor-process continuity but no worker-linked result. The current public route establishes entitlement advice and formal remedy availability, not eligibility, payment, receipt, or recovery.",
   "storage_boundary": "No worker file, FEG application, payment instrument, or bulk insolvency archive is retained; only bounded URLs, entity identifiers, stage statuses, and the rejected cross-entity join are recorded."
 }
