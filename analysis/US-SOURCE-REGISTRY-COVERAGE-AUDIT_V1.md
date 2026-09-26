@@ -176,13 +176,13 @@ family that will be acquired, compared, or maintained over time.
 | `desapublications.un.org` | 19 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity.json` |
 | `academic.oup.com` | 17 | `analysis/us-theme-atlas.md`; `analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md`; `analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md` |
 | `bis.gov` | 17 | `analysis/US-BROAD-GEOPOLITICAL-STATE-SUBTHEME-SYNTHESIS_V1.md`; `analysis/records/us-gao-advanced-semiconductor-export-control-compliance-2022-2024.json`; `analysis/records/us-bis-bosch-foreign-produced-mems-huawei-settlement-2026.json` |
+| `unstats.un.org` | 17 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json`; `analysis/records/comparative-un-sdg16-2026-institutions-justice-information-voice.json` |
 | `doee.dc.gov` | 15 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md` |
 | `weforum.org` | 15 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-wef-global-cybersecurity-outlook-ai-geopolitics-2026.json`; `analysis/records/comparative-wef-global-cybersecurity-outlook-ai-geopolitics-2026.json` |
 | `apnorc.org` | 14 | `analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md`; `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-062.md`; `analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-060.md` |
 | `fairwork.gov.au` | 14 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/ACTIVE-GOAL-COMPLETION-AUDIT_2026-09-25.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md` |
+| `fao.org` | 14 | `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json`; `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json`; `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json` |
 | `btq-kassel.de` | 13 | `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md`; `analysis/us-theme-atlas.md` |
-| `fao.org` | 13 | `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json`; `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json`; `analysis/records/comparative-fao-healthy-diet-cost-food-security-2026.json` |
-| `unstats.un.org` | 13 | `analysis/records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json`; `analysis/records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json`; `analysis/records/comparative-un-sdg16-2026-institutions-justice-information-voice.json` |
 | `nyc.gov` | 12 | `analysis/US-BROAD-INTERESTING-FINDINGS_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md`; `analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md` |
 | `undp.org` | 12 | `analysis/records/comparative-un-sdg16-2026-institutions-justice-information-voice.json`; `analysis/records/comparative-undp-democracy-development-lac-2026-institutions-trust-pressure.json`; `analysis/records/comparative-undp-democracy-development-lac-2026-institutions-trust-pressure.json` |
 | `who.int` | 12 | `analysis/records/comparative-who-universal-health-coverage-financial-protection-2025.json`; `analysis/records/comparative-who-universal-health-coverage-financial-protection-2025.json`; `analysis/records/comparative-who-social-connection-loneliness-2025.json` |
@@ -226,13 +226,13 @@ without a recurring acquisition need and source-specific metadata.
 | `desapublications.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `academic.oup.com` | academic publisher | Retain the cited paper/publisher route; promote a recurring research family only when a sustained acquisition lane exists. |
 | `bis.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `unstats.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `doee.dc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `weforum.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `apnorc.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `fairwork.gov.au` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
 | `fao.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `unstats.un.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `btq-kassel.de` | case-specific institution | Retain as a cited interview/organization record; promote only if a maintained recurring evidence series is acquired. |
 | `nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `undp.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `who.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -270,6 +270,7 @@ without a recurring acquisition need and source-specific metadata.
 | `legistar.council.nyc.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nlrb.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ofac.treasury.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
+| `unep.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `unicef.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `english.mofcom.gov.cn` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `ico.org.uk` | unclassified review candidate | Requires manual review before promotion or exclusion. |
@@ -278,7 +279,6 @@ without a recurring acquisition need and source-specific metadata.
 | `nces.ed.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `nypa.gov` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `saffm.hq.af.mil` | unclassified review candidate | Requires manual review before promotion or exclusion. |
-| `unep.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `act.nato.int` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `afajof.org` | unclassified review candidate | Requires manual review before promotion or exclusion. |
 | `benklopack.github.io` | unclassified review candidate | Requires manual review before promotion or exclusion. |
