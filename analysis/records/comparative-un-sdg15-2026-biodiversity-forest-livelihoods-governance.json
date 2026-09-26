@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg15-2026-biodiversity-forest-livelihoods-governance",
+  "title": "Biodiversity governance is expanding while species loss, forest decline, and ecosystem livelihood risks persist",
+  "theme_ids": ["cost", "energy", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 15: Life on Land",
+  "geography": "Global SDG indicator assessment across countries, ecosystems, species, forests, and biodiversity-governance systems",
+  "observations": [
+    {
+      "period": "2025-2026; biodiversity risk and national governance",
+      "denominator": {"value": 1, "unit": "global biodiversity indicator and country-policy frame", "value_type": "global_indicator_frame"},
+      "measures": {
+        "species_at_risk": {"value": 48600, "unit": "more than species facing extinction", "value_type": "reported_estimate"},
+        "red_list_index": {"value": 0.75, "unit": "approximate upper bound of the Red List Index in 2025, down from 0.80 in 1993", "value_type": "reported_index"},
+        "national_biodiversity_targets": {"value": 155, "unit": "countries with national biodiversity targets established by 2025", "value_type": "reported_count"},
+        "environmental_accounting_countries": {"value": 98, "unit": "countries implementing the System of Environmental-Economic Accounting in 2025", "value_type": "reported_count"}
+      },
+      "method": "UN SDG indicator synthesis drawing on the Red List Index, national biodiversity targets, and environmental-economic accounting systems.",
+      "uncertainty": "Species-risk indicators, national targets, and accounting adoption measure different objects and have uneven country coverage; policy adoption does not show ecological recovery or implementation quality.",
+      "subgroup": "Species, ecosystems, countries, Indigenous and local communities, conservation institutions, and populations dependent on ecosystem services.",
+      "counterinterpretation": "Growing biodiversity governance can produce meaningful protection and better measurement even while global extinction risk worsens due to lagged ecological response and persistent pressures.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/",
+      "retrieval_hash": "sha256:2389be6dc0ee06579b20d3b2f1195d9816243ac973d9cd28f042a0fb1d46126f",
+      "status": "reported"
+    },
+    {
+      "period": "1990-2025; forest loss and management",
+      "denominator": {"value": 1, "unit": "global forest area and annual forest-change estimates", "value_type": "global_land_frame"},
+      "measures": {
+        "forest_loss_since_2015": {"value": 41, "unit": "million hectares of forest lost since 2015", "value_type": "reported_estimate"},
+        "forest_share_land": {"value": 31.8, "unit": "percent of Earth's land covered by forests in 2025, down from 33.3 percent in 1990", "value_type": "reported_share"},
+        "deforestation_rate_2015_2025": {"value": 10.9, "unit": "million hectares per year of deforestation during 2015-2025", "value_type": "reported_rate"},
+        "forests_under_management_plans": {"value": 55, "unit": "percent of total forest area under long-term management plans", "value_type": "reported_share"}
+      },
+      "method": "UN SDG synthesis of global forest-area, deforestation, forest-management, and protected-area data.",
+      "uncertainty": "Forest area, forest quality, management plans, and biodiversity outcomes are not interchangeable; global averages conceal regional loss, restoration, and land-use differences.",
+      "subgroup": "Forest-dependent communities, agricultural and livestock systems, forest managers, governments, biodiversity, water systems, and climate-vulnerable populations.",
+      "counterinterpretation": "Slowing deforestation and expanded management plans indicate policy capacity, but they may coexist with degradation, displacement of land-use pressure, and weak local rights.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/",
+      "retrieval_hash": "sha256:2389be6dc0ee06579b20d3b2f1195d9816243ac973d9cd28f042a0fb1d46126f",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2025; key biodiversity areas and protection",
+      "denominator": {"value": 16600, "unit": "identified key biodiversity areas used in the UN assessment", "value_type": "biodiversity_site_frame"},
+      "measures": {
+        "average_kba_protection_2025": {"value": 45, "unit": "percent average protected coverage of each key biodiversity area in 2025", "value_type": "reported_share"},
+        "average_kba_protection_2000": {"value": 25, "unit": "percent average protected coverage of each key biodiversity area in 2000", "value_type": "reported_share"},
+        "protection_gap": {"value": "many countries may have identified only a portion of their key biodiversity areas, potentially as little as half", "unit": "report uncertainty and coverage warning", "value_type": "reported_boundary"},
+        "regional_variation": {"value": "average coverage exceeds 60 percent in Europe and Northern America but falls below 25 percent in parts of Oceania", "unit": "regional comparison", "value_type": "reported_comparison"}
+      },
+      "method": "UN SDG comparison of key biodiversity area identification and protected/conserved-area overlap across ecosystems and regions.",
+      "uncertainty": "Site identification is incomplete and protection overlap does not establish effective management, ecological connectivity, or community consent.",
+      "subgroup": "Key biodiversity areas, protected-area authorities, local and Indigenous communities, conservation organizations, and regions with uneven mapping capacity.",
+      "counterinterpretation": "Formal protection can be a foundation for conservation, but unrecognized sites and weak enforcement mean legal coverage can overstate real security.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/",
+      "retrieval_hash": "sha256:2389be6dc0ee06579b20d3b2f1195d9816243ac973d9cd28f042a0fb1d46126f",
+      "status": "reported"
+    },
+    {
+      "period": "2008-2025; coral decline and human livelihoods",
+      "denominator": {"value": 1, "unit": "warm-water reef-building coral and dependent-livelihood assessment", "value_type": "ecosystem_livelihood_frame"},
+      "measures": {
+        "warm_water_corals_high_risk_2008": {"value": 33, "unit": "percent of warm-water reef-building corals at high risk of extinction in 2008", "value_type": "reported_share"},
+        "warm_water_corals_high_risk_2025": {"value": 44, "unit": "percent of warm-water reef-building corals at high risk of extinction in 2025", "value_type": "reported_share"},
+        "reef_dependent_livelihoods": {"value": 1000, "unit": "approximately millions of people relying on reefs for fisheries, tourism, coastal protection, and cultural values", "value_type": "reported_estimate"},
+        "compounding_pressures": {"value": "climate change, pollution, and unsustainable fishing compound coral deterioration", "unit": "report causal-context synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "UN SDG synthesis of species-risk indicators and ecosystem-service livelihood dependencies.",
+      "uncertainty": "The livelihood estimate is broad and ecosystem dependence varies by location; coral-risk trends do not predict a uniform loss of fisheries, tourism, protection, or cultural value in every community.",
+      "subgroup": "Coastal communities, fishers, tourism workers, Indigenous peoples, small-island populations, coral ecosystems, and households dependent on coastal protection.",
+      "counterinterpretation": "Restoration, local stewardship, fisheries governance, and climate adaptation may protect some services even as global coral risk rises; benefits and losses are unevenly distributed.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/",
+      "retrieval_hash": "sha256:2389be6dc0ee06579b20d3b2f1195d9816243ac973d9cd28f042a0fb1d46126f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/global-environment-outlook-7", "claim": "UNEP GEO-7 provides a complementary integrated planetary-health and transformation scenario."},
+    {"source_url": "https://www.fao.org/interactive/forest-resources-assessment/2025/en/", "claim": "FAO Global Forest Resources Assessment 2025 provides complementary forest-area and management evidence."}
+  ],
+  "boundary": "This record adds a biodiversity-to-livelihoods and governance route linking species risk, forests, key biodiversity areas, coral ecosystems, conservation law, accounting, and dependent communities. It uses global SDG indicators and publication-level estimates, not individual livelihood histories, local ecological causal estimates, or proof that legal targets produce ecological recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN SDG 2026 Goal 15 page was reviewed for species risk, biodiversity targets, accounting, forest loss and management, key biodiversity areas, coral risk, and livelihood-dependence figures.",
+    "source_url_sha256": "sha256:2389be6dc0ee06579b20d3b2f1195d9816243ac973d9cd28f042a0fb1d46126f",
+    "checked": "2026-09-26"
+  }
+}

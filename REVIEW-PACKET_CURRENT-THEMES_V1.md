@@ -3,7 +3,7 @@
 **Checked:** 2026-09-24
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 1012 canonical records, 2353 observations, 14 program
+**Registry checkpoint:** 1013 canonical records, 2357 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),

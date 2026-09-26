@@ -3136,7 +3136,7 @@ Across the current evidence, a defensible provisional proposition is:
 > dependence.
 
 This is a synthesis of recurring measurement patterns, not a causal estimate.
-The current registry contains 1012 machine-readable records, 2353 observations,
+The current registry contains 1013 machine-readable records, 2357 observations,
 and 164 source packets across 14 program themes. It does not claim that the
 records describe separate evidence units rather than the same people or that one
 mechanism explains all domains. The counterexamples are part of the
@@ -10083,3 +10083,25 @@ materials, and consumption through health, poverty, culture, infrastructure,
 finance, and public governance. The open arrow is whether whole-system policy
 can convert planetary risk into equitable transformation rather than shifting
 costs onto exposed households and communities.
+
+## Biodiversity and livelihoods: protection expands while ecological security erodes
+
+The [UN SDG 15 2026 record](records/comparative-un-sdg15-2026-biodiversity-forest-livelihoods-governance.json)
+adds a more specific biodiversity-to-livelihoods route beneath GEO-7’s broader
+planetary-health frame. The SDG assessment reports expanding biodiversity
+targets, environmental accounting, and protected-area coverage, while more than
+48,600 species face extinction, forests continue to shrink, and coral risk has
+risen. These changes reach people through fisheries, tourism, coastal
+protection, food systems, water cycles, climate buffering, and cultural value.
+
+The open issue is implementation and distribution. A law, target, accounting
+system, or protected-area designation can improve governance without ensuring
+effective stewardship, local consent, ecological connectivity, or livelihood
+security. Conversely, community management and restoration can create gains
+that global indicators register slowly. This is aggregate SDG evidence, not
+individual livelihood histories or local causal ecological analysis.
+
+**Rotation finding:** follow biodiversity loss from species, forests, reefs, and
+key sites through food, water, work, tourism, culture, coastal safety, and
+conservation governance. The open arrow is whether expanding formal protection
+becomes effective, locally legitimate ecosystem security.

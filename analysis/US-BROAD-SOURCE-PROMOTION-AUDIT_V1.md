@@ -4,23 +4,23 @@
 
 This is a routing control, not an evidence-quality, importance, or omission score. A record not directly named here can still be represented indirectly by a project finding or cross-source bridge. Direct promotion means its exact trend ID appears in the [central synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [societal subtheme register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md), [broad theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md), or one of the [source-led subtheme maps](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md).
 
-The current corpus has **1012 records**; **800** are directly named in at least one of those reader documents.
+The current corpus has **1013 records**; **800** are directly named in at least one of those reader documents.
 
 ## Direct-ID promotion by theme
 
 | Theme | Corpus records | Directly named | Not directly named |
 |---|---:|---:|---:|
-| Unequal exposure and status | 804 | 639 | 165 |
-| Household room and consumption | 556 | 418 | 138 |
-| Public systems and policy feedback | 695 | 584 | 111 |
+| Unequal exposure and status | 805 | 639 | 166 |
+| Household room and consumption | 557 | 418 | 139 |
+| Public systems and policy feedback | 696 | 584 | 112 |
 | Firm, sector, and market power | 429 | 335 | 94 |
 | Trust, identity, and cultural meaning | 550 | 462 | 88 |
 | Work, control, and bargaining | 308 | 228 | 80 |
 | Political judgment and collective action | 378 | 302 | 76 |
 | Care, health, and social reproduction | 295 | 228 | 67 |
-| Infrastructure, technology, and dependency | 314 | 252 | 62 |
+| Infrastructure, technology, and dependency | 315 | 252 | 63 |
 | Housing, place, and mobility | 225 | 177 | 48 |
-| Geopolitical and state consequences | 260 | 220 | 40 |
+| Geopolitical and state consequences | 261 | 220 | 41 |
 | Time as a hidden price | 172 | 138 | 34 |
 | Consumer power and recourse | 185 | 166 | 19 |
 | Platforms, data, and attention | 123 | 115 | 8 |

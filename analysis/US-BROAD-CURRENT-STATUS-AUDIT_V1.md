@@ -16,7 +16,7 @@ and shocks move through money, time, access, control, status, culture,
 institutions, political action, firm strategy, infrastructure, and state
 power—and to mark the missing links rather than collapse them into one story.
 
-**Current registry state:** 1012 machine-readable records, 2353 observations,
+**Current registry state:** 1013 machine-readable records, 2357 observations,
 The registry contains 1003 `us-trend-observation-record-v1` records plus 2
 explicitly accepted compatibility-format records.
 164 source packets, and 14 program themes. The published link-validated site
@@ -1892,7 +1892,7 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 1012 trend records and 2353 observations pass the
+the current checkpoint: 1013 trend records and 2357 observations pass the
 structural and provenance validators; all 164 source-search packets pass their
 record checks; the source registry represents all 114 registered source
 families; 2,258 local Markdown links and 1,150 published HTML pages pass link

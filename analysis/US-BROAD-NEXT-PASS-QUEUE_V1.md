@@ -1,5 +1,14 @@
 # US broad program next-pass queue v1
 
+**Biodiversity-to-livelihoods rotation — 2026-09-26:** the [UN SDG 15 2026
+record](records/comparative-un-sdg15-2026-biodiversity-forest-livelihoods-governance.json)
+adds a specific ecological route across species extinction risk, forest loss,
+key biodiversity areas, coral decline, conservation law, accounting, and
+dependent livelihoods. It uses global SDG indicators, not individual livelihood
+histories, local causal ecology, or proof that legal targets produce recovery.
+The next test joins ecosystem exposure, food, water, work, tourism, culture,
+coastal protection, and effective local governance.
+
 **Planetary-health-and-consumption rotation — 2026-09-26:** the [UNEP Global
 Environment Outlook 7 record](records/comparative-unep-global-environment-outlook-7-climate-nature-pollution-consumption.json)
 adds a systems route across climate, biodiversity, land, pollution, food,
@@ -5669,8 +5678,8 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 1012 records and
-2353 observations. The latest UNICEF digital-safety pass adds platform-contact,
+have exact registered-URL references. The trend registry holds 1013 records and
+2357 observations. The latest UNICEF digital-safety pass adds platform-contact,
 exploitation, disclosure, reporting, trusted-support, child-protection, and
 accountability stages while keeping causal effects and institutional outcomes
 open. The latest WHO social-connection pass adds loneliness,
