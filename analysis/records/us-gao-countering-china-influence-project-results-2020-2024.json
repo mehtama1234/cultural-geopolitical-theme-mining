@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-countering-china-influence-project-results-2020-2024",
+  "title": "A geopolitical funding portfolio can grow before agencies can show what changed",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-26-107822 review of State and USAID projects funded to counter Chinese influence",
+  "geography": "International portfolio administered by the U.S. Department of State and USAID; six global regions, fiscal years 2020-2024",
+  "observations": [
+    {
+      "period": "Fiscal years 2020-2023 project data; fiscal year 2024 funding process; GAO review published June 2026",
+      "denominator": {
+        "value": 470,
+        "unit": "estimated State and USAID projects reported as funded from fiscal years 2020-2023",
+        "value_type": "reported_estimated_project_universe"
+      },
+      "measures": {
+        "estimated_allocations": {
+          "value": 1.2,
+          "unit": "billions of dollars allocated across the estimated 470 projects",
+          "value_type": "reported_estimate"
+        },
+        "congressional_minimum": {
+          "value": 1.625,
+          "unit": "billions of dollars directed from five accounts for fiscal years 2020-2024",
+          "value_type": "reported_minimum"
+        },
+        "data_gaps": {
+          "value": "officials lacked readily available reliable data on project type and status; time frames were missing for 129 projects, lines of effort for 38, and specific project data for nearly a third of approved proposals",
+          "unit": "portfolio data completeness",
+          "value_type": "reported_gap"
+        },
+        "portfolio_results": {
+          "value": "not assessed across the portfolio; a monitoring, evaluation, and learning framework remained early-stage and was paused",
+          "unit": "cross-project effectiveness assessment",
+          "value_type": "unmeasured"
+        },
+        "proposal_input": {
+          "value": "the proposal process did not require documented input from key regional or issue-area experts",
+          "unit": "decision-process requirement",
+          "value_type": "reported_process_gap"
+        }
+      },
+      "method": "GAO performance audit of State and USAID guidance, proposal and project data, interviews with officials from 21 of 23 responsible bureaus, and review of the monitoring-and-evaluation framework for fiscal years 2020-2024 funding.",
+      "uncertainty": "The project counts and allocations are estimates based on agency data with missing award numbers, dates, obligations, and lines of effort. The report does not measure each project's local political response, partner behavior, or whether Chinese influence changed.",
+      "subgroup": "Projects across six global regions and five appropriation accounts, including economic support, development assistance, law enforcement, nonproliferation, and foreign military financing; the public summary does not provide a complete project-level outcome panel.",
+      "counterinterpretation": "A missing portfolio assessment does not prove that projects had no effect. Project-level monitoring may exist, data may be recoverable from bureaus or posts, and the agencies changed proposal processes and accepted GAO recommendations. A strategic result can also be difficult to reduce to one indicator, although that makes a transparent measurement framework more important.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107822/index.html",
+      "retrieval_hash": "sha256:7987ffc6a7afd6a6c826473cbf3c6dfb53d879882f87c788700cc4a93e812438",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107822",
+      "claim": "GAO landing page and report metadata for the countering-Chinese-influence portfolio review.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures U.S. funding, portfolio data quality, proposal process, and evaluation capacity for projects intended to counter Chinese influence. It does not establish project-level effectiveness, partner consent, changed Chinese behavior, durable U.S. legitimacy, or strategic success.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO report HTML reviewed; underlying State and USAID project files are not retained",
+    "checked": "2026-09-22"
+  }
+}

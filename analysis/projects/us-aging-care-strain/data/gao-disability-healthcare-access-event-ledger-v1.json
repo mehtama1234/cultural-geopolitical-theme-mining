@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "gao_reported_healthcare_accessibility_oversight_record",
+  "purpose": "Bounded GAO-26-107120 route from disability-related care need through physical, sensory, communication, digital, and bias barriers and federal oversight, preserving completed-care and health-outcome gaps.",
+  "events": [
+    {
+      "event_id": "GAO-DISABILITY-HEALTHCARE-ACCESS-2025",
+      "unit": "case",
+      "geography": "United States health-care system and HHS oversight; 12 HHS surveys and nongeneralizable survey of 1,194 adults with disabilities",
+      "actor_initiating_change": "agency",
+      "event_date": "2025-12-19",
+      "date_precision": "GAO report published December 19, 2025; literature 2013–2024 and HHS oversight/recommendation status at publication",
+      "denominator": "One in four U.S. adults reports a disability as a broad frame; GAO survey sample 1,194 adults with disabilities; barrier and oversight bases vary",
+      "method": "GAO literature and rule review, analysis of 12 HHS population-health surveys, nongeneralizable disability survey, stakeholder interviews, and CMS/OCR/HHS oversight review",
+      "missingness": "Encounter-level need, accommodation request/receipt, provider equipment, appointment completion, delay, avoided care, treatment continuity, work/family time, health outcome, complaint resolution, and provider exit are not linked",
+      "condition_or_decision": "care_need",
+      "exposure": "Disability-related physical, sensory, communication, cognitive, digital, and provider-interaction barriers are identified across literature, stakeholder evidence, and selected survey material",
+      "alternatives_before_action": "Alternative providers, equipment, interpreters, quiet settings, digital/phone routes, family assistance, transport, and ability to switch are not observed for the same patient",
+      "immediate_burden_or_benefit": "Potential barriers include inaccessible exam equipment, kiosks/apps, sensory environments, communication, provider assumptions, and denied services; the review does not estimate national barrier prevalence",
+      "choice_or_response": "CMS inspections, OCR complaints/compliance reviews, HHS accessibility requirements, and five GAO recommendations are visible institutional routes; completed care or patient correction is not verified",
+      "person_or_actor_with_control": "Providers, health systems, CMS, OCR, HHS, patients, and family supporters control different parts of the interface; no encounter-level authority or choice condition is retained",
+      "remedy_or_institutional_response": "HHS amended accessibility requirements in 2024, but GAO found no detailed strategic plan/timeline and limited public aggregation of oversight results; recommendations remained open at publication",
+      "immediate_outcome": "The record establishes an accessibility and measurement gap between nominal coverage/provider capacity and usable care",
+      "protected_outcome": "Accessible equipment, communication, and accommodation could protect safe treatment continuity, but successful completion is not observed",
+      "sacrificed_outcome": "Extra time, family coordination, failed encounters, delayed diagnosis, or avoided care may shift cost and risk to patients, but no patient-level sacrifice is measured",
+      "cost_risk_transfer": "The review does not identify whether accessibility costs transfer among patients, families, providers, insurers, or public oversight systems",
+      "later_outcome": "No linked health, work, household-time, trust, complaint, provider switching, or exit outcome is observed",
+      "meaning_and_attribution": "Bias, dignity, fairness, and trust concerns are identified as possible mechanisms, but patient interpretation and attribution are not measured",
+      "public_or_collective_response": "Federal recommendations and oversight routes are observed; patient organizing, complaint resolution, policy response, and collective action are not linked",
+      "counterexample": "A barrier identified in literature or stakeholder evidence may be successfully accommodated in a particular encounter; nominal equipment or coverage does not prove either failure or success",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GAO review and nongeneralizable evidence; no national barrier prevalence, causal health estimate, or encounter-level remedy result is established",
+      "source_url": "https://www.gao.gov/products/gao-26-107120"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-HEALTH-ACCESS-A-01",
+      "from": "disability-related care need",
+      "to": "physical, sensory, communication, cognitive, digital, or bias barrier",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "GAO identifies these barrier domains through literature, stakeholder evidence, selected survey material, and oversight review",
+      "status": "reported",
+      "counterexample": "Barrier domains are not a national prevalence estimate and may be absent or successfully accommodated in a particular encounter",
+      "remaining_gap": "Patient-level need, provider, requested accommodation, encounter, and completion record"
+    },
+    {
+      "arrow_id": "GAO-HEALTH-ACCESS-A-02",
+      "from": "accessibility barrier",
+      "to": "failed, delayed, avoided, or extra-burden care encounter",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The review describes inaccessible equipment, communication, sensory environments, digital interfaces, and provider interaction concerns but does not count failed or avoided encounters nationally",
+      "status": "open",
+      "counterexample": "A provider or family member may supply an accommodation, and a described barrier may not affect a specific encounter",
+      "remaining_gap": "Encounter completion, wait/delay, extra travel/time, family assistance, and care avoidance"
+    },
+    {
+      "arrow_id": "GAO-HEALTH-ACCESS-A-03",
+      "from": "oversight or accessibility requirement",
+      "to": "provider correction and restored usable care",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "CMS/OCR oversight and five GAO recommendations are visible, but HHS did not have detailed execution timelines and OCR results were not routinely shared in aggregate",
+      "status": "open",
+      "counterexample": "Individual voluntary correction may occur without public aggregation, while a public recommendation may not change a patient encounter",
+      "remaining_gap": "Provider implementation, accommodation receipt, correction, repeat encounter, and safe continuity"
+    },
+    {
+      "arrow_id": "GAO-HEALTH-ACCESS-A-04",
+      "from": "completed or failed accessible care",
+      "to": "health, work, family-time, and household-security outcome",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The GAO record contains no linked encounter-level treatment, delayed diagnosis, health, work, or family-burden follow-up",
+      "status": "open",
+      "counterexample": "Health outcomes can be shaped by disease, treatment, coverage, and household resources apart from accessibility",
+      "remaining_gap": "Same-patient treatment continuity, safety, health, work/care time, financial cost, and recovery"
+    },
+    {
+      "arrow_id": "GAO-HEALTH-ACCESS-A-05",
+      "from": "access failure or correction",
+      "to": "trust, complaint, provider switching, collective action, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The review identifies complaint and oversight routes but does not link a patient encounter to resolution, trust change, switching, or exit",
+      "status": "open",
+      "counterexample": "Low complaint visibility may reflect low awareness, burden, or distrust rather than low harm; complaint filing also does not prove correction",
+      "remaining_gap": "Patient-reported experience, complaint effort, response, remedy, trust, repeat use, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a health-care accessibility and oversight stage beneath formal coverage or provider availability. It does not establish barrier prevalence, failed-care rates, accommodation receipt, health outcomes, family burden, remedy, trust, or exit.",
+  "storage_boundary": "Only GAO-published review findings, oversight stages, recommendation status, and interpretation limits are retained; HHS survey files, provider records, and OCR/CMS administrative files are not stored."
+}

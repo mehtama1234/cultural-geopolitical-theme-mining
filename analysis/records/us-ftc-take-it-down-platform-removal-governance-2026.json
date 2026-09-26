@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-take-it-down-platform-removal-governance-2026",
+  "title": "Platform safety is becoming a time-bounded removal and complaint-governance obligation",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "FTC enforcement guidance and covered online platforms under Section 3 of the TAKE IT DOWN Act",
+  "geography": "United States online platforms and people seeking removal of nonconsensual intimate images",
+  "observations": [
+    {
+      "period": "May 19, 2026 enforcement start",
+      "denominator": {
+        "value": 16,
+        "unit": "major platforms named in FTC compliance reminder letters; the statutory covered-platform universe is broader",
+        "value_type": "agency_named_platform_count"
+      },
+      "measures": {
+        "request_deadline": {
+          "value": "covered platforms must provide a process for valid removal requests",
+          "unit": "statutory platform obligation",
+          "value_type": "reported_requirement"
+        },
+        "removal_window": {
+          "value": 48,
+          "unit": "hours after a valid request for the image and known identical copies",
+          "value_type": "statutory_time_limit"
+        },
+        "complaint_route": {
+          "value": "FTC launched TakeItDown.ftc.gov for complaints about missing platform processes or failures to remove valid content",
+          "unit": "public recourse route",
+          "value_type": "reported_institutional_route"
+        }
+      },
+      "method": "FTC enforcement announcement and business guidance describing the statutory deadline, removal duty, platform-process requirement, complaint route, and named-platform compliance reminder.",
+      "uncertainty": "The announcement does not report request volume, platform response rates, false positives, repeat appearance, survivor safety, or enforcement outcomes. A legal deadline is not evidence of completed removal or restored agency for any individual.",
+      "subgroup": "Victims and survivors of nonconsensual intimate-image distribution, including minors; covered online platforms.",
+      "counterinterpretation": "A centralized complaint route and hashing guidance may improve recourse, but access, reporting burden, privacy risk, platform implementation, and cross-border hosting can still limit practical protection.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-down-act",
+      "retrieval_hash": "sha256:9e1a4c7f2b5d8a0c3e6f9b1d4a7c0e2f5b8d1a3c6e9f2b4d7a0c3e6f9b1d4a70",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/business-guidance/resources/complying-take-it-down-act",
+      "claim": "FTC business guidance explains request identifiers and hashing to reduce reappearance of removed content.",
+      "status": "official-guidance"
+    }
+  ],
+  "boundary": "This record adds a platform-governance and consumer-recourse mechanism: a harm previously handled through platform discretion is assigned a deadline, request protocol, and regulator complaint route. It does not show individual removal, safety, privacy, trust repair, or durable non-recurrence.",
+  "retrieval_hash": "sha256:9e1a4c7f2b5d8a0c3e6f9b1d4a7c0e2f5b8d1a3c6e9f2b4d7a0c3e6f9b1d4a70"
+}

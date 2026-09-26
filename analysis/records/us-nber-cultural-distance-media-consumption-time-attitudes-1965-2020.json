@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-cultural-distance-media-consumption-time-attitudes-1965-2020",
+  "title": "U.S. cultural distance has widened on some political and consumer dimensions, but not everywhere",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Bertrand and Kamenica, NBER Working Paper 24771 and 2023 American Economic Journal: Applied Economics article",
+  "geography": "United States; groups defined by income, education, gender, race, and political ideology; long-run cultural measures using multiple U.S. datasets",
+  "observations": [
+    {
+      "period": "1965-2020-era measures as defined across the study's datasets; published 2023",
+      "denominator": {
+        "value": 1,
+        "unit": "multi-dataset study of group distinguishability across media, consumer behavior, time use, attitudes, and newborn names",
+        "value_type": "study_scope"
+      },
+      "measures": {
+        "cultural_distance_definition": {
+          "value": "how accurately a person's group can be inferred from media consumption, consumer behavior, time use, social attitudes, or newborn name",
+          "unit": "group-classification measure",
+          "value_type": "reported_method"
+        },
+        "political_ideology_and_attitudes": {
+          "value": "social-attitude differences by political ideology increased over the last four decades",
+          "unit": "reported long-run trend",
+          "value_type": "reported_pattern"
+        },
+        "income_and_attitudes": {
+          "value": "social-attitude differences by income increased somewhat over the last four decades",
+          "unit": "reported long-run trend",
+          "value_type": "reported_pattern"
+        },
+        "race_and_consumer_behavior": {
+          "value": "Whites and non-Whites converged somewhat on attitudes but diverged in consumer behavior",
+          "unit": "reported cross-group comparison",
+          "value_type": "reported_comparison"
+        },
+        "other_dimensions": {
+          "value": "many other group-by-dimension combinations remained broadly constant; gender time-use differences narrowed through 1995 and then stabilized",
+          "unit": "reported counterpattern",
+          "value_type": "reported_null_or_stable_pattern"
+        }
+      },
+      "method": "Long-run comparison of cultural-distance measures across U.S. datasets, using group classification from media diet, consumer behavior, time use, social attitudes, and newborn names; the record preserves study-level patterns rather than treating all measures as one scale.",
+      "uncertainty": "The datasets, group definitions, periods, and measures differ. Classification accuracy is not the same as hostility, social isolation, partisan sorting, causal polarization, or unequal welfare. A stable average distance can hide subgroup change, and a widening distance does not identify its cause.",
+      "subgroup": "Income, education, gender, race, and political-ideology groups across the study's separate cultural dimensions and time periods.",
+      "counterinterpretation": "Greater distinguishability may reflect real group-specific preferences, market segmentation, data availability, or improved measurement rather than social conflict. Convergence on attitudes can coexist with divergence in consumption, and political-cultural distance does not imply that people never interact or cooperate.",
+      "source_url": "https://www.nber.org/papers/w24771",
+      "retrieval_hash": "sha256:baa9e576a0ff0ae5d0092069d413af85d87c97d51c29460fb592278c955c162a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://topcat.aeaweb.org/articles?id=10.1257/app.20210663",
+      "claim": "Published American Economic Journal: Applied Economics version, volume 15(4), pages 100-141, 2023.",
+      "status": "published-version-context"
+    }
+  ],
+  "boundary": "This finding measures cultural distance as group distinguishability across several U.S. cultural dimensions. It does not measure polarization as a whole, explain why distance changed, show reduced contact or trust, or establish that cultural distance produced political action, exclusion, or policy change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER abstract and published AEA metadata reviewed for definition, group dimensions, periods, and headline patterns; underlying multi-dataset estimates are not re-pooled here.",
+    "source_response_sha256": "sha256:baa9e576a0ff0ae5d0092069d413af85d87c97d51c29460fb592278c955c162a",
+    "checked": "2026-09-23"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-cloud-security-control-gaps-2026",
+  "title": "Cloud capacity can expand while monitoring, recovery, and provider accountability remain incomplete",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108443 review of cloud-security practices in eight selected systems across four federal agencies",
+  "geography": "United States federal agencies; Departments of State, Transportation, Veterans Affairs, and Small Business Administration",
+  "observations": [
+    {
+      "period": "2025–2026 review; eight selected cloud systems",
+      "denominator": {"value": 8, "unit": "selected cloud systems across four federal agencies", "value_type": "reported_system_sample"},
+      "measures": {
+        "full_implementation": {"value": "one agency fully implemented all three practices for two systems, and one agency did so for one system", "unit": "selected-system implementation result", "value_type": "reported_comparison"},
+        "partial_implementation": {"value": "remaining five systems partially implemented the three key practices", "unit": "selected-system implementation result", "value_type": "reported_comparison"},
+        "practices": {"value": "continuous monitoring, incident response and recovery, and service-level agreements with measurable/enforceable performance terms", "unit": "security-practice set", "value_type": "reported_definition"}
+      },
+      "method": "GAO selected four agencies, reviewed two cloud systems at each, compared documentation with federal policy and guidance, administered standardized questions, and interviewed officials; systems were rated fully, partially, or not implemented.",
+      "uncertainty": "The eight systems are a selected sample and system names are withheld for sensitivity; the results are not a prevalence estimate for all federal cloud systems.",
+      "subgroup": "State, Transportation, Veterans Affairs, and Small Business Administration; two systems per agency.",
+      "counterinterpretation": "Partial implementation does not mean a breach or service failure occurred, and an agency may have compensating controls not captured by the selected practices.",
+      "source_url": "https://www.gao.gov/products/gao-26-108443",
+      "retrieval_hash": "sha256:b3ae7b92df731352c70f16b7e9865068b1b09ad8a6463f75dd4ceacd5743ad4f",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2026 review; practice-specific system results",
+      "denominator": {"value": 8, "unit": "selected cloud systems assessed for continuous monitoring and service-level agreements", "value_type": "reported_system_sample"},
+      "measures": {
+        "continuous_monitoring_full": {"value": 3, "unit": "systems with fully performed continuous monitoring", "value_type": "reported_count"},
+        "service_level_agreement_full": {"value": 5, "unit": "systems with fully implemented service-level-agreement practice", "value_type": "reported_count"},
+        "remaining_sla_gap": {"value": 3, "unit": "systems whose agreements did not consistently define performance metrics, measurement, and enforcement", "value_type": "reported_count"}
+      },
+      "method": "GAO compared system documentation and provider-related deliverables against the selected practices and assessed whether metrics and enforcement mechanisms were defined.",
+      "uncertainty": "The findings identify control implementation gaps, not actual incident frequency, data loss, user harm, or provider fault.",
+      "subgroup": "Eight selected systems, with provider oversight and agency contract-management practices assessed together.",
+      "counterinterpretation": "A contract lacking explicit metrics may still deliver acceptable performance; formal metrics are a control for accountability, not proof of poor service.",
+      "source_url": "https://www.gao.gov/products/gao-26-108443",
+      "retrieval_hash": "sha256:b3ae7b92df731352c70f16b7e9865068b1b09ad8a6463f75dd4ceacd5743ad4f",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 recommendations",
+      "denominator": {"value": 12, "unit": "GAO recommendations to State, Veterans Affairs, and Small Business Administration", "value_type": "reported_recommendation_count"},
+      "measures": {
+        "recommendation_scope": {"value": "continuous monitoring, incident response/recovery, provider coordination, response-time measurement, testing, and enforceable service-level metrics", "unit": "recommended governance controls", "value_type": "reported_recommendation_scope"},
+        "implementation_status": {"value": "open pending confirmation of agency actions", "unit": "recommendation status", "value_type": "reported_status"},
+        "actual_cloud_outcome": {"value": "not observed", "unit": "incident, recovery, data integrity, confidentiality, availability, or public-user outcome", "value_type": "unmeasured"}
+      },
+      "method": "GAO recommendation-status review tied to the selected-system control assessment.",
+      "uncertainty": "Open recommendations show unresolved governance work but do not establish that a cybersecurity incident or service interruption occurred.",
+      "subgroup": "State, Veterans Affairs, and Small Business Administration; Transportation was reviewed but not listed among the 12 recommendations in the product summary.",
+      "counterinterpretation": "Agencies may implement corrective actions before formal closure; recommendation status is a lagging governance signal.",
+      "source_url": "https://www.gao.gov/products/gao-26-108443",
+      "retrieval_hash": "sha256:b3ae7b92df731352c70f16b7e9865068b1b09ad8a6463f75dd4ceacd5743ad4f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-108443/index.html", "claim": "Official full-report version supplies the selected-system practice ratings and recommendation details.", "status": "official-report"}
+  ],
+  "boundary": "This record shows a gap between adopting cloud services and having verified monitoring, incident recovery, provider accountability, and enforceable performance controls. It does not establish a breach, outage, data loss, user harm, provider failure, or system-wide federal prevalence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for the extracted findings; the full report is linked as a related source.",
+    "html_sha256": "sha256:b3ae7b92df731352c70f16b7e9865068b1b09ad8a6463f75dd4ceacd5743ad4f",
+    "checked": "2026-09-22"
+  }
+}

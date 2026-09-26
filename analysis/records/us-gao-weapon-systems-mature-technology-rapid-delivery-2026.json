@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-weapon-systems-mature-technology-rapid-delivery-2026",
+  "title": "A rapid acquisition pathway can still produce slow delivery when the technology is not mature",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108457 annual assessment of 104 of DOD's costliest weapon programs and selected rapid-acquisition efforts",
+  "geography": "United States Department of Defense weapon-system acquisition programs; major defense acquisition and Middle Tier of Acquisition portfolios",
+  "observations": [
+    {
+      "period": "2026 annual assessment; program status through the report's review period",
+      "denominator": {
+        "value": 104,
+        "unit": "DOD weapon programs selected by cost and acquisition status",
+        "value_type": "reviewed_program_count"
+      },
+      "measures": {
+        "average_delivery_time": {
+          "value": "over 12 years",
+          "unit": "average time frame to deliver a capability across reviewed major programs",
+          "value_type": "reported_average"
+        },
+        "middle_tier_portfolio": {
+          "value": "at least 49 billion planned across 23 of the most expensive Middle Tier of Acquisition programs",
+          "unit": "planned acquisition dollars and program count",
+          "value_type": "reported_portfolio"
+        },
+        "immature_entry": {
+          "value": "18 of 40 programs entered the Middle Tier pathway with immature technologies",
+          "unit": "reviewed Middle Tier program count",
+          "value_type": "reported_count"
+        },
+        "fieldable_capability": {
+          "value": "some Middle Tier programs ended without delivering a fieldable capability; technologies in 7 of 8 reviewed programs remained immature and required additional development",
+          "unit": "reported program and technology status",
+          "value_type": "reported_pattern"
+        },
+        "battlefield_effect": {
+          "value": "not observed",
+          "unit": "missing operational use, reliability, sustainment, warfighter effect, and adversary response",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO assessment of 104 selected weapon programs using program documents, program-office questionnaires, interviews with DOD officials, and review of product-development practices; Middle Tier technology-maturity patterns are reported separately.",
+      "uncertainty": "The reviewed portfolio is selected by cost and acquisition status, not a random sample of all DOD programs. Delivery averages, delayed milestones, and technology maturity are program-level indicators and do not establish equal delay or failure across every system.",
+      "subgroup": "Major Defense Acquisition Programs and Middle Tier of Acquisition programs, including rapid prototyping and fielding pathways; program type, service, technology, and maturity differ.",
+      "counterinterpretation": "Entering a rapid pathway with immature technology may delay delivery, but separating immature work could also delay experimentation or reduce near-term innovation. A longer schedule can reflect testing, safety, integration, or changing requirements rather than simple administrative failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-108457",
+      "retrieval_hash": "sha256:b893c7c92f823156caeca64e1c41ebcb25b16ea5cdca748f5d64aad567081f2d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures DOD acquisition schedules, technology maturity, and fieldable-capability status in a selected 2026 review portfolio. It does not establish operational effectiveness, deterrence, battlefield superiority, contractor causation, or the outcome of every reform."
+}

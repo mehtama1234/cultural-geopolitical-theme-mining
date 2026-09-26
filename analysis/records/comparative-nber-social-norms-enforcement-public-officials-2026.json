@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-social-norms-enforcement-public-officials-2026",
+  "title": "Integrity norms can weaken without continued enforcement even in a low-corruption setting",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "NBER Working Paper 35756, universe-level Singapore housing transactions linked to public-official status, planned MRT stations, enforcement changes, and survey measures",
+  "geography": "Singapore public officials, their relatives, housing transactions, MRT planning, and anti-corruption enforcement",
+  "observations": [
+    {
+      "period": "Planned MRT station expansions, public announcements, enforcement tightening, and linked survey periods",
+      "denominator": {
+        "value": null,
+        "unit": "Universe-level housing transactions and public-official records; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "informed_home_purchase": {
+          "value": "civil servants disproportionately bought homes near planned but not yet publicly announced MRT stations, with the effect concentrated one to two years before announcements",
+          "unit": "reported transaction comparison",
+          "value_type": "reported_effect"
+        },
+        "official_and_relative_pattern": {
+          "value": "the behavior was concentrated among mid-level officials and rail-planning-connected agencies and also appeared among relatives",
+          "unit": "reported subgroup and indirect-participation pattern",
+          "value_type": "reported_comparison"
+        },
+        "enforcement_response": {
+          "value": "stronger formal enforcement substantially reduced direct and indirect misconduct",
+          "unit": "reported response to enforcement tightening",
+          "value_type": "reported_effect"
+        },
+        "norms_and_trust": {
+          "value": "survey measures show changes in perceived corruption, public trust, and pro-integrity norms consistent with norms that persist but are fragile",
+          "unit": "reported survey and model context",
+          "value_type": "reported_pattern"
+        },
+        "public_legitimacy": {
+          "value": "not observed as a direct common outcome",
+          "unit": "missing citizen-level legitimacy, reporting, service quality, and political-action outcome linked to each transaction",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Universe-level housing transaction analysis identifying informed purchases around planned but unpublished MRT stations, matched comparisons, enforcement changes, survey measures, and a dynamic model of norm persistence and policy learning.",
+      "uncertainty": "The public abstract does not disclose transaction counts, exact enforcement dates, all controls, or the full survey design. The transaction pattern is evidence of information-linked misconduct in the studied setting, not a direct measure of every official's beliefs or all corruption.",
+      "subgroup": "Singapore civil servants, mid-level officials, rail-planning-connected agencies, and relatives; nonofficial transactions and broader public behavior are used as comparison contexts but are not fully described in the abstract.",
+      "counterinterpretation": "Unusual home purchases could reflect other information or housing-market differences, though the preannouncement timing and agency concentration support an information-leakage interpretation. Stronger enforcement may reduce observed misconduct through deterrence, detection, or changed reporting rather than by rebuilding norms alone.",
+      "source_url": "https://www.nber.org/papers/w35756",
+      "retrieval_hash": "sha256:0f19fe34f9ab8f66fe45428c3a06550a25d359a9a66ad46f5b289731c8d3f3e1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record measures information-linked housing transactions, enforcement response, and survey/model evidence about integrity norms in Singapore. It does not establish a contemporary U.S. effect, a universal relationship between norms and corruption, or direct citizen legitimacy and political outcomes."
+}

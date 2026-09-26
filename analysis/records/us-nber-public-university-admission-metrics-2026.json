@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-public-university-admission-metrics-2026",
+  "title": "At a large public university system, high-school grades predict academic success better than standardized tests",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 34975 administrative-data study of a large urban public university system",
+  "geography": "United States; large urban public university system and first-year cohorts entering 2010–2019",
+  "observations": [
+    {
+      "period": "2010–2019 first-year cohorts; public-university administrative records",
+      "denominator": {
+        "value": null,
+        "unit": "first-year student cohorts in a large urban public university system; public abstract does not disclose the full sample count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "predictive_ranking": {
+          "value": "high-school GPA is the dominant predictor of first-year academic outcomes and graduation rates in the studied public system",
+          "unit": "relative predictive performance of admissions measures",
+          "value_type": "reported_finding"
+        },
+        "sat_comparison": {
+          "value": "re-establishing an SAT requirement would not necessarily improve predictability in this public-university context",
+          "unit": "policy counterfactual implication",
+          "value_type": "reported_interpretation"
+        },
+        "context_contrast": {
+          "value": "the result contrasts with recent evidence from Ivy-Plus institutions where standardized tests predict college success more strongly than high-school GPA",
+          "unit": "institutional-context comparison",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Analysis of administrative data for 2010–2019 first-year cohorts, comparing the predictive power of high-school GPA and SAT scores for first-year outcomes and graduation rates.",
+      "uncertainty": "The public abstract does not disclose the full sample count, all outcome definitions, subgroup estimates, or whether changing an admissions requirement would change access, preparation, or later earnings.",
+      "subgroup": "Students entering a large urban public university system; comparison context includes Ivy-Plus institutions but is not a pooled estimate.",
+      "counterinterpretation": "High-school GPA may capture sustained performance and school context rather than pure academic preparation; a predictive measure can still have distributional, coaching, or access effects, and test-optional policy may alter who submits scores.",
+      "source_url": "https://www.nber.org/papers/w34975",
+      "retrieval_hash": "sha256:1be8e1376b1a4d464fbbd127b53a473b5ebcc641475b69d7a8d5af100602c11a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34975",
+      "claim": "NBER DOI record for the working paper.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w34975/w34975.pdf",
+      "claim": "Official working-paper PDF for administrative-data and predictive-validity details.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record compares predictive validity in one public-university system and a separate elite-institution context. It does not establish an admissions reform effect, access or inequality effect, student wellbeing, degree completion causality, earnings, or public trust.",
+  "retrieval_hash": "sha256:1be8e1376b1a4d464fbbd127b53a473b5ebcc641475b69d7a8d5af100602c11a"
+}

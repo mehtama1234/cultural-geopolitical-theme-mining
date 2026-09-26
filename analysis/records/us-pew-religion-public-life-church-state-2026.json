@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-religion-public-life-church-state-2026",
+  "title": "Religion is seen as regaining public influence while most Americans still limit direct church involvement in politics",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey on religion's influence in government and public life",
+  "geography": "United States; adults ages 18 and older",
+  "observations": [
+    {
+      "period": "April 6–12, 2026; repeated survey comparison 2002–2026",
+      "denominator": {"value": 3592, "unit": "U.S. adults in Pew American Trends Panel; overall margin of error plus or minus 1.9 percentage points", "value_type": "survey_respondent_count"},
+      "measures": {
+        "religion_gaining_influence": {"value": 37, "unit": "percent saying religion is gaining influence in American life", "value_type": "published_share"},
+        "religion_losing_influence": {"value": 61, "unit": "percent saying religion is losing influence in American life", "value_type": "published_share"},
+        "gaining_2024": {"value": 18, "unit": "percent saying religion was gaining influence in February 2024", "value_type": "published_comparison"},
+        "net_positive_view_religion": {"value": 55, "unit": "percent with a positive view of religion's influence based on direction and evaluation", "value_type": "published_share"},
+        "net_positive_republican": {"value": 75, "unit": "percent of Republicans and Republican leaners with a positive view of religion's influence", "value_type": "published_subgroup_share"},
+        "net_positive_democratic": {"value": 38, "unit": "percent of Democrats and Democratic leaners with a positive view of religion's influence", "value_type": "published_subgroup_share"}
+      },
+      "method": "Pew repeated survey comparison; 2019 and later estimates use the American Trends Panel, while earlier telephone estimates have mode and wording differences documented by Pew.",
+      "uncertainty": "The direction/evaluation composite is an attitude measure, not an observation of religious membership, institutional power, policy influence, or political behavior. Mode and wording changes limit simple long-run level comparisons, and the 2026 survey is cross-sectional.",
+      "subgroup": "U.S. adults by party identification/leaning; the report also provides religious, racial, age, and educational comparisons.",
+      "counterinterpretation": "A rise in the share saying religion is gaining influence can reflect political salience or perception rather than an increase in religious participation or institutional power. Positive and negative evaluations can coexist with support for keeping houses of worship out of electoral politics.",
+      "source_url": "https://www.pewresearch.org/religion/2026/05/14/how-americans-feel-about-religions-influence-in-government-and-public-life/",
+      "retrieval_hash": "sha256:8fa5e4bad296258a4bea6b3c0f023a6bfc877011066099f0144678942ca91cd1",
+      "status": "reported"
+    },
+    {
+      "period": "April 6–12, 2026; acceptable role of houses of worship in politics",
+      "denominator": {"value": 3592, "unit": "U.S. adults in Pew American Trends Panel; question-specific valid responses", "value_type": "survey_respondent_count"},
+      "measures": {
+        "houses_should_not_endorse_candidates": {"value": 79, "unit": "percent saying churches and other houses of worship should not favor one candidate over another", "value_type": "published_share"},
+        "houses_should_keep_out_of_political_matters": {"value": 66, "unit": "percent saying houses of worship should keep out of day-to-day political matters", "value_type": "published_share"},
+        "houses_may_express_social_political_views": {"value": 33, "unit": "percent saying houses of worship should express views on day-to-day social and political questions", "value_type": "published_share"},
+        "houses_may_endorse_candidates": {"value": 19, "unit": "percent saying houses of worship should favor one candidate over another", "value_type": "published_share"}
+      },
+      "method": "Pew survey questions distinguish candidate endorsement from expressing views on day-to-day social and political questions.",
+      "uncertainty": "These are normative judgments rather than observed church conduct, campaign activity, voter mobilization, or public-system outcomes. The two questions describe different forms of political involvement and should not be merged.",
+      "subgroup": "U.S. adults overall, with historical comparisons to 2019 and 2022; partisan and religious subgroup contrasts are source-specific.",
+      "counterinterpretation": "People can view religion's influence positively while opposing candidate endorsements or direct day-to-day political intervention. A boundary around electoral activity does not imply rejection of religious moral influence in public life.",
+      "source_url": "https://www.pewresearch.org/religion/2026/05/14/how-americans-feel-about-religions-influence-in-government-and-public-life/",
+      "retrieval_hash": "sha256:8fa5e4bad296258a4bea6b3c0f023a6bfc877011066099f0144678942ca91cd1",
+      "status": "reported"
+    },
+    {
+      "period": "April 6–12, 2026; Christian nationalism familiarity and church-state preferences",
+      "denominator": {"value": 3592, "unit": "U.S. adults in Pew American Trends Panel; question-specific valid responses", "value_type": "survey_respondent_count"},
+      "measures": {
+        "heard_at_least_a_little_christian_nationalism": {"value": 59, "unit": "percent saying they have heard or read at least a little about Christian nationalism", "value_type": "published_share"},
+        "heard_at_least_a_little_2024": {"value": 45, "unit": "percent with the comparable response in February 2024", "value_type": "published_comparison"},
+        "favorable_christian_nationalism": {"value": 10, "unit": "percent expressing a favorable view of Christian nationalism", "value_type": "published_share"},
+        "unfavorable_christian_nationalism": {"value": 31, "unit": "percent expressing an unfavorable view of Christian nationalism", "value_type": "published_share"},
+        "official_christian_religion": {"value": 17, "unit": "percent saying the federal government should declare Christianity the official religion of the U.S.", "value_type": "published_share"},
+        "enforce_church_state_separation": {"value": 54, "unit": "percent saying the federal government should enforce separation of church and state", "value_type": "published_share"},
+        "stop_enforcing_church_state_separation": {"value": 13, "unit": "percent saying the federal government should stop enforcing separation of church and state", "value_type": "published_share"}
+      },
+      "method": "Pew repeated survey questions on familiarity, favorability, official religion, and church-state separation; the report retains unclear/no-opinion categories separately.",
+      "uncertainty": "Familiarity with a political term is not support for the underlying movement. The church-state items measure public preferences, not constitutional interpretation, policy adoption, religious mobilization, or electoral behavior.",
+      "subgroup": "U.S. adults by party, religion, race, age, and education; the report shows substantial partisan differences in the direction and desired scope of religious influence.",
+      "counterinterpretation": "Growing awareness can increase both favorable and unfavorable judgments without a corresponding change in underlying beliefs. Most respondents still prefer no official religion, and support for some Christian influence is not equivalent to Christian nationalism.",
+      "source_url": "https://www.pewresearch.org/religion/2026/05/14/how-americans-feel-about-religions-influence-in-government-and-public-life/",
+      "retrieval_hash": "sha256:8fa5e4bad296258a4bea6b3c0f023a6bfc877011066099f0144678942ca91cd1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/religion/2023/12/07/spiritual-practices/", "claim": "Pew's spiritual-practices study supplies a separate community and practice context for religious identity.", "status": "cross-source-context"},
+    {"source_url": "https://news.gallup.com/poll/702572/americans-religious-engagement-holds-lower-levels.aspx", "claim": "Gallup's 2025 annual religious-engagement estimates supply a separate affiliation, importance, and attendance trend.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record measures perceptions of religion's influence, normative boundaries on religious political participation, familiarity with Christian nationalism, and church-state preferences. It does not establish religious participation, institutional power, policy change, mobilization, discrimination, constitutional outcomes, vote choice, or causal partisan realignment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Pew Research Center report webpage retrieved and hashed; survey sample, field dates, historical mode note, trend figures, subgroup contrasts, and question boundaries cross-checked against the published page.",
+    "html_sha256": "sha256:8fa5e4bad296258a4bea6b3c0f023a6bfc877011066099f0144678942ca91cd1",
+    "checked": "2026-09-25"
+  }
+}

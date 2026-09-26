@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-companion-social-meaning-support-2026",
+  "title": "AI companions are becoming a social-support and meaning surface before their longer-term social effects are known",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "care_health_reproduction", "unequal_exposure_status", "consumer_power_recourse"],
+  "source_unit": "May 2026 survey of U.S. adults by Elon University Poll and Imagining the Digital Future Center; representative sample of 1,000 reported by the source",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 2026 survey; published September 2026",
+      "denominator": {"value": 1000, "unit": "U.S. adult survey sample as reported by the source; social-use measures condition on AI companion users", "value_type": "survey_sample"},
+      "measures": {
+        "internet_adults_social_ai_interaction": {"value": 27, "unit": "percent of internet-using U.S. adults", "value_type": "reported_share"},
+        "companion_user_calls_ai_friend": {"value": 31, "unit": "percent of AI companion users", "value_type": "conditional_share"},
+        "companion_user_support_need": {"value": 59, "unit": "percent strongly or somewhat agreeing that AI gives them the support they need", "value_type": "conditional_share"},
+        "companion_user_ai_understands_me": {"value": 43, "unit": "percent strongly or somewhat agreeing that AI understands them as a person", "value_type": "conditional_share"},
+        "companion_user_difficult_people_advice": {"value": 53, "unit": "percent strongly or somewhat agreeing they turn to AI for advice on difficult situations with other people", "value_type": "conditional_share"},
+        "companion_user_stress_relief": {"value": 51, "unit": "percent strongly or somewhat agreeing that talking to AI helps when stressed or upset", "value_type": "conditional_share"},
+        "companion_user_personal_disclosure": {"value": 39, "unit": "percent saying they occasionally tell AI things they would not tell other people", "value_type": "conditional_share"},
+        "companion_user_personal_loss": {"value": 38, "unit": "percent strongly or somewhat agreeing they would feel personal loss if interaction ended", "value_type": "conditional_share"},
+        "companion_user_emotional_connection": {"value": 36, "unit": "percent strongly or somewhat agreeing they feel emotionally connected to at least one AI tool", "value_type": "conditional_share"},
+        "companion_user_more_reliable_than_humans": {"value": 20, "unit": "percent saying AI is at times more reliable or supportive than friends or family", "value_type": "conditional_share"},
+        "companion_user_multiple_bots": {"value": 47, "unit": "percent using two or more bots or personalities regularly", "value_type": "conditional_share"}
+      },
+      "method": "Published survey summary with conditional percentages among respondents who use AI for social, emotional, or personal purposes; social interaction, support, emotional connection, disclosure, and bot plurality are kept separate.",
+      "uncertainty": "The source is cross-sectional and self-reported; it does not establish duration, intensity, loneliness reduction, human relationship change, dependence, welfare, privacy loss, or causal substitution. The AI companion-user base is a selected subgroup, and the survey summary does not provide the full weighting, question wording, or subgroup denominator for every item.",
+      "subgroup": "U.S. internet-using adults and the subset reporting social, emotional, or personal AI use.",
+      "counterinterpretation": "AI may supplement rather than replace human relationships, provide low-cost access to reflection or advice, and be used alongside multiple human and digital supports; reported connection does not prove harm or dependence.",
+      "source_url": "https://imaginingthedigitalfuture.org/reports-and-publications/the-rise-of-ai-companions/",
+      "retrieval_hash": "sha256:c7c7a53cdba97a6004e05d9669ba0e372716f55708df68e861405433f17d2937",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://imaginingthedigitalfuture.org/reports-and-publications/the-rise-of-ai-companions/", "claim": "The survey summary reports AI companion social-use, support, meaning, disclosure, and plurality measures.", "status": "primary-summary"},
+    {"source_url": "https://www.elon.edu/u/bft/elon-poll/", "claim": "Elon University Poll is the collaborating survey institution named by the source.", "status": "related", "access_boundary": "The public summary is retained as the source unit; the complete questionnaire and microdata are not treated as locally available."}
+  ],
+  "boundary": "This record establishes a reported U.S. social-AI use surface and conditional measures of support, understanding, disclosure, emotional connection, and perceived human comparison. It does not establish a population causal effect, human relationship substitution, loneliness reduction, dependence, wellbeing, privacy consequence, durable use, or exit. The cultural-meaning layer remains separate from the existing farewell/short-run re-engagement experiment.",
+  "retrieval_hash": "sha256:c7c7a53cdba97a6004e05d9669ba0e372716f55708df68e861405433f17d2937"
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-hepatitis-c-subscription-outcomes-2026",
+  "title": "A Medicaid drug subscription model expanded hepatitis-C treatment and produced measurable health and fiscal outcomes",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35583, using Louisiana Medicaid, hepatitis-C diagnosis, spending, and health-outcome data",
+  "geography": "Louisiana Medicaid; Louisiana Hepatitis C Elimination Plan beginning in 2019",
+  "observations": [
+    {
+      "period": "2018-2022 treatment and diagnosis outcomes; five-year fiscal projection; paper issued August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Louisiana Medicaid beneficiaries and people with hepatitis C covered by the subscription model; study-specific denominators vary by outcome",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "treatment_volume": {
+          "value": "tripled after implementation",
+          "unit": "hepatitis-C antiviral treatment volume relative to comparison trend",
+          "value_type": "estimated_effect"
+        },
+        "new_diagnoses": {
+          "value": -23,
+          "unit": "percent change in new hepatitis-C diagnoses",
+          "value_type": "estimated_effect"
+        },
+        "incremental_spending": {
+          "value": 37000000,
+          "unit": "dollars in added antiviral spending",
+          "value_type": "reported_total"
+        },
+        "five_year_savings": {
+          "value": 266000000,
+          "unit": "dollars in estimated five-year savings",
+          "value_type": "estimated_total"
+        },
+        "receipt_and_outcome": {
+          "value": "treatment volume and diagnosis outcomes improved; individual treatment completion, cure, access barriers, and household costs are not fully joined",
+          "unit": "program-to-health endpoint boundary",
+          "value_type": "partially_observed"
+        }
+      },
+      "method": "Differences-in-differences comparison of spending and treatment outcomes for beneficiaries with hepatitis C versus beneficiaries with diabetes or HIV, using administrative and health data.",
+      "uncertainty": "The study estimates program-level effects and fiscal savings using comparison groups and projections. It does not provide a single individual-level treatment pathway, and the abstract does not establish equal reach, cure completion, reinfection, or all implementation costs.",
+      "subgroup": "Louisiana Medicaid beneficiaries with hepatitis C and comparison beneficiaries with diabetes or HIV; diagnosis, treatment, eligibility, incarceration coverage, and access barriers may differ across groups.",
+      "counterinterpretation": "Treatment expansion and estimated savings may reflect the subscription contract together with outreach, diagnosis, provider behavior, and other implementation changes. Program-level savings do not imply that every eligible person received treatment or that the model transfers unchanged to another state.",
+      "source_url": "https://www.nber.org/papers/w35583",
+      "retrieval_hash": "sha256:14e45b9ae1a65daa9c0584d12517175558a2ee66c9c8c111a770f016b8106713",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35583",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record measures a Louisiana Medicaid subscription model through treatment, diagnosis, spending, and estimated savings outcomes. It does not establish individual cure completion, equal access, household financial effects, long-run eradication, or national transferability."
+}

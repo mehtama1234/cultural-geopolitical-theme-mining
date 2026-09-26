@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-usps-cost-cutting-service-performance-rural-2026",
+  "title": "Postal cost-cutting can trade financial sustainability for slower and more uneven service",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "GAO-26-108527 review of USPS First-Class Mail service standards, cost-cutting initiatives, and customer effects",
+  "geography": "United States; USPS market-dominant First-Class Mail, with rural and nonrural customer comparison",
+  "observations": [
+    {
+      "period": "Fiscal years 2021-2025; operational changes through 2025; report published September 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "USPS market-dominant First-Class Mail service-performance system and selected oversight/stakeholder evidence",
+        "value_type": "agency_defined_system_review"
+      },
+      "measures": {
+        "delivery_standard_change": {
+          "value": "USPS added 1 to 2 expected delivery days for some First-Class Mail products beginning in October 2021 as transportation shifted from air to ground",
+          "unit": "reported service-standard change",
+          "value_type": "reported_change"
+        },
+        "rural_collection_change": {
+          "value": "In April 2025 USPS eliminated end-of-day or afternoon collection at more than 24,000 post offices located over 50 miles from a Regional Processing and Delivery Center",
+          "unit": "reported post-office operational change",
+          "value_type": "reported_count_and_change"
+        },
+        "target_performance": {
+          "value": "USPS lowered service-performance targets in fiscal year 2021 and has not met most targets since then",
+          "unit": "reported target and performance pattern",
+          "value_type": "reported_pattern"
+        },
+        "distribution": {
+          "value": "Oversight entities and industry stakeholders reported slower service and disproportionate impact on rural customers",
+          "unit": "reported distributional consequence",
+          "value_type": "reported_finding"
+        }
+      },
+      "method": "GAO reviewed USPS strategic and annual reports for fiscal years 2020-2025, USPS Inspector General and Postal Regulatory Commission materials, advisory opinions, service-performance information, and interviews with USPS officials, regulators, and five stakeholder organizations.",
+      "uncertainty": "The review establishes changes in standards, operations, targets, and reported distributional effects, not a causal estimate for a particular household, mailpiece, business, or rural community. Mail products, local processing routes, customer reliance, and service outcomes vary; cost savings and financial viability are not quantified as a complete counterfactual in the highlights.",
+      "subgroup": "First-Class Mail products, rural customers and post offices more than 50 miles from a Regional Processing and Delivery Center, nonrural customers, USPS operations, regulators, commercial mailers, and mailer organizations.",
+      "counterinterpretation": "Longer standards and ground transportation may reduce costs or improve financial sustainability; the evidence does not show that every customer experienced slower delivery or that all rural effects were caused by one operational change. Digital substitutes and different mail needs may change practical burden.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108527/index.html",
+      "retrieval_hash": "sha256:fddea51e92239cf11bb06da353a3933365c1b4e9803695a2ed825f4c477e6aa1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108527",
+      "claim": "GAO bibliographic and summary page for the USPS service-performance review.",
+      "status": "primary-bibliographic-record"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-108527-highlights.pdf",
+      "claim": "GAO highlights PDF for the USPS review.",
+      "status": "primary-report"
+    }
+  ],
+  "boundary": "This record separates postal cost-cutting, service-standard changes, target performance, and reported rural distribution from individual delivery, household time, business continuity, affordability, complaint, trust, and political outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO accessible report page reviewed for service-standard changes, post-office collection changes, target performance, rural distribution, method, and recommendation; underlying USPS operational records are not retained here.",
+    "source_response_sha256": "sha256:fddea51e92239cf11bb06da353a3933365c1b4e9803695a2ed825f4c477e6aa1",
+    "checked": "2026-09-24"
+  }
+}

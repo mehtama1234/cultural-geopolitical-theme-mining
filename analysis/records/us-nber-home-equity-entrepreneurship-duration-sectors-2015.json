@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-home-equity-entrepreneurship-duration-sectors-2015",
+  "title": "Home equity can enable longer-lived and more varied entrepreneurship, but only for a small share of entry",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "firm_sector_market_power", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 21458; U.S. Census Bureau data on entrepreneurship and a 1998 Texas reform allowing home-equity lending",
+  "geography": "United States local entrepreneurship, 1992–2007, with a Texas home-equity-lending reform case",
+  "observations": [{
+    "period": "U.S. house prices, home equity, and entrepreneurship 1992–2007; paper issued 2015",
+    "denominator": {"value": 1, "unit": "U.S. Census entrepreneurship and quasi-experimental home-equity study", "value_type": "study_unit"},
+    "measures": {
+      "house_price_entry": {"value": "house-price growth was strongly correlated with local entrepreneurship", "unit": "local entrepreneurship association", "value_type": "reported_association"},
+      "entry_composition": {"value": "most entry associated with house-price growth was in construction and real estate, and those entrants tended to be small and short-lived", "unit": "sector, size, and duration pattern", "value_type": "reported_comparison"},
+      "collateral_channel": {"value": "entrepreneurship enabled through collateral after the 1998 Texas home-equity reform tended to be longer-lived and more balanced across sectors", "unit": "home-equity collateral entrepreneurship outcome", "value_type": "reported_effect"},
+      "collateral_share": {"value": "the collateral channel represented a tenth or less of the entry associated with house-price increases and was driven by a small share of homeowners constrained without price growth", "unit": "share of house-price-associated entry", "value_type": "reported_estimate"}
+    },
+    "method": "The authors combine Census Bureau data on local entrepreneurship with a 1998 Texas reform that allowed home-equity lending for the first time in the state to isolate a collateral channel from broader house-price growth.",
+    "uncertainty": "The study does not follow each entrepreneur's household resources, local customers, jobs, wages, service, profits, ownership residence, or community outcomes. House-price correlation is not by itself causal, and the Texas reform does not represent every state, period, housing market, or borrower.",
+    "subgroup": "U.S. local entrants and homeowners, with the collateral-channel analysis centered on the Texas 1998 home-equity reform; effects may differ by homeowner liquidity, sector, place, housing market, and access to credit.",
+    "counterinterpretation": "Longer-lived or more sector-balanced entry does not establish good jobs, local service, durable community capacity, or household welfare. Home-equity borrowing can help a viable firm and expose a household to housing risk. Small short-lived entry may still provide experimentation or temporary work, while the paper does not identify its full social value.",
+    "source_url": "https://www.nber.org/papers/w21458",
+    "retrieval_hash": "sha256:c5fa7a9089430635112196e3a35c4e498c37faaa904c4976ea1876e217f82e47",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w21458", "claim": "NBER DOI record for Working Paper 21458", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a housing-collateral-to-entrepreneurship finding: home equity can enable longer-lived and more sector-balanced business entry, but the identified collateral channel is a small share of overall house-price-associated entry. It does not establish local ownership, customer benefit, job quality, durable survival, or household safety."
+}

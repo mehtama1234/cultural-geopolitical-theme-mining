@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-environmental-policy-cost-beliefs-policy-support-2026",
+  "title": "People can support strong environmental goals while rejecting a policy they think will raise their bills",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35073, comparing a probability-based representative U.S. sample with environmental economists and testing educational videos about pass-through and cost-effectiveness",
+  "geography": "United States; probability-based American respondent sample and expert environmental-economist comparison sample",
+  "observations": [
+    {
+      "period": "Representative U.S. survey and expert comparison",
+      "denominator": {"value": null, "unit": "probability-based American respondents and environmental economists in source-specific samples; exact public-abstract counts not used in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "instrument_preferences": {"value": "respondents preferred weaker environmental targets for consumer taxes and stronger targets for standards", "unit": "reported policy-preference comparison", "value_type": "reported_pattern"},
+        "cost_belief": {"value": "unlike expert environmental economists, respondents believed market-based instruments raise consumer energy bills more than standards", "unit": "reported belief comparison", "value_type": "reported_comparison"},
+        "policy_tradeoff": {"value": "support for stringency and cost-effectiveness can point in different directions across instruments", "unit": "policy-choice tension", "value_type": "reported_interpretation"}
+      },
+      "method": "Survey comparison holding environmental impacts constant across policy instruments, with a separate expert-belief comparison; the source is not treated as a household bill or pollution panel.",
+      "uncertainty": "Beliefs and preferences do not identify actual pass-through, household energy bills, pollution, health, fairness judgments, or later political action.",
+      "subgroup": "Probability-based U.S. respondents and environmental economists in separate samples; detailed subgroup results are not extracted here.",
+      "counterinterpretation": "Respondents may care about fairness, control, enforceability, trust, or distribution in addition to total cost; choosing a standard is not proof of ignorance or irrationality.",
+      "source_url": "https://www.nber.org/papers/w35073",
+      "retrieval_hash": "sha256:2e54bef75aebb45db26a137135b8b8d94f6de194ad8745d141d5825fdaf022aa",
+      "status": "estimated"
+    },
+    {
+      "period": "Educational-video information experiment",
+      "denominator": {"value": null, "unit": "respondents assigned to educational-video and comparison conditions; exact outcome-specific denominator not disclosed in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "belief_change": {"value": "videos explaining pass-through and cost-effectiveness moved respondent beliefs closer to those of experts", "unit": "reported experimental effect", "value_type": "reported_effect"},
+        "support_change": {"value": "videos affected policy support", "unit": "reported experimental effect", "value_type": "reported_effect"},
+        "information_channel": {"value": "economic understanding can alter how voters evaluate environmental policy instruments", "unit": "tested mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "Randomized or experimental educational-video exposure within the survey design; the bounded extraction preserves the direction of the reported effects without inventing effect sizes.",
+      "uncertainty": "A short information treatment may not persist, change actual political behavior, or overcome concerns about fairness, trust, or local incidence.",
+      "subgroup": "Survey respondents assigned to information and comparison conditions; subgroup durability is not established here.",
+      "counterinterpretation": "Moving beliefs toward expert estimates does not prove that experts have the correct distributional or ethical judgment for every household or place.",
+      "source_url": "https://www.nber.org/papers/w35073",
+      "retrieval_hash": "sha256:2e54bef75aebb45db26a137135b8b8d94f6de194ad8745d141d5825fdaf022aa",
+      "status": "estimated"
+    },
+    {
+      "period": "Politically constrained environmental-policy model",
+      "denominator": {"value": 1, "unit": "model-defined policy-choice pathway from beliefs and political constraints to instrument selection", "value_type": "route_denominator"},
+      "measures": {
+        "political_constraint": {"value": "political constraints alone can set market-based instruments below the Pigouvian benchmark", "unit": "model implication", "value_type": "modeled_result"},
+        "instrument_switch": {"value": "imperfect economic literacy can flip a politically constrained planner from a market-based instrument to a less cost-effective standard", "unit": "model implication", "value_type": "modeled_result"},
+        "actual_outcomes": {"value": "actual household bills, rebates, pollution, health, and later political action are not observed in the bounded route", "unit": "open outcome stages", "value_type": "unmeasured"}
+      },
+      "method": "Model of politically constrained policy design informed by the survey evidence; model implications are kept separate from observed policy outcomes.",
+      "uncertainty": "The result depends on model assumptions about beliefs, policy instruments, political constraints, and welfare; it is not a forecast of a particular U.S. policy or environmental result.",
+      "subgroup": "Model-defined voters and policymakers rather than a linked household panel.",
+      "counterinterpretation": "A less cost-effective instrument in the model may still be preferred for reasons the model does not fully capture, including transparency, accountability, distribution, or public trust.",
+      "source_url": "https://www.nber.org/papers/w35073",
+      "retrieval_hash": "sha256:2e54bef75aebb45db26a137135b8b8d94f6de194ad8745d141d5825fdaf022aa",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/working_papers/w35073/w35073.pdf", "claim": "Official NBER PDF used for the paper's abstract and method context.", "status": "official-paper-context"}
+  ],
+  "boundary": "This record shows that cost beliefs differ between representative respondents and environmental economists, that information can move beliefs and policy support, and that a model can translate those beliefs into different policy instruments. It does not show actual household bills, distributional fairness, pollution or health results, durable belief change, or voting.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; survey data, expert sample, and model replication are not locally reproduced.",
+    "pdf_sha256": "sha256:2e54bef75aebb45db26a137135b8b8d94f6de194ad8745d141d5825fdaf022aa",
+    "checked": "2026-09-22"
+  }
+}

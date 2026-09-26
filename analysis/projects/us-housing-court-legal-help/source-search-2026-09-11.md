@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States, with detailed evidence from New York City  
-**Status:** opening pass; court effects are supported, the full household path remains open
+**Status:** bounded pass completed; court effects are supported, the full household path remains open
 
 ## Working question
 
@@ -26,6 +26,9 @@ rent shock or dispute
 ```
 
 The opening evidence supports legal representation as a real change in court outcomes. It does not show that the rent problem disappeared, or that every prevented eviction produces the same later benefit.
+
+The completed finding is [A tenant lawyer can change the court case without
+solving the rent problem](../us-housing-insurance-risk/findings/us-housing-insurance-risk-012.md).
 
 ## Counterpoint to keep visible
 

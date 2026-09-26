@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-national-supercomputing-internet-kimi-k3-public-api-service-2026",
+  "title": "The National Supercomputing Internet AI community reported public Kimi K3 API and model-download access after release",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "National Supercomputing Internet AI community Kimi K3 service announcement as reported by 36Kr",
+  "geography": "China, National Supercomputing Internet AI community, Kimi K3, enterprise and developer API users",
+  "observations": [
+    {
+      "period": "July 28, 2026; the day Kimi K3 open weights became available",
+      "denominator": {
+        "value": 1,
+        "unit": "public Kimi K3 service route reported as launched by the National Supercomputing Internet AI community",
+        "value_type": "reported_public_service_event"
+      },
+      "measures": {
+        "service_status": {"value": "API calling service and model-file download/deployment route reported as online", "unit": "reported public-service status", "value_type": "reported_service_availability"},
+        "access_mode": {"value": "enterprise and developer users could call through an API and download model files for deployment", "unit": "reported access route", "value_type": "reported_api_access"},
+        "interface_compatibility": {"value": "not disclosed in the 36Kr service flash", "unit": "OpenAI/Anthropic compatibility not coded from this source", "value_type": "not_disclosed"},
+        "underlying_accelerator": {"value": "not disclosed", "unit": "no Hygon, Ascend, NVIDIA, or other accelerator allocation identified", "value_type": "unmeasured"},
+        "actual_use": {"value": "not measured", "unit": "no customer count, request volume, token volume, uptime, revenue, or sustained utilization disclosed", "value_type": "unmeasured"}
+      },
+      "method": "Review of a 36Kr news flash reporting the National Supercomputing Internet AI community's service launch. The record codes public service availability as a platform-level endpoint and deliberately does not infer Hygon-specific execution, demand, or adoption from the announcement.",
+      "uncertainty": "The source does not identify the service operator's exact compute pool, model-serving site, accelerator mix, API price, capacity, service-level performance, customer identities, or post-launch usage. It reports access availability rather than verified successful customer workloads.",
+      "subgroup": "Chinese enterprises, developers, AI application builders, public-compute platform operators, domestic model providers, and accelerator vendors",
+      "counterinterpretation": "A one-click API route can lower setup friction while remaining capacity-constrained, costly, or lightly used. Public availability can coexist with continued private-cloud and foreign-accelerator use; it does not prove broad diffusion or state-directed substitution.",
+      "source_url": "https://36kr.com/newsflashes/3914947482080393",
+      "retrieval_hash": "sha256:18081f7ebfc6a32354e5a3224a74a38927e996caebb8e22607e0adc3aab6e1ca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.kimi.com/news/kimi-k3-open-source",
+      "claim": "Moonshot's official Kimi release page states that Kimi K3 weights and technical materials were opened on July 27, 2026.",
+      "status": "official-model-release-comparator"
+    },
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472509.PDF",
+      "claim": "Hygon's official report describes domestic DCU model adaptation, but does not identify the National Supercomputing Internet service's accelerator allocation.",
+      "status": "official-accelerator-comparator"
+    }
+  ],
+  "boundary": "This record establishes a reported public API/model-access endpoint for Kimi K3. It does not establish Hygon-specific utilization, actual customer workloads, request volume, service reliability, revenue, public procurement, market share, or accelerator substitution."
+}

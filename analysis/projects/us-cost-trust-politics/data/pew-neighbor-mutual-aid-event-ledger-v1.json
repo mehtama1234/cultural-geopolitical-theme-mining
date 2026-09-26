@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "survey_reported_local_trust_and_mutual_aid_capacity_record",
+  "purpose": "Bounded Pew 2025 neighborhood connection event ledger separating familiarity, local trust, stated willingness, reciprocity expectations, and public-request compliance from delivered aid, burden, recovery, and civic action.",
+  "events": [
+    {
+      "event_id": "PEW-NEIGHBOR-CONNECTION-2025-03",
+      "unit": "case",
+      "geography": "United States; Pew American Trends Panel",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-03-10",
+      "date_precision": "Pew survey field period March 10–16, 2025; event date anchors the field window",
+      "denominator": "9,482 U.S. adults in the American Trends Panel; weighted survey estimates, not a dated crisis or delivered-aid denominator",
+      "method": "Structured extraction from Pew Research Center's How connected do Americans feel to their neighbors?",
+      "missingness": "No dated shock, actual aid request or delivery, helper burden, duration, adequacy, formal-service interaction, material recovery, trust change, or later political action is retained",
+      "condition_or_decision": "other",
+      "exposure": "Respondents reported knowing and trusting neighbors, perceived similarity, willingness to ask for or provide practical help, and expected neighbor or friend support",
+      "alternatives_before_action": "Formal public, employer, family, charitable, and market alternatives are not observed for the same respondent episode",
+      "immediate_burden_or_benefit": "Local familiarity and trust create potential access to keys, meals, errands, money, or emergency conservation, but no delivered protection or helper cost is measured",
+      "choice_or_response": "Reported willingness exceeds expected reciprocity for several forms of help: 76% were extremely or very likely to bring mail or water plants versus 52% who thought neighbors would do the same; 67% would bring a meal versus 42% expecting it; 50% would loan money versus 45% expecting a friend would",
+      "person_or_actor_with_control": "Respondents and their local networks potentially control informal help; no specific requester, helper, institution, or decision episode is identified",
+      "remedy_or_institutional_response": "No institutional response or delivered remedy is observed; the survey measures perceived informal capacity and public-request willingness",
+      "immediate_outcome": "A local-trust and mutual-aid capacity surface is visible, with a consistent giver-versus-expected-receiver gap",
+      "protected_outcome": "Informal networks may provide practical or emotional protection during a future shock; protection is not observed",
+      "sacrificed_outcome": "Potential time, money, privacy, obligation, and helper burden remain unmeasured; low expected reciprocity may leave people without usable support",
+      "cost_risk_transfer": "Informal capacity can shift crisis labor and financial risk from institutions onto neighbors, friends, and family, but the transfer is not directly measured",
+      "later_outcome": "Actual help, adequacy, continuity, recovery, trust change, community engagement, movement, political action, and exit remain unknown",
+      "meaning_and_attribution": "Local trust, similarity, and willingness provide cultural meaning and legitimacy surfaces, but no respondent-level interpretation of a real aid episode is retained",
+      "public_or_collective_response": "Willingness to conserve resources after a public official's emergency request is reported; actual compliance, organizing, and political action are not observed",
+      "counterexample": "A person can be willing to help while believing help will not be available to them; stated goodwill is not reciprocal capacity or delivered protection",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Pew Research Center survey of 9,482 U.S. adults; cross-sectional self-reports and expectations, not a prevalence estimate of delivered mutual aid",
+      "source_url": "https://www.pewresearch.org/short-reads/2025/05/08/how-connected-do-americans-feel-to-their-neighbors/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "PEW-NEIGHBOR-A-01",
+      "from": "place and social proximity",
+      "to": "familiarity and local trust",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The survey reports knowing and trusting neighbors in the same field window; it does not identify temporal ordering",
+      "status": "reported",
+      "counterexample": "Local familiarity and trust do not imply actual help, material resources, or protection during a crisis",
+      "remaining_gap": "Dated shock, place exposure, prior trust, and later trust change"
+    },
+    {
+      "arrow_id": "PEW-NEIGHBOR-A-02",
+      "from": "local trust and relationship proximity",
+      "to": "stated willingness to provide help",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Pew reports willingness to hold keys, bring mail or meals, loan money, and conserve resources after a public request alongside local trust and familiarity measures",
+      "status": "reported",
+      "counterexample": "Willingness is hypothetical and may not survive time, money, health, safety, or relationship constraints",
+      "remaining_gap": "Actual request, effort, delivery, duration, and helper burden"
+    },
+    {
+      "arrow_id": "PEW-NEIGHBOR-A-03",
+      "from": "stated willingness",
+      "to": "expected reciprocal support",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Reported willingness exceeds expected neighbor/friend help for mail or plants, meals, and emergency conservation, showing a giver-versus-reciprocity gap",
+      "status": "reported",
+      "counterexample": "The gap may reflect different wording, relationship types, resources, or social desirability rather than failed reciprocity",
+      "remaining_gap": "Matched respondent-level giver/receiver episode, actual reciprocity, and reason for non-use"
+    },
+    {
+      "arrow_id": "PEW-NEIGHBOR-A-04",
+      "from": "potential informal support",
+      "to": "delivered protection, adequate recovery, or formal-service substitution",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey measures willingness and expectation but no dated crisis, aid delivery, adequacy, or formal route interaction",
+      "status": "open",
+      "counterexample": "High potential capacity can coexist with no request, no delivery, insufficient help, or burden shifted to the helper",
+      "remaining_gap": "Dated need, route selection, aid receipt, burden, adequacy, continuity, and recovery"
+    },
+    {
+      "arrow_id": "PEW-NEIGHBOR-A-05",
+      "from": "local trust and perceived mutual capacity",
+      "to": "community engagement, political action, or movement",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "No later civic, political, movement, staying, or exit outcome is linked to the neighbor measures",
+      "status": "open",
+      "counterexample": "Trust can coexist with low capacity, private withdrawal, or no collective action",
+      "remaining_gap": "Repeated or event-compatible community episode with action, response, recovery, and later trust"
+    }
+  ],
+  "boundary": "This ledger formalizes local familiarity, trust, stated mutual-aid willingness, and reciprocity expectations as a cultural/social capacity surface. It does not estimate delivered aid, resilience, substitution for public systems, recovery, political action, or exit.",
+  "storage_boundary": "Only compact published survey results and source metadata are retained; no Pew microdata or large archive is acquired."
+}

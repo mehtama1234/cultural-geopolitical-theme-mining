@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-smart-transportation-demonstration-2026",
+  "title": "Transportation technology grants can create local demonstration capacity before usable public service is proven",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107841 review of the Department of Transportation Strengthening Mobility and Revolutionizing Transportation (SMART) grants program",
+  "geography": "United States; SMART grant applicants and selected projects from fiscal years 2022–2024",
+  "observations": [
+    {
+      "period": "First three years of SMART applications; awards through September 2025",
+      "denominator": {"value": 1073, "unit": "SMART grant applications received; applicants included communities of different sizes, entity types, and technology areas", "value_type": "reported_program_total"},
+      "measures": {
+        "applications": {"value": 1073, "unit": "applications", "value_type": "reported_count"},
+        "awards": {"value": 135, "unit": "SMART projects awarded", "value_type": "reported_count"},
+        "announced_award_amount": {"value": 289, "unit": "millions of U.S. dollars; about 58% of the $500 million authorized and appropriated for FY2022–FY2026 before the later transfer", "value_type": "reported_amount"},
+        "completion": {"value": "most projects were not yet completed", "unit": "project status as of September 2025", "value_type": "reported_status"}
+      },
+      "method": "GAO reviewed DOT data on applicants and selected projects from fiscal years 2022–2024, interviewed DOT officials, and interviewed 17 selected recipients covering community sizes and technology areas.",
+      "uncertainty": "The report describes program applications, awards, recipient-reported implementation challenges, and DOT's learning process; it does not provide a national estimate of completed deployments, service quality, safety, travel time, access, or household benefit.",
+      "subgroup": "State, city, and tribal government recipients across eight advanced-transportation technology areas; the 17 interviewed recipients are selected rather than a representative sample.",
+      "counterinterpretation": "A project that was incomplete at the review date may later become operational, and a demonstration can produce valuable learning before it delivers regular public service. Procurement delay alone does not establish project failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107841",
+      "retrieval_hash": "sha256:b32160d6983b59d066f7cc325c53ed7cbab0cca31acb1ab20f15a1f6039dc228",
+      "status": "reported"
+    },
+    {
+      "period": "Program implementation and learning process; report published March 2026",
+      "denominator": {"value": 17, "unit": "selected SMART grant recipients interviewed by GAO", "value_type": "selected_interview_scope"},
+      "measures": {
+        "procurement_delay": {"value": "recipients reported difficulty procuring necessary technology and equipment, affecting project timeframes", "unit": "reported implementation challenge", "value_type": "qualitative_finding"},
+        "lessons_learned": {"value": "DOT had collected project information but had not fully aligned its efforts with key practices for analyzing, validating, documenting, and disseminating lessons", "unit": "program-management finding", "value_type": "reported_finding"},
+        "recommendation": {"value": "1", "unit": "open GAO recommendation to develop and implement a SMART lessons-learned plan", "value_type": "reported_recommendation"}
+      },
+      "method": "GAO interviews with 17 selected recipients and DOT officials, review of DOT program information, and comparison with GAO and federal guidance on lessons-learned processes.",
+      "uncertainty": "Interview evidence identifies implementation and management conditions but does not measure which specific delays changed final service, safety, reliability, or adoption outcomes.",
+      "subgroup": "Selected recipients and DOT program administration; effects may differ by technology, procurement market, community capacity, and project scale.",
+      "counterinterpretation": "A centralized lessons-learned process may improve later adoption, but it cannot substitute for project completion, operating performance, or evidence that residents and workers can use the resulting service.",
+      "source_url": "https://www.gao.gov/products/gao-26-107841",
+      "retrieval_hash": "sha256:b32160d6983b59d066f7cc325c53ed7cbab0cca31acb1ab20f15a1f6039dc228",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107841", "claim": "Official GAO report supplies SMART application, award, completion-status, recipient-interview, procurement, and lessons-learned findings.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a grant-to-demonstration and program-learning boundary. It does not establish completed public deployment, actual passenger or worker use, safety, reliability, affordability, access, local acceptance, emissions, or household mobility outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; full report, project files, and local service records not retained",
+    "html_sha256": "sha256:b32160d6983b59d066f7cc325c53ed7cbab0cca31acb1ab20f15a1f6039dc228",
+    "checked": "2026-09-22"
+  }
+}

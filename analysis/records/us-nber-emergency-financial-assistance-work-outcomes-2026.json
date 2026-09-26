@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-emergency-financial-assistance-work-outcomes-2026",
+  "title": "Emergency housing assistance can be followed by longer-run employment and earnings gains",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["household_room_consumption", "housing_place_mobility", "work_control_bargaining", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 32856, linked emergency-assistance hotline callers and federal tax records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Chicago Homelessness Prevention Call Center calls, 2013-2015; assistance availability around eligible hotline calls",
+      "denominator": {"value": null, "unit": "study-specific hotline callers and linked tax-record observations; rounded disclosure-compliant sample counts are reported in the paper", "value_type": "not_disclosed"},
+      "measures": {
+        "assistance_route": {"value": null, "unit": "one-time rent or utility assistance of about $900-$1,000 coordinated through the Chicago Homelessness Prevention Call Center", "value_type": "reported"},
+        "referred_sample_rounded": {"value": 5300, "unit": "eligible callers referred to funds; rounded for disclosure", "value_type": "reported_sample_count"},
+        "not_referred_sample_rounded": {"value": 2800, "unit": "eligible callers not referred to funds; rounded for disclosure", "value_type": "reported_sample_count"},
+        "comparison_design": {"value": null, "unit": "funding availability varies over time and across agencies and is used to compare similar eligible callers", "value_type": "reported"},
+        "assistance_first_stage": {"value": 59, "unit": "percentage-point difference in estimated receipt between referred and non-referred callers (71% versus 12%)", "value_type": "reported_first_stage"},
+        "average_net_need": {"value": 936, "unit": "2019 dollars of average household net need", "value_type": "reported_mean"},
+        "average_referral_assistance": {"value": 552, "unit": "2019 dollars of average assistance implied by the referral calculation", "value_type": "reported_mean"}
+      },
+      "method": "The study links hotline callers to federal tax records and exploits changing or quasi-random assistance availability to compare similar families receiving and not receiving emergency funds.",
+      "uncertainty": "The paper uses rounded disclosure-compliant counts and quasi-random funding availability conditional on eligibility rules; referral is not identical to receipt. The design supports an assistance-to-labor-market comparison but not every household recovery stage.",
+      "subgroup": "Families experiencing a housing crisis, with effects emphasized for the lowest earners; subgroup definitions and denominators require the full paper.",
+      "counterinterpretation": "Funding availability, caller need, local housing markets, and unmeasured case differences may affect outcomes; a later earnings gain does not itself prove that housing was stabilized or that the same household avoided displacement.",
+      "source_url": "https://www.nber.org/papers/w32856",
+      "retrieval_hash": "sha256:255abd531d54c26a69185cecfb1cb6749a22f025b18fee0f79fe485a4800c56c",
+      "status": "reported"
+    },
+    {
+      "period": "Up to four years after assistance",
+      "denominator": {"value": null, "unit": "linked tax-record follow-up for the study's analytic sample; abstract does not disclose the denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "employment_outcome": {"value": null, "unit": "evidence of employment gains, especially for the lowest earners, relative to the comparison group", "value_type": "reported_experimental_effect"},
+        "earnings_outcome": {"value": null, "unit": "evidence of earnings gains, especially for the lowest earners, relative to the comparison group", "value_type": "reported_experimental_effect"},
+        "negative_labor_supply_effect": {"value": 0, "unit": "no overall evidence that short-term assistance lowers employment or earnings", "value_type": "reported_null_result"}
+      },
+      "method": "Longitudinal administrative tax-record outcomes are measured in the years surrounding the hotline call, with follow-up extending up to four years after assistance.",
+      "uncertainty": "The abstract reports direction and heterogeneity but not effect sizes or precision. Employment and earnings are not the same as housing continuity, job quality, health, household security, or recipient-reported recovery.",
+      "subgroup": "The reported gains are particularly concentrated among the lowest earners; the abstract does not provide the subgroup denominator or full interaction estimates.",
+      "counterinterpretation": "Employment or earnings improvements may coexist with displacement, debt, unstable work, residual housing risk, or costs shifted to other household members; no broad claim about durable welfare should be made from these endpoints alone.",
+      "source_url": "https://www.nber.org/papers/w32856",
+      "retrieval_hash": "sha256:255abd531d54c26a69185cecfb1cb6749a22f025b18fee0f79fe485a4800c56c",
+      "status": "reported"
+    },
+    {
+      "period": "Post-referral housing-stability follow-up, up to four years after the call",
+      "denominator": {"value": null, "unit": "linked administrative address observations; paper reports rounded disclosure-compliant counts", "value_type": "not_disclosed"},
+      "measures": {
+        "address_change_outcome": {"value": null, "unit": "suggestive increase in new address, tract, county, or newly missing address after referral, not robust across samples or specifications", "value_type": "reported_nonrobust_result"},
+        "housing_stability_measure": {"value": null, "unit": "new address, new tract, new county, or newly missing address information, using tax and supplementary administrative address sources", "value_type": "reported_measure_definition"}
+      },
+      "method": "The paper uses tax-form addresses and, for people without tax-form address information, supplementary administrative sources including HUD or the U.S. Postal Service; it estimates referral effects with the paper's main and individual-fixed-effect specifications.",
+      "uncertainty": "Address change is not equivalent to eviction, homelessness, unsafe housing, or unwanted mobility. The paper reports suggestive but non-robust address-change evidence and does not establish destination, preference, rent burden, or stable return.",
+      "subgroup": "Results are reported for the full and baseline-low-earnings groups; exact estimates and disclosure-rounded denominators are retained in the official paper.",
+      "counterinterpretation": "A move can be beneficial, neutral, or harmful depending on destination and household preference; a null address-change effect does not prove that housing was stable or that homelessness was prevented.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w32856/w32856.pdf",
+      "retrieval_hash": "sha256:1d1d5d0fd9b117b45427e4512f3cdba3b89c45c54d5829f4425f4060d1e94346",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35589", "claim": "The guaranteed-income experiment provides a separate intrahousehold transfer and employment/health-spillover comparison; it is not pooled with the housing-crisis assistance study.", "status": "cross-source-context"},
+    {"source_url": "https://doi.org/10.1016/j.jpubeco.2026.105659", "claim": "The study has a 2026 Journal of Public Economics publication record in addition to the NBER working paper.", "status": "published-version-context"},
+    {"source_url": "https://www.nber.org/system/files/working_papers/w32856/w32856.pdf", "claim": "The official paper supplies the Chicago route, rounded sample counts, first-stage receipt gap, earnings range, and non-robust address-change result retained in the detailed finding.", "status": "official-full-paper-context"}
+  ],
+  "boundary": "This record supports a bounded assistance-to-labor-market outcome bridge. It does not establish that the housing crisis was prevented, that the same job was retained, that assistance was adequate, that housing remained stable, or that trust, meaning, switching, or political action changed.",
+  "retrieval_hash": "sha256:1d1d5d0fd9b117b45427e4512f3cdba3b89c45c54d5829f4425f4060d1e94346"
+}

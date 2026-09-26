@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-space-allied-coordination-2025",
+  "title": "Allied space cooperation can exist while the coordination needed to use it remains fragile",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-25-108043 public review of DOD space cooperation with allies and partners",
+  "geography": "United States Department of Defense and six foreign partner nations; space operations and security cooperation",
+  "observations": [
+    {
+      "period": "2025 report; recommendation status reviewed through June 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO oversight review of DOD space-related cooperation mechanisms, documents, and interviews",
+        "value_type": "source_defined_review_universe"
+      },
+      "measures": {
+        "partner_nations_interviewed": {"value": 6, "unit": "foreign partner nations", "value_type": "reported_total"},
+        "integration_mechanisms": {"value": "multiple", "unit": "DOD agreements, organizations, exercises, and cooperation activities", "value_type": "reported_presence"},
+        "persistent_barriers": {"value": "staffing gaps, overlapping responsibilities, difficult points of contact, and missing implementation milestones", "unit": "reported organizational findings", "value_type": "reported_finding"},
+        "open_recommendations": {"value": 3, "unit": "GAO recommendations to DOD and the Air Force", "value_type": "reported_total"},
+        "operational_success": {"value": "not observed", "unit": "linked mission-level coordination, readiness, or strategic effect", "value_type": "unmeasured"}
+      },
+      "method": "GAO review of DOD guidance and documents plus interviews with DOD, U.S. embassy, and foreign government officials; public report omits classified information.",
+      "uncertainty": "The review identifies organizational conditions and recommendations, not a representative performance rate. The public version omits classified material and does not connect each barrier to a named operational failure, partner decision, public response, or strategic outcome.",
+      "subgroup": "DOD space organizations, Space Force components, U.S. embassy officials, and officials from six foreign partner nations; the report is not a census of all allies, partners, or missions.",
+      "counterinterpretation": "The barriers may reflect a new cooperation system still being built rather than failed alliance commitment. Existing mechanisms and accepted recommendations can coexist with incomplete staffing and unclear roles; the report does not establish alliance collapse, partner refusal, or mission failure.",
+      "source_url": "https://www.gao.gov/products/gao-25-108043",
+      "retrieval_hash": "sha256:3732b01d5de9677a8bb67ea912126ebffe65d1eec71bc0fbfc381d09e8576f23",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/890/880284.pdf",
+      "claim": "GAO provides the accessible public report and recommendation details.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures public oversight findings about the organizational conditions for U.S. space cooperation with allies and partners. It does not establish operational failure, partner consent or refusal, public legitimacy, alliance obedience, strategic effect, or the success of later reforms.",
+  "retrieval_hash": "sha256:3732b01d5de9677a8bb67ea912126ebffe65d1eec71bc0fbfc381d09e8576f23"
+}

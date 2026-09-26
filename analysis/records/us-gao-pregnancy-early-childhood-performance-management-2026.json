@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-pregnancy-early-childhood-performance-management-2026",
+  "title": "A broad early-childhood support system can coordinate programs while leaving outcome management incomplete",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-26-107572, Pregnancy and Early Childhood: Performance Management Process Needed for Three Programs",
+  "geography": "United States; federal programs serving pregnant women, children through age 5, or their families",
+  "observations": [
+    {
+      "period": "Fiscal year 2024 programs; report published May 2026",
+      "denominator": {
+        "value": 242,
+        "unit": "federal programs and tax expenditures identified as serving pregnant women, children through age 5, or their families, among other groups",
+        "value_type": "program_inventory"
+      },
+      "measures": {
+        "focused_programs": {
+          "value": 15,
+          "unit": "programs providing some amount of direct services solely to the target population",
+          "value_type": "program_count"
+        },
+        "agency_spread": {
+          "value": 5,
+          "unit": "federal agencies administering the 15 focused direct-service programs",
+          "value_type": "agency_count"
+        },
+        "coordination": {
+          "value": "officials from all 15 focused programs reported coordinating with other programs serving the population",
+          "unit": "program-official report, not a measure of beneficiary experience or coordination quality",
+          "value_type": "reported_program_practice"
+        },
+        "performance_management_gap": {
+          "value": "3 of 15 focused programs had not fully established a federal performance-management process for goals, performance information, and results assessment",
+          "unit": "program count among focused direct-service programs",
+          "value_type": "reported_gap"
+        },
+        "population_context": {
+          "value": "approximately 21.2 million children through age 5 and 3.6 million births in the United States in 2024",
+          "unit": "national demographic context cited by GAO; not a program-eligible denominator",
+          "value_type": "reported_context"
+        },
+        "recommendations": {
+          "value": "GAO made three recommendations: establish federal performance management for HHS Preschool Development Grants Birth Through Five, USDA WIC Farmers Market Nutrition Program, and VA Veterans Health Administration Maternity Care Coordinator Program",
+          "unit": "recommendation count and named programs",
+          "value_type": "reported_recommendation"
+        },
+        "beneficiary_outcome": {
+          "value": "not observed as a linked family path from program contact through service receipt, developmental or health outcome, burden, correction, trust, or later security",
+          "unit": "missing beneficiary-level outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO identified 250 potentially relevant programs primarily from SAM.gov assistance listings, verified the inventory and collected information through a data collection instrument sent to 18 federal agencies, reviewed agency documentation, and interviewed officials as appropriate.",
+      "uncertainty": "The program inventory includes programs serving other populations and tax expenditures; the 15 focused programs are not the same universe as the 242 programs. Coordination is reported by officials and does not measure whether families experience seamless access. Performance-management status is a federal governance measure, not evidence of service effectiveness or failure.",
+      "subgroup": "Pregnant women, children through age 5, and their families; federal agencies and programs, including HHS, USDA, and VA programs named in the recommendations.",
+      "counterinterpretation": "State-defined goals can preserve flexibility, a small program may have limited dedicated performance-management resources, and programs can coordinate without sharing one outcome measure. Missing federal performance processes do not prove that services are ineffective or that beneficiaries receive no help; conversely, reported coordination does not prove improved outcomes.",
+      "source_url": "https://files.gao.gov/assets/gao-26-107572.pdf",
+      "retrieval_hash": "sha256:9d2f813448bf2ad5aea7b0a90f5a3f4fb506d8d8a88a8fb58c19b7d6b623fd2b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107572",
+      "claim": "Official GAO landing page and report metadata for the federal program inventory and recommendations.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record establishes the scale, fragmentation, reported coordination, and performance-management gaps of a federal program ecosystem. It does not establish duplication, household access, service quality, child or maternal outcomes, causal harm, or political trust effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO report PDF reviewed; underlying agency data-collection responses and documentation are not retained.",
+    "pdf_sha256": "sha256:9d2f813448bf2ad5aea7b0a90f5a3f4fb506d8d8a88a8fb58c19b7d6b623fd2b",
+    "checked": "2026-09-23"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "format": "htops-2025-material-search-cross-lag-v1",
+  "period": "April 15-29 to June 16-25, 2025",
+  "unit": "same SCRAMID respondent; April expense difficulty carried to June topical outcomes",
+  "linked_ids": 6564,
+  "baseline_rows": 8850,
+  "followup_rows": 7485,
+  "replicate_rows": 8850,
+  "weight": "April PWEIGHT and April PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
+  "estimates": {
+    "difficulty": {
+      "job_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 40.634,
+        "se_pct_points": 1.078
+      },
+      "food_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 25.233,
+        "se_pct_points": 0.838
+      },
+      "public_benefit_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 19.623,
+        "se_pct_points": 0.81
+      },
+      "credit_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 20.338,
+        "se_pct_points": 0.723
+      },
+      "housing_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 18.11,
+        "se_pct_points": 0.613
+      },
+      "medical_search": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 17.033,
+        "se_pct_points": 0.692
+      },
+      "any_ai_use": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 53.887,
+        "se_pct_points": 0.994
+      },
+      "high_confidence_in_congress": {
+        "unweighted_valid_n": 2589,
+        "weighted_valid": 92994090,
+        "estimate_pct": 17.153,
+        "se_pct_points": 0.688
+      }
+    },
+    "not_difficult": {
+      "job_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 21.826,
+        "se_pct_points": 0.732
+      },
+      "food_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 16.575,
+        "se_pct_points": 0.425
+      },
+      "public_benefit_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 11.075,
+        "se_pct_points": 0.343
+      },
+      "credit_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 11.449,
+        "se_pct_points": 0.487
+      },
+      "housing_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 13.294,
+        "se_pct_points": 0.601
+      },
+      "medical_search": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 10.731,
+        "se_pct_points": 0.34
+      },
+      "any_ai_use": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 58.508,
+        "se_pct_points": 0.752
+      },
+      "high_confidence_in_congress": {
+        "unweighted_valid_n": 3965,
+        "weighted_valid": 95904444,
+        "estimate_pct": 16.807,
+        "se_pct_points": 0.514
+      }
+    }
+  },
+  "source_sha256": {
+    "baseline": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "baseline_replicate": "sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c",
+    "followup": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2"
+  },
+  "boundary": "The exposure is self-reported April expense difficulty, and June search, AI-use, and Congress-confidence fields are descriptive follow-up outcomes among linked respondents. April weights are not documented as attrition-adjusted longitudinal weights. Search is navigation effort, not a completed alternative, remedy, recovery, or exit; no causal effect is estimated."
+}

@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-btos-business-price-pressure-outlook-2026",
+  "title": "Employer businesses report stronger input-price pressure than demand or employment expectations",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau Business Trends and Outlook Survey national key performance indicators, data as of September 6, 2026",
+  "geography": "United States employer businesses, excluding farms",
+  "observations": [
+    {
+      "period": "Current two-week conditions and six-month outlook; data as of September 6, 2026; visualization updated September 10, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "BTOS employer-business universe; exact responding-business denominator is not disclosed on the visualization page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "current_conditions": {
+          "value": "Current performance index 57.2; revenue 42.9; employees 48.1; hours 46.6; input prices 70.1",
+          "unit": "published BTOS national index estimates",
+          "value_type": "published_index_bundle"
+        },
+        "six_month_outlook": {
+          "value": "Future performance index 55.7; future demand 52.3; future employees 51.0; future hours 49.9; future input prices 76.3",
+          "unit": "published BTOS national index estimates",
+          "value_type": "published_index_bundle"
+        },
+        "period_change": {
+          "value": "Compared with the prior collection period, current performance increased 0.2, revenue fell 0.4, employees fell 0.2, hours fell 0.3, input prices increased 0.6; future performance increased 0.2, demand increased 0.2, future employees fell 0.1, future hours fell 0.3, and future input prices were unchanged",
+          "unit": "percentage-point changes in published BTOS indexes",
+          "value_type": "published_period_change"
+        },
+        "pressure_outlook_contrast": {
+          "value": "Future input prices at 76.3 exceed future demand at 52.3 and future employees at 51.0 by 24.0 and 25.3 index points, respectively",
+          "unit": "derived index-point contrasts",
+          "value_type": "derived_difference"
+        }
+      },
+      "method": "High-frequency Census BTOS national indicators for employer businesses, reporting current two-week conditions and expectations for the next six months; the survey covers performance, revenue, employment, hours, demand, and input prices.",
+      "uncertainty": "BTOS is an experimental survey product and the visualization does not expose the exact responding-business denominator in this release. Index definitions, sampling error, sector composition, nonresponse, and revisions matter; the indicators are not direct measures of consumer prices, profits, layoffs, or firm survival.",
+      "subgroup": "U.S. employer businesses excluding farms; the broader BTOS product also provides sector, state, metropolitan-area, and employment-size-class tabulations, but this observation retains the national aggregate.",
+      "counterinterpretation": "A high input-price index does not prove that every firm raises prices or cuts employment. Businesses can absorb costs, improve productivity, alter hours, draw on margins, or face different conditions by sector and size; the outlook is an expectation rather than a realized path.",
+      "source_url": "https://www.census.gov/hfp/btos/data",
+      "retrieval_hash": "sha256:50d7d65f06bb74710a7a7995ed671fec4c028917b9a0805db12c932720f48cda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/data/experimental-data-products/business-trends-and-outlook-survey.html",
+      "claim": "Official BTOS documentation describes the employer-business coverage, two-week reporting, six-month outlook, and core concepts.",
+      "status": "official-methodology"
+    }
+  ],
+  "boundary": "This record adds a firm-side price-pressure and expectation layer. It does not infer realized inflation, consumer incidence, firm profitability, employment changes, or sector-specific causal effects from national BTOS indexes.",
+  "retrieval_hash": "sha256:50d7d65f06bb74710a7a7995ed671fec4c028917b9a0805db12c932720f48cda"
+}

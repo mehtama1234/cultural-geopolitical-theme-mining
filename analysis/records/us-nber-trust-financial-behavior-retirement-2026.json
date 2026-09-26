@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-trust-financial-behavior-retirement-2026",
+  "title": "Domain-specific institutional trust aligns with retirement behavior differently across groups",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NBER Working Paper 35220; Health and Retirement Study trust module and older U.S. households",
+  "geography": "United States; older households observed in the Health and Retirement Study",
+  "observations": [
+    {
+      "period": "Health and Retirement Study trust and retirement-security measures; 2026 working paper",
+      "denominator": {
+        "value": null,
+        "unit": "HRS respondents with outcome-specific trust, financial-literacy, and retirement-security measures; common analytic count not disclosed in the abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "financial_institution_trust": {
+          "value": "Trust in financial institutions aligns positively with behaviors supportive of retirement security",
+          "unit": "reported cross-sectional association",
+          "value_type": "reported_association"
+        },
+        "government_program_trust": {
+          "value": "Trust in government programs does not show the same positive alignment and is negatively linked to selected wealth behaviors",
+          "unit": "reported cross-sectional association",
+          "value_type": "reported_association"
+        },
+        "financial_literacy": {
+          "value": "Financial literacy is also associated with retirement-security behaviors",
+          "unit": "reported cross-sectional association",
+          "value_type": "reported_association"
+        }
+      },
+      "method": "HRS observational analysis relating newly measured trust domains and financial literacy to retirement-account ownership, stockholding, and household net wealth; estimates distinguish financial-institution trust from government-program trust.",
+      "uncertainty": "Associations do not establish that trust caused saving, stockholding, or wealth. Reverse causality, selection, prior experiences, financial access, and unmeasured resources may shape both trust and outcomes.",
+      "subgroup": "Older U.S. households in the HRS; outcomes and relationships vary by trust domain and racial/ethnic group.",
+      "counterinterpretation": "People with greater resources or better financial access may trust institutions more, rather than trust itself producing the observed behavior. Institutional trust may also reflect prior outcomes.",
+      "source_url": "https://www.nber.org/papers/w35220",
+      "retrieval_hash": "bank-of-israel-paper:sha256:474dca2d4f2b79dd342013db205700619f5bda99a6e9a7e5f723707fbc79f9c5",
+      "status": "reported"
+    },
+    {
+      "period": "Racial/ethnic heterogeneity in trust–retirement-behavior associations",
+      "denominator": {
+        "value": null,
+        "unit": "HRS racial/ethnic subgroups with outcome-specific observations; subgroup counts not disclosed in the public abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "white_respondents": {
+          "value": "Financial-institution trust is positively related to retirement outcomes for White respondents",
+          "unit": "reported subgroup association",
+          "value_type": "reported_association"
+        },
+        "black_hispanic_respondents": {
+          "value": "The same positive relationship is not observed in the same form for Black or Hispanic respondents",
+          "unit": "reported subgroup contrast",
+          "value_type": "reported_heterogeneity"
+        },
+        "minority_government_trust": {
+          "value": "Trust in government programs among minority households is linked to reduced stockholding and lower wealth accumulation",
+          "unit": "reported subgroup association",
+          "value_type": "reported_association"
+        }
+      },
+      "method": "Subgroup analysis of the HRS trust and retirement-security measures, distinguishing racial/ethnic patterns and the domain of institutional trust.",
+      "uncertainty": "The abstract does not provide all subgroup denominators or specification details; the contrasts are not proof of a single mechanism such as discrimination, access, or institutional experience.",
+      "subgroup": "White, Black, and Hispanic older U.S. households; subgroup estimates should not be collapsed into a universal trust effect.",
+      "counterinterpretation": "Differences may reflect wealth, account access, cohort, health, financial advice, prior institutional treatment, or measurement differences rather than trust alone.",
+      "source_url": "https://www.nber.org/papers/w35220",
+      "retrieval_hash": "bank-of-israel-paper:sha256:474dca2d4f2b79dd342013db205700619f5bda99a6e9a7e5f723707fbc79f9c5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.boi.org.il/en/economic-roles/research-and-publications/all-research/discussion-paper-series-research-department/trust-financial-literacy-and-financial-behaviors-shaping-retirement-security-1/",
+      "claim": "The Bank of Israel hosts the accessible paper version and abstract.",
+      "status": "accessible-paper-host"
+    },
+    {
+      "source_url": "https://hrs.isr.umich.edu/publications/biblio/20168",
+      "claim": "The HRS publication record identifies the paper and its HRS-based research context.",
+      "status": "study-archive"
+    }
+  ],
+  "boundary": "This record adds an observed trust-to-financial-behavior bridge in older U.S. households, with domain and racial/ethnic heterogeneity. It does not establish causal trust effects, current working-age behavior, retirement adequacy, institutional legitimacy, political action, or why the associations differ. Trust, financial access, behavior, wealth, and durable security remain separate stages."
+}

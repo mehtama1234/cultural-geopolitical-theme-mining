@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-courage-social-risk-2026",
+  "title": "Perceived decline in social courage can coexist with strong support for principled action and fear of its costs",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback"
+  ],
+  "source_unit": "With Honor and Gallup 2026 national survey on courage and the costs of speaking up",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 12-22, 2026 survey; published June 23, 2026",
+      "denominator": {
+        "value": 100,
+        "unit": "U.S. adults in a nationally representative Gallup Panel web survey of more than 3,000 adults",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "courage_weaker_than_20_years_ago": {
+          "value": 67,
+          "unit": "percent saying courage in American society is weaker than 20 years ago",
+          "value_type": "published_share"
+        },
+        "leaders_courage_very_important": {
+          "value": 79,
+          "unit": "percent saying courage from elected leaders is very important to the nation's future",
+          "value_type": "published_share"
+        },
+        "everyday_courage_very_important": {
+          "value": "strong majority",
+          "unit": "source-reported importance of courage from everyday Americans",
+          "value_type": "reported_direction"
+        },
+        "concern_about_personal_cost": {
+          "value": 44,
+          "unit": "percent concerned about personal costs of taking a principled stand",
+          "value_type": "published_share"
+        }
+      },
+      "method": "With Honor and Gallup national web survey of more than 3,000 Gallup Panel members; descriptive cross-sectional perceptions of courage, importance, and personal risk.",
+      "uncertainty": "The release measures judgments and reported concern, not observed speech, protest, workplace action, retaliation, or a historical causal trend. The comparison to 20 years ago is a perception, not a repeated-person estimate.",
+      "subgroup": "U.S. adults with reported comparisons across broad demographic and partisan groups; the release does not provide a same-event action ledger.",
+      "counterinterpretation": "People can say courage is declining because standards or visibility changed, while actual courageous action may be stable or shifting to less visible settings. Fear of cost can coexist with action, and low fear can coexist with non-action.",
+      "source_url": "https://news.gallup.com/poll/711713/americans-say-courage-declining-nationwide.aspx",
+      "retrieval_hash": "sha256:2ae442f89405df339088b60e7922b9346b9782e4cac5b89da53fe0fb402cf4f9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "claim": "Pew's engagement groups provide a complementary distinction between civic activity, trust, information, and perceived social risk.",
+      "status": "cross-source-context"
+    }
+  ],
+  "boundary": "This record establishes a current perception of declining courage and concern about the cost of principled action. It does not establish a decline in actual courage, retaliation, political participation, workplace voice, or public safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup article page retrieved and URL hash recorded; respondent microdata are not retained",
+    "html_sha256": "sha256:2ae442f89405df339088b60e7922b9346b9782e4cac5b89da53fe0fb402cf4f9",
+    "checked": "2026-09-22"
+  }
+}

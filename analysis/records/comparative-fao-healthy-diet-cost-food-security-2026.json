@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-healthy-diet-cost-food-security-2026",
+  "title": "Healthy eating is constrained by food-system costs and household affordability, not only by food supply",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "FAO, IFAD, UNICEF, WFP and WHO, The State of Food Security and Nutrition in the World 2026",
+  "geography": "Global food systems, with country and regional affordability variation",
+  "observations": [
+    {
+      "period": "2025 estimate; SOFI 2026 global food-security release",
+      "denominator": {
+        "value": 8250000000,
+        "unit": "approximate world population reference used to contextualize the 2025 hunger estimate",
+        "value_type": "global_population_reference"
+      },
+      "measures": {
+        "people_facing_hunger_2025": {"value": 645000000, "unit": "people estimated to have faced hunger in 2025", "value_type": "reported_population_estimate"},
+        "share_world_population_facing_hunger_2025": {"value": 7.8, "unit": "percent of the world population estimated to have faced hunger in 2025", "value_type": "reported_population_share"},
+        "people_unable_to_afford_healthy_diet": {"value": 2700000000, "unit": "people estimated to be unable to afford a healthy diet worldwide", "value_type": "reported_population_estimate"}
+      },
+      "method": "The SOFI 2026 release distinguishes hunger from economic access to diverse and nutritious food and examines the cost and affordability of healthy diets using locally available food baskets, food prices, and income conditions.",
+      "uncertainty": "Hunger and healthy-diet affordability are different indicators with different methods and reference periods. Global estimates mask seasonal, regional, cultural, income, and household variation and do not identify each person's diet or nutrition outcome.",
+      "subgroup": "Low-income households, women, children, rural communities, food-insecure populations, consumers of nutrient-dense foods, producers, traders, and governments.",
+      "counterinterpretation": "The hunger estimate declined from the 2022 peak, and food availability or income gains can improve access even when healthy diets remain expensive. Affordability is not determined by prices alone; household income, preferences, and essential non-food costs also matter.",
+      "source_url": "https://www.fao.org/publications/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world",
+      "retrieval_hash": "sha256:f0c3207ed33e05b932a26a8213dd9a861802b981fd414ca73bfec9510aee40ec",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report and 2026 FAO statement; structural cost of a healthy diet",
+      "denominator": {
+        "value": 1,
+        "unit": "person-day healthy-diet cost reference expressed in 2021 purchasing-power-parity dollars",
+        "value_type": "diet_cost_reference"
+      },
+      "measures": {
+        "healthy_diet_cost": {"value": 4.28, "unit": "2021 PPP dollars per person per day for a healthy diet, as stated by FAO", "value_type": "reported_diet_cost"},
+        "cost_increase_five_years": {"value": 25, "unit": "percent increase in the healthy-diet cost over approximately five years, as stated by FAO", "value_type": "reported_cost_change"},
+        "post_farmgate_cost_route": {"value": "Storage, processing, transport, retail, cold chains, energy, market information, and food loss reduction are identified as major routes through which agrifood systems shape consumer prices", "unit": "reported value-chain mechanism", "value_type": "reported_mechanism"},
+        "nutrition_price_mix": {"value": "Staples provide inexpensive calories while fruits, vegetables, and animal-source foods account for much of the cost of a nutritious diet", "unit": "reported food-price composition mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "FAO defines a cost-of-healthy-diet indicator using locally available foods that meet energy and nutrient requirements across six food groups and analyzes production, trade, logistics, processing, retail, policy, and income drivers.",
+      "uncertainty": "The least-cost basket is not a prediction of what households buy, and PPP comparisons do not capture every local price, preference, cultural fit, preparation cost, or intra-household allocation. A cost increase does not by itself establish a change in diet or health.",
+      "subgroup": "Consumers facing food-price and income constraints, especially low-income households and communities dependent on imported foods or weak transport, storage, energy, and retail infrastructure.",
+      "counterinterpretation": "Locally available and culturally appropriate foods can lower healthy-diet costs substantially. Supply expansion, trade facilitation, competition, cold chains, loss reduction, and targeted subsidies can improve affordability without treating all food prices or preferences as equivalent.",
+      "source_url": "https://www.fao.org/new-york/fao-statements/detail/fao-statement-at-hlpf-special-event-on-the-state-of-food-security-and-nutrition-in-the-world-2026--understanding-and-addressing-the-high-cost-of-a-healthy-diet/en",
+      "retrieval_hash": "sha256:f88ef496554807e26502f097973762efc362cd30c45424b32178a7f3cd53aabd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.fao.org/interactive/2026/cost-healthy-diet/en/"],
+  "boundary": "This record adds global food affordability, food-system value-chain, nutrition, and consumption-pressure evidence. It is not respondent-level diet data, does not estimate household purchasing decisions or causal health effects, and does not equate diet cost with hunger or individual malnutrition.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FAO SOFI 2026 publication page, interactive cost-of-healthy-diet page, and official statement retrieved; hunger, healthy-diet affordability, PPP cost, cost change, and value-chain mechanisms cross-checked against official FAO descriptions.",
+    "page_sha256": ["sha256:f0c3207ed33e05b932a26a8213dd9a861802b981fd414ca73bfec9510aee40ec", "sha256:f88ef496554807e26502f097973762efc362cd30c45424b32178a7f3cd53aabd"],
+    "checked": "2026-09-26"
+  }
+}

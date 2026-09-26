@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-homeless-shelter-public-good-health-crime-2025",
+  "title": "Temporary shelter produces public health and safety benefits without clearly reducing future homelessness",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34376, Los Angeles County homeless-services administrative records and shelter-availability variation",
+  "geography": "Los Angeles County, California, United States",
+  "observations": [
+    {
+      "period": "2014-2019 daily shelter-bed and service observations; winter-shelter availability shocks",
+      "denominator": {"value": null, "unit": "daily site-level homeless-service, shelter, crime, hospital, and mortality records; analytic counts are not disclosed in the abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "shelter_route": {"value": null, "unit": "temporary shelter provision and variation in available beds from Los Angeles County winter-shelter programs", "value_type": "reported"},
+        "identification": {"value": null, "unit": "variation from shocks to shelter availability used to study the effects of providing temporary shelter", "value_type": "reported_quasi_experimental_design"}
+      },
+      "method": "The study constructs daily site-level counts of shelter beds and occupants, pairs them with block-level crime and hospital-level emergency-room data, and uses winter-shelter availability shocks to estimate effects of temporary shelter provision.",
+      "uncertainty": "The abstract does not disclose the full sample, effect sizes, or all assumptions behind the availability-shock design. Shelter access, service mix, neighborhood conditions, and public response may change together.",
+      "subgroup": "People experiencing unsheltered homelessness, shelter users, nearby residents, psychiatric emergency-room patients, and neighborhood-level crime/health outcomes are separate units.",
+      "counterinterpretation": "Shelter may reduce public harms while leaving future homelessness unchanged; observed area benefits do not prove durable housing, individual recovery, or equal access to shelter.",
+      "source_url": "https://www.nber.org/papers/w34376",
+      "retrieval_hash": "sha256:e6abf0e037e569e79ee813da8cd5ca18038a16789a8e5a88007b57e9cdcd13bf",
+      "status": "reported"
+    },
+    {
+      "period": "Short-run and future outcomes following temporary shelter availability",
+      "denominator": {"value": null, "unit": "study-specific service, crime, hospital, and mortality observations", "value_type": "not_disclosed"},
+      "measures": {
+        "crime": {"value": null, "unit": "reducing unsheltered homelessness significantly reduces crime", "value_type": "reported_effect"},
+        "psychiatric_er": {"value": null, "unit": "reducing unsheltered homelessness significantly reduces emergency-room visits for psychiatric conditions", "value_type": "reported_effect"},
+        "short_run_mortality": {"value": null, "unit": "entering shelter reduces short-run mortality", "value_type": "reported_effect"},
+        "future_homelessness": {"value": null, "unit": "no evidence temporary shelter reduces future homelessness more than street outreach or other non-shelter services", "value_type": "reported_null_result"}
+      },
+      "method": "Cross-domain outcome comparison using the administrative records and shelter-availability design described in the paper.",
+      "uncertainty": "Area-level crime and hospital effects are not the same as individual housing recovery. The null future-homelessness comparison may depend on service selection, follow-up horizon, shelter quality, and the alternative services available.",
+      "subgroup": "Public-safety, psychiatric-care, mortality, and future-homelessness outcomes are distinct endpoints and should not be collapsed into a single shelter-success score.",
+      "counterinterpretation": "A public good can generate benefits for neighbors and health systems even when the individual housing endpoint does not improve relative to other services.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w34376/w34376.pdf",
+      "retrieval_hash": "sha256:185edae485e23841b21d290f32cb6fe7d945779379407c51379944172386e4f3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w32856", "claim": "Emergency financial assistance provides a separate housing-crisis-to-work route; shelter and cash assistance outcomes are not pooled.", "status": "cross-source-context"},
+    {"source_url": "https://www.huduser.gov/portal/section-811-process-evaluation.html", "claim": "HUD supportive-housing evaluation materials provide a distinct tenancy and service-use route.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record supports a temporary-shelter-to-public-health-and-safety bridge with a future-homelessness null comparison. It does not establish durable housing, individual service adequacy, resident consent, trust, political action, or a universal shelter effect.",
+  "retrieval_hash": "sha256:185edae485e23841b21d290f32cb6fe7d945779379407c51379944172386e4f3"
+}

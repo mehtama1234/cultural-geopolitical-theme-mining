@@ -176,6 +176,30 @@ volunteering, information exposure, complaint, organizing, switching, and
 withdrawal as distinct political responses with different resource and time
 requirements.
 
+The [arts and social-connectedness finding](findings/us-cost-trust-politics-066.md)
+adds a cultural-infrastructure layer: arts attendance and reported social
+support are associated in the same Household Pulse data, while access varies
+sharply by income and education. It does not treat attendance as a cause of
+belonging or political action.
+
+The [Gallup corruption-perception finding](findings/us-cost-trust-politics-068.md)
+adds a current legitimacy signal: government corruption is perceived as
+widespread by large majorities across parties, while the reasons, target
+institutions, remedies, and political actions remain unmeasured.
+
+The [Gallup workforce-diversity finding](findings/us-cost-trust-politics-069.md)
+adds a firm-culture layer: public belief in the business value of diverse
+workforces rose across parties, while judgments about DEI priority and business
+performance remain divided. Perceived business value is not measured firm or
+worker outcome.
+
+The [American Neighbor Survey finding](findings/us-cost-trust-politics-071.md)
+adds a neighborhood social-infrastructure layer: neighbor interaction,
+problem-solving, trust, third-place access, and emergency childcare reliance
+vary by education, housing, age, and local resources. The survey shows a
+belonging and mutual-aid route, not a causal amenity effect, actual help
+delivered, recovery, or political action.
+
 ## First working idea
 
 People may judge the economy through the loss of choices—what they delay, stop, borrow for, or ask family to cover—not only through income. A policy can therefore change public feeling even after the direct money effect fades. This is a working idea, not a conclusion.

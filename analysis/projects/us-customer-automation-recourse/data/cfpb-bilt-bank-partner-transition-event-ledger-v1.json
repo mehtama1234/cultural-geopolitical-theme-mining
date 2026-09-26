@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_cfpb_bilt_consumer_recourse_record",
+  "purpose": "Bounded CFPB route from Bilt bank-partner transition through customer fees, provider outreach, reported reimbursement, technical repair, and open individual recovery.",
+  "events": [
+    {
+      "event_id": "CFPB-BILT-BANK-PARTNER-TRANSITION-2026",
+      "unit": "case",
+      "geography": "United States; Bilt customers affected by a bank-partner transition",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-06-04",
+      "date_precision": "CFPB newsroom account reviewed in June 2026; reimbursement milestone refers to more than 500 newly identified customers by June 4, 2026",
+      "denominator": "Affected Bilt customers are not fully enumerated; the public account reports some customers with transition-related problems and a milestone for more than 500 newly identified customers",
+      "method": "Official CFPB account of a collaborative consumer-remediation process and Bilt documentation; no account-level customer file is retained",
+      "missingness": "Affected-account denominator, failed-payment date, fee amount, contact success, reimbursement receipt, account correction, credit effect, repeat failure, continued use, trust, and switching are not linked",
+      "condition_or_decision": "service_failure",
+      "exposure": "Bilt's transition to a new bank partner created technical problems for some customers, including overdraft, late, and insufficient-funds fees",
+      "alternatives_before_action": "Customers may have contacted Bilt, absorbed fees, borrowed, changed payment routes, disputed charges, or switched providers, but the public record does not identify which routes were feasible or used",
+      "immediate_burden_or_benefit": "Technical failure could create fees, payment timing risk, and administrative work; the provider's outreach and reimbursement offer created a formal route without showing equal reach or immediate liquidity restoration",
+      "choice_or_response": "Bilt proactively contacted potentially affected customers, offered reimbursement, reviewed newly identified requests, and reported technical issues as resolved; CFPB reported reimbursement for more than 500 newly identified customers by June 4, 2026",
+      "person_or_actor_with_control": "Bilt and its bank partners control system migration, account processing, outreach, and reimbursement; customers control contact, dispute, payment substitution, and switching choices under uneven time and liquidity constraints",
+      "remedy_or_institutional_response": "Provider outreach, reimbursement review, and reported technical repair are visible; individual payment receipt, account correction, and independent verification are not",
+      "immediate_outcome": "The route establishes a firm-level transition, customer-fee exposure, proactive remediation, and reported system repair while leaving customer recovery open",
+      "protected_outcome": "Accurate account balances, fee-free payment processing, restored liquidity, and continued financial access could be protected by reimbursement and technical repair, but no individual protected outcome is verified",
+      "sacrificed_outcome": "Money, time, credit standing, payment reliability, trust, and provider choice may be sacrificed; the public record does not measure each customer's trade-off",
+      "cost_risk_transfer": "A bank-partner migration can transfer technical, overdraft, late-fee, documentation, and contact costs between firm, bank, payment network, and customer; the public account does not quantify the transfer",
+      "later_outcome": "No same-customer reimbursement receipt, account correction, credit repair, repeat failure, continued use, switching, or durable financial recovery is observed",
+      "meaning_and_attribution": "A customer may interpret the transition as ordinary technical failure, institutional negligence, or a reason to leave; fairness, blame, trust, and attribution are not measured",
+      "public_or_collective_response": "CFPB oversight and collaborative remediation are observed; customer complaints, collective action, political response, and later market switching are not linked",
+      "counterexample": "Proactive outreach and reimbursement for newly identified customers may resolve many cases; the public record cannot establish that all affected customers were identified, contacted, reimbursed, or harmed equally",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official CFPB agency-reported consumer-recourse account; no customer-level denominator, payment file, independent technical audit, or later outcome is published in the retained record",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CFPB-BILT-A-01",
+      "from": "bank-partner transition",
+      "to": "technical/payment problems and customer fees",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "CFPB reports that the transition created technical issues and overdraft, late, and insufficient-funds fees for some Bilt customers",
+      "status": "reported",
+      "counterexample": "The public account does not establish the affected denominator, individual causation, or whether every fee was ultimately valid or reversed",
+      "remaining_gap": "Affected account, failure date, fee amount, payment timing, credit effect, and customer burden"
+    },
+    {
+      "arrow_id": "CFPB-BILT-A-02",
+      "from": "customer transition harm",
+      "to": "provider outreach and reimbursement route",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Bilt proactively contacted potentially affected customers, offered reimbursement, and reviewed requests; CFPB reported reimbursement for more than 500 newly identified customers by June 4, 2026",
+      "status": "reported",
+      "counterexample": "An outreach or reimbursement milestone is not proof of contact, issuance, receipt, or adequacy for each affected customer",
+      "remaining_gap": "Affected denominator, contact success, eligibility, payment issuance, receipt, account correction, and residual loss"
+    },
+    {
+      "arrow_id": "CFPB-BILT-A-03",
+      "from": "bank-partner transition",
+      "to": "reported technical repair",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "CFPB reported that the technical issues appeared resolved and that submitted documentation appeared to show the process was complete",
+      "status": "reported",
+      "counterexample": "Agency-reported technical resolution does not establish independent verification, account correction, or absence of repeat failures",
+      "remaining_gap": "Independent repair test, account-level correction, repeat-failure rate, and continued service reliability"
+    },
+    {
+      "arrow_id": "CFPB-BILT-A-04",
+      "from": "reimbursement and technical repair",
+      "to": "restored liquidity, credit position, and durable customer security",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public account does not link affected customers to payment receipt, fee reversal, credit correction, repeat failure, or later financial room",
+      "status": "open",
+      "counterexample": "A customer may recover through another account or absorb a small fee without a measurable later crisis; neither outcome is observed",
+      "remaining_gap": "Same-customer receipt, account/credit correction, adequacy, repeat failure, liquidity, and household recovery"
+    },
+    {
+      "arrow_id": "CFPB-BILT-A-05",
+      "from": "transition and remediation experience",
+      "to": "trust, continued use, switching, complaint, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "CFPB reports institutional remediation but no customer-level trust, switching, complaint, continued use, or exit outcome",
+      "status": "open",
+      "counterexample": "Continued use may reflect dependence or switching cost rather than restored trust; leaving may reflect a technical alternative rather than generalized distrust",
+      "remaining_gap": "Direct customer interpretation, complaint, repeat use, switching reason, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes an official CFPB account of a Bilt bank-partner transition and collaborative remediation. It does not establish the affected-customer denominator, individual payment receipt, account correction, technical durability, financial recovery, trust, or switching.",
+  "storage_boundary": "Only the official CFPB account and its aggregate/agency-reported stages are retained; customer accounts, payment records, and private remediation files are not stored."
+}

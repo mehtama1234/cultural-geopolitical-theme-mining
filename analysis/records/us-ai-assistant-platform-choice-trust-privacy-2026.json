@@ -1,0 +1,127 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ai-assistant-platform-choice-trust-privacy-2026",
+  "title": "Consumer AI choice is task-specific and trust is learned through use, while privacy action depends more on knowledge than concern",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "June 2026 weighted survey and embedded choice experiment of US adult AI-assistant users, Jennifer Zou working paper",
+  "geography": "United States; adult users of AI assistants",
+  "observations": [
+    {
+      "period": "June 2026; platform awareness, use, and primary choice",
+      "denominator": {
+        "value": 1999,
+        "unit": "US adult AI-assistant users in the study sample",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "primary_platform_share": {
+          "value": "ChatGPT 58.2%, Gemini 25.4%, Claude 7.0%, Copilot 4.1%; weighted estimates",
+          "unit": "percent of AI users naming a primary assistant",
+          "value_type": "weighted_share"
+        },
+        "task_specialization": {
+          "value": "Claude has 33% primary share for coding tasks versus 7% overall; Copilot is more concentrated in work tasks",
+          "unit": "task-level primary-platform share",
+          "value_type": "weighted_comparison"
+        },
+        "multihoming": {
+          "value": "about 43% intentionally route different tasks to more than one platform; trial of a second assistant is more common",
+          "unit": "reported user behavior",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Weighted descriptive survey of AI-assistant users with six task-specific primary-platform questions; the study uses a Prolific sample and external adoption benchmarks for population weighting.",
+      "uncertainty": "The sample is not platform telemetry or a longitudinal panel; self-reported task routing does not establish actual usage, durable switching, or provider retention.",
+      "subgroup": "US adult AI-assistant users; platform and task subgroups have separate denominators and uncertainty.",
+      "counterinterpretation": "A small platform can occupy a valuable task niche without challenging overall market concentration, and reported multihoming can coexist with strong dependence on one default assistant.",
+      "source_url": "https://arxiv.org/abs/2607.15134",
+      "retrieval_hash": "sha256:4ce2f8d62c36f2d2fa4d623f115088a1e88ad109604bf6d6feef12d3fbb393d9",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; trust and privacy-action comparison",
+      "denominator": {
+        "value": 1999,
+        "unit": "US adult AI-assistant users; trust and privacy measures use item-specific valid respondents",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "head_to_head_trust": {
+          "value": "Claude ranked above ChatGPT 59%-41% and above Gemini 66%-34% among respondents ranking both",
+          "unit": "paired trust-ranking share",
+          "value_type": "weighted_comparison"
+        },
+        "experiential_trust_lift": {
+          "value": "Claude top-three trust was 41% among aware non-users versus 76% among its users",
+          "unit": "percent; user versus aware non-user comparison",
+          "value_type": "weighted_comparison"
+        },
+        "privacy_concern_and_knowledge": {
+          "value": "over 80% report concern about conversation-data use, roughly 60% do not know whether their assistant trains on conversations, and only 18% have paid for a better-privacy plan",
+          "unit": "reported user shares",
+          "value_type": "weighted_share"
+        },
+        "protective_action_predictor": {
+          "value": "knowledge of the training policy is associated with more protective tools than a one-point increase in concern in the study's regression",
+          "unit": "bounded regression association",
+          "value_type": "estimated_association"
+        }
+      },
+      "method": "Paired trust-ranking comparisons and weighted regression of a 0-5 protective-tool count; the cross-sectional study does not establish that use caused trust or that knowledge caused action.",
+      "uncertainty": "Trust, knowledge, concern, and protective tools are self-reported and measured in one survey; the regression explains a modest share of variation and is not a causal privacy-behavior estimate.",
+      "subgroup": "AI-assistant users and, for some comparisons, aware non-users or respondents with valid trust/policy items.",
+      "counterinterpretation": "Users who choose a platform may already differ in risk tolerance, task sensitivity, education, or expectations; continued use despite concern may reflect convenience, habit, or lack of alternatives rather than trust.",
+      "source_url": "https://arxiv.org/abs/2607.15134",
+      "retrieval_hash": "sha256:4ce2f8d62c36f2d2fa4d623f115088a1e88ad109604bf6d6feef12d3fbb393d9",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; embedded data-handling choice experiment",
+      "denominator": {
+        "value": 1999,
+        "unit": "US adult AI-assistant users completing six hypothetical plan choices; valid choice observations vary by task",
+        "value_type": "survey_experiment_sample"
+      },
+      "measures": {
+        "avoid_human_review": {
+          "value": 11.20,
+          "unit": "dollars per month; estimated willingness to pay to avoid human review of conversations",
+          "value_type": "choice_experiment_estimate"
+        },
+        "avoid_sponsored_answers": {
+          "value": 6.46,
+          "unit": "dollars per month; estimated willingness to pay to avoid sponsored answers",
+          "value_type": "choice_experiment_estimate"
+        },
+        "avoid_training_use": {
+          "value": 2.97,
+          "unit": "dollars per month; estimated willingness to pay to avoid model training on conversations",
+          "value_type": "choice_experiment_estimate"
+        },
+        "sensitivity_gradient": {
+          "value": "willingness to pay to avoid human review rises from $9.45 for non-sensitive to $15.24 for highly sensitive tasks",
+          "unit": "dollars per month; task-sensitivity comparison",
+          "value_type": "choice_experiment_comparison"
+        }
+      },
+      "method": "Conditional-logit discrete-choice experiment varying price, human review, training use, and sponsored content across six task-based plan choices.",
+      "uncertainty": "Hypothetical willingness to pay is not a purchase, privacy-protective behavior, or observed provider change; the estimates apply to the study's choice frame and user sample.",
+      "subgroup": "US adult AI-assistant users; task sensitivity and concern strata are study-defined.",
+      "counterinterpretation": "Price remains the primary reason in many choices, so privacy preferences may be subordinate to affordability, and stated protection value may not overcome default-platform dependence.",
+      "source_url": "https://arxiv.org/abs/2607.15134",
+      "retrieval_hash": "sha256:4ce2f8d62c36f2d2fa4d623f115088a1e88ad109604bf6d6feef12d3fbb393d9",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds task-level platform choice, comparative and experiential trust, privacy knowledge/action, and hypothetical valuation of data-handling features. It does not establish actual platform telemetry, disclosure, privacy loss, durable switching, dependence, wellbeing, productivity, or causal protective behavior.",
+  "retrieval_hash": "sha256:4ce2f8d62c36f2d2fa4d623f115088a1e88ad109604bf6d6feef12d3fbb393d9"
+}

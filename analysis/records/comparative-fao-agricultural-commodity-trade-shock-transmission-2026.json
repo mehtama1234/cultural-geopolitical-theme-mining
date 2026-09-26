@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-agricultural-commodity-trade-shock-transmission-2026",
+  "title": "Food-trade integration expands access and efficiency while making geopolitical, climate, and financial shocks transmit through more connected commodity networks",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "FAO, The State of Agricultural Commodity Markets 2026: Trade, resilience and food security",
+  "geography": "Global food and agricultural trade networks, with emphasis on low- and middle-income countries and country vulnerability",
+  "observations": [
+    {
+      "period": "2000-2024; SOCO 2026 global trade overview",
+      "denominator": {
+        "value": 1,
+        "unit": "global food and agricultural trade system; trade value is reported as a system aggregate",
+        "value_type": "global_trade_system"
+      },
+      "measures": {
+        "food_agricultural_trade_growth": {"value": 5, "unit": "fold increase in the value of food and agricultural trade between 2000 and 2024", "value_type": "reported_growth_multiple"},
+        "integration_pattern": {"value": "Low- and middle-income countries became more integrated into global food and agricultural markets", "unit": "reported structural trend", "value_type": "reported_trend"},
+        "shock_classes": {"value": "Extreme weather, conflicts, pandemics, macroeconomic pressures, and financial crises are identified as shocks affecting food and agricultural trade", "unit": "reported shock taxonomy", "value_type": "reported_mechanism"}
+      },
+      "method": "The FAO flagship report combines trade-network analysis, commodity-market evidence, resilience analysis, and policy assessment to examine how shocks propagate through food and agricultural trade linkages.",
+      "uncertainty": "Trade integration is not equivalent to food security or resilience. Aggregate trade value does not measure distribution, affordability, nutrition, or exposure for any specific country, household, firm, or commodity.",
+      "subgroup": "Food-importing and food-exporting countries, low- and middle-income economies, producers, traders, processors, transport systems, consumers, and governments managing trade and food-security policy.",
+      "counterinterpretation": "More connected trade can diversify supply, lower costs, and provide adjustment options after a local shock. Integration becomes vulnerability when import sources are concentrated, logistics are disrupted, or policies amplify rather than absorb price transmission.",
+      "source_url": "https://www.fao.org/markets-and-trade/home/the-state-of-agricultural-commodity-markets-%28soco%29-2026---trade--resilience-and-food-security/en",
+      "retrieval_hash": "sha256:64493be099586993e662a4fd37148ef5b9a05eb3307649d0808abb72ea919a17",
+      "status": "reported"
+    },
+    {
+      "period": "2026 SOCO background analysis; shock transmission and policy response",
+      "denominator": {
+        "value": 1,
+        "unit": "global food-trade network and country-market adjustment framework",
+        "value_type": "network_policy_analysis_universe"
+      },
+      "measures": {
+        "network_shock_route": {"value": "Network simulations show shocks can spread across countries and commodities, reduce trade connectivity, and create caloric deficits, especially where import sources are concentrated", "unit": "reported network mechanism", "value_type": "reported_mechanism"},
+        "price_transmission_route": {"value": "Global shocks affect domestic markets unevenly; trade openness, market structure, and policy environments shape the scale and persistence of price impacts", "unit": "reported price-transmission mechanism", "value_type": "reported_mechanism"},
+        "policy_instruments": {"value": "Export restrictions, import-promotion measures, trade agreements, price-stabilization mechanisms, and food reserves are examined as possible shock-mitigation tools", "unit": "reported policy set", "value_type": "reported_policy_options"}
+      },
+      "method": "The background work combines network modelling, empirical trade-flow analysis, and econometric analysis of international-to-domestic price transmission.",
+      "uncertainty": "The public summary does not reproduce all model specifications, elasticities, confidence intervals, or country-level counterfactuals. A simulated network pathway does not establish that any one policy will reduce a particular household price or food-security outcome.",
+      "subgroup": "Countries with concentrated import sources, domestic consumers exposed to price spikes, market intermediaries, policy authorities, and regions facing weather, conflict, disease, financial, or transport disruptions.",
+      "counterinterpretation": "Markets often adjust over time and regain equilibrium; immediate disruption can be sharp without becoming a permanent supply failure. Trade openness, reserves, and coordinated policy can reduce vulnerability, but each has fiscal, political, and distributional tradeoffs.",
+      "source_url": "https://www.fao.org/markets-and-trade/news-and-events/news-detail/shocks-and-resilience--insights-ahead-of-soco-2026/en",
+      "retrieval_hash": "sha256:bc04c2bff3afec2f5f50d85e96f98187c9cac00590db39137744b65f94f8c8ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.fao.org/markets-and-trade/news-and-events/events-detail/launch-of-the-flagship-report-the-state-of-agricultural-commodity-markets-2026/en"],
+  "boundary": "This record adds a geopolitical and climate shock-to-trade-network-to-domestic-price route. It is not a country-specific price forecast, does not estimate household food insecurity or firm losses, and does not establish causal effects of any trade policy on nutrition, consumption, migration, or political stability.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FAO SOCO 2026 publication page and official background-workshop page retrieved; trade-growth, shock taxonomy, network propagation, uneven price transmission, and policy-instrument claims cross-checked against the official summaries.",
+    "page_sha256": ["sha256:64493be099586993e662a4fd37148ef5b9a05eb3307649d0808abb72ea919a17", "sha256:bc04c2bff3afec2f5f50d85e96f98187c9cac00590db39137744b65f94f8c8ee"],
+    "checked": "2026-09-26"
+  }
+}

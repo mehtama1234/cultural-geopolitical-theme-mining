@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-health-information-control-transparency-2026",
+  "title": "AI health use is motivated by speed and cost while patients want disclosure and more control over provider use",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey of U.S. adults, June 22-28, 2026; paired health-chatbot-use and healthcare-AI-transparency reports",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "June 22-28, 2026; health chatbot use, provider AI transparency, and patient control",
+      "denominator": {
+        "value": 3488,
+        "unit": "U.S. adults surveyed",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "health_chatbot_use": {
+          "value": "34% have ever used an AI chatbot for at least one of eight health or medical reasons; 28% cite getting information quickly and 22% cite little or no cost",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_share"
+        },
+        "interpretive_and_decision_use": {
+          "value": "25% use chatbots to figure out what may be causing symptoms, 22% to learn more about a doctor's diagnosis, 20% to understand lab results, and 15% to help decide whether to see a doctor",
+          "unit": "percent of U.S. adults; reasons are nonexclusive",
+          "value_type": "published_nonexclusive_shares"
+        },
+        "reported_helpfulness": {
+          "value": "Among health-chatbot users, 47% say the information is extremely or very helpful, 48% somewhat helpful, and 5% not too or not at all helpful",
+          "unit": "percent of health-chatbot users",
+          "value_type": "conditional_published_distribution"
+        },
+        "provider_disclosure_demand": {
+          "value": "72% say it is extremely or very important that a provider tell them if AI is used; 81% say providers should tell them if AI analyzes scans or makes a diagnosis",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_share"
+        },
+        "patient_control_gap": {
+          "value": "53% say they have not too much or no say over whether a provider uses AI; 63% want more input, compared with 21% comfortable with how much input they have",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_control_distribution"
+        },
+        "provider_use_visibility": {
+          "value": "16% say a provider has used AI in their healthcare, 37% say no, and 46% are not sure; among those reporting provider use, 22% understand very or extremely well how it was used and 32% understand not too or not at all well",
+          "unit": "percent of U.S. adults, with understanding conditional on reported provider use",
+          "value_type": "published_visibility_distribution"
+        }
+      },
+      "method": "Nationally representative Pew American Trends Panel survey with paired reports on self-reported health-chatbot motivations, perceived helpfulness, privacy comfort, provider AI disclosure, visibility, and patient input.",
+      "uncertainty": "The survey measures reported use, perceptions, and desired control rather than clinical accuracy, health outcomes, provider workflow, actual disclosure, or whether chatbot use substitutes for or improves care. Reasons are nonexclusive and the provider-use understanding measures have conditional bases.",
+      "subgroup": "U.S. adults overall, with reported variation in chatbot health use by age, education, income, race and ethnicity, and AI orientation; this record retains aggregate mechanisms rather than subgroup causal claims.",
+      "counterinterpretation": "Use motivated by speed or cost can supplement professional care rather than replace it. High reported helpfulness is subjective, and a demand for disclosure or control does not establish that people will refuse AI, switch providers, or achieve better health outcomes.",
+      "source_url": "https://www.pewresearch.org/science/2026/08/25/from-diagnoses-to-treatments-why-americans-use-ai-chatbots-for-health/",
+      "retrieval_hash": "sha256:d0736750fa8db94a9421823243c8509c3c80a261c9e26a25177d20e0d2e9b9f4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/short-reads/2026/08/25/americans-want-transparency-when-ai-is-used-in-their-healthcare/",
+      "claim": "Paired Pew report provides the provider-disclosure, patient-control, and visibility measures from the same survey field period.",
+      "status": "official-paired-report",
+      "retrieval_hash": "sha256:471419e26b01b15c92fc0d7e079f884a7332ce106b917a67e6fbd6dde54ceb0f"
+    }
+  ],
+  "boundary": "This record adds a practical health-information, transparency, and control layer to the AI trend. It does not evaluate medical accuracy, provider compliance, clinical outcomes, privacy harms, substitution of care, or causal patient behavior.",
+  "retrieval_hash": "sha256:d0736750fa8db94a9421823243c8509c3c80a261c9e26a25177d20e0d2e9b9f4"
+}

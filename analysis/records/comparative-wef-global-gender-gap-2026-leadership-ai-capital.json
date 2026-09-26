@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-global-gender-gap-2026-leadership-ai-capital",
+  "title": "Gender parity is improving slowly while leadership, political power, AI roles, and financial-market representation remain sharply unequal",
+  "theme_ids": ["work", "voice", "cost", "time"],
+  "program_theme_ids": ["unequal_exposure_status", "work_control_bargaining", "political_judgment_action", "firm_sector_market_power", "infrastructure_technology_dependency", "care_health_reproduction"],
+  "source_unit": "World Economic Forum, Global Gender Gap Report 2026",
+  "geography": "145 economies in the 2026 index, with a constant comparison set of 143 economies between 2025 and 2026 and deeper labor, political, AI, leadership, and financial-market analysis",
+  "observations": [
+    {
+      "period": "2006-2026; global gender-parity index",
+      "denominator": {"value": 145, "unit": "economies included in the 2026 Global Gender Gap Index", "value_type": "global_index_frame"},
+      "measures": {
+        "overall_parity": {"value": 69.2, "unit": "percent of the global gender gap closed in the 2026 index", "value_type": "reported_index_score"},
+        "constant_sample_change": {"value": 0.4, "unit": "percentage-point improvement among 143 economies covered in both 2025 and 2026", "value_type": "reported_change"},
+        "long_run_change": {"value": 5.2, "unit": "percentage-point improvement from the 2006 global score for the comparable long-run set", "value_type": "reported_change"}
+      },
+      "method": "World Economic Forum Global Gender Gap Index benchmarking economic participation, education, health, and political empowerment using latest available international data.",
+      "uncertainty": "Index scores summarize different indicators and data vintages; missing economies, measurement changes, weighting, and cross-country comparability affect interpretation. A closed gap is not an absolute welfare or rights measure.",
+      "subgroup": "Women and men across economies, regions, income groups, economic participation, education, health, and political empowerment dimensions.",
+      "counterinterpretation": "Small aggregate movement can conceal meaningful country-level progress or reversal; parity scores do not show whether gains are durable, equally distributed, or experienced as agency.",
+      "source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/benchmarking-gender-gaps-2026/",
+      "retrieval_hash": "sha256:d327bc256bf8696a4466f972126ac769a82a9a80f2db88dd49e3592118b8745f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; economic participation and political empowerment gaps",
+      "denominator": {"value": 145, "unit": "economies included in the 2026 subindex comparison", "value_type": "subindex_frame"},
+      "measures": {
+        "economic_participation_parity": {"value": 61.7, "unit": "percent of the economic-participation and opportunity gap closed", "value_type": "reported_index_score"},
+        "political_empowerment_parity": {"value": 22.1, "unit": "percent of the political-empowerment gap closed", "value_type": "reported_index_score"},
+        "professional_technical_parity": {"value": 73.7, "unit": "percent parity score for professional and technical workers", "value_type": "reported_index_score"},
+        "senior_leadership_parity": {"value": 41.7, "unit": "percent parity score for legislators, senior officials, and managers", "value_type": "reported_index_score"}
+      },
+      "method": "WEF subindex analysis of labor-market participation, occupational representation, leadership, and political empowerment.",
+      "uncertainty": "Parity scores compare representation or outcomes between women and men but do not measure job quality, authority, discrimination mechanisms, unpaid work, or intersectional differences.",
+      "subgroup": "Women and men in professional and technical occupations, management, senior public roles, legislatures, and political leadership.",
+      "counterinterpretation": "Representation gains can broaden role models and decision-making access even before parity is reached; low parity in leadership does not imply no progress in other labor-market dimensions.",
+      "source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/benchmarking-gender-gaps-2026/",
+      "retrieval_hash": "sha256:d327bc256bf8696a4466f972126ac769a82a9a80f2db88dd49e3592118b8745f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; corporate leadership pipeline",
+      "denominator": {"value": 57, "unit": "economies with data used to compare women’s representation from entry-level positions to the C-suite", "value_type": "leadership_pipeline_frame"},
+      "measures": {
+        "entry_to_c_suite": {"value": "women’s representation drops from 46.0 percent at entry level to 23.0 percent at the C-suite", "unit": "reported representation shares", "value_type": "reported_pipeline"},
+        "pipeline_loss": {"value": 23, "unit": "percentage-point decline in women’s representation from entry level to C-suite", "value_type": "derived_gap"},
+        "long_run_leadership": {"value": "women hold 3 percent more top jobs than ten years ago", "unit": "reported long-run change", "value_type": "reported_change"}
+      },
+      "method": "WEF analysis of leadership-pipeline data and corporate representation across 57 economies.",
+      "uncertainty": "The pipeline comparison is not a causal decomposition of promotion, retention, occupation, sector, or selection processes; firms and economies differ in coverage and role definitions.",
+      "subgroup": "Women and men at entry, management, senior leadership, and C-suite levels across sectors and economies.",
+      "counterinterpretation": "Pipeline data can identify where representation drops but does not determine whether the appropriate response is recruitment, retention, care support, promotion reform, pay transparency, or broader structural change.",
+      "source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/trends-and-pathways-shaping-the-future-of-parity/",
+      "retrieval_hash": "sha256:d327bc256bf8696a4466f972126ac769a82a9a80f2db88dd49e3592118b8745f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology, AI roles, and financial-market representation",
+      "denominator": {"value": 1, "unit": "WEF future-of-parity analytical framework", "value_type": "technology_capital_frame"},
+      "measures": {
+        "frontier_scope": {"value": "the report tracks women’s participation in AI-related roles and representation in financial markets", "unit": "reported analytical scope", "value_type": "reported_scope"},
+        "role_distribution": {"value": "women’s participation in the AI economy is growing but concentrated in less technical segments and lower-paid roles", "unit": "reported pattern", "value_type": "reported_mechanism"},
+        "transition_context": {"value": "geoeconomic change, AI, climate, energy, and technological transformation are reshaping jobs, mobility, health, and political pathways", "unit": "reported transition frame", "value_type": "reported_context"}
+      },
+      "method": "WEF synthesis of gender-parity benchmarks with labor-market, corporate, AI, capital-market, and policy-framework analysis.",
+      "uncertainty": "Emerging AI-role and financial-market indicators may have uneven coverage and evolving occupational definitions; representation does not establish equal pay, influence, or access to capital.",
+      "subgroup": "Women and men in AI-related work, technical and nontechnical roles, financial markets, leadership, and sectors undergoing digital transition.",
+      "counterinterpretation": "Growing participation can create new routes to mobility and influence if training, hiring, capital, and governance systems broaden access beyond lower-paid or less technical segments.",
+      "source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/",
+      "retrieval_hash": "sha256:d327bc256bf8696a4466f972126ac769a82a9a80f2db88dd49e3592118b8745f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/infographics-global-gender-gap-report-2026/", "claim": "WEF 2026 infographics summarize global parity, regional timing, AI-economy participation, and economic-rights trends."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/02/24/women-s-economic-opportunity-laws-only-half-enforced-globally", "claim": "World Bank Women, Business and the Law 2026 provides complementary legal-framework, supportive-policy, and enforcement context."}
+  ],
+  "boundary": "This record adds a cross-country gender-parity route linking labor-market and political representation, leadership pipelines, AI roles, financial markets, and future-of-work transitions. It is not respondent-level analysis, a firm-level promotion panel, a causal gender-pay study, or evidence that representation alone produces equal power or welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official WEF 2026 report preface, benchmarking chapter, leadership pathway chapter, and publication materials were reviewed; index scores, leadership pipeline, AI-role, financial-market, and transition claims were cross-checked.",
+    "source_url_sha256": "sha256:d327bc256bf8696a4466f972126ac769a82a9a80f2db88dd49e3592118b8745f",
+    "checked": "2026-09-26"
+  }
+}

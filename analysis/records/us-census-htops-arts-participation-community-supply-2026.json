@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-arts-participation-community-supply-2026",
+  "title": "Arts participation is a minority routine with a larger perceived local-supply base, creating a cultural access and conversion gap",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey, July 2026 topical tables",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15-August 3, 2026; arts and entertainment participation in the prior four weeks",
+      "denominator": {
+        "value": 261534494,
+        "unit": "estimated U.S. civilian population age 18 and older in HTOPS Table 1; published table uses weighted population counts",
+        "value_type": "weighted_population_estimate"
+      },
+      "measures": {
+        "live_music_dance_theater": {"value": 20.5, "unit": "percent attending a live music, dance, or theater performance in the last four weeks", "value_type": "calculated_share_from_published_counts"},
+        "art_exhibit": {"value": 9.5, "unit": "percent attending an art exhibit in the last four weeks", "value_type": "calculated_share_from_published_counts"},
+        "movie": {"value": 22.6, "unit": "percent going to the movies in the last four weeks", "value_type": "calculated_share_from_published_counts"},
+        "personal_art_creation": {"value": 17.9, "unit": "percent creating, practicing, or performing personal art in the last four weeks", "value_type": "calculated_share_from_published_counts"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 arts Tables 1 and 2. Percentages are calculated from the published weighted counts for the total population row; the source tables define the recall windows and include a did-not-report category.",
+      "uncertainty": "HTOPS is an experimental data product. Weighted population counts and derived shares are not attendance frequency, spending, access quality, artistic intensity, or causal effects. The four-week window and nonresponse category limit comparisons with annual participation surveys.",
+      "subgroup": "U.S. adults age 18 and older; the tables provide age, sex, race and ethnicity, education, income, disability, and other select-characteristic rows.",
+      "counterinterpretation": "A low recent attendance share does not mean cultural disengagement: people may create art, participate outside the four-week window, use digital or informal cultural routes, or face supply, cost, time, transportation, or preference constraints.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1.xlsx",
+      "retrieval_hash": "sha256:e7b5045984df39bb470a1909db670f76bd02a84ba8c19029bf0866fa07e75a33",
+      "status": "reported"
+    },
+    {
+      "period": "July 15-August 3, 2026; perceived neighborhood or community arts supply",
+      "denominator": {
+        "value": 261534494,
+        "unit": "estimated U.S. civilian population age 18 and older in HTOPS Table 3; published table uses weighted population counts",
+        "value_type": "weighted_population_estimate"
+      },
+      "measures": {
+        "plenty_of_local_opportunities": {"value": 63.1, "unit": "percent agreeing or strongly agreeing that there are plenty of opportunities to take part in arts and cultural activities in their neighborhood or community", "value_type": "calculated_share_from_published_counts"},
+        "strongly_agree_local_opportunities": {"value": 17.8, "unit": "percent strongly agreeing that there are plenty of local arts and cultural opportunities", "value_type": "calculated_share_from_published_counts"},
+        "disagree_or_strongly_disagree_local_opportunities": {"value": 25.4, "unit": "percent disagreeing or strongly disagreeing that there are plenty of local arts and cultural opportunities", "value_type": "calculated_share_from_published_counts"}
+      },
+      "method": "Descriptive extraction from Census HTOPS July 2026 arts Table 3; agreement and disagreement shares are calculated from the published weighted counts and retain did-not-report responses outside the displayed combined categories.",
+      "uncertainty": "Perceived local supply is not an inventory of venues, affordability, accessibility, transportation, or program quality. The difference between perceived supply and recent participation is a descriptive gap, not evidence that supply causes attendance.",
+      "subgroup": "U.S. adults age 18 and older; published rows include select demographic and socioeconomic characteristics.",
+      "counterinterpretation": "People can perceive adequate cultural supply while not attending because of price, time, caregiving, health, transportation, preferences, or the four-week recall window; conversely, attendance can occur despite a weak local supply perception through travel or digital routes.",
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts3.xlsx",
+      "retrieval_hash": "sha256:eb66b4442d432f1c2d0433301147b14b582a863ada14a3f37932164ea81d8eb2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.census.gov/data/tables/2026/demo/hhp/2607.html"
+  ],
+  "boundary": "This record adds a current cultural-participation and perceived-local-supply layer. It does not measure cultural spending, venue capacity, artistic quality, durable engagement, identity, wellbeing, or causal access barriers, and the calculated shares should not be treated as respondent-level longitudinal outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census HTOPS July 2026 publication page and arts XLS tables retrieved; total-row counts, recall windows, weighted-population framing, agreement categories, and experimental-data warning cross-checked against the publication.",
+    "html_sha256": "sha256:37e897df20007f746518db2be1a5fd1fe9c0d7d323eec7c60b173ca1a2bdf4b1",
+    "table_hashes": {
+      "arts1": "sha256:e7b5045984df39bb470a1909db670f76bd02a84ba8c19029bf0866fa07e75a33",
+      "arts2": "sha256:9749dc922f17a5c2e8ca1e7a847bdf76390022b34dd57fd84b642199c4261cc4",
+      "arts3": "sha256:eb66b4442d432f1c2d0433301147b14b582a863ada14a3f37932164ea81d8eb2"
+    },
+    "checked": "2026-09-26"
+  }
+}

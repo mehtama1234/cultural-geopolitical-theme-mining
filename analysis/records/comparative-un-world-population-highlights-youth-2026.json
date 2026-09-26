@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-world-population-highlights-youth-2026",
+  "title": "Youth opportunity and demographic leverage are diverging between growing lower-income regions and ageing richer regions",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "political_judgment_action",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN DESA Population Division, World Population Highlights 2026: Youth",
+  "geography": "Global, regional, and country-group youth population estimates and projections, with youth well-being indicators through 2050",
+  "observations": [
+    {
+      "period": "2025-2050; global youth population distribution by country income group",
+      "denominator": {
+        "value": 1,
+        "unit": "global population aged 15-24 and UN country-income-group projection frame",
+        "value_type": "global_demographic_projection_frame"
+      },
+      "measures": {
+        "global_youth_2025": {"value": 1300000000, "unit": "young people aged 15-24 globally in 2025, approximately", "value_type": "reported_global_estimate"},
+        "llmic_youth_change": {"value": 16, "unit": "percent projected change in youth population in low- and lower-middle-income countries between 2025 and 2050", "value_type": "reported_projection"},
+        "humic_youth_change": {"value": -24, "unit": "percent projected change in youth population in high- and upper-middle-income countries between 2025 and 2050", "value_type": "reported_projection"},
+        "llmic_share_2050": {"value": 69, "unit": "percent of the world's youth projected to live in low- and lower-middle-income countries in 2050", "value_type": "reported_projection"},
+        "llmic_share_2025": {"value": 59, "unit": "percent of the world's youth living in low- and lower-middle-income countries in 2025", "value_type": "reported_estimate"}
+      },
+      "method": "UN DESA population estimates and projections for persons aged 15-24, grouped by World Bank income classification and interpreted alongside youth well-being priorities.",
+      "uncertainty": "Youth projections depend on fertility, mortality, migration, classification changes, and data quality. Income-group averages conceal large country, gender, urban-rural, and within-country differences.",
+      "subgroup": "Young people aged 15-24 in low- and lower-middle-income countries, high- and upper-middle-income countries, and regions with different demographic trajectories.",
+      "counterinterpretation": "A growing youth population is not automatically a demographic dividend: without education, health, decent work, rights, and voice, population growth can intensify exclusion and fiscal pressure.",
+      "source_url": "https://www.un.org/development/desa/pd/content/world-population-highlights-2026-youth-1",
+      "retrieval_hash": "sha256:93a306ce130c163122c475790475d005b9f3ec7bc3574e5ce0b27d47c59c9068",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2050; age structure and intergenerational capacity in higher-income countries",
+      "denominator": {
+        "value": 1,
+        "unit": "high- and upper-middle-income country-group age-structure projection frame",
+        "value_type": "income_group_demographic_projection_frame"
+      },
+      "measures": {
+        "older_to_youth_2025": {"value": 1, "unit": "approximately one person aged 65 or older for each person aged 15-24 in high- and upper-middle-income countries today", "value_type": "reported_estimate"},
+        "older_to_youth_2050": {"value": 3, "unit": "approximately older persons aged 65 or older for each person aged 15-24 projected by 2050 in high- and upper-middle-income countries", "value_type": "reported_projection"}
+      },
+      "method": "UN DESA comparison of youth and older-person population projections by country-income group.",
+      "uncertainty": "Age-band ratios do not measure dependency, health, productivity, care need, or political influence; migration and policy can materially alter country trajectories.",
+      "subgroup": "Young people, older people, working-age populations, caregivers, education and labour institutions, and public systems in ageing higher-income settings.",
+      "counterinterpretation": "A lower youth share can coexist with strong youth participation and better outcomes; the projection indicates a need for intergenerational solidarity and sustained youth voice, not inevitable generational conflict.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2026_world_population_highlights-youth_2026_key_messages.pdf",
+      "retrieval_hash": "sha256:93a306ce130c163122c475790475d005b9f3ec7bc3574e5ce0b27d47c59c9068",
+      "status": "estimated"
+    },
+    {
+      "period": "2026-2050; youth transition and public-investment requirements",
+      "denominator": {
+        "value": 1,
+        "unit": "global youth policy and well-being evidence frame",
+        "value_type": "global_policy_evidence_frame"
+      },
+      "measures": {
+        "priority_domains": {"value": "education, decent work, health and well-being, sexual and reproductive health, safe migration pathways, rights, and meaningful participation", "unit": "priority policy domains identified by the publication", "value_type": "reported_policy_framework"},
+        "population_foresight": {"value": "required", "unit": "policy approach linking demographic change to youth investment and participation", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "UN DESA synthesis of demographic projections and comparative evidence on youth livelihoods, health, rights, migration, and participation.",
+      "uncertainty": "The publication identifies policy priorities and mechanisms; it does not estimate a single causal effect of any investment or establish outcomes for every country.",
+      "subgroup": "Youth-serving public systems, schools, health services, labour markets, migration institutions, civil society, and young people facing unequal access to opportunity.",
+      "counterinterpretation": "Policy investment should be rights-based and responsive to youth agency; treating young people only as labour supply or demographic instruments can reproduce exclusion.",
+      "source_url": "https://www.un.org/development/desa/pd/node/4478",
+      "retrieval_hash": "sha256:93a306ce130c163122c475790475d005b9f3ec7bc3574e5ce0b27d47c59c9068",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/development/desa/pd/content/world-population-highlights-2026-youth-key-messages", "claim": "UN DESA ten key messages for the youth publication."},
+    {"source_url": "https://desapublications.un.org/publications/world-population-highlights-2026-youth-revised-june-2026", "claim": "UN DESA publication record and revised June 2026 report metadata."}
+  ],
+  "boundary": "This record adds a youth-demography-to-investment, livelihoods, migration, health, rights, and intergenerational-voice route. It is not respondent-level data, does not measure individual youth attitudes or behavior, and does not establish that demographic structure alone causes economic or political outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA report landing page, ten-key-messages PDF, launch page, and publication record were retrieved; youth population distribution, income-group divergence, age-structure ratio, and policy-priority claims were cross-checked against those materials.",
+    "source_url_sha256": "sha256:93a306ce130c163122c475790475d005b9f3ec7bc3574e5ce0b27d47c59c9068",
+    "checked": "2026-09-26"
+  }
+}

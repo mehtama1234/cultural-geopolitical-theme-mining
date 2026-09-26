@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_hhs_oig_medicare_advantage_access_record",
+  "purpose": "Bounded HHS OIG route from post-acute skilled-nursing need through Medicare Advantage prior-authorization denial, appeal, reversal, and open lived recovery.",
+  "events": [
+    {
+      "event_id": "HHS-OIG-MA-SNF-PRIOR-AUTH-2026",
+      "unit": "case",
+      "geography": "United States; 19 Medicare Advantage organizations reviewed for skilled-nursing-facility admission requests",
+      "actor_initiating_change": "insurer",
+      "event_date": "2026-06-08",
+      "date_precision": "HHS OIG report issued June 8, 2026; requests reviewed were from June 2024",
+      "denominator": "Skilled-nursing-facility admission requests handled by 19 Medicare Advantage organizations; denial, appeal, and overturn denominators are request-level and not a beneficiary population prevalence estimate",
+      "method": "HHS OIG analysis of prior-authorization requests, denials, appeals, and contractor/plan variation; the retained public record is an administrative review rather than a beneficiary-level panel",
+      "missingness": "Individual beneficiary identity, diagnosis, request and decision dates, appeal effort, waiting days, substitute care, admission, out-of-pocket cost, functional recovery, caregiver burden, trust, and plan switching are not linked in the retained record",
+      "condition_or_decision": "health_event",
+      "exposure": "Post-acute skilled-nursing admission requests after illness, injury, or surgery entered Medicare Advantage prior authorization; 12% of requests were denied across the reviewed organizations",
+      "alternatives_before_action": "Appeal by the enrollee or provider, additional documentation, alternate facility, home care, family care, or delayed/non-use may be routes, but the same-request record does not identify which were feasible or used",
+      "immediate_burden_or_benefit": "A denial can delay post-hospital rehabilitation and shift documentation, timing, and advocacy work to the enrollee, family, or provider; an authorization reversal can restore formal access without showing when care began",
+      "choice_or_response": "Enrollees or providers appealed 18% of denials; Medicare Advantage organizations overturned 95% of appealed denials in favor of the enrollee, and 97% of naviHealth-issued denials were overturned",
+      "person_or_actor_with_control": "Medicare Advantage organizations and their contractors control initial review and reversal; providers and enrollees can initiate appeals, but the record does not show their information, time, health, or bargaining capacity",
+      "remedy_or_institutional_response": "Appeal reversal and HHS OIG recommendations for request-level data, review of denial variation, and correction of initial-review breakdowns are visible; implementation and beneficiary-level correction are not",
+      "immediate_outcome": "The public route establishes a denial-to-appeal-to-reversal pattern while leaving the time and practical meaning of restored care unresolved",
+      "protected_outcome": "Timely post-acute rehabilitation, functional recovery, caregiver relief, and reduced household burden could be protected by an appropriate authorization, but none is verified",
+      "sacrificed_outcome": "Waiting time, health, function, caregiver capacity, work, money, or trust may be sacrificed when access is denied or delayed; the public review does not measure the individual trade-off",
+      "cost_risk_transfer": "The route can transfer administrative and care risk between the plan, contractor, provider, patient, family, and post-acute facility, but the public record does not quantify that transfer",
+      "later_outcome": "No same-beneficiary admission date, interim-care route, functional outcome, later utilization, household recovery, plan retention, or exit is observed",
+      "meaning_and_attribution": "A denial or reversal may be interpreted as insurer error, contractor failure, bureaucratic friction, or successful advocacy; beneficiary blame, fairness, trust, and attribution are not measured",
+      "public_or_collective_response": "HHS OIG oversight and recommendations are observed; enrollee complaints, collective action, policy response, and later plan choice are not linked",
+      "counterexample": "Not every denial is inappropriate, not every unappealed denial was medically necessary, and appeal rates may reflect provider practice, case complexity, knowledge, health, time, or capacity rather than the underlying need rate",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official HHS OIG administrative review; the 19-organization sample and request-level denominators do not establish a population-wide denial rate, causal health harm, or beneficiary recovery",
+      "source_url": "https://www.oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-overturned-nearly-all-appealed-prior-authorization-denials-for-skilled-nursing-facility-admission-raising-concerns-about-initial-denials/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "HHS-OIG-MA-SNF-A-01",
+      "from": "post-acute skilled-nursing need",
+      "to": "Medicare Advantage prior-authorization denial",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "HHS OIG reports that 12% of SNF admission requests were denied across 19 Medicare Advantage organizations in the June 2024 review",
+      "status": "reported",
+      "counterexample": "The review does not establish that every denied request was medically necessary or that the sample is representative of all Medicare Advantage requests",
+      "remaining_gap": "Beneficiary-level request, diagnosis, decision timing, medical necessity, and interim-care record"
+    },
+    {
+      "arrow_id": "HHS-OIG-MA-SNF-A-02",
+      "from": "prior-authorization denial",
+      "to": "appeal effort",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Enrollees or providers appealed 18% of SNF denials in the reviewed route",
+      "status": "reported",
+      "counterexample": "Appeal behavior is shaped by provider practice, case complexity, knowledge, health, time, and resources; non-appeal is not proof of acceptance or satisfaction",
+      "remaining_gap": "Same-request notice, knowledge, documentation, effort, cost, reason for non-appeal, and accessible alternative"
+    },
+    {
+      "arrow_id": "HHS-OIG-MA-SNF-A-03",
+      "from": "appealed SNF denial",
+      "to": "formal authorization reversal",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Medicare Advantage organizations overturned 95% of appealed SNF denials; naviHealth-issued denials were overturned 97% of the time",
+      "status": "reported",
+      "counterexample": "A reversal is a plan decision, not proof of admission, timely treatment, completed rehabilitation, or functional recovery",
+      "remaining_gap": "Decision-to-admission lag, care received, patient cost, provider capacity, and health outcome"
+    },
+    {
+      "arrow_id": "HHS-OIG-MA-SNF-A-04",
+      "from": "authorization reversal",
+      "to": "timely care, functional recovery, and household security",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public review reports reversals but does not link requests to admission dates, interim care, function, caregiver burden, cost, or later health",
+      "status": "open",
+      "counterexample": "A beneficiary may receive timely alternative care, remain medically limited despite authorization, or face facility capacity constraints",
+      "remaining_gap": "Same-beneficiary admission, waiting, substitute care, out-of-pocket cost, functional and work outcomes, and household recovery"
+    },
+    {
+      "arrow_id": "HHS-OIG-MA-SNF-A-05",
+      "from": "denial, appeal, or reversal experience",
+      "to": "trust, complaint, plan switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "HHS OIG recommends oversight correction, but no beneficiary-level trust, complaint, plan choice, or later care-seeking outcome is retained",
+      "status": "open",
+      "counterexample": "A successful appeal may increase confidence in contestability, while continued enrollment may reflect dependence rather than trust",
+      "remaining_gap": "Direct beneficiary interpretation, complaint, later plan choice, repeat authorization, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a current administrative denial-to-appeal-to-reversal route. It does not establish inappropriate denial prevalence, causal health harm, timely admission, functional recovery, household recovery, trust, or plan exit.",
+  "storage_boundary": "Only the official HHS OIG aggregate administrative review and its interpretation limits are retained; beneficiary-level claims, medical records, and plan files are not stored."
+}

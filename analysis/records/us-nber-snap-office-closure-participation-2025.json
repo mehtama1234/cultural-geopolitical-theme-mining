@@ -1,0 +1,42 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-snap-office-closure-participation-2025",
+  "title": "The physical location of SNAP enrollment offices changes participation in nearby places",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "NBER Working Paper 34529, The Intersection of Place and Need: How Lack of Enrollment Offices Deters Participation in the Safety Net",
+  "geography": "United States; administrative SNAP participation and geocoded enrollment offices in one state, with census-tract event-study comparisons",
+  "observations": [
+    {
+      "period": "Office openings and closures; study's administrative event-study period",
+      "denominator": {"value": 1, "unit": "single-state SNAP administrative dataset linked to geocoded enrollment-office locations; effects estimated at census-tract level", "value_type": "study_defined_scope"},
+      "measures": {
+        "office_closure_effect": {"value": "7%–9% decrease", "unit": "SNAP participation in a census tract over two years following an enrollment-office closure", "value_type": "reported_event_study_estimate"},
+        "office_opening_effect": {"value": "suggestive increase", "unit": "SNAP participation following office openings", "value_type": "reported_direction"},
+        "urban_concentration": {"value": "effects concentrated in urban areas", "unit": "reported heterogeneity", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "Authors link administrative SNAP receipt data to geocoded enrollment-office locations and use event-study designs around frequent office openings and closings, with robustness checks for alternative specifications and endogeneity in office placement.",
+      "uncertainty": "The study covers one state and measures area-level participation, not every eligible household's application attempt, benefit adequacy, food security, travel time, or later household outcome. The estimate is tied to the study's design, period, and administrative records.",
+      "subgroup": "Census tracts near opening or closing offices, with effects reported as concentrated in urban areas; individual household mechanisms are not fully observed in the summary.",
+      "counterinterpretation": "Office closure may coincide with broader administrative or neighborhood changes, although the authors report robustness checks addressing endogeneity; remote, mobile, telephone, or alternative enrollment routes may offset some effects.",
+      "source_url": "https://www.nber.org/papers/w34529",
+      "retrieval_hash": "sha256:98321d839c3c70a11f8691489643f29979265f96cf9b714b4e0dc1c192d801bd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34529", "claim": "NBER paper reports the administrative data, geocoded office linkage, event-study design, 7–9% closure estimate, suggestive opening effect, and urban concentration.", "status": "primary-research-summary"}
+  ],
+  "boundary": "This record establishes a causal place-to-program-participation link in one state's SNAP system. It does not establish a national effect, household food security, benefit adequacy, application effort, remote-access substitution, or later political or health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 34529 PDF retrieved and hashed; individual administrative records and restricted geocoded office data not retained",
+    "pdf_sha256": "sha256:98321d839c3c70a11f8691489643f29979265f96cf9b714b4e0dc1c192d801bd",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hunan-changsha-ai-center-hygon-dcu-model-deployment-2026",
+  "title": "Hunan's AI supply inventory described a 200P Changsha AI center with a Hygon DCU module supporting named large-model applications",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "2026 Hunan provincial artificial-intelligence supply-capability inventory",
+  "geography": "Hunan, China; Changsha AI Innovation Center; Hygon DCU; Huawei Ascend; domestic AI-model applications",
+  "observations": [
+    {
+      "period": "2026 provincial AI-supply inventory; entry for Changsha AI Innovation Center",
+      "denominator": {
+        "value": 200,
+        "unit": "reported P-scale compute capacity for the Changsha AI Innovation Center; Hygon-specific capacity not disclosed",
+        "value_type": "reported_capacity"
+      },
+      "measures": {
+        "center_architecture": {"value": "two-module 200P center: one module based on Huawei Ascend Atlas 900 with Kunpeng CPU and Ascend NPU; the other based on Hygon DCU high-performance deep-computing processors", "unit": "reported mixed-architecture system design", "value_type": "reported_system_architecture"},
+        "hygon_dcu_role": {"value": "Hygon DCU forms the underlying architecture of the center's second module", "unit": "reported infrastructure role", "value_type": "reported_component_role"},
+        "named_model_applications": {"value": "center reported as supporting deployment of the Juzhou visual foundation model, a Hunan Agricultural University agriculture Q&A model, and a tourism large model", "unit": "named application cases", "value_type": "reported_model_deployment"},
+        "ecosystem_role": {"value": "center described as deeply enabling the local AI ecosystem", "unit": "reported public-sector/industrial role", "value_type": "reported_ecosystem_role"},
+        "hygon_workload_share": {"value": "not disclosed", "unit": "no workload, utilization, model-run, performance, or customer metric separately attributed to Hygon DCU", "value_type": "unmeasured"},
+        "commercial_effect": {"value": "not established", "unit": "no procurement value, revenue, customer switching, or replacement estimate", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official Hunan provincial AI-supply inventory. The record keeps center-level capacity and model applications separate from Hygon-specific attribution: Hygon is identified as the architecture of one module in a mixed Ascend/Hygon center, while the listed applications are attributed to the center rather than to Hygon alone.",
+      "uncertainty": "The inventory does not identify the model workloads' hardware allocation, operating duration, throughput, cost, customer contracts, or whether all named applications were production deployments rather than supported projects. The 200P figure is center-level, not Hygon-DCU capacity.",
+      "subgroup": "Changsha AI Innovation Center, Hunan provincial AI ecosystem, Hygon, Huawei Ascend, Hunan Agricultural University, local model developers, and industrial/public-sector users",
+      "counterinterpretation": "Mixed-architecture deployment may show complementarity and public-system diversification rather than Hygon substitution. Named application support can indicate ecosystem integration without proving reliable production use, performance parity, or commercial scale.",
+      "source_url": "http://gxt.hunan.gov.cn/gxt/xhtml/pdfjs/web/images/pdf_rgzn02.pdf",
+      "retrieval_hash": "sha256:bb6e1c08e5dc5d4c8d17317343d1991d69cd9b65a508ce578f027ae24e0bd513",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/jxyw/202607/t20260701_34018025.html",
+      "claim": "Hunan's provincial compute-scheduling platform reported Hygon DCU compatibility and first-batch resource access by named regional compute centers.",
+      "status": "official-public-system-comparator"
+    },
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF",
+      "claim": "Hygon's interim report describes DCU deployment across key industries and hundreds of application scenarios.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a named mixed-architecture public AI-center deployment with a Hygon DCU module and center-level model applications. It does not establish Hygon-specific workload share, production utilization, performance, procurement, substitution, or causal geopolitical effect."
+}

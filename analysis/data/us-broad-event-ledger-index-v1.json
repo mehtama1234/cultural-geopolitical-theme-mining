@@ -1,8 +1,13 @@
 {
   "schema": "us-broad-event-ledger-index-v1",
-  "checked": "2026-09-18",
+  "checked": "2026-09-19",
   "purpose": "Explicit inventory of committed real artifacts that use the us-broad-event-ledger-schema-v1 contract; similarly named API rechecks and audit summaries are not included unless they declare that schema.",
   "entries": [
+    {
+      "path": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json",
+      "domain": "disaster_public_system_delivery",
+      "role": "continued FEMA housing support, residual-need recontact, and CalAssist mortgage/insurance bridge"
+    },
     {
       "path": "analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json",
       "domain": "platform_worker_recourse",
@@ -17,6 +22,11 @@
       "path": "analysis/projects/ai-work-control/data/uber-rehman-end-to-end-event-ledger-v1.json",
       "domain": "platform_worker_recourse",
       "role": "adjudicated access restoration and ordered lost remuneration"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/uber-waheed-interim-payment-obligation-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "adjudicated unfair deactivation, appeal stay, and conditional interim-payment obligation"
     },
     {
       "path": "analysis/projects/ai-work-control/data/uber-mansoor-alternative-earnings-lost-pay-event-ledger-v1.json",
@@ -39,6 +49,11 @@
       "role": "adjudicated alternative employment, explicit non-return reasoning, assessed loss, and compensation order"
     },
     {
+      "path": "analysis/projects/ai-work-control/data/fwc-alam-shah-injury-dismissal-reinstatement-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "Fair Work injury, return-to-work, language/cultural access, dismissal, reinstatement, continuity, lost-pay order, and open compliance route"
+    },
+    {
       "path": "analysis/projects/ai-work-control/data/fwc-alternative-work-client-redirection-remedy-event-ledger-v1.json",
       "domain": "employment_remedy",
       "role": "adjudicated alternative earnings, client-redirection action, relationship breakdown, and staged compensation order"
@@ -54,6 +69,46 @@
       "role": "official follow-up reporting compensation payment, failed reinstatement, and court enforcement"
     },
     {
+      "path": "analysis/projects/ai-work-control/data/fwc-indian-food-catering-partial-compensation-enforcement-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "official follow-up reporting partial compensation payment, residual balance, and court enforcement"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwo-atkins-truck-driver-backpay-receipt-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "official follow-up reporting appeal dismissal, release of funds held in trust, and worker-level back-pay receipt"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwo-innovative-associates-cashback-backpay-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "official follow-up reporting migrant-worker cashback exploitation, court penalties, and full reported back-pay with durable recovery open"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwo-southern-cross-care-nsw-underpayment-reachability-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "worker-triggered aged-care underpayment correction, reported back-pay, payroll repair, and locate-to-receipt boundary"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/dol-workers-owed-wages-reachability-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "U.S. wage-recovery route from agency custody through worker location, claim, payment, and Treasury disposition"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/osha-texas-asbestos-whistleblower-remedy-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "post-disaster safety voice, retaliation, OSHA investigation, reinstatement order, compensation order, and open durable-safety route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-aitken-return-backpay-later-dismissal-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "adjudicated return, back pay, service recognition, later safety conflict, and dismissal follow-up"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-cartisano-backpay-no-return-risk-assessment-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "adjudicated back-pay payment, continuity, no actual return, and practical-reinstatement boundary"
+    },
+    {
       "path": "analysis/projects/ai-work-control/data/fwc-adcon-alternative-employment-liquidation-event-ledger-v1.json",
       "domain": "employment_remedy",
       "role": "adjudicated employer shutdown, lower-paid alternative employment, household stress, liquidation, and compensation order"
@@ -67,6 +122,11 @@
       "path": "analysis/projects/us-safety-net-access/data/sipp-snap-transition-material-security-event-ledger-v1.json",
       "domain": "public_assistance",
       "role": "same-person SNAP transition, recorded reason, and next-month material-security boundary"
+    },
+    {
+      "path": "analysis/projects/us-safety-net-access/data/sipp-snap-childcare-work-constraint-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "same-person SNAP stable-state comparison with child-care payment, assistance, work-prevention, and open later-security route"
     },
     {
       "path": "analysis/projects/us-safety-net-access/data/wbns-snap-recertification-interruption-event-ledger-v1.json",
@@ -159,6 +219,11 @@
       "role": "same-respondent financial-condition paths through consumer-adaptation persistence and health/care context"
     },
     {
+      "path": "analysis/projects/us-household-financial-pressure/data/fed-shed-income-timing-price-adaptation-event-ledger-v1.json",
+      "domain": "household_financial_adaptation",
+      "role": "Federal Reserve SHED income timing, outside help, budget margin, price adaptation, and open later financial-room route"
+    },
+    {
       "path": "analysis/projects/us-financial-intermediation/data/shed-fraud-recovery-switching-event-ledger-v1.json",
       "domain": "consumer_financial_recourse",
       "role": "2025 SHED fraud loss, provider contact, incomplete recovery, and reported switching"
@@ -181,12 +246,27 @@
     {
       "path": "analysis/projects/ai-work-control/virginia-large-load-governance-event-ledger-v1.json",
       "domain": "infrastructure_state_power",
-      "role": "utility load-drop events through Virginia large-load governance and projected residential allocation"
+      "role": "utility load-drop events through Virginia large-load governance, route choice, and related project energization realization"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/poland-f35-husarz-arrival-acceptance-event-ledger-v1.json",
+      "domain": "infrastructure_state_power",
+      "role": "official arrival and formal acceptance comparator for Polish F-35 capability realization"
+    },
+    {
+      "path": "analysis/projects/us-local-business-place/data/hrsa-hpwo-north-lima-usable-care-access-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "Ohio primary-care shortage to named site, nominal hours, and phone/portal access boundary"
     },
     {
       "path": "analysis/projects/us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json",
       "domain": "disaster_public_system_delivery",
       "role": "GAO-reported FEMA assistance scale, reachability, notice interpretation, housing bottlenecks, and delivery redesign"
+    },
+    {
+      "path": "analysis/projects/us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json",
+      "domain": "disaster_public_system_delivery",
+      "role": "OpenFEMA Los Angeles wildfire registration, referral, eligibility, and aggregate assistance-stage visibility with open survivor recovery route"
     },
     {
       "path": "analysis/projects/us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json",
@@ -212,6 +292,206 @@
       "path": "analysis/projects/ai-work-control/data/navitas-globalfoundries-us-gan-first-shipment-schedule-event-ledger-v1.json",
       "domain": "infrastructure_technology_dependency",
       "role": "scheduled US-manufactured Gen 5 GaN wafers and customer samples, with delivery and upstream material provenance open"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/virginia-scc-insurance-settlement-remedy-event-ledger-v1.json",
+      "domain": "consumer_insurance_recourse",
+      "role": "Virginia insurance settlements linking pricing, notice, network, and claims errors to reported restitution and corrective plans"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/cces-insurance-political-followup-event-ledger-v1.json",
+      "domain": "civic_political_action",
+      "role": "CCES same-panel insurance-status follow-up through Congress approval, contact, and local political action"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/pew-neighbor-mutual-aid-event-ledger-v1.json",
+      "domain": "cultural_social_capacity",
+      "role": "Pew local familiarity, trust, mutual-aid willingness, reciprocity expectations, and open delivered-support route"
+    },
+    {
+      "path": "analysis/projects/us-digital-habits-attention/data/pew-smartphone-self-regulation-wellbeing-event-ledger-v1.json",
+      "domain": "cultural_social_capacity",
+      "role": "Pew smartphone utility/excess, attempted cutback, self-rated success, and open durable use/wellbeing route"
+    },
+    {
+      "path": "analysis/projects/us-digital-habits-attention/data/ai-companion-farewell-exit-event-ledger-v1.json",
+      "domain": "cultural_social_capacity",
+      "role": "AI-companion farewell response, short-run engagement, attempted exit, and open dependence/remedy route"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/anes-worry-trust-vote-event-ledger-v1.json",
+      "domain": "civic_political_action",
+      "role": "ANES panel financial-worry timing through federal-government trust and reported vote"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/nber-firm-ai-expectations-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "NBER firm AI adoption through retrospective impact and forward productivity/output/employment expectations"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/federal-reserve-worker-ai-control-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "Federal Reserve worker AI use, education and task-control stratification, perceived benefit, and open worker-outcome route"
+    },
+    {
+      "path": "analysis/projects/us-safety-net-access/data/gao-working-adults-medicaid-snap-employer-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "GAO work/public-benefit coexistence and selected-state employer concentration"
+    },
+    {
+      "path": "analysis/projects/us-safety-net-access/data/gao-disability-workforce-access-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "GAO disability workforce-program access, service-use, implementation, and post-exit employment/earnings comparison"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/gao-disability-healthcare-access-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "GAO disability health-care accessibility barriers, HHS measurement, oversight, and open completed-care route"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/census-childcare-work-adaptation-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "Census household child-care adequacy, payment, work-time loss, adaptation menu, and open later stability route"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/nber-caregiving-labor-supply-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "linked family-caregiving onset, gender-differentiated employment and earnings trajectories, and open household recovery/meaning route"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-caregiver-support-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "randomized consumer-directed Medicaid support, caregiver wellbeing/financial-strain follow-up, and open recipient/household recovery route"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-beneficiary-outcome-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "randomized consumer-directed Medicaid support, beneficiary service satisfaction/unmet-need/health boundary, and open durable recovery route"
+    },
+    {
+      "path": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-worker-experience-event-ledger-v1.json",
+      "domain": "health_cost_material_time",
+      "role": "consumer-directed paid-worker compensation, training, unpaid carryover, satisfaction, and open retention/continuity route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/world-bank-ai-capability-dependence-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "World Bank AI adopt/adapt/advance complements, value-chain concentration, dependence, and open state-response route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/gao-critical-minerals-substitution-dependence-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "GAO/USGS critical-minerals import reliance, application-specific substitution and recycling limits, domestic recovery response, and open leverage route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/gao-chips-rd-capacity-governance-event-ledger-v1.json",
+      "domain": "infrastructure_technology_dependency",
+      "role": "GAO CHIPS awards, disbursement, milestones, workforce, R&D governance, qualified-output boundary, and open dependence/leverage route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-grubhub-multisided-remedy-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC/Illinois Grubhub multi-sided platform exposure, aggregate redress, prospective controls, and open lived-recovery route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-cash-app-fraud-redress-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "CFPB Cash App fraud-dispute enforcement, operational correction, ordered consumer redress, and open receipt/recovery/exit route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-wells-fargo-redress-reachability-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "consent-order redress design, returned/uncashed-payment follow-up, and account-correction boundary"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-doxo-bill-payment-route-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC Doxo bill-payment search/channel confusion, alleged fees and timing risk, proposed disclosure controls, and open household outcome route"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/pew-midterm-economy-attribution-event-ledger-v1.json",
+      "domain": "civic_political_action",
+      "role": "Pew economic/affordability salience through party and leader attribution, representation, and open action/policy route"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/gallup-moral-values-government-role-event-ledger-v1.json",
+      "domain": "civic_political_action",
+      "role": "Gallup perceived moral decline through government influence, public-role legitimacy, issue judgment, and open action route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/ftc-acro-second-refund-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "FTC ACRO repeat refund conditioned on prior payment acceptance, with second-payment receipt and debt-correction route open"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-aitken-casual-dismissal-procedural-fairness-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "regular casual work, disputed service-performance conflict, neurodivergence-sensitive procedural fairness, unfair-dismissal finding, and open remedy/later-work route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-khan-platform-reactivation-repeat-deactivation-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "repeated Uber Eats deactivation, earlier reactivation, procedural fairness finding, reactivation/lost-pay order, and open durable platform-work route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-mansoor-platform-lost-earnings-order-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "long-term Uber work, complaint-triggered deactivation, substitute earnings, quantified $6,073.23 lost-earnings order, and open receipt/durability route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwc-kaur-pregnancy-dismissal-reinstatement-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "pregnancy-linked loss of regular work, bounded alternative employment, worker response, quantified reinstatement/lost-pay order, and open implementation/durability route"
+    },
+    {
+      "path": "analysis/projects/us-cost-trust-politics/data/htops-material-pressure-confidence-event-ledger-v1.json",
+      "domain": "civic_political_action",
+      "role": "linked April expense difficulty to June household burden and confidence in Congress while preserving attribution, adaptation, remedy, trust change, and action gaps"
+    },
+    {
+      "path": "analysis/projects/us-health-cost-household-choice/data/medicare-advantage-snf-prior-authorization-event-ledger-v1.json",
+      "domain": "health_cost_recourse",
+      "role": "HHS OIG Medicare Advantage skilled-nursing denial, appeal, reversal, and open timely-care/recovery route"
+    },
+    {
+      "path": "analysis/projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json",
+      "domain": "public_assistance",
+      "role": "GAO SNAP EBT theft, aggregate replacement, security controls, and open food-security/trust route"
+    },
+    {
+      "path": "analysis/projects/us-housing-insurance-risk/data/california-la-wildfire-claims-repairability-event-ledger-v1.json",
+      "domain": "consumer_insurance_recourse",
+      "role": "California wildfire claims, sampled enforcement, smoke-restoration standards, and open repair/safe-return route"
+    },
+    {
+      "path": "analysis/projects/us-customer-automation-recourse/data/cfpb-bilt-bank-partner-transition-event-ledger-v1.json",
+      "domain": "consumer_financial_recourse",
+      "role": "Bilt bank-partner transition, customer fees, proactive reimbursement, technical repair, and open receipt/trust route"
+    },
+  {
+    "path": "analysis/projects/ai-work-control/data/dol-paid-employer-proof-event-ledger-v1.json",
+    "domain": "employment_remedy",
+    "role": "DOL PAID employer self-audit, 15-day payment rule, proof-of-payment checkpoint, practice correction, and open worker recovery route"
+  },
+  {
+    "path": "analysis/projects/us-customer-automation-recourse/data/nyc-dcwp-restitution-reachability-event-ledger-v1.json",
+    "domain": "consumer_worker_remedy",
+    "role": "NYC DCWP named-worker restitution schedules, payment-update route, and proposed unclaimed-restitution fund"
+  },
+    {
+      "path": "analysis/projects/ai-work-control/data/poland-airspace-violation-alliance-response-event-ledger-v1.json",
+      "domain": "infrastructure_state_power",
+      "role": "Poland airspace violation, national interception, Article 4 consultation, allied response, Eastern Sentry, diplomacy, and open deterrence/legitimacy route"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json",
+      "domain": "employment_remedy",
+      "role": "two separate underpaid sales-worker episodes with resignation, alternative-employment search, complaint, enforcement, and reported full back-pay"
+    },
+    {
+      "path": "analysis/projects/ai-work-control/data/malaysia-grabcar-tribunal-remedy-stage-event-ledger-v1.json",
+      "domain": "platform_worker_recourse",
+      "role": "Malaysia Act 872 enforcement, Tribunal establishment, reported GrabCar hearing, evidence-stage continuation, and open correction/payment/durability route"
     }
   ]
 }

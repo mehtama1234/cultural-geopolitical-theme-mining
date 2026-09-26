@@ -1,0 +1,146 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-america250-social-ritual-meaning-2026",
+  "title": "National anniversary participation is organized more through family, community, learning, and stories than official ceremony alone",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "With Honor and Gallup survey of US adults about planned recognition of the nation's 250th anniversary",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 12-22, 2026; planned 250th-anniversary participation",
+      "denominator": {
+        "value": 1,
+        "unit": "US adults surveyed; article reports published shares without exposing the full unweighted denominator",
+        "value_type": "published_survey_universe"
+      },
+      "measures": {
+        "any_planned_celebration": {
+          "value": 66,
+          "unit": "percent of US adults planning to celebrate the nation's 250th anniversary in some way",
+          "value_type": "reported_share"
+        },
+        "family_friends": {
+          "value": 66,
+          "unit": "percent among adults planning to celebrate, intending to spend time with family or friends",
+          "value_type": "reported_share"
+        },
+        "community_event": {
+          "value": 32,
+          "unit": "percent among adults planning to celebrate, intending to participate in a neighborhood or community event",
+          "value_type": "reported_share"
+        },
+        "official_program": {
+          "value": 17,
+          "unit": "percent among adults planning to celebrate, intending to attend an official America250 program",
+          "value_type": "reported_share"
+        },
+        "media_following": {
+          "value": 44,
+          "unit": "percent among adults planning to celebrate, intending to follow anniversary coverage on television or social media",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "With Honor/Gallup descriptive survey of planned anniversary recognition; activities are separate, nonexclusive intentions rather than observed participation.",
+      "uncertainty": "Plans do not establish attendance, conversation, learning, service, political action, or durable national identity; activity denominators are article-specific.",
+      "subgroup": "US adults, with age and party comparisons reported separately.",
+      "counterinterpretation": "Family or community celebration can be social ritual without political agreement, and official-program nonattendance does not imply civic withdrawal.",
+      "source_url": "https://news.gallup.com/poll/711530/beyond-fireworks-americans-mark-250th-anniversary.aspx",
+      "retrieval_hash": "sha256:ceb3a3db253b3ba482d0227de65e9b8436b620112029a473264ce40830f35d88",
+      "status": "reported"
+    },
+    {
+      "period": "May 12-22, 2026; educational and civic forms of recognition",
+      "denominator": {
+        "value": 51,
+        "unit": "percent of US adults planning to recognize the anniversary through civic or educational activities; article-reported subgroup",
+        "value_type": "published_subgroup_universe"
+      },
+      "measures": {
+        "history_learning": {
+          "value": 55,
+          "unit": "percent among adults in the civic/educational recognition subgroup",
+          "value_type": "reported_share"
+        },
+        "personal_stories": {
+          "value": 45,
+          "unit": "percent among adults in the civic/educational recognition subgroup, intending to listen to personal stories or perspectives",
+          "value_type": "reported_share"
+        },
+        "domestic_travel": {
+          "value": 37,
+          "unit": "percent among adults in the civic/educational recognition subgroup",
+          "value_type": "reported_share"
+        },
+        "service_or_charity": {
+          "value": 34,
+          "unit": "percent among adults in the civic/educational recognition subgroup",
+          "value_type": "reported_share"
+        },
+        "culture_or_arts": {
+          "value": 31,
+          "unit": "percent among adults in the civic/educational recognition subgroup",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Descriptive activity comparison among respondents who said they planned a civic or educational form of recognition; activities are nonexclusive intentions.",
+      "uncertainty": "The measure captures intended meaning-making routes but not whether people completed them, learned something, changed views, or formed new relationships.",
+      "subgroup": "US adults reporting planned civic or educational anniversary recognition.",
+      "counterinterpretation": "History learning and personal-story listening can reinforce existing identities as well as create common ground; planned service may be symbolic or practical.",
+      "source_url": "https://news.gallup.com/poll/711530/beyond-fireworks-americans-mark-250th-anniversary.aspx",
+      "retrieval_hash": "sha256:ceb3a3db253b3ba482d0227de65e9b8436b620112029a473264ce40830f35d88",
+      "status": "reported"
+    },
+    {
+      "period": "May 12-22, 2026; sources of national pride and future optimism",
+      "denominator": {
+        "value": 1,
+        "unit": "US adults surveyed; source reports multiple-choice sources of pride and optimism",
+        "value_type": "published_survey_universe"
+      },
+      "measures": {
+        "pride_freedoms": {
+          "value": 35,
+          "unit": "percent selecting Americans' freedoms as a top source of pride",
+          "value_type": "reported_share"
+        },
+        "pride_diversity": {
+          "value": 28,
+          "unit": "percent selecting the country's diversity as a top source of pride",
+          "value_type": "reported_share"
+        },
+        "pride_hard_work_opportunity": {
+          "value": 24,
+          "unit": "percent selecting opportunities to work hard and improve circumstances as a top source of pride",
+          "value_type": "reported_share"
+        },
+        "any_future_optimism": {
+          "value": 88,
+          "unit": "percent identifying at least one reason for optimism about the nation's future",
+          "value_type": "reported_share"
+        },
+        "optimism_stand_up": {
+          "value": 26,
+          "unit": "percent selecting people's willingness to stand up for what they believe is right as a top reason for optimism",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Descriptive multiple-choice survey measures with age and party comparisons; pride and optimism are meaning judgments, not institutional performance indicators.",
+      "uncertainty": "The survey does not establish what respondents do because of these meanings, whether views persist, or whether they imply agreement about history, policy, or national institutions.",
+      "subgroup": "US adults overall, with age and party comparisons.",
+      "counterinterpretation": "Shared pride categories can conceal disagreement about what freedoms, diversity, opportunity, or standing up mean in practice.",
+      "source_url": "https://news.gallup.com/poll/711530/beyond-fireworks-americans-mark-250th-anniversary.aspx",
+      "retrieval_hash": "sha256:ceb3a3db253b3ba482d0227de65e9b8436b620112029a473264ce40830f35d88",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes planned national-anniversary participation, social and educational ritual routes, and sources of pride and optimism. It does not establish actual attendance, cross-party agreement, historical learning, civic capacity, policy support, institutional trust, or durable political action.",
+  "retrieval_hash": "sha256:ceb3a3db253b3ba482d0227de65e9b8436b620112029a473264ce40830f35d88"
+}

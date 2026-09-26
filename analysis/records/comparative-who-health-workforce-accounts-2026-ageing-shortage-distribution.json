@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-health-workforce-accounts-2026-ageing-shortage-distribution",
+  "title": "Health-workforce growth is masking severe geographic and generational gaps that can constrain care access as populations and workers age",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "work_control_bargaining", "housing_place_mobility", "geopolitical_state_consequences"],
+  "source_unit": "World Health Organization, National health workforce accounts: health workforce levels and trends 2026",
+  "geography": "Global and regional health and care workforce, with comparisons across WHO regions, income groups, occupations, population age, and health-worker age",
+  "observations": [
+    {
+      "period": "2006-2025; global health-workforce growth and availability",
+      "denominator": {"value": 1, "unit": "global health and care workforce comparison frame based on WHO National Health Workforce Accounts", "value_type": "global_workforce_frame"},
+      "measures": {
+        "global_density_change": {"value": 52, "unit": "percent increase in combined density of medical doctors, nursing and midwifery personnel, dentists, and pharmacists from 2006 to 2025", "value_type": "reported_workforce_change"},
+        "global_density_2025": {"value": 67.9, "unit": "health workers per 10,000 population in 2025", "value_type": "reported_workforce_density"},
+        "global_workers": {"value": 70000000, "unit": "health and care workers worldwide, more than", "value_type": "reported_workforce_count"},
+        "data_reporting": {"value": 90, "unit": "percent of WHO Member States actively reporting health-workforce data in 2025, more than", "value_type": "reported_reporting_share"}
+      },
+      "method": "WHO analysis of official country data reported through National Health Workforce Accounts, using standardized workforce categories and density measures.",
+      "uncertainty": "Global density and workforce totals can conceal occupational, geographic, public/private, active/licensed, and data-coverage differences; they do not measure care quality, affordability, workload, or patient access directly.",
+      "subgroup": "Health and care workers, patients, caregivers, health systems, rural and urban communities, low- and high-income countries, and workforce-planning institutions.",
+      "counterinterpretation": "Workforce growth and better reporting can improve resilience, and task-sharing, retention, digital tools, and community-based care may increase effective capacity beyond headcount alone.",
+      "source_url": "https://www.who.int/publications/i/item/9789240122925",
+      "retrieval_hash": "sha256:64a0242c7c8b05a6f3bd00ea6118ebc049185ce178c479ad1b711826798d8326",
+      "status": "reported"
+    },
+    {
+      "period": "2025; regional and income-linked health-workforce distribution",
+      "denominator": {"value": 1, "unit": "WHO regional health-workforce density comparison frame", "value_type": "regional_workforce_comparison_frame"},
+      "measures": {
+        "doctor_density_regional_ratio": {"value": 13, "unit": "ratio of medical-doctor density in the WHO European Region to the WHO African Region", "value_type": "reported_regional_ratio"},
+        "nurse_midwife_density_regional_ratio": {"value": 6, "unit": "ratio of nursing and midwifery personnel density in the WHO European Region to the WHO African Region", "value_type": "reported_regional_ratio"},
+        "distribution_pattern": {"value": "health-worker density remains strongly correlated with national income", "unit": "reported distributional relationship", "value_type": "reported_association"},
+        "access_mechanism": {"value": "workforce shortages and unequal distribution continue to limit access to essential health services", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WHO regional comparison of health-worker density, occupation, income group, and workforce availability using NHWA data.",
+      "uncertainty": "Regional density ratios do not establish a causal effect on service access or account for scope of practice, migration, workloads, infrastructure, rurality, or within-country variation.",
+      "subgroup": "African and European region health systems, low-income and high-income countries, rural and underserved communities, migrant workers, and patients needing essential services.",
+      "counterinterpretation": "Higher density does not guarantee equitable distribution or quality, while lower-density systems may offset constraints through community health workers, task-sharing, prevention, or different service models.",
+      "source_url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+      "retrieval_hash": "sha256:64a0242c7c8b05a6f3bd00ea6118ebc049185ce178c479ad1b711826798d8326",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2030; health-worker aging and projected shortage",
+      "denominator": {"value": 1, "unit": "WHO health-workforce aging and future-needs scenario frame", "value_type": "health_workforce_forecast_frame"},
+      "measures": {
+        "global_shortage_2030": {"value": 11100000, "unit": "health workers projected shortage globally by 2030 in the report's workforce-aging analysis", "value_type": "forecast_workforce_gap"},
+        "doctors_over_55": {"value": 25, "unit": "percent of doctors older than 55 on average across latest data from 122 countries, nearly", "value_type": "reported_workforce_age_share"},
+        "high_income_doctors_over_55": {"value": 33, "unit": "percent of doctors older than 55 in high-income countries, nearly", "value_type": "reported_workforce_age_share"},
+        "countries_with_gap": {"value": 67, "unit": "countries projected not to have enough health workers to maintain population health needs by 2030", "value_type": "forecast_country_count"},
+        "double_pressure": {"value": "health-worker aging increases exits while population aging increases service demand", "unit": "reported demographic mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "WHO thematic analysis of population aging, health-worker age structure, workforce production, retirement, and projected service needs.",
+      "uncertainty": "The shortage and gap estimates depend on population needs, retirement, migration, training, retention, productivity, task-sharing, and health-system assumptions; they are not realized vacancies or patient-level outcomes.",
+      "subgroup": "Older health workers, trainees, health systems, older populations, patients with rising care needs, and countries planning education, employment, migration, and retention.",
+      "counterinterpretation": "Later retirement, improved working conditions, flexible roles, education expansion, and technology could reduce gaps; retaining older workers without reducing workload or improving conditions may not be sustainable.",
+      "source_url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap",
+      "retrieval_hash": "sha256:64a0242c7c8b05a6f3bd00ea6118ebc049185ce178c479ad1b711826798d8326",
+      "status": "estimated"
+    },
+    {
+      "period": "2017-2025; health-workforce information systems and planning capacity",
+      "denominator": {"value": 1, "unit": "WHO National Health Workforce Accounts implementation and reporting frame", "value_type": "health_workforce_data_system_frame"},
+      "measures": {
+        "data_availability_growth": {"value": 20, "unit": "fold increase in health-workforce data availability since NHWA launched in 2017, nearly", "value_type": "reported_data_system_change"},
+        "standardized_accounting": {"value": "national accounts, standardized indicators, and country reporting used to monitor workforce levels, distribution, composition, and trends", "unit": "reported governance mechanism", "value_type": "reported_policy_mechanism_set"},
+        "planning_endpoint": {"value": "health-workforce planning, education, employment, retention, migration, and investment", "unit": "reported policy endpoint", "value_type": "reported_policy_endpoint"},
+        "data_boundary": {"value": "better data strengthens planning but does not itself add workers, redistribute them, or improve care access", "unit": "reported evidence boundary", "value_type": "reported_boundary"}
+      },
+      "method": "WHO assessment of National Health Workforce Accounts implementation, reporting coverage, data availability, and policy use.",
+      "uncertainty": "Reporting improvements can reflect better systems rather than workforce change; data completeness, timeliness, occupation definitions, and active-workforce measurement vary across countries.",
+      "subgroup": "Health ministries, workforce planners, training institutions, professional bodies, employers, data systems, workers, patients, and underserved communities.",
+      "counterinterpretation": "Standardized data can reveal gaps and support targeted investment, but national systems may still lack local granularity, private-sector coverage, or the authority and funding needed to act on evidence.",
+      "source_url": "https://www.who.int/publications/i/item/9789240122925",
+      "retrieval_hash": "sha256:64a0242c7c8b05a6f3bd00ea6118ebc049185ce178c479ad1b711826798d8326",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap", "claim": "WHO summary with global density, regional disparity, aging, shortage, and data-reporting findings."},
+    {"source_url": "https://apps.who.int/nhwaportal/", "claim": "WHO National Health Workforce Accounts data portal for workforce monitoring and country reporting context."}
+  ],
+  "boundary": "This record adds a health-workforce-to-care-access route linking workforce growth, geographic inequality, worker aging, population aging, shortages, migration and retention planning, and data-system capacity. It is not respondent-level patient or worker data, a realized vacancy count, a local service-quality estimate, or proof that better reporting produced better care.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WHO National Health Workforce Accounts 2026 publication page and WHO 18 September 2026 summary were reviewed; workforce growth, density, regional ratios, aging, projected shortage, country gap, reporting, and planning boundaries were cross-checked.",
+    "source_url_sha256": "sha256:64a0242c7c8b05a6f3bd00ea6118ebc049185ce178c479ad1b711826798d8326",
+    "checked": "2026-09-26"
+  }
+}

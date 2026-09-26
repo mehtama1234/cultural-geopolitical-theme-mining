@@ -1,6 +1,6 @@
 # Remedy durability is a separate stage from remedy issuance
 
-**Checked:** 2026-09-18  
+**Checked:** 2026-09-19
 **Status:** bounded cross-domain synthesis; no pooled recovery rate claimed  
 **Scope:** US consumer, worker, and product-safety records with a visible
 institutional response and at least one implementation or follow-up signal
@@ -42,6 +42,7 @@ ends earlier than lived recovery.
 | Apple PERM recruitment remedy | DOJ reports required electronic/external recruitment controls, individualized lost-income review, and an exhausted $18.25M back-pay fund | Applicant-level receipt, restored consideration or hiring, monitoring findings, recurrence, household recovery, trust, and exit |
 | Meadley employment enforcement case | Official FWC follow-up reports compensation payment and further court-ordered money after failed reinstatement | Worker-confirmed receipt, restored job, later employment, household recovery, recurrence, trust, and exit |
 | CFPB named redress and reissue routes | BrightSpeed, Navient, and ADSS expose aggregate distribution or check stages; an Ombudsman record exposes recipient-side reissue facilitation | Recipient receipt, account/loan correction, residual loss, durable financial recovery, trust, switching, and exit |
+| CFPB Cash App enforcement | The CFPB documents fraud/dispute-process failures, required operational changes, and at least $75 million and up to $120 million in consumer redress | User-level eligibility, payment, account correction, residual loss, repeat effort, trust, switching, and exit |
 | FTC refund-program administration benchmark | The FTC's 2019 report distinguishes average check-cashing rates by route: 64% for known-customer mailings, 93% for claims-process cases, and 89% when Consumer Sentinel supplied the recipient list; it also records identifiers, cashing checks, returned-check address searches, and reissue steps | These are route-specific program aggregates from July 2018 through December 2019, not a common current remedy rate or proof of adequate recovery, restored security, trust, or exit |
 | IER employment remedies | Agency summaries report individual paid remedies or offers plus employer training/policy changes | Independent receipt, accepted reinstatement, later employment, recurrence, household recovery, trust, and action |
 | Platform access cases | Some cases show review, reactivation, substitute earnings, or ordered lost remuneration | Payment, actual account status, recurrence protection, freely chosen alternatives, worker recovery, and exit |
@@ -49,6 +50,26 @@ ends earlier than lived recovery.
 These are deliberately not pooled. A dollar issued, a check accepted, a
 repair count, a payment offer, an access order, and a reported correction are
 different units and clocks.
+
+## Three payment endpoints that must not be collapsed
+
+The strongest consumer-finance records show a useful ladder:
+
+| Endpoint | What it proves | What it still does not prove |
+|---|---|---|
+| Prior check cashing | In the Yellowstone route, 3,759 businesses receiving a third distribution had cashed an earlier check | That the third payment arrived, that the account harm was corrected, or that the business recovered or switched financing |
+| Aggregate funds cashed | CFPB distributions report 69%, 86%, and 88% of distributed funds cashed across three completed matters | Which people received money, whether amounts were adequate, or whether debt/account/service conditions changed |
+| Reported check delivery with unchanged obligation | The Navient route reports checks to affected consumers while explicitly leaving the underlying student-loan obligation unchanged | Individual receipt, affordability, correction, residual loss, trust, refinancing, or exit |
+| Agency-reported formal completion | CFPB later terminated the Wells Fargo order after stating that the respondent fulfilled obligations, including remediation and correction of inaccurate furnishing | Which borrowers were reached, what each received, whether accounts were corrected in practice, adequacy, durable security, trust, or exit |
+
+This ladder matters because “receipt” is not a single binary endpoint. Prior
+cashing is recipient-adjacent but tied to an earlier payment; aggregate cashing
+is stronger than an offer but loses the person-level denominator; and delivery
+can coexist with an unchanged underlying obligation. The cultural and
+consumer-power question is therefore not merely whether money moved. It is
+whether the payment arrived in time, repaired the original relationship or
+account, reduced the remaining burden, and changed the recipient's practical
+options.
 
 ## What this adds to the atlas
 
@@ -71,6 +92,12 @@ different units and clocks.
    cashing rates and different administrative burdens. A receipt benchmark must
    therefore retain the eligibility route, denominator, cashing/reissue rule,
    and vintage instead of becoming one generic remedy-success rate.
+6. **Formal enforcement is still an earlier stage than distribution.** The
+   Cash App case shows that a regulator can identify a firm-level process
+   failure and order a large redress pool without the public record exposing
+   which users became eligible, were paid, had their accounts corrected, or
+   recovered. Enforcement strengthens institutional accountability, but it is
+   not itself recipient recovery.
 
 ## Evidence boundary
 
@@ -111,6 +138,7 @@ durability gaps—not convert institutional completion into lived recovery.
 - [Apple PERM implementation ledger](../ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 - [Meadley payment/enforcement ledger](../ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json)
 - [CFPB named redress ledger](data/cfpb-named-redress-route-event-ledger-v1.json)
+- [CFPB Cash App fraud-redress ledger](data/cfpb-cash-app-fraud-redress-event-ledger-v1.json)
 - [CFPB Ombudsman reissue ledger](data/cfpb-ombudsman-redress-reissue-event-ledger-v1.json)
 - [FTC 2019 refund administration report](https://www.ftc.gov/sites/default/files/documents/reports/2019_final_report_on_ftc_refunds_to_consumers.pdf)
 - [IER individual-remedy record](../../records/us-doj-ier-individual-remedy-followups-2026.json)

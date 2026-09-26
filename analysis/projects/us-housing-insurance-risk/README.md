@@ -81,6 +81,20 @@ payment pressure, market nonrenewal, modeled hazard, and FAIR Plan growth are
 distinct stages, and a larger public pool does not by itself establish usable
 coverage or the ability to remain housed.
 
+The [wildfire claims and repairability finding](findings/us-housing-insurance-risk-005.md)
+adds a current implementation route: California reports claims and partial
+payments, sampled insurer violations, and new smoke-restoration standards, but
+not property-level repair, safe return, renewal, or move/stay outcomes. The
+companion [event ledger](data/california-la-wildfire-claims-repairability-event-ledger-v1.json)
+places this route in the canonical broad portfolio.
+
+The [voucher lease-up and search-time finding](findings/us-housing-insurance-risk-006.md)
+adds a different housing interface: a voucher can be issued while the private
+market still determines whether a household can find and lease a usable unit.
+HUD's 2018-2022 administrative estimates show lower success after 2020 and
+longer searches, with substantial place variation; affordability, quality,
+continuity, and durable mobility remain unobserved.
+
 ## First working idea
 
 Insurance may be turning housing from a long-term asset into a conditionally usable asset: a home can still exist, but the cost or absence of coverage can change whether a family can borrow, sell, repair, or remain. This is a working idea, not a conclusion.

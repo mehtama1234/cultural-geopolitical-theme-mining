@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cornell-ai-constituent-email-legislative-response-2020",
+  "title": "State legislative offices responded to machine-generated policy emails at nearly the same rate as human-written emails",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Kreps and Kriner randomized field experiment on state legislative offices",
+  "geography": "United States state legislators; legislators in more than 40 states received experimental emails",
+  "observations": [
+    {
+      "period": "2020 fieldwork; article published 2023",
+      "denominator": {
+        "value": 32398,
+        "unit": "emails sent to state legislators; approximately five per legislator, randomized across human/GPT-3 text, six issues, and ideological direction",
+        "value_type": "field_experiment_email_observations"
+      },
+      "measures": {
+        "human_response_rate": {"value": 17.3, "unit": "percent of human-written policy emails receiving a legislative response", "value_type": "reported_experimental_rate"},
+        "ai_response_rate": {"value": 15.4, "unit": "percent of GPT-3-generated policy emails receiving a legislative response", "value_type": "reported_experimental_rate"},
+        "response_gap": {"value": -1.9, "unit": "percentage points, AI-generated minus human-written; statistically significant but substantively modest", "value_type": "reported_experimental_difference"},
+        "response_length": {"value": "median 322 words for human-written replies versus 272 words for machine-generated replies; interquartile ranges were nearly identical", "unit": "words in legislative reply", "value_type": "reported_comparison"},
+        "issue_variation": {"value": "response rates were nearly identical on gun control and health policy; machine-generated messages had a nonsignificantly higher rate on education and lower rates on policing, reproductive rights, and taxes", "unit": "issue-specific comparison", "value_type": "reported_heterogeneity"}
+      },
+      "method": "The researchers randomly alternated human-written and GPT-3-generated advocacy emails across six policy issues and conservative/liberal positions, then coded whether offices responded and the length of replies. The messages used aliases and the study was an audit of office responsiveness rather than a survey of constituents.",
+      "uncertainty": "This is a deceptive audit experiment involving state legislators, not Members of Congress; response is an intermediate proxy for attention or priority, not substantive policy action, issue resolution, or constituent benefit. The experiment occurred during the 2020 pandemic/election environment, and the paper cautions that federal-legislator generalization is uncertain.",
+      "subgroup": "State legislative offices across issue and ideological conditions; the article reports different AI-human gaps by issue and party, but does not make those exploratory interactions a population estimate.",
+      "counterinterpretation": "A reply can be automated, generic, or strategically noncommittal; similar response rates do not mean equal authenticity detection, equal influence, or equal representation. Lower response to AI text may reflect detectable inconsistencies, while higher-volume synthetic correspondence could still distort the apparent distribution of public opinion.",
+      "source_url": "https://bpb-us-e1.wpmucdn.com/blogs.cornell.edu/dist/c/8659/files/2023/03/KK_NMS_2023.pdf",
+      "retrieval_hash": "sha256:54d3912f3664e679591aa505f0f33b37467489f22298c434254c0c07ab1bf8ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4358982",
+      "claim": "The research record identifies the field experiment and reports the small aggregate response-rate difference.",
+      "status": "working-paper-record"
+    }
+  ],
+  "boundary": "This record closes a randomized message-to-office-response layer for state legislative policy correspondence. It does not establish ordinary constituent access, response quality, policy change, issue resolution, trust recovery, or national congressional responsiveness.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Cornell-hosted article PDF downloaded and hashed; SSRN record and article text cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

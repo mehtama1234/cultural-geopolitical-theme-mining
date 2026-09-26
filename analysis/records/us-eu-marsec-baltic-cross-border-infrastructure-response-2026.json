@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eu-marsec-baltic-cross-border-infrastructure-response-2026",
+  "title": "Cross-border maritime actors can rehearse an infrastructure response before real-incident performance is known",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "European External Action Service official account of MARSEC EU 26, a Finnish-hosted maritime security exercise involving EU member-state authorities, EU agencies, coast guards, commercial actors, and emergency services",
+  "geography": "Baltic Sea and North Sea operational scenario; Finland-hosted exercise with Finnish, Polish, French, EU-agency, and commercial participation",
+  "observations": [
+    {
+      "period": "September 15–17, 2026; MARSEC EU 26",
+      "denominator": {"value": 3, "unit": "exercise components: tabletop exercise, LIVEX 1, and LIVEX 2", "value_type": "official_exercise_structure"},
+      "measures": {
+        "scenario": {"value": "suspicious vessel conducting abnormal activity near undersea cables and possible infrastructure damage", "unit": "exercise scenario", "value_type": "reported_scenario"},
+        "information_phase": {"value": "command centers exchanged vessel information and developed a shared maritime picture", "unit": "LIVEX 1 activity", "value_type": "reported_exercise_action"},
+        "operational_phase": {"value": "boarding, search, securing, first aid, evacuation, firefighting, hazardous-space operations, and vessel control were practiced", "unit": "LIVEX 2 activity", "value_type": "reported_exercise_action"}
+      },
+      "method": "EEAS official exercise account describing the tabletop and two live operational phases; rehearsal activity is kept separate from a real incident outcome.",
+      "uncertainty": "The exercise does not measure response time or success during an actual cable or pipeline incident, nor does it establish attribution, deterrence, repair, or infrastructure continuity.",
+      "subgroup": "Finnish Border Guard-led exercise participants and cooperating maritime, law-enforcement, defense, emergency, and commercial actors.",
+      "counterinterpretation": "A realistic exercise can identify gaps and improve coordination without proving that the same chain would work under political pressure, weather, legal conflict, or a real attack.",
+      "source_url": "https://www.eeas.europa.eu/eeas/marsec-eu-26-strengthens-baltic-sea-maritime-security-and-critical-infrastructure-protection_en",
+      "retrieval_hash": "sha256:93b49a4f08a6d46ac1d54493b0b2ae2566bf09a43dcfe4fa116adae90d5fc041",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; participating organizations",
+      "denominator": {"value": 1, "unit": "officially described MARSEC EU 26 cooperation network", "value_type": "documented_exercise_network"},
+      "measures": {
+        "national_authorities": {"value": "Finnish Border Guard, Finnish authorities, Polish Border Guard, Finnish Defence Forces, Police, emergency healthcare, and rescue authorities", "unit": "named participant groups", "value_type": "reported_participation"},
+        "eu_agencies": {"value": "Frontex and EMSA", "unit": "named EU agencies", "value_type": "reported_participation"},
+        "commercial_actors": {"value": "Finnlines and Arctia's icebreaker Polaris", "unit": "named commercial participants", "value_type": "reported_participation"},
+        "french_participation": {"value": "French Navy participated in a preparatory phase", "unit": "reported national participation", "value_type": "reported_participation"}
+      },
+      "method": "Official participant and role description in the EEAS exercise account.",
+      "uncertainty": "Participation demonstrates a coordination interface, not equal authority, shared rules, public consent, cost sharing, or a guarantee that commercial actors would cooperate in a real incident.",
+      "subgroup": "Public authorities, EU agencies, military, emergency responders, coast guards, and commercial maritime operators.",
+      "counterinterpretation": "A multi-actor exercise may improve interoperability while also exposing unresolved jurisdiction, ownership, liability, or information-sharing conflicts.",
+      "source_url": "https://www.eeas.europa.eu/eeas/marsec-eu-26-strengthens-baltic-sea-maritime-security-and-critical-infrastructure-protection_en",
+      "retrieval_hash": "sha256:93b49a4f08a6d46ac1d54493b0b2ae2566bf09a43dcfe4fa116adae90d5fc041",
+      "status": "reported"
+    },
+    {
+      "period": "2026 exercise and future real-world operations",
+      "denominator": {"value": null, "unit": "real incident, infrastructure owner, affected community, or later external actor response not included in the exercise account", "value_type": "not_disclosed"},
+      "measures": {
+        "institutional_learning": {"value": "exercise lessons may inform future exercises and real-world operations", "unit": "officially stated prospective function", "value_type": "reported_intention"},
+        "integrated_surveillance": {"value": "the exercise tested the Integrated Surveillance Mechanism as a regional information-sharing hub", "unit": "reported governance mechanism", "value_type": "reported_exercise_action"},
+        "unmeasured_endpoint": {"value": "actual repair, service continuity, attribution, deterrence, local burden, and public legitimacy", "unit": "missing geopolitical and infrastructure outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Bounded interpretation of the official exercise purpose and described mechanisms; no causal or real-incident claim is made.",
+      "uncertainty": "The source does not follow a cable, pipeline, vessel, owner, community, or government through an actual incident and later outcome.",
+      "subgroup": "Critical-underwater-infrastructure stakeholders and cross-border maritime authorities; affected publics are not observed.",
+      "counterinterpretation": "Exercises can be politically meaningful signals of solidarity even without a measured deterrence effect or operational test under real conditions.",
+      "source_url": "https://www.eeas.europa.eu/eeas/marsec-eu-26-strengthens-baltic-sea-maritime-security-and-critical-infrastructure-protection_en",
+      "retrieval_hash": "sha256:93b49a4f08a6d46ac1d54493b0b2ae2566bf09a43dcfe4fa116adae90d5fc041",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank", "claim": "NATO describes Baltic Sentry as a separate enhanced-vigilance response to incidents involving critical undersea infrastructure.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes a cross-border exercise and an observable response chain around suspected undersea-infrastructure damage. It does not establish real-incident success, attribution, repair, continuity, deterrence, jurisdictional agreement, public acceptance, cost sharing, or changed external behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official EEAS exercise page used for the extracted findings; NATO context is linked but not used as the primary extraction source.",
+    "html_sha256": "sha256:93b49a4f08a6d46ac1d54493b0b2ae2566bf09a43dcfe4fa116adae90d5fc041",
+    "checked": "2026-09-22"
+  }
+}

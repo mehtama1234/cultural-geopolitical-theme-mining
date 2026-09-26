@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-remote-work-residential-sorting-2005-2023",
+  "title": "Remote work loosens the job-place tie and changes where households sort",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "work_control_bargaining", "time_hidden_price"],
+  "source_unit": "Census CES Working Paper 26-34, Remote Work and Residential Sorting: IV Evidence From Expiring Office Leases",
+  "geography": "United States; restricted-access ACS respondents, 2005–2023, linked to LODES employment flows and CompStak office leases",
+  "observations": [
+    {
+      "period": "2005–2023; effects concentrated after 2020",
+      "denominator": {"value": null, "unit": "Restricted-access ACS repeated cross-section of individuals; public paper does not disclose the analytical count", "value_type": "not_disclosed"},
+      "measures": {
+        "remote_work_and_migration": {"value": "+11 percentage points", "unit": "estimated increase in one-year migration from remote work", "value_type": "causal_estimate"},
+        "tax_jurisdiction_sorting": {"value": "-2.0 percentage points for states and -4.0 percentage points for cities", "unit": "estimated change in probability of living in an income-taxing jurisdiction, conditional on prior residence", "value_type": "causal_estimate"},
+        "housing_choice": {"value": "+$130 monthly housing expenditure, +5% interior space, 29% less renting, and 27% fewer non-single-family residences relative to means", "unit": "estimated household housing outcomes", "value_type": "causal_estimate"},
+        "public_school_use": {"value": "private-school enrollment fell 11.4 percentage points and public-school enrollment rose 6.5 percentage points among households with school-age children", "unit": "estimated enrollment indicators", "value_type": "causal_estimate"},
+        "migration_share": {"value": "about 10% of migration since 2020", "unit": "paper's estimate of migration accounted for by remote work", "value_type": "reported_estimate"},
+        "neighborhood_turnover": {"value": "higher remote-work exposure raised outward migration by 11.5 points and inward migration by 9.6 points from 2020 to 2023", "unit": "neighborhood event-study estimates", "value_type": "causal_estimate"}
+      },
+      "method": "Instrumental-variables estimates use quasi-random variation in the timing and size of office-lease expirations, linked to prior residence blocks through employment flows. Individual outcomes use restricted ACS data; neighborhood outcomes use tract-level event studies.",
+      "uncertainty": "This is a Census CES working paper and does not represent Census Bureau endorsement. The instrument is built from a CompStak database covering about 20% of US office stock, with stronger coverage in large urban counties. The ACS is a repeated cross-section and does not follow the same household's complete move, welfare, or later outcome. Remote work is measured by reporting working at home as the usual commute mode and does not identify all hybrid arrangements. Some public-school and neighborhood results have weaker pre-trends or rely on interpretation of mechanisms.",
+      "subgroup": "Employed ACS respondents and households, with separate results for households with school-age children, income-taxing versus non-taxing jurisdictions, cities, states, and neighborhoods with differing remote-work exposure; effects are concentrated after 2020.",
+      "counterinterpretation": "Migration can reflect preferences or pandemic-era changes not fully captured by the design, and income-taxing jurisdictions also differ politically and economically. Higher housing spending may buy more space or ownership rather than signal hardship. More public-school enrollment does not establish better school quality, and neighborhood turnover does not establish displacement, improved opportunity, or community loss.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-34.html",
+      "retrieval_hash": "sha256:914194c640ab1f11ac5f7e780cc6b026504ea95ef962b0a10481af615c02b714",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-34.pdf", "claim": "Official paper PDF provides the IV design, linked datasets, estimates, robustness discussion, and source boundaries.", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a place-and-optionality mechanism: when work no longer anchors a household near an office, some households can trade proximity for space, ownership, public schools, and tax treatment. It does not show that remote work improved wellbeing, equalized opportunity, strengthened community, caused displacement, or changed political behavior.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; restricted ACS and proprietary CompStak microdata are not retained.", "pdf_sha256": "sha256:914194c640ab1f11ac5f7e780cc6b026504ea95ef962b0a10481af615c02b714", "checked": "2026-09-23"}
+}

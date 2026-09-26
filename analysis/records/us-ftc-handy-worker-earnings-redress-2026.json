@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-handy-worker-earnings-redress-2026",
+  "title": "Platform worker redress can reach an identified population while earnings recovery and practical choice remain open",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission redress announcement for Handy Technologies, doing business as Angi Services; eligible workers are a program population, not a representative sample",
+  "geography": "United States federal and New York consumer-protection enforcement involving Handy platform workers",
+  "observations": [
+    {
+      "period": "July 2026 FTC redress announcement; underlying conduct and enforcement action began in January 2025",
+      "denominator": {
+        "value": 62893,
+        "unit": "eligible consumers sent checks for qualifying fees and fines charged by Handy",
+        "value_type": "reported_program_count"
+      },
+      "measures": {
+        "aggregate_redress": {
+          "value": 2700000,
+          "unit": "US dollars, more than",
+          "value_type": "reported_payment_distribution_total"
+        },
+        "reported_worker_exposure": {
+          "value": "deceptive earnings claims and undisclosed fees and fines that led to money being withheld from workers' wages",
+          "unit": "FTC-reported alleged conduct",
+          "value_type": "reported_practice"
+        },
+        "payment_route": {
+          "value": "checks sent by a refund administrator; recipients instructed to cash within 90 days",
+          "unit": "reported redress process",
+          "value_type": "reported_receipt_process"
+        },
+        "receipt_status_followup_recheck": {
+          "value": "the checked FTC page still reports checks sent and a 90-day cashing instruction but does not publish an aggregate cashed, accepted, returned, or expired count",
+          "unit": "public follow-up boundary checked 2026-09-21",
+          "value_type": "followup_boundary"
+        },
+        "individual_cashing_and_work_recovery": {
+          "value": "not observed in the public announcement",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC enforcement and refund-administration announcement review; aggregate redress, identified recipient count, alleged worker-facing conduct, and cashing instruction are retained as separate stages from individual receipt, earnings restoration, alternatives, trust, and exit.",
+      "uncertainty": "The public announcement does not disclose individual payment amounts, cashing, net wage restoration, remaining loss, worker exposure history, continued platform use, alternative work, switching, trust, or exit. The recipient count is an eligibility/distribution count, not a prevalence estimate or proof of receipt.",
+      "subgroup": "Handy/Angi platform workers or other consumers eligible for fee-and-fine redress; the announcement does not provide subgroup detail beyond the redress population.",
+      "counterinterpretation": "A large identified payment program may return money to many affected workers and still leave the adequacy, timing, and durable work consequences unknown; some recipients may have already recovered through other work or may not cash the check.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-sends-more-27-million-consumers-harmed-handy-technologies",
+      "retrieval_hash": "sha256:e322f3d09bb9dedfec871a27426e75372646cc3a0bd16f4c66a3be36070b832c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/01/ftc-new-york-attorney-general-take-action-against-handy-technologies-deceiving-workers-about-potential",
+      "claim": "FTC and New York Attorney General enforcement action describes deceptive worker earnings claims and undisclosed fees and fines.",
+      "status": "official-enforcement-context"
+    }
+  ],
+  "boundary": "This record establishes an FTC-reported worker-facing conduct and aggregate redress stage: more than $2.7 million in checks to 62,893 eligible consumers with a 90-day cashing instruction. It does not establish individual receipt, adequacy, restored earnings, durable platform access, alternative work, bargaining power, trust, switching, or exit."
+}

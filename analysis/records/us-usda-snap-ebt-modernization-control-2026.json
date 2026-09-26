@@ -1,0 +1,123 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-usda-snap-ebt-modernization-control-2026",
+  "title": "SNAP EBT security modernization adds protection but leaves recipient usability and recovery open",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "USDA Food and Nutrition Administration public SNAP EBT security, modernization, retailer, and card-replacement materials",
+  "geography": "United States SNAP participants, state agencies, retailers, processors, and USDA/FNA",
+  "observations": [
+    {
+      "period": "2026-02-12; retailer implementation notice",
+      "denominator": {
+        "value": 1,
+        "unit": "national SNAP EBT modernization rollout notice",
+        "value_type": "reported_implementation_stage"
+      },
+      "measures": {
+        "chip_tap_rollout": {
+          "value": "chip and tap cards are coming soon in various states; retailers must update point-of-sale systems and preserve magnetic-stripe fallback",
+          "unit": "reported implementation requirement",
+          "value_type": "reported_control_design"
+        },
+        "tap_acceptance": {
+          "value": "tap acceptance is strongly encouraged but not required at the time of the notice",
+          "unit": "reported retailer requirement",
+          "value_type": "reported_rule"
+        },
+        "recipient_use_constraint": {
+          "value": "chip cards still require PIN entry, and card use depends on compatible retailer systems and fallback behavior",
+          "unit": "reported transaction constraint",
+          "value_type": "reported_usability_condition"
+        }
+      },
+      "method": "Bounded extraction from USDA/FNA retailer implementation material; security design and POS compatibility are kept separate from participant-level theft reduction or successful purchase.",
+      "uncertainty": "The notice does not identify every state rollout date, retailer readiness rate, failed transaction rate, participant burden, or change in theft incidence.",
+      "subgroup": "SNAP participants and authorized retailers using chip, tap, or fallback EBT transactions; no person-level sample is supplied.",
+      "counterinterpretation": "Fallback can preserve access during migration, while optional tap acceptance and PIN requirements can leave accessibility, speed, and security benefits uneven across stores and users.",
+      "source_url": "https://www.fna.usda.gov/snap/ebt/modernization/retailer-notice/chip-tap-cards",
+      "retrieval_hash": "sha256:27e4203fff52d39ff123e9b5eff044302dcca04d55f338487afc6b70c870dde9",
+      "status": "reported"
+    },
+    {
+      "period": "2026-03-11; card-replacement oversight proposal",
+      "denominator": {
+        "value": 1,
+        "unit": "federal information-collection proposal concerning repeated SNAP EBT card replacement",
+        "value_type": "reported_administrative_rule_stage"
+      },
+      "measures": {
+        "replacement_monitoring": {
+          "value": "states must monitor replacement requests and notify a household at its fourth replacement request within 12 months",
+          "unit": "reported administrative requirement",
+          "value_type": "reported_control_rule"
+        },
+        "possible_withholding": {
+          "value": "a state may withhold a replacement card after its threshold, require a household explanation, and refer suspected fraud for investigation",
+          "unit": "reported administrative option",
+          "value_type": "reported_control_option"
+        },
+        "recipient_tradeoff": {
+          "value": "fraud controls can protect the account while adding notice, explanation, contact, delay, or false-positive risk for households needing a replacement",
+          "unit": "bounded mechanism interpretation",
+          "value_type": "bounded_interpretation"
+        }
+      },
+      "method": "Review of USDA/FNA's March 2026 information-collection notice and its stated replacement-card monitoring requirements; proposed reporting changes are not treated as completed recipient outcomes.",
+      "uncertainty": "The notice does not show how many households receive notices, how often cards are withheld, how quickly explanations are resolved, or whether a replacement reaches a household before food access is affected.",
+      "subgroup": "SNAP households requesting repeated EBT card replacement and state SNAP agencies monitoring those requests; no linked case records are supplied.",
+      "counterinterpretation": "A replacement threshold may deter trafficking or misuse, but repeated replacement can also reflect theft, damaged cards, unstable housing, accessibility needs, or other legitimate circumstances.",
+      "source_url": "https://www.fna.usda.gov/snap/fr-031126",
+      "retrieval_hash": "sha256:5dd00af818293d5545df94e682d0addbdeb68987d679102868a6c49733c2a92d",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-08; current public status of EBT security transition",
+      "denominator": {
+        "value": 1,
+        "unit": "USDA/FNA national SNAP EBT modernization status page",
+        "value_type": "reported_program_status"
+      },
+      "measures": {
+        "chip_card_status": {
+          "value": "the addressing-stolen-benefits page says no states currently issue SNAP EBT cards with a chip and that some are in planning, while the modernization materials describe rollout preparation and forthcoming card use",
+          "unit": "public implementation-status comparison",
+          "value_type": "reported_status_with_scope_boundary"
+        },
+        "future_payment_route": {
+          "value": "USDA says it plans to test mobile contactless payments and continues work with states, processors, retailers, and law enforcement",
+          "unit": "reported future implementation route",
+          "value_type": "reported_planned_response"
+        },
+        "verified_food_recovery": {
+          "value": "not observed",
+          "unit": "missing participant theft, replacement, purchase, food-gap, adequacy, trust, or continued-use outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Cross-page comparison of USDA/FNA security and modernization material; apparent status differences are retained as a scope/timing issue rather than resolved into a state adoption count.",
+      "uncertainty": "The public pages do not provide a unified state-by-state issuance date, retailer readiness denominator, transaction-failure series, or participant-level protection result.",
+      "subgroup": "SNAP participants, state agencies, retailers, and processors; no linked household or transaction panel is supplied.",
+      "counterinterpretation": "A security modernization program can improve future protection while leaving households exposed during migration and without proving that any particular stolen benefit was replaced or that food access was restored.",
+      "source_url": "https://www.fna.usda.gov/snap/stolen-benefits",
+      "retrieval_hash": "sha256:79269a01f1706928d52e41b46173f880422dd8eb40ea2b1aad2cabd52e7269f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.fna.usda.gov/snap/ebt/modernization",
+      "claim": "USDA describes chip-card modernization and a state rollout-status map, but the public route does not supply a participant-level outcome.",
+      "status": "official-companion",
+      "retrieval_hash": "sha256:11a91abdb88139a99747c0dfc41baa3dc654d617f0072af6f47b8031b1b819dd"
+    }
+  ],
+  "boundary": "This record adds current EBT security, migration, replacement-monitoring, and recipient-usability stages. It does not establish that chip or tap technology reduced theft, that a named household received a replacement, that a replacement was timely or adequate, or that food security, trust, continued participation, or exit changed.",
+  "retrieval_hash": "sha256:79269a01f1706928d52e41b46173f880422dd8eb40ea2b1aad2cabd52e7269f0"
+}

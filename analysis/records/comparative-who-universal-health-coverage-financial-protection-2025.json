@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-universal-health-coverage-financial-protection-2025",
+  "title": "Health access is improving globally, but essential-service gaps and care costs still convert illness into household insecurity",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "WHO and World Bank, Tracking Universal Health Coverage: 2025 Global Monitoring Report",
+  "geography": "195 countries or territories for service coverage; 168 countries for financial hardship time series",
+  "observations": [
+    {
+      "period": "2000-2023; latest service-coverage estimate reported in the 2025 edition",
+      "denominator": {
+        "value": 195,
+        "unit": "countries or territories represented in the revised service-coverage time series",
+        "value_type": "country_territory_count"
+      },
+      "measures": {
+        "service_coverage_index_2000": {"value": 54, "unit": "global UHC service-coverage index points in 2000", "value_type": "reported_index"},
+        "service_coverage_index_2023": {"value": 71, "unit": "global UHC service-coverage index points in 2023", "value_type": "reported_index"},
+        "people_lacking_essential_service_coverage_2023": {"value": 4600000000, "unit": "people estimated to lack coverage for essential health services in 2023", "value_type": "reported_population_estimate"}
+      },
+      "method": "The report uses the revised SDG 3.8.1 UHC service-coverage index, a composite of 14 tracer indicators spanning reproductive, maternal, newborn and child health; infectious diseases; noncommunicable diseases; and service capacity and access.",
+      "uncertainty": "The index summarizes selected service dimensions and does not equal effective, timely, high-quality care for every person. The global population estimate is derived from the index and should not be read as a count of untreated illness or unmet need for every service.",
+      "subgroup": "People seeking essential health services, health systems, governments, and communities across income levels and regions.",
+      "counterinterpretation": "The index rose substantially since 2000, showing broad system gains; remaining gaps may reflect different service mixes and measurement limits as well as absolute access failures.",
+      "source_url": "https://www.who.int/teams/health-financing-and-economics/global-monitoring-report/2025",
+      "retrieval_hash": "sha256:c0b1492c8843824cd4218f8bc568843c0ae1b750f3774657985cedf551c0b2e5",
+      "status": "reported"
+    },
+    {
+      "period": "2000-2022; latest financial-hardship estimate reported in the 2025 edition",
+      "denominator": {
+        "value": 168,
+        "unit": "countries with primary time-series data represented in the financial-hardship analysis",
+        "value_type": "country_count"
+      },
+      "measures": {
+        "financial_hardship_share_2000": {"value": 34, "unit": "percent of the population experiencing large or impoverishing out-of-pocket health-payment hardship in 2000", "value_type": "reported_population_share"},
+        "financial_hardship_share_2022": {"value": 26, "unit": "percent of the population experiencing large or impoverishing out-of-pocket health-payment hardship in 2022", "value_type": "reported_population_share"},
+        "people_financial_hardship_2022": {"value": 2100000000, "unit": "people estimated to experience financial hardship due to out-of-pocket health spending in 2022", "value_type": "reported_population_estimate"}
+      },
+      "method": "The revised SDG 3.8.2 measure identifies out-of-pocket health spending exceeding 40% of a household's discretionary budget, with hardship including spending that is impoverishing or substantially reduces the ability to consume other goods and services.",
+      "uncertainty": "The estimate is not a measure of medical debt alone and does not identify which care, medicine, insurance, income, or policy pathway produced hardship. Reference years differ between service coverage and financial protection.",
+      "subgroup": "Households paying out of pocket for health care, especially households near poverty or with limited discretionary consumption capacity.",
+      "counterinterpretation": "The global hardship share declined from 2000 to 2022 even while the absolute burden remains very large; broader public financing and targeted protection can improve affordability without eliminating all care-related household tradeoffs.",
+      "source_url": "https://www.who.int/news/item/06-12-2025-most-countries-make-progress-towards-universal-health-coverage-but-major-challenges-remain-who-world-bank-report-finds",
+      "retrieval_hash": "sha256:c0b1492c8843824cd4218f8bc568843c0ae1b750f3774657985cedf551c0b2e5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds global public-system coverage and household financial-protection evidence. It is not respondent-level data, does not estimate individual treatment effects, and does not establish that coverage gaps or out-of-pocket spending caused any specific consumer, health, work, or political outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WHO/World Bank UHC Global Monitoring Report 2025 PDF and official WHO publication/news pages retrieved; service-coverage and financial-hardship values cross-checked against the official release.",
+    "pdf_sha256": "sha256:c0b1492c8843824cd4218f8bc568843c0ae1b750f3774657985cedf551c0b2e5",
+    "checked": "2026-09-26"
+  }
+}

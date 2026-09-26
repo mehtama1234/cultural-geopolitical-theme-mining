@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-parental-homeownership-housing-quality-later-outcomes-2026",
+  "title": "Parental homeownership correlates with adult income and ownership but does not survive causal tests in the linked study",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "household_room_consumption", "trust_identity_meaning", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-54 linking American Housing Survey 1995-2002 to administrative tax data from 2016-2019",
+  "geography": "United States; childhood households, parent-owned versus renter-occupied homes, housing quality, adult earnings, mortgage, and homeownership",
+  "observations": [{
+    "period": "American Housing Survey 1995-2002 linked to adult outcomes in 2016-2019; paper published August 2026",
+    "denominator": {"value": 1, "unit": "linked childhood housing and adult administrative-outcome study", "value_type": "study_unit"},
+    "measures": {
+      "income_association": {"value": "growing up in a parent-owned home was associated with approximately $2,000 higher adult income", "unit": "adult income association", "value_type": "reported_estimate"},
+      "ownership_association": {"value": "growing up in a parent-owned home was associated with a 6 percentage-point higher likelihood of adult ownership", "unit": "adult ownership association", "value_type": "reported_estimate"},
+      "causal_test": {"value": "the study found no evidence of causal effects after accounting for less-correlated unobservables and comparing siblings", "unit": "causal identification result", "value_type": "reported_relationship"},
+      "housing_quality": {"value": "the linkage includes childhood housing quality and controls for correlated socioeconomic and neighborhood characteristics", "unit": "study design", "value_type": "reported_method"},
+      "interpretation": {"value": "family selection and unobserved characteristics can explain positive raw associations even when the homeownership exposure itself has no detected causal effect", "unit": "study interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors link American Housing Survey records to later tax outcomes, control for observed socioeconomic and neighborhood characteristics, test sensitivity to unobservables, and estimate family fixed-effects models comparing siblings.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The causal null is specific to the measured homeownership and housing-quality exposures, outcomes, linkage, and identification tests; it does not show that housing conditions never affect children or that all family investments are irrelevant.",
+    "subgroup": "Children observed in the 1995-2002 American Housing Survey and linked to 2016-2019 administrative outcomes; effects may differ by housing quality, tenure duration, neighborhood, income, race, family structure, moves, and local housing market.",
+    "counterinterpretation": "Positive associations may reflect parental resources, stability, neighborhood, genetics, schooling, networks, or selection into ownership. Sibling comparisons can remove some shared family factors while leaving measurement, nonshared experiences, and selection concerns; later adult ownership is not the same as wellbeing or security.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-54.html",
+    "retrieval_hash": "sha256:8f7e65f960ad6a4ce30b1c8ca27a9efed40c46295c7864eb6df0621dc46e683f",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-54.pdf", "claim": "The official paper provides the AHS-to-tax linkage, homeownership and housing-quality measures, adult outcomes, controls, unobservable sensitivity, and sibling fixed-effects tests.", "status": "official-paper-context"}],
+  "boundary": "This record adds a family-housing-to-adult-outcome association with an explicit causal counterexample. It does not establish that parental ownership causes later income, ownership, health, mobility, identity, or household security.",
+  "retrieval_hash": "sha256:8f7e65f960ad6a4ce30b1c8ca27a9efed40c46295c7864eb6df0621dc46e683f"
+}

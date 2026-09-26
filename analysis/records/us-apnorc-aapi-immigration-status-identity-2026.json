@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-apnorc-aapi-immigration-status-identity-2026",
+  "title": "AAPI adults combine strong pluralist and democratic ideals with immigration-status caution and weakened national welcome",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "AAPI Data/AP-NORC America 250 Poll using the NORC Amplify AAPI Monthly Survey",
+  "geography": "United States; Asian American, Native Hawaiian, and Pacific Islander adults ages 18 and older",
+  "observations": [
+    {
+      "period": "April 20–28, 2026",
+      "denominator": {"value": 1075, "unit": "AAPI U.S. adults interviewed in the probability-based Amplify AAPI panel; multilingual online interviews", "value_type": "survey_respondent_count"},
+      "measures": {
+        "american_dream_important": {"value": 80, "unit": "percent saying the American Dream is extremely or very important to the identity of the United States", "value_type": "published_share"},
+        "democratically_elected_government_important": {"value": 79, "unit": "percent saying a democratically elected government is extremely or very important to U.S. identity", "value_type": "published_share"},
+        "mixing_cultures_values_important": {"value": 73, "unit": "percent saying mixing cultures and values from around the world is extremely or very important to U.S. identity", "value_type": "published_share"},
+        "us_great_place_for_immigrants_now": {"value": 30, "unit": "percent viewing the U.S. as a great place for immigrants now", "value_type": "published_share"},
+        "us_used_to_be_great_for_immigrants": {"value": 64, "unit": "percent saying the U.S. used to be a great place for immigrants but is not anymore", "value_type": "published_share"}
+      },
+      "method": "AAPI Data/AP-NORC probability-panel survey of AAPI adults, with interviews offered in English, Mandarin, Cantonese, Vietnamese, and Korean; the source reports identity, national-evaluation, and behavior measures separately.",
+      "uncertainty": "This is a cross-sectional survey of reported values and national judgments. It does not establish that immigration policy caused the perceived decline in welcome, or that identity values translate into voting, organizing, migration, or institutional trust.",
+      "subgroup": "Asian American, Native Hawaiian, and Pacific Islander adults; the source compares selected responses with the general population and reports subgroup-specific identity priorities.",
+      "counterinterpretation": "A strong commitment to pluralism and democratic government can coexist with a negative assessment of current immigrant welcome. The combination does not imply rejection of the United States or one unified AAPI political position.",
+      "source_url": "https://apnorc.org/projects/most-aapi-adults-agree-that-the-united-states-used-to-be-a-great-place-for-immigrants-but-is-not-anymore/",
+      "retrieval_hash": "sha256:b3938714f1f90cbc03d9b647ba3851949b4cefd2aae136fd29a6cd43546eeace",
+      "status": "reported"
+    },
+    {
+      "period": "April 20–28, 2026; immigration-status-related behavior",
+      "denominator": {"value": 1075, "unit": "AAPI U.S. adults in the AAPI Data/AP-NORC survey; behavior items have source-specific valid bases", "value_type": "survey_respondent_count"},
+      "measures": {
+        "altered_behavior_self_or_known_person": {"value": 51, "unit": "percent saying they or someone they know carried documentation, changed travel plans, significantly altered routines, or faced detention/deportation because of immigration status", "value_type": "published_share"},
+        "carried_proof_status_self_or_known_person": {"value": 41, "unit": "percent saying they or someone they know started carrying proof of immigration status or citizenship", "value_type": "published_share"},
+        "changed_travel_plans_self_or_known_person": {"value": 34, "unit": "percent saying they or someone they know changed travel plans because of immigration status", "value_type": "published_share"},
+        "general_population_proof_comparison": {"value": 25, "unit": "percent of the general population reporting the comparable proof-carrying item", "value_type": "published_comparison"},
+        "general_population_travel_comparison": {"value": 18, "unit": "percent of the general population reporting the comparable travel-change item", "value_type": "published_comparison"}
+      },
+      "method": "The source asks about respondents' own or known others' behavior in response to immigration status and compares selected items with the general population.",
+      "uncertainty": "These are combined self/known-person reports rather than respondent-level event histories. They do not identify legal status, location, trigger, duration, cost, institutional encounter, or whether the behavior improved safety.",
+      "subgroup": "AAPI adults compared with the general population on proof-carrying and travel-plan changes.",
+      "counterinterpretation": "Behavioral caution is evidence of perceived or experienced exposure, not proof of unlawful treatment or a uniform policy effect. Some respondents may report a known person's behavior rather than their own.",
+      "source_url": "https://apnorc.org/projects/most-aapi-adults-agree-that-the-united-states-used-to-be-a-great-place-for-immigrants-but-is-not-anymore/",
+      "retrieval_hash": "sha256:b3938714f1f90cbc03d9b647ba3851949b4cefd2aae136fd29a6cd43546eeace",
+      "status": "reported"
+    },
+    {
+      "period": "April 20–28, 2026; cultural integration and citizenship judgments",
+      "denominator": {"value": 1075, "unit": "AAPI U.S. adults in the AAPI Data/AP-NORC survey; item-specific valid responses", "value_type": "survey_respondent_count"},
+      "measures": {
+        "maintain_culture_traditions_important": {"value": 58, "unit": "percent saying it is extremely or very important for immigrants to maintain their culture and traditions", "value_type": "published_share"},
+        "speak_english_fluently_important": {"value": 54, "unit": "percent saying fluent English is extremely or very important for immigrants", "value_type": "published_share"},
+        "maintain_home_language_important": {"value": 49, "unit": "percent saying maintaining a home language is extremely or very important", "value_type": "published_share"},
+        "blend_into_american_society_important": {"value": 48, "unit": "percent saying blending into American society is extremely or very important", "value_type": "published_share"},
+        "citizen_if_parents_work_visas": {"value": 81, "unit": "percent saying children born to parents legally in the U.S. on work visas should be U.S. citizens", "value_type": "published_share"},
+        "citizen_if_parents_tourist_visas": {"value": 56, "unit": "percent saying the same for children of parents on tourist visas", "value_type": "published_share"},
+        "citizen_if_parents_undocumented": {"value": 54, "unit": "percent saying the same for children of parents in the U.S. illegally", "value_type": "published_share"}
+      },
+      "method": "The poll uses separate importance and citizenship-vignette questions; these are not combined into an assimilation or immigration-policy index.",
+      "uncertainty": "Question wording, legal-status framing, social desirability, and the cross-sectional design limit interpretation. The citizenship items measure public judgments, not legal doctrine, court outcomes, or policy implementation.",
+      "subgroup": "AAPI adults; source also reports comparisons to the general population and language-specific interview availability.",
+      "counterinterpretation": "Support for cultural maintenance and fluent English can coexist, so the results do not establish a simple assimilation-versus-pluralism divide. Citizenship support also varies by the parents' described status.",
+      "source_url": "https://apnorc.org/projects/most-aapi-adults-agree-that-the-united-states-used-to-be-a-great-place-for-immigrants-but-is-not-anymore/",
+      "retrieval_hash": "sha256:b3938714f1f90cbc03d9b647ba3851949b4cefd2aae136fd29a6cd43546eeace",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://apnorc.org/projects/ap-norc-america-250-poll/", "claim": "The general AP-NORC America 250 poll supplies national comparison on identity, pride, threats, and the American Dream.", "status": "cross-source-context"},
+    {"source_url": "https://apnorc.org/wp-content/uploads/2026/06/AAPI-Data-AP-NORC-April-2026-Report-Updated.pdf", "claim": "The AP-NORC/AAPI Data issue brief is the source's tabular question-and-response document.", "status": "official-report"}
+  ],
+  "boundary": "This record measures AAPI identity priorities, perceived immigrant welcome, immigration-status-related behavioral caution, cultural integration judgments, and birthright-citizenship opinions. It does not establish legal-status composition, discrimination incidence, policy causation, political behavior, migration, safety, service access, or a uniform AAPI political bloc.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official AP-NORC/AAPI Data survey webpage retrieved and hashed; sample, field dates, measures, and margin of sampling error cross-checked against the published page.",
+    "html_sha256": "sha256:b3938714f1f90cbc03d9b647ba3851949b4cefd2aae136fd29a6cd43546eeace",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "format": "us-broad-source-promotion-audit-v1",
+  "scope": "Exact trend_id mentions, including explicit record links, in the central synthesis, societal subtheme register, broad theme map, or source-led subtheme maps.",
+  "reader_files": [
+    "analysis/US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md",
+    "analysis/US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md",
+    "analysis/US-BROAD-THEME-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-PLATFORM-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-CULTURAL-POLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-GEOPOLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-HOUSING-PLACE-MOBILITY-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-SOCIAL-INFRASTRUCTURE-CIVIC-CAPACITY-SOURCE-LED-MAP_V1.md",
+    "analysis/US-BROAD-TIME-HIDDEN-PRICE-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-CROSS-LANE-TREND-PORTFOLIO_V1.md",
+    "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md",
+    "analysis/US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md"
+  ],
+  "total_records": 1012,
+  "directly_promoted_record_count": 800,
+  "themes": [
+    {
+      "theme_id": "unequal_exposure_status",
+      "theme": "Unequal exposure and status",
+      "records": 804,
+      "directly_promoted_records": 639,
+      "not_directly_named": 165
+    },
+    {
+      "theme_id": "household_room_consumption",
+      "theme": "Household room and consumption",
+      "records": 556,
+      "directly_promoted_records": 418,
+      "not_directly_named": 138
+    },
+    {
+      "theme_id": "public_systems_feedback",
+      "theme": "Public systems and policy feedback",
+      "records": 695,
+      "directly_promoted_records": 584,
+      "not_directly_named": 111
+    },
+    {
+      "theme_id": "firm_sector_market_power",
+      "theme": "Firm, sector, and market power",
+      "records": 429,
+      "directly_promoted_records": 335,
+      "not_directly_named": 94
+    },
+    {
+      "theme_id": "trust_identity_meaning",
+      "theme": "Trust, identity, and cultural meaning",
+      "records": 550,
+      "directly_promoted_records": 462,
+      "not_directly_named": 88
+    },
+    {
+      "theme_id": "work_control_bargaining",
+      "theme": "Work, control, and bargaining",
+      "records": 308,
+      "directly_promoted_records": 228,
+      "not_directly_named": 80
+    },
+    {
+      "theme_id": "political_judgment_action",
+      "theme": "Political judgment and collective action",
+      "records": 378,
+      "directly_promoted_records": 302,
+      "not_directly_named": 76
+    },
+    {
+      "theme_id": "care_health_reproduction",
+      "theme": "Care, health, and social reproduction",
+      "records": 295,
+      "directly_promoted_records": 228,
+      "not_directly_named": 67
+    },
+    {
+      "theme_id": "infrastructure_technology_dependency",
+      "theme": "Infrastructure, technology, and dependency",
+      "records": 314,
+      "directly_promoted_records": 252,
+      "not_directly_named": 62
+    },
+    {
+      "theme_id": "housing_place_mobility",
+      "theme": "Housing, place, and mobility",
+      "records": 225,
+      "directly_promoted_records": 177,
+      "not_directly_named": 48
+    },
+    {
+      "theme_id": "geopolitical_state_consequences",
+      "theme": "Geopolitical and state consequences",
+      "records": 260,
+      "directly_promoted_records": 220,
+      "not_directly_named": 40
+    },
+    {
+      "theme_id": "time_hidden_price",
+      "theme": "Time as a hidden price",
+      "records": 172,
+      "directly_promoted_records": 138,
+      "not_directly_named": 34
+    },
+    {
+      "theme_id": "consumer_power_recourse",
+      "theme": "Consumer power and recourse",
+      "records": 185,
+      "directly_promoted_records": 166,
+      "not_directly_named": 19
+    },
+    {
+      "theme_id": "platforms_data_attention",
+      "theme": "Platforms, data, and attention",
+      "records": 123,
+      "directly_promoted_records": 115,
+      "not_directly_named": 8
+    }
+  ],
+  "low_density_theme_candidates": {
+    "platforms_data_attention": [
+      {
+        "trend_id": "us-pew-ai-use-concern-regulation-2026",
+        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
+      },
+      {
+        "trend_id": "us-census-btos-ai-firm-size-sector-2025-2026",
+        "title": "Business AI adoption is concentrated by firm size and sector rather than spreading evenly"
+      },
+      {
+        "trend_id": "us-digital-consumer-loss-recourse-crosssource-2024-2025",
+        "title": "Digital consumer exposure can become a recovery and recourse problem without a common harm rate"
+      },
+      {
+        "trend_id": "comparative-oecd-digital-government-ai-governance-2026",
+        "title": "Government AI adoption is widespread, but operational accountability, procurement, evaluation, and user feedback lag"
+      },
+      {
+        "trend_id": "us-undp-human-development-ai-choice-2023-2025",
+        "title": "High average human development does not settle the question of who can exercise new choices"
+      },
+      {
+        "trend_id": "us-ftc-take-it-down-platform-removal-governance-2026",
+        "title": "Platform safety is becoming a time-bounded removal and complaint-governance obligation"
+      },
+      {
+        "trend_id": "us-pew-public-life-engagement-groups-2025-2026",
+        "title": "Public participation divides into mobilization, connection, spectatorship, and outsider patterns"
+      },
+      {
+        "trend_id": "us-pew-global-ai-regulation-trust-2026",
+        "title": "Trust in who should regulate AI is internationally distributed rather than aligned with one Western model"
+      }
+    ],
+    "time_hidden_price": [
+      {
+        "trend_id": "au-hotak-reactivation-continued-work-2025",
+        "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
+      },
+      {
+        "trend_id": "us-cfpb-case-route-vintage-comparison-2024-2025",
+        "title": "CFPB case-route labels and API fields change across complaint vintages"
+      },
+      {
+        "trend_id": "us-sipp-reference-household-selection-2024",
+        "title": "Explicit household selection changes SIPP material-pressure diagnostics"
+      },
+      {
+        "trend_id": "us-sipp-resource-work-direction-subgroups-2024",
+        "title": "Hours remain more stable than earnings, but the direction pattern changes across children and SNAP contexts"
+      },
+      {
+        "trend_id": "us-sipp-resource-worklimitation-direction-2024",
+        "title": "Monthly earnings and hours changes have different directions across resource and work-limitation cells"
+      },
+      {
+        "trend_id": "us-sipp-monthly-resource-job-transition-2024",
+        "title": "Monthly income-to-poverty position and job count move on different clocks"
+      },
+      {
+        "trend_id": "us-sipp-resource-worklimitation-hours-earnings-crosslag-2024",
+        "title": "Monthly resource position is followed by distinct earnings and hours movement across work-limiting status"
+      },
+      {
+        "trend_id": "us-sipp-resource-job-crosslag-2024",
+        "title": "Monthly resource-band changes and job-count changes are distinct adjacent-month pathways"
+      },
+      {
+        "trend_id": "us-acs-transport-annual-national-2023-2024",
+        "title": "National ACS household vehicle scarcity and long commute exposure changed modestly across 2023\u20132024"
+      },
+      {
+        "trend_id": "us-psid-2023-material-time-care-field-audit",
+        "title": "PSID 2023 documents a viable material, work, time, care, health, and household-room backbone"
+      },
+      {
+        "trend_id": "us-pew-party-affiliation-npor-2026",
+        "title": "Party identity shifts at the edges while gender, race, and education keep the coalition lines uneven"
+      },
+      {
+        "trend_id": "us-fed-shed-economic-wellbeing-2025",
+        "title": "Personal financial well-being, local economic judgment, and national economic judgment move on different tracks"
+      }
+    ],
+    "consumer_power_recourse": [
+      {
+        "trend_id": "us-pew-ai-use-concern-regulation-2026",
+        "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak"
+      },
+      {
+        "trend_id": "au-hotak-reactivation-continued-work-2025",
+        "title": "An Australian platform worker resumed work after voluntary reactivation and later received a formal access-restoration order"
+      },
+      {
+        "trend_id": "us-census-retail-food-services-sales-2026-august",
+        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
+      },
+      {
+        "trend_id": "us-cfpb-case-route-vintage-comparison-2024-2025",
+        "title": "CFPB case-route labels and API fields change across complaint vintages"
+      },
+      {
+        "trend_id": "us-ftc-amazon-prime-redress-expansion-2026",
+        "title": "Consumer redress is shifting from claims and capped payments toward automatic expansion"
+      },
+      {
+        "trend_id": "us-digital-consumer-loss-recourse-crosssource-2024-2025",
+        "title": "Digital consumer exposure can become a recovery and recourse problem without a common harm rate"
+      },
+      {
+        "trend_id": "us-health-cost-household-choice-end-to-end-2024-2026",
+        "title": "Health costs connect care choices, household adaptation, institutional response, and contested legitimacy"
+      },
+      {
+        "trend_id": "us-health-cost-institutional-legitimacy-bridge-2022-2026",
+        "title": "Health-cost burden, credit response, and confidence form linked evidence surfaces but not a same-episode causal chain"
+      },
+      {
+        "trend_id": "us-cfpb-2025-medical-debt-visibility",
+        "title": "Medical debt becomes a visible CFPB complaint category"
+      },
+      {
+        "trend_id": "comparative-nber-microenterprise-credit-consumer-surplus-2026",
+        "title": "Microenterprise credit can create customer surplus beyond the borrowing firm"
+      },
+      {
+        "trend_id": "comparative-nber-spectrum-repacking-network-feasibility-2026",
+        "title": "Network feasibility may require removing a constrained node rather than relaxing one link"
+      },
+      {
+        "trend_id": "us-ftc-take-it-down-platform-removal-governance-2026",
+        "title": "Platform safety is becoming a time-bounded removal and complaint-governance obligation"
+      }
+    ],
+    "housing_place_mobility": [
+      {
+        "trend_id": "us-nyfed-economic-heterogeneity-april-2026",
+        "title": "A gasoline shock reverses some US household inflation and spending gaps"
+      },
+      {
+        "trend_id": "us-bls-cpi-2026-august",
+        "title": "August 2026 consumer prices rose with a gasoline-led energy contribution"
+      },
+      {
+        "trend_id": "us-census-retail-food-services-sales-2026-august",
+        "title": "August 2026 retail and food-service sales rose in nominal terms while the release leaves real household consumption open"
+      },
+      {
+        "trend_id": "us-nber-local-business-application-transition-employer-firm-2026",
+        "title": "Business applications and employer-firm formation are different local economic stages"
+      },
+      {
+        "trend_id": "us-bfs-bds-sector-dynamics-2023",
+        "title": "Business formation signals diverge from realized establishment and job capacity by sector"
+      },
+      {
+        "trend_id": "us-cdc-places-vintage-comparison-2024-2025",
+        "title": "CDC PLACES county vintages move across distinct health and social-need surfaces"
+      },
+      {
+        "trend_id": "us-california-fair-private-market-crosswalk-2020-2023",
+        "title": "California ZIP codes with greater FAIR Plan share also show higher voluntary-market nonrenewal among renewal decisions"
+      },
+      {
+        "trend_id": "us-california-fair-market-acs-context-2022",
+        "title": "California ZIP nonrenewal and FAIR-share differences vary with place income and housing structure"
+      },
+      {
+        "trend_id": "us-california-fair-joint-sensitivity-2022",
+        "title": "California joint insurance gradients are sensitive to income and wildfire-risk cut points"
+      },
+      {
+        "trend_id": "us-cces-local-capacity-trust-action-party-2024",
+        "title": "Capacity-cell political context varies sharply by party identity as well as place"
+      },
+      {
+        "trend_id": "us-cbo-climate-disaster-homeowners-insurance-2024",
+        "title": "Climate and disaster risk can move homeowner losses into household and federal exposure"
+      },
+      {
+        "trend_id": "us-california-doi-wildfire-county-context-2022",
+        "title": "Counties with greater modeled wildfire exposure show somewhat higher voluntary-market nonrenewal in a 2022 California screen"
+      }
+    ]
+  }
+}

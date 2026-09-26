@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-global-trends-forced-displacement-2025-2026",
+  "title": "Forced displacement eased from its 2024 peak but remains a vast, concentrated, and difficult-to-reintegrate global condition",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNHCR Global Trends 2025, published June 2026",
+  "geography": "Global forcibly displaced populations, refugees, asylum-seekers, and internally displaced people",
+  "observations": [
+    {
+      "period": "End of 2025; UNHCR Global Trends 2025",
+      "denominator": {
+        "value": 117830000,
+        "unit": "people forcibly displaced worldwide at the end of 2025, accounting for overlaps among population groups",
+        "value_type": "reported_population_estimate"
+      },
+      "measures": {
+        "total_forcibly_displaced": {"value": 117830000, "unit": "people forcibly displaced worldwide at end-2025", "value_type": "reported_population_estimate"},
+        "refugees": {"value": 41600000, "unit": "refugees globally at end-2025, including people under UNHCR and UNRWA categories described by UNHCR", "value_type": "reported_population_estimate"},
+        "asylum_seekers": {"value": 9000000, "unit": "asylum-seekers with decisions pending at end-2025", "value_type": "reported_population_estimate"},
+        "conflict_idps": {"value": 68700000, "unit": "people displaced within their own countries by conflict or violence at end-2025", "value_type": "reported_population_estimate"},
+        "global_population_share": {"value": 1.4, "unit": "percent of the world's population that was forcibly displaced, approximately", "value_type": "reported_population_share"}
+      },
+      "method": "UNHCR compiles official statistics from governments, UNHCR operations, and partners on refugees, people in need of international protection, asylum-seekers, and internally displaced people, with the IDP component sourced from the Internal Displacement Monitoring Centre.",
+      "uncertainty": "Population categories can overlap and country reporting quality varies. Figures are provisional or revised over time, and counts do not measure living conditions, legal status quality, duration, household welfare, or voluntariness of movement.",
+      "subgroup": "Refugees, asylum-seekers, internally displaced people, host communities, countries of origin and asylum, humanitarian agencies, and governments responsible for protection and services.",
+      "counterinterpretation": "The global refugee count fell 3% in 2025 and total displacement declined from 2024, showing that returns and conflict de-escalation can change aggregate conditions. A decline does not mean safe, durable, or adequately supported return.",
+      "source_url": "https://www.unhcr.org/global-trends",
+      "retrieval_hash": "sha256:ea65573f9fda0a4166882323f415d3da413a4bb0e72b58fa6a1ee46bb0210308",
+      "status": "reported"
+    },
+    {
+      "period": "2025 returns and hosting pattern; UNHCR Global Trends 2025",
+      "denominator": {
+        "value": 41600000,
+        "unit": "refugees globally at end-2025 for host-location and return measures; other measures use their stated denominators",
+        "value_type": "refugee_population_reference"
+      },
+      "measures": {
+        "refugee_returns_and_idp_returns": {"value": 14700000, "unit": "displaced people who returned to areas or countries of origin during 2025, including approximately 4.4 million refugees and 10.3 million IDPs", "value_type": "reported_return_count"},
+        "low_middle_income_host_share": {"value": 68, "unit": "percent of refugees and other people in need of international protection hosted by low- and middle-income countries", "value_type": "reported_host_share"},
+        "neighboring_country_host_share": {"value": 65, "unit": "percent of refugees and other people in need of international protection living in countries neighboring their country of origin", "value_type": "reported_host_share"},
+        "long_term_reintegration_constraint": {"value": "Returns often occur amid damaged homes, weak services, degraded infrastructure, limited economic opportunity, or adverse host-country policy conditions", "unit": "reported reintegration mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNHCR combines annual displacement stocks with reported returns, host-country location, origin-country data, and contextual analysis of major displacement situations.",
+      "uncertainty": "A return count does not establish safety, voluntariness, durable reintegration, or subsequent re-displacement. Host-share measures describe location, not host-community capacity or burden per person.",
+      "subgroup": "Returnees, refugees in neighboring and low- or middle-income host countries, internally displaced people, host communities, children, women, and people attempting to access services and livelihoods after return.",
+      "counterinterpretation": "Neighboring-country hosting can preserve social and cultural ties and make return or cross-border support more feasible. Returns can also signal improved security where conditions genuinely stabilize, even though aggregate statistics cannot verify that for each returnee.",
+      "source_url": "https://www.unhcr.org/refugee-statistics?lang=en",
+      "retrieval_hash": "sha256:ea65573f9fda0a4166882323f415d3da413a4bb0e72b58fa6a1ee46bb0210308",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.unhcr.org/about-unhcr/overview/figures-glance"],
+  "boundary": "This record adds a global forced-displacement, hosting, return, and reintegration route. It is not respondent-level migration data, does not estimate individual trajectories or causes of movement, and does not establish that a return was voluntary, safe, durable, or politically stabilizing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNHCR Global Trends 2025 official web summary and Refugee Data Finder search-visible official tables retrieved; population totals, host shares, return count, and reintegration caveats cross-checked. The web endpoint limited direct local capture, so the digest records the retrieved evidence summary rather than a claimed local PDF hash.",
+    "web_evidence_digest_sha256": "sha256:ea65573f9fda0a4166882323f415d3da413a4bb0e72b58fa6a1ee46bb0210308",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-housing-court-legal-representation-tenant-outcomes-2022",
+  "title": "Legal representation changes the immediate housing-court path for poor tenants",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "housing_place_mobility", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 29836; New York City Universal Access to Counsel rollout and address-level housing-court data",
+  "geography": "New York City tenants and housing courts; address-level court data from 2016–2019",
+  "observations": [{
+    "period": "New York City Universal Access to Counsel and tenant housing-court outcomes 2016–2019; paper issued 2022",
+    "denominator": {"value": 200, "unit": "percent of federal poverty guideline income threshold for program eligibility", "value_type": "reported_eligibility_threshold"},
+    "measures": {
+      "program": {"value": "New York City's Universal Access program offered free housing-court legal representation to tenants with income at or below 200% of the federal poverty guideline", "unit": "civil legal representation eligibility", "value_type": "reported_program_design"},
+      "possessory_judgment": {"value": "tenants who gained lawyers were less likely to be subject to possessory judgments", "unit": "housing-court outcome", "value_type": "reported_effect"},
+      "money_judgment": {"value": "tenants who gained lawyers faced smaller monetary judgments", "unit": "housing-court financial outcome", "value_type": "reported_effect"},
+      "eviction_warrant": {"value": "tenants who gained lawyers were less likely to have eviction warrants issued", "unit": "housing-court enforcement outcome", "value_type": "reported_effect"},
+      "completed_eviction": {"value": "tenants who gained lawyers were less likely to be evicted", "unit": "completed eviction outcome", "value_type": "reported_effect"},
+      "heterogeneity": {"value": "lawyers had larger effects in poorer places and places with larger shares of noncitizens", "unit": "place and population subgroup pattern", "value_type": "reported_subgroup_effect"}
+    },
+    "method": "The authors use the rollout of New York City's Universal Access to Counsel program and detailed address-level housing-court data from 2016–2019 to estimate how gaining legal representation changes tenant outcomes.",
+    "uncertainty": "The study does not follow the same tenant through rent affordability, current arrears, payment plans, work, health, debt, credit, next housing, or long-term stability. It does not measure who could reach counsel before the hearing, lawyer capacity or quality, landlord recovery, or the full cost of the program.",
+    "subgroup": "New York City tenants eligible for or gaining representation under the Universal Access program, with larger effects in poorer places and places with more noncitizens; results may differ by landlord, neighborhood, housing supply, language, disability, and household structure.",
+    "counterinterpretation": "A better court outcome does not prove that rent became affordable or that the tenant's underlying income or health shock ended. A smaller money judgment may still be unaffordable, and avoiding a formal eviction may coexist with an informal move, a repayment burden, or later housing instability.",
+    "source_url": "https://www.nber.org/papers/w29836",
+    "retrieval_hash": "sha256:83e7dd71406373d8de87378a84f2670186d3a23e1d92846eb0592fa439fbc9a9",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w29836", "claim": "NBER DOI record for Working Paper 29836", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a court-access finding: New York City tenants who gained Universal Access legal representation had better immediate housing-court outcomes. It does not establish lasting housing stability, affordability, debt resolution, work or health recovery, or universal effects outside the program and city."
+}

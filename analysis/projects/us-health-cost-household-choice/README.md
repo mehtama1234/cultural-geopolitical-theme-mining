@@ -37,6 +37,15 @@ keeps prescription affordability delay separate from denial/prior-authorization
 delay. Their perceived-health direction screens point differently, so
 “institutional friction” cannot be treated as one uniform mechanism.
 
+The [Medicare Advantage prior-authorization finding](findings/us-health-cost-household-choice-014.md)
+adds a current institutional gate with a visible appeal mismatch: 19 plans
+denied 12% of skilled-nursing admission requests, but overturned 95% of the
+denials that were appealed. This establishes denial, appeal reachability, and
+formal reversal as separate stages; admission timing, interim care, household
+cost, functional recovery, trust, and plan exit remain open.
+The companion [event ledger](data/medicare-advantage-snf-prior-authorization-event-ledger-v1.json)
+now places that route in the canonical broad portfolio.
+
 The [SHED 2025 care-skipping and medical-debt layer](shed-2025-care-skipping-choice-layer-v1.md)
 adds the reported population-level care-choice stage that observed MEPS event
 files cannot see: going without treatment because of cost, the types of care

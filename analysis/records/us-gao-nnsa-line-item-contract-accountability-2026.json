@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-nnsa-line-item-contract-accountability-2026",
+  "title": "NNSA modernization can carry a large contract base without clear criteria for separable deliverables and lessons",
+  "theme_ids": ["energy", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "GAO-26-108409, National Nuclear Security Administration: Use of Line Items in Management and Operating Contracts Could Be Improved",
+  "geography": "United States nuclear security enterprise; NNSA headquarters, field offices, and government-owned contractor-operated sites",
+  "observations": [{
+    "period": "FY2025 and 2026 GAO review; NNSA modernization planning over the next decade",
+    "denominator": {
+      "value": 9,
+      "unit": "NNSA management-and-operating contracts covering the nuclear security enterprise",
+      "value_type": "reported_contract_universe"
+    },
+    "measures": {
+      "annual_contract_scale": {
+        "value": "NNSA spends over $20 billion per year on nine management-and-operating contracts; it spent close to $24 billion in FY2025",
+        "unit": "annual contract spending",
+        "value_type": "reported_scale"
+      },
+      "modernization_scale": {
+        "value": "NNSA plans to spend almost $200 billion over the next decade modernizing nuclear-weapons production and research infrastructure",
+        "unit": "planned modernization spending",
+        "value_type": "reported_plan"
+      },
+      "accountability_gap": {
+        "value": "NNSA had not documented criteria for when contracting officers should separate tasks into line or subline items, reducing assurance that choices were consistent and appropriate",
+        "unit": "contract-structure governance condition",
+        "value_type": "reported_gap"
+      },
+      "learning_gap": {
+        "value": "NNSA had not fully assessed and documented lessons learned from using line items to guide future acquisition policy and avoid ineffective administrative approaches",
+        "unit": "institutional-learning condition",
+        "value_type": "reported_gap"
+      },
+      "downstream_outcome": {
+        "value": "the report does not establish whether separate line items changed contractor performance, cost, schedule, construction delivery, readiness, safety, or external deterrence",
+        "unit": "missing contract-to-capability continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "GAO reviewed NNSA management-and-operating contracts, compared line-item use with Department of Energy acquisition policy and internal-control standards, and interviewed NNSA headquarters and field officials and contractor representatives.",
+    "uncertainty": "Contract-scale and planned-modernization figures do not establish completed capability. A missing criterion or documented lesson is a governance gap, not proof of waste, fraud, poor contractor performance, or failed nuclear-security outcomes. The review does not provide a project-level before-and-after estimate for line-item use.",
+    "subgroup": "NNSA headquarters, field offices, government-owned contractor-operated sites, management-and-operating contractors, construction projects, and future modernization portfolios.",
+    "counterinterpretation": "A single management-and-operating contract can preserve integration and reduce coordination cost; separate line items can also increase accountability or create administrative burden. The appropriate structure depends on deliverable separability, mission risk, and oversight capacity.",
+    "source_url": "https://www.gao.gov/products/gao-26-108409",
+    "retrieval_hash": "sha256:8f3879b6b1c10551a17b185d296d8d8bc519b691224f179c8240e1e36b57ab8a",
+    "status": "reported"
+  }],
+  "related_sources": [{
+    "source_url": "https://files.gao.gov/assets/gao-26-108409.pdf",
+    "claim": "Official GAO report supplies contract scale, modernization scale, line-item governance gaps, method, and recommendations.",
+    "status": "official-report"
+  }],
+  "boundary": "This record adds a contract-accountability and institutional-learning layer to domestic nuclear-security capacity: a large integrated contract base and modernization plan can coexist with unclear criteria for separable deliverables and incomplete lessons. It does not establish waste, fraud, failed capability, or changed geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page reviewed and retained as a source-page hash; the report PDF, contracts, and project-level performance data were not retained.",
+    "gao_page_sha256": "sha256:8f3879b6b1c10551a17b185d296d8d8bc519b691224f179c8240e1e36b57ab8a",
+    "checked": "2026-09-23"
+  }
+}

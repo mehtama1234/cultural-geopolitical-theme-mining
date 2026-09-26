@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-fleetcor-unauthorized-fees-redress-2026",
+  "title": "A large fee-redress order can recognize small-business harm before customer recovery or practical switching is visible",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Trade Commission FleetCor/Corpay enforcement and proposed redress order; affected fuel-card customers are a remedy-program population, not a representative small-business sample",
+  "geography": "United States federal consumer-protection enforcement involving FleetCor fuel-card customers, predominantly small businesses",
+  "observations": [
+    {
+      "period": "2019 complaint; 2023 federal district-court summary judgment; 2026 appeals decision and proposed FTC redress order",
+      "denominator": {
+        "value": null,
+        "unit": "customers allegedly harmed by hidden or unauthorized fuel-card fees; the FTC says tens of thousands were affected, but the complete denominator is not published",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "alleged_fee_practice": {
+          "value": "hidden or otherwise unauthorized fees, including fees that began after billing cycles, late fees charged to some customers who paid on time or were prevented from paying, and obscured invoice information",
+          "unit": "reported enforcement allegation and court finding context",
+          "value_type": "reported_harm"
+        },
+        "court_finding": {
+          "value": "a federal district court found FleetCor liable on all counts in 2023; a federal appeals court upheld the summary judgment in 2026",
+          "unit": "reported judicial finding",
+          "value_type": "court_confirmed_violation"
+        },
+        "redress_order_amount": {
+          "value": 100000000,
+          "unit": "US dollars to be used for redress to harmed business customers under the proposed FTC settlement order",
+          "value_type": "proposed_redress_allocation"
+        },
+        "prospective_control": {
+          "value": "the court-imposed order bars billing without express informed consent and clear unavoidable charge information, hiding material information behind hyperlinks, and deceptive fuel-card claims",
+          "unit": "reported injunctive control",
+          "value_type": "ordered_prospective_control"
+        },
+        "implementation_status": {
+          "value": "the proposed FTC consent order was subject to a 30-day public-comment period before a final Commission decision; no customer-level distribution or cashing data were reported",
+          "unit": "administrator status",
+          "value_type": "reported_process"
+        },
+        "customer_recovery_and_exit": {
+          "value": "not observed",
+          "unit": "missing individual receipt, adequacy, restored cash flow, alternative fuel-card access, continued use, switching, business survival, and exit endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC press release checked September 21, 2026; retain alleged practice, judicial finding, proposed redress amount, prospective controls, and public-comment status as separate stages rather than treating the fund as distributed recovery.",
+      "retrieval_hash": "sha256:3bc2c94df1ad406154d2eb630adbebcbd8956dc6f0cb87b46dc14841f870f8b4",
+      "uncertainty": "The public release does not publish the complete customer denominator, individual harm, claim route, distribution timing, payment receipt, business cash-flow correction, alternative provider access, continued use, switching, trust, or survival.",
+      "subgroup": "FleetCor/Corpay fuel-card customers, predominantly small businesses, allegedly charged hidden or unauthorized fees; affected, unaffected, nonclaiming, and later-switching customers remain distinct groups.",
+      "counterinterpretation": "A judicial finding and large redress allocation can recognize and financially address a fee practice without restoring the liquidity, time, customer relationships, or practical alternatives lost by each small business; prospective disclosure controls may also arrive after customers have already changed providers or absorbed the loss.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/fleetcor-agrees-pay-100-million-resolve-administrative-action-after-federal-court-finds-it-violated",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3032-fleetcor-technologies-inc",
+      "claim": "FTC case materials provide the enforcement and litigation context for FleetCor/Corpay.",
+      "status": "official-case-record"
+    }
+  ],
+  "boundary": "This record establishes a reported judicial finding, a proposed $100 million customer-redress allocation, and prospective charge-disclosure controls. It does not establish customer-level receipt, full restitution, restored business liquidity, alternative access, switching, survival, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FTC press-release HTML route hashed without retaining a repository copy",
+    "retrieval_hash": "sha256:3bc2c94df1ad406154d2eb630adbebcbd8956dc6f0cb87b46dc14841f870f8b4",
+    "checked": "2026-09-21"
+  }
+}

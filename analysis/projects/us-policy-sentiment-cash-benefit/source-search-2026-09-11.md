@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; policy and sentiment link is supported, political behavior remains open
+**Status:** bounded pass complete; policy and sentiment link is supported, political behavior remains open
 
 ## Working question
 
@@ -28,6 +28,8 @@ benefit starts or ends
 
 The NBER sentiment study gives a direct policy-to-perception result. It does not prove that a person spent less, lost trust or voted differently. Those are the next links to test.
 
+The bounded finding is now recorded as [Finding 002](findings/us-policy-sentiment-cash-benefit-002.md), with its machine-readable [trend record](../../records/us-nber-child-tax-credit-sentiment-benefit-loss-2026.json).
+
 ## Counterpoint to keep visible
 
 People may feel worse after a benefit ends because their cash really fell, not because they formed a new political view. A lower sentiment score can also coexist with stable work, housing or long-term plans.
@@ -44,3 +46,5 @@ People may feel worse after a benefit ends because their cash really fell, not b
 ## Decision rule
 
 Keep sentiment as its own outcome. Only connect it to spending, trust or voting when the same study or linked data measure the next step.
+
+This lane is now paused for rotation. Reopen it only when a compatible source measures one of those next steps.

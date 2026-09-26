@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-us-reliability-international-2026",
+  "title": "International confidence in the United States as a partner is weaker than formal alliance ties",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center survey of adults in 36 countries, conducted in spring 2026",
+  "geography": "United States viewed from 36 surveyed countries",
+  "observations": [
+    {
+      "period": "Spring 2026 survey; 36 countries",
+      "denominator": {"value": 36, "unit": "countries surveyed; country-specific adult samples", "value_type": "country_comparison"},
+      "measures": {
+        "us_favorable_median": {"value": 37, "unit": "percent median favorable view of the United States", "value_type": "reported_median"},
+        "us_unfavorable_median": {"value": 57, "unit": "percent median unfavorable view of the United States", "value_type": "reported_median"},
+        "us_considers_interests_median": {"value": 32, "unit": "percent median saying the U.S. considers countries like theirs' interests a great deal or fair amount", "value_type": "reported_median"},
+        "france_considers_interests": {"value": 10, "unit": "percent", "value_type": "reported_share"},
+        "sweden_considers_interests": {"value": 8, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center cross-national survey of public views of the United States, its reliability as a partner, and whether it considers other countries' interests; country medians and named-country shares are retained separately.",
+      "uncertainty": "International opinion is not a direct measure of diplomatic behavior, alliance compliance, military access, trade, aid, or deterrence. Country medians are not population-weighted global estimates, and cross-sectional comparisons do not identify the cause of change.",
+      "subgroup": "Adults in 36 surveyed countries, including NATO member and nonmember states; country results vary substantially.",
+      "counterinterpretation": "Views may reflect current leadership, a specific conflict, domestic politics, historical memory, or general attitudes toward U.S. power rather than a settled judgment about a particular alliance or policy.",
+      "source_url": "https://www.pewresearch.org/global/2026/06/23/trump-gets-negative-reviews-internationally-as-fewer-say-u-s-is-a-reliable-partner/",
+      "retrieval_hash": "sha256:52fa54205d04633ade83ad9c8cf959b461e4d1e0751017cc95e4421390647a96",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an external-reception layer to the geopolitical atlas. It does not establish that lower confidence changed a government decision, alliance operation, public protest, trade relationship, deterrence outcome, or adversary behavior."
+}

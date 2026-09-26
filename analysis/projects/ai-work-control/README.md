@@ -1,11 +1,26 @@
 # Project: AI, work, and control
 
+The broad program also retains a non-AI worker-meaning comparison: the [NBER
+purpose-intervention record](../../records/us-nber-meaning-at-work-purpose-intervention-2025.json)
+follows a randomized two-year rollout among 2,976 white-collar employees.
+Performance, retention, parental-leave behavior, and bonuses changed, but the
+record does not establish durable worker control or household welfare. It is a
+comparison layer for separating stated purpose, experienced meaning, firm
+performance, worker exit, and practical autonomy.
+
 The current remedy synthesis, [Remedy spectrum: from explanation to collective
 control](remedy-spectrum-cross-domain-synthesis-v1.md), compares judicial
 disclosure, worker appeals, statutory review, institutional mediation,
 regulator contestability, collective bargaining, and workplace co-governance.
 It makes the central open question explicit: whether procedural rights produce
 verified recovery of access, income, identity, or control.
+
+The [DOL wage-reachability layer](dol-workers-owed-wages-reachability-layer-v1.md)
+and [PAID employer-proof ledger](data/dol-paid-employer-proof-event-ledger-v1.json)
+add a paired payment checkpoint: recovered wages may still require worker
+search and verification, while PAID requires employer proof of payment. Neither
+public route establishes worker cashing, adequacy, durable security, trust, or
+exit.
 
 The [worker-control and optionality synthesis](worker-control-optionality-remedy-synthesis-v1.md)
 now connects the SHED labor-mobility and AI-control surface to the remedy
@@ -223,6 +238,11 @@ subsequent public implementation, payment, or same-worker outcome was located
 in the targeted Fair Work Commission search. The case therefore closes at a
 formal remedy order, not lived income recovery, continued access, switching,
 or exit.
+
+The [Rehman order follow-up recheck v2](uber-rehman-order-followup-recheck-2026-09-21.md)
+updates the same official-route test through 21 September 2026. The later
+bulletin confirms the order-level remedy but still does not expose payment
+receipt, enforcement, continued work, durable access, trust, or exit.
 
 The [platform-remedy implementation-depth audit](platform-remedy-implementation-depth-audit-v1.md)
 now counts formal restoration orders, access resumption, continued work, and
@@ -506,3 +526,17 @@ The visible story is usually about speed and jobs. The deeper question is who ge
 - [Published ILO case table](../../../site/ai-work-control/ilo-social-dialogue-case-table.html)
 - [Finding 068: Worker voice is the conversion point between AI exposure and control](findings/ai-work-control-068.md)
 - [Published Finding 068](../../../site/ai-work-control-068.html)
+
+The [Ukraine-JEF partner-integration finding](findings/ai-work-control-143.md)
+adds a named external-response stage: Ukrainian officials coordinated entry
+into JEF activity, and Ukrainian drone operators and specialists later joined
+AURORA 26 in Sweden. Exercise participation and knowledge exchange remain
+separate from membership, guaranteed protection, deterrence, and durable
+strategic leverage.
+
+The [strategic-sovereignty finding](findings/ai-work-control-144.md) adds a
+foreign-action-to-public-mobilization result: an NBER study reports that
+U.S.–Israeli strike exposure in Iran was followed by a shift from
+anti-government toward pro-government and anti-U.S./Israel protest, with little
+change in total protest activity. Repression, messaging, durability, civilian
+cost, and strategic effect remain separate open questions.

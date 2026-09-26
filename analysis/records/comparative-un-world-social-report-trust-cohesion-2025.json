@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-world-social-report-trust-cohesion-2025",
+  "title": "Economic insecurity and inequality are eroding social trust, cohesion, and collective-action capacity",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "platforms_data_attention"
+  ],
+  "source_unit": "UN World Social Report 2025: A New Policy Consensus to Accelerate Social Progress",
+  "geography": "Global comparative evidence synthesized by UN DESA and UNU-WIDER, with country and regional examples",
+  "observations": [
+    {
+      "period": "World Social Report 2025; contemporary global evidence synthesized from cross-country surveys and comparative studies",
+      "denominator": {
+        "value": 100,
+        "unit": "global population percentage base for the report's summarized estimates; individual measures use source-defined survey and country coverage",
+        "value_type": "global_estimate_percent_base"
+      },
+      "measures": {
+        "little_or_no_trust_in_government": {"value": 50, "unit": "more than percent of the global population reporting little or no trust in government", "value_type": "reported_share_lower_bound"},
+        "trust_in_other_people": {"value": 30, "unit": "less than percent of people believing others can be trusted", "value_type": "reported_share_upper_bound"},
+        "population_struggling": {"value": 60, "unit": "percent of the global population described as struggling in the report's cited global poll", "value_type": "reported_share_approximate"},
+        "population_suffering": {"value": 12, "unit": "percent of the global population described as suffering in the report's cited global poll", "value_type": "reported_share_approximate"},
+        "living_on_215_to_685_daily": {"value": 33, "unit": "more than percent of the global population living on between $2.15 and $6.85 per day", "value_type": "reported_share_lower_bound"}
+      },
+      "method": "UN DESA and UNU-WIDER synthesize global survey evidence, comparative economic indicators, and research on trust, insecurity, inequality, polarization, social cohesion, and collective action. The report treats social cohesion as multidimensional: cooperation and solidarity, fairness and inclusion, and belonging and trust.",
+      "uncertainty": "The report emphasizes that no single indicator captures social cohesion universally. The summarized percentages come from different source surveys and definitions, so they should not be combined into one index or interpreted as a single causal estimate. Global trust estimates vary with wording, field period, country coverage, and institutional referent.",
+      "subgroup": "People across countries and cohorts, with attention to insecurity, inequality, work, poverty risk, institutions, political groups, and communities exposed to discrimination or marginalization.",
+      "counterinterpretation": "Low generalized trust can coexist with strong family, local, religious, workplace, or community ties. Polarization and distrust may also reflect greater political contestation or visibility rather than universal social withdrawal.",
+      "source_url": "https://desapublications.un.org/publications/world-social-report-2025-new-policy-consensus-accelerate-social-progress",
+      "retrieval_hash": "sha256:5e95c2b4453bfa4070bdf42d097d15a72659472f3870ac412f67744de4d56964",
+      "status": "reported"
+    },
+    {
+      "period": "World Social Report 2025; cohort and institutional-trust synthesis",
+      "denominator": {
+        "value": 100,
+        "unit": "comparative population and country evidence base; measure-specific denominators and cohorts are source-defined",
+        "value_type": "comparative_evidence_base"
+      },
+      "measures": {
+        "successive_cohorts_lower_government_trust": {"value": "declining", "unit": "direction reported across birth cohorts from the 1930s through the 1990s", "value_type": "reported_cohort_trend"},
+        "countries_with_rising_income_inequality": {"value": 67, "unit": "approximately percent of the global population living in countries where income inequality is growing", "value_type": "reported_population_share_approximate"},
+        "social_media_and_disinformation_effect": {"value": "aggravating division and polarization", "unit": "reported mechanism in the social-cohesion synthesis", "value_type": "reported_mechanism"},
+        "service_and_social_protection_trust_link": {"value": "positive association", "unit": "reported relationship between public-service/social-protection delivery and trust", "value_type": "reported_association"},
+        "policy_consensus": {"value": "equity, economic security, and solidarity", "unit": "three policy principles proposed to strengthen social cohesion and social progress", "value_type": "reported_policy_framework"}
+      },
+      "method": "The report compares cohorts and countries and reviews evidence linking perceived inequality, public expenditure, economic conditions, service delivery, social protection, digital information environments, and trust in institutions.",
+      "uncertainty": "The direction and associations do not establish that any one policy, platform, or economic condition caused the reported trust trend. The report notes measurement difficulty, country-specific histories, and the absence of a consistent global social-cohesion data framework.",
+      "subgroup": "Birth cohorts, people facing economic insecurity or inequality, users of digital information environments, and residents evaluating government services and institutions.",
+      "counterinterpretation": "Trust may recover through effective services, fair procedures, solidarity institutions, and local collective action even when macroeconomic inequality remains high; social cohesion is not reducible to government approval or interpersonal trust alone.",
+      "source_url": "https://desapublications.un.org/sites/default/files/publications/2025-04/250422%20BLS25022%20UDS%20UN%20World%20Social%20Report%20WEB.pdf",
+      "retrieval_hash": "sha256:5e95c2b4453bfa4070bdf42d097d15a72659472f3870ac412f67744de4d56964",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global social-cohesion, trust, insecurity, inequality, and information-environment route. It does not create a single global trust index, identify individual respondents, establish causality, or imply that low generalized trust means absence of local solidarity or community capacity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UN DESA publication page and official World Social Report 2025 PDF retrieved; global trust, insecurity, inequality, cohort, service-delivery, social-media, and policy-framework claims cross-checked against the report and official summary.",
+    "pdf_sha256": "sha256:5e95c2b4453bfa4070bdf42d097d15a72659472f3870ac412f67744de4d56964",
+    "checked": "2026-09-26"
+  }
+}

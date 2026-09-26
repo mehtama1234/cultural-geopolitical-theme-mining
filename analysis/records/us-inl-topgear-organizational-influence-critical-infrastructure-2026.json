@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-inl-topgear-organizational-influence-critical-infrastructure-2026",
+  "title": "Critical-infrastructure risk increasingly includes hidden ownership and organizational influence, not only technical compromise",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Idaho National Laboratory feature on TOPGEAR organizational-influence mapping for U.S. critical infrastructure",
+  "geography": "United States; critical infrastructure, foreign ownership, energy, water, and military-adjacent assets",
+  "observations": [
+    {
+      "period": "September 16, 2026; organizational influence and socio-technical infrastructure-risk mechanism",
+      "denominator": {
+        "value": 1,
+        "unit": "INL research and tool-development account; no national asset universe or incident-rate denominator is reported",
+        "value_type": "institutional_case_description"
+      },
+      "measures": {
+        "influence_layers": {"value": "three linked layers: social ties among businesses and leaders, infrastructure assets, and cross-layer influence paths connecting people or organizations to specific assets", "unit": "TOPGEAR analytical architecture", "value_type": "reported_tool_design"},
+        "data_sources": {"value": "TOPGEAR continuously collects public data including SEC filings and Energy Information Administration data, with proprietary sources used when needed", "unit": "source classes used by the tool", "value_type": "reported_data_architecture"},
+        "market_analyses": {"value": 76, "unit": "market analyses completed through the DOE Energy I-Corps program to understand industry needs and accelerate technology transfer", "value_type": "reported_program_count"},
+        "asset_examples": {"value": "power substations, aggregators, electric utilities, water systems, military bases, and data centers are used as examples of assets or sectors where ownership and influence can matter", "unit": "critical-infrastructure examples", "value_type": "reported_example_set"}
+      },
+      "method": "Descriptive institutional and tool-development account from Idaho National Laboratory. The feature explains TOPGEAR's social, infrastructure, and cross-layer network model and its use of public filings and energy data; it is not a validated national risk score or observed attack dataset.",
+      "uncertainty": "The feature does not quantify how often foreign ownership creates operational influence, how many assets are exposed, or whether any mapped relationship caused disruption. Proprietary-source supplementation and algorithmic risk flags require independent validation and governance.",
+      "subgroup": "Organizations, leaders, owners, operators, investors, and physical or digital assets in U.S. critical-infrastructure sectors, especially energy and other sensitive systems.",
+      "counterinterpretation": "Foreign investment and board participation can provide capital, expertise, and economic benefits without producing coercive influence. A network relationship is a screening lead, not evidence of adversarial intent or operational control.",
+      "source_url": "https://inl.gov/feature-story/mapping-hidden-organizational-influence-in-us-critical-infrastructure/",
+      "retrieval_hash": "sha256:08596ef78e990bd6030b8de829b09ee1d4ac21898ab36a561c2183d54c2236c0",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; public policy and organizational-response context cited by INL",
+      "denominator": {
+        "value": 1,
+        "unit": "U.S. policy and state-law context described in the publication; no systematic state-policy denominator is provided",
+        "value_type": "policy_context_unit"
+      },
+      "measures": {
+        "state_restriction_examples": {"value": "Idaho, Texas, Utah, and other states are described as restricting foreign ownership of land near power plants, water systems, or military bases; Idaho measures required divestment of agricultural and mineral rights by December 2025", "unit": "reported state-policy examples", "value_type": "reported_policy_context"},
+        "procurement_restriction_examples": {"value": "South Dakota, Tennessee, Maine, and other states are described as restricting government purchases from companies linked to countries of concern", "unit": "reported state-policy examples", "value_type": "reported_policy_context"},
+        "federal_screening": {"value": "CFIUS oversight is described as expanding to real estate and agricultural assets, while FOCI rules limit foreign influence over sensitive U.S. companies", "unit": "reported federal oversight context", "value_type": "reported_policy_context"},
+        "operational_response": {"value": "TOPGEAR is described as already being used by state energy offices, with DOE, DHS, and other federal partners involved in translating the tool toward operations", "unit": "reported institutional-use pathway", "value_type": "reported_implementation_context"}
+      },
+      "method": "Publication-level comparison of state restrictions, federal screening, and INL's research-to-operations pathway. These examples are retained as policy and implementation context, not a comprehensive inventory or effectiveness evaluation.",
+      "uncertainty": "The source does not measure enforcement, divestment completion, procurement effects, false positives, state-energy-office outcomes, or whether legal restrictions improve infrastructure resilience. Policy scope and implementation can vary across sectors and jurisdictions.",
+      "subgroup": "State governments, federal screening bodies, energy offices, infrastructure owners and operators, foreign investors, and communities dependent on sensitive assets.",
+      "counterinterpretation": "More screening can reduce hidden influence but can also constrain beneficial capital, raise compliance costs, or shift ownership without improving operational resilience. Tool adoption is not evidence of successful risk reduction.",
+      "source_url": "https://inl.gov/feature-story/mapping-hidden-organizational-influence-in-us-critical-infrastructure/",
+      "retrieval_hash": "sha256:08596ef78e990bd6030b8de829b09ee1d4ac21898ab36a561c2183d54c2236c0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an organizational-ownership and socio-technical network layer to critical-infrastructure and geopolitical analysis. It does not infer foreign intent, illegal conduct, operational control, realized disruption, public harm, or policy effectiveness from ownership, board, procurement, or network relationships.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "INL publication content and stated TOPGEAR architecture, data sources, 76 market analyses, state/federal policy examples, partner agencies, and implementation claims cross-checked against the publication; direct HTML retrieval was access-blocked, so the recorded digest is a normalized evidence-string digest rather than a raw-page hash.",
+    "normalized_evidence_sha256": "sha256:08596ef78e990bd6030b8de829b09ee1d4ac21898ab36a561c2183d54c2236c0",
+    "checked": "2026-09-26"
+  }
+}

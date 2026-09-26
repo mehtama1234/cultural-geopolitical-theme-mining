@@ -1,6 +1,6 @@
 # Procurement is not capability: the JASSM/LRASM realization clock
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 **Status:** bounded procurement-to-capability synthesis; no leverage claim
 
 ## The question
@@ -26,10 +26,35 @@ possible sale / procurement agreement
 ```
 
 Only the earlier and middle stages are currently visible for the selected
-case. A 2026-09-18 official-source recheck still found no identifier-bearing
+case. A 2026-09-19 official-source recheck still found no identifier-bearing
 Polish lot, acceptance, delivery, fielding, or training record. The missing
 later stages are not clerical details: they determine
 whether an announced investment has become an option that a state can use.
+
+The Polish F-35 Husarz record provides a useful stage-compatible comparator.
+Official records report the first three aircraft arriving at Łask on 22 May
+2026, formal acceptance on 12 June, and first-pilot training completion. The
+JASSM-ER record does not yet show an equivalent arrival or acceptance event for
+the 2024 order; it still shows a planned delivery window. The comparison does
+not prove that F-35 fleet readiness or strategic effect has been achieved. It
+shows what a public realization trail looks like and why a schedule should not
+be treated as one.
+
+The current Polish Ministry of National Defence JASSM-ER page still describes
+the May 2024 agreement and a 2026–2030 delivery window; it does not add a lot
+number, shipped quantity, receiving unit, acceptance, or fielding event. This
+is a current schedule-only checkpoint, not evidence of delay or non-delivery
+([official JASSM-ER page](https://www.gov.pl/web/obrona-narodowa/jassm-er)).
+
+| Route | Publicly observed stage | Still open |
+|---|---|---|
+| Poland F-35 Husarz | First three aircraft arrived; formal acceptance occurred; first-pilot training was separately reported | Eight-aircraft IOC threshold, full personnel coverage, spares, maintenance, readiness, mission use, sustainment, external response |
+| Poland JASSM-ER 2024 order | Agreement and delivery window; prior family-level delivery is a separate baseline | Order-specific shipment, accepted quantity, receiving unit, training/fielding, inventory, maintenance, operational use, replaceability, external response |
+
+This is not a ranking of weapons systems. It is a measurement rule: the
+public record should preserve the difference between planned, physically
+received, formally accepted, trained, operationally ready, and strategically
+consequential.
 
 ## What the evidence currently establishes
 
@@ -44,7 +69,7 @@ whether an announced investment has become an option that a state can use.
 | Operational-integration validation | US Air Force Global Strike Command reports a June 2, 2026 Dyess “Event Zero” validating B-1B/LRASM pre-flight procedures and connecting a live AGM-158C with updated hardware | A dated US-side procedure/integration milestone is visible; it is not accepted inventory, deployment, sustainment, or combat use |
 | Operational fielding | The US Marine Corps 2026 Marine Aviation Plan states that LRASM C-1 was operationally fielded on the F/A-18E/F in FY2024; F-35B/F-35C integration and C-3 production cut-in remain separate stages | Fielding is observed for one US variant/platform; it does not establish C-3 or F-35 fielding, quantity, sustainment, combat use, or Polish JASSM-ER realization |
 | Sustainment architecture | Navy FY2025 budget materials place LRASM within weapons-maintenance/rework and software-support systems and describe C-3 training/sustainment stand-up | A budgeted institutional support route is visible; maintained inventory, repair performance, readiness, and completed C-3 transition remain open |
-| Customer realization | Polish official sources provide a 2026–2030 planning window for the 2024 order; a separate Senate response lists JASSM-ER among equipment delivered since February 2022 | The broad prior-delivery list has no quantity, date, unit, acceptance record, or order linkage, so it cannot establish realization of the 2024 order |
+| Customer realization | Polish official sources provide a 2026–2030 planning window for the 2024 order; a December 2024 modernization briefing separately describes 2028–2030 delivery timing; a Senate response lists JASSM-ER among equipment delivered since February 2022 | Poland’s public record contains schedule/planning asynchrony, not a shipment or acceptance record. The broad prior-delivery list has no quantity, date, unit, acceptance record, or order linkage, so it cannot establish realization of the 2024 order |
 | Geopolitical consequence | No dated external behavior change tied to realized inventory was located | Leverage remains open |
 
 The supplier and facility rows should remain separate. A USAspending recipient
@@ -92,6 +117,10 @@ or software dependency.
 
 - A planned delivery window is not evidence of a delay, acceleration, or
   delivered quantity.
+- The 2026–2030 and 2028–2030 Polish planning windows should be retained as
+  separate official schedule statements. Without a formal amendment or lot
+  record, they show planning asynchrony, not a confirmed schedule revision or
+  physical delivery.
 - An IDIQ ceiling and “no funds obligated at award” do not establish output.
 - Company-reported capacity is useful industrial evidence but is not a neutral
   production-rate measurement.
@@ -134,6 +163,7 @@ stage and do not promote a capability or leverage claim.
 - [JASSM/LRASM realization-stage finding](findings/ai-work-control-080.md)
 - [Subaward-to-UEI and reported-location finding](findings/ai-work-control-078.md)
 - [Poland JASSM-ER delivery non-observation](findings/ai-work-control-081.md)
+- [Poland JASSM schedule-asynchrony finding](findings/ai-work-control-102.md)
 - [FMS timing-asynchrony finding](findings/ai-work-control-083.md)
 - [US LRASM Event Zero source note](data/us-lrasm-event-zero-realization-source-note-2026-07-07.md)
 - [US LRASM C-1 fielding source note](data/us-lrasm-c1-fielding-source-note-2026-09-18.md)

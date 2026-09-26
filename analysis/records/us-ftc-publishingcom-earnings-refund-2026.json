@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-publishingcom-earnings-refund-2026",
+  "title": "Earnings promises can sell a route to work while refund conditions narrow practical recourse",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Federal Trade Commission final-order announcement concerning Publishing.com; consumers who purchased self-publishing products are an enforcement population, not a representative sample",
+  "geography": "United States federal consumer-protection enforcement",
+  "observations": [
+    {
+      "period": "July 2026 FTC final-order announcement",
+      "denominator": {
+        "value": null,
+        "unit": "consumers who purchased Publishing.com products and services",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "earnings_claim": {
+          "value": "programs and services were alleged to promise substantial income from publishing e-books and audiobooks",
+          "unit": "FTC-reported alleged marketing practice",
+          "value_type": "reported_practice"
+        },
+        "reported_income_result": {
+          "value": "most consumers allegedly never made the income promised in advertising",
+          "unit": "FTC complaint allegation summarized in final-order announcement",
+          "value_type": "reported_allegation"
+        },
+        "refund_route": {
+          "value": "additional conditions, often in fine print or lengthy terms, allegedly made refunds difficult or impossible for consumers who sought them",
+          "unit": "FTC complaint allegation summarized in final-order announcement",
+          "value_type": "reported_recourse_barrier"
+        },
+        "monetary_order": {
+          "value": 1500000,
+          "unit": "US dollars to be paid under final order",
+          "value_type": "final_order_payment"
+        },
+        "prospective_controls": {
+          "value": "earnings claims require a reasonable nonmisleading basis; cancellation/refund terms must be disclosed and requests promptly honored; material reviewer connections and incentives must be disclosed",
+          "unit": "final-order requirements",
+          "value_type": "reported_control_requirement"
+        },
+        "individual_purchase_refund_income_and_exit": {
+          "value": "not observed in the public announcement",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official FTC final-order announcement review; alleged earnings exposure, refund-route difficulty, final-order payment, and prospective controls are retained as separate stages from individual purchase, refund receipt, income outcome, debt, trust, switching, and exit.",
+      "uncertainty": "The FTC announcement does not publish the consumer denominator, individual purchase amounts, refund claims, refund receipt, income outcomes, debt or time loss, adequacy, continued use, alternative work, trust, switching, or exit. Allegations about consumer outcomes are not a population estimate.",
+      "subgroup": "Consumers who purchased Publishing.com products and services; no public subgroup or recipient-level follow-up is provided.",
+      "counterinterpretation": "A final order can improve future disclosure and refund rules while leaving prior buyers' individual losses, refunds, income expectations, and practical alternatives unmeasured.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/07/ftc-approves-final-order-against-publishingcom-settling-allegations-it-misled-consumers",
+      "retrieval_hash": "sha256:1f6850442c2869857be6e23e882e4a9da07e4542be4f2743a0050e86567f594f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes an FTC-reported consumer earnings-claim and refund-recourse allegation plus a $1.5 million final-order payment and prospective controls. It does not establish individual consumer loss, refund receipt, income, debt, adequate recovery, trust, switching, or exit."
+}

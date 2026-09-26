@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-black-neighborhood-startup-deficit-covid-2020-2024",
+  "title": "A long-standing Black-neighborhood startup gap narrowed sharply during COVID but did not disappear evenly",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. census tract and business-registration data from the Startup Cartography Project; NBER Working Paper 35752",
+  "geography": "Black neighborhoods across 38 U.S. states; tract-level business registrations and neighborhood categories",
+  "observations": [
+    {
+      "period": "1990–2024 business-registration series; COVID-era change and persistence through 2024",
+      "denominator": {
+        "value": 38,
+        "unit": "U.S. states represented in the study's registration-data analysis",
+        "value_type": "study_scope"
+      },
+      "measures": {
+        "baseline_pattern": {
+          "value": "long-standing Black-neighborhood startup deficit relative to comparison neighborhoods",
+          "unit": "reported tract-level entrepreneurship pattern",
+          "value_type": "reported_pattern"
+        },
+        "covid_reversal": {
+          "value": "the deficit reversed sharply in 2020, especially in neighborhoods with larger pre-existing deficits",
+          "unit": "reported change in relative startup activity",
+          "value_type": "reported_pattern"
+        },
+        "persistence_through_2024": {
+          "value": "relative entrepreneurship remained elevated through 2024 in high-deficit Black neighborhoods",
+          "unit": "reported post-2020 tract-level pattern",
+          "value_type": "reported_persistence"
+        },
+        "neighborhood_oriented_activity": {
+          "value": "neighborhood-oriented entrepreneurship also remained elevated through 2024",
+          "unit": "reported composition pattern",
+          "value_type": "reported_persistence"
+        },
+        "firm_and_household_outcomes": {
+          "value": "not observed",
+          "unit": "missing firm survival, jobs, wages, financing, ownership, customer welfare, household income, and neighborhood displacement outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Analysis of business-registration data across 38 states using the Startup Cartography Project; the public abstract describes the long-run deficit, COVID-era reversal, and persistence pattern without exposing all estimates or causal mechanisms.",
+      "uncertainty": "The public abstract does not provide every effect size, sample count, neighborhood definition, comparison rule, or mechanism estimate. Registration activity is not the same as firm survival, profitability, worker security, or resident welfare, and COVID-era changes may reflect policy, demand, migration, credit, or selection forces.",
+      "subgroup": "Black neighborhoods, especially those with larger pre-existing startup deficits, and neighborhood-oriented businesses; tract-level racial composition and business categories are study-specific.",
+      "counterinterpretation": "A relative startup increase can reflect lower comparison activity, temporary emergency or necessity entrepreneurship, changes in registration behavior, or selective migration rather than a durable improvement in local opportunity.",
+      "source_url": "https://www.nber.org/papers/w35752",
+      "retrieval_hash": "sha256:63dbff3a52b5c48071115e8829a6c66cc08684ce3b20966143736903325ccbda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/reporter/2024number2/startup-cartography-project",
+      "claim": "The Startup Cartography Project uses state business-registration records to measure the quantity, location, and early characteristics of U.S. entrepreneurship.",
+      "status": "official-data-context"
+    }
+  ],
+  "boundary": "This record adds a racialized place-level entrepreneurship pattern: a long-standing Black-neighborhood startup deficit reversed sharply in 2020 and remained relatively elevated through 2024, especially in high-deficit areas. It does not establish why the change occurred, whether firms survived, who gained income or jobs, or whether neighborhood inequality and displacement changed."
+}

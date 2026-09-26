@@ -1,0 +1,123 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-sipp-monthly-assistance-housing-pressure-context-2025",
+  "title": "Monthly assistance context coexists with housing pressure, and the pooled pattern reverses by resource context",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "2025 SIPP public-use person-month records for January–December 2024 reference period",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "January–December 2024 reference period; month-t assistance to month-t+1 outcome pairs",
+      "denominator": {
+        "value": 294814,
+        "unit": "valid person-month pairs for the relevant weighted screen across assistance-exposed and unexposed cells",
+        "value_type": "person_month_valid_pairs"
+      },
+      "measures": {
+        "assistance_exposed_pairs": {
+          "value": 4501,
+          "unit": "unweighted valid person-month pairs with EOTHAS_MNYN=Yes",
+          "value_type": "unweighted_valid_pairs"
+        },
+        "assistance_unexposed_pairs": {
+          "value": 290313,
+          "unit": "unweighted valid person-month pairs with EOTHAS_MNYN=No",
+          "value_type": "unweighted_valid_pairs"
+        },
+        "next_month_rent_mortgage_difficulty_exposed": {
+          "value": 9.15,
+          "unit": "percent; approximate 95% Fay–BRR interval 5.89–12.41",
+          "value_type": "weighted_descriptive_share"
+        },
+        "next_month_rent_mortgage_difficulty_unexposed": {
+          "value": 4.17,
+          "unit": "percent; approximate 95% Fay–BRR interval 3.75–4.58",
+          "value_type": "weighted_descriptive_share"
+        },
+        "next_month_job_count_change_exposed": {
+          "value": 2.03,
+          "unit": "percent; approximate 95% Fay–BRR interval 1.30–2.77",
+          "value_type": "weighted_descriptive_share"
+        },
+        "next_month_job_count_change_unexposed": {
+          "value": 1.71,
+          "unit": "percent; approximate 95% Fay–BRR interval 1.62–1.79",
+          "value_type": "weighted_descriptive_share"
+        },
+        "next_month_poverty_band_change_exposed": {
+          "value": 3.34,
+          "unit": "percent; approximate 95% Fay–BRR interval 2.43–4.25",
+          "value_type": "weighted_descriptive_share"
+        },
+        "next_month_poverty_band_change_unexposed": {
+          "value": 3.48,
+          "unit": "percent; approximate 95% Fay–BRR interval 3.29–3.67",
+          "value_type": "weighted_descriptive_share"
+        }
+      },
+      "method": "The screen used WPFINWGT from month t and 240 Census Fay–BRR replicate weights with perturbation factor 0.5. It retained person-month keys and compared month-t EOTHAS_MNYN, defined by the Census catalog as monthly other clothing or housing assistance, with next-month job-count movement, poverty-band movement, and reported inability to pay rent or mortgage.",
+      "uncertainty": "These are design-based intervals around weighted descriptive cells, not adjustment for selection into assistance and not causal confidence intervals. EOTHAS_MNYN combines clothing or housing assistance and does not identify a HUD program, amount, adequacy, application, or response route.",
+      "subgroup": "Persons with valid month-t assistance and month-t+1 outcome fields in the 2025 SIPP public-use file; household-level fields repeated on person records are not household prevalence estimates.",
+      "counterinterpretation": "Assistance may be targeted to people already under housing pressure, may protect some low-resource renters, or may be too small or mismatched for other groups. The later stratified audit shows the pooled housing-difficulty contrast changes direction across renter tenure and income-to-poverty contexts.",
+      "source_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/pu2025_csv.zip",
+      "retrieval_hash": "sha256:570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+      "status": "estimated"
+    },
+    {
+      "period": "January–December 2024 reference period; month-t renter and owner/buyer strata",
+      "denominator": {
+        "value": 8,
+        "unit": "tenure-by-income-to-poverty context cells with exposed and unexposed comparisons",
+        "value_type": "stratified_context_cells"
+      },
+      "measures": {
+        "renter_below_2x_poverty_direction": {
+          "value": "Exposed renters below 2× poverty had lower reported next-month difficulty than unexposed renters in both below-1× and 1–2× strata",
+          "unit": "stratified weighted comparison",
+          "value_type": "reported_directional_pattern"
+        },
+        "renter_above_2x_poverty_direction": {
+          "value": "The direction reversed in the 2–4× and 4×+ renter strata, with exposed difficulty estimates above unexposed estimates",
+          "unit": "stratified weighted comparison",
+          "value_type": "reported_directional_pattern"
+        },
+        "owner_exposed_precision": {
+          "value": "Exposed owner/buyer cells were small and had wide intervals; the 4×+ zero estimate is not evidence of no risk",
+          "unit": "stratified precision boundary",
+          "value_type": "reported_boundary"
+        }
+      },
+      "method": "The pooled screen was crossed by month-t tenure context and income-to-poverty band before comparing the same next-month reported housing-difficulty outcome, retaining Fay–BRR uncertainty.",
+      "uncertainty": "ETENURE is interview-period context rather than a monthly move transition. The exposed owner cells are sparse and imprecise, and the assistance field combines clothing and housing routes.",
+      "subgroup": "Renter and owner/buyer persons grouped by month-t income-to-poverty band.",
+      "counterinterpretation": "The reversal may reflect selection, protection, different housing-cost structures, assistance mismatch, or composition rather than a causal effect of assistance.",
+      "source_url": "https://api.census.gov/data/2025/sipp/variables.html",
+      "retrieval_hash": "sha256:3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+      "claim": "Official Census SIPP data page documents the 2025 public-use release.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://api.census.gov/data/2025/sipp/variables.html",
+      "claim": "Official Census variable catalog supplies field definitions and timing context.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This record adds a same-person descriptive bridge from monthly other assistance context to next-month housing difficulty, work, and resource movement, plus a stratified counterexample. It does not establish a causal assistance effect, HUD program receipt, benefit adequacy, alternatives, landlord or agency response, arrears, eviction, homelessness, verified recovery, trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Primary and replicate archive hashes are preserved in the local SIPP timing and weighted-screen machine-readable summaries; the large raw respondent archive remains outside Git.",
+    "checked": "2026-09-25"
+  }
+}

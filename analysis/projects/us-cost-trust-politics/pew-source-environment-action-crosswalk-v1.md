@@ -1,6 +1,6 @@
 # Pew source environment and civic-action crosswalk v1
 
-**Checked:** 2026-09-12
+**Checked:** 2026-09-25
 **Unit:** US adult respondent and public news-influencer account; separate Pew studies
 **Status:** reported population/content comparison; not a media-effects or political-causation estimate
 
@@ -44,6 +44,72 @@ source environment
 5. **Material pressure needs a measured middle.** SHED, ANES, and CPS provide
    separate material, trust, judgment, and turnout layers; this crosswalk adds
    source environment and civic-style structure without falsely joining them.
+
+## July material-pressure bridge: capacity before civic style
+
+The July 2026 Census Household Trends and Outlook Pulse Survey (HTOPS) provides
+the closest current same-respondent bridge to this source-and-action map. The
+public-use file contains 12,088 respondents with valid expense-difficulty
+responses. Within those respondents, difficulty paying expenses is associated
+with a sharply different social-capacity and authority profile:
+
+| July expense-difficulty group | Lonely always/usually | Support always/usually | Food sometimes/often not enough | Doctor trust great deal/quite a lot | Federal-statistics trust great deal/quite a lot | Congress confidence great deal/quite a lot |
+|---|---:|---:|---:|---:|---:|---:|
+| No difficulty | 1.70% | 75.12% | 1.62% | 74.05% | 53.91% | 19.33% |
+| A little difficulty | 11.39% | 60.69% | 4.64% | 69.86% | 44.73% | 13.11% |
+| Somewhat difficult | 22.52% | 43.12% | 20.81% | 60.23% | 36.65% | 12.81% |
+| Very difficult | 22.83% | 39.48% | 33.04% | 54.79% | 29.59% | 9.21% |
+
+AI authority does not move in the same direction: confidence that AI will
+provide accurate and complete information is 16.07%, 16.23%, 17.02%, and
+13.75% across the same four groups. That non-movement is analytically useful:
+material pressure appears to narrow some established support and institutional
+authority channels without automatically producing generalized distrust or a
+uniform substitute-authority effect.
+
+The Census release is a cross-sectional July snapshot, not a panel. The table
+describes conditional differences inside one public-use file; it does not show
+that expense difficulty caused loneliness, distrust, or a particular civic
+style. The public release's detailed tables and public-use files are available
+from [Census HTOPS July 2026 tables](https://www.census.gov/data/tables/2026/demo/hhp/2607.html)
+and the [HTOPS public-use-file page](https://www.census.gov/programs-surveys/household-pulse-survey/data/tables.html).
+
+## Three-source synthesis: what can be joined conceptually
+
+The Census, Pew, and Gallup layers can be aligned by stage, but their samples
+must remain separate:
+
+| Layer | Directly measured | Careful cross-source reading | Not established |
+|---|---|---|---|
+| July HTOPS same-record screen | Material room, loneliness, support, food adequacy, doctor/AI/statistics/Congress authority | Unequal practical room is associated with unequal access to support and confidence in several authorities; AI confidence is comparatively flat | A causal path, source exposure, attribution, switching, voting, or withdrawal |
+| Pew public-life engagement groups | Voting, contacting officials, volunteering, religious attendance, news trust, political interest, and four descriptive engagement profiles | Civic participation is multidimensional; high activity does not equal uniformly high federal trust or one shared information route | Whether material pressure produced a profile, or whether a source caused action |
+| Gallup institutional confidence | Institution-specific confidence across public and private institutions, including small business and large technology companies | Legitimacy is fragmented by institution and political context; people may depend on institutions whose confidence ratings are low | Actual use, performance, remedy, exit cost, or behavior of the same respondents |
+
+Taken together, these sources support a bounded synthesis: **American civic
+authority is fragmented under unequal practical room.** Material difficulty is
+linked within the July file to thinner support and lower confidence in several
+established authorities. Pew shows that people then occupy different
+participation styles rather than one engagement ladder. Gallup shows that
+confidence is institution-specific and politically conditioned rather than a
+single generalized attitude. This is a cross-source inference, not a joined
+respondent estimate.
+
+The open arrows remain the important part of the map:
+
+```text
+material pressure / institutional episode
+  -> available support and time
+  -> source encountered and interpretation
+  -> blamed actor and legitimacy judgment
+  -> contact, vote, volunteer, complaint, continued use, switching, or exit
+  -> institutional response and redistribution of power
+```
+
+The next strong test needs a common respondent or a designed episode study that
+observes at least material exposure, source environment, attribution, and one
+action or exit measure. Until then, the three layers should be used as linked
+constraints on the story, not pooled into a synthetic trust or engagement
+score.
 
 ## Required end-to-end comparison
 

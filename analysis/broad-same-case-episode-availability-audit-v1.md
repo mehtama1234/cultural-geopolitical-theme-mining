@@ -1,7 +1,7 @@
 # Broad same-case episode availability audit v1
 
 **Status:** stage-availability audit; no synthetic episode or causal estimate
-**Checked:** 2026-09-19
+**Checked:** 2026-09-21
 **Machine record:** [same-case episode availability audit](data/broad-same-case-episode-availability-audit-v1.json)
 
 ## Why this audit matters

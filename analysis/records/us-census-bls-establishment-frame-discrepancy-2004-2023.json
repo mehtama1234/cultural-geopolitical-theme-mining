@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-bls-establishment-frame-discrepancy-2004-2023",
+  "title": "The way agencies count workplaces changes the picture of firms, care services, and market concentration",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "Census CES Working Paper 26-36, New U.S. Business Establishments: Surging or Stalling?, using linked BLS-Census microdata",
+  "geography": "United States private sector; published establishment counts through March 2023 and linked establishment-level comparison for 2004–2016",
+  "observations": [
+    {
+      "period": "2004–2016 linked microdata; published BLS/Census counts compared through 2023",
+      "denominator": {"value": 1, "unit": "private-sector employer-establishment frame comparison between BLS/ECF/QCEW and Census/LBD/BDS", "value_type": "study_defined_comparison"},
+      "measures": {
+        "2023_establishment_gap": {"value": "about 9.2 million in BLS BDM/QCEW versus 7.5 million in Census BDS/LBD", "unit": "private-sector employer establishments in March 2023", "value_type": "reported_count"},
+        "elderly_disability_services_gap": {"value": "about 532,000 more establishments in the BLS-linked ECF than the Census LBD in 2016", "unit": "Services for the Elderly and Persons with Disabilities (NAICS 624120), thousands rounded", "value_type": "reported_count_difference"},
+        "professional_business_services_gap": {"value": "about 271,000 more establishments in the ECF than LBD among firms present in both frames in 2016", "unit": "Professional and Business Services supersector", "value_type": "reported_count_difference"},
+        "organizational_picture": {"value": "ECF portrays more small and decentralized establishments; LBD portrays fewer but larger and more consolidated reporting units", "unit": "comparative establishment-size and firm-structure interpretation", "value_type": "reported_comparison"},
+        "policy_simulation_sensitivity": {"value": "Using the two measured size distributions produces different quantitative predictions for output, employment, and productivity effects of a firm tax", "unit": "model-based policy exercise", "value_type": "model_estimate"}
+      },
+      "method": "Linked establishment-level QCEW/LEHD Employer Characteristics File and Census Longitudinal Business Database data for 2004–2016, compared with published BDM/BDS aggregates through 2023; the paper separates coverage differences from different assignment of establishments to parent firms.",
+      "uncertainty": "This is a Census CES working paper and not a Census Bureau publication endorsement. The frames use different administrative sources and organizational rules: Census relies mainly on IRS Form 941 and surveys, while BLS relies on state unemployment-insurance records and Multiple Worksite Reports. The linked microdata comparison ends in 2016, while the latest aggregate gap is 2023. The paper identifies measurement and frame differences, not a single true establishment count or direct causal market-concentration estimate.",
+      "subgroup": "Private-sector establishments and firms across ten supersectors, with especially large differences in at-home services for older adults and people with disabilities, and in professional and business services; government employers are excluded.",
+      "counterinterpretation": "BLS's additional records may capture real small employers that Census misses, while some records may reflect how one worker's household employer is represented rather than a standalone service firm. Census's larger employment hubs may reflect consolidation in the frame rather than greater real market power. A different size distribution changes a model's prediction but does not establish actual output, wages, care quality, or local competition.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-36.html",
+      "retrieval_hash": "sha256:c5537ee8b868e8ffd51939c79b473a9166fd2380b2e170c70fa67cd5a51583e6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-36.pdf", "claim": "Official paper PDF provides the linked BLS-Census frame comparison, industry decomposition, establishment-size consequences, and model exercise.", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a measurement-to-institutional-power mechanism: the administrative frame used to count firms can change whether the economy appears concentrated or decentralized, and can change policy predictions. It does not decide which frame is universally correct, prove actual firm power, or establish care quality, worker outcomes, consumer prices, or local economic vitality.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; confidential linked QCEW/LEHD/LBD microdata are not retained.", "pdf_sha256": "sha256:c5537ee8b868e8ffd51939c79b473a9166fd2380b2e170c70fa67cd5a51583e6", "checked": "2026-09-23"}
+}

@@ -1,7 +1,7 @@
 # Practical exit is the missing consumer-power outcome
 
 **Status:** provisional broad-program synthesis  
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Scope:** US consumer finance, housing, connectivity, payment infrastructure, household fraud, product safety, and adjacent platform-remedy cases
 
 ## Research question
@@ -28,6 +28,44 @@ The current evidence is strongest in the middle of this chain. It shows public
 visibility, institutional routing, formal review, and selected restoration. It
 does not yet provide a common consumer-level denominator for remedy adequacy,
 switching, trust change, or exit.
+
+## Latest extension: the route itself can become the harm
+
+The newest records sharpen the consumer-cultural mechanism. The problem is not
+only whether an institution eventually responds; it is whether the route to
+response changes what the person must pay, understand, prove, or risk:
+
+- **Doxo:** the FTC complaint alleges that a third-party bill-payment route
+  could look official, add fees or subscription terms, and send payment by
+  paper check after charging the consumer. The proposed controls and $2.1
+  million judgment make institutional response visible, but not bill status,
+  service continuity, household loss, or redress receipt.
+- **Cash App:** the CFPB action adds a fraud/dispute case where operational
+  correction and ordered redress are visible, but individual receipt, restored
+  account security, remaining loss, trust, and switching are not.
+- **Insurance settlements:** Virginia's regulator reports restitution and
+  prospective controls in three different matters, but payment is not the
+  same as corrected premiums, continuous coverage, completed care, or restored
+  provider access.
+- **CFPB distributions:** mailed checks, aggregate cashing rates, reissues,
+  and later redistributions show that reachability continues after a formal
+  remedy begins. A fund can persist while the harmed person remains hard to
+  locate, inform, or pay.
+
+The broader cultural insight is that people may experience recourse as
+recognition, proof work, waiting, dependence, or abandonment. Those meanings
+are not directly measured in the administrative records, but they define the
+fields required for a genuine consumer-power study: route clarity, effort,
+authority, remedy timing, practical alternatives, and what the person does
+afterward.
+
+```text
+problem or loss
+  -> route clarity and proof burden
+  -> payment, waiting, correction, or review
+  -> actual restoration or continued dependence
+  -> trust, repeat use, switching, non-use, or exit [open]
+```
 
 ## The cross-domain comparison
 

@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-social-connections-loneliness-2025",
+  "title": "Face-to-face connection is thinning across OECD societies while social disconnection becomes a policy and civic-capacity concern",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "platforms_data_attention"
+  ],
+  "source_unit": "OECD Social Connections and Loneliness in OECD Countries, comparative official-data synthesis",
+  "geography": "OECD countries; trend comparisons emphasize 21 European OECD countries, with broader OECD country comparisons where data permit",
+  "observations": [
+    {
+      "period": "2006-2022, with comparable trend evidence across 21 European OECD countries; report published 16 October 2025",
+      "denominator": {
+        "value": 21,
+        "unit": "European OECD countries with comparable face-to-face trend data",
+        "value_type": "multi_country_trend_panel"
+      },
+      "measures": {
+        "daily_face_to_face_interaction_trend": {"value": "declined", "unit": "direction of change in daily in-person interaction with friends and family between 2006, 2015, and 2022", "value_type": "reported_trend"},
+        "daily_remote_contact_trend": {"value": "increased", "unit": "direction of change in daily remote contact with friends and family over the same period", "value_type": "reported_trend"},
+        "never_lonely_share": {"value": 51, "unit": "percent reporting never feeling lonely in 2022, down from 59% in 2018 across the comparable European OECD average", "value_type": "reported_country_average"},
+        "youngest_group_never_lonely_change": {"value": -14, "unit": "percentage-point change in the share of the youngest age group reporting never feeling lonely between 2018 and 2022", "value_type": "reported_group_change"},
+        "men_frequent_loneliness_change": {"value": 5.2, "unit": "percent of men reporting loneliness most or all of the time in 2022, up from 4.7% in 2018", "value_type": "reported_group_change"}
+      },
+      "method": "OECD synthesis of large-sample official data sources, including comparable European survey modules, to compare the quantity and quality of social connections and track short- and medium-term change.",
+      "uncertainty": "The sources and indicators differ across countries and years; the report notes that the average frequent-loneliness rate changed little while the full response distribution deteriorated. These are descriptive trends, not proof that digital contact caused weaker in-person connection or that the pandemic explains all change.",
+      "subgroup": "People by age, gender, employment, income, living arrangement, and country; the strongest recent deterioration is reported among young people and, for some indicators, men.",
+      "counterinterpretation": "Remote contact may supplement relationships rather than replace them, and lower face-to-face frequency does not automatically mean lower relationship quality. Some people living alone report improving loneliness measures while remaining more exposed in absolute terms.",
+      "source_url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en.html",
+      "retrieval_hash": "sha256:172b93ebd79bb22f4834858b88ca8f8ba8c5f9a2f6ed95ca9517f65734de4f47",
+      "status": "reported"
+    },
+    {
+      "period": "2022 comparable OECD-country snapshot and 2025 policy synthesis",
+      "denominator": {
+        "value": 23,
+        "unit": "OECD countries with comparable loneliness data; other indicators use the source's specified country subsets",
+        "value_type": "multi_country_cross_section"
+      },
+      "measures": {
+        "no_one_to_count_on": {"value": 10, "unit": "percent of people in OECD-country comparisons reporting no one to count on in times of need", "value_type": "reported_country_average"},
+        "no_close_friends": {"value": 8, "unit": "percent in 22 European OECD countries reporting no close friends", "value_type": "reported_country_average"},
+        "lonely_most_or_all_time": {"value": 6, "unit": "percent in 23 OECD countries feeling lonely most or all of the time over the previous four weeks", "value_type": "reported_country_average"},
+        "unemployed_or_low_income_loneliness_gradient": {"value": 2, "unit": "approximate relative risk: unemployed people and people in the lowest income quintile are around twice as likely as the general population to report loneliness", "value_type": "reported_relative_comparison"},
+        "social_infrastructure_policy_route": {"value": "libraries, parks, community organisations, commercial gathering places, and safe online spaces are identified as policy-relevant social infrastructure", "unit": "reported intervention route", "value_type": "reported_policy_pathway"}
+      },
+      "method": "OECD comparative assessment linking social-connection outcomes to socio-economic, environmental, structural, digital, and place-based conditions, while reviewing national and local policy responses.",
+      "uncertainty": "The report states that evidence on effective interventions remains limited and requires better monitoring and evaluation. Reported associations with health, work, education, and voting do not establish that a particular social-infrastructure intervention changes those outcomes.",
+      "subgroup": "People experiencing unemployment, low income, older age, living alone, youth, men, and communities with different access to physical and digital social infrastructure.",
+      "counterinterpretation": "Policy attention to loneliness can expand public capacity and belonging, but it can also medicalize ordinary solitude or favor visible programmes over informal networks. Strong aggregate connection can conceal unequal access and weak relationship quality.",
+      "source_url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en/full-report/an-overview-of-what-social-connections-are-why-they-matter-and-how-and-for-whom-they-have-changed-in-recent-years_5af93724.html",
+      "retrieval_hash": "sha256:172b93ebd79bb22f4834858b88ca8f8ba8c5f9a2f6ed95ca9517f65734de4f47",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/social-connections-and-loneliness-in-oecd-countries_6df2d6a0-en/full-report/trends-in-social-connections-are-people-becoming-more-or-less-connected_6e2f6d9a.html", "claim": "OECD provides the comparable trend evidence on face-to-face interaction, remote contact, loneliness, age, gender, and living arrangement."},
+    {"source_url": "https://doi.org/10.1787/6df2d6a0-en", "claim": "OECD publication citation and persistent identifier."}
+  ],
+  "boundary": "This record adds an OECD-country social-connection trend and policy-capacity route distinct from the WHO global loneliness prevalence record and the World Happiness Report internet-wellbeing analysis. It does not treat remote contact as a social-media effect, infer individual isolation, or establish causal effects of pandemic disruption or social-infrastructure programmes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD publication page, executive summary, and full-report trend chapter retrieved; country subsets, trend directions, headline percentages, subgroup comparisons, and policy caveats cross-checked against official OECD materials.",
+    "html_sha256": "sha256:172b93ebd79bb22f4834858b88ca8f8ba8c5f9a2f6ed95ca9517f65734de4f47",
+    "checked": "2026-09-26"
+  }
+}

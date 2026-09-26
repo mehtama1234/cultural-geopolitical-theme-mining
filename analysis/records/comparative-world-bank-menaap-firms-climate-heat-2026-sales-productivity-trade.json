@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-menaap-firms-climate-heat-2026-sales-productivity-trade",
+  "title": "Extreme heat is already reducing firm sales, productivity, and wages in MENAAP while climate trade rules and adaptation finance reshape competitiveness",
+  "theme_ids": ["energy", "cost", "work", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "geopolitical_state_consequences", "unequal_exposure_status", "work_control_bargaining", "infrastructure_technology_dependency", "household_room_consumption"],
+  "source_unit": "World Bank, Competing in the Face of Climate Risks: Evidence from Firms and Policy Priorities in MENAAP, 2026",
+  "geography": "Middle East, North Africa, Afghanistan, and Pakistan firms, workers, sectors, trade links, and policy systems",
+  "observations": [
+    {
+      "period": "2026 report; firm exposure to extreme heat",
+      "denominator": {"value": 1, "unit": "firms in the Middle East, North Africa, Afghanistan, and Pakistan covered by World Bank climate-risk analysis", "value_type": "regional_firm_climate_frame"},
+      "measures": {
+        "firms_extreme_heat": {"value": 30, "unit": "percent of firms operating in extreme heat conditions for more than 100 days per year", "value_type": "reported_firm_share"},
+        "heat_endpoint": {"value": "rising temperatures are already affecting sales, productivity, wages, and operating conditions", "unit": "reported firm-to-worker pathway", "value_type": "reported_mechanism"},
+        "regional_exposure": {"value": "MENAAP countries are among the most water-scarce and increasingly exposed to climate risks", "unit": "reported regional condition", "value_type": "reported_context"}
+      },
+      "method": "World Bank cross-country firm-level evidence and policy analysis linking temperature exposure, firm performance, labor outcomes, and climate-responsive reforms.",
+      "uncertainty": "The regional estimate summarizes firm exposure and does not imply identical heat conditions, adaptation, or losses across countries, sectors, firm sizes, or workers.",
+      "subgroup": "Firms, workers, smaller businesses, financially constrained firms, sectors with different heat sensitivity, and communities dependent on exposed firms.",
+      "counterinterpretation": "Firms can adapt through cooling, work redesign, water management, technology, relocation, and investment; exposure is not equivalent to irreversible loss.",
+      "source_url": "https://www.worldbank.org/en/region/mena/publication/competing-in-the-face-of-climate-risks-evidence-from-firms-and-policy-priorities-in-menaap",
+      "retrieval_hash": "sha256:c48f6f6908caaacfa71bbccd593fa41ce0b1418b1683685fcef1db15797fa34e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; estimated marginal effect of additional hot days",
+      "denominator": {"value": 1, "unit": "firm-level temperature-performance relationship estimated in the World Bank report", "value_type": "firm_panel_estimate_frame"},
+      "measures": {
+        "additional_hot_days": {"value": 17, "unit": "additional extreme-heat days per year", "value_type": "reported_exposure_change"},
+        "sales_change": {"value": -6, "unit": "percent associated change in sales", "value_type": "reported_estimated_effect"},
+        "labor_productivity_change": {"value": -4, "unit": "percent associated change in labor productivity", "value_type": "reported_estimated_effect"},
+        "wage_change": {"value": -8, "unit": "percent associated change in wages", "value_type": "reported_estimated_effect"}
+      },
+      "method": "World Bank firm-level empirical analysis of temperature changes and outcomes, with sector and country comparisons and adaptation-policy interpretation.",
+      "uncertainty": "These are reported estimated associations from the study’s specification, not universal causal constants; adaptation, baseline climate, sector mix, measurement, and omitted factors can change the relationship.",
+      "subgroup": "Firms and workers in heat-exposed sectors, with particular attention to smaller and more financially constrained firms facing larger losses.",
+      "counterinterpretation": "Observed losses can be reduced by adaptation investment, financing, management changes, cooling, water efficiency, and occupational protections; some firms or sectors may benefit from climate shifts.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/06/22/delivering-a-double-dividend-for-menaap-firms-in-extreme-heat-new-world-bank-report",
+      "retrieval_hash": "sha256:c48f6f6908caaacfa71bbccd593fa41ce0b1418b1683685fcef1db15797fa34e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; climate-related trade measures and competitiveness",
+      "denominator": {"value": 1, "unit": "MENAAP firms and sectors exposed to destination-market climate mitigation policies", "value_type": "trade_competitiveness_frame"},
+      "measures": {
+        "trade_policy_route": {"value": "EU and UK carbon-border adjustment policies can affect exports, investment patterns, and sector competitiveness", "unit": "reported trade-policy mechanism", "value_type": "reported_mechanism"},
+        "carbon_intensive_sectors": {"value": "carbon-intensive sectors face particular exposure to changing destination-market requirements", "unit": "reported sector pattern", "value_type": "reported_risk_pattern"},
+        "firm_response": {"value": "green competitiveness, emissions measurement, energy efficiency, and access to adaptation finance become competitive capabilities", "unit": "reported firm-response route", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "World Bank analysis of MENAAP firm exposure to climate-related trade measures, including EU and UK CBAM channels, foreign investment, and sector competitiveness.",
+      "uncertainty": "Trade-policy effects depend on implementation, exemptions, embedded-emissions measurement, exchange rates, firm adaptation, and destination-market demand; the report does not imply uniform export losses.",
+      "subgroup": "Exporters, carbon-intensive industries, small and large firms, foreign investors, trade authorities, workers, and destination-market buyers.",
+      "counterinterpretation": "Climate standards can create incentives for cleaner production, new investment, and market access if firms receive finance, measurement capacity, technology, and predictable rules.",
+      "source_url": "https://www.worldbank.org/en/region/mena/publication/competing-in-the-face-of-climate-risks-evidence-from-firms-and-policy-priorities-in-menaap",
+      "retrieval_hash": "sha256:c48f6f6908caaacfa71bbccd593fa41ce0b1418b1683685fcef1db15797fa34e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; adaptation and opportunity pathway",
+      "denominator": {"value": 1, "unit": "MENAAP private-sector adaptation and climate-opportunity policy frame", "value_type": "adaptation_opportunity_frame"},
+      "measures": {
+        "cooling_opportunity": {"value": 46, "unit": "billion US dollars projected size of a sustainable cooling industry opportunity", "value_type": "reported_projection"},
+        "double_dividend": {"value": "climate-responsive reforms can help firms adapt while addressing productivity, investment, and competitiveness barriers", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "priority_reforms": {"value": "improve access to finance, ease business-environment bottlenecks, support green competitiveness, and strengthen private-sector adaptation", "unit": "reported reform set", "value_type": "reported_policy_direction"}
+      },
+      "method": "World Bank policy analysis of adaptation, cooling, investment, finance, productivity, business conditions, and green-sector opportunity in MENAAP.",
+      "uncertainty": "The cooling figure is a projection, not realized investment or employment; reform benefits depend on finance, regulation, technology, energy access, and distribution of gains.",
+      "subgroup": "Cooling firms, energy providers, investors, smaller businesses, workers, households, regulators, and communities exposed to extreme heat.",
+      "counterinterpretation": "Cooling can reduce heat stress and protect productivity but may increase energy demand or affordability pressure unless efficient, low-carbon, and accessible technologies are deployed.",
+      "source_url": "https://www.worldbank.org/en/region/mena/publication/competing-in-the-face-of-climate-risks-evidence-from-firms-and-policy-priorities-in-menaap",
+      "retrieval_hash": "sha256:c48f6f6908caaacfa71bbccd593fa41ce0b1418b1683685fcef1db15797fa34e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/06/22/delivering-a-double-dividend-for-menaap-firms-in-extreme-heat-new-world-bank-report", "claim": "World Bank official release summarizes reported firm-level heat effects and the cooling opportunity."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/586", "claim": "Official reproducibility package for the report’s firm, climate, adaptation, and trade analyses."},
+    {"source_url": "https://doi.org/10.60572/d9r7-a283", "claim": "Official reproducibility-package DOI and report evidence resource."}
+  ],
+  "boundary": "This record adds a firm-climate-to-worker and trade-competitiveness route linking heat exposure, sales, productivity, wages, adaptation finance, carbon-border measures, and cooling opportunities. It is not a household heat-stress estimate, a universal causal effect, a firm census, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank report page, press release, and reproducibility catalog were reviewed; heat exposure, estimated firm effects, smaller-firm vulnerability, climate-trade channels, adaptation reforms, and cooling opportunity claims were cross-checked.",
+    "source_url_sha256": "sha256:c48f6f6908caaacfa71bbccd593fa41ce0b1418b1683685fcef1db15797fa34e",
+    "checked": "2026-09-26"
+  }
+}

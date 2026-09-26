@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-snap-sugary-drink-restrictions-consumption-stigma-2026",
+  "title": "SNAP purchase restrictions can change consumption while increasing the felt stigma of receiving aid",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 35659, using nationwide grocery-purchase panel data, pre/post recipient surveys, and a welfare model for 2026 SNAP sugary-drink restrictions",
+  "geography": "United States; first 10 states implementing SNAP sugary-drink restrictions in the first half of 2026, with comparison states and a modeled national extension",
+  "observations": [
+    {
+      "period": "First half of 2026 implementation in the first 10 states; policy approvals through July 2026",
+      "denominator": {
+        "value": 10,
+        "unit": "states implementing the first SNAP sugary-drink restrictions during the study period",
+        "value_type": "policy_exposure_scope"
+      },
+      "measures": {
+        "excluded_drink_purchases": {
+          "value": "decreased by 12.4% (standard error 1.0)",
+          "unit": "average SNAP household retail purchases of excluded drinks",
+          "value_type": "reported_estimate"
+        },
+        "partial_restriction_substitution": {
+          "value": "households partially substituted toward non-excluded sugary drinks and fruit juices; up to 39% of the excluded-calorie reduction was offset in the research brief's partial-restriction comparison",
+          "unit": "reported substitution estimate",
+          "value_type": "reported_estimate"
+        },
+        "recipient_stigma": {
+          "value": "perceptions of stigma increased by 0.10 to 0.17 standard deviations on three measures",
+          "unit": "pre/post recipient-survey comparison",
+          "value_type": "reported_estimate"
+        },
+        "modeled_national_benefit": {
+          "value": 1100000000,
+          "unit": "US dollars per year in modeled benefits from excluding all sugary drinks nationwide; about 70% is modeled as reduced health-care cost",
+          "value_type": "modeled_counterfactual"
+        },
+        "health_and_household_outcome": {
+          "value": "not directly observed",
+          "unit": "missing long-run diabetes, weight, medical spending, food security, household budget, and durable stigma outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Difference-in-differences using nationwide grocery-purchase panel data, pre/post surveys of SNAP recipients, and a welfare model combining estimated purchase changes with external health-care and behavioral parameters.",
+      "uncertainty": "The paper is a preliminary working paper. Purchase data identify retail behavior, not every consumed drink or total household food intake. The modeled national benefit depends on external parameters and does not fully price stigma or all substitution. The public abstract does not disclose complete sample counts or state-by-state estimates.",
+      "subgroup": "SNAP households in implementing and comparison states; effects are stronger among households paying for a larger share of groceries with EBT cards, with additional suggestive differences by perceived health risk. Individual health, budget, food-security, and political trajectories are not followed here.",
+      "counterinterpretation": "Restrictions may reduce purchases and improve modeled health outcomes, but households can switch to non-SNAP funds or still-eligible drinks. Increased stigma may be short-lived, uneven, or partly reflect changed survey interpretation; the study does not establish that all recipients experienced the same burden.",
+      "source_url": "https://www.nber.org/papers/w35659",
+      "retrieval_hash": "sha256:849dceacdf2cc8d458838b9acb90d478da0f0bdeb644980a8ba68716bcd9f4ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bfi.uchicago.edu/insights/the-effects-of-snap-sugary-drink-restrictions-on-consumption-and-welfare/", "claim": "Research brief gives the consumption, substitution, stigma, and modeled-welfare details used as public context.", "status": "research-brief-context"}
+  ],
+  "boundary": "This record measures short-run purchase changes, substitution, recipient perceptions of stigma, and a modeled national welfare scenario. It does not establish long-run health, household food security, total consumption, political response, or whether the policy is experienced as respectful or coercive by every recipient."
+}

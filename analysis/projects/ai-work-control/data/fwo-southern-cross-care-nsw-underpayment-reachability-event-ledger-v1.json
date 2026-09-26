@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_institutional_enforcement_followup_record",
+  "purpose": "Bounded Fair Work Ombudsman aged-care underpayment record connecting a worker's overtime question to employer self-audit, reported back-pay, payroll correction, and an unresolved locate-and-receipt boundary.",
+  "events": [
+    {
+      "event_id": "FWO-SOUTHERN-CROSS-CARE-NSW-2026-04-02",
+      "unit": "worker",
+      "geography": "New South Wales and Australian Capital Territory, Australia; Southern Cross Care aged-care, home-care, and retirement-living operations",
+      "actor_initiating_change": "worker",
+      "event_date": "2026-04-02",
+      "date_precision": "official Fair Work Ombudsman media-release date; underpayment period July 2017 to October 2024 and self-audit began in 2023",
+      "denominator": "Employer-reported 5,500 affected staff; 3,603 employees reportedly back-paid; individual case-level receipt and the full affected-worker universe are not independently audited here",
+      "method": "Structured extraction from the official Fair Work Ombudsman media release and associated enforceable undertaking",
+      "missingness": "Individual worker identity, exact underpayment, notice and claim effort, payment instrument, receipt confirmation, adequacy, household effect, later employment, trust, recurrence, health, and exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "Workers were reportedly underpaid overtime, weekend penalties, shift loadings, annual-leave loading, and other enterprise-agreement allowances because of time-and-attendance and payroll-process problems",
+      "alternatives_before_action": "The public record identifies an employee's overtime question as the trigger for self-audit but does not report individual bargaining alternatives, substitute work, household buffers, or non-use",
+      "immediate_burden_or_benefit": "Underpayment transferred wage and liquidity risk to aged-care workers over a period extending from 2017 to 2024; the initiating worker's question created an institutional route to review",
+      "choice_or_response": "An employee asked about overtime; the employer initiated a self-audit, self-reported non-compliance to the Ombudsman, and entered an enforceable undertaking; the Ombudsman required rectification and compliance controls",
+      "person_or_actor_with_control": "The employer controlled payroll, time systems, records, and payment; workers controlled whether to raise questions; the Fair Work Ombudsman controlled enforcement and undertaking oversight",
+      "remedy_or_institutional_response": "Southern Cross Care reported back-paying 3,603 employees $10,135,122 including interest and superannuation, and the undertaking requires continued efforts to locate and pay affected employees, payroll-system improvement, and compliance measures",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The official release reports back-pay to 3,603 employees and states that wages for workers who cannot be found after 60 days will be paid into the Commonwealth Consolidated Revenue Fund; individual receipt and the remaining-worker count are not verified here",
+      "durability_followup": "The undertaking creates payroll, training, audit, and reporting controls, but recurrence, worker-level correction, later pay accuracy, and durable household recovery are unknown",
+      "immediate_outcome": "A worker question produced employer investigation, public enforcement, reported monetary correction, and a formal compliance route",
+      "protected_outcome": "Some affected workers reportedly received back-pay with interest and superannuation, while the firm accepted obligations to improve payroll and compliance systems",
+      "sacrificed_outcome": "Workers bore delayed or missing wage income and the burden of identifying or pursuing errors; unlocated workers may not receive funds directly even when the institution records a recovery route",
+      "cost_risk_transfer": "Payroll and compliance failure shifted wage risk to workers; the undertaking shifted formal correction, locate, audit, training, and reporting obligations back to the employer",
+      "later_outcome": "The public record reaches reported payment for 3,603 workers and a locate-and-remit rule, but not individual adequacy, household security, trust, recurrence, or exit",
+      "meaning_and_attribution": "The institutional record attributes the problem to payroll and enterprise-agreement application failures; no worker-level trust, dignity, or meaning measure is retained",
+      "public_or_collective_response": "A worker question and employer self-report initiated the route; no later worker collective action, political response, or worker-voice outcome is reported",
+      "counterexample": "A worker can trigger a large institutional correction while aggregate back-pay and system-repair reporting still leave individual reachability, adequacy, and durable recovery unresolved",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Fair Work Ombudsman release dated 2026-04-02 and associated enforceable undertaking; reported payment totals and locate rule are institutional claims, not independently audited worker receipts",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/april-2026/20260402-southern-cross-care-nsw-and-act-eu-media-release"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWO-SOUTHERN-CROSS-A-01",
+      "from": "worker overtime question",
+      "to": "employer self-audit and regulatory self-report",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official release says an employee's question about overtime led to a 2023 self-audit and that the employer self-reported non-compliance in November 2023",
+      "status": "reported",
+      "counterexample": "A worker question does not show that other affected workers can safely identify or raise the same issue",
+      "remaining_gap": "Worker identity, effort, fear, representation, delay, and reason the question was possible"
+    },
+    {
+      "arrow_id": "FWO-SOUTHERN-CROSS-A-02",
+      "from": "payroll and enterprise-agreement failures",
+      "to": "underpayment of affected workers",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official release attributes underpayments to time-and-attendance and manual payroll processes and reports affected overtime, penalties, loadings, and allowances",
+      "status": "reported",
+      "counterexample": "The public aggregate release does not independently verify each worker's amount or the full affected-worker denominator",
+      "remaining_gap": "Worker-level pay calculation, records, notice, and counterfactual earnings"
+    },
+    {
+      "arrow_id": "FWO-SOUTHERN-CROSS-A-03",
+      "from": "employer self-audit and enforceable undertaking",
+      "to": "reported back-pay and compliance correction",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The release reports $10,135,122 including interest and superannuation paid to 3,603 employees and a broader undertaking exceeding $11.7 million with compliance obligations",
+      "status": "reported",
+      "counterexample": "Firm-reported aggregate correction is not the same as verified receipt for each affected worker",
+      "remaining_gap": "Remaining-worker count, individual transfer timing, payment completeness, adequacy, and system implementation"
+    },
+    {
+      "arrow_id": "FWO-SOUTHERN-CROSS-A-04",
+      "from": "reported back-pay process",
+      "to": "direct worker reachability",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The undertaking requires reasonable steps to locate affected employees, while the release states that amounts for workers not found within 60 days go to the Commonwealth Consolidated Revenue Fund",
+      "status": "reported",
+      "counterexample": "Funds transferred to a public account may represent institutional disposition without usable worker receipt",
+      "remaining_gap": "Same-worker locate outcome, notice, claim route, receipt, and later use"
+    },
+    {
+      "arrow_id": "FWO-SOUTHERN-CROSS-A-05",
+      "from": "reported back-pay and payroll controls",
+      "to": "durable pay accuracy, household security, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public follow-up describes correction and future compliance measures but provides no worker-level recurrence, household, trust, or employment follow-up",
+      "status": "open",
+      "counterexample": "A corrected payroll process and reported payment can coexist with residual loss, unresolved trust, or later exit",
+      "remaining_gap": "Later pay records, recurrence audit, household outcome, worker trust, continued work, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a bounded worker-triggered institutional-response and reported back-pay segment. It does not establish complete worker reachability, adequacy, durable payroll compliance, household recovery, prevalence, or a general enforcement success rate.",
+  "storage_boundary": "No worker, payroll, bank, or restricted data is retained; only official aggregate claims, the locate rule, and explicitly open downstream arrows are represented."
+}

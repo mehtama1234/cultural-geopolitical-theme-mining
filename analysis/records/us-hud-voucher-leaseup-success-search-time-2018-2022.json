@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hud-voucher-leaseup-success-search-time-2018-2022",
+  "title": "A housing voucher can exist while the private-market search remains the practical gate to using it",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "HUD summary of NYU Furman Center study using Housing Choice Voucher administrative records; search events and lease-up outcomes, not a same-household wellbeing panel",
+  "geography": "United States Housing Choice Voucher program; national and PHA-level administrative estimates for 2018-2022",
+  "observations": [
+    {
+      "period": "2018-2022",
+      "denominator": {
+        "value": 1,
+        "unit": "Housing Choice Voucher search events represented in the study's administrative-data estimates",
+        "value_type": "study_defined_search_event_denominator"
+      },
+      "measures": {
+        "success_rate_2018_to_2020": {
+          "value": "approximately 65%",
+          "unit": "share of voucher searches resulting in a successful lease-up",
+          "value_type": "reported_estimate"
+        },
+        "success_rate_2021_to_2022": {
+          "value": "approximately 58%",
+          "unit": "share of voucher searches resulting in a successful lease-up",
+          "value_type": "reported_estimate"
+        },
+        "search_time": {
+          "value": "increased across the study period",
+          "unit": "elapsed time from voucher issuance to successful lease-up",
+          "value_type": "reported_trend"
+        },
+        "place_variation": {
+          "value": "success rates and search times varied substantially across public housing agencies; rural counties generally had lower success rates, while high-rent counties had higher success rates and longer searches",
+          "unit": "PHA/county comparison",
+          "value_type": "reported_comparison"
+        },
+        "household_security": {
+          "value": "not observed",
+          "unit": "missing household notice, search burden, rent paid, unit quality, neighborhood outcome, continuity, and durable housing security",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of HUD's July 2025 summary of the NYU Furman Center study, which uses HUD administrative records to estimate voucher search success and search duration; reported rates are kept separate from household-level experience and causal explanation.",
+      "uncertainty": "The summary reports national and place variation but does not identify each household's search effort, landlord refusals, transportation, disability or care constraints, notice timing, unit quality, rent burden, or later stay/move outcome. The success-rate denominator is a study-defined search-event construct, not all eligible households.",
+      "subgroup": "New Housing Choice Voucher recipients and participating public housing agencies; rural/urban and rent-market comparisons are reported, but subgroup mechanisms and household outcomes are not linked.",
+      "counterinterpretation": "A lower lease-up rate can reflect tight supply, payment standards, landlord participation, administrative timing, household search constraints, or data-record differences; a higher rate in high-rent counties does not mean those households experienced better affordability or neighborhood quality.",
+      "source_url": "https://www.huduser.gov/portal/pdredge/pdr-edge-featd-article-072425.html",
+      "retrieval_hash": "sha256:7d27ddf12b2a1d21d8c0bb2d7f8b5a3c6e9f4a1b0c8d7e6f5a4b3c2d1e0f9a8b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.huduser.gov/portal/publications/Using-HUD-Administrative-Data-to-Estimate-Success-Rates.html",
+      "claim": "HUD describes the administrative-data method for estimating voucher success rates and search durations.",
+      "status": "official-method-context"
+    }
+  ],
+  "boundary": "This record adds a concrete conversion from nominal housing assistance to private-market search, lease-up, and time burden. It does not establish why a search failed, whether the household received adequate housing, or whether the voucher changed durable housing security, mobility, trust, or political action."
+}

@@ -1,0 +1,98 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-transportation-cost-time-access-2024",
+  "title": "Movement buys access but consumes a large share of household money and work time",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "2024 US Consumer Expenditure Survey averages and 2024 American Community Survey commuting estimates; separate national source units",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; Consumer Expenditure Survey consumer units",
+      "denominator": {
+        "value": null,
+        "unit": "BLS Consumer Expenditure Survey consumer-unit sample; denominator not stated on the summary page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "annual_transportation_spending": {
+          "value": 13318,
+          "unit": "average US dollars per consumer unit",
+          "value_type": "reported_average"
+        },
+        "transportation_share": {
+          "value": 17.0,
+          "unit": "percent of average annual expenditures",
+          "value_type": "reported_share"
+        },
+        "vehicle_insurance_spending_change": {
+          "value": 12.3,
+          "unit": "percent increase in vehicle-insurance spending from 2023 to 2024",
+          "value_type": "reported_change"
+        },
+        "housing_plus_transport_share": {
+          "value": 50.4,
+          "unit": "percent of average annual expenditures; housing 33.4% plus transportation 17.0%, derived from BLS rounded shares",
+          "value_type": "derived_sum"
+        }
+      },
+      "method": "Official BLS Consumer Expenditure Survey summary of average spending by consumer units. Transportation includes vehicle purchases, fuel, vehicle expenses, vehicle insurance, and public/other transportation under the BLS classification.",
+      "uncertainty": "An average consumer-unit budget does not identify income, disability, tenure, place, vehicle ownership, mode choice, repair shocks, or what access the spending purchased. The housing-plus-transport sum uses rounded published shares and is a descriptive budget composition, not a household burden rate.",
+      "subgroup": "All surveyed US consumer units in the BLS summary; no subgroup estimate is claimed here.",
+      "counterinterpretation": "Higher transportation spending can purchase access to better jobs, schools, food, care, or housing. Cost alone is not proof of worse welfare or reduced mobility.",
+      "source_url": "https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm",
+      "retrieval_hash": "sha256:d9d5277bfb52d6c2d54c19990b7c17d68a148eb397db64737e10c29e9f728de9",
+      "status": "reported"
+    },
+    {
+      "period": "2024; American Community Survey 1-year commuting estimates",
+      "denominator": {
+        "value": 100,
+        "unit": "published percentage base for US workers; travel-time mean applies to workers who did not work at home",
+        "value_type": "reported_percentage_base"
+      },
+      "measures": {
+        "mean_one_way_travel_time": {
+          "value": 27.2,
+          "unit": "minutes to work; US mean one-way travel time",
+          "value_type": "reported_mean"
+        },
+        "workers_with_60_plus_minute_trip": {
+          "value": 9.3,
+          "unit": "percent of workers with a one-way travel time of at least 60 minutes",
+          "value_type": "reported_share"
+        },
+        "public_transportation_share": {
+          "value": 3.7,
+          "unit": "percent of workers using public transportation to work",
+          "value_type": "reported_share"
+        },
+        "worked_from_home_share": {
+          "value": 13.3,
+          "unit": "percent of workers working from home",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Official Census Bureau ACS 1-year commuting summary sourced from Table S0801; means and shares are national estimates, not linked to BLS spending records.",
+      "uncertainty": "The commuting surface covers work travel, not trips for food, care, school, shopping, or public services. It does not identify vehicle cost, transit reliability, disability, childcare, job alternatives, or household time trade-offs.",
+      "subgroup": "US workers in the ACS commuting universe; people outside the workforce and non-work travel are not represented in these measures.",
+      "counterinterpretation": "A shorter commute or working from home is not automatically better: it may reflect job access, housing choice, work constraints, or an occupation that cannot be done remotely.",
+      "source_url": "https://www.census.gov/topics/employment/commuting/guidance/acs-1yr.html",
+      "retrieval_hash": "sha256:1e59b212ee7dd0391582378cbdaa4ec39022def217c59e8c893b09daea80d46e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w19922",
+      "claim": "A separate older US study models the value of place using wages, rents, and commuting costs; it is not pooled with these 2024 descriptive estimates.",
+      "status": "research-companion-kept-separate"
+    }
+  ],
+  "boundary": "These two official sources show the money and work-time price of movement at national scale, while preserving that transportation can also create access. They do not establish a same-household transportation burden, mode substitution, service reliability, work or care outcome, place attachment, political meaning, or later mobility. The BLS and ACS source units are not joined."
+}

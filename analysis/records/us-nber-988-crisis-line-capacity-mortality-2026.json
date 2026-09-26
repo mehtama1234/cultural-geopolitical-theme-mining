@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-988-crisis-line-capacity-mortality-2026",
+  "title": "988 can improve crisis-line operations without producing a detectable short-run mortality change",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "NBER Working Paper 35601, difference-in-differences evaluation of the July 2022 988 implementation",
+  "geography": "United States states with differing pre-988 crisis-line capacity gaps and national suicide-mortality and mental-health outcomes",
+  "observations": [
+    {
+      "period": "July 2022 988 rollout and post-implementation short-run period",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. states and population outcomes in the study's cross-state panel; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "crisis_line_operations": {
+          "value": "states with larger pre-988 capacity gaps answered more calls in-state and increased their in-state answer rates",
+          "unit": "reported difference-in-differences operational effect",
+          "value_type": "reported_effect"
+        },
+        "suicide_mortality": {
+          "value": "no detectable short-run reduction; estimates are precise enough to rule out even modest reductions",
+          "unit": "reported mortality outcome",
+          "value_type": "reported_null_effect"
+        },
+        "broader_mental_health": {
+          "value": "no statistically significant improvement in broader population mental-health outcomes",
+          "unit": "reported population outcome",
+          "value_type": "reported_null_effect"
+        },
+        "downstream_crisis_care": {
+          "value": "not observed in the public abstract",
+          "unit": "missing caller-level connection to counseling, emergency dispatch, treatment, safety planning, repeat contact, and longer-run recovery",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Difference-in-differences design using pre-existing cross-state variation in crisis-line capacity gaps, measured by pre-988 calls routed to a state but not answered in-state; operational, mortality, and broader mental-health endpoints are kept separate.",
+      "uncertainty": "The public abstract does not disclose exact state and observation counts, the complete post-implementation horizon, subgroup effects, or the full crisis-care pathway. A population-level mortality null does not show that no caller benefited or that later effects cannot emerge.",
+      "subgroup": "States differentiated by baseline crisis-line capacity gaps; callers, age groups, race, gender, firearm access, local crisis systems, and people receiving follow-up care are not linked in the abstract.",
+      "counterinterpretation": "988 may improve access, connection, or immediate safety for some people without moving short-run population mortality. Mortality may require downstream treatment, housing, social support, means safety, or repeated care that a hotline alone cannot provide.",
+      "source_url": "https://www.nber.org/papers/w35601",
+      "retrieval_hash": "sha256:1a6138e1fb93cb09f4794bf882076a8ad543e16b4ba2408fc4ba7abdd47a6cc5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures an operational gain from 988 implementation and null short-run population outcomes for suicide mortality and broader mental health. It does not establish no individual benefit, no change in crisis access, or a complete test of the downstream care and social-support system."
+}

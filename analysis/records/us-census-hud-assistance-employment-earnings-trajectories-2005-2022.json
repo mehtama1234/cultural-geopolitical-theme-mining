@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-hud-assistance-employment-earnings-trajectories-2005-2022",
+  "title": "Housing assistance and work move together over time, but entry and exit patterns are not a causal welfare estimate",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "work_control_bargaining", "household_room_consumption", "care_health_reproduction", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-31, Employment and Earnings Trajectories of HUD Program Participants, linked HUD and LEHD administrative records",
+  "geography": "United States; HUD program participants and low-income ACS comparison groups, with HUD records from 2005–2022 and LEHD earnings records from 2000–2023",
+  "observations": [
+    {
+      "period": "First-time HUD entry cohorts 2005–2014; exit cohorts 2005–2011; up to 14 years around entry or exit",
+      "denominator": {"value": 2086000, "unit": "rounded working-age adult observations in the first-time entrant analysis; person-level unique counts and exit samples are separately defined in the paper", "value_type": "reported_observation_count"},
+      "measures": {
+        "entry_earnings_trend": {"value": "earnings declined by about $112 per year in the four years before entry and rose by about $174 per year in the ten years after entry", "unit": "2022 dollars per year; first-time HUD entrants", "value_type": "reported_trend"},
+        "entry_earnings_break": {"value": "+$286 per year change in earnings slope after entry; about $228 greater than the adjusted low-income ACS comparison trend", "unit": "trend-break comparison", "value_type": "reported_association"},
+        "entry_employment_break": {"value": "+1.45 percentage points per year change in employment slope after entry; about 2.33 points per year above the adjusted ACS comparison trend", "unit": "trend-break comparison", "value_type": "reported_association"},
+        "exit_earnings_break": {"value": "earnings rose before exit and then flattened; the post-exit slope fell by about $244 per year, about $268 below the HUD-stayer comparison", "unit": "2022 dollars per year; eventual HUD leavers", "value_type": "reported_association"},
+        "exit_employment_break": {"value": "employment rose before exit and then flattened; the post-exit slope fell by about 1.05 percentage points per year, about 2.06 points below the HUD-stayer comparison", "unit": "annual employment-rate trend", "value_type": "reported_association"}
+      },
+      "method": "Person-level linkage of HUD PIC/TRACS records to LEHD employer-employee earnings records using protected identifiers, with ACS low-income renters as an entry comparison and HUD stayers as an exit comparison. Event-time trend plots and reweighted comparisons cover employment and quarterly earnings before and after entry or exit.",
+      "uncertainty": "This is a Census CES working paper and does not represent Census Bureau or HUD endorsement. The study is observational around program entry and exit: entrants and leavers have different pre-trends and unmeasured differences in education, disability, household structure, occupation, health, and need. The authors describe the post-entry and post-exit changes as suggestive associations, not causal effects. Earnings records omit some work and do not measure rent burden, housing quality, location, care, job quality, or household wellbeing.",
+      "subgroup": "Working-age adults entering or exiting Housing Choice Voucher, public housing, project-based Section 8, and other multifamily programs; comparisons examine sex, race, disability, household structure, age, region, and program type, with subgroup levels differing substantially.",
+      "counterinterpretation": "Housing assistance may free money and time for transport, childcare, clothing, health, or job search, but entry may also coincide with changing need, a move, case management, local labor-market recovery, or regression to the mean. Exits may be positive moves, negative loss of assistance, or neutral household changes, and the administrative exit record does not establish which. A work improvement can therefore coexist with unresolved housing quality, care burden, or security.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-31.html",
+      "retrieval_hash": "sha256:3f563c6242537e0ce14c233153e68fe1fee6a5cc7fb175ee85bc3364ef06d7f6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-31.pdf", "claim": "Official paper PDF provides the HUD/LEHD linkage, entry and exit samples, trend estimates, comparison groups, subgroup results, and limitations.", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a rare longitudinal public-benefit-to-work interface: housing assistance and labor-market trajectories change around entry and exit, but the design does not identify a clean causal effect or complete household outcome. It does not show that assistance caused employment, that exit caused decline, or that earnings changes mean improved housing security, care capacity, dignity, or political trust.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; confidential HUD, LEHD, ACS, and Census linkage data are not retained.", "pdf_sha256": "sha256:3f563c6242537e0ce14c233153e68fe1fee6a5cc7fb175ee85bc3364ef06d7f6", "checked": "2026-09-23"}
+}

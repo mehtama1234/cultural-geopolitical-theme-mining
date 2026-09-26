@@ -1,0 +1,73 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "panel_survey_reported_material_judgment_action_record",
+  "purpose": "Bounded ANES 2016–2020–2024 panel route from pre-election financial worry through federal-government trust and post-election reported vote, preserving identity, attribution, remedy, and later action limits.",
+  "events": [
+    {
+      "event_id": "ANES-PANEL-WORRY-TRUST-VOTE-2024",
+      "unit": "case",
+      "geography": "United States; 2016–2020–2024 ANES Panel Merged Study subset",
+      "actor_initiating_change": "unknown",
+      "event_date": "2024-09-01",
+      "date_precision": "2024 pre-election panel wave anchor; exact respondent interview dates are not retained",
+      "denominator": "2,154 valid weighted observations for worry × federal trust and 1,699 for pre-election worry × post-election reported presidential vote; panel subset, not full 2024 cross-section",
+      "method": "Official ANES 2024 Full Release SDA weighted descriptive cross-tabs using the 2016–2020–2024 panel subset and complex-design standard errors",
+      "missingness": "No dated bill, price, employer, household shock, responsible actor, alternative, remedy, recovery, later institutional response, or validated vote record is retained",
+      "condition_or_decision": "income",
+      "exposure": "Respondents reported pre-election financial worry ranging from not at all to extremely worried",
+      "alternatives_before_action": "Household financial alternatives, adaptation, borrowing, support, and non-use are not observed in the panel cross-tabs",
+      "immediate_burden_or_benefit": "Financial worry is a subjective material-pressure signal; the underlying price, bill, income change, or household consequence is not identified",
+      "choice_or_response": "Pre-election worry is compared with federal-government trust and post-election reported presidential vote; the cross-tabs do not identify the respondent's political reasoning or attribution",
+      "person_or_actor_with_control": "Respondents report worry and vote; parties, candidates, media, prior identity, and institutions may shape interpretation, but no actor-level episode is retained",
+      "remedy_or_institutional_response": "No remedy or institutional response to a dated material event is observed",
+      "immediate_outcome": "The panel supplies a temporally ordered descriptive material-attitude-action surface",
+      "protected_outcome": "Political judgment or vote choice may provide a channel for expressing material concern; no policy or material protection is observed",
+      "sacrificed_outcome": "Household financial burden, unmet need, and any practical sacrifice are not measured",
+      "cost_risk_transfer": "No transfer of cost, risk, information, or power can be assigned from the cross-tabs",
+      "later_outcome": "No later policy response, trust persistence, household recovery, switching, political organizing, or exit is observed",
+      "meaning_and_attribution": "Federal-government trust and reported vote provide institutional and political meaning surfaces, but prior party identity and information remain major alternative explanations",
+      "public_or_collective_response": "Reported vote is observed after the pre-election worry measure; turnout, contact, organizing, policy response, and collective action are not linked",
+      "counterexample": "The relationship is non-monotonic in trust and can reflect identity persistence or political interpretation rather than a direct material-to-vote mechanism",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official ANES SDA descriptive panel cross-tabs; panel retention, self-report, confounding, and lack of a direct material event prevent causal interpretation",
+      "source_url": "https://sda.berkeley.edu/sdaweb/analysis/?dataset=anes2024full"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "ANES-WORRY-A-01",
+      "from": "pre-election financial worry",
+      "to": "federal-government trust judgment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The panel cross-tab places pre-election worry and pre-election federal-government trust in the same retained panel subset; the extremely worried group has 70.3% in some/never trust versus 51.9% among the not-at-all worried group",
+      "status": "reported",
+      "counterexample": "The pattern is non-monotonic and can reflect prior party identity, information, retrospective judgment, or selection into the retained panel",
+      "remaining_gap": "Dated material event, prior trust/identity, actor attribution, and later trust persistence"
+    },
+    {
+      "arrow_id": "ANES-WORRY-A-02",
+      "from": "pre-election financial worry",
+      "to": "post-election reported presidential vote",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The panel cross-tab places pre-election worry before post-election reported vote; the extremely worried group reports 55.4% Trump and 36.9% Harris, while the not-at-all worried group reports 32.0% Trump and 66.5% Harris",
+      "status": "reported",
+      "counterexample": "Worry is not a direct bill or hardship event, vote is self-reported, and prior identity, candidate preference, and information can explain both measures",
+      "remaining_gap": "Dated household exposure, alternatives, attribution, turnout validation, policy response, and later material outcome"
+    },
+    {
+      "arrow_id": "ANES-WORRY-A-03",
+      "from": "institutional judgment and reported vote",
+      "to": "policy response, collective action, recovery, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The retained ANES layer ends at trust and reported vote and contains no linked remedy, policy response, recovery, organizing, switching, or exit outcome",
+      "status": "open",
+      "counterexample": "A vote or institutional judgment can express identity or candidate preference without producing a material policy response or later behavior",
+      "remaining_gap": "Actor-attributed policy response, repeated judgment, collective action, household recovery, trust persistence, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a temporally ordered ANES panel bridge from subjective financial worry to federal-government judgment and reported vote. It does not establish a dated material shock, causality, attribution, remedy, policy response, recovery, or exit.",
+  "storage_boundary": "Only retained official SDA cross-tab estimates and source metadata are represented; the publisher's panel microdata are not locally reproduced in this artifact."
+}

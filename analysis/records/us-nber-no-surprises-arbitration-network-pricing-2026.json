@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-no-surprises-arbitration-network-pricing-2026",
+  "title": "No-Surprises arbitration can strengthen provider bargaining power while narrowing networks and raising premiums",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35717, The No Surprises Act's Surprises: Arbitration, Provider Network, and Insurer Pricing; linked arbitration, provider-insurer network, and ACA marketplace plan data",
+  "geography": "United States; national provider-insurer network panel and ACA marketplace plan data, with effects concentrated in specialties and states most affected by the No Surprises Act",
+  "observations": [{
+    "period": "No Surprises Act implementation and post-implementation provider-network and premium outcomes; NBER paper issued September 2026",
+    "denominator": {
+      "value": 1,
+      "unit": "study-defined national provider-insurer network panel, arbitration records, and ACA marketplace plan data; common sample count not disclosed in the public abstract",
+      "value_type": "linked_study_universe"
+    },
+    "measures": {
+      "consumer_protection": {
+        "value": "the No Surprises Act capped patients' liability for surprise bills and created federal final-offer arbitration for insurer-provider payment disputes",
+        "unit": "statutory policy route",
+        "value_type": "reported_policy"
+      },
+      "arbitration_outcome": {
+        "value": "arbitration was high-volume and provider-favorable, with awards well above the statutory benchmark",
+        "unit": "linked arbitration outcome pattern",
+        "value_type": "reported_estimate"
+      },
+      "network_participation": {
+        "value": "provider network participation declined in specialties and states most affected by the reform, and declined after provider groups' first favorable arbitration outcomes",
+        "unit": "provider-insurer network participation outcome",
+        "value_type": "reported_estimate"
+      },
+      "insurer_pricing": {
+        "value": "suggestive evidence indicates insurers more exposed to arbitration raised premiums",
+        "unit": "ACA marketplace premium response",
+        "value_type": "suggestive_estimate"
+      },
+      "downstream_outcome": {
+        "value": "the abstract does not establish patient-specific network adequacy, appointment waits, realized out-of-pocket spending, care continuity, health, or household financial recovery",
+        "unit": "missing patient and household continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "The authors link federal arbitration records to a national longitudinal provider-insurer network panel and ACA marketplace plan-design data, comparing provider participation, arbitration outcomes, and premiums around the reform and provider groups' first favorable arbitration outcomes.",
+    "uncertainty": "The public abstract does not disclose every identification assumption, sample restriction, coefficient, network definition, or premium specification. Provider participation is not the same as patient access, and suggestive premium evidence is weaker than the reported network/arbitration patterns. The study does not by itself show that the Act caused every network or premium movement outside the affected comparisons.",
+    "subgroup": "Providers, specialties, states, insurers, and ACA marketplace plans differentially exposed to the No Surprises Act and arbitration; the largest effects are reported where exposure was greatest.",
+    "counterinterpretation": "Networks can narrow for reasons other than arbitration, and a narrower network may not reduce usable access if substitute providers remain available. Higher premiums may reflect broader insurer costs or selection rather than arbitration alone. A provider's stronger outside option can coexist with lower patient surprise-bill liability while shifting costs elsewhere.",
+    "source_url": "https://www.nber.org/papers/w35717",
+    "retrieval_hash": "sha256:765466c07031541602aa241ea7902b7310dae62527acd3483af6d168cd85da8c",
+    "status": "estimated"
+  }],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35717",
+      "claim": "NBER DOI record for Working Paper 35717",
+      "status": "official-paper-identifier"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107169",
+      "claim": "Complementary GAO claims analysis of No Surprises Act network and payment indicators",
+      "status": "complementary-official-source"
+    }
+  ],
+  "boundary": "This record closes a policy-to-provider-bargaining and provider-network arrow: formal patient liability protection can strengthen an affected provider group's outside option, coincide with narrower networks, and potentially raise premiums. It does not establish patient-level access, realized bills, care, health, or household welfare.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 35717 landing page reviewed and retained only as a source-page hash; underlying paper PDF and linked provider-insurer data were not retained.",
+    "nber_page_sha256": "sha256:765466c07031541602aa241ea7902b7310dae62527acd3483af6d168cd85da8c",
+    "checked": "2026-09-23"
+  }
+}

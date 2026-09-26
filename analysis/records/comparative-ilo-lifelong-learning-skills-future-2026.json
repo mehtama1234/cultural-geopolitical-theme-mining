@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-lifelong-learning-skills-future-2026",
+  "title": "Access to recognized learning is becoming a distributional condition of adapting to digital, green, and demographic change",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "ILO, Lifelong learning and skills for the future",
+  "geography": "Global; cross-country institutional, labour-market, training, and online-vacancy evidence synthesized by the ILO",
+  "observations": [
+    {
+      "period": "2026 report; global worker learning participation snapshot",
+      "denominator": {
+        "value": 1,
+        "unit": "global worker learning-participation frame reported by the ILO",
+        "value_type": "global_reported_estimate_frame"
+      },
+      "measures": {
+        "workers_receiving_training": {"value": 16, "unit": "percent of all workers receiving training in the past year", "value_type": "reported_global_share"},
+        "full_time_permanent_formal_training": {"value": 51, "unit": "percent of full-time permanent workers in formal firms receiving training", "value_type": "reported_comparison_share"},
+        "access_pattern": {"value": "participation in structured learning is lowest among lower-educated, insecure, and small-enterprise workers", "unit": "reported distributional pattern", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "ILO lifelong-learning report synthesis using new institutional and survey evidence, labour-market analysis, and cross-country comparisons; the participation figures are presented as broad comparative indicators rather than a single harmonized panel estimate.",
+      "uncertainty": "Country coverage, definitions of training, reference periods, formal/informal employment classifications, and survey methods may differ. The figures do not measure training quality, completion, skill recognition, wage return, or the same workers before and after training.",
+      "subgroup": "Workers by education, employment security, enterprise size, formality, sector, age, and access to recognized qualifications.",
+      "counterinterpretation": "Informal learning through day-to-day work, peer support, and practical experience is widespread but often invisible in formal indicators; low recorded training does not equal no learning, although unrecognized learning can still limit mobility.",
+      "source_url": "https://lab.ilo.org/world-work-series/lifelong-learning-and-skills-future",
+      "retrieval_hash": "sha256:fca01f26ac2cddd1b0da90f4d6ad747af3129d772f4ba457e841e5ebf00fa344",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; digital, green, and demographic transitions",
+      "denominator": {
+        "value": 1,
+        "unit": "global skills-demand and transition frame assembled from labour-force and online-vacancy evidence",
+        "value_type": "comparative_analysis_universe"
+      },
+      "measures": {
+        "environmentally_relevant_tasks": {"value": 32, "unit": "percent of workers already performing environmentally relevant tasks", "value_type": "reported_global_share"},
+        "long_term_care_demand": {"value": "85 million in 2023 to 158 million projected by 2050", "unit": "long-term care workers", "value_type": "reported_projection"},
+        "rounded_skill_route": {"value": "employers increasingly seek combinations of technical, digital, social, critical-thinking, and practical skills; rounded profiles are associated with better job characteristics", "unit": "reported vacancy and labour-market pattern", "value_type": "reported_association"}
+      },
+      "method": "ILO synthesis of online vacancy analysis, labour-force evidence, demographic projections, and policy research on skills for digitalization, the green transition, and care demand.",
+      "uncertainty": "Online vacancies do not represent all employers or jobs, and the reported association between rounded skills and better jobs is not a causal training estimate. Care-worker projections depend on demographic, service, financing, and occupational assumptions.",
+      "subgroup": "Workers and enterprises in digital, green, care, and other transforming sectors, including workers whose social-value skills are undervalued or weakly recognized.",
+      "counterinterpretation": "Skills supply alone cannot create decent work where infrastructure, industrial policy, employment institutions, care financing, or bargaining power are weak; higher demand may also coexist with low pay or poor conditions.",
+      "source_url": "https://lab.ilo.org/world-work-series/lifelong-learning-and-skills-future",
+      "retrieval_hash": "sha256:fca01f26ac2cddd1b0da90f4d6ad747af3129d772f4ba457e841e5ebf00fa344",
+      "status": "estimated"
+    },
+    {
+      "period": "2026 report; public financing and institutional delivery",
+      "denominator": {
+        "value": 1,
+        "unit": "countries with institutional data on adult-education allocation and lifelong-learning systems",
+        "value_type": "country_policy_comparison_frame"
+      },
+      "measures": {
+        "low_adult_education_budget_high_income": {"value": 34, "unit": "percent of high-income countries spending less than 1% of public education budgets on adult education", "value_type": "reported_country_share"},
+        "low_adult_education_budget_low_income": {"value": 63, "unit": "percent of low-income countries spending less than 1% of public education budgets on adult education", "value_type": "reported_country_share"},
+        "delivery_constraints": {"value": "fragmentation and weak implementation constrain cohesive lifelong-learning systems; governance, coordination, financing, and social dialogue are identified as success conditions", "unit": "reported institutional diagnosis", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO analysis of new institutional data from 21 countries and review of training-system evidence and policy implementation conditions.",
+      "uncertainty": "The budget shares are not a direct measure of per-worker spending, training quality, access, or outcomes. The 21-country institutional evidence is not a universal country ranking and does not establish that budget share alone determines system effectiveness.",
+      "subgroup": "Countries by income group, adult learners, disadvantaged workers, small enterprises, training providers, governments, employers, and workers' organizations.",
+      "counterinterpretation": "Small budget shares can coexist with effective employer, community, or work-based learning, while larger public allocations can fail when systems are fragmented or qualifications are not recognized. Delivery and local fit matter beyond funding totals.",
+      "source_url": "https://lab.ilo.org/world-work-series/lifelong-learning-and-skills-future",
+      "retrieval_hash": "sha256:fca01f26ac2cddd1b0da90f4d6ad747af3129d772f4ba457e841e5ebf00fa344",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00033011", "claim": "Persistent ILO identifier for the report."},
+    {"source_url": "https://researchrepository.ilo.org/esploro/outputs/report/Lifelong-learning-and-skills-for-the/995699970302676", "claim": "ILO repository record for the open report and executive summary."}
+  ],
+  "boundary": "This record adds an education-to-work-adaptation and institutional-delivery route. It is not respondent-level longitudinal data, does not estimate an individual training return, and does not establish that skills policy alone causes better wages, mobility, care quality, political participation, or geopolitical capacity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO report page and report details retrieved; participation, transition, care-demand, adult-education-budget, and implementation claims were cross-checked against the official publication page.",
+    "html_sha256": "sha256:fca01f26ac2cddd1b0da90f4d6ad747af3129d772f4ba457e841e5ebf00fa344",
+    "checked": "2026-09-26"
+  }
+}

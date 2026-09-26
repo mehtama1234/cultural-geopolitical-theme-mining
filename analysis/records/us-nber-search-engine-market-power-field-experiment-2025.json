@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-search-engine-market-power-field-experiment-2025",
+  "title": "Exposure to an alternative search engine can change quality beliefs and persistence beyond active choice",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "firm_sector_market_power", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 33410; randomized field experiment with U.S. desktop internet users whose default search engine was Google, combined with a demand model and search-log evidence",
+  "geography": "United States desktop internet users; Google/Bing search market",
+  "observations": [
+    {
+      "period": "Field experiment and model results; working paper issued January 2025 and revised February 2026",
+      "denominator": {"value": 2300, "unit": "approximately 2,300 U.S. desktop Google users in the experiment; treatment-specific denominators are source-defined", "value_type": "reported_study_sample"},
+      "measures": {
+        "active_choice": {"value": 1.1, "unit": "percentage-point increase in Bing market share from requiring an active choice", "value_type": "reported_experimental_effect"},
+        "quality_belief_update": {"value": "Google users paid to try Bing updated positively about its relative quality", "unit": "reported experimental belief change", "value_type": "reported_experimental_result"},
+        "continued_preference": {"value": 33, "unit": "percent of paid trial users preferring to continue using Bing", "value_type": "reported_experimental_result"},
+        "choice_friction_counterfactual": {"value": 15, "unit": "percentage-point modeled increase in Bing market share if demand frictions and incorrect quality beliefs were removed", "value_type": "modeled_estimate"},
+        "consumer_surplus_counterfactual": {"value": 6, "unit": "dollars per consumer-year modeled consumer-surplus increase under the same counterfactual", "value_type": "modeled_estimate"}
+      },
+      "method": "Randomized field experiment with U.S. desktop users, including an unpaid active-choice condition, paid two-week exposure to Bing, and default changes; the authors combine observed behavior with a demand model of switching costs, quality beliefs, and inattention.",
+      "uncertainty": "The experiment measures search behavior and stated preference in a bounded user sample, not all U.S. users or all platform choices. Continued preference after a paid trial is not durable market exit, privacy improvement, or welfare for every user. Model counterfactuals depend on assumptions about demand, attention, quality, and switching.",
+      "subgroup": "U.S. desktop Google users; active-choice, paid-trial, default-change, and control conditions; results should not be generalized to mobile users, other platforms, or users with different accessibility and search needs without additional evidence.",
+      "counterinterpretation": "Users may continue with Bing because the trial revealed a preferred product, because incentives changed search habits, or because default changes reduced friction; this does not by itself distinguish informed preference from habit or convenience. A market-share change does not establish better privacy, security, or broader consumer welfare.",
+      "source_url": "https://www.nber.org/papers/w33410",
+      "retrieval_hash": "sha256:56404b5c6879cdaa9ecb75a793d2a4bdb2e690372fe2bf519181b26af8ea0002",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.socialscienceregistry.org/trials/12884", "claim": "Randomized controlled-trial registry entry referenced by the paper", "status": "official-trial-reference"},
+    {"source_url": "https://doi.org/10.3386/w33410", "claim": "NBER DOI record for Working Paper 33410", "status": "official-paper-identifier"}
+  ],
+  "boundary": "This record adds a U.S. observed platform-exposure-to-use-and-belief pathway: active choice alone has a small effect, while temporary exposure to an alternative can change perceived quality and continued preference. It does not establish durable switching, privacy or security improvement, equal accessibility, universal consumer surplus, or political action."
+}

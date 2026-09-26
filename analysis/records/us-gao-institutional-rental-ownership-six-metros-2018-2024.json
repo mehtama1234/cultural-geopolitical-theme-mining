@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-institutional-rental-ownership-six-metros-2018-2024",
+  "title": "Institutional ownership of single-family rentals grew in selected metros without becoming most single-family housing",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108675 review of institutional investor ownership of single-family rental homes",
+  "geography": "Six selected U.S. metropolitan statistical areas: Cincinnati, Dallas, Jacksonville, Nashville, Phoenix, and Seattle; 2018-2024",
+  "observations": [
+    {
+      "period": "2018-2024",
+      "denominator": {
+        "value": 6,
+        "unit": "selected metropolitan statistical areas; nongeneralizable sample",
+        "value_type": "metro_sample"
+      },
+      "measures": {
+        "institutional_holdings": {
+          "value": "the number of single-family rental homes owned by institutional investors increased in all six selected metro areas",
+          "unit": "reported ownership trend",
+          "value_type": "reported_pattern"
+        },
+        "share_of_all_single_family_homes": {
+          "value": "less than 1% to 3% by 2024 across the six metros",
+          "unit": "institutionally owned share of all single-family homes",
+          "value_type": "reported_range"
+        },
+        "share_of_single_family_rentals": {
+          "value": "4% in Seattle to 22% in Jacksonville by 2024",
+          "unit": "institutionally owned share of single-family rental homes",
+          "value_type": "reported_range"
+        },
+        "ownership_pathways": {
+          "value": "investors acquired homes from owner-occupants, other non-owner-occupants, and new construction; in Nashville, 35% came from owner-occupants and 15% were newly constructed by 2024",
+          "unit": "reported acquisition-source comparison",
+          "value_type": "reported_comparison"
+        },
+        "portfolio_sales": {
+          "value": "sales to others, including owner-occupants, never exceeded 8% of institutional holdings in any year in any selected metro",
+          "unit": "share of institutional holdings sold",
+          "value_type": "reported_upper_bound"
+        },
+        "tenant_and_household_outcomes": {
+          "value": "not observed as a common outcome",
+          "unit": "missing rent, eviction, repair, quality, tenant stability, homeownership, and neighborhood-change ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO used property-level ownership and mailing-address information from Intercontinental Exchange and affiliates to identify investors owning at least 5,000 single-family homes nationwide and homes in at least five metros, then compared ownership trends with Census ACS market characteristics.",
+      "uncertainty": "The six-metro sample was selected for geographic diversity and estimated concentration and is not generalizable to all U.S. markets. The institutional-investor definition excludes smaller or less geographically dispersed owners. Ownership counts do not identify landlord conduct, tenant experience, affordability, or causal housing-market effects.",
+      "subgroup": "Institutional investors and single-family homes in the six selected metros; acquisition source, rental versus all-single-family denominator, and metro housing structures differ by place.",
+      "counterinterpretation": "Institutional ownership can increase while remaining a small share of all single-family homes, and bulk purchases may have stabilized housing after the financial crisis or added rental supply. A higher share of the rental subset does not by itself establish monopoly, higher rents, worse maintenance, displacement, or reduced homeownership.",
+      "source_url": "https://www.gao.gov/products/gao-26-108675",
+      "retrieval_hash": "sha256:3418e23aa31782025d3f558f4ece40ca9870328c652c6e8424b2c1fceffc0725",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108675",
+      "claim": "GAO official report page and full-report link provide the ownership definitions, six-metro scope, 2018-2024 trends, and denominator ranges.",
+      "status": "official-primary-source"
+    }
+  ],
+  "boundary": "This record measures institutional ownership trends in a selected six-metro sample. It does not estimate national ownership, landlord behavior, tenant welfare, rent causation, displacement, homeownership access, or durable neighborhood change."
+}

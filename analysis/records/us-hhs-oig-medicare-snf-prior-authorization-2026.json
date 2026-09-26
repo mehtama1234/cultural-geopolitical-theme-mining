@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hhs-oig-medicare-snf-prior-authorization-2026",
+  "title": "Skilled-nursing prior authorization can make appeal effort part of the route to covered care",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "HHS Office of Inspector General review of Medicare Advantage skilled-nursing-facility prior authorization",
+  "geography": "United States Medicare Advantage; 19 reviewed organizations",
+  "observations": [
+    {
+      "period": "June 2024 requests; HHS-OIG report published 2026",
+      "denominator": {
+        "value": 19,
+        "unit": "Medicare Advantage organizations in the review; request-level totals are source-defined and not reproduced as a single patient denominator",
+        "value_type": "reported_review_population"
+      },
+      "measures": {
+        "initial_snf_denial_rate": {"value": 12, "unit": "percent of SNF admission requests denied", "value_type": "reported_rate"},
+        "appeal_rate_among_denials": {"value": 18, "unit": "percent of SNF denials appealed by enrollees or providers", "value_type": "reported_rate"},
+        "overturn_rate_among_appealed_denials": {"value": 95, "unit": "percent of appealed SNF denials overturned in favor of the enrollee", "value_type": "reported_rate"},
+        "navihealth_denial_rate": {"value": 14, "unit": "percent of SNF requests denied by the reviewed contractor", "value_type": "reported_rate"},
+        "navihealth_appeal_overturn_rate": {"value": 97, "unit": "percent of the contractor's SNF denials overturned when appealed", "value_type": "reported_rate"},
+        "nursing_home_resident_denial_rate": {"value": 40, "unit": "percent of SNF-level-care requests denied among nursing-home residents", "value_type": "reported_rate"},
+        "patient_level_care_and_household_effect": {"value": "not observed in the public report", "unit": "missing delay, discharge, recovery, caregiver, payment, and continuity endpoints", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official HHS-OIG evaluation summary; denial, appeal, overturn, contractor, subgroup, and recommendation stages are retained separately from actual care receipt and patient/household outcomes.",
+      "uncertainty": "The public report does not provide patient-level identifiers, denial reasons for each request, time to decision or appeal, whether care was delayed or substituted, actual SNF admission, later recovery, caregiver work, cost, or the characteristics of people who did not appeal.",
+      "subgroup": "Medicare Advantage enrollees seeking skilled-nursing-facility admission after illness, injury, surgery, or other post-acute need; nursing-home residents are separately reported.",
+      "counterinterpretation": "Appeals may selectively reach cases with stronger documentation or provider support, so a high overturn rate does not mean every initial denial was wrong; nonappeal may reflect valid alternatives, exhaustion, lack of awareness, or inability to pursue the route.",
+      "source_url": "https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-overturned-nearly-all-appealed-prior-authorization-denials-for-skilled-nursing-facility-admission-raising-concerns-about-initial-denials/",
+      "retrieval_hash": "sha256:955247e9f000a42896a78316d2e2219dedc55cb17922cffe0972323c3c2b3f55",
+      "status": "reported"
+    },
+    {
+      "period": "2026 HHS-OIG recommendation status; page checked 2026-09-21",
+      "denominator": {
+        "value": 3,
+        "unit": "CMS recommendations attached to the SNF prior-authorization review",
+        "value_type": "reported_recommendation_count"
+      },
+      "measures": {
+        "recommendations_open_unimplemented": {"value": 3, "unit": "recommendations marked open and unimplemented", "value_type": "reported_status"},
+        "recommendation_update_date": {"value": "2026-12-07", "unit": "expected HHS-OIG recommendation-tracker update date", "value_type": "reported_date"},
+        "cms_explicit_concurrence": {"value": "not stated", "unit": "CMS did not explicitly concur or nonconcur with the three recommendations", "value_type": "reported_status"},
+        "follow_through": {"value": "not yet observed", "unit": "no public implementation, corrected denial process, or patient-level care outcome in the report page", "value_type": "unmeasured"}
+      },
+      "method": "Follow-up of the official HHS-OIG report page and recommendation tracker status; recommendation issuance, agency stance, implementation status, and expected update are kept separate from actual correction or patient care receipt.",
+      "uncertainty": "The page does not establish whether CMS or MAOs changed review practice after the report, whether denial rates fell, whether contractor oversight changed, or whether any patient experienced faster or more adequate care.",
+      "subgroup": "CMS and Medicare Advantage organizations as institutional actors; affected groups include enrollees, providers, nursing-home residents, and post-acute-care patients.",
+      "counterinterpretation": "An open recommendation may reflect a normal implementation timetable rather than inaction; the expected update date is a monitoring point, not proof that correction will occur.",
+      "source_url": "https://oig.hhs.gov/reports/all/2026/medicare-advantage-organizations-overturned-nearly-all-appealed-prior-authorization-denials-for-skilled-nursing-facility-admission-raising-concerns-about-initial-denials/",
+      "retrieval_hash": "sha256:955247e9f000a42896a78316d2e2219dedc55cb17922cffe0972323c3c2b3f55",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.cms.gov/medicare/appeals-grievances/managed-care",
+      "claim": "CMS maintains the managed-care grievance, coverage-determination, and appeal route for Medicare Advantage enrollees.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record establishes a denial, appeal, and overturn pattern for skilled-nursing-facility prior authorization. It does not establish individual medical necessity, delay, care receipt, recovery, caregiver substitution, financial burden, trust, switching, or exit."
+}

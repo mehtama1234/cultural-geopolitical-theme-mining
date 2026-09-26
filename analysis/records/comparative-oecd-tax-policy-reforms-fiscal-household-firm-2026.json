@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-tax-policy-reforms-fiscal-household-firm-2026",
+  "title": "Tax systems are balancing household relief, fiscal pressure, investment incentives, and sector-specific extraction",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD Tax Policy Reforms 2026: OECD and Selected Partner Economies",
+  "geography": "92 OECD/G20 Inclusive Framework jurisdictions, including all OECD countries",
+  "observations": [
+    {
+      "period": "Calendar year 2025 reforms introduced or announced; comparative household and public-finance direction",
+      "denominator": {
+        "value": 92,
+        "unit": "jurisdictions responding to the OECD annual Tax Policy Reform Questionnaire and covered by the report",
+        "value_type": "jurisdiction_coverage"
+      },
+      "measures": {
+        "policy_objective_pair": {"value": "Tax policy was shaped by supporting growth and investment while responding to mounting budgetary pressures", "unit": "reported cross-country policy objective pattern", "value_type": "reported_pattern"},
+        "progressive_pit_direction": {"value": "Revenue-raising personal-income-tax measures were often progressive, including higher top rates and changes to capital-income taxation", "unit": "reported reform direction", "value_type": "reported_pattern"},
+        "cost_of_living_relief": {"value": "Many countries continued base-narrowing measures aimed at supporting low- and middle-income households, though less than in prior years", "unit": "reported reform pattern", "value_type": "reported_pattern"},
+        "ssc_direction": {"value": "Social-security-contribution reforms showed a sustained movement toward broader bases and higher rates in several countries", "unit": "reported reform direction", "value_type": "reported_pattern"},
+        "revenue_scope": {"value": "Revenue-raising measures generally remained limited in scope despite public-debt and debt-service pressures", "unit": "reported cross-country pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD comparative review of reforms introduced or announced in 2025, based primarily on the annual questionnaire completed by 92 jurisdictions. The report records stated policy objectives and reform directions; it is not an evaluation of tax incidence, compliance, distribution, or realized revenue.",
+      "uncertainty": "The report covers announced as well as implemented reforms and notes that it is too early to fully assess some effects. Directional labels such as progressive, base-narrowing, or revenue-raising do not show who ultimately pays, who receives relief, or how behavior changes.",
+      "subgroup": "Households by income and capital-income exposure, workers and self-employed people, social-protection contributors, national treasuries, and jurisdictions with different fiscal space and demographic pressures.",
+      "counterinterpretation": "Progressive rate changes can coexist with regressive consumption taxes or reduced public services; household relief can be temporary or poorly targeted; higher contributions can fund social protection rather than simply reduce take-home pay.",
+      "source_url": "https://www.oecd.org/en/publications/tax-policy-reforms-2026_43d18a55-en.html",
+      "retrieval_hash": "sha256:bce5e2bc04fd438e744bb28456c44fa9ce413eeea377a92f7069d612745a9a68",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2025 reforms introduced or announced; firms, platforms, health, and strategic sectors",
+      "denominator": {
+        "value": 145,
+        "unit": "jurisdictions in the OECD Corporate Tax Statistics Database for the 2025 combined statutory corporate-income-tax-rate comparison; reform descriptions cover the 92-jurisdiction report universe",
+        "value_type": "jurisdiction_coverage_mixed"
+      },
+      "measures": {
+        "average_combined_cit_rate": {"value": 21.2, "unit": "percent average combined statutory corporate income tax rate across 145 jurisdictions in 2025", "value_type": "reported_average"},
+        "average_combined_cit_rate_2000": {"value": 28.0, "unit": "percent average combined statutory corporate income tax rate across the same database comparison in 2000", "value_type": "reported_average"},
+        "corporate_tax_direction": {"value": "Corporate-income-tax base-narrowing measures exceeded base-broadening measures in 2025, commonly citing growth, investment, and innovation", "unit": "reported reform direction", "value_type": "reported_pattern"},
+        "strategic_incentives": {"value": "Countries continued targeted incentives for R&D, emerging technologies, AI, defence, and strategically important sectors", "unit": "reported firm-policy pattern", "value_type": "reported_pattern"},
+        "platform_vat": {"value": "More jurisdictions extended VAT collection obligations to non-resident suppliers and online platforms", "unit": "reported digital-tax administration pattern", "value_type": "reported_pattern"},
+        "health_taxes": {"value": "Health-related tax increases, especially tobacco and nicotine excises, were among the most common tax-increasing reform measures", "unit": "reported consumption-tax pattern", "value_type": "reported_pattern"}
+      },
+      "method": "OECD comparison of corporate, VAT, health, environmental, and other tax reforms, combining questionnaire responses with the OECD Corporate Tax Statistics Database. The corporate-rate comparison covers 145 jurisdictions while the reform questionnaire covers 92, so the denominators are kept separate.",
+      "uncertainty": "Statutory rates are not effective tax rates or realized corporate tax payments. Incentives do not establish investment, innovation, employment, or domestic value creation; platform VAT rules do not establish compliance or consumer price incidence; health taxes do not establish behavior or health outcomes.",
+      "subgroup": "Multinational and domestic firms, online platforms and non-resident suppliers, banks and highly profitable sectors, strategic-technology firms, tobacco/nicotine consumers, and tax administrations.",
+      "counterinterpretation": "Tax competition and targeted incentives may attract investment or build capability, while base narrowing may reduce public revenue. Platform VAT can improve neutrality without resolving cross-border enforcement or market concentration; health taxes can be fiscal, behavioral, or both.",
+      "source_url": "https://www.oecd.org/en/publications/tax-policy-reforms-2026_43d18a55-en.html",
+      "retrieval_hash": "sha256:bce5e2bc04fd438e744bb28456c44fa9ce413eeea377a92f7069d612745a9a68",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.oecd.org/en/about/news/press-releases/2026/09/governments-reforming-tax-systems-to-boost-growth-but-revenue-pressures-continue-to-mount.html",
+    "https://doi.org/10.1787/43d18a55-en"
+  ],
+  "boundary": "This record adds a comparative fiscal-policy route connecting household relief, social contributions, corporate incentives, digital-platform taxation, health taxes, strategic sectors, and public-finance pressure. It does not infer tax incidence, revenue realization, firm investment, household welfare, political legitimacy, or causal behavioral change from reported reform directions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD Tax Policy Reforms 2026 PDF downloaded from the OECD publication page; jurisdiction coverage, executive-summary reform directions, corporate-rate averages, corporate-base pattern, strategic incentives, platform VAT, and health-tax claims cross-checked against the PDF and OECD release.",
+    "pdf_sha256": "sha256:bce5e2bc04fd438e744bb28456c44fa9ce413eeea377a92f7069d612745a9a68",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-home-insurance-credit-disaster-risk-affordability-2026",
+  "title": "A homeowner's credit record can raise the price of disaster protection alongside physical risk",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34848; approximately 70 million mortgage-linked insurance policies matched to property-level disaster risk and a Washington State natural experiment",
+  "geography": "United States homeowners insurance and mortgage-linked policies; credit-pricing natural experiment in Washington State",
+  "observations": [{
+    "period": "Insurance and mortgage-linked records with 2026 paper; Washington credit-information policy change",
+    "denominator": {"value": 70000000, "unit": "approximately mortgage-linked homeowners insurance policies", "value_type": "reported_sample"},
+    "measures": {
+      "credit_premium": {"value": "homeowners with low credit scores paid about 24% more for identical coverage than high-credit-score homeowners", "unit": "insurance premium difference", "value_type": "reported_estimate"},
+      "risk_comparison": {"value": "credit scores affected insurance premiums about as much as disaster risk in the study", "unit": "relative pricing contribution", "value_type": "reported_comparison"},
+      "policy_natural_experiment": {"value": "banning credit information in Washington substantially weakened the relationship between credit score and insurance pricing", "unit": "policy-change comparison", "value_type": "reported_estimate"},
+      "housing_affordability": {"value": "the authors identify insurance as an often-overlooked component of home affordability, with low credit raising premiums roughly as much as it raises mortgage rates", "unit": "housing-cost mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors link mortgage-associated insurance policies to property-level disaster risk and use a natural experiment from Washington State's restriction on credit information in insurance pricing to study the credit-score premium relationship.",
+    "uncertainty": "The public abstract does not follow each owner through renewal, escrow, coverage reduction, nonrenewal, repair, sale, move, claim, or food and care tradeoffs. The 24% estimate concerns identical coverage in the study and does not establish a universal premium or a particular household's affordability threshold.",
+    "subgroup": "Homeowners with mortgage-linked insurance policies, separated by credit score and property-level disaster risk; income, liquidity, lender requirements, insurer availability, deductible, coverage exclusions, and state rules can differ substantially.",
+    "counterinterpretation": "Credit information may correlate with unobserved risk or insurer costs, and restricting its use can change pricing without guaranteeing lower total housing risk. A higher premium may preserve protection, while a lower premium may have a larger deductible or exclusions. A premium increase does not itself prove a forced move or uninsured loss.",
+    "source_url": "https://www.nber.org/papers/w34848",
+    "retrieval_hash": "sha256:4bf34711c2b137c7bb60f8739b933d97c346118ec0eaee13192d1bc794422d6c",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34848", "claim": "NBER DOI record for Working Paper 34848", "status": "official-paper-identifier"}, {"source_url": "https://www.nber.org/papers/w32579", "claim": "Related NBER property-insurance study supplies a separate disaster-risk-to-premium comparison using mortgage escrow data", "status": "official-comparison-source"}],
+  "boundary": "This record adds a protection-price pathway: credit and physical risk can both enter the cost of keeping a home insured. It does not establish a same-owner path from premium to escrow trouble, coverage cut, repair, sale, move, claim recovery, or complete housing security."
+}

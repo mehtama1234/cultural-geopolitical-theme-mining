@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-crs-tariff-retaliation-foreign-response-2025",
+  "title": "Foreign governments answered U.S. tariff pressure with retaliation, negotiation, and partial reversals",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Congressional Research Service report R48549, version 11, compiling official U.S. and foreign government documents on tariff actions from January 20 through December 31, 2025",
+  "geography": "United States, China, Canada, and the European Union",
+  "observations": [
+    {
+      "period": "January-December 2025",
+      "denominator": {
+        "value": null,
+        "unit": "dated tariff and countermeasure actions in the CRS timeline; no common trade-flow, firm, or household denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "foreign_response": {
+          "value": "some trading partners announced or implemented retaliatory measures on U.S. exports or U.S. companies",
+          "unit": "government action timeline",
+          "value_type": "reported_event_set"
+        },
+        "china_response": {
+          "value": "China used retaliatory tariffs, export restrictions on critical minerals, export controls on U.S. entities, unreliable-entity designations, and investigations; some measures were later reduced, suspended, or removed under temporary arrangements",
+          "unit": "dated government actions",
+          "value_type": "reported_event_set"
+        },
+        "canada_response": {
+          "value": "Canada announced or implemented 25% counter-tariffs on selected U.S. exports, later added industry and public-interest relief, and removed some measures while retaining others",
+          "unit": "dated government actions",
+          "value_type": "reported_event_set"
+        },
+        "eu_response": {
+          "value": "the EU announced, adopted, paused, and later suspended countermeasures while continuing negotiations and issuing a joint statement",
+          "unit": "dated government actions",
+          "value_type": "reported_event_set"
+        },
+        "strategic_success": {
+          "value": "not measured",
+          "unit": "underlying policy change, firm compliance, public cost, alliance durability, or U.S. strategic objective",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Descriptive review of CRS R48549, which compiles official U.S. and foreign government documents and provides dated action/status tables.",
+      "uncertainty": "The report identifies announced and implemented government measures but does not estimate causal effects, trade diversion, incidence, compliance, or whether negotiations achieved the U.S. policy objective. Measures changed during the year and some were temporary or subject to later agreements.",
+      "subgroup": "Trading partners and governments named in the CRS foreign-retaliation table; China, Canada, and the European Union receive the clearest dated sequences.",
+      "counterinterpretation": "A pause, reduction, exemption, or joint statement may reflect bargaining, administrative timing, domestic politics, or temporary relief rather than capitulation. A retaliatory action may signal resolve without producing a durable policy change.",
+      "source_url": "https://www.congress.gov/crs_external_products/R/PDF/R48549/R48549.11.pdf",
+      "retrieval_hash": "sha256:85a45f6af89f1b883583745477bd71fe62794c899b09d7f2583c842b428d82a7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w35343",
+      "claim": "The NBER target-selection model supplies a mechanism for government-versus-firm coercion; this CRS record supplies a separate observed government-response timeline.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds an observed external-response sequence after U.S. tariff pressure. It does not establish firm-level losses or compliance, household incidence, alliance durability, public legitimacy, or whether retaliation and negotiation produced the desired strategic result."
+}

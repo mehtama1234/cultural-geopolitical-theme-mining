@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-democracy-dissatisfaction-reform-2026",
+  "title": "Americans see democracy as a diminished example and want change without equal confidence that change is possible",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Pew Research Center spring 2026 Global Attitudes Survey and U.S. democracy analysis",
+  "geography": "United States, with cross-national high-income-country comparison",
+  "observations": [
+    {
+      "period": "March 23-29, 2026; U.S. democracy as an example for other countries",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults in the Pew survey",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "used_to_be_good_example_not_recently": {"value": 68, "unit": "percent saying the U.S. used to be a good example of democracy but has not been in recent years", "value_type": "published_share"},
+        "currently_good_example": {"value": 24, "unit": "percent saying the U.S. is a good example of democracy for other countries", "value_type": "published_share"},
+        "never_good_example": {"value": 7, "unit": "percent", "value_type": "published_share"},
+        "democracy_dissatisfied": {"value": 69, "unit": "percent dissatisfied with the way democracy is working in the U.S.", "value_type": "published_share"},
+        "democracy_satisfied": {"value": 30, "unit": "percent satisfied", "value_type": "published_share"}
+      },
+      "method": "Pew U.S. survey comparison of democracy evaluation and satisfaction; measures are public judgments, not institutional performance audits.",
+      "uncertainty": "Questions capture current evaluation and comparison with the past; they do not identify which events caused dissatisfaction or whether respondents favor the same reforms.",
+      "subgroup": "U.S. adults; the source reports strong partisan differences in satisfaction and in whether the U.S. is viewed as a current democratic example.",
+      "counterinterpretation": "Dissatisfaction can reflect current political control, policy outcomes, economic conditions, democratic norms, or expectations; it does not imply withdrawal or rejection of democracy itself.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/04/15/multiple-indicators-show-a-decline-in-the-health-of-americas-democracy-in-2025/",
+      "retrieval_hash": "sha256:416d10d64d957dea7ca8ca06810173a44a404bc47fa1ed0e45ff9eede119a3e9",
+      "status": "reported"
+    },
+    {
+      "period": "March 23-29, 2026; partisan satisfaction with democracy",
+      "denominator": {
+        "value": 100,
+        "unit": "percent within U.S. party-identification groups",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "democrats_dissatisfied": {"value": 86, "unit": "percent among Democrats and Democratic leaners", "value_type": "published_share"},
+        "democrats_satisfied": {"value": 13, "unit": "percent", "value_type": "published_share"},
+        "republicans_dissatisfied": {"value": 51, "unit": "percent among Republicans and Republican leaners", "value_type": "published_share"},
+        "republicans_satisfied": {"value": 48, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Descriptive party-group comparison in the same Pew survey; party identity is not treated as a causal mechanism.",
+      "uncertainty": "Partisan differences can reflect who controls government, issue priorities, identity, and survey timing. They do not show durable realignment, action, or policy demand.",
+      "subgroup": "Democrats/Democratic leaners and Republicans/Republican leaners; independents are not represented by these two contrasts.",
+      "counterinterpretation": "A person can be dissatisfied with democratic performance while supporting democratic institutions, voting, organizing, or seeking reform through them.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/04/15/multiple-indicators-show-a-decline-in-the-health-of-americas-democracy-in-2025/",
+      "retrieval_hash": "sha256:416d10d64d957dea7ca8ca06810173a44a404bc47fa1ed0e45ff9eede119a3e9",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/short-reads/2026/06/10/americans-are-more-dissatisfied-with-how-their-democracy-is-working-than-people-in-other-high-income-countries/", "claim": "Pew's cross-national companion places U.S. democratic satisfaction below most high-income-country comparisons and reports a 2025-to-2026 decline.", "status": "official-companion"}
+  ],
+  "boundary": "This record measures democratic evaluation and satisfaction in public-attitude surveys. It does not establish institutional performance, legal change, causal polarization, reform feasibility, turnout, protest, voting, or rejection of democratic government.",
+  "retrieval_hash": "sha256:416d10d64d957dea7ca8ca06810173a44a404bc47fa1ed0e45ff9eede119a3e9"
+}

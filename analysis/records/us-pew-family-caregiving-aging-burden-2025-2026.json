@@ -1,0 +1,127 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-family-caregiving-aging-burden-2025-2026",
+  "title": "Family caregiving operates as unpaid social infrastructure while shifting health, work, money, and social costs onto caregivers",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey of US adults with aging parents or spouses/partners",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "September 2-8, 2025; reported in February 2026",
+      "denominator": {
+        "value": 8750,
+        "unit": "US adults surveyed; 1,193 identify as caregivers for an aging parent, spouse, or partner",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "parent_caregiver": {
+          "value": 10,
+          "unit": "percent of all US adults identifying as a caregiver for a parent age 65 or older",
+          "value_type": "reported_share"
+        },
+        "spouse_partner_caregiver": {
+          "value": 3,
+          "unit": "percent of all US adults identifying as a caregiver for an aging spouse or partner",
+          "value_type": "reported_share"
+        },
+        "among_people_with_aging_parent": {
+          "value": 24,
+          "unit": "percent identifying as a caregiver among adults with a parent age 65 or older",
+          "value_type": "reported_share"
+        },
+        "among_people_with_aging_spouse": {
+          "value": 25,
+          "unit": "percent identifying as a caregiver among adults with an aging spouse or partner",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Pew American Trends Panel survey with separate caregiver universes for aging parents and spouses/partners; caregiver identity is self-reported.",
+      "uncertainty": "Self-identifying as a caregiver does not measure hours, necessity, care quality, paid alternatives, or whether the same person provides care continuously.",
+      "subgroup": "US adults overall and adults with an aging parent or spouse/partner; parent and spouse/partner caregiver universes are separate.",
+      "counterinterpretation": "Caregiver identification can reflect closeness, obligation, occasional coordination, intensive hands-on care, or combinations of these; the headline share is not a burden rate.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/",
+      "retrieval_hash": "sha256:d901d774ead15b6552bb66364301108c83b1622d69a293a73a0ccf9226916806",
+      "status": "reported"
+    },
+    {
+      "period": "September 2-8, 2025; caregiving tasks and household role",
+      "denominator": {
+        "value": 1193,
+        "unit": "Pew survey respondents identifying as caregivers for an aging parent, spouse, or partner; task-specific valid universes vary",
+        "value_type": "survey_subsample"
+      },
+      "measures": {
+        "regular_parent_care_tasks": {
+          "value": "about 68% of parent caregivers regularly help with at least one of errands/housework/home repairs, health-care management, financial management, or personal care",
+          "unit": "percent among parent caregivers",
+          "value_type": "reported_share"
+        },
+        "regular_spouse_care_tasks": {
+          "value": "about 66% of spouse/partner caregivers regularly help with at least one of the listed tasks",
+          "unit": "percent among spouse/partner caregivers",
+          "value_type": "reported_share"
+        },
+        "care_tasks": {
+          "value": "tasks include appointments and medication, bills and budgeting, errands and repairs, and bathing or dressing",
+          "unit": "reported task categories",
+          "value_type": "reported_task_surface"
+        }
+      },
+      "method": "Pew self-report of regular caregiving tasks; parent and spouse/partner task categories are not pooled into one intensity index.",
+      "uncertainty": "Task presence does not establish frequency, duration, skill, financial cost, substitution, or whether public or paid care was available.",
+      "subgroup": "US adults caring for an aging parent or spouse/partner.",
+      "counterinterpretation": "Family care can preserve independence and relationships while still transferring administrative, medical, and time work into the household.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/",
+      "retrieval_hash": "sha256:d901d774ead15b6552bb66364301108c83b1622d69a293a73a0ccf9226916806",
+      "status": "reported"
+    },
+    {
+      "period": "September 2-8, 2025; reported caregiver effects and inequality",
+      "denominator": {
+        "value": 1,
+        "unit": "Pew caregiver subgroups with regular-task and impact responses; item-specific valid denominators",
+        "value_type": "survey_subgroup_universe"
+      },
+      "measures": {
+        "lower_income_caregiving": {
+          "value": "39% of lower-income adults with an aging parent or partner identify as caregivers, versus 23% of middle-income and 16% of upper-income adults",
+          "unit": "reported income-group comparison",
+          "value_type": "reported_comparison"
+        },
+        "parent_caregiver_negative_effects": {
+          "value": "parent caregivers report more negative than positive effects on emotional well-being, physical health, job/career, financial situation, and social life, while relationship effects tend more positive",
+          "unit": "reported impact pattern",
+          "value_type": "reported_comparison"
+        },
+        "gender_emotional_effect": {
+          "value": "47% of women versus 30% of men caring for a parent report a negative emotional-well-being impact",
+          "unit": "percent among parent caregivers with the relevant response",
+          "value_type": "reported_comparison"
+        },
+        "gender_physical_effect": {
+          "value": "38% of women versus 26% of men report a negative physical-health impact when caring for a parent",
+          "unit": "percent among parent caregivers with the relevant response",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Descriptive Pew subgroup comparisons by income and gender; the cross-sectional survey does not establish that caregiving caused the reported effects.",
+      "uncertainty": "Income, gender, health, family structure, care intensity, prior relationship, and selection into caregiving are entangled; impact questions are retrospective or current self-reports.",
+      "subgroup": "US adults caring for an aging parent, with separate income and gender comparisons.",
+      "counterinterpretation": "Positive relationship meaning can coexist with negative health, work, money, or social effects; caregiving is not adequately described as either burden or benefit alone.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/02/26/family-caregiving-in-an-aging-america/",
+      "retrieval_hash": "sha256:d901d774ead15b6552bb66364301108c83b1622d69a293a73a0ccf9226916806",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes family-caregiving prevalence, tasks, income/gender differences, and reported cross-domain effects. It does not establish exact hours, paid-care substitution, adequacy, household financial recovery, health causation, policy receipt, trust, political action, or caregiver exit.",
+  "retrieval_hash": "sha256:d901d774ead15b6552bb66364301108c83b1622d69a293a73a0ccf9226916806"
+}

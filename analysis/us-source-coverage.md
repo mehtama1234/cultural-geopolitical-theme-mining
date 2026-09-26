@@ -1,8 +1,8 @@
 # US source coverage
 
-103 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
+164 project packets are recorded below. This is a coverage index, not a claim that the source universe is complete.
 
-**Source families recorded:** BEA: 3; BIS: 1; BLS: 14; CFPB: 19; CMS: 1; Census: 16; DOE: 15; EIA: 20; FTC: 27; Federal Reserve: 21; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 147; OFR: 1; Other: 41; Other government: 26; Pew Research: 4; SBA: 2; Treasury: 2; World Bank: 3
+**Source families recorded:** BEA: 5; BIS: 1; BLS: 16; CFPB: 19; CMS: 1; Census: 29; DOE: 17; EIA: 20; FTC: 29; Federal Reserve: 23; HBS: 47; HHS: 8; IEA: 1; IMF: 1; NBER: 152; OFR: 1; Other: 46; Other government: 62; Pew Research: 8; SBA: 2; Treasury: 4; World Bank: 3
 
 ## AI, work, and control
 
@@ -58,6 +58,34 @@
 
 [Open the source-search record](projects/ai-work-control/source-search-2026-09-11.md)
 
+## elite networks and political access
+
+**Project:** `comparative-elite-networks-political-access`
+
+**Status:** bounded pass completed; historical selection is measured while current representation and downstream legitimacy remain open
+
+**Question:** How do family resources and social position shape who reaches formal political office, before voters choose among candidates?
+
+**Sources recorded:** 1
+
+- [NBER Working Paper 35569: Fortunate Sons](https://www.nber.org/papers/w35569)
+
+[Open the source-search record](projects/comparative-elite-networks-political-access/source-search-2026-09-23.md)
+
+## ACS self-response and public participation
+
+**Project:** `us-acs-self-response-contact-strategy`
+
+**Status:** bounded pass completed; response-design effects are recorded separately from representation and trust
+
+**Question:** When public institutions change the way they ask for information, what improves participation, and what remains outside the response-rate measure?
+
+**Sources recorded:** 1
+
+- [Census ACS contact-strategy review](https://www.census.gov/library/working-papers/2026/acs/2026_Poehler_01.html)
+
+[Open the source-search record](projects/us-acs-self-response-contact-strategy/source-search-2026-09-23.md)
+
 ## US ACS transportation context
 
 **Project:** `us-acs-transport-context`
@@ -101,6 +129,34 @@
 
 [Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-11.md)
 
+## everyday cultural and civic time
+
+**Project:** `us-aging-care-strain`
+
+**Status:** bounded pass complete; socializing, religious activity, and volunteering remain different forms of public life
+
+**Question:** What does everyday time-use data show about the practical room people have for
+
+**Sources recorded:** 1
+
+- [American Time Use Survey 2025 results](https://www.bls.gov/news.release/atus.htm)
+
+[Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-22-cultural-time.md)
+
+## formal leave versus usable time for care and health
+
+**Project:** `us-aging-care-strain`
+
+**Status:** bounded pass complete; BLS measures access and unmet need, while later health, care, job, and household outcomes remain open
+
+**Question:** When workers need time for illness, family care, errands, or other personal needs, does formal leave access become usable time?
+
+**Sources recorded:** 1
+
+- [Access to and Use of Leave — 2024-2025](https://www.bls.gov/news.release/leave.htm)
+
+[Open the source-search record](projects/us-aging-care-strain/source-search-2026-09-22-leave-flexibility.md)
+
 ## US AI emotional support and the private care gap
 
 **Project:** `us-ai-emotional-support-apps`
@@ -141,6 +197,20 @@
 - [DOE affordable energy for consumers](https://www.energy.gov/topics/affordable-energy-consumers)
 
 [Open the source-search record](projects/us-appliance-efficiency-household-bill/source-search-2026-09-11.md)
+
+## US arms transfers and geopolitical dependence
+
+**Project:** `us-arms-transfer-dependence`
+
+**Status:** bounded pass complete; transfer dependence is not the same as operational leverage
+
+**Question:** What changed in international major-arms transfers in 2021–25, and what does
+
+**Sources recorded:** 1
+
+- [SIPRI Trends in International Arms Transfers 2025](https://www.sipri.org/publications/2026/sipri-fact-sheets/trends-international-arms-transfers-2025)
+
+[Open the source-search record](projects/us-arms-transfer-dependence/source-search-2026-09-22-sipri.md)
 
 ## US Auto-IRA and household balance sheets
 
@@ -209,6 +279,34 @@
 
 [Open the source-search record](projects/us-bank-fees-household-wellbeing/source-search-2026-09-11.md)
 
+## household production inside the national economy
+
+**Project:** `us-bea-household-production-account`
+
+**Status:** bounded pass complete
+
+**Question:** What does a national household-production account reveal about the hidden
+
+**Sources recorded:** 1
+
+- [BEA household-production update](https://www.bea.gov/news/blog/2026-09-14/whats-economic-value-mowing-your-own-lawn)
+
+[Open the source-search record](projects/us-bea-household-production-account/source-search-2026-09-22-bea-household-production.md)
+
+## outdoor recreation as cultural and regional economy
+
+**Project:** `us-bea-outdoor-recreation-economy`
+
+**Status:** bounded pass complete
+
+**Question:** When outdoor recreation becomes visible as a large economy, what is known about
+
+**Sources recorded:** 1
+
+- [BEA Outdoor Recreation Economic Statistics, U.S. and States, 2024](https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2024)
+
+[Open the source-search record](projects/us-bea-outdoor-recreation-economy/source-search-2026-09-22-bea-2024.md)
+
 ## US benefit loss and the work choice
 
 **Project:** `us-benefit-cliff-work-choice`
@@ -233,6 +331,34 @@
 - whether smoother phase-outs change work or only reduce paperwork stress.
 
 [Open the source-search record](projects/us-benefit-cliff-work-choice/source-search-2026-09-11.md)
+
+## probation, parole, and community supervision in 2024
+
+**Project:** `us-bjs-community-supervision-2024`
+
+**Status:** bounded pass complete
+
+**Question:** When prison and jail populations decline, does state contact disappear, or can
+
+**Sources recorded:** 1
+
+- [BJS: Probation and Parole in the United States, 2024](https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024)
+
+[Open the source-search record](projects/us-bjs-community-supervision-2024/source-search-2026-09-22-supervision.md)
+
+## US carbon tariffs, climate policy, and geopolitical coordination
+
+**Project:** `us-carbon-tariff-climate-geopolitics`
+
+**Status:** bounded pass complete; model separates domestic emissions, foreign emissions, welfare, and multilateral coordination, real policy effects remain open
+
+**Question:** Can a US carbon tariff reduce global emissions by itself, or does it need domestic policy and international coordination?
+
+**Sources recorded:** 1
+
+- [Are carbon tariffs climate policy?](https://www.nber.org/papers/w35307)
+
+[Open the source-search record](projects/us-carbon-tariff-climate-geopolitics/source-search-2026-09-22.md)
 
 ## US career progression and the mid-level plateau
 
@@ -281,6 +407,34 @@
 - differences by race, income, state and family structure.
 
 [Open the source-search record](projects/us-cash-aid-household-structure/source-search-2026-09-11.md)
+
+## loneliness, social support, and mental health in 2022
+
+**Project:** `us-cdc-loneliness-social-support-2022`
+
+**Status:** bounded pass complete
+
+**Question:** Who has social connection and support, who is more likely to lack it, and how
+
+**Sources recorded:** 1
+
+- [CDC MMWR: Loneliness, Lack of Social and Emotional Support, and Mental Health Issues](https://www.cdc.gov/mmwr/volumes/73/wr/mm7324a1.htm)
+
+[Open the source-search record](projects/us-cdc-loneliness-social-support-2022/source-search-2026-09-22-social-connection.md)
+
+## community connection and social participation
+
+**Project:** `us-cdc-loneliness-social-support-2022`
+
+**Status:** bounded pass completed; CDC summary indicators add support and participation measures while same-person continuity remains open
+
+**Question:** Can reported social support be present while health or other constraints still limit usable participation?
+
+**Sources recorded:** 1
+
+- [CDC Community & Connection](https://www.cdc.gov/mental-health/about-data/community-connection.html)
+
+[Open the source-search record](projects/us-cdc-loneliness-social-support-2022/source-search-2026-09-23-community-connection.md)
 
 ## US Child Tax Credit and economic sentiment
 
@@ -404,6 +558,20 @@
 
 [Open the source-search record](projects/us-consumer-fraud-trust/source-search-2026-09-11.md)
 
+## US corporate political ties and reputational risk
+
+**Project:** `us-corporate-pac-reputational-risk`
+
+**Status:** bounded pass complete; firms' visible political spending responds temporarily to reputational shocks, durable political reallocation remains open
+
+**Question:** When public attention makes political ties risky, do firms permanently change their political behavior or only wait out the pressure?
+
+**Sources recorded:** 1
+
+- [The Price of Political Ties](https://www.nber.org/papers/w35494)
+
+[Open the source-search record](projects/us-corporate-pac-reputational-risk/source-search-2026-09-22.md)
+
 ## US cost of living, trust, and political response
 
 **Project:** `us-cost-trust-politics`
@@ -433,6 +601,34 @@
 - whether lost buying power matters more than the inflation rate people hear in national news.
 
 [Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-11.md)
+
+## arts access, participation, and social connection
+
+**Project:** `us-cost-trust-politics`
+
+**Status:** bounded pass complete; arts participation is socially patterned and associated with connection, but causation remains open
+
+**Question:** Do arts activities operate as a shared cultural resource, and who can reach
+
+**Sources recorded:** 1
+
+- [Arts Attendance, Art-Making, and Social Connectedness](https://www.arts.gov/sites/default/files/HPS-Brief-final.pdf)
+
+[Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-22-arts-social-connectedness.md)
+
+## electorate composition, eligibility, and political voice
+
+**Project:** `us-cost-trust-politics`
+
+**Status:** bounded pass complete; demographic eligibility is not the same as political participation or influence
+
+**Question:** How is the racial and ethnic makeup of the eligible electorate changing, and
+
+**Sources recorded:** 1
+
+- [The U.S. Electorate's Changing Racial and Ethnic Makeup](https://www.pewresearch.org/race-and-ethnicity/2026/09/10/the-u-s-electorates-changing-racial-and-ethnic-makeup/)
+
+[Open the source-search record](projects/us-cost-trust-politics/source-search-2026-09-22-electorate-composition.md)
 
 ## US credit records and financial visibility
 
@@ -491,6 +687,21 @@
 
 [Open the source-search record](projects/us-customer-automation-recourse/source-search-2026-09-11.md)
 
+## broadband availability, adoption, and choice
+
+**Project:** `us-digital-access`
+
+**Status:** bounded pass complete; technical availability is not the same as subscription or practical choice
+
+**Question:** If a household is inside a broadband service area, what still has to happen
+
+**Sources recorded:** 2
+
+- [FCC 2024 Section 706 report](https://docs.fcc.gov/public/attachments/FCC-24-136A1.pdf)
+- [FCC broadband data definitions](https://c2h.fcc.gov/bh-data.html)
+
+[Open the source-search record](projects/us-digital-access/source-search-2026-09-22-broadband-access-adoption.md)
+
 ## US digital habits, attention, and the need to leave
 
 **Project:** `us-digital-habits-attention`
@@ -518,11 +729,55 @@
 
 [Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-11.md)
 
+## digital use, wellbeing, and collective exit
+
+**Project:** `us-digital-habits-attention`
+
+**Status:** bounded pass complete; individual deactivation and collective coordination are visible, while durable exit and population-wide effects remain open
+
+**Question:** Why might people keep using a digital platform even when leaving it can improve their reported wellbeing?
+
+**Sources recorded:** 1
+
+- [World Happiness Report 2026, “Social media, wasting time, and product traps”](https://www.worldhappiness.report/ed/2026/social-media-wasting-time-and-product-traps/)
+
+[Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-22-social-exit.md)
+
+## social platforms as consumer-risk infrastructure
+
+**Project:** `us-digital-habits-attention`
+
+**Status:** bounded pass complete; FTC reports show a material-risk route, while prevalence, recovery, platform responsibility, and durable trust remain open
+
+**Question:** How can the same social-platform features that create connection and targeted reach also move consumer fraud into everyday shopping, investing, housing, work, and relationships?
+
+**Sources recorded:** 1
+
+- [Reported losses to scams on social media eight times higher than in 2020](https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2026/04/reported-losses-scams-social-media-eight-times-higher-2020)
+
+[Open the source-search record](projects/us-digital-habits-attention/source-search-2026-09-22-social-scams.md)
+
+## California DROP status and practical data control
+
+**Project:** `us-drop-status-contestability`
+
+**Status:** bounded pass complete; request visibility is not aggregate proof of deletion
+
+**Question:** What does the official DROP workflow show about the conversion from a consumer
+
+**Sources recorded:** 3
+
+- [How DROP works](https://privacy.ca.gov/drop/how-drop-works/)
+- [Processing DROP requests](https://privacy.ca.gov/drop-for-data-brokers/process-drop-requests/)
+- [DROP data-broker deletion explainer](https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/)
+
+[Open the source-search record](projects/us-drop-status-contestability/source-search-2026-09-22-drop.md)
+
 ## US durable purchases and borrowed room
 
 **Project:** `us-durable-purchase-financing`
 
-**Status:** opening pass; purchase and financing response is measured, later household cost remains open
+**Status:** bounded pass completed; purchase and financing response is measured, later household cost and access remain open
 
 **Question:** What happens when a one-time payment meets a large household purchase?
 
@@ -541,6 +796,21 @@
 - whether the purchase protected work or care access.
 
 [Open the source-search record](projects/us-durable-purchase-financing/source-search-2026-09-11.md)
+
+## economic place conditions and civic capacity
+
+**Project:** `us-economic-place-civic-capacity`
+
+**Status:** bounded pass complete; material place conditions and civic participation move together without proving one-person causality
+
+**Question:** How did local economic disadvantage, inequality, growth, and the Great Recession
+
+**Sources recorded:** 2
+
+- [The Decline of Volunteering in the United States: Is it the Economy?](https://lehd.ces.census.gov/applications/creat/paper-profile/1346)
+- [Working paper PDF](https://www2.census.gov/library/working-papers/2025/adrm/ces/CES-WP-25-41.pdf)
+
+[Open the source-search record](projects/us-economic-place-civic-capacity/source-search-2026-09-22-census.md)
 
 ## US real wages and the vote
 
@@ -566,6 +836,20 @@
 - whether a later recovery changes trust or only the next vote.
 
 [Open the source-search record](projects/us-economic-voting-real-wages/source-search-2026-09-11.md)
+
+## election administration and practical participation
+
+**Project:** `us-election-administration`
+
+**Status:** bounded pass complete; administrative access and political participation are related but not identical
+
+**Question:** What happened between voter participation and a counted ballot in the 2024
+
+**Sources recorded:** 1
+
+- [2024 Election Administration and Voting Survey comprehensive report](https://www.eac.gov/sites/default/files/2025-06/2024_EAVS_Report_508c.pdf)
+
+[Open the source-search record](projects/us-election-administration/source-search-2026-09-22-eavs.md)
 
 ## US emergency assistance and the work path
 
@@ -640,7 +924,7 @@
 
 **Project:** `us-employer-political-influence`
 
-**Status:** opening pass; employer power and reported political influence are measured, the actual vote path remains open
+**Status:** bounded pass completed; employer power, reported influence, and turnout are measured at separate layers, the same-worker belief-and-vote path remains open
 
 **Question:** When one employer dominates a local job market, can its economic power also shape workers' political choices?
 
@@ -657,6 +941,34 @@
 - differences by occupation, income, race and place.
 
 [Open the source-search record](projects/us-employer-political-influence/source-search-2026-09-11.md)
+
+## employment-discrimination recourse and workplace change
+
+**Project:** `us-employment-discrimination-recourse`
+
+**Status:** bounded pass complete; enforcement output is not the same as durable workplace protection
+
+**Question:** What did the EEOC's FY 2025 enforcement route receive, resolve, and return to
+
+**Sources recorded:** 1
+
+- [EEOC FY 2025 Agency Performance Report](https://www.eeoc.gov/sites/default/files/2026-04/EEOC_APR_FY2025_APP_FY2027_508.pdf)
+
+[Open the source-search record](projects/us-employment-discrimination-recourse/source-search-2026-09-22-eeoc.md)
+
+## US employment, mothers, and political behavior
+
+**Project:** `us-employment-mothers-voting`
+
+**Status:** bounded pass complete; employment and political outcomes are estimated, the household mechanism and wider generalization remain open
+
+**Question:** When lower-income mothers enter work, does the change alter political participation or identity?
+
+**Sources recorded:** 1
+
+- [Does Employment Shift Mothers' Voting Behavior and Political Identity?](https://www.nber.org/papers/w34980)
+
+[Open the source-search record](projects/us-employment-mothers-voting/source-search-2026-09-22.md)
 
 ## US energy assistance and delayed household sacrifice
 
@@ -705,7 +1017,7 @@
 
 **Project:** `us-environmental-policy-cost-beliefs`
 
-**Status:** opening pass; policy beliefs and a political-choice model are described, actual household bills and environmental results remain open
+**Status:** bounded pass completed; policy beliefs, an information effect, and a political-choice model are described, actual household bills and environmental results remain open
 
 **Question:** When people think one climate or energy policy will raise their bills, how does that belief shape the policy they support?
 
@@ -773,6 +1085,20 @@
 
 [Open the source-search record](projects/us-family-support-hidden-safety-net/source-search-2026-09-11.md)
 
+## FDA third-party medical-device review
+
+**Project:** `us-fda-third-party-device-review`
+
+**Status:** bounded source retained
+
+**Question:** Can delegated technical review provide faster device access while FDA audit
+
+**Sources recorded:** 1
+
+- [GAO-26-108499: Medical Devices—FDA Should Strengthen Policies Guiding Audits of Third Party Review Organizations](https://www.gao.gov/products/gao-26-108499)
+
+[Open the source-search record](projects/us-fda-third-party-device-review/source-search-2026-09-23-gao.md)
+
 ## US trust in the Federal Reserve
 
 **Project:** `us-fed-partisan-trust`
@@ -795,6 +1121,76 @@
 - differences by party, age, race, income, place and education.
 
 [Open the source-search record](projects/us-fed-partisan-trust/source-search-2026-09-11.md)
+
+## personal financial well-being and economic meaning in 2025
+
+**Project:** `us-fed-shed-economic-wellbeing-2025`
+
+**Status:** bounded pass complete
+
+**Question:** Do people judge their own financial situation, local economy, and national
+
+**Sources recorded:** 1
+
+- [Federal Reserve: Economic Well-Being of U.S. Households in 2025](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm)
+
+[Open the source-search record](projects/us-fed-shed-economic-wellbeing-2025/source-search-2026-09-22-fed-shed.md)
+
+## small-business credit as a differentiated institutional route
+
+**Project:** `us-fed-small-business-credit-route`
+
+**Status:** bounded pass complete
+
+**Question:** When small firms seek financing, how do provider choice and firm credit risk
+
+**Sources recorded:** 1
+
+- [Federal Reserve Consumer & Community Context: Small Business Credit](https://www.federalreserve.gov/publications/2025-march-consumer-community-context.htm)
+
+[Open the source-search record](projects/us-fed-small-business-credit-route/source-search-2026-09-22-fed-sbcs.md)
+
+## federal-building accessibility complaint visibility
+
+**Project:** `us-federal-building-accessibility`
+
+**Status:** bounded source retained
+
+**Question:** Can a formal accessibility complaint route provide practical accountability if
+
+**Sources recorded:** 1
+
+- [GAO-26-108575: Federal Real Property—GSA Should Publicize Accessibility Complaint Process for Its Office Buildings](https://www.gao.gov/products/gao-26-108575)
+
+[Open the source-search record](projects/us-federal-building-accessibility/source-search-2026-09-23-gao.md)
+
+## federal financial reporting control and public knowledge
+
+**Project:** `us-federal-financial-reporting-control`
+
+**Status:** bounded pass complete; published financial visibility is not the same as fully reliable public knowledge
+
+**Question:** What does the latest GAO oversight record show about the control work behind the
+
+**Sources recorded:** 1
+
+- [GAO-26-109081, U.S. Consolidated Financial Statements: Improvements Needed in Controls over Treasury Preparation Processes](https://files.gao.gov/reports/GAO-26-109081/index.html)
+
+[Open the source-search record](projects/us-federal-financial-reporting-control/source-search-2026-09-22-gao.md)
+
+## federal program effectiveness and outcome evidence
+
+**Project:** `us-federal-program-effectiveness`
+
+**Status:** bounded pass complete; serving people is not the same as improving the problem
+
+**Question:** What does federal oversight show about the evidence agencies have for knowing
+
+**Sources recorded:** 1
+
+- [GAO-26-109130, Federal Programs: Assessing and Improving Effectiveness](https://www.gao.gov/products/gao-26-109130)
+
+[Open the source-search record](projects/us-federal-program-effectiveness/source-search-2026-09-22-gao.md)
 
 ## US fiscal news and household choice
 
@@ -845,11 +1241,151 @@
 
 [Open the source-search record](projects/us-food-budget-security/source-search-2026-09-11.md)
 
+## foreign-sourced telecommunications procurement
+
+**Project:** `us-foreign-sourced-telecom-procurement`
+
+**Status:** bounded source retained
+
+**Question:** Can a national-security procurement prohibition work across government if
+
+**Sources recorded:** 1
+
+- [GAO-26-108630: Telecommunications—Better Information Sharing Needed to Ensure Compliance with Foreign-Sourced Equipment Prohibitions](https://www.gao.gov/products/gao-26-108630)
+
+[Open the source-search record](projects/us-foreign-sourced-telecom-procurement/source-search-2026-09-23-gao.md)
+
+## federal reentry timing and halfway-house capacity
+
+**Project:** `us-gao-bop-reentry-timing-2026`
+
+**Status:** bounded pass complete
+
+**Question:** Does a formal prerelease route become usable community reentry, or can timing,
+
+**Sources recorded:** 1
+
+- [GAO-26-107353: Bureau of Prisons: Actions Needed to Better Achieve Financial and Other Benefits of Moving Individuals to Halfway Houses on Time](https://www.gao.gov/products/gao-26-107353)
+
+[Open the source-search record](projects/us-gao-bop-reentry-timing-2026/source-search-2026-09-22-bop-rrc.md)
+
+## disaster contracting and local vendors
+
+**Project:** `us-gao-disaster-local-vendor-use`
+
+**Status:** bounded pass complete; contract and data-legibility gaps are
+
+**Question:** Can disaster contracting be a local economic-recovery tool if agencies cannot
+
+**Sources recorded:** 1
+
+- [GAO-26-108426, Disaster Contracting: FEMA and the Corps of Engineers Have Opportunities to Improve Local Vendor Use](https://files.gao.gov/reports/GAO-26-108426/index.html)
+
+[Open the source-search record](projects/us-gao-disaster-local-vendor-use/source-search-2026-09-22-gao.md)
+
+## international defense arrangements as an institutional route
+
+**Project:** `us-gao-international-defense-arrangements`
+
+**Status:** bounded pass complete
+
+**Question:** Can the United States turn international defense cooperation into usable joint
+
+**Sources recorded:** 1
+
+- [GAO-26-108249: International Agreements](https://www.gao.gov/products/gao-26-108249)
+
+[Open the source-search record](projects/us-gao-international-defense-arrangements/source-search-2026-09-22-gao.md)
+
+## Native housing and homelessness
+
+**Project:** `us-gao-native-housing-homelessness`
+
+**Status:** bounded pass complete; program reach and definition mismatch are
+
+**Question:** Does current federal housing oversight show a gap between the formal housing
+
+**Sources recorded:** 1
+
+- [GAO-26-109173, Native American Issues: Preliminary Observations on Housing and Homelessness](https://www.gao.gov/products/gao-26-109173)
+
+[Open the source-search record](projects/us-gao-native-housing-homelessness/source-search-2026-09-22-gao.md)
+
+## school facility disruption
+
+**Project:** `us-gao-school-facility-disruption`
+
+**Status:** bounded pass complete; facility disruption and estimated lost days
+
+**Question:** Can an official national survey show school buildings functioning as social
+
+**Sources recorded:** 1
+
+- [GAO-26-107970, K-12 Education: Facility Issues Led About One in Five Districts to Cancel School in 2024–25](https://files.gao.gov/reports/GAO-26-107970/index.html)
+
+[Open the source-search record](projects/us-gao-school-facility-disruption/source-search-2026-09-22-gao.md)
+
+## unpaid household work and caregiving
+
+**Project:** `us-gao-unpaid-household-work`
+
+**Status:** bounded pass complete; national time and replacement value are
+
+**Question:** Can an official national estimate make unpaid household work visible as
+
+**Sources recorded:** 1
+
+- [GAO-26-107871, Unpaid Household Work: Estimated Value and Time Spent on Domestic Tasks and Caregiving](https://www.gao.gov/products/gao-26-107871)
+
+[Open the source-search record](projects/us-gao-unpaid-household-work/source-search-2026-09-22-gao.md)
+
+## coercion, retaliation, and outside response
+
+**Project:** `us-geoeconomic-coercion-targets`
+
+**Status:** bounded pass complete; foreign retaliation is visible, but later strategic success and public incidence remain open
+
+**Question:** When the United States uses tariffs as leverage, do foreign governments and firms merely absorb the pressure, or do they answer, negotiate, and later change course?
+
+**Sources recorded:** 1
+
+- [Presidential 2025 Tariff Actions: Timeline and Status](https://www.congress.gov/crs_external_products/R/PDF/R48549/R48549.11.pdf)
+
+[Open the source-search record](projects/us-geoeconomic-coercion-targets/source-search-2026-09-22-crs-retaliation.md)
+
+## US geoeconomic coercion and who bears the pressure
+
+**Project:** `us-geoeconomic-coercion-targets`
+
+**Status:** bounded pass complete; the model distinguishes government targets from private-firm targets, observed coercion outcomes remain open
+
+**Question:** When a great power uses trade and financial links as leverage, does it pressure a foreign government or the private firms inside that country?
+
+**Sources recorded:** 1
+
+- [The Targets of Geoeconomic Coercion](https://www.nber.org/papers/w35343)
+
+[Open the source-search record](projects/us-geoeconomic-coercion-targets/source-search-2026-09-22.md)
+
+## global aging and U.S. foreign policy
+
+**Project:** `us-global-aging-foreign-policy`
+
+**Status:** bounded source retained
+
+**Question:** How could population aging abroad change the balance among security,
+
+**Sources recorded:** 1
+
+- [GAO-26-108732: Global Aging—Key Implications for U.S. Foreign Policy and Federal Agencies](https://www.gao.gov/products/gao-26-108732)
+
+[Open the source-search record](projects/us-global-aging-foreign-policy/source-search-2026-09-23-gao.md)
+
 ## US guaranteed income and household dynamics
 
 **Project:** `us-guaranteed-income-household-dynamics`
 
-**Status:** opening pass; household spillovers are measured, health meaning remains open
+**Status:** bounded pass completed; household spillovers are measured, health meaning and post-payment durability remain open
 
 **Question:** What does regular cash change inside a household when only one person receives it?
 
@@ -1102,7 +1638,7 @@
 
 **Project:** `us-housing-court-legal-help`
 
-**Status:** opening pass; court effects are supported, the full household path remains open
+**Status:** bounded pass completed; court effects are supported, the full household path remains open
 
 **Question:** Which problems can be prevented at the court door, and which remain after help arrives?
 
@@ -1153,6 +1689,20 @@
 
 [Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-11.md)
 
+## affordable housing supply versus usable housing supply
+
+**Project:** `us-housing-insurance-risk`
+
+**Status:** bounded pass complete; HUD measures supply sufficiency, while household search, acceptance, move, stay, and durability remain open
+
+**Question:** When a household needs a low-cost rental, how much of the nominal affordable stock is actually available and physically adequate?
+
+**Sources recorded:** 1
+
+- [Worst Case Housing Needs: 2025 Report to Congress](https://www.huduser.gov/portal/portal/sites/default/files/pdf/Worst-Case-Housing-Needs-2025-Report-to-Congress.pdf)
+
+[Open the source-search record](projects/us-housing-insurance-risk/source-search-2026-09-22-affordable-adequate-supply.md)
+
 ## US housing type and energy affordability
 
 **Project:** `us-housing-type-energy-affordability`
@@ -1175,7 +1725,7 @@
 
 **Project:** `us-immigration-local-demand`
 
-**Status:** opening pass; local demand effect is measurable, housing and political meaning remain open
+**Status:** bounded pass completed; local demand and national inflation channels are measured separately, housing and political meaning remain open
 
 **Question:** What changes in a place when new residents add both workers and customers?
 
@@ -1270,6 +1820,20 @@
 - the gap between national inflation and the prices people see most often.
 
 [Open the source-search record](projects/us-inflation-price-perception/source-search-2026-09-11.md)
+
+## jail exposure and the pretrial administrative route
+
+**Project:** `us-jail-pretrial-exposure`
+
+**Status:** bounded pass complete; jail custody is not the same as conviction or later reentry
+
+**Question:** What changed in local-jail exposure in 2024, and what does the aggregate jail
+
+**Sources recorded:** 1
+
+- [BJS Jail Inmates in 2024 statistical tables](https://bjs.ojp.gov/library/publications/jail-inmates-2024-statistical-tables/web-report)
+
+[Open the source-search record](projects/us-jail-pretrial-exposure/source-search-2026-09-22-jails.md)
 
 ## US local business and the changing hometown
 
@@ -1407,6 +1971,48 @@
 
 [Open the source-search record](projects/us-multiple-job-spending-strain/source-search-2026-09-11.md)
 
+## NATO host-nation rehearsal in Denmark
+
+**Project:** `us-nato-host-nation-rehearsal-denmark`
+
+**Status:** bounded pass complete; rehearsal and coordination are reported,
+
+**Question:** Does a current NATO operational account show a practiced civil-military route
+
+**Sources recorded:** 1
+
+- [Steadfast Discovery 26: ARF strengthens allied readiness through host-nation cooperation in Denmark](https://nrdc-ita.nato.int/newsroom/news-archive/2026/-steadfast-discovery-26-stdy-26-arf-strengthens-allied-readiness-through-host-nation-cooperation-in-denmark)
+
+[Open the source-search record](projects/us-nato-host-nation-rehearsal-denmark/source-search-2026-09-22-nato.md)
+
+## NATO resilience baseline requirements
+
+**Project:** `us-nato-resilience-baseline-requirements`
+
+**Status:** bounded pass complete; formal requirements are visible, practical
+
+**Question:** Does a current NATO resilience document show a concrete connection between
+
+**Sources recorded:** 1
+
+- [NATO 2026 Resilience Baseline Requirements](https://nato.int/en/about-us/official-texts-and-resources/official-texts/2026/09/15/2026-resilience-baseline-requirements)
+
+[Open the source-search record](projects/us-nato-resilience-baseline-requirements/source-search-2026-09-22-nato.md)
+
+## Task Force X-Baltic and allied capability conversion
+
+**Project:** `us-nato-task-force-x-baltic-2025-2026`
+
+**Status:** bounded pass complete
+
+**Question:** Did a NATO technology experiment become a sustained multinational capability,
+
+**Sources recorded:** 1
+
+- [NATO Allied Command Transformation: Task Force X-Baltic](https://www.act.nato.int/activities/tfx-b/)
+
+[Open the source-search record](projects/us-nato-task-force-x-baltic-2025-2026/source-search-2026-09-22-tfx-baltic.md)
+
 ## US news selection and inflation belief
 
 **Project:** `us-news-selection-inflation`
@@ -1430,6 +2036,35 @@
 - differences by party, income, age, race and place.
 
 [Open the source-search record](projects/us-news-selection-inflation/source-search-2026-09-11.md)
+
+## nonprofit-sector work and social infrastructure
+
+**Project:** `us-nonprofit-sector-work`
+
+**Status:** bounded pass completed; nonprofit labor-market conditions are separated from mission value and service outcomes
+
+**Question:** What material labor conditions support the nonprofit institutions that provide social, cultural, health, and civic goods?
+
+**Sources recorded:** 1
+
+- [Census CES Working Paper 26-33](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-33.html)
+
+[Open the source-search record](projects/us-nonprofit-sector-work/source-search-2026-09-23.md)
+
+## OFAC sanctions reach and firm correction
+
+**Project:** `us-ofac-adani-sanctions-compliance`
+
+**Status:** bounded pass complete; enforcement and firm correction are not the same as strategic deterrence
+
+**Question:** What does the Adani OFAC settlement show about the path from cross-border firm
+
+**Sources recorded:** 2
+
+- [OFAC Adani settlement announcement](https://ofac.treasury.gov/recent-actions/20260518)
+- [OFAC settlement agreement and enforcement release](https://ofac.treasury.gov/media/935636/download?inline=)
+
+[Open the source-search record](projects/us-ofac-adani-sanctions-compliance/source-search-2026-09-22-ofac.md)
 
 ## US older consumers are not one market
 
@@ -1471,6 +2106,20 @@
 - [FTC: How to evaluate online reviews](https://consumer.ftc.gov/articles/how-evaluate-online-reviews)
 
 [Open the source-search record](projects/us-online-reviews-trust/source-search-2026-09-11.md)
+
+## Opportunity Zone investment and community outcomes
+
+**Project:** `us-opportunity-zones-community-outcomes`
+
+**Status:** bounded pass complete; investment activity is not the same as community improvement
+
+**Question:** What does the latest oversight record show about whether the Opportunity Zone
+
+**Sources recorded:** 1
+
+- [GAO-26-108132, Opportunity Zones: Effects of Original Tax Incentive Mostly Unknown and Revised Incentive May Offer Improvements](https://files.gao.gov/reports/GAO-26-108132/index.html)
+
+[Open the source-search record](projects/us-opportunity-zones-community-outcomes/source-search-2026-09-22-gao.md)
 
 ## US owner households and the business tradeoff
 
@@ -1525,7 +2174,7 @@
 
 **Project:** `us-payment-system-outage-resilience`
 
-**Status:** opening pass; payment resilience is measured, essential-needs effects remain open
+**Status:** bounded pass completed; payment resilience is measured, essential-needs effects remain open
 
 **Question:** What can a household still buy when the payment network goes down?
 
@@ -1542,6 +2191,22 @@
 - differences by income, age, disability, race, place and broadband access.
 
 [Open the source-search record](projects/us-payment-system-outage-resilience/source-search-2026-09-11.md)
+
+## NATO support and political permission
+
+**Project:** `us-pew-nato-public-legitimacy-2026`
+
+**Status:** bounded pass complete; institutional support and political/leader confidence are separate
+
+**Question:** Does favorable opinion of NATO imply broad and durable support for U.S. alliance
+
+**Sources recorded:** 3
+
+- [NATO Gets High Marks From Member States](https://www.pewresearch.org/global/2026/07/06/nato-gets-high-marks-from-member-states/)
+- [Pew survey methods and questions](https://www.pewresearch.org/global/2026/07/06/nato-gets-high-marks-from-member-states/#methodology)
+- [How Americans view NATO and U.S. NATO membership](https://www.pewresearch.org/2025/04/17/how-americans-view-nato-and-u-s-nato-membership/)
+
+[Open the source-search record](projects/us-pew-nato-public-legitimacy-2026/source-search-2026-09-22-nato.md)
 
 ## US platform data neutrality
 
@@ -1564,6 +2229,20 @@
 - enforcement and political power.
 
 [Open the source-search record](projects/us-platform-data-neutrality/source-search-2026-09-11.md)
+
+## platform data retention and practical control
+
+**Project:** `us-platform-data-retention-control`
+
+**Status:** bounded pass complete; visible privacy controls do not prove practical data control
+
+**Question:** What did the FTC's 6(b) study find about how major platforms collect, share,
+
+**Sources recorded:** 1
+
+- [FTC staff report on social-media and video-streaming companies](https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-staff-report-finds-large-social-media-video-streaming-companies-have-engaged-vast-surveillance)
+
+[Open the source-search record](projects/us-platform-data-retention-control/source-search-2026-09-22-ftc-6b.md)
 
 ## US platform-owned products and customer choice
 
@@ -1597,7 +2276,7 @@
 
 **Project:** `us-policy-sentiment-cash-benefit`
 
-**Status:** opening pass; policy and sentiment link is supported, political behavior remains open
+**Status:** bounded pass complete; policy and sentiment link is supported, political behavior remains open
 
 **Question:** Can the loss of a household benefit change how people read the economy?
 
@@ -1616,6 +2295,20 @@
 - differences by income, family size, race and state.
 
 [Open the source-search record](projects/us-policy-sentiment-cash-benefit/source-search-2026-09-11.md)
+
+## campaign money and political participation
+
+**Project:** `us-political-participation`
+
+**Status:** bounded pass complete; financial activity is not the same as broad participation or influence
+
+**Question:** How much federal campaign money was reported in the 2025–2026 cycle, and what
+
+**Sources recorded:** 1
+
+- [FEC statistical summary of 15-month campaign activity](https://www.fec.gov/updates/statistical-summary-of-15-month-campaign-activity-of-the-2025-2026-election-cycle/)
+
+[Open the source-search record](projects/us-political-participation/source-search-2026-09-22-campaign-finance.md)
 
 ## US privacy rules and the decision to share
 
@@ -1657,6 +2350,20 @@
 - [CPSC: Recall notification types](https://www.cpsc.gov/Business--Manufacturing/Recall-Guidance/Recall-Notification-Types?language=en)
 
 [Open the source-search record](projects/us-product-recall-response/source-search-2026-09-11.md)
+
+## victim surveys versus police-recorded crime
+
+**Project:** `us-public-safety-measurement`
+
+**Status:** bounded pass complete; NCVS and NIBRS are complementary, not interchangeable
+
+**Question:** Why can two official crime measures show different rates for the same year?
+
+**Sources recorded:** 1
+
+- [The National Crime Victimization Survey and National Incident-Based Reporting System: A Complementary Picture of Crime in 2023](https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting-system-2023)
+
+[Open the source-search record](projects/us-public-safety-measurement/source-search-2026-09-22-ncvs-nibrs.md)
 
 ## US remote work and the value of coming together
 
@@ -1708,7 +2415,7 @@
 
 **Project:** `us-rent-guarantee-insurance`
 
-**Status:** opening pass; modeled gains are clear, actual market effects remain open
+**Status:** bounded pass complete; modeled housing protection and provider-level risk transfer are visible, actual tenant outcomes remain open
 
 **Question:** Who can buy protection before a rent shock, and who is left with the loss?
 
@@ -1982,6 +2689,34 @@
 
 [Open the source-search record](projects/us-safety-net-access/source-search-2026-09-11.md)
 
+## victimization, police visibility, and public safety
+
+**Project:** `us-safety-net-access`
+
+**Status:** bounded pass complete; victimization and official police visibility are separate stages
+
+**Question:** How much public safety becomes visible to police, and what gets lost when a
+
+**Sources recorded:** 1
+
+- [Criminal Victimization, 2024](https://bjs.ojp.gov/library/publications/criminal-victimization-2024)
+
+[Open the source-search record](projects/us-safety-net-access/source-search-2026-09-22-crime-reporting.md)
+
+## school safety, fear, and participation
+
+**Project:** `us-school-safety`
+
+**Status:** bounded pass complete; aggregate safety improvement does not erase student-level avoidance
+
+**Question:** When official school-crime measures improve, do students still change their
+
+**Sources recorded:** 1
+
+- [Report on Indicators of School Crime and Safety: 2023](https://nces.ed.gov/pubs2024/2024145.pdf)
+
+[Open the source-search record](projects/us-school-safety/source-search-2026-09-22-school-safety.md)
+
 ## US self-fulfilling credit scores
 
 **Project:** `us-self-fulfilling-credit-scores`
@@ -2003,6 +2738,54 @@
 - whether a better score rule reduces self-fulfilling defaults.
 
 [Open the source-search record](projects/us-self-fulfilling-credit-scores/source-search-2026-09-11.md)
+
+## family routines, enrichment, and school engagement
+
+**Project:** `us-sipp-child-day-cultural-participation`
+
+**Status:** bounded pass complete; family routines, organized activities, and school engagement are separate outcomes
+
+**Question:** Do material hardship and the pandemic affect all parts of children's social and
+
+**Sources recorded:** 3
+
+- [A Child's Day: Parental Interaction, Extracurricular Activities, and School Engagement: 2023](https://www.census.gov/library/publications/2026/demo/p70-212.html)
+- [Official Census PDF](https://www2.census.gov/library/publications/2026/demo/p70-212.pdf)
+- [SIPP survey overview](https://www.census.gov/programs-surveys/sipp.html)
+
+[Open the source-search record](projects/us-sipp-child-day-cultural-participation/source-search-2026-09-22-child-day.md)
+
+## monthly versus lasting poverty
+
+**Project:** `us-sipp-monthly-episodic-poverty`
+
+**Status:** bounded pass complete; duration and concentration are measured, causes and later outcomes remain open
+
+**Question:** Can a stable monthly poverty rate hide different poverty durations and unequal
+
+**Sources recorded:** 3
+
+- [Monthly and Episodic Poverty: 2024](https://www.census.gov/library/publications/2026/demo/p70br-216.html)
+- [Official Census PDF](https://www2.census.gov/library/publications/2026/demo/p70br-216.pdf)
+- [2025 SIPP data page](https://www.census.gov/data/datasets/2025/demo/sipp/2025-data.html)
+
+[Open the source-search record](projects/us-sipp-monthly-episodic-poverty/source-search-2026-09-22-sipp.md)
+
+## assets on paper versus usable household buffer
+
+**Project:** `us-sipp-wealth-households-2024`
+
+**Status:** bounded pass complete; wealth distribution and asset composition are measured, practical liquidity and later coping remain open
+
+**Question:** Does common asset ownership mean households have comparable usable protection
+
+**Sources recorded:** 3
+
+- [Wealth of Households: 2024](https://www.census.gov/library/publications/2026/demo/p70br-218.html)
+- [Official Census PDF](https://www2.census.gov/library/publications/2026/demo/p70br-218.pdf)
+- [2024 wealth, asset ownership, and debt tables](https://www.census.gov/data/tables/2024/demo/wealth/wealth-asset-ownership.html)
+
+[Open the source-search record](projects/us-sipp-wealth-households-2024/source-search-2026-09-22-wealth.md)
 
 ## US small-business disaster liquidity
 
@@ -2054,6 +2837,20 @@
 
 [Open the source-search record](projects/us-small-business-support-size-cutoff/source-search-2026-09-11.md)
 
+## US space operations and allied coordination
+
+**Project:** `us-space-allied-coordination`
+
+**Status:** bounded pass complete; operational cooperation is not the same as coordinated capability
+
+**Question:** What does the public oversight record show about the practical conditions for
+
+**Sources recorded:** 1
+
+- [GAO-25-108043, Space Operations: DOD Is Pursuing Efforts to Collaborate with Allies and Partners but Needs to Address Key Challenges](https://www.gao.gov/products/gao-25-108043)
+
+[Open the source-search record](projects/us-space-allied-coordination/source-search-2026-09-22-gao.md)
+
 ## US student debt and delayed life choices
 
 **Project:** `us-student-debt-life-choices`
@@ -2083,7 +2880,7 @@
 
 **Project:** `us-student-loan-policy-uncertainty`
 
-**Status:** opening pass; payment and spending responses are measured, wider life effects remain open
+**Status:** bounded pass complete; belief, payment, spending, and post-resumption delinquency are measured, wider life effects remain open
 
 **Question:** What does a policy promise make households do before the promise becomes real?
 
@@ -2175,6 +2972,20 @@
 
 [Open the source-search record](projects/us-tariff-price-pass-through/source-search-2026-09-11.md)
 
+## tax rulemaking and usable public participation
+
+**Project:** `us-tax-rulemaking-public-engagement`
+
+**Status:** bounded pass complete; a comment opportunity is not automatically usable influence
+
+**Question:** What does the oversight record show about the public's practical ability to
+
+**Sources recorded:** 1
+
+- [GAO-26-108115, Tax Regulations: Opportunities Exist to Improve Economic Analysis and Taxpayer Engagement](https://files.gao.gov/reports/GAO-26-108115/index.html)
+
+[Open the source-search record](projects/us-tax-rulemaking-public-engagement/source-search-2026-09-22-gao.md)
+
 ## US time-intensive platform consumption
 
 **Project:** `us-time-intensive-platform-consumption`
@@ -2220,11 +3031,40 @@
 
 [Open the source-search record](projects/us-transfer-design-household-spending/source-search-2026-09-11.md)
 
+## transit service realization and usable mobility
+
+**Project:** `us-transit-service-realization`
+
+**Status:** bounded pass complete; national service output is not the same as usable household access
+
+**Question:** What did the 2024 National Transit Database show about transit service that was
+
+**Sources recorded:** 1
+
+- [FTA National Transit Database](https://www.transit.dot.gov/ntd)
+
+[Open the source-search record](projects/us-transit-service-realization/source-search-2026-09-22-ntd.md)
+
+## US transmission facilitation and realized infrastructure
+
+**Project:** `us-transmission-facilitation-realization`
+
+**Status:** bounded pass complete; federal capacity support is not the same as energized service
+
+**Question:** What does the DOE Transmission Facilitation Program record show about the gap
+
+**Sources recorded:** 2
+
+- [DOE Transmission Facilitation Program selections](https://www.energy.gov/edf/transmission-facilitation-program-selections)
+- [DOE Transmission Facilitation Program](https://www.energy.gov/edf/transmission-facilitation-program)
+
+[Open the source-search record](projects/us-transmission-facilitation-realization/source-search-2026-09-22-doe.md)
+
 ## US transportation, household cost, and access
 
 **Project:** `us-transportation-household-access`
 
-**Status:** short discovery pass; no settled finding
+**Status:** bounded pass complete; national movement costs and work-travel time are measured, household access and welfare remain open
 
 **Question:** When movement is required for work, food or care, what does transportation take from the household budget and schedule?
 
@@ -2402,6 +3242,20 @@
 
 [Open the source-search record](projects/us-weatherization-health-household-outcomes/source-search-2026-09-11.md)
 
+## worker voice and labor-administration capacity
+
+**Project:** `us-worker-voice-administration`
+
+**Status:** bounded pass complete; invoking a labor process is not the same as durable worker power
+
+**Question:** How much labor-relations demand reached the NLRB in FY 2025, and what did the
+
+**Sources recorded:** 1
+
+- [NLRB FY 2025 Performance and Accountability Report](https://www.nlrb.gov/sites/default/files/attachments/pages/node-130/nlrb-fy2025-par.pdf)
+
+[Open the source-search record](projects/us-worker-voice-administration/source-search-2026-09-22-nlrb.md)
+
 ## US workplace communication and the price of fitting in
 
 **Project:** `us-workplace-communication-fit`
@@ -2425,3 +3279,17 @@
 - whether a different communication style is valuable in some customer or team settings.
 
 [Open the source-search record](projects/us-workplace-communication-fit/source-search-2026-09-11.md)
+
+## USMCA labor response and cross-border remedy
+
+**Project:** `usmca-rapid-response-labor-remedy`
+
+**Status:** bounded pass complete; formal cross-border enforcement produced visible remediation, but durability is open
+
+**Question:** Can a cross-border labor mechanism move from a complaint to a documented remedy,
+
+**Sources recorded:** 1
+
+- [USTR resolution of the ThyssenKrupp USMCA Rapid Response Labor Mechanism matter](https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-thyssenkrupp)
+
+[Open the source-search record](projects/usmca-rapid-response-labor-remedy/source-search-2026-09-22-ustr.md)

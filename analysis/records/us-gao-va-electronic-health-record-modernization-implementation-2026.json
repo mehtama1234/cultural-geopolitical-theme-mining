@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-va-electronic-health-record-modernization-implementation-2026",
+  "title": "Accelerating a health-record rollout can outrun user readiness and operational proof",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "infrastructure_technology_dependency", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "GAO-26-109393 testimony summarizing GAO follow-up reports on VA Electronic Health Record Modernization",
+  "geography": "United States Department of Veterans Affairs; VA health-care facilities and planned EHR deployments, 2017–2031 planning horizon",
+  "observations": [
+    {
+      "period": "2017–August 2026; planned acceleration through 2031",
+      "denominator": {"value": 18, "unit": "GAO recommendations made across five prior VA EHR-related reports", "value_type": "recommendation_universe"},
+      "measures": {
+        "recommendation_status": {"value": "4 implemented; 14 not fully addressed, including 10 not implemented and 4 partially implemented priority recommendations", "unit": "GAO recommendation status as of August 2026", "value_type": "reported_status"},
+        "priority_recommendations": {"value": 12, "unit": "recommendations GAO classified as priority", "value_type": "reported_count"},
+        "deployment_history": {"value": "initial deployment in 2020, four additional sites in 2022, pause after user feedback, planned restart at four Michigan facilities and nine additional 2026 sites", "unit": "deployment sequence", "value_type": "reported_timeline"},
+        "planned_scale": {"value": "approximately 170 sites by 2031", "unit": "planned VA deployment sites", "value_type": "reported_plan"},
+        "cost_schedule": {"value": "VA delivered a notional schedule but not an updated cost estimate or detailed schedule documentation sufficient for leading-practice assessment", "unit": "program-control status", "value_type": "reported_gap"},
+        "user_readiness": {"value": "users reported dissatisfaction and VA had not validated that the system satisfied user needs in the operational environment", "unit": "user adoption and operational assessment", "value_type": "reported_gap"}
+      },
+      "method": "GAO testimony summarized five prior GAO reports from June 2020 through March 2025 and followed up with VA on recommendation implementation through August 2026; the underlying work addressed cost estimates, schedules, data management, user satisfaction, trouble tickets, change management, and operational testing.",
+      "uncertainty": "This testimony is a synthesis of prior reports and recommendation follow-up, not a new representative survey of all veterans or clinicians. Recommendation status is not the same as system performance, clinical safety, or patient outcomes. The planned deployment count is a schedule target, not completed implementation. User dissatisfaction and system issues are reported from prior work and are not a prevalence estimate for every site.",
+      "subgroup": "VA patients, clinicians, end users, initial deployment facilities, and planned deployment sites; the record does not provide a linked patient-clinician-site panel.",
+      "counterinterpretation": "Only four of 18 recommendations were fully implemented, but partial implementation can still improve some operations. A deployment pause can be a corrective action rather than simple failure. A missing cost estimate or independent operational assessment is a control gap, not proof that the system is unsafe or that every user experiences poor performance.",
+      "source_url": "https://www.gao.gov/products/gao-26-109393",
+      "retrieval_hash": "sha256:f489ee119343eb43366586b03ef0f226af7977551210885b8a2ecf822e7f6916",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/assets/gao-26-109393.pdf", "claim": "Official GAO testimony PDF provides the recommendation status, deployment history, cost/schedule gap, user feedback, and operational-assessment boundary.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a rollout-to-usability mechanism: system deployment and acceleration can coexist with unresolved cost, schedule, user adoption, operational testing, and patient-safety controls. It does not establish patient harm, clinical effectiveness, veteran satisfaction prevalence, or the success or failure of the planned 2031 rollout.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GAO landing page and testimony PDF; VA system logs, patient records, and site-level performance data are not retained.", "pdf_sha256": "sha256:f489ee119343eb43366586b03ef0f226af7977551210885b8a2ecf822e7f6916", "checked": "2026-09-23"}
+}

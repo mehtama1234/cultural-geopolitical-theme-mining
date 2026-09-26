@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-broadband-dig-once-highway-coordination-2026",
+  "title": "A broadband shortcut can exist on paper while the coordination needed to use it remains uneven",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "public_systems_feedback", "housing_place_mobility", "consumer_power_recourse", "unequal_exposure_status"],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107734 review of the Federal Highway Administration's 2021 broadband infrastructure deployment rule",
+  "geography": "United States; 50 states, Puerto Rico, and the District of Columbia, with selected state review",
+  "observations": [{
+    "period": "May 2025 survey; rule implementation since December 2021",
+    "denominator": {"value": 52, "unit": "state broadband utility coordinators or other appropriate state contacts surveyed", "value_type": "national_survey_universe"},
+    "measures": {
+      "coordinator": {"value": 46, "unit": "respondents reporting that their state DOT had identified a broadband utility coordinator", "value_type": "reported_count"},
+      "broad_coordination": {"value": 46, "unit": "respondents reporting broad coordination with federal, state, or local agencies", "value_type": "reported_count"},
+      "registration_and_notification": {"value": "more than half", "unit": "respondents reporting fully established provider registration and electronic notification processes", "value_type": "reported_share"},
+      "implementation_barriers": {"value": "limited experienced staff, IT difficulties, and difficulty engaging providers were reported by some respondents", "unit": "reported implementation barriers", "value_type": "reported_finding"},
+      "effect_visibility": {"value": "states and stakeholders said the rule's effects on broadband deployment were not well known", "unit": "observed evaluation boundary", "value_type": "reported_gap"}
+    },
+    "method": "GAO surveyed all 52 state contacts, reviewed statutes, regulations, and Federal Highway Administration documents, interviewed federal officials and associations, and examined documents and interviews in three selected states.",
+    "uncertainty": "The survey measures reported implementation of coordination requirements, not miles of fiber, completed projects, provider participation, household service, prices, reliability, or causal deployment effects. The three-state document review is selected rather than representative.",
+    "subgroup": "State transportation departments, broadband offices, internet providers, federal-aid highway rights-of-way, and rural or otherwise underserved places that depend on middle-mile infrastructure.",
+    "counterinterpretation": "A reported coordinator or coordination process may still support useful deployment even when its downstream effect is not measured. The absence of known effects is an evaluation gap, not proof that the rule failed.",
+    "source_url": "https://www.gao.gov/products/gao-26-107734",
+    "retrieval_hash": "sha256:81393a7829356f22cd9c7cc2eb87be999133033c912f231bff2c0b8398bb3792",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/assets/gao-26-107734.pdf", "claim": "The official report contains the survey instrument, state implementation details, and selected-state evidence.", "status": "official-report-context"},
+    {"source_url": "https://www.gao.gov/assets/890/889659.pdf", "claim": "A separate GAO broadband review covers targeting and sustainability; it is retained as a different program-to-service boundary.", "status": "separate-atlas-comparator"}
+  ],
+  "boundary": "This record adds the institutional coordination layer behind broadband deployment along federal-aid highways. It does not establish that a highway right-of-way received fiber, that a project reduced cost or disruption, that a provider served a household, or that service was affordable, reliable, or durable.",
+  "retrieval_hash": "sha256:81393a7829356f22cd9c7cc2eb87be999133033c912f231bff2c0b8398bb3792"
+}

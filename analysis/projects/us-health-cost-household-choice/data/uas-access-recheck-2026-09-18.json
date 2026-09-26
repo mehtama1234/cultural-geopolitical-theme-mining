@@ -1,12 +1,19 @@
 {
   "format": "uas-access-recheck-v1",
-  "checked": "2026-09-18",
+  "checked": "2026-09-20",
   "source_family": "Understanding America Study",
+  "latest_recheck": {
+    "checked": "2026-09-20",
+    "source_url": "https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3",
+    "result": "Official current page still describes Older Ages Monthly Events as June 2019–September 2023 with 52 waves and prior-month event, health, work, earnings, and medical-expenditure measures; the dataset download remains registration required. The ongoing Monthly Panel remains October 2023 to present with one respondent-by-wave record.",
+    "download_access": "registration_required",
+    "no_estimate_promoted": true
+  },
   "routes": [
     {
       "url": "https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3",
       "role": "official_comprehensive_file_and_panel_page",
-      "result": "The June 2026 release documents a wide Comprehensive File and a long Comprehensive Panel Dataset; the panel has one respondent-by-wave observation, is updated quarterly, includes health, financial, employment, and wellbeing domains, and can be linked with uasid.",
+      "result": "The June 2026 release documents a wide Comprehensive File and a long Comprehensive Panel Dataset available to registered users; the panel has one respondent-by-wave observation, is updated quarterly, includes harmonized health, financial, employment, and wellbeing domains, and can be linked with uasid.",
       "download_access": "registration_required"
     },
     {

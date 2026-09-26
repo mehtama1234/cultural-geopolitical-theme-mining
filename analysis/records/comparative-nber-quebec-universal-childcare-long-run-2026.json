@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-quebec-universal-childcare-long-run-2026",
+  "title": "Universal childcare can have long-run maternal work and fiscal effects beyond preschool years",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "time_hidden_price", "work_control_bargaining", "household_room_consumption", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35514; Quebec universal subsidized childcare program and long-run maternal labor, earnings, benefit, and tax outcomes",
+  "geography": "Quebec, Canada; comparative policy evidence for U.S. childcare and work-capacity analysis",
+  "observations": [
+    {
+      "period": "Quebec universal subsidized childcare program; working paper issued July 2026",
+      "denominator": {"value": null, "unit": "mothers exposed to Quebec childcare-policy variation; exact analytic denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "long_run_employment": {"value": "enduring positive impact", "unit": "maternal employment effect after children aged out of preschool", "value_type": "reported_longitudinal_result"},
+        "long_run_earnings": {"value": "positive and growing to about twice the participation effect", "unit": "long-run maternal earnings effect relative to employment effect", "value_type": "reported_longitudinal_result"},
+        "occupational_upgrading": {"value": "observed", "unit": "reported occupational and within-occupation career changes", "value_type": "reported_result"},
+        "fiscal_recapture": {"value": "75 to 117", "unit": "percent of upfront costs potentially recaptured by the estimated net present value of fiscal benefits", "value_type": "reported_model_estimate"}
+      },
+      "method": "Longitudinal policy evaluation of Quebec's universal subsidized childcare program, estimating effects on maternal labor supply, earnings, social-program benefit receipt, tax remittances, occupational movement, and fiscal balance.",
+      "uncertainty": "This is comparative Canadian evidence, not a U.S. treatment estimate. The abstract does not disclose the full analytic denominator or all implementation details. Long-run employment and earnings do not establish equal slot access, care quality, child outcomes, maternal wellbeing, schedule control, or transferability to U.S. institutions and labor markets. Fiscal recapture is a model-based estimate.",
+      "subgroup": "Mothers exposed to Quebec's universal subsidized childcare policy and lifecycle outcomes after preschool; the design and institutional setting differ from U.S. childcare programs and should remain separate.",
+      "counterinterpretation": "Effects may depend on Quebec's prices, labor-market institutions, parental leave, provider system, tax-benefit rules, and broader policy package. Increased employment can coexist with care burden, quality variation, unequal use, or reduced time in other activities.",
+      "source_url": "https://www.nber.org/papers/w35514",
+      "retrieval_hash": "sha256:d4122e07d70154ac3502fdfe247d13f514219a0af5abcdde82fe5967d96e41d7",
+      "status": "compared"
+    }
+  ],
+  "boundary": "This comparative record adds a long-run childcare-to-career-and-fiscal-persistence mechanism. It does not establish a U.S. policy effect, universal access, care quality, child wellbeing, maternal time satisfaction, or a causal cultural or political response."
+}

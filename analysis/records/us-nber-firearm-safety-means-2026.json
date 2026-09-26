@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-firearm-safety-means-2026",
+  "title": "People can share a goal of safety while disagreeing about the tool that provides it",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "NBER Working Paper 34962, The Universal Pursuit of Safety and the Demand for (Lethal, Non-Lethal or No) Guns",
+  "geography": "United States; original survey of more than 5,400 respondents and randomized information experiments on firearm owners and non-owners",
+  "observations": [
+    {
+      "period": "Original survey; 2025–2026 working-paper study",
+      "denominator": {"value": null, "unit": "original survey respondents; total sample exceeds 5,400, with owner and non-owner subgroups and study-specific valid denominators", "value_type": "not_disclosed"},
+      "measures": {
+        "shared_safety_goal": {"value": "safety/protection of self or family is a common stated objective", "unit": "survey response pattern among firearm owners and non-owners", "value_type": "reported_pattern"},
+        "nonowner_interest": {"value": "about one-third", "unit": "non-owners expressing interest in acquiring a lethal firearm", "value_type": "reported_share"},
+        "perceived_safety_difference": {"value": "owners report greater safety/confidence with firearms, while non-owners report lower safety around them", "unit": "reported group difference in safety perceptions", "value_type": "reported_comparison"}
+      },
+      "method": "Original survey comparing lethal-firearm owners and non-owners, including non-owners interested and uninterested in acquisition; the paper organizes the results around differing beliefs about the safety possibilities frontier.",
+      "uncertainty": "The survey measures reported beliefs, feelings, and stated interest rather than realized safety, firearm use, injury, crime, or household-level risk. Subgroup denominators and question wording vary across outcomes; the working paper is not a population-wide causal estimate of gun effects.",
+      "subgroup": "Lethal-firearm owners, non-owners interested in acquisition, and non-owners uninterested in acquisition; the paper reports the interested non-owner group as feeling least safe day to day.",
+      "counterinterpretation": "Different safety reports may reflect local threat, identity, experience, social norms, or selection into ownership rather than a simple effect of owning a firearm. Shared stated goals do not imply agreement about acceptable risk or policy.",
+      "source_url": "https://www.nber.org/papers/w34962",
+      "retrieval_hash": "sha256:dbccc3217ef72ec3741684520c0951e3f16031dd61aba3076bb2979369d19acf",
+      "status": "reported"
+    },
+    {
+      "period": "Randomized information treatments; study experiment",
+      "denominator": {"value": null, "unit": "experiment participants assigned to study information treatments; arm-specific counts not retained in the committed extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "private_cost_information": {"value": "increased concern about firearm harms and support for safe-storage policies; modestly increased stated willingness to keep lethal firearms locked", "unit": "reported treatment effects", "value_type": "reported_experimental_pattern"},
+        "nonlethal_alternative_information": {"value": "increased willingness to pay for a non-lethal firearm, support for incapacitating rather than lethal tools, and support for policies encouraging alternatives", "unit": "reported treatment effects", "value_type": "reported_experimental_pattern"},
+        "ownership_reduction": {"value": "no increase from non-lethal-alternative information in current owners' stated willingness to give up lethal firearms", "unit": "reported null or non-shifting treatment result", "value_type": "reported_boundary"},
+        "persistence": {"value": "alternative-tool effects were described as more persistent than the private-cost treatment", "unit": "reported follow-up treatment pattern", "value_type": "reported_followup_pattern"}
+      },
+      "method": "Randomized information treatments covering private legal/medical costs of lethal ownership and a non-lethal firearm, with and without a conservative pundit endorsement; outcomes include safety-policy views, storage, willingness to pay, and stated ownership preferences.",
+      "uncertainty": "The experiments measure stated attitudes and hypothetical willingness to pay or store, not completed purchases, storage behavior, reduced injuries, or durable policy change. Treatment persistence and interpretation depend on the study's follow-up window and arm-specific design.",
+      "subgroup": "Treatment arms and current lethal-firearm owners versus non-owners; endorsement and alternative-tool effects are not equivalent across all outcomes.",
+      "counterinterpretation": "Information can change the acceptable margin without changing the central identity or ownership choice. A preference for safer storage or a non-lethal alternative is not evidence that lethal ownership ended or that community safety improved.",
+      "source_url": "https://www.nber.org/papers/w34962",
+      "retrieval_hash": "sha256:dbccc3217ef72ec3741684520c0951e3f16031dd61aba3076bb2979369d19acf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://conference.nber.org/conf_papers/f225066/f225066.slides.pdf", "claim": "NBER conference slides provide the study presentation used for the committed retrieval hash and treatment framing.", "status": "primary-presentation"},
+    {"source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/nber_w34962.pdf?abstractid=6425014&mirid=1&type=2", "claim": "Public abstract describes the survey, randomized treatments, safety goal, alternative-tool effects, storage boundary, and persistence claims.", "status": "author-posted-abstract"}
+  ],
+  "boundary": "This record adds a cultural-political mechanism: people can share a safety objective while holding different beliefs about which tools make them safe, and information may move safer margins without dissolving identity-linked ownership choices. It does not establish actual firearm use, injury reduction, crime effects, population policy support, or durable public safety.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER conference presentation PDF retrieved and hashed; underlying survey and experiment data not retained",
+    "pdf_sha256": "sha256:dbccc3217ef72ec3741684520c0951e3f16031dd61aba3076bb2979369d19acf",
+    "checked": "2026-09-22"
+  }
+}

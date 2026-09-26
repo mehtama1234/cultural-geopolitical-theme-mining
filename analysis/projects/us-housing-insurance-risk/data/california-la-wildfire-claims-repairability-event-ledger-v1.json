@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_california_insurance_wildfire_claims_record",
+  "purpose": "Bounded California route from Los Angeles wildfire and smoke exposure through insurance claim processing, regulator enforcement, repair standards, and open safe-return recovery.",
+  "events": [
+    {
+      "event_id": "CALIFORNIA-LA-WILDFIRE-CLAIMS-REPAIRABILITY-2026",
+      "unit": "case",
+      "geography": "Los Angeles County Eaton and Palisades wildfire claims; California Department of Insurance statewide regulatory response",
+      "actor_initiating_change": "insurer",
+      "event_date": "2026-09-15",
+      "date_precision": "Claims tracker updated July 6, 2026; State Farm investigation announced May 4, 2026; smoke-restoration legislation signed September 15, 2026",
+      "denominator": "California Department of Insurance tracker totals for filed and partially paid claims, not unique households or property-level completion; State Farm review sampled 220 claims",
+      "method": "Official California Department of Insurance claims tracker, enforcement announcement, and enacted smoke-damage recovery standards; aggregate and sampled regulatory units are not pooled",
+      "missingness": "Unique household identity, property-level payment amount, claim timing, living-expense adequacy, repair completion, safe return, renewal, move/stay decision, health, trust, and later security are not linked in the retained record",
+      "condition_or_decision": "housing",
+      "exposure": "Eaton and Palisades wildfire and smoke damage generated 41,727 reported claims; 40,482 were reported partially paid and $25.2 billion was reported paid to date",
+      "alternatives_before_action": "Temporary lodging, living-expense coverage, borrowing, family support, public aid, repair, sale, or moving may be alternatives, but the aggregate tracker does not show which were available, affordable, or used by each household",
+      "immediate_burden_or_benefit": "Insurance claims and partial payments provide a formal recovery route while leaving repairability, smoke testing, communication, and safe occupancy unresolved; sampled claims included delayed investigation, underpayment, and smoke-damage disputes",
+      "choice_or_response": "California reviewed a sample of 220 State Farm claims and identified 398 violations in 114 claims; the Department also reported aggregate recovery from insurers and urged formal assistance for delay or denial complaints",
+      "person_or_actor_with_control": "Insurers and adjusters control investigation, valuation, payment, and communication; the Department controls regulatory oversight; households control some complaint, repair, stay, and move decisions but their resources are not retained",
+      "remedy_or_institutional_response": "Regulator enforcement and a September 2026 law created enforceable standards for investigating, testing, and restoring smoke-damaged homes; implementation at a particular property is not observed",
+      "immediate_outcome": "The official record establishes a claim and partial-payment stage plus regulatory correction while keeping household repairability and stable housing open",
+      "protected_outcome": "Safe repair, habitable housing, financial continuity, and the ability to remain could be protected by adequate payment and enforceable restoration, but no property-level protected outcome is verified",
+      "sacrificed_outcome": "Housing stability, money, time, health, work, neighborhood attachment, and future insurability may be sacrificed; the aggregate record does not identify the household trade-off",
+      "cost_risk_transfer": "Claim handling can transfer rebuilding, smoke-testing, living-expense, and uncertainty costs between insurers, households, contractors, lenders, and public agencies; the public record does not quantify that transfer",
+      "later_outcome": "No same-property final payment, repair completion, safe return, renewal, stable stay, move, health, or later household security is observed",
+      "meaning_and_attribution": "A household may interpret partial payment or enforcement as protection, delay, unfairness, or proof that remaining in place is too risky; blame, trust, and attribution are not measured",
+      "public_or_collective_response": "Department enforcement, complaint assistance, and enacted smoke-restoration standards are observed; household organizing, political action, insurer switching, and later public response are not linked",
+      "counterexample": "Partial payment is not necessarily inadequate, and a sampled violation cannot be generalized to every insurer or claim; aggregate paid dollars cannot establish a household recovery rate",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official California Department of Insurance aggregate tracker and regulatory records; claim counts, paid totals, sampled violations, and legislation are different units and do not establish property-level adequacy or causation",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CALIFORNIA-LA-WILDFIRE-A-01",
+      "from": "wildfire and smoke exposure",
+      "to": "insurance claims and partial payment",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "California reports 41,727 claims filed, 40,482 partially paid, and $25.2 billion paid to date for the Eaton and Palisades wildfire claims tracker",
+      "status": "reported",
+      "counterexample": "The counts are not unique households, and partial payment does not establish full payment, adequacy, repair, or safe return",
+      "remaining_gap": "Property-level claim, payment amount, living-expense route, repair cost, and household timing"
+    },
+    {
+      "arrow_id": "CALIFORNIA-LA-WILDFIRE-A-02",
+      "from": "claim investigation and adjustment",
+      "to": "regulatory violation and enforcement response",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "California reviewed 220 State Farm claims and identified 398 violations in 114 claims, including delayed investigation, underpayment, adjuster changes, smoke-damage disputes, and poor communication",
+      "status": "reported",
+      "counterexample": "The sample is an enforcement review, not a statewide violation rate or evidence that every claim had the same experience",
+      "remaining_gap": "Claim-level correction, payment timing, property repair, and household confirmation"
+    },
+    {
+      "arrow_id": "CALIFORNIA-LA-WILDFIRE-A-03",
+      "from": "smoke-damage dispute and regulatory finding",
+      "to": "enforceable smoke-investigation and restoration standards",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "California signed AB 1795 on September 15, 2026, establishing enforceable standards for investigating, testing, and restoring smoke-damaged homes",
+      "status": "reported",
+      "counterexample": "A legal standard does not establish implementation, contractor availability, payment, or a completed safe repair at any specific property",
+      "remaining_gap": "Property implementation, compliance, testing, restoration, occupancy, and recurrence"
+    },
+    {
+      "arrow_id": "CALIFORNIA-LA-WILDFIRE-A-04",
+      "from": "partial payment and smoke-restoration response",
+      "to": "repair completion, safe return, and stable housing",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The tracker and regulatory records do not link a unique property to final payment, completed repair, safe occupancy, renewal, or a stay/move outcome",
+      "status": "open",
+      "counterexample": "A household may repair and remain safely, move voluntarily, or use public/lender support without that outcome appearing in the claims aggregate",
+      "remaining_gap": "Same-property final payment, repair, occupancy, renewal, move/stay, health, and household security"
+    },
+    {
+      "arrow_id": "CALIFORNIA-LA-WILDFIRE-A-05",
+      "from": "claim and enforcement experience",
+      "to": "trust, insurer switching, complaint, or political action",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "California provides complaint assistance and regulatory response, but no affected-household trust, switching, organizing, or later action is linked",
+      "status": "open",
+      "counterexample": "A household may remain with an insurer because of dependence or lack of alternatives rather than trust; a complaint is not proof of later political action",
+      "remaining_gap": "Direct household interpretation, complaint resolution, renewal/switching, trust, and action"
+    }
+  ],
+  "boundary": "This ledger formalizes an aggregate California wildfire-claims, sampled enforcement, and smoke-restoration standards route. It does not establish property-level payment adequacy, repair completion, safe return, insurer causation, household displacement, trust, or exit.",
+  "storage_boundary": "Only official California Department of Insurance aggregate claims, sampled enforcement, enacted standards, and interpretation limits are retained; policyholder files, adjuster records, and property-level claim data are not stored."
+}

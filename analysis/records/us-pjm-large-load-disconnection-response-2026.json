@@ -1,0 +1,210 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pjm-large-load-disconnection-response-2026",
+  "title": "A large-load operating event moved data-center dependency from forecast risk into grid-response rules",
+  "theme_ids": ["energy", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "PJM Interconnection operating account and proposed large-load reliability standards",
+  "geography": "Northern Virginia / PJM region, United States",
+  "observations": [
+    {
+      "period": "2026-06-18 FERC order; pre-event governance stage",
+      "denominator": {
+        "value": 1,
+        "unit": "FERC section 206 proceeding concerning PJM large-load integration",
+        "value_type": "reported_regulatory_action"
+      },
+      "measures": {
+        "tariff_status": {
+          "value": "FERC found PJM's existing tariff appeared unjust, unreasonable, or unduly discriminatory or preferential and ordered PJM and transmission owners to show cause or propose corrective tariff changes",
+          "unit": "reported regulatory finding and order",
+          "value_type": "reported_regulatory_action"
+        },
+        "cost_governance": {
+          "value": "The order required attention to network-upgrade cost transparency, cost-recovery agreements, and risk of cost shifting among transmission customers",
+          "unit": "reported regulatory concern",
+          "value_type": "reported_regulatory_action"
+        },
+        "large_load_definition": {
+          "value": "The order discussed a large load as a new commercial or industrial customer at a single site with peak load of at least 50 MW and transmission interconnection above 69 kV",
+          "unit": "described regulatory scope",
+          "value_type": "reported_regulatory_scope"
+        },
+        "household_cost_or_service_outcome": {
+          "value": "not observed in the order",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of FERC Order Instituting Proceeding under Section 206 of the Federal Power Act, Docket EL26-67-000, issued June 18, 2026.",
+      "uncertainty": "The order establishes a regulatory proceeding and identifies cost-shifting, reliability, tariff, and adequacy concerns; it does not establish final tariff changes, facility-level payments, residential bill effects, or household service outcomes.",
+      "subgroup": "PJM transmission customers, large-load customers, transmission owners, and affected ratepayers; household-level incidence is not identified.",
+      "counterinterpretation": "A show-cause proceeding and identified cost risk do not prove that cost shifting occurred or that households paid more.",
+      "source_url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf",
+      "retrieval_hash": "sha256:24dc46e19cc437a18394e35247cd7d105b2a5eb850a6924245dbfea37b621937",
+      "status": "reported"
+    },
+    {
+      "period": "2026-07-22 event; 2026-09-08/10 PJM response",
+      "denominator": {
+        "value": 1,
+        "unit": "reported large-load disconnection event",
+        "value_type": "reported_event"
+      },
+      "measures": {
+        "unexpected_data_center_load_disconnection": {
+          "value": 4000,
+          "unit": "approximately MW of data-center load disconnected",
+          "value_type": "reported_event_magnitude"
+        },
+        "operating_response": {
+          "value": "data centers switched to backup generation; PJM and Dominion operators managed resulting load-generation imbalance and transmission-voltage and system-frequency spikes",
+          "unit": "reported grid operating response",
+          "value_type": "reported_operational_response"
+        },
+        "institutional_response": {
+          "value": "PJM proposed minimum voltage/frequency ride-through requirements for existing and future large loads and planned a transition process for existing facilities",
+          "unit": "proposed reliability standard",
+          "value_type": "reported_policy_response"
+        },
+        "residential_service_outcome": {
+          "value": "not observed in the announcement",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official PJM Inside Lines account of the July 22 operating event and the September 2026 proposed reliability-standard response.",
+      "uncertainty": "The source reports an approximate aggregate load magnitude and operator response, not a facility roster, event duration, customer-level interruption, residential bill effect, environmental burden, backup-generation emissions, or whether proposed requirements were adopted and sustained.",
+      "subgroup": "Computational large-load facilities, including data centers, in the PJM operating region; affected residential customers are not identified at the household level.",
+      "counterinterpretation": "Backup generation and rapid operator intervention may have limited immediate reliability consequences; the event does not by itself establish a residential outage or unfair cost shift.",
+      "source_url": "https://insidelines.pjm.com/reliability-standards-to-manage-large-load-disconnection-events-proposed-by-pjm/",
+      "retrieval_hash": "sha256:c2daa354e4a0c0fe3af9e031d6eadbd65c11aff6a6c515ee3998bc29065b30cd",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026 FERC oversight material; forward implementation stage",
+      "denominator": {
+        "value": 1,
+        "unit": "FERC oversight and governance reform publication concerning large-load reliability",
+        "value_type": "reported_regulatory_followup"
+      },
+      "measures": {
+        "reliability_standard_direction": {
+          "value": "FERC directed NERC to submit by December 31, 2026 initial reliability standards addressing risks from certain large loads, registry criteria for identifying those loads, and a work plan for later standards development",
+          "unit": "reported regulatory implementation direction",
+          "value_type": "reported_policy_followup"
+        },
+        "stakeholder_governance": {
+          "value": "FERC identified public comments and a governance/stakeholder process around large-load growth and reliability",
+          "unit": "reported public-regulatory process",
+          "value_type": "reported_participation_stage"
+        },
+        "standard_adoption_and_household_incidence": {
+          "value": "not observed",
+          "unit": "missing adopted standard, facility compliance, household bill, outage, or local acceptance outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of FERC's July-August 2026 PJM Governance and Stakeholder Reforms material; the publication is coded as a regulator-directed implementation and participation stage, not as completed reliability reform or household protection.",
+      "uncertainty": "The material describes a future submission deadline and process direction. It does not establish that NERC submitted the standards, that the standards were adopted, that facilities complied, or that customer reliability, bills, or local burdens changed.",
+      "subgroup": "FERC, NERC, PJM, large-load operators, transmission customers, state regulators, and affected communities; household-level incidence is not identified.",
+      "counterinterpretation": "A deadline and stakeholder process can improve institutional visibility and coordination while leaving implementation, enforcement, and lived distributional effects unresolved.",
+      "source_url": "https://www.ferc.gov/sites/default/files/2026-08/PJM%20Governance%20and%20Stakeholder%20Reforms.pdf",
+      "retrieval_hash": "sha256:2e2161e8bb6af595630761dc9447df408e1fdceda72342228c2c83c5341b28f6",
+      "status": "reported"
+    },
+    {
+      "period": "2026-08-31 PJM board direction; affordability and cost-allocation stage",
+      "denominator": {
+        "value": 1,
+        "unit": "PJM board direction concerning resource adequacy, affordability, and large-load growth",
+        "value_type": "reported_governance_action"
+      },
+      "measures": {
+        "capacity_shortfall": {
+          "value": 6831,
+          "unit": "MW below PJM Reliability Requirement in the 2028/2029 delivery-year capacity auction",
+          "value_type": "reported_system_measure"
+        },
+        "large_load_cost_principle": {
+          "value": "PJM states that new large loads should bear the costs they cause",
+          "unit": "reported governance principle",
+          "value_type": "reported_policy_direction"
+        },
+        "household_bill_or_reliability_outcome": {
+          "value": "not observed",
+          "unit": "missing retail bill, customer-class, outage, or household affordability endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of PJM's official board update on resource adequacy, affordability, and large loads; the capacity shortfall and cost-responsibility language are retained as system-governance stages rather than customer outcomes.",
+      "uncertainty": "The reported auction shortfall and board direction do not identify facility-level causation, final tariff treatment, customer-class allocation, residential bill effects, reliability events, or community acceptance.",
+      "subgroup": "PJM board, states, large-load customers, generators, transmission customers, and existing ratepayers; household-level incidence is not identified.",
+      "counterinterpretation": "A cost-responsibility principle can improve governance and transparency without proving that existing ratepayers avoided costs or that large loads paid their full incremental burden.",
+      "source_url": "https://insidelines.pjm.com/pjm-board-directs-action-on-resource-adequacy-affordability-and-large-loads/",
+      "retrieval_hash": "sha256:6d2c36390001b607d836439055dbcd9dae818f88f7dee3dae15c0f0a525544f1",
+      "status": "reported"
+    },
+    {
+      "period": "September 1-8, 2026; emergency operating intervention during forecast hot weather",
+      "denominator": {
+        "value": 1,
+        "unit": "DOE emergency order for PJM Mid-Atlantic reliability",
+        "value_type": "reported_emergency_order"
+      },
+      "measures": {
+        "emergency_direction": {
+          "value": "DOE directed PJM to dispatch specified units and order their operation as needed to maintain reliability",
+          "unit": "federal emergency operating direction",
+          "value_type": "reported_operational_authority"
+        },
+        "backup_generation_authority": {
+          "value": "PJM could direct backup generation resources to operate as a last resort before or during an Energy Emergency Alert 3",
+          "unit": "emergency reliability-control authority",
+          "value_type": "reported_operational_authority"
+        },
+        "implementation_surface": {
+          "value": "PJM could call on transmission owners and electric distribution companies to implement the order",
+          "unit": "multi-actor implementation route",
+          "value_type": "reported_coordination_surface"
+        },
+        "household_outcome": {
+          "value": "not observed",
+          "unit": "residential outage avoidance, bill effect, air-quality burden, customer experience, or later reliability",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of DOE's official September 1, 2026 emergency-order announcement; federal direction and authorized operating actions are coded separately from observed customer outcomes.",
+      "uncertainty": "The announcement establishes an order in force through September 8 and authorized dispatch actions, but does not report which units operated, for how long, whether alerts occurred, what costs or emissions resulted, or whether households avoided interruption.",
+      "subgroup": "PJM, generators, transmission owners, distribution companies, large-load operators, and Mid-Atlantic electricity customers; customer-level effects are not identified.",
+      "counterinterpretation": "Emergency authority can preserve reliability and prevent load shedding without being evidence that a blackout would otherwise have occurred; the order's existence does not prove household benefit or system failure.",
+      "source_url": "https://www.energy.gov/articles/energy-secretary-keeps-mid-atlantic-powered-during-hot-weather-conditions",
+      "retrieval_hash": "sha256:0c57dc0ffe794124343a8005d94eac74db60e8c4502519e7be0e94bfc54823d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260618-el26-67-000.pdf",
+      "claim": "FERC opened a section 206 proceeding, found PJM's existing tariff appeared unjust, unreasonable, or unduly discriminatory or preferential, and directed attention to large-load integration, cost transparency, cost-recovery agreements, and cost-shifting risk.",
+      "status": "official-primary"
+    },
+    {
+      "source_url": "https://www.pjm.com/-/media/DotCom/documents/ferc/orders/2026/20260518-doe-emergency-order-202-26-23.pdf",
+      "claim": "DOE separately authorized emergency operation of customer-owned backup generation at large-load sites to help avoid residential load shedding during a PJM hot-weather event.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.ferc.gov/sites/default/files/2026-08/PJM%20Governance%20and%20Stakeholder%20Reforms.pdf",
+      "claim": "FERC oversight material describes a direction for NERC to submit initial large-load reliability standards, registry criteria, and a work plan by December 31, 2026, while public stakeholder processes continue.",
+      "status": "official-follow-up",
+      "access_boundary": "The material does not establish submission, adoption, facility compliance, household reliability, bill effects, or local acceptance."
+    }
+  ],
+  "boundary": "This record establishes a dated large-load operating event, an operator response, a proposed reliability-control response, and a later regulator-directed standard-setting stage. It does not establish a household outage, bill change, environmental burden, completed rule adoption, facility compliance, durable facility behavior, local acceptance, or changed geopolitical leverage."
+}

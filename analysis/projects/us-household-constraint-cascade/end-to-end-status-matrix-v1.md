@@ -1,6 +1,6 @@
 # Household constraint cascade: end-to-end status matrix v1
 
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-19
 **Purpose:** completion audit for the governing household cascade; no
 synthetic causal estimate
 
@@ -44,6 +44,20 @@ person/household episode. The current status is explicit:
 | Persistence/recovery | Partial: same-person later health/work transitions now observed; no verified episode recovery | [MEPS later-panel follow-up](meps-event-six-month-followup-v1.md); [SHED persistence route](../us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md) |
 | Trust/action/switching/exit | Separate survey benchmarks and acquisition target; same-episode result missing | [Next acquisition decision](next-acquisition-decision-v1.md) |
 | Denominator/weights/uncertainty/counterexample/source hashes | Present by source layer and staged-ledger contract; not yet a complete same-case package | [Ledger manifest](../../../manifests/us-household-constraint-cascade-ledger-v1.json) |
+
+The broader program now adds a second recovery distinction that this matrix
+should carry forward when a household episode is acquired:
+
+```text
+formal response: offered / ordered / approved / reported delivered
+lived response: received / usable / adequate / durable / trusted
+```
+
+For a medical, benefit, utility, or debt episode, a correction or payment is
+not the same as restored care, food, housing, work, time, or practical choice.
+The same unit must be followed far enough to identify what was actually
+protected, what remained sacrificed, and whether the household could continue,
+switch, appeal, or exit.
 
 ## Completion verdict
 

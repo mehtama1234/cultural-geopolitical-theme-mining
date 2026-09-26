@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-minimum-wage-worker-careers-1992-2016",
+  "title": "Starting at the minimum wage does not define one career path, and later careers do not move with policy in the same way",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "firm_sector_market_power",
+    "political_judgment_action"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper merging SIPP panels from 1992-2016 into the Longitudinal Employer-Household Dynamics program",
+  "geography": "United States workers observed in SIPP panels and linked longitudinal employment records",
+  "observations": [
+    {
+      "period": "SIPP panels 1992-2016 with subsequent career observation; paper published January 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined minimum-wage workers and comparison workers in linked SIPP-LEHD records; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "young_worker_earnings_path": {
+          "value": "minimum-wage workers showed strong earnings growth in subsequent decades and became indistinguishable from peers who initially earned modestly more",
+          "unit": "reported long-run earnings trajectory",
+          "value_type": "reported_trend"
+        },
+        "age_mechanism": {
+          "value": "most of the growth was due to steep earnings trajectories among young workers",
+          "unit": "reported decomposition",
+          "value_type": "reported_decomposition"
+        },
+        "older_worker_path": {
+          "value": "older minimum-wage workers showed a modest earnings dip at that moment compared with earlier and later periods",
+          "unit": "reported age-pattern comparison",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "state_minimum_wage_policy": {
+          "value": "increases in state minimum wages did not significantly alter the future careers of workers who were on the minimum wage when increases occurred",
+          "unit": "reported policy-to-career estimate",
+          "value_type": "reported_null"
+        }
+      },
+      "method": "Census CES working paper merging SIPP panels covering 1992-2016 into LEHD longitudinal employment records to characterize career trajectories and assess how state minimum-wage increases relate to later careers of workers on the minimum wage.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full sample, wage definitions, comparison construction, policy timing, estimates, or subgroup details. Earnings convergence does not establish good jobs, stable hours, benefits, household security, or worker power. The policy null does not mean minimum-wage changes have no short-run, firm, price, employment, or distributional effects.",
+      "subgroup": "Workers earning the minimum wage, with distinct reported paths for younger and older workers; state minimum-wage policy is evaluated for workers on the minimum wage when increases occurred.",
+      "counterinterpretation": "Young workers' strong growth can reflect education, selection, age, occupation, mobility, or broader labor-market progression rather than a general minimum-wage ladder. Older workers' modest dip may reflect health, hours, job changes, or selection. State policy effects could differ across firms, places, time horizons, prices, hours, and workers not captured by the later-career estimate.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-07.html",
+      "retrieval_hash": "sha256:b1a4ae96b5001fa373be8155477ccb06fae25fc0abc52b73c10d164db804833b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1393",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the linked SIPP-LEHD career findings.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-07.pdf",
+      "claim": "The official paper PDF provides the study abstract and linked-data context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded minimum-wage-worker career trajectory and policy-null result. It does not establish complete job quality, household welfare, short-run firm effects, causal reasons for young-worker growth, or the absence of distributional effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-07 landing page, CREAT profile, and official paper PDF reviewed; underlying SIPP-LEHD linked records are not retained",
+    "checked": "2026-09-22"
+  }
+}

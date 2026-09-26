@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-peer-self-harm-death-surviving-youth-outcomes-2026",
+  "title": "A peer self-harm death can spread risk through a youth social network while care and offending responses diverge",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35603, linked South Carolina administrative data on peer self-harm deaths and surviving students",
+  "geography": "South Carolina students and linked administrative health, education, and criminal-justice records",
+  "observations": [
+    {
+      "period": "Student peer self-harm deaths and matched post-exposure outcomes in the study's South Carolina administrative panel",
+      "denominator": {
+        "value": null,
+        "unit": "Students and peer-death exposure events in linked South Carolina administrative data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "exposure_prevalence": {
+          "value": "by age 17, about one-quarter of U.S. students have experienced a peer suicide",
+          "unit": "reported national context, not the South Carolina study denominator",
+          "value_type": "reported_context"
+        },
+        "self_harm_diagnosis": {
+          "value": "exposure to a peer's self-harm death increased the probability of a self-harm diagnosis by nearly 50%",
+          "unit": "reported matched difference-in-differences estimate",
+          "value_type": "reported_effect"
+        },
+        "mental_health_visits": {
+          "value": "both the incidence and frequency of mental-health visits increased after exposure",
+          "unit": "reported administrative health-care outcomes",
+          "value_type": "reported_effect"
+        },
+        "heterogeneous_response": {
+          "value": "care-use and criminal-behavior effects were concentrated among white boys; students without a prior diagnosis increased felony offending rather than care-seeking",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_comparison"
+        },
+        "comparison_deaths": {
+          "value": "assault and transportation deaths produced no comparable rise in self-harm",
+          "unit": "reported comparison-event pattern",
+          "value_type": "reported_null_comparison"
+        },
+        "later_recovery": {
+          "value": "not observed in the public abstract",
+          "unit": "missing school continuity, family support, treatment completion, later self-harm, safety, and adult outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Linked South Carolina administrative data and matched difference-in-differences comparing students exposed to a peer's self-harm death with matched students; assault and transportation deaths serve as comparison events.",
+      "uncertainty": "The public abstract does not disclose exact sample counts, exposure timing details, all subgroup estimates, or the full follow-up horizon. The study is South Carolina-specific and administrative diagnoses and visits do not capture all distress, support, or informal care.",
+      "subgroup": "Surviving students, with reported heterogeneity by race/sex subgroup and prior mental-health diagnosis; school, family, neighborhood, friendship, and treatment-level pathways are not fully linked in the abstract.",
+      "counterinterpretation": "Increased diagnoses and care visits can reflect greater need, better detection, or more help-seeking. The comparison-death pattern is consistent with contagion but does not isolate every social, family, school, media, or community mechanism.",
+      "source_url": "https://www.nber.org/papers/w35603",
+      "retrieval_hash": "sha256:99d1e7902460b02f8730a577295f86af04f0d2e141d54ab17a89a9b8f56593ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35601", "claim": "The 988 capacity study supplies a contrasting crisis-system operations layer without a detectable short-run population mortality effect.", "status": "comparative-context"}
+  ],
+  "boundary": "This record measures peer-death exposure and short-run administrative self-harm, mental-health-visit, and criminal-behavior responses in South Carolina. It does not establish a national rate, individual contagion mechanism, completed suicide effect, school or family causal pathway, or later recovery outcome."
+}

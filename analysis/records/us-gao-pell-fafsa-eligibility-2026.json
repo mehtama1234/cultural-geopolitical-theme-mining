@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-pell-fafsa-eligibility-2026",
+  "title": "Eligibility can expand while the application route still loses people",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Government Accountability Office analysis of Pell Grant eligibility and FAFSA completion before and after FAFSA simplification",
+  "geography": "United States; school years 2023-24 and 2024-25",
+  "observations": [
+    {
+      "period": "SY 2024-25 compared with SY 2023-24",
+      "denominator": {"value": 1, "unit": "Education aggregate financial-aid data comparison", "value_type": "source_defined_comparison"},
+      "measures": {
+        "pell_eligible": {"value": "9.9 million students; about 6% or 570,000 more than prior year", "unit": "students eligible for Pell", "value_type": "reported_estimate"},
+        "maximum_award_eligible": {"value": "about 1.9 million more students; 31% increase", "unit": "students eligible for maximum $7,395 Pell award", "value_type": "reported_estimate"},
+        "fafsa_completion": {"value": "fewer students completed the FAFSA", "unit": "application completion trend", "value_type": "reported_trend"}
+      },
+      "method": "GAO review of federal law, Education policies and guidance, aggregated Education financial-aid data, and interviews with Education officials and five student-aid organizations.",
+      "uncertainty": "The comparison does not follow the same students through aid receipt or college outcomes and cannot by itself isolate formula changes from rollout delays or changes in applicants.",
+      "subgroup": "Students applying for federal aid; results are also examined by household income, assets, other family members in college, race and ethnicity, homelessness, and foster-care status.",
+      "counterinterpretation": "More eligibility can reflect a real access improvement even if application completion fell; conversely, eligibility alone does not show that students received aid or enrolled.",
+      "source_url": "https://www.gao.gov/products/gao-26-107928",
+      "retrieval_hash": "sha256:f156bc7f5a7bfdbfd0fc6bfb22fa454003deafc0e3a1a5a9e584ebf1550dff95",
+      "status": "reported"
+    },
+    {
+      "period": "SY 2024-25 compared with SY 2023-24; selected subgroup findings",
+      "denominator": {"value": 1, "unit": "GAO subgroup comparisons within Education aggregate data", "value_type": "source_defined_comparison"},
+      "measures": {
+        "income_distribution": {"value": "much of the overall increase occurred among households earning $60,001-$125,000", "unit": "household-income subgroup pattern", "value_type": "reported_comparison"},
+        "other_family_member_college": {"value": "Pell eligibility rose from 55% to 60%; maximum-award eligibility rose from 48% to 77%", "unit": "students with another family member in college", "value_type": "reported_share"},
+        "vulnerable_populations": {"value": "more than 90% were Pell eligible; most eligible students also qualified for the maximum", "unit": "students identified as homeless or in foster care", "value_type": "reported_share"},
+        "possible_loss": {"value": "a family of four with another student in college and $95,000 income could lose eligibility under the new rules", "unit": "named counterexample", "value_type": "reported_example"}
+      },
+      "method": "GAO analysis of Education eligibility calculations and subgroup tables.",
+      "uncertainty": "The subgroup patterns describe eligibility, not award receipt, enrollment, persistence, or educational attainment; the named family is an illustrative calculation rather than a population rate.",
+      "subgroup": "Households differentiated by income and number of family members in college, plus students in vulnerable populations.",
+      "counterinterpretation": "A redistribution in eligibility rules can still expand overall access while producing losses for particular household configurations.",
+      "source_url": "https://www.gao.gov/products/gao-26-107928",
+      "retrieval_hash": "sha256:f156bc7f5a7bfdbfd0fc6bfb22fa454003deafc0e3a1a5a9e584ebf1550dff95",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures FAFSA completion and aggregate Pell eligibility before and after simplification. It does not establish aid receipt, college enrollment, persistence, graduation, debt change, or a same-student outcome.",
+  "retrieval_hash": "sha256:f156bc7f5a7bfdbfd0fc6bfb22fa454003deafc0e3a1a5a9e584ebf1550dff95"
+}

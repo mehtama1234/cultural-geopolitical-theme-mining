@@ -1,0 +1,156 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-social-support-community-authority-2026",
+  "title": "HTOPS shows age-structured social support, participation, and domain-specific authority",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey, topical 2607",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15–August 3, 2026",
+      "denominator": {
+        "value": 261534494,
+        "unit": "estimated U.S. population age 18 and older represented in published HTOPS tables",
+        "value_type": "published_population_estimate"
+      },
+      "measures": {
+        "social_emotional_support_always_or_usually": {
+          "value": 61.8,
+          "unit": "percent of adults who always or usually obtain social and emotional support",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 47.8,
+            "35-49": 59.5,
+            "50-64": 66.4,
+            "65_plus": 76.1
+          }
+        },
+        "social_emotional_support_never": {
+          "value": 9.6,
+          "unit": "percent of adults who never obtain social and emotional support",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 6.8,
+            "35-49": 13.7,
+            "50-64": 10.6,
+            "65_plus": 7.7
+          }
+        },
+        "religious_services_12_or_more_times": {
+          "value": 25.9,
+          "unit": "percent attending religious services 12 or more times in the past 12 months",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 16.9,
+            "35-49": 24.9,
+            "50-64": 27.8,
+            "65_plus": 35.7
+          }
+        },
+        "clubs_or_organizations_12_or_more_times": {
+          "value": 13.8,
+          "unit": "percent attending club or organization meetings 12 or more times in the past 12 months",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 9.6,
+            "35-49": 13.0,
+            "50-64": 13.5,
+            "65_plus": 20.1
+          }
+        },
+        "doctor_health_information_trust_great_deal_or_quite_lot": {
+          "value": 65.7,
+          "unit": "percent reporting a great deal or quite a lot of trust in health information from doctors",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 63.8,
+            "35-49": 62.4,
+            "50-64": 64.8,
+            "65_plus": 72.1
+          }
+        },
+        "ai_health_information_trust_great_deal_or_quite_lot": {
+          "value": 15.2,
+          "unit": "percent reporting a great deal or quite a lot of trust in health information from AI tools",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 16.0,
+            "35-49": 15.0,
+            "50-64": 17.1,
+            "65_plus": 12.5
+          }
+        },
+        "live_music_dance_theater_attendance": {
+          "value": 20.5,
+          "unit": "percent attending a live music, dance, or theater performance in the past four weeks",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 22.5,
+            "35-49": 21.8,
+            "50-64": 18.9,
+            "65_plus": 18.3
+          }
+        },
+        "movie_attendance": {
+          "value": 22.6,
+          "unit": "percent going to the movies in the past four weeks",
+          "value_type": "calculated_from_published_counts",
+          "age_percentages": {
+            "18-34": 23.5,
+            "35-49": 32.1,
+            "50-64": 18.3,
+            "65_plus": 15.8
+          }
+        }
+      },
+      "method": "Descriptive calculations from published HTOPS population-count columns. Each percentage is the relevant response count divided by the total population estimate for the same row and rounded to one decimal place.",
+      "uncertainty": "The Census Bureau labels the HTOPS estimates experimental and warns that estimates for subpopulations may have small sample sizes and large standard errors. Standard-error workbooks were downloaded for all four tables but no inferential age comparison is claimed here.",
+      "subgroup": "Age groups 18–34, 35–49, 50–64, and 65 and above; additional published characteristics are available in the workbooks.",
+      "counterinterpretation": "Age gradients may reflect cohort, health, retirement, time availability, survey response, or question-specific participation differences rather than a single change in social connectedness. The AI and doctor trust measures are domain-specific and should not be treated as general institutional trust. Cross-sectional values do not show change over time or causal effects.",
+      "source_url": "https://www.census.gov/data/tables/2026/demo/hhp/2607.html",
+      "retrieval_hash": "sha256:59773bf5dbe58a682bf768d6b60e07546631a732d06591360d179c07dcd625a1",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3b.xlsx",
+      "claim": "Published counts for social and emotional support; workbook SHA-256 sha256:59773bf5dbe58a682bf768d6b60e07546631a732d06591360d179c07dcd625a1.",
+      "status": "official-data-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3d.xlsx",
+      "claim": "Published counts for religious and club/organization participation; workbook SHA-256 sha256:d8870c23c35ece5df080880abfdb64c5b2c82ec47bf94037ecc7ccf8d7ee54bd.",
+      "status": "official-data-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health5a.xlsx",
+      "claim": "Published counts for doctor and AI health-information trust; workbook SHA-256 sha256:28a2b52316523a3dd201ee2a9c537a110b42073035fca90d9128cf5019e2ac5b.",
+      "status": "official-data-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1.xlsx",
+      "claim": "Published counts for recent live-performance and movie attendance; workbook SHA-256 sha256:e7b5045984df39bb470a1909db670f76bd02a84ba8c19029bf0866fa07e75a33.",
+      "status": "official-data-table"
+    }
+  ],
+  "boundary": "This record establishes a current descriptive social/cultural surface and an age-differentiated authority comparison. It does not establish a time trend, causal age effect, general institutional legitimacy, political behavior, or one respondent-level chain from social support to action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census release page, four official XLSX detailed tables, and four corresponding standard-error workbooks reviewed; source workbooks are not committed to the repository.",
+    "standard_error_workbooks": [
+      "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3b_se.xlsx",
+      "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3d_se.xlsx",
+      "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health5a_se.xlsx",
+      "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1_se.xlsx"
+    ],
+    "checked": "2026-09-25"
+  }
+}

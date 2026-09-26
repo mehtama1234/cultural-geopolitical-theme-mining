@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-eitc-parent-care-gap-2026",
+  "title": "Work incentives can reduce daughters' intensive parent care without a measured replacement",
+  "theme_ids": ["time", "cost", "work", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 32583, revised June 2026; Health and Retirement Study linked to a simulated EITC-benefit approach, with EITC-eligible daughters and parents age 65+ with functional limitations",
+  "geography": "United States; adult daughters eligible for the Earned Income Tax Credit and their older parents",
+  "observations": [
+    {
+      "period": "HRS caregiving and simulated EITC generosity analysis; revised working-paper version June 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined EITC-eligible daughters and parents receiving or needing family care; exact analytic denominator is source-specific",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "care_reduction": {
+          "value": "a $500 increase in EITC generosity reduces parent care received from EITC-eligible daughters by 13-24 hours per month",
+          "unit": "hours of parent care per month",
+          "value_type": "estimated_effect"
+        },
+        "intensive_care_channel": {
+          "value": "the reduction is driven by a lower likelihood of receiving intensive care of 40 or more hours per month",
+          "unit": "care-intensity transition",
+          "value_type": "estimated_mechanism"
+        },
+        "financial_transfer_substitution": {
+          "value": "no evidence of increased financial transfers replacing the reduced care",
+          "unit": "intergenerational financial-transfer outcome",
+          "value_type": "reported_null"
+        },
+        "other_family_or_paid_replacement": {
+          "value": "care gaps remain for older parents and are not filled by other children, spouses, or paid care providers",
+          "unit": "replacement-care outcome",
+          "value_type": "reported_null"
+        }
+      },
+      "method": "Use Health and Retirement Study caregiving measures with a simulated benefit approach to estimate how increases in EITC generosity affect care from EITC-eligible daughters, then test financial transfers, other family care, and paid care as replacement channels.",
+      "uncertainty": "This is a working-paper estimate using simulated policy variation rather than a randomized EITC change. The care measure, eligibility simulation, functional-limitation subgroup, and replacement outcomes are study-defined. The record does not establish the quality, safety, unmet-need severity, health consequences, or long-run employment and income effects of the care gap.",
+      "subgroup": "Older parents, especially those with functional limitations, and their EITC-eligible adult daughters; effects may differ by family structure, baseline care intensity, earnings, eligibility, geography, and access to formal care.",
+      "counterinterpretation": "Reduced family care may reflect a beneficial reallocation toward work, autonomy, formal care, or other support that the study does not fully observe; the absence of measured replacement transfers does not prove that no unmeasured help occurred. Simulated EITC generosity may not represent every family's actual work or care choice.",
+      "source_url": "https://www.nber.org/papers/w32583",
+      "retrieval_hash": "sha256:826838d02b50eb436ef3102778c7c91aa44c8866b4f75c6baef2a5104f582510",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w34997",
+      "claim": "The paid-caregiving-leave review supplies a separate policy route that examines leave take-up, labor outcomes, caregiver wellbeing, employers, and formal-care use; it is not pooled with the EITC care-substitution estimate.",
+      "status": "cross-source-comparator-kept-separate"
+    },
+    {
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-living-arrangements-care-work.htm",
+      "claim": "The Federal Reserve household survey supplies current descriptive context on unpaid adult caregiving and paid-work disruption; it does not establish the EITC effect.",
+      "status": "descriptive-context-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a policy-incentive-to-family-care substitution pathway and an observed replacement-care gap in the study's population. It does not show that the EITC universally reduces care, that reduced care worsens health, that paid care is unavailable for every family, or that the policy's aggregate welfare effect is negative. Preserve daughter work, parent care, replacement, care quality, health, and household security as separate stages."
+}

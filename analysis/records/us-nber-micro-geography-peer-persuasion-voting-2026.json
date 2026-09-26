@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-micro-geography-peer-persuasion-voting-2026",
+  "title": "Political persuasion can travel through repeated physical proximity, not only ideology or formal affiliation",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 34925; randomized U.S. Senate seating assignments, recorded interactions, and legislative votes over a 30-year sample",
+  "geography": "United States Congress",
+  "observations": [
+    {
+      "period": "Thirty-year Senate sample; paper issued March 2026",
+      "denominator": {
+        "value": 30,
+        "unit": "years in the analyzed Senate voting sample; bill and senator denominators vary by outcome",
+        "value_type": "study_period"
+      },
+      "measures": {
+        "close_peer_vote_shift": {
+          "value": 11.9,
+          "unit": "percentage-point shift in Congressional voting associated with randomly assigned close peers",
+          "value_type": "reported_causal_estimate"
+        },
+        "distance_range": {
+          "value": 19.6,
+          "unit": "feet; reported range over which the closest-peer distance effect persists before dissipating",
+          "value_type": "reported_spatial_threshold"
+        },
+        "aisle_crossing": {
+          "value": "close peers increase voting with the opposite party; the effect is roughly eight times larger on final votes",
+          "unit": "reported comparative effect pattern",
+          "value_type": "reported_effect"
+        },
+        "counterfactual_bill_outcomes": {
+          "value": 59,
+          "unit": "consequential bills estimated to have switched outcomes over the sample under randomized seating counterfactuals",
+          "value_type": "reported_counterfactual_count"
+        }
+      },
+      "method": "Randomized Senate seating assignments identify peer exposure; AI-enhanced computer vision of C-SPAN video records face-to-face interactions at ten-second intervals, which are linked to immediately pending votes.",
+      "uncertainty": "The study concerns legislators in a highly institutional setting, not voters generally. Proximity is randomized, but observed interaction mechanisms and effects may not transport to ordinary social networks, campaigns, or online platforms.",
+      "subgroup": "U.S. Senators, close physical peers, aisle-seated senators, party and state contexts, and final versus earlier votes.",
+      "counterinterpretation": "The finding does not show that proximity alone changes public opinion or that cross-party contact always moderates conflict; Senate norms, agenda selection, and strategic interaction remain relevant.",
+      "source_url": "https://www.nber.org/papers/w34925",
+      "retrieval_hash": "sha256:3f6a9c2e5b8d1f4a7c0e3d6b9a2f5c8e1d4b7a0c3f6e9d2b5a8c1e4f7d0b3a60",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a causal micro-mechanism for political action: physical and repeated peer exposure can affect legislative voting. It does not establish a general solution to polarization, mass persuasion, public trust, or durable constituent realignment.",
+  "retrieval_hash": "sha256:3f6a9c2e5b8d1f4a7c0e3d6b9a2f5c8e1d4b7a0c3f6e9d2b5a8c1e4f7d0b3a60"
+}

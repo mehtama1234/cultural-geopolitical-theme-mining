@@ -1,6 +1,6 @@
 # NYC AEDT enforcement and worker-outcome follow-up acquisition audit
 
-**Status:** storage-light official-source audit · **Checked:** 2026-09-17
+**Status:** storage-light official-source audit · **Checked:** 2026-09-19
 
 ## Question
 
@@ -25,12 +25,22 @@ received compensation or protection from retaliation.
 
 ## Targeted result
 
-**No public named AEDT enforcement outcome or worker-level remedy was located
-in the official DCWP pages and current public search results checked here.**
-The result is a bounded non-observation, not a claim that no complaint,
-investigation, or private remedy exists. Public complaint confidentiality,
-referral to another agency, unpublished settlements, or a later release may
-leave the outcome outside this source surface.
+An official NYC OpenRecords index exposes at least one submitted record labeled
+`Automated employment decision tool complaint` (record ID
+`067620-2025-CMPL`). This advances the route from a rule and complaint form to
+evidence that a complaint entered the public-record system. The indexed record
+does not identify a named employer, tool, affected worker, decision change,
+investigation result, compensation, or protection from retaliation; the detail
+page was not directly accessible from the checked public route. The indexed
+message does show that DCWP asked the complainant for the suspected-violation
+date, job-posting and employer details, and supporting documents, with a July
+31, 2025 response deadline. No public named AEDT enforcement outcome,
+worker-level remedy, or later disposition was therefore located.
+
+This is a bounded access-stage result, not a compliance rate or proof that the
+complaint was substantiated. Public complaint confidentiality, referral to
+another agency, unpublished settlements, or later release may leave the
+outcome outside this source surface.
 
 ## Coding consequence
 
@@ -38,7 +48,9 @@ leave the outcome outside this source surface.
 rule and scope: observed
 bias-audit / notice requirement: observed_rule
 complaint and referral route: observed_access_route
+additional-information request and deadline: observed_route_burden
 named employer implementation: not_observed
+complainant response or submission completion: not_observed
 worker notice receipt or refusal consequence: not_observed
 decision correction / appeal / compensation: not_observed
 workload, pay, health, bargaining, or exit outcome: not_observed
@@ -51,11 +63,13 @@ worker-welfare estimate.
 
 ## Smallest decisive follow-up
 
-Locate one public DCWP, Commission on Human Rights, court, or employer record
-that identifies the tool or employment decision, the affected party or a
-defined aggregate universe, the alleged rule breach, the response or remedy,
-and its date. If those fields remain unavailable, the next stronger route is
-a pre-registered worker-side or matched-workplace design with AEDT exposure,
+Locate the outcome or referral disposition for record `067620-2025-CMPL`,
+including whether the requested information was supplied by the deadline, or
+one public DCWP, Commission on Human Rights, court, or employer record that
+identifies the tool or employment decision, the affected party or a defined
+aggregate universe, the alleged rule breach, the response or remedy, and its
+date. If those fields remain unavailable, the next stronger route is a
+pre-registered worker-side or matched-workplace design with AEDT exposure,
 notice, appeal/override, job outcome, and follow-up behavior.
 
 ## Primary links
@@ -64,6 +78,7 @@ notice, appeal/override, job outcome, and follow-up behavior.
 - [NYC DCWP AEDT FAQ](https://www.nyc.gov/assets/dca/downloads/pdf/about/DCWP-AEDT-FAQ.pdf)
 - [NYC DCWP file a workplace complaint](https://www.nyc.gov/site/dca/workers/workersrights/file-workplace-complaint.page)
 - [NYC DCWP new laws and rules](https://www.nyc.gov/site/dca/about/new-laws-rules.page)
+- [NYC OpenRecords indexed AEDT complaint record 067620-2025-CMPL](https://a860-openrecords.nyc.gov/response/4637552)
 
 **Storage boundary:** only official HTML/PDF landing pages were checked; no
 bulk report or respondent file was downloaded.

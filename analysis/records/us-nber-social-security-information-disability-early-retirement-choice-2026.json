@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-social-security-information-disability-early-retirement-choice-2026",
+  "title": "Personalized benefit information changes the choice between Social Security Disability and early retirement applications",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35748 using Social Security statements and application behavior among older U.S. adults",
+  "geography": "United States; people ages 62 to full retirement age, with work-limiting health conditions or low work ability",
+  "observations": [
+    {
+      "period": "Social Security statement and benefit-application period; paper issued September 14, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. people ages 62 to full retirement age in the study data; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "information_treatment": {
+          "value": "initial Social Security statement with personalized estimated DI and OAI benefit amounts",
+          "unit": "benefit-information interface exposure",
+          "value_type": "reported_intervention"
+        },
+        "application_response": {
+          "value": "increased probability of applying for both programs",
+          "unit": "application behavior among people with a work-limiting health condition or low work ability",
+          "value_type": "reported_treatment_effect"
+        },
+        "di_application_composition": {
+          "value": "increase split between DI-only applications and applications for both DI and OAI",
+          "unit": "composition of application response",
+          "value_type": "reported_comparison"
+        },
+        "age_gradient": {
+          "value": "response concentrated among people further from full retirement age",
+          "unit": "heterogeneity by distance from full retirement age",
+          "value_type": "reported_subgroup_effect"
+        },
+        "award_boundary": {
+          "value": "application response, not verified award or benefit receipt",
+          "unit": "administrative choice-to-realized-security boundary",
+          "value_type": "reported_boundary"
+        }
+      },
+      "method": "Examines the effect of receiving an initial Social Security statement containing personalized estimated DI and OAI benefit amounts on applications for Disability Insurance and Old-Age Insurance among people ages 62 to full retirement age, with subgroup analysis by health/work ability and distance from full retirement age.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the exact denominator, statement-delivery process, or award and appeals outcomes. Application is not approval, receipt, income adequacy, health improvement, reduced work burden, or household security.",
+      "subgroup": "People ages 62 to full retirement age with a work-limiting health condition or low work ability, applicants for DI only, OAI only, or both, and people at different distances from full retirement age.",
+      "counterinterpretation": "Personalized statements may change awareness or timing without changing ultimate eligibility or benefit receipt. People further from full retirement age may have different health, labor-market, wealth, or information constraints; increased applications could increase administrative burden if awards do not rise.",
+      "source_url": "https://www.nber.org/papers/w35748",
+      "retrieval_hash": "sha256:3ef39cae8e41690e5b112a74258eaff2bb52039c70797cac8e90c616a7cb10ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35748",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes an information-interface-to-benefit-application pathway for older U.S. adults with health or work limitations. It does not establish awards, receipt, benefit adequacy, health, work exit, household security, trust, or administrative cost."
+}

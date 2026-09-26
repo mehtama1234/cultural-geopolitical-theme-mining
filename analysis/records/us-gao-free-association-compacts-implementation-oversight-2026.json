@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-free-association-compacts-implementation-oversight-2026",
+  "title": "A strategic compact can secure U.S. access while local implementation and oversight lag",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-107778 review of the amended Compacts of Free Association with the Federated States of Micronesia, the Republic of the Marshall Islands, and Palau",
+  "geography": "Federated States of Micronesia, Republic of the Marshall Islands, Palau, and associated U.S. compact-assistance and oversight institutions",
+  "observations": [
+    {
+      "period": "2023 amended compacts through May 2026 review; assistance and implementation plans through fiscal year 2026",
+      "denominator": {
+        "value": 3,
+        "unit": "Freely Associated States covered by the amended compacts",
+        "value_type": "named_program_case"
+      },
+      "measures": {
+        "compact_assistance": {
+          "value": "more than $6 billion committed through 2043 for grants, trust funds, health, education, and infrastructure",
+          "unit": "reported U.S. compact assistance and trust-fund commitment",
+          "value_type": "reported_commitment"
+        },
+        "strategic_access": {
+          "value": "the compacts provide the United States military access and security rights in strategically located Pacific countries",
+          "unit": "reported formal access arrangement",
+          "value_type": "reported_status"
+        },
+        "implementation_constraints": {
+          "value": "delayed compact-fund disbursement, rising construction costs, and labor shortages affected project implementation",
+          "unit": "reported partner implementation constraint",
+          "value_type": "reported_finding"
+        },
+        "oversight_timing": {
+          "value": "most required reports were late; all three countries' required single audits had been late since fiscal year 2019, and delayed U.S. appointments limited committee work",
+          "unit": "reported oversight-timing pattern",
+          "value_type": "reported_finding"
+        },
+        "partner_capacity_outcome": {
+          "value": "not established",
+          "unit": "missing completed project, service quality, durable self-sufficiency, local public acceptance, and strategic-effect measures",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO performance audit using compact legislation and agreements, agency and country documents, economic and migration data, interviews with U.S. and FAS officials, and observation of compact-funded projects during 2025 country visits.",
+      "uncertainty": "GAO describes planned funding and implementation barriers but does not provide a single causal estimate of compact assistance on migration, health, education, economic growth, or strategic stability. The review did not independently assess the quality or reliability of submitted country reports.",
+      "subgroup": "FSM, RMI, and Palau governments, agencies, project implementers, residents affected by education, health, infrastructure, and migration conditions, and U.S. agencies responsible for compact administration and defense access; individual households and service users are not followed.",
+      "counterinterpretation": "Delayed reports or projects do not prove compact failure. The countries and U.S. agencies were taking steps to improve accounting, oversight, and implementation, and the compacts may still provide substantial fiscal, service, and security value despite administrative lag.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107778/index.html",
+      "retrieval_hash": "sha256:8ada49dea0ece85e9099f3827aadc1c28662879bf3779ac57d58e8c1e352438d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107778",
+      "claim": "GAO landing page and report metadata for the compact-assistance and oversight review.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures the formal U.S.-FAS compact exchange, implementation barriers, migration and labor-capacity context, and oversight delays. It does not establish whether the compacts produced durable self-sufficiency, better services, public legitimacy, reduced migration pressure, or U.S. strategic success."
+}

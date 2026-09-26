@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-browser-defaults-active-choice-2026",
+  "title": "Browser choice screens can weaken defaults, with effects depending on platform rollout",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "firm_sector_market_power", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 35112; browser market-share data around the European Union Digital Markets Act choice-screen mandate",
+  "geography": "European Union digital-market regulation; iOS and Android browser markets",
+  "observations": [
+    {
+      "period": "DMA choice-screen rollout and post-rollout browser usage; 2026 working paper with July revision",
+      "denominator": {"value": null, "unit": "browser usage and market-share observations; exact underlying user denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "firefox_ios_usage": {"value": 91, "unit": "percent increase in Firefox usage on iOS from month 15 onward relative to a no-mandate counterfactual", "value_type": "reported_difference_in_differences_estimate"},
+        "firefox_android_usage": {"value": 13, "unit": "percent increase in Firefox usage on Android from month 15 onward relative to a no-mandate counterfactual", "value_type": "reported_difference_in_differences_estimate"},
+        "default_switching": {"value": "Safari declined on iOS and Chrome declined on Android, with gains for alternative browsers", "unit": "reported browser market-share movement", "value_type": "reported_market_outcome"},
+        "platform_rollout_difference": {"value": "iOS choice screens reached existing users while Android rollout primarily reached new devices", "unit": "implementation heterogeneity explanation", "value_type": "reported_mechanism"}
+      },
+      "method": "Difference-in-differences around the EU Digital Markets Act choice-screen mandate using browser usage and market-share data for Firefox on iOS and Android, with rollout timing and platform differences used to interpret the heterogeneous response.",
+      "uncertainty": "The paper studies browser choice in the EU and does not establish U.S. consumer behavior, privacy understanding, welfare, durable switching, or effects for all designated gatekeepers. The counterfactual and rollout interpretation depend on the research design; usage and market share do not reveal each user's reason, satisfaction, or data-protection outcome.",
+      "subgroup": "iOS versus Android users, existing users versus new-device rollout exposure, Firefox/Safari/Chrome browser markets; platform-specific estimates should not be averaged into a universal choice-screen effect.",
+      "counterinterpretation": "Users may switch because of browser quality, device replacement, marketing, or contemporaneous product changes rather than active deliberation alone. A choice screen can increase nominal options without improving accessibility, comprehension, privacy, or practical exit for every user.",
+      "source_url": "https://www.nber.org/papers/w35112",
+      "retrieval_hash": "sha256:751d1dd986de53f97189c86ba0bf101f61623f83f03283fa742d06702c5788d6",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds an observed regulation-to-default-switching pathway in a comparative digital market. It does not establish U.S. generalization, privacy or security improvement, informed consent, durable consumer welfare, or broader platform exit. Choice-screen exposure, browser use, actual switching, understanding, and downstream data outcomes remain separate stages."
+}

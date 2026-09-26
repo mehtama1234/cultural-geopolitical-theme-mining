@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement",
+  "title": "Acute food crises are concentrating where conflict, displacement, climate shocks, and response-financing gaps compound",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "care_health_reproduction"],
+  "source_unit": "FAO, WFP, Global Network Against Food Crises, Global Report on Food Crises 2026",
+  "geography": "47 countries and territories analyzed for acute food insecurity in 2025, with global food-crisis, displacement, conflict, climate, and humanitarian-response comparisons",
+  "observations": [
+    {
+      "period": "2025; Global Report on Food Crises 2026 assessment",
+      "denominator": {"value": 47, "unit": "countries and territories analyzed for high levels of acute food insecurity", "value_type": "food_crisis_assessment_frame"},
+      "measures": {
+        "people_high_acute_food_insecurity": {"value": 266000000, "unit": "people facing IPC/CH Phase 3 or above or equivalent in 2025", "value_type": "reported_population_estimate"},
+        "share_assessed_population": {"value": 22.9, "unit": "percent of the analyzed population facing high acute food insecurity in 2025", "value_type": "reported_population_share"},
+        "people_facing_phase5": {"value": 1400000, "unit": "people facing the most severe acute food-insecurity level in 2025", "value_type": "reported_population_estimate"},
+        "decade_pattern": {"value": "acute hunger has approximately doubled over the past decade", "unit": "reported long-term pattern", "value_type": "reported_trend"}
+      },
+      "method": "Joint FAO, WFP, and Global Network Against Food Crises synthesis using IPC/Cadre Harmonisé and equivalent acute food-insecurity classifications for crisis-affected countries and territories.",
+      "uncertainty": "The assessment covers countries with available crisis data rather than the entire world population; conflict access, funding cuts, and missing data limit comparability and timely measurement.",
+      "subgroup": "People in food-crisis countries, rural and urban households, children, displaced populations, conflict-affected communities, and populations classified across IPC/CH severity phases.",
+      "counterinterpretation": "The number and share can move with improved access, harvests, humanitarian delivery, or changing assessment coverage; aggregate crisis measures do not describe every household’s food access or coping strategy.",
+      "source_url": "https://www.wfp.org/publications/global-report-food-crises-grfc",
+      "retrieval_hash": "sha256:62996bce7502d1a6e96103ff3ac0bd116a211e94ca1abb337ef6537f2ff7bf33",
+      "status": "reported"
+    },
+    {
+      "period": "2025; crisis drivers and geographic concentration",
+      "denominator": {"value": 266000000, "unit": "people facing high acute food insecurity in the 2025 assessment", "value_type": "acute_hunger_driver_frame"},
+      "measures": {
+        "driver_set": {"value": "conflict and insecurity, economic shocks, weather extremes, and forced displacement", "unit": "reported primary driver set", "value_type": "reported_mechanism"},
+        "largest_country_concentration": {"value": 10, "unit": "countries accounting for approximately two-thirds of all people facing high acute hunger", "value_type": "reported_country_count"},
+        "protracted_crisis_pattern": {"value": "35 countries and territories have appeared in every Global Report on Food Crises for nine years", "unit": "reported persistence count", "value_type": "reported_persistence_pattern"},
+        "persistent_crisis_share": {"value": 80, "unit": "percent or more of people in IPC/CH Phase 3 or above living in the protracted-crisis contexts identified by FAO", "value_type": "reported_population_share_lower_bound"}
+      },
+      "method": "GRFC 2026 synthesis of acute food-insecurity drivers, country concentration, and repeated crisis presence across the report series.",
+      "uncertainty": "Driver categories overlap and are not additive causal estimates; country concentration reflects assessed populations and does not imply that other countries are free of risk.",
+      "subgroup": "Conflict-affected populations, displaced people, climate-exposed communities, food producers, local markets, humanitarian actors, and governments in protracted crises.",
+      "counterinterpretation": "Protracted presence can reflect better monitoring as well as persistent need; prevention, livelihoods investment, peacebuilding, and local food production may alter crisis trajectories.",
+      "source_url": "https://www.fao.org/newsroom/detail/acute-food-insecurity-and-malnutrition-remain-alarmingly-high-as-crises-deepen--un--eu-and-partners-warn-in-new-report/",
+      "retrieval_hash": "sha256:62996bce7502d1a6e96103ff3ac0bd116a211e94ca1abb337ef6537f2ff7bf33",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; famine and hotspot risk",
+      "denominator": {"value": 1, "unit": "global food-crisis assessment and 2026 outlook", "value_type": "famine_risk_frame"},
+      "measures": {
+        "simultaneous_famines": {"value": 2, "unit": "famine conditions confirmed in parts of the Gaza Strip and Sudan during 2025", "value_type": "reported_famine_count"},
+        "famine_risk_2026": {"value": "risk persists for the Gaza Strip, Sudan, and South Sudan in 2026", "unit": "reported risk pattern", "value_type": "reported_risk_outlook"},
+        "hotspot_mechanism": {"value": "conflict, displacement, market disruption, climate shocks, and constrained humanitarian access can move populations from chronic vulnerability into acute crisis", "unit": "reported escalation pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "GRFC 2026 global assessment and outlook using acute food-insecurity and famine classifications plus partner analysis of crisis drivers and access.",
+      "uncertainty": "Famine confirmation and outlooks depend on rapidly changing access, mortality, food-consumption, and livelihood evidence; risk is not the same as occurrence.",
+      "subgroup": "Populations in Gaza, Sudan, South Sudan, and other hunger hotspots; displaced households; children; health and nutrition systems; and humanitarian responders.",
+      "counterinterpretation": "Early warning, negotiated access, food assistance, agricultural support, and conflict de-escalation can prevent forecast deterioration; famine risk does not establish an inevitable endpoint.",
+      "source_url": "https://www.wfp.org/publications/global-report-food-crises-grfc",
+      "retrieval_hash": "sha256:62996bce7502d1a6e96103ff3ac0bd116a211e94ca1abb337ef6537f2ff7bf33",
+      "status": "reported"
+    },
+    {
+      "period": "2026; response capacity and financing route",
+      "denominator": {"value": 1, "unit": "global humanitarian and food-crisis response system described by FAO, WFP, and partners", "value_type": "response_capacity_frame"},
+      "measures": {
+        "funding_pattern": {"value": "humanitarian and food-security response funding has retreated toward levels last seen nearly a decade ago", "unit": "reported financing pattern", "value_type": "reported_trend"},
+        "response_constraint": {"value": "funding cuts and limited access to conflict areas have contributed to the lowest availability of food-crisis data in a decade", "unit": "reported measurement and response constraint", "value_type": "reported_boundary"},
+        "response_shift": {"value": "prevention, resilience, and agricultural solutions must be sequenced alongside food and nutrition assistance", "unit": "reported policy mechanism", "value_type": "reported_policy_direction"}
+      },
+      "method": "GRFC 2026 and partner response analysis linking humanitarian financing, access, data availability, prevention, resilience, and agricultural livelihoods.",
+      "uncertainty": "Funding comparisons depend on definitions, inflation, appeal coverage, and reporting periods; a financing decline does not measure the effectiveness of every response or local adaptation.",
+      "subgroup": "Humanitarian agencies, donors, national authorities, farmers, local organizations, displaced populations, and communities in recurrent crisis.",
+      "counterinterpretation": "Better targeting, local leadership, early action, and agricultural investments may improve outcomes even when aggregate funding is constrained; short-term aid and resilience programs are complements, not substitutes in every setting.",
+      "source_url": "https://www.fao.org/emergencies/appeals/global-appeal/en",
+      "retrieval_hash": "sha256:62996bce7502d1a6e96103ff3ac0bd116a211e94ca1abb337ef6537f2ff7bf33",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.fao.org/north-america/resources/publications/2026-global-report-on-food-crises--joint-analysis-for-better-decisions/en", "claim": "FAO publication page and report framing for the 2026 Global Report on Food Crises."},
+    {"source_url": "https://www.wfp.org/global-hunger-crisis", "claim": "WFP global hunger-crisis page provides complementary conflict, displacement, and acute-hunger context."},
+    {"source_url": "https://fao.sitefinity.cloud/emergencies/appeals/global-appeal/en", "claim": "FAO 2026 emergency and resilience appeal adds prevention, resilience, agriculture, and financing context."}
+  ],
+  "boundary": "This record adds acute food-crisis, conflict, displacement, climate-shock, famine-risk, data-access, and response-financing evidence. It is not the same indicator as SOFI chronic hunger or healthy-diet affordability, does not estimate individual consumption, and does not use respondent-level microdata.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WFP, FAO, and partner pages for the Global Report on Food Crises 2026 and the FAO emergency appeal were reviewed; acute-hunger scale, drivers, country concentration, famine risk, funding, access, and prevention claims were cross-checked.",
+    "source_url_sha256": "sha256:62996bce7502d1a6e96103ff3ac0bd116a211e94ca1abb337ef6537f2ff7bf33",
+    "checked": "2026-09-26"
+  }
+}

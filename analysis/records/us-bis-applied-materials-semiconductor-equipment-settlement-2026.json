@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-applied-materials-semiconductor-equipment-settlement-2026",
+  "title": "BIS converted a named semiconductor-equipment export violation into a major penalty and continuing compliance obligations",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS February 12, 2026 administrative settlement with Applied Materials Inc. and Applied Materials Korea Ltd.",
+  "geography": "United States, South Korea, China, and the semiconductor manufacturing-equipment supply chain",
+  "observations": [
+    {
+      "period": "2021-2022 alleged shipment period; BIS settlement announced February 12, 2026",
+      "denominator": {
+        "value": 2,
+        "unit": "named companies covered by the BIS settlement: Applied Materials Inc. and Applied Materials Korea Ltd.",
+        "value_type": "reported_company_count"
+      },
+      "measures": {
+        "controlled_equipment": {"value": "ion implanters, described by BIS as semiconductor manufacturing equipment", "unit": "reported controlled equipment class", "value_type": "reported_item_class"},
+        "shipment_route": {"value": "equipment was shipped first to Applied Materials Korea for assembly and then onward to China", "unit": "reported transshipment route", "value_type": "reported_route"},
+        "license_violation": {"value": "BIS reported that the companies shipped to an Entity-Listed company without applying for or receiving the required export license", "unit": "reported export-control violation", "value_type": "reported_enforcement_finding"},
+        "illegal_merchandise_value": {"value": 126000000, "unit": "U.S. dollars; approximate value of merchandise BIS reported as illegally shipped", "value_type": "reported_transaction_value"},
+        "penalty": {"value": 252000000, "unit": "U.S. dollars; approximate BIS penalty, twice the reported shipment value and the maximum allowed by statute", "value_type": "reported_penalty_value"},
+        "compliance_audits": {"value": "multiple audits of the export-compliance program required under the settlement", "unit": "post-settlement compliance obligation", "value_type": "reported_remediation_requirement"},
+        "annual_certification": {"value": "annual certifications to BIS required in connection with the audits", "unit": "post-settlement compliance obligation", "value_type": "reported_remediation_requirement"},
+        "personnel_action": {"value": "compliance employees and senior global-trade and production executives responsible for the shipments were no longer employed by Applied Materials or Applied Materials Korea", "unit": "reported firm personnel response", "value_type": "reported_firm_response"},
+        "production_or_supply_chain_effect": {"value": "not observed", "unit": "missing production, sourcing, customer, worker, shipment-continuity, or replacement-equipment endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing PRC capability change, substitution, deterrence, partner response, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS official settlement announcement review. The named companies, equipment class, route, reported violation, shipment value, penalty, audit/certification obligations, and personnel response are coded as distinct enforcement and remediation stages; no production or strategic effect is inferred.",
+      "uncertainty": "The announcement summarizes the settlement and does not disclose the end customer's identity, number of implanters, individual transaction dates or quantities, production consequences, later audit results, certification compliance, replacement sourcing, or the disposition of the equipment. The reported violation and penalty establish an enforcement outcome, not a general compliance rate or deterrence effect.",
+      "subgroup": "Applied Materials, Applied Materials Korea, semiconductor-equipment compliance staff and executives, the Entity-Listed Chinese recipient, U.S. and Korean authorities, and downstream semiconductor manufacturers",
+      "counterinterpretation": "A large penalty and continuing audit obligations can increase compliance costs and observability without proving that the controls changed Chinese capability or future firm behavior. The Korea route may indicate a circumvention vulnerability, but this single case does not establish the prevalence of transshipment or the effectiveness of all export controls.",
+      "source_url": "https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment",
+      "retrieval_hash": "sha256:516b305fa794b5f67ac49c804dead74f4a90e324abbd0af5543df425b09b5dc8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://media.bis.gov/sites/default/files/documents/AMAT%20to%20Pay%20%24252%20Million%20Penalty%20to%20BIS%20for%20Illegally%20Exporting%20Semiconductor%20Manufacturing%20Equipment_0.pdf", "claim": "BIS PDF version of the Applied Materials settlement announcement.", "status": "official-release-pdf", "retrieval_hash": "sha256:bdfb4b24e1378ab5f80ad67ec8d7611141235b369b33f3a5eb529797eed971f4"},
+    {"source_url": "https://www.bis.gov/press-release/bis-publishes-assessment-use-mature-node-chips", "claim": "BIS semiconductor-control context for distinguishing a named enforcement case from broader supply-chain assessments.", "status": "official-comparator"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO implementation comparator for multi-agency and private-sector compliance stages before named enforcement.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a named firm-level enforcement and remediation stage to the semiconductor export-control chain: controlled equipment route -> reported violation -> penalty -> continuing audits and certifications. It does not establish audit completion, future compliance, production or worker incidence, Chinese substitution, deterrence, or geopolitical leverage."
+}

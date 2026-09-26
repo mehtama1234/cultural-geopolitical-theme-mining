@@ -1,0 +1,84 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_household_descriptive_record",
+  "purpose": "Bounded Census household-level care-to-work record preserving paid-care cost, inadequate-care exposure, adaptation choices, and open later household outcomes.",
+  "events": [
+    {
+      "event_id": "CENSUS-CHILDCARE-WORK-ADAPTATION-2024",
+      "unit": "household",
+      "geography": "United States; CPS ASEC 2025 household report about 2024 child-care conditions",
+      "actor_initiating_change": "household",
+      "event_date": "2025-05-01",
+      "date_precision": "publication month; retrospective reference year 2024",
+      "denominator": "About 30.4 million U.S. households reporting a child age 13 or younger; affected-care and paid-care results use their stated subgroups",
+      "method": "Structured extraction from the official Census working-paper summary of CPS ASEC 2025 findings",
+      "missingness": "The public layer does not retain household identifiers, provider identity or closure date, subsidy or leave eligibility, commute, informal-care hours, exact wage loss, child outcome, later wave, or household-level sequence among multiple adaptations",
+      "condition_or_decision": "care_need",
+      "exposure": "Households reported paid-care use, care costs, problems obtaining adequate care, or care-related work-time loss; 3.7% reported problems obtaining adequate care and those households reported an average 65.8 days of work time lost",
+      "alternatives_before_action": "The reported adaptation menu includes paid care, unpaid or family care, paid or unpaid leave, fewer hours, quitting, non-search, and supervising children while working; the source does not identify which feasible alternatives each household had",
+      "immediate_burden_or_benefit": "Paid-care households spent about $10,520 on average, equal to about 5.6% of household income; inadequate-care households reported substantial work-time loss, while lower-income households were more likely to stay out of the labor market",
+      "choice_or_response": "Households used overlapping work and care adaptations including leave, cutting hours, quitting, being fired, not looking for work, or supervising children while working",
+      "person_or_actor_with_control": "Households selected among constrained care and work arrangements; providers, employers, family networks, subsidies, and local supply shaped the available option set, but the public layer does not identify control for each household",
+      "remedy_or_institutional_response": "The public record describes paid-care use and work adaptations but does not document a household-specific subsidy, provider remedy, employer response, or completed institutional intervention",
+      "immediate_outcome": "Care need was converted into different combinations of payment, unpaid time, work-time loss, labor-force withdrawal, or work-plus-supervision",
+      "protected_outcome": "Some households preserved a formal work connection through paid care, leave, reduced hours, or supervising while working; the source does not establish adequacy or child wellbeing",
+      "sacrificed_outcome": "Households could sacrifice income, work hours, job search, career stability, rest, care quality, or unpaid family time; the public results do not assign each sacrifice to the same household",
+      "cost_risk_transfer": "Care constraints can transfer cost from a visible payment into lost work, unpaid family labor, reduced job quality, or labor-market exit; the cross-sectional source does not identify the full household balance",
+      "later_outcome": "Later care arrangement, work return, earnings, debt, health, child wellbeing, household security, trust, and exit are not followed",
+      "meaning_and_attribution": "The source supports a material and work-constraint interpretation, but does not measure household meaning, blame, trust, or attribution to a provider, employer, or policy",
+      "public_or_collective_response": "The published layer does not report household complaint, organizing, political action, or later policy response",
+      "counterexample": "Low paid-care spending can coexist with high burden when a household cannot buy care and instead loses work time or leaves the labor market",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Census working paper, https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html; reported household averages and adaptation categories are descriptive and not a causal estimate",
+      "source_url": "https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-08.html"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CENSUS-CHILDCARE-A-01",
+      "from": "care need or inadequate care",
+      "to": "paid care, unpaid support, or care-work disruption",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The Census layer reports paid-care use, problems obtaining adequate care, and an adaptation menu",
+      "status": "reported",
+      "counterexample": "Paid-care use is not proof of adequate care and low paid use is not proof of low need",
+      "remaining_gap": "Household-level provider, family-support, subsidy, and disruption sequence"
+    },
+    {
+      "arrow_id": "CENSUS-CHILDCARE-A-02",
+      "from": "inadequate care or disruption",
+      "to": "leave, reduced hours, quitting, non-search, or work-plus-supervision",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official summary reports these adaptation categories among households with child-care problems",
+      "status": "reported",
+      "counterexample": "The categories may overlap and do not establish one household's ordered pathway or job causation",
+      "remaining_gap": "Same-household adaptation order, employer response, and feasible alternatives"
+    },
+    {
+      "arrow_id": "CENSUS-CHILDCARE-A-03",
+      "from": "care problem",
+      "to": "work-time loss and household cost transfer",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "Households reporting care problems reported an average 65.8 days of work time lost; paid-care households reported average spending of about $10,520",
+      "status": "reported",
+      "counterexample": "Work-time loss is not the same as wage loss, permanent exit, or a causal estimate; cost averages are conditional on paid care",
+      "remaining_gap": "Household-specific earnings, unpaid time, debt, job quality, and protected outcome"
+    },
+    {
+      "arrow_id": "CENSUS-CHILDCARE-A-04",
+      "from": "care adaptation and work-time loss",
+      "to": "later care stability, child wellbeing, work return, security, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public Census layer is retrospective and cross-sectional and does not follow households into a later period",
+      "status": "open",
+      "counterexample": "A household can preserve formal employment while losing hours, rest, income, or care quality; later recovery cannot be inferred",
+      "remaining_gap": "Same-household later care arrangement, work/earnings, child outcome, health, security, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a reported household care-to-work adaptation surface but does not establish causality, a same-household later outcome, provider adequacy, or child wellbeing.",
+  "storage_boundary": "No CPS microdata or household identifiers are retained; only bounded official aggregate findings and explicit open downstream arrows are represented."
+}

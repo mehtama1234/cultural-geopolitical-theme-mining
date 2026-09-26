@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-epa-cdc-drinking-water-coverage-replacement-risk-2026",
+  "title": "Broad drinking-water coverage coexists with uneven household responsibility and unresolved replacement risk",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "EPA drinking-water infrastructure assessments and CDC Environmental Health Tracking drinking-water indicators",
+  "geography": "United States; national public-water and private-well coverage, service-line projections, and infrastructure needs",
+  "observations": [
+    {
+      "period": "2025-2026; drinking-water infrastructure and lead service-line need",
+      "denominator": {"value": null, "unit": "U.S. drinking-water systems and projected service-line counts; source-specific universes", "value_type": "not_disclosed"},
+      "measures": {
+        "estimated_total_lead_service_lines": {"value": 4000000, "unit": "projected service lines", "value_type": "published_projection"},
+        "reported_lead_or_galvanized_requiring_replacement": {"value": 3000000, "unit": "reported service lines", "value_type": "published_count"},
+        "unknown_lines_predicted_lead": {"value": 1000000, "unit": "service lines predicted to be lead from unknown-material reporting", "value_type": "published_projection"},
+        "twenty_year_drinking_water_need": {"value": 625, "unit": "billion dollars of assessed national drinking-water infrastructure need", "value_type": "published_assessment"},
+        "distribution_transmission_need": {"value": 422.9, "unit": "billion dollars", "value_type": "published_assessment"}
+      },
+      "method": "EPA's 7th Drinking Water Infrastructure Needs Survey and Assessment and 2025 service-line update; projections and reported inventories are kept separate from completed replacement and household exposure.",
+      "uncertainty": "The service-line counts include projections and unknown-material inference, while the needs assessment is a long-term infrastructure estimate. These measures do not reveal which households received replacement, interim protection, notice, or safer water.",
+      "subgroup": "Public water systems, service lines, states, and communities; household and building-level incidence is not supplied in the national summary.",
+      "counterinterpretation": "Inventory and funding can improve identification and replacement without immediately changing household exposure; large assessed need is not a measure of annual failure or realized harm.",
+      "source_url": "https://www.epa.gov/dwsrf/epas-7th-drinking-water-infrastructure-needs-survey-and-assessment",
+      "retrieval_hash": "sha256:4b2889ba8b00d166bab7590312f6f8758e427ff314f3f70c0d5194525bc89cdc",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; public-water versus private-well coverage and contamination responsibility",
+      "denominator": {"value": 100, "unit": "U.S. population; published national coverage shares", "value_type": "published_percentage_base"},
+      "measures": {
+        "community_water_system": {"value": 90, "unit": "percent of people getting drinking water from a community water system", "value_type": "published_share"},
+        "private_well": {"value": 12.5, "unit": "approximately percent of Americans getting drinking water from a private well", "value_type": "published_share"},
+        "sampled_private_wells_with_chemical_contamination": {"value": 20, "unit": "approximately percent of sampled private wells with at least one chemical at a potentially health-affecting level", "value_type": "published_share"},
+        "federal_private_well_regulation": {"value": "not generally regulated at the federal level", "unit": "governance description", "value_type": "reported_governance_boundary"}
+      },
+      "method": "CDC Environmental Health Tracking summary using public-water and private-well indicators; the well contamination estimate applies to sampled wells, not all private wells.",
+      "uncertainty": "The source does not identify each household's exposure, treatment, testing frequency, income, remediation, or health outcome. Sampled wells may not represent all private wells.",
+      "subgroup": "Residents using community water systems versus private wells; private-well oversight and responsibility vary by state and household.",
+      "counterinterpretation": "Private-well ownership can offer local control and may be safe when tested and maintained; contamination in sampled wells does not establish illness or universal private-well risk.",
+      "source_url": "https://www.cdc.gov/environmental-health-tracking/php/data-research/drinking-water.html",
+      "retrieval_hash": "sha256:4b2889ba8b00d166bab7590312f6f8758e427ff314f3f70c0d5194525bc89cdc",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.epa.gov/lead/epas-fy-2026-milestones-under-federal-lead-action-plan", "claim": "EPA's FY2026 milestones describe replacement funding, implementation resources, and public engagement work.", "status": "official-implementation-context"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107013", "claim": "GAO documents financial and access challenges in water-infrastructure resilience assistance.", "status": "official-comparator"}
+  ],
+  "boundary": "This record establishes national infrastructure need, service-line inventory/projection, public-versus-private water governance, and sampled-well contamination indicators. It does not establish a household's water exposure, replacement receipt, bill, repair, health outcome, local acceptance, or durable service security.",
+  "retrieval_hash": "sha256:4b2889ba8b00d166bab7590312f6f8758e427ff314f3f70c0d5194525bc89cdc"
+}

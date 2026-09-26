@@ -75,6 +75,41 @@ anti-retaliation              not_observed
 final award                   not_observed
 ```
 
+## Access-gate recheck — 2026-09-20
+
+The follow-up review adds an important route boundary. The Tribunal is not a
+walk-in filing counter. Under the public reading of Act 872, a worker normally
+starts with a dated written complaint through the platform's internal
+grievance mechanism; unresolved or failed internal handling can move to
+conciliation, and the conciliator refers the matter to the Tribunal. A
+deactivation dispute is treated as an exception to the ordinary internal
+30-day step. The current public record does not show which route the reported
+GrabCar claimant used.
+
+The same review identifies two additional access filters: parties generally
+cannot use an advocate or solicitor before the Tribunal, and a non-platform
+worker is covered only if the service falls within Act 872's listed schedule;
+the reported legal text also limits the statutory definition to Malaysian
+citizens and permanent residents. These are legal-route boundaries, not
+evidence about the claimant's status or the merits of the case. A worker
+appearing personally can reduce representation cost, but it does not show
+equal access to platform records, technical knowledge, time, or preparation.
+
+This sharpens the sequence:
+
+```text
+eligibility and route gate
+  -> internal complaint or deactivation exception
+  -> conciliation referral
+  -> Tribunal hearing
+  -> award / correction / payment / restored access [open]
+```
+
+The recheck still found no public primary case identifier, filed claim,
+award, payment, access correction, or later-work record. The access-gate
+description is therefore an institutional design and procedural-boundary
+finding, not a claimant outcome.
+
 The hearing is evidence of institutional use, not evidence of a successful
 worker remedy. “Human hearing” must not be silently converted into “effective
 human review”: the current reports do not show the Tribunal's reasoning,
@@ -115,6 +150,7 @@ correction, or other changed consequence.
 - [SoyaCincau: Ministry social-post reproduction and case summary](https://bm.soyacincau.com/2026/09/09/pekerja-e-hailing-grab-tuntut-keadilan-tribunal-pekerja-gig-dengarkan-kes-pertama/)
 - [Ministry Tribunal information sheet](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/tribunal.pdf)
 - [Gig Workers Act 2025, Act 872](https://www.mohr.gov.my/aktapekerjagig2025/assets/documents/Akta%20872.pdf)
+- [Act 872 access-route and eligibility analysis](https://www.misslobang.my/article/gig-workers-tribunal-first-case-act-872-2026)
 
 ## Boundary
 

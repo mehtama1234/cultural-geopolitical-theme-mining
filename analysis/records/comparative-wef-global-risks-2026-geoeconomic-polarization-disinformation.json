@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-global-risks-2026-geoeconomic-polarization-disinformation",
+  "title": "Geoeconomic confrontation, conflict, polarization, inequality, and disinformation are converging in institutional risk perceptions",
+  "theme_ids": ["voice", "cost", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Economic Forum, Global Risks Report 2026",
+  "geography": "Global expert and business-leader risk perceptions across 116 economies and three time horizons",
+  "observations": [
+    {
+      "period": "2026; immediate global-risk outlook",
+      "denominator": {"value": 1300, "unit": "approximately experts participating in the Global Risks Perception Survey", "value_type": "expert_survey_frame"},
+      "measures": {
+        "geoeconomic_confrontation_top_risk": {"value": 18, "unit": "percent selecting geoeconomic confrontation as the risk most likely to trigger a material global crisis in 2026", "value_type": "reported_share"},
+        "state_based_armed_conflict": {"value": 14, "unit": "percent selecting state-based armed conflict as the top material-crisis risk in 2026", "value_type": "reported_share"},
+        "combined_geopolitical_share": {"value": 32, "unit": "percent selecting either of the two leading geopolitical risks", "value_type": "derived_share"}
+      },
+      "method": "WEF Global Risks Perception Survey ranking of 33 global risks by perceived likelihood of a material crisis in 2026.",
+      "uncertainty": "This is a perception survey of a selected expert network, not an objective probability model; the combined share is a simple sum of reported selections and does not measure risk severity or causal likelihood.",
+      "subgroup": "Experts across business, government, civil society, academia, international organizations, and other decision-making communities.",
+      "counterinterpretation": "High salience may reflect current news, institutional position, or shared framing rather than an independently measured increase in underlying hazard; lower-ranked risks may still produce severe outcomes.",
+      "source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-key-findings/",
+      "retrieval_hash": "sha256:b6410117d2c2a192399c94fb76d51087c752783c1a3f2e57dceca344808f0063",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2028; short-to-medium-term outlook",
+      "denominator": {"value": 1300, "unit": "approximately experts participating in the Global Risks Perception Survey", "value_type": "expert_survey_frame"},
+      "measures": {
+        "geoeconomic_confrontation_two_year": {"value": 1, "unit": "rank of geoeconomic confrontation in the two-year global-risk horizon", "value_type": "reported_rank"},
+        "misinformation_disinformation_two_year": {"value": 2, "unit": "rank of misinformation and disinformation in the two-year global-risk horizon", "value_type": "reported_rank"},
+        "outlook_turbulent_or_stormy_two_year": {"value": 50, "unit": "percent anticipating a turbulent or stormy global outlook over the next two years", "value_type": "reported_share"}
+      },
+      "method": "WEF comparison of risk rankings and respondents' qualitative outlook across the 2026 and 2028 horizons.",
+      "uncertainty": "Rankings are not forecasts and do not establish that one risk causes another; survey wording, respondent composition, and changing events can shift perceived priorities.",
+      "subgroup": "Global experts assessing geopolitical, societal, technological, environmental, and economic risks over a two-year horizon.",
+      "counterinterpretation": "Misinformation concern can reflect awareness and institutional attention rather than increased exposure or measurable social harm; a turbulent outlook can coexist with local stability and adaptation.",
+      "source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-chapter-1/",
+      "retrieval_hash": "sha256:b6410117d2c2a192399c94fb76d51087c752783c1a3f2e57dceca344808f0063",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2036; long-term outlook and social risk structure",
+      "denominator": {"value": 1300, "unit": "approximately experts participating in the Global Risks Perception Survey", "value_type": "expert_survey_frame"},
+      "measures": {
+        "outlook_turbulent_or_stormy_ten_year": {"value": 57, "unit": "percent anticipating a turbulent or stormy global outlook over the next ten years", "value_type": "reported_share"},
+        "inequality_interconnected_risk": {"value": 1, "unit": "rank of inequality as the most interconnected global risk", "value_type": "reported_rank"},
+        "economic_downturn_interconnected_risk": {"value": "among the risks closely following inequality in interconnectedness", "unit": "report qualitative finding", "value_type": "reported_pattern"}
+      },
+      "method": "WEF long-horizon risk-perception analysis and network-style assessment of perceived interconnections among global risks.",
+      "uncertainty": "Interconnectedness rankings summarize expert judgment about relationships, not an empirically identified causal network; the ten-year outlook is especially sensitive to framing and uncertainty.",
+      "subgroup": "Experts considering social, economic, political, technological, environmental, and geopolitical risks through 2036.",
+      "counterinterpretation": "Perceived risk convergence may encourage preparedness and coordination; it does not imply that all domains will deteriorate together or that inequality is the sole transmission mechanism.",
+      "source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-key-findings/",
+      "retrieval_hash": "sha256:b6410117d2c2a192399c94fb76d51087c752783c1a3f2e57dceca344808f0063",
+      "status": "reported"
+    },
+    {
+      "period": "2026; country and business risk translation",
+      "denominator": {"value": 116, "unit": "economies covered by the Executive Opinion Survey component", "value_type": "business_survey_frame"},
+      "measures": {
+        "business_leader_respondents": {"value": 11000, "unit": "more than business leaders contributing country-level risk perceptions", "value_type": "reported_count"},
+        "risk_categories": {"value": "societal, technological, environmental, economic, and geopolitical categories are compared alongside the global survey", "unit": "report analytical scope", "value_type": "reported_scope"},
+        "structural_forces": {"value": "technological acceleration, geostrategic shifts, climate change, and demographic bifurcation are treated as interacting structural forces", "unit": "report analytical framework", "value_type": "reported_framework"}
+      },
+      "method": "WEF Executive Opinion Survey and Global Risks Report framework translating global risk perceptions into country-level business and institutional contexts.",
+      "uncertainty": "Business-leader perceptions are not representative public opinion, incident records, or firm-level loss estimates; coverage and interpretation vary by economy and sector.",
+      "subgroup": "Business leaders, firms, governments, economies, sectors, and institutions exposed to interacting structural forces.",
+      "counterinterpretation": "Risk perception can be shaped by sector exposure and strategic incentives; shared frameworks may improve coordination but can also crowd out less visible local risks.",
+      "source_url": "https://www.weforum.org/publications/global-risks-report-2026/in-full/global-risks-report-2026-overview-of-methodology/",
+      "retrieval_hash": "sha256:b6410117d2c2a192399c94fb76d51087c752783c1a3f2e57dceca344808f0063",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/", "claim": "WEF Global Cybersecurity Outlook 2026 provides a complementary cyber-resilience and AI-vulnerability route."},
+    {"source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/benchmarking-gender-gaps-2026/", "claim": "WEF Global Gender Gap 2026 provides a complementary gender-parity and leadership route."}
+  ],
+  "boundary": "This record adds a comparative risk-perception route linking geoeconomic confrontation, conflict, polarization, inequality, disinformation, technology, climate, and demographic change. It reports aggregate survey rankings and analytical frameworks, not individual respondent attitudes, objective probabilities, incident data, causal forecasts, or firm-level loss estimates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WEF Global Risks Report 2026 key findings, chapter 1, and methodology pages were reviewed for the survey frame, risk rankings, outlook shares, interconnectedness findings, and Executive Opinion Survey scope.",
+    "source_url_sha256": "sha256:b6410117d2c2a192399c94fb76d51087c752783c1a3f2e57dceca344808f0063",
+    "checked": "2026-09-26"
+  }
+}

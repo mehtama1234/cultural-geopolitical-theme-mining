@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-social-media-ban-tipping-point-2026",
+  "title": "Social-media restrictions can erode when compliance is socially costly",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35162; Australian teenagers surveyed after the national under-16 social-media account restriction",
+  "geography": "Australia; comparative mechanism test for U.S. youth-platform policy",
+  "observations": [
+    {
+      "period": "Four months after the December 2025 restriction; 14–15-year-olds",
+      "denominator": {
+        "value": 746,
+        "unit": "Australian teenagers in the reported survey sample",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "compliance": {
+          "value": 25,
+          "unit": "percent; approximate share of 14–15-year-olds complying with the restriction",
+          "value_type": "reported_survey_share"
+        },
+        "peer_threshold": {
+          "value": 67,
+          "unit": "percent of peers respondents reported would need to comply before they would comply",
+          "value_type": "reported_threshold"
+        },
+        "perceived_status": {
+          "value": "Compliers were perceived as less popular than non-compliers",
+          "unit": "reported social-status perception",
+          "value_type": "reported_survey_pattern"
+        }
+      },
+      "method": "Post-policy survey of Australian teenagers, with reported compliance, perceived peer behavior, perceived popularity, and stated peer threshold; the study interprets the restriction through a coordination/tipping-point framework.",
+      "uncertainty": "The sample is Australian and age-specific; self-reported compliance and perceived peer behavior may contain reporting or perception error. The study does not identify individual causal effects on mental health, school outcomes, or family life.",
+      "subgroup": "Australian teenagers, especially 14–15-year-olds subject to the restriction; estimates should not be generalized to all adolescents or platforms.",
+      "counterinterpretation": "Low compliance may reflect enforcement design, circumvention, platform-specific use, or pre-existing norms rather than a general failure of age restrictions. A reported threshold is not a revealed behavioral threshold.",
+      "source_url": "https://www.nber.org/papers/w35162",
+      "retrieval_hash": "bfi-research-brief:sha256:e149f362e700d3425f2c904a7f328ec116980fdce5da82b18450359c801687d4",
+      "status": "reported"
+    },
+    {
+      "period": "Two months after the initial post-policy survey",
+      "denominator": {
+        "value": null,
+        "unit": "follow-up compliance estimate; source summary does not disclose a separate respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "compliance_followup": {
+          "value": 5,
+          "unit": "percent; approximate reported compliance share",
+          "value_type": "reported_survey_share"
+        },
+        "direction": {
+          "value": "compliance declined from the initial post-policy level",
+          "unit": "reported follow-up movement",
+          "value_type": "reported_longitudinal_direction"
+        }
+      },
+      "method": "Reported follow-up observation in the NBER study after the initial post-policy survey; the public summary describes the direction and approximate share but not a full follow-up denominator.",
+      "uncertainty": "The follow-up estimate is not a disclosed national compliance rate and should not be treated as a causal time-series estimate without the underlying panel, attrition, and measurement details.",
+      "subgroup": "The study's affected Australian adolescent population; follow-up composition and retention are not fully specified in the public summary.",
+      "counterinterpretation": "The decline could reflect sample composition, enforcement changes, reporting changes, or platform substitution; it does not prove that all age restrictions will erode.",
+      "source_url": "https://www.nber.org/papers/w35162",
+      "retrieval_hash": "bfi-research-brief:sha256:e149f362e700d3425f2c904a7f328ec116980fdce5da82b18450359c801687d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://bfi.uchicago.edu/insights/why-bans-fail-tipping-points-and-australias-social-media-ban/",
+      "claim": "The research brief reports the 746-teen sample, approximate one-quarter compliance, and the two-thirds peer threshold.",
+      "status": "research-brief"
+    },
+    {
+      "source_url": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=6705519&mirid=1&type=2",
+      "claim": "Accessible working-paper abstract for the reported post-policy and follow-up mechanism.",
+      "status": "working-paper"
+    }
+  ],
+  "boundary": "This comparative record shows a policy-to-compliance-to-social-norm mechanism in an Australian youth-platform setting. It does not establish U.S. compliance, mental-health benefit, school effect, family burden, privacy improvement, durable exit, or political legitimacy. Formal restriction, actual behavior, peer norms, wellbeing, and later action remain separate stages."
+}

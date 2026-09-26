@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fta-ntd-transit-service-realization-2024",
+  "title": "Transit service can operate at national scale without proving equal usable mobility",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "time_hidden_price",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Federal Transit Administration National Transit Database 2024 annual products and national summary",
+  "geography": "United States public transportation agencies and urbanized areas",
+  "observations": [
+    {
+      "period": "Report year 2024",
+      "denominator": {
+        "value": 1,
+        "unit": "FTA National Transit Database agency reports and national operating summary",
+        "value_type": "source_defined_reporting_universe"
+      },
+      "measures": {
+        "reporting_agencies": {"value": 3000, "unit": "nearly agencies", "value_type": "reported_approximation"},
+        "passenger_trips": {"value": 7600000000, "unit": "trips", "value_type": "reported_total"},
+        "passenger_trip_change": {"value": 9.8, "unit": "percent change from 2023", "value_type": "reported_change"},
+        "passenger_miles": {"value": 38100000000, "unit": "miles", "value_type": "reported_total"},
+        "passenger_mile_change": {"value": 8.7, "unit": "percent change from 2023", "value_type": "reported_change"},
+        "urbanized_areas": {"value": 502, "unit": "urbanized areas", "value_type": "reported_total"},
+        "transit_workers": {"value": 380000, "unit": "workers; approximate daily system workforce", "value_type": "reported_approximation"},
+        "national_fleet": {"value": 177000, "unit": "vehicles; more than", "value_type": "reported_approximation"}
+      },
+      "method": "FTA aggregation of National Transit Database agency reports for service, ridership, assets, funding, safety, and workforce; operating supply and passenger-use measures remain distinct.",
+      "uncertainty": "National totals combine modes, agencies, reporting types, and trip definitions; increases do not identify unique riders, essential trips, local reliability, fare burden, or household outcomes.",
+      "subgroup": "Nearly 3,000 public transit agencies, 18 modes, 502 urbanized areas, and reported national workforce and fleet.",
+      "counterinterpretation": "Higher trips and miles can reflect post-pandemic recovery, population/place composition, service changes, or concentrated use rather than equal access or improved welfare; a large system can still leave some trips unreachable.",
+      "source_url": "https://www.transit.dot.gov/ntd",
+      "retrieval_hash": "sha256:ef2704d9eb165ba5d8ab514b02f60ab88e2ccee4cb48d169d14d5870b85c18a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/2026-04/2024%20National%20Transit%20Summaries%20and%20Trends_1.2.pdf",
+      "claim": "FTA's 2024 national summary reports passenger trips, passenger miles, urbanized areas, workforce, and fleet context.",
+      "status": "official-summary-context"
+    },
+    {
+      "source_url": "https://www.transit.dot.gov/sites/fta.dot.gov/files/2025-10/2024%20Annual%20NTD%20Data%20Publications%20Guide.pdf",
+      "claim": "FTA documents the NTD service-data files and reconciliation boundaries for vehicle revenue miles and vehicles operated in maximum service.",
+      "status": "official-method-context"
+    }
+  ],
+  "boundary": "This record measures national agency-reported transit operating scale and passenger use. It does not establish equal local access, fare affordability, reliability, safety, completed essential trips, household welfare, or political response.",
+  "retrieval_hash": "sha256:ef2704d9eb165ba5d8ab514b02f60ab88e2ccee4cb48d169d14d5870b85c18a1"
+}

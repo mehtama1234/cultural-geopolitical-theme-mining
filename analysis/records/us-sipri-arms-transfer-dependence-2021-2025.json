@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sipri-arms-transfer-dependence-2021-2025",
+  "title": "US arms-transfer dominance can deepen allied dependence without proving political control",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "SIPRI Arms Transfers Database and Trends in International Arms Transfers 2025 fact sheet",
+  "geography": "International transfers of major conventional arms; United States, Europe, and European NATO members",
+  "observations": [
+    {
+      "period": "2021-2025 compared with 2016-2020",
+      "denominator": {
+        "value": 1,
+        "unit": "SIPRI volume of transfers of major conventional arms between states",
+        "value_type": "source_defined_transfer_volume_measure"
+      },
+      "measures": {
+        "global_transfer_volume_change": {"value": 9.2, "unit": "percent change", "value_type": "reported_change"},
+        "us_global_export_share": {"value": 42, "unit": "percent of global major-arms exports", "value_type": "reported_share"},
+        "us_export_share_prior_period": {"value": 36, "unit": "percent of global major-arms exports in 2016-2020", "value_type": "reported_share"},
+        "states_receiving_us_major_arms": {"value": 99, "unit": "states", "value_type": "reported_total"},
+        "europe_import_change": {"value": 210, "unit": "percent change", "value_type": "reported_change"},
+        "us_share_of_europe_imports": {"value": 48, "unit": "percent", "value_type": "reported_share"},
+        "european_nato_import_change": {"value": 143, "unit": "percent change", "value_type": "reported_change"},
+        "us_share_of_european_nato_imports": {"value": 58, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "SIPRI five-year comparison using the Arms Transfers Database; transfer volume is measured in SIPRI's TIV-based framework rather than financial value.",
+      "uncertainty": "Five-year transfer volumes smooth timing but do not identify order, delivery, training, maintenance, operational use, political consent, or strategic effect; secrecy and data limitations affect some cases.",
+      "subgroup": "States, suppliers, recipient regions, Europe, and European NATO members receiving major conventional arms.",
+      "counterinterpretation": "Import growth can reflect threat perception, aid, replacement, timing, or a few large systems; concentration can coexist with recipient diversification, domestic production, or political resistance.",
+      "source_url": "https://www.sipri.org/publications/2026/sipri-fact-sheets/trends-international-arms-transfers-2025",
+      "retrieval_hash": "sha256:6ecae20127ef9daf1f7b97cfe0c63533dd3d8bb2880347adbd7a583fcae232ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.sipri.org/sites/default/files/2026-03/fs_2603_at_2025.pdf",
+      "claim": "SIPRI's 2025 fact sheet reports supplier shares, recipient regions, and the US-European transfer relationship.",
+      "status": "official-research-publication"
+    },
+    {
+      "source_url": "https://www.sipri.org/databases/armstransfers",
+      "claim": "SIPRI describes the updated 1950-2025 Arms Transfers Database and its transfer-volume and supplier-recipient uses.",
+      "status": "method-context"
+    }
+  ],
+  "boundary": "This record measures international major-arms transfer volumes and supplier concentration. It does not establish financial value, delivery, operational readiness, sustainment, recipient autonomy, public consent, alliance obedience, deterrence, or strategic leverage.",
+  "retrieval_hash": "sha256:6ecae20127ef9daf1f7b97cfe0c63533dd3d8bb2880347adbd7a583fcae232ea"
+}

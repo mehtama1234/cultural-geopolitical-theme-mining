@@ -54,6 +54,41 @@ denominators are not interchangeable and must not be turned into a single
 restoration rate. The selected-state diagnostic adds reporting variation, not
 a cross-state effectiveness ranking.
 
+## Selected-state diagnostic: administrative visibility is not effectiveness
+
+The preliminary FY2025 state extract illustrates why the denominator matters:
+
+| State | Households served | Restoration occurrences per served household | Prevention occurrences per served household |
+|---|---:|---:|---:|
+| California | 146,843 | 0.0703 | 0.6259 |
+| New York | 1,159,724 | 0.0007 | 0.0796 |
+| Ohio | 261,341 | 0.0171 | 0.3089 |
+| Texas | 71,847 | 0.0281 | 0.5559 |
+| Virginia | 126,299 | 0.0094 | 0.0990 |
+
+These differences are real differences in the reported administrative surface,
+but they are not state effectiveness scores. Occurrences can repeat, states
+may define and report events differently, and the served-household denominator
+is not the number exposed, eligible, disconnected, or at risk. The comparison
+therefore advances a broader mechanism: local program design and reporting
+capacity help determine which parts of energy insecurity become visible, while
+household durability and the next-bill outcome remain unobserved.
+
+## Benefit size is another separate currency
+
+The official FY2024 state profiles add a material-size layer that the
+occurrence API does not contain. Texas reported an average heating-assistance
+benefit of $1,102, while Ohio reported an average of $327. These are different
+reporting vintages and assistance profiles, not a state ranking. They show why
+“household served” is not enough to describe the intervention: benefit size,
+energy burden, bill amount, fuel type, timing, and arrears may all change the
+amount of usable room created.
+
+The profiles still do not show whether the payment covered the household's
+actual bill, prevented a shutoff, restored service, protected food or medicine,
+or prevented a later repeat crisis. Benefit amount is therefore a better
+material measure than an occurrence count, but it is not recovery.
+
 The Virginia trajectory provides a useful cross-lane caution: reported
 households served rose from 118,347 in FY2023 to 144,007 in FY2024 and then
 fell to 126,299 in preliminary FY2025, while restoration occurrences fell
@@ -94,6 +129,8 @@ without restoration, and retain non-applicants and denied routes.
 
 - [EIA 2024 Residential Energy Consumption Survey Table HC11.1](https://www.eia.gov/consumption/residential/data/2024/hc/pdf/HC11.1_2024.pdf)
 - [HHS/ACF FY2024 LIHEAP annual report](https://ocsannualreport.acf.hhs.gov/annual-report-fy24/priorities-and-fy24-spotlights)
+- [FY2024 Texas LIHEAP state profile](https://stage.liheappm.acf.hhs.gov/sites/default/files/private/congress/profiles/2024/FY2024_Texas_Profile.pdf)
+- [FY2024 Ohio LIHEAP state profile](https://stage.liheappm.acf.hhs.gov/sites/default/files/private/congress/profiles/2024/FY2024_Ohio_Profile.pdf)
 - [LIHEAP FY2023–FY2025 performance extraction](../data/us-liheap-performance-measures-2023-2025.json)
 - [Selected-state FY2025 diagnostic](../data/liheap-state-performance-diagnostic-fy2025.json)
 - [Virginia FY2023–FY2025 trajectory](../data/liheap-virginia-performance-2023-2025.json)

@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-urban-wbns-immigrant-family-disengagement-services-2025",
+  "title": "Immigration concerns can turn status exposure into avoidance of work, care, community participation, and safety-net programs",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Urban Institute Well-Being and Basic Needs Survey immigrant-family analysis",
+  "geography": "United States; adults ages 18 and older in immigrant families, including mixed-status families",
+  "observations": [
+    {
+      "period": "December 2025 WBNS; prior 12 months",
+      "denominator": {"value": 2234, "unit": "adults in immigrant families in the nationally representative WBNS analysis; one or more household members born outside the United States", "value_type": "survey_respondent_count"},
+      "measures": {
+        "any_essential_activity_disengagement": {"value": 18, "unit": "percent saying they or someone in their family did not do at least one listed essential activity because of immigration-status concerns", "value_type": "published_share"},
+        "did_not_go_to_work": {"value": 9, "unit": "percent reporting the family did not go to work because of immigration-status concerns", "value_type": "published_share"},
+        "did_not_drive": {"value": 11, "unit": "percent reporting the family did not drive a car because of immigration-status concerns", "value_type": "published_share"},
+        "did_not_visit_health_care": {"value": 8, "unit": "percent reporting the family did not visit a health care setting because of immigration-status concerns", "value_type": "published_share"},
+        "did_not_participate_religious_or_community": {"value": 9, "unit": "percent reporting the family did not participate in religious services or community events because of immigration-status concerns", "value_type": "published_share"}
+      },
+      "method": "Urban Institute analysis of the December 2025 Well-Being and Basic Needs Survey, a nationally representative annual survey; the listed activity items measure whether the respondent or anyone in the family chose not to engage because they did not want to draw attention to immigration status.",
+      "uncertainty": "The items are retrospective family-level reports and do not identify which member acted, the legal-status exposure, the specific event or enforcement action, duration, forgone income, care severity, or later recovery. The listed activities overlap and should not be summed.",
+      "subgroup": "Adults in immigrant families, with comparisons for mixed-status families and families without undocumented members; the school/child-care item is limited to families with children under 19.",
+      "counterinterpretation": "Avoidance may be precautionary, based on a known person's experience, or driven by local information rather than a direct encounter. The survey does not show that every family experienced enforcement or that nonuse caused a measurable health, work, or civic loss.",
+      "source_url": "https://www.urban.org/research/publication/immigrant-families-disengaged-public-life-and-essential-services-because",
+      "retrieval_hash": "sha256:a5a15b7561bf29d9d79251276a7adf6c6d58b1a17bb7193735089f65368050e6",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025 WBNS; worry about essential activities",
+      "denominator": {"value": 2234, "unit": "adults in immigrant families; subgroup estimates compare families with and without undocumented members", "value_type": "survey_respondent_count"},
+      "measures": {
+        "mixed_status_worry_doctor": {"value": 29, "unit": "percent in mixed-status families worrying a lot or some about visiting a doctor, clinic, or hospital", "value_type": "published_subgroup_share"},
+        "non_mixed_worry_doctor": {"value": 10, "unit": "percent in immigrant families without undocumented members with the comparable worry", "value_type": "published_subgroup_share"},
+        "mixed_status_worry_work": {"value": 38, "unit": "percent in mixed-status families worrying about going to work", "value_type": "published_subgroup_share"},
+        "non_mixed_worry_work": {"value": 8, "unit": "percent in immigrant families without undocumented members with the comparable worry", "value_type": "published_subgroup_share"},
+        "mixed_status_worry_school_childcare": {"value": 37, "unit": "percent in mixed-status families worrying about sending children to school, child care, or after-school activities", "value_type": "published_subgroup_share"},
+        "non_mixed_worry_school_childcare": {"value": 11, "unit": "percent in immigrant families without undocumented members with the comparable worry", "value_type": "published_subgroup_share"},
+        "mixed_status_worry_police": {"value": 38, "unit": "percent in mixed-status families worrying about talking to police", "value_type": "published_subgroup_share"},
+        "non_mixed_worry_police": {"value": 10, "unit": "percent in immigrant families without undocumented members with the comparable worry", "value_type": "published_subgroup_share"}
+      },
+      "method": "The Urban brief reports subgroup comparisons by family immigration-status composition for concerns about health care, work, child activities, and police contact.",
+      "uncertainty": "Family-status composition is descriptive and may bundle legal status, kinship, geography, enforcement visibility, language, income, and prior experience. The survey does not establish that undocumented-member status caused each worry or that worry resulted in nonuse.",
+      "subgroup": "Mixed-status immigrant families versus immigrant families made up entirely of U.S. citizens; the family-level categories are source-defined.",
+      "counterinterpretation": "Worry is not the same as avoidance, and families without undocumented members also report concern. The gaps identify a status-conditioned exposure surface but not a universal or exclusive mechanism.",
+      "source_url": "https://www.urban.org/research/publication/immigrant-families-disengaged-public-life-and-essential-services-because",
+      "retrieval_hash": "sha256:a5a15b7561bf29d9d79251276a7adf6c6d58b1a17bb7193735089f65368050e6",
+      "status": "reported"
+    },
+    {
+      "period": "December 2025 WBNS; safety-net participation and immigration concerns",
+      "denominator": {"value": 2234, "unit": "adults in immigrant families; safety-net avoidance items have source-specific valid bases", "value_type": "survey_respondent_count"},
+      "measures": {
+        "avoided_safety_net_green_card_concern": {"value": 12, "unit": "percent saying their family avoided safety-net programs such as Medicaid or SNAP because of worry about green-card eligibility", "value_type": "published_share"},
+        "avoided_safety_net_data_sharing_concern": {"value": 9, "unit": "percent saying their family avoided safety-net programs because of concern that personal information would be shared with immigration authorities", "value_type": "published_share"}
+      },
+      "method": "Urban Institute analysis of WBNS questions about family avoidance of safety-net programs because of green-card or data-sharing concerns.",
+      "uncertainty": "These are reported reasons for nonparticipation, not verified program eligibility, enrollment, benefit loss, agency data-sharing, or actual immigration consequences. The survey does not identify which program was avoided, the amount of foregone benefit, or subsequent re-enrollment.",
+      "subgroup": "Adults in immigrant families, including families with U.S.-citizen and noncitizen members; program-specific universes are not pooled into one take-up rate.",
+      "counterinterpretation": "Avoidance may reflect uncertainty or rumor rather than an actual rule or agency action. Conversely, the absence of reported avoidance does not prove that eligible families experienced no deterrence or administrative burden.",
+      "source_url": "https://www.urban.org/research/publication/immigrant-families-disengaged-public-life-and-essential-services-because",
+      "retrieval_hash": "sha256:a5a15b7561bf29d9d79251276a7adf6c6d58b1a17bb7193735089f65368050e6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.urban.org/sites/default/files/2026-04/Immigrant%20Families%20Disengaged%20from%20Public%20Life%20and%20Essential%20Services%20Because%20of%20Immigration%20Concerns%20in%202025%20.pdf", "claim": "The Urban Institute brief provides the detailed WBNS methods, question universes, subgroup comparisons, and figures.", "status": "official-brief"},
+    {"source_url": "https://www.urban.org/sites/default/files/2025-03/Immigrant-Families-Express-Worry-as-They-Prepare-for-Policy-Changes.pdf", "claim": "The December 2024 companion analysis supplies a prior-period comparison for immigration-related worry and family behavior.", "status": "prior-period-context"}
+  ],
+  "boundary": "This record observes reported family-level worry, avoidance, and safety-net nonparticipation associated with immigration concerns. It does not establish legal-status composition beyond source-defined family categories, enforcement exposure, agency data sharing, benefit eligibility, causal policy effects, realized health or earnings loss, or later trust, political action, migration, or recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Urban Institute publication webpage and linked 2026 brief PDF reviewed; the brief PDF was downloaded and hashed, with sample, field period, estimates, subgroup comparisons, and question boundaries cross-checked.",
+    "pdf_sha256": "sha256:a5a15b7561bf29d9d79251276a7adf6c6d58b1a17bb7193735089f65368050e6",
+    "checked": "2026-09-25"
+  }
+}

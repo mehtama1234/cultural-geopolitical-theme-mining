@@ -1,0 +1,45 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-mofcom-h200-shipment-nonconfirmation-2026",
+  "title": "China's Ministry of Commerce did not confirm a report that small numbers of NVIDIA H200 chips had been sold to China",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Chinese Ministry of Commerce regular press conference, July 16, 2026",
+  "geography": "China, United States, NVIDIA, Chinese Ministry of Commerce, and advanced-computing trade",
+  "observations": [
+    {
+      "period": "July 16, 2026 regular Ministry of Commerce press conference",
+      "denominator": {
+        "value": 1,
+        "unit": "official spokesperson response to a reporter's question about U.S. claims that a small number of NVIDIA H200 chips had been sold to China",
+        "value_type": "reported_official_response"
+      },
+      "measures": {
+        "official_confirmation": {"value": "not provided; spokesperson said he did not know about the situation referred to", "unit": "official response status", "value_type": "reported_nonconfirmation"},
+        "reported_h200_sales": {"value": "U.S. officials' claim that a small number of NVIDIA H200 chips had been sold to China", "unit": "external claim presented in the question; not independently confirmed by this source", "value_type": "reported_claim"},
+        "china_import_or_use_status": {"value": "not established by the press-conference response", "unit": "missing import, customs, customer, use, or approval record", "value_type": "unmeasured"},
+        "state_policy_effect": {"value": "not established", "unit": "no new H200-specific Chinese restriction or authorization announced in this response", "value_type": "unmeasured"}
+      },
+      "method": "Review of the official Chinese Ministry of Commerce press-conference transcript. The response is coded narrowly as non-confirmation of a reported shipment claim; it is not coded as denial, approval, restriction, or evidence that no shipment occurred.",
+      "uncertainty": "The spokesperson's lack of knowledge may reflect limited information, a non-substantive response, or an unresolved administrative status. The source does not identify H200 customers, shipments, import clearance, domestic-use authorization, or the legal basis of any PRC restriction described by NVIDIA.",
+      "subgroup": "Chinese Ministry of Commerce, Chinese customs and other regulatory authorities, NVIDIA, U.S. officials, China-based customers, and reporters seeking confirmation of bilateral technology trade",
+      "counterinterpretation": "Official non-confirmation does not contradict NVIDIA's issuer-reported partial shipments; it only shows that the cited ministry response did not validate the claim. Conversely, NVIDIA's report does not establish the Chinese government's final import or use decision.",
+      "source_url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n7y16r/index.html",
+      "retrieval_hash": "sha256:762a36072982dd62294516a3de9a9268ed77babd8655d55542467f3019d4c0ee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA's contemporaneous SEC filing reports a fraction of allowed H200 shipments, while stating that PRC restrictions prevented all licensed sales.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a Chinese Ministry of Commerce non-confirmation response to a reported H200 sale claim. It does not establish that China prohibited imports, approved imports, denied knowledge across the government, or that no H200 shipments occurred."
+}

@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-walmart-ccpa-privacy-request-completion-2025-2026",
+  "title": "A large retailer reports privacy-request completion and denial as separate control stages",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "firm_sector_market_power"],
+  "source_unit": "Walmart corporate California privacy-rights metrics for 2025 requests, updated June 18, 2026",
+  "geography": "California residents submitting CCPA requests to Walmart",
+  "observations": [
+    {
+      "period": "2025 calendar year; company metrics updated June 18, 2026",
+      "denominator": {"value": 22480, "unit": "reported California privacy-rights request rows across access, deletion, and sale-opt-out categories; categories are not a unique-person denominator", "value_type": "company_reported_request_universe"},
+      "measures": {
+        "access_received": {"value": 1914, "unit": "requests", "value_type": "reported_requests"},
+        "access_completed": {"value": 1588, "unit": "requests", "value_type": "reported_completed_requests"},
+        "access_denied": {"value": 326, "unit": "requests", "value_type": "reported_denied_requests"},
+        "access_median_days": {"value": 42, "unit": "days", "value_type": "reported_median_completion_time"},
+        "deletion_received": {"value": 3199, "unit": "requests", "value_type": "reported_requests"},
+        "deletion_completed": {"value": 1962, "unit": "requests", "value_type": "reported_completed_requests"},
+        "deletion_denied": {"value": 1237, "unit": "requests", "value_type": "reported_denied_requests"},
+        "deletion_median_days": {"value": 22, "unit": "days", "value_type": "reported_median_completion_time"},
+        "sale_optout_received": {"value": 17367, "unit": "requests", "value_type": "reported_requests"},
+        "sale_optout_completed": {"value": 17276, "unit": "requests", "value_type": "reported_completed_requests"},
+        "sale_optout_denied": {"value": 91, "unit": "requests", "value_type": "reported_denied_requests"},
+        "individual_data_effect": {"value": "not observed", "unit": "missing person-level deletion verification, residual data, trust, switching, or wellbeing", "value_type": "unmeasured"}
+      },
+      "method": "Walmart's published CCPA metrics; received, completed, denied, and median completion time are preserved as separate administrative stages. The company says identity or authorization verification is required and lists valid exemptions as possible denial reasons.",
+      "uncertainty": "The metrics are company-reported aggregates and do not establish whether a completed request removed all relevant data, whether an individual received a satisfactory explanation, whether data reappeared, or whether the person changed provider behavior.",
+      "subgroup": "California residents and authorized agents submitting privacy requests to Walmart; the page does not provide demographic or socioeconomic subgroup outcomes.",
+      "counterinterpretation": "A high completion count can show administrative capacity while denial, verification, exemption, or residual-data rules still leave unequal practical control; an opt-out completion is not the same as deletion.",
+      "source_url": "https://corporate.walmart.com/privacy-security/california-privacy-rights/metrics",
+      "retrieval_hash": "sha256:8f793cb004f601e89b0f6ef0682817f30d40e2bfaaa5fe8c71688de02956fd38",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/", "claim": "California's DROP creates a separate multi-broker deletion route with status tracking and a 45-day processing rule.", "status": "related"}
+  ],
+  "boundary": "This record adds an account-holder administrative completion stage to the platform/data-control lane: requests, verification/denial, completion, and timing are visible in a named company report. It does not verify individual deletion, residual data, adequacy, trust, switching, or wellbeing, and it does not pool Walmart's request universe with California DROP or other companies.",
+  "retrieval_hash": "sha256:8f793cb004f601e89b0f6ef0682817f30d40e2bfaaa5fe8c71688de02956fd38"
+}

@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-opportunity-zones-community-outcomes-2026",
+  "title": "Tax incentives can attract investment without proving community improvement",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108132 review of the Opportunity Zone tax incentive, states, selected funds, and investment sites",
+  "geography": "United States designated Opportunity Zones and eligible census tracts",
+  "observations": [
+    {
+      "period": "End of 2024; national Opportunity Zone scale",
+      "denominator": {
+        "value": 1,
+        "unit": "designated Opportunity Zone program and Qualified Opportunity Fund universe described by GAO",
+        "value_type": "source_defined_program_universe"
+      },
+      "measures": {
+        "fund_assets": {"value": 108000000000, "unit": "dollars in Qualified Opportunity Fund assets", "value_type": "reported_total"},
+        "designated_tracts": {"value": "nearly 9000", "unit": "designated census tracts", "value_type": "reported_approximate_count"},
+        "population_covered": {"value": 10, "unit": "approximately percent of U.S. population living in Zones", "value_type": "reported_approximate_share"},
+        "specific_outcome_tracking": {"value": "generally not tracked by states and selected funds", "unit": "jobs, housing, and other incentive-specific outcomes", "value_type": "reported_status"}
+      },
+      "method": "GAO analysis of Treasury and IRS information, ACS data, state survey responses, fund interviews, site visits, and stakeholder interviews.",
+      "uncertainty": "The report describes program scale and information gaps but does not estimate a causal national effect on jobs, housing, income, displacement, or community wellbeing.",
+      "subgroup": "Designated low-income census tracts and Qualified Opportunity Funds; national scale measures are program-level, not household outcomes.",
+      "counterinterpretation": "Large fund assets and broad Zone coverage show investment capacity, not proof that capital reached the most distressed places or improved resident outcomes.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108132/index.html",
+      "retrieval_hash": "sha256:f32625f6742ad76d3a707b10be94d345efcb9995425855d2b72c1e49396589f1",
+      "status": "reported"
+    },
+    {
+      "period": "2025 state survey; reported awareness and perceived outcomes",
+      "denominator": {
+        "value": 24,
+        "unit": "states reporting awareness of Opportunity Zone investment in their state among 54 responses from 56 states, territories, and D.C.",
+        "value_type": "selected_state_survey_subgroup"
+      },
+      "measures": {
+        "states_reporting_jobs_or_housing_effect": {"value": 14, "unit": "states saying investment affected job creation, housing, or both", "value_type": "reported_count"},
+        "states_unsure_overall_effect": {"value": "most states", "unit": "state officials' reported uncertainty about overall effect", "value_type": "reported_summary"},
+        "investment_location_pattern": {"value": "urban locations and areas with infrastructure, ongoing development, and community support were more likely to receive investment", "unit": "reported stakeholder pattern", "value_type": "reported_comparison"}
+      },
+      "method": "GAO survey of states and interviews with state and local officials, fund representatives, and subject-matter specialists.",
+      "uncertainty": "The 14-of-24 result is conditional on states aware of investment and reflects reported perceptions rather than measured outcomes; the interview and site-visit components are not generalizable.",
+      "subgroup": "States, territories, D.C., and selected local officials aware of Opportunity Zone investment.",
+      "counterinterpretation": "Reported jobs or housing effects may reflect investment that would have occurred without the incentive, and investment may carry benefits not captured by the selected outcome questions.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108132/index.html",
+      "retrieval_hash": "sha256:f32625f6742ad76d3a707b10be94d345efcb9995425855d2b72c1e49396589f1",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; selected Qualified Opportunity Fund project status",
+      "denominator": {
+        "value": 16,
+        "unit": "selected Qualified Opportunity Funds followed up from GAO case studies",
+        "value_type": "nongeneralizable_selected_funds"
+      },
+      "measures": {
+        "all_projects_completed": {"value": 12, "unit": "funds that completed development of all planned projects", "value_type": "reported_count"},
+        "some_projects_completed": {"value": 2, "unit": "funds with some completed and some in-progress projects", "value_type": "reported_count"},
+        "mixed_completion_abandonment": {"value": 1, "unit": "fund with one project ongoing and another abandoned", "value_type": "reported_count"},
+        "no_longer_pursuing_original_incentive": {"value": 1, "unit": "fund no longer pursuing use of the original incentive", "value_type": "reported_count"},
+        "community_outcome": {"value": "not established", "unit": "resident affordability, job quality, displacement, or durable wellbeing", "value_type": "unmeasured"}
+      },
+      "method": "GAO follow-up interviews with representatives from 16 of 18 selected Qualified Opportunity Funds and site visits to selected investments.",
+      "uncertainty": "The selected funds were chosen for case studies and cannot support a national completion or outcome rate; development completion is not the same as operating success or community benefit.",
+      "subgroup": "16 selected Qualified Opportunity Funds and their planned 2021 investments.",
+      "counterinterpretation": "Completion of projects is a real implementation outcome and may create local benefits even when the report does not measure their distribution or durability.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108132/index.html",
+      "retrieval_hash": "sha256:f32625f6742ad76d3a707b10be94d345efcb9995425855d2b72c1e49396589f1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108132",
+      "claim": "GAO's product page provides official report metadata and recommendation context.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures Opportunity Zone program scale, reported state perceptions, selected fund project status, and outcome-tracking gaps. It does not establish national causal effects, job quality, housing affordability, displacement, resident experience, tax incidence, or durable community security.",
+  "retrieval_hash": "sha256:f32625f6742ad76d3a707b10be94d345efcb9995425855d2b72c1e49396589f1"
+}

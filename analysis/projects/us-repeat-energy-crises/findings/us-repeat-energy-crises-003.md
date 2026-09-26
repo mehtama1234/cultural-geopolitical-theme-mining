@@ -42,10 +42,52 @@ read as a single person-level funnel without identifiers and stage timing.
 | IHP eligibility | 35,165 eligible records, or 35.72% of IHP referrals | Decision explanation, correction, payment issuance, receipt, adequacy, and unmet loss |
 | Housing assistance | 74,609 HA referrals; 5,653 HA-eligible records; $81.27M reported HA amount | Placement, repair, rent/lodging outcome, completion, duration, and stable housing |
 | Other needs assistance | 94,152 ONA referrals; 35,083 ONA-eligible records; $101.50M reported ONA amount | Need type, timing, payment receipt, protected outcome, and repeat need |
+| Continued housing support | FEMA housing support extended through July 2027; California reported 35,000+ households assisted and $177M+ awarded by June 12, 2026 | Household-level payment, repair or permanent-housing completion, duration, adequacy, and later stability |
+| Mortgage/insurance bridge | CalAssist reported 1,100+ homeowners assisted, up to 12 months of mortgage payments and up to $100,000; state urged timely release of insurance funds | Named-home payment, insurer/lender decision, rebuild completion, debt/coverage adequacy, return, and durable housing |
 
 The ratios are descriptive ratios of published aggregate fields, not approval
 rates for unique people and not estimates of recovery. HA and ONA categories
 may overlap with IHP stages and should not be added to count unique survivors.
+
+## Later persistence and continued housing need
+
+California's June 2026 recovery update adds a later administrative stage:
+FEMA approved continued housing support through July 2027 while survivors
+rebuild. As of June 12, the state reported that more than 35,000 households
+had received assistance and that more than $177 million had been awarded. A
+January 2026 Cal OES notice also instructed survivors whose insurance living
+expenses had ended, or who had received final insurance settlements but still
+had unmet needs, to re-contact FEMA for continued rental assistance or repair
+funds.
+
+This is stronger than a one-time registration snapshot because it documents
+continued assistance and residual need over time. It still does not show which
+households received which amount, whether rental support ended in permanent
+housing, whether repairs were completed, or whether the household's work,
+health, debt, trust, and repeat-crisis position improved. Continued support is
+therefore evidence of a long recovery clock, not proof that recovery failed or
+was completed.
+
+The July 2026 California long-term housing bulletin adds a financial-control
+stage. It reports that more than 1,100 homeowners had received CalAssist
+mortgage relief of up to 12 months, with a maximum of $100,000 and no repayment
+required. It also records the Governor urging lenders to release insurance
+proceeds promptly and warning that delays or denials can hinder rebuilding.
+This shows that recovery depends not only on disaster assistance but also on
+the timing and release of insurance and mortgage funds. It still does not show
+that a named home was rebuilt, that insurance was paid, or that the household
+returned to stable housing and work.
+
+The September 2026 Recovery Support Functions bulletin adds a separate state-
+capability clock: California launched the first three FireSat wildfire-
+detection satellites, with a planned constellation of more than 50 by 2030.
+The bulletin describes faster detection and improved situational awareness as
+preparedness benefits, while the Long-Term Housing Recovery group continues
+monthly coordination. These are not the same outcome. State capacity to detect
+future fires can advance while households from the prior fire remain in rental,
+insurance, mortgage, repair, or rebuilding limbo. The bulletin contains no
+named-home completion, return, or survivor-wellbeing result, so prevention
+capability must remain separate from present recovery.
 
 ## What this adds to the atlas
 
@@ -94,6 +136,10 @@ not a survivor recovery rate.
 - [OpenFEMA RI-IHP dataset description](https://www.fema.gov/es/node/696709)
 - [Current filtered API snapshot](../data/fema-la-wildfire-ihp-api-snapshot-2026-09-19.json)
 - [GAO FEMA assistance review](https://www.gao.gov/products/gao-26-108154)
+- [California recovery update on FEMA extension](https://www.news.caloes.ca.gov/governor-newsom-welcomes-fema-extension-to-help-los-angeles-fire-survivors-continue-recovery/)
+- [California notice on continued temporary housing assistance](https://www.news.caloes.ca.gov/continued-temporary-housing-assistance-still-available-for-la-survivors/)
+- [California July 2026 Long-Term Housing Recovery bulletin](https://www.caloes.ca.gov/wp-content/uploads/Recovery/Documents/JULY-LTHR-4.pdf)
+- [California September 2026 Recovery Support Functions bulletin](https://www.caloes.ca.gov/wp-content/uploads/Recovery/Documents/RSF-Bulletin-September-2026.pdf)
 
 The retained artifact contains aggregate rows and derived ratios only. No
 survivor identifiers, raw application file, payment file, or personally

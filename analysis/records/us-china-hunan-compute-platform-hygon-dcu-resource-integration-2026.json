@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hunan-compute-platform-hygon-dcu-resource-integration-2026",
+  "title": "Hunan's provincial compute-scheduling platform adapted to Hygon DCU and connected multiple regional compute centers",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Hunan Provincial Department of Industry and Information Technology report on the provincial compute-scheduling platform",
+  "geography": "Hunan, China; Hygon DCU; provincial compute infrastructure; national supercomputing and operator data centers",
+  "observations": [
+    {
+      "period": "July 1, 2026 provincial platform report",
+      "denominator": {
+        "value": null,
+        "unit": "provincial compute-scheduling platform and named participating compute centers; capacity, usage, and customer revenue not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "platform_status": {"value": "Hunan provincial compute-scheduling platform entered trial operation", "unit": "reported public-system stage", "value_type": "reported_trial_operation"},
+        "hygon_dcu_adaptation": {"value": "platform adapted to Hygon DCU alongside Ascend 910, Zhenwu, Biren, Enflame, MetaX, and Moore Threads accelerators", "unit": "reported heterogeneous-accelerator compatibility", "value_type": "reported_platform_compatibility"},
+        "resource_access": {"value": "Changsha National Supercomputing Center, operator compute centers, and Changsha AI Innovation Center completed first-batch resource access", "unit": "named public and operator compute centers", "value_type": "reported_resource_integration"},
+        "deployment_model": {"value": "platform supports cross-center, cross-vendor, and cross-architecture mixed training and inference through standardized resource descriptions and scheduling", "unit": "reported scheduling capability", "value_type": "reported_system_capability"},
+        "usage_or_customer_effect": {"value": "not quantified", "unit": "no workload count, utilization, customer contract, revenue, model-performance, or Hygon-specific share disclosed", "value_type": "unmeasured"}
+      },
+      "method": "Review of an official Hunan Provincial Department of Industry and Information Technology report. The platform's trial operation, Hygon DCU compatibility, named compute-center resource access, and heterogeneous scheduling design are coded as external public-system integration. No Hygon-specific utilization or commercial effect is inferred.",
+      "uncertainty": "The report does not disclose how much Hygon DCU capacity was connected, which workloads ran on it, the duration or success of those workloads, resource utilization, procurement terms, or whether Hygon displaced another accelerator. First-batch resource access is an integration milestone, not proof of sustained customer adoption or capability parity.",
+      "subgroup": "Hunan provincial government, Hunan University and platform developers, Changsha National Supercomputing Center, operator compute centers, Changsha AI Innovation Center, Hygon, and domestic AI-chip suppliers",
+      "counterinterpretation": "A heterogeneous platform may increase interoperability and preserve mixed-vendor dependence rather than produce single-vendor substitution. Hygon's inclusion can reflect public procurement diversification, technical compatibility, or policy experimentation without changing market share or strategic leverage.",
+      "source_url": "http://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/jxyw/202607/t20260701_34018025.html",
+      "retrieval_hash": "sha256:0a6c03333b4e9af1590fa28734777a818d33096102bfd4fefeaf37d7c789be19",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF",
+      "claim": "Hygon's interim report describes DCU deployment across key industries and hundreds of application scenarios and adaptation to more than 400 mainstream large models.",
+      "status": "official-company-comparator"
+    },
+    {
+      "source_url": "https://www.digitalchina.gov.cn/2026/fhdt/xctyq/xctyqdt/202604/t20260418_5310330.htm",
+      "claim": "Digital China Summit exhibition materials describe Hygon DCU and Sugon/Hygon full-stack computing solutions, including NVIDIA ecosystem compatibility claims.",
+      "status": "official-public-sector-comparator"
+    }
+  ],
+  "boundary": "This record establishes external public-system compatibility and initial resource integration for Hygon DCU in Hunan. It does not establish sustained utilization, procurement value, customer adoption, performance parity, substitution, or causal geopolitical effect."
+}

@@ -1,0 +1,113 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unhcr-global-report-2025-protection-capacity-funding-access",
+  "title": "Displacement protection is increasingly constrained by funding flexibility, operational capacity, legal access, and the ability to connect aid to work and local systems",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNHCR Global Report 2025, published June 2026",
+  "geography": "UNHCR global protection and assistance operations in 2025, including refugee, asylum-seeker, internally displaced, returnee, and stateless populations",
+  "observations": [
+    {
+      "period": "2025; global humanitarian need and available resources",
+      "denominator": {
+        "value": 129400000,
+        "unit": "forcibly displaced and stateless people UNHCR aimed to protect and assist worldwide in 2025",
+        "value_type": "reported_operational_target"
+      },
+      "measures": {
+        "people_targeted": {"value": 129400000, "unit": "forcibly displaced and stateless people targeted for protection and assistance in 2025", "value_type": "reported_operational_target"},
+        "funds_available": {"value": 3932000000, "unit": "US dollars available to UNHCR in 2025", "value_type": "reported_operational_resource"},
+        "funding_coverage": {"value": 37, "unit": "percent of total needs covered by available funding in 2025", "value_type": "reported_funding_share"},
+        "funding_change": {"value": -1246000000, "unit": "US-dollar change in available resources from 2024 to 2025", "value_type": "reported_resource_change"}
+      },
+      "method": "UNHCR global operational and financial reporting on target populations, needs, available resources, expenditures, and results for 2025.",
+      "uncertainty": "A target population and funding-coverage ratio do not measure each person's receipt, adequacy, protection quality, unmet need, or the counterfactual effect of additional funds.",
+      "subgroup": "Refugees, asylum-seekers, internally displaced people, returnees, stateless people, host communities, national partners, donors, and UNHCR operations.",
+      "counterinterpretation": "Operational prioritization, national systems, community-based delivery, cash assistance, and partnerships can preserve protection despite funding contraction; aggregate coverage does not show where capacity was preserved or lost.",
+      "source_url": "https://www.unhcr.org/publications/global-report-2025",
+      "retrieval_hash": "sha256:91b8749c4879244140c276907facd569373e84f486a83cbae8a75c426bed753f",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; operational footprint and service capacity",
+      "denominator": {
+        "value": 1,
+        "unit": "UNHCR global operating footprint and workforce frame",
+        "value_type": "reported_operational_capacity_frame"
+      },
+      "measures": {
+        "emergencies_managed": {"value": 24, "unit": "emergencies managed by UNHCR in 16 countries during 2025", "value_type": "reported_emergency_count"},
+        "people_assisted": {"value": 30700000, "unit": "forcibly displaced and stateless people assisted by UNHCR in 2025", "value_type": "reported_assistance_count"},
+        "assistance_change": {"value": -16, "unit": "percent change in people assisted compared with 2024", "value_type": "reported_assistance_change"},
+        "workforce_change": {"value": -6600, "unit": "positions reduced by January 2026, more than", "value_type": "reported_workforce_change"}
+      },
+      "method": "UNHCR comparison of emergency operations, assistance reach, expenditure, and workforce footprint across reporting years.",
+      "uncertainty": "People assisted and workforce counts describe organizational reach, not the quality, continuity, or outcomes of protection services; changes can reflect prioritization, reporting, caseload composition, or delivery through partners.",
+      "subgroup": "Displaced people seeking protection and services, frontline staff, national and community partners, host institutions, and local service systems.",
+      "counterinterpretation": "Reduced direct presence may coexist with more efficient partner delivery, national-system integration, or improved targeting, while a smaller footprint can also reduce access in under-covered crises.",
+      "source_url": "https://www.unhcr.org/publications/global-report-2025",
+      "retrieval_hash": "sha256:91b8749c4879244140c276907facd569373e84f486a83cbae8a75c426bed753f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; funding flexibility, earmarking, and allocation capacity",
+      "denominator": {
+        "value": 3932000000,
+        "unit": "US dollars of UNHCR funds available in 2025",
+        "value_type": "reported_funding_denominator"
+      },
+      "measures": {
+        "funding_gap": {"value": 63, "unit": "percent gap between UNHCR's 2025 budgeted needs and available funds", "value_type": "reported_funding_gap"},
+        "tightly_earmarked_share": {"value": 44, "unit": "percent of UNHCR's overall funding portfolio that was tightly earmarked in 2025", "value_type": "reported_earmarking_share"},
+        "tightly_earmarked_change": {"value": 35, "unit": "percent increase in tightly earmarked funding from 2024 to 2025", "value_type": "reported_funding_change"},
+        "allocation_constraint": {"value": "reduced flexibility to allocate resources to urgent and unforeseen needs, including crises receiving limited media or donor attention", "unit": "reported institutional mechanism", "value_type": "reported_capacity_constraint"}
+      },
+      "method": "UNHCR financial reporting on budgeted needs, available resources, donor earmarking, expenditure, and allocation flexibility.",
+      "uncertainty": "Earmarking is not inherently ineffective, and a funding gap does not identify which people or services would have benefited from flexible funds; the mechanism is an organizational allocation constraint, not a direct welfare estimate.",
+      "subgroup": "Displaced people in high-visibility and under-covered crises, UNHCR country operations, donors, implementing partners, and host-country institutions.",
+      "counterinterpretation": "Tightly earmarked funds can protect donor priorities, support accountability, and finance specified services; flexible resources can also be difficult to govern or prioritize without clear allocation rules.",
+      "source_url": "https://www.unhcr.org/publications/global-report-2025",
+      "retrieval_hash": "sha256:91b8749c4879244140c276907facd569373e84f486a83cbae8a75c426bed753f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; protection, legal status, work access, and durable pathways",
+      "denominator": {
+        "value": 1,
+        "unit": "UNHCR protection, livelihood, legal-access, and durable-solutions program frame",
+        "value_type": "reported_protection_pathway_frame"
+      },
+      "measures": {
+        "protection_services": {"value": 16500000, "unit": "people receiving protection services in 137 countries in 2025", "value_type": "reported_service_reach"},
+        "legal_work_policy_case": {"value": 81000, "unit": "refugees from nine camps in Thailand covered by a 2025 policy allowing access to jobs across much of the country", "value_type": "reported_policy_reach"},
+        "resettlement_departures": {"value": 37000, "unit": "refugees supported by UNHCR to depart for resettlement in third countries in 2025, more than", "value_type": "reported_durable_solution_count"},
+        "pathway_mechanisms": {"value": "legal work, documentation, cash assistance, national education and health systems, resettlement, complementary pathways, and local integration", "unit": "reported protection-to-opportunity mechanism set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "UNHCR results reporting across protection services, legal aid, work-access policy, resettlement, complementary pathways, and local integration.",
+      "uncertainty": "Service reach, policy coverage, and departures do not establish individual receipt, safety, income adequacy, family reunification, durable integration, or equal access across displaced populations.",
+      "subgroup": "Refugees, asylum-seekers, internally displaced people, children, women, people with specific needs, host communities, employers, national authorities, and legal-service providers.",
+      "counterinterpretation": "Legal work and national-system access can widen autonomy and reduce aid dependence, while documentation, discrimination, geographic separation, and limited quotas can leave formal pathways inaccessible to many.",
+      "source_url": "https://www.unhcr.org/publications/global-report-2025",
+      "retrieval_hash": "sha256:91b8749c4879244140c276907facd569373e84f486a83cbae8a75c426bed753f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unhcr.org/global-trends", "claim": "UNHCR Global Trends 2025 population statistics provide the displacement context for the operational report."},
+    {"source_url": "https://www.unhcr.org/about-unhcr/planning-funding-and-results/contributions", "claim": "UNHCR funding updates provide donor and contribution context for the 2025 financial results."}
+  ],
+  "boundary": "This record adds a displacement-to-protection-capacity-to-access route linking humanitarian funding, earmarking, staffing, legal status, work access, national systems, and durable pathways. It is not respondent-level data, an individual service-receipt file, a causal estimate of funding effects, or proof that formal access became safe, adequate, durable, or equally distributed.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNHCR Global Report 2025 page was reviewed; target population, funding, coverage, emergency operations, assistance reach, workforce change, earmarking, protection services, work-access policy, resettlement, and institutional-boundary claims were cross-checked.",
+    "source_url_sha256": "sha256:91b8749c4879244140c276facd569373e84f486a83cbae8a75c426bed753f",
+    "checked": "2026-09-26"
+  }
+}

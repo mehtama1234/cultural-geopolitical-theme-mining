@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-osu-idea-constituent-engagement-responsiveness-2025",
+  "title": "Interest in congressional engagement coexists with contact barriers and weak perceived responsiveness",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Ohio State University Institute for Democratic Engagement and Accountability Constituent Engagement Survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "August 20–October 2, 2025",
+      "denominator": {
+        "value": 1001,
+        "unit": "U.S. adults in a weighted online-panel survey; weights use 2023 ACS demographic and 2025 NPORS partisan benchmarks",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "congress_trust_most_of_time": {"value": 14, "unit": "percent trusting Congress to do what is right most of the time", "value_type": "published_share"},
+        "contacted_member_last_year": {"value": 21.7, "unit": "percent reporting contact or attempted contact with a House or Senate member in the past year", "value_type": "published_share"},
+        "representative_interested_in_respondent": {"value": 64.9, "unit": "percent saying their congressional representatives are very or somewhat interested in what they have to say", "value_type": "published_share"},
+        "would_like_to_talk_important_issues": {"value": 72.1, "unit": "percent agreeing people like them would like to talk about important issues with Members of Congress", "value_type": "published_share"},
+        "noncontact_member_does_not_care": {"value": 40.5, "unit": "percent among respondents who had not contacted a member, citing that members do not care about concerns like theirs", "value_type": "published_conditional_share", "valid_n": 782},
+        "noncontact_too_difficult": {"value": 37.1, "unit": "percent among noncontact respondents citing difficulty", "value_type": "published_conditional_share", "valid_n": 782},
+        "noncontact_member_will_not_change_mind": {"value": 34.7, "unit": "percent among noncontact respondents citing expected nonresponsiveness", "value_type": "published_conditional_share", "valid_n": 782},
+        "noncontact_too_time_consuming": {"value": 21.7, "unit": "percent among noncontact respondents citing time cost", "value_type": "published_conditional_share", "valid_n": 782},
+        "contacted_subgroup_email": {"value": 50.2, "unit": "percent among the 219 respondents who contacted Congress, reporting email use", "value_type": "published_conditional_share", "valid_n": 219},
+        "contacted_subgroup_in_person_town_hall": {"value": 15.6, "unit": "percent among the contacted subgroup, reporting in-person town-hall attendance", "value_type": "published_conditional_share", "valid_n": 219},
+        "ai_chatbot_effective_or_very_effective": {"value": 21, "unit": "approximately percent rating an AI chatbot as effective for congressional communication", "value_type": "published_chart_estimate"}
+      },
+      "method": "Weighted descriptive survey designed by IDEA with the House Administration Subcommittee on Modernization and Innovation and House Digital Services; PureSpectrum administered an online panel survey, with full-sample margin of sampling error reported as plus or minus 3.1 percentage points. Contact modality estimates are restricted to 219 respondents who reported contact.",
+      "uncertainty": "This is a snapshot of self-reported opinions and behavior from an online panel; weighting does not remove nonresponse, coverage, recall, or social-desirability bias. The full-sample margin does not apply to subgroup estimates. Contacting is not verified, perceived interest is not an office response, and stated willingness is not follow-through.",
+      "subgroup": "Full weighted adult sample; noncontact barriers use n=782 and contact modalities use n=219. The report also discusses age, education, income, party, and channel differences, but the retained measures keep the denominators visible.",
+      "counterinterpretation": "People may report willingness while anticipating low payoff, and people who contact Congress may differ in education, time, political interest, resources, or social networks. Perceived congressional interest may reflect general optimism, party alignment, or prior contact rather than actual office behavior.",
+      "source_url": "https://democracyinstitute.osu.edu/sites/default/files/2025-12/IDEA_CongressTechReport_0.pdf",
+      "retrieval_hash": "sha256:0a81a369d9288837523fb140bbb954917b489804b4fffd96f5bf7ad3f36eeebe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://docs.house.gov/meetings/HA/HA27/20251217/118781/HHRG-119-HA27-Wstate-NebloM-20251217.pdf",
+      "claim": "Congressional testimony summarizes the same survey's barriers, contact estimate, willingness, and two-way communication implications.",
+      "status": "official-testimony-context"
+    }
+  ],
+  "boundary": "This record closes a descriptive contact-to-perceived-responsiveness layer for congressional engagement. It does not observe a constituent's actual office response, issue resolution, policy influence, satisfaction, remedy, later trust change, or durable political action, and it is not a verified contact log.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Ohio State IDEA technical report PDF downloaded and hashed; House testimony cross-checked for the core findings.",
+    "checked": "2026-09-25"
+  }
+}

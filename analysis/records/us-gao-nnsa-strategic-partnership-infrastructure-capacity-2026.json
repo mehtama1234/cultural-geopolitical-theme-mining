@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-nnsa-strategic-partnership-infrastructure-capacity-2026",
+  "title": "Shared federal facilities can convert specialized infrastructure into mission work and cost recovery while creating capacity dependence",
+  "theme_ids": ["energy", "voice", "cost"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "geopolitical_state_consequences", "firm_sector_market_power", "public_systems_feedback", "household_room_consumption"],
+  "source_unit": "GAO review of National Nuclear Security Administration Strategic Partnership Projects using NNSA and contractor data, site visits, interviews, and selected agreement review",
+  "geography": "Eight NNSA sites in the United States; detailed site visits at Kansas City, Livermore, Los Alamos, Nevada, and Sandia",
+  "observations": [
+    {
+      "period": "Fiscal years 2019-2024 strategic partnership activity",
+      "denominator": {"value": 8, "unit": "NNSA sites conducting Strategic Partnership Projects; enterprise-wide project and reimbursed-cost data", "value_type": "reported_site_universe"},
+      "measures": {
+        "total_reimbursed_costs": {"value": 15000000000, "unit": "approximately US dollars in constant FY2024 dollars across more than 20,000 agreements", "value_type": "reported_reimbursed_costs"},
+        "annual_reimbursed_activity": {"value": "between $2 billion and $3 billion per year", "unit": "constant FY2024 dollars", "value_type": "reported_annual_range"},
+        "national_security_share": {"value": 72, "unit": "percent of agreements categorized by NNSA as national-security related", "value_type": "reported_category_share"},
+        "partner_mission_dependence": {"value": "all nine interviewed federal partners said SPP was essential to completing their mission; some capabilities were described as available only at NNSA sites", "unit": "interviewed partner assessment", "value_type": "reported_interview_result"},
+        "mission_or_public_outcome": {"value": "not established as a linked outcome across projects", "unit": "missing project-level capability, service, public-benefit, or external-response endpoint", "value_type": "unmeasured"}
+      },
+      "method": "GAO analysis of NNSA and contractor data, documentation, five site visits, interviews, and a nongeneralizable sample of 13 agreements; constant FY2024 dollars used for trend comparisons.",
+      "uncertainty": "The project sample is not generalizable to all agreements, partner-essentiality is interview evidence, and reimbursed work does not itself establish mission performance, public benefit, strategic autonomy, or external response.",
+      "subgroup": "NNSA sites, federal and nonfederal SPP partners, NNSA and contractor staff, and specialized facility users; public households and affected communities are not directly observed.",
+      "counterinterpretation": "Shared use can preserve specialized capabilities and reduce idle capacity without proving that every project advanced core missions; mission dependence may reflect lack of substitutes rather than efficient or equitable allocation.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108229/index.html",
+      "retrieval_hash": "sha256:7b32bde5a555edf60596e2a45e5bd715366ec47d6035949642c920662d932fda",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2024 indirect-cost and capacity observation",
+      "denominator": {"value": 8, "unit": "NNSA sites; indirect-cost table covers seven sites with available percentages", "value_type": "reported_site_universe"},
+      "measures": {
+        "indirect_costs_reimbursed": {"value": 1400000000, "unit": "approximately US dollars received from SPP partners in FY2024", "value_type": "reported_indirect_costs"},
+        "indirect_cost_share": {"value": 52, "unit": "percent of $2.66 billion total SPP reimbursed costs in the table; seven sites ranged from 44% to 57%", "value_type": "reported_cost_share"},
+        "facility_utilization": {"value": "SPP increased use of existing specialized facilities and systems and contributed to maintenance and operations", "unit": "reported operational effect", "value_type": "reported_operational_effect"},
+        "capacity_constraint": {"value": "some sites limited or reduced SPP growth because of competing mission work, infrastructure, or personnel pressure", "unit": "reported capacity boundary", "value_type": "reported_constraint"},
+        "public_cost_and_mission_outcome": {"value": "not verified", "unit": "missing counterfactual public cost, facility condition, project quality, household effect, or later mission result", "value_type": "unmeasured"}
+      },
+      "method": "GAO analysis of FY2024 site-level reimbursed and indirect-cost data plus interviews about shared facilities, staffing, maintenance, and the effects of rebalancing partnership work.",
+      "uncertainty": "Savannah River indirect costs were unavailable; cost recovery and utilization are not the same as net savings, facility condition, public value, or successful mission delivery.",
+      "subgroup": "NNSA programs, SPP partners, site personnel, and facility/capability budgets; no household-level ratepayer or resident incidence is reported.",
+      "counterinterpretation": "Partner-funded overhead may reduce costs borne by NNSA programs while also consuming scarce staff and facilities; a higher utilization rate can coexist with congestion or reduced flexibility for core work.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108229/index.html",
+      "retrieval_hash": "sha256:7b32bde5a555edf60596e2a45e5bd715366ec47d6035949642c920662d932fda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes realized shared use of specialized federal infrastructure, partner dependence, reimbursed work, indirect-cost recovery, and capacity constraints. It does not establish net savings, project quality, facility condition, public household benefit, equitable allocation, delivered mission capability, substitute availability, or changed geopolitical leverage."
+}

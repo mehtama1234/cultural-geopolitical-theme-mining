@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-nonrival-custom-software-firm-scope-concentration-2026",
+  "title": "Software that can be reused across establishments can make larger firm scope more attractive",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-28 using confidential Annual Capital Expenditure Survey data and a calibrated firm-scope model",
+  "geography": "United States; firms and establishments in confidential Census data, with modeled implications for long-run U.S. firm scope and concentration",
+  "observations": [{
+    "period": "Long-run U.S. firm and technology trends; empirical data and calibrated model reported April 2026",
+    "denominator": {"value": 1, "unit": "Census CES working paper combining confidential firm-level capital-expenditure evidence with a calibrated model", "value_type": "study_unit"},
+    "measures": {
+      "input_property": {"value": "custom software is non-rival and can be used simultaneously across many establishments", "unit": "production-input characteristic", "value_type": "reported_definition"},
+      "adoption_scope": {"value": "firms with more establishments are more likely to invest in custom software", "unit": "firm-level relationship", "value_type": "reported_relationship"},
+      "investment_intensity": {"value": "multi-establishment firms spend less on custom software as a share of total capital expenditure", "unit": "capital-expenditure share relationship", "value_type": "reported_relationship"},
+      "mechanism": {"value": "firms balance the cost of managing multiple establishments against increasing returns from reusable software", "unit": "modeled firm-scope mechanism", "value_type": "model_mechanism"},
+      "macro_implication": {"value": "declining rental rates for custom software can account for part of increases in firm scope and concentration in the calibrated model", "unit": "modeled macroeconomic implication", "value_type": "model_result"}
+    },
+    "method": "The authors analyze confidential Annual Capital Expenditure Survey evidence and develop and calibrate a model in which firms choose custom-software adoption, investment intensity, and number of establishments.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The paper's broad concentration implications are model-based and depend on calibration and assumptions; the abstract does not establish effects on prices, wages, jobs, service quality, privacy, or consumer choice.",
+    "subgroup": "Single- and multi-establishment firms, firms adopting custom software, and markets in which reusable digital capital changes the cost of managing scope.",
+    "counterinterpretation": "Larger firms may adopt software because they already have better management, capital, or market opportunities; software may be one contributor rather than the cause of concentration. Greater scope can produce efficiencies as well as bargaining or dependency concerns, and the source does not determine which occurs for workers or consumers.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-28.html",
+    "retrieval_hash": "sha256:bddeccb0a2f87ec0fa521d1e14e123adafc8ee86d9ae49b90886c9607167ce1f",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-28.pdf", "claim": "The official paper contains the empirical capital-expenditure analysis, model, calibration, and long-run implications.", "status": "official-paper-context"}],
+  "boundary": "This record adds a technology-to-firm-scope mechanism. It does not establish that custom software caused observed concentration in every industry, or that larger scope changes wages, employment, prices, privacy, service quality, political power, or consumer welfare in a particular market.",
+  "retrieval_hash": "sha256:bddeccb0a2f87ec0fa521d1e14e123adafc8ee86d9ae49b90886c9607167ce1f"
+}

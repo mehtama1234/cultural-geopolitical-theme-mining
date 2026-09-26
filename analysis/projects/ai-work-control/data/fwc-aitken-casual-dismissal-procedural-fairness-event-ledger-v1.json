@@ -1,0 +1,86 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Bounded Fair Work Commission case linking regular-casual work, customer/service conflict, neurodivergence disclosure, abrupt dismissal, and an unfair-dismissal finding while preserving the unresolved remedy and later-work stages.",
+  "events": [
+    {
+      "event_id": "FWC-AITKEN-CASUAL-DISMISSAL-2025-02-24",
+      "unit": "worker",
+      "geography": "Perth, Western Australia; Fair Work Commission U2024/9845",
+      "actor_initiating_change": "employer",
+      "event_date": "2024-08-01",
+      "date_precision": "employment ran February 2023 to dismissal on 1 August 2024; decision dated 24 February 2025",
+      "denominator": "One publicly adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision [2025] FWC 561",
+      "missingness": "Private payroll and household records, exact lost earnings, remedy outcome, payment or reinstatement, alternative work, and later livelihood are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "A regular casual nail technician worked every week, usually 16 to 23 hours, and was dismissed after disputed complaints about client service, language, booking changes, and service timing",
+      "alternatives_before_action": "The public record does not identify another job, household buffer, client-base alternative, or practical substitute income before the application",
+      "immediate_burden_or_benefit": "Dismissal removed a regular and systematic work route; the decision also records that the worker disclosed neurodivergence and masking difficulties, while the employer did not give a formal warning or opportunity to respond before dismissal",
+      "choice_or_response": "The worker represented herself, supplied payslips and messages, challenged jurisdiction and fairness, and pursued the unfair-dismissal remedy route",
+      "person_or_actor_with_control": "The employer controlled roster, client allocation, warnings, and dismissal; the worker controlled evidence and application; the Commission controlled the jurisdictional and fairness finding and later remedy process",
+      "remedy_or_institutional_response": "The Commission found the worker was a regular casual protected by the unfair-dismissal jurisdiction and that the dismissal was harsh, unjust, and unreasonable; remedy was deferred for further evidence and conciliation",
+      "remedy_receipt": "No payment, reinstatement, compensation, or settlement is established in this merits decision",
+      "durability_followup": "The public record reaches the unfair-dismissal finding but not the later remedy, return, alternative employment, earnings recovery, or trust outcome",
+      "immediate_outcome": "The worker obtained a formal unfair-dismissal finding, while the practical remedy remained unresolved in the decision",
+      "protected_outcome": "The decision protected recognition of regular-casual status and procedural fairness at the adjudication stage; income continuity and future work were not yet protected",
+      "sacrificed_outcome": "The worker lost a regular work route and carried the evidence and application burden; household, health, and later-career effects are unknown",
+      "cost_risk_transfer": "The employer's dismissal shifted income and procedural risk to the worker; the Commission route shifted legal accountability back toward the employer without yet establishing practical recovery",
+      "later_outcome": "The official decision records an unfair-dismissal finding and directs a separate remedy process; no later payment, return, replacement work, household recovery, trust, or exit endpoint is public in this record",
+      "meaning_and_attribution": "The case connects service-performance judgment and neurodivergence/masking to a disputed employment decision; the Commission attributes unfairness to lack of valid reason and procedural fairness, not to a standardized cultural meaning measure",
+      "public_or_collective_response": "Individual self-represented tribunal participation is observed; no collective or political response is reported",
+      "counterexample": "A worker can have regular hours and a formal unfair-dismissal finding while practical income restoration and remedy receipt remain unresolved",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2025] FWC 561, https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc561.pdf; the decision establishes the merits finding and deferred remedy process but not later implementation",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc561.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-AITKEN-CASUAL-A-01",
+      "from": "regular casual work and disputed service-performance conflict",
+      "to": "dismissal without formal warning or adequate opportunity to respond",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records weekly regular work, disputed complaints, dismissal on 1 August 2024, and no valid reason or procedural fairness",
+      "status": "observed",
+      "counterexample": "A complaint record does not itself establish that dismissal was necessary or that another job was available",
+      "remaining_gap": "Prior warnings, employer comparison, alternative work, and household buffer"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-CASUAL-A-02",
+      "from": "dismissal and disputed worker classification",
+      "to": "regular-casual status and unfair-dismissal jurisdiction",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission examined 85 payslips, found weekly regular and systematic work, and held that the worker was protected by the jurisdiction",
+      "status": "observed",
+      "counterexample": "Legal recognition of status does not restore lost shifts or income",
+      "remaining_gap": "Lost earnings, benefits, replacement work, and practical access"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-CASUAL-A-03",
+      "from": "merits hearing and unfair-dismissal finding",
+      "to": "separate remedy process and conciliation direction",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found unfair dismissal and stated that neither party supplied enough material to determine remedy, directing further submissions and member-assisted conciliation",
+      "status": "observed",
+      "counterexample": "A successful merits finding can still leave remedy amount, timing, and form undecided",
+      "remaining_gap": "Remedy amount, payment or reinstatement, receipt, adequacy, and implementation"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-CASUAL-A-04",
+      "from": "unfair-dismissal finding and deferred remedy",
+      "to": "later livelihood, trust, recovery, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The decision ends before the separate remedy process and does not report later employment or household outcomes",
+      "status": "open",
+      "counterexample": "Recognition of procedural unfairness is not the same as restored income, dignity, or durable work access",
+      "remaining_gap": "Final remedy, receipt, alternative work, earnings, health, household security, trust, recurrence, and exit"
+    }
+  ],
+  "boundary": "This ledger adds a contemporary small-firm and neurodivergence-sensitive employment case that closes regular-work exposure through merits adjudication but leaves the practical remedy and later livelihood stages open.",
+  "storage_boundary": "No private payroll, medical, household, client, or employment file is retained; only bounded public decision fields, dates, findings, uncertainty, and open downstream arrows are represented."
+}

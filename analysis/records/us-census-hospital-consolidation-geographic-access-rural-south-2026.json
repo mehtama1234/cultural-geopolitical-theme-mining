@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-hospital-consolidation-geographic-access-rural-south-2026",
+  "title": "Hospital capacity can grow in aggregate while local geographic access shrinks",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "housing_place_mobility", "care_health_reproduction", "firm_sector_market_power", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "CES-26-51 study of hospital establishments, employment, size, ownership, and county-level geographic distribution using Census Longitudinal Business Database microdata",
+  "geography": "United States; establishment-level panel for 1987-2019, with Census-region, South/rest-of-country, and metropolitan/micropolitan/rural county comparisons",
+  "observations": [
+    {
+      "period": "1987-2019; paper published August 2026",
+      "denominator": {"value": 1, "unit": "study-defined hospital establishment with at least 50 employees and county-level hospital-access universe", "value_type": "study_defined_universe"},
+      "measures": {
+        "hospital_count": {"value": "Hospital establishments peaked at more than 6,400 in 1988 and fell by more than 20% to about 5,040 in 2010, followed by a modest increase through 2019", "unit": "establishments with at least 50 employees", "value_type": "reported_trend"},
+        "hospital_employment": {"value": "Hospital employment rose from just under 4 million in 1987 to almost 5.6 million in 2019, an increase of more than 40%", "unit": "hospital employees", "value_type": "reported_trend"},
+        "average_size": {"value": "Average hospital employment increased by about 75% over the study period", "unit": "employees per hospital establishment", "value_type": "reported_trend"},
+        "counties_without_hospital": {"value": "The share of U.S. counties with no hospital increased by 3.6 percentage points; in the decade beginning 2009, 26.9% of Southern counties and 19.7% of counties outside the South had no hospital", "unit": "share of counties with zero study-defined hospitals", "value_type": "reported_comparison"},
+        "rural_access": {"value": "In the decade beginning 2009, 39.2% of rural Southern counties and 30.1% of rural counties elsewhere had zero study-defined hospitals", "unit": "share of rural counties with zero study-defined hospitals", "value_type": "reported_comparison"},
+        "south_change": {"value": "The South lost about 16.7% of hospital establishments while hospital employment rose 57.9% and average hospital size rose 89.5%", "unit": "regional change over study period", "value_type": "reported_comparison"}
+      },
+      "method": "Descriptive analysis of Census Longitudinal Business Database establishment-level hospital records from 1987-2019. Hospitals are defined as NAICS 622 establishments with at least 50 employees. The study tracks openings, closings, persistent last-hospital closures, employment, size, ownership, Census region, and OMB metropolitan/micropolitan/rural status.",
+      "uncertainty": "The study measures establishments and employment, not patient encounters, travel time, quality, prices, insurance acceptance, staffing adequacy, or health outcomes. A county with no hospital may still have nearby access through commuting, neighboring counties, emergency transport, outpatient facilities, or telehealth. The authors infer consolidation from establishment and employment patterns but do not directly observe all mergers and acquisitions or prove that consolidation caused access loss.",
+      "subgroup": "Census regions, South versus rest of country, metropolitan/micropolitan/rural counties, hospital ownership categories, and counties with zero, one, or two-plus study-defined hospitals; county population size and commuting catchments are not fully resolved by the zero-hospital measure.",
+      "counterinterpretation": "Fewer establishments with more employees can reflect economies of scale, service reorganization, coding or ownership changes, or hospitals serving larger catchment areas rather than uniformly worse care. Telehealth and broadband could offset some distance, while lack of broadband, insurance, transport, or emergency capacity could make the same virtual option unusable. The paper's discussion of future policy effects is conjectural rather than an observed policy estimate.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-51.html",
+      "retrieval_hash": "sha256:98f2e9264cccaa298ce3e20b27b025d483d876e67016a32cfd0a329be734678e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds an infrastructure-capacity-to-geographic-access pathway. It does not establish patient-level access, quality, affordability, emergency outcomes, health inequality, hospital financial cause, telehealth substitution, or household and political response."
+}

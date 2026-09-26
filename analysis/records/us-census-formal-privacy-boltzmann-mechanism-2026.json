@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-formal-privacy-boltzmann-mechanism-2026",
+  "title": "A proposed privacy mechanism trades some exactness for controlled public data access",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "Census Center for Enterprise Dissemination working paper proposing a Boltzmann Machine Privacy Framework for differential privacy",
+  "geography": "United States statistical-disclosure context; theoretical framework with histogram proof of concept",
+  "observations": [
+    {
+      "period": "Formal-privacy framework published May 2026",
+      "denominator": {"value": 1, "unit": "theoretical privacy mechanism and histogram proof of concept", "value_type": "study_unit"},
+      "measures": {
+        "mechanism": {"value": "the framework uses Markov-chain sampling and a logistic acceptance function to produce noisy versions of a ground-truth discrete dataset", "unit": "proposed mechanism", "value_type": "model_definition"},
+        "privacy_convergence": {"value": "the proposed mechanism satisfies approximate differential privacy and converges toward pure differential privacy as the number of iterations increases", "unit": "mathematical property", "value_type": "proved_property"},
+        "privacy_parameter": {"value": "the paper relates epsilon to the temperature parameter and sensitivity as epsilon(t) = 2s/t", "unit": "formal relationship", "value_type": "derived_relationship"},
+        "application": {"value": "the framework is demonstrated with histograms as a proof of concept", "unit": "illustrative application", "value_type": "proof_of_concept"}
+      },
+      "method": "The paper defines a configuration space, candidate-generation scheme, Markov-chain mechanism, and temperature/privacy relationship, then applies the proposed framework to histogram data.",
+      "uncertainty": "This is a Census working paper on a proposed mathematical framework, not an official Census policy, population estimate, field evaluation, or demonstrated privacy improvement. The abstract does not establish utility, runtime, disclosure risk in operational Census products, user comprehension, or downstream policy effects.",
+      "subgroup": "Discrete datasets and histogram-style statistical products; no person, household, firm, or demographic outcome subgroup is observed.",
+      "counterinterpretation": "Adding noise can protect confidentiality but can also reduce accuracy, obscure small groups, or alter public interpretation. A mathematical privacy guarantee does not by itself show acceptable utility, equitable error, practical security, or public trust.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/ced-wp-2026-002.html",
+      "retrieval_hash": "sha256:948f7709d97bde5cf0abfaf317f3829f1d6d8f21c44bedcd917c8d24e2bce708",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/about/policies/privacy/statistical_safeguards/working-papers.html", "claim": "Census identifies the paper as part of its disclosure-avoidance working-paper series; the series is intended for research discussion and is not an official policy endorsement.", "status": "official-series-context"}
+  ],
+  "boundary": "This record adds a formal privacy-mechanism pathway between confidential data and public statistical access. It does not establish operational privacy, data utility, equal error, user understanding, public trust, or effects on political, household, firm, or institutional decisions."
+}

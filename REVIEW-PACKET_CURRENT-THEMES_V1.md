@@ -1,13 +1,13 @@
 # Current themes review packet v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-24
 **Purpose:** a short review route through the atlas's strongest current
 writeups and the end-to-end arrows they do—and do not—support.
-**Registry checkpoint:** 344 canonical records, 1214 observations, 14 program
+**Registry checkpoint:** 1012 canonical records, 2353 observations, 14 program
 themes; the latest verification additions are the [SIPP subgroup-conditioned
 work-direction record](analysis/records/us-sipp-resource-work-direction-subgroups-2024.json),
 [Grubhub remedy-distribution finding](analysis/findings/us-grubhub-platform-remedy-001.md),
-the [broad theme coverage audit](analysis/data/us-broad-theme-end-to-end-coverage-audit-2026-09-17.json),
+the [broad theme coverage audit](analysis/US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md),
 the [SNAP reason-to-food-security record](analysis/records/us-sipp-snap-transition-reason-following-food-security-2024.json),
 the [MEPS inter-round payment audit](analysis/projects/us-health-cost-household-choice/meps-2024-interround-payment-reproduction-audit-2026-09-16.md),
 and [CFPB route recheck](analysis/projects/us-customer-automation-recourse/cfpb-route-vintage-recheck-2026-09-15.md).
@@ -32,6 +32,13 @@ bounded finding and then identifies the next missing observation. The atlas
 keeps separate units, clocks, denominators, and uncertainty rather than
 turning adjacent evidence into one causal story.
 
+For the plain-language cross-domain picture, read the [current theme pulse](analysis/US-BROAD-CURRENT-THEME-PULSE_V1.md).
+It keeps the project centered on broad cultural, social, political, consumer,
+institutional, firm, infrastructure, and geopolitical patterns rather than on
+any single remedy or household route.
+For concrete examples rather than only the organizing patterns, see the
+[interesting findings brief](analysis/US-BROAD-INTERESTING-FINDINGS_V1.md).
+
 The current [provisional trend register](analysis/US-PROVISIONAL-SOCIETAL-TRENDS_V1.md)
 now adds a cultural-political trend on **national pessimism and personal hope**:
 current dissatisfaction, long-run institutional expectations, personal future
@@ -40,6 +47,16 @@ separate currencies. The source memo and trend row do not imply that mood
 causes disengagement, consumption change, migration, or political action.
 
 ## Latest detailed deep dives
+
+- [Mortgage lock-in can turn a rate shock into constrained staying](analysis/projects/us-nber-mortgage-lockin-housing-mobility-2022-2024/findings/us-nber-mortgage-lockin-housing-mobility-2022-2024-001.md): a financial-property pathway from rate conditions to staying and altered housing mobility.
+
+- [A granted workplace change is an access stage, not proof of worker control](analysis/projects/us-bls-worker-requested-changes-control-2024-2025/findings/us-bls-worker-requested-changes-control-2024-2025-001.md): worker requests and employer-grant outcomes paired with job-level pause, pace, and schedule structure.
+
+- [A refund sent is not the same as a remedy used](analysis/projects/us-ftc-refund-cashing-reissue-funnel-2024/findings/us-ftc-refund-cashing-reissue-funnel-2024-001.md): FTC payment cashing and reissue stages, with adequacy and durable recovery still open.
+
+- [A hurricane can move climate policy and still create electoral risk](analysis/projects/us-nber-hurricane-climate-policy-electoral-accountability-2026/findings/us-nber-hurricane-climate-policy-electoral-accountability-2026-001.md): a district/representative disaster-to-policy-to-election sequence that leaves household meaning and recovery open.
+
+- [Taiwan's reciprocal-trade response creates a capacity promise without proving replacement](analysis/projects/us-ustr-taiwan-reciprocal-trade-capacity-response-2026/findings/us-ustr-taiwan-reciprocal-trade-capacity-response-2026-001.md): a dated partner-response stage after Taiwan-linked domestic semiconductor realization, with implementation and leverage still open.
 
 These are the newest long-form writeups added to the broad program. Each
 follows a distinct mechanism while stating its evidence boundary:
@@ -56,6 +73,93 @@ follows a distinct mechanism while stating its evidence boundary:
 - [Disaster policy redistributes recovery, access, and legitimacy—not just liquidity](analysis/projects/us-small-business-disaster-liquidity/findings/us-disaster-recovery-policy-end-to-end-synthesis-001.md): firm survival, owner buffers, customer access, resident fairness, and the open remedy/action chain.
 - [Expanding a small-business boundary can redistribute opportunity toward scale](analysis/projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md): eligibility expansion, contract reallocation, small-firm exit, wages, patenting, and the still-open customer/household consequences.
 - [Practical exit observability audit](analysis/projects/us-customer-automation-recourse/practical-exit-observability-audit-v1.md): remedies across benefits, platforms, fraud, finance, insurance, local services, and product recalls.
+
+### Latest post-crash rotation, grouped by mechanism
+
+- **Usable access before visible outcomes:** [disability health-care
+  accessibility](analysis/projects/us-aging-care-strain/findings/us-aging-care-strain-016.md)
+  and [formal access/control across disability programs and AI work](analysis/projects/ai-work-control/formal-access-control-cross-domain-synthesis-v1.md)
+  show that interface fit, permission, language, technology, training, and task
+  control can shape participation before employment, productivity, or recovery
+  is measured.
+- **Material pressure as navigation work:** [HTOPS cross-lagged search
+  finding](analysis/projects/us-consumer-culture/findings/us-consumer-culture-004.md)
+  and [income-stratified search finding](analysis/projects/us-consumer-culture/findings/us-consumer-culture-005.md)
+  show more job, food, benefit, housing, medical, and credit search under
+  expense difficulty, while completion, usable alternatives, and recovery stay
+  open.
+- **Remedy implementation versus lived recovery:** [IER worker remedy
+  finding](analysis/projects/ai-work-control/findings/ai-work-control-107.md),
+  [AI distribution synthesis](analysis/projects/ai-work-control/findings/ai-work-control-110.md),
+  and [Mudiyanselage worker episode](analysis/projects/ai-work-control/findings/ai-work-control-113.md)
+  sharpen payment, process change, access, trust, and exit as separate
+  currencies rather than one remedy-success endpoint. The [worker-remedy
+  follow-up recheck](analysis/projects/ai-work-control/near-complete-remedy-followup-recheck-2026-09-19.md)
+  adds an appellate reinstatement comparator: legal confirmation of the remedy
+  still does not document actual return, payment receipt, later tenure, or
+  restored trust.
+  The [FWO Atkins truck-driver case](https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed)
+  adds the opposite comparator: ten workers were reported to have actually
+  received back-pay after appeal funds were released, while household
+  adequacy, later work, trust, and durable security remain unobserved.
+- **Meaning, place, and mobility:** [Latino mobility and belonging
+  finding](analysis/projects/us-immigration-local-demand/findings/us-immigration-local-demand-004.md)
+  keeps relational progress, future hope, identity centrality, and perceived
+  identity advantage separate from linked income mobility or assimilation.
+- **Consumer redress reachability:** the [CFPB and FTC repeat-refund
+  findings](analysis/projects/us-customer-automation-recourse/ftc-repeat-refund-recipient-gate-synthesis-v1.md)
+  add reissue, prior-cashing, and repeat-distribution conditions while leaving
+  final receipt, adequacy, account correction, trust, and exit open.
+- **Public support versus household security:** the [SNAP transition,
+  work-capacity, and children finding](analysis/projects/us-safety-net-access/findings/us-safety-net-access-018.md)
+  shows that stable receipt can coexist with different rent and utility
+  exposure; the [FEMA assistance-visibility finding](analysis/projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-003.md)
+  shows that registration, eligibility, and reported aid can precede visible
+  survivor-level repair or stable housing.
+- **Different clocks of material security:** the [poverty/Medicaid
+  clock-divergence finding](analysis/projects/us-safety-net-access/findings/us-safety-net-access-020.md)
+  separates group-level poverty improvement from public-coverage continuity,
+  while the [income-distribution finding](analysis/projects/us-household-financial-pressure/findings/us-household-financial-pressure-014.md)
+  separates a record median from movement in the lower and upper tails.
+- **Care as social infrastructure:** the [care/living-arrangements finding](analysis/projects/us-aging-care-strain/findings/us-aging-care-strain-003.md)
+  shows that multigenerational living and paid/unpaid care can protect people
+  while transferring costs into gendered time, housing, mobility, and work.
+- **Goodwill versus usable community protection:** the [neighbor reciprocity
+  finding](analysis/projects/us-cost-trust-politics/findings/us-cost-trust-politics-044.md)
+  separates willingness to help from expected support, delivered aid,
+  adequacy, and durable trust.
+- **Domestic allocation versus strategic power:** the [Polish SAFE
+  defense-industrial finding](analysis/projects/ai-work-control/findings/ai-work-control-118.md)
+  shows that contracts and domestic supplier allocation can precede delivered,
+  trained, replaceable capability and observed external leverage.
+- **Law versus operating protection:** the [platform deactivation protection
+  finding](analysis/projects/ai-work-control/findings/ai-work-control-116.md)
+  shows that a worker right can be enacted while injunction and rulemaking
+  leave the practical challenge and reinstatement route paused.
+- **Status and wage reachability:** the [temporary-visa worker remedy
+  finding](analysis/projects/ai-work-control/findings/ai-work-control-114.md)
+  shows reported full back-pay without verified receipt, restored safety, or
+  future work choice.
+- **Same-person outcome timing:** the [MEPS event-to-later-panel follow-up](analysis/projects/us-household-constraint-cascade/meps-event-six-month-followup-v1.md)
+  places acute health events before later health and employment status, while
+  keeping event-specific remedy and recovery unobserved.
+- **Improvement versus recovery:** the [SHED adaptation-persistence layer](analysis/projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md)
+  shows that broad financial improvement does not end every adaptation on the
+  same clock.
+- **Work disruption versus political action:** the [CCES job-loss political
+  follow-up](analysis/projects/us-cost-trust-politics/cces-panel-job-loss-political-followup-v1.md)
+  shows lower later local action and a large insurance gap without one simple
+  institutional-approval response.
+- **Remedy persistence:** the [CFPB redress persistence finding](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-031.md)
+  shows reissue and redistribution after initial payments, while recipient
+  receipt, adequacy, and account correction remain unobserved.
+- **Multi-sided restitution:** the [Virginia insurance-settlement remedy
+  finding](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-029.md)
+  shows reported payments and process correction across consumers, providers,
+  and the state while coverage and care recovery remain open.
+- **Recipient-conditioned reach:** the [ACRO repeat-refund finding](analysis/projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-032.md)
+  shows a later payment sent to prior recipients without proving debt or
+  account correction.
 
 The common question across these deep dives is: what is actually protected,
 who controls the alternative, and what later behavior or recovery is observed?
@@ -259,6 +363,10 @@ its unresolved arrows visible:
 - [AT&T data-throttling refund implementation](site/us-customer-automation-recourse-022.html):
   aggregate refunds and a current reissue route are visible; individual receipt,
   restored connectivity, switching, and exit remain open.
+- [Sauna360 repeat product remedy](analysis/projects/us-marketplace-product-safety/data/sauna360-repeat-remedy-event-ledger-v1.json):
+  a professional repair was later described as ineffective and followed by a
+  second repair offer; owner notice, completion, safe use, and durable recovery
+  remain open.
 - [Credit Karma financial-access refund implementation](site/us-customer-automation-recourse-024.html):
   “pre-approved” marketing, application time, and possible credit exposure are
   linked to refunds; score repair, receipt, and restored opportunity remain open.
@@ -430,7 +538,7 @@ episode.
 
 ## Scope of this review route
 
-These thirteen routes are the current deepest reading paths, not a replacement for
+These fourteen routes are the current deepest reading paths, not a replacement for
 the full program. The [canonical 14-theme inventory](analysis/US-BROAD-THEME-INVENTORY_V1.md)
 covers household room; time; consumer power and recourse; platforms, data,
 and attention; work and bargaining; care and health; housing, place, and
@@ -441,7 +549,7 @@ consequences. Use the [connected atlas](site/us-theme-atlas.html) for the
 complete theme-by-theme map and the [trend-theme coverage view](site/us-trend-theme-coverage.html)
 for the evidence inventory.
 
-The thirteen routes below concentrate on the strongest current bridges: material
+The fourteen routes below concentrate on the strongest current bridges: material
 pressure and time/care; public-system access; health cost; consumer recourse;
 financial meaning and politics; domestic capacity and geopolitical power; and
 migration, place, and belonging; firm capacity and worker control; and housing

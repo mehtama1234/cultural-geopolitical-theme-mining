@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-public-workforce-performance-state-capacity-2026",
+  "title": "Public-sector staffing, management, pay, and digital capacity are becoming the conversion layer between state resources and usable public outcomes",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank, Public Workforce Performance and Prosperity",
+  "geography": "Global public-sector employment, compensation, management practices, digital workforce capacity, and core government functions",
+  "observations": [
+    {
+      "period": "2026; global public workforce and state-capacity frame",
+      "denominator": {
+        "value": 400000000,
+        "unit": "public-sector workers worldwide, approximately",
+        "value_type": "reported_global_workforce_count"
+      },
+      "measures": {
+        "public_sector_workforce": {"value": 400000000, "unit": "public-sector workers worldwide, approximately", "value_type": "reported_global_count"},
+        "core_functions": {"value": "employment, education, health, climate mitigation and adaptation, peace and security, fiscal sustainability, and citizen trust", "unit": "public outcomes identified by the report", "value_type": "reported_outcome_set"},
+        "performance_inputs": {"value": "wage bill, staffing, compensation, skills, management practices, integrity, collaboration, community engagement, and digital technology", "unit": "reported state-capacity input set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "World Bank synthesis of cross-national public employment, compensation, management, and digital-capacity evidence into a public-workforce performance framework.",
+      "uncertainty": "The framework identifies conversion mechanisms but does not establish that any single input automatically produces better services, trust, jobs, or fiscal outcomes in every setting.",
+      "subgroup": "Public-sector workers, administrators, frontline service providers, ministries, local governments, state-owned enterprises, service users, and communities.",
+      "counterinterpretation": "Workforce reform can improve delivery and trust, but staffing expansion, digitalization, or performance monitoring can also create fiscal pressure, surveillance, or exclusion without governance and worker voice.",
+      "source_url": "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity",
+      "retrieval_hash": "sha256:143386eadfd4aa9ff4a296657f9458762f48d9a8c060c37e62a3218cd55a125d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; public staffing, employment structure, and gender distribution",
+      "denominator": {
+        "value": 1000,
+        "unit": "working-age or total population denominator as defined by the World Bank comparison of public employment per 1,000 people",
+        "value_type": "cross_country_employment_rate_frame"
+      },
+      "measures": {
+        "high_income_public_staffing": {"value": "50-140", "unit": "public-sector workers per 1,000 people in high-income countries, typical range", "value_type": "reported_country_range"},
+        "low_income_public_staffing": {"value": "10-20", "unit": "public-sector workers per 1,000 people in low-income countries, typical range", "value_type": "reported_country_range"},
+        "formal_employment_global": {"value": 38, "unit": "percent of formal employment accounted for by the public sector globally", "value_type": "reported_global_share"},
+        "formal_employment_fcv": {"value": 59, "unit": "percent of formal employment accounted for by the public sector in states affected by fragility, conflict, or violence", "value_type": "reported_context_share"},
+        "women_public_workforce": {"value": 46, "unit": "percent of the public workforce represented by women", "value_type": "reported_workforce_share"},
+        "women_private_workforce": {"value": 33, "unit": "percent of the private workforce represented by women", "value_type": "reported_workforce_share"}
+      },
+      "method": "World Bank comparison of public-sector employment levels, formal-employment structure, and gender composition across countries and income or fragility contexts.",
+      "uncertainty": "Cross-country staffing ratios do not identify service quality, geographic distribution, workload, vacancy duration, or whether public employment is accessible and adequately managed.",
+      "subgroup": "Low-, middle-, and high-income countries, fragile and conflict-affected states, public workers, women workers, frontline services, and local communities.",
+      "counterinterpretation": "A smaller public workforce may reflect different service-delivery models or efficient private provision; a larger workforce is not by itself evidence of better state capacity.",
+      "source_url": "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity",
+      "retrieval_hash": "sha256:143386eadfd4aa9ff4a296657f9458762f48d9a8c060c37e62a3218cd55a125d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; compensation, wage-bill pressure, and public/private labor-market conversion",
+      "denominator": {
+        "value": 1,
+        "unit": "cross-country public-sector compensation comparison frame",
+        "value_type": "public_private_compensation_frame"
+      },
+      "measures": {
+        "public_wage_premium_paid_private": {"value": 21, "unit": "percent higher average public-sector earnings than paid private-sector workers, according to the report", "value_type": "reported_wage_premium"},
+        "public_wage_premium_formal_private": {"value": 9, "unit": "percent higher average public-sector earnings than formal private-sector workers, according to the report", "value_type": "reported_wage_premium"},
+        "wage_bill_policy_tension": {"value": "service delivery, fiscal discipline, private-sector crowd-out, pay equity, recruitment, and retention", "unit": "reported policy tradeoff set", "value_type": "reported_policy_tradeoff"},
+        "reform_direction": {"value": "compensation reform, merit-based hiring, wage monitoring, and staffing distribution rather than indiscriminate downsizing", "unit": "reported reform direction", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "World Bank analysis of public/private compensation comparisons, wage-bill management, staffing, and fiscal or labor-market implications.",
+      "uncertainty": "Average wage premia can reflect worker composition, occupation, hours, benefits, selection, and country differences; they do not establish individual job quality or crowd-out in every labor market.",
+      "subgroup": "Public and private workers, job seekers, women, low-paid public employees, finance ministries, service agencies, and private employers.",
+      "counterinterpretation": "A public-sector wage premium can support recruitment, integrity, and service continuity, especially where private labor markets are weak, if pay structures and staffing remain fiscally sustainable.",
+      "source_url": "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity",
+      "retrieval_hash": "sha256:143386eadfd4aa9ff4a296657f9458762f48d9a8c060c37e62a3218cd55a125d",
+      "status": "reported"
+    },
+    {
+      "period": "2026; management, integrity, collaboration, and digital-workforce capacity",
+      "denominator": {
+        "value": 1,
+        "unit": "public-administration organizational-practice and digital-capacity frame",
+        "value_type": "public_management_capacity_frame"
+      },
+      "measures": {
+        "digital_career_tracks_lac": {"value": 12, "unit": "percent of governments in Latin America and the Caribbean with a dedicated career track for data analysts, according to the report", "value_type": "reported_government_share"},
+        "management_practice_set": {"value": "performance evaluation, training, collaboration, community engagement, integrity, transparency, and whistleblower protection", "unit": "reported public-management practice set", "value_type": "reported_practice_set"},
+        "digital_risk": {"value": "underused workforce information systems, skills gaps, weak evidence use, resistance to changed work practices, and excessive monitoring", "unit": "reported implementation-risk set", "value_type": "reported_risk_set"},
+        "service_conversion": {"value": "better staffing, management, and digital use can support revenue collection, service delivery, integrity, resilience, and citizen trust", "unit": "reported conversion pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of public-management practices, digital workforce systems, training, coordination, integrity, and community-engagement evidence.",
+      "uncertainty": "Organizational practices and digital systems are enabling conditions, not direct measures of service receipt, worker autonomy, corruption reduction, or citizen trust.",
+      "subgroup": "Public managers, civil servants, frontline workers, digital specialists, local governments, citizens, service users, and oversight bodies.",
+      "counterinterpretation": "Digital monitoring and standardized evaluation can reduce absenteeism or improve accountability, while empowerment, community connection, and worker protections may be necessary to avoid demotivation and performative compliance.",
+      "source_url": "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity",
+      "retrieval_hash": "sha256:143386eadfd4aa9ff4a296657f9458762f48d9a8c060c37e62a3218cd55a125d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/public-workforce-performance-and-prosperity/brief/data-charts", "claim": "World Bank data charts for public employment, wages, training, management, and digital skills."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/447", "claim": "World Bank reproducibility package for the Public Workforce Performance and Prosperity report."}
+  ],
+  "boundary": "This record adds a public-workforce-to-state-capacity route linking staffing, compensation, management, integrity, digital capability, service delivery, fiscal room, and institutional trust. It uses publication-level cross-national findings and frameworks rather than respondent-level data; it is not individual worker productivity, household service receipt, causal reform evaluation, or proof that public workforce reform produces trust or prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Public Workforce Performance and Prosperity report page and data-charts page were reviewed; global workforce scale, staffing ratios, formal-employment shares, gender composition, wage premia, digital career-track, management, integrity, community-engagement, and state-capacity claims were cross-checked.",
+    "source_url_sha256": "sha256:143386eadfd4aa9ff4a296657f9458762f48d9a8c060c37e62a3218cd55a125d",
+    "checked": "2026-09-26"
+  }
+}

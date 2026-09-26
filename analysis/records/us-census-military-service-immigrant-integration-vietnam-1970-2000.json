@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-military-service-immigrant-integration-vietnam-1970-2000",
+  "title": "Military service is associated with immigrant integration, but the Vietnam draft-lottery test points mainly to self-selection",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "work_control_bargaining", "housing_place_mobility", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-35, Military Service and Immigrants' Integration: Evidence from the Vietnam Draft Lotteries, also published in American Political Science Review",
+  "geography": "United States; first-generation immigrant men present in the restricted-use 2000 long-form decennial census, born 1949–1952 and in the country before the Vietnam-era draft lotteries",
+  "observations": [
+    {
+      "period": "Vietnam draft lotteries 1970–1972; integration outcomes measured in the 2000 decennial census",
+      "denominator": {"value": 28500, "unit": "male, draft-eligible, first-generation immigrant men in the 1949–1952 birth cohorts; counts rounded for disclosure protection", "value_type": "reported_sample_size"},
+      "measures": {
+        "service_rate": {"value": "approximately 16% served; approximately 41% were at risk of the draft", "unit": "pooled study sample", "value_type": "reported_sample_share"},
+        "observational_association": {"value": "Veteran status positively predicted naturalization, residential integration, English use, and marriage to non-co-national or native-born spouses in OLS models", "unit": "unadjusted/selection-confounded association", "value_type": "reported_association"},
+        "causal_integration_effect": {"value": "No statistically significant positive effect in the instrumental-variables estimates across the main integration outcomes; estimates were generally negative and imprecise", "unit": "draft-lottery instrumented military service", "value_type": "null_causal_estimate"},
+        "education_effect": {"value": "Instrumented service increased college completion, especially among non-Western immigrants", "unit": "2000 census educational-attainment outcome", "value_type": "causal_estimate"},
+        "marriage_counterexample": {"value": "For non-Western immigrants, service increased the probability of being married but not marriage to a native-born or non-co-national spouse, consistent with additional endogamous marriage", "unit": "2000 census marriage outcomes", "value_type": "causal_estimate"}
+      },
+      "method": "Instrumental-variables design using national draft-lottery numbers assigned by date of birth as an instrument for Vietnam-era military service; outcomes come from the 2000 long-form decennial census roughly 30 years after service. Western- and non-Western-origin subgroup estimates and attrition/robustness checks are included.",
+      "uncertainty": "This is a Census CES working paper and is also published in the American Political Science Review; the Census paper itself is not a Census Bureau publication endorsement. The causal estimates apply to draft-lottery compliers in immigrant men born 1949–1952 who were present in the 2000 census, not all immigrants, veterans, women, later cohorts, or voluntary enlistees. Outcomes are observed in one later census rather than a continuous person-level panel. Some subgroup estimates and the 2000 presence condition carry attrition and measurement concerns, including possible immigration-date misreporting or undercount for Mexican-born respondents.",
+      "subgroup": "First-generation immigrant men, pooled and divided into Western-origin and non-Western-origin groups; the study also profiles compliers, always-takers, and never-takers and tests robustness excluding selected birthplace groups.",
+      "counterinterpretation": "Military service may still integrate some people in settings or cohorts not identified here, and the null estimates may miss mechanisms such as unit relationships, local discrimination, citizenship processing, or later civic participation. College gains show that service can change one resource without changing every identity, language, residential, or marriage outcome. Positive veteran correlations may reflect pre-service patriotism, confidence, language, family resources, or other selection rather than service itself.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-35.html",
+      "retrieval_hash": "sha256:734ae03cf75de428d360739bb6d17735c7c903602835c7fa1170cbc91d32b396",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-35.pdf", "claim": "Official paper PDF provides the draft-lottery design, sample, outcome definitions, subgroup estimates, and attrition/robustness checks.", "status": "official-paper"},
+    {"source_url": "https://doi.org/10.1017/S000305542500019X", "claim": "The study is also published in American Political Science Review 120(1), pages 179–188.", "status": "peer-reviewed-publication-context"}
+  ],
+  "boundary": "This record adds a selection-versus-institution mechanism: military service can be correlated with immigrant integration because people who serve may already differ before service. The draft-lottery evidence supports a null or weak causal effect on the measured long-term integration outcomes for this historical complier group, while showing an education benefit. It does not establish current military integration, national identity, equal treatment, veteran wellbeing, or foreign-policy legitimacy.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; restricted decennial-census microdata are not retained.", "pdf_sha256": "sha256:734ae03cf75de428d360739bb6d17735c7c903602835c7fa1170cbc91d32b396", "checked": "2026-09-23"}
+}

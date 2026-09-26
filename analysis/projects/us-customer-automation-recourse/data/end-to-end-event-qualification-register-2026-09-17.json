@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-18",
+  "checked": "2026-09-19",
   "purpose": "Storage-light qualification screen for a same-unit event that can be followed through alternatives, response, verified remedy or recovery, and later action or exit.",
   "promotion_rule": "A route qualifies only when the same unit has a dated trigger, an observed alternative or non-use choice, a defined institutional response, a verified protected or sacrificed outcome, and a follow-up behavior or meaning/action endpoint.",
   "storage_boundary": "Reads retained local audits and ledgers only; no respondent archive or bulk download.",
@@ -224,12 +224,51 @@
       "later_action_or_exit": "repeat contact, continued use, account closure, switching, trust, and exit missing",
       "qualifies": false,
       "next_minimum_field": "account-level exposure, remedy amount/issuance/receipt, correction, repeat effort, alternative provider, closure/switch, and later security or trust"
+    },
+    {
+      "route_id": "CFPB-Cash-App-fraud-redress",
+      "domain": "consumer_financial_recourse",
+      "unit": "named enforcement case and affected-user population",
+      "denominator": "aggregate enforcement and redress scope; individual eligibility and receipt denominator not retained",
+      "dated_trigger": "reported fraud/dispute and account-servicing practices followed by CFPB enforcement action",
+      "alternative_or_non_use_choice": "possible dispute, banking, law-enforcement, private-recovery, or non-use routes are described but individual choice and cost are missing",
+      "institutional_response": "operational correction and ordered aggregate redress are reported",
+      "verified_remedy_or_recovery": "individual eligibility, payment, receipt, residual loss, and restored account security are missing",
+      "later_action_or_exit": "continued use, switching, trust, non-use, and exit are missing",
+      "qualifies": false,
+      "next_minimum_field": "identifier-bearing fraud/dispute episode with attempted routes, account correction, redress receipt, remaining loss, and later use or switch"
+    },
+    {
+      "route_id": "Virginia-insurance-settlement-remedy",
+      "domain": "consumer_insurance_recourse",
+      "unit": "named regulator settlement and affected consumer/provider population",
+      "denominator": "three regulator matters with aggregate restitution and affected-consumer/provider counts; individual receipt denominator not retained",
+      "dated_trigger": "reported rating, notice, network, credentialing, claims, or fee-schedule failure",
+      "alternative_or_non_use_choice": "insurer contact, regulatory review, alternate coverage/provider, or remaining route are possible but individual choice is missing",
+      "institutional_response": "reported restitution and prospective filing, rating, claims, or vendor controls are observed",
+      "verified_remedy_or_recovery": "individual receipt, corrected premium/claim, continuous coverage/care, and residual cost are missing",
+      "later_action_or_exit": "renewal, provider retention, switching, trust, and exit are missing",
+      "qualifies": false,
+      "next_minimum_field": "policy or claim identifier with settlement payment, correction, coverage/care continuity, recurrence, and renewal or switching outcome"
+    },
+    {
+      "route_id": "CFPB-named-redress-reissue",
+      "domain": "consumer_financial_recourse",
+      "unit": "named redress distribution route and recipient population",
+      "denominator": "three named distributions with mailed checks, aggregate cashing, reissue, or redistribution measures; recipient-level follow-up denominator not retained",
+      "dated_trigger": "consumer financial harm followed by initial distribution and later unclaimed-fund handling",
+      "alternative_or_non_use_choice": "administrator contact, reissue request, or remaining without usable payment are visible as route possibilities, but individual effort and alternatives are missing",
+      "institutional_response": "checks mailed, aggregate funds cashed, reissue, and redistribution stages are reported",
+      "verified_remedy_or_recovery": "aggregate cashing is not recipient-level receipt, account correction, adequate recovery, or restored financial room",
+      "later_action_or_exit": "continued use, switching, trust, non-use, and exit are missing",
+      "qualifies": false,
+      "next_minimum_field": "recipient/account identifier with reissue effort, payment receipt, account correction, residual loss, and later financial behavior or switching"
     }
   ],
   "result": {
     "qualifying_routes": 0,
-    "screened_routes": 17,
-    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Honda Talon, Amazon Flex, IER, HTOPS, Walmart, Census child-care, and CFPB credit-card additions improve payment, remedy, worker-allocation, household-adaptation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. The product-safety pair separates replacement from dealer repair, while the credit-card slice separates a monetary-relief response label from verified issuance and receipt. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
+    "screened_routes": 20,
+    "interpretation": "The local atlas has multiple observed route and response stages but no retained route satisfying the full practical-optionality promotion rule. The Doxo, Grubhub, VRURC, Honda Talon, Amazon Flex, IER, HTOPS, Walmart, Census child-care, CFPB credit-card, Cash App, Virginia insurance, and named-redress additions improve payment, remedy, worker-allocation, household-adaptation, or same-respondent follow-up visibility without adding a same-unit alternative plus verified later outcome. The product-safety pair separates replacement from dealer repair, the credit-card and Cash App routes separate response labels from verified receipt, and the insurance/redress routes separate reported restitution from restored security. This is an acquisition/identification boundary, not evidence that remedies or exits did not occur.",
     "next_action": "Seek one lawful, small, identifier-bearing or valid-panel event with alternatives and verified follow-up; otherwise rotate to a subgroup/place reversal from retained data. The HTOPS route specifically requires dated incident/actor, alternative or non-use, verified recovery, and later use/action fields."
   }
 }

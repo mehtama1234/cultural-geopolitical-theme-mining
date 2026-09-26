@@ -40,6 +40,12 @@ chain. Every link must be labeled as measured, reported, estimated,
 experimentally identified, longitudinally associated, compared, inferred
 across sources, or still open.
 
+The primary product is the broad cross-source map of societal, cultural, and
+political subthemes. Different datasets do not need to follow the same person
+or household to reveal a recurring pattern; same-unit tracking is an optional
+depth test. When sources cannot be joined, keep the comparison layered and
+state the missing connection plainly.
+
 ## The 14-theme breadth requirement
 
 Keep the atlas broad across:
@@ -119,15 +125,27 @@ pass should strengthen one bridge that can change the atlas while preserving
 the broader scope and explicitly stating what remains open. The current bridge
 status is tracked in the [material-to-action status ledger](analysis/US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md).
 
-## Verified resumption checkpoint — 2026-09-19
+The first plain-language cross-domain synthesis is the [initial broad
+subtheme readout](analysis/US-BROAD-INITIAL-SUBTHEME-READOUT_V1.md). It is a
+navigation and interpretation layer across diverse source families, not a
+replacement for source-specific records or a claim that they describe one
+population.
 
-The publication gate currently passes all 22 checks: 344 canonical records,
-1,214 observations, 103 source packets, 14 themes, and 669 published HTML
-pages are synchronized and locally linked. The broad
-same-case episode audit confirms that the atlas has substantial exposure,
-adaptation, institutional-response, and selected follow-up evidence, but no
-retained source closes the complete sequence from dated exposure and usable
-alternatives through verified remedy, meaning/action, recovery, and exit.
+## Verified program checkpoint — 2026-09-24
+
+The current validation gate confirms **793** machine-readable records,
+**1,869** observations, **164** source packets, and all **14** themes. The
+published reader contains **1,127** generated finding pages and **1,149**
+locally linked HTML pages. The source-promotion audit directly names **553**
+records in broad-reader surfaces, and the end-to-end ranking retains **69**
+bounded routes. These are coverage and traceability controls, not a claim that
+every route reaches a final outcome.
+
+The broad same-case episode audit confirms that the atlas has substantial
+exposure, adaptation, institutional-response, and selected follow-up evidence,
+but no retained source closes the complete sequence from dated exposure and
+usable alternatives through verified remedy, meaning/action, recovery, and
+exit.
 
 The current cross-domain proposition is conditional rather than universal:
 institutional visibility and response are easier to observe than the affected

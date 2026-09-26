@@ -1,0 +1,95 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-water-sector-cybersecurity-capacity-2026",
+  "title": "Water-sector digital connectivity expands remote control while legacy capacity and legal gaps constrain cybersecurity",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office testimony on cybersecurity risks and federal response in the water and wastewater sector",
+  "geography": "United States; drinking-water and wastewater systems and EPA-led federal oversight",
+  "observations": [
+    {
+      "period": "May 2026; current U.S. water-sector cybersecurity conditions and EPA response",
+      "denominator": {
+        "value": 170000,
+        "unit": "water and wastewater systems in the U.S. sector described by GAO",
+        "value_type": "reported_sector_count"
+      },
+      "measures": {
+        "technology_convergence": {
+          "value": "operational technologies controlling valves, pumps, and other physical devices are increasingly connected to internet-enabled devices and remote access",
+          "unit": "sector operating condition",
+          "value_type": "reported_finding"
+        },
+        "capacity_constraints": {
+          "value": "systems vary in cybersecurity capability and face workforce shortages, legacy technology that is difficult to update, and limited financial resources",
+          "unit": "reported constraint set",
+          "value_type": "reported_finding"
+        },
+        "downstream_exposure": {
+          "value": "a successful cyberattack could disrupt water or wastewater service and harm public health or the environment",
+          "unit": "potential consequence",
+          "value_type": "reported_risk"
+        }
+      },
+      "method": "GAO testimony based on its August 2024 sector review, EPA documents responding to recommendations, and public information available through May 2026.",
+      "uncertainty": "The testimony describes sector risk and federal response, not a probability of attack, a count of successful incidents, a service-loss duration, or a measured household health effect.",
+      "subgroup": "Small and resource-constrained water systems, systems with legacy technology or workforce shortages, households and communities dependent on affected services, EPA, state and local authorities, and private operators.",
+      "counterinterpretation": "Remote access can improve operation across large and distributed systems, and EPA's risk assessment and management plan may reduce priority risks; identified vulnerabilities do not establish that a particular system will be attacked or fail.",
+      "source_url": "https://www.gao.gov/products/gao-26-109159",
+      "retrieval_hash": "sha256:80b9a2a2fcc8e7a3bb6200c855961a646286d3e2078575fa34f45c4445938847",
+      "status": "reported"
+    },
+    {
+      "period": "2024-May 2026; EPA risk-management and legal-authority follow-up",
+      "denominator": {
+        "value": 1,
+        "unit": "federal water-sector cybersecurity oversight route reviewed by GAO",
+        "value_type": "named_program_case"
+      },
+      "measures": {
+        "epa_response": {
+          "value": "EPA conducted a water-sector risk assessment and developed a risk-management plan after GAO recommendations",
+          "unit": "federal response stage",
+          "value_type": "reported_action"
+        },
+        "legal_gap": {
+          "value": "EPA identified gaps including absent cybersecurity risk-assessment requirements for wastewater systems and certain drinking-water systems, plus limitations in federal authority",
+          "unit": "oversight and legal gap",
+          "value_type": "reported_finding"
+        },
+        "institutional_learning": {
+          "value": "GAO will continue monitoring how EPA addresses the identified authority and risk-management limitations",
+          "unit": "follow-up status",
+          "value_type": "reported_status"
+        }
+      },
+      "method": "GAO review of EPA actions and legal-authority documentation following its prior sector cybersecurity recommendations.",
+      "uncertainty": "A risk assessment and management plan do not establish implementation, system-level compliance, reduced attack exposure, or restored service after an incident.",
+      "subgroup": "EPA, state and local regulators, water and wastewater operators, and communities whose service depends on systems with different legal and technical capacity.",
+      "counterinterpretation": "Federal risk planning, partnerships with CISA and other entities, and future legal or regulatory action may close the gaps; the testimony reports an intermediate governance state.",
+      "source_url": "https://www.gao.gov/products/gao-26-109159",
+      "retrieval_hash": "sha256:80b9a2a2fcc8e7a3bb6200c855961a646286d3e2078575fa34f45c4445938847",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-24-106744",
+      "claim": "Earlier GAO sector review forming the basis for the 2026 testimony.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-109159.pdf",
+      "claim": "Full testimony source.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record establishes a digital-connectivity, operating-capacity, and federal-oversight risk pathway for water and wastewater systems. It does not establish a particular cyberattack, service interruption, household health effect, operator failure, compliance rate, or successful remediation.",
+  "retrieval_hash": "sha256:80b9a2a2fcc8e7a3bb6200c855961a646286d3e2078575fa34f45c4445938847"
+}

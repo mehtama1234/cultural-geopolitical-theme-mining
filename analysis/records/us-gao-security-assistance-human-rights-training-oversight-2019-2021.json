@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-security-assistance-human-rights-training-oversight-2019-2021",
+  "title": "Human-rights training was a formal security-assistance requirement before its provision and effectiveness were systematically tracked",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "trust_identity_meaning", "public_systems_feedback", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "Department of Defense and Department of State human-rights training oversight and monitoring systems for foreign security forces",
+  "geography": "United States security-assistance system and foreign security-force training programs",
+  "observations": [
+    {
+      "period": "GAO-19-554 published August 2019; DOD and State implementation follow-up through 2021",
+      "denominator": {"value": null, "unit": "human-rights training activities and funding records across DOD and State programs; aggregate universe not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "initial_tracking": {"value": "DOD did not systematically track mandated human-rights training, leaving only limited information on provision and funding; State relied on DOD for military-force tracking", "unit": "program oversight status", "value_type": "reported_process_gap"},
+        "initial_effectiveness_evaluation": {"value": "DOD and State had not evaluated the effectiveness of human-rights training for foreign security forces", "unit": "monitoring and evaluation status", "value_type": "reported_process_gap"},
+        "dod_tracking_followup": {"value": "new security-cooperation tracking system fields and quarterly Section 333 reports included human-rights training status by 2020", "unit": "implementation follow-up", "value_type": "reported_reform_status"},
+        "dod_evaluation_followup": {"value": "DOD integrated human-rights elements into pre-design assessments and established a post-activity evaluation timeline by 2021", "unit": "implementation follow-up", "value_type": "reported_reform_status"},
+        "state_evaluation_followup": {"value": "State transmitted an IMET monitoring and evaluation plan to Congress in 2020 with human-rights objectives and indicators", "unit": "implementation follow-up", "value_type": "reported_reform_status"}
+      },
+      "method": "GAO review of laws, regulations, agency training and funding data, course catalogs, and interviews with DOD and State officials; follow-up status is taken from GAO's recommendation records rather than an independent outcome evaluation of trainees.",
+      "uncertainty": "The source does not measure what trainees learned, whether training changed conduct, civilian protection, partner legitimacy, abuse rates, or external behavior. Tracking and evaluation reforms establish administrative capacity, not human-rights outcomes. The programs and populations are heterogeneous and the aggregate activity denominator is not reported.",
+      "subgroup": "Foreign security-force trainees receiving DOD- or State-supported human-rights or international humanitarian-law content; Section 333 and IMET routes are discussed separately.",
+      "counterinterpretation": "A formal training requirement may coexist with effective local practice even before centralized tracking, while a new tracking field may improve visibility without improving conduct. Conversely, weak initial oversight can conceal both successful and unsuccessful training rather than prove either.",
+      "source_url": "https://www.gao.gov/products/gao-19-554",
+      "retrieval_hash": "sha256:426acb7af1675201b6c9c70111d874d1ce0ca6eb4c44e6c9d698e78de34db3f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-23-106275", "claim": "GAO's Section 333 delivery and evaluation review supplies a separate capability and reliability stage", "status": "related-official-review"},
+    {"source_url": "https://www.gao.gov/products/gao-23-105842", "claim": "GAO's Section 333 planning review supplies a separate absorptive-capacity and sustainment stage", "status": "related-official-review"}
+  ],
+  "boundary": "This record adds a rights-legitimacy and oversight layer to security assistance: formal training, tracking, and evaluation can lag the provision of equipment and capacity-building. It does not establish trainee learning, rights compliance, civilian protection, partner legitimacy, or strategic success."
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-tip-reporting-bunching-missing-income-2005-2018",
+  "title": "Tax-reporting thresholds make some missing tip income visible without explaining all of it",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "public_systems_feedback", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-40 using worker and employer tax reports and restaurant revenue data",
+  "geography": "United States; full-service single-unit restaurants, tipped workers, employers, and reporting periods 2005-2018",
+  "observations": [{
+    "period": "2005-2018, with estimates in 2018 dollars; paper published June 2026",
+    "denominator": {"value": 1, "unit": "full-service single-unit restaurant worker/employer tax-report and revenue-data analysis", "value_type": "study_unit"},
+    "measures": {
+      "threshold_bunching": {"value": "reported tip income bunches at the minimum required reporting threshold when wage laws create an incentive to report some but not all tips", "unit": "reported-income pattern", "value_type": "reported_relationship"},
+      "bunching_missing": {"value": "missing tips due to bunching were estimated at nearly $63 million per year in 2018 dollars on average", "unit": "annual dollars", "value_type": "reported_estimate"},
+      "total_missing": {"value": "total unreported tips were estimated to exceed $4 billion per year assuming a 12% average tip rate", "unit": "annual dollars", "value_type": "reported_estimate"},
+      "share_explained": {"value": "threshold bunching explained about 1.5% of all missing tips", "unit": "share of estimated missing tips", "value_type": "reported_estimate"},
+      "trend": {"value": "bunching was stronger at small employers and earlier in the series, then declined monotonically from 2010 to 2018", "unit": "reported comparison", "value_type": "reported_trend"}
+    },
+    "method": "The authors compare individual and employer tax reports, minimum-wage reporting thresholds, and restaurant-level revenue data to identify bunching and estimate unreported tips under an assumed average tip rate.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The total missing-tip estimate depends on the assumed 12% average tip rate and restaurant scope; missing reported income is not automatically worker theft, employer misconduct, or unpaid wages.",
+    "subgroup": "Tipped workers and employers at full-service single-unit restaurants, with differences by employer size and reporting period; other restaurant types, occupations, cashless payment systems, and current practices require separate study.",
+    "counterinterpretation": "Tax-reporting behavior can reflect worker and employer incentives, recordkeeping, payment method, enforcement, or true tip distribution. The model cannot by itself identify who retained unreported tips, whether customers paid them, or the household consequences of underreported income.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-40.html",
+    "retrieval_hash": "sha256:ee59ed8a2a89d7e30b0cbf2ca81b7a3e8751c3b8591e04ba2d88a4e2e6fb98d8",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-40.pdf", "claim": "The official paper provides the worker/employer tax-report design, threshold bunching estimates, revenue-based missing-tip calculation, and scope limits.", "status": "official-paper-context"}],
+  "boundary": "This record adds a reporting-incentive-to-hidden-income pathway. It does not identify the actor retaining unreported tips, establish wage theft, estimate current national missing income, or measure worker household security, tax enforcement, or bargaining power.",
+  "retrieval_hash": "sha256:ee59ed8a2a89d7e30b0cbf2ca81b7a3e8751c3b8591e04ba2d88a4e2e6fb98d8"
+}

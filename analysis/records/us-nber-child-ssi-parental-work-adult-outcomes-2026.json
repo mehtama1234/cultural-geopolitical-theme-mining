@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-child-ssi-parental-work-adult-outcomes-2026",
+  "title": "Child disability benefits help more when they add household resources rather than replace parental earnings",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35725; Social Security administrative data and two quasi-experimental sources of variation in childhood SSI receipt",
+  "geography": "United States; children receiving or near eligibility for Supplemental Security Income and adult outcomes",
+  "observations": [{
+    "period": "childhood SSI receipt and adult outcomes studied through 2026; paper issued September 2026",
+    "denominator": {"value": 1, "unit": "quasi-experimental childhood SSI study", "value_type": "study_unit"},
+    "measures": {
+      "heterogeneous_effect": {"value": "SSI had positive effects on children when parents did not reduce labor supply and household income therefore increased, but zero or negative effects when parents offset the benefit by reducing earnings", "unit": "childhood benefit and later outcome comparison", "value_type": "reported_comparison"},
+      "resource_channel": {"value": "the income effect of SSI on children's human capital was substantial in the study's model", "unit": "household-resources channel", "value_type": "reported_estimate"},
+      "parental_work": {"value": "parental work on net improved children's outcomes when it increased household resources, despite reducing parent time", "unit": "parental labor and child-outcome mechanism", "value_type": "reported_interpretation"},
+      "incentive_channel": {"value": "the study finds a limited role for adverse incentive effects from conditioning benefits on disability status", "unit": "benefit-design channel", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors use multiple sources of variation across two quasi-experiments with Social Security administrative data and estimate a model separating household income, parental labor supply, parent time, and child human-capital channels.",
+    "uncertainty": "This is a working paper and the public abstract does not provide every cutoff, sample restriction, outcome definition, or estimate. The model's channel decomposition depends on its assumptions; adult outcomes are not the same as wellbeing, autonomy, family relationship quality, or durable security.",
+    "subgroup": "Children with disabilities and their households near SSI eligibility or program-related quasi-experimental thresholds; parental earnings response and household resources define important subgroups.",
+    "counterinterpretation": "A parental earnings reduction may reflect caregiving, health, schedule constraints, or a rational response to changed needs rather than a simple work disincentive. A benefit can improve child conditions while changing adult work, time, stress, or later program use in ways not captured by the reported summary.",
+    "source_url": "https://www.nber.org/papers/w35725",
+    "retrieval_hash": "sha256:b277e63826e6c0ba55ecc6257cbb623ce3119c7fba6a147fdd5a08480ca04444",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35725", "claim": "NBER DOI record for Working Paper 35725", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a benefit-design and family-work finding: the same child benefit can have different effects depending on whether it increases total household resources or replaces parental earnings. It does not establish a universal SSI effect, a single meaning of parental work reduction, or complete family wellbeing."
+}

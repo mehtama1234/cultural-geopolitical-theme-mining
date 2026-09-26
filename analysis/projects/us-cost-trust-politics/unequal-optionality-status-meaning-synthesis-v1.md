@@ -1,7 +1,7 @@
 # The same exposure does not produce the same burden or meaning
 
 **Status:** provisional broad-program synthesis  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-19
 **Scope:** subgroup differences in material room, time, care, consumer/public routes, institutional judgment, and political availability
 
 ## Research question
@@ -122,6 +122,41 @@ from subgroup outcome gaps alone. It should ask what happened, who was held
 responsible, what information was available, whether the person could leave,
 and what action followed.
 
+### 6. Optionality is culturally situated, not only economically measured
+
+The latest evidence adds three practical corrections to a purely resource-based
+account of choice:
+
+- **Mobility has a cultural horizon.** Latino respondents can report a better
+  standard of living than their parents and still say the American dream is
+  out of reach or nonexistent. Hispanic identity can be central to self-
+  understanding while being experienced as a barrier, an advantage, or
+  neither. Progress, hope, belonging, and perceived access are separate
+  currencies.
+- **A nearby option can be a materially different option.** In the Alam Shah
+  case, limited English, interpreter need, lack of a car, a 25-minute walk to
+  work, and family support obligations changed the practical stakes of
+  dismissal and reinstatement. “Another job exists” would be too weak a test
+  of alternative work when transport, language, and family geography shape
+  whether it is usable.
+- **Formal help can coexist with work and dependence.** The GAO work/safety-net
+  layer shows employment alongside Medicaid or SNAP participation. Work is
+  therefore not a clean exit from public support, just as benefit receipt is
+  not proof of administrative ease or material independence.
+
+The resulting rule is:
+
+```text
+nominal option
+  -> culturally and materially usable option
+  -> chosen or forced adaptation
+  -> security, status, belonging, trust, or exit
+```
+
+The middle step is where many social and consumer analyses overclaim. A route
+can be legally available, financially priced, geographically present, or
+formally restored while remaining unusable to the person who needs it.
+
 ## Mechanism ledger
 
 | Arrow | Status | Safe conclusion | Decisive next evidence |
@@ -132,6 +167,7 @@ and what action followed.
 | Unequal route → interpretation | Open / thematic | Effort, recognition, dignity, and blame are plausible meanings | Same-person follow-up with attribution, fairness, information, and trust |
 | Interpretation → action | Open | Confidence, complaint, vote, organizing, switching, and withdrawal are distinct | Timed action measures with opportunity costs and prior identity |
 | Optionality → later security | Open | More room should be tested as a moderator, not assumed to be protection | Longitudinal or matched design with recovery, persistence, and alternatives |
+| Formal remedy → usable recovery | Partly reported / mostly open | Orders, payments, reinstatement, and correction can improve access or money without proving adequacy, durability, or trust | Same-unit receipt, practical use, residual loss, recurrence, and later meaning/action |
 
 ## Provisional broad-program finding
 
@@ -140,6 +176,12 @@ and what action followed.
 > or institutional failure can become a financial cost for one person, a time
 > cost for another, a dignity or identity cost for a third, and a political
 > judgment only when a credible route to action exists.
+
+The latest bounded cases sharpen this into a stronger operational claim:
+
+> A remedy changes the option set only when it is reachable, culturally usable,
+> materially adequate, and durable enough to support continued security or a
+> credible exit.
 
 This is a distributional and cultural hypothesis grounded in complementary
 evidence, not a claim that any demographic category has a fixed political

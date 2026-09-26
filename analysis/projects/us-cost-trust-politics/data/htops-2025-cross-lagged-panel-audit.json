@@ -58,6 +58,90 @@
       "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
       "value_type": "cross_lagged_share",
       "unweighted_valid_n": 3952
+    },
+    "baseline_expense_difficulty_high_confidence_in_presidency": {
+      "value": 24.3,
+      "standard_error": 1.69,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2582
+    },
+    "baseline_expense_not_difficult_high_confidence_in_presidency": {
+      "value": 30.8,
+      "standard_error": 1.31,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3955
+    },
+    "baseline_expense_difficulty_high_confidence_in_military": {
+      "value": 57.9,
+      "standard_error": 1.87,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2580
+    },
+    "baseline_expense_not_difficult_high_confidence_in_military": {
+      "value": 71.9,
+      "standard_error": 1.38,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3958
+    },
+    "baseline_expense_difficulty_high_confidence_in_police": {
+      "value": 44.6,
+      "standard_error": 1.94,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2581
+    },
+    "baseline_expense_not_difficult_high_confidence_in_police": {
+      "value": 62.9,
+      "standard_error": 1.42,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3953
+    },
+    "baseline_expense_difficulty_high_confidence_in_supreme_court": {
+      "value": 29.2,
+      "standard_error": 1.84,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2579
+    },
+    "baseline_expense_not_difficult_high_confidence_in_supreme_court": {
+      "value": 38.3,
+      "standard_error": 1.35,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3955
+    },
+    "baseline_expense_difficulty_high_confidence_in_public_schools": {
+      "value": 42.8,
+      "standard_error": 1.76,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2581
+    },
+    "baseline_expense_not_difficult_high_confidence_in_public_schools": {
+      "value": 52.0,
+      "standard_error": 1.52,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3957
+    },
+    "baseline_expense_difficulty_high_confidence_in_statistical_agencies": {
+      "value": 57.7,
+      "standard_error": 2.23,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 2576
+    },
+    "baseline_expense_not_difficult_high_confidence_in_statistical_agencies": {
+      "value": 69.6,
+      "standard_error": 1.25,
+      "unit": "percent of baseline-weighted valid linked respondents in exposure cell",
+      "value_type": "cross_lagged_share",
+      "unweighted_valid_n": 3954
     }
   },
   "baseline_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",

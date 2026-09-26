@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-remittance-costs-fast-payments-2026",
+  "title": "Remittances are a major household and development channel, while payment infrastructure still determines how much value reaches home",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "World Bank, Cutting the cost of sending money home: Fast payment systems, digital access, and the future of remittances",
+  "geography": "Global remittance flows, low- and middle-income countries, and remittance corridors",
+  "observations": [
+    {
+      "period": "2024 estimate; World Bank publication dated July 2026",
+      "denominator": {
+        "value": 856000000000,
+        "unit": "estimated global remittance flows in 2024",
+        "value_type": "reported_flow_estimate"
+      },
+      "measures": {
+        "global_remittance_flows_2024": {"value": 856000000000, "unit": "US dollars in estimated global remittance flows in 2024", "value_type": "reported_flow_estimate"},
+        "lmics_remittance_flows_2024": {"value": 653000000000, "unit": "US dollars flowing to low- and middle-income countries in 2024", "value_type": "reported_flow_estimate"},
+        "average_remittance_cost": {"value": 6, "unit": "approximately percent average cost of sending remittances globally in the World Bank summary", "value_type": "reported_cost_estimate"},
+        "corridors_below_five_percent": {"value": 50, "unit": "approximately percent of remittance corridors with average costs below 5%", "value_type": "reported_corridor_share"}
+      },
+      "method": "The World Bank summarizes global remittance-flow estimates and remittance-price data and connects payment costs to household support, savings, investment, small business, and development channels.",
+      "uncertainty": "Flows are estimates and aggregate corridor prices do not measure the fee, exchange-rate spread, speed, reliability, or access faced by every sender or recipient. The source does not establish how each transferred dollar is spent by households.",
+      "subgroup": "Migrant workers, diaspora households, recipients in low- and middle-income countries, remittance providers, payment platforms, small businesses, and communities dependent on cross-border transfers.",
+      "counterinterpretation": "Remittance costs have fallen from earlier levels and transfers can support resilience, education, housing repair, savings, investment, and enterprise. A global average can conceal low-cost corridors and substantial local access improvements.",
+      "source_url": "https://blogs.worldbank.org/en/psd/cutting-the-cost-of-sending-money-home--fast-payment-systems--di",
+      "retrieval_hash": "sha256:20162ca43639b0a2630c4b14a92752226b65f064ea343e4c02162c5da91c5123",
+      "status": "reported"
+    },
+    {
+      "period": "2026 World Bank summary of new research on domestic fast-payment systems",
+      "denominator": {
+        "value": 200,
+        "unit": "US-dollar remittance transaction used in the reported cost comparison",
+        "value_type": "transaction_reference"
+      },
+      "measures": {
+        "fps_cost_reduction_lower_bound": {"value": 0.3, "unit": "percentage-point reduction in the cost of a $200 remittance associated with a domestic fast-payment system, lower bound of reported range", "value_type": "reported_research_estimate"},
+        "fps_cost_reduction_upper_bound": {"value": 1.0, "unit": "percentage-point reduction in the cost of a $200 remittance associated with a domestic fast-payment system, upper bound of reported range", "value_type": "reported_research_estimate"},
+        "mechanism": {"value": "Domestic fast-payment systems can reduce remittance costs primarily through competitive dynamics they unlock", "unit": "reported infrastructure-to-price mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The World Bank blog summarizes research estimating the association between domestic fast-payment-system availability and the price of a $200 remittance, emphasizing competition and digital access as transmission channels.",
+      "uncertainty": "The reported range is a research estimate summarized in a blog post; it does not by itself prove that every corridor experiences the same reduction or that lower costs increase sending frequency, receipt, investment, or household welfare.",
+      "subgroup": "Senders and recipients using formal digital and domestic payment infrastructure, remittance firms, banks, mobile operators, regulators, and households with limited room for fees.",
+      "counterinterpretation": "Fast payments may reduce costs only where identity, accounts, network interoperability, consumer protection, connectivity, and competition are present; digital systems can also exclude people without access or create new operational risks.",
+      "source_url": "https://blogs.worldbank.org/en/psd/cutting-the-cost-of-sending-money-home--fast-payment-systems--di",
+      "retrieval_hash": "sha256:20162ca43639b0a2630c4b14a92752226b65f064ea343e4c02162c5da91c5123",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT?locations=XO"],
+  "boundary": "This record adds a cross-border household-transfer, remittance-cost, digital-payment, and diaspora-development route. It is not respondent-level data, does not identify individual migration histories or household spending, and does not establish causal effects of fast-payment systems on welfare, migration, or political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank official blog page and linked World Bank remittance indicator page retrieved; flow totals, average costs, corridor share, and fast-payment-system estimate were cross-checked against the official blog summary.",
+    "page_sha256": "sha256:20162ca43639b0a2630c4b14a92752226b65f064ea343e4c02162c5da91c5123",
+    "source_page_identifier": "World Bank blog published 2026-07-01; stable URL recorded above",
+    "checked": "2026-09-26"
+  }
+}

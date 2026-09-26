@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-manufacturing-misallocation-margin-input-mix-2026",
+  "title": "Manufacturing misallocation can rise through both margin and input-mix differences, with decline concentrated in a few industries",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "infrastructure_technology_dependency"],
+  "source_unit": "Census CES Working Paper CES-26-26; U.S. manufacturing establishment data decomposing revenue-productivity dispersion into revenue-margin and input-cost-share components",
+  "geography": "United States manufacturing industries and plants over the last several decades represented in the study's establishment data",
+  "observations": [{
+    "period": "U.S. manufacturing allocative efficiency and measured misallocation; establishment study, paper published April 2026",
+    "denominator": {"value": 1, "unit": "study-defined U.S. manufacturing establishment and industry analysis", "value_type": "study_unit"},
+    "measures": {
+      "components": {"value": "dispersion in revenue margins over costs and dispersion in input cost shares contribute similarly to apparent rising misallocation", "unit": "decomposition of revenue-productivity dispersion", "value_type": "reported_model_result"},
+      "formal_link": {"value": "the paper establishes a formal mapping between the two components and measured allocative efficiency", "unit": "establishment-productivity framework", "value_type": "reported_method"},
+      "sector_concentration": {"value": "rising measured misallocation is pervasive across U.S. manufacturing, but a few industries account for more than half of the aggregate decline", "unit": "industry contribution to aggregate decline", "value_type": "reported_comparison"},
+      "downstream_outcomes": {"value": "not observed in the abstract", "unit": "worker pay, employment, control, consumer prices, local capacity, and household security", "value_type": "unmeasured"}
+    },
+    "method": "The study uses establishment data from U.S. manufacturing industries, decomposes standard revenue-productivity dispersion into revenue-margin and input-cost-share components, and maps inferred distortions to mechanisms affecting one or both components.",
+    "uncertainty": "Measured revenue productivity and allocative efficiency are model-dependent and are not direct measures of worker productivity, wages, firm health, consumer welfare, or public value. The abstract does not identify which policy, technology, market-power, financing, labor, or demand mechanism caused each industry's contribution.",
+    "subgroup": "U.S. manufacturing establishments and industries in the study period; effects may differ by industry, plant size, ownership, geography, technology, labor force, market structure, and input exposure.",
+    "counterinterpretation": "High dispersion can reflect genuine technology, product, quality, or input differences rather than waste. A few industries' large contribution does not mean every plant in those industries is inefficient, or that reducing dispersion would automatically improve jobs, prices, or household outcomes.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-26.html",
+    "retrieval_hash": "sha256:01792818c673e459641276efd39f19404d5d0165e7ee3fc9513df6985e9c8c7a",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-26.pdf", "claim": "Official Census PDF for CES Working Paper CES-26-26", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a firm-allocation layer: aggregate productivity decline can reflect different internal distortions and can be concentrated in a small set of industries. It does not establish worker harm, consumer harm, causal policy mechanisms, local decline, or a direct path from measured misallocation to cultural or political change."
+}

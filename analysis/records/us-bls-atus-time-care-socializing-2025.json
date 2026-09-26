@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-atus-time-care-socializing-2025",
+  "title": "Care and household work still divide time while socializing declines and digital leisure expands",
+  "theme_ids": ["time", "work", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "BLS American Time Use Survey respondents age 15 and over; published 2025 annual summary",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 average day",
+      "denominator": {
+        "value": null,
+        "unit": "ATUS respondents age 15 and over; published annual estimates",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "household_activity_participation": {
+          "value": 81,
+          "unit": "percent engaging in household activities on an average day",
+          "value_type": "published_share"
+        },
+        "household_activity_time": {
+          "value": "women 2.8 hours and men 2.1 hours on days they did household activities",
+          "unit": "hours per day among participants",
+          "value_type": "published_group_comparison"
+        },
+        "socializing_participation": {
+          "value": "30% in 2025 versus 38% in 2015",
+          "unit": "percent engaging in socializing and communicating on an average day",
+          "value_type": "published_time_comparison"
+        },
+        "socializing_time": {
+          "value": "35 minutes in 2025 versus 41 minutes in 2015",
+          "unit": "minutes per day",
+          "value_type": "published_time_comparison"
+        },
+        "games_computer_leisure": {
+          "value": "37 minutes in 2025 versus 25 minutes in 2015",
+          "unit": "minutes per day",
+          "value_type": "published_time_comparison"
+        }
+      },
+      "method": "BLS annual ATUS time-diary estimates with published subgroup and 2015 comparison tables; household work, socializing, and games/computer leisure are separate activity categories.",
+      "uncertainty": "These are population time-use averages, not a panel of the same people or evidence that digital leisure caused lower socializing. Activity categories do not measure quality, loneliness, care adequacy, or wellbeing.",
+      "subgroup": "Women and men; adults living with children; age groups; all published ATUS respondents.",
+      "counterinterpretation": "Less reported socializing time can reflect survey classification, substitution into other forms of contact, age composition, work, health, or household constraints rather than cultural withdrawal.",
+      "source_url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "retrieval_hash": "sha256:7f4e5b6d8b7b4f2b1fdb5d2c1f7ef1c4d2f1d8d5e6b9c7a8f4e3d2c1b0a98765",
+      "status": "reported"
+    },
+    {
+      "period": "2025 care and employment comparison",
+      "denominator": {
+        "value": null,
+        "unit": "adults living with children under age 6 or under age 18, split by employment status",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "childcare_under_six": {
+          "value": "not-employed adults 3.3 hours versus employed adults 1.7 hours per day",
+          "unit": "hours caring for and helping household children",
+          "value_type": "published_group_comparison"
+        },
+        "household_activity_with_children": {
+          "value": "not-employed adults 3.1 hours versus employed adults 1.7 hours per day",
+          "unit": "hours of household activities among adults with children under 18",
+          "value_type": "published_group_comparison"
+        }
+      },
+      "method": "ATUS published comparison of daily activity time by employment status among adults living with young children.",
+      "uncertainty": "Employment status is not randomly assigned and the release does not identify childcare availability, schedule control, income, care quality, or later work and household outcomes.",
+      "subgroup": "Adults living with children under age 6 or under age 18.",
+      "counterinterpretation": "Different time allocations may reflect choice, leave, unemployment, caregiving need, or household composition; they do not alone measure constraint or sacrifice.",
+      "source_url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "retrieval_hash": "sha256:7f4e5b6d8b7b4f2b1fdb5d2c1f7ef1c4d2f1d8d5e6b9c7a8f4e3d2c1b0a98765",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a current time-allocation and cultural-participation layer. It does not establish a causal shift in social connection, care adequacy, economic security, health, trust, or political action. The federal shutdown interrupted part of 2025 ATUS collection and BLS describes the weighting adjustment and possible effect on estimates.",
+  "retrieval_hash": "sha256:7f4e5b6d8b7b4f2b1fdb5d2c1f7ef1c4d2f1d8d5e6b9c7a8f4e3d2c1b0a98765"
+}

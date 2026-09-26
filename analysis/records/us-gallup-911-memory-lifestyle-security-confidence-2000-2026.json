@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-911-memory-lifestyle-security-confidence-2000-2026",
+  "title": "Collective memory of 9/11 remains broad while personal lifestyle change and terrorism worry are lower and confidence in government protection is partisan",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup national poll conducted August 3-24, 2026, with anniversary trend comparisons from 2000-2021",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2000-2026; 9/11 memory, personal change, terrorism worry, and confidence in government protection",
+      "denominator": {
+        "value": 3000,
+        "unit": "U.S. adults surveyed in the August 2026 Gallup poll",
+        "value_type": "published_sample_approximation"
+      },
+      "measures": {
+        "collective_lifestyle_change": {
+          "value": "64% say Americans permanently changed how they live because of 9/11, matching the high recorded at the 20th anniversary; 58% said this at the 10th anniversary and 53% at the fifth",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_anniversary_time_series"
+        },
+        "personal_lifestyle_change": {
+          "value": "28% say they personally permanently changed how they live because of 9/11, compared with 22% at the fifth anniversary and 28% at the 10th and 20th anniversaries",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_anniversary_time_series"
+        },
+        "terrorism_worry": {
+          "value": "37% worry a great deal or fair amount about being a victim of terrorism, compared with 36% in 2021, 45% in 2006, 58% immediately after 9/11, and 24% in 2000",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_longitudinal_comparison"
+        },
+        "government_protection_confidence": {
+          "value": "55% have a great deal or fair amount of confidence that the government will protect them from terrorism, tying the low recorded in December 2015; this was 59% in 2021, 75% 15 years ago, and 88% immediately after 9/11",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_longitudinal_comparison"
+        },
+        "current_party_split_in_protection_confidence": {
+          "value": "Confidence that government will protect people from terrorism is 78% among Republicans, 59% among independents, and 29% among Democrats; in 2021 the corresponding figures were 41%, 53%, and 80%",
+          "unit": "percent within party identification groups",
+          "value_type": "published_subgroup_comparison"
+        },
+        "personal_change_subgroup_contrast": {
+          "value": "Across the combined 2021 and 2026 surveys, personal permanent change is reported more often by Hispanic adults (51%) and Black adults (35%) than White adults (22%), and by weekly religious attenders (40%) than those who seldom or never attend (22%)",
+          "unit": "percent within subgroup",
+          "value_type": "published_subgroup_comparison"
+        }
+      },
+      "method": "Repeated cross-sectional Gallup anniversary polling, with the latest national poll conducted August 3-24, 2026; measures compare collective and personal reported change, terrorism worry, and confidence in government protection across years and demographic or partisan groups.",
+      "uncertainty": "The surveys are not a panel and do not observe the same people over time. Reported lifestyle change is not a behavioral diary or administrative measure, and the time-series differences may reflect question wording, current events, recall, cohort replacement, or changing partisan composition. The reported sample size is rounded to nearly 3,000 in the publication.",
+      "subgroup": "U.S. adults, with published comparisons by party identification, race and ethnicity, religious attendance, age, and urbanicity; combined 2021/2026 estimates are used for some subgroup contrasts.",
+      "counterinterpretation": "A durable collective narrative can coexist with limited personal behavior change because people may understand 9/11 as historically consequential without changing daily routines. Lower terrorism worry does not establish lower objective risk, and the partisan confidence reversal may reflect broader polarization of government legitimacy rather than terrorism-specific performance judgments.",
+      "source_url": "https://news.gallup.com/poll/714062/majority-say-permanently-altered-people-live.aspx",
+      "retrieval_hash": "sha256:fc61803d9017f284d188f250108c6048bcafc144d175c2c64cb1b5d039819156",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a long-horizon cultural-memory, security-perception, and partisan legitimacy layer. It does not infer actual lifestyle behavior, terrorism incidence, government protection capability, causal effects of 9/11 memory, or respondent-level trajectories.",
+  "retrieval_hash": "sha256:fc61803d9017f284d188f250108c6048bcafc144d175c2c64cb1b5d039819156"
+}

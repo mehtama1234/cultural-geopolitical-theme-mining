@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-competition-consumer-discrimination-historical-2025",
+  "title": "Competition changed consumer discrimination unevenly across historical local markets",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "firm_sector_market_power", "unequal_exposure_status", "public_systems_feedback", "political_judgment_action", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 33547; historical nationwide data on nondiscriminatory businesses in three industries, exogenous variation in Black-to-White consumer ratios, and more than 25,000 establishment prices",
+  "geography": "United States local markets in the decades leading up to the Civil Rights Act of 1964",
+  "observations": [{
+    "period": "U.S. historical consumer discrimination and market competition before the 1964 Civil Rights Act; paper issued 2025",
+    "denominator": {"value": 1, "unit": "historical U.S. local-market study across three industries", "value_type": "study_unit"},
+    "measures": {
+      "non_discrimination_change": {"value": "increases in nondiscrimination were concentrated in the least competitive markets", "unit": "historical business-treatment pattern", "value_type": "reported_effect"},
+      "identification": {"value": "the research design leverages two sources of exogenous variation in the ratio of Black-to-White consumers", "unit": "quasi-experimental design", "value_type": "reported_method"},
+      "price_sample": {"value": "the authors assemble more than 25,000 prices charged at establishments classified by discriminatory status", "unit": "establishment-price observations", "value_type": "reported_sample_size"},
+      "price_difference": {"value": "nondiscriminatory firms charged higher prices than discriminatory firms in the same local market", "unit": "within-local-market price comparison", "value_type": "reported_comparison"},
+      "minority_consumer_cost": {"value": "the authors conclude that Black consumers were harmed through higher prices in the nondiscriminatory market", "unit": "historical consumer-cost interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The paper develops a model of consumer discrimination and competition, then examines historical local-market changes using nationwide data on nondiscriminatory businesses in three industries, two sources of exogenous variation in Black-to-White consumer ratios, and establishment price data.",
+    "uncertainty": "The evidence is historical and does not observe current firms, online markets, service quality, customer exit costs, complaints, enforcement, or household welfare. The price comparison does not measure every difference in quality, safety, location, or service, and the abstract does not follow individual customers through search, purchase, switching, or later outcomes.",
+    "subgroup": "Black and White consumers and businesses in historical U.S. local markets across three industries before the Civil Rights Act; effects may vary by industry, local composition, concentration, and business type.",
+    "counterinterpretation": "A higher price at a nondiscriminatory firm does not mean discriminatory treatment was beneficial or that the services were identical. The historical mechanism shows how market forces and consumer composition interacted in that period; it does not establish that more competition today reduces discrimination, or that a present-day price gap has the same cause.",
+    "source_url": "https://www.nber.org/papers/w33547",
+    "retrieval_hash": "sha256:05b1952fdcc05174f300af91128aae78c937a411ae6fd6c00f31dc2f0ce1ee1a",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w33547", "claim": "NBER DOI record for Working Paper 33547", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a historical competition-and-discrimination mechanism: market structure and consumer composition changed firm treatment and prices unevenly. It does not establish current discrimination, current consumer welfare, equal service, usable exit, or a universal relationship between competition and fair treatment."
+}

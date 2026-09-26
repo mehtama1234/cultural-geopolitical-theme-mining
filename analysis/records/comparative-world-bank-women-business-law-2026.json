@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-women-business-law-2026",
+  "title": "Formal gender-equality laws are advancing faster than supportive systems and enforcement",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Bank Women, Business and the Law 2026",
+  "geography": "190 economies, with global, regional, and United States country-profile comparisons across 10 topics of women's economic opportunity",
+  "observations": [
+    {
+      "period": "2026 assessment; data current as of October 1, 2025",
+      "denominator": {
+        "value": 190,
+        "unit": "economies assessed by Women, Business and the Law 2026",
+        "value_type": "economy_cross_section"
+      },
+      "measures": {
+        "women_legal_rights_relative_to_men": {"value": 67, "unit": "average index score out of 100 for women's legal rights relative to men's worldwide", "value_type": "reported_global_index_score"},
+        "supportive_frameworks_in_place": {"value": 47, "unit": "percent of policies and institutions needed to make women's economic rights effective that are in place globally", "value_type": "reported_global_share"},
+        "enforcement_perception": {"value": 53, "unit": "average global perception score for enforcement of laws supporting women's economic participation", "value_type": "reported_global_index_score"},
+        "women_near_full_legal_equality": {"value": 4, "unit": "percent of women living in economies close to full legal equality", "value_type": "reported_population_share"},
+        "economies_reforming_2023_to_2025": {"value": 68, "unit": "economies enacting 113 legal reforms strengthening women's economic opportunities between 2023 and 2025", "value_type": "reported_economy_count"},
+        "economies_with_complete_measured_rights": {"value": 0, "unit": "economies granting women the complete set of rights measured by the index", "value_type": "reported_economy_count"}
+      },
+      "method": "Women, Business and the Law 2026 measures 10 topics—safety, mobility, work, pay, marriage, parenthood, childcare, entrepreneurship, assets, and pensions—through three pillars: legal frameworks, supportive frameworks, and enforcement perceptions.",
+      "uncertainty": "Index scores summarize formal rules, implementation institutions, and expert perceptions; they do not measure every law, lived experience, actual labor-market outcomes, household bargaining, or enforcement case. Cross-economy comparisons depend on indicator definitions, partial scoring, source verification, and expert assessment.",
+      "subgroup": "Women seeking jobs, entrepreneurship, assets, pay, safety, mobility, childcare, parenthood, and retirement security; governments, employers, financial institutions, courts, and legal experts shape the implementation pathway.",
+      "counterinterpretation": "A lower index score does not mean no woman can participate or that reforms have no effect. Legal change can precede institutional capacity, and supportive systems or local practices can exceed what a national index captures.",
+      "source_url": "https://wbl.worldbank.org/en/publications/flagship-report",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "reported"
+    },
+    {
+      "period": "2026 country profile; United States data current through October 1, 2025",
+      "denominator": {
+        "value": 100,
+        "unit": "Women, Business and the Law index score scale for the United States country profile",
+        "value_type": "country_index_score_base"
+      },
+      "measures": {
+        "us_legal_frameworks_score": {"value": 87.58, "unit": "United States score out of 100 on the legal frameworks pillar", "value_type": "reported_country_index_score"},
+        "us_supportive_frameworks_score": {"value": 69.93, "unit": "United States score out of 100 on the supportive frameworks pillar", "value_type": "reported_country_index_score"},
+        "us_enforcement_perceptions_score": {"value": 68.13, "unit": "United States score out of 100 on the enforcement perceptions pillar", "value_type": "reported_country_index_score"},
+        "us_reforms_2023_to_2025": {"value": 0, "unit": "reforms affecting the measured topics enacted by the United States between October 2, 2023 and October 1, 2025", "value_type": "reported_country_count"},
+        "us_topic_relative_gaps": {"value": "Pay, Parenthood, and Pension below the high-income OECD regional average", "unit": "reported topic-level comparison", "value_type": "reported_comparison"}
+      },
+      "method": "The World Bank country profile applies the three WBL 2026 pillars and topic-level comparisons to the United States using the same global methodology.",
+      "uncertainty": "The scores are diagnostic indices, not direct estimates of women's employment, wages, business ownership, safety, care burden, or retirement outcomes. A no-reform interval does not show whether existing rules improved, worsened, or were enforced differently during the period.",
+      "subgroup": "Women in the United States across employment, pay, parenthood, childcare, entrepreneurship, assets, pensions, safety, and mobility contexts; employers, agencies, courts, and service providers are implementation actors.",
+      "counterinterpretation": "High legal-framework scores can coexist with meaningful practical gaps, while formal federalism and state-level protections may not be fully represented by a single national profile.",
+      "source_url": "https://wbl.worldbank.org/en/data/economy/united-states",
+      "retrieval_hash": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a gendered legal-opportunity, implementation, enforcement, work, entrepreneurship, care, and household-room route. It does not identify individual women, establish causal effects of legal reform, or substitute index scores for lived economic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Women, Business and the Law 2026 flagship page, official PDF, global summary, and United States country profile retrieved; three-pillar scores, 190-economy coverage, reforms, enforcement, supportive frameworks, and topic-level caveats cross-checked against the publication.",
+    "pdf_sha256": "sha256:33e31e3f76fa3fbece056f9c2c71f526b45785dcab7eb4ff51df9289034fac96",
+    "checked": "2026-09-26"
+  }
+}

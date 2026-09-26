@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power",
+  "title": "Gender inequality is being reproduced across poverty, conflict, food security, digital access, care, and institutional power",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "UN Women and UN DESA, Progress on the Sustainable Development Goals: The Gender Snapshot 2025",
+  "geography": "Global comparison across the 2030 Agenda, with gender-disaggregated indicators and scenario analysis",
+  "observations": [
+    {
+      "period": "2025 baseline and 2030 projection; extreme poverty",
+      "denominator": {"value": 1, "unit": "women and girls worldwide under the report's poverty scenarios", "value_type": "global_scenario_frame"},
+      "measures": {
+        "women_girls_extreme_poverty_2030": {"value": 351, "unit": "millions of women and girls projected to remain in extreme poverty in 2030 if current trends continue", "value_type": "reported_projection"},
+        "digital_divide_gdp_gain": {"value": 1.5, "unit": "trillion US dollars of additional global GDP by 2030 under a closed gender digital divide scenario", "value_type": "reported_scenario"},
+        "women_girls_benefit_digital_closure": {"value": 343.5, "unit": "millions of women and girls projected to benefit from closing the gender digital divide", "value_type": "reported_scenario"},
+        "women_lifted_from_poverty_digital_closure": {"value": 30, "unit": "millions of women projected to be lifted from poverty by 2050 under the digital-divide scenario", "value_type": "reported_scenario"}
+      },
+      "method": "UN Women and UN DESA synthesis of SDG indicators and modeled scenario analysis linking gender equality investments, digital inclusion, and poverty outcomes.",
+      "uncertainty": "The projection is scenario-dependent and does not identify a single causal intervention; global aggregates conceal country, age, disability, household, and intersectional variation.",
+      "subgroup": "Women and girls, men and boys, poor households, digitally excluded populations, and countries across income and development contexts.",
+      "counterinterpretation": "Digital access can expand opportunity while leaving affordability, safety, care, skills, ownership, and bargaining gaps intact; GDP gains do not automatically become income, security, or agency gains.",
+      "source_url": "https://desapublications.un.org/publications/gender-snapshot-2025",
+      "retrieval_hash": "sha256:574daa8238bd6cab33033e058ebaecc88a9a2d0e5b919f86077c10b3c45a7c79",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; conflict and food insecurity exposure",
+      "denominator": {"value": 1, "unit": "global population and conflict/food-security indicators summarized by the report", "value_type": "global_indicator_frame"},
+      "measures": {
+        "women_girls_near_deadly_conflict": {"value": 676, "unit": "millions of women and girls living within reach of deadly conflict", "value_type": "reported_estimate"},
+        "female_male_food_insecurity_gap": {"value": 64, "unit": "millions more female adults than male adults experiencing moderate or severe food insecurity in 2024", "value_type": "reported_difference"},
+        "gender_equality_targets": {"value": "none of the global gender-equality targets are on track", "unit": "report assessment of SDG gender-equality targets", "value_type": "reported_status"}
+      },
+      "method": "UN Women and UN DESA compilation of conflict exposure, food-security, and SDG progress indicators with gender disaggregation.",
+      "uncertainty": "Conflict proximity, food insecurity, and target-status measures use different reference periods and reporting systems; they describe exposure and progress status rather than individual harm or causal pathways.",
+      "subgroup": "Women and girls in conflict-affected settings, female and male adults facing food insecurity, displaced and otherwise exposed populations.",
+      "counterinterpretation": "Gender gaps may widen through conflict and food shocks, but local institutions, social networks, humanitarian access, and women-led responses can change exposure and recovery trajectories.",
+      "source_url": "https://unstats.un.org/sdgs/gender-snapshot/2025/",
+      "retrieval_hash": "sha256:574daa8238bd6cab33033e058ebaecc88a9a2d0e5b919f86077c10b3c45a7c79",
+      "status": "reported"
+    },
+    {
+      "period": "2025; care, work, and social-protection conditions",
+      "denominator": {"value": 1, "unit": "global SDG gender-equality indicator and policy evidence frame", "value_type": "global_policy_frame"},
+      "measures": {
+        "care_and_work": {"value": "unpaid care, decent work, social protection, and economic resources remain central cross-SDG gender constraints", "unit": "report synthesis across SDG indicators", "value_type": "reported_pattern"},
+        "institutional_backing": {"value": "progress depends on financing, data, services, legal reform, and accountable institutions rather than isolated empowerment programs", "unit": "report policy synthesis", "value_type": "reported_mechanism"},
+        "investment_frame": {"value": "targeted investments in women and girls can produce gains across poverty, food, climate, digital inclusion, and public decision-making", "unit": "report cross-SDG framework", "value_type": "reported_framework"}
+      },
+      "method": "Cross-SDG synthesis of gender-disaggregated indicators and policy recommendations from UN Women and UN DESA.",
+      "uncertainty": "The synthesis joins indicators with different definitions, coverage, and time frames; recommended investments are not evaluated as a single causal package.",
+      "subgroup": "Caregivers, workers in formal and informal employment, women and girls needing social protection, and institutions responsible for services and data.",
+      "counterinterpretation": "Formal legal or budget commitments may not translate into accessible services, changed household bargaining, safer work, or durable institutional power.",
+      "source_url": "https://desapublications.un.org/publications/gender-snapshot-2025",
+      "retrieval_hash": "sha256:574daa8238bd6cab33033e058ebaecc88a9a2d0e5b919f86077c10b3c45a7c79",
+      "status": "reported"
+    },
+    {
+      "period": "2025; power, rights, and implementation capacity",
+      "denominator": {"value": 1, "unit": "global SDG gender-equality governance frame", "value_type": "institutional_frame"},
+      "measures": {
+        "power_distribution": {"value": "women remain underrepresented in the institutions that shape economic, political, peace, security, technology, and public-life decisions", "unit": "report synthesis", "value_type": "reported_pattern"},
+        "implementation_gap": {"value": "the report identifies an urgent gap between commitments and implementation across gender-equality targets", "unit": "report assessment", "value_type": "reported_status"},
+        "data_requirement": {"value": "gender-disaggregated data and sustained financing are required to monitor progress and target action", "unit": "report recommendation", "value_type": "reported_recommendation"}
+      },
+      "method": "UN Women and UN DESA review of SDG indicators, institutional conditions, financing, and policy implementation barriers.",
+      "uncertainty": "Representation and legal indicators do not directly measure influence, safety, enforcement, or lived access; country reporting and data availability are uneven.",
+      "subgroup": "Women and girls, women-led organizations, public institutions, political and economic decision-makers, and communities affected by implementation gaps.",
+      "counterinterpretation": "Institutional representation can matter without producing immediate parity, while local collective action may generate change that global indicators register slowly.",
+      "source_url": "https://knowledge.unwomen.org/sites/default/files/2025-09/progress-on-the-sustainable-development-goals-the-gender-snapshot-2025-en.pdf",
+      "retrieval_hash": "sha256:574daa8238bd6cab33033e058ebaecc88a9a2d0e5b919f86077c10b3c45a7c79",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.weforum.org/publications/global-gender-gap-report-2026/in-full/benchmarking-gender-gaps-2026/", "claim": "WEF Global Gender Gap 2026 provides a complementary parity-index and leadership-pipeline lens."},
+    {"source_url": "https://www.unwomen.org/en/digital-library/publications/2026/03/ideologies-institutions-and-power-addressing-discriminatory-social-norms", "claim": "UN Women provides complementary institutional and social-norms analysis."}
+  ],
+  "boundary": "This record adds an SDG-wide gender-inequality route linking poverty, conflict, food insecurity, digital access, care, work, rights, and institutional power. It uses aggregate publication indicators and scenarios, not respondent-level analysis, household microdata, individual conflict histories, or causal estimates of any single intervention.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Women, UN DESA, and UN SDG publication pages and the 2025 Gender Snapshot PDF were checked for the poverty, digital-divide, conflict, food-insecurity, implementation, and institutional-power claims.",
+    "source_url_sha256": "sha256:574daa8238bd6cab33033e058ebaecc88a9a2d0e5b919f86077c10b3c45a7c79",
+    "checked": "2026-09-26"
+  }
+}

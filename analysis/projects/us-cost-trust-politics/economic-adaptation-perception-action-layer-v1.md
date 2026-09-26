@@ -47,6 +47,17 @@ proof of a specific price experience. Nonparticipation is not proof of apathy:
 it may reflect time, information, access, distrust, dependence, or the cost of
 acting. These distinctions are necessary for identifying societal trends.
 
+The new CIRCLE youth layer supplies a sharper bridge at the point where
+material pressure becomes political efficacy. Among 5,549 US adults ages
+18–29, roughly six in ten reported trouble meeting basic needs; struggling
+youth were less likely to say voting matters and less likely to report prior or
+intended voting. Yet housing, groceries, health care, and wages were also
+salient political concerns. This supports two possible routes: financial
+pressure can weaken the sense that participation will work, or it can mobilize
+people when a credible remedy and political home are visible. The
+cross-sectional survey does not determine which route a particular young
+person took or observe final turnout.
+
 ## What the comparison supports
 
 1. **Adaptation is widespread but not uniform.** SHED shows that price pressure
@@ -67,6 +78,11 @@ acting. These distinctions are necessary for identifying societal trends.
    volunteering, news use, discussion, and sharing combine in different ways.
    Political action must therefore be measured beside consumer and civic
    actions, not substituted for them.
+5. **Efficacy is a conversion gate.** The CIRCLE youth evidence places a
+   belief about whether voting matters between financial strain and stated
+   readiness to act. Economic concern alone is not enough; perceived
+   responsiveness, belonging, and a credible route to change may determine
+   whether pressure becomes withdrawal or mobilization.
 
 ## Status of the arrows
 
@@ -116,3 +132,4 @@ action.
 - [ANES 2024 political judgment layer](anes-2024-political-judgment-layer-v1.md)
 - [Pew 2025 news and civic-engagement layer](../us-digital-habits-attention/pew-2025-news-civic-engagement-layer-v1.md)
 - [Cross-source trust, meaning, and action layer](cross-source-trust-action-layer-v1.md)
+- [CIRCLE youth financial-strain and political-engagement finding](findings/us-cost-trust-politics-049.md)

@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-fda-third-party-device-review-audit-2026",
+  "title": "Delegating an initial medical-device review does not delegate final safety responsibility",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "firm_sector_market_power", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "GAO-26-108499, Medical Devices: FDA Should Strengthen Policies Guiding Audits of Third Party Review Organizations",
+  "geography": "United States; FDA Center for Devices and Radiological Health Third Party 510(k) Review Program, fiscal years 2018–2025, with audits through 2026",
+  "observations": [
+    {
+      "period": "FY2018–FY2025 submission metrics; periodic audits 2000–2026",
+      "denominator": {"value": 617, "unit": "510(k) submissions initially reviewed and recommended by third-party organizations from FY2018–FY2025", "value_type": "study_population"},
+      "measures": {
+        "review_share": {"value": "about 2%", "unit": "share of CDRH 510(k) reviews involving third-party organizations each year", "value_type": "reported_share"},
+        "substantial_equivalence": {"value": 526, "unit": "third-party-reviewed submissions with FDA final determination of substantial equivalence", "value_type": "reported_count"},
+        "review_concentration": {"value": "90%", "unit": "share of third-party reviews supplied by two organizations", "value_type": "reported_share"},
+        "active_accreditation": {"value": 9, "unit": "third parties with active accreditations as of May 2026; 32 had been accredited since program inception", "value_type": "reported_count"},
+        "audits": {"value": 25, "unit": "periodic third-party audits conducted from 2000 through 2026", "value_type": "reported_count"},
+        "audit_delay": {"value": "some recent deficiency audits took more than six months to close; one 2025 audit remained open at the report cutoff", "unit": "audit resolution timing", "value_type": "reported_condition"},
+        "oversight_gap": {"value": "FDA policy lacked target time frames for completing audits and communicating findings", "unit": "policy control gap", "value_type": "reported_gap"}
+      },
+      "method": "GAO reviewed the authorizing statute, FDA policies and guidance, quarterly performance metrics, MDUFA reports, audit documentation and internal communications, and interviewed FDA officials and representatives from six third parties.",
+      "uncertainty": "Third-party review is voluntary and covers selected eligible devices; FDA retains the final decision on whether a device may be marketed. Public metrics do not establish device safety, clinical benefit, patient outcomes, review quality by product, or whether audit delays caused a harmful market decision. The 617 submissions are a program count, not all medical devices or all FDA reviews.",
+      "subgroup": "FDA CDRH and accredited third-party review organizations; two organizations supplied most reviews, and the report interviewed six organizations while nine had active accreditations at the May 2026 point.",
+      "counterinterpretation": "A small third-party share can still matter for oversight quality, but the report does not show that third-party review is less safe than direct FDA review. A delayed audit can reflect a documentation or correction process rather than a defective device, and a final substantial-equivalence determination is not a clinical outcome. Concentration may reflect specialization or eligibility rather than anticompetitive conduct.",
+      "source_url": "https://www.gao.gov/products/gao-26-108499",
+      "retrieval_hash": "sha256:6497bcc4f4ef9035ce313636f457b0abce9d73cb966d73a796198e29d67182c0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/assets/gao-26-108499.pdf", "claim": "Official GAO report PDF provides the program metrics, audit history, methodology, and recommendation.", "status": "official-report"}
+  ],
+  "boundary": "This record adds an oversight-and-safety conversion layer: an accredited outside reviewer can increase review capacity while FDA retains final responsibility and audit timing shapes how quickly deficiencies are corrected. It does not establish device safety, patient benefit, market competition, or clinical access.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GAO landing page and full report PDF; FDA internal audit files and device-level submissions are not retained.", "pdf_sha256": "sha256:6497bcc4f4ef9035ce313636f457b0abce9d73cb966d73a796198e29d67182c0", "checked": "2026-09-23"}
+}

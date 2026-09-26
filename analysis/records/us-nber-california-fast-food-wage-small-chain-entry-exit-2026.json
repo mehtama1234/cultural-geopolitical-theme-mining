@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-california-fast-food-wage-small-chain-entry-exit-2026",
+  "title": "A wage floor can have modest overall employment effects while concentrating pressure on small chains",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35749, establishment-level evidence on California's AB 1228 fast-food minimum wage",
+  "geography": "California fast-food establishments and chains covered or compared under the $20 hourly wage floor effective April 2024",
+  "observations": [
+    {
+      "period": "April 2024 policy implementation through the study's 2026 establishment-level analysis",
+      "denominator": {
+        "value": null,
+        "unit": "Fast-food establishments and chains in the study's establishment-level administrative data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "policy": {
+          "value": 20,
+          "unit": "US dollars per hour for large fast-food chains under California AB 1228",
+          "value_type": "reported_policy_level"
+        },
+        "employment_effect": {
+          "value": "negative employment effects, but modest overall effects thus far",
+          "unit": "establishment-level reported study result",
+          "value_type": "reported_pattern"
+        },
+        "small_chain_entry": {
+          "value": "policy slowed entry among small chains",
+          "unit": "reported establishment/chain outcome",
+          "value_type": "reported_effect"
+        },
+        "small_chain_exit": {
+          "value": "policy increased exit among small chains",
+          "unit": "reported establishment/chain outcome",
+          "value_type": "reported_effect"
+        },
+        "wage_worker_consumer_outcomes": {
+          "value": "not observed in the public abstract",
+          "unit": "missing worker earnings, hours, prices, product quality, customer demand, and household outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Establishment-level analysis designed to address chain-size coverage and industry-code measurement problems in aggregate datasets; the abstract reports a comparison of employment effects by chain size and entry/exit.",
+      "uncertainty": "The public abstract does not disclose the establishment counts, full study window, effect sizes, or all specifications. This is a preliminary working paper; establishment entry or exit does not identify the same workers' wages, hours, or later employment.",
+      "subgroup": "Small chains and establishments covered by or exposed to California's fast-food wage floor; large chains receive separate treatment in the abstract, while individual workers, customers, franchise owners, and suppliers are not linked.",
+      "counterinterpretation": "Negative effects concentrated among small chains may reflect coverage, business composition, demand, labor substitution, or other adjustments rather than a single wage-cost mechanism. Modest overall employment effects can coexist with meaningful effects for particular workers or firms.",
+      "source_url": "https://www.nber.org/papers/w35749",
+      "retrieval_hash": "sha256:6c0ff6956e42c07d4615c8e2b7a5ed773fe15cabc224fd139ad8687d334e5874",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35171", "claim": "A separate NBER study using QCEW and QWI data reports different employment and separation-rate estimates, making measurement and unit choice part of the interpretation.", "status": "comparative-context"},
+    {"source_url": "https://www.nber.org/papers/w34990", "claim": "A separate NBER study estimates California fast-food price increases, supplying a consumer-price comparison rather than a worker or establishment outcome.", "status": "comparative-context"}
+  ],
+  "boundary": "This record adds establishment-level evidence that small-chain entry and exit can move differently from aggregate employment after a wage-floor change. It does not establish worker earnings or hours, consumer prices, service quality, firm productivity, household welfare, or the policy's total causal effect."
+}

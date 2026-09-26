@@ -23,6 +23,13 @@ the mechanisms beneath visible events, compare who is affected and who has
 alternatives, and preserve the evidence needed to show where the explanation
 could be wrong.
 
+For the current plain-language orientation, read the [14-theme readout](analysis/US-BROAD-CURRENT-14-THEME-READOUT_V1.md).
+The focused follow-ups are the [digital-life synthesis](analysis/US-BROAD-PLATFORM-DIGITAL-SUBTHEME-SYNTHESIS_V1.md),
+[cultural and political meaning synthesis](analysis/US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md),
+[geopolitical and state-power synthesis](analysis/US-BROAD-GEOPOLITICAL-STATE-SUBTHEME-SYNTHESIS_V1.md),
+and [infrastructure bargains synthesis](analysis/US-BROAD-INFRASTRUCTURE-BARGAIN-SYNTHESIS_V1.md).
+The first evidence bridge to begin from that map is the [AI concern, workplace meaning, and political interpretation synthesis](analysis/projects/ai-work-control/ai-concern-management-meaning-cross-source-synthesis-v1.md).
+
 ## The governing chain
 
 ```text

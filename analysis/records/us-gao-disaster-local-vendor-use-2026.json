@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disaster-local-vendor-use-2026",
+  "title": "Disaster recovery money can enter a place without agencies knowing whether local firms received the work",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108426 review of FEMA and Army Corps disaster contracting after Hurricane Helene, Maui wildfires, and Hurricane Ian",
+  "geography": "Declared disaster areas associated with Hurricane Helene, the Maui wildfires, and Hurricane Ian",
+  "observations": [
+    {
+      "period": "Selected disasters and contracts reviewed through 2026",
+      "denominator": {
+        "value": 40,
+        "unit": "nongeneralizable selected FEMA and Army Corps post-disaster contracts",
+        "value_type": "selected_contract_sample"
+      },
+      "measures": {
+        "disasters_reviewed": {
+          "value": 3,
+          "unit": "Hurricane Helene, Maui wildfires, and Hurricane Ian",
+          "value_type": "selected_disaster_count"
+        },
+        "fema_contract_sample": {
+          "value": "25 contracts: 12 local-vendor awards and 13 nonlocal-vendor awards",
+          "unit": "selected FEMA contracts",
+          "value_type": "selected_contract_breakdown"
+        },
+        "corps_contract_sample": {
+          "value": "15 contracts: 7 local-vendor awards and 8 nonlocal-vendor awards",
+          "unit": "selected Army Corps contracts",
+          "value_type": "selected_contract_breakdown"
+        },
+        "fema_recorded_local_share": {
+          "value": 3,
+          "unit": "percent of $2.9 billion in FEMA contract obligations identified in agency data as local-vendor contracts; approximately $85 million",
+          "value_type": "reported_recorded_share"
+        },
+        "local_area_identification_error": {
+          "value": 4,
+          "unit": "of 13 contracting officers who awarded local-vendor contracts and incorrectly identified the local disaster area",
+          "value_type": "selected_officer_count"
+        },
+        "corps_documentation": {
+          "value": "all selected Corps contracts lacked documents related to local-vendor use",
+          "unit": "selected contract-file review result",
+          "value_type": "reported_process_finding"
+        },
+        "local_economic_recovery": {
+          "value": "not observed",
+          "unit": "local jobs, wages, business survival, subcontracting, project quality, and household recovery",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO review of law, regulation, policy, agency tracking sheets, interviews with officials and contracting officers, and a nongeneralizable sample of 40 contracts from three selected disasters.",
+      "uncertainty": "The FEMA 3% figure describes the recorded local-vendor field for three selected disasters and may reflect coding, monitoring, local capacity, advance contracts, or actual award patterns. The contract sample cannot support a national rate or causal local-economic effect.",
+      "subgroup": "FEMA and Army Corps disaster contracts and contracting officers associated with Hurricane Helene, the Maui wildfires, and Hurricane Ian; local and nonlocal vendors are separate award categories.",
+      "counterinterpretation": "Nonlocal vendors may be necessary when disaster-area firms lack capacity, supplies, speed, or functioning infrastructure; the statutory local preference applies only when feasible and practicable, so a low recorded local share is not by itself proof of wrongdoing or poor response.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108426/index.html",
+      "retrieval_hash": "sha256:c5bbf7cc71398f8035653b21243940ddd9c7f78bb22b2dccfb2c0e5cc5674b1f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.acquisition.gov/far/26.202",
+      "claim": "Federal Acquisition Regulation local-area preference requires preference for local firms to the extent feasible and practicable in covered disaster contracts.",
+      "status": "official-regulatory-context"
+    }
+  ],
+  "boundary": "This record captures disaster-contracting policy, selected contracts, recorded local-vendor share, and agency monitoring gaps. It does not establish a national local-vendor rate, contract quality, local jobs or business survival, household recovery, agency wrongdoing, or causal economic impact.",
+  "retrieval_hash": "sha256:c5bbf7cc71398f8035653b21243940ddd9c7f78bb22b2dccfb2c0e5cc5674b1f"
+}

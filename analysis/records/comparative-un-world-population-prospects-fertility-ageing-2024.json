@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-world-population-prospects-fertility-ageing-2024",
+  "title": "Demographic transition is splitting the world between population ageing and continued growth, reshaping care, work, migration, and state capacity",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN DESA Population Division, World Population Prospects 2024: Summary of Results",
+  "geography": "237 countries or areas, with global, regional, and national demographic estimates and projections to 2100",
+  "observations": [
+    {
+      "period": "2024-2100; global population projection",
+      "denominator": {
+        "value": 237,
+        "unit": "countries or areas covered by World Population Prospects 2024 estimates and projections",
+        "value_type": "global_demographic_projection_frame"
+      },
+      "measures": {
+        "population_2024": {"value": 8200000000, "unit": "global population in 2024, approximately", "value_type": "reported_global_estimate"},
+        "population_peak": {"value": 10300000000, "unit": "global population projected around the mid-2080s", "value_type": "reported_projection"},
+        "population_2100": {"value": 10200000000, "unit": "global population projected by the end of the century, approximately", "value_type": "reported_projection"},
+        "peak_probability": {"value": 80, "unit": "percent estimated probability that global population peaks within the current century", "value_type": "reported_probability"}
+      },
+      "method": "UN DESA demographic estimates and probabilistic projections based on fertility, mortality, migration, age, and sex trends, with country and regional projections through 2100.",
+      "uncertainty": "Projections are scenario-dependent and sensitive to future fertility, mortality, migration, conflict, policy, and data revisions. A global peak does not imply simultaneous decline or reduced pressure in every country or region.",
+      "subgroup": "Countries and areas with already-peaked, growing, or rapidly growing populations, plus populations differentiated by age, sex, fertility, mortality, and migration.",
+      "counterinterpretation": "Lower aggregate population growth may reduce some environmental pressures but does not remove the need to reduce per-person impact; population decline can also coexist with high consumption, fiscal strain, or uneven access to care and housing.",
+      "source_url": "https://www.un.org/development/desa/pd/node/4324",
+      "retrieval_hash": "sha256:d49b56e7ba7952c3cd81601949f2565ee56b76570e4631f0cf992f805f200525",
+      "status": "estimated"
+    },
+    {
+      "period": "1990-2024; global fertility and population replacement",
+      "denominator": {
+        "value": 237,
+        "unit": "countries or areas in the UN demographic estimate and fertility comparison frame",
+        "value_type": "multi_country_demographic_frame"
+      },
+      "measures": {
+        "global_fertility_2024": {"value": 2.25, "unit": "live births per woman globally in 2024", "value_type": "reported_global_estimate"},
+        "global_fertility_1990": {"value": 3.31, "unit": "live births per woman globally around 1990", "value_type": "reported_historical_estimate"},
+        "below_replacement_countries": {"value": "more than half", "unit": "share of countries and areas with fertility below 2.1 live births per woman", "value_type": "reported_country_share"},
+        "ultra_low_fertility": {"value": "nearly one fifth", "unit": "share of countries and areas with fertility below 1.4 live births per woman", "value_type": "reported_country_share"}
+      },
+      "method": "UN DESA comparison of historical and current fertility estimates, replacement-level classifications, and population-peak trajectories.",
+      "uncertainty": "Replacement fertility is a long-run demographic benchmark, not a social target or measure of individual wellbeing. Country averages conceal desired family size, access to care and contraception, economic constraints, and differences in migration.",
+      "subgroup": "Countries with ultra-low fertility and peaked populations, countries with high fertility and continued growth, women and families at different ages, and populations affected by education, health, care, and labour-market conditions.",
+      "counterinterpretation": "Fertility decline can reflect expanded choice and education as well as affordability, housing, care, insecurity, or postponed partnership; demographic projections should not be converted into pronatalist or anti-migration conclusions without examining agency and constraints.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2024_summary_of_results_final_web.pdf",
+      "retrieval_hash": "sha256:d49b56e7ba7952c3cd81601949f2565ee56b76570e4631f0cf992f805f200525",
+      "status": "reported"
+    },
+    {
+      "period": "1995-2054; life expectancy, ageing, and population structure",
+      "denominator": {
+        "value": 1,
+        "unit": "global population mortality, longevity, and age-structure projection frame",
+        "value_type": "global_demographic_projection_frame"
+      },
+      "measures": {
+        "life_expectancy_2024": {"value": 73.3, "unit": "years of global life expectancy at birth in 2024", "value_type": "reported_global_estimate"},
+        "life_expectancy_1995": {"value": 64.9, "unit": "years of global life expectancy at birth around 1995, implied by an 8.4-year increase", "value_type": "derived_from_reported_change"},
+        "older_death_share_2050s": {"value": 50, "unit": "more than percent of global deaths projected to occur at age 80 or higher by the late 2050s", "value_type": "reported_projection"},
+        "older_than_children": {"value": "by the late 2070s, persons aged 65 or older are projected to outnumber children under 18 globally", "unit": "reported age-structure milestone", "value_type": "reported_projection"}
+      },
+      "method": "UN DESA mortality, life-expectancy, and age-structure estimates and projections, including post-pandemic recovery in global longevity.",
+      "uncertainty": "Age thresholds are administrative and culturally variable; life expectancy is not healthy life expectancy, care need, or work capacity. Aggregate ageing does not reveal how longevity, disability, wealth, or family support are distributed.",
+      "subgroup": "Older people, children, working-age populations, caregivers, health and social-protection systems, labour markets, and countries at different stages of demographic transition.",
+      "counterinterpretation": "Longer lives can support work, learning, care, and social participation when health, accessibility, income, and institutions improve; ageing is not synonymous with dependency or fiscal collapse.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/wpp2024_summary_of_results_final_web.pdf",
+      "retrieval_hash": "sha256:d49b56e7ba7952c3cd81601949f2565ee56b76570e4631f0cf992f805f200525",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/sustainabledevelopment/blog/2024/07/press-release-wpp2024/", "claim": "UN companion release on population peak, fertility, longevity, and age structure."},
+    {"source_url": "https://www.un.org/development/desa/pd/content/World-Population-Prospects-2024", "claim": "UN DESA dataset and methodology landing page."}
+  ],
+  "boundary": "This record adds a demographic-transition-to-care, work, migration, place, and state-capacity route. It is not individual fertility or family-preference data, does not establish causal effects of demographic change on household behavior or political action, and does not treat population projections as normative targets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA report page, summary PDF search result, and companion release were retrieved; population peak, fertility, replacement, life-expectancy, mortality-age, and ageing milestones were cross-checked against official UN materials. The hash is a source-URL fingerprint for the report landing page.",
+    "source_url_sha256": "sha256:d49b56e7ba7952c3cd81601949f2565ee56b76570e4631f0cf992f805f200525",
+    "checked": "2026-09-26"
+  }
+}

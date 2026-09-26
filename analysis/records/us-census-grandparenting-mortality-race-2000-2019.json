@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-grandparenting-mortality-race-2000-2019",
+  "title": "The health meaning of raising grandchildren differs sharply across racial and ethnic groups",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau and Social Security Administration working paper linking the 2000 Census long-form sample for adults age 50 and older to death records from 2000-2019",
+  "geography": "United States adults age 50 and older; non-Hispanic White, non-Hispanic Black, Hispanic, and Asian groups",
+  "observations": [
+    {
+      "period": "2000-2019 mortality follow-up from 2000 Census long-form sample; paper published February 2026",
+      "denominator": {
+        "value": 64027000,
+        "unit": "weighted study population of adults age 50 and older",
+        "value_type": "reported_weighted_study_scale"
+      },
+      "measures": {
+        "white_coresident_grandparents": {
+          "value": "higher mortality rates than peers without coresident grandchildren, regardless of duration of primary caregiving",
+          "unit": "reported longitudinal association",
+          "value_type": "reported_association"
+        },
+        "asian_coresident_grandparents": {
+          "value": "lower mortality rates than peers without coresident grandchildren, regardless of duration of primary caregiving",
+          "unit": "reported longitudinal association",
+          "value_type": "reported_association"
+        },
+        "hispanic_long_term_caregivers": {
+          "value": "increased mortality risk among long-term primary caregivers",
+          "unit": "reported subgroup association",
+          "value_type": "reported_association"
+        },
+        "black_short_term_caregivers": {
+          "value": "reduced mortality risk among short-term primary caregivers",
+          "unit": "reported subgroup association",
+          "value_type": "reported_association"
+        },
+        "caregiving_duration": {
+          "value": "duration of primary caregiving does not produce one uniform cross-group pattern",
+          "unit": "reported heterogeneity across race/ethnicity and caregiving duration",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Census and SSA linked-data study of adults age 50 or older from the 2000 Census long-form sample followed to death records from 2000-2019, examining longitudinal associations between coresident grandparenting status, primary caregiving duration, race/ethnicity, and mortality.",
+      "uncertainty": "This is a working paper and the abstract reports associations, not a randomized caregiving effect. The public page does not provide the full selection controls, caregiving measurement, household context, health history, causes of death, or mechanisms. Coresidence and caregiving can reflect prior health, family resources, cultural practice, housing, or unobserved support.",
+      "subgroup": "Adults age 50 and older identified as non-Hispanic White, non-Hispanic Black, Hispanic, or Asian, compared by coresident grandchildren, primary-caregiving duration, and mortality follow-up.",
+      "counterinterpretation": "The same caregiving arrangement can mean burden, mutual support, cultural obligation, housing necessity, or access to family resources. Race/ethnicity categories contain varied histories and circumstances. Mortality associations do not identify whether caregiving caused harm or protection, nor whether public services, income, health care, housing, or kin support would change the pattern.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-13.html",
+      "retrieval_hash": "sha256:453e23292888b36fda3c3828eac9f381060296b350e2883cafbaf65ac3e0015a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1401",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and linked-data scope.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-13.pdf",
+      "claim": "The official paper PDF provides the Census-SSA linkage and mortality follow-up context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded race- and duration-specific association between coresident grandparenting, primary caregiving, and mortality. It does not establish causality, universal caregiving burden, mechanisms, or the effect of public support and family resources.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-13 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying confidential Census-SSA linked records are not retained",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-consumer-expenditures-income-quintile-2024",
+  "title": "Consumer spending growth and housing exposure differ across income quintiles",
+  "theme_ids": ["cost"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "BLS Consumer Expenditure Survey consumer units; published annual 2023-to-2024 income-quintile comparisons",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024 annual Consumer Expenditure Survey results, compared with 2023",
+      "denominator": {
+        "value": 1,
+        "unit": "average U.S. consumer unit; a consumer unit is not necessarily a household or an individual",
+        "value_type": "published_consumer_unit_average"
+      },
+      "measures": {
+        "average_annual_expenditures": {
+          "value": 78535,
+          "unit": "U.S. dollars per consumer unit",
+          "value_type": "published_nominal_average"
+        },
+        "expenditure_change_from_2023": {
+          "value": 1.8,
+          "unit": "percent",
+          "value_type": "published_annual_change"
+        },
+        "budget_shares": {
+          "value": "housing 33.4%; transportation 17.0%; food 12.9%; personal insurance and pensions 12.5%; health care 7.9%",
+          "unit": "share of average annual expenditures",
+          "value_type": "published_composition"
+        },
+        "housing_change": {
+          "value": 3.3,
+          "unit": "percent increase from 2023",
+          "value_type": "published_annual_change"
+        }
+      },
+      "method": "BLS published annual Consumer Expenditure Survey summary based on Diary and Interview Surveys; nominal consumer-unit averages and expenditure shares are reported separately from person-level financial conditions.",
+      "uncertainty": "Average spending and shares do not identify a particular bill, quantity, liquidity position, unmet need, debt, substitute, or welfare change. Nominal expenditure change can reflect price, quantity, composition, or reporting differences.",
+      "subgroup": "All U.S. consumer units in the published 2024 annual summary.",
+      "counterinterpretation": "Higher expenditure can reflect greater consumption or income rather than pressure, while a large housing share does not establish that a given consumer unit faced unaffordable housing.",
+      "source_url": "https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm",
+      "retrieval_hash": "bls-consumer-expenditures-2024:sha256:8964148fb7770c50f279c4bd3665d212d618c28945750ad3fdf3e74cc25af4c6",
+      "status": "reported"
+    },
+    {
+      "period": "2023-to-2024 annual change by published consumer-unit income quintile",
+      "denominator": {
+        "value": 5,
+        "unit": "BLS published income quintiles of consumer units",
+        "value_type": "published_income_grouping"
+      },
+      "measures": {
+        "income_change_by_quintile": {
+          "value": "lowest +6.8%; second +5.3%; third +4.8%; fourth +4.1%; highest 0.0%",
+          "unit": "income before taxes, annual percent change",
+          "value_type": "published_group_comparison"
+        },
+        "expenditure_change_by_quintile": {
+          "value": "lowest +3.8%; second +2.3%; third +2.3%; fourth +2.4%; highest +0.4%",
+          "unit": "average expenditures, annual percent change",
+          "value_type": "published_group_comparison"
+        },
+        "housing_exposure": {
+          "value": "BLS reports that the lowest-quintile expenditure increase was concentrated in housing; housing was the largest dollar contributor to the increase for the fourth quintile",
+          "unit": "published compositional interpretation",
+          "value_type": "reported_distribution"
+        }
+      },
+      "method": "BLS published comparison of annual income-before-tax and expenditure changes by consumer-unit income quintile; quintile results are retained as grouped descriptive comparisons rather than a panel of the same units.",
+      "uncertainty": "The published quintiles do not identify whether a spending change arose from a price, quantity, unavoidable bill, debt-financed payment, substitution, or delayed need. The source does not link this grouping to SHED, SIPP, food security, political judgment, or a later outcome.",
+      "subgroup": "Consumer units grouped into BLS income-before-tax quintiles.",
+      "counterinterpretation": "Different income and expenditure growth rates show heterogeneous averages, not an affordability, hardship, or welfare ranking. The same percent change can have different meanings at different resource levels and household compositions.",
+      "source_url": "https://www.bls.gov/opub/reports/consumer-expenditures/2024/home.htm",
+      "retrieval_hash": "bls-consumer-expenditures-2024:sha256:8964148fb7770c50f279c4bd3665d212d618c28945750ad3fdf3e74cc25af4c6",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bls.gov/news.release/cesan.htm",
+      "claim": "BLS annual Consumer Expenditures release reports the 2024 consumer-unit average and major-component change context.",
+      "status": "official-release-context"
+    },
+    {
+      "source_url": "../projects/us-household-financial-pressure/bls-ce-2024-overall-and-quintile-spending-update-v1.md",
+      "claim": "Local bounded memo preserves the composition, quintile, and non-causal interpretation.",
+      "status": "local-analysis-note"
+    }
+  ],
+  "boundary": "This record adds a current consumer-unit composition and income-quintile distribution layer to household room and consumption. It does not show a dated price shock, a person's cash flow or adaptation, a housing payment failure, food security, borrowing, time cost, trust, political action, or causal effect of income on spending.",
+  "retrieval_hash": "bls-consumer-expenditures-2024:sha256:8964148fb7770c50f279c4bd3665d212d618c28945750ad3fdf3e74cc25af4c6"
+}

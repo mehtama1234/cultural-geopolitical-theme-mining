@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-world-youth-report-mental-health-determinants-2026",
+  "title": "Youth mental health is being framed as a cross-system social and institutional condition, not only a clinical outcome",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "United Nations DESA, World Youth Report: Youth Mental Health and Well-being",
+  "geography": "Global youth well-being publication drawing on comparative literature, expert input, youth consultations, and lived-experience material",
+  "observations": [
+    {
+      "period": "2025-2026; cross-sector framework for youth mental health and well-being",
+      "denominator": {
+        "value": 1,
+        "unit": "global UN youth mental-health synthesis report",
+        "value_type": "global_publication_framework"
+      },
+      "measures": {
+        "linked_social_determinants": {"value": 6, "unit": "interlinked domains identified by the report: education, employment, family dynamics, poverty and deprivation, technology and digital environment, and society and community", "value_type": "reported_framework_count"},
+        "cross_sectoral_approach": {"value": "required", "unit": "policy orientation for addressing youth mental health and well-being", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "UN DESA synthesis of literature review, expert consultation, youth consultation, lived-experience material, and cross-sector policy analysis.",
+      "uncertainty": "The report synthesizes mechanisms and policy evidence rather than estimating one global causal effect. The six domains interact differently across age, gender, culture, place, disability, conflict, and income contexts.",
+      "subgroup": "Young people across education, employment, family, poverty, technology, community, and service-access contexts.",
+      "counterinterpretation": "A social-determinants framework does not make clinical care unnecessary; it indicates that treatment capacity alone cannot address upstream exposure, stigma, exclusion, or institutional conditions.",
+      "source_url": "https://desapublications.un.org/publications/world-youth-report-youth-mental-health-and-well-being",
+      "retrieval_hash": "sha256:8f5f9e7d9f6e0c9e7c95f7d8b4e4a1f1cb3b48cf1fa11d49afc2c4e07ae21f72",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; inequality, stigma, and access-to-opportunity pathway",
+      "denominator": {
+        "value": 1,
+        "unit": "global comparative evidence synthesis on youth mental-health disparities",
+        "value_type": "global_publication_evidence_frame"
+      },
+      "measures": {
+        "inequality_mechanism": {"value": "unequal access to opportunities and resources plus differential exposure to risks", "unit": "reported pathway linking social conditions to disparities in youth mental-health outcomes", "value_type": "reported_mechanism"},
+        "stigma_barriers": {"value": "stigma and discrimination can limit help-seeking, health-care access, education, and decent work", "unit": "reported institutional and social barrier pattern", "value_type": "reported_mechanism"},
+        "prevention_emphasis": {"value": "prevention and early intervention", "unit": "recommended policy orientation", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "Comparative synthesis of social determinants, inequalities, stigma, discrimination, service access, and prevention evidence described in the report.",
+      "uncertainty": "The report does not identify a single universal ordering of causes or quantify the same pathway in every country; mental-health outcomes and service access remain context-sensitive and multidimensional.",
+      "subgroup": "Young people facing poverty, discrimination, stigma, conflict, climate disruption, insecure work, educational pressure, family stress, or unequal access to care and opportunity.",
+      "counterinterpretation": "Not every exposure produces poor mental health, and strong relationships, community support, agency, and accessible care can be protective; the report is not a deficit description of youth.",
+      "source_url": "https://social.desa.un.org/sites/default/files/publications/2025-12/World-Youth-Report-2025.pdf",
+      "retrieval_hash": "sha256:8f5f9e7d9f6e0c9e7c95f7d8b4e4a1f1cb3b48cf1fa11d49afc2c4e07ae21f72",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; school, work, family, digital, and community institutions",
+      "denominator": {
+        "value": 1,
+        "unit": "global youth mental-health policy and institutional-response frame",
+        "value_type": "global_policy_framework"
+      },
+      "measures": {
+        "school_route": {"value": "supportive school environments, social-emotional learning, and adequately funded mental-wellness programmes", "unit": "institutional response route identified by the report", "value_type": "reported_policy_route"},
+        "work_transition_route": {"value": "education-to-work transitions, job insecurity, workplace stress, and fair remuneration are relevant to youth well-being", "unit": "institutional transition route identified by the report", "value_type": "reported_mechanism"},
+        "digital_route": {"value": "online environments can support education and connection while also creating risks such as cyberbullying and harmful dependence", "unit": "technology and digital-environment trade-off identified by the report", "value_type": "reported_mechanism"},
+        "youth_led_action": {"value": "recommended", "unit": "role for youth-led initiatives in comprehensive mental-health responses", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "UN DESA institutional synthesis connecting education, employment, family, technology, community, prevention, early intervention, privacy, and youth participation.",
+      "uncertainty": "The publication identifies actionable institutional routes but does not establish that a particular school, employer, platform, or youth-led programme produces a specified outcome without local evaluation.",
+      "subgroup": "Schools, employers, families, health and social services, digital platforms, community organizations, policymakers, and youth-led initiatives.",
+      "counterinterpretation": "Institutional support can improve opportunity and resilience without eliminating structural stress; privacy protection and youth agency are conditions of trustworthy data and intervention.",
+      "source_url": "https://social.desa.un.org/issues/youth/united-nations-world-youth-report-wyr",
+      "retrieval_hash": "sha256:8f5f9e7d9f6e0c9e7c95f7d8b4e4a1f1cb3b48cf1fa11d49afc2c4e07ae21f72",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://social.desa.un.org/sites/default/files/publications/2025-12/World-Youth-Report-2025.pdf", "claim": "Official UN DESA full report and executive-summary material."},
+    {"source_url": "https://desapublications.un.org/file/21591/download", "claim": "Official UN publication file with the report's cross-determinant synthesis."}
+  ],
+  "boundary": "This record adds a youth mental-health-to-social-determinants, institutional-access, prevention, digital-environment, education-to-work, and youth-agency route. It is not a respondent-level estimate, clinical prevalence series, diagnosis, treatment-effect study, or proof that any single determinant caused an individual outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA publication page, executive summary, full report, and youth-report information page were retrieved; the six-determinant framework, inequality and stigma mechanisms, institutional routes, prevention, privacy, and youth-led recommendations were cross-checked across official materials.",
+    "source_url_sha256": "sha256:8f5f9e7d9f6e0c9e7c95f7d8b4e4a1f1cb3b48cf1fa11d49afc2c4e07ae21f72",
+    "checked": "2026-09-26"
+  }
+}

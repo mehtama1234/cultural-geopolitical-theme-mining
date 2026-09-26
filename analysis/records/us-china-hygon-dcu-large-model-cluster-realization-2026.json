@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hygon-dcu-large-model-cluster-realization-2026",
+  "title": "Hygon reported preliminary stable operation of a 10-trillion-parameter model on a tens-of-thousands-of-DCU cluster",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Hygon Information 2026 quality-and-efficiency action-plan half-year assessment report",
+  "geography": "China, Hygon DCU clusters, domestic large-model training infrastructure, and AI-compute software ecosystem",
+  "observations": [
+    {
+      "period": "First half of 2026; assessment report published August 14, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Hygon DCU cluster and software-stack capability; exact cluster count, model run duration, workload success rate, and customer identity not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "cluster_scale": {"value": "tens of thousands of Hygon DCUs", "unit": "reported accelerator count scale", "value_type": "reported_infrastructure_scale"},
+        "model_parameter_scale": {"value": 10, "unit": "trillion model parameters", "value_type": "reported_model_scale"},
+        "operational_status": {"value": "preliminary stable operation reported on the Hygon DCU cluster", "unit": "issuer-reported operational outcome", "value_type": "reported_operation"},
+        "software_stack": {"value": "DTK update reported to integrate more than 2,000 operators and support more than 100 mainstream AI framework components", "unit": "reported software capability", "value_type": "reported_software_scope"},
+        "independent_validation": {"value": "not observed", "unit": "no independent benchmark, customer acceptance record, utilization series, or reproducible workload log in the source", "value_type": "unmeasured"},
+        "nvidia_substitution": {"value": "not established", "unit": "no comparison of Hygon cluster replacing NVIDIA capacity or changing customer choices", "value_type": "unmeasured"}
+      },
+      "method": "Review of Hygon's official half-year assessment report. The cluster scale, model parameter scale, reported preliminary stability, and software-stack counts are coded as issuer-reported infrastructure realization. The source is not treated as an independent performance benchmark or proof of customer-level substitution.",
+      "uncertainty": "The report does not identify the model, training or inference task, run duration, throughput, energy use, error rate, customer, revenue, cluster ownership, or comparison baseline. 'Preliminary stable operation' is the company's characterization and may describe an internal demonstration rather than durable commercial production.",
+      "subgroup": "Hygon engineering teams, domestic model developers, data-center operators, Chinese government and enterprise users, system integrators, and AI software-stack partners",
+      "counterinterpretation": "A large cluster demonstration can show engineering feasibility without demonstrating cost competitiveness, production reliability, or broad adoption. The result may coexist with continued use of NVIDIA or other accelerators in mixed heterogeneous clusters.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472509.PDF",
+      "retrieval_hash": "sha256:dd499f62f5ad11fc453c052a89417dec803b09a8aaa3f30c3e8b9bb641f00c50",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF",
+      "claim": "Hygon's interim report records first-half revenue growth, DCU deployment across key industries and hundreds of scenarios, and adaptation to more than 400 mainstream large models.",
+      "status": "official-company-comparator"
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA reported that its China data-center market remained effectively foreclosed while Chinese competitors built larger developer and customer ecosystems.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a company-reported large-model cluster operation and software-stack milestone. It does not establish independent performance, commercial durability, customer acceptance, market share, capability parity, or substitution for NVIDIA infrastructure."
+}

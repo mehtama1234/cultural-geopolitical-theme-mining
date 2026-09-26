@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-local-redistricting-race-representation-2026",
+  "title": "Local electoral maps can be formally neutral while producing unequal racial representation",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": ["political_judgment_action", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "housing_place_mobility"],
+  "source_unit": "NBER Working Paper 35623; nationwide voter-file, Census, local electoral-map, and simulated-map analysis",
+  "geography": "United States; 3,712 city council and county commission maps covering 18,521 districts",
+  "observations": [{
+    "period": "local-government maps studied through 2026; paper issued August 2026",
+    "denominator": {"value": 1, "unit": "nationwide local-map study", "value_type": "study_unit"},
+    "measures": {
+      "coverage": {"value": "3,712 city council and county commission maps across 18,521 districts", "unit": "local electoral maps and districts", "value_type": "reported_sample"},
+      "representation_gap": {"value": "enacted maps overrepresented White voters and underrepresented Black and Hispanic voters; the gaps predicted the racial composition of officeholders", "unit": "map-to-officeholder representation relationship", "value_type": "reported_relationship"},
+      "geographic_baseline": {"value": "simulated race-blind maps satisfying common districting constraints reproduced much of the disparity", "unit": "simulated-map comparison", "value_type": "reported_comparison"},
+      "oversight_difference": {"value": "enacted maps improved on the race-blind baseline substantially more where Voting Rights Act oversight or districting litigation applied", "unit": "oversight and litigation comparison", "value_type": "reported_comparison"}
+    },
+    "method": "The authors reconstruct local electoral maps, measure racial representation, compare enacted maps with simulated race-blind maps subject to common districting constraints, and examine differences associated with Voting Rights Act oversight and districting litigation.",
+    "uncertainty": "This is a working-paper analysis and the abstract does not establish every mechanism linking maps to officeholder selection. The simulated baseline depends on the chosen districting constraints, and representation of officeholders is not the same as policy outcomes, constituent service, trust, or turnout.",
+    "subgroup": "Black, Hispanic, and White voters and officeholders across city council and county commission districts; local-government selection, map type, legal oversight, and racial geography vary across jurisdictions.",
+    "counterinterpretation": "Geography can create unequal representation even without intentional boundary discrimination; that does not make all enacted-map disparities accidental or prove that race-conscious districting always improves every form of representation. Legal oversight and litigation may also select jurisdictions with unusually visible problems or resources to respond.",
+    "source_url": "https://www.nber.org/papers/w35623",
+    "retrieval_hash": "sha256:98071383fb2b1cc0598c9562ce3d023499138e9e3cb789ee19cc3989874d87b3",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35623", "claim": "NBER DOI record for Working Paper 35623", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a local-democracy representation finding: geography, formal neutrality, enacted boundaries, legal oversight, and officeholder composition can diverge. It does not establish a single causal effect of maps on policy, welfare, trust, participation, or national political alignment."
+}

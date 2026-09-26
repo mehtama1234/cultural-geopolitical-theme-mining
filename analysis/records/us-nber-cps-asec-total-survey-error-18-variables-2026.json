@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-cps-asec-total-survey-error-18-variables-2026",
+  "title": "Survey error often comes from respondents failing to report receipt, not only from nonresponse",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption", "care_health_reproduction"],
+  "source_unit": "NBER Working Paper 35680; CPS ASEC linked to administrative records for income and program receipt over more than two decades",
+  "geography": "United States; CPS ASEC income and program-receipt variables benchmarked against linked administrative records",
+  "observations": [{
+    "period": "CPS ASEC and administrative records over more than two decades; paper issued August 2026",
+    "denominator": {"value": 1, "unit": "Total Survey Error study of CPS income and program-receipt variables", "value_type": "study_unit"},
+    "measures": {
+      "variable_scope": {"value": "eighteen income and program-receipt variables were evaluated", "unit": "survey variables", "value_type": "reported_sample"},
+      "large_bias": {"value": "for nearly half of the variables, bias exceeded 40%", "unit": "relative bias across study variables", "value_type": "reported_estimate"},
+      "dominant_error": {"value": "measurement error among respondents who failed to report receipt was the dominant source of bias", "unit": "decomposed survey-error source", "value_type": "reported_comparison"},
+      "absolute_error": {"value": "absolute error tended to rise over time even when net bias was stable", "unit": "data-quality trend", "value_type": "reported_trend"},
+      "improvement_margin": {"value": "improving reporting accuracy offered larger potential gains than simply raising response rates", "unit": "survey-design implication", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors develop an empirical Total Survey Error framework that decomposes coverage, whole imputation, item nonresponse, and respondent measurement error into false negatives, false positives, and amount errors, using CPS ASEC linked to administrative records across income and program sources.",
+    "uncertainty": "This is a working paper. The benchmark records, linkage, definitions, and administrative completeness differ across income and program sources; bias and absolute error are not the same, and net bias can hide offsetting positive and negative errors. The study measures data quality rather than each household's true experience or the reason for misreporting.",
+    "subgroup": "CPS ASEC respondents and nonrespondents across income and program-receipt sources over more than two decades; error components differ by source, period, and reporting status.",
+    "counterinterpretation": "Administrative records are not automatically complete or conceptually identical to survey measures. A large benchmark gap can reflect timing, definition, linkage, or source coverage as well as respondent memory, stigma, misunderstanding, or intentional nonreporting.",
+    "source_url": "https://www.nber.org/papers/w35680",
+    "retrieval_hash": "sha256:3e43e1c693bb5079ca296fcde49911adadc523f5d100ed68e8eb4d25ca87e0ec",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35680", "claim": "NBER DOI record for Working Paper 35680", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a survey-governance finding: public data can look stable in net terms while individual reporting and absolute error worsen. It does not establish the true population value for every variable, invalidate CPS trends wholesale, or identify each respondent's reason for error."
+}

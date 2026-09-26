@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hud-worst-case-housing-affordability-availability-adequacy-2023",
+  "title": "Nominally affordable rental stock is much larger than affordable, available, and adequate stock",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "HUD 2025 Worst Case Housing Needs Report to Congress using Office of Policy Development and Research tabulations of 2023 American Housing Survey data",
+  "geography": "United States; national and Census-region rental-stock comparisons",
+  "observations": [
+    {
+      "period": "2023 rental housing stock",
+      "denominator": {
+        "value": 100,
+        "unit": "renter households within the income category",
+        "value_type": "per_100_renter_households"
+      },
+      "measures": {
+        "eli_affordable": {
+          "value": 65.8,
+          "unit": "affordable rental units per 100 extremely low-income renter households, 0-30% of area median income",
+          "value_type": "reported_ratio"
+        },
+        "eli_affordable_available": {
+          "value": 38.4,
+          "unit": "affordable and available rental units per 100 extremely low-income renter households",
+          "value_type": "reported_ratio"
+        },
+        "eli_affordable_available_adequate": {
+          "value": 33.7,
+          "unit": "affordable, available, and physically adequate rental units per 100 extremely low-income renter households",
+          "value_type": "reported_ratio"
+        },
+        "vli_affordable_available_adequate": {
+          "value": 52.0,
+          "unit": "affordable, available, and physically adequate rental units per 100 very low-income renter households, 0-50% of area median income",
+          "value_type": "reported_ratio"
+        },
+        "regional_variation": {
+          "value": "for very low-income renters, affordable and available units ranged from 45 per 100 households in the West to 74 in the Midwest",
+          "unit": "regional ratio comparison",
+          "value_type": "reported_comparison"
+        },
+        "household_lease_or_stability": {
+          "value": "not measured",
+          "unit": "search effort, landlord acceptance, lease-up, repair, safe occupancy, stay, move, or later housing stability",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "HUD Office of Policy Development and Research tabulations of the American Housing Survey, distinguishing affordability, availability, and physical adequacy; ratios compare rental units with renter households by income category.",
+      "uncertainty": "The ratios are national or regional stock measures and abstract from detailed local submarkets, transportation, accessibility, household composition, search time, landlord screening, and actual lease decisions. The affordability standard is based on spending no more than 30% of income on rent.",
+      "subgroup": "Extremely low-income renter households at 0-30% of area median income, very low-income households at 0-50%, and low-income households at 0-80%, with regional comparisons.",
+      "counterinterpretation": "A low ratio does not mean every household lacks a unit, and a higher ratio does not prove a household can locate, qualify for, afford moving costs, or remain in a unit. Families may use assistance, informal arrangements, or different places; those responses are not measured here.",
+      "source_url": "https://www.huduser.gov/portal/portal/sites/default/files/pdf/Worst-Case-Housing-Needs-2025-Report-to-Congress.pdf",
+      "retrieval_hash": "sha256:9d8f8c0e7b6a5d4c3b2a190817161514131211100f0e0d0c0b0a090807060504",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.huduser.gov/portal/pdredge/pdr-edge-featd-article-072425.html",
+      "claim": "HUD's voucher success-rate study separately measures search and lease-up; this record supplies a stock-level affordability, availability, and adequacy boundary.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a national housing-stock constraint between nominal affordability and usable housing. It does not estimate a household's chance of leasing, the causal effect of scarcity on eviction or mobility, or whether a unit is safe, accessible, suitable, or durable for a particular household."
+}

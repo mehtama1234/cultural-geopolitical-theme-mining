@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-job-security-mobility-incomplete-markets-2026",
+  "title": "Workers trade wage gains against layoff risk, and incomplete insurance can suppress mobility",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35580; representative survey of employed U.S. workers plus a general-equilibrium search model with wage and unemployment-risk job ladders",
+  "geography": "United States; employed workers and modeled labor market",
+  "observations": [
+    {
+      "period": "Survey and model results; working paper issued August 2026",
+      "denominator": {"value": null, "unit": "custom representative survey of employed U.S. workers; exact respondent denominator not disclosed in abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "security_premium": {"value": 1.63, "unit": "percent pay raise demanded for each additional percentage point of annual unemployment risk in a new job", "value_type": "reported_survey_estimate"},
+        "complete_markets_mobility": {"value": 12, "unit": "percent modeled increase in job mobility under complete markets", "value_type": "modeled_estimate"},
+        "complete_markets_productivity": {"value": 0.19, "unit": "percent modeled productivity increase under complete markets", "value_type": "modeled_estimate"},
+        "ui_productivity": {"value": 1.3, "unit": "percent modeled productivity increase from unemployment insurance in the paper's mechanism", "value_type": "modeled_estimate"},
+        "ui_tradeoff": {"value": "unemployment insurance encourages employed workers to accept risky, higher-productivity offers while also increasing job loss and unemployment", "unit": "modeled policy trade-off", "value_type": "theoretical_result"}
+      },
+      "method": "The paper elicits employed workers' wage-safety indifference curves in a representative survey and embeds the result in a general-equilibrium search model with two-dimensional job ladders, risk-averse workers, incomplete self-insurance, and on/off-the-job search.",
+      "uncertainty": "The paper is a working paper. The survey estimate is stated at the population level but the abstract does not disclose the sample denominator or subgroup estimates; modeled mobility, productivity, and unemployment effects depend on the search-model structure and calibration. A stated willingness-to-pay for security is not a realized job choice or household outcome.",
+      "subgroup": "Employed U.S. workers; the abstract reports that incomplete markets and borrowing constraints matter but does not provide the subgroup denominator or full heterogeneity estimates.",
+      "counterinterpretation": "Workers may value security for family, health, location, benefits, identity, or employer-specific reasons not captured by annual unemployment risk. UI can alter search, take-up, vacancy filling, and firm behavior in ways that differ from the model; safer jobs may also offer lower training or advancement.",
+      "source_url": "https://www.nber.org/papers/w35580",
+      "retrieval_hash": "sha256:983ef6cf30f914d08ca13213d21da094e35bc447ac5bf617a9be8f7b4eafcdcc",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a measured wage-for-security trade-off and a modeled insurance-to-mobility mechanism. It does not establish actual job switching, household security, worker voice, or universal effects of unemployment insurance in observed administrative data."
+}

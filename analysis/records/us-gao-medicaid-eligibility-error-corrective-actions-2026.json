@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-medicaid-eligibility-error-corrective-actions-2026",
+  "title": "Medicaid eligibility-error correction exists, but federal oversight does not yet learn consistently which fixes work",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108017 review of Medicaid eligibility errors, state corrective action plans, and CMS oversight",
+  "geography": "United States; all 50 states and the District of Columbia for error reporting, with seven selected states reviewed for corrective actions",
+  "observations": [
+    {
+      "period": "Medicaid reporting years 2014-2025; corrective-action review 2019-2024; report published August 18, 2026 and publicly released September 17, 2026",
+      "denominator": {
+        "value": 7,
+        "unit": "selected states whose corrective-action plans and state-level evidence GAO reviewed",
+        "value_type": "reported_selected_sample"
+      },
+      "measures": {
+        "national_reporting_scope": {
+          "value": 51,
+          "unit": "states plus the District of Columbia covered by Medicaid eligibility-error reporting",
+          "value_type": "reported_program_scope"
+        },
+        "state_corrective_actions": {
+          "value": "training, guidance, and eligibility-system updates",
+          "unit": "types of corrective actions used by selected states to reduce identified eligibility errors",
+          "value_type": "reported_response"
+        },
+        "cms_oversight_gap": {
+          "value": "CMS feedback did not ensure that state corrective-action plans consistently included all required elements",
+          "unit": "federal oversight and implementation-quality gap",
+          "value_type": "reported_gap"
+        },
+        "cross_state_learning_gap": {
+          "value": "CMS did not consistently analyze errors and corrective actions across states and years to determine effectiveness or transferability",
+          "unit": "program-learning and feedback-loop gap",
+          "value_type": "reported_gap"
+        },
+        "access_boundary": {
+          "value": "the report identifies error-correction and oversight stages, not individual coverage restoration or continuity",
+          "unit": "evidence boundary between administrative correction and usable benefit access",
+          "value_type": "reported_boundary"
+        }
+      },
+      "method": "GAO reviewed national Medicaid eligibility-error reports, state-level reports from a rotational review system, corrective-action plans from seven selected states for 2019-2024, CMS feedback and communications, and interviews with CMS and state officials.",
+      "uncertainty": "The selected-state review is not a national estimate of corrective-action quality. Eligibility-error rates and corrective actions do not show which applicants lost or retained coverage, how quickly errors were corrected, or whether beneficiary health, time, trust, or household costs changed.",
+      "subgroup": "Medicaid applicants and enrollees, state eligibility agencies, CMS oversight staff, eligibility systems, and corrective-action categories; state program design, reporting year, error type, and administrative capacity vary.",
+      "counterinterpretation": "Variation in corrective-action plans may reflect legitimate state flexibility, differing error types, or data limitations rather than uniformly weak oversight. Training or system updates may reduce errors even when cross-state evaluation is incomplete; a documented oversight gap does not prove that each state correction failed.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108017/index.html",
+      "retrieval_hash": "sha256:475ea133c6908ad44ab3fc74a4f5ec2966177a1ef80e0f340a685f7266ca21f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108017",
+      "claim": "GAO landing page identifies the report and recommendations.",
+      "status": "official-report-identifier"
+    }
+  ],
+  "boundary": "This record establishes a Medicaid eligibility-error, state-correction, and federal-learning boundary. It does not establish individual coverage loss or restoration, procedural-denial rates, health outcomes, beneficiary trust, household burden, or the causal effectiveness of any particular corrective action."
+}

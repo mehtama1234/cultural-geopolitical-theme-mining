@@ -21,6 +21,10 @@ remains unmeasured. Household records are one instrument for testing selected
 links; they do not replace the broader population- and system-level map.
 
 The source universe can include surveys, administrative data, public records, research papers, company filings, product and platform evidence, media and cultural measures, election and opinion data, and international or supply-chain records when they explain a US exposure. The [theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md) records the current evidence anchor and missing link for every theme.
+The companion [theme and subtheme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md)
+expands each theme into the cultural, social, political, consumer,
+institutional, financial, firm, infrastructure, and geopolitical questions the
+program is meant to discover.
 
 ## The recurring themes to extract
 

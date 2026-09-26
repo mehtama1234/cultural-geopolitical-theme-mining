@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-maven-operational-integration-2026",
+  "title": "NATO moved an AI command-and-control platform from technical capability into exercise integration",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NATO Joint Warfare Centre / Allied Command Operations Maven Smart System implementation record",
+  "geography": "NATO enterprise; Joint Warfare Centre, Stavanger and SHAPE, Belgium",
+  "observations": [
+    {
+      "period": "2026-06-22 technical operational capability; August 12 public report",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO Maven Smart System implementation",
+        "value_type": "reported_capability_event"
+      },
+      "measures": {
+        "technical_operational_capability": {
+          "value": "NATO Maven Smart System achieved full technical operational capability and met Allied Command Operations requirements",
+          "unit": "NATO capability status",
+          "value_type": "reported_capability_status"
+        },
+        "security_authorization": {
+          "value": "NATO Security Accreditation Board granted authorization for operation on NATO's classified network",
+          "unit": "security accreditation",
+          "value_type": "reported_operating_authorization"
+        },
+        "exercise_integration": {
+          "value": "During STEADFAST DETERRENCE 2026, the system was tested in exercises that automated scripting and opposition-forces responses",
+          "unit": "exercise integration stage",
+          "value_type": "reported_exercise_result"
+        },
+        "mission_effect_or_external_behavior": {
+          "value": "not observed in the public record",
+          "unit": "missing endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NATO Joint Warfare Centre implementation account, retaining capability status, security authorization, exercise integration, and actual mission/external-response stages separately.",
+      "uncertainty": "The announcement is an institutional implementation account. It does not provide model accuracy, operator workload, decision quality, mission use, adversary adaptation, battlefield effect, alliance burden distribution, supplier replaceability, or public consent.",
+      "subgroup": "NATO Allied Command Operations and subordinate headquarters using the Maven Smart System; no operator-level or member-state outcome sample is provided.",
+      "counterinterpretation": "Technical authorization and exercise automation can improve interoperability without producing reliable operational advantage or changed adversary behavior; simulated opposition responses are not actual adversary responses.",
+      "source_url": "https://www.jwc.nato.int/article/maven-achieves-ftoc/",
+      "retrieval_hash": "sha256:4a287ac5727efeb30a4c45861fa4d56b67da12e1ad1cb45619ed7601a9478682",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/allied-command-operations-aco",
+      "claim": "NATO's Allied Command Operations structure provides the operational context for the system's intended use.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record establishes technical operational capability, classified-network authorization, and exercise integration of a NATO AI command-and-control platform. It does not establish mission effectiveness, human or public legitimacy, adversary response, deterrence, alliance durability, supplier independence, or geopolitical leverage."
+}

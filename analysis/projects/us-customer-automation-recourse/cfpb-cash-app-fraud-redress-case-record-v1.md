@@ -85,7 +85,10 @@ or that the order has not been implemented. The separate [Block case
 page](https://www.consumerfinance.gov/enforcement/actions/block-inc/) still
 provides a redress contact route and states that the order requires at least
 $75 million, up to $120 million, in consumer redress, but a contact route is
-not a receipt record. This remains a non-observation of a public listing, not
+not a receipt record. The current CFPB press release also says consumers do
+not need to take action at this time to obtain redress. That is a
+design/reachability statement, not proof that a payment was issued, received,
+cashed, or adequate. This remains a non-observation of a public listing, not
 proof that no payment has occurred.
 
 The smallest next public check is a dated recheck of the payment-by-case page
@@ -100,6 +103,13 @@ The primary source is the [CFPB enforcement action against Block/Cash App](https
 The general [CFPB payments-to-harmed-consumers page](https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/)
 explains that ordered redress may be distributed directly by a company, by a
 payments administrator, or through the Civil Penalty Fund; that distribution
-route is itself not proof of an individual consumer's receipt.
+route is itself not proof of an individual consumer's receipt. A search of the
+[official Block docket](https://www.consumerfinance.gov/administrative-adjudication-proceedings/administrative-adjudication-docket/block-inc/)
+and the linked [consent order](https://files.consumerfinance.gov/f/documents/cfpb_block-inc-consent-order_2025-01.pdf)
+found the order and stipulation, but no completed recipient-level redress
+report. The order requires a redress plan with a final affected-consumer list,
+per-consumer refund amounts, payment process, and post-plan reporting; those
+requirements define what would close the route, but do not show that closure
+has occurred.
 
 No data file was downloaded for this case record.

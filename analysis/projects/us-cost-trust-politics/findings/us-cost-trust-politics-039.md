@@ -75,7 +75,7 @@ despite low trust.
 
 ## Sources and storage boundary
 
-- [Pew engagement in public life](https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/)
+- [Pew engagement in public life](https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/)
 - [Structured public-life engagement record](../../../records/us-pew-public-life-engagement-groups-2025.json)
 
 No individual activity, news-exposure, voter-file, or longitudinal civic-action

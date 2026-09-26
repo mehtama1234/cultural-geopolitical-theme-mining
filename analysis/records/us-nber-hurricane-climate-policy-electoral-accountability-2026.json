@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-hurricane-climate-policy-electoral-accountability-2026",
+  "title": "Hurricane exposure can move a representative's climate-policy agenda and carry a later electoral cost",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. congressional districts, representatives, federal disaster declarations, roll-call votes, and subsequent elections in the NBER study period",
+  "geography": "United States congressional districts affected or not affected by hurricanes, 1989–2014",
+  "observations": [
+    {
+      "period": "1989–2014; universe of federal disaster declarations and hurricane-hit congressional districts",
+      "denominator": {"value": null, "unit": "congressional districts and federal disaster-declaration events; full abstract denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "exposure": {"value": "districts hit by a hurricane", "unit": "study exposure classification", "value_type": "reported_exposure"},
+        "design": {"value": "comparison of hurricane-hit districts with other districts using the disaster-declaration universe", "unit": "empirical research design", "value_type": "reported_method"},
+        "time_order": {"value": "policy response measured in the year after the disaster", "unit": "lagged institutional response", "value_type": "reported_timing"}
+      },
+      "method": "NBER study using the universe of federal disaster declarations from 1989 through 2014 to examine representative policy responses after hurricane exposure. The abstract reports the direction and timing of the result; exact estimates and full sample counts require the paper and replication materials.",
+      "uncertainty": "The abstract does not establish each household's damage, insurance, aid, attribution, trust, or political behavior. Exposure to a hurricane is not a direct measure of individual loss or climate belief, and selection into disaster exposure and representation may affect interpretation.",
+      "subgroup": "Congressional districts and representatives; the study reports heterogeneity by district safety, representative experience, and prior environmental record, not a complete household-level distribution.",
+      "counterinterpretation": "Hurricanes can change information or constituent demands, but post-disaster policy movement may also reflect representative ideology, salience, party strategy, local institutions, or other correlated shocks.",
+      "source_url": "https://www.nber.org/papers/w25835",
+      "retrieval_hash": "sha256:3b5b585fc85f5b7069b6e17c4f23ef942acaba1c38c13a27186b74bb7d3f5245",
+      "status": "estimated"
+    },
+    {
+      "period": "Year after hurricane exposure; representative legislative agenda and roll-call behavior",
+      "denominator": {"value": null, "unit": "representatives and environmental-policy bills in the study sample", "value_type": "not_disclosed"},
+      "measures": {
+        "policy_response": {"value": "representatives from hurricane-hit districts were more likely to support bills promoting environmental regulation and control", "unit": "reported comparative legislative response", "value_type": "reported_difference"},
+        "persistence": {"value": "the change in legislative agenda was persistent over time", "unit": "reported post-event persistence", "value_type": "reported_persistence"},
+        "lobbying_explanation": {"value": "the response did not appear to be driven by logrolling or lobbyists' pressure in the reported analysis", "unit": "reported mechanism check", "value_type": "reported_result"}
+      },
+      "method": "Study-level comparison of post-hurricane legislative support and agenda behavior, with reported checks against logrolling and lobbying explanations.",
+      "uncertainty": "This does not identify the representative's private belief, constituent-level meaning, exact bill mechanism, implementation, or whether environmental policy changed actual emissions, insurance, resilience, or household security.",
+      "subgroup": "Representatives and districts; the response is reported as stronger among safe-district representatives, more experienced representatives, and representatives with strong pro-environment records.",
+      "counterinterpretation": "A durable roll-call or agenda change can be an institutional response without proving that affected residents received protection, agreed with the policy, or translated the event into personal political action.",
+      "source_url": "https://www.nber.org/papers/w25835",
+      "retrieval_hash": "sha256:3b5b585fc85f5b7069b6e17c4f23ef942acaba1c38c13a27186b74bb7d3f5245",
+      "status": "estimated"
+    },
+    {
+      "period": "Following elections after the post-hurricane policy response",
+      "denominator": {"value": null, "unit": "subsequent congressional elections and representatives; full abstract denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "electoral_consequence": {"value": "the reported environmental-policy response was associated with an electoral penalty in following elections", "unit": "reported electoral association", "value_type": "reported_association"},
+        "political_endpoint": {"value": "institutional action and subsequent electoral consequence are both observed at the representative/district level", "unit": "linked district-representative sequence", "value_type": "reported_sequence"},
+        "individual_vote_reason": {"value": "not observed", "unit": "missing voter-level attribution and meaning", "value_type": "unmeasured"}
+      },
+      "method": "The study links the post-hurricane legislative response to subsequent election outcomes at the representative/district level; this is not a panel of the same voters' beliefs or actions.",
+      "uncertainty": "The abstract does not establish the mechanism of the electoral penalty, voter awareness, candidate competition, campaign messaging, turnout, or whether the policy response itself caused the later result.",
+      "subgroup": "Representatives, districts, and subsequent elections; household political meaning and individual participation remain unobserved.",
+      "counterinterpretation": "The electoral penalty may reflect broader disaster politics, party conditions, other votes, candidate quality, or changing local composition rather than a voter sanction for climate-policy action.",
+      "source_url": "https://www.nber.org/papers/w25835",
+      "retrieval_hash": "sha256:3b5b585fc85f5b7069b6e17c4f23ef942acaba1c38c13a27186b74bb7d3f5245",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-nber-real-wages-inflation-elections-2021-2024.json", "claim": "The existing county purchasing-power record provides a separate economic-voting comparison; it does not follow a discrete disaster into policy agenda and later electoral consequence.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.nber.org/papers/w26572", "claim": "The related disaster-and-voting literature supplies a separate disaster-to-vote comparison and is not pooled with this hurricane-to-legislative-agenda route.", "status": "related-literature"}
+  ],
+  "boundary": "This record adds a bounded disaster exposure → representative policy response → later electoral consequence pathway. It does not establish individual household loss, attribution, trust, voter-level meaning or action, policy implementation, climate outcomes, recovery, or a universal disaster-to-political-response rule.",
+  "reproduction_audit": {"retrieval_hash_scope": "NBER Working Paper 25835 PDF retrieved for source preservation; abstract text cross-checked against the official NBER page", "retrieval_hash": "sha256:3b5b585fc85f5b7069b6e17c4f23ef942acaba1c38c13a27186b74bb7d3f5245", "checked": "2026-09-23"}
+}

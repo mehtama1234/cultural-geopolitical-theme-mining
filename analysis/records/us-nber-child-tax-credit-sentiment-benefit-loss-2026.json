@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-child-tax-credit-sentiment-benefit-loss-2026",
+  "title": "Losing the expanded Child Tax Credit reduced consumer sentiment",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35059; monthly University of Michigan Consumer Sentiment Survey microdata and household-level variation in lost 2021 Child Tax Credit benefits",
+  "geography": "United States; households covered by the study's survey and benefit-loss design",
+  "observations": [
+    {
+      "period": "2021 Child Tax Credit expiration; study follow-up period",
+      "denominator": {
+        "value": null,
+        "unit": "study-specific survey respondents and household benefit-loss variation; denominator not reported in the NBER abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "sentiment_effect_per_1000_lost": {
+          "value": -1.7,
+          "unit": "Consumer Sentiment Index points per 1,000 US dollars of lost CTC benefits",
+          "value_type": "reported_estimate"
+        },
+        "relative_effect": {
+          "value": -2.4,
+          "unit": "percent change in consumer sentiment per 1,000 US dollars lost, as reported in the abstract",
+          "value_type": "reported_estimate"
+        },
+        "larger_effect_group": {
+          "value": "lower-income families with multiple children",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "persistence": {
+          "value": "nearly two years after expiration",
+          "unit": "reported duration of the sentiment effect",
+          "value_type": "reported_persistence"
+        },
+        "other_outcomes": {
+          "value": "not measured as direct outcomes in the abstract",
+          "unit": "voting, trust in government, and household spending",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "The authors use monthly Consumer Sentiment Survey microdata, plausibly exogenous variation in household benefit losses, continuous difference-in-differences, and instrumental-variables strategies. The abstract reports robustness to controls for inflation, interest rates, and macroeconomic conditions.",
+      "uncertainty": "The abstract does not provide the full sample denominator, all specification details, or the complete subgroup estimates. Consumer sentiment is a reported perception outcome; the study does not by itself show a changed vote, government trust, spending path, or a single household's full experience.",
+      "subgroup": "Lower-income families with multiple children show the largest reported effects; exact subgroup sizes and estimates require the full paper.",
+      "counterinterpretation": "Sentiment may fall because household resources actually fell, without implying a new political identity or loss of trust. Inflation, interest rates, and broader macroeconomic conditions are controlled in the reported design, but the abstract does not establish every mechanism behind the perception change.",
+      "source_url": "https://www.nber.org/papers/w35059",
+      "retrieval_hash": "sha256:876a361406674b2f287c6e0d332fa6fc8913fabc3bb7e9c2673fd8eea5f76d39",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w31339",
+      "claim": "A separate study examines the 2021 Child Tax Credit, living arrangements, and housing affordability; it is not pooled with the sentiment estimate.",
+      "status": "official-companion-kept-separate"
+    }
+  ],
+  "boundary": "This record establishes a policy-to-consumer-sentiment association under the study's identification strategy. It does not establish that the same households changed their spending, trust, vote, political identity, housing security, or long-term behavior. It is one piece of a broader cross-source cultural and political pattern, not a complete household journey."
+}

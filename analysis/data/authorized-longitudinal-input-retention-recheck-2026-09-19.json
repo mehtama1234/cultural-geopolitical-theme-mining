@@ -1,0 +1,75 @@
+{
+  "format": "authorized-longitudinal-input-retention-recheck-v1",
+  "checked": "2026-09-19",
+  "scope": "Read-only post-crash retention search for newly supplied PSID, UAS, HRS, or comparable respondent files before the next authorized longitudinal pass.",
+  "search_roots": [
+    "/home/mehtama1/git-repo",
+    "/tmp"
+  ],
+  "depth_limit": 4,
+  "file_extensions_checked": [
+    ".zip",
+    ".csv",
+    ".dta",
+    ".sas7bdat",
+    ".sav",
+    ".parquet",
+    ".jsonl"
+  ],
+  "candidate_name_patterns": [
+    "psid",
+    "uas",
+    "older ages",
+    "FAM2019ER",
+    "FAM2021ER",
+    "FAM2023ER",
+    "MEPS staged respondent"
+  ],
+  "result": "no_new_authorized_longitudinal_input_found",
+  "post_crash_home_filename_scan": {
+    "performed": true,
+    "scope": "/home/mehtama1 filename inventory, including sibling repositories, filtered for PSID/UAS/HRS/Older Ages/Comprehensive Panel data extensions",
+    "result": "no_raw_or_authenticated_target_file_found",
+    "observed_matches": [
+      "manifests/us-psid-material-time-care-field-map-v1.json",
+      "analysis/records/us-psid-2023-material-time-care-field-audit.json",
+      "analysis/projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json",
+      "analysis/projects/us-health-cost-household-choice/data/hrs-access-recheck-2026-09-18.json",
+      "analysis/projects/us-household-calendar-integration/psid-public-route-recheck-2026-09-19.json"
+    ],
+    "interpretation": "Filename matches are route documentation or field audits, not respondent microdata and not evidence of authorized access."
+  },
+  "large_file_scan": {
+    "performed": true,
+    "threshold_bytes": 10485760,
+    "relevant_nonqualifying_files": [
+      "/tmp/htops-2504/HTOPS_2504_repwgt_puf.csv",
+      "/tmp/htops-2506/HTOPS_HPS_2506_repwgt_PUF.csv",
+      "/tmp/htops-2502/HTOPS_HPS_2502_repwgt_puf.csv",
+      "/tmp/HTOPS_HPS_2603_CSV.zip",
+      "/tmp/bds2023_st_cty.csv",
+      "/tmp/bds-panel/b08201.dat",
+      "/tmp/bds-panel/b08303.dat"
+    ],
+    "interpretation": "These are already-used HTOPS or place/business files, not newly supplied UAS, PSID, HRS, or staged MEPS respondent inputs for the authorized longitudinal gate."
+  },
+  "observed_related_artifacts": [
+    "/tmp/psid-2023-route-2026-09-18.html",
+    "/tmp/cultural-geopolitical-theme-mining-build-uas.log",
+    "analysis/projects/us-health-cost-household-choice/data/uas-access-recheck-2026-09-18.json",
+    "analysis/projects/us-household-calendar-integration/psid-public-route-recheck-2026-09-19.json"
+  ],
+  "interpretation": "This is evidence about current workspace retention only. It is not evidence that the underlying datasets are unavailable or that any substantive relationship is null.",
+  "next_action": "Do not repeat unauthenticated download attempts. If an authorized UAS Older Ages dataset plus codebook or the specified PSID package set is supplied, begin with hashes, structure, keys, timing, weights, and missingness before any estimate.",
+  "latest_recheck": {
+    "checked": "2026-09-20",
+    "method": "Targeted workspace filename and temporary-directory check for PSID/UAS respondent packages and expected PSID family-file names.",
+    "result": "no_authorized_longitudinal_respondent_file_present",
+    "observed_psid_artifacts": [
+      "/tmp/psid-2023-route-2026-09-18.html",
+      "/tmp/psid-2023-route-2026-09-18.headers"
+    ],
+    "interpretation": "The observed artifacts are route-response documentation, not respondent microdata. No structural audit or estimate can begin until account-authorized files are supplied."
+  },
+  "storage_boundary": "No file was copied, downloaded, opened as respondent data, or added to the repository."
+}

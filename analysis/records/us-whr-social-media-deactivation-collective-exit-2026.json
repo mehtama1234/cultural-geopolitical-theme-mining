@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-whr-social-media-deactivation-collective-exit-2026",
+  "title": "People may feel better after leaving a platform while social dependence makes leaving hard",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "World Happiness Report 2026 Chapter 6 synthesis of published Facebook deactivation and U.S. college-student collective-exit studies; component studies are retained as distinct populations and designs",
+  "geography": "United States; Facebook-user experiment and U.S. college-student Instagram/TikTok coordination study",
+  "observations": [
+    {
+      "period": "Facebook deactivation experiment; four-week intervention reported in World Happiness Report 2026",
+      "denominator": {
+        "value": 2743,
+        "unit": "Facebook users recruited for the Allcott et al. experiment",
+        "value_type": "study_sample"
+      },
+      "measures": {
+        "deactivation_effect": {
+          "value": "those assigned to deactivate for four weeks were happier, more satisfied with life, less anxious, and less depressed on measured outcomes",
+          "unit": "randomized treatment-control comparison",
+          "value_type": "reported_experiment_result"
+        },
+        "later_use": {
+          "value": "the deactivation group later reported lower Facebook use and was more likely to delete the app",
+          "unit": "post-treatment behavior report",
+          "value_type": "reported_follow_up"
+        },
+        "political_knowledge": {
+          "value": "the control group had significantly more political knowledge than the deactivation group in the reported measures",
+          "unit": "measured study outcome",
+          "value_type": "reported_experiment_result"
+        },
+        "durable_exit": {
+          "value": "not established",
+          "unit": "long-run account closure, replacement, civic participation, or stable non-use",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "World Happiness Report synthesis of Allcott et al.'s randomized four-week Facebook deactivation experiment; treatment and control groups are kept separate from the report's other studies.",
+      "uncertainty": "The experiment concerns recruited Facebook users and a short intervention. The report does not make it a representative estimate of all U.S. adults, and improved subjective wellbeing does not capture every valued connection, information benefit, or material consequence.",
+      "subgroup": "Facebook users in the experiment; the public chapter does not provide a general-population estimate or a same-person link to the separate Instagram/TikTok coordination study.",
+      "counterinterpretation": "A person can be less anxious while offline and still value political information, social connection, or practical coordination enough to return. App deletion is not proof of permanent account exit.",
+      "source_url": "https://www.worldhappiness.report/ed/2026/social-media-wasting-time-and-product-traps/",
+      "retrieval_hash": "sha256:088b6d88edac862aadcdb757c61d1bdb85f0db6ab792e24db0d77ffa4c9f9052",
+      "status": "reported"
+    },
+    {
+      "period": "U.S. college-student collective-exit study summarized in World Happiness Report 2026",
+      "denominator": {
+        "value": null,
+        "unit": "substantial sample of U.S. college students; exact denominator not stated in the public chapter passage used here",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "individual_exit_value": {
+          "value": "many participants would demand payment to give up Instagram or TikTok for a month when others' use remained unchanged",
+          "unit": "willingness-to-accept judgment",
+          "value_type": "reported_study_pattern"
+        },
+        "collective_exit_value": {
+          "value": "many participants would instead pay to eliminate the platform from their community when everyone else was asked to leave too",
+          "unit": "conditional willingness-to-pay judgment",
+          "value_type": "reported_study_pattern"
+        },
+        "coordination_mechanism": {
+          "value": "the report interprets the difference as social dependence or a negative non-user externality",
+          "unit": "reported interpretation of a conditional experiment",
+          "value_type": "interpretive_mechanism"
+        },
+        "actual_collective_exit": {
+          "value": "not observed",
+          "unit": "real-world coordinated deletion, substitution, or community-wide non-use",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "World Happiness Report synthesis of a U.S. college-student conditional valuation study; this is not pooled with the Facebook deactivation experiment.",
+      "uncertainty": "Willingness to pay or accept is a stated valuation, not observed deletion or durable behavior. The college setting, hypothetical coordination condition, and platform-specific context limit generalization.",
+      "subgroup": "U.S. college students in the underlying study; not all U.S. users and not the same participants as the Facebook experiment.",
+      "counterinterpretation": "A collective-exit preference can reflect dislike of social pressure without proving that the platform causes harm, that all users want to leave, or that coordination would be feasible.",
+      "source_url": "https://www.worldhappiness.report/ed/2026/social-media-wasting-time-and-product-traps/",
+      "retrieval_hash": "sha256:088b6d88edac862aadcdb757c61d1bdb85f0db6ab792e24db0d77ffa4c9f9052",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w34743",
+      "claim": "The NBER platform time-cost experiments are a separate platform-demand and time-allocation source; they are not merged with the deactivation or collective-exit studies.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a platform-exit and collective-coordination mechanism. It does not establish a population-wide causal effect of social media, a durable exit rate, a complete welfare balance, a political-action effect, or a recommendation about platform policy. The two component studies use different samples, platforms, outcomes, and designs."
+}

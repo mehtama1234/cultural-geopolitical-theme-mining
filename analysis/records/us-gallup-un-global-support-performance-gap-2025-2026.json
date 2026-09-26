@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-un-global-support-performance-gap-2025-2026",
+  "title": "Global approval of the United Nations coexists with sharp country and role-specific doubts about performance",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup World Poll 2025 surveys across 137 countries and Gallup U.S. probability-based panel survey, September 1-14, 2026",
+  "geography": "Global; United States comparison",
+  "observations": [
+    {
+      "period": "2025 World Poll; perceived United Nations job performance across 137 countries",
+      "denominator": {
+        "value": 137,
+        "unit": "countries with Gallup World Poll estimates",
+        "value_type": "country_coverage"
+      },
+      "measures": {
+        "global_approval": {
+          "value": "Median 50% approve of the job the UN is doing and 26% disapprove, for a median net approval of +24",
+          "unit": "median percent across countries",
+          "value_type": "published_cross_country_median"
+        },
+        "country_distribution": {
+          "value": "Majorities approve in 67 countries; approval exceeds disapproval by at least 10 points in 92; majorities disapprove in 9 countries and disapproval exceeds approval by at least 10 points in 19",
+          "unit": "number of countries",
+          "value_type": "published_country_distribution"
+        },
+        "regional_contrast": {
+          "value": "Approval exceeds disapproval by 51 points in Southeast Asia and 43 points in sub-Saharan Africa, while the Middle East and North Africa has net approval of -23",
+          "unit": "regional net approval points",
+          "value_type": "published_regional_contrast"
+        },
+        "security_council_range": {
+          "value": "Among 2026 Security Council members with data, approval ranged from 79% in Denmark to 15% in Russia; five members had negative net approval",
+          "unit": "percent approval by country",
+          "value_type": "published_country_comparison"
+        }
+      },
+      "method": "Gallup World Poll country estimates collected March-December 2025; the source reports medians and country-level distributions rather than a pooled global respondent estimate.",
+      "uncertainty": "Country medians are not population-weighted global estimates, and the report notes that the 2025 measure is not directly comparable with the 2008 question. Approval reflects perceived job performance and can be affected by familiarity, conflict exposure, national politics, and question context.",
+      "subgroup": "137 country estimates, regional groupings, and Security Council member states; the source reports country-level variation rather than individual-level causal subgroups.",
+      "counterinterpretation": "Global approval can represent support for the UN's role or ideal without confidence in its effectiveness in a particular crisis. Low approval in a country does not establish withdrawal from multilateral institutions or opposition to UN membership.",
+      "source_url": "https://news.gallup.com/poll/714335/world-positive-negative-job-performance.aspx",
+      "retrieval_hash": "sha256:f3e8ebedc13433b5a0f53bb250c3263daa7fbc7ef8b74e75c1904cf5b7058cc4",
+      "status": "reported"
+    },
+    {
+      "period": "September 1-14, 2026; U.S. views of UN performance by responsibility",
+      "denominator": {
+        "value": 2000,
+        "unit": "more than 2,000 U.S. adults in Gallup's probability-based panel web survey",
+        "value_type": "published_sample_approximation"
+      },
+      "measures": {
+        "humanitarian_assistance": {
+          "value": "45% say the UN is doing a good job providing humanitarian assistance and 53% say it is doing a poor job",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_distribution"
+        },
+        "peace_and_security": {
+          "value": "73% say the UN is doing a poor job maintaining international peace and security; Democrats, independents, and Republicans saying good job are 32%, 23%, and 19%, respectively",
+          "unit": "percent of U.S. adults and party groups",
+          "value_type": "published_share_and_subgroup_comparison"
+        },
+        "rights_law_and_development": {
+          "value": "About seven in ten rate the UN poorly on protecting human rights and upholding international law; 63% rate it poorly on supporting sustainable development",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_share"
+        },
+        "cross_role_ordering": {
+          "value": "Humanitarian assistance is the highest-rated of the five assessed responsibilities, while peace and security is the lowest-rated",
+          "unit": "rank ordering of assessed roles",
+          "value_type": "published_role_comparison"
+        }
+      },
+      "method": "Gallup probability-based panel web survey of U.S. adults fielded September 1-14, 2026, measuring perceived performance across five UN responsibilities and party-conditioned contrasts.",
+      "uncertainty": "The U.S. survey measures evaluations, not audited UN outputs or causal effects. The global and U.S. observations use different field periods, question structures, and populations and should not be pooled into one approval estimate.",
+      "subgroup": "U.S. adults overall, with party and education contrasts reported by Gallup; the observation retains the responsibility-specific and partisan performance pattern.",
+      "counterinterpretation": "Americans can see the UN as necessary and support membership while judging its current performance poorly. A responsibility-specific gap may reflect expectations, visibility, or geopolitical attribution rather than a single institutional legitimacy score.",
+      "source_url": "https://news.gallup.com/poll/714650/americans-rate-united-nations-negatively-five-key-roles.aspx",
+      "retrieval_hash": "sha256:ff5782cf5e2f89905bcf2a5e96157235b2283a8abb196fc93da48cb2df264f00",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global-institution support-versus-performance layer. It does not infer UN effectiveness, diplomatic behavior, public participation, membership preference, or causal effects from approval and role-specific performance evaluations.",
+  "retrieval_hash": "sha256:f3e8ebedc13433b5a0f53bb250c3263daa7fbc7ef8b74e75c1904cf5b7058cc4"
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doe-aep-texas-transmission-loan-customer-savings-2026",
+  "title": "Transmission finance reaches a closed infrastructure commitment before customer savings and reliability are realized",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Department of Energy Energy Dominance Financing Program project page for the AEP Texas transmission loan; official project-level financing and forecast claims, not customer billing data",
+  "geography": "Texas; AEP transmission portfolio and 1.1 million projected customer beneficiaries",
+  "observations": [
+    {
+      "period": "July 2026; loan closing and project forecast",
+      "denominator": {
+        "value": 1,
+        "unit": "AEP Texas transmission financing portfolio",
+        "value_type": "project_portfolio"
+      },
+      "measures": {
+        "loan_amount": {
+          "value": 3260000000,
+          "unit": "US dollars, loan amount up to",
+          "value_type": "closed_financing_amount"
+        },
+        "transmission_scope": {
+          "value": 2800,
+          "unit": "miles of transmission lines to rebuild, reconductor, or build",
+          "value_type": "project_scope"
+        },
+        "capacity_forecast": {
+          "value": 100,
+          "unit": "percent increase in power carrying capacity of existing infrastructure",
+          "value_type": "project_forecast"
+        },
+        "projected_customer_savings": {
+          "value": 685000000,
+          "unit": "US dollars of electricity cost savings over 30 years, projected for 1.1 million customers",
+          "value_type": "project_forecast"
+        },
+        "projected_jobs": {
+          "value": 6500,
+          "unit": "permanent U.S. jobs supported, estimated at closing",
+          "value_type": "project_forecast"
+        },
+        "realized_customer_outcome": {
+          "value": "not observed",
+          "unit": "completed construction, interruption reduction, retail bill change, customer distribution, reliability, or durability",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "DOE project-page extraction; closed financing, physical scope, capacity and customer-savings forecasts are kept separate from construction, operation, allocation, and household outcomes.",
+      "uncertainty": "The project page reports forecasts and a portfolio scope, not completed line miles, actual capacity, observed interruptions, customer bills, cost allocation, or realized savings. The 1.1 million customer figure is a forecast universe, not a linked household denominator.",
+      "subgroup": "Texas electricity customers, data-center and oil-and-gas loads, AEP Texas, workers, and communities along the transmission portfolio; incidence and benefit distribution are not reported.",
+      "counterinterpretation": "A closed loan can lower financing barriers and make construction more likely, while the investment may still produce real system value before individual bill savings can be assigned; forecast benefit is not proof of equal customer benefit.",
+      "source_url": "https://www.energy.gov/edf/aep-texas",
+      "retrieval_hash": "sha256:2ed196764fcd71c9b0a2059ef57ffe2bdfa388f974c33cf9e1b8259350c7f2ba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a closed infrastructure-financing stage to the transmission and large-load route. It does not establish construction completion, operational reliability, customer bill savings, cost allocation, local burden, or geopolitical leverage. The next test requires project milestones, rate-case or bill data, outage/reliability measures, customer incidence, and durable operation kept separate."
+}

@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-tourism-demand-community-resilience-2026",
+  "title": "Tourism demand has recovered at scale, but geopolitical, climate, infrastructure, and host-community pressures are reshaping the sector",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD Tourism Trends and Policies 2026",
+  "geography": "OECD countries and partner-country profiles, with a United States country profile",
+  "observations": [
+    {
+      "period": "2024-2025; OECD tourism aggregate and 2026 policy report",
+      "denominator": {
+        "value": 819500000,
+        "unit": "international tourist arrivals to OECD countries in 2024; reported aggregate count",
+        "value_type": "international_arrival_count"
+      },
+      "measures": {
+        "oecd_arrivals_growth_2024": {"value": 8.1, "unit": "percent increase in international tourist arrivals to OECD countries in 2024", "value_type": "reported_growth_rate"},
+        "oecd_arrivals_2024": {"value": 819500000, "unit": "international tourist arrivals to OECD countries in 2024", "value_type": "reported_arrival_count"},
+        "oecd_tourism_direct_gdp_share": {"value": 4.0, "unit": "percent of GDP directly contributed by tourism in OECD countries, as summarized by the report", "value_type": "reported_economic_share"},
+        "oecd_tourism_services_export_share": {"value": 19.3, "unit": "percent of services exports directly associated with tourism in OECD countries, as summarized by the report", "value_type": "reported_export_share"},
+        "oecd_arrivals_growth_2025": {"value": 3.4, "unit": "estimated percent growth in international arrivals to OECD countries in 2025", "value_type": "reported_growth_estimate"},
+        "early_2026_shock": {"value": "Middle East conflict disrupted travel flows and raised transport and other costs", "unit": "reported geopolitical and operating-pressure mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The OECD combines internationally comparable tourism statistics, country policy profiles, tourism governance evidence, and thematic analysis of social, environmental, digital, and resilience pressures.",
+      "uncertainty": "Tourist arrivals and tourism GDP do not measure visitor welfare, resident burden, job quality, local value retention, or environmental sustainability. 2025 growth is an estimate, and short-term geopolitical effects may differ across destinations and transport routes.",
+      "subgroup": "International visitors, destination residents and communities, tourism firms and workers, transport and retail suppliers, governments, and less-visited or high-pressure destinations.",
+      "counterinterpretation": "Strong arrivals can support local income, cultural exchange, and regional development. Concentrated flows and shocks may be managed through visitor distribution, infrastructure investment, accessible tourism, data systems, and community participation rather than requiring demand reduction everywhere.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en/full-report/executive-summary_a4335ab2.html",
+      "retrieval_hash": "sha256:f32775cd414507637178a0f7f614fba870c7df21864da6b8b52474cd859abf64",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; United States country profile in OECD Tourism Trends and Policies 2026",
+      "denominator": {
+        "value": 100,
+        "unit": "United States tourism-economy percentage base; measure-specific reference years are stated in each measure",
+        "value_type": "country_profile_percent_base"
+      },
+      "measures": {
+        "us_tourism_direct_gva_share_2023": {"value": 3.0, "unit": "percent of U.S. total gross value added directly associated with tourism in 2023", "value_type": "reported_economic_share"},
+        "us_tourism_direct_employment_share_2023": {"value": 4.0, "unit": "percent of U.S. total employment directly associated with tourism in 2023", "value_type": "reported_employment_share"},
+        "us_travel_exports_share_services_2025": {"value": 20.3, "unit": "percent of U.S. services exports represented by travel exports in 2025", "value_type": "reported_export_share"},
+        "us_international_arrivals_2025": {"value": 68300000, "unit": "international tourist arrivals to the United States in 2025", "value_type": "reported_arrival_count"},
+        "us_arrivals_change_2025": {"value": -5.5, "unit": "percent change in U.S. international tourist arrivals from 2024 to 2025", "value_type": "reported_growth_rate"},
+        "us_arrivals_vs_2019": {"value": 86, "unit": "percent of 2019 U.S. international tourist arrival level reached in 2025", "value_type": "reported_recovery_share"},
+        "us_domestic_person_trips_2025": {"value": 2400000000, "unit": "estimated domestic tourism person-trips in the United States in 2025", "value_type": "reported_trip_count_estimate"}
+      },
+      "method": "The OECD country profile reports U.S. tourism output, employment, travel exports, international arrivals, domestic person-trips, governance, and policy priorities using national tourism statistics and the OECD comparative framework.",
+      "uncertainty": "The U.S. profile combines different statistical concepts and reference years; person-trips are not unique travelers, and arrival changes do not identify the contribution of visa rules, prices, safety perceptions, airline capacity, exchange rates, or geopolitical events.",
+      "subgroup": "U.S. domestic and international travelers, destination communities, tourism businesses, workers, transport systems, and federal, state, and local tourism authorities.",
+      "counterinterpretation": "Lower international arrivals can coexist with strong domestic travel and a large tourism economy. A decentralized policy structure can allow local experimentation, but may also make national-local coordination and impact distribution harder to observe.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-tourism-trends-and-policies-2026_3fd3cd75-en/full-report/united-states_59baf3c3.html",
+      "retrieval_hash": "sha256:f32775cd414507637178a0f7f614fba870c7df21864da6b8b52474cd859abf64",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a tourism demand, place-pressure, host-community, infrastructure, and geopolitical-resilience route. It does not measure individual travel motives, resident sentiment, tourism worker quality, local housing displacement, visitor welfare, or causal effects of any policy or conflict.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD Tourism Trends and Policies 2026 executive summary, official PDF, and United States country profile retrieved; arrival, economic-share, export, domestic-trip, geopolitical-pressure, governance, and resilience claims cross-checked against the publication.",
+    "pdf_sha256": "sha256:f32775cd414507637178a0f7f614fba870c7df21864da6b8b52474cd859abf64",
+    "checked": "2026-09-26"
+  }
+}

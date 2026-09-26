@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** short discovery pass; no settled finding
+**Status:** bounded pass complete; national movement costs and work-travel time are measured, household access and welfare remain open
 
 ## Working question
 
@@ -30,6 +30,8 @@ home, job, food, care, or service location
 
 The opening sources show that movement is a large expense and a time constraint. The missing link is which households can switch mode, move closer, work remotely or absorb a repair.
 
+The bounded result is now recorded in [Finding 001](findings/us-transportation-household-access-001.md), with its machine-readable [trend record](../../records/us-transportation-cost-time-access-2024.json).
+
 ## Counterpoint to keep visible
 
 Transportation spending can buy access to a better job, school, store or care provider. A higher cost is not automatically a worse outcome. The comparison must include what the trip makes possible.
@@ -45,3 +47,5 @@ Transportation spending can buy access to a better job, school, store or care pr
 ## Decision rule
 
 Pair spending with travel time or access in the same place and period. If the source only shows average transportation spending, record its size and move on.
+
+This lane is now paused for rotation. Reopen it only when a source adds a place-, income-, or household-sensitive access outcome.

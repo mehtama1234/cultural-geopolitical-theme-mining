@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-labor-market-power-heterogeneity-2026",
+  "title": "Worker and firm heterogeneity can explain much of the variation in wage markdowns",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 35640, a model of labor supply elasticities, heterogeneous workers and firms, wage setting, and tax progressivity",
+  "geography": "Conceptual model calibrated and discussed in relation to U.S. labor-market evidence; no single administrative sample is the observation unit",
+  "observations": [
+    {
+      "period": "Working paper issued August 2026",
+      "denominator": {"value": null, "unit": "theoretical and quantitative model; no single worker or firm sample denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "heterogeneity_share": {"value": 78, "unit": "percent of the variable component of labor-supply elasticities attributed to worker heterogeneity in the model", "value_type": "modeled_estimate"},
+        "markdown_difference_share": {"value": 89, "unit": "percent of markdown differences between large and small firms attributed to worker heterogeneity in the model", "value_type": "modeled_estimate"},
+        "progressivity_effect": {"value": "higher tax progressivity makes labor supply less elastic, widening markdowns and weakening the tax base in the model", "unit": "modeled policy mechanism", "value_type": "theoretical_result"},
+        "policy_welfare_effect": {"value": "the model's optimal tax progressivity is about one-third lower and associated welfare gains about two-thirds lower when these channels are included", "unit": "model comparison", "value_type": "modeled_comparison"}
+      },
+      "method": "The authors extend a labor-market model with discrete choice over firms, production complementarities, strategic interaction, heterogeneous workers and granular firms, and compare wage-setting and tax-policy implications.",
+      "uncertainty": "The source is a working-paper model, not a direct estimate of any worker's wage, employer power, tax burden, or welfare. The reported shares and policy comparisons are model-dependent and should not be narrated as population prevalence or causal administrative estimates.",
+      "subgroup": "Modeled workers and firms differing in labor-supply elasticities, productivity, complementarities, size, and sorting; large- versus small-firm comparisons are model outputs.",
+      "counterinterpretation": "Worker sorting can reflect preferences, amenities, family constraints, discrimination, information, or firm quality rather than employer power alone. A model-implied markdown is not the same as observed wage theft, reduced job quality, or lack of worker voice.",
+      "source_url": "https://www.nber.org/papers/w35640",
+      "retrieval_hash": "sha256:1f12c443e399472617be87828b8d6ec84dc956fadefa7dac82860780a33f6b45",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a firm-worker heterogeneity mechanism: market power and policy incidence depend on who sorts into which firms and how elastic labor supply is across margins. It does not establish observed worker harm, wage markdowns for a named firm, or a universal tax-policy effect."
+}

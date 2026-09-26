@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-gender-gaps-career-information-advice-2026",
+  "title": "Career information about work-life balance is distributed differently by student gender and shapes career intentions",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "care_health_reproduction"
+  ],
+  "source_unit": "NBER Working Paper 35750, preregistered field experiment connecting college students to 10,000 working professionals",
+  "geography": "United States; college students seeking career information and working professionals responding to randomized messages",
+  "observations": [
+    {
+      "period": "Field experiment and information intervention; paper issued September 14, 2026",
+      "denominator": {
+        "value": 10000,
+        "unit": "working professionals approached in the large-scale field experiment; student denominator and response counts may differ",
+        "value_type": "reported_experiment_scope"
+      },
+      "measures": {
+        "information_treatment": {
+          "value": "professional receives a message from a male or female college student",
+          "unit": "randomized requester-gender signal in career-information exchange",
+          "value_type": "reported_intervention"
+        },
+        "work_life_balance_information": {
+          "value": "female students receive substantially more information about work-life balance than male students when asking broadly about a career",
+          "unit": "gender difference in career information received",
+          "value_type": "reported_treatment_effect"
+        },
+        "specific_question_persistence": {
+          "value": "the gender difference persists when students specifically ask about work-life balance",
+          "unit": "information response conditional on explicit request",
+          "value_type": "reported_robustness_result"
+        },
+        "career_intentions": {
+          "value": "information gaps are consequential for gender gaps in career intentions",
+          "unit": "career-intention pathway following information and intervention evidence",
+          "value_type": "reported_mechanism"
+        },
+        "professional_motives": {
+          "value": "survey evidence suggests non-altruistic motives for discussing work-life balance with women",
+          "unit": "reported interpretation of information-provider behavior",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "Large-scale field experiment randomizing whether working professionals receive a career-information message from a male or female college student, combined with an information intervention and a survey of professionals' motives.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the exact student sample, response rate, information-intervention design, or persistence into actual education, occupation, earnings, or work-life outcomes. Career intentions are not realized careers or household wellbeing.",
+      "subgroup": "Male and female college students, working professionals, broad versus explicit work-life-balance questions, career fields, and professional characteristics; effects may vary by field, identity, and labor-market context.",
+      "counterinterpretation": "Different information may reflect perceived relevance, strategic communication, social norms, or professional selection rather than deliberate discrimination. Information can alter intentions without improving access, work conditions, or care compatibility; the survey motive evidence does not identify every mechanism in the field exchange.",
+      "source_url": "https://www.nber.org/papers/w35750",
+      "retrieval_hash": "sha256:6a330587b30173ee0c67f15893674b66d126e523ac5fabdae236e1665f71e02a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35750",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a gendered career-information and intention pathway in a field experiment. It does not establish realized occupation, earnings, work-life balance, care burden, discrimination, household security, or universal transfer across fields and institutions."
+}

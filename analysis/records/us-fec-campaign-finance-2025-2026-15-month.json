@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fec-campaign-finance-2025-2026-15-month",
+  "title": "Federal political money is visible at a different scale from political participation",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Federal Election Commission statistical summary of committee filings",
+  "geography": "United States federal elections; 2025-2026 election cycle",
+  "observations": [
+    {
+      "period": "January 1, 2025-March 31, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "FEC-reported committee financial activity in the 15-month period",
+        "value_type": "source_defined_reporting_period"
+      },
+      "measures": {
+        "congressional_candidate_receipts": {"value": 2127.4, "unit": "million US dollars", "value_type": "reported_total"},
+        "congressional_candidate_disbursements": {"value": 1345.2, "unit": "million US dollars", "value_type": "reported_total"},
+        "party_committee_receipts": {"value": 1120.8, "unit": "million US dollars", "value_type": "reported_total"},
+        "party_committee_disbursements": {"value": 824.8, "unit": "million US dollars", "value_type": "reported_total"},
+        "pac_receipts": {"value": 6300.4, "unit": "million US dollars", "value_type": "reported_total"},
+        "pac_disbursements": {"value": 4784.2, "unit": "million US dollars", "value_type": "reported_total"},
+        "independent_expenditures": {"value": 252.1, "unit": "million US dollars", "value_type": "reported_total"}
+      },
+      "method": "FEC aggregation of campaign-finance reports filed by congressional candidate committees, party committees, PACs, and communication filers through March 31, 2026.",
+      "uncertainty": "Totals are subject to reporting, classification, rounding, amendment, and committee-coverage boundaries; the summary does not measure unreported political activity or downstream effectiveness.",
+      "subgroup": "Federal congressional candidate committees, party committees, PACs, and reported independent-expenditure filers.",
+      "counterinterpretation": "Higher receipts can reflect more candidates, competitive races, fundraising technology, donor concentration, or reporting composition rather than broader civic participation or greater policy influence.",
+      "source_url": "https://www.fec.gov/updates/statistical-summary-of-15-month-campaign-activity-of-the-2025-2026-election-cycle/",
+      "retrieval_hash": "sha256:0b6406c11229d32a25352cdbfa3030bbe990c28a6cd6d076839ea4f3a9ce0df3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.fec.gov/campaign-finance-data/campaign-finance-statistics/",
+      "claim": "FEC publishes cycle, filer-type, and coverage-period campaign-finance tables.",
+      "status": "official-method-context"
+    },
+    {
+      "source_url": "https://www.fec.gov/introduction-campaign-finance/how-to-research-public-records/individual-contributions/",
+      "claim": "FEC describes the fields available for individual contribution searches, including contributor, date, amount, and recipient committee.",
+      "status": "official-data-context"
+    }
+  ],
+  "boundary": "This record measures disclosed committee-level financial capacity. It does not measure unique donor breadth, communication exposure, persuasion, turnout, candidate victory, policy change, corruption, or democratic legitimacy.",
+  "retrieval_hash": "sha256:0b6406c11229d32a25352cdbfa3030bbe990c28a6cd6d076839ea4f3a9ce0df3"
+}

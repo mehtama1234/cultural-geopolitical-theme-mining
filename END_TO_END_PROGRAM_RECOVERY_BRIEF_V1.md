@@ -5,6 +5,11 @@ consumer, institutional, financial, political, and geopolitical theme-mining
 program. It is not a one-household study. Household data is one measurement
 layer inside the program.
 
+The finite requirement audit and stopping rule is [active-goal completion
+audit](analysis/ACTIVE-GOAL-COMPLETION-AUDIT_2026-09-25.md). It distinguishes
+the broad atlas release, which is publication-ready, from the still-open
+identifier-bearing same-unit extension.
+
 For the durable session-to-session control state, also read the [program
 continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md). It keeps
 the full long-term objective active while the execution queue chooses the next
@@ -15,17 +20,137 @@ Before handing off or starting a new research cycle, run the consolidated
 sync, source coverage, provenance, observation records, finding and watchlist
 parity, published links, local links, and whitespace together.
 
-## Verified current checkpoint — 2026-09-19
+## Verified current checkpoint — 2026-09-24
 
-The atlas currently contains 14 themes, 344 machine-readable records, 1,214
-observations, 103 source packets, 174 connections, 85 reading paths, 25 public
+The atlas currently contains 14 themes, 1012 machine-readable records, 2,353
+observations, 229 connections, 93 reading paths, 25 public
 episode events, and 2 validated episode arrows. Separately, the real broad
-event-ledger portfolio contains 35 ledgers, 207 events, and 145 typed arrows,
-including 52 explicitly open arrows; the portfolio summary and validator keep
-those heterogeneous units distinct.
-The publication gate passes all 22 checks. Program-owned changes are committed;
-two pre-existing source-registry audit files remain modified and are deliberately
-not included in the program commits.
+event-ledger portfolio contains **98 ledgers, 302 events, and 454 typed arrows,
+including 164 explicitly open arrows**; the portfolio summary and validator keep
+those heterogeneous units distinct. These current portfolio counts supersede
+older handoff snapshots in this brief.
+The publication gate passes all 30 checks. The current worktree contains
+program-owned changes from the continuation; use the validation gate, current
+ledgers, and continuity record as the authoritative state rather than inferring
+completion from git commit status.
+
+The plain-language reader now contains 367 numbered findings across the full
+14-theme map. The newest public-systems finding shows that stable SNAP receipt
+can coexist with different rent and utility exposure depending on work
+capacity and children in the household. This is a bounded SIPP subgroup result,
+not a SNAP effect or a universal household-security estimate; it reinforces the
+program rule that benefit receipt, protected needs, and durable recovery are
+separate stages.
+The latest disaster-recovery finding adds the same rule at state scale: FEMA
+registration, referral, eligibility, and reported assistance can become visible
+before a survivor's repair, stable housing, or durable recovery is observed.
+The political-meaning layer now also preserves a party-conditioned ANES
+comparison: pooled financial-worry/vote patterns can hide different pathways
+inside prior identity groups, especially among independents.
+The geopolitical layer also separates domestic defense-industrial allocation
+from delivered, trained, replaceable capability and observed external effect.
+The worker/status layer also retains a named temporary-visa case where
+reported full back-pay did not establish restored safety, adequacy, or exit.
+The strongest retained same-person bridge is the MEPS event-to-later-panel
+screen: it advances dated event → later health/work status, while leaving the
+event-specific alternative, remedy, adequacy, and recovery path open.
+The household panel adds a complementary persistence bridge: broad financial
+improvement can coexist with continued cheaper buying, reduced use, delayed
+purchases, or lower savings.
+The consumer-recourse layer adds a remedy-persistence clock: reissue and
+redistribution can continue after first distribution without recipient-level
+proof of correction or recovery.
+Insurance-settlement records add a multi-sided remedy comparator: reported
+restitution and process correction can span consumers, providers, and the state
+without proving corrected coverage, care continuity, or household recovery.
+The ACRO repeat-refund record adds a recipient-conditioned reach stage: prior
+receipt can support a later payment without proving debt or account correction.
+The worker-remedy layer adds a durability counterexample: one case reports
+back-pay payment without real workplace return, while another reports a real
+return followed by later dismissal. Money, access, and durable employment are
+separate recovery currencies.
+The worker-voice layer adds a retaliation boundary: a worker's pay question
+can open an agency enforcement route while the speaker's own payment, return,
+and willingness to speak again remain unknown.
+The infrastructure layer adds a realization-clock comparator: a grid project
+can be energized while the household effect remains a projection and a related
+project remains only approved.
+The worker-exit layer adds a meaning-and-action endpoint: repeated wage failure
+and broken trust can produce forced exit and refusal to return before a formal
+compensation order arrives.
+The firm-process layer adds a different remedy clock: aged-care providers can
+report back pay, payroll replacement, audits, and worker-voice controls while
+individual receipt, adequacy, household recovery, and recurrence remain open.
+The place-power layer adds a concrete governance effect: a school board's land
+decision changed an approved transmission route before parcel-level burden,
+compensation, or resident acceptance could be observed.
+The legitimacy layer adds a public-voice boundary: hundreds of speakers and
+written comments can shape the formal route and mitigation process without
+proving agreement, fair burden, or durable acceptance.
+The AI layer adds a distribution boundary: access, permission, task control,
+and ownership can shape who receives gains before displacement is observed.
+The migration-and-work layer adds a cultural-access boundary: reinstatement,
+translation, and lost pay can be ordered while language, mobility, family
+obligations, and actual return remain unresolved.
+The status-and-work layer adds a document-barrier comparator: an agency and
+employer can report back pay, a return offer, and process reform without proof
+of accepted reemployment or durable security.
+The platform layer adds a lived-activity endpoint: restored access and 150-plus
+trips can be observed while lost-pay receipt, net recovery, alternatives, and
+durable platform security remain open.
+The health-access layer adds a counterexample: prescription delay and
+prior-authorization delay show different mixes of later perceived-health
+improvement and worsening, so institutional friction is not one universal
+health pathway.
+The political-meaning layer adds a linked-panel bridge: expense difficulty is
+followed by more food, energy, and job-loss pressure while institutional
+confidence moves unevenly rather than as one generalized distrust shift.
+The consumer-firm layer adds a market-activity boundary: nominal retail sales
+can rise while real quantities, household affordability, firm margins, local
+access, and customer welfare remain unobserved.
+The household-security layer adds a national baseline: high median income can
+coexist with poverty, child poverty, different supplemental-poverty exposure,
+and full-year uninsured status without showing usable security for the same
+households.
+The social-connection layer adds a cultural counterexample: communication can
+remain comparatively stable while loneliness and support adequacy worsen, and
+institutional confidence can vary by the institution being judged.
+The repeated-snapshot layer adds a timing boundary: a stable broad expense
+measure can coexist with movement in food, energy trade-offs, and separate
+institutional judgments without showing same-household recovery or decline.
+The consumer-loss layer adds a conversion rule: exposure, realized loss,
+agency reporting, self-reported recovery, and restored household security are
+separate stages, especially when the recovery cell is sparse.
+The cross-domain interface layer makes the central mechanism explicit:
+availability is not use, and people or households often absorb the missing
+conversion cost through time, money, disclosure, family help, non-use, or
+continued dependence.
+The political-action layer adds a complementary CCES bridge: reported job loss
+is followed by a large insurance gap and lower local action without a uniform
+approval or hostility pattern.
+
+The latest route- usability rotation sharpens the shared mechanism: a formal
+option becomes consequential only when a person can identify it, reach it in
+time, use it, and obtain a meaningful result. Federal reentry records show
+earned-time and contractor-payment failures that can weaken the transition
+route; accessibility oversight shows that even a complaint route may be
+underused when people do not know it exists; and text outreach improves the
+speed of initial response while consent and access remain uneven. These are
+not interchangeable measures, but together they make timing, visibility, and
+correction testable dimensions of institutional access.
+
+The newest housing and care evidence adds an important cultural boundary.
+HUD's regional HEARS study associates negative assistance exits with higher
+subsequent housing instability and crisis indicators, while the Native
+housing review warns that doubled-up housing can be protective kinship
+support rather than homelessness. Disability-healthcare oversight similarly
+shows that a nominally available system can remain unusable because of
+physical, sensory, communication, cognitive, digital, or provider-bias
+barriers. The atlas should therefore track both material outcomes and the
+classification/interface rules that decide whether need, resilience, or
+remedy becomes visible. The same-unit bridge remains open: these routes do
+not yet jointly observe alternatives, actual receipt, recovery, and later
+meaning or exit for the same person or household.
 
 The active depth lane is a storage-light same-case or event-compatible route:
 
@@ -201,7 +326,7 @@ cross-theme layers:
 
 - [aging, care supply, and social capacity](analysis/projects/us-aging-care-strain/aging-care-system-capacity-bridge-v1.md): how demographic need becomes family time, paid-care work, employer constraint, public infrastructure, unmet need, and political meaning across separate units;
 
-- [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the official microdata targets and bounded weighted estimate for the care-versus-work layer; the respondent/activity/summary extraction is complete, while replicate weights, eldercare-roster detail, and same-event linkage remain open.
+- [ATUS 2024 care/work acquisition record](analysis/projects/us-aging-care-strain/atus-2024-care-work-acquisition-record-v1.md): the official microdata targets and bounded weighted estimate for the care-versus-work layer; respondent/activity/summary, replicate-weight, 2024–2025 comparison, and eldercare-roster extensions are now complete, while same-event and same-household linkage remain open.
 - [ATUS 2023–2024 published care/work layer](analysis/projects/us-aging-care-strain/atus-2023-2024-published-care-work-layer-v1.md): an official population baseline showing the scale, age/employment distribution, frequency, and care-day intensity of unpaid eldercare before attempting the stronger same-respondent displacement test.
 
 - [public-system participation, meaning, and action gap](analysis/projects/us-safety-net-access/public-system-meaning-action-gap-v1.md): records the SIPP reason/transition evidence and the precise missing same-episode bridge to trust, remedy, and political action.
@@ -416,18 +541,26 @@ The next work should deepen the open arrows rather than only add more topics:
 
 ## Immediate execution queue after the current continuation
 
-1. **Public-system event:** use the broad event ledger on one SNAP or other
-   administrative episode, preserving notice, route effort, decision,
-   interruption, material result, trust, and action as separate fields.
-2. **Care-time estimate:** acquire the official ATUS 2024 files or use an
-   accessible official table, then run the weighted caregiver-versus-work
-   comparison specified in the aging acquisition record.
+1. **Authorized longitudinal gate:** if an authorized UAS Older Ages or PSID
+   package is supplied, inventory files, hashes, person keys, wave timing,
+   weights, missingness, and event/trust overlap before producing any estimate.
+   Do not infer access or download permission.
+2. **Public-system or consumer episode:** use the broad event ledger on one
+   dated SNAP, refund, insurance, or bill-payment episode, preserving notice or
+   narrative, route effort, decision, interruption, material result, remedy
+   receipt, trust, and action as separate fields.
 3. **Migration/place comparison:** add direct local or survey measures of
    fairness, belonging, attribution, and policy response to the existing
    population/housing/language/firm capacity screen.
 4. **State/infrastructure consequence:** for one realized infrastructure case,
    verify local jobs, energy/water burden, ownership, portability, public
    service quality, and replaceability before calling it state leverage.
+
+The ATUS care-time pass is complete through the 2024–2025 weighted respondent,
+replicate-weight, and eldercare-roster comparisons. It remains a distributional
+time layer; same-event and same-household recovery are still open. The
+[strongest-chain register](analysis/US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.md)
+records the current ranking and missing stage for each route.
 
 These four actions deliberately cover the program's household, time/care,
 place/culture/politics, and firm/infrastructure scales. None should be replaced
@@ -438,3 +571,6 @@ and its reusable structural validator (`scripts/validate_us_broad_event_ledger.p
 as the common recording instrument. It supports cross-level events without
 forcing every question into a household panel and requires a separate status,
 unit, time order, counterexample, and missing link for each arrow.
+The platform/work layer also records a legal-implementation boundary: a worker
+protection can be enacted while injunction and rulemaking leave the practical
+deactivation remedy non-operational.

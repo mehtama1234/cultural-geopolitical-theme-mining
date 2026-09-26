@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-whistleblower-disclosure-protection-agency-capacity-2026",
+  "title": "Whistleblower information can strengthen public oversight only when trust, protection, and agency capacity make disclosure usable",
+  "theme_ids": ["voice", "work", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-107650 review of private employment practices and selected federal agency mechanisms for receiving and protecting reports of potential wrongdoing",
+  "geography": "United States; selected federal agencies and organizations involved in whistleblower and public-disclosure routes",
+  "observations": [
+    {
+      "period": "2026 GAO review of current disclosure and protection mechanisms",
+      "denominator": {
+        "value": 4,
+        "unit": "selected federal agencies; six organizations with direct experience were also interviewed",
+        "value_type": "judgmental_sample"
+      },
+      "measures": {
+        "disclosure_value": {
+          "value": "public tips and worker disclosures are described as important sources for agencies enforcing law or issuing regulations",
+          "unit": "reported institutional function",
+          "value_type": "reported_role"
+        },
+        "trust_and_retaliation": {
+          "value": "employment practices that create trust may encourage reporting, while fear of adverse outcomes or retaliation may discourage it",
+          "unit": "reported incentive and disincentive pattern",
+          "value_type": "reported_pattern"
+        },
+        "protection_mechanisms": {
+          "value": "selected agencies use different combinations of confidentiality, retaliation investigation or relief, and monetary awards",
+          "unit": "agency mechanism comparison",
+          "value_type": "reported_comparison"
+        },
+        "agency_capacity": {
+          "value": "agencies reported challenges including processing high volumes of reports and protecting identity when disclosure requires witness participation",
+          "unit": "reported operational challenge",
+          "value_type": "reported_gap"
+        },
+        "public_outcome": {
+          "value": "not observed as a common disclosure-to-correction ledger",
+          "unit": "missing reporter-level exposure, case processing, retaliation, remedy, enforcement, recurrence, and trust outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO reviewed agency statutes, annual reports, employment practices, and documents and collected testimonial information from four selected federal agencies and six organizations with direct experience of disclosure and protection issues.",
+      "uncertainty": "The agencies and organizations were selected judgmentally rather than as a representative sample. Mechanism availability is not the same as reporter use, safety, case quality, timely investigation, or successful correction. Reported billions in collections and selected retaliation relief are institutional totals, not typical reporter outcomes.",
+      "subgroup": "Workers, public disclosers, witnesses, federal agencies, and organizations with disclosure experience; statutory authority and protection mechanisms differ by agency.",
+      "counterinterpretation": "Confidentiality, awards, and retaliation protections may encourage some reports, but they can also create screening, delay, false-report, or witness-management costs. A high report volume may indicate trust, wrongdoing, awareness, or easier access; a low volume may indicate low wrongdoing, fear, or inaccessible routes.",
+      "source_url": "https://www.gao.gov/products/gao-26-107650",
+      "retrieval_hash": "sha256:19bb5c6bc96d5fddfff0e6959f8f84b1e413cc600bf0604dfa15a72b129e3e5b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures disclosure incentives, protection mechanisms, and selected agency capacity. It does not estimate whistleblower prevalence, retaliation rates, case validity, reporter safety, enforcement effectiveness, recovered funds per reporter, or durable institutional trust."
+}

@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-btos-ai-firm-size-sector-2025-2026",
+  "title": "Business AI adoption is concentrated by firm size and sector rather than spreading evenly",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Census Bureau Business Trends and Outlook Survey employer businesses, December 2025-May 3, 2026",
+  "geography": "United States, with sector, state, and firm-size estimates",
+  "observations": [
+    {
+      "period": "December 2025-May 3, 2026 BTOS data; Census story published May 26, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "nationally representative employer businesses excluding farms; published summary does not provide the analytic respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "overall_current_ai_use": {
+          "value": "17%-20% across the six-month period",
+          "unit": "percent of employer businesses reporting AI use in the prior two weeks",
+          "value_type": "published_range"
+        },
+        "expected_ai_use": {
+          "value": "20%-23%",
+          "unit": "percent of businesses expecting to use AI in the next six months",
+          "value_type": "published_range"
+        },
+        "large_firm_use": {
+          "value": "37% of firms with at least 250 employees; 32% of firms with 100-249 employees as of May 3",
+          "unit": "percent reporting current AI use",
+          "value_type": "published_size_comparison"
+        },
+        "sector_use": {
+          "value": "Information 39.7%; Finance and Insurance 33.9%; national rate 19.8% as of May 3",
+          "unit": "percent reporting current AI use",
+          "value_type": "published_sector_comparison"
+        },
+        "small_firm_boundary": {
+          "value": "less than 20% of firms with four or fewer employees reported use",
+          "unit": "percent reporting current AI use",
+          "value_type": "published_size_comparison"
+        }
+      },
+      "method": "Census BTOS biweekly representative survey of employer businesses; current use and expected use are reported by firm size and sector. Census revised AI question wording in November 2025 from production use to any business function.",
+      "uncertainty": "The wording change limits direct comparisons across the break. Adoption does not show effective use, task quality, worker displacement, productivity, profitability, or power redistribution.",
+      "subgroup": "Employer businesses by size and sector; farms excluded.",
+      "counterinterpretation": "Higher reported use in large and information-intensive firms may reflect resources, task mix, reporting capacity, or survey interpretation rather than a universal technology advantage.",
+      "source_url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+      "retrieval_hash": "sha256:2f5a8c1e4b7d0a3c6f9e2b5d8a1c4f7e0b3d6a9c2f5e8b1d4a7c0e3f6b9d2a50",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/hfp/btos/data_downloads",
+      "claim": "Census provides BTOS national, sector, state, metro, and AI-supplement downloads.",
+      "status": "official-data-access"
+    }
+  ],
+  "boundary": "This record adds a firm-capacity and labor-exposure layer: AI adoption is stratified by size and sector. It does not show realized productivity, worker outcomes, consumer prices, local infrastructure, or political meaning.",
+  "retrieval_hash": "sha256:2f5a8c1e4b7d0a3c6f9e2b5d8a1c4f7e0b3d6a9c2f5e8b1d4a7c0e3f6b9d2a50"
+}

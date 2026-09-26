@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wef-global-cybersecurity-outlook-ai-geopolitics-2026",
+  "title": "AI, geopolitics, and supply-chain dependence are widening the gap between digital exposure and cyber resilience",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "World Economic Forum, Global Cybersecurity Outlook 2026",
+  "geography": "Organizations and cybersecurity leaders across 92 countries; global digital ecosystem",
+  "observations": [
+    {
+      "period": "2026 report survey; 804 qualified participants from 92 countries",
+      "denominator": {
+        "value": 804,
+        "unit": "qualified Global Cybersecurity Outlook survey participants from 92 countries",
+        "value_type": "expert_survey_participant_count"
+      },
+      "measures": {
+        "ai_vulnerabilities_fastest_growing_risk": {"value": 87, "unit": "percent of respondents identifying AI-related vulnerabilities as the fastest-growing cyber risk", "value_type": "reported_survey_share"},
+        "ai_security_assessment_predeployment_2026": {"value": 64, "unit": "percent of organizations reporting assessment of AI-tool security before deployment in 2026", "value_type": "reported_survey_share"},
+        "ai_security_assessment_predeployment_prior": {"value": 37, "unit": "percent of organizations reporting assessment of AI-tool security before deployment in the prior comparison year", "value_type": "reported_survey_share"},
+        "geopolitics_strategy_influence": {"value": 66, "unit": "percent of organizations reporting that geopolitics influenced changes to cybersecurity strategy in 2026", "value_type": "reported_survey_share"}
+      },
+      "method": "The WEF report uses a survey of cybersecurity, business, government, academic, and civil-society leaders, supplemented by expert analysis and regional evidence on AI, geopolitics, supply chains, cybercrime, and resilience.",
+      "uncertainty": "Leader perceptions and self-reported organizational practices are not incident counts, audited controls, or population estimates. The prior-year comparison may reflect sample, wording, or context changes, and the report does not establish that AI caused any specific incident or strategy change.",
+      "subgroup": "CISOs, CEOs, other executives, public-sector leaders, academics, civil society, organizations adopting AI, technology suppliers, governments, and digitally dependent communities.",
+      "counterinterpretation": "Higher predeployment assessment can indicate improving governance rather than rising danger alone. AI can strengthen detection and response, and geopolitical attention can motivate useful investment, collaboration, and sovereignty planning.",
+      "source_url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/",
+      "retrieval_hash": "sha256:cda597a974fccc213d3129cc99221175b725cb8612d06d1ee0b79e2d15c4a95b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; organizational resilience, inequity, and capability constraints",
+      "denominator": {
+        "value": 804,
+        "unit": "qualified Global Cybersecurity Outlook survey participants from 92 countries",
+        "value_type": "expert_survey_participant_count"
+      },
+      "measures": {
+        "minimum_resilience_met": {"value": 64, "unit": "percent of organizations reporting that cyber resilience meets minimum requirements", "value_type": "reported_survey_share"},
+        "resilience_exceeds_requirements": {"value": 19, "unit": "percent of organizations reporting cyber resilience exceeds requirements", "value_type": "reported_survey_share"},
+        "skills_obstacle_ai_cyber": {"value": 54, "unit": "percent of respondents identifying limited knowledge and skills as an obstacle to adopting AI-driven cybersecurity solutions", "value_type": "reported_survey_share"},
+        "cyber_inequity_route": {"value": "Differences in skills, resources, digital infrastructure, governance, organization size, sector, and region expose interconnected ecosystems to uneven cyber risk", "unit": "reported systemic mechanism", "value_type": "reported_mechanism"},
+        "supply_chain_route": {"value": "Supply-chain exposure is a leading concern among highly resilient organizations, indicating that organizational resilience depends on external ecosystem partners as well as internal controls", "unit": "reported resilience mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The report combines survey responses with case material and analysis of cyber resilience, capability gaps, supply-chain dependence, AI adoption, geopolitical fragmentation, and digital sovereignty.",
+      "uncertainty": "The measures reflect respondent perceptions and reported posture, not independent audits or realized loss. Organization-level resilience cannot be directly translated into consumer safety, public-service continuity, or national cyber capacity without additional data.",
+      "subgroup": "Small and large organizations, governments, NGOs, critical-infrastructure operators, suppliers, regions with different cyber capabilities, workers, consumers, and users of public and private digital systems.",
+      "counterinterpretation": "A baseline-versus-exceeds distinction can reflect prudent risk thresholds rather than failure. Shared standards, intelligence collaboration, skills investment, and ecosystem-wide controls can lift the collective baseline even where resources differ.",
+      "source_url": "https://www.weforum.org/publications/global-cybersecurity-outlook-2026/in-full/3-the-trends-reshaping-cybersecurity/",
+      "retrieval_hash": "sha256:cda597a974fccc213d3129cc99221175b725cb8612d06d1ee0b79e2d15c4a95b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.weforum.org/publications/global-cybersecurity-outlook-2026/in-full/appendix-methodology-7cc9376bbc/"],
+  "boundary": "This record adds a comparative digital-risk, AI-governance, geopolitical, supply-chain, and cyber-inequity route. It is not an incident database, does not measure individual cyber harm or consumer behavior, and does not establish causal effects of AI, geopolitics, skills, or resilience on outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WEF Global Cybersecurity Outlook 2026 official publication, trends chapter, and methodology summaries retrieved; participant denominator, AI-risk, predeployment assessment, geopolitical strategy, resilience, skills, inequity, and supply-chain claims cross-checked. Direct local capture was restricted, so the digest records the retrieved evidence summary rather than a claimed local PDF hash.",
+    "web_evidence_digest_sha256": "sha256:cda597a974fccc213d3129cc99221175b725cb8612d06d1ee0b79e2d15c4a95b",
+    "checked": "2026-09-26"
+  }
+}

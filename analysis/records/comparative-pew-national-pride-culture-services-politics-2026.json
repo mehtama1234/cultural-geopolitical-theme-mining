@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-national-pride-culture-services-politics-2026",
+  "title": "National pride is assembled from culture, public services, political institutions, and lived economic conditions rather than one fixed identity",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Pew Research Center, What Makes People Proud of Their Country? Global Attitudes Survey 2025 fieldwork, published 2026",
+  "geography": "25 countries across the Americas, Europe, Middle East, Asia-Pacific, and sub-Saharan Africa",
+  "observations": [
+    {
+      "period": "2025 fieldwork; 2026 report on national pride and cultural identity",
+      "denominator": {
+        "value": 33486,
+        "unit": "adults surveyed across 25 countries in the Pew Global Attitudes Survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "countries_surveyed": {"value": 25, "unit": "countries included in the survey", "value_type": "country_count"},
+        "us_proud_of_freedom": {"value": 22, "unit": "percent of U.S. adults mentioning freedom as a source of national pride", "value_type": "reported_share"},
+        "us_not_proud": {"value": 20, "unit": "percent of U.S. adults saying they are not proud of their country", "value_type": "reported_share"},
+        "uk_not_proud": {"value": 29, "unit": "percent of U.K. adults saying they are not proud of their country", "value_type": "reported_share"},
+        "sweden_government_pride": {"value": 53, "unit": "percent of Swedish adults naming the way their country is governed as a source of pride", "value_type": "reported_share"}
+      },
+      "method": "Pew asked an open-ended national-pride question, recorded and translated responses, developed a codebook, and coded mentions across 28 topics. Reported percentages are the share mentioning each coded topic, not mutually exclusive categories or a single pride scale.",
+      "uncertainty": "Open-ended responses can produce low and non-exhaustive topic shares; cultural translation and coding shape observed categories. Cross-country percentages do not identify causal effects, and mentioning a topic does not establish durable identity, behavior, or institutional support.",
+      "subgroup": "Adults across 25 countries, with comparisons by country, age, ideology, party closeness, and satisfaction with democracy where reported.",
+      "counterinterpretation": "National pride can coexist with criticism, multiple identities, or support for reform. A lower pride response may reflect political accountability, economic stress, minority exclusion, or reluctance to answer an open-ended question rather than generalized national disengagement.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/where-and-why-people-arent-proud-of-their-country/",
+      "retrieval_hash": "sha256:fcb9d934ec2a043c647b3dda42c7f2b13303add0212bdd524733b5245fe39f2e",
+      "status": "reported"
+    },
+    {
+      "period": "2025 fieldwork; 2026 report on politics, economy, and government services as sources of national pride",
+      "denominator": {
+        "value": 33486,
+        "unit": "adults surveyed across 25 countries in the Pew Global Attitudes Survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "germany_economy_pride": {"value": 20, "unit": "approximately percent of German adults mentioning the economy as a source of pride", "value_type": "reported_share_approximate"},
+        "indonesia_economy_pride": {"value": 20, "unit": "approximately percent of Indonesian adults mentioning the economy as a source of pride", "value_type": "reported_share_approximate"},
+        "netherlands_economy_pride": {"value": 20, "unit": "approximately percent of Dutch adults mentioning the economy as a source of pride", "value_type": "reported_share_approximate"},
+        "spain_democracy_satisfaction_government_pride": {"value": 24, "unit": "percent of Spaniards satisfied with democracy who mentioned government as a source of pride", "value_type": "reported_conditional_share"},
+        "spain_democracy_dissatisfaction_government_pride": {"value": 5, "unit": "percent of Spaniards dissatisfied with democracy who mentioned government as a source of pride", "value_type": "reported_conditional_share"},
+        "service_pride_route": {"value": "Health care, education, welfare, infrastructure, safety, and social protection are reported as sources of national pride in multiple countries", "unit": "reported cross-national cultural theme", "value_type": "reported_theme"}
+      },
+      "method": "The report codes open-ended mentions of political systems, freedom, economic conditions, government services, and social programs and compares them with reported satisfaction with democracy and ideological position.",
+      "uncertainty": "Conditional shares are descriptive and may reflect selection, partisan identity, economic conditions, or how respondents interpret pride. The study does not estimate whether service quality causes pride or whether pride produces institutional trust or political action.",
+      "subgroup": "Adults evaluating their country's political institutions, economy, public services, welfare, health care, education, infrastructure, safety, and international standing.",
+      "counterinterpretation": "Pride in public services can represent shared civic achievement, while criticism can be a demand for improvement rather than rejection of the state. Political pride and service pride may operate through different cultural and material routes.",
+      "source_url": "https://www.pewresearch.org/global/2026/02/17/where-in-the-world-are-people-proud-of-their-nations-politics-and-economy-and-why/",
+      "retrieval_hash": "sha256:7246e5b4ccbaf8599d3d2b023525ec44996ffb1991686fa71626226235137394",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a comparative culture-and-institution legitimacy route. It preserves the survey as aggregate public evidence; it does not make respondent-level predictions, infer individual identity, establish causal effects of services on pride, or claim that national pride predicts political or consumer behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Pew report pages on national pride and politics/economy were retrieved; survey denominator, country coverage, open-ended coding method, U.S./U.K./Sweden pride shares, Spain democracy-satisfaction contrast, and service/economy themes were cross-checked against the official pages.",
+    "page_sha256": ["sha256:fcb9d934ec2a043c647b3dda42c7f2b13303add0212bdd524733b5245fe39f2e", "sha256:7246e5b4ccbaf8599d3d2b023525ec44996ffb1991686fa71626226235137394"],
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-emergency-disaster-credit-bankruptcy-cars-2024",
+  "title": "Well-timed emergency credit can reduce post-disaster financial collapse",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "housing_place_mobility", "public_systems_feedback", "unequal_exposure_status", "work_control_bargaining", "care_health_reproduction"],
+  "source_unit": "NBER Working Paper 32845; Federal Disaster Loan applications linked to pre- and post-shock credit records",
+  "geography": "United States households with uninsured damage from federally declared natural disasters and Federal Disaster Loan applications",
+  "observations": [{
+    "period": "U.S. disaster-loan applicants and post-disaster outcomes; paper issued 2024",
+    "denominator": {"value": 1, "unit": "Federal Disaster Loan applicant panel with uninsured disaster damage", "value_type": "study_unit"},
+    "measures": {
+      "identification": {"value": "loan approval rules made applicants below a 40% debt-to-income ratio differentially likely to be approved; the study uses an instrumented difference-in-differences design", "unit": "quasi-experimental approval discontinuity", "value_type": "reported_method"},
+      "bankruptcy": {"value": "credit provision reduced the likelihood of filing for bankruptcy by 61% in the three years following the disaster", "unit": "relative reduction in bankruptcy likelihood", "value_type": "reported_causal_estimate"},
+      "mechanism": {"value": "additional quasi-experimental variation in interest rates supports a liquidity-based explanation", "unit": "mechanism test", "value_type": "reported_mechanism"},
+      "car_purchases": {"value": "credit provision increased car purchases even three years after loan receipt", "unit": "post-disaster car-purchase outcome", "value_type": "reported_effect"}
+    },
+    "method": "The authors link Federal Disaster Loan application data to a panel of credit records before and after a negative shock, exploit the loan-approval debt-to-income discontinuity, and estimate an instrumented difference-in-differences effect with additional quasi-experimental interest-rate variation.",
+    "uncertainty": "The study does not observe the household's exact damaged asset, repair, insurance payment, other aid, family support, work, health, care, housing, or consumption path. It does not compare loans with grants or direct repair, measure repayment burden and missed essentials, or establish outcomes for people unable to apply or outside the Federal Disaster Loan population.",
+    "subgroup": "U.S. households applying for Federal Disaster Loans after uninsured damage from federally declared natural disasters; approval effects may differ by debt-to-income ratio, disaster, asset, credit access, and household resources.",
+    "counterinterpretation": "Lower bankruptcy and additional car purchases show meaningful financial protection in this setting but do not prove that every loan improved welfare or that debt was harmless. A car purchase may preserve work and care access or add a repayment burden; the study does not identify the complete household use of funds.",
+    "source_url": "https://www.nber.org/papers/w32845",
+    "retrieval_hash": "sha256:bccfdb1669e8637220bd4d51e2a970665d9e6b3b064c83e333bcea240c7540f9",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w32845", "claim": "NBER DOI record for Working Paper 32845", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a causal emergency-liquidity finding: well-timed disaster credit reduced bankruptcy and increased later car purchases among the studied applicants. It does not establish full recovery, repayment safety, health or job continuity, equal access, or the superiority of loans over grants or other aid."
+}

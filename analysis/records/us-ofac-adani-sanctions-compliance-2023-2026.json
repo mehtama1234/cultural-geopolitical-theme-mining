@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ofac-adani-sanctions-compliance-2023-2026",
+  "title": "U.S. financial infrastructure can reach a foreign firm while future sanctions compliance remains unproven",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Treasury Office of Foreign Assets Control settlement and enforcement release involving Adani Enterprises Limited",
+  "geography": "Adani Enterprises Limited in India; Iran-origin LPG transactions and U.S. financial institutions",
+  "observations": [
+    {
+      "period": "November 2023-June 2025 apparent conduct; May 18, 2026 settlement",
+      "denominator": {
+        "value": 32,
+        "unit": "apparent Iran-sanctions violations and related U.S.-dollar payments described by OFAC",
+        "value_type": "source_defined_case_count"
+      },
+      "measures": {
+        "apparent_violations": {"value": 32, "unit": "transactions/violations described by OFAC", "value_type": "reported_total"},
+        "us_dollar_payments": {"value": 192104044, "unit": "U.S. dollars; approximately", "value_type": "reported_approximation"},
+        "settlement_amount": {"value": 275000000, "unit": "U.S. dollars", "value_type": "reported_total"},
+        "voluntary_self_disclosure": {"value": "not voluntarily self-disclosed", "unit": "OFAC characterization", "value_type": "reported_finding"},
+        "compliance_commitment": {"value": 5, "unit": "years minimum; sanctions-compliance program", "value_type": "reported_requirement"},
+        "later_compliance_and_deterrence": {"value": "not observed", "unit": "future screening, recurrence, firm behavior, and affected-state response", "value_type": "unmeasured"}
+      },
+      "method": "Review of OFAC's settlement announcement and settlement agreement; reported apparent violations, payment totals, penalty, and compliance commitments are kept separate from later performance and strategic outcomes.",
+      "uncertainty": "The public record is an enforcement and settlement account. It does not establish broader intent beyond the reported apparent violations, show later compliance performance, identify prevented transactions, or measure effects on Iran, suppliers, workers, customers, or other firms.",
+      "subgroup": "One India-based foreign firm, 32 reported apparent violations, U.S. financial institutions, a Dubai-based trader, and Iran-origin LPG transactions.",
+      "counterinterpretation": "The settlement may reflect negotiated correction, cooperation, and deterrence signaling rather than proof of a change in Iranian strategy. A five-year compliance commitment can be meaningful while still being a future obligation; U.S.-dollar payment reach does not imply universal control over foreign transactions.",
+      "source_url": "https://ofac.treasury.gov/recent-actions/20260518",
+      "retrieval_hash": "sha256:7aef54af13d89328665d7cbe54ac193d65340d513be1a8ef0611f0d820a933c5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://ofac.treasury.gov/media/935636/download?inline=",
+      "claim": "The settlement agreement sets the $275 million payment and five-year compliance commitments.",
+      "status": "official-settlement-artifact",
+      "retrieval_hash": "sha256:62cd00d673cc3d4ec7f7e02084df32965064ff997fb3e80ce920a859e01d7c0c"
+    }
+  ],
+  "boundary": "This record measures one OFAC enforcement case involving a foreign firm, U.S.-dollar payments, a settlement, and a future compliance commitment. It does not establish sanctions effectiveness, deterrence, strategic change, universal financial control, later compliance, recurrence, or distributional effects.",
+  "retrieval_hash": "sha256:7aef54af13d89328665d7cbe54ac193d65340d513be1a8ef0611f0d820a933c5"
+}

@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-local-business-application-transition-employer-firm-2026",
+  "title": "Business applications and employer-firm formation are different local economic stages",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "housing_place_mobility", "work_control_bargaining", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34881; linked administrative microdata tracking the universe of U.S. business applications and transitions into employer firms",
+  "geography": "United States counties and local areas; business applications and employer-firm transitions",
+  "observations": [{
+    "period": "U.S. business applications and employer transitions; paper issued February 2026",
+    "denominator": {"value": 1, "unit": "linked U.S. business-formation administrative-data study", "value_type": "study_unit"},
+    "measures": {
+      "stage_definition": {"value": "business entry has distinct pursuit and implementation stages: application followed by transition into an employer firm", "unit": "business-formation pathway", "value_type": "reported_method"},
+      "high_startup_locations": {"value": "high-startup locations are characterized by high application intensity", "unit": "local application pattern", "value_type": "reported_comparison"},
+      "low_startup_locations": {"value": "low-startup locations exhibit low transition rates from applications into employer firms", "unit": "local implementation pattern", "value_type": "reported_comparison"},
+      "local_dynamics": {"value": "application and transition margins associate differently with local conditions", "unit": "local economic relationship", "value_type": "reported_comparison"}
+    },
+    "method": "The authors link administrative records for the universe of U.S. business applications to later employer-firm outcomes and model entry as pursuit of an idea followed by implementation, comparing how both stages vary with local conditions.",
+    "uncertainty": "The public abstract does not follow each applicant's household resources, financing, lease, permit, customers, service quality, local belonging, or later closure reason. A transition into an employer firm is not the same as durable survival, good jobs, local service, or community capacity.",
+    "subgroup": "U.S. local areas with different application intensity and application-to-employer transition rates; industry, urbanity, credit, labor supply, rent, infrastructure, public demand, and customer access can differ across places.",
+    "counterinterpretation": "High applications may reflect many ideas, necessity entry, or administrative composition rather than strong local opportunity. Low transition may reflect deliberate non-employer activity, not failed entrepreneurship. Employer formation can create jobs while displacing another firm or providing low-quality work; the study does not settle those outcomes.",
+    "source_url": "https://www.nber.org/papers/w34881",
+    "retrieval_hash": "sha256:08105c7d5772940a46936a6836d13f1d9c242321cd73b4614cd99a972f546cfb",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34881", "claim": "NBER DOI record for Working Paper 34881", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a local conversion finding: an application is pursuit, while an employer firm is implementation. It does not establish durable survival, job quality, local service, customer benefit, household welfare, belonging, or political participation."
+}

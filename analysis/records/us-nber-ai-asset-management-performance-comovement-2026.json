@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-asset-management-performance-comovement-2026",
+  "title": "AI-driven investing grows in hedge funds while early performance advantages decay and return comovement falls",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35273 using investment-adviser regulatory disclosures, labor-market data, fund strategy descriptions, and hedge-fund performance data",
+  "geography": "United States asset management and hedge-fund market; regulatory disclosures and USD-denominated hedge-fund assets",
+  "observations": [
+    {
+      "period": "Early 2010s–2024; paper issued June 1, 2026",
+      "denominator": {
+        "value": 116000,
+        "unit": "investment-adviser regulatory disclosures analyzed between 2012 and 2024; performance sample and fund counts are source-specific",
+        "value_type": "reported_disclosure_count"
+      },
+      "measures": {
+        "ai_investing_growth": {
+          "value": "grew steadily",
+          "unit": "AI-driven investing identified through adviser disclosures, labor data, and strategy descriptions since the early 2010s",
+          "value_type": "reported_trend"
+        },
+        "market_concentration": {
+          "value": "concentrated among hedge funds",
+          "unit": "institutional location of AI-driven investment strategies",
+          "value_type": "reported_pattern"
+        },
+        "early_performance": {
+          "value": "outperformed non-AI hedge funds in early years",
+          "unit": "fund performance comparison",
+          "value_type": "reported_comparison"
+        },
+        "performance_persistence": {
+          "value": "outperformance declined over time, including among early adopters",
+          "unit": "AI versus non-AI hedge-fund performance across later periods",
+          "value_type": "reported_trend"
+        },
+        "return_comovement": {
+          "value": "lower",
+          "unit": "return comovement of AI hedge funds relative to non-AI peers",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Classification of AI-driven investing from investment-adviser regulatory disclosures, labor-market data, and fund strategy descriptions, linked to hedge-fund performance and return-comovement measures.",
+      "uncertainty": "The abstract does not disclose the full fund-level denominator, classification error, strategy thresholds, or effect-size estimates. AI references can identify marketing, research support, risk disclosure, or direct investment use differently; performance comparisons do not prove that AI caused returns or that lower comovement means lower systemic risk.",
+      "subgroup": "AI-driven and non-AI hedge funds, early adopters, investment advisers, labor-market applicants, and investors in U.S. hedge-fund markets; strategy type and time period are separate dimensions.",
+      "counterinterpretation": "Early outperformance may reflect selection, novelty, capacity, risk exposure, or reporting rather than durable AI skill. Later decay may reflect competition, crowded signals, market adaptation, or changing classification. Lower return comovement can coexist with common hidden exposures or leverage.",
+      "source_url": "https://www.nber.org/papers/w35273",
+      "retrieval_hash": "sha256:e1bf2238e3b63bd2cbca9fe87ddb4d067d48bd93ec7e0e93836fbbd383590aae",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35273",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    },
+    {
+      "source_url": "https://www.nber.org/digest/202609/artificial-intelligence-and-hedge-fund-investing",
+      "claim": "NBER Digest provides additional disclosure, asset-share, and data-source context.",
+      "status": "official-research-summary"
+    }
+  ],
+  "boundary": "This record establishes an AI-investing adoption and performance-decay pattern in hedge funds. It does not establish household investment outcomes, market-wide productivity, causal alpha, systemic-risk reduction, worker displacement, or regulatory adequacy."
+}

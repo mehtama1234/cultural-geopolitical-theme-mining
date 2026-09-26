@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-virginia-data-center-residential-bill-relief-package-2026",
+  "title": "Data-center growth can produce a proposed household-relief route before bill-credit receipt is visible",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Dominion Energy and NextEra Energy Virginia benefits-package announcement; proposed residential customer relief and large-load cost-governance terms",
+  "geography": "Virginia, United States",
+  "observations": [
+    {
+      "period": "2026-09-14 announcement; proposed package",
+      "denominator": {
+        "value": 1,
+        "unit": "Dominion Energy and NextEra Energy Virginia benefits package",
+        "value_type": "reported_corporate_policy_proposal"
+      },
+      "measures": {
+        "residential_bill_credit": {
+          "value": 10,
+          "unit": "US dollars per month for residential customers under the expanded proposal",
+          "value_type": "reported_proposed_credit"
+        },
+        "credit_duration": {
+          "value": 4,
+          "unit": "years of proposed residential bill credits",
+          "value_type": "reported_proposed_duration"
+        },
+        "funding_route": {
+          "value": "redirect a portion of credits otherwise going to large-scale data centers and increase the aggregate shareholder-funded Virginia customer-credit amount",
+          "unit": "reported proposed funding mechanism",
+          "value_type": "reported_cost_allocation_route"
+        },
+        "customer_receipt_and_adequacy": {
+          "value": "not observed",
+          "unit": "missing SCC approval, bill posting, household receipt, net bill effect, and adequacy endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official Dominion Energy newsroom announcement; proposed credit amount, duration, and funding route are retained separately from regulatory approval, customer billing, receipt, and household recovery.",
+      "uncertainty": "The announcement describes an expanded company proposal and says the companies would work with the Virginia State Corporation Commission. It does not establish final approval, eligibility, bill posting, payment receipt, whether credits offset large-load-related costs, or household affordability improvement.",
+      "subgroup": "Virginia residential customers, large-scale data centers, Dominion/NextEra shareholders, and the Virginia SCC; customer-class eligibility and household denominator are not specified.",
+      "counterinterpretation": "A proposed credit can provide a visible legitimacy and cost-sharing route while leaving the underlying infrastructure burden, tariff treatment, and customer experience unchanged or uneven.",
+      "source_url": "https://news.dominionenergy.com/press-releases/press-releases/2026/NextEra-Energy-and-Dominion-Energy-announce-transformational-Virginia-benefits-package-that-puts-customers-first-and-positions-the-Commonwealth-as-a-global-energy-leader/default.aspx",
+      "retrieval_hash": "sha256:9b992836815edf3558a01d4a2f8f981c4b5caf8bae98f08f6687122758131227",
+      "status": "reported"
+    },
+    {
+      "period": "2026 SCC implementation and cost-allocation summary; approved modeled-impact stage",
+      "denominator": {
+        "value": 1,
+        "unit": "Virginia SCC approved amended transmission cost-allocation method described for Dominion retail customers",
+        "value_type": "reported_regulatory_action"
+      },
+      "measures": {
+        "modeled_residential_monthly_increase_old_method": {
+          "value": 2.90,
+          "unit": "US dollars per month for a typical residential customer using 1,000 kWh",
+          "value_type": "reported_modeled_charge"
+        },
+        "modeled_residential_monthly_increase_amended_method": {
+          "value": 0.94,
+          "unit": "US dollars per month for a typical residential customer using 1,000 kWh",
+          "value_type": "reported_modeled_charge"
+        },
+        "large_load_cost_allocation": {
+          "value": "new large-load customers must fund costs of direct-connect transmission facilities and meet specified minimum transmission/distribution demand obligations under the approved framework",
+          "unit": "reported regulatory cost-allocation rule",
+          "value_type": "approved_policy_framework"
+        },
+        "actual_bill_and_receipt": {
+          "value": "not observed",
+          "unit": "missing customer bill, credit posting, payment receipt, reliability, and household affordability endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the Virginia SCC current facts and case summary; modeled typical-customer charges and approved cost-allocation rules are retained separately from realized bills, household credits, and customer experience.",
+      "uncertainty": "The SCC page reports a modeled comparison for a typical 1,000-kWh residential customer and a regulatory framework; it does not establish actual future bills, customer-specific allocation, credit eligibility, receipt, avoided cost, or reliability improvement.",
+      "subgroup": "Typical modeled residential customer, Dominion retail rate classes, large-load customers, and directly assigned transmission facilities; customer-level denominator and realized bill data are not supplied.",
+      "counterinterpretation": "An approved allocation method can reduce projected residential cost exposure while the actual bill path, other rate changes, and realized large-load payments remain unknown.",
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "retrieval_hash": "sha256:a12b4629af1fcd6190b2a5e9fd4aea119945464da9057fa98255beb848d98cd8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://news.dominionenergy.com/press-releases/press-releases/2026/NextEra-Energy-and-Dominion-Energy-announce-transformational-Virginia-benefits-package-that-puts-customers-first-and-positions-the-Commonwealth-as-a-global-energy-leader/default.aspx",
+      "claim": "Dominion and NextEra describe an expanded Virginia customer-benefit package with proposed residential bill credits and large-load cost-sharing language.",
+      "status": "official-corporate-announcement"
+    },
+    {
+      "source_url": "https://www.dominionenergy.com/about/delivering-energy/demand-flexibility",
+      "claim": "Virginia law directs Dominion Energy Virginia to develop a voluntary demand-flexibility program for high-energy-demand customers.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.scc.virginia.gov/about-the-scc/scc-facts/",
+      "claim": "The SCC summarizes an approved amended transmission cost-allocation method, direct assignment framework, and modeled reduction in a typical residential customer's projected increase.",
+      "status": "official-regulatory-summary"
+    }
+  ],
+  "boundary": "This record establishes a proposed residential bill-credit route alongside an approved modeled cost-allocation framework. It does not establish customer eligibility, bill posting, receipt, net savings, avoided ratepayer burden, reliability improvement, local acceptance, or durable affordability."
+}

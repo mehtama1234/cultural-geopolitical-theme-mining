@@ -2,11 +2,11 @@
 
 ## Connected reading guide: current handoff
 
-Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). Eighty-four topics now sit under five shared themes, with one hundred and seventy-four explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
+Start with [the HTML guide](../site/us-theme-atlas.html) and its [Markdown edition](us-theme-atlas.md). One hundred and two topics now sit under five shared themes, with two hundred and twenty-nine explained cross-topic connections. Each topic includes subthemes, sources and limits. Connections are labeled as comparisons or questions to test; they are not established causes.
 
 Maintain these relationships in [the shared record](../manifests/us-theme-connections.json). When adding a finding, check related topics by meaning: who is affected, what changed, what choice became harder, and what might happen next. Explain each useful connection in one ordinary sentence and name what evidence is missing. Do not connect topics only because they share a word. Keep the bigger-picture summary honest about which links remain untested.
 
-Eighty-five reading paths now link household costs, care, work, housing, credit, insurance, customer service, public help and political response. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
+Ninety-three reading paths now link household costs, care, work, housing, credit, insurance, customer service, public help and political response. Each path explains its shared question and missing evidence. Every adjacent pair must have a recorded connection; the builder checks this. These paths guide reading, not causal conclusions.
 
 Rebuild both editions with `python3 scripts/build_us_theme_atlas.py`. Preserve search, theme filters, direct topic links, expandable sources and connections, readable phone layouts, and visible uncertainty. The [browser check](us-theme-atlas-browser-check.md) records the interactions already tested. Extend those checks when changing navigation or layout.
 
@@ -137,7 +137,7 @@ The first queue should favor questions where household experience and institutio
 
 ## Handoff state
 
-The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas maintains **344 validated trend records, 1214 observations, 103 source-search packets, 14 broad program themes, 174 explained connections, 85 reading paths, and 669 link-validated HTML pages**. It currently carries one hundred and seventy-four connections, and eighty-five reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
+The repository already has the research method, source registry, AI/work-control project, claims ledger, findings, theme map, company bridges, source packets, and HTML publishing pattern. The current US atlas maintains **817 validated trend records, 1915 observations, 164 source-search packets, 14 broad program themes, 229 explained connections, 93 reading paths, and 1150 link-validated HTML pages**. It currently carries two hundred and twenty-nine connections, and ninety-three reading paths. The next implementation step is to deepen the strongest open links with matched US evidence, then turn the strongest path into a complete finding from source to lived effect to institutional response.
 
 The current implementation has completed a substantial first deepening pass and has kept the atlas validator green. Reader-facing HTML is now published for the deepened routes, including the CMS-to-MEPS health-cost bridge and the recurrent-source watchlist. The remaining end-to-end work is not more prose alone: use the integrated household calendar and same-episode ledgers to test the strongest cross-topic chains with actual joined records, while preserving source-vintage controls and the missing event-level links.
 

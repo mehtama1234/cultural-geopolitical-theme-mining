@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dod-intergovernmental-support-agreements-2026",
+  "title": "Military installation service agreements expand faster than verified cost and labor controls",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108092; Department of Defense intergovernmental support agreements with state, local, and Tribal governments",
+  "geography": "United States; DOD installations and selected public partners",
+  "observations": [
+    {
+      "period": "2018–2025; DOD intergovernmental support agreement count",
+      "denominator": {
+        "value": 316,
+        "unit": "intergovernmental support agreements across DOD installations in 2025; 45 in 2018",
+        "value_type": "reported_agreement_count"
+      },
+      "measures": {
+        "agreement_growth": {
+          "value": 602.2,
+          "unit": "percent increase from 45 agreements in 2018 to 316 in 2025",
+          "value_type": "calculated_growth"
+        },
+        "service_scope": {
+          "value": "utilities, road maintenance, waste management, and other installation-support services",
+          "unit": "reported agreement function",
+          "value_type": "reported_service_scope"
+        },
+        "cost_verification": {
+          "value": "Some agreements lacked cost estimates or cost-benefit analyses, and services lacked procedures to verify actual costs and savings",
+          "unit": "reported oversight condition",
+          "value_type": "reported_control_gap"
+        }
+      },
+      "method": "GAO analysis of IGSA-related guidance and DOD data through December 2025, review of 21 agreements at five selected installations, and examination of cost-benefit analyses for 10 multi-service or multi-installation agreements.",
+      "uncertainty": "The selected installation sample is not nationally representative; agreement counts show expansion, not realized savings, service quality, resilience, or mission effect.",
+      "subgroup": "DOD installations and public partners, including state, local, and Tribal governments; agreement structures and service mixes vary.",
+      "counterinterpretation": "Agreements may provide real coordination or service benefits even when cost estimates are weak; missing verification is not proof that every agreement is inefficient.",
+      "source_url": "https://www.gao.gov/products/gao-26-108092",
+      "retrieval_hash": "gao-accessible-report:sha256:a4e309eeae9c4ac8b75da67a159c5a378689a5b1b7b0b2002f182498d9a078cd",
+      "status": "reported"
+    },
+    {
+      "period": "Selected 21 agreements; wage comparison for five positions",
+      "denominator": {
+        "value": 5,
+        "unit": "selected positions compared with potentially applicable Service Contract Act wage determinations",
+        "value_type": "selected_position_count"
+      },
+      "measures": {
+        "private_contractor_use": {
+          "value": 9,
+          "unit": "single-installation agreements among 21 reviewed where public partners used private contractors for some or all work",
+          "value_type": "reported_agreement_count"
+        },
+        "wage_difference_range": {
+          "value": "selected public-partner wages ranged from 19% below to 50% above comparable SCA wage determinations",
+          "unit": "reported wage comparison",
+          "value_type": "reported_wage_range"
+        }
+      },
+      "method": "GAO comparison of selected public-partner wage data with wage determinations for comparable work under the McNamara-O’Hara Service Contract Act.",
+      "uncertainty": "The positions and agreements were selected and nongeneralizable; wage comparisons are not a complete compensation, benefit, worker-power, or service-quality measure.",
+      "subgroup": "Selected workers and positions performing installation-support work under IGSAs.",
+      "counterinterpretation": "Differences may reflect job classification, benefits, locality, duties, or contract structure rather than a uniform wage disadvantage.",
+      "source_url": "https://www.gao.gov/products/gao-26-108092",
+      "retrieval_hash": "gao-accessible-report:sha256:a4e309eeae9c4ac8b75da67a159c5a378689a5b1b7b0b2002f182498d9a078cd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-108092/index.html",
+      "claim": "Accessible GAO report edition used for the agreement count, oversight, and wage comparison.",
+      "status": "accessible-report"
+    }
+  ],
+  "boundary": "This record shows expansion of DOD installation-support agreements and gaps in cost verification and selected wage comparability. It does not establish realized savings, service reliability, installation readiness, worker bargaining power, public consent, or geopolitical leverage. Agreement count, cost estimate, actual cost, service outcome, worker outcome, and mission effect remain separate stages."
+}

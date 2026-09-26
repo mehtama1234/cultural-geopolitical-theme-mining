@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-organized-interests-gun-policy-responsiveness-2000-2024",
+  "title": "State gun policy can respond more clearly to organized interests than to broad constituent sentiment",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NBER Working Paper 34970, linking state campaign-finance records, a Gun Law Index, and estimates of constituent sentiment",
+  "geography": "United States states; gun-policy changes and constituent sentiment, 2000-2024, with 25 years of campaign-finance records",
+  "observations": [
+    {
+      "period": "2000-2024",
+      "denominator": {
+        "value": 50,
+        "unit": "U.S. states; policy, contribution, and sentiment panels as defined by the study",
+        "value_type": "study_panel_scope"
+      },
+      "measures": {
+        "data_linkage": {
+          "value": "25 years of campaign-finance records were linked to a Gun Law Index and original estimates of constituent sentiment",
+          "unit": "study data architecture",
+          "value_type": "reported_method"
+        },
+        "party_conditioned_contributions": {
+          "value": "pro-gun contributions were associated with deregulatory changes under Republican trifectas, while gun-safety contributions were associated with regulatory tightening under Democratic trifectas",
+          "unit": "reported party-control-conditioned policy association",
+          "value_type": "reported_pattern"
+        },
+        "constituent_sentiment": {
+          "value": "instrumental-variable estimates did not find constituent sentiment causally predicted policy change under either party trifecta",
+          "unit": "reported causal-design result",
+          "value_type": "reported_estimate"
+        },
+        "high_support_background_checks": {
+          "value": "all 12 states where universal background checks had at least 90% support adopted them, while 8 of 36 states with support between 80% and 90% did so",
+          "unit": "state-level support and adoption comparison reported in the abstract",
+          "value_type": "reported_comparison"
+        },
+        "individual_political_action": {
+          "value": "not observed as a same-person pathway",
+          "unit": "missing constituent contact, organizing, donor identity, vote choice, policy implementation, and safety outcome ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "The study links 25 years of state campaign-finance records to a Gun Law Index and original constituent-sentiment estimates for 2000-2024, using party-control comparisons and an instrumental-variable design for the sentiment-to-policy question.",
+      "uncertainty": "This record relies on the NBER abstract and accessible paper copy for the reported design and headline results; the study's estimates depend on index construction, sentiment estimates, instrument validity, state-policy measurement, and party-control comparisons. State-level policy change is not an individual persuasion or representation measure.",
+      "subgroup": "States grouped by Republican or Democratic trifecta and by support levels for selected gun policies; interest groups, donors, legislators, constituents, and residents are not one linked unit.",
+      "counterinterpretation": "Contributions may proxy for organized membership, party coalitions, legislative agenda setting, or unmeasured political conditions. Party trifectas may select the policy environment in which contributions matter. Public sentiment can affect policy indirectly through elections, agenda access, enforcement, or local institutions even when the study's direct causal estimate is weak.",
+      "source_url": "https://www.nber.org/papers/w34970",
+      "retrieval_hash": "sha256:73ea2ad8dfd17b7c2dda233e2c04d751cad090b38809fd44f2c3f8c60f738000",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://law.stanford.edu/wp-content/uploads/2026/03/NBER_responsiveness.pdf",
+      "claim": "Accessible paper copy preserves the abstract, data architecture, and reported design context.",
+      "status": "paper-copy-context"
+    }
+  ],
+  "boundary": "This record measures state-level gun-policy responsiveness in a study linking contributions and estimated public sentiment. It does not establish that organized interests always override voters, identify individual representation, prove policy legitimacy, or measure firearm safety, violence, or public trust outcomes."
+}

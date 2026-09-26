@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-h200-mi325x-case-by-case-china-licensing-2026",
+  "title": "BIS shifted selected advanced-computing exports to China from blanket restriction toward conditional case-by-case licensing",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS January 13, 2026 licensing-policy revision and Federal Register public-inspection rule for certain advanced-computing commodities destined to China or Macau",
+  "geography": "United States, China and Macau, U.S. AI-chip suppliers and customers, and global semiconductor/foundry capacity",
+  "observations": [
+    {
+      "period": "January 13, 2026 rule announcement and effective licensing-policy revision",
+      "denominator": {
+        "value": null,
+        "unit": "license applications for advanced-computing commodities meeting the specified performance thresholds and destined to China or Macau",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "policy_change": {"value": "BIS will review applications case-by-case rather than under blanket denial for specified commodities, including Nvidia H200 and AMD MI325X examples, when the rule's conditions are met", "unit": "reported licensing-policy change", "value_type": "reported_policy_response"},
+        "technical_scope": {"value": "commodities with total processing performance below 21000 and total DRAM bandwidth below 6500 GB/s, including the named H200/MI325X examples", "unit": "reported performance thresholds", "value_type": "reported_policy_scope"},
+        "us_supply_safeguard": {"value": "applicant must show sufficient U.S. supply so authorized exports do not delay existing or new U.S. end-use orders and do not divert relevant global foundry capacity", "unit": "required applicant certification", "value_type": "reported_safeguard"},
+        "china_share_safeguard": {"value": "applicant must provide evidence that aggregate TPP of advanced-node integrated circuits exported to China or Macau is no more than 50% of aggregate TPP shipped to U.S. customers for U.S. end use for the same commodities", "unit": "required comparative capacity certification", "value_type": "reported_safeguard"},
+        "end_use_exclusions": {"value": "applicant must confirm no military, military-intelligence, nuclear, missile, chemical/biological weapons end use or end user and no prohibited party remote access", "unit": "required end-use certification", "value_type": "reported_safeguard"},
+        "third_party_testing": {"value": "qualified independent U.S.-headquartered third-party laboratory must verify the technical capabilities and functions before export", "unit": "required pre-export verification", "value_type": "reported_safeguard"},
+        "license_applications_approved": {"value": "not observed", "unit": "missing application count, approval count, shipment, customer, and testing records", "value_type": "unmeasured"},
+        "capability_or_market_effect": {"value": "not observed", "unit": "missing China supply, U.S. availability, prices, firm sales, substitution, or capability endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing deterrence, bargaining, PRC response, partner response, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS official announcement and Federal Register public-inspection rule review. The policy shift, technical scope, supply and end-use safeguards, comparative TPP ceiling, and third-party verification are coded as formal conditional-licensing requirements; no license approval or shipment is inferred.",
+      "uncertainty": "The sources do not report how many applications were submitted or approved, which customers or firms will qualify, whether testing capacity exists, whether shipments occurred, or how the rule changes Chinese capability, U.S. supply, prices, or foundry allocation. The policy is therefore an observed conditional-opening stage, not a realized trade or strategic outcome.",
+      "subgroup": "BIS and U.S. licensing authorities, Nvidia and AMD, U.S. customers, Chinese commercial purchasers, third-party testing laboratories, foundries, and downstream AI users",
+      "counterinterpretation": "Conditional licensing may preserve safeguards while reopening commercial supply, or may be administratively stringent enough to authorize little or nothing. A stated 50% TPP ceiling and testing requirement do not prove actual supply protection, end-use compliance, or geopolitical gain.",
+      "source_url": "https://media.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
+      "retrieval_hash": "sha256:30249515903710e4b3cf72a9520547a8d0e9390a10015bc26a00f8e5035b380a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://public-inspection.federalregister.gov/2026-00789.pdf", "claim": "Federal Register public-inspection text establishing the case-by-case licensing policy, technical thresholds, certifications, and third-party testing requirements.", "status": "official-rule-pdf", "retrieval_hash": "sha256:6fd3ae8cef243fabad0f430b1c09d81aa10f9f49d358227f5bd15bd8ac4e9337"},
+    {"source_url": "https://www.bis.gov/regulations/ear/748", "claim": "Current BIS EAR Part 748 certification surface for advanced-computing applications to China or Macau.", "status": "official-regulatory-reference"},
+    {"source_url": "https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment", "claim": "Related enforcement comparator showing a restrictive export-control route for semiconductor manufacturing equipment.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a formal conditional-opening stage after restrictive semiconductor controls: specified AI-chip applications -> case-by-case review -> supply, end-use, comparative-capacity, and third-party-testing safeguards. It does not establish license approvals, shipments, U.S. supply protection, Chinese capability change, deterrence, or leverage."
+}

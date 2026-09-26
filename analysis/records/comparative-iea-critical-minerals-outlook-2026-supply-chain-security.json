@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-critical-minerals-outlook-2026-supply-chain-security",
+  "title": "Energy, digital, and defence transitions are intensifying mineral demand while refining and trade controls concentrate supply-chain risk",
+  "theme_ids": ["cost", "energy", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "International Energy Agency, Global Critical Minerals Outlook 2026",
+  "geography": "Global critical-mineral markets, refining and investment, energy and technology value chains, and Latin America and the Caribbean",
+  "observations": [
+    {
+      "period": "2025; demand, batteries, and energy-transition deployment",
+      "denominator": {
+        "value": 1,
+        "unit": "global critical-mineral market and energy-technology demand frame",
+        "value_type": "global_market_frame"
+      },
+      "measures": {
+        "battery_demand": {"value": 1.5, "unit": "terawatt-hours of global battery demand in 2025, more than", "value_type": "reported_global_demand"},
+        "battery_demand_change": {"value": 35, "unit": "percent growth in global battery demand in 2025, more than", "value_type": "reported_global_change"},
+        "energy_sector_share_demand_growth": {"value": 75, "unit": "percent of growth in demand for key energy minerals driven by the energy sector in 2025, approximately", "value_type": "reported_sector_share"},
+        "mineral_demand_growth_rate": {"value": 10, "unit": "percent average annual growth in demand for key energy minerals in recent years, approximately", "value_type": "reported_growth_rate"}
+      },
+      "method": "IEA synthesis of market data, technology deployment, company reporting, and scenario-based mineral demand analysis.",
+      "uncertainty": "Demand and deployment measures do not establish completed projects, local extraction or refining benefits, environmental burden, affordability, or durable consumer access to downstream technologies.",
+      "subgroup": "Energy-technology producers, mineral firms, refiners, infrastructure providers, governments, workers, communities, and downstream users of batteries, grids, digital systems, and defence technologies.",
+      "counterinterpretation": "Rapid demand growth can support investment, recycling, technological substitution, and wider access if supply-chain expansion is governed, diversified, and linked to local capability and benefit sharing.",
+      "source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026",
+      "retrieval_hash": "sha256:58fb6a5a7aa255060b95c245f09fccaa7f58a33b14629710dec8934773da1a7a",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; refining concentration and diversification",
+      "denominator": {
+        "value": 1,
+        "unit": "key energy-mineral refined-supply concentration frame",
+        "value_type": "global_refining_concentration_frame"
+      },
+      "measures": {
+        "top_refined_supplier_share_2025": {"value": 70, "unit": "percent average share of the top refined supplier across energy minerals in 2025", "value_type": "reported_supplier_share"},
+        "top_refined_supplier_share_2020": {"value": 68, "unit": "percent average share of the top refined supplier across energy minerals in 2020", "value_type": "reported_supplier_share"},
+        "dominant_supply_growth_share": {"value": 75, "unit": "percent of total refined-supply growth from 2023 to 2025 accounted for by Indonesia and China across key markets, more than", "value_type": "reported_concentration_share"},
+        "refining_diversification_exception": {"value": "rare earth refining concentration declined modestly with new US projects and increased Malaysian production", "unit": "reported diversification mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "IEA comparison of country-level mining and refining production, supply growth, and concentration across key energy minerals.",
+      "uncertainty": "Refining concentration is not identical to mine ownership, finished-product dependence, substitution time, inventory, or political leverage; the exception does not remove broader concentration.",
+      "subgroup": "Dominant and non-dominant refining countries, mining and processing firms, downstream manufacturers, importing states, workers, and communities near extraction and processing.",
+      "counterinterpretation": "Targeted investment and policy support can create diversification, and concentrated suppliers may still provide reliable or lower-cost inputs under stable trade conditions.",
+      "source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/market-overview",
+      "retrieval_hash": "sha256:58fb6a5a7aa255060b95c245f09fccaa7f58a33b14629710dec8934773da1a7a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; export controls, prices, and downstream exposure",
+      "denominator": {
+        "value": 1,
+        "unit": "critical-mineral trade-control and downstream production-risk frame",
+        "value_type": "global_trade_risk_frame"
+      },
+      "measures": {
+        "strategic_minor_mineral_price_change": {"value": 2, "unit": "fold increase in strategic minor mineral prices through 2025 and early 2026, more than", "value_type": "reported_price_change"},
+        "chinese_controlled_mineral_codes_change": {"value": 3, "unit": "fold increase in mineral tariff codes subject to Chinese export controls since 2023", "value_type": "reported_policy_change"},
+        "rare_earth_downstream_risk": {"value": 6500000000000, "unit": "US dollars per year of downstream production outside China potentially at risk under full implementation of expanded rare-earth controls, estimated", "value_type": "modeled_downstream_exposure"},
+        "graphite_downstream_risk": {"value": 300000000000, "unit": "US dollars per year of downstream production outside China potentially at risk under full battery-grade graphite disruption, estimated", "value_type": "modeled_downstream_exposure"}
+      },
+      "method": "IEA analysis of export-control announcements, mineral prices, supply-chain structure, and modeled downstream production exposure.",
+      "uncertainty": "The estimates are scenario-based exposure calculations, not realized losses, outages, consumer-price effects, or proof that controls will be fully implemented or sustained.",
+      "subgroup": "Mineral exporters and importers, automakers, battery and semiconductor firms, energy and defence industries, workers, governments, and downstream consumers.",
+      "counterinterpretation": "Controls can motivate substitution, stockpiling, recycling, new entrants, and negotiated supply arrangements; risk may be buffered by inventories or alternative technologies.",
+      "source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "retrieval_hash": "sha256:58fb6a5a7aa255060b95c245f09fccaa7f58a33b14629710dec8934773da1a7a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2035; Latin American value-chain opportunity and capacity constraints",
+      "denominator": {
+        "value": 1,
+        "unit": "Latin American and Caribbean critical-mineral production and refining frame",
+        "value_type": "regional_value_chain_frame"
+      },
+      "measures": {
+        "regional_copper_mine_share": {"value": 40, "unit": "percent of global copper mine output produced by Latin America and the Caribbean, approximately", "value_type": "reported_regional_share"},
+        "regional_lithium_supply_share": {"value": 25, "unit": "percent of global lithium supply produced by Latin America and the Caribbean, approximately", "value_type": "reported_regional_share"},
+        "regional_refining_share": {"value": 20, "unit": "share of mined output of key energy minerals refined within the region, approximately", "value_type": "reported_regional_share"},
+        "potential_regional_value": {"value": 220000000000, "unit": "US dollars of potential annual economic value by 2035 under expanded regional processing, approximately", "value_type": "modeled_regional_value"},
+        "capacity_constraints": {"value": "financing costs, power and water infrastructure, technology, skills, and local-stakeholder engagement", "unit": "reported value-chain constraints", "value_type": "reported_constraint_set"}
+      },
+      "method": "IEA regional analysis of mineral production, refining, value-chain scenarios, and enabling conditions in Latin America and the Caribbean.",
+      "uncertainty": "The potential value is a modeled opportunity, not committed investment, completed refining, public revenue, local employment, environmental approval, or community benefit.",
+      "subgroup": "Latin American and Caribbean governments, mining and processing firms, local communities, workers, infrastructure providers, financiers, and global downstream buyers.",
+      "counterinterpretation": "Local processing can raise value capture and bargaining capacity, but extraction-led growth can also intensify water, land, environmental, fiscal, and distributional conflicts without safeguards.",
+      "source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "retrieval_hash": "sha256:58fb6a5a7aa255060b95c245f09fccaa7f58a33b14629710dec8934773da1a7a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/outlook", "claim": "IEA medium- and long-term demand projections for 37 critical minerals across scenarios and technology cases."},
+    {"source_url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026", "claim": "Official IEA report landing page, publication date, scope, data explorer, and policy/workforce framing."}
+  ],
+  "boundary": "This record adds a mineral-demand-to-refining-concentration-to-export-control-to-downstream-production and regional-value-capture route. It is not mine-level incidence, respondent data, proof of completed projects, realized shortages, consumer-price effects, local consent, or evidence that mineral dependence automatically creates geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEA Global Critical Minerals Outlook 2026 landing page, market overview, executive summary, and outlook pages were reviewed; demand, refining concentration, export-control, modeled downstream exposure, investment, recycling, Latin American production, refining, value, and capacity-constraint claims were cross-checked.",
+    "source_url_sha256": "sha256:58fb6a5a7aa255060b95c245f09fccaa7f58a33b14629710dec8934773da1a7a",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-patent-rights-agricultural-innovation-local-profits-2026",
+  "title": "Patent protection can increase agricultural innovation and local profits while raising seed costs and distorting downstream production",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "NBER Working Paper 35735, Flowers of Invention: The Economic Impacts of Patent Rights; crop-specific technology development, plant reproductive-structure exposure, and U.S. county outcomes",
+  "geography": "United States agricultural crops, counties, firms, and downstream production; plant-biotechnology patent change introduced in 1985",
+  "observations": [{
+    "period": "1985 patent-rights change and subsequent crop-specific and county outcomes; NBER paper issued September 2026",
+    "denominator": {
+      "value": 1,
+      "unit": "study-defined crops and U.S. counties differentially exposed by crop composition; public abstract count not disclosed",
+      "value_type": "study_universe"
+    },
+    "measures": {
+      "legal_change": {
+        "value": "plant-biotechnology patent protection was introduced in 1985, with exposure varying by crop reproductive structure",
+        "unit": "property-rights policy change and differential exposure",
+        "value_type": "reported_policy_design"
+      },
+      "innovation": {
+        "value": "patent protection increased development of novel plant varieties and rapidly increased private-sector research investment",
+        "unit": "crop-technology development and private R&D response",
+        "value_type": "estimated_effect"
+      },
+      "spillover_and_yield": {
+        "value": "the change produced positive spillovers in certain non-biological agricultural technologies and increased crop yields",
+        "unit": "innovation and downstream production outcome",
+        "value_type": "estimated_effect"
+      },
+      "cost_and_distortion": {
+        "value": "patent rights may impose significant costs on technology consumers and distort downstream production; seed spending increased",
+        "unit": "consumer and production trade-off",
+        "value_type": "reported_tradeoff"
+      },
+      "local_distribution": {
+        "value": "U.S. counties more exposed through crop composition experienced increases in agricultural land values and profits",
+        "unit": "local economic outcome by policy exposure",
+        "value_type": "estimated_effect"
+      },
+      "downstream_outcome": {
+        "value": "the abstract does not establish farm-level adoption, farmer bargaining power, food prices, consumer welfare, labor, environmental outcomes, or household food security",
+        "unit": "missing technology-to-household continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "The paper exploits differential exposure created by plant reproductive structures and combines a new crop-specific technology-development dataset with county-level outcomes to estimate the effects of patent protection on innovation, investment, yields, land values, and profits.",
+    "uncertainty": "The public abstract does not disclose every crop, county, period, identification assumption, estimate, or downstream-production measure. Higher yields and profits do not establish consumer welfare, and seed-cost increases do not by themselves establish net farmer or household loss.",
+    "subgroup": "Crops with different reproductive structures, private-sector researchers, agricultural technology consumers, farms, and U.S. counties with different crop-composition exposure.",
+    "counterinterpretation": "Patent protection can fund innovation that would otherwise not occur, and higher seed costs may reflect valuable technology or quality. County land-value and profit gains may be capitalized benefits rather than gains shared by tenants, workers, or consumers.",
+    "source_url": "https://www.nber.org/papers/w35735",
+    "retrieval_hash": "sha256:ca142cb1949675589c94a86141e2f2525e58dab9144091aebb5f7c5360b4ed2e",
+    "status": "estimated"
+  }],
+  "related_sources": [{
+    "source_url": "https://doi.org/10.3386/w35735",
+    "claim": "NBER DOI record for Working Paper 35735",
+    "status": "official-paper-identifier"
+  }],
+  "boundary": "This record closes a legal-rights-to-private-investment, innovation, yield, and local-profit arrow while preserving the cost and power trade-off: patent rights can raise productivity and land values alongside higher seed spending and possible downstream distortions. It does not establish consumer welfare, farm adoption, worker outcomes, or household food security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 35735 landing page reviewed and retained only as a source-page hash; crop-level data, county data, paper PDF, and model code were not retained.",
+    "nber_page_sha256": "sha256:ca142cb1949675589c94a86141e2f2525e58dab9144091aebb5f7c5360b4ed2e",
+    "checked": "2026-09-23"
+  }
+}

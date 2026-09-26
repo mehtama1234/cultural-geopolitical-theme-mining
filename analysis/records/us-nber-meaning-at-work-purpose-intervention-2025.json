@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-meaning-at-work-purpose-intervention-2025",
+  "title": "A randomized purpose intervention changed worker performance, retention, priorities, and parental-leave behavior",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": ["trust_identity_meaning", "work_control_bargaining", "time_hidden_price", "household_room_consumption", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "2,976 white-collar employees in a firm randomized to a worker-centered purpose intervention or comparison condition",
+  "geography": "United States; firm-based worker experiment",
+  "observations": [
+    {
+      "period": "Two-year randomized rollout; NBER Working Paper 33843, May 2025",
+      "denominator": {"value": 2976, "unit": "white-collar employees enrolled in the randomized rollout", "value_type": "reported_experiment_sample"},
+      "measures": {
+        "performance": {"value": "increased", "unit": "worker performance outcome", "value_type": "causal_estimate_summary"},
+        "low_performer_path": {"value": "low performers either left the firm or improved in their current jobs", "unit": "worker retention/performance pathway", "value_type": "reported_experimental_pattern"},
+        "meaning_pay_tradeoff": {"value": "trade-off between meaning and pay flattened as low-meaning/high-pay workers left", "unit": "worker preference/retention relationship", "value_type": "reported_experimental_pattern"},
+        "parental_leave": {"value": "uptake increased and gender gaps in preferences and behaviors narrowed", "unit": "parental-leave behavior", "value_type": "reported_experimental_pattern"},
+        "bonuses": {"value": "higher bonuses shared returns between firm and employees", "unit": "worker compensation outcome", "value_type": "reported_experimental_pattern"}
+      },
+      "method": "Randomized rollout of a firm worker-centered intervention, described as enabling employees to reduce the cost of effort by discovering purpose, followed for two years with performance, retention, stated priorities, behavior, parental-leave, and compensation outcomes.",
+      "uncertainty": "The experiment is firm-specific and limited to white-collar employees; the public abstract does not identify the exact treatment content, implementation heterogeneity, worker household outcomes, or external validity to hourly, platform, public-sector, or nonunion workers.",
+      "subgroup": "Employees in the participating firm; the source highlights low performers and gender differences in preferences and behaviors.",
+      "counterinterpretation": "Observed performance gains may arise through selection/retention and managerial or compensation responses rather than a uniform increase in worker autonomy; leaving the firm is an outcome that can improve firm performance while shifting risk to workers.",
+      "source_url": "https://www.nber.org/papers/w33843",
+      "retrieval_hash": "sha256:49db7ec102ff94bb107d096b66bbd03e8dfa38b0ec2ad6c8219cbd4f47acbbbf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w33843", "claim": "NBER DOI and working-paper identifier", "status": "official-paper-identifier"}
+  ],
+  "boundary": "This record adds a firm-level randomized meaning-to-work-outcome route: a purpose intervention changed performance, retention pathways, stated priorities, parental-leave behavior, and bonuses. It does not establish household welfare, durable worker control, bargaining power, broad labor-market generalization, or political action."
+}

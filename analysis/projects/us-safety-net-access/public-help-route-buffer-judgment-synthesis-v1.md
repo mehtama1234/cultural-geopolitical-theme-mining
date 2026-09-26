@@ -1,7 +1,7 @@
 # Public help is a route, a buffer, and a judgment
 
 **Status:** reader-facing public-systems synthesis  
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-19
 **Scope:** US safety-net administration, recipient experience, household
 material security, and institution-specific confidence
 
@@ -36,6 +36,36 @@ competence, fairness, protection, blame, trust, and action
 
 The present atlas observes pieces of this route in different datasets. It does
 not yet have one dated case record that follows the full arrow.
+
+## Latest extension: work and public help can coexist
+
+The new GAO work–safety-net layer adds an important correction to the idea that
+employment means a household has escaped public support. In the report's
+separate national universes, 13.8 million adults ages 19–64 enrolled in
+Medicaid and 10.6 million adults ages 19–64 living in SNAP-receiving
+households worked at some point in 2024. About two-thirds of working adults in
+each group worked at least 35 hours per week, and 88% of wage-earning adults
+worked in the private sector.
+
+This does not prove that employers deliberately shift costs to public
+programs. The employer concentration data come from a separate selected-state
+administrative universe: 46 companies appeared among the top 25 employers of
+Medicaid enrollees or SNAP beneficiaries in at least two states. The safe
+interpretation is narrower and more useful: work, benefit use, and employer
+presence can occupy the same labor system, while wages, schedules, benefits,
+churn, household security, worker choice, and employer response remain
+unobserved at the same-person level.
+
+```text
+work and public-benefit eligibility
+  -> food/health protection alongside labor-market attachment
+  -> employer, schedule, and household-security interaction
+  -> trust, complaint, bargaining, mobility, or exit [open]
+```
+
+The public-help chain therefore has two common errors to avoid: treating
+receipt as proof of administrative success, and treating work as proof of
+material independence.
 
 ## Four stages, four denominators
 
@@ -237,6 +267,7 @@ pool them into “safety-net success” or “government distrust.”
 - [SNAP data-governance machine record](../../records/us-doj-snap-data-access-federal-state-conflict-2026.json)
 - [WBNS public-use acquisition audit](wbns-public-use-route-acquisition-audit-v1.md)
 - [Safety-net event-ledger design](same-episode-event-ledger-design-v1.md)
+- [GAO work–safety-net finding](findings/us-safety-net-access-017.md)
 
 **Evidence status:** non-pooled cross-source synthesis. Administrative,
 recipient, person-month, and institution-confidence units remain distinct; no

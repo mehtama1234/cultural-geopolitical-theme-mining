@@ -1,0 +1,43 @@
+{
+  "schema": "hrsa-ohio-hpsa-site-crosswalk-probe-v1",
+  "checked": "2026-09-19",
+  "sources": {
+    "hpsa_local_file": "analysis/projects/us-local-business-place/data/hrsa-primary-care-hpsa.csv",
+    "health_center_sites_local_temp_file": "/tmp/hrsa-health-center-sites-2026-09-19.csv",
+    "health_center_sites_sha256": "316658d0e620fcc3d8660a27f10450fe1d413f076a8e88f484c56595e081dd95",
+    "health_center_sites_official_url": "https://data.hrsa.gov/DataDownload/DD_Files/Health_Center_Service_Delivery_and_LookAlike_Sites.csv"
+  },
+  "method": {
+    "hpsa_filter": "Ohio rows with HPSA Status != Withdrawn and nonmissing Latitude/Longitude",
+    "site_filter": "Ohio Health Center Service Delivery and Look-Alike Sites rows with nonmissing geocoding X/Y",
+    "matching": "nearest site coordinate to each HPSA coordinate using haversine distance",
+    "earth_radius_km": 6371.0088,
+    "purpose": "crosswalk probe only; no entity identity was asserted from proximity"
+  },
+  "result": {
+    "ohio_health_center_site_rows": 676,
+    "ohio_active_health_center_site_rows": 676,
+    "ohio_health_center_site_rows_with_coordinates": 676,
+    "hpsa_coordinate_rows": 94,
+    "nearest_site_within_0_1_km": 56,
+    "nearest_site_within_1_km": 63,
+    "nearest_site_within_5_km": 79,
+    "nearest_site_within_10_km": 87,
+    "nearest_distance_km": {
+      "min": 0.0,
+      "median": 0.0,
+      "mean": 2.3371747613,
+      "max": 20.1671945027
+    },
+    "by_hpsa_designation_type": {
+      "Federally Qualified Health Center": {"rows": 51, "within_0_1_km": 48, "within_1_km": 50, "within_5_km": 51, "within_10_km": 51, "median_km": 0.0},
+      "Federally Qualified Health Center Look A Like": {"rows": 10, "within_0_1_km": 8, "within_1_km": 8, "within_5_km": 10, "within_10_km": 10, "median_km": 0.0},
+      "Correctional Facility": {"rows": 24, "within_0_1_km": 0, "within_1_km": 2, "within_5_km": 13, "within_10_km": 21, "median_km": 4.1264756263},
+      "Rural Health Clinic": {"rows": 7, "within_0_1_km": 0, "within_1_km": 1, "within_5_km": 3, "within_10_km": 3, "median_km": 13.8600410969},
+      "Other Facility": {"rows": 2, "within_0_1_km": 0, "within_1_km": 2, "within_5_km": 2, "within_10_km": 2, "median_km": 0.9880331704}
+    }
+  },
+  "interpretation": "The coordinate crosswalk is strongest for FQHC and look-alike HPSA rows and weaker for correctional and rural-health rows. Proximity does not prove that the nearest site is the designated HPSA entity, offers primary care to the designated population, accepts a patient's insurance, has open appointments, or was used.",
+  "next_test": "Validate organization/site identifiers and service type, then add hours, patient/insurance acceptance, appointment wait, and a defined travel-time method. Keep the crosswalk as a candidate-link screen rather than promoting it to provider capacity or resident access.",
+  "storage_boundary": "Only compact aggregate counts and distance summaries are retained; the 14 MB temporary source CSV is not added to the repository."
+}

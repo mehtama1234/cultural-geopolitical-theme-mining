@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-emergency-rental-assistance-lottery-four-cities-2024-2025",
+  "title": "Rental assistance can improve immediate rent payment and eviction anxiety without producing large measured housing-stability effects",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 32463, revised October 2025, evaluating five emergency rental-assistance programs in four U.S. cities using lottery assignment, administrative data, and surveys",
+  "geography": "Four U.S. cities and five pandemic-era emergency rental-assistance programs distributing more than $200 million; applicant and recipient households in program-specific lottery samples",
+  "observations": [
+    {
+      "period": "Pandemic-era emergency rental assistance programs; five lotteries in four cities",
+      "denominator": {"value": 5, "unit": "rental-assistance programs evaluated through embedded lotteries", "value_type": "reported_program_count"},
+      "measures": {
+        "funding_scale": {"value": "over $200 million", "unit": "assistance distributed by the evaluated programs", "value_type": "reported_total"},
+        "assignment": {"value": "lottery-based program assignment", "unit": "randomized access design", "value_type": "reported_method"},
+        "data": {"value": "administrative and survey data on rent payment, housing stability, financial distress, and health", "unit": "outcome domains", "value_type": "reported_measurement_set"}
+      },
+      "method": "Evaluation using embedded program lotteries, administrative records, and follow-up surveys; the paper compares recipients and lottery-based nonrecipients within program-specific designs.",
+      "uncertainty": "Programs, timing, local markets, and pandemic-era policy conditions differ across cities; the pooled description does not imply one identical treatment or a universal effect.",
+      "subgroup": "Low-income renter applicants to five emergency rental-assistance programs in four cities; applicants not represented in the lotteries are outside the experimental comparison.",
+      "counterinterpretation": "Lottery-based access identifies the effect of receiving assistance in these programs, but broader safety-net changes, eviction moratoria, and market conditions can affect measured housing outcomes.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w32463/w32463.pdf",
+      "retrieval_hash": "sha256:a1e3af74ef2888febbd8340fc4b94ff78332eca42fec4109c60f6de71b8b67f2",
+      "status": "estimated"
+    },
+    {
+      "period": "Follow-up after rental-assistance lottery assignment",
+      "denominator": {"value": null, "unit": "applicants in study-specific lottery samples; exact pooled denominator not used in this bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "rent_payment": {"value": "assistance increased rent payment", "unit": "reported experimental effect", "value_type": "reported_effect"},
+        "eviction_concern": {"value": "assistance reduced concerns about eviction", "unit": "reported survey effect", "value_type": "reported_effect"},
+        "mental_physical_health": {"value": "suggestive improvements in self-reported mental and physical health", "unit": "reported survey effect", "value_type": "suggestive_effect"}
+      },
+      "method": "Lottery-based comparison using administrative rent-payment measures and survey-reported concerns and health outcomes.",
+      "uncertainty": "The health results are described as suggestive and self-reported; the extraction does not convert them into clinical outcomes or durable wellbeing.",
+      "subgroup": "Lottery applicants who received or did not receive assistance in the evaluated programs.",
+      "counterinterpretation": "Reduced anxiety or improved rent payment may be valuable even if housing tenure does not change; effects can differ across program design and pandemic conditions.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w32463/w32463.pdf",
+      "retrieval_hash": "sha256:a1e3af74ef2888febbd8340fc4b94ff78332eca42fec4109c60f6de71b8b67f2",
+      "status": "estimated"
+    },
+    {
+      "period": "Pandemic-era comparison with pre-pandemic emergency rental assistance",
+      "denominator": {"value": null, "unit": "study comparison across evaluated pandemic programs and prior evidence; no common household panel denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "housing_stability": {"value": "little effect detected", "unit": "reported experimental result", "value_type": "reported_null_or_small_effect"},
+        "financial_distress": {"value": "little effect detected", "unit": "reported experimental result", "value_type": "reported_null_or_small_effect"},
+        "possible_explanations": {"value": "eviction moratoria, expanded safety-net programs, and tenant-favoring market conditions weakened the link between rent and displacement", "unit": "reported interpretation", "value_type": "reported_explanation"}
+      },
+      "method": "Study authors' comparison of pandemic-era results with pre-pandemic emergency-rental-assistance evidence; explanations are not treated as separately identified causal effects.",
+      "uncertainty": "A small measured housing-stability effect does not prove assistance was ineffective; it may reflect reduced baseline displacement risk or other concurrent protections.",
+      "subgroup": "Pandemic-era applicants and comparison evidence from earlier rental-assistance settings.",
+      "counterinterpretation": "The intervention may have prevented rent arrears or distress without changing the observed housing-status measure; housing stability can be an insensitive endpoint over the follow-up window.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w32463/w32463.pdf",
+      "retrieval_hash": "sha256:a1e3af74ef2888febbd8340fc4b94ff78332eca42fec4109c60f6de71b8b67f2",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.povertyactionlab.org/evaluation/impact-emergency-rental-assistance-housing-stability-during-covid-19-united-states", "claim": "J-PAL's evaluation summary reports short-term rent-payment and modest mental-health effects from the lottery-based programs.", "status": "research-summary-context"}
+  ],
+  "boundary": "This record shows a bounded intervention effect: emergency rental assistance improved rent payment and reduced eviction concerns in evaluated pandemic programs, while large housing-stability or financial-distress effects were not detected. It does not establish national prevention of eviction, durable housing security, or a general failure of rental assistance.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER revised working-paper PDF used for the extracted findings; lottery microdata and full replication are not locally reproduced.",
+    "pdf_sha256": "sha256:a1e3af74ef2888febbd8340fc4b94ff78332eca42fec4109c60f6de71b8b67f2",
+    "checked": "2026-09-22"
+  }
+}

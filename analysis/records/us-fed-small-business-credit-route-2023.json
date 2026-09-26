@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fed-small-business-credit-route-2023",
+  "title": "Small-business credit is a differentiated route shaped by lender choice and firm risk",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Federal Reserve Small Business Credit Survey 2023 small employer-firm applicants, as summarized in Consumer & Community Context",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023; small employer firms",
+      "denominator": {"value": 1, "unit": "small employer firms in the SBCS survey population", "value_type": "survey population denominator"},
+      "measures": {
+        "credit_application_rate": {"value": 37, "unit": "percent applying for loan, line of credit, or merchant cash advance in prior 12 months", "value_type": "reported_share"},
+        "large_bank_application_share": {"value": 44, "unit": "percent of applicant firms", "value_type": "reported_share"},
+        "small_bank_application_share": {"value": 28, "unit": "percent of applicant firms", "value_type": "reported_share"},
+        "online_lender_application_share": {"value": 23, "unit": "percent of applicant firms", "value_type": "reported_share"}
+      },
+      "method": "Federal Reserve summary of the Small Business Credit Survey; application rate uses small employer firms, while provider shares use applicant firms.",
+      "uncertainty": "Application and provider-choice estimates come from a survey and use different denominators; the source does not establish why firms chose providers or whether applications were simultaneous.",
+      "subgroup": "Small employer firms and small employer-firm credit applicants.",
+      "counterinterpretation": "Provider shares reflect firm needs, product fit, speed, risk, and applicant composition, not a universal lender preference or quality ranking.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-march-consumer-community-context.htm",
+      "retrieval_hash": "sha256:5ef843e6d2eb61652e4aaf180b7eed1f0b35e13b6ad01f9385e6447b2733e614",
+      "status": "reported"
+    },
+    {
+      "period": "2023; loan, line-of-credit, and cash-advance applicants by reported credit risk",
+      "denominator": {"value": 1, "unit": "applicant firms within lender and risk cells", "value_type": "cell-specific applicant denominator"},
+      "measures": {
+        "large_bank_low_risk_approval": {"value": 76, "unit": "percent approved", "value_type": "reported_share"},
+        "small_bank_low_risk_approval": {"value": 83, "unit": "percent approved", "value_type": "reported_share"},
+        "large_bank_medium_high_risk_approval": {"value": 46, "unit": "percent approved", "value_type": "reported_share"},
+        "small_bank_medium_high_risk_approval": {"value": 48, "unit": "percent approved", "value_type": "reported_share"}
+      },
+      "method": "Federal Reserve summary comparing approval rates by lender type and self-reported low versus medium/high credit-risk category.",
+      "uncertainty": "Risk and lender cells are observational survey comparisons; applicant pools, requested amounts, products, and underwriting standards differ.",
+      "subgroup": "Small employer-firm applicants by reported credit-risk category and lender type.",
+      "counterinterpretation": "Risk-patterned approval differences may reflect legitimate underwriting, collateral, credit history, product fit, or amount requested; they are not a causal lender-effect estimate.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-march-consumer-community-context.htm",
+      "retrieval_hash": "sha256:5ef843e6d2eb61652e4aaf180b7eed1f0b35e13b6ad01f9385e6447b2733e614",
+      "status": "reported"
+    },
+    {
+      "period": "2023; small employer-firm applicants by lender type",
+      "denominator": {"value": 1, "unit": "applicant firms within each lender-type cell", "value_type": "cell-specific applicant denominator"},
+      "measures": {
+        "large_bank_partial_or_full_approval": {"value": 66, "unit": "percent approved at least partially", "value_type": "reported_share"},
+        "small_bank_partial_or_full_approval": {"value": 75, "unit": "percent approved at least partially", "value_type": "reported_share"},
+        "online_lender_partial_or_full_approval": {"value": 70, "unit": "percent approved at least partially", "value_type": "reported_share"},
+        "large_bank_full_approval": {"value": 44, "unit": "percent fully approved", "value_type": "reported_share"},
+        "small_bank_full_approval": {"value": 52, "unit": "percent fully approved", "value_type": "reported_share"},
+        "online_lender_full_approval": {"value": 31, "unit": "percent fully approved", "value_type": "reported_share"}
+      },
+      "method": "Federal Reserve summary of at-least-partial and full approval rates across lender categories; comparison includes other nonbank finance companies, credit unions, and CDFIs in the published figure.",
+      "uncertainty": "Provider cells have different firms, products, requested amounts, and selection processes; partial approval is not the same as receiving the requested amount.",
+      "subgroup": "Small employer-firm credit applicants by lender category.",
+      "counterinterpretation": "A lower full-approval share may accompany faster access, different risk, smaller product fit, or a different requested amount; rates do not rank lender welfare or firm outcomes.",
+      "source_url": "https://www.federalreserve.gov/publications/2025-march-consumer-community-context.htm",
+      "retrieval_hash": "sha256:5ef843e6d2eb61652e4aaf180b7eed1f0b35e13b6ad01f9385e6447b2733e614",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record establishes application, provider-choice, and approval differences for small employer-firm credit applicants. It does not establish funding receipt, terms, repayment, firm investment, survival, jobs, owner-household effects, local spillovers, or causal provider quality."
+}

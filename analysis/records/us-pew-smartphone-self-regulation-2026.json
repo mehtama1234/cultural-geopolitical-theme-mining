@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-smartphone-self-regulation-2026",
+  "title": "People can value smartphones while struggling to reduce their use",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "political_judgment_action",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey of U.S. adults",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 26-June 1, 2026; smartphone time, perceived excess, and self-regulation",
+      "denominator": {"value": 9750, "unit": "U.S. adult survey respondents", "value_type": "reported_sample"},
+      "measures": {
+        "spend_too_much_time": {"value": 53, "unit": "percent of adults answering the smartphone-time item", "value_type": "published_share"},
+        "tried_to_cut_back": {"value": 45, "unit": "percent of U.S. adults in the prior-12-month question frame", "value_type": "published_share"},
+        "cutback_extremely_or_very_successful": {"value": 25, "unit": "percent among adults who tried to cut back", "value_type": "published_share"},
+        "cutback_somewhat_successful": {"value": 52, "unit": "percent among adults who tried to cut back", "value_type": "published_share"},
+        "cutback_not_successful": {"value": 23, "unit": "percent among adults who tried to cut back", "value_type": "published_share"}
+      },
+      "method": "Pew American Trends Panel survey using self-reported smartphone-time judgments and retrospective attempts to reduce use; displayed item denominators vary by question and exclude nonresponse where noted.",
+      "uncertainty": "The survey does not use device logs, identify the product or app involved, or measure duration, dependence, clinical harm, or actual behavior change after the survey.",
+      "subgroup": "U.S. adults; adults ages 18-49 were more likely to report trying to cut back than older adults, while reported success varied little by age among those who tried.",
+      "counterinterpretation": "Failure to cut back may reflect social, work, safety, navigation, or information needs rather than simple lack of willpower; perceived excess can coexist with useful or necessary phone functions.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/01/about-half-of-americans-say-they-spend-too-much-time-on-their-smartphone/",
+      "retrieval_hash": "sha256:d9d1195fcf3709f8761a272226e9f101ef3d57049a9da881f62506cfffe99a68",
+      "status": "reported"
+    },
+    {
+      "period": "May 26-June 1, 2026; smartphone utility and perceived cost",
+      "denominator": {"value": 9750, "unit": "U.S. adult survey respondents; item-specific response bases apply", "value_type": "reported_sample"},
+      "measures": {
+        "helps_stay_informed": {"value": 73, "unit": "percent", "value_type": "published_share"},
+        "helps_feel_connected": {"value": 51, "unit": "percent", "value_type": "published_share"},
+        "helps_productivity": {"value": 30, "unit": "percent", "value_type": "published_share"},
+        "hurts_productivity": {"value": 34, "unit": "percent", "value_type": "published_share"},
+        "hurts_sleep": {"value": 41, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Descriptive survey items on perceived smartphone benefits and costs; the measures are not combined into a net-wellbeing score.",
+      "uncertainty": "Perceived information, connection, productivity, and sleep effects are not clinical or behavioral measures and do not establish that smartphone use caused the reported outcome.",
+      "subgroup": "U.S. adults, with age differences reported for several utility and cost measures.",
+      "counterinterpretation": "The same device can provide connection or information while creating distraction or sleep costs; the tradeoff may differ by work, care, age, safety, and social setting.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/01/about-half-of-americans-say-they-spend-too-much-time-on-their-smartphone/",
+      "retrieval_hash": "sha256:d9d1195fcf3709f8761a272226e9f101ef3d57049a9da881f62506cfffe99a68",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/methods/2026/09/01/americans-and-their-smartphones-topline/", "claim": "Pew's topline supplies question wording and item-specific response bases.", "status": "official-method-context"}
+  ],
+  "boundary": "This record identifies a perceived-usefulness, perceived-cost, and self-regulation gap. It does not establish device-logged exposure, addiction, clinical harm, platform causation, durable behavior change, political action, or successful digital exit.",
+  "retrieval_hash": "sha256:d9d1195fcf3709f8761a272226e9f101ef3d57049a9da881f62506cfffe99a68"
+}

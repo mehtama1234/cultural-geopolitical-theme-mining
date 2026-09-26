@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-belgian-mq9b-nisrf-deployment-2026",
+  "title": "NATO infrastructure enabled a Belgian ISR deployment and named operational use without proving strategic effect",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NATO Intelligence, Surveillance and Reconnaissance Force account of a Belgian MQ-9B deployment at Sigonella; named national asset, NATO infrastructure, host-nation support, and operational hours",
+  "geography": "Sigonella, Italy; Belgian MQ-9B deployment supporting NATO's Operation Sea Guardian and Operation Noble Shield",
+  "observations": [
+    {
+      "period": "April-July 2026; temporary Belgian MQ-9B deployment",
+      "denominator": {"value": 1, "unit": "temporary Belgian MQ-9B remotely piloted aircraft deployment at Italian Air Force Base Sigonella", "value_type": "reported_operational_event"},
+      "measures": {
+        "deployment_support": {"value": "NISRF provided hangar facilities, secure operating environment, local coordination, and liaison support", "unit": "reported NATO-host enablement", "value_type": "reported_integration_stage"},
+        "host_nation": {"value": "Italy", "unit": "host nation for the deployment", "value_type": "reported_host_arrangement"},
+        "operational_flight_hours": {"value": 400, "unit": "more than flight hours by the Belgian MQ-9B and crews", "value_type": "reported_operational_output"},
+        "named_operations": {"value": "Operation Sea Guardian and Operation Noble Shield", "unit": "NATO operations supported", "value_type": "reported_mission_support"}
+      },
+      "method": "Review of the official NISRF operational account; national asset deployment, NATO infrastructure, host-nation coordination, flight hours, and named mission support are retained as separate stages.",
+      "uncertainty": "The account does not identify the content or decision effect of the missions, Belgian or Italian cost, local community burden, operator experience, adversary response, deterrence, or whether the deployment became durable.",
+      "subgroup": "Belgian crews and aircraft, NISRF personnel, Italian host institutions, and NATO operations; no resident, public-opinion, or adversary outcome sample is provided.",
+      "counterinterpretation": "A temporary deployment can show useful alliance interoperability without proving that the capability changed external behavior or that the host arrangement was locally accepted without cost.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/supporting-allied-capabilities-nisrf-facilitates-belgian-mq9b-deployment",
+      "retrieval_hash": "sha256:b009a165dbc72234bc73cc0bc806ae97bf4c39437c9d482c3a007f7f80906ebc",
+      "status": "reported"
+    },
+    {
+      "period": "April-July 2026; operational output and alliance coordination",
+      "denominator": {"value": null, "unit": "NATO-supported Belgian MQ-9B missions; sortie and intelligence-product denominator not stated", "value_type": "not_disclosed"},
+      "measures": {
+        "allied_capability_enablement": {"value": "NISRF infrastructure and multinational organization facilitated a Belgian national capability", "unit": "reported alliance-integration result", "value_type": "reported_integration_stage"},
+        "operational_readiness": {"value": "maintained a high level of operational readiness", "unit": "official force account", "value_type": "reported_assessment"},
+        "strategic_effect": {"value": "not observed", "unit": "missing attributed decision change, deterrence, external response, and durable leverage", "value_type": "unmeasured"}
+      },
+      "method": "The source describes the deployment as an example of NATO, an Ally, and a host nation cooperating through an established operating environment; reported readiness is kept separate from strategic effect.",
+      "uncertainty": "Operational readiness is an official assessment, not an independent performance test. The record does not supply a counterfactual without NATO support, a partner cost comparison, or a longer-term continuation decision.",
+      "subgroup": "Belgium, Italy, NISRF, NATO operational staffs, and the supported operations; no public or civilian endpoint is measured.",
+      "counterinterpretation": "The same infrastructure could enable multiple allied deployments while remaining dependent on host access, funding, personnel, and political permission; one successful deployment does not establish general replaceability.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/supporting-allied-capabilities-nisrf-facilitates-belgian-mq9b-deployment",
+      "retrieval_hash": "sha256:b009a165dbc72234bc73cc0bc806ae97bf4c39437c9d482c3a007f7f80906ebc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-concludes-ace--delivering-persistent-isr-across-major-nato-activities",
+      "claim": "A separate NISRF record reports NATO-owned RQ-4D operations across Norway, Finland, and Italy; the present record is kept distinct because it concerns a Belgian national MQ-9B deployment.",
+      "status": "related-operational-comparator"
+    }
+  ],
+  "boundary": "This record establishes a named allied capability deployment enabled by NATO infrastructure and host-nation coordination, with more than 400 reported flight hours supporting two NATO operations. It does not establish mission quality, attributed external response, deterrence, public consent, civilian burden, cost sustainability, replaceability, or durable geopolitical leverage.",
+  "retrieval_hash": "sha256:b009a165dbc72234bc73cc0bc806ae97bf4c39437c9d482c3a007f7f80906ebc"
+}

@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nvidia-h200-partial-china-shipments-prc-restriction-2026",
+  "title": "NVIDIA reported a fraction of licensed H200 shipments to China, but PRC restrictions prevented full licensed sales and the market remained effectively foreclosed",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NVIDIA second-quarter fiscal-year 2027 Form 10-Q and Q2 fiscal-year 2027 earnings-call transcript",
+  "geography": "United States, China, NVIDIA, U.S. export-control authorities, Chinese regulators, and advanced-computing customers",
+  "observations": [
+    {
+      "period": "NVIDIA second quarter of fiscal year 2027 ended July 26, 2026; earnings call August 26, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "licensed H200 products and NVIDIA Data Center revenue; shipment quantity and dollar value not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "prc_restriction": {"value": "PRC government restrictions prevented NVIDIA from selling all products for which it held U.S. H200 licenses", "unit": "reported sales constraint", "value_type": "reported_government_restriction"},
+        "licensed_shipments_realized": {"value": "a fraction of allowed H200 shipments was made after NVIDIA recorded a $0.4 billion H200 excess-inventory and purchase-obligation charge", "unit": "reported partial shipment realization", "value_type": "reported_partial_realization"},
+        "shipment_share_of_data_center_revenue": {"value": "less than 1", "unit": "percent of Data Center revenue in the most recent quarter", "value_type": "reported_share"},
+        "tariff_absorption": {"value": "NVIDIA had been unable to pass any 25% tariff to customers and did not anticipate doing so", "unit": "reported cost-incidence outcome", "value_type": "reported_cost_outcome"},
+        "forward_china_data_center_outlook": {"value": "no China data-center compute revenue included in forward outlook", "unit": "reported forecast exclusion", "value_type": "reported_forecast_boundary"},
+        "market_status": {"value": "effectively foreclosed from competing in China's data-center compute market as of fiscal Q2 2027", "unit": "issuer-reported market status", "value_type": "reported_market_assessment"}
+      },
+      "method": "Review of NVIDIA's SEC-filed Form 10-Q and official investor-relations earnings-call transcript. The record separates U.S. license approval, partial shipment realization, PRC sales restrictions, shipment share, tariff incidence, and forward market outlook. The filing does not disclose shipment units, customer identities, China import quantities, or H200-specific revenue dollars.",
+      "uncertainty": "The sources do not identify the fraction's unit count or revenue, whether every shipment entered China, which customers received products, inspection results, or the precise PRC legal or administrative instrument restricting sales. The reported less-than-1% share is Data Center revenue, not an H200 unit or product-market share. The issuer's 'effectively foreclosed' assessment is not an independent capability or competition estimate.",
+      "subgroup": "NVIDIA, U.S. licensing authorities, Chinese regulators, licensed China-based customers, U.S. inspectors, and competing Chinese data-center accelerator suppliers",
+      "counterinterpretation": "Partial licensed shipments show that the conditional-opening route reached physical delivery, but their small disclosed scale and continuing PRC and U.S. constraints may leave the strategic and competitive outcome unchanged. The tariff and inventory charge may reflect transitory launch frictions, or may indicate that bilateral approval conditions make the route commercially marginal.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "retrieval_hash": "sha256:ae8a6f875ac4b86ba3ccfa5b73292cdd8c5e9a32dd99a7aa965a90974f67d959",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://investor.nvidia.com/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf",
+      "claim": "NVIDIA's official investor-relations transcript says Q2 shipped less than 1% of total Data Center revenue in Hopper 200 products to China customers under U.S. licenses and that forward outlook contained no China data-center compute revenue.",
+      "status": "official-investor-transcript",
+      "retrieval_hash": "sha256:a8be2bac4fd08ca18fc4bccbb165cd48237166ac5b4e211e779fc9f89ee35e16"
+    }
+  ],
+  "boundary": "This record establishes partial physical shipment under the H200 licensing route and a continuing PRC restriction on full sales. It does not establish shipment quantity, customer-level import approval, H200-specific revenue, Chinese capability change, restored competition, or geopolitical leverage."
+}

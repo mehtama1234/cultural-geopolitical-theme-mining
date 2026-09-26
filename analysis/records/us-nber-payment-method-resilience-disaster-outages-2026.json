@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-payment-method-resilience-disaster-outages-2026",
+  "title": "A digital payment system can be widespread while cash remains a practical backup during outages",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35115, Alvarez, Argente, and Van Patten, combining U.S. electricity-outage and weather data, transaction-level expenditure data, household scanner data, surveys from the United States, Spain, and Sweden, and a NielsenIQ preparedness-information experiment",
+  "geography": "United States as the primary atlas setting, with comparison survey and payment evidence from Spain and Sweden; county-level outage and weather variation and household/transaction observations",
+  "observations": [
+    {
+      "period": "Natural-disaster and electricity-outage episodes",
+      "denominator": {"value": null, "unit": "county-level outage, weather, transaction, scanner, and survey observations; pooled denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "expenditure": {"value": "natural disasters, especially hurricanes, generate persistent outages and sharply reduce expenditures", "unit": "reported event-study result", "value_type": "reported_effect"},
+        "pre_disaster_stockpiling": {"value": "spending rises before disasters, largely financed with credit", "unit": "reported payment-and-spending pattern", "value_type": "reported_pattern"},
+        "post_disaster_payment_mix": {"value": "digital payments decline and cash use rises, especially where outages occur", "unit": "reported payment-composition change", "value_type": "reported_pattern"}
+      },
+      "method": "Event-study comparisons combine high-frequency electricity-outage and weather measures with transaction and household expenditure records; the source families are not treated as one respondent panel.",
+      "uncertainty": "The expenditure and payment changes do not identify which purchases were essential, which households missed food or medicine, or how later credit repayment and recovery unfolded.",
+      "subgroup": "Households and transactions exposed to disaster or outage conditions, with additional country-comparison survey evidence.",
+      "counterinterpretation": "Spending declines may reflect supply shortages, business closures, mobility limits, or income loss rather than payment failure alone; cash use can be a response to several simultaneous shocks.",
+      "source_url": "https://www.nber.org/papers/w35115",
+      "retrieval_hash": "sha256:c5de9a4f70eaf2ffb09c749869e148df3d2408187cdcef4dde02b7b9678679ba",
+      "status": "estimated"
+    },
+    {
+      "period": "Representative outage surveys and variation in cash access",
+      "denominator": {"value": null, "unit": "survey respondents and households in source-specific U.S., Spanish, and Swedish samples", "value_type": "not_disclosed"},
+      "measures": {
+        "preferred_electronic_payment_unavailable": {"value": "nearly half of surveyed consumers could not use their preferred electronic payment during an outage", "unit": "reported survey share", "value_type": "reported_share_approximate"},
+        "cash_fallback": {"value": "cash served as a key fallback", "unit": "reported survey finding", "value_type": "reported_finding"},
+        "transaction_completion": {"value": "greater access to cash increased the likelihood of completing transactions and mitigated expenditure declines", "unit": "estimated relationship using cash-holding variation", "value_type": "reported_estimated_effect"}
+      },
+      "method": "Representative surveys and variation in cash holdings across households and locations are used to study payment availability and completed transactions during outages.",
+      "uncertainty": "A completed transaction is not the same as an adequate or healthy purchase; cash access may also proxy for banking access, preparation, income, or place-level resilience.",
+      "subgroup": "Surveyed consumers and households with differing cash access during outage conditions; cross-country samples are contextual comparisons.",
+      "counterinterpretation": "People with more cash may differ in many ways from people with less cash, so the result should not be read as a universal cash policy effect without the study's identifying assumptions.",
+      "source_url": "https://www.nber.org/papers/w35115",
+      "retrieval_hash": "sha256:c5de9a4f70eaf2ffb09c749869e148df3d2408187cdcef4dde02b7b9678679ba",
+      "status": "estimated"
+    },
+    {
+      "period": "NielsenIQ panel preparedness experiment and following hurricane season",
+      "denominator": {"value": null, "unit": "NielsenIQ panel households assigned to authoritative preparedness guidance or comparison condition", "value_type": "not_disclosed"},
+      "measures": {
+        "information_treatment": {"value": "roughly half of panel households received authoritative preparedness guidance", "unit": "randomized assignment", "value_type": "reported_experimental_design"},
+        "follow_up": {"value": "realized purchases were followed through the subsequent hurricane season", "unit": "panel purchase follow-up", "value_type": "reported_follow_up"},
+        "essential_need": {"value": "not established by the bounded extraction", "unit": "food, medicine, fuel, work, and care adequacy after each transaction", "value_type": "unmeasured"}
+      },
+      "method": "Randomized preparedness information in a household scanner panel with subsequent purchase observation; the extraction preserves the design without claiming an unverified treatment effect size.",
+      "uncertainty": "The public abstract does not provide the full outcome table used here; guidance, cash preparation, purchases, and later household security remain distinct endpoints.",
+      "subgroup": "NielsenIQ panel households in the experiment; subgroup mechanisms and longer-run outcomes are not used in this record.",
+      "counterinterpretation": "Preparedness information may change desired cash holdings or stockpiling without preventing outage exposure or improving the quality and affordability of later purchases.",
+      "source_url": "https://www.nber.org/papers/w35115",
+      "retrieval_hash": "sha256:c5de9a4f70eaf2ffb09c749869e148df3d2408187cdcef4dde02b7b9678679ba",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/working_papers/w35115/w35115.pdf", "claim": "Official NBER PDF used for the paper's abstract and method context.", "status": "official-paper-context"}
+  ],
+  "boundary": "This record shows that disaster-related payment disruption can shift spending from digital methods toward cash and that cash access is associated with more completed transactions. It does not establish that households obtained essential goods, avoided health or work loss, repaid credit without strain, or experienced durable recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; transaction microdata, scanner data, and survey microdata are not locally reproduced.",
+    "pdf_sha256": "sha256:c5de9a4f70eaf2ffb09c749869e148df3d2408187cdcef4dde02b7b9678679ba",
+    "checked": "2026-09-22"
+  }
+}

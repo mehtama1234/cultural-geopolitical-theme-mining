@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-prri-american-identity-democratic-rights-culture-2026",
+  "title": "Cultural-loss anxiety and democratic-rights anxiety coexist with weak national pride and declining American-Dream confidence",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Public Religion Research Institute American Identity Survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "May 1–18, 2026",
+      "denominator": {
+        "value": 5469,
+        "unit": "U.S. adults ages 18 and older in a representative national survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "democratic_rights_danger": {
+          "value": 68,
+          "unit": "percent agreeing the country is in real danger of losing important democratic rights and freedoms",
+          "value_type": "published_share"
+        },
+        "democratic_rights_protected": {
+          "value": 29,
+          "unit": "percent agreeing important democratic rights and freedoms will remain protected",
+          "value_type": "published_share"
+        },
+        "very_very_proud_being_american": {
+          "value": 51,
+          "unit": "percent extremely or very proud of being American",
+          "value_type": "published_share"
+        },
+        "very_very_proud_democracy_today": {
+          "value": 18,
+          "unit": "percent extremely or very proud of how democracy is working today",
+          "value_type": "published_share"
+        },
+        "american_dream_holds_true": {
+          "value": 49,
+          "unit": "percent agreeing that if people work hard they will get ahead",
+          "value_type": "published_share"
+        },
+        "american_dream_change_since_2024": {
+          "value": -6,
+          "unit": "percentage-point change in agreement since 2024",
+          "value_type": "published_change"
+        },
+        "young_american_dream_holds_true": {
+          "value": 36,
+          "unit": "percent of adults ages 18–29 agreeing the American Dream still holds true",
+          "value_type": "published_share"
+        },
+        "america_culture_identity_at_risk": {
+          "value": 60,
+          "unit": "percent agreeing America is in danger of losing its culture and identity",
+          "value_type": "published_share"
+        },
+        "special_role_for_america": {
+          "value": 44,
+          "unit": "percent agreeing God has granted America a special role in human history",
+          "value_type": "published_share"
+        }
+      },
+      "method": "PRRI survey conducted among 5,469 adults in all 50 states; 5,140 respondents came from Ipsos KnowledgePanel and 329 were recruited through opt-in panels to increase smaller-state sample sizes. The report uses party, religious-affiliation, Christian-nationalism, and age comparisons.",
+      "uncertainty": "These are descriptive survey attitudes with question wording and field-period dependence. The mixed sample frame and subgroup estimates may carry different precision. Agreement that rights are at risk, cultural identity is threatened, or the American Dream has weakened does not identify a cause, predict action, or establish an objective change in rights, culture, mobility, or democratic performance.",
+      "subgroup": "U.S. adults by party, religious affiliation, Christian-nationalism group, age, race, sex, and education; the report gives examples including 18–29-year-olds at 36% on the American Dream and 55% on cultural-identity loss.",
+      "counterinterpretation": "Cultural-loss concern is not equivalent to one ideology: PRRI reports it across religious and partisan groups, while the democratic-rights item has a different partisan distribution. Low pride in current democratic performance can coexist with pride in being American or concern about cultural continuity.",
+      "source_url": "https://prri.org/wp-content/uploads/2026/06/PRRI-Jun-2026-American-Identity.pdf",
+      "retrieval_hash": "sha256:195f30f3a6b28e0873281f845996b84b48f53813b5fd7ee43cf2dc2c9d52b573",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://prri.org/press-release/survey-as-the-nation-marks-250th-birthday-seven-in-ten-americans-believe-democratic-freedoms-are-in-danger/",
+      "claim": "PRRI's official release summarizes the national toplines and survey methodology.",
+      "status": "official-summary"
+    }
+  ],
+  "boundary": "This record adds a cultural-identity and democratic-rights perception layer. It does not establish causal polarization, cultural decline, loss of rights, national cohesion, turnout, vote choice, religious mobilization, or geopolitical behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official PRRI American Identity Survey PDF downloaded and hashed; official PRRI release cross-checked for sample and toplines.",
+    "checked": "2026-09-25"
+  }
+}

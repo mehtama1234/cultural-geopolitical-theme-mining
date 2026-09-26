@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-ai-use-concern-regulation-2026",
+  "title": "AI adoption is broadening while perceived control and regulatory confidence remain weak",
+  "theme_ids": ["voice", "time", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey of U.S. adults, February 17-23, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "February 17-23, 2026 survey; 2024 comparison where available",
+      "denominator": {
+        "value": 5119,
+        "unit": "U.S. adults in the American Trends Panel survey",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "chatbot_use": {
+          "value": "49% in 2026 versus 33% in 2024",
+          "unit": "percent saying they have ever used an AI chatbot",
+          "value_type": "published_survey_share"
+        },
+        "common_uses": {
+          "value": "42% search for information; 38% of employed adults use chatbots for work tasks; 13% use them for news; 10% for emotional support or advice",
+          "unit": "percent among relevant U.S. adults or chatbot users as defined by each survey item",
+          "value_type": "published_survey_shares"
+        },
+        "regulation_confidence": {
+          "value": "67% have little or no confidence that the U.S. government will regulate AI effectively",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_survey_share"
+        },
+        "personal_concern": {
+          "value": "about half say increased AI use makes them more concerned than excited; 10% say more excited than concerned",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_survey_shares"
+        }
+      },
+      "method": "Pew survey of the American Trends Panel with published 2024 comparison and use-case, concern, and regulation-confidence questions; use, attitudes, and perceived governance are retained as separate measures.",
+      "uncertainty": "Cross-sectional survey responses do not establish whether use changed the attitudes, whether concern changes behavior, or whether confidence predicts switching, non-use, work outcomes, or political action. Some denominators differ by item.",
+      "subgroup": "U.S. adults, with published age, gender, racial/ethnic, partisan, and employment comparisons in the report.",
+      "counterinterpretation": "Adoption and concern can coexist because people may use AI instrumentally while viewing its broader social or institutional effects negatively; low regulatory confidence need not imply opposition to AI itself.",
+      "source_url": "https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/",
+      "retrieval_hash": "sha256:8b2e5f7a0c3d6e9f1a4b7c0d3e6f9a2b5c8d1e4f7a0b3c6d9e2f5a8b1c4d7e00",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PI_2026.06.17_Americans-and-AI_TOPLINE.pdf",
+      "claim": "The topline provides detailed response distributions and confidence comparisons.",
+      "status": "survey-topline"
+    }
+  ],
+  "boundary": "This record identifies a cultural and institutional pattern in which AI use is expanding faster than confidence in governance. It does not estimate productivity, labor displacement, psychological effect, privacy harm, or political realignment.",
+  "retrieval_hash": "sha256:8b2e5f7a0c3d6e9f1a4b7c0d3e6f9a2b5c8d1e4f7a0b3c6d9e2f5a8b1c4d7e00"
+}

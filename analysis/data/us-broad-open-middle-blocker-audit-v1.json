@@ -1,0 +1,52 @@
+{
+  "schema": "us-broad-open-middle-blocker-audit-v1",
+  "checked": "2026-09-20",
+  "scope": {
+    "ledger_count": 98,
+    "event_count": 302,
+    "arrow_count": 454,
+    "open_arrow_count": 164
+  },
+  "purpose": "Planning diagnostic for the missing middle between exposure, institutional response, usable outcome, and later recovery or action. It is not a prevalence estimate or a recovery rate.",
+  "method": {
+    "source": "analysis/data/us-broad-event-ledger-index-v1.json",
+    "included": "arrows whose status is open",
+    "classification": "case-insensitive phrase matching against remaining_gap",
+    "overlap": true,
+    "interpretation": "One open arrow can belong to multiple stage families; family counts must not be summed."
+  },
+  "open_stage_families": [
+    {
+      "family": "later_outcome_or_durability",
+      "open_arrow_mentions": 117,
+      "plain_language": "Did the fix last, or did the problem return?"
+    },
+    {
+      "family": "trust_meaning_or_action",
+      "open_arrow_mentions": 105,
+      "plain_language": "Did the experience change trust, identity, participation, or behavior?"
+    },
+    {
+      "family": "alternative_nonuse_switching_or_exit",
+      "open_arrow_mentions": 123,
+      "plain_language": "What could the affected unit actually do instead, and did it do so?"
+    },
+    {
+      "family": "receipt_or_implementation",
+      "open_arrow_mentions": 80,
+      "plain_language": "Did the person, household, worker, or customer actually get and use the remedy?"
+    },
+    {
+      "family": "money_time_or_adequacy",
+      "open_arrow_mentions": 74,
+      "plain_language": "What was the amount, time cost, residual loss, or practical sufficiency?"
+    },
+    {
+      "family": "unit_denominator_eligibility_or_attribution",
+      "open_arrow_mentions": 66,
+      "plain_language": "Can the result be tied to the same unit and responsible actor?"
+    }
+  ],
+  "next_pass_rule": "Prioritize one authorized same-unit or recipient/account follow-up with a dated event, usable alternative or non-use, effort or money trade-off, institutional response, verified receipt or defined outcome, and later persistence or exit. Do not substitute another aggregate distribution or adjacent sentiment cross-tab.",
+  "current_acquisition_boundary": "No newly supplied authorized PSID, UAS, HRS, or staged MEPS respondent file is present locally; public HTOPS and BDS files are already-used bounded comparators and do not close the same-unit promotion gate."
+}

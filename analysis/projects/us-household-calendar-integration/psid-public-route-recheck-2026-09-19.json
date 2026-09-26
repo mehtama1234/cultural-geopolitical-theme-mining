@@ -1,7 +1,14 @@
 {
   "schema": "psid-public-route-recheck-v1",
-  "checked": "2026-09-19",
+  "checked": "2026-09-20",
   "status": "official_route_confirmed_account_controlled_no_local_microdata",
+  "latest_recheck": {
+    "checked": "2026-09-20",
+    "source_url": "https://psidonline.isr.umich.edu/GettingStarted.aspx",
+    "result": "Official page continues to state that public-use PSID data are available after researcher registration and acceptance of Conditions of Use, with Data Center and packaged-data routes available.",
+    "download_access": "registration_and_conditions_required",
+    "no_estimate_promoted": true
+  },
   "official_routes": {
     "data_page": "https://simba.isr.umich.edu/data/data.aspx",
     "packaged_data": "https://simba.isr.umich.edu/Zips/ZipMain.aspx",

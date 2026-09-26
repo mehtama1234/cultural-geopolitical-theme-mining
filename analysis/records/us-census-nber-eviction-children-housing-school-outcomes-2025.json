@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-nber-eviction-children-housing-school-outcomes-2025",
+  "title": "Eviction can turn a housing event into residential, school, and educational disruption for children",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Census Bureau Center for Economic Studies Working Paper CES 25-34 / NBER Working Paper 33659 linking eviction court, public school, homelessness-service, and restricted Census records in Chicago and New York",
+  "geography": "Cook County/Chicago and New York City; eviction court cases from roughly 2000–2019 in Cook County and 2007–2017 in New York, with linked school and administrative outcomes",
+  "observations": [
+    {
+      "period": "Eviction court records and linked child outcomes",
+      "denominator": {"value": 774464, "unit": "baseline eviction cases before linked-data sample restrictions across Cook County and New York", "value_type": "reported_baseline_case_count"},
+      "measures": {
+        "linked_school_matches": {"value": "77,256 unique student-case matches in Chicago and 278,879 in New York", "unit": "linked education-record matches", "value_type": "reported_linkage_count"},
+        "data_domains": {"value": "eviction court, public school, homelessness-service, and restricted Census records", "unit": "linked administrative source families", "value_type": "reported_data_linkage"},
+        "identification": {"value": "random assignment of court cases to judges with different eviction leniency", "unit": "instrumental-variable research design", "value_type": "reported_method"}
+      },
+      "method": "Research paper linking administrative records and using judge assignment as an instrument to separate eviction effects from correlated economic distress; Census CES paper has not undergone the review accorded to Census Bureau publications.",
+      "uncertainty": "The causal design identifies effects for cases marginal to judge assignment and the linked populations in two cities; it is not a national eviction estimate or a universal effect for every child.",
+      "subgroup": "Children in public school records connected to households in eviction court in Chicago and New York; effects may differ by age, sex, city, family support, and housing context.",
+      "counterinterpretation": "Judge-assignment estimates apply to cases influenced by judicial leniency, and other eviction, court, school, or family-support contexts may produce different effects.",
+      "source_url": "https://www2.census.gov/ces/wp/2025/CES-WP-25-34.pdf",
+      "retrieval_hash": "sha256:51a4403ce9a080e80ee9eac226b95f20f4582617873fdc902f09e23e27bb3650",
+      "status": "estimated"
+    },
+    {
+      "period": "Case year and two academic years after eviction order",
+      "denominator": {"value": null, "unit": "children in the linked instrumental-variable analysis; study-specific denominator varies by outcome and city", "value_type": "not_disclosed"},
+      "measures": {
+        "residential_mobility": {"value": "+13 percentage points in the case year, approximately doubling the nonevicted mean; effects persisted through the next two academic years", "unit": "estimated effect on changing address", "value_type": "reported_iv_estimate"},
+        "homelessness": {"value": "+7.0 percentage points in Cook County and +3.1 percentage points in New York in the year after filing; effects grew in the following year", "unit": "estimated effect on homelessness", "value_type": "reported_iv_estimate"},
+        "school_engagement": {"value": "increased absences and school changes", "unit": "estimated educational-engagement effect", "value_type": "reported_effect"},
+        "test_scores": {"value": "little impact on elementary and middle school test scores", "unit": "estimated academic-achievement effect", "value_type": "reported_null_or_small_effect"}
+      },
+      "method": "Instrumental-variable estimates based on quasi-random judge assignment, with outcomes followed through linked education and homelessness-service records.",
+      "uncertainty": "Homelessness estimates and longer-run outcomes vary by city, outcome, and available linkage; estimates should not be read as effects of every eviction filing or informal displacement.",
+      "subgroup": "Children whose households received an eviction order and comparable children in eviction court whose cases were assigned to less-likely-to-evict judges.",
+      "counterinterpretation": "The result does not show that every child experienced homelessness or school disruption; family support, informal moves, shelter access, and unobserved coping can moderate effects.",
+      "source_url": "https://www2.census.gov/ces/wp/2025/CES-WP-25-34.pdf",
+      "retrieval_hash": "sha256:51a4403ce9a080e80ee9eac226b95f20f4582617873fdc902f09e23e27bb3650",
+      "status": "estimated"
+    },
+    {
+      "period": "Descriptive exposure and longer-run education outcomes",
+      "denominator": {"value": null, "unit": "children and households in the linked Chicago/New York court-school records; descriptive compositions and causal estimates use different universes", "value_type": "not_disclosed"},
+      "measures": {
+        "cases_with_children": {"value": "53–56%", "unit": "share of Cook County eviction cases involving households with children", "value_type": "reported_descriptive_range"},
+        "single_mother_households": {"value": "about 45%", "unit": "share of children facing eviction living in a single-mother-headed household", "value_type": "reported_descriptive_share"},
+        "doubled_up_before_eviction": {"value": "about 1 in 6", "unit": "share of children facing eviction already living in a doubled-up household", "value_type": "reported_descriptive_share"},
+        "high_school_completion": {"value": "eviction reduces high-school graduation; bounding analysis indicates the result is not driven by differential attrition", "unit": "estimated longer-run educational outcome", "value_type": "reported_iv_result"}
+      },
+      "method": "Linked administrative description plus instrumental-variable analysis and a bounding procedure for differential attrition.",
+      "uncertainty": "Descriptive household composition is not itself causal; high-school completion estimates reflect the study's linked population and method, not all children exposed to eviction nationwide.",
+      "subgroup": "Children in the Chicago and New York study populations, with effects reported as worse for older children and boys and potentially moderated by family support networks.",
+      "counterinterpretation": "Eviction is one disruption among broader poverty, health, employment, and housing-market pressures; the design improves causal attribution but does not identify every mechanism or policy remedy.",
+      "source_url": "https://www2.census.gov/ces/wp/2025/CES-WP-25-34.pdf",
+      "retrieval_hash": "sha256:51a4403ce9a080e80ee9eac226b95f20f4582617873fdc902f09e23e27bb3650",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w33659", "claim": "NBER Working Paper 33659 is the associated research-paper version of the eviction-effects study.", "status": "research-paper-context"},
+    {"source_url": "https://www.census.gov/library/working-papers/2025/adrm/CES-WP-25-35.html", "claim": "Related Census CES work describes linked eviction and student records for parenting and non-parenting college students.", "status": "related-context"}
+  ],
+  "boundary": "This record adds a causal housing-to-child-outcome route in two urban settings: eviction order to movement, homelessness, school engagement, and educational outcomes. It does not establish a national eviction effect, the effect of informal displacement, household-level policy receipt, long-term adult outcomes, or which intervention prevents the harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census CES working-paper PDF used for the extracted findings; the paper is an author working paper and the restricted linked data are not locally reproduced.",
+    "pdf_sha256": "sha256:51a4403ce9a080e80ee9eac226b95f20f4582617873fdc902f09e23e27bb3650",
+    "checked": "2026-09-22"
+  }
+}

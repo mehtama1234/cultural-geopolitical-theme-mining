@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-global-jobs-gap-quality-inequality-2026",
+  "title": "Stable global unemployment is masking a large jobs gap, persistent informality, and uneven job quality",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "International Labour Organization Employment and Social Trends 2026",
+  "geography": "Global labour markets, with comparisons across income groups, gender, and youth",
+  "observations": [
+    {
+      "period": "2026 projection; global employment quantity versus decent-work quality",
+      "denominator": {
+        "value": 1,
+        "unit": "global labour market model and international labour statistics; reported indicators use distinct population and employment denominators",
+        "value_type": "global_modeled_labour_market"
+      },
+      "measures": {
+        "global_unemployment_rate": {"value": 4.9, "unit": "percent projected global unemployment rate in 2026", "value_type": "modeled_rate"},
+        "global_jobs_gap": {"value": 408000000, "unit": "people in the projected 2026 global jobs gap, defined as people who want paid work but cannot access it", "value_type": "modeled_population_count"},
+        "extreme_working_poverty": {"value": 300000000, "unit": "workers living in extreme working poverty, rounded as reported", "value_type": "reported_population_count"},
+        "informal_employment": {"value": 2100000000, "unit": "workers in informal employment, rounded as reported", "value_type": "reported_population_count"},
+        "low_income_employment_growth": {"value": 3.1, "unit": "percent projected employment growth in low-income countries in 2026", "value_type": "modeled_growth_rate"},
+        "structural_transformation": {"value": "Movement into higher-productivity and more formal sectors has slowed markedly over the past two decades", "unit": "reported long-run labour-market pattern", "value_type": "reported_trend"}
+      },
+      "method": "ILO flagship report combining modelled estimates, international labour-market indicators, and analysis of productivity, informality, demographic pressure, trade, technology, and social protection. The ILO emphasizes that unemployment alone does not capture unmet labour demand or job quality.",
+      "uncertainty": "The 2026 values are projections and modelled estimates, not a single observed global survey. Jobs-gap, unemployment, poverty, and informality measures have different definitions and denominators; the source does not identify individual transitions, employer practices, or household welfare directly.",
+      "subgroup": "Workers and potential workers globally, low-income countries, informal workers, people in working poverty, firms, labour institutions, and households dependent on labour income.",
+      "counterinterpretation": "Stable unemployment can coexist with improving incomes or voluntary informality for some workers, while a large jobs gap can include people temporarily out of work or seeking different work. Aggregate quality deficits do not imply identical conditions across countries or sectors.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    },
+    {
+      "period": "2026 projection and current structural comparison; gender, youth, trade, and technology exposure",
+      "denominator": {
+        "value": 1,
+        "unit": "global and income-group labour-market comparisons reported by the ILO",
+        "value_type": "comparative_labour_population"
+      },
+      "measures": {
+        "women_global_employment": {"value": 40, "unit": "approximately percent of global employment accounted for by women", "value_type": "reported_share_approximate"},
+        "women_participation_gap": {"value": 24.2, "unit": "percent lower likelihood of labour-force participation for women than men globally", "value_type": "reported_gap"},
+        "youth_unemployment": {"value": 12.4, "unit": "percent global youth unemployment rate", "value_type": "reported_rate"},
+        "youth_not_employed_education_training": {"value": 20, "unit": "percent of youth not in employment, education, or training, approximately 260 million people", "value_type": "reported_share"},
+        "foreign_demand_jobs": {"value": 465000000, "unit": "jobs linked to foreign demand worldwide, rounded as reported", "value_type": "reported_population_count"},
+        "ai_trade_debt_risk": {"value": "Trade-policy uncertainty, rapid technological change including AI adoption, and high sovereign debt are identified as risks to the labour-market outlook", "unit": "reported risk mechanism", "value_type": "reported_risk_assessment"}
+      },
+      "method": "ILO comparison of labour-market outcomes by gender, age, country-income group, trade exposure, productivity, and technological risk. The report identifies associations and policy pressures rather than estimating the causal contribution of AI, trade, debt, or demographics to each outcome.",
+      "uncertainty": "Global and income-group averages conceal occupational, regional, household, and institutional variation. Jobs linked to foreign demand are not necessarily secure or high quality, and the reported gender and youth indicators do not measure unpaid care, informal work visibility, discrimination mechanisms, or later earnings trajectories in this record.",
+      "subgroup": "Women, young people, workers in low- and middle-income countries, trade-linked workers, firms in global value chains, workers exposed to AI or trade uncertainty, and labour-market institutions.",
+      "counterinterpretation": "Foreign-demand jobs can offer better conditions than domestic alternatives in some low- and middle-income economies; AI may augment productivity or create new roles rather than only displace work. Participation gaps can reflect care, education, health, and social norms through different pathways.",
+      "source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026",
+      "retrieval_hash": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.ilo.org/wesodata/",
+    "https://doi.org/10.54394/AHRT2681"
+  ],
+  "boundary": "This record adds a comparative labour-market route connecting unemployment, unmet labour demand, informality, working poverty, productivity, gender and youth inequalities, trade-linked employment, and AI risk. It does not infer individual job quality, household welfare, employer causality, or worker-level transitions from global modelled indicators.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "ILO publication page retrieved; publication date, 2026 unemployment projection, jobs gap, working poverty, informality, low-income employment growth, gender, youth, foreign-demand employment, and stated risk mechanisms cross-checked against the page and ILO dataviz description.",
+    "html_sha256": "sha256:df1d3a3db32248a114b28bbb6aade5628740d8cf8e4755a0f2ac787557dd83fd",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-historical-risk-preferences-institutions-2026",
+  "title": "Historical U.S. risk preferences shaped leverage, institutional participation, and technology adoption",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35634 using historical U.S. crop choice, agronomic, climate, bond, institutional, and mechanization data",
+  "geography": "United States county-level risk preferences and farmer-level Kansas estimates, 1889-1929",
+  "observations": [
+    {
+      "period": "1889-1929 historical U.S. agricultural economy; paper issued August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. counties and Kansas farmers in historical crop-choice and outcome data; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "risk_preference_measure": {
+          "value": "estimated from crop-choice portfolio allocation using predicted crop returns",
+          "unit": "county-level and farmer-level risk-preference measure",
+          "value_type": "estimated_measure"
+        },
+        "leverage": {
+          "value": "more risk-averse farmers leveraged less",
+          "unit": "farmer financial leverage comparison",
+          "value_type": "reported_comparison"
+        },
+        "liberty_bond_participation": {
+          "value": "more risk-averse farmers were less likely to purchase WWI Liberty Bonds",
+          "unit": "participation in a national financial and civic investment campaign",
+          "value_type": "reported_comparison"
+        },
+        "risk_sharing_institutions": {
+          "value": "more risk-averse farmers were more likely to participate in local risk-sharing institutions",
+          "unit": "local institutional participation comparison",
+          "value_type": "reported_comparison"
+        },
+        "tractor_adoption": {
+          "value": "higher risk aversion predicts slower tractor adoption and farm mechanization",
+          "unit": "technology adoption timing and intensity in the 1920s",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Constructs a portfolio-style measure of historical risk preferences from crop choice and machine-learning predictions of expected crop returns, then relates county and farmer measures to leverage, Liberty Bond purchases, participation in local risk-sharing institutions, and tractor adoption.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the exact county or farmer denominator. Risk preference is an estimated historical construct, not a fixed cultural trait. Historical financial, agricultural, and institutional conditions differ from contemporary household, firm, and political environments.",
+      "subgroup": "U.S. counties, Kansas farmers, crop portfolios, local risk-sharing institutions, Liberty Bond purchasers, and farmers observed during the 1889-1929 period; estimates vary by place, crop mix, wealth, and institutional setting.",
+      "counterinterpretation": "Crop choice can reflect credit constraints, land, weather, knowledge, market access, or institutional pressure rather than preference alone. Slower mechanization may reflect capital prices, labor supply, farm size, or infrastructure; bond and institution participation may reflect trust, wealth, patriotism, or access not captured by the risk measure.",
+      "source_url": "https://www.nber.org/papers/w35634",
+      "retrieval_hash": "sha256:ec9416e6d6dfee4a1e00183f1cc2b4552e737031c04f5675492c531319ce4b71",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35634",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a historical U.S. risk-preference measurement and association chain from crop choice to leverage, civic-financial participation, local risk sharing, and mechanization. It does not establish contemporary cultural traits, individual psychology, causal institutional trust, present-day political action, or universal technology-adoption behavior."
+}

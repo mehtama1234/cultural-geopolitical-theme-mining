@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-eviction-order-homelessness-health-earnings-credit-2022",
+  "title": "An eviction order can add homelessness, health, work, and credit damage to an earlier housing shock",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "care_health_reproduction", "work_control_bargaining", "consumer_power_recourse", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 30382; linked administrative data from Cook County and New York City with judge-assignment instrumental variables",
+  "geography": "United States tenants in Cook County, including Chicago, and New York City housing-court systems",
+  "observations": [{
+    "period": "U.S. eviction cases and tenant outcomes before and after housing-court orders; paper issued 2022, revised 2023",
+    "denominator": {"value": 2, "unit": "major urban areas: Cook County and New York City", "value_type": "study_geography"},
+    "measures": {
+      "pre_court_path": {"value": "before housing court, tenants experienced declines in earnings and employment and increases in financial distress and hospital visits", "unit": "pre-order administrative trajectory", "value_type": "reported_pretrend"},
+      "identification": {"value": "cases were randomly assigned to judges of varying leniency and used in an instrumental-variables design", "unit": "judge-assignment instrumental variable", "value_type": "reported_method"},
+      "two_year_effects": {"value": "an eviction order increased homelessness and hospital visits and reduced earnings, durable-goods consumption, and access to credit in the first two years", "unit": "post-order tenant outcomes", "value_type": "reported_causal_estimate"},
+      "long_run_effects": {"value": "in the longer run, eviction increased indebtedness and reduced credit scores", "unit": "longer-run financial outcomes", "value_type": "reported_effect"},
+      "heterogeneity": {"value": "effects on housing and labor-market outcomes were driven by impacts for female and Black tenants", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_effect"}
+    },
+    "method": "The authors link administrative housing-court, earnings, hospital, credit, and related records in Cook County and New York City and use random assignment to judges with different leniency as an instrumental variable to separate the effect of an eviction order from pre-court distress.",
+    "uncertainty": "The study does not observe each household's exact earlier shock, aid, legal help, landlord response, move destination, shelter route, care network, school, transport, or later housing quality. It covers two major urban areas and does not establish that every later health, work, or credit outcome was caused by the order rather than the prior crisis or subsequent conditions.",
+    "subgroup": "Tenants with cases in Cook County and New York City, with reported housing and labor effects concentrated among female and Black tenants; effects may vary by local housing supply, household structure, income, disability, and access to aid or counsel.",
+    "counterinterpretation": "Tenants already experienced financial and health distress before court, so an eviction order is an added shock rather than the whole cause. A reduced durable-goods purchase may be necessary preservation of rent or food, and credit access is not the same as credit use or welfare. The subgroup pattern does not explain its full mechanism.",
+    "source_url": "https://www.nber.org/papers/w30382",
+    "retrieval_hash": "sha256:12e358811732f77e49a205c2b56812f9aef7f122800a2fbaeff805b7098f946a",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w30382", "claim": "NBER DOI record for Working Paper 30382", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a causal housing-court cascade finding: in two urban housing-court systems, eviction orders added homelessness, hospital visits, earnings loss, reduced durable-goods consumption and credit access, with longer-run indebtedness and lower credit scores. It does not identify the full earlier shock, prove universal effects, or show that a prevented order creates durable housing security."
+}

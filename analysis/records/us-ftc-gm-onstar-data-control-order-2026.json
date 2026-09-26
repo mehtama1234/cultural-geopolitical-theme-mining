@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-gm-onstar-data-control-order-2026",
+  "title": "A privacy order can create vehicle-data control rights without proving that consumers can use them",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission final order and complaint concerning GM and OnStar connected-vehicle geolocation and driving-behavior data practices; named firm-level enforcement record, not a representative consumer sample",
+  "geography": "United States federal consumer-protection enforcement and GM/OnStar connected-vehicle customers",
+  "observations": [
+    {
+      "period": "January 2026; FTC final order and complaint",
+      "denominator": {"value": 1, "unit": "named FTC enforcement order", "value_type": "institutional_case_count"},
+      "measures": {
+        "order_duration": {"value": 20, "unit": "years of stated order obligations", "value_type": "reported_order_term"},
+        "data_copy_request": {"value": "required process for U.S. consumers to request a copy of connected-vehicle data", "unit": "formal consumer control", "value_type": "reported_remedy_design"},
+        "data_deletion_request": {"value": "required process for U.S. consumers to seek deletion of connected-vehicle data", "unit": "formal consumer control", "value_type": "reported_remedy_design"},
+        "collection_disable": {"value": "required ability to disable precise geolocation collection where vehicle technology permits", "unit": "formal consumer control", "value_type": "reported_remedy_design"},
+        "data_collection_opt_out": {"value": "required opt-out route for collection of geolocation and driving-behavior data, subject to stated exceptions", "unit": "formal consumer control", "value_type": "reported_remedy_design"},
+        "consumer_use_and_effectiveness": {"value": "not observed", "unit": "missing request volume, approval, completion, deletion verification, residual data, downstream use, trust, switching, or vehicle-mobility outcome", "value_type": "unmeasured"}
+      },
+      "method": "FTC official complaint and finalized-order review; the order's duration, required control surfaces, and stated exceptions are coded separately from actual consumer use or implementation success.",
+      "uncertainty": "The order establishes firm obligations and available control routes, not the number of affected consumers, the number who requested access or deletion, the response time, the completeness of deletion, the operation of disable/opt-out controls, or later consumer trust and behavior.",
+      "subgroup": "U.S. connected-vehicle customers, including customers whose vehicle technology supports disabling collection; data categories and exceptions remain governed by the order's terms.",
+      "counterinterpretation": "A formal access, deletion, disable, or opt-out route may materially improve contestability for some customers while remaining difficult to find, understand, request, verify, or use without losing valued vehicle services. A privacy order is not automatically a restored privacy outcome.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers",
+      "retrieval_hash": "sha256:5abcebca5be01e501e94162e7b924395f57a22fb9d32bb2427669802bfc5cbaf",
+      "status": "reported"
+    },
+    {
+      "period": "June 17, 2026; GM U.S. Consumer Privacy Statement control and exit conditions",
+      "denominator": {
+        "value": 1,
+        "unit": "named connected-vehicle privacy-control system",
+        "value_type": "firm_policy_surface"
+      },
+      "measures": {
+        "disconnect_residual_collection": {"value": "possible", "unit": "GM says geolocation and vehicle information may still be collected after OnStar unenrollment to restore connectivity or address high-voltage-battery overheating", "value_type": "stated_exception"},
+        "model_year_location_control": {"value": "some model-year 2019 and later vehicles", "unit": "vehicle-technology-conditional availability", "value_type": "stated_eligibility"},
+        "privacy_service_tradeoff": {"value": "not quantified", "unit": "the statement describes emergency, safety, navigation, stolen-vehicle, and connected-service functions but does not measure what consumers lose when controls are used", "value_type": "unmeasured"},
+        "third_party_and_transfer_surface": {"value": "present", "unit": "dealer, affiliate, service-provider, vehicle-transfer, and third-party-service boundaries remain part of the control problem", "value_type": "stated_system_boundary"}
+      },
+      "method": "Review of the dated official GM U.S. Consumer Privacy Statement, including connected-vehicle controls, data categories, transfer/unenrollment language, model-year qualification, and safety exceptions; stated control conditions are kept separate from consumer attempts and verified outcomes.",
+      "uncertainty": "The statement does not show which vehicles or users encountered the residual-collection exception, whether consumers understood the trade-off, whether privacy settings worked as intended, or whether a user switched vehicles, services, or providers.",
+      "subgroup": "GM/OnStar-connected-vehicle users; control availability varies by vehicle model/year, service enrollment, technology, state, and emergency or safety circumstance.",
+      "counterinterpretation": "Safety and emergency exceptions may protect occupants and vehicle systems rather than undermine privacy; the unresolved issue is whether consumers can understand and choose the boundary while retaining valued services.",
+      "source_url": "https://www.gm.com/privacy-statement",
+      "retrieval_hash": "sha256:c1dd12a958fb6f1e7784f48ee722e52b13f472a9a85d1bbde33046edd987f2ef",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026; GM U.S. Consumer Privacy Statement implementation route",
+      "denominator": {"value": 1, "unit": "named firm privacy-control system", "value_type": "firm_implementation_surface"},
+      "measures": {
+        "request_channels": {"value": "verifiable U.S. Consumer Privacy Request Form or phone; email requests not accepted", "unit": "published implementation route", "value_type": "access_channel"},
+        "processing_window": {"value": "up to 45 days in some cases", "unit": "days", "value_type": "stated_processing_limit"},
+        "location_control": {"value": "some model-year 2019 and later vehicles may disable OnStar location services through in-vehicle Privacy Settings", "unit": "technology-conditional control", "value_type": "published_control"},
+        "disconnect_route": {"value": "phone advisor or in-vehicle blue button; stated emergency, safety, and battery-overheating exceptions remain", "unit": "published unenrollment route", "value_type": "published_control"},
+        "request_completion_and_effect": {"value": "not observed", "unit": "missing request attempt, identity verification, response, deletion, residual collection, service effect, trust, or switching outcome", "value_type": "unmeasured"}
+      },
+      "method": "Current GM U.S. Consumer Privacy Statement review; route channel, response timing, vehicle-technology eligibility, unenrollment exceptions, and unobserved completion are coded separately.",
+      "uncertainty": "The statement describes available routes and firm policy, not actual consumer request volume, identity-verification burden, approval, completion, deletion verification, model-level coverage, or whether using a control changes valued safety or service functions.",
+      "subgroup": "GM/OnStar consumers covered by the U.S. statement; location-control availability varies by vehicle technology and model year, while legal rights vary by residence.",
+      "counterinterpretation": "A published form, phone route, or in-vehicle setting can make a right more reachable, but a 45-day window, verification, model eligibility, phone dependence, exceptions, or valued service trade-offs can still leave practical control unequal.",
+      "source_url": "https://www.gm.com/privacy-statement",
+      "retrieval_hash": "sha256:8fa1f6e4f4eabb00c963b22afba339820b6fdec18181b40658f36c53df276c97",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/2323091-general-motors-llc-onstar-llc",
+      "claim": "FTC case materials identify the GM and OnStar enforcement matter and its order record.",
+      "status": "official-case-record"
+    },
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers",
+      "claim": "FTC describes the allegations, final order, and required consumer data-control routes.",
+      "status": "official-press-release"
+    }
+    ,
+    {
+      "source_url": "https://www.gm.com/privacy-statement",
+      "claim": "GM describes U.S. request channels, stated processing timing, model-dependent location controls, unenrollment routes, and continuing safety/emergency exceptions.",
+      "status": "official-firm-implementation-statement"
+    }
+  ],
+  "boundary": "This record adds a named privacy and connected-vehicle data-governance remedy to the platform/data and consumer-power atlas. It establishes a formal firm response and possible control surfaces, not actual data access, deletion, disabling, opt-out completion, deletion verification, reduced exposure, restored trust, switching, or mobility benefit. The next test is an authorized implementation record preserving request, response, completion, verification, service trade-off, and later use or exit separately.",
+  "retrieval_hash": "sha256:5abcebca5be01e501e94162e7b924395f57a22fb9d32bb2427669802bfc5cbaf"
+}

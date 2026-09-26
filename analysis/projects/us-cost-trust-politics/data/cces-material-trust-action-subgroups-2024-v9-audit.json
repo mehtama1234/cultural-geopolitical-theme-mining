@@ -1,0 +1,57 @@
+{
+  "format": "us-cces-material-trust-action-subgroups-audit-v1",
+  "source": {
+    "title": "Cooperative Election Study Common Content, 2024",
+    "persistent_id": "doi:10.7910/DVN/X11EP6",
+    "file": "CCES24_Common_OUTPUT_vv_topost_final.csv",
+    "dataverse_file_id": 12050325,
+    "file_md5": "b740b9305fee50e1a34656b513f55c57",
+    "file_size_bytes": 183679005,
+    "source_url": "https://doi.org/10.7910/DVN/X11EP6"
+  },
+  "analysis": {
+    "script": "scripts/analyze_cces_material_trust_action_subgroups.py",
+    "rows_read": 60000,
+    "valid_records": 21560,
+    "cells": 48,
+    "weight": "commonpostweight",
+    "input_output_sha256": "a455bec982059a72db51700c2227eae041ac5d70d9efc4c672ff892385fc175e",
+    "checked": "2026-09-25"
+  },
+  "screened_cells": {
+    "minimum_unweighted_records_for_range": 100,
+    "cells_in_range_screen": 23,
+    "federal_trust_low": {
+      "percent": 34.0339026188,
+      "records": 729,
+      "cell": "income_higher_income_codes_10_16|race_white|gigwork_no|student_debt_yes"
+    },
+    "federal_trust_high": {
+      "percent": 68.2867143359,
+      "records": 325,
+      "cell": "income_lower_income_codes_1_4|race_hispanic|gigwork_no|student_debt_no"
+    },
+    "state_trust_low": {
+      "percent": 52.2026087386,
+      "records": 136,
+      "cell": "income_lower_income_codes_1_4|race_black|gigwork_yes|student_debt_no"
+    },
+    "state_trust_high": {
+      "percent": 75.7489070304,
+      "records": 193,
+      "cell": "income_higher_income_codes_10_16|race_hispanic|gigwork_no|student_debt_no"
+    },
+    "any_civic_action_low": {
+      "percent": 18.5020749715,
+      "records": 325,
+      "cell": "income_lower_income_codes_1_4|race_hispanic|gigwork_no|student_debt_no"
+    },
+    "any_civic_action_high": {
+      "percent": 51.7360111455,
+      "records": 729,
+      "cell": "income_higher_income_codes_10_16|race_white|gigwork_no|student_debt_yes"
+    }
+  },
+  "interpretation": "This is a compact audit of the published subgroup range, not a replacement for the full 48-cell output. The post-election cross-section is descriptive; income-code bands, race recodes, gig-work status, student-loan responsibility, trust, and civic action are not a dated event sequence and are not causal estimates.",
+  "reproduction": "Run python3 scripts/analyze_cces_material_trust_action_subgroups.py --input <official CCES CSV> --output <JSON>; the retained output hash above identifies the generated full-screen result."
+}

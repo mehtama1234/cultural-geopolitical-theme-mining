@@ -1,0 +1,96 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-hispanic-identity-advantage-barrier-2026",
+  "title": "Hispanic identity can be central and connective while its practical meaning remains contested",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center National Survey of Latinos identity, treatment, and opportunity-meaning respondents; this is a weighted cross-sectional cultural-meaning sample, not an assimilation or mobility panel",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "October 6-16, 2025; Hispanic identity and perceived opportunity",
+      "denominator": {
+        "value": 4923,
+        "unit": "Hispanic adults in Pew National Survey of Latinos; weighted survey estimates",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "identity_extremely_or_very_important": {"value": 61, "unit": "percent", "value_type": "published_share"},
+        "identity_hurts_getting_ahead": {"value": 33, "unit": "percent saying being Hispanic hurts their ability to get ahead at least a little", "value_type": "published_share"},
+        "identity_helps_getting_ahead": {"value": 26, "unit": "percent saying being Hispanic helps their ability to get ahead at least a little", "value_type": "published_share"},
+        "identity_makes_no_difference": {"value": 40, "unit": "percent", "value_type": "published_share"},
+        "collective_connection": {"value": "about six-in-ten", "unit": "share saying what happens to Hispanics in the US affects their own lives a great deal or fair amount", "value_type": "published_share_rounded"}
+      },
+      "method": "Pew bilingual National Survey of Latinos analysis; identity centrality, perceived opportunity effect, and collective connection are retained as separate judgments rather than a single integration score.",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "uncertainty": "These are self-reported cross-sectional judgments. They do not establish measured income, wealth, mobility, discrimination causality, network support, political action, consumer behavior, or later belonging.",
+      "subgroup": "Hispanic adults; published comparisons include party/vote groups, immigrant generation, and US-born status, with question-specific universes.",
+      "counterinterpretation": "Identity can be important and socially connective without producing one political behavior or economic outcome; perceived help or harm may reflect place, generation, income, discrimination, and reporting context.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/u-s-hispanics-are-divided-on-whether-their-identity-helps-or-hurts-them-in-america/",
+      "status": "reported"
+    },
+    {
+      "period": "October 6-16, 2025; reported treatment and support in prior 12 months",
+      "denominator": {
+        "value": 4923,
+        "unit": "Hispanic adults in Pew National Survey of Latinos; incident questions have their own valid response universe",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "any_selected_discrimination_or_unfair_treatment": {"value": 34, "unit": "percent reporting at least one selected experience because of Hispanic background", "value_type": "published_share"},
+        "criticized_for_speaking_spanish": {"value": 29, "unit": "percent", "value_type": "published_share"},
+        "told_to_go_back": {"value": 26, "unit": "percent", "value_type": "published_share"},
+        "called_offensive_names": {"value": 25, "unit": "percent", "value_type": "published_share"},
+        "received_identity_based_support": {"value": 34, "unit": "percent saying someone expressed support because they are Hispanic", "value_type": "published_share"}
+      },
+      "method": "Pew selected-incident and support questions with a 12-month recall period; overlapping incidents are not added into a burden score.",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "uncertainty": "The selected questions do not measure all discrimination, severity, institutional remedy, safety response, avoidance, or later behavior; incidents may overlap.",
+      "subgroup": "Hispanic adults reporting selected treatment or support experiences; party differences are descriptive and not causal.",
+      "counterinterpretation": "Reported support and reported unfair treatment can coexist in the same social environment; neither one alone measures community capacity or institutional inclusion.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/u-s-hispanics-are-divided-on-whether-their-identity-helps-or-hurts-them-in-america/",
+      "status": "reported"
+    },
+    {
+      "period": "October 6-16, 2025; identity and national belonging by immigrant generation",
+      "denominator": {
+        "value": 4923,
+        "unit": "Hispanic adults; generation-specific published comparison groups",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "identity_important_immigrants": {"value": 71, "unit": "percent extremely or very important", "value_type": "published_share"},
+        "identity_important_us_born": {"value": 54, "unit": "percent extremely or very important", "value_type": "published_share"},
+        "typical_american_immigrants": {"value": 27, "unit": "percent", "value_type": "published_share"},
+        "typical_american_second_generation": {"value": 60, "unit": "percent", "value_type": "published_share"},
+        "typical_american_third_plus_generation": {"value": 72, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Pew generation comparison; generation is treated as a descriptive position, not a linear assimilation mechanism.",
+      "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+      "uncertainty": "Generation bundles age, family history, language, place, education, class, and period effects; the survey does not follow people through institutional encounters or cultural change.",
+      "subgroup": "Hispanic immigrants, second-generation Hispanic adults, and third-or-higher-generation Hispanic adults.",
+      "counterinterpretation": "Greater use of an American identity label across generations does not prove that Hispanic belonging disappears; the source also reports continuing collective connection across immigrant and US-born groups.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/07/09/latino-immigrants-and-u-s-born-latinos-differ-on-how-much-their-identity-shapes-their-lives/",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/01/latinos-are-split-on-whether-the-american-dream-is-achievable/",
+      "claim": "The companion American-Dream analysis supplies a separate mobility, hope, and attainability layer from the same survey period.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This record adds identity centrality, perceived opportunity meaning, selected treatment, support, collective connection, and generation-linked national self-description to the place and migration lane. It does not establish assimilation, discrimination causality, material mobility, service access, political behavior, consumer switching, or a dated encounter-to-action pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew identity-analysis HTML route hashed without retaining a repository copy",
+    "retrieval_hash": "sha256:126fa71ff9096a220594c46a52d86c7326ee4409ad8fd498a2b105bd494048be",
+    "checked": "2026-09-21"
+  }
+}

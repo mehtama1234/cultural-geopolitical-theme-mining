@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-hope-vi-forced-relocation-welfare-2026",
+  "title": "Urban redevelopment can create large displacement losses while vouchers and counseling only partly offset them",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35736, The Welfare Impacts of Urban Renewal and Forced Relocation: Evidence from Chicago's HOPE VI Demolitions; administrative records of displaced public-housing residents, Census sorting and prices, and a neighborhood-choice model",
+  "geography": "Chicago public-housing developments affected by HOPE VI demolition and redevelopment",
+  "observations": [{
+    "period": "Chicago HOPE VI demolition and redevelopment episodes; NBER paper issued September 2026",
+    "denominator": {
+      "value": 1,
+      "unit": "study-defined Chicago public-housing demolition and resident administrative-record universe; public abstract count not disclosed",
+      "value_type": "linked_study_universe"
+    },
+    "measures": {
+      "redevelopment_shock": {
+        "value": "HOPE VI demolitions created forced relocation and neighborhood redevelopment",
+        "unit": "urban-renewal exposure",
+        "value_type": "reported_program_change"
+      },
+      "displacement_welfare": {
+        "value": "demolitions generated large welfare losses driven by displacement costs",
+        "unit": "modeled resident welfare effect",
+        "value_type": "estimated_effect"
+      },
+      "voucher_offset": {
+        "value": "housing vouchers partially offset displaced residents' welfare losses",
+        "unit": "modeled policy offset",
+        "value_type": "estimated_offset"
+      },
+      "place_distribution": {
+        "value": "redevelopment raised housing prices and reshaped neighborhood composition, with gains concentrated among higher-income homeowners",
+        "unit": "neighborhood price and composition effect",
+        "value_type": "estimated_distributional_effect"
+      },
+      "counterfactual_support": {
+        "value": "more generous vouchers and counseling mitigate but do not eliminate displaced residents' losses; expanded redevelopment yields larger citywide gains through general-equilibrium effects",
+        "unit": "modeled counterfactual comparison",
+        "value_type": "estimated_counterfactual"
+      },
+      "downstream_outcome": {
+        "value": "the abstract does not establish individual housing stability, school continuity, work travel, health, belonging, trust, or later political action",
+        "unit": "missing resident continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "The study combines administrative records tracking displaced public-housing residents with Census Bureau data on citywide sorting and prices and estimates a neighborhood-choice model with policy counterfactuals.",
+    "uncertainty": "The public abstract does not disclose the full resident count, site-selection details, welfare metric, model assumptions, or all voucher and counseling parameters. Modeled welfare and general-equilibrium gains are not observed household recovery, and citywide gains can coexist with losses among displaced residents.",
+    "subgroup": "Displaced public-housing residents, voucher and counseling recipients in modeled counterfactuals, higher-income homeowners, and neighborhoods affected by Chicago HOPE VI redevelopment.",
+    "counterinterpretation": "Redevelopment can improve citywide housing conditions, amenities, or tax base even while imposing large transition costs on displaced residents. Higher prices may reflect improved amenities or scarcity and do not by themselves identify exclusion or welfare loss for every household.",
+    "source_url": "https://www.nber.org/papers/w35736",
+    "retrieval_hash": "sha256:4cf78758513528adf1c642f8b13a33e58088fcdcc9aff7d427c09a8db55991d1",
+    "status": "estimated"
+  }],
+  "related_sources": [{
+    "source_url": "https://doi.org/10.3386/w35736",
+    "claim": "NBER DOI record for Working Paper 35736",
+    "status": "official-paper-identifier"
+  }],
+  "boundary": "This record closes a redevelopment-to-modeled-welfare and policy-offset arrow: forced relocation creates losses, vouchers and counseling partly mitigate them, and neighborhood prices and gains are redistributed toward higher-income homeowners. It does not establish universal redevelopment effects, individual housing stability, or complete resident wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 35736 landing page reviewed and retained only as a source-page hash; underlying administrative records, Census data, paper PDF, and model code were not retained.",
+    "nber_page_sha256": "sha256:4cf78758513528adf1c642f8b13a33e58088fcdcc9aff7d427c09a8db55991d1",
+    "checked": "2026-09-23"
+  }
+}

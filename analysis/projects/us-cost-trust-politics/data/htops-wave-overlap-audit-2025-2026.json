@@ -1,0 +1,47 @@
+{
+  "format": "htops-wave-overlap-audit-v1",
+  "checked": "2026-09-19",
+  "purpose": "Verify whether retained HTOPS/HPS public-use waves can support same-respondent longitudinal joins before estimating cross-wave outcomes.",
+  "waves": [
+    {
+      "wave": "2025-02",
+      "file": "/tmp/htops-2502/HTOPS_HPS_2502_PUF.csv",
+      "rows": 6740,
+      "has_scramid": true,
+      "sha256": "sha256:66fe76c322b6664c7b9782849044937da8653181a68347a478f550695978556f"
+    },
+    {
+      "wave": "2025-06",
+      "file": "/tmp/htops-2506/HTOPS_HPS_2506_PUF.csv",
+      "rows": 7485,
+      "has_scramid": true,
+      "sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2"
+    },
+    {
+      "wave": "2026-03",
+      "file": "/tmp/HTOPS_HPS_2603_CSV.zip",
+      "rows": 12521,
+      "has_scramid": true,
+      "sha256": "sha256:7bcd56139bf3997901db78dbf75f20f0aeb0fa919b188c2d5b6ae9350df9c6d1"
+    }
+  ],
+  "pairwise_intersections": [
+    {
+      "left": "2025-02",
+      "right": "2025-06",
+      "shared_scramid": 0
+    },
+    {
+      "left": "2025-02",
+      "right": "2026-03",
+      "shared_scramid": 0
+    },
+    {
+      "left": "2025-06",
+      "right": "2026-03",
+      "shared_scramid": 0
+    }
+  ],
+  "interpretation": "These retained public-use files can support a same-respondent join only where the pairwise SCRAMID intersection is nonzero. Zero overlap is a design/acquisition result, not evidence that respondents changed, recovered, or disappeared.",
+  "boundary": "No cross-wave estimate is promoted unless a shared respondent cohort and compatible timing are observed."
+}

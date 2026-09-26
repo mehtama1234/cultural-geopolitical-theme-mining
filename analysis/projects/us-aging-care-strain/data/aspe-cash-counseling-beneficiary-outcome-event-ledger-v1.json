@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "randomized_medicaid_consumer_direction_beneficiary_outcome_record",
+  "purpose": "Bounded randomized beneficiary episode from consumer-directed Medicaid support to service use, unmet need, satisfaction, and health/safety outcomes, kept separate from the informal-caregiver follow-up unit.",
+  "events": [
+    {
+      "event_id": "ASPE-CASH-COUNSELING-BENEFICIARY-FOLLOWUP-1998-2003",
+      "unit": "person",
+      "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+      "actor_initiating_change": "agency",
+      "event_date": "2002-01-01",
+      "date_precision": "study-period reference date; beneficiary outcomes were measured around nine months after random assignment with state-specific implementation windows",
+      "denominator": "Adult and other eligible Medicaid beneficiaries enrolled in the three-state randomized demonstration; state enrollment counts and outcome universes vary by report and measure",
+      "method": "ASPE/Cash and Counseling randomized treatment-control comparisons using beneficiary or proxy interviews, service-use measures, unmet-need reports, satisfaction, and health/safety outcomes",
+      "missingness": "Individual identifiers, precise allowance receipt/spending, caregiver linkage, recipient task-level need, long-run health, household finances, provider switching, trust, action, and exit are not retained in this compact record",
+      "condition_or_decision": "care_need",
+      "exposure": "An eligible Medicaid beneficiary was randomly assigned to direct personal assistance through a monthly allowance and counseling or to receive usual agency-based personal care/home-and-community services",
+      "alternatives_before_action": "Usual agency services, consumer-directed hiring, family care, paid home care, assistive devices, and non-use were possible routes; individual alternative quality and constraints are not fully retained",
+      "immediate_burden_or_benefit": "Consumer direction increased control over who provided care, when care occurred, and what supportive goods/services were purchased",
+      "choice_or_response": "Treatment beneficiaries could manage an allowance, hire preferred caregivers including family, purchase permitted goods, and use a representative or fiscal/counseling support",
+      "person_or_actor_with_control": "The program established the allowance and safeguards; the beneficiary or representative controlled service direction within eligibility and program rules",
+      "remedy_or_institutional_response": "Medicaid consumer direction supplied an implemented alternative to traditional agency-based service delivery",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "Random assignment and study follow-up are observed at study level; individual allowance receipt, spending, and completed care are not all verified in this compact record",
+      "durability_followup": "The main follow-up is approximately nine months; longer-term care continuity, health, household security, and recurrence remain open",
+      "immediate_outcome": "Treatment beneficiaries reported greater satisfaction with supportive services, fewer unmet personal-care needs, and increased access to paid home care in the studied comparisons",
+      "protected_outcome": "The intervention protected reported service satisfaction and care access without evidence in the cited summaries of compromised health or safety",
+      "sacrificed_outcome": "Administrative responsibility, hiring/payroll burden, uneven provider availability, and residual unmet need could remain; the summaries do not show that all burdens disappeared",
+      "cost_risk_transfer": "Consumer direction shifts some service-selection power to the beneficiary but can also transfer coordination, hiring, and care-management work to the beneficiary or family",
+      "later_outcome": "Short-run beneficiary service and health/safety outcomes are reported; long-run independence, caregiver durability, household resources, trust, action, switching, and exit are not",
+      "meaning_and_attribution": "Satisfaction is observed, but broader fairness, dignity, institutional legitimacy, and attribution are not retained as a cultural-response endpoint",
+      "public_or_collective_response": "No political or collective response is measured",
+      "counterexample": "A program can improve service satisfaction and reduce unmet need without proving long-run health recovery, caregiver sustainability, or household financial security",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "ASPE Cash and Counseling reports on beneficiary satisfaction, unmet need, personal care, wellbeing, and health/safety; randomized assignment supports treatment contrasts, while state-specific implementation and outcome universes differ",
+      "source_url": "https://aspe.hhs.gov/reports/effect-consumer-direction-adults-personal-care-well-being-arkansas-new-jersey-florida-1"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "ASPE-CASH-BENEFICIARY-A-01",
+      "from": "randomized consumer-directed Medicaid support",
+      "to": "beneficiary control and paid-support access",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "ASPE describes random assignment to individual budgets/counseling versus traditional services and reports increased access to paid care and beneficiary control",
+      "status": "estimated",
+      "counterexample": "Treatment assignment does not mean equal allowance receipt, use, or ability to hire workers across states",
+      "remaining_gap": "Take-up, spending, plan completion, provider availability, and individual service continuity"
+    },
+    {
+      "arrow_id": "ASPE-CASH-BENEFICIARY-A-02",
+      "from": "consumer-directed support",
+      "to": "greater service satisfaction and fewer unmet care needs",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "ASPE reports higher satisfaction with supportive services and fewer unmet personal-care needs for treatment beneficiaries in the cited comparisons",
+      "status": "estimated",
+      "counterexample": "The effect varies by state, age, disability, service type, and outcome universe",
+      "remaining_gap": "Individual effect sizes, unmet-need type, completed service, and care adequacy"
+    },
+    {
+      "arrow_id": "ASPE-CASH-BENEFICIARY-A-03",
+      "from": "consumer-directed support",
+      "to": "health and safety not worsened in the studied follow-up",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "ASPE implementation and outcome summaries report similar or better health outcomes and no compromised health or safety in the studied treatment comparisons",
+      "status": "estimated",
+      "counterexample": "Short follow-up and study-specific measures do not establish long-run health, safety, or independence for every beneficiary",
+      "remaining_gap": "Long-run clinical outcomes, recipient safety, functional independence, and recurrence"
+    },
+    {
+      "arrow_id": "ASPE-CASH-BENEFICIARY-A-04",
+      "from": "improved service access and satisfaction",
+      "to": "durable household recovery, caregiver sustainability, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The cited beneficiary results do not follow the same beneficiary-caregiver household through long-run resources, replacement care, trust, action, switching, or exit",
+      "status": "open",
+      "counterexample": "Short-run care satisfaction can coexist with later service loss, caregiver exhaustion, or new household costs",
+      "remaining_gap": "Same beneficiary-caregiver linkage, long-run care continuity, household security, trust, action, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a randomized care-support-to-beneficiary-service-outcome segment and remains separate from the caregiver ledger. It does not establish completed care for every participant, long-run recovery, or a pooled beneficiary-caregiver household result.",
+  "storage_boundary": "Only published ASPE study-level design and outcome statements are retained; no beneficiary, caregiver, Medicaid, or claims microdata are stored."
+}

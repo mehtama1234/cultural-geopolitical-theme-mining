@@ -1,0 +1,137 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-financial-guidance-ai-trust-2026",
+  "title": "Financially stressed adults seek guidance through closer networks and AI while trust in AI remains low",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Gallup and Edward Jones survey of US and Canadian adults seeking financial guidance in the prior year",
+  "geography": "United States and Canada; US comparisons retained as the primary unit",
+  "observations": [
+    {
+      "period": "2026; US adults seeking financial guidance in the prior year",
+      "denominator": {
+        "value": 1,
+        "unit": "US adults who sought financial guidance; source does not expose the full unweighted US respondent denominator in the article",
+        "value_type": "published_survey_universe"
+      },
+      "measures": {
+        "any_guidance": {
+          "value": 75,
+          "unit": "percent of US adults reporting at least one financial-guidance source",
+          "value_type": "reported_share"
+        },
+        "internet_research": {
+          "value": 73,
+          "unit": "percent of US guidance-seekers using their own internet research",
+          "value_type": "reported_share"
+        },
+        "family": {
+          "value": 35,
+          "unit": "percent of US guidance-seekers using family members",
+          "value_type": "reported_share"
+        },
+        "professional_advisor": {
+          "value": 32,
+          "unit": "percent of US guidance-seekers using professional financial advisors",
+          "value_type": "reported_share"
+        },
+        "ai_guidance": {
+          "value": 18,
+          "unit": "percent of US guidance-seekers using AI tools",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Gallup/Edward Jones survey comparison of reported financial-guidance sources and confidence; source-specific denominators and question wording are retained rather than pooled.",
+      "uncertainty": "The article does not provide an account-level sequence from a financial problem to guidance, recommendation, decision, loss, recovery, or later trust; source use is self-reported.",
+      "subgroup": "US adults who sought financial guidance, with separate generational and financial-fulfillment comparisons.",
+      "counterinterpretation": "Internet research may be a first step before professional or family consultation, and AI use may supplement rather than replace human advice; use frequency does not identify decision influence.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:67efa1d36e481dd9c22b342c3169935b22610847a4658adcbaf49100eda0457f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; US guidance-seekers by financial fulfillment",
+      "denominator": {
+        "value": 1,
+        "unit": "US financial-guidance seekers grouped by Gallup/Edward Jones financial fulfillment categories",
+        "value_type": "published_subgroup_universe"
+      },
+      "measures": {
+        "any_guidance_fulfilled": {
+          "value": 77,
+          "unit": "percent among financially fulfilled US adults",
+          "value_type": "reported_share"
+        },
+        "any_guidance_conflicted": {
+          "value": 75,
+          "unit": "percent among financially conflicted US adults",
+          "value_type": "reported_share"
+        },
+        "any_guidance_stressed": {
+          "value": 73,
+          "unit": "percent among financially stressed US adults",
+          "value_type": "reported_share"
+        },
+        "family_stressed_vs_fulfilled": {
+          "value": "43% of financially stressed guidance-seekers used family, versus 19% of financially fulfilled guidance-seekers",
+          "unit": "reported subgroup comparison",
+          "value_type": "reported_comparison"
+        },
+        "ai_stressed_vs_fulfilled": {
+          "value": "21% of financially stressed guidance-seekers used AI, versus 15% of financially fulfilled guidance-seekers",
+          "unit": "reported subgroup comparison",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Descriptive subgroup comparison using Gallup/Edward Jones financial-fulfillment categories; the source defines fulfillment around security, control, confidence, and alignment with life goals, not income alone.",
+      "uncertainty": "Financial fulfillment, stress, source use, and confidence are measured in the same survey; the comparison does not establish that stress caused AI or family use, or that guidance improved fulfillment.",
+      "subgroup": "US financially fulfilled, conflicted, and stressed adults who sought guidance.",
+      "counterinterpretation": "Stressed adults may use more sources because they have greater need, not because those sources are more effective; family and AI use can coexist with professional advice and internet research.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:67efa1d36e481dd9c22b342c3169935b22610847a4658adcbaf49100eda0457f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; confidence in guidance sources among US adults",
+      "denominator": {
+        "value": 1,
+        "unit": "US adults evaluating financial-guidance sources; source reports broad confidence comparisons",
+        "value_type": "published_survey_universe"
+      },
+      "measures": {
+        "ai_some_confidence": {
+          "value": "no more than 30% of US adults report at least some confidence in AI's financial expertise; 3% report a great deal",
+          "unit": "reported confidence range",
+          "value_type": "reported_share"
+        },
+        "younger_ai_confidence": {
+          "value": "36% of US millennials and 32% of Gen Z adults report at least some confidence, versus 27% of Gen X and 15% of baby boomers",
+          "unit": "reported generational comparison",
+          "value_type": "reported_comparison"
+        },
+        "trusted_alternatives": {
+          "value": "finance professors, family members, and friends or colleagues receive higher confidence than AI in the article's comparison",
+          "unit": "source-confidence comparison",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Published Gallup comparison of reported use and confidence by source and generation.",
+      "uncertainty": "Confidence does not measure accuracy, advice quality, financial outcome, or whether a respondent acted on guidance; source rankings may reflect familiarity, access, or social trust.",
+      "subgroup": "US adults overall and generational groups; AI users and guidance-seekers are not interchangeable universes.",
+      "counterinterpretation": "Low confidence can coexist with experimentation when AI is cheap, available, or useful for preliminary research; high confidence in family or professionals does not guarantee good advice.",
+      "source_url": "https://news.gallup.com/poll/712952/americans-canadians-turn-financial-guidance.aspx",
+      "retrieval_hash": "sha256:67efa1d36e481dd9c22b342c3169935b22610847a4658adcbaf49100eda0457f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes a financial-guidance source mix, financial-stress differences, and low AI confidence. It does not establish recommendation quality, financial decision influence, affordability improvement, harm, human substitution, or later trust, switching, or recovery.",
+  "retrieval_hash": "sha256:67efa1d36e481dd9c22b342c3169935b22610847a4658adcbaf49100eda0457f"
+}

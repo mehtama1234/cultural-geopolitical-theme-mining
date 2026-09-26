@@ -8,8 +8,8 @@
       "unit": "case",
       "geography": "United States; small businesses harmed by Yellowstone Capital merchant cash advances",
       "actor_initiating_change": "agency",
-      "event_date": "2026-09-19",
-      "date_precision": "FTC refund announcement date; third distribution after June 2022 and August 2024 distributions",
+      "event_date": "2026-06-01",
+      "date_precision": "Month precision; FTC refund page identifies June 2026, but no announcement day is retained; third distribution after June 2022 and August 2024 distributions",
       "denominator": "3,759 small businesses receiving a third check; recipients had cashed a previous check; no business-level recovery denominator",
       "method": "Structured extraction from the official FTC Yellowstone Capital refund page",
       "missingness": "Business identifiers, individual refund amounts, underlying account correction, remaining loss, operating status, employment, customer continuity, trust, switching, and exit are not retained",
@@ -22,7 +22,7 @@
       "remedy_or_institutional_response": "FTC refund administration issued a third payment after two earlier distributions, conditioned on prior check cashing",
       "remedy_stage": "remedy_reported_received",
       "remedy_receipt": "FTC explicitly reports that the 3,759 recipients cashed a previous check; receipt of the third check is not yet verified in the public announcement",
-      "durability_followup": "Repeat distribution is observed, but underlying account correction, residual loss, business survival, employment, customer continuity, and later financial security are unknown",
+      "durability_followup": "The FTC's 2024 annual refund report records 4,982 businesses who had cashed at least one payment, including 4,981 in the August 2024 additional distribution; the June 2026 third-check cashing rate and underlying account correction, residual loss, business survival, employment, customer continuity, and later financial security remain unknown",
       "immediate_outcome": "A repeat refund route reaches a previously cashing recipient group",
       "protected_outcome": "Some businesses received prior cash refunds and were offered additional compensation; restored liquidity or operating security is not established",
       "sacrificed_outcome": "Unauthorized withdrawals and any residual loss after partial refunds remain unmeasured",
@@ -32,8 +32,8 @@
       "public_or_collective_response": "FTC enforcement and repeat distribution are visible; business organizing or later political action is not observed",
       "counterexample": "Prior check cashing is stronger than a mere payment offer, but it does not establish that the third payment arrived or that the underlying financial harm was removed",
       "evidence_status": "reported",
-      "source_and_uncertainty": "Official FTC Yellowstone Capital refund announcement; aggregate refund administration does not expose business-level recovery or later outcomes",
-      "source_url": "https://search.ftc.gov/enforcement/refunds/yellowstone-capital-refunds"
+      "source_and_uncertainty": "Official FTC Yellowstone Capital refund announcement, rechecked 2026-09-25, and the FTC 2024 Annual Report on Refunds to Consumers, https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf. The annual report records 4,982 businesses who had cashed at least one payment and 4,981 in the August 12, 2024 additional distribution, totaling $3,309,280 in that distribution and $6,404,871 returned in previous distributions. The current page says a June 2026 third round is being sent and instructs recipients to cash within 90 days; aggregate administration does not expose business-level third-check cashing, account correction, recovery, or later outcomes",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/yellowstone-capital-refunds"
     }
   ],
   "arrows": [
@@ -54,7 +54,7 @@
       "to": "recipient cashing and additional-payment eligibility",
       "unit_held_constant": false,
       "time_order_valid": true,
-      "evidence": "The FTC states that the 3,759 businesses receiving the third distribution had cashed a previous check",
+      "evidence": "The FTC states that the 3,759 businesses receiving the third distribution had cashed a previous check; the 2024 annual refund report separately records 4,982 businesses who had cashed at least one payment and 4,981 in the August 2024 additional distribution",
       "status": "reported",
       "counterexample": "Previous cashing does not verify the amount received, adequacy, or third-check receipt",
       "remaining_gap": "Recipient-level payment amounts, dates, and third-check cashing"
@@ -80,6 +80,17 @@
       "status": "open",
       "counterexample": "Receiving money does not reveal whether the business stayed, switched financing, or changed institutional judgment",
       "remaining_gap": "Same-business later use, switching, trust, collective action, and exit"
+    },
+    {
+      "arrow_id": "FTC-YELLOWSTONE-A-05",
+      "from": "third refund checks sent to previously cashing recipients",
+      "to": "third refund checks cashed",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC says it is sending the third checks and instructs recipients to cash them within 90 days; the public announcement does not report later cashing, while the 2024 report documents prior cashing for the earlier distribution",
+      "status": "open",
+      "counterexample": "Eligibility based on a prior cashed check does not establish receipt or cashing of the new check",
+      "remaining_gap": "Third-check delivery, cashing, amount, timing, and any failed or returned payment"
     }
   ],
   "boundary": "This ledger adds one official consumer-financial remedy case with an explicit prior-cashing condition. It advances recipient-side receipt evidence beyond a payment offer, but it does not establish third-payment receipt, adequate recovery, account correction, business survival, trust, switching, or exit.",

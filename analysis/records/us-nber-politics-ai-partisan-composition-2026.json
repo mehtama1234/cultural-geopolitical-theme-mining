@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-politics-ai-partisan-composition-2026",
+  "title": "Partisan differences in workplace AI use are largely about where people work, while displacement fears may be separating",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Gallup Workforce Panel workers reporting workplace AI use and job-displacement risk",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Q1 2026 workplace AI use",
+      "denominator": {"value": null, "unit": "Gallup Workforce Panel respondents; public abstract does not disclose the analytic sample size", "value_type": "not_disclosed"},
+      "measures": {
+        "frequent_ai_use_democrats": {"value": 30.1, "unit": "percent reporting frequent workplace AI use", "value_type": "reported_share"},
+        "frequent_ai_use_republicans": {"value": 25, "unit": "percent reporting frequent workplace AI use", "value_type": "reported_share"},
+        "adjusted_partisan_gap": {"value": "shrinks to statistical insignificance with education controls and reverses sign with occupation and industry fixed effects", "unit": "partisan difference in reported workplace AI use", "value_type": "reported_adjustment"},
+        "interpretation": {"value": "where people work and the skills they hold explain much of the raw gap", "unit": "reported compositional explanation", "value_type": "reported_mechanism"}
+      },
+      "method": "Gallup Workforce Panel survey responses analyzed with progressively richer controls for education, occupation, and industry; workplace AI use and task integration are kept separate from political identity.",
+      "uncertainty": "The raw percentages are survey reports, and the adjusted result depends on the model and available controls. The abstract does not establish actual AI productivity, displacement, pay, or workplace power.",
+      "subgroup": "Self-identified Democrats and Republicans, with differences examined before and after education, occupation, and industry adjustment.",
+      "counterinterpretation": "Residual political differences could reflect omitted workplace culture, region, age, management, reporting style, or selection into the panel; compositional adjustment does not prove ideology has no role in any workplace decision.",
+      "source_url": "https://www.nber.org/papers/w34813",
+      "retrieval_hash": "sha256:f665911a3ab15bf40ba095c94d2bccc9ebd5b328f83bfe02db7136cb3b67ba08",
+      "status": "reported"
+    },
+    {
+      "period": "2025 through Q1 2026 perceived job-displacement risk",
+      "denominator": {"value": null, "unit": "Gallup Workforce Panel respondents reporting perceived workplace displacement risk", "value_type": "not_disclosed"},
+      "measures": {
+        "partisan_difference_through_2025": {"value": "statistically indistinguishable", "unit": "Democratic-Republican difference in perceived displacement risk", "value_type": "reported_comparison"},
+        "partisan_difference_q1_2026": {"value": 4.2, "unit": "percentage points", "value_type": "reported_gap"},
+        "interpretation": {"value": "belief divergence may be beginning to outpace structural differences in workplace use", "unit": "reported interpretation", "value_type": "reported_pattern"}
+      },
+      "method": "Repeated Gallup Workforce Panel measures of perceived job-displacement risk compared across party identification and over time.",
+      "uncertainty": "Perceived risk is not realized displacement or a forecast that will necessarily come true. The Q1 2026 gap is an emerging time point and may change with later observations.",
+      "subgroup": "Democratic and Republican respondents across repeated workforce-panel periods.",
+      "counterinterpretation": "The gap may reflect changing information, media attention, occupation mix, economic expectations, or survey composition rather than a stable partisan culture of AI risk.",
+      "source_url": "https://www.nber.org/papers/w34813",
+      "retrieval_hash": "sha256:f665911a3ab15bf40ba095c94d2bccc9ebd5b328f83bfe02db7136cb3b67ba08",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w34813", "claim": "NBER DOI record for the revised working paper.", "status": "primary-bibliographic-record"}
+  ],
+  "boundary": "This finding separates partisan composition of workplace AI exposure and use from partisan differences in perceived displacement risk. It does not establish ideological causation, actual adoption outcomes, job loss, worker control, public opinion beyond the workforce panel, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER working-paper URL response retrieved and hashed; the public abstract supplies the headline survey comparisons, while the underlying Gallup panel data are not retained here.",
+    "source_response_sha256": "sha256:f665911a3ab15bf40ba095c94d2bccc9ebd5b328f83bfe02db7136cb3b67ba08",
+    "checked": "2026-09-22"
+  }
+}

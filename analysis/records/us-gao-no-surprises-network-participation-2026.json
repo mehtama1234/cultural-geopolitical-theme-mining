@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-no-surprises-network-participation-2026",
+  "title": "A billing protection can change provider participation without proving lower patient costs",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "U.S. Government Accountability Office claims analysis of provider participation and payments before and after the No Surprises Act",
+  "geography": "United States privately insured health-care claims; selected specialties, 2019-2023",
+  "observations": [
+    {
+      "period": "2019-2023; four specialties most likely to be affected by No Surprises protections",
+      "denominator": {"value": 4, "unit": "emergency medicine, radiology, anesthesiology, and air ambulance specialties", "value_type": "selected_review_universe"},
+      "measures": {
+        "in_network_claims": {"value": "the percentage of in-network claims increased after the Act took effect for three of four specialties", "unit": "claim-share trend", "value_type": "reported_comparison"},
+        "emergency_medicine_pattern": {"value": "facility and professional in-network claim shares declined before implementation and increased afterward", "unit": "emergency-medicine claim-share trend", "value_type": "reported_comparison"},
+        "interpretation": {"value": "higher in-network claim shares may indicate increased provider participation", "unit": "analytical interpretation", "value_type": "reported_inference"}
+      },
+      "method": "GAO analysis of a large private health-insurance claims dataset and interviews with 20 stakeholder groups, including providers, issuers, and state insurance departments.",
+      "uncertainty": "In-network claim share is an indicator rather than a direct measure of contracting, patient experience, or the law's isolated causal effect.",
+      "subgroup": "Privately insured claims in four selected specialties likely to be affected by the balance-billing prohibition.",
+      "counterinterpretation": "The post-law shift may reflect other market changes, and higher in-network claims do not automatically mean lower patient bills or better care.",
+      "source_url": "https://www.gao.gov/products/gao-26-107169",
+      "retrieval_hash": "sha256:3582d793f3a17840bf9520ea90d2493020809cdb7ec52c1137572a0d2f3f0a7e",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2023; selected emergency-medicine in-network services",
+      "denominator": {"value": 1, "unit": "inflation-adjusted payment trends for selected emergency-medicine services", "value_type": "source_defined_comparison"},
+      "measures": {
+        "facility_payment": {"value": "in-network emergency facility payments increased in 2022 and 2023", "unit": "inflation-adjusted payment trend", "value_type": "reported_trend"},
+        "professional_payment": {"value": "in-network emergency physician or practice payments decreased in 2022 and 2023", "unit": "inflation-adjusted payment trend", "value_type": "reported_trend"},
+        "pre_law_continuity": {"value": "payment changes largely continued trends that began before the Act", "unit": "before-after interpretation", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of inflation-adjusted claim payments before and after January 1, 2022 implementation.",
+      "uncertainty": "Payment trends do not identify patient liability, provider costs, insurer margins, or the causal effect of the Act.",
+      "subgroup": "Selected emergency-medicine facility and professional claims.",
+      "counterinterpretation": "The law may still have affected negotiations or billing protection even where payment trends followed earlier paths.",
+      "source_url": "https://www.gao.gov/products/gao-26-107169",
+      "retrieval_hash": "sha256:3582d793f3a17840bf9520ea90d2493020809cdb7ec52c1137572a0d2f3f0a7e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures selected provider claim-network shares and payment trends before and after the No Surprises Act. It does not establish patient bills, out-of-pocket cost, care access, health outcomes, or an isolated causal effect.",
+  "retrieval_hash": "sha256:3582d793f3a17840bf9520ea90d2493020809cdb7ec52c1137572a0d2f3f0a7e"
+}

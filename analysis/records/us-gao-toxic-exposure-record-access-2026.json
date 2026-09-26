@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-toxic-exposure-record-access-2026",
+  "title": "Toxic-exposure records are increasingly used for claims and care while veteran self-access and correction remain in rollout",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-26-108483, Military Health Care: Information on Use of and Access to Toxic Exposure Records",
+  "geography": "United States; Department of Defense and Department of Veterans Affairs Individual Longitudinal Exposure Record system",
+  "observations": [
+    {
+      "period": "October 2019-January 2026 ILER staff-use data; access rollout through October 2026 plans; report published July 22, 2026",
+      "denominator": {
+        "value": 6800000,
+        "unit": "veterans screened since 2022 in the VA estimate cited by GAO",
+        "value_type": "agency_screening_universe"
+      },
+      "measures": {
+        "potential_exposure": {
+          "value": "about 48% of veterans screened since 2022, approximately 3.2 million of 6.8 million, had at least one potential toxic exposure",
+          "unit": "VA-estimated screened veterans",
+          "value_type": "reported_agency_estimate"
+        },
+        "record_purpose": {
+          "value": "ILER links military exposure and related information from DOD and VA databases for clinical decisions, health research, and disability-claims processing",
+          "unit": "administrative record-system purpose",
+          "value_type": "reported_system_design"
+        },
+        "post_act_use": {
+          "value": "use increased after the August 2022 PACT Act, driven largely by Veterans Benefits Administration staff, who were the largest user group",
+          "unit": "ILER account logins by staff group",
+          "value_type": "reported_usage_pattern"
+        },
+        "self_access": {
+          "value": "service members gained access and the ability to add self-reported updates in March 2026; officials planned correction requests for service members by September 2026 and veteran access/correction by October 2026",
+          "unit": "record-access and correction rollout stage",
+          "value_type": "reported_policy_rollout"
+        },
+        "potential_benefit_and_risk": {
+          "value": "stakeholder organizations identified greater transparency and more informed clinician conversations as potential benefits, while warning that missing or incomplete records could create frustration",
+          "unit": "stakeholder-reported potential effects",
+          "value_type": "reported_stakeholder_assessment"
+        }
+      },
+      "method": "GAO analyzed DOD and VA ILER staff-use data from October 2019 through January 2026, reviewed documents, interviewed ILER officials, and interviewed eight selected stakeholder organizations.",
+      "uncertainty": "The 48% exposure figure is a VA estimate among screened veterans and is not a prevalence estimate for all veterans. Login shares do not establish claim approval, care receipt, diagnosis, health improvement, correction success, or household outcomes. Stakeholder interviews are selected and nongeneralizable.",
+      "subgroup": "Service members, veterans, DOD and VA staff, Veterans Benefits Administration claims staff, clinicians, researchers, and selected military/veteran and toxic-exposure organizations; these are distinct users and populations.",
+      "counterinterpretation": "Increased VBA use may reflect the PACT Act's expanded eligibility and administrative demand rather than worsening exposure or record quality. Self-reported updates may improve completeness but do not by themselves verify exposure or establish benefit eligibility.",
+      "source_url": "https://www.gao.gov/products/gao-26-108483",
+      "retrieval_hash": "sha256:a4ada586a6514bb45df2ed869ae2d1e3b073922ad13cacc9e9532036e24bdb32",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-108483/index.html",
+      "claim": "Accessible report contains ILER use, exposure-screening, access, correction, and interview context.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.va.gov/resources/the-pact-act-and-your-va-benefits/",
+      "claim": "VA PACT Act context is related to expanded health-care and disability-benefit eligibility for qualifying toxic exposures.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record captures a data-governance, access, and institutional-use route for toxic-exposure records. It does not establish individual exposure verification, claim approval, treatment, health improvement, correction success, trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and accessible report reviewed; underlying ILER logs, VA screening records, and stakeholder interview materials are not retained.",
+    "checked": "2026-09-24"
+  }
+}

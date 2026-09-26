@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-cross-agency-performance-goals-coordination-2026",
+  "title": "Shared federal goals can create coordination energy without guaranteeing durable implementation",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "political_judgment_action", "infrastructure_technology_dependency", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "GAO-26-108601 review of cross-agency priority goals and federal performance-management practice",
+  "geography": "United States federal government; cross-agency priority goals addressing issues such as food safety, cybersecurity, and public-health preparedness",
+  "observations": [
+    {
+      "period": "Discussion groups and interviews May-June 2025; GAO report June 2026",
+      "denominator": {"value": 3, "unit": "participant groups: former OMB political appointees and staff, former cross-agency priority-goal leaders, and outside performance-management specialists", "value_type": "discussion_group_categories"},
+      "measures": {
+        "framework": {"value": "four-year outcome-oriented cross-agency priority goals provided a framework for shared federal performance issues", "unit": "reported institutional function", "value_type": "reported_pattern"},
+        "coordination_benefit": {"value": "participants said the framework helped define ownership, created energy around shared priorities, and created opportunities for agencies to work together", "unit": "reported participant assessment", "value_type": "reported_pattern"},
+        "implementation_gap": {"value": "participants across all three groups said implementation could be strengthened", "unit": "reported cross-group assessment", "value_type": "reported_pattern"},
+        "persistent_constraints": {"value": "inconsistent progress tools, varying leadership engagement, and limited staff or funding to sustain efforts", "unit": "reported implementation constraints", "value_type": "reported_pattern"},
+        "recommended_controls": {"value": "embed goal management in agencies, publish accurate progress data, plan for transitions, and strengthen resources and oversight", "unit": "five broad approaches identified by discussion participants", "value_type": "reported_recommendation_set"}
+      },
+      "method": "GAO review of statutory and OMB requirements, Performance.gov materials, prior work, and discussion groups and interviews with participants from three prior administrations and outside specialists.",
+      "uncertainty": "The report summarizes expert and practitioner views rather than measuring a representative agency sample or a causal effect of cross-agency goals. Recommendations are not ranked, and the report does not provide outcome estimates for a specific CAP goal.",
+      "subgroup": "Federal managers, former political and career officials, prior cross-agency goal leaders, and external performance specialists; agency experience and issue area differ.",
+      "counterinterpretation": "Shared goals may still improve coordination even when outcomes are hard to measure. A leadership gap or inconsistent tool does not prove that an agency effort failed, and cross-agency work may require tradeoffs that a single performance number cannot capture.",
+      "source_url": "https://www.gao.gov/products/gao-26-108601",
+      "retrieval_hash": "sha256:3d9cfbce3b5a2fb927d0a94edb8f8b0e4e67b9c2e41e52f5d98c5d3a2f18e0c1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://files.gao.gov/reports/GAO-26-108601/index.html", "claim": "The full GAO report provides the discussion-group context and five implementation approaches.", "status": "official-report-context"}],
+  "boundary": "This record adds a qualitative cross-agency coordination and performance-management mechanism. It does not establish improved service outcomes, public trust, program effectiveness, or causal success of any specific cross-agency priority goal.",
+  "retrieval_hash": "sha256:3d9cfbce3b5a2fb927d0a94edb8f8b0e4e67b9c2e41e52f5d98c5d3a2f18e0c1"
+}

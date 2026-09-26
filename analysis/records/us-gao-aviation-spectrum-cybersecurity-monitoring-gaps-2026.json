@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-aviation-spectrum-cybersecurity-monitoring-gaps-2026",
+  "title": "A safety system can identify communication threats before it can monitor them in real time",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108439 review of FAA spectrum-related threats, eight National Airspace System systems, collaboration practices, and aircraft communication applications",
+  "geography": "United States National Airspace System and international flight routes using FAA-relevant aviation communications",
+  "observations": [
+    {
+      "period": "September 2026; FAA aviation cybersecurity review",
+      "denominator": {"value": 8, "unit": "spectrum-dependent National Airspace System systems selected by GAO", "value_type": "reported_system_sample"},
+      "measures": {
+        "identified_threats": {"value": "spectrum interference, spoofing, jamming, and other evolving threats", "unit": "FAA-identified threat classes", "value_type": "reported_threat_set"},
+        "risk_assessment_gap": {"value": "FAA had not completed risk and mitigation assessments and updated security documentation", "unit": "governance status", "value_type": "reported_gap"},
+        "real_time_monitoring": {"value": "not defined for all spectrum-related threats; incidents may be investigated after reporting", "unit": "detection capability status", "value_type": "reported_gap"}
+      },
+      "method": "GAO analyzed FAA vulnerability assessments, assessed eight spectrum-dependent systems against NIST guidance, reviewed FAA documentation, and interviewed federal and non-federal stakeholders.",
+      "uncertainty": "The selected systems are not a prevalence estimate for every aviation system, and identified vulnerabilities do not establish that an attack, accident, or operational disruption occurred.",
+      "subgroup": "Eight selected NAS systems and FAA aviation communication functions; flight crews, passengers, carriers, and airports are not individually observed.",
+      "counterinterpretation": "Identifying a gap can support preventive action, and the absence of a reported incident does not mean the system failed or was unsafe in a specific flight.",
+      "source_url": "https://www.gao.gov/products/gao-26-108439",
+      "retrieval_hash": "sha256:34356b267ad2d5536e83cd6c0a2fc0a70a2aa8a6d20a1516396a285aa721484b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; FAA collaboration assessment",
+      "denominator": {"value": 8, "unit": "leading collaboration practices assessed for FAA cybersecurity efforts", "value_type": "reported_practice_set"},
+      "measures": {
+        "fully_addressed": {"value": 2, "unit": "leading practices fully addressed", "value_type": "reported_count"},
+        "partially_addressed": {"value": 6, "unit": "leading practices partially addressed", "value_type": "reported_count"},
+        "external_information_sharing": {"value": "FAA had not established policies or procedures for information sharing, reporting, and coordination with non-federal partners outside existing groups", "unit": "collaboration governance status", "value_type": "reported_gap"}
+      },
+      "method": "GAO assessed FAA collaboration mechanisms against leading practices and reviewed roles, information sharing, reporting, and coordination with federal and non-federal partners.",
+      "uncertainty": "The practice score is an organizational assessment, not a measure of every partner interaction or a prediction of incident response quality.",
+      "subgroup": "FAA, federal partners, aviation-industry stakeholders, and non-federal aviation partners.",
+      "counterinterpretation": "Existing interagency groups and informal coordination may still support effective action even where formal procedures are incomplete.",
+      "source_url": "https://www.gao.gov/products/gao-26-108439",
+      "retrieval_hash": "sha256:34356b267ad2d5536e83cd6c0a2fc0a70a2aa8a6d20a1516396a285aa721484b",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; aircraft communication applications",
+      "denominator": {"value": null, "unit": "FAA, pilot, and aviation-stakeholder communication applications; no incident or flight denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "technical_weakness": {"value": "limitations in authentication, encryption, and protocol design can permit interception, spoofing, or message tampering", "unit": "communication-application vulnerability", "value_type": "reported_vulnerability"},
+        "possible_effect": {"value": "fraudulent clearance cancellations could contribute to delays or safety issues", "unit": "illustrative risk pathway", "value_type": "reported_scenario"},
+        "open_recommendations": {"value": 9, "unit": "GAO recommendations to FAA; all listed as open pending confirmation", "value_type": "reported_recommendation_count"}
+      },
+      "method": "GAO review of communication-application documentation and FAA vulnerability analysis; possible effects are retained as risk scenarios, not observed outcomes.",
+      "uncertainty": "The source does not document a malicious transmission, flight delay, accident, passenger harm, or successful mitigation.",
+      "subgroup": "Aircraft communication applications used by FAA, pilots, and aviation stakeholders.",
+      "counterinterpretation": "Protocol weaknesses can remain theoretical or be mitigated through operational procedures and other controls; a possible effect is not a realized event.",
+      "source_url": "https://www.gao.gov/products/gao-26-108439",
+      "retrieval_hash": "sha256:34356b267ad2d5536e83cd6c0a2fc0a70a2aa8a6d20a1516396a285aa721484b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-108439/index.html", "claim": "Official full-report version supplies the selected-system assessment, collaboration-practice review, communication vulnerabilities, and recommendations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes identified aviation communication and spectrum-security vulnerabilities plus incomplete monitoring and coordination controls. It does not establish a cyberattack, outage, accident, passenger harm, flight-level risk rate, or failure of a particular aircraft operation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for the extracted findings; the full report is linked as a related source.",
+    "html_sha256": "sha256:34356b267ad2d5536e83cd6c0a2fc0a70a2aa8a6d20a1516396a285aa721484b",
+    "checked": "2026-09-22"
+  }
+}

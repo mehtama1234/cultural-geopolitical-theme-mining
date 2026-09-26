@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-economic-concepts-market-legitimacy-2026",
+  "title": "Economic-system attitudes combine rising socialism appeal with durable support for small business and market choice",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup Poll Social Series telephone survey of 1,200 U.S. adults interviewed August 3–24, 2026",
+  "geography": "United States; adults ages 18 and older in all 50 states and the District of Columbia",
+  "observations": [
+    {
+      "period": "August 3–24, 2026; positive views of economic concepts",
+      "denominator": {"value": 1200, "unit": "U.S. adults interviewed by telephone", "value_type": "published_sample"},
+      "measures": {
+        "small_business_positive": {"value": 95, "unit": "percent viewing small business positively", "value_type": "published_share"},
+        "free_enterprise_positive": {"value": 77, "unit": "percent viewing free enterprise positively", "value_type": "published_share"},
+        "capitalism_positive": {"value": 55, "unit": "percent viewing capitalism positively", "value_type": "published_share"},
+        "socialism_positive": {"value": 43, "unit": "percent viewing socialism positively", "value_type": "published_share"},
+        "big_business_positive": {"value": 35, "unit": "percent viewing big business positively", "value_type": "published_share"}
+      },
+      "method": "Gallup Poll Social Series telephone survey with random national sample; reported margin of sampling error is ±4 percentage points at the 95% confidence level for the total sample.",
+      "uncertainty": "These are favorability judgments about named concepts and business categories, not definitions, policy platforms, voting behavior, spending, employment, or observed market conduct.",
+      "subgroup": "U.S. adults overall; subgroup and party estimates are reported separately.",
+      "counterinterpretation": "A positive view of socialism can coexist with positive views of free enterprise and small business; the results do not show wholesale movement away from markets or a common meaning of any label.",
+      "source_url": "https://news.gallup.com/poll/714653/socialism-positive-rating-tops-first-time.aspx",
+      "retrieval_hash": "sha256:670d022097ff7343c69337620e03f1a5b68626587e076b4c30041a4a8dbe8c28",
+      "status": "reported"
+    },
+    {
+      "period": "August 3–24, 2026; positive views by party",
+      "denominator": {"value": 1200, "unit": "U.S. adults interviewed by telephone; party-conditioned bases are smaller subsets of the total sample", "value_type": "published_sample"},
+      "measures": {
+        "republicans_socialism_positive": {"value": 14, "unit": "percent of Republicans viewing socialism positively", "value_type": "published_share"},
+        "independents_socialism_positive": {"value": 45, "unit": "percent of independents viewing socialism positively", "value_type": "published_share"},
+        "democrats_socialism_positive": {"value": 65, "unit": "percent of Democrats viewing socialism positively", "value_type": "published_share"},
+        "independents_big_business_positive": {"value": 32, "unit": "percent of independents viewing big business positively", "value_type": "published_share"},
+        "democrats_capitalism_positive": {"value": 35, "unit": "percent of Democrats viewing capitalism positively", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional party-conditioned estimates from the same national telephone survey; the article compares 2026 with prior readings.",
+      "uncertainty": "The article does not provide the exact party subgroup counts in the displayed release. Party identification, concept ratings, and survey responses are contemporaneous; no causal political mechanism is identified.",
+      "subgroup": "Republicans, independents, and Democrats; party labels follow Gallup's party-identification categories.",
+      "counterinterpretation": "Independent movement toward socialism and away from big business may signal a specific corporate-legitimacy shift rather than ideological conversion; Democrats and Republicans can attach different meanings to the same term.",
+      "source_url": "https://news.gallup.com/poll/714653/socialism-positive-rating-tops-first-time.aspx",
+      "retrieval_hash": "sha256:670d022097ff7343c69337620e03f1a5b68626587e076b4c30041a4a8dbe8c28",
+      "status": "reported"
+    },
+    {
+      "period": "August 3–24, 2026; positive views by age",
+      "denominator": {"value": 1200, "unit": "U.S. adults interviewed by telephone; age-conditioned bases are smaller subsets of the total sample", "value_type": "published_sample"},
+      "measures": {
+        "age_18_34_socialism_positive": {"value": 57, "unit": "percent of adults ages 18–34 viewing socialism positively", "value_type": "published_share"},
+        "age_18_34_capitalism_positive": {"value": 43, "unit": "percent of adults ages 18–34 viewing capitalism positively", "value_type": "published_share"},
+        "age_55_plus_socialism_positive": {"value": 34, "unit": "percent of adults ages 55 and older viewing socialism positively", "value_type": "published_share"},
+        "age_55_plus_capitalism_positive": {"value": 65, "unit": "percent of adults ages 55 and older viewing capitalism positively", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional age-conditioned estimates from the national telephone survey.",
+      "uncertainty": "The age pattern combines life-cycle and cohort possibilities and does not establish future ideological persistence, economic outcomes, or age-specific policy demand.",
+      "subgroup": "Adults ages 18–34 and 55 and older, with ages 35–54 described as more evenly balanced in the source.",
+      "counterinterpretation": "Young adults' higher socialism rating may coexist with support for competition, market choice, or small business; older adults' higher capitalism rating does not establish support for large firms or current corporate practices.",
+      "source_url": "https://news.gallup.com/poll/714653/socialism-positive-rating-tops-first-time.aspx",
+      "retrieval_hash": "sha256:670d022097ff7343c69337620e03f1a5b68626587e076b4c30041a4a8dbe8c28",
+      "status": "reported"
+    },
+    {
+      "period": "2010–2026 repeated trend; positive views of economic concepts",
+      "denominator": {"value": 1200, "unit": "2026 national telephone sample; historical waves have their own sample bases", "value_type": "published_sample"},
+      "measures": {
+        "socialism_positive_2010": {"value": 36, "unit": "percent viewing socialism positively in 2010", "value_type": "published_comparison"},
+        "socialism_positive_2026": {"value": 43, "unit": "percent viewing socialism positively in 2026", "value_type": "published_share"},
+        "free_enterprise_positive_2010": {"value": 86, "unit": "percent viewing free enterprise positively in 2010", "value_type": "published_comparison"},
+        "free_enterprise_positive_2026": {"value": 77, "unit": "percent viewing free enterprise positively in 2026", "value_type": "published_share"},
+        "big_business_positive_2010": {"value": 49, "unit": "percent viewing big business positively in 2010", "value_type": "published_comparison"},
+        "big_business_positive_2026": {"value": 35, "unit": "percent viewing big business positively in 2026", "value_type": "published_share"}
+      },
+      "method": "Gallup periodic repeated cross-sectional trend; the source reports waves from 2010 through 2026 rather than a panel of respondents.",
+      "uncertainty": "Trend differences may reflect wording, field mode, political context, cohort replacement, or changes in label meaning. They do not identify a single shift from one economic system to another.",
+      "subgroup": "U.S. adults across repeated survey waves; historical subgroup bases and modes are not treated as identical to 2026.",
+      "counterinterpretation": "The simultaneous rise in socialism's rating and continued high ratings for small business and free enterprise is more consistent with selective dissatisfaction—especially toward large business—than with a single ideological realignment.",
+      "source_url": "https://news.gallup.com/poll/714653/socialism-positive-rating-tops-first-time.aspx",
+      "retrieval_hash": "sha256:670d022097ff7343c69337620e03f1a5b68626587e076b4c30041a4a8dbe8c28",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx", "claim": "Gallup's government-corruption perception series supplies a separate public-legitimacy and state-versus-business comparison.", "status": "cross-source-context"},
+    {"source_url": "https://news.gallup.com/poll/713144/americans-view-capitalism-socialism-free-enterprise.aspx", "claim": "Gallup open-ended economic-meaning research supplies context on the meanings attached to the economic labels.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record identifies U.S. favorability patterns and repeated changes in views of socialism, capitalism, free enterprise, small business, and big business. It does not establish ideology, policy preference, economic behavior, firm performance, inequality, labor power, voting, or causal cohort conversion.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup article webpage retrieved and hashed; total sample, margin of error, overall concept ratings, party and age comparisons, historical trend values, and label-versus-behavior boundary cross-checked against the published page.",
+    "html_sha256": "sha256:670d022097ff7343c69337620e03f1a5b68626587e076b4c30041a4a8dbe8c28",
+    "checked": "2026-09-25"
+  }
+}

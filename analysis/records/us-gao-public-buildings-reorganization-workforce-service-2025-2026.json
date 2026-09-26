@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-public-buildings-reorganization-workforce-service-2025-2026",
+  "title": "Centralizing a federal service can weaken delivery when workforce planning, feedback, and performance measures lag",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108155 review of the General Services Administration Public Buildings Service reorganization",
+  "geography": "United States federal Public Buildings Service; reorganization from March to December 2025, with agency follow-up through June 2026",
+  "observations": [
+    {
+      "period": "March-December 2025 reorganization; June 2026 follow-up plans",
+      "denominator": {
+        "value": 1,
+        "unit": "General Services Administration Public Buildings Service reorganization",
+        "value_type": "named_agency_case"
+      },
+      "measures": {
+        "workforce_reduction": {
+          "value": "the workforce was reduced by 45% as of November 2025, without strategic workforce planning beforehand",
+          "unit": "reported agency workforce change",
+          "value_type": "reported_rate"
+        },
+        "performance_measurement": {
+          "value": "the bureau had not established measures to assess progress toward goals of consistency and streamlining",
+          "unit": "reorganization-governance gap",
+          "value_type": "reported_gap"
+        },
+        "stakeholder_feedback": {
+          "value": "communication with employees and tenant agencies was primarily one-way, with no plan at the time to solicit feedback that could improve confidence",
+          "unit": "reported engagement condition",
+          "value_type": "reported_pattern"
+        },
+        "service_effect": {
+          "value": "selected tenant agencies reported effects from staffing reductions, including delayed projects for disposing of unneeded space because of fewer cost estimators",
+          "unit": "reported selected-tenant experience",
+          "value_type": "reported_example"
+        },
+        "reorganization_outcome": {
+          "value": "not yet established as a measured service-quality or mission-performance result",
+          "unit": "missing baseline, target, implementation, tenant-satisfaction, and workforce-capacity outcome series",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO compared Public Buildings Service actions from March through December 2025 with four selected leading practices for agency reform and reviewed agency and selected tenant-agency accounts; June 2026 follow-up plans were reported separately.",
+      "uncertainty": "This is a named-agency case, not a general estimate of federal reorganizations. Reported tenant effects come from selected officials, and the review does not establish the full causal effect of staffing cuts, centralization, funding, workload, or other changes on all services.",
+      "subgroup": "Public Buildings Service employees, selected tenant agencies, federal office users, cost-estimator and other skilled roles, and agency leadership; service needs and effects vary by project.",
+      "counterinterpretation": "A large staffing reduction could eventually reduce duplication or change service design, and service delays may reflect transition, funding, workload, or project-specific conditions rather than centralization alone. Planned surveys and workforce analysis may improve later learning, but plans are not completed outcomes.",
+      "source_url": "https://www.gao.gov/products/gao-26-108155",
+      "retrieval_hash": "sha256:017ec0b4a0d5b47e280ec853893f029551d43e55b3430f2e17fbe28ae8c8f677",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures one federal reorganization, workforce planning gap, feedback gap, and selected service effects. It does not establish a government-wide staffing optimum, long-term service failure, employee welfare, tenant-wide experience, or the success or failure of the planned reforms."
+}

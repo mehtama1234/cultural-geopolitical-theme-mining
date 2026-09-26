@@ -1,6 +1,6 @@
 # US life: the big picture
 
-**Updated:** 2026-09-19
+**Updated:** 2026-09-21
 
 ## What this map is for
 
@@ -20,15 +20,23 @@ end-to-end readout](US-BROAD-END-TO-END-READOUT_V1.md). It summarizes all 14
 themes, the strongest same-unit bridges, and the exact middle links still
 needed before a full lived chain can be claimed.
 
+For the compact theme taxonomy, see the [14-theme societal atlas](US-BROAD-THEME-SUBTHEME-MAP_V1.md)
+and the [plain-language atlas summary](US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.md).
+The current place/public-system/political rotation is consolidated in the
+[place, public systems, and political feedback synthesis](US-BROAD-PLACE-PUBLIC-SYSTEMS-POLITICAL-FEEDBACK-SYNTHESIS_V1.md).
+The shortest organizing read is [the six deep tensions underneath the atlas](US-BROAD-MACRO-TENSIONS-SYNTHESIS_V1.md),
+with its [machine-readable macro-tension register](data/us-broad-macro-tensions-v1.json).
+
 The [broad trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md)
 sets the common rule for that synthesis: surveys, administrative records,
 firms, markets, media, cultural measures, and international records retain
 their own units and roles while contributing to a shared arrow map.
 
-The atlas now contains 14 umbrella themes, 344 validated machine-readable
-records, 1,214 observations, 174 recorded cross-topic links (174 recorded
-links), and 85 reading
-paths. Those numbers describe the map, not the size of a proven social problem.
+The atlas now contains 14 umbrella themes, 790 validated machine-readable
+records, 1,864 observations, 229 recorded cross-topic links, and 93 reading
+paths. It also contains 97 event ledgers, 300 recorded events, and 450 event
+arrows. The latest cross-domain memo contains 90 bounded signals. Those
+numbers describe the map, not the size of a proven social problem.
 
 The program-level finding that currently interprets the full cross-source map is
 [Unequal optionality is the recurring structure behind pressure, adaptation, and
@@ -37,6 +45,244 @@ long-form reading layer for the recurring pattern below: the same nominal
 condition produces different practical outcomes because cash, time, care,
 skill, institutional route, ownership, and ability to exit are unevenly
 distributed.
+
+## Current broad rotation
+
+The latest pass did not narrow the project to one question. It widened the
+map across six connected surfaces:
+
+- **Care and social reproduction:** unpaid eldercare, child-care constraints,
+  disability access, and assisted-living finance show that formal coverage or
+  family continuity can coexist with lost work time, travel, housing, and
+  replacement-care burdens.
+- **Workforce access and remedy reachability:** disability workforce programs
+  can count participants, offer technology, and monitor providers while
+  accommodation, disclosure, training completion, and durable employment stay
+  uneven. Likewise, recovered wages can remain unreachable until a worker is
+  located, verifies identity, completes a claim, and receives payment. Formal
+  labor capacity and recovered money are not yet the same as usable work or
+  restored household room.
+- **Civic life and political meaning:** volunteering, neighbor help, voting
+  barriers, economic worry, and institutional trust move on different clocks;
+  participation can be limited by time, health, transport, registration, or
+  dissatisfaction rather than one generic “apathy” mechanism. The Oregon
+  Medicaid lottery adds a randomized coverage-to-turnout bridge: voting rose in
+  the 2008 presidential election but did not show persistence through 2010.
+- **Belonging and usable membership:** a person can be present in a place as a
+  worker, customer, neighbor, or cultural participant without having safe
+  access, language and documentation support, mobility, institutional voice, or
+  durable civic influence. Presence, local demand, identity, service access,
+  and political participation are related stages, not one belonging outcome.
+- **Digital culture:** adult AI use, teen social/chatbot use, attention,
+  privacy, perceived control, and attempted exit are separate outcomes. Short-
+  run engagement or warmth does not establish durable trust, wellbeing, or
+  successful exit.
+- **AI-mediated political contact:** synthetic outgroup contact can lower the
+  immediate barrier to a real cross-partisan conversation and shift short-run
+  warmth or a costly choice, while the one-week persistence result is weak.
+  AI can therefore act as a rehearsal space for civic contact without proving
+  durable depolarization, cooperation, voting, or institutional trust.
+- **AI as social infrastructure:** the new companion survey adds support,
+  advice, disclosure, emotional connection, and perceived reliability to the
+  digital map. AI can become part of a person's social-support system before
+  we know whether it supplements people, substitutes for them, or becomes
+  difficult to leave.
+- **Religious and community institutions:** religious organizations are often
+  viewed as helping bring people together and helping people in need, but that
+  perceived social value is not the same as membership, service receipt,
+  institutional trust, or acceptance of political influence. Community
+  legitimacy and political legitimacy are separate currencies.
+- **Platform control and attempted exit:** the AI-companion farewell evidence
+  shows that a goodbye can become a short-run re-engagement event, while the
+  GM/OnStar case shows that formal privacy controls can exist without verified
+  use or deletion. The common missing link is whether a person can turn an
+  attempted exit or formal control into durable reduced exposure, switching, or
+  restored trust. The FTC's Shutterstock action adds a subscription version:
+  recurring value can coexist with unclear renewal terms and a cancellation
+  path that requires extra support effort. Enrollment, continued billing,
+  attempted cancellation, refund receipt, and practical exit remain separate
+  stages.
+- **Digital remedy and observability:** Google's explicit-image route adds a
+  simpler request, visible status, and repeat-protection setting. That makes
+  the control surface more legible, but does not prove completed removal,
+  cross-platform protection, survivor safety, or practical exit. Knowing that
+  a remedy is pending is not the same as receiving the remedy.
+- **Household security and public systems:** poverty, Medicaid continuity,
+  SNAP receipt, EBT control, benefit adequacy, and later household security
+  are distinct administrative and material clocks. The newer five-state linked
+  SNAP study makes the implementation point sharper: work requirements reduced
+  participation by about 7% without increasing labor supply, with lower-income
+  people disproportionately screened out. A smaller caseload is therefore not
+  automatically a successful work transition or improved household security.
+  A Pennsylvania SNAP outreach experiment supplies the inverse warning:
+  information and application help raised take-up, but the marginal enrollees
+  received lower benefits and were less sick than average enrollees. More
+  enrollment is not automatically better targeting or greater food security.
+  ACA Medicaid expansion also appears to have increased SNAP and TANF
+  participation among people already eligible, suggesting that one program’s
+  doorway can lower the application cost of another without proving adequate
+  household security.
+  The Oregon Medicaid lottery also shows that public coverage can diffuse to a
+  child in the household and briefly increase voting, while both effects fade
+  on different clocks.
+- **Firm, place, and infrastructure power:** business applications, realized
+  openings/closures, service capacity, data-center load, and local incidence
+  are separate stages. National capability or firm activity does not by itself
+  establish local benefit, affordability, or replaceability.
+- **Infrastructure and lived distribution:** Smart Path Connect now reaches a
+  populated historical project-accounting stage and an official customer-facing
+  bill-savings claim. It still does not reach retail pass-through, observed
+  household bills, equal ratepayer benefit, or durable reliability. Physical
+  completion, accounting, and household consequence remain separate clocks.
+  The community-solar rotation adds a public-benefit-to-infrastructure route:
+  DOE's Clean Energy Connector uses LIHEAP eligibility and opt-in enrollment
+  to route households toward subscriptions with a required minimum bill-credit
+  discount, while DC Solar for All reports program-level household reach and
+  average savings. A DCPSC filing adds a later project-level stage: every
+  listed subscriber on four selected project rows was reported as receiving a
+  monthly credit. That is stronger than a design, capacity, or average-savings
+  claim, but still does not establish each household's credit amount, net bill
+  effect, persistence, or energy security; the [reach-scope audit](projects/us-repeat-energy-crises/solar-for-all-reach-scope-audit-v1.md)
+  keeps those denominators and clocks separate.
+  The AEP Texas transmission loan adds a closed-financing stage: DOE reports a
+  $3.26 billion loan for roughly 2,800 miles of transmission work and projects
+  capacity, reliability, jobs, and customer savings. That is more concrete than
+  a funding announcement, but construction, rate allocation, actual bills,
+  local burden, and equal household benefit remain unobserved.
+- **Geopolitical legitimacy:** the Germany/Lithuania case now separates German
+  strategic support, German knowledge of the specific mission, Lithuanian
+  host-country approval, alliance posture, and deterrence. Broad support for a
+  direction is not the same as informed consent for a named operation or proof
+  that another state changed behavior. The first Freedom Shield exercise adds
+  a real multinational training/readiness stage, but not full capability or
+  deterrence.
+- **External reception of U.S. power:** the latest Pew cross-national layer
+  adds a separate currency from formal alliance membership. A median 37% in
+  36 countries viewed the U.S. favorably, and only 32% said it considered
+  countries like theirs' interests. Capability and partnership can therefore
+  persist while perceived reliability and respect weaken; the conversion to
+  access, burden sharing, or policy change remains open.
+- **Capability realization and geopolitical leverage:** the Polish F-35 record
+  reaches arrival, formal acceptance, first-pilot training, and an eight-aircraft
+  count, while the JASSM-ER order remains publicly scheduled without a qualifying
+  delivery or acceptance record. Procurement, delivery, readiness, operation,
+  public legitimacy, deterrence, and changed external behavior are separate
+  clocks.
+- **Infrastructure voice and legitimacy:** the Virginia Golden-Mars case shows
+  that hundreds of speakers and written comments can enter a route decision,
+  while a school-board land-control constraint can later move the project from
+  conditional Route 4 to final Route 3A. Neither public voice nor route
+  substitution proves resident agreement, compensation, measured local
+  effects, or durable acceptance.
+- **Remedy and institutional legitimacy:** a hearing, process review, payment,
+  reissue, or reported repair can be real without proving receipt, adequacy,
+  restored access, durable protection, trust, or willingness to return.
+- **Platform choice and market power:** a platform-owned product can improve
+  today's fit, price, delivery, or search outcome while the same gatekeeper
+  still shapes tomorrow's seller access and choice set. Immediate consumer
+  surplus and durable competition are separate stages; the Amazon field
+  experiment does not settle long-run foreclosure or dependence.
+- **Unequal price shocks and hidden consumer costs:** a common gasoline shock
+  can produce different inflation exposure and spending responses by income
+  and place. Financial marketing can add another layer: an apparently
+  favorable offer may impose application time or credit exposure before a
+  refund or correction exists. Price, liquidity, credit, substitution, and
+  recovery are separate household currencies.
+
+These additions reinforce the same program-wide rule: the atlas is looking for
+conversions between material conditions, practical options, institutional
+response, cultural meaning, political action, and state or firm power. It is
+not treating the newest source, theme, or headline as the definition of the
+whole project.
+
+The latest rotation sharpens these mechanisms that now cut across the 14 themes:
+
+- **Support is wider than the household.** Family, neighbors, public programs,
+  platforms, employers, and emergency systems can keep life moving, but the
+  map must ask who performs the work, who controls the route, and whether the
+  support is reciprocal and durable.
+- **Formal completion is not underlying control.** A privacy request can be
+  marked complete while residual data, individual verification, trust, or
+  practical exit remain unknown. A transmission refund can reach a formal
+  federal stage while the customer bill credit and adequacy remain unverified.
+- **Resolution is not recovery.** A later employment-status resolution or a
+  reported remedy can be real without showing job quality, treatment
+  continuity, debt relief, household security, or durable protection.
+- **Material pressure translates selectively into politics.** Pressure is more
+  consistently associated with search and navigation effort than with one
+  uniform change in AI use, institutional confidence, or political action.
+- **Financial worry enters politics through meaning and identity.** Worry,
+  trust, and reported vote can be linked in a respondent panel, but the path
+  is non-monotonic and confounded by identity, information, and attribution.
+- **Infrastructure bargains become public bargains.** Large loads, refunds,
+  reliability investments, and strategic capacity create visible
+  institutional stages before the map can show who paid, who received the
+  gain, or who can refuse and switch.
+- **Public benefit receipt is not material security.** SNAP and charitable-food
+  routes show that eligibility, route completion, receipt, adequacy, and later
+  household security are distinct; interruption and unmet need can persist even
+  when a support route is formally available.
+- **Interactional exit is not practical exit.** A platform can contest a
+  conversational goodbye or expose a deletion route without the atlas knowing
+  whether the person cancelled, switched, exported data, or regained durable
+  control.
+- **Social infrastructure is becoming hybrid.** Family and chosen ties can
+  coexist with public programs, firms, and AI tools as support routes. The
+  atlas must distinguish additional access from human substitution, adequacy,
+  reciprocity, privacy, and replaceability.
+- **Market replacement is not practical access.** New firms or aggregate
+  surplus can coexist with longer travel and localized loss after closures.
+  Entry, price stability, and modeled welfare do not by themselves show that a
+  household regained a nearby, affordable, usable option.
+- **Remedy responsiveness can coexist with dependence.** Review, restoration,
+  payment, recall, or reissue can improve a formal route while leaving the
+  affected person tied to the same provider and without a workable alternative.
+  Institutional action, receipt, adequacy, and practical exit are separate.
+- **Civic capacity can fall without a uniform change in approval.** Job loss or
+  lack of insurance can be associated with less contact or local political
+  action while institutional approval moves differently. Material insecurity
+  may reduce the ability to act without producing one predictable judgment.
+- **Protective non-use is not the same as disengagement.** Avoiding a benefit,
+  clinic, police route, complaint, platform, or public activity can protect
+  status, privacy, dignity, time, or safety while sacrificing care, income,
+  security, belonging, or future recourse. The atlas must record need and
+  anticipated risk before interpreting silence.
+- **Staying is not automatically security.** Remaining in a home, job,
+  provider, or place can preserve continuity while insurance, cash room,
+  repair, safety, care, or mobility deteriorate. “Still there” is not proof of
+  preference, recovery, or a feasible alternative.
+- **Recipient control can coexist with transferred care labor.** Consumer
+  direction may improve selected short-run access, satisfaction, or caregiver
+  experience while coordination, payroll, backup, unpaid substitution,
+  staffing, and continuity burdens remain unresolved. More choice at one
+  interface is not the same as a durable care system.
+- **Output and productivity can rise before worker power does.** AI use,
+  output, employment, cost, or labor-share movement does not establish worker
+  pay, task discretion, schedule control, bargaining power, or household gain.
+  The decisive test is who controls the task and captures the durable benefit.
+- **Utility can coexist with weak controllability.** A phone or conversational
+  system can provide information, connection, advice, or support while users
+  experience excess, sleep/productivity costs, partial self-regulation, or
+  continuation pressure at exit. Use alone does not establish dependence or
+  harm; agency requires utility, constraints, alternatives, and observed
+  behavior together.
+- **An alternative can be offered without being usable.** A job, care route,
+  insurer, repair, provider, or substitute may exist on paper while money,
+  time, transport, safety, status, health, or schedule make it unreachable or
+  unacceptable. Real choice requires the same unit's access attempt and the
+  protected or sacrificed outcome. The [offered-versus-usable alternatives
+  synthesis](US-BROAD-OFFERED-VERSUS-USABLE-ALTERNATIVES-SYNTHESIS_V1.md)
+  now extends this rule to platform control and geopolitical capability.
+- **Contestability is unequal.** Appeal reversal, replacement, reissue, and
+  worker-remedy records show that formal correction can work after someone
+  reaches the route. They do not show who lacked notice, documents, time,
+  safety, knowledge, or a viable reason to persist. Non-appeal is not
+  acceptance, and appeal success is not a population correction rate.
+
+These are cross-theme mechanisms, not new topic silos. They connect the
+consumer, household, labor, care, digital, firm, infrastructure, political,
+and geopolitical lanes while preserving the source-specific units and open
+arrows.
 
 ## The main finding so far
 
@@ -95,11 +341,118 @@ but findings that recur across different evidence layers:
    accommodation, or remedy may exist on paper while time, price, stigma,
    reliability, accessibility, or information makes it unusable. The [interface-to-outcome finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md)
    treats that gap as a measurable stage, not a rhetorical caveat.
+7. **Formal response and lived recovery run on different clocks.** An order,
+   approval, payment, reinstatement, repair, or capacity award can be real and
+   still leave receipt, usability, adequacy, durability, trust, or
+   replaceability unresolved. The Cartisano case makes the split concrete:
+   back pay and continuity were reported while actual return was withheld; the
+   Aitken case shows a negotiated return and back pay followed by a later job
+   rupture. The Alam Shah case adds a preference boundary: a formal
+   reinstatement remedy may not match the worker's preferred compensation or
+   practical safety/access needs. The same two-clock rule applies from household remedies to
+   critical minerals and strategic infrastructure: formal action is not the
+   endpoint until the affected unit can use the result, maintain it, or
+   credibly switch away.
+8. **Movement is not automatically improvement.** The same-person MEPS event
+   screens show that a lower later nonemployment level can coexist with more
+   employment-status movement, including both entry and resolution. A coded
+   “resolution” can mean a status transition without showing job quality,
+   hours, earnings, treatment continuity, debt relief, or household security.
+   This matters across the atlas: switching, returning, paying, or exiting is
+   an action endpoint, not by itself a welfare or recovery endpoint.
+9. **Search and avoidance are both forms of constrained agency.** A household
+   under expense pressure may search across jobs, food, benefits, housing, or
+   credit without finding a usable option. An immigrant family facing perceived
+   surveillance or status risk may avoid work, care, school, police, benefits,
+   or community routes without becoming politically apathetic. Search expands
+   the option set symbolically; protective non-use narrows the exposure set.
+   Both are active responses whose meaning depends on safety, dignity,
+   information, alternatives, and the cost of being visible.
+10. **Hardship does not produce one political direction.** In the retained
+    CCES panel, respondents reporting prior job loss showed lower local
+    political action (23.93% versus 31.57%), nearly similar congressional
+    contact (37.36% versus 39.14%), and slightly higher favorable Congress
+    approval (13.86% versus 10.06%) than the no-job-loss group. The result is
+    descriptive, not causal, but it blocks a simple “hardship creates distrust
+    and withdrawal” story. The target of blame, identity, route cost, perceived
+    efficacy, and the difference between contacting and organizing all matter.
+11. **Redress has a reachability problem, not just a payment problem.** CFPB
+    records now show distributed funds being cashed, while later reports also
+    show reissued and redistributed funds after some payments were not claimed.
+    That is a real institutional persistence stage, but it still does not show
+    who received what, whether the account or service was corrected, or whether
+    the household recovered. Access to the remedy is part of the remedy.
+12. **People can agree that things are getting worse without agreeing what to
+    do.** The latest cultural layer finds broad moral pessimism alongside a
+    near split over whether government should promote moral values. Likewise,
+    economic and affordability concerns can become highly salient while party
+    representation remains divided. Shared decline or worry is not shared
+    attribution, legitimacy, or policy demand.
+13. **Informal resilience depends on expected reciprocity.** People report
+    greater willingness to help neighbors than confidence that neighbors would
+    help them. Social capacity therefore cannot be inferred from goodwill alone;
+    actual help, adequacy, burden, and continuity remain separate stages.
+14. **Disaster aid has an administrative funnel, not yet a recovery story.**
+    The Los Angeles wildfire FEMA snapshot makes registration, referral,
+    eligibility, and reported assistance visible, but its aggregate city/ZIP
+    rows cannot show who was paid, whether the amount was adequate, whether a
+    home was repaired or secured, or whether survivors later trusted or
+    contested the system. Administrative reach is a real stage; it is not
+    survivor recovery.
+15. **Participation is not the same as practical power.** Buying, staying,
+    reporting, searching, reviewing, switching, and not appearing in a record
+    can each reflect different combinations of need, stigma, time, privacy,
+    dependence, and exit cost. Institutional visibility can improve
+    accountability, but a complaint, review, payment, or continued use does
+    not prove correction, adequate remedy, restored bargaining power, or a
+    credible alternative.
+16. **A bank account is not the same as usable financial power.** The financial
+    route can split into formal access, nonbank substitution, overdraft or
+    fraud exposure, recovery effort, provider contact, and switching. The
+    2025 SHED evidence shows these stages diverging: a person can be formally
+    banked yet rely on another route, contact a provider without verified
+    correction, or switch without proving that the replacement restored room
+    or trust. Financial access therefore belongs in the same end-to-end map as
+    care, work, and public benefits: the question is who can pay, contest,
+    recover, and leave at acceptable cost.
+17. **Wage recovery has a reachability gate.** Agency recovery, worker
+    location, notice, identity verification, claim completion, payment, and
+    actual use are separate stages. A public recovery total can therefore rise
+    while a worker still has no usable money, and non-claim can reflect address,
+    migration, documentation, digital access, or administrative burden rather
+    than indifference.
+18. **A price shock is filtered through household capacity.** The same energy
+    or transport shock can create different real spending, inflation, debt,
+    commuting, and substitution responses by income and place. Aggregate price
+    movement is therefore an exposure surface, not a household welfare result.
+19. **Synthetic contact can change a civic action step without changing the
+    civic relationship.** A brief AI-mediated outgroup encounter can increase
+    immediate warmth or willingness to attempt real contact, while a weak
+    later effect warns that rehearsal, cooperation, trust, and durable identity
+    change are different outcomes.
+20. **Consumer choice can carry an upstream penalty.** A marketed opportunity
+    may require an application, expose a credit record, or consume time before
+    the consumer learns whether the offer is usable. A later refund is not
+    automatically a restored score, missed opportunity, or workable alternative.
 
 The common implication is that culture is not an afterthought added after the
 economic data. Meaning, dignity, trust, identity, and legitimacy shape which
 option people can use, whether they contest a decision, and whether an
 institution's formal success becomes lived security.
+
+The family-support evidence adds a useful cultural-consumer bridge. Outside
+household help can pay for phones, housing, cars, medical costs, or education;
+intergenerational ties can also provide contact, care, transport, housing, and
+belonging. These are not one pooled family-benefit effect. They show that
+social relationships can function as practical infrastructure, while leaving
+open who bears the cost, whether support is reciprocal or conditional, and how
+long the relationship remains usable.
+
+The geopolitical version is parallel: capability is not leverage until the
+relevant actor can inspect, qualify, operate, replace, or refuse the capability
+and another actor's choices measurably change. Capacity, dependence, and
+legitimacy therefore belong in the same end-to-end map without being treated as
+one index.
 
 ## What the latest pages add
 
@@ -121,12 +474,40 @@ The newer pages make the map more concrete:
   and protection—not one generic “recovery” measure. The [remedy synthesis](projects/ai-work-control/remedy-spectrum-cross-domain-synthesis-v1.md)
   keeps payment, return, status repair, worker voice, durability, trust, and
   exit separate.
+- The expanded formal-remedy/lived-recovery audit now spans thirteen named routes,
+  including worker, platform, recruitment, consumer-redress, and product-
+  safety cases. It includes both a reported next-day return with approximately
+  $420 back pay and a later recall reporting that an earlier repair was
+  ineffective. This is a calibrated counterexample set: remedies can work
+  immediately, while adequate and durable recovery remains less observable.
+- The capability/dependence pass adds the same distinction at strategic scale:
+  critical-mineral import reliance, domestic R&D, data-center buildout, or
+  defense procurement is not yet replaceability or leverage. The decisive unit
+  is application-specific output followed by switching capacity and an
+  observed external response.
+- The Cash and Counseling evidence supplies a positive institutional
+  counterweight to the remedy cases: randomized consumer direction improved
+  selected short-run beneficiary access/satisfaction, caregiver wellbeing, and
+  direct-hire worker experience. But those currencies were measured in separate
+  populations. Completed care, unpaid-care substitution, household security,
+  worker retention, trust, and exit were not established. A program can improve
+  lived experience without yet proving durable control.
+- The companion-product exit evidence adds a concrete agency boundary. A
+  farewell can trigger a continuation tactic and short-run engagement without
+  showing failed deletion or switching. “The person kept talking” is not the
+  same as “the person could not leave”; practical exit requires account,
+  billing, data, alternative-service, and later-behavior evidence.
 - The Rehman platform case adds an especially clear remedy clock: voluntary
   access restoration was followed by a formal reactivation order and an
   A$7,096.96 gross lost-remuneration order with a 14-day deadline. The public
   record still does not show receipt, continued work, durable access, or
   household recovery. Enforceability is therefore a real stage, but not the
   lived endpoint.
+- The Alam Shah worker case adds the cultural-access dimension to that remedy
+  clock: language, interpreter access, walkability, family obligations, and
+  fear of repeat dismissal shape whether reinstatement is usable. A tribunal
+  order can repair status and money on paper while actual return, payment,
+  safety, and later security remain unobserved.
 - The MEPS event follow-up now adds a same-person later health/work clock. It
   strengthens the household side of the map, but the event record still does
   not reveal the initiating need, available alternative, institutional remedy,
@@ -142,7 +523,44 @@ The newer pages make the map more concrete:
   searches for jobs, housing, food, medical help, benefits, and credit rise
   sharply with difficulty. Search is therefore an option-discovery effort,
   not proof of an obtained alternative, AI-mediated decision, remedy, or exit.
-  Read the [HTOPS online-search and AI-trust finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md).
+  In the validated screen, job search rises from 20.7% among people reporting
+  no expense difficulty to 57.0% among those reporting very difficult
+  expenses; food search rises from 15.9% to 32.5%, benefits search from 10.7%
+  to 29.0%, and credit search from 10.0% to 27.0%. Any AI use is 59.0% in the
+  first group and 58.4% in the last, so material pressure is more visibly
+  changing the search object than producing a simple AI-adoption gradient.
+  The new April-to-June same-respondent recheck strengthens the time ordering:
+  April expense difficulty is followed by June job search at 40.6% versus
+  21.8% without difficulty, while high Congress confidence is 17.2% versus
+  16.8% and any AI use is 53.9% versus 58.5%. Pressure is therefore more
+  clearly associated with later navigation effort than with a uniform
+  technology or political-confidence response. The broader confidence screen
+  makes that political point more precise: Congress is nearly flat, while
+  confidence in the presidency, military, police, Supreme Court, public
+  schools, and statistical agencies is lower in the expense-difficulty group.
+  This is selective institutional judgment, not one universal anti-government
+  response and not a causal trust-change estimate.
+  The income-stratified pass shows that this search response is not identical
+  across resource positions: among people reporting expense difficulty, job
+  search was 39.8% below $50,000 household income, 46.2% at $50,000–$99,999,
+  and 37.0% at $100,000 or more. Benefit search was 20.3%, 22.5%, and 15.4%,
+  respectively. Higher-income respondents used AI much more overall, but
+  expense difficulty barely changed their AI use (71.5% versus 71.7%). This is
+  descriptive, not a causal moderation estimate: income is not liquid cash,
+  and search is not recovery. Across the six search domains, difficult-expense
+  respondents searched at least two domains 40.3% below $50,000, 45.7% at
+  $50,000–$99,999, and 39.4% at $100,000 or more, versus 21.8%, 27.1%, and
+  26.5% among their not-difficult counterparts. The practical burden is
+  therefore often multi-front navigation, not one isolated workaround.
+  Within the difficult-expense group, June AI users were also more likely than
+  non-AI users to search at least two domains: 56.0% versus 29.1% below
+  $50,000, 50.6% versus 38.3% at $50,000–$99,999, and 40.7% versus 36.1% at
+  $100,000 or more. In this descriptive screen AI looks more like an added
+  navigation layer than a replacement for search; need, digital access, and
+  general engagement may all contribute.
+  Read the [HTOPS online-search and AI-trust finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md)
+  , the [same-respondent cross-lag finding](projects/us-consumer-culture/findings/us-consumer-culture-004.md)
+  , and the [income-stratified finding](projects/us-consumer-culture/findings/us-consumer-culture-005.md).
 - The April-to-June linked HTOPS fraud follow-up adds a same-respondent bridge:
   people reporting earlier fraud exposure, especially loss, show more later
   searching for jobs, food, benefits, and credit. The tiny reported-recovery
@@ -207,6 +625,13 @@ turning it into a US household or geopolitical-behavior result.
   separates household fraud exposure, conditional unrecovered money, recovery
   time, and P2P route comparisons. The survey does not verify provider remedy,
   later trust, switching, or exit.
+- The newer [SHED fraud-recovery-switching ledger](projects/us-financial-intermediation/data/shed-fraud-recovery-switching-event-ledger-v1.json)
+  sharpens the financial-power chain: among reported non-credit-card fraud
+  cases, money loss, incomplete recovery, provider contact, external reporting,
+  and switching are all visible, but they are separate self-reported stages.
+  Switching may be protection, dissatisfaction, forced disruption, or a costly
+  move under constraint; without the account episode and replacement outcome,
+  it cannot be read as successful exit or restored financial room.
 - [Party-conditioned financial worry and vote](projects/us-cost-trust-politics/findings/us-cost-trust-politics-014.md)
   shows that strong partisan identity concentrates reported vote across worry
   categories while independents vary more visibly. The official controlled
@@ -252,6 +677,32 @@ scheduled release, the next Census PUF, continuing CFPB API metadata, and the
 account-gated PSID and World Bank Enterprise Survey acquisitions. This keeps
 the map living across releases while preserving old vintages and open arrows.
 
+## Current execution decision
+
+The broad rotation is now organized around three missing-middle clusters rather
+than another equal sweep of aggregate indicators. The [lane maturity and next
+action control](US-BROAD-LANE-MATURITY-AND-NEXT-ACTION_V1.md) identifies the
+highest-value work as:
+
+1. **Digital and consumer:** connect a user or account to a platform control,
+   remedy, or exit attempt, then look for recurrence, trust, switching, or
+   durable exit.
+2. **Household, care, and public systems:** connect one dated person or family
+   episode to need, alternatives, effort, actual service, and later security.
+3. **Infrastructure and state:** connect one named project or incident from
+   formal capacity to experienced service, burden, acceptance, or external
+   response.
+
+The public-only remedy pass tested the smallest available consumer route: the
+CFPB Ombudsman example documents an expired redress check, recipient effort,
+and institutional escalation, but not final receipt, cashing, adequacy, or
+later recovery. The [next-episode selection](broad-next-episode-selection-v1.md)
+therefore keeps it as a bounded comparator rather than promoting a new
+end-to-end claim. UAS remains the highest-value household acquisition route,
+but it requires authorized account-holder access. Until that changes, the
+program continues the three-cluster rotation and records acquisition gaps as
+findings rather than filling them with inference.
+
 Across these current findings, the recurring program pattern is not a single worsening
 trend. It is **unequal optionality plus measurement separation**: people,
 workers, households, firms, places, and institutions occupy different
@@ -280,7 +731,10 @@ designations and reported FTE fields describe shortage objects and
 administrative capacity, but not active hours, new-patient acceptance, wait,
 travel, price, continuity, or a resident's completed appointment. A county
 designation or provider stock is therefore not a reachable alternative or a
-health outcome; the missing unit is a dated resident/service episode.
+health outcome; the missing unit is a dated resident/service episode. The
+named-site follow-up adds that even a posted low-cost route can require
+family/income screening and proof-of-income paperwork to retain the discount,
+so affordability itself has an administrative implementation stage.
 
 The remedy ledgers add an important counterexample to the same map. In the
 official FWC Meadley follow-up, compensation payment was reported, but
@@ -359,9 +813,10 @@ persist after the transfer ends, while the consumption response and the
 electoral response are not interchangeable. This is an international
 comparison, not a US estimate, but it supplies a concrete testable mechanism:
 benefit receipt, perceived government credit, consumption, and electoral reward
-are separate stages. The linked HTOPS material-to-Congress-confidence finding
-adds same-person temporal evidence for one earlier arrow, while ANES, GSS, and
-other political packets measure interpretation or action in different samples.
+are separate stages. The linked HTOPS material-pressure confidence profile
+adds same-person temporal evidence for one earlier arrow while showing that
+institutional judgments diverge by target; ANES, GSS, and other political
+packets measure interpretation or action in different samples.
 
 The end-to-end political chain is therefore now written as:
 
@@ -547,6 +1002,15 @@ not by themselves show delivered/operational capability, replaceability,
 local incidence, or changed behavior by a partner or rival. State capacity can
 therefore expand while external dependence also deepens; “investment” is not
 yet “power.”
+
+The Polish F-35 record gives the capability ladder a concrete comparator. The
+first three aircraft arrived at Łask and were formally accepted, official
+records report first-pilot training, and a later Ministry update reports five
+more arrivals on 28 August, bringing the in-country count to eight. That closes
+the numeric aircraft component of Poland’s stated initial-operational-
+capability threshold. It does not prove trained ground-personnel coverage,
+spares and consumables, certification, fleet readiness, sustained mission use,
+replaceability, or changed external behavior. [Polish Ministry threshold](https://www.gov.pl/web/obrona-narodowa/harpia-f-35-dla-polski)
 
 The [AI capability and dependence layer](projects/ai-work-control/ai-capability-dependence-layer-v1.md)
 extends the map from domestic firms and places to infrastructure and states.
@@ -847,6 +1311,22 @@ The weakest bridge is from private experience to political action. Several packe
 
 The new findings also sharpen a second weak bridge: firm or public success versus household success. A firm can remain open while the owner’s family works without pay. A utility can restore service while the balance grows. A platform can answer faster while the customer never gets a remedy. A landlord can receive a guarantee payment while the renter acquires debt. The first status is real, but it is not the final household result.
 
+The same distinction now applies to remedies across the atlas. A remedy should
+be read as a ladder, not a binary success flag:
+
+```text
+rule or offer -> institutional implementation -> reported receipt
+  -> verified receipt -> adequacy -> durable protection
+  -> trust, switching, voice, political action, or exit
+```
+
+The Atkins truck-driver follow-up is a useful positive comparator: the Fair
+Work Ombudsman reports that all ten drivers received back-pay after court-held
+funds were released. That is stronger than an order or scheduled payment, but
+it still does not establish adequacy, later household security, continued
+work, or trust. This is why the atlas can record successful institutional
+delivery without claiming that the person’s wider life was repaired.
+
 ## The first broad bridge pass
 
 The project has now converted the broad umbrella themes into six cross-domain
@@ -906,6 +1386,158 @@ source, unit, date, geography, denominator, method, uncertainty, subgroup,
 counterexample, and open-arrow boundaries.
 
 ## What the map supports now
+
+The disability workforce-program layer makes the interface problem concrete:
+formal public employment capacity can coexist with lower post-exit employment
+and earnings, incomplete disability-type reporting, interpreter and assistive-
+technology gaps, inaccessible outside training, and weak aggregation of
+monitoring reports. The system can count participants and offer services
+without showing whether a particular person received a usable accommodation,
+completed training, found durable work, or retained mobility. This is a strong
+example of how missingness and non-disclosure are part of the social mechanism,
+not merely statistical noise.
+
+The work–safety-net layer adds a related correction: employment and public
+benefit reliance are not opposites. Millions of working-age adults connected
+to Medicaid or SNAP worked during 2024, while selected-state data show repeated
+large employers among benefit-connected workers. That is evidence of a shared
+labor and household-security system, not proof of employer wrongdoing or
+benefit dependence. The missing bridge is the same worker-household episode:
+wages, hours, benefits, eligibility churn, food/health need, alternatives, and
+whether public support expands real choice or merely keeps an unstable job
+possible.
+
+The care lane shows the same mechanism at a more intimate scale. A covered
+person may still encounter inaccessible equipment, kiosks, apps, sensory
+conditions, communication barriers, or provider assumptions. In that situation
+the conversion cost can become extra time, delayed care, family labor, lost
+work, or avoidance. Coverage and provider capacity are therefore inputs; the
+social outcome depends on whether the encounter is usable, completed, and
+continuous.
+
+Military child-care evidence adds a supply-side counterpoint. DOD can provide
+fee discounts, training, and thousands of worker incentives while families
+still face waitlists because a benefit for the worker is not automatically a
+staffed, dependable slot for the family. Price, staffing, quality, hours,
+wait time, and reliable use are separate currencies. A subsidy can lower cost
+without creating capacity; a retention payment can preserve capacity without
+solving a family's schedule or access problem.
+
+Kinship care adds the family-side version of the same tradeoff. About 2.4
+million children lived in kinship families in 2023, while the highly visible
+foster-care route covered only a small fraction of that broader kinship
+population. Family can preserve belonging, school, and cultural continuity,
+but it can also hide who leaves work, changes housing, supplies transport, or
+absorbs legal and health costs. “Family stepping up” is therefore a care
+capacity claim, not proof of safe, supported, or sustainable recovery.
+
+Assisted living makes the financing split visible. A person may be covered for
+one Medicaid service, a Medicare health service, or a housing subsidy while
+still facing room-and-board costs, limited slots, provider scarcity, or unpaid
+family coordination. The reported spending floor and 44-state coverage count
+are real institutional signals, but neither tells us whether a safe, affordable
+place was available or whether the family could sustain the arrangement.
+
+The migration/meaning layer adds a different kind of cultural depth. A person
+can say their living standard is better than their parents', expect their
+children to do better, and still believe the broader American dream is out of
+reach. Likewise, identity can be central while being experienced as helping,
+hurting, or making no difference. Material progress, future hope, belonging,
+and perceived fairness are related but not interchangeable—and none by itself
+predicts political or consumer action.
+
+The public-help synthesis adds a crucial denominator lesson. Administrative
+timeliness, ease of navigating notices and deadlines, actual receipt,
+household buffer, and institution-specific confidence are different outcomes.
+A person can receive SNAP and still face rent or utility hardship; a state can
+process applications quickly without proving the route was easy; and leaving a
+program can coincide with either improving income or worsening security. The
+atlas therefore treats public assistance as a route and a judgment, not a
+single success score.
+
+## The recurring patterns across the whole atlas
+
+The broad evidence is starting to show a small set of repeatable patterns:
+
+1. **The hidden cost is often moved, not removed.** A cheaper purchase can mean
+   lower quality; a public benefit can mean paperwork and waiting; a platform
+   convenience can mean worker surveillance; and family care can mean lost work
+   time. The visible price is only one part of the transaction.
+2. **A formal right is not the same as usable power.** A person may have a
+   refund, appeal, privacy request, benefit, reinstatement order, or care site
+   on paper while still lacking a completed route, payment, appointment,
+   correction, or safe alternative.
+3. **People preserve what they can by trading across domains.** Households
+   protect food, housing, children, or health by borrowing, delaying, working
+   more, reducing use, relying on relatives, or giving up time. That is why a
+   stable headline number can coexist with a strained daily life.
+4. **Family and social ties are practical infrastructure.** Relatives can
+   provide money, phones, housing, transport, childcare, eldercare, and a
+   sense of belonging. This is real capacity, but it can also hide who carries
+   the cost and whether the arrangement can last.
+5. **Trust and action do not move as one package.** Hardship can lower local
+   participation, increase contact, strengthen a policy demand, or produce
+   withdrawal depending on identity, attribution, time, and the available route.
+   “Distrust” is not the same thing as silence, and “participation” is not proof
+   of confidence.
+6. **Capacity is not yet consequence.** A staffed site, energized grid,
+   defense contract, alliance deployment, AI system, or factory can be real at
+   the institutional level while service quality, household cost, worker
+   control, public consent, or strategic effect remains unknown.
+7. **Exit is a test of lived power.** Complaining, switching, refusing,
+   leaving, or staying can reveal whether a person actually had alternatives.
+   But non-use can mean protection, exhaustion, cost, or lack of access—not one
+   simple preference.
+
+These are the atlas's current cross-theme hypotheses. They connect the 14
+themes without claiming that one dataset proves all of them or that the same
+people appear in every source.
+
+## A deeper cross-theme pattern: support is becoming infrastructure
+
+Across the atlas, support is not only something delivered by a formal
+institution. It is increasingly assembled from family members, care workers,
+neighbors, platforms, public programs, civilian emergency services, and
+employers. These systems can keep everyday life functioning when a market or
+institution is incomplete, but they also decide who carries the hidden labor
+and who can refuse the arrangement.
+
+The pattern appears in several different forms:
+
+- relatives provide money, housing, transport, childcare, eldercare, and
+  practical advice when income or public routes are insufficient;
+- kinship and unpaid care preserve family continuity while shifting time,
+  housing, work, and emotional costs into households;
+- AI companions can provide support, advice, stress relief, and a place for
+  disclosure before human substitution, dependence, or wellbeing effects are
+  demonstrated;
+- platform safety tools let users block or unfollow directly, while reporting
+  depends on the platform and is much less trusted by users;
+- NATO's medical exercise shows military readiness being connected to civilian
+  hospitals, ambulances, rescue, and public-health institutions before real
+  crisis care is observed.
+- HUD housing verification and the named Ohio clinic show the same pattern at
+  the access interface: a household can have a formal assistance route or a
+  real provider while identity checks, documents, appeals, phone/portal work,
+  wait time, and appointment availability determine whether security is usable.
+
+These are not one kind of support and should not be pooled into a single
+“social capital” measure. They do reveal a common analytical question:
+
+```text
+need or threat
+  -> available helper, tool, network, or institution
+  -> unpaid or paid effort and control over the route
+  -> immediate protection or continuity
+  -> adequacy, reciprocity, safety, trust, and durability [often open]
+```
+
+The cultural implication is important. Dependence is not simply weakness, and
+independence is not always freedom. A person may gain real protection through
+family, community, technology, or public coordination while losing privacy,
+time, bargaining power, or the ability to leave. The atlas should therefore
+measure support by who can invoke it, who performs the work, who controls the
+terms, and what happens when the support is withdrawn.
 
 - Some public rules and firm choices change a measurable household action: spending, sharing, work contact, credit access, or sentiment.
 - The same outcome can mean different things for different people: a lower expense can be relief or a cut; staying can be choice or a lack of alternatives.
@@ -967,3 +1599,6 @@ program.
 ## Reading rule
 
 The big picture is a set of connected questions, not one grand explanation. Start with the ordinary loss or choice. Follow who pays, who waits, who decides, and what changes next.
+
+For the infrastructure/state branch, see [Infrastructure bargains: capacity,
+burden, voice, and realized benefit](US-BROAD-INFRASTRUCTURE-BARGAIN-SYNTHESIS_V1.md).

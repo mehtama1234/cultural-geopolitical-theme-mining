@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-host-nation-rehearsal-denmark-2026",
+  "title": "A host-nation rehearsal can make allied movement coordination visible without proving crisis performance",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NATO Rapid Deployable Corps–Italy official account of Steadfast Discovery 26",
+  "geography": "Copenhagen and Herning, Denmark; NATO Allied Reaction Force and Danish host-nation coordination",
+  "observations": [
+    {
+      "period": "14–18 September 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "officially reported Steadfast Discovery 26 Operational Liaison and Reconnaissance Team deployment rehearsal",
+        "value_type": "source_defined_event_universe"
+      },
+      "measures": {
+        "rehearsal": {
+          "value": "conducted",
+          "unit": "Operational Liaison and Reconnaissance Team deployment rehearsal",
+          "value_type": "reported_event"
+        },
+        "locations": {
+          "value": "Copenhagen and Herning",
+          "unit": "Danish locations named in the account",
+          "value_type": "reported_geography"
+        },
+        "host_nation": {
+          "value": "Denmark",
+          "unit": "host-nation coordination partner",
+          "value_type": "reported_actor"
+        },
+        "coordination_domains": {
+          "value": "logistics, transportation, movement, reception, and sustainment of allied forces",
+          "unit": "procedures and planning domains named in the account",
+          "value_type": "reported_scope"
+        },
+        "authority_stakeholder_engagement": {
+          "value": "reported",
+          "unit": "direct engagement with Danish authorities and relevant stakeholders",
+          "value_type": "reported_activity"
+        },
+        "real_crisis_performance": {
+          "value": "not observed",
+          "unit": "movement speed, failure correction, civilian continuity, cost, and operational result under crisis conditions",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NATO Rapid Deployable Corps–Italy public account of Steadfast Discovery 26; reported rehearsal activities are kept separate from independent performance measurement and civilian outcomes.",
+      "uncertainty": "The account describes a named rehearsal and coordination activities but does not report elapsed times, failed procedures, corrective actions, budgets, independent evaluation, civilian disruption, public opinion, or wartime performance.",
+      "subgroup": "NATO Allied Reaction Force personnel, Danish host-nation authorities and stakeholders, transport/logistics actors, and civilian systems implicated by movement and sustainment.",
+      "counterinterpretation": "A rehearsal can create real learning and improve future readiness even when its public account does not measure performance; lack of outcome data is not evidence that the activity had no value.",
+      "source_url": "https://nrdc-ita.nato.int/newsroom/news-archive/2026/-steadfast-discovery-26-stdy-26-arf-strengthens-allied-readiness-through-host-nation-cooperation-in-denmark",
+      "retrieval_hash": "sha256:4443804c1f80fb1d862441124295b0eb7725ef8f2826cd0510b8000ba2a625ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures an official report of a NATO host-nation rehearsal and its named coordination domains. It does not establish actual deployment performance, civilian service continuity, local consent, cost sharing, legal terms, deterrence, or strategic effect.",
+  "retrieval_hash": "sha256:4443804c1f80fb1d862441124295b0eb7725ef8f2826cd0510b8000ba2a625ae"
+}

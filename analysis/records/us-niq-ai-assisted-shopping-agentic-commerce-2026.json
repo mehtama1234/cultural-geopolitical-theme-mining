@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-niq-ai-assisted-shopping-agentic-commerce-2026",
+  "title": "AI-assisted shopping is moving into mainstream product discovery and evaluation, shifting the path to purchase toward machine-mediated choice",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NielsenIQ Agentic Commerce Tracker press release and monthly Quick Question research",
+  "geography": "United States, with tracker also described as covering Canada",
+  "observations": [
+    {
+      "period": "September 2026 publication; monthly 2026 tracker, past-month AI shopping use",
+      "denominator": {
+        "value": 500,
+        "unit": "approximately U.S. consumers sampled monthly in NIQ Quick Question research; exact September respondent count is not disclosed",
+        "value_type": "approximate_monthly_sample"
+      },
+      "measures": {
+        "any_ai_shopping_use": {"value": 51, "unit": "percent of U.S. consumers reporting use of at least one AI-powered tool to support shopping in the past month", "value_type": "reported_share"},
+        "ai_product_recommendations": {"value": 20, "unit": "percent using AI-powered product recommendations", "value_type": "reported_share"},
+        "ai_personal_shopping_assistant": {"value": 16, "unit": "percent using AI-powered personal shopping assistants", "value_type": "reported_share"},
+        "mainstream_threshold": {"value": "The release describes September 2026 as the first time reported adoption crossed 50%, after growing over the prior two quarters", "unit": "reported adoption milestone", "value_type": "reported_time_comparison"}
+      },
+      "method": "NIQ press release summarizing its proprietary monthly Agentic Commerce Tracker and Quick Question research. The source reports approximate monthly sample size and topline self-reported adoption; exact questionnaire, weighting, response rate, and September field dates are not disclosed on the page.",
+      "uncertainty": "The 51% estimate is a company-reported survey result with an approximate sample, not a public-use dataset or observed transaction share. Tool definitions, question wording, sampling, repeat respondents, and reporting error are not fully specified; use does not establish quality, savings, conversion, or autonomous purchasing.",
+      "subgroup": "U.S. consumers in NIQ's monthly 2026 Quick Question research; no public respondent-level subgroup breakdown is provided in the release.",
+      "counterinterpretation": "Reporting any AI shopping use may include light experimentation, comparison, or recommendation exposure rather than a purchase decision. Mainstream reported use does not mean consumers trust AI, delegate final choices, or abandon retailers and search.",
+      "source_url": "https://nielseniq.com/global/en/news-center/2026/majority-of-u-s-consumers-now-use-ai-to-shop-niq-finds/",
+      "retrieval_hash": "sha256:3308323399ed10a5f985be0361b2636d7f0956b22ee7271fd45f0abcd745810a",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; path-to-purchase and firm-response implications",
+      "denominator": {
+        "value": 1,
+        "unit": "NIQ market and consumer-intelligence interpretation; no independent transaction denominator is reported",
+        "value_type": "market_interpretation_unit"
+      },
+      "measures": {
+        "decision_stages": {"value": "AI use is reported across product discovery, option comparison, value evaluation, narrowing choices, and final purchase decisions", "unit": "path-to-purchase stages named by the source", "value_type": "reported_behavioral_scope"},
+        "merchant_content_requirement": {"value": "Product-content quality, digital discoverability, and structured product information are described as increasingly important to brand and retailer sales performance", "unit": "reported firm-response implication", "value_type": "reported_market_implication"},
+        "measurement_shift": {"value": "NIQ says it will measure agentic commerce as a distinct channel within its retail measurement suite", "unit": "reported measurement and market-infrastructure response", "value_type": "reported_institutional_response"}
+      },
+      "method": "Source-level interpretation of NIQ's reported use cases and its announced measurement response; the record keeps reported consumer use separate from firm strategy and from realized sales or conversion.",
+      "uncertainty": "The release is a vendor publication with commercial interests in measuring and serving agentic commerce. Its claims about tipping points, sales performance, and the shift from search-driven to AI-driven commerce are directional interpretations, not independent causal estimates.",
+      "subgroup": "Consumers, brands, retailers, product-content teams, digital-commerce platforms, and AI systems involved in product discovery and purchase decisions.",
+      "counterinterpretation": "Firms may optimize structured product information for AI systems without AI becoming the dominant source of traffic or sales. Machine-mediated discovery can coexist with human, retailer, social, and search pathways.",
+      "source_url": "https://nielseniq.com/global/en/news-center/2026/majority-of-u-s-consumers-now-use-ai-to-shop-niq-finds/",
+      "retrieval_hash": "sha256:3308323399ed10a5f985be0361b2636d7f0956b22ee7271fd45f0abcd745810a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a current commercial-research signal on AI-assisted shopping and machine-mediated product discovery. It does not establish representative national adoption, actual purchases, savings, consumer welfare, algorithmic accuracy, retailer dependence, or causal market-share change from the NIQ release.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NIQ publication retrieved; publication date, 51% topline, 20% recommendation use, 16% assistant use, prior-two-quarter growth claim, path-to-purchase stages, monthly approximate sample, commercial tracker description, and stated limitations cross-checked against the page.",
+    "html_sha256": "sha256:3308323399ed10a5f985be0361b2636d7f0956b22ee7271fd45f0abcd745810a",
+    "checked": "2026-09-26"
+  }
+}

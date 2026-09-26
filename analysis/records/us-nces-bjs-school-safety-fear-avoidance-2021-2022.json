@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nces-bjs-school-safety-fear-avoidance-2021-2022",
+  "title": "Aggregate school safety can improve while some students still avoid school participation",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "National Center for Education Statistics and Bureau of Justice Statistics Report on Indicators of School Crime and Safety: 2023; student School Crime Supplement and related indicators",
+  "geography": "United States schools; students ages 12 to 18",
+  "observations": [
+    {
+      "period": "2012 to 2022; at-school nonfatal victimization rate",
+      "denominator": {
+        "value": 1000,
+        "unit": "students ages 12 to 18",
+        "value_type": "published_survey_rate_base"
+      },
+      "measures": {
+        "at_school_victimization_2012": {"value": 52, "unit": "victimizations per 1,000 students", "value_type": "published_estimate"},
+        "at_school_victimization_2022": {"value": 22, "unit": "victimizations per 1,000 students", "value_type": "published_estimate"}
+      },
+      "method": "NCES/BJS compilation of national school safety indicators, including the National Crime Victimization Survey School Crime Supplement; the long-run rate and student experience measures are retained as separate indicators.",
+      "uncertainty": "The report is a compilation of different source surveys and years. A population rate does not identify each student's perceived safety, school response, attendance, learning, support, or later trust.",
+      "subgroup": "Students ages 12 to 18; the report also includes selected comparisons by school level, race/ethnicity, sex, and other characteristics.",
+      "counterinterpretation": "A lower victimization rate may coexist with persistent fear, bullying, unequal exposure, or school-specific problems. A student may avoid school for reasons other than fear, and reported fear is not proof that an attack occurred.",
+      "source_url": "https://nces.ed.gov/pubs2024/2024145.pdf",
+      "retrieval_hash": "sha256:171026d35ce9234642bf5d4bc2cf46d3c8fed8bdbe9bc1919e2e5c5832d2b2c7",
+      "status": "reported"
+    },
+    {
+      "period": "2021-22 school year; student fear and avoidance",
+      "denominator": {
+        "value": 100,
+        "unit": "students ages 12 to 18 enrolled in school, excluding homeschool and exclusively virtual students",
+        "value_type": "published_survey_base"
+      },
+      "measures": {
+        "afraid_at_school": {"value": 3.8, "unit": "percent reporting sometimes or most of the time afraid of attack or harm at school", "value_type": "published_share"},
+        "afraid_away_from_school": {"value": 2.2, "unit": "percent reporting sometimes or most of the time afraid of attack or harm away from school", "value_type": "published_share"},
+        "avoided_school_activities_or_classes": {"value": 3.6, "unit": "percent avoiding school activities or classes because of fear of attack or harm", "value_type": "published_share"},
+        "stayed_home_from_school": {"value": 2.2, "unit": "percent staying home from school because of fear of attack or harm", "value_type": "published_share"}
+      },
+      "method": "Student responses in the 2022 School Crime Supplement to the National Crime Victimization Survey, as reported in the NCES/BJS 2023 indicators report.",
+      "uncertainty": "Fear and avoidance are self-reported and do not identify the specific incident, person, school response, missed instruction, or later participation outcome. The measures are not a same-student longitudinal pathway.",
+      "subgroup": "Students ages 12 to 18; the report provides selected comparisons and separate bullying-related tables.",
+      "counterinterpretation": "Avoidance can be a protective choice, a short-lived response, or part of a broader attendance problem; the table does not establish harm to learning or mental health.",
+      "source_url": "https://nces.ed.gov/pubs2024/2024145.pdf",
+      "retrieval_hash": "sha256:171026d35ce9234642bf5d4bc2cf46d3c8fed8bdbe9bc1919e2e5c5832d2b2c7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nces.ed.gov/programs/crime/", "claim": "NCES describes the School Crime Supplement and School Survey on Crime and Safety as complementary student and principal perspectives.", "status": "official-method-context"},
+    {"source_url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2023-and-indicator-2-incidence", "claim": "BJS publication page gives the report scope and headline victimization and bullying comparisons.", "status": "official-report-context"}
+  ],
+  "boundary": "This record adds a youth institutional-safety boundary: aggregate victimization, student fear, avoidance, attendance, school response, support, belonging, learning, and later trust are separate stages. It does not establish a same-student causal path or prove that aggregate safety improvement reached every student.",
+  "retrieval_hash": "sha256:171026d35ce9234642bf5d4bc2cf46d3c8fed8bdbe9bc1919e2e5c5832d2b2c7"
+}

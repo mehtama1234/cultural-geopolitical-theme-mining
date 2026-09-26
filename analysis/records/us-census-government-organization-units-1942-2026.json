@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-government-organization-units-1942-2026",
+  "title": "The public sector is organized through a large and historically changing number of government units",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Census Bureau 2026 Annual Government Organization Table 1, Government Units by State: Years 1942 to 2026",
+  "geography": "United States and states",
+  "observations": [
+    {
+      "period": "1942-2026 annual government-organization series; 2026 release",
+      "denominator": {
+        "value": 91780,
+        "unit": "federal, state, and local government units in the United States in 2026",
+        "value_type": "published_count"
+      },
+      "measures": {
+        "current_units": {
+          "value": 91780,
+          "unit": "government units",
+          "value_type": "published_count"
+        },
+        "historical_series": {
+          "value": "1942: 155116; 1952: 116807; 1962: 91236; 1972: 78269; 1982: 81831; 1992: 85006; 2002: 87576; 2012: 90107; 2022: 90888; 2025: 91489; 2026: 91780",
+          "unit": "federal, state, and local government units by year",
+          "value_type": "published_time_series"
+        },
+        "state_range": {
+          "value": "2026 state totals range from 2 in the District of Columbia and 182 in Alaska to 4547 in California; the totals reflect government structure, not service quality or capacity per resident",
+          "unit": "government units by state",
+          "value_type": "published_state_comparison"
+        }
+      },
+      "method": "Census Bureau annual government-organization table compiled from the Census of Governments organization component and published state and local structure tables.",
+      "uncertainty": "Unit counts measure organizational structure, not budgets, staffing, service delivery, duplication, effectiveness, or resident experience. Historical comparability can be affected by classification and reporting changes.",
+      "subgroup": "Federal, state, local, general-purpose, and special-purpose government units; state totals vary with institutional structure and geography.",
+      "counterinterpretation": "A larger or smaller number of government units is not inherently more or less democratic, efficient, legitimate, or capable. Fragmentation may support local tailoring or create coordination and accountability costs.",
+      "source_url": "https://www.census.gov/data/tables/2026/econ/gus/2026-governments.html",
+      "retrieval_hash": "sha256:25f8d15e66b0057a223ce0b61124ad59d2bdaf108b38457b2c34370fe0124b6a",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/newsroom/press-releases/2026/2026-annual-government-organization-counts.html",
+      "claim": "The 2026 release provides government units by state, local governments by type and state, and special-district counts by function and state.",
+      "status": "official-release"
+    }
+  ],
+  "boundary": "This record adds an institutional-structure layer to the atlas. It identifies the changing number and distribution of public units, but does not infer fragmentation effects, resident trust, service quality, or political action from counts alone.",
+  "retrieval_hash": "sha256:25f8d15e66b0057a223ce0b61124ad59d2bdaf108b38457b2c34370fe0124b6a"
+}

@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hygon-dcu-realized-growth-deployment-2026",
+  "title": "Hygon reported strong first-half 2026 growth and broad DCU deployment across Chinese AI-compute applications, without isolating an H200 substitution effect",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Hygon Information 2026 interim report filed through China's CNINFO disclosure platform",
+  "geography": "China, Hygon Information CPU/DCU products, domestic AI-compute customers, and large-model application ecosystem",
+  "observations": [
+    {
+      "period": "January-June 2026 reporting period; interim report published August 14, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Hygon Information consolidated business; DCU-specific revenue and shipment denominator not separately disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "first_half_revenue": {"value": 9099.0208, "unit": "million RMB consolidated revenue", "value_type": "reported_financial_amount"},
+        "revenue_growth": {"value": 66.52, "unit": "percent year-over-year consolidated revenue growth", "value_type": "reported_growth_rate"},
+        "net_income_growth": {"value": 49.69, "unit": "percent year-over-year growth in net income attributable to parent", "value_type": "reported_growth_rate"},
+        "research_development_investment": {"value": 2652.3828, "unit": "million RMB R&D investment, up 55.05% year-over-year", "value_type": "reported_financial_amount"},
+        "dcu_application_scope": {"value": "DCU products reported as deployed in multiple key industries and hundreds of application scenarios, serving government departments, state-owned banks, operators, and internet companies", "unit": "reported deployment scope", "value_type": "reported_application"},
+        "model_adaptation": {"value": "more than 400 mainstream large models, including DeepSeek, Qwen3, Hunyuan, and Zhipu, reported as adapted and optimized", "unit": "reported model count and named examples", "value_type": "reported_compatibility"},
+        "software_stack": {"value": "DTK, DAS, and DAP stack reported across training, inference, AI4S, knowledge-base, and agent-orchestration scenarios; DAS integrates more than 2,000 operators and supports more than 100 mainstream AI tools", "unit": "reported product capability", "value_type": "reported_product_scope"},
+        "ecosystem_partners": {"value": 6000, "unit": "more than 6,000 partners in the Guanghe ecosystem", "value_type": "reported_ecosystem_count"},
+        "h200_substitution_effect": {"value": "not established", "unit": "no H200-specific revenue, customer switching, unit share, price, or causal export-control estimate", "value_type": "unmeasured"}
+      },
+      "method": "Review of Hygon's official interim report. Consolidated financial growth, reported DCU application scope, model adaptation, software-stack coverage, and partner count are coded as realized firm and ecosystem outcomes. The report does not isolate DCU revenue or attribute growth to H200 entry, export controls, or any single competitor.",
+      "uncertainty": "The report does not disclose DCU units, DCU revenue, customer-level contracts, realized market share, pricing, utilization, margins by product, or whether the reported applications are paid, scaled, or experimental. Company-reported application and ecosystem counts are not independent verification of performance or substitution.",
+      "subgroup": "Hygon, Chinese government and state-owned customers, telecom operators, internet firms, large-model developers, system integrators, and domestic AI-compute ecosystem partners",
+      "counterinterpretation": "Hygon's growth may reflect broad AI-compute demand, CPU sales, pricing, consolidation, or other product and market factors rather than substitution away from NVIDIA. Broad model compatibility and application claims may coexist with continued dependence on foreign accelerators or mixed deployments.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF",
+      "retrieval_hash": "sha256:38e0177906a207432512a988737662ebf57488fd9969847621edcce76af567bf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/investor/2025/20251210/0d17c6e844b64a66ab07bf268afaa827.PDF",
+      "claim": "Hygon's investor Q&A described H200 entry as intensifying competition and outlined performance, ecosystem, compliance, cost-performance, and customer-case responses.",
+      "status": "official-company-comparator"
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA reported that China restrictions limited H200 licensed sales while its China data-center market remained effectively foreclosed.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes Hygon-reported realized financial growth, DCU application deployment, model compatibility, and ecosystem scale in the first half of 2026. It does not establish that export controls or H200 availability caused those outcomes, nor that Hygon displaced NVIDIA or changed Chinese AI capability."
+}

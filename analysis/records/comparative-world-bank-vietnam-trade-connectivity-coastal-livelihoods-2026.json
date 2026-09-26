@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-vietnam-trade-connectivity-coastal-livelihoods-2026",
+  "title": "Vietnam’s trade-corridor and coastal-fisheries program links logistics, climate resilience, jobs, and livelihood upgrading",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank Group announcement of three Vietnam projects approved September 4-14, 2026",
+  "geography": "Viet Nam; Hai Phong, Mekong Delta, northern, central, and coastal regions",
+  "observations": [
+    {
+      "period": "September 2026; three approved projects and trade-connectivity route",
+      "denominator": {
+        "value": 3,
+        "unit": "World Bank-approved Vietnam projects in the announcement",
+        "value_type": "project_coverage"
+      },
+      "measures": {
+        "total_loan_financing": {
+          "value": 666.74,
+          "unit": "millions of U.S. dollars in IBRD loans across three projects",
+          "value_type": "approved_project_financing"
+        },
+        "project_financing_split": {
+          "value": "Hai Phong City Resilience Development Project: $260.1 million; Mekong Resilient Regional Connectivity Project: $251.12 million; Sustainable Fisheries Development Project: $155.52 million",
+          "unit": "millions of U.S. dollars by project",
+          "value_type": "approved_project_comparison"
+        },
+        "hai_phong_route": {
+          "value": "A new section of Ring Road 3 is expected to reduce truck travel time between key locations, expand wastewater treatment, and protect the historic city center from flooding",
+          "unit": "planned transport, urban-service, and resilience components",
+          "value_type": "published_project_scope"
+        },
+        "mekong_connectivity_route": {
+          "value": "251 kilometers of key highways will be rehabilitated to international road-safety standards, with the stated aim of reliable year-round connectivity and improved movement of farm goods during heavy rainfall",
+          "unit": "kilometers of planned highway rehabilitation and project objective",
+          "value_type": "published_project_scope"
+        },
+        "planned_construction_work": {
+          "value": "Hai Phong construction is expected to employ approximately 10,700 casual workers and 2,300 professionals; Mekong connectivity construction is expected to generate approximately 10,900 jobs annually",
+          "unit": "planned jobs by project",
+          "value_type": "published_employment_expectation"
+        }
+      },
+      "method": "Extraction from the World Bank Group project announcement, preserving approved financing, named project components, physical scale, and stated employment expectations as planned inputs and outputs.",
+      "uncertainty": "The announcement is not an evaluation: financing, roads, wastewater treatment, flood protection, travel-time reductions, safety, trade costs, and jobs are not yet verified outcomes. Employment figures are expectations, and the source does not specify duration, worker incidence, procurement, displacement, or local fiscal obligations.",
+      "subgroup": "Hai Phong residents and firms, Mekong Delta farmers and road users, construction workers, exporters, and local governments; no respondent-level denominator is used.",
+      "counterinterpretation": "Improved corridors may reduce logistics costs for some firms while increasing land, congestion, or displacement pressures for others. A transport investment can improve market access without ensuring farmer income, worker quality, or equitable service reach.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-supports-viet-nam-s-trade-connectivity-and-coastal-livelihoods",
+      "retrieval_hash": "sha256:ba8ee6f0a1e0a64e6bae8cd8b2a04a4800af26a169cbc58cc93df12be2ca2b9c",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; coastal fisheries and aquaculture livelihood route",
+      "denominator": {
+        "value": 9,
+        "unit": "fishing ports to be modernized under the Sustainable Fisheries Development Project",
+        "value_type": "planned_port_coverage"
+      },
+      "measures": {
+        "fishing_port_modernization": {
+          "value": "Nine fishing ports will be modernized across northern, central, and Mekong Delta regions",
+          "unit": "ports",
+          "value_type": "published_project_scope"
+        },
+        "expected_direct_beneficiaries": {
+          "value": 525000,
+          "unit": "fishers, aquaculture farmers, and coastal residents expected to benefit",
+          "value_type": "published_program_target"
+        },
+        "women_beneficiary_target": {
+          "value": "Women are expected to account for at least half of direct beneficiaries",
+          "unit": "share of direct beneficiaries",
+          "value_type": "published_distributional_target"
+        },
+        "livelihood_and_quality_targets": {
+          "value": "The project is expected to support higher incomes, better seafood quality, reduced post-harvest losses, and sustainable, climate-resilient fishing and aquaculture practices",
+          "unit": "stated livelihood and resilience objectives",
+          "value_type": "published_program_objectives"
+        }
+      },
+      "method": "Extraction from the World Bank announcement of the Sustainable Fisheries Development Project, retaining port count, expected beneficiary population, gender target, and livelihood objectives as planned measures.",
+      "uncertainty": "Expected beneficiaries and income, quality, loss-reduction, sustainability, and climate-resilience outcomes are not realized or independently evaluated in the announcement. The source does not specify allocation across ports, tenure, debt, access fees, catch distribution, or whether women’s inclusion reflects control over income and assets.",
+      "subgroup": "Fishers, aquaculture farmers, coastal residents, women direct beneficiaries, seafood supply-chain actors, and port communities across the named regions.",
+      "counterinterpretation": "Port modernization can raise quality and reduce losses while also favoring larger operators, changing access rules, increasing costs, or shifting fishing pressure. A gender beneficiary target does not itself establish equal decision-making power or income control.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/14/world-bank-group-supports-viet-nam-s-trade-connectivity-and-coastal-livelihoods",
+      "retrieval_hash": "sha256:ba8ee6f0a1e0a64e6bae8cd8b2a04a4800af26a169cbc58cc93df12be2ca2b9c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record adds a trade-corridor, port, climate-resilience, fisheries, and planned-employment layer. It does not infer completed infrastructure, realized jobs, lower trade costs, farmer or fisher income, equitable access, gendered control, environmental outcomes, or household security from approved loans and project targets.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Group Vietnam press-release page retrieved and hashed; three project loans, project components, highway and port counts, employment expectations, beneficiary target, gender target, and planned-outcome boundaries cross-checked against the publication.",
+    "html_sha256": "sha256:ba8ee6f0a1e0a64e6bae8cd8b2a04a4800af26a169cbc58cc93df12be2ca2b9c",
+    "checked": "2026-09-26"
+  }
+}

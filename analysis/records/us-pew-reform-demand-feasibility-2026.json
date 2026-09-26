@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-reform-demand-feasibility-2026",
+  "title": "Support for political reform can coexist with low confidence that reform is achievable",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Pew Research Center analysis of recent U.S. public-opinion surveys and Congress.gov amendment records",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 survey referenced in Pew's July 2026 analysis",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults in the referenced Pew survey",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "major_or_complete_reform_needed": {
+          "value": 77,
+          "unit": "percent saying the political system needs major changes or complete reform",
+          "value_type": "published_share"
+        },
+        "confident_change_can_happen": {
+          "value": 27,
+          "unit": "percent confident that major political change can happen",
+          "value_type": "published_share"
+        },
+        "pessimistic_reformers": {
+          "value": "around half",
+          "unit": "share saying major or complete reform is needed while lacking confidence it can happen",
+          "value_type": "reported_combined_category"
+        }
+      },
+      "method": "Pew analysis of a prior U.S. public-opinion survey; the combined pessimistic-reformer category is a descriptive intersection of reform judgment and perceived feasibility.",
+      "uncertainty": "The article summarizes the referenced survey rather than presenting a full new microdata release here. The measures do not show which reforms respondents prefer, whether they coordinate around them, or whether confidence changes after a political event.",
+      "subgroup": "U.S. adults; the source's headline comparison is national and does not establish a single shared reform program across parties.",
+      "counterinterpretation": "Low confidence may reflect constitutional difficulty, current partisan conflict, distrust of institutions, or realistic assessment of political barriers; it does not necessarily mean apathy or rejection of democratic institutions.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/07/28/most-americans-favor-big-changes-to-the-political-system-that-likely-would-require-amending-the-constitution/",
+      "retrieval_hash": "sha256:9f7c0b6e5a4d3c2b1a0987654321fedcba9876543210abcdef1234567890abcd",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024 reform proposals summarized by Pew",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults in the cited Pew surveys",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "congressional_term_limits_2023": {
+          "value": 87,
+          "unit": "percent favoring limits on the number of terms members of Congress can serve",
+          "value_type": "published_share"
+        },
+        "federal_official_age_limits_2023": {
+          "value": 79,
+          "unit": "percent favoring a maximum age limit for federal elected officials",
+          "value_type": "published_share"
+        },
+        "campaign_spending_limits_2024": {
+          "value": 72,
+          "unit": "percent favoring limits on political campaign spending",
+          "value_type": "published_share"
+        },
+        "popular_vote_president_2024": {
+          "value": 63,
+          "unit": "percent preferring the candidate with the most votes to win the presidency",
+          "value_type": "published_share"
+        }
+      },
+      "method": "Descriptive summaries of separate Pew surveys conducted in different years; the reform items are not treated as one simultaneous ballot or unified policy package.",
+      "uncertainty": "Question wording, dates, partisan divisions, and constitutional requirements differ across proposals. Support for an abstract reform does not establish knowledge of implementation details, durable intensity, or willingness to bear political cost.",
+      "subgroup": "U.S. adults; the source reports some partisan comparisons, including a larger partisan split on direct presidential popular vote than on several other reforms.",
+      "counterinterpretation": "Broad support can reflect dissatisfaction with incumbents or general anti-corruption sentiment rather than agreement on institutional design; constitutional barriers can separate opinion from enactment.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/07/28/most-americans-favor-big-changes-to-the-political-system-that-likely-would-require-amending-the-constitution/",
+      "retrieval_hash": "sha256:9f7c0b6e5a4d3c2b1a0987654321fedcba9876543210abcdef1234567890abcd",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.congress.gov/constitution-annotated/",
+      "claim": "The constitutional amendment route imposes a formal feasibility barrier distinct from public support.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record identifies a gap between public demand for political change and confidence that change is possible. It does not establish reform action, coordination, turnout, protest, institutional performance, causal polarization, or successful constitutional change.",
+  "retrieval_hash": "sha256:9f7c0b6e5a4d3c2b1a0987654321fedcba9876543210abcdef1234567890abcd"
+}

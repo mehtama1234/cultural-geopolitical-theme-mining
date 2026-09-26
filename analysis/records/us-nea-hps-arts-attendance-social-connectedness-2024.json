@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nea-hps-arts-attendance-social-connectedness-2024",
+  "title": "Arts participation is a socially patterned cultural resource associated with connection",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "National Endowment for the Arts analysis of Census Household Pulse Survey Phase 4.1 cycles 04-07",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 2 through July 22, 2024; four Household Pulse cycles",
+      "denominator": {
+        "value": 100,
+        "unit": "U.S. adults in the Household Pulse Survey estimates",
+        "value_type": "published_survey_base"
+      },
+      "measures": {
+        "in_person_arts_attendance": {"value": 25.2, "unit": "percent attending a live performance and/or art exhibit in the previous month", "value_type": "published_share"},
+        "arts_creation": {"value": 16.3, "unit": "percent creating, practicing, or performing art in the previous month", "value_type": "published_share"},
+        "arts_access_agreement": {"value": 62.2, "unit": "percent agreeing there were plenty of neighborhood or community arts opportunities", "value_type": "published_share"},
+        "low_income_attendance": {"value": 16.2, "unit": "percent of adults earning under $25,000 attending an arts event in the previous month", "value_type": "published_subgroup_share"},
+        "high_income_attendance": {"value": 55.2, "unit": "percent of adults earning $200,000 or more attending an arts event in the previous month", "value_type": "published_subgroup_share"},
+        "arts_attendance_support_association": {"value": "arts attendees reported always/usually receiving needed social and emotional support at 29.8%/39.5%, versus 23.4%/24.1% among non-attendees", "unit": "same-round percentage comparison", "value_type": "published_association"}
+      },
+      "method": "NEA descriptive analysis of four Census Household Pulse Survey Phase 4.1 cycles; attendance, creation, access, loneliness, social/emotional support, and social-contact measures are retained as separate survey surfaces.",
+      "uncertainty": "The source is repeated cross-sectional and correlational. It does not establish whether arts participation caused support or whether prior resources and social ties enabled both. The previous-month window does not measure durable participation, quality, meaning, organizational continuity, or later civic action.",
+      "subgroup": "U.S. adults with comparisons by age, gender, race/ethnicity, education, household income, and arts attendance or creation status.",
+      "counterinterpretation": "Arts attendance may be a marker of money, time, health, transportation, education, place, prior social ties, or selection into participation rather than an independent cause of connection. A person can have meaningful cultural participation outside the surveyed activities.",
+      "source_url": "https://www.arts.gov/sites/default/files/HPS-Brief-final.pdf",
+      "retrieval_hash": "sha256:1fb1a8042c47b3a8da1f182bc1c4812c0713549d40fd70a44f70225f6ee564b9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.arts.gov/impact/research/NASERC/arts-participants", "claim": "NEA identifies the brief as part of its arts-participation research and Census-administered data program.", "status": "official-method-context"},
+    {"source_url": "https://www.census.gov/programs-surveys/household-pulse-survey.html", "claim": "Census Household Pulse Survey provides the underlying timely social and economic survey context.", "status": "official-survey-context"}
+  ],
+  "boundary": "This record adds a cultural-infrastructure association: arts access and participation are distributed unevenly and correlate with reported social connection. It does not establish an arts treatment effect, durable belonging, community repair, organizational success, or political action.",
+  "retrieval_hash": "sha256:1fb1a8042c47b3a8da1f182bc1c4812c0713549d40fd70a44f70225f6ee564b9"
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-findex-2025-connectivity-financial-resilience",
+  "title": "Mobile connectivity is widening financial access while digital safety, gender, income, and resilience gaps remain",
+  "theme_ids": ["cost", "voice", "work", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "World Bank, Global Findex Database 2025: Connectivity and Financial Inclusion in the Digital Economy",
+  "geography": "141 economies, based on nationally representative surveys conducted in 2024",
+  "observations": [
+    {
+      "period": "2021-2024; account ownership and mobile connectivity",
+      "denominator": {"value": 141, "unit": "economies covered by nationally representative Global Findex surveys", "value_type": "global_survey_frame"},
+      "measures": {
+        "global_account_ownership": {"value": 79, "unit": "percent of adults globally with a financial account in 2024", "value_type": "reported_share"},
+        "global_account_ownership_2021": {"value": 74, "unit": "percent of adults globally with a financial account in 2021", "value_type": "reported_share"},
+        "global_mobile_phone_ownership": {"value": 86, "unit": "percent of adults globally owning a mobile phone", "value_type": "reported_share"},
+        "survey_adults": {"value": 148000, "unit": "approximately adults surveyed", "value_type": "reported_count"}
+      },
+      "method": "World Bank Global Findex nationally representative demand-side surveys measuring account ownership and mobile-phone access.",
+      "uncertainty": "Country coverage, survey timing, definitions, and population weights affect comparability; account ownership and phone ownership do not establish effective use, affordability, or welfare gains.",
+      "subgroup": "Adults across low-, middle-, and high-income economies, including women, poorer adults, and people with limited digital access.",
+      "counterinterpretation": "Rising account ownership can reflect payment digitization or policy enrollment without increasing savings, control, privacy, or financial security; mobile access can also introduce new fraud and dependency risks.",
+      "source_url": "https://www.worldbank.org/en/publication/globalfindex/report",
+      "retrieval_hash": "sha256:ed12c26be7c46df124ae4f328b02593d0b5779f250a000944aa771e53eacfae2",
+      "status": "reported"
+    },
+    {
+      "period": "2024; digital payments and saving behavior",
+      "denominator": {"value": 141, "unit": "economies covered by the Global Findex 2025 survey frame", "value_type": "global_survey_frame"},
+      "measures": {
+        "digital_merchant_payments": {"value": 42, "unit": "percent of adults making digital merchant payments in 2024", "value_type": "reported_share"},
+        "lmics_mobile_money_saving": {"value": 10, "unit": "percent of adults in developing economies using a mobile-money account to save in 2024", "value_type": "reported_share"},
+        "lmics_mobile_money_saving_2021": {"value": 5, "unit": "percentage-point increase in the share using mobile-money accounts to save since 2021", "value_type": "reported_change"}
+      },
+      "method": "World Bank comparison of digital merchant payments and mobile-money saving across survey rounds and economy groups.",
+      "uncertainty": "Payment and saving measures capture reported behavior, not balances, returns, quality, or whether digital use displaced safer or more affordable alternatives.",
+      "subgroup": "Adults in developing economies, mobile-money users, merchants, account holders, and people using digital payments or savings tools.",
+      "counterinterpretation": "Digital payments may increase convenience and formal access while shifting costs, fraud exposure, data extraction, or pressure to transact onto consumers.",
+      "source_url": "https://www.worldbank.org/en/publication/globalfindex/report/accounts-saving-borrowing-payments",
+      "retrieval_hash": "sha256:ed12c26be7c46df124ae4f328b02593d0b5779f250a000944aa771e53eacfae2",
+      "status": "reported"
+    },
+    {
+      "period": "2024; gender, income, and exclusion gaps",
+      "denominator": {"value": 1, "unit": "global and low- and middle-income adult population comparisons in Global Findex 2025", "value_type": "comparative_survey_frame"},
+      "measures": {
+        "lmics_women_account_ownership": {"value": 73, "unit": "percent of women in low- and middle-income economies with a financial account in 2024", "value_type": "reported_share"},
+        "lmics_women_formal_saving": {"value": 36, "unit": "percent of women in low- and middle-income economies using formal saving in 2024", "value_type": "reported_share"},
+        "lmics_women_digital_payments": {"value": 58, "unit": "percent of women in low- and middle-income economies making or receiving digital payments in 2024", "value_type": "reported_share"},
+        "unaccounted_women": {"value": 700, "unit": "millions of women worldwide without a financial account", "value_type": "reported_estimate"}
+      },
+      "method": "World Bank gender- and income-disaggregated analysis of account ownership, formal saving, digital payments, and access gaps.",
+      "uncertainty": "Group averages conceal country, household, age, disability, rurality, documentation, and intra-household-control differences; access does not equal independent control or benefit.",
+      "subgroup": "Women, men, poorer adults, low- and middle-income economies, account holders, and financially excluded adults.",
+      "counterinterpretation": "Gender gaps may narrow through mobile money and payment systems while persisting in phone ownership, identification, privacy, bargaining power, literacy, safety, and product quality.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/more-women-have-financial-accounts--yet-equal-access-and-use-rem",
+      "retrieval_hash": "sha256:ed12c26be7c46df124ae4f328b02593d0b5779f250a000944aa771e53eacfae2",
+      "status": "reported"
+    },
+    {
+      "period": "2024; digital safety and financial resilience",
+      "denominator": {"value": 141, "unit": "economies covered by the Global Findex 2025 digital-connectivity and financial-health measures", "value_type": "global_survey_frame"},
+      "measures": {
+        "unbanked_without_phone": {"value": 31, "unit": "percent of adults without financial accounts in low- and middle-income economies who also do not own a mobile phone", "value_type": "reported_share"},
+        "south_asia_subsaharan_unbanked_without_phone": {"value": 50, "unit": "approximately share of unaccounted adults in South Asia and Sub-Saharan Africa who also lack a mobile phone", "value_type": "reported_share"},
+        "financial_resilience": {"value": "the share of financially resilient adults in low- and middle-income economies held broadly steady since 2021", "unit": "Global Findex 2025 reported pattern", "value_type": "reported_status"},
+        "digital_safety": {"value": "the database adds globally comparable indicators on phone security, internet use, and digital safety", "unit": "new measurement scope", "value_type": "reported_scope"}
+      },
+      "method": "World Bank Digital Connectivity Tracker and financial-health indicators combined with account, payment, saving, and borrowing measures.",
+      "uncertainty": "Digital-safety indicators are early cross-country measures and do not capture all harms, institutional remedies, or long-run resilience; financial resilience is a broad capacity measure rather than observed shock recovery.",
+      "subgroup": "Unbanked adults, people without phones, women and poorer adults, rural and low-connectivity populations, and adults managing major expenses or income loss.",
+      "counterinterpretation": "A phone or account can be an enabler without being sufficient for resilience; social networks, public transfers, employment, health, and consumer protection remain part of the buffer.",
+      "source_url": "https://www.worldbank.org/en/publication/globalfindex/download-data",
+      "retrieval_hash": "sha256:ed12c26be7c46df124ae4f328b02593d0b5779f250a000944aa771e53eacfae2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/report/financial-health", "claim": "The Global Findex financial-health chapter provides complementary resilience and risk-management measures."},
+    {"source_url": "https://www.worldbank.org/en/publication/globalfindex/report", "claim": "The Global Findex 2025 report provides the primary survey frame and chapter structure."}
+  ],
+  "boundary": "This record adds a global connectivity-to-financial-inclusion route linking mobile access, accounts, payments, saving, gender and income gaps, digital safety, and financial resilience. It uses aggregate publication findings from nationally representative surveys, not respondent-level analysis, personal transaction records, causal welfare estimates, or claims that digital finance automatically improves household security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Global Findex 2025 report, database page, financial-inclusion chapters, and data-download materials were checked for the survey frame, connectivity, payment, saving, gender, exclusion, digital-safety, and resilience claims.",
+    "source_url_sha256": "sha256:ed12c26be7c46df124ae4f328b02593d0b5779f250a000944aa771e53eacfae2",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks",
+  "title": "Geopolitical energy shocks are narrowing growth and fiscal room unevenly, making debt capacity, buffers, and private investment central to social and institutional resilience",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "World Bank Group, Global Economic Prospects, June 2026",
+  "geography": "Global economy, emerging market and developing economies, low-income countries, commodity exporters, firms, households, and public budgets",
+  "observations": [
+    {
+      "period": "2025-2028; global growth and geopolitical energy shock",
+      "denominator": {
+        "value": 1,
+        "unit": "World Bank global economic outlook frame",
+        "value_type": "global_macro_outlook_frame"
+      },
+      "measures": {
+        "global_growth_2025": {"value": 2.9, "unit": "percent global growth in 2025", "value_type": "reported_global_growth"},
+        "global_growth_2026": {"value": 2.5, "unit": "percent projected global growth in 2026", "value_type": "forecast_global_growth"},
+        "global_growth_2027": {"value": 2.8, "unit": "percent projected global growth in 2027", "value_type": "forecast_global_growth"},
+        "global_inflation_2026": {"value": 4.0, "unit": "percent projected global inflation in 2026", "value_type": "forecast_global_inflation"},
+        "downside_growth_2026": {"value": 1.3, "unit": "percent projected global growth in a more severe disruption and financial-stress scenario in 2026", "value_type": "modeled_downside_scenario"}
+      },
+      "method": "World Bank global economic projections incorporating energy-price, conflict, trade, inflation, financial, and policy-risk scenarios.",
+      "uncertainty": "These are forecasts and downside scenarios, not realized outcomes; they depend on conflict duration, energy supply, financial stress, trade policy, substitution, and policy response.",
+      "subgroup": "Energy importers and exporters, households, firms, workers, governments, financial institutions, and economies with different fiscal and policy buffers.",
+      "counterinterpretation": "Energy prices and trade can recover faster than assumed, while policy support, substitution, strategic reserves, and private investment can cushion the aggregate slowdown; average growth hides distributional effects.",
+      "source_url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+      "retrieval_hash": "sha256:928bc9cafc9bccfab11152c3365c402adea2456eef4bc03f545ed84f7786404a",
+      "status": "estimated"
+    },
+    {
+      "period": "2026-2028; regional and low-income-country exposure",
+      "denominator": {
+        "value": 1,
+        "unit": "emerging market and developing economy regional outlook frame",
+        "value_type": "cross_region_forecast_frame"
+      },
+      "measures": {
+        "developing_economy_growth_2025": {"value": 4.4, "unit": "percent growth in developing economies in 2025", "value_type": "reported_growth"},
+        "developing_economy_growth_2026": {"value": 3.6, "unit": "percent projected growth in developing economies in 2026", "value_type": "forecast_growth"},
+        "low_income_growth_2026": {"value": 5.4, "unit": "percent projected growth in low-income countries in 2026", "value_type": "forecast_growth"},
+        "low_income_per_capita_growth_2026_2028": {"value": 2.7, "unit": "percent average projected real per-capita GDP growth in low-income countries over 2026-2028", "value_type": "forecast_per_capita_growth"},
+        "regional_exposure_mechanisms": {"value": "energy exposure, strategic reserves, policy buffers, food and fertilizer prices, fiscal pressure, and financial conditions", "unit": "reported regional transmission set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "World Bank regional and low-income-country projections with analysis of energy exposure, reserves, policy buffers, commodity markets, and fiscal conditions.",
+      "uncertainty": "Regional averages do not identify country or household incidence; projections depend on conflict and commodity paths, domestic policy, weather, financing, and measurement revisions.",
+      "subgroup": "Low-income countries, commodity importers and exporters, food-insecure households, workers, firms, fiscal authorities, and economies with weak diversification.",
+      "counterinterpretation": "Some regions can maintain strong growth through domestic demand, diversification, reserves, remittances, or public investment even when global conditions weaken; per-capita averages do not establish poverty or welfare change.",
+      "source_url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+      "retrieval_hash": "sha256:928bc9cafc9bccfab11152c3365c402adea2456eef4bc03f545ed84f7786404a",
+      "status": "estimated"
+    },
+    {
+      "period": "2010-2026; sovereign debt, borrowing costs, and fiscal space",
+      "denominator": {
+        "value": 1,
+        "unit": "emerging market and developing economy sovereign-finance frame",
+        "value_type": "global_fiscal_capacity_frame"
+      },
+      "measures": {
+        "emde_debt_to_gdp_change": {"value": "from under 40 percent to over 70 percent", "unit": "aggregate government-debt-to-GDP change in developing economies since 2010", "value_type": "reported_fiscal_change"},
+        "sovereign_spread_association": {"value": 110, "unit": "basis points associated with rising EMDE debt in sovereign spreads since 2010", "value_type": "reported_association"},
+        "domestic_currency_yield_association": {"value": 30, "unit": "basis points associated with rising EMDE debt in domestic-currency yields since 2010", "value_type": "reported_association"},
+        "fiscal_space_endpoint": {"value": "less room to respond to crises and invest in infrastructure, health, education, jobs, and social protection as debt service and borrowing costs rise", "unit": "reported fiscal-capacity mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank analysis of sovereign debt, interest rates, spreads, domestic-currency yields, credit quality, governance, and fiscal-space implications.",
+      "uncertainty": "The associations are not a single causal estimate of debt on growth or welfare; debt composition, currency, maturity, monetary policy, growth, governance, and investor expectations all matter.",
+      "subgroup": "Highly indebted governments, public-service users, firms dependent on credit, workers, taxpayers, infrastructure providers, and creditors.",
+      "counterinterpretation": "Borrowing can finance productive investment and stabilize economies during shocks; debt reduction can create fiscal room only if adjustment protects essential services and does not deepen contraction.",
+      "source_url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+      "retrieval_hash": "sha256:928bc9cafc9bccfab11152c3365c402adea2456eef4bc03f545ed84f7786404a",
+      "status": "reported"
+    },
+    {
+      "period": "2026; private investment, firms, infrastructure, and AI adoption",
+      "denominator": {
+        "value": 1,
+        "unit": "emerging market and developing economy investment and productivity frame",
+        "value_type": "global_investment_capacity_frame"
+      },
+      "measures": {
+        "private_investment_constraint_set": {"value": "infrastructure gaps, high risk and uncertainty, and limited access to finance", "unit": "reported firm-investment constraints", "value_type": "reported_constraint_set"},
+        "investment_response": {"value": "strengthening infrastructure, improving the business environment, expanding finance, and reinforcing institutional quality", "unit": "reported policy response set", "value_type": "reported_policy_mechanism_set"},
+        "ai_distribution_risk": {"value": "economies without the ecosystem and policy environment to adopt AI widely risk falling further behind", "unit": "reported cross-economy risk", "value_type": "reported_distributional_risk"},
+        "jobs_endpoint": {"value": "physical, human, and digital capital plus private investment are identified as routes to job creation", "unit": "reported development mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "World Bank synthesis of private-investment trends, firm constraints, AI adoption conditions, infrastructure, institutional quality, and job-creation policy.",
+      "uncertainty": "The report identifies constraints and policy priorities, not realized firm investment, AI adoption, job quality, productivity, or equal access to capital and infrastructure.",
+      "subgroup": "Small and large firms, workers, governments, private investors, infrastructure providers, entrepreneurs, and communities outside high-capability locations.",
+      "counterinterpretation": "Public and private investment can reinforce one another, and crisis conditions can accelerate reform or technology adoption; institutional reforms may take time and can distribute benefits unevenly.",
+      "source_url": "https://www.worldbank.org/en/publication/global-economic-prospects",
+      "retrieval_hash": "sha256:928bc9cafc9bccfab11152c3365c402adea2456eef4bc03f545ed84f7786404a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/", "claim": "Official World Bank document page for the June 2026 Global Economic Prospects report and downloadable report."},
+    {"source_url": "https://www.worldbank.org/en/news/press-release/2026/06/11/global-economic-prospects-june-2026-press-release", "claim": "World Bank press release with the growth, inflation, financing-response, debt, and regional outlook summary."}
+  ],
+  "boundary": "This record adds a geopolitical-shock-to-growth-to-fiscal-space-to-investment route linking energy prices, inflation, debt, borrowing costs, public budgets, firms, infrastructure, AI adoption, and jobs. It is not respondent-level data, a household welfare estimate, a realized crisis outcome, or proof that fiscal or private-investment recommendations were implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank Global Economic Prospects June 2026 landing page, document page, and press release were reviewed; global and regional forecasts, downside scenario, debt and borrowing-cost associations, private-investment constraints, AI risk, and policy-response boundaries were cross-checked.",
+    "source_url_sha256": "sha256:928bc9cafc9bccfab11152c3365c402adea2456eef4bc03f545ed84f7786404a",
+    "checked": "2026-09-26"
+  }
+}

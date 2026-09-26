@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-lithuania-drone-interception-alliance-response-2026",
+  "title": "A Baltic air-policing mission moved from standing posture to a real interception while alliance unity was publicly reinforced",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Lithuanian Ministry of National Defence operational account and follow-up statement on NATO air-policing activity",
+  "geography": "Lithuania, Baltic airspace, NATO Baltic air-policing mission, and Italy",
+  "observations": [
+    {
+      "period": "September 15, 2026; NATO fighters operating Baltic air-defence functions",
+      "denominator": {
+        "value": 1,
+        "unit": "reported drone incursion into Lithuanian airspace",
+        "value_type": "reported_operational_episode"
+      },
+      "measures": {
+        "mission_action": {
+          "value": "NATO fighters scrambled to identify, intercept, and destroy a drone that entered Lithuanian airspace",
+          "unit": "reported air-policing response",
+          "value_type": "reported_operational_action"
+        },
+        "host_alliance_integration": {
+          "value": "Italian crews conducting NATO air-defence duties in Lithuania were publicly credited with the response",
+          "unit": "reported multinational operational integration",
+          "value_type": "reported_alliance_operation"
+        },
+        "civilian_or_strategic_result": {
+          "value": "not observed",
+          "unit": "missing independent incident attribution, cost, readiness depletion, civilian-risk reduction, public burden, deterrence, and adversary adaptation",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from an official Lithuanian Ministry of National Defence weekly operational summary; interception is retained as an observed response, separate from attribution, strategic effect, and public legitimacy.",
+      "uncertainty": "The source reports the action but does not identify the drone's origin or intent, the full interception sequence, resource cost, civilian exposure, damage, or whether any external actor changed behavior.",
+      "subgroup": "NATO air-policing personnel, Lithuanian airspace and host institutions, Italian crews, and populations exposed to the incident; no individual or civilian outcome sample is provided.",
+      "counterinterpretation": "A successful interception can demonstrate delegated operational capacity while still leaving the affordability, sustainability, escalation, and legitimacy of repeated air-policing responses unresolved.",
+      "source_url": "https://kam.lt/reagavimo-i-orlaiviu-skrydzius-prie-baltijos-valstybiu-sienu-rugsejo-14-20-d/",
+      "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf",
+      "status": "reported"
+    },
+    {
+      "period": "September 15, 2026; Lithuanian and Italian defence-minister follow-up",
+      "denominator": {
+        "value": 1,
+        "unit": "named Lithuanian-Italian defence-minister follow-up to the drone incident",
+        "value_type": "reported_political_follow_up"
+      },
+      "measures": {
+        "political_interpretation": {
+          "value": "Lithuania described the incident and Italian air-policing performance as evidence of NATO unity",
+          "unit": "official host-government interpretation",
+          "value_type": "reported_legitimacy_claim"
+        },
+        "capability_priority": {
+          "value": "the ministers emphasized stronger European air defence, critical-infrastructure protection, and improved detection and neutralization",
+          "unit": "reported policy priority",
+          "value_type": "reported_policy_response"
+        },
+        "durable_external_effect": {
+          "value": "not observed",
+          "unit": "missing later procurement, sustained deployment, public acceptance, deterrence, or adversary response",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Follow-up of the official Lithuanian defence-ministry statement; political interpretation and stated capability priorities are kept separate from the operational interception and from durable policy implementation.",
+      "uncertainty": "The statement is a government account and does not independently establish the incident's origin, the causal effect of the interception on future behavior, or the eventual delivery and affordability of any capability improvements.",
+      "subgroup": "Lithuanian and Italian defence ministries, NATO air-policing personnel, host communities, and allied governments; no public-opinion or cost denominator is reported.",
+      "counterinterpretation": "Publicly framing an incident as alliance unity may support political cohesion while leaving domestic trade-offs and the durability of that cohesion unmeasured.",
+      "source_url": "https://kam.lt/r-kaunas-su-italijos-gygynybos-ministru-nakties-incidentas-patvirtino-kad-esame-vienas-aljansas/",
+      "retrieval_hash": "sha256:14b6e16e0eb09841219edd150d49036cc0c554a56651a8a25e62f9f17454fc51",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/05/20/pre-ministerial-press-conference",
+      "claim": "NATO describes Baltic air-policing operations as a delegated response and links them to Eastern Sentry and learning from drone warfare.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a real operational interception and host-government alliance-response stage to the geopolitical/state lane. It does not establish independent attribution, deterrence, external behavioral change, civilian protection, public consent, cost sustainability, or durable capability investment. It is distinct from the 2025 Polish airspace episode and from exercise-only records because the official account reports a named 2026 interception.",
+  "retrieval_hash": "sha256:4840395925a85b5fcd7a580d440701fa45ea9ed716fe93a156e564fe826882bf"
+}

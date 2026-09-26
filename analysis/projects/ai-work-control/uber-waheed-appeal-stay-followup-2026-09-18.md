@@ -1,7 +1,7 @@
 # Waheed appeal-stay follow-up recheck v1
 
 **Status:** bounded public-document implementation recheck; interim payment obligation observed, receipt and actual access remain unobserved  
-**Checked:** 2026-09-18
+**Checked:** 2026-09-19
 
 ## Result
 
@@ -21,6 +21,15 @@ That is an observed **payment obligation and legal implementation condition**,
 not a payment receipt. The public search returned no later final quantum,
 appeal determination, bank-side receipt, actual account restoration, or
 continued-work record.
+
+## Current public-record recheck — 2026-09-19
+
+The official Fair Work Commission search was rechecked for `Waheed`,
+`UDE2025/160`, and appeal `C2026/7842`. No later public appeal determination,
+final lost-remuneration quantum, payment receipt, actual account restoration,
+or continued-work record was located. This is a public-record boundary, not
+evidence that the interim payments were not made or that the worker did not
+return to the platform.
 
 ## Stage distinction
 

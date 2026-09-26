@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-cbp-public-private-port-partnerships-2026",
+  "title": "Private port partnerships can expand border-processing capacity while changing who funds the route",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108751 review of CBP Reimbursable Services Program and Donations Acceptance Program",
+  "geography": "United States; 328 land, sea, and air ports of entry and CBP public-private partnership agreements through fiscal year 2025",
+  "observations": [
+    {
+      "period": "FY2024 port activity and partnerships through December 2025",
+      "denominator": {"value": 328, "unit": "U.S. land, sea, and air ports of entry; daily FY2024 traffic context", "value_type": "reported_port_scope"},
+      "measures": {
+        "daily_passengers_pedestrians": {"value": 1150000, "unit": "passengers and pedestrians entering the United States per day, approximately", "value_type": "reported_estimate"},
+        "daily_containers": {"value": 88500, "unit": "truck, rail, and sea containers entering per day, approximately", "value_type": "reported_estimate"},
+        "daily_goods_value": {"value": 9.2, "unit": "billions of U.S. dollars in goods carried by entering containers per day, approximately", "value_type": "reported_estimate"},
+        "reimbursable_partnerships": {"value": 639, "unit": "RSP selections since FY2013; 798 memorandums of understanding", "value_type": "reported_count"},
+        "donation_partnerships": {"value": 70, "unit": "DAP agreements since FY2015", "value_type": "reported_count"}
+      },
+      "method": "GAO collected and analyzed new RSP and DAP agreements and memorandums for FY2024–2025, reviewed program use, and interviewed CBP officials; traffic figures come from CBP data for FY2024.",
+      "uncertainty": "Traffic is a system-wide daily estimate and partnership totals count agreements or selections, not unique travelers served, queue time, inspection quality, cargo release time, or outcomes for a particular port or user.",
+      "subgroup": "Land, sea, and air ports; RSP partners include port authorities, local governments, companies, and airlines; 82% of RSP memorandums cover air ports and 49 of 70 DAP projects were at land ports as of December 2025.",
+      "counterinterpretation": "Private reimbursement or donation can add service hours, lanes, equipment, or screening tools without reducing public accountability; partnership activity may reflect demand for additional service rather than unequal access or privatization of core authority.",
+      "source_url": "https://www.gao.gov/products/gao-26-108751",
+      "retrieval_hash": "sha256:1cbae1444b2120550519c47133aebb7478f1a40e267cc80aa34c80c84733c313",
+      "status": "reported"
+    },
+    {
+      "period": "RSP reimbursement and DAP donation value through December 2025",
+      "denominator": {"value": 1, "unit": "CBP public-private partnership programs reviewed as two distinct routes: reimbursement for extra service and donations for infrastructure or equipment", "value_type": "program_defined_scope"},
+      "measures": {
+        "rsp_overtime_reimbursement": {"value": 302.8, "unit": "millions of U.S. dollars reimbursed by RSP partners for overtime services in calendar years 2014–2025", "value_type": "reported_amount"},
+        "dap_donation_value": {"value": 277.3, "unit": "millions of U.S. dollars; CBP estimate of donations received from September 2015 through December 2025", "value_type": "reported_estimate"},
+        "donation_uses": {"value": "inspection lanes and booths, biometric detection services, and luggage for canine training", "unit": "reported infrastructure and equipment uses", "value_type": "reported_context"}
+      },
+      "method": "GAO review of CBP program and agreement information and CBP-reported reimbursement and donation data.",
+      "uncertainty": "The source does not identify the marginal effect of each payment or donation on staffing, throughput, wait time, inspection outcomes, cargo costs, traveler experience, or local public budgets.",
+      "subgroup": "RSP overtime services and DAP infrastructure or property donations; financial values cover different periods and are not additive measures of one program budget.",
+      "counterinterpretation": "A partner-funded service may be an efficient way to match extra hours to local demand; a donated lane or device may speed processing without granting the donor control over inspection decisions.",
+      "source_url": "https://www.gao.gov/products/gao-26-108751",
+      "retrieval_hash": "sha256:1cbae1444b2120550519c47133aebb7478f1a40e267cc80aa34c80c84733c313",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-108751", "claim": "Official GAO report supplies port traffic, partnership counts, reimbursement, donation, agreement, and program-use findings.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a public-private capacity and funding route at U.S. ports of entry. It does not establish faster queues, better inspection quality, lower trade or travel costs, equal access, public control over decisions, local fiscal effects, or geopolitical border outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report page retrieved and hashed; full report, port administrative records, and traveler or carrier records not retained",
+    "html_sha256": "sha256:1cbae1444b2120550519c47133aebb7478f1a40e267cc80aa34c80c84733c313",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-global-ai-regulation-trust-2026",
+  "title": "Trust in who should regulate AI is internationally distributed rather than aligned with one Western model",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Pew Research Center surveys of 13,696 adults in 12 countries conducted February 8-May 13, 2026, including separate U.S. and cross-national samples",
+  "geography": "United States and 11 additional countries surveyed by Pew Research Center",
+  "observations": [
+    {
+      "period": "2026 cross-national survey",
+      "denominator": {
+        "value": 13696,
+        "unit": "adults surveyed across 12 countries; country samples and dates differ",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "trust_china": {
+          "value": 43,
+          "unit": "median percent across 12 countries trusting China to effectively regulate AI",
+          "value_type": "published_cross_national_median"
+        },
+        "trust_us": {
+          "value": 35,
+          "unit": "median percent across 12 countries trusting the United States to effectively regulate AI",
+          "value_type": "published_cross_national_median"
+        },
+        "trust_eu": {
+          "value": 34,
+          "unit": "median percent across 12 countries trusting the European Union to effectively regulate AI",
+          "value_type": "published_cross_national_median"
+        },
+        "country_pattern": {
+          "value": "China was the most trusted of the three in Bangladesh, Malaysia, Pakistan, Sri Lanka, and the West Bank and East Jerusalem; the Philippines was the only surveyed country where the U.S. was more trusted than both China and the EU",
+          "unit": "country-level comparative pattern",
+          "value_type": "reported_distribution"
+        }
+      },
+      "method": "Pew cross-national survey with country-representative adult samples where available; trust questions compare China, the United States, and the European Union as regulators of AI.",
+      "uncertainty": "Trust is an attitude, not evidence of regulatory quality, policy alignment, AI adoption, or geopolitical dependence. Country samples, field dates, political context, and question interpretation may differ.",
+      "subgroup": "Adults in 12 surveyed countries; U.S. data combine February and June 2026 surveys in the broader report context.",
+      "counterinterpretation": "Higher trust in China may reflect views of domestic sovereignty, recent policy visibility, attitudes toward the U.S. or EU, or general institutional trust rather than endorsement of Chinese technology governance.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/do-people-trust-china-the-u-s-or-the-eu-to-regulate-ai/",
+      "retrieval_hash": "sha256:5a8c1e4f7b0d3c6e9a2f5b8d1c4e7a0f3b6d9e2c5a8f1b4d7e0c3a6f9b2d5e80",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a geopolitical-cultural layer to AI governance: regulatory legitimacy is contested across countries and does not map neatly onto U.S., EU, or Chinese formal capacity. It does not measure actual regulation, platform behavior, alliance alignment, or strategic influence.",
+  "retrieval_hash": "sha256:5a8c1e4f7b0d3c6e9a2f5b8d1c4e7a0f3b6d9e2c5a8f1b4d7e0c3a6f9b2d5e80"
+}

@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-working-parent-work-family-boundary-2026",
+  "title": "Working-parent arrangements trade financial benefit against family and career experience",
+  "theme_ids": ["time", "cost", "work"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center survey of 2,242 U.S. working parents, March 2-15, 2026, plus Census CPS analysis",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 CPS analysis; different-sex couples with children under 18",
+      "denominator": {"value": 1, "unit": "U.S. different-sex couples with children under 18; arrangement shares", "value_type": "population_group"},
+      "measures": {
+        "both_parents_full_time": {"value": 52, "unit": "percent in 2025; 46% in 2015 and 31% in 1975", "value_type": "reported_share"},
+        "dad_full_time_mom_not_employed": {"value": 23, "unit": "percent in 2025; 42% in 1975", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center analysis of U.S. Census Bureau Current Population Survey data.",
+      "uncertainty": "This describes family work arrangements, not hours, income adequacy, care quality, job quality, or household welfare; the comparison is limited to different-sex couples with children under 18.",
+      "subgroup": "Different-sex couples with children under 18; arrangement patterns also reported by race/ethnicity and education.",
+      "counterinterpretation": "Two full-time jobs can reflect opportunity, necessity, preference, childcare availability, or cost pressure; a non-employed mother can reflect care choice, health, job access, or household resources.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-family-work-arrangements-have-changed-over-time/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    },
+    {
+      "period": "March 2-15, 2026 survey; working parents",
+      "denominator": {"value": 2242, "unit": "U.S. working parents surveyed", "value_type": "survey_sample"},
+      "measures": {
+        "both_full_time_positive_finances": {"value": 83, "unit": "percent reporting a positive financial impact", "value_type": "reported_share"},
+        "dad_full_time_mom_not_employed_positive_children": {"value": 85, "unit": "percent of surveyed employed parents in this arrangement reporting a positive child-wellbeing impact; reflects dads' views", "value_type": "reported_share"},
+        "both_full_time_positive_children": {"value": 49, "unit": "percent reporting a positive child-wellbeing impact", "value_type": "reported_share"},
+        "both_full_time_negative_children": {"value": 22, "unit": "percent reporting a negative child-wellbeing impact", "value_type": "reported_share"},
+        "dad_full_time_mom_not_employed_positive_finances": {"value": 19, "unit": "percent reporting a positive financial impact; reflects dads' views", "value_type": "reported_share"},
+        "dad_full_time_mom_not_employed_negative_finances": {"value": 41, "unit": "percent reporting a negative financial impact; reflects dads' views", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center American Trends Panel survey of working parents; family-arrangement groups and perceived impacts are retained as separate descriptive measures.",
+      "uncertainty": "Cross-sectional self-reports do not identify causality. The sample lacks enough working parents in some gender arrangements for separate analysis, and the non-employed-mother child-wellbeing result reflects employed parents' views, especially fathers in the described group.",
+      "subgroup": "Working parents by partnered family work arrangement; race, education, and partnership composition differ across groups.",
+      "counterinterpretation": "Parents may evaluate the same arrangement differently depending on income, care access, job flexibility, gender expectations, and prior preferences; positive finances do not prove lower time or care strain.",
+      "source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-family-work-arrangements-have-changed-over-time/",
+      "retrieval_hash": "sha256:5807a0a53659a9381a7e13e7f66ac74f8a80ce9bb3dc0ba805494de147fd3319",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/social-trends/2026/06/16/how-family-work-arrangements-have-changed-over-time/", "claim": "Pew reports work arrangement trends, parent perceptions, childcare challenges, flexibility, and division of family responsibilities.", "status": "official-source"}
+  ],
+  "boundary": "This record adds a work-family arrangement and meaning layer. It does not establish that a particular arrangement caused financial security, child outcomes, career effects, gender inequality, or care adequacy, and it does not follow one family through a dated care episode or later recovery."
+}

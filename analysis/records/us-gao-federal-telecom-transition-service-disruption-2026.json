@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-telecom-transition-service-disruption-2026",
+  "title": "A replacement telecommunications contract can be delayed while disruption and price exposure remain partly unknown",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107919 review of General Services Administration management of federal agencies' transition from legacy telecommunications contracts to Enterprise Infrastructure Solutions",
+  "geography": "United States federal agencies; six selected agencies and the broader 221-agency transition portfolio",
+  "observations": [
+    {
+      "period": "Transition to EIS; final deadline May 31, 2026",
+      "denominator": {"value": 221, "unit": "federal agencies whose transition was managed by GSA", "value_type": "reported_agency_portfolio"},
+      "measures": {
+        "delay": {"value": "more than three years", "unit": "delay past GSA's revised September 2022 deadline", "value_type": "reported_duration"},
+        "legacy_extension": {"value": "legacy service periods extended until May 2026 at the latest", "unit": "temporary continuity measure", "value_type": "reported_action"},
+        "disruption_status": {"value": "GSA did not know which agencies, if any, experienced service disruptions", "unit": "portfolio outcome visibility", "value_type": "reported_gap"}
+      },
+      "method": "GAO review of transition status, billing data, risk-management documents, and agency interviews; the six selected agencies had significant remaining transition work as of September 2024.",
+      "uncertainty": "The 221-agency portfolio is broader than the six-agency detailed review, and GSA's missing post-transition information prevents a complete disruption estimate.",
+      "subgroup": "Six selected agencies: Agriculture, Commerce, Defense, Homeland Security, Interior, and Transportation; broader portfolio includes 221 agencies.",
+      "counterinterpretation": "Extending legacy contracts may have prevented outages even though it delayed modernization and exposed agencies to other costs.",
+      "source_url": "https://www.gao.gov/products/gao-26-107919",
+      "retrieval_hash": "sha256:b6a774cf392f1c1b0e25625e69398225c0b3c3366ca278042612dd5525389104",
+      "status": "reported"
+    },
+    {
+      "period": "February–March 2025; selected agencies' legacy Networx contracts",
+      "denominator": {"value": 6, "unit": "selected agencies with reported legacy-contract billing comparison", "value_type": "reported_agency_subset"},
+      "measures": {
+        "combined_billing_change": {"value": "206%", "unit": "increase in combined billed cost from February to March 2025", "value_type": "reported_comparison"},
+        "february_cost": {"value": "$13,376,056.85", "unit": "combined selected-agency legacy Networx billing", "value_type": "reported_total"},
+        "march_cost": {"value": "$40,925,594.85", "unit": "combined selected-agency legacy Networx billing", "value_type": "reported_total"},
+        "agency_range": {"value": "138% to 365%", "unit": "agency-level billing increase range", "value_type": "reported_comparison"}
+      },
+      "method": "GAO analysis of billing data supplied by GSA; increases varied with agencies' use of legacy telecommunications technologies.",
+      "uncertainty": "The month-to-month comparison does not by itself isolate vendor pricing, usage, technology mix, one-time charges, or the counterfactual cost of a completed transition.",
+      "subgroup": "The six selected agencies and their Networx contracts.",
+      "counterinterpretation": "A sharp billing increase during an extended legacy period may reflect temporary transition costs or technology-specific exposure rather than a permanent price effect.",
+      "source_url": "https://www.gao.gov/products/gao-26-107919",
+      "retrieval_hash": "sha256:b6a774cf392f1c1b0e25625e69398225c0b3c3366ca278042612dd5525389104",
+      "status": "reported"
+    },
+    {
+      "period": "Transition-risk review through August 2026",
+      "denominator": {"value": 6, "unit": "selected agencies whose delay factors and mitigation records GAO reviewed", "value_type": "reported_agency_subset"},
+      "measures": {
+        "delay_factors": {"value": 21, "unit": "factors identified by the selected agencies as contributing to delay", "value_type": "reported_count"},
+        "mitigation_consistency": {"value": "three of six agencies identified and mitigated risks for more than half of their cited factors", "unit": "agency comparison", "value_type": "reported_comparison"},
+        "open_recommendation": {"value": "GSA should determine disruptions, impacts, and mitigation effectiveness", "unit": "GAO recommendation", "value_type": "reported_recommendation"},
+        "public_service_outcome": {"value": "not yet established", "unit": "agency-level disruption impact and service continuity", "value_type": "unmeasured"}
+      },
+      "method": "GAO assessment of risk documentation, transition deadlines, agency mitigation actions, and GSA follow-up capacity.",
+      "uncertainty": "An open recommendation is a governance gap, not proof that disruption occurred; the report does not provide a complete service-user, worker, or mission-impact ledger.",
+      "subgroup": "GSA and six selected agencies; service users and federal employees are not individually observed.",
+      "counterinterpretation": "Risk documentation can be incomplete even when agencies successfully maintain service; absence of a known disruption is not evidence of a disruption.",
+      "source_url": "https://www.gao.gov/products/gao-26-107919",
+      "retrieval_hash": "sha256:b6a774cf392f1c1b0e25625e69398225c0b3c3366ca278042612dd5525389104",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107919/index.html", "claim": "Official full-report version supplies the transition timeline, billing table, delay factors, risk mitigation review, and recommendation.", "status": "official-report"}
+  ],
+  "boundary": "This record shows that a public telecommunications transition can be delayed, temporarily sustained through legacy contracts, and exposed to price and technology risk while the agency does not yet know the full disruption outcome. It does not establish a nationwide outage rate, customer harm, employee effect, mission failure, or the causal effect of the replacement contract.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for the extracted findings; the full report is linked as a related source.",
+    "html_sha256": "sha256:b6a774cf392f1c1b0e25625e69398225c0b3c3366ca278042612dd5525389104",
+    "checked": "2026-09-22"
+  }
+}

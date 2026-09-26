@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-capital-gains-tax-startup-founder-risk-sharing-2025",
+  "title": "Capital-gains tax design trades founder dilution against downside insurance in a highly concentrated startup payoff distribution",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 34512 using U.S. venture-backed startup, founder, funding-round, exit, and tax-policy model data",
+  "geography": "United States venture-backed startups; tax counterfactuals for founder equity and entrepreneurship",
+  "observations": [
+    {
+      "period": "U.S. venture-backed startup data from 1987–2021; paper issued November 2025",
+      "denominator": {
+        "value": 180000,
+        "unit": "founders in the source dataset; also approximately 96,000 startups, 48,000 exits, and 167,000 funding rounds",
+        "value_type": "reported_dataset_count"
+      },
+      "measures": {
+        "zero_exit_value": {
+          "value": 84,
+          "unit": "percent of founders receiving zero exit value in the venture-backed founder distribution",
+          "value_type": "reported_share"
+        },
+        "top_two_percent_value_share": {
+          "value": 80,
+          "unit": "percent of total exit value captured by the top 2% of founders",
+          "value_type": "reported_share"
+        },
+        "positive_payoff_share_current": {
+          "value": 16,
+          "unit": "percent of individual founders receiving a positive payoff under the current realization-based tax system",
+          "value_type": "reported_share"
+        },
+        "accrual_tax_founder_ownership": {
+          "value": -25,
+          "unit": "percent change in average founder ownership at exit under modeled accrual taxation",
+          "value_type": "modeled_effect"
+        },
+        "accrual_tax_positive_payoff_with_refunds": {
+          "value": 47,
+          "unit": "percent of founders receiving a positive payoff when modeled accrual taxation includes fully refundable tax credits",
+          "value_type": "modeled_share"
+        },
+        "policy_tradeoff": {
+          "value": "dilution versus risk sharing",
+          "unit": "successful founders face earlier tax dilution while unsuccessful founders receive downside insurance through refundable credits",
+          "value_type": "reported_model_mechanism"
+        }
+      },
+      "method": "Construction of venture-backed startup ownership and payoff distributions from SEC filings and financial datasets, followed by a dynamic career-choice model comparing realization-based taxation, accrual taxation with refundable credits, and a wealth-tax counterfactual.",
+      "uncertainty": "The distribution is assembled from venture-backed firms and the tax results are model counterfactuals. Results depend on ownership, valuation, exit, refundability, career-choice, and behavioral assumptions; the paper does not estimate a realized tax reform or all effects on employees, investors, innovation, or public revenue.",
+      "subgroup": "Venture-backed founders, successful and unsuccessful founders, founders with different risk aversion, startup investors, and firms at successive funding rounds; founder, employee, investor, and household exposures are not interchangeable.",
+      "counterinterpretation": "Accrual taxation may alter financing, valuation, incorporation, timing, or founder selection beyond modeled dilution and insurance. Refundable credits may create administrative or fiscal costs, and concentrated upside may reflect selection, effort, capital, networks, or market power rather than tax design alone.",
+      "source_url": "https://www.nber.org/papers/w34512",
+      "retrieval_hash": "sha256:aead8a3233772b9c5a472341c7c0ccc4a7b034fb7546cf773226405371c76695",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34512",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    },
+    {
+      "source_url": "https://www.nber.org/be/20261/capital-gains-taxation-and-startup-founders",
+      "claim": "NBER entrepreneurship bulletin provides dataset scale and tax-counterfactual context.",
+      "status": "official-research-summary"
+    }
+  ],
+  "boundary": "This record establishes a concentrated founder-payoff distribution and a modeled tax-design tradeoff between successful-founder dilution and downside insurance. It does not establish a realized policy effect, startup formation response, employee welfare, innovation, public revenue, or household security."
+}

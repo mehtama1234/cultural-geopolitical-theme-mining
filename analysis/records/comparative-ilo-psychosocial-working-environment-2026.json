@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-psychosocial-working-environment-2026",
+  "title": "Work organization is becoming a population health, productivity, and governance problem, not only an individual wellbeing issue",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "ILO, The psychosocial working environment: Global developments and pathways for action",
+  "geography": "Global; international, regional, and national policy evidence synthesized by the ILO",
+  "observations": [
+    {
+      "period": "2026 global estimate; report published 22 April 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "global working population and economy frame used for ILO psychosocial-risk estimates",
+        "value_type": "global_modelled_estimate_frame"
+      },
+      "measures": {
+        "annual_deaths": {"value": 840000, "unit": "more than deaths annually attributed to psychosocial risk factors at work", "value_type": "modelled_global_estimate"},
+        "annual_dalys": {"value": 45000000, "unit": "nearly disability-adjusted life years lost annually", "value_type": "modelled_global_estimate"},
+        "annual_gdp_loss": {"value": 1.37, "unit": "percent of global GDP equivalent estimated as annual loss", "value_type": "modelled_global_estimate"}
+      },
+      "method": "ILO global estimates accompanying a review of documented evidence on psychosocial risks at work; the report presents the estimates as population-level health and economic consequences rather than individual respondent outcomes.",
+      "uncertainty": "These are modelled global estimates whose attribution depends on definitions, exposure measurement, risk relationships, population coverage, and valuation assumptions. They do not identify a causal effect for a particular worker, employer, country, or occupation.",
+      "subgroup": "Workers exposed to different job demands, workloads, levels of autonomy, working-time arrangements, role clarity, and fairness or transparency in workplace processes.",
+      "counterinterpretation": "Work can also provide social connection, meaning, autonomy, and material security; a high-risk environment estimate does not imply that every demanding job produces harm or that one workplace intervention has the same effect everywhere.",
+      "source_url": "https://www.ilo.org/publications/psychosocial-working-environment-global-developments-and-pathways-action",
+      "retrieval_hash": "sha256:f72f05a8936ec5fc905872a613ee9fb2da50c199ea42b33370b5b7d4eea6bb19",
+      "status": "estimated"
+    },
+    {
+      "period": "2026 report; job design, management, and institutional response",
+      "denominator": {
+        "value": 1,
+        "unit": "ILO three-level psychosocial-working-environment framework and policy review",
+        "value_type": "policy_analysis_universe"
+      },
+      "measures": {
+        "risk_inputs": {"value": "job demands, role clarity, workload, autonomy, working-time arrangements, and fair and transparent processes", "unit": "reported workplace-design dimensions", "value_type": "reported_mechanism_set"},
+        "control_route": {"value": "job design, work organization and management, and broader policies, practices, and procedures are treated as actionable levels for prevention and management", "unit": "reported intervention architecture", "value_type": "reported_policy_pathway"},
+        "outcome_route": {"value": "worker safety, health, and performance", "unit": "reported target outcomes", "value_type": "reported_outcome_domain"}
+      },
+      "method": "ILO synthesis of documented evidence and international, regional, and national policy developments, organized around interrelated workplace and institutional levels.",
+      "uncertainty": "The framework identifies mechanisms and intervention points but does not establish that all listed inputs have equal prevalence, that one level dominates, or that policy adoption produces measurable improvement without implementation and follow-up evidence.",
+      "subgroup": "Workers, employers, managers, labour institutions, regulators, and public-health systems operating under different employment, sector, and national governance conditions.",
+      "counterinterpretation": "Employer programmes can shift responsibility onto workers if workload, autonomy, staffing, scheduling, or fairness are unchanged; formal policy adoption is therefore not equivalent to safer work or restored worker control.",
+      "source_url": "https://www.ilo.org/publications/psychosocial-working-environment-global-developments-and-pathways-action",
+      "retrieval_hash": "sha256:f72f05a8936ec5fc905872a613ee9fb2da50c199ea42b33370b5b7d4eea6bb19",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00033223", "claim": "Persistent ILO identifier for the report."},
+    {"source_url": "https://www.ilo.org/resource/news/840000-deaths-year-linked-psychosocial-risks-work", "claim": "ILO companion news release for the global psychosocial-risk estimates."}
+  ],
+  "boundary": "This record adds a global work-organization-to-health, productivity, and governance route. It is not respondent-level data, does not estimate individual mental-health outcomes, and does not establish causal effects of a specific employer, schedule, platform, or policy on worker wellbeing, household security, trust, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO publication page and linked PDF retrieved; report date, three-level framework, global deaths, DALYs, GDP-equivalent estimate, and policy caveats were cross-checked against the official page.",
+    "pdf_sha256": "sha256:f72f05a8936ec5fc905872a613ee9fb2da50c199ea42b33370b5b7d4eea6bb19",
+    "checked": "2026-09-26"
+  }
+}

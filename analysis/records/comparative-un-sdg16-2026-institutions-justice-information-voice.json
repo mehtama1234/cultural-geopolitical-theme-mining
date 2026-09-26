@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg16-2026-institutions-justice-information-voice",
+  "title": "Institutional progress is widening on paper while justice, information access, and inclusive voice remain uneven",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["public_systems_feedback", "political_judgment_action", "trust_identity_meaning", "unequal_exposure_status", "geopolitical_state_consequences"],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 16: Peace, Justice and Strong Institutions",
+  "geography": "Global country and institutional reporting across SDG 16 indicators",
+  "observations": [
+    {
+      "period": "2015-2024; global homicide and violence trend",
+      "denominator": {"value": 1, "unit": "global SDG 16 violence reporting frame", "value_type": "global_indicator_frame"},
+      "measures": {
+        "homicide_change": {"value": -14, "unit": "percent change in global homicide rate", "value_type": "reported_change"},
+        "2030_gap": {"value": "current trajectory remains short of the SDG ambition to significantly reduce violence", "unit": "reported progress assessment", "value_type": "reported_gap"},
+        "distribution": {"value": "violence remains concentrated in a few regions and disproportionately burdens women and children", "unit": "reported distributional pattern", "value_type": "reported_pattern"}
+      },
+      "method": "UNSD compilation of SDG 16 country indicators and global estimates.",
+      "uncertainty": "Global aggregates mask conflict, reporting, definition, and regional coverage differences; a trend in homicide does not summarize all forms of violence or insecurity.",
+      "subgroup": "Women, children, civilians in conflict-affected settings, and populations in regions with concentrated violence.",
+      "counterinterpretation": "The decline in the global homicide rate is meaningful progress even though it is uneven and insufficient for the stated target.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-16/",
+      "retrieval_hash": "sha256:d54fc250c54c4f06381bf82200e6e450619a6cb0f7406b005042b6a8a0b652be",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2026; legal access to information and justice implementation",
+      "denominator": {"value": 1, "unit": "countries covered by SDG 16 institutional reporting", "value_type": "country_reporting_frame"},
+      "measures": {
+        "information_laws": {"value": 141, "unit": "countries with adopted access-to-information laws as of 2026", "value_type": "reported_count"},
+        "implementation_gap": {"value": "compliance with access-to-information frameworks remains inconsistent", "unit": "reported institutional gap", "value_type": "reported_gap"},
+        "bribery_gradient": {"value": 3, "unit": "times higher bribery rate in low-income than high-income countries", "value_type": "reported_ratio"}
+      },
+      "method": "UNSD synthesis of SDG legal-framework, public-integrity, and governance indicators.",
+      "uncertainty": "Legal adoption is not equivalent to timely access, enforcement, service quality, or freedom from informal barriers; cross-country bribery measures vary in coverage and reporting.",
+      "subgroup": "Information seekers, public-service users, low-income populations, journalists, civil society, and people interacting with public officials.",
+      "counterinterpretation": "Expansion of legal frameworks can create durable institutional capacity even when enforcement and everyday usability lag.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-16/",
+      "retrieval_hash": "sha256:d54fc250c54c4f06381bf82200e6e450619a6cb0f7406b005042b6a8a0b652be",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; independent national human-rights institutions",
+      "denominator": {"value": 1, "unit": "countries assessed under Paris Principles accreditation reporting", "value_type": "institutional_assessment_frame"},
+      "measures": {
+        "fully_compliant": {"value": 89, "unit": "countries with fully compliant national human-rights institutions in 2025", "value_type": "reported_count"},
+        "baseline": {"value": 70, "unit": "countries with fully compliant institutions in 2015", "value_type": "reported_count"},
+        "plateau": {"value": "the number of compliant institutions plateaued in 2025", "unit": "reported momentum assessment", "value_type": "reported_pattern"}
+      },
+      "method": "UNSD reporting drawing on national human-rights institution compliance with the Paris Principles.",
+      "uncertainty": "Accreditation status measures institutional standards and independence on a formal framework; it does not directly measure the effectiveness of remedies or public trust.",
+      "subgroup": "People seeking rights protection, civil-society organizations, national oversight bodies, and populations in states with partially compliant or absent institutions.",
+      "counterinterpretation": "The increase from 70 to 89 fully compliant institutions shows institutional diffusion despite a recent slowdown.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-16/",
+      "retrieval_hash": "sha256:d54fc250c54c4f06381bf82200e6e450619a6cb0f7406b005042b6a8a0b652be",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; inclusive governance and political voice",
+      "denominator": {"value": 1, "unit": "global political and public-service representation reporting frame", "value_type": "representation_frame"},
+      "measures": {
+        "women_speaker_appointments": {"value": 16, "unit": "percent of new speaker appointments held by women", "value_type": "reported_share"},
+        "decision_power": {"value": "women and young people remain underrepresented in parliaments, public service, and the judiciary and are often excluded from the most influential roles", "unit": "reported representation pattern", "value_type": "reported_pattern"},
+        "institutional_link": {"value": "underrepresentation limits whose experiences shape decisions under conflict, climate, economic, and technological disruption", "unit": "reported governance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNSD synthesis of SDG 16 political representation and institutional inclusion indicators.",
+      "uncertainty": "Representation counts do not fully capture agenda-setting power, intersectional exclusion, informal influence, or policy responsiveness.",
+      "subgroup": "Women, young people, marginalized groups, public-service applicants, elected representatives, and communities affected by institutional decisions.",
+      "counterinterpretation": "Descriptive representation can improve visibility and institutional legitimacy, but it is not by itself evidence of equal policy outcomes.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/Goal-16/",
+      "retrieval_hash": "sha256:d54fc250c54c4f06381bf82200e6e450619a6cb0f7406b005042b6a8a0b652be",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://sdgs.un.org/goals/goal16", "claim": "UN DESA Goal 16 page and 2026 extended-report context for peace, justice, access to information, and strong institutions."},
+    {"source_url": "https://www.undp.org/speeches/new-sdg16-report-shows-progress-possible-it-remains-too-slow-uneven-and-fragile", "claim": "UNDP launch statement for the Fourth Global Report on SDG 16 and its slow, uneven, fragile progress framing."}
+  ],
+  "boundary": "This record adds an aggregate institutional-performance route linking violence, justice, public information, human-rights oversight, and inclusive political voice. It is not a respondent survey, individual justice-experience panel, country causal estimate, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNSD 2026 Goal 16 page and linked UN/UNDP context were reviewed; violence, information access, bribery, human-rights institutions, and representation claims were cross-checked.",
+    "source_url_sha256": "sha256:d54fc250c54c4f06381bf82200e6e450619a6cb0f7406b005042b6a8a0b652be",
+    "checked": "2026-09-26"
+  }
+}

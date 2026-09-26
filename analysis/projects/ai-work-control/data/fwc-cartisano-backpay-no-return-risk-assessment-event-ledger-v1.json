@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_employment_remedy_followup_record",
+  "purpose": "Bounded Fair Work Commission case preserving an unfair-dismissal finding, medical and workplace-access constraint, reported back-pay payment, continuity order, and failure of actual return while a risk assessment was used.",
+  "events": [
+    {
+      "event_id": "FWC-CARTISANO-BACKPAY-NO-RETURN-2015-02-27",
+      "unit": "worker",
+      "geography": "South Australia; Fair Work Commission Sportsmed SA appeal [2015] FWCFB 1523",
+      "actor_initiating_change": "employer",
+      "event_date": "2014-08-14",
+      "date_precision": "back-pay and continuity implementation reported on 14 August 2014; Full Bench decision dated 27 February 2015",
+      "denominator": "One publicly adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission Full Bench decision [2015] FWCFB 1523",
+      "missingness": "Private medical, payroll, household, treatment, alternative-job, and later-employment records are not retained; exact net payment, later remedy execution, final employment outcome, and post-decision livelihood are not observed",
+      "condition_or_decision": "health_event",
+      "exposure": "The worker suffered a non-work-related motor-vehicle injury, returned with restrictions, stopped working, and was terminated from her CSSD Manager role on 7 November 2013; the Commission found the dismissal unfair",
+      "alternatives_before_action": "The public record does not identify a completed alternative job, accessible redeployment, household buffer, or feasible substitute income",
+      "immediate_burden_or_benefit": "A remedy order restored lost pay and continuity, but the employer did not permit actual return while a medical/risk assessment was undertaken; the worker was treated as on unpaid leave",
+      "choice_or_response": "The worker pursued the unfair-dismissal route, attended the workplace and risk assessment, appealed the conditional reinstatement, and sought a real return rather than only contractual restoration",
+      "person_or_actor_with_control": "The employer controlled workplace access and risk-assessment implementation; medical assessors supplied capacity evidence; the worker controlled appeal participation; the Commission controlled the remedy and legal interpretation",
+      "remedy_or_institutional_response": "The Commission ordered reinstatement, continuity, and restoration of lost pay; the record reports back pay paid on or about 14 August 2014. The Full Bench held that the conditional order did not achieve actual reinstatement, set it aside, and issued separate unconditional reinstatement order PR561823 requiring reinstatement within 14 days. A later Federal Circuit Court record reports that she returned on 26 March 2015 but disputed whether the materially altered role was genuine reinstatement",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "The decision reports that Sportsmed paid the back pay owing under the order and paid wages for a further two weeks, while actual work access was not restored; net amount and final payment status are not independently audited",
+      "durability_followup": "The later court record observes a return on 26 March 2015, materially altered duties and status, cessation of work on 24 June 2015 while still employed, and an unresolved constructive-reinstatement dispute; later employment, household recovery, trust, and exit remain unknown",
+      "immediate_outcome": "Lost pay and continuity were reported restored, but the worker did not return to the workplace and the conditional reinstatement was held unauthorized",
+      "protected_outcome": "Money and legal continuity were protected to some extent; actual work access, role restoration, and durable livelihood were not protected in the observed period",
+      "sacrificed_outcome": "The worker remained without actual work and was treated as on unpaid leave despite payment implementation; health, dignity, household, and future-career effects are not measured",
+      "cost_risk_transfer": "The employer paid back wages but retained practical control over workplace entry through the risk-assessment process; the worker carried continued access and livelihood risk",
+      "later_outcome": "The Full Bench replaced the conditional order with unconditional reinstatement order PR561823. The later court record reports actual return on 26 March 2015, disputed role degradation, and cessation of work on 24 June 2015 while still employed; no retained public record verifies final compensation, later employment, household recovery, trust, or exit",
+      "meaning_and_attribution": "The decision makes practical restoration and workplace access legally distinct from payment and continuity; it does not provide a standardized worker trust or dignity measure",
+      "public_or_collective_response": "Individual tribunal appeal and formal medical/risk-assessment process are observed; no later collective or political response is reported",
+      "counterexample": "Back pay can be paid and continuity maintained while the person still cannot return to the job; money and access are separate remedy currencies",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2015] FWCFB 1523, https://www.fwc.gov.au/documents/decisionssigned/html/2015fwcfb1523.htm, including separate reinstatement order PR561823; later Federal Circuit Court judgment [2015] FCCA 2140 is retained through a public case-text copy at https://www.casechat.au/cases/au/cartisano-v-sportsmed-sa-hospitals-pty-ltd and reports return, altered duties, cessation while still employed, and the unresolved constructive-reinstatement dispute. Neither record establishes final livelihood or household recovery",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/html/2015fwcfb1523.htm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-CARTISANO-A-01",
+      "from": "injury, work restrictions, and dismissal",
+      "to": "unfair-dismissal remedy route",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records injury, restricted return, termination, an unfair-dismissal finding, and subsequent remedy proceedings",
+      "status": "observed",
+      "counterexample": "An unfair-dismissal finding does not by itself establish medical recovery or a usable job alternative",
+      "remaining_gap": "Health trajectory, household resources, redeployment, and substitute work"
+    },
+    {
+      "arrow_id": "FWC-CARTISANO-A-02",
+      "from": "reinstatement, continuity, and lost-pay order",
+      "to": "reported back-pay payment and continuity",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision reports back pay paid on or about 14 August 2014 and continuity maintained through that date",
+      "status": "observed",
+      "counterexample": "Payment and continuity do not establish actual work or usable restoration",
+      "remaining_gap": "Exact net payment, benefits, final payment, and adequacy"
+    },
+    {
+      "arrow_id": "FWC-CARTISANO-A-03",
+      "from": "reported payment and reinstatement order",
+      "to": "risk assessment and no actual return",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The worker attended the workplace for assessment and was initially not permitted to return; after unconditional order PR561823, the later court record reports that she returned on 26 March 2015, then disputed materially altered duties and ceased work on 24 June 2015 while remaining employed",
+      "status": "observed",
+      "counterexample": "A legal or payroll restoration can coexist with continued exclusion from the actual workplace",
+      "remaining_gap": "Whether the altered role satisfied the reinstatement order, final remedy, later employment, and household recovery"
+    },
+    {
+      "arrow_id": "FWC-CARTISANO-A-04",
+      "from": "conditional reinstatement order",
+      "to": "Full Bench ruling that reinstatement must be real and practical",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Full Bench held that a condition allowing no actual return was beyond power and set aside the order for rehearing",
+      "status": "observed",
+      "counterexample": "A stronger legal standard does not show the individual ultimately returned or recovered",
+      "remaining_gap": "Compliance with unconditional order, later employment, alternative compensation, and later livelihood"
+    },
+    {
+      "arrow_id": "FWC-CARTISANO-A-05",
+      "from": "back-pay payment without actual return",
+      "to": "durable livelihood, trust, recovery, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public record closes at payment, no return, unpaid-leave treatment, and legal correction of the conditional remedy",
+      "status": "open",
+      "counterexample": "Money can be delivered while role access and future security remain unresolved",
+      "remaining_gap": "Final remedy, later work after June 2015, household security, health, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger provides a strong same-case implementation boundary: reported back-pay payment and continuity coexist with no actual return, and the tribunal explicitly distinguishes legal payment from real and practical reinstatement. It does not establish final remedy, causality of non-return, or later recovery.",
+  "storage_boundary": "No private medical, payroll, household, or employment file is retained; only bounded public decision fields, dates, remedy terms, implementation, non-return, uncertainty, and open downstream arrows are represented."
+}

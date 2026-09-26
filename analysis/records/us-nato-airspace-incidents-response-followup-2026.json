@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-airspace-incidents-response-followup-2026",
+  "title": "Repeated airspace incidents can produce an observable alliance response without proving deterrence",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "NATO North Atlantic Council public account of airspace violations and related incidents",
+  "geography": "Poland, Romania, NATO eastern flank, and Russia-attributed incidents",
+  "observations": [
+    {
+      "period": "August 12, 2026; NATO response to recent airspace violations and drone incidents",
+      "denominator": {"value": null, "unit": "official incident-and-response account", "value_type": "not_disclosed"},
+      "measures": {
+        "affected_allies_named": {"value": ["Poland", "Romania"], "unit": "NATO members named in the account", "value_type": "reported_inventory"},
+        "alliance_position": {"value": "NATO Allies expressed solidarity with affected Allies and condemned the violations as dangerous and unacceptable", "unit": "official public position", "value_type": "reported_statement"},
+        "attribution": {"value": "NATO stated that Russia bears responsibility for the airspace violations", "unit": "official attribution", "value_type": "reported_attribution"}
+      },
+      "method": "Official NATO public account of a North Atlantic Council discussion; the record separates stated attribution and institutional response from independent incident verification and later outcomes.",
+      "uncertainty": "The account does not provide a complete incident dataset, damage series, independent attribution audit, local public-opinion measure, cost allocation, or a counterfactual for what would have happened without the response.",
+      "subgroup": "Affected NATO Allies, eastern-flank security institutions, and Russia as the attributed external actor; civilians and local communities are not individually observed.",
+      "counterinterpretation": "Public condemnation and defensive reinforcement may signal alliance cohesion, but they can also be routine institutional messaging and need not change the external actor's behavior.",
+      "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
+      "retrieval_hash": "sha256:879c2144007a2b4de1172662086d9e5a8ed1044b2ac6ab347827401c701ac494",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; response implementation stage described by NATO",
+      "denominator": {"value": null, "unit": "official posture description", "value_type": "not_disclosed"},
+      "measures": {
+        "response_measures": {"value": "NATO said it continued strengthening integrated air and missile defenses and eastern-flank defenses", "unit": "reported institutional action", "value_type": "reported_response"},
+        "deterrence": {"value": "not observed", "unit": "missing attributable change in Russian behavior, incident frequency, or crisis decision-making", "value_type": "unmeasured"},
+        "local_acceptance_and_burden": {"value": "not observed", "unit": "missing resident acceptance, host-nation cost, civilian disruption, or durable legitimacy", "value_type": "unmeasured"}
+      },
+      "method": "Bounded follow-up reading of NATO's official response account; defensive posture is coded as an implementation stage, not as a successful outcome.",
+      "uncertainty": "The source does not report force levels, duration, readiness, spending, local effects, or a before-and-after incident rate. The public account may omit classified or national actions.",
+      "subgroup": "NATO institutions and eastern-flank defense structures; operational units, host communities, and external actors are not followed as matched units.",
+      "counterinterpretation": "A stronger posture can increase visible reassurance while also increasing cost, escalation risk, or community burden; no direction is established here.",
+      "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
+      "retrieval_hash": "sha256:879c2144007a2b4de1172662086d9e5a8ed1044b2ac6ab347827401c701ac494",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2025/09/10/statement", "claim": "The earlier Poland airspace-violation record provides a separate incident-to-Eastern-Sentry comparator.", "status": "related-prior-record"},
+    {"source_url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank", "claim": "NATO's eastern-flank overview describes the broader posture context.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes a public alliance-response stage after repeated airspace incidents: solidarity, attribution, condemnation, and defensive reinforcement. It does not establish independent attribution, deterrence, changed Russian behavior, reduced incident risk, local acceptance, civilian burden, cost sharing, or durable geopolitical leverage.",
+  "retrieval_hash": "sha256:879c2144007a2b4de1172662086d9e5a8ed1044b2ac6ab347827401c701ac494"
+}

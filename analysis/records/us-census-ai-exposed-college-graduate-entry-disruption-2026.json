@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ai-exposed-college-graduate-entry-disruption-2026",
+  "title": "AI-exposed college majors faced a weaker and lower-paid first job after ChatGPT",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "housing_place_mobility"
+  ],
+  "source_unit": "CES-26-56 using Post-Secondary Employment Outcomes, American Community Survey occupation distributions, and Census Longitudinal Employer-Household Dynamics records",
+  "geography": "United States; participating institutions in 24 states and 27 data partners, with LEHD outcomes excluding Alaska and Michigan",
+  "observations": [
+    {
+      "period": "Bachelor's graduates from 2016-2024; labor-market outcomes observed through 2025; paper published September 2026",
+      "denominator": {
+        "value": 6665500,
+        "unit": "rounded graduate records in the filtered PSEO sample",
+        "value_type": "reported_count"
+      },
+      "measures": {
+        "initial_employment": {
+          "value": "The top decile of majors ranked by pre-period AI exposure had an approximately 5 percentage-point lower likelihood of employment in the quarter after graduation relative to the least-exposed comparison group after regression adjustment",
+          "unit": "percentage-point relative employment estimate",
+          "value_type": "reported_estimate"
+        },
+        "initial_earnings": {
+          "value": "Full-quarter earnings about two quarters after graduation were approximately 13% lower for the top AI-exposure decile relative to the least-exposed comparison group",
+          "unit": "relative quarterly earnings estimate",
+          "value_type": "reported_estimate"
+        },
+        "sectoral_reallocation": {
+          "value": "About half of the top-decile earnings decline was attributed to movement from higher-paying Information and Professional, Scientific, and Technical Services toward lower-paying Retail Trade and Accommodation and Food Services",
+          "unit": "decomposition of initial earnings change",
+          "value_type": "reported_decomposition"
+        },
+        "longer_horizon": {
+          "value": "Effects attenuated as graduates moved farther from entry, but the top exposure decile still had lower employment and earnings estimates about two years after graduation",
+          "unit": "post-graduation outcome trajectory",
+          "value_type": "reported_trend"
+        },
+        "ai_exposure": {
+          "value": "Exposure was assigned before outcomes from occupation-task exposure measures mapped to major-level occupation distributions; it is not a direct measure of each employer's adoption or each worker's actual AI use",
+          "unit": "pre-period exposure assignment",
+          "value_type": "reported_method"
+        }
+      },
+      "method": "The paper uses an event-time design comparing graduates from college majors with different pre-period AI exposure around the late-2022 public release of ChatGPT, with institution-major, institution-quarter, and major-quarter-of-year controls. Employment, earnings, employer, industry, and job-switching outcomes come from linked administrative records.",
+      "uncertainty": "The study is a Census CES working paper and not a Census Bureau endorsement. It covers about 29% of bachelor's degrees in the selected PSEO partner institutions, which are disproportionately public, urban, large, and research-oriented. The post-ChatGPT window is short, exposure measures are snapshots, and other time-varying shocks cannot be fully ruled out. Employment means observed UI-covered employment, not all work or wellbeing.",
+      "subgroup": "Graduates are grouped by major-level AI exposure deciles, with especially large effects in computer science, information systems, and software-related fields; outcomes are also examined by industry, job switching, institution, and timing relative to graduation.",
+      "counterinterpretation": "The timing and concentration are consistent with an AI-related labor-demand shock, but the design does not isolate one mechanism. Reduced entry-level demand, employer screening, sector-specific conditions, graduate supply, remote work, delayed graduate school or self-employment, and other coincident shocks may contribute. Lower initial earnings do not by themselves establish long-run career scarring, household hardship, or political response.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html",
+      "retrieval_hash": "sha256:31cc5124a663b97f59400bf62a6e18e45d04dde99238be777feade8452b4b4bc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a bounded technology-to-labor-market-entry pathway. It does not establish a national AI displacement rate, actual individual AI use, discrimination, long-run career loss, household security, or political and cultural change."
+}

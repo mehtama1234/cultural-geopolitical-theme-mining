@@ -1,6 +1,7 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "checked": "2026-09-25",
   "purpose": "Primary Fair Work Commission case ledger preserving job-search effort, alternative employment, an explicit non-return decision attributed to a workplace mechanism, and an ordered compensation remedy without treating the order as payment receipt.",
   "events": [
     {
@@ -32,7 +33,7 @@
       "public_or_collective_response": "The worker used the formal Commission route and job-search response; no later collective or political action is reported",
       "counterexample": "Alternative employment and non-return can coexist with economic loss and a compensation order; an explicit refusal to return is not the same as measured institutional distrust or practical exit",
       "evidence_status": "observed",
-      "source_and_uncertainty": "Primary Fair Work Commission decision [2023] FWC 2485, https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2485.pdf; decision records 11 applications, new employment, non-return reasoning, assessed loss, and a 21-day compensation order, but no payment receipt or later follow-up"
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2023] FWC 2485, https://www.fwc.gov.au/documents/decisionssigned/pdf/2023fwc2485.pdf, and order PR766604, https://www.fwc.gov.au/documents/awardsandorders/pdf/pr766604.pdf; the order specifies electronic transfer of $4,312 within 21 days. A targeted official-route recheck on 2026-09-25 located the decision and order but no later public payment confirmation or post-new-employment follow-up. The order and transfer instruction do not prove receipt, adequacy, or durable recovery"
     }
   ],
   "arrows": [

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-wildfire-damage-income-community-composition-2026",
+  "title": "Wildfire destruction produces multi-year income loss and changes who returns to the community",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "Census CES Working Paper 26-53 linking property-level damage from more than 100 U.S. wildfires to administrative tax and Census data",
+  "geography": "United States wildfire perimeters, damaged and undamaged residents, destroyed addresses, household income, and post-fire community composition",
+  "observations": [{
+    "period": "More than 100 U.S. wildfires and four-year post-fire outcomes; paper published August 2026",
+    "denominator": {"value": 1, "unit": "property-level wildfire-damage and linked individual administrative-data analysis", "value_type": "study_unit"},
+    "measures": {
+      "population_selection": {"value": "residents of burned areas were wealthier than the U.S. population on average", "unit": "population comparison", "value_type": "reported_comparison"},
+      "within_perimeter_risk": {"value": "within wildfire perimeters, the likelihood that a home burned was negatively correlated with pre-fire income", "unit": "property-damage gradient", "value_type": "reported_relationship"},
+      "income_loss": {"value": "occupants of destroyed homes had lower income for three years after the fire, with cumulative losses equal to 26% of pre-fire annual income", "unit": "income loss over three years", "value_type": "reported_estimate"},
+      "indirect_exposure": {"value": "no income or employment effects were detected for residents without direct property damage", "unit": "comparison group result", "value_type": "reported_comparison"},
+      "community_return": {"value": "four years after a fire, half of destroyed addresses remained unoccupied and reoccupied addresses housed residents with substantially higher incomes than before", "unit": "address occupancy and composition", "value_type": "reported_estimate"}
+    },
+    "method": "The authors link property-level damage data from over 100 wildfires to administrative tax and Census records to compare directly damaged occupants, residents without direct damage, income and employment trajectories, occupancy, and post-fire composition.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. Property destruction, income, employment, occupancy, and composition are distinct outcomes; the abstract does not establish the roles of insurance, aid, rebuilding, displacement, health, debt, or voluntary choice.",
+    "subgroup": "Residents inside wildfire perimeters, occupants of destroyed homes, residents without direct damage, pre-fire income groups, destroyed addresses, and later reoccupied addresses; effects may vary by fire, housing type, ownership, insurance, race, age, family, and local labor market.",
+    "counterinterpretation": "Higher-income returnees may reflect rebuilding costs, housing prices, insurance, aid, migration, or selection rather than preference alone. No measured effect among indirectly exposed residents does not mean no stress, service loss, social disruption, or future risk.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-53.html",
+    "retrieval_hash": "sha256:f167ea6513493767a7086f1e752f741b09bc4abae1fe25914a5deba96b55b083",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-53.pdf", "claim": "The official paper provides the wildfire damage linkage, income and employment comparisons, three-year loss estimate, address occupancy, and post-fire composition analysis.", "status": "official-paper-context"}],
+  "boundary": "This record adds a direct-property-damage-to-income-and-community-composition pathway. It does not establish why households did or did not return, insurance or aid adequacy, health, debt, displacement, or long-term place attachment.",
+  "retrieval_hash": "sha256:f167ea6513493767a7086f1e752f741b09bc4abae1fe25914a5deba96b55b083"
+}

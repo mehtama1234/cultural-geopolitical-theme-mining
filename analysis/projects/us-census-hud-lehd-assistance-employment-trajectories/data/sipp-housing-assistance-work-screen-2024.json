@@ -1,0 +1,41 @@
+{
+  "schema": "us-sipp-housing-assistance-work-screen-v1",
+  "checked": "2026-09-25",
+  "source": {
+    "name": "2025 Survey of Income and Program Participation public-use file",
+    "reference_period": "January-December 2024",
+    "primary_archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6"
+  },
+  "design": {
+    "unit": "identified person, adjacent monthly pair",
+    "exposure_at_month_t": "EOTHAS_MNYN: other clothing or housing assistance received this month; 1=yes, 2=no",
+    "outcomes_at_month_t_plus_1": ["RMNUMJOBS change", "THINCPOV band change", "EAWBMORT yes"],
+    "weight": "WPFINWGT from month t",
+    "variance": "240 Census Fay-BRR replicate weights; G=240, perturbation factor 0.5",
+    "rows_read": 379215,
+    "identified_people": 31992,
+    "replicate_rows_read": 378291,
+    "matched_pair_rows": 294814,
+    "household_weight_used": false
+  },
+  "cells": {
+    "job_count_changed": {
+      "yes": {"pairs": 4501, "share_percent": 2.0341191055, "standard_error_percentage_points": 0.3734312852, "approx_95_ci_percentage_points": [1.3021937866, 2.7660444244]},
+      "no": {"pairs": 290313, "share_percent": 1.7069409646, "standard_error_percentage_points": 0.0421544523, "approx_95_ci_percentage_points": [1.6243182381, 1.7895636910]}
+    },
+    "poverty_band_changed": {
+      "yes": {"pairs": 4501, "share_percent": 3.3417684700, "standard_error_percentage_points": 0.4629871851, "approx_95_ci_percentage_points": [2.4343135871, 4.2492233529]},
+      "no": {"pairs": 290313, "share_percent": 3.4833377894, "standard_error_percentage_points": 0.0977715095, "approx_95_ci_percentage_points": [3.2917056308, 3.6749699480]}
+    },
+    "housing_difficulty": {
+      "yes": {"pairs": 4501, "share_percent": 9.1490459065, "standard_error_percentage_points": 1.6622126289, "approx_95_ci_percentage_points": [5.8911091538, 12.4069826592]},
+      "no": {"pairs": 290313, "share_percent": 4.1660436921, "standard_error_percentage_points": 0.2112955707, "approx_95_ci_percentage_points": [3.7519043735, 4.5801830108]}
+    }
+  },
+  "interpretation": {
+    "signal": "The exposed descriptive cell has a higher next-month reported inability to pay rent or mortgage than the non-exposed cell, while job-count and poverty-band movement are similar.",
+    "limits": "EOTHAS_MNYN is other clothing or housing assistance, not HUD program identity, amount, adequacy, or a dated housing exit. Exposure is selected, the screen is person-weighted, and the pair ordering is descriptive rather than causal.",
+    "promotion_boundary": "Do not interpret the housing-difficulty difference as assistance causing hardship or as proof of recovery failure. The screen lacks landlord/agency response, alternatives, housing quality, verified recovery, trust, and political action."
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_institutional_enforcement_followup_record",
+  "purpose": "Bounded Fair Work Ombudsman record connecting a migrant worker's zero-wage cashback exposure to institutional investigation, full reported back-pay, and an open durable-recovery endpoint.",
+  "events": [
+    {
+      "event_id": "FWO-INNOVATIVE-ASSOCIATES-2026-09-01",
+      "unit": "worker",
+      "geography": "Sydney, Australia; Federal Circuit and Family Court; temporary graduate visa holder",
+      "actor_initiating_change": "employer",
+      "event_date": "2026-09-01",
+      "date_precision": "official Fair Work Ombudsman penalty release date; employment ran July 2019 to December 2020",
+      "denominator": "One publicly identified adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the official Fair Work Ombudsman penalty follow-up release",
+      "missingness": "Worker identity beyond the public case, household effects, effort and time spent seeking help, payment instrument, net receipt timing, adequacy, later employment, trust, recurrence, health, and exit are not retained",
+      "condition_or_decision": "payment",
+      "exposure": "A Nepalese migrant worker employed part-time as an assistant accountant was unpaid for roughly the first ten weeks and was then required to transfer money to accounts controlled by the owner so the company could return part of it as wages and satisfy tax and superannuation obligations; the official release reports total underpayment of $40,164.49",
+      "alternatives_before_action": "The public record does not report alternative employment, household buffers, bargaining alternatives, or non-use before the worker requested Fair Work Ombudsman assistance",
+      "immediate_burden_or_benefit": "The cashback scheme left the worker with no wages to keep for work performed and imposed transfer, documentation, and visa-linked vulnerability risks; the release says the conduct was deliberate",
+      "choice_or_response": "The worker lodged a request for assistance; the Fair Work Ombudsman investigated and litigated; the Court imposed penalties after admissions and findings of deliberate contraventions",
+      "person_or_actor_with_control": "The employer and owner controlled payroll, bank transfers, records, and the employment relationship; the worker controlled the request for assistance; the Ombudsman and Court controlled investigation, litigation, and penalty routes",
+      "remedy_or_institutional_response": "The Federal Circuit and Family Court imposed $148,000 against Innovative Associates and $29,000 against its owner; the official release reports that the company back-paid the worker in full",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The Fair Work Ombudsman reports full back-payment of the $40,164.49 underpayment, but the public record does not provide a worker-signed receipt, transfer date, net amount, or adequacy assessment",
+      "durability_followup": "The public follow-up ends at reported full back-pay and penalties; later work, household security, trust, recurrence, health, and exit are unknown",
+      "immediate_outcome": "Reported full back-pay followed by court penalties for the company and owner",
+      "protected_outcome": "The institutional route recognized the worker's wage entitlement and reports restoring the withheld monetary amount; durable safety, bargaining power, and future employment protection are not verified",
+      "sacrificed_outcome": "The worker lost usable wage income during employment and carried the exposure, delay, documentation, and help-seeking burden before the reported remedy",
+      "cost_risk_transfer": "The employer shifted wage, liquidity, and compliance risk onto a temporary-visa worker; investigation, litigation, and penalties transferred formal legal risk back to the firm and owner",
+      "later_outcome": "The official institution reports full back-pay and penalties, but no later lived-recovery endpoint is public",
+      "meaning_and_attribution": "The Court and Ombudsman attribute the conduct to deliberate exploitation and an unlawful cashback scheme; no worker-reported trust or meaning measure is retained",
+      "public_or_collective_response": "Public enforcement and penalty are observed; the release encourages visa holders and other employees to seek assistance, but no later collective or political action is reported",
+      "counterexample": "A public enforcement record can report full monetary back-pay for a vulnerable worker while leaving payment timing, adequacy, safety, trust, and future work unobserved",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Fair Work Ombudsman release dated 2026-09-01, https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/september-2026/20260901-innovative-associates-penalty-media-release; court findings and reported full back-pay are institutionally reported, not independently audited here",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/september-2026/20260901-innovative-associates-penalty-media-release"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWO-INNOVATIVE-A-01",
+      "from": "unlawful cashback scheme and zero usable wages",
+      "to": "worker request for Fair Work Ombudsman assistance",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official release states that the Ombudsman investigated after the worker lodged a request for assistance",
+      "status": "reported",
+      "counterexample": "A request for help does not establish that other exposed workers can reach or safely use the same route",
+      "remaining_gap": "Worker effort, delay, fear, representation, and alternative routes"
+    },
+    {
+      "arrow_id": "FWO-INNOVATIVE-A-02",
+      "from": "Ombudsman investigation and court litigation",
+      "to": "penalties and reported full back-pay",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The release reports $177,000 in penalties and says the company back-paid the worker in full",
+      "status": "reported",
+      "counterexample": "Institutional reporting is not an independently verified payment instrument or adequacy assessment",
+      "remaining_gap": "Transfer timing, net receipt, worker confirmation, adequacy, and residual loss"
+    },
+    {
+      "arrow_id": "FWO-INNOVATIVE-A-03",
+      "from": "reported full back-pay",
+      "to": "durable security, trust, later work, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official follow-up ends after reporting full back-pay and penalties",
+      "status": "open",
+      "counterexample": "Monetary restoration can coexist with unresolved safety, visa, household, trust, and employment consequences",
+      "remaining_gap": "Later work, household recovery, trust, recurrence, health, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a reported full-back-pay endpoint for one vulnerable migrant worker. It does not establish independently verified receipt, adequacy, durable recovery, prevalence, or a general enforcement success rate.",
+  "storage_boundary": "No claimant file, payroll, bank, visa, or restricted data is retained; only bounded official summary fields and explicitly open downstream arrows are represented."
+}

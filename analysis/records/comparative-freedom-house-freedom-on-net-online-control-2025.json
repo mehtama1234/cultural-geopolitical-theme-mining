@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-freedom-house-freedom-on-net-online-control-2025",
+  "title": "Online civic space is narrowing through censorship, repression, shutdowns, and information manipulation across a majority of assessed countries",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Freedom House, Freedom on the Net 2025: An Uncertain Future for the Global Internet",
+  "geography": "72 countries assessed using country-level expert-coded internet-freedom indicators, covering the majority of the world's internet users",
+  "observations": [
+    {
+      "period": "June 2024-May 2025; global internet-freedom assessment",
+      "denominator": {
+        "value": 72,
+        "unit": "countries assessed by Freedom on the Net 2025",
+        "value_type": "cross_country_expert_assessment_frame"
+      },
+      "measures": {
+        "consecutive_decline_years": {"value": 15, "unit": "consecutive years of global internet-freedom decline reported by Freedom House", "value_type": "reported_series"},
+        "countries_deteriorated": {"value": 27, "unit": "assessed countries where internet-freedom conditions deteriorated during the coverage period", "value_type": "reported_country_count"},
+        "countries_improved": {"value": 17, "unit": "assessed countries where overall internet-freedom scores improved during the coverage period", "value_type": "reported_country_count"},
+        "free_status_group": {"value": 18, "unit": "assessed countries classified as Free in internet freedom", "value_type": "reported_country_count"}
+      },
+      "method": "Freedom House country assessments using 21 indicators across obstacles to access, limits on content, and violations of user rights, with country researchers and advisors.",
+      "uncertainty": "The index is an expert-coded comparative assessment, not a direct measure of every user's experience, actual content exposure, or causal effect on political behavior; country coverage and scoring decisions shape comparability.",
+      "subgroup": "Internet users, journalists, activists, political opposition, minority groups, civil society, platform users, and populations in countries with different institutional and geopolitical conditions.",
+      "counterinterpretation": "Country scores can improve despite global decline, and legal protections, civil society, circumvention tools, independent media, or institutional checks can preserve meaningful online space in particular settings.",
+      "source_url": "https://freedomhouse.org/report/freedom-net/2025/uncertain-future-global-internet",
+      "retrieval_hash": "sha256:6a174894a85ca6f81c5310a38b23527bbc4b368462fc2034a492d82d37ece48b",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; state and powerful-actor control endpoints",
+      "denominator": {
+        "value": 72,
+        "unit": "countries covered by Freedom on the Net 2025 control indicators",
+        "value_type": "cross_country_online_control_frame"
+      },
+      "measures": {
+        "political_arrests_or_imprisonment": {"value": 81, "unit": "percent of the world's internet users living in countries where people were arrested or imprisoned for online political, social, or religious expression", "value_type": "reported_user_population_share"},
+        "online_activity_attacks_or_killings": {"value": 70, "unit": "percent of internet users living in countries where people were attacked or killed for online activities", "value_type": "reported_user_population_share"},
+        "content_blocking": {"value": 69, "unit": "percent of internet users living in countries where political, social, or religious content was blocked online", "value_type": "reported_user_population_share"},
+        "social_media_restriction": {"value": 61, "unit": "percent of internet users living in countries where social-media access was temporarily or permanently restricted", "value_type": "reported_user_population_share"},
+        "network_disconnection": {"value": 52, "unit": "percent of internet users living in countries where authorities disconnected internet or mobile networks, often for political reasons", "value_type": "reported_user_population_share"}
+      },
+      "method": "Country-level coding of repression, censorship, platform restriction, and network shutdown indicators, weighted in the report by country internet-user populations.",
+      "uncertainty": "These are population shares based on country classifications and internet-user estimates, not incidence rates for individuals; the indicators capture presence of a control environment rather than uniform exposure.",
+      "subgroup": "People expressing political, social, or religious views online; protesters; journalists; activists; minority communities; and internet users in countries employing shutdowns or content controls.",
+      "counterinterpretation": "A country-level control measure does not mean every user was censored or harmed; courts, private networks, encryption, circumvention, and local variation can create different practical experiences.",
+      "source_url": "https://freedomhouse.org/sites/default/files/2025-12/Freedom_on_the_Net_2025_DigitalFinal.pdf",
+      "retrieval_hash": "sha256:6a174894a85ca6f81c5310a38b23527bbc4b368462fc2034a492d82d37ece48b",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; information manipulation and infrastructure control",
+      "denominator": {
+        "value": 72,
+        "unit": "countries assessed for online information manipulation and digital infrastructure controls",
+        "value_type": "cross_country_digital_governance_frame"
+      },
+      "measures": {
+        "manipulation_mechanisms": {"value": "paid commenters, imitation news sites, AI-generated misleading content, and undisclosed progovernment influencers", "unit": "reported information-manipulation mechanism set", "value_type": "reported_mechanism_set"},
+        "satellite_connectivity_risk": {"value": "expanding satellite internet can connect rural and war-affected communities while exposing providers to government pressure over surveillance and censorship", "unit": "reported infrastructure-governance trade-off", "value_type": "reported_mechanism"},
+        "key_control_domains": {"value": 9, "unit": "key internet-control domains monitored by Freedom House", "value_type": "reported_framework_count"}
+      },
+      "method": "Freedom House synthesis of country narratives and nine key internet-control domains, including information manipulation and emerging satellite connectivity.",
+      "uncertainty": "The report identifies documented mechanisms and risks; it does not estimate the causal effect of each tactic on belief, turnout, protest, trust, or social cohesion.",
+      "subgroup": "Online audiences, independent media, activists, rural and war-affected communities, satellite providers, platforms, governments, and civil-society monitors.",
+      "counterinterpretation": "Digital infrastructure can expand access, connection, and civic coordination even where manipulation and surveillance risks rise; control and empowerment can coexist in the same network.",
+      "source_url": "https://freedomhouse.org/report/freedom-net",
+      "retrieval_hash": "sha256:6a174894a85ca6f81c5310a38b23527bbc4b368462fc2034a492d82d37ece48b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://freedomhouse.org/report/freedom-net/2025/uncertain-future-global-internet/policy-recommendations", "claim": "Freedom House policy recommendations on rebuilding a free, open, and secure internet."},
+    {"source_url": "https://freedomhouse.org/country/united-states/freedom-net/2025", "claim": "United States country assessment and score context."}
+  ],
+  "boundary": "This record adds an online-control-to-civic-space, information-manipulation, infrastructure, privacy, and political-capacity route. It is not respondent-level media-use data, does not establish individual persuasion or voting effects, and does not treat an expert-coded country score as direct proof of personal experience.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Freedom House 2025 report landing page, full report PDF, methodology/project page, policy recommendations, and selected country page were retrieved; global decline, country changes, control endpoints, information manipulation, and satellite-connectivity claims were cross-checked.",
+    "source_url_sha256": "sha256:6a174894a85ca6f81c5310a38b23527bbc4b368462fc2034a492d82d37ece48b",
+    "checked": "2026-09-26"
+  }
+}

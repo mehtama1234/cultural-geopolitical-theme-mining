@@ -1,0 +1,38 @@
+{
+  "format": "us-cces-material-vote-audit-v1",
+  "source": {
+    "title": "Cooperative Election Study Common Content, 2024",
+    "persistent_id": "doi:10.7910/DVN/X11EP6",
+    "file": "CCES24_Common_OUTPUT_vv_topost_final.csv",
+    "dataverse_file_id": 12050325,
+    "file_md5": "b740b9305fee50e1a34656b513f55c57",
+    "file_size_bytes": 183679005,
+    "source_url": "https://doi.org/10.7910/DVN/X11EP6"
+  },
+  "analysis": {
+    "script": "scripts/analyze_cces_material_vote_audit.py",
+    "rows_read": 60000,
+    "valid_records": 26231,
+    "cells": 48,
+    "range_screen_cells": 28,
+    "minimum_unweighted_records_for_range": 100,
+    "weight": "commonpostweight",
+    "vote_field": "CC24_401 == 5 means I definitely voted; codes 1-4 are retained in the valid-answer denominator",
+    "generated_output_sha256": "96b7470b18798f345aa0190bc99e86e6caf8df3e6f47481943dea0606b0062bb",
+    "checked": "2026-09-25"
+  },
+  "screened_cells": {
+    "definitely_voted_low": {
+      "percent": 82.2946347838,
+      "records": 157,
+      "cell": "income_lower_income_codes_1_4|race_black|gigwork_yes|student_debt_no"
+    },
+    "definitely_voted_high": {
+      "percent": 99.9606442291,
+      "records": 225,
+      "cell": "income_higher_income_codes_10_16|race_black|gigwork_no|student_debt_no"
+    }
+  },
+  "boundary": "This is a separate descriptive self-reported vote-answer audit. Its valid universe is not the 21,560-record material/trust/action universe, and CC24_401 is not treated as an independently validated turnout record or causal political outcome. The range is not a ranking of cells; small cells are retained in the full derived output but not interpreted here.",
+  "reproduction": "Run python3 scripts/analyze_cces_material_vote_audit.py --input <official CCES CSV> --output <JSON>."
+}

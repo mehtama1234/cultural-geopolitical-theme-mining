@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-california-water-accountability-welfare-2026",
+  "title": "Local electoral accountability shapes drinking-water investment and resident-valued welfare",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 35690; California municipal drinking-water systems, local political accountability, investment, pollution, and housing-based water valuations",
+  "geography": "California municipal drinking-water systems and residents near water-system boundaries",
+  "observations": [
+    {
+      "period": "California municipal drinking-water systems; investment and performance analysis reported in 2026",
+      "denominator": {
+        "value": null,
+        "unit": "California drinking-water systems and resident/housing observations; common system and transaction counts are not disclosed in the public abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "pollution_and_accountability": {
+          "value": "Jurisdictions with weaker electoral accountability exhibit higher water pollution",
+          "unit": "reported empirical relationship across municipal systems",
+          "value_type": "reported_association"
+        },
+        "investment_aid_response": {
+          "value": "Weaker electoral accountability is associated with lower response to public investment aid",
+          "unit": "reported empirical relationship across municipal systems",
+          "value_type": "reported_association"
+        },
+        "resident_value": {
+          "value": "Residents’ clean-water valuations are recovered from housing transactions at water-system boundaries",
+          "unit": "housing-choice-based welfare valuation",
+          "value_type": "estimated_structural_value"
+        }
+      },
+      "method": "Event-study and structural analysis combining water-system investment and performance data, changes in electoral accountability, housing transactions at system boundaries, and a dynamic model of local investment decisions.",
+      "uncertainty": "The welfare valuation and counterfactual depend on model specification, boundary-market assumptions, pollution measurement, and identification of political accountability; the abstract does not provide a universal household health or bill estimate.",
+      "subgroup": "California municipal water systems and residents differentially exposed to local system quality; impacts are modeled and may be concentrated in disadvantaged or high-need systems.",
+      "counterinterpretation": "Political competition may proxy for media, administrative capacity, resident composition, system finances, or other local conditions. Housing choices reflect clean-water value alongside many other location attributes.",
+      "source_url": "https://www.nber.org/papers/w35690",
+      "retrieval_hash": "author-paper:sha256:38ec9753c127827350459a6a81c9426afd3ab5733e4b8dc70243de924cd10896",
+      "status": "estimated"
+    },
+    {
+      "period": "Modeled accountability counterfactual; California water systems",
+      "denominator": {
+        "value": null,
+        "unit": "Model-based system and resident welfare counterfactual; no common person-level denominator disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "contested_elections": {
+          "value": "Increasing electoral accountability reallocates investment toward high-need systems",
+          "unit": "modeled counterfactual direction",
+          "value_type": "modeled_counterfactual"
+        },
+        "pollution": {
+          "value": "The accountability counterfactual reduces pollution",
+          "unit": "modeled counterfactual direction",
+          "value_type": "modeled_counterfactual"
+        },
+        "welfare_distribution": {
+          "value": "Modeled welfare gains are progressive and larger in struggling systems",
+          "unit": "modeled resident welfare effect",
+          "value_type": "modeled_distributional_result"
+        },
+        "policy_offset": {
+          "value": "Subsidy take-up is misaligned with returns and uniform mandates can create welfare losses",
+          "unit": "modeled policy comparison",
+          "value_type": "modeled_policy_result"
+        }
+      },
+      "method": "Estimated dynamic political-economy model using observed system performance, investment, political accountability, and housing-based resident valuations to simulate alternative accountability and policy arrangements.",
+      "uncertainty": "This is a structural counterfactual, not an observed reform rollout or causal estimate of a universal accountability intervention; welfare results depend on estimated preferences and policy assumptions.",
+      "subgroup": "Modeled residents and water systems, with distributional results compared across need and disadvantage.",
+      "counterinterpretation": "A modeled gain does not establish implementation feasibility, actual electoral response, affordability, infrastructure maintenance, or household health improvement.",
+      "source_url": "https://www.nber.org/papers/w35690",
+      "retrieval_hash": "author-paper:sha256:38ec9753c127827350459a6a81c9426afd3ab5733e4b8dc70243de924cd10896",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://pierrebodere.github.io/content/bodere_brancaccio_kang_water.pdf",
+      "claim": "Accessible author-hosted paper used for the extracted empirical and model description.",
+      "status": "accessible-paper"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107178",
+      "claim": "Separate current tribal-water source provides a comparative infrastructure-maintenance and eligibility boundary; it is not pooled with this California result.",
+      "status": "comparative-context"
+    }
+  ],
+  "boundary": "This record connects local political accountability to drinking-water investment, pollution, and modeled resident-valued welfare in California. It does not establish national infrastructure performance, household bills, water access, health outcomes, maintenance durability, trust, or geopolitical leverage. Political accountability, investment, realized service, resident valuation, and durable household protection remain distinct stages."
+}

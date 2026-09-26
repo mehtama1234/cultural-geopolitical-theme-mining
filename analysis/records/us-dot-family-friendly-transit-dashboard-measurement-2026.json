@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dot-family-friendly-transit-dashboard-measurement-2026",
+  "title": "Transit usability is becoming a public measurement surface before service improvement is proven",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "U.S. Department of Transportation Federal Transit Administration announcement of a family-friendly transit metrics dashboard and request for input",
+  "geography": "United States transit systems; national federal measurement proposal",
+  "observations": [
+    {
+      "period": "2026-06-08 announcement and request for input",
+      "denominator": {"value": null, "unit": "national transit-system measurement proposal; no rider or agency outcome denominator reported", "value_type": "not_disclosed"},
+      "measures": {
+        "dashboard_status": {"value": "FTA announced that it is developing a public dashboard for family-friendly metrics and requested input on performance measures", "unit": "federal program-design stage", "value_type": "reported_action"},
+        "proposed_measure_domains": {"value": ["safety and security", "cleanliness", "universal accessibility", "real-time service data availability", "system reliability"], "unit": "five proposed transit-quality domains", "value_type": "reported_measure_set"},
+        "intended_users": {"value": "transit systems can use the dashboard to track progress in becoming more family-friendly", "unit": "intended agency use", "value_type": "reported_intent"},
+        "public_input": {"value": "FTA requested input on the five key quality-performance measures", "unit": "public feedback route", "value_type": "reported_process"}
+      },
+      "method": "Review of the official U.S. Department of Transportation announcement; no dashboard release, agency-level score, rider survey, route log, or service outcome was retained.",
+      "uncertainty": "The announcement describes a proposed measurement and feedback system. It does not specify final definitions, data sources, weighting, reporting frequency, agency coverage, accessibility validation, or how public input will change the dashboard.",
+      "subgroup": "Families, riders, people with disabilities, transit workers, transit agencies, and communities are named or implied stakeholders, but no subgroup outcome is reported.",
+      "counterinterpretation": "A public metric can improve accountability and make neglected usability visible, but it can also privilege what is easy to count, shift attention toward reputation management, or leave service frequency, fare burden, route coverage, and rider power outside the dashboard.",
+      "source_url": "https://www.transportation.gov/briefing-room/trumps-transportation-department-announces-new-dashboard-measure-family-friendly",
+      "retrieval_hash": "sha256:3946ab246d26cb3638323100ff6acebd75c7183b1724a18d1ad69c4a67d304dd",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Harbor Boulevard transit-signal-priority prototype implementation report",
+      "denominator": {"value": 9, "unit": "prototype-area intersections monitored", "value_type": "reported_project_scope"},
+      "measures": {
+        "signal_priority_operation": {"value": "transit signal priority requests were demonstrated and monitoring found signals returned to coordinated operation within approximately one to two cycles after a priority event", "unit": "observed prototype operation", "value_type": "reported_observation"},
+        "rider_feedback": {"value": "rider feedback had not yet been conducted during this phase", "unit": "evaluation stage", "value_type": "reported_absence"},
+        "operator_context": {"value": "bus operators noted improvements and other drivers did not note negative impacts in the report's account", "unit": "qualitative stakeholder report", "value_type": "reported_context"}
+      },
+      "method": "Review of the official DOT SMART Grant Stage 1 final implementation report for the Harbor Boulevard transit-signal-priority prototype.",
+      "uncertainty": "The prototype report describes technical operation and qualitative stakeholder observations, not representative rider experience, accessibility, trip completion, travel-time savings, fare burden, or durable service change.",
+      "subgroup": "Transit operators, drivers, and potential riders in the prototype area; the report does not provide a rider sample or subgroup denominator.",
+      "counterinterpretation": "Technical signal response can improve bus priority while leaving boarding access, route frequency, stop conditions, fare, transfer, and shift fit unchanged; absence of rider feedback is an evaluation gap, not evidence of dissatisfaction.",
+      "source_url": "https://www.transportation.gov/sites/dot.gov/files/2026-06/OCTA%20TSP%20Final%20Implementation%20Report_FINAL_05.11.26.pdf",
+      "retrieval_hash": "sha256:c68cb29448a6604deaa840684462fe95a502e96423b737d0a3e808898ce2e5af",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.transportation.gov/briefing-room/trumps-transportation-department-announces-new-dashboard-measure-family-friendly", "claim": "FTA announced development of a public dashboard and requested input on safety, cleanliness, universal accessibility, real-time service data, and reliability measures.", "status": "primary-federal-source"},
+    {"source_url": "https://www.transportation.gov/sites/dot.gov/files/2026-06/OCTA%20TSP%20Final%20Implementation%20Report_FINAL_05.11.26.pdf", "claim": "DOT implementation reporting supplies a named transit-signal-priority prototype, nine-intersection scope, technical recovery timing, and the absence of rider feedback during the phase.", "status": "primary-federal-implementation-report"}
+  ],
+  "boundary": "This record establishes a federal measurement and public-input stage for transit usability. It does not establish improved service, completed trips, lower waiting or fare burden, accessibility in practice, rider satisfaction, agency compliance, political trust, or household mobility.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official DOT HTML announcement and DOT implementation-report PDF retrieved and hashed; dashboard data, public comments, agency administrative logs, and rider-level records not retained",
+    "html_sha256": "sha256:3946ab246d26cb3638323100ff6acebd75c7183b1724a18d1ad69c4a67d304dd",
+    "checked": "2026-09-21"
+  }
+}

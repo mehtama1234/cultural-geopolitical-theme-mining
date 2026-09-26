@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-party-pressure-representation-house-voters-2026",
+  "title": "Party pressure can widen the gap between voter preferences and representatives' recorded votes",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": ["political_judgment_action", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "NBER Working Paper 34697; U.S. House roll-call votes and survey-based voter ideology estimates",
+  "geography": "United States; U.S. House members, constituents, party pressure, and congressional roll-call voting",
+  "observations": [{
+    "period": "U.S. House representation studied through 2026; paper issued January 2026",
+    "denominator": {"value": 1, "unit": "House representation model and voter-member ideology study", "value_type": "study_unit"},
+    "measures": {
+      "alignment_without_party_pressure": {"value": "a model without party pressure makes member and constituent ideologies appear less closely aligned than the preferred model", "unit": "voter-member ideological alignment comparison", "value_type": "reported_comparison"},
+      "party_wedge": {"value": "party pressure creates a wedge between members' actual votes and the preferences of the constituents they represent", "unit": "representation mechanism", "value_type": "reported_relationship"},
+      "strategic_balance": {"value": "parties use pressure strategically, balancing legislative wins with members' electoral concerns", "unit": "party-pressure mechanism", "value_type": "reported_interpretation"},
+      "data_bridge": {"value": "the study estimates voter ideology from survey responses and member ideology from roll-call voting in a shared space", "unit": "voter-member measurement bridge", "value_type": "reported_method"}
+    },
+    "method": "The author estimates a spatial model of U.S. House roll-call voting with party pressure and simultaneously estimates voter ideology from survey responses on congressional issues, allowing voters and representatives to be compared in a common ideological space.",
+    "uncertainty": "This is a working paper and the model's representation result depends on assumptions about ideology, party pressure, issue positions, and the mapping from survey responses to legislative preferences. Roll-call alignment is not the same as constituent service, responsiveness on non-voted issues, trust, or material outcomes.",
+    "subgroup": "U.S. House members and their constituents; party, district, member ideology, election pressure, issue, and chamber context vary.",
+    "counterinterpretation": "Party pressure may coordinate a legislative coalition or make policy more coherent rather than simply distort representation. Survey respondents may not know or prioritize every roll-call issue, and members may represent district interests through agenda-setting, bargaining, or services not captured by recorded votes.",
+    "source_url": "https://www.nber.org/papers/w34697",
+    "retrieval_hash": "sha256:89dd17221daf28c5c935f9b28f708026c01ce5aa080bf83029117fb63040cbe7",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34697", "claim": "NBER DOI record for Working Paper 34697", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a political-institutional representation finding: party organization can shape the distance between voter preferences and members' recorded votes. It does not establish that party pressure is always harmful, that survey ideology captures all constituent demands, or that roll-call divergence produces lower trust or worse material outcomes."
+}

@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-world-investment-report-2026-concentration-development-impact",
+  "title": "Global investment is recovering, but capital is concentrating in megaprojects, strategic sectors, and a narrow set of host economies",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNCTAD, World Investment Report 2026: International investment in a turbulent era",
+  "geography": "Global foreign direct investment flows, host economies, strategic sectors, greenfield projects, and development implications",
+  "observations": [
+    {
+      "period": "2025; global and regional foreign direct investment recovery",
+      "denominator": {
+        "value": 1,
+        "unit": "global FDI flow frame reported by UNCTAD",
+        "value_type": "global_investment_flow_frame"
+      },
+      "measures": {
+        "global_fdi": {"value": 1600000000000, "unit": "US dollars in global foreign direct investment in 2025, approximately", "value_type": "reported_global_flow"},
+        "global_fdi_change": {"value": 6, "unit": "percent change in global FDI in 2025", "value_type": "reported_global_change"},
+        "developed_economy_fdi_change": {"value": 11, "unit": "percent increase in FDI inflows to developed economies in 2025", "value_type": "reported_regional_change"},
+        "developing_economy_fdi": {"value": 901000000000, "unit": "US dollars in FDI inflows to developing economies in 2025, approximately", "value_type": "reported_regional_flow"},
+        "developing_economy_fdi_change": {"value": 2, "unit": "percent increase in FDI inflows to developing economies in 2025", "value_type": "reported_regional_change"}
+      },
+      "method": "UNCTAD compilation and analysis of global, regional, and country-level FDI flows, greenfield projects, mergers and acquisitions, and investment policy trends.",
+      "uncertainty": "FDI totals can be affected by conduit economies, financial flows, one-off transactions, megaprojects, and accounting structures; inflows do not equal new local capacity, jobs, or technology transfer.",
+      "subgroup": "Developed and developing host economies, investors, firms, workers, governments, infrastructure sectors, and communities affected by investment location and project design.",
+      "counterinterpretation": "A narrow recovery can still finance valuable infrastructure or productive capacity in particular places; low aggregate growth does not mean every project or sector lacks development value.",
+      "source_url": "https://investmentpolicy.unctad.org/publications/1324/world-investment-report-2026-international-investment-in-a-turbulent-era",
+      "retrieval_hash": "sha256:022ae64997d684e359120712d5e75cd7dff5dc567dcef4003d4e7cc289c4cb84",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; concentration of investment by host economies and strategic sectors",
+      "denominator": {
+        "value": 1,
+        "unit": "global FDI host and greenfield-project concentration frame",
+        "value_type": "global_investment_concentration_frame"
+      },
+      "measures": {
+        "top20_host_share": {"value": 80, "unit": "more than percent of global FDI attracted by the world's top 20 host economies in 2025", "value_type": "reported_global_share"},
+        "strategic_sector_share_2025": {"value": 44, "unit": "percent of global greenfield project values in strategic sectors in 2025", "value_type": "reported_project_share"},
+        "strategic_sector_share_2020": {"value": 16, "unit": "percent of global greenfield project values in strategic sectors in 2020", "value_type": "reported_project_share"},
+        "megaproject_driver": {"value": "AI-related digital infrastructure and other strategic megaprojects", "unit": "reported concentration mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNCTAD comparison of host-economy concentration, announced greenfield project values, and strategic-sector investment trends.",
+      "uncertainty": "Project announcements are not completed investment, operating capacity, local ownership, or employment; sector classifications and valuation can change as projects are revised or cancelled.",
+      "subgroup": "Top host economies, excluded or marginal host economies, strategic-sector firms, digital and energy infrastructure, supply-chain partners, workers, and local communities.",
+      "counterinterpretation": "Strategic concentration can accelerate infrastructure, resilience, and technology diffusion if linked to local capability, competition, standards, and benefit-sharing policies.",
+      "source_url": "https://unctad.org/press-material/global-investment-rises-6-16-trillion-development-gains-remain-uneven",
+      "retrieval_hash": "sha256:022ae64997d684e359120712d5e75cd7dff5dc567dcef4003d4e7cc289c4cb84",
+      "status": "reported"
+    },
+    {
+      "period": "2026; investment-to-development conversion and geopolitical conditions",
+      "denominator": {
+        "value": 1,
+        "unit": "global investment policy and development-impact framework",
+        "value_type": "global_policy_mechanism_frame"
+      },
+      "measures": {
+        "development_conversion_conditions": {"value": "productive capacity, jobs, skills, technology transfer, and resilient value chains", "unit": "conditions identified by UNCTAD for broader development impact", "value_type": "reported_condition_set"},
+        "risk_conditions": {"value": "trade-policy uncertainty, geopolitical tensions, conflict, high financing costs, and economic fragmentation", "unit": "reported investment-outlook risk set", "value_type": "reported_risk_set"},
+        "policy_response": {"value": "investment partnerships and policies that align investor resilience with host-economy development priorities", "unit": "reported policy direction", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "UNCTAD synthesis of investment trends, global value chains, multinational-enterprise operations, policy developments, and development implications.",
+      "uncertainty": "The report identifies conversion conditions and policy mechanisms but does not establish a universal causal effect of FDI on jobs, wages, technology, or local legitimacy.",
+      "subgroup": "Host governments, investors, multinational enterprises, small suppliers, workers, training systems, infrastructure providers, and communities seeking durable local gains.",
+      "counterinterpretation": "Investment screening, local-content rules, skills policy, competition, responsible business conduct, and international cooperation can improve conversion, though they can also deter or redirect capital.",
+      "source_url": "https://unctad.org/press-material/global-investment-rises-6-16-trillion-development-gains-remain-uneven",
+      "retrieval_hash": "sha256:022ae64997d684e359120712d5e75cd7dff5dc567dcef4003d4e7cc289c4cb84",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/publication/world-investment-report-2026-international-investment-turbulent-era", "claim": "UNCTAD report landing page and chapter structure."},
+    {"source_url": "https://unctad.org/topic/investment/world-investment-report", "claim": "UNCTAD World Investment Report series, annex tables, and regional fact sheets."}
+  ],
+  "boundary": "This record adds an investment-flow-to-geopolitical-concentration, strategic-sector, productive-capacity, labour, skills, technology-transfer, and local-development route. It is not project-level community incidence, firm respondent data, proof of completed investment, or evidence that FDI automatically produces jobs, legitimacy, or broad prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD World Investment Report 2026 page, Investment Policy Hub page, press release, investment topic page, and launch context were retrieved; FDI totals, regional changes, concentration, strategic-sector shares, megaproject, development-conversion, and geopolitical-risk claims were cross-checked.",
+    "source_url_sha256": "sha256:022ae64997d684e359120712d5e75cd7dff5dc567dcef4003d4e7cc289c4cb84",
+    "checked": "2026-09-26"
+  }
+}

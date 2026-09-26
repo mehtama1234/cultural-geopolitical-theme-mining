@@ -1,0 +1,68 @@
+{
+  "schema": "us-sipp-housing-transition-timing-audit-summary-v1",
+  "checked": "2026-09-25",
+  "source": {
+    "name": "2025 Survey of Income and Program Participation public-use file",
+    "data_url": "https://www2.census.gov/programs-surveys/sipp/data/datasets/2025/pu2025_csv.zip",
+    "reference_period": "January-December 2024",
+    "archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed"
+  },
+  "extraction": {
+    "profile": "housing-transition",
+    "rows": 379215,
+    "distinct_people": 32052,
+    "distinct_households": 13910,
+    "months": 12,
+    "weighted_estimate": false,
+    "household_fields_are_copied_to_person_rows": true
+  },
+  "field_coverage": {
+    "EHOUSE_ANY": {
+      "timing": "reference_period",
+      "rows_nonblank": 324671,
+      "rows_blank": 54544,
+      "status_field": "AHOUSE_ANY",
+      "status_value_counts": {"0": 54544, "1": 140640, "2": 2806, "3": 181225}
+    },
+    "EEHC_RENTSUB": {
+      "timing": "residence_spell",
+      "rows_nonblank": 109692,
+      "rows_blank": 269523,
+      "status_field": "AEHC_RENTSUB",
+      "status_value_counts": {"0": 269523, "1": 106213, "2": 257, "3": 3222}
+    },
+    "EEHC_VOUCHER": {
+      "timing": "residence_spell",
+      "rows_nonblank": 13918,
+      "rows_blank": 365297,
+      "status_field": "AEHC_VOUCHER",
+      "status_value_counts": {"0": 365297, "1": 13542, "2": 63, "3": 313}
+    },
+    "TRENTMORT": {
+      "timing": "December_reference_period",
+      "rows_nonblank": 261780,
+      "rows_blank": 117435,
+      "status_field": "ARENTMORT",
+      "status_value_counts": {"0": 117435, "1": 236374, "2": 18988, "6": 6418}
+    },
+    "EAWBMORT": {"timing": "reference_period", "rows_nonblank": 379215, "rows_blank": 0},
+    "EAWBGAS": {"timing": "reference_period", "rows_nonblank": 379215, "rows_blank": 0},
+    "THINCPOV": {"timing": "monthly", "rows_nonblank": 379052, "rows_blank": 163},
+    "RMNUMJOBS": {"timing": "monthly", "rows_nonblank": 326099, "rows_blank": 53116}
+  },
+  "adjacent_month_raw_diagnostics": {
+    "EHOUSE_ANY": {"complete_pairs": 297325, "raw_code_changes": 0},
+    "EEHC_RENTSUB": {"complete_pairs": 99943, "raw_code_changes": 66},
+    "EEHC_VOUCHER": {"complete_pairs": 12691, "raw_code_changes": 14},
+    "EAWBMORT": {"complete_pairs": 347163, "raw_code_changes": 0},
+    "EAWBGAS": {"complete_pairs": 347163, "raw_code_changes": 0},
+    "RMNUMJOBS": {"complete_pairs": 298603, "raw_code_changes": 4344},
+    "THINCPOV": {"complete_pairs": 346995, "raw_code_changes": 315448}
+  },
+  "interpretation": {
+    "result": "The public file supplies a same-person 12-month backbone and housing-assistance fields, but the assistance and housing-cost fields are primarily reference-period or residence-spell variables rather than dated monthly entry/exit measures.",
+    "usable_monthly_diagnostic": "RMNUMJOBS can support a raw adjacent-month diagnostic after universe, weights, and missingness are handled.",
+    "not_usable_as_substantive_transition": "Raw adjacent equality for THINCPOV is not a meaningful transition measure because it is a continuous monthly value; it requires defined bins or change thresholds.",
+    "promotion_boundary": "This does not pass the end-to-end promotion gate: it does not identify HUD program identity, benefit amount or adequacy, landlord/agency response, verified recovery, trust, or political action, and it is not weighted or causal."
+  }
+}

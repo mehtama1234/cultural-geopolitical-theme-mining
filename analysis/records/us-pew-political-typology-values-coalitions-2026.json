@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-political-typology-values-coalitions-2026",
+  "title": "American political coalitions contain cross-pressured value groups that a two-party split hides",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "Pew Research Center 2026 Political Typology American Trends Panel survey and linked follow-up surveys",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "November 17-30, 2025; nine-group political typology",
+      "denominator": {
+        "value": 10357,
+        "unit": "U.S. adults in the American Trends Panel classified from 30 value and attitude questions",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "typology_groups": {"value": 9, "unit": "value-based political groups", "value_type": "cluster_count"},
+        "right_anchor_share": {"value": 21, "unit": "percent of adults in the two highly ideological right-anchor groups", "value_type": "reported_group_share"},
+        "left_anchor_share": {"value": 17, "unit": "percent of adults in the two highly ideological left-anchor groups", "value_type": "reported_group_share"},
+        "unconventional_right_share": {"value": 23, "unit": "percent of adults", "value_type": "reported_group_share"},
+        "order_opportunity_left_share": {"value": 18, "unit": "percent of adults", "value_type": "reported_group_share"},
+        "tuned_out_middle_share": {"value": 9, "unit": "percent of adults", "value_type": "reported_group_share"}
+      },
+      "method": "Pew cluster analysis using 30 questions about government, economics, immigration, social values, national identity, and foreign policy; groups summarize patterned responses.",
+      "uncertainty": "Cluster assignments depend on the questions, model, cut points, and survey period. A group is not a fixed identity, a cause of behavior, or a forecast of future votes.",
+      "subgroup": "Nine Pew political typology groups with distinct party composition, values, demographics, and political attention.",
+      "counterinterpretation": "Cross-pressured views may reflect life stage, material position, identity, information, or local context rather than a stable coalition mechanism. Group size does not indicate political influence.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PP_2026.5.10_political-typology_report.pdf",
+      "retrieval_hash": "sha256:319237a1df3a9f8a6c93545ec5f9eb9a537531785b625af9b6a0b9e4d617efe7",
+      "status": "compared"
+    },
+    {
+      "period": "November 17-30, 2025; within-coalition cultural and national-identity contrasts",
+      "denominator": {
+        "value": 100,
+        "unit": "percent within each Pew political typology group",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "faith_first_conservatives_abortion_illegal": {"value": 83, "unit": "percent saying abortion should be illegal in most or all cases", "value_type": "published_share"},
+        "no_apologies_right_abortion_illegal": {"value": 73, "unit": "percent", "value_type": "published_share"},
+        "pragmatic_polite_right_abortion_illegal": {"value": 46, "unit": "percent", "value_type": "published_share"},
+        "unconventional_right_abortion_illegal": {"value": 43, "unit": "percent", "value_type": "published_share"},
+        "faith_first_christian_culture_important": {"value": 82, "unit": "percent saying a culture based in Christian religious beliefs is very or extremely important to U.S. identity", "value_type": "published_share"},
+        "no_apologies_right_christian_culture_important": {"value": 68, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Descriptive within-typology comparison of cultural and national-identity attitudes.",
+      "uncertainty": "The group contrasts do not establish why groups differ or that typology membership causes issue positions. Religious-identity importance is not religious practice or constitutional preference.",
+      "subgroup": "Pew typology groups, including right-leaning groups with different cultural and institutional profiles.",
+      "counterinterpretation": "Party labels can hide meaningful disagreement within the same coalition; issue positions may also shift with context or question framing.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PP_2026.5.10_political-typology_report.pdf",
+      "retrieval_hash": "sha256:319237a1df3a9f8a6c93545ec5f9eb9a537531785b625af9b6a0b9e4d617efe7",
+      "status": "compared"
+    },
+    {
+      "period": "November 17-30, 2025; power and alliance preferences",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults answering foreign-policy value questions",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "worlds_only_military_superpower_important": {"value": 71, "unit": "percent saying it is at least somewhat important for the U.S. to be the world's only military superpower", "value_type": "published_share"},
+        "account_for_allies_interests": {"value": 62, "unit": "percent saying the U.S. should consider allies' interests even when compromise is required", "value_type": "published_share"}
+      },
+      "method": "Descriptive national foreign-policy value comparison within Pew's typology survey.",
+      "uncertainty": "These are stated preferences, not defense spending, alliance behavior, burden sharing, willingness to fight, or government decisions.",
+      "subgroup": "U.S. adults and typology groups; support for power and alliance consideration can coexist within respondents and groups.",
+      "counterinterpretation": "A desire for military primacy does not necessarily reject alliances; a desire to consider allies does not establish willingness to bear cost or compromise.",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PP_2026.5.10_political-typology_report.pdf",
+      "retrieval_hash": "sha256:319237a1df3a9f8a6c93545ec5f9eb9a537531785b625af9b6a0b9e4d617efe7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/politics/2026/06/10/beyond-red-vs-blue-the-2026-political-typology/", "claim": "Pew's public overview explains the nine-group typology and the 10,357-adult survey universe.", "status": "official-summary"}
+  ],
+  "boundary": "This record maps value-based coalition differences in a cluster-derived typology. It does not establish stable identities, causes of political behavior, turnout, vote choice, switching, policy influence, or a single center-versus-extremes mechanism.",
+  "retrieval_hash": "sha256:319237a1df3a9f8a6c93545ec5f9eb9a537531785b625af9b6a0b9e4d617efe7"
+}

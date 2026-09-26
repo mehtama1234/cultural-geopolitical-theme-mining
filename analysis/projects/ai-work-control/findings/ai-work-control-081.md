@@ -1,6 +1,6 @@
 # Poland’s JASSM-ER order still has a schedule, not a public delivery record
 
-**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-18
+**Status:** dated delivery/acceptance non-observation · **Checked:** 2026-09-19
 
 ## The finding
 
@@ -26,6 +26,13 @@ The 2026-09-18 recheck likewise found no new identifier-bearing realization
 event; the directly retrieved ministry page had SHA-256
 `76cc131fbdd435ecdabd7102f0a5475fc6dada1be30bc81c7434f249f1a2e7ca` and still
 reported the same planned window.
+
+An additional 2026-09-19 official-source search again located the Polish MOD
+JASSM-ER page as the current authoritative result. It still describes the May
+2024 agreement and a 2026–2030 delivery window, without a quantity,
+acceptance, shipment, fielding, training, or inventory notice tied to that
+order. This preserves the non-observation as current evidence rather than
+silently treating the search result as delivery.
 
 This is a **public-source non-observation**, not a claim that no delivery has
 occurred. It means the reviewed official record does not support promoting the
@@ -92,7 +99,7 @@ acceptance status separately.
 
 ## Sources and reproduction
 
-- [Polish MOD JASSM-ER agreement page](https://www.gov.pl/web/obrona-narodowa/jassm-er) · official page rechecked 2026-09-16 · local capture [data/poland-jassm-er-official-2026-09-13.html](../data/poland-jassm-er-official-2026-09-13.html), SHA-256 `5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6`
+- [Polish MOD JASSM-ER agreement page](https://www.gov.pl/web/obrona-narodowa/jassm-er) · official result rechecked 2026-09-19; local capture [data/poland-jassm-er-official-2026-09-13.html](../data/poland-jassm-er-official-2026-09-13.html), SHA-256 `5c3543e58b7eda1feff5b84c56ab540d61e11b0ef849f68b1f6e0fef3afbafd6`; page still reports the 2026–2030 delivery window
 - [Polish MOD modernization briefing](https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet)
 - [DSCA possible-sale notice](https://www.dsca.mil/sites/default/files/mas/Press%20Release%20-%20Poland%2024-33%20CN.pdf)
 - [Historical 2017 JASSM delivery announcement](https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2)

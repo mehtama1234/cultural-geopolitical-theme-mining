@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-resilience-baseline-requirements-2026",
+  "title": "NATO makes civilian resilience part of military readiness while implementation remains open",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NATO 2026 Resilience Baseline Requirements official text",
+  "geography": "NATO civil-military resilience planning and Host Nation Support requirements",
+  "observations": [
+    {
+      "period": "2026; official alliance baseline requirements",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO official resilience-baseline policy document",
+        "value_type": "source_defined_policy_universe"
+      },
+      "measures": {
+        "whole_of_society_governance": {
+          "value": "required",
+          "unit": "resilience planning across government and society",
+          "value_type": "reported_policy_requirement"
+        },
+        "resource_planning": {
+          "value": "required",
+          "unit": "reliable and sustained resource planning for resilience",
+          "value_type": "reported_policy_requirement"
+        },
+        "civil_systems_in_scope": {
+          "value": "movement of people, food and water, health and mass casualties, communications, transportation, border crossing, and supply-chain/private-sector dependencies",
+          "unit": "named resilience domains",
+          "value_type": "reported_policy_scope"
+        },
+        "host_nation_support": {
+          "value": "required planning interface",
+          "unit": "civil support for allied military movement and operations",
+          "value_type": "reported_policy_requirement"
+        },
+        "population_effect_mitigation": {
+          "value": "required aim",
+          "unit": "mitigation of military and civil-plan effects on populations while maintaining essential services",
+          "value_type": "reported_policy_requirement"
+        },
+        "national_implementation": {
+          "value": "not observed in this source",
+          "unit": "country compliance, funding, and operating performance",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NATO 2026 Resilience Baseline Requirements text; policy requirements are kept separate from country-level implementation and outcomes.",
+      "uncertainty": "The document establishes an alliance policy framework but does not provide country-by-country compliance, budgets, exercise results, outage data, service continuity, public opinion, or crisis performance.",
+      "subgroup": "NATO member and partner civil authorities, military planners, Host Nation Support actors, essential-service providers, and private-sector dependencies named by the policy.",
+      "counterinterpretation": "The requirements can strengthen civilian protection and essential-service continuity as well as military enablement; the policy text alone cannot show how that balance works in practice or who bears the costs.",
+      "source_url": "https://nato.int/en/about-us/official-texts-and-resources/official-texts/2026/09/15/2026-resilience-baseline-requirements",
+      "retrieval_hash": "sha256:d549d0a457be00f83971c002b3cce398fab72c4c9d4513ce5eca4df778a6d5e5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures a formal NATO policy connection between civilian resilience and military readiness. It does not establish national implementation, spending, public consent, burden distribution, essential-service performance, Host Nation Support performance, or deterrence and crisis outcomes.",
+  "retrieval_hash": "sha256:d549d0a457be00f83971c002b3cce398fab72c4c9d4513ce5eca4df778a6d5e5"
+}

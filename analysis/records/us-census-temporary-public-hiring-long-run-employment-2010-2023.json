@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-temporary-public-hiring-long-run-employment-2010-2023",
+  "title": "A temporary public job can keep some marginal workers attached to employment for years",
+  "theme_ids": ["work", "time", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "work_control_bargaining", "unequal_exposure_status", "household_room_consumption", "political_judgment_action", "firm_sector_market_power"],
+  "source_unit": "SEHSD-WP2026-05 using 2010 Decennial Applicant, Personnel, and Payroll System records linked to Census demographic records and 2005-2023 IRS Form W-2 records",
+  "geography": "United States; applicants for temporary 2010 Decennial Census jobs and linked employment outcomes",
+  "observations": [{
+    "period": "2010 Census hiring; W-2 outcomes observed through 2023; paper published March 2026",
+    "denominator": {"value": 2300000, "unit": "rounded applicants who appeared on at least one Census selection sheet; estimates focus on non-veteran applicants and score-defined comparison groups", "value_type": "reported_count_and_study_subgroup"},
+    "measures": {
+      "scale": {"value": "The 2010 Decennial Census recruited about 3.9 million applicants for more than 850,000 temporary positions; about 2.3 million applicants appeared on at least one selection sheet", "unit": "applicants and temporary positions", "value_type": "reported_count"},
+      "marginal_2010_employment": {"value": "For applicants just around the generally required score of 70, receiving a Census job was associated with a 61 percentage-point increase in the likelihood of W-2 employment in 2010", "unit": "percentage-point local treatment estimate", "value_type": "reported_estimate"},
+      "marginal_2023_employment": {"value": "For the same marginal score group, Census hires were 28 percentage points more likely to receive a W-2 in 2023 than comparable applicants not hired", "unit": "percentage-point long-run employment estimate", "value_type": "reported_estimate"},
+      "wages": {"value": "Conditional on working, post-2010 W-2 wages did not differ significantly; the higher likelihood of working translated to nearly $6,000 more annual W-2 wages for marginal hires", "unit": "conditional wage and total annual W-2 outcome", "value_type": "reported_estimate"},
+      "heterogeneity_and_cost": {"value": "The long-run employment effect for marginal applicants was concentrated among men, while low-score Census workers were more than twice as likely to be terminated for misconduct or unsatisfactory performance as higher-score workers", "unit": "subgroup effect and employment-cost comparison", "value_type": "reported_comparison"},
+      "average_applicant_effect": {"value": "Across the broader test-score distribution, hiring increased the likelihood of W-2 employment by about 22 percentage points in 2010 but the effect dissipated by 2011", "unit": "short-run employment estimate for broader applicant group", "value_type": "reported_estimate"}
+    },
+    "method": "The study uses a fuzzy regression-discontinuity design around the generally required employment-test score of 70 for marginal applicants and a within-selection-sheet comparison for broader applicants. It links restricted hiring records to Census demographic records and IRS W-2 outcomes from 2005 through 2023.",
+    "uncertainty": "This is a Census SEHSD working paper and not a Census Bureau endorsement. The local discontinuity estimate applies to applicants near the score threshold, not all unemployed people or all public jobs. The 2010 Census setting included a large recession-era labor market, a background check, training, trust-sensitive enumeration work, and a particular selection process; the study cannot show that the same effects would occur under a different public hiring design or stronger labor market.",
+    "subgroup": "Non-veteran temporary Census applicants, with comparisons by test score, sex, age, education, race/ethnicity, Medicaid/SNAP exposure, and urbanicity; long-run marginal-applicant effects were concentrated among men.",
+    "counterinterpretation": "The job itself may help through income, work attachment, a résumé signal, passing a background check, training, or the specific trust requirements of Census work. Hiring may also displace private work for applicants who would otherwise have worked; the broader applicant effect fades quickly. Termination, management time, replacement, and work-quality costs are only partly observed, and W-2 employment is not job quality, wellbeing, or household security.",
+    "source_url": "https://cdn.www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-05.html",
+    "retrieval_hash": "sha256:d60491d867bdfe5e8fdf4c371b1ef75cc7cc4df3cdcae526b88bae6b5458fa13",
+    "status": "reported"
+  }],
+  "related_sources": [],
+  "boundary": "This record adds a bounded public-hiring-to-labor-attachment pathway. It does not establish a universal job-guarantee effect, a national employment rate, equal benefit across groups, job quality, household wellbeing, or political legitimacy."
+}

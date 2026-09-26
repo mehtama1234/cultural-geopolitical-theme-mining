@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-emerging-technology-societal-governance-2026",
+  "title": "Emerging technologies can expand capability while moving privacy, autonomy, environmental, and legal questions ahead of settled governance",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office foresight review of three emerging technologies",
+  "geography": "United States; congressional and public-policy foresight about technologies with potential societal effects",
+  "observations": [
+    {
+      "period": "April 2026; technologies approximately 10 years on the horizon",
+      "denominator": {
+        "value": 3,
+        "unit": "emerging technology areas reviewed by GAO",
+        "value_type": "selected_review_universe"
+      },
+      "measures": {
+        "technology_areas": {
+          "value": "neural implants for human augmentation; general-purpose robots; orbital-debris removal technologies",
+          "unit": "technology areas",
+          "value_type": "reported_classification"
+        },
+        "expert_interviews": {
+          "value": 11,
+          "unit": "semi-structured expert interviews across the three technology areas",
+          "value_type": "reported_count"
+        },
+        "orbital_debris_tracked": {
+          "value": 15000,
+          "unit": "pieces of orbital debris currently tracked",
+          "value_type": "reported_count"
+        },
+        "orbital_debris_too_small_to_track": {
+          "value": ">1,000,000",
+          "unit": "pieces of orbital debris described as too small to track but capable of damaging spacecraft",
+          "value_type": "reported_order_of_magnitude"
+        },
+        "policy_posture": {
+          "value": "GAO made no recommendations; it identified policy considerations including standards, privacy and security safeguards, human confirmation, risk assessment, research, and legal analysis",
+          "unit": "foresight posture",
+          "value_type": "reported_finding"
+        }
+      },
+      "method": "GAO review of scientific literature and position papers plus semi-structured interviews with 11 experts, organized through the STEER domains of social impacts, technology drivers, environmental impacts, economic drivers, and regulation.",
+      "uncertainty": "This is expert-informed foresight, not a forecast or realized impact estimate. The report does not establish adoption timing, distribution, prices, employment, privacy violations, accident rates, public acceptance, or geopolitical response.",
+      "subgroup": "People who may use or be governed by neural implants, workers and communities affected by general-purpose robots, satellite and infrastructure users, regulators, firms, and future generations exposed to environmental or governance spillovers.",
+      "counterinterpretation": "Early governance attention can shape design and deployment before harms occur; potential risks and policy questions do not imply that any named technology will mature, scale, or produce the described outcome.",
+      "source_url": "https://www.gao.gov/products/gao-26-108079",
+      "retrieval_hash": "sha256:19514b696106e3872c689086fc457ec679d006ca5b85b9a9bd207f75c13eb237",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-108079.pdf",
+      "claim": "Full report source for the foresight review.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/890/885030.pdf",
+      "claim": "Accessible PDF version of the same GAO report.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record adds a public foresight and governance layer for neural implants, general-purpose robots, and orbital-debris removal. It does not establish realized deployment, adoption, subgroup burden, employment change, privacy or safety incidents, public legitimacy, market concentration, or geopolitical leverage.",
+  "retrieval_hash": "sha256:19514b696106e3872c689086fc457ec679d006ca5b85b9a9bd207f75c13eb237"
+}

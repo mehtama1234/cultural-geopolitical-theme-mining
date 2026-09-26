@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-hope-vi-neighborhood-social-isolation-child-outcomes-2026",
+  "title": "Neighborhood redevelopment can change children's opportunity without raising public-housing adults' earnings",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper evaluating HOPE VI public-housing revitalization with matched difference-in-differences, anonymized tax records, movers exposure, and sibling comparisons",
+  "geography": "United States public-housing developments; 262 distressed developments receiving HOPE VI revitalization",
+  "observations": [
+    {
+      "period": "HOPE VI revitalization program; paper published January 2026",
+      "denominator": {
+        "value": 262,
+        "unit": "distressed public-housing developments analyzed in the HOPE VI program",
+        "value_type": "program_defined_count"
+      },
+      "measures": {
+        "program_investment": {
+          "value": 17000000000,
+          "unit": "dollars invested in HOPE VI revitalization",
+          "value_type": "reported_program_total"
+        },
+        "neighborhood_poverty": {
+          "value": "reduced after revitalization, partly through attracting higher-income families",
+          "unit": "reported neighborhood outcome",
+          "value_type": "reported_relationship"
+        },
+        "public_housing_adult_earnings": {
+          "value": "no causal impact detected for earnings of adults living in public-housing units",
+          "unit": "reported adult outcome",
+          "value_type": "reported_null"
+        },
+        "children_earnings": {
+          "value": "children raised in revitalized public-housing units earn more as adults",
+          "unit": "reported long-run child outcome",
+          "value_type": "reported_relationship"
+        },
+        "children_college": {
+          "value": "children raised in revitalized units are more likely to attend college",
+          "unit": "reported long-run child outcome",
+          "value_type": "reported_relationship"
+        },
+        "children_incarceration": {
+          "value": "children raised in revitalized units are less likely to be incarcerated",
+          "unit": "reported long-run child outcome",
+          "value_type": "reported_relationship"
+        },
+        "social_interaction": {
+          "value": "revitalization increased interaction between public-housing residents and peers in surrounding neighborhoods, with larger earnings gains for subgroups exposed to higher-income peers",
+          "unit": "reported mechanism evidence",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "Census CES working paper using matched difference-in-differences comparing revitalized and similar control developments with anonymized tax records, plus movers exposure design and sibling comparisons to study neighborhood causal effects on children.",
+      "uncertainty": "This is a working paper. The public abstract does not provide all site-selection details, estimates, resident displacement patterns, housing quality, service access, adult wellbeing, or subgroup definitions. The adult earnings null is specific to adults in public-housing units; it does not mean no adult outcome changed.",
+      "subgroup": "Public-housing residents and children raised in 262 distressed developments receiving HOPE VI revitalization, compared with similar control developments; child effects vary with exposure to higher-income peers.",
+      "counterinterpretation": "Lower neighborhood poverty may reflect attracting higher-income families rather than improving every original resident's resources. Social interaction is a reported mechanism, but redevelopment can also change housing stability, rents, displacement, services, safety, school access, or selection into who remains. Higher child earnings, college attendance, or lower incarceration do not establish complete wellbeing, belonging, or resident control.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-02.html",
+      "retrieval_hash": "sha256:94d619c3be84384cf67ccad3c28d10ccfac0c05164e3797110b8fd6353e93ad1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1391",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the HOPE VI neighborhood and child outcomes.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-02.pdf",
+      "claim": "The official paper PDF provides the HOPE VI program, design, and social-interaction context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded neighborhood-redevelopment-to-child-outcomes pathway with an adult-earnings null. It does not establish universal redevelopment effects, resident displacement or retention, adult wellbeing, public-housing control, or complete community prosperity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Committed official-source extract based on the Census CES-26-02 landing page and paper; underlying anonymized tax records and site-level data are not retained",
+    "checked": "2026-09-22"
+  }
+}

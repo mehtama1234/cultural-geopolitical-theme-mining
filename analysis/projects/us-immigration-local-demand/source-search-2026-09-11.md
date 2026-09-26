@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; local demand effect is measurable, housing and political meaning remain open
+**Status:** bounded pass completed; local demand and national inflation channels are measured separately, housing and political meaning remain open
 
 ## Working question
 
@@ -28,6 +28,9 @@ new residents arrive
 ```
 
 The NBER evidence makes customer demand part of the immigration question rather than only a labor-supply question. The missing link is how quickly housing and services respond, and who receives the new jobs or carries the added cost.
+
+The completed finding is [New residents can add workers and customers, while
+local housing and public capacity remain separate questions](findings/us-immigration-local-demand-001.md).
 
 ## Counterpoint to keep visible
 

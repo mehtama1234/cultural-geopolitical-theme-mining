@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-public-life-engagement-groups-2025-2026",
+  "title": "Public participation divides into mobilization, connection, spectatorship, and outsider patterns",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center Cross-Sectional Engagement Survey and American Trends Panel; U.S. adults, 2025 fieldwork",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Cross-Sectional Engagement Survey July 9-December 5, 2025; report published July 2026",
+      "denominator": {
+        "value": 5393,
+        "unit": "adults in the nationally representative Cross-Sectional Engagement Survey; cluster categories exclude respondents not classified",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "engagement_groups": {
+          "value": "Mobilizers 9%; Connectors 28%; Spectators 31%; Outsiders 31%",
+          "unit": "percent of U.S. adults classified into four clusters based on 19 participation measures",
+          "value_type": "published_cluster_distribution"
+        },
+        "voting_2024": {
+          "value": "Mobilizers 87%; Connectors 87%; Spectators 49%; Outsiders 41%",
+          "unit": "percent within engagement group reporting voting in 2024",
+          "value_type": "published_group_comparison"
+        },
+        "contacting_official": {
+          "value": "Mobilizers 65%; Connectors 13%; Spectators 7%; Outsiders 3%",
+          "unit": "percent within engagement group contacting an elected official in the past year",
+          "value_type": "published_group_comparison"
+        },
+        "news_attention": {
+          "value": "Mobilizers 95%; Connectors 88%; Spectators 84%; Outsiders 41% follow national news at least somewhat closely",
+          "unit": "percent within engagement group",
+          "value_type": "published_group_comparison"
+        },
+        "partisan_mix": {
+          "value": "Each group contains Republicans, Democrats, and people without a lean; Mobilizers are 41% Republican/lean Republican and 57% Democratic/lean Democratic",
+          "unit": "percent within engagement group",
+          "value_type": "published_group_comparison"
+        }
+      },
+      "method": "Pew cluster analysis of 19 political, civic, religious, and news-participation measures, with a second American Trends Panel sample used to compare groups on civic knowledge and attitudes.",
+      "uncertainty": "The clusters describe a specific period that included the 2024 presidential election; they are not a time series or causal typology. Participation, news attention, religion, and political action are correlated inside the clusters but not necessarily causally ordered.",
+      "subgroup": "U.S. adults classified as Mobilizers, Connectors, Spectators, or Outsiders; age, party, education, race, and community differences are reported separately by Pew.",
+      "counterinterpretation": "Low measured participation does not equal apathy: Outsiders include people who voted or attend religious services, while Spectators follow news without public posting. High activity also does not establish policy influence or institutional trust.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:1e4a7c0f3d6b9e2a5c8f1b4d7a0e3c6f9b2d5a8e1c4f7b0d3a6e9c2f5b8d1a40",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a multidimensional civic-culture map. It does not measure change over time, explain why people enter a group, establish civic influence, or infer trust and political meaning from participation alone.",
+  "retrieval_hash": "sha256:1e4a7c0f3d6b9e2a5c8f1b4d7a0e3c6f9b2d5a8e1c4f7b0d3a6e9c2f5b8d1a40"
+}

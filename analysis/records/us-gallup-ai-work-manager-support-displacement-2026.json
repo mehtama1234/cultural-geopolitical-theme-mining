@@ -1,0 +1,43 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-ai-work-manager-support-displacement-2026",
+  "title": "Frequent workplace AI use can raise displacement fear while supportive management changes the meaning of the same exposure",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Gallup Panel workforce studies of employed U.S. adults, four waves from 2023 through early 2026",
+  "geography": "United States employed adults",
+  "observations": [
+    {
+      "period": "2023 through Q1 2026; four nationally representative Gallup workforce waves",
+      "denominator": {"value": null, "unit": "employed U.S. adults in repeated Gallup Panel workforce studies; exact pooled analytic denominator not reported in the public article", "value_type": "not_disclosed"},
+      "measures": {
+        "frequent_ai_user_displacement_concern": {"value": "more than twice the rate of workers using AI only a few times a month or year", "unit": "relative reported concern about job elimination within five years", "value_type": "reported_comparison"},
+        "manager_respect_buffer": {"value": 6.8, "unit": "percentage-point smaller association between frequent AI use and displacement fear among workers giving the highest respect rating", "value_type": "reported_longitudinal_association"},
+        "manager_wellbeing_buffer": {"value": 11.1, "unit": "percentage-point smaller association among workers strongly agreeing their organization cares about wellbeing", "value_type": "reported_longitudinal_association"},
+        "job_anxiety_within_person": {"value": {"engagement_sd": -0.20, "burnout_sd": 0.18, "job_satisfaction_sd": -0.19, "active_job_search_points": 4.1}, "unit": "within-worker association with reporting AI-related job-elimination concern", "value_type": "reported_longitudinal_association"},
+        "actual_job_loss_or_bargaining_change": {"value": "not observed in the public article", "unit": "missing employment, pay, schedule, voice, and exit endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Review of Gallup's public summary of four waves of nationally representative repeated workforce data, with occupational AI-exposure linkage and within-worker comparisons; associations are retained as reported, not treated as causal estimates.",
+      "uncertainty": "The article does not publish the full analytic dataset, coefficient specification, exact pooled denominator, AI task details, employer practices beyond the measured support items, actual job loss, pay or schedule change, bargaining, worker organizing, or later exit.",
+      "subgroup": "Employed U.S. adults, frequent versus infrequent workplace-AI users, and workers differing in perceived organizational respect and care for wellbeing; occupation-level AI exposure is a linked contextual measure.",
+      "counterinterpretation": "Frequent users may be more exposed to AI's possible displacement precisely because of their roles or because they are more attentive to workplace change; supportive management may correlate with better firms, jobs, or worker resources rather than cause the entire difference.",
+      "source_url": "https://www.gallup.com/workplace/713231/ai-not-reassure-workers-managers-do.aspx",
+      "retrieval_hash": "sha256:6f0030113029ad3cd268f5e62b22a29082954fe7b6784238c27ff41138b820ce",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6002785",
+      "claim": "Gallup identifies the underlying working paper for the repeated-workforce analysis.",
+      "status": "method-context"
+    }
+  ],
+  "boundary": "This record establishes a same-worker longitudinal association between workplace AI exposure/use, displacement concern, perceived management support, and job-attitude measures. It does not establish actual job loss, wage or schedule change, worker bargaining power, organizing, household security, political action, or causal management effects."
+}

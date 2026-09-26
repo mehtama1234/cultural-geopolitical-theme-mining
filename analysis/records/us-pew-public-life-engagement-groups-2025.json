@@ -15,8 +15,8 @@
       "uncertainty": "Cluster labels depend on the selected 19 measures and survey period; the activity questions mostly refer to the prior 12 months, including the 2024 presidential election. Group membership is not a fixed identity or causal exposure.",
       "subgroup": "Mobilizers, Connectors, Spectators, and Outsiders as defined by Pew; group shares and composition are source-specific.",
       "counterinterpretation": "Political interest may help produce engagement, be produced by it, or reflect common causes such as education, identity, resources, information, or life stage.",
-      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
-      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:19735c4da3790101cb9c24faeaea4be2e659b6f9f8cc4d3921dcda48e8a89729",
       "status": "reported"
     },
     {
@@ -27,8 +27,8 @@
       "uncertainty": "These are cross-sectional group comparisons, not evidence that participation creates trust. Different question wording, nonresponse, survey mode, and assignment uncertainty apply to the two source surveys.",
       "subgroup": "Four Pew engagement groups; national news trust values for Connectors and Spectators are 64% and 57%, respectively, and are retained in the detailed memo.",
       "counterinterpretation": "Federal-government trust is low across all four groups, while news trust varies more; engagement does not translate into a general trust hierarchy.",
-      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
-      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/07/PJ_26.07.16_engagement_report.pdf",
+      "retrieval_hash": "sha256:19735c4da3790101cb9c24faeaea4be2e659b6f9f8cc4d3921dcda48e8a89729",
       "status": "reported"
     },
     {
@@ -39,12 +39,45 @@
       "uncertainty": "Perceived fairness is not news accuracy, bias coding, ownership, censorship, or exposure. The measure can reflect political identity, expectations, media use, and the distinction between watchdog and partisan roles.",
       "subgroup": "Mobilizers, Connectors, Spectators, and Outsiders in the Pew panel assignment.",
       "counterinterpretation": "High engagement can coexist with skepticism about fairness; distrust of news does not imply disengagement, and engagement does not imply institutional confidence.",
-      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/",
-      "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e",
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/07/PJ_26.07.16_engagement_report.pdf",
+      "retrieval_hash": "sha256:19735c4da3790101cb9c24faeaea4be2e659b6f9f8cc4d3921dcda48e8a89729",
       "status": "reported"
+    },
+    {
+      "period": "July 9–December 5, 2025; reported past-year civic and political action by engagement group",
+      "denominator": {
+        "value": 100,
+        "unit": "percent within Pew engagement groups classified from the Cross-Sectional Engagement Survey",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "voted_2024_mobilizers": {"value": 87, "unit": "percent", "value_type": "published_share"},
+        "voted_2024_connectors": {"value": 87, "unit": "percent", "value_type": "published_share"},
+        "voted_2024_spectators": {"value": 49, "unit": "percent", "value_type": "published_share"},
+        "voted_2024_outsiders": {"value": 41, "unit": "percent", "value_type": "published_share"},
+        "contacted_elected_official_mobilizers": {"value": 65, "unit": "percent in past year", "value_type": "published_share"},
+        "contacted_elected_official_connectors": {"value": 13, "unit": "percent in past year", "value_type": "published_share"},
+        "contacted_elected_official_spectators": {"value": 7, "unit": "percent in past year", "value_type": "published_share"},
+        "contacted_elected_official_outsiders": {"value": 3, "unit": "percent in past year", "value_type": "published_share"},
+        "volunteered_mobilizers": {"value": 77, "unit": "percent in past year", "value_type": "published_share"},
+        "volunteered_connectors": {"value": 42, "unit": "percent in past year", "value_type": "published_share"},
+        "volunteered_spectators": {"value": 17, "unit": "percent in past year", "value_type": "published_share"},
+        "volunteered_outsiders": {"value": 13, "unit": "percent in past year", "value_type": "published_share"},
+        "monthly_religious_attendance_mobilizers": {"value": 45, "unit": "percent", "value_type": "published_share"},
+        "monthly_religious_attendance_connectors": {"value": 43, "unit": "percent", "value_type": "published_share"},
+        "monthly_religious_attendance_spectators": {"value": 25, "unit": "percent", "value_type": "published_share"},
+        "monthly_religious_attendance_outsiders": {"value": 24, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Pew cluster analysis of the Cross-Sectional Engagement Survey; the reported measures are past-year or 2024-election behaviors used to describe the four engagement profiles, not outcomes assigned by a treatment.",
+      "uncertainty": "Group membership is derived partly from participation measures, so the behavioral contrasts are descriptive profile definitions rather than independent causal effects. Most questions refer to the prior 12 months, and political patterns may differ in another election cycle.",
+      "subgroup": "Mobilizers, Connectors, Spectators, and Outsiders; group shares are 9%, 28%, 31%, and 31% of U.S. adults among respondents classified into a group.",
+      "counterinterpretation": "The sharp action gradient may reflect education, income, age, resources, information, identity, and group-construction rules. High reported voting among Connectors does not imply high direct political contact, and low direct action among Outsiders does not prove apathy or exclusion.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:130eef4ca730eda2bd92c9cce1becd3e0323bdd003d8cb8168f1de1be39e125d",
+      "status": "compared"
     }
   ],
   "related_sources": [{"source_url": "https://www.pewresearch.org/journalism/2026/09/15/how-americans-view-the-relationship-between-the-government-and-the-news-media/", "claim": "Current Pew press-government legitimacy findings provide a complementary institutional-power and criticism-norm layer.", "status": "cross-source-context"}, {"source_url": "https://www.pewresearch.org/short-reads/2026/09/16/democrats-are-now-more-worried-than-republicans-about-ai-and-its-impact-on-jobs/", "claim": "Current Pew AI-attitude findings provide a technology-concern and anticipated-work-change comparison.", "status": "cross-source-context"}],
   "boundary": "This record describes engagement clusters and associated political, news, trust, and fairness judgments. It does not estimate a causal effect of civic participation, identify the same person's trigger-to-action path, measure objective news fairness, or establish that trust produces voting, organizing, switching, or non-use.",
-  "retrieval_hash": "sha256:67db87f7b9f299dd76adf8fb9da3086e9e453528eeb90e33379636f75eaec01e"
+  "retrieval_hash": "sha256:19735c4da3790101cb9c24faeaea4be2e659b6f9f8cc4d3921dcda48e8a89729"
 }

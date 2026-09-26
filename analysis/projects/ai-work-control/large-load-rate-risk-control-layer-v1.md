@@ -1,6 +1,6 @@
 # Large-load rate design, risk allocation, and state control v1
 
-**Checked:** 2026-09-13  
+**Checked:** 2026-09-21
 **Scope:** US data centers and other large electricity loads  
 **Unit:** utility/regulatory design and large-load customer relationship  
 **Status:** official policy/mechanism evidence; not a local bill or causal rate
@@ -132,3 +132,20 @@ allocation coexists with durable local benefits and credible provider exit.
 Related: [US data-center energy-load baseline](us-data-center-energy-load-baseline-v1.md),
 [state-leverage control ledger](state-leverage-control-ledger-v1.md), and the
 [domestic capacity/dependence bridge](domestic-capacity-dependence-state-leverage-cross-source-bridge-v1.md).
+
+## Official federal recheck — 2026-09-21
+
+The Federal Energy Regulatory Commission's June 18, 2026 action on large-load
+show-cause matters frames the current federal response around fair cost
+allocation, transparency for ratepayers, and protection against cost shifting
+among wholesale transmission customers. This advances the governance stage:
+the federal system is making the allocation problem more explicit before the
+public record shows a household bill, facility-level payment, reliability
+change, or local acceptance outcome.
+
+The recheck therefore strengthens the infrastructure conversion map but does
+not close it. The next evidence remains a named tariff or project-year record
+that can connect large-load request and actual operation to assigned cost,
+ratepayer pass-through, service/reliability, and affected-party response.
+
+Source: [FERC June 18, 2026 large-load action and remarks](https://www.ferc.gov/news-events/news/chairman-swetts-remarks-large-load-show-cause-orders-e-7-e-12-june-18-2026-open).

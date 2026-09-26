@@ -182,6 +182,7 @@ def main():
     memos.append(ROOT / "analysis/findings/us-grubhub-platform-remedy-001.md")
     memos.append(ROOT / "analysis/findings/us-brightspeed-redress-distribution-001.md")
     memos.append(ROOT / "analysis/findings/us-snap-data-governance-accountability-001.md")
+    memos.append(ROOT / "analysis/findings/us-medicaid-expansion-safety-net-spillover-001.md")
     memos.extend((ROOT / "analysis/projects").glob("**/findings/*.md"))
     # A small number of project audits are reader-facing evidence memos even
     # though they are not findings. Keep them in this shared renderer so the
@@ -200,6 +201,9 @@ def main():
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/htops-2025-panel-linkage-audit-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cces-material-trust-action-subgroup-layer-v1.md")
     memos.append(ROOT / "analysis/projects/us-cost-trust-politics/anes-2024-panel-judgment-action-layer-v1.md")
+    # Publish the cash-transfer recovery-currency crosswalk as a dedicated
+    # route through money, time, care, stress, mobility, and durability.
+    memos.append(ROOT / "analysis/projects/us-cost-trust-politics/cash-transfer-recovery-currency-crosswalk-v1.md")
     memos.append(ROOT / "analysis/projects/us-health-cost-household-choice/cces-medical-affordability-action-reproduction-audit-2026-09-16.md")
     # Publish the material/time/care bridge itself, not only its matched
     # finding, so the cross-source comparison remains readable as a durable
@@ -214,6 +218,16 @@ def main():
     # Keep the atlas-level cross-source synthesis readable from the server as
     # well as from the repository control records.
     memos.append(ROOT / "analysis/US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md")
+    # Publish the source-led authority/judgment synthesis as a first-class
+    # reader route: it joins health, financial, AI, and public-information
+    # surfaces without treating their separate survey units as one path.
+    memos.append(ROOT / "analysis/US-BROAD-INFORMATION-AUTHORITY-PRACTICAL-JUDGMENT-SYNTHESIS_V1.md")
+    # Publish the social-capacity synthesis so its distinct place, time,
+    # support, participation, and voice measures remain readable together.
+    memos.append(ROOT / "analysis/US-BROAD-SOCIAL-CAPACITY-PROXIMITY-TIME-SUPPORT-SYNTHESIS_V1.md")
+    # Publish the geopolitical civilian-resilience route with policy, exercise,
+    # operational, and incident stages retained as distinct evidence.
+    memos.append(ROOT / "analysis/US-BROAD-CIVILIAN-RESILIENCE-STATE-POWER-SYNTHESIS_V1.md")
     # Publish the curated review route so readers can move from the broad goal
     # to representative writeups without first learning the repository tree.
     review_guide = ROOT / "REVIEW-GUIDE_V1.md"
@@ -287,10 +301,17 @@ def main():
     # Publish the arrow-level evidence matrix as a navigable control record;
     # it is the bridge between project findings and the end-to-end program.
     memos.append(ROOT / "analysis/US-BROAD-EVIDENCE-MATRIX_V1.md")
+    # Publish the theme-balance control so the next broad rotation can be
+    # inspected from the same server-visible research surface.
+    memos.append(ROOT / "analysis/US-BROAD-THEME-BALANCE-AUDIT_V1.md")
+    memos.append(ROOT / "analysis/US-BROAD-LOW-DENSITY-FRESHNESS-RECHECK_2026-09-20.md")
     # Give the cultural/meaning lane a stable reader route instead of exposing
     # its project README only through repository navigation.
     cultural_politics_readme = ROOT / "analysis/projects/us-cost-trust-politics/README.md"
     memos.append(cultural_politics_readme)
+    # Publish the atlas-level cultural/political synthesis alongside the
+    # project reader so values, ritual, action risk, and behavior stay distinct.
+    memos.append(ROOT / "analysis/US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md")
     # Publish the material-to-political-meaning synthesis as a long-form route
     # across the linked HTOPS panel, subgroup contrasts, and open attribution
     # and action arrows.
@@ -424,6 +445,8 @@ def main():
     memos.append(aging_care_readme)
     aging_care_synthesis = ROOT / "analysis/projects/us-aging-care-strain/aging-care-hidden-second-job-synthesis-v1.md"
     memos.append(aging_care_synthesis)
+    cash_counseling_synthesis = ROOT / "analysis/projects/us-aging-care-strain/cash-counseling-multi-currency-realization-synthesis-v1.md"
+    memos.append(cash_counseling_synthesis)
     # Publish the next material/time/care bridge as a reader-facing route:
     # stable work hours, care constraints, tenure, and following hardship,
     # with the small-cell and non-causal boundaries kept in the text.
@@ -562,6 +585,62 @@ def main():
     memos.append(ROOT / "analysis/US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md")
     memos.append(ROOT / "analysis/US-BROAD-THEME-INVENTORY_V1.md")
     memos.append(ROOT / "analysis/US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md")
+    # Publish the three reader-facing broad-atlas control pages together:
+    # plain-language orientation, the theme/subtheme map, and the ranked
+    # end-to-end chain register. These are the shortest route into the
+    # program's actual objective and should not require repository access.
+    broad_plain_language_summary = ROOT / "analysis/US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.md"
+    broad_theme_subtheme_map = ROOT / "analysis/US-BROAD-THEME-SUBTHEME-MAP_V1.md"
+    broad_strongest_chains = ROOT / "analysis/US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.md"
+    broad_end_to_end_readout = ROOT / "analysis/US-BROAD-END-TO-END-READOUT_V1.md"
+    broad_open_middle_audit = ROOT / "analysis/US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.md"
+    broad_recovery_currency_synthesis = ROOT / "analysis/US-BROAD-RECOVERY-CURRENCY-DIVERGENCE-SYNTHESIS_V1.md"
+    source_led_consumer_map = ROOT / "analysis/US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_platform_map = ROOT / "analysis/US-BROAD-PLATFORM-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_care_map = ROOT / "analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_cultural_political_map = ROOT / "analysis/US-BROAD-CULTURAL-POLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_geopolitical_map = ROOT / "analysis/US-BROAD-GEOPOLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_work_map = ROOT / "analysis/US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_housing_place_mobility_map = ROOT / "analysis/US-BROAD-HOUSING-PLACE-MOBILITY-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_unequal_exposure_status_map = ROOT / "analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_household_room_map = ROOT / "analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_firm_market_power_map = ROOT / "analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_infrastructure_dependency_map = ROOT / "analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_social_infrastructure_map = ROOT / "analysis/US-BROAD-SOCIAL-INFRASTRUCTURE-CIVIC-CAPACITY-SOURCE-LED-MAP_V1.md"
+    source_led_time_hidden_price_map = ROOT / "analysis/US-BROAD-TIME-HIDDEN-PRICE-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    cross_lane_trend_portfolio = ROOT / "analysis/US-BROAD-CROSS-LANE-TREND-PORTFOLIO_V1.md"
+    source_led_public_systems_map = ROOT / "analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md"
+    source_led_maps_index = ROOT / "analysis/US-BROAD-SOURCE-LED-MAPS-INDEX_V1.md"
+    dependence_control_synthesis = ROOT / "analysis/US-BROAD-DEPENDENCE-CONTROL-AND-LEVERAGE-SYNTHESIS_V1.md"
+    remedy_implementation_synthesis = ROOT / "analysis/US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md"
+    remedy_reachability_synthesis = ROOT / "analysis/US-REMEDY-REACHABILITY-SELECTION-SYNTHESIS_V1.md"
+    dol_wage_reachability_layer = ROOT / "analysis/projects/ai-work-control/dol-workers-owed-wages-reachability-layer-v1.md"
+    memos.append(broad_plain_language_summary)
+    memos.append(broad_theme_subtheme_map)
+    memos.append(broad_strongest_chains)
+    memos.append(broad_end_to_end_readout)
+    memos.append(broad_open_middle_audit)
+    memos.append(broad_recovery_currency_synthesis)
+    memos.append(source_led_consumer_map)
+    memos.append(source_led_platform_map)
+    memos.append(source_led_care_map)
+    memos.append(source_led_cultural_political_map)
+    memos.append(source_led_geopolitical_map)
+    memos.append(source_led_work_map)
+    memos.append(source_led_housing_place_mobility_map)
+    memos.append(source_led_unequal_exposure_status_map)
+    memos.append(source_led_household_room_map)
+    memos.append(source_led_firm_market_power_map)
+    memos.append(source_led_infrastructure_dependency_map)
+    memos.append(source_led_social_infrastructure_map)
+    memos.append(source_led_time_hidden_price_map)
+    memos.append(cross_lane_trend_portfolio)
+    memos.append(source_led_public_systems_map)
+    memos.append(source_led_maps_index)
+    memos.append(dependence_control_synthesis)
+    memos.append(remedy_implementation_synthesis)
+    memos.append(remedy_reachability_synthesis)
+    memos.append(dol_wage_reachability_layer)
     output_names = {
         cultural_politics_readme: "us-cost-trust-politics-program.html",
         material_political_synthesis: "material-pressure-to-political-meaning-synthesis-v1.html",
@@ -612,6 +691,32 @@ def main():
         review_guide: "review-guide.html",
         review_packet: "review-packet-ai-work-control.html",
         current_themes_packet: "review-packet-current-themes.html",
+        broad_plain_language_summary: "US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.html",
+        broad_theme_subtheme_map: "US-BROAD-THEME-SUBTHEME-MAP_V1.html",
+        broad_strongest_chains: "US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.html",
+        broad_end_to_end_readout: "US-BROAD-END-TO-END-READOUT_V1.html",
+        broad_open_middle_audit: "US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.html",
+        broad_recovery_currency_synthesis: "US-BROAD-RECOVERY-CURRENCY-DIVERGENCE-SYNTHESIS_V1.html",
+        source_led_consumer_map: "US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_platform_map: "US-BROAD-PLATFORM-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_care_map: "US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_cultural_political_map: "US-BROAD-CULTURAL-POLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_geopolitical_map: "US-BROAD-GEOPOLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_work_map: "US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_housing_place_mobility_map: "US-BROAD-HOUSING-PLACE-MOBILITY-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_unequal_exposure_status_map: "US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_household_room_map: "US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_firm_market_power_map: "US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_infrastructure_dependency_map: "US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_social_infrastructure_map: "US-BROAD-SOCIAL-INFRASTRUCTURE-CIVIC-CAPACITY-SOURCE-LED-MAP_V1.html",
+        source_led_time_hidden_price_map: "US-BROAD-TIME-HIDDEN-PRICE-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        cross_lane_trend_portfolio: "US-BROAD-CROSS-LANE-TREND-PORTFOLIO_V1.html",
+        source_led_public_systems_map: "US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.html",
+        source_led_maps_index: "US-BROAD-SOURCE-LED-MAPS-INDEX_V1.html",
+        dependence_control_synthesis: "US-BROAD-DEPENDENCE-CONTROL-AND-LEVERAGE-SYNTHESIS_V1.html",
+        remedy_implementation_synthesis: "US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.html",
+        remedy_reachability_synthesis: "US-REMEDY-REACHABILITY-SELECTION-SYNTHESIS_V1.html",
+        dol_wage_reachability_layer: "dol-workers-owed-wages-reachability-layer-v1.html",
         ai_work_synthesis: "anticipatory-to-remedial-worker-control-synthesis-v1.html",
         cfpb_health_bridge: "cfpb-event-ledger-health-cost-bridge-v1.html",
         cfpb_medical_visibility: "cfpb-2025-medical-debt-visibility-v1.html",

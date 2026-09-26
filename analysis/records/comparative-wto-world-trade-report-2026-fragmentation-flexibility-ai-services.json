@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wto-world-trade-report-2026-fragmentation-flexibility-ai-services",
+  "title": "Trade flexibility is becoming a governance strategy as dispersed economic power, digital services, AI, and geopolitical blocs strain multilateral rules",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "World Trade Organization, World Trade Report 2026",
+  "geography": "Global multilateral trade system, regional and targeted agreements, digital services, AI-enabled trade, and economies with different levels of market power",
+  "observations": [
+    {
+      "period": "1995-2024; distribution of economic power and trade participation",
+      "denominator": {
+        "value": 1,
+        "unit": "global merchandise-trade system and WTO membership frame",
+        "value_type": "global_trade_system_frame"
+      },
+      "measures": {
+        "low_middle_income_trade_share_1995": {"value": 23, "unit": "percent share of global trade held by low- and middle-income economies in 1995", "value_type": "reported_global_trade_share"},
+        "low_middle_income_trade_share_2024": {"value": 45, "unit": "percent share of global trade held by low- and middle-income economies in 2024", "value_type": "reported_global_trade_share"},
+        "notified_regional_trade_agreements": {"value": 380, "unit": "regional trade agreements notified to the WTO, more than", "value_type": "reported_agreement_count"},
+        "governance_shift": {"value": "more dispersed economic power, more diverse membership, and more complex trade frictions", "unit": "reported institutional trend", "value_type": "reported_systemic_trend"}
+      },
+      "method": "WTO historical and institutional analysis of trade shares, membership diversity, regional trade agreements, and the relationship between multilateral rules and newer forms of cooperation.",
+      "uncertainty": "Trade shares and agreement counts do not measure bargaining power in every sector, implementation, distribution within economies, or whether a regional agreement reduces or increases fragmentation.",
+      "subgroup": "Low- and middle-income economies, advanced economies, smaller states, exporters, importers, workers, firms, and governments negotiating trade rules.",
+      "counterinterpretation": "More dispersed participation can widen bargaining opportunities and development space, while unequal capabilities, market concentration, and non-tariff barriers can preserve asymmetries despite larger trade shares.",
+      "source_url": "https://www.wto.org/english/res_e/publications_e/world-trade-report-2026_e.htm",
+      "retrieval_hash": "sha256:69cbf523f44030556b90b33d3b36a75fe42fa7b08a1d788e83fdc5b632e17299",
+      "status": "reported"
+    },
+    {
+      "period": "Modeled scenarios; multilateral cooperation, geopolitical blocs, and FTA substitution",
+      "denominator": {
+        "value": 1,
+        "unit": "WTO global trade-model scenario frame",
+        "value_type": "global_trade_scenario_frame"
+      },
+      "measures": {
+        "geo_fragmented_world_gdp": {"value": -5.1, "unit": "percent modeled global GDP change in a geopolitically fragmented trade-bloc scenario", "value_type": "modeled_global_change"},
+        "geo_fragmented_world_exports": {"value": -18.6, "unit": "percent modeled global export change in a geopolitically fragmented trade-bloc scenario", "value_type": "modeled_global_change"},
+        "fta_world_gdp": {"value": -6.9, "unit": "percent modeled global GDP change when multilateral cooperation is replaced by FTAs and the WTO no longer operates", "value_type": "modeled_global_change"},
+        "fta_world_exports": {"value": -26.9, "unit": "percent modeled global export change in the comparable FTA-only scenario", "value_type": "modeled_global_change"},
+        "enhanced_cooperation_world": {"value": "2.9 percent GDP gain and 17.9 percent export gain", "unit": "modeled global change under reinforced multilateral trade cooperation", "value_type": "modeled_global_change"}
+      },
+      "method": "WTO economists' global trade-model comparison of enhanced cooperation, geopolitically aligned blocs, and an FTA-only world.",
+      "uncertainty": "These are counterfactual model scenarios, not forecasts or realized losses; outcomes depend on trade elasticities, policy responses, substitution, technology, investment, and the definition of geopolitical alignment.",
+      "subgroup": "Exporting and importing economies, firms integrated into global value chains, workers, consumers, smaller economies, and governments relying on predictable rules.",
+      "counterinterpretation": "Regional or targeted agreements can preserve cooperation and experiment with rules when multilateral consensus is slow; the risk is that overlapping exceptions weaken transparency and system-wide predictability.",
+      "source_url": "https://www.wto.org/english/res_e/publications_e/world-trade-report-2026_execsum_e.htm",
+      "retrieval_hash": "sha256:69cbf523f44030556b90b33d3b36a75fe42fa7b08a1d788e83fdc5b632e17299",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2040; AI, digital services, and trade-rule adaptation",
+      "denominator": {
+        "value": 1,
+        "unit": "WTO global AI-and-trade scenario frame",
+        "value_type": "global_technology_trade_scenario_frame"
+      },
+      "measures": {
+        "ai_trade_increase": {"value": 40, "unit": "percent modeled potential increase in global trade from AI by 2040, approximately", "value_type": "modeled_global_change"},
+        "ai_gdp_increase": {"value": 13, "unit": "percent modeled potential addition to global GDP over the next 15 years, more than", "value_type": "modeled_global_change"},
+        "commercial_services_share_2025": {"value": 27.6, "unit": "percent share of total global trade represented by commercial services in 2025", "value_type": "reported_global_trade_share"},
+        "digitally_delivered_services_growth_2025": {"value": 10, "unit": "percent growth in digitally delivered services trade in 2025", "value_type": "reported_global_change"},
+        "rule_laboratory": {"value": "digital trade and critical-mineral agreements can serve as laboratories for rules beyond the WTO while also risking fragmentation", "unit": "reported governance mechanism", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "WTO synthesis of global trade statistics, digital-services trends, AI simulations, and analysis of targeted and regional trade agreements.",
+      "uncertainty": "AI and trade projections are conditional scenarios, and aggregate services growth does not identify firm entry, worker transitions, consumer access, data governance, or the distribution of gains.",
+      "subgroup": "Digital-service firms, platform and infrastructure providers, workers, consumers, small firms, regulators, and economies with different digital capabilities.",
+      "counterinterpretation": "Targeted rules can reduce uncertainty and enable cooperation in emerging sectors, while interoperable multilateral disciplines may be needed to prevent standards, data, and market access from splitting into blocs.",
+      "source_url": "https://www.wto.org/english/res_e/publications_e/world-trade-report-2026_execsum_e.htm",
+      "retrieval_hash": "sha256:69cbf523f44030556b90b33d3b36a75fe42fa7b08a1d788e83fdc5b632e17299",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; flexibility, predictability, and participation in trade governance",
+      "denominator": {
+        "value": 1,
+        "unit": "WTO institutional flexibility and implementation frame",
+        "value_type": "global_trade_governance_frame"
+      },
+      "measures": {
+        "flexibility_instruments": {"value": "safeguards, trade remedies, waivers, renegotiation provisions, regional agreements, and special and differential treatment", "unit": "reported trade-governance instrument set", "value_type": "reported_policy_mechanism_set"},
+        "tradeoff": {"value": "flexibility can preserve cooperation under stress while also raising prices, diverting trade, weakening predictability, or disconnecting exemptions from capacity and need", "unit": "reported institutional tradeoff", "value_type": "reported_tradeoff"},
+        "participation_endpoint": {"value": "bargaining, transparency, implementation, and capacity to participate fully in trade agreements", "unit": "reported governance endpoint", "value_type": "reported_institutional_endpoint"}
+      },
+      "method": "WTO institutional analysis of trade-rule flexibilities, exceptions, bargaining, transparency, implementation, and special treatment.",
+      "uncertainty": "The report identifies governance mechanisms and tradeoffs rather than measuring the effect of a specific agreement on prices, jobs, participation, or national development outcomes.",
+      "subgroup": "Smaller and developing economies, trade ministries, customs and regulatory agencies, firms, workers, consumers, and communities exposed to trade-remedy or tariff changes.",
+      "counterinterpretation": "Rigid rules can exclude economies with limited administrative or fiscal capacity; appropriately designed flexibility may widen participation if it remains transparent, reviewable, and linked to actual need.",
+      "source_url": "https://www.wto.org/english/res_e/publications_e/world-trade-report-2026_execsum_e.htm",
+      "retrieval_hash": "sha256:69cbf523f44030556b90b33d3b36a75fe42fa7b08a1d788e83fdc5b632e17299",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wto.org/english/res_e/publications_e/gtos0326_e.htm", "claim": "WTO March 2026 trade outlook and statistics provide current trade-flow and forecast context."},
+    {"source_url": "https://www.wto.org/english/res_e/publications_e/wtr25_e.htm", "claim": "WTO World Trade Report 2025 provides the earlier AI-and-trade comparison used to distinguish the 2026 governance and fragmentation route."}
+  ],
+  "boundary": "This record adds a trade-system-to-firm-to-economy governance route linking dispersed economic power, regional and targeted agreements, geopolitical fragmentation, digital services, AI, and institutional flexibility. It is not firm respondent data, a realized tariff or GDP estimate, a prediction of trade blocs, or proof that aggregate trade gains are broadly shared.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WTO World Trade Report 2026 landing page and executive summary were reviewed; trade-share changes, agreement counts, fragmentation scenarios, AI and digital-services figures, and flexibility tradeoffs were cross-checked.",
+    "source_url_sha256": "sha256:69cbf523f44030556b90b33d3b36a75fe42fa7b08a1d788e83fdc5b632e17299",
+    "checked": "2026-09-26"
+  }
+}

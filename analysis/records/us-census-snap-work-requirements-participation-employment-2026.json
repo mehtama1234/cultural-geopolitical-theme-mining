@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-snap-work-requirements-participation-employment-2026",
+  "title": "SNAP work requirements reduced participation without increasing labor supply in a five-state study",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "Census CES Working Paper 26-46 using linked administrative SNAP and employment data from five states",
+  "geography": "United States; five states, counties and states with phased SNAP work-requirement reinstatement during the 2010s",
+  "observations": [{
+    "period": "Post-Great-Recession suspension and 2010s county/state reinstatement of SNAP work requirements; paper published July 2026",
+    "denominator": {"value": 1, "unit": "linked SNAP-administrative and employment-data policy comparison across five states", "value_type": "study_unit"},
+    "measures": {
+      "participation": {"value": "work requirements reduced SNAP participation by 7%", "unit": "participation change", "value_type": "reported_estimate"},
+      "labor_supply": {"value": "work requirements did not increase labor supply", "unit": "employment/labor-supply outcome", "value_type": "reported_relationship"},
+      "screening": {"value": "lower-income individuals were disproportionately screened out", "unit": "distributional relationship", "value_type": "reported_comparison"},
+      "policy_purpose": {"value": "the study evaluates work requirements as a screening device", "unit": "policy mechanism", "value_type": "reported_definition"},
+      "welfare_interpretation": {"value": "the authors' welfare framework finds social costs exceed budget savings", "unit": "study-specific welfare interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors use linked administrative SNAP and employment data from five states and a triple-differences design exploiting county and state timing of work-requirement reinstatement.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The estimates cover five states and the studied policy periods; participation loss is not itself a complete measure of food security, employment quality, household adaptation, or long-run welfare.",
+    "subgroup": "SNAP recipients and eligible adults classified under the able-bodied-adults-without-dependents rules, with distributional differences by income; effects may differ by disability, care, transportation, local labor demand, administrative capacity, and state implementation.",
+    "counterinterpretation": "Work requirements may interact with reporting, exemption, recertification, employment quality, local labor demand, and administrative churn. A participation decline could reflect procedural loss, changed eligibility, non-use, or exit; the abstract does not identify each pathway or later food security.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-46.html",
+    "retrieval_hash": "sha256:0f5318dddd8f569608dc867c457f4346bde994bfd4f607776fc91db1c3ffbd64",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-46.pdf", "claim": "The official paper provides the five-state linked-data design, triple-differences method, participation and labor-supply estimates, subgroup pattern, and welfare framework.", "status": "official-paper-context"}],
+  "boundary": "This record adds a work-requirement-to-participation pathway. It does not establish a universal effect across SNAP rules, states, periods, or groups, and does not directly measure food security, health, household income, administrative burden, or political response.",
+  "retrieval_hash": "sha256:0f5318dddd8f569608dc867c457f4346bde994bfd4f607776fc91db1c3ffbd64"
+}

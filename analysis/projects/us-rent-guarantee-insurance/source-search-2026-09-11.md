@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States housing-market model  
-**Status:** opening pass; modeled gains are clear, actual market effects remain open
+**Status:** bounded pass complete; modeled housing protection and provider-level risk transfer are visible, actual tenant outcomes remain open
 
 ## Working question
 
@@ -62,6 +62,9 @@ The real products found so far protect the landlord's lease decision more clearl
 
 The common structure is not yet proof that the companies have equal terms. It is a reason to compare policy documents, state filings, and claim records before treating them as one market.
 
+This lane is now paused for rotation. Reopen it only when a source adds actual
+approval, claim, reimbursement, eviction, or later housing-stability data.
+
 ## State and legal check
 
 | Provider record | What is public | What it means for the map |
@@ -71,6 +74,8 @@ The common structure is not yet proof that the companies have equal terms. It is
 | [Leap legal notices](https://leapeasy.com/legal-notices/) | Leap publishes producer licensing information by state and says insurance applications must go through licensed producers; its coverage may be admitted or excess and surplus lines. | A provider's national footprint still needs state-by-state checking. |
 
 The public records support a state-terms table, but not a complete price table. Provider quotes are personalized and the policy forms, filings, and underwriting decisions are not all public in one place.
+
+The bounded result is now recorded in [Finding 001](findings/us-rent-guarantee-insurance-001.md), with its machine-readable [trend record](../../records/us-rent-guarantee-insurance-protection-repayment-2026.json).
 
 ## Four-state first check
 

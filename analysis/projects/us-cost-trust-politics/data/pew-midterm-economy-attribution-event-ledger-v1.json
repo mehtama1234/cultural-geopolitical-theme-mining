@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "pew_survey_reported_economic_attribution_record",
+  "purpose": "Bounded Pew July 2026 route from economic and affordability salience through party/leader attribution and campaign representation, preserving individual exposure, vote causality, policy delivery, and recovery gaps.",
+  "events": [
+    {
+      "event_id": "PEW-MIDTERM-ECONOMY-ATTRIBUTION-2026",
+      "unit": "case",
+      "geography": "United States; July 6–12, 2026 Pew survey of 3,554 adults including 2,779 registered voters",
+      "actor_initiating_change": "unknown",
+      "event_date": "2026-07-06",
+      "date_precision": "Survey field window July 6–12, 2026; cross-sectional responses, not a dated household event or validated election outcome",
+      "denominator": "3,554 U.S. adults and 2,779 registered voters; question-specific bases and party subgroups vary",
+      "method": "Pew Research Center published survey estimates of campaign issue demand, party issue fit, candidate preference, election attention, presidential attribution, congressional favorability, and AI-policy representation",
+      "missingness": "Individual bill/price/job exposure, prior judgment, information source, campaign contact, policy knowledge, validated turnout/vote, institutional response, remedy, recovery, trust change, and exit are not retained",
+      "condition_or_decision": "policy",
+      "exposure": "Registered voters identify the economy as the issue they most want congressional candidates to discuss; 29% name the economy, including 15% cost of living/affordability, 7% general economy, and 4% taxes",
+      "alternatives_before_action": "Alternative party platforms, candidate information, policy knowledge, source exposure, and household adaptation options are not observed for the same respondent",
+      "immediate_burden_or_benefit": "Economic and affordability concern is politically salient, but no respondent-level price, wage, employment, debt, or care episode is identified",
+      "choice_or_response": "Party economic-policy fit is nearly balanced at 37% Democratic and 36% Republican; 42% describe a midterm vote as against Trump, 22% for Trump, and 35% say Trump is not much of a factor; 51% say neither party represents them on AI policy",
+      "person_or_actor_with_control": "Voters, parties, candidates, the president, Congress, media, and economic institutions occupy different attribution roles; the survey does not identify which actor caused a respondent's material condition",
+      "remedy_or_institutional_response": "Campaign issue demand, party positioning, and congressional favorability are observed; no enacted policy, household remedy, or material recovery is linked",
+      "immediate_outcome": "The survey establishes a dated political-attribution and representation surface in which economic salience coexists with weak or divided party fit",
+      "protected_outcome": "Political attention or candidate positioning may give material concerns a channel of representation, but no policy protection or household improvement is observed",
+      "sacrificed_outcome": "Economic concerns may remain politically underrepresented, especially where neither party is seen as fitting AI policy, but individual political sacrifice is not measured",
+      "cost_risk_transfer": "The survey does not identify whether economic, technology, or policy costs transfer among households, firms, government, or parties",
+      "later_outcome": "No linked validated vote, campaign contact, policy response, household recovery, trust persistence, switching, or exit is observed",
+      "meaning_and_attribution": "Vote framing, issue salience, party fit, and congressional favorability provide political meaning surfaces, but prior identity, information, fairness, and responsibility attribution remain unresolved",
+      "public_or_collective_response": "Issue attention and stated candidate preference are observed; turnout, organizing, contact, collective action, and policy implementation are not linked",
+      "counterexample": "Economic salience can coexist with balanced party attribution, and a vote framed against a leader can express identity or coalition choice rather than a specific material judgment",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Pew cross-sectional survey; not a forecast, causal voting estimate, validated ballot record, or household economic panel",
+      "source_url": "https://www.pewresearch.org/politics/2026/07/23/as-the-2026-midterms-approach-economy-is-front-and-center/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "PEW-ECONOMY-A-01",
+      "from": "economic and affordability salience",
+      "to": "campaign issue demand",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Among registered voters, 29% name the economy as the issue they most want congressional candidates to discuss, including 15% cost of living or affordability",
+      "status": "reported",
+      "counterexample": "Issue demand may reflect national discourse, party identity, or generalized concern rather than a respondent's own dated exposure",
+      "remaining_gap": "Household event, prior salience, information source, and later action"
+    },
+    {
+      "arrow_id": "PEW-ECONOMY-A-02",
+      "from": "campaign issue demand",
+      "to": "party/leader attribution and representation",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Economic policy fit is nearly balanced at 37% Democratic and 36% Republican; presidential vote framing is 42% against Trump, 22% for Trump, and 35% not much a factor; 51% say neither party represents them on AI policy",
+      "status": "reported",
+      "counterexample": "Different questions measure party fit, leader attribution, and policy representation; they do not form a respondent-level causal sequence",
+      "remaining_gap": "Prior identity, responsibility attribution, policy knowledge, candidate information, and repeated measurement"
+    },
+    {
+      "arrow_id": "PEW-ECONOMY-A-03",
+      "from": "economic experience and attribution",
+      "to": "attention, campaign contact, turnout, or vote",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey reports issue demand, election attention, candidate preference, and vote framing but does not follow a dated economic experience to a validated political action",
+      "status": "open",
+      "counterexample": "High salience can produce attention without action, while vote framing can reflect identity or opposition unrelated to a specific economic event",
+      "remaining_gap": "Repeated respondent event, campaign exposure/contact, validated participation, and issue-specific action"
+    },
+    {
+      "arrow_id": "PEW-ECONOMY-A-04",
+      "from": "party/leader attribution",
+      "to": "policy delivery, household remedy, or recovery",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey ends at political meaning and preference; no enacted policy, institutional response, or household outcome is linked",
+      "status": "open",
+      "counterexample": "A party advantage or vote can coexist with no policy change or with a policy whose material incidence differs across households",
+      "remaining_gap": "Actor-attributed policy change, implementation, household exposure, remedy, and later security"
+    },
+    {
+      "arrow_id": "PEW-ECONOMY-A-05",
+      "from": "AI-policy representation uncertainty",
+      "to": "technology governance, worker/consumer outcome, or geopolitical response",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "51% say neither party represents them on AI policy, but the survey does not identify AI exposure, policy demand, implementation, or later outcome",
+      "status": "open",
+      "counterexample": "Neither-party responses may indicate low information, dissatisfaction, uncertainty, or a genuinely missing policy offer",
+      "remaining_gap": "AI exposure, policy understanding, attribution, action, implemented rule, worker/consumer incidence, and external response"
+    }
+  ],
+  "boundary": "This ledger formalizes a dated cross-sectional bridge from economic salience to political attribution and representation. It does not establish a material shock, causal vote effect, policy delivery, household recovery, trust change, or geopolitical consequence.",
+  "storage_boundary": "Only Pew-published aggregate estimates, survey universes, source metadata, and interpretation limits are retained; no respondent microdata are stored."
+}

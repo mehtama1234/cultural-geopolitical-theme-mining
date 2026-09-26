@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-happiness-social-media-trust-generations-2026",
+  "title": "Digital exposure and wellbeing vary by generation, trust, social activity, and the saturation of peers’ social-media environments",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "World Happiness Report 2026, Chapter 8: Internet use, social media, and wellbeing",
+  "geography": "30 European countries in European Social Survey rounds 8-11, 2016-2024, with generational and regional comparisons",
+  "observations": [
+    {
+      "period": "European Social Survey rounds 8-11; 2016-2024",
+      "denominator": {
+        "value": 30,
+        "unit": "European countries represented in the chapter's repeated survey analysis",
+        "value_type": "country_count"
+      },
+      "measures": {
+        "internet_wellbeing_gradient": {"value": "Instrumental-variable estimates show a negative relationship between internet use and wellbeing that is strongest for Gen Z, moderately negative for Millennials, near zero for Gen X, and slightly positive for Baby Boomers", "unit": "reported generation-specific estimate pattern", "value_type": "reported_estimate_pattern"},
+        "younger_social_foundations": {"value": "Trust in people and institutions, perceived social activity, and social-meeting frequency deteriorated most for younger Europeans, especially Gen Z and Millennial women", "unit": "reported cross-time subgroup pattern", "value_type": "reported_trend"},
+        "wellbeing_channels": {"value": "Trust in people and institutions, social interaction with friends, social-meeting frequency, community safety, and attachment to country or Europe are positively related to wellbeing", "unit": "reported wellbeing-channel pattern", "value_type": "reported_association"}
+      },
+      "method": "The chapter analyzes four European Social Survey rounds covering 30 countries and uses local M-Lab internet speed as an instrument for internet use; it examines trust, social connection, emotional bonds, generation, gender, region, and peer-group social-media saturation.",
+      "uncertainty": "Instrumental-variable identification depends on the validity of regional internet speed as an instrument and the chapter's assumptions. Reported patterns are not universal effects for every platform, country, or age group, and wellbeing measures do not capture all information, connection, or economic benefits of internet use.",
+      "subgroup": "Gen Z, Millennials, Gen X, Baby Boomers, women and men, Western and Central/Eastern Europeans, people with different trust and social-activity levels, and people in different peer-group digital environments.",
+      "counterinterpretation": "Internet use can support social connection, information, self-expression, and social capital; positive effects appear for some groups and lower-saturation environments. Generational differences may reflect exposure, susceptibility, offline institutions, cohort conditions, or platform mix rather than one universal technology effect.",
+      "source_url": "https://www.worldhappiness.report/ed/2026/internet-use-social-media-and-wellbeing-the-role-of-trust-social-connections-and-emotional-bonds/",
+      "retrieval_hash": "sha256:576846e83a6afdc8f0a927343b48ff5a4e5c79af4cf78e101dec32bc586074a5",
+      "status": "reported"
+    },
+    {
+      "period": "2026 chapter synthesis; peer-group saturation and online political expression",
+      "denominator": {
+        "value": 30,
+        "unit": "European countries represented in the chapter's repeated survey analysis; individual-level measures are analyzed within those countries",
+        "value_type": "comparative_survey_universe"
+      },
+      "measures": {
+        "peer_saturation_moderation": {"value": "Internet use is more beneficial when peer-group social-media exposure is low and increasingly harmful as social-media use becomes more widespread among peers", "unit": "reported interaction mechanism", "value_type": "reported_moderation"},
+        "political_posting_wellbeing": {"value": "People reporting that they post or share political views online have lower happiness and wellbeing across the chapter's wellbeing measures", "unit": "reported association", "value_type": "reported_association"},
+        "social_media_net_effect": {"value": "The net effect varies by platform, social connection, trust, peer environment, age, gender, and region; the chapter does not treat social media as uniformly harmful or beneficial", "unit": "reported heterogeneity pattern", "value_type": "reported_heterogeneity"}
+      },
+      "method": "The chapter combines survey wellbeing and trust measures with demographic peer-group social-media exposure and instrumented internet-use analysis, then decomposes changes across generations, genders, regions, and pre/post-2020 periods.",
+      "uncertainty": "Posting political views is not randomly assigned and does not prove that online political expression lowers wellbeing. Peer saturation and platform categories may proxy for broader social, political, or economic environments, and estimates should not be generalized beyond the studied populations without further evidence.",
+      "subgroup": "People who post political views online, users and non-users in low- and high-saturation peer environments, younger and older European cohorts, and users of communication-oriented versus algorithmically curated platforms.",
+      "counterinterpretation": "Political posting may reflect pre-existing distress, conflict, or civic engagement; online expression can also create support and collective connection. A platform's social function and algorithmic environment may matter more than a simple user/non-user distinction.",
+      "source_url": "https://www.worldhappiness.report/ed/2026/internet-use-social-media-and-wellbeing-the-role-of-trust-social-connections-and-emotional-bonds/",
+      "retrieval_hash": "sha256:576846e83a6afdc8f0a927343b48ff5a4e5c79af4cf78e101dec32bc586074a5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.worldhappiness.report/ed/2026/international-evidence-on-happiness-and-social-media/"],
+  "boundary": "This record adds a distinct trust, social-connection, generational, peer-saturation, and wellbeing mechanism from Chapter 8. It does not duplicate the existing platform-deactivation record, does not establish universal causal effects of internet use, and does not infer individual mental-health or political outcomes from aggregate patterns.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Happiness Report 2026 Chapter 8 and international-evidence summaries retrieved; ESS country coverage, M-Lab instrument, generational gradient, younger-cohort social-foundation changes, trust/social-connection channels, peer saturation, and political-posting association cross-checked. Direct local page capture was restricted, so the digest records the retrieved evidence summary rather than a claimed local PDF hash.",
+    "web_evidence_digest_sha256": "sha256:576846e83a6afdc8f0a927343b48ff5a4e5c79af4cf78e101dec32bc586074a5",
+    "checked": "2026-09-26"
+  }
+}

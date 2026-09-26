@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "published_linked_survey_administrative_caregiving_labor_record",
+  "purpose": "Bounded linked-record episode from reported family caregiving onset to gender-differentiated employment and earnings trajectories, preserving selection, alternative, household, health, and meaning gaps.",
+  "events": [
+    {
+      "event_id": "NBER-CAREGIVING-LABOR-SUPPLY-1990-2019",
+      "unit": "person",
+      "geography": "United States; SIPP respondents linked to Social Security Administration earnings records",
+      "actor_initiating_change": "family",
+      "event_date": "2012-01-01",
+      "date_precision": "study reference date for relative event-time caregiving onset; exact caregiving dates and episode details are not retained in the public paper record",
+      "denominator": "Published matched caregiver and comparison trajectories; study-specific sample and gender-stratified denominators, not a population prevalence estimate",
+      "method": "Published Journal of Labor Economics study using SIPP reports linked to administrative earnings records, matched comparison groups, and event-time labor-supply trajectories",
+      "missingness": "Care-recipient identity and need, hours and tasks, paid replacement, family alternatives, employer response, health, wealth, public support, exact episode dates, household spillovers, trust, action, and exit are not retained in this compact record",
+      "condition_or_decision": "care_need",
+      "exposure": "A person reports beginning an unpaid family caregiving role; the study compares employment and earnings before and after the reported care start",
+      "alternatives_before_action": "Paid care, other family caregivers, leave, schedule change, public support, and non-use alternatives are not observed in the compact published results",
+      "immediate_burden_or_benefit": "Caregiving is associated with a labor-supply and earnings burden whose timing differs by gender",
+      "choice_or_response": "The person becomes or remains a family caregiver; the study does not identify whether the role was voluntary, forced, shared, or avoidable",
+      "person_or_actor_with_control": "Family members, care recipients, employers, and care systems may share control; the published event-study result does not identify the controlling decision or response",
+      "remedy_or_institutional_response": "No specific remedy or public intervention is evaluated in this record",
+      "remedy_stage": "unknown",
+      "remedy_receipt": "Not applicable; no remedy receipt is observed",
+      "durability_followup": "The study follows labor outcomes for years, but long-run care adequacy, household security, health, trust, action, and exit remain open",
+      "immediate_outcome": "Relative to matched comparisons, women's employment and earnings fall after caregiving begins; men's labor supply is already disrupted before care onset and falls further afterward",
+      "protected_outcome": "Family care may preserve a care recipient's continuity or safety, but recipient outcomes are not measured in the retained result",
+      "sacrificed_outcome": "Paid employment and earnings, especially for women, can be sacrificed after caregiving begins; the exact household trade-off is not observed",
+      "cost_risk_transfer": "Unpaid family care can transfer long-term-care system needs into the caregiver's labor supply and earnings, with gender-differentiated exposure",
+      "later_outcome": "Employment gaps narrow for women after several years but persist longer for men; later household recovery, wealth, health, care quality, trust, switching, and exit are not reported here",
+      "meaning_and_attribution": "No caregiver-reported fairness, identity, dignity, blame, legitimacy, or institutional attribution endpoint is retained",
+      "public_or_collective_response": "No political or collective response is measured",
+      "counterexample": "Caregiving does not produce one universal labor pattern: women show a post-onset decline, while men enter caregiving after earlier labor disruption and experience a different persistence pattern",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Maestas, Messel, and Truskinovsky, Caregiving and Labor Supply: New Evidence from Administrative Data, Journal of Labor Economics 42(S1), 2024; linked survey-administrative estimates are study-specific and not a universal causal effect for every caregiver",
+      "source_url": "https://www.nber.org/papers/w31450"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "NBER-CAREGIVING-A-01",
+      "from": "reported start of family caregiving",
+      "to": "women's relative employment and earnings decline after onset",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The linked-record study reports an immediate post-onset decline relative to matched comparison trajectories; the NBER summary reports about a 2.7 percentage-point employment decline and nearly $1,000 lower annual earnings in the first three years relative to future caregivers",
+      "status": "estimated",
+      "counterexample": "The estimate is study-specific and does not identify the care task, recipient need, or a randomized caregiving assignment",
+      "remaining_gap": "Care intensity, alternatives, employer response, household resources, and the causal mechanism"
+    },
+    {
+      "arrow_id": "NBER-CAREGIVING-A-02",
+      "from": "pre-care labor trajectory",
+      "to": "men enter caregiving after prior labor-supply disruption",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The study reports that men's employment and earnings begin to decline several years before the reported start of caregiving, with further decline after onset",
+      "status": "estimated",
+      "counterexample": "Pre-care labor disruption may reflect health, family, or unobserved conditions rather than caregiving itself",
+      "remaining_gap": "Prior shock, health, care-recipient need, selection, and employer or family decision path"
+    },
+    {
+      "arrow_id": "NBER-CAREGIVING-A-03",
+      "from": "caregiving-linked labor change",
+      "to": "household security, health, care quality, or recovery",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The linked earnings record measures labor outcomes but does not retain the caregiver's household balance sheet, recipient outcome, health, or later meaning and security in the published result",
+      "status": "open",
+      "counterexample": "A labor reduction may be buffered by wealth, partner income, public support, flexible work, or shared family care",
+      "remaining_gap": "Same-household resources, care quality, health, replacement care, persistence, and recovery"
+    },
+    {
+      "arrow_id": "NBER-CAREGIVING-A-04",
+      "from": "caregiving and labor-supply change",
+      "to": "trust, political action, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The published linked-record analysis does not measure institutional attribution, public-system remedy, trust, collective action, switching, or exit",
+      "status": "open",
+      "counterexample": "Care burden can produce private adaptation, family coordination, public advocacy, or no visible action",
+      "remaining_gap": "Meaning, attribution, institutional response, civic action, non-use, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a bounded care-onset-to-labor-outcome segment using linked survey and administrative records. It does not establish a universal causal caregiving effect, a care-recipient outcome, household recovery, or political meaning.",
+  "storage_boundary": "Only published study-level estimates and methodological boundaries are retained; no restricted SIPP or Social Security records are stored."
+}

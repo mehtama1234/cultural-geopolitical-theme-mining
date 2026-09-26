@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dhs-contract-termination-cost-avoidance-2025",
+  "title": "Reported contract savings can shift spending rather than remove the underlying need",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-109096 review of Department of Homeland Security contract terminations and reported potential cost avoidance",
+  "geography": "United States; Department of Homeland Security contracts, with a large reported share tied to information-technology indefinite-delivery/indefinite-quantity contracts",
+  "observations": [
+    {
+      "period": "January 20–September 30, 2025",
+      "denominator": {"value": 438, "unit": "DHS contracts completely or partially terminated for convenience", "value_type": "reported_terminated_contracts"},
+      "measures": {
+        "prior_obligations": {"value": "over $1.6 billion", "unit": "amount obligated before termination", "value_type": "reported_total"},
+        "net_deobligation": {"value": "over $92 million", "unit": "net amount deobligated after termination", "value_type": "reported_total"},
+        "reported_potential_avoidance": {"value": "over $10.5 billion", "unit": "DHS public estimate of current and future contract costs potentially avoided", "value_type": "reported_projection"}
+      },
+      "method": "GAO analysis of federal procurement data, DHS documents, executive orders, agency guidance, and interviews with DHS procurement and financial officials.",
+      "uncertainty": "The reported potential avoidance is a maximum contract-value projection, not a forecast of what would otherwise have been obligated or a measure of realized savings.",
+      "subgroup": "DHS contracts terminated during the reviewed period; the reported estimate is concentrated in information-technology IDIQ contracts.",
+      "counterinterpretation": "Some terminations may still reduce future obligations, remove unnecessary work, or improve purchasing even when similar requirements are later bought through another contract.",
+      "source_url": "https://www.gao.gov/products/gao-26-109096",
+      "retrieval_hash": "sha256:771a6be98bdab23077a652ec06d539bac73d099206a961c05c66b75264cc0ca1",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2025; information-technology requirements",
+      "denominator": {"value": 30, "unit": "terminated IDIQ contracts accounting for 95% of DHS's reported potential cost avoidance", "value_type": "reported_contract_subset"},
+      "measures": {
+        "substituted_obligations": {"value": "over $1.7 billion", "unit": "fiscal-year 2025 obligations through existing government-wide contracts for the same requirements", "value_type": "reported_replacement_spending"},
+        "realization_boundary": {"value": "most of the reported $10.5 billion potential avoidance was unlikely to materialize", "unit": "GAO assessment", "value_type": "reported_finding"}
+      },
+      "method": "GAO compared terminated DHS IDIQ contracts with subsequent obligations through existing government-wide contracts and reviewed the remaining contract period through fiscal year 2034.",
+      "uncertainty": "The comparison shows replacement spending and weakens the savings claim; it does not estimate the full counterfactual cost of continuing each terminated contract or the quality of the replacement service.",
+      "subgroup": "DHS information-technology requirements represented by the 30 IDIQ contracts.",
+      "counterinterpretation": "A replacement contract could produce better terms, service, or competition; replacement spending alone does not prove that termination was harmful.",
+      "source_url": "https://www.gao.gov/products/gao-26-109096",
+      "retrieval_hash": "sha256:771a6be98bdab23077a652ec06d539bac73d099206a961c05c66b75264cc0ca1",
+      "status": "reported"
+    },
+    {
+      "period": "2025 termination review and later procurement",
+      "denominator": {"value": null, "unit": "DHS contract decisions and replacement procurements; no linked service-user or worker denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "visible_action": {"value": "contract termination and deobligation were easier to report than whether the underlying mission need disappeared", "unit": "measurement boundary", "value_type": "interpretive_boundary"},
+        "unmeasured_outcomes": {"value": "service continuity, contractor or worker effects, mission performance, and public experience were not measured in this review", "unit": "missing outcome set", "value_type": "unmeasured"}
+      },
+      "method": "Interpretation bounded to GAO's procurement and obligation analysis; no inference is made about individual contracts beyond the reported subset and no same-service-user outcome is constructed.",
+      "uncertainty": "The record cannot show whether any particular termination improved efficiency, disrupted service, changed employment, or altered public trust.",
+      "subgroup": "Federal procurement and agency-capacity decisions rather than households or individual workers.",
+      "counterinterpretation": "Public reporting of a termination may be politically meaningful even when the fiscal effect is uncertain; symbolic reduction and operational savings are separate outcomes.",
+      "source_url": "https://www.gao.gov/products/gao-26-109096",
+      "retrieval_hash": "sha256:771a6be98bdab23077a652ec06d539bac73d099206a961c05c66b75264cc0ca1",
+      "status": "inferred"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/assets/890/889758.pdf", "claim": "Official GAO accessible report supplies the contract counts, deobligations, projected avoidance, and replacement-obligation comparison.", "status": "official-report"}
+  ],
+  "boundary": "This record shows a gap between announced or reported fiscal savings and realized reduction in underlying public obligations: a terminated contract can be replaced by another route. It does not establish whether any individual service, worker, vendor, mission, household, or community was better or worse off.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for the extracted findings; the accessible PDF is linked as a related source.",
+    "html_sha256": "sha256:771a6be98bdab23077a652ec06d539bac73d099206a961c05c66b75264cc0ca1",
+    "checked": "2026-09-22"
+  }
+}

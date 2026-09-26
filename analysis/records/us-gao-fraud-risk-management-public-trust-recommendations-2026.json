@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-fraud-risk-management-public-trust-recommendations-2026",
+  "title": "Federal fraud controls are also a public-trust and mission-execution problem",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-109093 review of fraud-risk management in federally funded, state-administered programs",
+  "geography": "United States; federal agencies and federally funded, state-administered programs",
+  "observations": [
+    {
+      "period": "GAO status as of April 2026",
+      "denominator": {
+        "value": 215,
+        "unit": "GAO recommendations to federal agencies and programs to better manage fraud risks",
+        "value_type": "reported_recommendation_count"
+      },
+      "measures": {
+        "open_recommendations": {
+          "value": "about 40% remained open as of April 2026",
+          "unit": "share of GAO fraud-risk recommendations",
+          "value_type": "reported_share"
+        },
+        "trust_link": {
+          "value": "GAO identifies fraud as eroding public trust in government and hindering agencies' mission execution",
+          "unit": "officially described institutional consequence",
+          "value_type": "reported_institutional_link"
+        },
+        "control_effectiveness": {
+          "value": "not established as a single national fraud-prevention or recovery rate",
+          "unit": "missing common fraud denominator, prevented-loss measure, recovery, and user-level trust outcome",
+          "value_type": "unmeasured"
+        },
+        "household_experience": {
+          "value": "not observed as a linked household route from fraud exposure through reporting, remedy, and later trust or program use",
+          "unit": "missing person-level event ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO review of fraud-risk management challenges and recommendations across federally funded, state-administered programs; recommendation status and institutional implications are kept separate from fraud incidence and individual outcomes.",
+      "uncertainty": "Recommendation counts measure identified control needs, not fraud prevalence or dollars lost. Open status can reflect implementation timing, agency scope, legal or technical barriers, or documentation. The public-trust link is an institutional assessment, not a measured causal change in public opinion.",
+      "subgroup": "Federal agencies, state-administered programs, program beneficiaries, taxpayers, and oversight bodies; the review does not supply one common outcome denominator across programs.",
+      "counterinterpretation": "Fraud risk can be unevenly distributed and some controls may work even while other recommendations remain open. Stronger controls may also increase administrative burden or false positives. Public trust can be shaped by service quality, political messaging, and prior institutional experience beyond fraud controls.",
+      "source_url": "https://www.gao.gov/products/gao-26-109093",
+      "retrieval_hash": "sha256:9f2127e6e0cd8a7a685488f601de2d67de20b6633c5cd28c339d8d4a7b3791d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107609",
+      "claim": "GAO companion work describes approaches for evaluating fraud-control effectiveness and demonstrating integrity.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This finding adds an institutional fraud-risk and public-trust interface. It does not estimate fraud prevalence, prove that open recommendations caused losses or distrust, measure beneficiary experience, or establish that stronger controls produced better mission outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO product page reviewed for recommendation count, open-status share, and stated trust/mission consequences; underlying program-specific audits are not pooled here.",
+    "source_response_sha256": "sha256:9f2127e6e0cd8a7a685488f601de2d67de20b6633c5cd28c339d8d4a7b3791d6",
+    "checked": "2026-09-23"
+  }
+}

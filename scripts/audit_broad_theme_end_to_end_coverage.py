@@ -45,7 +45,7 @@ def main() -> int:
                 "measurement_level": level,
                 "next_required_test": next_test,
                 "source_line": line_number,
-                "same_unit_end_to_end_link": "Open" in status_tokens or "Open" in next_test,
+                "explicit_open_link": "Open" in status_tokens or "Open" in next_test,
             }
         )
 
@@ -61,7 +61,7 @@ def main() -> int:
         "theme_count": len(themes),
         "status_token_counts": dict(sorted(status_counts.items())),
         "themes_with_explicit_open_link": sum(
-            bool(theme["same_unit_end_to_end_link"]) for theme in themes
+            bool(theme["explicit_open_link"]) for theme in themes
         ),
         "themes": themes,
         "interpretation": (

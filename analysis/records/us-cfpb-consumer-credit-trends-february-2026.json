@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-consumer-credit-trends-february-2026",
+  "title": "Consumer credit expansion is uneven across products and credit-risk tiers, with tightness still below the 2010 index base",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "Consumer Financial Protection Bureau Consumer Credit Trends dashboard and nationally representative credit-record sample",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "February 2026; latest month in the CFPB dashboard CSV, updated September 17, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "national consumer-credit market series; dashboard estimates from records maintained by one nationwide consumer reporting agency",
+        "value_type": "market_series"
+      },
+      "measures": {
+        "auto_originations_yoy": {"value": 5.28, "unit": "percent year-over-year change in seasonally adjusted auto-loan originations", "value_type": "published_series_change"},
+        "credit_card_originations_yoy": {"value": 13.14, "unit": "percent year-over-year change in seasonally adjusted credit-card originations", "value_type": "published_series_change"},
+        "mortgage_originations_yoy": {"value": 36.20, "unit": "percent year-over-year change in seasonally adjusted mortgage originations", "value_type": "published_series_change"},
+        "student_originations_yoy": {"value": 142.47, "unit": "percent year-over-year change in seasonally adjusted student-loan originations", "value_type": "published_series_change"},
+        "credit_tightness_index": {"value": "Auto 81.04, credit card 79.04, mortgage 82.95", "unit": "seasonally adjusted credit-tightness index, January 2010=100", "value_type": "published_index"},
+        "inquiry_index": {"value": "Auto 257.70, credit card 231.05, mortgage 52.54", "unit": "seasonally adjusted consumer-inquiry index, January 2010=100", "value_type": "published_index"}
+      },
+      "method": "Descriptive extraction from CFPB Consumer Credit Trends all_data.csv. Year-over-year changes are source-provided; indexes use the CFPB's January 2010=100 base and Census X-13ARIMA-SEATS seasonal adjustment. The dashboard tracks market-series conditions rather than individual credit outcomes.",
+      "uncertainty": "The latest available month in the downloaded series is February 2026 even though the dashboard was updated in September 2026. The sample comes from one of three nationwide consumer reporting agencies, and CFPB cannot control for shifts in market share among agencies. Originations and inquiries do not measure repayment, affordability, approval quality, or welfare.",
+      "subgroup": "U.S. consumer credit markets: auto, credit card, mortgage, and student loans; overall market series with separate credit-risk and geographic breakouts.",
+      "counterinterpretation": "Higher originations can reflect refinancing, seasonality, low-base comparisons, or changed underwriting rather than stronger household capacity. A credit-tightness index below 100 is not a denial rate or a measure of easy access for every borrower.",
+      "source_url": "https://files.consumerfinance.gov/data/consumer-credit-trends/all_data.csv",
+      "retrieval_hash": "sha256:ba467b50c8d231b50bb6269b71225ccd0dbf362334475122dc89fa66096ffe2f",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026; seasonally adjusted originations by borrower credit-risk profile",
+      "denominator": {
+        "value": 1,
+        "unit": "national credit-market series by CFPB borrower risk-profile subgroup; subgroup estimates are market indicators, not a matched panel",
+        "value_type": "market_series"
+      },
+      "measures": {
+        "deep_subprime_student_originations_yoy": {"value": 5.73, "unit": "percent year-over-year change in seasonally adjusted student-loan originations among the deep-subprime subgroup", "value_type": "published_series_change"},
+        "deep_subprime_auto_originations_yoy": {"value": 34.34, "unit": "percent year-over-year change in seasonally adjusted auto-loan originations among the deep-subprime subgroup", "value_type": "published_series_change"},
+        "deep_subprime_credit_card_originations_yoy": {"value": 24.91, "unit": "percent year-over-year change in seasonally adjusted credit-card originations among the deep-subprime subgroup", "value_type": "published_series_change"},
+        "subprime_student_originations_yoy": {"value": 0.89, "unit": "percent year-over-year change in seasonally adjusted student-loan originations among the subprime subgroup", "value_type": "published_series_change"},
+        "superprime_mortgage_dollar_volume_yoy": {"value": 67.36, "unit": "percent year-over-year change in seasonally adjusted mortgage dollar volume among the superprime subgroup", "value_type": "published_series_change"},
+        "prime_auto_originations_yoy": {"value": -1.04, "unit": "percent year-over-year change in seasonally adjusted auto-loan originations among the prime subgroup", "value_type": "published_series_change"}
+      },
+      "method": "Descriptive comparison of CFPB Consumer Credit Trends risk-profile series for February 2026. Credit-risk profile labels and series definitions are taken from the CFPB codebook; comparisons preserve product-specific denominators and do not pool borrowers across products.",
+      "uncertainty": "Large year-over-year changes can reflect small bases, product-specific reporting, policy or servicing changes, refinancing, and changes in the composition of borrowers. The dashboard does not establish why a risk tier's originations changed or whether borrowers received affordable credit.",
+      "subgroup": "CFPB borrower risk profiles: deep subprime, subprime, near prime, prime, and superprime, crossed with auto, credit-card, mortgage, and student-loan products.",
+      "counterinterpretation": "A sharp increase in originations for a lower-score tier can indicate expanded access, but can also reflect public or private program changes, loan consolidation, a low comparison base, or a shift in reporting. It does not prove improved financial room or harmful lending.",
+      "source_url": "https://files.consumerfinance.gov/data/consumer-credit-trends/all_data.csv",
+      "retrieval_hash": "sha256:ba467b50c8d231b50bb6269b71225ccd0dbf362334475122dc89fa66096ffe2f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.consumerfinance.gov/data-research/consumer-credit-trends/",
+    "https://files.consumerfinance.gov/f/documents/CCT_dd_cb_all_files.xlsx"
+  ],
+  "boundary": "This record adds a market-level consumer-credit access and risk-tier route. It does not infer individual borrowing, repayment, debt distress, affordability, approval, credit-score transitions, household consumption, or causal effects from aggregate originations, inquiries, indexes, or subgroup changes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "CFPB Consumer Credit Trends landing page, all_data.csv, and codebook retrieved; dashboard update date, February 2026 latest-series vintage, product definitions, index bases, risk-profile labels, and selected published values cross-checked against the files.",
+    "html_sha256": "sha256:8e434a55d439164b46a2f7392751ed75fa9627ac7b61c75ee315d427f48669d4",
+    "csv_sha256": "sha256:ba467b50c8d231b50bb6269b71225ccd0dbf362334475122dc89fa66096ffe2f",
+    "codebook_sha256": "sha256:0ed00950cf71312494bd0032cce31ff0e530d9ab6f0c504f439604480fb449b7",
+    "checked": "2026-09-26"
+  }
+}

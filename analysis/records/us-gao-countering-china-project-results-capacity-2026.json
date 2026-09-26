@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-countering-china-project-results-capacity-2026",
+  "title": "Countering-China spending has scale without a complete portfolio evidence system",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "GAO review of State and USAID countering-Chinese-influence projects and interagency funding processes, fiscal years 2020-2023",
+  "geography": "United States foreign-assistance programs and global project portfolio",
+  "observations": [
+    {
+      "period": "Fiscal years 2020-2023; GAO review published June 2026",
+      "denominator": {
+        "value": 470,
+        "unit": "estimated funded projects in State and USAID countering-Chinese-influence portfolio",
+        "value_type": "agency-data_estimate"
+      },
+      "measures": {
+        "allocated_value": {
+          "value": 1.2,
+          "unit": "billion U.S. dollars estimated allocations",
+          "value_type": "reported_portfolio_total"
+        },
+        "missing_project_timeframes": {
+          "value": 129,
+          "unit": "projects without provided time-frame data",
+          "value_type": "reported_data_gap"
+        },
+        "missing_lines_of_effort": {
+          "value": 38,
+          "unit": "projects without provided line-of-effort data",
+          "value_type": "reported_data_gap"
+        },
+        "results_framework": {
+          "value": "no portfolio-wide assessment process; framework development remained uncertain as of March 2026",
+          "unit": "institutional monitoring status",
+          "value_type": "reported_governance_gap"
+        }
+      },
+      "method": "GAO reviewed agency guidance, project data, documents, interviews with officials, and the development status of a monitoring, evaluation, and learning framework. Aggregate project counts and allocations were judged sufficiently reliable for reporting, while project-level completeness and effectiveness evidence were not.",
+      "uncertainty": "The source identifies data and evaluation gaps; it does not prove that individual projects were ineffective or that countering influence had no effects. The latest project data analyzed were for fiscal years 2020-2023.",
+      "subgroup": "State and USAID bureaus, overseas posts, regions, and projects funded through CCIF/CPRCIF-related accounts.",
+      "counterinterpretation": "A fragmented portfolio can still contain effective projects; missing standardized evaluation may reflect program design, security sensitivity, or administrative transition rather than failure of every intervention.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107822/index.html",
+      "retrieval_hash": "sha256:6c8d2e1f9a4b7c3d5e6f8091a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record shows a state-capacity and evidence-governance problem inside a geopolitical competition program: funding scale and proposal activity are more visible than complete project identity, implementation status, and results. It does not estimate Chinese influence, project effectiveness, recipient-country behavior, or strategic outcomes.",
+  "retrieval_hash": "sha256:6c8d2e1f9a4b7c3d5e6f8091a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5"
+}

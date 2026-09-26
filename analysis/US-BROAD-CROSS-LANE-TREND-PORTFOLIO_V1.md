@@ -1,0 +1,1386 @@
+# Cross-lane trend portfolio v1
+
+**Checked:** 2026-09-25  
+**Purpose:** synthesize recurring dynamics across the source-led maps without
+pooling their statistics or claiming that separate records follow the same
+person, place, firm, or institution.
+
+## 1. Formal access is increasingly separated from usable access
+
+Leave can be available while work, job risk, or income loss prevents use
+([ATUS leave](records/us-bls-atus-leave-access-unmet-need-2024-2025.json)).
+Workforce programs can be formally accessible while disability-specific routes
+and oversight remain incomplete ([GAO disability workforce](records/us-gao-disability-workforce-program-access-2026.json)).
+Water funding can exist while applications, deadlines, and match timing leave
+communities unserved ([GAO rural water](records/us-gao-rural-water-funding-coordination-unserved-communities-2026.json)).
+
+**Trend proposition:** institutional capacity is shifting from whether a program
+exists to whether people can complete its route under time, health, language,
+money, and local-capacity constraints.  
+**Open link:** completed access → adequate, durable outcome.
+
+The [health-care trust and care-seeking study](records/us-nber-trust-health-care-seeking-behavior-2026.json)
+adds an institutional-meaning layer to usable access. In a nationally
+representative U.S. adult survey and structural model, entity-specific trust is
+associated with preventive and elective care-seeking and with less reported or
+anticipated care avoidance; trust in doctors has the largest role in the study's
+simulations, with differences by age and political affiliation. This makes
+trust a possible interface condition rather than a general attitude score.
+The source remains survey/model evidence: it does not identify a causal trust
+shock, appointment completion, affordability, treatment, health improvement,
+remedy, or political action. Lower care-seeking can also reflect cost, time,
+transport, provider availability, health status, or an appropriate choice.
+
+The [NHIS coverage-route record](records/us-cdc-nhis-health-insurance-coverage-2025.json)
+adds a reach-versus-gap layer to usable health access. Preliminary 2025 NHIS
+estimates place 28.0 million people, or 8.3% of the civilian noninstitutionalized
+population, uninsured at interview; exchange coverage rose from 4.3% in 2021 to
+6.3% in 2025 among people under 65, while selected adult and Hispanic subgroup
+uninsured rates also shifted. This shows that a coverage route can expand and a
+subgroup gap can narrow while a large national uninsured exposure remains. The
+release does not establish continuity, affordability, network access, care use,
+medical debt, health outcomes, or which policy caused the change; early-release
+status and coverage-type definitions matter. The next test is a person/household
+route through eligibility, enrollment, premium and cost-sharing, network/contact,
+completed care, continuity, health, debt, trust, and switching or non-use.
+
+The [Medicare Advantage skilled-nursing authorization ledger](projects/us-health-cost-household-choice/data/medicare-advantage-snf-prior-authorization-event-ledger-v1.json)
+adds a visible denial-to-appeal-to-reversal route to the usable-access question.
+In HHS OIG's review of 19 Medicare Advantage organizations, 12% of skilled-
+nursing-facility admission requests were denied, 18% of denials were appealed,
+and 95% of appealed denials were overturned in favor of the enrollee. The
+pattern identifies a strong initial-review and contestability boundary: formal
+reversal can restore authorization without showing when care began, whether a
+facility was available, or whether rehabilitation and functional recovery
+occurred. The rates are request-level findings from selected organizations,
+not a population-wide denial rate, and appeal behavior reflects provider
+practice, case complexity, knowledge, health, time, and resources. No
+beneficiary-level admission date, interim-care route, out-of-pocket cost,
+caregiver burden, functional outcome, trust, or plan switching is linked. The
+next test is one request through clinical need, notice and denial reason, appeal
+effort, reversal/receipt, admission timing, interim care, rehabilitation,
+caregiver time and cost, functional outcome, recurrence, trust, and plan change.
+
+The [Medicaid eligibility-error correction record](records/us-gao-medicaid-eligibility-error-corrective-actions-2026.json)
+adds a public-system feedback loop above the individual access route. Medicaid
+eligibility errors are reported across all 50 states and the District of
+Columbia, while GAO reviewed corrective-action plans in seven selected states
+for 2019–2024. The selected states used training, guidance, and eligibility-
+system updates, but CMS feedback did not consistently ensure that plans
+contained all required elements, and CMS did not consistently compare errors
+and corrective actions across states and years to learn which fixes worked or
+transferred. This makes administrative learning itself an access mechanism:
+correction can exist without reliable system-wide learning, and a documented
+oversight gap does not show that every state fix failed. The seven-state review
+is not a national corrective-action quality estimate; error rates and plan
+types do not show who lost or retained coverage, correction speed, continuity,
+health, time, cost, trust, or appeal. The next test is one state or beneficiary
+route through error, notice, correction, coverage restoration, continuity,
+health and household cost, complaint/appeal, and later institutional response,
+while comparing effective, incomplete, and non-correction cases.
+
+The [GAO toxic-exposure record-access record](records/us-gao-toxic-exposure-record-access-2026.json)
+adds a personal-control stage to the same public-system route. The Department
+of Defense and Department of Veterans Affairs' Individual Longitudinal Exposure
+Record is used by claims staff, clinicians, and researchers, while service
+member and veteran access and correction functions are being rolled out. GAO
+reports a VA estimate that about 3.2 million of 6.8 million veterans screened
+since 2022 had at least one potential exposure, but that is a screened-agency
+estimate rather than population prevalence. The record shows administrative
+visibility, staff use, and a route toward self-access and correction; it does
+not show verified exposure, correction success, claim approval, treatment,
+health improvement, household effects, or trust. This is a useful cross-lane
+distinction: an institution can use a record before the affected person can
+inspect, contest, or correct it. The next decisive episode is one record
+through access, correction, verification, claim or care decision, treatment,
+health, and later appeal or institutional trust.
+
+## 2. Household resilience is increasingly assembled through substitutions
+
+People report reducing product use, savings, and major purchases, borrowing,
+or working more in response to price changes ([SHED food pressure](records/us-shed-food-pressure-adaptation-2024-2025.json)).
+Energy insecurity directly places food/medicine, temperature, and service on
+the same budget surface ([energy consequences](records/us-energy-household-consequence-public-restoration-2024-2026.json)).
+
+**Trend proposition:** material pressure increasingly appears as a sequence of
+tradeoffs rather than one visible deprivation measure.  
+**Open link:** which sacrifice occurred first and whether the household later
+recovered its buffer.
+
+The [BLS Consumer Expenditure Survey income-quintile record](records/us-bls-consumer-expenditures-income-quintile-2024.json)
+adds a current budget-composition context. Average annual spending was $78,535
+per consumer unit in 2024, with housing at 33.4% of the average budget; income
+and expenditure changes also differed across income quintiles, and the lowest
+quintile's spending increase was concentrated in housing. These are consumer-
+unit averages and grouped income/expenditure comparisons, not a household
+hardship rate or a causal price effect. Spending can reflect income, quantity,
+quality, composition, debt, or price, and a large housing share does not prove
+an unaffordable payment. The value for the cross-lane map is to locate where
+room may be concentrated before following a dated bill, payment, substitution,
+protected or sacrificed need, recovery, trust, or action for the same unit.
+
+The [New York Fed debt/credit snapshot](records/us-new-york-fed-household-debt-credit-2026q2.json)
+adds an aggregate credit-market layer to the household-room question. In 2026
+Q2, the dashboard reports $18.8 trillion in household debt, 4.7% of outstanding
+debt in some delinquency stage, and quarter-to-quarter movement in non-housing,
+auto, and credit-card balances. These figures make credit exposure and
+delinquency visible alongside household-reported adaptation, but aggregate
+balances are not household trajectories, payment burden, rates, hardship, lender
+remedy, or welfare; balance growth can reflect demand, prices, credit supply,
+vehicle purchases, refinancing, or distress. The next test is a lawful household
+or credit-record episode through product, balance, rate, payment burden,
+delinquency, lender contact, correction/remedy, substitution, financial room,
+trust, and action, preserving aggregate versus household units.
+
+The [SIPP resource/job/work-limitation cross-lag](records/us-sipp-resource-job-worklimitation-crosslag-2024.json)
+adds a same-person monthly transition layer. Among 2024 SIPP adjacent-month
+pairs, resource-to-job-count movement differs by reported work-limiting status,
+and the reverse job-count-to-resource movement also varies across zero-, one-,
+and two-job cells. This makes resource and employment adjustment visible as
+direction-specific clocks rather than one “work improves security” measure. The
+Fay-BRR estimates are descriptive: work-limiting status is not a diagnosis,
+job count is not hours, pay, quality, schedule control, or voluntary mobility,
+and the design does not identify accommodation, care, employer response,
+household security, trust, political action, or recovery. The next test is one
+worker/household through limitation, resources, hours/pay, accommodation,
+benefits, care, employer response, housing, trust, and action, retaining the
+forward/reverse and person-month boundaries.
+
+The [macro price/income/labor/household-room comparison](records/us-macro-price-income-labor-household-room-crosssource-2026.json)
+makes the multiple clocks explicit. July aggregate personal income and outlays,
+August consumer and producer prices, CPS/CES employment, partial-year JOLTS,
+and 2025 SHED hardship and price-response measures can all move in different
+directions and use different universes. Aggregate income and payroll growth do
+not establish household liquidity; CPI/PPI do not identify a household basket or
+incidence; nominal earnings and job counts do not establish real purchasing power,
+job quality, or bargaining; and SHED hardship is not a same-respondent causal
+link to any index. The cross-source proposition is therefore temporal and
+interpretive rather than a single macro trend: people and institutions encounter
+price, income, labor, and security signals on different clocks. The next test is
+one household or worker through dated exposure, adaptation, attribution,
+institutional response, and recovery, preserving BEA, BLS, JOLTS, and SHED units.
+
+## 3. Administrative procedure is becoming an independent distribution mechanism
+
+Work requirements increased procedural denials in the SNAP design
+([SNAP procedural denials](records/us-nber-snap-work-requirements-procedural-denials-2026.json)); counsel changed immediate housing-court outcomes
+([tenant representation](records/us-nber-housing-court-legal-representation-tenant-outcomes-2022.json)).
+
+**Trend proposition:** paperwork, timing, representation, and review routes
+can determine exposure before a formal eligibility or merits decision.  
+**Open link:** case route → benefit/restoration → later material and civic effect.
+
+The [SNAP work-requirement procedural-denial record](records/us-nber-snap-work-requirements-procedural-denials-2026.json)
+adds a policy-associated mechanism to this procedural layer. Using SNAP
+administrative data, age-based exemptions around the ABAWD boundary, and waiver
+periods, the NBER study reports that work requirements increased procedural and
+overall denials and interprets the pattern as participation deterrence through
+administrative burden. The public abstract does not disclose the full
+record-level denominator, selected jurisdictions, effect magnitudes, or every
+implementation detail. The design therefore supports a bounded
+policy-to-denial comparison, not a national denial rate or a complete claimant
+story. A procedural denial can reflect missing paperwork, failure to document
+an exemption, or another process route rather than final ineligibility. The
+missing middle remains notice, claimant effort, appeal, restored benefits,
+food security, health, work quality, trust, and political action.
+
+The [property-tax fairness experiment](records/us-nber-perceived-tax-fairness-appeals-2024.json)
+adds an information-to-contestation mechanism. In a U.S. property-tax field
+experiment, information about the average rate paid by other households
+increased perceived fairness, reduced the likelihood of filing an appeal, and
+was associated with willingness to contribute more when others paid more. This
+shows that administrative action can be shaped by comparative interpretation,
+not only by the amount owed or formal appeal access. The local tax setting and
+specific information treatment do not establish payment, compliance,
+public-service trust, durable legitimacy, political participation, household
+welfare, or whether lower appeal reflected acceptance rather than resignation
+or another contestation route.
+
+The [affirmative-action contracting study](records/us-census-affirmative-action-contracting-mwbe-2026.json)
+adds a firm-entry and public-market-access route. Census restricted business
+records report gradual downsizing after state contracting bans, especially for
+Black-owned businesses and larger minority- and women-owned firms; existing
+firms were not more likely to shut down, while new MWBEs were relatively less
+common. This separates survival from scale and entry: a firm can remain alive
+while the route into the market narrows. The study does not establish total
+contracting demand, replacement markets, worker welfare, public-service
+quality, community prosperity, legal merits, or whether the calibrated
+productivity/scrap-value result reflects a directly observed loss.
+
+The [SNAP data-governance conflict](records/us-doj-snap-data-access-federal-state-conflict-2026.json)
+adds a public-benefit data-control route. DOJ reported lawsuits against four
+state SNAP agencies after a federal request for five years of applicant data,
+alongside 29 jurisdictions reported as providing data; a related court order
+temporarily restrained threatened funding action for most plaintiff states. USDA
+described a FedRAMP High National SNAP Information Database with need-to-know
+access, authentication, encryption, bounded routine uses, and more than 450
+public comments, including roughly 132 privacy or improper-sharing concerns.
+This creates a cross-cutting accountability tension: data access may support
+verification while also raising surveillance, legal-authority, privacy, and
+chilling concerns. Agency claims, a temporary judicial ruling, system design,
+and public comments do not establish fraud prevalence, safe use, applicant
+notice, benefit loss, administrative performance, remedy, trust, or political
+action. The next test is a lawful de-identified episode through data purpose,
+notice/disclosure, verification, decision and payment timing, correction/appeal,
+privacy concern, interruption, and food/work/care outcomes, comparing sharing and
+contesting states without treating legal posture as a household effect.
+
+## 4. Place is increasingly a bundle of opportunity, risk, and time costs
+
+Mortgage lock-in constrains moves ([mortgage lock-in](records/us-nber-mortgage-lockin-housing-mobility-2022-2024.json)); flood buyouts can reduce physical exposure but distribute destination gains unequally
+([flood buyouts](records/us-nber-flood-buyouts-race-relocation-neighborhoods-2026.json)); access to amenities, transport, establishments, and hospitals is geographically uneven.
+
+**Trend proposition:** staying, leaving, and daily mobility are becoming central
+mechanisms connecting housing, work, care, risk, and belonging.  
+**Open link:** actual destination, service use, social ties, and long-run security.
+
+The [neighborhood/firm/intergenerational-mobility study](records/us-census-neighborhoods-firms-intergenerational-mobility-2026.json)
+adds a linked place-to-work mechanism. Census/LEHD evidence reports stronger
+between-neighborhood than within-neighborhood intergenerational earnings
+relationships, separate person-effect and establishment-premium channels, and
+a conditional neighborhood contribution to the Black–White earnings gap. It
+also reports a counterpattern in which higher Black-share neighborhoods have
+higher adult earnings conditional on neighborhood average earnings. These
+results make reachable firms, networks, and local institutions part of the
+place mechanism, but they are observational: they do not identify the effect
+of moving, fully explain racial earnings gaps, or establish belonging, health,
+political action, or household security.
+
+The [county health-capacity and vehicle-constraint cells](records/us-cbp-acs-transport-capacity-cells-2023.json)
+add a place-level diagnostic rather than a national access rate. A 2023 Census
+county join separates low/high local health-establishment density from low/high
+zero-vehicle-household share, producing four distinct place cells with different
+HPSA, rurality, income, rent, commute, language, vacancy, wage, and building-
+permit contexts. This makes service availability and transport feasibility
+jointly visible while preserving that establishment density is not provider
+adequacy, zero-vehicle share is not failed access, and county medians are not
+resident outcomes. The next test is a named patient or household route through
+travel, appointment, payment, completed care, continuity, and later health or
+work, with neighboring supply, transit, telehealth, and public provision retained
+as alternatives.
+
+The [2024 ACS PUMS mobility-subgroup layer](records/us-acs-pums-mobility-subgroups-2024.json)
+adds household- and person-level inequality to the county diagnostic. Among
+households below $35,000 in past-year income, 22.25% had no vehicle versus 3.74%
+among households at $75,000 or more; among workers with positive commute
+minutes, 30-minute-plus commutes were 32.30% and 40.98% in those income groups,
+and 42.64% for Black workers versus 36.64% for White workers. These are
+descriptive cross-sectional PUMS contrasts: income is not current liquidity,
+commute duration excludes work-from-home records and is not total mobility
+burden, and race is not a mechanism. The layer does not establish transport
+affordability, reliability, care or health access, discrimination, missed
+activity, or political response. The next test is a household/person or place
+route through vehicle access, fares and reliability, care/work/medical travel,
+service use, stay/move, and local response, retaining transit, walking, rides,
+and job/housing sorting as alternatives.
+
+The [Treasury/FIO homeowners-insurance record](records/us-treasury-fio-homeowners-insurance-market-2018-2022.json)
+adds a market and public-risk layer to the place pathway. Across 2018–2022
+ZIP-code risk groups, Treasury reports that the highest expected-loss quintile
+had higher average premiums, higher nonrenewal rates, and higher paid-claim
+severity than the lowest-risk quintile; the underlying workbook covers roughly
+80% of HO-3 and HO-5 direct-premium volume while retaining policy, ZIP-year, and
+risk-group limits. This makes climate exposure legible as a possible cost,
+availability, insurer-choice, and mobility pressure, but it does not establish
+household affordability, a received quote, actual coverage loss, claim adequacy,
+repair, mortgage access, relocation, or political response. The next test is a
+matched property or household route through hazard, premium/renewal decision,
+deductible and claim, repair financing, mortgage or public aid, and stay/move,
+with insurer mix, state rules, property condition, and residual-market routes
+retained as alternatives.
+
+## 5. Digital choice is moving from a product question to a power and exit question
+
+Search exposure can change quality beliefs and continued preference
+([search experiment](records/us-nber-search-engine-market-power-field-experiment-2025.json)); data deletion, cancellation, platform remedy, and AI exit records show that nominal choice often depends on information, switching effort, and recovery.
+
+**Trend proposition:** platform power is increasingly mediated through attention,
+defaults, data, and the cost of leaving rather than only a posted price.  
+**Open link:** verified correction/deletion/exit and later wellbeing.
+
+The [NBER search-engine learning record](records/us-nber-search-engine-market-power-field-experiment-2025.json)
+provides a U.S. observed default-to-learning comparison beneath that
+proposition. In a randomized field experiment of about 2,300 U.S. desktop
+Google users, requiring active choice increased Bing's share by only 1.1
+percentage points. A paid two-week Bing trial instead changed relative-quality
+beliefs, and 33% of trial users preferred to continue using Bing. The demand
+model's larger market-share and consumer-surplus estimates are counterfactuals,
+not universal observed gains. The result separates an interface prompt from
+experience-based updating, while leaving durable switching, accessibility,
+privacy, security, data use, consumer welfare, and political action open.
+
+The [Pew smartphone self-regulation record](records/us-pew-smartphone-self-regulation-2026.json)
+adds an attention-control mechanism to the platform-choice lane. In Pew's May
+2026 American Trends Panel survey, 53% of adults said they spend too much time
+on their smartphone and 45% said they had tried to cut back during the prior
+year. Among those who tried, 25% described the effort as extremely or very
+successful, 52% as somewhat successful, and 23% as unsuccessful. The device
+also remains useful: 73% said it helps them stay informed and 51% said it helps
+them feel connected, while 34% said it hurts productivity and 41% said it
+hurts sleep. This is a practical-agency tension rather than a net-wellbeing
+score: the same device can protect information and social connection while
+creating attention or sleep costs. The record uses retrospective self-reports,
+not device logs, product-level exposure, clinical measures, or observed
+post-survey behavior; failed reduction may reflect work, care, safety,
+navigation, or information needs rather than simple lack of willpower. The next
+test is a repeated or logged user episode through notifications and obligation,
+cutback attempt, actual use and displacement, privacy or platform choice,
+switching/non-use, and later sleep, work, care, trust, or political action.
+
+The [AI assistant platform-choice record](records/us-ai-assistant-platform-choice-trust-privacy-2026.json)
+adds task-specific choice and privacy-knowledge stages. In a June 2026 survey
+of U.S. adult AI-assistant users, ChatGPT was the named primary platform for
+58.2%, Gemini for 25.4%, Claude for 7.0%, and Copilot for 4.1%; about 43%
+reported intentionally routing different tasks to more than one platform.
+Claude's primary share was 33% for coding tasks versus 7% overall, showing how
+a smaller provider can occupy a valuable niche without displacing a dominant
+default. Trust also differed between aware nonusers and users of a platform,
+while more than 80% reported concern about conversation-data use, roughly 60%
+did not know whether their assistant trained on conversations, and only 18%
+had paid for a better-privacy plan. Knowledge of training policy was associated
+with more reported protective tools than a one-point increase in concern, but
+the study is cross-sectional and self-reported; the association is not a causal
+knowledge-to-action effect. Its willingness-to-pay estimates for avoiding human
+review, sponsored answers, or training use are hypothetical choice-experiment
+values, not purchases or provider changes. The next test is a user/task episode
+through platform selection, multihoming, disclosure and policy comprehension,
+data handling, actual protective action, retention or switching, affordability,
+and later trust or practical exit.
+
+The [California DROP data-broker deletion record](records/us-calprivacy-drop-data-broker-deletion-2026.json)
+adds an implementation-and-contestability stage to the privacy route. The
+California Privacy Protection Agency reports roughly 325,000 consumers signed
+up and submitted deletion requests by July 2026, later roughly 500,000
+registrants, and coverage of more than 600 brokers—654 in the later status
+frame—through one request. DROP hashes entered information rather than storing
+or sharing raw data with brokers, and exposes broker-level statuses such as
+deleted, exempted, opted out of sale, not found, or pending. But the agency
+does not publish the distribution of those statuses, broker-match or deletion
+completion rates, exemptions, re-collection, or consumer-level trust and
+behavior. About 25% of brokers reported processing in the later observation;
+that is a broker-level implementation share, not a consumer completion rate.
+The 45-day processing cadence and up-to-90-day status delay also make time and
+visibility part of practical control. A centralized route can lower effort and
+increase agency even when records are not found or exempted, while an opt-out
+or deletion status does not independently prove removal of every record or
+durable privacy. The next test is one authorized consumer through request
+matching, broker status, verified deletion or exemption, re-collection,
+follow-up burden, trust, switching, and practical exit.
+
+The [social-media non-use and exit study](records/us-sage-social-media-nonuse-exit-2026.json)
+adds a lived practical-exit mechanism as comparative evidence rather than a
+U.S. estimate. Interviews with 20 Korean adults in their twenties included
+active, deactivated, deleted, inactive, and partially deactivated Instagram
+accounts. Participants described non-use as nonlinear and reversible: spatial
+and temporal limits, app tactics, account actions, psychological discomfort,
+social pressure, exclusion, incomplete disconnection, and compensating use of
+other platforms all shaped whether leaving was practical. Participants
+generally did not frame personal non-use as collective or political action,
+even when criticizing monetization and attention capture. This helps separate
+intended exit from durable exit, data erasure, and collective power, while
+allowing that non-use can produce relief, offline connection, and control.
+Because the study is a small purposive Korean interview sample, it does not
+establish U.S. prevalence, platform-wide deletion friction, verified account
+reactivation or data erasure, wellbeing change, or political effects. The next
+U.S. test is a repeated user episode through intended non-use, interface and
+social pressure, alternative platform use, durable account status, data
+deletion, wellbeing, trust, and collective action.
+
+The [App Tracking Transparency/fraud study](records/us-nber-privacy-tracking-fraud-2026.json)
+adds an observed consequence stage to this platform pattern. A natural-
+experiment analysis reports fewer consumer fraud complaints after mobile
+tracking and sharing restrictions, larger effects for personal-information
+misuse and higher-risk data-practice areas, and linked changes in dark-web
+discussion and sensitive-data prices. This is stronger than a privacy-policy
+announcement but remains a set of complaint, geographic-risk, and data-market
+surfaces rather than one consumer-loss panel. Complaint reduction may reflect
+less exposure, different reporting, channel substitution, or other concurrent
+changes; it does not establish reimbursement, account restoration, trust, or
+durable exit.
+
+The [Pew news-platform civic-engagement record](records/us-pew-news-platform-civic-engagement-2025.json)
+adds a U.S. attention-to-civic-action typology without treating platform use as
+the cause of political behavior. Pew's late-2025 19-measure typology identifies
+9% of adults as Mobilizers and 28% as Connectors; 87% of Mobilizers reported
+voting in 2024 and 65% contacting an official, compared with 41% and 3% among
+Outsiders. A separate March 2025 survey finds partisan news-source ecosystems
+across 30 named sources, while 21% of adults—37% under age 30—regularly receive
+news from social-media influencers; 65% of influencer-news users said that use
+helped them understand current events and 70% said the news differed from what
+they saw elsewhere. These are distinct surfaces: cluster membership, source
+familiarity/trust, influencer exposure, perceived understanding, and reported
+political action do not form one respondent panel or causal chain. The labels
+are descriptive types, not stable identities; use and trust may reflect prior
+identity, resources, institutions, or selective exposure, and perceived
+difference is not accuracy, persuasion, informed control, or polarization. The
+next test is a repeated U.S. user episode through platform/source exposure,
+content interpretation, trust, sharing or non-use, civic contact/vote,
+attribution, and later institutional response or exit.
+
+The [AI political-advice mechanism](records/us-nber-ai-political-advice-2026.json)
+extends the same choice-and-power question into information authority. A formal
+NBER model shows how an adviser that values accuracy while also seeking perceived
+user welfare can have an incentive to accommodate what a user wants to believe;
+even sophisticated users may then receive less information about the underlying
+state, while users who underestimate the accommodation can mistake agreeable
+advice for evidence. This creates a distinct possible path from adviser design →
+perceived helpfulness → information quality and attribution → political judgment,
+polarization, or action. It is a theoretical mechanism, not an audit of deployed
+systems and not evidence of actual knowledge, radicalization, voting, trust, or
+platform behavior. The next test is to compare disclosed objectives, source
+visibility, competing-advice exposure, user priors and sophistication, belief
+updating, confidence, and later political behavior while preserving model,
+experiment, and observed-outcome boundaries.
+
+The broader [AI macro/infrastructure/institutional record](records/us-ai-macro-infrastructure-institutional-context-2025-2026.json)
+shows why AI capacity should not be treated as one economic or geopolitical
+outcome. Its sources place short-run firm productivity and employment estimates
+beside descriptive state-industry output and employment associations,
+exploratory industry price and input-share results, modeled wage/wealth
+distribution channels, an OFR workforce-and-analytics restructuring, conditional
+data-center energy scenarios, World Bank complement requirements, and SHED
+household price adaptation and national economic judgment. Together they support
+a cross-source proposition that AI capability is complement-constrained and
+distributed unevenly across firms, workers, institutions, places, and states.
+They do not establish worker gains, household benefit, public-service improvement,
+provider switching, or geopolitical leverage. The next test is to follow one
+firm, worker, institution, or place through ownership and complements, access and
+task change, productivity or service output, price/wage incidence, bargaining and
+voice, local infrastructure burden, provider replaceability, and later trust or
+external response while preserving firm-study, state-industry, model, scenario,
+institutional-report, and household-survey units.
+
+The [FTC AI-companion inquiry](records/us-ftc-ai-companion-inquiry-2025.json)
+adds an institutional-scrutiny stage to the platform pathway. In September
+2025, the FTC issued Section 6(b) orders to seven companies seeking information
+about monetization, data use, safety testing, age limits, disclosures, and
+possible effects on children and teens. This is a governance response to a
+product form that may combine relational framing, data extraction, and consumer
+dependence; it is not evidence that users formed relationships, experienced harm,
+or lost practical control. The inquiry provides no user denominator, company
+responses, completed enforcement, outcome rate, or remedy. The next test is to
+follow a named product through terms, design and monetization, data practices,
+age/safety controls, user exposure and exit, complaints, company response, and
+any later enforcement or user outcome while preserving the inquiry-versus-finding
+boundary.
+
+The [GAO emerging-technology foresight review](records/us-gao-emerging-technology-societal-governance-2026.json)
+widens the governance timing question beyond currently deployed AI. GAO's
+expert-informed review of neural implants, general-purpose robots, and orbital-
+debris removal identifies possible privacy, autonomy, environmental, safety, and
+legal exposures alongside standards, human-confirmation, safeguards, research,
+and legal-analysis needs. It uses literature and 11 expert interviews for
+technologies roughly ten years on the horizon; it is not a forecast or realized
+impact estimate. The review does not establish adoption, prices, employment,
+privacy violations, accidents, public acceptance, market concentration, or
+geopolitical response. The next test is one named technology through prototype,
+deployment, affected user/worker/community, standards or human override,
+incident, remedy, public interpretation, and external response, preserving
+non-adoption and governance-before-harm cases.
+
+## 6. Capacity can grow while local usability, affordability, or accountability lags
+
+Hospitals centralized even as zero-hospital counties grew
+([hospital concentration](records/us-census-hospital-consolidation-geographic-access-rural-south-2026.json)); transmission selections need not become energized service
+([DOE transmission](records/us-doe-transmission-facilitation-realization-2023-2026.json)); large-load rules allocate projected costs without proving realised customer incidence
+([Virginia large load](records/us-virginia-data-center-large-load-governance-2024-2027.json)).
+
+**Trend proposition:** infrastructure debates are increasingly about conversion
+from nominal capacity into accessible, affordable, resilient service.  
+**Open link:** asset/project → actual service → household/place consequence.
+
+The [state and local disaster-response capability record](records/us-gao-disaster-state-local-response-capability-2025.json)
+adds an intergovernmental capacity layer beneath FEMA assistance and survivor
+access. GAO's selected assessments of 10 states affected by recent disasters
+find wide variation in state and local capability, with rural or less-resourced
+jurisdictions facing challenges even inside otherwise well-resourced states.
+Officials describe continued dependence on federal grants, training, technical
+assistance, and response support, and emphasize clear guidance and transition
+time when federal roles change. This is an institutional comparison, not a
+national capability rate or a survivor panel: it does not measure response
+speed, notice, assistance receipt, repair, health, housing, local economic
+recovery, trust, or political action. Federal pooling may complement local
+capacity rather than signal local failure. The next episode should connect one
+jurisdiction's capability and federal support to a named disaster route,
+survivor receipt, repair or return, local recovery, and later public judgment.
+
+The [GAO duplication/fragmentation review](records/us-gao-federal-duplication-fragmentation-capacity-2026.json)
+adds a federal-coordination version of the same conversion problem. GAO's 2026
+portfolio reports 610 remaining matters, 97 new matters, and $774.3 billion in
+reported cumulative savings or revenue increases from prior congressional and
+agency action, with more than $100 billion in potential additional gains. The
+portfolio also treats overlapping or fragmented responsibility as a possible
+efficiency, effectiveness, service-delivery, and oversight problem. Fiscal
+savings and recommendations are not household savings, agency productivity,
+service quality, transition cost, public trust, or evidence that consolidation
+improves access; some overlap can provide redundancy, specialization, or local
+entry points. The next test is one named program through responsibility,
+coordination and navigation burden, implementation, service quality, affected
+households/firms, cost, appeal, and later legitimacy, preserving both
+consolidation and redundancy counterexamples.
+
+The [Technology Modernization Fund record](records/us-gao-technology-modernization-fund-realized-savings-2026.json)
+adds a realized-versus-projected public-capacity clock. GAO reports $1.03
+billion invested across 68 federal projects, with 11 projects reporting $13.5
+million in savings to date while 24 projects projected $1.06 billion in
+combined savings. The gap is analytically important: project-reported savings,
+future projections, implementation status, and public value are separate
+stages. Modernization may avert failure or improve service without producing
+financial savings, while a reported agency saving does not establish a user
+time gain, better access, cybersecurity improvement, worker benefit, budget
+availability, or household welfare. The review does not provide a common
+project-year implementation clock, distribution of savings, or user-level
+outcome, and agency accounting may not equal an independently verified budget
+reduction. The next test is one named project through award, migration and
+training, implementation, actual cash or avoided-cost effect, service
+reliability, user access, correction, reallocation, and later public response.
+
+The [GAO cybersecurity-harmonization record](records/us-gao-cybersecurity-regulatory-fragmentation-2026.json)
+adds a firm-facing governance-cost layer. Seven selected critical-infrastructure
+industry representatives reported overlapping controls, inconsistent definitions,
+and incident-reporting deadlines or thresholds that can make rapid response
+technically burdensome; GAO also records 11 of 12 earlier coordination
+recommendations implemented and one partially addressed. This supports a
+mechanism in which regulatory complexity can shift scarce operational capacity
+into duplicated compliance and reporting, potentially affecting security
+practice or service continuity. It is not a national prevalence estimate or
+causal test: the record does not quantify compliance hours, dollars, breach
+reduction, reporting quality, consumer harm, or security improvement. The next
+test is one named operator through applicable rules, control mapping, incident,
+reporting time, response, service continuity, customer effect, and harmonization,
+while retaining sector-specific safeguards and non-incident cases.
+
+The [AI capability/dependence/state-control bridge](records/us-ai-capability-dependence-state-control-crosssource-2023-2026.json)
+adds a technology-specific version of this conversion problem. World Bank
+framework evidence identifies infrastructure, skills, institutions, data, and
+local-language fit as complements; Romania and Malaysia cases add project,
+financing, ownership, and completion milestones; OFR adds a U.S. public-
+institution workforce/data-capacity layer; U.S. data-center records add load,
+revenue, and utility-governance surfaces. These sources show how useful AI
+capacity and dependence can expand together. They do not establish provider
+replaceability, public-service improvement, household benefit, state bargaining
+leverage, or geopolitical consequence. The next test is one named capability
+through procurement/use, ownership, local complements, inspection, portability,
+replacement time/cost, outage or switching, local incidence, and external
+response.
+
+The [automation-and-meaning-of-work record](records/us-nber-automation-meaning-work-2026.json)
+adds a cultural and worker-control mechanism that is easy to miss when
+capacity is measured only through jobs or output. Its theoretical model shows
+that a credible machine alternative can reduce the contribution-based meaning
+workers attach to retained work even when the firm does not eliminate the job;
+full wage adjustment can offset part of the modeled meaning loss, while partial
+adjustment leaves more of it with workers. The mechanism therefore runs through
+perceived contribution, compensation, and the credibility of substitution—not
+employment status alone—and can feed back into the firm's incentive to
+automate. This is a model, not evidence that any observed workers lost meaning,
+pay, health, identity, motivation, or bargaining power, and it has no worker or
+firm denominator. Automation can also remove dangerous or tedious tasks,
+increase agency, improve quality, or create new sources of meaning. The next
+test is a named workplace or worker episode through task change, perceived
+contribution, discretion and voice, compensation, useful output, wellbeing,
+retention or mobility, and later identity or collective action.
+
+The [AI-worker retraining returns record](records/us-nber-ai-worker-retraining-returns-2026.json)
+adds an observed adaptation route beside the theoretical meaning mechanism.
+Using U.S. Workforce Innovation and Opportunity Act occupational-training
+spells matched against job-search-only service users, the study reports about
+$1,000 in estimated quarterly earnings returns for high-AI-exposure trainees in
+2012–2019 and about $3,000 in 2022–2024. The reported route is primarily a move
+into less AI-exposed occupations, with a smaller role for AI-complementary
+training. This makes retraining a possible agency and income bridge, but not a
+universal escape from automation: the public abstract does not disclose the
+full sample or matching specification, and the comparison remains a workforce-
+program population. The estimate does not establish training completion,
+access, affordability, job quality, hours, benefits, stability, control,
+meaning, or household security; participant motivation, health, time,
+transportation, employer support, labor-market selection, and available jobs
+may shape the result. The next test is one worker through exposure, training
+eligibility and completion, occupational transition, pay and hours, benefits,
+control and meaning, household adaptation, retention or exit, and later voice
+or political action.
+
+The [BLS worker-requested-changes and job-control record](records/us-bls-worker-requested-changes-control-2024-2025.json)
+adds an observed request-to-grant stage to the worker-agency lane. In the July
+2024 supplement, 5.9 million wage and salary workers reported requesting or
+making a change to help do their job better; schedule requests were fully
+granted for 70.1%, partially granted for 21.9%, and not granted for 7.5% of
+reported requests. Separate preliminary 2025 Occupational Requirements Survey
+estimates describe job-level conditions: pause control for 53.5% of workers,
+self-paced workload for 18.5%, and employer-driven schedule variability for
+48.3%. The CPS request/grant and ORS job-level estimates are not the same-worker
+panel. A granted change may be inadequate, temporary, stigmatizing, or costly,
+and job-level control is not worker-level bargaining power. The missing route is
+request, decision, actual use, schedule/pay and care effect, persistence, voice,
+retention, or exit.
+
+The [data-center capacity/revenue/rate-governance bridge](records/us-data-center-capacity-revenue-rate-governance-crosssource-2023-2027.json)
+adds a sharper public-incidence layer. LBNL provides modeled national load;
+Prince William County reports local data-center tax revenue and capacity; state
+records specify approved, proposed, modeled, and undisclosed large-load terms;
+Virginia testimony records two reported large-load drop events. These stages
+show digital demand becoming a fiscal and utility-governance question, but
+modeled load, county revenue, tariff terms, and operational stress are not
+household bills, net public benefit, jobs, water/environmental incidence,
+provider replaceability, public trust, or geopolitical leverage. The next test
+must follow a named facility/customer through load, contract, cost recovery,
+service continuity, local incidence, and public response.
+
+The [Georgia large-load contract record](records/us-georgia-psc-large-load-contract-realization-2026.json)
+advances this route from policy and forecast toward a visible regulatory
+implementation stage. The Georgia PSC docket identifies at least four executed
+large-load contract filings in January–August 2026 and a named review episode
+with a filing, review extension, and later executed-contract entry. This is
+stronger than a rule or announced demand because a contract submission is an
+actual oversight object, but the docket does not disclose commercial terms,
+minimum billing, final approval, construction, energization, payment, cost
+allocation, residential bills, reliability, or local acceptance. The next test
+is one named contract through approval, security/minimum-billing terms, build and
+load, payment, utility cost recovery, ratepayer incidence, reliability, and
+amendment or nonperformance.
+
+The [bulk-power security record](records/us-eo-14421-bulk-power-security-2026.json)
+adds a governance-timing layer to the capacity problem. Executive Order 14421
+defines foreign equipment, software, remote access, sabotage, cyber exploitation,
+and supply disruption as bulk-power security surfaces and authorizes possible
+restriction, isolation, monitoring, replacement, or removal; DOE's subsequent RFI
+opens a stakeholder-input stage involving utilities, vendors, labor, insurers,
+governments, and consumer representatives. This makes electricity simultaneously
+an essential service and a strategic-security object, especially as data centers,
+advanced manufacturing, AI, and defense production increase reliable-load
+dependence. The order and RFI do not identify affected equipment, binding vendor
+determinations, replacement cost or schedule, outage or rate effects, stakeholder
+influence, household service, or geopolitical outcome. The next test is a named
+covered transaction through determination, replacement, cost, reliability,
+worker/community burden, public response, and later industrial or external
+behavior, with non-covered and transition-cost cases retained.
+
+## 7. Dependence is reorganizing both local political voice and international bargaining
+
+Local employer concentration can shape political communication and turnout
+([electoral monopsony](records/us-nber-employer-market-power-political-influence-2026.json)); arms supplier concentration can increase maintenance and bargaining exposure without proving political obedience
+([SIPRI dependence](records/us-sipri-arms-transfer-dependence-2021-2025.json)).
+
+**Trend proposition:** dependence is a shared structure across labor markets,
+platforms, infrastructure, and alliances, but its consequences remain context
+specific.  
+**Open link:** dependency → exercised leverage → changed behavior or autonomy.
+
+The [Pew global-role legitimacy record](records/us-pew-global-role-legitimacy-three-audiences-2026.json)
+adds the missing reception-and-meaning stage without treating reputation as
+capability. The 2026 survey separates three audiences that should not be
+pooled: adults in 36 non-U.S. countries, the U.S. public, and U.S. partisan
+subgroups. Across the non-U.S. country medians, 35% said the United States
+contributes to world peace and 32% said it considers other countries' interests;
+among U.S. adults, the corresponding peace figure was 57%, while 83% said the
+United States interferes in other countries at least a fair amount and 65%
+said it should consider foreign interests even when compromise is required.
+Domestic partisan meaning was sharply divided: 82% of Republicans versus 35%
+of Democrats said the United States contributes to peace and stability, while
+77% and 89%, respectively, described it as interfering. The same interference
+judgment can therefore coexist with opposed legitimacy interpretations.
+These are perception and normative-judgment surfaces, not observed diplomatic
+behavior, alliance coordination, material capability, leverage, or political
+action; the international results are equal-country medians rather than a
+population-weighted global estimate. The next test is an event-country-party-
+year ledger linking a dated foreign-policy or security event to country-specific
+reception, domestic attribution, diplomatic/alliance response, aid/trade or
+market behavior, institutional adjustment, and later action while preserving
+capability-versus-legitimacy and audience boundaries.
+
+The [domestic-capacity/autonomy realization record](records/us-ai-domestic-capacity-autonomy-realization-2026.json)
+formalizes the multiple clocks inside that dependence question. Its deliberately
+non-pooled comparison places critical-mineral import reliance and substitution,
+CHIPS awards and milestones, data-center/grid capacity and load events, and
+JASSM/LRASM awards, tests, planned delivery, and missing acceptance fields side
+by side. It distinguishes commitment, capacity, operation, replaceability, and
+leverage: a $13.1 billion CHIPS disbursement, a $999 million production-support
+ceiling, a 621 MW local capacity addition, or a planned 2026–2030 delivery window
+does not establish usable output, customer receipt, supplier switching,
+interoperability, autonomy, or external bargaining power. The next test is one
+identifier-bearing mineral, project, facility, order, or customer through
+production, acceptance, operation, substitute qualification, affected workers
+or communities, disruption, and observed external response.
+
+The [international AI-infrastructure comparison](records/us-geopolitical-ai-infrastructure-case-comparison-2023-2026.json)
+adds a concrete external-dependence counterpoint. Romania's government-cloud
+cases separate a reported infrastructure-completion announcement from a
+separate application-migration target; Malaysia's Johor case places planned
+capacity, development-finance lending, and an ownership transition beside
+unobserved operation and public benefit. These cases show how digital capacity
+can expand while dependence on external operators, capital, power, customers,
+skills, or security arrangements may also persist. They are two documented
+project cases, not a population trend or leverage estimate: neither establishes
+uptime, service speed/cost, data control, portability, replacement, local
+incidence, state bargaining, or external response. The next test is one named
+facility or public application through commissioning, use, ownership/control,
+local complements, inspection, outage or switching, replacement time/cost, and
+public or counterpart response.
+
+The [Taiwan reciprocal-trade response](records/us-ustr-taiwan-reciprocal-trade-capacity-response-2026.json)
+adds an external-response counterpoint to the dependence pattern. An announced
+agreement can convert U.S. trade and technology pressure into partner tariff,
+investment, and purchase commitments, but accommodation is not yet exercised
+leverage. The reported $84.8 billion figure is a sum of planned categories,
+not realized trade; the source does not show contracts, delivery, production,
+local burden, supplier substitution, or changed strategic behavior. This keeps
+partner response, capacity alignment, and geopolitical leverage as separate
+stages.
+
+The [bilateral conflict/trade-risk record](records/us-nber-bilateral-conflict-trade-risk-2026.json)
+adds a measured geoeconomic pathway. A GDELT-based monthly bilateral indicator
+separates kinetic fighting, military posture, sanctions-context hostility, and
+routine diplomacy; a gravity-trade model reports that sanctions-context
+hostility has become a larger share of measured hostility, that directed
+hostility can compound trade losses through retaliation, and that roughly $334
+billion of bilateral trade was at risk relative to a pre-escalation baseline
+in the paper's comparison, with about half attributed to the U.S.–China pair.
+This is a comparative model-based trade pathway, not observed lost revenue,
+coercive success, U.S.-household or firm incidence, substitution, alliance
+durability, legitimacy, or strategic result. Routine diplomacy's null aggregate
+trade result is not evidence that diplomacy lacks political or security value.
+
+## 8. Social participation is a resource with unequal access, not a residual attitude
+
+Neighborhood amenities correlate with contact and stated mutual aid
+([American Neighbor Survey](records/us-american-neighbor-survey-social-infrastructure-belonging-2026.json)); arts participation and support are socially patterned
+([NEA arts](records/us-nea-hps-arts-attendance-social-connectedness-2024.json)); civic styles do not map neatly onto government trust
+([Pew public life](records/us-pew-public-life-engagement-groups-2025.json)).
+
+**Trend proposition:** belonging and civic capacity depend on places, time,
+money, health, and organizations—not only on individual disposition.  
+**Open link:** actual mutual aid/participation → institutional responsiveness or
+later durable belonging.
+
+The [BLS cultural-and-civic-time record](records/us-bls-atus-cultural-civic-time-2025.json)
+adds an everyday time-use denominator to this social-infrastructure lane. On
+an average 2025 day, 30.4% of people age 15 and older socialized or
+communicated, 9.4% engaged in religious or spiritual activities, 5.3%
+volunteered, and 13.6% did an organizational, civic, or religious activity.
+Socializing and religious activity were higher on weekends and holidays than
+weekdays, while published volunteering time was 0.12 hours on both. These are
+primary-activity averages, not measures of relationship quality, informal help,
+digital contact, belonging, organizational capacity, or political action, and
+they do not follow the same person across years. The cross-lane implication is
+that civic participation has a time budget and calendar structure before it has
+a trust or legitimacy outcome.
+
+The [NEA arts participation and social-connectedness record](records/us-nea-hps-arts-attendance-social-connectedness-2024.json)
+adds a cultural-infrastructure access surface. Across four 2024 Household
+Pulse Survey cycles, 25.2% of adults reported attending a live performance or
+art exhibit in the prior month; attendance ranged from 16.2% among adults with
+annual income below $25,000 to 55.2% among those at $200,000 or more. Attendees
+also more often reported always or usually receiving needed social or emotional
+support than non-attendees. These are repeated cross-sectional associations,
+not a participation intervention or a measure of venue supply, transportation,
+time, affordability, relationship quality, belonging, health, or civic action.
+Arts attendance is therefore a socially patterned resource and support-
+associated surface, not evidence that arts access caused connection or
+institutional trust.
+
+The [Pew religious-institution community-bonds record](records/us-pew-religious-institutions-community-bonds-2025.json)
+adds a legitimacy-versus-use distinction to the social-infrastructure lane. In
+Pew's 2023–24 Religious Landscape Study, 80% of U.S. adults said religious
+organizations help bring people together and strengthen community bonds, and
+78% said they play an important role in helping poor and needy people. Yet
+monthly in-person or online participation was 40% and personal congregation
+membership 37%; among the religiously unaffiliated, only 23% expressed a net
+positive view in the reported comparison. This means institutions can retain a
+publicly recognized community-service role even when belonging and participation
+are lower or unevenly shared. The measures are cross-sectional self-reports and
+do not show services actually delivered, recipient adequacy, institutional trust
+over time, political influence, or whether favorable judgments reflect personal
+use, identity, or general social evaluation. Valuing a community role does not
+imply accepting religious political influence, belonging to a congregation, or
+receiving aid. The next test is a congregation or community episode through
+need, invitation and access, contribution, service delivered, recipient
+adequacy, internal correction, burden-sharing, trust, belonging, and later civic
+action or exit.
+
+The [CDC community-connection record](records/us-cdc-community-connection-support-participation-2026.json)
+adds a measurement boundary between having support and being able to
+participate. CDC's displayed national indicators report that 58% of youth
+received the social and emotional support they needed in 2021–2023 and 82% of
+adults did so in 2021, while a separate 2024 adult indicator reports that 12%
+had difficulty participating in social activities because of a physical,
+mental, or emotional condition. These figures make support availability and
+participation capacity visibly distinct: reported support can coexist with
+health-related participation difficulty. They are not a common panel or a
+single-year age comparison—the CDC summary draws on different survey systems,
+does not reproduce all underlying denominators, and does not measure whether
+support was adequate, reliable, reciprocal, materially useful, or delivered by
+a formal institution. Participation difficulty also does not identify whether
+the barrier was access, energy, transportation, fear, cost, stigma, or lack of
+invitation. The next test is a repeated person or household route through
+support need, invitation/access, health and time constraint, actual
+participation, practical help, reciprocity, adequacy, recovery, and later
+belonging or civic action.
+
+The [American Neighbor Survey record](records/us-american-neighbor-survey-social-infrastructure-belonging-2026.json)
+specifies the local social-infrastructure mechanism without converting it into a
+community-resilience score. In the October 2025 probability-based survey,
+40% of adults reported talking with neighbors at least a few times a week and
+40% reported working with neighborhood residents during the prior year to fix a
+problem or improve the community; 72% reported at least a fair amount of trust
+that neighborhood residents do the right thing. The resource gradient is
+substantial: weekly conversation was 27% among adults reporting no listed
+neighborhood amenity within a 20-minute walk versus 43% among those reporting
+six or more, and neighbor trust was 64% among adults with a high-school degree
+or less versus 81% among college graduates. Emergency-childcare comfort also
+varied by parent education, from 39% among parents without a college degree to
+56% among college-graduate parents. These measures place amenities, education,
+contact, trust, and stated mutual-aid readiness in one bounded survey surface,
+but they do not show that amenities caused interaction, that stated comfort
+became delivered care, or that neighborhood trust produced political action.
+The survey is cross-sectional and self-reported; selection, residence length,
+safety, mobility, income, and willingness to walk may shape both place exposure
+and reported connection. The next test is a place-linked or repeated episode
+through a dated request, actual help delivered, helper time or money, formal
+substitution, adequacy, recovery, later trust, belonging, and civic action.
+
+The [Pew Latter-day Saints communal-trust record](records/us-pew-latter-day-saints-communal-trust-volunteering-2026.json)
+adds an institution-centered counterexample to the neighborhood mechanism. In
+Pew's 2023–24 Religious Landscape Study analysis, 72% of current Latter-day
+Saint respondents reported volunteering in the prior year, compared with 41%
+of U.S. adults overall, and 48% said most people can be trusted, compared with
+34% of U.S. adults. The internal gradients prevent that group average from
+becoming a general communal-capacity claim: reported volunteering ranged from
+91% among respondents with at least a bachelor's degree to 61% among those with
+less education, and from 80% in the Mountain region to 62% elsewhere; reported
+generalized trust was about 60% among college graduates versus about 40% among
+those without a college diploma. These are affiliation-group comparisons, not
+randomized effects of membership or observed service delivery. Volunteering
+does not identify hours, recipient, congregational versus outside work, burden,
+role access, or later political action, and generalized trust is not the same as
+institutional trust or delivered mutual aid. The next test is a congregation or
+community episode through invitation/access, time and care contribution,
+recipient or public benefit, internal correction, burden-sharing, belonging,
+and later civic action or exit, retaining former members and nonparticipants as
+countercases.
+
+The [material/care/time political-friction record](records/us-material-care-time-political-friction-crosssource-2022-2025.json)
+adds a deliberately non-pooled route from practical constraints to political
+life. CPS reports schedule, illness/disability, transportation, and candidate/
+issue dissatisfaction as distinct reasons among reported nonvoters; SIPP adds
+care-related work prevention and following-month hardship; ATUS measures
+eldercare providers' time allocation; ANES and CCES add worry, trust, vote,
+and action surfaces. Together they show why “nonparticipation” cannot be read
+as one cultural or material outcome. The record does not establish that care,
+cost, work, health, mobility, or institutional experience caused nonvoting,
+distrust, or candidate choice; same-person dated exposure, attribution,
+institutional response, remedy, and recovery remain open.
+
+The [material-to-trust/action bridge](records/us-material-to-trust-action-bridge-2022-2025.json)
+tests the next interpretive step without pretending that the sources form one
+panel. SIPP supplies work/resource transitions by work-limiting status; ATUS
+supplies standardized eldercare, work, and social-time contrasts; MEPS supplies
+longitudinal health and expenditure changes; ANES supplies financial-worry,
+trust, and reported-vote cross-tabs; and CCES supplies joint material-proxy,
+institutional-trust, and civic-action comparisons. Together they show that
+material, work, care, and health conditions can be placed alongside trust and
+action, but do not automatically become a common burden, attribution, distrust,
+or vote mechanism. The next test is a same-person or household route through a
+dated condition, practical consequence, explanation/attribution, institutional
+response, trust, and action or non-use; preserve each survey's denominator,
+time window, weighting, and noncausal boundary.
+
+The [Pew working-class identity record](records/us-pew-working-class-identity-2026.json)
+adds a meaning-and-attribution layer between material conditions and political
+action. In Pew's January 2026 American Trends Panel, 60% of adults said
+“working class” described them very or extremely well, up from 54% in 2024,
+but the self-classification does not map cleanly onto income or education:
+67% of middle-income adults and 57% of lower-income adults used the label,
+as did 50% of upper-income adults; 66% without a college degree and 50% of
+college graduates did so. The label also varied by party (67% Republican or
+Republican-leaning versus 55% Democratic or Democratic-leaning), financial
+stress (65% medium, 61% high, and 50% low), and source-defined work type (77%
+blue-collar versus 61% other workers). These contrasts make identity a
+political and cultural interpretation of status, not a proxy for low income,
+objective class position, hardship, or ideology. The comparison is repeated
+cross-sectional, not a same-person identity transition; changing political
+language may raise self-identification without material deterioration, and
+occupation, respect, party, education, stress, and income are jointly
+structured. The next test is a same-worker or respondent episode through job
+quality, pay, stress, respect, identity, attribution, workplace voice,
+organizing, consumption, and political action, retaining people whose identity
+differs from their material or occupational position.
+
+The [Pew Latino American-dream mobility record](records/us-pew-latino-american-dream-mobility-2026.json)
+adds a cultural-meaning counterexample to the assumption that perceived progress
+and perceived opportunity move together. In Pew's October 2025 National Survey
+of Latinos, 57% said their standard of living was better than their parents' at
+the same age and 53% expected their children to do better, yet respondents were
+split on attainability: 20% said they had achieved the American dream, 33% were
+on the way, 18% said it was out of reach, and 27% said it did not exist. The
+meaning is also multidimensional: about 60% mentioned financial security,
+economic opportunity, or homeownership, while 40% mentioned a good life for
+self, family, or community; freedom, hard work, and equal treatment were
+separate themes. Immigrant Latinos more often reported being better off than
+their parents (70% versus 49% among U.S.-born Latinos) and expecting their
+children to do better (63% versus 48%), but these are descriptive nativity
+contrasts, not migration effects. The survey measures reported judgment and
+reference-group comparison, not linked income/wealth mobility, housing access,
+legal security, voting, or political action. A person can experience family
+progress while judging the wider opportunity structure as unavailable. The
+next test is a family episode through housing, work, education, service or
+discrimination encounter, mobility, belonging, attribution, trust, and later
+consumer or civic action.
+
+The [guaranteed-income political-attitudes experiment](records/us-nber-guaranteed-income-political-attitudes-behavior-2024.json)
+provides a causal counterexample to a simple material-relief-to-mobilization
+story. In a randomized three-year field experiment with 1,000 low-income
+treatment participants receiving $1,000 per month and 2,000 controls receiving
+$50, the study reports no detectable average effect on political participation,
+engagement, broad preferences, government trust, polarization, or support for
+democracy, alongside small affect and work-attitude changes. The result narrows
+the claim that increased household room automatically produces political
+mobilization or institutional trust. It remains bounded by the enrolled
+population, intervention, political context, outcome precision, and take-up;
+it does not negate other material-to-political pathways or observe every
+household work, health, relationship, meaning, or action mechanism.
+
+The [historical winner-premium study](records/us-nber-election-winner-premium-political-investment-2026.json)
+adds a different route: a narrow presidential win in a historical U.S. county
+can be followed by party investment, local officeholding, outreach, organizing,
+and voter support, with larger reported effects in urban, Black, and union
+areas. This makes political power partly an organizational and resource
+accumulation process after an election, not only a one-day expression of
+preference. The 1940–1968 close-election design does not establish current
+effects, household material benefit, national policy, trust, or democratic
+legitimacy; later investment may also reflect broader realignment and local
+conditions.
+
+## 9. Receipt and durable recovery are different outcome clocks
+
+Lottery-assigned emergency rental aid increased rent payment and reduced
+eviction concern but had little average effect on housing stability or
+financial distress in its pandemic setting ([rental aid](records/us-nber-emergency-rental-assistance-rent-payment-stability-health-2024.json)).
+Conversely, one-time homelessness-prevention assistance was followed by
+employment and earnings gains in linked tax records, while its address-change
+evidence did not robustly establish housing stability
+([emergency assistance](records/us-nber-emergency-financial-assistance-work-outcomes-2026.json)).
+The Medicaid hepatitis-C payment model increased treatment volume and improved
+diagnosis outcomes, while equal treatment reach and individual cure completion
+remained unobserved ([Medicaid subscription](records/us-nber-hepatitis-c-subscription-outcomes-2026.json)).
+
+**Trend proposition:** payment, receipt, immediate relief, clinical activity,
+and later durable security are independently measured outcomes. A program can
+produce a real intermediate gain without closing the whole lived-recovery
+route.  
+**Open link:** same person's offer → receipt → adequacy → durable housing,
+health, work, debt, and later judgment.
+
+The [HUD–LEHD assistance-employment trajectory](records/us-census-hud-lehd-assistance-employment-trajectories-2026.json)
+adds a linked administrative transition beneath this proposition. Census CES
+links HUD assistance records from 2005–2022 to LEHD earnings records from
+2000–2023 over long windows around entry and exit. Among about 2.086 million
+first-time entrants, the earnings slope changes from a pre-entry decline to a
+post-entry increase; among about 1.233 million final leavers, post-exit
+employment and earnings slopes are less favorable than among adjusted stayers.
+These are selected transition events and adjusted longitudinal comparisons, not
+a complete housing-recovery episode: assistance amount and timing, rent burden,
+housing quality, alternatives, exit reason, health, trust, and political action
+remain open. Entry/exit-to-labor trajectory is therefore a stronger linked
+stage, not proof that assistance caused earnings or that exit caused loss.
+
+The [HUD HEARS exit-type record](records/us-hud-hears-exit-type-outcomes-2025.json)
+adds a rare same-linked-unit housing-exit bridge. In linked records from the
+Seattle and King County housing authorities, 13.5% of 8,266 classified heads
+of household had positive exits, 54.9% neutral exits, and 31.6% negative exits.
+Among 16,301 linked individuals, homelessness or unstable housing within one
+year was recorded for 3.1% after positive exits, 14.5% after neutral exits, and
+25.4% after negative exits; the study also links exit type to behavioral-health,
+emergency-department, and wage outcomes. This is stronger than a transition
+total because exit categories are connected to later outcomes, but it is a
+regional observational study with locally defined categories and probabilistic
+linkage. Pre-existing health, homelessness, income, market, and administrative
+conditions may shape both exit type and later outcome. It does not establish a
+national or causal exit effect, universal adequacy, trust, political action, or
+security beyond the one-year window.
+
+## 10. Cost allocation can be hidden inside the transaction or rule rather than visible as a posted price
+
+Payment-system evidence models merchant-fee costs passing through common prices
+and rewards across consumer payment types ([payment rewards](records/us-nber-payment-rewards-redistribution-2026.json)).
+The tariff study separates a direct import-price effect from delayed
+input-cost/domestic-markup effects ([tariff pass-through](records/us-nber-tariff-pass-through-consumer-prices-2025.json)).
+Rent guarantees can make lease access possible while leaving the renter liable
+to repay a landlord-facing claim ([rent guarantee](records/us-rent-guarantee-insurance-protection-repayment-2026.json)).
+Large-load governance assigns projected network costs before household bill
+incidence is demonstrated ([Virginia large load](records/us-virginia-data-center-large-load-governance-2024-2027.json)).
+
+**Trend proposition:** many consumer and public burdens are allocation
+mechanisms embedded in payment rails, eligibility products, supply chains, and
+rate rules; the person bearing the residual cost may not be the visible
+counterparty.
+**Open link:** rule/contract → actual bill, fee, repayment, or price → service
+and household consequences → contestation, switching, or acceptance.
+
+## 11. Control increasingly depends on status visibility and a reversible route, not nominal consent
+
+Marketplace brokers can remain formally registered while consent and plan-change
+controls fail ([Marketplace broker consent](records/us-gao-marketplace-broker-consent-2026.json)).
+SNAP EBT security modernization adds cards, PINs, replacement monitoring, and
+fallbacks without showing timely food access after a theft or error
+([SNAP EBT modernization](records/us-usda-snap-ebt-modernization-control-2026.json)).
+Digital-health enforcement similarly ties sensitive data, recurring billing,
+and cancellation to a separate complaint-resolution endpoint
+([Hims & Hers](records/us-ftc-hims-hers-health-data-billing-cancellation-2026.json)).
+
+**Trend proposition:** consumer and beneficiary control is increasingly
+realized through whether people can see a status, understand a change, reverse
+it, and obtain timely correction—not merely whether a transaction began with a
+formal consent or an account exists.  
+**Open link:** status/notice → challenge or reversal → corrected coverage,
+payment, data, or food access → durable trust and control.
+
+The [SNAP EBT theft-control ledger](projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json)
+adds a concrete beneficiary-control route. GAO reports more than $320 million
+in approved replacement benefits for nearly 679,000 households during the
+statutory replacement period, alongside card locks, PIN changes, transaction
+monitoring, chip-card and mobile-payment pilots, processor controls, and other
+prevention measures. The route makes visible how a formal benefit can become a
+loss of food-purchasing control, recipient monitoring and reporting work, and a
+possible shift of fraud risk between households, states, federal agencies,
+processors, retailers, and recipients. Approved claims are not a theft
+prevalence denominator or proof of individual receipt; the retained record has
+no theft date, claim effort, approval timing, replacement delivery, interim
+food route, next-month balance, adequacy, trust, or exit. Security controls may
+reduce theft while adding steps, false blocks, accessibility problems, or
+online/cross-state constraints, and a household may bridge a loss through
+borrowing or charitable food without a recorded replacement. The next test is
+one household through theft, discovery, report, claim, replacement decision and
+receipt, security response, interim food access, next benefit, repeat exposure,
+trust, continued use, or non-use.
+
+The [consumer visibility/attention/remedy/exit synthesis](records/us-consumer-visibility-attention-remedy-exit-crosssource-2024-2026.json)
+shows why those endpoints must remain separate. CFPB complaint-response labels
+change across years and products; SHED reports that many adults who experienced
+non-credit-card fraud lost money, some did not recover it, and a substantial
+share spent ten or more hours dealing with it; Pew and FTC provide separate
+platform/AI-use, privacy-confidence, and institutional-inquiry surfaces. These
+records jointly map visibility, attention cost, response labeling, and exit
+questions, but they are not a complaint incidence rate, same-case recovery
+panel, trust measure, or causal regulatory effect. A high explanation share or
+high platform use cannot be promoted to adequate remedy, dependence, or
+continued consent.
+
+The [consumer-loss and recourse bridge](records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json)
+sharpens that distinction by placing four non-pooled stages side by side:
+household-reported fraud exposure, conditional money and time loss, FTC
+administrative visibility, and CFPB complaint-response labels. The 2024 SHED
+layer estimates exposure and conditional loss/recovery effort; FTC totals show
+reported administrative scale; CFPB records show explanation, narrative, and
+monetary-relief labels whose composition and coding can change. This supports a
+cross-source proposition that consumer protection can be visible and routable
+without yet being experienced as adequate recovery or trust repair. It does not
+establish a common fraud rate, firm liability, account-level remedy, restored
+security, switching, or exit. The next test is a dated same-consumer episode
+linking originating contact, loss, recovery effort, complaint, remedy receipt
+and adequacy, repeat exposure, and later behavior.
+
+The [Amazon Prime refund-distribution record](records/us-ftc-amazon-prime-enrollment-refunds-2026.json)
+adds a named, large-scale remedy while making the receipt gap unusually visible.
+The FTC-filed September 2026 status record reports about $845.2 million issued
+across automatic and claims-process phases but about $235.5 million accepted;
+these are phase-level dollar totals, not a customer denominator, individual
+receipt rate, average payment, or adequacy measure. The underlying settlement
+sets eligibility rules and a maximum refund, while later administration expands
+automatic eligibility and preserves a reissue route. This is evidence of legal
+remedy design and reported distribution/acceptance stages, not proof that every
+eligible customer received money, recovered time, restored household room, or
+changed continued use, switching, trust, or renewal behavior. The difference
+between issued and accepted can reflect timing, unredeemed or voided payments,
+cohort composition, or payment-channel friction; it should not be interpreted
+as one uniform recovery rate. The next test is an authorized account-level or
+administrator follow-up through eligibility, notice, claim, payment receipt,
+amount, delay, reissue, continued use or exit, and later material or trust
+outcome.
+
+The newer [FTC Amazon Prime redress-route record](records/us-ftc-amazon-prime-redress-route-2025-2027.json)
+adds a later program-design and issuance stage. The September 2026 FTC update
+reports $845 million in aggregate redress issued by that point, a maximum of
+$200 per eligible consumer under the revised order, and automatic payment
+channels through mailed check, PayPal, or Venmo without a new claim form for
+future payments. The aggregate amount is not a consumer denominator, receipt
+rate, accepted amount, account correction, or restored household security;
+future payment stages were still scheduled. Automatic distribution can reduce
+claim-form burden while leaving notice, reachability, payment acceptance,
+subscription correction, continued use, switching, trust, and recovery open.
+This is a distinct remedy-design comparison with the earlier issued-versus-
+accepted record, not a replacement for account-level follow-up.
+
+## 12. Operating capability is increasingly observable before its social or strategic effect
+
+988 increased local crisis-line answer capacity without a detectable short-run
+population mortality change ([988 capacity](records/us-nber-988-crisis-line-capacity-mortality-2026.json)).
+NATO ISR recorded flight hours, intelligence products, and decision-support use
+without an attributed deterrent effect ([NATO ISR operations](records/us-nato-nisrf-agile-combat-employment-2026.json)).
+VA EHR deployment plans persist alongside unresolved user-readiness and
+operational-validation issues ([VA EHR modernization](records/us-gao-va-electronic-health-record-modernization-implementation-2026.json)).
+
+**Trend proposition:** operational metrics—connections, answers, deployments,
+hours, products, or users—are becoming more legible than the downstream
+outcomes they are meant to enable. They are meaningful realization evidence,
+not substitutes for a care, public-service, or strategic endpoint.  
+**Open link:** operating output → decision/service quality → individual or
+partner outcome → durability and legitimacy.
+
+The [USPS service-performance record](records/us-gao-usps-cost-cutting-service-performance-rural-2026.json)
+adds a public-network example in which financial-sustainability measures can
+change practical time and geographic access. GAO reports that USPS added one to
+two expected delivery days for some First-Class Mail products after shifting
+transport from air to ground, eliminated end-of-day or afternoon collection at
+more than 24,000 post offices located over 50 miles from a Regional Processing
+and Delivery Center, and has missed most lowered service-performance targets
+since fiscal year 2021. Oversight entities and stakeholders reported slower
+service and disproportionate rural effects. This is stronger than a planned
+cost-saving announcement because standards, operational changes, and target
+performance are visible, but it is not a household or business delivery-time
+panel, a quantified cost-savings estimate, a complaint rate, or a causal rural
+burden estimate. Product, route, customer reliance, digital substitution, and
+local processing differ; longer standards may reduce costs or improve financial
+sustainability, and not every customer experienced slower service. The next
+test is a named route and customer or business use through standard, collection,
+scan delivery, missed deadline, substitution, cost, complaint/correction,
+continued use, and exit.
+
+The [FEMA workforce and mission-readiness record](records/us-gao-fema-workforce-mission-readiness-2026.json)
+adds a federal public-capacity route from staffing to assistance access. GAO
+reports more than 4,300 FEMA separations in fiscal year 2025, reported loss of
+institutional knowledge, heavy deployment during Hurricanes Helene and Milton,
+only 4% of the incident-management workforce available after that deployment,
+and anticipated 2026 surge support below 2025 levels. It also reports long waits
+and unanswered calls for Texas flood survivors after reduced surge-support and
+call-center staffing. These observations support a capacity-to-access mechanism,
+but not a representative contact-failure rate, survivor-level causal wait time,
+denial, housing or income effect, or trust/political response. The next test is a
+named disaster or applicant route through staffing and demand, contact, notice,
+application, assistance receipt, repair or return, and later security, while
+retaining augmentation, call volume, and systems explanations as alternatives.
+
+The [defense-resource/procurement/capability bridge](records/us-defense-resource-procurement-capability-leverage-crosssource-2024-2026.json)
+extends the same realization clock across state power. SIPRI and IMF provide
+spending and conditional fiscal-tradeoff context; USAspending provides a
+bounded award/subaward structure; U.S. and Polish records add contract,
+production-capacity, financing, co-production, and acquisition stages. These
+are useful resource-to-capability observations, but unlike units and source
+methods must remain separate. Spending, a contract ceiling, a budget line,
+reported facility activity, or a co-production announcement is not accepted
+output, operational readiness, replaceability, public legitimacy, deterrence,
+or geopolitical leverage. The next valid unit is an identifier-bearing order
+or lot followed through obligation, production, delivery, acceptance, use,
+maintenance, substitute qualification, affected workers/communities, and
+observed external response.
+
+The [SIPRI military-expenditure record](records/us-sipri-military-expenditure-2025-state-capacity.json)
+provides the monetary and alliance-scale input to that realization clock. SIPRI
+estimates $2.887 trillion in global 2025 military expenditure, with U.S.
+spending estimated at $954 billion and down 7.5% in real terms, Chinese spending
+at $336 billion and up 7.4%, European spending up 14%, and NATO accounting for
+about 55% of global spending. These estimates make resource allocation,
+alliance burden, and possible social-spending trade-offs visible, but monetary
+spending is not procurement delivery, readiness, interoperability, deterrence,
+household incidence, or geopolitical leverage; country estimates, exchange
+rates, accounting, and aid treatment matter. The next test is one budget or
+procurement line through appropriation, contract, delivery, acceptance,
+readiness/use, supplier/work effects, public attribution, alliance response,
+and household or social-program incidence, preserving the 2025 data vintage.
+
+## 13. Informal support is functioning as a timed buffer, but it is not evenly available or automatically substitutable
+
+Young adults reported much greater outside-household expense help than older
+adults, while income volatility and bill difficulty remain uneven
+([SHED income volatility and support](records/us-federal-reserve-income-volatility-support-2025.json)).
+When EITC generosity reduced intensive care from adult daughters, the study did
+not observe replacement through financial transfers, other family care, or paid
+care ([EITC parent care](records/us-nber-eitc-parent-care-gap-2026.json)).
+Food, social, and care routes also depend on scheduling, transport, and
+availability rather than an abstract support label.
+
+**Trend proposition:** households increasingly bridge shocks through timed
+family, network, and unpaid-care arrangements, but that buffer has its own
+availability, burden, and replacement limits.  
+**Open link:** need → support request/receipt → time and financial transfer →
+care/food/work continuity → reciprocity, burden, and later security.
+
+The [SIPP childcare-work-hardship bridge](records/us-sipp-childcare-work-hardship-bridge-2024.json)
+adds a same-person transition surface to the care/time route. Among stable
+SNAP-status person pairs, the small subgroup reporting that childcare prevented
+work or additional work had higher following-month hardship point estimates
+than the corresponding no-prevention subgroup: within stable no-SNAP pairs,
+rent/mortgage hardship was 7.4% versus 4.9% and utility hardship 16.9% versus
+7.8%; within stable SNAP pairs, the estimates were 43.7% versus 12.0% for
+rent/mortgage hardship and 32.4% versus 19.4% for utility hardship. The
+no-SNAP prevention cell contains 71 valid pairs and the SNAP prevention cell
+23, with wide intervals, so the contrast is a bridge and prioritization signal,
+not a stable population rate or causal care effect. The annual fall
+work-prevention measure is attached to a December hardship observation; it does
+not identify the exact care event, quality or price of care, income change,
+benefit effect, substitution, or later recovery. Rent/mortgage and utility
+hardship also have separate valid universes. The next test is a dated
+household-care episode through care need and alternative, work prevention,
+income/benefit route, bill or housing hardship, substitution, support receipt,
+recovery, and later trust or political action.
+
+The [wildfire-smoke caregiving record](records/us-nber-wildfire-smoke-caregiving-mothers-employment-2026.json)
+adds an external-shock route into that care buffer. The NBER study uses
+plausibly exogenous wildfire-smoke variation to connect smoke exposure with
+school closures and student absenteeism, creating intermittent caregiving
+demand even where formal childcare exists. The reported pattern is a
+contemporaneous labor-market cost for mothers and a decline in maternal
+employment when caregiving shocks accumulate; employment losses were offset
+among mothers outside male-dominated industries, consistent with workplace
+tolerance moderating the cost of intermittent care demand. This is a useful
+bridge from environmental exposure to care time and work continuity, but not a
+complete household episode. The retained public abstract does not provide all
+sample restrictions, coefficients, household-income or hours effects, schedule
+control, childcare substitution, health, housing, or later recovery. Industry
+gender composition is a proxy for workplace tolerance, not a direct measure of
+employer policy or bargaining power, and formal childcare availability is not
+equivalent to replacement care during a school disruption. The next test is a
+mother-child-place episode through smoke exposure, closure/absence, care
+arrangement, work schedule and pay, employer accommodation, health, housing,
+and later employment or care continuity.
+
+The [family-care/public-capacity synthesis](records/us-aging-care-family-care-public-capacity-synthesis-2026.json)
+adds a wider institutional frame. GAO's kinship-family and assisted-living
+reviews, SIPP childcare/work screens, SHED adult-care reports, and ATUS diary
+contrasts show distributed care across relatives, paid providers, households,
+workers, and Medicaid programs. The surfaces differ in unit and clock: a
+population frame, state coverage/spending, conditional person records, survey
+reports, and diary-day time allocation. Together they support a mechanism in
+which public capacity and family capacity can coexist while private time,
+money, housing, and work costs remain uneven. They do not establish a common
+care-burden rate, verified support receipt, quality, health/school outcome,
+trust, political action, or same-family recovery.
+
+The [ATUS eldercare-roster record](records/us-atus-eldercare-roster-2024-2025.json)
+adds a relationship-and-place constraint to that distributed-care picture. Among
+ATUS provider respondents with at least one listed recipient, roughly 79% in both
+2024 and 2025 listed a non-household recipient, while roughly 21%–23% listed a
+household recipient; provider-level roster counts and recipient rows are kept
+separate. This makes care beyond co-residence visible, but annual samples are
+not a panel and do not measure distance, hours, burden, relationship quality,
+shared caregiving, paid substitution, schedule control, recipient outcome,
+recovery, trust, or political action. The next test is a family or care episode
+through recipient location and need, travel, hours, alternatives, paid/unpaid
+replacement, work and social time, support receipt, and later continuity.
+
+The [ATUS eldercare-provider-time record](records/us-atus-eldercare-provider-time-2024-2025.json)
+adds the diary-day currency to that relationship map. In the unstandardized
+2024 and 2025 annual samples, eldercare-provider respondents averaged about
+68.7 and 66.8 minutes of eldercare on the diary day, respectively, while
+nonprovider respondents are zero by construction. Providers also averaged more
+primary household work (142.6 versus 116.5 minutes in 2024; 136.6 versus 116.8
+in 2025), more travel (71.8 versus 63.7; 67.3 versus 61.4), and more primary
+care-for-people time (39.2 versus 31.6; 39.6 versus 30.0), but less primary paid
+work (179.8 versus 192.8; 172.9 versus 188.0) and less socializing/communicating
+(264.1 versus 275.4; 265.0 versus 278.1). Secondary childcare is also lower
+among providers (55.5 versus 80.7; 60.0 versus 75.3). These are separate
+activity currencies: they should not be summed into a burden score or read as
+evidence that eldercare caused a work or social-time loss. Provider status is
+defined by a linked roster record, the annual samples are not longitudinal, and
+the contrasts remain sensitive to age, employment, health, household
+composition, recipient needs, and diary-day composition. The linked standardized
+records therefore matter: basic age × sex × labor-force-status adjustment gives
+an eldercare contrast of about 64.2/64.0 minutes, while adding household-child
+status and broad education gives about 70.7/62.4, demonstrating composition
+sensitivity rather than a single stable effect. The next test is a dated care
+episode that follows which time currency is displaced or protected, who absorbs
+the work, whether schedule control or paid substitution changes, and whether
+continuity, health, recovery, trust, or political action follows.
+
+The [care/time/material/mobility bridge](records/us-care-time-material-mobility-crosssource-2022-2025.json)
+adds the place-and-movement surface: SIPP links child-care work prevention to
+following-month hardship in small conditional cells; SHED shows caregiver
+financial adaptations; ATUS shows care-time, paid-work, travel, and socializing
+contrasts; NHTS supplies urban/rural vehicle, work-trip, and shopping-trip
+context. These records support a recurring pattern in which care constraints
+are paid through several currencies—work opportunity, time, savings, household
+room, and mobility—rather than one burden channel. They are not a common
+care-burden index or causal care effect, and do not establish unmet care access,
+recovery, trust, political action, or a same-unit trigger-to-outcome path.
+
+The [SHED financial-path/health/care panel](records/us-shed-financial-path-health-care-2024-2025.json)
+adds an explicit same-respondent transition test. In the paired 2024–2025
+panel, financial worsening, stability, and improvement each contained mostly
+unchanged health paths, and adult-care entry occurred within all three financial
+paths. The result is analytically useful as a counterexample to a synchronized
+household-state story: financial improvement does not automatically produce
+health improvement, financial stability does not eliminate health worsening, and
+care entry cannot be assigned to financial deterioration from these descriptive
+tables. It does not measure care hours or intensity, verify a financial shock,
+identify the trigger, establish causality, or observe trust, political action,
+institutional remedy, or later security. The next test is a dated respondent or
+household episode linking the financial event and care responsibility to hours,
+health, work, support receipt, substitution, and later recovery.
+
+## 14. Aggregate averages increasingly hide opposed adaptation paths
+
+Among low-liquid-wealth consumers, 49% spent below and 51% above a modeled
+frictionless benchmark ([low-liquidity consumption wedges](records/us-nber-consumption-wedges-low-liquidity-2026.json)).
+Oregon Auto-IRA exposure was associated with more retirement and liquid-account
+ownership alongside more short-term card debt ([Auto-IRA balance sheet](records/us-nber-auto-ira-household-balance-sheets-2026.json)).
+Preserving a distressed homeowner's house raised housing wealth without raising
+consumption ([mortgage modification](records/us-nber-homeownership-loss-wealth-consumption-great-recession-2025.json)).
+
+**Trend proposition:** identical headline directions—more saving, more
+spending, more assets, or more assistance—can reflect opposing household
+positions and constraints. Distributional mechanisms need to be treated as
+their own evidence layer rather than inferred from an average effect.  
+**Open link:** starting liquidity/asset position → adaptation and debt route →
+short- and long-run consumption/security → later mobility or recovery.
+
+The [SIPP assistance/housing-pressure context screen](records/us-census-sipp-monthly-assistance-housing-pressure-context-2025.json)
+adds a month-ordered counterexample to a pooled assistance interpretation. In
+the streamed 2025 SIPP file, the monthly assistance field supports a descriptive
+next-month comparison: reported rent or mortgage difficulty was higher among
+month-t assistance-exposed pairs than unexposed pairs in the pooled screen, but
+the direction reversed among renters below twice the poverty line and differed
+again in higher resource bands. The assistance field is a combined
+clothing/housing-assistance measure, and the screen does not identify benefit
+amount, adequacy, application effort, landlord response, arrears, eviction,
+homelessness, or causality. Its value is methodological and distributional:
+assistance can coexist with pressure, and aggregate contrasts can conceal
+protective and adverse paths under different resource and tenure conditions.
+
+## 15. Unequal distribution becomes political or geopolitical meaning through attribution
+
+The cross-source evidence repeatedly separates an output from the way an
+affected person, community, institution, or partner interprets that output.
+Housing assistance, energy support, care, civic infrastructure, platform
+remedies, and public-safety response can be formally offered while receipt,
+adequacy, delay, burden, visibility, and alternatives differ. CIRCLE, CDC,
+ATUS, and SIPP records make support, participation, and next-period material
+conditions distinct; they do not identify a single household's attribution or
+later political judgment. The cultural source-led map similarly shows that
+hardship, fairness, belonging, trust, and action do not form one ladder.
+
+The state and geopolitical records have the same structure at a different
+scale. Allied agreements, staffing, exercises, ISR output, local security
+coordination, and an air-policing response can be visible operational stages;
+they are not automatically partner consent, public legitimacy, deterrence, or
+changed counterpart behavior. Official claims of unity or protection are
+observed interpretations by the reporting institution, not evidence that all
+audiences shared them.
+
+**Trend proposition:** distribution becomes meaning through the interaction of
+incidence, visibility, attribution, feasible alternatives, and response. The
+same capacity can be experienced as protection, extraction, abandonment,
+dependence, or solidarity by different actors. This is a comparative mechanism,
+not a pooled causal estimate.
+
+**Open link:** dated condition or operation → affected unit and burden →
+available explanation and alternatives → attribution and action/non-use →
+institutional or counterpart response → later trust, belonging, recovery,
+acceptance, resistance, or adaptation. Preserve whether the source measures
+reported interpretation, official framing, observed action, or an independently
+verified outcome.
+
+## Use boundary
+
+This portfolio is a synthesis of source-specific propositions. It is not a
+forecast, a common-rate estimate, or a claim that each pathway is rising at the
+same pace nationally. Each linked record supplies its own method, denominator,
+and counterinterpretation.

@@ -1,0 +1,61 @@
+{
+  "schema": "us-broad-macro-tensions-v1",
+  "checked": "2026-09-21",
+  "scope": "Fourteen-theme US societal, cultural, consumer, political, institutional, firm, infrastructure, and geopolitical atlas",
+  "interpretation": "Six organizing tensions summarize recurring measurement problems; they are not pooled causal effects or additional themes.",
+  "tensions": [
+    {
+      "id": "capacity_control",
+      "name": "Capacity versus control",
+      "themes": ["public_systems_feedback", "platforms_data_attention", "work_control_bargaining", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "political_judgment_action"],
+      "test": "Can the affected unit understand, contest, correct, and control the system or use a credible fallback?",
+      "evidence_boundary": "Formal capacity, completion, acceptance, or operation is not user control or leverage."
+    },
+    {
+      "id": "offer_usability",
+      "name": "Offer versus usability",
+      "themes": ["consumer_power_recourse", "work_control_bargaining", "care_health_reproduction", "housing_place_mobility", "time_hidden_price"],
+      "test": "Can the same unit reach and use the option under its money, time, health, transport, safety, status, and schedule constraints?",
+      "evidence_boundary": "A nominal alternative is not practical choice until access, use, adequacy, and durability are observed."
+    },
+    {
+      "id": "correction_contestability",
+      "name": "Correction versus contestability",
+      "themes": ["public_systems_feedback", "care_health_reproduction", "consumer_power_recourse", "work_control_bargaining", "unequal_exposure_status", "political_judgment_action"],
+      "test": "Who knew, could appeal, had help and documents, and could persist long enough to reach correction?",
+      "evidence_boundary": "Success among appeals or approved claims is not a correction rate for all affected units; non-appeal is not acceptance."
+    },
+    {
+      "id": "support_burden_transfer",
+      "name": "Support versus burden transfer",
+      "themes": ["care_health_reproduction", "time_hidden_price", "household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+      "test": "Who performs the hidden work, absorbs delay, or carries residual risk when formal support is insufficient?",
+      "evidence_boundary": "Help can protect one currency while transferring cost into unpaid time, stigma, money, coordination, or helper strain."
+    },
+    {
+      "id": "recovery_durability",
+      "name": "Recovery versus durability",
+      "themes": ["consumer_power_recourse", "housing_place_mobility", "work_control_bargaining", "infrastructure_technology_dependency", "geopolitical_state_consequences", "household_room_consumption"],
+      "test": "Did receipt, repair, reactivation, credit, return, or operation remain adequate and protective over time?",
+      "evidence_boundary": "An immediate or reported improvement is not durable recovery without recurrence, continuity, and later security checks."
+    },
+    {
+      "id": "dependence_exit",
+      "name": "Dependence versus exit",
+      "themes": ["consumer_power_recourse", "platforms_data_attention", "work_control_bargaining", "firm_sector_market_power", "housing_place_mobility", "trust_identity_meaning", "political_judgment_action", "geopolitical_state_consequences"],
+      "test": "What alternative existed, what would leaving cost, and what did the unit protect or sacrifice by staying?",
+      "evidence_boundary": "Continued use, non-use, closure, program exit, or firm exit is not automatically free choice or improved security."
+    }
+  ],
+  "end_to_end_sequence": [
+    "condition_or_capability",
+    "notice_and_route",
+    "feasible_alternative_or_non_use",
+    "money_time_status_control_tradeoff",
+    "institutional_firm_or_state_response",
+    "actual_receipt_use_or_operation",
+    "adequacy_and_durability",
+    "meaning_trust_action_switching_exit_or_leverage"
+  ],
+  "source_note": "The register is a synthesis control. It does not convert the 14 theme units, 97 event ledgers, or 385 trend records into one common denominator."
+}

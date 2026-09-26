@@ -1,6 +1,6 @@
 # Trend-record metadata coverage audit v1
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-25
 **Status:** control report; not a substantive finding
 
 This audit distinguishes the fields required for promotion from useful
@@ -8,31 +8,31 @@ context fields that are not present in every record. A passing trend-record
 validator proves structural validity; this report shows where provenance
 and contextual depth are stronger or thinner across the atlas.
 
-- Trend records: **343**
-- Observations: **1213**
-- Distinct observation source URLs: **399**
+- Trend records: **861**
+- Observations: **1970**
+- Distinct observation source URLs: **959**
 
 ## Required-field coverage
 
 | Level | Field | Present | Coverage |
 |---|---|---:|---:|
-| record | `trend_id` | 343 | 100.0% |
-| record | `title` | 343 | 100.0% |
-| record | `theme_ids` | 343 | 100.0% |
-| record | `program_theme_ids` | 343 | 100.0% |
-| record | `source_unit` | 343 | 100.0% |
-| record | `geography` | 343 | 100.0% |
-| record | `observations` | 343 | 100.0% |
-| record | `boundary` | 343 | 100.0% |
-| observation | `period` | 1213 | 100.0% |
-| observation | `denominator` | 1213 | 100.0% |
-| observation | `measures` | 1213 | 100.0% |
-| observation | `method` | 1213 | 100.0% |
-| observation | `uncertainty` | 1213 | 100.0% |
-| observation | `subgroup` | 1213 | 100.0% |
-| observation | `counterinterpretation` | 1213 | 100.0% |
-| observation | `source_url` | 1213 | 100.0% |
-| observation | `retrieval_hash` | 1213 | 100.0% |
+| record | `trend_id` | 861 | 100.0% |
+| record | `title` | 861 | 100.0% |
+| record | `theme_ids` | 861 | 100.0% |
+| record | `program_theme_ids` | 861 | 100.0% |
+| record | `source_unit` | 861 | 100.0% |
+| record | `geography` | 861 | 100.0% |
+| record | `observations` | 861 | 100.0% |
+| record | `boundary` | 861 | 100.0% |
+| observation | `period` | 1970 | 100.0% |
+| observation | `denominator` | 1970 | 100.0% |
+| observation | `measures` | 1970 | 100.0% |
+| observation | `method` | 1970 | 100.0% |
+| observation | `uncertainty` | 1970 | 100.0% |
+| observation | `subgroup` | 1970 | 100.0% |
+| observation | `counterinterpretation` | 1970 | 100.0% |
+| observation | `source_url` | 1970 | 100.0% |
+| observation | `retrieval_hash` | 1970 | 100.0% |
 
 ## Context-field coverage
 
@@ -42,26 +42,26 @@ is not converted into a zero or a stronger causal claim.
 
 | Level | Field | Present | Coverage |
 |---|---|---:|---:|
-| record | `related_sources` | 283 | 82.5% |
-| record | `retrieval_hash` | 33 | 9.6% |
-| record | `reproduction_audit` | 57 | 16.6% |
-| observation | `comparison_source_url` | 13 | 1.1% |
-| observation | `universe_note` | 6 | 0.5% |
+| record | `related_sources` | 727 | 84.4% |
+| record | `retrieval_hash` | 160 | 18.6% |
+| record | `reproduction_audit` | 220 | 25.6% |
+| observation | `comparison_source_url` | 15 | 0.8% |
+| observation | `universe_note` | 6 | 0.3% |
 
 ## Observation status
 
 | Status | Observations |
 |---|---:|
-| `compared` | 494 |
-| `estimated` | 184 |
-| `inferred` | 8 |
-| `observed` | 84 |
+| `compared` | 516 |
+| `estimated` | 276 |
+| `inferred` | 10 |
+| `observed` | 92 |
 | `open` | 12 |
-| `reported` | 431 |
+| `reported` | 1064 |
 
 ## Interpretation and next control
 
-All 1213 observations are expected to carry the required
+All 1970 observations are expected to carry the required
 period, denominator, measures, method, uncertainty, subgroup,
 counterinterpretation, source URL, and retrieval hash fields. Record-level
 related sources and reproduction audits are uneven by design: older or

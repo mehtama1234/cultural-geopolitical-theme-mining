@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-medicare-partd-premium-stabilization-2026",
+  "title": "Premium stabilization can preserve enrollment while shifting risk and leaving the causal effect open",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office review of CMS's 2025 Medicare Part D Premium Stabilization Demonstration",
+  "geography": "United States Medicare Part D standalone prescription-drug plans; 2024-2025 with demonstration cost estimates for 2025-2026",
+  "observations": [
+    {
+      "period": "2024-2025; standalone Part D plans without low-income subsidy beneficiaries",
+      "denominator": {"value": 1, "unit": "CMS-weighted beneficiaries in standalone Part D plans who were not eligible for the low-income subsidy", "value_type": "source_defined_analysis_universe"},
+      "measures": {
+        "projected_no_demo_premium": {"value": "average monthly premium would have nearly doubled if beneficiaries stayed in their 2024 plan; 37% would have faced increases over $40", "unit": "projected premium change absent demonstration", "value_type": "reported_estimate"},
+        "observed_average_premium": {"value": "increased from $42 in 2024 to $43 in 2025 under the demonstration", "unit": "average monthly premium", "value_type": "reported_average"},
+        "enrollment": {"value": "increased 2% from 2024 to 2025; standalone plans remained 42% of all Part D enrollment", "unit": "enrollment change and share", "value_type": "reported_share"}
+      },
+      "method": "GAO analysis of CMS premium and enrollment data, review of demonstration documents, and interviews with CMS, ASPE, plan sponsors, and beneficiary organizations.",
+      "uncertainty": "The projected no-demonstration premium is a modeled comparison, and observed premium and enrollment changes may reflect other Part D benefit changes; a causal evaluation remains necessary.",
+      "subgroup": "Beneficiaries in standalone Part D plans who were not eligible for the low-income subsidy and therefore paid plan premiums.",
+      "counterinterpretation": "Stable premiums and enrollment can indicate meaningful protection even without a completed causal evaluation; other plan or benefit changes may also have contributed.",
+      "source_url": "https://www.gao.gov/products/gao-26-107935",
+      "retrieval_hash": "sha256:ab673179ec6c8dc053cd89781a24d98a2221962448bd0cd65fac371aea0594d4",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; Premium Stabilization Demonstration financing",
+      "denominator": {"value": 1, "unit": "CMS demonstration", "value_type": "named_program_case"},
+      "measures": {
+        "beneficiary_reduction": {"value": "CMS reduced beneficiary premiums by up to $15 in 2025 and limited plan increases to $35", "unit": "premium stabilization rule", "value_type": "reported_rule"},
+        "federal_cost": {"value": 9800000000, "unit": "dollars estimated for the demonstration in 2025 and 2026", "value_type": "agency_estimate"},
+        "risk_shift": {"value": "Medicare subsidized premiums and provided additional protection to plan sponsors", "unit": "public-private risk allocation", "value_type": "reported_status"},
+        "medication_access": {"value": "disruption to medication access was a projected risk from enrollment changes, not an observed outcome in this review", "unit": "unmeasured endpoint", "value_type": "unmeasured"}
+      },
+      "method": "GAO review of CMS implementation documents, cost estimates, and evaluation plans.",
+      "uncertainty": "The estimate does not show net public cost after avoided medical spending, nor does it establish medication adherence or health effects.",
+      "subgroup": "Medicare beneficiaries, plan sponsors, and federal taxpayers affected by standalone Part D premium stabilization.",
+      "counterinterpretation": "Public risk-taking may be justified if it prevents harmful plan switching or medication disruption; that tradeoff requires the planned evaluation.",
+      "source_url": "https://www.gao.gov/products/gao-26-107935",
+      "retrieval_hash": "sha256:ab673179ec6c8dc053cd89781a24d98a2221962448bd0cd65fac371aea0594d4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures projected and observed Part D premiums, enrollment, demonstration rules, and estimated public cost. It does not establish medication adherence, health outcomes, household net relief, plan quality, or the demonstration's isolated causal effect.",
+  "retrieval_hash": "sha256:ab673179ec6c8dc053cd89781a24d98a2221962448bd0cd65fac371aea0594d4"
+}

@@ -1,6 +1,6 @@
 # Health cost to household choice: end-to-end status matrix v1
 
-**Checked:** 2026-09-16
+**Checked:** 2026-09-19
 **Purpose:** operationalize the project’s long-form end-to-end goal without
 collapsing incompatible sources into one causal estimate
 
@@ -68,6 +68,23 @@ The [CFPB 2025 medical-debt visibility layer](cfpb-2025-medical-debt-visibility-
 adds a bounded observed category within that route: 8,861 published records
 are coded `Debt collection -> Medical debt` in the 2025 aggregate snapshot.
 The count is not a debt prevalence, complaint incidence, or remedy estimate.
+
+## Recovery vocabulary carried into the health-cost lane
+
+The program-wide recovery ladder applies here without treating unlike sources
+as one episode:
+
+```text
+formal response: offered / ordered / approved / reported delivered
+lived response: received / usable / adequate / durable / trusted
+```
+
+For health costs, a refund, coverage approval, debt relief, complaint answer,
+or provider correction is not automatically restored treatment continuity,
+financial room, work capacity, family-care capacity, or trust. The next
+same-unit episode must identify which need was protected, which cost was
+shifted, and whether the person could continue care, appeal, switch provider,
+or go without.
 
 ## Current strongest findings
 

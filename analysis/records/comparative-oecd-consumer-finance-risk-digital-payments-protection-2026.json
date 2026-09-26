@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-consumer-finance-risk-digital-payments-protection-2026",
+  "title": "Digital finance is widening access while scams, wallets, payment products, and complaint routing become central consumer-protection risks",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "OECD, Consumer Finance Risk Monitor 2026",
+  "geography": "Financial consumer-protection authorities and financial-services markets across 60 jurisdictions, including banking, payments, credit, insurance, investment, and pensions",
+  "observations": [
+    {
+      "period": "2025-2026; jurisdiction-level consumer-finance risk assessment",
+      "denominator": {
+        "value": 60,
+        "unit": "jurisdictions represented by 107 government ministries and financial authorities in the OECD reporting exercise",
+        "value_type": "jurisdiction_policy_assessment_frame"
+      },
+      "measures": {
+        "top_operating_environment_risk": {"value": "financial scams and frauds", "unit": "risk ranked highest by responding authorities for financial consumers in 2025", "value_type": "reported_authority_ranking"},
+        "low_middle_income_scam_risk_share": {"value": 84, "unit": "percent of low- and middle-income jurisdiction responses identifying financial scams and frauds as a significant operating-environment risk", "value_type": "reported_jurisdiction_share"},
+        "high_income_scam_risk_share": {"value": 85, "unit": "percent of high-income jurisdiction responses identifying financial scams and frauds as a significant operating-environment risk", "value_type": "reported_jurisdiction_share"},
+        "risk_categories": {"value": "operating environment, consumer demand-side circumstances, provider conduct, product sectors, scams/frauds, and complaints", "unit": "OECD monitoring architecture", "value_type": "reported_risk_taxonomy"}
+      },
+      "method": "OECD synthesis of a reporting template completed by financial consumer-protection ministries, regulators, and authorities, supplemented by secondary sources.",
+      "uncertainty": "The exercise captures authority assessments and selected secondary indicators, not a population prevalence estimate, consumer-level incidence rate, causal effect, or comparable administrative total across countries.",
+      "subgroup": "Financial consumer-protection authorities, banks, payment providers, insurers, credit firms, investment and pension providers, consumers, and vulnerable or digitally exposed groups.",
+      "counterinterpretation": "Higher authority attention can reflect stronger detection, reporting, and regulatory capacity rather than a uniformly higher underlying harm rate.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/consumer-finance-risk-monitor-2026_04395fbd/61f7dbe0-en.pdf",
+      "retrieval_hash": "sha256:2cc066e41270462d3c804fbd87969b2f0fbf2901fbf8a2cf423d249398eee5de",
+      "status": "reported"
+    },
+    {
+      "period": "2025; digital payments, scams, and fraud mechanisms",
+      "denominator": {
+        "value": 54,
+        "unit": "jurisdiction responses identifying significant scam or fraud types by number of people affected",
+        "value_type": "reported_jurisdiction_response_frame"
+      },
+      "measures": {
+        "phishing_vishing_smishing": {"value": 83, "unit": "percent of applicable responses selecting phishing, vishing, or smishing for personal information among significant fraud types by people affected", "value_type": "reported_jurisdiction_share"},
+        "provider_impersonation": {"value": 78, "unit": "percent selecting fraudsters posing as banks, advisers, or financial providers among significant fraud types by people affected", "value_type": "reported_jurisdiction_share"},
+        "fake_payment_insurance_schemes": {"value": 67, "unit": "percent selecting fake payment, investment, or insurance schemes among significant fraud types by people affected", "value_type": "reported_jurisdiction_share"},
+        "digital_payment_scale": {"value": 26000000000000, "unit": "US dollars projected total digital-payment transaction value in 2026, more than", "value_type": "reported_global_projection"},
+        "reported_consumer_losses": {"value": 442000000000, "unit": "US dollars in estimated consumer losses from financial scams and frauds in 2025", "value_type": "secondary_global_estimate"}
+      },
+      "method": "OECD classification of fraud types and synthesis of authority-reported risk patterns, with secondary estimates for global digital-payment value and losses.",
+      "uncertainty": "The percentages describe authority selections, while the loss estimate is secondary and not a harmonized administrative count; neither establishes individual exposure, recovery, or causality.",
+      "subgroup": "Users of mobile banking, digital wallets, cards, push payments, cross-border transactions, and online financial platforms; providers, platforms, telecoms, and law enforcement.",
+      "counterinterpretation": "Digital channels can reduce access costs and expand inclusion; stronger authentication, reporting, and cross-sector controls can reduce harm without restricting legitimate use.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/consumer-finance-risk-monitor-2026_04395fbd/61f7dbe0-en.pdf",
+      "retrieval_hash": "sha256:2cc066e41270462d3c804fbd87969b2f0fbf2901fbf8a2cf423d249398eee5de",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; product-level detriment and unequal digital-finance exposure",
+      "denominator": {
+        "value": 50,
+        "unit": "jurisdiction responses assessing banking and payment products giving rise to consumer detriment",
+        "value_type": "reported_product_assessment_frame"
+      },
+      "measures": {
+        "mobile_banking_top_three": {"value": 50, "unit": "percent of applicable responses selecting mobile banking among the top three banking/payment products causing detriment in 2025", "value_type": "reported_jurisdiction_share"},
+        "transaction_accounts_top_three": {"value": 46, "unit": "percent selecting transaction accounts among the top three banking/payment products causing detriment in 2025", "value_type": "reported_jurisdiction_share"},
+        "digital_wallet_top_three": {"value": 34, "unit": "percent selecting digital wallets among the top three banking/payment products causing detriment in 2025", "value_type": "reported_jurisdiction_share"},
+        "debit_card_top_three": {"value": 34, "unit": "percent selecting debit cards among the top three banking/payment products causing detriment in 2025", "value_type": "reported_jurisdiction_share"},
+        "low_middle_income_mobile_banking": {"value": 57, "unit": "percent selecting mobile banking in low- and middle-income jurisdictions versus 44 percent in high-income jurisdictions", "value_type": "reported_income_group_comparison"},
+        "low_middle_income_wallet_debit": {"value": 48, "unit": "percent selecting each of digital wallets and debit cards in low- and middle-income jurisdictions versus 22 percent in high-income jurisdictions", "value_type": "reported_income_group_comparison"}
+      },
+      "method": "OECD comparison of authority assessments by financial-product sector and jurisdiction income group.",
+      "uncertainty": "Product rankings reflect domestic authority judgment and selected response denominators; they do not establish consumer-level harm, product quality, or a universal income-gradient mechanism.",
+      "subgroup": "High-income and low- or middle-income jurisdictions, mobile-banking users, wallet and debit-card users, providers, and supervisors.",
+      "counterinterpretation": "Higher concern in lower-income markets may reflect faster product expansion, different reporting capacity, or product mix rather than greater harm per user.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/consumer-finance-risk-monitor-2026_04395fbd/61f7dbe0-en.pdf",
+      "retrieval_hash": "sha256:2cc066e41270462d3c804fbd87969b2f0fbf2901fbf8a2cf423d249398eee5de",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; complaint routing, redress, and supervisory visibility",
+      "denominator": {
+        "value": 40,
+        "unit": "jurisdiction responses reporting trends in complaints received by supervisory authorities from 2024 to 2025",
+        "value_type": "reported_complaint_trend_frame"
+      },
+      "measures": {
+        "supervisory_complaint_increase": {"value": 70, "unit": "percent of reporting jurisdictions indicating higher complaint volumes received by supervisory authorities from 2024 to 2025, approximately", "value_type": "reported_jurisdiction_share"},
+        "firm_or_adr_complaint_increase": {"value": 50, "unit": "percent of reporting jurisdictions indicating higher total complaint volumes received by firms or alternative-dispute-resolution schemes from 2024 to 2025, approximately", "value_type": "reported_jurisdiction_share"},
+        "banking_complaint_subject": {"value": "scams and frauds were the most common subject across firms, ADR schemes, and supervisory authorities", "unit": "reported cross-recipient complaint pattern", "value_type": "reported_complaint_pattern"},
+        "complaint_boundary": {"value": "more complaints may mean more harm, better awareness, greater confidence in redress, or improved reporting", "unit": "reported interpretation boundary", "value_type": "reported_uncertainty"}
+      },
+      "method": "OECD comparison of aggregate complaint-volume direction and complaint subjects across firms, alternative dispute-resolution schemes, and supervisory authorities.",
+      "uncertainty": "Complaint data are not representative of all consumers; routing, reporting, awareness, and institutional confidence affect observed volumes, and complaint receipt does not prove remedy, adequacy, or recovery.",
+      "subgroup": "Consumers who complain, firms, ADR schemes, supervisory authorities, financial products, and people who do not or cannot use complaint channels.",
+      "counterinterpretation": "A rise in complaints directed to supervisors can indicate stronger institutional visibility and recourse rather than worsening product conduct alone.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/03/consumer-finance-risk-monitor-2026_04395fbd/61f7dbe0-en.pdf",
+      "retrieval_hash": "sha256:2cc066e41270462d3c804fbd87969b2f0fbf2901fbf8a2cf423d249398eee5de",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/61f7dbe0-en", "claim": "OECD publication identifier for Consumer Finance Risk Monitor 2026."},
+    {"source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/06/protecting-consumers-from-financial-scams-and-frauds_3887b249/d41817bb-en.pdf", "claim": "Related OECD report on fraud drivers, typology, protection, redress, reporting, literacy, and anti-fraud collaboration."}
+  ],
+  "boundary": "This record adds a consumer-finance market-to-protection route linking digital payments, fraud, product design, unequal exposure, complaint routing, supervision, and redress visibility. In this source, respondents are public authorities and ministries, not individual consumers; the record is not respondent-level household data, individual victimization, causal loss, completed remedy, or proof that complaint increases mean worsening harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Consumer Finance Risk Monitor 2026 PDF was reviewed; jurisdiction and authority methodology, scam risk, fraud typology, digital-payment exposure, product detriment, income-group contrasts, complaint routing, and interpretation boundaries were cross-checked.",
+    "source_url_sha256": "sha256:2cc066e41270462d3c804fbd87969b2f0fbf2901fbf8a2cf423d249398eee5de",
+    "checked": "2026-09-26"
+  }
+}

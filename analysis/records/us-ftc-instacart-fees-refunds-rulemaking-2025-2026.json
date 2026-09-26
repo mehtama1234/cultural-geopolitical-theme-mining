@@ -1,0 +1,42 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-instacart-fees-refunds-rulemaking-2025-2026",
+  "title": "A delivery platform's price and subscription design can turn convenience into a consumer-recourse problem",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "FTC Instacart enforcement settlement announcement, case materials, and later public-comment notice on online food-delivery fees",
+  "geography": "United States consumers using Instacart and the federal online food-delivery market",
+  "observations": [
+    {
+      "period": "December 2025 through April 2026; FTC Instacart settlement and subsequent online-food-delivery fee inquiry",
+      "denominator": {"value": 1, "unit": "named federal consumer-protection case and related rulemaking inquiry", "value_type": "institutional_case_count"},
+      "measures": {
+        "pricing_and_subscription_allegations": {"value": "FTC alleged that Instacart advertised free delivery while charging undisclosed service fees on some orders, automatically enrolled some free-trial users into paid Instacart+ memberships without express informed consent, and made cancellation or refund access difficult", "unit": "reported enforcement allegations", "value_type": "reported_allegation"},
+        "redress": {"value": 60000000, "unit": "US dollars in announced consumer refunds", "value_type": "reported_settlement_amount"},
+        "firm_change": {"value": "proposed order requires the company to stop the challenged practices and provide refunds to consumers charged for memberships without express informed consent", "unit": "reported enforcement remedy and conduct requirement", "value_type": "reported_remedy_route"},
+        "marketwide_followup": {"value": "FTC later sought public comment on disclosure, refundability, recipients, and consent for fees in online food and grocery delivery", "unit": "reported rulemaking inquiry", "value_type": "reported_policy_followup"},
+        "individual_recovery_and_behavior": {"value": "not observed", "unit": "missing customer-level refund receipt, amount, time cost, continued use, switching, trust, and grocery-cost outcome", "value_type": "unmeasured"}
+      },
+      "method": "Review of FTC case-page materials, settlement announcement, complaint summary, and subsequent public-comment notice; alleged practices, announced redress, conduct requirements, and marketwide inquiry are kept as separate stages.",
+      "uncertainty": "The FTC materials describe allegations and settlement terms, not a representative estimate of all Instacart users' experiences or a measured effect on grocery prices. The public record used here does not show how many consumers received refunds, the average amount, or whether behavior changed.",
+      "subgroup": "Consumers using Instacart delivery or Instacart+ trials and memberships, including consumers who sought refunds or encountered service fees; nonusers, merchants, shoppers, and consumers with different order patterns are not linked to the case outcome.",
+      "counterinterpretation": "Delivery platforms can provide valued convenience and some consumers may have understood or accepted the terms. A settlement can resolve legal exposure and change firm rules without showing that every charge was unwanted or that grocery delivery became cheaper afterward.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2025/12/instacart-pay-60-million-consumer-refunds-settle-ftc-lawsuit-over-allegations-it-engaged-deceptive",
+      "retrieval_hash": "sha256:fd2627f5229e93cdc4faaf16555ce01ad29dbb16a391f67d98eb7512b4e222d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/04/ftc-seeks-public-comment-unfair-deceptive-fee-practices-online-food-grocery-delivery-services", "claim": "FTC's later public-comment notice extends the case from one firm to marketwide online food and grocery delivery fee practices.", "status": "official-policy-followup"},
+    {"source_url": "https://search.ftc.gov/legal-library/browse/cases-proceedings/instacart", "claim": "FTC case page records the settlement amount, proposed conduct requirements, and timeline materials.", "status": "official-case-context"}
+  ],
+  "boundary": "This record measures an enforcement allegation, announced redress, firm conduct requirements, and a later marketwide fee inquiry. It does not establish an all-user harm rate, individual refund receipt, lower grocery costs, continued use, switching, or durable consumer trust."
+}

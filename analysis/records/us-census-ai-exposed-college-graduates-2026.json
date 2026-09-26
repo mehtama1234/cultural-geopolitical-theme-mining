@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ai-exposed-college-graduates-2026",
+  "title": "AI-exposed college majors face a weaker and lower-paid first step into work",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "platforms_data_attention"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using administrative records on college graduates and major-level labor-market AI exposure",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Post-ChatGPT labor-market entry; paper published September 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined graduate and major-exposure groups; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "initial_employment_change": {
+          "value": -5,
+          "unit": "percentage points for the most AI-exposed decile of majors",
+          "value_type": "regression_adjusted_estimate"
+        },
+        "full_quarter_initial_earnings_change": {
+          "value": -13,
+          "unit": "percent for the most AI-exposed decile of majors",
+          "value_type": "regression_adjusted_estimate"
+        },
+        "earnings_pathway": {
+          "value": "about half of the decline came from lower earnings within sectors and the remainder from shifting toward lower-wage sectors such as restaurants and retail",
+          "unit": "reported decomposition of initial earnings change",
+          "value_type": "reported_decomposition"
+        },
+        "later_path": {
+          "value": "effects attenuated farther from labor-market entry but remained substantial for the most exposed majors",
+          "unit": "reported trajectory",
+          "value_type": "reported_trend"
+        }
+      },
+      "method": "Census CES working paper using administrative records on college graduates, major-level measures of labor-market AI exposure, and regression-adjusted comparisons before and after large language models became available. The paper studies employment, earnings, and job switching around the introduction of ChatGPT.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not provide all sample construction, exposure-measure, specification, or subgroup details. The estimates identify divergence associated with the study design; they do not by themselves establish that ChatGPT caused every affected outcome or identify each graduate's experience.",
+      "subgroup": "College graduates, compared by major-level labor-market AI exposure; the key reported comparison is the most exposed decile versus less-exposed majors.",
+      "counterinterpretation": "The pattern could reflect broader post-2022 sector demand, occupation or major selection, hiring freezes, macroeconomic changes, or how AI exposure is measured, in addition to AI-related changes in employer demand. Lower initial earnings can later recover and do not establish lifetime earnings, household security, job quality, or worker bargaining power.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-56.html",
+      "retrieval_hash": "sha256:f55e625f02839e4870413f182e8c050d1391ff36a4d19dca813eb30f4f4d1ed4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/topics/research/library/working-papers.html",
+      "claim": "The Census working-paper catalog identifies the paper as a September 2026 working paper and summarizes its initial employment and earnings estimates.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a bounded entry-to-work and early-earnings result for AI-exposed college majors. It does not establish permanent job displacement, a causal effect for every graduate, lifetime earnings, household wellbeing, political response, or whether education remains valuable over the full career.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official working-paper catalog reviewed; underlying restricted administrative records are not retained",
+    "checked": "2026-09-22"
+  }
+}

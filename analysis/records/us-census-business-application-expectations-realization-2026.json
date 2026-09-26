@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-business-application-expectations-realization-2026",
+  "title": "Business applications overstate entry overall while successful entrants often understate their first-year employment",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper linking administrative records on 17 million U.S. business applications to realized business outcomes",
+  "geography": "United States business applications and local economic conditions",
+  "observations": [
+    {
+      "period": "Business applications and near-term outcomes; paper published February 2026",
+      "denominator": {
+        "value": 17000000,
+        "unit": "U.S. business applications in the study's administrative linked data",
+        "value_type": "reported_study_scale"
+      },
+      "measures": {
+        "overall_entry_expectation": {
+          "value": "applicants overestimate employment on average, mainly because many expect to enter but do not",
+          "unit": "reported expectation-versus-realization pattern",
+          "value_type": "reported_comparison"
+        },
+        "successful_entry_employment_expectation": {
+          "value": "among applicants who expect and achieve entry, expected employment is typically below realized employment",
+          "unit": "reported conditional expectation error",
+          "value_type": "reported_comparison"
+        },
+        "expectation_prediction": {
+          "value": "expected employment predicts both entry and realized employment",
+          "unit": "reported predictive relationship",
+          "value_type": "reported_relationship"
+        },
+        "conditional_scaling": {
+          "value": "conditional on entry, realized employment rises less than one-for-one with expectations",
+          "unit": "reported conditional relationship",
+          "value_type": "reported_relationship"
+        },
+        "heterogeneity": {
+          "value": "expectation errors vary systematically with application characteristics and local economic conditions and predict near-term employment outcomes",
+          "unit": "reported heterogeneity and prediction pattern",
+          "value_type": "reported_relationship"
+        }
+      },
+      "method": "Census CES working paper linking administrative records on 17 million business applications to entry and first-year employment outcomes, comparing applicants' expectations with realizations and using a model with heterogeneous priors, learning, and pre-entry selection.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full application questions, sample construction, entry definition, expectation horizon, local controls, or estimates. The model rationalizes the patterns but does not by itself identify one psychological mechanism or establish business survival, household welfare, or firm quality.",
+      "subgroup": "Potential business entrants in the linked application data, separated by expected entry, realized entry, expected employment, application characteristics, and local economic conditions.",
+      "counterinterpretation": "Expectation gaps can reflect uncertainty, strategic reporting, changing plans, application form behavior, financing or permitting barriers, local demand, selection into entry, or learning rather than simple optimism or error. A prediction of near-term employment does not prove business quality, durable survival, worker conditions, or community benefit.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-11.html",
+      "retrieval_hash": "sha256:8daba7992e6e539ed6807f74ce66c003641850426a6cf999ab7c367350f72268",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1396",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the application-to-outcome expectation results.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-11.pdf",
+      "claim": "The official paper PDF provides the 17-million-application study context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded expectations-to-business-entry and first-year-employment pathway. It does not establish why applicants mispredict, business quality or survival, worker outcomes, household welfare, or local economic causality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-11 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying administrative application records are not retained",
+    "checked": "2026-09-22"
+  }
+}

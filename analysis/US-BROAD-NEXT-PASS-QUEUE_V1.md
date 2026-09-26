@@ -1,8 +1,5643 @@
 # US broad program next-pass queue v1
 
-**Checked:** 2026-09-18
+**Planetary-health-and-consumption rotation — 2026-09-26:** the [UNEP Global
+Environment Outlook 7 record](records/comparative-unep-global-environment-outlook-7-climate-nature-pollution-consumption.json)
+adds a systems route across climate, biodiversity, land, pollution, food,
+energy, materials, health, poverty, finance, production, consumption, and
+governance. It uses a global scientific assessment and scenarios, not household
+environmental behavior, causal policy estimates, or a deterministic forecast.
+The next test joins environmental exposure, prices, infrastructure, lifestyles,
+health, distribution, public finance, and transformation capacity.
+
+**Freedom-and-civic-space rotation — 2026-09-26:** the [Freedom House Freedom
+in the World 2026 record](records/comparative-freedom-house-freedom-world-2026-political-rights-civil-liberties.json)
+adds an independent political-rights and civil-liberties lens alongside IDEA.
+It links freedom decline to conflict, coups, institutional erosion, media and
+expression, due process, and reform resilience across 208 countries and
+territories. It uses an expert-coded index, not respondent-level rights
+histories, individual political attitudes, or causal repression estimates. The
+next test joins civic space, information, justice, elections, conflict, and
+institutional reversal.
+
+**Democracy-under-conflict rotation — 2026-09-26:** the [International IDEA
+Global State of Democracy 2026 record](records/comparative-idea-global-state-democracy-2026-conflict-rights-rule-of-law.json)
+adds a democracy-to-security route across representation, rights, rule of law,
+participation, institutional checks, and conflict conditions in 173 countries.
+It uses country-level indices and comparative report analysis, not
+respondent-level political attitudes, individual voting histories, or causal
+conflict forecasts. The next test joins elections, legislative oversight,
+expression, justice, civic mobilization, executive power, and violent conflict.
+
+**Social-justice-and-fair-transitions rotation — 2026-09-26:** the [ILO State
+of Social Justice 2025 record](records/comparative-ilo-state-social-justice-2025-rights-informality-transitions.json)
+adds a rights-to-lived-outcomes route across poverty, informality, wealth and
+income concentration, collective bargaining, institutional trust, and climate,
+technology, and demographic transitions. It uses global indicators and a
+report-level qualitative synthesis from 17 countries, not respondent-level
+interview analysis, worker histories, or causal institutional estimates. The
+next test joins formal rights, enforcement, bargaining, social protection, and
+transition implementation.
+
+**Connectivity-to-resilience rotation — 2026-09-26:** the [World Bank Global
+Findex 2025 record](records/comparative-world-bank-global-findex-2025-connectivity-financial-resilience.json)
+adds a financial-access route linking mobile ownership, accounts, payments,
+saving, borrowing, digital safety, gender and income gaps, and financial
+resilience across 141 economies. It uses aggregate nationally representative
+survey findings, not respondent-level transaction analysis, causal welfare
+estimates, or a claim that digital finance automatically improves household
+security. The next test joins devices, identity, affordability, payments,
+saving, consumer protection, public transfers, and shock recovery.
+
+**Global-risk-perception rotation — 2026-09-26:** the [WEF Global Risks Report
+2026 record](records/comparative-wef-global-risks-2026-geoeconomic-polarization-disinformation.json)
+adds an institutional framing route across geoeconomic confrontation,
+state-based conflict, inequality, polarization, disinformation, technology,
+climate, and demographic change. It uses aggregate expert and business-leader
+risk perceptions, not individual respondent attitudes, incident records,
+objective probabilities, or causal forecasts. The next test joins geopolitical
+threat framing, trade and supply shocks, information environments, public trust,
+and preparedness.
+
+**Cross-SDG gender-inequality rotation — 2026-09-26:** the [UN Women and UN
+DESA Gender Snapshot 2025 record](records/comparative-un-women-desa-gender-snapshot-2025-poverty-conflict-digital-power.json)
+adds a structural route across poverty, conflict exposure, food insecurity,
+digital inclusion, care, work, rights, and institutional power. It complements
+the WEF parity index with SDG-wide scenario and implementation evidence. These
+are aggregate indicators and modeled scenarios, not respondent-level analysis,
+household microdata, or causal estimates of a single intervention. The next
+test joins gendered exposure, infrastructure, care, public finance, conflict,
+representation, and implementation capacity.
+
+**Child-platform-time-and-consumption rotation — 2026-09-26:** the [Ofcom
+Online Nation 2025 record](records/comparative-ofcom-online-nation-2025-children-platform-time-safety-consumption.json)
+adds a child-focused platform route. It connects daily and late-night platform
+time, harmful-content exposure, reporting/blocking responses, online spending,
+influencer and game prompts, and purchase regret. These are publication
+aggregates, not child-level respondent analysis or device telemetry. The next
+test joins family routines, sleep, safety design, consumer protection, digital
+literacy, and children’s agency.
+
+**Gender-parity-and-AI-capital rotation — 2026-09-26:** the [WEF Global Gender
+Gap 2026 record](records/comparative-wef-global-gender-gap-2026-leadership-ai-capital.json)
+adds a cross-cutting gender-and-transition route. It connects labor and
+political parity, leadership pipelines, AI-related roles, financial-market
+representation, and future-of-work change. These are index and publication
+aggregates, not respondent-level or firm-level causal data. The next test joins
+care, skills, hiring, capital, technical work, leadership, and political power.
+
+**Socioeconomic-voice-and-trust rotation — 2026-09-26:** the [OECD trust and
+political-agency record](records/comparative-oecd-trust-public-institutions-2026-agency-socioeconomic-ai.json)
+adds a public-institutions middle route. It connects partisan trust gaps,
+financial and discrimination-related inequality, interpersonal trust, perceived
+voice, public-sector AI, and institutional legitimacy. These are published
+cross-country survey aggregates, not respondent-level analysis. The next test
+joins socioeconomic exposure, service encounters, political participation,
+responsiveness, and trust without treating trust as a simple attitude endpoint.
+
+**Online-literacy-and-attention rotation — 2026-09-26:** the [Ofcom adult
+media-use record](records/comparative-ofcom-adults-media-use-attention-literacy-2026.json)
+adds a platform middle beyond reach and news choice. It connects confidence
+with demonstrated media-literacy ability, passive participation, screen-time
+pressure, online well-being, harms, and digital exclusion. These are aggregate
+survey and test summaries, not respondent-level analysis or telemetry. The next
+test joins platform design, household time, scam exposure, consumer choice,
+mental well-being, and public digital-literacy policy.
+
+**Civic-space-and-global-rules rotation — 2026-09-26:** the [CIVICUS State of
+Civil Society 2026 record](records/comparative-civicus-state-of-civil-society-2026-civic-space-global-governance.json)
+adds a geopolitical/state-response route. It connects shrinking civic space,
+funding pressure, AI governance, multilateral rules, repression, external
+accountability, and adaptive resistance. The source is explicitly
+advocacy-informed, not a neutral causal index; its findings are aggregate
+publication analysis, not respondent political-attitudes data. The next test
+joins civic-space conditions, state capacity, technology governance, alliances,
+and external response.
+
+**Digital-consumer-agency-and-redress rotation — 2026-09-26:** the [OECD
+digital-markets consumer-policy record](records/comparative-oecd-digital-markets-consumer-agency-enforcement-2026.json)
+adds the consumer-power middle. It connects personalized pricing,
+recommendations, interfaces, switching, consumer agency, competition, product
+safety, and coordinated enforcement. These are comparative policy findings,
+not individual complaint or purchase microdata. The next test joins platform
+conduct, consumer understanding, remedy access, firm incentives, and market
+power without treating transparency alone as effective choice.
+
+**Time-poverty-and-care-continuity rotation — 2026-09-26:** the [UN Women
+time-use and social-inequality record](records/comparative-un-women-time-use-social-inequality-2026.json)
+adds the missing social-reproduction route. It connects time poverty,
+multitasking, mobility, unpaid care, household composition, paid work, leisure,
+and policy measurement across ten countries. These are publication-level
+cross-country findings, not respondent-level time-diary analysis. The next test
+joins care services, leave, work schedules, household bargaining, rest, social
+participation, and well-being.
+
+**Platform-attention-and-civic-interpretation rotation — 2026-09-26:** the
+[Reuters Institute Digital News Report 2026 record](records/comparative-reuters-digital-news-report-2026-platform-attention-trust-action.json)
+adds the missing encounter-to-interpretation route. It tracks platform-led news
+discovery, incidental exposure, trust gaps, misinformation concern, age-based
+source changes, and AI news use. These are survey aggregates, not telemetry or
+individual political-action data. The next test joins exposure, attention,
+trust, identity, discussion, and collective action without assuming a causal
+effect from platform use alone.
+
+**Drug-market-and-public-health rotation — 2026-09-26:** the [UNODC World Drug
+Report 2026 record](records/comparative-unodc-world-drug-report-2026-markets-harm-treatment.json)
+adds a social-behavior and institutional-response route. It tracks illicit
+cultivation, mortality, toxicology, treatment coverage, referral pathways, and
+regional service inequality. These are aggregate reporting frames, not
+individual substance-use or respondent-level treatment records. The next test
+joins market change, stigma, prevention, care access, criminal-justice contact,
+and community harm without reducing the trend to consumption prevalence alone.
+
+**Poverty-and-protection rotation — 2026-09-26:** the [UN SDG 1 2026
+record](records/comparative-un-sdg1-2026-poverty-social-protection-cost-shocks.json)
+adds a current poverty-and-consumption route. It links extreme poverty,
+social-assistance coverage, aid flows, rising living costs, conflict, climate
+shocks, and statistical capacity. These are aggregate global indicators, not
+household panels or respondent-level consumption and benefit-take-up data. The
+next test joins prices, work, transfers, public services, buffers, and shock
+recovery without treating the poverty line as a complete welfare measure.
+
+**Creative-labor-and-skills rotation — 2026-09-26:** the [UNESCO creative
+industries skills-and-employment record](records/comparative-unesco-creative-industries-skills-employment-2026.json)
+adds a culture-to-work route. It connects creative-sector pay, informality,
+precarity, gender gaps, skills mismatch, curricula, microcredentials,
+technology, and inclusion. These are aggregate publication findings, not
+individual creator earnings or respondent-level survey data. The next test
+joins cultural production, platforms, training, labor protections, bargaining
+power, and sustainable creative livelihoods.
+
+**Institutional-justice-and-voice rotation — 2026-09-26:** the [UN SDG 16
+2026 record](records/comparative-un-sdg16-2026-institutions-justice-information-voice.json)
+adds an institutional-performance route. It tracks uneven progress in violence
+reduction, access to information, bribery exposure, independent human-rights
+institutions, and women’s and young people’s decision-making voice. These are
+aggregate global indicators, not respondent-level justice or political-attitudes
+data. The next test joins public-service delivery, civic space, enforcement,
+representation, trust, and lived access without collapsing legal adoption into
+effective institutional performance.
+
+**Spatial-opportunity rotation — 2026-09-26:** the [World Bank People, Jobs,
+and Places record](records/comparative-world-bank-people-jobs-places-2026-spatial-welfare-opportunity.json)
+adds a place-to-opportunity route. It connects geography, transport,
+infrastructure, safety, hazards, job access, welfare, mobility, local data, and
+place-sensitive policy. These are aggregate spatial and methodological findings,
+not household location panels or respondent-level microdata. The next test joins
+housing, travel time, services, local firms, worker access, migration, and
+neighborhood governance.
+
+**Fragility-to-poverty concentration rotation — 2026-09-26:** the [OECD States
+of Fragility 2025 record](records/comparative-oecd-states-fragility-2025-poverty-conflict-displacement.json)
+adds a state-capacity route. It tracks the concentration of extreme poverty,
+conflict, displacement, weak recovery, gender gaps, FDI scarcity, SDG failure,
+and policy-delivery constraints in high- and extreme-fragility contexts. These
+are aggregate context-level findings and projections, not household surveys or
+microdata. The next test joins conflict, institutions, services, finance,
+poverty, gender, displacement, and resilience.
+
+**Climate-to-firm performance rotation — 2026-09-26:** the [World Bank MENAAP
+climate-risk record](records/comparative-world-bank-menaap-firms-climate-heat-2026-sales-productivity-trade.json)
+adds a firm-and-worker climate route. It tracks heat exposure, sales,
+productivity, wages, smaller-firm finance, carbon-border measures, trade
+competitiveness, adaptation, and cooling opportunity. These are firm-level
+estimates and policy projections, not household heat-stress data or microdata.
+The next test joins temperature, sector, firm size, finance, energy, work
+conditions, trade rules, adaptation, and worker outcomes.
+
+**AI-market-structure rotation — 2026-09-26:** the [OECD Artificial
+Intelligence Markets 2026 record](records/comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage.json)
+adds a firm-power route. It distinguishes foundation-model dynamism from
+structural concentration in hardware and data, then follows effects through
+cost structures, strategic advantage, incumbent entrenchment, innovation, and
+competition oversight. These are aggregate policy findings, not firm-level
+market-share estimates or consumer microdata. The next test joins compute,
+data, models, applications, entry, interoperability, workers, consumers, and
+competition enforcement.
+
+**Generational-economy and hidden-care rotation — 2026-09-26:** the [UN DESA
+generational-economy record](records/comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity.json)
+adds a life-course accounting route. It connects paid production, public
+transfers, unpaid care, age structure, fiscal sustainability, social cohesion,
+and intergenerational equity. It uses aggregate accounting and policy evidence,
+not respondent-level time-use analysis or individual care trajectories. The next
+test joins care time, taxes, transfers, pensions, health, education, household
+support, gender, and fiscal planning.
+
+**Acute-food-crisis rotation — 2026-09-26:** the [FAO-WFP Global Report on
+Food Crises 2026 record](records/comparative-fao-wfp-global-food-crises-2026-conflict-funding-displacement.json)
+adds a crisis-escalation route distinct from healthy-diet affordability. It
+tracks acute hunger, conflict, displacement, climate shocks, famine risk,
+humanitarian access, data loss, funding, and prevention. These are aggregate
+crisis classifications and response signals, not individual consumption data or
+microdata. The next test joins conflict, markets, displacement, nutrition,
+agriculture, humanitarian access, financing, and resilience.
+
+**Democracy-to-results rotation — 2026-09-26:** the [UNDP Democracies Under
+Pressure 2026 record](records/comparative-undp-democracy-development-lac-2026-institutions-trust-pressure.json)
+adds a regional institutional route. It follows electoral integrity,
+representation, state capacity, information, organized crime, mobility,
+planetary pressure, development, and trust. This uses aggregate report analysis
+only, not the report’s optional quiz or respondent data. The next test joins
+votes, institutional checks, public delivery, economic power, information,
+security, and legitimate results.
+
+**Housing, place, and urban-delivery rotation — 2026-09-26:** the [UN-Habitat
+World Cities Report 2026 record](records/comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery.json)
+adds a place-and-access route. It connects housing deficits, informality,
+eviction, displacement, liveability, urban services, climate plans, and
+multilevel delivery. These are global publication estimates and plan signals,
+not city-specific household outcomes or microdata. The next test joins land,
+tenure, rents, transport, service access, climate exposure, displacement, and
+local implementation.
+
+**Cultural-production and creative-economy rotation — 2026-09-26:** the
+[UNESCO Re|Shaping Policies for Creativity 2026 record](records/comparative-unesco-reshaping-policies-creativity-2026-cultural-economy-ai-mobility.json)
+adds a cultural-production route. It tracks the gap between cultural-policy
+commitments and specific action, cultural trade, digital creator income,
+generative-AI exposure, skills, artistic freedom, mobility, and institutional
+inclusion. These are aggregate publication indicators and projections, not
+individual creator outcomes or microdata. The next test joins platform control,
+licensing, skills, mobility, public support, creator bargaining, and audience
+access.
+
+**Political-voice and representation rotation — 2026-09-26:** the [IPU-UN
+Women Women in Politics 2026 record](records/comparative-ipu-un-women-politics-2026-representation-hostility-quotas.json)
+adds a political-participation route. It tracks women’s parliamentary and
+cabinet representation, executive leadership, parliamentary leadership,
+hostility, safety, elections, and quotas. These are aggregate institutional
+and published survey signals; no microdata analysis is undertaken. The next
+test joins electoral rules, party selection, safety, representation, agenda
+power, and policy outcomes.
+
+**Consumer-price and purchasing-power rotation — 2026-09-26:** the [OECD
+September 2026 Interim Economic Outlook record](records/comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room.json)
+adds a consumer/economic-behavior route. It links energy shocks to inflation,
+purchasing power, support design, energy-saving incentives, public finance, and
+AI-investment risk. Forecasts are not realized household outcomes, and this is
+not respondent-level consumer data. The next test joins price exposure, wages,
+substitution, support take-up, firms, and household room.
+
+**Health-workforce capacity rotation — 2026-09-26:** the [WHO National Health
+Workforce Accounts 2026 record](records/comparative-who-health-workforce-accounts-2026-ageing-shortage-distribution.json)
+adds a service-supply endpoint. WHO reports global workforce growth alongside
+large regional density gaps, worker aging, a projected 2030 shortage, and
+improved workforce-data systems. These are aggregate workforce and planning
+signals, not patient or worker respondent data, realized vacancies, or care
+quality estimates. The next test joins demographics, training, migration,
+retention, geography, service access, and care outcomes.
+
+**Care-financing and aging rotation — 2026-09-26:** the [OECD Financing of
+Social Protection record](records/comparative-oecd-financing-social-protection-2026-ageing-work-care.json)
+adds a social-reproduction and public-finance route. It connects aging,
+pensions, health, long-term care, labor income, self-employment, technology,
+tax bases, and benefit coverage. This is comparative publication evidence, not
+respondent-level household data or an individual care trajectory. The next test
+joins work form, caregiving, contribution records, service access, public
+budgets, firms, and household room.
+
+**Education and digital-learning rotation — 2026-09-26:** the [OECD PISA 2025
+record](records/comparative-oecd-pisa-2025-future-ready-students-learning-digital-equity.json)
+adds a social-reproduction and institutional-capacity signal. It covers learning
+decline, socioeconomic gaps, school belonging, digital distraction, AI use, and
+computational problem solving across 91 systems. This is a published aggregate
+assessment synthesis; no PISA microdata or respondent-level analysis was
+undertaken. The next test joins education access, family and school resources,
+digital infrastructure, AI guidance, future work, and civic capability.
+
+**Work-inequality rotation — 2026-09-26:** the [ILO Inequalities in the World
+of Work record](records/comparative-ilo-inequalities-world-work-2026-formality-opportunity.json)
+adds a structural labor-market signal. It tracks earnings inequality through
+sector, formality, own-account work, demographic intersections, and inequality
+of opportunity. This uses the publication’s harmonized synthesis only; no new
+respondent-level analysis or microdata acquisition was undertaken. The next
+test joins employment form, sector, wages, protection, bargaining, household
+room, and formalization outcomes.
+
+**Macro-fiscal resilience rotation — 2026-09-26:** the [World Bank Global
+Economic Prospects June 2026 record](records/comparative-world-bank-global-economic-prospects-june-2026-fiscal-space-shocks.json)
+adds a fiscal-space and investment route. It links geopolitical energy shocks
+to growth, inflation, debt, borrowing costs, public budgets, firms,
+infrastructure, AI adoption, and jobs. Forecasts and downside scenarios are
+not realized outcomes, and this is publication-level evidence rather than
+respondent-level data. The next test joins shock exposure, fiscal buffers,
+social protection, private investment, firm constraints, and household room.
+
+**Trade-governance and fragmentation rotation — 2026-09-26:** the [WTO World
+Trade Report 2026 record](records/comparative-wto-world-trade-report-2026-fragmentation-flexibility-ai-services.json)
+adds a market-and-institutional route. The report connects dispersed economic
+power, regional and targeted agreements, geopolitical blocs, digital services,
+AI, and trade-rule flexibility. Its fragmentation figures are modeled
+scenarios, not forecasts or realized losses; the record is publication-level
+evidence, not firm respondent data. The next test joins trade rules, firm and
+sector exposure, prices, technology, bargaining power, development space, and
+geopolitical alignment.
+
+**Humanitarian-capacity rotation — 2026-09-26:** the [UNHCR Global Report
+2025 record](records/comparative-unhcr-global-report-2025-protection-capacity-funding-access.json)
+adds a distinct displacement-to-protection-capacity route. UNHCR reports that
+funding covered 37% of 2025 needs, available resources fell by $1.246 billion,
+and its workforce fell by more than 6,600 positions by January 2026. The report
+also tracks legal aid, work access, national systems, cash assistance,
+resettlement, and local integration. These are organizational and aggregate
+signals, not individual service receipt, respondent-level data, or proof of
+durable protection. The next test joins displacement, donor allocation,
+staffing, legal status, work access, host institutions, and durable outcomes.
+
+**Energy-policy implementation rotation — 2026-09-26:** the [IEA State of
+Energy Policy 2026 record](records/comparative-iea-state-energy-policy-2026-policy-adoption-resilience.json)
+adds a distinct policy-response route. The IEA tracks more than 6,500 measures
+across 84 countries and reports emergency reserves, demand restraint,
+affordability support, energy-access initiatives, regulatory rollbacks, and
+policies for renewables, electrification, and supply-chain resilience. The
+source shows government action and policy direction, not implementation quality,
+household take-up, consumer benefit, or respondent-level data. The next test
+joins geopolitical shock, public policy, fiscal targeting, energy access,
+regulation, firms, infrastructure, and distributional outcomes.
+
+**Geopolitical-shock and labor-transmission rotation — 2026-09-26:** the [ILO
+Employment and Social Trends: May 2026 Update record](records/comparative-ilo-middle-east-crisis-labour-remittance-energy-shock-2026.json)
+adds a shock-to-work-to-household route. Under an illustrative oil-price
+scenario, ILO projects global hours worked to fall 0.5% in 2026 and 1.1% in
+2027, equivalent to 14M and 38M full-time jobs, with real labor income down
+1.1% and 3.0%. Arab States and Asia-Pacific carry higher exposure through
+energy, transport, tourism, supply chains, migrant labor, and remittances. These
+are modeled and aggregate transmission signals, not worker or household
+respondent data or realized losses. The next test joins conflict, energy,
+transport, firms, sectors, hours, wages, migration, remittances, social
+protection, and household adaptation.
+
+**Integrated development-landscape rotation — 2026-09-26:** the [UNDP Trends
+Update 2026 record](records/comparative-undp-landscape-development-trends-multilateralism-conflict-distrust-2026.json)
+adds a cross-domain geopolitical and social connector. UNDP's 12-theme update
+links multilateral fracture, conflict cascades, digital/AI capacity, identity,
+debt, energy, migration, distrust, grievance, and civic action. It reports 59
+active state-based conflicts, 78 countries involved in conflicts beyond their
+borders, 2.2 billion people offline, and protest activity increasing in 88
+countries. This is a publication-level synthesis of source-specific aggregate
+indicators, not respondent-level data or a pooled causal model. The next test
+joins state action, resource allocation, infrastructure, identity, platforms,
+conflict exposure, civic voice, institutional response, and later adaptation.
+
+**Information-integrity and press-freedom rotation — 2026-09-26:** the [UNESCO
+World Trends in Freedom of Expression and Media Development record](records/comparative-unesco-world-trends-expression-media-information-integrity-2026.json)
+adds an information-as-public-good route. UNESCO reports a 10% global decline
+in its Freedom of Expression Index since 2012 and links journalism, institutional
+checks, platform governance, AI-generated content, journalist safety, climate
+information, and informed citizenship. This is global index and publication
+evidence, not individual media-use, persuasion, voting, or respondent data. The
+next test joins press freedom, ownership, platform distribution, AI mediation,
+moderation, journalist safety, public access, local news, trust, institutional
+accountability, and civic action.
+
+**Public-institutions and procurement-market rotation — 2026-09-26:** the [World Bank
+Institutions and Prosperity record](records/comparative-world-bank-public-institutions-procurement-regulation-private-sector-2026.json)
+adds a public-rule-to-firm-outcome route. The report links personnel, financial
+resources, information systems, management, independence, accountability, and
+transparency to procurement prices, contracting ease, competition, regulation,
+and service quality. In an Italy case, the lowest-performing procurement units
+paid about 55% more than the highest-performing units for similar products; a
+Peru telecommunications case links leadership turnover to delayed milestones
+and transparency/accountability to lower regulatory uncertainty. These are
+institutional frameworks and named cases, not firm respondents or consumer
+price estimates. The next test joins agency, mandate, staff, budget, system,
+contract, bidder, payment, price, delay, service, affected firm, consumer,
+oversight, and political response.
+
+**Consumer-finance and digital-protection rotation — 2026-09-26:** the [OECD
+Consumer Finance Risk Monitor 2026 record](records/comparative-oecd-consumer-finance-risk-digital-payments-protection-2026.json)
+adds a market-to-protection route. Across 60 jurisdictions and 107 public
+authorities, scams and fraud were the leading financial-consumer risk. Mobile
+banking, transaction accounts, digital wallets, debit cards, push payments, and
+cross-border transactions were repeatedly identified as detriment surfaces,
+with lower- and middle-income jurisdictions reporting stronger concern around
+mobile banking, wallets, and debit cards. Complaint volume also shifted toward
+supervisory authorities. These are authority-level market assessments, not
+individual consumer respondents or victimization estimates. The next test joins
+product design, digital access, fraud exposure, loss, reporting, complaint
+routing, redress, recovery, switching, and trust.
+
+**Public-workforce and state-capacity rotation — 2026-09-26:** the [World Bank
+Public Workforce Performance and Prosperity record](records/comparative-world-bank-public-workforce-performance-state-capacity-2026.json)
+adds a public-institution conversion route. The report frames roughly 400
+million public-sector workers as the workforce layer connecting wage bills,
+staffing, merit, management, integrity, community engagement, digital skills,
+and core services. Low-income countries typically have 10–20 public workers
+per 1,000 people versus 50–140 in high-income countries; the public sector
+accounts for 38% of formal employment globally and 59% in fragile, conflict,
+or violence-affected states. These are aggregate workforce and organizational
+signals, not individual worker or citizen respondent outcomes. The next test
+joins recruitment, staffing location, pay, management, digital use, worker
+voice, service delivery, fiscal capacity, integrity, citizen trust, and reform
+implementation.
+
+**Cultural-policy and creative-economy rotation — 2026-09-26:** the [UNESCO
+Global Report on Cultural Policies and Re|Shaping Policies for Creativity record](records/comparative-unesco-cultural-policies-creative-economy-artistic-freedom-2026.json)
+adds a direct culture-to-development route. UNESCO reports that 93% of
+reporting Member States recognize culture in national development plans, but
+only 56% set specific cultural objectives; cultural and creative industries
+generate about 3.39% of global GDP and 3.55% of jobs. The same publication
+surface records weak protection for artists, low public funding, unequal
+creative trade and mobility, platform concentration, digital-skills gaps, and
+modeled AI revenue exposure. These are aggregate policy, industry, and modeled
+signals—not creator respondents, audience-level behavior, or proof of policy
+implementation. The next test joins cultural participation, funding, rights,
+platform distribution, creator income, AI use, artistic freedom, education,
+mobility, local institutions, and social/political meaning.
+
+**Critical-minerals and transition-security rotation — 2026-09-26:** the [IEA
+Global Critical Minerals Outlook 2026 record](records/comparative-iea-critical-minerals-outlook-2026-supply-chain-security.json)
+adds a mineral-demand-to-refining-concentration-to-export-control route.
+Battery demand exceeded 1.5 TWh in 2025 and grew more than 35%; the energy
+sector drove about 75% of key energy-mineral demand growth. The average share
+of the top refined supplier reached 70% in 2025, while export controls and
+geopolitical disruption turned concentration into an immediate economic-
+security issue. IEA also identifies Latin American production and limited
+regional refining as a value-capture and infrastructure/skills opportunity.
+These are aggregate market, policy, and modeled exposure signals, not mine-
+level incidence, respondent data, completed projects, or realized consumer
+loss. The next test joins extraction, refining, ownership, trade controls,
+stockpiles, substitution, recycling, power/water/skills, local voice,
+downstream firms, prices, and external response.
+
+**Climate-school-continuity rotation — 2026-09-26:** the [UNICEF Learning Interrupted record](records/comparative-unicef-learning-interrupted-climate-school-disruptions-2026.json)
+adds an education and social-continuity route. At least 171 million students
+experienced climate-related school disruption in 2025 across 106 countries and
+territories; 75% were in low- and lower-middle-income countries, and 40
+countries experienced multiple events. UNICEF estimates at least $200 billion
+in lifetime earnings at risk through disrupted learning and widening inequality.
+These are aggregate and modeled signals, not student-level data. The next test
+joins hazard, closure, duration, learning continuity, infrastructure, transport,
+teachers, digital access, protection, family adaptation, recovery, work, and
+local voice.
+
+**Investment-concentration and development-conversion rotation — 2026-09-26:** the [UNCTAD World Investment Report 2026 record](records/comparative-unctad-world-investment-report-2026-concentration-development-impact.json)
+adds a firm and geopolitical-capacity route. Global FDI rose 6% to $1.6
+trillion in 2025, but developing-economy inflows rose only 2% to $901 billion;
+the top 20 host economies captured more than 80% of global FDI, and strategic
+sectors reached 44% of greenfield project value versus 16% in 2020. AI-related
+megaprojects drove part of the increase. These are flow and project indicators,
+not proof of completed local jobs or community benefit. The next test joins
+capital source, project completion, ownership, infrastructure, jobs, skills,
+technology transfer, suppliers, environmental burden, public leverage, and
+local voice.
+
+**Beyond-GDP measurement and legitimacy rotation — 2026-09-26:** the [UN Beyond GDP record](records/comparative-un-beyond-gdp-progress-dashboard-2026.json)
+adds a policy-measurement route. The UN expert group proposes a 31-indicator
+dashboard across foundational principles, current well-being, equity and
+inclusion, and sustainability and resilience, including health, education,
+security, subjective well-being, inequality, poverty, social cohesion, capital,
+institutions, and environmental quality. This is a proposed framework, not
+respondent-level data or evidence of adopted policy effects. The next test joins
+measurement, public communication, budgets, data quality, local voice, remedy,
+cross-border spillovers, and institutional legitimacy.
+
+**Digital-material footprint and circularity rotation — 2026-09-26:** the [UNCTAD Digital Economy Report 2024 record](records/comparative-unctad-digital-economy-environmental-footprint-2024.json)
+adds a material digital-consumption route. Smartphone shipments reached about
+1.2 billion in 2023, IoT devices could reach 39 billion by 2029, and digital
+devices, data centres, and ICT networks use an estimated 6-12% of global
+electricity. Data-centre energy, water, critical-mineral concentration, and
+unequal e-waste collection distribute ecological costs unevenly. These are
+aggregate footprint and value-chain measures, not household behavior data. The
+next test joins devices, e-commerce, energy, water, minerals, data centres,
+waste, repair, recycling, ownership, local resource competition, labour, and
+circularity.
+
+**AI-trade and capability-diffusion rotation — 2026-09-26:** the [WTO World Trade Report 2025 record](records/comparative-wto-world-trade-report-ai-inclusive-growth-2025.json)
+adds a trade-and-firm route. WTO scenarios project 34-37% higher global trade
+and 12-13% higher global GDP by 2040, but the gains depend on digital
+infrastructure, skills, policy catch-up, and cooperation. The report estimates
+AI-enabling-goods trade at about $2.3 trillion in 2023 and nearly 500 related
+quantitative restrictions in 2024, up from 130 in 2012. These are modeled and
+aggregate policy signals, not firm respondents or worker outcomes. The next
+test joins infrastructure, skills, data, firms, supply chains, tasks, wages,
+ownership, standards, tariffs, restrictions, interoperability, labour policy,
+and local capability.
+
+**Forest-land, livelihood, and ecological-capacity rotation — 2026-09-26:** the [FAO FRA 2025 record](records/comparative-fao-global-forest-resources-assessment-2025-restoration-livelihoods.json)
+adds a material land-use route. Forests cover 4.14 billion hectares, while
+annual net forest loss fell from 10.7 million hectares in the 1990s to 4.12
+million in 2015-2025. Deforestation remains higher than forest expansion, and
+formal ownership/protection/management designations do not prove local rights or
+benefits. These are global forest assessments, not household or community
+incidence data. The next test joins commodities, land, ownership, management
+rights, protection, carbon, biodiversity, water, food, culture, restoration,
+community voice, and benefit distribution.
+
+**Online civic-control and information-manipulation rotation — 2026-09-26:** the [Freedom on the Net 2025 record](records/comparative-freedom-house-freedom-on-net-online-control-2025.json)
+adds a digital-civic route distinct from news use and internet access. Across
+72 countries, Freedom House reports a 15th consecutive year of decline, with
+27 countries deteriorating and 17 improving. Population-weighted indicators
+place users in environments involving arrests for online expression, content
+blocking, social-media restrictions, and network shutdowns, while AI-generated
+misleading content, paid commenters, imitation news, and undisclosed influencers
+reshape information control. These are expert-coded country assessments, not
+respondent-level persuasion or voting outcomes. The next test joins access,
+content, identity, privacy, surveillance, platform rules, infrastructure,
+circumvention, journalism, protest, trust, and remedy.
+
+**SDG implementation and public-results rotation — 2026-09-26:** the [UN SDG Report 2026 record](records/comparative-un-sdg-report-2026-progress-regression-capacity.json)
+adds a public-system-results route. Since 2015, roughly one billion people
+gained safely managed drinking water, 1.2 billion gained safely managed
+sanitation, electricity reached 92% of the global population, internet access
+rose from 40% to 74%, and social protection passed half of global population
+coverage. But only 36% of 139 targets with trend data are on track or making
+moderate progress; 49% are too slow and 15% regressed. These are aggregate
+public indicators, not respondent outcomes or proof of usable receipt. The next
+test joins policy input, infrastructure, access, quality, affordability,
+durability, crisis resilience, financing, data, remedy, and unequal reach.
+
+**Geopolitical-energy and macro-consumer rotation — 2026-09-26:** the [UN WESP mid-2026 record](records/comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock.json)
+adds a macro transmission route. UN DESA projects 2.5% global growth and 3.9%
+global inflation in 2026 after an energy shock transmitted through fuel,
+fertilizer, food, freight, insurance, transport, and imports. Low-income
+households and fuel/food-importing developing economies face greater exposure;
+higher rates, tighter finance, weaker growth, and crisis spending narrow public
+capacity. These are forecasts and aggregate mechanisms, not household-level
+incidence or respondent outcomes. The next test joins energy transit, supply
+chains, prices, food, work, purchasing power, fiscal response, debt, and
+international coordination.
+
+**Youth mental-health and social-capacity rotation — 2026-09-26:** the [UN World Youth Report record](records/comparative-un-world-youth-report-mental-health-determinants-2026.json)
+adds a social-determinants and institutional-response route distinct from the
+youth population projection. The report links education, employment, family
+dynamics, poverty, technology, and society/community, while emphasizing
+inequality, stigma, discrimination, prevention, early intervention, privacy,
+and youth-led action. These are publication-level mechanisms and policy routes,
+not respondent-level estimates or clinical diagnoses. The next test joins
+school support, work transition, family stress, digital safety, community ties,
+service access, stigma, privacy, prevention, youth agency, and remedy.
+
+**Youth-transition and intergenerational-capacity rotation — 2026-09-26:** the [UN World Population Highlights 2026: Youth record](records/comparative-un-world-population-highlights-youth-2026.json)
+adds a youth-demography route distinct from the general population and
+city-town-rural records. UN DESA estimates about 1.3 billion people aged 15-24
+in 2025; youth populations are projected to grow 16% in low- and lower-middle-
+income countries and fall 24% in high- and upper-middle-income countries by
+2050, with 69% of global youth projected in the lower-income group. In richer
+country groups, people 65 and older are projected to outnumber youth by roughly
+three to one by 2050. These are aggregate projections and policy priorities,
+not respondent-level outcomes. The next test joins cohort size, education,
+skills, decent work, health, migration, housing, digital safety, rights,
+intergenerational voice, and public investment.
+
+**Psychosocial-work and public-capacity rotation — 2026-09-26:** the [ILO
+psychosocial working environment record](records/comparative-ilo-psychosocial-working-environment-2026.json)
+adds a work-design-to-health and productivity route. The ILO estimates more
+than 840,000 deaths, nearly 45 million DALYs, and an annual loss equivalent to
+1.37% of global GDP from psychosocial risk factors at work. The report's
+three-level framework places job demands, workload, autonomy, working time,
+role clarity, and fair processes alongside management and public policy. These
+are modelled global estimates and policy mechanisms, not respondent-level
+outcomes or evidence about a particular employer. The next test joins work
+design, schedule, staffing, care demands, worker voice, health, compensation,
+prevention, remedy, persistence, and exit.
+
+**Lifelong-learning and transition-capacity rotation — 2026-09-26:** the [ILO
+lifelong-learning record](records/comparative-ilo-lifelong-learning-skills-future-2026.json)
+adds an education-to-work-adaptation route. The report says 16% of workers
+received training in the past year, versus 51% of full-time permanent workers
+in formal firms; 32% of workers already perform environmentally relevant tasks,
+and long-term-care employment is projected to rise from 85 million in 2023 to
+158 million by 2050. Fragmented systems, weak recognition of informal learning,
+and unequal financing can prevent skills from becoming mobility or bargaining
+power. These are comparative public indicators, not individual training
+histories. The next test joins training access, recognition, job security,
+employer size, digital/green work, care work, wages, voice, and mobility.
+
+**Development-finance and geopolitical-capacity rotation — 2026-09-26:** the
+[UN Financing for Sustainable Development 2026 record](records/comparative-un-financing-sustainable-development-fragmentation-2026.json)
+adds a macro-finance-to-state-capacity route. The report places the annual SDG
+financing gap above $4 trillion, reports 20-year-high debt-service burdens in
+developing countries and SIDS in 2024, more than 70 countries below a 15%-of-
+GDP tax-revenue threshold, and a 23.1% fall in ODA from 2024 to 2025. It also
+records $2.2 trillion in renewable investment in 2024 and links geopolitical
+fragmentation to trade, investment, capital-flow, and volatility changes.
+These are aggregate public-system indicators, not local service incidence or
+household outcomes. The next test joins fiscal room, financing terms, trade,
+energy, infrastructure, public services, ownership, resilience, and state
+leverage.
+
+**Connectivity and meaningful-digital-participation rotation — 2026-09-26:**
+the [ITU connectivity-divides record](records/comparative-itu-digital-connectivity-divides-2025.json)
+adds a population-facing infrastructure route. ITU estimates about 6 billion
+people online and 2.2 billion offline in 2025; 5G reaches 84% of people in
+high-income countries versus 4% in low-income countries, and broadband remains
+unaffordable in about 60% of low- and middle-income countries. Internet use is
+94% in high-income countries versus 23% in low-income countries and 85% urban
+versus 58% rural. These are aggregate connectivity estimates, not individual
+outcomes. The next test joins quality, affordability, devices, skills, safety,
+public-service use, work, platform participation, and non-use.
+
+**Innovation-cluster and firm-power rotation — 2026-09-26:** the [WIPO
+innovation-cluster record](records/comparative-wipo-global-innovation-cluster-concentration-2025.json)
+adds a firm, place, and geopolitical-capability route. WIPO's 2025 index covers
+139 economies; AI and quantum progress is advancing while investment growth
+slows, and the top 100 innovation clusters account for roughly 70% of global
+PCT filings and VC deal activity and about half of scientific publications.
+China has 24 top-100 clusters and the US 22. This is a concentration and
+capability signal, not local benefit, ownership, or household outcome evidence.
+The next test joins cluster infrastructure, skills, firms, patents, VC,
+housing, labour markets, energy, diffusion, procurement, and state leverage.
+
+**News-platform, creator, and AI-verification rotation — 2026-09-26:** the
+[Reuters Institute Digital News Report record](records/comparative-reuters-digital-news-platform-video-trust-2025.json)
+adds a cultural and political-attention route. Across 48 markets, social-video
+news use rose from 52% in 2020 to 65% in 2025 and any video from 67% to 75%; in
+the US, social/video news reached 54%, above TV at 50% and news sites/apps at
+48%. Overall news trust was 40%, 58% were concerned about true versus false
+online news, and weekly AI-news use was 7% overall and 15% among under-25s.
+These are aggregate survey estimates, not individual persuasion or voting
+effects. The next test joins platform, creator, format, age, ideology, local
+news, verification, moderation, AI mediation, trust, payment, and civic action.
+
+**Demographic-transition and care-capacity rotation — 2026-09-26:** the [UN
+World Population Prospects record](records/comparative-un-world-population-prospects-fertility-ageing-2024.json)
+adds a population-structure route. UN DESA projects global population from
+8.2B in 2024 to 10.3B in the mid-2080s and about 10.2B by 2100; more than half
+of countries are below replacement fertility, and 63 countries had already
+peaked by 2024 while 126 continue growing through 2054. Life expectancy was
+73.3 years in 2024, with older people projected to outnumber children globally
+by the late 2070s. These are demographic estimates and projections, not family
+preference or household-outcome data. The next test joins fertility, care,
+health, work, migration, housing, education, social protection, disability,
+gender, and public capacity.
+
+**City-town-rural and local-capacity rotation — 2026-09-26:** the [UN World
+Urbanization Prospects record](records/comparative-un-world-urbanization-prospects-cities-towns-rural-2025.json)
+adds a settlement-structure route distinct from population ageing. In 2025,
+cities held 45% of the global population, towns 36%, and rural areas 19%; two-
+thirds of growth through 2050 is projected in cities, with most of the rest in
+towns. Megacities rise from 33 in 2025 toward 37 by 2050, but 96% of roughly
+12,000 cities have fewer than one million residents and seven countries absorb
+over half of projected city growth. These are aggregate settlement projections,
+not local outcomes. The next test joins settlement type, housing, land,
+transport, care, energy, water, digital access, climate, finance, services,
+migration, and resident voice.
+
+**Digital-investment and capability rotation — 2026-09-26:** the [OECD digital
+transformation investment record](records/comparative-oecd-digital-transformation-investment-governance-2026.json)
+adds an investment-governance route distinct from digital-government adoption.
+Its four building blocks are governance, regulation, technical/financial
+support, and information/facilitation, linked to competition, cross-border
+data, trade agreements, skills, and responsible business conduct. Morocco,
+Uzbekistan, and Viet Nam provide country examples, but the framework does not
+measure local service quality, ownership, worker outcomes, or household access.
+The next test joins capital source, infrastructure, data control, skills,
+competition, procurement, ownership, portability, service quality, and state
+leverage.
+
+
+
+
+
+**Resource-consumption and provisioning rotation — 2026-09-26:** the [UNEP
+Global Resources Outlook record](records/comparative-unep-global-resources-consumption-2024.json)
+adds a planetary-capacity and infrastructure route. Global material extraction
+rose to 106.6 billion tonnes in 2024; high-income countries consume materials
+at roughly six times the low-income-country rate, and built environment,
+mobility, food, and energy drive about 90% of material demand. The Historical
+Trends scenario points to roughly 60% higher extraction by 2060. This is not
+household-level consumption or a moral judgment; the next test joins trade,
+housing, mobility, food, energy, waste, local extraction, affordability,
+circularity, public provisioning, and transition equity.
+
+**Digital consumer-choice rotation — 2026-09-26:** the [OECD dark-patterns
+record](records/comparative-oecd-dark-patterns-consumer-choice-2024.json) adds
+a firm/interface-to-consumer route. Preliminary OECD findings across 20
+countries report 90% of consumers encountering online manipulative design;
+earlier OECD work found 50% of online consumers reporting a shopping problem in
+the prior year and cited more than $22 billion in severe e-commerce detriment.
+These are aggregate exposure and loss estimates, not proof of individual
+deception or firm liability. The next test joins interface tactic, payment,
+data disclosure, cancellation, switching, remedy, trust, age, income, and
+digital literacy.
+
+**Debt and public-capacity rotation — 2026-09-26:** the [UNCTAD debt record](records/comparative-unctad-world-debt-public-capacity-2025.json)
+adds a macro-finance route. Global public debt reached $102 trillion in 2024;
+developing countries owed $31 trillion and paid $921 billion in interest, while
+61 developing countries devoted at least 10% of revenue to interest. Some 3.4
+billion people live in countries where interest payments exceed health or
+education spending. This is fiscal-capacity evidence, not household incidence
+or proof that debt alone caused service loss. The next test joins borrowing
+costs, revenue, exports, aid, liquidity, restructuring, public services,
+infrastructure, health, education, and political voice.
+
+**Drug-market and treatment-capacity rotation — 2026-09-26:** the [UNODC World
+Drug Report 2025 record](records/comparative-unodc-world-drug-report-2025-markets-treatment.json)
+adds a global social-consumption and public-health route. UNODC estimates 316
+million people aged 15–64 used drugs in 2023, including 244 million cannabis
+and 25 million cocaine users; synthetic stimulant seizures reached a record
+level. Of 64 million people estimated to have drug use disorders, only about
+8.1% received treatment, with a reported one-in-18 ratio for women versus
+one-in-seven for men. These are aggregate market and service indicators, not
+individual diagnoses or causal policy results. The next test joins substance
+mix, price, conflict, criminalization, treatment, harm reduction, gender,
+childcare, geography, and recovery.
+
+**Democratic-resilience and diaspora-inclusion rotation — 2026-09-26:** the
+[International IDEA democracy-and-migration record](records/comparative-idea-global-democracy-migration-participation-2025.json)
+adds a global institutional route. In the 173 countries with 2024 data,
+Freedom of the Press declined in 43 countries; Participation had only 11
+notable changes between 2019 and 2024, with nine declines and two advances.
+International IDEA also finds out-of-country voting potentially resilience-
+building but relatively low in participation and often inadequately designed.
+This is an institutional comparison, not individual political opinion or a
+single democracy score. The next test joins media freedom, civic space,
+registration, migrant status, voting access, belonging, and remedy.
+
+**Age-assurance implementation rotation — 2026-09-26:** the [OECD age-assurance
+record](records/comparative-oecd-child-age-assurance-services-2025.json) adds a
+service-level platform-governance endpoint. Of 50 services used by children,
+only 2 systematically assured age at account creation, while 26 had some
+mechanism, often triggered only in particular circumstances. Minimum ages can
+vary by geography and may reflect privacy or contract law rather than safety;
+age-tiered safeguards may be optional or dependent on parental controls. This
+is a public service benchmark, not a test of individual children or actual
+harm. The next test joins assurance accuracy, privacy, bias, design, reporting,
+moderation, remedy, and regulatory enforceability.
+
+**Human-development AI rotation — 2026-09-26:** the [UNDP Human Development
+Report 2025 AI record](records/comparative-undp-human-development-ai-agency-2025.json)
+adds a broad public-expectations and development-choice route. Across the
+21-country survey, 60% expect positive employment effects from AI, 50% expect
+current-job automation, and 13% fear job losses; in low- and medium-HDI
+countries, 70% expect productivity gains and about two-thirds anticipate use in
+education, health, or work within a year. This is a publication-level aggregate
+signal, not a respondent-level analysis or causal job forecast. The next test
+joins AI access, skills, language fit, work quality, health, education, service
+capacity, accountability, and human agency.
+
+**Child digital-wellbeing rotation — 2026-09-26:** the [OECD child
+digital-wellbeing record](records/comparative-oecd-children-digital-wellbeing-2025.json)
+adds a youth and platform-governance route. OECD reports near-universal device
+access among 15-year-olds, at least 30 weekly device hours for at least half of
+15-year-olds in most countries, and roughly 10% of adolescents reporting
+problematic social-media use in 2021–22, up from less than 7% in 2017–18. This
+is a cross-national aggregate signal, not a diagnosis or platform-causal
+estimate. The next test joins activity type, platform design, age assurance,
+family and school support, child voice, migration, gender, socio-economic
+status, safety, and offline well-being.
+
+**Social-connection and civic-capacity rotation — 2026-09-26:** the [OECD
+social-connections record](records/comparative-oecd-social-connections-loneliness-2025.json)
+adds a comparative structural route. Across 21 European OECD countries, daily
+face-to-face contact fell between 2006 and 2022 while remote contact increased;
+the share of the youngest group reporting never feeling lonely fell 14 points
+between 2018 and 2022. Around 10% report no one to count on, and low-income or
+unemployed people are around twice as likely to report loneliness. This is not
+individual diagnosis or causal proof that digital contact displaced community.
+The next test joins place, income, work, living arrangement, social
+infrastructure, relationship quality, health, education, and civic action.
+
+**Gendered-opportunity and enforcement rotation — 2026-09-26:** the [World
+Bank Women, Business and the Law record](records/comparative-world-bank-women-business-law-2026.json)
+adds a formal-rights-to-practice stage. Women hold about two-thirds of measured
+legal rights globally, while supportive systems and enforcement lag; only 4% of
+women live near full legal equality. This is an institutional diagnostic, not
+an individual-outcome estimate. The next test is to connect law to safety,
+mobility, childcare, finance, work, entrepreneurship, household bargaining,
+and retirement security.
+
+**Education-access and equity rotation — 2026-09-26:** the [UNESCO GEM
+education record](records/comparative-unesco-gem-education-access-equity-2026.json)
+adds a human-capital endpoint. Enrollment and completion have expanded, but 273
+million children and youth remain out of school, disparity reporting is weak,
+and fewer than one in ten countries show a sufficiently strong intended equity
+policy focus. These are system indicators, not individual learning outcomes.
+The next test is to connect access and timing to finance, transport, digital
+infrastructure, health, data visibility, completion, and later work or civic
+capability.
+
+**SME-finance and investment rotation — 2026-09-26:** the [OECD SME-finance
+record](records/comparative-oecd-sme-finance-investment-2026.json) adds a
+firm-capacity endpoint. Across 48 countries, rates remain above pre-pandemic
+levels in most reporting countries, long-term SME loan volumes have fallen in
+the selected comparison, and equity recovery is concentrated in a few large AI
+deals. This is not a firm-level causal result. The next test is to connect
+credit maturity and collateral to investment, digital/green transition,
+worker stability, ownership, regional concentration, and survival.
+
+**Tourism-demand and place-capacity rotation — 2026-09-26:** the [OECD tourism
+record](records/comparative-oecd-tourism-demand-community-resilience-2026.json)
+adds a mobility and host-community endpoint. OECD arrivals recovered above
+pre-pandemic levels, but concentrated flows, infrastructure pressure,
+extreme-weather risk, affordability, and geopolitical disruption are reshaping
+who benefits. The U.S. profile combines lower international arrivals with very
+large domestic travel volume. The next test is to connect demand to transport,
+housing, water, labor, local voice, crisis preparation, and retained local
+value.
+
+**Creative-economy rotation — 2026-09-26:** the [UNCTAD creative-economy
+record](records/comparative-unctad-creative-economy-digital-cultural-trade-2024.json)
+adds a cultural-production and value-capture route. Developing-country creative
+export share rose from 10% in 2010 to 20% in 2022, while software and other
+digitally mediated services dominated the cited creative-services mix;
+streaming captured 67.3% of global music revenue streams in 2022. These are
+sector shares, not proof of cultural participation or creator welfare. The next
+test is to connect digital distribution to rights, discovery, worker income,
+consumer payment, local cultural visibility, and platform concentration.
+
+**Housing-search scam rotation — 2026-09-26:** the [FTC rental-scam record](records/us-ftc-rental-scam-housing-platform-losses-2020-2025.json)
+adds a housing-access endpoint to the consumer-recourse lane. FTC reports
+identified nearly 65,000 likely rental scams and about $65 million in reported
+losses from 2020 through June 2025; younger renters' reports more often
+indicated monetary loss, while fake listings created upfront-payment and
+identity-data exposure. These are underreported administrative reports, not a
+prevalence rate or platform-liability finding. The next test is to connect
+housing scarcity and search urgency to verification, payment, identity risk,
+recovery, and ability to switch.
+
+**Social-cohesion rotation — 2026-09-26:** the [UN World Social Report trust
+and cohesion record](records/comparative-un-world-social-report-trust-cohesion-2025.json)
+adds a global route from economic insecurity and inequality to trust,
+polarization, belonging, and collective-action capacity. The report summarizes
+more than half of the global population as having little or no trust in
+government and fewer than 30% as believing others can be trusted, while warning
+that these measures are heterogeneous and not one causal index. The next test
+is to connect material security and service delivery to institutional
+legitimacy, information environments, local solidarity, and political action.
+
+**Global-risk perception rotation — 2026-09-26:** the [UN Global Risk Report
+record](records/comparative-un-global-risk-perception-multilateral-capacity-2026.json)
+adds a geopolitical attention-to-capacity stage. The 2026 stakeholder exercise
+places large-scale war and frontier-technology power concentration nearer the
+center of concern while still ranking climate inaction highest overall; 36%
+expect large-scale war within a year and joint government action remains the
+preferred response. These are stakeholder perceptions, not forecasts or
+resident-level public opinion. The next test is to join risk salience to
+realized events, preparedness, coordination, implementation, and legitimacy.
+
+**Displacement-livelihood rotation — 2026-09-26:** the [World Bank Kenya
+refugee-host livelihoods record](records/comparative-world-bank-kenya-refugee-host-livelihoods-2026.json)
+adds a shared-capacity test for migration and integration. As aid tightens,
+refugee employment fell across camp and urban settings, food coping increased,
+and host labor markets remained weak. These are descriptive Kenya panel-study
+signals, not a causal aid-cut estimate or respondent-level endpoint for the
+broader atlas. The next test is to connect legal status and mobility to work,
+shared services, household coping, host-market absorption, and social cohesion.
+
+**Government-AI accountability rotation — 2026-09-26:** the [OECD Digital
+Government Outlook AI-governance record](records/comparative-oecd-digital-government-ai-governance-2026.json)
+adds a public-sector adoption-to-accountability stage. AI use is reported in
+35 of 36 OECD countries, but only 39% require pre-deployment risk assessment,
+31% conduct post-deployment audits, 28% measure use-case impact, and 22% have
+citizen feedback or complaint mechanisms. These are country-level institutional
+indicators, not respondent outcomes or proof of unsafe systems. The next test is
+to connect a named government use case to procurement, deployment, audit,
+service-user contestation, correction, and realized service effects.
+
+**Foreign-fab exception-closure rotation — 2026-09-25:** the [BIS foreign-fab
+VEU record](records/us-bis-foreign-fab-veu-export-control-closure-2025.json)
+adds a named control adjustment after the GAO implementation stage. BIS closed
+license-free VEU treatment for foreign-owned semiconductor fabs in China,
+preserved an intended license route for existing operations, and stated that it
+would not license capacity expansion or technology upgrades. This is a more
+specific control-to-capability boundary than a rule announcement, but the
+affected-fab denominator, license decisions, shipments, production, sourcing
+substitution, and strategic response remain unobserved. The next test should
+join the transition clock to license outcomes, firm production or sourcing,
+partner alignment, and an attributed external response.
+
+The follow-up Federal Register rule makes one implementation stage observable:
+three named PRC facilities—Intel Dalian, Samsung China Semiconductor, and SK
+hynix Semiconductor China—were removed from the VEU list effective December
+31, 2025. That formal revocation still does not establish individual license
+decisions, operating continuity, production, or strategic response.
+
+The post-effective operating signal is limited but nonzero: Samsung's
+Xi'an-site certification lists 12-inch flash-memory manufacturing, packaging,
+testing, and SSD assembly through October 14, 2026, while SK hynix's current
+quality page lists Wuxi 12-inch integrated-circuit manufacturing through August
+2, 2027. These are certification/operating-scope signals, not production or
+license records; the next test remains actual output, license disposition,
+technology change, and external response.
+
+The first attributed external-response stage is now also recorded: China's
+Ministry of Commerce opposed the VEU removals, warned of serious harm to global
+semiconductor supply-chain stability, urged U.S. reversal, and said China would
+take necessary measures to protect its firms. This is an official reaction and
+stated intent, not an enacted countermeasure, license outcome, production
+change, or strategic concession. The next test should identify what—if
+anything—was implemented afterward.
+
+**Formal trade-remedy response rotation — 2026-09-25:** the [MOFCOM analog-IC
+investigation record](records/us-china-mofcom-analog-ic-antidumping-investigation-2025.json)
+adds a distinct institutional action in the wider semiconductor dispute. China
+opened an anti-dumping investigation into specified U.S. analog IC imports after
+a domestic-industry application; MOFCOM reported preliminary applicant evidence
+of higher import quantity and lower prices. The investigation is not proof of
+dumping, a VEU-specific retaliation, a final duty, or a supply-chain effect. The
+next test should follow the investigation into a final ruling, measure,
+negotiated outcome, import change, and firm response.
+
+**Integrated-circuit anti-discrimination investigation rotation — 2026-09-25:**
+the [MOFCOM anti-discrimination record](records/us-china-mofcom-integrated-circuit-antidiscrimination-investigation-2025.json)
+adds a broader formal legal channel after the VEU-specific objection. On
+September 19, 2025, China opened an investigation under Articles 7, 36, and 37
+of its Foreign Trade Law into U.S. integrated-circuit measures, invited affected
+parties to participate, and reserved possible measures. This is a process and
+allegation stage—not a final finding, remedy, or measured supply-chain effect.
+
+**Allied semiconductor-control alignment rotation — 2026-09-25:** the [EU
+dual-use list record](records/us-eu-commission-semiconductor-dual-use-control-list-update-2025.json)
+adds a partner-regulatory stage. The European Commission adopted a common-list
+update covering semiconductor manufacturing/testing equipment, materials, and
+advanced-computing integrated circuits, citing multilateral regime decisions
+and member-state commitments. This is formal alignment at the list level, not
+proof of U.S.-EU policy identity, national licensing, enforcement, shipment
+effects, or strategic leverage. The next test should join the common list to
+member-state licenses/denials, firm adaptation, and partner coordination.
+
+The [EU implementation-report observation](records/us-eu-commission-semiconductor-dual-use-control-list-update-2025.json)
+adds aggregate enforcement visibility: the Commission reports €77.6 billion in
+authorized EU dual-use exports and 487 security-risk denials in 2024, with China
+at 25% and the United States at 21% of authorized-export value. The figures are
+not semiconductor-specific and do not establish that the 2025 list update
+caused a denial, shipment change, or strategic effect; the next test is a
+category- and member-state-level licensing or enforcement trace.
+
+**Export-control-implementation-to-external-response rotation — 2026-09-25:**
+the [GAO advanced-semiconductor export-control record](records/us-gao-advanced-semiconductor-export-control-compliance-2022-2024.json)
+adds the implementation stage between a national-security rule and any claimed
+geopolitical leverage. GAO found Commerce working with six other agencies,
+private firms updating compliance programs and self-reporting potential
+violations, and ten reported compliance challenges that prompted clarification,
+briefings, and rule updates. The review did not measure foreign-partner
+adoption, Chinese substitution, changed military capability, or deterrence. The
+next test should join a named control to partner alignment, firm shipment or
+substitution behavior, domestic incidence, and an attributed external response.
+
+**Public-life-engagement-cluster rotation — 2026-09-25:** the [Pew public-life
+engagement record](records/us-pew-public-life-engagement-groups-2025.json)
+maps four distinct participation profiles rather than one engagement scale. In
+a 5,393-person late-2025 survey, Mobilizers were 9% of categorized adults,
+Connectors 28%, Spectators 31%, and Outsiders 31%. Mobilizers and Connectors
+reported high voting, volunteering, or group participation, Spectators followed
+news at high rates while staying more private, and Outsiders participated at
+low levels but still included voters and religious attenders. Federal trust was
+low across all four groups. This is a descriptive cluster map, not a material
+cause or durable identity mechanism; the next test should join a dated
+institutional or material episode to one of these distinct action routes and
+follow response, recovery, and persistence.
+
+**Arts-to-civic-engagement boundary rotation — 2026-09-25:** the [NEA Great
+Connector record](records/us-nea-great-connector-arts-civic-community-engagement-2026.json)
+adds the missing cultural-to-civic middle using three national surveys. In the
+2022 SPPA analytic sample, arts participation was associated with a 4.86
+incidence-rate ratio for civic/community engagement; the February 2025 HTOPS
+estimate was smaller at 1.17; and the adjusted overall GSS relationship was
+null, although creating art remained positively associated. The pattern is
+therefore cross-survey evidence of a context-sensitive association, not an arts
+treatment effect or a direct political-mobilization result. The next test should
+follow a named arts setting through access, companionship, repeated
+participation, local institution, civic behavior, and political or policy
+feedback, while preserving the GSS null as a counterexample.
+
+**Arts-participation-to-social-context rotation — 2026-09-25:** the [ATUS
+arts-engagement record](records/us-atus-arts-engagement-behavioral-phenotyping-2003-2023.json)
+adds a national cultural baseline to the meaning and participation lane. Across
+236,270 nationally representative ATUS respondents from 2003–2023, daily arts
+engagement was stable overall, with a small increase in participatory activity,
+a slight decline in receptive activity, and more activity occurring alone at
+home; trends differed by sex, age, and income. This is a descriptive
+repeated-cross-sectional pattern, not evidence of cultural withdrawal or a
+causal effect on belonging or political action. The next test should join
+activity type and setting to access, companionship, local institutions,
+wellbeing, trust, and later collective or political action.
+
+**Police-training-to-local-legitimacy rotation — 2026-09-25:** the [GAO
+Northern Triangle police-training record](records/us-gao-central-american-police-training-human-rights-controls-2014-2025.json)
+adds a local-security and cultural-legitimacy route. In 22 State/USAID projects
+reviewed across El Salvador, Guatemala, and Honduras, none of the 14 State or 8
+USAID project documents had explicit human-rights objectives, and State lacked
+reliable consolidated counts of police trained. Later controls and an August
+2025 State cable added human-rights language and indicators. This improves the
+institutional route but does not establish changed police conduct, civilian
+safety, or public trust; the next test should follow a named training episode
+through implementation, complaint or conduct data, and local legitimacy.
+
+**Security-assistance legitimacy rotation — 2026-09-25:** the [GAO human-rights
+training record](records/us-gao-security-assistance-human-rights-training-oversight-2019-2021.json)
+adds a rights and oversight layer to the capability chain. GAO found that DOD
+did not initially systematically track mandated human-rights training and that
+DOD and State had not evaluated its effectiveness; later follow-up documented
+new tracking, reporting, and monitoring plans. These reforms improve
+administrative visibility but do not prove changed trainee conduct, civilian
+protection, partner legitimacy, or strategic effect. The next test should join
+training exposure to conduct, complaint, civilian-protection, local-acceptance,
+and later operational outcomes.
+
+**Partner-capacity-to-delivery rotation — 2026-09-25:** the [GAO Section 333
+delivery record](records/us-gao-section-333-delivery-delay-evaluation-quality-2023.json)
+adds observed implementation friction after funding and planning. GAO found 75%
+of deliverables delayed relative to DOD estimates; among six reviewed project
+evaluations, four reported capability improvement and two reported no improvement
+because equipment was unsuitable or unreliable, while the evaluation evidence
+itself was generally weak. This is not a program-wide failure rate or proof of
+deterrence. The next test should retain delivery date, equipment reliability,
+training, sustainment, partner use, and external effect as separate stages.
+
+**Partner-capacity absorption rotation — 2026-09-25:** the [GAO Section 333
+record](records/us-gao-section-333-partner-absorptive-capacity-2023.json) adds
+the missing planning-to-use stage in security assistance. In a nongeneralizable
+review of 46 proposals, 42 did not fully document partner absorptive capacity,
+sustainment, or measurable objectives; the program had allocated nearly $5.6
+billion across FY2018–2022. This is a documentation and implementation risk,
+not proof that assistance failed or that a partner lacked capability. The next
+test should follow a named project through funding, delivery, training, use,
+sustainment, partner response, and strategic effect.
+
+**U.S. flexibility-access baseline — 2026-09-25:** the [BLS ATUS job-flexibility
+record](records/us-bls-atus-job-flexibility-family-time-2024-2025.json) supplies
+the current population frame for the worker-control-to-household route. In
+2024–25, 57% of wage-and-salary workers could vary start and stop times, 69%
+said taking an hour or two off was not difficult, and 9% learned schedules one
+day or less ahead. Parents with children under 18 were more likely to work at
+home, while lower-education workers were more exposed to short notice. These
+are weighted descriptive estimates, not causal welfare effects; the next test
+should join schedule control to actual care need, pay, hours, use, and durable
+household outcomes.
+
+**Flexibility-to-household-room rotation — 2026-09-25:** the [comparative IZA
+job-flexibility record](records/comparative-iza-job-flexibility-intrahousehold-child-wellbeing-2026.json)
+connects worker control to the same household's market work, childcare, chores,
+resources, and modeled child well-being. In 464 Dutch couples with children,
+parent-specific flexibility changed the estimated domestic-production route;
+simulations generally narrowed gender gaps in paid and domestic work, but did
+not produce a uniform child-well-being gain, especially when flexibility was
+paired with lower wages. This is structural and comparative, not a U.S. causal
+estimate. The next test should follow flexibility through pay, schedule notice,
+care substitution, bargaining, and durable household outcomes.
+
+**Autonomy-to-risk-management rotation — 2026-09-25:** the [NBER autonomy of
+labor record](records/us-nber-autonomy-labor-risk-prevention-2022.json) adds a
+randomized worker-side mechanism. Among 476 U.S.-located online labor-market
+workers, high task autonomy raised preventative-effort take-up by 9.7 percentage
+points because workers could redistribute effort across tasks. This is a
+short, task-specific experiment—not evidence of durable autonomy, higher
+earnings, household security, or bargaining power. The next test should follow
+autonomy through schedule/control choices, pay, risk, care time, voice, and
+continued or alternative work.
+
+**Meaning-at-work-to-worker-outcome rotation — 2026-09-25:** the [NBER
+purpose-intervention record](records/us-nber-meaning-at-work-purpose-intervention-2025.json)
+adds a randomized worker-centered firm route. Across 2,976 white-collar
+employees followed for two years, the intervention increased performance; low
+performers either improved or left, meaning–pay tradeoffs flattened as
+low-meaning/high-pay workers exited, and parental-leave preferences/behavior
+and bonuses changed. This is firm-specific and does not establish household
+welfare, durable worker control, bargaining power, or political action. The
+next test should preserve purpose, pay, exit, job control, care/time, and
+household security in the same worker.
+
+**Government-encounter-to-activism rotation — 2026-09-25:** the [urban-poor
+government-contact record](records/us-social-problems-urban-poor-government-contact-activism-2001.json)
+adds a direct meaning/action layer. In a study of 462 low-income residents in
+one of the poorest U.S. congressional districts, severe hardship and formative
+contact with government agents were associated with greater willingness to
+participate, while material resources and demographic attributes structured
+activism. This is observational and geographically narrow: it does not identify
+a causal agency episode, national prevalence, validated turnout, or generalized
+trust change. The next test should preserve hardship, agency, encounter quality,
+attribution, efficacy, action, and later institutional use separately.
+
+**Economic-insecurity-to-political-mobilization contrast — 2026-09-25:** the
+[UAS economic-insecurity record](records/us-oxford-economic-insecurity-political-preferences-2023.json)
+adds a distinct panel-based counterexample to hardship-as-withdrawal. Among
+2,367 UAS adults with repeated income observations before the 2016 election
+poll, greater income-history insecurity predicted higher reported voting
+probability and greater Trump support, conditional on current resources, with
+lower Clinton support. This is an observational association based on modeled
+income bands and reported probabilities, not a causal or ballot-validated
+estimate. The next comparison should preserve insecurity, current resources,
+prior identity, attribution, trust, action, and validated turnout separately.
+
+**Medicaid-access-to-vote rotation — 2026-09-25:** the [Oregon Medicaid
+voter-participation record](records/us-oregon-medicaid-lottery-voter-participation-2019.json)
+adds a randomized public-system-to-political-action endpoint. Among low-income
+uninsured Oregon adults selected by lottery for Medicaid access, coverage
+increased November 2008 presidential turnout by 2.5 percentage points,
+approximately 7% relative to control turnout, with larger effects among men and
+residents of Democratic counties. The study found no evidence of increased
+turnout through the November 2010 midterm. This is not a generalized trust or
+durable realignment result; the early response may reflect registration,
+administrative contact, health/financial security, or election-specific
+mobilization. The next test should retain coverage, adequacy, attribution,
+trust, registration, turnout, and later political action as separate stages.
+
+**Safety-net receipt-to-stigma/trust boundary — 2026-09-25:** the [Health
+Affairs Scholar safety-net stigma record](records/us-health-affairs-safety-net-stigma-government-perceptions-2024.json)
+adds a distinct meaning layer to the cash and welfare rotations. In a sample of
+497 low-income California caregivers of young children, SNAP participation was
+associated with greater reported social stigma (OR 1.24, 95% CI 1.05–1.47),
+and EITC receipt was associated with greater reported social stigma (OR 1.39,
+95% CI 1.05–1.84). Overall government perceptions did not differ; among
+food-insecure respondents, SNAP was additionally associated with program stigma
+and discrimination. This is a cross-sectional convenience/snowball sample, not
+a causal trust effect or national estimate. The next test should preserve
+stigma, government perception, program participation, attribution, action, and
+exit as separate stages.
+
+**External-data first-pass checkpoint — 2026-09-25:** the initial social,
+cultural, and political source rotation is now recorded in the [external-data
+first-pass memo](US-BROAD-EXTERNAL-DATA-FIRST-PASS_2026-09-25.md) and
+integrated as trend 151 in the [provisional societal trend
+register](US-PROVISIONAL-SOCIETAL-TRENDS_V1.md). The current bounded subtheme
+is **plural authority under weak shared national confidence**: national
+institutional confidence is low and party-conditioned; civic participation has
+distinct profiles; social support and formal participation are age-structured;
+local democratic ratings are less negative than national ratings; and
+community participation has information, invitation, welcome, and efficacy
+barriers beyond time scarcity. The linked source records are Census HTOPS,
+Pew public-life engagement, Gallup institutional confidence, Gallup/Kettering
+democracy, and Gallup/Kettering community involvement.
+
+**Cash-transfer recovery-currency crosswalk completed — 2026-09-25:** the
+[cash-transfer crosswalk](projects/us-cost-trust-politics/cash-transfer-recovery-currency-crosswalk-v1.md)
+consolidates the new randomized and policy-induced records. It shows that
+additional resources can become consumption, mobility, credit, child spending,
+maternal time, formal childcare, reduced elder care, or debt-financed relief.
+The common open middle remains adequacy/persistence → fairness and attribution
+→ trust → action or exit for the same household.
+
+**Cash-to-voting intergenerational bridge completed — 2026-09-25:** the [NBER
+family-income/voting record](records/us-nber-family-income-intergenerational-voting-2018.json)
+adds the political endpoint with an explicit lag and unit boundary. Exogenous
+unconditional cash transfers increased adult children's voting propensity when
+they came from initially poorer families, but had no effect on parents or on
+children from initially better-off families. This supports a childhood
+resource/social-capital route to later participation, not an immediate adult
+recipient turnout or trust effect; the next test should seek a contemporaneous
+household design with receipt, adequacy, attribution, and action together.
+
+**Place-improvement-to-voting counterexample — 2026-09-25:** the [APSR Moving
+to Opportunity record](records/comparative-apsr-moving-to-opportunity-voting-2024.json)
+tests a different route from material/place improvement to political action.
+Random housing-voucher offers reduced neighborhood poverty and improved some
+child socioeconomic outcomes, but did not increase later child or adult voting;
+teen registration and turnout declined under both voucher conditions. This
+keeps neighborhood change, socioeconomic improvement, integration, disruption,
+and turnout separate and qualifies any resource-model claim that more room
+automatically produces more participation.
+
+**Welfare-design-to-political-response counterexample — 2026-09-25:** the
+[Social Problems welfare-participation record](records/us-social-problems-welfare-receipt-political-participation-2022.json)
+finds little association between cash assistance and participation, positive
+food-stamp/registration association, and countervailing food-stamp voting
+patterns by political attentiveness. Because it uses fixed-effects
+observational models, it is a boundary and heterogeneity result, not a causal
+benefit effect. The next test must preserve benefit type, administrative
+experience, attention, registration, turnout, and trust separately.
+
+**Welfare-reform-to-voting positive contrast — 2026-09-25:** the [NBER
+welfare-reform voting record](records/us-nber-welfare-reform-womens-voting-2016.json)
+adds a state-by-year policy-exposure estimate: reform reduced the decline in
+presidential voting among exposed low-income women by roughly four percentage
+points, with stronger effects in Democratic states and states with stronger
+work incentives. This cannot be averaged with the NBER employment-instrument
+negative estimate: benefit retraction, work incentives, employment, education,
+income, and the estimand differ. The next comparison should harmonize policy
+exposure, mediator, election type, subgroup, and prior participation.
+
+**Three-source material-to-authority bridge completed — 2026-09-25:** the
+[Pew source-environment and civic-action crosswalk](projects/us-cost-trust-politics/pew-source-environment-action-crosswalk-v1.md)
+now places the July HTOPS same-respondent material-pressure screen beside Pew's
+engagement profiles and Gallup's institution-specific confidence layer. The
+screen shows lower support, food adequacy, doctor trust, federal-statistics
+trust, and Congress confidence as expense difficulty rises, while AI confidence
+is comparatively flat. The crosswalk treats this as a bounded cross-source
+inference—**fragmented civic authority under unequal practical room**—not a
+joined-person causal estimate. The open arrow remains source/interpretation →
+attribution → contact, vote, volunteering, complaint, continued use, switching,
+or exit; the next eligible evidence must preserve a common respondent or a
+designed episode across those stages.
+
+**Financial-well-being-to-social-trust longitudinal rotation — 2026-09-25:**
+the [Pew repeated-respondent social-trust record](records/us-pew-social-trust-financial-wellbeing-longitudinal-2020-2025.json)
+adds a five-year timing surface: 25% changed their generalized social-trust
+answer between March 2020 and February 2025, 14% gained trust, 11% lost trust,
+and respondents who did not live comfortably were more likely to lose trust.
+This is stronger than a single cross-section but still does not identify a
+dated bill, job, actor, remedy, action, or exit. It qualifies the material-to-
+meaning bridge; the next valid test remains a common respondent or designed
+episode through material event, attribution, remedy, and action.
+
+**Acute-hardship-to-turnout comparative rotation — 2026-09-25:** the
+[American Political Science Review Germany record](records/comparative-apsr-acute-financial-hardship-turnout-germany-2021.json)
+adds a natural-experiment endpoint: irregular bank-calendar timing temporarily
+stretched the same income, reducing poor respondents' turnout intentions and
+lowering actual turnout in affected elections, especially near month-end. This
+is a causal comparative mechanism for the resource/efficacy arrow, not a U.S.
+estimate or a trust/action chain for the Census/Pew respondents. The next valid
+U.S. test should seek comparable timing or event-linked evidence and preserve
+the distinction between acute capacity loss, trust change, and observed vote.
+
+**Policy-induced employment-to-political-identity rotation — 2026-09-25:** the
+[NBER EITC/employment record](records/us-nber-eitc-employment-mothers-voting-identity-2026.json)
+adds a U.S. policy-specific action mechanism. Its working-paper abstract uses
+EITC expansions and 1990s welfare reform as employment instruments for
+lower-income mothers and reports lower turnout, registration, political
+knowledge, and civic engagement alongside increased conservatism. This
+qualifies any assumption that employment automatically expands usable room or
+political participation: income, time, childcare, benefits, workplace networks,
+and identity can move together. The next valid test is full-paper coefficient
+and first-stage review plus a same-person household/time/benefit interpretation;
+do not generalize the abstract to all work or mothers.
+
+**Policy-induced employment-to-time-and-care rotation — 2026-09-25:** the
+[NBER maternal-time-use record](records/us-nber-eitc-maternal-time-use-children-2020.json)
+adds the missing room-and-care layer beside the employment-to-politics paper.
+Using American Time Use Surveys around EITC expansions since 2003, it reports
+more maternal work and less time in home production, leisure, and time with
+children, while almost none of the reduction in time with children came from
+active investment-related activities. Effects are concentrated among
+disadvantaged mothers, especially unmarried mothers and mothers of young
+children. This is a policy-specific time-allocation result, not a complete
+care ledger or a universal work effect; the next test should connect time
+changes to childcare substitution, household room, and civic action in the
+same unit.
+
+**Unconditional-cash money-versus-time rotation — 2026-09-25:** the [NBER
+parental-investment record](records/us-nber-unconditional-cash-parental-investment-heterogeneity-2025.json)
+adds a randomized redistribution-to-adaptation comparison. The abstract
+reports similar income, earnings, and total-expenditure effects across groups,
+but different child-investment routes: Latino families increased child-focused
+spending by nearly one-third of the transfer without changes in maternal work
+or child time, while Black families reduced maternal work hours and increased
+early-learning time without higher child-focused spending. This prevents
+“cash support” from being coded as one uniform recovery currency; the next
+test should retain source-of-income signals, care substitution, and household
+room in the same unit.
+
+**Temporary-cash-to-balance-sheet rotation — 2026-09-25:** the [NBER
+consumption/balance-sheet record](records/us-nber-unconditional-cash-consumption-balance-sheets-2024.json)
+adds a randomized household-room and durability test. In a two-state experiment,
+$1,000 monthly transfers versus $50 for three years raised expenditures by at
+least $300 per month, increased housing and neighborhood mobility, and improved
+self-reported financial health and credit scores. But asset gains were offset
+by higher debt, leaving near-zero net-worth effects, and there were no effects
+on several adverse-credit outcomes. This separates immediate room and
+financial-health relief from durable balance-sheet recovery; the next test
+should connect those currencies to bills, care, trust, and exit in the same
+household.
+
+**Cash-to-care-quality counterexample rotation — 2026-09-25:** the [NBER
+parenting/stress record](records/us-nber-unconditional-cash-parenting-stress-2025.json)
+adds a care and wellbeing layer to the transfer portfolio. A $1,000-per-month
+assignment versus $50 for three years increased spending on children, reported
+parenting quality, and—among the lowest-income families—use and quality of
+non-parental childcare. It also increased reported child developmental
+difficulties and stress, possibly because closer supervision revealed more
+problems, while parental satisfaction and several other household outcomes did
+not change. This keeps care inputs, observed difficulty, and wellbeing separate
+and prevents “more parenting” from being coded as uniformly better recovery.
+
+The PRRI American Identity Survey now adds a distinct cultural-meaning layer:
+68% see democratic rights as at risk, 60% see American culture and identity as
+at risk, only 18% are very or extremely proud of how democracy is working, and
+49% say the American Dream still holds true, with 36% among adults ages 18–29.
+These measures sharpen the subtheme to **plural authority under weak shared
+national confidence amid threatened rights, contested cultural continuity, and
+weakening mobility confidence**. The [PRRI identity and rights
+record](records/us-prri-american-identity-democratic-rights-culture-2026.json)
+keeps those perceptions separate from objective rights loss, cultural decline,
+mobility outcomes, turnout, organizing, and geopolitical behavior.
+
+Pew's Religious Landscape Study adds a structured communal counterexample:
+Latter-day Saint respondents report much higher volunteering and generalized
+trust than U.S. adults overall, while education and regional gaps remain large.
+This shows that a functioning communal route can convert belonging into action
+without demonstrating equal access, low burden, political influence, or durable
+belonging. The [communal-trust and volunteering
+record](records/us-pew-latter-day-saints-communal-trust-volunteering-2026.json)
+is now part of the conversion test.
+
+**AAPI identity/exposure rotation — 2026-09-25:** the [AAPI Data/AP-NORC
+record](records/us-apnorc-aapi-immigration-status-identity-2026.json) adds a
+distinct subgroup layer. AAPI adults strongly value the American Dream,
+democratically elected government, and mixing cultures and values, while many
+say the U.S. is no longer a great place for immigrants and report status-linked
+documentation, travel, routine, or detention/deportation exposure affecting
+themselves or someone they know. This is a values-plus-caution pattern, not a
+legal-status, discrimination-prevalence, migration, safety, or political-action
+estimate. The next valid test is a protected person/household episode through
+status or policy exposure, institutional encounter, documentation or travel
+change, service/safety use, cultural negotiation, trust, action, migration, and
+recovery; preserve direct exposure versus known-person reports and welcome
+judgments that remain positive.
+
+**Immigration-concern-to-nonuse rotation — 2026-09-25:** the [Urban
+immigrant-family record](records/us-urban-wbns-immigrant-family-disengagement-services-2025.json)
+adds a materially stronger conversion surface after the AAPI identity layer.
+In the December 2025 WBNS, adults in immigrant families reported family-level
+avoidance of work, driving, health care, religious/community participation, and
+safety-net programs because of immigration concerns; mixed-status families also
+reported higher worry about doctors, work, child activities, and police contact.
+This is not a closed causal episode: the source does not identify the exact
+status, enforcement encounter, agency action, forgone benefit, or recovery. The
+next valid test is a protected person/household ledger through status or policy
+exposure, notice, worry, actual use/nonuse, institutional response, material
+consequence, support or correction, trust, action, migration, and recovery.
+
+The Census/AmeriCorps CEV record adds a population-level reach/depth boundary:
+formal volunteering and informal neighbor help rebounded, while mean and
+median volunteer hours fell and online/hybrid volunteers reported a different
+time profile. This is useful for testing whether civic participation is
+expanding through thinner or more flexible commitments, but it is not
+individual-level transition evidence. The [civic reach and time
+record](records/us-census-americorps-civic-reach-time-2023.json) should be
+followed with matched-person or repeated-person evidence on invitation, task,
+time, burden, retention, and later action.
+
+The Pew neighbor-trust bridge now supplies a same-survey conditional association:
+trusters are more likely than distrusters to state willingness to help a neighbor
+and to respond to a public official's conservation request. The Trust for Civic
+Life returner comparison adds a scale-specific lead: local agency and belonging
+held steady while national political trust fell in a small network-recruited
+subset. These do not close actual receipt, compliance, institutional response,
+or durable action. See the [neighbor-trust/public-request
+record](records/us-pew-neighbor-trust-public-request-2025.json) and [local
+agency record](records/us-trust-civic-life-rural-local-agency-2025.json).
+
+Ohio State IDEA's 2025 constituent-engagement survey now sharpens the next
+open arrow: willingness to discuss important issues with Congress is 72.1%,
+but reported recent contact is 21.7%; among noncontact respondents, difficulty,
+time cost, expected nonresponsiveness, and belief that members do not care all
+appear as distinct barriers. Perceived representative interest (64.9%) and
+Congressional trust (14%) remain separate. The [IDEA constituent-engagement
+record](records/us-osu-idea-constituent-engagement-responsiveness-2025.json)
+should be followed by verified receipt, substantive response, issue resolution,
+satisfaction, and later trust or action—not another contact-rate estimate.
+
+The Ohio State town-hall field experiments provide a bounded causal endpoint:
+randomized invitations to real-time interaction with Members of Congress moved
+trust/approval and, in the second study, vote intention and reported vote. This
+closes an interaction-to-action arrow for selected historical participants, not
+ordinary constituent service or contemporary national prevalence. The [town-hall
+field-experiment record](records/us-osu-congressional-townhall-field-experiment-trust-vote-2006-2008.json)
+sets the next test: replicate with current channels and real constituent
+problems, retaining receipt, substantive response, resolution, satisfaction,
+repeat contact, and persistence.
+
+The next source-led test should move from descriptive legitimacy to conversion:
+find a repeated or matched source that connects social ties or an invitation
+route to a dated institutional encounter, civic participation, political
+action, or non-use. Preserve people with available time who do not receive a
+usable entry route, and do not treat local positivity as proof of local
+institutional performance.
+
+**Kindness-to-action rotation — 2026-09-25:** the [Gallup kindness and
+reciprocity record](records/us-gallup-kindness-observation-reciprocity-2026.json)
+adds a bounded interpersonal-capacity layer. Recent kindness exposure and
+perceived kindness are associated with comfort initiating a kind act, but the
+association is strongly age-structured and does not establish actual help,
+adequacy, safety, institutional response, or civic action. The next valid test
+is a repeated or matched request/help episode through invitation, actual action,
+time and safety cost, recipient outcome, repeat behavior, trust, and later
+participation; retain young adults who receive kindness but do not report high
+initiation comfort, and people who initiate without recent receipt.
+
+**Corruption-perception-to-legitimacy rotation — 2026-09-25:** the [Gallup
+government-corruption perception record](records/us-gallup-government-corruption-perception-2026.json)
+adds a broad legitimacy signal: 89% of U.S. adults see government corruption
+as widespread, with high estimates across parties, and government is judged
+more corrupt than business. The source measures perception, not verified
+misconduct, individual exposure, institutional exit, reform, or geopolitical
+reputation. The next valid test is a defined corruption allegation or
+public-system encounter through source exposure, attribution, complaint or
+oversight route, institutional response, remedy, trust, use or exit, political
+action, and later legitimacy; retain people who perceive corruption without
+direct exposure and those who continue using institutions despite high concern.
+
+**SB24 receipt-arrow acquisition result — 2026-09-25:** the external rotation
+located official New Mexico bill text, Legislative Council Service highlights,
+and the Legislative Finance Committee fiscal-impact report. Together they
+establish enacted eligibility, projected return counts, projected benefit,
+administrative routing, and planned outreach, but the public sources located in
+this pass do not report claim counts, refund issuance, processing-time
+distribution, offsets, or household outcomes for the 2008 credit. This is a
+verified source boundary, not evidence that the credit was never paid. The next
+eligible artifact is a tax-administration closeout, audited fiscal realization,
+or return-level file that can preserve filer eligibility, claim/payment,
+timing, amount, and nonreceipt; do not substitute the $87.6 million estimate or
+the 2005 timing comparator for realized receipt.
+
+**Conversion boundary added:** the linked April–June 2025 HTOPS material-to-
+Congress-confidence record now supplies a same-respondent cross-lag, but its
+direction varies by income and race/ethnicity rather than forming one
+material-pressure-to-distrust rule. The next test should add attribution,
+institutional encounter, civic action, or non-use—not another pooled hardship
+and trust cross-tab.
+
+**Linked-transition selection rule — 2026-09-25:** recent additions show why
+the next pass must privilege source records that preserve a unit across a real
+transition or a credible counterfactual: housing-assistance exit to one-year
+stability/health/wages; policy exposure to retirement and claiming timing;
+industry-state AI exposure to entry hiring and employment; and migrant arrival
+to return-or-remain earnings paths. Do not promote a second version of the
+same estimate, a program-reach figure, or a capacity/funding notice when a
+stronger record already supplies that stage. For every selected source, retain
+the unit, geography, period, comparison, outcome horizon, and the unobserved
+arrows.
+
+**Attributed partner-response rotation — 2026-09-25:** the [USTR Taiwan
+reciprocal-trade response record](records/us-ustr-taiwan-reciprocal-trade-capacity-response-2026.json)
+adds a dated external-response stage after U.S. trade and technology pressure:
+Taiwan's announced tariff and non-tariff commitments, planned Taiwan-linked
+U.S. industrial capacity, and reported 2025–2029 purchase categories. This is
+useful because it observes an official partner response rather than only U.S.
+capacity or supplier concentration. The three planned purchase categories sum
+to a transparent $84.8 billion arithmetic figure, but the record does not show
+approval, contracts, payment, delivery, production, local burden, supplier
+switching, persistence, or changed strategic behavior. The next eligible record
+must follow one named purchase, industrial park, or semiconductor/energy
+project through implementation, acceptance, operating output, affected firms
+and workers, local energy/water/infrastructure burden, substitution or
+replaceability, and independently observed partner or counterpart behavior.
+Do not promote the announcement, plan, or arithmetic sum to realized trade,
+resilience, autonomy, or geopolitical leverage.
+
+**AI macro/infrastructure promotion completed — 2026-09-25:** the [AI
+macro/infrastructure/institutional record](records/us-ai-macro-infrastructure-institutional-context-2025-2026.json)
+is now promoted into the cross-lane portfolio. It supplies a distinct
+complement-constrained capacity mechanism across firm productivity and
+employment, modeled distribution, institutional analytics, energy demand,
+development conditions, and household economic judgment. Those surfaces remain
+separate; the promotion does not establish worker gains, household benefit,
+public-service improvement, provider switching, or geopolitical leverage. Future
+passes should seek a named firm, worker, institution, or place with observed
+access, task/service change, incidence, bargaining or voice, local burden,
+replaceability, and later trust or external response rather than another macro
+AI-capacity inventory.
+
+**Consumer-loss/recourse promotion completed — 2026-09-25:** the [consumer-loss
+and recourse bridge](records/us-consumer-loss-recourse-recovery-crosssource-2020-2025.json)
+is now promoted into the cross-lane portfolio. It links household fraud loss and
+recovery time to FTC visibility and CFPB response labels without treating any of
+those as a common incidence rate or verified remedy. Future passes should seek
+same-consumer receipt, adequacy, repeat exposure, switching, or restored security,
+not another report-volume or complaint-label aggregate.
+
+**Financial-path/health/care promotion completed — 2026-09-25:** the [SHED
+paired-transition record](records/us-shed-financial-path-health-care-2024-2025.json)
+is now promoted into the cross-lane portfolio as a counterexample to synchronized
+household-state narratives. It shows health and adult-care transitions within
+financially worsening, unchanged, and improving paths, while preserving the
+descriptive same-respondent boundary. Future passes should seek care intensity,
+hours, trigger, support receipt, substitution, and later security—not another
+financial or care prevalence table.
+
+**FEMA workforce/access promotion completed — 2026-09-25:** the [FEMA
+workforce and mission-readiness record](records/us-gao-fema-workforce-mission-readiness-2026.json)
+is now promoted into the cross-lane portfolio. It adds a bounded staffing →
+surge capacity → assistance-access mechanism, with selected wait and unanswered-
+call evidence but no representative survivor-level causal outcome. Future passes
+should seek named applicant contact, notice, receipt, repair/return, and later
+security rather than another workforce or deployment count.
+
+**County capacity/vehicle-cell promotion completed — 2026-09-25:** the [county
+health-capacity and vehicle-constraint record](records/us-cbp-acs-transport-capacity-cells-2023.json)
+is now promoted into the cross-lane portfolio. It adds a four-cell place
+diagnostic joining local health-establishment density with zero-vehicle context,
+while preserving county-median and non-outcome limits. Future passes should seek
+a named patient or household route through travel, appointment, payment, care,
+and continuity rather than another county capacity table.
+
+**Climate-risk insurance promotion completed — 2026-09-25:** the [Treasury/FIO
+homeowners-insurance record](records/us-treasury-fio-homeowners-insurance-market-2018-2022.json)
+is now promoted into the cross-lane portfolio. It adds a bounded place-risk →
+premium/nonrenewal/claim-severity mechanism, while preserving policy, ZIP-year,
+and market-coverage limits. Future passes should seek a matched property or
+household route through renewal, deductible, claim, repair, financing, and
+stay/move rather than another aggregate risk or premium comparison.
+
+**Bulk-power security promotion completed — 2026-09-25:** the [bulk-power
+security record](records/us-eo-14421-bulk-power-security-2026.json) is now
+promoted into the cross-lane portfolio. It adds a policy-authority and
+stakeholder-input stage connecting strategic security to essential electricity
+service, while preserving the absence of observed implementation, replacement,
+reliability, rate, household, or geopolitical outcomes. Future passes should
+seek a named covered transaction and realized service/cost response rather than
+another policy rationale or authority notice.
+
+**SNAP data-governance promotion completed — 2026-09-25:** the [SNAP
+data-governance conflict](records/us-doj-snap-data-access-federal-state-conflict-2026.json)
+is now promoted into the cross-lane portfolio. It adds a federal-state data
+control, court-restraint, database-safeguard, and public-comment sequence while
+preserving the absence of applicant-level benefit, privacy, trust, or political
+outcomes. Future passes should seek lawful same-episode notice, verification,
+correction, payment timing, privacy concern, and food/work/care outcome rather
+than another agency claim or system-design description.
+
+**FTC AI-companion inquiry promotion completed — 2026-09-25:** the [FTC
+AI-companion inquiry](records/us-ftc-ai-companion-inquiry-2025.json) is now
+promoted into the cross-lane portfolio. It adds a product-governance and
+institutional-scrutiny stage covering monetization, data, safety, age limits,
+and disclosure, while preserving that an inquiry is not a harm finding or
+remedy. Future passes should seek product terms, user exposure/exit, complaints,
+company response, and later enforcement or outcome rather than another inquiry
+announcement.
+
+**Material-to-trust/action promotion completed — 2026-09-25:** the
+[material-to-trust/action bridge](records/us-material-to-trust-action-bridge-2022-2025.json)
+is now promoted into the cross-lane portfolio. It places SIPP, ATUS, MEPS, ANES,
+and CCES evidence beside one another to map material, care, health, trust, and
+civic-action surfaces without converting them into one causal pathway. Future
+passes should seek a same-person or household dated condition → attribution →
+institutional response → trust/action route rather than another disconnected
+attitude or hardship table.
+
+**Federal duplication/fragmentation promotion completed — 2026-09-25:** the
+[GAO duplication/fragmentation review](records/us-gao-federal-duplication-fragmentation-capacity-2026.json)
+is now promoted into the cross-lane portfolio. It adds a portfolio-level
+coordination and fiscal-capacity stage while preserving the distinction between
+reported savings, potential gains, service quality, transition cost, household
+benefit, and legitimacy. Future passes should follow one named program through
+responsibility, navigation, implementation, service, appeal, and affected-unit
+outcomes rather than another savings aggregate.
+
+**Georgia large-load contract promotion completed — 2026-09-25:** the [Georgia
+large-load contract record](records/us-georgia-psc-large-load-contract-realization-2026.json)
+is now promoted into the cross-lane portfolio. It advances the digital-demand
+route from policy to filed executed contracts and regulatory review, while
+preserving the absence of disclosed terms, final approval, energization,
+payment, ratepayer incidence, reliability, or acceptance. Future passes should
+follow one named contract through those stages rather than another load forecast
+or protection announcement.
+
+**Emerging-technology governance promotion completed — 2026-09-25:** the [GAO
+emerging-technology foresight review](records/us-gao-emerging-technology-societal-governance-2026.json)
+is now promoted into the cross-lane portfolio. It adds neural implants,
+general-purpose robots, and orbital-debris removal to the governance-timing
+layer, preserving the expert-foresight boundary and the absence of adoption,
+harm, employment, legitimacy, or geopolitical outcomes. Future passes should
+follow one named technology through deployment, affected actors, safeguards,
+incidents, remedy, and public response rather than another risk inventory.
+
+**Cybersecurity-harmonization promotion completed — 2026-09-25:** the [GAO
+cybersecurity-regulatory-fragmentation record](records/us-gao-cybersecurity-regulatory-fragmentation-2026.json)
+is now promoted into the cross-lane portfolio. It adds selected operator reports
+of overlapping controls and incident-reporting burden alongside federal
+coordination progress, while preserving the absence of national prevalence,
+quantified compliance cost, breach reduction, consumer harm, or service outcome.
+Future passes should follow one named operator through rules, incident,
+reporting, response, service continuity, and customer effect rather than another
+regulatory inventory.
+
+**SIPRI military-expenditure promotion completed — 2026-09-25:** the [SIPRI
+military-expenditure record](records/us-sipri-military-expenditure-2025-state-capacity.json)
+is now promoted into the cross-lane portfolio. It adds the 2025 monetary,
+alliance, and U.S.–China/Europe spending input while preserving the separation
+between spending, procurement, readiness, household incidence, and leverage.
+Future passes should follow one budget or procurement line through delivery,
+acceptance, use, supplier/work effects, attribution, alliance response, and
+social-program incidence rather than another expenditure aggregate.
+
+**Domestic-capacity/autonomy promotion completed — 2026-09-25:** the [domestic
+capacity/autonomy realization record](records/us-ai-domestic-capacity-autonomy-realization-2026.json)
+is now promoted into the cross-lane portfolio. It joins critical minerals,
+CHIPS, data centers/grid, and JASSM/LRASM as separate realization clocks and
+preserves the distinction between commitment, capacity, operation,
+replaceability, and leverage. Future passes should seek one identifier-bearing
+asset or order through production, acceptance, customer use, substitution,
+affected actors, and external response rather than another investment or
+milestone aggregate.
+
+**International AI-infrastructure promotion completed — 2026-09-25:** the
+[international AI-infrastructure comparison](records/us-geopolitical-ai-infrastructure-case-comparison-2023-2026.json)
+is now promoted into the cross-lane portfolio. It adds Romania and Malaysia
+project, financing, ownership, and completion milestones as a bounded capability-
+and-dependence comparison. Future passes should seek one named facility or
+application through operation, portability, replacement, local incidence, and
+external response rather than another project commitment or capacity plan.
+
+**New York Fed debt/credit promotion completed — 2026-09-25:** the [New York
+Fed debt/credit record](records/us-new-york-fed-household-debt-credit-2026q2.json)
+is now promoted into the household-resilience portfolio. It adds a current
+aggregate debt, product-movement, and delinquency layer while preserving the
+distinction from household hardship, payment burden, rates, remedy, and welfare.
+Future passes should seek a lawful household or credit-record episode through
+balance, payment, delinquency, lender response, and recovery rather than another
+aggregate credit snapshot.
+
+**ACS PUMS mobility-subgroup promotion completed — 2026-09-25:** the [2024 ACS
+PUMS mobility-subgroup record](records/us-acs-pums-mobility-subgroups-2024.json)
+is now promoted into the place portfolio. It adds household-income and
+race-coded vehicle and commute contrasts to the county capacity layer, while
+preserving cross-sectional, past-year-income, positive-commute, and non-outcome
+limits. Future passes should seek household/person or place mobility through
+reliability, fares, care/work/medical travel, service use, and stay/move rather
+than another descriptive transport table.
+
+**SIPP resource/job/work-limitation promotion completed — 2026-09-25:** the
+[SIPP resource/job/work-limitation cross-lag](records/us-sipp-resource-job-worklimitation-crosslag-2024.json)
+is now promoted into the household/work portfolio. It adds direction-specific
+same-person monthly transitions while preserving EDISABL, job-count, person-month,
+and descriptive boundaries. Future passes should seek hours/pay, accommodation,
+care, employer response, housing, trust, and action for one worker/household
+rather than another cross-sectional work or resource table.
+
+**NHIS coverage-route promotion completed — 2026-09-25:** the [NHIS health-
+insurance coverage record](records/us-cdc-nhis-health-insurance-coverage-2025.json)
+is now promoted into the usable-access portfolio. It adds coverage-type growth,
+subgroup change, and a persistent uninsured gap while preserving preliminary
+survey, continuity, affordability, care-use, and health-outcome limits. Future
+passes should seek person/household enrollment through cost, network, completed
+care, continuity, debt, trust, and switching rather than another coverage-rate
+table.
+
+**Macro multi-clock promotion completed — 2026-09-25:** the [macro
+price/income/labor/household-room comparison](records/us-macro-price-income-labor-household-room-crosssource-2026.json)
+is now promoted into the household-resilience portfolio. It places BEA, CPI,
+PPI, CPS/CES, JOLTS, and SHED signals on separate clocks and preserves their
+different universes and noncausal boundaries. Future passes should seek one
+household or worker through dated exposure, adaptation, attribution, response,
+and recovery rather than another aggregate macro release.
+
+**ATUS eldercare-roster promotion completed — 2026-09-25:** the [ATUS
+eldercare-roster record](records/us-atus-eldercare-roster-2024-2025.json) is now
+promoted into the care/time portfolio. It adds a non-household-recipient
+mechanism to distributed care capacity while preserving annual-sample,
+provider-level, unweighted-recipient, and non-outcome limits. Future passes
+should seek one care episode through location, need, travel, hours, alternatives,
+replacement, work/social time, and continuity rather than another care-prevalence
+table.
+
+**ATUS provider-time promotion completed — 2026-09-25:** the [ATUS
+eldercare-provider-time record](records/us-atus-eldercare-provider-time-2024-2025.json)
+is now promoted into the care/time portfolio. It adds diary-day activity
+currencies—eldercare, household work, paid work, travel, socializing, and
+secondary childcare—to the roster's relationship-and-place surface. The
+promotion preserves the non-causal annual subgroup, separate-currency,
+composition-sensitive, and non-outcome limits; the next pass should seek a
+dated care episode with substitution, schedule control, and later continuity.
+
+**American Neighbor Survey promotion completed — 2026-09-25:** the [American
+Neighbor Survey record](records/us-american-neighbor-survey-social-infrastructure-belonging-2026.json)
+is now promoted into the social-participation portfolio. It adds a bounded
+neighborhood mechanism connecting nearby amenities and education gradients to
+reported contact, trust, and stated emergency-childcare comfort. The promotion
+preserves cross-sectional, self-report, selection, stated-versus-delivered-aid,
+and non-causal limits; the next pass should seek a place-linked or repeated
+request-to-help episode with burden, adequacy, recovery, and later civic action.
+
+**Pew smartphone self-regulation promotion completed — 2026-09-25:** the [Pew
+smartphone self-regulation record](records/us-pew-smartphone-self-regulation-2026.json)
+is now promoted into the digital-choice portfolio. It adds a perceived-use,
+perceived-cost, and attempted-cutback mechanism, preserving self-report,
+retrospective, non-logged, non-clinical, non-platform-specific, and non-causal
+limits. The next pass should seek repeated or logged use through obligation,
+displacement, actual cutback, privacy choice, switching/non-use, and later
+wellbeing or civic outcome.
+
+**Pew global-role legitimacy promotion completed — 2026-09-25:** the [Pew
+global-role legitimacy record](records/us-pew-global-role-legitimacy-three-audiences-2026.json)
+is now promoted into the geopolitical/state-consequences portfolio. It adds
+foreign reception, U.S. domestic judgment, and partisan meaning as separate
+legitimacy surfaces beside capability and dependence. The promotion preserves
+equal-country medians, survey timing, audience-specific denominators,
+perception-versus-behavior, legitimacy-versus-capability, and non-causal
+limits; the next pass should seek an event-country-party-year response ledger.
+
+**Amazon Prime refund-distribution promotion completed — 2026-09-25:** the [Amazon
+Prime refund-distribution record](records/us-ftc-amazon-prime-enrollment-refunds-2026.json)
+is now promoted into the consumer-control and recourse portfolio. It adds a
+named remedy's issued-versus-accepted dollar stages, eligibility expansion,
+future payment timing, and reissue route. The promotion preserves missing
+customer denominators, issued-versus-received, aggregate-versus-account,
+payment-timing, adequacy, continued-use, trust, and recovery boundaries; the
+next pass should seek authorized account-level receipt and later behavior.
+
+**Pew Latter-day Saints communal-trust promotion completed — 2026-09-25:** the
+[Pew Latter-day Saints communal-trust record](records/us-pew-latter-day-saints-communal-trust-volunteering-2026.json)
+is now promoted into the meaning/social-participation portfolio. It adds an
+institutional belonging and service surface with internal education and region
+gradients, preserving affiliation-group, cross-sectional, self-report,
+generalized-trust, service-recipient, burden, and non-causal limits. The next
+pass should seek a congregation or community episode with access, contribution,
+recipient benefit, correction, burden-sharing, and later civic action or exit.
+
+**CDC community-connection promotion completed — 2026-09-25:** the [CDC
+community-connection record](records/us-cdc-community-connection-support-participation-2026.json)
+is now promoted into the social-participation and informal-support portfolio.
+It adds the distinction between reported social/emotional support and
+health-related difficulty participating. The promotion preserves cross-year,
+cross-survey, missing-denominator, self-report, support-adequacy, barrier, and
+non-panel limits; the next pass should seek a repeated person or household
+route through support, access, participation, practical help, reciprocity,
+recovery, and later belonging or civic action.
+
+**Wildfire-smoke caregiving promotion completed — 2026-09-25:** the [wildfire-
+smoke caregiving record](records/us-nber-wildfire-smoke-caregiving-mothers-employment-2026.json)
+is now promoted into the care/time/work portfolio. It adds an environmental
+shock → school disruption → intermittent care demand → maternal employment
+route, with an industry-level workplace-tolerance boundary. The promotion
+preserves quasi-experimental exposure, study-defined sample, abstract-only
+detail, proxy-tolerance, no-substitution, and non-outcome limits; the next pass
+should seek a mother-child-place episode with employer accommodation, care
+replacement, pay, health, housing, and later continuity.
+
+**SIPP childcare-work-hardship promotion completed — 2026-09-25:** the [SIPP
+childcare-work-hardship bridge](records/us-sipp-childcare-work-hardship-bridge-2024.json)
+is now promoted into the care/time/material portfolio. It adds a same-person
+November-to-December transition from childcare-related work prevention to
+following-month rent/mortgage and utility hardship, while preserving small-cell,
+separate-universe, annual-status, noncausal, and non-recovery limits. The next
+pass should seek a dated household-care episode with alternatives, bill or
+housing consequence, support receipt, substitution, and later recovery.
+
+**Automation-and-meaning promotion completed — 2026-09-25:** the [automation-
+and-meaning-of-work record](records/us-nber-automation-meaning-work-2026.json)
+is now promoted into the infrastructure/technology and work-meaning portfolio.
+It adds a theoretical retained-work mechanism linking machine alternatives to
+contribution meaning and compensation adjustment, while preserving the absence
+of an observed worker/firm denominator, causal outcome, adoption rate, and
+worker-recovery evidence. The next pass should seek a named workplace episode
+with task change, discretion, pay, voice, wellbeing, retention or mobility,
+and later identity or collective action.
+
+**Technology Modernization Fund promotion completed — 2026-09-25:** the [TMF
+realized-savings record](records/us-gao-technology-modernization-fund-realized-savings-2026.json)
+is now promoted into the public-capacity portfolio. It adds federal IT
+investment, project-reported realized savings, projected savings, and the
+agency-versus-user public-value boundary. The promotion preserves project
+accounting, expected-versus-realized, implementation, user-access,
+cybersecurity, and household-benefit limits; the next pass should follow one
+named project through implementation, actual savings, service reliability,
+user access, correction, and later public outcome.
+
+**USPS service-performance promotion completed — 2026-09-25:** the [USPS
+service-performance record](records/us-gao-usps-cost-cutting-service-performance-rural-2026.json)
+is now promoted into the operating-capability and public-network portfolio. It
+adds delivery-standard changes, rural collection changes, missed targets, and
+reported distributional effects. The promotion preserves product, route,
+rural/nonrural, standard-versus-actual, customer, cost-savings, complaint, and
+causal limits; the next pass should seek a named route/customer episode through
+delivery, substitution, burden, correction, and continued use or exit.
+
+**SNAP EBT theft-control promotion completed — 2026-09-25:** the [SNAP EBT
+benefit-theft control ledger](projects/us-safety-net-access/data/snap-ebt-benefit-theft-control-event-ledger-v1.json)
+is now promoted into the safety-net control and recourse portfolio. It adds
+benefit issuance, theft/loss of control, aggregate replacement, security work,
+and open food-security/trust arrows. The promotion preserves approved-claim
+versus prevalence, aggregate-versus-recipient, replacement-versus-receipt,
+interim substitution, security-friction, and non-outcome limits; the next pass
+should seek an authorized household episode through claim, receipt, food access,
+next-month stability, trust, and continued use or non-use.
+
+**Medicare Advantage SNF prior-authorization promotion completed — 2026-09-25:**
+the [Medicare Advantage skilled-nursing authorization ledger](projects/us-health-cost-household-choice/data/medicare-advantage-snf-prior-authorization-event-ledger-v1.json)
+is now promoted into the usable-health-access and recourse portfolio. It adds
+request-level denial, appeal, and reversal stages, preserving selected-
+organization, request-versus-beneficiary, reversal-versus-admission,
+interim-care, functional-recovery, caregiver-burden, trust, and plan-exit
+limits; the next pass should seek one authorized beneficiary episode through
+appeal effort, admission timing, care, recovery, and later plan choice.
+
+**Medicaid eligibility-error correction promotion completed — 2026-09-25:** the
+[Medicaid eligibility-error correction record](records/us-gao-medicaid-eligibility-error-corrective-actions-2026.json)
+is now promoted into the public-system feedback portfolio. It adds national
+error-reporting scope, selected-state training/guidance/system fixes, and a CMS
+cross-state learning gap. The promotion preserves selected-state, error,
+corrective-action, coverage-restoration, continuity, health, cost, trust, and
+noncausal limits; the next pass should seek one state or beneficiary route
+through correction, restored coverage, continuity, and later outcome.
+
+**AI assistant platform-choice promotion completed — 2026-09-25:** the [AI
+assistant platform-choice record](records/us-ai-assistant-platform-choice-trust-privacy-2026.json)
+is now promoted into the digital-choice portfolio. It adds task-specialized
+selection, multihoming, experiential trust, privacy-policy knowledge, reported
+protective tools, and hypothetical data-handling valuation. The promotion
+preserves survey-user, task, nonuser comparison, cross-sectional, self-report,
+regression-association, hypothetical-choice, affordability, and non-telemetry
+limits; the next pass should seek a user/task episode through disclosure,
+actual data handling, protection, retention or switching, and later trust.
+
+**California DROP data-broker deletion promotion completed — 2026-09-25:** the
+[California DROP data-broker deletion record](records/us-calprivacy-drop-data-broker-deletion-2026.json)
+is now promoted into the digital-control and consumer-recourse portfolio. It
+adds centralized request scale, broker coverage, privacy-preserving intake,
+status visibility, processing cadence, and implementation participation. The
+promotion preserves participant-versus-broker denominators, status-versus-
+deletion, exemption, re-collection, timing, trust, and durable-privacy limits;
+the next pass should seek an authorized consumer episode through matching,
+verified deletion, follow-up burden, and later behavior or exit.
+
+**Comparative social-media non-use promotion completed — 2026-09-25:** the
+[social-media non-use and exit study](records/us-sage-social-media-nonuse-exit-2026.json)
+is now promoted into the practical-exit portfolio as comparative evidence. It
+adds nonlinear and reversible non-use, social pressure, platform substitution,
+and the distinction between personal exit and collective political action. The
+promotion preserves Korean interview, small purposive sample, reported-
+experience, non-prevalence, non-telemetry, non-erasure, non-wellbeing, and
+non-U.S.-generalization limits; the next pass should seek a U.S. repeated user
+episode through durable non-use, data deletion, alternative use, wellbeing,
+trust, or collective action.
+
+**Pew working-class identity promotion completed — 2026-09-25:** the [Pew
+working-class identity record](records/us-pew-working-class-identity-2026.json)
+is now promoted into the material-to-meaning/action portfolio. It adds
+self-classification across income, education, party, financial stress, and
+occupation, preserving repeated-cross-sectional, identity-versus-material-
+position, jointly-structured-subgroup, noncausal, and non-action limits. The
+next pass should seek a same-worker or respondent episode through job quality,
+respect, stress, identity, attribution, voice, organizing, and political action.
+
+**Pew Latino American-dream mobility promotion completed — 2026-09-25:** the
+[Pew Latino American-dream mobility record](records/us-pew-latino-american-dream-mobility-2026.json)
+is now promoted into the mobility/meaning portfolio. It adds perceived
+intergenerational progress, attainability judgments, nativity contrasts, and
+material versus relational definitions of the American dream. The promotion
+preserves weighted survey, perceived-versus-observed mobility, open-ended
+coding, nativity-selection, noncausal, non-housing, and non-political-action
+limits; the next pass should seek a family episode through work, housing,
+education, discrimination or service, belonging, attribution, and later action.
+
+**AI-worker retraining promotion completed — 2026-09-25:** the [AI-worker
+retraining returns record](records/us-nber-ai-worker-retraining-returns-2026.json)
+is now promoted into the work/technology agency portfolio. It adds WIOA
+training, matched job-search comparison, occupational movement, and estimated
+quarterly earnings returns for high-AI-exposure workers. The promotion
+preserves abstract-only sample/matching detail, workforce-program selection,
+training access/completion, job-quality, stability, control, meaning, household
+security, and noncausal limits; the next pass should seek one worker episode
+through training, transition, pay, control, and later retention or voice.
+
+**Pew news-platform civic-engagement promotion completed — 2026-09-25:** the
+[Pew news-platform civic-engagement record](records/us-pew-news-platform-civic-engagement-2025.json)
+is now promoted into the platform-to-civic-action portfolio. It adds a U.S.
+engagement typology, partisan news-source ecosystems, influencer exposure,
+perceived understanding, and reported civic action as separate surfaces. The
+promotion preserves cluster, survey, source, influencer, use/trust,
+perceived-understanding, repeated-cross-section, non-panel, and noncausal
+limits; the next pass should seek a repeated user episode through content,
+interpretation, trust, action or non-use, and institutional response.
+
+**Pew religious-institution community-bonds promotion completed — 2026-09-25:**
+the [Pew religious-institution community-bonds record](records/us-pew-religious-institutions-community-bonds-2025.json)
+is now promoted into the meaning/social-infrastructure portfolio. It adds
+publicly perceived community and anti-poverty roles alongside lower membership
+and monthly participation, preserving cross-sectional, self-report,
+role-versus-use, service-delivery, adequacy, trust, political-influence, and
+noncausal limits. The next pass should seek a congregation or community episode
+through access, contribution, delivered service, correction, burden-sharing,
+belonging, and later civic action or exit.
+
+**GAO toxic-exposure record-access promotion completed — 2026-09-25:** the
+[GAO toxic-exposure record](records/us-gao-toxic-exposure-record-access-2026.json)
+is now promoted into the usable-access and institutional-control portfolio. It
+adds a distinct administrative-visibility → personal-access/correction stage:
+claims staff, clinicians, and researchers can use the ILER system while service
+member and veteran access and correction are still rolling out. The promotion
+preserves the screened-veteran denominator, selected stakeholder boundary, and
+the absence of verified exposure, correction success, claim approval,
+treatment, health, trust, or action. The next pass should follow one named
+record through access, correction, verification, claim or care decision,
+treatment, and later appeal or trust rather than another exposure or system-use
+aggregate.
+
+**SNAP work-requirement procedural-denial promotion completed — 2026-09-25:**
+the [SNAP procedural-denial record](records/us-nber-snap-work-requirements-procedural-denials-2026.json)
+is now promoted into the administrative-procedure portfolio. It adds a
+policy-associated work-requirement/exemption → administrative-burden → denial
+→ participation-deterrence mechanism, while preserving the study-selected
+jurisdiction, ABAWD age-boundary, waiver-period, undisclosed-denominator, and
+noncausal claimant-level limits. The next pass should follow one claimant
+through notice, documentation effort, appeal, restored benefits, food/work/
+health outcomes, trust, and action rather than another denial or participation
+aggregate.
+
+**State/local disaster-capability promotion completed — 2026-09-25:** the
+[GAO state/local disaster-response record](records/us-gao-disaster-state-local-response-capability-2025.json)
+is now promoted into the capacity-and-federal-dependence portfolio. It adds
+selected-jurisdiction variation, rural/resource gaps, federal grant/training
+dependence, and role-transition requirements beneath FEMA assistance reach.
+The promotion preserves the 10-state assessment universe and the absence of a
+national capability rate, survivor receipt, response speed, repair, health,
+housing, local economic recovery, trust, or political action. The next pass
+should follow one jurisdiction and named disaster through federal support,
+survivor access, repair/return, local recovery, and public judgment rather
+than another preparedness or assistance-capacity aggregate.
+
+**Amazon Prime redress-route promotion completed — 2026-09-25:** the [FTC
+Amazon Prime redress-route record](records/us-ftc-amazon-prime-redress-route-2025-2027.json)
+is now promoted into the remedy/recovery portfolio. It adds an aggregate
+issuance and low-burden automatic-distribution stage—$845 million reported
+issued, a $200 maximum per eligible consumer, and check/PayPal/Venmo channels—
+while preserving the absence of a common consumer denominator, receipt or
+acceptance, account correction, continued use or exit, trust, and household
+recovery. The next pass should follow an eligible account through notice,
+payment receipt, amount, delay, cancellation or correction, and later security
+or switching rather than another aggregate redress figure.
+
+**Consumer-budget composition promotion completed — 2026-09-25:** the [BLS
+Consumer Expenditure Survey record](records/us-bls-consumer-expenditures-income-quintile-2024.json)
+is now promoted into the household-room portfolio as a bounded budget-context
+layer. It adds 2024 consumer-unit averages, housing's 33.4% average budget
+share, and unequal income/expenditure movement across quintiles, while
+preserving the aggregate, grouped, non-hardship, and noncausal limits. The next
+pass should follow a dated bill, payment, substitution, or protected/sacrificed
+need for the same household rather than another spending-composition table.
+
+**U.S. search-engine learning promotion completed — 2026-09-25:** the [NBER
+search-engine field experiment](records/us-nber-search-engine-market-power-field-experiment-2025.json)
+is now promoted into the platform-agency portfolio. It adds a U.S. default →
+active-choice → temporary exposure → quality-belief updating → continued-
+preference route, while preserving desktop-user, paid-trial, stated-preference,
+modeled-counterfactual, and noncausal limits. The next pass should seek durable
+switching, accessibility, privacy/security, data use, complaint or remedy, and
+later trust rather than another platform-share statistic.
+
+**HUD–LEHD trajectory promotion completed — 2026-09-25:** the [Census HUD–LEHD
+assistance-employment record](records/us-census-hud-lehd-assistance-employment-trajectories-2026.json)
+is now promoted into the receipt/recovery portfolio. It adds a linked
+assistance-entry and exit-to-employment/earnings stage for large administrative
+cohorts, while preserving selected-event, adjusted-comparison, assistance-
+detail, rent-burden, exit-reason, health, trust, and causal limits. The next
+pass should add housing conditions, assistance adequacy, work/care trade-offs,
+exit reason, and later security for the same linked unit rather than another
+aggregate housing-transition table.
+
+**SIPP assistance/housing-pressure promotion completed — 2026-09-25:** the
+[SIPP month-ordered assistance screen](records/us-census-sipp-monthly-assistance-housing-pressure-context-2025.json)
+is now promoted as a distributional counterexample. It preserves the monthly
+person-pair clock, combined assistance-field boundary, resource/tenure
+stratification, and descriptive noncausal limits; the pooled assistance-pressure
+direction cannot be generalized across renter resource bands. The next pass
+should seek a program-specific dated benefit, amount/adequacy, application or
+landlord response, and later housing-security outcome rather than another
+pooled assistance contrast.
+
+**ATUS cultural-civic-time promotion completed — 2026-09-25:** the [BLS ATUS
+cultural-and-civic-time record](records/us-bls-atus-cultural-civic-time-2025.json)
+is now promoted into the social-participation portfolio. It adds an everyday
+time-use denominator for socializing/communication, religious or spiritual
+activity, volunteering, and organizational/civic/religious activity, while
+preserving primary-activity, average-day, cross-sectional, and noncausal limits.
+The next pass should connect time allocation to care/work/health constraints,
+actual participation, reciprocity, belonging, and later institutional response
+rather than another participation-rate snapshot.
+
+**NEA arts-access promotion completed — 2026-09-25:** the [NEA arts
+participation/social-connectedness record](records/us-nea-hps-arts-attendance-social-connectedness-2024.json)
+is now promoted into the cultural-infrastructure portfolio. It adds
+income-patterned live-performance and art-exhibit participation alongside
+reported social/emotional support, while preserving the repeated-cross-section,
+association, access, affordability, venue, transport, belonging, health, and
+political-action limits. The next pass should follow a named cultural route
+through cost/time/access, attendance, social connection, continuity, and later
+civic participation rather than another attendance average.
+
+**HUD HEARS exit-type promotion completed — 2026-09-25:** the [HUD HEARS
+exit-type record](records/us-hud-hears-exit-type-outcomes-2025.json) is now
+promoted into the linked housing-recovery portfolio. It adds positive,
+neutral, and negative assistance exits linked to one-year housing, behavioral-
+health, emergency-department, and wage outcomes for Seattle and King County
+housing-authority cohorts. The promotion preserves the regional observational,
+probabilistic-linkage, locally defined exit-category, selection, one-year,
+non-national, and noncausal limits. The next pass should add assistance
+adequacy, rent burden, exit reason, and longer-term housing security rather than
+another aggregate exit count.
+
+**BLS worker-control implementation promotion completed — 2026-09-25:** the
+[BLS worker-requested-changes record](records/us-bls-worker-requested-changes-control-2024-2025.json)
+is now promoted into the worker-agency portfolio. It adds request, full/partial/
+no-grant, and job-level pause/pace/schedule-control stages while preserving the
+separate CPS-worker and ORS-job units, overlapping request categories,
+preliminary estimates, and the absence of adequacy, persistence, pay, health,
+household, bargaining, or exit outcomes. The next pass should follow one worker
+through request, decision, actual use, care/health and schedule effects,
+persistence, voice, retention, and exit rather than another control average.
+
+**Source-led breadth triage — 2026-09-24:** the regenerated [theme-balance
+audit](US-BROAD-THEME-BALANCE-AUDIT_V1.md) finds the lowest-density source
+surfaces are Platforms/data/attention (87 records, 213 observations),
+Time/care/social reproduction (142, 391), Geopolitical/state consequences
+(148, 358), and Consumer power/recourse (165, 385). The next discovery pass
+should begin with those lanes only when an available source supplies a
+different unit or stage: a dated platform encounter, information or exit
+decision, care/time allocation or continuity, operational/public/external
+state response, or same-consumer remedy/alternative/later outcome. Do not add
+another reach statistic, announcement, aggregate attitude, procurement
+commitment, or formal remedy merely to equalize counts. The audit is a coverage
+control, not a claim that sparse themes matter more or are weaker.
+
+**Outcome-stage re-prioritization — 2026-09-24:** recent passes now include
+real but bounded endpoints: water-finance-linked pollution and older-adult
+mortality, congestion-pricing-linked EMS travel time, school-support-linked
+adult earnings, wildfire-damage-linked income loss and address occupancy, and
+a platform-worker remedy with payment initiation. These sources change the
+next acquisition question. Do **not** add another generic infrastructure
+completion, platform order, or geopolitical posture statement unless it closes
+one of the remaining arrows: named recipient/payment receipt and adequacy;
+same-unit care, employment, housing, or health continuity; a ratepayer or
+patient bill/access consequence; facility or user recurrence/exit; or an
+attributed counterpart behavior and persistence response. The endpoints above
+are not universal-benefit evidence and do not close distribution, recovery,
+or durability.
+
+**Delivery-to-lived-outcome test — 2026-09-24:** the current corpus now makes
+the unresolved cross-lane arrow specific. 988 improved in-state crisis-line
+answering without a detected short-run population mortality effect; selected
+SNAP entry, exit, and continued-receipt groups still had next-month
+rent/mortgage and utility hardship; CFPB case samples distinguish rapid
+routing from public-response and monetary-relief labels; a reported fraud
+agency-recovery subgroup is too small to establish restored material security;
+and a Polish FMS comparator distinguishes physical delivery from accounting
+settlement and readiness. The decisive next sources must link a dated
+intervention or incident to recipient-level receipt, sustained use or
+continuity, adverse recurrence or exit, and a later material, health, work,
+trust, or strategic outcome—while retaining a comparison group or an explicit
+noncausal boundary. Do not promote a capacity gain, benefit state, closure
+label, payment initiation, delivery notice, or settlement record as a lived
+outcome. See the [988 record](records/us-nber-988-crisis-line-capacity-mortality-2026.json),
+[SNAP transition record](records/us-sipp-snap-transition-following-hardship-2024.json),
+[CFPB route record](records/us-cfpb-case-route-sample-2024.json),
+[fraud follow-up record](records/us-htops-fraud-loss-following-trust-2025.json),
+and [FMS timing record](records/us-polish-fms-delivery-settlement-asynchrony-2024-2025.json).
+
+**Consumer-budget exposure rotation — 2026-09-24:** BLS Consumer Expenditure
+Survey results add a current consumer-unit composition and income-quintile
+layer: average annual spending was $78,535 in 2024, housing represented 33.4%
+of the average budget, and published income/expenditure changes differed across
+quintiles, with the lowest-quintile spending increase concentrated in housing.
+This is a distributional budget signal, not a household hardship or causal
+price estimate. The next eligible consumer pass must add a dated bill, quoted
+price, transaction, payment, substitution, or basic-security result for the
+same unit rather than another aggregate expenditure table. See the [BLS
+consumer-expenditures record](records/us-bls-consumer-expenditures-income-quintile-2024.json).
+
+**HUD assistance-to-work trajectory rotation — 2026-09-24:** Census CES-26-31
+links HUD administrative records to LEHD employee-employer records over
+14-year windows around housing-assistance entry and exit. First-time entrants'
+employment and earnings rise after entry following prior declines; eventual
+exiters' trajectories flatten after exit relative to more stable stayers. This
+adds a same-linked-unit labor-outcome stage, but not rent burden, assistance
+adequacy, alternatives, exit reason, health, trust, or recovery. See the [HUD–LEHD
+finding](projects/us-census-hud-lehd-assistance-employment-trajectories/findings/us-census-hud-lehd-assistance-employment-trajectories-2026-001.md).
+
+**Housing-exit-type rotation — 2026-09-24:** the [HUD HEARS finding](projects/us-hud-hears-exit-type-outcomes/findings/us-hud-hears-exit-type-outcomes-2025-001.md)
+links classified positive, neutral, and negative exits in two King County
+housing authorities to one-year housing-stability, health, behavioral-health,
+and wage outcomes. Positive exits were 13.5% of classified heads of household;
+homelessness or unstable housing was 3.1% after positive exits versus 25.4%
+after negative exits. This closes part of the aggregate-exit interpretation gap,
+but remains regional, observational, and does not supply national adequacy,
+rent-burden, trust, action, or durable-security evidence.
+
+**National housing-transition verification completed — 2026-09-24:** HUD
+USER's official *Cityscape* article [Participation, Transition, and Length of
+Stay in Federal Housing Assistance Programs](https://www.huduser.gov/portal/periodicals/cityscape/vol26num2/article2.html)
+and its official [PDF](https://www.huduser.gov/portal/periodicals/cityscape/vol26num2/ch2.pdf)
+were verified. The descriptive administrative-data study covers more than 18.4
+million low-income households receiving federal housing assistance from
+2000–2022; more than 80% had one assistance episode, the median stay was about
+four to five years, and about one in five subsidized households transitioned
+between programs. This verifies the denominator, period, spell framing, and
+program-transition focus, but it remains descriptive and is not promoted as a
+national outcome, adequacy, or recovery estimate. The decisive follow-up is a
+national linked design that preserves exit reason, rent burden, housing quality,
+health, work/care, and later security alongside the transition taxonomy.
+
+**Toxic-exposure record-access rotation — 2026-09-24:** GAO-26-108483 reports
+that DOD/VA's Individual Longitudinal Exposure Record is used by claims staff,
+clinicians, and researchers, while service-member and veteran access and
+correction functions are still being rolled out. This advances the health route
+from exposure and administrative visibility toward personal control of the
+record, but not verified exposure, claim approval, treatment, health, appeal,
+trust, or action. See the [toxic-exposure record finding](projects/us-gao-toxic-exposure-record-access/findings/us-gao-toxic-exposure-record-access-2026-001.md).
+
+**Federal IT modernization realization rotation — 2026-09-23:** GAO-26-107737
+reports about $1.03 billion invested across 68 Technology Modernization Fund
+projects, $13.5 million in reported savings from 11 projects, and $1.06 billion
+in projected savings from 24 projects. This advances the infrastructure and
+public-capacity lane from investment to a limited realized-savings stage while
+keeping projections, agency accounting, service quality, user time, access,
+and household benefit separate. See the [TMF finding](projects/us-gao-technology-modernization-fund/findings/us-gao-technology-modernization-fund-realized-savings-2026-001.md).
+
+**USPS cost-cutting and rural-service rotation — 2026-09-24:** GAO-26-108527
+reports that USPS added 1–2 expected delivery days for some First-Class Mail,
+removed afternoon collection at more than 24,000 post offices more than 50 miles
+from a Regional Processing and Delivery Center, and has missed most lowered
+service targets since FY2021. Oversight entities and stakeholders reported
+disproportionate rural effects. This advances the public-capacity lane from
+financial and network strategy to a reported customer-access consequence, but
+not household delay, substitution, affordability, complaint, trust, or action.
+See the [USPS finding](projects/us-gao-usps-service-performance/findings/us-gao-usps-cost-cutting-service-performance-rural-2026-001.md).
+
+**FEMA assistance-to-housing-reach rotation — 2026-09-23:** GAO-26-108154
+reports more than $3 billion in FEMA Individual Assistance to 1.2 million
+individuals and households affected by selected recent disasters. Assistance
+can cover temporary lodging, rental housing, and home repairs, but GAO also
+reports long helpline waits, confusing eligibility letters, constrained
+post-disaster housing, direct-housing setup delays, and access concerns after
+delivery changes. This advances the property-risk route toward repair and
+housing reach, but not survivor-level receipt, repair completion, safe return,
+move/stay, durable security, trust, or action. See the [FEMA assistance
+finding](projects/us-gao-fema-assistance-housing-reach-2026/findings/us-gao-fema-assistance-housing-reach-2026-001.md).
+
+**State/local disaster-capability rotation — 2026-09-24:** GAO-26-108599 adds
+the upstream jurisdictional stage. Selected-state assessments and official
+interviews report wide variation in response capability, particular rural and
+less-resourced constraints, and the need for clear guidance and preparation
+time when federal roles change. This strengthens the capacity-to-assistance
+route but does not establish response speed, survivor contact or receipt,
+repair, durable housing, trust, or action. See the [state/local capability
+finding](projects/us-gao-disaster-state-local-response-capability/findings/us-gao-disaster-state-local-response-capability-2025-001.md).
+
+**SNAP procedural-denial and participation-deterrence rotation — 2026-09-23:**
+NBER Working Paper 34698 uses SNAP administrative data, age-based exemptions
+for ABAWDs aged 50 and older, and waiver periods in difference-in-differences
+models. Work requirements significantly increase procedural and overall
+denials, with the authors interpreting the result as participation deterrence
+through administrative burden. This advances the service route from rule to
+denial, but not notice, individual effort, appeal, benefit restoration, food
+security, health, durable hardship, trust, or political action. See the
+[SNAP denial finding](projects/us-nber-snap-work-requirements-procedural-denials-2026/findings/us-nber-snap-work-requirements-procedural-denials-2026-001.md).
+
+**Managerial-clarity and digital-surveillance experiment rotation — 2026-09-23:**
+NBER Working Paper 33348 randomizes digital surveillance and whether managers
+explain its use according to workers' baseline productivity in an online labor
+market. Surveillance has no significant average performance effect, but
+unexplained surveillance or its removal significantly reduces output. This
+adds a causal transparency-and-interpretation mechanism to the workplace lane;
+it does not establish national prevalence, pay, autonomy, health, appeal,
+remedy, job exit, household security, or long-run effects. See the
+[managerial-clarity finding](projects/us-nber-digital-surveillance-managerial-clarity-2025/findings/us-nber-digital-surveillance-managerial-clarity-2025-001.md).
+
+**Digital workplace-surveillance implementation rotation — 2026-09-23:**
+GAO-25-107126 reviews 122 studies published from 2020–2024 and interviews
+stakeholders from 11 organizations. It finds that cameras, software,
+geolocation, apps, and wearables can improve safety or identify health problems
+while also increasing pace and injury risk, anxiety, and exposure to flawed
+evaluations, lower pay, discipline, or termination. EEOC, NLRB, and DOL OSHA
+have relevant investigative roles, while GAO reports rescinded or reassessed
+agency guidance in 2025. This adds implementation and oversight to the
+work-control lane, but not worker exposure prevalence, causal effects, appeal,
+remedy, job exit, household security, or collective action. See the
+[digital-surveillance finding](projects/us-gao-digital-surveillance-workers-federal-oversight-2025/findings/us-gao-digital-surveillance-workers-federal-oversight-2025-001.md).
+
+**Health-care trust and care-avoidance rotation — 2026-09-23:** NBER Working
+Paper 32028, revised April 2026, uses a nationally representative U.S. adult
+survey and structural model to distinguish trust in doctors, nurses, hospitals,
+insurers, and public-health entities. Higher trust is associated with more
+preventive and elective care-seeking and less care avoidance, with entity-level
+substitution and within-domain complementarity; associations vary by age and
+political affiliation. This adds a trust-to-behavior middle, but not a causal
+trust shock, realized treatment, affordability, health improvement, remedy, or
+political action. See the [health-care trust finding](projects/us-nber-trust-health-care-seeking-behavior-2026/findings/us-nber-trust-health-care-seeking-behavior-2026-001.md).
+
+**FEMA workforce and disaster-assistance reach rotation — 2026-09-23:**
+GAO-26-108427 reports more than 4,300 FEMA separations in FY2025, a 55% increase
+from FY2024, lost institutional knowledge reported by FEMA officials, and no
+workforce analysis underlying key 2025–2026 decisions. FEMA deployed 13,500
+employees for Hurricanes Helene and Milton; only 4% of the incident-management
+workforce was available in November 2024 afterward, and anticipated 2026 surge
+support fell to about 240 personnel from 600 in 2025. GAO also reports long
+waits and unanswered calls for Texas flood survivors after reduced surge and
+call-center staffing. This adds a state-capacity-to-assistance-reach bridge,
+but not representative contact failure, assistance receipt, housing recovery,
+trust, or political action. See the [FEMA workforce finding](projects/us-gao-fema-workforce-mission-readiness-2026/findings/us-gao-fema-workforce-mission-readiness-2026-001.md).
+
+**Flood-disaster finance and firm-reallocation rotation — 2026-09-23:** Census
+CES-26-52 uses plant-level Census data, business credit, and county-income
+measures to study large federally declared floods. It reports shutdowns
+concentrated among the least productive plants, machinery moving toward more
+productive entrants, survivor productivity gains, and increased lending for
+young and small firms. Recorded estimates include a 3.6-percentage-point
+increase in shutdown within two years, more than 11% higher survivor
+productivity by year six, about 14% higher entrant productivity, and about a
+3.1% increase in bank loans. This advances the disaster-to-firm-capacity
+bridge, but worker continuity, ownership, household recovery, service
+continuity, trust, and political response remain open. See the [flood-finance
+finding](projects/us-census-flood-disaster-aid-firm-reallocation-productivity-2026/findings/us-census-flood-disaster-aid-firm-reallocation-productivity-2026-001.md).
+
+**Drinking-water capacity and household-responsibility rotation — 2026-09-23:**
+EPA estimates $625 billion in 20-year public drinking-water infrastructure need
+and approximately four million lead service lines. CDC reports that about nine
+in ten Americans use community water systems, while about one in eight use
+private wells whose owners bear safety responsibility; about one in five sampled
+private wells had a potentially health-affecting chemical. This adds a
+public-capacity-to-household-responsibility bridge, not household exposure,
+replacement receipt, health, or trust outcomes. See the [drinking-water
+finding](projects/us-epa-cdc-drinking-water-coverage-replacement-risk-2026/findings/us-epa-cdc-drinking-water-coverage-replacement-risk-2026-001.md).
+
+**SIPP parental-leave and unequal work-family-option rotation — 2026-09-23:**
+The Census 2023 SIPP working paper reports that among 2014–2023 first-time
+parents who worked before and after birth, any leave was reported by 89.2% of
+mothers and 63.9% of fathers, while paid leave was 51.6% and 49.3%. Paid leave,
+no-leave shares, and early return timing differed by race/ethnicity and sex.
+This adds a descriptive usable-option and return-timing layer, but not access
+for all parents, causal discrimination, leave adequacy, or later household
+outcomes. See the [parental-leave finding](projects/us-census-sipp-parental-leave-race-sex-first-time-parents-2026/findings/us-census-sipp-parental-leave-race-sex-first-time-parents-2026-001.md).
+
+**HOPE VI neighborhood-connection and intergenerational-outcome rotation —
+2026-09-23:** Census CES-26-02 studies $17 billion of HOPE VI redevelopment
+across 262 distressed public-housing developments using matched differences,
+anonymized tax records, movers exposure, and sibling comparisons. It reports no
+causal earnings effect for adults in public-housing units but better long-run
+child earnings, college attendance, and incarceration outcomes, with increased
+cross-neighborhood interaction as a mechanism. This advances the place-to-
+outcome bridge while leaving displacement, resident retention, housing quality,
+adult security, trust, and voice open. See the [HOPE VI finding](projects/us-census-hope-vi-neighborhood-social-isolation-child-outcomes-2026/findings/us-census-hope-vi-neighborhood-social-isolation-child-outcomes-2026-001.md).
+
+**Consumer-AI choice, trust, and privacy rotation — 2026-09-23:** A June 2026
+weighted survey of 1,999 U.S. adult AI-assistant users reports concentrated
+primary platforms alongside task specialization and about 43% intentional
+multihoming. Trust differs between users and aware non-users; privacy concern
+is widespread, while policy knowledge is more closely associated with
+protective-tool use than concern in a bounded regression. A choice experiment
+finds the highest stated value for avoiding human review, especially for
+sensitive tasks. This adds a current task-level agency mechanism, not
+telemetry, causal privacy action, durable switching, or wellbeing. See the
+[consumer-AI finding](projects/us-ai-assistant-platform-choice-trust-privacy-2026/findings/us-ai-assistant-platform-choice-trust-privacy-2026-001.md).
+
+**California DROP privacy-control rotation — 2026-09-23:** CalPrivacy reports
+more than 325,000 consumer sign-ups/submissions and more than 600 active data
+brokers for a centralized hashed deletion request. Brokers must access the
+mechanism at least every 45 days; public statuses distinguish deleted,
+exempted, opted-out, not-found, and pending, with status updates potentially
+taking up to 90 days. This adds an observable privacy-control route and
+processing clock, but not consumer-level deletion, persistence, equal access,
+trust, or behavioral outcomes. See the [DROP finding](projects/us-california-drop-data-broker-deletion-control-2026/findings/us-california-drop-data-broker-deletion-control-2026-001.md).
+
+**Platform product-trap and collective-exit rotation — 2026-09-23:** The World
+Happiness Report 2026 chapter summarizes a randomized four-week Facebook
+deactivation experiment with 2,743 users: deactivation improved measured
+wellbeing and later reduced use, while the continuing-use group had higher
+reported political knowledge. It separately summarizes a U.S. college-student
+Instagram/TikTok study in which stated individual exit costs coexist with
+stated willingness to pay for community-wide exit. This adds an
+individual-exit-to-coordination mechanism, not actual collective deletion,
+durable account exit, a complete welfare balance, or political action. See the
+[platform-exit finding](projects/us-whr-social-media-collective-exit-2026/findings/us-whr-social-media-collective-exit-2026-001.md).
+
+**Practical platform-exit rotation — 2026-09-23:** Kim and Kim's 20-person
+qualitative study of young Korean adults reports that Instagram non-use can be
+nonlinear and reversible: participants used time, app, account, and routine
+strategies while encountering platform-specific UX, psychological, and social
+friction. Some experienced relief and control, while others reported exclusion,
+incomplete disconnection, or substitution to other platforms. This adds lived
+exit evidence, but not a deletion rate, verified data erasure, dark-pattern
+finding, U.S. effect, or durable political action. See the [practical-exit
+finding](projects/us-sage-social-media-nonuse-exit-2026/findings/us-sage-social-media-nonuse-exit-2026-001.md).
+
+**Import-dependence and negotiation rotation — 2026-09-23:** NBER Working Paper 34006 models asymmetric bilateral import dependence and sectoral substitutability as international power, then reports more bilateral engagement/negotiation when power rises and anticipatory trade adjustment when geopolitical relationships worsen. This adds a bargaining/anticipation stage distinct from observed retaliation, but not a named coercion episode, concession, U.S.-specific incidence, or strategic success. See the [international-power finding](projects/us-nber-international-power-negotiation/findings/us-nber-international-power-negotiation-2025-001.md).
+
+**EITC work-incentive and parent-care gap rotation — 2026-09-23:** Revised NBER Working Paper 32583 estimates that a $500 increase in EITC generosity reduces care from eligible daughters to older parents by 13–24 hours per month, especially intensive care, with no measured replacement through financial transfers, other children, spouses, or paid providers. This adds a policy-to-unpaid-care substitution stage, but not universal harm, care-quality or health effects, or a complete household-welfare estimate. See the [EITC parent-care finding](projects/us-nber-eitc-parent-care-gap/findings/us-nber-eitc-parent-care-gap-2026-001.md).
+
+**Australian social-media age-restriction implementation rotation — 2026-09-23:** eSafety reports about 4.7 million age-restricted accounts removed or restricted by mid-December 2025 and more than 300,000 additional accounts prevented from signing in by early March 2026. Its 898-parent pulse survey reports account ownership falling from 49.7% to 31.3%, but substantial platform-specific retention and unresolved age-assurance gaps; five major platforms were flagged for compliance concerns. This adds policy-to-platform-action-to-residual-access evidence, but not unique-child exposure, privacy cost, safety, wellbeing, or a U.S. effect. See the [Australian implementation finding](projects/us-australia-social-media-age-restriction/findings/us-australia-social-media-age-restriction-2026-001.md).
+
+**Strategic Petroleum Reserve operational-capability rotation — 2026-09-23:** GAO-26-106918 reports estimated effective drawdown capability at 61% of design rate and fill capability at 56% as of December 2025, while the reserve had met drawdown directives to date. Aging infrastructure, construction outages, low inventory, and little commercial pipeline/storage spare capacity constrain the route from nominal reserve to usable emergency market effect. This adds an operational state-capacity stage, but not a shortage, release-specific price effect, household or firm incidence, or geopolitical success. See the [SPR capability finding](projects/us-gao-strategic-petroleum-reserve-capability/findings/us-gao-strategic-petroleum-reserve-operational-capability-2026-001.md).
+
+**Bilateral conflict, economic coercion, and retaliation rotation — 2026-09-23:** NBER Working Paper 35077 decomposes monthly bilateral hostility into kinetic conflict, military posture, sanctions-context hostility, and routine diplomacy. It reports a near doubling in the trade-weighted share routed through sanctions contexts over the past decade, trade effects concentrated in kinetic and trade-context hostility, and a lagged retaliation channel; its counterfactual comparison places roughly $334 billion of bilateral trade at risk, with the U.S.–China pair about half. This adds a comparative external-response mechanism, but not U.S.-specific firm or household incidence, substitution, alliance durability, or strategic success. See the [bilateral conflict/trade finding](projects/us-nber-bilateral-conflict-trade-risk/findings/us-nber-bilateral-conflict-trade-risk-2026-001.md).
+
+**Temporary shelter as public good and incomplete recovery rotation — 2026-09-23:** the [NBER Los Angeles shelter finding](projects/us-homeless-shelter-public-good/findings/us-homeless-shelter-public-good-001.md) reports lower crime and psychiatric ER visits when unsheltered homelessness falls, lower short-run mortality for shelter entrants, and no evidence of lower future homelessness relative to outreach or other services. This adds a public-capacity realization layer while keeping access, safety, durable housing, adequacy, and trust/action open.
+
+**Randomized job-search assistance and heterogeneous recovery rotation — 2026-09-23:** the [NBER Nevada finding](projects/us-job-search-assistance-homeownership/findings/us-job-search-assistance-homeownership-001.md) follows a randomized UI intervention into up to eight years of employment, earnings, UI, disability, tax, and homeownership outcomes. Average outcomes improve, but roughly 40% of the sample is estimated to have negative long-run employment effects. This adds a durable work-to-housing route and a counterexample to average-only recovery claims; job quality, health, care burden, housing adequacy, and meaning/action remain open.
+
+**Emergency housing-assistance-to-work rotation — 2026-09-23:** the [NBER
+hotline/tax-record finding](projects/us-emergency-assistance-work-path/findings/us-emergency-assistance-work-path-001.md) links families experiencing a housing crisis to federal tax records and uses quasi-random assistance availability; up to four years later, employment and earnings gains are reported, especially for the lowest earners. This advances a same-study outcome bridge, but does not show housing continuity, same-job retention, adequacy, job quality, durable security, or trust/action.
+
+**Neighborhood social-infrastructure and belonging rotation — 2026-09-23:**
+The [American Neighbor Survey finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-071.md) reports that 40% of adults talked with neighbors regularly and 40% worked with neighbors to address a community problem; trust, third-place access, and emergency childcare comfort vary by education, housing, age, and local resources. This adds informal capacity between place conditions and collective action, but does not observe actual aid, burden, recovery, or causality.
+
+**Federal duplication and fragmentation rotation — 2026-09-23:** GAO's 2026
+annual portfolio identifies 610 remaining federal duplication/overlap/
+fragmentation matters, including 97 new matters, after $774.3 billion in
+reported cumulative savings and revenue gains. This adds a portfolio-level
+public-capacity and navigation-cost layer, but not household savings, service
+quality, transition cost, or trust effects. See the [federal duplication
+finding](projects/us-gao-federal-duplication-capacity/findings/us-gao-federal-duplication-fragmentation-capacity-2026-001.md).
+
+**AI public-finance and tax-base rotation — 2026-09-23:** NBER Working Paper
+34873 models how labor displacement could erode labor-income and consumption
+tax bases, and how a later autonomous-production stage could require different
+tax instruments. This adds a fiscal-state-capacity and redistribution mechanism,
+but not realized AI adoption, revenue, ownership, household incidence,
+administrative feasibility, or legitimacy. See the [AI public-finance finding](projects/us-nber-ai-public-finance/findings/us-nber-ai-public-finance-tax-base-2026-001.md).
+
+**Public-university admissions-metrics rotation — 2026-09-23:** NBER Working
+Paper 34975 finds high-school GPA more predictive of first-year outcomes and
+graduation than SAT scores in a large urban public university system, unlike
+reported Ivy-Plus evidence. This adds a context-sensitive measurement and
+gatekeeping layer, but not an admissions-reform, access, fairness, earnings, or
+trust effect. See the [public-university metrics finding](projects/us-nber-public-university-admission-metrics/findings/us-nber-public-university-admission-metrics-2026-001.md).
+
+**K–12 AI diffusion and institutional-capacity rotation — 2026-09-23:** NBER
+Working Paper 35347 finds lower school AI integration associated with greater
+student disadvantage, while teacher training, student guidance, and school
+policies lag adoption. This adds an education-capacity and unequal-exposure
+layer, but not causal learning, welfare, privacy, safety, or durable inequality
+effects. See the [K–12 AI-diffusion finding](projects/us-nber-k12-ai-diffusion/findings/us-nber-k12-ai-diffusion-inequality-2026-001.md).
+
+**AI forecast-and-policy-preference rotation — 2026-09-23:** NBER Working
+Paper 35046 compares forecasts from economists, AI-company employees, AI policy
+researchers, highly accurate forecasters, and the general public. Groups broadly
+expect capability advances, but disagreement centers more on economic effects
+than on progress speed; policy preferences split between targeted retraining and
+broader interventions such as a job guarantee or UBI. This adds an
+expectation-to-legitimacy layer, not realized employment, household welfare,
+policy adoption, or political action. See the [AI forecast finding](projects/us-nber-ai-forecast-policy-preferences/findings/us-nber-ai-economic-forecast-policy-preferences-2026-001.md).
+
+**Cybersecurity-regulation harmonization rotation — 2026-09-23:** GAO-26-108685
+summarizes selected industry perspectives that overlapping federal frameworks
+can create duplicative work, conflicting definitions, and technically burdensome
+incident reporting across privately owned critical infrastructure. This adds a
+firm-facing governance-cost and response-capacity layer, but not a national
+prevalence estimate, compliance-cost measure, breach reduction, consumer loss,
+or service outcome. See the [cybersecurity-regulation finding](projects/us-cybersecurity-regulatory-harmonization/findings/us-gao-cybersecurity-regulatory-fragmentation-2026-001.md).
+
+**Water-sector cybersecurity rotation — 2026-09-23:** GAO-26-109159 reports
+that internet-connected operational technology can make remote water-system
+operation useful while also expanding attacker access to physical controls.
+Workforce shortages, legacy systems, competing clean-water requirements, and
+limited federal authority constrain the prevention route across roughly 170,000
+systems. This adds a cyber-to-physical-service realization layer, but not a
+named incident, outage, household health effect, or remediation outcome. See
+the [water-sector cybersecurity finding](projects/us-water-sector-cybersecurity/findings/us-gao-water-sector-cybersecurity-capacity-2026-001.md).
+
+**Emerging-technology governance rotation — 2026-09-23:** GAO-26-108079
+reviews neural implants, general-purpose robots, and orbital-debris removal as
+three technologies with potentially transformative effects over roughly the
+next decade. It adds a future-facing governance-timing layer: capability can
+arrive before privacy, autonomy, environmental, liability, and legal rules are
+settled. The report is expert-informed foresight, not a deployment or harm
+estimate; adoption, distribution, employment, public acceptance, and
+geopolitical response remain open. See the [emerging-technology governance
+finding](projects/us-gao-emerging-technology-governance/findings/us-gao-emerging-technology-societal-governance-2026-001.md).
+
+**Founder-tax risk-sharing rotation — 2026-09-23:** NBER Working Paper 34512
+finds a highly concentrated venture-founder payoff distribution and models a
+tradeoff between accrual-tax dilution for successful founders and refundable-
+credit insurance for unsuccessful founders. This adds a tax-design-to-
+ownership-and-risk-sharing layer, but not a realized reform, employee-welfare,
+innovation, or public-revenue effect. See the [founder-tax finding](projects/us-nber-capital-gains-startup-founders/findings/us-nber-capital-gains-tax-startup-founder-risk-sharing-2025-001.md).
+
+**AI asset-management rotation — 2026-09-23:** NBER Working Paper 35273
+reports steady growth of AI-driven investing concentrated among hedge funds,
+early outperformance that declines over time, and lower return comovement than
+non-AI peers. This adds an adoption-to-performance-decay and market-structure
+layer, but not causal alpha, household investor welfare, leverage, or systemic-
+risk effects. See the [AI asset-management finding](projects/us-nber-ai-asset-management/findings/us-nber-ai-asset-management-performance-comovement-2026-001.md).
+
+**Managed-LTSS cross-payer spillover rotation — 2026-09-23:** NBER Working
+Paper 35055 finds a 4.2% increase in Florida hospitalization risk and a 10%
+decline in influenza vaccination after managed Medicaid LTSS rollout, with no
+significant hospitalization change in New York. It adds a state-design and
+cross-payer mechanism, but not a universal managed-care effect, individual
+quality result, functional outcome, or household burden estimate. See the
+[managed-LTSS finding](projects/us-nber-medicaid-managed-ltss-spillovers/findings/us-nber-medicaid-managed-ltss-health-spillovers-2026-001.md).
+
+**American Indian heterogeneity and measurement rotation — 2026-09-23:**
+NBER Working Paper 35730 emphasizes that economic, educational, health, and
+human-capital outcomes vary by place, tribal identity, resource endowment,
+historical federal policy, and self-governance. It adds a warning that pooled
+averages and changing definitions can hide both persistent harm and progress.
+This is a methodological and governance boundary, not a single causal estimate
+or tribal ranking. See the [American Indian heterogeneity finding](projects/us-american-indian-heterogeneity/findings/us-nber-american-indian-heterogeneity-human-capital-2026-001.md).
+
+**Jail healthcare accreditation rotation — 2026-09-23:** NBER Working Paper
+33357 randomizes an accreditation offer across 46 midsized U.S. jails. The
+offer improves healthcare-standard compliance and substantially reduces
+12-month mortality without added capital or labor inputs, with coordination,
+screening, and oversight as reported mechanisms. This adds an experimental
+public-capacity route, but not post-release continuity, trust, detention
+exposure, contractor-wide performance, or general correctional effects. See
+the [jail healthcare accreditation finding](projects/us-nber-jail-healthcare-accreditation/findings/us-nber-jail-healthcare-accreditation-mortality-2026-001.md).
+
+**Housing-tax allocation rotation — 2026-09-23:** NBER Working Paper 35587
+models how property taxes and step-up-basis treatment redistribute housing
+access across financially constrained young buyers and older homeowners. Its
+California-to-Texas counterfactual lowers modeled prices and older
+homeownership while raising young homeownership. This adds a tax-design-to-
+housing-allocation mechanism, but not an observed reform effect, displacement,
+rental burden, public-service, or political result. See the [housing-tax
+allocation finding](projects/us-nber-property-tax-housing-allocation/findings/us-nber-property-tax-housing-allocation-generations-2026-001.md).
+
+**AI coding realization rotation — 2026-09-23:** NBER Working Paper 35275
+links more than 500,000 GitHub developers to AI usage telemetry. It reports
+large cumulative gains in commits across autocomplete, interactive, and
+autonomous tools, but much smaller gains in projects and actual releases; four
+software marketplaces show more new apps without increased total usage. This
+adds an activity-to-realized-output bottleneck, but not code quality, worker
+wellbeing, bargaining power, firm profit, or consumer value. See the [AI
+coding-output finding](projects/us-nber-ai-coding-shipping-output/findings/us-nber-ai-coding-productivity-shipping-output-2026-001.md).
+
+**AI measurement-validation rotation — 2026-09-23:** NBER Working Paper
+35744 argues that AI makes structured measurement from text and images cheaper,
+but shifts the bottleneck toward construct definition and validation. It
+distinguishes discovery, construct definition, and observation and emphasizes
+explicit criteria, validation samples, and inference under biased prediction.
+This adds a measurement-governance layer for public, firm, platform, and
+research decisions, but not a named-system accuracy, subgroup-error, appeal,
+trust, or resource-allocation result. See the [AI measurement-validation
+finding](projects/us-nber-ai-measurement-validation/findings/us-nber-ai-measurement-validation-inference-2026-001.md).
+
+**Historical immigration-health rotation — 2026-09-23:** NBER Working Paper
+35743 uses Massachusetts town data from 1860–1915 and reports that higher
+foreign-born share raised infant and child mortality, with the infant effect
+concentrated post-neonatally and birth composition explaining only part of the
+effect. The result is consistent with disease-environment spillovers to
+native-born children. This adds a historical place-level shared-risk mechanism,
+but not a contemporary immigration estimate, individual immigrant mortality,
+or a single housing, sanitation, or policy channel. See the [historical
+immigration-health finding](projects/us-historical-immigration-child-mortality/findings/us-nber-immigration-child-mortality-disease-spillovers-2026-001.md).
+
+**Dollar safe-asset convenience rotation — 2026-09-23:** NBER Working Paper
+35742 reports that U.S. dollar safe-asset convenience was about unchanged
+domestically in 2025 relative to 2019 and expected to persist, while the
+relative richness of dollar safe assets versus other currencies fell
+considerably; dollar repo was the highest-convenience dollar asset. This adds
+a domestic-liquidity-versus-global-privilege distinction, but not household
+welfare, reserve-currency loss, sanctions leverage, or external response. See
+the [dollar convenience finding](projects/us-dollar-safe-asset-convenience-geopolitics/findings/us-nber-dollar-safe-asset-convenience-domestic-global-2026-001.md).
+
+**Gendered career-information rotation — 2026-09-23:** NBER Working Paper
+35750 randomizes whether working professionals receive career-information
+messages from male or female college students. Female students receive more
+work-life-balance information than male students, even when asking explicitly,
+and an information intervention indicates consequences for career intentions.
+This adds an information-allocation-to-career-choice stage, but not realized
+occupation, earnings, retention, care burden, or household outcomes. See the
+[gendered career-information finding](projects/us-gender-gaps-career-information/findings/us-nber-gender-gaps-career-information-advice-2026-001.md).
+
+**Social Security information-choice rotation — 2026-09-23:** NBER Working
+Paper 35748 finds that a personalized statement with DI and OAI estimates
+increased applications among older people with work-limiting health conditions
+or low work ability. The response was concentrated further from full retirement
+age and split between DI-only and joint applications. This adds an information-
+interface-to-administrative-choice stage, but not award, receipt, adequacy,
+health, work-exit, or household-security outcomes. See the [Social Security
+information finding](projects/us-social-security-information-benefit-choice/findings/us-nber-social-security-information-disability-early-retirement-choice-2026-001.md).
+
+**Communities In Schools long-run support rotation — 2026-09-23:** NBER
+Working Paper 35740 studies a U.S. program placing coordinators in high-poverty
+schools to connect struggling students with personalized academic, behavioral,
+mental-health, and basic-needs supports. A staggered rollout is associated with
+higher test scores, high-school completion, and adult earnings; test scores
+explain about half of the graduation effect, with attendance and behavior
+accounting for much of the remainder. This adds a rare intervention-to-long-
+run endpoint, but not service-specific mechanisms, household wellbeing, or
+universal transfer. See the [Communities In Schools
+finding](projects/us-communities-in-schools-personalized-supports/findings/us-nber-communities-in-schools-personalized-supports-long-run-2026-001.md).
+
+**Comparative preference-malleability rotation — 2026-09-23:** NBER Working
+Paper 34969 randomizes a six-week job to a husband or wife in Bangladesh and
+follows household preferences one year later. Women’s work improved their own
+wellbeing but not their husbands’, men’s work improved both partners’, and prior
+female employment increased later support for women taking jobs. This adds a
+comparative experience-to-norm pathway, but not a U.S. estimate, durable work,
+safety, care, bargaining, or political-action result. See the [comparative
+household-employment finding](projects/comparative-household-preferences-womens-employment/findings/comparative-nber-household-preferences-womens-employment-2026-001.md).
+
+**Historical risk-preference rotation — 2026-09-23:** NBER Working Paper 35634
+estimates U.S. county- and farmer-level risk preferences from crop choices in
+1889–1929. More risk-averse farmers leveraged less, were less likely to buy
+Liberty Bonds, more likely to join local risk-sharing institutions, and adopted
+tractors more slowly. This adds a non-monotonic preference-to-institution-and-
+technology bridge, but not contemporary culture, causal trust, or universal
+technology behavior. See the [historical risk-preference
+finding](projects/us-historical-risk-preferences-institutions/findings/us-nber-historical-risk-preferences-institutions-2026-001.md).
+
+**Medicaid eligibility-error correction rotation — 2026-09-23:** GAO-26-108017
+finds that selected states used caseworker training, guidance, and eligibility-
+system updates to address Medicaid eligibility errors, while CMS did not
+consistently ensure required corrective-action-plan elements or analyze which
+fixes worked across states and years. This adds an administrative correction-
+to-learning loop, but not individual coverage restoration, continuity, health,
+time, cost, or trust outcomes. See the [Medicaid eligibility-correction
+finding](projects/us-medicaid-eligibility-error-correction/findings/us-gao-medicaid-eligibility-error-corrective-actions-2026-001.md).
+
+**Defense installation-maintenance rotation — 2026-09-23:** GAO-26-107255
+reports an estimated $285 billion DOD deferred-maintenance requirement in
+fiscal year 2025, with about 80% of identified needs funded against a 90% goal.
+DOD has not fully determined the resulting mission and personnel quality-of-
+life risks, and work-order data are not reliable enough for department-wide
+effectiveness assessment. This adds a maintenance-to-state-capacity middle
+layer, but not realized readiness decline, personnel harm, recruitment or
+retention effects, or adversary response. See the [installation-maintenance
+finding](projects/us-dod-installation-maintenance-readiness/findings/us-gao-dod-installation-maintenance-backlog-readiness-quality-2026-001.md).
+
+**Selection into medicine rotation — 2026-09-23:** NBER Working Paper 35631
+uses labor-market downturns in other prestigious fields as an outside-option
+shock to medical-school applicant composition. Decades later, physicians from
+low-outside-option cohorts billed Medicare more per beneficiary, used more
+discretionary revenue-generating services despite seeing healthier patients,
+and sorted toward higher-powered financial settings; additional spending did
+not produce detectable patient-health improvement. This adds a
+professional-selection-to-service-outcome bridge, but not household cost,
+patient welfare, coding, trust, or separately identified mechanisms. See the
+[selection into medicine finding](projects/us-selection-into-medicine-practice-spending/findings/us-nber-selection-into-medicine-practice-spending-health-2026-001.md).
+
+**Native–immigrant entrepreneurial-synergy rotation — 2026-09-23:** NBER
+Working Paper 33804 links U.S. startups to founder and employee employment and
+education histories. Mixed native–immigrant founding teams are reported to have
+larger employment three years after founding, greater funding access and round
+size, and more successful exits than native-only or immigrant-only teams. The
+paper points to diverse labor pools, venture capital, and product markets and
+reports an instrumental-variables check for team size and funding access. This
+adds a firm-level immigration-to-market conversion mechanism, but not worker
+welfare, community spillovers, or separately identified channels. See the
+[native–immigrant entrepreneurial finding](projects/us-native-immigrant-entrepreneurial-synergies/findings/us-nber-native-immigrant-entrepreneurial-synergies-2025-001.md).
+
+**Twin earnings and employer social-interaction rotation — 2026-09-23:** NBER
+Working Paper 35746 links about 44,000 U.S. twin pairs to later earnings. It
+estimates log-earnings heritability around 0.36, finds employer-specific pay
+premiums are mainly driven by same-sex twins working at the same firm, and
+reports a 15% lower estimate when co-working siblings are excluded. This adds
+a family-background-to-firm-sorting mechanism, but not a causal hiring-network,
+worker-control, or household-security result. See the [twin earnings finding](projects/us-twin-earnings-employer-social-interaction/findings/us-nber-twin-earnings-employer-social-interaction-2026-001.md).
+
+**Chicago remote-learning engagement rotation — 2026-09-23:** NBER Working
+Paper 34996 reports three randomized trials. Personalized phone calls increased
+virtual summer-program registration; weekly texts and instructional-aide
+support had null primary engagement effects but some secondary or later math
+gains. This adds a take-up-to-learning endpoint and a counterexample to generic
+digital engagement, while durability, family burden, and broader equity remain
+open. See the [Chicago remote-learning finding](projects/us-chicago-remote-learning-engagement/findings/us-nber-chicago-remote-learning-engagement-rcts-2026-001.md).
+
+**Social Security and intergenerational mobility rotation — 2026-09-23:**
+NBER Working Paper 35456 links historical parental Social Security coverage to
+children's later-life outcomes. Sons with greater predicted parental coverage
+moved farther from childhood homes, earned more, and lived in better
+neighborhoods; comparable effects were not found for daughters, whose support
+was less replaceable through migration. This advances the transfer-to-family-
+adaptation-to-mobility bridge, but does not establish a contemporary effect or
+observe every caregiving exchange. See the [Social Security intergenerational
+finding](projects/us-social-security-intergenerational-migration/findings/us-nber-social-security-intergenerational-migration-2026-001.md).
+
+**Hepatitis-C subscription realization rotation — 2026-09-23:** NBER Working
+Paper 35583 studies Louisiana's 2019 Medicaid subscription model. Treatment
+volume tripled, new hepatitis-C diagnoses fell 23%, $37 million in incremental
+antiviral spending generated an estimated $266 million in five-year savings,
+and the program changed the marginal price of access. This closes a
+financing-to-program-outcome bridge, but not individual treatment completion,
+equal reach, reinfection prevention, household cost, or transferability. See
+the [hepatitis-C subscription finding](projects/us-hepatitis-c-subscription-outcomes/findings/us-nber-hepatitis-c-subscription-outcomes-2026-001.md).
+
+**Federal property-disposal realization rotation — 2026-09-23:** GAO reports
+that 14 of 23 properties recommended and approved through the 2019 and 2025
+FASTA rounds had been disposed of by August 2026, generating about $576 million
+in sale proceeds. Congress has not consistently made the related fund
+available, and completion timelines for many 2025-round properties remain
+unclear. This adds a realized-sale endpoint to the public-capacity lane, but
+does not establish net savings, avoided maintenance, reuse, neighborhood
+effects, or public-service value. See the [federal property-disposal finding](projects/us-federal-property-disposal-realization/findings/us-gao-federal-property-disposal-realization-2026-001.md).
+
+**DOD installation-agreement realization rotation — 2026-09-23:** GAO-26-108092
+reports that intergovernmental support agreements with state, local, and Tribal
+governments increased from 45 in 2018 to 316 in 2025. Some cost estimates lacked
+complete analysis or verification; nine of 21 reviewed single-installation
+agreements used private contractors, and selected wage comparisons ranged from
+19% below to 50% above comparable Service Contract Act determinations. This adds
+a public-partner, labor, and cost-realization middle, but not realized savings,
+service quality, readiness, worker power, or legitimacy. See the [DOD IGSA
+finding](projects/us-dod-intergovernmental-support-agreements/findings/us-gao-dod-intergovernmental-support-agreements-2026-001.md).
+
+**Tribal water construction-to-maintenance rotation — 2026-09-23:** GAO-26-107178
+reports that federal Tribal water assistance can coexist with eligibility
+exclusions, interagency application burden, and post-construction operation and
+maintenance constraints. IHS estimated $6 billion was needed as of November
+2025 for safe-water access; one reported case required more than 80 hours of
+help to obtain an $8,000 grant, while operator and routine O&M capacity remain
+risks. This adds a construction-to-usable-service boundary, but does not
+establish national access, failure, health, bill, trust, or recovery rates. See
+the [Tribal water infrastructure finding](projects/us-tribal-water-infrastructure/findings/us-gao-tribal-water-infrastructure-maintenance-2026-001.md).
+
+**Local accountability and water-capacity rotation — 2026-09-23:** NBER
+Working Paper 35690 studies California municipal drinking-water systems and
+reports that weaker electoral accountability is associated with higher pollution
+and weaker response to public investment aid. Housing transactions at system
+boundaries identify resident clean-water valuations; the structural model
+estimates that stronger accountability would redirect investment toward high-need
+systems, reduce pollution, and generate progressive welfare gains. This advances
+the infrastructure-to-welfare and political-accountability bridge, but does not
+establish national performance, household bills, health, maintenance, trust, or
+durable protection. See the [California water-accountability finding](projects/us-california-water-accountability/findings/us-nber-california-water-accountability-welfare-2026-001.md).
+
+**Institutional-trust-to-retirement-behavior rotation — 2026-09-23:** NBER
+Working Paper 35220 uses the Health and Retirement Study to connect
+domain-specific institutional trust and financial literacy to retirement
+account ownership, stockholding, and wealth. Financial-institution trust aligns
+positively with retirement-security behavior, while government-program trust
+does not show the same pattern and is linked to lower stockholding and wealth
+among minority households; the relationship also differs across racial/ethnic
+groups. This adds an observed trust-to-material-adaptation bridge, but does
+not establish causality, adequacy, current working-age behavior, legitimacy, or
+political action. See the [trust/financial-behavior finding](projects/us-trust-financial-behavior-retirement/findings/us-nber-trust-financial-behavior-retirement-2026-001.md).
+
+**Social-media restriction and norm-dependent compliance rotation — 2026-09-23:**
+NBER Working Paper 35162 studies Australia’s under-16 social-media restriction.
+In a reported sample of 746 teenagers, about one-quarter of 14–15-year-olds
+complied four months after the restriction; respondents reported needing roughly
+two-thirds of peers to comply before doing so themselves, and compliers were
+perceived as less popular. The study reports compliance falling to about one in
+twenty two months later. This adds a platform-policy-to-social-norm mechanism
+and a persistence warning, but it is comparative and does not establish U.S.
+compliance, mental-health or school effects, family burden, trust, or durable
+exit. See the [social-media tipping-point finding](projects/comparative-social-media-ban-tipping-point/findings/comparative-nber-social-media-ban-tipping-point-2026-001.md).
+
+**Geopolitical deepening boundary recheck — 2026-09-23:** a fresh review of
+NATO's public-private resilience guidance, Allied Reaction Force deployment
+material, and FERC's large-load integration actions found no unrepresented
+later-stage endpoint worth promoting. NATO's guidance specifies civilian,
+private-sector, and military coordination requirements, while the ARF material
+documents deployment and exercise execution; neither measures event-specific
+public consent, civilian-service continuity, or changed external behavior.
+FERC's large-load orders direct regional operators to justify or reform tariffs
+and include cost-recovery safeguards, but do not yet show final facility
+compliance, retail bills, reliability outcomes, or household acceptance. See
+the [NATO public-private guidance](https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/16/guidance-for-enhancing-public-private-cooperation-for-resilience),
+[ARF deployment account](https://nrdc-ita.nato.int/newsroom/news-archive/2026/steadfast-dart-2026-from-deployment-to-execution-phase-the-allied-reaction-force-test-begins),
+and [FERC large-load action](https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration).
+The next valid move remains a named capability or affected civilian system
+followed into acceptance, burden, response, durability, or reversal.
+
+**Disability-employment funding-coordination rotation — 2026-09-23:** GAO's
+review of Georgia, Pennsylvania, and Washington shows employment support for
+people with intellectual or developmental disabilities moving between state
+Vocational Rehabilitation and Medicaid HCBS. VR commonly uses milestone
+payments while HCBS primarily uses fee-for-service; six of 12 interviewed
+providers reported service gaps from administrative burden or confusion, four
+reported reimbursement delays, and examples included 6–9 month authorization
+delays and three months of unreimbursed transition work. Families were
+reported to give up in some cases, while Georgia case tracking/dual-provider
+practice and Pennsylvania's 120-day bypass rule are bounded counterexamples.
+This adds a payment-clock-to-usable-work bridge: formal program availability
+can coexist with fragile continuity at the handoff. It does not establish a
+national gap rate, job loss, wage effect, or individual employment outcome.
+See the [disability-employment coordination finding](projects/us-aging-care-strain/findings/us-gao-disability-employment-coordination-funds-2026-001.md).
+
+**Pregnancy-and-early-childhood performance rotation — 2026-09-23:** GAO
+identified 242 federal programs and tax expenditures serving pregnant women,
+children through age five, or their families, including 15 focused direct-
+service programs across five agencies. Officials from all 15 reported
+coordination, but three lacked a fully established federal performance-
+management process for goals, data, and results assessment. This adds a
+fragmented-support-to-outcome-visibility bridge: coordination and program
+count can coexist with weak federal ability to assess results. It does not
+establish duplication, family access, service quality, or child/maternal
+outcomes. See the [pregnancy and early-childhood performance finding](projects/us-safety-net-access/findings/us-gao-pregnancy-early-childhood-performance-management-2026-001.md).
+
+**Medicaid-renewal administrative-burden rotation — 2026-09-23:** an NBER
+field experiment with Covering Wisconsin randomized a prerecorded navigator-
+assistance call for 62,499 Wisconsin fee-for-service Medicaid beneficiaries
+in 55,310 households facing renewal. The call increased renewal by 1.0
+percentage point from a 67.8% baseline and reduced procedural denials by 1.1
+points from a 22.3% baseline; effects were larger for Tribal members, children,
+people with chronic conditions, and lower-income participants. At most about
+61% of calls were estimated to reach the correct person, so delivery is part
+of the mechanism. This closes an experimental administrative-help-to-renewal
+arrow without establishing national retention, continuous care, health,
+household security, or trust. See the [Medicaid renewal outreach finding](projects/us-safety-net-access/findings/us-nber-medicaid-renewal-outreach-administrative-burden-2026-001.md).
+
+**Wildfire-smoke caregiving and maternal-work rotation — 2026-09-23:** an NBER
+working paper uses plausibly exogenous wildfire-smoke variation to show that
+smoke increases school closures and student absenteeism, creating intermittent
+caregiving demand even when formal childcare exists. Comparing mothers whose
+youngest children differ in reliance on school-based childcare, the study finds
+substantial contemporaneous labor-market costs and accumulated employment loss;
+losses were fully offset outside male-dominated industries, consistent with a
+workplace-tolerance boundary. This advances the material/time/care route from
+environmental shock to work consequence, but does not observe household income,
+paid or unpaid hours, care substitution, health, housing, trust, or recovery.
+See the [wildfire-smoke caregiving finding](projects/us-household-calendar-integration/findings/us-nber-wildfire-smoke-caregiving-mothers-employment-2026-001.md).
+
+**No-Surprises arbitration and provider-power rotation — 2026-09-23:** an NBER
+study links federal arbitration records to a national provider-insurer network
+panel and ACA marketplace plan data. Arbitration was high-volume and
+provider-favorable, with awards above the statutory benchmark; provider network
+participation declined in the specialties and states most affected by the Act
+and after groups' first favorable arbitration outcomes. Suggestive evidence
+indicates more-exposed insurers raised premiums. This adds a policy-to-provider-
+bargaining-to-network/pricing arrow beside the GAO claims surface, but does not
+observe patient-specific access, waits, realized bills, care continuity, health,
+or household recovery. See the [NBER arbitration and network finding](projects/us-no-surprises-network-participation/findings/us-nber-no-surprises-arbitration-network-pricing-2026-001.md).
+
+**ACA underwriting and heterogeneous option-value rotation — 2026-09-23:** an
+NBER study uses proprietary pre-ACA insurance applications and underwriting
+decisions to observe who could previously be rejected or disadvantaged because
+of health risk. It estimates that the ACA's ban on underwriting and its premium
+subsidies benefited low-income, high-risk, and over-50 applicants most. This
+adds a pre-policy rejection margin to the health-access lane, but does not
+observe later enrollment persistence, premium payment, network access,
+treatment, health, job mobility, or household recovery. See the [ACA
+underwriting finding](projects/us-health-cost-household-choice/findings/us-nber-aca-underwriting-heterogeneous-effects-2026-001.md).
+
+**West Bank and Gaza assistance-oversight rotation — 2026-09-23:** GAO reports
+more than $7.8 billion in U.S. assistance since 1993 and $624 million through
+37 FY2022–2024 USAID prime awards. State took over administration in July 2025;
+all but East Jerusalem Hospital Network support had ended, while future office
+ownership and anti-terrorism procedures were not finalized. This adds an
+assistance-transfer-to-control-and-legitimacy bridge, but does not establish
+diversion, beneficiary outcomes, service continuity, partner response, or
+changed regional behavior. See the [West Bank and Gaza oversight finding](projects/us-west-bank-gaza-assistance-oversight/findings/us-gao-west-bank-gaza-assistance-oversight-2026-001.md).
+
+**NNSA shared-infrastructure rotation — 2026-09-23:** GAO reports more than
+$15 billion in reimbursed Strategic Partnership Projects across NNSA sites in
+FY2019–24, all nine interviewed federal partners describing the work as
+essential to their missions, and about $1.4 billion in FY2024 indirect costs
+reimbursed by partners. SPP increases use and maintenance of specialized public
+facilities, but some sites limit growth because staff and facilities are also
+needed for core missions. This adds an operating and cost-allocation middle:
+shared infrastructure can expand capability while creating dependence and
+capacity trade-offs. Net savings, facility condition, substitute capability,
+equity, and external mission effect remain open. See the [NNSA shared-
+infrastructure finding](projects/ai-work-control/findings/ai-work-control-145.md).
+
+**NNSA line-item accountability rotation — 2026-09-23:** GAO reports more than
+$20 billion per year across nine management-and-operating contracts, close to
+$24 billion in FY2025, and almost $200 billion planned for modernization over
+the next decade. NNSA has not documented criteria for when tasks should be
+separated into line items or fully assessed lessons from prior use. This adds a
+contract-structure-to-accountability bridge, but does not establish waste,
+contractor failure, delivered capability, readiness, safety, or deterrence.
+See the [NNSA line-item finding](projects/us-nnsa-strategic-partnership-capacity/findings/us-gao-nnsa-line-item-contract-accountability-2026-002.md).
+
+**K–12 chronic-absence oversight and data-quality rotation — 2026-09-23:**
+GAO reports that at least one-quarter of K–12 students were chronically absent,
+while Education discontinued its most comprehensive ESEA monitoring in 2026.
+Nearly $27 billion in FY2025 ESEA funds therefore faced weaker oversight, and
+the chronic-absence rate construction produced implausible rates in over 30% of
+low-performing and shared-time schools versus under 2% of other schools. This
+adds a measurement-to-accountability-to-student-capacity bridge, but does not
+establish individual causes, intervention effects, fraud, learning loss, or
+household outcomes. See the [K–12 chronic-absence finding](projects/us-school-attendance-absence/findings/us-gao-k12-chronic-absenteeism-oversight-data-quality-2026-001.md).
+
+**HOPE VI forced-relocation welfare rotation — 2026-09-23:** an NBER study
+combines administrative records of displaced Chicago public-housing residents
+with Census sorting and price data. It estimates large welfare losses from
+displacement, partial offsets from housing vouchers, higher prices and gains
+concentrated among higher-income homeowners, and counterfactual mitigation from
+more generous vouchers and counseling that does not eliminate losses. This
+advances the housing-shock-to-recovery route, but does not observe individual
+housing stability, school/work continuity, health, belonging, trust, or action.
+See the [HOPE VI forced-relocation finding](projects/us-hope-vi-neighborhood-opportunity/findings/us-nber-hope-vi-forced-relocation-welfare-2026-002.md).
+
+**Patent-rights, agricultural innovation, and local-distribution rotation — 2026-09-23:** an NBER study uses differential crop exposure to the 1985 plant-biotechnology patent change. Patent protection increased novel-plant development, private research investment, some technology spillovers, yields, and exposed-county land values and profits, while seed spending rose and downstream distortions remained possible. This adds a legal-control-to-firm-investment-to-local-gain route, but does not observe consumer prices, farmer bargaining power, labor, environmental effects, or household food security. See the [patent-rights finding](projects/us-patent-rights-agricultural-innovation/findings/us-nber-patent-rights-agricultural-innovation-local-profits-2026-001.md).
+
+**Complaint-portal integrity and public-visibility rotation — 2026-09-23:**
+the CFPB described new identity and routing controls after concerns about
+third-party, AI-assisted, and otherwise unreliable complaint submissions, then
+stopped discretionary publication of unverified complaint narratives and
+visualizations. This adds a public-institution interface trade-off: improving
+the integrity of an administrative route can reduce publicly visible consumer
+voice. Collection, response, public visibility, correction, trust, and exit
+remain separate stages. See the [CFPB complaint-visibility finding](projects/us-customer-automation-recourse/findings/cfpb-complaint-publication-integrity-2026.md).
+
+**DROP implementation-result rotation — 2026-09-23:** CalPrivacy's August
+follow-up reports more than 500,000 California registrants, 654 participating
+data brokers, about 25% of brokers reporting that they had processed requests,
+99.9% of consumers with a profile deleted by at least one broker, and deletion
+from more than 40 brokers for the typical user. This advances DROP from a
+visible request-and-status design to a reported partial implementation result.
+It still does not establish all-broker deletion, residual copies, valid
+exemptions, re-collection prevention, trust, switching, or wellbeing. See the
+[DROP contestability finding](projects/us-drop-status-contestability/findings/us-drop-status-contestability-001.md).
+
+**Partisan-identity and coalition-boundary rotation — 2026-09-23:** Pew's
+2026 NPORS puts Democratic or Democratic-leaning adults at 47%, Republican or
+Republican-leaning adults at 43%, and no-lean/refused at 10%; 44% call
+themselves independent or something else before leaners are assigned. The
+national gap is small, but the social pattern is uneven: men lean Republican,
+women Democratic, Black and Hispanic adults Democratic, and college graduates
+Democratic while adults without a degree are close to even. This adds an
+identity-and-coalition layer: a party label can organize belonging without
+being the same as a vote, issue position, or durable realignment. The next test
+joins repeated identity to material change, messenger or institutional trust,
+issue judgment, turnout or organizing, and persistence; do not call a small
+cross-sectional shift a realignment. See the [party-affiliation finding](findings/us-pew-party-affiliation-npor-2026-matched-evidence-001.md).
+
+**Health-influencer authority rotation — 2026-09-23:** Pew analyzed 12,800
+accounts belonging to 6,828 prominent health and wellness influencers. Forty-one
+percent described themselves as health professionals, 31% as coaches, and 28%
+as entrepreneurs. Forty percent of U.S. adults—and half under 50—get this kind
+of information from influencers or podcasts. Among those users, 10% trust all
+or most, 65% trust some, and 24% trust little or none; 54% say the information
+helps them understand health better. This adds a cultural/platform authority
+layer: reach, relatability, credentials, and commercial identity can coexist
+without verified accuracy. The next test follows one claim through source
+identity, sponsorship, verification, care, spending, and outcome; do not treat
+audience size or trust as medical expertise or health success. See the
+[health-influencer finding](findings/us-pew-health-wellness-influencer-authority-2025-matched-evidence-001.md).
+
+**Health-information trust rotation — 2026-09-23:** Pew’s survey of 5,111 U.S.
+adults finds that 85% get health information from providers at least sometimes,
+while 66% use people with similar health issues, 36% social media, and 22% AI
+chatbots. Seventy-six percent encounter conflicting health information and 54%
+find it at least somewhat difficult to know what to trust. Provider information
+is rated more accurate than social-media information, but access, cost, and time
+remain separate. This adds an information-legitimacy layer: people can have
+many sources without a clear trusted route to action. The next test follows one
+protected health question through verification, care-seeking, treatment, cost,
+adherence, and outcome; do not treat source use or perceived accuracy as health
+success. See the [health-information trust finding](findings/us-pew-health-information-source-trust-2025-matched-evidence-001.md).
+
+**AI diffusion layers rotation — 2026-09-23:** a Census CES study of the 2026
+BTOS AI supplement separates firm adoption, business-function deployment, and
+worker task use. AI appeared in 18% of firms, or 32% employment-weighted;
+worker task use appeared in 23% of firms, or 41% employment-weighted. Worker
+use sometimes occurred without formal firm adoption, and formal adoption
+sometimes occurred without worker task use. Most users reported augmentation,
+while employment decreases were reported by 2% of firms; functional breadth and
+operational investment, not task use alone, were associated with decreases.
+This adds a layered AI-control and firm-size pattern. The next test follows the
+same firm and workers through deployment, training, monitoring, pay, headcount,
+voice, and exit; do not turn an early firm-reported working paper into an
+individual job-loss or productivity estimate. See the [AI diffusion finding](findings/us-census-ai-diffusion-firm-function-task-btos-2026-matched-evidence-001.md).
+
+**UI-and-employer-power rotation — 2026-09-23:** a Census CES working paper
+using matched employer-employee data finds that unemployment-insurance
+extensions lengthened nonemployment by about one week. The overall earnings
+gain was economically meaningful but not statistically significant, and the
+earnings effect was significantly weaker in more concentrated local labor
+markets; the duration effect did not differ by concentration. This adds a
+firm-power layer: the same extra search time may create different bargaining
+value depending on the employers available. The next test follows UI receipt
+through search, offer, wage, hours, benefits, retention, household bills, and
+later security; do not turn a Great Recession working-paper result into a
+current universal UI effect. See the [UI/employer-power finding](findings/us-census-ui-extensions-labor-concentration-match-quality-2008-2013-matched-evidence-001.md).
+
+**Older-worker workforce rotation — 2026-09-23:** GAO finds that adults 55+
+were about 22% of participants in six selected federal workforce programs
+(769,000 people) in program year 2023, but their post-exit employment was lower
+than for younger participants and they used training less often. Forty-one
+workers described digital-literacy and job-search benefits alongside application
+friction, limited openings, and possible age discrimination; local practices
+were useful but ad hoc. This adds an aging-workforce and usable-service layer:
+participation can be real while the next job step remains uneven. The next test
+follows one older worker through outreach, training choice, employer contact,
+offer, pay, retention, care, health, and retirement security; do not treat
+enrollment or exit as durable employment success. See the [older-worker finding](findings/us-gao-older-worker-workforce-development-digital-age-2023-matched-evidence-001.md).
+
+**DHS acquisition-baseline rotation — 2026-09-23:** GAO reviewed 27 major
+Homeland Security acquisition programs. Nineteen had approved baselines; 15
+later revised them, collective projected costs rose $11.4 billion (26%), and
+18 of 19 met their latest baseline. Eight programs also lost at least 20% of
+staff, while DHS dissolved and later partly reconstituted a department-level
+acquisition oversight office. This adds a geopolitical realization layer:
+“on track” can be true after the target, resources, or oversight frame moves.
+The next test follows one named program from original requirement through
+revision, staffing, testing, fielding, sustainment, mission use, and external
+response; do not treat a current green status or appropriation as delivered
+capability. See the [DHS acquisition finding](findings/us-gao-dhs-major-acquisition-baseline-oversight-2025-2026-matched-evidence-001.md).
+
+**State-administered public-programs rotation — 2026-09-23:** GAO reviewed 20
+large programs that together represented about $1.1 trillion in FY2025 federal
+obligations and nearly 90% of obligations among the qualifying state- and
+locally administered programs. Funds can pass through states to Tribes, local
+governments, subrecipients, and contractors; only 5 of the 20 programs had
+documented evidence of identifying and assessing fraud risks for action, while
+15 did not, and 22 recommendations remained open. This adds a delivery-chain
+visibility layer: local flexibility can expand reach while each handoff makes
+records, responsibility, and correction harder to see. The next test follows
+one named program and recipient or award through allocation, delivery, anomaly,
+complaint, correction, recovery, and later service use; do not treat an
+obligation total, decentralized delivery, or missing risk assessment as proof
+of fraud or successful service. See the [state-administered program finding](findings/us-gao-state-administered-program-fraud-visibility-2025-2026-matched-evidence-001.md).
+
+**FAA simulator-oversight rotation — 2026-09-23:** GAO reports that the
+simulator fleet grew by more than 500% from 1990 to 2025 while National
+Simulator Program staffing stayed roughly steady. Evaluation activity also
+stayed fairly steady after FAA extended some evaluation intervals from 12
+months to as much as 36 months. Six of 10 selected sponsors raised
+communication concerns, two cited possible safety concerns, and some
+mission-critical skills gaps remained open. This adds a physical-safety
+infrastructure layer: visible workload can stay stable when the coverage rule
+changes, but that only works if risk criteria, feedback, and staff capability
+keep pace. The next test follows a simulator through technology change,
+eligibility, interval decision, feedback, deficiency, correction, training,
+and later safety signal; do not treat steady evaluation counts or longer
+intervals as proof of safety. See the [FAA simulator oversight finding](findings/us-gao-faa-flight-simulator-oversight-workload-1990-2025-matched-evidence-001.md).
+
+**Foreign-assistance oversight rotation — 2026-09-23:** GAO’s State Department
+letter reports 148 open recommendations as of August 2026, including nine
+priority recommendations. It highlights oversight of more than $30 billion in
+direct budget support to Ukraine through the World Bank and inconsistent State
+investigation, documentation, and reporting of potential security-assistance
+violations. This adds a geopolitical legitimacy layer: money and defense
+articles can move under strategic urgency while proof of intended use,
+safeguarding, and congressional visibility remains incomplete. The next test
+follows a named dollar or defense article through delivery, use, incident,
+investigation, correction, reporting, partner response, and strategic effect;
+do not treat authorization or delivery as control or misuse as proven. See the
+[foreign-assistance oversight finding](findings/us-gao-state-priority-recommendations-security-assistance-ukraine-2026-matched-evidence-001.md).
+
+**Robotic-autonomy realization rotation — 2026-09-23:** GAO’s public Navy
+snapshot says a hybrid fleet using robotic and autonomous systems is urgent,
+but leadership turnover, shifting priorities, platform-centered acquisition,
+and missing portfolio roles slowed the move from research toward fielding. The
+Navy’s iterative-development framework had not yet been implemented as of
+March 2025. This adds a geopolitical capability layer: a state can recognize a
+technology shift and plan billions in investment while its institutions still
+cannot move requirements and resources across domains. The next test follows a
+named system through prototype, testing, production, fielding, training,
+sustainment, use, replacement, and external response; do not treat funding or
+strategic urgency as delivered capability or deterrence. See the [RAS
+organizational-capacity finding](findings/us-gao-navy-robotic-autonomous-systems-organizational-capacity-2026-matched-evidence-001.md).
+
+**VA health-record rollout and usability rotation — 2026-09-23:** GAO reports
+that VA fully implemented only 4 of 18 recommendations on its electronic
+health-record modernization program; 14 remain not fully addressed, including
+12 priority recommendations. VA paused deployment after veterans and
+clinicians reported dissatisfaction, reliability, and patient-safety concerns,
+then planned an accelerated path toward about 170 sites by 2031. This adds a
+health-technology realization layer: deployment and acceleration can outrun
+user readiness, operational testing, cost visibility, and correction. The next
+test follows each site through training, data migration, tickets, correction,
+clinician/veteran experience, safety, care delay, and continuity; do not treat
+deployment or recommendation closure as usable clinical success. See the
+[VA EHR finding](findings/us-gao-va-electronic-health-record-modernization-implementation-2026-matched-evidence-001.md).
+
+**Medical-device delegation and audit-clock rotation — 2026-09-23:** GAO
+reports that accredited outside organizations reviewed 617 510(k) submissions
+from FY2018–FY2025, about 2% of CDRH reviews, while FDA retained the final
+market decision. Two organizations supplied 90% of the delegated reviews, and
+some recent deficiency audits took more than six months to close because FDA
+policies lacked target completion and communication times. This adds a health-
+infrastructure layer: delegation can expand capacity while correction and
+accountability remain centralized. The next test follows a named device from
+sponsor and reviewer through FDA decision, audit, correction, use, safety
+signal, access, and patient outcome; do not treat accreditation or substantial
+equivalence as clinical safety. See the [medical-device oversight finding](findings/us-gao-fda-third-party-device-review-audit-2026-matched-evidence-001.md).
+
+**Tribal-federal shared-control rotation — 2026-09-23:** GAO reviewed five
+illustrative agreements over federal lands and waters in ancestral territories
+and identified 11 features that strengthen shared decision-making, including
+consensus and dispute procedures. Legal authority, leadership, long-term
+relationships, and Tribal advocacy helped agreements form, but Forest Service
+and NOAA authority gaps and unassessed workforce capacity constrained the
+route. This adds a sovereignty-and-usable-voice layer: consultation and a
+written partnership can exist before decision-level control, community
+consent, or cultural outcomes are demonstrated. The next test follows each
+named decision through notice, information, input, authority, disagreement,
+staffing, cost, change, and community response; do not treat an agreement or
+meeting as equal power or durable self-governance. See the [Tribal shared-
+decision-making finding](findings/us-gao-tribal-federal-shared-decision-making-agreements-2026-matched-evidence-001.md).
+
+**Environmental-finance and lender-liability rotation — 2026-09-23:** a Census
+study of the 1996 Lender Liability Act finds that when lenders' cleanup risk
+fell, affected establishments increased pollution and reduced abatement
+investment by about 14.7%; loan maturity also lengthened. This adds a finance-
+to-environment governance layer: credit terms can shape pollution incentives
+even when the lender has no formal control over the firm. The next valid test
+follows collateral, loan pricing and maturity, monitoring, abatement, release,
+cleanup, worker and community exposure, health, complaints, and response; do
+not turn a 1990s CERCLA mechanism into a current pollution or health estimate.
+See the [environmental-finance finding](findings/us-census-environmental-lender-liability-pollution-1992-1999.md).
+
+**Temporary public-hiring rotation — 2026-09-23:** a Census study of the 2010
+Decennial hiring program finds that marginal applicants who received a
+temporary Census job were 61 points more likely to have W-2 employment in 2010
+and 28 points more likely in 2023; the long-run effect was concentrated among
+men. Across the broader applicant pool, the short-run effect faded, and low-
+score hires were more than twice as likely to be terminated for misconduct or
+poor performance. This adds a public-employer bridge: a temporary job can
+change later attachment for people near the employment margin, while creating
+unequal benefits and administrative costs. The next valid test follows
+application, threshold, offer, training, hours, termination, next employer,
+pay, job quality, household room, and trust; do not turn a local 2010 Census
+estimate into a universal job-guarantee effect. See the [temporary public-hiring
+finding](findings/us-census-temporary-public-hiring-long-run-employment-2010-2023.md).
+
+**AI-exposed graduate-entry rotation — 2026-09-23:** a Census linked-data
+study finds that graduates from the most AI-exposed majors had about a 5-point
+lower chance of employment just after graduation and about 13% lower initial
+full-quarter earnings after ChatGPT's release. Roughly half of the earnings
+decline came from movement into lower-paying sectors such as retail and food
+services. This adds a generational entry-and-downgrading layer: a person can
+remain attached to work while the first rung becomes weaker. The next valid
+test follows major, institution, applications, offers, employer AI use,
+industry, pay, training, switching, debt, housing, and later career; do not
+turn a short event-study window or major-level exposure measure into a national
+displacement rate. See the [AI-exposed graduate finding](findings/us-census-ai-exposed-college-graduate-entry-disruption-2026.md).
+
+**Flood-recovery and firm-reallocation rotation — 2026-09-23:** a Census
+event-study finds that after large federally declared floods, plant exits rose
+by 3.6 percentage points and were concentrated among the least productive
+plants; survivors rebuilt and reached more than 11% above their pre-flood
+productivity baseline by year six, while entrants were about 14% more productive.
+Bank lending rose about 3.1%, especially for small loans. This adds a public-
+finance-to-economic-restructuring layer: aid can change which firms and machines
+survive, not simply restore the old economy. The next valid test follows damage,
+aid, credit, closure/rebuilding, worker continuity, capital transfer, household
+income, housing, health, migration, and political response; do not turn a
+manufacturing event study into universal disaster recovery or a guaranteed
+fiscal return. See the [flood-recovery finding](findings/us-census-flood-disaster-aid-firm-reallocation-productivity-2026.md).
+
+**Hospital-consolidation and local-access rotation — 2026-09-23:** a Census
+Longitudinal Business Database study finds that hospitals with at least 50
+employees declined by more than 20% from their late-1980s peak while hospital
+employment rose more than 40% and average size rose about 75%. In the decade
+beginning 2009, 26.9% of Southern counties and 39.2% of rural Southern counties
+had no study-defined hospital. This adds an infrastructure capacity-versus-use
+layer: aggregate employment can grow while local access becomes more dependent
+on travel, insurance, transport, and broadband. The next valid test follows
+county and patient episodes through closure, travel, appointment, emergency
+use, telehealth, cost, work time, quality, and health; do not treat a zero-
+hospital county as zero care or employment growth as preserved access. See the
+[hospital-consolidation finding](findings/us-census-hospital-consolidation-geographic-access-rural-south-2026.md).
+
+**Founder-background and hiring-opportunity rotation — 2026-09-23:** a Census
+LEHD study finds large founder-worker background similarity after industry,
+metro, and founding-cohort controls: about 36 percentage points for female
+workers at female-founded firms, 51 for Black workers, 37 for Hispanic workers,
+and 11 for non-college workers. The pattern persists for years, and wage
+decompositions favor a firm-demand explanation. This adds a firm-culture layer:
+job creation can coexist with socially patterned access to the jobs. The next
+valid test follows founder access, recruiting channel, applicant pool, hiring,
+pay, promotion, retention, voice, firm survival, and household outcomes; do not
+turn a selected 30-state-plus-D.C. study into a national discrimination rate.
+See the [founder-hiring finding](findings/us-census-lehd-founder-background-hiring-homophily-2026.md).
+
+**Parental-leave and unequal-work-family-option rotation — 2026-09-23:** a
+Census SIPP study of first-time parents who worked before and after their first
+birth finds that only about half of parents in the 2014-2023 birth cohort used
+paid leave, with different rates by race/ethnicity and sex; across pooled years,
+Black and Hispanic fathers were much more likely to report no leave than White
+and Asian fathers, and Black and Hispanic mothers returned sooner than Asian
+mothers. This adds a care-time and cultural-institution layer: formal leave
+rules do not create the same usable pause from work. The next valid test follows
+one parent-child episode through employer policy, request, approval, pay, care
+substitute, return, job continuity, health, and household security; do not turn
+descriptive group differences into a race-only cause or a general rate for all
+new parents. See the [parental-leave finding](findings/us-census-sipp-parental-leave-race-sex-first-time-parents-2026.md).
+
+**Benefit-participation versus dollar-reach rotation — 2026-09-23:** a
+Census/IRS linked-data study of the temporarily expanded 2021 Child Tax Credit
+finds that 91% of eligible taxpayers participated, but only 85% of eligible
+credit dollars were paid; it estimates about 3.1 million eligible nonparticipants
+and $26 billion in unclaimed or under-claimed dollars. This adds a public-benefit
+conversion layer: counting participating people is not the same as delivering
+the full intended resource. The next valid test follows protected tax units
+through eligibility, filing, claiming, advance payment, reconciliation, timing,
+correction, spending, and household security; do not treat the estimate as a
+national causal explanation, a timeless program rate, or proof of improved
+wellbeing. See the [CTC/ACTC finding](findings/us-census-irs-child-tax-credit-participation-dollar-gap-2021.md).
+
+**Household-complexity and institutional-voice rotation — 2026-09-23:** a
+Census/RTI round of 60 cognitive interviews for the redesigned online ASEC
+found that people can struggle when household reality must fit a short
+standardized question: nearly half of the income-module participants reported
+uncertainty about another household member's income source at some point; some
+needed clearer time references for moving; long reason lists were daunting; and
+an anti-double-counting instruction helped in some places but confused people
+when repeated. This adds a measurement-and-voice layer: a form can be available
+while still losing parts of lived experience. The next valid test follows
+wording, household context, item nonresponse, correction, administrative-record
+agreement, eligibility, and downstream service outcomes; do not turn qualitative
+testing into a national confusion rate or a proven bias in published estimates.
+See the [household-complexity finding](findings/us-census-asec-cognitive-interviews-household-complexity-2026.md).
+
+**Digital-cash and payment-route rotation — 2026-09-23:** a Census survey
+finds that about 5% preferred physical cash for promised incentives, while most
+preferred digital gift cards or electronic transfers; the cash-preferring group
+was mostly young, low-income, and without a college degree. This adds a
+consumer-access counterexample to digital convenience. The next valid test
+follows payment choice through device and bank access, fees, delivery, receipt,
+failure, replacement, spending, and household room; do not treat stated
+preference as successful receipt or digital inclusion. See the [digital-cash
+finding](findings/us-census-incentive-payment-preferences-digital-cash-2026.md).
+
+**Formal privacy and public visibility rotation — 2026-09-23:** a Census
+disclosure-avoidance paper proposes a Markov-chain mechanism that releases
+controlled noisy versions of discrete data and mathematically links privacy to
+the mechanism's temperature and sensitivity. This adds a data-governance layer:
+privacy can protect people while also changing what small groups and local
+problems are visible. The next valid test compares privacy loss, error,
+subgroup accuracy, runtime, user understanding, and downstream decisions for
+the same product; do not treat a proof of privacy as proof of useful or trusted
+public information. See the [formal-privacy finding](findings/us-census-formal-privacy-boltzmann-mechanism-2026.md).
+
+**Interface usability and practical access rotation — 2026-09-23:** a Census
+experiment with 1,000 participants finds that calendar date fields outperform
+text entry for accuracy and outperform text entry and dropdowns for speed on
+most near-date tasks, even though participants generally rate all designs as
+extremely easy. This adds an administrative-access layer: availability and
+perceived ease do not prove successful use. The next valid test follows device,
+language, disability accommodation, interface, completion, correction,
+dropout, processing time, and actual service outcome; do not treat a usable
+average design as equal access for every person. See the [date-entry finding](findings/us-census-date-entry-design-usability-near-dates-2026.md).
+
+**Public-contact and unequal-participation rotation — 2026-09-23:** a Census
+Household Panel study finds that text invitations can bring some survey
+responses faster, while access and consent differ by age, race/ethnicity,
+education, income, region, marital status, and respondent type; about half of
+panelists consented to text invitations. This adds a measurement-and-voice
+layer: faster contact is not automatically equal participation or greater
+trust. The next valid test follows invitation mode, device, accessibility,
+consent, receipt, response timing, completion, retention, and downstream data
+use; do not treat response speed as representation, civic participation, or
+institutional legitimacy. See the [text-contact finding](findings/us-census-household-panel-text-consent-response-2024.md).
+
+**Firm-allocation and productivity-decomposition rotation — 2026-09-23:** a
+Census CES establishment study separates measured manufacturing misallocation
+into revenue-margin dispersion and input-cost-share dispersion; both contribute
+similarly to the apparent rise, while a few industries account for more than
+half of the aggregate decline. This adds a firm-measurement layer. The next
+valid test joins plant components to prices, investment, jobs, pay, worker
+voice, suppliers, entry/exit, and place outcomes; do not treat measured
+misallocation as worker harm, consumer harm, or a proven policy cause. See the
+[manufacturing allocation finding](findings/us-census-manufacturing-misallocation-margin-input-mix-2026.md).
+
+**Founder-culture and retention rotation — 2026-09-23:** a Census CES matched
+employer-employee study uses premature founder deaths as plausibly exogenous
+departures and finds significantly higher employee turnover afterward, with
+larger effects in older and larger startups and among longer-tenured or same-sex
+employees. This adds a firm-culture dependence layer. The next valid test
+follows founder exit through replacement leadership, pay, hours, control, voice,
+job quality, turnover destination, firm survival, household effects, and later
+career; do not treat turnover as worker harm or founder culture as good culture.
+See the [founder-retention finding](findings/us-census-founder-departure-startup-employee-retention-2026.md).
+
+**Homophily and job-mobility rotation — 2026-09-23:** a Census CES study using
+restricted American Community Survey data finds that Black and Hispanic workers
+respond less than White workers to changes in job opportunities, but respond
+more when the opportunity is in a place with a larger own-race population. This
+adds a social-cost layer to labor mobility. The next valid test follows the
+same opportunity through information, network, expected treatment, moving cost,
+move or stay, job quality, family support, belonging, and later security; do not
+turn own-race context into a simple preference or lower movement into free
+choice. See the [homophily finding](findings/us-census-homophily-race-job-mobility-2026.md).
+
+**Relative-status and residential-exit rotation — 2026-09-23:** a Census CES
+study using American Community Survey data finds that White residents without
+advantaged relative status are generally more likely to move, but that the
+relationship between Black, Hispanic, or Asian concentration and White departure
+changes with that status. The patterns fit contact better than a simple group-
+competition story, but the study does not reveal motive, coercion, destination
+quality, or whether moving improved life. The next valid test follows status,
+contact, housing, work, safety, discrimination, move/stay, destination, and
+belonging in the same household; do not treat out-mobility as successful exit
+or racial composition as a direct cultural mechanism. See the [relative-status
+finding](findings/us-census-neighborhood-racial-status-white-outmobility-2026.md).
+
+**Neighborhood-and-firm mobility rotation — 2026-09-23:** a Census CES study
+links the 2000 Census to employer records and finds that between-neighborhood
+intergenerational earnings relationships are about twice as strong as within-
+neighborhood relationships after measurement-error adjustment. Neighborhood
+parent earnings explain more than 80% of modeled neighborhood-effect variation;
+person effects and establishment premiums point to different pathways. The next
+valid test is a protected family-place-firm panel through moves, schools,
+networks, discrimination, reachable firms, job quality, earnings, housing,
+belonging, and civic action; do not treat neighborhood association as proof that
+relocation alone creates mobility. See the [neighborhood-and-firm finding]
+(findings/us-census-neighborhoods-firms-intergenerational-mobility-2026.md).
+
+**Emergency-rental-assistance timing-and-stability rotation — 2026-09-23:**
+NBER evaluates five lottery-assigned programs distributing more than $200
+million across four cities during the pandemic. Aid increased rent payment and
+reduced eviction concern, with suggestive mental- and physical-health gains,
+but had little average effect on housing stability or financial distress. This
+adds a money-to-home layer: application, payment, fear, landlord response,
+court, stability, health, and later rent are separate stages. The next test
+follows the first missed payment through application, delivery, landlord action,
+next twelve rents, move, debt, work, credit, and health; do not call payment
+success a lasting housing win or a small average effect universal failure. See
+the [rental-assistance record]
+(records/us-nber-emergency-rental-assistance-rent-payment-stability-health-2024.json).
+
+**Housing-court legal representation and usable-rights rotation — 2026-09-23:**
+NBER's study of New York City's Universal Access to Counsel program uses
+address-level housing-court data from 2016–2019. Free representation for tenants
+at or below 200% of the federal poverty guideline reduced possessory judgments,
+monetary judgments, eviction warrants, and completed evictions, with larger
+effects in poorer places and places with more noncitizens. This adds a rights-
+to-outcome layer: notice, counsel, judgment, money owed, warrant, eviction,
+affordability, and later stability are separate stages. The next test follows
+the first notice through counsel, payment plan, next rent, move, debt, credit,
+work, health, and next home; do not treat a better court result as recovered
+household security. See the [legal-representation record]
+(records/us-nber-housing-court-legal-representation-tenant-outcomes-2022.json).
+
+**Eviction-order cascade and usable housing rotation — 2026-09-23:** NBER
+links housing-court, earnings, hospital, and credit records in Cook County and
+New York City and uses judge leniency as an instrumental variable. An eviction
+order increased homelessness and hospital visits and reduced earnings, durable-
+goods consumption, and credit access in the first two years; longer term,
+indebtedness rose and credit scores fell. Tenants were already in financial and
+health distress before court. This adds a court-to-life layer: arrears, filing,
+order, move, homelessness, health, work, debt, credit, and recovery are
+separate stages. The next test follows the first notice through aid, counsel,
+move, next home, work, health, school, and credit; do not treat a filing as an
+order or an order as the whole cause. See the [eviction-order record]
+(records/us-nber-eviction-order-homelessness-health-earnings-credit-2022.json).
+
+**Family-caregiving and gendered labor trajectory rotation — 2026-09-23:**
+NBER links survey caregiving roles to administrative earnings records over a
+25-year window around reported caregiving onset. Relative to a matched group,
+caregiving precedes drops in earnings and employment for women, while men enter
+caregiving after significant labor-supply disruptions. This adds a family-time
+layer: care onset, task intensity, work, earnings, health, household support,
+and recipient safety are separate stages. The next test follows both caregiver
+and recipient through tasks, hours, paid alternatives, leave, job changes,
+savings, housing, health, and care outcomes; do not treat employment status as
+the full burden. See the [caregiving labor record]
+(records/us-nber-family-caregiving-gendered-earnings-employment-2023.json).
+
+**Rideshare comparison-friction rotation — 2026-09-23:** NBER's Uber/Lyft
+audit finds price differences for identical trips, but only 16.1% of consumers
+opening one app also open the other. The authors estimate comparison frictions
+increase platform gross booking volume by more than $300 million annually in New
+York City, while Uber API terms limit comparison services. This adds an
+immediate-mobility layer: fare, search, wait, reliability, accessibility,
+deadline, trip completion, and household cost are separate stages. The next
+test follows matched trips through both quotes, wait, cancellation, safety,
+accessibility, completion, and repeat use; do not treat a fare gap as automatic
+harm or two apps as usable choice. See the [rideshare search-friction record]
+(records/us-nber-uber-lyft-price-dispersion-search-frictions-2025.json).
+
+**Comparative review-reward and seller-quality rotation — 2026-09-23:** NBER's
+Taobao study finds items with buyer-feedback rewards generated nearly 30% higher
+sales and were sold by higher-quality sellers. This adds a platform-signaling
+layer: feedback incentive, review volume, seller quality, visibility, sales,
+consumer prediction, and remedy are separate stages. The next test compares
+rewarded and unrewarded reviews across U.S. platforms through purchase, quality,
+return, complaint, refund, and repeat choice; do not treat the Taobao result as
+a U.S. effect or sales as consumer welfare. See the [comparative review-reward
+record](records/comparative-nber-taobao-review-rewards-seller-quality-2015.json).
+
+**Online search, price discovery, and consumer-agency rotation — 2026-09-23:**
+NBER's eBay study finds users searched an average of 36 times per purchase over
+three distinct days, most sessions ended without a purchase, and search cost
+about 25 cents per page. More search was related to finding lower prices. This
+adds a consumer-agency layer: search, time, attention, price, quality, return,
+and platform dependence are separate stages. The next test links review
+exposure to search, purchase, delivery, quality, return, refund, and repeat
+choice; do not treat lower price or more search as complete consumer welfare.
+See the [eBay search record]
+(records/us-nber-ebay-consumer-search-costs-lower-prices-2015.json).
+
+**Home-equity-to-entrepreneurship rotation — 2026-09-23:** NBER's Census-based
+study finds that house-price growth was strongly associated with local entry,
+but most associated entry was small and short-lived construction and real-estate
+activity. A 1998 Texas home-equity reform isolates a smaller collateral channel:
+those businesses were longer-lived and more sector-balanced, but the channel
+was a tenth or less of the total entry association. This adds a housing-to-firm
+layer: house price, collateral, entry, duration, sector, jobs, household risk,
+and local capacity are separate stages. The next test joins owner wealth,
+borrowing, firm survival, jobs, wages, service, and housing exposure; do not
+call house-price-fueled entry durable local development. See the [home-equity
+entrepreneurship record](records/us-nber-home-equity-entrepreneurship-duration-sectors-2015.json).
+
+**Career-seniority and non-wage-attainment rotation — 2026-09-23:** NBER
+constructs a career measure from more than 150 million resumes: the years it
+takes the median worker in the same industry and firm-size category to reach a
+job title. Seniority aligns positively with wages and education, and higher
+seniority among public-sector workers predicts transitions to higher-paying
+private-sector positions. This adds a career-time layer: title, time, wage,
+education, non-wage choice, mobility, and household security are separate
+stages. The next test joins job level to hours, control, benefits, care, debt,
+housing, pay, and stated preference; do not treat a title or faster promotion
+as complete career success. See the [career-seniority record]
+(records/us-nber-career-seniority-nonwage-attainment-2025.json).
+
+**Temporary-work and dual-credit-market rotation — 2026-09-23:** NBER finds
+that temporary workers face greater income risk than permanent workers even in
+similar occupations and at similar wages, while lenders ration credit to them
+at the stage when young adults use mortgages and loans to establish housing,
+families, and durable consumption. This adds a labor-status conversion layer:
+contract, income risk, lender assessment, credit, housing, family formation,
+and financial independence are separate stages. The next test joins work
+history, pay volatility, applications, denials, terms, housing, debt, and
+household support; do not call temporary work chosen or credit rationing
+discrimination without the missing comparison. See the [dual-credit record]
+(records/us-nber-temporary-work-dual-credit-market-2024.json).
+
+**Liquidity, race, and ordinary-shock rotation — 2026-09-23:** NBER uses
+administrative banking data and firm-wide income changes to study normal
+month-to-month labor-income shocks. Average consumption elasticity was about
+0.21, much higher for low-liquidity households and close to zero for high-
+liquidity households. Black and Hispanic households were about twice as
+sensitive as White households, with racial wealth inequality explaining nearly
+all of the statistical difference. This adds a cash-calendar layer: income,
+liquid wealth, spending, debt, race, household need, and future room are
+separate stages. The next test records pay dates, bills, buffers, credit,
+informal support, care, health, and the first protected or delayed need; do not
+read spending response as welfare without its purpose. See the [income-shock
+record](records/us-nber-wealth-race-consumption-smoothing-income-shocks-2020.json).
+
+**Emergency disaster-credit and durable-room rotation — 2026-09-23:** NBER
+links Federal Disaster Loan applications for households with uninsured damage
+to pre- and post-shock credit records. Using an approval discontinuity, it finds
+that well-timed credit reduced bankruptcy likelihood by 61% over three years
+and increased car purchases even three years after receipt. This adds a
+shock-to-recovery layer: damage, liquidity, approval, repair, mobility, work,
+repayment, bankruptcy, and household room are separate stages. The next test
+joins loan terms, insurance, aid, repairs, work, health, care, delinquency,
+credit, and housing; do not treat approval or a later purchase as complete
+recovery. See the [emergency-credit record]
+(records/us-nber-emergency-disaster-credit-bankruptcy-cars-2024.json).
+
+**Competition-and-discrimination exit-power rotation — 2026-09-23:** NBER's
+historical U.S. study uses nationwide data on nondiscriminatory businesses in
+three industries, exogenous variation in Black-to-White consumer ratios, and
+more than 25,000 establishment prices. Nondiscrimination increased most in the
+least competitive markets, while nondiscriminatory firms charged higher prices
+than discriminatory firms in the same local markets. This adds a customer-power
+layer: firm conduct, market structure, price, treatment, exit, and consumer
+cost are separate stages. The next test follows current customers through
+search, identity checks, price, service, denial, complaint, switch, and repeat
+outcome; do not turn historical evidence into a universal current estimate.
+See the [competition-and-discrimination record]
+(records/us-nber-competition-consumer-discrimination-historical-2025.json).
+
+**Weatherization promise-to-room rotation — 2026-09-23:** An NBER experimental
+evaluation of more than 30,000 Weatherization Assistance Program households
+found model-projected savings roughly 2.5 times actual savings, upfront costs
+about twice actual savings, no significant evidence of higher indoor
+temperatures, and an estimated average annual return of about –9.5% after
+broader benefits. This adds an infrastructure conversion layer: measure,
+installation, actual use, bill, temperature, safety, health, comfort, and
+household room are separate stages. The next test follows homes through bills,
+temperature, air, equipment, health, work, care, shutoffs, rent, and repairs;
+do not call a modeled saving a lived household gain or a smaller bill proof of
+health. See the [weatherization record]
+(records/us-nber-weatherization-actual-savings-indoor-temperature-2015.json).
+
+**Dependent-coverage and parental job-lock rotation — 2026-09-23:** NBER uses
+employer-insurance claims and an Affordable Care Act birth-month eligibility
+discontinuity. Extending dependent eligibility increased dependent take-up and
+parental job retention, with stronger effects among parents near an exit
+decision and families that valued dependent coverage more. This adds a family
+protection-to-work-choice layer: plan, dependent care, network, deductible,
+job, wage, training, bargaining, and household security are separate stages.
+The next test follows plan terms, dependents, care, jobs sought or refused,
+pay, hours, treatment continuity, and debt; do not call retention proof of
+worker satisfaction or coercion. See the [dependent-coverage record]
+(records/us-nber-dependent-coverage-parental-job-lock-2022.json).
+
+**Bank-depositor inertia and stability rotation — 2026-09-23:** NBER uses
+account openings and closures at more than 900 banks and finds that only about
+5–15% of depositors open a new account each year. Depositor “sleepiness” is
+estimated to account for 57% of average deposit franchise value, softening
+competition, while also improving modeled stability and reducing default
+probabilities during the 2023 banking turmoil. This adds a relationship layer:
+rate, service, trust, switching effort, household payment continuity, bank
+funding, competition, and stability are separate stages. The next test joins
+rates, balances, fees, recurring payments, switching attempts, errors, service,
+branch access, and household outcomes; do not treat staying as laziness or
+stability as proof of customer welfare. See the [sleepy-deposits record]
+(records/us-nber-sleepy-deposits-switching-stability-2025.json).
+
+**Remote-work shopping and household-market rotation — 2026-09-23:** NBER's
+survey and Nielsen consumer-panel study finds that working from home changed
+shopping modes, increased weekday store trips and online shopping, raised total
+spending, quantity, and product range, and increased prices paid through lower
+deal use. Remote workers made more trips but fewer shopping minutes; the paper
+also links the price change among married households to a redistribution of
+shopping responsibility, especially when the new remote worker was male. This
+adds a household conversion layer: commute, shopping mode, shopper identity,
+price comparison, delivery, return work, unpaid labor, and local demand are
+separate stages. The next test follows remote, hybrid, and on-site households
+with time-and-receipt diaries and links them to local retail and delivery
+activity; do not treat higher spending as harm or fewer shopping minutes as
+free time. See the [remote-shopping finding](findings/us-remote-work-shopping-path-001.md).
+
+**Local business application-to-place rotation — 2026-09-23:** NBER links the
+universe of U.S. business applications to later employer-firm transitions. It
+separates pursuit of an idea from implementation: high-startup places show high
+application intensity, while low-startup places show low transition rates. This
+adds a local conversion layer: application, finance, opening, payroll, service,
+survival, household livelihood, and community capacity are separate stages. The
+next test joins applications to leases, permits, credit, public contracts,
+customers, payroll, service distance, prices, owner household resources, and
+closure; do not treat application counts as firms, jobs, or durable local life.
+See the [local-business finding](findings/us-local-business-place-matched-evidence-001.md).
+
+**Home-insurance affordability and credit-risk rotation — 2026-09-23:** NBER
+links about 70 million mortgage-associated insurance policies to property-level
+disaster risk. Low-credit homeowners paid about 24% more for identical coverage
+than high-credit homeowners; a Washington natural experiment found that banning
+credit information substantially weakened the pricing relationship. This adds a
+protection-price layer: risk, credit, premium, escrow, deductible, coverage,
+repair, sale, and housing security are separate stages. The next test joins
+renewals, lender acceptance, nonrenewal, coverage cuts, repairs, food and care
+tradeoffs, claims, sale, and move; do not call a premium increase a forced move.
+See the [home-insurance finding](findings/us-home-insurance-affordability-path-001.md).
+
+**Low-liquidity consumption-wedge rotation — 2026-09-23:** NBER links
+transaction data to surveyed expectations for middle-income U.S. consumers
+with low liquid wealth. The median gap between observed and modeled
+frictionless consumption was 40% in absolute value: 49% spent below the
+benchmark and 51% above it. Borrowing constraints alone could not explain both
+directions. This adds a measurement-and-meaning layer: spending, need, timing,
+credit, present bias, adjustment cost, sacrifice, and household security are
+separate stages. The next test joins item, deadline, cash, credit, health, work,
+housing, food, informal support, and later cost; do not call lower spending
+deprivation or higher spending comfort without the missing context. See the
+[consumption-wedge finding](findings/us-low-liquidity-consumption-path-001.md).
+
+**Bank-fee and liquidity recovery rotation — 2026-09-23:** NBER studies large
+U.S. bank policy changes from 2017-2022 using individual transaction data. NSF
+fee removal immediately reduced those charges across incomes, but relaxed
+overdraft rules reduced fees mainly for wealthier and more liquid households;
+only those households later showed lower late fees, interest, account fees, and
+payday-loan use. This adds a timing-and-room layer: fee removal, payment
+success, bridge credit, later bill, recovery, and financial stress are separate
+stages. The next test joins the original bill, transaction order, paycheck,
+merchant response, credit, food, care, account status, and recovery; do not
+treat a missing fee as a repaired shortage. See the [bank-fee
+finding](findings/us-bank-fee-credit-path-001.md).
+
+**Fiscal-news and household-expectation rotation — 2026-09-23:** NBER randomly
+gave approximately 11,000 Korean individuals information about debt, deficits,
+and deficit-reduction plans, linking beliefs to high-frequency spending. Higher
+expected future debt raised expected inflation and spending; higher expected
+fiscal balance raised expected output growth but did not significantly change
+spending. This adds a public-finance meaning layer: headline, belief, liquidity,
+action, policy realization, final bill, trust, and political judgment are
+separate stages. The next test joins message source, trust, belief, savings,
+debt, spending, rates, taxes, benefits, policy reversal, and political response;
+do not treat Korean evidence as a U.S. household estimate. See the [fiscal-news
+finding](findings/us-fiscal-news-household-path-001.md).
+
+**One-office-day and household-time rotation — 2026-09-23:** NBER randomized
+248 customer-service employees to remain remote or work together in the office
+one day each month. The office-day group handled 7.8% more calls per hour,
+communicated 36 extra minutes with colleagues in the following week, and had
+about one-third lower attrition. This adds a work-contact tradeoff: output,
+feedback, retention, commute, care, disability, household time, pay, and
+promotion are separate stages. The next test joins attendance to travel, care,
+cost, communication, output, errors, pay, promotion, retention, household
+stress, and an online-contact comparison; do not turn one team's result into a
+universal office mandate. See the [office-day
+finding](findings/us-office-day-remote-week-path-001.md).
+
+**Platform-data neutrality rotation — 2026-09-23:** NBER models rules requiring
+a platform to treat affiliated and outside sellers equally when sharing data.
+Equal data quantity alone can be defeated through discriminatory pricing; equal
+data and price can broaden competition but reduce the platform's incentive to
+refine and produce data, so modeled consumer welfare need not rise. This adds a
+digital-governance tradeoff: access, competition, data supply, privacy, quality,
+consumer choice, and enforcement are separate stages. The next test joins data
+requests, price, affiliation, seller entry and exit, data quality, privacy,
+search, consumer substitution, complaints, and enforcement; do not turn a
+model result into a measured U.S. platform effect. See the [platform-data
+finding](findings/us-platform-choice-data-path-001.md).
+
+**Rideshare licensing and service-access rotation — 2026-09-23:** NBER uses
+trip-level Uber data, driver ratings, and telematics in a New York City/New
+Jersey comparison and a Houston deregulation event. It finds no consistent
+improvement in measured consumer outcomes; Houston entrants after deregulation
+looked like previously licensed drivers on ratings and driving behavior. This
+adds a regulation-to-entry boundary: checks, driver pool, fare, wait, route
+access, worker cost, ordinary quality, and rare serious safety are separate
+stages. The next test joins each license step to entry and exit, fares, waits,
+cancellations, routes, disability access, serious incidents, worker income,
+enforcement, and alternatives; do not treat unchanged ratings as unchanged
+safety or a smaller driver pool as proof of harm. See the [rideshare licensing
+finding](findings/us-rideshare-licensing-safety-path-001.md).
+
+**Self-fulfilling credit-score rotation — 2026-09-23:** NBER uses a fourteen-day
+inquiry-counting rule that moves a score by about five points without adding a
+new credit-report fact. Default did not change for clean-record consumers, but
+rose 3.2 points over two years for consumers with prior derogatory marks; at
+least 13% of that score-default relationship was self-fulfilling. This adds a
+feedback layer: signal, lender decision, price or limit, payment room, default,
+and recovery are separate stages. The next test joins score movement, approval,
+rate, limit, lender, payment, default, correction, housing, insurance, work,
+utilities, and score recovery; do not treat the result as a universal score
+effect or infer a lender contract not observed. See the [credit-score
+finding](findings/us-self-fulfilling-credit-scores-path-001.md).
+
+**Tariff-to-shelf-price timing rotation — 2026-09-23:** NBER estimates that
+about 26% of the 2025 tariff increase passed through to consumer prices relative
+to less-exposed goods. About 64% of the effect was direct, while 36% came
+through imported inputs and higher domestic markups; the indirect path took
+nine to twelve months. This adds a delayed-incidence layer: policy exposure,
+firm cost, competition, price, quantity, quality, household substitution, and
+political blame are separate stages. The next test joins shipment and inventory
+dates, supplier contracts, margins, product size, store, purchase, wages, jobs,
+debt, savings, policy knowledge, and household response; do not treat a tariff
+rate or average pass-through as a household bill. See the [tariff pass-through
+finding](findings/us-tariff-delayed-shelf-price-path-001.md).
+
+**Transfer-form and timing rotation — 2026-09-23:** NBER compares one-time and
+recurring cash and food benefits for low-income families with children using
+high-frequency household scanner data. Short-run food-store spending responses
+were higher for in-kind than cash transfers and higher for recurring than
+one-time payments: 0.18 and 0.38 for in-kind versus 0.06 and 0.20 for cash.
+This adds a benefit-design layer: amount, label, timing, household choice, and
+usable security are separate stages. The next test joins payment date, food,
+rent, medicine, transport, debt, savings, store access, fees, interruptions,
+food security, health, stress, trust, and later policy support; do not treat a
+food-store response as total welfare or rank cash against food aid. See the
+[transfer-design finding](findings/us-transfer-design-food-security-path-001.md).
+
+**Top-income-risk and self-insurance rotation — 2026-09-23:** NBER uses U.S.
+tax returns from 1969-2019 and a life-cycle model. Permanent income risk rose
+across the distribution and nearly 70% among the top 5%; large negative shocks
+still predicted distress among top earners. The model links higher top-end risk
+to more saving, greater wealth inequality, and a 0.7-point lower modeled
+risk-free rate. This promotes a wider finance pattern: income risk, saving,
+wealth, rates, credit access, and household security are separate stages. The
+next test joins shock, saving, asset destination, debt, rate, approval, price,
+investment, wages, jobs, and political demand; do not turn a model rate effect
+into a direct household-cause claim. See the [income-risk
+finding](findings/us-rising-income-risk-top-path-001.md).
+
+**Homeownership-wealth conversion rotation — 2026-09-23:** NBER compares
+seriously delinquent Great Recession homeowners who differed in mortgage
+modification receipt. Modification increased home retention by 36 points and
+produced about $70,000 more housing wealth, but did not raise consumption because
+credit constraints limited borrowing against equity. This adds a housing version
+of the atlas's capacity-versus-usability split: ownership, wealth, liquidity,
+consumption, residence, and security are separate. The next test joins
+delinquency, modification, payment, equity, credit access, consumption, repairs,
+health, neighborhood, move/stay, bequest, and security; do not treat no current
+consumption effect as no housing value. See the [homeownership-loss
+finding](projects/us-homeownership-loss-wealth-consumption/findings/us-nber-homeownership-loss-wealth-consumption-great-recession-2025-001.md).
+
+**Declining-occupation and career-recovery rotation — 2026-09-23:** NBER links
+the 2000 Decennial Census to U.S. administrative employment and earnings records
+through 2020 for more than 2.4 million workers. Starting in an occupation that
+later contracted by at least 25% was associated with about 5% lower cumulative
+earnings despite slightly more quarters worked; occupational mobility was real
+but incomplete. This adds a longer labor-transition clock: switching, staying
+employed, earnings recovery, household room, and identity are separate outcomes.
+The next test joins occupation, industry, employer, place, training, search,
+switching, wages, hours, health, household resources, identity, and children's
+later opportunity; do not treat occupational movement as full recovery or the
+association as a universal causal effect. See the [declining-occupation
+finding](projects/us-declining-occupations-career-outcomes/findings/us-nber-declining-occupations-career-earnings-2000-2020-001.md).
+
+**Survey-error governance rotation — 2026-09-23:** NBER applies a Total
+Survey Error framework to 18 CPS ASEC income and program-receipt variables linked
+to administrative records over more than two decades. For nearly half of the
+variables, bias exceeded 40%; respondent failure to report receipt was the
+dominant source of bias, and absolute error rose even when net bias was stable.
+This extends the atlas beyond nonresponse and question wording: response rate,
+reporting, imputation, benchmark definition, net bias, and absolute error are
+different stages. The next test joins question, response, paradata, imputation,
+administrative definition, match quality, correction, subgroup error, published
+estimate, and policy use; do not treat administrative data as automatically
+complete or CPS trends as uniformly unusable. See the [survey-error
+finding](projects/us-survey-error-governance/findings/us-nber-cps-asec-total-survey-error-18-variables-2026-001.md).
+
+**Party-pressure and representation rotation — 2026-09-23:** NBER bridges
+survey-based voter ideology with U.S. House roll-call votes and models party
+pressure. It reports that party pressure creates a wedge between members' actual
+votes and constituent preferences while parties balance legislative wins against
+members' electoral concerns. This adds an institutional middle layer between
+political voice and policy: voter preference, member incentive, party pressure,
+vote, service, and trust are not one step. The next test joins issue preference,
+pressure, member vote, amendment, agenda control, service, election risk, local
+conditions, trust, and participation; do not treat roll-call divergence as
+automatic betrayal or party coordination as automatic distortion. See the
+[party-pressure finding](projects/us-party-pressure-representation/findings/us-nber-party-pressure-representation-house-voters-2026-001.md).
+
+**Child-SSI and family-resource rotation — 2026-09-23:** NBER uses Social
+Security administrative data and two quasi-experiments to separate a child's
+benefit from the household's response. Childhood SSI had positive effects when
+parents did not reduce work and household income rose, but zero or negative
+effects when parents offset the benefit by reducing earnings. This adds a
+family-work version of public-benefit conversion: a benefit's effect depends on
+whether it adds net household resources. The next test joins eligibility,
+benefit, parental work and time, care, health, school, income, expenses, stress,
+services, adult earnings, disability, and security; do not treat reduced work as
+simple disincentive or adult earnings as whole wellbeing. See the [child-SSI
+finding](projects/us-child-ssi-family-resources/findings/us-nber-child-ssi-parental-work-adult-outcomes-2026-001.md).
+
+**Flood-buyout and unequal-exit rotation — 2026-09-23:** NBER combines
+federal property acquisitions, housing sales, restricted-use Census data, and
+individual movement records. Households of color received at least 6% lower
+buyout compensation than White households; White participants moved to better
+neighborhoods while Black participants moved to worse neighborhoods. This adds
+an adaptation-and-exit version of unequal optionality: leaving danger is not the
+same as receiving a fair payment or reaching durable security. The next test
+joins appraisal, offer, negotiation, payment, debt, insurance, moving cost,
+destination, services, health, employment, return, trust, and security; do not
+treat neighborhood quality as complete wellbeing or the abstract as a universal
+mechanism. See the [flood-buyout finding](projects/us-flood-buyouts-race-relocation/findings/us-nber-flood-buyouts-race-relocation-neighborhoods-2026-001.md).
+
+**Local-redistricting and political-voice rotation — 2026-09-23:** NBER
+reconstructs 3,712 city council and county commission maps across 18,521
+districts. Enacted maps overrepresent White voters and underrepresent Black and
+Hispanic voters, while race-blind simulations reproduce much of the gap;
+Voting Rights Act oversight or districting litigation improves the enacted-map
+result. This adds a local-democracy version of the atlas’s neutral-rule problem:
+geography and formal neutrality can still distribute political voice unevenly.
+The next test joins map changes, voter geography, candidate entry, officeholder
+race, turnout, contestedness, policy votes, constituent service, litigation, and
+later trust or participation; do not treat officeholder composition as policy
+impact or every gap as intentional discrimination. See the [local-redistricting
+finding](projects/us-local-redistricting-race-representation/findings/us-nber-local-redistricting-race-representation-2026-001.md).
+
+**Medicaid survey-measurement rotation — 2026-09-23:** Census SEHSD compares
+redesigned and control ACS Medicaid questions against linked CMS enrollment
+records. Both performed equally well in the 2022 content test. This adds a
+measurement counterexample: changing wording and response order did not by
+itself resolve the survey-administrative gap. The next test joins question
+version, response, enrollment, churn, managed care, care use, claims, cost,
+correction, and continuity; do not treat enrollment measurement as active care
+or the null redesign result as proof interfaces never matter. See the
+[Medicaid-measurement finding](projects/us-medicaid-survey-measurement-content-test/findings/us-census-medicaid-acs-question-content-test-cms-measurement-2022-001.md).
+
+**Parental-homeownership and causal-counterexample rotation — 2026-09-23:**
+Census CES links childhood American Housing Survey records to adult tax data.
+Growing up in a parent-owned home correlates with about $2,000 higher adult
+income and a 6-point higher ownership rate, but unobservable and sibling tests
+find no detected causal effect of the tenure exposure itself. This adds a useful
+intergenerational counterexample: family advantage can be real while the named
+asset is not the cause. The next test joins housing quality, tenure, moves,
+schooling, transfers, debt, networks, adult work and ownership, health, and
+security; do not treat ownership association as inherited benefit or a null
+tenure effect as proof housing does not matter. See the [parental-homeownership
+finding](projects/us-parental-homeownership-later-outcomes/findings/us-census-parental-homeownership-housing-quality-later-outcomes-2026-001.md).
+
+**Wildfire damage and community-composition rotation — 2026-09-23:** Census
+CES links property damage from more than 100 wildfires to tax and Census data.
+Home destruction produced three years of lower income, with cumulative losses
+equal to 26% of pre-fire annual income; four years later, half of destroyed
+addresses remained unoccupied and reoccupied addresses housed substantially
+higher-income residents. This adds an individual damage-to-community-composition
+path distinct from broad flood exposure and firm reallocation. The next test
+joins damage, insurance, aid, rebuilding, debt, income, employment, health,
+occupancy, move reason, destination, ties, and security; do not treat wealthy
+average fire areas, nonreturn, or higher-income reoccupancy as protection or
+choice. See the [wildfire finding](projects/us-wildfire-damage-income-community/findings/us-census-wildfire-damage-income-community-composition-2026-001.md).
+
+**Flood-disaster firm-reallocation rotation — 2026-09-23:** Census CES finds
+that after large federally declared floods, less productive plants were more
+likely to exit, used machinery moved to more productive entrants, and survivors
+upgraded equipment. Federal disaster spending expanded financing access for
+young and small firms in the study framework. This adds a firm/public-finance
+recovery mechanism distinct from household flood exposure. The next test joins
+damage, aid, financing, exit, ownership, machinery, jobs, wages, migration,
+local services, household recovery, and community security; do not treat
+productivity reallocation as shared recovery or every closure as beneficial.
+See the [flood-firm finding](projects/us-flood-disaster-firm-reallocation/findings/us-census-flood-disaster-creative-destruction-government-spending-2026-001.md).
+
+**Export-control and domestic-spillover rotation — 2026-09-23:** Census CES
+reports that the share of U.S. exports subject to controls doubled from 2010 to
+2024. In the 2014 Russia restriction episode, affected firms reduced targeted
+exports and also reduced other products, other destinations, and average
+payroll. This adds a direct-versus-indirect geopolitical mechanism: a control
+can work on its target while spreading through domestic firms. The next test
+joins control, license, shipment, substitution, price, payroll, employment,
+investment, new markets, consumer incidence, and security outcome; do not treat
+firm cost as strategic failure or targeted restriction as the whole burden. See
+the [export-control finding](projects/us-export-controls-domestic-costs/findings/us-census-export-controls-domestic-costs-firm-spillovers-2010-2024-001.md).
+
+**SNAP work-requirement and screening rotation — 2026-09-23:** Census CES uses
+linked SNAP and employment records from five states and finds work requirements
+reduced SNAP participation by 7% without increasing labor supply, while lower-
+income people were disproportionately screened out. This adds an intended-
+mechanism test to the existing SNAP access lane: participation loss is not
+automatically employment gain. The next test joins notice, exemption,
+reporting, appointment, closure, employment, hours, wages, food security,
+health, substitution, appeal, and later participation; do not generalize the
+five-state result or treat participation as the whole welfare outcome. See the
+[SNAP screening finding](projects/us-snap-work-requirements-screening/findings/us-census-snap-work-requirements-participation-employment-2026-001.md).
+
+**Tip-reporting and hidden-income rotation — 2026-09-23:** Census CES finds
+that tipped income bunches at minimum reporting thresholds, but threshold
+bunching explains only about 1.5% of an estimated $4 billion-plus in annual
+unreported tips under the paper's assumptions. This adds an informal-work and
+measurement mechanism: a visible reporting response is only part of hidden
+income. The next test joins wage rule, payment method, tips, worker and employer
+records, tax reporting, correction, benefits, and household security; do not
+turn missing reported income into a wage-theft or worker-benefit verdict. See
+the [tip-reporting finding](projects/us-tip-reporting-hidden-income/findings/us-census-tip-reporting-bunching-missing-income-2005-2018-001.md).
+
+**Administrative-coverage and capture-recapture rotation — 2026-09-23:**
+Census CES evaluates whether administrative and third-party records can improve
+capture-recapture estimates of who the 2020 Census missed. The experiment uses
+Expectation Maximization Log Linear Modeling; it is a measurement method, not a
+new final undercount or proof of equal inclusion. This adds an administrative-
+legibility layer: better visibility can coexist with mislinkage, privacy risk,
+non-enumeration, and no downstream protection. The next test joins record
+source, match quality, missingness, correction, enumeration, service use,
+privacy incident, and trust; do not treat estimated visibility as representation
+or usable public service. See the [capture-recapture finding](projects/us-administrative-coverage-capture-recapture/findings/us-census-capture-recapture-administrative-coverage-2026-001.md).
+
+**Flood-risk and household-protection rotation — 2026-09-23:** Census CES
+combines parcel flood risk with linked household and administrative data. Net
+migration to floodplain blocks increased, but there was essentially no net
+migration to risky parcels or change in the overall household share in
+floodplains. Exposure was nonlinear by income, building type, homeownership,
+and multiple property ownership; low-income uninsured homeowners remained
+vulnerable. This adds a climate-risk counterexample to simple income-only maps.
+The next test joins hazard, insurance, premium, claim, repair, assistance, debt,
+health, move or stay, and later security; do not treat parcel exposure,
+protection, or no net migration as damage, recovery, or safety. See the
+[flood-risk finding](projects/us-flood-risk-household-insurance/findings/us-census-flood-risk-household-exposure-2026-001.md).
+
+**AI entry-hiring rotation — 2026-09-23:** Census CES reports that employment
+for 22–24-year-olds in the most AI-exposed industry-state cells fell 12% over
+the ten quarters after ChatGPT's introduction, with fewer hires as the primary
+channel. Hiring later recovered from a smaller employment base and earnings
+growth slowed slightly relative to less exposed industries. This adds an
+entry-stage, generational labor mechanism distinct from firm adoption. The next
+test joins exposure, applications, offers, hiring, pay, occupation, training,
+location, household resources, switching, retention, and career progression; do
+not treat industry exposure as individual automation or a later hiring recovery
+as full recovery. See the [AI entry-hiring finding](projects/us-ai-early-career-hiring/findings/us-census-ai-early-career-hiring-qwi-2026-001.md).
+
+**AI diffusion-layer rotation — 2026-09-23:** Census CES uses the 2026 BTOS
+AI supplement to separate firm use, business-function deployment, and worker-task
+use. During November 2025-January 2026, 18% of firms used AI in a function,
+23% reported worker task use, and employment-weighted rates were higher; 66% of
+users reported augmentation only and AI-related employment decreases appeared in
+2% of firms. Firm adoption and worker exposure can therefore diverge. The next
+test joins adoption timing, task exposure, training, monitoring, schedule,
+wages, headcount, promotion, worker voice, customer experience, and exit; do
+not treat firm adoption as worker displacement or augmentation as worker
+benefit. See the [AI diffusion finding](projects/us-ai-diffusion-firm-function-task/findings/us-census-ai-diffusion-firm-function-task-2026-001.md).
+
+**UI, employer concentration, and job-match rotation — 2026-09-23:** Census
+CES finds that extended unemployment benefits lengthened nonemployment by about
+one week; their earnings effect was weaker in more concentrated local labor
+markets, while concentration did not change the duration effect. This adds a
+labor-market power mechanism: a safety net can buy search time without creating
+equally good choices. The next test joins benefit timing, search, vacancies,
+employer alternatives, accepted job, wages, schedule, benefits, commute,
+household resources, retention, and worker voice; do not treat earnings as job
+quality or the interaction as a universal monopsony estimate. See the
+[UI-job-match finding](projects/us-ui-labor-market-power/findings/us-census-ui-extensions-labor-market-concentration-match-quality-2026-001.md).
+
+**Enforcement-climate and public-safety rotation — 2026-09-23:** Census CES
+reports that Secure Communities reduced Hispanic victims' likelihood of
+reporting crimes, increased offending against Hispanics, and left reported
+crime unchanged because the two movements masked each other; its estimate is
+that a 10% reporting decline raised offending by 7.9%. This adds a cultural and
+political mechanism: enforcement can change both safety and what institutions
+are able to see. The next test joins policy exposure, fear, victimization,
+reporting, police response, alternative help, remedy, repeat harm, and later
+trust or civic action; do not treat a flat reported-crime count as flat safety.
+See the [enforcement-public-safety finding](projects/us-immigration-enforcement-public-safety/findings/us-census-immigration-enforcement-victim-reporting-public-safety-2026-001.md).
+
+**Status-mismatch and mobility rotation — 2026-09-23:** Census CES defines
+neighborhood status relative to similar tracts and individual status by a
+household’s income rank within its tract. Its mobility models associate high
+individual status in disadvantaged neighborhoods with more within-county moves,
+while low individual status in high-status neighborhoods is also linked to
+mobility. Neighborhood status appears more important for short-distance moves.
+This adds relative cultural status to the place story. The next test joins
+status to tenure, rent, housing search, discrimination, social ties, move
+reason, destination quality, later security, and civic meaning; do not treat a
+move as opportunity, displacement, or causal status response. See the
+[status-mobility finding](projects/us-status-inconsistency-residential-mobility/findings/us-census-status-inconsistency-neighborhood-mobility-acs-2026-001.md).
+
+**Tariff-incidence and transaction-scale rotation — 2026-09-23:** Census CES
+finds that 2018–2019 import prices rose one-for-one with tariffs, but transaction
+sizes collapsed and quantity discounts disappeared. After separating that scale
+effect, strategic pass-through to scale-free prices was about 60%, implying
+foreign exporters absorbed part of the burden through lower markups. This adds a
+transaction-level geopolitical trade mechanism. The next test joins tariff,
+transaction size, importer cost, retail price, household purchase, domestic
+production, employment, exporter response, and later policy behavior; do not
+turn import pass-through into a household burden or strategic-success rate. See
+the [tariff-incidence finding](projects/us-tariff-incidence-quantity-discounts/findings/us-census-tariff-quantity-discounts-incomplete-pass-through-2018-2019-001.md).
+
+**Housing-wealth and care-labor rotation — 2026-09-23:** Census CES uses a
+housing-market instrument with geographically linked SIPP data and estimates
+that a 1% increase in housing wealth lowered women’s labor-force participation
+by 0.098 percentage points, with no significant male effect. The negative
+response was strongest among mothers of young children and women citing child-
+related reasons for not working. This adds a household-care mechanism beneath
+the wealth and work layers. The next test joins wealth and debt to childcare,
+unpaid care, hours, wages, job quality, partner work, housing stability, and
+later security; do not treat nonparticipation as either free choice or harm.
+See the [housing-wealth labor finding](projects/us-housing-wealth-labor-supply/findings/us-census-housing-wealth-womens-labor-supply-childcare-2026-001.md).
+
+**Environmental lender-liability rotation — 2026-09-23:** Census CES uses the
+1996 lender-liability change with EPA and Census data to report that firms whose
+lenders faced less cleanup risk reduced abatement investment by 14.7% and
+increased pollution, while higher lender risk produced less favorable loan
+pricing and possible shorter maturities. This adds a finance-to-environmental-
+behavior mechanism. The next test is a firm-lender-place panel through loan
+terms, abatement, emissions, cleanup, local exposure, household cost, health,
+and political response; do not treat firm pollution as household harm or a
+single welfare verdict. See the [environmental lender-liability finding](projects/us-environmental-lender-liability/findings/us-census-environmental-lender-liability-pollution-abatement-1996-2026-001.md).
+
+**Reusable-software and firm-scope rotation — 2026-09-23:** Census CES reports
+that firms with more establishments are more likely to invest in custom
+software while spending less on it as a share of capital expenditure. Its
+calibrated model suggests falling software costs can help explain rising firm
+scope and concentration. This adds a technology-and-management mechanism below
+market structure. The next test is a firm-industry-place panel through software
+adoption, establishments, entry/exit, prices, productivity, wages, jobs,
+worker control, customer options, and switching; do not treat a model result as
+observed monopoly harm or worker benefit. See the [reusable-software finding](projects/us-nonrival-software-firm-scope/findings/us-census-nonrival-custom-software-firm-scope-concentration-2026-001.md).
+
+**Bankruptcy-venue and firm-survival rotation — 2026-09-23:** Census CES links
+about 155,000 Chapter 11 cases to establishment records and uses distance to
+Delaware to isolate venue choice for firms near Delaware. For the firms whose
+venue choice responds to proximity, Delaware filing reduced liquidation and
+closure, shortened cases, improved creditor recovery, and raised
+post-bankruptcy employment by 24.8% of pre-filing employment. This adds legal
+institutional design as a firm-capacity mechanism. The next test is a
+firm-establishment-worker-creditor ledger through venue, court process,
+continuation, wages, receipt, consumer obligations, and later firm health; do
+not treat a local IV effect as universal bankruptcy policy or equal stakeholder
+benefit. See the [bankruptcy-venue finding](projects/us-bankruptcy-forum-shopping/findings/us-census-bankruptcy-forum-shopping-delaware-employment-1990-2021-001.md).
+
+**Rural-water funding-access rotation — 2026-09-23:** GAO identified 28 USDA
+and EPA programs that can help rural communities without drinking-water or
+wastewater utilities, but communities may need several applications with
+different deadlines, restrictions, and matching requirements. One community
+missed a state match because federal funds arrived late; USDA and EPA had not
+updated and monitored their 2017 coordination memorandum, and technical
+assistance did not consistently incorporate local capacity or knowledge. This
+adds an institutional bottleneck before construction. The next test is a named
+community through application burden, funding sequence, award, construction,
+operation, household exposure, and health; do not treat program availability or
+technical assistance as safe water. See the [rural-water funding finding](projects/us-safe-drinking-water/findings/us-gao-rural-water-funding-coordination-unserved-communities-2026-001.md).
+
+**Broadband right-of-way coordination rotation — 2026-09-23:** GAO's review of
+the federal “dig once” rule finds that 46 of 52 state contacts reported a
+broadband coordinator and 46 reported broad interagency coordination; more
+than half reported fully established provider-registration and electronic
+notification processes. Staff, IT, and provider-participation barriers remain,
+and the rule's effect on actual deployment was not known. This adds a physical
+coordination stage beneath the existing broadband funding and map record. The
+next test is a named highway corridor through notice, provider participation,
+construction, activation, operating cost, price, reliability, and household
+use; do not treat coordination as fiber, service, affordability, or durable
+access. See the [dig-once finding](projects/us-broadband-deployment-sustainability/findings/us-gao-broadband-dig-once-highway-coordination-2026-001.md).
+
+**Wealth-versus-income mobility rotation — 2026-09-23:** Census CES builds
+county estimates from roughly 3.4 million parent-child pairs and compares total
+income, labor income, homeownership, housing wealth, and total wealth for the
+same families. Wealth mobility varies more across counties than income mobility,
+and many cities and suburbs look less mobile by housing wealth. Great Recession
+severity is negatively associated with later income mobility broadly, while its
+negative wealth association is concentrated among children from poorer families.
+This adds an asset-and-place layer: earning more is not the same as owning a
+home or building wealth. The next test joins moves, housing cost and debt,
+ownership timing, transfers, schools, work, recession exposure, later security,
+and civic meaning; do not treat county associations as causal place effects or
+gross wealth as spendable cash. See the [wealth-income mobility finding](projects/us-wealth-income-mobility-geography/findings/us-census-wealth-income-mobility-geography-great-recession-1978-1986-001.md).
+
+**Housing-assistance and work-trajectory rotation — 2026-09-23:** Census CES
+links HUD administrative records to LEHD employer-employee earnings records over
+up to 14 years. First-time entrants saw earnings and employment reverse a
+declining pre-entry trend; people who later left a HUD program saw rising
+trajectories flatten after exit relative to stayers. The paper calls these
+patterns suggestive, not causal: entrants, leavers, and stayers differ in need,
+health, disability, education, household structure, and exit type. This adds a
+longitudinal middle stage between housing help and household security. The next
+test joins assistance type and dates to rent, unit quality, place, transport,
+care, job quality, earnings, exit reason, and later housing stability; do not
+treat earnings improvement as proof of housing success or exit as proof of
+failure. See the [HUD-work trajectory finding](projects/us-hud-assistance-employment-trajectories/findings/us-census-hud-assistance-employment-earnings-trajectories-2005-2022-001.md).
+
+**Military-service and immigrant-integration rotation — 2026-09-23:** Census
+CES and an American Political Science Review study use Vietnam draft-lottery
+numbers to reduce self-selection in a sample of about 28,500 first-generation
+immigrant men. Veterans looked more integrated in ordinary comparisons, but the
+lottery-based estimates found little positive causal effect on naturalization,
+residential integration, English use, or cross-national marriage; service did
+increase college completion, especially for non-Western immigrants. This adds a
+selection-versus-institution mechanism: a shared national institution can supply
+a real resource without automatically creating shared identity or belonging.
+The next test joins pre-service identity and resources, service pathway, unit
+contact, discrimination, education and citizenship benefits, health, work,
+family, civic participation, and later trust; do not generalize the historical
+complier result to all immigrants, veterans, or current military service. See
+the [military-service integration finding](projects/us-military-service-immigrant-integration/findings/us-census-military-service-immigrant-integration-vietnam-1970-2000-001.md).
+
+**Business-count and firm-visibility rotation — 2026-09-23:** Census CES
+Working Paper 26-36 finds that BLS reported about 9.2 million private-sector
+employer establishments in March 2023 while Census reported about 7.5 million.
+Linked records point to two mechanisms: BLS captures many more employers in
+services for older adults and people with disabilities, and BLS often assigns
+more worksites to firms that Census treats as single-unit or less multi-unit.
+This changes the apparent picture of small business, concentration, care-work
+capacity, and policy-model results. The next test reconciles both frames with
+named firms, worksites, workers, care recipients, wages, vacancies, service use,
+local entry/exit, prices, and later outcomes; do not call a frame difference a
+real boom, decline, concentration change, or care improvement. See the
+[business-count finding](projects/us-business-establishment-measurement/findings/us-census-bls-establishment-frame-discrepancy-2004-2023-001.md).
+
+**Remote-work and residential-sorting rotation — 2026-09-23:** Census CES
+Working Paper 26-34 uses quasi-random office-lease expirations to estimate that
+remote work raises one-year migration, moves households away from income-taxing
+states and cities, and shifts housing toward more space, ownership, and public
+schools. Neighborhood turnover and school-demand sorting also rise. This adds a
+place-and-optionality mechanism: loosening the job-place tie lets some households
+trade proximity for space, services, and tax treatment, while places gain or lose
+residents and revenue. The next test joins work arrangement, housing search and
+cost, school quality, travel and care time, neighborhood entry/exit, local
+revenue, and later security for the same household or protected panel; do not
+treat a move, higher spending, or school enrollment as wellbeing, displacement,
+community change, or political response. See the [remote-work residential-sorting
+finding](projects/us-remote-work-residential-sorting/findings/us-census-remote-work-residential-sorting-2005-2023-001.md).
+
+**Nonprofit-work and social-infrastructure rotation — 2026-09-23:** Census CES
+administrative tax evidence reports that nonprofits employ roughly 10% of U.S.
+workers and have a 12% average earnings penalty relative to for-profit workers;
+most of the gap is estimated as causal, with large industry differences. This
+adds a labor condition beneath care, education, arts, and civic institutions,
+but does not show service quality, worker wellbeing, client outcomes, or trust.
+The next test joins worker pay, hours, benefits, turnover, vacancies, funding,
+service volume, client access, and later community outcomes.
+
+**Survey-participation and institutional feedback rotation — 2026-09-23:**
+Census's two-decade ACS review finds that particular layout, internet, message,
+and mailing changes improved self-response in selected periods, while a 2022
+test was neutral and longer-run self-response continued to decline. This adds
+a public-system interface pattern: better contact can make participation easier
+without proving equal representation, trust, accurate completion, or policy
+feedback. The next test is a protected household/address panel joining contact,
+mode access, burden, language, privacy, response, item completion, follow-up,
+and later use of the data.
+
+**Support-versus-participation rotation — 2026-09-23:** CDC's Community &
+Connection page reports that 58% of youth received needed social and emotional
+support in the latest 2021–2023 indicator, 82% of adults did so in 2021, and
+12% of adults had health-related difficulty participating in social activities
+in 2024. The measures are not linked or same-year, so they do not show that
+support failed or that health caused isolation. The next test is a protected
+person-level panel joining support quality, health limits, time and transport,
+attempted participation, actual participation, belonging, and later action.
+
+**Historical US political-selection rotation — 2026-09-23:** NBER's *Fortunate
+Sons* links Members of Congress, their parents, and brothers to complete-count
+censuses and reports persistent socioeconomic selectivity in congressional
+entry across people born 1830–1950. By 1940, nearly 60% of Members aged 18–40
+had college degrees versus under 5% of comparable young men outside Congress;
+four tested Progressive-Era reforms did not detectably change who reached
+Congress. This is a selection and access finding, not a current representation,
+policy, trust, or legitimacy estimate. The next valid test is a current
+candidate-to-office ledger joining family resources, education, networks,
+fundraising, nomination, election, office, constituent contact, and later
+judgment.
+
+**Foreign-policy legitimacy cross-currents rotation — 2026-09-23:** Pew's
+2026 political typology shows that Americans can agree that the U.S. should
+matter globally while disagreeing about what legitimate power means. Across
+10,357 adults, 71% valued sole-superpower status at least somewhat and 62%
+favored considering allies' interests even with compromise; those positions
+split differently across the nine groups. The next valid test is a repeated
+respondent or named-event record joining values to information, perceived
+cost, political action, policy, and later judgment. Do not treat stated values
+as defense spending, burden sharing, willingness to fight, partner consent,
+alliance durability, or foreign response.
+
+**Communal-institution access rotation — 2026-09-23:** Pew's 2023-24 Religious
+Landscape Study reports higher volunteering and generalized trust among current
+Latter-day Saints than among U.S. adults overall, alongside substantial
+education and regional differences within the group. This adds a social-
+infrastructure pattern: a strong institution can create trust and service while
+access, time, and role opportunity remain uneven. The next valid test is a
+protected congregation/member or community panel joining participation,
+resources, role access, burden, belonging, and later civic action; do not treat
+affiliation or reported volunteering as causal, equal inclusion, or political
+influence.
+
+**Federal centralization-versus-fit rotation — 2026-09-23:** GAO reports that
+shared cybersecurity, financial, grants, and human-resources services are
+available across government, but adoption varies and agencies still report
+legal, technical, legacy-system, integration, leadership, and data problems.
+The next valid test is an agency-service ledger through selection, migration,
+fit, cost, processing, failure, correction, user experience, and mission
+performance; do not treat a service marketplace or projected savings as
+realized improvement.
+
+**Cross-agency-goal durability rotation — 2026-09-23:** GAO participants said
+cross-agency priority goals can create ownership and momentum around shared
+problems, but implementation remains vulnerable to inconsistent measurement,
+uneven leadership, limited staff or funding, and administrative transitions.
+The next valid test is one named goal through ownership, resources, shared
+data, transition, implementation, outcome, correction, and stakeholder
+response; do not treat a goal framework or reported coordination energy as
+durable performance.
+
+**Tribal shared-authority rotation — 2026-09-23:** GAO reviewed five
+Tribal-federal agreements over ancestral lands and waters and identified 11
+features that strengthen shared decision-making, including consensus and
+dispute resolution. Uneven legal authority and missing workforce planning show
+why consultation is not the same as shared control. The next valid test is a
+named agreement through input, decision rights, staffing, dispute, management
+action, community response, and revision; do not treat an agreement or meeting
+as equal power, cultural legitimacy, or durable self-governance.
+
+**Reentry timing-and-capacity rotation — 2026-09-23:** GAO reviewed 29,934
+people and found that earned time had not been fully applied toward RRC or
+home-confinement placement for 21,190 in that review; BOP also lacked a full
+count of delayed transfers, while RRC capacity and late provider payments
+constrained the route. The next valid test is a person or named-RRC ledger
+through eligibility, transfer, services, housing, work, community connection,
+and later justice contact; do not treat a formal release route or transfer as
+successful reentry.
+
+**Disaster preparedness-and-legibility rotation — 2026-09-23:** GAO found that
+six of 16 selected governments had advance debris-removal contracts, while
+FEMA role confusion, different public-reporting timelines, and incomplete
+fraud-risk practice complicated the recovery route. The next valid test is a
+named disaster and place through contract activation, debris removal, public
+reporting, reimbursement, household access, business reopening, and later
+recovery; do not treat a contract, map, or grant as completed equitable
+recovery.
+
+**Enforcement-fear-to-public-safety rotation — 2026-09-25:** the [Census CES
+enforcement-reporting record](records/us-census-immigration-enforcement-victim-reporting-public-safety-2026.json)
+is promoted as a causal mechanism adjacent to the WBNS nonuse layer. Secure
+Communities reduced Hispanic victim reporting and increased offending while
+reported crime totals stayed flat; the paper estimates a 7.9% offending increase
+for a 10% reporting decline. The study is historical and policy-specific, so
+the next test remains a jurisdiction/population ledger through enforcement
+exposure, victimization, reporting or alternative support, institutional
+response, safety, trust, collective action, and persistence.
+
+**Religion-salience/public-boundary rotation — 2026-09-25:** the [Pew
+religion/public-life record](records/us-pew-religion-public-life-church-state-2026.json)
+adds a cultural-political counterweight to the democracy and identity layers.
+Religion is perceived as regaining influence and evaluated more positively by
+Republicans than Democrats, while most adults still oppose candidate
+endorsements by houses of worship and prefer they stay out of day-to-day
+politics. Familiarity with Christian nationalism has risen, but familiarity is
+not support. The next valid test is a defined organization or member route
+through public messaging, invitation, participation, policy response,
+counter-mobilization, trust, and electoral or collective action.
+
+**Young-men religiosity counterexample — 2026-09-25:** the [Gallup young-men
+religiosity record](records/us-gallup-young-men-religiosity-gender-reversal-2024-2025.json)
+qualifies the Pew religion/public-life layer. Young men's reported religious
+importance rose from 28% to 42% between the 2022–2023 and 2024–2025 aggregates,
+with attendance nearly tied to young women, even as national religiosity remains
+low. The next valid test is a repeated cohort or organization-level route through
+meaning, invitation, attendance, role, social ties, political messaging,
+participation, trust, and persistence.
+
+**Accessibility-route visibility rotation — 2026-09-23:** GAO found that the
+Access Board received 41 complaints about GSA office buildings from October
+2022 through June 2026, closed 25, and had 16 in process, while stakeholders
+said many potential users did not know the complaint route existed. The next
+valid test is a named building and barrier through awareness, filing, response,
+correction, later usability, and repeat or unresolved access; do not treat a
+standard, complaint count, or closure as equal access.
+
+**Foreign-sourced telecommunications control rotation — 2026-09-23:** GAO
+found that Section 889 reduced federal obligations to five named Chinese
+companies and that nearly 90% of active-contract companies publicly represented
+that they did not use covered equipment, while DOD and GSA did not broadly share
+affiliate information or implementation lessons. The next valid test is an
+agency-vendor ledger through entity identity, equipment origin, screening,
+waiver or substitution, contract performance, incident, and correction; do not
+treat a prohibition, representation, or reduced spending as verified security
+or strategic autonomy.
+
+**Global-aging and geopolitical-capacity rotation — 2026-09-23:** GAO reports
+that the global population age 60 and over may grow from about 1 billion in
+2020 to 2.1 billion in 2050, with implications for partner health spending,
+defense resources, labor pools, migration, and global health assistance. The
+next valid test is a country-year panel joining age structure, care and health
+spending, labor force, migration, defense budget, alliance behavior, U.S.
+assistance, and later cooperation or burden sharing; do not treat a projection
+or plausible channel as changed geopolitics.
+
+**Delegated medical-device review rotation — 2026-09-23:** GAO reports that
+third parties supplied 617 510(k) reviews from fiscal years 2018–2025, while
+FDA audit policies lacked target time frames and some recent deficiency audits
+took more than six months to close. The next valid test is a device-level
+ledger through sponsor, reviewer, review time, FDA decision, audit, deficiency,
+correction, safety signal, price/access, and patient outcome; do not treat
+accreditation, review volume, or market authorization as verified safety.
+
+**Elite-network and political-access rotation — 2026-09-22:** a comparative
+NBER study of historical Buenos Aires Jockey Club membership reports a higher
+probability of legislative office and a weaker advantage after Argentina's
+1912 democratizing reforms. This adds a network-to-office pathway, but it is
+not a contemporary U.S. estimate and does not measure representative
+governance. The next U.S. test is a linked civic record joining membership or
+network access, nomination, campaign resources, election, office, constituent
+representation, and later public judgment.
+
+**Gig-work outside-options rotation — 2026-09-22:** an NBER study combines
+randomized Uber pay experiments with competitor access and finds that one
+competing platform nearly doubled drivers' firm-specific labor-supply
+elasticity, lowering the implied monopsony markdown from about 68% to about
+50%. This adds a competition-to-worker-leverage pathway. The next valid test
+is a protected driver-period ledger joining both platforms, gross and net pay,
+expenses, waiting, deactivation, safety, switching, and household effects; do
+not treat platform access or elasticity as durable worker security.
+
+**Dementia-coverage rotation — 2026-09-22:** an NBER Health and Retirement
+Study analysis finds that adults with probable dementia were 2.97 percentage
+points more likely to have Medicare without supplemental coverage four years
+before onset, while Medicaid eligibility was 4.95 points higher two years
+before onset but take-up was comparable. This adds a care-transition and
+enrollment boundary. The next valid test is a protected older-adult ledger
+through symptoms, caregiver help, plan choice, eligibility, application,
+premiums, claims, care use, and household outcomes; do not treat eligibility or
+coverage status as actual care or financial security.
+
+**Market-participation and belief rotation — 2026-09-22:** an NBER study using
+more than two decades of investor surveys finds that people who step out of the
+market are more pessimistic and perceive greater crash risk; belief-driven exit
+can concentrate risk among those who remain. This adds a financial-culture
+selection layer. The next valid test is a protected household-finance panel
+joining beliefs, account participation, liquidity needs, advice, holdings,
+realized returns, and later security; do not treat a participation proxy or
+belief difference as household welfare.
+
+**Consumer-credit information rotation — 2026-09-22:** a randomized Chilean
+trial with 112,063 loan seekers found that belief elicitation increased search
+and lowered rates, while a regulator-linked comparison tool increased
+negotiation, lowered rates without more search, and increased loan take-up.
+This adds an information-to-bargaining pathway with a possible exposure trade-
+off. The next valid test is a borrower ledger through rate, fees, maturity,
+loan size, repayment, delinquency, refinancing, and household room; do not
+treat a lower rate or greater borrowing as durable financial relief.
+
+**NNSA partnership-capacity rotation — 2026-09-22:** GAO reports almost $15
+billion in reimbursed Strategic Partnership Projects across eight NNSA sites in
+FY2019-FY2024. The work can retain staff, maintain facilities, and support
+partner missions, while some sites have limited capacity and NNSA's core
+stockpile workload has grown. The next valid test is a named-project ledger
+through facility/staff allocation, work delivered, mission output, cost,
+schedule, partner dependence, and the effect of accepting or refusing work; do
+not treat reimbursed volume as readiness or deterrence.
+
+**Weapons-acquisition realization rotation — 2026-09-22:** GAO assessed 104
+costly DOD programs and found an average delivery time above 12 years; 18 of
+40 reviewed Middle Tier programs entered with immature technologies, and some
+ended without a fieldable capability. The next valid test is a named-program
+ledger through maturity, milestones, tests, production, fielding, reliability,
+sustainment, operator use, cost, and external response; do not treat a rapid
+pathway, budget, or prototype as a delivered capability.
+
+**Social-norms and enforcement rotation — 2026-09-22:** a comparative NBER
+study using Singapore housing transactions reports information-linked purchases
+by public officials and relatives around unannounced MRT stations; stronger
+formal enforcement reduced direct and indirect misconduct. This adds a
+culture-to-enforcement boundary. The next valid test is a protected U.S.
+integrity ledger through official access, information timing, transactions or
+contracts, enforcement, reporting, public trust, and later conduct; do not
+treat a low-corruption reputation or survey norm as self-sustaining integrity.
+
+**Federal shared-services rotation — 2026-09-22:** GAO finds that adoption of
+shared cybersecurity, financial, grants, and HR services varies across federal
+agencies. Agencies report possible benefits but also legal, technical,
+integration, leadership, and data gaps. The next valid test is an agency-service
+ledger through choice, migration, fit, cost, processing, failure, correction,
+user experience, and mission performance; do not treat a centralized marketplace
+or possible savings estimate as realized improvement.
+
+**Microenterprise-credit and consumer-welfare rotation — 2026-09-22:** an NBER
+trial in Chile reports that large loans increased treated-firm profits by about
+$292 per month and estimated customer surplus by about $494 per month, with
+little evidence of business stealing among more than 125,000 non-treated firms.
+The next valid test is a firm-customer ledger through credit, investment,
+prices, quality, choice, repeat use, debt, survival, and household outcomes;
+do not treat estimated surplus or firm growth as durable household benefit.
+
+**Nursing-home inspection rotation — 2026-09-22:** an NBER U.S. study finds
+that facility care effort and patient survival rise around predictable
+inspection windows. Its model estimates that less predictable timing could
+save about 92 additional lives per year while reducing some information
+recency. The next valid test is a facility-resident ledger through inspection,
+staffing, deficiencies, care inputs, complaints, acuity, survival, discharge,
+quality of life, and later response; do not treat inspection counts or model
+estimates as complete care quality.
+
+**American Indian heterogeneity rotation — 2026-09-22:** an NBER U.S.-focused
+synthesis warns that economic, educational, and health outcomes differ by
+community, geography, resources, historical federal policy, and self-governance.
+Changing identity definitions and data limits can hide both harm and improvement.
+The next valid test is a protected tribal/community panel through identity,
+place, historical exposure, institutions, resources, education, health,
+mobility, and intergenerational outcomes; do not treat one average or broad
+racial category as a complete social trend.
+
+**Neighborhood-opportunity rotation — 2026-09-22:** an NBER review finds that
+childhood neighborhoods affect long-term outcomes and identifies credit,
+search, social, and behavioral barriers that can produce income-based
+segregation. Mobility services plus vouchers and mixed-income place policies
+can help, but the review is not one pooled family study. The next valid test is
+a protected family-place ledger through offer, search, reachable units, move,
+rent, transport, school and social exposure, continuity, and later outcomes;
+do not treat a voucher or a high-opportunity address as a completed result.
+
+**Checked:** 2026-09-22
 **Purpose:** keep breadth across the 14-theme program while choosing depth that can change a claim
 **Status:** execution queue; not a claim that any open link has been established
+
+**Youth peer-loss rotation — 2026-09-22:** a new NBER study using linked South
+Carolina records finds that exposure to a peer's self-harm death increases
+self-harm diagnoses by nearly 50% and raises mental-health visits, while some
+students without prior diagnoses increase felony offending rather than
+care-seeking. This adds a social-spillover and divergent-response layer. The
+next valid test is a protected school-year ledger through school response,
+family/friend support, counseling, attendance, offending, repeat self-harm, and
+later safety; do not treat administrative diagnosis or a comparison-event
+pattern as a complete contagion or recovery estimate.
+
+**988 crisis-response rotation — 2026-09-22:** a new NBER study finds that
+988 improved in-state crisis-line answering in states with larger pre-988
+capacity gaps, but produced no detectable short-run reduction in suicide
+mortality or broader population mental-health outcomes. This adds a concrete
+operations-to-health boundary. The next valid test is a protected crisis
+episode ledger through risk assessment, referral, dispatch, treatment, social
+support, repeat contact, and later safety; do not treat a connected call or a
+population null as proof of individual benefit or failure.
+
+**Navajo healthy-diet policy rotation — 2026-09-22:** an NBER study finds no
+detectable improvement in studied maternal and newborn outcomes after the
+Healthy Diné Nation Act created a 7–8% healthy/unhealthy food price wedge.
+Incomplete retailer implementation and cross-border shopping remain possible
+mechanisms. This is a useful place-specific counterexample to a direct
+price-to-health story. The next valid test is a community-retail ledger joining
+price pass-through, product availability, household purchases, cross-border
+shopping, cultural acceptability, and health; do not treat the null as proof of
+no purchase or community effect.
+
+**Fast-food wage-floor rotation — 2026-09-22:** a new NBER establishment-level
+study finds negative employment effects concentrated among small chains, where
+the policy slowed entry and increased exit, while overall employment effects
+were modest so far. This adds an uneven firm-adjustment counterexample to
+statewide job totals. The next valid test is a protected establishment-worker
+ledger joining chain size, wage, hours, entry/exit, prices, quality, turnover,
+and later employment; do not treat aggregate employment or establishment exit
+as the whole worker or household outcome.
+
+**SNAP consumption-and-meaning rotation — 2026-09-22:** an NBER study found
+that first-wave SNAP sugary-drink restrictions reduced excluded-drink purchases
+12.4% while increasing recipients' perceived stigma; partial restrictions also
+produced substitution toward still-eligible drinks. This adds a direct policy-
+to-consumer-behavior and policy-to-meaning contrast. The next valid test is a
+protected household panel joining EBT and cash purchases, food security,
+health, perceived respect, participation, and later policy judgment; do not
+treat the modeled $1.1 billion national benefit as observed welfare.
+
+**Delivery-platform pricing rotation — 2026-09-22:** the FTC's Instacart case
+links alleged “free delivery,” subscription enrollment, fee disclosure, and
+refund friction to a reported $60 million consumer-refund route and a later
+marketwide inquiry into online food-delivery fees. This adds a firm-to-consumer
+price and recourse stage. The next valid test is an order-level ledger through
+advertised price, final fee, consent, cancellation, refund receipt, repeat
+purchase, and switching; do not treat the settlement amount as an all-user
+refund rate or proof of lower grocery costs.
+
+**Rural housing coordination rotation — 2026-09-22:** GAO found that service
+coordinators can help residents navigate eviction and Medicaid, but HUD cannot
+reliably count all multifamily coordinators or routinely use performance
+reports to assess outcomes; reviewed studies showed mixed effects. This adds a
+hidden social-infrastructure and data-visibility layer. The next valid test is
+a named property or protected resident ledger through coordinator contact,
+referral, service receipt, housing transition, and later stability; do not
+treat coordinator presence or reported help as causal housing security.
+
+**Free Association compact rotation — 2026-09-22:** GAO reports that the
+amended U.S. compacts with FSM, RMI, and Palau commit more than $6 billion
+through 2043 and preserve U.S. military access, while delayed disbursement,
+rising construction costs, labor shortages, late audits, and delayed U.S.
+oversight constrained implementation. This adds a formal-strategic-access to
+partner-capacity boundary. The next valid test is a named compact-funded
+project or oversight decision through delivery, staffing, service use, local
+response, and continuation; do not treat compact funding or access rights as
+self-sufficiency, legitimacy, or strategic success.
+
+**State-fiscal-capacity rotation — 2026-09-22:** NASBO's Spring 2026 survey
+shows proposed fiscal 2027 general-fund spending rising only 0.6% at the
+median while 22 states reported targeted cuts, 14 eliminated vacant positions,
+and 14 used revenue increases. Most states still expected to hold or grow
+rainy-day balances in dollars, but total balances were projected to fall as
+prior surplus was spent. This adds a state-budget adjustment layer between
+macro conditions and public services. The next test is a named state service
+or shock through enacted implementation, staffing, processing, household or
+firm incidence, and later public judgment; do not treat reserves or proposed
+budgets as service protection.
+
+**Fiscal-financing and wealth-incidence rotation — 2026-09-23:** NBER Working
+Paper 35715 models how the shift from inflationary toward debt financing of
+redistribution may have contributed to the saving glut of the rich. It adds a
+macro financing-to-wealth-claims mechanism between policy design and household
+fiscal room, while keeping the model separate from lived relief, household
+incidence, trust, and political action. The next valid test is a dated
+financing change joined to transfer receipt, inflation/debt exposure,
+household assets and liabilities, hardship, attribution, and later action; do
+not treat the model's aggregate wealth result as a household welfare result.
+
+**AI political-advice mechanism rotation — 2026-09-23:** NBER Working Paper
+35689 models an informed AI that balances accuracy against perceived user
+welfare. It may accommodate political preferences, reducing information
+quality; sophisticated users can filter the distortion yet learn less, while
+users who underestimate it may mistake agreement for information. This adds a
+platform-to-belief mechanism to the thin platforms/data/attention surface, but
+does not establish deployed-system behavior, polarization, voting, trust, or
+radicalization. The next valid test varies user preferences and priors while
+holding the factual state fixed and follows advice accuracy, belief
+calibration, source checking, trust, action, and persistence.
+
+**Childhood-disability-benefit time/income consolidation — 2026-09-23:** the
+existing [child-SSI family-work finding](projects/us-child-ssi-family-resources/findings/us-nber-child-ssi-parental-work-adult-outcomes-2026-001.md)
+already captures NBER Working Paper 35725. It shows that childhood SSI effects
+differ when parents retain earnings and household income rises versus when
+parents reduce earnings and household income is unchanged or lower. Keep the
+benefit-to-parental-work-to-long-run-outcome bridge, but do not create a second
+record for the same paper. The next valid test links receipt to paid and unpaid
+care, services, health, child development, later security, and institutional
+response.
+
+**Strategic-sovereignty and protest-direction consolidation — 2026-09-23:** the
+existing [strike/protest finding](projects/ai-work-control/findings/ai-work-control-144.md)
+already captures NBER Working Paper 35734. It reports little change in total
+activity but a sharp shift from anti-government toward pro-government and
+anti-U.S./Israeli mobilization after local exposure. Keep this comparative
+foreign-intervention-to-legitimacy mechanism, but do not create a second record
+for the same paper. The next valid test is an intervention ledger through
+narrative, civilian cost, repression, protest direction, elite/public response,
+alliance behavior, and durability.
+
+**Homeowner participation and wealth-incidence rotation — 2026-09-23:** NBER
+Working Paper 35731 links nationwide voter participation to realized housing
+appreciation and reports related property-selection, improvement, and sale
+behaviors among homeowners. This adds a material endpoint to the political-
+participation layer, but remains observational and homeowner-selected; it does
+not show that voting causes wealth, explain renters, or establish affordability,
+displacement, or wider representation. The next valid test follows civic
+participation and housing decisions through an exogenous institutional change
+with tenure, liquidity, time, networks, and later representation measured.
+
+**Election-winner political-investment rotation — 2026-09-23:** the revised NBER
+Working Paper 34585 reports that counties with narrow Democratic presidential
+wins during 1940–1968 later saw more Democratic local officeholding and voter
+support, with advertising, direct outreach, and civil-rights organizing as
+channels. This adds election-result feedback into political capacity, but is
+historical and does not establish current effects, household welfare, trust,
+or legitimacy. The next valid test follows close outcomes through investment,
+representation, public services, household incidence, and later participation.
+
+**Platform/media completion checkpoint — 2026-09-22:** the latest platform
+rotation now covers three distinct stages: firm-reported privacy processing
+(Walmart), formal connected-product controls and service exceptions (GM/OnStar),
+and cross-platform retention/sharing practice (FTC review of nine companies).
+The media-legitimacy pass adds shared diagnosis versus divergent judgments of
+power and criticism. Do not add another unlinked privacy, attention, or trust
+snapshot here. Reopen the lane only with a named request or dated conflict
+that follows response through verification, residual exposure or retaliation,
+consumer/media behavior, and later trust, switching, or political action.
+
+**Household-meaning rotation — 2026-09-22:** the Federal Reserve's 2025 SHED
+shows that personal financial well-being, local economic judgment, and national
+economic judgment can diverge: 73% said they were doing okay or comfortable,
+45% rated their local economy good or excellent, and 25% rated the national
+economy that way. The subgroup gaps are large. This adds a meaning and
+political-judgment layer, not proof of blame, trust change, spending, voting,
+or protest. The next valid test is repeated or event-linked evidence that joins
+an economic change to attribution, action, and persistence; do not add another
+unlinked confidence snapshot.
+
+**Justice-and-reentry rotation — 2026-09-22:** GAO found that BOP did not
+apply all earned time toward RRC or home-confinement placement for 21,190 of
+29,934 people reviewed, while the full eligibility scale was unknown, RRC
+capacity was not comprehensively assessed, and RRC payments were late about
+70% of the time. This adds a concrete institutional timing and provider-
+capacity boundary between formal eligibility and usable community return. The
+next valid test is a linked person or named RRC through actual services,
+housing, work, and later justice or stability outcomes; do not treat transfer
+eligibility or RRC residence as successful reentry.
+
+**Community-supervision rotation — 2026-09-22:** BJS estimates that 3,681,900
+adults were under probation or parole at yearend 2024. The comparable-agency
+population was down 24% from 2014, but the remaining supervision system is still
+large and its exits include completion, incarceration, absconding, and other
+unsatisfactory outcomes. This adds the post-custody/state-contact layer; the
+next valid test is a person-level record joining conditions, services, exit,
+work, housing, family life, and later safety. Do not treat aggregate decline as
+successful reintegration or treat supervision as equivalent to incarceration.
+
+**Baltic capability-conversion rotation — 2026-09-22:** NATO reports that
+Task Force X-Baltic tested more than 70 autonomous air and maritime systems in
+June 2025, then moved in February 2026 to an eight-Allied Phase II commitment
+for nationally owned, NATO-taskable systems. This adds a real conversion from
+experimentation to allied institutionalization and procurement. The next valid
+test is repeated Phase II coverage, maintenance or reversal, attributed
+external response, and local burden or acceptance; do not call the test
+deterrence or persistent coverage.
+
+**Baltic deployment-stage follow-up — 2026-09-23:** NATO's July 2026 account
+describes participating nations moving from demonstration toward procurement
+and direct deployment of uncrewed capabilities in real-world conditions across
+the European area of responsibility. This closes a reported deployment-stage
+observation for the existing Task Force X-Baltic record, but not repeated
+availability, mission success, maintenance, burden sharing, public acceptance,
+or attributed external response. See the [updated Task Force X-Baltic
+finding](projects/us-nato-task-force-x-baltic-2025-2026/findings/us-nato-task-force-x-baltic-2025-2026-001.md).
+
+**Head Start full-day-care counterexample — 2026-09-23:** NBER Working Paper
+34831 links a targeted 2016 federal funding initiative to a 19% increase in
+full-day Head Start enrollment and reported increases among single mothers of
+2.5% in employment, 3.2% in full-time employment, 2.9% in hours, and 7% in
+earnings. This adds a formal-care-capacity-to-work counterexample beside the
+wildfire-smoke intermittent-care shock. It is not a universal childcare,
+quality, child-wellbeing, schedule-control, or durable household-security
+estimate. The next valid test joins eligibility, slot offer/use, hours, fees,
+travel, child attendance/wellbeing, maternal schedule, earnings, substitution,
+health, and later stability or exit. See the [Head Start full-day finding](projects/us-head-start-full-day-maternal-work/findings/us-nber-head-start-full-day-maternal-work-2026-001.md).
+
+**Childcare-persistence comparator — 2026-09-23:** NBER Working Paper 35514
+reports that Quebec's universal subsidized childcare program had enduring
+positive effects on mothers' employment after preschool, long-run earnings that
+grew to about twice the participation effect, occupational upgrading, and a
+modeled fiscal net-present-value recapture of 75%–117% of upfront costs. This is
+comparative evidence for durability, not a U.S. estimate or proof of equal
+access, quality, child wellbeing, maternal time satisfaction, or fiscal surplus.
+The next valid test joins cross-jurisdiction mother-child-center records through
+eligibility, slot access/use, fees, travel, schedules, earnings, occupation,
+benefits, taxes, health, wellbeing, and political meaning. See the [Quebec
+childcare finding](projects/comparative-quebec-universal-childcare/findings/comparative-nber-quebec-universal-childcare-long-run-2026-001.md).
+
+**Consent-interface/time-cost rotation — 2026-09-23:** NBER Working Paper
+34025 combines a cookie-consent field experiment with survey and structural
+analysis. All-cookie acceptance was above half absent design manipulation;
+extra clicks shifted users toward easier options, many users dismissed without
+an explicit choice, and browser-level consent produced larger modeled welfare
+gains by reducing repeated decisions. This adds an attention/time-cost layer to
+platform data control, not informed consent, privacy protection, downstream
+data-use, U.S. population, or durable-exit evidence. The next valid test joins
+interface exposure, accessibility, clicks, comprehension, consent, actual data
+use, targeting/fraud, time cost, complaint route, trust, and switching/non-use.
+See the [cookie-consent finding](projects/comparative-cookie-consent-choice-architecture/findings/comparative-nber-cookie-consent-choice-architecture-2025-001.md).
+
+**Inflation-information/tenure-margin rotation — 2026-09-23:** NBER Working
+Paper 33595 reports that randomized inflation information produces different
+responses by housing tenure: renters update expectations more but do not adjust
+durable purchases, while homeowners update less but increase durable spending.
+The authors interpret the divergence through attention and available adjustment
+margins. This adds a controlled interpretation-to-adaptation bridge, not a
+political-action, total-welfare, liquidity, trust, or recovery estimate. The
+next valid test joins information exposure, expectations, tenure, wealth/liquidity,
+spending, debt, work/care adaptation, attribution, trust, and civic action. See
+the [inflation-information/homeownership finding](projects/us-inflation-information-homeownership/findings/us-nber-inflation-information-homeownership-spending-2026-001.md).
+
+**Social-connection rotation — 2026-09-22:** CDC's 26-state BRFSS analysis
+found 32.1% reporting loneliness and 24.1% lacking needed social and emotional
+support; rates were higher among younger, low-income, bisexual, and transgender
+adults, and the measures were associated with stress, frequent mental distress,
+and depression history. This adds an unequal cultural-support layer. The next
+valid test is repeated or event-linked support, care use, belonging, recovery,
+or civic action; do not treat the cross-sectional association as causation.
+
+**Small-business capacity rotation — 2026-09-22:** the New York Fed's 2025
+Small Business Credit Survey shows smaller-firm revenue expectations and
+pricing power weakening while employment, profitability, and debt follow
+different paths. This adds a firm-side conversion boundary; the next valid
+test is a linked firm-worker-household record joining realized revenue, terms,
+pay, hours, survival, customer access, and exit. Do not treat employment growth
+or a diffusion index as durable local prosperity.
+
+**Transportation-technology demonstration rotation — 2026-09-22:** GAO found
+that DOT's SMART program received 1,073 applications and announced 135 awards
+worth about $289 million by September 2025, while most projects were not yet
+complete and recipients reported technology-procurement delays. DOT had also
+not fully built a lessons-learned process. This adds a public-technology stage
+between grant capacity and usable service; the next valid test is a named
+project through procurement, launch, operating output, users served, safety,
+reliability, local cost, and continuation or abandonment. Do not treat an
+award or demonstration as completed public mobility.
+
+**Champlain Hudson transmission rotation — 2026-09-22:** New York reports that
+the 339-mile cross-border project reached commercial operation and is expected
+to deliver 10.4 terawatt-hours per year into New York City. This closes a
+named-infrastructure path from procurement to operation, but customer bills,
+reliability, actual emissions exposure, host-community acceptance, and the
+durability of the Canadian supply relationship remain open. The next valid
+test is a project-linked operating ledger joining monthly delivery, dispatch,
+rate allocation, customer bills, local effects, disruption response, and later
+acceptance; do not treat projected system benefits as household outcomes.
+
+**Border-capacity rotation — 2026-09-22:** GAO found that more than 1.15
+million passengers and pedestrians and 88,500 containers entered through 328
+ports of entry each day in FY2024, while CBP used 639 reimbursable-service
+partnerships and 70 donation partnerships to add overtime, lanes, equipment,
+and screening tools. This adds a public-private state-capacity layer; the next
+valid test is a named port and agreement through staffing or equipment
+activation, queue and release performance, inspection or safety outcome, user
+cost, oversight, and continuation. Do not treat partnership count or dollars
+as faster, fairer, or more trusted border service.
+
+**Water-resilience rotation — 2026-09-22:** GAO found that 14 EPA, FEMA, and
+USDA programs provided about $35 billion in grants and $29 billion in direct
+loans for water infrastructure during FY2014–2023. Selected utilities also
+reported rate, repayment, maintenance, and public-visibility barriers, while
+service-area boundaries made it hard to identify who benefited. This adds a
+water-protection conversion layer; the next valid test is a named utility and
+project through local financing, construction, maintenance, disruption
+performance, household bills, and recovery. Do not treat funding or project
+counts as dependable or affordable water service.
+
+**Technology-release and partner-trust rotation — 2026-09-22:** GAO found that
+more than 100 foreign governments and organizations request U.S. defense
+articles or services, with about 7,000 cases entering technology-release and
+foreign-disclosure review each year. Existing precedent can make most cases
+move quickly, while new or sensitive requests can take from days to a year;
+urgent Ukraine requests were accelerated by overtime and deprioritizing other
+work. This adds a permission-and-visibility stage before allied capability; the
+next valid test is a lawful named request through decision, transfer, use,
+sustainment, and partner response. Do not treat request volume or reform
+completion as delivered capability, trust, or deterrence.
+
+**Security-cooperation workforce rotation — 2026-09-22:** GAO found that DOD
+had completed 46 of 66 workforce provisions, while the Human Capital Initiative
+still had 11 provisions in progress and 2 not started; DSCA estimated remaining
+work through FY2028. DOD identified 19,379 positions, but staffing gaps at the
+FMS Center of Excellence and a hiring freeze affecting a new workforce service
+left training and staffing capacity open. The next valid test is a named
+partner activity through assigned personnel, qualification, monitoring,
+delivery, sustainment, and partner response. Do not treat workforce reform or
+position counts as partner capability or alliance durability.
+
+**Maritime-migration tradeoff rotation — 2026-09-22:** GAO found that
+Operation Vigilant Sentry redirected Coast Guard assets during a maritime
+migration surge: migrant-interdiction hours rose 66% from FY2021 to FY2023
+while drug-interdiction hours fell 62%, and foreign partners partly filled the
+resulting JIATF-South gap. This adds a named finite-capacity and burden-sharing
+stage; the next valid test is the operation through asset assignment,
+interagency or partner action, migrant safety and legal outcome, other-mission
+effect, cost, and later regional response. Do not treat interdiction counts as
+deterrence, safety, or strategic success.
+
+**SNAP place-access rotation — 2026-09-22:** an NBER study linked one state's
+administrative SNAP records to enrollment-office locations and estimated that
+participation in a census tract fell 7–9% over two years after an office
+closed; office openings showed suggestive increases, concentrated in urban
+areas. This adds a causal place-to-participation mechanism; the next valid test
+is a multi-state household-protected ledger joining office distance, channel,
+application, approval, benefit amount, food security, renewal, and non-use.
+Do not treat the estimate as national or as proof of food-security change.
+
+**Working-adults and safety-net rotation — 2026-09-22:** GAO estimates that
+about 13.8 million Medicaid-enrolled adults and 10.6 million adults living in
+SNAP-receiving households worked at some point in 2024. Selected-state data
+also show recurring overlap with large employers. This adds a work/benefit/
+employer-dependence layer, not proof of employer cost shifting or inadequate
+pay. The next valid test is a linked worker-household ledger joining wages,
+hours, employer coverage, benefit churn, health or food needs, schedule
+control, and later job stability or bargaining.
+
+**Household-production accounting rotation — 2026-09-22:** BEA's expanded
+account estimates unpaid household production at about 30% of consumption and
+16% of total output in 2024, with both shares gradually declining over roughly
+20 years. This adds a macro measurement layer beside time-use and unpaid-work
+records, not a new burden or wellbeing estimate. The next valid test is to join
+accounting trends to household time, income, care, choice, and wellbeing; do not
+interpret a falling share as less unpaid work or more freedom.
+
+**Macro household/place stopping rule — 2026-09-22:** the GAO unpaid-work,
+ATUS cultural-time, BEA household-production, and BEA outdoor-recreation
+records now cover the aggregate scale, time, accounting, and regional-economic
+stages. Do not keep collecting national totals in this lane. Reopen it only
+for a participant-, household-, worker-, or place-linked source that adds
+choice, distribution, substitution, wellbeing, belonging, or durable security.
+Otherwise rotate to an under-covered geopolitical, platform, infrastructure,
+or institutional stage.
+
+**Firm-finance route rotation — 2026-09-22:** the Federal Reserve's 2023 Small
+Business Credit Survey shows that lender choice and reported credit risk shape
+application and approval routes. This adds a firm-side institutional gate, not
+a business-survival or local-prosperity estimate. The next valid test is a
+firm-linked record joining requested amount, terms, funding receipt, use,
+repayment, jobs, survival, and owner-household effects; do not treat approval
+as funded capacity.
+
+**Geopolitical coordination rotation — 2026-09-22:** GAO reports 303 DOD
+acquisition-related international arrangements associated with $64 billion in
+FY2021–2025, alongside a decline in the portfolio and delays or communication
+gaps in the review system. This adds a real administrative stage between
+partner agreement and joint capability. The next valid test is a named
+arrangement through implementation, delivery or joint use, partner response,
+and strategic effect; do not treat agreement count or dollar value as
+deterrence.
+
+**Geopolitical external-response scan — 2026-09-22:** the [acquisition-boundary
+memo](US-GEOPOLITICAL-EXTERNAL-RESPONSE-ACQUISITION-BOUNDARY_2026-09-22.md)
+rechecked DOD arrangements, NATO operations, alliance response, and CRS tariff
+retaliation. The atlas now covers several distinct middle stages, but no
+retained episode cleanly shows attributed external behavior followed through
+to persistence or reversal. No new leverage claim was promoted.
+
+**Local economic participation synthesis — 2026-09-22:** credit, disaster
+contracts, Opportunity Zone investment, and outdoor-recreation production now
+share a bounded cross-source synthesis. The lane is saturated at the aggregate
+stage. Do not add another investment, award, value-added, or application total
+unless it supplies a firm-, resident-, contract-, property-, or place-linked
+receipt, terms, use, distribution, durability, or exit outcome.
+
+**Outdoor-recreation cultural-place rotation — 2026-09-22:** BEA estimates
+outdoor recreation generated $696.7 billion in value added, or 2.4% of U.S.
+GDP, in 2024, with very different state-level shares and employment changes.
+This adds a firm/place/cultural-resource layer, but not resident access,
+affordability, local ownership, displacement, conservation, or belonging. The
+next valid test is participant- or place-linked evidence joining the economic
+footprint to actual use and distribution; do not treat value added as a measure
+of cultural wellbeing.
+
+
+**Continuity checkpoint — 2026-09-21:** the post-crash input recheck still
+finds no retained MEPS, SIPP, PSID, or UAS respondent directory. The public
+fallback was sharpened through the Department of Labor wage-recovery surface:
+FY2025 agency-level recovery scale is visible, while WOW still separates
+worker location, identity verification, claim completion, payment access, and
+later use. The next depth pass remains acquisition-gated; do not convert
+aggregate recovery, program receipt, or public route visibility into a
+same-worker outcome.
+
+**Reader breadth checkpoint — 2026-09-21:** the current reader contains 367
+numbered findings and the latest cross-domain memo contains 90 bounded signals.
+The newest additions cover algorithmic-work measurement before worker remedy,
+worker wage-recovery reachability, fragmented care-setting finance, synthetic
+cross-partisan contact, unequal price-shock adaptation, and hidden credit or
+application costs. These widen the cultural and institutional map; they do not
+close the 164 open event-ledger arrows.
+
+**Broad societal readout checkpoint — 2026-09-21:** the project now has a
+plain-language [current societal, cultural, and political readout](US-BROAD-CURRENT-SOCIETAL-CULTURAL-POLITICAL-READOUT_V1.md)
+and a [broad data-source map](US-BROAD-DATA-SOURCE-MAP_V1.md). The integrated
+readout identifies recurring patterns across formal-versus-usable help,
+search and waiting, social support, institutional visibility and trust,
+technology and exit, place, political action, state capacity, firm risk
+transfer, care infrastructure, and progress versus security. The source map
+keeps surveys, administrative records, research studies, firm/platform data,
+infrastructure records, and geopolitical sources separate. This is the main
+breadth deliverable; future depth work should test one open link without
+redefining the program as a same-person study.
+
+**Societal concept-register checkpoint — 2026-09-21:** the recurring
+interpretation is now consolidated in a [12-concept societal subtheme
+register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md). It records
+unequal practical agency, usable protection, household trade-offs, search and
+waiting, remedy reachability, administrative legibility, social support,
+conditional digital agency, place bargains, belonging and civic capacity,
+state social capacity, and separate progress/security clocks. Each concept has
+representative source anchors, a boundary, and a next test. This is a synthesis
+control, not a new pooled estimate or replacement for the underlying records.
+
+**Legibility and non-use checkpoint — 2026-09-21:** the broad synthesis now
+keeps two related mechanisms visible across migration, public benefits,
+healthcare, consumer remedies, privacy, and platforms. First, administrative
+legibility—being matched, classified, asked for proof, and given a correction
+route—is part of usable access. Second, non-use or non-reporting may protect
+status, privacy, dignity, time, or safety while sacrificing care, income,
+food, belonging, or future recourse. Appeal success, participation, and
+continued use must therefore not be treated as complete population outcomes;
+future tests should preserve the people who never reach the route.
+
+**Three-lane implementation checkpoint — 2026-09-21:** the latest rotation
+adds a later procedural stage in three different lanes. Amazon's Prime remedy
+expands automatic redress eligibility and payment rules; FERC/NERC move toward
+large-load reliability standards and registry criteria; and NATO reports
+post-Ankara movement toward ready forces and fielded capability. These are
+advances from formal response toward implementation, but none proves individual
+receipt and adequacy, household or ratepayer incidence, or deterrence and
+external response. Keep them as separate bounded records and use the next pass
+for the missing lived or operating endpoint.
+
+**End-to-end route-register checkpoint — 2026-09-21:** the central chain register
+now includes five additional conversion boundaries: complaint intake to
+consumer correction, privacy request to verified deletion, cross-border power
+operation to household incidence, alliance staffing to durable readiness, and
+security-posture adjustment to local acceptance and external behavior. These
+routes broaden the atlas across consumer, digital, infrastructure, social, and
+geopolitical systems without treating institutional operation as lived success.
+The next pass should select one route with a lawful stable unit and add the
+missing middle: actual receipt or use, adequacy, durability, or attributed
+response. If no such unit is available, preserve the route as a bounded
+conversion map rather than adding another announcement or aggregate milestone.
+
+**Bridge-map checkpoint — 2026-09-21:** the atlas now has 102 registered topics
+and 93 reading paths. Nine bridge topics are explicitly registered between
+ordinary experience and larger systems: consumer recourse, platform remedy,
+public-system feedback, infrastructure dependence, geopolitical consequence,
+work control, trust/meaning, care reproduction, and firm/sector power. Six
+system-crossing routes now make those crossings readable: care to recourse to
+public feedback; infrastructure to geopolitical consequence to legitimacy;
+alliance readiness to work control to meaning; public liquidity to firm power;
+platform remedy to consumer recovery and trust; and defense reciprocity to
+industrial capacity and geopolitical leverage. The broader readout also adds
+presence to usable membership as a cultural and civic route. These routes
+improve the map but do not close the missing middle. The next evidence pass
+still needs actual receipt or use, adequacy, durability, attributed response,
+or exit for a lawful stable unit.
+
+**Route-completeness checkpoint — 2026-09-21:** the graph now has 93 reading
+paths for 93 topics, and the route audit finds no topic with zero paths. The
+two previously isolated bridges—defense reciprocity and platform remedy—now
+have explicit routes into work, firms, trust, alternatives, and geopolitical
+or consumer consequence. This is structural coverage, not closure: the next
+depth pass still has to observe a same-unit receipt, adequacy, durability,
+switch, exit, or external response.
+
+**Housing-security checkpoint — 2026-09-21:** the place lane now explicitly
+separates staying housed from secure shelter. Rent arrears, insurance gaps,
+premium pressure, nonrenewal, hazard exposure, and residual-market backstops
+can be visible together without proving safe repair, adequate coverage, a
+feasible move, or the household's actual stay-or-move decision. The next place
+pass must therefore follow a property or household through payment, protection,
+repair, mobility, and durability rather than adding another premium or backstop
+total.
+
+**Latest cross-domain rotation — 2026-09-21:** the care, work, infrastructure,
+digital-control, and alliance lanes now have five additional bounded steps. A
+skilled-nursing prior-authorization review shows that an initial denial can be
+wrong in a way that is visible only after appeal; Gallup links AI exposure to
+worker displacement anxiety while manager respect and organizational care
+narrow that association; Virginia's large-load tax rules add an auditable
+administrative cost route; PJM records a real large-load disconnection event
+without yet proving household incidence or durable reliability; and NATO's
+Maven integration reaches operational-network authorization and exercise use
+without proving adversary response or public legitimacy. These are not one
+pooled story. Together they sharpen the program's central question: who gets
+usable control, protection, or leverage after a formal capacity or rule is in
+place?
+
+**Support-and-security checkpoint — 2026-09-21:** the latest rotation connects
+income timing and family help, expense difficulty, health-cost adaptation, and
+SNAP administration. The common pattern is buffering without proven security:
+support, consumption adjustment, and program participation can keep a household
+functioning while food, energy, care, work, or financial room remains unstable.
+The next valid depth move is a same-person or same-household episode with route
+effort, actual amount/timing, material result, correction, and later trust or
+action—not another participation or hardship total.
+
+**Platform-depth checkpoint — 2026-09-20:** the lowest-density platform/data
+lane was rechecked for a concrete user-outcome route. The AI-companion farewell
+audit remains the strongest observed mechanism: a user signals a goodbye, the
+system responds with continuation tactics, and short-run engagement can rise.
+The GM/OnStar order adds a separate formal-control route for data access,
+deletion, and opt-out. Neither route observes account deletion, switching,
+verified data removal, durable wellbeing, or a completed remedy. No new platform
+signal is promoted from this pass; the next valid step is a version-stamped
+user/account follow-up with actual exit, replacement, billing, trust, and
+durability fields. This preserves the distinction between an interactional
+exit event and practical exit.
+
+**Reader integration checkpoint — 2026-09-20:** the plain-language reader now
+contains 355 bounded findings. The latest additions rotate the map across
+care/access, migration/belonging, public child-care capacity, and household
+benefit security, disaster recovery, and political identity: disability
+health-care capacity can
+fail at the accessibility interface; being better off than one's parents can
+coexist with an unreachable future; child-care eligibility does not guarantee a
+usable slot; stable SNAP receipt can coexist with different rent and utility
+exposure depending on work capacity and children in the household; and FEMA
+delivery visibility can improve while survivor-level repair and recovery remain
+unknown; financial worry can also look different inside prior party identities;
+and domestic defense contracts can precede operational capability or external
+leverage; a platform-law protection can also be enacted while injunction and
+rulemaking leave the practical worker route paused; and a temporary-visa worker
+case shows reported full back-pay without verified restored safety or choice;
+and a same-person MEPS screen carries an acute health event to later health and
+employment status without closing remedy or recovery; and SHED shows that broad
+financial improvement does not end every household adaptation; and job loss can
+coexist with lower later political action without one simple approval pattern;
+and consumer redress can continue through reissue or redistribution after the
+first distribution; and insurance restitution can reach consumers, providers,
+and the state while care and coverage recovery remain open; and a repeat refund
+can confirm prior receipt without proving later debt or account correction; and
+worker remedies can restore money without real workplace return, or restore
+work only temporarily before a later dismissal.
+The worker-voice case adds a separate boundary: speaking up can trigger public
+enforcement while the speaker's own payment, return, and future willingness to
+raise concerns remain unobserved.
+The infrastructure comparator adds another realization boundary: an energized
+grid project and a projected household cost are different stages, while a
+related project may still be only approved.
+The named worker-remedy case adds a direct exit-and-meaning endpoint: repeated
+wage failure and broken trust preceded forced exit and refusal to return even
+as a later compensation order remained formal rather than fully recovered.
+The aged-care payroll case adds the firm-side counterpart: payroll repair,
+audits, and worker-voice controls can be visible while individual receipt,
+adequacy, and recurrence remain unknown.
+The public-land-control case adds a place-power endpoint: a school board's
+land decision changed an approved transmission route while parcel burden,
+compensation, and resident acceptance remained open.
+The document-barrier cases add a status-and-work comparator: reported pay,
+return offers, and process reform can appear without accepted reemployment or
+durable security.
+The public-response case adds a legitimacy boundary: hundreds of speakers and
+comments can enter a formal route decision without proving agreement or durable
+acceptance.
+The AI-distribution comparison adds an earlier power stage: education, task
+control, permission, and ownership can shape access to gains before employment
+displacement is observed.
+The cultural-access worker case adds a migration-and-work boundary: translation,
+walkability, family obligations, and actual return remain separate from a
+formal reinstatement and lost-pay order.
+The platform-return case adds a lived-activity endpoint: restored access and
+150-plus trips can be visible while lost-pay receipt, net recovery, alternatives,
+and durable platform security remain open.
+
+**Refund reachability checkpoint — 2026-09-20:** the FTC's 2022 report says
+3,557 of 7,731 eligible Yellowstone businesses had cashed a first-round
+payment (46%). The FTC's June 2026 third-round page says 3,759 checks were sent
+only to businesses that had cashed a previous check. This sharpens the
+consumer-selection rule: later distribution can be conditioned on clearing an
+earlier access hurdle. It is not a recovery rate; third-check cashing, account
+correction, remaining loss, and business survival remain open. See the
+[bounded refund reachability finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-035.md).
+
+**Firm-meaning checkpoint — 2026-09-20:** the employee-ownership field
+experiment adds a different kind of conversion. In one building-materials
+company, concrete explanations of how daily work could create value for a
+stock-appreciation right were associated with 13 percentage points less
+turnover over six months, with a larger difference around Hurricane Helene.
+This is a communication-to-identification/retention result inside one
+ownership plan, not proof of payout, wealth, safety, governance power, or
+durable security. See the [employee-ownership finding](projects/us-employee-ownership-meaning/findings/us-employee-ownership-meaning-001.md).
+
+**Platform-choice checkpoint — 2026-09-20:** the Amazon private-label field
+experiment adds a distinct consumer-power stage beside the existing ad-cost
+finding. Removing the platform's own products can reduce short-run consumer
+welfare in tested categories, while demoting them does not automatically improve
+welfare because some customers value the products and their placement. This is
+not evidence of long-run seller foreclosure or unfair self-preferencing; the
+next test is a product/category ledger joining placement, fit, price, delivery,
+seller entry/exit, and repeat choice over time. See [Finding #265](findings/us-platform-owned-products-matched-evidence-001.md).
+
+**Rotation synthesis checkpoint — 2026-09-20:** the latest six additions
+cover household adaptation, worker voice, political participation, physical
+infrastructure, synthetic political contact, and comparative AI legitimacy.
+The scan found no additional financial-rail or immigration mechanism that
+would add a new unit or stage rather than repeat existing reader sections. The
+next serious selection should therefore return to an event-compatible route:
+one worker, household, customer/account, utility/place, or respondent followed
+through alternative, response, actual receipt/use, and later durability or
+exit.
+
+**Complaint-record legibility integrated — 2026-09-21:** the CFPB case-route
+vintage comparison now sits in the broad reader. Same-day routing remains
+visible, but response labels, product mix, field presence, and complaint-system
+controls change across vintages; the later CFPB correction announcement also
+identifies quality and automation problems. The next test is a stable,
+versioned complaint panel with field definitions, submission route, response,
+correction, and repeat contact preserved separately.
+
+**AI-work meaning integrated — 2026-09-21:** Gallup's repeated workforce study
+now sits in the broad reader. Frequent AI users reported more than twice the
+displacement concern of infrequent users, while manager respect and care for
+wellbeing narrowed the association; concern also tracked worse work-attitude
+measures and job search. This is not causal management evidence or job-loss
+evidence. The next test is a same-worker work episode with AI task exposure,
+management practice, pay, schedule, voice, and later retention or exit.
+
+**Public-permission split integrated — 2026-09-21:** the Germany-NATO posture
+record now sits in the broad reader. German support for defense and European
+cooperation coexists with lower trust in the U.S. and limited mission
+knowledge, while a separate Lithuanian poll reports high approval of the
+permanent brigade. These are context layers, not event-specific consent or
+deterrence evidence. The next test is an event-country-party-year ledger that
+joins posture, burden, local response, and later external behavior.
+
+**Repeated ISR operations integrated — 2026-09-21:** NATO's ISR force record
+now sits in the broad reader. It reports about 180 flight hours, more than 500
+intelligence products, three host-nation operating locations, and later
+decision-support and maritime-integration accounts. This is a real operating
+stage, but not evidence of product adequacy, changed decisions, host burden,
+public acceptance, or deterrence. The next test is an event-specific mission
+record with attributed decision effect or external response.
+
+**Infrastructure-bargain checkpoint — 2026-09-20:** the infrastructure and
+geopolitical lanes now have a cross-theme bargain lens covering capacity, cost
+allocation, public contestation, actual receipt, and durability. Virginia
+large-load governance, Prince William data-center revenue, New York
+transmission investment, and NATO medical/defense readiness show why
+institutional output must remain separate from user benefit, household
+incidence, public burden, accepted capability, and practical exit. See
+[Infrastructure bargains: capacity, burden, voice, and realized benefit](US-BROAD-INFRASTRUCTURE-BARGAIN-SYNTHESIS_V1.md).
+
+**Interface-access checkpoint — 2026-09-20:** the atlas now treats the
+person-system interface as a cross-theme mechanism: notice, translation,
+reach, completion, receipt, adequacy, continuity, and fallback. This connects
+disability care, benefits, consumer remedies, platforms, work, and
+infrastructure while preserving their different units and causes. See [The
+interface is where formal access becomes lived power](US-BROAD-INTERFACE-ACCESS-SYNTHESIS_V1.md).
+
+**Institutional-message checkpoint — 2026-09-20:** the Federal Reserve
+partisan-trust experiment adds a political-meaning bridge. Among 5,205 U.S.
+adults, respondents who saw the Fed as an in-group reported more trust,
+greater demand for Fed information, and more weight on its messages when
+updating inflation expectations. This is a bounded message-to-belief result;
+it does not establish actual spending, borrowing, voting, protest, or durable
+trust. See the [Fed partisan-trust finding](projects/us-fed-partisan-trust/findings/us-fed-partisan-trust-001.md).
+
+**Digital-culture checkpoint — 2026-09-20:** the digital-life synthesis keeps
+adult platform reach, teen social/chatbot use, adult AI use, and news/civic
+engagement as separate surfaces. This strengthens the cultural map without
+claiming platform causation, dependence, privacy loss, or political influence.
+The next decisive test is a person-level panel joining purpose, time, trust,
+correction, human alternatives, and exit. See the [digital-life finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-005.md).
+
+**Financial-policy checkpoint — 2026-09-20:** the Oregon Auto-IRA result adds
+a future-versus-present security split. Retirement ownership and assets rose,
+but the reported summary also shows higher credit-card-debt incidence and
+balances. This is a policy-exposure comparison, not a net-welfare score; the
+next test needs contributions, withdrawals, interest, delinquency, take-home
+pay, and retirement timing. See the [Auto-IRA finding](projects/us-auto-ira-household-balance-sheets/findings/us-auto-ira-household-balance-sheets-001.md).
+
+**Public-systems acquisition boundary — 2026-09-20:** the safety-net lane
+remains the highest-value non-platform bridge for the next authorized depth
+pass. Existing SIPP person-month ledgers connect SNAP transitions and recorded
+reasons to following material context, but they do not expose notice, route
+effort, benefit amount/timing, appeal, correction, trust, action, or recovery.
+The current workspace recheck found no retained raw SIPP, PSID, UAS, or MEPS
+respondent directory. The [same-episode implementation specification](projects/us-safety-net-access/same-episode-event-ledger-implementation-v1.md)
+now records the input boundary and the first structural checks required when a
+lawfully authorized episode file is supplied. Until then, do not turn SIPP
+participation or exit into a security, trust, or political-action result.
+
+**Digital-health checkpoint — 2026-09-20:** the pending Hims & Hers case adds
+a distinct consumer-power bundle: health privacy, intake, recurring payment,
+prescription continuity, cancellation, and complaint response can sit in one
+service route. The allegations are not adjudicated, and the next valid step is
+an authorized de-identified episode ledger with charge, data-use, cancellation,
+refund, treatment-continuity, and trust fields—not an inference from the
+complaint alone. See the [digital-health finding](projects/us-privacy-trust-data-sharing/findings/us-privacy-trust-data-sharing-001.md).
+
+**Firm-household checkpoint — 2026-09-20:** linked business and owner-account
+evidence adds a cross-domain bridge: business revenue fell sharply while owner
+consumption moved only partially. The result keeps buffers, public support,
+borrowing, business survival, workers, customers, and later recovery as
+separate fields. It is not evidence that stable consumption means no harm.
+See the [owner-household finding](projects/us-owner-household-business-tradeoff/findings/us-owner-business-revenue-consumption-covid-001.md).
+
+**Material-navigation checkpoint — 2026-09-20:** the June 2025 household file
+shows expense difficulty tracking practical searches much more strongly than
+broad AI use. Job, food, benefits, medical, housing, and credit searches rise
+as room tightens, but the record stops before result quality, application,
+completion, affordability, or recovery. The next test remains a dated search
+episode followed through a usable alternative. See the [consumer-search finding](projects/us-consumer-culture/findings/us-consumer-culture-003.md).
+
+**Retirement-timing checkpoint — 2026-09-20:** the Auto-IRA evidence adds a
+life-course endpoint beyond account ownership. Early retirement and early
+claiming declined while work past 67 and claiming at 70 rose. This may reflect
+greater optionality or continued financial/health constraint; it is not a
+simple security result. The next test needs job quality, health, care, debt,
+assets, and household-need fields. See the [retirement-timing finding](projects/us-auto-ira-household-balance-sheets/findings/us-auto-ira-retirement-claiming-001.md).
+
+**Worker-power checkpoint — 2026-09-20:** the worker lane now explicitly
+separates financial stake, intelligibility, voice, technical control,
+contestability, enforcement, security, and exit. A gain in one channel must
+not be reported as general empowerment. The next useful worker episode should
+join notice, understanding, refusal or appeal, pay/safety response, actual
+receipt, recurrence, household security, and exit. See the [worker-power
+channels synthesis](projects/us-employee-ownership-meaning/findings/us-employee-ownership-meaning-002.md).
+
+**Payment-rail checkpoint — 2026-09-20:** merchant and payment data add a
+modeled distributional layer beneath checkout prices. Rewards and interchange
+fees can shift value across payment users and income groups, but the result is
+not observed household loss or a welfare estimate. The next test needs the
+same-account payment mix, prices, fees, rewards, liquidity, debt, and later
+household outcomes. See the [payment-rewards finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-003.md).
+
+**Financial-access checkpoint — 2026-09-20:** formal account ownership is now
+kept separate from alternative transaction routes, fraud recovery, provider
+contact, and switching. The 2025 household survey shows all of these stages,
+but not one same-account episode or a verified correction. The next test needs
+provider, loss, recovery, replacement, and stay/leave fields. See the
+[financial-access finding](projects/us-financial-intermediation/findings/us-financial-intermediation-003.md).
+
+**Subscription-remedy checkpoint — 2026-09-20:** the Amazon Prime record now
+exposes a formal remedy path from eligibility to aggregate dollars issued and
+accepted. It still does not show individual receipt, adequacy, continued use,
+switching, trust, or household recovery. Keep issued/accepted dollars as an
+institutional implementation stage, not a customer recovery rate. See the
+[Amazon Prime implementation finding](projects/us-subscription-inattention/findings/us-subscription-inattention-002.md).
+
+**Critical-materials checkpoint — 2026-09-20:** the infrastructure lane now
+separates import reliance, application-specific substitution, recycling
+feedstock, qualified output, supplier switching, and geopolitical leverage.
+The next valid test is a mineral–application episode with shipment, price or
+purity, inventory, redesign, production, and external-response fields—not
+another award or capability announcement. See the [critical-minerals finding](projects/ai-work-control/findings/ai-work-control-100.md).
+
+**Defense-industrial checkpoint — 2026-09-20:** the geopolitical/state lane now
+separates contract value and domestic supplier allocation from shipment,
+acceptance, training, maintenance, operational use, and external response. The
+next valid test is one identifier-bearing defense contract followed through
+those stages—not another procurement announcement. See the [defense-industrial finding](projects/ai-work-control/findings/ai-work-control-118.md).
+
+**Platform-control checkpoint — 2026-09-20:** the platform/data lane now
+separates enacted contestability from operating protection. The next valid test
+is a post-law driver episode with deactivation, notice, data, challenge,
+platform response, reactivation or payment, and later work—not another legal
+design announcement. See the [platform deactivation finding](projects/ai-work-control/findings/ai-work-control-116.md).
+
+**Care-access checkpoint — 2026-09-20:** the care/place lane now separates
+shortage designation and nominal site capacity from contact, appointment,
+completed care, affordability, and continuity. The next valid test is a
+person- or appointment-level episode with need, wait, travel, payment or
+coverage, completed care, and later continuity—not another active-site count.
+See the [named-site care-access checkpoint](projects/us-local-business-place/hrsa-hpwo-allen-county-named-site-access-v1.md).
+
+**Care-and-mobility checkpoint — 2026-09-20:** the new breadth pass joins
+household care adaptation, kinship-family capacity, and place-level mobility.
+Child-care difficulty can become leave, reduced hours, non-search, or job exit;
+kin relatives can preserve family continuity while absorbing housing, work,
+disability, and legal costs; and remote work can shift transit, downtown, and
+housing demand faster than public planning adjusts. The next valid tests are
+separate: a dated care/work episode, a caregiver-support episode, and a
+place-month telework/transit ledger. These sources should not be pooled into a
+single family or city causal story.
+
+**Political-representation checkpoint — 2026-09-20:** the political-action
+lane now separates economic salience from attribution, party representation,
+validated action, policy implementation, and household recovery. The next
+valid test is a repeated or event-linked record joining those stages—not
+another one-time affordability poll. See the [economic attribution finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-046.md).
+
+**Social-reciprocity checkpoint — 2026-09-20:** the cultural/social lane now
+separates willingness to help from expected reciprocity, delivered aid,
+adequacy, helper burden, and recovery. The next valid test is a place-linked or
+repeated mutual-aid episode—not another hypothetical goodwill measure. See the
+[local reciprocity finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-044.md).
+
+**Firm/AI-distribution checkpoint — 2026-09-20:** the firm/work lane now
+separates adoption and exposure from worker permission, task control, training,
+realized productivity, pay, bargaining, and household outcome. The next valid
+test is a matched firm-worker episode—not another adoption or expectation
+survey. See the [AI distribution finding](projects/ai-work-control/findings/ai-work-control-110.md).
+
+**Benefit-security checkpoint — 2026-09-20:** the public-systems lane now
+separates receipt from usable household security. The next valid test is a
+same-episode record joining benefit timing and amount to bills, work or care
+trade-offs, correction, and later security—not another receipt-versus-hardship
+cross-tab. See the [SNAP work-capacity and children finding](projects/us-safety-net-access/findings/us-safety-net-access-018.md).
+
+**Benefit-control checkpoint — 2026-09-20:** the public-systems lane now
+separates issuance from account control, theft, claim effort, replacement,
+interim substitution, and restored food security. The next valid test is a
+same-episode EBT route through those stages—not another aggregate replacement
+total. See the [SNAP EBT control finding](projects/us-safety-net-access/findings/us-safety-net-access-019.md).
+**Work-rule implementation checkpoint — 2026-09-20:** the public-system lane
+now has a newer five-state linked administrative estimate: work requirements
+reduced SNAP participation by about 7% without increasing labor supply and
+disproportionately screened out lower-income people. This strengthens the
+existing work-requirement finding without creating a new heading; the missing
+middle remains household food, debt, health, trust, and political follow-up.
+See the [SNAP administrative-access record](records/us-snap-administrative-access-2026.json).
+
+**Mobility-and-belonging checkpoint — 2026-09-20:** the identity lane now
+separates relative progress, future hope, American-dream attainability,
+identity centrality, identity valence, and later action. The next valid test is
+a dated work, housing, school, health, or service episode joined to
+interpretation and later mobility or belonging—not another one-time identity
+attitude measure. See the [Latino mobility and identity finding](projects/us-immigration-local-demand/findings/us-immigration-local-demand-004.md).
+
+**Cultural-legitimacy checkpoint — 2026-09-20:** the meaning lane now
+separates perceived decline from government influence, legitimate authority,
+issue-specific acceptance, action, implementation, and later trust. The next
+valid test is an event-linked institutional encounter—not another general
+moral-attitude poll. See the [moral-values finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-047.md).
+
+**Political-participation checkpoint — 2026-09-20:** the political-action lane
+now separates material insecurity, contact, local action, institutional
+approval, trust, remedy, and recovery. The next valid test is a dated coverage
+or care episode linked to later action—not another hardship-to-attitude
+cross-tab. See the [insurance and political action finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-043.md).
+
+**Consumer-navigation checkpoint — 2026-09-20:** the consumer lane now
+separates expense pressure, search effort, income-stratified route choice, AI
+use, completed alternatives, and recovery. The next valid test is a dated
+search-to-transaction episode with result quality, completion, cost, and later
+security—not another search or AI-use cross-tab. See the [income-stratified
+material-search finding](projects/us-consumer-culture/findings/us-consumer-culture-005.md).
+
+**Material-meaning checkpoint — 2026-09-20:** the trust/action lane now
+separates financial worry from attribution, institutional trust, reported vote,
+policy response, recovery, and exit. The next valid test is an event-linked
+burden-and-action record—not another subjective-worry cross-tab. See the [ANES
+financial-worry finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-045.md).
+
+## Current continuation decision — 2026-09-21
+
+**Next broad rotation — place, public systems, and political feedback:** the
+material/time household screen and the consumer/platform/work-power pass are
+now complete for this cycle. The program moves to Themes 7, 10, and 11:
+housing/place and mobility, public-system implementation, and political
+judgment/action. The next useful work is not another aggregate hardship or
+approval table. It is a compact episode or place-linked screen that follows a
+service or rule from exposure through usable access, response, correction or
+non-use, and later trust, movement, or political action, while keeping person,
+household, place, and institution as separate units.
+
+The resulting cross-theme read is now consolidated in the [place, public
+systems, and political feedback synthesis](US-BROAD-PLACE-PUBLIC-SYSTEMS-POLITICAL-FEEDBACK-SYNTHESIS_V1.md).
+Its main finding is that place distributes the practical cost of using a public
+route, while political action depends on both institutional judgment and the
+capacity to act. The unresolved middle remains actual receipt, sacrifice,
+adequacy, and persistence for the same unit.
+
+**MEPS depth decision — 2026-09-21:** the retained MEPS records are the
+strongest local fallback for a bounded same-person health/work screen. They
+show month-ordered medical events, payment/context fields, later health and
+employment status, and institutional-friction comparisons. They do not show
+the event-specific alternative, obligation, claim or appeal, remedy receipt,
+protected or sacrificed household need, or verified recovery. The historical
+raw MEPS files needed for a new rerun are also absent after the crash. Keep the
+existing result as a bounded descriptive bridge; do not extend it or call it a
+completed household episode until the approved source files are restored and
+the missing ledger fields are available.
+
+**Low-density conversion checkpoint — 2026-09-21:** the new [low-density theme
+conversion map](US-BROAD-LOW-DENSITY-CONVERSION-MAP_V1.md) turns the next
+rotation into three concrete tests: user action to durable platform exit;
+named-project operation to experienced service, burden, or replaceability; and
+accepted state capability to external response, cooperation, or leverage. The
+promotion rule is the same across all three: identify the dependent actor, the
+actual consequence, a viable alternative or contestation route, and a later
+durability or response outcome. If those fields are absent, keep the item as a
+stage boundary rather than a new end-to-end finding.
+
+**Ohio named-site care-access rotation completed — 2026-09-20:** the North
+Lima Community Health Center/HPSA episode now reconciles the official site
+identity, listed hours, patient-facing services, phone-versus-portal handoff,
+organization-level new-patient and insurance policies, same-day limitation,
+and the discounted/non-discounted medical estimate with its income-document
+requirements. The route advances from shortage designation to a named public
+contact and affordability path, but it does not establish a site-specific
+appointment, wait, completed care, continuity, health outcome, household
+effect, trust, or political action. The next pass must therefore select a
+different compact event-compatible route rather than add another active-site
+count.
+
+**Affordability implementation checkpoint — 2026-09-20:** the named-site route
+now includes a published uninsured medical estimate ($5-$25 with a discount,
+$95-$350 without it) and a rule requiring family-size/income screening plus
+proof of income to retain the discount beyond 30 days. This is a concrete
+price-to-administrative-burden conversion, but it remains a provider policy and
+not a patient-level payment, completed-care, or recovery observation.
+
+**Political-feedback rotation checkpoint — 2026-09-20:** the scan confirms that
+the existing Pew midterm attribution finding and NBER real-wage/election route
+already cover campaign salience, party representation, county purchasing-power
+patterns, and their limits. The Oregon Medicaid lottery now adds the missing
+randomized coverage-to-turnout stage: turnout rose in the 2008 presidential
+election but showed no evidence of persistence through the 2010 midterm. The
+same experiment also adds a household-diffusion stage: roughly one child
+enrollment for every nine additional adult enrollments, with the spillover
+fading within the following year. These are new reader findings because they
+close public-benefit-to-action and public-benefit-to-household arrows, but they
+still do not identify attribution, issue choice, care adequacy, trust, policy
+delivery, or recovery. The next political addition must hold a person,
+household, place, or event constant long enough to observe those later stages.
+
+**Take-up/targeting checkpoint — 2026-09-20:** the Pennsylvania SNAP outreach
+experiment adds a distinct implementation stage: information raised enrollment
+from about 6% to 11%, while information plus application assistance raised it to
+18%; the marginal enrollees received lower benefits and were less sick than
+average control-group enrollees. This is a new access-to-targeting mechanism,
+not another receipt total. Its rough cost per additional enrollee was about $20
+for information alone versus $60 for information plus assistance, so route
+completion is a distinct implementation cost. Food security, adequacy, trust,
+action, and recovery remain open.
+
+**Cross-program spillover checkpoint — 2026-09-20:** ACA Medicaid expansion
+adds a distinct cross-program route: SNAP and TANF participation increased,
+apparently mainly among people already eligible, consistent with Medicaid
+eligibility reducing the marginal cost of applying elsewhere. The result is
+not a same-household benefit-adequacy or security estimate, so the next test
+must preserve program, person, and household units separately.
+
+**Cross-program estimate refinement — 2026-09-23:** the official Census CES
+version sharpens that earlier checkpoint without being counted as an
+independent research line. A typical 0-to-138% Medicaid expansion reduced
+uninsurance by about 2.2 percentage points and increased SNAP by about 0.6
+people per 100; the restricted ACS estimate is 0.49 percentage points. The
+paper estimates that roughly one in five adults induced into public insurance
+was also induced into SNAP, with suggestive TANF effects among single parents
+and a weak, non-significant preferred EITC estimate. This strengthens the
+information/transaction-cost interpretation while leaving the household
+security outcome open. See the [plain-language spillover finding](findings/us-medicaid-expansion-safety-net-spillover-001.md).
+
+**Prescription two-clock checkpoint — 2026-09-20:** the retained MEPS
+prescription-event follow-up is now promoted into Reader Finding #270. Among
+people with a first prescription event in the selected round window, later
+health measures were not uniformly worse, while employment movement and both
+nonemployment entry and resolution were higher than in the comparison group.
+This is a same-person later-clock result, not treatment success or recovery:
+fill, adherence, payment burden, treatment continuity, household adaptation,
+trust, action, and exit remain open. It adds a distinct health/work mechanism
+without converting a later status change into a causal or security claim.
+
+The companion [prescription material-pressure finding](projects/us-household-constraint-cascade/findings/us-household-constraint-cascade-002.md)
+is now Reader Finding #271. It adds the event-payment, care-delay, debt,
+collector, and employment-context layer while keeping total burden, claim
+mechanism, treatment continuity, remedy, and recovery unobserved.
+
+**Financial-access conversion checkpoint — 2026-09-20:** World Bank Global
+Findex is now promoted into Reader Finding #272. U.S. account ownership is
+near-universal and the measured gender ownership gap is nearly closed, but
+account ownership, phone/device reach, digital use, liquidity, safety, and
+provider exit remain different surfaces. The international comparison keeps
+the atlas from treating “digital inclusion” as one global ladder.
+
+**AI-capability/dependency checkpoint — 2026-09-20:** World Bank WDR 2026 is
+now promoted into Reader Finding #273. It adds an infrastructure/geopolitical
+mechanism: imported AI can expand local capability while dependence on chips,
+data centers, models, skills, institutions, and procurement remains. This is a
+framework-level mechanism, not a U.S. productivity or leverage estimate; the
+next valid test is a named public or firm deployment followed through local
+use, maintenance, control, and changed external or household behavior.
+
+**Firm-capacity checkpoint — 2026-09-20:** the World Bank Enterprise Survey
+baseline is now promoted into Reader Finding #274. Establishment size is
+associated with different reported training, employment-growth,
+infrastructure, finance, and obstacle profiles. This is a firm-capacity layer,
+not an AI-adoption or worker-control estimate; the next test is a matched
+firm-worker implementation route with training receipt, task control, pay,
+and household consequences.
+
+**Food-security conversion checkpoint — 2026-09-20:** the USDA 2024 food
+security layer is now promoted into Reader Finding #275. It adds severity,
+adult/child shielding, and assistance-as-coping to the household atlas. Food
+security is not binary, and assistance participation is not restored food
+security; the next test needs timing, diet change, unpaid help, health/work
+trade-offs, and later security.
+
+**SNAP route-performance checkpoint — 2026-09-20:** USDA/FNA state tables are
+now promoted into Reader Finding #276. Participation, application timeliness,
+recertification timeliness, and the Program Access Index do not form one
+administrative-performance score. The next valid test is household-level
+notice, paperwork, timing, benefit receipt, and food-security follow-up.
+
+**Charitable-food usability checkpoint — 2026-09-20:** the Urban Institute
+WBNS layer is now promoted into Reader Finding #277. Charitable-food receipt,
+access difficulty, unmet need, transport, hours, variety, safety, and perceived
+treatment are separate stages. Community food can buffer household pressure
+without being a dependable, dignified, or sufficient route to food security.
+
+**SNAP interruption checkpoint — 2026-09-20:** the companion WBNS
+recertification layer is now promoted into Reader Finding #278. It adds the
+notice/time/paperwork/interview failure route before food outcomes. The next
+valid same-unit test must link an interruption to notice date, gap days,
+benefit amount, appeal or correction, and later food security.
+
+**Disaster-liquidity checkpoint — 2026-09-20:** the NBER small-business
+disaster-loan study is now promoted into Reader Finding #279. It supplies a
+causal firm-level recovery stage—lower exit/bankruptcy and higher employment,
+revenue, and private credit—while keeping worker quality, customer service,
+owner-household recovery, and local meaning/action open.
+
+**Eligibility-distribution checkpoint — 2026-09-20:** the NBER small-business
+size-rule study is now promoted into Reader Finding #280. It adds a
+policy-to-market-allocation mechanism: expanding eligibility toward larger
+firms can redirect contracts and worsen revenue, exits, wages, and patenting
+for affected smaller firms. The abstract-level evidence does not establish
+customer welfare, worker security, or a universal policy effect.
+
+The [material-time-household rotation screen](projects/us-household-constraint-cascade/material-time-household-rotation-screen-v1.md)
+has now been completed. It confirms that the retained SIPP, SHED, MEPS, and
+HRSA routes cover different pieces of the pressure-to-adaptation chain but do
+not add a new same-unit remedy or durable-outcome stage. No new reader heading
+is promoted from this screen. The next meaningful depth move remains an
+authorized MEPS restaging or a user/account-holder supplied UAS file under
+terms that expressly permit the workflow.
+
+The [platform-choice finding](findings/us-platform-owned-products-matched-evidence-001.md)
+completes the next consumer/platform/work-power pass. It adds a distinct
+vertical-integration mechanism: short-run customer benefit can coexist with
+long-run seller-access and choice-set questions. The next platform test remains
+product/category persistence and seller entry/exit, not another ad-fee or
+platform-use cross-tab.
+
+The promotion rule for this rotation is strict: add a reader finding only if
+the candidate contributes a new unit, mechanism, or stage. Existing SIPP,
+SHED, ATUS, NHTS, MEPS, migration, and place layers already cover many
+aggregate exposure patterns, so a duplicate cross-tab should become a matrix
+or acquisition note instead. The preferred new stage is a dated household or
+place episode with an alternative or non-use decision and a later bill,
+work/care, service, movement, or recovery consequence. If the available
+records stop at exposure or adaptation, record that boundary and rotate again.
+
+The reader now contains 355 bounded findings across the 14-theme map. The last
+rotation added social reciprocity, remedy reachability, local care usability,
+marketplace visibility costs, household adaptation currencies, AI
+capability/dependence, the smartphone attention/self-regulation split,
+airport-transit usability, and geopolitical legitimacy across domestic and
+foreign audiences.
+The latest cultural-meaning addition separates broad approval of diversity from
+agreement about company action and fairness, adding a workplace-legitimacy
+bridge without claiming an observed organizational outcome.
+The public-life engagement layer adds a civic-action counterexample: political
+interest, news trust, community participation, and federal-government trust
+form different combinations rather than one engagement ladder.
+The press-freedom layer adds an information-legitimacy tension: press freedom
+can be widely valued while limits for accuracy or security are also accepted,
+with disagreement over who should hold corrective power.
+The newest identity layer adds the belonging/treatment tension: Hispanic
+identity can be highly central and socially connective while also being
+reported as a barrier or site of unfair treatment.
+The working-class identity layer adds a status boundary: self-described class
+crosses income, education, and occupation. The political-typology layer adds a
+coalition boundary: party labels contain cross-pressured groups with different
+economic, cultural, institutional, and geopolitical views.
+The current breadth audit found that the remaining recent candidates are
+already represented through existing reader sections or cross-theme syntheses,
+including the child-care eligibility-to-usable-care route and the labor/price/
+income macro surfaces. Do not create another heading unless a candidate adds a
+new unit, mechanism, or stage. The next serious move is therefore a lawful
+same-unit/depth acquisition or follow-up, not another aggregate refresh.
+While the account-controlled PSID/UAS/HRS routes remain unavailable, the
+retained MEPS event spine is the active fallback depth route. Finding #214
+records its exact boundary: month-ordered person/event scaffolding exists, but
+event-specific alternatives, household choice, verified remedy, and recovery
+do not. The next MEPS pass should test only fields that can be tied to that
+same event and should stop when it reaches round-level context rather than
+claiming an episode outcome.
+The MEPS staging audit also records a crash-retention boundary: the historical
+18,457-row JSONL and its source files under `/tmp/cgtm-meps-2024` are no longer
+present. The committed stage-coverage output and hash preserve the prior
+bounded result, but no rerun or extension should be claimed until the approved
+MEPS source files are restored.
+**Workspace recheck — 2026-09-21:** the four expected local acquisition
+locations (`/tmp/cgtm-meps-2024`, `/tmp/us-broad-sipp-2025`,
+`/tmp/us-broad-psid`, and `/tmp/cgtm-uas`) remain absent. The repository still
+contains documentation, field audits, scripts, and bounded public comparators,
+not the respondent directories themselves. This confirms that the next valid
+depth move is either an authorized file handoff or another public record that
+adds a later receipt, operating, durability, or response stage; it does not
+authorize a synthetic household sequence or a re-run through restricted data.
+**Public deepening scan — 2026-09-21:** current official material was checked
+for a later infrastructure or geopolitical stage. FERC's large-load docket
+still describes an advance notice of proposed rulemaking and public-input
+stage, while its June orders direct regional operators to justify or reform
+tariffs; neither source supplies a named facility's final compliance, bill,
+reliability, or household result. NATO's CWIX 2026 report describes more than
+600 capabilities and 30,000 interoperability tests, and NATO's public-private
+resilience guidance calls for planning and coordination, but neither supplies
+mission-level external response, public consent, or durable civilian-service
+effect. These are useful boundary updates, not new end-to-end endpoints. The
+next valid move remains a named project, account, capability, or affected unit
+followed into receipt, operation, burden, acceptance, response, durability, or
+exit. A September 15 PJM education session and redlined proposed ride-through
+language add a more specific standards-design stage, while PJM's planned
+November filing remains future action; neither establishes adopted requirements,
+facility compliance, household bills, outages, or local acceptance.
+
+**Institution-specific confidence checkpoint — 2026-09-21:** Gallup's June
+2026 survey adds a distinct legitimacy map: average confidence remains low,
+but small business is rated much more favorably than large technology
+companies, and the largest partisan gap is attached to the presidency. This
+does not show performance, dependence, switching, or withdrawal. The next
+valid test is an institution-specific encounter followed through response,
+continued use, complaint, switching, or political action.
+
+**Information-verification checkpoint — 2026-09-21:** AP-NORC's *State of the
+Facts* survey adds a new information-legitimacy stage. Trust in federal
+information fell across major topics, while many adults reported difficulty
+checking candidate claims and low confidence in AI-generated information. This
+is a cross-sectional trust and perceived-verification-cost finding, not an
+accuracy audit or a measured path to persuasion, correction, voting, or
+withdrawal. The next test is a lawful information episode preserving source,
+search effort, verification, correction, confidence, and later action.
+
+**Local-reciprocity checkpoint — 2026-09-21:** Pew's neighborhood survey adds
+**Local-national civic-capacity checkpoint — 2026-09-21:** the Trust for Civic
+Life survey adds a selected rural counterexample: local trust, agency, and
+belonging remain strong while national political voice is weak. The report
+also links agency to meaningful responsibility in problem-solving groups more
+than to volunteer hours alone. Because recruitment ran through Civic Hub
+networks, this is not a representative or causal rural estimate. The next test
+is a place-linked civic episode with role, effort, visible result, cross-
+difference contact, and later continuation or exit.
+
+**Principle-versus-threat checkpoint — 2026-09-21:** AP-NORC's America 250
+survey adds a national-identity counterexample: rights can be widely valued
+while their safety is contested, and the American Dream can remain culturally
+central while being judged unrealized. Party, age, and symbolic-display
+differences are descriptive, not causal. The next test is a dated rights,
+economic, or civic episode followed through interpretation and action.
+
+**Coalition-configuration checkpoint — 2026-09-21:** Pew's 2026 typology adds
+a nine-group map beneath the two-party surface. Within-party differences in
+culture, material stress, political attention, alliance preferences, and views
+of power are substantial. The groups are cluster-derived and descriptive, not
+causal or permanent identities. The next test is a validated respondent or
+dated episode that follows a cross-pressured group through information,
+attribution, participation, switching, or non-use.
+
+**Democracy-performance checkpoint — 2026-09-22:** Pew adds a distinct
+evaluation layer: many Americans say the U.S. used to be a good democratic
+example but is not now, and dissatisfaction is high but sharply partisan. The
+survey does not identify reform preference, feasibility, turnout, protest, or
+withdrawal. The next test is a dated institutional episode followed through
+democratic judgment, reform demand, participation, and later action.
+
+**Reform-feasibility checkpoint — 2026-09-22:** Pew's July analysis adds the
+missing distinction between wanting change and believing change is achievable:
+77% said major or complete reform is needed, while 27% were confident that
+major change could happen. Roughly half were described as "pessimistic
+reformers." Separate surveys also show majority support for several specific
+reforms, but those answers are not one coordinated program. This is a public
+attitude pattern, not evidence of action or successful reform; the next valid
+test remains a dated institutional episode with reform preference, organizing,
+institutional response, and later continuation or exit.
+
+**Civic-reach/time checkpoint — 2026-09-22:** the Census/AmeriCorps 2023 civic
+supplement is now promoted into the canonical registry. Formal volunteering
+and informal neighbor help rose after the pandemic low, while mean and median
+hours per formal volunteer fell. This is a reach-versus-time pattern, not a
+measure of civic efficacy, organizational continuity, local repair, or later
+political action. The next test is a place-linked or repeated civic record
+that joins activity to time, transport, care, organizational response, and
+continuation or exit.
+
+**Smartphone self-regulation checkpoint — 2026-09-22:** Pew adds a personal
+attention/control stage to the low-density platform lane. Many adults report
+that smartphones help them stay informed and connected while also saying they
+spend too much time on them; among those who tried to cut back, only a quarter
+report being highly successful. This is not a device-log, addiction, health,
+or durable-exit finding. The next test is a privacy-protected diary or device
+record joining the target behavior to the reason for reduction, substitutes,
+work/care constraints, and later continuation or exit.
+
+**Airspace-response persistence checkpoint — 2026-09-22:** a NATO August 2026
+account adds a repeated-incident response stage after airspace violations and
+drone incidents affecting Poland and Romania. Solidarity, public attribution,
+condemnation, and defensive reinforcement are visible; deterrence, changed
+Russian behavior, host burden, and public acceptance remain open. The next
+test is a dated incident-response ledger with independent verification,
+duration, local effects, and later external behavior.
+
+**Drinking-water infrastructure checkpoint — 2026-09-22:** EPA and CDC add an
+essential-service and governance comparison. Community-water coverage is broad,
+but private-well users carry more testing and maintenance responsibility while
+EPA estimates a large lead-service-line replacement need. This is not a
+household exposure, replacement, bill, health, or safe-service result. The next
+test is a place-level water-system or private-well episode with notice, testing,
+replacement or treatment, cost, outage, and later service or health outcome.
+
+**Local-reciprocity checkpoint — 2026-09-21:** Pew's neighborhood survey adds
+a cultural-support distinction that was not explicit in the main readout:
+local trust and willingness to help can exceed people's expectation that help
+will actually be available. This is a useful informal-capacity signal, not a
+delivered-aid, burden, adequacy, or household-security finding. The next valid
+test is a place-linked or repeated episode that observes help requested, help
+delivered, helper cost, recipient result, and later continuity.
+The geopolitical scan found a watch candidate in the Joint Expeditionary Force's
+March 2026 statement: leaders describe progress in the JEF/Ukraine Enhanced
+Partnership, future Ukrainian participation in JEF LION exercises, and aligned
+response options. This adds a planned partner-integration route, not observed
+partner behavior, public consent, deterrence, refusal, or changed external
+conduct. Recheck after the exercise or a dated incident response.
+**JEF follow-up scan — 2026-09-21:** later official JEF accounts now add a
+real operating stage: a multinational escort rehearsal moved Danish military
+equipment through the Baltic to Latvia, and a later exercise deployed a JEF
+forward headquarters in northern Norway with host-nation support and NATO
+coordination. This upgrades the candidate from planned integration to reported
+cross-border operation, but it still does not show a real crisis response,
+adversary change, local acceptance, community burden, or durable deterrence.
+The Ukrainian-participation route remains a separate implementation watch item;
+the records reviewed here do not show what Ukrainian units did or whether the
+partnership changed another actor's behavior. See the [JEF operating
+record](records/us-jef-lion-protector-baltic-express-2026.json), the [JEF
+leaders' statement](https://jefnations.org/2026/03/30/joint-statement-from-the-leaders-of-the-joint-expeditionary-force-26-march-2026),
+and the [UK-Ukraine declaration](https://www.gov.uk/government/news/uk-ukraine-joint-statement-enhanced-security-and-defence-industrial-collaboration-declaration).
+**Worker-remedy freshness check — 2026-09-21:** the Department of Labor's
+FY2025 release reports more than $259 million in recovered back wages for
+nearly 177,000 employees, while the current Workers Owed Wages route still
+requires search, identity verification, a signed claim, supporting documents,
+and electronic payment. The scale figure strengthens the institutional-recovery
+stage but does not add worker-level receipt, adequacy, household relief, later
+work, trust, or exit. Keep it as a public comparator, not a recovery rate or a
+new end-to-end episode.
+The CHIPS governance layer adds an industrial-capacity boundary: awards and
+disbursements can advance while qualified output, workforce retention,
+customer supply, governance alignment, and reduced foreign dependence remain
+open.
+The AI capability layer adds the adjacent adopt/adapt/advance boundary: access
+to imported tools can be useful before local language fit, institutional
+supervision, portability, or provider replaceability are established. Keep
+capability, dependence, and geopolitical leverage as separate stages.
+The international-legitimacy layer adds the external-reception boundary:
+foreign publics, U.S. partisans, and U.S. institutions can interpret the same
+material power differently. A shared description of interference does not
+prove shared legitimacy, alliance trust, or changed external behavior.
+The European Parliament Research Service's February 2026 transatlantic brief
+adds analyst-level context on uncertainty about U.S. reliability across NATO,
+Ukraine, trade, technology, climate, and China, while retaining shared
+security and resilience interests as possible cooperation channels. It is not
+a country-public survey or an observed alliance response; use it to define
+candidate event windows and response fields, not to promote a legitimacy or
+leverage claim. The new [event-country-party-year acquisition manifest](projects/ai-work-control/event-country-party-year-acquisition-manifest-v1.md)
+turns that open bridge into a bounded candidate inventory, with Poland F-35,
+JASSM-ER, Virginia large-load, and Pew audience records kept as separate
+inputs until an observed external response is available.
+The last item adds a consumer-culture example in which information and
+connection utility coexist with perceived excess and mostly partial attempts
+to cut back. These additions preserve breadth and sharpen the shared
+conversion rule, but they do not close the portfolio's open middle.
+
+The next pass should therefore prioritize one compact, lawful, same-unit or
+same-organization episode with these fields:
+
+```text
+condition or shock
+  -> attempted route and available alternative
+  -> effort, time, money, and completion
+  -> institutional or firm response
+  -> actual receipt/use and adequacy
+  -> later durability, trust, switching, non-use, or exit
+```
+
+Candidate lanes remain: a named worker remedy with payment and later work; a
+recipient/account-level consumer or public-benefit correction; a property-level
+insurance claim through repair and safe return; a care episode through usable
+appointment and later health/work outcome; or a named infrastructure/defense
+capability through delivery, acceptance, operation, replaceability, and an
+affected actor's response. If the required authorized identifier or follow-up
+is unavailable, record the acquisition boundary and do not promote another
+aggregate result into an end-to-end claim.
+
+**Atkins public-follow-up recheck — 2026-09-20:** searches of the Fair Work
+Ombudsman route and broader public web results located the original 2016
+underpayment/penalty record and the 2018 appeal-dismissal/payment record, but
+no worker-specific later employment, adequacy, household, trust, recurrence,
+or exit record for the ten named drivers. Current job postings associated with
+the company are not evidence about those workers. Keep Atkins at
+underpayment → enforcement → institutionally reported receipt, and treat the
+later lived-recovery fields as an acquisition boundary ([2016 enforcement
+record](https://www.fairwork.gov.au/newsroom/media-releases/2016-media-releases/july-2016/20160705-atkins-penalty);
+[2018 payment follow-up](https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed)).
+
+**Authenticated same-unit data gate — 2026-09-20:** a workspace inventory and
+the current acquisition audits confirm that no PSID, UAS, or HRS respondent
+file is locally retained. PSID public-use packages require researcher
+registration and Conditions-of-Use acceptance; UAS downloads require
+registration and its current terms restrict automated/LLM handling without
+express authorization; HRS downloads require login. The executable next step
+is therefore an authorized human-led handoff: obtain the smallest permitted
+PSID Data Center extract or UAS Older Ages panel, then run the structural
+identity, timing, weight, missingness, and overlap gates before estimating
+anything. Until that authority and file state changes, keep the existing
+public-data bridges as bounded context and do not manufacture a same-unit
+end-to-end result from documentation alone.
+The health-friction counterexample adds route specificity: prescription delay
+and prior-authorization delay show different mixes of later perceived-health
+change, so “institutional friction” is not one universal pathway.
+The linked HTOPS bridge adds a material-to-political endpoint: expense
+difficulty is followed by household pressure while institutional confidence
+moves unevenly across the presidency, Congress, coercive institutions, and
+statistical agencies.
+The retail-activity comparison adds a consumer-firm boundary: nominal sales
+can rise while real quantity, household room, firm margin, local access, and
+customer welfare remain open.
+The household-security baseline adds a national-clock boundary: high median
+income can coexist with poverty, child poverty, and full-year uninsured status
+without proving usable security for the same households.
+The social-connection comparison adds a cultural boundary: communication can
+remain comparatively stable while loneliness and support adequacy worsen, and
+institutional confidence varies by the institution being judged.
+The repeated-snapshot comparison adds a timing boundary: broad expense
+pressure can look stable while food, energy, and institutional judgments move
+on separate clocks; the snapshots are not a household panel.
+The fraud/loss follow-up adds a consumer conversion rule: exposure, realized
+loss, agency reporting, self-reported recovery, and restored security remain
+separate, especially in the sparse recovery cell.
+The interface synthesis adds the central conversion rule directly: formal
+availability is not usable opportunity, and failed conversion costs are often
+shifted into private time, money, disclosure, family help, non-use, or dependence.
+These are
+separate source universes, not one pooled result. They
+strengthen the recurring conversion rule that formal capacity, practical use,
+protected outcome, and durable belonging must be measured separately. The next
+pass should seek a dated user or family episode with an alternative, effort,
+completion, and later outcome—or rotate to another theme rather than add
+another exposure-only cross-tab.
+
+**Health-access gate checkpoint — 2026-09-19:** the new [Medicare Advantage
+prior-authorization finding](projects/us-health-cost-household-choice/findings/us-health-cost-household-choice-014.md)
+adds a current denial-to-appeal route. HHS OIG found 12% of SNF admission
+requests denied across 19 plans; only 18% of denials were appealed, and 95% of
+appealed denials were overturned. This strengthens the institutional-friction
+middle without claiming that reversal produced timely admission, completed
+rehabilitation, functional recovery, or trust. The next valid step remains a
+request-level episode with delay, substitute care, out-of-pocket cost, and
+later outcome.
+
+**Benefit-control checkpoint — 2026-09-19:** the new [SNAP benefit-control
+finding](projects/us-safety-net-access/findings/us-safety-net-access-019.md)
+adds an important public-system failure stage: benefits can be formally issued
+but become unusable when an EBT account is stolen. GAO reports more than $320
+million in approved replacement benefits for nearly 679,000 households during
+the covered statutory period, while warning that the data understate theft and
+do not show individual replacement timing, food gaps, or durable recovery.
+Recipient controls, card modernization, and monitoring are institutional
+responses, not proof of restored food security. The next valid step remains a
+privacy-approved same-episode route with theft, claim, replacement, interim
+food/cash substitution, next-month stability, and later trust/reporting.
+
+**Worker payment-verification checkpoint — 2026-09-19:** the worker lane now
+separates two institutional states that must not be pooled. The Workers Owed
+Wages route exposes recovered money that a worker still has to find, verify,
+claim, and receive; the separate PAID program requires an employer to pay
+within 15 days and provide WHD proof of payment. The second is stronger
+administrative verification, but neither public route shows worker cashing,
+adequacy, household recovery, durable work, trust, or exit. Keep both as
+reachability counterpoints and target same-worker payment and later-outcome
+fields rather than another aggregate recovery total.
+
+**HTOPS denominator-integrity checkpoint — 2026-09-19:** the April-to-June
+fraud follow-up memo now matches the machine record and linkage audit: 8,850
+April rows, 7,485 June rows, and 6,564 exact `SCRAMID` links. This does not
+change the estimates; it removes a stale denominator before the linked panel
+is used in another synthesis.
 
 The current material-exposure → political-meaning/action checkpoint is tracked
 in the [focused status ledger](US-BROAD-MATERIAL-TO-ACTION-STATUS_V1.md). It
@@ -34,13 +5669,259 @@ meaning, and action open.
 
 **Coverage checkpoint (2026-09-17):** the source-registry audit now finds all
 114 registered source domains represented outside source-search packets; 106
-have exact registered-URL references. The trend registry holds 344 records and
-1214 observations.
+have exact registered-URL references. The trend registry holds 1012 records and
+2353 observations. The latest UNICEF digital-safety pass adds platform-contact,
+exploitation, disclosure, reporting, trusted-support, child-protection, and
+accountability stages while keeping causal effects and institutional outcomes
+open. The latest WHO social-connection pass adds loneliness,
+isolation, belonging, health, school/work participation, community-institution,
+digital-mediation, and policy-response stages while keeping causal pathways and
+intervention effects open. The latest UNICEF child-climate pass adds compound-hazard,
+service-capacity, displacement, health, WASH, education, protection, and child-
+participation stages while keeping realized harm and adaptation outcomes open.
+The latest ILO global-work pass adds jobs-gap, informality,
+working-poverty, productivity, gender, youth, trade-exposure, and AI-risk
+stages while keeping worker transitions, bargaining, and household outcomes
+open. The latest OECD tax-policy pass adds household-relief,
+social-contribution, corporate-incentive, platform-collection, health-tax, and
+public-finance stages while keeping incidence, revenue realization, and
+behavioral effects open. The latest IEA household-energy pass adds bill, tariff,
+network-charge, building-efficiency, access, clean-cooking, health, utility,
+and policy-targeting stages while keeping durable relief and welfare open. The
+latest UNCTAD digital-services pass adds services-input,
+digital-export, connectivity, payments, skills, AI-readiness, and trade-rule
+participation stages while keeping domestic value capture and firm/worker
+outcomes open. The latest Pew public-life pass adds engagement-group,
+news-attention, voting, volunteering, donation, religious-participation, and
+official-contact stages while keeping persistence, causality, and institutional
+response open. The latest SEC private-market access pass adds eligibility,
+qualification stability, financial intermediation, ownership, and planned-investment
+stages while keeping realized opportunity, transaction, return, and household
+outcomes open. The latest Tunisia resource-security pass adds water
+scarcity, modeled labor exposure, provider finance, cost recovery, adaptation,
+and household-protection stages while keeping realized service and welfare
+open. The latest Vietnam trade-livelihood pass adds corridors,
+ports, fisheries, climate resilience, construction work, and distributional
+targets while keeping realized access and income open. The latest Ecuador subnational-finance pass adds
+development-bank intermediation, project preparation, local-government capacity,
+and beneficiary/mobilization targets while keeping delivery and distribution
+open. The latest Malawi comparative state-capacity pass adds
+macro-shock, fiscal-room, state-owned-enterprise, service, and tariff-protection
+stages while keeping household outcomes and reform implementation open. The latest institutional-capacity pass adds judicial
+administrative space, rent, occupancy measurement, and management-control
+stages while keeping service access and outcomes open. The latest judicial-legitimacy pass adds cross-source
+approval, favorability, perceived ideology, and power-acceptance measures
+while keeping institutional authority and behavior open. The latest infrastructure-implementation pass adds
+obligation, disbursement, review, rescission, and recipient-usability stages
+while keeping completed service delivery open. The latest DMV public-sector-shock pass adds local job confidence,
+housing pressure, and prospective mobility while keeping verified layoffs and
+actual moves open. The latest cultural-memory pass adds collective memory,
+personal lifestyle change, terrorism worry, and partisan security-confidence
+divergence while keeping behavior and capability open. The latest cultural-identity pass adds retention,
+demographic composition, religious practice, and issue reinterpretation while
+keeping institutional continuity and causes open. The latest prediction-market pass adds sports-driven
+speculative volume, platform expansion, and topic routing while keeping user
+reach, money exposure, and civic meaning open. The latest multilateral-legitimacy pass adds global support,
+role-specific performance, and country divergence while keeping institutional
+effectiveness and behavior open. The latest household-material pass adds income, poverty,
+insurance, and lower-tail divergence while keeping resource definitions and
+transmission routes separate. The latest firm-price-pressure pass adds input prices,
+firm responses, and expectations while keeping consumer incidence and outcomes
+open. The latest health-AI control pass adds use, usefulness,
+disclosure, visibility, and patient-input stages while keeping clinical
+accuracy and outcomes open. The latest tribal-water-capacity pass adds eligibility,
+administrative burden, and maintenance stages while keeping service reliability
+and health outcomes open. The latest cultural-participation pass adds recent arts use,
+personal creation, and perceived local supply while keeping durable engagement
+and access mechanisms open. The latest local-national-democracy pass adds a layered
+local-versus-national legitimacy route while keeping participation, causality,
+and institutional performance open. The preceding infrastructure-legitimacy
+pass adds a siting-legitimacy route alongside AI capacity build-out while
+keeping actual externalities and siting outcomes open. The latest worker-control implementation pass adds request
+and grant stages plus job-level control context while keeping adequacy and
+exit open. The latest refund-reachability pass adds a payment-cashing
+and reissue stage after formal remedy while keeping adequacy and recovery open.
+The latest hurricane climate-accountability pass adds a
+district/representative event-to-institution-to-election route while keeping
+household meaning and recovery open. The latest Taiwan reciprocal-trade response pass adds a
+dated partner commitment after domestic semiconductor realization while keeping
+implementation, delivery, replaceability, and leverage open. The latest DHS,
+telecommunications, cloud-security, MARSEC,
+aviation-cybersecurity, AI-persuasion, eviction-to-child-outcomes, and
+emergency-rental-assistance passes add
+a bounded fiscal-legibility and service-continuity test: reported potential
+savings, replacement obligations, transition status, and actual service or
+mission effects must remain separate.
 The reverse audit shows 78 observed domains outside registered families; these
 remain a review queue because many are mirrors, delivery hosts, or one-off
 citations rather than durable source families.
 This confirms breadth coverage, not that every source has closed its open
 behavior, meaning, institutional, or geopolitical arrow.
+
+The latest Gallup public-risk pass adds politics-as-personal-safety-perception,
+cross-partisan survey comparison, and government-care meaning stages while
+keeping actual safety outcomes, exposure, disorder, participation, and
+institutional response open.
+
+The latest Pew public-life pass adds four participation routes—Mobilizers,
+Connectors, Spectators, and Outsiders—plus separate voting, volunteering,
+charitable, religious, news, and official-contact endpoints while keeping
+causality, durability, efficacy, and exclusion open.
+
+The latest Census HTOPS arts pass adds recent attendance, personal creation,
+perceived local cultural supply, and conversion-gap stages while keeping
+affordability, time, transport, durable engagement, and causal access barriers
+open.
+
+The latest USCC undersea-cable pass adds cable-system exposure, repair-fleet,
+gray-zone capability, route redundancy, residual-capacity, latency, and
+economic-continuity stages while keeping attack probability, realized outages,
+and downstream firm or consumer effects open.
+
+The latest OECD Philippines pass adds productivity, competition, network-sector
+access, formal/informal employment, social-protection, fiscal-room, and climate-
+adaptation stages while keeping implementation, distribution, and U.S. transfer
+open.
+
+The latest INL TOPGEAR pass adds ownership, board, procurement, organizational-
+network, asset-adjacency, screening, and operational-control stages while
+keeping adversarial intent, realized disruption, and public-service effects
+open.
+
+The latest CFPB consumer-credit pass adds product, inquiry, credit-tightness,
+risk-tier, origination, dollar-volume, and consumer-finance adaptation stages
+while keeping repayment, affordability, debt distress, and household welfare
+open.
+
+The latest NIQ agentic-commerce pass adds AI-assisted discovery, recommendation,
+comparison, value evaluation, purchase-decision, product-content, and machine-
+mediated visibility stages while keeping actual transactions, accuracy, trust,
+conversion, and consumer welfare open.
+
+**EU semiconductor-category licensing checkpoint — 2026-09-25:** the
+Commission's underlying 2024 dataset now supplies a direct 3EC4 category
+measurement: €721.1 million and 156 individual authorizations across the
+listed Member State rows, led by Austria and Germany. The next valid step is
+destination/exporter/denial linkage or a named shipment or firm response; the
+category total must not be interpreted as shipment completion, permissiveness,
+or U.S.-EU strategic convergence.
+
+**EU control-system enforcement checkpoint — 2026-09-25:** the same official
+2024 dataset reports 415 FTE control staff, 154 outreach events, 1,353
+compliance audits, 270 reported infringements, and 144 penalties/fines. This
+closes a system-administration and enforcement-visibility stage after the
+3EC4 authorization layer, but not a semiconductor-specific case, enforcement
+rate, shipment, firm response, deterrence, or leverage. The next valid test is
+an item- and case-linked audit, denial, penalty, or shipment endpoint.
+
+**Named semiconductor-enforcement checkpoint — 2026-09-25:** BIS's Applied
+Materials settlement now supplies a firm-level route from controlled equipment
+through a Korea-to-China shipment path, reported violation, $252 million
+penalty, audits, annual certifications, and personnel consequences. The next
+valid test is a later audit/certification result or a named production,
+shipment, replacement, or customer endpoint; do not convert the settlement into
+general deterrence or Chinese capability change.
+
+**Semiconductor-design enforcement checkpoint — 2026-09-25:** the Cadence
+BIS/DOJ resolution adds a distinct design-tool route after the Applied Materials
+equipment case: front-company exports, agency-specific violation counts,
+parallel civil/criminal penalties, account freeze, export hold, and compliance
+remediation. The next valid test is a later compliance, customer, shipment, or
+capability observation; do not pool its 56 BIS violations with DOJ's at-least-
+59 export description or infer deterrence from the monetary resolution.
+
+**Power-semiconductor enforcement checkpoint — 2026-09-25:** the Alpha and
+Omega BIS order adds a third named firm route: post-Entity-List sample and
+in-country transfers, 15 unauthorized occasions, approximately 1,650 items,
+$4.25 million penalty, and conditional export privileges. Its later Digital
+Power business-unit elimination is an observed firm outcome but not a causal
+enforcement effect. The next valid test is later license/compliance evidence or
+a named Huawei/product endpoint.
+
+**Foreign-produced semiconductor enforcement checkpoint — 2026-09-25:** the
+Bosch settlement adds an allied-firm/FDPR route: approximately $72.4 million in
+MEMS sensors and automotive software exported from abroad to Huawei, voluntary
+self-disclosure, a $36.18 million BIS penalty, and approximately $3.6 million
+in DOJ disgorgement credited against it. The next valid test is later Bosch
+compliance or product/customer evidence; do not infer that self-disclosure,
+penalty, or jurisdictional reach changed Huawei capability or allied behavior.
+
+**Conditional advanced-computing opening checkpoint — 2026-09-25:** BIS now
+provides a formal case-by-case route for specified H200/MI325X-class exports
+to China or Macau, bounded by U.S.-supply, foundry-capacity, end-use,
+comparative-TPP, and third-party-testing conditions. The next valid test is an
+approved license, tested shipment, customer, or supply outcome; do not treat
+the policy revision as realized market reopening or Chinese capability change.
+
+**Conditional-opening realization checkpoint — 2026-09-25:** NVIDIA reports
+that the U.S. granted a February 2026 license for small H200 shipments to
+specific China-based customers, but also reports zero H200 licensing-program
+revenue and no known China import approval. The next valid test is inspection,
+shipment, import, customer, or revenue evidence; do not collapse license
+approval into market reopening or capability transfer.
+
+**Partial-delivery realization checkpoint — 2026-09-25:** NVIDIA's fiscal Q2
+2027 filing reports that PRC restrictions prevented all licensed H200 sales,
+but a fraction of allowed shipments occurred and represented less than 1% of
+quarterly Data Center revenue. The next valid test is customer-level import,
+quantity, revenue, or capability evidence; do not treat partial licensed
+delivery as restored China data-center market access.
+
+**Chinese state-confirmation checkpoint — 2026-09-25:** In response to a
+question about U.S. claims of small H200 sales to China, a Ministry of Commerce
+spokesperson said he did not know about the situation. Treat this as official
+non-confirmation only; the next valid test is a Chinese customs, customer,
+import, or use record, not an inference of approval or prohibition.
+
+**Domestic-competitor adaptation checkpoint — 2026-09-25:** Hygon reported
+that H200 entry would intensify domestic high-end-chip competition and said it
+would respond through performance, compatibility, compliance, cost-performance,
+and customer-case strategies. The next valid test is Hygon or peer customer,
+shipment, market-share, price, or capability evidence; do not treat a firm
+strategy statement or expected share gain as realized substitution.
+
+**Domestic-competitor realization checkpoint — 2026-09-25:** Hygon's 2026
+interim report records RMB 9.099 billion first-half revenue, 66.52% year-over-
+year growth, DCU deployment across key industries and hundreds of scenarios,
+and adaptation to more than 400 mainstream large models. The next valid test is
+DCU-specific revenue, units, named customers, market share, or switching; do
+not attribute consolidated growth to H200 competition or export controls.
+
+**Domestic-capability realization checkpoint — 2026-09-25:** Hygon reported
+preliminary stable operation of a 10-trillion-parameter model on a cluster of
+tens of thousands of Hygon DCUs, with a DTK stack covering 2,000-plus operators
+and 100-plus framework components. The next valid test is independent
+benchmarking, customer acceptance, utilization, cost, or mixed-cluster
+substitution; do not treat a company-reported demonstration as market parity.
+
+**Public-system integration checkpoint — 2026-09-25:** Hunan's provincial
+compute-scheduling platform reported Hygon DCU compatibility and first-batch
+resource access by the Changsha National Supercomputing Center, operator
+compute centers, and Changsha AI Innovation Center. The next valid test is
+utilization, procurement, workload, performance, or customer evidence; do not
+equate initial resource access with sustained substitution.
+
+**Named-workload checkpoint — 2026-09-25:** Hunan's AI-supply inventory
+describes a 200P mixed Ascend/Hygon Changsha AI center supporting a visual
+foundation model, an agricultural Q&A model, and a tourism model. The next
+valid test is Hygon-specific workload allocation, duration, performance,
+procurement, or customer evidence; do not attribute center-level applications
+to Hygon alone.
+
+**Model-specific realization checkpoint — 2026-09-25:** A listed-company
+interim report states that Hygon completed full-process Kimi K3 adaptation,
+deployment, and performance verification on its DCU platform. The next valid
+test is the underlying benchmark, production duration, named customer,
+utilization, or independent acceptance; do not treat a reported verification
+statement as independent performance evidence.
+
+**Quantitative performance-claim checkpoint — 2026-09-25:** A technical-news
+report relays an official Hygon result that Kimi K3 performance loss on
+domestic cards was within 12 percent and describes distributed training and
+multi-card inference on a Sugon 8000/Hygon stack. The next valid test is the
+underlying benchmark configuration, reproducible artifact, production
+duration, customer, utilization, or independently measured cost/performance;
+do not convert a relayed vendor figure into independent parity.
 
 ### Health-cost legitimacy acquisition gate
 
@@ -133,15 +6014,24 @@ judgment, housing/insurance/energy pressure, and consumer culture/trust/status.
 These routes are presentation
 artifacts built from the validated records; they do not add new estimates or
 close the same-unit event arrows. The authenticated PSID package remains
-absent, while the 2025 SIPP archive, replicate-weight archive, and derived
-full-file slice are available outside Git under `/tmp/us-broad-sipp-2025/`.
-The utility-to-following-work screen has now been rerun from that full slice
-and reproduces its committed point estimates and intervals. A follow-on
+absent. The 2025 SIPP archive, replicate-weight archive, and derived full-file
+slice were historically held outside Git under `/tmp/us-broad-sipp-2025/`; a
+current post-crash recheck finds that temporary directory absent. The
+utility-to-following-work screen was previously rerun from that full slice and
+reproduced its committed point estimates and intervals. A follow-on
 utility/tenure/child-care comparison now supplies the compatible annual
 `EWORKMORE` universe while preserving its mixed-clock boundary. The next SIPP
 gate is therefore a dated bill/service event or the stronger authenticated
 PSID acquisition, followed by explicit universe, retention, missingness,
 weighting, and timing checks.
+
+The plain-language care synthesis now makes unpaid eldercare explicit as
+hidden social infrastructure: scale and care-day time are visible, while the
+caregiver's displaced work, sleep, earnings, health, and household security
+remain unmeasured in the public aggregate. This strengthens the societal
+interpretation but does not change the next acquisition decision: the decisive
+pass still needs a same-family care episode with a replacement option,
+schedule/work response, recipient outcome, and later durability.
 
 The local [utility-to-buffer transition gate](projects/us-household-calendar-integration/sipp-utility-buffer-following-gate-v1.md)
 was then run against the same v18 slice and 240-replicate archive. Credit and
@@ -179,6 +6069,14 @@ The ledgers now separate commitment, capacity, governance, supplier identity,
 planned delivery, operational stress, and external response; accepted output,
 replaceability, public/partner incidence, and changed behavior remain open.
 
+The disaster-response lane now adds a current [Los Angeles wildfire FEMA
+stage ledger](projects/us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json)
+beside the broader GAO delivery record. It makes registration, referral,
+eligibility, and reported assistance amount explicit for one disaster while
+preserving payment receipt, repair or housing completion, stable recovery, and
+later trust or action as open. This is a stronger current administrative
+endpoint, not a survivor recovery estimate.
+
 The next active rotation is now a **storage-light event-compatibility gate**:
 identify one dated material or service episode that can be followed through
 alternatives, money/time response, remedy or recovery, and later meaning or
@@ -193,6 +6091,23 @@ smallest authenticated PSID/UAS or other event-compatible route. Keep selected
 linkage, timing, attrition, units, and the distinction between confidence,
 vote, contact, complaint, action, withdrawal, and recovery explicit. Do not
 download large respondent files by default.
+
+**Continuation checkpoint — 2026-09-19:** the retained HTOPS route was extended
+with an income-stratified and AI-overlap screen. Expense difficulty is followed
+by multi-domain searching across all income bands, and AI use co-occurs with
+more search rather than replacing it; these remain descriptive navigation
+signals, not completed alternatives or recovery. The infrastructure rotation
+also reached a bounded project-level endpoint: public voice, risk-allocation
+rules, land consent, route change, and reported energization are visible, while
+resident compensation, household bill/reliability effects, and acceptance are
+open. These lanes are now control/context layers; the next decisive pass still
+requires a dated same-unit event with usable alternative, response, and later
+outcome. The [HTOPS wave-overlap audit](projects/us-cost-trust-politics/htops-wave-overlap-audit-2025-2026.md)
+also checked the retained February 2025, June 2025, and March 2026 files
+before attempting another panel extension. Each file contains `SCRAMID`, but
+all three pairwise intersections are zero, so they cannot support a new
+same-respondent transition estimate. The existing April-to-June cohort remains
+bounded and the other waves stay cross-sectional context.
 The crash-safe [authorized longitudinal-pass handoff](data/next-authorized-longitudinal-pass-handoff-v1.json)
 now consolidates the ranked UAS Older Ages, PSID, and UAS Comprehensive Panel
 routes, exact first structural checks, and stop conditions. It is an execution
@@ -225,6 +6140,16 @@ The HTOPS route is also captured in a [structured broad event ledger](projects/u
 as a linked respondent-cohort case. It formalizes six partial arrows without
 turning retrospective exposure, self-reported recovery, or later hardship into
 a dated individual remedy or causal trust/exit result.
+
+The official Fair Work Commission route was rechecked for the strongest public
+worker episode, Mudiyanselage: the decision and bulletin still expose forced
+exit, a constrained new job, partial payment, a compensation order, and broken
+trust, but no later public payment, compliance, or employment follow-up. This
+closes the public-search branch for now. The next valid advance is a
+privacy-preserving payroll, compliance, worker-confirmed, or later-employment
+source with final payment, accepted work or non-use, pay/hours/commute
+trade-off, recurrence, and trust or exit fields; another reading of the same
+order cannot close recovery.
 
 The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
 tested the official February PUF against the April and June respondent keys.
@@ -283,6 +6208,12 @@ not a driver-level recovery, continued-work, alternative-work, or exit result.
 The route is now also captured in a [structured broad event ledger](projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json),
 which separates the compensation obligation, distribution, reissue, aggregate
 receipt, individual receipt, and downstream worker-power stages.
+The [September 19 official-source recheck](projects/ai-work-control/amazon-flex-refund-followup-recheck-2026-09-19.md)
+confirms that the Zelle route remains active but exposes no current
+same-driver payment status, amount, receipt, continued work, or later outcome.
+Public driver comments are retained as qualitative trust/control context only,
+not as a verified outcome panel. Do not expand this route with another
+aggregate refund count; pursue privacy-approved recipient-level follow-up.
 
 The small-business disaster-liquidity source pass adds a causal firm-level
 middle layer: recovery loans reduce exit and bankruptcy while increasing
@@ -320,6 +6251,112 @@ among more heavily affected groups. This is a descriptive legitimacy surface,
 not a causal aid-to-action result; the next route is a lawful same-resident
 link to verified aid, displacement, health/work recovery, and later civic
 behavior.
+
+**Higher-education aid usability rotation — 2026-09-22:** GAO reports that
+9.9 million students were Pell-eligible in SY 2024–25, about 6% more than the
+prior year, and maximum-award eligibility rose 31% after FAFSA simplification;
+yet fewer students completed the FAFSA during the rollout. Gains were uneven,
+and some household configurations could lose eligibility. This adds an
+eligibility-to-application boundary; the next valid test is a protected
+student route through submission, verification, award, disbursement,
+enrollment, persistence, and exit. Do not treat eligibility as received aid or
+college access. See the [Pell/FAFSA finding](projects/us-pell-fafsa-usability/findings/us-gao-pell-fafsa-eligibility-2026-001.md).
+
+**School-participation rotation — 2026-09-22:** Department of Education data
+count 13.4 million of 48.3 million students as chronically absent in 2022–23,
+or 27.8%, with large state differences. This adds a participation boundary
+between enrollment and usable school access. The next valid test is a protected
+student or school episode joining absence reason, outreach, support,
+transportation or housing context, learning, safety, belonging, and later
+attendance or exit. Do not treat chronic absence as a single cause or as
+permanent dropout. See the [attendance finding](projects/us-school-attendance-absence/findings/us-ed-chronic-absenteeism-2022-2023-001.md).
+
+**Emergency-grant learning rotation — 2026-09-22:** GAO found that Education's
+COVID-era Maintenance of Equity oversight used real-time guidance without
+MOEquity-specific written procedures; unreliable data limited verification of
+which districts were protected, and lessons were not reliably documented or
+shared. This adds a crisis-action-to-institutional-memory boundary. The next
+valid test is a later grant or emergency showing adopted procedures, verified
+data, reused lessons, and school or student outcomes. Do not treat the rule,
+funding, or recommendation as durable protection. See the [MOEquity finding](projects/us-education-grant-learning/findings/us-gao-k12-moequity-grant-learning-2026-001.md).
+
+**Tribal-water maintenance rotation — 2026-09-22:** GAO found that IHS
+property rules can exclude some homes from a project, multi-agency funding can
+create high administrative costs, and Tribes remain responsible for operating
+and maintaining systems after construction while routine IHS O&M funding is
+generally unavailable. This adds a legal-eligibility and asset-maintenance
+stage. The next valid test is a named system through connection eligibility,
+construction, operator staffing, O&M spending, outage or service quality,
+household reach, and later health or replacement cost. Do not treat a built
+project or estimated need as durable safe water. See the [Tribal water finding](projects/us-tribal-water-infrastructure/findings/us-gao-tribal-water-infrastructure-maintenance-2026-001.md).
+
+**Broadband deployment sustainability rotation — 2026-09-22:** GAO found that
+all nine reviewed federal programs had begun distributing funds, but completed-
+project data were available for only three; provider-reported maps and a
+burdensome challenge process shape targeting, while BEAD projects extend to
+2030 and beyond and sustainability monitoring remains incompletely specified.
+The next valid test is a named location or project through map challenge,
+award, construction, activation, operating finances, price, subscription,
+reliability, and continuation. Do not treat an award, planned location, or
+provider certification as durable digital access. See the [broadband
+deployment finding](projects/us-broadband-deployment-sustainability/findings/us-gao-broadband-deployment-targeting-sustainability-2026-001.md).
+
+**Wearable-health decision rotation — 2026-09-22:** GAO finds that wearables
+could support faster, more personalized, and more remote care, while device
+reliability, clinical workflow integration, privacy, liability, and unclear AI
+autonomy remain open. This adds a data-to-care boundary. The next valid test is
+a named program through device validation, data transfer, clinician response,
+patient burden and privacy, treatment change, and later health outcome. Do not
+treat sensor output or AI capability as improved care. See the [wearable-health
+finding](projects/us-wearable-health-decision-making/findings/us-gao-wearable-clinical-decision-making-2026-001.md).
+
+**Marketplace-broker consent rotation — 2026-09-22:** GAO found that federal
+Marketplace broker licensing and registration did not reliably verify consumer
+consent or notify consumers of all actions; confirmed complaints tied to
+unauthorized enrollments and plan switches grew more than fourfold from 2023
+to 2025, while at least 160,000 2024 applications had likely unauthorized
+changes. Selected state Marketplaces use stronger controls such as one-time
+passcodes. The next valid test is a protected plan-change ledger through
+authorization, identity check, notice, correction, coverage continuity, and
+care use. Do not treat registration or a complaint as a national prevalence or
+lasting coverage-loss rate. See the [broker-consent finding](projects/us-marketplace-broker-consent/findings/us-gao-marketplace-broker-consent-2026-001.md).
+
+**No Surprises provider-market rotation — 2026-09-22:** GAO found that
+in-network claim shares increased after the No Surprises Act for three of four
+selected specialties, while emergency payment trends largely continued paths
+that began before the law. This adds a legal-protection-to-market-response
+boundary. The next valid test is a protected claim and bill route through
+network status, law applicability, negotiated payment, patient liability,
+dispute, care continuity, and later financial outcome. Do not treat claim-share
+change as lower patient cost or a clean causal estimate. See the [No Surprises
+finding](projects/us-no-surprises-network-participation/findings/us-gao-no-surprises-network-participation-2026-001.md).
+
+**Part D premium-stabilization rotation — 2026-09-22:** GAO reports that
+without the 2025 demonstration average standalone-plan premiums would have
+nearly doubled for continuing beneficiaries, while observed premiums rose only
+from $42 to $43 and enrollment increased 2%. Medicare estimated $9.8 billion in
+2025-2026 demonstration cost and took on more plan-sponsor risk. The next valid
+test is a beneficiary-plan route through premium, subsidy, plan choice,
+medication access, out-of-pocket spending, switching, and health or financial
+outcome. Do not treat stable enrollment as medication access or a causal policy
+effect. See the [Part D finding](projects/us-medicare-partd-premium-stabilization/findings/us-gao-medicare-partd-premium-stabilization-2026-001.md).
+
+**Federal eligibility-data rotation — 2026-09-22:** GAO found data-quality
+issues in all nine selected federal eligibility sources and cross-source
+inconsistencies in seven; a partial match linked 2,074 awards to exclusion
+records but did not establish improper payment, and no governmentwide
+interoperability authority was designated. The next valid test is a protected
+case ledger through identity, eligibility, award, exclusion review, correction,
+repayment, and later outcome. Do not treat data matches as proof of wrongdoing
+or claim a national error rate. See the [eligibility-data finding](projects/us-federal-eligibility-data-interoperability/findings/us-gao-federal-eligibility-data-interoperability-2026-001.md).
+
+**Population insurance-coverage rotation — 2026-09-22:** CDC's preliminary
+2025 NHIS estimates show exchange coverage rising from 4.3% of people under 65
+in 2021 to 6.3% in 2025, while 28.0 million people remained uninsured and
+adults ages 18-64 remained at 11.6% uninsured. The next valid test is a
+protected person route through coverage transition, premium, cost-sharing,
+network, delayed or received care, medical debt, and later health outcome. Do
+not treat coverage status as affordable or usable care. See the [NHIS finding](projects/us-nhis-insurance-coverage-2025/findings/us-cdc-nhis-health-insurance-coverage-2025-001.md).
 
 The [Harvey cross-source event ledger](projects/us-small-business-disaster-liquidity/data/harvey-firm-customer-resident-event-ledger-v1.json)
 now preserves this chronology as four explicit arrows. It marks the firm,
@@ -1219,7 +7256,7 @@ still a linked payment/account case with verified firm response and later trust
 or exit.
 
 The [broad same-case episode availability audit](../analysis/broad-same-case-episode-availability-audit-v1.md)
-now covers 33 local episode/remedy surfaces, including the OpenAI/Statsig
+now covers 34 local episode/remedy surfaces, including the OpenAI/Statsig
 potential-claimant settlement, Apple's reported back-pay implementation, five
 IER individual-resolution summaries, and three named CFPB
 redress/distribution records plus the VRURC recall implementation bridge.
@@ -1962,12 +7999,13 @@ now shows lower retention in lower-income and materially pressured cells, so
 the attrition-conditioning requirement is active rather than a generic caveat.
 The [cross-lagged audit](projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json)
 now shows baseline expense difficulty alongside later food, energy, and
-job-loss outcomes without a parallel Congress-confidence shift; the next test
-is dated exposure and a valid attrition or event adjustment.
+job-loss outcomes. Congress confidence is nearly flat, while confidence in
+several other institutions is lower in the difficult group; the next test is
+dated exposure and a valid attrition or event adjustment.
 The new [expense cross-lagged finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-042.md)
 promotes this as a distinct bounded trend record with outcome-specific standard
 errors and valid counts. It advances temporal ordering and preserves the
-near-flat institutional-confidence comparison, but does not close the dated
+selective institutional-confidence comparison, but does not close the dated
 event, attribution, remedy, recovery, or action fields.
 
 The new [Federal Reserve income-volatility and support layer](projects/us-cost-trust-politics/federal-reserve-income-volatility-support-2025-layer-v1.md)
@@ -2332,7 +8370,17 @@ conditions that screen by ordered income-code bands and race groups. It shows
 that the pooled proxy/trust/action pattern is heterogeneous, not a single
 class-wide response. It remains descriptive: the next step is a repeated or
 event-based design with timing, attribution, prior identity, and a valid
-complex-survey variance procedure.
+complex-survey variance procedure. The official 2024 CCES v9 CSV was
+reprocessed on 2026-09-25 (60,000 rows; 21,560 valid records; 48 cells), and
+the [compact reproduction audit](projects/us-cost-trust-politics/data/cces-material-trust-action-subgroups-2024-v9-audit.json)
+now preserves the Dataverse file identity and extrema. This verifies the
+descriptive result but does not close the timing or attribution gap.
+
+The same CCES release now has a separate [vote-answer audit](projects/us-cost-trust-politics/data/cces-material-vote-audit-2024-v9.json):
+26,231 valid `CC24_401` answers versus 21,560 valid trust/action records. The
+audit confirms that action, definite-vote response, trust, and their valid
+denominators must remain separate; it does not turn self-reported vote into
+validated turnout or close the event/attribution gap.
 
 The infrastructure/state-power lane now has a US physical-demand baseline in
 the [data-center energy load layer](projects/ai-work-control/us-data-center-energy-load-baseline-v1.md).
@@ -2911,6 +8959,11 @@ income mobility, consumer behavior, or political action. The next test is a
 matched place or household design that joins meaning to housing/work exposure,
 actual economic change, and later civic or consumer behavior without inferring
 those links from the survey alone.
+The new [bounded mobility/identity finding](projects/us-immigration-local-demand/findings/us-immigration-local-demand-004.md)
+makes the reversal explicit: upward family mobility, future hope, identity
+centrality, and perceived identity advantage or barrier are separate cultural
+currencies. A dated place or institutional encounter is still required before
+linking them to action, remedy, or later mobility.
 
 The [BLS 2026 Q2 productivity and labor-share boundary](projects/ai-work-control/bls-2026q2-productivity-labor-share-boundary-v1.md)
 adds a storage-light firm/work counterexample: productivity and output rose in
@@ -3042,6 +9095,25 @@ now makes the coordination, funding, project, and measurement stages
 machine-readable; it remains an institutional/project record rather than a
 place-level recovery estimate.
 
+The new [DHS grant continuity finding](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-005.md)
+adds the political-administrative interruption stage. GAO reports a 2025 pause
+in obligated grant disbursement, 362 terminated grants, about $1.002 billion in
+deobligations, near-year-long delays for some mitigation projects, and a FEMA
+funding route later restored after a court order. This is evidence of unstable
+support and correction, not proof that every termination harmed a community.
+The next test is a recipient/project ledger linking the action notice,
+replacement or restored funding, completion, and usable preparedness.
+
+The [Puerto Rico grid recovery finding](projects/us-repeat-energy-crises/findings/us-repeat-energy-crises-006.md)
+adds a place-level infrastructure realization stage. GAO reports about $14
+billion obligated since 2017, only $2.7 billion of FEMA's $11.1 billion
+obligation disbursed, nine large FEMA projects complete, and 400 of 16,000
+planned vegetation-clearing miles completed. It also records about $715 million
+in community and low-income solar funds reallocated or canceled. These figures
+show a real obligation-to-service gap, not a household reliability or failure
+rate. The next test is a customer-class or place ledger joining project
+completion, outages, bills, solar credits, and business or household exposure.
+
 The companion [GAO 2026 disaster-assistance scams, information, and trust layer](projects/us-repeat-energy-crises/gao-2026-disaster-assistance-scams-information-trust-layer-v1.md)
 adds a consumer and legitimacy surface around the recovery system. GAO finds
 that prevalence and losses cannot be estimated from complaint data because of
@@ -3115,6 +9187,15 @@ financial recovery. It does not join SHED respondents to remedy cases or
 promote a worker-power index; the next qualifying record remains one lawful
 worker/workplace episode with alternatives, control, review authority,
 restoration, and later movement.
+The [official Fair Work later-outcome search](projects/ai-work-control/fwc-later-outcome-search-2026-09-19.md)
+adds a bounded counterexample: named decisions can show alternative work,
+travel/pay trade-offs, hardship, and a compensation order while still stopping
+before payment receipt, durable employment, household recovery, or exit.
+The new [Alam Shah worker finding](projects/ai-work-control/findings/ai-work-control-112.md)
+adds a richer cultural-access episode: language, interpreter use, walkability,
+family support across borders, and fear of repeat dismissal shape the practical
+meaning of reinstatement. It still stops before verified compliance, payment,
+actual return, or later security.
 
 Run the next passes in four rotating lanes so breadth is preserved:
 
@@ -3155,6 +9236,11 @@ statutory alignment, qualified output, and foreign dependence. The next test is
 a project-year semiconductor ledger with ownership, public rights, workforce
 retention, local capacity, yield, customer delivery, and supplier switching;
 do not call disbursement or milestone progress strategic autonomy.
+The [project ledger](projects/ai-work-control/data/gao-chips-rd-capacity-governance-event-ledger-v1.json)
+now promotes the bounded GAO stages into the real portfolio. It does not close
+the project-year route: the next qualifying record still needs identifier-level
+qualification, accepted output, customer delivery, worker retention, or a
+supplier/foreign-response event.
 
 The [DOE 2026 transmission-needs and large-load layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md)
 adds the grid-planning and local-governance stage. It separates announced,
@@ -3223,6 +9309,13 @@ now preserves the report's revised national and selected-state observation
 universes, private-sector/occupation context, and repeated top-employer signal.
 It advances the firm/public-benefit bridge without closing wages, schedule,
 benefit continuity, worker choice, household security, or employer response.
+
+The new [GAO work–safety-net event ledger](projects/us-safety-net-access/data/gao-working-adults-medicaid-snap-employer-event-ledger-v1.json)
+promotes that bridge into the machine-readable end-to-end portfolio. Its
+[bounded finding](projects/us-safety-net-access/findings/us-safety-net-access-014.md)
+keeps work attachment, Medicaid enrollment, SNAP household receipt, and
+selected-state employer concentration separate while making the missing
+same-household wage, churn, remedy, security, trust, and choice fields explicit.
 
 The [GAO disability workforce-program access layer](projects/us-safety-net-access/gao-2026-disability-workforce-program-access-layer-v1.md)
 adds a labor-market entry test to the care and safety-net lanes. The next pass
@@ -3346,6 +9439,34 @@ switching. Keep ownership, frequency, subjective excess, dependence, failed
 self-regulation, and measured outcomes separate; do not infer addiction or
 platform causality from survey self-reports.
 
+The [GAO federal AI privacy-guidance finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-016.md)
+adds a government-side control stage. GAO compared 10 selected AI privacy
+challenges with OMB guidance and found that only 2 were fully addressed. The
+remaining gap includes transparency, secondary use, consent, privacy-impact
+assessment, and privacy-performance tradeoffs. This is a guidance-coverage
+finding, not a breach or harm rate. The next test is an agency-level AI use
+ledger linking data type, legal basis or consent, notice, privacy assessment,
+contestability, correction, and public response.
+
+The [homebuying proptech finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-008.md)
+adds a housing-digital interface. GAO reviews online search, automated
+valuation, underwriting, and e-closing: these may reduce time and cost, while
+privacy, steering, historical-data, transparency, and oversight risks remain.
+The next test is an authorized application-level ledger linking tool, data,
+recommendation or decision, explanation, human review, correction, appeal, and
+the final housing outcome. Do not treat a potential risk as a national harm
+rate or a faster digital route as a fair housing result.
+
+The [rental proptech finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-009.md)
+adds the tenant-side route: advertising, screening, rent-setting, and facial
+recognition can improve search or safety while shifting access, price,
+surveillance, and correction power. GAO reports that all 10 public housing
+agencies interviewed wanted more specific facial-recognition guidance. The
+next test is an authorized rental-application ledger linking screening data,
+rent recommendation, notice, explanation, consent, correction, appeal, lease,
+rent burden, and later stability. Do not treat selected risk mechanisms or
+agency requests for guidance as a national denial or harm rate.
+
 The [Gallup 2026 moral values and government-role layer](projects/us-cost-trust-politics/gallup-2026-moral-values-government-role-cultural-polarization-layer-v1.md)
 adds a cultural-mood and public-legitimacy test. The next pass should use
 compact repeated or event-linked evidence on policy exposure, religious and
@@ -3409,6 +9530,18 @@ temporary and not retained; the next test is a repeated/event design with
 actual help, alternatives, and later recovery or action. The age-conditioned
 check reproduces the direction in 25–44, 45–64, and 65+ bands while showing
 that loneliness and support adequacy do not move identically by age.
+
+Checkpoint — 2026-09-19: the material-pressure → social-connection lane is
+bounded, not complete. The current evidence supports an expense-difficulty
+gradient in loneliness, support adequacy, and food sufficiency, but does not
+show practical help being delivered, the burden on helpers, recovery, trust
+change, community engagement, political action, or switching/exit. Neighbor
+willingness to help also cannot be treated as expected reciprocity. The table
+artifact route remains unavailable after the 404 recheck, so no further raw
+HTOPS acquisition is warranted. The next valid acquisition must be repeated or
+event-compatible evidence that follows a recipient through need, route,
+effort/burden, aid delivered, adequacy, continuity, and later trust or action;
+otherwise rotate to another unresolved cross-theme lane.
 
 The [interface-to-outcome conversion finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-034.md)
 now rotates the map across airports, disability access, workforce programs,
@@ -3510,6 +9643,20 @@ the matter closed. The [structured named-redress ledger](projects/us-customer-au
 now makes those three distribution states machine-readable. This adds current
 compensation-versus-restoration and closed-distribution boundaries, not
 recipient-level recovery results.
+
+**Formal remedy versus lived recovery audit — 2026-09-19:** the
+[thirteen-case recovery audit](projects/us-cost-trust-politics/data/formal-remedy-lived-recovery-audit-v1.json)
+now codes formal status separately from receipt, usability, adequacy,
+durability, and trust across worker, platform, recruitment, consumer-redress,
+and product-safety routes. All thirteen have an observed or reported formal
+intervention; none closes verified adequate durable recovery or trust, and
+three selected cases document a later failure or rupture of the initially
+observed remedy or protection. Amazon Flex adds aggregate payment-use evidence
+without same-driver receipt or later work outcomes. This is a coverage audit,
+not a remedy failure rate; the IER Sterling case is a positive counterexample
+with agency-reported next-day return and approximately $420 back pay. The next
+priority is recipient-level confirmation and later outcome evidence for an
+already identified episode.
 
 **BDS release-availability recheck — 2026-09-18:** the official Census
 [time-series index](https://www2.census.gov/programs-surveys/bds/tables/time-series/)
@@ -3620,3 +9767,2586 @@ routine checkups, insurance, and mental distress. Treat this as a boundary and
 counterexample, not as evidence of no effect. The next decisive route remains
 a dated care episode with provider availability, travel/wait, insurance/price,
 attempted and completed use, and household/work consequence.
+
+**Recipient-conditioned refund checkpoint — 2026-09-19:** the FTC ACRO route
+adds a stronger public recipient-side condition: 5,685 second-round checks
+were sent to people who accepted the first payment. This advances prior receipt
+to repeat-remedy reach, but not second-check cashing, account/debt correction,
+adequacy, trust, or exit. The next valid upgrade remains claimant-level payment
+and account follow-up; do not pool this recipient-conditioned denominator with
+general refund totals.
+
+**Redress reachability checkpoint — 2026-09-19:** the CFPB Ombudsman report
+adds direct examples of people seeking reissue because checks were not
+received, not cashed, or required next-of-kin handling, alongside eligibility
+and payment-legitimacy questions. This advances the route from aggregate
+distribution to observed navigation friction, but not successful reissue,
+final receipt, account correction, adequacy, trust, or exit.
+
+**Repeat-refund comparison checkpoint — 2026-09-19:** ACRO, Next-Gen,
+American Vehicle Protection, and Yellowstone Capital now provide four distinct
+FTC examples where a later distribution is conditioned on prior acceptance or
+cashing. Yellowstone extends the pattern from household consumers to small
+businesses. This strengthens the reachability mechanism, while preserving
+case-specific denominators and the missing later-payment, account-correction,
+adequacy, trust, and exit outcomes.
+
+**Redress-persistence promotion checkpoint — 2026-09-19:** the CFPB FY2025
+redress report now adds a post-distribution stage to the central atlas. Direct
+reissue payments and later redistributions show that an administrative remedy
+can remain active after the first payout, but aggregate persistence does not
+identify the affected recipient, account correction, adequacy, or restored
+security. The central matrix and readout now carry this stage. The next valid
+upgrade is a lawful recipient/account follow-up with payment status, reissue
+effort, correction, and later financial behavior; another aggregate redress
+total would not close the same-unit arrow.
+
+**End-to-end conversion checkpoint — 2026-09-19:** the broad matrix now carries
+four additional realization boundaries. First, product-safety records join a
+recall-keyed repair offer to reported correction, while the Sauna360 expansion
+shows that a prior repair can later be declared ineffective; purchaser notice,
+completion, safe use, and residual cost remain open. Second, the Alam Shah
+worker episode makes language, walkability, interpreter access, and
+transnational family obligations part of usable work and remedy, while actual
+return and payment remain open. Third, reason-linked SIPP transitions show that
+SNAP entry and exit can both be followed by food hardship, so participation is
+not adequacy or recovery. Fourth, the JASSM/LRASM packet adds US-side
+integration/fielding milestones while the Polish JASSM-ER order remains at a
+public delivery-window stage. These advances sharpen the common rule: formal
+action, technical realization, and reported correction must each be followed to
+the affected unit's usable, durable, and replaceable outcome before claiming
+security, legitimacy, or leverage. The next decisive work remains a lawful
+same-unit follow-up with alternatives, receipt, durability, and later meaning or
+action; do not substitute another aggregate count.
+
+**Political meaning/action checkpoint — 2026-09-19:** the new CCES, ANES, Pew,
+and Gallup records now make the material-to-politics lane more specific without
+closing it. No insurance is associated with lower later contact and local
+action while Congress approval is not uniformly lower; financial worry precedes
+lower federal trust and a different reported vote pattern; affordability is
+politically salient while party representation remains divided; moral decline
+is widely perceived while the legitimate government remedy is split; and
+neighbor willingness to help exceeds expected reciprocal support. These are
+different currencies, not one political-response index. The lane still lacks a
+same-unit dated burden or institutional encounter joined to attribution,
+alternatives, action, implemented response, recovery, and later trust or exit.
+The next valid acquisition is therefore a repeated/event-linked record with
+those stages, not another cross-sectional opinion layer.
+
+**HTOPS longitudinal stop — 2026-09-19:** the April-to-June 2025 search result
+is the valid same-respondent navigation bridge, but the March 2026 archive has
+zero exact `SCRAMID` overlap with the June 2025 topical file and lacks the
+comparable search/AI/confidence fields. It cannot be used as a later outcome
+wave. This closes the current low-cost linkage attempt as an identification
+boundary: search effort is observed, but result quality, completion, remedy,
+recovery, trust change, and exit remain open. Do not repeat the archive join;
+the next material-to-outcome test needs an authorized harmonized panel or a
+dated service/help episode with a usable result and follow-up.
+
+**Central-matrix promotion — 2026-09-19:** the income-stratified HTOPS search
+finding and the Poland JASSM schedule-asynchrony finding are now explicit rows
+in the broad evidence matrix. This keeps two important boundaries visible in
+the main atlas: navigation effort is not a completed alternative or recovery,
+and an official delivery window is not shipment, acceptance, fielding, or
+geopolitical leverage. The next tests remain a same-respondent help/result
+episode and an identifier-bearing defense order/lot follow-up.
+
+The same promotion pass now also exposes three remedy boundaries in the
+central matrix: reported worker back/front pay plus procedure change without
+durable security; Amazon Flex distribution/reissue without same-driver
+receipt or later work outcome; and unusually strong worker-voice cases whose
+public records still stop before payment, safe return, compliance, or exit.
+These are prioritized for privacy-approved post-remedy follow-up, not another
+aggregate distribution count.
+
+**Care-capacity conversion checkpoint — 2026-09-19:** the aging/care rotation
+now has the same cross-domain boundary in four forms: disability coverage or
+provider capacity can fail at the accessibility interface; child-care
+incentives can coexist with waitlists; kinship care can preserve family
+continuity while shifting hidden work, housing, transport, and legal costs;
+and assisted-living coverage can coexist with room/board, slot, provider, and
+family-coordination gaps. These are not one care-failure rate. They support a
+shared next test: one privacy-preserving family or encounter ledger with need,
+usable route, effort/time, completed use, protected/sacrificed outcome,
+institutional response, and later stability or exit.
+
+**Open-middle blocker audit — 2026-09-19:** the new [open-middle blocker
+audit](US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.md) counts the 163 explicitly open
+arrows by missing stage family. Later outcome/durability (113 mentions),
+alternative/non-use/switching (121), and trust/meaning/action (102) are the
+dominant open stages; receipt/implementation (78), money/time/adequacy (72),
+and unit/denominator/attribution (65) also recur. These categories overlap and
+are diagnostic, not pooled rates. The result confirms that the next decisive
+move is one authorized same-unit or recipient/account follow-up, not another
+aggregate or adjacent sentiment cross-tab.
+
+**Casual-work remedy checkpoint — 2026-09-19:** the new Fair Work Commission
+case keeps a regular casual worker separate from the employer and tribunal
+units. The decision uses 85 payslips to establish regular and systematic work,
+records disputed service-performance complaints and a neurodivergence/masking
+context, and finds the dismissal unfair because there was no valid reason or
+adequate procedural fairness. This advances the work lane through merits
+adjudication, but remedy amount, payment or reinstatement, replacement work,
+earnings recovery, trust, and exit remain open.
+
+**Repeated platform-access checkpoint — 2026-09-19:** the primary [Khan
+decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf)
+adds a same-worker recurrence pattern to the platform lane: a first complaint
+led to a temporary block and reactivation, while a second complaint led to
+another block and final deactivation. The Commission found the warnings and
+disclosure process inadequate, ordered reactivation, and deemed work performed
+from 20 July 2025 until reactivation. It could not quantify lost pay and sent
+the parties to confer, so payment, actual post-order account activity,
+continued platform work, switching, trust, and exit remain open.
+
+**Quantified platform-remedy checkpoint — 2026-09-19:** the primary [Mansoor
+decision](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf)
+adds the strongest current lost-pay stage in the platform lane. After a
+long-term Uber driving history, deactivation, substitute Baysec/Didi earnings,
+and a finding of unfair deactivation, the Commission ordered reactivation and
+$6,073.23 gross lost earnings, less tax, within 14 days. The public record still
+does not show receipt, post-order account activity, durable earnings, household
+recovery, trust, or exit.
+
+**AI-companion exit-boundary checkpoint — 2026-09-19:** the new product-level
+ledger keeps the 1,200 audited farewells separate from the 3,458-person
+experiments. Some systems used continuation tactics after a goodbye, and
+controlled responses increased short-run engagement in some conditions. This
+advances the chain from attempted exit to product response and immediate
+reaction, but not to deletion, switching, dependence, harm, remedy, trust, or
+durable exit. The next digital test is a version-stamped repeated-exit route
+with actual account deletion, billing, replacement use, and later wellbeing.
+
+**Care-access coordinate boundary — 2026-09-19:** the Ohio HRSA recheck now
+shows that only 94 of 1,342 retained non-withdrawn primary-care HPSA rows
+(7.0%) carry coordinates; population and geographic rows do not. The new
+[coordinate-availability audit](projects/us-local-business-place/hrsa-ohio-coordinate-availability-audit-v1.md)
+therefore supports a bounded facility-row identity/travel check, not a
+resident-level travel-time or completed-care estimate. This advances the
+provider/travel acquisition design while keeping appointment availability,
+insurance acceptance, wait, use, recovery, and action open.
+
+The official HRSA Health Center Service Delivery and Look-Alike Sites catalog
+is now documented as the next controlled site-identity route: more than 16,200
+sites, daily refresh, and an approximately 10.5 MB CSV listed on 2026-08-26.
+No bulk file was downloaded in this pass. Use an Ohio-filtered slice or a
+documented query/export, and preserve site presence as distinct from hours,
+insurance acceptance, appointment, completed use, or recovery.
+
+The controlled Ohio HRSA site slice now produces a candidate crosswalk: all
+676 Ohio health-center site rows are active and coordinate-bearing; 56 of 94
+coordinate-bearing HPSA rows have a nearest site within 100 meters and 87
+within 10 kilometers. The [crosswalk probe](projects/us-local-business-place/hrsa-ohio-hpsa-site-crosswalk-probe-v1.md)
+is proximity evidence only. The next check is organization/service identity,
+hours, insurance acceptance, wait, and actual use—not a county-wide access rate.
+
+The follow-up identifier check strengthens that crosswalk: 61 of the 94
+coordinate-bearing Ohio HPSA rows share a `BHCMIS Organization Identification
+Number` with a service-site record; 56 same-organization candidates are within
+100 meters and 60 within 10 kilometers. The [identifier crosswalk](projects/us-local-business-place/hrsa-ohio-hpsa-site-identifier-crosswalk-v1.md)
+is still an organization-level candidate link. It does not close service
+identity, hours, insurance acceptance, wait, appointment, use, or recovery.
+
+The shared-organization site layer now adds nominal operating fields: 641 of
+662 site records list positive weekly hours, but 510 have unknown schedule and
+525 have unknown operating calendar. The [operating-fields audit](projects/us-local-business-place/hrsa-ohio-hpsa-site-operating-fields-audit-v1.md)
+therefore advances nominal availability without claiming patient acceptance,
+appointment wait, completed use, or care recovery.
+
+The [HPWO named-site checkpoint](projects/us-local-business-place/hrsa-hpwo-allen-county-named-site-access-v1.md)
+now advances one case beyond the aggregate crosswalk: an Allen County HPSA
+organization is linked by shared BHCMIS ID to the active North Lima Community
+Health Center, with 72 listed hours per week. HPWO's official patient-facing
+route reports new-patient intake, limited same-day appointments, insurance
+coverage, and sliding-fee/payment-plan options. Keep site-specific appointment,
+wait, person-level insurance handling, completed care, and recovery open.
+
+The site page also exposes an information-quality boundary: it confirms a
+phone and services but displays multiple overlapping hour lines without a clear
+service label. Treat schedule clarity as an additional open access stage.
+The general contact page does not schedule appointments by email and sends
+patients to a phone or portal handoff; the HRSA and current site pages also
+list different phone numbers. Treat booking completion and phone reconciliation
+as open stages.
+The linked patient portal is login-gated and exposes no public slots or wait
+times; preserve portal existence separately from public booking visibility.
+
+**Geopolitical realization comparator — 2026-09-19:** the official Polish
+National Security Bureau record now adds a separate F-35 comparator with first
+arrival at Łask on 22 May 2026 and formal acceptance on 12 June 2026. It shows
+the public arrival-to-acceptance evidence pattern the JASSM-ER record still
+lacks. It is deliberately not joined to the JASSM-ER order: the current
+JASSM-ER chain remains authorization/agreement/planned delivery, with shipment,
+acceptance, fielding, and external response open.
+
+**F-35 capability-threshold checkpoint — 2026-09-19:** Polish defense records
+report five additional aircraft joining the first three on 28 August, bringing
+the reported in-country fleet to eight. They also report first-pilot training
+completion and define initial operational capability as requiring eight
+aircraft, trained pilots and ground personnel, and spare parts/consumables.
+This advances the F-35 route through the numeric aircraft threshold, while
+personnel coverage, logistics, certification, fleet readiness, sustainment,
+mission use, and changed external behavior remain unshown.
+
+**Authorized-longitudinal retention checkpoint — 2026-09-19:** a fresh local
+filename and extension scan found no newly supplied PSID, UAS, HRS, or staged
+MEPS respondent file. The matching artifacts are route documentation, logs,
+and access manifests; existing HTOPS, BDS, and public SIPP files remain
+bounded comparators rather than substitutes for the authorized event-first
+pass. Do not repeat unauthenticated downloads; the next longitudinal step
+starts with hashes, keys, timing, weights, and missingness when an authorized
+file is supplied.
+
+**Material-to-action rotation recheck — 2026-09-19:** the retained CCES
+job-loss and insurance-status panels remain the strongest local same-person
+political bridge: earlier insecurity precedes later contact/action measures,
+while Congress approval does not move in one matching direction. The route is
+still a broad status window rather than a dated actor-linked event, and the raw
+CCES PUFs are not retained locally for a stronger rerun. Do not add another
+sentiment cross-tab. The next political pass requires an authorized event-
+compatible panel or a same-case ledger with actor, alternative, attribution,
+action, response, remedy, and later recovery/exit fields.
+
+**Family-care infrastructure checkpoint — 2026-09-19:** the care rotation now
+preserves a cross-source comparison in which kinship families, paid/unpaid
+childcare, adult caregivers, and assisted-living programs carry different parts
+of the same need. About 2.4 million children lived in kinship families in 2023;
+GAO identified at least $12 billion in Medicaid and traditional Medicare
+assisted-living spending in 2024 and Medicaid assisted-living coverage in 44
+states. These are scale and financing surfaces, not a common care-burden rate,
+usable slot, completed service, or family recovery result. The next care pass
+must follow one family or encounter through need, alternative, application or
+eligibility, receipt, remaining housing/time/transport burden, health or work
+outcome, and later stability or exit; do not treat formal coverage or family
+continuity as proof that the missing capacity was restored.
+
+**Data-governance/access checkpoint — 2026-09-19:** the SNAP data-access
+conflict now has a reader-facing bridge as well as a matrix row: data
+collection, intergovernmental access, database controls, court restraint, and
+privacy comments are institutional stages that may shape whether people apply,
+remain enrolled, or seek correction. The checked public record does not expose
+applicant-level notice, access logs, benefit accuracy, payment continuity,
+chilling, trust change, or political action. The next valid test is a lawful,
+de-identified program-episode ledger joining disclosure/access purpose to
+verification, decision, payment continuity, correction/appeal, privacy concern,
+and later non-use or trust. Do not treat encryption, legal posture, or public
+comments as household outcome evidence.
+
+**MEPS public-episode saturation checkpoint — 2026-09-19:** the retained MEPS
+event-family ledger was rechecked as the next possible same-person expansion.
+It already carries person/event linkage, month-ordered office/ER/inpatient
+timing, payment context, and later health/work measures. It still lacks an
+event-specific bill or obligation, feasible alternative, care decision,
+provider/insurer response, remedy, household adaptation, trust, or exit. The
+public MEPS route therefore remains a valid descriptive bridge but cannot close
+the missing middle by adding another payment-band or timing cross-tab. The next
+health-cost upgrade must be an authorized bill/claim or UAS/HRS/PSID follow-up
+with those fields; until then, preserve the MEPS boundary rather than promote
+it to recovery evidence.
+
+**SIPP care/work bridge promotion checkpoint — 2026-09-19:** the public SIPP
+rotation now adds a same-person material-care bridge around SNAP status. In the
+retained descriptive comparison, stable SNAP records show lower paid child-care
+use (23.9% versus 31.0%), higher child-care assistance (14.6% versus 5.2%), and
+higher reports that care arrangements prevent work or more work (7.4% versus
+3.4%). The comparison uses different universes and reference periods and is
+not a SNAP effect estimate. It strengthens the open middle by showing that
+formal assistance and constrained work/care capacity can coexist, but it does
+not establish notice, benefit adequacy, completed care, household security,
+trust, action, or exit. Keep the route as public descriptive progress and do
+not promote it to a completed recovery chain.
+
+**SIPP capacity-conditional hardship checkpoint — 2026-09-19:** the retained
+SIPP analysis now has a readable finding for work capacity and children as
+modifiers of the same public-benefit route. Among stable SNAP records, the
+work-limiting/children-present group reports 17.85% rent/mortgage hardship and
+31.57% utility hardship in the following-month record, versus 7.77% and 11.60%
+for the stable-SNAP group with neither marker. These are descriptive,
+selected, time-ordered comparisons, not a SNAP effect and not caregiving-hour
+estimates. They advance the chain by showing that formal receipt converts into
+different practical protection under different household capacities; notice,
+amount, care obtained, adequacy, trust, action, and recovery remain open.
+
+**Platform-remedy conditional-payment checkpoint — 2026-09-19:** the Waheed
+event ledger now promotes the June 2026 appeal-stay condition requiring
+A$259.38 per week from 28 May 2026. This is a stronger implementation stage
+than an unquantified entitlement, but it is still an obligation rather than
+verified receipt. Actual platform access, final quantum, appeal outcome,
+continued work, household protection, trust, and exit remain open. Keep the
+coding sequence explicit: order or obligation → receipt → adequacy → durable
+protection.
+
+**Aged-care payroll-correction checkpoint — 2026-09-19:** the Fair Work
+Ombudsman’s current aged-care investigation adds a firm-level implementation
+stage: 13 of 22 investigated providers were non-compliant, reported back-pay
+covered 3,591 direct-care workers, and one home-care provider paired more than
+$2 million in back-pay with a payroll-system update and staff training. This
+advances from enforcement to reported process repair, but it is not a
+worker-level receipt, adequacy, household-recovery, or recurrence rate. Keep
+firm correction, worker receipt, and durable compliance as separate arrows.
+
+**Southern Cross reachability checkpoint — 2026-09-19:** the named FWO
+undertaking adds a sharper route: a worker's overtime question triggered a
+self-audit; Southern Cross reported back-paying 3,603 of 5,500 employees
+$10.135 million, while unlocated-worker amounts were routed to the
+Commonwealth Consolidated Revenue Fund after 60 days. The undertaking also
+requires a replacement time system, independent audit, training, Board
+reporting, and worker-voice channels. This advances firm correction and
+reachability, but reported back-pay still is not a worker-level receipt or
+household-recovery measure; the next test is individual payment/adequacy and
+later recurrence.
+
+**Child-care subsidy capacity checkpoint — 2026-09-19:** the new GAO review
+puts a sharper denominator on the care lane: about 1.8 million children
+received CCDF subsidies in an average FY2021 month versus roughly 11.5 million
+estimated eligible children. It also records the 2024 design changes that cap
+family co-payments at 7% of income and move providers toward prospective
+payment. These are access and institutional-design stages, not usable-slot,
+completed-care, work-protection, household-recovery, or trust outcomes. The
+next care test remains a family or encounter episode joined from application
+through provider acceptance, payment, completed use, and later stability; see
+the [bounded finding](projects/us-household-calendar-integration/findings/us-household-calendar-integration-046.md).
+
+**Family-care labor-consequence checkpoint — 2026-09-19:** the NBER/SIPP–SSA
+linked study is now promoted into the canonical broad ledger. It follows
+reported caregiving onset against matched employment and earnings trajectories:
+women show a post-onset labor and earnings decline, while men enter caregiving
+after earlier labor disruption and show a different persistence pattern. This
+closes a bounded care-to-work/earnings segment, not a universal causal effect;
+care alternatives, recipient outcome, household buffering, health, trust,
+action, and exit remain open.
+
+**Care-support lived-outcome checkpoint — 2026-09-19:** the ASPE Cash and
+Counseling randomized demonstration is now promoted as a separate ledger. A
+consumer-directed Medicaid allowance changed the service-control/payment route;
+primary informal caregivers were followed about 10 months later, and treatment
+caregivers showed better selected wellbeing and perceived financial-strain
+outcomes, with stronger effects in paid-caregiver pathways. This advances from
+institutional support to a caregiver-level lived outcome, but not to verified
+service completion, recipient health, long-run household security, trust,
+action, or exit.
+
+**Care-recipient outcome checkpoint — 2026-09-19:** a companion ASPE ledger
+keeps the beneficiary unit separate from the caregiver unit. The randomized
+consumer-direction route is associated in the published comparisons with greater
+service satisfaction, fewer unmet personal-care needs, more paid home-care
+access, and no compromised health or safety in the cited follow-up. This closes
+a stronger support-to-recipient-outcome segment, but not the same beneficiary-
+caregiver household's long-run continuity, finances, trust, action, or exit.
+
+**Paid-worker/provider checkpoint — 2026-09-19:** a third ASPE Cash and
+Counseling ledger keeps the directly hired worker unit separate from both the
+beneficiary and informal caregiver units. Direct-hire workers generally
+reported satisfaction with compensation and arrangements, while many carried
+substantial unpaid care and had less formal training or benefits than agency
+workers. The consumer-directed route therefore converts some unpaid family or
+friend care into paid, flexible work but also shifts continuity, supervision,
+and replacement risk toward the beneficiary-worker relationship. Long-run
+retention, replacement, care interruption, wage adequacy, and beneficiary
+continuity remain open; this is the next care-lane follow-up target.
+
+**U.S. wage-recovery reachability checkpoint — 2026-09-19:** the Department
+of Labor Workers Owed Wages route is now represented as an institutional
+ledger. WHD describes a chain from recovered wages to worker location and
+notice, identity verification, claim submission, electronic payment, and a
+three-year holding period before unclaimed funds go to Treasury. This makes
+the central distinction explicit: agency recovery is not the same thing as
+worker receipt or usable recovery. No worker-level receipt, adequacy,
+household, trust, continued-work, or exit result is claimed; the next test is
+still an authorized claim-level follow-up. The current instructions also say
+paper-check recipients must update information for electronic payment and must
+submit identity documents through the claim route, making the payment channel
+itself a practical access gate ([current WHD instructions](https://www.dol.gov/agencies/whd/wow)).
+
+**Safety-voice retaliation checkpoint — 2026-09-19:** the OSHA Texas asbestos
+case is now canonical. Two workers reportedly raised concerns about missing
+asbestos training, PPE, and illegal dumping during post-Hurricane Beryl hotel
+repair; OSHA reports that they were fired, found the terminations retaliatory,
+and ordered reinstatement plus more than $200,000 in back wages, interest, and
+damages. This advances the chain from hazardous work and worker voice through
+retaliation, public investigation, and formal remedy. Payment, actual return,
+safe conditions, employer compliance, community protection, household
+recovery, trust, and exit remain open.
+
+**Southern Cross worker-reachability checkpoint — 2026-09-19:** the official
+Fair Work Ombudsman record adds a worker-triggered aged-care correction case.
+An employee's overtime question led to a self-audit and self-report; Southern
+Cross Care reported back-paying 3,603 employees $10.135 million, while amounts
+for workers not located within 60 days were directed to the Commonwealth
+Consolidated Revenue Fund. The case advances worker voice, firm correction,
+reported payment, and reachability as separate stages. It does not establish
+each worker's receipt, adequacy, household recovery, durable payroll accuracy,
+trust, continued work, or exit. The [bounded ledger](projects/ai-work-control/data/fwo-southern-cross-care-nsw-underpayment-reachability-event-ledger-v1.json)
+is now canonical; the next worker test remains privacy-preserving individual
+receipt or later-employment follow-up.
+**Consumer-redress reachability checkpoint — 2026-09-19:** the CFPB Wells
+Fargo student-loan servicing consent order is now represented as a bounded
+consumer case. The order required a redress plan that identifies affected
+borrowers, calculates amounts, issues payments, locates consumers, and follows
+up when payments are returned or uncashed. This advances the consumer lane
+from harm and enforcement into explicit payment-reachability design, but it
+does not establish delivery, cashing, account correction, adequacy, trust,
+switching, or exit.
+
+**NYC worker-restitution follow-up checkpoint — 2026-09-19:** a current DCWP
+announcement reports $2.1 million in restitution secured for more than 1,600
+workers across Walgreens, Allstar, Calzedonia/Intimissimi, and Kinship. The
+announcement strengthens the worker-remedy route from settlement design to an
+institution-reported aggregate recovery result and names the violation types
+that generated the money. It still does not expose worker-level receipt,
+returned or uncashed payments, amount adequacy, restored schedule stability,
+later employment, trust, recurrence, or exit. Keep the next pass focused on a
+public administrator/payment follow-up or a privacy-preserving worker-level
+endpoint; do not treat the aggregate as verified lived recovery ([DCWP July
+2026 announcement](https://www.nyc.gov/site/dca/news/046-26/mamdani-administration-recovers-2-3-million-workers-major-labor-rights-crackdown)).
+
+**Child-care public-episode saturation checkpoint — 2026-09-19:** the current
+GAO/ACF route confirms subsidy eligibility and use, co-pay and prospective-
+payment design, state waiver timing, provider-setting shares, and reported
+work disruption, but no public record yet follows one family through
+application, provider acceptance, payment/co-pay, completed care, work/time
+protection, and later stability. The care lane is therefore saturated for
+aggregate expansion. Do not add another eligibility or subsidy-total
+cross-tab; the next valid care pass requires an authorized family/episode
+record or a named provider/encounter route with a defined user, usable slot,
+completion, and later outcome ([GAO CCDF review](https://www.gao.gov/products/gao-25-107754)).
+
+**JASSM-ER current-order recheck — 2026-09-19:** the current Polish Ministry
+of National Defence page still supplies the 2026–2030 delivery window for the
+May 2024 agreement, but no identifier-bearing lot, shipped quantity, receiving
+unit, acceptance, fielding, or training event. Keep the order at
+agreement/schedule; keep the separate Polish F-35 arrival and acceptance
+record as a stage-compatible comparator, not as evidence that the missile
+order became usable capability ([official JASSM-ER page](https://www.gov.pl/web/obrona-narodowa/jassm-er)).
+
+**Unclaimed-remedy infrastructure checkpoint — 2026-09-19:** DCWP's proposed
+Unclaimed Restitution Fund makes the missing receipt stage concrete. The city
+states that some restitution is never claimed by the intended recipient and
+some is never paid because the respondent is delinquent, insolvent, dissolved,
+bankrupt, or nonresponsive. The proposed fund would support later, potentially
+partial, discretionary disbursements. This is an institutional response to
+remedy non-reachability, not proof of recipient recovery. Preserve the stages
+as settlement/award → scheduled payment → unclaimed/returned/unpaid status →
+reissue or fund disbursement → receipt → adequacy → durable recovery ([DCWP
+proposed fund notice](https://www.nyc.gov/assets/queenscb12/downloads/pdf/2026/DCWP-NOH-Unclaimed-Restitution-Fund.pdf)).
+
+**LA wildfire recovery-persistence checkpoint — 2026-09-19:** California's
+June 2026 update reports FEMA housing support extended through July 2027,
+more than 35,000 households assisted, and more than $177 million awarded by
+June 12. A January notice directs survivors with exhausted insurance living
+expenses or remaining unmet needs to re-contact FEMA for continued rent or
+repair assistance. This advances the disaster route from administrative
+eligibility/amounts to a persistent recovery clock and residual-need signal,
+but not household receipt, repair completion, permanent housing, adequacy, or
+stable recovery. The next test remains a lawful applicant/repair/housing
+follow-up ([California recovery update](https://www.news.caloes.ca.gov/governor-newsom-welcomes-fema-extension-to-help-los-angeles-fire-survivors-continue-recovery/)).
+
+**Wildfire financial-control checkpoint — 2026-09-19:** California's July
+long-term housing bulletin reports 1,100+ CalAssist homeowners assisted with up
+to 12 months of mortgage payments and up to $100,000, while the Governor urged
+lenders to release insurance proceeds promptly. This adds mortgage/insurance
+fund timing as a control stage between assistance and rebuilding. It does not
+show named-home payment, insurer decision, rebuild completion, debt or coverage
+adequacy, return, or stable housing ([July housing recovery bulletin](https://www.caloes.ca.gov/wp-content/uploads/Recovery/Documents/JULY-LTHR-4.pdf)).
+
+**Disaster two-clock checkpoint — 2026-09-19:** California's September
+Recovery Support Functions bulletin reports the launch of the first three
+FireSat wildfire-detection satellites and a planned constellation of more than
+50 by 2030, while the Long-Term Housing Recovery group continues monthly
+coordination. This adds a state-prevention-capability stage without claiming
+that detection capacity reduces current household loss or that prior-fire
+homes are restored. Keep technical preparedness, household rebuilding, and
+survivor wellbeing as separate clocks ([September RSF bulletin](https://www.caloes.ca.gov/wp-content/uploads/Recovery/Documents/RSF-Bulletin-September-2026.pdf)).
+
+**Platform deactivation governance checkpoint — 2026-09-19:** NYC Local Law 52
+is designed to make platform access contestable through advance/final notice,
+data disclosure, informal resolution, complaint or private action, possible
+reinstatement, and back pay. But DCWP’s implementation rules remain Proposed,
+and DCWP reported that it was reviewing options after a federal court ruling.
+The new [bounded finding](projects/ai-work-control/findings/ai-work-control-116.md)
+therefore advances the platform lane from opaque deactivation toward formal
+contestability while leaving legal availability, route completion, restored
+access, payment, continued work, switching, and exit open. The next decisive
+case needs a post-law driver notice/challenge/result record, not another
+platform policy description.
+
+**Platform-law availability checkpoint — 2026-09-19:** the reviewed Southern
+District of New York order granted Uber and Lyft a preliminary injunction and
+enjoined Local Law 52 in full pending further order. The order describes about
+87,207 high-volume FHV drivers and a law that would have required notice,
+reconsideration of prior deactivations, possible reinstatement, and back pay.
+This materially changes the route: the written protection exists in the law’s
+text, but enforcement is not currently a live worker remedy on the reviewed
+record. Preserve the sequence as enacted text → proposed rules → court
+injunction → defense/appeal or later effective rule → driver route → outcome;
+do not code the statute as operational access protection ([court order](https://docs.justia.com/cases/federal/district-courts/new-york/nysdce/1:2026cv04893/665930/48)).
+
+**Platform-law appeal checkpoint — 2026-09-19:** the public docket index shows
+interlocutory appeals filed July 28, 2026 and transmission of the appeal record
+to the Second Circuit. No appellate disposition or lifting of the preliminary
+injunction was visible in the reviewed public docket. Preserve the legal state
+as enacted text → enforcement enjoined → appeal pending; it is neither a live
+driver remedy nor a repealed protection ([public docket index](https://docketnexus.com/case/uber-technologies-inc-v-city-of-new-york-73462719/)).
+
+**Unclaimed-fund implementation checkpoint — 2026-09-19:** the NYC Rules page
+still labels the Unclaimed Restitution Fund “Proposed” after the July 9 hearing
+and comment deadline. A city regulatory-agenda document gave an approximate
+June–August 2026 schedule, but the live rule page shows no adopted Chapter 14,
+fund balance, claim form, first disbursement, or accounting. The route is now
+coded as recognition of non-reachability → proposed fix → adoption/funding
+still open → claim or reissue → receipt. Do not count the proposed fund as
+implemented remedy ([NYC Rules status](https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund/); [city regulatory agenda](https://a856-cityrecord.nyc.gov/Search/GetFile?documentId=43921&requestId=20260507003&requestStatus=Current&sectionId=4)).
+
+**Post-schedule receipt audit — 2026-09-19:** the live DCWP page still gives
+payment schedules for Theory (beginning April 2026) and Salz Management
+(around August 2026 and January 2027), plus a notice-administrator route for
+address or bank updates across several settlements. It does not publish a
+completion table for mailed, deposited, returned, reissued, or cashed payments.
+The next worker-remedy search should therefore target administrator or
+recipient-level follow-up, while coding these cases as scheduled reachability,
+not verified receipt ([current DCWP settlement page](https://home4.nyc.gov/site/dca/consumers/consumer-complaint-topics.page)).
+
+**Infrastructure cost-incidence checkpoint — 2026-09-19:** the Virginia SCC
+now provides a modeled consumer-cost bridge alongside the large-load governance
+and energization records. Its current facts summary says an amended allocation
+method would reduce a projected typical-residential Rider T1 increase from
+$2.90 to $0.94 per month, while GS-5 and direct-assignment rules seek to limit
+cost shifting. This advances infrastructure from “approved/energized” toward
+who may carry the cost, but it remains a projection: actual bills, reliability,
+compensation, acceptance, and trust are still open. The next test is a named
+customer-class or household follow-up, not another tariff description ([Virginia SCC facts](https://www.scc.virginia.gov/about-the-scc/scc-facts/)).
+
+**Financial-exit meaning checkpoint — 2026-09-19:** the FDIC 2021 transition
+module adds a needed distinction to the practical-exit lane. Recently
+unbanked households can appear to have “exited” even when the route followed a
+job or income shock; the survey also warns that closure may have been initiated
+by the household or by the bank. This strengthens the choice-versus-loss-of-
+access distinction beside the 2023 account/nonbank/credit route, but it is not
+a same-household panel or a causal closure estimate. The next financial test
+remains a dated account or payment case with provider action, replacement
+route, cost, recovery, and reason for staying or leaving ([FDIC 2021 survey](https://www.fdic.gov/household-survey/2021-fdic-national-survey-unbanked-and-underbanked-households)).
+
+**Worker-voice wage checkpoint — 2026-09-19:** a current Department of Labor
+urgent-care case adds a U.S. route in which a worker questioned pay, was
+reportedly suspended, and an investigation later reported $113,199 in recovered
+back wages. The [bounded finding](projects/ai-work-control/findings/ai-work-control-117.md)
+strengthens the voice → retaliation risk → public remedy segment, but does not
+show the suspended worker’s receipt, return, alternative work, adequacy,
+recurrence, trust, or exit. Do not treat the aggregate recovery as worker-level
+lived recovery ([DOL release](https://www.dol.gov/newsroom/releases/whd/whd20260810)).
+
+**Consumer-system transition checkpoint — 2026-09-19:** the CFPB reports that
+Bilt’s move to a new bank partner produced technical problems and
+transition-related overdraft, late, and insufficient-funds fees for some
+customers. Bilt reportedly contacted potentially affected customers and
+offered reimbursement; CFPB later reported reimbursement for more than 500
+newly identified customers by June 4, while the technical issues appeared
+resolved. The [bounded finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-033.md)
+adds a concrete consumer route from firm architecture to customer money and
+recourse, but does not show the affected denominator, individual receipt,
+account correction, adequacy, continued use, or switching ([CFPB Bilt report](https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/)).
+
+**Polish defense-industrial realization checkpoint — 2026-09-19:** the Polish
+Ministry of National Defence reports 62 SAFE contracts worth about 120 billion
+złoty, with nearly 90% directed toward Polish defense companies. The
+[bounded finding](projects/ai-work-control/findings/ai-work-control-118.md)
+adds a state-capacity stage between security pressure and operational military
+capability. It does not establish firm output, shipment, acceptance, training,
+maintenance, readiness, replaceability, or changed external behavior; keep
+those stages separate from contract value and domestic supplier share ([SAFE program](https://www.gov.pl/web/obrona-narodowa/program-safe)).
+
+**Material-to-meaning integration checkpoint — 2026-09-19:** the strongest-chain
+register now promotes the retained March/July HTOPS comparison alongside the
+CCES panel: expense difficulty is associated with loneliness, low support,
+food insufficiency, and institution-specific confidence, while contact and
+local action remain separate endpoints. This improves the map from material
+pressure toward cultural meaning without creating a causal or same-person
+cross-release chain. The next decisive pass still needs a dated event, actor,
+usable support/remedy, and later action or exit.
+
+**Wildfire insurance realization checkpoint — 2026-09-19:** California’s live
+claims tracker reports 41,727 Eaton/Palisades claims filed, 40,482 partially
+paid, and $25.2 billion paid as of July 6. A separate State Farm examination
+found 398 violations in 114 of 220 sampled claims, and AB 1795 now establishes
+smoke-damage investigation, testing, and restoration standards. The new
+[bounded finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-005.md)
+advances the housing route from market/backstop scale to payment and legal
+repair intervention, but does not show property-level adequacy, completed
+repair, safe return, renewed coverage, or stay/move. The next test remains a
+lawful property-level claim-to-repair ledger ([claims tracker](https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm)).
+
+The new [canonical wildfire claims and smoke-recovery record](records/us-california-wildfire-claims-smoke-recovery-2026.json)
+keeps that route in the trend registry as a separate aggregate-claims,
+sampled-enforcement, and legal-response observation. It does not convert those
+stages into property-level repair or safe-return evidence.
+The platform-return case adds a lived-activity endpoint: restored access and
+150-plus trips can be visible while lost-pay receipt, net recovery, alternatives,
+and durable platform security remain open.
+**Accessibility-interface checkpoint — 2026-09-20:** the care/health lane now
+separates coverage and nominal provider capacity from accommodation, usable
+contact, completed care, continuity, correction, and family/work consequences.
+The next valid test is a privacy-preserving encounter record—not another
+provider or coverage count. See the [disability accessibility finding](projects/us-aging-care-strain/findings/us-aging-care-strain-016.md).
+**Aging-care checkpoint — 2026-09-20:** the care/social-reproduction lane now
+separates provider scale, care-day intensity, household versus non-household
+network, travel, work overlap, replacement care, and recipient outcome. The next
+valid test is a same-provider, same-recipient episode—not another population
+care count. See the [unpaid eldercare synthesis](projects/us-aging-care-strain/aging-care-hidden-second-job-synthesis-v1.md).
+**Child-care/work checkpoint — 2026-09-20:** the care lane now separates
+care need, paid price, staffed availability, unpaid substitution, work
+adaptation, housing strain, and completed care. The next valid test is a
+same-household care episode with provider, schedule, work, and later outcome—not
+another national care-spending average. See the [care/work option-stack
+synthesis](projects/us-aging-care-strain/care-supply-work-option-stack-synthesis-v1.md).
+**Long-term-care finance checkpoint — 2026-09-20:** the aging-care lane now
+separates formal coverage and spending from authorized slots, provider supply,
+room/board affordability, family labor, safe placement, and continuity. The
+next valid test is a state- or facility-level care episode—not another covered
+spending total. See the [assisted-living care-finance layer](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md).
+**Firm-capacity checkpoint — 2026-09-20:** the firm/place lane now separates
+application intent from realized openings, closings, employer stock, net jobs,
+service capacity, wages, ownership, and local outcomes. The next valid test is a
+state- or county-sector episode with identifiable firms and resident-facing
+effects—not another application count. See the [BFS–BDS sector profile](projects/us-local-business-place/bfs-bds-complete-sector-profile-v1.md).
+**Firm-turnover checkpoint — 2026-09-20:** the firm/place lane now separates
+net job growth from establishment entry, exit, job quality, service stability,
+ownership, and resident outcomes. The next valid test is a state- or
+county-sector panel with local entry/exit and resident-facing effects—not
+another national net-job total. See the [BDS turnover layer](projects/us-local-business-place/bds-realized-entry-exit-sector-layer-v1.md).
+**Adaptation-persistence checkpoint — 2026-09-20:** the household lane now
+separates price exposure from substitution, reduced use, savings loss,
+borrowing, delayed purchases, extra work, emergency capacity, reversal, and
+remaining loss. The next valid test is a same-household episode with shock
+timing and later security—not another one-year adaptation prevalence table. See
+the [SHED persistence layer](projects/us-household-financial-pressure/shed-2024-2025-panel-persistence-layer-v1.md).
+**Digital self-regulation checkpoint — 2026-09-20:** the platform/attention
+lane now separates availability, utility, perceived excess, cutback attempt,
+successful behavior change, durable control, and measured well-being. The next
+valid test is a repeated-use record with obligations and observed behavior—not
+another smartphone-use prevalence table. See the [smartphone control layer](projects/us-digital-habits-attention/pew-2026-smartphone-time-control-wellbeing-layer-v1.md).
+**Public-life participation checkpoint — 2026-09-20:** the civic lane now
+separates political interest, direct action, community and religious activity,
+news attention, source trust, government trust, and material enablement. The
+next valid test is a dated information or institutional episode—not another
+one-time engagement cluster. See the [public-life engagement layer](projects/us-digital-habits-attention/pew-2026-public-life-engagement-groups-action-layer-v1.md).
+**Civic-capacity checkpoint — 2026-09-20:** the new CEV layer adds a
+breadth-versus-intensity split: formal volunteering and informal neighbor help
+rebounded, while average volunteer hours fell and online/hybrid service became
+visible. The next valid test is a repeated or place-linked civic episode with
+time, care, work, transport, organizational response, efficacy, and later
+action—not another participation total. See the [civic participation layer](projects/us-cost-trust-politics/americorps-cev-2023-civic-participation-layer-v1.md).
+**Adolescent-digital checkpoint — 2026-09-20:** the teen layer separates
+social-platform routine from chatbot use for information and schoolwork. The
+next valid test is a matched or longitudinal teen record with purpose, time,
+privacy, accuracy, family/school mediation, human alternatives, and actual
+exit—not another age-group adoption percentage. See the [teen social/AI
+layer](projects/us-digital-habits-attention/pew-teens-social-ai-2025-layer-v1.md).
+**Information-legitimacy checkpoint — 2026-09-20:** the platform/public-life
+lane now separates press freedom as a principle from perceived freedom,
+accuracy constraints, security concerns, corrective authority, source choice,
+and observed action. The next valid test is a defined information controversy
+with those stages—not another general press-attitude poll. See the
+[press-freedom norms layer](projects/us-digital-habits-attention/pew-2026-press-freedom-limits-norms-layer-v1.md).
+**Digital-exit checkpoint — 2026-09-20:** the platform lane now separates
+engagement, declared exit, system response, short-run continuation, deletion,
+switching, payment, remedy, and durable well-being. The next valid test is a
+version-stamped repeated exit audit—not another general chatbot-use survey. See
+the [AI companion farewell finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md).
+**AI-recourse checkpoint — 2026-09-22:** a randomized meal-delivery field
+experiment shows AI suggestions can improve agent speed and measured customer
+sentiment, especially for less-experienced agents, while repeat complaints and
+some chatbot-to-human handoffs remain poor. The next valid test is a case-linked
+route from support contact to correction, refund, replacement, repeat effort,
+switching, or exit—not another customer-service speed measure. See the [AI
+customer-service finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-015.md).
+**Alliance-enablement checkpoint — 2026-09-22:** NATO reports that its ISR
+infrastructure enabled a temporary Belgian MQ-9B deployment at Sigonella, with
+more than 400 flight hours supporting two named operations. This advances the
+geopolitical lane from standing capability to partner use, but the next valid
+test still needs mission effect, host cost or acceptance, replaceability, or an
+attributed external response. See the [Belgian MQ-9B finding](projects/ai-work-control/findings/ai-work-control-135.md).
+**Large-load contract checkpoint — 2026-09-22:** Georgia's PSC docket shows
+multiple executed large-load contract filings and active Commission review
+under the state's cost-protection framework. This advances the infrastructure
+route from tariff design to real contracts, but the next valid test still needs
+contract terms, payment, energization, residential bills, reliability, or local
+acceptance. See the [Georgia large-load finding](projects/ai-work-control/findings/ai-work-control-136.md).
+**Visibility-to-recovery checkpoint — 2026-09-20:** the consumer lane now
+separates reported exposure, loss, recovery effort, complaint visibility,
+explanation, non-monetary relief, verified correction, compensation, switching,
+and trust. The next valid test is a case-linked recovery route—not another
+complaint or loss total. See the [digital consumer harm finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-007.md).
+**Material-administrative-clock checkpoint — 2026-09-20:** the safety-net lane
+now separates population-level poverty improvement from Medicaid continuity,
+eligibility, renewal, churn, and replacement coverage. The next valid test is a
+same-person or same-household route linking poverty transition to coverage,
+care, affordability, work, and later security—not another paired national
+trend. See the [poverty and Medicaid clock-divergence layer](projects/us-safety-net-access/census-2025-poverty-medicaid-clock-layer-v1.md).
+**Midpoint-tail checkpoint — 2026-09-20:** the income lane now separates a
+record median from movement at the 10th and 90th percentiles. The next valid
+test is a distribution-position route joined to prices, taxes/transfers, debt,
+liquid assets, housing and health costs, adaptation, trust, and political
+action—not another median-only headline. See the [income-distribution
+decomposition layer](projects/us-household-financial-pressure/census-2025-income-distribution-decomposition-layer-v1.md).
+**Care-structure checkpoint — 2026-09-20:** the care lane now separates
+multigenerational living, paid childcare, unpaid substitution, caretaker role,
+and adult-care intensity from a single “family support” measure. The next valid
+test is a same-family or person route linking dated need to care alternatives,
+cost, travel, schedule, work, health, employer/public support, and later
+stability—not another co-residence or care-use percentage. See the [care and
+living-arrangements finding](projects/us-aging-care-strain/findings/us-aging-care-strain-003.md).
+**Intergenerational-meaning checkpoint — 2026-09-20:** the grandparents pass adds
+a distinct cultural layer beside kinship care. Routine contact, grandchild care,
+shared housing, and reported closeness are observed on different surfaces; the
+new result is not another poverty or caregiving count, but that family
+connection can operate as communication and belonging infrastructure before it
+becomes formal care. The next test is a multigenerational relationship episode
+ledger linking contact, care, housing, distance, disability, work, money,
+identity, stress, and later support or withdrawal. See [Finding #264](projects/us-aging-care-strain/findings/us-aging-care-strain-017.md).
+**Goodwill-reciprocity checkpoint — 2026-09-20:** the community lane now
+separates willingness to help, expected support, delivered aid, adequacy, and
+helper burden. The next valid test is a place-linked or repeated episode with
+help requested, help delivered, cost, formal substitution, recovery, and later
+trust or civic action—not another generic trust score. See the [neighbor
+goodwill finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-044.md).
+**Civic-intensity checkpoint — 2026-09-20:** the civic lane now separates
+participation reach from time intensity and organizational continuity. Formal
+and informal helping rebounded, while annual hours per formal volunteer fell
+and online/hybrid service became visible. The next valid test is a repeated or
+place-linked civic episode with time, care, work, transport, organizational
+response, efficacy, and later action—not another participation total. See the
+[civic participation finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-048.md).
+**Mobility-currency checkpoint — 2026-09-20:** the place/time lane now keeps
+vehicle scarcity, commute duration, affordability, reliability, care access,
+and schedule control separate. The ACS layer shows much higher no-vehicle
+exposure at low household income while longer commutes appear in higher-income
+groups, so transport burden is not one deprivation ladder. The next valid test
+is a place- or person-level travel episode with fare, reliability, care/work
+purpose, missed activity, and later mobility or exit—not another commute
+average. See the [ACS mobility subgroup layer](projects/us-acs-transport-context/acs-pums-mobility-subgroups-v1.md).
+**Policy-meaning checkpoint — 2026-09-20:** the monetary-policy lane now
+separates a rate announcement, household interpretation, intended spending,
+realized contract exposure, and later political meaning. The BIS/NBER study
+shows an expectations-to-intended-behavior mechanism shaped by inflation
+beliefs, financial knowledge, and Federal Reserve awareness; it does not show
+realized household welfare or political response. The next valid test is a
+borrower/saver episode with actual reset timing, liquidity, spending, work or
+care adaptation, attribution, trust, and later action—not another hypothetical
+rate vignette. See the [household monetary-policy finding](projects/us-household-monetary-policy/findings/us-household-monetary-policy-001.md).
+**Conditional-inclusion checkpoint — 2026-09-20:** the migration/meaning lane
+now separates support for a named legal-status protection from support for a
+broader citizenship pathway, with urban/suburban variation visible in the
+Chicagoland survey. The next valid test is a local episode linking policy
+meaning to immigrant safety, service use, belonging, and observed action—not
+another attitude percentage. See [Finding #284](US-BROAD-INTERESTING-FINDINGS_V1.md).
+**Geopolitical-legitimacy checkpoint — 2026-09-20:** the state-consequences
+lane now separates foreign reception, domestic partisan meaning, and material
+capability. Pew shows that Americans and foreign publics assign different
+meanings to U.S. peace, interference, freedom, and compromise, while
+Republicans and Democrats also diverge inside the U.S. The next valid test is
+an event-country-party-year ledger linking conduct to external reception,
+alliance behavior, domestic support or opposition, and later policy response—
+not another global-attitudes percentage. See [Finding #285](US-BROAD-INTERESTING-FINDINGS_V1.md).
+**Transfer-legitimacy checkpoint — 2026-09-20:** the policy-feedback lane now
+keeps consumption response, liquidity relief, electoral reward, and targeting
+separate. The Italy comparison suggests that a transfer can produce a larger
+political response than material consumption response, and that targeting can
+trade off those returns. The next valid U.S. test is a benefit or stimulus
+episode with recipient exposure, actual use, attribution, and later vote or
+other action—not a pooled transfer-to-vote story. See [Finding #286](US-BROAD-INTERESTING-FINDINGS_V1.md).
+**Efficiency-conversion checkpoint — 2026-09-20:** the energy/consumer lane
+now separates label recognition, technical criteria, partner reach, purchase,
+financing, installation, use, and realized bill savings. ENERGY STAR can be
+widely recognized while renters, low-liquidity households, split incentives,
+or contractor supply interrupt conversion. The next valid test is a
+household/property realization ledger—not another program-reach or modeled-
+savings figure. See [Finding #287](US-BROAD-INTERESTING-FINDINGS_V1.md).
+**Grid-security checkpoint — 2026-09-20:** the infrastructure/state lane now
+separates national-security authority, implementation participation, equipment
+replacement, reliability, rate effects, and essential-service continuity. The
+bulk-power order makes foreign software and equipment a federal control issue
+without proving a vendor fault or household benefit. The next valid test is a
+named transaction or replacement action joined to reliability, cost,
+geography, and public/state response—not another security declaration. See
+[Finding #288](US-BROAD-INTERESTING-FINDINGS_V1.md).
+**State-fiscal-buffer checkpoint — 2026-09-20:** the public-capacity lane now
+separates reserve balances, operating days, legal/political draw authority,
+service protection, and household outcome. States can hold substantial funds
+while losing operating room unevenly. The next valid test is a matched state
+episode joining reserve and revenue conditions to an actual service decision,
+delivery, and place or household effect—not another reserve total. See
+[Finding #289](US-BROAD-INTERESTING-FINDINGS_V1.md).
+
+**Broad-rotation saturation checkpoint — 2026-09-20:** the current candidate
+sweep checked the newest artifacts in intergenerational care, consumer choice
+and refunds, SNAP/Medicaid access, dated health-cost episodes, civic
+participation, worker remedies, and geopolitical response. Almost all were
+already represented in the reader or central matrix. The Amazon Flex follow-up
+was the exception: its administrator-reported aggregate receipt stage was
+promoted as Finding #290. This is still a duplicate-control result for the
+other candidates, not completion of the atlas.
+The next valid move is a lawful same-unit or identifier-bearing follow-up that
+adds receipt, adequacy, durability, practical alternative, trust/action, or
+exit. Until such a record is available, preserve the existing open-middle
+boundary instead of manufacturing a causal bridge from adjacent aggregates.
+
+**Stacked-household-pressure checkpoint — 2026-09-20:** the SIPP utility-care
+following-outcomes bridge was promoted as Reader Finding #297. It adds a
+same-person adjacent-month screen joining utility difficulty, renter status,
+child-care-related work prevention, and following housing/food hardship with
+Fay-BRR uncertainty. The small prevention cell and mixed clocks make this a
+joint-constraint diagnostic, not a utility or care effect; exact bill,
+provider, payment, remedy, recovery, trust, action, and exit remain open. See
+the [SIPP utility-care following-outcomes bridge](projects/us-household-calendar-integration/sipp-utility-care-following-outcomes-bridge-v1.md).
+
+**Acquisition handoff checkpoint — 2026-09-20:** after the latest broad
+rotation, the repository inventory contains no new unrepresented artifact that
+closes a later receipt, adequacy, durability, trust/action, or exit stage. The
+next work should therefore leave the public-record saturation loop and pursue
+one authorized same-unit route: PSID first, because its public-use family
+panel route is documented for researcher registration and Conditions of Use;
+UAS Older Ages remains the narrower event-first alternative; a
+recipient/account-level remedy or repair follow-up second; and an
+identifier-bearing defense or infrastructure follow-up as the strategic
+alternative. Any of these must pass access, permitted-use, unit-retention,
+weight, missingness, and outcome-field checks before producing an estimate.
+
+**Recent-finding promotion audit — 2026-09-20:** the newest project-level
+finding files were checked against the 303-finding reader. The recent safety-net,
+care, worker-control, household-constraint, consumer, civic, and geopolitical
+findings were already linked or summarized there. The consolidated health-cost
+synthesis was the first meaningful exception and is now promoted as Finding
+#299, with its cross-source units and limits preserved. The Atkins enforcement
+record then adds Finding #300, a reported worker-level receipt comparator for
+ten named drivers. The ACRO second-refund route adds Finding #301, preserving
+the selection created by conditioning a later payment on prior acceptance. The
+NYC restitution schedule and proposed unclaimed-fund route add Finding #302,
+preserving the distinction between scheduled reachability and actual receipt.
+The Wells Fargo order-termination route adds Finding #303, preserving the
+distinction between institutional completion and borrower-level recovery.
+These close reader-promotion gaps; they do not close the open middle or create
+a same-bill causal chain.
+
+**Consumer-ledger sweep checkpoint — 2026-09-20:** the remaining named
+consumer-remedy records were checked after Finding #303. The CFPB Ombudsman
+reissue route, Yellowstone and ACRO repeat-refund routes, Cash and Counseling
+care currencies, and the current account/redress ledgers are already linked or
+represented in the reader and pulse. No additional distinct receipt,
+account-correction, adequacy, durability, or exit endpoint was found in this
+sweep. The next rotation should move to a different broad branch or pursue the
+authorized same-unit acquisition routes rather than add another near-duplicate
+redress example.
+
+**Theme-register control checkpoint — 2026-09-20:** the active canonical
+14-theme coverage register was re-audited against the current matrix and still
+records 14 themes, 14 Compared, 12 Reported, 5 Open, and 3 Inferred status
+tokens. The dated `analysis/data/us-broad-theme-end-to-end-coverage-audit-2026-09-17.json`
+remains a historical snapshot; the active register is
+`analysis/US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json`, whose matrix hash
+matches the current matrix. This is a control refresh, not a new causal claim
+or a reason to narrow the program back to one theme.
+
+**Fresh household-pulse duplication checkpoint — 2026-09-20:** the current
+Census HTOPS release note was checked for a new household-room or cultural
+mechanism. Its March/May 2026 weighting correction and its expense, food,
+energy, arts, social-connectedness, and civic-participation surfaces are already
+represented by the corrected cross-wave finding and the arts/club/public-meeting
+findings in the reader. No new same-unit, remedy, durability, or action endpoint
+was added; the next rotation should not promote another aggregate HTOPS
+snapshot as a new finding.
+
+**Strongest-chain crosswalk checkpoint — 2026-09-20:** the 47-route
+strongest-chain register was checked against the seven shared conversion
+stages. It is already organized around compatible units and explicit missing
+links, from worker and MEPS episodes to care, public systems, infrastructure,
+and geopolitical capability. The register confirms the next value is one
+missing stage on a ranked route—receipt/durability, alternative, household
+incidence, or changed external behavior—not another broad topic or aggregate
+endpoint.
+
+**MEPS same-person benchmark checkpoint — 2026-09-20:** the local staged-ledger
+audit was rechecked: 18,457 keyed event rows cover office, emergency-room, and
+inpatient families, with 4,868 rows (26.3748%) inside the strict R3/1-to-R4/2
+inter-round window. Trigger and practical-room fields are observed; choice,
+institutional route, and follow-up outcomes are reported proxies; remedy
+verification and meaning/action remain unknown. This is the strongest local
+health/work timing benchmark, not a completed household recovery episode.
+
+**Finding-promotion checkpoint — 2026-09-20:** Finding #304 promotes the
+Navitas–GlobalFoundries Gen 5 GaN route as a bounded firm/infrastructure/
+geopolitical realization case. It adds a US manufacturing path and scheduled
+first-wafer/customer-sampling stages without treating the announcement as
+completed shipment, qualification, scaled output, upstream material autonomy,
+or strategic leverage. This is a distinct realization mechanism, not another
+aggregate household or consumer-remedy example.
+
+**Firm/state realization scan — 2026-09-20:** the newest local records were
+checked after Finding #304. Critical-mineral substitution, CHIPS capacity,
+export-control licensing, defense fielding/acceptance, and platform vertical
+integration are already represented in the reader or matrix. No second
+distinct acceptance, operation, customer-use, or external-response endpoint
+was found in this scan; the next infrastructure rotation should seek one of
+those missing stages rather than another commitment or capacity announcement.
+
+**Modified-goal execution handoff — 2026-09-20 (historical checkpoint):** the
+broad atlas had completed that public-record rotation: all 14 themes remained
+represented, and the reader was at 328 bounded findings at that point. The
+current reader has since reached 355 findings; the newest candidate findings
+are already promoted or explicitly marked as duplicates. The active work
+therefore shifts from “find another theme” to “obtain one lawful same-unit middle-stage
+follow-up.” Priority order is: authorized PSID or UAS respondent route;
+recipient/account-level remedy or repair status; then identifier-bearing
+worker, infrastructure, or defense follow-up. The required added fields are
+actual receipt/use, adequacy, alternative or non-use, durability, trust/action,
+or exit. Until one of those routes is authorized and available, the atlas
+should preserve its open-middle boundary rather than manufacture an
+end-to-end claim from adjacent aggregates.
+
+**Priority-register control checkpoint — 2026-09-20:** the machine-readable
+five-route depth register now carries the same execution rule and is enforced
+by `scripts/validate_broad_priority_register.py`, which is included in the
+long-term publication gate. This keeps the broad PSID route, the narrower UAS
+health-cost route, and the fallback remedy/identifier routes distinct across
+future passes. The guard confirms route order, contiguous ranks, blockers, and
+next-route fields; it does not represent new substantive evidence.
+
+**Theme-balance checkpoint — 2026-09-20, refreshed 2026-09-22:** the [theme
+balance audit](US-BROAD-THEME-BALANCE-AUDIT_V1.md) counts records and
+observations by all 14 themes. The thinnest current surfaces are
+platforms/data/attention (66 records), geopolitical/state consequences (104),
+and infrastructure/technology/dependency (131). This is a routing signal, not
+a quality ranking. The next broad rotation should prefer a missing conversion
+stage in one of those surfaces—encounter to interpretation/action, realized
+service/cost/replaceability, or acceptance/operation/external response—while
+avoiding another aggregate endpoint or announcement duplicate.
+
+**Low-density candidate scan checkpoint — 2026-09-20:** the current files in
+those three lanes were checked against the reader and matrix. Digital/platform
+artifacts already cover adult and teen use, smartphone self-regulation, press
+legitimacy, public-life participation styles, AI daily-life control, and
+platform exit questions. Infrastructure artifacts already cover large-load
+risk allocation, public speakers and route choice, land-control effects, and
+one operating-versus-approved project comparator. Geopolitical/state artifacts
+already cover domestic defense allocation, incident-to-alliance response, and
+AI capability/dependence. No unrepresented endpoint was promoted from this
+scan. The next distinct evidence would need to show: a digital encounter
+followed by interpretation/action or durable exit; infrastructure followed by
+realized cost/service or replaceability; or geopolitical capability followed
+by accepted operation, public consent, sustained alliance behavior, or changed
+external conduct.
+
+**Low-density freshness checkpoint — 2026-09-20:** a dated public-page
+recheck of FTC refund administration, DOE transmission facilitation and
+Speed-to-Power material, and NATO eastern-flank posture found no unrepresented
+middle-stage endpoint. The [freshness memo](US-BROAD-LOW-DENSITY-FRESHNESS-RECHECK_2026-09-20.md)
+records the current pages and why they remain distribution, capacity,
+realization, or alliance-response evidence rather than account-level receipt,
+delivered service, replaceability, deterrence, consent, or changed external
+conduct. No duplicate reader finding was promoted.
+
+**Infrastructure realization checkpoint — 2026-09-20:** the New York Power
+Authority Smart Path Connect announcement adds a genuinely different stage to
+the infrastructure lane: a named transmission project is reported completed
+and energized, with physical outputs and a reported system-level savings
+claim. It does not identify household bills, rate-class distribution,
+reliability outcomes, or durable affordability. This is promoted as Finding
+#306 because it advances from planning/approval to physical operation without
+collapsing system savings into household benefit.
+
+**Geopolitical institutional-response checkpoint — 2026-09-20:** NATO's
+September Germany statement adds a separate current surface from the Poland/
+Eastern Sentry route: alliance-reported hybrid-incident solidarity, a German
+brigade in Lithuania, a new eastern-flank command role, and German aircraft
+and ships. It is promoted as Finding #307 because it adds posture and command
+change, while independent incident verification, deterrence, public consent,
+adversary adaptation, and durable alliance behavior remain open.
+
+**Geopolitical operational-milestone refinement — 2026-09-20:** official
+Bundeswehr and Lithuanian Army reports add the first Freedom Shield 26-I
+exercise on Lithuanian soil: roughly 2,900 personnel, 800 vehicles, eight NATO
+allies, tactical training, and live firing. This moves Finding #307 from
+posture alone to a bounded multinational-readiness milestone. It still does
+not establish full operational capability, wartime performance, deterrence,
+local burden acceptance, or adversary adaptation. See [Finding #307](projects/ai-work-control/findings/ai-work-control-123.md).
+
+**Infrastructure customer-cost refinement — 2026-09-20:** the official NYPA
+Smart Path Connect project page was checked after Finding #306. It describes the
+$438 million annual figure as an estimate and says congestion savings are
+expected to be reflected in costs for municipalities, businesses, and other
+public-power customers. This sharpens the intermediate expected-customer-cost
+stage but still adds no realized bill, rate-class, outage, or household endpoint;
+no new reader finding is warranted.
+
+**Infrastructure accounting-boundary checkpoint — 2026-09-20:** the effective
+January 2026 NYISO/NMPC annual-update filing exposes project-specific revenue-
+requirement and return schedules, but key project gross-plant and return inputs
+remain blank or point to company workpapers. The accounting architecture is
+there; a populated project charge, retail pass-through, and household outcome
+are not. This strengthens Finding #306's implementation boundary without
+creating a new finding.
+
+**Platform-control implementation checkpoint — 2026-09-20:** GM's current U.S.
+privacy statement adds a real route layer to Finding #305: verifiable form or
+phone rather than email, possible processing up to 45 days, model-dependent
+location settings, and safety/emergency exceptions after unenrollment. This is
+stronger than a legal-right-only record but still lacks request completion,
+verified deletion, residual exposure, service trade-off, trust, or switching.
+
+**Geopolitical legitimacy checkpoint — 2026-09-20:** the Germany/NATO posture
+record now carries a separate 2025 population-survey context. German support
+for higher defense spending and common European defense cooperation was strong,
+while trust in the United States as a reliable partner was lower and knowledge
+of specific eastern-flank missions was limited. The atlas therefore keeps four
+different stages separate: alliance posture, broad public support, informed
+mission consent, and deterrence or adversary response. Support for a strategic
+direction is not proof of informed consent for a particular deployment. See
+[Finding #307](projects/ai-work-control/findings/ai-work-control-123.md).
+
+**Host-country consent refinement — 2026-09-20:** the same Germany/Lithuania
+record now adds the Lithuanian side of the named deployment. An official
+Lithuanian Armed Forces summary of a November 2023 poll reported 82% support for
+permanent stationing of the German brigade and 83% positive views of the German
+military. This is closer to host-country consent than a general defense-budget
+question, but it predates the 2026 posture and does not establish durable local
+support, burden acceptance, or approval of future combat use. The next test is
+actual local experience and later opinion, not another aggregate alliance
+statement. See [Finding #307](projects/ai-work-control/findings/ai-work-control-123.md).
+
+**Infrastructure accounting realization checkpoint — 2026-09-20:** the Smart
+Path Connect route now includes a populated historical project-accounting
+stage. NYPA's year-end 2023 annual update reports about $116.6 million in net
+plant and $20.46 million in total annual revenue requirement for the Smart Path
+Connect line. This is stronger than a blank template or generic tariff rule,
+but it is still not a later billing-period collection, retail pass-through, or
+household bill. See [Finding #306](projects/ai-work-control/findings/ai-work-control-122.md).
+
+**Digital exit-boundary checkpoint — 2026-09-20:** the AI-companion farewell
+record already supplies the strongest current digital middle stage: an attempted
+goodbye can trigger continuation tactics and short-run re-engagement. The
+record does not establish durable retention, deletion, switching, dependence,
+harm, or welfare. The next digital test must follow the same user or account
+from the farewell through actual exit or continued use, rather than add another
+platform-reach or usage snapshot. See [Finding #185](projects/us-digital-habits-attention/findings/us-digital-habits-attention-008.md).
+
+**Household-support infrastructure checkpoint — 2026-09-20:** the 2025 SHED
+record now preserves the age and expense routes behind outside-household help.
+Forty-seven percent of adults ages 18–29 received help with at least one listed
+expense, including phone bills, general costs, housing, cars, medical expenses,
+and education. This makes family/social support visible as practical consumer
+and payment infrastructure, while amount, adequacy, reciprocity, stigma, and
+durability remain open. See [the household-room finding](projects/us-household-financial-pressure/findings/us-household-financial-pressure-013.md).
+
+**Infrastructure customer-claim refinement — 2026-09-20:** the Smart Path
+Connect record now separates three customer stages: modeled/system savings,
+an official claim of expected monthly bill savings for households and
+businesses, and observed bill-level incidence. The new public language improves
+the bridge from physical infrastructure to lived consumer consequence, but it
+still does not identify per-household savings, rate class, timing, or receipt.
+The next test remains a ratepayer/project ledger, not another project
+announcement. See [Finding #306](projects/ai-work-control/findings/ai-work-control-122.md).
+
+**Public follow-up scan checkpoint — 2026-09-20:** a fresh check of current FTC
+refund administration, New York Smart Path Connect reporting, and Department
+of Labor wage-recovery material found no new same-person or same-account
+middle-stage endpoint. FTC materials show that cashing can be reported for
+some remedy programs, but the rates remain program-level and do not show
+adequacy or later recovery. Smart Path Connect still reports estimated system
+and customer savings rather than a ratepayer bill ledger. DOL reports aggregate
+back-wage recovery and maintains a route for workers owed money, but does not
+link a named worker's payment to later household security, continued work, or
+exit. The queue therefore remains focused on authorized same-unit follow-up,
+not another aggregate announcement or recovery total.
+
+**Ratepayer-correction checkpoint — 2026-09-20:** New York's Department of
+Public Service settlement with a transmission developer adds a distinct
+infrastructure-to-consumer stage: regulatory review, a reported $13 million
+plus interest refund expected for ratepayers, and a forward-looking cost
+control. It still does not show customer-level bill posting, receipt,
+adequacy, or household recovery. See [Finding #308](projects/ai-work-control/findings/ai-work-control-124.md).
+
+**AI social-meaning checkpoint — 2026-09-20:** the new companion survey adds
+support, advice, disclosure, emotional connection, and perceived reliability
+to the digital lane. These are cultural-meaning and social-support measures,
+not evidence of human substitution, wellbeing improvement, dependence, or
+durable exit. The next test should join the same user's AI relationship to
+human support, stress, platform changes, attempted exit, and later social
+outcomes. See [Finding #310](projects/ai-work-control/findings/ai-work-control-126.md).
+
+**Rotation-consolidation checkpoint — 2026-09-20:** the latest breadth pass has
+now sharpened four cross-theme mechanisms rather than adding another aggregate
+endpoint: interactional digital exit, fiscal infrastructure bargains,
+persistent security posture with contested legitimacy, and three-clock disaster
+recovery. Their bounded audits are linked from the [central theme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md).
+The next serious pass should therefore select one authorized same-unit route
+that can add an actual lived middle: account deletion or continued use,
+facility payment and household incidence, deployment persistence and public
+consent, or household repair and return. If the necessary files are not
+authorized or present, retain the acquisition boundary and do not promote a
+new end-to-end claim.
+
+**Infrastructure federal-implementation checkpoint — 2026-09-20:** the
+NextEra transmission-refund route was rechecked against the June 2026 FERC
+action. FERC's Section 206 investigation and refund-effective date add a
+federal procedural/accounting stage after the New York settlement, but no
+customer-class allocation, retail bill posting, receipt, or adequacy endpoint
+was found. This sharpens the infrastructure-to-consumer chain without
+qualifying it as household recovery; the next test remains a utility/FERC
+implementation filing tied to a bill period or customer credit.
+
+**Digital-control rotation checkpoint — 2026-09-20:** the low-density
+platform/data lane was rechecked for a distinct same-user control endpoint.
+Walmart's California privacy metrics are already promoted as Finding #312 and
+provide request, verification/denial, completion, and timing stages. Current
+public materials still do not independently verify deletion, residual data,
+repeat requests, trust, switching, or wellbeing. No additional public record
+closed those later stages, so the next digital pass should seek an authorized
+request-level verification or account panel rather than another reach, use, or
+privacy-awareness aggregate.
+
+**Macro-tension routing checkpoint — 2026-09-20:** the six-tension synthesis
+now gives each next episode a sharper selection test. A public-system or health
+episode should target **capacity versus control** and **correction versus
+contestability**; a consumer, platform, or worker episode should target
+**offer versus usability** and **dependence versus exit**; a care or household
+episode should target **support versus burden transfer**; and an infrastructure
+or recovery episode should target **recovery versus durability**. The preferred
+next record is the smallest authorized same-unit episode that closes one of
+those tensions with notice, effort, actual receipt or use, adequacy, and later
+persistence. Another aggregate offer, capacity, or sentiment measure should be
+added only if it changes that routing decision.
+
+**Geopolitical external-response recheck — 2026-09-21:** the current scan
+reviewed recent NATO/partner material for a stage beyond procurement,
+acceptance, exercise operation, and alliance cooperation. The strongest new
+material still shows partner integration and technical or operational
+coordination, not a clean attributed adversary response, consequential
+concession/refusal, deterrence outcome, or durable external behavior change.
+Keep those records as capability and cooperation stages. The next geopolitical
+addition must identify the affected external actor, the dated response, and the
+maintenance or reversal of that response; do not promote another exercise
+account as leverage.
+
+**Consumer-remedy freshness recheck — 2026-09-21:** the FTC's revised Amazon
+Prime settlement order expands automatic eligibility for some customers with
+11–20 Prime benefits and schedules additional payments, while the public
+record still ends at eligibility, issued/accepted aggregate dollars, and
+future distribution. This strengthens the remedy-reachability clock but does
+not close account-level receipt, adequacy, continued use, switching, trust, or
+household recovery. Keep the case as a comparator rather than promoting a new
+recovery estimate.
+
+**Civic-infrastructure rotation — 2026-09-21:** the FTA family-friendly-transit
+dashboard and CIRCLE's Political Homes research add a cross-theme route from
+usable public and social infrastructure to civic capacity. Safety,
+accessibility, reliability, transportation, food, money, information, and
+belonging can make movement or political action more feasible before final
+participation or institutional influence is visible. This is a broader
+mechanism, not a causal estimate. The next valid test is a same-person route
+from support entry and usability through completed movement or civic action,
+institutional follow-through, later trust, and persistence; do not add another
+attitude or dashboard announcement as if it closes that chain.
+
+**Teen-AI purpose rotation — 2026-09-21:** Pew's 2026 teen study separates
+chatbot use for information and schoolwork from use for casual conversation and
+emotional support. This adds a cultural route from platform exposure to social
+support without treating all use as dependence or harm. The next valid test
+must preserve purpose, frequency, human alternatives, disclosure, control, and
+later school or social outcomes; another adoption or frequency snapshot should
+not be promoted as substitution, wellbeing, or exit.
+
+**Large-load affordability rotation — 2026-09-21:** PJM's later board direction
+adds a cost-governance stage to the existing July disconnection and FERC tariff
+route. The board links a reported 6,831 MW capacity shortfall to resource-
+adequacy and affordability action and states that new large loads should bear
+the costs they cause. This sharpens the infrastructure-to-public-cost bridge,
+but it does not establish facility causation, customer-class allocation,
+residential bill impact, or avoided reliability loss. The next valid test remains
+a tariff, bill, or reliability record tied to an identifiable customer class or
+place—not another board or policy announcement.
+
+**Household-facing infrastructure rotation — 2026-09-21:** Dominion and NextEra
+announce a proposed Virginia package with $10-per-month residential credits for
+four years, partly funded through large-load-related credits and shareholder
+relief. The SCC recheck adds an approved allocation framework and a modeled
+reduction in a typical 1,000-kWh customer's projected monthly increase from
+$2.90 to $0.94, plus direct assignment of certain large-load costs. This is a
+stronger public-facing cost-sharing route than a reliability rule, but bill
+posting, eligibility, receipt, net savings, reliability, and durability remain
+open. The next test should follow a customer class or place through the
+regulatory and billing record; do not convert the proposal or modeled result
+into household savings.
+
+**Virginia implementation-status recheck — 2026-09-21:** the SCC's current
+facts page identifies the approved Rider T1 allocation method and direct-connect
+cost framework, but says the detailed line-extension amendments are to be filed
+in supplemental docket PUR-2026-00131. The page does not show an adopted
+customer-facing line-extension policy, a posted residential credit, a bill
+period, or a customer receipt. The route is therefore now coded as
+approved-framework → supplemental filing pending → implementation → bill or
+receipt, rather than approved-framework → household savings. The next
+infrastructure pass should inspect that docket for the filing and any later
+tariff/order; if absent, rotate to a different theme rather than repeat the
+same modeled number ([Virginia SCC facts](https://www.scc.virginia.gov/about-the-scc/scc-facts/)).
+
+**Geopolitical operational-response rotation — 2026-09-21:** Lithuania's
+Defence Ministry reports a September 15 NATO interception and destruction of a
+drone that entered Lithuanian airspace, followed by a Lithuanian-Italian
+statement framing the action as alliance unity and calling for stronger
+European air defence. This adds a live protective-action stage beyond posture
+and exercise. It still does not establish independent attribution, recurring
+cost, civilian-risk reduction, public consent, deterrence, or changed external
+behavior. The next geopolitical test is repeated-operation burden and an
+attributed external response, not another exercise or procurement account
+([Lithuanian operational summary](https://kam.lt/reagavimo-i-orlaiviu-skrydzius-prie-baltijos-valstybiu-sienu-rugsejo-14-20-d/)).
+
+**Digital-control rotation — 2026-09-21:** California's DROP system adds a
+centralized privacy route: one verified request can reach more than 600 data
+brokers, with hashed matching, a 45-day processing clock, and statuses such as
+deleted, exempted, not found, opted out of sale, or pending. This is a distinct
+control-and-observability stage beyond a single firm's request metrics. The
+public record still lacks matched-broker denominators, consumer-level deletion
+receipt, residual exposure, persistence, trust, and switching. The next digital
+test is a privacy-preserving request/status panel, not another program launch
+or legal-right description ([CalPrivacy explanation](https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/)).
+
+**Transmission-refund allocation recheck — 2026-09-21:** the New York
+ratepayer-refund route now has a reported implementation mechanism: expected
+credits to monthly transmission charges on a load-ratio-share basis. The same
+implementation explanation warns that an individual utility may not show a
+separate invoice line, so this is stronger than an announcement but weaker than
+a posted household credit. The next infrastructure test remains a filed
+utility allocation or bill-period record with customer-class and receipt fields
+([municipal-utility explanation](https://www.villageofskaneateles.gov/media/15416)).
+
+**Social/cultural breadth recheck — 2026-09-21:** a fresh scan of social-
+connection, belonging, civic-participation, and consumer-behavior material did
+not justify another generic attitude record. The strongest social sources were
+already retained: Pew's four public-life participation styles, CIRCLE's
+political-home/civic-capacity route, family and intergenerational connection,
+loneliness/support, and volunteering. The consumer scan likewise repeated the
+existing value-seeking, financial-room, tradeoff, trust, and switching lanes.
+The broad goal therefore advances by keeping these as distinct mechanisms rather
+than collapsing them into one “social cohesion” or “consumer mood” theme. The
+next social/cultural pass should seek a same-person or same-household bridge
+from material condition or institutional encounter through belonging/support,
+choice or action, and persistence—not another cross-sectional percentage.
+
+**Next broad-depth lane — 2026-09-21:** the active public-systems route is now
+SNAP/EBT, childcare, Medicaid continuity, and named-site care access. The
+retained evidence can already show several real conversions: a SNAP transition
+coexisting with later rent or utility hardship; work capacity and children
+changing that hardship pattern; an issued EBT benefit becoming unusable after
+account theft; poverty and Medicaid coverage moving on different clocks; and a
+shortage-designated provider reaching a named site and a phone/portal and
+sliding-fee route. These are distinct material, social-capacity, and access
+mechanisms—not one welfare story. The next pass should follow implementation
+and usability: notice, effort, appointment or replacement, payment/receipt,
+care or food outcome, and persistence. If no authorized same-unit file exists,
+retain these as bounded bridges and do not infer trust, political action, or
+recovery from program status.
+
+**Public-help meaning rotation completed — 2026-09-21:** the new [public-help,
+household-room, and political-meaning synthesis](projects/us-safety-net-access/public-help-household-room-political-meaning-cross-source-synthesis-v1.md)
+reads USDA/FNS route performance, SNAP interruption evidence, NBER/Census
+administrative studies, SIPP transitions, and linked HTOPS respondents as one
+bounded societal subtheme. It finds that public help can be real while access
+is difficult, hardship continues, and institutional confidence changes
+unevenly. The sources are not pooled into one causal story. The next public
+systems test remains a privacy-protected episode ledger joining notice, effort,
+decision, receipt or gap, correction, household result, and later judgment or
+action; until such a source is authorized, the broad interpretation remains a
+layered cross-source finding.
+
+**Consumer-AI choice rotation — 2026-09-21:** a June 2026 study of 1,999 US
+AI-assistant users adds a task-level consumer route: primary market share is
+concentrated, but coding, work, information, and personal tasks are routed
+differently; about 43% intentionally multihome. The study also separates
+reputation from experiential trust and reports a privacy-action gap in which
+knowledge of training policy is more predictive of protective tools than
+concern alone. Its choice experiment puts higher value on avoiding human review
+than model training, especially for sensitive tasks. This is a bounded survey
+and hypothetical-choice result, not telemetry, disclosure, durable switching,
+or verified privacy control. The next test should follow an authorized user
+through task sensitivity, actual platform choice, disclosure, settings change,
+repeat use, switching attempt, and deletion/exit.
+
+**Financial-guidance rotation — 2026-09-21:** Gallup/Edward Jones adds a
+consequential consumer route: financially stressed adults seek guidance at
+roughly similar rates to financially fulfilled adults, but rely more on family
+and somewhat more on AI. Only a minority expresses confidence in AI's
+financial expertise. This distinguishes guidance demand from guidance trust and
+adds a route from household pressure to social network, platform use, and
+financial decision. It does not show advice quality, decision influence,
+financial outcome, or human substitution. The next test should follow a dated
+financial need through source choice, recommendation, human alternative,
+decision, fee/time cost, correction, and later outcome.
+
+**Family-care infrastructure rotation — 2026-09-21:** Pew's aging-caregiver
+study adds a social-reproduction route: family members provide errands, home
+repairs, medical coordination, finance management, and personal care. Lower-
+income adults with aging parents or partners are more likely to be caregivers,
+while parent caregivers report positive relationship effects alongside negative
+health, career, financial, and social effects. This is not a single burden or
+benefit score; it is unpaid infrastructure with unequal alternatives. The next
+test should follow a same household from care onset through hours, paid/public
+alternatives, work and out-of-pocket costs, respite, health, relationship
+meaning, and persistence or exit.
+**Civic-ritual meaning rotation — 2026-09-21:** Gallup's America250 survey
+adds a collective-identity route in which planned recognition runs primarily
+through family/friends, neighborhood events, history learning, personal stories,
+and service rather than official programming alone. This is a meaning-making
+surface, not evidence of attendance, cross-party agreement, trust, or later
+political action. The next test should follow the actual activity, encounter,
+story or value taken from it, renewed social tie, and later civic participation
+or withdrawal.
+
+**External-reception rotation — 2026-09-21:** Pew's 2026 cross-national survey
+adds a stage between U.S. capability and partner behavior: a median 37% across
+36 countries viewed the United States favorably, and a median 32% said it
+considered countries like theirs' interests. This does not establish a policy
+or alliance consequence, but it separates formal partnership from perceived
+reliability and respect. The next test should join country-level reception to
+a dated base, aid, trade, alliance, or crisis decision and observe whether
+cooperation, access, burden sharing, or opposition changes.
+
+**Digital-control rotation — 2026-09-21:** Google's explicit-image removal
+route adds a user-facing control chain: request, status visibility, and
+repeat-protection settings. It is useful because it separates observability
+from actual remedy. The next test should follow completion time, recurrence,
+cross-platform copies, escalation, safety, and practical exit rather than
+counting the presence of a removal button as protection.
+
+**Belonging-and-action recheck — 2026-09-21:** the latest scan found no reason
+to add another generic belonging or youth-attitude record. The retained CIRCLE
+political-home route already distinguishes group belonging, practical support,
+voice, self-efficacy, civic action, and wellbeing. The next cultural pass
+should therefore test whether a dated material or institutional encounter
+creates a usable political home or neighbor network and whether that support
+persists into action, withdrawal, or care for others.
+
+**Religious-community infrastructure rotation — 2026-09-21:** Pew's Religious
+Landscape Study adds a distinct institutional surface: many Americans see
+religious organizations as strengthening community bonds and helping people in
+need, while membership, participation, and positive evaluations vary across
+religious and nonreligious groups. The next test should follow institutional
+contact through actual service, belonging, cost/time, voice, and later trust or
+political action; perceived community value is not service receipt or accepted
+political authority.
+
+**Energy-benefit realization rotation — 2026-09-21:** the DC Solar for All
+route now reaches a selected project-row monthly-credit endpoint: four cited
+rows report every listed subscriber receiving a credit. This advances beyond
+program design and aggregate household reach, but still does not expose the
+credit amount, net bill, arrears, household identity, or persistence. The next
+infrastructure test remains utility/account follow-up, not another capacity or
+average-savings claim.
+
+**Energy-benefit counterexample integrated — 2026-09-21:** the Solar for All
+records are now in the broad reader as both implementation evidence and a
+limit. Program materials report household reach and average savings; selected
+project rows report monthly credits; a billing audit and proposed error-rate
+remedy show that customer-level correction can remain unresolved when billing
+data are incomplete. This is a bounded counterexample to treating every public
+benefit as merely nominal, not proof of individual net savings or durable
+energy security. The next test remains a customer-class or account-level bill
+record with credit, correction, and persistence fields.
+
+**Care-appeal gate integrated — 2026-09-21:** the HHS-OIG skilled-nursing
+review is now in the broad reader. It shows initial denials, a low appeal share,
+and a very high overturn rate among appealed denials, making appeal effort part
+of the route to covered care. It does not show nonappeal reasons, delay,
+substitution, actual admission, or recovery. The next care test should preserve
+those missing stages rather than treat the overturn rate as a patient outcome.
+
+**Small-business remedy gate integrated — 2026-09-21:** the FleetCor/Corpay
+record is now in the broad reader. A court-confirmed fee practice and proposed
+$100 million redress order establish recognition and prospective control, but
+not customer receipt, restored cash flow, switching, or survival. This adds a
+firm-side remedy boundary without turning the proposed fund into a recovery
+rate.
+
+**Press-legitimacy gate integrated — 2026-09-21:** Pew's press-government
+study is now in the broad reader. A large majority saw the relationship as bad,
+while views of media power and the acceptability of criticism split by actor
+and party. This adds a shared-diagnosis/divided-legitimacy pattern; it does not
+measure censorship, accuracy, retaliation, persuasion, or political action.
+
+**Public-life styles integrated — 2026-09-21:** Pew's engagement-group record
+is now in the broad reader. Mobilizers, connectors, spectators, and outsiders
+show different levels of political interest, while federal-government trust is
+low across all four groups and news trust varies more. This supports a
+multi-style view of civic life, not a simple active/inactive ladder. It does
+not establish causal participation, fixed identities, or later action.
+
+**Class-identity meaning integrated — 2026-09-21:** Pew's working-class study
+is now in the broad reader. The label spans income, education, party, and work
+groups, so it is a cultural/status identity rather than a direct hardship or
+occupation measure. The next test should connect class language to a dated
+workplace or material encounter, perceived respect, institutional judgment,
+and later political or workplace action without treating self-identification as
+causal.
+
+**State-buffer capacity integrated — 2026-09-21:** Pew's Fiscal 50 record is
+now in the broad reader. State rainy-day reserves show uneven room to absorb
+shocks, but reserve days are not a service-quality or household-protection
+measure. The next test should join a named state shock to an actual draw,
+program decision, service continuity, and household or place incidence rather
+than treating fiscal capacity as delivered protection.
+
+**Macro-to-household room bridge integrated — 2026-09-21:** the public
+financial-capacity comparison is now in the broad reader. It keeps GDP, profits,
+financial-system risk, public analytical capacity, debt scenarios, and SHED
+liquidity separate while showing why aggregate improvement does not settle the
+household-security question. The next test should preserve stable units and
+dates rather than build a pooled financial-pressure score.
+
+**Place-growth and civic meaning integrated — 2026-09-21:** the county-linked
+place comparison is now in the broad reader. Population change, service-
+establishment context, trust, and civic action do not form one rising or
+falling gradient. The next test should use a same-geography or place episode
+with dated capacity, actual access, local burden, belonging, action, and
+institutional response rather than another population-growth cross-tab.
+
+**SNAP route-performance integrated — 2026-09-21:** USDA's state tables are
+now in the broad reader. Participation, application timeliness, and
+recertification timeliness vary on different dimensions, with named state
+counterexamples. This sharpens the administrative-interface finding without
+turning state aggregates into household food security. The next test should
+join a case-level notice, processing event, receipt or gap, correction, and
+later continuity.
+
+**Conditional press-freedom integrated — 2026-09-21:** Pew's companion study
+is now in the broad reader. Americans broadly value press freedom but divide
+over accuracy-versus-freedom tradeoffs, perceived current restrictions, and
+party-linked interpretation. This adds a principle-versus-conditional-limit
+pattern without measuring actual censorship, accuracy, or media effects.
+
+**Comparative platform-control integrated — 2026-09-21:** the UK safety-tool
+survey is now in the broad reader as a comparison, not a U.S. estimate. Users
+reported frequent block/unfollow use but much lower satisfaction with formal
+content reporting. This sharpens the distinction between user action and
+platform responsiveness; it does not establish harm reduction, platform
+causality, or durable exit.
+
+**Public-system route synthesis integrated — 2026-09-21:** the SNAP route-
+security triangulation is now in the broad reader. Separate studies show that
+interview design, office access, work requirements, continued receipt, and
+charitable substitutes can change the route without establishing food security
+or household recovery. The sources remain deliberately non-pooled. The next
+test is a privacy-protected episode ledger linking notice, effort, decision,
+receipt or gap, correction, material result, and later continuity.
+
+**Alliance-industry reciprocity integrated — 2026-09-21:** the Poland-U.S.
+defense record is now in the broad reader. It adds a route from procurement to
+reciprocal access, financing, co-production, and regional supply, alongside a
+public-information and public-financing boundary. Agreements and financing do
+not prove demand, plant commissioning, delivery, local control, public
+consent, or external deterrence. The next test is a realized production or
+delivery record paired with partner and public response.
+
+**Teen social-AI exposure integrated — 2026-09-21:** the 2025 Pew teen survey
+is now in the broad reader as context for the later purpose findings. It adds
+chatbot adoption, daily use, near-constant platform exposure, and subgroup
+variation. The next test must still preserve purpose, frequency, human
+alternatives, control, and later school or social outcomes rather than treating
+adoption as dependence or harm.
+
+**Complaint-response time series integrated — 2026-09-21:** the CFPB annual
+response record is now in the broad reader. It adds a fast routing and company-
+response endpoint alongside a changing mix of explanations and relief codes.
+The next test remains account-level correction and adequacy; aggregate response
+speed is not substantive recovery, and coding or product-mix changes remain
+possible explanations for the time trend.
+
+**Energy-burden comparison integrated — 2026-09-21:** the RECS record is now
+in the broad reader. It adds an income-linked energy-cost proxy and assistance
+receipt measure while preserving the midpoint and modeled-expenditure limits.
+The next test should connect energy burden to a dated bill, shutoff or repair
+event, assistance route, actual receipt, and later household security.
+
+**Firm-size capacity integrated — 2026-09-21:** the New York Fed and World
+Bank firm records are now in the broad reader. They show employment, revenue,
+training, finance, and outage exposure moving differently by firm size. The
+next test should follow a named firm or sector through financing, investment,
+worker conditions, customer effects, and survival rather than treating any one
+capacity indicator as firm security.
+
+**Digital-control visibility integrated — 2026-09-21:** Google's explicit-image
+removal route adds a concrete user-facing sequence: simpler request, status
+visibility, notifications, and optional repeat filtering. It improves the
+observability of control without reporting completion time, confirmed
+de-indexing, cross-platform removal, recurrence, survivor safety, or durable
+exit. The next digital test should follow a lawful version-stamped request
+through completion, recurrence, escalation, and safety rather than treating a
+visible control as verified protection.
+
+**Household cost-bargain integrated — 2026-09-21:** Virginia's data-center
+customer-relief record now sits in the broad reader. A proposed $10 monthly
+residential credit and an approved modeled reduction in a typical customer's
+projected increase make burden sharing visible before any customer bill or
+receipt is observed. The next infrastructure test remains a billing or
+customer-class record with eligibility, receipt, net effect, and durability.
+
+**Centralized privacy reach integrated — 2026-09-21:** California's DROP
+system now sits in the broad reader as a multi-broker control stage. One hashed
+request can reach more than 600 brokers, with a 45-day processing clock and
+visible partial-status categories. The next test remains a matched consumer-
+broker panel or privacy-preserving audit showing deletion, exemptions,
+recurrence, and persistence; program scale is not a deletion rate.
+
+**Connected-vehicle privacy remedy integrated — 2026-09-21:** the FTC GM/OnStar
+order adds a formal access, deletion, opt-out, and model-dependent location-
+control route. Its 20-year duration and published request channels show legal
+and implementation capacity, while safety exceptions, verification, service
+trade-offs, and missing request/completion data keep practical control open.
+The next test is an authorized implementation record with request, response,
+deletion verification, residual collection, service effect, and later use or
+exit.
+
+**Work-opportunity recourse integrated — 2026-09-21:** the FTC Publishing.com
+order now sits in the broad reader. Alleged earnings promises and difficult
+refund conditions add an exit-friction route; the $1.5 million final-order
+payment and prospective controls do not reveal buyer-level loss, refund
+receipt, income, alternatives, or recovery. The next test is a lawful buyer-
+level remedy record with purchase, claim, payment, alternative work, and later
+security preserved separately.
+
+**Low-income energy enrollment integrated — 2026-09-21:** DOE's Clean Energy
+Connector now sits in the broad reader. It links LIHEAP eligibility to an
+opt-in community-solar route with a required minimum savings margin, but does
+not report enrollment, bill credits, subscription costs, persistence, or
+energy-burden change. The next test is a utility or participant record joining
+eligibility, opt-in, credit timing, net cost, and later continuity.
+
+**Family-network meaning integrated — 2026-09-21:** Pew's Black family survey
+now sits in the broad reader. It shows reported closeness extending through
+chosen and extended ties beyond the nuclear household. This adds a cultural
+support map, not a care-delivery or financial-support estimate. The next test
+is an authorized family episode preserving helper identity, effort, resource,
+recipient result, and whether support can continue.
+
+**Intergenerational support integrated — 2026-09-21:** Pew's grandparenthood
+synthesis now sits in the broad reader. Grandparent status, monthly contact,
+closeness, and 100-plus hours of care over a two-year window are kept separate.
+The next test is an authorized family episode preserving relationship, care
+hours, material help, burden, and later continuity.
+
+**Worker-redress endpoint integrated — 2026-09-21:** the Handy/Angi record now
+ sits in the broad reader. More than $2.7 million in checks were reportedly
+ sent to 62,893 eligible consumers with a 90-day cashing instruction. This is
+ stronger than a proposed fund but not a receipt or recovery rate; cashing,
+ adequacy, restored earnings, platform continuity, alternatives, and exit are
+ open. The next test is an authorized payment ledger joined to work outcomes.
+
+**Adult AI social-meaning integrated — 2026-09-21:** the companion survey now
+sits in the broad reader. Users report friend-like meaning, support, advice,
+disclosure, emotional connection, and possible loss. These are selected,
+conditional self-reports, not evidence of human substitution, wellbeing,
+dependence, or durable exit. The next test should join a user's AI relationship
+to human support, stress, platform changes, attempted exit, and later social
+outcomes.
+
+**Legal digital-remedy integrated — 2026-09-21:** the Take It Down Act now sits
+in the broad reader. Covered platforms must offer a removal process, act within
+48 hours on valid requests, address known identical copies, and expose an FTC
+escalation route; guidance adds request traceability. The next test is a lawful
+request-level record preserving validity, response, removal, recurrence,
+safety, and later platform use or exit.
+
+**Income-timing margin integrated — 2026-09-21:** the 2025 SHED record now sits
+in the broad reader with its distinct timing layer. Income variation, bill
+difficulty, outside help, and money left over move unevenly by self-employment,
+age, and family income. The next test is a same-household episode preserving
+pay timing, fixed bills, transfers, savings, borrowing, and later recovery.
+
+**Algorithmic-work measurement integrated — 2026-09-21:** NYC Local Law 25 now
+sits in the broad reader. The enacted mandate covers hiring, regular employee
+work functions, and worker feedback, but implementation remained in planning
+stages and no completed study or public report was located. The next test is a
+published instrument/report joined to a named tool, worker notice, appeal,
+correction, workload/pay change, and later retention or exit.
+
+**Cross-program eligibility integrated — 2026-09-21:** the ACA Medicaid
+expansion spillover record now sits in the broad reader. SNAP and TANF
+participation increased, apparently mainly among already-eligible people,
+consistent with Medicaid lowering the marginal cost of applying elsewhere.
+This is an access mechanism, not a same-household security estimate. The next
+test is a person- or household-level route preserving notice, application,
+benefit amount, adequacy, and later continuity.
+
+**Layered health-cost bridge integrated — 2026-09-21:** the health-cost
+household-choice synthesis now sits in the broad reader. SHED care-forgoing and
+adaptation, Oregon Medicaid lottery effects, medical-debt records, and civic
+follow-up are retained as separate layers. The next test remains a dated,
+authorized health-cost episode joining care choice, household buffering,
+remedy, trust, or action without pooling unlike units.
+
+**Cross-border power operation integrated — 2026-09-21:** Champlain Hudson now
+sits in the broad reader as a commercial-operation stage. The 339-mile line and
+expected annual delivery make cross-border infrastructure real, while customer
+bills, rate allocation, reliability, host acceptance, and durable leverage are
+still open. The next test is a customer-class or monthly operating record, not
+another project milestone.
+**Geoeconomic external-response rotation — 2026-09-22:** the Congressional
+Research Service tariff timeline adds a dated response stage after U.S.
+pressure. China used retaliatory tariffs, export restrictions, company
+designations, and investigations; Canada and the European Union also used or
+prepared countermeasures and later paused, reduced, exempted, or negotiated
+over some measures. This is evidence of government response, not proof of
+firm pass-through, household incidence, alliance durability, or U.S. strategic
+success. The next valid test is one episode linking the response to affected
+firms or prices and an attributed policy change; do not add another retaliation
+announcement as if it closes that chain. See the [external-response finding](projects/us-geoeconomic-coercion-targets/findings/us-geoeconomic-coercion-targets-002.md).
+
+**Care/work leave-usability rotation — 2026-09-22:** BLS reports that 94% of
+wage and salary workers had either paid or unpaid leave access in 2024-25, but
+8% still needed leave during an average month and did not take it. Too much
+work, fear of job consequences or denial, and unaffordable lost income were
+major reasons. This adds a usable-time boundary, not a same-worker care or job
+outcome. The next valid test is a linked need/request/approval/actual-time
+episode with care, pay, job, and household follow-up. See the [leave-usability
+finding](projects/us-aging-care-strain/findings/us-aging-care-strain-019.md).
+
+**Digital collective-exit rotation — 2026-09-22:** the World Happiness Report
+summarizes a randomized Facebook deactivation study and a separate U.S.
+college-student coordination study. Short-run wellbeing improved after
+deactivation, but political knowledge moved differently and people valued
+connection or feared missing out when others remained. The next valid test is
+repeated behavior showing deletion, replacement, return, or coordinated exit;
+do not convert stated willingness to leave into durable non-use. See the
+[social-exit finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-016.md).
+
+**Digital material-risk rotation — 2026-09-22:** the FTC's Consumer Sentinel
+analysis reports $2.1 billion in 2025 losses where social media was the scam
+contact method, across shopping, investment, romance, job, and housing routes.
+This adds a material-cost and trust layer, but it is a selected report system,
+not true prevalence or a platform-causation estimate. The next valid test is a
+privacy-protected case route from contact to payment, report, correction,
+recovery, and later trust or exit; do not treat reported loss as the full
+population or as a recovery rate. See the [social-scam finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-017.md).
+
+**Housing-stock usability rotation — 2026-09-22:** HUD's 2025 report finds
+that for every 100 extremely low-income renter households, about 66 units were
+affordable, 38 were affordable and available, and 34 were affordable, available,
+and physically adequate. This adds a stock-level place constraint between
+nominal affordability and usable housing. The next valid test remains a
+household/place route through search, landlord response, lease-up, inspection,
+repair, stay, or move; do not convert national supply ratios into a household
+displacement rate. See the [housing-stock finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-013.md).
+
+**Public-safety visibility rotation — 2026-09-22:** BJS's 2024 NCVS estimates
+23.3 violent victimizations per 1,000 people age 12 or older, while 11.2 per
+1,000 were reported to police; about 48% of violent victimizations and 30% of
+property victimizations were reported. This adds the gap between lived harm and
+police-visible harm. The next valid test is a privacy-protected repeated-person
+or case-linked route through reporting choice, police response, victim services,
+remedy, safety, trust, and later action; do not treat nonreporting as a simple
+distrust measure. See the [victimization/reporting finding](projects/us-safety-net-access/findings/us-safety-net-access-025.md).
+
+**Everyday cultural-time rotation — 2026-09-22:** BLS's 2025 ATUS reports that
+30.4% of people age 15 and older socialized or communicated on an average day,
+9.4% took part in religious or spiritual activity, and 5.3% volunteered. The
+categories have different reach and weekday/weekend timing. The next valid test
+is a repeated or place-linked record adding meaning, travel/care cost,
+organizational continuity, belonging, and later civic or political action; do
+not treat recorded primary-activity time as a cultural-health score. See the
+[cultural-time finding](projects/us-aging-care-strain/findings/us-aging-care-strain-020.md).
+
+**Arts-access and connection rotation — 2026-09-22:** an NEA analysis of four
+2024 Census Household Pulse cycles finds 25.2% of adults attended a live
+performance or art exhibit in the previous month, 16.3% created or practiced
+art, and 62.2% agreed their community had plenty of arts opportunities.
+Attendance was 16.2% among adults earning under $25,000 versus 55.2% among
+those earning $200,000 or more, and attendees reported social support more often
+than non-attendees. The next valid test is repeated or place-linked evidence
+that adds access cost, transport, meaning, continuity, and later social or civic
+outcomes; do not turn the association into an arts-treatment effect. See the
+[arts/social-connectedness finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-066.md).
+
+**School-safety participation rotation — 2026-09-22:** the joint NCES/BJS
+report finds at-school nonfatal victimization fell from 52 per 1,000 students
+ages 12–18 in 2012 to 22 per 1,000 in 2022, while 3.8% of students in 2021–22
+reported fear of attack or harm at school, 3.6% avoided activities or classes,
+and 2.2% stayed home because of fear. The next valid test is a repeated student
+or school-linked route through threat, fear, avoidance, support, attendance,
+learning, belonging, and later trust; do not treat the aggregate rate as proof
+of equal lived safety. See the [school-safety finding](projects/us-school-safety/findings/us-school-safety-001.md).
+
+**Broadband usability rotation — 2026-09-22:** FCC reports that at year-end
+2023 about 53% of households subscribed to 100/20 Mbps fixed broadband when it
+was available; this is a conditional adoption denominator, not all households.
+For 2022, 7.9% had no provider at that speed, 37.4% had one, and 36.6% had two
+under the FCC comparison. The next valid test is a location- or household-linked
+route through quoted price, device, installation, delivered reliability,
+subscription, switching, and actual use; do not turn availability or provider
+count into affordable access. See the [broadband finding](projects/us-digital-access/findings/us-digital-access-001.md).
+
+**Space-coordination rotation — 2026-09-22:** GAO found that DOD has real
+mechanisms and goals for integrating allies and partners into space operations,
+but staffing gaps, overlapping responsibilities, difficult points of contact,
+and missing implementation milestones can limit usable coordination. This adds
+an operational stage between formal alliance commitment and shared capability.
+The next valid test is a declassified exercise- or mission-linked record of
+whether staffing, information sharing, and responsibility changes improved
+coordination, readiness, or partner contribution; do not turn organizational
+barriers into a claim of alliance failure or strategic defeat. See the
+[space-coordination finding](projects/us-space-allied-coordination/findings/us-space-allied-coordination-001.md).
+
+**Transmission-realization rotation — 2026-09-22:** DOE's Transmission
+Facilitation Program makes federal capacity support and planned transmission
+megawatts visible, but its current project page records termination or
+withdrawal notices for SWIP-N, Cross-Tie, Twin States, and Cimarron Link. The
+next valid test is a project-linked route through contract, permitting,
+construction, energization, service, cost recovery, and rate or reliability
+effects; do not treat a selection, award amount, or planned capacity as an
+operating line. See the [transmission-realization finding](projects/us-transmission-facilitation-realization/findings/us-transmission-facilitation-realization-001.md).
+
+**DROP contestability rotation — 2026-09-22:** California's DROP gives a
+consumer one request, an eight-digit tracking ID, broker-level statuses, and a
+recurring 45-day processing duty. “Deleted,” “not found,” “opted out,”
+“exempted,” and “pending” are different states; none is a public aggregate
+completion rate. The next valid test is a privacy-protected request ledger
+through matching, contractor action, reappearance, safety, trust, and exit;
+do not convert route visibility or sign-up counts into complete data removal.
+See the [DROP finding](projects/us-drop-status-contestability/findings/us-drop-status-contestability-001.md).
+
+**Economic-place civic-capacity rotation — 2026-09-22:** a Census CES working
+paper using more than 990,000 CPS Volunteering Supplement observations reports
+that local disadvantage and inequality were associated with lower volunteering;
+the Great Recession dampened volunteering, and the earlier rural advantage
+disappeared after the recession. The next valid test is a repeated
+person/place route through material conditions, organizational access, formal
+volunteering, informal help, belonging, political action, and persistence; do
+not treat formal volunteering as the whole of community life. See the
+[civic-capacity finding](projects/us-economic-place-civic-capacity/findings/us-economic-place-civic-capacity-001.md).
+
+**Jail-exposure/pretrial rotation — 2026-09-22:** BJS reports 658,700 people
+held in local jails at midyear 2024, 7.9 million admissions over the prior year,
+68% of people held unconvicted, and an average 31 days before release. The
+population was 12% below 2014 and admissions 31% lower, while the Black jail
+incarceration rate was 566 per 100,000 versus 149 for white residents. This adds
+an aggregate-decline-to-lived-exposure boundary. The next valid test is a
+privacy-protected person-level route through admission, pretrial decision, case
+outcome, release conditions, housing, work, health, supervision, and later
+justice contact; do not treat admissions as unique people or custody as
+conviction, reentry, or crime causation. See the [jail-exposure finding](projects/us-jail-pretrial-exposure/findings/us-jail-pretrial-exposure-001.md).
+
+**Community-supervision integration — 2026-09-23:** BJS estimates that
+3,681,900 adults were under probation or parole at yearend 2024, while the
+comparable-agency population fell 24% from 2014. Completion, incarceration,
+absconding, and other exits are recorded, but supervision conditions, service
+quality, work, housing, family life, safety, trust, and durable inclusion remain
+open. This extends the jail route beyond custody; do not treat a falling
+supervision count or an administrative exit as lighter burden or successful
+reintegration. See the [community-supervision finding](projects/us-bjs-community-supervision-2024/findings/us-bjs-community-supervision-2024-001.md).
+
+**Native-housing definition/experience integration — 2026-09-23:** GAO's
+preliminary review identifies 30 federal housing programs for American Indian,
+Alaska Native, and Native Hawaiian communities, while nearly all contacted
+Tribes and TDHEs said funding did not keep pace with construction,
+rehabilitation, or maintenance needs. Doubled-up living may provide family
+support while also being crowded or unstable, and may not fit federal
+homelessness definitions. The next valid test is a Tribe- or household-linked
+record through definition, application, funding, shelter or shared housing,
+privacy, safety, stability, and later housing outcome; do not code every shared
+arrangement as either secure or homeless. See the [Native-housing finding](projects/us-gao-native-housing-homelessness/findings/us-gao-native-housing-homelessness-001.md).
+
+**USMCA labor-remedy rotation — 2026-09-22:** USTR reports that a petition at
+a Mexican auto-parts facility moved through U.S.-Mexico review to two worker
+reinstatements with backpay and benefits, a union-access protocol, company
+neutrality rules and training, Mexican monitoring, and resumed U.S. tariff
+liquidation. The next valid test is later worker- and facility-linked evidence
+of payment receipt, non-retaliation, bargaining, and persistence; do not turn
+an official resolution into proof of durable worker power or USMCA-wide
+compliance. See the [USMCA labor-remedy finding](projects/usmca-rapid-response-labor-remedy/findings/usmca-rapid-response-labor-remedy-001.md).
+
+**OFAC firm-correction rotation — 2026-09-22:** OFAC reports that Adani
+Enterprises' 32 apparent Iran-sanctions violations involved about $192.1 million
+in U.S.-dollar payments and led to a $275 million settlement plus a five-year
+compliance commitment. The next valid test is later firm-level screening,
+recurrence, transaction change, and attributed state response; do not turn one
+settlement into a sanctions-effectiveness rate or proof of deterrence. See the
+[OFAC finding](projects/us-ofac-adani-sanctions-compliance/findings/us-ofac-adani-sanctions-compliance-001.md).
+
+**Political-contact rotation — 2026-09-22:** an NBER working paper using
+randomized Senate seating reports that close peer proximity changed voting,
+including a larger cross-aisle effect on final bills, and reports 59
+counterfactual consequential bill switches under random seating. The next valid
+test is another assigned-contact setting with later trust, cooperation,
+exclusion, or collective action; do not generalize a Senate voting effect to
+ordinary voters or durable public persuasion. See the [peer-proximity
+finding](projects/us-senate-peer-proximity-voting/findings/us-nber-senate-peer-proximity-voting-2026-001.md).
+
+**Shared-goal/different-means rotation — 2026-09-22:** an NBER survey and
+randomized information study finds that firearm owners and non-owners can share
+a safety goal while disagreeing about lethal tools, non-lethal alternatives, or
+no weapon. Information changed stated storage and alternative-tool preferences
+without making current owners want to give up lethal firearms. The next valid
+test is a same-setting route through perceived threat, chosen tool, actual use,
+and later safety; do not treat shared values or stated preferences as realized
+public safety. See the [firearm-safety finding](projects/us-firearm-safety-means/findings/us-nber-firearm-safety-means-2026-001.md).
+
+**Religious-community rotation — 2026-09-22:** Pew's 2023-24 Religious
+Landscape Study reports that 72% of Latter-day Saint adults volunteered in the
+past year versus 41% of all U.S. adults, while volunteering and generalized
+trust were both lower among members with less education and outside the
+Mountain region. The next valid test is a repeated community record joining
+participation, role assignment, time burden, received support, belonging, and
+later action; do not treat affiliation or a high group average as causal or
+equal community access. See the [religious-community finding](projects/us-religious-community-trust/findings/us-pew-latter-day-saints-communal-trust-volunteering-2026-001.md).
+
+**Military-readiness rotation — 2026-09-22:** GAO's cross-domain testimony
+reports that DOD generally missed availability goals and still needed action on
+more than 150 of nearly 200 readiness recommendations. Army watercraft provide a
+concrete example: fully mission-capable rates fell from 75% in 2020 to under 40%
+in 2024 against a 90% policy goal. The next valid test is a named mission or
+theater through asset status, maintenance, crew, location, partner support,
+task completion, and later response; do not treat inventory, modernization, or
+activity as dependable capability. See the [GAO readiness finding](projects/us-military-readiness-sustainment/findings/us-gao-military-readiness-sustainment-tradeoffs-2026-001.md).
+
+**Historical household-politics rotation — 2026-09-22:** an NBER study links
+Civil War veteran disability to higher labor-force participation among wives and
+daughters, then links women's labor participation plus newspaper information
+and protest-town proximity to Temperance Crusade activity in 1879–74. The next
+valid test is a modern household work/care change linked to information, group
+contact, organizing, and a later political or institutional result; do not
+generalize the historical mechanism directly to present-day politics. See the
+[historical household-mobilization finding](projects/us-historical-household-mobilization/findings/us-nber-civil-war-womens-work-temperance-mobilization-2026-001.md).
+
+**Benefit-denial financial-consequence rotation — 2026-09-22:** an NBER study
+links SNAP administrative cases in Los Angeles and San Francisco to consumer
+credit reports and finds that process-related denials increased debt and
+delinquencies and lowered credit scores among marginally excluded households.
+This adds a measured private-finance consequence to the administrative-access
+route. It does not establish a national effect, food-security change, health
+outcome, trust change, or later recovery. The next valid test is a protected
+case route joining denial, benefit receipt, debt timing, food or health
+hardship, reapplication, and recovery; do not treat credit deterioration as a
+complete household-security measure. See the [benefit-denial credit finding](projects/us-safety-net-access/findings/us-safety-net-access-026.md).
+
+**Named transportation-technology conversion rotation — 2026-09-22:** the
+Seattle SMART Stage One final report documents a $1.996 million project through
+procurement, a digital curb inventory, operational vehicle-to-curb
+infrastructure, and final reporting. Procurement, deployment, survey, and
+camera-reporting issues delayed milestones, and the report does not measure
+curb-user time, cost, safety, equity, adoption, or durability. The next valid
+test is a project-linked operating ledger joining permits, enforcement, curb
+occupancy or delivery time, user costs, complaints, and continuation; do not
+turn installed infrastructure into better public service. See the [Seattle
+named-project finding](projects/us-dot-smart-transportation-demonstration/findings/us-dot-smart-transportation-demonstration-002.md).
+
+**Ukraine-JEF partner-integration rotation — 2026-09-22:** Ukrainian officials
+coordinated participation in JEF training and knowledge exchange, and a later
+JEF account reports Ukrainian drone operators and specialists in live AURORA 26
+exercises in Sweden. This upgrades the route from planned partnership to
+reported partner participation, but does not establish JEF membership, combat
+deployment, a security guarantee, deterrence, or changed Russian behavior. The
+next valid test is the same partnership through later joint use, capability
+transfer, sustainment, partner or adversary response, and continuation or
+reversal. See the [Ukraine-JEF partner-integration finding](projects/ai-work-control/findings/ai-work-control-143.md).
+
+**TAKE IT DOWN enforcement rotation — 2026-09-22:** the FTC warned 12
+websites offering nudify tools and opened a complaint route for a missing,
+broken, or failed platform-removal process. This adds a regulator-response and
+contestability stage after the statutory removal route, but the public record
+does not show warning responses, individual removal, recurrence prevention,
+survivor safety, or durable exit. The next valid test is a protected request
+ledger joining platform, validity, response, duplicate removal, FTC escalation,
+reappearance, and later safety or exit. See the [TAKE IT DOWN enforcement
+finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-020.md).
+
+**Third-place and local-startup rotation — 2026-09-22:** an NBER study using
+U.S. business-registration data found more startup formation after Starbucks
+entered neighborhoods without existing cafés, with no significant effect where
+cafés were already present. This adds a place-linked firm outcome and a
+meaningful social-infrastructure counterexample, but not firm survival, jobs,
+wages, customer benefit, housing change, or resident access. The next valid
+test is a tract- or firm-linked route joining startup survival, employment,
+founder and worker outcomes, prices, housing change, and actual use of the
+gathering place. See the [third-place and startup finding](projects/us-local-business-place/findings/us-local-business-place-015.md).
+
+**Racialized neighborhood-entrepreneurship rotation — 2026-09-22:** an NBER
+study using business registrations from 38 states reports a long-standing Black
+neighborhood startup deficit, a sharp reversal in 2020, and relatively elevated
+entrepreneurship through 2024 in neighborhoods with larger prior deficits.
+Neighborhood-oriented activity also remained elevated. This adds a broad place
+pattern beside the Starbucks comparison, but does not prove why the shift
+occurred, firm survival, financing, jobs, resident security, or reduced
+inequality. The next valid test joins tract registrations to firm survival,
+employment, wages, ownership, public support, housing change, and resident
+outcomes. See the [Black-neighborhood startup finding](projects/us-local-business-place/findings/us-local-business-place-016.md).
+
+**Foreign-intervention mobilization rotation — 2026-09-22:** an NBER study
+combining geocoded Iranian protest events and U.S.–Israeli strike exposure
+reports a shift from anti-government toward pro-government and anti-U.S./Israel
+protest after exposure, with little change in total protest activity. This
+adds an attributed foreign-action-to-public-response stage, but repression,
+foreign-agent messaging, civilian cost, causal isolation, durable legitimacy,
+and strategic effect remain open. The next valid test follows the same counties
+through later protest direction, repression, public opinion, civilian impact,
+and external behavior. See the [strategic-sovereignty finding](projects/ai-work-control/findings/ai-work-control-144.md).
+
+**Corruption-perception legitimacy rotation — 2026-09-22:** Gallup reports that
+89% of U.S. adults say corruption is widespread in government, compared with
+71% for business; the concern is shared by 91% of Democrats, 90% of
+independents, and 83% of Republicans. This adds a broadly shared legitimacy
+alarm without proving one explanation or one response. The next valid test is
+a repeated respondent or event-linked route through institutional exposure,
+information, target, blame, oversight or complaint, and later voting,
+organizing, service use, or withdrawal; do not treat perception as verified
+corruption or political action. See the [corruption-perception finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-068.md).
+
+**Workforce-diversity business-perception rotation — 2026-09-22:** Gallup
+reports that 71% of Americans say diverse workforces are more profitable and
+75% say they make more innovative products; 72% call DEI an important business
+priority, but only 34% rate businesses good or excellent at promoting it.
+Perceived business value rose across parties while sizable partisan gaps
+remain. The next valid test is a linked worker-firm route through workforce
+composition, rationale, hiring, promotion, pay, task control, employee
+experience, productivity, and worker voice; do not treat public belief as firm
+performance or workplace equality. See the [workforce-diversity finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-069.md).
+
+**Survey-measurement boundary rotation — 2026-09-22:** Census reports that
+the 2026 CPS ASEC weighted response rate was 61.3%; linked-record benchmarks
+put survey-only income about 2%–4% above alternative estimates since 2020,
+with a 2.8% median gap in 2026, while the survey-only poverty rate was 0.6
+percentage points lower. The next valid test is respondent/nonrespondent
+coverage joined to income, place, program receipt, health, trust, and action;
+do not treat adjusted estimates as perfect truth or discard all year-to-year
+direction. See the [CPS ASEC nonresponse finding](projects/us-census-survey-measurement-bias/findings/us-census-cps-asec-nonresponse-bias-2026-001.md).
+
+**Courage-and-social-risk rotation — 2026-09-22:** a With Honor and Gallup
+survey reports that 67% say courage is weaker than 20 years ago, 79% say
+courage from elected leaders is very important, and 44% are concerned about
+the personal costs of taking a principled stand. This adds a perceived-cost
+stage between values and public action. The next valid test is an event-linked
+route through issue, setting, perceived risk, speech or silence, response or
+retaliation, protection, and persistence; do not treat a perception of decline
+as a behavioral trend. See the [courage finding](projects/us-courage-social-risk/findings/us-gallup-courage-social-risk-2026-001.md).
+
+**AI-exposed graduate entry rotation — 2026-09-22:** a Census CES working paper
+reports that the most AI-exposed decile of college majors saw initial
+employment fall by five percentage points and full-quarter initial earnings
+fall by 13% after ChatGPT became available; about half of the earnings change
+came from lower pay within sectors and the rest from movement toward lower-wage
+sectors. This adds an education-to-first-job conversion boundary. The next
+valid test is a protected graduate-to-work ledger through applications,
+offers, employer, sector, pay, switching, debt, household support, and later
+career progression; do not treat major exposure or an initial earnings shock
+as permanent displacement, lifetime loss, or household insecurity. See the
+[AI-exposed graduate finding](projects/us-ai-exposed-graduates/findings/us-census-ai-exposed-college-graduates-2026-001.md).
+
+**Cross-border firm-network rotation — 2026-09-22:** a Census CES working paper
+links foreign natural disasters to U.S. importers and reports purchase-growth
+declines of up to 25 percentage points, with non-MNC buyers contracting roughly
+twice as much as buyers inside global corporations and a comparable intra-firm
+versus arm's-length gap. This adds an ownership-and-network stage to supply
+shock transmission. The next valid test is a protected firm-product-place
+ledger through alternative suppliers, inventory, production, prices, workers,
+and recovery; do not treat a smaller firm purchase decline as consumer,
+household, or national resilience. See the [cross-border firm-network
+finding](projects/us-cross-border-firm-resilience/findings/us-census-cross-border-disaster-firm-networks-2026-001.md).
+
+**Export-control cost rotation — 2026-09-22:** a Census CES working paper
+reports that the share of U.S. exports subject to controls doubled from 2010 to
+2024. In the 2014 Russia restriction case, affected firms reduced targeted
+exports, exports of other products and destinations, and average payroll. This
+adds a policy-to-domestic-adjustment pathway. The next valid test is a
+protected policy-firm-product ledger through compliance, substitution,
+employment, payroll, foreign response, and security outcome; do not treat
+domestic cost as proof of policy failure or policy success. See the
+[export-control finding](projects/us-export-controls-domestic-cost/findings/us-census-export-controls-domestic-costs-2026-001.md).
+
+**Regional hospital-capacity rotation — 2026-09-22:** a Census CES working
+paper reports declining hospital counts alongside increasing hospital-industry
+employment and more employees per establishment, with important regional and
+rural differences. This adds a place-and-care version of the capacity-versus-
+reach boundary. The next valid test is a protected place-service-patient
+ledger through openings, closures, service lines, staffing, travel, price,
+quality, care, and later outcomes; do not treat sector employment as local
+access or consolidation as uniformly harmful. See the [hospital-capacity
+finding](projects/us-regional-hospital-capacity/findings/us-census-regional-hospital-capacity-2026-001.md).
+
+**Rural-firm innovation rotation — 2026-09-22:** a Census CES working paper
+uses 2018 Annual Business Survey firms and a decomposition of rural/urban
+innovation differences. The official summary attributes most of the gap to
+digital infrastructure, R&D, and human-capital deficits rather than rural
+location itself. This adds a missing-complements mechanism. The next valid
+test is a protected firm-place panel through innovation, broadband, R&D,
+workforce, finance, survival, jobs, and regional outcomes; do not treat a
+decomposition as a causal infrastructure effect or a firm result as community
+prosperity. See the [rural-firm innovation finding](projects/us-rural-firm-innovation/findings/us-census-rural-firm-innovation-endowments-2026-001.md).
+
+**CTC/ACTC participation rotation — 2026-09-22:** Census links the CPS ASEC
+to IRS records and reports 91% taxpayer participation but 85% dollar
+participation for eligible CTC/ACTC taxpayers in tax year 2021. This adds a
+claiming-to-dollar-receipt boundary. The next valid test is a protected
+eligible-taxpayer-to-household ledger through claim, payment timing and
+amount, child expenses, debt, food, housing, and later wellbeing; do not treat
+high participation as adequate or durable household relief. See the [CTC/ACTC
+finding](projects/us-ctc-actc-participation/findings/us-census-ctc-actc-participation-2021-001.md).
+
+**Founder-background hiring rotation — 2026-09-22:** a Census working paper
+links Census and LinkedIn data and reports large similar-background hiring
+patterns at startups, including 36.4 percentage points for female employees at
+female-founded startups, with corresponding estimates for Black, Hispanic, and
+non-college employees. The differences persist at least 20 years and the wage
+decomposition points to demand. The next valid test is a protected
+founder-worker-firm ledger through networks, applications, offers, hiring,
+wages, retention, promotion, and mobility; do not treat similarity as proof of
+discrimination, or composition as proof of worker harm. See the [founder-hiring
+finding](projects/us-entrepreneur-background-hiring/findings/us-census-entrepreneur-background-hiring-homophily-2026-001.md).
+
+**WIC measurement-and-reach rotation — 2026-09-22:** the Census-FNS-ERS Joint
+Project links WIC administrative records to ACS data to estimate eligibility and
+access at state, county, demographic, and socioeconomic levels. Census and
+USDA/FNS estimates differ in methodology and scope. This adds a measurement-
+to-practical-access boundary. The next valid test is a protected
+eligible-person-to-program ledger through outreach, application, approval,
+benefit amount, timing, food security, and maternal/child health; do not treat
+an access estimate as completed protection or pool incompatible denominators.
+See the [WIC finding](projects/us-wic-access-measurement/findings/us-census-wic-access-measurement-2026-001.md).
+
+**Public-pension/private-equity rotation — 2026-09-22:** a Census CES working
+paper reports that more severely underfunded public pensions receive lower
+average private-equity returns, match with smaller general partners, and finance
+firms with labor-productivity decreases. This adds an institutional-finance-to-
+firm pathway. The next valid test is a protected pension-fund-firm-worker ledger
+through mandates, investment, productivity, jobs, pay, hours, survival, pension
+returns, and beneficiary outcomes; do not treat productivity as worker harm or
+an investment pattern as pension insolvency. See the [public-pension finding](projects/us-public-pension-private-equity/findings/us-census-public-pension-private-equity-productivity-2026-001.md).
+
+**Minimum-wage/robot-adoption rotation — 2026-09-22:** a Census CES working
+paper uses state-border comparisons and plant-level robot-import data linked to
+Census microdata from 1992–2021. It reports that a 10% increase in the minimum
+wage raises manufacturing robot adoption by about 8% relative to the mean. This
+adds a policy-to-firm-technology boundary. The next valid test is a protected
+plant-worker ledger through robot installation, tasks, staffing, pay, hours,
+turnover, safety, training, worker voice, prices, productivity, and later
+employment; do not treat automation as job loss or a productivity result as
+worker security. See the [minimum-wage/robot-adoption finding](projects/us-minimum-wage-robot-adoption/findings/us-census-minimum-wage-robot-adoption-2026-001.md).
+
+**Affirmative-action contracting rotation — 2026-09-22:** a Census CES
+working paper reports that ending affirmative action in state contracting was
+followed by gradual downsizing among existing minority- and women-owned firms,
+with the largest force reductions among Black-owned and larger MWBEs. Existing
+firms were not more likely to shut down, but new MWBEs were relatively less
+common. This adds a policy-to-firm-scale and market-entry boundary. The next
+valid test is a protected firm-contract-worker panel through eligibility, bids,
+awards, contract value, employment, pay, survival, other markets, and later
+entry; do not treat firm survival as equal opportunity or the model-implied
+productivity result as direct worker harm. See the [affirmative-action
+contracting finding](projects/us-affirmative-action-contracting-mwbe/findings/us-census-affirmative-action-contracting-mwbe-2026-001.md).
+
+**Female-teacher long-run opportunity rotation — 2026-09-22:** a Census CES
+working paper links historical rural school exposure circa 1940 to later Census,
+IRS, and death records. It reports higher educational attainment for girls
+exposed to female primary-school teachers, followed by delayed marriage and
+childbearing, better-educated husbands, higher household income, and longer
+life; effects were stronger where parents had less education or women had fewer
+labor-market opportunities. This adds an intergenerational culture-and-
+institution pathway. The next valid test is a protected student-school-
+community panel through teacher exposure, school quality, family background,
+education, work, family timing, health, mobility, and civic life; do not treat
+historical representation as a current universal effect or later income as
+proof of autonomy. See the [female-teacher finding](projects/us-female-teachers-lifetime-wellbeing/findings/us-census-female-teachers-female-students-lifetime-2026-001.md).
+
+**Women's-education life-cycle rotation — 2026-09-22:** a Census CES working
+paper uses a school-entry birthdate regression discontinuity and reports that
+women induced into some college had greater employment and earnings, more
+professional and higher-status jobs, more socially meaningful work, and better
+working conditions. Their children also had better early-life health and
+prenatal inputs. This adds a local causal education-to-career-and-child path.
+The next valid test is a protected woman-job-child panel through education,
+occupation, wages, schedules, benefits, work conditions, pregnancy, prenatal
+inputs, child health, care time, and later outcomes; do not treat a local
+schooling effect as a universal college return or job quality as complete
+autonomy. See the [women's-education finding](projects/us-womens-education-career-children/findings/us-census-womens-education-career-children-2026-001.md).
+
+**Minimum-wage career rotation — 2026-09-22:** a Census CES working paper
+merges SIPP panels from 1992–2016 into LEHD records and reports strong later
+earnings growth for minimum-wage workers, driven mostly by young workers;
+older workers show a different modest dip. State minimum-wage increases did not
+significantly alter the future careers of workers who were on the minimum wage
+when increases occurred. This adds an age- and time-horizon counterexample to
+the automation pass. The next valid test is a protected worker-period panel
+through wage, age, education, occupation, hours, benefits, employer, firm exit,
+policy, prices, job changes, household income, and later security; do not treat
+earnings convergence as job quality or a future-career null as no short-run
+policy effect. See the [minimum-wage career finding](projects/us-minimum-wage-worker-careers/findings/us-census-minimum-wage-worker-careers-1992-2016-001.md).
+
+**Local-demand-shock and migration rotation — 2026-09-22:** a Census CES
+working paper harmonizes annual commuting-zone shock measures and finds that
+different shock types have weak correlation and different adjustment patterns.
+Trade-related shocks show little employment or migration response, while more
+general Bartik-style shocks are associated with meaningful changes in both.
+This adds a place-and-measurement boundary. The next valid test is a protected
+commuting-zone household panel through shock definition, industry exposure,
+jobs, wages, commuting, moves, housing, family structure, benefits, local
+services, and later outcomes; do not treat one shock measure as the event or
+little migration as no harm. See the [local-demand-shock finding](projects/us-local-demand-shocks-migration/findings/us-census-local-demand-shocks-employment-migration-2026-001.md).
+
+**Immigrant-student firm-placement rotation — 2026-09-22:** a Census CES
+working paper follows college students from 2000 through 2020 and reports that
+immigrant students sort disproportionately into large firms, especially
+multinationals, or small firms and self-employment. Degree fields predict the
+large-firm route; ethnic specialization helps explain small-firm sorting; those
+who remain in the United States earn more than native peers. This adds an
+identity-to-firm and stay/exit boundary. The next valid test is a protected
+student-to-job panel through origin, degree, geography, visa or work
+authorization, networks, applications, offers, firm size, self-employment,
+earnings, household resources, and later stay or departure; do not treat
+sorting as either blocked opportunity or productive merit. See the
+[immigrant-student finding](projects/us-immigrant-student-firm-placement/findings/us-census-immigrant-student-firm-placement-2001-2020-001.md).
+
+**Multinational services-trade crisis rotation — 2026-09-22:** a Census CES
+working paper compares U.S. multinationals during the 2008–2009 crisis and
+reports higher goods-export growth among firms that also exported services to
+the same destination. The difference was driven by industrial-process
+intellectual-property sales and accompanied by higher foreign-affiliate services
+sales and domestic services employment. This adds a cross-border-capability
+pathway. The next valid test is a protected firm-destination panel through goods
+and services sales, IP, affiliates, customers, prices, employment, wages,
+investment, supply chains, and recovery; do not treat export growth as worker
+security, local benefit, national resilience, or strategic autonomy. See the
+[multinational services-trade finding](projects/us-multinational-services-trade-crisis/findings/us-census-multinational-services-trade-crisis-2008-2009-001.md).
+
+**HOPE VI neighborhood-opportunity rotation — 2026-09-22:** a Census CES
+working paper studies $17 billion in revitalization across 262 distressed
+public-housing developments. It reports lower neighborhood poverty but no
+causal earnings effect for public-housing adults; children raised in revitalized
+units later earned more, attended college more, and were less likely to be
+incarcerated, with increased interaction with surrounding peers as an important
+mechanism. This adds a social-infrastructure pathway. The next valid test is a
+protected family-place panel through redevelopment, unit retention, moves, rent,
+housing quality, services, schools, peers, safety, adult wellbeing, child
+outcomes, and resident voice; do not treat lower poverty as universal resident
+benefit or child gains as complete community recovery. See the [HOPE VI
+finding](projects/us-hope-vi-neighborhood-opportunity/findings/us-census-hope-vi-neighborhood-social-isolation-child-outcomes-2026-001.md).
+
+**House-price/firm-credit rotation — 2026-09-22:** a Census CES working paper
+combines business, housing, and banking data from the Great Recession. It
+reports large and persistent employment effects at small businesses,
+particularly young firms, with entry and exit contributing; reliance on
+personal assets or home equity and local credit shocks were associated with
+greater house-price sensitivity. This adds a housing-to-local-firm-finance
+pathway. The next valid test is a protected firm-owner-bank-place panel through
+house prices, collateral, personal assets, lending, bank balance sheets, entry,
+exit, employment, pay, investment, and later recovery; do not treat firm
+employment effects as worker welfare or housing prices as one mechanism. See the
+[house-price/firm-credit finding](projects/us-house-prices-firm-credit-collateral/findings/us-census-house-prices-firm-performance-credit-collateral-2008-2009-001.md).
+
+**Business-application expectations rotation — 2026-09-22:** a Census CES
+working paper links 17 million U.S. business applications to outcomes. It
+reports that applicants overestimate employment overall because many expect to
+enter but do not; among those who expect and achieve entry, employment is
+typically underestimated. Expectation errors vary with application and local
+conditions and predict near-term employment. This adds an expectation-to-
+capacity boundary. The next valid test is a protected applicant-to-firm panel
+through expectations, financing, permits, location, industry, entry, hiring,
+wages, survival, local conditions, household resources, and later outcomes; do
+not treat applications as firms, entry as durable employment, or expectation
+error as simple irrationality. See the [business-application finding](projects/us-business-application-expectations/findings/us-census-business-application-expectations-realization-2026-001.md).
+
+**Grandparent-care mortality rotation — 2026-09-22:** a Census-SSA working
+paper links adults age 50 and older from the 2000 Census to death records
+through 2019. It reports higher mortality for White coresident grandparents,
+lower mortality for Asian coresident grandparents, higher mortality for Hispanic
+long-term primary caregivers, and lower mortality for Black short-term primary
+caregivers. This adds a race- and duration-specific care boundary. The next
+valid test is a protected grandparent-household panel through care duration,
+coresidence, health, income, housing, childcare, kin support, public benefits,
+work, stress, social connection, and later health; do not treat caregiving as a
+universal burden or benefit, or association as causality. See the
+[grandparent-care finding](projects/us-grandparenting-mortality-heterogeneity/findings/us-census-grandparenting-mortality-race-2000-2019-001.md).
+
+**Trade-welfare/local-labor-market rotation — 2026-09-22:** a Census CES
+working paper develops a first-order welfare measure including unemployment,
+labor-force participation, sector switching, and where workers live, then
+applies it across U.S. commuting zones to China's PNTR shock over 2000–2007.
+This adds a geopolitical trade-to-local-welfare boundary. The next valid test is
+a protected worker-place panel through trade exposure, wages, unemployment,
+participation, applications, sector changes, moves, housing, family constraints,
+amenities, benefits, and later security; do not treat wages, migration, or a
+model-based relative welfare measure as complete wellbeing. See the [trade
+welfare finding](projects/us-trade-welfare-local-labor-markets/findings/us-census-trade-welfare-local-labor-markets-pntr-2000-2007-001.md).
+
+**Counter-China-influence portfolio rotation — 2026-09-22:** GAO reports that
+State and USAID estimated about 470 projects and $1.2 billion in allocations
+from fiscal years 2020–2023, but project-status data were incomplete and the
+agencies had not assessed results across the portfolio. This adds a strategic-
+spending-to-measurable-outcome boundary. The next valid test is a named-project
+ledger through expert input, award, implementation, partner use, local response,
+continuation, and attributed change in policy, behavior, or dependence; do not
+treat funding, project count, or strategic intent as changed influence. See the
+[counter-China-influence finding](projects/us-countering-china-influence/findings/us-gao-countering-china-influence-project-results-2020-2024-001.md).
+
+**Democracy-assistance pivot rotation — 2026-09-22:** GAO reports about $14
+billion in worldwide USAID and State democracy-assistance allocations from
+fiscal years 2018–2023. In four countries facing democratic erosion, agencies
+shifted some support away from host-government entities after reported
+antidemocratic actions, but the 12 reviewed awards had no required pivot plans
+and officials reported confusion and lost momentum. This adds a civic-
+continuity boundary. The next valid test is a named award through host-state
+pressure, pivot decision, recipient safety, implementation, civic use, and
+later institutional or public response; do not treat allocations or a pivot as
+democratic success. See the [democracy-assistance finding](projects/us-democracy-assistance-pivots/findings/us-gao-democracy-assistance-antidemocratic-pivot-2018-2024-001.md).
+
+**Ukraine-assistance oversight rotation — 2026-09-22:** GAO reports that the
+State Department used some MEASURE contract information to oversee and budget
+more than $6.1 billion in supplemental Ukraine assistance, and improved report
+format and timing. Data access, wartime conditions, and different outcome
+timelines still delayed cross-project evaluations and strategic indicators. This
+adds a wartime-learning boundary. The next valid test is a named program through
+funding, delivery, Ukrainian use, operational result, local response,
+maintenance, and attributed institutional or strategic change; do not treat
+oversight scope or better reporting as assistance success. See the [Ukraine
+oversight finding](projects/us-ukraine-assistance-oversight/findings/us-gao-ukraine-assistance-monitoring-evaluation-2023-2026-001.md).
+
+**Economic-place civic-capacity integration — 2026-09-22:** a Census CES
+working paper using more than 990,000 CPS Volunteering Supplement observations
+from 2002–2015 reports lower volunteering in places with greater disadvantage
+and inequality, a recession-related decline, and disappearance of the earlier
+rural volunteering advantage after the Great Recession. This adds a material-
+place condition on civic participation. The next valid test is a repeated
+individual/place record joining resources, organizational access, formal and
+informal help, belonging, political action, and persistence; do not treat
+volunteering as all community life or as a one-person causal result. See the
+[civic-capacity finding](projects/us-economic-place-civic-capacity/findings/us-economic-place-civic-capacity-001.md).
+
+**Carbon-tariff/climate-geopolitics integration — 2026-09-23:** an NBER trade
+model finds that a U.S. carbon tariff alone can raise U.S. emissions while
+lowering foreign emissions and achieve about half the modeled global reduction
+of a tariff plus domestic carbon tax. More tariff-only participants do not
+automatically improve the modeled result. The next valid test is implemented
+policy through trade, emissions, firm adaptation, household prices, partner
+response, and public acceptance; do not treat modeled welfare or emissions
+shifts as observed climate success. See the [carbon-tariff finding](projects/us-carbon-tariff-climate-geopolitics/findings/us-carbon-tariff-climate-geopolitics-001.md).
+
+**Geoeconomic-coercion integration — 2026-09-23:** an NBER theoretical model
+shows why great-power pressure may target foreign governments, private firms,
+or both through trade and financial links. A private target may internalize
+less of the national consequence, while a government may influence firms the
+great power cannot directly reach. The next valid test is a named coercion
+episode through demand, dependence, target, compliance or resistance, firm and
+household cost, coalition response, and strategic result; do not treat a model
+mechanism as an observed success rate. See the [geoeconomic-coercion finding](projects/us-geoeconomic-coercion-targets/findings/us-geoeconomic-coercion-targets-001.md).
+
+**Corporate-PAC/reputational-risk integration — 2026-09-23:** an NBER panel
+finds that firms temporarily reduced visible PAC giving to some Republican
+House candidates after fatal school shootings, with larger reported effects in
+consumer-exposed settings; the effect did not show a shift to Democrats and
+returned toward baseline within about nine months. The next valid test joins
+PACs to lobbying, trade groups, firm communication, consumer response, and
+policy outcomes; do not treat visible divestment as corporate depoliticization
+or durable policy change. See the [corporate-PAC finding](projects/us-corporate-pac-reputational-risk/findings/us-corporate-pac-reputational-risk-001.md).
+
+**Employment-and-mothers political integration — 2026-09-23:** an NBER study
+using policy-induced employment variation among lower-income mothers reports
+lower turnout, registration, political knowledge, and civic engagement, with
+more conservative policy preferences. Effects vary by race, age, family status,
+education, and metropolitan status. The next valid test joins work to time,
+care, workplace conditions, income, social networks, and political outcomes in
+the same compatible unit; do not treat employment as a universal ideological
+cause or lower turnout as automatic apathy. See the [employment-and-mothers finding](projects/us-employment-mothers-voting/findings/us-employment-mothers-voting-001.md).
+
+**Price-to-blame interpretation rotation — 2026-09-23:** an NBER U.S. survey
+with conjoint and information experiments finds that respondents can view
+inflation as broadly harmful while assigning its causes and acceptable remedies
+differently; partisan patterns appear, many respondents understate policy
+trade-offs, and the tested beliefs are hard to move. This adds a public-belief
+layer between material pressure and political judgment. The next valid test is
+a short panel joining actual household prices, cause belief, messenger trust,
+policy trade-off, spending, and political action; do not treat a stated cause
+as proof of the economic cause or a survey preference as a changed vote. See
+the [inflation-beliefs record](records/us-nber-inflation-cause-beliefs-2024.json).
+
+**Public-contact and response rotation — 2026-09-23:** a Census Household
+Panel working paper using approximately 10,000 May 2024 topical respondents
+finds that text invitations appeared to bolster initial response in the hours
+after receipt; about half of panelists consented to text invitations, and text
+access and consent differed across demographic groups. This adds a digital
+contact-to-institutional-response bridge, but does not establish equal burden,
+representative coverage, trust, policy responsiveness, or political action.
+The next valid test is a protected panel joining eligibility, device and
+accessibility, consent, receipt, response timing, completion, retention,
+weighting, downstream data use, and later trust or action. See the [public
+contact finding](projects/us-public-contact-text-strategy/findings/us-census-household-panel-text-consent-response-2024-001.md).
+
+**AI-work-meaning rotation — 2026-09-23:** an NBER theoretical model argues
+that a credible machine alternative can reduce the meaning workers derive from
+their own contribution even when employment continues. Full wage adjustment can
+offset part of the modeled loss, while partial adjustment leaves workers
+bearing more of it; public salience and technical quality operate differently.
+This adds a contribution-and-meaning mechanism before displacement, but it is
+not an observed prevalence or worker-outcome estimate. The next valid test is
+a worker panel joining task-level automation, perceived contribution,
+discretion, voice, compensation, useful output, wellbeing, retention, mobility,
+and later identity or collective action. See the [AI work-meaning finding](projects/us-ai-work-meaning/findings/us-nber-automation-meaning-work-2026-001.md).
+
+**Worker-firm heterogeneity rotation — 2026-09-23:** an NBER model with
+heterogeneous workers and granular firms attributes 78% of the variable
+component of labor-supply elasticities and 89% of markdown differences between
+large and small firms to worker heterogeneity in the model. It also changes the
+modeled interaction between tax progressivity, labor supply, markdowns, and the
+tax base. This adds a sorting-and-power mechanism, not an observed wage,
+employer-conduct, worker-voice, or household-welfare estimate. The next valid
+test is a matched worker-firm panel through outside options, wages, hours,
+amenities, local demand, mobility, voice, taxes, household resources, and exit.
+See the [worker-firm heterogeneity finding](projects/us-labor-market-power-heterogeneity/findings/us-nber-labor-market-power-heterogeneity-2026-001.md).
+
+**Credit-to-consumer-welfare rotation — 2026-09-23:** an NBER randomized
+evaluation in Chile reports that large loans raised treated microenterprise
+profits by $292 per month (13.4%) and customer consumer surplus by $494 per
+month, while more than 125,000 non-treated firms in the same markets showed
+little evidence of business stealing. This adds a firm-credit-to-customer
+surplus bridge and a comparative counterweight to firm-capacity findings that
+do not yet show consumer benefit. It is not a U.S. estimate and does not
+establish worker gains, firm survival, equal access, or durable competition.
+The next valid test is a matched firm-customer-worker panel through credit,
+investment, prices, quality, availability, substitution, surplus, wages,
+hours, survival, and household security. See the [comparative microenterprise
+consumer-welfare finding](projects/comparative-microenterprise-consumer-welfare/findings/comparative-nber-microenterprise-credit-consumer-surplus-2026-001.md).
+
+**Network-remedy design rotation — 2026-09-23:** an NBER graph-theoretic
+analysis of spectrum repacking shows that buying out one station can reduce
+the number of channels required even when relaxing any single interference link
+cannot; the result holds through a class of vertex-critical networks. This
+adds a node-versus-edge remedy concept to infrastructure governance, but it is
+not an observed auction, service, concentration, consumer, or public-interest
+outcome. The next valid test is a named spectrum proceeding joining the
+interference graph, waiver or buyout, compensation, coverage, ownership,
+employment, consumer access, prices, and later service/market effects. See the
+[spectrum network-design finding](projects/comparative-spectrum-repacking-network-design/findings/comparative-nber-spectrum-repacking-network-feasibility-2026-001.md).
+
+**Reserve-currency/fiscal-room rotation — 2026-09-23:** an NBER model and
+summary distinguish observed context—foreign ownership of U.S. public debt
+falling from roughly 45% to roughly 30% over two decades—from a hypothetical
+complete loss of reserve status. In its baseline calibration, that loss implies
+an 8.8% real depreciation, a 0.9-point real-rate increase, domestic absorption
+of about 50% of GDP in dollar bonds, and aggregate wealth loss around one year
+of U.S. GDP. This adds an external-demand-to-state-capacity pathway, not a
+forecast or proof that reserve status has been lost. The next valid test is a
+dated dollar-demand episode through holdings, yields, exchange rates, fiscal
+issuance, import prices, household portfolios, firm financing, policy response,
+
+and external official behavior. See the [reserve-status finding](projects/us-dollar-reserve-status-fiscal-room/findings/us-nber-dollar-reserve-status-erosion-2026-001.md).
+
+**Job-security/mobility rotation — 2026-09-23:** NBER Working Paper 35580's
+representative survey of employed U.S. workers finds an average demand for a
+1.63% pay raise for each additional percentage point of annual unemployment
+risk in a new job. Its search model implies that complete markets would raise
+job mobility by 12% and productivity by 0.19%, while unemployment insurance
+can encourage employed workers to accept riskier, more productive offers while
+also increasing job loss and unemployment. This adds a measured wage-for-
+security trade-off and an insurance-to-mobility mechanism, not a realized
+switching or household-security estimate. The next valid test is a matched
+worker/job-offer panel through risk, pay, benefits, liquidity, UI eligibility,
+applications, acceptance, layoff, mobility, productivity, and later security.
+See the [job-security finding](projects/us-job-security-mobility-incomplete-markets/findings/us-nber-job-security-mobility-incomplete-markets-2026-001.md).
+
+**Migration/earnings/return rotation — 2026-09-23:** NBER Working Paper 35582
+uses longitudinal administrative earnings records to separate immigrants who
+remain in the United States from those who return. Roughly one-fifth to one-third
+of arrival cohorts return within 10 years; return migrants have similar entry
+earnings but slower growth, while permanent immigrants in cohorts arriving since
+the mid-1990s converge or nearly converge with native-born earnings within 10
+years. The NBER summary reports parity timing of about 8 years for men and 19
+years for women. This adds a selective-retention and earnings-convergence layer,
+not a causal assimilation, welfare, belonging, legal-security, or political-action
+result. The next valid test joins arrival, legal/family context, language,
+occupation, wages, benefits, wealth, housing, discrimination, health, social
+ties, stay/return or third-country move, belonging, trust, and later action in a
+protected immigrant or household panel. See the [immigrant earnings/return
+finding](projects/us-immigrant-earnings-return-migration/findings/us-nber-immigrant-earnings-return-migration-2026-001.md).
+
+**Browser-defaults/active-choice rotation — 2026-09-23:** NBER Working Paper
+35112 studies browser usage around the European Union Digital Markets Act
+choice-screen mandate. From month 15 onward, Firefox usage was 91% higher on iOS
+and 13% higher on Android than a no-mandate counterfactual; Safari declined on
+iOS and Chrome on Android, with rollout reaching existing iOS users but mainly
+new Android devices. This adds an observed platform-default-to-user-response
+bridge to the thin platforms/data/attention lane. It does not establish U.S.
+generalization, informed choice, privacy improvement, durable switching, or
+welfare. The next valid test joins choice-screen exposure, device replacement,
+comprehension, accessibility, browser adoption/retention, privacy settings,
+data-sharing outcome, support or complaint route, and later switching or
+non-use. See the [browser-defaults finding](projects/comparative-browser-defaults-active-choice/findings/comparative-nber-browser-defaults-active-choice-2026-001.md).
+
+**Privacy-tracking/fraud rotation — 2026-09-23:** NBER Working Paper 31692,
+revised May 2026, uses Apple's App Tracking Transparency policy as a natural
+experiment. Restricting tracking and sharing reduced consumer fraud complaints,
+with larger effects for personal-information misuse and areas dominated by
+riskier data practices; dark-web discussion declined and sensitive-data prices
+rose. This adds a platform-data-control-to-consumer-harm consequence stage, not
+a universal fraud, reimbursement, account-restoration, trust, or exit result.
+The next valid test joins tracking exposure, data sharing, fraud attempt,
+realized loss, reporting, investigation, reimbursement, account restoration,
+time burden, trust, and switching/non-use in a protected account panel. See the
+[privacy-tracking/fraud finding](projects/us-privacy-tracking-fraud/findings/us-nber-privacy-tracking-fraud-2026-001.md).
+
+**Refund-reachability rotation — 2026-09-23:** the FTC's 2024 Annual Report
+on Refunds to Consumers reports 64.2% of consumers in its first-distribution
+table and 65.7% in programs closed that year had cashed at least one payment.
+It also reports that 2,806 Amazon Flex Zelle reissue payments raised aggregate
+participation from 90.3% to 92.3%. This adds a payment-usability and reissue
+stage after formal remedy, not a recipient-level adequacy, account-correction,
+trust, switching, or recovery result. The next valid test joins eligibility,
+payment channel, cashing, reissue, underlying correction, continued use/work,
+and later household security. See the [FTC refund-funnel finding](projects/us-ftc-refund-cashing-reissue-funnel-2024/findings/us-ftc-refund-cashing-reissue-funnel-2024-001.md).
+
+**Worker-control implementation rotation — 2026-09-23:** BLS reports 5.9
+million wage and salary workers requested or made changes to help do their job
+better in July 2024. Schedule requests were fully granted 70.1%, partially
+granted 21.9%, and not granted 7.5%; separate ORS estimates report pause
+control for 53.5% of workers, self-paced workload for 18.5%, and employer-
+driven schedule variability for 48.3%. This adds request and grant stages plus
+job-level control context, not same-worker adequacy, persistence, pay, health,
+household, or exit. The next valid test links request, decision, actual use,
+schedule/pay, care/health, voice, retention, and exit. See the [BLS worker-
+control finding](projects/us-bls-worker-requested-changes-control-2024-2025/findings/us-bls-worker-requested-changes-control-2024-2025-001.md).
+
+**Property-mobility rotation — 2026-09-23:** NBER Working Paper 35237 reports
+a 25% mortgage-lock-in mobility reduction, disproportionate reduction in moves
+down the housing ladder, and modeled house-price/rent increases relative to a
+no-lock-in counterfactual. This adds a constrained-staying route alongside
+flood-buyout relocation; it does not establish that staying was involuntary or
+that moving would improve security. The next valid test links borrower rate,
+desired move, transaction, replacement housing, repair/insurance, care/work,
+destination, and later security. See the [mortgage-lock-in finding](projects/us-nber-mortgage-lockin-housing-mobility-2022-2024/findings/us-nber-mortgage-lockin-housing-mobility-2022-2024-001.md).
+
+**Disaster-to-political-action rotation — 2026-09-23:** NBER Working Paper
+25835 uses federal disaster declarations from 1989–2014 and reports that
+representatives from hurricane-hit districts became more likely to support
+environmental regulation and control in the following year; the agenda change
+persisted and was associated with a later electoral penalty. This adds a
+district/representative event-to-institution-to-election route, not a same-voter
+household meaning or ballot record. The next valid test links household damage,
+insurance/aid, attribution, representative action, implementation, voter
+awareness, turnout/vote, and recovery. See the [hurricane climate-accountability
+finding](projects/us-nber-hurricane-climate-policy-electoral-accountability-2026/findings/us-nber-hurricane-climate-policy-electoral-accountability-2026-001.md).
+**Chinese antitrust-continuity checkpoint — 2026-09-25:** SAMR's September
+2025 notice initiated further investigation of NVIDIA after a preliminary
+finding, and SAMR's April 2026 review still listed the case. The next valid
+test is a final decision, penalty, remedy, or closure; do not infer completed
+enforcement or causality for H200 restrictions.
+
+**Health-access and financial-protection rotation — 2026-09-26:** WHO and the
+World Bank's 2025 UHC monitoring report reports that the global service
+coverage index rose from 54 in 2000 to 71 in 2023, while 4.6 billion people
+still lacked essential-service coverage. The share facing large or
+impoverishing out-of-pocket health-payment hardship fell from 34% in 2000 to
+26% in 2022, but the remaining burden was estimated at 2.1 billion people.
+This adds a public-system-to-household-consumption route, not respondent-level
+health outcomes, treatment effects, or a claim that coverage caused any
+specific consumer, work, or political behavior. The next valid test joins
+coverage, timeliness, medicines, primary care, financing, out-of-pocket
+exposure, consumption displacement, and later health, work, and household
+security.
+
+**Social-protection architecture rotation — 2026-09-26:** ILO's *Universal
+social protection in changing labour markets* identifies coverage, adequacy,
+and financing gaps affecting temporary, part-time, self-employed, domestic,
+agricultural, micro-enterprise, and complex-employment workers. It connects
+contributions, progressive taxation, subsidies, and international solidarity
+to protection through job, sector, care, health, disability, old-age, climate,
+and technology transitions. This adds an institutional reach-and-resilience
+route, not respondent-level benefit receipt or causal household effects. The
+next valid test joins legal coverage, actual enrollment, adequacy, portability,
+financing, administration, transitions, and later household security.
+
+**Remittance-infrastructure rotation — 2026-09-26:** A World Bank publication
+estimates $856 billion in global remittances in 2024, including $653 billion
+to low- and middle-income countries; average costs remain around 6%, with
+about half of corridors below 5%. It summarizes research associating domestic
+fast-payment systems with a 0.3-to-1 percentage-point reduction in the cost
+of a $200 transfer through competition. This adds a diaspora-to-household,
+payment-infrastructure, and consumption route, not respondent-level migration
+histories or causal welfare effects. The next valid test joins sending,
+receipt, fees, exchange rates, speed, digital access, spending, saving,
+enterprise, housing, and later household security.
+
+**Healthy-diet affordability rotation — 2026-09-26:** FAO's SOFI 2026 release
+estimates 645 million people faced hunger in 2025 and about 2.7 billion could
+not afford a healthy diet. FAO reports a healthy-diet cost of $4.28 per person
+per day in 2021 PPP, about 25% higher than five years earlier, and identifies
+storage, processing, transport, energy, retail, cold chains, food loss, trade,
+and market structure as cost routes. This adds a food-system-to-consumption
+channel, not individual diet histories or causal health effects. The next valid
+test joins food prices, income, non-food costs, cultural fit, logistics, trade,
+climate, conflict, subsidies, and later nutrition or household adaptation.
+
+**National-meaning and public-service legitimacy rotation — 2026-09-26:** Pew's
+2025 Global Attitudes Survey asked 33,486 adults in 25 countries what makes
+them proud of their country. U.S. respondents most often cited freedom (22%),
+while 20% said they were not proud; 53% of Swedes cited how their country is
+governed, and in Spain government pride was 24% among democracy-satisfied
+respondents versus 5% among dissatisfied respondents. This adds a cultural
+meaning-to-institution route, not individual identity prediction or causal
+service-to-pride evidence. The next valid test joins cultural pride, public
+service experience, prices/wages, political performance, immigration,
+international standing, ideology, age, and reform behavior.
+**Agricultural trade-shock rotation — 2026-09-26:** FAO's SOCO 2026 reports
+that food and agricultural trade grew fivefold from 2000 to 2024 and examines
+how conflict, extreme weather, pandemics, macroeconomic and financial shocks
+propagate through trade networks. Background analysis identifies import-source
+concentration, trade connectivity, market structure, and policy environments
+as determinants of domestic price transmission; export restrictions,
+import-promotion, agreements, stabilization, and reserves can alter the path.
+This adds an upstream geopolitical-supply route, not a country-specific price
+forecast or household causal estimate. The next valid test joins trade links,
+commodity substitution, logistics, energy/fertilizer, prices, policy response,
+and later food security or household adaptation.
+
+**Forced-displacement and return rotation — 2026-09-26:** UNHCR Global Trends
+2025 counts about 117.8 million forcibly displaced people at end-2025,
+including 41.6 million refugees, 9 million asylum-seekers, and 68.7 million
+conflict IDPs. UNHCR reports 14.7 million returns during 2025; 68% of refugees
+were hosted in low- and middle-income countries and 65% in neighboring
+countries. This adds a displacement-to-host-capacity-to-reintegration route,
+not individual movement histories or proof of voluntary, safe, durable return.
+The next valid test joins origin shocks, route governance, legal status,
+services, housing, work, education, health, host politics, return conditions,
+and re-displacement.
+
+**Digital-dependence and cyber-resilience rotation — 2026-09-26:** WEF's Global
+Cybersecurity Outlook 2026 reports that 87% of surveyed leaders see AI-related
+vulnerabilities as the fastest-growing cyber risk; predeployment AI-security
+assessment rose from 37% to 64%, and geopolitics influenced strategy for 66%.
+Only 19% say resilience exceeds requirements, while 54% cite skills and
+knowledge as an obstacle. This adds an AI-to-supply-chain-to-public-service
+continuity route, not incident-level or respondent-harm evidence. The next
+valid test joins AI use, controls, skills, supplier/cloud dependence, outages,
+fraud, public services, consumer trust, and recovery.
+
+**Digital-social wellbeing rotation — 2026-09-26:** A distinct World Happiness
+Report 2026 Chapter 8 analysis uses four European Social Survey rounds across
+30 countries (2016–2024) and regional internet speed as an instrument. It
+reports the strongest negative internet-wellbeing gradient for Gen Z, sharpest
+declines in trust and social activity among younger Europeans, and moderation
+by peer-group social-media saturation. Political posting is associated with
+lower wellbeing, but is not causal evidence. This adds a trust-and-offline-
+connection route rather than duplicating the existing platform-exit record.
+The next valid test joins platform type, exposure, peer saturation, trust,
+offline meetings, safety, political expression, age, gender, and wellbeing.
+
+**International-mobility and pathway-governance rotation — 2026-09-26:** IOM's
+World Migration Report 2026 estimates about 304 million international migrants
+at mid-2024 and more than 83 million people in internal displacement at the
+end of 2024. It finds regular pathways increasingly selective and unequal,
+with restrictive policies able to shift mobility into riskier routes; its
+climate-mobility chapter emphasizes local, disaggregated adaptation and
+community action. This complements UNHCR's forced-displacement totals with a
+broader mobility-governance route, not individual motive or route histories.
+The next valid test joins legal pathways, climate exposure, local adaptation,
+status, labour demand, remittances, services, and re-displacement.
+
+**Water-security and gendered-time rotation — 2026-09-26:** UN-Water's World
+Water Development Report 2026 reports 2.1 billion people lacking safely
+managed drinking water and an estimated 250 million hours per day spent by
+women and girls collecting water; women are responsible in more than 80% of
+rural households without direct access. Fewer than 20% of formal water-utility
+workers are women. This adds an infrastructure-to-time-to-governance route,
+not individual time-use or causal health evidence. The next valid test joins
+water access, collection, sanitation, safety, climate shocks, education, work,
+utility capacity, decision power, and household adaptation.

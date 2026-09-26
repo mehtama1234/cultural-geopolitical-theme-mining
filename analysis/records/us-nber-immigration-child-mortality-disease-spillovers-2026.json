@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-immigration-child-mortality-disease-spillovers-2026",
+  "title": "Historical immigration exposure altered local child mortality through disease-environment spillovers",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35743 using Massachusetts town-level mortality and immigration panel data, 1860-1915",
+  "geography": "Massachusetts towns during the U.S. Age of Mass Migration, 1860-1915; historical place-level evidence rather than a contemporary national estimate",
+  "observations": [
+    {
+      "period": "1860-1915 Massachusetts town panel; paper issued September 14, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Massachusetts towns and births in the historical vital-registration panel; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "immigration_exposure": {
+          "value": "increases in the foreign-born share",
+          "unit": "town-level immigration exposure measure",
+          "value_type": "reported_exposure"
+        },
+        "infant_mortality": {
+          "value": "significantly higher",
+          "unit": "town-level infant mortality response to increased foreign-born share",
+          "value_type": "estimated_effect"
+        },
+        "child_mortality": {
+          "value": "significantly higher",
+          "unit": "town-level child mortality response to increased foreign-born share",
+          "value_type": "estimated_effect"
+        },
+        "post_neonatal_concentration": {
+          "value": "infant effect falls disproportionately on the post-neonatal period",
+          "unit": "mortality-timing pattern",
+          "value_type": "estimated_subgroup_effect"
+        },
+        "birth_composition_share": {
+          "value": "mechanical changes in parent nativity account for only a portion of the estimated effect",
+          "unit": "composition-versus-environment decomposition",
+          "value_type": "reported_decomposition"
+        },
+        "native_born_spillover": {
+          "value": "evidence consistent with spillovers to children of native-born parents through increased exposure to communicable disease",
+          "unit": "place-level public-health spillover interpretation",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "New Massachusetts town-level panel data from 1860-1915 with early vital registration, using a shift-share instrumental-variable strategy based on historical settlement patterns to estimate the effect of local immigration exposure on infant and child mortality.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the exact town, birth, or mortality denominator. The historical disease environment, housing, sanitation, health systems, and migration flows differ from contemporary U.S. conditions. The estimated place effect is not an individual immigrant-risk estimate or a claim about all immigration episodes.",
+      "subgroup": "Massachusetts towns, infant and child mortality, post-neonatal mortality, births by parent nativity, immigrant-exposed places, and children of native-born parents; place and period composition matter.",
+      "counterinterpretation": "Immigration exposure may correlate with crowding, industrialization, poverty, sanitation, housing, labor-market change, or public-health capacity. The shift-share design strengthens identification under its assumptions but does not establish one pathogen, household behavior, or policy mechanism; the native-born spillover remains an environmental interpretation.",
+      "source_url": "https://www.nber.org/papers/w35743",
+      "retrieval_hash": "sha256:52aebc1b3036a7bdc4253bae8c5dc85879acc64131d932c8b8587a0874bbbb98",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35743",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a historical Massachusetts place-exposure and child-mortality mechanism during 1860-1915. It does not establish contemporary immigration effects, individual immigrant mortality, a universal disease pathway, present-day public opinion, or current policy consequences."
+}

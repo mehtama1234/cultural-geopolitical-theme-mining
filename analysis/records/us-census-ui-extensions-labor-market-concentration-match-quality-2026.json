@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ui-extensions-labor-market-concentration-match-quality-2026",
+  "title": "Unemployment benefits can extend the job search without equally improving jobs in concentrated labor markets",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-24 using matched employer-employee LEHD data and quasi-random UI-duration assignment during the Great Recession",
+  "geography": "United States; local labor markets, workers, employers, and Great Recession unemployment-insurance duration rules",
+  "observations": [{
+    "period": "Great Recession UI-extension period; paper published April 2026",
+    "denominator": {"value": 1, "unit": "matched employer-employee quasi-experimental study", "value_type": "study_unit"},
+    "measures": {
+      "nonemployment_duration": {"value": "UI extensions lengthened nonemployment by about one week", "unit": "weeks", "value_type": "reported_estimate"},
+      "earnings": {"value": "extensions produced economically meaningful but statistically nonsignificant earnings increases overall", "unit": "post-unemployment earnings relationship", "value_type": "reported_relationship"},
+      "concentration_gradient": {"value": "the positive UI-earnings effect was significantly lower in more concentrated local labor markets", "unit": "market-concentration interaction", "value_type": "reported_relationship"},
+      "duration_gradient": {"value": "local concentration did not change the UI effect on nonemployment duration", "unit": "market-concentration interaction", "value_type": "reported_relationship"},
+      "interpretation": {"value": "improvements in job matches from extra search time were attenuated where employer market power was higher", "unit": "study interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The author uses measurement error in state unemployment rates as quasi-random assignment of UI durations and estimates effects with matched employer-employee data from the Longitudinal Employer-Household Dynamics program.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The abstract reports the average and concentration interaction but does not establish the exact household budget, job-quality, bargaining, health, or long-run mobility consequences for each worker.",
+    "subgroup": "Workers exposed to different local labor-market concentration levels during the Great Recession; effects may differ by industry, occupation, age, race, gender, prior earnings, family resources, and benefit eligibility.",
+    "counterinterpretation": "Concentration may proxy for industry mix, place, worker composition, or other labor-market conditions rather than employer power alone. Longer nonemployment can reflect better search, weaker demand, benefit rules, health, care, or selection; earnings are not the same as job quality or household security.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-24.html",
+    "retrieval_hash": "sha256:b0c4235737f9f9768b094efe28b7471c8b4c25743d298ba2052704be08c06c1d",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-24.pdf", "claim": "The official paper provides the LEHD design, UI-duration assignment, concentration measures, earnings results, and match-quality interpretation.", "status": "official-paper-context"}],
+  "boundary": "This record adds a safety-net-to-search-to-job-match pathway conditioned by local employer concentration. It does not establish a universal employer-monopsony effect, household welfare, job quality, bargaining power, or later political or cultural action.",
+  "retrieval_hash": "sha256:b0c4235737f9f9768b094efe28b7471c8b4c25743d298ba2052704be08c06c1d"
+}

@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-navy-robotic-autonomous-systems-organizational-capacity-2026",
+  "title": "A military can recognize an urgent technology shift while its organization still slows delivery",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "infrastructure_technology_dependency", "public_systems_feedback", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "GAO-26-109014, Robotic Autonomous Systems: Navy Needs to Address Leadership and Organizational Challenges to Meet Urgent Needs",
+  "geography": "United States Navy; robotic and autonomous systems across air, surface, and undersea domains; public summary of a March 2025 classified review released June 2026",
+  "observations": [
+    {
+      "period": "Navy RAS development over several decades; GAO work January 2023–March 2025; public release June 2026",
+      "denominator": {"value": 200, "unit": "more than 200 DOD and Navy officials interviewed about RAS efforts", "value_type": "interview_sample_descriptor"},
+      "measures": {
+        "technology_need": {"value": "Navy strategic documents describe a hybrid fleet with distributed RAS as necessary to adapt to changing naval warfare", "unit": "strategic intent", "value_type": "reported_plan"},
+        "investment": {"value": "billions of dollars planned for RAS enabling technologies", "unit": "research and development intent", "value_type": "reported_plan"},
+        "organizational_barrier": {"value": "inconsistent senior leadership and shifting priorities impeded portfolio organization and efficient investment", "unit": "reported institutional condition", "value_type": "reported_finding"},
+        "acquisition_model": {"value": "domain- and platform-centric requirements, resourcing, and acquisition remained poorly suited to multi-domain RAS", "unit": "reported process condition", "value_type": "reported_finding"},
+        "iterative_shift": {"value": "the 2021 Unmanned Campaign Framework called for capability-centric and iterative development, but the Navy had not implemented the shift as of March 2025", "unit": "implementation status", "value_type": "reported_gap"},
+        "recommendations": {"value": "three open executive recommendations plus one open matter for congressional consideration", "unit": "governance actions", "value_type": "reported_status"}
+      },
+      "method": "GAO reviewed Navy strategic plans and guidance, analyzed requirements, resourcing, and acquisition approaches, visited warfare centers and squadrons developing or testing RAS, and interviewed more than 200 officials. The public summary omits classified strategic and technology details.",
+      "uncertainty": "The public document is a declassified snapshot of a classified report and omits operational, technical, and strategic details. It does not report fielded RAS quantities, readiness, mission performance, reliability, survivability, cost, or an external adversary response. Strategic documents describe intent; they do not prove delivered capability or deterrence.",
+      "subgroup": "Navy leadership, acquisition and requirements organizations, warfare centers, squadrons, and officials working on air, surface, and undersea RAS; traditional ships, submarines, and aircraft programs are the competing resource context.",
+      "counterinterpretation": "A platform-centric process can preserve accountability and mature established systems, and iterative development can introduce safety, testing, or integration risks. Leadership turnover and siloing may not be the only causes of delay; technical immaturity, funding tradeoffs, security constraints, and operational requirements may also matter. A commercial development speed comparison does not prove military systems can move at the same pace.",
+      "source_url": "https://www.gao.gov/products/gao-26-109014",
+      "retrieval_hash": "sha256:c6302cb70a2e02953e427da53f13ba8b1d576da91e3c58e681e2c566844bb117",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/assets/gao-26-109014.pdf", "claim": "Official GAO public snapshot provides the method, organizational findings, recommendations, and classification boundary.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a capability-realization and geopolitical-organization layer: strategic urgency and planned investment can coexist with leadership turnover, siloed acquisition, and missing portfolio control. It does not establish fielded RAS capability, battlefield effectiveness, deterrence, alliance effect, or adversary behavior.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GAO landing page and public PDF; the underlying classified report and technical program data are not retained.", "pdf_sha256": "sha256:c6302cb70a2e02953e427da53f13ba8b1d576da91e3c58e681e2c566844bb117", "checked": "2026-09-23"}
+}

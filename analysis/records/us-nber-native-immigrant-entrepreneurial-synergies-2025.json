@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-native-immigrant-entrepreneurial-synergies-2025",
+  "title": "Mixed native-immigrant founding teams show a firm-level complementarity in U.S. startup outcomes",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 33804 using linked U.S. startup, founder, employee, education, employment, funding, and exit records",
+  "geography": "United States; startups and founders observed through linked administrative and commercial records",
+  "observations": [
+    {
+      "period": "Startup founding and outcomes three years after founding; paper issued May 2025",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. startups with linked founder, employee, education, employment, funding, and exit histories; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "team_outperformance": {
+          "value": "native-immigrant founding teams outperform native-only and immigrant-only teams",
+          "unit": "comparative startup performance pattern",
+          "value_type": "reported_comparison"
+        },
+        "employment_three_years": {
+          "value": "larger",
+          "unit": "startup employment three years after founding relative to native-only and immigrant-only teams",
+          "value_type": "reported_comparison"
+        },
+        "funding_access": {
+          "value": "more likely to secure funding and access larger funding rounds",
+          "unit": "startup financing outcome relative to comparison founding teams",
+          "value_type": "reported_comparison"
+        },
+        "exit_success": {
+          "value": "more successful exits",
+          "unit": "startup exit outcome relative to comparison founding teams",
+          "value_type": "reported_comparison"
+        },
+        "proposed_mechanisms": {
+          "value": "diverse labor pools, access to successful venture capitalists, and expanded product markets",
+          "unit": "mechanisms associated with native-immigrant team outperformance",
+          "value_type": "reported_interpretation"
+        },
+        "instrumental_variables_check": {
+          "value": "native-immigrant teams remain larger and more likely to receive funding",
+          "unit": "instrumental-variables robustness pattern using native shares in university-degree programs",
+          "value_type": "reported_robustness_result"
+        }
+      },
+      "method": "Linked startup records to founders' and employees' employment and education histories, compared native-only, immigrant-only, and mixed native-immigrant founding teams, and used an instrumental-variables strategy based on native shares in university-degree programs.",
+      "uncertainty": "The NBER paper is a working paper. The abstract does not disclose the exact linked sample denominator or every outcome definition. Team composition is not the same as immigrant status alone, and the evidence does not establish that every mixed team benefits, that the proposed mechanisms are individually identified, or that gains reach workers, consumers, or local communities.",
+      "subgroup": "Native-only, immigrant-only, and mixed native-immigrant founding teams; startup outcomes vary by sector, founder background, labor market, product market, financing network, and place.",
+      "counterinterpretation": "Mixed teams may differ in unobserved founder selection, education, networks, sector choice, legal or capital access, or willingness to seek funding. The instrumental-variables design strengthens the comparison but does not by itself establish equal causal contributions from labor-pool diversity, venture-capital access, or product-market expansion.",
+      "source_url": "https://www.nber.org/papers/w33804",
+      "retrieval_hash": "sha256:d6d30a1b87e4479e4891fbfa90b4d54ab8729a4a9a79b4aec6d295cbff37f1fb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w33804",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record measures a bounded firm-level complementarity between native and immigrant founders in U.S. startups. It does not establish a universal immigrant entrepreneurship effect, worker bargaining power, wage gains, consumer welfare, community spillovers, or a complete causal account of the mechanisms behind the observed startup outcomes."
+}

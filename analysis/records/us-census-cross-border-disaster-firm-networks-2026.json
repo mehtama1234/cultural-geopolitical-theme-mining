@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-cross-border-disaster-firm-networks-2026",
+  "title": "Multinational firm networks can soften how foreign disasters reach U.S. importers",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper linking U.S. Bill of Lading data, geocoded natural-disaster records, and cross-border ownership data",
+  "geography": "Foreign supplier disasters and downstream U.S. importing firms",
+  "observations": [
+    {
+      "period": "Foreign natural disasters and subsequent U.S. importer purchases; paper published August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. importer-supplier relationships and firm-network comparison groups; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "supplier_exports": {
+          "value": "sharp and persistent declines at disaster-affected foreign suppliers",
+          "unit": "reported supplier-export response",
+          "value_type": "reported_effect"
+        },
+        "us_importer_purchases": {
+          "value": "growth in U.S. importers' total purchases fell by up to 25 percentage points",
+          "unit": "percentage-point change in reported purchase-growth response",
+          "value_type": "reported_effect"
+        },
+        "multinational_buffer": {
+          "value": "non-MNC buyers contracted roughly twice as much as buyers belonging to global corporations",
+          "unit": "reported comparison of downstream contraction",
+          "value_type": "reported_relative_effect"
+        },
+        "internal_trade_buffer": {
+          "value": "the arm's-length versus intra-firm comparison shows a comparable gap in shock transmission",
+          "unit": "reported comparison by ownership relationship",
+          "value_type": "reported_relative_effect"
+        }
+      },
+      "method": "Census CES working paper linking U.S. Bill of Lading microdata, geocoded natural-disaster records, and cross-border ownership data. The study uses quasi-random disaster timing and location in a staggered event-study design to compare foreign-supplier shocks and downstream U.S. importer responses.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not disclose all sample construction, exposure definitions, estimated horizons, or sector details. Purchase growth is a firm-trade outcome, not a direct measure of consumer prices, inventories, employment, production, or household welfare.",
+      "subgroup": "U.S. importers grouped by multinational ownership and by intra-firm versus arm's-length supplier relationship.",
+      "counterinterpretation": "Multinational or intra-firm buffering may reflect selection into stronger firms, product mix, geography, financing, inventory, alternative suppliers, or unmeasured network features rather than ownership alone. A smaller purchase decline can also reflect diversion, substitution, or delayed disruption rather than full resilience.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-55.html",
+      "retrieval_hash": "sha256:3a0bb16a49d24e23a8981850395e8f911fd5152b206f517bda8780c6a3f1d845",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/library/working-papers/series/ces-wp.2020.html/page/0.html",
+      "claim": "The Census CES catalog lists the study as Working Paper CES-26-55 and identifies its firm-network shock-transmission focus.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a firm-network pathway from foreign natural disasters to U.S. import purchases. It does not establish national supply security, consumer-price protection, employment effects, household resilience, public legitimacy, or geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official CES catalog reviewed; underlying restricted trade, disaster, and ownership data are not retained",
+    "checked": "2026-09-22"
+  }
+}

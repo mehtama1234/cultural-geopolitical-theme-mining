@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-circle-youth-financial-strain-political-engagement-2026",
+  "title": "Young people's financial strain is linked to lower perceived political efficacy and voting readiness",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "political_judgment_action", "trust_identity_meaning", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "CIRCLE and When We All Vote pre-election survey of US adults ages 18-29, fielded January-February 2026",
+  "geography": "United States; Gen Z adults ages 18-29, with Black and Latino oversamples",
+  "observations": [
+    {
+      "period": "January 26-February 12, 2026; national pre-election survey",
+      "denominator": {"value": 5549, "unit": "US adults ages 18-29 surveyed", "value_type": "survey_sample"},
+      "measures": {
+        "sometimes_or_often_trouble_basic_needs": {"value": 60, "unit": "percent", "value_type": "reported_share"},
+        "struggle_young_women": {"value": 62, "unit": "percent", "value_type": "reported_share"},
+        "struggle_young_men": {"value": 54, "unit": "percent", "value_type": "reported_share"},
+        "struggle_black_youth": {"value": 70, "unit": "percent", "value_type": "reported_share"},
+        "struggle_latino_youth": {"value": 68, "unit": "percent", "value_type": "reported_share"},
+        "struggle_white_youth": {"value": 53, "unit": "percent", "value_type": "reported_share"},
+        "struggle_asian_youth": {"value": 42, "unit": "percent", "value_type": "reported_share"},
+        "struggle_no_vote_2024": {"value": "more likely than 2024 voters to report financial struggle", "unit": "comparative survey relationship", "value_type": "reported_comparison"},
+        "struggling_who_say_vote_does_not_matter": {"value": 64, "unit": "percent among youth who say their vote does not matter", "value_type": "reported_share"},
+        "stable_who_say_vote_does_not_matter": {"value": 53, "unit": "percent among financially stable youth", "value_type": "reported_share"},
+        "housing_utilities_top_economic_concern": {"value": 66, "unit": "percent", "value_type": "reported_share"},
+        "groceries_everyday_items_concern": {"value": 62, "unit": "percent", "value_type": "reported_share"},
+        "financially_stable_life_satisfied": {"value": 88, "unit": "percent", "value_type": "reported_share"},
+        "financially_struggling_life_satisfied": {"value": 57, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "CIRCLE/When We All Vote survey of Gen Z adults; financial struggle, life satisfaction, perceived efficacy, prior voting, and stated 2026 voting readiness are retained as separate descriptive surfaces.",
+      "uncertainty": "This is a cross-sectional pre-election survey with reported methodology limitations noted by the source. It does not establish that financial struggle caused nonvoting, does not observe the eventual 2026 vote, and does not identify the specific mechanism among time, information, health, resources, belonging, or distrust.",
+      "subgroup": "US adults ages 18-29; Black and Latino oversamples and subgroup comparisons by gender, race/ethnicity, education, political affiliation, financial condition, and prior voting.",
+      "counterinterpretation": "Financially struggling youth may disengage because of low efficacy, but economic issues may also motivate participation when young people believe leaders can improve everyday costs; the same hardship can produce withdrawal or mobilization.",
+      "source_url": "https://circle.tufts.edu/latest-research/young-peoples-finances-and-overall-well-being-are-key-to-their-political-engagement",
+      "retrieval_hash": "sha256:4fc7bbae189610dd49c8c757d8914d85284f5ae47c23165df67e4cf2a4ac1a74",
+      "status": "reported"
+    },
+    {
+      "period": "January 26-February 12, 2026; economic concern and conditional participation findings",
+      "denominator": {
+        "value": 5549,
+        "unit": "US adults ages 18-29 surveyed",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "housing_utilities_concern": {"value": 66, "unit": "percent naming housing and utilities as an economic concern", "value_type": "reported_share"},
+        "groceries_everyday_concern": {"value": 62, "unit": "percent naming groceries and everyday items as an economic concern", "value_type": "reported_share"},
+        "healthcare_concern": {"value": 50, "unit": "percent naming health-care cost as an economic concern", "value_type": "reported_share"},
+        "wage_concern": {"value": 47, "unit": "percent naming insufficient wages as an economic concern", "value_type": "reported_share"},
+        "conditional_participation": {"value": "struggling youth were more likely to say they would participate if their voice and vote mattered, communities changed, and candidates followed through", "unit": "reported conditional participation pattern", "value_type": "reported_comparison"},
+        "financial_strain_meaning": {"value": "withdrawal and mobilization can coexist", "unit": "interpretive boundary from the survey's efficacy and motivation findings", "value_type": "bounded_interpretation"}
+      },
+      "method": "Follow-up of the official CIRCLE/When We All Vote survey brief, retaining economic concerns, perceived efficacy, stated participation conditions, and reported well-being as separate descriptive surfaces.",
+      "uncertainty": "The cross-sectional survey does not establish whether a specific economic issue caused participation, whether candidates followed through, whether respondents voted in November, or whether a material improvement changed later trust or action.",
+      "subgroup": "US adults ages 18-29, including Black and Latino oversamples and differences by financial condition, race/ethnicity, gender, education, and political affiliation.",
+      "counterinterpretation": "Economic issues may motivate civic participation when people see a credible route to change; the same concern may demobilize when institutions appear unable or unwilling to deliver.",
+      "source_url": "https://circle.tufts.edu/latest-research/young-peoples-finances-and-overall-well-being-are-key-their-political-engagement",
+      "retrieval_hash": "sha256:f72dff0ba0a8a313262924fe4858d70bc7e858a9f999a01cbb518c238c5407a9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a youth material-pressure-to-political-efficacy and stated-voting-readiness bridge. It does not establish a causal effect, final 2026 turnout, vote choice, durable participation, policy attribution, or a same-person path from a dated bill or hardship episode to action.",
+  "retrieval_hash": "sha256:4fc7bbae189610dd49c8c757d8914d85284f5ae47c23165df67e4cf2a4ac1a74"
+}

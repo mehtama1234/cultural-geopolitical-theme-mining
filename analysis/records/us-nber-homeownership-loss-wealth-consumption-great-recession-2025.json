@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-homeownership-loss-wealth-consumption-great-recession-2025",
+  "title": "Preserving homeownership after mortgage distress raised housing wealth without raising consumption",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 33692; mortgage-modification comparison linked to long-run housing wealth and consumption outcomes",
+  "geography": "United States; homeowners seriously delinquent during the Great Recession and mortgage-modification eligibility",
+  "observations": [{
+    "period": "Great Recession mortgage distress with long-run follow-up; paper issued April 2025 and revised August 2026",
+    "denominator": {"value": 1, "unit": "quasi-experimental mortgage-modification study", "value_type": "study_unit"},
+    "measures": {
+      "home_retention": {"value": "homeowners receiving a mortgage modification were 36 percentage points more likely to retain their homes than comparable distressed homeowners", "unit": "home-retention difference", "value_type": "reported_estimate"},
+      "persistence": {"value": "more than half of the home-retention disparity persisted nearly a decade later", "unit": "long-run retention comparison", "value_type": "reported_trend"},
+      "housing_wealth": {"value": "the retention difference translated into approximately $70,000 in additional housing wealth", "unit": "long-run housing wealth difference", "value_type": "reported_estimate"},
+      "consumption": {"value": "the housing-wealth gain did not translate into higher consumption, partly because tighter credit constraints limited borrowing against home equity", "unit": "long-run consumption comparison", "value_type": "reported_comparison"}
+    },
+    "method": "The authors compare seriously delinquent homeowners who were nearly identical in pre-trends but differed in whether they received a mortgage modification, then follow home retention, housing wealth, and consumption for nearly a decade.",
+    "uncertainty": "This is a working paper revised in 2026. The design concerns a specific Great Recession distress and modification setting; homeownership, housing wealth, and consumption do not capture all housing quality, debt, health, neighborhood, security, or identity outcomes.",
+    "subgroup": "U.S. homeowners seriously delinquent during the Great Recession and comparison groups differentiated by mortgage modification; credit constraints, property, income, place, and household composition vary.",
+    "counterinterpretation": "Modification receipt may involve lender, servicer, or borrower selection not fully removed by the comparison; the paper's near-identical pre-trends do not make all later outcomes interchangeable. Housing wealth can provide future security, bequest, or residence value even when current consumption does not rise.",
+    "source_url": "https://www.nber.org/papers/w33692",
+    "retrieval_hash": "sha256:2511f1e1289d0c220c260aec7878d53b9425c25ec826b58e868c6e96ed365a31",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w33692", "claim": "NBER DOI record for Working Paper 33692", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a housing-wealth conversion counterexample: preserving an asset can raise measured wealth without raising current consumption. It does not establish that homeownership has no security value, that every modification has the same effect, or that consumption is the complete household-welfare outcome."
+}

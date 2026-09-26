@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-inflation-cause-beliefs-2024",
+  "title": "People can agree inflation is harmful while disagreeing about its cause and remedy",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "NBER Working Paper 32497; U.S. online survey with a conjoint experiment and an information experiment about perceived inflation causes, consequences, trade-offs, and policy responses",
+  "geography": "United States; survey conducted March–May 2024 using the Lucid online platform, with a sample constructed to mirror the U.S. population in 2022",
+  "observations": [{
+    "period": "U.S. public beliefs about inflation; survey conducted March–May 2024, paper revised June 2024",
+    "denominator": {"value": 1, "unit": "study-defined U.S. survey sample", "value_type": "study_unit"},
+    "measures": {
+      "perceived_causes": {"value": "respondents named government actions, production-cost increases, supply-chain disruption, oil-price changes, firms, labor-market changes, and Federal Reserve action among possible causes", "unit": "ranked perceived causes", "value_type": "reported_pattern"},
+      "partisan_pattern": {"value": "Republicans were more likely to attribute inflation to government policies, while Democrats more often anticipated inequality effects", "unit": "partisan survey comparison", "value_type": "reported_comparison"},
+      "household_decision_burden": {"value": "the most noted negative consequence was greater complexity and difficulty in household decision-making", "unit": "reported perceived consequence", "value_type": "reported_pattern"},
+      "tradeoff_belief": {"value": "many respondents believed inflation could be managed without substantial trade-offs such as lower economic activity or higher unemployment", "unit": "perceived policy trade-off", "value_type": "reported_pattern"},
+      "information_response": {"value": "the relevant beliefs were hard to move experimentally, and respondents resisted monetary tightening while favoring some policies for their other perceived benefits", "unit": "information and conjoint experiment result", "value_type": "reported_experimental_result"}
+    },
+    "method": "The paper uses a detailed U.S. online survey with a conjoint experiment and an information experiment to measure perceived causes, consequences, trade-offs, and policy preferences. It compares beliefs across partisan groups and tests whether information changes them.",
+    "uncertainty": "The study does not measure each respondent's actual price basket, income, debt, rent, or exposure; it is not a panel following the same household through later bills or political action. It does not establish that a perceived cause is the economic cause, that information changes durable beliefs, or that beliefs change spending, policy implementation, turnout, or vote choice.",
+    "subgroup": "U.S. adults in the study-defined online sample; partisan differences are reported, but the source does not provide a complete household-level account of income, race, age, place, debt, or actual price exposure as mechanisms.",
+    "counterinterpretation": "A respondent's cause ranking may express a broader judgment about a party or institution rather than a tested economic explanation. Support for a policy that has another perceived benefit does not prove the respondent misunderstood inflation, and disagreement about causes does not imply disagreement about the hardship of higher prices.",
+    "source_url": "https://www.nber.org/papers/w32497",
+    "retrieval_hash": "sha256:89aa967e8610f1384f26c8c43109b1b887dd430c1a78f4a17f8c5f7cc6225ec3",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w32497", "claim": "NBER DOI record for Working Paper 32497", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a public-belief layer between material price pressure and political judgment: people can share a negative assessment of inflation while assigning responsibility and acceptable remedies differently. It does not establish a household-to-ballot path, actual price burden, durable belief change, or which policy would improve a particular household's outcome."
+}

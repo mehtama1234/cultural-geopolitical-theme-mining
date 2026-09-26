@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-fiscal-policy-saving-glut-rich-2026",
+  "title": "The financing regime of redistribution can reshape top-wealth accumulation and fiscal incidence",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "geopolitical_state_consequences"],
+  "source_unit": "NBER Working Paper 35715; structurally estimated New Keynesian model with borrowers and savers, calibrated to U.S. macro-financial evidence",
+  "geography": "United States; post-1980 fiscal-financing regime and top-income asset accumulation",
+  "observations": [{
+    "period": "1980s through 2026 paper; historical interpretation and model counterfactual",
+    "denominator": {"value": 1, "unit": "U.S. structurally estimated macroeconomic model and historical fiscal-financing comparison", "value_type": "study_unit"},
+    "measures": {
+      "financing_regime_shift": {"value": "redistributive policy financing shifted from inflationary finance toward debt finance backed by future taxation beginning in the early 1980s", "unit": "historical fiscal-financing interpretation", "value_type": "reported_interpretation"},
+      "top_wealth_response": {"value": "under the model, funded transfers induce high-income households to accumulate claims on households and government", "unit": "modeled asset-accumulation mechanism", "value_type": "modeled_estimate"},
+      "wealth_distribution_contribution": {"value": "the shift from unfunded to funded redistribution contributed significantly to the subsequent saving glut of the rich", "unit": "structurally estimated contribution", "value_type": "modeled_estimate"},
+      "inflationary_finance_channel": {"value": "unfunded transfers generate fiscal inflation that erodes the real value of public and private debt", "unit": "modeled redistribution-through-asset-revaluation mechanism", "value_type": "modeled_estimate"}
+    },
+    "method": "The authors develop a New Keynesian model with borrowers and savers, estimate it structurally, and compare funded transfers financed by future progressive taxation with unfunded transfers financed through inflationary erosion of debt.",
+    "uncertainty": "This is a model-based historical interpretation, not a direct household panel showing each transfer, tax payment, asset purchase, or welfare outcome. Results depend on the model structure, calibration, identification of the financing-regime shift, progressive-tax assumptions, and the treatment of inflation, debt, and asset markets. The record does not establish that top-wealth accumulation was caused only by fiscal financing or that a different regime would improve household welfare.",
+    "subgroup": "Borrowers, savers, high-income households, lower-income households, government, and private debt holders; the paper's macro groups are not a complete account of race, age, housing tenure, liquidity, business ownership, or household-level incidence.",
+    "counterinterpretation": "The saving glut may also reflect inequality, global safe-asset demand, demographics, technology, corporate behavior, housing, monetary policy, or other institutional changes. Debt finance can fund valuable public transfers, while inflationary finance can impose uneven costs; neither label alone identifies the better policy or actual distributional result.",
+    "source_url": "https://www.nber.org/papers/w35715",
+    "retrieval_hash": "sha256:02397093fe678a3b551f05d9072a8f46ff04649f46a208b8ca56d05f7205d1d6",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35715", "claim": "NBER DOI record for Working Paper 35715", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a fiscal-financing-to-wealth-distribution mechanism. It does not directly observe a single household's transfer, tax, saving, debt, consumption, trust, political action, or durable security, and it does not rank inflationary versus debt finance as a universal welfare prescription."
+}

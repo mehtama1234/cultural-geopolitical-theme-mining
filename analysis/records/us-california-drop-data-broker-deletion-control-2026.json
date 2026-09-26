@@ -1,0 +1,100 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-drop-data-broker-deletion-control-2026",
+  "title": "California's single data-broker deletion route makes privacy control more observable without proving durable removal",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "California Privacy Protection Agency and CalPrivacy public descriptions of the Delete Request and Opt-out Platform (DROP)",
+  "geography": "California consumers, registered data brokers, and the California Privacy Protection Agency",
+  "observations": [
+    {
+      "period": "January-July 2026; DROP launch and public implementation description",
+      "denominator": {
+        "value": 325000,
+        "unit": "consumers reported by CalPrivacy as having signed up for DROP and submitted deletion requests; over 600 active data brokers in the described route",
+        "value_type": "reported_program_scale"
+      },
+      "measures": {
+        "single_request_scope": {
+          "value": "one verifiable request can direct every participating data broker maintaining related personal information to delete it and stop selling it, subject to exemptions",
+          "unit": "reported control route",
+          "value_type": "implemented_public_system"
+        },
+        "privacy_preserving_submission": {
+          "value": "consumer information is hashed before broker matching; CalPrivacy says raw data is not stored or shared with brokers through DROP",
+          "unit": "reported system design",
+          "value_type": "reported_privacy_control"
+        },
+        "processing_clock": {
+          "value": 45,
+          "unit": "days; broker access and processing cycle beginning August 1, 2026",
+          "value_type": "reported_processing_window"
+        },
+        "individual_deletion_receipt": {
+          "value": "not observed",
+          "unit": "missing consumer-level status distribution, matched-broker denominator, verified post-deletion scan, residual data, or durable non-recollection outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from CalPrivacy's implementation explanation; program scale, request architecture, hashing, processing clock, and status path are retained separately from individual deletion and later control.",
+      "uncertainty": "The public page reports sign-ups and submitted requests but does not disclose how many brokers matched each consumer, how many records were deleted, exempted, not found, opted out, or remained pending, nor whether deletion persisted across all broker systems.",
+      "subgroup": "California consumers and registered data brokers using DROP; the public account does not provide a consumer-level sample or broker-level completion denominator.",
+      "counterinterpretation": "A centralized request can reduce repeated consumer effort and improve observability while matching failures, exemptions, optional-field burden, and delayed status updates still make practical control unequal.",
+      "source_url": "https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/",
+      "retrieval_hash": "sha256:28e87e241dca762460adae3ae25ab6e51fc1d943314653a0321fa44766529466",
+      "status": "reported"
+    },
+    {
+      "period": "August-September 2026; operational status and broker obligations",
+      "denominator": {
+        "value": 1,
+        "unit": "California accessible deletion mechanism and its public status vocabulary",
+        "value_type": "implemented_control_system"
+      },
+      "measures": {
+        "status_categories": {
+          "value": "record deleted, record exempted, record opted out of sale, record not found, and pending",
+          "unit": "consumer-facing broker-status categories",
+          "value_type": "reported_observability_layer"
+        },
+        "broker_access_requirement": {
+          "value": "data brokers must access the mechanism at least once every 45 days and process requests subject to limited exceptions",
+          "unit": "regulatory operating requirement",
+          "value_type": "reported_rule"
+        },
+        "status_delay": {
+          "value": 90,
+          "unit": "days; maximum stated time for status updates to appear after processing conditions",
+          "value_type": "reported_status_latency"
+        },
+        "verified_persistence": {
+          "value": "not observed",
+          "unit": "missing account-level deletion proof, residual-data check, recurrence, correction, trust, switching, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Comparison of the CalPrivacy consumer explanation with the CPPA data-broker implementation page; legal operating requirements and status vocabulary are not treated as completed deletion.",
+      "uncertainty": "The sources describe the system and obligations but do not publish broker-by-broker compliance, matching accuracy, consumer status outcomes, exemptions by reason, or an audit of persistent deletion.",
+      "subgroup": "Data brokers registered or required to register in California and consumers submitting verifiable DROP requests; no matched consumer-broker panel is supplied.",
+      "counterinterpretation": "Status categories make failure and partial control more visible, but they may also shift effort to consumers who must add identifiers, revisit pending statuses, or interpret exemptions and non-matches.",
+      "source_url": "https://cppa.ca.gov/data_brokers/",
+      "retrieval_hash": "sha256:28e87e241dca762460adae3ae25ab6e51fc1d943314653a0321fa44766529466",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://cppa.ca.gov/regulations/drop.html",
+      "claim": "The CPPA says the accessible deletion mechanism rulemaking is complete and effective January 1, 2026.",
+      "status": "official-regulatory-context"
+    }
+  ],
+  "boundary": "This record establishes a centralized, privacy-preserving deletion route, a broker processing clock, and a consumer-facing status vocabulary. It does not establish that any named consumer's data was deleted, that all brokers matched the request, that exemptions were appropriate, that data stayed deleted, or that privacy control changed trust, behavior, switching, or wellbeing.",
+  "retrieval_hash": "sha256:28e87e241dca762460adae3ae25ab6e51fc1d943314653a0321fa44766529466"
+}

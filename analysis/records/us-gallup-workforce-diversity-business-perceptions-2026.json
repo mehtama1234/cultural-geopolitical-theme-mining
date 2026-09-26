@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-workforce-diversity-business-perceptions-2026",
+  "title": "Perceived business benefits of workforce diversity can rise across parties while DEI performance judgments remain divided",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Bentley University-Gallup Business in Society survey reporting",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026 survey; published September 16, 2026",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults in the Bentley University-Gallup Business in Society survey",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "diverse_workforces_more_profitable": {
+          "value": 71,
+          "unit": "percent saying it is somewhat or completely true that businesses with diverse workforces are more profitable",
+          "value_type": "published_share"
+        },
+        "diverse_workforces_more_innovative": {
+          "value": 75,
+          "unit": "percent saying businesses with diverse workforces make more innovative products",
+          "value_type": "published_share"
+        },
+        "dei_business_priority": {
+          "value": 72,
+          "unit": "percent saying promoting diversity, equity, and inclusion is a somewhat or extremely important business priority",
+          "value_type": "published_share"
+        },
+        "business_dei_performance_good_or_excellent": {
+          "value": 34,
+          "unit": "percent rating businesses good or excellent at promoting DEI",
+          "value_type": "published_share"
+        },
+        "profitability_democrats": {
+          "value": 92,
+          "unit": "percent of Democrats saying diverse workforces are more profitable",
+          "value_type": "published_subgroup_share"
+        },
+        "profitability_independents": {
+          "value": 70,
+          "unit": "percent of independents",
+          "value_type": "published_subgroup_share"
+        },
+        "profitability_republicans": {
+          "value": 41,
+          "unit": "percent of Republicans",
+          "value_type": "published_subgroup_share"
+        }
+      },
+      "method": "Bentley University-Gallup Business in Society survey reporting; the source compares public judgments about business outcomes, priorities, and business performance by party.",
+      "uncertainty": "These are perceptions and priorities, not firm-level profitability, innovation, workforce composition, employee experience, or causal effects of diversity practices. The release summary does not provide a same-respondent link from belief to workplace exposure or firm behavior.",
+      "subgroup": "U.S. adults by party identification; party differences may overlap with ideology, workplace exposure, information, industry, and question framing.",
+      "counterinterpretation": "People may believe diversity improves business performance while opposing particular DEI programs, distrusting firm implementation, or having no direct workplace exposure. A performance rating is not a measure of actual firm practice.",
+      "source_url": "https://news.gallup.com/poll/714011/americans-business-benefits-diverse-workforces.aspx",
+      "retrieval_hash": "sha256:3db43ead14a600cdd4c32eca7c53d897b48551ead9ff81563dd21c22a55f3ef1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "claim": "Gallup's corruption-perception release provides a complementary public-legitimacy and institutional-trust comparison.",
+      "status": "cross-source-context"
+    }
+  ],
+  "boundary": "This record establishes a current survey pattern in how Americans judge workforce diversity and business performance. It does not establish actual firm outcomes, employee treatment, causal diversity effects, or durable political consensus.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup article page retrieved and URL hash recorded; respondent microdata and full survey file are not retained",
+    "html_sha256": "sha256:3db43ead14a600cdd4c32eca7c53d897b48551ead9ff81563dd21c22a55f3ef1",
+    "checked": "2026-09-22"
+  }
+}

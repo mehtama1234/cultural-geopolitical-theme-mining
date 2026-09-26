@@ -1,0 +1,105 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-fema-workforce-mission-readiness-2026",
+  "title": "FEMA workforce reductions can narrow disaster-assistance capacity before survivor outcomes are visible",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "GAO-26-108427 review of FEMA workforce size, composition, planning, deployment, and mission readiness",
+  "geography": "United States; FEMA headquarters, 10 regions, incident-management cadres, and disaster-response workforce",
+  "observations": [
+    {
+      "period": "Fiscal year 2025 through April 18, 2026; report published August 4, 2026",
+      "denominator": {
+        "value": 25134,
+        "unit": "average FEMA employees in fiscal year 2025; workforce and separation measures use separate agency-defined universes",
+        "value_type": "reported_multiple_universes"
+      },
+      "measures": {
+        "separations": {
+          "value": "More than 4,300 employees separated from FEMA in fiscal year 2025, a 55% increase from fiscal year 2024",
+          "unit": "FEMA employee separations",
+          "value_type": "reported_count_and_change"
+        },
+        "current_workforce": {
+          "value": 20968,
+          "unit": "FEMA personnel reported employed as of April 18, 2026",
+          "value_type": "reported_count"
+        },
+        "planning_status": {
+          "value": "FEMA rescinded its strategic plan and did not base 2025-2026 workforce reductions and proposed actions on a workforce analysis, according to GAO",
+          "unit": "agency planning condition",
+          "value_type": "reported_finding"
+        },
+        "institutional_knowledge": {
+          "value": "FEMA officials told GAO that separations resulted in lost institutional knowledge and exacerbated longstanding workforce challenges",
+          "unit": "reported organizational consequence",
+          "value_type": "reported_attribution"
+        }
+      },
+      "method": "GAO analyzed FEMA workforce size and composition, workforce and policy documents, executive-branch actions, and interviews with FEMA headquarters officials and officials in all 10 regions; it evaluated workforce planning against key practices.",
+      "uncertainty": "The review establishes staffing and planning conditions and reported operational consequences, not a causal estimate of survivor-level denial, wait time, housing loss, recovery, or health. Workforce counts use different dates and agency-defined categories; FEMA may augment permanent staff with temporary and surge personnel.",
+      "subgroup": "FEMA permanent, CORE, reservist, local-hire, and surge personnel; incident-management cadres; headquarters and regional staff; concurrent-disaster teams; survivors relying on Individual Assistance, grants, information, and recovery programs.",
+      "counterinterpretation": "Workforce reductions can coexist with temporary surge, local hiring, cross-agency augmentation, process changes, and future strategic planning. Staffing capacity alone does not prove that a particular survivor experienced delay or that more staff would have produced a better outcome.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108427/index.html",
+      "retrieval_hash": "sha256:453636dbd7028c41e58c9072f92e1c20399b7a58cc8c82fbc17e55f28f4a0b03",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026 concurrent-disaster and hurricane-season readiness evidence",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO-reviewed FEMA concurrent-disaster and surge-capacity case",
+        "value_type": "named_program_case"
+      },
+      "measures": {
+        "concurrent_deployment": {
+          "value": 13500,
+          "unit": "FEMA employees deployed for Hurricanes Helene and Milton according to FEMA officials",
+          "value_type": "reported_count"
+        },
+        "post_deployment_availability": {
+          "value": 4,
+          "unit": "percent of FEMA incident-management workforce available to deploy in November 2024 after the two hurricanes",
+          "value_type": "reported_percent"
+        },
+        "surge_support": {
+          "value": "FEMA officials anticipated about 240 DHS Surge Capacity Force employees available for 2026 hurricane-season support, down from 600 in 2025",
+          "unit": "anticipated surge personnel",
+          "value_type": "reported_count_change"
+        },
+        "service_link": {
+          "value": "GAO reports that Texas flood survivors experienced long wait times and unanswered calls after FEMA reduced surge-support resources and call-center staffing",
+          "unit": "reported assistance-delivery consequence",
+          "value_type": "reported_case_evidence"
+        }
+      },
+      "method": "GAO synthesis of FEMA data, agency documentation, official interviews, and prior GAO disaster-assistance reviews.",
+      "uncertainty": "The cases show a plausible capacity-to-access route but do not provide a representative survivor-level contact-failure rate, causal counterfactual, or downstream housing and income effect.",
+      "subgroup": "Residents of concurrent or large disasters, FEMA Individual Assistance applicants, call-center users, incident-management personnel, and regions requiring cross-region deployment.",
+      "counterinterpretation": "High deployment can reflect extraordinary demand rather than a staffing failure, and unanswered calls may also reflect call volume, communication systems, or application complexity. The evidence does not isolate one cause.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108427/index.html",
+      "retrieval_hash": "sha256:453636dbd7028c41e58c9072f92e1c20399b7a58cc8c82fbc17e55f28f4a0b03",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108154",
+      "claim": "Related GAO review reports FEMA assistance scale alongside survivor communication and post-disaster housing challenges.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108280",
+      "claim": "Related GAO review examines disaster-assistance scams and the information environment facing survivors.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record adds a federal disaster-workforce and assistance-delivery capacity pathway. It does not establish a survivor-level causal wait-time, denial, housing, income, health, trust, or political-action effect, and it does not show that workforce reductions alone caused any individual outcome.",
+  "retrieval_hash": "sha256:453636dbd7028c41e58c9072f92e1c20399b7a58cc8c82fbc17e55f28f4a0b03"
+}

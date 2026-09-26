@@ -1,6 +1,6 @@
 # Health-cost episode acquisition protocol v1
 
-**Checked:** 2026-09-15  
+**Checked:** 2026-09-21
 **Status:** implementation specification; not evidence of a completed causal chain
 
 ## Objective
@@ -110,3 +110,42 @@ provides an implementation template for the institutional middle: receipt,
 route, handoff, and response can be recorded as events, while verified remedy,
 recovery, repeat effort, switching, and trust remain separate fields that must
 be acquired rather than inferred.
+
+## Current continuation decision — 2026-09-21
+
+The latest cross-domain bridge makes the missing middle more specific. Existing
+SHED evidence can connect care foregoing with debt, savings, borrowing, delayed
+purchases, and health; CFPB evidence can expose medical-collection and credit
+stages; HTOPS can provide an institution-specific confidence surface. These are
+useful adjacent currencies, not one episode. No legitimacy arrow should be
+promoted until the same person or a valid matched design preserves the exposure
+clock, attribution, and prior trust.
+
+The next authorized acquisition should therefore prioritize one of two routes:
+
+1. **MEPS event/payment route:** retain person/event linkage, month ordering,
+   payment or bill-problem fields, coverage, care delay, work and household
+   context, and every available follow-up field; stop before claiming a remedy,
+   trust, or action outcome when those fields are absent.
+2. **Compatible health-cost/politics panel:** require a medical-cost exposure
+   tied to a dated or bounded period, care/payment adaptation, institutional
+   attribution, prior and later trust, and a separately coded action. Do not
+   join public SHED, CFPB, HTOPS, ANES, or CCES summaries as if their
+   respondents were the same people.
+
+The minimum promotion test is now explicit: a candidate must supply one
+episode-level exposure, one choice or non-use decision, one event-specific
+obligation or alternative, one protected and one sacrificed outcome, and a
+follow-up. For the care-to-legitimacy arrow it must additionally supply
+attribution and prior trust or identity. Otherwise the result belongs in the
+cross-theme corridor, not the ranked end-to-end chain.
+
+## Workspace execution boundary — 2026-09-21
+
+The local recheck did not find the raw MEPS files required by the event scripts
+under `/tmp/cgtm-meps-2024` (HC-256 person file, BRR file, or HC-254 event
+files). The committed JSON and Markdown derivatives preserve prior bounded
+results, field audits, and hashes, but they are not a substitute for the raw
+inputs and do not support a fresh rerun or extension. Until an authorized
+source bundle is restored, the MEPS route remains an acquisition-ready design,
+not newly executed same-episode evidence.

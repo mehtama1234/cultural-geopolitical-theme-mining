@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_individual_employment_remedy_record",
+  "purpose": "Primary Fair Work Commission case ledger preserving workplace injury, return to work, dismissal, language/cultural access, reinstatement, lost-pay order, and open post-order compliance and recovery.",
+  "events": [
+    {
+      "event_id": "FWC-ALAM-SHAH-INJURY-DISMISSAL-2025-05-02",
+      "unit": "worker",
+      "geography": "Greenacre, Sydney, Australia; Fair Work Commission case [2025] FWC 2621",
+      "actor_initiating_change": "employer",
+      "event_date": "2025-05-02",
+      "date_precision": "Dismissal date; workplace accident on 2025-04-17, return to work on 2025-04-28, and decision on 2025-09-05",
+      "denominator": "One publicly identified adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision and its translated publication route",
+      "missingness": "Post-order reinstatement, payment receipt, actual return, later job duration, household effect, recurrence, trust, collective action, and exit are not retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "Mr Shah was struck by a forklift on 2025-04-17, took time off on workers compensation, returned on 2025-04-28, and was dismissed by email on 2025-05-02 without a valid reason or opportunity to respond",
+      "alternatives_before_action": "The public decision does not report a completed alternative job or full feasible offer set; Mr Shah said a new job would be difficult because he does not drive and his existing workplace was a 25-minute walk from home",
+      "immediate_burden_or_benefit": "The dismissal ended a convenient local job, left Mr Shah with no earnings after dismissal, and carried added financial and personal impact because he was supporting family in a refugee camp in Bangladesh; limited English and need for interpretation affected workplace communication",
+      "choice_or_response": "Mr Shah filed an unfair-dismissal application, sought compensation rather than reinstatement because he feared being dismissed again, and participated through an interpreter; the Commission ordered reinstatement despite his stated concern",
+      "person_or_actor_with_control": "Employer controlled dismissal, communication, redeployment, and workplace expectations; Mr Shah controlled challenge and remedy preference; the Commission controlled adjudication, reinstatement, continuity, and lost-pay orders",
+      "remedy_or_institutional_response": "The Commission found the dismissal harsh, unjust, and unreasonable, ordered reinstatement to the former position within 14 days, continuity of service, translation/publication in Rohingya, and $18,035.56 for 20 weeks of lost pay less one week in lieu of notice",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "Post-order payment and reinstatement receipt are not observed",
+      "durability_followup": "The public decision ends at the reinstatement, continuity, translation, and lost-pay orders; actual return, compliance, recurrence, and later work are unknown",
+      "immediate_outcome": "A workplace injury, return to work, dismissal, language/cultural access issue, adjudicated remedy, and explicit lost-pay amount are observed; post-order livelihood restoration is not",
+      "protected_outcome": "The order aimed to protect continued employment, continuity of service, and lost wages; no protected outcome is verified after the order",
+      "sacrificed_outcome": "The worker lost earnings and the convenience of a walkable job during the dismissal; the longer-term household and work consequences remain open",
+      "cost_risk_transfer": "The worker carried unemployment, communication, mobility, and family-support risk while the employer received a reinstatement and lost-pay obligation subject to execution",
+      "later_outcome": "No public post-order record of payment, actual reinstatement, work duration, recurrence, household recovery, trust, collective action, switching, or exit is retained",
+      "meaning_and_attribution": "The decision records the worker's concern that returning could lead to another dismissal and the Commission's finding that language and cultural barriers reduced the opportunity to understand and answer workplace allegations; this is case-level meaning, not a standardized trust measure",
+      "public_or_collective_response": "A formal tribunal route, interpreter support, translation, and published reasons are observed; later worker, workplace, or collective response is not linked",
+      "counterexample": "A tribunal can order reinstatement and substantial lost pay while the worker prefers compensation and the public record still lacks actual compliance; ordered restoration is not verified restoration",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2025] FWC 2621, https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2621.pdf; the decision reports the injury, return, dismissal, language/cultural context, remedy preference, reinstatement, continuity, and $18,035.56 lost-pay order, but no post-order receipt or follow-up",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc2621.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-ALAM-SHAH-A-01",
+      "from": "workplace injury and workers-compensation absence",
+      "to": "return to work before dismissal",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records a forklift accident on April 17, time off on compensation, and return to work on April 28, 2025",
+      "status": "observed",
+      "counterexample": "Return after injury does not establish safe recovery, durable employment, or later protection from dismissal",
+      "remaining_gap": "Post-return health, work conditions, accommodation, and later employment"
+    },
+    {
+      "arrow_id": "FWC-ALAM-SHAH-A-02",
+      "from": "dismissal without valid reason or response opportunity",
+      "to": "income, mobility, and family-support burden",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision finds no valid reason or opportunity to respond and records no earnings after dismissal, no driving, a walkable prior job, and family support obligations",
+      "status": "observed",
+      "counterexample": "The public case identifies burden but does not quantify all household effects or establish a population pattern",
+      "remaining_gap": "Household budget, care/support transfers, alternative job search, and health consequences"
+    },
+    {
+      "arrow_id": "FWC-ALAM-SHAH-A-03",
+      "from": "language/cultural communication barrier and dismissal dispute",
+      "to": "formal tribunal review and translated remedy",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission records limited English, interpreter assistance, cultural context, a published translation, and a formal finding that communication should have been clearer",
+      "status": "observed",
+      "counterexample": "Translation and reasons can improve procedural access without proving employer practice changed or the worker's livelihood was restored",
+      "remaining_gap": "Worker comprehension, employer implementation, recurrence, and later trust/action"
+    },
+    {
+      "arrow_id": "FWC-ALAM-SHAH-A-04",
+      "from": "unfair-dismissal finding",
+      "to": "reinstatement, continuity, and lost-pay order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission ordered reinstatement within 14 days, continuity of service, and $18,035.56 for 20 weeks of lost pay less one week in lieu of notice",
+      "status": "observed",
+      "counterexample": "An order and amount do not prove payment receipt, actual return, or durable restoration",
+      "remaining_gap": "Compliance filing, payment receipt, return date, work conditions, and post-order status"
+    },
+    {
+      "arrow_id": "FWC-ALAM-SHAH-A-05",
+      "from": "ordered restoration",
+      "to": "durable livelihood, trust, bargaining, or exit",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The public decision contains no post-order record of compliance, work duration, recurrence, household recovery, trust, collective action, switching, or exit",
+      "status": "open",
+      "counterexample": "The worker's preference for compensation rather than return shows that formal reinstatement may not match the affected person's preferred remedy",
+      "remaining_gap": "Actual reinstatement or alternative work, payment receipt, safety and communication conditions, household outcome, trust, and later movement"
+    }
+  ],
+  "boundary": "This ledger adds one primary adjudicated worker case with observed injury, return, dismissal, language/cultural access, tribunal response, reinstatement, continuity, and lost-pay order. It does not establish post-order compliance, payment receipt, restored livelihood, trust, recurrence, collective action, or exit.",
+  "storage_boundary": "No private worker file, payroll record, medical record, or compliance filing is retained; only bounded public decision fields, dates, remedy terms, uncertainty, and open downstream arrows are represented."
+}

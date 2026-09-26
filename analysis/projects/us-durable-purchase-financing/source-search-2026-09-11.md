@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; purchase and financing response is measured, later household cost remains open
+**Status:** bounded pass completed; purchase and financing response is measured, later household cost and access remain open
 
 ## Working question
 
@@ -27,6 +27,9 @@ temporary income payment
 ```
 
 The NBER evidence shows a fast purchase response and a meaningful financing share. It does not tell us whether the purchase improved welfare after repayment, or whether lenders expanded access mainly for households already able to pay.
+
+The completed finding is [A temporary income boost can become a durable purchase
+and a future loan obligation](findings/us-durable-purchase-financing-001.md).
 
 ## Counterpoint to keep visible
 

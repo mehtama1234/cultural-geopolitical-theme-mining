@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-digital-surveillance-managerial-clarity-2025",
+  "title": "Unexplained digital surveillance reduces remote-worker output in a randomized online labor-market experiment",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 33348, a randomized control trial in an online labor market that separately randomizes digital surveillance and the explanation for its use",
+  "geography": "Online labor market; remote workers and employer-management treatment arms, with no national prevalence claim",
+  "observations": [
+    {
+      "period": "January 2025 NBER working paper; revised February 13, 2026; experiment timing is study-defined",
+      "denominator": {
+        "value": null,
+        "unit": "online labor-market workers divided into lower- and higher-productivity groups; the official NBER abstract does not state the full sample count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "surveillance_main_effect": {
+          "value": "Digital surveillance has no statistically significant average effect on worker performance",
+          "unit": "randomized treatment effect on online-labor-market performance",
+          "value_type": "experimental_null"
+        },
+        "unexplained_surveillance_effect": {
+          "value": "Not explaining the presence or elimination of surveillance based on worker performance significantly reduces worker output",
+          "unit": "randomized treatment effect on worker output",
+          "value_type": "experimental_effect"
+        },
+        "managerial_justification": {
+          "value": "The performance response depends on how monitoring is rationalized to workers, including whether the explanation is aligned with baseline productivity",
+          "unit": "randomized explanation and surveillance interaction",
+          "value_type": "experimental_heterogeneity"
+        }
+      },
+      "method": "Randomized control trial in an online labor market: workers are divided into lower- and higher-productivity performers, and both surveillance use and whether surveillance is justified based on baseline productivity are randomized.",
+      "uncertainty": "This is an online labor-market experiment, not a nationally representative workforce estimate. The abstract does not provide the full sample count or all treatment magnitudes. Performance/output is not pay, health, autonomy, bargaining power, job retention, household security, or realized employer profit; the experiment does not establish long-run effects or external validity across workplaces.",
+      "subgroup": "Lower- and higher-productivity online labor-market workers; surveillance and explanation treatment arms; worker-level performance/output outcomes.",
+      "counterinterpretation": "Monitoring may have no average performance effect when its purpose is clear, and an output decline under unexplained monitoring may reflect uncertainty about management rather than surveillance itself. Online task work may differ from ordinary employment, unionized workplaces, and high-stakes personnel decisions.",
+      "source_url": "https://www.nber.org/papers/w33348",
+      "retrieval_hash": "sha256:d4fe733367d72fae17a16ed6d32bf872b58569642995da926b18bea9e706693a",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://namratakala.com/wp-content/uploads/2024/11/digitalmonitoring_kalalyons-2.pdf",
+      "claim": "Author-hosted working-paper PDF used for the source extract; revised version information is available through the linked paper materials.",
+      "status": "primary-paper-pdf"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-25-107126",
+      "claim": "GAO review provides broader implementation, worker-effect, and federal-oversight context; its review unit is not pooled with this experiment.",
+      "status": "related-record"
+    }
+  ],
+  "boundary": "This record adds a randomized transparency-and-monitoring mechanism between workplace technology and worker performance. It does not establish surveillance prevalence, national worker exposure, pay, health, autonomy, appeal, remedy, job exit, household security, durable trust, or collective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER paper page and author-hosted working-paper PDF reviewed; underlying experiment data are not retained.",
+    "pdf_sha256": "sha256:d4fe733367d72fae17a16ed6d32bf872b58569642995da926b18bea9e706693a",
+    "checked": "2026-09-23"
+  }
+}

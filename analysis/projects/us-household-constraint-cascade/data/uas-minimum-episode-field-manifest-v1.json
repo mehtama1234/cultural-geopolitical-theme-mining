@@ -1,8 +1,36 @@
 {
   "format": "us-household-constraint-cascade-uas-minimum-field-manifest-v1",
-  "checked": "2026-09-18",
+  "checked": "2026-09-20",
   "status": "documentation_only; no respondent microdata acquired",
   "purpose": "Define the smallest UAS file and field package that could be tested for same-case cascade closure.",
+  "public_codebook_recheck": {
+    "checked": "2026-09-20",
+    "monthly_panel_document_updated": "2026-09-01",
+    "documented_panel_keys": ["uasid", "wave"],
+    "documented_weight": "final_weight",
+    "documented_event_timing": [
+      "empl_when_month",
+      "empl_when_day",
+      "empl_when_year",
+      "le_hrs001_when_day",
+      "le_hrs001_when_month",
+      "le_hrs001_when_year",
+      "fin1_when_day",
+      "fin1_when_month",
+      "fin1_when_year"
+    ],
+    "documented_followup_domains": [
+      "health",
+      "pain",
+      "life_satisfaction",
+      "stress",
+      "food_security",
+      "employment",
+      "financial_shocks",
+      "meaning_and_purpose"
+    ],
+    "status": "documentation_confirmed; respondent_microdata_not_acquired"
+  },
   "storage_policy": {
     "raw_microdata_in_repository": false,
     "raw_microdata_retention": "outside Git only after access and overlap gates pass",
@@ -39,8 +67,10 @@
       "access": "registration_gated",
       "documented_candidates": {
         "identity": ["uasid"],
-        "choice_and_access": ["avoidcare_cost", "afford_services"],
+        "choice_and_access": ["avoidcare_cost", "afford_services", "transport"],
         "obligation_or_dispute": ["hcb_ever"],
+        "institutional_route": ["hcb_reach", "hcb_who", "hcb_whynot", "hcb_time", "hcb_result"],
+        "institutional_experience": ["hcb_comfort", "hcb_respect", "hcb_prob", "hcb_type"],
         "institutional_meaning": ["hrsntrust_hosp", "hrsntrust_ins"]
       },
       "still_verify_after_access": ["field_wave", "recall_window", "weight", "module_overlap", "response_and_remedy_detail"]
@@ -53,7 +83,8 @@
         "amount_or_obligation": ["N333"],
         "quality_cost_convenience": ["N235"],
         "choice_and_foregone_care": ["N492", "N493"],
-        "preference_or_alternative": ["N295"],
+        "preference_or_alternative": ["N295", "N493"],
+        "foregone_care_reasons": ["N493"],
         "identity": ["uasid"]
       },
       "still_verify_after_access": ["field_wave", "recall_window", "weight", "amount_units", "institutional_response", "remedy_fields"]
@@ -64,7 +95,7 @@
     "room_and_obligation": ["amount_or_rule", "payment_or_affordability", "outside_help_or_credit", "feasible_alternative"],
     "choice_and_consequence": ["received_delayed_skipped_or_substituted_care", "stated_reason", "later_health_work_or_financial_outcome"],
     "institutional_route": ["responsible_institution", "contact_or_decision", "response_date_or_order"],
-    "remedy_and_recovery": ["correction_refund_restoration_or_verified_no_remedy", "one_three_and_six_month_followup"],
+    "remedy_and_recovery": ["formal_response_stage", "correction_refund_restoration_or_verified_no_remedy", "received_status", "usable_status", "adequate_status", "durable_status", "trusted_status", "one_three_and_six_month_followup"],
     "meaning_and_action": ["prior_trust_or_identity", "later_trust_attribution_action_switching_or_exit"],
     "design": ["weight", "eligibility", "attrition", "missingness", "uncertainty", "counterexample", "source_hash"]
   },

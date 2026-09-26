@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-doe-nuclear-cleanup-mission-need-option-selection-2026",
+  "title": "A large public project can enter formal review with the preferred solution already narrowing the choices",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108193 review of Department of Energy Office of Environmental Management mission-need statements and planning for large capital projects",
+  "geography": "United States Department of Energy environmental-management sites; large projects estimated at $100 million or more",
+  "observations": [
+    {
+      "period": "2026 GAO review of large-project planning; mission-need statements and selected project discussions",
+      "denominator": {
+        "value": 21,
+        "unit": "DOE Environmental Management mission-need statements for large projects estimated at least $100 million",
+        "value_type": "reviewed_project_statements"
+      },
+      "measures": {
+        "predetermined_solution": {
+          "value": "the majority of reviewed mission-need statements identified a particular solution even though DOE standards say the statement should identify a need without selecting the solution",
+          "unit": "reviewed mission-need statements",
+          "value_type": "reported_majority"
+        },
+        "option_exclusion": {
+          "value": "GAO found instances where potential cost-saving options were not considered or pursued after a preferred solution was identified early",
+          "unit": "reported project-planning pattern",
+          "value_type": "reported_example"
+        },
+        "technical_alternative": {
+          "value": "experts described a technically sound, cheaper treatment that was not pursued because of an existing regulatory agreement, followed by years of spending on a solution later deemed suboptimal and suspended",
+          "unit": "reported selected project example",
+          "value_type": "reported_example"
+        },
+        "independent_review": {
+          "value": "existing mission-need reviews did not include independent experts; DOE concurred with recommendations to add them",
+          "unit": "oversight design condition",
+          "value_type": "reported_gap"
+        },
+        "project_value_and_outcome": {
+          "value": "not observed as a common cost, schedule, safety, cleanup, or community outcome series",
+          "unit": "missing project-level option set, cost comparison, delivery, risk, and public-impact ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO analyzed 21 DOE Environmental Management mission-need statements, qualitative material from three expert discussion groups involving 12 experts, and interviews with headquarters and field staff at sites with large projects.",
+      "uncertainty": "The review identifies planning and oversight conditions rather than estimating the causal cost of every predetermined solution. Expert discussion groups and selected project examples are not a representative outcome sample, and legal, regulatory, technical, and site constraints may limit the feasible option set.",
+      "subgroup": "DOE Environmental Management large capital projects, mission-need reviewers, contractors, regulators, independent experts, national laboratories, and affected sites; project scale and waste type differ.",
+      "counterinterpretation": "Naming a solution early may reflect genuine technical, legal, safety, or regulatory constraints, and later planning may still consider alternatives. An independent review may widen options without guaranteeing a cheaper, faster, safer, or more acceptable project.",
+      "source_url": "https://www.gao.gov/products/gao-26-108193",
+      "retrieval_hash": "sha256:3060905e95eb0b8e40acd392affdff9c6fd328ea99785cbc9b38ea2c029c6930",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures early option framing and review design in selected DOE cleanup projects. It does not establish waste-treatment failure, contractor wrongdoing, national cleanup performance, taxpayer loss, environmental harm, or the outcome of DOE's later recommendations."
+}

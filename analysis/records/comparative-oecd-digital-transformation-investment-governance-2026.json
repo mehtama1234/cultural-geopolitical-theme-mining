@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-digital-transformation-investment-governance-2026",
+  "title": "Digital transformation is increasingly governed as an investment, infrastructure, and public-capability problem rather than a technology-adoption problem alone",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD, Investment Policy Framework for Digital Transformation",
+  "geography": "OECD policy and investment context, with country examples from Morocco, Uzbekistan, and Viet Nam",
+  "observations": [
+    {
+      "period": "2026 framework; digital-transformation investment policy",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD investment-policy framework and cross-policy diagnostic universe",
+        "value_type": "policy_framework_universe"
+      },
+      "measures": {
+        "framework_building_blocks": {"value": "governance; regulatory framework; technical and financial support; information and facilitation", "unit": "four reported investment-policy building blocks", "value_type": "reported_framework_structure"},
+        "policy_domains": {"value": "investment, competition, cross-border data flows, trade and investment agreements, skills, and responsible business conduct", "unit": "reported cross-domain policy set", "value_type": "reported_policy_domain_set"},
+        "objective": {"value": "mobilise more, better, and safer international investment that supports digital transformation", "unit": "reported policy objective", "value_type": "reported_policy_goal"}
+      },
+      "method": "OECD policy framework synthesizing OECD investment tools, cross-cutting digital frameworks, policy questions, and country examples to diagnose gaps and opportunities for investment supporting digital transformation.",
+      "uncertainty": "This is a normative and diagnostic framework, not a cross-country estimate of investment effects, digital adoption, productivity, employment, or public-service quality. The four building blocks are organizing concepts, not evidence that each has equal importance in every country.",
+      "subgroup": "Governments, investment-promotion agencies, regulators, domestic and foreign firms, workers, skills systems, data-governance institutions, and communities affected by digital infrastructure and services.",
+      "counterinterpretation": "Attracting international investment can increase capability and connectivity, but may also create dependency, concentration, data-control, tax, labour, or local-impact risks when competition, standards, skills, and accountability are weak.",
+      "source_url": "https://www.oecd.org/en/publications/investment-policy-framework-for-digital-transformation_e96b36f4-en/full-report.html",
+      "retrieval_hash": "sha256:3b95db6ee52655ab618fbcf3f792e80b48d29592ebb420e34f0a0e461630654b",
+      "status": "reported"
+    },
+    {
+      "period": "2026 framework; international investment and domestic digital capability",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD framework's country-assessment and policy-instrument comparison frame",
+        "value_type": "comparative_policy_analysis_universe"
+      },
+      "measures": {
+        "country_examples": {"value": "Morocco, Uzbekistan, and Viet Nam are used as concrete country examples in mapping policies and institutions and in-depth assessments", "unit": "reported case-example set", "value_type": "reported_case_context"},
+        "investment_capability_route": {"value": "strategic direction, coherent regulation, technical and financial support, information, and administrative facilitation are treated as conditions for quality digital investment", "unit": "reported mechanism chain", "value_type": "reported_mechanism"},
+        "quality_dimension": {"value": "digital investment should be assessed by its contribution to inclusive transformation, not only by capital volume or attraction", "unit": "reported evaluation principle", "value_type": "reported_policy_principle"}
+      },
+      "method": "OECD framework grounded in the FDI Qualities Initiative, FDI Regulatory Restrictiveness Index, Investment Tax Incentives Database, Mapping of Investment Promotion Agencies, and country-policy assessments.",
+      "uncertainty": "The source identifies policy levers and examples but does not provide a common outcome measure across the three countries or prove that a given investment-policy reform caused better distribution, resilience, jobs, or state leverage.",
+      "subgroup": "Countries and regions seeking digital investment, firms choosing locations and suppliers, public agencies coordinating investment and digital policy, and workers or communities affected by investment quality.",
+      "counterinterpretation": "A coherent investment framework may still fail where implementation capacity, electricity and connectivity, skills, local ownership, labour standards, or public bargaining power are inadequate; policy coherence is not realized capability.",
+      "source_url": "https://www.oecd.org/en/publications/investment-policy-framework-for-digital-transformation_e96b36f4-en/full-report.html",
+      "retrieval_hash": "sha256:3b95db6ee52655ab618fbcf3f792e80b48d29592ebb420e34f0a0e461630654b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/e96b36f4-en", "claim": "Persistent OECD identifier for the framework."},
+    {"source_url": "https://www.oecd.org/en/publications/the-oecd-going-digital-integrated-policy-framework-2026_0254ae07-en.html", "claim": "Related OECD whole-of-government digital-policy framework covering access, jobs, trust, society, and market openness."}
+  ],
+  "boundary": "This record adds an investment-governance and digital-capability route distinct from the OECD digital-government AI-adoption record. It is not firm-level investment data, does not estimate local infrastructure or household effects, and does not establish that foreign investment produces digital inclusion, worker power, public-service improvement, or geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD full-report page and metadata were retrieved; title, publication date, four building blocks, cross-domain policy set, country examples, and source tools were cross-checked. The hash is a source-URL fingerprint because the OECD host rejected automated HTML/PDF retrieval.",
+    "source_url_sha256": "sha256:3b95db6ee52655ab618fbcf3f792e80b48d29592ebb420e34f0a0e461630654b",
+    "checked": "2026-09-26"
+  }
+}

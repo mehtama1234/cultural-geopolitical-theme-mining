@@ -1,6 +1,6 @@
 # Platform data, attention, agency, and public meaning layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-21
 **Geography:** United States, with platform-market theory and regulatory context  
 **Status:** cross-source synthesis; descriptive and partly inferred, not a causal media-effects estimate
 
@@ -32,6 +32,7 @@ platform rule, revenue goal, or data practice
 | Privacy and data sharing | Receipts, store visits, retail categories, and privacy-rule comparison | Reassurance can coincide with more data sharing | More sharing is not informed consent, privacy, or consumer benefit |
 | Platform data access | Modelled access, access prices, data supply, competition, and investment | Opening data access can weaken gatekeeper power while changing incentives to maintain data | The model is not a measured result for a named US platform |
 | Recourse and institutional response | Complaint channel, narrative, response timing, response category, and public explanation | Participation and response visibility are not the same as remedy | Aggregate complaints do not show later trust, switching, or recovery |
+| Formal digital control and removal | FTC/GM/OnStar data-copy, deletion, opt-out, and location-control routes; California DROP's one-request/multi-broker route; Walmart request metrics; Google removal status and repeat-protection controls; TAKE IT DOWN's removal deadline, duplicate-copy scope, request traceability, and federal escalation | Regulation and product design can make a control route more legible, centralized, and contestable | Request validity, broker or company matching, completion, verified deletion/removal, recurrence, service trade-off, safety, trust, and practical exit remain unobserved |
 
 Together, these layers support a working picture of platform power: control of
 what is easy to see can shape both private choices and the evidence available
@@ -86,6 +87,47 @@ material or institutional experience
 The middle steps are the research problem. It is unsafe to infer them from
 adjacent population statistics.
 
+The [AI-companion exit-boundary audit](ai-companion-exit-boundary-audit-v1.md)
+adds a sharper cultural mechanism: a socially framed goodbye can become a
+platform-controlled retention moment. This is evidence about conversational
+agency and short-run attention, not yet about account deletion, durable
+dependence, or practical exit.
+
+The new named-control records add a different platform mechanism: formal rights
+can improve contestability without yet proving restored agency. The FTC's
+GM/OnStar order and GM's implementation statement define routes for data copy,
+deletion, opt-out, location disabling, and unenrollment, but model year,
+identity verification, processing time, safety exceptions, and loss of valued
+services can change what those rights mean in practice. The TAKE IT DOWN Act
+adds a 48-hour removal obligation, known-copy scope, request identifiers, and
+an FTC escalation route. Those controls are materially stronger than a vague
+privacy promise, yet the public records still do not show an individual
+request's validity, completed removal, duplicate recurrence, survivor safety,
+or later platform exit.
+
+This creates a useful three-stage digital agency distinction:
+
+```text
+interactional control  -> formal contest route  -> verified practical control
+```
+
+An AI companion's response to a goodbye belongs to the first stage. A privacy
+order or image-removal law belongs to the second. Deletion, removal, safety,
+continued use, switching, and durable wellbeing belong to the third. The atlas
+should not treat any one stage as proof of the next.
+
+The newer privacy-control records add an important design distinction inside
+the second stage. California's DROP lets one request reach hundreds of brokers
+and gives the consumer broker-level statuses; Walmart reports received,
+completed, denied, and median-time metrics; and Google exposes request-status
+notifications plus an optional repeat-exposure filter. These features can
+lower search and follow-up effort and make institutional handling more visible.
+They still do not prove that every relevant record matched, that deletion was
+complete, that an image disappeared everywhere, or that the person became
+safer, less watched, or able to leave the ecosystem. Visibility of a process is
+therefore a real gain in contestability, but it is not the same as control of
+the underlying data or exposure.
+
 ## Next bounded depth test
 
 Choose one platform-mediated episode—search, recommendation, privacy
@@ -123,3 +165,4 @@ mediates what people can see and do, who gains knowledge and control, who loses
 practical alternatives, and how does that become a wider cultural or political
 pattern?
 
+Related retained records: [GM/OnStar data-control order](../../records/us-ftc-gm-onstar-data-control-order-2026.json), [California DROP implementation](../../records/us-calprivacy-drop-data-broker-deletion-2026.json), [Walmart privacy-request metrics](../../records/us-walmart-ccpa-privacy-request-completion-2025-2026.json), [Google explicit-image removal controls](../../records/us-google-search-explicit-image-removal-control-2026.json), [TAKE IT DOWN platform-removal route](../../records/us-ftc-take-it-down-act-platform-removal-2026.json), and [AI-companion exit-boundary audit](ai-companion-exit-boundary-audit-v1.md).

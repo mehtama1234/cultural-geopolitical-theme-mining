@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eac-election-administration-voting-2024",
+  "title": "Election participation depends on an administrative route from attempted ballot to counted ballot",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Election Assistance Commission 2024 Election Administration and Voting Survey; state and jurisdiction reports",
+  "geography": "United States; all 50 states, District of Columbia, and five territories",
+  "observations": [
+    {
+      "period": "2024 general election",
+      "denominator": {
+        "value": 1,
+        "unit": "state and jurisdiction election-administration reports",
+        "value_type": "source_defined_administrative_universe"
+      },
+      "measures": {
+        "citizen_voting_age_participation": {"value": 65, "unit": "approximately percent", "value_type": "reported_estimate"},
+        "counted_ballots": {"value": 158000000, "unit": "more than ballots", "value_type": "reported_total"},
+        "provisional_ballots_cast": {"value": 1736209, "unit": "reported provisional ballots", "value_type": "reported_total"},
+        "provisional_ballots_counted": {"value": 73.8, "unit": "percent of reported provisional ballots", "value_type": "reported_share"},
+        "provisional_ballots_rejected": {"value": 25.1, "unit": "percent of reported provisional ballots", "value_type": "reported_share"},
+        "jurisdictions_with_paper_or_auditable_record": {"value": 98, "unit": "more than percent of jurisdictions", "value_type": "reported_share"}
+      },
+      "method": "EAC compilation of state and local election-official responses in the biennial EAVS and companion policy survey.",
+      "uncertainty": "The report uses administrative reporting with state and jurisdiction definitions, casewise availability, and different provisional-ballot rules; rounded national summaries do not expose every local denominator.",
+      "subgroup": "States, territories, DC, local election jurisdictions, voting methods, and provisional-ballot outcomes.",
+      "counterinterpretation": "A provisional rejection may follow a valid rule or voter-cure boundary and does not alone establish wrongful exclusion; high participation and paper records can coexist with unequal access or low trust.",
+      "source_url": "https://www.eac.gov/sites/default/files/2025-06/2024_EAVS_Report_508c.pdf",
+      "retrieval_hash": "sha256:461651423fcb9aabf7032daf8b785a3f38995b82bf87d0e5bfd63326459d0af2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.eac.gov/research-and-data/studies-and-reports",
+      "claim": "EAC publishes EAVS reports, datasets, codebooks, and policy-survey materials.",
+      "status": "official-method-context"
+    },
+    {
+      "source_url": "https://www.eac.gov/news/2025/06/30/us-election-assistance-commission-releases-2024-election-administration-and-voting",
+      "claim": "EAC's release summarizes 2024 participation, counted ballots, voting methods, and paper-record use.",
+      "status": "official-summary-context"
+    }
+  ],
+  "boundary": "This record measures state-reported election administration and ballot outcomes. It does not follow individual voters, establish equal access or improper rejection, measure persuasion or trust, or connect administration to later political action.",
+  "retrieval_hash": "sha256:461651423fcb9aabf7032daf8b785a3f38995b82bf87d0e5bfd63326459d0af2"
+}

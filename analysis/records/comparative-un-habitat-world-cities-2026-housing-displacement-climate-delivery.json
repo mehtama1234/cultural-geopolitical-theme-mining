@@ -1,0 +1,88 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-habitat-world-cities-2026-housing-displacement-climate-delivery",
+  "title": "The global housing crisis is converting affordability, displacement, informality, climate exposure, and urban delivery into one access problem",
+  "theme_ids": ["cost", "energy", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "geopolitical_state_consequences", "political_judgment_action"],
+  "source_unit": "UN-Habitat, World Cities Report 2026: The Global Housing Crisis: Pathways to Action, SDG 11 Global Report 2026, and Urban Content in NDC 3.0",
+  "geography": "Global cities, urban households, informal settlements, displaced populations, national climate plans, and countries reporting to UN-Habitat",
+  "observations": [
+    {
+      "period": "2026 global housing assessment",
+      "denominator": {"value": 1, "unit": "global population and urban housing conditions covered by UN-Habitat estimates", "value_type": "global_housing_frame"},
+      "measures": {
+        "people_without_secure_adequate_housing": {"value": 3.4, "unit": "billion people lacking access to secure, safe, and adequate housing", "value_type": "reported_global_estimate"},
+        "informal_settlement_population": {"value": 1, "unit": "billion or more people living in informal settlements and slums", "value_type": "reported_global_estimate_lower_bound"},
+        "housing_deficit_2023": {"value": 288, "unit": "million housing units in the global deficit in 2023", "value_type": "reported_global_estimate"},
+        "housing_deficit_2010": {"value": 251, "unit": "million housing units in the global deficit in 2010", "value_type": "reported_global_estimate"}
+      },
+      "method": "UN-Habitat global synthesis of housing deficits, inadequate housing, informal settlements, and the social, economic, and environmental functions of adequate housing.",
+      "uncertainty": "Global estimates combine different national definitions and data quality; a housing deficit does not directly measure affordability, tenure security, service access, or individual housing trajectories in every location.",
+      "subgroup": "Urban households, informal-settlement residents, renters, owners, displaced people, low-income communities, and cities with different land and service systems.",
+      "counterinterpretation": "Housing construction, upgrading, public land, rental protections, and community-led solutions can reduce deficits without requiring identical tenure models across cities.",
+      "source_url": "https://unhabitat.org/world-cities-report-2026",
+      "retrieval_hash": "sha256:ce32190ea6cfb78c08073e3a7c04db75c6d3d4772d99cd9e43224273d30efd82",
+      "status": "reported"
+    },
+    {
+      "period": "2003-2023; displacement and housing loss",
+      "denominator": {"value": 1, "unit": "global evictions and housing-related displacement cases estimated by UN-Habitat research", "value_type": "displacement_frame"},
+      "measures": {
+        "people_evicted": {"value": 64, "unit": "million people estimated to have been evicted globally between 2003 and 2023", "value_type": "reported_global_estimate"},
+        "housing_crisis_drivers": {"value": "insufficient investment, rapid urbanization, economic instability, conflict, disasters, and climate-related displacement", "unit": "reported driver set", "value_type": "reported_mechanism"},
+        "housing_consequence_path": {"value": "housing affects livelihoods, security, social well-being, employment, public-service access, health, and economic opportunity", "unit": "reported cross-domain pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "UN-Habitat report synthesis of eviction research and the interacting economic, conflict, disaster, and climate drivers of housing insecurity.",
+      "uncertainty": "The eviction estimate is a global research estimate rather than a complete administrative count; it does not establish the relative contribution of each driver or the later outcomes for every affected household.",
+      "subgroup": "Evicted households, displaced populations, tenants, informal-settlement residents, disaster-affected communities, and local governments.",
+      "counterinterpretation": "Some households move voluntarily or secure improved housing after displacement; prevention, compensation, legal assistance, and upgrading can change the trajectory even when initial housing loss is severe.",
+      "source_url": "https://unhabitat.org/world-cities-report-2026",
+      "retrieval_hash": "sha256:ce32190ea6cfb78c08073e3a7c04db75c6d3d4772d99cd9e43224273d30efd82",
+      "status": "reported"
+    },
+    {
+      "period": "2026; urban housing as a multi-dimensional city-system outcome",
+      "denominator": {"value": 1, "unit": "UN-Habitat World Cities Report framework for the global housing crisis", "value_type": "urban_housing_system_frame"},
+      "measures": {
+        "interlocking_dimensions": {"value": "affordability, displacement, informality, resilience and sustainability, and liveability", "unit": "five dimensions of the global housing crisis", "value_type": "reported_framework"},
+        "sdg11_linkages": {"value": "housing conditions shape transport, urban planning, environmental quality, disaster-risk reduction, public space, heritage, and local implementation", "unit": "reported policy linkage set", "value_type": "reported_mechanism"},
+        "data_gap": {"value": "urban data remain insufficiently disaggregated to understand inequalities affecting vulnerable people at city and neighbourhood levels", "unit": "reported measurement gap", "value_type": "reported_boundary"}
+      },
+      "method": "UN-Habitat SDG 11 and World Cities Report frameworks linking housing conditions and policy choices to urban outcomes.",
+      "uncertainty": "A framework identifies connected mechanisms but does not estimate causal effects between each housing dimension and each urban outcome; city and neighbourhood data remain uneven.",
+      "subgroup": "Cities, neighbourhoods, vulnerable residents, public-service users, planners, housing providers, and local implementation institutions.",
+      "counterinterpretation": "Integrated planning can create co-benefits, but transport, public space, resilience, and housing interventions may also compete for land, funding, and political attention.",
+      "source_url": "https://unhabitat.org/sdg-11-global-report-2026-housing-at-the-centre-of-sustainable-cities-and-communities",
+      "retrieval_hash": "sha256:ce32190ea6cfb78c08073e3a7c04db75c6d3d4772d99cd9e43224273d30efd82",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Nationally Determined Contributions 3.0 submitted through mid-April 2026",
+      "denominator": {"value": 142, "unit": "third-generation Nationally Determined Contributions analyzed by UN-Habitat", "value_type": "climate_plan_frame"},
+      "measures": {
+        "well_developed_urban_content": {"value": 80, "unit": "percent of submitted NDCs 3.0 featuring well-developed urban content, compared with 49 percent in the previous cycle", "value_type": "reported_plan_share"},
+        "housing_informal_settlements_priority": {"value": "almost half of submitted NDCs include housing and informal settlements as a cross-cutting climate priority", "unit": "reported_plan pattern", "value_type": "reported_policy_share_approximate"},
+        "urban_delivery_mechanisms": {"value": 75, "unit": "approximately percent of NDCs including concrete urban delivery mechanisms", "value_type": "reported_plan_share_approximate"},
+        "governance_route": {"value": "multilevel governance and capacity-building increasingly connect national climate commitments to cities and regions", "unit": "reported implementation mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN-Habitat comparative review of 142 third-generation national climate plans submitted by mid-April 2026.",
+      "uncertainty": "Plan content is an intention and implementation signal, not evidence of funded delivery, emissions reduction, housing improvement, or equal local capacity; the 75 percent figure is reported approximately.",
+      "subgroup": "National governments, city and regional authorities, housing agencies, informal settlements, climate-vulnerable residents, and multilevel delivery partners.",
+      "counterinterpretation": "More urban content may reflect stronger planning language without additional resources; conversely, local delivery mechanisms can produce progress even when national plan language is thin.",
+      "source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre",
+      "retrieval_hash": "sha256:ce32190ea6cfb78c08073e3a7c04db75c6d3d4772d99cd9e43224273d30efd82",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unhabitat.org/sdg-11-global-report-2026-housing-at-the-centre-of-sustainable-cities-and-communities", "claim": "UN-Habitat SDG 11 report places housing at the centre of urban progress across transport, planning, environment, resilience, public space, heritage, and implementation."},
+    {"source_url": "https://unhabitat.org/urban-content-in-ndc-30-cities-at-the-centre", "claim": "UN-Habitat review of urban content in third-generation national climate plans."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-11/", "claim": "UN SDG 11 indicators provide complementary global measures of urban land, public space, transport, and resilience."}
+  ],
+  "boundary": "This record adds a place and housing route linking affordability, displacement, informality, liveability, climate exposure, urban services, and multilevel delivery. It is not a city-specific rent estimate, a causal evaluation of housing policy, a household panel, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN-Habitat World Cities Report 2026, SDG 11 Global Report 2026, Urban Content in NDC 3.0, and complementary UN SDG 11 materials were reviewed; housing, displacement, urban-system, climate-plan, and measurement-boundary claims were cross-checked.",
+    "source_url_sha256": "sha256:ce32190ea6cfb78c08073e3a7c04db75c6d3d4772d99cd9e43224273d30efd82",
+    "checked": "2026-09-26"
+  }
+}

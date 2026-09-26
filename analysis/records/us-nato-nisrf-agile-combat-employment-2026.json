@@ -1,0 +1,142 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-nisrf-agile-combat-employment-2026",
+  "title": "A multinational ISR capability moved from readiness toward repeated operations with host-nation support",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NATO Intelligence, Surveillance and Reconnaissance Force account of Agile Combat Employment 2026; named force-level operating record, not a member-state or public-opinion sample",
+  "geography": "NATO ISR Force operations across Norway, Finland, and Italy in support of Alliance activities",
+  "observations": [
+    {
+      "period": "June 2026; Agile Combat Employment operating period",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO ISR Force Agile Combat Employment activity",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "aircraft_flight_hours": {
+          "value": 180,
+          "unit": "approximately flight hours by NATO-owned RQ-4D Phoenix aircraft",
+          "value_type": "reported_operational_output"
+        },
+        "intelligence_products": {
+          "value": 500,
+          "unit": "more than intelligence products produced for NATO activities, exercise objectives, and Alliance decision-makers",
+          "value_type": "reported_operational_output"
+        },
+        "operating_locations": {
+          "value": "Norway, Finland, and Italy",
+          "unit": "host-nation operating locations",
+          "value_type": "reported_multisite_operation"
+        },
+        "integrated_support": {
+          "value": "aircraft, mission crews, ISR specialists, support personnel, infrastructure, and host-nation capabilities operated as one ISR enterprise",
+          "unit": "reported operating integration",
+          "value_type": "reported_integration_stage"
+        },
+        "mission_or_external_effect": {
+          "value": "not observed beyond reported support to named NATO activities",
+          "unit": "missing adversary response, deterrence, policy change, public acceptance, and member-state burden outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NATO ISR Force operating account; flight hours, intelligence products, locations, support integration, and transition toward full operational capability are retained as separate observed stages.",
+      "uncertainty": "The account does not identify the content or decision effect of each intelligence product, causal contribution to any operational decision, adversary adaptation, host-community burden, member-state cost, operator workload, or public consent.",
+      "subgroup": "NATO ISR Force personnel, host-nation personnel and infrastructure, and Alliance decision-makers; no individual operator, resident, or member-state outcome sample is provided.",
+      "counterinterpretation": "Repeated operations and measurable outputs show a real operating capability, but they do not by themselves prove strategic advantage, deterrence, alliance durability, or local legitimacy.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-concludes-ace--delivering-persistent-isr-across-major-nato-activities",
+      "retrieval_hash": "sha256:524b498005527a324a6aebb3ba930649fde67cff1a673e13af0324ed544b8e1e",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026; Neptune Strike 26-3",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO NISRF support activity during Neptune Strike 26-3",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "operational_integration": {
+          "value": "NISRF supported persistent ISR collection and Find-Fix-Track processes during a NATO enhanced-vigilance activity in the High North and North Atlantic",
+          "unit": "reported mission-support stage",
+          "value_type": "reported_operational_integration"
+        },
+        "decision_support": {
+          "value": "timely intelligence products supported operational planning, situational awareness, and decision-making in a dynamic operational environment",
+          "unit": "reported decision-support use",
+          "value_type": "reported_operational_use"
+        },
+        "adversary_or_policy_effect": {
+          "value": "not observed",
+          "unit": "missing attributed adversary response, policy change, deterrence, public acceptance, and durable alliance outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NISRF Neptune Strike 26-3 account; mission support and reported decision-support use are coded separately from strategic effect or adversary response.",
+      "uncertainty": "The account does not identify the intelligence product denominator, the specific decisions affected, counterfactual decision quality, operator burden, host-nation cost, or changed behavior by any external actor.",
+      "subgroup": "NISRF personnel, NATO commanders, and participating maritime and air forces; no resident, operator-level, or adversary outcome sample is provided.",
+      "counterinterpretation": "Reported decision-support use is a later operational stage than technical authorization, but an exercise or enhanced-vigilance activity still does not prove combat effectiveness or deterrence.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-enhances-natos-multidomain-isr-during-neptune-strike-263",
+      "retrieval_hash": "sha256:9f44a1cf15a3eae08276c280db7bea10f0c8d7a60fd12ecad0fb5a8bed8f0a3a",
+      "status": "reported"
+    },
+    {
+      "period": "August 2026; Northern Viking 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO NISRF support mission during Northern Viking 2026",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "maritime_operation": {
+          "value": "an RQ-4D Phoenix mission was integrated into a multinational maritime scenario in the High North",
+          "unit": "reported mission integration",
+          "value_type": "reported_operational_use"
+        },
+        "surface_picture_support": {
+          "value": "the mission contributed to a surface picture supporting over-the-horizon targeting for naval surface combatants in the GIUK Gap",
+          "unit": "reported operational-support output",
+          "value_type": "reported_operational_output"
+        },
+        "targeting_effect_or_external_response": {
+          "value": "not observed",
+          "unit": "missing weapon employment, target outcome, adversary response, deterrence, and public-legitimacy endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the official NISRF Northern Viking 2026 account; integration into the maritime scenario and reported surface-picture support are retained without converting them into targeting success or strategic effect.",
+      "uncertainty": "The source does not identify target decisions, weapon employment, mission accuracy, external response, host-community burden, or the contribution of NISRF relative to other participating assets.",
+      "subgroup": "NISRF, U.S.-Iceland-led exercise participants, and allied maritime forces; no public or adversary outcome sample is provided.",
+      "counterinterpretation": "A reported surface-picture contribution can demonstrate useful operational integration while leaving actual targeting, deterrence, and alliance durability unresolved.",
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-supports-allied-maritime-operations-during-northern-viking-2026.aspx",
+      "retrieval_hash": "sha256:4b82dc7ee1d5a373afd5d32c96d5e37ea28ab0cbe0a36984b5cf20578b2de2f5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nato.int/en/what-we-do/deterrence-and-defence/allied-command-operations-aco",
+      "claim": "NATO Allied Command Operations provides the operational context for Alliance missions and responses.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-enhances-natos-multidomain-isr-during-neptune-strike-263",
+      "claim": "NISRF describes decision-support use during Neptune Strike 26-3.",
+      "status": "official-operational-follow-up"
+    },
+    {
+      "source_url": "https://nisrf.nato.int/home/newsroom/news-2026/nisrf-supports-allied-maritime-operations-during-northern-viking-2026.aspx",
+      "claim": "NISRF describes a maritime mission contributing to a surface picture supporting over-the-horizon targeting during Northern Viking 2026.",
+      "status": "official-operational-follow-up"
+    }
+  ],
+  "boundary": "This record adds a later geopolitical realization stage: a named multinational force operated across host nations, produced reported intelligence outputs, and integrated personnel, infrastructure, and host-nation support. It does not establish the content or adequacy of those outputs, changed adversary behavior, deterrence, public consent, host-community burden, or durable alliance leverage. The next test is an event-specific mission or host-nation follow-up with attributed external response, acceptance, cost, or reversal.",
+  "retrieval_hash": "sha256:524b498005527a324a6aebb3ba930649fde67cff1a673e13af0324ed544b8e1e"
+}

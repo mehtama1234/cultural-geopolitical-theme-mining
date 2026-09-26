@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-tribal-water-infrastructure-access-maintenance-2026",
+  "title": "Tribal water infrastructure is constrained by eligibility rules, fragmented access, and an underfunded maintenance stage",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "care_health_reproduction"
+  ],
+  "source_unit": "U.S. Government Accountability Office report GAO-26-107178, September 2026",
+  "geography": "United States tribal communities",
+  "observations": [
+    {
+      "period": "Report findings through fiscal year 2026; published September 22, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO evaluation of selected IHS, EPA, and USDA tribal water infrastructure programs",
+        "value_type": "publication_unit"
+      },
+      "measures": {
+        "remaining_need": {
+          "value": "IHS estimated that at least $6 billion remained needed as of November 2025 to ensure all tribal communities had safe drinking water and wastewater disposal; GAO reports the residual as $5.3 billion in eligible costs and $1.2 billion in ineligible costs",
+          "unit": "reported infrastructure funding need",
+          "value_type": "administrative_estimate"
+        },
+        "administrative_burden_example": {
+          "value": "IHS officials reported spending more than 80 hours helping one Tribe obtain an $8,000 grant and additional hours helping report its use",
+          "unit": "reported staff hours and grant amount for one case",
+          "value_type": "reported_case_example"
+        },
+        "eligibility_boundary": {
+          "value": "IHS eligibility can exclude nontribal homes occupied by tribal members, tribal homes with fewer than five years remaining on a lease, certain community buildings, and new HUD-funded homes",
+          "unit": "reported program eligibility rules",
+          "value_type": "documented_rule"
+        },
+        "maintenance_capacity": {
+          "value": "As of May 2026, IHS had 22 tribal utility consultants; officials in one area office said four consultants were expected to work with 104 Tribes. IHS generally does not fund routine long-term O&M such as water-operator salaries and energy costs",
+          "unit": "reported technical-assistance staffing and funding boundary",
+          "value_type": "administrative_capacity_measure"
+        },
+        "infrastructure_lifecycle": {
+          "value": "IHS reported eligible costs in its sanitation-deficiency database rising from $4.7 billion in FY2023 to $5.9 billion in FY2024, partly because of aging infrastructure and inadequate operations and maintenance",
+          "unit": "reported eligible project costs",
+          "value_type": "administrative_time_series"
+        }
+      },
+      "method": "GAO review of agency data and program documents, interagency materials, site visits in Alaska and Arizona, and interviews with Tribes, tribal organizations, and federal officials; the report evaluates eligibility, interagency access, and operations and maintenance.",
+      "uncertainty": "The report is a program and administrative evaluation, not a population estimate of all tribal water systems or a causal estimate of health effects. The $6 billion need and database-cost figures depend on agency definitions and data quality; the single $8,000 case illustrates burden but is not an average.",
+      "subgroup": "Tribal communities and the selected IHS, EPA, and USDA programs; findings include examples from Alaska and Arizona and distinguish eligible from ineligible homes and community properties.",
+      "counterinterpretation": "Fragmentation and maintenance gaps do not mean no infrastructure is delivered or that every eligibility boundary produces harm. Federal agencies and Tribes have collaboration and technical-assistance efforts, and GAO recommends pilots and rule changes rather than claiming that a single funding route would solve all needs.",
+      "source_url": "https://files.gao.gov/assets/gao-26-107178.pdf",
+      "retrieval_hash": "sha256:6a3f189cfe3be228cf0e544c0e9b3b6f7e788a45ab98ee74d3b0c4787f3d05db",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a tribal public-infrastructure access and lifecycle-capacity layer. It does not estimate all tribal health outcomes, assign causal responsibility for infrastructure failure, generalize the illustrative administrative case, or treat proposed GAO recommendations as implemented policy.",
+  "retrieval_hash": "sha256:6a3f189cfe3be228cf0e544c0e9b3b6f7e788a45ab98ee74d3b0c4787f3d05db"
+}

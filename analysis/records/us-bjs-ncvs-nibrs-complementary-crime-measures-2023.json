@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bjs-ncvs-nibrs-complementary-crime-measures-2023",
+  "title": "Victim surveys and police records measure overlapping but different crime worlds",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Bureau of Justice Statistics comparison of the National Crime Victimization Survey and FBI National Incident-Based Reporting System",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023; violent crime excluding simple assault",
+      "denominator": {
+        "value": 1000,
+        "unit": "persons for both comparable reported-to-police rates",
+        "value_type": "published_rate_base"
+      },
+      "measures": {
+        "ncvs_reported_to_police": {"value": 4.42, "unit": "victimizations per 1,000 persons age 12 or older", "value_type": "published_estimate"},
+        "nibrs_recorded": {"value": 3.88, "unit": "recorded crimes per 1,000 persons", "value_type": "published_estimate"},
+        "measure_gap": {"value": 0.54, "unit": "NCVS minus NIBRS rate points per 1,000", "value_type": "derived_comparison"}
+      },
+      "method": "BJS comparison aligning NCVS violent crime reported to police and excluding simple assault as closely as possible with FBI NIBRS estimates; source-specific definitions and populations remain distinct.",
+      "uncertainty": "NCVS interviews persons age 12 or older about experienced crimes and NIBRS counts incidents recorded by law enforcement. Crime definitions, covered populations, reporting completeness, reference periods, and estimation methods differ.",
+      "subgroup": "United States; comparison covers multiple crime types and 2022–2023 estimates, with separate person and household denominators by crime category.",
+      "counterinterpretation": "The rate difference is not a direct nonreporting rate, agency-performance rate, or victimization gap. It can reflect nonreporting, coverage, definitions, survey recall, agency reporting completeness, and included populations.",
+      "source_url": "https://bjs.ojp.gov/document/ncvsnibrscpc23.pdf",
+      "retrieval_hash": "sha256:35bf1a10efe1a157d0da50b0073b779171329c54a37d06e8c475c54ec8665f6c",
+      "status": "compared"
+    },
+    {
+      "period": "2023; property crime",
+      "denominator": {
+        "value": 1000,
+        "unit": "households for NCVS and persons for NIBRS; not a common denominator",
+        "value_type": "source_specific_rate_bases"
+      },
+      "measures": {
+        "ncvs_property_rate": {"value": 30.61, "unit": "victimizations per 1,000 households reported to police", "value_type": "published_estimate"},
+        "nibrs_property_rate": {"value": 20.15, "unit": "recorded crimes per 1,000 persons", "value_type": "published_estimate"},
+        "denominator_boundary": {"value": "not directly comparable as one rate", "unit": "measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "BJS comparison table; property rates are retained with their original household versus person denominators.",
+      "uncertainty": "Because the denominators differ, the numbers cannot be subtracted or interpreted as a reporting share. NCVS excludes some populations and NIBRS includes crimes and populations not covered by NCVS.",
+      "subgroup": "U.S. households for NCVS property victimization and U.S. persons/crime incidents for NIBRS.",
+      "counterinterpretation": "A larger NCVS numeric rate does not establish more unrecorded crime without aligning units, populations, definitions, and reporting paths.",
+      "source_url": "https://bjs.ojp.gov/document/ncvsnibrscpc23.pdf",
+      "retrieval_hash": "sha256:35bf1a10efe1a157d0da50b0073b779171329c54a37d06e8c475c54ec8665f6c",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bjs.ojp.gov/programs/ncvs", "claim": "BJS describes NCVS as a survey of crimes experienced and reported or not reported to police.", "status": "official-method-context"},
+    {"source_url": "https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/ucr/ucr-nibrs", "claim": "FBI describes NIBRS as law-enforcement incident reporting.", "status": "official-method-context"}
+  ],
+  "boundary": "This record adds a measurement boundary between victim experience and police-recorded crime. It does not establish a universal true crime rate, a reporting percentage, police performance, case resolution, safety, trust, or political response.",
+  "retrieval_hash": "sha256:35bf1a10efe1a157d0da50b0073b779171329c54a37d06e8c475c54ec8665f6c"
+}

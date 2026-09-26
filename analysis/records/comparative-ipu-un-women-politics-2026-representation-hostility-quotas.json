@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ipu-un-women-politics-2026-representation-hostility-quotas",
+  "title": "Women’s political representation is edging forward while executive power, parliamentary leadership, and safety remain sharply unequal",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "geopolitical_state_consequences"],
+  "source_unit": "Inter-Parliamentary Union and UN Women, Women in Politics: 2026 and Women in Parliament 2025 reporting",
+  "geography": "Global national parliaments, cabinets, heads of state or government, parliamentary speakers, women parliamentarians, and countries holding elections or parliamentary renewals in 2025",
+  "observations": [
+    {
+      "period": "1 January 2026; global political representation",
+      "denominator": {"value": 1, "unit": "countries and national political institutions covered by IPU-UN Women Women in Politics 2026 data", "value_type": "global_political_representation_frame"},
+      "measures": {
+        "women_parliamentary_seats": {"value": 27.5, "unit": "percent of national parliamentary seats held by women worldwide", "value_type": "reported_representation_share"},
+        "women_cabinet_posts": {"value": 22.4, "unit": "percent of cabinet minister positions held by women worldwide", "value_type": "reported_representation_share"},
+        "women_heads_state_or_government": {"value": 28, "unit": "countries led by a woman Head of State or Government in 2026", "value_type": "reported_country_count"},
+        "countries_never_woman_leader": {"value": 101, "unit": "countries that have never had a woman leader", "value_type": "reported_country_count"},
+        "cabinet_parity_countries": {"value": 14, "unit": "countries that have achieved gender parity in cabinet", "value_type": "reported_country_count"}
+      },
+      "method": "IPU and UN Women compilation of official political leadership, cabinet, and parliamentary representation data as of 1 January 2026.",
+      "uncertainty": "Representation counts describe formal officeholding, not policy influence, constituency service, agenda control, political preferences, or outcomes for women and other groups.",
+      "subgroup": "Women and men in national political institutions, candidates, parties, voters, cabinets, parliaments, and countries with different electoral systems and quotas.",
+      "counterinterpretation": "Descriptive representation can coexist with limited authority, while small numerical gains can still change norms, networks, and policy attention; parity in one institution does not establish equal power across the system.",
+      "source_url": "https://www.ipu.org/news/press-releases/2026-03/only-1-7-countries-led-woman-global-political-power-remains-dominated-men",
+      "retrieval_hash": "sha256:8efe1416a42cb51e2530b1f9ff6f5a5bbdc6350ad999648d4b35131dee59f23a",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; parliamentary representation and leadership trajectory",
+      "denominator": {"value": 1, "unit": "national parliamentary seats and Speakers of Parliament worldwide", "value_type": "parliamentary_representation_frame"},
+      "measures": {
+        "parliamentary_change": {"value": 0.3, "unit": "percentage-point increase in women's share of parliamentary seats from 2025 to 2026", "value_type": "reported_representation_change"},
+        "women_speakers": {"value": 19.9, "unit": "percent of Speakers of Parliament who were women as of January 2026", "value_type": "reported_leadership_share"},
+        "women_speakers_count": {"value": 54, "unit": "women serving as Speakers of Parliament as of January 2026", "value_type": "reported_leadership_count"},
+        "new_speaker_share": {"value": 16, "unit": "percent of 75 new Speakers appointed or elected in 2025 who were women", "value_type": "reported_leadership_share"},
+        "progress_pattern": {"value": "parliamentary representation gained slowly while women’s share of parliamentary speakers declined", "unit": "reported institutional trajectory", "value_type": "reported_trend"}
+      },
+      "method": "IPU annual comparison of parliamentary composition, parliamentary leadership, and countries holding parliamentary renewals in 2025.",
+      "uncertainty": "Annual officeholding changes do not identify candidate pipelines, party selection, committee authority, legislative outcomes, or why leadership changed in a particular country.",
+      "subgroup": "Women parliamentarians, Speakers, candidates, political parties, electoral administrators, legislative staff, and voters.",
+      "counterinterpretation": "Leadership turnover and election timing can move annual shares; formal representation may still build experience, networks, and future leadership pathways even when headline progress is slow.",
+      "source_url": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains",
+      "retrieval_hash": "sha256:8efe1416a42cb51e2530b1f9ff6f5a5bbdc6350ad999648d4b35131dee59f23a",
+      "status": "reported"
+    },
+    {
+      "period": "2025; political hostility and participation risk",
+      "denominator": {"value": 1, "unit": "parliamentarians surveyed in IPU reporting on public intimidation and violence", "value_type": "reported_parliamentarian_survey_frame"},
+      "measures": {
+        "women_public_intimidation": {"value": 76, "unit": "percent of women parliamentarians surveyed who experienced violence or intimidation by the public online or offline", "value_type": "reported_survey_share"},
+        "men_public_intimidation": {"value": 68, "unit": "percent of men parliamentarians surveyed who experienced violence or intimidation by the public online or offline", "value_type": "reported_survey_share"},
+        "participation_mechanism": {"value": "hostility and intimidation can deter women from seeking office and slow progress toward equal political power", "unit": "reported political-participation mechanism", "value_type": "reported_mechanism"},
+        "safety_endpoint": {"value": "formal representation requires safe participation, not only access to seats", "unit": "reported institutional boundary", "value_type": "reported_boundary"}
+      },
+      "method": "IPU report synthesis using survey evidence on public intimidation and violence against parliamentarians, combined with representation data.",
+      "uncertainty": "The survey is not a population estimate of all politicians or citizens and does not establish that intimidation caused exit, non-candidacy, or policy change; reporting and exposure may differ by context.",
+      "subgroup": "Women and men parliamentarians, candidates, public officials, online communities, parties, security institutions, and journalists.",
+      "counterinterpretation": "Some hostility reflects public contestation that affects politicians of all genders, while stronger institutional security, platform governance, party support, and accountability may reduce unequal exposure without suppressing legitimate criticism.",
+      "source_url": "https://www.ipu.org/news/press-releases/2026-03/only-1-7-countries-led-woman-global-political-power-remains-dominated-men",
+      "retrieval_hash": "sha256:8efe1416a42cb51e2530b1f9ff6f5a5bbdc6350ad999648d4b35131dee59f23a",
+      "status": "reported"
+    },
+    {
+      "period": "2025 elections and parliamentary renewals; institutional rules",
+      "denominator": {"value": 49, "unit": "countries that held parliamentary renewals covering 62 chambers in 2025", "value_type": "election_renewal_frame"},
+      "measures": {
+        "countries_renewed": {"value": 49, "unit": "countries holding parliamentary renewals in 2025", "value_type": "reported_country_count"},
+        "chambers_renewed": {"value": 62, "unit": "parliamentary chambers covered by those renewals", "value_type": "reported_chamber_count"},
+        "americas_representation": {"value": 35.6, "unit": "percent of parliamentarians who were women in the Americas as of 1 January 2026", "value_type": "reported_regional_share"},
+        "quota_mechanism": {"value": "well-designed and implemented quotas continued to play a critical role in increasing women's parliamentary representation", "unit": "reported institutional mechanism", "value_type": "reported_policy_mechanism"},
+        "parity_cases": {"value": "Bolivia joined Cuba, Nicaragua, Mexico, Rwanda, Andorra, and the United Arab Emirates among countries with parity or more women in the lower or single chamber", "unit": "reported parity pattern", "value_type": "reported_institutional_pattern"}
+      },
+      "method": "IPU analysis of parliamentary renewals, electoral outcomes, regional representation, and quota implementation in 2025.",
+      "uncertainty": "Quota associations do not isolate quota design from party behavior, enforcement, electoral system, candidate supply, or broader social conditions; chamber-level parity does not prove equal influence.",
+      "subgroup": "Women candidates, parties, electoral-management bodies, parliaments, voters, and countries using different quota and seat-allocation rules.",
+      "counterinterpretation": "Quotas can widen access but may be symbolic, circumvented, or unevenly enforced; non-quota reforms, party recruitment, financing, safety, and care support may also matter.",
+      "source_url": "https://www.ipu.org/news/press-releases/2026-03/womens-representation-in-parliament-sees-sluggish-gains",
+      "retrieval_hash": "sha256:8efe1416a42cb51e2530b1f9ff6f5a5bbdc6350ad999648d4b35131dee59f23a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ipu.org/file/23158/download", "claim": "Official IPU Women in Politics: 2026 map and country rankings."},
+    {"source_url": "https://www.ipu.org/file/23329/download", "claim": "Official IPU Women in Parliament 2025 report and parliamentary renewal analysis."},
+    {"source_url": "https://data.ipu.org/", "claim": "IPU Parline global data platform for national parliament and youth representation context."}
+  ],
+  "boundary": "This record adds a political-voice route linking formal representation, executive and parliamentary leadership, electoral rules, quotas, public hostility, safety, and participation. It is not a survey of general citizens, a causal estimate of women’s policy influence, proof of equal power, or a respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IPU and IPU-UN Women 2026 press-release summaries, Women in Parliament 2025 reporting, and linked official data resources were reviewed; representation, leadership, hostility, elections, quota, regional, and boundary claims were cross-checked.",
+    "source_url_sha256": "sha256:8efe1416a42cb51e2530b1f9ff6f5a5bbdc6350ad999648d4b35131dee59f23a",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-social-trust-financial-wellbeing-longitudinal-2020-2025",
+  "title": "Financial well-being is associated with changes in generalized social trust across a five-year respondent follow-up",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center repeated respondents in March 2020 and February 2025 American Trends Panel surveys",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "March 2020 to February 2025; respondents answering the generalized social-trust question in both surveys",
+      "denominator": {
+        "value": 4000,
+        "unit": "more than 4,000 repeated respondents with valid trust responses in both waves",
+        "value_type": "reported_repeated_respondent_count"
+      },
+      "measures": {
+        "changed_trust_view": {
+          "value": 25,
+          "unit": "percent changing their answer to whether most people can be trusted",
+          "value_type": "published_longitudinal_share"
+        },
+        "gained_trust": {
+          "value": 14,
+          "unit": "percent changing from the lower-trust to higher-trust response",
+          "value_type": "published_longitudinal_share"
+        },
+        "lost_trust": {
+          "value": 11,
+          "unit": "percent changing from the higher-trust to lower-trust response",
+          "value_type": "published_longitudinal_share"
+        },
+        "comfortable_living_and_lost_trust": {
+          "value": "less likely",
+          "unit": "relative likelihood of losing trust among respondents who said they lived comfortably versus those who did not",
+          "value_type": "published_directional_association"
+        }
+      },
+      "method": "Pew longitudinal comparison of repeated American Trends Panel respondents interviewed approximately five years apart; the published analysis compares trust transitions and models financial well-being alongside demographic characteristics.",
+      "uncertainty": "The article reports a directional association between financial well-being and trust loss, not a causal effect or a quantified treatment estimate. The five-year interval includes the COVID-19 pandemic, political transitions, changing household conditions, attrition, and possible measurement or recall differences.",
+      "subgroup": "Respondents classified by whether they said they lived comfortably; the published analysis controls for other demographic characteristics but does not provide a dated bill, job loss, institutional encounter, or respondent-level remedy path in the article.",
+      "counterinterpretation": "Financial well-being may reflect prior health, employment, education, race, age, family conditions, neighborhood, political identity, or unmeasured experiences that also affect social trust. Trust change is not institutional confidence, civic action, voting, or observed help.",
+      "source_url": "https://www.pewresearch.org/2025/05/08/americans-trust-in-one-another/",
+      "retrieval_hash": "sha256:10a7adf55d9fadaa3b6d4621c4bde89393f0a581fecd3991caf9fb8d96ffd3ac",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2025/05/social-trust_2025.05.08_topline-combined.pdf",
+      "claim": "Pew's published topline and methodology provide the related survey question and field documentation for the social-trust analysis.",
+      "status": "official-method"
+    }
+  ],
+  "boundary": "This record adds a repeated-respondent association between reported financial well-being and change in generalized social trust. It does not establish that hardship caused trust loss, identify the material event or responsible actor, measure institutional response or remedy, or observe later contact, organizing, turnout, voting, switching, non-use, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew data essay downloaded and hashed; the article's repeated-respondent, 25%, 14%, 11%, and financial-well-being statements were checked against the published page.",
+    "checked": "2026-09-25"
+  }
+}

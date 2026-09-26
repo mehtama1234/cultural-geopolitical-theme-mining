@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-irs-child-tax-credit-participation-dollar-gap-2021",
+  "title": "A family can count as a participating taxpayer while some eligible credit dollars remain unclaimed",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["public_systems_feedback", "household_room_consumption", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "Census/IRS CES-26-49 Exact Match estimates linking the 2022 CPS ASEC to IRS administrative tax and advance-payment records for tax year 2021",
+  "geography": "United States; national estimates for eligible tax units/taxpayers and eligible CTC/ACTC dollars",
+  "observations": [
+    {
+      "period": "Tax year 2021; paper published August 2026",
+      "denominator": {"value": 1, "unit": "study-defined eligible taxpayer denominator and separate modeled eligible CTC/ACTC dollar denominator", "value_type": "study_defined_separate_denominators"},
+      "measures": {
+        "taxpayer_participation": {"value": "91%", "unit": "share of eligible taxpayers who received a CTC/ACTC payment", "value_type": "reported_estimate"},
+        "dollar_participation": {"value": "85%", "unit": "share of modeled eligible CTC/ACTC dollars paid", "value_type": "reported_estimate"},
+        "eligible_nonparticipants": {"value": "approximately 3.1 million taxpayers, or 9% of eligible taxpayers", "unit": "eligible taxpayers who did not participate", "value_type": "reported_estimate"},
+        "unclaimed_dollars": {"value": "approximately $26 billion, including $6.9 billion among non-filers, $5.9 billion among filers claiming no CTC/ACTC, and $13.2 billion among under-claimants", "unit": "estimated eligible dollars not paid or not fully claimed", "value_type": "reported_estimate"},
+        "nonparticipant_composition": {"value": "82% of eligible nonparticipants were in tax units with adjusted gross income below $75,000; 53% filed a return", "unit": "composition of eligible nonparticipants", "value_type": "reported_comparison"}
+      },
+      "method": "The study uses CPS ASEC survey information to model tax units, qualifying dependents, eligibility, and eligible credit amounts with NBER TAXSIM, then links people to IRS administrative tax and advance-payment records using protected identifiers. IRS records identify claimed and paid amounts; survey weights are adjusted for linked-person coverage.",
+      "uncertainty": "The estimates are conditional on modeled eligibility and are subject to error in tax-unit and dependent modeling, survey-to-tax reference-period differences, income differences, population-concept differences, probabilistic linkage, and survey nonresponse/imputation. The authors note the 2021 estimates use a new methodology and may be revised, especially unclaimed-dollar estimates.",
+      "subgroup": "National eligible taxpayer and dollar estimates, with reported comparisons by household head sex, marital status, number of qualifying dependents, income, filing status, and nonparticipant composition. These are tax-unit and dollar groups, not a longitudinal household panel.",
+      "counterinterpretation": "The gap between taxpayer and dollar participation may reflect under-claiming among people with different modeled credit amounts, eligibility-model error, non-filing, household/tax-unit differences, or timing and advance-payment reconciliation rather than one single administrative barrier. High participation does not prove adequate benefit size, timely receipt, or improved household security.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-49.html",
+      "retrieval_hash": "sha256:c14b883a31cf4994889230f0b1a5521178e766bf40c6dc67eaf6f967d4b47cf5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2024/adrm/CES-WP-24-76.html", "claim": "The 2020 CTC/ACTC paper uses a prior methodology and is a related year, not the same estimate; the 2021 paper says the methods are not directly comparable.", "status": "related-distinct-vintage"}
+  ],
+  "boundary": "This record adds a benefit-eligibility-to-payment conversion boundary. It does not establish why an eligible taxpayer did not claim or receive a dollar, whether the credit arrived on time, what households spent it on, whether it was adequate, or whether it changed durable poverty, health, care, trust, or political action."
+}

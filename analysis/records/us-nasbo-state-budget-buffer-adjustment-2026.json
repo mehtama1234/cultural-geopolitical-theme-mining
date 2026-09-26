@@ -1,0 +1,126 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nasbo-state-budget-buffer-adjustment-2026",
+  "title": "State budgets can keep growing while using targeted adjustments and prior surplus",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "National Association of State Budget Officers Spring 2026 Fiscal Survey of States; state budget offices",
+  "geography": "United States; states, territories, and District of Columbia budget-office survey, with state counts reported for selected items",
+  "observations": [
+    {
+      "period": "Fiscal 2027 proposed budgets compared with estimated fiscal 2026",
+      "denominator": {
+        "value": 50,
+        "unit": "US state budget offices represented in the survey context",
+        "value_type": "reported_universe"
+      },
+      "measures": {
+        "median_general_fund_spending_change": {
+          "value": 0.6,
+          "unit": "percent change in proposed fiscal 2027 general-fund spending from estimated fiscal 2026",
+          "value_type": "reported_median"
+        },
+        "states_reporting_targeted_spending_cuts": {
+          "value": 22,
+          "unit": "states",
+          "value_type": "reported_count"
+        },
+        "states_reporting_vacant_position_elimination": {
+          "value": 14,
+          "unit": "states",
+          "value_type": "reported_count"
+        },
+        "states_reporting_revenue_increases": {
+          "value": 14,
+          "unit": "states",
+          "value_type": "reported_count"
+        }
+      },
+      "method": "NASBO summary of data gathered from state budget offices; spring survey describes governors' proposed budgets and fiscal conditions.",
+      "uncertainty": "The spending figure is a median proposal comparison, not enacted implementation. The adjustment counts do not identify the affected agency, program, place, worker, or household.",
+      "subgroup": "States reporting selected budget adjustment strategies; the survey summary does not provide a common service-level denominator for these counts.",
+      "counterinterpretation": "Targeted cuts and vacant-position reductions can coexist with protected or expanded priority services; revenue increases and one-time spending can change the mix without reducing total nominal spending.",
+      "source_url": "https://www.nasbo.org/reports-data/fiscal-survey-of-states",
+      "retrieval_hash": "sha256:33cd229352d8dee95f40856e3dd620c8a0289aa1fc73e3b0953467f5db490bf4",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2026 revenue compared with original forecasts",
+      "denominator": {
+        "value": 49,
+        "unit": "states reporting revenue status in the NASBO summary",
+        "value_type": "reported_universe"
+      },
+      "measures": {
+        "above_original_forecast": {
+          "value": 29,
+          "unit": "states",
+          "value_type": "reported_count"
+        },
+        "on_target": {
+          "value": 9,
+          "unit": "states",
+          "value_type": "reported_count"
+        },
+        "below_original_forecast": {
+          "value": 11,
+          "unit": "states",
+          "value_type": "reported_count"
+        }
+      },
+      "method": "NASBO state budget-office report of fiscal 2026 revenue relative to original forecasts at the time of data collection.",
+      "uncertainty": "The classification is a fiscal forecast comparison, not a measure of household income, service affordability, or final year-end revenue for every state.",
+      "subgroup": "States classified by reported revenue performance relative to original forecast.",
+      "counterinterpretation": "Revenue above forecast can coexist with unmet needs, restricted balances, or service cuts; revenue below forecast can be absorbed by reserves, federal funds, borrowing, or reprioritization.",
+      "source_url": "https://www.nasbo.org/reports-data/fiscal-survey-of-states",
+      "retrieval_hash": "sha256:33cd229352d8dee95f40856e3dd620c8a0289aa1fc73e3b0953467f5db490bf4",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal 2026–2027 state balances",
+      "denominator": {
+        "value": 50,
+        "unit": "US states in the survey context",
+        "value_type": "reported_universe"
+      },
+      "measures": {
+        "rainy_day_balances": {
+          "value": "most states projected to maintain or increase balances in dollars",
+          "unit": "qualitative state-budget summary",
+          "value_type": "reported_direction"
+        },
+        "median_balance_share": {
+          "value": "projected to tick down slightly as spending grows faster than reserves",
+          "unit": "share of expenditures",
+          "value_type": "reported_direction"
+        },
+        "total_balances": {
+          "value": "projected to decline as prior surplus funds are spent, while remaining above pre-pandemic historical highs",
+          "unit": "rainy day funds plus general-fund ending balances",
+          "value_type": "reported_direction"
+        }
+      },
+      "method": "NASBO summary of state rainy-day and general-fund ending-balance projections.",
+      "uncertainty": "Balance availability differs by law, earmark, fiscal calendar, and political decision; the summary does not identify which programs receive or lose funds.",
+      "subgroup": "States with different reserve rules, spending needs, and revenue bases.",
+      "counterinterpretation": "Spending down prior surplus can fund planned one-time investments rather than indicate immediate fiscal distress or service failure.",
+      "source_url": "https://www.nasbo.org/reports-data/fiscal-survey-of-states",
+      "retrieval_hash": "sha256:33cd229352d8dee95f40856e3dd620c8a0289aa1fc73e3b0953467f5db490bf4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pew.org/en/research-and-analysis/articles/2026/03/24/strength-of-state-rainy-day-funds-declines-as-budgets-tighten",
+      "claim": "Pew Fiscal 50 supplies a state-by-state reserve-capacity comparator and reports fiscal 2025 operating-day measures.",
+      "status": "official-comparator"
+    }
+  ],
+  "boundary": "This record measures state-budget capacity and proposed adjustment strategies. It does not establish enacted implementation, service quality, household or firm incidence, local-government capacity, political trust, or geopolitical leverage. The next test is a named state service or shock followed through implementation and lived outcome."
+}

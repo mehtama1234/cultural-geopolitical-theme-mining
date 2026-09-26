@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-navajo-healthy-diet-fiscal-policy-health-null-2026",
+  "title": "A healthy-food price wedge can exist without a detectable maternal or newborn health improvement",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "housing_place_mobility"
+  ],
+  "source_unit": "NBER Working Paper 35662, difference-in-differences and event-study evaluation of the Navajo Nation Healthy Diné Nation Act",
+  "geography": "Navajo Nation; Healthy Diné Nation Act implemented in 2014-2015, with maternal and newborn outcomes from birth-certificate data",
+  "observations": [
+    {
+      "period": "2014-2015 Healthy Diné Nation Act implementation and later birth-certificate outcome windows in the study",
+      "denominator": {
+        "value": null,
+        "unit": "Mothers and newborns recorded in the study's birth-certificate data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "policy_design": {
+          "value": "healthy foods and beverages were exempted from sales tax while unhealthy foods and beverages faced a tax increase, creating a 7% to 8% price wedge",
+          "unit": "reported policy design",
+          "value_type": "reported_policy_level"
+        },
+        "maternal_newborn_health": {
+          "value": "no evidence that the policy improved the studied diet- and weight-related outcomes for mothers or newborns",
+          "unit": "reported difference-in-differences and event-study result",
+          "value_type": "reported_null_effect"
+        },
+        "gestational_diabetes_precision": {
+          "value": "estimates are precise enough to rule out improvements as large as those reported for U.S. city sugary-drink taxes",
+          "unit": "reported inference boundary",
+          "value_type": "reported_precision"
+        },
+        "implementation_mechanisms": {
+          "value": "possible explanations include incomplete retailer implementation and cross-border shopping",
+          "unit": "reported interpretation, not directly isolated mechanism estimate",
+          "value_type": "reported_possible_mechanism"
+        },
+        "purchases_and_cultural_response": {
+          "value": "not observed in the public abstract",
+          "unit": "missing store-level price pass-through, purchases, cross-border trips, household budget, acceptability, and trust outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Difference-in-differences models and event studies using birth-certificate measures of maternal and newborn diet- and weight-related health conditions; the public abstract does not disclose the full comparison geography, sample counts, or implementation audit.",
+      "uncertainty": "A null health result does not show that the price wedge was absent or that no household changed purchases. The abstract leaves retailer compliance, cross-border shopping, product availability, exposure, and intermediate consumption pathways incompletely observed.",
+      "subgroup": "Mothers and newborns in the Navajo Nation outcome data; individual household shopping, retailer, community, and border-crossing patterns are not linked in the public abstract.",
+      "counterinterpretation": "The policy may have affected prices, purchases, revenue, or other outcomes not captured by the measured maternal/newborn endpoints. A place-specific null may reflect implementation and market geography rather than a universal failure of fiscal nutrition policy.",
+      "source_url": "https://www.nber.org/papers/w35662",
+      "retrieval_hash": "sha256:15f4ff8ee4dd52ade1ae32959fb6fbe2b9f8893e6485f76377195752d146bdb2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w35659", "claim": "A separate 2026 NBER study finds short-run purchase and stigma effects from SNAP sugary-drink restrictions, providing a contrasting policy and outcome surface.", "status": "comparative-context"}
+  ],
+  "boundary": "This record measures a place-specific fiscal food-policy design and a reported null result for maternal and newborn diet- and weight-related outcomes. It does not establish no change in purchases, no community benefit, cultural rejection, policy failure everywhere, or long-run health and household effects."
+}

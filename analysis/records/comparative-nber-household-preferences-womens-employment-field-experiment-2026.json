@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-household-preferences-womens-employment-field-experiment-2026",
+  "title": "Household preferences about women's employment can shift after direct work experience",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Comparative NBER Working Paper 34969, randomized household job-assignment experiment in Bangladesh",
+  "geography": "Bangladesh; rural households in the randomized employment experiment, retained as comparative cultural evidence rather than a U.S. estimate",
+  "observations": [
+    {
+      "period": "Six-week randomized job assignment with a one-year follow-up; paper issued March 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Bangladeshi households in the randomized field experiment; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "baseline_preference": {
+          "value": "men and women prefer that husbands work over wives",
+          "unit": "household preference pattern before the intervention",
+          "value_type": "reported_pattern"
+        },
+        "women_work_wellbeing": {
+          "value": "women's work improves women's own wellbeing but not their husbands' wellbeing",
+          "unit": "randomized work-assignment outcome",
+          "value_type": "reported_treatment_effect"
+        },
+        "men_work_wellbeing": {
+          "value": "men's work improves wellbeing for both partners",
+          "unit": "randomized work-assignment outcome",
+          "value_type": "reported_treatment_effect"
+        },
+        "preference_malleability": {
+          "value": "one year later, both men and women in households where women had previously worked were more likely to prefer that the woman take a job and expressed fewer concerns about women's employment",
+          "unit": "follow-up preference and concern outcome",
+          "value_type": "reported_followup_result"
+        }
+      },
+      "method": "Randomly assigns a six-week job to either the husband or wife, measures partner wellbeing, and conducts a one-year surprise job-opportunity follow-up to test employment preferences and concerns about women working.",
+      "uncertainty": "The study is comparative evidence from Bangladesh, not a U.S. estimate. The abstract does not disclose the exact household denominator or every wellbeing and preference scale. A short job experience does not identify all cultural, economic, safety, childcare, or labor-market constraints affecting employment decisions.",
+      "subgroup": "Husbands and wives in participating Bangladeshi households, households with prior female employment exposure, and households receiving a male versus female job assignment; subgroup effects should not be generalized to U.S. households.",
+      "counterinterpretation": "Households that accept or can sustain a temporary job may differ from households unable to participate. Preference change may reflect updated information, income, social signaling, or changed bargaining power rather than a broad change in gender norms; expressed preference may not become actual employment.",
+      "source_url": "https://www.nber.org/papers/w34969",
+      "retrieval_hash": "sha256:e97a70bb69b606781074978e039fcba2fab4da16ec5c4a0dacc11416c58bf4e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34969",
+      "claim": "Official NBER DOI identifies the comparative working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This comparative record tests the malleability of household preferences about women's employment in Bangladesh. It does not establish U.S. gender norms, a universal cultural mechanism, long-run employment, household safety, political mobilization, or causal transferability across labor and institutional settings."
+}

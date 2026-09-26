@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-water-infrastructure-resilience-vulnerable-communities-2025",
+  "title": "Federal water-infrastructure assistance can be large while local affordability, service-area visibility, and maintenance remain difficult",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-25-107013 review of EPA, FEMA, and USDA assistance for drinking-water and wastewater infrastructure resilience",
+  "geography": "United States; federal water-infrastructure assistance and selected utilities and communities, fiscal years 2014–2023",
+  "observations": [
+    {
+      "period": "Fiscal years 2014–2023; 14 federal programs analyzed",
+      "denominator": {"value": 14, "unit": "EPA, FEMA, and USDA programs that provided or could provide financial assistance for water infrastructure and were analyzed by GAO", "value_type": "program_scope"},
+      "measures": {
+        "grant_obligations": {"value": 35, "unit": "billions of U.S. dollars in grants; at least 22,000 projects", "value_type": "reported_program_total"},
+        "direct_loans": {"value": 29, "unit": "billions of U.S. dollars in direct loans; about 4,800 projects", "value_type": "reported_program_total"},
+        "capitalization_grant_projects": {"value": 17121, "unit": "projects funded through state revolving funds during the review period", "value_type": "reported_count"},
+        "other_grant_projects": {"value": 5348, "unit": "projects funded by the remainder of grant programs during the review period", "value_type": "reported_count"}
+      },
+      "method": "GAO analyzed agency budgetary and assistance data for fiscal years 2014–2023, reviewed program documents and prior work, and assessed data reliability for the stated purposes.",
+      "uncertainty": "Financial obligations and project counts do not establish completed construction, operating resilience, continuity of water service, household affordability, or disaster performance.",
+      "subgroup": "EPA, FEMA, and USDA programs; rural, low-income, and other communities identified as vulnerable under differing statutory or program definitions.",
+      "counterinterpretation": "Large assistance totals can finance real improvements and may reduce future failures even when service continuity or household outcomes are not measured in this report.",
+      "source_url": "https://files.gao.gov/reports/GAO-25-107013/index.html",
+      "retrieval_hash": "sha256:31ab1784fa367f26fb15679366554acd80dda429ffa0e4484f5a42592efbf4aa",
+      "status": "reported"
+    },
+    {
+      "period": "Selected utility interviews and EPA program analysis; review published August 2025",
+      "denominator": {"value": 14, "unit": "selected drinking-water and wastewater utilities interviewed; nongeneralizable sample", "value_type": "selected_interview_scope"},
+      "measures": {
+        "local_rate_or_visibility_barriers": {"value": 5, "unit": "utilities whose representatives cited local financing roadblocks such as officials denying rate increases; 2 also cited results not being readily visible to the public", "value_type": "reported_interview_count"},
+        "maintenance_cost_barrier": {"value": 3, "unit": "of 5 technical-assistance providers whose representatives said routine operations and maintenance costs were a challenge, particularly for vulnerable communities", "value_type": "reported_interview_count"},
+        "loan_repayment_burden": {"value": 8, "unit": "utilities whose representatives said federal water-infrastructure loan repayments could be costly for some communities", "value_type": "reported_interview_count"},
+        "vulnerability_distribution": {"value": "Clean Water State Revolving Fund analysis found communities with greater social vulnerability received about $248,000 less per community on average and high-poverty communities about $247,000 less, while communities with greater non-white or Hispanic/Latino populations received about $203,000 more on average", "unit": "average assistance association in GAO's selected statistical analysis", "value_type": "reported_association"}
+      },
+      "method": "GAO interviewed 14 selected utilities and technical-assistance providers, reviewed agency practices, and analyzed EPA State Revolving Fund data using water-system service-area mapping and census-tract characteristics.",
+      "uncertainty": "The utility interviews are not generalizable; the statistical results are associations within selected EPA programs and do not establish causal effects, project quality, completed resilience, or household water outcomes.",
+      "subgroup": "Selected utilities, vulnerable communities under program definitions, census tracts overlapping drinking-water or wastewater service areas, and EPA revolving-fund programs.",
+      "counterinterpretation": "Rate resistance may reflect legitimate affordability concerns, and lower assistance in a social-vulnerability category may reflect project type, eligibility, state definitions, or service-area measurement rather than deliberate exclusion.",
+      "source_url": "https://files.gao.gov/reports/GAO-25-107013/index.html",
+      "retrieval_hash": "sha256:31ab1784fa367f26fb15679366554acd80dda429ffa0e4484f5a42592efbf4aa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-25-107013/index.html", "claim": "Official GAO report supplies assistance totals, selected utility barriers, loan repayment burdens, service-area measurement limits, and EPA program associations.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a federal-assistance, local-finance, maintenance, and service-area measurement boundary for water-infrastructure resilience. It does not establish project completion, water quality, service continuity, household bills, health effects, disaster recovery, or public trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO accessible HTML report retrieved and hashed; underlying agency files, service-area GIS, utility records, and household water outcomes not retained",
+    "html_sha256": "sha256:31ab1784fa367f26fb15679366554acd80dda429ffa0e4484f5a42592efbf4aa",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-housing-wealth-womens-labor-supply-childcare-2026",
+  "title": "Housing wealth can change women's labor supply through childcare and human-capital choices",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-15 using geographically linked SIPP and housing-market data",
+  "geography": "United States; homeowners and county housing-market exposure, with household-level labor outcomes",
+  "observations": [{
+    "period": "Housing purchases and labor outcomes observed in geographically linked SIPP data; paper published February 2026",
+    "denominator": {"value": 1, "unit": "household-level instrumental-variable study using geographically linked SIPP and housing-market data", "value_type": "study_unit"},
+    "measures": {
+      "women_labor_supply": {"value": -0.098, "unit": "percentage-point change in labor-force participation per 1% increase in housing wealth", "value_type": "instrumental_variables_estimate"},
+      "men_labor_supply": {"value": "no statistically significant effect", "unit": "labor-force participation response", "value_type": "reported_null"},
+      "young_mothers": {"value": "negative effect is strongest among mothers of young children", "unit": "heterogeneous labor-supply response", "value_type": "reported_heterogeneity"},
+      "child_reason": {"value": "effect is strongest among women reporting child-related reasons for not working", "unit": "reported mechanism pattern", "value_type": "reported_mechanism"},
+      "alternative_mechanisms": {"value": "income effects, precautionary saving, and liquidity constraints do not fully explain the result", "unit": "mechanism tests", "value_type": "reported_comparison"}
+    },
+    "method": "The paper uses a household-level instrument based on duration of homeowner exposure to credit-expansion-driven housing booms in supply-constrained counties, exploiting variation in purchase timing and county location in geographically linked SIPP data.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The estimate applies to the instrument-defined homeowner margin and does not measure childcare availability, unpaid-care hours, job quality, household income adequacy, later security, or political meaning directly.",
+    "subgroup": "Homeowners, women and men, mothers of young children, and women reporting child-related reasons for not working; renters and nonparents are not interchangeable comparison groups.",
+    "counterinterpretation": "Housing wealth may change labor supply through several linked household choices, and the measured effect may not generalize to renters, different housing markets, or periods without similar credit-driven booms. Lower participation can reflect valued caregiving, constrained choice, reduced job opportunity, or combinations not fully separated by the result.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-15.html",
+    "retrieval_hash": "sha256:76d861d1b031f29dc782ee8d377284ff9457ccddd79f2d1198fff496e38eb1f7",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-15.pdf", "claim": "The official paper provides the SIPP linkage, housing-boom instrument, labor-supply estimates, and mechanism tests.", "status": "official-paper-context"}],
+  "boundary": "This record adds a housing-wealth-to-labor-and-care mechanism. It does not establish that housing wealth universally improves household wellbeing, that nonparticipation is voluntary, or that the estimate applies to renters, men, all mothers, job quality, childcare access, or political action.",
+  "retrieval_hash": "sha256:76d861d1b031f29dc782ee8d377284ff9457ccddd79f2d1198fff496e38eb1f7"
+}

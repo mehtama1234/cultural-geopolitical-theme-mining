@@ -1,0 +1,113 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-public-institutions-procurement-regulation-private-sector-2026",
+  "title": "Public-institution quality converts policy mandates into procurement prices, firm access, regulatory predictability, and private-sector outcomes",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "World Bank, Institutions and Prosperity: Public Institutions for Enabling the Private Sector",
+  "geography": "Public procurement and regulatory institutions, firms, markets, and government contracting across comparative country evidence and named country cases",
+  "observations": [
+    {
+      "period": "2026; public-institution implementation framework",
+      "denominator": {
+        "value": 1,
+        "unit": "public institution implementation and governance framework",
+        "value_type": "institutional_capacity_framework"
+      },
+      "measures": {
+        "organizational_dimensions": {"value": "personnel, financial resources, information systems, and management practices", "unit": "four dimensions in the World Bank Public Institutions Assessment Framework", "value_type": "reported_framework_set"},
+        "governance_dimensions": {"value": "independence, accountability, and transparency", "unit": "three cross-cutting governance dimensions in the framework", "value_type": "reported_framework_set"},
+        "conversion_chain": {"value": "mandate, resources, systems, management, governance, implementation, and development outcomes", "unit": "reported policy-to-outcome pathway", "value_type": "reported_mechanism"},
+        "within_government_variation": {"value": "institutional capacity and policy implementation can vary substantially among bodies in the same government", "unit": "reported organizational boundary", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank synthesis of institutional evidence and a framework for diagnosing organizational and governance constraints in individual public bodies.",
+      "uncertainty": "The framework identifies bottlenecks and pathways but does not imply that one reform dimension produces the same private-sector or public outcome in every institution.",
+      "subgroup": "Ministries, regulators, procurement agencies, local governments, firms, suppliers, workers, consumers, oversight bodies, and affected communities.",
+      "counterinterpretation": "Institutional reform can be slow or costly and may create new compliance burdens; weak performance in one agency does not establish failure of an entire state or market.",
+      "source_url": "https://www.worldbank.org/en/topic/governance/publication/public-institutions-for-enabling-the-private-sector",
+      "retrieval_hash": "sha256:cfbcd656b7ced13c65794d4850271d9da3b2ff06e3805da995b43566aa4f63f1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; procurement personnel quality and contracting performance",
+      "denominator": {
+        "value": 1,
+        "unit": "country-level procurement personnel and government-contracting comparison frame",
+        "value_type": "comparative_procurement_frame"
+      },
+      "measures": {
+        "personnel_quality_outcome": {"value": "positive association", "unit": "quality of procurement personnel and ease of contracting with government", "value_type": "reported_association"},
+        "contracting_components": {"value": "steps required, time required, and sophistication of e-procurement platforms", "unit": "components of the ease-of-contracting measure", "value_type": "reported_measure_set"},
+        "gdp_control": {"value": "association remains significant at the 90 percent confidence level after controlling for GDP per capita", "unit": "reported statistical boundary", "value_type": "reported_association_boundary"},
+        "procurement_effects": {"value": "fewer cost overruns, delays, renegotiations, and stronger firm access when personnel, systems, payments, and management are capable", "unit": "reported procurement mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "World Bank use of OECD MAPS procurement assessments and country-level contracting indicators, with a reported association rather than a universal causal estimate.",
+      "uncertainty": "The comparison is country-level and observational; it does not identify firm-specific contract awards, causal personnel changes, final prices, delivery quality, or downstream consumer incidence.",
+      "subgroup": "Public procurement officers, contracting firms, small suppliers, public buyers, e-procurement providers, workers, taxpayers, and service users.",
+      "counterinterpretation": "Procurement personnel quality may partly proxy broader administrative capacity, market structure, or fiscal conditions rather than independently causing contracting ease.",
+      "source_url": "https://www.worldbank.org/en/topic/governance/publication/public-institutions-for-enabling-the-private-sector",
+      "retrieval_hash": "sha256:cfbcd656b7ced13c65794d4850271d9da3b2ff06e3805da995b43566aa4f63f1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Italy procurement price dispersion",
+      "denominator": {
+        "value": 1,
+        "unit": "Italian procurement-system purchasing-officer comparison",
+        "value_type": "named_case_comparison"
+      },
+      "measures": {
+        "lowest_highest_performer_price_gap": {"value": 55, "unit": "percent higher prices paid by the lowest-performing procurement units than the highest-performing units for similar products, approximately", "value_type": "reported_case_difference"},
+        "procurement_levers": {"value": "competent staff, competitive compensation, timely payments, strong information systems, and stable management", "unit": "reported institutional levers", "value_type": "reported_mechanism_set"},
+        "public_value_risk": {"value": "price dispersion, delays, renegotiations, and cost overruns", "unit": "reported procurement consequence set", "value_type": "reported_risk_set"},
+        "capture_controls": {"value": "accountability, independence, transparency, oversight, and more public procurement information", "unit": "reported governance safeguards", "value_type": "reported_safeguard_set"}
+      },
+      "method": "World Bank named-country case synthesis using procurement performance evidence and comparative institutional analysis.",
+      "uncertainty": "The 55 percent difference is a case-level comparison and not a national average or proof that personnel quality alone caused the price gap; product, buyer, contract, and market differences may remain.",
+      "subgroup": "Italian purchasing units, procurement officers, suppliers, public budgets, competing firms, taxpayers, and users of procured goods and services.",
+      "counterinterpretation": "Higher prices may sometimes reflect quality, urgency, contract terms, or legitimate specification differences rather than waste or corruption.",
+      "source_url": "https://www.worldbank.org/en/topic/governance/publication/public-institutions-for-enabling-the-private-sector",
+      "retrieval_hash": "sha256:cfbcd656b7ced13c65794d4850271d9da3b2ff06e3805da995b43566aa4f63f1",
+      "status": "reported"
+    },
+    {
+      "period": "2026; regulatory capacity, tenure, and market predictability",
+      "denominator": {
+        "value": 1,
+        "unit": "Peru telecommunications regulatory case",
+        "value_type": "named_case_regulatory_frame"
+      },
+      "measures": {
+        "regulatory_constraints": {"value": "limited personnel expertise, outdated information systems, management weakness, and political or commercial influence", "unit": "reported regulatory-capacity constraint set", "value_type": "reported_constraint_set"},
+        "regulatory_effects": {"value": "competition, standards enforcement, service quality, compliance, and market confidence", "unit": "reported regulatory outcome set", "value_type": "reported_outcome_set"},
+        "peru_leadership_effect": {"value": "frequent leadership changes delayed key regulatory milestones", "unit": "reported case mechanism", "value_type": "reported_case_mechanism"},
+        "transparency_effect": {"value": "greater transparency and accountability helped reduce regulatory uncertainty", "unit": "reported case direction", "value_type": "reported_case_direction"}
+      },
+      "method": "World Bank case reconstruction of Peru telecommunications milestones, leadership tenure, legal and regulatory acts, and institutional-governance conditions.",
+      "uncertainty": "The case demonstrates a governance mechanism and timing relationship, not a general causal estimate of leadership tenure on prices, investment, service quality, or consumer welfare.",
+      "subgroup": "Telecommunications regulators, ministries, operators, infrastructure firms, investors, workers, consumers, and public oversight bodies.",
+      "counterinterpretation": "Leadership turnover can sometimes correct capture or accelerate reform; transparency may correlate with broader political or sectoral changes rather than independently reducing uncertainty.",
+      "source_url": "https://www.worldbank.org/en/topic/governance/publication/public-institutions-for-enabling-the-private-sector",
+      "retrieval_hash": "sha256:cfbcd656b7ced13c65794d4850271d9da3b2ff06e3805da995b43566aa4f63f1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://documents1.worldbank.org/curated/en/099020326101011669/pdf/P500650-ee16acd2-e0cf-42b0-a484-5df02b765270.pdf", "claim": "World Bank report PDF and detailed evidence underlying the public-institutions framework."},
+    {"source_url": "https://reproducibility.worldbank.org/catalog/447", "claim": "World Bank reproducibility resources linked from the report page."}
+  ],
+  "boundary": "This record adds a public-institution-to-firm-market route linking personnel, resources, information systems, management, independence, accountability, transparency, procurement prices, contracting ease, regulatory milestones, competition, and service quality. It is not firm respondent data, consumer-level price incidence, a universal causal estimate, proof of corruption, or evidence that institutional reform automatically creates private-sector growth or public trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank report page and linked overview were reviewed; institutional dimensions, procurement personnel/contracting association, Italy price dispersion, regulatory capacity, and Peru telecommunications case claims were cross-checked.",
+    "source_url_sha256": "sha256:cfbcd656b7ced13c65794d4850271d9da3b2ff06e3805da995b43566aa4f63f1",
+    "checked": "2026-09-26"
+  }
+}

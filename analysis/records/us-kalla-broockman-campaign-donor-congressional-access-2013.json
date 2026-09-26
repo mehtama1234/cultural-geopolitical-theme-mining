@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-kalla-broockman-campaign-donor-congressional-access-2013",
+  "title": "Revealing campaign-donor status increased access to senior congressional officials",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Kalla and Broockman randomized field experiment with congressional offices",
+  "geography": "United States House congressional district offices; 191 offices after one exclusion",
+  "observations": [
+    {
+      "period": "June–August 2013 fieldwork; published 2016",
+      "denominator": {
+        "value": 191,
+        "unit": "congressional offices randomly assigned within 64 blocks to receive an otherwise identical meeting request describing attendees as local constituents or local campaign donors",
+        "value_type": "randomized_office_sample"
+      },
+      "measures": {
+        "member_or_chief_of_staff_access_constituent": {"value": 2.4, "unit": "percent of offices providing a meeting with a Member or Chief of Staff when attendees were described only as constituents", "value_type": "reported_experimental_rate"},
+        "member_or_chief_of_staff_access_donor": {"value": 12.5, "unit": "percent of offices providing a meeting with a Member or Chief of Staff when attendees were identified as campaign donors", "value_type": "reported_experimental_rate"},
+        "senior_staff_access_constituent": {"value": 5.5, "unit": "percent of constituent-described groups gaining access to a senior staffer", "value_type": "reported_experimental_rate"},
+        "senior_staff_access_donor": {"value": 18.8, "unit": "percent of donor-described groups gaining access to a senior staffer; more than three-fold relative increase", "value_type": "reported_experimental_rate"},
+        "meeting_confirmation": {"value": "all scheduled meetings were confirmed by attendees and the promised office representative attended", "unit": "verified meeting outcome", "value_type": "reported_observed_outcome"}
+      },
+      "method": "A political organization sent standardized meeting requests about a pending bill to congressional schedulers. Offices were randomly assigned to see the prospective attendees described as local constituents or local campaign donors. The outcome was the seniority of the official made available; no contribution was made to the Member being contacted, and the attendees were real prior donors to the sponsoring organization.",
+      "uncertainty": "The experiment estimates the effect of revealing donor status in this advocacy context, not the effect of having donated to the contacted Member or the general probability that an ordinary constituent obtains casework. The sample is finite and historical, the request came through an organized political group, and the meeting did not measure policy change, issue resolution, or later trust.",
+      "subgroup": "191 House offices blocked on ideology, prior bill sponsorship, tenure, district political composition, nearby organization membership, and other covariates; 64 blocks assigned one revealed-donor office and two constituent-described offices.",
+      "counterinterpretation": "The revealed-donor cue may signal organized political capacity, likely bill support, or a potential future relationship rather than wealth alone. Preferential access does not prove a quid pro quo, policy influence, or that constituents without donor status were denied all contact.",
+      "source_url": "https://stonecenter.gc.cuny.edu/files/2022/09/Hertel-Fernandez-2.pdf",
+      "retrieval_hash": "sha256:bf5d19e020348f33927da6e7502548a0747546b3a22b221a91e26541ffcaf5ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1017/S1537592714001595",
+      "claim": "The published study reports the randomized access design and congressional-office seniority outcomes.",
+      "status": "publisher-record"
+    }
+  ],
+  "boundary": "This record closes a political-resource-to-access layer: the same meeting request received different access when donor status was revealed. It does not establish current national prevalence, constituent-service resolution, legislative influence, trust change, or a universal donor advantage across offices and channels.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "CUNY Stone Center-hosted paper PDF downloaded and hashed; full-text study record cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

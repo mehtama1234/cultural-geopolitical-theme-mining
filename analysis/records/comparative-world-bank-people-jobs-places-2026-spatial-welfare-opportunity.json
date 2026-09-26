@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-people-jobs-places-2026-spatial-welfare-opportunity",
+  "title": "Where people live and how places connect to jobs shape welfare disparities beyond national averages",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "infrastructure_technology_dependency"],
+  "source_unit": "World Bank, People, Jobs, And Places: A Spatial Analysis Of Welfare Disparities In Low- And Middle-Income Countries, and GeoE3 spatial-jobs evidence",
+  "geography": "Low- and middle-income countries, cities, rural and urban places, neighborhoods, labor markets, and spatial opportunity systems",
+  "observations": [
+    {
+      "period": "2026; spatial welfare and jobs analytical frame",
+      "denominator": {"value": 1, "unit": "low- and middle-income country spatial welfare and labor-market systems covered by World Bank analysis", "value_type": "spatial_welfare_frame"},
+      "measures": {
+        "analytical_unit": {"value": "people, jobs, and places", "unit": "linked welfare and opportunity dimensions", "value_type": "reported_framework"},
+        "spatial_disparity_set": {"value": "income, welfare, labor-market, industry, infrastructure, transport, safety, and location conditions", "unit": "reported spatial mechanism set", "value_type": "reported_mechanism"},
+        "national_average_boundary": {"value": "country-level averages can conceal persistent differences between places and neighborhoods", "unit": "reported measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "World Bank spatial analysis using harmonized welfare, labor, industry, geographic, and place-based data for low- and middle-income countries.",
+      "uncertainty": "Spatial association does not establish that location alone caused welfare or employment outcomes; data resolution, boundary choices, sorting, migration, and unobserved local institutions matter.",
+      "subgroup": "Urban and rural residents, low-income neighborhoods, workers, firms, commuters, migrants, women, people exposed to hazards, and places with different infrastructure and service access.",
+      "counterinterpretation": "People and firms can move, adapt, commute, use digital access, or benefit from targeted investment; spatial disadvantage is persistent in some settings but not immovable.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/635",
+      "retrieval_hash": "sha256:ebaaf864ef091d417245991b2931d9ad09f173b4058d12df95a339f765b3d2bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; access-to-jobs mechanism",
+      "denominator": {"value": 1, "unit": "local employment opportunity systems analyzed through World Bank GeoE3 spatial methods", "value_type": "job_accessibility_frame"},
+      "measures": {
+        "location_constraint": {"value": "where people live and surrounding conditions influence access to jobs and economic opportunities", "unit": "reported spatial labor-market mechanism", "value_type": "reported_mechanism"},
+        "constraint_set": {"value": "infrastructure, transport, safety, exposure to natural hazards, and location", "unit": "reported access-constraint set", "value_type": "reported_mechanism"},
+        "policy_use": {"value": "combining labor-market and geographic information enables location-specific employment interventions", "unit": "reported policy application", "value_type": "reported_policy_direction"}
+      },
+      "method": "World Bank GeoE3 framework combining labor-market information with geospatial conditions to identify spatial barriers and opportunity differences.",
+      "uncertainty": "Geospatial indicators identify exposure and access patterns but do not by themselves estimate worker preferences, employer hiring decisions, commuting costs, or causal employment effects.",
+      "subgroup": "Job seekers, workers, firms, commuters, women, people in unsafe or hazard-exposed places, transport users, and local employment intermediaries.",
+      "counterinterpretation": "Spatial access can improve through transit, safety, digital connectivity, employer relocation, flexible work, skills, or migration; not every local constraint requires moving jobs or people.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/understanding-spatial-barriers-to-jobs-and-much-more-with-geoe3",
+      "retrieval_hash": "sha256:ebaaf864ef091d417245991b2931d9ad09f173b4058d12df95a339f765b3d2bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; spatial opportunity, welfare, and mobility trade-offs",
+      "denominator": {"value": 1, "unit": "people and places in low- and middle-income labor and welfare systems", "value_type": "spatial_opportunity_tradeoff_frame"},
+      "measures": {
+        "welfare_pathway": {"value": "place conditions affect access to jobs, services, markets, safety, and economic opportunity", "unit": "reported cross-domain pathway", "value_type": "reported_mechanism"},
+        "mobility_route": {"value": "migration and commuting can connect people to opportunity but are constrained by housing, transport, information, safety, and local institutions", "unit": "reported mobility mechanism", "value_type": "reported_mechanism"},
+        "localization_need": {"value": "employment interventions should be targeted to local constraints rather than treating labor markets as spatially uniform", "unit": "reported policy implication", "value_type": "reported_policy_direction"}
+      },
+      "method": "World Bank synthesis connecting spatial welfare disparities, job accessibility, infrastructure, transport, safety, labor markets, and place-sensitive policy.",
+      "uncertainty": "A place-sensitive framework does not determine whether mobility, local investment, service expansion, or labor-market reform is the best response in a particular location.",
+      "subgroup": "Residents of lagging places, commuters, migrants, firms, local governments, infrastructure users, and households balancing rent, travel time, safety, and work access.",
+      "counterinterpretation": "National and regional policies can still matter substantially; local targeting should complement rather than replace macroeconomic, social-protection, education, and labor-market policy.",
+      "source_url": "https://reproducibility.worldbank.org/catalog/635",
+      "retrieval_hash": "sha256:ebaaf864ef091d417245991b2931d9ad09f173b4058d12df95a339f765b3d2bf",
+      "status": "reported"
+    },
+    {
+      "period": "2026; evidence and governance capacity for spatial inequality",
+      "denominator": {"value": 1, "unit": "World Bank spatial-data and employment-policy evidence system", "value_type": "spatial_governance_frame"},
+      "measures": {
+        "data_integration": {"value": "labor-market data can be combined with geographic information to reveal location-specific constraints", "unit": "reported evidence mechanism", "value_type": "reported_method"},
+        "unobserved_risk": {"value": "traditional labor-market analyses can miss infrastructure, transport, safety, hazard, and neighborhood barriers", "unit": "reported measurement gap", "value_type": "reported_boundary"},
+        "governance_endpoint": {"value": "better spatial evidence can support more targeted employment, infrastructure, transport, and service decisions", "unit": "reported governance application", "value_type": "reported_policy_application"}
+      },
+      "method": "World Bank spatial-data, welfare, and jobs evidence synthesis emphasizing geospatial integration and place-sensitive decision-making.",
+      "uncertainty": "Better spatial measurement does not guarantee fair allocation or improved outcomes; data privacy, coverage, administrative capacity, and political incentives shape implementation.",
+      "subgroup": "Statistical agencies, planners, local governments, workers, firms, civil society, researchers, and residents represented or missed by spatial data systems.",
+      "counterinterpretation": "Fine-grained data can improve targeting but can also stigmatize neighborhoods or enable surveillance; governance should pair spatial precision with rights, transparency, and resident voice.",
+      "source_url": "https://blogs.worldbank.org/en/opendata/understanding-spatial-barriers-to-jobs-and-much-more-with-geoe3",
+      "retrieval_hash": "sha256:ebaaf864ef091d417245991b2931d9ad09f173b4058d12df95a339f765b3d2bf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/635", "claim": "Official reproducibility package for People, Jobs, And Places: A Spatial Analysis Of Welfare Disparities In Low- And Middle-Income Countries."},
+    {"source_url": "https://blogs.worldbank.org/en/opendata/understanding-spatial-barriers-to-jobs-and-much-more-with-geoe3", "claim": "World Bank GeoE3 evidence and spatial-jobs framework for infrastructure, transport, safety, hazards, and employment access."},
+    {"source_url": "https://www.worldbank.org/en/research/publication/global-jobs-challenge", "claim": "World Bank Global Jobs Challenge provides complementary demographic and job-creation context."}
+  ],
+  "boundary": "This record adds a spatial opportunity route linking place, transport, infrastructure, safety, hazards, job access, welfare, mobility, data, and local policy. It is not a city-specific commuting estimate, a household location panel, a causal place-effect study, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official World Bank People, Jobs, And Places reproducibility metadata, GeoE3 spatial-jobs publication, and related jobs context were reviewed; spatial-disparity, job-access, constraint, mobility, measurement, and policy claims were cross-checked.",
+    "source_url_sha256": "sha256:ebaaf864ef091d417245991b2931d9ad09f173b4058d12df95a339f765b3d2bf",
+    "checked": "2026-09-26"
+  }
+}

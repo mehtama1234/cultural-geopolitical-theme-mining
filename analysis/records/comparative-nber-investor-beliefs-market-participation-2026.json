@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-investor-beliefs-market-participation-2026",
+  "title": "Beliefs about crashes can push some investors out of markets and concentrate risk among those who remain",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35708, more than two decades of respondent-level investor surveys linked to option-implied market benchmarks",
+  "geography": "Investor survey respondents and financial markets; the public abstract does not fully specify the geographic frame",
+  "observations": [
+    {
+      "period": "More than two decades of investor-survey responses and corresponding market benchmarks",
+      "denominator": {
+        "value": null,
+        "unit": "Respondent-level investor surveys over more than two decades; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "non_marginal_beliefs": {
+          "value": "investors who step out of the market are generally more pessimistic about returns and perceive greater crash risk than the pricing population",
+          "unit": "reported survey-to-market-belief comparison",
+          "value_type": "reported_comparison"
+        },
+        "participation": {
+          "value": "subjective crash beliefs are a key determinant of market participation even after controlling for expected returns",
+          "unit": "reported participation association",
+          "value_type": "reported_association"
+        },
+        "asset_pricing": {
+          "value": "stocks more sensitive to non-marginal beliefs earn lower returns, especially where disagreement is high",
+          "unit": "reported cross-sectional return relationship",
+          "value_type": "reported_association"
+        },
+        "household_outcome": {
+          "value": "not observed in the public abstract",
+          "unit": "missing household wealth path, retirement security, realized gains/losses, advice, and later participation outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Respondent-level investor surveys over more than two decades; subjective beliefs are compared with option-implied benchmarks, and self-identified market-participation proxies are used to examine a composition channel in asset prices.",
+      "uncertainty": "The public abstract does not disclose the full survey frame, sample size, geographic coverage, or whether the participation proxy captures all relevant holdings and financial constraints. Belief differences and return relationships do not by themselves establish that beliefs caused exit or later household welfare.",
+      "subgroup": "Investors who participate in markets versus those who step out, with disagreement and stock-level sensitivity comparisons; the abstract does not provide a complete socioeconomic breakdown.",
+      "counterinterpretation": "People may leave markets because of liquidity needs, age, income, advice, risk capacity, or institutional access, with pessimistic beliefs reflecting those conditions rather than causing exit. Lower returns for belief-sensitive stocks do not establish a loss for every non-participant or a benefit for every participant.",
+      "source_url": "https://www.nber.org/papers/w35708",
+      "retrieval_hash": "sha256:6bbbf798491366bfc08736d7d90fe97fc05f5527aad66aa896167c9b05bd1853",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative market-participation record measures beliefs, participation proxies, and asset-price relationships. It does not establish a U.S.-household wealth effect, individual causality, retirement adequacy, or a universal reason why people enter or leave financial markets."
+}

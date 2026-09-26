@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cdc-community-connection-support-participation-2026",
+  "title": "Reported social support is common, but support and social participation are not the same",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "unequal_exposure_status", "care_health_reproduction", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "CDC Mental Health Data Channel Community & Connection page, synthesizing national and state survey indicators for youth and adults",
+  "geography": "United States; national youth and adult indicators, with selected state comparisons",
+  "observations": [
+    {
+      "period": "2021–2024 indicators published May 27, 2026",
+      "denominator": {"value": null, "unit": "National youth and adult survey indicators displayed by CDC; underlying survey denominators are not reproduced on the summary page", "value_type": "not_disclosed"},
+      "measures": {
+        "youth_support": {"value": 58, "unit": "percent of US youth reporting they received the social and emotional support they needed; 2021–2023", "value_type": "published_percentage"},
+        "adult_support": {"value": 82, "unit": "percent of US adults reporting they received the social and emotional support they needed; 2021", "value_type": "published_percentage"},
+        "adult_social_participation_difficulty": {"value": 12, "unit": "percent of US adults reporting difficulty participating in social activities due to a physical, mental, or emotional condition; 2024", "value_type": "published_percentage"},
+        "support_time_comparison": {"value": "Adult support was higher than youth support in the displayed national indicators, but the measures use different years and survey systems", "unit": "bounded cross-source comparison", "value_type": "reported_comparison"}
+      },
+      "method": "CDC summary page extraction of national and state survey indicators from selected data systems; youth support, adult support, and health-related social-participation difficulty are retained as separate measures with their stated years.",
+      "uncertainty": "The page does not provide a single linked sample, the underlying respondent-level records, full denominators, or a common year across all measures. The support indicators are self-reported and cannot show whether support was adequate, reliable, reciprocal, or materially useful.",
+      "subgroup": "Youth and adults, with state, age, sex, and race/ethnicity breakdowns available through the linked data systems; detailed subgroup estimates are not extracted here.",
+      "counterinterpretation": "Reported support can coexist with loneliness, poor-quality relationships, stigma, or unmet practical needs. Difficulty participating due to health does not identify whether the barrier was physical access, energy, transportation, fear, cost, or lack of invitation, and it does not prove isolation.",
+      "source_url": "https://www.cdc.gov/mental-health/about-data/community-connection.html",
+      "retrieval_hash": "sha256:c6847d7701ec652a9dce6b88b0d8897a441095aa9cab1af58e659d7530014694",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7324a1.htm", "claim": "The earlier CDC BRFSS analysis supplies state-level loneliness and lack-of-support prevalence with mental-health associations; it is not pooled with this summary page.", "status": "official-comparison-context"}],
+  "boundary": "This record adds a cross-year CDC measurement contrast: reported support is more common among displayed adults than youth, while a separate adult indicator shows health-related difficulty joining social activities. It does not establish a causal relationship among age, support, health, loneliness, belonging, civic action, or recovery, and it does not follow the same person across the measures.",
+  "reproduction_audit": {"retrieval_hash_scope": "CDC Community & Connection summary page and its displayed national indicators; underlying survey microdata and dashboards are not retained.", "page_sha256": "sha256:c6847d7701ec652a9dce6b88b0d8897a441095aa9cab1af58e659d7530014694", "checked": "2026-09-23"}
+}

@@ -37,6 +37,20 @@ bill or price through a same-person money-to-time-to-recovery episode.
 | Money left over under $25,000 family income | 19% | Adults in that family-income band |
 | Money left over at $100,000+ family income | 59% | Adults in that family-income band |
 
+The outside-help route is sharply age-conditioned. Forty-seven percent of
+adults ages 18–29 received help with at least one listed expense, compared with
+26% of adults ages 30–44 and 13% of adults ages 45 and older. Among 18–29-year-
+olds, the reported routes included cell-phone bills (30%), general expenses
+(26%), housing costs (23%), car payments/insurance/repairs (19%), medical
+expenses or health insurance (14%), and education or student loans (12%). These
+categories overlap; they are not a dollar total or a measure of adequacy.
+
+This adds a cultural and consumer interpretation to the household-room layer:
+family or social ties can function as payment infrastructure for ordinary
+connectivity, housing, mobility, health, and education. The evidence still does
+not show whether the help is voluntary, reciprocal, conditional, stigmatized,
+or available for the next expense.
+
 The source reports that 32% said monthly income increased compared with twelve
 months earlier and 35% said monthly spending increased. Those are separate
 year-over-year self-reports; they do not show whether income outran prices or

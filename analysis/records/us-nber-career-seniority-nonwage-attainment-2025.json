@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-career-seniority-nonwage-attainment-2025",
+  "title": "Career attainment can be measured by time to reach a job level, not wages alone",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34292; database of more than 150 million resumes linked to industry, firm-size category, job titles, wages, education, and transitions",
+  "geography": "United States labor-market resumes and public-to-private career transitions",
+  "observations": [{
+    "period": "U.S. career attainment and job-title progression; paper issued 2025",
+    "denominator": {"value": 150000000, "unit": "resumes in the study database, more than", "value_type": "reported_sample_size"},
+    "measures": {
+      "seniority_definition": {"value": "seniority is the number of years it takes the median individual within the same industry and firm-size category to attain a worker's job title", "unit": "years to job-title attainment", "value_type": "reported_measure"},
+      "wage_alignment": {"value": "seniority is positively correlated with wages", "unit": "career-measure association", "value_type": "reported_association"},
+      "education_alignment": {"value": "seniority is positively correlated with educational attainment", "unit": "career-measure association", "value_type": "reported_association"},
+      "public_private_transition": {"value": "public-sector individuals with higher seniority levels are more likely to transition to higher-paying private-sector positions", "unit": "career transition outcome", "value_type": "reported_association"}
+    },
+    "method": "The authors construct a non-pecuniary career-attainment measure from the time required to reach job titles in a resume database of more than 150 million records, conditioning the median time on industry and firm size, and test alignment with wages, education, and public-to-private transitions.",
+    "uncertainty": "The abstract does not observe job quality, control, hours, benefits, health, care, debt, housing, discrimination, promotion opportunity, or why a worker remained or moved. Seniority is a constructed measure of title timing and does not by itself establish career satisfaction, welfare, or causal mobility.",
+    "subgroup": "Workers represented in the resume database, with a reported public-sector transition analysis; results may vary by industry, firm size, occupation, public agency, demographic group, and resume completeness.",
+    "counterinterpretation": "Longer time to a title can reflect deliberate non-wage choices, stable work, care, location, or a slower promotion system rather than failure. A higher seniority measure may signal experience or selectivity without guaranteeing better pay, control, or household security. The public-to-private relationship is not proof that seniority causes higher wages.",
+    "source_url": "https://www.nber.org/papers/w34292",
+    "retrieval_hash": "sha256:a857fcdc072a6062fd03614f052701eb3a98185ae597b66c98ad2f78bc766e35",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34292", "claim": "NBER DOI record for Working Paper 34292", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a career-measurement finding: time to reach a job title contains information not captured by wages alone. It does not establish causal promotion barriers, student-debt effects, job quality, household welfare, discrimination, or that faster title attainment is always better."
+}

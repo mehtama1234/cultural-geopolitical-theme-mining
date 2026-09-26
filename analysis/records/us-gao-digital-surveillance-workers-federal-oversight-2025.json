@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-digital-surveillance-workers-federal-oversight-2025",
+  "title": "Digital workplace surveillance can improve safety while shifting health, evaluation, and control risks to workers",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "GAO-25-107126, a U.S. Government Accountability Office review of 122 studies and interviews with stakeholders from 11 organizations",
+  "geography": "United States; employer digital-surveillance practices and federal oversight context",
+  "observations": [
+    {
+      "period": "2020-2024 studies reviewed; GAO report published September 2025 and reissued with revisions December 10, 2025",
+      "denominator": {
+        "value": 122,
+        "unit": "studies meeting GAO methodological-quality standards, supplemented by interviews with stakeholders from 11 organizations",
+        "value_type": "systematic_review_and_stakeholder_interview_universe"
+      },
+      "measures": {
+        "surveillance_tools": {
+          "value": "cameras, microphones, computer-monitoring software, geolocation trackers, phone applications, and wearable devices, among other tools",
+          "unit": "tool categories described in the review",
+          "value_type": "reported_classification"
+        },
+        "physical_health_and_safety": {
+          "value": "effects can be positive or negative: tools may identify health problems or increase safety, but productivity targets can push workers to move faster and increase injury risk",
+          "unit": "reviewed worker-effect pattern",
+          "value_type": "systematic_review_summary"
+        },
+        "mental_health": {
+          "value": "effects can be positive or negative; transparency about collected information is one factor associated with the direction of effects",
+          "unit": "reviewed worker-effect pattern",
+          "value_type": "systematic_review_summary"
+        },
+        "employment_opportunity_risk": {
+          "value": "flawed benchmarks, incomplete accounting of tasks, or unintended use can contribute to low evaluations, lower pay, discipline, or termination",
+          "unit": "potential employment consequence identified by GAO",
+          "value_type": "reported_risk_pathway"
+        },
+        "federal_oversight": {
+          "value": "EEOC, NLRB, and DOL OSHA investigate claims that could involve digital surveillance; several agencies had rescinded or were reassessing prior guidance in 2025",
+          "unit": "agency role and guidance status",
+          "value_type": "institutional_status"
+        }
+      },
+      "method": "GAO reviewed 122 studies published from 2020 through 2024 for methodological rigor, interviewed stakeholders from two trade associations, three advocacy organizations, and six research organizations, and reviewed relevant laws, regulations, and agency information; it also requested updated information from federal agencies in spring 2025.",
+      "uncertainty": "This is a review and stakeholder synthesis, not a nationally representative estimate of worker exposure or a causal estimate of any one surveillance tool. The underlying studies have limitations, tool effects depend on implementation and transparency, and the report does not link a named worker to a monitoring event, appeal, pay change, health outcome, job exit, or household consequence.",
+      "subgroup": "Workers subject to employer monitoring across remote and non-remote settings; effects discussed for physical health and safety, mental health, and employment opportunities; federal agencies and stakeholder organizations are separate institutional units.",
+      "counterinterpretation": "Surveillance can provide safety information, detect health problems, improve operations, or support legitimate performance management. A monitoring tool's existence does not establish consequential use, inaccurate evaluation, worker harm, or absence of consent, contestability, or collective voice.",
+      "source_url": "https://www.gao.gov/products/gao-25-107126",
+      "retrieval_hash": "sha256:a42d4c5b647b92cff4ad40a10f3b7ff10a7ecc5755ea60656e6af65c7a68f19b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-25-107126.pdf",
+      "claim": "Official GAO report PDF; reissued with a correction on December 10, 2025.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-24-107639",
+      "claim": "Prior GAO report summarizing stakeholder comments about automated worker surveillance and management.",
+      "status": "related-official-report"
+    }
+  ],
+  "boundary": "This record adds an implementation and oversight layer between workplace technology and worker control. It establishes a reviewed set of possible health, mental-health, employment, and agency-governance pathways, but not prevalence, worker-level causality, realized pay or discipline, remedy, exit, household security, durable trust, or collective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and full report PDF reviewed; the 122 underlying studies and stakeholder interview materials are not separately retained.",
+    "pdf_sha256": "sha256:a42d4c5b647b92cff4ad40a10f3b7ff10a7ecc5755ea60656e6af65c7a68f19b",
+    "checked": "2026-09-23"
+  }
+}

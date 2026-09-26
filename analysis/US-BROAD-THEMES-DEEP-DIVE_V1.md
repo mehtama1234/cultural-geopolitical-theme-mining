@@ -1,6 +1,6 @@
 # US broad themes: detailed reading guide v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-20
 **Purpose:** give a reviewer a substantive route through the atlas's most
 interesting recurring societal, cultural, political, consumer, institutional,
 firm, infrastructure, and geopolitical patterns. This is a synthesis of
@@ -136,6 +136,15 @@ passenger and worker adoption. The safety-net layers preserve individual,
 household, employer, and program universes rather than treating them as one
 population.
 
+The HHS-OIG skilled-nursing review adds a sharper access-control comparator:
+Medicare Advantage organizations denied 12% of sampled SNF admission requests,
+only 18% of denials were appealed, and 95% of appealed denials were overturned.
+This makes appeal capacity part of the usable-care route, while leaving
+patient-level admission timing, interim care, caregiver substitution,
+functional recovery, and plan switching open. The rates are organization- and
+request-level evidence, not a patient outcome or proof that every initial
+denial was wrong.
+
 **What the evidence supports:** nominal protection can fail at usability,
 completion, or continuity; the failure points differ by group and place.
 
@@ -149,6 +158,8 @@ outcome.
 Read: [disability health-care accessibility](projects/us-aging-care-strain/gao-2026-disability-healthcare-accessibility-layer-v1.md),
 [airport transit adoption](projects/us-transport-mobility/gao-2026-airport-transit-availability-adoption-layer-v1.md),
 and [assisted-living coverage](projects/us-aging-care-strain/gao-2026-assisted-living-spending-medicaid-coverage-layer-v1.md).
+The [SNF prior-authorization record](records/us-hhs-oig-medicare-snf-prior-authorization-2026.json)
+keeps denial, appeal, overturn, and patient outcome as separate stages.
 
 ## 5. Cultural meaning is contested even when the object is shared
 
@@ -232,6 +243,29 @@ is descriptive and cross-sectional; it does not identify who supplied help or
 whether connection changed later recovery or action. The direction persists
 within three age bands, but loneliness is highest among very-difficult younger
 respondents while low support peaks in the middle-age band. See the [full finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-032.md).
+
+### Family support is both payment infrastructure and belonging infrastructure
+
+The 2025 SHED outside-help layer adds a consumer-financial route to the social
+capacity picture. Forty-seven percent of adults ages 18–29 received help with
+at least one listed expense, including phone bills, general costs, housing,
+cars, medical expenses, and education. Separately, Pew's grandparenthood layer
+shows routine intergenerational contact, reported closeness, caregiving, and
+some shared housing. The GAO kinship layer shows family care operating outside
+the most visible foster-care route. Together these sources suggest a broader
+mechanism: family and social ties can carry money, connectivity, transport,
+care, housing, and emotional continuity when formal systems or individual
+budgets do not carry the whole load.
+
+This is a cross-source relationship, not a pooled estimate or claim that the
+same young adults receiving expense help are the same people in the
+grandparenthood or kinship samples. The support may be reciprocal, chosen,
+conditional, stigmatized, burdensome, or unavailable. The decisive missing
+episode is a same-family ledger joining who provided money, care, transport,
+housing, or advice; what it protected; what it displaced; and whether the tie
+remained usable over time.
+
+Read: [income timing, outside help, and budget margin](projects/us-household-financial-pressure/findings/us-household-financial-pressure-013.md), [grandparenthood and intergenerational connection](projects/us-aging-care-strain/pew-2026-grandparenthood-intergenerational-connection-layer-v1.md), and [kinship-family care support](projects/us-aging-care-strain/gao-2026-kinship-families-intergenerational-care-support-layer-v1.md).
 
 ## 7. Population change reaches politics through conversion stages
 
@@ -375,6 +409,15 @@ The pattern appears in at least six different systems:
    eligibility is therefore not the same as broadly distributed opportunity.
    Read the [size-rule finding](projects/us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md).
 
+7. **AI exposure and workplace meaning.** Gallup's repeated-worker analysis
+   adds a cultural and managerial conversion stage: frequent AI users report
+   more than twice the displacement fear of infrequent users, while perceived
+   respect and organizational care for wellbeing narrow that association.
+   The same-worker associations with lower engagement, higher burnout, lower
+   satisfaction, and more job search make the meaning layer more concrete, but
+   they still do not show actual job loss, changed pay or schedule, bargaining,
+   household security, or exit. Read the [AI-work manager-support record](records/us-gallup-ai-work-manager-support-displacement-2026.json).
+
 7. **Remedies have different currencies.** The new DOJ IER DACA case reports a
    lower-wage rehire followed by restoration of the prior wage, back pay,
    seniority, and complaint withdrawal. The OSHA Texas case reports workers'
@@ -425,10 +468,24 @@ conditioning, design-based uncertainty, a verified institutional outcome, or a
 measured reversal. If none is available, the correct output is an explicit
 acquisition or identification gap—not another unlinked percentage.
 
-The current storage-light priority is the HTOPS social-connectedness route.
-Its March 2026 release appears promising because social connection, community
-engagement, and material-pressure modules are listed together. The relevant
-official spreadsheets still return 404, while Census has posted a corrected
-19.2 MB PUF. That PUF is a cross-sectional route requiring a dictionary and
-weight audit, not an automatic longitudinal bridge; no estimates are promoted
-until the minimum artifact and estimand are verified.
+The current work mode is a rotating four-lane agenda rather than a single
+dataset priority:
+
+1. **Culture and meaning:** connect material or institutional experience to
+   dignity, belonging, blame, trust, identity, and action.
+2. **Household, care, and time:** connect pressure to substitution, unpaid
+   care, work-time loss, social availability, and later security.
+3. **Consumer, worker, and institutional power:** connect formal rights and
+   remedies to comprehension, effort, receipt, adequacy, continued use,
+   switching, or exit.
+4. **Firm, infrastructure, and state consequence:** connect capacity or
+   investment to local distribution, replaceability, legitimacy, and changed
+   external behavior.
+
+The HTOPS social-connectedness route remains one useful cross-sectional
+example in the first two lanes, not the program's center of gravity. Its March
+2026 release has a corrected public-use file but requires a dictionary and
+weight audit; the unavailable spreadsheets and cross-sectional design prevent
+it from being treated as a longitudinal bridge. Each lane should continue to
+receive evidence and counterexamples independently until a valid same-unit or
+matched design closes an adjacent arrow.

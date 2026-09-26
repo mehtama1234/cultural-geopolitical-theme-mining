@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-july-material-social-authority-same-respondent-2026",
+  "title": "July HTOPS links expense difficulty to social support, food security, and specialized authority within respondents",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey topical 2607 public-use file; same-round respondent record",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15–August 3, 2026",
+      "denominator": {
+        "value": 12088,
+        "unit": "respondents with valid expense-difficulty and replicate-weight records",
+        "value_type": "unweighted_valid_records"
+      },
+      "measures": {
+        "expense_difficulty_conditional_shares": {
+          "value": 4,
+          "unit": "percent within household expense-difficulty group; percentage-point standard errors in parentheses",
+          "value_type": "grouped_conditional_shares",
+          "groups": {
+            "not_at_all_difficult": {
+              "unweighted_n": 7536,
+              "lonely_always_or_usually": [1.70, 0.16],
+              "support_always_or_usually": [75.12, 0.73],
+              "club_12_or_more_times": [19.31, 0.51],
+              "food_sometimes_or_often_not_enough": [1.62, 0.54],
+              "doctor_trust_great_deal_or_quite_lot": [74.05, 0.74],
+              "ai_trust_great_deal_or_quite_lot": [16.07, 0.63],
+              "federal_statistics_trust": [53.91, 0.68],
+              "congress_confidence_great_deal_or_quite_lot": [19.33, 0.62]
+            },
+            "a_little_difficult": {
+              "unweighted_n": 2847,
+              "lonely_always_or_usually": [11.39, 1.19],
+              "support_always_or_usually": [60.69, 1.09],
+              "club_12_or_more_times": [12.12, 0.59],
+              "food_sometimes_or_often_not_enough": [4.64, 0.57],
+              "doctor_trust_great_deal_or_quite_lot": [69.86, 1.46],
+              "ai_trust_great_deal_or_quite_lot": [16.23, 1.12],
+              "federal_statistics_trust": [44.73, 1.32],
+              "congress_confidence_great_deal_or_quite_lot": [13.11, 0.64]
+            },
+            "somewhat_difficult": {
+              "unweighted_n": 1178,
+              "lonely_always_or_usually": [22.52, 3.09],
+              "support_always_or_usually": [43.12, 2.20],
+              "club_12_or_more_times": [5.89, 0.53],
+              "food_sometimes_or_often_not_enough": [20.81, 3.27],
+              "doctor_trust_great_deal_or_quite_lot": [60.23, 2.90],
+              "ai_trust_great_deal_or_quite_lot": [17.02, 1.65],
+              "federal_statistics_trust": [36.65, 2.49],
+              "congress_confidence_great_deal_or_quite_lot": [12.81, 1.43]
+            },
+            "very_difficult": {
+              "unweighted_n": 527,
+              "lonely_always_or_usually": [22.83, 2.11],
+              "support_always_or_usually": [39.48, 2.05],
+              "club_12_or_more_times": [9.28, 1.12],
+              "food_sometimes_or_often_not_enough": [33.04, 2.27],
+              "doctor_trust_great_deal_or_quite_lot": [54.79, 2.60],
+              "ai_trust_great_deal_or_quite_lot": [13.75, 1.28],
+              "federal_statistics_trust": [29.59, 1.69],
+              "congress_confidence_great_deal_or_quite_lot": [9.21, 0.91]
+            }
+          }
+        }
+      },
+      "method": "Same-round respondent-weighted conditional shares using PWEIGHT and 80 PWEIGHT1–PWEIGHT80 successive-difference replicate weights; standard errors are the square root of the mean squared replicate deviation.",
+      "uncertainty": "The HTOPS release is experimental. The screen is cross-sectional, not causal or longitudinal; subgroup and very-difficult cells may have large standard errors.",
+      "subgroup": "Household-reported expense difficulty groups; outcomes are respondent-reported social, food, information-authority, and institutional-confidence measures.",
+      "counterinterpretation": "Expense difficulty may proxy income, age, health, household composition, geography, survey response, or unmeasured shocks. The shared respondent record does not establish timing, mechanism, actor, help received, remedy, recovery, political action, or exit. AI trust is a counterexample to assuming every authority measure moves monotonically with material pressure.",
+      "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "retrieval_hash": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/data/tables/2026/demo/hhp/2607.html",
+      "claim": "Official July 2026 HTOPS table and standard-error release page.",
+      "status": "official-data-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health3b.xlsx",
+      "claim": "Social and emotional support table used for the companion same-release comparison.",
+      "status": "official-data-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/health5a.xlsx",
+      "claim": "Doctor and AI health-information trust table used for the companion same-release comparison.",
+      "status": "official-data-table"
+    }
+  ],
+  "boundary": "This record establishes a same-round respondent-level association between household expense difficulty and social, food, authority, and institutional-confidence measures. It does not establish a causal transition, general legitimacy theory, help received, remedy, recovery, action, or exit.",
+  "reproduction_audit": {
+    "script": "scripts/analyze_htops_2026_july_material_social_authority.py",
+    "input_sha256": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+    "checked": "2026-09-25",
+    "source_files_not_committed": true
+  }
+}

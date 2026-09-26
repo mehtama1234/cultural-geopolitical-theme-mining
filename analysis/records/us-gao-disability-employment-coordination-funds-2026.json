@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disability-employment-coordination-funds-2026",
+  "title": "Disability employment support can exist across programs while funding transitions create service gaps",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-107741, Disability Employment: Providers Cited Challenges with State Coordination of Federal Funds",
+  "geography": "United States; Georgia, Pennsylvania, and Washington",
+  "observations": [
+    {
+      "period": "Report published September 2026; program and state practices reviewed through 2025-2026",
+      "denominator": {
+        "value": 3,
+        "unit": "selected states reviewed; provider interview sample was 12 providers",
+        "value_type": "selected_review_sample"
+      },
+      "measures": {
+        "population_context": {
+          "value": "about 2 million U.S. adults are estimated to have intellectual or developmental disabilities; VR cases involving people with I/DD were about 22% of national VR cases in FY2023",
+          "unit": "national context estimates cited by GAO, not a linked employment denominator",
+          "value_type": "reported_context"
+        },
+        "funding_context": {
+          "value": "$3.7 billion in VR grants in FY2023; a separate federally funded study estimated about $1.5 billion in FY2023 employment services for people with I/DD, mostly Medicaid HCBS and excluding VR grants",
+          "unit": "federal/state program funding estimates with different scopes",
+          "value_type": "reported_amount"
+        },
+        "provider_coordination": {
+          "value": "6 of 12 interviewed providers reported service gaps from administrative burden or confusion in VR/I/DD coordination; 4 of 12 reported reimbursement delays during transitions",
+          "unit": "nongeneralizable provider interview sample across three states",
+          "value_type": "qualitative_sample"
+        },
+        "delay_examples": {
+          "value": "a Washington provider association reported job-placement authorizations that should take a week or less sometimes taking 6 to 9 months because of VR staffing shortages; a Georgia provider reported continuing services for three months without reimbursement during a transition",
+          "unit": "reported provider examples, not administrative duration estimates",
+          "value_type": "reported_examples"
+        },
+        "individual_consequence": {
+          "value": "providers reported that families sometimes gave up because of agency back-and-forth and administrative work; one reported a woman restarting VR after job loss and waiting months because of miscommunication",
+          "unit": "reported cases and provider accounts; no individual outcome panel",
+          "value_type": "reported_case"
+        },
+        "coordination_counterexample": {
+          "value": "Georgia used specialist staff, dual providers, weekly case tracking, and monthly troubleshooting; Pennsylvania allowed some cases to proceed with Medicaid HCBS employment services if VR had not made an eligibility determination within 120 days",
+          "unit": "selected state practices",
+          "value_type": "reported_response"
+        },
+        "employment_outcome": {
+          "value": "not measured as a linked individual path from referral through service gap, job placement, retention, wages, or household security",
+          "unit": "missing same-person outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO reviewed federal and state documents, interviewed officials and 12 employment service providers in Georgia, Pennsylvania, and Washington, and examined federal guidance on blending, braiding, and sequencing VR and Medicaid HCBS funds.",
+      "uncertainty": "The three states were selected for variation in program and funding characteristics rather than representative sampling. Provider accounts are nongeneralizable and reported delays are examples, not a statewide administrative estimate. Funding totals come from sources with different scopes. The report does not follow individuals through services, employment, retention, earnings, or wellbeing.",
+      "subgroup": "Adults with intellectual or developmental disabilities seeking or maintaining competitive integrated employment; state VR and I/DD agencies; Medicaid HCBS and VR-funded providers; selected state systems.",
+      "counterinterpretation": "Separate programs can expand the total service menu and a milestone model can focus providers on stable employment, while fee-for-service can reimburse delivered support more predictably. Coordination mechanisms such as dual providers, case tracking, and bypass rules may prevent some gaps. A reported gap does not establish that an individual lost a job or that one payment model is globally superior.",
+      "source_url": "https://files.gao.gov/assets/gao-26-107741.pdf",
+      "retrieval_hash": "sha256:baaa9ea2f4e773971608d9baa7bfa879b88620373a7f7d7e15935b4383088d72",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107741",
+      "claim": "Official GAO landing page and report metadata for the selected-state review.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record establishes a coordination, payment-model, and administrative-delay mechanism in three selected state systems. It does not establish national service-gap prevalence, disability employment causality, individual job loss, provider solvency, wage effects, or durable autonomy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO report PDF reviewed; underlying state records and provider interview materials are not retained.",
+    "pdf_sha256": "sha256:baaa9ea2f4e773971608d9baa7bfa879b88620373a7f7d7e15935b4383088d72",
+    "checked": "2026-09-23"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-selection-into-medicine-practice-spending-health-2026",
+  "title": "Weak outside options at medical-school entry can shape physician practice and spending decades later",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35631 using U.S. medical-school application conditions, physician practice data, Medicare billing, and patient outcomes",
+  "geography": "United States; physicians and Medicare beneficiaries observed across medical-school cohorts and later practice",
+  "observations": [
+    {
+      "period": "Medical-school application conditions and later physician practice; paper issued August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. physicians and Medicare beneficiaries in linked cohort and practice-outcome data; exact abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "application_pool_shift": {
+          "value": "labor-market downturns in other prestigious fields increase medical-school applications and shift matriculating cohorts toward students from non-pre-medical backgrounds",
+          "unit": "selection into medical-school cohort following outside-option shock",
+          "value_type": "reported_comparison"
+        },
+        "practice_style": {
+          "value": "recession-cohort physicians practice differently decades later",
+          "unit": "physician practice-style outcome conditional on experience, specialty, and outcome year",
+          "value_type": "reported_long_run_result"
+        },
+        "medicare_billing": {
+          "value": "higher",
+          "unit": "Medicare spending billed per beneficiary by physicians from low-outside-option cohorts, conditional on experience, specialty, and outcome year",
+          "value_type": "reported_comparison"
+        },
+        "patient_health": {
+          "value": "no detectable improvement",
+          "unit": "patient-health outcome associated with the additional spending",
+          "value_type": "reported_null_result"
+        },
+        "practice_setting": {
+          "value": "greater sorting into settings with higher-powered financial incentives",
+          "unit": "practice-setting choice among physicians from low-outside-option cohorts",
+          "value_type": "reported_comparison"
+        },
+        "service_mix": {
+          "value": "more discretionary, revenue-generating services, despite seeing healthier patients",
+          "unit": "practice and patient-composition pattern",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Uses macroeconomic conditions in other prestigious fields at the time of medical-school application as an exogenous shock to the applicant pool, then compares later physician practice, Medicare billing, practice setting, patient mix, and health outcomes across physician cohorts.",
+      "uncertainty": "The NBER paper is a working paper and the abstract does not disclose the exact linked sample denominator or every health-outcome definition. Billing is not identical to total social cost, patient welfare, or household financial burden. The outside-option shock identifies cohort composition effects under the paper's assumptions but does not isolate every individual trait, specialty pathway, institutional incentive, or patient-selection mechanism.",
+      "subgroup": "Physician cohorts formed under different outside-option conditions, specialties, experience levels, practice settings, Medicare beneficiaries, and patient-health measures; results should not be generalized to all physicians or all patients without checking coverage.",
+      "counterinterpretation": "Physicians entering during weak outside-option periods may differ in unmeasured preferences, training, specialty choice, geography, or institutional placement. Health outcomes may be insensitive to the measured spending window, and healthier observed patients could reflect selection rather than lower need. Higher billing could reflect coding or practice composition rather than unnecessary care alone.",
+      "source_url": "https://www.nber.org/papers/w35631",
+      "retrieval_hash": "sha256:8162951ac563301ed789c62dc36d4b5da362c031a9dc510fc58d9b409aac5e26",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35631",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record measures a cohort-selection pathway from outside options to physician practice, spending, and measured patient-health outcomes. It does not establish individual physician motivation, provider fraud, universal overtreatment, household medical debt, patient trust, or a complete institutional account of health-care prices and access."
+}

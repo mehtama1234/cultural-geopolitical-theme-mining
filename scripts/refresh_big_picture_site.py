@@ -8,9 +8,38 @@ page = ROOT / "site/us-big-picture-synthesis.html"
 html = page.read_text()
 connections = json.loads((ROOT / "manifests/us-theme-connections.json").read_text(encoding="utf-8"))
 edge_count = len(connections.get("edges", []))
+reading_path_count = len(connections.get("reading_paths", []))
+record_count = len(list((ROOT / "analysis/records").glob("*.json")))
 html, lead_replacements = re.subn(r"\b\d+ recorded links\b", f"{edge_count} recorded links", html, count=1)
 if lead_replacements != 1:
     raise SystemExit("big-picture lead link count not found")
+
+# Keep the hand-designed landing page aligned with the machine-readable atlas.
+# This page used to carry a stale record count after the broad theme pass grew.
+html, record_replacements = re.subn(
+    r"\b\d+ validated trend records\b",
+    f"{record_count} validated trend records",
+    html,
+    count=1,
+)
+if record_replacements != 1:
+    raise SystemExit("big-picture lead record count not found")
+html, path_replacements = re.subn(r"\b\d+ reading paths\b", f"{reading_path_count} reading paths", html, count=1)
+if path_replacements != 1:
+    raise SystemExit("big-picture lead reading-path count not found")
+
+# The big-picture page is manually designed, so its links do not pass through
+# the generic Markdown publisher. Route the three broad-atlas entry points to
+# their published HTML pages rather than leaving readers at repository-relative
+# Markdown paths.
+reader_entry_links = {
+    "../analysis/US-BROAD-END-TO-END-READOUT_V1.md": "US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.html",
+    "../analysis/US-BROAD-THEME-SUBTHEME-MAP_V1.md": "US-BROAD-THEME-SUBTHEME-MAP_V1.html",
+    "../analysis/US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.md": "US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.html",
+    "../analysis/US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.md": "US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.html",
+}
+for source_link, published_link in reader_entry_links.items():
+    html = html.replace(f'href="{source_link}"', f'href="{published_link}"')
 
 # Rebuild the manually curated insert as one deterministic section. Earlier
 # one-at-a-time refresh branches could append the same paragraph repeatedly;
@@ -33,7 +62,7 @@ if 'ai-work-control-035.html' in html:
 <p>The MEPS event follow-up adds a same-person later health/work clock. It strengthens the household side of the map, but the event record still does not reveal the initiating need, available alternative, institutional remedy, or later meaning/action. A later health or employment value is an outcome surface, not automatically recovery.</p>
 <p>A new <a href="us-consumer-culture-003.html">June 2025 HTOPS screen</a> adds a consumer-culture middle signal: expense difficulty is not monotonically related to whether people use AI, but online searches for jobs, housing, food, medical help, benefits, and credit rise sharply with difficulty. Search is option-discovery effort, not proof of an obtained alternative, AI-mediated decision, remedy, or exit.</p>
 <p>The linked April-to-June <a href="us-cost-trust-politics-028.html">HTOPS fraud follow-up</a> adds a same-respondent bridge: earlier reported loss is followed by more online searching for jobs, food, benefits, and credit. The tiny reported-recovery group still searches heavily, so reported recovery is not restored room or security; timing and causality remain unresolved.</p>
-<p>The new <a href="../analysis/US-BROAD-END-TO-END-READOUT_V1.md">plain-language end-to-end readout</a> summarizes all 14 themes, the strongest same-unit bridges, and the exact middle links still needed before a full lived chain can be claimed.</p></section><section id="supports">'''
+<p>The new <a href="US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.html">plain-language atlas</a> explains the full end-to-end goal. The <a href="US-BROAD-THEME-SUBTHEME-MAP_V1.html">theme/subtheme map</a> shows the scope, and the <a href="US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.html">strongest-chain register</a> shows which stages are actually held by compatible units and where the middle is still open.</p><p>The current societal readout adds four linked cautions: contact is not dependable support; using several AI systems is not automatically real exit; material recovery and institutional confidence can move on different clocks; and reporting or receiving a remedy signal is not the same as restored household security. These are cross-source interpretations with explicit limits, not one pooled causal result.</p></section><section id="supports">'''
     latest = latest.replace('</section><section id="supports">', '''<p>The <a href="us-consumer-fraud-trust-001.html">fraud recovery burden finding</a> separates household fraud exposure, conditional unrecovered money, recovery time, and P2P route comparisons. The survey does not verify provider remedy, later trust, switching, or exit.</p>
 <p>The <a href="us-cost-trust-politics-014.html">party-conditioned ANES finding</a> shows that strong partisan identity concentrates reported vote across worry categories while independents vary more visibly. The controlled export has no reproduced design-based standard errors and no dated material exposure.</p>
 <p>The <a href="us-household-financial-pressure-003.html">payment-system incidence finding</a> connects NBER merchant/model evidence to separate SHED household-pressure measures. Modeled redistribution is not an observed household loss or welfare estimate.</p>

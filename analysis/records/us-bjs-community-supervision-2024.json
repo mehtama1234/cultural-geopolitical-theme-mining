@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bjs-community-supervision-2024",
+  "title": "Community supervision remains a large state-contact system even as its population declines",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Bureau of Justice Statistics Annual Probation Survey and Annual Parole Survey, Probation and Parole in the United States, 2024",
+  "geography": "United States probation and parole agencies",
+  "observations": [
+    {
+      "period": "January 1 through December 31, 2024; yearend 2014 to yearend 2024",
+      "denominator": {
+        "value": 1,
+        "unit": "BJS community-supervision population estimates and comparable-agency comparison",
+        "value_type": "source_defined_administrative_universe"
+      },
+      "measures": {
+        "yearend_2024_community_supervision": {
+          "value": 3681900,
+          "unit": "adults under probation or parole",
+          "value_type": "reported_estimate"
+        },
+        "comparable_agency_2024_change": {
+          "value": -0.4,
+          "unit": "percent change from January 1 to December 31, 2024",
+          "value_type": "reported_change"
+        },
+        "comparable_agency_decade_change": {
+          "value": -24,
+          "unit": "percent change from yearend 2014 to yearend 2024",
+          "value_type": "reported_change"
+        },
+        "probation_population_2024": {
+          "value": "3,036,700 to 3,030,500",
+          "unit": "adults from January 1 to December 31, 2024",
+          "value_type": "reported_estimates"
+        },
+        "exit_categories": {
+          "value": "completion, incarceration, absconding, and other unsatisfactory outcomes",
+          "unit": "reported types of movement off supervision",
+          "value_type": "reported_categories"
+        },
+        "later_life_outcomes": {
+          "value": "not observed",
+          "unit": "work, housing, family, health, trust, safety, and political participation after supervision",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "BJS Annual Probation Survey and Annual Parole Survey estimates, with comparable-agency population changes and administrative movement categories kept separate from person-level wellbeing or causal outcomes.",
+      "uncertainty": "The national estimate and the comparable-agency decade comparison have different coverage and comparison frames. Aggregate supervision counts do not identify supervision intensity, condition burden, service receipt, or unique-person trajectories.",
+      "subgroup": "Adults under probation or parole; the report provides characteristics such as sex, race or ethnicity, and most serious offense, but this record does not infer subgroup mechanisms or later outcomes.",
+      "counterinterpretation": "A declining supervision population may reflect changes in sentencing, admissions, releases, policy, reporting, or other factors; a smaller population does not establish lighter supervision, lower burden, or better reintegration.",
+      "source_url": "https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024",
+      "retrieval_hash": "sha256:83d770630d5ea71c000fd52fd9a022d70fdea13fd29f650d15c6747fead5ccc2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds the scale, decline, movement categories, and continuing state-contact surface of community supervision. It does not follow the same person through conditions, services, violation or completion, housing, work, family life, safety, trust, political action, or durable inclusion."
+}

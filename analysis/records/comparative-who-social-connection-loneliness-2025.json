@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-who-social-connection-loneliness-2025",
+  "title": "Social disconnection is a widespread social-health condition with stronger exposure among younger and lower-income populations",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "WHO Commission on Social Connection report and WHO social-connection evidence summary",
+  "geography": "Global; 153 countries and territories represented in the Commission's underlying evidence base",
+  "observations": [
+    {
+      "period": "2014-2023 evidence period; WHO Commission report published June 2025",
+      "denominator": {
+        "value": 153,
+        "unit": "countries and territories represented across 23 datasets used for the Commission's global loneliness estimates",
+        "value_type": "multi_dataset_country_coverage"
+      },
+      "measures": {
+        "global_loneliness": {"value": 15.8, "unit": "percent estimated global prevalence of loneliness, approximately one in six people, with uncertainty intervals reported by WHO", "value_type": "modeled_prevalence"},
+        "adolescent_loneliness": {"value": 20.9, "unit": "percent estimated loneliness among adolescents aged 13-17", "value_type": "modeled_prevalence"},
+        "young_adult_loneliness": {"value": 17.4, "unit": "percent estimated loneliness among young adults aged 18-29", "value_type": "modeled_prevalence"},
+        "adult_loneliness": {"value": 15.1, "unit": "percent estimated loneliness among adults aged 30-59", "value_type": "modeled_prevalence"},
+        "older_adult_loneliness": {"value": 11.8, "unit": "percent estimated loneliness among adults aged 60 and older", "value_type": "modeled_prevalence"},
+        "low_income_country_loneliness": {"value": 24.3, "unit": "percent reporting loneliness in low-income countries, compared with 11% in high-income countries", "value_type": "reported_group_comparison"}
+      },
+      "method": "WHO Commission synthesis drawing on 23 single- and multi-country datasets covering 153 countries and territories. The estimates distinguish loneliness from social isolation and note that the measures are not interchangeable; underlying data span 2014-2023 rather than a single contemporaneous survey.",
+      "uncertainty": "Cross-country comparability is limited by differences in survey instruments, timing, translation, sampling, and coverage. Loneliness is a subjective experience and is not the same as living alone, low contact, or clinical depression; prevalence does not establish a cause or an individual health diagnosis.",
+      "subgroup": "Adolescents, young adults, adults, older adults, people in low-income and high-income countries, and populations affected by marginalization, health, income, education, migration, or major life changes.",
+      "counterinterpretation": "A person can experience loneliness while having frequent contact, and someone with limited contact may not feel lonely. Lower reported prevalence among older adults does not eliminate risks from social isolation or unequal access to meaningful connection.",
+      "source_url": "https://www.who.int/news-room/questions-and-answers/item/social-connection",
+      "retrieval_hash": "sha256:8e0fd60cb3edf617b75810c4325e69608a4a8074090b37e796d5f4d4a264f255",
+      "status": "reported"
+    },
+    {
+      "period": "2025 report and policy-response framing; social connection as a public-health and social-institution mechanism",
+      "denominator": {
+        "value": 1,
+        "unit": "WHO Commission evidence synthesis and policy framework; no intervention denominator or causal evaluation is reported",
+        "value_type": "institutional_evidence_framework"
+      },
+      "measures": {
+        "health_and_social_scope": {"value": "WHO identifies social isolation and loneliness as affecting physical health, mental health, well-being, quality of life, longevity, education, economic resilience, and community life", "unit": "reported cross-domain consequence scope", "value_type": "reported_scope"},
+        "drivers": {"value": "Reported drivers include poor physical or mental health, marginalization, low education or income, living alone or without a partner, job loss, moving, retirement, relationship breakdown, and bereavement", "unit": "reported driver set", "value_type": "reported_mechanism"},
+        "public_health_priority": {"value": "WHO calls for social connection to be recognized and resourced as a global public-health priority, with action across sectors", "unit": "reported institutional response", "value_type": "reported_policy_priority"},
+        "policy_resolution": {"value": "The report followed a 2025 World Health Assembly resolution urging evidence-based policies, programmes, and strategies to promote positive social connection", "unit": "reported multilateral policy response", "value_type": "reported_institutional_response"}
+      },
+      "method": "WHO Commission review of global evidence, systematic reviews, policy frameworks, and lived-experience input, summarized as a social-health and cross-sector policy framework. The source recommends action but does not provide a randomized evaluation of specific programs in this record.",
+      "uncertainty": "The report's health and social consequences synthesize evidence across designs and do not mean every association is causal or uniform. Policy recognition, community programming, and digital connection do not guarantee durable or equitable improvements in social connection.",
+      "subgroup": "Individuals and communities, public-health systems, schools, workplaces, urban and rural institutions, civil society, digital platforms, and policymakers responsible for social determinants.",
+      "counterinterpretation": "Some social connection interventions may displace or burden existing community networks, and digital tools can support connection for some while worsening exclusion for others. Cross-sector action can improve access but may also medicalize ordinary solitude or subjective distress.",
+      "source_url": "https://www.who.int/groups/commission-on-social-connection/report/",
+      "retrieval_hash": "sha256:8e0fd60cb3edf617b75810c4325e69608a4a8074090b37e796d5f4d4a264f255",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.who.int/groups/commission-on-social-connection/report/",
+    "https://www.who.int/publications/i/item/978240112360",
+    "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-launch-of-the-report-of-the-who-commission-on-social-connection--from-loneliness-to-social-connection---charting-a-path-to-healthier-societies---30-june-2025"
+  ],
+  "boundary": "This record adds a global social-connection route connecting loneliness, isolation, health, well-being, education, work, income, marginalization, institutions, and policy response. It does not diagnose individuals, infer causality from prevalence, treat loneliness as equivalent to isolation, or establish that any intervention improves population health.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "WHO social-connection Q&A and Commission report page retrieved; prevalence estimates, age and income comparisons, dataset/country coverage, driver set, policy framing, and distinction between loneliness and social isolation cross-checked against WHO materials.",
+    "html_sha256": "sha256:8e0fd60cb3edf617b75810c4325e69608a4a8074090b37e796d5f4d4a264f255",
+    "checked": "2026-09-26"
+  }
+}

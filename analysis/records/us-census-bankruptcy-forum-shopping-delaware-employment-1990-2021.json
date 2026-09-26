@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-bankruptcy-forum-shopping-delaware-employment-1990-2021",
+  "title": "Legal venue can change whether a distressed firm survives and keeps jobs",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "public_systems_feedback", "household_room_consumption", "work_control_bargaining", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-29 using corporate bankruptcy cases, PACER, Federal Judicial Center data, and Census administrative establishment records",
+  "geography": "United States; Chapter 11 firms nationwide, with causal distance design focused on Maryland, New Jersey, and Pennsylvania firms filing 1990s-2021",
+  "observations": [{
+    "period": "1990s-2021 bankruptcy cases; post-filing outcomes through three years",
+    "denominator": {"value": 155059, "unit": "Chapter 11 cases in the constructed bankruptcy dataset", "value_type": "reported_sample_size"},
+    "measures": {
+      "forum_shopping": {"value": "about 22% of cases were filed outside the headquarters state; about half of forum-shopped cases were filed in Delaware", "unit": "share of corporate bankruptcy cases", "value_type": "reported_share"},
+      "instrument_relevance": {"value": "a one-standard-deviation decrease in distance to Delaware (62 miles) increased forum-shopping by 5.1 percentage points in the three-state design", "unit": "first-stage estimate", "value_type": "reported_estimate"},
+      "post_bankruptcy_employment": {"value": "6.627 fewer employees lost per establishment relative to the counterfactual; 24.8% of pre-filing average employment", "unit": "establishment employment change from one year before filing to three years after", "value_type": "instrumental_variables_estimate"},
+      "liquidation": {"value": "31 percentage-point lower Chapter 7 conversion and 30 percentage-point lower establishment closure", "unit": "instrumental variables estimate", "value_type": "reported_estimate"},
+      "case_duration_recovery": {"value": "shorter bankruptcy duration and higher probability of positive unsecured-creditor recovery", "unit": "case outcomes", "value_type": "reported_direction"},
+      "mechanism": {"value": "effects shrink and become statistically insignificant when controlling for judge Delawareness", "unit": "mechanism test", "value_type": "reported_mechanism"}
+    },
+    "method": "The authors combine a near-universe bankruptcy dataset with Census establishment panels and use distance to the Delaware bankruptcy court as an instrument for Delaware venue choice among firms headquartered in Delaware-adjacent states; placebo and judge-composition tests address the exclusion restriction.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The instrumental-variable estimate is a local average treatment effect for firms whose venue choice responds to proximity. The study is silent on forum shopping to courts other than Delaware, distribution of losses across all workers or consumers, and long-run household wellbeing.",
+    "subgroup": "Corporate Chapter 11 firms and establishments, especially firms headquartered in Maryland, New Jersey, or Pennsylvania; workers, creditors, and consumers are represented through establishment and creditor outcomes rather than followed as individual households.",
+    "counterinterpretation": "Delaware venue may preserve value through specialized judges and precedent rather than simply favoring managers or lenders. Lower liquidation and higher employment do not prove that every creditor, worker, consumer, or local community benefited, and the distance design does not identify effects for firms choosing other courts.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-29.html",
+    "retrieval_hash": "sha256:edc87c40c40f7ab04a1ad5750bbf6bc00b39b69d7cc44a44fda1526004fb773f",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-29.pdf", "claim": "The official paper provides the bankruptcy construction, instrumental-variable design, mechanism tests, and outcome tables.", "status": "official-paper-context"}],
+  "boundary": "This record adds a legal-institution-to-firm-survival and employment pathway. It does not establish universal bankruptcy effects, individual worker receipt or wellbeing, consumer outcomes, local tax effects, or that Delaware venue is socially optimal in every case.",
+  "retrieval_hash": "sha256:edc87c40c40f7ab04a1ad5750bbf6bc00b39b69d7cc44a44fda1526004fb773f"
+}

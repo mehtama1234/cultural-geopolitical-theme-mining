@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-child-climate-hazard-service-exposure-2026",
+  "title": "Children’s climate risk is increasingly a compound exposure and social-service-capacity problem",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNICEF Children's Climate Risk Report 2026 and Global Child Hazard Database / Children’s Climate Risk Framework",
+  "geography": "Global children and most countries and territories, including Small Island Developing States",
+  "observations": [
+    {
+      "period": "2026 publication; global child exposure to overlapping climate hazards",
+      "denominator": {
+        "value": 1,
+        "unit": "global child population and hazard-exposure model; each hazard estimate has its own geographic and population denominator",
+        "value_type": "global_modeled_child_population"
+      },
+      "measures": {
+        "three_or_more_hazards": {"value": 1100000000, "unit": "children exposed to at least three overlapping climate hazards, rounded as reported", "value_type": "modeled_population_count"},
+        "riverine_flood_exposure": {"value": 337000000, "unit": "children living in areas affected by riverine flooding, rounded as reported", "value_type": "modeled_population_count"},
+        "agricultural_or_meteorological_drought": {"value": 1800000000, "unit": "children exposed to agricultural or meteorological droughts, rounded as reported", "value_type": "modeled_population_count"},
+        "tropical_storm_exposure": {"value": 662000000, "unit": "children living in areas exposed to tropical storms, rounded as reported", "value_type": "modeled_population_count"},
+        "heatwave_exposure": {"value": 1500000000, "unit": "children exposed to heatwaves becoming more frequent, longer-lasting, or more severe, rounded as reported", "value_type": "modeled_population_count"},
+        "air_pollution_exposure": {"value": 2300000000, "unit": "children living in areas where air pollutants are detectable, rounded as reported", "value_type": "modeled_population_count"}
+      },
+      "method": "UNICEF combines the Global Child Hazard Database with geographic child-population mapping and updated hazard data to estimate exposure to multiple climate threats. The report treats overlapping exposure as distinct from a single-event count and identifies risks to health, education, survival, and displacement.",
+      "uncertainty": "These are modeled exposure estimates, not counts of children experiencing a specific health, learning, displacement, or income outcome. Hazard definitions, thresholds, spatial resolution, data vintage, and overlapping categories can affect totals; exposure does not equal realized harm.",
+      "subgroup": "Children globally, including children in areas exposed to floods, drought, storms, heat, fires, air pollution, malaria-sensitive conditions, and other climate-sensitive hazards.",
+      "counterinterpretation": "Some exposed communities have strong adaptation, infrastructure, health, education, and protection systems that reduce realized harm. Conversely, areas below a modeled hazard threshold may still experience severe local events or service disruption.",
+      "source_url": "https://www.unicef.org/reports/childrens-climate-risk-report-2026",
+      "retrieval_hash": "sha256:fc397400927cff1bbb9784174cd021092daaf249144fabc0517ef32e84173805",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; compound hazard, vulnerability, and social-service-capacity framework",
+      "denominator": {
+        "value": 1,
+        "unit": "UNICEF Children’s Climate Risk Framework applied to mapped child populations and service-capacity dimensions",
+        "value_type": "modeled_risk_framework"
+      },
+      "measures": {
+        "framework_dimensions": {"value": "Hazard exposure is paired with child vulnerability and access/capacity across health, WASH, nutrition, education, protection, and social protection", "unit": "reported analytical framework", "value_type": "reported_framework"},
+        "compound_pathway": {"value": "Drought can worsen food insecurity and wildfire risk; fire can increase air pollution; later floods can damage homes, schools, hospitals, and water systems, displace communities, and spread disease", "unit": "reported compound-risk pathway", "value_type": "reported_mechanism"},
+        "service_response": {"value": "UNICEF calls for child-responsive adaptation through safe and green learning facilities, climate-resilient health care, food and WASH security, and shock-responsive protection services", "unit": "reported policy-response priorities", "value_type": "reported_policy_priority"},
+        "child_participation": {"value": "UNICEF calls for investment in climate education, knowledge, skills, and children’s meaningful participation in climate decisions", "unit": "reported participation priority", "value_type": "reported_policy_priority"}
+      },
+      "method": "UNICEF’s framework combines hazard exposure with social-service access and capacity at a geographic scale intended for adaptation and disaster-risk-reduction planning. The publication is a risk-mapping and policy framework, not a longitudinal evaluation of service performance or child outcomes.",
+      "uncertainty": "The framework identifies where compound exposure and service gaps may overlap but does not establish that a given service gap caused a particular outcome or that proposed investments will reduce harm. National capacity indicators may not capture local service quality, informal support, or household adaptation.",
+      "subgroup": "Children, families, schools, health and WASH systems, nutrition and protection services, governments, humanitarian actors, and young people participating in climate decisions.",
+      "counterinterpretation": "Service capacity can buffer hazards, and communities may adapt through informal institutions not visible in administrative indicators. Child participation in policy does not guarantee influence over resource allocation or implementation.",
+      "source_url": "https://data.unicef.org/resources/childrens-climate-risk-report-2026/",
+      "retrieval_hash": "sha256:fc397400927cff1bbb9784174cd021092daaf249144fabc0517ef32e84173805",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://data.unicef.org/resources/childrens-climate-risk-report-2026/",
+    "https://github.com/UNICEF/climate-risk-report-2026"
+  ],
+  "boundary": "This record adds an intergenerational climate-risk route connecting compound hazard exposure, child vulnerability, social-service capacity, displacement, health, education, WASH, nutrition, protection, and child participation. It does not infer individual child harm, family welfare, causal service effects, or adaptation success from modeled exposure and framework indicators.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNICEF report page and UNICEF Data page retrieved; publication date, Global Child Hazard Database, Children’s Climate Risk Framework, hazard exposure counts, compound pathways, service dimensions, and policy priorities cross-checked against the pages.",
+    "report_page_html_sha256": "sha256:fc397400927cff1bbb9784174cd021092daaf249144fabc0517ef32e84173805",
+    "checked": "2026-09-26"
+  }
+}

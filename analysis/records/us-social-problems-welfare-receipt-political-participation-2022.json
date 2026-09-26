@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-social-problems-welfare-receipt-political-participation-2022",
+  "title": "Contemporary welfare receipt has heterogeneous and program-specific political participation associations",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Young U.S. adults in nationally representative longitudinal survey data on welfare receipt and political participation",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Contemporary welfare receipt and political participation; Social Problems volume 69 issue 3, 2022",
+      "denominator": {
+        "value": 1,
+        "unit": "nationally representative longitudinal survey study frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "cash_assistance_and_participation": {
+          "value": "little evidence of an association",
+          "unit": "reported fixed-effects association with political participation",
+          "value_type": "reported_null"
+        },
+        "food_stamps_and_registration": {
+          "value": "positively associated with being registered to vote",
+          "unit": "reported fixed-effects association",
+          "value_type": "reported_effect_direction"
+        },
+        "food_stamps_and_voting": {
+          "value": "countervailing associations, including marginalizing and incorporating patterns, depending on political attentiveness",
+          "unit": "reported heterogeneous association with voting",
+          "value_type": "reported_heterogeneity"
+        }
+      },
+      "method": "Social Problems article using nationally representative data and fixed-effects models adjusting for time-stable unobserved characteristics and observed time-varying factors to study cash assistance, food stamps, registration, voting, and political attentiveness among young adults.",
+      "uncertainty": "The abstract reports adjusted associations, not a randomized treatment effect. It does not identify a dated benefit episode, administrative receipt, benefit adequacy, caseworker interaction, blame, trust change, or verified turnout for a named individual.",
+      "subgroup": "Young adults, with heterogeneity by program and political attentiveness.",
+      "counterinterpretation": "Null cash-assistance associations and mixed food-stamp associations can reflect selection, program design, benefit amount, stigma, administrative experience, political attention, or different resource effects. Registration is not turnout, and participation is not institutional trust.",
+      "source_url": "https://academic.oup.com/socpro/article-abstract/69/3/659/5979691",
+      "retrieval_hash": "sha256:32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1093/socpro/spaa050",
+      "claim": "Oxford Academic DOI and publication metadata identify the article and authors Naomi F. Sugie and Emma Conner.",
+      "status": "official-metadata"
+    },
+    {
+      "source_url": "https://www.jstor.org/stable/27393964",
+      "claim": "JSTOR landing page identifies the published Social Problems article and issue placement.",
+      "status": "publisher-landing"
+    }
+  ],
+  "boundary": "This is a contemporary U.S. welfare-participation association with program and attentiveness heterogeneity, not a universal cash effect, causal benefit-to-vote estimate, or trust/legitimacy result.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "JSTOR article landing page downloaded and hashed for publication metadata; title, DOI, issue, authors, and abstract-level findings checked against the official Oxford Academic abstract page and search-indexed publisher text.",
+    "checked": "2026-09-25"
+  }
+}

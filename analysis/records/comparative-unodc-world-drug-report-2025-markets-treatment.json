@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unodc-world-drug-report-2025-markets-treatment",
+  "title": "Drug consumption and synthetic-market capacity are expanding while treatment access remains scarce and gendered",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNODC World Drug Report 2025, global aggregate estimates and drug-market analysis",
+  "geography": "Global; estimates cover people aged 15-64 and drug-market indicators with substance- and region-specific coverage",
+  "observations": [
+    {
+      "period": "2023 global drug-use estimates, with comparison to 2013",
+      "denominator": {
+        "value": 5200000000,
+        "unit": "approximate global population aged 15-64 used for prevalence context",
+        "value_type": "global_population_estimate"
+      },
+      "measures": {
+        "people_using_drugs_past_year": {"value": 316, "unit": "million people aged 15-64 using a drug excluding alcohol and tobacco in 2023", "value_type": "reported_global_estimate"},
+        "annual_prevalence": {"value": 6, "unit": "percent of the population aged 15-64 using drugs in 2023, compared with 5.2% in 2013", "value_type": "reported_global_prevalence"},
+        "cannabis_users": {"value": 244, "unit": "million people using cannabis in 2023", "value_type": "reported_global_estimate"},
+        "cocaine_users": {"value": 25, "unit": "million people using cocaine in 2023, up from 17 million in 2013", "value_type": "reported_global_estimate"},
+        "cocaine_production": {"value": 3708, "unit": "tons of potential cocaine manufacture in 2023, nearly 34% above 2022", "value_type": "reported_supply_estimate"},
+        "synthetic_stimulant_seizure_pattern": {"value": "record high", "unit": "global amphetamine-type stimulant seizures in 2023, close to half of all synthetic-drug seizures", "value_type": "reported_supply_pattern"}
+      },
+      "method": "UNODC synthesis of national reporting, modeled prevalence estimates, seizure and production indicators, and drug-by-drug market analysis in the 2025 World Drug Report.",
+      "uncertainty": "Use, production, and seizure estimates have different coverage and measurement error; seizures are not consumption, and reported supply indicators can reflect enforcement intensity. Global totals conceal major regional and substance-specific differences and do not identify individual trajectories.",
+      "subgroup": "People aged 15-64, with substance, gender, regional, and market-route differences reported where data permit; young people and populations affected by instability are identified as vulnerability concerns.",
+      "counterinterpretation": "Higher recorded seizures can indicate stronger enforcement or reporting rather than larger supply. Drug-use prevalence does not equal drug-use disorder, harmful use, or treatment need, and market growth does not establish a single cause.",
+      "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2025/Press_release_WDR_2025_English.pdf",
+      "retrieval_hash": "sha256:31684f51b6c028da97c18fb34454f9edc48f53e75113aa8e87b29a46be31cd70",
+      "status": "reported"
+    },
+    {
+      "period": "2023 global drug-use-disorder treatment estimates and regional service-coverage context",
+      "denominator": {
+        "value": 64000000,
+        "unit": "people estimated to have drug use disorders in 2023",
+        "value_type": "global_health_estimate"
+      },
+      "measures": {
+        "people_with_drug_use_disorders": {"value": 64, "unit": "million people with drug use disorders in 2023", "value_type": "reported_global_estimate"},
+        "population_in_treatment": {"value": 8.1, "unit": "percent of people with drug use disorders receiving treatment, as reported in the key-findings material", "value_type": "reported_treatment_coverage"},
+        "women_in_treatment_ratio": {"value": "1 in 18", "unit": "estimated women with drug use disorders receiving treatment", "value_type": "reported_gender_ratio"},
+        "men_in_treatment_ratio": {"value": "1 in 7", "unit": "estimated men with drug use disorders receiving treatment", "value_type": "reported_gender_ratio"},
+        "regional_treatment_coverage_range": {"value": "just over 3 to over 27", "unit": "percent treatment coverage range reported across Africa to Europe", "value_type": "reported_regional_range"},
+        "women_treatment_service_gap_afghanistan": {"value": "about one third of provinces", "unit": "Afghan provinces offering treatment services for women in 2022", "value_type": "reported_place_service_coverage"}
+      },
+      "method": "UNODC global treatment-coverage estimates and regional/service-access analysis, with sex-disaggregated comparisons and examples of geographic, capacity, stigma, childcare, and gender-responsive-service barriers.",
+      "uncertainty": "Treatment estimates are affected by incomplete sex-disaggregated data, service definitions, reporting gaps, and differences between availability, contact, adequacy, and sustained recovery. The ratios do not diagnose need in an individual or prove why someone did or did not seek treatment.",
+      "subgroup": "People with drug use disorders, women and men, rural and urban populations, people affected by stigma or legal risk, caregivers, and populations in regions with limited treatment infrastructure.",
+      "counterinterpretation": "Low treatment contact can reflect perceived lack of need, preference, stigma, legal risk, cost, distance, capacity, or service mismatch rather than simple provider absence. Higher treatment coverage is not automatically effective or equitable care.",
+      "source_url": "https://www.unodc.org/documents/data-and-analysis/WDR2025/2511227E.pdf",
+      "retrieval_hash": "sha256:31684f51b6c028da97c18fb34454f9edc48f53e75113aa8e87b29a46be31cd70",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2025/WDR25_Special_points_of_interest.pdf", "claim": "UNODC provides substance-specific use, market, gender, and policy indicators, including cannabis, opioids, cocaine, and synthetic drugs."},
+    {"source_url": "https://www.unodc.org/documents/data-and-analysis/WDR2025/2511227F.pdf", "claim": "UNODC provides the treatment-coverage key findings in an official language edition."}
+  ],
+  "boundary": "This record adds a global drug-consumption, illicit-market, treatment-access, gender, and service-capacity route. It is not respondent-level data, a prevalence survey of a particular place, a causal evaluation of drug policy, or an individual diagnosis; market indicators and treatment indicators remain separate evidence surfaces.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNODC World Drug Report 2025 press release, special-points material, and treatment key-findings material retrieved through official UNODC publication endpoints and search-indexed official copies; global use, substance, production, treatment, gender, and regional service figures cross-checked against the official materials.",
+    "pdf_sha256": "sha256:31684f51b6c028da97c18fb34454f9edc48f53e75113aa8e87b29a46be31cd70",
+    "checked": "2026-09-26"
+  }
+}

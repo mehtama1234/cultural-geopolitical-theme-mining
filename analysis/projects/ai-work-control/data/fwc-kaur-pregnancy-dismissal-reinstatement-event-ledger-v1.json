@@ -1,0 +1,86 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_adjudicated_individual_employment_remedy_record",
+  "purpose": "Bounded Fair Work Commission case preserving a pregnancy-linked loss of regular work, observed alternative employment, worker response, quantified reinstatement and lost-pay order, and the still-open implementation and durability route.",
+  "events": [
+    {
+      "event_id": "FWC-KAUR-PREGNANCY-REINSTATEMENT-2025-12-19",
+      "unit": "worker",
+      "geography": "Australia; Kaur v Adecco Industrial Australia Pty Ltd [2025] FWC 3646",
+      "actor_initiating_change": "employer",
+      "event_date": "2025-06-05",
+      "date_precision": "Dismissal date; decision and remedy order issued 2025-11-30 with reinstatement deadline 2025-12-19",
+      "denominator": "One publicly adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the official Fair Work Commission decision",
+      "missingness": "Public decision records regular work, pregnancy disclosure, two light-duty shifts, two weeks of alternative employment, worker response, and ordered remedy; payment receipt, actual reinstatement, later shifts, household outcome, trust, recurrence, and exit are not publicly retained",
+      "condition_or_decision": "job_rule",
+      "exposure": "The worker had regular full-time hours at an Amazon site through a labour-supply employer; after pregnancy disclosure and lifting restrictions, scheduled shifts and training were withdrawn and the employment was placed on hold, which the Commission found was an unfair dismissal",
+      "alternatives_before_action": "The worker worked for another employer for two weeks during the period used to calculate lost remuneration; equivalence, choice, commute, pay, and durability of that alternative are not established",
+      "immediate_burden_or_benefit": "Loss of regular work and expected wages after the dismissal; the decision records an average prior earning rate of $1,426 per week and significant time without work",
+      "choice_or_response": "The worker pushed back by SMS and email, requested accommodation or training, threatened Fair Work Commission action, filed the application, and supplied evidence about light duties and the withdrawn training route",
+      "person_or_actor_with_control": "Adecco and its host client controlled shift allocation, light-duty/training access, and reinstatement; the worker controlled written response and legal application; the Commission controlled the remedy order",
+      "remedy_or_institutional_response": "The Commission ordered reinstatement to the former position with continuity of employment by 19 December 2025 and payment of $14,830.40 less tax plus superannuation for lost remuneration",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The public decision records an order but not payment receipt, payroll evidence, or worker confirmation",
+      "durability_followup": "No public post-deadline record was located here showing actual reinstatement, shifts worked, payment, recurrence, later employment, household recovery, trust, or exit",
+      "immediate_outcome": "A formal finding of unfair dismissal and a quantified reinstatement/lost-pay order followed a documented worker response and a bounded alternative-work episode",
+      "protected_outcome": "The order sought to restore the worker's job, continuity, wages, and superannuation",
+      "sacrificed_outcome": "Regular work and income were interrupted; the practical restoration of work, money, and security remains unverified",
+      "cost_risk_transfer": "The worker bore lost work, search, and legal effort during the interruption; the employer received a compulsory restoration and monetary obligation",
+      "later_outcome": "The record ends at the reinstatement deadline and ordered payment, leaving actual implementation and durable work open",
+      "meaning_and_attribution": "The worker directly attributed the loss of shifts to the pregnancy disclosure and challenged the employer's accommodation logic; this is a case-specific attribution signal, not a population estimate of belief",
+      "public_or_collective_response": "Individual legal action through the Fair Work Commission is observed; no later collective or political response is reported",
+      "counterexample": "A quantified reinstatement and lost-pay order can coexist with unknown payment, actual return, and durable work access",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Official Fair Work Commission decision [2025] FWC 3646, https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3646.pdf; the decision is authoritative for the findings and order but does not establish post-order implementation"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-KAUR-A-01",
+      "from": "pregnancy disclosure and medical lifting restriction",
+      "to": "regular shifts/training withdrawn and employment placed on hold",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records pregnancy disclosure, cancelled shifts, withdrawn training, two light-duty shifts, and the 5 June 2025 SMS placing shifts on hold",
+      "status": "observed",
+      "counterexample": "A nominally temporary hold can function as a termination when regular work is not restored",
+      "remaining_gap": "Employer decision-maker intent and broader workplace prevalence"
+    },
+    {
+      "arrow_id": "FWC-KAUR-A-02",
+      "from": "work interruption",
+      "to": "worker response and bounded alternative employment",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records written pushback, a Fair Work Commission application, and two weeks of work for another employer used in the lost-pay calculation",
+      "status": "observed",
+      "counterexample": "Searching or taking another job shows response and substitution, not that the alternative was equal or freely chosen",
+      "remaining_gap": "Alternative pay, commute, adequacy, choice, duration, and household trade-off"
+    },
+    {
+      "arrow_id": "FWC-KAUR-A-03",
+      "from": "worker response and evidence",
+      "to": "unfair-dismissal finding and quantified remedy order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found the dismissal harsh, unjust and unreasonable and ordered reinstatement with continuity plus $14,830.40 less tax and superannuation",
+      "status": "reported",
+      "counterexample": "A formal remedy is an institutional correction, not proof of practical restoration",
+      "remaining_gap": "Payment instrument, receipt, actual reinstatement, and employer compliance"
+    },
+    {
+      "arrow_id": "FWC-KAUR-A-04",
+      "from": "formal remedy order",
+      "to": "protected work/income/security restored",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The order specifies a reinstatement deadline and monetary amount, but the public record retained here contains no post-deadline implementation record",
+      "status": "open",
+      "counterexample": "An enforceable deadline does not demonstrate that work or money was actually restored",
+      "remaining_gap": "Actual return, shifts and pay, payment receipt, recurrence, later work, household recovery, trust, and exit"
+    }
+  ],
+  "boundary": "This is a selected adjudicated case, not a pregnancy-discrimination prevalence estimate. It closes a same-worker span from work interruption through alternative employment, worker action, and quantified institutional remedy, while leaving implementation and durable recovery open.",
+  "storage_boundary": "No private claimant file or bulk respondent archive is retained; only the bounded official decision, event sequence, uncertainty, and open downstream stages are represented."
+}

@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-eligibility-data-interoperability-2026",
+  "title": "Federal payment eligibility can be formally data-rich while fragmented identifiers weaken usable oversight",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office review of federal data sources used for award and payment eligibility determinations",
+  "geography": "United States federal award and payment systems",
+  "observations": [
+    {
+      "period": "Fiscal years 2023-2024 data testing; report published June 16, 2026; legislative status checked July 2026",
+      "denominator": {
+        "value": 9,
+        "unit": "judgmentally selected federal eligibility data sources reviewed by GAO",
+        "value_type": "reported_review_population"
+      },
+      "measures": {
+        "available_eligibility_sources": {"value": ">100", "unit": "federal data sources agencies may use across the award life cycle", "value_type": "reported_count_threshold"},
+        "do_not_pay_sources": {"value": 28, "unit": "data sources in or designated for inclusion in the Do Not Pay working system as of September 2025", "value_type": "reported_count"},
+        "selected_sources_with_data_quality_issues": {"value": 9, "unit": "of 9 selected sources with missing, invalid, duplicate, or other data-quality issues", "value_type": "reported_count"},
+        "selected_sources_with_cross_source_inconsistencies": {"value": 7, "unit": "of 9 selected sources with inconsistencies such as overlap in mutually exclusive data", "value_type": "reported_count"},
+        "sam_exclusion_awards_matched_by_uei": {"value": 2074, "unit": "USAspending.gov awards matched to SAM Exclusion records with a unique entity identifier", "value_type": "reported_match_count"},
+        "matched_awards_proven_improper": {"value": "not established by the match", "unit": "case-level evaluation still required", "value_type": "explicit_boundary"},
+        "governmentwide_interoperability_authority": {"value": "none designated; Congress matter remained open as of July 2026", "unit": "governance status", "value_type": "reported_status"},
+        "individual_payment_or_benefit_outcome": {"value": "not observed", "unit": "no person-level eligibility decision, payment error, correction, or household outcome in the public review", "value_type": "unmeasured"}
+      },
+      "method": "GAO reviewed laws, guidance, data dictionaries, validation practices, and fiscal-year 2023-2024 data for nine selected sources, and partially linked SAM entity, SAM Exclusion, and USAspending.gov data using unique entity identifiers. The source distinguishes a data match from proof of an improper award or payment.",
+      "uncertainty": "The review is a judgmental selection of nine sources, not a census of all federal eligibility systems. It does not identify affected recipients, quantify improper payments caused by the data issues, show a person-level correction, or establish whether a future interoperability mandate would improve benefit receipt or payment accuracy.",
+      "subgroup": "Federal agencies and entities appearing in award, spending, exclusion, or eligibility data systems; the review is system-level rather than a recipient survey.",
+      "counterinterpretation": "Fragmentation and data-quality issues can limit matching without implying that a specific award was improper; agency-specific systems may serve valid program purposes even when they were not designed for cross-agency eligibility determinations.",
+      "source_url": "https://www.gao.gov/products/gao-26-107466",
+      "retrieval_hash": "sha256:f64abfe8410b91fa63b34ab937a8c91bcd276039babae9768b77719f19a4c88e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107466",
+      "claim": "GAO report page and full-report access for federal award and payment eligibility data interoperability.",
+      "status": "official-source"
+    }
+  ],
+  "boundary": "This record establishes a federal data-governance and matching-capacity problem relevant to payment integrity and AI-enabled oversight. It does not establish an individual improper payment, benefit denial, recipient harm, correction, trust change, political action, or household outcome."
+}

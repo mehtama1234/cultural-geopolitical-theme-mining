@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-public-life-engagement-types-2025-2026",
+  "title": "Public-life engagement is organized into distinct participation routes rather than a single engaged-disengaged spectrum",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center Pew-Knight Initiative Cross-Sectional Engagement Survey and American Trends Panel classification",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 9-December 5, 2025; four-group public-life engagement classification published July 16, 2026",
+      "denominator": {
+        "value": 5393,
+        "unit": "U.S. adults in the Pew Cross-Sectional Engagement Survey; group shares are published estimates of U.S. adults",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "mobilizers": {"value": 9, "unit": "percent of U.S. adults; high activity across politics, civic life, news, and religion", "value_type": "published_group_share"},
+        "connectors": {"value": 28, "unit": "percent of U.S. adults; community, charitable, group, and religious participation with less political action", "value_type": "published_group_share"},
+        "spectators": {"value": 31, "unit": "percent of U.S. adults; relatively high news attention with less civic and political participation", "value_type": "published_group_share"},
+        "outsiders": {"value": 31, "unit": "percent of U.S. adults; relatively low participation across the measured activities", "value_type": "published_group_share"}
+      },
+      "method": "Pew cluster analysis sorted respondents using 19 measures of political activity, civic involvement, religious attendance, and news attention. The source used the Cross-Sectional Engagement Survey to define groups and assigned American Trends Panel respondents to those groups for related analyses.",
+      "uncertainty": "This is a one-time classification, not a time series or a measure of durable identity. Respondents not categorized into a group are not shown in the displayed distribution, and clustering reflects the selected questions, survey period, and classification choices.",
+      "subgroup": "U.S. adults; the source also reports age, education, income, race and ethnicity, party, and ideological comparisons across the four groups.",
+      "counterinterpretation": "The 31% Outsider group is not uniformly absent from public life: the source reports that 41% say they voted in 2024 and 24% attend religious services at least monthly. Low measured engagement is therefore not equivalent to civic withdrawal or institutional rejection.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:7397e81e379ca597833eaf7bf1ff427b8f01b42434a571793619b0dc35b08ee4",
+      "status": "reported"
+    },
+    {
+      "period": "July 9-December 5, 2025; selected engagement endpoints across the four groups",
+      "denominator": {
+        "value": 5393,
+        "unit": "U.S. adults in the Pew Cross-Sectional Engagement Survey; endpoint shares are reported within engagement groups",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "voted_2024": {"value": "Mobilizers 87%, Connectors 87%, Spectators 49%, Outsiders 41%", "unit": "percent within engagement group", "value_type": "published_group_comparison"},
+        "contacted_elected_official": {"value": "Mobilizers 65%, Connectors 13%, Spectators 7%, Outsiders 3%", "unit": "percent within engagement group, past year", "value_type": "published_group_comparison"},
+        "volunteered": {"value": "Mobilizers 77%, Connectors 42%, Spectators 17%, Outsiders 13%", "unit": "percent within engagement group, past year", "value_type": "published_group_comparison"},
+        "nonpolitical_donation": {"value": "Mobilizers 83%, Connectors 90%, Spectators 21%, Outsiders 21%", "unit": "percent within engagement group, past year", "value_type": "published_group_comparison"},
+        "monthly_religious_attendance": {"value": "Mobilizers 45%, Connectors 43%, Spectators 25%, Outsiders 24%", "unit": "percent within engagement group", "value_type": "published_group_comparison"},
+        "follow_national_news": {"value": "Mobilizers 95%, Connectors 88%, Spectators 84%, Outsiders 41%", "unit": "percent within engagement group, at least somewhat closely", "value_type": "published_group_comparison"}
+      },
+      "method": "Published cross-tabulations of the Pew engagement groups, retaining political, charitable, religious, news, and voting endpoints as separate behaviors rather than collapsing them into one engagement score.",
+      "uncertainty": "These are self-reported behaviors and cross-sectional group contrasts. They do not establish that news attention causes action, that religion creates community participation, or that low activity reflects exclusion rather than preference, time, access, or measurement limits.",
+      "subgroup": "U.S. adults classified into Mobilizers, Connectors, Spectators, and Outsiders; source reports selected demographic and partisan differences by group.",
+      "counterinterpretation": "A high-news group can be publicly quiet, and a lower-engagement group can still vote or attend religious services. Public life therefore has multiple endpoints and should not be represented as a single participation ladder.",
+      "source_url": "https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/",
+      "retrieval_hash": "sha256:7397e81e379ca597833eaf7bf1ff427b8f01b42434a571793619b0dc35b08ee4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cross-domain public-life participation typology linking news attention, civic action, religious practice, charitable behavior, and voting. It does not infer causality, durable civic identity, political efficacy, social capital, institutional trust, or exclusion from the cross-sectional clusters.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Pew publication page retrieved and hashed; group distribution, behavior contrasts, survey field period, classification method, and stated limitations cross-checked against the publication.",
+    "html_sha256": "sha256:7397e81e379ca597833eaf7bf1ff427b8f01b42434a571793619b0dc35b08ee4",
+    "checked": "2026-09-26"
+  }
+}

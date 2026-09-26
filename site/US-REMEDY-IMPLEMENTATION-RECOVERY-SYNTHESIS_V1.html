@@ -1,0 +1,519 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Remedy implementation is not the same as lived recovery v1"><title>Remedy implementation is not the same as lived recovery v1</title><style>:root{--paper:#f5f3ed;--ink:#18322d;--muted:#566a63;--line:#cbd8d0;--green:#174f43;--gold:#b86b2b;--blue:#e8eee9;--card:#fffefa}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:18px/1.72 system-ui,sans-serif}main{max-width:960px;margin:auto;padding:24px 22px 84px}a{color:var(--green);text-underline-offset:4px}nav{font-size:.95rem}header{padding:34px 0 26px;border-bottom:1px solid var(--line)}h1,h2,h3{font-family:Georgia,serif;font-weight:normal;line-height:1.12}h1{font-size:clamp(2.7rem,7vw,5.5rem);margin:20px 0}h2{font-size:2.1rem;margin:58px 0 16px;scroll-margin-top:20px}h3{font-size:1.4rem;scroll-margin-top:20px}.eyebrow{color:var(--green);font-size:.78rem;letter-spacing:.12em;text-transform:uppercase}.lede{font-size:1.28rem;max-width:820px}.memo{padding-top:8px}.memo table{border-collapse:collapse;width:100%;background:var(--card);margin:22px 0;display:block;overflow-x:auto}.memo th,.memo td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top;min-width:150px}.memo th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}.memo blockquote{border-left:4px solid var(--gold);margin:24px 0;padding-left:20px;font:1.3rem/1.5 Georgia,serif}.memo pre{background:var(--blue);padding:20px;border-radius:10px;overflow:auto;white-space:pre-wrap}.memo code{background:var(--blue);padding:2px 5px;border-radius:4px}.memo hr{border:0;border-top:1px solid var(--line);margin:38px 0}.memo img{max-width:100%}.note{border-left:4px solid var(--gold);padding-left:18px;color:var(--muted)}.reader-guide{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,.55fr);gap:18px;margin:26px 0 8px}.reader-guide>div,.toc{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px}.reader-guide p{margin:0}.reader-guide strong{color:var(--green)}.toc{font-size:.92rem}.toc-title{margin:0 0 8px;color:var(--muted);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase}.toc ul{margin:0;padding-left:18px}.toc li{margin:4px 0}.toc h3{font:inherit;margin:0}.toc .toc-sub{padding-left:14px;font-size:.88rem}@media(max-width:700px){body{font-size:17px}main{padding:18px 16px 60px}.memo table{font-size:.92rem}.reader-guide{grid-template-columns:1fr}}.skip{position:absolute;left:-9999px}.skip:focus{left:12px;top:10px;background:white;padding:10px;z-index:2}:focus-visible{outline:3px solid var(--gold);outline-offset:4px}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.toc{position:sticky;top:14px;height:max-content;max-height:calc(100vh - 28px);overflow:auto}.site-nav{color:var(--muted);white-space:nowrap;overflow-x:auto;padding-bottom:3px}.reader-nav{position:sticky;top:0;z-index:4;display:flex;gap:8px;align-items:center;margin:0 -22px;padding:10px 22px;background:rgba(245,243,237,.97);border-bottom:1px solid var(--line);white-space:nowrap;overflow-x:auto}.reader-nav a{padding:5px 10px;border:1px solid transparent;border-radius:999px;text-decoration:none}.reader-nav a:hover,.reader-nav a:focus-visible{border-color:var(--line);background:var(--card)}.reader-nav .reader-nav-label{margin-right:4px;color:var(--muted);font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}@media(max-width:700px){.toc{position:static;max-height:none}.reader-nav{margin:0 -16px;padding-left:16px;padding-right:16px}}@media print{body{background:white;color:black;font-size:11pt}main{max-width:none;padding:0}.reader-guide,.reader-nav{display:none}nav,footer,.skip{display:none}.memo a{color:black;text-decoration:none}.memo table{display:table;overflow:visible;font-size:9pt}.memo h1,.memo h2,.memo h3{break-after:avoid}.memo p,.memo table{break-inside:avoid}}</style></head><body><a class="skip" href="#finding">Skip to finding</a><main><nav class="site-nav"><a href="index.html">Research home</a> · <a href="us-theme-atlas.html">Connections</a> · <a href="us-big-picture-synthesis.html">Big picture</a> · <a href="us-matched-evidence.html">Matched evidence</a></nav><nav class="reader-nav" aria-label="Reader navigation"><span class="reader-nav-label">Read</span><a href="reading-room.html">Guided route</a><a href="review-guide.html">Review guide</a><a href="theme-trends.html">Theme trends</a><a href="us-program-dashboard.html">Program dashboard</a><a href="source-registry.html">Source families</a><a href="us-source-coverage.html">Project coverage</a><a href="us-evidence-audit.html">Evidence controls</a></nav><header><p class="eyebrow">Connected US finding · source-traceable memo</p><div class="lede">Full current Markdown record, presented in a responsive reading layout.</div></header><div class="reader-guide"><div><p><strong>How to read:</strong> start with the bounded finding, then inspect the evidence table or measures, the interpretation, the counterexamples, and the next test. The page keeps direct observations separate from proposed connections.</p></div><nav class="toc" aria-label="On this page"><p class="toc-title">On this page</p><ul><li><a href="#the-finding">The finding</a></li><li><a href="#the-remedy-evidence-ladder">The remedy-evidence ladder</a></li><li><a href="#what-the-cases-establish">What the cases establish</a></li><li><a href="#the-deeper-pattern">The deeper pattern</a></li><li><a href="#voice-can-open-the-remedy-route-without-proving-restored-agency">Voice can open the remedy route without proving restored agency</a></li><li><a href="#coding-consequence-for-the-atlas">Coding consequence for the atlas</a></li><li><a href="#boundary">Boundary</a></li><li><a href="#source-records">Source records</a></li></ul></nav></div><article id="finding" class="memo"><h1>Remedy implementation is not the same as lived recovery v1</h1>
+<p><strong>Checked:</strong> 2026-09-21
+<strong>Status:</strong> cross-domain synthesis of retained public case records; no pooled
+recovery rate</p>
+<h2 id="the-finding">The finding</h2>
+<p>The strongest records in the atlas now travel beyond exposure and institutional
+response. They show reported payment, restored work access, restored wage or
+seniority, repeated post-restoration use, provider switching, or a worker's
+decision not to return. Those endpoints are not interchangeable.</p>
+<pre><code class="language-text">harm or exclusion
+  -&gt; complaint / intervention / adjudication
+  -&gt; order, offer, correction, or reported payment
+  -&gt; access or money actually used
+  -&gt; durable security, trust, alternative choice, or exit
+</code></pre>
+<p>The portfolio is strongest in the middle of this chain and thins sharply at the
+last step. A remedy can be implemented while recovery remains partial; access
+can return while lost pay remains unresolved; payment can be reported while
+receipt, adequacy, and later security remain unknown; and switching or
+non-return can occur without proving that a viable alternative existed.</p>
+<h2 id="the-remedy-evidence-ladder">The remedy-evidence ladder</h2>
+<p>The cases now support a practical evidence ladder. Each step is stronger than
+the previous one for a different question, but no step should be silently
+treated as the next step.</p>
+<table>
+<thead>
+<tr>
+<th>Evidence stage</th>
+<th>What it proves</th>
+<th>What it does not prove</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rule, order, or program design</td>
+<td>An institution created a route, obligation, or eligibility rule</td>
+<td>That the route was used, implemented, or reachable</td>
+</tr>
+<tr>
+<td>Implementation or institutional proof</td>
+<td>An agency, employer, firm, or administrator reports correction, payment proof, monitoring, or a completed process</td>
+<td>That the affected person received, cashed, or found the remedy adequate</td>
+</tr>
+<tr>
+<td>Aggregate delivery or use</td>
+<td>A reported group-level amount, recipient count, cashing share, or successful reissue exists</td>
+<td>Which person received what, residual loss, or household recovery</td>
+</tr>
+<tr>
+<td>Recipient-side receipt or actual access</td>
+<td>A named or bounded person/worker/customer got the payment, access, repair, or return</td>
+<td>Durability, adequacy, restored status, trust, or freedom to leave</td>
+</tr>
+<tr>
+<td>Durable lived recovery</td>
+<td>Later security, continued safe use, stable work/care, repaired account, trust, switching, or exit is directly observed</td>
+<td>Nothing beyond the measured endpoint; it still needs a clear unit, clock, and counterfactual boundary</td>
+</tr>
+</tbody>
+</table>
+<p>The new DOL PAID records illustrate the middle of the ladder: the program
+requires employer proof of payment, and its 2019 release reports more than
+$4 million put into the hands of 7,429 employees. Those are stronger than a
+payment promise, but they remain an institutional and aggregate endpoint. They
+do not create a worker-level receipt, adequacy, or durable-security rate.</p>
+<p>The new <a href="../analysis/projects/us-cost-trust-politics/data/formal-remedy-lived-recovery-audit-v1.json">formal-remedy/lived-recovery audit</a>
+applies this distinction to thirteen deliberately selected named routes. All
+thirteen have an observed or reported formal intervention, none has
+independently verified recipient-level receipt across the full remedy, none
+closes adequacy, durable recovery, or trust, and three record a later failure
+or rupture of the initially observed remedy or protection. These are coverage
+findings, not remedy failure rates.</p>
+<p>The audit also preserves a positive counterexample: a DOJ IER case reports a
+next-day return to work and approximately $420 in back pay. That is stronger
+implementation evidence than an offer or allocation, but it still does not
+show independent receipt, adequacy, recurrence prevention, or durable security.</p>
+<p>The CFPB follow-up adds a useful aggregate receipt ladder without turning it
+into a recovery rate. In three completed Bureau-administered distributions,
+the FY2024 report states that 69% of distributed Premier Student Loan Center
+funds, 86% of U.S. Equity Advantage funds, and 88% of SMART Payment Plan funds
+were cashed. The FY2025 report then records later reissue or redistribution
+after unresolved payments, including $20,809 in direct payments to people who
+requested reissued Premier payments, $129,729 later redistributed for U.S.
+Equity Advantage, and $174,178 for SMART Payment Plan. This establishes that
+remedy reach continues after the first distribution and that some money is
+used, but it does not identify person-level receipt, account correction,
+adequacy, residual loss, trust, switching, or household recovery. Unclaimed
+money is therefore not merely an administrative footnote; it is part of the
+practical access problem.</p>
+<p>The Amazon Prime settlement adds a subscription-specific residual stage. The
+FTC and court filing report aggregate dollars issued and accepted, while a
+revised order expands automatic eligibility and makes possible supplemental
+payments conditional on stated acceptance thresholds. Later distribution is
+therefore not simply “more money”: it can depend on clearing an earlier
+reachability or acceptance hurdle. The public record still does not show each
+customer's receipt, amount, delay, remaining loss, continued use, switching,
+trust, or household recovery (<a href="https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement">FTC announcement</a>; <a href="https://www.ftc.gov/system/files/ftc_gov/pdf/2123050amazonprimeredressfundorder.pdf">court filing</a>).</p>
+<p>The Amazon Flex program adds a stronger worker-remedy aggregate endpoint. The
+FTC's 2024 refund report states that 2,806 Zelle reissue payments succeeded,
+reported participation rose from 90.3% to 92.3% of eligible drivers, and
+130,952 drivers had received full compensation totaling more than $58.5 million
+as of December 31, 2024. This is stronger than a fund allocation or payment
+offer because the administrator reports a recipient-level aggregate and a
+successful reissue count. It still does not expose any one driver's amount,
+timing, residual loss, later work, household security, trust, or exit (<a href="https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf">FTC
+report</a>;
+<a href="../analysis/projects/ai-work-control/data/amazon-flex-tip-refund-event-ledger-v1.json">structured Amazon Flex ledger</a>).</p>
+<p>The FleetCor/Corpay case adds a small-business version of the same boundary.
+The FTC reports a federal court finding on hidden or unauthorized fuel-card
+fees, a proposed $100 million redress allocation, and prospective informed-
+consent and charge-disclosure controls. That is stronger than an allegation or
+an unimplemented complaint route, but the complete customer denominator,
+claim path, distribution, receipt, restored cash flow, alternative fuel-card
+access, switching, and business survival remain unobserved. A large redress
+number therefore recognizes the scale of institutional response without
+becoming a small-business recovery rate.</p>
+<p>The DOJ IER FY2026 cases add a worker-level positive middle-stage
+counterexample: one employer reportedly paid $30,000 in back pay and offered
+reinstatement after an employment-document barrier; another paid $8,000 in
+front and back pay and changed its Form I-9 and E-Verify procedures. Payment
+and a firm-process change are both visible, but accepted reinstatement, payment
+adequacy, continued employment, household security, trust, and exit remain
+open. A public follow-up recheck of the strongest retained IER and OSHA
+worker-voice cases likewise found no later payment, safe-return, durability,
+trust, or exit record. This is an evidence boundary, not evidence that the
+remedies failed.</p>
+<p>The Sauna360 recall adds a product-level durability counterexample. A 2025
+professional-repair route was followed by a September 2026 CPSC expansion
+stating that the earlier repair was ineffective and offering a second
+professional repair. This shows why a correction snapshot or repair offer must
+be followed by a durability check. It does not show that every owner received
+the first notice, experienced failure, or completed the second repair; owner
+notice, downtime, safe use, trust, and continued use remain open.</p>
+<p>An official Fair Work Ombudsman case supplies a stronger payment-receipt
+comparator. After an appeal by Atkins Freight Services, the Federal Court
+released funds held in trust and the Ombudsman reported that all ten truck
+drivers had received back-payments ranging from $8,012 to $91,566. This closes
+the payment-receipt step for that public case; it does not establish whether
+the amounts restored household security, repaired trust, changed later work,
+or created a practical exit from the employer or sector. The record therefore
+shows that a public remedy chain can reach the worker while still stopping well
+short of lived recovery (<a href="https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed">FWO case record</a>).</p>
+<p>The Malaysia GrabCar Tribunal case supplies the earlier institutional-use
+stage. A statutory platform-worker route was in force, the Tribunal had been
+established, and a named first case reached hearing and evidence. That shows
+that a worker can reach a remedy institution before the public record shows an
+award, payment, restored platform access, or durable trust. A hearing is
+stronger than a legal-design announcement but weaker than an implemented
+remedy (<a href="../analysis/projects/ai-work-control/malaysia-grabcar-tribunal-first-hearing-case-record-v1.md">case record</a>).</p>
+<p>The Australian Kyei merits case supplies a separate process-versus-merits
+boundary. The decision identified procedural deficiencies but accepted a
+substantive safety reason for deactivation, dismissed the unfair-deactivation
+claim, and ordered no restoration. A process defect does not automatically
+invalidate the underlying decision or restore work; dismissal also does not
+prove that the worker experienced no income loss, burden, or later consequence.
+Payment, later access, alternatives, trust, and exit remain open
+(<a href="../analysis/projects/ai-work-control/uber-kyei-merits-followup-recheck-2026-09-18.md">implementation recheck</a>).</p>
+<p>The September 2026 Innovative Associates case adds a different worker-remedy
+boundary. The Fair Work Ombudsman reports that a temporary-visa worker was
+left with no usable wages under an unlawful cashback scheme, that the total
+underpayment was $40,164.49, and that the company back-paid her in full after
+court proceedings and penalties. This is a stronger formal monetary endpoint
+than an offer or order alone, but it still does not expose payment timing,
+worker confirmation, adequacy, safe future work, household recovery, trust, or
+exit. The case therefore distinguishes “full back-pay reported” from “life
+restored” (<a href="https://www.fairwork.gov.au/newsroom/media-releases/2026-media-releases/september-2026/20260901-innovative-associates-penalty-media-release">FWO case record</a>; <a href="../analysis/projects/ai-work-control/data/fwo-innovative-associates-cashback-backpay-event-ledger-v1.json">structured ledger</a>).</p>
+<p>The <a href="../analysis/projects/ai-work-control/data/fwo-southern-cross-care-nsw-underpayment-reachability-event-ledger-v1.json">Southern Cross Care ledger</a>
+adds a firm-correction and reachability case: an employee's overtime question
+triggered a self-audit, the employer reported back-paying 3,603 employees, and
+the undertaking requires continued location efforts and payroll controls. The
+<a href="../analysis/projects/ai-work-control/data/dol-workers-owed-wages-reachability-event-ledger-v1.json">DOL Workers Owed Wages ledger</a>
+shows the same problem from the federal recipient route: recovered money still
+requires location, notice, identity verification, claim completion, and payment
+access. These records make “recovered” a staged administrative state, not a
+synonym for worker receipt or household recovery.</p>
+<p>The <a href="../analysis/projects/ai-work-control/data/osha-texas-asbestos-whistleblower-remedy-event-ledger-v1.json">OSHA Texas asbestos ledger</a>
+adds a distinct worker-voice mechanism. Two workers reportedly raised safety
+and environmental concerns during post-disaster repair, were fired, and then
+received an OSHA retaliation finding plus reinstatement and compensation
+orders. This advances the voice-to-remedy path, but the public record does not
+show payment, safe return, employer compliance, community protection, or
+whether speaking up became less risky afterward. A remedy order can therefore
+restore formal status without proving restored agency.</p>
+<p>The <a href="../analysis/projects/us-customer-automation-recourse/data/cfpb-wells-fargo-redress-reachability-event-ledger-v1.json">CFPB Wells Fargo redress ledger</a>
+adds the consumer-side design counterpart. The consent order did not treat a
+mailed or issued payment as sufficient: it required an affected-consumer list,
+amount calculation, location efforts, and follow-up when payments were
+returned or uncashed. That is not evidence that the plan succeeded for any
+particular borrower. It is evidence that institutional redress architecture
+already recognizes reachability as part of the remedy, while the public record
+still stops before borrower-level delivery, cashing, account correction,
+adequacy, or trust. The later CFPB termination order reports institutional
+fulfillment and redress of inaccurate furnishing, adding a formal-completion
+stage without closing the individual recovery gap.</p>
+<p>Bilt adds a distinct collaborative-implementation stage. In June 2026, the
+CFPB reported that Bilt had proactively contacted potentially affected
+customers, offered reimbursement for overdraft, late, and insufficient-funds
+fees, and was reviewing requests for more than 500 newly identified customers;
+the Bureau said it would continue monitoring until satisfied. This is stronger
+than a dormant order or a general promise because outreach and a live
+reimbursement process are visible. It still does not establish each person's
+fee amount, payment receipt, account correction, adequacy, or later financial
+security. The CFPB Ombudsman's FY2025 report supplies the person-side
+counterpoint: redress inquiries included address updates, reissued checks, and
+help navigating a third-party administrator after an expired check. Monitoring
+can therefore coexist with individual reachability failures (<a href="https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/">CFPB Bilt
+update</a>;
+<a href="https://files.consumerfinance.gov/f/documents/cfpb_ombudsman-annual-report_2025.pdf">CFPB Ombudsman report</a>).</p>
+<p>New York DFS supplies a state-regulatory insurance comparator. Its 2025
+Consumer Assistance Unit reported 39,443 insurance complaints received, 39,064
+closed, and more than $121 million in recovery. In the narrower mixed
+property-casualty/service-contract category, 498 of 2,869 closed complaints
+were labeled positive outcomes, with $17.95 million in reported recovery. This
+shows that a regulator can record closure, a positive-outcome label, and money
+recovered. It does not show whether a particular claim was fully paid, a home
+was repaired, coverage was restored, premiums became affordable, or the
+household could safely stay or move. The category's denominator is also
+complaints reaching DFS, not all insurance problems (<a href="../analysis/records/us-new-york-dfs-insurance-complaints-availability-2025.json">state complaint and
+recovery record</a>).</p>
+<p>Meadley supplies the clearest public payment-without-restoration counterexample.
+The Fair Work Commission reports that a $24,143 compensation award was paid,
+but the worker was not reinstated; Federal Court enforcement then produced a
+further $15,045 award plus interest and a $10,000 penalty. This closes a
+reported monetary-remedy stage while leaving the original work, status, later
+employment, household recovery, trust, and exit unresolved. Payment is
+therefore not interchangeable with restored opportunity (<a href="https://www.fwc.gov.au/role-court-unfair-dismissal-cases">official FWC case
+account</a>; <a href="../analysis/projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json">structured
+ledger</a>).</p>
+<p>NYC DCWP's current settlement page adds a larger administrative worker-remedy
+comparator. It reports named worker groups and restitution routes including
+more than $270,000 for over 900 Allstar workers, more than $1.6 million for
+over 570 Walgreens workers, more than $154,000 for over 50 Intimissimi workers,
+and two scheduled checks for Dunkin/Taco Bell workers. The page identifies
+payment by mail or deposit, asks eligible workers to update address or bank
+information, and gives an administrator contact route. This is stronger than
+a bare order because eligibility, amount, delivery method, and installment
+timing are visible. It still does not show each worker's receipt, amount,
+uncashed or returned payments, adequacy, later work security, trust, or exit
+(<a href="https://www.nyc.gov/site/dca/consumers/consumer-complaint-topics.page">DCWP settlements and lawsuits</a>).</p>
+<p>A July 2026 DCWP announcement moves the same route one step further at the
+aggregate level: Walgreens, Allstar, Calzedonia/Intimissimi, and Kinship were
+reported to owe a combined $2.1 million in restitution to more than 1,600
+workers, with the announcement naming the employer groups and violation
+categories. This is stronger evidence of administrative recovery capacity than
+an announced settlement alone, but it is still an institution-reported total,
+not a worker-level receipt file. The gap between “the city recovered or secured
+money” and “each worker received adequate, usable, durable relief” therefore
+remains a live middle-stage blocker (<a href="https://www.nyc.gov/site/dca/news/046-26/mamdani-administration-recovers-2-3-million-workers-major-labor-rights-crackdown">NYC DCWP July 2026 announcement</a>).</p>
+<p>The route also exposes a structural reachability problem. DCWP proposed an
+Unclaimed Restitution Fund in July 2026 because restitution can be unclaimed by
+the intended worker or consumer, or never paid by a delinquent, insolvent,
+dissolved, bankrupt, or otherwise nonresponsive respondent. The proposed rules
+would let the city and Comptroller move eligible unclaimed money into a fund
+and make later disbursements, potentially including partial payments, while
+making those disbursements discretionary. This is not evidence that a worker
+received money; it is evidence that the institution itself treats “award or
+settlement” and “money reaches the affected person” as different operational
+problems. The remedy chain therefore needs a distinct unclaimed/unpaid/reissue
+stage, not only a receipt checkbox (<a href="https://www.nyc.gov/assets/queenscb12/downloads/pdf/2026/DCWP-NOH-Unclaimed-Restitution-Fund.pdf">DCWP proposed Unclaimed Restitution Fund</a>).</p>
+<p>The live DCWP settlement page makes the timing problem visible too: Theory
+payments were scheduled to begin in April 2026 and Salz Management payments in
+August 2026, while Allstar, Walgreens, Kinship, and Intimissimi pages still
+direct eligible workers to a notice administrator for payment questions or
+address/bank updates. The page provides routes and schedules, but no public
+completion table showing mailed, deposited, returned, reissued, or cashed
+payments. As of the September 19, 2026 review, the strongest defensible claim
+is therefore scheduled or administrator-mediated reachability—not verified
+receipt (<a href="https://home4.nyc.gov/site/dca/consumers/consumer-complaint-topics.page">current DCWP settlement page</a>).</p>
+<p>The proposed fallback has not yet become a final operating rule. The NYC Rules
+page still labels the Unclaimed Restitution Fund “Proposed” after the July 9,
+2026 comment deadline and hearing. The city's regulatory-agenda material gave
+an approximate June–August 2026 schedule for the new Chapter 14, but the live
+rule page does not show adoption, a fund balance, a claim form, a first
+disbursement, or an accounting. This adds an implementation-delay stage:
+recognition of non-reachability → proposed institutional fix → adoption and
+funding → claim/reissue route → actual receipt. The fix cannot be counted as
+remedy delivery while it remains proposed (<a href="https://rules.cityofnewyork.us/rule/establishment-of-unclaimed-restitution-fund/">NYC Rules status page</a>; <a href="https://a856-cityrecord.nyc.gov/Search/GetFile?documentId=43921&amp;requestId=20260507003&amp;requestStatus=Current&amp;sectionId=4">DCWP regulatory-agenda entry</a>).</p>
+<h2 id="what-the-cases-establish">What the cases establish</h2>
+<table>
+<thead>
+<tr>
+<th>Case surface</th>
+<th>Strongest retained endpoint</th>
+<th>What remains open</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DOJ IER telephone interventions</td>
+<td>Agency-reported return to work, back pay, alternate-location access, or a worker non-return decision; one case states the worker returned the next day and was paid about $420</td>
+<td>Independent receipt, wage adequacy, durable employment, household recovery, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>DOJ IER wage/seniority cases</td>
+<td>Agency-reported rehire, back pay, prior-wage restoration, and seniority restoration in individual cases</td>
+<td>Payment instrument and receipt, actual benefit use, tenure continuity, later security, and trust</td>
+</tr>
+<tr>
+<td>Hotak platform case</td>
+<td>Same worker's access was restored, ordinary post-restoration work payment was reported, and more than 150 later trips were recorded</td>
+<td>Separate lost-remuneration payment, net recovery, later access, non-retaliation, alternatives, and exit</td>
+</tr>
+<tr>
+<td>Mudiyanselage wage case</td>
+<td>Persistent underpayment led to FWO contact, forced exit, new employment, a documented $4,000 partial payment, and a $27,424.88 gross compensation order; refusal to return was linked to broken trust and emotional stress</td>
+<td>Final compensation receipt, residual wage/superannuation loss, new-job quality, later security, and trust recovery</td>
+</tr>
+<tr>
+<td>FTC Yellowstone refund</td>
+<td>3,759 small businesses receiving a third distribution had cashed a previous check</td>
+<td>Whether the third check was cashed, account harm was corrected, business recovery, continued use, switching, and trust</td>
+</tr>
+<tr>
+<td>CFPB administered redress</td>
+<td>Aggregate funds cashed in three completed distributions, followed by reissue and redistribution of unresolved funds</td>
+<td>Individual receipt, account correction, adequacy, residual loss, trust, switching, exit, and household recovery</td>
+</tr>
+<tr>
+<td>FTC Amazon Prime subscription redress</td>
+<td>Court-entered settlement, aggregate issued/accepted dollars, expanded automatic eligibility, and possible threshold-conditioned supplemental payments</td>
+<td>Individual receipt, amount, delay, remaining loss, continued use, switching, trust, and household recovery</td>
+</tr>
+<tr>
+<td>FTC Amazon Flex refund program</td>
+<td>Administrator reports 2,806 successful Zelle reissue payments, 92.3% participation, and 130,952 drivers fully compensated for more than $58.5 million</td>
+<td>Driver-level amount/timing, residual loss, later work, household recovery, trust, bargaining, and exit</td>
+</tr>
+<tr>
+<td>FTC FleetCor/Corpay fee redress</td>
+<td>Federal court finding, proposed $100 million customer redress, and prospective informed-consent/charge-disclosure controls for predominantly small-business fuel-card customers</td>
+<td>Complete denominator, claim and payment route, individual receipt, restored cash flow, alternative access, switching, survival, trust, and exit</td>
+</tr>
+<tr>
+<td>DOJ IER FY2026 worker remedies</td>
+<td>Agency-reported front/back pay, reinstatement offer, and employer verification-procedure change after documented work-access barriers</td>
+<td>Accepted return, independent receipt, adequacy, continued tenure, household security, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>Sauna360 repeat product remedy</td>
+<td>A 2025 professional repair route was followed by an official statement that the prior repair was ineffective and a second professional-repair offer</td>
+<td>Owner notice, repair receipt, second completion, downtime, safe restoration, residual cost, trust, continued use, and exit</td>
+</tr>
+<tr>
+<td>FWO Atkins truck-driver back-pay</td>
+<td>After appeal dismissal, funds held in trust were released and ten drivers were reported to have actually received $374,000 in back-payments, ranging from $8,012 to $91,566</td>
+<td>Adequacy for each household, later work, trust, recurrence, health, durable security, and exit</td>
+</tr>
+<tr>
+<td>Malaysia GrabCar Tribunal first hearing</td>
+<td>Statutory worker rights, a functioning Tribunal, and a named first hearing reached the evidence stage</td>
+<td>Award, payment, restored access, durability, trust, and exit; hearing use is not effective recovery</td>
+</tr>
+<tr>
+<td>Australian Kyei merits case</td>
+<td>Process deficiencies were identified while a substantive safety reason was accepted</td>
+<td>No restoration was ordered; payment, later work, practical alternatives, trust, and exit remain open</td>
+</tr>
+<tr>
+<td>FWO Innovative Associates cashback case</td>
+<td>Temporary-visa worker was reported fully back-paid $40,164.49 after an unlawful cashback scheme and court penalties</td>
+<td>Payment timing, worker confirmation, adequacy, safety, later work, household recovery, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>Southern Cross Care NSW underpayment</td>
+<td>Worker overtime question triggered self-audit; employer reported $10.135 million back-paid to 3,603 employees and accepted locate/payroll-control obligations</td>
+<td>Individual receipt, unlocated-worker outcome, adequacy, recurrence, household recovery, trust, and exit</td>
+</tr>
+<tr>
+<td>DOL Workers Owed Wages route</td>
+<td>Federal route specifies agency recovery, location/notice, identity verification, claim submission, electronic payment, and three-year holding/Treasury disposition</td>
+<td>Same-worker discovery, claim completion, receipt, amount, adequacy, household recovery, trust, continued work, and exit</td>
+</tr>
+<tr>
+<td>OSHA Texas asbestos whistleblower case</td>
+<td>Two workers' safety voice, reported retaliation, OSHA investigation, reinstatement order, and more than $200,000 compensation order</td>
+<td>Payment, actual return, safe conditions, employer compliance, community protection, trust, and exit</td>
+</tr>
+<tr>
+<td>CFPB Wells Fargo student-loan redress design</td>
+<td>Consent order required consumer identification, amount calculation, payment, returned/uncashed follow-up, and a completion decision; CFPB later reported fulfillment and terminated the order</td>
+<td>Final affected list, borrower-level delivery, cashing, account correction, adequacy, residual loss, trust, switching, and exit</td>
+</tr>
+<tr>
+<td>CFPB Bilt reimbursement process</td>
+<td>Proactive outreach, fee-reimbursement route, review of more than 500 newly identified customers, and continued Bureau monitoring were reported</td>
+<td>Individual fee amount, payment receipt, account correction, adequacy, later financial security, trust, switching, and exit</td>
+</tr>
+<tr>
+<td>New York DFS insurance assistance</td>
+<td>39,064 insurance complaints closed; more than $121 million reported recovered; 498 of 2,869 mixed property-casualty/service-contract complaints labeled positive outcomes</td>
+<td>Claim-level payment, repair or coverage restoration, adequacy, affordability, stay/move, repeat loss, trust, and exit</td>
+</tr>
+<tr>
+<td>FWC Meadley enforcement</td>
+<td>$24,143 compensation reportedly paid; reinstatement failed; further $15,045 plus interest and a $10,000 penalty followed court enforcement</td>
+<td>Payment instrument and worker confirmation, later employment, restored status, household recovery, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>NYC DCWP worker restitution settlements</td>
+<td>Named worker groups, restitution amounts, payment method/update route, scheduled installments, a later aggregate report of $2.1 million secured for more than 1,600 workers, and a proposed unclaimed-funds route</td>
+<td>Individual receipt, amount, unclaimed/returned/reissue status, adequacy, later work security, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>FWC Indian Food Catering enforcement</td>
+<td>$18,000 compensation order followed by reported partial payment ($7,000), a residual $5,008 balance, and court enforcement with interest and a fine</td>
+<td>Final payment, restored employment, household recovery, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>FWC Aitken return and later dismissal</td>
+<td>Union-supported return after a serious breakdown, three months back pay, prior-service recognition, a period of continued work, and later dismissal after a safety-policy conflict</td>
+<td>Causal attribution for the later rupture, post-dismissal work, household recovery, trust, recurrence, and exit</td>
+</tr>
+<tr>
+<td>FWC Cartisano practical-reinstatement case</td>
+<td>Back pay and continuity were reported implemented; an unconditional order was followed by reported return, materially altered duties, and cessation while still employed during a constructive-reinstatement dispute</td>
+<td>Final remedy, later work, health, household recovery, trust, and exit</td>
+</tr>
+<tr>
+<td>SHED fraud route</td>
+<td>Respondents reported provider contact, external reporting, and some provider switching after fraud</td>
+<td>Account-level causation, completed switch, replacement quality, verified recovery, and restored trust</td>
+</tr>
+<tr>
+<td>CCES job-loss panel</td>
+<td>Same respondents show later Congress contact and local political action after a work-disruption screen</td>
+<td>Dated separation, attribution, remedy, recovery, trust change, and whether lower action reflects constraint or choice</td>
+</tr>
+</tbody>
+</table>
+<p>These records answer different questions. “The institution acted,” “the
+recipient reportedly received or used something,” “the person kept using the
+service,” and “the person recovered or could leave” must remain separate fields.</p>
+<h2 id="the-deeper-pattern">The deeper pattern</h2>
+<p>The cases suggest four practical currencies of remedy:</p>
+<ol>
+<li><strong>Access:</strong> the person can work, transact, receive a service, or return to
+   an account.</li>
+<li><strong>Money:</strong> a payment, refund, back pay, or replacement amount is reported.</li>
+<li><strong>Status and continuity:</strong> seniority, prior wage, workplace location, or
+   account terms are repaired.</li>
+<li><strong>Choice:</strong> the person can continue, switch, refuse return, use an
+   alternative, or exit without carrying an unmeasured penalty.</li>
+</ol>
+<p>The first three can improve while the fourth remains constrained. This is why
+“remedy implemented” is not a household recovery measure and why “continued
+use” is not proof of satisfaction. A worker may return because the job is
+necessary; a customer may switch because the provider failed; a recipient may
+cash a payment while still carrying residual loss; and a person may not return
+because the original workplace is no longer acceptable, because another option
+exists, or because the cost of returning is too high.</p>
+<h2 id="voice-can-open-the-remedy-route-without-proving-restored-agency">Voice can open the remedy route without proving restored agency</h2>
+<p>The worker-voice cases sharpen the cultural and social meaning of this gap. In
+the IER DACA case, a worker's complaint was followed by a lower-wage rehire,
+then a bilateral agreement restoring the prior wage, back pay, and seniority;
+the complaint was withdrawn after the agreement. In the OSHA asbestos case,
+two workers raised safety and environmental concerns, faced reported
+terminations, and obtained an agency retaliation finding plus a reinstatement
+and damages order. These records show that voice can convert a private burden
+into an institutional response.</p>
+<p>They do not show that the worker became safe, secure, trusting, or free to
+leave. Complaint withdrawal is an immediate procedural endpoint, not a general
+trust measure. Reinstatement is an access remedy, not proof of safe conditions
+or durable protection. The deeper test is whether speaking up later changes the
+worker's usable options: continued safe work, credible non-retaliation,
+adequate payment, a viable alternative, or an exit that does not impose a new
+unmeasured penalty.</p>
+<p>The OSHA case makes that final condition concrete. Speaking up can be a route
+to institutional recognition and still impose immediate livelihood risk; the
+later order does not tell us whether the worker can safely speak again, return
+to the job, or leave without carrying the cost. The DOL wage-recovery route
+supplies the complementary institutional version: even when the system has
+custody of money, the worker must remain reachable and capable of completing
+the route. Voice and receipt are therefore not merely personal traits; they
+are produced by the design and accessibility of the institution.</p>
+<h2 id="coding-consequence-for-the-atlas">Coding consequence for the atlas</h2>
+<p>The next evidence pass should not add another generic response count. It should
+seek, for one already identified episode:</p>
+<pre><code class="language-text">reported remedy
+  -&gt; dated receipt or actual access
+  -&gt; amount / adequacy / continuity
+  -&gt; later recurrence or persistence
+  -&gt; trust, alternative use, switching, non-use, or exit
+</code></pre>
+<p>The minimum acceptable follow-up must preserve the same unit and distinguish:</p>
+<ul>
+<li>agency or firm report from recipient confirmation;</li>
+<li>ordinary post-restoration earnings from lost-pay recovery;</li>
+<li>a payment amount from money actually received and adequate;</li>
+<li>a switch attempt from completed replacement use;</li>
+<li>non-return or non-use from successful exit; and</li>
+<li>later political contact or action from remedy or recovery.</li>
+</ul>
+<h2 id="boundary">Boundary</h2>
+<p>This synthesis is a structured interpretation of selected public records. The
+cases are not representative, the units are not pooled, and the evidence does
+not support a population recovery rate or a claim that remedies generally fail.
+The defensible conclusion is narrower: public records document institutional
+steps and selected implementation endpoints more readily than they document
+whether the affected person regained durable security, trust, or practical
+choice.</p>
+<h2 id="source-records">Source records</h2>
+<ul>
+<li><a href="../analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json">IER telephone-intervention ledger</a></li>
+<li><a href="../analysis/projects/ai-work-control/data/uber-hotak-end-to-end-event-ledger-v1.json">Hotak platform-remedy ledger</a></li>
+<li><a href="../analysis/projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json">Mudiyanselage underpayment and forced-exit ledger</a></li>
+<li><a href="../analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json">Yellowstone refund ledger</a></li>
+<li><a href="../analysis/projects/us-financial-intermediation/data/shed-fraud-recovery-switching-event-ledger-v1.json">SHED fraud and switching ledger</a></li>
+<li><a href="../analysis/projects/us-cost-trust-politics/data/cces-job-loss-political-followup-event-ledger-v1.json">CCES job-loss political-action ledger</a></li>
+<li><a href="../analysis/projects/us-cost-trust-politics/data/formal-remedy-lived-recovery-audit-v1.json">Formal-remedy/lived-recovery audit</a></li>
+<li><a href="us-customer-automation-recourse-030.html">CFPB cashing-stage finding</a></li>
+<li><a href="us-customer-automation-recourse-031.html">CFPB reissue/redistribution finding</a></li>
+<li><a href="consumer-recourse-visibility-remedy-synthesis-v1.html">CFPB Bilt reimbursement and monitoring update</a></li>
+<li><a href="../analysis/records/us-new-york-dfs-insurance-complaints-availability-2025.json">New York DFS complaint and recovery record</a></li>
+<li><a href="../analysis/projects/ai-work-control/data/fwc-meadley-enforced-payment-no-reinstatement-event-ledger-v1.json">FWC Meadley payment-without-reinstatement ledger</a></li>
+<li><a href="ai-work-control-107.html">DOJ IER worker-remedy finding</a></li>
+<li><a href="../analysis/projects/ai-work-control/near-complete-remedy-followup-recheck-2026-09-19.md">Worker-voice remedy follow-up recheck</a></li>
+<li><a href="../analysis/projects/us-marketplace-product-safety/data/sauna360-repeat-remedy-event-ledger-v1.json">Sauna360 repeat-remedy event ledger</a></li>
+</ul></article><footer><p><a href="us-evidence-audit.html">Open the evidence audit</a> · <a href="us-program-dashboard.html">Open the program dashboard</a> · <a href="#finding">Back to top</a></p><p class="note">Claims, limits, and open questions are kept together. The repository Markdown remains the source record; this page is the published reading view.</p></footer></main></body></html>

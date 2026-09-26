@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nlrb-worker-voice-administration-fy2025",
+  "title": "Labor-process demand can be substantial while durable worker power remains unmeasured",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "National Labor Relations Board FY 2025 Performance and Accountability Report",
+  "geography": "United States private-sector labor-relations jurisdiction",
+  "observations": [
+    {
+      "period": "Fiscal year 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "NLRB-reported unfair-labor-practice charges and representation petitions",
+        "value_type": "source_defined_administrative_universe"
+      },
+      "measures": {
+        "unfair_labor_practice_charges": {"value": 19754, "unit": "charges filed", "value_type": "reported_total"},
+        "charges_found_meritorious": {"value": 32.8, "unit": "percent of charges", "value_type": "reported_share"},
+        "meritorious_cases_settled": {"value": 96.8, "unit": "percent of meritorious cases", "value_type": "reported_share"},
+        "representation_petitions": {"value": 2743, "unit": "petitions filed", "value_type": "reported_total"},
+        "secret_ballot_election_petitions": {"value": 2633, "unit": "petitions filed", "value_type": "reported_total"},
+        "contested_board_decisions": {"value": 86, "unit": "decisions issued during periods with a quorum", "value_type": "reported_total"},
+        "board_quorum_context": {"value": "lacked a quorum for nearly three-quarters of the fiscal year", "unit": "agency operating context", "value_type": "reported_context"}
+      },
+      "method": "Review of NLRB's FY 2025 performance and accountability report, preserving charge, merit, settlement, petition, and Board-decision stages as separate administrative measures.",
+      "uncertainty": "Charges are allegations; merit and settlement measures have source-defined case universes; petitions do not necessarily become elections; reported output is shaped by delegation, settlement, staffing, and quorum conditions.",
+      "subgroup": "Private-sector employees, labor organizations, employers, unfair-labor-practice cases, and representation petitions within NLRB jurisdiction.",
+      "counterinterpretation": "High filings can reflect awareness or legal change rather than worsening workplaces; high settlement can reflect efficient resolution or limited adjudication; low Board decisions can reflect settlement or quorum constraints rather than low conflict.",
+      "source_url": "https://www.nlrb.gov/sites/default/files/attachments/pages/node-130/nlrb-fy2025-par.pdf",
+      "retrieval_hash": "sha256:8ddeb4edbdec6a220f0ad0d19518b7fe8e8474bc645b4bbf3ed5251d5bcd8250",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nlrb.gov/reports/agency-performance",
+      "claim": "NLRB publishes agency performance and election reports covering contested labor and representation cases.",
+      "status": "official-method-context"
+    },
+    {
+      "source_url": "https://www.nlrb.gov/reports/nlrb-case-activity-reports/representation-cases",
+      "claim": "NLRB publishes representation petition and election activity categories.",
+      "status": "official-data-context"
+    }
+  ],
+  "boundary": "This record measures demand and output on a formal labor-administration route. It does not establish the prevalence of workplace violations, individual remedy receipt, bargaining outcomes, workplace improvement, union coverage, trust, or durable worker power.",
+  "retrieval_hash": "sha256:8ddeb4edbdec6a220f0ad0d19518b7fe8e8474bc645b4bbf3ed5251d5bcd8250"
+}

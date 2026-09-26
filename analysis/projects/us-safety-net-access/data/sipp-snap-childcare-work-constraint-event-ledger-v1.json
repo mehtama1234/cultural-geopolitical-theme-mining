@@ -1,0 +1,45 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "Bounded SIPP person-month bridge connecting adjacent SNAP status to child-care payment, assistance, and work-prevention constraints without treating participation as care adequacy or security.",
+  "events": [
+    {
+      "event_id": "SIPP-SNAP-CHILDCARE-WORK-CONSTRAINT-2024",
+      "unit": "case",
+      "geography": "United States; 2025 SIPP public-use person-month slice, 2024 reference year",
+      "actor_initiating_change": "agency",
+      "event_date": "2024-12-01",
+      "date_precision": "November-to-December SNAP status pair with annual fall child-care fields; child-care fields are not December outcomes or notice dates",
+      "denominator": "2,295 no-SNAP and 351 SNAP stable-state person records for work-prevention comparison; paid-care and assistance universes differ; entry/exit child-care cells are sparse",
+      "method": "Weighted descriptive SIPP comparison using official labels, 2025 public-use data, and Fay-BRR replicate weights; no program-effect estimate",
+      "missingness": "No notice, application effort, benefit amount, care quality, exact monthly care timing, employer response, child outcome, trust, appeal, remedy, or later recovery is retained",
+      "condition_or_decision": "care_need",
+      "exposure": "Among stable-state records, paid child-care use was 31.0% for no-SNAP November-to-December records and 23.9% for SNAP records; receiving child-care assistance was 5.2% versus 14.6%; child-care arrangements prevented work or more work for 3.4% versus 7.4%",
+      "alternatives_before_action": "Paid care, child-care assistance, family or informal care, nonwork, and work-with-care are possible routes, but the public comparison does not identify each person's feasible alternative or arrangement quality",
+      "immediate_burden_or_benefit": "The SNAP stable-state group showed higher reported child-care assistance and work-prevention constraints despite lower paid-care use; this is compatible with different eligibility, need, employment, income, and household-composition mixes",
+      "choice_or_response": "The same-person status comparison preserves SNAP stability and annual child-care fields; entry and exit cells are too sparse for a transition interpretation",
+      "person_or_actor_with_control": "Households, care providers, employers, and SNAP rules shape the option set; the public-use comparison does not identify the notice, caseworker, provider, or household decision sequence",
+      "remedy_or_institutional_response": "SNAP status and reported child-care assistance are observed, but no household-specific benefit adequacy, care remedy, appeal, or completed service is measured",
+      "immediate_outcome": "Public-benefit status coexists with distinct paid-care, assistance, and work-prevention profiles",
+      "protected_outcome": "Child-care assistance or paid care may protect work participation or household resources, but completion, reliability, and child wellbeing are not verified",
+      "sacrificed_outcome": "Work opportunity, income, time, care quality, or household flexibility may be sacrificed; the comparison cannot assign the sacrifice to SNAP or care access",
+      "cost_risk_transfer": "Care and benefit constraints may transfer risk between public systems, households, employers, and informal caregivers; the public layer does not identify who bears the remaining cost",
+      "later_outcome": "Following-month housing/utility hardship is available in related SIPP transition layers, but this child-care bridge does not connect a person's care field to later work, earnings, child, health, trust, or recovery outcome",
+      "meaning_and_attribution": "No event-linked fairness, blame, dignity, trust, or identity judgment is measured",
+      "public_or_collective_response": "No appeal, complaint, organizing, political action, or later policy response is linked",
+      "counterexample": "Continued SNAP receipt can coexist with work-prevention care constraints, and lower paid-care use can reflect assistance or limited ability to purchase care rather than lower need",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "SIPP 2025 public-use person-month slice with official labels and Fay-BRR replicate weights; stable-state comparison is descriptive, universes differ, and sparse entry/exit cells are not promoted",
+      "source_url": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025-SIPP.html"
+    }
+  ],
+  "arrows": [
+    {"arrow_id":"SIPP-SNAP-CARE-A-01","from":"SNAP stable-state context","to":"paid care, child-care assistance, or work-prevention constraint","unit_held_constant":true,"time_order_valid":false,"evidence":"The SIPP comparison uses the same identified person records for adjacent SNAP status and annual fall child-care fields","status":"observed","counterexample":"The fields have different reference periods and universes; the comparison does not establish a SNAP effect","remaining_gap":"Monthly care timing, need, eligibility, notice, and household sequence"},
+    {"arrow_id":"SIPP-SNAP-CARE-A-02","from":"child-care assistance or inadequate arrangement","to":"work or work-more prevention","unit_held_constant":false,"time_order_valid":false,"evidence":"The official SIPP field comparison reports work-prevention shares alongside paid-care and assistance shares","status":"reported","counterexample":"Work prevention can reflect employment, household, health, income, or care conditions not caused by SNAP or assistance","remaining_gap":"Employer response, hours, earnings, care quality, and feasible alternative"},
+    {"arrow_id":"SIPP-SNAP-CARE-A-03","from":"SNAP participation and child-care constraint","to":"following material security or household stability","unit_held_constant":true,"time_order_valid":true,"evidence":"Related SIPP transition layers observe adjacent-month hardship, but this bridge does not join the care fields to that outcome for the same case","status":"estimated","counterexample":"Stable receipt can coexist with hardship, and the care fields are not a dated trigger or later outcome","remaining_gap":"Same-person care-to-following hardship merge, benefit amount, food result, work/care trade-off, and design-based comparison"},
+    {"arrow_id":"SIPP-SNAP-CARE-A-04","from":"care constraint and benefit route","to":"durable security, trust, action, or exit","unit_held_constant":false,"time_order_valid":false,"evidence":"The public SIPP bridge contains no episode-level remedy, trust, action, or later recovery endpoint","status":"open","counterexample":"Leaving a benefit or reducing paid care can reflect administrative change, improved resources, worsening need, or lack of alternatives","remaining_gap":"Same-episode notice, adequacy, appeal, later care/work outcome, trust, action, and recovery"
+    }
+  ],
+  "boundary": "This ledger adds a same-person public-assistance and care-capacity bridge. It does not establish program impact, care adequacy, child wellbeing, benefit security, or durable recovery.",
+  "storage_boundary": "No raw SIPP person-month or replicate files are retained; only bounded derived comparison fields and interpretation limits are represented."
+}

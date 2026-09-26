@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; payment and spending responses are measured, wider life effects remain open
+**Status:** bounded pass complete; belief, payment, spending, and post-resumption delinquency are measured, wider life effects remain open
 
 ## Working question
 
@@ -27,6 +27,8 @@ policy promise or legal uncertainty
 
 The source supports a link from beliefs to payment and spending. It does not say that the expected benefit was received.
 
+The bounded result is now recorded in [Finding 001](findings/us-student-loan-policy-uncertainty-001.md), with its machine-readable [trend record](../../records/us-nber-student-loan-policy-uncertainty-beliefs-spending-2026.json).
+
 ## Counterpoint to keep visible
 
 Using money elsewhere may be a sensible response when a payment pause seems likely. Delinquency after payments resume may reflect the end of the pause, not only a mistaken belief.
@@ -43,3 +45,5 @@ Using money elsewhere may be a sensible response when a payment pause seems like
 ## Decision rule
 
 Keep promise, belief, payment, spending, delinquency and received relief separate. A policy announcement can change behavior without changing the debt balance.
+
+This lane is now paused for rotation. Reopen it only when a compatible source adds realized relief or a later housing, family, health, trust, or political outcome.

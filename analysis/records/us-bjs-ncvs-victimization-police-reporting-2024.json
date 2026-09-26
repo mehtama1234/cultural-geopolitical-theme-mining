@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bjs-ncvs-victimization-police-reporting-2024",
+  "title": "Public safety can be experienced without becoming police-visible",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "Bureau of Justice Statistics National Crime Victimization Survey; 2024 legacy-instrument estimates",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024",
+      "denominator": {
+        "value": 1000,
+        "unit": "persons age 12 or older for violent victimization; households for property victimization",
+        "value_type": "published_survey_denominator"
+      },
+      "measures": {
+        "violent_victimization_rate": {"value": 23.3, "unit": "victimizations per 1,000 persons age 12 or older", "value_type": "published_estimate"},
+        "violent_reported_to_police_rate": {"value": 11.2, "unit": "reported violent victimizations per 1,000 persons age 12 or older", "value_type": "published_estimate"},
+        "violent_share_reported": {"value": 47.9, "unit": "percent of violent victimizations reported to police", "value_type": "published_share"},
+        "property_share_reported": {"value": 30.0, "unit": "percent of property victimizations reported to police", "value_type": "published_share"},
+        "police_visibility_boundary": {"value": "not all experienced victimization enters police records", "unit": "measurement distinction", "value_type": "reported_boundary"}
+      },
+      "method": "BJS analysis of the 2024 National Crime Victimization Survey legacy instrument; the survey asks about nonfatal victimizations reported and not reported to police and reasons for reporting status.",
+      "uncertainty": "The 2024 NCVS used a split sample while the redesigned instrument was phased in, so the report focuses on the legacy half-sample and notes lower precision. Survey estimates do not reconstruct every incident, measure police response quality, or follow victims through safety, remedy, trust, or later action.",
+      "subgroup": "Persons age 12 or older and sampled U.S. households; BJS reports variation by crime type and selected demographic and residence characteristics.",
+      "counterinterpretation": "Nonreporting can reflect fear, privacy, a belief that police could not help, a personal interpretation, or perceived triviality; it does not by itself prove distrust or institutional failure. A report does not prove a useful response or improved safety.",
+      "source_url": "https://bjs.ojp.gov/document/cv24.pdf",
+      "retrieval_hash": "sha256:91494bb14d8f6964dd1ffb7eb9a0edd9fc0e0524105cce22684ed0d8875b2810",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2024", "claim": "BJS publication page identifies the report, its scope, and the 2024 legacy/redesigned instrument split.", "status": "official-method-context"},
+    {"source_url": "https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting-system-2023", "claim": "BJS distinguishes survey victimization estimates from law-enforcement-recorded NIBRS data.", "status": "official-comparison-context"}
+  ],
+  "boundary": "This record adds a public-safety visibility boundary: experienced victimization, reporting, police records, response, victim services, safety, trust, and collective action are separate stages. It does not establish why a person did or did not report, whether police helped, whether safety improved, or whether victimization changed political behavior.",
+  "retrieval_hash": "sha256:91494bb14d8f6964dd1ffb7eb9a0edd9fc0e0524105cce22684ed0d8875b2810"
+}

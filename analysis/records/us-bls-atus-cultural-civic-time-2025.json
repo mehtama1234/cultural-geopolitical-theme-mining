@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-atus-cultural-civic-time-2025",
+  "title": "Everyday cultural and civic life has different reach and time patterns",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "Bureau of Labor Statistics American Time Use Survey 2025 annual averages",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025 annual averages; persons age 15 and older",
+      "denominator": {
+        "value": 100,
+        "unit": "civilian population age 15 and older",
+        "value_type": "published_survey_base"
+      },
+      "measures": {
+        "socializing_daily_reach": {"value": 30.4, "unit": "percent engaging on an average day", "value_type": "published_share"},
+        "socializing_daily_time": {"value": 0.58, "unit": "average hours per day", "value_type": "published_average"},
+        "religious_daily_reach": {"value": 9.4, "unit": "percent engaging on an average day", "value_type": "published_share"},
+        "religious_daily_time": {"value": 0.13, "unit": "average hours per day", "value_type": "published_average"},
+        "volunteering_daily_reach": {"value": 5.3, "unit": "percent engaging on an average day", "value_type": "published_share"},
+        "volunteering_daily_time": {"value": 0.12, "unit": "average hours per day", "value_type": "published_average"},
+        "organizational_civic_religious_daily_reach": {"value": 13.6, "unit": "percent engaging on an average day", "value_type": "published_share"},
+        "socializing_weekday_weekend": {"value": "0.44 weekday hours versus 0.92 weekend/holiday hours", "unit": "average hours per day", "value_type": "published_comparison"},
+        "religious_weekday_weekend": {"value": "0.08 weekday hours versus 0.26 weekend/holiday hours", "unit": "average hours per day", "value_type": "published_comparison"},
+        "volunteering_weekday_weekend": {"value": "0.12 weekday hours versus 0.12 weekend/holiday hours", "unit": "average hours per day", "value_type": "published_comparison"}
+      },
+      "method": "BLS American Time Use Survey 2025 annual averages; measures are primary activities and preserve BLS's separate categories for socializing and communicating, religious and spiritual activities, volunteering, and the combined organizational/civic/religious category.",
+      "uncertainty": "Annual averages do not identify individual meaning, quality, social connection, organizational continuity, or political consequence. Primary-activity coding can omit simultaneous conversation, care, digital contact, and informal help. The estimates do not follow the same person across years.",
+      "subgroup": "Civilian population age 15 and older, with weekday/weekend comparisons; BLS also publishes sex, employment, family, and other subgroup tables.",
+      "counterinterpretation": "Lower reach or time in one category does not prove cultural decline, isolation, or lack of civic capacity. People may engage through unrecorded secondary activities, informal networks, digital contact, or short but meaningful events.",
+      "source_url": "https://www.bls.gov/news.release/atus.htm",
+      "retrieval_hash": "bls-atus-2025:sha256:aff67aad9cbc325229dc08b16feabbb11c61863d79daf49441d5dc176e1a2620",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/tus/", "claim": "BLS describes ATUS as a measure of time spent in work, care, volunteering, socializing, and other activities.", "status": "official-method-context"},
+    {"source_url": "https://www.bls.gov/tus/tables/a3-2025.htm", "claim": "BLS publishes detailed 2025 time-of-day participation tables.", "status": "official-table-context"}
+  ],
+  "boundary": "This record adds a cultural-time distinction, not a trend in belonging or political participation. Socializing, religious activity, volunteering, civic obligation, informal help, organizational capacity, trust, and political action remain separate evidence surfaces.",
+  "retrieval_hash": "bls-atus-2025:sha256:aff67aad9cbc325229dc08b16feabbb11c61863d79daf49441d5dc176e1a2620"
+}

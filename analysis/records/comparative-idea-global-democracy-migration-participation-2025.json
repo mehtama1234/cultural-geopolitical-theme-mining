@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-idea-global-democracy-migration-participation-2025",
+  "title": "Democratic performance is weakening across rights and institutional checks while participation and migrant political inclusion remain uneven",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "platforms_data_attention"
+  ],
+  "source_unit": "International IDEA Global State of Democracy 2025: Democracy on the Move and Global State of Democracy Indices v9",
+  "geography": "173 countries with 2024 country data in the report; the full index release covers 174 countries and 1975-2024 country-years",
+  "observations": [
+    {
+      "period": "2019-2024 comparison; 2024 country data across 173 countries",
+      "denominator": {
+        "value": 173,
+        "unit": "countries with 2024 Global State of Democracy data",
+        "value_type": "multi_country_trend_panel"
+      },
+      "measures": {
+        "freedom_of_press_declines": {"value": 43, "unit": "countries with a decline in Freedom of the Press between 2019 and 2024", "value_type": "reported_country_count"},
+        "freedom_of_press_decline_share": {"value": 24.9, "unit": "percent of countries covered with a Freedom of the Press decline", "value_type": "reported_country_share"},
+        "participation_notable_changes": {"value": 11, "unit": "countries with notable Participation changes between 2019 and 2024", "value_type": "reported_country_count"},
+        "participation_declines": {"value": 9, "unit": "countries with Participation declines among the 11 notable changes", "value_type": "reported_country_count"},
+        "participation_advances": {"value": 2, "unit": "countries with Participation advances among the 11 notable changes", "value_type": "reported_country_count"},
+        "civic_engagement_and_civil_society_declines": {"value": 22, "unit": "total declines across Civic Engagement and Civil Society factors", "value_type": "reported_factor_decline_count"},
+        "civic_engagement_and_civil_society_advances": {"value": 5, "unit": "total advances across Civic Engagement and Civil Society factors", "value_type": "reported_factor_advance_count"}
+      },
+      "method": "International IDEA's GSoD Indices aggregate 154 indicators from 22 data sources across Representation, Rights, Rule of Law, and Participation; the report compares country performance in 2024 with 2019 and identifies factor-level advances and declines.",
+      "uncertainty": "The index is a composite descriptive measurement system, not a single democracy score or causal model. Indicator sources, uncertainty, country coverage, and the difference between formal rights and lived political experience limit direct interpretation of any one factor as overall democratic health.",
+      "subgroup": "Countries and their political institutions, civil society, media systems, courts, electoral administrations, and residents; regional and performance-tier comparisons are reported by International IDEA.",
+      "counterinterpretation": "Participation remained comparatively stable even as rights and rule-of-law factors deteriorated, and some countries improved. A decline in press freedom does not by itself establish lower turnout, public disengagement, or regime change.",
+      "source_url": "https://www.idea.int/publications/catalogue/global-state-of-democracy-2025-democracy-on-the-move",
+      "retrieval_hash": "sha256:e225d2fc33a809a6edf9498852a0e8292e5a76a7035f4e06efa97eac3473e10b",
+      "status": "reported"
+    },
+    {
+      "period": "2024 report thematic analysis of democracy and migration; contemporary out-of-country-voting systems",
+      "denominator": {
+        "value": 304000000,
+        "unit": "international migrants referenced in the report's global migration context",
+        "value_type": "global_population_estimate"
+      },
+      "measures": {
+        "international_migrant_stock": {"value": 304, "unit": "million people living outside their country of birth in the report's cited context", "value_type": "reported_global_stock"},
+        "out_of_country_voting_participation": {"value": "relatively low", "unit": "report-level finding on diaspora turnout across available systems", "value_type": "reported_qualitative_pattern"},
+        "out_of_country_voting_policy_adequacy": {"value": "often inadequate", "unit": "report-level finding on policies and administrative arrangements for citizens abroad", "value_type": "reported_qualitative_pattern"},
+        "ocv_design_resilience_route": {"value": "inclusive out-of-country voting can strengthen democratic resilience in home and host countries", "unit": "reported institutional pathway", "value_type": "reported_policy_pathway"}
+      },
+      "method": "International IDEA combines migration context with comparative legal, technical, and institutional analysis of out-of-country voting, including registration, voting methods, administration, and participation patterns.",
+      "uncertainty": "Diaspora turnout data are limited and uneven across countries; the report does not establish that out-of-country voting causes democratic resilience, belonging, or host-country norm diffusion. Migrant stock is not the same as eligible voters, citizens abroad, or politically active diaspora.",
+      "subgroup": "Citizens living abroad, migrant communities, electoral management bodies, foreign missions, political parties, home and host governments, and civil-society organizations.",
+      "counterinterpretation": "Low diaspora turnout may reflect eligibility, registration costs, distance, information, political interest, trust, legal exclusion, or competing obligations rather than weak belonging. Broad enfranchisement can also create administrative, security, and representation trade-offs.",
+      "source_url": "https://www.idea.int/publications/catalogue/html/global-state-of-democracy-2025-democracy-move",
+      "retrieval_hash": "sha256:e225d2fc33a809a6edf9498852a0e8292e5a76a7035f4e06efa97eac3473e10b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.idea.int/publications/catalogue/html/global-state-democracy-indices-technical-procedures-guide-version-9", "claim": "International IDEA documents the 174-country, 1975-2024 index coverage and country-year unit."},
+    {"source_url": "https://doi.org/10.31752/idea.2025.53", "claim": "Persistent DOI for the 2025 Global State of Democracy report."}
+  ],
+  "boundary": "This record adds a global institutional-performance and migrant-political-inclusion route. It does not infer individual political attitudes, prove democratic backsliding from one indicator, estimate diaspora causal effects, or treat participation, press freedom, rights, and rule of law as interchangeable outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "International IDEA report landing page, interactive report text, index methodology, and technical coverage guide retrieved; 173-country 2024 comparison, press-freedom counts, participation changes, composite-index coverage, migration context, and out-of-country-voting caveats cross-checked against official IDEA materials.",
+    "html_sha256": "sha256:e225d2fc33a809a6edf9498852a0e8292e5a76a7035f4e06efa97eac3473e10b",
+    "checked": "2026-09-26"
+  }
+}

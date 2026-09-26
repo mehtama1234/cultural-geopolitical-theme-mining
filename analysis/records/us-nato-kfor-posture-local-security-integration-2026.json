@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-kfor-posture-local-security-integration-2026",
+  "title": "A security mission can adjust posture through local institutional integration before proving durable legitimacy",
+  "theme_ids": ["voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NATO public account of KFOR posture adjustment and local security-architecture integration in Kosovo",
+  "geography": "Kosovo; NATO-led KFOR mission and local/regional security institutions",
+  "observations": [
+    {
+      "period": "June-August 2026; posture adjustment announced June 12 and local-security integration begun August 10",
+      "denominator": {
+        "value": 1,
+        "unit": "NATO KFOR mission posture and coordination episode",
+        "value_type": "institutional_episode"
+      },
+      "measures": {
+        "security_assessment": {"value": "NATO reported an improved security situation", "unit": "mission-level assessment", "value_type": "reported_assessment"},
+        "posture_response": {"value": "gradual adjustment of KFOR posture over the following year", "unit": "reported mission change", "value_type": "reported_response"},
+        "local_security_integration": {"value": "Kosovo Police personnel began integration into KFOR security architecture at Visoki Decani Monastery on August 10, 2026", "unit": "reported operational-integration step", "value_type": "reported_operation"},
+        "coordination_surface": {"value": "Kosovo Police, EULEX, Kosovo institutions, representatives of the Serbian Orthodox Church, and Serbian Armed Forces were named as coordination actors", "unit": "reported multi-actor coordination", "value_type": "reported_governance_surface"},
+        "external_behavior_or_durable_public_consent": {"value": "not observed", "unit": "missing changed adversary behavior, resident acceptance, incident reduction, and durable legitimacy endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Extraction from NATO's official mission page, retaining security assessment, posture adjustment, local partner integration, named coordination actors, and later outcome as separate stages.",
+      "uncertainty": "The public account does not provide a before-and-after incident series, local public-opinion measure, actor-level agreement, cost or burden allocation, operational performance, or evidence that integration caused improved security or acceptance.",
+      "subgroup": "KFOR personnel, Kosovo Police, EULEX, Kosovo institutions, Serbian Orthodox Church representatives, Serbian Armed Forces, and communities affected by the mission's security posture; no person-level public outcome is reported.",
+      "counterinterpretation": "A gradual posture adjustment may reflect changing threat assessment, force-management needs, or political coordination rather than a settled improvement in security; naming an actor in a coordination account does not establish consent or agreement.",
+      "source_url": "https://www.nato.int/en/what-we-do/operations-and-missions/natos-role-in-kosovo",
+      "retrieval_hash": "sha256:0f2e95dea327f384891b2d5a41c722a00c366822bf15f328d5d6bced6defa1c7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nato.int/en/what-we-do/operations-and-missions/natos-role-in-kosovo",
+      "claim": "NATO describes KFOR's mandate, 2026 posture adjustment, and August 2026 integration of Kosovo Police personnel into the mission security architecture.",
+      "status": "official-source"
+    }
+  ],
+  "boundary": "This record establishes an operating and coordination stage in a NATO-led security mission: reported security improvement, gradual posture adjustment, and local institutional integration. It does not establish durable public legitimacy, reduced incidents, changed external behavior, cost distribution, or a completed geopolitical leverage outcome."
+}

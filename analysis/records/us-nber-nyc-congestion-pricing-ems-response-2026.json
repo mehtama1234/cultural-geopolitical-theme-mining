@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nyc-congestion-pricing-ems-response-2026",
+  "title": "Congestion pricing can make emergency medical response faster inside a city pricing zone",
+  "theme_ids": ["time", "cost", "work"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "NBER Working Paper 35414, using New York City congestion-zone boundary, traffic and mobility measures, and emergency medical service performance",
+  "geography": "New York City; congestion-relief zone boundary at 60th Street",
+  "observations": [
+    {
+      "period": "January 5, 2025 congestion-pricing implementation and early post-implementation period",
+      "denominator": {
+        "value": null,
+        "unit": "Traffic observations, mobility measures, and EMS events used in the study; public abstract does not state exact counts",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "vehicle_traffic": {
+          "value": "declined by roughly 18% to 21% near the zone boundary",
+          "unit": "reported change in vehicular traffic",
+          "value_type": "reported_estimate"
+        },
+        "ems_total_travel_time": {
+          "value": "decreased by 63 to 70 seconds, approximately 5% to 6%",
+          "unit": "reported change in total EMS travel time",
+          "value_type": "reported_estimate"
+        },
+        "spillover": {
+          "value": "little evidence of displacement to adjacent areas",
+          "unit": "reported boundary comparison",
+          "value_type": "reported_pattern"
+        },
+        "patient_outcomes": {
+          "value": "not observed in the public abstract",
+          "unit": "missing survival, treatment, cost, and distributional patient outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Difference-in-discontinuities design exploiting the sharp geographic boundary of New York City's congestion-relief zone; the paper separates the traffic first stage from EMS performance and notes that a concurrent FDNY nearest-hospital directive confounds standard difference-in-differences estimates.",
+      "uncertainty": "The public abstract does not disclose the full event counts, exact study window, subgroup estimates, or all robustness results. The measured response-time improvement does not by itself show improved survival, equal benefit across neighborhoods, or that the policy's total costs were socially acceptable.",
+      "subgroup": "EMS events and traffic/mobility observations inside and near the congestion-pricing boundary; individual patients, household income, ability to avoid the charge, and neighborhood-level distribution of benefits and burdens are not linked.",
+      "counterinterpretation": "The result may be specific to a dense Manhattan boundary and the early implementation period. Changes in emergency routing, hospital destination, traffic composition, pedestrian and bicycle activity, or enforcement could affect measured outcomes; faster travel is not the same as better care or lower household burden.",
+      "source_url": "https://www.nber.org/papers/w35414",
+      "retrieval_hash": "sha256:60c48c201e047001be490255c6eb9463c9db6dc962bc23f59b7b116ccfa2d62b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/digest/202609/urban-congestion-pricing-and-response-times-emergency-medical-services",
+      "claim": "NBER's public summary describes the boundary design and the approximately one-minute EMS travel-time improvement.",
+      "status": "official-summary-context"
+    }
+  ],
+  "boundary": "This record adds a measured policy-to-service route: congestion pricing changed traffic conditions and EMS travel time near a New York City boundary. It does not establish patient survival, treatment quality, affordability, distributional fairness, long-run traffic adaptation, or political acceptance of the charge."
+}

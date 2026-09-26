@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-new-mexico-sb24-fiscal-impact-planned-distribution-2008",
+  "title": "The New Mexico tax-credit fiscal report specified projected distribution and administrative routes, but not realized receipt",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "time_hidden_price"
+  ],
+  "source_unit": "New Mexico Legislative Finance Committee fiscal impact report for SB 24/CS/SFL/aHTRC/aHAFC",
+  "geography": "New Mexico statewide personal-income-tax returns; 2008 special-session fiscal estimate",
+  "observations": [
+    {
+      "period": "August 16–19, 2008 fiscal-impact estimate for the amended SB 24 credit",
+      "denominator": {
+        "value": 786500,
+        "unit": "estimated eligible tax returns in the fiscal-impact distribution table; 303.9 thousand joint and 482.6 thousand single/head-of-household returns",
+        "value_type": "agency_estimate_population"
+      },
+      "measures": {
+        "estimated_total_benefit": {"value": 87.6, "unit": "millions of dollars; nonrecurring general-fund revenue reduction", "value_type": "agency_estimate"},
+        "estimated_average_benefit": {"value": 111, "unit": "dollars per estimated eligible return", "value_type": "agency_estimate"},
+        "estimated_excluded_share": {"value": 20, "unit": "percent of tax filers estimated not to receive a credit because of income thresholds", "value_type": "agency_estimate"},
+        "estimated_admin_appropriation": {"value": 750000, "unit": "dollars for Taxation and Revenue Department processing and administration", "value_type": "enacted_or_estimated_appropriation"},
+        "administrative_route": {"value": "refunds for taxpayers who had paid 2007 liability; liability reduction for taxpayers with outstanding 2007 liability; system modifications, checks, mail, phone inquiries, outreach, and a highlighted PIT-1 form were anticipated", "unit": "planned administrative pathway", "value_type": "reported_plan"},
+        "timing_evidence": {"value": "the report cites 2005 experience in which most tax filers had checks before the December holidays", "unit": "historical comparator, not 2008 realized timing", "value_type": "reported_comparator"}
+      },
+      "method": "The Legislative Finance Committee report uses Taxation and Revenue Department information to estimate fiscal cost, eligible-return counts, benefit distribution by adjusted gross income, average benefit, administrative costs, and processing implications.",
+      "uncertainty": "These are projections and administrative plans, not observed claims, payments, processing times, or household outcomes. The report's estimates concern the amended bill version and do not show who actually filed, claimed, received, or benefited from the credit.",
+      "subgroup": "Estimated returns grouped by adjusted gross income and filing status; the report projects approximately 20% of all filers above stated thresholds would receive no credit, but does not provide realized take-up or non-filer access.",
+      "counterinterpretation": "A large projected benefit can coexist with delayed checks, unclaimed credits, offsets, filing barriers, inadequate amounts, or unequal access to the tax system. The 2005 timing comparison cannot be treated as evidence of 2008 performance.",
+      "source_url": "https://www.nmlegis.gov/sessions/08%20Special/firs/SB0024.pdf",
+      "retrieval_hash": "sha256:f129fcc38e9e25069f5fc55e91ad580fc4a1270bad80240529d65bf83504e878",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nmlegis.gov/Sessions/08%20Special/bills/senate/SB0024.pdf",
+      "claim": "The enacted bill text defines the final statutory credit and eligibility rules; the fiscal report supplies the projection and administrative route.",
+      "status": "paired-statutory-source"
+    },
+    {
+      "source_url": "https://sites.temple.edu/nickerson/files/2017/07/Butler_Nickerson.QJPS11.pdf",
+      "claim": "The paired field experiment measures the preceding district-opinion information and legislative vote, not the fiscal realization.",
+      "status": "paired-vote-source"
+    }
+  ],
+  "boundary": "This record adds a planned distribution and administrative-capacity layer after statutory enactment. It does not close the realized claim/payment, timing, adequacy, household-security, or trust arrows.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official New Mexico Legislative Finance Committee fiscal-impact PDF downloaded and hashed; bill text and Butler-Nickerson study cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-apnorc-state-of-facts-information-trust-2026",
+  "title": "Public information trust is weakening while checking political and AI claims remains difficult",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "platforms_data_attention",
+    "public_systems_feedback"
+  ],
+  "source_unit": "AP-NORC State of the Facts 2026 probability-panel survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 29-August 10, 2026; trust in federal government information compared with 2024",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults; issue-specific trust questions",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "inflation_cost_of_living_2026": {"value": 18, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "inflation_cost_of_living_2024": {"value": 26, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "health_care_2026": {"value": 16, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "health_care_2024": {"value": 26, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "elections_politics_2026": {"value": 13, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "elections_politics_2024": {"value": 22, "unit": "percent expressing a great deal or quite a bit of trust", "value_type": "published_share"},
+        "reported_direction": {"value": "declined across economy, health care, environment, jobs, abortion, and elections/politics topics", "unit": "source-reported comparison", "value_type": "reported_trend"}
+      },
+      "method": "AP-NORC comparison of 2026 and 2024 issue-specific survey estimates; the items measure trust in government information, not government performance or factual accuracy directly.",
+      "uncertainty": "Question wording, timing, issue salience, political context, and response composition can affect comparisons. A decline in reported trust does not establish that information became less accurate or that respondents changed behavior.",
+      "subgroup": "U.S. adults in the AP-NORC probability-based AmeriSpeak panel; issue-specific valid bases and subgroup estimates are source-defined.",
+      "counterinterpretation": "Lower trust may reflect institutional reputation, partisan interpretation, policy disagreement, media competition, or actual information experience; the survey does not identify which explanation dominates.",
+      "source_url": "https://apnorc.org/projects/state-of-the-facts-2026/",
+      "retrieval_hash": "sha256:9b62bd7d8e68da942a018e3e05bfe6fe67fbf853a70ee618ff498a8a3e99e345",
+      "status": "compared"
+    },
+    {
+      "period": "July 29-August 10, 2026; evaluating candidate information",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults; candidate-information difficulty questions",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "candidate_information_true_or_not": {"value": 37, "unit": "percent saying it is difficult to know whether information they encounter is true", "value_type": "published_share"},
+        "finding_factual_candidate_information": {"value": 30, "unit": "percent saying it is difficult to find factual information about candidates and positions", "value_type": "published_share"},
+        "candidate_claims_true_or_not": {"value": 43, "unit": "percent saying it is difficult to figure out whether candidates' statements are true", "value_type": "published_share"}
+      },
+      "method": "Cross-sectional AP-NORC survey of perceived difficulty finding and evaluating candidate information before the 2026 midterm elections.",
+      "uncertainty": "These are self-reported difficulties, not an accuracy test or an observation of search time, source exposure, voting, persuasion, or turnout.",
+      "subgroup": "U.S. adults; source summary does not provide a same-person candidate-search sequence.",
+      "counterinterpretation": "Difficulty may reflect information volume, low political interest, unfamiliar candidates, distrust, accessibility, or higher scrutiny rather than a single information-system failure.",
+      "source_url": "https://apnorc.org/projects/state-of-the-facts-2026/",
+      "retrieval_hash": "sha256:9b62bd7d8e68da942a018e3e05bfe6fe67fbf853a70ee618ff498a8a3e99e345",
+      "status": "reported"
+    },
+    {
+      "period": "July 29-August 10, 2026; confidence in AI-generated information",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of U.S. adults; AI information and verification questions",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "more_concerned_than_excited_about_ai_information": {"value": 47, "unit": "percent", "value_type": "published_share"},
+        "more_excited_than_concerned": {"value": 11, "unit": "percent", "value_type": "published_share"},
+        "extremely_or_very_confident_ai_information_reliable": {"value": 9, "unit": "percent", "value_type": "published_share"},
+        "not_very_or_not_at_all_confident_ai_information_reliable": {"value": 49, "unit": "percent", "value_type": "published_share"},
+        "ai_easier_to_understand_complex_information": {"value": 46, "unit": "percent", "value_type": "published_share"},
+        "ai_easier_to_know_government_information_true": {"value": 22, "unit": "percent", "value_type": "published_share"},
+        "ai_makes_false_information_harder_to_correct": {"value": 35, "unit": "percent", "value_type": "published_share"},
+        "easy_to_verify_ai_information": {"value": 20, "unit": "percent", "value_type": "published_share"}
+      },
+      "method": "Cross-sectional AP-NORC survey of perceived benefits, risks, reliability, and verification of AI, chatbot, and search-result information.",
+      "uncertainty": "The measures are attitudes and perceived ease, not audited AI accuracy, actual use, exposure, correction attempts, or downstream decisions.",
+      "subgroup": "U.S. adults; source summary reports national estimates and does not establish a longitudinal AI-use path.",
+      "counterinterpretation": "Concern can coexist with experimentation or practical use, and low confidence can reflect unfamiliarity, source differences, political context, or valid caution.",
+      "source_url": "https://apnorc.org/projects/state-of-the-facts-2026/",
+      "retrieval_hash": "sha256:9b62bd7d8e68da942a018e3e05bfe6fe67fbf853a70ee618ff498a8a3e99e345",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://apnews.com/article/poll-government-trust-trump-2026-election-results-983d406a1bdb35f2eec6fa65e3ec51c5", "claim": "AP summary provides the same State of the Facts 2026 findings and field description.", "status": "secondary-context"}
+  ],
+  "boundary": "This record shows reported trust, information-evaluation difficulty, and AI-information confidence in a cross-sectional U.S. survey. It does not establish factual accuracy, a causal decline in trust, actual candidate persuasion, voting, AI use, correction, or political action.",
+  "retrieval_hash": "sha256:9b62bd7d8e68da942a018e3e05bfe6fe67fbf853a70ee618ff498a8a3e99e345"
+}

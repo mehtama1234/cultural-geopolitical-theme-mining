@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-family-income-intergenerational-voting-2018",
+  "title": "Unconditional cash transfers can raise adult children's voting propensity without changing parents' voting",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. parent-child households followed across generations with exogenous unconditional cash-transfer exposure and voting outcomes",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Childhood household transfer exposure and later adult voting; NBER Working Paper issued June 2018",
+      "denominator": {
+        "value": 1,
+        "unit": "linked parent-child study frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "parent_child_voting_correlation": {
+          "value": "strong intergenerational correlation",
+          "unit": "reported association across parents and children",
+          "value_type": "reported_pattern"
+        },
+        "transfer_effect_on_children_from_initially_poorer_families": {
+          "value": "increased voting propensity in adulthood",
+          "unit": "reported causal direction for adult children's civic participation",
+          "value_type": "reported_effect_direction"
+        },
+        "transfer_effect_on_children_from_initially_better_off_families": {
+          "value": "no effect",
+          "unit": "reported treatment heterogeneity for adult children's voting propensity",
+          "value_type": "reported_null"
+        },
+        "transfer_effect_on_parents": {
+          "value": "no effect regardless of initial income",
+          "unit": "reported treatment pattern for parents' voting",
+          "value_type": "reported_null"
+        }
+      },
+      "method": "NBER Working Paper 24770 studies exogenous unconditional cash transfers and voting in U.S. elections across two generations from the same household, estimating heterogeneous effects by socioeconomic background.",
+      "uncertainty": "This record retains the official abstract-level directions rather than reproduced coefficients, treatment amount, sample construction, voting-data linkage, or full robustness results. The result is intergenerational and delayed; it does not show that a current cash payment changes the recipient parent's turnout, trust, vote choice, or institutional approval.",
+      "subgroup": "Adult children raised in initially poorer versus initially better-off households, with parents from the same family context.",
+      "counterinterpretation": "The adult-child result may operate through childhood resources, human-capital formation, social capital, or family political transmission rather than immediate disposable income at voting age. The null parent result is a boundary against a universal resource-model claim.",
+      "source_url": "https://www.nber.org/papers/w24770",
+      "retrieval_hash": "sha256:dd6b8e7f613f4d2e28fd10469b0a20161cdc55ce089aff43a731ccebbe34bffb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w24770",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a U.S. intergenerational cash-to-voting result, not a contemporaneous adult cash-transfer effect, a trust or policy-approval estimate, or a universal income-to-participation law.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 24770 page downloaded and hashed; title, date, exogenous transfer design, linked parent-child unit, subgroup directions, parent null, and intergenerational boundary checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

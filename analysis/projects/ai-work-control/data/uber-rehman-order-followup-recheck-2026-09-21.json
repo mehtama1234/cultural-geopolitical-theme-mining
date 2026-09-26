@@ -1,0 +1,49 @@
+{
+  "format": "platform-remedy-followup-recheck-v2",
+  "checked": "2026-09-21",
+  "case_id": "PR-018",
+  "matter": "UDE2025/384",
+  "scope": "Current official Fair Work Commission search and bulletin recheck for Rehman post-reactivation implementation, payment compliance, continued work, and durable access.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc953.pdf",
+      "role": "primary_merits_decision",
+      "result": "Records voluntary reactivation on 20 February 2026, a $5,500 settlement offer that did not resolve the matter, no paid work reported during the gap to the hearing, and a $7,096.96 gross lost-remuneration calculation."
+    },
+    {
+      "url": "https://www.fwc.gov.au/document-view/media/download/846500",
+      "role": "primary_reactivation_and_payment_order_PR797881",
+      "retrieval_sha256": "7e6355040ce40c9aac5c7e622702ea95708c7f870e90a3e76060243c6977aed8",
+      "result": "Orders reactivation if not already completed and payment of $7,096.96 gross within 14 days of the order."
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2026-03-31.htm",
+      "role": "later_official_bulletin_surface",
+      "result": "Reports the March 2026 Rehman reactivation and $7,096.96 gross lost-remuneration order; does not report worker-confirmed payment, later earnings, or durable access."
+    },
+    {
+      "url": "https://www.fwc.gov.au/document-search?search-ui=decisions&keyword=Rehman",
+      "role": "current_official_document_search",
+      "result": "No later public payment receipt, enforcement, continued-work, durable-access, or non-retaliation record located in the returned Rehman results."
+    }
+  ],
+  "stages": {
+    "voluntary_access_restoration": "observed_primary_decision",
+    "formal_reactivation_order": "observed_primary_order",
+    "lost_remuneration_order": {
+      "value": 7096.96,
+      "unit": "Australian dollars gross",
+      "status": "observed_primary_order"
+    },
+    "payment_deadline": "observed_14_day_order_deadline",
+    "payment_receipt": "not_observed",
+    "enforcement": "not_observed",
+    "continued_work_after_order": "not_observed",
+    "alternative_work": "not_observed",
+    "durable_access_or_non_retaliation": "not_observed",
+    "household_recovery": "not_observed",
+    "trust_or_exit": "not_observed"
+  },
+  "boundary": "The current official record confirms an intermediate enforceability stage but does not establish receipt, net recovery, continued work, durable access, trust, or exit. A later bulletin is corroborating order-level evidence, not a same-worker recovery outcome.",
+  "storage_boundary": "Only official decision/order metadata, URL, hash, stage statuses, and bounded search results are stored; no personal exhibits or bulk case-file material is retained."
+}

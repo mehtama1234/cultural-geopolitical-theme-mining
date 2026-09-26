@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-itu-digital-connectivity-divides-2025",
+  "title": "Basic internet access is expanding while quality, affordability, skills, and location continue to stratify meaningful digital participation",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "ITU, Measuring digital development: Facts and Figures 2025",
+  "geography": "Global, with income-group, gender, age, and urban-rural comparisons",
+  "observations": [
+    {
+      "period": "2025 global connectivity estimates; report released 17 November 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "global population and internet-use estimate frame",
+        "value_type": "global_estimate_frame"
+      },
+      "measures": {
+        "online_population": {"value": 6000000000, "unit": "approximately people using the Internet in 2025; about three-quarters of world population", "value_type": "reported_global_estimate"},
+        "offline_population": {"value": 2200000000, "unit": "people remaining offline in 2025", "value_type": "reported_global_estimate"},
+        "annual_online_growth": {"value": 240000000, "unit": "more people online in 2025 than in 2024, approximately", "value_type": "reported_annual_change"}
+      },
+      "method": "ITU annual global, regional, and income-group estimates for internet use and related connectivity indicators, with revised prior-year estimates based on the latest available data.",
+      "uncertainty": "These are modeled and compiled population estimates, not a single respondent panel. Revisions, missing country data, definitions of use, and population denominators affect comparability; being online does not establish quality, safety, affordability, or meaningful use.",
+      "subgroup": "People by country income group, gender, age, geography, device access, service quality, affordability, and digital skill level.",
+      "counterinterpretation": "Rapid expansion can coexist with meaningful improvements for newly connected populations; remaining offline or low-intensity use does not by itself identify preference, harm, or exclusion caused by a specific provider or policy.",
+      "source_url": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+      "retrieval_hash": "sha256:77d6cf88dfc59f871699eb5a467f6e1719fa82b216dfaa5f1d877eb77bda5a3f",
+      "status": "estimated"
+    },
+    {
+      "period": "2025 global connectivity-quality and affordability comparison",
+      "denominator": {
+        "value": 1,
+        "unit": "global population, network-coverage, mobile-broadband, and ICT-price comparison frame",
+        "value_type": "global_comparative_frame"
+      },
+      "measures": {
+        "five_g_population_coverage": {"value": 55, "unit": "percent of world population covered by 5G networks in 2025", "value_type": "reported_global_share"},
+        "five_g_high_income_coverage": {"value": 84, "unit": "percent of people in high-income countries with 5G access", "value_type": "reported_income_group_share"},
+        "five_g_low_income_coverage": {"value": 4, "unit": "percent of people in low-income countries with 5G access", "value_type": "reported_income_group_share"},
+        "unaffordable_lmic_baskets": {"value": 60, "unit": "approximately percent of low- and middle-income countries where a data-only mobile-broadband basket remains unaffordable", "value_type": "reported_country_share"}
+      },
+      "method": "ITU comparison of mobile-network coverage, subscriptions, data use, and ICT affordability across global income groups and countries.",
+      "uncertainty": "Coverage is not equivalent to service availability, subscription, device ownership, reliability, or ability to pay. The affordability threshold and basket vary by methodology and do not measure household trade-offs or actual use.",
+      "subgroup": "High- and low-income countries, low- and middle-income countries, rural and urban populations, and users with different devices and service plans.",
+      "counterinterpretation": "Lower 5G coverage can reflect different technology paths or later deployment rather than absolute exclusion; 4G and 3G coverage may still support important use, though they may not support emerging data-intensive services equally.",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "retrieval_hash": "sha256:77d6cf88dfc59f871699eb5a467f6e1719fa82b216dfaa5f1d877eb77bda5a3f",
+      "status": "reported"
+    },
+    {
+      "period": "2025 global digital-divide comparisons",
+      "denominator": {
+        "value": 1,
+        "unit": "global internet-use population comparison by income, gender, location, and age",
+        "value_type": "global_subgroup_comparison_frame"
+      },
+      "measures": {
+        "high_income_online": {"value": 94, "unit": "percent of people in high-income countries using the Internet", "value_type": "reported_group_share"},
+        "low_income_online": {"value": 23, "unit": "percent of people in low-income countries using the Internet", "value_type": "reported_group_share"},
+        "men_online": {"value": 77, "unit": "percent of men using the Internet", "value_type": "reported_group_share"},
+        "women_online": {"value": 71, "unit": "percent of women using the Internet", "value_type": "reported_group_share"},
+        "urban_online": {"value": 85, "unit": "percent of people in urban areas using the Internet", "value_type": "reported_group_share"},
+        "rural_online": {"value": 58, "unit": "percent of people in rural areas using the Internet", "value_type": "reported_group_share"}
+      },
+      "method": "ITU global, regional, and income-group estimates with subgroup comparisons for economic development, gender, age, and urban-rural location.",
+      "uncertainty": "These descriptive gaps do not isolate infrastructure, price, education, device, safety, language, social norms, or individual choice as causes. Group averages conceal within-country and within-group variation.",
+      "subgroup": "People by income group, gender, urban-rural location, age, education, and region; 96% of those offline are reported to live in low- and middle-income countries.",
+      "counterinterpretation": "The gaps may narrow as infrastructure, prices, devices, skills, and social conditions change; access parity alone would still not prove equal quality, safety, autonomy, or benefit from digital participation.",
+      "source_url": "https://www.itu.int/en/mediacentre/Pages/PR-2025-11-17-Facts-and-Figures.aspx",
+      "retrieval_hash": "sha256:77d6cf88dfc59f871699eb5a467f6e1719fa82b216dfaa5f1d877eb77bda5a3f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.itu.int/itu-d/reports/statistics/global-connectivity-report-2025/", "claim": "ITU companion Global Connectivity Report 2025 frames universal and meaningful connectivity around quality, availability, affordability, devices, skills, and security."},
+    {"source_url": "https://www.itu.int/itu-d/reports/statistics/2025/11/17/gcr-2025-chapter-5/", "claim": "ITU chapter on digital skills and opportunities."}
+  ],
+  "boundary": "This record adds a global connectivity-to-digital-participation and unequal-optionality route. It is not respondent-level data, does not estimate individual online behavior or welfare, and does not establish that connectivity caused cultural, political, consumer, work, or trust outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ITU Facts and Figures page and press release were retrieved; online population, offline population, 5G coverage, affordability, income, gender, and urban-rural figures were cross-checked against official ITU materials. The hash is a source-URL fingerprint because the ITU PDF host was not required for the claims used here.",
+    "source_url_sha256": "sha256:77d6cf88dfc59f871699eb5a467f6e1719fa82b216dfaa5f1d877eb77bda5a3f",
+    "checked": "2026-09-26"
+  }
+}

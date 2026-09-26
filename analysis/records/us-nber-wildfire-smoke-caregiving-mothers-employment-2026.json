@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-wildfire-smoke-caregiving-mothers-employment-2026",
+  "title": "Wildfire smoke can turn intermittent school disruption into maternal employment loss",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35264, Where There's Smoke: Stochastic Caregiving Shocks and Mothers' Labor Market Outcomes",
+  "geography": "United States; mothers and children exposed to wildfire smoke, school closures, and student absenteeism",
+  "observations": [{
+    "period": "2026 working paper; U.S. wildfire-smoke and school-disruption episodes studied over the source's administrative and survey-linked windows",
+    "denominator": {
+      "value": 1,
+      "unit": "study-defined mother/child exposure sample; exact public abstract sample count not disclosed in this record",
+      "value_type": "study_unit"
+    },
+    "measures": {
+      "caregiving_shock": {
+        "value": "wildfire smoke increased school closures and student absenteeism, generating intermittent caregiving demand even where formal childcare was available",
+        "unit": "quasi-experimental exposure-to-care-demand result",
+        "value_type": "reported_estimate"
+      },
+      "contemporaneous_cost": {
+        "value": "the smoke-linked caregiving shocks imposed substantial contemporaneous labor-market costs on mothers",
+        "unit": "maternal labor-market outcome",
+        "value_type": "reported_estimate"
+      },
+      "accumulated_effect": {
+        "value": "when caregiving shocks accumulated, maternal employment declined",
+        "unit": "employment response to repeated or accumulated shocks",
+        "value_type": "reported_estimate"
+      },
+      "workplace_tolerance_boundary": {
+        "value": "employment losses were fully offset among mothers working outside male-dominated industries, consistent with workplace tolerance moderating the consequence of intermittent caregiving demand",
+        "unit": "heterogeneous employment response by industry gender composition",
+        "value_type": "reported_comparison"
+      },
+      "downstream_outcome": {
+        "value": "the public abstract does not establish household income, paid or unpaid hours, schedule control, childcare substitution, health, housing, trust, or later employment recovery",
+        "unit": "missing continuation of the care-to-room chain",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "The paper uses plausibly exogenous variation in wildfire smoke exposure, links smoke to school closures and student absenteeism, and compares mothers whose youngest children differ in reliance on school-based childcare. It estimates contemporaneous and accumulated labor-market responses and heterogeneity by industry gender composition.",
+    "uncertainty": "The public NBER abstract does not disclose every sample restriction, exposure window, coefficient, or administrative linkage in this record. Smoke exposure is a quasi-experimental source of variation, but the result is not a complete household episode. Industry gender composition is a proxy for workplace tolerance, not a direct measure of employer policy, schedule control, or worker bargaining power.",
+    "subgroup": "Mothers differentiated by the youngest child's reliance on school-based childcare and by whether they work in male-dominated industries; wildfire-smoke exposure and school-disruption context vary by place and episode.",
+    "counterinterpretation": "Mothers in industries outside the male-dominated group may differ in occupation, schedule, remote-work access, pay, benefits, or local labor markets; the offset pattern does not prove that tolerance alone caused resilience. Formal childcare availability does not mean it can replace school-based care during smoke-related disruption.",
+    "source_url": "https://www.nber.org/papers/w35264",
+    "retrieval_hash": "sha256:0c427edc5aec35ab80fee529dbefc8b46e3726ba10075b48519c469b3bc25f8b",
+    "status": "estimated"
+  }],
+  "related_sources": [{
+    "source_url": "https://doi.org/10.3386/w35264",
+    "claim": "NBER DOI record for Working Paper 35264",
+    "status": "official-paper-identifier"
+  }],
+  "boundary": "This record adds a quasi-experimental material/time/care bridge: an environmental shock can intermittently remove a school-based care input, impose maternal labor-market costs, and produce accumulated employment loss, with an industry-level workplace-tolerance boundary. It does not establish a national employment effect, a household income or health path, or that male-dominated industries are the sole mechanism.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 35264 landing page reviewed and retained only as a source-page hash; underlying paper PDF and linked data were not retained.",
+    "nber_page_sha256": "sha256:0c427edc5aec35ab80fee529dbefc8b46e3726ba10075b48519c469b3bc25f8b",
+    "checked": "2026-09-23"
+  }
+}

@@ -84,12 +84,14 @@ a common person/household key and compatible clocks exist.
 
 ## Acquisition and storage decision
 
-No new download is needed for this design pass. The necessary MEPS files are
-already available locally under `/tmp/cgtm-meps-2024`; only compact derived
-outputs and writeups are committed. A future acquisition is justified only if
-it adds a dated bill/claim, household payer or obligation, treatment or care
-choice, institutional response, or post-event remedy that cannot be recovered
-from the current files.
+No new download was needed for the historical design pass. The necessary MEPS
+files were then available under `/tmp/cgtm-meps-2024`; only compact derived
+outputs and writeups are committed. A current recheck after the workspace crash
+finds that temporary directory absent, so no rerun should be claimed until the
+authorized files are restored. A future acquisition or restoration is justified
+only if it adds a dated bill/claim, household payer or obligation, treatment or
+care choice, institutional response, or post-event remedy that cannot be
+recovered from the committed bounded outputs.
 
 ## Reproduction routes
 

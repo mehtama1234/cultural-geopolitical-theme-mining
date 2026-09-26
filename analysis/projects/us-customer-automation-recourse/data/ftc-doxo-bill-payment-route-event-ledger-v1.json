@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_complaint_and_proposed_bill_payment_control_record",
+  "purpose": "Structured FTC Doxo bill-payment route ledger linking search/channel confusion, alleged fees and payment timing risk, and a pending proposed institutional response while preserving bill status, service continuity, redress, and switching as open.",
+  "events": [
+    {
+      "event_id": "FTC-DOXO-BILL-PAYMENT-ROUTE-2024-2026",
+      "unit": "case",
+      "geography": "United States; Doxo online bill-payment users and utility, car-loan, and other bill routes",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-08-17",
+      "date_precision": "Complaint filed April 25, 2024; proposed stipulated order and case-page update dated August 17, 2026; underlying user episodes are not individually dated",
+      "denominator": "One named FTC enforcement case; cited internal heavy-user survey and complaint contacts are selected case evidence, not a representative household denominator",
+      "method": "Structured extraction from the official FTC complaint, internal-survey reference, settlement announcement, filed stipulated proposed order, and case-page status",
+      "missingness": "No user identifier, search exposure, biller, fee amount, consent record, payment success, bill status, service continuity, individual relief, or later switching is retained",
+      "condition_or_decision": "fee",
+      "exposure": "The FTC complaint alleges that search ads and landing pages could make Doxo appear affiliated with or necessary for bill payment, while adding delivery fees and recurring subscription terms",
+      "alternatives_before_action": "Consumers could pay the direct biller, use another intermediary, mail a check, use a bank or card route, or not complete payment; the feasible alternative and selected route are not observed per person",
+      "immediate_burden_or_benefit": "The alleged route can move cost into fees, subscription charges, affiliation uncertainty, cancellation effort, and payment-timing risk; convenience for some users remains a counterinterpretation",
+      "choice_or_response": "The cited internal survey reports that approximately 30% of heavy users falsely thought Doxo was the only way to pay bills; complaint contacts and user route choices are not a representative use or non-use measure",
+      "person_or_actor_with_control": "Doxo controlled search presentation, affiliation claims, fees, payment routing, subscription disclosures, and cancellation; billers and consumers retained different alternative-route powers",
+      "remedy_or_institutional_response": "The FTC case page lists a filed stipulated proposed order with proposed $2.1 million monetary-judgment terms, permanent disclosure/consent/cancellation controls, and possible consumer-relief use; the case remains pending and distribution is unobserved",
+      "immediate_outcome": "Search-route confusion, alleged fee mechanisms, and a proposed institutional-control response are visible at case level",
+      "protected_outcome": "Clearer affiliation, total-cost, consent, and cancellation disclosures could improve future informed payment choice; no individual bill or service outcome is established",
+      "sacrificed_outcome": "Avoidable fees, time, late charges, arrears, insurance lapse, or utility interruption are alleged in the complaint but cannot be assigned to a person or verified from this record",
+      "cost_risk_transfer": "An intermediary can shift payment, timing, and recourse risk from billers or platforms to households; the proposed controls may shift some compliance responsibility back to the firm",
+      "later_outcome": "Payment success, biller posting, late fees, service continuity, correction/refund, redress receipt, trust, direct-biller use, and switching remain open",
+      "meaning_and_attribution": "The FTC attributes alleged deception and fee practices to Doxo, but consumer-level fairness, blame, legitimacy, and trust change are not measured",
+      "public_or_collective_response": "FTC enforcement is observed; consumer organizing, complaint persistence, political action, and collective response are not linked",
+      "counterexample": "A consumer may knowingly choose Doxo for convenience and complete payment successfully; alleged confusion and downstream risk do not establish universal harm",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official complaint and proposed settlement materials; internal survey and complaint contacts are selected, allegations are not person-level incidence or service-failure estimates, and proposed relief is not completed distribution",
+      "source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/doxo"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-DOXO-A-01",
+      "from": "bill-payment need and search route",
+      "to": "perceived official affiliation or necessity",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC alleges search ads and landing pages could make Doxo appear connected to billers; its cited internal survey reports approximately 30% of heavy users falsely thought Doxo was the only payment route",
+      "status": "reported",
+      "counterexample": "The survey is internal and selected, and the complaint does not establish what each consumer saw or believed",
+      "remaining_gap": "User-level exposure, search result, affiliation belief, biller, language, and direct-biller awareness"
+    },
+    {
+      "arrow_id": "FTC-DOXO-A-02",
+      "from": "intermediary route and belief",
+      "to": "fee, subscription, cancellation, and payment-timing burden",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The complaint alleges add-on delivery fees, recurring subscription terms, and immediate consumer charges while paper checks could reach billers days or weeks later",
+      "status": "reported",
+      "counterexample": "A fee may have been knowingly accepted and the payment may still have posted on time; the complaint does not identify individual consent or outcome",
+      "remaining_gap": "Fee amount, consent, cancellation effort, payment timestamp, biller posting, and alternative route"
+    },
+    {
+      "arrow_id": "FTC-DOXO-A-03",
+      "from": "payment-timing or route failure",
+      "to": "late fee, arrears, insurance lapse, utility interruption, or other household consequence",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The complaint alleges that some consumers experienced utility shutoffs, insurance lapses, fees, or fines despite believing they paid on time",
+      "status": "open",
+      "counterexample": "The complaint supplies no person-level denominator or verified biller, shutoff, lapse, fee, or fine record",
+      "remaining_gap": "Identifier-linked payment success, bill status, service continuity, late charges, and household outcome"
+    },
+    {
+      "arrow_id": "FTC-DOXO-A-04",
+      "from": "alleged route and disclosure problem",
+      "to": "proposed FTC disclosure, consent, and cancellation controls",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The filed stipulated proposed order sets permanent controls for affiliation, fees, total cost, negative-option terms, cancellation, and financial-information use",
+      "status": "reported",
+      "counterexample": "The case page remains pending; proposed terms do not establish court entry, implementation, or compliance",
+      "remaining_gap": "Final order status, installment completion, compliance monitoring, and realized disclosure behavior"
+    },
+    {
+      "arrow_id": "FTC-DOXO-A-05",
+      "from": "proposed institutional response",
+      "to": "consumer redress, restored bill security, trust, or switching",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public record permits possible consumer-relief use but does not identify eligibility, distribution, bill correction, service continuity, trust, or provider switching",
+      "status": "open",
+      "counterexample": "A control can improve future choice without restoring prior fees or time, while a consumer may stay because direct alternatives are costly",
+      "remaining_gap": "Distribution, receipt, refund/correction, residual loss, direct-biller use, trust, and switching reason"
+    }
+  ],
+  "boundary": "This ledger formalizes a named bill-payment route from search/channel confusion through alleged fee and timing risk to a pending proposed institutional response. It does not estimate household fee incidence, payment failure, service interruption, remedy receipt, or switching.",
+  "storage_boundary": "No consumer account, bill, payment, or service file is retained; only bounded official case evidence, selected-survey limits, proposed controls, and open links are represented."
+}

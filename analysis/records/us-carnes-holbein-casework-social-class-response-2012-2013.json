@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-carnes-holbein-casework-social-class-response-2012-2013",
+  "title": "Routine casework response did not vary detectably by the sender's signaled social class in four audit experiments",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Carnes and Holbein multiple correspondence experiments with state legislators, school principals, and mayors",
+  "geography": "United States; North Carolina state legislators, North Carolina and Kentucky public school principals, and a national sample of mayors",
+  "observations": [
+    {
+      "period": "2012–2013 fieldwork; published March 2019",
+      "denominator": {
+        "value": 4492,
+        "unit": "pooled experimental messages across four randomized correspondence experiments: state legislators (170 each in two experiments), principals (719), and mayors (3,433)",
+        "value_type": "pooled_audit_message_sample"
+      },
+      "measures": {
+        "pooled_less_affluent_response": {"value": 16.6, "unit": "percent of less-affluent treatment emails receiving a response", "value_type": "reported_experimental_rate"},
+        "pooled_more_affluent_response": {"value": 15.8, "unit": "percent of more-affluent treatment emails receiving a response", "value_type": "reported_experimental_rate"},
+        "pooled_class_difference": {"value": 0.8, "unit": "percentage points, less-affluent minus more-affluent; p=0.49", "value_type": "reported_experimental_difference"},
+        "bias_bound": {"value": 1.32, "unit": "percentage points; pooled 95% confidence interval rules out a class bias larger than this in either direction", "value_type": "reported_precision_bound"},
+        "within_experiment_rates": {"value": "state legislator voter-registration information: 64.0% affluent-coded vs 65.5% working-class-coded; meeting request: 40.0% vs 42.4%; principals: 29.6% vs 29.1%; mayors: 9.4% vs 10.3%", "unit": "percent response by experiment", "value_type": "reported_experimental_comparisons"}
+      },
+      "method": "Four randomized correspondence experiments signaled social class through occupation or financial circumstances, then measured whether elected or appointed public officials replied to routine information or meeting requests. The study also checked response length and whether the requested information or meeting was provided.",
+      "uncertainty": "The experiments measure response to simple casework requests, not complex services, policy responsiveness, or actual constituent outcomes. They use a few types of officials and class signals, and cannot rule out very small effects, other forms of discrimination, or unequal access to asking for help in the first place.",
+      "subgroup": "State legislators in North Carolina, public school principals in North Carolina and Kentucky, and a national mayor sample drawn from the American Municipal Officials Survey; treatment signals ranged from dishwasher versus HR professional to bottom-decile versus top-5% occupations.",
+      "counterinterpretation": "A null class effect in routine response can coexist with donor-based access advantages, racial/religious/age disparities, unequal ability to formulate a request, unequal follow-through, or class differences in policy outcomes. Equal reply rates do not establish equal service quality, resolution, or dignity.",
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0214244",
+      "retrieval_hash": "sha256:8080689867948054498b53bf20ada92f8c3bc57d6c8b3aab221d145ce7257d0d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1371/journal.pone.0214244",
+      "claim": "The open-access publication contains the four experiments, denominators, response rates, precision bounds, and limitations.",
+      "status": "publisher-record"
+    }
+  ],
+  "boundary": "This record provides a counterexample to treating political access inequality as uniform across every stage: routine casework response did not vary detectably by signaled social class in these experiments. It does not negate donor-based access effects, other demographic biases, unequal ability to ask, policy-level unequal responsiveness, or unequal service outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "PLOS full article HTML downloaded and hashed; publication text and data-availability record cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-aca-underwriting-heterogeneous-effects-2026",
+  "title": "The ACA's ban on health underwriting helped low-income, high-risk, and older applicants most",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "NBER Working Paper 35692, Health Insurance Underwriting and the Heterogeneous Effects of the Affordable Care Act; proprietary pre-ACA application and underwriting decisions linked to modeled reform effects",
+  "geography": "United States; pre-ACA individual health-insurance applications and underwriting decisions, with effects estimated by age, income, and health risk",
+  "observations": [{
+    "period": "Pre-ACA underwriting records and ACA reform effects; NBER paper issued September 2026",
+    "denominator": {
+      "value": 1,
+      "unit": "study-defined proprietary pre-ACA insurance-application and underwriting dataset; public abstract does not disclose the analytical count",
+      "value_type": "linked_study_universe"
+    },
+    "measures": {
+      "pre_aca_gate": {
+        "value": "before the ACA, applicants could face health underwriting and rejection based on pre-existing conditions; the paper uses application and underwriting decisions to observe that previously hidden margin",
+        "unit": "insurance-application decision route",
+        "value_type": "reported_measurement"
+      },
+      "reform": {
+        "value": "the ACA banned health underwriting and rejection for pre-existing conditions and introduced large premium subsidies for low- to middle-income individuals",
+        "unit": "policy change",
+        "value_type": "reported_policy"
+      },
+      "heterogeneous_benefit": {
+        "value": "estimated benefits were concentrated among low-income, high-risk, or over-50 individuals",
+        "unit": "heterogeneous reform effect by applicant condition",
+        "value_type": "reported_estimate"
+      },
+      "downstream_outcome": {
+        "value": "the public abstract does not establish later enrollment persistence, premium payment, provider access, treatment continuity, health, job switching, or household financial recovery",
+        "unit": "missing continuation after insurance option changes",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "The authors use a proprietary dataset of pre-ACA insurance applications and underwriting decisions to document the pre-reform rejection margin, then model and estimate heterogeneous ACA effects by age, income, and health risk.",
+    "uncertainty": "The public abstract does not disclose the dataset's full sampling frame, application counts, model specification, subsidy assumptions, or every effect estimate. The source identifies who was most affected by the underwriting ban but does not by itself identify every later coverage, care, labor, or household outcome.",
+    "subgroup": "Low-income, high-risk, and over-50 applicants are the reported high-benefit groups; exact cutoffs, intersectional effects, race/disability patterns, and state variation remain paper-specific or open.",
+    "counterinterpretation": "A larger modeled benefit does not guarantee take-up or continuous coverage. Applicants who were not rejected may still face premiums, network limits, administrative burden, or care access barriers. A coverage option can increase practical room without proving health improvement or job mobility.",
+    "source_url": "https://www.nber.org/papers/w35692",
+    "retrieval_hash": "sha256:1183010d2a68447d3df225cbb0b38fa2d2479104a9184e084a380706e169a844",
+    "status": "estimated"
+  }],
+  "related_sources": [{
+    "source_url": "https://doi.org/10.3386/w35692",
+    "claim": "NBER DOI record for Working Paper 35692",
+    "status": "official-paper-identifier"
+  }],
+  "boundary": "This record closes a previously hidden application-and-underwriting margin and shows heterogeneous ACA benefit by income, health risk, and age. It does not establish universal enrollment, continuous care, health improvement, job mobility, or household welfare, and it should not be collapsed into the separate dependent-coverage job-lock finding.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 35692 landing page reviewed and retained only as a source-page hash; proprietary pre-ACA applications, paper PDF, and model data were not retained.",
+    "nber_page_sha256": "sha256:1183010d2a68447d3df225cbb0b38fa2d2479104a9184e084a380706e169a844",
+    "checked": "2026-09-23"
+  }
+}

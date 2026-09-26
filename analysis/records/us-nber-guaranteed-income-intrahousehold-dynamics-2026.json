@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-guaranteed-income-intrahousehold-dynamics-2026",
+  "title": "Cash paid to one person can change the work, care, and relationships of the whole household",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35589, randomized guaranteed-income experiment in which 1,000 people received $1,000 per month for three years and 2,000 controls received $50 per month",
+  "geography": "United States; low-income experiment participants and their household members, with treatment and control groups observed over the experiment period",
+  "observations": [
+    {
+      "period": "Three-year guaranteed-income experiment",
+      "denominator": {"value": 3000, "unit": "randomized participants: 1,000 treatment and 2,000 control participants", "value_type": "reported_randomized_sample_count"},
+      "measures": {
+        "treatment": {"value": "$1,000 per month for three years", "unit": "unconditional cash transfer assigned to treatment participants", "value_type": "reported_treatment"},
+        "control": {"value": "$50 per month for three years", "unit": "cash transfer assigned to control participants", "value_type": "reported_control"},
+        "household_stability": {"value": "no effect detected on aggregate measures of household stability", "unit": "reported experimental result", "value_type": "reported_null_or_small_effect"}
+      },
+      "method": "Randomized assignment of individual participants to a large unconditional transfer or a small-transfer control group, with outcomes for recipients and other household members.",
+      "uncertainty": "The experiment identifies effects for its participants and household structures; it does not establish a universal result for every cash program, income level, or family arrangement.",
+      "subgroup": "Low-income participants and their household members; subgroup patterns are generally imprecise and may differ by recipient gender and household structure.",
+      "counterinterpretation": "No change in an aggregate stability index can coexist with meaningful changes in relationships, education, work, care, or transfers among particular households.",
+      "source_url": "https://www.nber.org/papers/w35589",
+      "retrieval_hash": "sha256:5030db6fc610d472f018cda719216f51d128a15c3adfa7c58f165a0cc39738d2",
+      "status": "estimated"
+    },
+    {
+      "period": "Recipient and other-household-member economic outcomes",
+      "denominator": {"value": null, "unit": "treatment and control participants with observed household-member income and employment outcomes; outcome-specific denominator not disclosed in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "nonrecipient_household_income": {"value": "household income excluding the recipient decreased by about $1,700 per year", "unit": "estimated annual income effect", "value_type": "reported_experimental_effect"},
+        "partner_advancement": {"value": "partners were less likely to be promoted or move to a better job", "unit": "reported employment-related effect", "value_type": "reported_effect"},
+        "family_transfers": {"value": "transfers to friends and family increased", "unit": "reported spillover pattern", "value_type": "reported_effect"},
+        "relationship_quality": {"value": "suggestive improvement in relationship quality and trust in partners among recipients in relationships", "unit": "reported survey outcome", "value_type": "suggestive_effect"}
+      },
+      "method": "Experimental comparison of recipient and control households, with separate measures for recipient income, other-household-member income and employment, transfers, and relationship outcomes.",
+      "uncertainty": "The nonrecipient income and promotion results do not by themselves show whether reduced work reflected care, education, health, job choice, bargaining, or lost opportunity; relationship effects are described as suggestive.",
+      "subgroup": "Recipients in relationships and household members linked to participating recipients; exact household-linkage counts and mechanisms are outcome-specific.",
+      "counterinterpretation": "A partner's lower promotion or job transition can be a cost, a chosen trade-off, or a response to care and education needs; the study does not reduce all household changes to labor-supply harm.",
+      "source_url": "https://www.nber.org/papers/w35589",
+      "retrieval_hash": "sha256:5030db6fc610d472f018cda719216f51d128a15c3adfa7c58f165a0cc39738d2",
+      "status": "estimated"
+    },
+    {
+      "period": "Household education, healthcare, decision-making, and safety outcomes",
+      "denominator": {"value": null, "unit": "outcome-specific recipient and household-member samples; public abstract does not disclose a common denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "education_training": {"value": "other household members were significantly more likely to participate in education or training", "unit": "reported experimental effect", "value_type": "reported_effect"},
+        "forgone_healthcare": {"value": "recipients were more likely to report someone in the household having forgone healthcare", "unit": "reported household survey effect", "value_type": "reported_effect_with_ambiguous_meaning"},
+        "decision_power_and_labor": {"value": "limited changes detected in decision-making power or division of labor", "unit": "reported experimental result", "value_type": "reported_null_or_small_effect"},
+        "intimate_partner_violence": {"value": "some indicators declined, particularly for women, but incidence was low and most estimates lost significance after multiple-hypothesis adjustment", "unit": "reported safety outcome", "value_type": "mixed_qualified_effect"}
+      },
+      "method": "Randomized comparison across household-member education, healthcare, decision-making, labor-division, and safety measures; the abstract preserves the authors' qualification that forgone care may reflect greater engagement and newly identified unmet needs.",
+      "uncertainty": "Forgone care does not reveal whether health worsened, need was newly recognized, access changed, or care was substituted; subgroup and safety estimates are imprecise.",
+      "subgroup": "Other household members, recipients, and relationship subgroups; point estimates suggest larger education and health spillovers when the recipient was a woman, but subgroup differences are generally imprecise.",
+      "counterinterpretation": "Cash may give a family enough room to notice or act on a previously unmet need, so a rise in reported forgone care is not automatically a direct harm caused by the transfer.",
+      "source_url": "https://www.nber.org/papers/w35589",
+      "retrieval_hash": "sha256:5030db6fc610d472f018cda719216f51d128a15c3adfa7c58f165a0cc39738d2",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/working_papers/w35589/w35589.pdf", "claim": "Official NBER PDF used for the paper's abstract and method context.", "status": "official-paper-context"}
+  ],
+  "boundary": "This record shows that an individual cash transfer can spill over into other household members' education, work, transfers, relationships, and reported healthcare decisions. It does not establish that every household became more secure, that lower partner earnings were harmful rather than chosen or necessary, or what happened after payments ended.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; experiment microdata and full replication are not locally reproduced.",
+    "pdf_sha256": "sha256:5030db6fc610d472f018cda719216f51d128a15c3adfa7c58f165a0cc39738d2",
+    "checked": "2026-09-22"
+  }
+}

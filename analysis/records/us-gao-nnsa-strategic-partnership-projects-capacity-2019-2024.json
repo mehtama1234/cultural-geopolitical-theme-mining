@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-nnsa-strategic-partnership-projects-capacity-2019-2024",
+  "title": "National-lab partnership work can support mission capacity while competing for scarce specialized facilities and staff",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108229 review of NNSA Strategic Partnership Projects at eight national-security sites",
+  "geography": "United States National Nuclear Security Administration enterprise; eight government-owned, contractor-operated laboratories, plants, and sites; FY2019-FY2024",
+  "observations": [
+    {
+      "period": "Fiscal years 2019-2024",
+      "denominator": {
+        "value": 8,
+        "unit": "NNSA laboratories, plants, and sites conducting Strategic Partnership Projects",
+        "value_type": "site_count"
+      },
+      "measures": {
+        "reimbursed_partnership_work": {
+          "value": "almost 15 billion",
+          "unit": "constant FY2024 dollars in reimbursed Strategic Partnership Projects",
+          "value_type": "reported_total"
+        },
+        "project_distribution": {
+          "value": "Sandia accounted for more than half of total reimbursed costs; DOD sponsored the most projects and most were categorized as national security related",
+          "unit": "reported enterprise and sponsor comparison",
+          "value_type": "reported_comparison"
+        },
+        "mission_capacity": {
+          "value": "all nine federal partners interviewed said the projects were essential to their ability to complete their missions; some sites reported additional capacity while others had limited capacity",
+          "unit": "interview evidence, not a representative performance estimate",
+          "value_type": "reported_interview_pattern"
+        },
+        "capacity_tradeoff": {
+          "value": "if partnership capacity declines, NNSA and partners may face higher indirect costs and reduced ability to perform specialized work, but the report does not establish a single net effect on stockpile or partner outcomes",
+          "unit": "reported risk and scenario",
+          "value_type": "reported_risk"
+        },
+        "external_result": {
+          "value": "not observed as a common outcome",
+          "unit": "missing project-level delivery, mission performance, workforce effect, partner dependence, and later strategic response",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO review of NNSA and contractor project data and documentation, five site visits, and interviews with NNSA officials, contractor representatives, and Strategic Partnership Project partners.",
+      "uncertainty": "Reimbursed cost measures project volume and cost recovery, not scientific output, readiness, safety, or geopolitical effect. Interview evidence is purposive and the report does not establish causality between partnership work and mission performance. Capacity differs by site and project type.",
+      "subgroup": "Eight NNSA sites, federal and nonfederal partners, DOD-sponsored projects, and project types including national-security work; site-level staffing, facilities, and mission constraints vary.",
+      "counterinterpretation": "Partnership work can retain staff, maintain facilities, and support research while also consuming specialized capacity needed for NNSA's core stockpile and security missions. A decline in projects might reduce partner capability but could free capacity for core work; the report does not resolve that tradeoff for every site.",
+      "source_url": "https://www.gao.gov/products/gao-26-108229",
+      "retrieval_hash": "sha256:a4c2a750b7ae46d28721247cbf5ee035e26a8c1b14fce45f6d2ed223a49a7017",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures reimbursed Strategic Partnership Project activity, site distribution, and reported capacity/mission connections in the NNSA enterprise. It does not establish project-level performance, nuclear deterrence, public benefit, partner dependence, or geopolitical leverage."
+}

@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-digital-markets-consumer-agency-enforcement-2026",
+  "title": "Digital-market conduct increasingly sits between competition and consumer law, making agency and coordinated redress central",
+  "theme_ids": ["cost", "voice", "time", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "firm_sector_market_power", "platforms_data_attention", "public_systems_feedback", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "OECD, Competition and consumer policy in digital markets, OECD Roundtables on Competition Policy Papers No. 332",
+  "geography": "Comparative digital-market policy and enforcement systems across OECD and partner jurisdictions",
+  "observations": [
+    {
+      "period": "2026; digital conduct at the competition-consumer boundary",
+      "denominator": {"value": 1, "unit": "OECD comparative digital-market policy framework", "value_type": "policy_framework"},
+      "measures": {
+        "conduct_set": {"value": "personalised pricing, recommendation systems, data-driven targeting, and interface design can influence consumer behavior and market dynamics", "unit": "reported conduct set", "value_type": "reported_mechanism"},
+        "overlap": {"value": "digital conduct increasingly raises concerns under both competition and consumer-protection frameworks", "unit": "reported regulatory overlap", "value_type": "reported_pattern"},
+        "shared_objective": {"value": "consumer welfare and meaningful consumer agency connect the two policy domains", "unit": "reported policy bridge", "value_type": "reported_framework"}
+      },
+      "method": "OECD comparative policy analysis and roundtable synthesis on competition and consumer policy in digital markets.",
+      "uncertainty": "The paper is a policy synthesis rather than a prevalence estimate or causal market study; effects vary by conduct, market structure, consumer vulnerability, and enforcement regime.",
+      "subgroup": "Consumers, users with different digital literacy and resources, small firms, platform businesses, competition authorities, and consumer-protection agencies.",
+      "counterinterpretation": "Personalisation and platform design can improve relevance, convenience, and access when transparent, contestable, and aligned with user interests.",
+      "source_url": "https://www.oecd.org/en/publications/competition-and-consumer-policy-in-digital-markets_042c0c49-en/full-report/component-2.html",
+      "retrieval_hash": "sha256:37b3547a02d304876e57b80be035b0d0fb628be27da9f8bbee8b10fa4eba5444",
+      "status": "reported"
+    },
+    {
+      "period": "2026; consumer agency and meaningful choice",
+      "denominator": {"value": 1, "unit": "OECD definition of consumer agency in digital markets", "value_type": "consumer_agency_frame"},
+      "measures": {
+        "agency_definition": {"value": "the meaningful ability to understand alternatives, make informed choices, and act on preferences", "unit": "reported consumer-agency definition", "value_type": "reported_definition"},
+        "switching": {"value": "consumer agency includes the ability to switch providers when appropriate", "unit": "reported agency pathway", "value_type": "reported_mechanism"},
+        "empowerment_competition": {"value": "consumer protection and empowerment can support competition and innovation by enabling informed online choice", "unit": "reported policy mechanism", "value_type": "reported_policy_direction"}
+      },
+      "method": "OECD conceptual and comparative analysis of consumer agency, information, choice, switching, and market dynamics.",
+      "uncertainty": "Formal ability to switch does not establish low switching costs, usable alternatives, informed comprehension, or effective remedy for an individual consumer.",
+      "subgroup": "Consumers facing lock-in, personalized interfaces, bundled services, information asymmetries, limited digital skills, or weak alternatives.",
+      "counterinterpretation": "Some consumers value convenience over active comparison and may rationally delegate choices to trusted platforms or recommendations.",
+      "source_url": "https://www.oecd.org/en/publications/competition-and-consumer-policy-in-digital-markets_042c0c49-en/full-report/component-2.html",
+      "retrieval_hash": "sha256:37b3547a02d304876e57b80be035b0d0fb628be27da9f8bbee8b10fa4eba5444",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital practices creating simultaneous competition and consumer concerns",
+      "denominator": {"value": 1, "unit": "digital-market conduct categories discussed in OECD comparative analysis", "value_type": "conduct_category_frame"},
+      "measures": {
+        "practice_set": {"value": "drip pricing, misleading online choice architecture, AI-generated deceptive claims, tying, and interoperability restrictions", "unit": "reported practice set", "value_type": "reported_practices"},
+        "consumer_risk": {"value": "practices can weaken transparency, autonomy, privacy, trust, or the ability to compare and choose", "unit": "reported consumer-risk pathway", "value_type": "reported_mechanism"},
+        "competition_risk": {"value": "the same conduct can affect entry, market power, switching, innovation, and competitive conditions", "unit": "reported competition pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD mapping of practices that sit at the intersection of competition and consumer law.",
+      "uncertainty": "Whether a practice is harmful depends on implementation, context, countervailing benefits, market power, consumer understanding, and available remedies.",
+      "subgroup": "Online shoppers, users exposed to AI-generated claims, consumers in bundled or tied ecosystems, smaller competitors, and regulators.",
+      "counterinterpretation": "Some design and bundling practices can reduce search costs or support product quality; enforcement should distinguish deception and foreclosure from ordinary innovation.",
+      "source_url": "https://www.oecd.org/en/publications/competition-and-consumer-policy-in-digital-markets_042c0c49-en/full-report/component-4.html",
+      "retrieval_hash": "sha256:37b3547a02d304876e57b80be035b0d0fb628be27da9f8bbee8b10fa4eba5444",
+      "status": "reported"
+    },
+    {
+      "period": "2026; institutional coordination and redress capacity",
+      "denominator": {"value": 1, "unit": "comparative competition and consumer-enforcement coordination framework", "value_type": "enforcement_framework"},
+      "measures": {
+        "coordination_need": {"value": "joint advocacy, coordinated enforcement, and closer institutional cooperation are increasingly necessary in digital markets", "unit": "reported governance direction", "value_type": "reported_policy_direction"},
+        "distinct_mandates": {"value": "competition and consumer authorities may cooperate while retaining distinct mandates", "unit": "reported institutional design principle", "value_type": "reported_framework"},
+        "tradeoff": {"value": "stronger product-safety obligations can protect consumers while potentially raising compliance barriers for smaller firms", "unit": "reported policy tradeoff", "value_type": "reported_tradeoff"}
+      },
+      "method": "OECD comparative review of institutional arrangements, policy coordination, and enforcement implications.",
+      "uncertainty": "Coordination can improve coverage but may create jurisdictional conflict, delay, duplication, or uneven enforcement; the paper does not evaluate one universal institutional model.",
+      "subgroup": "Consumers seeking redress, small businesses, platforms, competition authorities, consumer agencies, data-protection bodies, and product-safety regulators.",
+      "counterinterpretation": "Separate mandates can preserve expertise and accountability; coordination need not mean merger or identical legal tests.",
+      "source_url": "https://www.oecd.org/en/publications/competition-and-consumer-policy-in-digital-markets_042c0c49-en/full-report/component-5.html",
+      "retrieval_hash": "sha256:37b3547a02d304876e57b80be035b0d0fb628be27da9f8bbee8b10fa4eba5444",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/events/2026/06/competition-and-consumer-policy-in-digital-markets.html", "claim": "OECD roundtable summary on consumer agency, joint enforcement, drip pricing, choice architecture, and AI-generated deceptive claims."},
+    {"source_url": "https://www.oecd.org/en/publications/consumer-finance-risk-monitor-2026_61f7dbe0-en.html", "claim": "OECD Consumer Finance Risk Monitor 2026 provides complementary financial-consumer risk and protection context."}
+  ],
+  "boundary": "This record adds a digital-market consumer-agency and institutional-redress route linking personalization, interfaces, pricing, switching, competition, trust, and enforcement coordination. It is not a consumer complaint microdata analysis, individual purchase panel, platform experiment, or causal estimate of consumer harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD 2026 paper, executive summary, intersection chapter, and coordination chapter were reviewed; consumer agency, digital conduct, practice overlap, and institutional-coordination claims were cross-checked.",
+    "source_url_sha256": "sha256:37b3547a02d304876e57b80be035b0d0fb628be27da9f8bbee8b10fa4eba5444",
+    "checked": "2026-09-26"
+  }
+}

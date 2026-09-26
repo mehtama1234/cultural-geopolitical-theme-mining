@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-us-israel-strikes-iran-protest-reversal-2026",
+  "title": "Foreign strikes can redirect domestic mobilization toward the regime they seek to weaken",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Geocoded Iranian protest events and U.S.–Israeli strike exposure in NBER Working Paper 35734",
+  "geography": "Iranian counties and the 2026 U.S.–Israeli strike episode",
+  "observations": [
+    {
+      "period": "2026 nationwide uprising, strike exposure, and protest activity through February 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Geocoded Iranian counties and protest events in the study's high-frequency event dataset; exact count not stated in the public abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "pre_strike_mobilization": {
+          "value": "anti-government protest was widespread before the strikes",
+          "unit": "reported protest pattern",
+          "value_type": "reported_pattern"
+        },
+        "post_strike_direction": {
+          "value": "pro-government rallies and protests against the United States and Israel spread after exposure",
+          "unit": "reported protest-direction change",
+          "value_type": "reported_pattern"
+        },
+        "total_protest_activity": {
+          "value": "little change",
+          "unit": "reported total protest-activity outcome",
+          "value_type": "reported_null_pattern"
+        },
+        "county_exposure_estimate": {
+          "value": "first exposure to a U.S.–Israeli strike is associated with a sharp shift from anti-government to pro-government protest",
+          "unit": "reported staggered-timing and location-based estimate",
+          "value_type": "reported_estimate"
+        },
+        "regime_legitimacy_or_external_strategy": {
+          "value": "not observed",
+          "unit": "missing durable public legitimacy, regime stability, U.S. strategic success, civilian cost, and later external behavior",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "NBER working-paper analysis combining high-frequency geocoded protest data with geocoded U.S.–Israeli strike records and staggered county exposure; public abstract-level extraction keeps protest direction, total activity, and interpretation separate.",
+      "uncertainty": "The public abstract does not expose the event counts, full timing window, effect sizes, standard errors, strike attribution details, or all robustness tests. Domestic repression and an intensifying foreign-agent narrative occurred alongside the strikes, so the finding does not reduce the political shift to physical exposure alone.",
+      "subgroup": "Iranian counties and protest events differentiated by timing of first strike exposure and protest direction; individual protesters, civilian casualties, media access, and household outcomes are not observed.",
+      "counterinterpretation": "The shift may reflect repression, state messaging, fear, rally-round-the-flag dynamics, selective protest recording, or other concurrent events; a change in protest direction is not proof of durable regime legitimacy or U.S. strategic failure in every dimension.",
+      "source_url": "https://www.nber.org/papers/w35734",
+      "retrieval_hash": "sha256:dd3b5dacb393b6a1d03470e0b82fcbfbf137362eff5ca66492457bc5aa3e3c6d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a measured foreign-action-to-public-mobilization response: the abstract reports a shift from anti-government toward pro-government and anti-U.S./Israel protest after U.S.–Israeli strike exposure, with little change in total protest activity. It does not establish durable regime legitimacy, civilian protection, strategic success or failure, causal isolation from repression and propaganda, or later external behavior."
+}

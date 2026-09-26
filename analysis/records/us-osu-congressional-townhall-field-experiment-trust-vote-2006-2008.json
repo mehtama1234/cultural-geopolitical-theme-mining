@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-osu-congressional-townhall-field-experiment-trust-vote-2006-2008",
+  "title": "A randomized two-way interaction with a Member of Congress can increase trust and later political support among participating constituents",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Ohio State University field experiments with Members of Congress in online deliberative town halls",
+  "geography": "United States congressional districts; 20 online town-hall meetings with 12 Members of Congress in studies conducted in 2006 and 2008",
+  "observations": [
+    {
+      "period": "2006; Study 1, invitation to deliberative online town hall randomized after baseline willingness screen",
+      "denominator": {
+        "value": 1259,
+        "unit": "participants who expressed willingness to participate and were randomly assigned to deliberative session or information-only condition; 19 sessions with 12 Members of Congress",
+        "value_type": "randomized_assigned_sample"
+      },
+      "measures": {
+        "interaction": {"value": "real-time online town hall with a sitting Member of Congress after common background materials", "unit": "randomized treatment condition", "value_type": "experimental_exposure"},
+        "policy_persuasion": {"value": "participants assigned to the deliberative session moved toward the Member's position on the high-attention policy issue relative to information-only controls", "unit": "reported causal comparison", "value_type": "reported_estimate"},
+        "attributional_outcome": {"value": "post-session trust and approval of the participating Member were measured separately from policy agreement", "unit": "follow-up outcome", "value_type": "measured_outcome"},
+        "behavioral_followup": {"value": "post-election survey measured intended and actual vote for the participating Member", "unit": "follow-up outcome", "value_type": "measured_outcome"}
+      },
+      "method": "Participants received common policy information; invitation to attend the deliberative session was randomly assigned among people who had expressed willingness to participate. The study used pre-session, one-week post-session, and post-election surveys, with instrumental-variable estimates for attendance and placebo issues that received little discussion.",
+      "uncertainty": "Study 1's willingness screen means the causal estimate concerns compliers among people open to the interaction, not all constituents. One randomization imbalance on party match was conditioned on; follow-up attrition varied by outcome and was addressed with reweighting and bounds. The sessions occurred in 2006 and do not estimate current digital or congressional effects.",
+      "subgroup": "Constituents in 12 districts represented by five Republican and seven Democratic Members; study participants came from a probability sample panel but the experimental population was filtered by willingness.",
+      "counterinterpretation": "The interaction may combine information, personal attention, leader familiarity, social presence, and selection into attendance. A short-run increase in trust or policy agreement does not establish durable institutional legitimacy, broad persuasion, or policy responsiveness.",
+      "source_url": "https://polisci.osu.edu/sites/polisci.osu.edu/files/MinozziEtAlPNAS031615.pdf",
+      "retrieval_hash": "sha256:0366e40ba3ec92a421b94b19ce92570f5db17d25f9c4d19b4a6c0c055d772eab",
+      "status": "reported"
+    },
+    {
+      "period": "2008; Study 2, randomized invitation to online deliberative session with Senator Carl Levin",
+      "denominator": {
+        "value": 900,
+        "unit": "participants recruited for the second study; 462 assigned to the deliberative session and 175 attended",
+        "value_type": "study_sample"
+      },
+      "measures": {
+        "trust_change": {"value": 11, "unit": "approximately percent of the measurement scale increase in trust after the session; P=0.002", "value_type": "reported_causal_effect"},
+        "approval_change": {"value": 11, "unit": "approximately percent of the measurement scale increase in approval after the session; P=0.001", "value_type": "reported_causal_effect"},
+        "vote_intention_change": {"value": 10.5, "unit": "percentage-point increase in intent to vote for the Senator; P=0.004", "value_type": "reported_causal_effect"},
+        "post_election_vote_change": {"value": 13.1, "unit": "percentage-point increase in reported November vote for the Senator; P=0.073", "value_type": "reported_causal_effect"},
+        "policy_persuasion": {"value": "movement toward the Senator's position on the high-attention waterboarding issue relative to the low-attention placebo issue", "unit": "reported causal comparison", "value_type": "reported_estimate"}
+      },
+      "method": "Participants were randomly assigned to an information-only or deliberative-session condition, followed by one-week post-session and post-election surveys. The study reports instrumental-variable estimates for attendance and a placebo comparison between a discussed and largely undiscussed issue.",
+      "uncertainty": "Study 2 used a nonprobability sample and one sitting Senator, limiting generalization. Actual-vote evidence is suggestive rather than conventionally significant at P=0.073, and attendance was substantially lower than assignment. The experiment identifies a bounded treatment effect, not a national response rate or durable vote change.",
+      "subgroup": "Participants assigned around one Senator and a terrorism/detainee-policy discussion; the attendance subgroup is 175, not the full 900-person study sample.",
+      "counterinterpretation": "Effects may depend on the leader, issue, election, interaction format, participant willingness, and contemporaneous campaign context. Trust increase can reflect familiarity or perceived responsiveness without proving broad institutional legitimacy or policy delivery.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4386373/",
+      "retrieval_hash": "sha256:0366e40ba3ec92a421b94b19ce92570f5db17d25f9c4d19b4a6c0c055d772eab",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://democracyinstitute.osu.edu/publication-and-resources/field-experiment-evidence-substantive-attributional-and-behavioral",
+      "claim": "Ohio State's official study page describes the two randomized field experiments and their trust, approval, persuasion, and voting outcomes.",
+      "status": "official-study-page"
+    }
+  ],
+  "boundary": "This record provides causal evidence that a specific deliberative interaction can affect policy agreement, leader trust/approval, and possibly later vote behavior among selected participants. It does not estimate present-day national prevalence, prove that ordinary constituent contact receives a response, establish durable institutional legitimacy, or generalize across issues, leaders, channels, or nonparticipants.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Ohio State-hosted paper PDF downloaded and hashed; PMC full text and official IDEA study page cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

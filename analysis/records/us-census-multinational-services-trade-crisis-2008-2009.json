@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-multinational-services-trade-crisis-2008-2009",
+  "title": "Services exports can help multinational firms keep goods sales moving during a global crisis",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper linking U.S. firms' foreign goods and services sales and comparing multinational exporters during the 2008-2009 global financial crisis",
+  "geography": "United States multinational firms and foreign destinations during the 2008-2009 global financial crisis",
+  "observations": [
+    {
+      "period": "2008-2009 global financial crisis; paper published January 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined U.S. multinational goods exporters, mono-exporters, and bi-exporters; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "goods_export_growth": {
+          "value": "multinationals that also exported services to the same destination had higher goods-export growth than multinationals that exported goods only",
+          "unit": "reported comparison during the crisis",
+          "value_type": "reported_comparison"
+        },
+        "services_channel": {
+          "value": "the result was driven by sales of intellectual-property rights related to industrial processes, including patents and trademarks",
+          "unit": "reported mechanism pattern",
+          "value_type": "reported_decomposition"
+        },
+        "foreign_affiliate_services": {
+          "value": "bi-exporters also had higher growth in foreign-affiliate services sales",
+          "unit": "reported foreign-affiliate outcome",
+          "value_type": "reported_relationship"
+        },
+        "domestic_services_employment": {
+          "value": "bi-exporters had higher domestic employment growth in services sectors",
+          "unit": "reported domestic employment outcome",
+          "value_type": "reported_relationship"
+        }
+      },
+      "method": "Census CES working paper using newly linked foreign goods and services sales data and a triple-difference identification strategy combined with propensity-score matching to compare multinational goods-only exporters with firms that also export services to the same destination.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full sample, destination coverage, estimates, matching quality, or all crisis-period controls. The comparison concerns multinational exporters and does not establish effects for non-exporters, workers in every sector, consumers, or national economic resilience.",
+      "subgroup": "U.S. multinational goods exporters during the 2008-2009 crisis, separated into goods-only exporters and firms also exporting services to the same destination.",
+      "counterinterpretation": "Bi-exporters may differ from mono-exporters in technology, management, market power, customer relationships, product mix, or pre-crisis strength beyond the measured design. Intellectual-property sales may be a marker of firm capability rather than the sole crisis mechanism. Higher domestic services employment does not establish net employment, worker bargaining power, wages, or broad local benefit.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-04.html",
+      "retrieval_hash": "sha256:c156796029301520ff43343d7a6c6265862ff798f8e334558e9997aac2ff8748",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1389",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the goods-and-services export comparison.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-04.pdf",
+      "claim": "The official paper PDF provides the crisis-period data and method context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded services-trade-to-goods-export and firm-capacity pathway during one global crisis. It does not establish national resilience, worker welfare, consumer outcomes, causal generalization to other crises, or strategic autonomy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-04 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying linked firm-sales records are not retained",
+    "checked": "2026-09-22"
+  }
+}

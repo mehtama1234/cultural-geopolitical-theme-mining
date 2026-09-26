@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-asec-cognitive-interviews-household-complexity-2026",
+  "title": "Standardized web questions can lose parts of complicated household life",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "care_health_reproduction", "trust_identity_meaning"],
+  "source_unit": "Census/RTI Round 2 qualitative cognitive interviews for the redesigned web-administered Annual Social and Economic Supplement of the Current Population Survey",
+  "geography": "United States; 60 remote cognitive interviews, 30 income and 30 health-insurance interviews",
+  "observations": [
+    {
+      "period": "June-September 2025 interviews; report published June 2026",
+      "denominator": {"value": 60, "unit": "cognitive interview participants", "value_type": "reported_count"},
+      "measures": {
+        "question_domains": {"value": "health insurance, medical out-of-pocket expenses, moving, earned income, income sources and amounts, poverty, housing, child care, and child support", "unit": "tested survey domains", "value_type": "reported_scope"},
+        "household_proxy_uncertainty": {"value": "almost half of participants indicated that they did not know an answer at some point when considering other household members' income sources", "unit": "share of income-module participants reporting uncertainty during testing", "value_type": "reported qualitative finding"},
+        "reference_period_uncertainty": {"value": "some participants were unsure what period a moving question referred to when no reference date was shown", "unit": "reported interview finding", "value_type": "reported qualitative finding"},
+        "response_option_burden": {"value": "long lists of reasons for moving were daunting and made it harder for some participants to select the best answer", "unit": "reported interview finding", "value_type": "reported qualitative finding"},
+        "instruction_tradeoff": {"value": "an instruction intended to prevent double reporting helped on some items but became confusing and repetitive when repeated broadly", "unit": "reported question-design tradeoff", "value_type": "reported comparison"}
+      },
+      "method": "Round 2 one-on-one cognitive interviews using two ASEC protocols, with concurrent and retrospective probes about comprehension, recall, judgment, response options, skip logic, navigation, and possible measurement error. Participants were recruited to meet pre-established demographic and household-composition targets; the study was qualitative and designed to refine questions before fielding.",
+      "uncertainty": "The report identifies problems found during interviews but does not estimate their prevalence in the national population or their effect on published ASEC estimates. Recruitment used quotas and online and word-of-mouth outreach rather than a probability sample. The findings concern the tested wording, web instrument, topics, and interview setting.",
+      "subgroup": "Thirty participants completed the income protocol and thirty the health-insurance protocol; migration questions appeared in both. The report describes recruitment targets across demographic and household characteristics, but these interviews do not support population subgroup rates or causal claims.",
+      "counterinterpretation": "Cognitive interviews are intended to discover possible comprehension and measurement problems, so a problem found in testing may be uncommon in field data. Repeated instructions, examples, or extra dates can also add burden; simplifying one part of a form may create ambiguity elsewhere.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-06.html",
+      "retrieval_hash": "sha256:269b6cbf36e49379ee6c9c690590073466c023cdb9bba809f7978b32f46aaeb3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-08.html", "claim": "A separate Census usability experiment tests date-entry designs; it is related interface evidence, not the same cognitive-interview source.", "status": "related-distinct-source"}
+  ],
+  "boundary": "This record adds evidence that household complexity, memory, reference periods, and response-option design can shape what a public survey can see. It does not establish national prevalence, respondent intent, published-estimate bias, service eligibility, or later household and political outcomes."
+}

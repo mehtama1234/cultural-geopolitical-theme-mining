@@ -1,0 +1,41 @@
+{
+  "schema": "hrsa-ohio-hpsa-site-operating-fields-audit-v1",
+  "checked": "2026-09-19",
+  "source": {
+    "hpsa_file": "analysis/projects/us-local-business-place/data/hrsa-primary-care-hpsa.csv",
+    "site_file_temp": "/tmp/hrsa-health-center-sites-2026-09-19.csv",
+    "site_file_sha256": "316658d0e620fcc3d8660a27f10450fe1d413f076a8e88f484c56595e081dd95"
+  },
+  "method": "Take the 61 shared BHCMIS organization identifiers from the Ohio HPSA identifier crosswalk and summarize all Ohio service-site rows under those organizations. This is organization/site context, not a claim that every site is the HPSA-designated service location.",
+  "result": {
+    "shared_organization_ids": 61,
+    "site_rows_under_shared_organizations": 662,
+    "active_site_rows": 662,
+    "site_rows_with_positive_operating_hours": 641,
+    "site_rows_with_missing_operating_hours": 21,
+    "operating_hours_median_hours_per_week": 40.0,
+    "operating_schedule": {
+      "Full-Time": 137,
+      "Part-Time": 15,
+      "Unknown": 510
+    },
+    "operating_calendar": {
+      "Year-Round": 128,
+      "Seasonal": 9,
+      "Unknown": 525
+    },
+    "service_delivery_setting": {
+      "All Other Clinic Types": 450,
+      "School": 192,
+      "Unknown": 15,
+      "Hospital": 5
+    },
+    "organization_level": {
+      "organizations_with_at_least_one_positive_hours_site": 61,
+      "organizations_with_at_least_one_known_schedule_site": 36
+    }
+  },
+  "interpretation": "The site file supplies a nominal operating-hours field for most site rows and a known schedule for a minority. It does not supply appointment availability, new-patient acceptance, insurance acceptance, wait, price, actual use, or outcome. Organization-level hours cannot be assigned to a particular HPSA component or resident.",
+  "next_test": "Resolve the shared organization/site identity at the component level, then obtain or document patient acceptance, insurance, appointment wait, service type, and travel-cost fields for a defined population.",
+  "storage_boundary": "Only compact counts are retained; the temporary site CSV remains outside the repository."
+}

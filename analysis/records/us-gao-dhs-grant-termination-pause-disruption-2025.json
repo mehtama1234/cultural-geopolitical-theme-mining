@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dhs-grant-termination-pause-disruption-2025",
+  "title": "Public grant capacity can be paused, withdrawn, and restored before the intended protection is delivered",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-109097 review of DHS and FEMA grant pauses, terminations, deobligations, and added conditions during fiscal year 2025",
+  "geography": "United States; Department of Homeland Security grant programs administered across state, local, tribal, and nonprofit recipients",
+  "observations": [
+    {
+      "period": "January 20–September 30, 2025; DHS grant terminations",
+      "denominator": {"value": 362, "unit": "DHS grants terminated during the reviewed period", "value_type": "reported_terminated_grants"},
+      "measures": {
+        "deobligated_total": {"value": 1001777, "unit": "thousand dollars deobligated after termination", "value_type": "reported_total"},
+        "fema_terminated_grants": {"value": 215, "unit": "FEMA grants terminated", "value_type": "reported_count"},
+        "fema_deobligations": {"value": 999433, "unit": "thousand dollars deobligated from FEMA grants", "value_type": "reported_total"},
+        "other_components": {"value": "USCIS and Science and Technology Directorate accounted for the remaining terminated grants and deobligations", "unit": "component comparison", "value_type": "reported_comparison"}
+      },
+      "method": "GAO review of executive orders, DHS and component guidance, agency documents, DHS data, publicly available award data, statutes, and court filings; supplemented by interviews and written agency responses.",
+      "uncertainty": "Termination and deobligation counts do not establish the amount of local harm, replacement funding, project completion, or later preparedness; grant types and intended outcomes differ.",
+      "subgroup": "DHS grant programs, with FEMA accounting for most terminated grants and deobligations in the reported table.",
+      "counterinterpretation": "A terminated grant may have been duplicative, unnecessary, or replaced by another funding route; deobligation alone does not prove that a community lost protection.",
+      "source_url": "https://www.gao.gov/products/gao-26-109097",
+      "retrieval_hash": "sha256:2911ce715c378c01819c9afcbe48813a8e0e6b0cf7e599ba95786fc7358c897e",
+      "status": "reported"
+    },
+    {
+      "period": "February–September 2025; grant pause, disruption, and reversal",
+      "denominator": {"value": null, "unit": "DHS grant programs and selected terminated or paused awards; no single recipient or project denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "pause": {"value": "DHS paused disbursement of all obligated grant funding in February 2025", "unit": "agency action", "value_type": "reported_action"},
+        "mitigation_delay": {"value": "some disaster-mitigation projects were delayed by nearly a year", "unit": "reported project-delay example", "value_type": "reported_example"},
+        "reinstatement": {"value": "FEMA reallocated funds away from certain states under a terrorism-prevention and response grant program and later reinstated the funds after a court order", "unit": "funding-route sequence", "value_type": "reported_sequence"},
+        "program_effect": {"value": "DHS did not fully achieve its fiscal-year 2025 objectives and in some cases undermined statutory grant purposes", "unit": "audit finding", "value_type": "reported_finding"}
+      },
+      "method": "GAO synthesis of agency action timelines, grant records, court filings, and interviews regarding pauses, conditions, terminations, and reversals.",
+      "uncertainty": "The report does not estimate every recipient's delay, substitute resources, preparedness change, or disaster outcome; a court-ordered restoration is not proof that every restored grant produced the intended result.",
+      "subgroup": "Selected DHS and FEMA grant actions during the 2025 review, including preparedness, resilience, terrorism prevention, and response programs.",
+      "counterinterpretation": "Rapid review can sometimes stop waste or correct a weak award; disruption and reversal show administrative instability but do not prove that the original grants were all effective.",
+      "source_url": "https://www.gao.gov/products/gao-26-109097",
+      "retrieval_hash": "sha256:2911ce715c378c01819c9afcbe48813a8e0e6b0cf7e599ba95786fc7358c897e",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal year 2025 review and future grant actions",
+      "denominator": {"value": 1, "unit": "GAO recommendation to DHS on future grant actions", "value_type": "reported_recommendation"},
+      "measures": {
+        "control_gap": {"value": "DHS had not incorporated lessons from the original approach into similar later grant actions", "unit": "governance finding", "value_type": "reported_finding"},
+        "recommended_correction": {"value": "develop a process requiring grant-making components to consider lessons learned before terminating grants, pausing funds, or adding conditions", "unit": "open recommendation", "value_type": "reported_recommendation"},
+        "agency_response": {"value": "DHS agreed with the recommendation", "unit": "agency response", "value_type": "reported_response"}
+      },
+      "method": "GAO assessment of grant-management process, statutory purposes, agency guidance, and the status of its recommendation.",
+      "uncertainty": "An agreed recommendation is a prospective control, not evidence that the process has been implemented or that future grant actions will be stable.",
+      "subgroup": "DHS grant-making components, especially FEMA.",
+      "counterinterpretation": "A new review process could improve legal and program alignment even if future grant actions still change; agreement does not settle the underlying political conflict over spending priorities.",
+      "source_url": "https://www.gao.gov/products/gao-26-109097",
+      "retrieval_hash": "sha256:2911ce715c378c01819c9afcbe48813a8e0e6b0cf7e599ba95786fc7358c897e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/assets/gao-26-109097.pdf", "claim": "Official GAO accessible report supplies the reviewed grant-action timeline, component table, disruption examples, and recommendation.", "status": "official-report"}
+  ],
+  "boundary": "This record shows an institutional control and continuity problem: grant support can be paused, terminated, deobligated, conditioned, and restored before the intended local preparedness or disaster protection is observed. It does not establish the causal effect on any named recipient, project, household, disaster outcome, trust judgment, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for the extracted findings; the full PDF is linked as a related source but not retained in this record.",
+    "html_sha256": "sha256:2911ce715c378c01819c9afcbe48813a8e0e6b0cf7e599ba95786fc7358c897e",
+    "checked": "2026-09-22"
+  }
+}

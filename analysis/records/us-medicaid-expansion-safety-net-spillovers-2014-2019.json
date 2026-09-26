@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-medicaid-expansion-safety-net-spillovers-2014-2019",
+  "title": "Medicaid expansion can spill into participation in other safety-net programs",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 26504 and Census CES Working Paper 26-32, using border-county and restricted-ACS comparisons of ACA Medicaid expansion and other program participation",
+  "geography": "United States; contiguous county pairs crossing state borders and restricted-access ACS adults ages 25–64, with county administrative outcomes through 2016 and ACS outcomes through 2017",
+  "observations": [
+    {
+      "period": "2010–2017 ACA Medicaid expansion; SNAP, TANF, and EITC participation",
+      "denominator": {"value": 488, "unit": "contiguous county pairs crossing state borders that differed in Medicaid expansion status in 2014; the broader 2010–2016 discordant-pair analysis uses 746 pairs", "value_type": "study_sample_descriptor"},
+      "measures": {
+        "SNAP_participation": {"value": "about 0.6 additional participants per 100 people for a 0-to-138% income-limit increase; 0.49 percentage points in the restricted ACS", "unit": "SNAP participation", "value_type": "preferred_estimate"},
+        "TANF_participation": {"value": "increased, especially among single parents; about 0.49 percentage points from a 100-percentage-point income-limit increase in the ACS estimate", "unit": "TANF participation", "value_type": "subgroup_estimate"},
+        "EITC_participation": {"value": "possibly increased; preferred border-pair estimate is small and not statistically distinguishable from zero", "unit": "EITC returns per 100 working-age adults", "value_type": "null_or_imprecise_estimate"},
+        "insurance": {"value": "a typical 0-to-138% expansion reduced uninsurance by about 2.2 percentage points", "unit": "county-level uninsurance", "value_type": "preferred_estimate"},
+        "conditional_on_eligibility": {"value": "mainly participation conditional on eligibility", "unit": "mechanism interpretation", "value_type": "estimated"},
+        "application_cost": {"value": "information or transaction-cost spillovers are the leading interpretation, not a fully observed household mechanism", "unit": "mechanism interpretation", "value_type": "estimated"}
+      },
+      "method": "Contiguous county-pair border design with county-pair-by-year fixed effects for administrative EITC/SNAP measures, plus restricted-access ACS individual participation comparisons and state policy-environment heterogeneity.",
+      "uncertainty": "The evidence is quasi-experimental and program-specific precision differs. County-level SNAP data omit states that report only at the state level. The ACS is a repeated cross-section rather than a panel following one household through enrollment and later wellbeing. The record does not establish benefit adequacy, food security, household adaptation, trust, action, or recovery.",
+      "subgroup": "People and households in expansion/non-expansion border comparisons; ACS participation conditional on eligibility.",
+      "counterinterpretation": "Cross-program participation may reflect information, transaction costs, labor supply, local implementation, or other expansion-linked changes; the same household route is not observed.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-32.html",
+      "retrieval_hash": "sha256:ca6e8a27f656c6fe6095e4c14c2fff642e7c990c6f2e09d22eaae224ff8b4cb2",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w26504", "claim": "Earlier NBER version of the Medicaid-expansion spillover research line; not treated as an independent replication.", "status": "related-earlier-version"},
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-32.pdf", "claim": "Official Census CES paper with the detailed border-pair, ACS, subgroup, and mechanism estimates.", "status": "official-paper"}
+  ],
+  "boundary": "The study closes a Medicaid-eligibility to other-program-participation arrow and sharpens its size and subgroup pattern. It does not close notice, application completion for a named household, benefit amount, adequacy, food security, trust, political action, or recovery; the Census and NBER versions are one research line rather than independent observations."
+}

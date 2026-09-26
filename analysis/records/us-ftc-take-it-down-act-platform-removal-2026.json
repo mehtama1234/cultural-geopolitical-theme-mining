@@ -1,0 +1,116 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-take-it-down-act-platform-removal-2026",
+  "title": "A mandated platform-removal route creates digital recourse without proving restored safety or exit",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Federal Trade Commission enforcement guidance and complaint route for Section 3 of the TAKE IT DOWN Act; national platform-governance rule and escalation surface, not a sample of individual removal cases",
+  "geography": "United States covered online platforms, victims and survivors, and FTC consumer-protection enforcement",
+  "observations": [
+    {
+      "period": "May 19, 2026; FTC enforcement begins",
+      "denominator": {
+        "value": 1,
+        "unit": "national statutory platform-removal regime",
+        "value_type": "institutional_rule_count"
+      },
+      "measures": {
+        "request_route": {
+          "value": "covered platforms must provide a clear process for a person to request removal of nonconsensual intimate images or videos",
+          "unit": "formal consumer control route",
+          "value_type": "reported_remedy_design"
+        },
+        "removal_deadline": {
+          "value": 48,
+          "unit": "hours after a valid request",
+          "value_type": "statutory_response_deadline"
+        },
+        "duplicate_scope": {
+          "value": "known identical copies are included in the removal obligation",
+          "unit": "formal remedy scope",
+          "value_type": "reported_remedy_design"
+        },
+        "federal_escalation": {
+          "value": "FTC TakeItDown.gov complaint route for platforms that fail to provide a process or fail to act on a valid request",
+          "unit": "institutional escalation route",
+          "value_type": "reported_escalation_design"
+        },
+        "request_traceability": {
+          "value": "FTC business guidance says platforms should provide an identifying number for each removal request so the person, platform, and law enforcement can refer to the same image/request",
+          "unit": "formal request-traceability design",
+          "value_type": "reported_control_design"
+        },
+        "individual_removal_and_recovery": {
+          "value": "not observed",
+          "unit": "missing request validity, platform response, image removal, duplicate removal, recurrence, safety, wellbeing, trust, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "FTC official enforcement announcement and business guidance review; statutory route, deadline, duplicate-copy scope, and escalation channel are coded separately from any individual request outcome.",
+      "uncertainty": "The public materials establish the required control, escalation, and guidance-level traceability architecture, not the volume or validity of requests, platform compliance, removal completeness, recurrence, survivor safety, or later platform use.",
+      "subgroup": "People whose nonconsensual intimate images or videos appear on covered platforms, including minors and adults; access, reporting burden, and exposure may differ by platform, identity, language, safety, and digital resources.",
+      "counterinterpretation": "A short statutory deadline and federal complaint route can materially increase contestability, but a formal process may still require documentation, platform navigation, safety decisions, and repeated effort; removal is not automatically restored privacy, safety, or freedom from continued use.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-it-down-act",
+      "retrieval_hash": "sha256:1b4f6fd0f0be0f8adf8a1ed0dd11a5f369c47b7b0a36c9f835fb4a7a6c9b7d22",
+      "status": "reported"
+    },
+    {
+      "period": "May 2026; FTC warning letters and complaint-route launch for covered platforms and 12 nudify websites",
+      "denominator": {
+        "value": 12,
+        "unit": "websites offering nudify tools that received FTC warning letters",
+        "value_type": "reported_warning_cohort"
+      },
+      "measures": {
+        "regulatory_response": {
+          "value": "FTC sent warning letters advising the 12 companies that they appeared to lack a compliant removal process",
+          "unit": "reported federal enforcement action",
+          "value_type": "reported_warning_action"
+        },
+        "complaint_escalation": {
+          "value": "people can report a platform when a removal process is missing, broken, or fails to remove the image and known duplicates within 48 hours",
+          "unit": "reported complaint-route design",
+          "value_type": "reported_escalation_route"
+        },
+        "platform_correction": {
+          "value": "not observed",
+          "unit": "missing warning-response, platform remediation, individual removal, recurrence, safety, and later trust outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the FTC warning-letter announcement and the public TakeItDown.gov reporting flow; regulator action and complaint-route design are kept separate from platform compliance and individual case outcomes.",
+      "uncertainty": "The warning announcement identifies a 12-site cohort but does not report whether any site corrected its process, how many complaints were filed, whether images were removed, or whether the FTC opened or resolved cases.",
+      "subgroup": "Nudify-tool websites, people depicted in real or AI-generated intimate images, and covered online platforms; no representative request or survivor-outcome sample is provided.",
+      "counterinterpretation": "Warning letters and an escalation form can increase pressure and visibility without producing immediate removal; some platforms may comply privately while others may move, reappear, or remain outside the practical reach of the route.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-sends-warning-letters-companies-about-compliance-take-it-down-act",
+      "retrieval_hash": "sha256:c9ef419198675c2fe147b862dfa07d7014db99e78147a8929be8b4f9307a5795",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/business-guidance/resources/complying-take-it-down-act",
+      "claim": "FTC business guidance describes plain-language notice, removal-request, and request-identification expectations.",
+      "status": "official-business-guidance"
+    },
+    {
+      "source_url": "https://www.takeitdown.ftc.gov/",
+      "claim": "FTC provides a public complaint route for failures to provide a removal process or act on a valid request.",
+      "status": "official-escalation-route"
+    },
+    {
+      "source_url": "https://www.takeitdown.ftc.gov/get-started",
+      "claim": "The public reporting flow distinguishes no attempt, a missing or broken process, and failure to remove within 48 hours.",
+      "status": "official-case-routing-context"
+    }
+  ],
+  "boundary": "This record adds a current digital-remedy architecture stage: a formal platform request, a 48-hour obligation, duplicate-copy scope, request traceability guidance, and federal escalation route. It does not establish an individual removal, complete deletion, recurrence prevention, survivor safety, wellbeing, trust, switching, or exit. The next test would require authorized request-level or platform case evidence preserving validity, response, removal, recurrence, and later outcome separately.",
+  "retrieval_hash": "sha256:1b4f6fd0f0be0f8adf8a1ed0dd11a5f369c47b7b0a36c9f835fb4a7a6c9b7d22"
+}

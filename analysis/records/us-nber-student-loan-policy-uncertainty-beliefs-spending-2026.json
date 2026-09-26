@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-student-loan-policy-uncertainty-beliefs-spending-2026",
+  "title": "Uncertain student-loan policy changed payments and spending before the policy was settled",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 35319; US information experiment linked to credit-bureau, employment-verification, and nondurable-consumption records",
+  "geography": "United States; student-loan borrowers represented in the study's survey and linked administrative records",
+  "observations": [
+    {
+      "period": "2022 student-loan-forgiveness and payment-pause uncertainty; study-specific follow-up",
+      "denominator": {
+        "value": null,
+        "unit": "study-specific survey and linked administrative-record sample; denominator not reported in the NBER abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "student_loan_payment_change": {
+          "value": -40,
+          "unit": "US dollars per month among borrowers more optimistic about future forgiveness or payment pauses",
+          "value_type": "reported_estimate"
+        },
+        "nondurable_spending_change": {
+          "value": 80,
+          "unit": "US dollars per month among borrowers more optimistic about future forgiveness",
+          "value_type": "reported_estimate"
+        },
+        "durable_spending_response": {
+          "value": "optimistic borrowers may postpone durable spending while waiting for uncertainty to resolve",
+          "unit": "reported behavioral pattern",
+          "value_type": "reported_pattern"
+        },
+        "post_resume_delinquency_difference": {
+          "value": 7.5,
+          "unit": "percentage points higher likelihood of delinquency after payments resumed among borrowers optimistic about future payment pauses",
+          "value_type": "reported_estimate"
+        },
+        "modeled_loan_balance_cost": {
+          "value": 6.9,
+          "unit": "percent of initial loan balance; calibrated model estimate for overly optimistic beliefs",
+          "value_type": "reported_model_result"
+        },
+        "received_relief": {
+          "value": "not established by the belief experiment",
+          "unit": "actual forgiveness or permanent payment reduction",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Information-provision experiment embedded in a survey eliciting real-time beliefs about future debt forgiveness and repayment, linked to credit-bureau data, employment-verification data, and nondurable-consumption records. The paper studies the 2022 announced but judicially blocked forgiveness policy and payment-pause expectations.",
+      "uncertainty": "The NBER abstract does not provide the full sample denominator or all subgroup estimates. The spending measures do not identify which needs received the additional spending, and the study does not establish the full housing, family, health, political, or trust path.",
+      "subgroup": "US student-loan borrowers in the study's survey and linked administrative records; exact subgroup composition and heterogeneous effects require the full paper.",
+      "counterinterpretation": "Using money elsewhere can be a rational response when a pause or forgiveness seems likely. Delinquency after payments resumed may reflect the end of the pause and payment shock, not only a mistaken belief or changed political attitude.",
+      "source_url": "https://www.nber.org/papers/w35319",
+      "retrieval_hash": "sha256:cbff6b84e34e96ab0db607a4b58ad38e96a5a1cf7544c95a8e09dbb5744f17a8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w33462",
+      "claim": "A separate source examines actual student-loan cancellation and borrower outcomes; it is not pooled with this belief-experiment record.",
+      "status": "official-companion-kept-separate"
+    }
+  ],
+  "boundary": "This record supports a belief-to-payment-and-spending pathway under the study's design. It does not show that the expected relief was received, that borrowers changed political identity or trust, or that the same borrowers experienced a complete later housing, family, or financial-security outcome. Promise, belief, payment, spending, delinquency, and realized relief remain separate stages."
+}

@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-dementia-medicare-supplemental-coverage-2026",
+  "title": "Insurance coverage can become less complete before probable dementia onset while Medicaid eligibility rises without higher take-up",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35606, retrospective Health and Retirement Study analysis of Medicare supplemental coverage around probable dementia onset",
+  "geography": "United States; Medicare-enrolled Health and Retirement Study adults age 65 and older, 2000-2016",
+  "observations": [
+    {
+      "period": "Four years before through two years before probable dementia onset, with matched comparison adults",
+      "denominator": {
+        "value": 17056,
+        "unit": "3,001 Medicare-enrolled adults with probable dementia and 14,055 matched controls in the Health and Retirement Study",
+        "value_type": "study_sample"
+      },
+      "measures": {
+        "medicare_without_supplemental_coverage": {
+          "value": 2.97,
+          "unit": "percentage-point higher probability for people with probable dementia four years before onset than matched controls",
+          "value_type": "reported_effect"
+        },
+        "coverage_composition": {
+          "value": "the difference reflected lower likelihood of Medicare Advantage or traditional Medicare with supplemental coverage and higher likelihood of Medicaid",
+          "unit": "reported coverage comparison",
+          "value_type": "reported_pattern"
+        },
+        "medicaid_eligibility": {
+          "value": 4.95,
+          "unit": "percentage-point higher Medicaid eligibility two years before onset",
+          "value_type": "reported_effect"
+        },
+        "medicaid_takeup": {
+          "value": "take-up rates were comparable despite the eligibility difference",
+          "unit": "reported matched comparison",
+          "value_type": "reported_null_comparison"
+        },
+        "care_financial_outcome": {
+          "value": "not observed in the public abstract",
+          "unit": "missing out-of-pocket spending, care use, caregiver burden, coverage continuity, and later financial security",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Retrospective secondary-data analysis of the 2000-2016 Health and Retirement Study using propensity-score weights and matched controls; probable dementia is assessed with the Langa-Weir approach and interviewer assessments for proxy interviews.",
+      "uncertainty": "The abstract reports coverage changes around probable onset but does not disclose the full timing structure, reasons for coverage changes, plan generosity, premiums, claims, or care outcomes. Probable dementia is a study measure and is not the same as a clinical diagnosis for every respondent.",
+      "subgroup": "Medicare-enrolled adults age 65 and older with probable dementia and matched controls; the abstract does not provide a complete breakdown by race, wealth, living arrangement, caregiver access, rurality, or state Medicaid rules.",
+      "counterinterpretation": "Coverage differences may reflect changing income, assets, health needs, living arrangements, institutional transitions, or eligibility rules rather than dementia itself. Comparable Medicaid take-up does not show that enrollment assistance would work, and incomplete supplemental coverage does not by itself establish unaffordable or inadequate care.",
+      "source_url": "https://www.nber.org/papers/w35606",
+      "retrieval_hash": "sha256:101c9cd81ba94f6d4170f420b15f200b4914fc221111749c2e90f2992ff44d86",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures Medicare supplemental-coverage and Medicaid-eligibility differences around probable dementia onset in a historical U.S. survey panel. It does not establish causation, actual care affordability or quality, caregiver burden, financial harm, or the effect of enrollment assistance."
+}

@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hygon-dcu-kimi-k3-reported-12-percent-performance-loss-2026",
+  "title": "A 2026 technical-news report relayed an official Hygon claim that Kimi K3 performance loss on domestic cards was within 12 percent",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Technical-news report describing Hygon, Moonshot, and Sugon compatibility work for Kimi K3",
+  "geography": "China, Hygon DCU, Sugon 8000 cluster, Kimi K3, and domestic AI-compute ecosystem",
+  "observations": [
+    {
+      "period": "July 28, 2026 technical-news report describing Kimi K3's July 27 open release and same-day adaptation",
+      "denominator": {
+        "value": 1,
+        "unit": "reported Kimi K3 reference-versus-domestic-card performance comparison",
+        "value_type": "reported_comparison_event"
+      },
+      "measures": {
+        "performance_loss": {"value": "within 12%", "unit": "reported performance loss versus the reference GPU implementation; metric definition and test configuration not disclosed", "value_type": "reported_relative_performance"},
+        "deployment_path": {"value": "Kimi K3 distributed training and multi-card inference path reported as enabled on a Sugon 8000 cluster using the Hygon DCU hardware stack", "unit": "reported deployment path", "value_type": "reported_cluster_deployment"},
+        "software_scope": {"value": "full-stack work reported from low-level operators through inference engine for the KDA and large sparse-MoE architecture", "unit": "reported adaptation scope", "value_type": "reported_software_adaptation"},
+        "commercial_status": {"value": "not disclosed", "unit": "no named customer, paid workload, utilization series, shipment, or revenue reported", "value_type": "unmeasured"},
+        "independent_validation": {"value": "not observed", "unit": "the article relays an official measurement and provides no reproducible benchmark artifacts or independent test", "value_type": "unmeasured"}
+      },
+      "method": "Review of a technical-news report that attributes the performance comparison to an official Hygon measurement and describes Moonshot-Hygon-Sugon compatibility work. The record preserves the reported relative figure but does not treat it as independent benchmarking or a general parity claim.",
+      "uncertainty": "The source does not define the baseline GPU, hardware count, precision, batch size, context length, throughput or latency metric, energy basis, workload trace, test repetitions, or statistical uncertainty. The phrase 'within 12%' may refer to a selected demonstration configuration rather than broad production performance.",
+      "subgroup": "Hygon and Sugon engineering teams, Moonshot AI, domestic model developers, data-center operators, enterprise users, and competing accelerator platforms",
+      "counterinterpretation": "A vendor-reported loss bound in one configuration can coexist with worse economics, weaker software coverage, lower availability, or continued NVIDIA use in other workloads. Distributed inference on a named cluster demonstrates a technical path, not customer adoption or market displacement.",
+      "source_url": "https://finance.sina.com.cn/tech/roll/2026-07-28/doc-inikivue9276203.shtml",
+      "retrieval_hash": "sha256:9811c00cb07d3dae5042487449b9e14ad53ba297b0570ee5cbc4ba00ca3f5591",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472509.PDF",
+      "claim": "Hygon's half-year assessment report describes the DCU software stack and adaptation of GLM, DeepSeek, MiniMax, and Kimi, but does not publish the Kimi K3 comparison metric.",
+      "status": "official-company-comparator"
+    },
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225522456.PDF",
+      "claim": "A listed-company interim report separately states that Hygon completed full-process Kimi K3 adaptation, deployment, and performance verification on DCU.",
+      "status": "official-second-party-comparator"
+    }
+  ],
+  "boundary": "This record adds a quantitative, vendor-reported performance-claim stage and a reported distributed-deployment path. It does not establish an independent benchmark, reproducible parity, production duration, customer acceptance, utilization, cost advantage, market share, substitution, or a causal export-control effect."
+}

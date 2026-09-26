@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-sipp-wealth-households-2024",
+  "title": "Household asset ownership is common while usable financial room remains uneven",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Census Bureau Current Population Reports P70BR-218, using 2025 Survey of Income and Program Participation public-use data for household wealth at the end of 2024",
+  "geography": "United States; households in housing units, with reported demographic and economic subgroup comparisons",
+  "observations": [
+    {
+      "period": "2024",
+      "denominator": {
+        "value": null,
+        "unit": "SIPP households in the 2024 household wealth universe",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "median_household_wealth": {
+          "value": 204900,
+          "unit": "2024 dollars, median net wealth per household",
+          "value_type": "reported_estimate"
+        },
+        "wealth_distribution": {
+          "value": "10th percentile $0; 90th percentile $1,810,000",
+          "unit": "household net wealth percentile values",
+          "value_type": "reported_estimate"
+        },
+        "common_assets": {
+          "value": "95.7% held assets at financial institutions with $10,100 median value; 82.5% owned vehicles with $12,900 median value",
+          "unit": "household ownership rate and conditional median asset value",
+          "value_type": "reported_estimate"
+        },
+        "major_asset_ownership": {
+          "value": "62.5% held equity in their own home with $220,000 median value; 60.5% held retirement accounts with $89,150 median value",
+          "unit": "household ownership rate and conditional median asset value",
+          "value_type": "reported_estimate"
+        },
+        "unsecured_debt": {
+          "value": "53.5% held some unsecured debt; 40.0% credit-card/store bills; 17.8% student or education debt; 16.0% medical debt",
+          "unit": "household debt-holding rates",
+          "value_type": "reported_estimate"
+        },
+        "group_wealth_difference": {
+          "value": "median wealth $9,410 when no household member had a high-school diploma versus $323,500 when the most educated member held a bachelor's degree; homeowner median wealth was 48.3 times renter median wealth, or 17.4 times excluding home equity",
+          "unit": "reported subgroup median-wealth comparisons",
+          "value_type": "reported_comparison"
+        },
+        "realized_shock_buffer": {
+          "value": "not observed",
+          "unit": "sale, borrowing, withdrawal, delay, substitution, hardship, recovery, or later household outcome after a dated shock",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Census brief using 2025 SIPP public-use data; wealth is assets minus debts and includes households with negative wealth. Percentile estimates and weighted interpolated medians are reported in 2024 dollars; comparisons account for sampling error and are significant at the 90% confidence level unless noted.",
+      "uncertainty": "The public brief does not provide a retained household-level extract for this record. Asset and debt medians are conditional on holding the relevant type, and aggregate wealth composition is not the composition of a typical household. Pension-plan equity and home furnishings are among the assets not covered in the measure.",
+      "subgroup": "Households grouped by wealth percentile, race and Hispanic origin of householder, age, education, annual income, housing tenure, and marital status by age.",
+      "counterinterpretation": "A household with low measured net wealth may have informal support, future income, public benefits, or other resources not captured here; a household with high wealth may have illiquid assets, obligations, or access costs. Ownership and measured wealth do not prove immediate liquidity, resilience, or social power.",
+      "source_url": "https://www2.census.gov/library/publications/2026/demo/p70br-218.pdf",
+      "retrieval_hash": "sha256:8aeb609aa475b4e816f645e220a28fd2462450246af3af14fd8453eceb0a3eef",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p70br-218.html",
+      "claim": "Census publication page identifies the brief and its SIPP basis.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.census.gov/data/tables/2024/demo/wealth/wealth-asset-ownership.html",
+      "claim": "Census provides detailed national and state-level wealth, asset-ownership, and debt tables for 2024.",
+      "status": "official-data-tables"
+    }
+  ],
+  "boundary": "This record adds measured household wealth distribution, asset ownership, unsecured debt, and subgroup differences. It does not establish immediate liquidity, realized shock absorption, causal mechanisms, later recovery, trust, political action, or geopolitical consequence."
+}

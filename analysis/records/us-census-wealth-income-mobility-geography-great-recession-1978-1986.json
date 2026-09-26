@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-wealth-income-mobility-geography-great-recession-1978-1986",
+  "title": "A county can look mobile by income while remaining much less mobile by housing wealth",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "care_health_reproduction"],
+  "source_unit": "Census CES Working Paper 26-30, Lands of Opportunity: Differences in the Geography of Wealth and Income Mobility in the United States",
+  "geography": "United States; county-level estimates for children born 1978–1986, parents observed around 2000, and adult outcomes measured mainly 2019–2021",
+  "observations": [
+    {
+      "period": "Parent-child links from 1994–2000 and 2000; adult outcomes 2019–2021; Great Recession exposure and county mobility estimates",
+      "denominator": {"value": 3400000, "unit": "approximately parent-child pairs; county estimates use roughly 3,004–3,133 counties depending on the measure", "value_type": "reported_sample_size"},
+      "measures": {
+        "concept_separation": {"value": "County relative-mobility correlations between income-based and wealth-based measures are below 0.5", "unit": "county-level Pearson correlations across mobility concepts", "value_type": "reported_correlation"},
+        "spatial_variation": {"value": "Labor income, housing wealth, and homeownership mobility show more county variation than total-income mobility", "unit": "cross-county dispersion of mobility estimates", "value_type": "reported_comparison"},
+        "city_suburb_pattern": {"value": "Many cities and suburbs have lower relative mobility in wealth concepts than in income concepts; coastal and populous areas combine higher absolute mobility with lower relative housing-wealth mobility", "unit": "county pattern", "value_type": "reported_pattern"},
+        "recession_income": {"value": "Greater local Great Recession severity is negatively associated with child absolute income mobility across the parental distribution", "unit": "county-level long-run association, child outcomes about ten years later", "value_type": "reported_association"},
+        "recession_wealth": {"value": "Greater recession severity is associated with lower upward and relative homeownership and housing-wealth mobility, especially for children from poorer families; wealth of children from richer families appears more insulated", "unit": "county-level long-run association", "value_type": "reported_heterogeneity"}
+      },
+      "method": "Small-area estimation using linked 2000 Decennial Census long-form, IRS tax and W-2 records, property-tax and deed records, and administrative income/wealth measures. Parent-child rank-rank measures cover total income, labor income, homeownership, gross housing wealth, and gross total wealth; county regressions relate mobility measures to local characteristics and Great Recession shocks.",
+      "uncertainty": "This is a Census CES working paper and does not represent Census Bureau endorsement. Wealth is partly estimated from property records, capitalized income, and administrative imputations; gross wealth omits some liabilities and is not disposable cash. County-level associations with recession severity and local characteristics are not a randomized causal estimate of place effects. The cohorts and observation years do not describe current children or all wealth pathways, and measurement coverage and linkage requirements may exclude some people or properties.",
+      "subgroup": "Children from lower versus higher parental resource positions, county and commuting-zone comparisons, coastal and populous areas, and income versus wealth concepts; recession effects differ notably by parental position.",
+      "counterinterpretation": "Lower wealth mobility can reflect housing prices, ownership timing, debt, inheritance, migration, selection into counties, or measurement of gross rather than net wealth. Higher absolute mobility and lower relative mobility can coexist because children move up while parental rank gaps persist. A county association does not identify whether schools, segregation, social capital, labor markets, public spending, housing supply, or family transfers caused the difference.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-30.html",
+      "retrieval_hash": "sha256:bf746bee3f080f2c1e4fffad03e2f4eeecc763c3e094f5f2768f4a1e4331ea35",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-30.pdf", "claim": "Official paper PDF provides the parent-child linkage, wealth construction, county mobility measures, local correlates, Great Recession analysis, and caveats.", "status": "official-paper"},
+    {"source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-30.html", "claim": "Census provides a public-use county-level data package associated with the study.", "status": "official-public-data-context"}
+  ],
+  "boundary": "This record adds a wealth-versus-income place mechanism: economic opportunity is not one ladder, and county income mobility can conceal persistent housing-wealth and ownership inheritance. The study does not establish a single cause of county differences, current causal place effects, household wellbeing, or political meaning.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; linked confidential parent-child, tax, property, and administrative records are not retained.", "pdf_sha256": "sha256:bf746bee3f080f2c1e4fffad03e2f4eeecc763c3e094f5f2768f4a1e4331ea35", "checked": "2026-09-23"}
+}

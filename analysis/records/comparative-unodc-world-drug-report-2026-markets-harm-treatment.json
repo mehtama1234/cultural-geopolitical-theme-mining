@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unodc-world-drug-report-2026-markets-harm-treatment",
+  "title": "Drug markets are changing while harm, treatment access, and enforcement pathways remain uneven across regions",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": ["care_health_reproduction", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power", "geopolitical_state_consequences", "trust_identity_meaning"],
+  "source_unit": "UNODC, World Drug Report 2026 data portal",
+  "geography": "Global drug cultivation, health-harm, treatment, and market reporting across regions and subregions",
+  "observations": [
+    {
+      "period": "2024-2026; illicit crop cultivation and market geography",
+      "denominator": {"value": 1, "unit": "global illicit-cultivation reporting frame", "value_type": "global_market_frame"},
+      "measures": {
+        "cannabis_scope": {"value": 155, "unit": "countries reporting cannabis cultivation, covering approximately 96 percent of the global population", "value_type": "reported_country_count"},
+        "coca_area": {"value": 385100, "unit": "hectares of illicit coca-bush cultivation in 2024", "value_type": "reported_area"},
+        "coca_change": {"value": 3, "unit": "times the illicit coca cultivation area approximately a decade earlier", "value_type": "reported_ratio"}
+      },
+      "method": "UNODC compilation of illicit-crop cultivation, market, and country reporting in the World Drug Report 2026 data portal.",
+      "uncertainty": "Cultivation estimates depend on remote sensing, field reporting, definitions, and coverage; area is not equivalent to output, purity, retail availability, or consumption.",
+      "subgroup": "Communities in cultivation and transit areas, people exposed to organized crime or enforcement, farmers, consumers, and public-health systems.",
+      "counterinterpretation": "Changes in cultivation area can reflect yields, eradication, policy shifts, displacement of production, or reporting changes rather than a simple increase in demand.",
+      "source_url": "https://data.unodc.org/wdr2026",
+      "retrieval_hash": "sha256:e70d3ddca3cee08e57f73288b9906e9d63d399a0ed5b90983a7174ea7f1a759f",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; drug-related mortality and substance mix",
+      "denominator": {"value": 1, "unit": "countries and global indicators reporting drug-related deaths", "value_type": "harm_reporting_frame"},
+      "measures": {
+        "global_death_trend": {"value": "total global deaths directly or indirectly attributable to drugs continued to increase in 2023", "unit": "reported global trend", "value_type": "reported_change"},
+        "population_adjustment": {"value": "population-adjusted rates grew more slowly than total deaths", "unit": "reported interpretation", "value_type": "reported_pattern"},
+        "toxicology": {"value": "among 66 reporting countries, opioids were the most common substance involved in direct drug-related deaths and cocaine ranked second", "unit": "reported toxicology pattern", "value_type": "reported_pattern"}
+      },
+      "method": "UNODC synthesis of mortality, toxicology, and country reporting data.",
+      "uncertainty": "Mortality attribution and toxicology coverage vary across countries; indirect causes and underreporting mean direct counts do not capture the full burden.",
+      "subgroup": "People with drug use disorders, families, people using multiple substances, emergency and health workers, and communities with unequal access to care.",
+      "counterinterpretation": "Slower population-adjusted growth and regional declines in particular substances can coexist with severe local epidemics and changing drug mixtures.",
+      "source_url": "https://data.unodc.org/wdr2026",
+      "retrieval_hash": "sha256:e70d3ddca3cee08e57f73288b9906e9d63d399a0ed5b90983a7174ea7f1a759f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; treatment coverage and regional inequality",
+      "denominator": {"value": 1, "unit": "people with drug use disorders in countries with available treatment data", "value_type": "treatment_coverage_frame"},
+      "measures": {
+        "coverage": {"value": "only a small proportion of people with drug use disorders receive treatment", "unit": "reported global coverage assessment", "value_type": "reported_gap"},
+        "regional_gradient": {"value": "coverage is highest in Europe and lowest in Africa and Asia", "unit": "reported regional pattern", "value_type": "reported_pattern"},
+        "service_variation": {"value": "availability, coverage, and accessibility vary across pharmacological, psychosocial, and rehabilitation interventions", "unit": "reported service pattern", "value_type": "reported_pattern"}
+      },
+      "method": "UNODC synthesis of treatment-coverage and service-availability data in the World Drug Report 2026.",
+      "uncertainty": "Treatment estimates are limited by incomplete country reporting, differing definitions of treatment, and missing people outside formal services.",
+      "subgroup": "People with drug use disorders, women and youth, people in poverty, people in criminal-justice contact, and populations in under-resourced health systems.",
+      "counterinterpretation": "Formal treatment coverage understates informal, community, peer, or self-managed recovery routes, while not all formal services have equal quality or accessibility.",
+      "source_url": "https://data.unodc.org/wdr2026",
+      "retrieval_hash": "sha256:e70d3ddca3cee08e57f73288b9906e9d63d399a0ed5b90983a7174ea7f1a759f",
+      "status": "reported"
+    },
+    {
+      "period": "2026; pathways into treatment and institutional response",
+      "denominator": {"value": 61, "unit": "countries contributing data on referral pathways into drug-related treatment", "value_type": "treatment_pathway_frame"},
+      "measures": {
+        "referral_variation": {"value": "friends and family or self-referral are more common in Africa, while criminal-justice referral has a larger role in East and South-East Asia", "unit": "reported regional pathway pattern", "value_type": "reported_pattern"},
+        "intervention_data": {"value": 44, "unit": "countries contributing data on types of treatment delivered", "value_type": "reported_country_count"},
+        "polydrug_use": {"value": "between 40 and 50 percent of people in drug-related treatment are reported as polydrug users in available global data, with substantial regional variation", "unit": "reported treatment share", "value_type": "reported_share"}
+      },
+      "method": "UNODC comparative analysis of treatment referral, intervention, and patient-profile data.",
+      "uncertainty": "These are selective reporting frames, not representative samples of all people who use drugs; referral pathways may reflect institutional access as much as preference or need.",
+      "subgroup": "People seeking treatment, families, criminal-justice agencies, health providers, community organizations, and people with multiple-substance use.",
+      "counterinterpretation": "Criminal-justice referral can sometimes connect people to care, while self- or family referral can also be blocked by stigma, cost, distance, or service scarcity.",
+      "source_url": "https://data.unodc.org/wdr2026",
+      "retrieval_hash": "sha256:e70d3ddca3cee08e57f73288b9906e9d63d399a0ed5b90983a7174ea7f1a759f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.unodc.org/wdr2026search", "claim": "UNODC WDR 2026 searchable findings provide treatment, mortality, toxicology, cultivation, and market-detail context."},
+    {"source_url": "https://www.unodc.org/documents/data-and-analysis/WDR_2025/WDR25_B1_Key_findings.pdf", "claim": "UNODC 2025 key findings provide prior-cycle context for synthetic markets, treatment gaps, and drug-related harms."}
+  ],
+  "boundary": "This record adds an aggregate drug-market, public-health, treatment-access, and institutional-response route. It is not an individual substance-use panel, clinical effectiveness study, respondent-level treatment record, or causal estimate of enforcement or drug-market policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNODC World Drug Report 2026 data portal and searchable findings were reviewed; cultivation, mortality, treatment coverage, referral pathways, intervention, and polydrug claims were cross-checked.",
+    "source_url_sha256": "sha256:e70d3ddca3cee08e57f73288b9906e9d63d399a0ed5b90983a7174ea7f1a759f",
+    "checked": "2026-09-26"
+  }
+}

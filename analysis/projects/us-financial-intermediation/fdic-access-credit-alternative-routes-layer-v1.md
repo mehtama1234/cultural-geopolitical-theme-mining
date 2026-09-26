@@ -11,6 +11,36 @@ The FDIC survey adds a household-level US financial-access layer that is more di
 
 The financial route therefore has several distinct gates: account ownership, the need to use nonbank services, visibility in mainstream credit, and the digital or physical channel used to transact. These measures do not establish hardship or distrust by themselves. They show that formal access and usable room to act are not the same thing.
 
+## Exit is not always shopping
+
+The [FDIC’s 2021 transition module](https://www.fdic.gov/household-survey/2021-fdic-national-survey-unbanked-and-underbanked-households)
+adds an important boundary to the idea of
+consumer choice. It classified 0.5% of all households as recently unbanked:
+they had an account during the prior year but did not have one at the survey
+date. Among recently unbanked households, 42.4% reported that someone in the
+household had lost or quit a job, been furloughed, had reduced hours, or had a
+significant income loss during the pandemic period; among recently unbanked
+households that had experienced such an event, 21.1% said it contributed to
+closing the account. The survey warns that account closure could have been
+initiated by the household or by the bank.
+
+This does not prove that the job or income event caused the closure, and it is
+not directly comparable to the 2023 cross-section. It does establish a useful
+research distinction:
+
+```text
+income or job shock
+  -> account closure or loss of access
+  -> nonbank / cash / family / delayed-payment route
+  -> transaction cost, credit visibility, and recovery options
+```
+
+So “switching” is not one behavior. A person may actively move to another
+provider, remain despite poor terms, lose an account after a shock, or stop
+using formal banking while still needing to pay bills. Those paths have
+different meanings for autonomy, trust, and practical exit, even when they all
+appear as a change in account status.
+
 ## What the FDIC layer measures
 
 | Evidence unit | 2023 result | What it makes visible | What remains open |
@@ -75,3 +105,7 @@ The working picture would weaken if account ownership, nonbank use, and credit v
 ## Reading rule
 
 When a source says a household is “banked,” ask: can it use the account for this transaction, at this price, with this credit record, through a channel it can reach, and with a remedy if the route fails?
+
+When a source says a household “switched” or became “unbanked,” also ask:
+was that a chosen move, a forced closure, a response to lost income, or a
+non-use strategy—and what route replaced the account?

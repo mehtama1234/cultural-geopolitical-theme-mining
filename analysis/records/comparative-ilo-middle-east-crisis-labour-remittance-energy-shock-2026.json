@@ -1,0 +1,118 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-middle-east-crisis-labour-remittance-energy-shock-2026",
+  "title": "A geopolitical energy shock can reach workers, firms, households, migration, and remittances through a delayed labor-market transmission chain",
+  "theme_ids": ["work", "cost", "time", "energy"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "public_systems_feedback"
+  ],
+  "source_unit": "International Labour Organization, Employment and Social Trends: May 2026 Update: Growing labour market risks from the Middle East crisis",
+  "geography": "Global labor markets with focused exposure analysis for Arab States and Asia and the Pacific, including energy, supply chains, tourism, migration, and remittance channels",
+  "observations": [
+    {
+      "period": "2026-2027; illustrative global oil-shock labor scenario",
+      "denominator": {
+        "value": 1,
+        "unit": "global labor market simulation under oil prices approximately 50 percent above the January-February 2026 average",
+        "value_type": "modeled_global_scenario_frame"
+      },
+      "measures": {
+        "hours_worked_change_2026": {"value": -0.5, "unit": "percent projected change in global hours worked in 2026", "value_type": "modeled_global_change"},
+        "hours_worked_change_2027": {"value": -1.1, "unit": "percent projected change in global hours worked in 2027", "value_type": "modeled_global_change"},
+        "full_time_equivalent_jobs_2026": {"value": 14000000, "unit": "full-time-equivalent jobs equivalent to projected 2026 hours decline, approximately", "value_type": "modeled_global_count"},
+        "full_time_equivalent_jobs_2027": {"value": 38000000, "unit": "full-time-equivalent jobs equivalent to projected 2027 hours decline, approximately", "value_type": "modeled_global_count"},
+        "real_labour_income_change": {"value": "-1.1 in 2026 and -3.0 in 2027", "unit": "percent projected global real labour-income change", "value_type": "modeled_global_change"},
+        "unemployment_change": {"value": "0.1 in 2026 and 0.5 in 2027", "unit": "percentage-point projected global unemployment-rate increase", "value_type": "modeled_global_change"}
+      },
+      "method": "ILO econometric simulation tracing an illustrative oil-price shock through energy prices, production and transport costs, demand, hours, real labor income, and unemployment.",
+      "uncertainty": "This is a scenario, not a forecast of the eventual crisis path; results depend on oil-price size, persistence, conflict evolution, substitution, policy response, and model assumptions.",
+      "subgroup": "Workers, enterprises, households, energy-intensive sectors, informal workers, migrant workers, small firms, and economies exposed to energy and trade routes.",
+      "counterinterpretation": "Energy substitution, fiscal support, social protection, employment retention, and rapid de-escalation could reduce the modeled labor shock; a price increase may affect sectors differently.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/Brief_Employment%20and%20Social%20Trends.pdf",
+      "retrieval_hash": "sha256:4576e071c215fda64d57b6da6ee20b47f05ad4f348e44ac4d80acbd995214672",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Arab States regional exposure scenarios",
+      "denominator": {
+        "value": 1,
+        "unit": "Arab States labor market scenario frame",
+        "value_type": "modeled_regional_scenario_frame"
+      },
+      "measures": {
+        "hours_rapid_deescalation": {"value": -1.3, "unit": "percent projected change in hours worked under rapid de-escalation", "value_type": "modeled_regional_change"},
+        "hours_protracted_conflict": {"value": -3.7, "unit": "percent projected change in hours worked under protracted conflict", "value_type": "modeled_regional_change"},
+        "hours_severe_escalation": {"value": -10.2, "unit": "percent projected change in hours worked under severe escalation", "value_type": "modeled_regional_change"},
+        "high_exposure_employment": {"value": 40, "unit": "percent of employment in high-exposure sectors including trade, construction, manufacturing, agriculture, transport, and accommodation/food services", "value_type": "reported_regional_share"},
+        "migrant_adjustment": {"value": "migrant workers expected to bear a disproportionate share of labor-market adjustment", "unit": "reported distributional risk", "value_type": "reported_distributional_risk"}
+      },
+      "method": "ILO regional modeling and sectoral exposure analysis under rapid de-escalation, protracted-conflict, and severe-escalation scenarios.",
+      "uncertainty": "Scenario ranges are not observed outcomes; sector classifications, labor-market informality, displacement, policy support, and conflict duration affect realized impacts.",
+      "subgroup": "Arab States workers, migrant workers, refugees, construction and hospitality workers, energy-linked firms, informal workers, and households exposed to conflict and price shocks.",
+      "counterinterpretation": "Labor-market supports, reconstruction, public employment, social protection, and de-escalation may spread or cushion impacts, while some sectors could recover faster than the aggregate.",
+      "source_url": "https://www.ilo.org/publications/growing-labour-market-risks-middle-east-crisis",
+      "retrieval_hash": "sha256:4576e071c215fda64d57b6da6ee20b47f05ad4f348e44ac4d80acbd995214672",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2027; Asia and the Pacific spillover through energy, trade, and tourism",
+      "denominator": {
+        "value": 1,
+        "unit": "Asia and the Pacific labor-market exposure scenario frame",
+        "value_type": "modeled_regional_scenario_frame"
+      },
+      "measures": {
+        "hours_worked_change_2026": {"value": -0.7, "unit": "percent projected change in regional hours worked in 2026", "value_type": "modeled_regional_change"},
+        "hours_worked_change_2027": {"value": -1.5, "unit": "percent projected change in regional hours worked in 2027", "value_type": "modeled_regional_change"},
+        "real_labour_income_change": {"value": "-1.5 in 2026 and -4.3 in 2027", "unit": "percent projected change in regional real labour income", "value_type": "modeled_regional_change"},
+        "high_exposure_workers": {"value": 22, "unit": "percent of workers in high-exposure sectors including agriculture, transport, manufacturing, construction, and tourism", "value_type": "reported_regional_share"},
+        "transmission_channels": {"value": "imported energy, Gulf-linked labor migration, transport/logistics, tourism, supply chains, and remittances", "unit": "reported regional transmission set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "ILO regional scenario modeling and sectoral analysis of energy-import, labor-migration, tourism, trade, and remittance linkages.",
+      "uncertainty": "The regional projections depend on oil prices, supply-chain duration, exchange rates, labor mobility, tourism recovery, and domestic policy responses; they do not identify country-specific realized losses.",
+      "subgroup": "Workers and enterprises in Asia and the Pacific, tourism-dependent economies, migrant workers, remittance-receiving households, agricultural and manufacturing workers, and small businesses.",
+      "counterinterpretation": "Diversified energy sources, domestic demand, alternative migration routes, fiscal support, and remittance resilience could reduce the spillover relative to the scenario.",
+      "source_url": "https://www.ilo.org/sites/default/files/2026-06/Brief_Employment%20and%20Social%20Trends.pdf",
+      "retrieval_hash": "sha256:4576e071c215fda64d57b6da6ee20b47f05ad4f348e44ac4d80acbd995214672",
+      "status": "reported"
+    },
+    {
+      "period": "2026; migrant employment, remittance, and household transmission",
+      "denominator": {
+        "value": 1,
+        "unit": "Gulf-linked migrant labor and remittance transmission frame",
+        "value_type": "reported_migration_remittance_frame"
+      },
+      "measures": {
+        "non_national_employment_sensitivity": {"value": 4, "unit": "percent employment decline among non-nationals associated with each 1 percent decline among nationals in GCC crisis estimates", "value_type": "reported_relative_sensitivity"},
+        "migrant_outflows": {"value": "exceptionally sharp declines in migrant-worker outflows to GCC countries", "unit": "reported migration direction", "value_type": "reported_trend"},
+        "repatriations": {"value": "rising repatriations", "unit": "reported migration direction", "value_type": "reported_trend"},
+        "remittance_pressure": {"value": "early signs of downward pressure or contraction in remittance flows", "unit": "reported household-finance risk", "value_type": "reported_trend"},
+        "household_pathway": {"value": "employment and deployment disruption can reach consumption, poverty, and local employment in origin economies", "unit": "reported transmission mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO synthesis of crisis-linked migration, non-national employment, repatriation, and remittance channels using available labor-market and macroeconomic evidence.",
+      "uncertainty": "Early remittance and deployment signals are not a complete measure of household receipt, spending, poverty, or local employment; the relative-sensitivity estimate is context-specific.",
+      "subgroup": "Migrant workers, non-national workers, labor-sending economies, remittance-receiving households, local firms, refugees, and migrant-worker protection systems.",
+      "counterinterpretation": "Remittances can remain resilient through savings, alternative corridors, exchange-rate changes, family adaptation, or rapid re-employment, while repatriation can reduce risk for some workers.",
+      "source_url": "https://www.ilo.org/publications/growing-labour-market-risks-middle-east-crisis",
+      "retrieval_hash": "sha256:4576e071c215fda64d57b6da6ee20b47f05ad4f348e44ac4d80acbd995214672",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00034674", "claim": "ILO DOI for the May 2026 Employment and Social Trends update."},
+    {"source_url": "https://www.ilo.org/resource/news/middle-east-crisis-weighs-global-labour-markets", "claim": "ILO news summary with global, regional, migrant-worker, remittance, and policy-response implications."}
+  ],
+  "boundary": "This record adds a geopolitical-shock-to-labor-to-household-transmission route linking energy prices, transport, supply chains, tourism, investment, work hours, labor income, unemployment, migration, remittances, and social protection. It is not individual worker or household respondent data, a realized loss estimate, a completed crisis forecast, or proof that the modeled scenario occurred.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO May 2026 update page, PDF brief, and news summary were reviewed; global oil-shock scenario, Arab States and Asia-Pacific exposure, sector shares, migrant-worker adjustment, remittance channels, and policy-response boundaries were cross-checked.",
+    "source_url_sha256": "sha256:4576e071c215fda64d57b6da6ee20b47f05ad4f348e44ac4d80acbd995214672",
+    "checked": "2026-09-26"
+  }
+}

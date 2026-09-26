@@ -1,7 +1,7 @@
 # Practical-exit contract dry-run: platform-remedy ledger v1
 
 **Status:** coverage audit only; no new trend record or exit estimate  
-**Checked:** 2026-09-16  
+**Checked:** 2026-09-20
 **Source:** 27 records in the local platform-remedy case ledger  
 **Contract:** [practical-exit observation contract](../../../manifests/practical-exit-observation-contract-v1.json)  
 **Machine-readable audit:** [dry-run JSON](practical-exit-platform-ledger-dry-run-v1.json)
@@ -15,6 +15,15 @@ reactivation order; all other post-event statuses are `unknown`. An order is
 not receipt, restoration is not durable continued use, and a case outcome is
 not worker switching or exit.
 
+The 2026-09-20 rerun incorporated newer source-ledger detail without changing
+the promotion boundary. It now records the later merits dismissal and no
+remedy order in one case, the appeal stay and conditional $259.38-per-week
+interim-payment obligation in another, and substitute Baysec/Didi earnings in
+another. These are observed intermediate stages; payment receipt, durable
+access, freely chosen alternatives, protected outcomes, and exit remain
+unknown. The audit still contains 27 records: 8 `access_restored` and 19
+`unknown`, with zero `practical_exit` labels.
+
 | Contract layer | Coverage in source ledger | Treatment |
 |---|---|---|
 | Trigger / threatened resource | decision surface and boundary usually present | mapped with evidence labels; threatened resource remains partly inferred |
@@ -24,7 +33,7 @@ not worker switching or exit.
 | Money, time, access constraints | not consistently recorded | unknown |
 | Remedy | adjudicated order, rule, or reported practice is often present | order/offer/observation kept separate from receipt |
 | Follow-up / durability | not established in the ledger | unknown |
-| Post-event status | 9 restoration/access-resumption cases in the broader synthesis, but durable use is not shown | `access_restored` only when explicit; otherwise `unknown` |
+| Post-event status | 8 explicit restoration/access-resumption labels in the machine-readable dry-run, but durable use is not shown | `access_restored` only when explicit; otherwise `unknown` |
 | Protected / sacrificed outcome | not coded at same-unit follow-up | unknown |
 | Meaning / action | not coded | unknown |
 | Counterexample | no paired alternative-constraint comparison | open |

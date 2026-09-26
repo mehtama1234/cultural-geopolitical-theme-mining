@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-universal-social-protection-changing-labour-markets-2026",
+  "title": "Labour-market change is making social-protection coverage, adequacy, and financing a central resilience question",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "ILO, Universal social protection in changing labour markets: Protecting workers in all types of employment",
+  "geography": "Global labour markets and country experiences used by the ILO policy paper",
+  "observations": [
+    {
+      "period": "2026 policy paper; current and emerging labour-market conditions",
+      "denominator": {
+        "value": 1,
+        "unit": "global social-protection system and labour-market policy frame; no single survey denominator",
+        "value_type": "policy_analysis_universe"
+      },
+      "measures": {
+        "coverage_gap": {"value": "Persistent gaps in social-protection coverage leave categories of workers and the population at large less protected against social risks", "unit": "reported global policy diagnosis", "value_type": "reported_diagnosis"},
+        "adequacy_gap": {"value": "Coverage alone is insufficient where benefits do not provide adequate protection through labour-market and life-course transitions", "unit": "reported policy mechanism", "value_type": "reported_mechanism"},
+        "priority_worker_groups": {"value": "Temporary, part-time, self-employed, domestic, agricultural, micro- and small-enterprise, and workers in complex employment arrangements are highlighted as groups often facing protection gaps", "unit": "reported target groups", "value_type": "reported_subgroup_pattern"}
+      },
+      "method": "The ILO policy paper synthesizes international social-security standards, country experiences, labour-market analysis, and policy options for extending universal protection across employment types and life-course risks.",
+      "uncertainty": "This is a policy synthesis rather than a harmonized prevalence estimate. Country experiences are not automatically comparable, and the paper does not identify the size of every coverage or adequacy gap in a common denominator.",
+      "subgroup": "Workers in non-standard, informal, self-employed, domestic, agricultural, micro-enterprise, and platform-like or complex employment arrangements, plus households facing illness, unemployment, parenthood, disability, old age, climate, or other shocks.",
+      "counterinterpretation": "Some contributory systems are deliberately targeted and can be adequate for covered workers; universal systems can also create fiscal and administrative tradeoffs. The paper presents expansion and coordination as policy tasks, not proof that one design fits all economies.",
+      "source_url": "https://www.ilo.org/publications/universal-social-protection-changing-labour-markets-protecting-workers-all",
+      "retrieval_hash": "sha256:20e4ecfa8bc05b5a478dd9cf42f7430a3d5c7ce09320978ec7188920d957eabc",
+      "status": "reported"
+    },
+    {
+      "period": "2026 policy paper; adaptation to climate, demographic, technological, and structural transformation",
+      "denominator": {
+        "value": 1,
+        "unit": "social-protection financing and resilience framework described by the ILO",
+        "value_type": "policy_framework_universe"
+      },
+      "measures": {
+        "financing_route": {"value": "Social-security contributions and progressive taxation are identified as core financing routes, complemented where needed by public subsidies for workers with limited contributory capacity", "unit": "reported financing architecture", "value_type": "reported_policy_option"},
+        "transition_support_route": {"value": "Protection systems can support transitions between jobs, sectors, and forms of employment and across parenthood, unemployment, illness, disability, and old age", "unit": "reported life-course mechanism", "value_type": "reported_mechanism"},
+        "resilience_route": {"value": "Robust systems are described as buffers that help workers and enterprises adapt to climate, technology, demographic, and other shocks while reinforcing social cohesion", "unit": "reported resilience mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The paper connects social insurance, tax financing, subsidies, labour-market policy, and international solidarity into a systems framework for resilience and decent work.",
+      "uncertainty": "The source describes plausible institutional mechanisms and country lessons, not a cross-country causal estimate of benefit receipt on resilience, consumption, employment, or political trust.",
+      "subgroup": "Workers and enterprises moving through employment transitions, governments financing social protection, social partners, and households exposed to economic, climate, health, demographic, or technological shocks.",
+      "counterinterpretation": "Contribution-based financing can strengthen risk sharing and accountability, while subsidies and international support can widen inclusion; each route has administrative, fiscal, and political constraints that determine actual reach.",
+      "source_url": "https://www.ilo.org/resource/news/ilo-calls-stronger-social-protection-changing-world-work",
+      "retrieval_hash": "sha256:20e4ecfa8bc05b5a478dd9cf42f7430a3d5c7ce09320978ec7188920d957eabc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://doi.org/10.54394/WAYZ1993"],
+  "boundary": "This record adds institutional coverage, adequacy, financing, transition, and resilience mechanisms. It is not respondent-level data, does not estimate benefit take-up or household effects, and does not establish causal effects of social protection on work, consumption, health, or political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO publication and news pages retrieved; the paper's coverage, adequacy, target-worker, financing, transition, and resilience mechanisms were cross-checked against the official descriptions. The local hash is for the official publication-page capture, not a claimed local PDF copy.",
+    "page_sha256": "sha256:20e4ecfa8bc05b5a478dd9cf42f7430a3d5c7ce09320978ec7188920d957eabc",
+    "checked": "2026-09-26"
+  }
+}

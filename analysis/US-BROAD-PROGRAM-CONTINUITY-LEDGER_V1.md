@@ -1,6 +1,6 @@
 # US broad program continuity ledger v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-24
 **Status:** active long-term program control record  
 **Scope:** the complete 14-theme Cultural, Social, and Geopolitical Theme
 Mining program
@@ -42,16 +42,16 @@ never the completion condition.
 | Theme scope | 14 themes represented | [Theme inventory](US-BROAD-THEME-INVENTORY_V1.md) |
 | Cross-source map | 56 numbered rotations across the priority bridges, plus later canonical trend additions and broader theme links | [Cross-source synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md), [evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md), [theme atlas](us-theme-atlas.md) |
 | Theme end-to-end audit | 14 theme rows audited from the canonical matrix; all retain a next-required test, and 5 explicitly declare an open status | [Theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md), `audit_broad_theme_end_to_end_coverage.py` |
-| Source coverage | 103 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
+| Source coverage | 132 project packets; source-family coverage is indexed | [Source coverage](us-source-coverage.md), [source registry](../manifests/source-registry.json) |
 | Source-registry coverage | 114 registered source entries; all 114 have analysis-domain references, 106 cite the registered landing URL exactly, and the reverse audit tracks observed domains outside registered families | [Source-registry coverage audit](US-SOURCE-REGISTRY-COVERAGE-AUDIT_V1.md), `audit_source_registry_coverage.py` |
-| Trend registry | 344 machine-readable records; 1214 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
-| Broad event-ledger portfolio | 42 schema-valid ledgers; 222 events; 175 typed arrows, including 63 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
+| Trend registry | 1012 machine-readable records; 2353 observations | [Trend-observation registry](us-trend-observations.md), `validate_trend_observation_records.py` |
+| Broad event-ledger portfolio | 98 schema-valid ledgers; 302 events; 454 typed arrows, including 164 explicitly open arrows | [Ledger index](data/us-broad-event-ledger-index-v1.json), [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json), `validate_broad_event_ledger_portfolio_summary.py` |
 | Findings | Domain findings plus a program-level long-form finding are generated as Markdown and HTML and parity-checked where the matched-evidence contract applies | [Matched-evidence index](us-matched-evidence-index.md), [program-level finding](findings/us-broad-program-unequal-optionality-path-001.md), `validate_us_finding_parity.py` |
 | Evidence discipline | Units, dates, geography, denominators, methods, limits, counterexamples, and open arrows are required | [Trend protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) |
 | Link integrity | Relative Markdown references are checked across the workspace | `validate_local_markdown_links.py` |
 | Source-record integrity | Project source-search records must carry date, geography, status, question, and linked source metadata | `validate_source_search_records.py` |
 | Trend-record integrity | Recurring trend observations must preserve period, denominator, method, uncertainty, subgroup, counterinterpretation, source URL, and retrieval hash | `validate_trend_observation_records.py` |
-| Trend metadata depth | Required fields are complete across all 344 records/1214 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
+| Trend metadata depth | Required fields are complete across all 937 records/2094 observations; optional related-source and reproduction-audit context is reported separately | [Trend metadata coverage audit](US-TREND-METADATA-COVERAGE-AUDIT_V1.md), `audit_trend_metadata_coverage.py` |
 | Trend publication | Validated trend records have generated Markdown and HTML registry editions | [Trend-observation registry](../site/us-trend-observations.html), `build_us_trend_observation_registry.py` |
 | Cross-source synthesis | The current evidence is periodically read across the full material-to-state chain without merging incompatible units | [Cross-source trend synthesis](US-CROSS-SOURCE-TREND-SYNTHESIS_V1.md) |
 | Recurrent-source freshness | Official recurring releases, next checks, revision rules, and access-gated dependencies are tracked separately from findings | [Vintage watchlist](US-RECURRENT-SOURCE-VINTAGE-WATCHLIST_V1.md) |
@@ -60,6 +60,23 @@ never the completion condition.
 | Control synchronization | Registry, theme coverage, source-packet count, HTML edition, and this ledger are checked against current source files | `validate_program_control_sync.py` |
 | Active depth lane | Second-cycle same-person and event-compatible depth: timing, persistence, payment, coverage, institutional route, remedy, and household-room boundaries | [Next-pass queue](US-BROAD-NEXT-PASS-QUEUE_V1.md) |
 | Hard acquisition dependency | PSID main waves and/or an equivalent same-unit event design | [PSID extract specification](projects/us-household-calendar-integration/psid-material-time-care-extract-spec-v1.md), [wave-file audit protocol](projects/us-household-calendar-integration/psid-wave-file-audit-protocol-v1.md) |
+
+The current 993-record registry comprises 991
+`us-trend-observation-record-v1` records and two explicitly accepted
+compatibility-format records. The record validator reports this format
+breakdown and rejects any unregistered format.
+
+## Current temporary-input boundary
+
+The crash-safe recheck on 2026-09-19 found no temporary MEPS staging directory
+under `/tmp/cgtm-meps-2024/`, no 2025 SIPP archive under
+`/tmp/us-broad-sipp-2025/`, and no temporary UAS codebook at the previously
+recorded path. Their historical hashes, bounded derived outputs, and research
+writeups remain in the repository, but these inputs are not currently available
+for reruns. No current estimate should be described as freshly reproducible
+from those temporary files until an authorized restoration or reacquisition is
+completed. The next authorized pass begins with file inventory, hashes, keys,
+weights, timing, and missingness checks.
 
 ## Broad-goal resumption checkpoint
 
@@ -425,6 +442,16 @@ adds a bounded case-level receipt-to-company-routing diagnostic, with
 product-conditioned visibility and response labels. It does not estimate
 population route rates or verified remedy; same-case effort, outcome, trust,
 switching, and exit remain open.
+
+The Bilt/CFPB update adds a distinct collaborative-implementation stage to
+the consumer remedy lane: proactive outreach, a fee-reimbursement process,
+review of more than 500 newly identified customers, and continued Bureau
+monitoring are visible, while person-level payment, account correction,
+adequacy, later security, trust, switching, and exit remain open. The CFPB
+Ombudsman examples of address changes, reissued checks, and third-party
+administrator problems preserve the reachability counterpoint. This advances
+remedy-stage coverage without claiming completed recovery; the next decisive
+test remains a same-customer follow-up with verified receipt and later outcome.
 
 The household fraud lane now includes a codebook-backed SHED subgroup layer
 conditioning exposure, unrecovered money, and recovery time on age, income, and
@@ -973,6 +1000,13 @@ alignment. It strengthens the work, firm, infrastructure, and geopolitical
 lanes while preserving the open links to qualified output, worker retention,
 local burden, customer supply, supplier switching, and reduced foreign
 dependence.
+The corresponding [CHIPS project ledger](projects/ai-work-control/data/gao-chips-rd-capacity-governance-event-ledger-v1.json)
+now makes those stages machine-readable and adds explicit open arrows for
+qualified output, customer delivery, local incidence, and external response.
+The [Alam Shah worker finding](projects/ai-work-control/findings/ai-work-control-112.md)
+adds a named worker episode where language, mobility, injury, cross-border
+family support, and remedy preference are visible alongside reinstatement and
+lost-pay orders; post-order compliance and later livelihood remain open.
 
 The fifty-fifth rotation adds the [DOE transmission-needs and large-load
 layer](projects/ai-work-control/doe-2026-transmission-needs-data-center-manufacturing-load-layer-v1.md).
@@ -1158,6 +1192,10 @@ Pew's Latino survey places perceived family progress beside American-Dream
 attainability, nativity, future children, and open-ended definitions of a good
 life. This adds meaning and reference-group structure without treating survey
 judgment as observed mobility, belonging, trust, or political action.
+The related [migration mobility/identity finding](projects/us-immigration-local-demand/findings/us-immigration-local-demand-004.md)
+adds identity centrality and perceived advantage/barrier as separate cultural
+currencies; it preserves the open link to a dated institutional encounter,
+action, remedy, and later mobility.
 
 The next work/identity rotation adds the [working-class identity finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-037.md).
 Pew's 2026 identity measure crosses income, education, party, financial stress,
@@ -1219,8 +1257,11 @@ rechecks a named federal settlement and finds enforceable penalty, notice,
 training, policy, inquiry, and cure provisions but no public confirmation of
 implementation, applicant restoration, or later worker behavior. The [NYC AEDT
 follow-up audit](projects/ai-work-control/nyc-aedt-enforcement-follow-up-acquisition-audit-2026-09-17.md)
-finds a bias-audit, notice, complaint, and referral route but no public named
-worker outcome. Together they strengthen the institutional contestability
+finds a bias-audit, notice, complaint, and referral route plus an indexed 2025
+AEDT complaint record in which DCWP requested more dates, employer/job
+details, and supporting documents by a deadline, but no public named worker
+outcome. Together they strengthen the institutional contestability and
+documentation-burden stages
 stage of the AI/work lane while leaving tool exposure, notice receipt,
 appeal/override, correction, compensation, durable compliance, trust,
 bargaining, and exit open.
@@ -2193,10 +2234,10 @@ health, financial, employment, and wellbeing content. It remains
 registration-gated, so the Older Ages event-first file is still the smallest
 authorized acquisition target and no UAS estimate is promoted.
 
-The program therefore resumes from a clean control state: 14 themes, 344
-machine-readable records, 1,214 observations, 103 source packets, and a
-published site whose link-validated count is refreshed by the build. The next
-research action is still the authorized same-case route test through event,
+This is a historical resumption note. The current control state is 14 themes,
+890 machine-readable records, 2,001 observations, and 164 source packets; the
+published reader's link-validated count is refreshed by the build. The next
+research action remains an authorized same-case route test through event,
 alternative, effort/payment, response, remedy/recovery, trust/meaning, action,
 and exit; broad rotation continues while those credentials or files are not
 available.
@@ -2226,6 +2267,19 @@ reducing the affected loans, and ADSS records two completed distributions with
 the matter closed. Recipient receipt, correction, remaining loss, trust, and
 exit remain open.
 
+The CFPB FY2024 Financial Report adds a stronger aggregate receipt stage for
+three completed Bureau-administered distributions: 69%, 86%, and 88% of
+distributed funds were reported cashed. The [consumer cashing-stage finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-030.md)
+keeps this aggregate measure separate from individual recovery, account
+correction, trust, switching, and exit.
+
+The FY2025 follow-up adds persistence: the CFPB reports $20,809 in direct
+Premier reissue payments and $129,729/$174,178 in later redistributions for
+U.S. Equity Advantage and SMART Payment Plan. This records continued
+administrative work after initial distribution, while recipient-level receipt,
+account correction, adequacy, and later behavior remain open. See the
+[redress persistence finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-031.md).
+
 The [BDS county turnover profile](projects/us-local-business-place/bds-county-turnover-profile-v1.md)
 adds a nationwide realized-employer geography layer: in 2023, 907 of 3,107
 county rows with comparable entry/exit rates were exit-dominant, and 885 had
@@ -2252,13 +2306,235 @@ flows, modeled outcomes, provider access, and resident episodes as separate
 objects and preserves the missing links to use, time/money cost, recovery,
 trust, and action.
 
+## 2026-09-19 synchronized continuation checkpoint
+
+The continuation promoted the latest financial-access, care-capacity,
+consumer-redress, worker-remedy, infrastructure, and defense-schedule
+boundaries into the central evidence matrix and queue. Across these lanes,
+formal access or institutional response still runs ahead of verified lived
+recovery: account access is not usable financial power, staffing incentives
+are not dependable care, payment or reinstatement is not durable security,
+and a project schedule or approval is not realized leverage. The next valid
+advance remains a stable-unit event or authorized longitudinal file that
+observes alternatives/non-use, effort/time trade-off, verified outcome, and
+later persistence, trust, action, or exit.
+
+The theme-coverage audit hash was regenerated after matrix updates, and the
+publication gate remains green at 98 ledgers, 302 events, 454 typed arrows,
+and 164 explicitly open arrows.
+
+## 2026-09-19 continuation checkpoint — partial compensation enforcement
+
+The official Fair Work Commission enforcement page added one bounded
+employment-remedy event: an $18,000 compensation order was followed by
+reported payments totaling $7,000, a residual $5,008 balance after tax, and
+court enforcement ordering the balance plus interest and imposing a $5,000
+fine. This advances the formal-implementation stage because payment is
+reported as partial rather than inferred from an order. It still does not
+show final receipt, restored employment, household recovery, trust,
+recurrence, or exit. The new ledger is
+[FWC Indian Food Catering partial compensation enforcement](projects/ai-work-control/data/fwc-indian-food-catering-partial-compensation-enforcement-event-ledger-v1.json).
+
+The next employment-remedy pass found a stronger durability bridge in the
+official Aitken decision: a worker returned after union intervention, received
+reported back pay and prior-service recognition, worked for a period, and was
+later dismissed after a safety-policy conflict. The later dismissal is an
+observed employment rupture, not proof that the earlier return failed or that
+the worker lacked responsibility; post-dismissal work, household recovery,
+trust, and exit remain open. See the [Aitken return and later-dismissal
+ledger](projects/ai-work-control/data/fwc-aitken-return-backpay-later-dismissal-event-ledger-v1.json).
+
+The following Cartisano case strengthens the access-versus-money distinction:
+back pay and continuity were reported implemented, but the worker was not
+actually permitted to return while a risk assessment proceeded. The Full Bench
+held that a reinstatement order must produce a real and practical return to
+work. Later livelihood, health, household recovery, trust, and exit remain
+open. See the [Cartisano practical-reinstatement
+ledger](projects/ai-work-control/data/fwc-cartisano-backpay-no-return-risk-assessment-event-ledger-v1.json).
+
+The 2026-09-19 continuation promoted the latest AI and infrastructure findings
+into the broad reader and theme control matrix. The firm/worker AI layers now
+state the access-before-displacement boundary directly: adoption and perceived
+benefit are visible, but permission, training, realized productivity, pay,
+monitoring, bargaining, and household security are not joined in one episode.
+The Virginia transmission cases add a separate realization boundary: public
+voice and land-control decisions can change an approved route, and a related
+project can reach reported energization, without proving resident compensation,
+reliability improvement, household bill effects, or durable acceptance. The
+full publication gate passed after this promotion; the current canonical
+portfolio is 98 ledgers, 302 events, and 454 arrows across 14 themes, with 24
+checks valid.
+
+The same continuation also promoted three cultural and institutional findings
+into the big-picture readout: redress remains reachable after initial
+distribution through cashing, reissue, and redistribution stages; shared moral
+or economic pessimism does not imply shared attribution or remedy demand; and
+willingness to help neighbors exceeds expected reciprocal help. These add
+persistence, legitimacy, and informal-support stages without claiming
+individual recovery, actual aid, or political causality.
+
+The consumer lane then added an income-stratified April-to-June HTOPS pass.
+Across all three household-income bands, April expense difficulty was followed
+by more June searching for jobs, food, benefits, credit, housing, and medical
+help. The route differed by resource position: lower-income respondents showed
+especially large job- and benefit-search gaps, while higher-income respondents
+had much higher AI use overall but almost no difficulty-related AI-use gap. The
+derived record preserves income as a household band, not liquid cash, and keeps
+search separate from completion, remedy, recovery, trust, and exit.
+The same derived record now counts search domains: expense-difficulty
+respondents searched at least two domains at 40.3%, 45.7%, and 39.4% across
+the low-, middle-, and high-income bands, versus 21.8%, 27.1%, and 26.5% among
+their not-difficult counterparts. This supports a multi-front navigation-load
+interpretation while preserving the noncausal, non-recovery boundary.
+The same record now overlaps search load with June AI use: among difficult-
+expense respondents, AI users searched at least two domains more often than
+non-AI users in all three income bands. This supports an added-navigation-layer
+interpretation, not AI substitution or a causal digital-access claim.
+
+The worker-remedy lane also promoted the Alam Shah case as a cultural-access
+counterexample. Injury, language and interpreter needs, walkability, family
+obligations, and fear of repeat dismissal sit alongside formal reinstatement,
+continuity, translated communication, and lost-pay orders. The later-outcome
+search found no public proof of actual return, payment, durable safety, or later
+security, so the case strengthens the usable-remedy concept without claiming
+lived recovery.
+
+The evidence matrix now also carries three previously unlinked cross-domain
+bridges: firm AI adoption to unequal worker control; AI capability to
+replaceability and geopolitical leverage; and insurance failure to restitution
+versus lived coverage/care recovery. These additions preserve separate firm,
+worker, consumer, country, and settlement units while making the missing
+middle stages explicit.
+
+The remedy synthesis now promotes the DOJ IER FY2026 worker cases and the
+public follow-up recheck: reported back/front pay, a reinstatement offer, and
+an employer verification-procedure change are visible, while accepted return,
+payment adequacy, continued tenure, household security, trust, and exit are
+not. The follow-up gap is preserved as non-observation, not remedy failure.
+
+The latest evidence-matrix promotion also adds two deep-culture boundaries:
+material insecurity can lower contact and action without uniformly lowering
+institutional approval, while subjective financial worry can precede lower
+trust and different reported vote patterns; and disability care can fail at
+the physical, communication, digital, or provider interface even when formal
+coverage and capacity exist. These are bounded timing/interface findings, not
+causal voting or national accessibility estimates.
+
+The infrastructure lane is now traceable at project level: Virginia records
+public speakers, risk-allocation rules, a land-consent decision that changed an
+approved route, and a separate project reaching reported energization. These
+stages strengthen the public-voice and realization arrows without claiming
+resident compensation, household bill effects, reliability improvement, or
+durable acceptance.
+
+The migration/meaning lane now also promotes a mobility-and-belonging finding:
+people can report better living standards than their parents and hope for their
+children while still seeing the American dream as hard or unavailable; identity
+can be central while experienced as help, barrier, or no difference. This adds
+relational progress, future hope, identity valence, and opportunity meaning to
+the map without inferring assimilation, wealth mobility, or later action.
+
+The remedy lane then quantified a receipt-stage ladder from CFPB follow-up:
+three completed distributions reported 69%, 86%, and 88% of distributed funds
+cashed, while later reports documented reissue or redistribution of unresolved
+funds. The [remedy synthesis](US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md)
+now records this as persistence and reachability evidence, not a household
+recovery rate; individual receipt, account correction, adequacy, residual loss,
+trust, switching, and recovery remain open.
+
+## 2026-09-19 continuation checkpoint
+
+The central [theme end-to-end coverage audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.md)
+now makes the recovery ladder explicit across all 14 themes: formal response
+is coded separately from received, usable, adequate, durable, and trusted lived
+status. The retained same-case stage audit provides the measured bottleneck:
+29 of 33 local surfaces show a dated event and 29 show an institutional or firm
+response, but only 8 show an observed alternative/non-use stage, 3 show an
+observed individual remedy or defined outcome follow-up, 1 shows an observed
+meaning/trust/action stage, and none fully observes recovery/persistence/exit.
+
+At this 2026-09-19 checkpoint, the full [remedy-stage portfolio audit](data/us-broad-remedy-stage-coverage-audit-2026-09-18.json)
+sat inside the then-current 89-ledger, 284-event portfolio: 75 events had an
+explicit remedy stage, 31 were marked only as institution-reported received,
+and none had verified recipient receipt, verified durability, or a defined
+outcome follow-up. This was a documentation-coverage result, not a remedy
+failure rate. The current portfolio is tracked separately below and by the
+machine-validated publication gate.
+
+The companion [open-middle blocker audit](US-BROAD-OPEN-MIDDLE-BLOCKER-AUDIT_V1.md)
+shows where the portfolio is thinnest: usable alternative/non-use/switching/
+exit fields appear in 101 open-arrow mentions, later outcome or durability in
+100, and trust/meaning/action in 91. Receipt/implementation appears in 66,
+while money/time/adequacy and unit/attribution each appear in 59. The counts
+overlap; they are planning diagnostics, not prevalence rates. This makes the
+next depth decision concrete: seek one lawful same-unit episode with a real
+alternative and later durability before adding another aggregate response
+count.
+
+The [remedy implementation and recovery synthesis](US-REMEDY-IMPLEMENTATION-RECOVERY-SYNTHESIS_V1.md)
+adds two worker-voice boundaries. The DOJ IER DACA case reports restored wage,
+back pay, seniority, and complaint withdrawal; the OSHA Texas asbestos case
+reports protected safety voice, retaliation, reinstatement, and damages. A
+public follow-up recheck found no later payment, safe-return, durable-work,
+trust, or exit record for either case. These are strong middle-chain cases,
+not verified lived-recovery endpoints.
+
+The political-meaning rotation now preserves a non-monotonic action result:
+the CCES job-loss panel shows lower local action after reported job loss,
+near-similar congressional contact, and slightly higher favorable Congress
+approval. Material hardship therefore does not imply one direction of trust,
+withdrawal, or organizing. The consumer-culture rotation adds the parallel
+constrained-agency result: expense difficulty is associated with much more
+search for jobs, food, benefits, and credit, while broad AI use is not
+monotonic; search is option-building effort, not a completed alternative.
+The migration/public-help layer keeps protective non-use separate from apathy:
+perceived status or surveillance risk can reduce use of work, care, benefits,
+police, school, or community routes while changing safety, dignity, and
+belonging.
+
+The new [HTOPS same-respondent cross-lag finding](projects/us-consumer-culture/findings/us-consumer-culture-004.md)
+uses 6,564 linked respondents to carry April expense difficulty to June
+search, AI-use, and Congress-confidence outcomes. Difficulty is followed by
+substantially more job, food, benefit, credit, housing, and medical searching,
+while AI use and high Congress confidence are close or lower. This strengthens
+the navigation-effort arrow but leaves result quality, completion, remedy,
+recovery, and exit open.
+
+The retained March 2026 HTOPS archive was tested as a possible later outcome
+wave for the June 2025 panel. It has 12,521 `SCRAMID` values versus 7,485 in
+June, with zero exact-key overlap. The [linkage recheck](projects/us-consumer-culture/htops-2025-to-2026-linkage-recheck-2026-09-19.md)
+therefore preserves March as a separate cross-section rather than inventing a
+same-person nine-month search or recovery result.
+
+The capacity/dependence rotation rechecked the official Polish JASSM-ER route:
+the public page still states a 2026–2030 delivery window, with no public
+confirmation in the retained route of specific-order shipment, acceptance,
+training, operational availability, replaceability, or changed external
+behavior. Procurement remains commitment/planned capability, not verified
+geopolitical leverage.
+
+The next decisive action remains the authorized UAS Older Ages or PSID
+structural pass if account-controlled files are supplied. Workspace recheck
+still finds no authorized respondent file. Until then, continue bounded public
+episode comparisons and preserve the end-to-end promotion gate; do not turn
+search, non-use, administrative response, procurement, or later status into
+recovery or leverage by inference.
+
 The latest continuation adds a JASSM-ER realization boundary: a [June 2026
 Polish F-16 exercise report](https://www.gov.pl/web/suomi/puolan-ilmavoimat-ramstein-flag-2026-harjoituksessa2) documents aircraft readiness and allied
 interoperability but does not document JASSM-ER carriage, inventory, weapons
 integration, acceptance, or delivery. Aircraft activity therefore remains a
 counterexample to treating platform readiness as missile-order realization.
-The current committed broad-ledger portfolio is 42 ledgers, 222 events, and
-145 typed arrows, including 52 explicitly open arrows; these counts are
+The disaster-response rotation also promoted the [Los Angeles wildfire FEMA
+stage ledger](projects/us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json)
+into the broad evidence map. It adds a current administrative sequence from
+registration through referral, eligibility, and reported assistance amount,
+while preserving the critical aggregate boundary: no survivor-level payment,
+adequacy, repair/placement, stable housing, trust, or action endpoint is
+observed. Administrative reach is therefore a measurable middle stage, not a
+recovery rate.
+The current canonical broad-ledger portfolio is 98 ledgers, 302 events, and
+454 typed arrows, including 164 explicitly open arrows; these counts are
 validated by the publication gate and supersede older handoff snapshots.
 
 The [canonical BDS county-sector divergence record](records/us-bds-county-sector-divergence-2026.json)
@@ -2295,3 +2571,36 @@ selected modeled social-need and routine-care measures. This keeps employer
 flows, modeled outcomes, provider access, and resident episodes as separate
 objects and preserves the missing links to use, time/money cost, recovery,
 trust, and action.
+The latest bounded cash-policy pass adds the [Child Tax Credit sentiment
+finding](projects/us-policy-sentiment-cash-benefit/findings/us-policy-sentiment-cash-benefit-002.md):
+benefit loss was associated with lower consumer sentiment, especially among
+lower-income families with multiple children. It strengthens the material-
+pressure-to-meaning stage, but leaves trust, spending, voting, and durable
+political action open.
+
+The latest place-and-mobility pass adds the [transportation cost-and-time
+finding](projects/us-transportation-household-access/findings/us-transportation-household-access-001.md):
+movement can create access to work and services while consuming a large share
+of money and work time. The national BLS and Census surfaces are not joined to
+the same households, so mode choice, reliability, welfare, and place
+attachment remain open.
+The latest housing-protection pass adds the [rent-guarantee finding](projects/us-rent-guarantee-insurance/findings/us-rent-guarantee-insurance-001.md):
+a private guarantee can open a lease and protect the landlord while leaving
+repayment risk with the renter. The model and provider terms are not a tenant
+outcome study; approval, claims, reimbursement, eviction, recovery, and later
+housing stability remain open.
+The latest policy-uncertainty pass adds the [student-loan belief-and-action finding](projects/us-student-loan-policy-uncertainty/findings/us-student-loan-policy-uncertainty-001.md): expectations of forgiveness or payment pauses changed loan payments and nondurable spending before relief existed, while delinquency after payments resumed remained a separate risk.
+The latest work-and-politics pass adds the [employment-and-voting finding](projects/us-employment-mothers-voting/findings/us-employment-mothers-voting-001.md): policy-induced employment among lower-income mothers was associated with lower turnout and civic engagement and more conservative policy preferences. The measured political endpoint does not identify the same mother's time, care, workplace, or household-security mechanism.
+The latest firm-politics pass adds the [corporate-PAC reputational-risk finding](projects/us-corporate-pac-reputational-risk/findings/us-corporate-pac-reputational-risk-001.md): firms temporarily reduced visible political giving when issue salience made ties risky, then returned toward baseline. PAC visibility is not the same as lobbying, policy influence, or durable legitimacy.
+The latest climate-geopolitics pass adds the [carbon-tariff finding](projects/us-carbon-tariff-climate-geopolitics/findings/us-carbon-tariff-climate-geopolitics-001.md): a tariff-only model can lower foreign emissions while raising US emissions, while a combined domestic-and-border policy performs better in the model. Actual incidence, partner response, and implementation remain open.
+The latest geoeconomic-coercion pass adds the [target-selection finding](projects/us-geoeconomic-coercion-targets/findings/us-geoeconomic-coercion-targets-001.md): trade and financial dependence can make private firms immediate targets of state power; target selection, firm response, public cost, alliance behavior, and strategic outcome remain separate.
+The follow-on retaliation pass adds the [external-response finding](projects/us-geoeconomic-coercion-targets/findings/us-geoeconomic-coercion-targets-002.md): foreign governments can answer tariff pressure with countermeasures and bargaining, while pauses or reductions remain distinct from compliance and strategic success.
+The latest digital-exit pass adds the [social-coordination finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-016.md): short-run wellbeing can improve after deactivation while social dependence makes individual exit costly; actual deletion, replacement, and coordinated non-use remain open.
+The follow-on FTC digital-risk pass adds the [social-scam finding](projects/us-digital-habits-attention/findings/us-digital-habits-attention-017.md): reported social-media scam losses reached $2.1 billion in 2025; true incidence, recovery, platform responsibility, and durable trust remain open.
+The latest care/work pass adds the [leave-usability finding](projects/us-aging-care-strain/findings/us-aging-care-strain-019.md): formal leave access can coexist with unmet need because workload, job risk, and lost income block usable time; later care, health, job, and household outcomes remain open.
+The latest housing/place pass adds the [housing-stock usability finding](projects/us-housing-insurance-risk/findings/us-housing-insurance-risk-013.md): nominal affordability can shrink sharply after availability and physical adequacy are added; household search, safety, lease-up, and durable staying remain open.
+The latest public-safety pass adds the [victimization/reporting finding](projects/us-safety-net-access/findings/us-safety-net-access-025.md): lived victimization can exceed police-visible victimization; reporting, response, remedy, safety, trust, and later action remain open. The [NCVS/NIBRS comparison](projects/us-public-safety-measurement/findings/us-public-safety-measurement-001.md) adds that the survey and police-record rates have different coverage and denominators, so they cannot be treated as one neutral crime count. The [FEC campaign-finance finding](projects/us-political-participation/findings/us-political-participation-001.md) adds that political money is a resource channel, not a proxy for participation or influence. The [EAVS finding](projects/us-election-administration/findings/us-election-administration-001.md) adds the administrative conversion route from attempted ballot to counted ballot.
+The latest cultural-time pass adds the [ATUS everyday-life finding](projects/us-aging-care-strain/findings/us-aging-care-strain-020.md): socializing, religious activity, and volunteering have different reach and timing; belonging, organizational continuity, and political action remain open.
+The latest cultural-infrastructure pass adds the [arts/social-connectedness finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-066.md): arts participation is socially patterned and associated with reported connection; causal and durable effects remain open.
+The latest school-safety pass adds the [student fear/avoidance finding](projects/us-school-safety/findings/us-school-safety-001.md): aggregate safety improvement can coexist with student fear and avoidance; participation, learning, support, and trust remain open.
+The latest broadband-access pass adds the [availability/adoption finding](projects/us-digital-access/findings/us-digital-access-001.md): service availability is not subscription or usable access; price, quality, installation, and meaningful use remain open.

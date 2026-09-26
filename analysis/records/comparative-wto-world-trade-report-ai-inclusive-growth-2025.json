@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wto-world-trade-report-ai-inclusive-growth-2025",
+  "title": "AI is positioned to expand trade and productivity, but digital capability gaps and fragmented rules may concentrate the gains",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "political_judgment_action",
+    "housing_place_mobility"
+  ],
+  "source_unit": "WTO, World Trade Report 2025: Making trade and AI work together to the benefit of all",
+  "geography": "Global trade and AI scenarios across economies, sectors, firms, workers, and digital-trade policy environments",
+  "observations": [
+    {
+      "period": "2025-2040; modeled AI and trade expansion scenarios",
+      "denominator": {
+        "value": 1,
+        "unit": "WTO global trade-and-AI model scenario frame",
+        "value_type": "global_model_scenario_frame"
+      },
+      "measures": {
+        "global_trade_increase": {"value": "34-37", "unit": "percent projected increase in global trade by 2040 across AI uptake and catch-up scenarios", "value_type": "modeled_projection_range"},
+        "global_gdp_increase": {"value": "12-13", "unit": "percent projected global GDP increase across modeled AI scenarios", "value_type": "modeled_projection_range"},
+        "digitally_deliverable_services_trade": {"value": 42, "unit": "percent projected increase in digitally deliverable services trade across the report's scenarios", "value_type": "modeled_projection"}
+      },
+      "method": "WTO Global Trade Model scenarios incorporating AI services, reductions in trade costs, task shifts from labour to AI, productivity gains, and differing degrees of policy and technological catch-up.",
+      "uncertainty": "These are model scenarios, not forecasts; results depend on AI productivity, adoption, trade costs, labour substitution/complementarity, digital infrastructure, skills, policy, and regulatory conditions.",
+      "subgroup": "Economies, sectors, workers, firms, digitally deliverable services, and economies at different levels of digital infrastructure and AI capability.",
+      "counterinterpretation": "Trade and GDP gains can coexist with job displacement, skill premia, regional concentration, unequal bargaining power, and environmental or social costs; aggregate growth is not inclusive by definition.",
+      "source_url": "https://www.wto.org/english/res_e/publications_e/wtr25_e.htm",
+      "retrieval_hash": "sha256:22b7d9deb59b7f33e94b787805a286f653731753157fc6a9474840935270ea18",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2040; digital catch-up, infrastructure, skills, and distribution",
+      "denominator": {
+        "value": 1,
+        "unit": "WTO scenario comparison for low-, middle-, and high-income economies",
+        "value_type": "cross_economy_model_comparison_frame"
+      },
+      "measures": {
+        "low_income_income_gain": {"value": 15, "unit": "percent projected income increase for low-income economies in a scenario narrowing the digital-infrastructure gap by half and increasing AI adoption", "value_type": "modeled_projection"},
+        "middle_income_income_gain": {"value": 14, "unit": "percent projected income increase for middle-income economies under the comparable catch-up scenario", "value_type": "modeled_projection"},
+        "inclusion_conditions": {"value": "digital infrastructure, skills, capabilities, education, training, labour-market policy, and open trade", "unit": "policy conditions identified as shaping inclusive AI-enabled trade", "value_type": "reported_policy_condition_set"}
+      },
+      "method": "WTO comparison of AI uptake scenarios with different degrees of digital infrastructure catch-up, capability diffusion, and policy support across income groups.",
+      "uncertainty": "Scenario gains are conditional and do not measure realized income, job quality, firm survival, or household access; closing an infrastructure gap does not guarantee equitable ownership or bargaining power.",
+      "subgroup": "Low- and middle-income economies, small firms, workers requiring reskilling, digital-service providers, education and training systems, and communities outside high-capability clusters.",
+      "counterinterpretation": "Catch-up can expand participation but may also increase dependence on foreign platforms, infrastructure, data, capital, or standards; digital access is not the same as local control.",
+      "source_url": "https://www.wto.org/english/res_e/booksp_e/wtr25_e.pdf",
+      "retrieval_hash": "sha256:22b7d9deb59b7f33e94b787805a286f653731753157fc6a9474840935270ea18",
+      "status": "estimated"
+    },
+    {
+      "period": "2012-2025; AI-enabling goods, trade restrictions, and regulatory fragmentation",
+      "denominator": {
+        "value": 1,
+        "unit": "global AI-related goods and digital-trade policy frame",
+        "value_type": "global_trade_policy_frame"
+      },
+      "measures": {
+        "ai_goods_trade_2023": {"value": 2300000000000, "unit": "US dollars in global trade of AI-enabling goods in 2023, approximately", "value_type": "reported_global_trade_value"},
+        "quantitative_restrictions_2012": {"value": 130, "unit": "quantitative restrictions applied to AI-related goods in 2012", "value_type": "reported_policy_count"},
+        "quantitative_restrictions_2024": {"value": 500, "unit": "nearly number of quantitative restrictions applied to AI-related goods in 2024", "value_type": "reported_policy_count"},
+        "low_income_bound_tariff": {"value": 45, "unit": "percent; upper bound of tariffs on some AI-enabling goods in some low-income economies", "value_type": "reported_policy_range"}
+      },
+      "method": "WTO analysis of AI-enabling goods trade, tariff and quantitative-restriction data, digital-trade regulation, and risks of policy fragmentation.",
+      "uncertainty": "Restriction counts do not measure restrictiveness, enforcement, welfare effects, or whether policies are justified by security, safety, or industrial goals; tariff incidence varies by product, firm, and supply chain.",
+      "subgroup": "AI hardware and intermediate-input producers, small and large firms, importing economies, consumers, workers, regulators, and economies dependent on foreign digital infrastructure or technology.",
+      "counterinterpretation": "Some restrictions can address security, safety, competition, or resilience concerns; open trade alone does not guarantee trustworthy AI, labour protection, or inclusive distribution.",
+      "source_url": "https://www.wto.org/english/news_e/news25_e/wtr_15sep25_e.htm",
+      "retrieval_hash": "sha256:22b7d9deb59b7f33e94b787805a286f653731753157fc6a9474840935270ea18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wto.org/english/tratop_e/ecom_e/ecom_ai_for_trade_e.htm", "claim": "WTO AI for Trade programme and applied case-study context."},
+    {"source_url": "https://www.wto.org/english/news_e/news25_e/stat_07oct25_e.htm", "claim": "WTO trade outlook context for AI-related goods and 2026 trade risks."}
+  ],
+  "boundary": "This record adds an AI-to-trade, capability-diffusion, labour, small-firm, regulatory-fragmentation, and geopolitical-dependence route. It is not firm respondent microdata, an individual employment forecast, a causal estimate of AI adoption, or proof that modeled aggregate gains will be broadly shared.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WTO report page, full report PDF, AI for Trade page, launch news item, and trade-outlook context were retrieved; model ranges, digital catch-up conditions, AI-enabling goods trade, restrictions, and tariff claims were cross-checked.",
+    "source_url_sha256": "sha256:22b7d9deb59b7f33e94b787805a286f653731753157fc6a9474840935270ea18",
+    "checked": "2026-09-26"
+  }
+}

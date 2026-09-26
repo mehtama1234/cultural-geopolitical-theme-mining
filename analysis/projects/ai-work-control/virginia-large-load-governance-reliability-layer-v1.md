@@ -14,6 +14,8 @@ household bills or recovered all public costs.
 | November 2025 order; 2026–2027 implementation | SCC reported typical residential-customer bill increases of $11.24/month in 2026 and $2.36/month in 2027 at 1,000 kWh | Adds a systemwide consumer-price outcome to the regulatory context | The release does not attribute these increases solely to data centers; it is not a data-center household-incidence estimate |
 | 2026 Rider T1 proceeding | SCC says the amended allocation method reduces a projected typical-residential Rider T1 increase from $2.90 to $0.94/month (67.5%) | Provides a modeled cost-allocation comparison rather than only a tariff description | It is a projection/counterfactual, not observed bills or proof that all large-load costs are recovered |
 | 2025 filing | Dominion identified 139 initial GS-5 accounts, including 131 data-center accounts and 8 non-data-center accounts | Measures the initial scope of the proposed large-load class | Filing snapshot, not a current roster, consumption measure, or facility-level location |
+| February 2026 SCC public summary; revised March 2026 | SCC describes a 14-year service obligation, at least 85% minimum transmission/distribution charges, possible collateral up to 60% of minimum charges for qualifying new customers, and review of Dominion's interconnection process | Converts large-load growth into explicit demand, credit, and interconnection risk-allocation rules | Policy summary is not a signed contract, collateral posting, payment, energized load, enforcement, or household bill |
+| September–December 2025 Golden-Mars hearings/comments; April–June 2026 decisions | More than 600 registered speakers and hundreds of written comments raised undergrounding, property-value, landscape, appearance, and health concerns; the SCC first conditionally selected Route 4, then approved Route 3A on June 29 after the School Board did not consent to Route 4 crossing its land | Adds a public-participation, land-control constraint, and route-substitution stage to infrastructure governance | Institutional summary is not representative opinion, proof of data-center attribution, construction, resident acceptance, compensation, or a measured health/property outcome |
 
 The evidence supports a staged chain:
 
@@ -21,7 +23,8 @@ The evidence supports a staged chain:
 large-load concentration and rapid growth
   -> reliability events and forecasting uncertainty
   -> regulator specifies rate class, minimum obligations, collateral/term rules,
-     and interconnection oversight
+     interconnection oversight, and route conditions
+  -> public input and land-control constraints can change the approved path
 ```
 
 The rule is an institutional response to infrastructure dependence. It does

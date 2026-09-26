@@ -26,6 +26,12 @@ large-load growth and planned transmission expansion
 
 The first five stages have records. The final stage remains open.
 
+The [household-incidence audit](virginia-large-load-household-incidence-audit-v1.md)
+adds a current fiscal-conversion stage: Virginia's 2026 budget specifies an
+electricity-consumption tax for certain data-center operators. That expands the
+state-capacity side of the chain, but does not provide facility-level tax
+remittance, matched household bills, local burden, or legitimacy outcomes.
+
 ## What the evidence establishes
 
 | Stage | Evidence | Safe interpretation | Boundary |

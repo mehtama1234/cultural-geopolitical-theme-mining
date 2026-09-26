@@ -4,23 +4,23 @@
   "source_index": "analysis/data/us-broad-event-ledger-index-v1.json",
   "purpose": "Audit explicit remedy-stage and durability fields across the committed broad event-ledger portfolio without inferring stages from generic response text.",
   "portfolio": {
-    "ledgers": 42,
-    "events": 222,
-    "events_with_explicit_remedy_stage": 42,
-    "events_without_explicit_remedy_stage": 180,
-    "ledgers_with_explicit_remedy_stage": 21,
-    "ledgers_without_explicit_remedy_stage": 21
+    "ledgers": 98,
+    "events": 302,
+    "events_with_explicit_remedy_stage": 85,
+    "events_without_explicit_remedy_stage": 217,
+    "ledgers_with_explicit_remedy_stage": 48,
+    "ledgers_without_explicit_remedy_stage": 50
   },
   "stage_counts": {
-    "remedy_offered": 6,
-    "remedy_ordered": 10,
-    "remedy_implemented": 9,
-    "remedy_reported_received": 16,
+    "remedy_offered": 8,
+    "remedy_ordered": 18,
+    "remedy_implemented": 23,
+    "remedy_reported_received": 34,
     "remedy_verified_received": 0,
     "durability_failed": 1,
     "durability_verified": 0,
     "outcome_followup": 0,
-    "unknown_or_not_recorded": 180
+    "unknown_or_not_recorded": 217
   },
   "explicit_stage_rows": [
     {"event_id": "CFPB-BRIGHTSPEED-DISTRIBUTION-2024-07-23", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"},
@@ -63,9 +63,52 @@
     ,{"event_id": "IER-TEL-2023-01-11-CALIFORNIA-REHIRE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2021-03-19-DACA-REHIRE", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "IER-TEL-2017-03-03-STERLING", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-LOR-2026-05-28-ALEXANDRIA-REINSTATEMENT", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
+    ,{"event_id": "IER-LOR-2026-06-17-NEW-YORK-EVERIFY-PAY", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json"}
     ,{"event_id": "FWC-MUDIYANSELAGE-2025-01-31", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-mudiyanselage-underpayment-forced-exit-compensation-event-ledger-v1.json"}
     ,{"event_id": "FTC-YELLOWSTONE-THIRD-REFUND-2026-09-19", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-yellowstone-refund-event-ledger-v1.json"}
+    ,{"event_id": "VA-SCC-ESURANCE-RESTITUTION-2026-08-27", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/virginia-scc-insurance-settlement-remedy-event-ledger-v1.json"}
+    ,{"event_id": "VA-SCC-STATE-FARM-RESTITUTION-2026-05-20", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/virginia-scc-insurance-settlement-remedy-event-ledger-v1.json"}
+    ,{"event_id": "VA-SCC-ANTHEM-RESTITUTION-2026-03-24", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/virginia-scc-insurance-settlement-remedy-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-PREMIER-STUDENT-LOAN-CONCLUDED-2024-Q3", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-US-EQUITY-ADVANTAGE-CONCLUDED-2024-Q3", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-SMART-PAYMENT-PLAN-CONCLUDED-2024-Q4", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-PREMIER-STUDENT-LOAN-REISSUE-2025", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-US-EQUITY-ADVANTAGE-REDISTRIBUTION-2025", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-SMART-PAYMENT-PLAN-REDISTRIBUTION-2025", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-CASH-APP-FRAUD-REDRESS-2025-01-16", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-cash-app-fraud-redress-event-ledger-v1.json"}
+    ,{"event_id": "FWC-ALAM-SHAH-INJURY-DISMISSAL-2025-05-02", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-alam-shah-injury-dismissal-reinstatement-event-ledger-v1.json"}
+    ,{"event_id": "FWC-INDIAN-FOOD-CATERING-2019-05-30", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/fwc-indian-food-catering-partial-compensation-enforcement-event-ledger-v1.json"}
+    ,{"event_id": "FWC-AITKEN-RETURN-BACKPAY-LATER-DISMISSAL-2016-08-01", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/fwc-aitken-return-backpay-later-dismissal-event-ledger-v1.json"}
+    ,{"event_id": "FWC-CARTISANO-BACKPAY-NO-RETURN-2015-02-27", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/fwc-cartisano-backpay-no-return-risk-assessment-event-ledger-v1.json"}
+    ,{"event_id": "FTC-ACRO-SECOND-REFUND-2026", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/us-customer-automation-recourse/data/ftc-acro-second-refund-event-ledger-v1.json"}
+    ,{"event_id": "FEMA-LA-WILDFIRE-IHP-STAGES-2025-2026", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json"}
+    ,{"event_id": "FWO-ATKINS-TRUCK-DRIVERS-2018-01-17", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-atkins-truck-driver-backpay-receipt-event-ledger-v1.json"}
+    ,{"event_id": "FWO-INNOVATIVE-ASSOCIATES-2026-09-01", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-innovative-associates-cashback-backpay-event-ledger-v1.json"}
+    ,{"event_id": "FWO-SOUTHERN-CROSS-CARE-NSW-2026-04-02", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-southern-cross-care-nsw-underpayment-reachability-event-ledger-v1.json"}
+    ,{"event_id": "FWO-LONGRIDGE-WORKER-59-2011-2012", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json"}
+    ,{"event_id": "FWO-LONGRIDGE-WORKER-32-2011-2012", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/fwo-longridge-underpayment-alternative-employment-backpay-event-ledger-v1.json"}
+    ,{"event_id": "DOL-WORKERS-OWED-WAGES-ROUTE-2026-09-19", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/dol-workers-owed-wages-reachability-event-ledger-v1.json"}
+    ,{"event_id": "DOL-PAID-EMPLOYER-PROOF-2026-09-19", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/dol-paid-employer-proof-event-ledger-v1.json"}
+    ,{"event_id": "DOL-PAID-2019-AGGREGATE-DELIVERY-2019-09-26", "remedy_stage": "remedy_reported_received", "ledger": "analysis/projects/ai-work-control/data/dol-paid-employer-proof-event-ledger-v1.json"}
+    ,{"event_id": "OSHA-TEXAS-ASBESTOS-WHISTLEBLOWER-2026-02-12", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/osha-texas-asbestos-whistleblower-remedy-event-ledger-v1.json"}
+    ,{"event_id": "CFPB-WELLS-FARGO-STUDENT-LOAN-REDRESS-2016-08-22", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/us-customer-automation-recourse/data/cfpb-wells-fargo-redress-reachability-event-ledger-v1.json"}
+    ,{"event_id": "POLAND-F35-HUSARZ-ARRIVAL-ACCEPTANCE-2026-06-12", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/poland-f35-husarz-arrival-acceptance-event-ledger-v1.json"}
+    ,{"event_id": "POLAND-F35-HUSARZ-EIGHT-AIRCRAFT-2026-08-28", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/poland-f35-husarz-arrival-acceptance-event-ledger-v1.json"}
+    ,{"event_id": "AU-WAHEED-2026-06-16", "remedy_stage": "remedy_offered", "ledger": "analysis/projects/ai-work-control/data/uber-waheed-interim-payment-obligation-event-ledger-v1.json"}
+    ,{"event_id": "NBER-CAREGIVING-LABOR-SUPPLY-1990-2019", "remedy_stage": "unknown", "ledger": "analysis/projects/us-aging-care-strain/data/nber-caregiving-labor-supply-event-ledger-v1.json"}
+    ,{"event_id": "ASPE-CASH-COUNSELING-CAREGIVER-FOLLOWUP-2000-2003", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-caregiver-support-event-ledger-v1.json"}
+    ,{"event_id": "ASPE-CASH-COUNSELING-BENEFICIARY-FOLLOWUP-1998-2003", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-beneficiary-outcome-event-ledger-v1.json"}
+    ,{"event_id": "ASPE-CASH-COUNSELING-PAID-WORKER-FOLLOWUP-2000-2003", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-aging-care-strain/data/aspe-cash-counseling-worker-experience-event-ledger-v1.json"}
+    ,{"event_id": "FWC-KHAN-PLATFORM-REACTIVATION-2026-01-12", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-khan-platform-reactivation-repeat-deactivation-event-ledger-v1.json"}
+    ,{"event_id": "FWC-MANSOOR-PLATFORM-LOST-EARNINGS-2025-10-17", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-mansoor-platform-lost-earnings-order-event-ledger-v1.json"}
+    ,{"event_id": "FWC-KAUR-PREGNANCY-REINSTATEMENT-2025-12-19", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/ai-work-control/data/fwc-kaur-pregnancy-dismissal-reinstatement-event-ledger-v1.json"}
+    ,{"event_id": "NYC-DCWP-SALZ-THEORY-RESTITUTION-SCHEDULE-2026-03-01", "remedy_stage": "remedy_ordered", "ledger": "analysis/projects/us-customer-automation-recourse/data/nyc-dcwp-restitution-reachability-event-ledger-v1.json"}
+    ,{"event_id": "NYC-DCWP-UNCLAIMED-RESTITUTION-FUND-PROPOSED-2026-07-09", "remedy_stage": "remedy_offered", "ledger": "analysis/projects/us-customer-automation-recourse/data/nyc-dcwp-restitution-reachability-event-ledger-v1.json"}
+    ,{"event_id": "CA-LA-WILDFIRE-FEMA-CONTINUED-HOUSING-2026", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json"}
+    ,{"event_id": "CA-LA-WILDFIRE-CALASSIST-MORTGAGE-BRIDGE-2026", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/us-repeat-energy-crises/data/california-la-wildfire-recovery-persistence-event-ledger-v1.json"}
+    ,{"event_id": "DOL-WOW-ELECTRONIC-PAYMENT-TRANSITION-2025-10-01", "remedy_stage": "remedy_implemented", "ledger": "analysis/projects/ai-work-control/data/dol-workers-owed-wages-reachability-event-ledger-v1.json"}
   ],
-  "interpretation": "The vocabulary is now applied across the 41-ledger portfolio, but explicit remedy-stage coverage remains sparse. A reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
+  "interpretation": "The vocabulary is now applied across the 85-event-explicit-remedy portfolio within the 98-ledger, 302-event portfolio, but explicit remedy-stage coverage remains sparse. A program-level implementation, reported payment, firm-reported correction, or implemented fund remains distinct from verified recipient receipt and durable recovery. Missing stage fields are not treated as evidence that no remedy occurred.",
   "next_action": "Add explicit remedy_stage, remedy_receipt, and durability_followup fields when a ledger is next touched or a new source is promoted; prioritize recipient-level receipt, protected outcome, repeat-harm, and later use/switch/trust follow-up before expanding another generic response ledger."
 }

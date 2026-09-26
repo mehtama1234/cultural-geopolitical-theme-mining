@@ -24,6 +24,12 @@ not one joined causal dataset:
 6. **Community economic capacity:** GAO's EDA review records federal
    coordination, supplemental funding and delay, project composition, and the
    inability of current measures to validate broad economic outcomes.
+7. **Current survivor-facing administrative stages:** The Los Angeles wildfire
+   FEMA snapshot records 261,117 valid registrations, 98,459 IHP referrals,
+   35,165 IHP-eligible records, and $182.8 million in reported IHP amounts
+   across aggregate city/ZIP rows. The ratios advance visibility of the
+   registration-to-eligibility middle, but are not a unique-survivor funnel or
+   evidence of payment receipt, adequacy, repair, placement, or durable housing.
 
 The [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
 formalizes the shared chronology and open arrows without pooling the underlying
@@ -39,15 +45,25 @@ assistance can coexist with a difficult application interface. “Recovery” is
 therefore a distributional process across money, time, access, security, and
 legitimacy.
 
+The current disaster-credit effect audit sharpens the firm-side currency. In
+the studied SBA approval-threshold design, disaster credit is associated with a
+13.2-percentage-point reduction in firm exit, a 0.170-log-point increase in
+full-sample employment, and approximately $17,712 more non-SBA private debt.
+These are firm-level realized outcomes, not household recovery: the source does
+not show worker pay, hours, benefits, schedule control, owner consumption,
+customer affordability, or whether the added borrowing improved or prolonged
+security.
+
 ## Comparative evidence map
 
 | Layer | Best current evidence | Unit and clock | What it closes | What it cannot close |
 |---|---|---|---|---|
-| Public recovery credit | SBA loan approval thresholds and linked Census/Experian outcomes | Firms; annual, up to 7 years post-disaster | Exit, employment, revenue, private credit, delinquency, bankruptcy directions/effects | Worker pay/quality, owner cash, customer access, payment burden |
+| Public recovery credit | SBA loan approval thresholds and linked Census/Experian outcomes | Firms; annual, up to 7 years post-disaster | Exit, employment, revenue, private credit, delinquency, bankruptcy directions/effects; current audit reports -13.2 pp exit, +0.170 log employment, and +$17,712 non-SBA private debt in the studied design | Worker pay/quality, owner cash, customer access, payment burden |
 | Owner cash pool | Linked small-business and owner-household accounts | Business-household account links; early COVID through 2021 | Revenue-to-owner-consumption pass-through | Disaster-loan causality, reserves, debt, business survival, workers |
 | Customer option set | Payment-card store turnover and modeled demand after Harvey | Stores/cardholders/neighborhoods; storm through Dec. 2018 | Closure, distance, entry, relative/modelled welfare, price-path distinction | Cash users, missed trips, income-specific burden, aid receipt |
 | Resident recovery judgment | KFF/EHF weighted 24-county survey | Adults/residents; 10–11 months post-Harvey | Disruption, help adequacy, aid applications, fairness confidence, awareness | Verified payment, causal attribution, later civic action, trust change |
 | Survivor-facing public delivery | GAO FEMA review and structured delivery ledger | Agency/interface; Helene, Milton, Los Angeles fires, Texas floods | Aggregate support, reachability, notice friction, housing bottlenecks, delivery redesign | Survivor receipt, placement, adequacy, recovery, trust, action |
+| Current Los Angeles wildfire administrative stages | OpenFEMA Registration Intake and Individuals Household Programs snapshot for disaster 4856 | Aggregate city/ZIP rows; 2025–2026 snapshot | Registration, IHP referral, eligibility, and reported assistance amount stages | Unique applicants, payment timing/receipt, adequacy, repair/placement, repeat crisis, trust, action |
 | Community economic capacity | GAO EDA review and structured recovery ledger | Agency/project portfolio; FY2013–FY2025 coordination and FY2014–FY2024 grants | Coordination, award scale, funding timing, project composition, measurement limits | Disbursement-to-use, completed assets, jobs/wages, household access, local counterfactual |
 
 ## The end-to-end chain, with open arrows
@@ -134,12 +150,14 @@ administrative, or household files.
 ## Sources and storage boundary
 
 - [Disaster-liquidity finding](us-small-business-disaster-liquidity-001.md)
+- [Disaster-loan effect-size audit](../effect-size-audit-v1.md)
 - [Owner-household finding](../../us-owner-household-business-tradeoff/findings/us-owner-business-revenue-consumption-covid-001.md)
 - [Harvey customer-welfare finding](us-harvey-firm-turnover-consumer-welfare-001.md)
 - [Harvey recovery-and-legitimacy finding](us-harvey-recovery-aid-legitimacy-001.md)
 - [Harvey cross-source event ledger](../data/harvey-firm-customer-resident-event-ledger-v1.json)
 - [FEMA delivery layer](../../us-repeat-energy-crises/gao-2026-fema-disaster-assistance-delivery-capacity-layer-v1.md)
 - [FEMA structured delivery ledger](../../us-repeat-energy-crises/data/gao-fema-disaster-assistance-delivery-event-ledger-v1.json)
+- [Los Angeles wildfire FEMA stage ledger](../../us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json)
 - [EDA economic-recovery layer](../../us-repeat-energy-crises/gao-2026-eda-disaster-economic-recovery-outcomes-layer-v1.md)
 - [EDA structured recovery ledger](../../us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json)
 - [Small-business size-rule finding](../../us-small-business-support-size-cutoff/findings/us-small-business-support-size-rule-001.md)

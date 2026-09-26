@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nea-great-connector-arts-civic-community-engagement-2026",
+  "title": "Arts participation was positively associated with civic and community engagement in two national surveys, with a null overall GSS result",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "National Endowment for the Arts, The Great Connector: How Arts Participation Renews Civic and Community Engagement",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 2022; Survey of Public Participation in the Arts (SPPA)",
+      "denominator": {
+        "value": 7376,
+        "unit": "SPPA analytic-sample respondents",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "arts_participation_civic_engagement_irr": {"value": 4.86, "unit": "incidence-rate ratio for civic/community engagement among arts participants versus nonparticipants", "value_type": "published_association"},
+        "arts_consumption_civic_engagement_irr": {"value": 2.77, "unit": "incidence-rate ratio for civic/community engagement", "value_type": "published_association"},
+        "arts_creation_civic_engagement_irr": {"value": 1.35, "unit": "incidence-rate ratio for civic/community engagement", "value_type": "published_association"},
+        "multi_mode_participation": {"value": "1.5 to 2.0 times higher than single-mode participation in reported civic/community engagement", "unit": "mode-combination comparison", "value_type": "published_association"},
+        "bachelor_degree_civic_engagement_irr": {"value": 1.83, "unit": "incidence-rate ratio relative to high-school-or-less reference", "value_type": "published_association"}
+      },
+      "method": "Survey-weighted quasi-Poisson regression using the 2022 SPPA analytic sample, restricted to respondents with civic/community items and required arts modules; models adjusted for demographic and socioeconomic covariates.",
+      "uncertainty": "The analytic sample is a restricted complete-case sample, and the report estimates cross-sectional associations rather than causal effects. The civic/community outcome combines behaviors such as meetings, events, volunteering, and charity work; it is not a direct measure of political persuasion, institutional trust, durable belonging, or policy influence.",
+      "subgroup": "U.S. adults with reported variation by education, income, race/ethnicity, age, sex, and locale/urbanicity.",
+      "counterinterpretation": "Arts participation may proxy education, prior social networks, health, money, time, transportation, or local opportunity. The strong SPPA association may reflect selection or shared causes even after statistical adjustment, and it should not be generalized as a treatment effect.",
+      "source_url": "https://www.arts.gov/sites/default/files/NASERC-Arts-and-Civic-Community-Engagement-508.pdf",
+      "retrieval_hash": "sha256:c64b441b45cb3b14acd382c076696c4ac86e2bbe13d83ea0f59e2c8aa45102da",
+      "status": "reported"
+    },
+    {
+      "period": "February 2025; Household Trends and Outlook Pulse Survey (HTOPS)",
+      "denominator": {
+        "value": 6598,
+        "unit": "HTOPS analytic-sample respondents",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "arts_participation_civic_engagement_irr": {"value": 1.17, "unit": "incidence-rate ratio for civic/community engagement among arts participants versus nonparticipants", "value_type": "published_association"},
+        "arts_consumption_civic_engagement_irr": {"value": 1.16, "unit": "incidence-rate ratio for civic/community engagement", "value_type": "published_association"},
+        "arts_creation_civic_engagement_irr": {"value": 1.08, "unit": "incidence-rate ratio for civic/community engagement", "value_type": "published_association"},
+        "social_support": {"value": "arts participation was positively associated with reported social and emotional support", "unit": "adjusted association reported in HTOPS models", "value_type": "published_association"}
+      },
+      "method": "Survey-weighted quasi-Poisson regression using the February 2025 HTOPS analytic sample, with arts participation, civic/community engagement, and social-support measures retained as separate outcomes or predictors.",
+      "uncertainty": "HTOPS is a national survey panel but the report uses a cross-sectional analytic slice and a complete-case sample; response-rate documentation was unavailable at publication. The modest association is not evidence that arts participation caused civic engagement or social support.",
+      "subgroup": "U.S. adults with comparisons by education, race/ethnicity, age, sex, household children, marital status, employment, and related demographic controls.",
+      "counterinterpretation": "The smaller HTOPS estimate than SPPA shows that the apparent cultural-to-civic relationship is sensitive to survey frame, measurement window, and context. A positive association can coexist with selection, differential access, and unmeasured local institutional capacity.",
+      "source_url": "https://www.arts.gov/sites/default/files/NASERC-Arts-and-Civic-Community-Engagement-508.pdf",
+      "retrieval_hash": "sha256:c64b441b45cb3b14acd382c076696c4ac86e2bbe13d83ea0f59e2c8aa45102da",
+      "status": "reported"
+    },
+    {
+      "period": "July through September 2022; General Social Survey (GSS) Arts Module",
+      "denominator": {
+        "value": 514,
+        "unit": "GSS NEA analytic-sample respondents",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "overall_arts_participation_civic_engagement_irr": {"value": 0.999, "unit": "incidence-rate ratio; no statistically significant overall association after controls", "value_type": "published_association"},
+        "arts_creation_civic_engagement_irr": {"value": 1.17, "unit": "incidence-rate ratio for creating or performing art", "value_type": "published_association"},
+        "arts_consumption_civic_engagement_irr": {"value": 0.999, "unit": "incidence-rate ratio; no statistically significant association reported", "value_type": "published_association"}
+      },
+      "method": "Survey-weighted regression using the NEA-designated GSS Arts Module analytic subsample, with the same broad arts and civic/community constructs modeled where available.",
+      "uncertainty": "The GSS analytic sample is small and the weighted size is normalized to the NEA subsample rather than representing the U.S. population. The null overall result is not proof of no relationship, but it is an important boundary against treating the SPPA and HTOPS associations as universal.",
+      "subgroup": "U.S. GSS respondents in the NEA Arts Module analytic subsample, with demographic adjustments including education, income, age, race/ethnicity, locale, and household characteristics.",
+      "counterinterpretation": "Arts creation may relate to civic/community engagement through a route that differs from general arts participation or consumption, but the small GSS sample and measurement differences prevent a clean mechanism claim.",
+      "source_url": "https://www.arts.gov/sites/default/files/NASERC-Arts-and-Civic-Community-Engagement-508.pdf",
+      "retrieval_hash": "sha256:c64b441b45cb3b14acd382c076696c4ac86e2bbe13d83ea0f59e2c8aa45102da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.arts.gov/impact/research/publications/great-connector-how-arts-participation-renews-civic-and-community-engagement", "claim": "NEA publication page describing the report's three-national-survey design and civic/community focus.", "status": "official-publication-page"},
+    {"source_url": "https://www.census.gov/programs-surveys/htops.html", "claim": "Census Household Trends and Outlook Pulse Survey context used by the report.", "status": "official-survey-context"}
+  ],
+  "boundary": "This record supplies a measured cultural-to-civic association and an explicit cross-survey counterexample. It does not establish that arts participation causes civic engagement, political mobilization, trust, belonging, or improved institutional outcomes.",
+  "retrieval_hash": "sha256:c64b441b45cb3b14acd382c076696c4ac86e2bbe13d83ea0f59e2c8aa45102da"
+}

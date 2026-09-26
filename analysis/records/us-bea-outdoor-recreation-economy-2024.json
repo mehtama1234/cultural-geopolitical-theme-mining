@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-outdoor-recreation-economy-2024",
+  "title": "Outdoor recreation is a major regional economy, but economic scale does not prove equal cultural access",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "firm_sector_market_power", "trust_identity_meaning", "unequal_exposure_status", "time_hidden_price", "public_systems_feedback"],
+  "source_unit": "BEA Outdoor Recreation Satellite Account, national and state 2024 estimates",
+  "geography": "United States, all 50 states, and District of Columbia",
+  "observations": [
+    {
+      "period": "2024; United States outdoor recreation economy",
+      "denominator": {"value": 1, "unit": "U.S. current-dollar GDP and outdoor recreation value added account", "value_type": "economic-account denominator"},
+      "measures": {
+        "value_added": {"value": 696.7, "unit": "billion current dollars", "value_type": "value_added"},
+        "share_of_us_gdp": {"value": 2.4, "unit": "percent", "value_type": "share"},
+        "real_gdp_growth": {"value": 2.7, "unit": "percent change from 2023", "value_type": "growth_rate"},
+        "employment_growth": {"value": 1.1, "unit": "percent change from 2023", "value_type": "growth_rate"}
+      },
+      "method": "BEA Outdoor Recreation Satellite Account estimates of value added, real GDP, employment, and related economic activity within the national accounts framework.",
+      "uncertainty": "Economic-account estimates depend on activity definitions, source data, annual revisions, and the distinction between direct and supporting activities; this record does not reproduce intervals.",
+      "subgroup": "National outdoor recreation economy, including conventional, other, and supporting activities.",
+      "counterinterpretation": "A large value-added footprint can reflect visitors, travel, and supporting industries rather than broad resident participation, affordable access, or locally shared gains.",
+      "source_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2024",
+      "retrieval_hash": "sha256:5d42443dddebad14b98daaaca363117ee63b246da63552c8ac21dc392616ec1c",
+      "status": "reported"
+    },
+    {
+      "period": "2024; state and District of Columbia comparison",
+      "denominator": {"value": 51, "unit": "states and District of Columbia", "value_type": "geographic comparison denominator"},
+      "measures": {
+        "state_share_of_gdp_minimum": {"value": 1.0, "unit": "percent of state GDP", "value_type": "reported_range_endpoint"},
+        "state_share_of_gdp_maximum": {"value": 6.1, "unit": "percent of state GDP", "value_type": "reported_range_endpoint"},
+        "states_with_employment_growth": {"value": 36, "unit": "states plus District of Columbia", "value_type": "count"},
+        "employment_change_range": {"value": "4.3% in North Dakota to -4.0% in Hawaii", "unit": "percent change from 2023", "value_type": "reported_range"}
+      },
+      "method": "BEA state Outdoor Recreation Satellite Account comparison of value added share and employment change.",
+      "uncertainty": "The state comparison describes economic concentration and change, not causal effects of recreation, resident welfare, or local ownership.",
+      "subgroup": "All states and District of Columbia.",
+      "counterinterpretation": "A high state share can reflect a small or visitor-dependent economy; employment change does not establish job quality, seasonality, or who captures the value.",
+      "source_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2024",
+      "retrieval_hash": "sha256:5d42443dddebad14b98daaaca363117ee63b246da63552c8ac21dc392616ec1c",
+      "status": "reported"
+    },
+    {
+      "period": "2024; national activity composition",
+      "denominator": {"value": 100, "unit": "percent of national outdoor recreation value added", "value_type": "activity-composition denominator"},
+      "measures": {
+        "conventional_activities": {"value": 29.5, "unit": "percent", "value_type": "share"},
+        "other_activities": {"value": 19.0, "unit": "percent", "value_type": "share"},
+        "supporting_activities": {"value": 51.5, "unit": "percent", "value_type": "share"}
+      },
+      "method": "BEA national activity categories separating conventional activities from other and supporting activities such as travel, tourism, construction, local trips, and government expenditures.",
+      "uncertainty": "Categories describe economic production and are not a mutually exclusive measure of individual experience or cultural value.",
+      "subgroup": "National outdoor recreation value-added composition.",
+      "counterinterpretation": "Supporting economic activity can grow without increasing resident access, cultural belonging, conservation, or local control.",
+      "source_url": "https://www.bea.gov/news/2026/outdoor-recreation-economic-statistics-us-and-states-2024",
+      "retrieval_hash": "sha256:5d42443dddebad14b98daaaca363117ee63b246da63552c8ac21dc392616ec1c",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record establishes the scale, composition, and geographic variation of an outdoor recreation economic account. It does not measure resident participation, affordability, physical access, job quality, local ownership, distribution of gains, displacement, conservation, belonging, or community wellbeing."
+}

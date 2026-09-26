@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-rental-scam-housing-platform-losses-2020-2025",
+  "title": "Digital rental listings are becoming a housing-access, identity-risk, and upfront-loss exposure",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "FTC Consumer Data Spotlight: Rental scams hit home with $65 million in reported losses",
+  "geography": "United States; Consumer Sentinel Network reports, January 2020 through June 2025, with age comparison July 2024 through June 2025",
+  "observations": [
+    {
+      "period": "January 2020 through June 2025; FTC Consumer Sentinel Network reports classified as likely rental scams",
+      "denominator": {
+        "value": 65000,
+        "unit": "nearly rental-scam reports filed with the FTC; report count rounded and Sentinel-contributor reports excluded",
+        "value_type": "administrative_report_count_approximate"
+      },
+      "measures": {
+        "reported_loss_total": {"value": 65000000, "unit": "approximately dollars in reported rental-scam losses", "value_type": "reported_loss_total_approximate"},
+        "median_reported_loss": {"value": 1000, "unit": "dollars among reports identified as rental scams", "value_type": "reported_median_loss"},
+        "facebook_start_share_recent": {"value": 50, "unit": "approximately percent of reports specifying a platform in the 12 months ending June 2025 that said the scam started with a fake Facebook ad", "value_type": "reported_share_approximate"},
+        "craigslist_start_share_recent": {"value": 16, "unit": "percent of reports specifying a platform in the 12 months ending June 2025 that said the scam started with a fake Craigslist listing", "value_type": "reported_share"},
+        "housing_listing_mechanism": {"value": "copied or fabricated listings, below-market rent, upfront payment pressure, credit-check enrollment, and identity-data collection", "unit": "reported scam pathways", "value_type": "reported_mechanism"}
+      },
+      "method": "The FTC used a text-classification model to identify Consumer Sentinel fraud reports whose narratives matched likely rental scams, then summarized losses, contact platforms, and reported mechanisms.",
+      "uncertainty": "These are reports to a government system, not a prevalence estimate; the FTC notes that most scams are never reported. The classification model, reporting behavior, platform specification, excluded Sentinel contributors, and rounded totals limit interpretation. Reported loss does not measure housing displacement, identity-theft completion, or recovery.",
+      "subgroup": "People searching for rental housing, especially platform users and young adults; legitimate landlords and rental platforms are also exposed to copied listings and trust damage.",
+      "counterinterpretation": "The concentration on Facebook may reflect platform scale, reporting convenience, or user composition rather than platform-specific causation. Listing verification, in-person access, warnings, payment controls, and rapid reporting could reduce losses without proving that all online rental search is unsafe.",
+      "source_url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2025/12/rental-scams-hit-home-65-million-reported-losses",
+      "retrieval_hash": "sha256:866cc7f702207d0d84f014d1c30aa39538c22bf7de901fb9b390d3f7477f53da",
+      "status": "reported"
+    },
+    {
+      "period": "July 2024 through June 2025; age-normalized FTC rental-scam reports indicating monetary loss",
+      "denominator": {
+        "value": 100,
+        "unit": "age-group rental-scam reports indicating monetary loss, normalized by 2019-2023 ACS 5-year population estimates; age-missing reports excluded",
+        "value_type": "age_group_normalized_report_share"
+      },
+      "measures": {
+        "age_18_29_loss_report_share": {"value": 46, "unit": "percent of 18-29 age-group reports indicating monetary loss", "value_type": "reported_age_group_share"},
+        "age_30_39_loss_report_share": {"value": 23, "unit": "percent of 30-39 age-group reports indicating monetary loss", "value_type": "reported_age_group_share"},
+        "age_40_49_loss_report_share": {"value": 13, "unit": "percent of 40-49 age-group reports indicating monetary loss", "value_type": "reported_age_group_share"},
+        "age_50_59_loss_report_share": {"value": 9, "unit": "percent of 50-59 age-group reports indicating monetary loss", "value_type": "reported_age_group_share"},
+        "age_60_69_loss_report_share": {"value": 6, "unit": "percent of 60-69 age-group reports indicating monetary loss", "value_type": "reported_age_group_share"}
+      },
+      "method": "The FTC compares age-group shares of reports indicating monetary loss and normalizes them using Census Bureau 2019-2023 ACS 5-year population estimates.",
+      "uncertainty": "The comparison describes reports and reporting rates, not the risk faced by every renter in each age group. Age reporting, population normalization, selection into rental search, and differential willingness or ability to report may affect the gradient.",
+      "subgroup": "Rental-scam reports by age group, with the strongest reported loss indication among adults ages 18-29.",
+      "counterinterpretation": "Younger adults may search online more often or report losses differently; the age pattern alone does not establish greater scam exposure, weaker financial buffers, or worse recovery.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/rental-scams-spotlight-2025.pdf",
+      "retrieval_hash": "sha256:866cc7f702207d0d84f014d1c30aa39538c22bf7de901fb9b390d3f7477f53da",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a housing-search platform and consumer-recourse route. It does not estimate the prevalence of rental fraud, prove platform liability, identify unique victims, measure completed identity theft, establish housing displacement, or show that reported losses were recovered.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "FTC Data Spotlight page and linked official PDF retrieved; period, classification method, report/loss totals, median loss, platform shares, scam mechanisms, and age comparison cross-checked against the publication.",
+    "pdf_sha256": "sha256:866cc7f702207d0d84f014d1c30aa39538c22bf7de901fb9b390d3f7477f53da",
+    "checked": "2026-09-26"
+  }
+}

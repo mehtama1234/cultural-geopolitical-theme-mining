@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-young-men-religiosity-gender-reversal-2024-2025",
+  "title": "Aggregate religious decline contains a young-men reversal in importance and attendance",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup biennial religion aggregates by age and gender",
+  "geography": "United States; adults ages 18 and older, with a focus on adults ages 18–29",
+  "observations": [
+    {
+      "period": "2024–2025 biennial aggregate; religion importance",
+      "denominator": {"value": null, "unit": "Gallup biennial aggregate; source page does not disclose one pooled respondent count for the displayed age-by-gender estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "young_men_religion_very_important": {"value": 42, "unit": "percent of men ages 18–29 saying religion is very important in their lives", "value_type": "published_share"},
+        "young_men_religion_very_important_2022_2023": {"value": 28, "unit": "percent of men ages 18–29 in the 2022–2023 biennial aggregate", "value_type": "published_comparison"},
+        "young_women_religion_very_important": {"value": 29, "unit": "percent of women ages 18–29 saying religion is very important in their lives", "value_type": "published_share"},
+        "young_men_historical_high": {"value": 43, "unit": "percent of men ages 18–29 in the 2000–2001 biennial aggregate", "value_type": "published_comparison"}
+      },
+      "method": "Gallup combines religion survey waves into biennial aggregates from 2000–2001 through 2024–2025 to stabilize age-by-gender estimates; the source compares age, gender, party, education, and region.",
+      "uncertainty": "The aggregate is a repeated cross-sectional trend, not a panel of young men. The source does not establish why importance rose, whether the change persists, or whether it produces participation, identity, political action, or institutional power.",
+      "subgroup": "Adults ages 18–29 by gender, with older age groups as context; the article reports party differences in attendance and young-adult party composition.",
+      "counterinterpretation": "A young-men increase coexists with low aggregate religiosity and lower religiosity among young women. The reversal may reflect cohort, period, party composition, cultural salience, or temporary context rather than durable institutional reorganization.",
+      "source_url": "https://news.gallup.com/poll/708410/young-men-religious-gains-realign-gender-gap.aspx",
+      "retrieval_hash": "sha256:ae507236c9c2d03c15e34d607d4c710ba219db2339433f3ce90937757c17cce5",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025 biennial aggregate; religious-service attendance",
+      "denominator": {"value": null, "unit": "Gallup biennial aggregate; source page does not disclose one pooled respondent count for the displayed age-by-gender estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "young_men_monthly_or_more_attendance": {"value": 40, "unit": "percent of men ages 18–29 reporting monthly or more frequent attendance at religious services", "value_type": "published_share"},
+        "young_men_monthly_or_more_attendance_2022_2023": {"value": 33, "unit": "percent of men ages 18–29 in the 2022–2023 biennial aggregate", "value_type": "published_comparison"},
+        "young_women_monthly_or_more_attendance": {"value": 39, "unit": "percent of women ages 18–29 reporting monthly or more frequent attendance", "value_type": "published_share"},
+        "young_women_monthly_or_more_attendance_2022_2023": {"value": 36, "unit": "percent of women ages 18–29 in the 2022–2023 biennial aggregate", "value_type": "published_comparison"}
+      },
+      "method": "Gallup biennial aggregate of self-reported religious attendance; attendance is a behavioral measure distinct from religious importance and affiliation.",
+      "uncertainty": "Attendance is self-reported and does not identify congregation, denomination, hours, role, invitation, burden, or political activity. The source does not link importance, affiliation, attendance, and later action within the same person.",
+      "subgroup": "Adults ages 18–29 by gender; older adults and party-conditioned attendance provide context in the source.",
+      "counterinterpretation": "Near parity in attendance does not show equal institutional influence or belonging. Young men and women can attend at similar rates while differing in meaning, frequency, group role, or political interpretation.",
+      "source_url": "https://news.gallup.com/poll/708410/young-men-religious-gains-realign-gender-gap.aspx",
+      "retrieval_hash": "sha256:ae507236c9c2d03c15e34d607d4c710ba219db2339433f3ce90937757c17cce5",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025 biennial aggregate; religious affiliation",
+      "denominator": {"value": null, "unit": "Gallup biennial aggregate; source page does not disclose one pooled respondent count for the displayed age-by-gender estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "young_men_specific_religious_affiliation": {"value": 63, "unit": "percent of men ages 18–29 reporting a specific religious affiliation", "value_type": "published_share"},
+        "young_men_specific_religious_affiliation_2022_2023": {"value": 61, "unit": "percent of men ages 18–29 in the 2022–2023 biennial aggregate", "value_type": "published_comparison"},
+        "young_women_specific_religious_affiliation": {"value": 60, "unit": "percent of women ages 18–29 reporting a specific religious affiliation", "value_type": "published_share"},
+        "young_men_specific_religious_affiliation_2016_2017": {"value": 57, "unit": "percent of men ages 18–29 in the 2016–2017 biennial aggregate", "value_type": "published_comparison"}
+      },
+      "method": "Gallup repeated cross-sectional biennial estimates of religious affiliation, reported separately from importance and attendance.",
+      "uncertainty": "Affiliation is a self-description and does not establish belief intensity, practice, community participation, or political behavior. Age and period effects cannot be separated by this aggregate comparison.",
+      "subgroup": "Young men and young women ages 18–29, with older age groups as context.",
+      "counterinterpretation": "The small affiliation difference is weaker than the importance reversal; this is evidence that religious identity, importance, and attendance are separate currencies rather than one trend.",
+      "source_url": "https://news.gallup.com/poll/708410/young-men-religious-gains-realign-gender-gap.aspx",
+      "retrieval_hash": "sha256:ae507236c9c2d03c15e34d607d4c710ba219db2339433f3ce90937757c17cce5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/702572/americans-religious-engagement-holds-lower-levels.aspx", "claim": "Gallup's broader 2025 annual religious-engagement report supplies the aggregate decline and generational-replacement context.", "status": "cross-source-context"},
+    {"source_url": "https://www.pewresearch.org/religion/2026/05/14/how-americans-feel-about-religions-influence-in-government-and-public-life/", "claim": "Pew's 2026 public-life survey supplies a separate perceived-influence and church-state boundary.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record identifies a young-men reversal in reported religious importance and attendance inside a broader low-religiosity U.S. context. It does not establish a durable revival, causal party or gender mechanism, congregation-level growth, political mobilization, public legitimacy, or later civic action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup report webpage retrieved and hashed; biennial periods, age/gender estimates, attendance, affiliation, party context, and aggregate-versus-subgroup boundaries cross-checked against the published page.",
+    "html_sha256": "sha256:ae507236c9c2d03c15e34d607d4c710ba219db2339433f3ce90937757c17cce5",
+    "checked": "2026-09-25"
+  }
+}

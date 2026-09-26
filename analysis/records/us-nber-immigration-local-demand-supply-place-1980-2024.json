@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-immigration-local-demand-supply-place-1980-2024",
+  "title": "New residents can add workers and customers, while local housing and public capacity remain separate questions",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Two NBER research sources: a U.S. Census local-demand study using 1980-2000 data and a 2026 study of the 2021-2024 postpandemic immigration surge using descriptive facts and a heterogeneous-agent model",
+  "geography": "United States; local labor markets and non-traded services in the 1980-2000 Census study, and national U.S. macroeconomic conditions in the 2021-2024 surge study",
+  "observations": [
+    {
+      "period": "U.S. local labor markets, 1980-2000",
+      "denominator": {"value": null, "unit": "U.S. Census local labor-market observations; exact study denominator not disclosed in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "local_jobs": {"value": "each immigrant created about 1.2 local jobs for local workers", "unit": "estimated local employment effect per immigrant", "value_type": "reported_estimate"},
+        "nontraded_services": {"value": "about 62% of the estimated jobs were in non-traded services", "unit": "share of estimated local jobs", "value_type": "reported_share"},
+        "local_wages": {"value": "immigration appeared to raise local non-tradables-sector wages and attract native-born workers from elsewhere", "unit": "reported local-market effects", "value_type": "reported_effect"}
+      },
+      "method": "Study using U.S. Census data from 1980 to 2000 to estimate local labor-demand effects from immigrants' additional consumption of local services.",
+      "uncertainty": "The period is older than the current immigration debate, and the local average does not identify current housing, school, health, transport, wage-quality, or political effects in every place.",
+      "subgroup": "Local workers and immigrants in U.S. labor markets, with an emphasis on non-traded services; subgroup mechanisms are not extracted here.",
+      "counterinterpretation": "Local demand can benefit workers and businesses while creating pressure for housing, infrastructure, or public services; job creation is not the same as equal access or durable belonging.",
+      "source_url": "https://www.nber.org/papers/w21123",
+      "retrieval_hash": "sha256:840df6b875c5712e3969218e7896f8ebe73b969f611f1b3da89d5f791dda6605",
+      "status": "estimated"
+    },
+    {
+      "period": "Postpandemic U.S. immigration surge, 2021-2024",
+      "denominator": {"value": null, "unit": "national U.S. immigration-surge and macroeconomic data; exact descriptive denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "immigrant_profile": {"value": "new immigrants were primarily low-skilled relative to the existing workforce and more likely to be hand-to-mouth consumers", "unit": "reported compositional description", "value_type": "reported_description"},
+        "inflation": {"value": "modeled supply-side and demand-side effects roughly cancel, implying a negligible response of inflation", "unit": "model-implied macroeconomic effect", "value_type": "reported_model_result"},
+        "channels": {"value": "immigration changes both labor supply and consumer demand", "unit": "heterogeneous-agent model channels", "value_type": "modeled_mechanism"}
+      },
+      "method": "Descriptive analysis of the 2021-2024 surge combined with a heterogeneous-agent model featuring capital-skill complementarity.",
+      "uncertainty": "The paper's inflation result is a national macro-model implication, not a direct estimate of local rents, service wait times, school capacity, wages, or public attitudes.",
+      "subgroup": "Recent immigrants relative to the existing U.S. workforce; local and household subgroup outcomes are outside this bounded extraction.",
+      "counterinterpretation": "A small national inflation response can coexist with large local price, capacity, or belonging changes because national averages can offset place-specific gains and burdens.",
+      "source_url": "https://www.nber.org/papers/w35168",
+      "retrieval_hash": "sha256:edb0ebb2629c6c347b12024da72a8db130b281228b0a2fd8af0e3533d0d048b2",
+      "status": "estimated"
+    },
+    {
+      "period": "Cross-source boundary between local demand and lived place",
+      "denominator": {"value": 2, "unit": "NBER source units compared without pooling: one older local-market study and one recent national macro study", "value_type": "source_comparison_count"},
+      "measures": {
+        "measured": {"value": "labor demand, local jobs, service-sector effects, immigrant composition, and national inflation implications", "unit": "observed or modeled source domains", "value_type": "bounded_measure_set"},
+        "unmeasured": {"value": "current local housing supply, rent, crowding, schools, healthcare, transport, business survival, public capacity, resident attitudes, and political response", "unit": "open place and social outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Structured comparison of two NBER sources with different periods, geographies, units, and identification strategies; no data are joined at the person, household, or place level.",
+      "uncertainty": "The sources cannot establish one current national or local immigration effect across work, prices, services, culture, and politics.",
+      "subgroup": "Source-specific populations and places; no common subgroup universe.",
+      "counterinterpretation": "Immigration can expand local labor demand and services while some places face housing or public-capacity strain; both can be true without contradiction.",
+      "source_url": "https://www.nber.org/papers/w35168",
+      "retrieval_hash": "sha256:edb0ebb2629c6c347b12024da72a8db130b281228b0a2fd8af0e3533d0d048b2",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w21123", "claim": "Older U.S. Census local-demand evidence supplies the local jobs and non-traded-services comparison.", "status": "official-research-context"},
+    {"source_url": "https://www.nber.org/books-and-chapters/nber-macroeconomics-annual-2026-volume-41/postpandemic-us-immigration-surge-new-facts-and-inflationary-implications", "claim": "NBER Macroeconomics Annual chapter version identifies the postpandemic surge study as a preliminary macroeconomic analysis.", "status": "published-context"}
+  ],
+  "boundary": "This record shows that immigrants can affect local labor demand through consumption and that recent national supply and demand effects may offset in an inflation model. It does not establish current local housing, service, wage-quality, public-capacity, belonging, or political outcomes, and the two source periods and units are not pooled.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER PDFs for both source studies used for the extracted findings; underlying Census data, macro data, and full replication are not locally reproduced.",
+    "pdf_sha256": "w35168=sha256:edb0ebb2629c6c347b12024da72a8db130b281228b0a2fd8af0e3533d0d048b2; w21123=sha256:840df6b875c5712e3969218e7896f8ebe73b969f611f1b3da89d5f791dda6605",
+    "checked": "2026-09-22"
+  }
+}

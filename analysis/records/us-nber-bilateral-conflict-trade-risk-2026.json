@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-bilateral-conflict-trade-risk-2026",
+  "title": "Economic coercion can replace military confrontation while retaliation compounds bilateral trade losses",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35077; monthly bilateral GDELT event indicator calibrated against human-curated ground truth and estimated gravity-trade panel",
+  "geography": "Global bilateral country pairs, with the United States-China pair highlighted in the reported trade-at-risk comparison",
+  "observations": [
+    {
+      "period": "Monthly bilateral panel; recent-decade comparison reported in the April/May 2026 working-paper version",
+      "denominator": {
+        "value": null,
+        "unit": "bilateral country-pair months and bilateral trade flows; the abstract does not provide one common household, firm, or U.S.-only denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "hostility_layers": {
+          "value": "kinetic fighting, military posture, sanctions-context hostility, and routine diplomacy",
+          "unit": "decomposed monthly bilateral event indicator",
+          "value_type": "reported_measurement"
+        },
+        "economic_coercion_shift": {
+          "value": "the trade-weighted share of hostility channelled through sanctions contexts nearly doubled over the past decade",
+          "unit": "trade-weighted share of measured hostility",
+          "value_type": "reported_trend"
+        },
+        "trade_effect": {
+          "value": "kinetic conflict and trade-context hostility are economically large and statistically precise; routine diplomacy has no detected trade effect",
+          "unit": "estimated bilateral-trade response in a gravity model",
+          "value_type": "estimated_association"
+        },
+        "retaliation_channel": {
+          "value": "directed hostility identifies a retaliation channel that compounds trade losses over several months",
+          "unit": "lagged bilateral trade response",
+          "value_type": "estimated_mechanism"
+        },
+        "trade_at_risk": {
+          "value": 334,
+          "unit": "billions of dollars of bilateral trade relative to a pre-escalation baseline in the paper's comparison",
+          "value_type": "modeled_counterfactual_estimate"
+        },
+        "us_china_share": {
+          "value": "about one-half",
+          "unit": "share of reported bilateral trade at risk",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Construct a monthly bilateral hostility indicator from GDELT events, calibrate it against human-curated ground truth, decompose hostility into four layers, and estimate its relationship with bilateral trade using a gravity model and a directed structure for retaliation.",
+      "uncertainty": "The source is a working paper and the hostility measure is an authored event-data construction. The trade estimates are model-based and do not identify the incidence on U.S. households, particular firms, workers, consumers, or third countries. The $334 billion figure is relative to a pre-escalation counterfactual baseline, not observed lost revenue or a forecast; source timing, specification, event coding, reverse causality, and counterfactual choice matter.",
+      "subgroup": "Country pairs and bilateral trade relationships; the abstract highlights the United States-China pair but does not provide a U.S.-household or firm-level distributional breakdown.",
+      "counterinterpretation": "Sanctions-context hostility may be selected precisely when trade or strategic tensions are already deteriorating, and observed trade reductions can reflect demand, supply, policy, or third-country substitution channels. Routine diplomacy's null aggregate trade result does not mean diplomacy has no political or security value. A trade loss does not by itself establish coercive success or failure.",
+      "source_url": "https://www.nber.org/papers/w35077",
+      "retrieval_hash": "sha256:4eda8fd611c5bcf5578156c2734560344e7b96621f0dc015393d57a4186cf986",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w34006",
+      "claim": "The international-power model treats asymmetric import dependence as a source of coercive leverage and reports that worsening geopolitical relationships can induce trade adjustment; it is a separate mechanism from the observed-event and trade panel here.",
+      "status": "cross-source-comparator-kept-separate"
+    },
+    {
+      "source_url": "https://www.nber.org/papers/w34177",
+      "claim": "The reserves-and-sanctions study supplies a separate financial-channel comparator for sanctions and trade-policy uncertainty, including effects on dollar reserve holdings.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a comparative measured geopolitical-to-trade pathway and a retaliation mechanism. It does not establish a U.S.-only effect, household or firm incidence, supply substitution, public legitimacy, alliance durability, or whether economic coercion achieved a political objective. It must not be merged with the separate CRS timeline of 2025 U.S. tariff responses or with model-based claims about reserve status."
+}

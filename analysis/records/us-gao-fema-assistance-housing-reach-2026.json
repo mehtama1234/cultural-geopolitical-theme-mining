@@ -1,0 +1,111 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-fema-assistance-housing-reach-2026",
+  "title": "FEMA assistance can fund temporary housing and repairs while access and post-disaster housing remain constrained",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-26-108154, a review of FEMA Individual Assistance data and 56 interviews and written responses from FEMA and state/local governments",
+  "geography": "United States; Hurricanes Helene and Milton, 2025 Los Angeles wildfires, and 2025 Texas floods, with selected FEMA and state/local institutional evidence",
+  "observations": [
+    {
+      "period": "Recent disasters covered by FEMA data; GAO report published April 22, 2026",
+      "denominator": {
+        "value": 1200000,
+        "unit": "individuals and households receiving more than $3 billion in FEMA Individual Assistance across selected recent disasters",
+        "value_type": "agency_reported_assistance_universe"
+      },
+      "measures": {
+        "assistance_scale": {
+          "value": "over $3 billion provided to 1.2 million individuals and households",
+          "unit": "reported assistance dollars and recipients",
+          "value_type": "agency_reported_total"
+        },
+        "eligible_uses": {
+          "value": "assistance can cover necessary expenses and serious needs not covered by insurance or low-interest loans, including temporary lodging, rental housing, and home repairs",
+          "unit": "Individual Assistance route and eligible-use description",
+          "value_type": "program_rule_description"
+        },
+        "access_barriers": {
+          "value": "most survivors affected by the reviewed Helene/Milton and Texas-flood events faced long helpline wait times and could not reach a representative when trying to apply",
+          "unit": "selected FEMA helpline evidence",
+          "value_type": "reported_institutional_evidence"
+        },
+        "letter_interpretation": {
+          "value": "some survivors interpreted requests for more information as denial letters; FEMA revised letters in 2024 and 2025",
+          "unit": "eligibility-letter interpretation and administrative response",
+          "value_type": "reported_institutional_evidence"
+        },
+        "housing_constraints": {
+          "value": "survivors and officials faced long-standing post-disaster housing constraints; destroyed pre-existing housing resources and setup requirements delayed direct housing in selected cases",
+          "unit": "post-disaster housing implementation evidence",
+          "value_type": "reported_institutional_evidence"
+        },
+        "delivery_change": {
+          "value": "FEMA shifted toward state/local centers and discontinued door-to-door canvassing, raising access concerns for older, disabled, rural, and phone/internet-limited survivors",
+          "unit": "delivery model change and access-risk assessment",
+          "value_type": "reported_policy_change"
+        }
+      },
+      "method": "GAO reviewed FEMA Individual Assistance data on amounts provided, helpline calls, and eligibility letters and analyzed information from 56 interviews and written responses from FEMA and state/local governments affected by recent disasters.",
+      "uncertainty": "The $3 billion and 1.2 million figures are agency totals across selected disasters and do not establish a survivor-level receipt, adequacy, repair, safe return, or housing-stability rate. Selected helpline, letter, and housing evidence is not a representative prevalence estimate. The report does not link a named property or survivor through application, award, payment, repair, move, or recovery.",
+      "subgroup": "Individuals and households affected by Hurricanes Helene and Milton, the 2025 Los Angeles wildfires, and the 2025 Texas floods; older adults, people with disabilities, rural residents, and people without phone/internet access are identified as potentially affected by delivery changes; FEMA and state/local officials are separate institutional units.",
+      "counterinterpretation": "Aggregate assistance can coexist with serious access barriers because totals do not reveal who was eligible, reached, paid, adequately repaired, or still housed. State/local centers may improve coordination and door-to-door work may be costly or duplicative; the access effects of the delivery change remain empirical questions.",
+      "source_url": "https://www.gao.gov/products/gao-26-108154",
+      "retrieval_hash": "sha256:8c30f9b0b260d164a6ad0b1c3a1f1c66a04cfc920e600354638435747d41b9de",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; GAO review interviews and written responses",
+      "denominator": {
+        "value": 56,
+        "unit": "interviews and written responses from FEMA and state/local governments impacted by disasters in recent years",
+        "value_type": "institutional_interview_and_written_response_universe"
+      },
+      "measures": {
+        "state_capacity": {
+          "value": "officials from four states affected by Helene and Milton reported that they did not have their own individual-assistance programs",
+          "unit": "selected-state institutional capacity evidence",
+          "value_type": "reported_institutional_evidence"
+        },
+        "federal_dependence": {
+          "value": "federal and state officials emphasized that state and local governments need time to prepare for changes because they currently rely on significant federal support",
+          "unit": "intergovernmental delivery dependence",
+          "value_type": "reported_institutional_evidence"
+        }
+      },
+      "method": "GAO synthesis of interviews and written responses from FEMA and affected state/local governments; institutional evidence is retained separately from the agency assistance total.",
+      "uncertainty": "The selected officials and governments are not a representative sample of all jurisdictions or survivor experiences. Reported reliance and capacity do not establish the effectiveness, cost, or legitimacy of any future division of responsibilities.",
+      "subgroup": "FEMA and selected state/local governments affected by recent disasters, including four states without their own individual-assistance programs in the cited evidence.",
+      "counterinterpretation": "State/local reliance on FEMA may reflect efficient federal pooling rather than incapacity, and a transition period could improve local ownership if resources and time are adequate.",
+      "source_url": "https://www.gao.gov/products/gao-26-108154",
+      "retrieval_hash": "sha256:8c30f9b0b260d164a6ad0b1c3a1f1c66a04cfc920e600354638435747d41b9de",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-108154.pdf",
+      "claim": "Official GAO report PDF provides Individual Assistance totals, helpline and letter evidence, housing constraints, delivery changes, and interview context.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108427",
+      "claim": "Related GAO workforce-capacity report; workforce and survivor-assistance routes are not pooled into one outcome.",
+      "status": "related-record"
+    }
+  ],
+  "boundary": "This record adds an assistance-to-housing-reach and intergovernmental-capacity layer. It does not establish survivor-level eligibility, notice, application, award, payment receipt, repair completion, safe occupancy, move/stay, durable housing security, trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and full report PDF reviewed; underlying FEMA administrative data and interview materials are not retained.",
+    "pdf_sha256": "sha256:8c30f9b0b260d164a6ad0b1c3a1f1c66a04cfc920e600354638435747d41b9de",
+    "checked": "2026-09-23"
+  }
+}

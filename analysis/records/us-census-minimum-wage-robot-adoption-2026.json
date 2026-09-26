@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-minimum-wage-robot-adoption-2026",
+  "title": "A higher wage floor can change a factory's technology choice before worker outcomes are known",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using state-level robot exposure and plant-level industrial-robot imports linked to Census microdata",
+  "geography": "United States manufacturing plants and state-border wage-floor comparisons",
+  "observations": [
+    {
+      "period": "1992-2021 data; paper published July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined manufacturing plants and robot-adoption outcomes; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "minimum_wage_robot_adoption": {
+          "value": 8,
+          "unit": "approximately percent increase in robot adoption relative to the mean for a 10 percent increase in the minimum wage",
+          "value_type": "reported_estimate"
+        },
+        "policy_to_technology_path": {
+          "value": "higher minimum wages raise the likelihood that manufacturing firms adopt robots",
+          "unit": "reported relationship under the paper's preferred identification",
+          "value_type": "reported_relationship"
+        },
+        "worker_outcomes": {
+          "value": "not established by the public abstract",
+          "unit": "employment, wages, hours, job quality, bargaining power, and household security",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Census CES working paper using state-level measures of robot exposure and plant-level industrial-robot import data linked to U.S. Census microdata from 1992-2021. The preferred design uses discontinuities at state borders to compare otherwise similar firms facing different wage floors.",
+      "uncertainty": "This is a working paper. The public page gives the main estimate but not the full sample construction, mechanisms, subgroup estimates, employment effects, or worker-level outcomes. Robot adoption is not the same as worker displacement, wage improvement, productivity, safety, or control over work.",
+      "subgroup": "Manufacturing plants exposed to different state minimum-wage floors, with state-level robot exposure and plant-level import measures; exact public subgroup counts are not disclosed.",
+      "counterinterpretation": "Firms can respond to a higher wage floor through automation, prices, hours, hiring, product mix, outsourcing, relocation, or retention. Robots can replace some tasks, complement workers, improve safety, or increase output. State-border designs reduce some confounding but do not by themselves show the full distribution of gains and losses across workers, places, or households.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-42.html",
+      "retrieval_hash": "sha256:f6b1014dc3a03c3a0af2932e4447e48cacbd2a1b6a1c7fc0e4563bf812d2dffd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/topics/research/library/working-papers.html",
+      "claim": "The Census working-paper catalog lists CES-26-42 and summarizes its minimum-wage and robot-adoption estimate.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a bounded policy-to-firm-technology relationship. It does not establish net employment loss, worker wage effects, household welfare, regional decline, political response, or whether automation increased or reduced practical worker control.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-42 landing page and official working-paper catalog reviewed; underlying restricted microdata and paper PDF are not retained",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "format": "named-worker-remedy-followup-record-v1",
-  "checked": "2026-09-17",
+  "checked": "2026-09-25",
   "case": "FTC Amazon Flex driver tip withholding refund program",
   "unit": "FTC-administered refund program and eligible Amazon Flex drivers; not a representative worker sample",
   "stages": {
@@ -35,6 +35,18 @@
       "url": "https://consumer.ftc.gov/consumer-alerts/2021/11/ftc-returns-60-million-amazon-illegally-took-flex-drivers",
       "role": "FTC payment distribution announcement",
       "observation": "FTC reported 139,507 checks totaling $59,428,878 and 1,621 PayPal payments totaling $171,715 in the 2021 round."
+    },
+    {
+      "url": "https://www.ftc.gov/enforcement/refunds/refunds-amazon-flex-drivers",
+      "role": "direct automated access recheck",
+      "observation": "A targeted official-page recheck on 2026-09-25 still identifies the current reissue route for eligible drivers who did not cash earlier checks; the page does not publish a complete current-round success rate.",
+      "interpretation": "The current page supports an active reissue route, not individual current-round receipt or continued work."
+    },
+    {
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "role": "FTC annual refund implementation report",
+      "observation": "As of December 31, 2024, the FTC reported 2,806 successful Zelle payments, participation rising from 90.3% to 92.3%, and 130,952 Amazon Flex drivers receiving full compensation totaling more than $58.5 million.",
+      "interpretation": "This is administrator-reported aggregate receipt and payment success, not a driver-level outcome or evidence of restored work, household recovery, trust, or exit."
     }
   ],
   "next_test": "Obtain a lawful administrator or driver-side follow-up with eligible-driver denominator, payment status, amount, timing, continued platform work, alternative work, and household or bargaining outcomes.",

@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ctc-actc-participation-2021",
+  "title": "Child-tax-credit participation can be high while the dollars reaching eligible taxpayers are lower",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Census CES Exact Match of the 2022 CPS ASEC to IRS administrative data for CTC and ACTC-eligible taxpayers in tax year 2021",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Tax year 2021; paper published August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "CTC/ACTC-eligible taxpayers identified in linked CPS ASEC and IRS administrative records; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "taxpayer_participation": {
+          "value": 91,
+          "unit": "percent of eligible taxpayers who claimed and received CTC or ACTC",
+          "value_type": "reported_share"
+        },
+        "dollar_participation": {
+          "value": 85,
+          "unit": "percent of eligible CTC/ACTC dollars received, under the paper's dollar-participation measure",
+          "value_type": "reported_share"
+        },
+        "policy_context": {
+          "value": "the credit was temporarily expanded under the American Rescue Plan Act",
+          "unit": "tax-year policy context",
+          "value_type": "reported_context"
+        },
+        "measurement_route": {
+          "value": "survey data identify eligible taxpayers and IRS administrative data indicate who claimed and received the credit",
+          "unit": "Exact Match linkage method",
+          "value_type": "study_method"
+        }
+      },
+      "method": "Census CES working paper linking the 2022 Current Population Survey Annual Social and Economic Supplement to IRS administrative data. The Exact Match identifies CTC/ACTC eligibility in the survey and uses IRS records for claiming and receipt, producing taxpayer- and dollar-participation estimates for tax year 2021.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not provide all denominator, eligibility, missing-match, subgroup, or dollar-participation construction details. Participation and dollar receipt do not establish whether the credit was adequate, timely, spent on children, or sufficient to change household security.",
+      "subgroup": "CTC/ACTC-eligible taxpayers identified through the linked CPS ASEC and IRS administrative records; the public abstract does not report detailed subgroup estimates.",
+      "counterinterpretation": "The gap between taxpayer and dollar participation can reflect partial eligibility, credit amount differences, filing and matching rules, timing, or measurement definitions rather than one single access failure. High participation can coexist with inadequate benefit size, and lower dollar participation does not prove nonreceipt by every eligible family.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-49.html",
+      "retrieval_hash": "sha256:c0002473df2e0e278f087af1813b6ef2b3fdb1a1e8d78d98d35ee141ca383352",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/viewbytag?tags=223",
+      "claim": "The Census research catalog confirms the 91% taxpayer-participation and 85% dollar-participation estimates and the Exact Match design.",
+      "status": "official-profile-context"
+    }
+  ],
+  "boundary": "This record adds a measurement and access boundary between eligibility, taxpayer participation, dollar participation, and household security. It does not establish benefit adequacy, timing, child wellbeing, poverty reduction, political response, or durable financial relief.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official research catalog reviewed; linked CPS ASEC and IRS administrative microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

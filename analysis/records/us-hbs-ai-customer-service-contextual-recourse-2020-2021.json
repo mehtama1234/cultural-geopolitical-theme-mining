@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hbs-ai-customer-service-contextual-recourse-2020-2021",
+  "title": "AI can improve customer-service speed and sentiment while failing to repair systemic complaints",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Randomized field experiment at an unnamed meal-delivery company; 138 customer-service agents and 256,934 online chat conversations, with separate conversation-type and chatbot-handoff comparisons",
+  "geography": "Company customer-service operations; geography and customer demographic coverage are not fully disclosed in the public article summary",
+  "observations": [
+    {
+      "period": "December 2020-November 2021; AI suggestions for customer-service agents",
+      "denominator": {"value": 256934, "unit": "online customer-service chat conversations", "value_type": "published_count"},
+      "measures": {
+        "agent_sample": {"value": 138, "unit": "customer-service agents", "value_type": "published_count"},
+        "response_time": {"value": 22, "unit": "percent reduction in response time reported in the institutional summary", "value_type": "reported_effect"},
+        "customer_sentiment": {"value": 0.45, "unit": "point increase on a five-point sentiment scale reported in the institutional summary", "value_type": "reported_effect"},
+        "less_experienced_agent_response_time": {"value": 70, "unit": "percent reduction reported for less-experienced agents", "value_type": "reported_subgroup_effect"},
+        "less_experienced_agent_sentiment": {"value": 1.63, "unit": "point increase on a five-point sentiment scale reported for less-experienced agents", "value_type": "reported_subgroup_effect"}
+      },
+      "method": "Randomized field experiment exploiting exogenous variation in giving agents access to AI-generated response suggestions; the article measures response efficiency and automated sentiment changes across chats.",
+      "uncertainty": "The experiment concerns one meal-delivery company and one AI-assistance tool. Customer sentiment is an automated text-based measure, not a complete account of satisfaction, remedy adequacy, retention, or household welfare.",
+      "subgroup": "Agents with and without AI suggestions, especially less-experienced agents; customer intent and prior chatbot exposure create additional comparison groups.",
+      "counterinterpretation": "Faster and more empathetic messages can improve the interaction without fixing the underlying delivery or account problem; automated sentiment can also miss frustration, repeat effort, or later switching.",
+      "source_url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.03920?af=R",
+      "retrieval_hash": "sha256:a1fce983320bf684c6e81a98870d6785349ef236fa14c3f269bdb3148e5a2eca",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2021; customer intent and chatbot-to-human handoff comparisons",
+      "denominator": {"value": null, "unit": "conversation-type and handoff comparisons within the experiment's customer-service chats; subgroup denominator not stated in the public abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "subscription_cancellation_requests": {"value": "AI improved efficiency and customer sentiment", "unit": "conversation-type comparison", "value_type": "reported_comparison"},
+        "repeat_complaints": {"value": "AI was least effective because systemic issues exceeded the tool's capability", "unit": "conversation-type comparison", "value_type": "reported_comparison"},
+        "prior_chatbot_comprehension_failure_then_ai_assisted_human": {"value": "customer sentiment fell", "unit": "handoff comparison", "value_type": "reported_effect"},
+        "later_recovery_or_switching": {"value": "not observed", "unit": "repeat contact, refund, correction, retention, and exit", "value_type": "unmeasured"}
+      },
+      "method": "The study uses customer intent categories and a data feature in which customers first interacted with an automated chatbot before transfer to a human agent who may or may not have AI assistance.",
+      "uncertainty": "The public article does not provide every subgroup denominator or a long-run customer panel. A negative sentiment measure after a handoff does not establish failed resolution, harm, or later exit.",
+      "subgroup": "Subscription-cancellation requests, repeat complaints, and customers with prior chatbot-comprehension failures; these are conversation-level categories, not fixed household or customer identities across later outcomes.",
+      "counterinterpretation": "A repeat complaint may remain negative because the firm has not fixed delivery or operational problems, not because AI assistance is intrinsically harmful; very rapid response may also be useful in some contexts.",
+      "source_url": "https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2022.03920?af=R",
+      "retrieval_hash": "sha256:a1fce983320bf684c6e81a98870d6785349ef236fa14c3f269bdb3148e5a2eca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human",
+      "claim": "The HBS institutional summary reports the experiment's agent and conversation counts and the response-time and sentiment effects, including the less-experienced-agent subgroup.",
+      "status": "institutional-summary"
+    }
+  ],
+  "boundary": "This record supports an experiment-based interaction result: AI suggestions can improve speed and measured sentiment, while repeat complaints and poor chatbot handoffs expose limits when the underlying problem is systemic. It does not establish durable customer recovery, refund, correction, retention, switching, household welfare, or a universal effect across firms and platforms.",
+  "retrieval_hash": "sha256:a1fce983320bf684c6e81a98870d6785349ef236fa14c3f269bdb3148e5a2eca"
+}

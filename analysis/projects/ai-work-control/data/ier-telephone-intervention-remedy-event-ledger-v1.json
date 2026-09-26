@@ -1,7 +1,7 @@
 {
   "schema": "us-broad-event-ledger-schema-v1",
   "evidence_class": "agency_reported_individual_employment_intervention_record",
-  "purpose": "Twelve DOJ Immigrant and Employee Rights Section telephone-intervention summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, offered reinstatement, non-return, lost-wage payment, wage restoration, seniority repair, or back pay.",
+  "purpose": "Fourteen DOJ Immigrant and Employee Rights Section intervention and resolution summaries represented as bounded case-level sequences from employment-document barriers through agency contact to reported job restoration, alternate-location access, offered reinstatement, non-return, lost-wage payment, wage restoration, seniority repair, or back pay.",
   "events": [
     {
       "event_id": "IER-TEL-2016-10-19-OAKLAND",
@@ -374,6 +374,68 @@
       "counterexample": "A next-day return and stated payment are stronger implementation evidence than an offer, but they do not prove independent receipt, adequacy, or durable protection",
       "evidence_status": "reported",
       "source_and_uncertainty": "Official DOJ IER telephone-interventions page, https://www.justice.gov/crt/telephone-interventions-1; agency-reported case summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-LOR-2026-05-28-ALEXANDRIA-REINSTATEMENT",
+      "unit": "case",
+      "geography": "Alexandria, Virginia; asylum-document employment resolution",
+      "actor_initiating_change": "employer",
+      "event_date": "2026-05-28",
+      "date_precision": "IER FY2026 letter-of-resolution date; page updated September 15, 2026",
+      "denominator": "One reported charging-party case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER FY2026 letters-of-resolution page",
+      "missingness": "Worker and employer identities, termination duration, reinstatement acceptance, payment instrument, receipt date, later employment, benefits, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "A property-management company did not allow an employee to show an asylum I-94 for Supplement B reverification and the matter involved alleged termination discrimination and unfair documentary practice",
+      "alternatives_before_action": "Other work, income, coverage, bargaining, appeal, and feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "The worker faced loss of employment access; the interruption and household effect are not quantified",
+      "choice_or_response": "The charging party pursued an IER charge-based investigation; the worker's effort, acceptance of reinstatement, and later employment are not independently documented",
+      "person_or_actor_with_control": "Employer controlled work access, payroll, and reinstatement; IER controlled the investigation route; the worker's post-offer choice is unobserved",
+      "remedy_or_institutional_response": "After IER notice, the company acknowledged it should have accepted the I-94, offered reinstatement, paid $30,000 in back pay, and trained its human-resources staff",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The agency reports the $30,000 payment and reinstatement offer; payment instrument, receipt, acceptance, and actual return to work are not retained",
+      "durability_followup": "Later employment, accepted reinstatement, benefit continuity, recurrence, household recovery, trust, collective action, switching, and exit are unknown",
+      "immediate_outcome": "Agency-reported back-pay payment, reinstatement offer, and employer training/policy correction",
+      "protected_outcome": "The reported payment and offered reinstatement could repair lost income and work access; actual restoration and durability are not observed",
+      "sacrificed_outcome": "The worker may have borne work, income, time, and status loss before the response; the burden is not quantified",
+      "cost_risk_transfer": "The employer reportedly assumed a monetary and compliance obligation while the worker retains unknown acceptance, adequacy, and recurrence risk",
+      "later_outcome": "No worker-linked receipt, accepted reemployment, household recovery, trust, action, switching, or exit endpoint is reported",
+      "meaning_and_attribution": "The agency record attributes the correction to the I-94/document-practice issue, but no worker-reported fairness, dignity, or institutional-trust endpoint is retained",
+      "public_or_collective_response": "IER investigation and employer training are reported; no later collective or political response is observed",
+      "counterexample": "A reported payment and reinstatement offer can repair an immediate financial stage without proving accepted work restoration or durable security",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER FY2026 letters-of-resolution page, https://www.justice.gov/crt/ier-letters-resolutions-fy-2026; agency-reported case summary with no claimant follow-up"
+    },
+    {
+      "event_id": "IER-LOR-2026-06-17-NEW-YORK-EVERIFY-PAY",
+      "unit": "case",
+      "geography": "New York City, New York; E-Verify employment-resolution case",
+      "actor_initiating_change": "employer",
+      "event_date": "2026-06-17",
+      "date_precision": "IER FY2026 letter-of-resolution date; page updated September 15, 2026",
+      "denominator": "One reported charging-party case; no population denominator",
+      "method": "Structured extraction from the official DOJ Civil Rights Division IER FY2026 letters-of-resolution page",
+      "missingness": "Worker and employer identities, termination duration, alternative work, payment instrument, receipt date, later employment, household outcome, trust, action, and exit are not reported",
+      "condition_or_decision": "job_rule",
+      "exposure": "A U.S. citizen received an E-Verify Tentative Nonconfirmation; the employer refused to rerun the case using the slightly different name SSA provided and eventually terminated the employee",
+      "alternatives_before_action": "Other work, income, appeal, bargaining, coverage, and feasible alternatives are not reported",
+      "immediate_burden_or_benefit": "The worker lost employment access and potentially income because the employer would not follow the SSA-directed name correction; duration and household effect are not quantified",
+      "choice_or_response": "The worker pursued an IER charge; after IER opened its investigation, the employer acknowledged the error and paid front and back pay",
+      "person_or_actor_with_control": "Employer controlled termination, payroll, and verification procedure; IER controlled the investigative route; the worker's later work choice is not followed",
+      "remedy_or_institutional_response": "The employer reportedly paid a total of $8,000 in front and back pay, created Form I-9 and E-Verify policies, and trained human-resources employees",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The agency reports the $8,000 payment; payment instrument, receipt date, adequacy, and independent confirmation are not retained",
+      "durability_followup": "Later employment, recurrence, household recovery, trust, collective action, switching, and exit are unknown",
+      "immediate_outcome": "Agency-reported front/back-pay payment and employer process correction",
+      "protected_outcome": "The payment and policy/training response could repair immediate income loss and reduce recurrence risk; durable work access is not observed",
+      "sacrificed_outcome": "The worker lost work access before correction; time, income, status, and household effects are unknown",
+      "cost_risk_transfer": "The employer reportedly assumed the payment and compliance costs while the worker retains unknown adequacy and recurrence risk",
+      "later_outcome": "No worker-linked later employment, household recovery, trust, action, switching, or exit endpoint is reported",
+      "meaning_and_attribution": "The agency record identifies the verification error, but no worker-reported fairness, dignity, blame, or institutional-trust endpoint is retained",
+      "public_or_collective_response": "IER investigation and employer policy/training response are reported; no later collective or political response is observed",
+      "counterexample": "A reported front/back-pay payment and policy change can address an individual episode without proving accepted durable employment or population-level compliance",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official DOJ IER FY2026 letters-of-resolution page, https://www.justice.gov/crt/ier-letters-resolutions-fy-2026; agency-reported case summary with no claimant follow-up"
     }
   ],
   "arrows": [
@@ -383,7 +445,7 @@
       "to": "worker hotline contact and IER intervention",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "Twelve dated IER summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation to the employer",
+      "evidence": "Fourteen dated IER intervention or resolution summaries describe a worker employment barrier followed by worker or advocate contact and an IER explanation or investigation involving the employer",
       "status": "reported",
       "counterexample": "These are selected intervention summaries, not a prevalence sample or complete record of all affected workers",
       "remaining_gap": "Worker denominator, effort, alternatives, non-use, and counterfactual opportunity"
@@ -405,7 +467,7 @@
       "to": "reported back pay",
       "unit_held_constant": true,
       "time_order_valid": true,
-      "evidence": "The page reports six days of back pay, $3,400, $264, $2,615, full back pay within a month, $5,254, $1,650, and $4,712.50 across selected summaries; the Miami and New York cases report reinstatement offers, while the Yulee case reports an alternate-location job opportunity",
+      "evidence": "The selected summaries report six days of back pay, $3,400, $264, $2,615, full back pay within a month, $5,254, $1,650, $4,712.50, $30,000, and $8,000 across cases; some cases report reinstatement offers while others report alternate-location or continued-work routes",
       "status": "reported",
       "counterexample": "Agency-reported payment is not an independently audited receipt, and a reinstatement offer is not accepted reemployment",
       "remaining_gap": "Payment instrument, date, net amount, receipt, acceptance, and adequacy"
@@ -422,6 +484,6 @@
       "remaining_gap": "Worker-linked receipt, accepted restoration, later employment, household recovery, meaning, recurrence, collective action, switching, and exit"
     }
   ],
-  "boundary": "This ledger formalizes twelve selected DOJ IER intervention summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, offered reinstatement, non-return decisions, rapid rehire, wage restoration, seniority repair, exact back-pay reporting, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
+  "boundary": "This ledger formalizes fourteen selected DOJ IER intervention and resolution summaries. It strengthens the observed or reported sequence from employment barrier through agency intervention to employer correction, alternate-location access, offered reinstatement, non-return decisions, rapid rehire, wage restoration, seniority repair, exact back-pay reporting, and reported back pay, but it does not establish prevalence, worker-confirmed receipt, durable employment, household recovery, trust, action, switching, or exit.",
   "storage_boundary": "No claimant files, direct identifiers, employer identities, bulk archive, or payment instruments are retained; only bounded public case summaries, dates, reported remedy fields, uncertainty, and open arrows are represented."
 }

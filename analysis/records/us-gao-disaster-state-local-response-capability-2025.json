@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disaster-state-local-response-capability-2025",
+  "title": "Disaster response capability varies sharply across states and localities while federal role changes remain consequential",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "GAO-26-108599, Disaster Assistance High-Risk Series: State and Local Response Capabilities",
+  "geography": "United States; 10 states receiving major disaster declarations for selected recent disasters, with federal, state, and local institutional evidence",
+  "observations": [
+    {
+      "period": "Hurricanes Helene and Milton, 2024; Los Angeles wildfires and Texas floods, 2025; report published December 18, 2025",
+      "denominator": {
+        "value": 10,
+        "unit": "states with major disaster declarations whose preparedness assessments GAO analyzed",
+        "value_type": "selected_state_assessment_universe"
+      },
+      "measures": {
+        "capability_variation": {
+          "value": "state and local disaster-response capability levels varied widely",
+          "unit": "selected-state preparedness assessments and official interviews",
+          "value_type": "reported_capability_comparison"
+        },
+        "rural_resource_gap": {
+          "value": "rural or less-resourced jurisdictions faced capability challenges even when located within a well-resourced state",
+          "unit": "reported jurisdictional comparison",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "federal_support": {
+          "value": "states and localities rely substantially on federal grants, training, technical assistance, and response support",
+          "unit": "intergovernmental disaster-response support route",
+          "value_type": "reported_institutional_dependence"
+        },
+        "transition_requirements": {
+          "value": "officials emphasized clear guidance, time to prepare, and continued federal coordination when disaster roles change",
+          "unit": "official policy considerations",
+          "value_type": "reported_policy_requirement"
+        },
+        "catastrophic_floor": {
+          "value": "federal officials said even the best-equipped states would require some federal financial or other support for catastrophic disasters",
+          "unit": "reported intergovernmental response boundary",
+          "value_type": "reported_institutional_boundary"
+        }
+      },
+      "method": "GAO analyzed preparedness assessments for 10 states, summarized selected FEMA preparedness-grant and disaster-response assistance data, and reviewed interviews with federal, state, and local officials.",
+      "uncertainty": "The selected states, disasters, assessments, and interviews are not a representative estimate of national capability. The report does not measure response speed, survivor receipt, repair, health, housing, local economic recovery, or the causal effect of any federal-role change.",
+      "subgroup": "Federal agencies, selected state and local governments, rural and less-resourced jurisdictions, and jurisdictions affected by the selected recent disasters; these are institutional units rather than a survivor panel.",
+      "counterinterpretation": "Variation in capability may reflect different hazards, responsibilities, local choices, or measurement practices rather than a single national decline; federal pooling can also be an efficient complement to local capacity rather than evidence of local failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-108599",
+      "retrieval_hash": "sha256:b8800f0f876ede7f225afba6c4f5e28b990bf4d07a0a851b80352b0ba328cf7e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-108599/index.html",
+      "claim": "Accessible report provides the preparedness-assessment, interview, and intergovernmental-role context.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108154",
+      "claim": "Related FEMA survivor-assistance evidence; institutional response capability and survivor-level receipt remain separate stages.",
+      "status": "related-record"
+    }
+  ],
+  "boundary": "This record adds a selected-jurisdiction capability and federal-dependence layer. It does not establish a national capability rate, survivor-level access or outcome, local economic recovery, public trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and accessible report reviewed; underlying assessments, administrative data, and interview materials are not retained.",
+    "checked": "2026-09-24"
+  }
+}

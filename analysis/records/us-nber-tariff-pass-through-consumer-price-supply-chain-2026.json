@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-tariff-pass-through-consumer-price-supply-chain-2026",
+  "title": "Tariff incidence reaches consumers through direct import prices and slower domestic supply-chain markups",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "NBER Working Paper 35561; U.S. 2025 tariff episode, consumer prices, imported inputs, and domestic producer markups",
+  "geography": "United States goods markets and supply chains",
+  "observations": [
+    {
+      "period": "2025 U.S. tariff episode; paper issued July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "tariff-exposed and less-exposed goods and supply-chain price observations; public abstract does not disclose the full observation count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "consumer_price_pass_through": {
+          "value": 26,
+          "unit": "percent of the tariff increase passed through to consumer prices relative to less-exposed goods, holding aggregate conditions fixed",
+          "value_type": "reported_estimate"
+        },
+        "direct_share": {
+          "value": 64,
+          "unit": "percent of the consumer-price increase attributed to direct effects on foreign varieties",
+          "value_type": "reported_decomposition"
+        },
+        "indirect_share": {
+          "value": 36,
+          "unit": "percent attributed to imported-input costs and domestic-producer markup responses",
+          "value_type": "reported_decomposition"
+        },
+        "indirect_lag": {
+          "value": "nine to twelve months",
+          "unit": "reported supply-chain transmission delay for indirect effects",
+          "value_type": "reported_time_lag"
+        }
+      },
+      "method": "NBER empirical analysis of the 2025 U.S. tariffs comparing exposed and less-exposed goods, decomposing direct import-price effects from imported-input and domestic-markup channels while holding aggregate conditions fixed.",
+      "uncertainty": "This is a working paper and the abstract does not disclose all sample construction details. The estimate is relative to less-exposed goods and does not identify every household’s burden, substitution, wage response, or welfare effect.",
+      "subgroup": "Tariff-exposed goods, foreign varieties, domestic producers using imported inputs, and consumers over different transmission horizons.",
+      "counterinterpretation": "The delayed indirect channel may reflect supply-chain adjustment and market power rather than a uniform consumer price response; firms and households can also substitute products, suppliers, or locations.",
+      "source_url": "https://www.nber.org/papers/w35561",
+      "retrieval_hash": "sha256:4e7a0c3f6b9d2a5e8c1f4b7d0a3e6c9f2b5d8a1c4e7f0b3d6a9c2e5f8b1d4000",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a trade-to-consumer mechanism: geopolitical trade policy can redistribute costs through both rapid import prices and delayed domestic supply-chain markups. It does not show household hardship, political attribution, firm exit, or whether the policy achieved its strategic objective.",
+  "retrieval_hash": "sha256:4e7a0c3f6b9d2a5e8c1f4b7d0a3e6c9f2b5d8a1c4e7f0b3d6a9c2e5f8b1d4000"
+}

@@ -1,6 +1,6 @@
 # Material, time, and care linkage acquisition plan v1
 
-**Checked:** 2026-09-17
+**Checked:** 2026-09-19
 **Scope:** US societal trend program; material pressure, time transfer, care,
 recovery, and meaning  
 **Status:** acquisition and identification plan; no end-to-end result claimed
@@ -48,6 +48,16 @@ window:
 The immediate conclusion is an acquisition gap, not a null result: the current
 bundle can triangulate the societal pattern and identify plausible moderators,
 but it does not contain every required field in one same-unit design.
+
+The Census Household Trends and Outlook Pulse Survey is a useful near-term
+countercheck but not a replacement for the missing family route. Census used a
+longitudinal design throughout 2025, which supported the retained April-to-June
+same-respondent screens. Beginning in March 2026, the survey returned to a
+cross-sectional design focused on Household Pulse content. The 2026 files can
+refresh current care, expense, and confidence distributions, but they cannot
+extend the 2025 respondent follow-up into a new same-family care episode.
+Preserve this design break rather than silently joining 2025 and 2026 as a
+panel.
 
 ## Source check completed
 

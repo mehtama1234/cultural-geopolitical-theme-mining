@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-google-search-explicit-image-removal-control-2026",
+  "title": "A search platform turns image-removal control into a trackable request and repeat-protection route",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Google Search product account of non-consensual explicit-image removal controls",
+  "geography": "United States; Google Search users and people seeking removal of explicit images",
+  "observations": [
+    {
+      "period": "2026-02-10; Google Search removal-control release",
+      "denominator": {
+        "value": 1,
+        "unit": "Google Search product-control release",
+        "value_type": "reported_product_change"
+      },
+      "measures": {
+        "user_control_route": {
+          "value": "people can request removal of non-consensual explicit images from Search and submit multiple images through a simpler form",
+          "unit": "reported user-control feature",
+          "value_type": "reported_product_control"
+        },
+        "status_visibility": {
+          "value": "the Results about you hub lets people track request status and receive email notifications when the status changes",
+          "unit": "reported request-observability feature",
+          "value_type": "reported_product_control"
+        },
+        "repeat_protection": {
+          "value": "users can opt into safeguards intended to filter similar explicit results on an ongoing basis",
+          "unit": "reported repeat-exposure control",
+          "value_type": "reported_protective_control"
+        },
+        "verified_outcome": {
+          "value": "not observed in the product account",
+          "unit": "missing request completion, complete de-indexing, recurrence, survivor safety, wellbeing, trust, and durable exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from Google's official product account; request submission, status visibility, and ongoing filtering are retained separately from actual removal and later user outcomes.",
+      "uncertainty": "The account is a product announcement and does not report request volume, completion time, removal success, false positives, recurrence, geographic scope of de-indexing, or user-level safety and wellbeing.",
+      "subgroup": "People seeking removal of non-consensual explicit images from Google Search; no representative user sample or outcome panel is provided.",
+      "counterinterpretation": "A simpler request form and status notifications can reduce navigation burden while leaving the underlying content, copies on other platforms, and repeated exposure unresolved.",
+      "source_url": "https://blog.google/products-and-platforms/products/search/remove-explicit-images/",
+      "retrieval_hash": "sha256:edaec51d5d4f128a333848daa22c393620b9238cb979c6858bad46e0b5db4d7c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/05/ftc-begins-enforcing-take-down-act",
+      "claim": "The FTC provides a federal escalation route when covered platforms fail to remove qualifying non-consensual intimate images within the statutory period.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://www.takeitdown.ftc.gov/",
+      "claim": "People can report platforms that fail to provide a removal process or fail to remove the image and known copies.",
+      "status": "official-escalation-route"
+    }
+  ],
+  "boundary": "This record adds a user-facing digital-control stage: a simpler removal request, request-status visibility, and an optional repeat-protection feature. It does not establish completed removal, removal across other services, recurrence prevention, survivor safety, wellbeing, trust, or practical exit from the search/platform ecosystem.",
+  "status": "reported"
+}

@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-snap-takeup-targeting-2018",
+  "title": "SNAP outreach raises take-up while changing the marginal enrollee profile",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "Randomized Pennsylvania older-adult SNAP outreach experiment; treatment and control participants remain source-specific",
+  "geography": "Pennsylvania, United States",
+  "observations": [
+    {
+      "period": "Nine months after randomized 2018 SNAP outreach",
+      "denominator": {"value": 30000, "unit": "likely-eligible Pennsylvania adults age 60+ not enrolled at baseline"},
+      "measures": {
+        "status_quo_enrollment": {"value": 6.0, "unit": "percent", "value_type": "causal_estimate"},
+        "information_only_enrollment": {"value": 11.0, "unit": "percent", "value_type": "causal_estimate"},
+        "information_plus_assistance_enrollment": {"value": 18.0, "unit": "percent", "value_type": "causal_estimate"},
+        "intervention_cost_per_additional_enrollee": {"value": "about $20 information-only versus about $60 information-plus-assistance", "unit": "rough program cost", "value_type": "reported_estimate"},
+        "intervention_call_rate": {"value": 30.0, "unit": "percent in each intervention arm", "value_type": "reported_estimate"},
+        "application_success_rate": {"value": 75.0, "unit": "percent across arms", "value_type": "reported_estimate"},
+        "marginal_enrollee_profile": {"value": "lower benefits and less sickness than average control-group enrollee", "unit": "comparative profile", "value_type": "causal_estimate"}
+      },
+      "method": "Randomized field experiment assigning likely-eligible older non-enrollees to status quo, eligibility information, or information plus application assistance; administrative enrollment and benefit/health measures.",
+      "uncertainty": "Historical Pennsylvania experiment; does not identify current national take-up, food security, benefit adequacy, household adaptation, trust, action, or recovery.",
+      "subgroup": "Likely-eligible Pennsylvania adults age 60+ not enrolled in SNAP at baseline.",
+      "counterinterpretation": "The lower-benefit and better-health marginal profile may reflect information, paperwork, need, health, language, trust, or access differences; the study does not isolate each pathway.",
+      "source_url": "https://www.nber.org/papers/w24652",
+      "retrieval_hash": "sha256:4d7fde54e4dc56f060a907a5db0ab48366df5bfcdbdb522e77968d07f9184bcd",
+      "status": "estimated"
+    }
+  ],
+  "boundary": "The experiment closes information/assistance to enrollment and marginal-targeting stages. It does not close benefit adequacy, food security, household adaptation, trust, political action, or recovery."
+}

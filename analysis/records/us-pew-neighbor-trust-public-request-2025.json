@@ -1,0 +1,107 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-neighbor-trust-public-request-2025",
+  "title": "Social trust is associated with stated neighborly help and willingness to follow a public request",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey on neighborhood connection and social trust",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "March 10–16, 2025",
+      "denominator": {
+        "value": 9482,
+        "unit": "U.S. adults in Pew's American Trends Panel survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "know_all_or_most_neighbors": {
+          "value": 26,
+          "unit": "percent saying they know all or most of their neighbors",
+          "value_type": "published_share"
+        },
+        "comfortable_asking_neighbor_keys": {
+          "value": 59,
+          "unit": "percent saying they have a neighbor they would feel comfortable asking to keep emergency keys",
+          "value_type": "published_share"
+        },
+        "would_help_neighbor_mail_plants": {
+          "value": 76,
+          "unit": "percent saying it is extremely or very likely they would bring in mail or water plants for an out-of-town neighbor",
+          "value_type": "published_share"
+        },
+        "would_conserve_if_public_official_asked": {
+          "value": 72,
+          "unit": "percent saying it is extremely or very likely they would conserve water or electricity if asked by a public official",
+          "value_type": "published_share"
+        },
+        "would_bring_meal": {
+          "value": 67,
+          "unit": "percent saying it is extremely or very likely they would bring a meal to a sick neighbor or friend",
+          "value_type": "published_share"
+        }
+      },
+      "method": "Weighted descriptive survey estimates from Pew's American Trends Panel; the source uses the same survey to compare generalized social trust with stated neighborly and public-request behaviors.",
+      "uncertainty": "The measures are self-reported attitudes or stated likelihoods, not observed assistance or compliance. The cross-sectional design does not establish whether social trust causes these intentions, whether a request occurred, or whether action was adequate or sustained.",
+      "subgroup": "Respondents classified as trusters or distrusters by the question whether most people can be trusted; the source also reports neighborhood, regional, demographic, and political-similarity comparisons.",
+      "counterinterpretation": "Trust, willingness to help, and willingness to follow a public request may all reflect safety, resources, local experience, political orientation, or question framing. Stated willingness toward a public official is not institutional trust or later civic action.",
+      "source_url": "https://www.pewresearch.org/short-reads/2025/05/08/how-connected-do-americans-feel-to-their-neighbors/",
+      "retrieval_hash": "sha256:26f2f490ff404570e2e59207fc819c09447fdc66557c08c3d97bb8f342e1dc92",
+      "status": "reported"
+    },
+    {
+      "period": "March 10–16, 2025; truster/distruster conditional comparison",
+      "denominator": {
+        "value": 100,
+        "unit": "percent within respondents classified as trusters or distrusters",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "trusters_would_conserve_if_public_official_asked": {
+          "value": 78,
+          "unit": "percent of trusters saying extremely or very likely",
+          "value_type": "published_conditional_share"
+        },
+        "distrusters_would_conserve_if_public_official_asked": {
+          "value": 64,
+          "unit": "percent of distrusters saying extremely or very likely",
+          "value_type": "published_conditional_share"
+        },
+        "trusters_would_help_neighbor_mail_plants": {
+          "value": 82,
+          "unit": "percent of trusters saying extremely or very likely",
+          "value_type": "published_conditional_share"
+        },
+        "distrusters_would_help_neighbor_mail_plants": {
+          "value": 67,
+          "unit": "percent of distrusters saying extremely or very likely",
+          "value_type": "published_conditional_share"
+        }
+      },
+      "method": "Same-survey conditional comparison of stated likelihoods by generalized social-trust classification.",
+      "uncertainty": "The contrasts are descriptive and do not provide a randomized exposure, temporal order, effect estimate, or observed behavior. The public page does not expose all subgroup cell counts or a linked follow-up.",
+      "subgroup": "Pew-defined trusters and distrusters within the American Trends Panel survey.",
+      "counterinterpretation": "The differences may reflect common causes such as neighborhood safety, resources, social norms, ideology, or prior experience with institutions; trusting people may also report all cooperative intentions more readily.",
+      "source_url": "https://www.pewresearch.org/2025/05/08/americans-trust-in-one-another/",
+      "retrieval_hash": "sha256:26f2f490ff404570e2e59207fc819c09447fdc66557c08c3d97bb8f342e1dc92",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/2025/05/08/americans-trust-in-one-another/",
+      "claim": "Pew explains the truster/distruster contrasts and their relationship to willingness to help or follow a public request.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record closes only a same-survey association between generalized social trust and stated neighborly/public-request willingness. It does not establish social trust as a cause, observe actual compliance or assistance, measure institutional performance, or show later political action, recovery, or durable community capacity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew neighborhood-connection page downloaded and hashed; related Pew trust article cross-checked for conditional contrasts.",
+    "checked": "2026-09-25"
+  }
+}

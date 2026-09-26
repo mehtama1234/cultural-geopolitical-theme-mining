@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-adults-media-use-attention-literacy-2026",
+  "title": "Online participation is becoming more passive while confidence, critical ability, safety, and well-being diverge",
+  "theme_ids": ["time", "voice", "cost", "work"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "consumer_power_recourse", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Ofcom, Adults' Media Use and Attitudes 2026",
+  "geography": "United Kingdom adults aged 16 and over, with age, gender, socioeconomic, and online-use comparisons",
+  "observations": [
+    {
+      "period": "2026; confidence versus demonstrated online-media skills",
+      "denominator": {"value": 7533, "unit": "UK adults aged 16+ in the Adults' Media Literacy Tracker survey", "value_type": "survey_frame"},
+      "measures": {
+        "overall_confidence": {"value": 89, "unit": "percent reporting high overall confidence online", "value_type": "reported_share"},
+        "accuracy_judgment_confidence": {"value": 72, "unit": "percent confident judging accuracy online", "value_type": "reported_share"},
+        "sponsored_result_accuracy": {"value": 52, "unit": "percent of search-engine users correctly identifying sponsored results in a test", "value_type": "reported_test_share"},
+        "fake_profile_accuracy": {"value": 74, "unit": "percent of social-media users correctly identifying a fake profile", "value_type": "reported_test_share"}
+      },
+      "method": "Ofcom quantitative media-literacy survey with scenario tests, supplemented by Adults Media Lives qualitative context.",
+      "uncertainty": "Survey confidence and scenario performance are not equivalent to real-world behavior, and test performance does not establish vulnerability to all forms of manipulation, fraud, or misinformation.",
+      "subgroup": "UK adults by age, gender, socioeconomic group, breadth of online use, and confidence in specific digital skills.",
+      "counterinterpretation": "High confidence can support experimentation and agency, while imperfect test performance may reflect unfamiliar scenarios rather than persistent inability.",
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+      "retrieval_hash": "sha256:d732007736a3b2de857685092c6408cb98976b6c11e05b43d9af1935042f95a9",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; passive participation and platform attention",
+      "denominator": {"value": 1, "unit": "UK online adults in Ofcom social-media behavior comparisons", "value_type": "platform_behavior_frame"},
+      "measures": {
+        "active_participation": {"value": 49, "unit": "percent sharing, posting, or commenting on social media in 2026", "value_type": "reported_share"},
+        "active_baseline": {"value": 61, "unit": "percent sharing, posting, or commenting in 2024", "value_type": "reported_baseline"},
+        "new_site_exploration": {"value": 14, "unit": "percent using lots of new websites in 2026, down from 24 percent", "value_type": "reported_share"},
+        "read_only": {"value": 24, "unit": "percent mainly reading without much interaction", "value_type": "reported_share"}
+      },
+      "method": "Ofcom survey measures of UK online behavior and longitudinal qualitative media-life context.",
+      "uncertainty": "The report notes methodological changes affecting trend interpretation; posting and commenting do not capture private messaging, offline action, or the quality of participation.",
+      "subgroup": "Younger and older adults, active and passive users, socioeconomic groups, and people using social media for communication, video, information, or recommendations.",
+      "counterinterpretation": "Lower public posting can reflect healthier boundaries, privacy preferences, or a shift toward private and small-group communication rather than disengagement.",
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+      "retrieval_hash": "sha256:d732007736a3b2de857685092c6408cb98976b6c11e05b43d9af1935042f95a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; online well-being, screen time, and perceived risk",
+      "denominator": {"value": 1, "unit": "UK online adults and social-media users in Ofcom attitudes measures", "value_type": "online_wellbeing_frame"},
+      "measures": {
+        "benefit_risk_balance": {"value": 59, "unit": "percent saying the benefits of being online outweigh the risks", "value_type": "reported_share"},
+        "mental_health_benefit": {"value": 36, "unit": "percent of social-media users saying platforms are good for their mental health", "value_type": "reported_share"},
+        "screen_time": {"value": 67, "unit": "percent saying they sometimes spend too long on screens", "value_type": "reported_share"},
+        "frequent_screen_time": {"value": 40, "unit": "percent saying this happens most days", "value_type": "reported_share"}
+      },
+      "method": "Ofcom survey measures of online benefits, risks, social-media attitudes, screen-time concerns, and perceived online behavior.",
+      "uncertainty": "These are perceptions and self-reports; they do not establish clinical mental-health effects, addiction, or a causal effect of platform design on time use.",
+      "subgroup": "Social-media users, younger adults, women, people with negative online experiences, and users with different activity patterns.",
+      "counterinterpretation": "The same online environment can support learning, connection, creativity, government access, and skill-building while also generating overload or harm concerns.",
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+      "retrieval_hash": "sha256:d732007736a3b2de857685092c6408cb98976b6c11e05b43d9af1935042f95a9",
+      "status": "reported"
+    },
+    {
+      "period": "2026; digital exclusion and unequal meaningful participation",
+      "denominator": {"value": 1, "unit": "UK adult population and online-user access frame", "value_type": "digital_inclusion_frame"},
+      "measures": {
+        "home_offline": {"value": 6, "unit": "percent of adults without internet access at home", "value_type": "reported_share"},
+        "smartphone_only": {"value": 20, "unit": "percent of online adults relying solely on a smartphone for access", "value_type": "reported_share"},
+        "narrow_users": {"value": 21, "unit": "percent of users classified as narrow internet users", "value_type": "reported_share"},
+        "concentration": {"value": "offline and narrow-use groups are disproportionately older, female, and in lower socioeconomic households", "unit": "reported inequality pattern", "value_type": "reported_pattern"}
+      },
+      "method": "Ofcom access, device, skills, confidence, and online-use analysis in the 2026 adult media-literacy report.",
+      "uncertainty": "Access and use categories do not measure the quality, affordability, privacy, reliability, or social value of connectivity for each person.",
+      "subgroup": "Older adults, women, lower socioeconomic households, people with limited digital confidence, and users dependent on a single device.",
+      "counterinterpretation": "Smartphone-only access can be functional and empowering for some uses, while broader device and skills access may still matter for work, public services, and complex tasks.",
+      "source_url": "https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/media-literacy-research/adults/adults-media-use-and-attitudes-2026/adults-media-use-and-attitudes-2026-report.pdf",
+      "retrieval_hash": "sha256:d732007736a3b2de857685092c6408cb98976b6c11e05b43d9af1935042f95a9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025", "claim": "Ofcom Online Nation context on platform time, AI search, children’s online activity, online spending, and action after harmful content."},
+    {"source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/attitudes-to-news/news-consumption", "claim": "Ofcom 2026 news-consumption context on intermediaries, social platforms, video, and AI tools."}
+  ],
+  "boundary": "This record adds a UK platform-attention, media-literacy, online-well-being, and digital-inclusion route. It reports aggregate publication findings and test summaries; it is not respondent-level analysis, behavioral telemetry, a clinical mental-health study, or a causal estimate of platform effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ofcom Adults' Media Use and Attitudes 2026 report and related Ofcom online-habits context were reviewed; confidence, scenario performance, participation, well-being, screen-time, and digital-inclusion claims were cross-checked.",
+    "source_url_sha256": "sha256:d732007736a3b2de857685092c6408cb98976b6c11e05b43d9af1935042f95a9",
+    "checked": "2026-09-26"
+  }
+}

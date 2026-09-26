@@ -1,0 +1,45 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-circle-political-homes-youth-civic-capacity-2026",
+  "title": "Civic belonging and practical support can function as political capacity",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "CIRCLE 2026 Political Homes research on youth civic access, belonging, support, and participation",
+  "geography": "United States; young people and youth civic-engagement contexts",
+  "observations": [
+    {
+      "period": "2026-02-26; CIRCLE Political Homes analysis",
+      "denominator": {"value": null, "unit": "reported CIRCLE youth research sample; exact denominator not used in this extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "civic_action_difference": {"value": "young people with access to political homes demonstrated civic action about 20 percentage points higher than peers without that access", "unit": "reported percentage-point comparison", "value_type": "reported_comparison"},
+        "civic_self_efficacy_difference": {"value": "young people with access to political homes also showed higher civic self-efficacy by about 20 percentage points", "unit": "reported percentage-point comparison", "value_type": "reported_comparison"},
+        "political_home_resources": {"value": "political homes can provide safe third spaces, belonging, civic information, food, financial compensation, and transportation to youth", "unit": "reported support mechanisms", "value_type": "reported_context"},
+        "wellbeing_buffer": {"value": "strong political-home connections were reported to buffer mental-health costs associated with political involvement", "unit": "reported relationship", "value_type": "reported_association"}
+      },
+      "method": "Review of CIRCLE's 2026 Political Homes analysis; civic action, self-efficacy, belonging, practical support, and wellbeing are retained as separate reported surfaces.",
+      "uncertainty": "The public analysis is not a randomized assignment to a political home and does not establish that the support setting caused civic action. Exact sample construction, measure wording, subgroup denominators, and the timing of support relative to action must be preserved from the underlying study materials.",
+      "subgroup": "Young people with and without reported access to political-home settings; the public summary highlights historically marginalized and underserved youth but does not supply all subgroup estimates in the page extraction.",
+      "counterinterpretation": "Youth who already have more time, safety, social connection, resources, or political interest may be more likely both to enter a political home and to participate. A supportive space may also enable action for some people while imposing emotional, time, or identity costs for others.",
+      "source_url": "https://circle.tufts.edu/latest-research/building-political-homes-youth",
+      "retrieval_hash": "sha256:bf8d2172c4b7ac833c50fc7d48b89ef1529163c76a8750c53989decf40f08cda",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://circle.tufts.edu/sites/default/files/2026-02/building_political_homes_youth_2026.pdf", "claim": "CIRCLE's 2026 report provides the political-home framework and the relationship between civic belonging, practical support, civic self-efficacy, action, and wellbeing.", "status": "primary-research-report"},
+    {"source_url": "https://circle.tufts.edu/sites/default/files/2026-02/political_homes_toolkit_2026.pdf", "claim": "CIRCLE's toolkit supplies the applied political-home and youth-support framework; it is not treated as an outcome estimate.", "status": "implementation-context"}
+  ],
+  "boundary": "This record supports a bounded social-infrastructure-to-civic-capacity association. It does not establish a causal effect of political homes, final turnout, policy influence, institutional response, durable trust, or a same-person route from material support to political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official CIRCLE HTML research page retrieved and hashed; underlying respondent data and full analytic files not retained",
+    "html_sha256": "sha256:bf8d2172c4b7ac833c50fc7d48b89ef1529163c76a8750c53989decf40f08cda",
+    "checked": "2026-09-21"
+  }
+}

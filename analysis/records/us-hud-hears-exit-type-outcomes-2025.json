@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hud-hears-exit-type-outcomes-2025",
+  "title": "Housing-assistance exit type predicts sharply different housing, health, and wage outcomes",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Heads of household and individuals exiting housing assistance in the HUD HEARS linked administrative-data study",
+  "geography": "King County, Washington; Seattle Housing Authority and King County Housing Authority",
+  "observations": [
+    {
+      "period": "Nondeath, nontransfer exits; linked study cohort",
+      "denominator": {
+        "value": 8266,
+        "unit": "heads of household with classified exit type",
+        "value_type": "linked_administrative_exit_sample"
+      },
+      "measures": {
+        "positive_exit_share": {
+          "value": 13.5,
+          "unit": "percent of heads of household; increased income, homeownership, or move to nonsubsidized rental among positive examples",
+          "value_type": "reported_share"
+        },
+        "neutral_exit_share": {
+          "value": 54.9,
+          "unit": "percent of heads of household",
+          "value_type": "reported_share"
+        },
+        "negative_exit_share": {
+          "value": 31.6,
+          "unit": "percent of heads of household; examples include eviction, lease violation, criminal activity, or abandonment",
+          "value_type": "reported_share"
+        },
+        "individual_linked_sample": {
+          "value": 16301,
+          "unit": "linked individuals with classified exit type",
+          "value_type": "linked_administrative_exit_sample"
+        },
+        "one_year_homelessness_positive_exit": {
+          "value": 3.1,
+          "unit": "percent of individuals with a homelessness or unstable-housing event within one year after exit",
+          "value_type": "reported_share"
+        },
+        "one_year_homelessness_neutral_exit": {
+          "value": 14.5,
+          "unit": "percent of individuals with a homelessness or unstable-housing event within one year after exit",
+          "value_type": "reported_share"
+        },
+        "one_year_homelessness_negative_exit": {
+          "value": 25.4,
+          "unit": "percent of individuals with a homelessness or unstable-housing event within one year after exit",
+          "value_type": "reported_share"
+        },
+        "negative_exit_behavioral_health_crisis_odds": {
+          "value": 2.10,
+          "unit": "adjusted odds ratio versus neutral exit for a behavioral-health crisis within one year",
+          "value_type": "reported_adjusted_odds_ratio"
+        },
+        "positive_vs_negative_ed_odds": {
+          "value": 0.74,
+          "unit": "adjusted odds ratio for one or more emergency-department visits within one year, positive versus negative exit",
+          "value_type": "reported_adjusted_odds_ratio"
+        },
+        "positive_exit_wage_premium": {
+          "value": "2000–2500",
+          "unit": "dollars higher quarterly wages before and after exit for positive-exit households relative to other exit groups",
+          "value_type": "reported_difference_range"
+        }
+      },
+      "method": "HUD Form 50058 and separate public-housing-authority exit records were probabilistically linked with King County employment-security wage data, Medicaid claims, behavioral-health data, homelessness-service data, and the Homeless Management Information System. Exit reasons were standardized as positive, neutral, or negative; outcomes were examined within one year after exit with adjusted comparisons.",
+      "uncertainty": "This is a regional observational study using probabilistic linkage and locally defined exit categories. The categories are substantively meaningful but not purely natural: health-related and moves-to-family exits can be positive or negative depending on circumstances. Associations do not establish that exit type caused the later outcome, and results may not generalize nationally or to non-MTW housing authorities.",
+      "subgroup": "Heads of household and linked individuals exiting from Seattle Housing Authority or King County Housing Authority assistance after excluding deaths and transfers between PHA programs.",
+      "counterinterpretation": "Pre-existing health, homelessness, income, housing-market, and administrative conditions may jointly influence both exit classification and later outcomes. The strong separation may therefore reflect selection into exit type as well as consequences of the exit.",
+      "source_url": "https://www.huduser.gov/portal/portal/sites/default/files/pdf/HUD-HEARS-Study.pdf",
+      "retrieval_hash": "sha256:70356db7c5793d1d91069f81c8312e816ee1d56ec137d94e4798595f0ad2874c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.huduser.gov/portal/publications/What-Happens-to-Housing-Assistance-Leavers.html",
+      "claim": "HUD USER context describes the longstanding need to distinguish positive and negative housing-assistance exits.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record supplies a same-linked-unit regional housing-exit-to-housing-stability, health, behavioral-health, and wage-outcome bridge. It does not provide a national estimate, causal exit effects, rent burden for every linked unit, household trust, political action, or durable security beyond the one-year outcome window.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Hash is of the canonical official PDF URL because HUD USER returned the report through the web document interface but denied a direct local PDF transfer; official report text and tables were reviewed. Restricted linked administrative data and analysis code are not retained.",
+    "checked": "2026-09-24"
+  }
+}

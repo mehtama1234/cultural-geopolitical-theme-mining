@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-butler-nickerson-constituency-information-legislative-vote-2008",
+  "title": "Providing district-specific constituent opinion made state legislators' votes track constituency preferences more closely",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Butler and Nickerson randomized field experiment with the New Mexico state legislature",
+  "geography": "New Mexico state House districts; 70-seat House, with 35 matched treatment-control pairs",
+  "observations": [
+    {
+      "period": "August 2008 special legislative session",
+      "denominator": {
+        "value": 10690,
+        "unit": "valid responses from a random sample of registered New Mexico voters; district samples ranged from 85 to 252, average 153",
+        "value_type": "survey_respondent_sample"
+      },
+      "measures": {
+        "legislator_assignment": {"value": "district-specific survey results were sent to a randomly selected half of the 70-member House; 35 matched treatment-control pairs", "unit": "randomized legislative exposure", "value_type": "experimental_assignment"},
+        "vote_alignment": {"value": "among legislators receiving district-specific results, the relationship between district opinion and the tax-rebate vote was strongly positive; among controls it was near zero (rho=-0.07)", "unit": "district-level vote/opinion relationship", "value_type": "reported_causal_comparison"},
+        "overall_tax_rebate_vote": {"value": "84.4% of control legislators voted yes versus 68.6% of treated legislators; treatment minus control=-15.8 percentage points, SE=7.4", "unit": "percent of legislators voting yes on SB 24", "value_type": "reported_experimental_difference"},
+        "low_support_district_effect": {"value": "receiving constituent-opinion information substantially reduced the probability of voting for the tax rebate in low-support districts; reported estimated effects ranged roughly 10–30 percentage points depending on comparison", "unit": "percentage-point vote effect in below-median-support districts", "value_type": "reported_heterogeneous_effect"}
+      },
+      "method": "Researchers surveyed New Mexico voters about spending proposals, constructed district-specific opinion estimates, and randomly assigned half of the state House to receive a letter with its district results. They then observed the legislators' vote on SB 24, a one-time tax rebate bill, and compared treatment and control relationships between constituent opinion and voting.",
+      "uncertainty": "The experiment covers one state House, one special session, one tax-rebate vote, and a survey question that did not perfectly map onto the bill. Legislators may have responded to information, anticipated accountability, or both. The result does not establish current national congressional responsiveness, universal policy influence, or that constituent opinion overrides party, interest groups, ideology, or other considerations.",
+      "subgroup": "Effects were concentrated in districts with below-median support for the Governor's spending proposals; high-support districts showed little treatment difference because the default vote was already favorable.",
+      "counterinterpretation": "Receiving a credible poll may change perceived electoral accountability rather than private policy belief. The study measures a legislator's vote, not constituent satisfaction, implementation, material benefit, or later trust; the bill and timing may make the effect unusually visible.",
+      "source_url": "https://sites.temple.edu/nickerson/files/2017/07/Butler_Nickerson.QJPS11.pdf",
+      "retrieval_hash": "sha256:4e41b31f4aa26d96d9a6b5c1407b0f7f51b91512a4414f8715708aad5acf439b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://isps.yale.edu/research/data/d068",
+      "claim": "Yale's archive identifies the replication materials, research design, data types, and responsiveness topic.",
+      "status": "replication-archive"
+    }
+  ],
+  "boundary": "This record closes a district-opinion-information-to-legislative-vote layer under a randomized field design. It does not show that ordinary constituent contact generated the information, that the vote produced implementation or household benefit, or that the result generalizes across issues, legislatures, time, or national politics.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Temple-hosted article PDF downloaded and hashed; Yale archive and article appendix cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

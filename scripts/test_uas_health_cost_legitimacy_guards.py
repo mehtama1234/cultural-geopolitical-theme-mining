@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / "scripts/audit_uas_health_cost_legitimacy_files.py"
 MERGE = ROOT / "scripts/audit_uas_health_cost_legitimacy_merge.py"
 FOLLOWUP = ROOT / "scripts/analyze_uas_monthly_medical_expense_followup.py"
+MANIFEST = ROOT / "analysis/projects/us-household-constraint-cascade/data/uas-minimum-episode-field-manifest-v1.json"
 FIELDS = ["uasid", "wave", "final_weight", "fin3s4"]
 
 
@@ -36,6 +37,14 @@ def run(*args: str) -> subprocess.CompletedProcess[str]:
 
 
 def main() -> int:
+    manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    assert manifest["public_codebook_recheck"]["documented_panel_keys"] == ["uasid", "wave"]
+    assert manifest["public_codebook_recheck"]["documented_weight"] == "final_weight"
+    modules = {item["role"]: item for item in manifest["candidate_files"]}
+    assert "hcb_reach" in modules["uas537_healthcare_experience"]["documented_candidates"]["institutional_route"]
+    assert "hcb_result" in modules["uas537_healthcare_experience"]["documented_candidates"]["institutional_route"]
+    assert "N493" in modules["uas698_health_cost"]["documented_candidates"]["foregone_care_reasons"]
+
     valid = [
         {"uasid": "1", "wave": "1", "final_weight": "1", "fin3s4": "1"},
         {"uasid": "1", "wave": "2", "final_weight": "1", "fin3s4": "2"},

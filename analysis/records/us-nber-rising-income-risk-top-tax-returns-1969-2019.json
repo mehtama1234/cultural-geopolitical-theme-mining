@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-rising-income-risk-top-tax-returns-1969-2019",
+  "title": "Income risk rose especially sharply at the top, increasing saving and wealth inequality in the model",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "firm_sector_market_power", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35664; digitized U.S. tax returns from 1969-2019 and a life-cycle model",
+  "geography": "United States; tax-return income distribution, permanent and transitory income risk, saving, wealth, and financial distress",
+  "observations": [{
+    "period": "1969-2019 tax-return evidence with 2026 working-paper model",
+    "denominator": {"value": 1, "unit": "U.S. tax-return and life-cycle-model study", "value_type": "study_unit"},
+    "measures": {
+      "risk_trend": {"value": "permanent income risk increased across the distribution and nearly 70% among the top 5%", "unit": "permanent income-risk change", "value_type": "reported_estimate"},
+      "distress": {"value": "large negative income shocks strongly predicted financial distress even among top earners", "unit": "income-shock and distress relationship", "value_type": "reported_relationship"},
+      "saving_model": {"value": "higher risk at the top increased saving and wealth inequality in the life-cycle model", "unit": "modeled saving and wealth response", "value_type": "reported_model_result"},
+      "rate_model": {"value": "the modeled risk-free-rate effect was a 0.7 percentage-point reduction", "unit": "modeled risk-free-rate change", "value_type": "reported_model_result"}
+    },
+    "method": "The authors use newly digitized U.S. tax returns to separate permanent and transitory income risk from 1969 to 2019, relate negative shocks to financial distress, and use a quantitative life-cycle model to study saving, wealth inequality, and the risk-free rate.",
+    "uncertainty": "The tax records do not explain each saving decision, asset destination, firm response, borrower rate, housing-price effect, or political response. The 0.7 percentage-point rate result is model-based and is not a rate change for every household or loan.",
+    "subgroup": "U.S. households across the income distribution, especially the top 5%; risk, assets, debt, liquidity, occupation, business ownership, and ability to wait vary within the top group and across lower-income households.",
+    "counterinterpretation": "Higher saving can support investment, resilience, and future consumption rather than only reduce demand or widen inequality. A lower modeled risk-free rate can help some borrowers while asset-price increases or credit standards hurt others; the study does not identify the pass-through.",
+    "source_url": "https://www.nber.org/papers/w35664",
+    "retrieval_hash": "sha256:1fac9c959917431d9a93c5e916249ace2e5b0b2b059b008e28bc6accc5af6071",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35664", "claim": "NBER DOI record for Working Paper 35664", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a distributional-finance finding: risk, saving, wealth, credit conditions, and household security can move on different levels and clocks. It does not establish that top-income saving caused any particular lower-income household's rent, loan rate, wage, distress, or political response."
+}

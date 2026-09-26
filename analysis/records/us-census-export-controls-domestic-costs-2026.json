@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-export-controls-domestic-costs-2026",
+  "title": "Export controls can pursue national-security goals while spreading costs across U.S. firms",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using export transactions, controlled-product classifications, and firm-level outcomes",
+  "geography": "United States exporters; 2010-2024 export-control coverage and 2014 Russia restriction case",
+  "observations": [
+    {
+      "period": "2010-2024 export-control coverage; 2014 restriction on exports to Russia",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. exports and exporting firms in the paper's transaction and firm-level samples; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "controlled_export_share": {
+          "value": "doubled",
+          "unit": "share of U.S. exports subject to controls between 2010 and 2024",
+          "value_type": "reported_trend"
+        },
+        "firm_size_distribution": {
+          "value": "skewed",
+          "unit": "distribution of firms exporting controlled products by firm size",
+          "value_type": "reported_distribution"
+        },
+        "targeted_russia_export_probability": {
+          "value": "declined for affected firms",
+          "unit": "probability of exporting targeted goods to Russia after the 2014 restriction",
+          "value_type": "reported_effect"
+        },
+        "spillover_exports": {
+          "value": "affected firms also reduced exports of other products and to other destinations",
+          "unit": "indirect firm-level export response",
+          "value_type": "reported_effect"
+        },
+        "average_payroll": {
+          "value": "lower for affected firms",
+          "unit": "firm average payroll response",
+          "value_type": "reported_effect"
+        }
+      },
+      "method": "Census CES working paper using export transactions with product classifications used to administer controls, then exploiting the 2014 U.S. restriction on exports to Russia as a natural experiment for firm-level outcomes.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not disclose all sample construction, control definitions, firm heterogeneity, timing, or the complete estimated magnitudes. The source measures exporter and payroll responses; it does not measure national-security success, foreign adaptation, consumer prices, employment counts, or household welfare.",
+      "subgroup": "U.S. firms exporting controlled goods and firms affected by the 2014 Russia restriction; the abstract reports a skewed firm-size distribution but does not provide all subgroup estimates.",
+      "counterinterpretation": "The export and payroll changes may reflect the Russia shock, broader geopolitical conditions, product demand, firm selection, substitution, or other policy changes rather than the restriction alone. Domestic cost does not mean the policy failed: a restriction can impose costs while achieving a security or diplomatic objective that this source does not measure.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-50.html",
+      "retrieval_hash": "sha256:c6339a637a7135d63c5f6d97e37bdb7f4b4b26661246eeb7432cce38360393f8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1439",
+      "claim": "The Census research profile repeats the paper's export-coverage and firm-outcome summary and identifies the underlying administrative data context.",
+      "status": "official-profile-context"
+    }
+  ],
+  "boundary": "This record adds a bounded policy-to-exporter-cost pathway. It does not weigh national-security benefit against domestic cost, establish strategic effectiveness, or show the final effect on workers, consumers, households, or foreign state behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official research profile reviewed; underlying restricted export transactions and firm microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

@@ -15,6 +15,12 @@ OUTCOMES = {
     "unable_to_pay_energy_bill": ("HSE16", lambda x: x == 1),
     "recent_household_job_loss": ("WRKLOSSRV", lambda x: x == 1),
     "high_confidence_in_congress": ("TRUST2_CONGRESS", lambda x: x in (1, 2)),
+    "high_confidence_in_presidency": ("TRUST2_PRESIDENCY", lambda x: x in (1, 2)),
+    "high_confidence_in_military": ("TRUST2_MILITARY", lambda x: x in (1, 2)),
+    "high_confidence_in_police": ("TRUST2_POLICE", lambda x: x in (1, 2)),
+    "high_confidence_in_supreme_court": ("TRUST2_SUPREME", lambda x: x in (1, 2)),
+    "high_confidence_in_public_schools": ("TRUST2_SCHOOLS", lambda x: x in (1, 2)),
+    "high_confidence_in_statistical_agencies": ("TRUST2_STATISTICAL", lambda x: x in (1, 2)),
 }
 
 
@@ -75,6 +81,7 @@ def main():
     parser.add_argument("--baseline-rep", type=Path, required=True)
     parser.add_argument("--followup", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--period", default="April 15–29 to June 16–25, 2025")
     args = parser.parse_args()
     baseline = {row["SCRAMID"]: row for row in read(args.baseline)}
     followup = {row["SCRAMID"]: row for row in read(args.followup)}
@@ -88,7 +95,7 @@ def main():
             measures[f"{exposure_name}_{outcome_name}"] = estimate(pairs, variable, predicate, exposure_predicate, rep_by_id)
     result = {
         "format": "htops-cross-lagged-panel-audit-v1",
-        "period": "April 15–29 to June 16–25, 2025",
+        "period": args.period,
         "linked_ids": len(ids),
         "measures": measures,
         "baseline_puf_sha256": "sha256:" + sha256(args.baseline),

@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-program-effectiveness-2026",
+  "title": "A program can count its reach without knowing whether it solved the problem",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office synthesis of federal program performance management and evaluation evidence",
+  "geography": "United States federal programs and agencies",
+  "observations": [
+    {
+      "period": "2026; GAO synthesis of federal program performance management",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO synthesis of selected federal-program oversight findings",
+        "value_type": "source_defined_review_universe"
+      },
+      "measures": {
+        "outcome_evidence": {"value": "many programs lack clearly defined goals or relevant data to assess outcomes", "unit": "reported oversight pattern", "value_type": "reported_finding"},
+        "decision_problem": {"value": "Congress and agency leaders often lack information to determine whether programs solve intended problems", "unit": "reported governance consequence", "value_type": "reported_finding"},
+        "input_output_boundary": {"value": "programs often focus on money spent or people reached rather than whether lives improved", "unit": "reported measurement distinction", "value_type": "reported_finding"}
+      },
+      "method": "GAO synthesis of prior audits, program performance-management work, and evaluation guidance; it is not a national probability sample of federal programs.",
+      "uncertainty": "The synthesis identifies recurring oversight gaps but does not estimate their prevalence across all programs, quantify recipient harm, or provide a single effectiveness score.",
+      "subgroup": "Federal agencies and programs reviewed by GAO; selected examples include health, food, childcare, public safety, disaster, and homeland-security programs.",
+      "counterinterpretation": "A missing outcome measure does not prove a program failed; performance management can serve as an early-warning system and can improve before impact evidence is available.",
+      "source_url": "https://www.gao.gov/products/gao-26-109130",
+      "retrieval_hash": "sha256:2c8aa40a3765c10943e57ee68d475184dc4e7a28e96903a027f0c2ed5dddea02",
+      "status": "reported"
+    },
+    {
+      "period": "2026; selected programs serving pregnant women, young children, and their families",
+      "denominator": {
+        "value": 15,
+        "unit": "federal programs at five agencies identified by GAO as providing direct services only to this population",
+        "value_type": "selected_programs"
+      },
+      "measures": {
+        "programs_with_performance_management": {"value": 12, "unit": "programs with goals, data collection, and use of information", "value_type": "reported_count"},
+        "programs_without_performance_management": {"value": 3, "unit": "programs recommended to fully develop the process", "value_type": "reported_count"}
+      },
+      "method": "GAO review of selected programs and their performance-management processes.",
+      "uncertainty": "The 15 programs are a selected review universe, not a representative sample or a causal comparison; having a performance process does not prove an outcome improved.",
+      "subgroup": "Pregnant women, young children, and their families as intended service population; program-level review does not observe individual recipients.",
+      "counterinterpretation": "Twelve programs having performance processes is evidence of measurement capacity, not evidence that those programs produced adequate or durable household outcomes.",
+      "source_url": "https://www.gao.gov/products/gao-26-109130",
+      "retrieval_hash": "sha256:2c8aa40a3765c10943e57ee68d475184dc4e7a28e96903a027f0c2ed5dddea02",
+      "status": "reported"
+    },
+    {
+      "period": "2020; federal manager access to robust evaluations",
+      "denominator": {
+        "value": 1,
+        "unit": "federal manager survey result summarized by GAO",
+        "value_type": "source_defined_survey_universe"
+      },
+      "measures": {
+        "managers_with_robust_evaluation_access": {"value": "about one-third", "unit": "share of surveyed federal managers reporting access to robust evaluations", "value_type": "reported_share"}
+      },
+      "method": "GAO summary of a 2020 survey of federal managers about access to robust program evaluations.",
+      "uncertainty": "The source summary does not reproduce the full denominator here, and the survey predates the 2026 report; it is not a current national estimate of agency evaluation capacity.",
+      "subgroup": "Federal managers surveyed in 2020.",
+      "counterinterpretation": "Managers may use other performance information even without a robust impact evaluation; lack of access does not prove lack of all useful evidence.",
+      "source_url": "https://www.gao.gov/products/gao-26-109130",
+      "retrieval_hash": "sha256:2c8aa40a3765c10943e57ee68d475184dc4e7a28e96903a027f0c2ed5dddea02",
+      "status": "reported"
+    },
+    {
+      "period": "2019-2024; DHS Securing the Cities measurement improvement",
+      "denominator": {
+        "value": 1,
+        "unit": "DHS Securing the Cities program case summarized by GAO",
+        "value_type": "named_program_case"
+      },
+      "measures": {
+        "2019_status": {"value": "did not collect information to fully track cities' use of funds or assess performance", "unit": "reported oversight finding", "value_type": "reported_status"},
+        "2024_status": {"value": "established goals, performance measures, milestones, and quarterly financial assessments", "unit": "reported program-management improvement", "value_type": "reported_status"},
+        "preparedness_impact": {"value": "not observed", "unit": "measured effect on nuclear-terrorism detection or deterrence", "value_type": "unmeasured"}
+      },
+      "method": "GAO comparison of earlier oversight and subsequent follow-up on a named DHS program.",
+      "uncertainty": "Improved goals and tracking show management capacity, not causal improvement in preparedness, local capability, or public safety.",
+      "subgroup": "State and local governments participating in DHS Securing the Cities; recipient-level outcome coverage is not reported here.",
+      "counterinterpretation": "This is a counterexample to a simple state-failure story: oversight can lead to better measurement and management even when final impact remains open.",
+      "source_url": "https://www.gao.gov/products/gao-26-109130",
+      "retrieval_hash": "sha256:2c8aa40a3765c10943e57ee68d475184dc4e7a28e96903a027f0c2ed5dddea02",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/managing-results-government",
+      "claim": "GAO's managing-for-results overview provides related performance-management and evaluation guidance.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record measures federal performance-management and evaluation capacity, selected program process coverage, and one documented improvement path. It does not establish a national program-effectiveness rate, recipient-level adequacy, durable outcomes, trust change, political action, or program failure.",
+  "retrieval_hash": "sha256:2c8aa40a3765c10943e57ee68d475184dc4e7a28e96903a027f0c2ed5dddea02"
+}

@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-date-entry-design-usability-near-dates-2026",
+  "title": "Small interface choices can change how successfully people complete public date questions",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "infrastructure_technology_dependency", "trust_identity_meaning"],
+  "source_unit": "Census Research Report Series methodology experiment with 1,000 participants completing near-date tasks in text-entry, dropdown, and calendar designs",
+  "geography": "United States; survey usability experiment with study participants",
+  "observations": [
+    {
+      "period": "2026 usability experiment on near-date entry; paper published August 2026",
+      "denominator": {"value": 1000, "unit": "experiment participants assigned date-entry designs and tasks", "value_type": "reported_count"},
+      "measures": {
+        "effectiveness": {"value": "calendar design performed better than text entry for effectiveness", "unit": "successful task completion", "value_type": "reported_comparison"},
+        "efficiency": {"value": "calendar design performed better than both text entry and dropdown designs for most tasks", "unit": "task completion efficiency", "value_type": "reported_comparison"},
+        "task_condition": {"value": "the advantage was especially relevant for near-date tasks requiring knowledge of the day of the week", "unit": "task-design interaction", "value_type": "reported_interaction"},
+        "perceived_difficulty": {"value": "no design difference was observed in perceived difficulty; most participants rated all conditions extremely easy", "unit": "subjective difficulty rating", "value_type": "reported_null"}
+      },
+      "method": "Randomized usability experiment comparing text-entry, dropdown, and calendar date fields across near-date tasks, including tasks requiring participants to know the day of the week.",
+      "uncertainty": "This is a Census methodology working paper and not a population estimate or Census policy mandate. The experiment concerns near dates and its participants and tasks; it does not establish effects for distant dates, all devices, disabilities, languages, literacy levels, or high-stakes administrative forms.",
+      "subgroup": "1,000 experiment participants assigned across three date-entry designs and task types; the public abstract does not provide all subgroup estimates or accessibility analyses.",
+      "counterinterpretation": "A design that improves measured completion can still create privacy, accessibility, device, or cognitive burdens not captured by the experiment. The lack of perceived-difficulty differences shows that people can experience all designs as easy while objective accuracy and speed differ.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-08.html",
+      "retrieval_hash": "sha256:6fa56b9314e982352a7df61221b67a01414fb8131e25e326918478e41a54954d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html", "claim": "A separate Census Household Panel study examines text-message contact and consent; it is related access infrastructure, not the same date-entry experiment.", "status": "related-distinct-source"}
+  ],
+  "boundary": "This record adds an interface-design-to-public-task-completion pathway. It does not establish equal accessibility, population-level representation, trust, policy responsiveness, or downstream household and political outcomes."
+}

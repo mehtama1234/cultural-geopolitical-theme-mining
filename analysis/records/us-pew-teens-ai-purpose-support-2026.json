@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-teens-ai-purpose-support-2026",
+  "title": "Teen AI use separates instrumental help from emerging relational support",
+  "theme_ids": ["time", "voice"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "US teen respondent, age 13-17, in Pew/Ipsos KnowledgePanel survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2025-09-25 to 2025-10-09; reported February 2026",
+      "denominator": {
+        "value": 1458,
+        "unit": "US teens ages 13-17 in completed Pew/Ipsos KnowledgePanel survey",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "chatbot_information_search": {
+          "value": 57,
+          "unit": "percent of US teens",
+          "value_type": "weighted_share"
+        },
+        "chatbot_schoolwork_help": {
+          "value": 54,
+          "unit": "percent of US teens",
+          "value_type": "weighted_share"
+        },
+        "chatbot_fun_or_entertainment": {
+          "value": 47,
+          "unit": "percent of US teens",
+          "value_type": "weighted_share"
+        },
+        "chatbot_casual_conversation": {
+          "value": 16,
+          "unit": "percent of US teens",
+          "value_type": "weighted_share"
+        },
+        "chatbot_emotional_support_or_advice": {
+          "value": 12,
+          "unit": "percent of US teens",
+          "value_type": "weighted_share"
+        }
+      },
+      "method": "Pew Research Center online survey conducted through Ipsos KnowledgePanel; weighted to US teens ages 13-17 living with parents by age, gender, race and ethnicity, household income, and other categories.",
+      "uncertainty": "Purpose measures are self-reports with separate, non-exclusive question items. They do not measure session length, quality, dependence, clinical adequacy, privacy loss, or whether human support was displaced.",
+      "subgroup": "US teens ages 13-17; purpose-specific valid response universes are retained by the source.",
+      "counterinterpretation": "Information and schoolwork use may be instrumental and reversible, while conversational or emotional-support use may still be occasional and not a durable relationship.",
+      "source_url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/",
+      "retrieval_hash": "sha256:dbc7b22c38c5dbf60389f9530e3e84ef1cd945266814a75aabe38c78ea141aed",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/",
+      "claim": "Pew reports teen chatbot purposes, including information, schoolwork, conversation, and emotional support.",
+      "status": "primary"
+    },
+    {
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/PI_2026.02.24_Teens-and-AI_REPORT.pdf",
+      "claim": "Pew documents the survey design and teen respondent methodology.",
+      "status": "official-methodology"
+    }
+  ],
+  "boundary": "This record separates instrumental and relational teen chatbot use in a population survey. It does not establish emotional dependence, learning gains, mental-health effects, human-support substitution, platform manipulation, privacy loss, trust change, or practical exit."
+}

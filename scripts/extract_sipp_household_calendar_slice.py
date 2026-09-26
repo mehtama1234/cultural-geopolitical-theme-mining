@@ -93,8 +93,50 @@ FIELDS = [
     "TJB1_PVOTHRC",
 ]
 
+# Keep the original calendar profile stable. The housing-transition profile is
+# an additive field set for the next bounded SIPP pass; it does not change the
+# previously generated slice schema unless explicitly selected.
+HOUSING_TRANSITION_FIELDS = list(dict.fromkeys(FIELDS + [
+    "EHOUSE_ANY",
+    "EEHC_RENTSUB",
+    "EEHC_VOUCHER",
+    "EEHC_WHY",
+    "EEHC_MVMO",
+    "EEHC_TEN",
+    "EEHC_PVTEN",
+    "TEHC_MVYR",
+    "ERH_BMONTH",
+    "ERH_EMONTH",
+    "ERENTSUB",
+    "EVOUCHER",
+    "EOTHAS_MNYN",
+    "TRENTMORT",
+    "AHOUSE_ANY",
+    "AEHC_RENTSUB",
+    "AEHC_VOUCHER",
+    "AEHC_WHY",
+    "AEHC_MVMO",
+    "AEHC_TEN",
+    "AEHC_PVTEN",
+    "ARH_BMONTH",
+    "ARH_EMONTH",
+    "ARENTMORT",
+    "ARENTSUB",
+    "AVOUCHER",
+    "AOTHAS_MNYN",
+    "AAWBMORT",
+]))
 
-def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int | None) -> dict:
+
+def extract(
+    input_path: str,
+    output_path: Path,
+    report_path: Path,
+    max_rows: int | None,
+    fields: list[str] | None = None,
+    profile: str = "calendar",
+) -> dict:
+    selected_fields = fields or (HOUSING_TRANSITION_FIELDS if profile == "housing-transition" else FIELDS)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -109,15 +151,15 @@ def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int
         reader = csv.DictReader(source, delimiter="|")
         if reader.fieldnames is None:
             raise ValueError("SIPP input has no header")
-        missing = [field for field in FIELDS if field not in reader.fieldnames]
+        missing = [field for field in selected_fields if field not in reader.fieldnames]
         if missing:
             raise ValueError("SIPP input is missing fields: " + ", ".join(missing))
 
         with output_path.open("w", encoding="utf-8", newline="") as target:
-            writer = csv.DictWriter(target, fieldnames=FIELDS)
+            writer = csv.DictWriter(target, fieldnames=selected_fields)
             writer.writeheader()
             for row in reader:
-                selected = {field: row.get(field, "") for field in FIELDS}
+                selected = {field: row.get(field, "") for field in selected_fields}
                 writer.writerow(selected)
                 row_count += 1
                 sample_units.add(selected["SSUID"])
@@ -127,7 +169,8 @@ def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int
                     break
 
     report = {
-        "format": "us-household-calendar-sipp-slice-v2",
+        "format": "us-household-calendar-sipp-slice-v3",
+        "profile": profile,
         "source": "2025 SIPP public-use pipe-delimited file",
         "source_reference_period": "2024",
         "input": input_path,
@@ -136,7 +179,7 @@ def extract(input_path: str, output_path: Path, report_path: Path, max_rows: int
         "distinct_sample_units": len(sample_units),
         "distinct_household_ids": len(households),
         "monthcode_counts": dict(sorted(months.items())),
-        "fields": FIELDS,
+        "fields": selected_fields,
         "max_rows": max_rows,
         "raw_data_committed": False,
         "evidence_status": "observed_source_rows",
@@ -151,8 +194,14 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True, help="selected CSV output")
     parser.add_argument("--report", type=Path, required=True, help="JSON coverage report")
     parser.add_argument("--max-rows", type=int, default=None, help="optional smoke-test row limit")
+    parser.add_argument(
+        "--profile",
+        choices=("calendar", "housing-transition"),
+        default="calendar",
+        help="field profile; housing-transition adds assistance, voucher, move, and rent fields",
+    )
     args = parser.parse_args()
-    print(json.dumps(extract(args.input, args.output, args.report, args.max_rows), indent=2))
+    print(json.dumps(extract(args.input, args.output, args.report, args.max_rows, profile=args.profile), indent=2))
 
 
 if __name__ == "__main__":

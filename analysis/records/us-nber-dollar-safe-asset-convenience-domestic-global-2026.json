@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-dollar-safe-asset-convenience-domestic-global-2026",
+  "title": "U.S. dollar safe-asset convenience remains domestically stable while its global relative advantage has fallen",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35742 measuring convenience yields on U.S. dollar safe assets and comparing domestic and global liquidity",
+  "geography": "United States and global safe-asset markets; U.S. dollar assets, Treasurys, and repo markets",
+  "observations": [
+    {
+      "period": "2019-2025 with a modeled expectation for the next decade; paper issued September 14, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. dollar safe assets and comparable safe assets across currencies; exact asset and observation counts not disclosed in the abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "domestic_convenience": {
+          "value": "about unchanged",
+          "unit": "convenience yield on U.S. dollar safe assets in 2025 relative to 2019",
+          "value_type": "reported_comparison"
+        },
+        "domestic_persistence": {
+          "value": "expected to persist for the next decade",
+          "unit": "modeled or interpreted persistence of domestic dollar safe-asset convenience",
+          "value_type": "reported_expectation"
+        },
+        "global_relative_convenience": {
+          "value": "fallen considerably",
+          "unit": "richness of U.S. dollar safe assets, particularly Treasurys, relative to safe assets of other currencies",
+          "value_type": "reported_comparison"
+        },
+        "repo_convenience": {
+          "value": "highest among dollar safe assets",
+          "unit": "relative convenience yield within the dollar repo and safe-asset set",
+          "value_type": "reported_comparison"
+        },
+        "geoeconomic_boundary": {
+          "value": "domestic liquidity convenience and global currency privilege can move in different directions",
+          "unit": "domestic-versus-global safe-asset distinction",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "Measures convenience yields on dollar safe assets over the previous five years and compares U.S. dollar safe assets, Treasurys, repo, and safe assets denominated in other currencies, with an expectation for the next decade.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the full asset sample, estimation details, or forecast uncertainty. A convenience yield is a market-valuation and liquidity measure, not direct evidence of household purchasing power, fiscal sustainability, reserve behavior, sanctions leverage, or geopolitical compliance.",
+      "subgroup": "Domestic dollar-liquidity users, global private and official investors, Treasury markets, repo markets, and safe assets denominated in other currencies; domestic and global convenience must not be pooled.",
+      "counterinterpretation": "Changes in relative convenience may reflect interest rates, regulation, collateral scarcity, fiscal risk, currency movements, central-bank holdings, market segmentation, or measurement choices rather than a simple decline in U.S. state power. Stable domestic convenience does not imply stable global demand or durable reserve status.",
+      "source_url": "https://www.nber.org/papers/w35742",
+      "retrieval_hash": "sha256:b529c267c475c0a9e58f3c5671b92043d287dd998583c58d8b98238888ba72cd",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35742",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a macro-financial distinction between domestic dollar liquidity convenience and global relative safe-asset advantage. It does not establish household welfare, fiscal crisis, reserve-currency loss, sanctions effectiveness, geopolitical coercion, or a causal external response."
+}

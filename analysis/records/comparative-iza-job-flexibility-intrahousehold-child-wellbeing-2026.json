@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iza-job-flexibility-intrahousehold-child-wellbeing-2026",
+  "title": "Job flexibility changed intrahousehold work and care tradeoffs without uniformly improving child well-being",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "464 Dutch couples with children in combined LISS and Bilendi samples",
+  "geography": "Netherlands; representative survey samples of couples with children",
+  "observations": [
+    {
+      "period": "LISS June 2022 module and Bilendi survey November 2022–January 2023; IZA Discussion Paper 17505, 2026",
+      "denominator": {"value": 464, "unit": "couples with children; 93 LISS and 371 Bilendi households", "value_type": "reported_structural_model_sample"},
+      "measures": {
+        "job_flexibility_and_domestic_production": {"value": "job flexibility significantly influenced the modeled production of children’s well-being and other household public goods", "unit": "intrahousehold structural-model relationship", "value_type": "reported_model_estimate"},
+        "gendered_flexibility_route": {"value": "father job flexibility was statistically important in the estimated domestic-production technology; mother flexibility was not statistically significant in the corresponding estimates", "unit": "parent-specific schedule/location flexibility relationship", "value_type": "reported_model_estimate"},
+        "counterfactual_work_care_tradeoff": {"value": "simulated flexibility changes generally reduced gender gaps in market and domestic work, but the child-well-being result depended on which parent received flexibility and on wage/resource assumptions", "unit": "counterfactual percentage changes and modeled child-well-being outcome", "value_type": "reported_counterfactual_summary"},
+        "resource_boundary": {"value": "when flexibility was paired with lower wages, household resources and child well-being fell in the short-run simulations", "unit": "modeled income and child-well-being pathway", "value_type": "reported_counterfactual_summary"}
+      },
+      "method": "Collective household labor-supply model estimated on two survey samples of Dutch couples with children, using job schedule flexibility and telecommuting possibilities as production shifters and instruments; counterfactual simulations vary parent-specific flexibility, wages, and bargaining power.",
+      "uncertainty": "This is a structural, observational comparative study rather than a randomized intervention. Flexibility is measured through schedule self-determination and telecommuting possibilities, the sample is Dutch couples with children, the child-well-being construct is modeled rather than a direct clinical or developmental outcome, and the simulations are partial and short-run. The paper does not identify a U.S. causal effect or establish long-run household welfare.",
+      "subgroup": "Mothers and fathers in co-resident Dutch couples with children; the study separates parent-specific flexibility and domestic-work pathways.",
+      "counterinterpretation": "Flexibility can redistribute paid work and care without increasing total household resources; employer flexibility may also be selected into by workers or jobs with different unobserved pay and family conditions. A more equal division of time is therefore not equivalent to higher child well-being or lower household burden.",
+      "source_url": "https://docs.iza.org/dp17505.pdf",
+      "retrieval_hash": "sha256:930c70f0525c2763eb20a0b3c7cac93e28dba7e425c827262a13455684455f40",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iza.org/publications/dp/17505/twenty-five-hours-in-a-day-on-job-flexibility-and-the-intrahousehold-allocation-of-time-and-money", "claim": "IZA Discussion Paper landing page and bibliographic record", "status": "official-paper-landing-page"}
+  ],
+  "boundary": "This comparative record adds a work-control-to-household-care route: parent-specific job flexibility can change market work, childcare, chores, household resources, and modeled child well-being, with different implications by parent and wage scenario. It does not establish a U.S. causal effect, durable worker autonomy, long-run child development, or universal welfare gains."
+}

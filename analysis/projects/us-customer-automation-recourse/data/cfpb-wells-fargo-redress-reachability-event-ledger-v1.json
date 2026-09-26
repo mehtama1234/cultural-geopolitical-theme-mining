@@ -1,0 +1,99 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_consumer_redress_design_record",
+  "purpose": "Bounded CFPB consent-order record showing that consumer redress requires identification, delivery, follow-up for returned or uncashed payments, and a defined completion decision.",
+  "events": [
+    {
+      "event_id": "CFPB-WELLS-FARGO-STUDENT-LOAN-REDRESS-2016-08-22",
+      "unit": "case",
+      "geography": "United States; CFPB administrative consent order involving Wells Fargo private student-loan servicing",
+      "actor_initiating_change": "agency",
+      "event_date": "2016-08-22",
+      "date_precision": "official consent-order filing date; CFPB later terminated the order on 2022-12-20 after reporting that Wells Fargo had fulfilled its obligations",
+      "denominator": "Affected consumers under the consent order; the order requires identification but this compact record does not retain the final affected-consumer list",
+      "method": "Structured extraction from the official CFPB consent order and case materials",
+      "missingness": "Final affected-consumer list, per-person amount, payment date, delivery/cashing result, account-level correction for each borrower, residual loss, dispute effort, household effect, trust, switching, and exit are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "Wells Fargo's student-loan servicing practices reportedly increased costs, misled borrowers about payment consequences, charged fees, and failed to correct inaccurate credit-reporting information",
+      "alternatives_before_action": "The public order does not observe each borrower's feasible servicer, refinancing, complaint, forbearance, payment, or non-use alternative",
+      "immediate_burden_or_benefit": "Borrowers could face fees, inaccurate reporting, payment confusion, and increased loan costs; the order created a formal redress and correction architecture",
+      "choice_or_response": "The CFPB required a redress plan identifying affected consumers, calculating amounts, issuing payments, locating consumers, and following up when payments were returned or uncashed",
+      "person_or_actor_with_control": "Wells Fargo controlled account records and redress implementation subject to CFPB review; the CFPB controlled non-objection and oversight; consumers controlled later claim, contact, and payment use where reached",
+      "remedy_or_institutional_response": "The consent order required at least $410,000 in borrower relief, correction of inaccurate reporting, improved servicing and disclosures, and a redress plan with location and returned/uncashed-payment follow-up",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The order specifies how redress should be located, issued, and followed up, but this record does not establish delivery, cashing, account correction, or adequacy for any named consumer",
+      "durability_followup": "The CFPB termination order reports that Wells Fargo fulfilled its obligations, including remediation to specified consumers, reasonable furnishing policies, and redress of inaccurate furnishing; it does not connect those institutional completion statements to each borrower's payment receipt, account state, later borrowing, trust, or exit",
+      "immediate_outcome": "A formal consumer-protection order converted servicing allegations into a redress, correction, and payment-reachability design; the CFPB later reported fulfillment and terminated the order in 2022",
+      "protected_outcome": "The order formally protected a route to monetary relief, accurate credit reporting, and better servicing controls for affected borrowers",
+      "sacrificed_outcome": "Borrowers bore the original fees, confusion, credit-reporting consequences, and effort of navigating a remedy whose person-level completion is not public",
+      "cost_risk_transfer": "Servicing failures shifted financial and information risk to borrowers; the order shifted correction, identification, delivery, and completion obligations back to the firm under CFPB oversight",
+      "later_outcome": "The public record establishes a later formal-completion stage, but not each borrower's payment, account correction, financial recovery, trust, or exit",
+      "meaning_and_attribution": "The CFPB attributes the servicing and reporting failures to the firm; borrower dignity, fairness interpretation, trust, and blame are not measured",
+      "public_or_collective_response": "Regulatory enforcement is observed; no same-borrower political, collective, or switching response is reported",
+      "counterexample": "A consent order can explicitly require follow-up for returned or uncashed payments while still leaving the lived consumer outcome unobservable in the public record",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official CFPB consent order filed 2016-08-22 and official order-termination document filed 2022-12-20; the termination is an agency-reported institutional completion statement, not a borrower-level receipt or recovery file",
+      "source_url": "https://files.consumerfinance.gov/f/documents/2016-CFPB-0013Wells_Fargo_Bank_N.A.--_Consent_Order.pdf"
+      ,"source_url_termination": "https://files.consumerfinance.gov/f/documents/cfpb_wells-fargo-na-2016_consent-order-termination_2022-12.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CFPB-WELLS-REDRESS-A-01",
+      "from": "student-loan servicing and credit-reporting failure",
+      "to": "CFPB enforcement and redress order",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The CFPB order addresses fees, payment processing, disclosures, inaccurate reporting, borrower relief, and a civil penalty",
+      "status": "reported",
+      "counterexample": "A regulatory order does not establish that each affected borrower was identified or reached",
+      "remaining_gap": "Affected-consumer list, person-level attribution, loss amount, and complaint/alternative path"
+    },
+    {
+      "arrow_id": "CFPB-WELLS-REDRESS-A-02",
+      "from": "formal redress order",
+      "to": "affected-consumer identification and payment plan",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The order requires the redress plan to identify affected consumers, calculate amounts, describe notification, and detail payment procedures",
+      "status": "reported",
+      "counterexample": "A required plan is not a public person-level distribution file",
+      "remaining_gap": "Final list, per-person amount, notice, eligibility dispute, and issued-payment date"
+    },
+    {
+      "arrow_id": "CFPB-WELLS-REDRESS-A-03",
+      "from": "issued redress payment",
+      "to": "returned or uncashed payment follow-up",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The order requires reasonable attempts to locate consumers and an action plan for payments returned as undeliverable or not cashed within a prescribed period",
+      "status": "reported",
+      "counterexample": "A follow-up obligation does not show that a returned or uncashed payment was successfully delivered later",
+      "remaining_gap": "Reissue attempt, address correction, contact, cashing, and unresolved recipient count"
+    },
+    {
+      "arrow_id": "CFPB-WELLS-REDRESS-A-04A",
+      "from": "redress implementation",
+      "to": "formal institutional completion",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The CFPB's 2022 termination order states that Wells Fargo fulfilled its obligations, including remediation to specified consumers, reasonable furnishing policies, and redress of inaccurate furnishing for impacted consumers",
+      "status": "reported",
+      "counterexample": "Formal order termination and an agency statement of fulfilled obligations do not identify which borrower received which payment or account correction",
+      "remaining_gap": "Borrower-level delivery, cashing, account state, adequacy, residual loss, and durable recovery"
+    },
+    {
+      "arrow_id": "CFPB-WELLS-REDRESS-A-04",
+      "from": "redress implementation",
+      "to": "account correction and usable financial recovery",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The order requires relief and correction-related servicing and reporting steps, and the later termination order reports institutional fulfillment, but the public record retained here does not link them to each borrower's later account state",
+      "status": "open",
+      "counterexample": "A payment or credit correction can be implemented without restoring the borrower's full financial position or trust",
+      "remaining_gap": "Same-borrower receipt, account correction, adequacy, residual loss, later security, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger records consumer-redress design and reachability requirements from one consent order. It does not establish that consumers were paid, that accounts were corrected, or that the remedy was adequate or durable.",
+  "storage_boundary": "No borrower, account, credit, payment, or restricted data is retained; only public order requirements and explicitly open downstream stages are represented."
+}

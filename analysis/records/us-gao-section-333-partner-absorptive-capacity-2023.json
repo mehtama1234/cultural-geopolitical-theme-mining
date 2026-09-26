@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-section-333-partner-absorptive-capacity-2023",
+  "title": "Security-assistance proposals often lacked documented partner absorption, sustainment, or measurable objectives",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "public_systems_feedback", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "46 selected Department of Defense Section 333 train-and-equip project proposals notified to Congress in fiscal years 2018–2021",
+  "geography": "United States security-cooperation system and foreign partner projects; DOD geographic combatant commands and five overseas posts",
+  "observations": [
+    {
+      "period": "Fiscal years 2018–2022 allocations and FY2018–2021 selected proposals; GAO-23-105842, August 2023; recommendation follow-up current through April 2026",
+      "denominator": {"value": 46, "unit": "selected Section 333 project proposals reviewed by GAO; nongeneralizable sample", "value_type": "reported_document_sample"},
+      "measures": {
+        "planning_gap": {"value": 42, "unit": "proposals that did not fully document a sustainment plan, partner absorptive-capacity analysis, or measurable objectives", "value_type": "reported_document_count"},
+        "section_333_allocation": {"value": 5.6, "unit": "billion U.S. dollars allocated to Section 333 projects in fiscal years 2018–2022", "value_type": "reported_program_total"},
+        "state_involvement": {"value": "State participation varied and often occurred later in the proposal process; GAO found no defined joint DOD–State planning process as of March 2026", "unit": "interagency planning stage", "value_type": "reported_process_status"},
+        "project_success_boundary": {"value": "assistance may be provided that partner nations cannot use or sustain", "unit": "reported implementation risk, not observed universal failure", "value_type": "reported_risk"},
+        "recommendation_status": {"value": "recommendations on joint process, guidance, and detailed absorptive-capacity notifications remained open in the April 2026 follow-up described by GAO", "unit": "agency recommendation status", "value_type": "reported_recommendation_status"}
+      },
+      "method": "GAO review of program guidance, project proposals, congressional notifications, allocation data, and interviews with DOD and State officials at headquarters, six geographic combatant commands, and five overseas posts; the proposal sample was selected for review and is not generalizable to all projects.",
+      "uncertainty": "The review does not estimate the share of all Section 333 projects that failed, does not follow the 46 proposals to delivery or partner use, and does not measure partner-side capability, operational effect, local legitimacy, or adversary response. The $5.6 billion is a program allocation total, not the value of the 46 reviewed proposals or evidence of delivered capability.",
+      "subgroup": "Selected Section 333 proposals and the DOD/State planning offices, combatant commands, and overseas posts involved in their review; partner countries are represented through planning requirements rather than matched outcome observations.",
+      "counterinterpretation": "Incomplete proposal documentation can reflect reporting or process failure rather than unusable assistance; some partners may absorb and sustain capabilities despite weak documentation, and later guidance or templates may improve future proposals. Conversely, a completed planning template still would not prove delivery, use, readiness, or strategic effect.",
+      "source_url": "https://www.gao.gov/products/gao-23-105842",
+      "retrieval_hash": "sha256:97a63f2ffc5e1393587161948f865f527adf9bb9bbfa83ced7988a268cd66450",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-108249", "claim": "GAO's later international-arrangements review supplies a separate agreement-level coordination and oversight comparator", "status": "related-official-review"},
+    {"source_url": "https://www.gao.gov/products/gao-23-105842", "claim": "GAO recommendation follow-up reports current DOD and State implementation status", "status": "official-follow-up-page"}
+  ],
+  "boundary": "This record adds a security-assistance planning and partner-capacity stage between authorization/funding and delivered or jointly used capability. It does not establish that Section 333 assistance failed, that a specific partner lacked capability, or that U.S. security cooperation changed deterrence, alliance behavior, or adversary choices."
+}

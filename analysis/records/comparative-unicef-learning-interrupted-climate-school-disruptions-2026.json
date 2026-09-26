@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-learning-interrupted-climate-school-disruptions-2026",
+  "title": "Climate hazards are becoming an education-disruption pathway that concentrates learning and lifetime-earnings risks in lower-income countries",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UNICEF, Learning Interrupted: Global Snapshot on Climate-related School Disruptions in 2025",
+  "geography": "Global analysis of climate-related school disruption from pre-primary through upper-secondary education across 106 countries and territories",
+  "observations": [
+    {
+      "period": "2025; global climate-related school disruption",
+      "denominator": {
+        "value": 106,
+        "unit": "countries and territories with schools affected by climate hazards in UNICEF's 2025 analysis",
+        "value_type": "cross_country_school_disruption_frame"
+      },
+      "measures": {
+        "students_affected": {"value": 171000000, "unit": "students from pre-primary through upper-secondary education experiencing school disruption due to climate events in 2025, at least", "value_type": "reported_global_estimate"},
+        "share_students_affected": {"value": 10, "unit": "at least percent of students whose schooling was disrupted by climate-related hazards in 2025", "value_type": "reported_global_share"},
+        "lower_income_country_share": {"value": 75, "unit": "percent of affected students living in low- and lower-middle-income countries", "value_type": "reported_subgroup_share"},
+        "countries_multiple_events": {"value": 40, "unit": "countries experiencing multiple climate-related school-disruption events in 2025", "value_type": "reported_country_count"}
+      },
+      "method": "UNICEF global snapshot linking climate-hazard events and education disruption across pre-primary, primary, lower-secondary, and upper-secondary schooling.",
+      "uncertainty": "The estimate captures reported or identified disruption and likely undercounts unreported, partial, informal, or indirect interruptions; duration, severity, school quality, and student-level learning loss vary.",
+      "subgroup": "Students, schools, teachers, families, and education systems in countries with different hazard exposure, income levels, infrastructure, adaptation capacity, and repeated events.",
+      "counterinterpretation": "Not every closure produces lasting learning loss; resilient schools, remote learning, catch-up programmes, safe transport, and rapid recovery can limit duration and damage, though access to those responses is unequal.",
+      "source_url": "https://www.unicef.org/reports/learning-interrupted",
+      "retrieval_hash": "sha256:fca0330adf5b8b913e04f1135a75093d92cace4592d9c2cc66fac7cd0695160c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; climate-related learning disruption and economic trajectory",
+      "denominator": {
+        "value": 171000000,
+        "unit": "students identified as affected by climate-related school disruption in 2025",
+        "value_type": "affected_student_frame"
+      },
+      "measures": {
+        "lifetime_earnings_risk": {"value": 200000000000, "unit": "US dollars in estimated lifetime earnings potentially lost through disrupted learning and widening education inequalities", "value_type": "reported_economic_estimate"},
+        "education_equity_pathway": {"value": "climate disruption can widen existing education inequalities", "unit": "reported pathway from hazard exposure to learning and future opportunity", "value_type": "reported_mechanism"},
+        "repeated_disruption": {"value": "multiple events in 40 countries", "unit": "reported persistence pattern that can prevent recovery between shocks", "value_type": "reported_persistence_signal"}
+      },
+      "method": "UNICEF synthesis connecting school-disruption estimates to learning, education inequality, and modeled lifetime-earnings implications.",
+      "uncertainty": "The earnings estimate is modeled and depends on assumptions about lost learning, schooling duration, future wages, recovery, and labour markets; it is not an observed individual earnings loss.",
+      "subgroup": "Children in lower-income countries, students with limited remote-learning access, girls, children with disabilities, displaced children, teachers, and households absorbing repeated school interruption.",
+      "counterinterpretation": "Climate investment in resilient infrastructure, continuity plans, accessible technology, teacher support, and social protection can reduce both learning and economic losses.",
+      "source_url": "https://www.unicef.org/reports/learning-interrupted",
+      "retrieval_hash": "sha256:fca0330adf5b8b913e04f1135a75093d92cace4592d9c2cc66fac7cd0695160c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025; education-system continuity and climate adaptation",
+      "denominator": {
+        "value": 1,
+        "unit": "global education-system climate-resilience response frame",
+        "value_type": "global_public_system_response_frame"
+      },
+      "measures": {
+        "continuity_requirements": {"value": "climate-resilient school infrastructure, early warning, disaster preparedness, safe access, flexible delivery, and recovery support", "unit": "institutional response routes implied by the report's disruption pathway", "value_type": "reported_policy_route_set"},
+        "distributional_concentration": {"value": "higher disruption burden in low- and lower-middle-income countries", "unit": "reported global inequity pattern", "value_type": "reported_distributional_pattern"},
+        "cultural_continuity": {"value": "school disruption interrupts learning, routines, peer relationships, protection, and pathways into work", "unit": "public-system and social-continuity mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "UNICEF interpretation of climate hazards as education-system, child-rights, social-protection, and future-opportunity risks.",
+      "uncertainty": "The report identifies system mechanisms and priority responses but does not evaluate every adaptation intervention or establish a universal causal effect on social cohesion, work, or political participation.",
+      "subgroup": "Education ministries, schools, teachers, children, families, local governments, climate-adaptation agencies, humanitarian actors, and communities in hazard-prone places.",
+      "counterinterpretation": "Education systems can become resilience infrastructure when they remain safe, accessible, and locally responsive during crises; disruption is not an inevitable endpoint of climate exposure.",
+      "source_url": "https://www.unicef.org/reports/state-of-worlds-children/2025",
+      "retrieval_hash": "sha256:fca0330adf5b8b913e04f1135a75093d92cace4592d9c2cc66fac7cd0695160c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unicef.org/reports/state-worlds-children", "claim": "UNICEF flagship-report context on global trends affecting children."},
+    {"source_url": "https://www.unicef.org/reports/children-face-unique-vulnerabilities-environmental-hazards-every-stage-life", "claim": "UNICEF child environmental-hazard vulnerability context."}
+  ],
+  "boundary": "This record adds a climate-hazard-to-school-continuity, learning, lifetime-opportunity, public-infrastructure, and social-continuity route. It is not student-level attendance, learning assessment, household adaptation, or individual earnings data, and the modeled economic estimate is not an observed personal loss.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNICEF Learning Interrupted report page, State of the World's Children context, flagship-report page, and environmental-hazard report page were retrieved; affected-student count, country coverage, lower-income concentration, repeated events, lifetime-earnings estimate, and continuity mechanisms were cross-checked.",
+    "source_url_sha256": "sha256:fca0330adf5b8b913e04f1135a75093d92cace4592d9c2cc66fac7cd0695160c",
+    "checked": "2026-09-26"
+  }
+}

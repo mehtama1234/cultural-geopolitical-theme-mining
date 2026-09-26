@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-government-corruption-perception-2026",
+  "title": "Perceived government corruption reaches a record high and is broadly bipartisan, while the government-business gap widens",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup World Poll U.S. country estimate and party-conditioned comparisons reported September 2, 2026",
+  "geography": "United States; adults, with comparison to OECD countries",
+  "observations": [
+    {
+      "period": "2026; perceived corruption in U.S. government",
+      "denominator": {"value": null, "unit": "Gallup World Poll U.S. adult sample; exact country-year respondent count is not disclosed on the article page", "value_type": "not_disclosed"},
+      "measures": {
+        "government_corruption_widespread": {"value": 89, "unit": "percent saying corruption is widespread in U.S. government", "value_type": "published_share"},
+        "government_corruption_widespread_2025": {"value": 79, "unit": "percent saying corruption is widespread in U.S. government in 2025", "value_type": "published_comparison"},
+        "government_corruption_widespread_2024": {"value": 73, "unit": "percent saying corruption is widespread in U.S. government in 2024", "value_type": "published_comparison"}
+      },
+      "method": "Gallup World Poll repeated country-year measure of perceived corruption; the article compares the U.S. 2026 estimate with prior U.S. readings.",
+      "uncertainty": "This is a perception measure, not an audit, administrative corruption count, or estimate of exposure to bribery or misconduct. The article page does not give the exact U.S. respondent count or a margin of error.",
+      "subgroup": "U.S. adults overall; party-conditioned estimates are reported in a separate observation.",
+      "counterinterpretation": "A record-high perception may reflect salient political conflict, changing standards, media attention, or beliefs about institutions rather than a comparable change in actual corruption.",
+      "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "retrieval_hash": "sha256:7d79547a14f99c423371dc89c47d1716e0801284b3a20ffe1c15365dd342a468",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived government corruption by party",
+      "denominator": {"value": null, "unit": "Gallup World Poll U.S. adult party subgroups; exact conditional respondent counts are not disclosed on the article page", "value_type": "not_disclosed"},
+      "measures": {
+        "democrats_corruption_widespread": {"value": 91, "unit": "percent of Democrats saying corruption is widespread in government", "value_type": "published_share"},
+        "independents_corruption_widespread": {"value": 90, "unit": "percent of independents saying corruption is widespread in government", "value_type": "published_share"},
+        "republicans_corruption_widespread": {"value": 83, "unit": "percent of Republicans saying corruption is widespread in government", "value_type": "published_share"},
+        "democrats_2024_corruption_widespread": {"value": 57, "unit": "percent of Democrats saying corruption was widespread in 2024", "value_type": "published_comparison"}
+      },
+      "method": "Gallup World Poll cross-sectional party comparison, with the article describing changes in party-conditioned perceptions since 2024.",
+      "uncertainty": "Party identification and perceived corruption are measured at the same time; the estimates do not identify which event, office, policy, or information source produced the judgment.",
+      "subgroup": "Democrats, independents, and Republicans in the U.S.; the source notes the largest two-year increase among Democrats.",
+      "counterinterpretation": "Near-partisan convergence can represent shared alarm, but the underlying reasons may differ by party control, ideology, institutional experience, or expectations of government; convergence does not imply shared reform preferences or collective action.",
+      "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "retrieval_hash": "sha256:7d79547a14f99c423371dc89c47d1716e0801284b3a20ffe1c15365dd342a468",
+      "status": "reported"
+    },
+    {
+      "period": "2026; perceived corruption in government versus business",
+      "denominator": {"value": null, "unit": "Gallup World Poll U.S. adult sample; exact respondent count is not disclosed on the article page", "value_type": "not_disclosed"},
+      "measures": {
+        "government_corruption_widespread": {"value": 89, "unit": "percent saying corruption is widespread in U.S. government", "value_type": "published_share"},
+        "business_corruption_widespread": {"value": 71, "unit": "percent saying corruption is widespread in U.S. business", "value_type": "published_share"},
+        "government_minus_business_gap": {"value": 18, "unit": "percentage-point difference between perceived government and business corruption", "value_type": "derived_difference"}
+      },
+      "method": "Gallup World Poll paired perception questions about corruption in government and business in the United States.",
+      "uncertainty": "The difference is a descriptive gap between two perceptions, not a comparative prevalence or a verified government-versus-business corruption rate. The two answers may be shaped by different examples and standards.",
+      "subgroup": "U.S. adults overall; party and country comparisons are not assumed to apply to this paired gap without their own denominators.",
+      "counterinterpretation": "The wider government-business gap may signal a distinctive legitimacy problem for public institutions, but it does not show that businesses are trusted, that government use is declining, or that private alternatives are more accountable.",
+      "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "retrieval_hash": "sha256:7d79547a14f99c423371dc89c47d1716e0801284b3a20ffe1c15365dd342a468",
+      "status": "reported"
+    },
+    {
+      "period": "2025 comparison year; perceived government corruption in the U.S. versus OECD median",
+      "denominator": {"value": null, "unit": "Gallup World Poll country estimates; OECD median across member-country estimates, with exact country and respondent counts not disclosed on the article page", "value_type": "not_disclosed"},
+      "measures": {
+        "us_government_corruption_2025": {"value": 79, "unit": "percent saying corruption is widespread in U.S. government", "value_type": "published_share"},
+        "oecd_median_government_corruption_2025": {"value": 59, "unit": "median percent across OECD countries saying corruption is widespread in their government", "value_type": "published_comparison"},
+        "us_minus_oecd_median_gap": {"value": 20, "unit": "percentage-point difference between U.S. and OECD median perceptions", "value_type": "derived_difference"}
+      },
+      "method": "Gallup World Poll cross-national comparison; the article states that full 2026 data collection was not complete for all countries, so 2025 is the closest comparable OECD year.",
+      "uncertainty": "The OECD median is a cross-country descriptive comparison with country-specific field timing and contexts; it does not establish why the U.S. differs or whether the U.S. has more actual corruption.",
+      "subgroup": "U.S. national estimate compared with an OECD country median; not an individual-level subgroup result.",
+      "counterinterpretation": "The gap may reflect institutional expectations, political language, survey context, or country composition as well as public-sector performance; it does not measure geopolitical reputation, investment, or policy credibility directly.",
+      "source_url": "https://news.gallup.com/poll/713933/record-high-say-government-corruption-widespread.aspx",
+      "retrieval_hash": "sha256:7d79547a14f99c423371dc89c47d1716e0801284b3a20ffe1c15365dd342a468",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://news.gallup.com/poll/714365/slim-majority-doubt-leaders-held-accountable-laws.aspx", "claim": "The Democracy for All accountability survey supplies a separate measure of perceived legal accountability and executive power.", "status": "cross-source-context"},
+    {"source_url": "https://news.gallup.com/poll/712436/confidence-institutions-remains-near-time-low.aspx", "claim": "Gallup's institutional-confidence series supplies a distinct confidence measure rather than a corruption perception.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record identifies a sharp rise and broad partisan convergence in perceived U.S. government corruption, a government-business perception gap, and a U.S.-OECD comparison. It does not establish actual corruption, individual exposure, specific offenders or offices, institutional use or exit, reform preference, collective action, or geopolitical consequences.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup article webpage retrieved and hashed; U.S. 2024–2026 trend, party-conditioned estimates, government-business comparison, OECD comparison year, and perception-versus-behavior boundary cross-checked against the published page.",
+    "html_sha256": "sha256:7d79547a14f99c423371dc89c47d1716e0801284b3a20ffe1c15365dd342a468",
+    "checked": "2026-09-25"
+  }
+}

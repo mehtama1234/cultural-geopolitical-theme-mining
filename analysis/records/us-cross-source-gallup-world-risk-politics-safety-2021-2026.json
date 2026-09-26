@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cross-source-gallup-world-risk-politics-safety-2021-2026",
+  "title": "Politics is unusually salient as a personal safety risk in the United States, linking polarization, government disconnection, and daily risk perception",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Gallup analysis of Lloyd's Register Foundation World Risk Poll 2025, with U.S. trend comparisons from 2021 and 2023 and related Gallup 2025 measures",
+  "geography": "United States and 140-country World Risk Poll comparison",
+  "observations": [
+    {
+      "period": "2025 World Risk Poll; top-of-mind personal safety risk across 140 countries",
+      "denominator": {
+        "value": 140,
+        "unit": "countries in the World Risk Poll comparison",
+        "value_type": "country_coverage"
+      },
+      "measures": {
+        "u_s_politics_as_top_safety_risk": {
+          "value": 10,
+          "unit": "percent of U.S. adults naming politics as the greatest source of risk to personal safety",
+          "value_type": "published_country_estimate"
+        },
+        "global_politics_as_top_safety_risk": {
+          "value": 1,
+          "unit": "global average percent naming politics as the greatest source of risk to personal safety",
+          "value_type": "published_global_average"
+        },
+        "u_s_trend": {
+          "value": "The U.S. share naming politics rose from 6% in both 2021 and 2023 to 10% in 2025",
+          "unit": "percent and repeated-wave comparison",
+          "value_type": "published_time_comparison"
+        },
+        "international_rank": {
+          "value": "The U.S. ranked first among countries in the 2025 comparison, statistically tied with Hungary at 9%; Serbia, Latvia, and Lithuania were at 6%, while several countries including Russia, Myanmar, Spain, and Israel were at 5%",
+          "unit": "percent by country comparison",
+          "value_type": "published_country_comparison"
+        },
+        "politics_vs_health": {
+          "value": "The U.S. is the only country in the 140-country comparison where more adults name politics as a bigger daily safety risk than personal health conditions: 10% versus 5%",
+          "unit": "percent of adults in country comparison",
+          "value_type": "published_country_contrast"
+        }
+      },
+      "method": "Gallup analysis of the Lloyd's Register Foundation World Risk Poll's open-ended top-safety-risk question, comparing the United States with 140 countries and prior U.S. waves; the article retains country-level estimates and global averages rather than pooling respondents.",
+      "uncertainty": "The measure captures what people name first as a perceived safety risk, not actual exposure, violence, political instability, crime, health risk, or causal political effects. Country field timing, translation, context, and salience can affect open-ended responses; the global average is not a population-weighted risk rate.",
+      "subgroup": "U.S. adults and country-level populations across the 2021, 2023, and 2025 World Risk Poll waves; the source reports no meaningful U.S. differences by gender, age, education, or political affiliation for naming politics as the top risk.",
+      "counterinterpretation": "Naming politics may reflect political conflict, media salience, fear of extremism, or concern about governance rather than direct physical danger. The U.S. ranking does not show that politics is objectively more dangerous than health, roads, or crime.",
+      "source_url": "https://news.gallup.com/poll/712673/americans-lead-world-viewing-politics-risk-safety.aspx",
+      "retrieval_hash": "sha256:c7a805d3ec699209673cfb1e56000d777dee376f022827228e5dd6649820fd72",
+      "status": "reported"
+    },
+    {
+      "period": "2025 U.S. political-risk and government-connection context",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. adult Gallup measures cited as related context; exact article-page respondent counts are not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "politics_as_most_important_problem": {
+          "value": 33,
+          "unit": "percent of U.S. adults naming politics and government as the most important problem facing the country in 2025",
+          "value_type": "published_share"
+        },
+        "government_does_not_care": {
+          "value": 58,
+          "unit": "percent of U.S. adults saying the government does not care about them at all in 2025",
+          "value_type": "published_share"
+        },
+        "government_care_change": {
+          "value": "The share saying government does not care at all was 11 percentage points higher than in 2021; 4% said government cared a lot and 38% somewhat",
+          "unit": "percent and percentage-point comparison",
+          "value_type": "published_time_comparison"
+        },
+        "oecd_context": {
+          "value": "Among 38 OECD countries, only Colombia at 72% and Greece at 69% exceeded the U.S. on saying government does not care at all about people's well-being",
+          "unit": "percent by country comparison",
+          "value_type": "published_country_comparison"
+        },
+        "other_u_s_safety_risks": {
+          "value": "Road-related accidents were named by 34% of U.S. adults, crime and violence by 19%, and personal health conditions by 5%, compared with 10% naming politics",
+          "unit": "percent of U.S. adults naming top daily safety risk",
+          "value_type": "published_risk_distribution"
+        }
+      },
+      "method": "Related Gallup trend context cited in the World Risk Poll analysis; these measures are retained as separate political-problem and government-connection perceptions rather than treated as the same question as the open-ended safety-risk item.",
+      "uncertainty": "The contextual measures use different questions, populations, field periods, and possibly survey designs. They establish co-occurring perceptions, not a causal chain from government indifference to safety fear or from polarization to physical harm.",
+      "subgroup": "U.S. adults overall and OECD country comparisons; no respondent-level linkage among the risk, problem, and government-care measures is available.",
+      "counterinterpretation": "People can perceive government as uncaring while still relying on public institutions, and can name politics as a safety risk without personally withdrawing from civic life. The convergence of perceptions should not be read as evidence of a single national psychological state.",
+      "source_url": "https://news.gallup.com/poll/712673/americans-lead-world-viewing-politics-risk-safety.aspx",
+      "retrieval_hash": "sha256:c7a805d3ec699209673cfb1e56000d777dee376f022827228e5dd6649820fd72",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cross-national political-risk perception and government-connection layer. It does not infer actual political violence, safety outcomes, public disorder, institutional withdrawal, causal polarization, political participation, or individual exposure from named risks and related Gallup perceptions.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup World Risk Poll analysis page retrieved and hashed; U.S. and global political-risk shares, prior U.S. waves, country ranking, politics-versus-health contrast, government-care context, and measurement boundaries cross-checked against the publication.",
+    "html_sha256": "sha256:c7a805d3ec699209673cfb1e56000d777dee376f022827228e5dd6649820fd72",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-judiciary-administrative-space-utilization-2021-2025",
+  "title": "Federal judiciary administrative capacity carries a large rent surface without routine occupancy measurement",
+  "theme_ids": ["cost", "time", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108603 review of federal judiciary administrative real property and utilization measurement, fiscal years 2021-2025",
+  "geography": "United States federal judiciary facilities nationwide",
+  "observations": [
+    {
+      "period": "Fiscal year 2025; federal judiciary administrative space portfolio",
+      "denominator": {
+        "value": 772,
+        "unit": "facilities occupied by the federal judiciary nationwide",
+        "value_type": "reported_facility_population"
+      },
+      "measures": {
+        "administrative_space": {
+          "value": 12.2,
+          "unit": "million usable square feet across 716 of 772 occupied facilities",
+          "value_type": "reported_area"
+        },
+        "administrative_share_of_total_space": {
+          "value": 40,
+          "unit": "percent of the judiciary's total occupied space",
+          "value_type": "reported_share"
+        },
+        "sole_administrative_facilities": {
+          "value": "Administrative space was the sole type of space in 272 facilities, more than a third of occupied facilities",
+          "unit": "facilities",
+          "value_type": "reported_facility_distribution"
+        },
+        "commercial_ownership": {
+          "value": "234 of the 272 facilities with only administrative space were commercially owned; 96% of those commercial facilities were occupied by federal public defender organizations and probation offices",
+          "unit": "facilities and percent of commercial facilities",
+          "value_type": "reported_facility_comparison"
+        },
+        "rent_surface": {
+          "value": "The judiciary paid more than $1 billion in rent in fiscal year 2025, with administrative space accounting for 39%-40% of annual rent from fiscal years 2021 through 2025",
+          "unit": "U.S. dollars and percent of annual rent",
+          "value_type": "reported_cost_share_and_time_series"
+        }
+      },
+      "method": "GAO analysis of judiciary space and rent data, documents, interviews with the Administrative Office of the U.S. Courts and GSA, a survey of 13 circuit executives representing all court units nationwide, and a nongeneralizable sample of nine facilities including observations at four.",
+      "uncertainty": "The facility sample is nongeneralizable, and the report describes space and rent rather than service quality, court access, case processing, probation outcomes, public-defense capacity, or local economic effects. Square footage and rent shares do not reveal whether space is appropriately located or needed for future workloads.",
+      "subgroup": "Judiciary administrative functions including district clerks, probation offices, public defender organizations, pretrial services, and related court-unit offices; facility ownership and function are retained as the main comparison.",
+      "counterinterpretation": "Administrative space can be necessary even when average occupancy is low because secure, specialized, geographically distributed, or surge capacity may matter. Commercial ownership is not itself evidence of waste, and a stable rent share can coexist with changing mission needs or facility conditions.",
+      "source_url": "https://www.gao.gov/products/gao-26-108603",
+      "retrieval_hash": "sha256:403bf4f9130bb2b57065101d0e7a721ef69538b020d75ce55204001b9b7a6e1c",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal years 2021-2025; utilization measurement and management control",
+      "denominator": {
+        "value": 4,
+        "unit": "judiciary facilities directly observed by GAO for administrative-space use",
+        "value_type": "reported_observation_sample"
+      },
+      "measures": {
+        "space_change": {
+          "value": "Administrative space decreased by 1% from fiscal year 2021 to fiscal year 2025",
+          "unit": "percent change in usable administrative square feet",
+          "value_type": "reported_time_comparison"
+        },
+        "occupancy_data_collection": {
+          "value": "The judiciary has data on space amount and rent cost but does not collect or review occupancy data, so it cannot calculate utilization as average daily occupancy relative to usable square feet",
+          "unit": "management-information capability",
+          "value_type": "reported_control_gap"
+        },
+        "recommendation": {
+          "value": "GAO recommended regular occupancy-data collection, utilization benchmarks, and incorporation of those measures into space-use decisions; the recommendation remains open pending confirmation of agency action",
+          "unit": "recommendation status",
+          "value_type": "reported_recommendation"
+        },
+        "management_logic": {
+          "value": "Judiciary policies identify maximizing space use and data-based asset management as goals, but officials said utilization measurement was not practiced because a business need had not been identified",
+          "unit": "documented policy-practice comparison",
+          "value_type": "reported_process_gap"
+        }
+      },
+      "method": "GAO performance audit comparing documented asset-management policy, reported data practices, facility observations, circuit-executive survey responses, and agency interviews.",
+      "uncertainty": "The report identifies a measurement and governance gap, not a quantified underutilization rate or savings estimate. Four direct observations and a 13-executive survey do not establish daily occupancy across all facilities, and an open recommendation does not show whether reforms will occur.",
+      "subgroup": "Federal judiciary space-management officials, circuit executives, and selected facilities; no respondent-level public or court-user data are used.",
+      "counterinterpretation": "Not collecting occupancy data may reflect security, privacy, hybrid-work complexity, or a deliberate preference for mission and standards assessments rather than a lack of management. Measurement could improve decisions, but it does not guarantee lease reductions or better public access.",
+      "source_url": "https://www.gao.gov/products/gao-26-108603",
+      "retrieval_hash": "sha256:403bf4f9130bb2b57065101d0e7a721ef69538b020d75ce55204001b9b7a6e1c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a judicial administrative-capacity, real-property cost, and management-information layer. It does not infer waste, court access, case delay, probation or defense outcomes, facility-level occupancy, savings, service quality, or causal effects of the open recommendation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO-26-108603 full report PDF retrieved from the official GAO files host; facility counts, area, rent share, ownership, measurement gap, audit sample, and recommendation status cross-checked against the official report page and PDF.",
+    "pdf_sha256": "sha256:403bf4f9130bb2b57065101d0e7a721ef69538b020d75ce55204001b9b7a6e1c",
+    "checked": "2026-09-26"
+  }
+}

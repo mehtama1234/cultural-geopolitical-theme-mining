@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-sme-finance-investment-2026",
+  "title": "SME finance is recovering unevenly while high borrowing costs and shorter-term credit constrain investment and resilience",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "OECD Financing SMEs and Entrepreneurs 2026: An OECD Scoreboard",
+  "geography": "48 OECD and partner countries, with SME financing indicators covering 2007-2024 and latest available information through 2025",
+  "observations": [
+    {
+      "period": "2024-2025; OECD SME Finance Scoreboard covering 48 countries",
+      "denominator": {
+        "value": 48,
+        "unit": "OECD and partner countries included in the 2026 Scoreboard",
+        "value_type": "country_cross_section"
+      },
+      "measures": {
+        "countries_sme_rates_above_pre_pandemic": {"value": 34, "unit": "countries out of 39 with SME interest rates higher than pre-pandemic levels", "value_type": "reported_country_count"},
+        "countries_higher_collateral_requirement_share": {"value": 10, "unit": "countries out of 17 showing higher shares of SMEs requiring collateral", "value_type": "reported_country_count"},
+        "countries_vc_volume_increased": {"value": 18, "unit": "countries out of 30 with increased venture-capital volumes", "value_type": "reported_country_count"},
+        "sme_loan_stock": {"value": "broadly stagnant", "unit": "real outstanding SME-loan stock across Scoreboard countries", "value_type": "reported_directional_trend"},
+        "sme_long_term_loan_volume_change_since_2021": {"value": -11, "unit": "percent change in aggregate real long-term SME-loan volumes in the selected country group since 2021", "value_type": "reported_change_rate"},
+        "finance_constrained_smes_eu": {"value": 7.6, "unit": "percent of SMEs reported as finance-constrained in the cited European Commission evidence", "value_type": "reported_share"}
+      },
+      "method": "The OECD Scoreboard combines supply-side data from financial institutions and statistical agencies with demand-side surveys and policy information, covering debt, equity, asset-based finance, and financing conditions.",
+      "uncertainty": "SME definitions, indicator coverage, inflation adjustment, reference years, and country composition vary. Country counts are not a single pooled firm-level estimate. A higher rate or collateral requirement does not prove credit denial, and a loan-stock trend does not directly measure investment quality or employment.",
+      "subgroup": "Employer SMEs and entrepreneurs in non-financial sectors, with differences by firm size, age, sector, country, innovation intensity, ownership, and access to collateral or audited financial statements.",
+      "counterinterpretation": "New lending can recover while the outstanding stock stays flat because firms repay short-term loans; lower applications or long-term borrowing can reflect weak demand, delayed investment, or firms using equity, leasing, factoring, internal funds, or public guarantees instead.",
+      "source_url": "https://www.oecd.org/en/publications/financing-smes-and-entrepreneurs-2026_075d8058-en.html",
+      "retrieval_hash": "sha256:ad1e4073cf9c90949f11edb42f5fab5f2b41866225b040c5fca464f447211af0",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026 policy and financing-response synthesis",
+      "denominator": {
+        "value": 48,
+        "unit": "OECD and partner countries in the Scoreboard; policy instruments and country availability vary",
+        "value_type": "country_policy_comparison"
+      },
+      "measures": {
+        "factoring_growth_2024": {"value": -3, "unit": "percent change in aggregate factoring activity in 2024", "value_type": "reported_change_rate"},
+        "leasing_growth_2024": {"value": 1.6, "unit": "percent change in leasing activity in 2024", "value_type": "reported_change_rate"},
+        "countries_declining_guaranteed_loan_volumes": {"value": 20, "unit": "countries out of 25 reporting declines in guaranteed-loan volumes in 2024", "value_type": "reported_country_count"},
+        "guarantee_median_volume_change": {"value": -15, "unit": "percent change in the Scoreboard median guaranteed-loan volume in 2024", "value_type": "reported_change_rate"},
+        "policy_direction": {"value": "diversification toward fintech, asset-based finance, equity, public guarantees, and targeted support", "unit": "reported policy response pattern", "value_type": "reported_policy_pattern"},
+        "strategic_targeting": {"value": "green-tech, deep-tech, defence, women-owned firms, trade-exposed SMEs, sustainability, digitalisation, and skills", "unit": "reported target segments and investments", "value_type": "reported_policy_priority"}
+      },
+      "method": "The report reviews public guarantees, direct lending, venture-capital schemes, digital factoring infrastructure, invoice registries, fintech-driven finance, and targeted support for strategic or vulnerable SME segments.",
+      "uncertainty": "A decline in pandemic-era guarantees may represent normalization rather than a loss of support. Public participation in venture capital and fintech expansion do not establish additionality, equitable reach, firm survival, or downstream worker outcomes.",
+      "subgroup": "Start-ups, innovative SMEs, women-owned firms, trade-exposed firms, green and digital-transition firms, non-bank lenders, public development banks, investors, and firms with limited credit history.",
+      "counterinterpretation": "Targeted finance can correct market failures and mobilize patient capital, but strategic selection can also concentrate resources in high-visibility sectors or large deals; the report notes that the AI equity rebound is concentrated in a limited number of large investments.",
+      "source_url": "https://www.oecd.org/en/publications/financing-smes-and-entrepreneurs-2026_075d8058-en/full-report/recent-trends-in-sme-and-entrepreneurship-finance_95d4725c.html",
+      "retrieval_hash": "sha256:ad1e4073cf9c90949f11edb42f5fab5f2b41866225b040c5fca464f447211af0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a firm-finance and investment-capacity route. It does not identify individual firm trajectories, establish causal effects of credit conditions or public finance, measure worker outcomes, or treat country-level SME indicators as representative of every small business.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD Financing SMEs and Entrepreneurs 2026 publication page, executive summary, recent-trends chapter, and official PDF retrieved; country counts, loan-stock, long-term-credit, interest-rate, collateral, venture-capital, asset-based-finance, guarantee, fintech, and policy-response claims cross-checked against the publication.",
+    "pdf_sha256": "sha256:ad1e4073cf9c90949f11edb42f5fab5f2b41866225b040c5fca464f447211af0",
+    "checked": "2026-09-26"
+  }
+}

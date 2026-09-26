@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-acs-self-response-contact-strategy-2005-2025",
+  "title": "Survey participation can improve through targeted design changes while broader response still declines",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "U.S. Census Bureau 2026 ACS Research and Evaluation Report Memorandum Series #ACS26-RER-01, summarizing self-response contact-strategy research from 2005–2025",
+  "geography": "United States American Community Survey housing-unit collection; Puerto Rico is excluded from the report's contact-strategy discussion",
+  "observations": [
+    {
+      "period": "2008 ACS sequential questionnaire design",
+      "denominator": {"value": null, "unit": "ACS monthly panels and weighted self-response rates", "value_type": "not_disclosed"},
+      "measures": {"self_response_change": {"value": 1.2, "unit": "percentage-point increase from 2007 to 2008; 2008 reached 60.2%", "value_type": "reported_comparison"}, "item_quality": {"value": "Sequential layout significantly reduced person-incompleteness and some discrepancies", "unit": "reported field-test result", "value_type": "reported_effect"}},
+      "method": "Census evaluation comparing the sequential demographic layout with the prior grid layout and comparing 2008 monthly panels with corresponding 2007 panels.",
+      "uncertainty": "The effect is tied to a questionnaire-layout change and production context; it does not establish equal response improvement for every subgroup or later data-use quality.",
+      "subgroup": "ACS sampled housing units and household responses; detailed subgroup effects are not retained in this record.",
+      "counterinterpretation": "A higher response rate can coexist with burden, item nonresponse, or unequal participation among harder-to-reach households.",
+      "source_url": "https://www2.census.gov/library/working-papers/2026/acs/2026_Poehler_01.pdf",
+      "retrieval_hash": "sha256:f4e128a8bcd8f2c2ce3c47811531952331b607677d867082e8ccf24897bea563",
+      "status": "reported"
+    },
+    {
+      "period": "2013 ACS internet-response and contact-strategy change",
+      "denominator": {"value": null, "unit": "ACS monthly panels and weighted self-response rates", "value_type": "not_disclosed"},
+      "measures": {"self_response_change": {"value": 1.3, "unit": "percentage-point increase from 2012 to 2013; 2013 reached 61.1%", "value_type": "reported_comparison"}, "internet_option": {"value": "Adding an internet response option was associated with higher self-response", "unit": "reported program evaluation", "value_type": "reported_effect"}},
+      "method": "Census evaluation of the internet response option and related contact-strategy changes, comparing 2013 panels with corresponding 2012 panels.",
+      "uncertainty": "The report notes operational disruption from a government shutdown in October 2013; the comparison is not a universal estimate of digital access or data quality.",
+      "subgroup": "ACS sampled housing units by monthly panel and response mode; subgroup mechanisms remain paper-specific.",
+      "counterinterpretation": "Digital access can lower some response costs while creating device, literacy, language, privacy, or security barriers for others.",
+      "source_url": "https://www2.census.gov/library/working-papers/2026/acs/2026_Poehler_01.pdf",
+      "retrieval_hash": "sha256:f4e128a8bcd8f2c2ce3c47811531952331b607677d867082e8ccf24897bea563",
+      "status": "reported"
+    },
+    {
+      "period": "2015 ACS mail-contact modification",
+      "denominator": {"value": null, "unit": "ACS monthly panels and weighted self-response rates", "value_type": "not_disclosed"},
+      "measures": {"self_response_change": {"value": 1.1, "unit": "percentage-point increase relative to 2014; 2015 reached 62.1%", "value_type": "reported_comparison"}},
+      "method": "Census comparison of 2015 panels after the mail-contact change with 2014 panels.",
+      "uncertainty": "The source describes a program-era comparison, not a linked household-level pathway from message receipt to response motivation or later civic participation.",
+      "subgroup": "ACS sampled housing units; subgroup response and burden differences are not extracted.",
+      "counterinterpretation": "A modest aggregate increase can conceal unequal effects across geography, language, housing stability, and trust in government.",
+      "source_url": "https://www2.census.gov/library/working-papers/2026/acs/2026_Poehler_01.pdf",
+      "retrieval_hash": "sha256:f4e128a8bcd8f2c2ce3c47811531952331b607677d867082e8ccf24897bea563",
+      "status": "reported"
+    },
+    {
+      "period": "2022 ACS pressure-seal initial mailing test",
+      "denominator": {"value": null, "unit": "ACS April–December monthly panels compared with corresponding 2021 panels", "value_type": "not_disclosed"},
+      "measures": {"self_response_change": {"value": "neutral overall effect", "unit": "three higher, three lower, and three not statistically different panels", "value_type": "reported_null"}, "long_run_direction": {"value": "Despite repeated contact-strategy changes, self-response rates continued to decline over the longer period", "unit": "reported trend", "value_type": "reported_trend"}},
+      "method": "Census comparison of 2022 and 2021 panels, excluding pandemic-affected early 2021 panels from the main comparison.",
+      "uncertainty": "This is an aggregate panel comparison and does not identify why individual households responded or did not respond.",
+      "subgroup": "ACS sampled housing units and response panels; detailed subgroup treatment effects remain open.",
+      "counterinterpretation": "A neutral aggregate test may still help some groups or reduce costs without shifting the overall response rate.",
+      "source_url": "https://www2.census.gov/library/working-papers/2026/acs/2026_Poehler_01.pdf",
+      "retrieval_hash": "sha256:f4e128a8bcd8f2c2ce3c47811531952331b607677d867082e8ccf24897bea563",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.census.gov/library/working-papers/2026/acs/2026_Poehler_01.html", "claim": "Census landing page identifies the report, authors, September 2026 date, and scope from 2005 through 2025.", "status": "official-landing-page"}],
+  "boundary": "This record adds an institutional participation and measurement layer: contact design can change response rates or data-completion indicators, but repeated improvements do not eliminate broader response decline. It does not establish household trust, representativeness, equal burden, policy responsiveness, or political participation, and it does not follow the same household from contact to later outcome.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census PDF report and landing page; ACS microdata, paradata, and full response-rate series are not retained.", "pdf_sha256": "sha256:f4e128a8bcd8f2cce3c47811531952331b607677d867082e8ccf24897bea563", "checked": "2026-09-23"}
+}

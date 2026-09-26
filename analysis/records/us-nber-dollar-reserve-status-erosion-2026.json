@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-dollar-reserve-status-erosion-2026",
+  "title": "Reserve-currency demand provides U.S. borrowing capacity whose loss would redistribute fiscal and household room",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "public_systems_feedback", "household_room_consumption", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "NBER Working Paper 35328 and its nontechnical summary; general-equilibrium model calibrated with Federal Reserve Flow of Funds, trade, and convenience-yield evidence",
+  "geography": "United States and global dollar-asset holders; modeled loss of U.S. reserve-currency status",
+  "observations": [
+    {
+      "period": "Observed context through 2025; NBER model issued June 2026",
+      "denominator": {"value": null, "unit": "foreign holdings and U.S. dollar public/private safe-asset markets; exact source-specific denominators vary", "value_type": "not_disclosed"},
+      "measures": {
+        "foreign_public_debt_share": {"value": "roughly 45% to roughly 30% over the last two decades", "unit": "share of U.S. public debt held by foreign investors", "value_type": "reported_trend"},
+        "modeled_dollar_depreciation": {"value": 8.8, "unit": "percent real depreciation under complete reserve-status loss in baseline calibration", "value_type": "modeled_estimate"},
+        "modeled_real_rate_increase": {"value": 0.9, "unit": "percentage points under complete reserve-status loss", "value_type": "modeled_estimate"},
+        "modeled_foreign_bond_reabsorption": {"value": 50, "unit": "percent of GDP in dollar bonds domestic investors would absorb in the model", "value_type": "modeled_estimate"},
+        "modeled_wealth_loss": {"value": "roughly one year of U.S. GDP, or about $18 trillion in the summary's calibration", "unit": "present-value modeled aggregate wealth loss", "value_type": "modeled_estimate"}
+      },
+      "method": "General-equilibrium model of goods and asset markets calibrated with U.S. Flow of Funds, foreign ownership of dollar assets, trade elasticities, home bias, and convenience-yield estimates.",
+      "uncertainty": "The modeled outcomes describe a counterfactual complete loss of reserve status, not a forecast or observed current loss. Results depend on calibration, substitution elasticities, home bias, asset demand, fiscal/monetary response, and the path of adjustment. Foreign-ownership decline and convenience-yield indicators do not by themselves establish reserve-status loss.",
+      "subgroup": "U.S. households, domestic investors, foreign dollar-asset holders, Treasury and financial markets, and sectors exposed to exchange-rate and interest-rate adjustment; distribution within each group is not modeled in this record.",
+      "counterinterpretation": "Reserve demand can change without a discrete loss of status; dollar private-asset demand, safe-asset supply, policy credibility, and geopolitical alternatives may move differently. A real depreciation can benefit exporters while raising import costs, and aggregate wealth loss does not identify household incidence or policy response.",
+      "source_url": "https://www.nber.org/papers/w35328",
+      "retrieval_hash": "sha256:41427bf6370eb36c20a84cc8aba98ac90d785cc7058d9d4e3a44b51cc8bf0cfc",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/digest/202609/valuing-dollars-reserve-currency-status", "claim": "NBER summary separates foreign-ownership context, convenience yield, model calibration, and counterfactual reserve-status consequences.", "status": "official-summary"}
+  ],
+  "boundary": "This record adds a reserve-demand-to-state-capacity pathway. It does not establish that the United States has lost reserve status, predict a future depreciation or rate increase, or show distributional household, firm, political, or geopolitical outcomes from such a change."
+}

@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-mofcom-analog-ic-antidumping-investigation-2025",
+  "title": "China initiated an anti-dumping investigation into specified U.S. analog IC imports amid an export-control dispute",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Chinese Ministry of Commerce spokesperson remarks on initiation of an anti-dumping investigation into certain U.S. analog integrated-circuit chips",
+  "geography": "China, United States, and the global analog-integrated-circuit supply chain",
+  "observations": [
+    {
+      "period": "September 14, 2025 investigation announcement; import and price comparisons reported for 2022–2024",
+      "denominator": {
+        "value": null,
+        "unit": "certain commodity interface integrated-circuit chips and gate-driver integrated-circuit chips imported from the United States",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "institutional_response": {"value": "MOFCOM initiated an anti-dumping investigation after receiving an application from China's domestic industry and completing a legal review", "unit": "formal trade-remedy investigation", "value_type": "reported_institutional_action"},
+        "import_change": {"value": 37, "unit": "percent cumulative increase in imports of products under investigation from 2022 to 2024, according to preliminary applicant evidence", "value_type": "preliminary_applicant_evidence"},
+        "import_price_change": {"value": -52, "unit": "percent cumulative change in import prices from 2022 to 2024, according to preliminary applicant evidence", "value_type": "preliminary_applicant_evidence"},
+        "claimed_domestic_injury": {"value": "applicant evidence claimed depressed domestic product prices and injury to domestic production and operations", "unit": "reported allegation under investigation", "value_type": "preliminary_claim"},
+        "final_measure_or_finding": {"value": "not observed at initiation", "unit": "missing final ruling, duty, negotiated undertaking, or import response", "value_type": "unmeasured"},
+        "link_to_us_controls": {"value": "MOFCOM framed the investigation amid U.S. export-control and long-arm-jurisdiction disputes, but the announcement does not identify the VEU removals as the direct cause of the application", "unit": "causal attribution boundary", "value_type": "bounded_context"}
+      },
+      "method": "Chinese Ministry of Commerce spokesperson announcement review. The investigation initiation, applicant evidence, and policy context are coded separately from a final anti-dumping finding, trade restriction, firm response, or strategic effect.",
+      "uncertainty": "The reported import and price figures are preliminary evidence submitted by the applicant, not a final ministry finding. The source does not disclose the full product universe, firms, volumes, margins, injury methodology, final determination, or downstream prices and supply effects.",
+      "subgroup": "Chinese domestic analog-IC producers, U.S. analog-IC exporters, importers and downstream electronics firms, MOFCOM investigators, and affected semiconductor workers and customers.",
+      "counterinterpretation": "The investigation may be an ordinary trade-remedy process based on domestic-industry concerns rather than a direct retaliation for U.S. export controls; import growth and price decline can reflect demand, technology, product mix, or market-cycle changes rather than dumping.",
+      "source_url": "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_fbe5b1354a344214921101ae311ddffb.html",
+      "retrieval_hash": "sha256:a40d1b52f3a3063f01c3620078459added48a24d6a14aa77db0659f09bca93a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_267bddaf8d52497289627453b3d5636a.html", "claim": "MOFCOM separately stated opposition to the VEU removals and intent to protect Chinese enterprises.", "status": "official-context"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO documents the U.S. advanced-semiconductor export-control implementation and compliance stage preceding external-response analysis.", "status": "official-comparator"}
+  ],
+  "boundary": "This record advances from official opposition to a formal Chinese trade-remedy investigation in the broader semiconductor dispute. It does not establish that the VEU removals caused the investigation, that dumping occurred, that duties or other measures followed, or that U.S. firms, Chinese production, supply chains, or strategic behavior changed."
+}

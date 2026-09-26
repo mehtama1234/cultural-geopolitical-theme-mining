@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-ai-markets-2026-concentration-competition-strategic-advantage",
+  "title": "AI-market dynamism coexists with concentration in hardware and data that may entrench incumbent strategic advantage",
+  "theme_ids": ["voice", "work", "cost", "energy"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "work_control_bargaining", "public_systems_feedback", "trust_identity_meaning", "geopolitical_state_consequences"],
+  "source_unit": "OECD, Artificial Intelligence markets: Recent developments and competition issues, July 2026",
+  "geography": "Global AI value chains and competition-policy systems, with sector and value-chain implications across economies",
+  "observations": [
+    {
+      "period": "2023-2026; recent AI-market development",
+      "denominator": {"value": 1, "unit": "OECD policy-brief assessment of AI market segments and value-chain developments", "value_type": "ai_market_assessment_frame"},
+      "measures": {
+        "market_picture": {"value": "mixed: foundation-model segments have shown dynamism over the past three years while structural risks persist across AI value-chain layers", "unit": "reported market pattern", "value_type": "reported_trend"},
+        "value_chain_layers": {"value": "hardware, data, models, cloud or infrastructure, and applications", "unit": "AI market layers considered in the OECD analysis", "value_type": "reported_framework"},
+        "competition_endpoint": {"value": "competition in AI markets has broad implications for economic growth", "unit": "reported downstream significance", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD policy brief drawing on previous OECD work and updated evidence on AI markets, market structure, competition, and recent developments.",
+      "uncertainty": "The brief is a cross-market policy synthesis rather than a single global concentration statistic or causal estimate of AI’s effect on growth, wages, prices, or consumer welfare.",
+      "subgroup": "AI developers, infrastructure providers, data holders, application firms, competition authorities, workers, consumers, and governments.",
+      "counterinterpretation": "Dynamism in foundation models can produce innovation and lower access barriers even when other layers remain concentrated; market structure can change quickly as technologies and business models evolve.",
+      "source_url": "https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en.html",
+      "retrieval_hash": "sha256:9f4f99ed3d389a379b39208a896ccf8a65742e529d5fbdffc301285b9e23c43c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI deployment and strategic advantage",
+      "denominator": {"value": 1, "unit": "AI firms and markets covered by OECD competition analysis", "value_type": "ai_strategic_advantage_frame"},
+      "measures": {
+        "business_effects": {"value": "AI development and deployment reshape business performance, cost structures, and strategic advantages", "unit": "reported firm-market mechanism", "value_type": "reported_mechanism"},
+        "market_power_route": {"value": "changes in cost and capability can affect market power and competitive position", "unit": "reported competition mechanism", "value_type": "reported_mechanism"},
+        "growth_link": {"value": "the allocation of AI capability across competing firms and value-chain layers matters for economic growth", "unit": "reported growth mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD synthesis connecting AI adoption, firm performance, cost structures, strategic advantage, and competition-policy implications.",
+      "uncertainty": "The brief does not establish that AI adoption increases or decreases competition uniformly across sectors, nor does it identify a common effect size for firms or workers.",
+      "subgroup": "Incumbent firms, entrants, suppliers, downstream businesses, workers, consumers, investors, and regulators in AI-using sectors.",
+      "counterinterpretation": "Lower production or search costs can enable entry and product variety; strategic advantage may diffuse when models, standards, skills, and infrastructure become more accessible.",
+      "source_url": "https://doi.org/10.1787/d531d73f-en",
+      "retrieval_hash": "sha256:9f4f99ed3d389a379b39208a896ccf8a65742e529d5fbdffc301285b9e23c43c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; structural concentration and incumbent entrenchment",
+      "denominator": {"value": 1, "unit": "AI value-chain segments identified as structurally concentrated", "value_type": "ai_concentration_frame"},
+      "measures": {
+        "concentrated_segments": {"value": "hardware and data are highlighted as structurally concentrated market segments", "unit": "reported concentration pattern", "value_type": "reported_finding"},
+        "incumbent_risk": {"value": "incumbent positions may become entrenched in the long run", "unit": "reported competition risk", "value_type": "reported_risk"},
+        "policy_question": {"value": "whether access, interoperability, contestability, and enforcement can prevent durable bottlenecks across AI layers", "unit": "reported policy question", "value_type": "reported_policy_frame"}
+      },
+      "method": "OECD analysis of structural risks in AI value chains and their implications for market power and competition policy.",
+      "uncertainty": "Entrenchment is a risk identified by the brief, not proof of future monopoly or a country-specific finding; concentration can reflect scale economies, infrastructure requirements, data advantages, or temporary technology cycles.",
+      "subgroup": "Hardware suppliers, cloud and compute providers, data holders, model developers, application firms, entrants, and competition authorities.",
+      "counterinterpretation": "Scale and concentration can support investment, reliability, and research that smaller firms cannot finance; targeted competition policy may need to distinguish harmful exclusion from productive scale.",
+      "source_url": "https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en.html",
+      "retrieval_hash": "sha256:9f4f99ed3d389a379b39208a896ccf8a65742e529d5fbdffc301285b9e23c43c",
+      "status": "reported"
+    },
+    {
+      "period": "2026; competition-policy and public-interest endpoint",
+      "denominator": {"value": 1, "unit": "AI competition-policy and public-interest decision frame", "value_type": "ai_policy_endpoint_frame"},
+      "measures": {
+        "enforcement_scope": {"value": "competition policy must examine multiple layers of the AI value chain rather than only visible application firms", "unit": "reported policy implication", "value_type": "reported_policy_direction"},
+        "affected_outcomes": {"value": "innovation, economic growth, business performance, cost structures, and strategic advantage", "unit": "reported outcome set", "value_type": "reported_outcome_set"},
+        "monitoring_need": {"value": "ongoing monitoring is required because market dynamism and structural concentration can coexist", "unit": "reported governance implication", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "OECD policy interpretation of AI market developments and competition issues across value-chain layers.",
+      "uncertainty": "Policy relevance does not establish that any specific remedy will improve competition or public outcomes; enforcement depends on jurisdiction, evidence, market definition, and technological change.",
+      "subgroup": "Competition authorities, sector regulators, public purchasers, firms, workers, consumers, and communities affected by AI-enabled market changes.",
+      "counterinterpretation": "Overly broad intervention can deter entry and innovation; proportionate, evidence-based tools may preserve experimentation while addressing bottlenecks and exclusion.",
+      "source_url": "https://www.oecd.org/en/publications/artificial-intelligence-markets_d531d73f-en.html",
+      "retrieval_hash": "sha256:9f4f99ed3d389a379b39208a896ccf8a65742e529d5fbdffc301285b9e23c43c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/a-decade-of-oecd-competition-trends-data-and-insights_05021ff2-en.html", "claim": "OECD competition-trends evidence provides a broader enforcement and digital-markets context."},
+    {"source_url": "https://www.worldbank.org/en/publication/wdr2026", "claim": "World Bank WDR 2026 provides a complementary capability, infrastructure, and AI-value-chain development frame."},
+    {"source_url": "https://doi.org/10.1787/d531d73f-en", "claim": "Official OECD DOI for Artificial Intelligence markets: Recent developments and competition issues."}
+  ],
+  "boundary": "This record adds a firm-sector and market-structure route linking AI value-chain layers, concentration, competition, cost structures, strategic advantage, innovation, and public-interest oversight. It is not a firm-level market-share estimate, a consumer-price estimate, a labor-market causal study, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD 2026 AI-markets publication page and DOI record were reviewed; market dynamism, value-chain layers, business-performance mechanisms, structural concentration, incumbent-entrenchment risk, and policy-endpoint claims were cross-checked.",
+    "source_url_sha256": "sha256:9f4f99ed3d389a379b39208a896ccf8a65742e529d5fbdffc301285b9e23c43c",
+    "checked": "2026-09-26"
+  }
+}

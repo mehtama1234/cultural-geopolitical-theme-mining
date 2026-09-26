@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-immigration-enforcement-victim-reporting-public-safety-2026",
+  "title": "Enforcement fear can reduce victim reporting while reported crime stays flat",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "public_systems_feedback", "unequal_exposure_status", "geopolitical_state_consequences", "political_judgment_action"],
+  "source_unit": "Census CES Working Paper 26-23, using the Secure Communities policy and linked crime and victim-reporting evidence",
+  "geography": "United States; immigrant communities, Hispanic victims, local law-enforcement jurisdictions, and policy rollout periods",
+  "observations": [{
+    "period": "Secure Communities policy period; paper published April 2026",
+    "denominator": {"value": 1, "unit": "study-level policy and victim-reporting analysis", "value_type": "study_unit"},
+    "measures": {
+      "reporting": {"value": "the policy reduced the likelihood that Hispanic victims reported crimes to police", "unit": "reported relationship", "value_type": "reported_relationship"},
+      "offending": {"value": "offending against Hispanics increased", "unit": "reported relationship", "value_type": "reported_relationship"},
+      "reported_crime": {"value": "the number of reported crimes was unchanged because opposing changes were masked", "unit": "reported-crime measure", "value_type": "reported_relationship"},
+      "elasticity": {"value": "a 10% decline in victim reporting increased offending by 7.9%", "unit": "offending response to reporting", "value_type": "reported_estimate"},
+      "mechanism": {"value": "deportation fear reduced reporting and the reporting decline drove the increase in offending", "unit": "study mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors study the Secure Communities enforcement policy and combine policy variation with crime and victim-reporting evidence to estimate reporting and offending relationships.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The abstract does not establish that every enforcement policy, jurisdiction, immigrant group, or crime category behaves the same way. Reported-crime stability cannot be read as stable victimization or stable public safety.",
+    "subgroup": "Hispanic victims and immigrant communities exposed to Secure Communities; subgroup differences by place, legal status, crime type, age, gender, and institutional contact require separate analysis.",
+    "counterinterpretation": "Changes in police practice, local crime conditions, migration, community organization, or enforcement intensity could affect reporting and offending together. A decline in reporting may reflect fear, distrust, cost, perceived futility, or alternative support routes; the public abstract does not separate all of these channels.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-23.html",
+    "retrieval_hash": "sha256:f55800314df723a24e217d7ebbd801ee8a808fcd9d569f4d59808c6aca8be221",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-23.pdf", "claim": "The official paper provides the policy design, reporting analysis, offending estimates, and caveats behind the abstract.", "status": "official-paper-context"}],
+  "boundary": "This record adds a policy-climate-to-reporting-to-public-safety pathway. It does not establish universal effects, identify every reason for nonreporting, measure all victimization, or prove later trust, civic action, or durable institutional legitimacy.",
+  "retrieval_hash": "sha256:f55800314df723a24e217d7ebbd801ee8a808fcd9d569f4d59808c6aca8be221"
+}

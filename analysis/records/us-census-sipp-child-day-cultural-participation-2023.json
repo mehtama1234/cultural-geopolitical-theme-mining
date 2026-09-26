@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-sipp-child-day-cultural-participation-2023",
+  "title": "Family routines can stay steady while organized opportunity remains unequal",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Census Bureau Current Population Reports P70-212 using the 2023 Survey of Income and Program Participation weighted public-use data",
+  "geography": "United States; children under 18, with age-specific parental-interaction and extracurricular-activity universes",
+  "observations": [
+    {
+      "period": "2023, with 2014-2023 trend comparisons where reported",
+      "denominator": {
+        "value": 50230000,
+        "unit": "children ages 6 to 17 in the 2023 SIPP for extracurricular and school-engagement measures",
+        "value_type": "reported_estimate"
+      },
+      "measures": {
+        "reading_and_dinner": {
+          "value": "67.4% of children under 6 were read to at least 5 days per week in 2023 versus 65.1% in 2014; 85.8% of children under 18 ate dinner with a reference parent at least 5 nights per week versus 86.3% in 2014",
+          "unit": "reported child-parent interaction rates",
+          "value_type": "reported_estimate"
+        },
+        "outing_disruption": {
+          "value": "87.1% had at least two weekly outings with a reference parent in 2019; 72.8% in 2021; 2022 and 2023 remained below 2019",
+          "unit": "children under 6 with reference-parent outings",
+          "value_type": "reported_trend"
+        },
+        "organized_activity_participation": {
+          "value": "38.4% sports; 26.8% lessons; 21.9% clubs; 6.8% all three; 41.5% religious activities at least monthly",
+          "unit": "children ages 6 to 17",
+          "value_type": "reported_estimate"
+        },
+        "poverty_activity_gradient": {
+          "value": "1.2% of children in families below poverty participated in all three of sports, lessons, and clubs versus 8.8% in families at 200% of poverty or higher",
+          "unit": "children ages 6 to 17 by family poverty status",
+          "value_type": "reported_comparison"
+        },
+        "school_engagement": {
+          "value": "28.3% highly engaged in 2023; trend figure reports 35.3% in 2014 and 28.5% in 2023",
+          "unit": "children ages 6 to 17 under the report's high-engagement definition",
+          "value_type": "reported_estimate"
+        },
+        "material_hardship": {
+          "value": "about one-third of children lived in a household with material hardship; 18.6% food-related, 10.4% bill-paying, and 16.5% physical housing hardship",
+          "unit": "children under 18 and household hardship measures",
+          "value_type": "reported_estimate"
+        },
+        "later_social_outcomes": {
+          "value": "not observed in this finding",
+          "unit": "quality, belonging, confidence, health, educational attainment, and later adult outcomes linked to participation",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Descriptive analysis of weighted public-use SIPP child well-being data, with age-specific reference-parent reports and cross-year comparisons; published estimates include 90% confidence-interval testing and distinct universes for different measures.",
+      "uncertainty": "The report does not provide a retained person-level extract for this record. Measures differ by age, reference period, and respondent; some trends predate the pandemic and the source does not isolate activity costs, transportation, school resources, preferences, or causal mechanisms.",
+      "subgroup": "Children under 6 for outings and reading, children under 18 for dinner and household hardship, and children ages 6 to 17 for extracurricular and school-engagement measures; poverty-status, age, race/Hispanic-origin, and sex comparisons are reported.",
+      "counterinterpretation": "Lower formal activity participation may reflect preference, safety, transportation, time, fees, information, or program supply rather than lost family culture. Stable reading or dinner rates do not prove equal quality or equal emotional support, and lower school engagement does not by itself identify a cause.",
+      "source_url": "https://www2.census.gov/library/publications/2026/demo/p70-212.pdf",
+      "retrieval_hash": "sha256:5a16cf1ece3e6c11e20dab42b80e8598bee887cd07a6c547271f6947b17aa05a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p70-212.html",
+      "claim": "Census publication page identifies the report, authors, date, and 2023 SIPP basis.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.census.gov/programs-surveys/sipp.html",
+      "claim": "Census describes SIPP as a longitudinal survey covering family dynamics and economic circumstances.",
+      "status": "official-survey-documentation"
+    }
+  ],
+  "boundary": "This record adds measured family interaction, material hardship, organized activity participation, and school engagement. It does not establish causation, activity quality, belonging, later educational or adult outcomes, or a same-child journey from hardship to later life."
+}

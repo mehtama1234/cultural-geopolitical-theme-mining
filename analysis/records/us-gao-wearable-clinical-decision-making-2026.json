@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-wearable-clinical-decision-making-2026",
+  "title": "More health data can expand care options without settling who can trust or act on it",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office technology assessment of wearable devices in clinical decision-making",
+  "geography": "United States health-care technology and clinical settings",
+  "observations": [
+    {
+      "period": "2026; wearable health technology assessment",
+      "denominator": {"value": 1, "unit": "GAO technology assessment of wearable devices with health-related features", "value_type": "qualitative_assessment_universe"},
+      "measures": {
+        "potential_use": {"value": "sensors can track vital signs, establish baselines, alert users or clinicians, and provide data for interpretation", "unit": "reported capability", "value_type": "reported_capability"},
+        "potential_benefit": {"value": "could support quicker diagnosis, personalized care plans, and remote monitoring for underserved populations", "unit": "possible clinical benefit", "value_type": "reported_potential"},
+        "reliability": {"value": "devices vary in accuracy and reliability", "unit": "technology condition", "value_type": "reported_constraint"}
+      },
+      "method": "GAO review of scientific literature, federal guidance, other documents, stakeholder interviews, agency interviews, and site visits to laboratories, medical and research centers, and manufacturers.",
+      "uncertainty": "The assessment does not estimate population use, device-specific accuracy, or a causal patient-health effect.",
+      "subgroup": "Patients, clinicians, caregivers, medical facilities, manufacturers, and underserved populations that may receive remote monitoring.",
+      "counterinterpretation": "Even imperfect sensors can provide useful supplementary information when clinicians interpret them appropriately; potential benefit is not disproved by variable reliability.",
+      "source_url": "https://www.gao.gov/products/gao-26-107847",
+      "retrieval_hash": "sha256:6f603af6a57ad01d95b987e0517362e3b0eb15a1ddaa8f0eb269ed77c2f01803",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-augmented wearable decision-making and clinical integration",
+      "denominator": {"value": 1, "unit": "GAO assessment of policy and implementation challenges", "value_type": "qualitative_assessment_universe"},
+      "measures": {
+        "integration_problem": {"value": "clinical workflow integration and ensuring patient benefit as intended remain challenges", "unit": "reported implementation barrier", "value_type": "reported_constraint"},
+        "autonomy": {"value": "the extent to which AI-augmented wearables can make autonomous clinical decisions is unclear", "unit": "technology-governance boundary", "value_type": "reported_uncertainty"},
+        "responsibility": {"value": "workflow integration could clarify clinician responsibilities and liability, while requiring resources", "unit": "institutional consequence", "value_type": "reported_tradeoff"},
+        "certification_tradeoff": {"value": "independent certification could improve information but may create confusion, raise costs, and favor larger manufacturers", "unit": "policy option tradeoff", "value_type": "reported_tradeoff"}
+      },
+      "method": "GAO synthesis of evidence and policy options concerning clinical workflow, data protection, liability, market navigation, and performance certification.",
+      "uncertainty": "These are policy and implementation considerations, not estimates of actual privacy incidents, liability cases, market concentration, or health outcomes.",
+      "subgroup": "Patients and clinicians using different devices and facilities with different data systems, resources, and governance practices.",
+      "counterinterpretation": "Voluntary testing and local workflow improvements may address some barriers without a single national certification or integration model.",
+      "source_url": "https://www.gao.gov/products/gao-26-107847",
+      "retrieval_hash": "sha256:6f603af6a57ad01d95b987e0517362e3b0eb15a1ddaa8f0eb269ed77c2f01803",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures potential wearable capabilities and reported clinical-integration and governance challenges. It does not establish device use prevalence, patient benefit, privacy harm, health improvement, or inequality magnitude.",
+  "retrieval_hash": "sha256:6f603af6a57ad01d95b987e0517362e3b0eb15a1ddaa8f0eb269ed77c2f01803"
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-homophily-race-job-mobility-2026",
+  "title": "Workers respond differently to job opportunities depending on the social makeup of the destination",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "work_control_bargaining", "trust_identity_meaning", "firm_sector_market_power"],
+  "source_unit": "Census CES Working Paper CES-26-22; restricted-use American Community Survey analysis of regional labor-market opportunities, race/ethnicity, and mobility across commuting zones",
+  "geography": "United States commuting zones and labor-market destinations; Black, Hispanic, and White workers",
+  "observations": [{
+    "period": "U.S. racial/ethnic differences in response to labor-market opportunities; ACS-based study, paper published March 2026",
+    "denominator": {"value": 1, "unit": "study-defined restricted ACS regional labor-market analysis", "value_type": "study_unit"},
+    "measures": {
+      "baseline_responsiveness": {"value": "Black and Hispanic workers were less responsive than White workers to changes in job opportunities", "unit": "modeled labor-mobility response", "value_type": "reported_comparison"},
+      "own_race_context": {"value": "Black and Hispanic worker responsiveness increased when opportunities were in locations with a higher share of the worker's own race", "unit": "modeled destination-composition interaction", "value_type": "reported_model_result"},
+      "mechanism_label": {"value": "the paper studies homophily as one possible explanation for racial and ethnic labor-market disparities", "unit": "authors' mechanism framing", "value_type": "reported_interpretation"},
+      "outcome_scope": {"value": "mobility response to job opportunities was studied; destination job quality, earnings, belonging, discrimination, and later household security were not established by the abstract", "unit": "outcome boundary", "value_type": "unmeasured"}
+    },
+    "method": "The paper uses restricted American Community Survey data accessed through Federal Statistical Research Data Centers and includes commuting zones that may be unavailable in public data because of location suppression. It models racial/ethnic differences in response to changes in regional job opportunities and destination own-race population share.",
+    "uncertainty": "The abstract does not identify whether own-race context operates through social support, discrimination, networks, perceived safety, information, household constraints, preferences, or employer behavior. The study is not a randomized relocation offer and does not show that moving or staying improved outcomes.",
+    "subgroup": "Black, Hispanic, and White workers in the study's restricted ACS regional analysis; other racial, ethnic, immigrant, multiracial, tribal, age, disability, family, and occupational experiences are not represented by the summarized result.",
+    "counterinterpretation": "Higher responsiveness in own-race locations need not mean a simple preference for same-race neighbors. It could reflect lower expected discrimination, stronger networks, better information, family support, job matching, safety, or fewer costs of moving; lower response elsewhere could reflect constraints rather than choice.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-22.html",
+    "retrieval_hash": "sha256:4f9c1dbddf37ab0a9dd83a3368a20be2d07860f97c876d322dba5310c7fa5cc5",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-22.pdf", "claim": "Official Census PDF for CES Working Paper 26-22", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a place-and-identity mechanism to labor mobility: the same job opportunity may be more usable when the destination offers familiar social networks or lower expected social cost. It does not establish homophily as the sole cause, racial preference, discrimination, relocation success, or later worker, household, cultural, or political outcomes."
+}

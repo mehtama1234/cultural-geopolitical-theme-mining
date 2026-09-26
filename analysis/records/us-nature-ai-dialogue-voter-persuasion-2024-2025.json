@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nature-ai-dialogue-voter-persuasion-2024-2025",
+  "title": "A personalized AI conversation can move political preference in an experiment before real-world voting behavior is known",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Peer-reviewed Nature article reporting preregistered randomized human-AI dialogue experiments in the 2024 U.S. presidential election context, the 2025 Canadian and Polish elections, and a Massachusetts ballot measure",
+  "geography": "United States primary case: 2024 presidential election experiment and Massachusetts psychedelic-legalization ballot measure; comparative Canadian and Polish experiments are retained as context",
+  "observations": [
+    {
+      "period": "2024 U.S. presidential election experiment",
+      "denominator": {"value": null, "unit": "randomized U.S. participants in the published experiment; exact count not extracted from the accessible article summary", "value_type": "not_disclosed"},
+      "measures": {
+        "treatment": {"value": "participants were randomly assigned to converse with an AI model advocating for one of the top two candidates", "unit": "randomized dialogue condition", "value_type": "reported_experiment_design"},
+        "candidate_preference": {"value": "AI conversations significantly changed candidate preference", "unit": "pre- to post-conversation candidate-preference outcome", "value_type": "reported_experiment_result"},
+        "voting_likelihood": {"value": "extended-data analysis reports changes in voting likelihood and vote choice, including positive treatment effects among some in-party participants below a ceiling", "unit": "reported experimental outcome", "value_type": "reported_experiment_result"}
+      },
+      "method": "Peer-reviewed, preregistered randomized online experiment using human-AI political dialogues; published Nature article and accessible extended-data descriptions.",
+      "uncertainty": "The article measures immediate or short-run stated preference and voting likelihood, not verified turnout, durable persuasion, campaign exposure in the wild, or population-scale election effects.",
+      "subgroup": "U.S. participants in the 2024 presidential-election experiment; heterogeneity analyses consider prior preference, political interest, involvement, and other covariates.",
+      "counterinterpretation": "Partisans entered with polarized views and ceiling effects constrained movement; a post-treatment stated choice can reflect measurement, regression to the mean, or temporary salience rather than durable belief change.",
+      "source_url": "https://www.nature.com/articles/s41586-025-09771-9",
+      "retrieval_hash": "sha256:1c37a977a5c0d981df88278bc2ea2e016c55343c1788d8dfc3180929d6f966f3",
+      "status": "reported"
+    },
+    {
+      "period": "Massachusetts ballot-measure experiment",
+      "denominator": {"value": null, "unit": "Massachusetts residents in the randomized AI-dialogue experiment; exact count not extracted from the accessible article summary", "value_type": "not_disclosed"},
+      "measures": {
+        "policy_support": {"value": "AI dialogue changed support for a ballot measure legalizing psychedelics", "unit": "reported experimental policy-support outcome", "value_type": "reported_experiment_result"},
+        "persuasion_basis": {"value": "models' strategies were described as relying on relevant facts and evidence rather than sophisticated psychological techniques", "unit": "reported strategy interpretation", "value_type": "reported_interpretation"},
+        "accuracy_boundary": {"value": "not all facts and evidence presented were accurate", "unit": "reported content-quality limitation", "value_type": "reported_limitation"}
+      },
+      "method": "Randomized human-AI dialogue experiment on a Massachusetts ballot measure; article-level strategy and accuracy analysis retained separately from the effect estimate.",
+      "uncertainty": "The accessible summary does not provide the full sample denominator or establish whether participants acted on the changed preference or whether effects persisted.",
+      "subgroup": "Massachusetts residents in the ballot-measure experiment; no household, community, or election-administration outcome is linked.",
+      "counterinterpretation": "Policy support can change in an experiment without changing voting, organizing, turnout, or later policy judgment; factual inaccuracy could also limit or reverse the effect.",
+      "source_url": "https://www.nature.com/articles/s41586-025-09771-9",
+      "retrieval_hash": "sha256:1c37a977a5c0d981df88278bc2ea2e016c55343c1788d8dfc3180929d6f966f3",
+      "status": "reported"
+    },
+    {
+      "period": "2024–2025 comparative election experiments",
+      "denominator": {"value": 3, "unit": "country election contexts: United States, Canada, and Poland", "value_type": "reported_context_count"},
+      "measures": {
+        "cross_context_result": {"value": "candidate-preference effects were reported across the three country contexts", "unit": "comparative experimental result", "value_type": "reported_comparison"},
+        "accuracy_asymmetry": {"value": "right-leaning candidate-advocating models made more inaccurate claims across all three countries", "unit": "comparative model-content result", "value_type": "reported_comparison"},
+        "real_world_action": {"value": "verified turnout, vote, durable belief, and institutional response were not observed", "unit": "missing political endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Comparison of preregistered dialogue experiments across three national election contexts; cross-country evidence is not pooled into a single U.S. effect.",
+      "uncertainty": "Different elections, candidates, samples, languages, political systems, and model conditions limit direct comparison; comparative effect does not prove generalization to all voters.",
+      "subgroup": "Participants in U.S., Canadian, and Polish election experiments; the U.S. program uses the U.S. case as primary and the other two as comparative context.",
+      "counterinterpretation": "Observed short-run persuasion may depend on candidate salience, experiment framing, prior preference, and local political context; it does not establish scalable campaign influence.",
+      "source_url": "https://www.nature.com/articles/s41586-025-09771-9",
+      "retrieval_hash": "sha256:1c37a977a5c0d981df88278bc2ea2e016c55343c1788d8dfc3180929d6f966f3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.7910/DVN/DODEXZ", "claim": "The authors identify a Harvard Dataverse route for source data and a sensitive-data access process.", "status": "author_data_route"},
+    {"source_url": "https://osf.io/vx5su/", "claim": "The article identifies an OSF location for code.", "status": "author_code_route"}
+  ],
+  "boundary": "This record establishes randomized evidence that human-AI political dialogues can change stated candidate or policy preferences in specified experiments. It does not establish durable belief change, verified voting, turnout, scalable campaign effects, misinformation prevalence, democratic harm, or population-wide cultural change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Nature article page and accessible extended-data descriptions used for the bounded extraction; raw conversation transcripts and bespoke model code are not treated as locally reproduced.",
+    "html_sha256": "sha256:1c37a977a5c0d981df88278bc2ea2e016c55343c1788d8dfc3180929d6f966f3",
+    "checked": "2026-09-22"
+  }
+}

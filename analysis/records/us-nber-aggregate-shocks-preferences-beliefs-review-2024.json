@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-aggregate-shocks-preferences-beliefs-review-2024",
+  "title": "Large shocks can shape political preferences, risk attitudes, and institutional trust, especially when experienced young",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 32669 and 2025 Journal of Economic Literature review by Paola Giuliano and Antonio Spilimbergo",
+  "geography": "Literature on recessions, inflation, trade, migration, wars, terrorism, pandemics, and natural disasters, including U.S. and cross-national evidence",
+  "observations": [
+    {
+      "period": "Reviewed literature through 2024; published version 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "structured review of heterogeneous empirical literatures, not one pooled sample",
+        "value_type": "review_scope"
+      },
+      "measures": {
+        "preferences_and_beliefs": {
+          "value": "aggregate shocks affect political preferences, risk attitudes, and trust in institutions across the reviewed literature",
+          "unit": "reviewed empirical conclusion",
+          "value_type": "reviewed_pattern"
+        },
+        "life_stage": {
+          "value": "shocks experienced during young adulthood generally have stronger and longer-lasting effects",
+          "unit": "reviewed life-cycle pattern",
+          "value_type": "reviewed_pattern"
+        },
+        "shock_type": {
+          "value": "negative economic shocks generally move preferences rightward, while non-economic shocks have more heterogeneous effects that depend on context",
+          "unit": "reviewed comparative pattern",
+          "value_type": "reviewed_comparison"
+        },
+        "permanence_and_action": {
+          "value": "not one universally established permanent effect or direct preference-to-vote pathway",
+          "unit": "review boundary across studies",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of sociology, social psychology, and economics evidence across multiple shock types, with explicit discussion of empirical methods, limitations, cross-study comparability, mechanisms, life-stage timing, and persistence.",
+      "uncertainty": "This is a heterogeneous literature review, not a pooled causal estimate. Studies differ in shock exposure, population, outcome, timing, identification strategy, and follow-up. A reviewed association or pattern may not generalize across shocks, places, cohorts, or political systems.",
+      "subgroup": "People exposed to different aggregate shocks and at different life stages, especially young adulthood; reviewed subgroups and national contexts vary by study and are not one linked population.",
+      "counterinterpretation": "Observed preference changes may reflect selective exposure, migration, media, institutions, cohort replacement, or measurement change. Economic shocks need not move every population rightward, and non-economic shocks can generate political responses that depend on threat, attribution, identity, and institutional context.",
+      "source_url": "https://www.nber.org/papers/w32669",
+      "retrieval_hash": "sha256:0071263bc5e9a583eefba801ec47ff08c7c003053b2bac6011493310aa806afb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.aeaweb.org/articles?id=10.1257/jel.20241674",
+      "claim": "Published Journal of Economic Literature version, 2025, volume 63(2), pages 542-597.",
+      "status": "published-version-context"
+    },
+    {
+      "source_url": "https://www.imf.org/en/publications/wp/issues/2024/09/13/aggregate-shocks-and-the-formation-of-preferences-and-beliefs-554823",
+      "claim": "IMF Working Paper version and review framing.",
+      "status": "companion-review-context"
+    }
+  ],
+  "boundary": "This record preserves a review-level pattern that shocks can shape preferences, risk attitudes, and institutional trust, with stronger effects in some young-adult exposure settings. It does not estimate one U.S. effect, prove permanence, identify one mechanism, or show that changed preferences became votes, protest, policy, or durable cultural identity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER abstract and published-version metadata reviewed for scope and headline conclusions; underlying reviewed studies are not collapsed into a new pooled estimate.",
+    "source_response_sha256": "sha256:0071263bc5e9a583eefba801ec47ff08c7c003053b2bac6011493310aa806afb",
+    "checked": "2026-09-23"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ebay-consumer-search-costs-lower-prices-2015",
+  "title": "Online consumer search takes repeated time and can improve price discovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "household_room_consumption", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 22302; eBay search and purchase behavior dataset",
+  "geography": "Online eBay consumers and purchases; internet search behavior",
+  "observations": [{
+    "period": "eBay consumer search and purchases; paper issued 2015",
+    "denominator": {"value": 1, "unit": "eBay search-and-purchase behavior study", "value_type": "study_unit"},
+    "measures": {
+      "search_frequency": {"value": "consumers searched an average of 36 times per purchase across three distinct days", "unit": "search sessions or actions per purchase and days", "value_type": "reported_estimate"},
+      "no_purchase_sessions": {"value": "most search sessions ended without a purchase", "unit": "search-session outcome", "value_type": "reported_comparison"},
+      "search_cost": {"value": "search costs were estimated at about 25 cents per search page", "unit": "implied cost per search page", "value_type": "reported_estimate"},
+      "price_discovery": {"value": "the study examines how the amount of search relates to finding lower prices", "unit": "search-to-price relationship", "value_type": "reported_relationship"},
+      "search_refinement": {"value": "the data allow analysis of how users refine searches and carry behavior across multiple search sessions", "unit": "search-process behavior", "value_type": "reported_method"}
+    },
+    "method": "The authors assemble detailed eBay search and purchase behavior data to quantify the returns and implied costs of online consumer search, including search refinement, multiple sessions, and the relationship between search amount and lower prices.",
+    "uncertainty": "The study does not establish product quality, delivery, returns, seller treatment, household welfare, accessibility, language, disability, income differences, or whether search time was experienced as useful or burdensome. The eBay setting may not represent other platforms or purchases.",
+    "subgroup": "eBay users and purchases observed in the search-and-purchase dataset; the abstract does not establish equal search costs or returns by consumer resources, product category, identity, place, or digital access.",
+    "counterinterpretation": "More search may reflect uncertainty, complex products, enjoyment, or a deliberate decision not to buy; lower prices do not automatically mean better quality or lower total cost. A 25-cent page cost is an estimated search cost, not the full value of consumer time, attention, or platform dependence.",
+    "source_url": "https://www.nber.org/papers/w22302",
+    "retrieval_hash": "sha256:9e1594384b7c0732535d9fe0c6e18afe4c64527c353fdbf3f0aad1fa1a729831",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w22302", "claim": "NBER DOI record for Working Paper 22302", "status": "official-paper-identifier"}],
+  "boundary": "This record adds an online search-and-price-discovery finding: consumers search repeatedly, incur an estimated search cost, and more search is related to lower prices in the eBay setting. It does not establish product quality, post-purchase recovery, equal consumer power, platform welfare, or the full value of time and attention."
+}

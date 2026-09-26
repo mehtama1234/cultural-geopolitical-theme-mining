@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_platform_reactivation_record",
+  "purpose": "Bounded Fair Work Commission platform-work case linking repeated complaint-triggered deactivation, incomplete procedural disclosure, earlier reactivation, and a later reactivation/lost-pay order.",
+  "events": [
+    {
+      "event_id": "FWC-KHAN-PLATFORM-REACTIVATION-2026-01-12",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Commission UDE2025/185, Uber Eats delivery platform",
+      "actor_initiating_change": "platform",
+      "event_date": "2025-07-29",
+      "date_precision": "first temporary block in August 2024; second complaint and investigation in July 2025; deactivation on 29 July 2025; bulletin dated 12 January 2026",
+      "denominator": "One publicly adjudicated platform worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision [2026] FWC 48 and its reactivation order",
+      "missingness": "Worker identity beyond the case, earnings, trips, household effects, exact lost-pay amount, payment receipt, account durability after reactivation, and later platform or non-platform work are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "A delivery worker received a user complaint in 2024 and was temporarily blocked while the platform investigated; access was later reactivated after a warning. A second user complaint in 2025 led to another temporary block, warning, preliminary notice, and final deactivation",
+      "alternatives_before_action": "The public record does not identify substitute platform access, non-platform work, household buffers, or feasible alternatives during either block",
+      "immediate_burden_or_benefit": "The worker lost platform access during repeated investigations and carried uncertainty because the platform did not provide adequate details of the allegations or the material relied on; the Commission ordered reactivation and lost pay",
+      "choice_or_response": "The worker repeatedly asked why access was blocked, responded to the preliminary deactivation notice, and pursued the protected-person and procedural-fairness route at the Commission",
+      "person_or_actor_with_control": "The platform controlled account access, investigation, warnings, and deactivation; users supplied complaints; the worker controlled requests and response; the Commission controlled the reactivation and lost-pay remedy",
+      "remedy_or_institutional_response": "The Commission found the warnings and deactivation process inconsistent with the Digital Labour Platform Deactivation Code, found no valid reason for the final deactivation, ordered reactivation, deemed the worker to have performed work regularly from 20 July 2025 until reactivation, and directed the parties to confer on lost-pay quantum",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The primary decision issued a reactivation order and a deemed-work period, but could not quantify lost pay; the parties were directed to confer and no payment receipt or later account activity is retained",
+      "durability_followup": "The case records an earlier reactivation followed by a later deactivation, but no post-order account activity, earnings, recurrence, or alternative-work endpoint is public",
+      "immediate_outcome": "A repeated-access dispute ended in a formal reactivation order with a deemed-work period, while lost-pay quantum and later durability remained open",
+      "protected_outcome": "The adjudication protected procedural disclosure and access to a reactivation remedy; continuous platform income and durable account security were not yet established",
+      "sacrificed_outcome": "The worker sacrificed access and likely earning opportunity during the blocks, with uncertainty, response effort, and possible reputational or trust costs not quantified",
+      "cost_risk_transfer": "The platform's opaque complaint route shifted interruption and explanation costs to the worker; the Commission shifted a defined correction obligation back to the platform",
+      "later_outcome": "The public summary ends at the reactivation/lost-pay order and does not establish final reactivation, payment receipt, continued platform work, switching, trust, or exit",
+      "meaning_and_attribution": "The case makes platform access and procedural transparency part of the worker's practical control surface; no standardized trust or identity measure is retained",
+      "public_or_collective_response": "Individual protected-person proceedings and a formal Code-based adjudication are observed; no later collective or political action is reported",
+      "counterexample": "A platform can reactivate a worker after one complaint and later deactivate the same worker again; an eventual reactivation order does not prove continuous access or recovered earnings",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2026] FWC 48, https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf; the decision issues the reactivation order and deemed-work period but cannot quantify lost pay, and does not establish payment or later work",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2026fwc48.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-KHAN-PLATFORM-A-01",
+      "from": "first user complaint and temporary account block",
+      "to": "warning and reactivation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official summary reports a 2024 complaint, temporary block, warning, and subsequent reactivation",
+      "status": "observed",
+      "counterexample": "One reactivation does not establish that the worker understood the allegation or regained lost earnings",
+      "remaining_gap": "Lost work, explanation, warning content, earnings, and adequacy"
+    },
+    {
+      "arrow_id": "FWC-KHAN-PLATFORM-A-02",
+      "from": "second user complaint and renewed investigation",
+      "to": "second warning and final deactivation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The summary reports a second complaint, warning, preliminary notice, and deactivation on 29 July 2025",
+      "status": "observed",
+      "counterexample": "A complaint-triggered action does not by itself establish that the alleged conduct occurred or justified deactivation",
+      "remaining_gap": "Complaint evidence, worker alternative, income loss, and responsible decision path"
+    },
+    {
+      "arrow_id": "FWC-KHAN-PLATFORM-A-03",
+      "from": "limited disclosure and inadequate warnings",
+      "to": "Commission finding of no valid reason and procedural unfairness",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission found the warnings did not squarely put allegations to the worker and that the worker was not given the material or conclusions needed to respond",
+      "status": "observed",
+      "counterexample": "A procedural finding does not establish the worker's substantive innocence or later livelihood",
+      "remaining_gap": "Full evidentiary record, platform policy comparison, and downstream work effect"
+    },
+    {
+      "arrow_id": "FWC-KHAN-PLATFORM-A-04",
+      "from": "unfair deactivation finding",
+      "to": "reactivation and lost-pay order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official summary reports an order for reactivation and lost pay, with the parties directed to confer on the quantum",
+      "status": "observed",
+      "counterexample": "An order is not proof of account restoration, payment, or continued access",
+      "remaining_gap": "Final reactivation, lost-pay amount, payment, timing, and implementation"
+    },
+    {
+      "arrow_id": "FWC-KHAN-PLATFORM-A-05",
+      "from": "reactivation order after repeated deactivation",
+      "to": "durable platform work, switching, trust, recovery, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public summary ends before post-order account activity, payment, later work, or trust and exit outcomes",
+      "status": "open",
+      "counterexample": "Correcting one deactivation does not show that the worker can rely on the platform or has a usable alternative",
+      "remaining_gap": "Account restoration, payment receipt, later earnings, recurrence, alternative work, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger adds a repeated platform-access episode with an earlier reactivation and later adjudicated reactivation order. It closes recurrence and formal correction stages without claiming final payment, durable access, or recovery.",
+  "storage_boundary": "No worker account, trip, complaint, earnings, household, or platform-internal file is retained; only bounded official summary fields, dates, remedy terms, uncertainty, and open downstream arrows are represented."
+}

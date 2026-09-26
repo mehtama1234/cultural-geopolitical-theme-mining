@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-apsr-moving-to-opportunity-voting-2024",
+  "title": "Moving children out of high-poverty neighborhoods did not increase later turnout and reduced teen participation",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "Low-income U.S. households and children randomly offered housing vouchers through the Moving to Opportunity experiment, linked to later voter-file outcomes",
+  "geography": "United States; Baltimore, Boston, Chicago, Los Angeles, and New York City",
+  "observations": [
+    {
+      "period": "Voucher assignment 1994–1998; post-treatment voter-file outcomes from 2016; APSR article published 2024",
+      "denominator": {
+        "value": 4604,
+        "unit": "randomized adult heads of household; linked study frame also includes 11,300 youth",
+        "value_type": "randomized_assignment"
+      },
+      "measures": {
+        "neighborhood_poverty": {
+          "value": "decreased; children and teens in the low-poverty voucher group lived in tracts with about 32–33% poverty versus about 40% in control, an approximately 8-point difference",
+          "unit": "neighborhood poverty percentage",
+          "value_type": "reported_effect_magnitude"
+        },
+        "children_voting_and_registration": {
+          "value": "no statistically distinguishable increase; any positive effect was small and imprecise",
+          "unit": "later voter-file registration and turnout outcomes",
+          "value_type": "reported_null"
+        },
+        "teen_voting_and_registration": {
+          "value": "decreased under both experimental and Section 8 voucher offers across several outcomes",
+          "unit": "later voter-file registration and turnout outcomes",
+          "value_type": "reported_effect_direction"
+        },
+        "adult_voting_and_registration": {
+          "value": "no increase; estimates were close to zero or too imprecise to distinguish from zero",
+          "unit": "later voter-file registration and turnout outcomes",
+          "value_type": "reported_null"
+        },
+        "compliance": {
+          "value": "47% of low-poverty voucher households and 62% of Section 8 households used the offered vouchers",
+          "unit": "share taking up assigned voucher offer",
+          "value_type": "reported_rate"
+        }
+      },
+      "method": "American Political Science Review study of the randomized Moving to Opportunity housing-voucher experiment, using administrative treatment/compliance data, longitudinal participant data, and a 2016 voter-file merge to estimate later registration and turnout effects by age at assignment.",
+      "uncertainty": "The voter-file merge matched 16.4% of MTO participants and can miss registration, name changes, moves, mortality, or later voter-file removal; treatment effects are intent-to-treat offers, not effects of actual moves. The article reports rounded turnout measures and preserves match and compliance limitations.",
+      "subgroup": "Adults, teens aged 13–19, and children aged 0–12 at random assignment; households were predominantly female-headed and participants were predominantly people of color.",
+      "counterinterpretation": "Improving neighborhood poverty and some child socioeconomic outcomes did not automatically increase political participation. The treatment may have been too small or too transient, social integration may have remained incomplete, and adolescent disruption or negative socioeconomic effects may have counteracted improved place exposure.",
+      "source_url": "https://www.cambridge.org/core/journals/american-political-science-review/article/longterm-effects-of-neighborhood-disadvantage-on-voting-behavior-the-moving-to-opportunity-experiment/4896C6743CF5D53DDD067D51D93A8CA7",
+      "retrieval_hash": "sha256:6b500e02bd509a1acdbef99b4f9bd3a46b5c867c4d9f5c096c2a0c89285295cc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1017/S0003055423000692",
+      "claim": "APSR DOI and article metadata identify the published study.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a U.S. randomized housing/place-to-voting result, not a universal neighborhood effect or a proof that poverty reduction, income, education, or mobility automatically produces political participation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official APSR article page downloaded and hashed; abstract, randomized sample, neighborhood poverty conversion, age-specific turnout/registration findings, compliance, voter-file match boundary, and intent-to-treat design checked against the article.",
+    "checked": "2026-09-25"
+  }
+}

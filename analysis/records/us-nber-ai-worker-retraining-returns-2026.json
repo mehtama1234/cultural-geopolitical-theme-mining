@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-worker-retraining-returns-2026",
+  "title": "Training can improve earnings for AI-exposed workers, mainly through moving to less exposed work",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Workforce Innovation and Opportunity Act occupational training spells and matched job-search-only service users",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2012–2019",
+      "denominator": {"value": null, "unit": "WIOA-funded occupational training spells; study sample size not disclosed in the public abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "quarterly_earnings_return_high_exposure_trainees": {"value": "about $1,000", "unit": "estimated quarterly earnings return relative to matched job-search-only service users", "value_type": "reported_estimate"},
+        "transition_route": {"value": "primarily transitions into less AI-exposed occupations", "unit": "reported explanation of earnings gains", "value_type": "reported_mechanism"}
+      },
+      "method": "The study links pre- and post-training occupations to task-level AI exposure measures and compares training participants with matched workers who sought workforce services but received only job-search assistance.",
+      "uncertainty": "The public abstract does not disclose the full sample count or every matching specification. The estimate is not a guarantee for an individual trainee and does not show training completion, job quality, hours, benefits, stability, or household security.",
+      "subgroup": "Workers starting in occupations with high versus low AI exposure; high-exposure workers are compared over time and with matched job-search-only users.",
+      "counterinterpretation": "People who complete training may differ from job-search-only users in motivation, health, time, transportation, employer support, or other unmeasured ways; occupational movement may reflect selection into available jobs as well as training.",
+      "source_url": "https://www.nber.org/papers/w34174",
+      "retrieval_hash": "sha256:0e6541c3711280eff60f3a065d324d39df3f2b60693fa276a44ea693a7eacf66",
+      "status": "reported"
+    },
+    {
+      "period": "2022–2024",
+      "denominator": {"value": null, "unit": "WIOA-funded occupational training spells; study sample size not disclosed in the public abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "quarterly_earnings_return_high_exposure_trainees": {"value": "about $3,000", "unit": "estimated quarterly earnings return relative to matched job-search-only service users", "value_type": "reported_estimate"},
+        "change_from_earlier_period": {"value": "rose sharply from about $1,000", "unit": "comparison with the pre-2020 estimate", "value_type": "reported_change"},
+        "transition_route": {"value": "mostly transitions into less AI-exposed occupations, with a smaller role for AI-complementary training", "unit": "reported explanation of earnings gains", "value_type": "reported_mechanism"},
+        "ai_retrainability_index": {"value": "many occupations classified as AI-retrainable", "unit": "study-defined index indicating when training into higher-exposure work pays off", "value_type": "reported_pattern"}
+      },
+      "method": "Updated analysis of WIOA training spells through 2024, linking occupational transitions to task-level AI exposure and estimating returns against matched job-search-only users.",
+      "uncertainty": "The result is an estimated training return within a workforce-program population, not a national effect for all AI-exposed workers. The study does not establish that every high-exposure worker can access training, complete it, afford the transition, or obtain durable and acceptable work.",
+      "subgroup": "Workers from high- and low-AI-exposure occupations, with transition routes separated into less-exposed work and AI-complementary work.",
+      "counterinterpretation": "The larger recent return may reflect changes in the labor market, participant composition, program selection, or the types of jobs available after training rather than a general improvement in retraining effectiveness.",
+      "source_url": "https://www.nber.org/papers/w34174",
+      "retrieval_hash": "sha256:0e6541c3711280eff60f3a065d324d39df3f2b60693fa276a44ea693a7eacf66",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w34174", "claim": "NBER DOI record for the revised working paper.", "status": "primary-bibliographic-record"}
+  ],
+  "boundary": "This finding moves the AI-work lane from occupation-level potential toward an observed training-to-earnings route. It does not prove that training caused every gain, that training is equally reachable, or that higher quarterly earnings mean better job quality, stability, control, household security, cultural meaning, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER working-paper URL response retrieved and hashed; the public abstract supplies the reported headline estimates, while the underlying restricted or linked administrative records are not retained here.",
+    "source_response_sha256": "sha256:0e6541c3711280eff60f3a065d324d39df3f2b60693fa276a44ea693a7eacf66",
+    "checked": "2026-09-22"
+  }
+}

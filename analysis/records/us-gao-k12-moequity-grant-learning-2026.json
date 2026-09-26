@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-k12-moequity-grant-learning-2026",
+  "title": "Emergency funding can protect a rule without preserving the learning system",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "political_judgment_action",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office review of Department of Education Maintenance of Equity oversight during COVID-19 relief grant implementation",
+  "geography": "United States; Department of Education, selected states and school districts",
+  "observations": [
+    {
+      "period": "2021-2023; COVID-19 relief grant Maintenance of Equity implementation",
+      "denominator": {"value": 1, "unit": "federal oversight and technical-assistance process reviewed by GAO", "value_type": "named_program_case"},
+      "measures": {
+        "equity_rule": {"value": "generally prohibited disproportionate cuts to districts or schools serving high percentages of low-income students", "unit": "statutory and grant requirement", "value_type": "reported_requirement"},
+        "written_ta_procedures": {"value": "not developed for MOEquity technical assistance", "unit": "Department of Education internal procedure status", "value_type": "reported_status"},
+        "data_reliability": {"value": "unreliable or incomplete data limited identification of poorest districts and assessment of intended results", "unit": "oversight-data condition", "value_type": "reported_finding"},
+        "lesson_sharing": {"value": "not ensured by a documented procedure and not prioritized during implementation", "unit": "institutional-learning process", "value_type": "reported_finding"}
+      },
+      "method": "GAO review of federal laws, Education guidance and data, selected-state implementation, and interviews with Education officials and officials from seven states; detailed school-level analysis used six states with reliable data.",
+      "uncertainty": "Selected-state implementation and documentation gaps do not estimate national compliance, funding misallocation, or student-outcome effects.",
+      "subgroup": "States, districts, and schools subject to MOEquity requirements, with emphasis on high-poverty schools and districts.",
+      "counterinterpretation": "Education reported that some other programs maintain internal question-and-answer banks and data-governance structures; the finding is specific to MOEquity implementation and its documented procedures.",
+      "source_url": "https://www.gao.gov/products/gao-26-107727",
+      "retrieval_hash": "sha256:5ca579994d85dfbf099b5f52d872cdcae564a1380ab3df7a28874a8fd91aeaed",
+      "status": "reported"
+    },
+    {
+      "period": "2021-2023; selected state and district implementation",
+      "denominator": {"value": 6, "unit": "states with reliable data used for GAO school-level analysis", "value_type": "selected_review_universe"},
+      "measures": {
+        "poorest_school_identification": {"value": "districts generally identified their poorest schools", "unit": "reported implementation pattern", "value_type": "reported_finding"},
+        "poorest_district_identification": {"value": "Education lacked reliable data to determine how states identified their poorest districts", "unit": "reported oversight-data limitation", "value_type": "reported_finding"},
+        "intended_result": {"value": "could not be fully assessed", "unit": "whether MOEquity achieved its intended protection", "value_type": "unmeasured"}
+      },
+      "method": "GAO analysis of Education data and selected state and district implementation records.",
+      "uncertainty": "The review does not show whether a particular school lost funding, whether supplemental payments were adequate, or what students experienced.",
+      "subgroup": "Selected states, districts, and schools; high-poverty status and supplemental funding are administrative categories.",
+      "counterinterpretation": "The data gap can coexist with real protection in many districts; inability to verify the intended result is not proof that the rule failed.",
+      "source_url": "https://www.gao.gov/products/gao-26-107727",
+      "retrieval_hash": "sha256:5ca579994d85dfbf099b5f52d872cdcae564a1380ab3df7a28874a8fd91aeaed",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures MOEquity oversight, data reliability, technical assistance, and institutional-learning gaps in a selected COVID-19 grant implementation. It does not estimate national compliance, funding loss, student outcomes, or future-crisis performance.",
+  "retrieval_hash": "sha256:5ca579994d85dfbf099b5f52d872cdcae564a1380ab3df7a28874a8fd91aeaed"
+}

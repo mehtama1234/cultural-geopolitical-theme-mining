@@ -26,7 +26,7 @@ care need and task
 |---|---|---|---|
 | BLS eldercare | 38.2 million people provided unpaid eldercare in 2023–24; providers spent 3.88 hours on care days, while employed providers spent 2.84 hours on care days; about 51.6% reported care daily or several times a week | Scale, work overlap, frequency, and time intensity of unpaid care | Two-year population averages do not show lost earnings, health, or recipient outcome |
 | BLS/ATUS | Care, work, household labor, and social-time records are available for weighted microdata analysis | Time as a scarce social resource | A diary day is not a longitudinal care spell or a price of replacement care |
-| NBER linked earnings | Caregiving is associated with later earnings and employment changes, with different patterns by gender in the studied records | A work and income channel exists | It does not observe every task, family division, health outcome, or forced/voluntary choice |
+| NBER linked earnings | [Linked SIPP–SSA study](data/nber-caregiving-labor-supply-event-ledger-v1.json) follows reported caregiving onset against long-run earnings and employment trajectories, with different patterns by gender | A bounded care-onset-to-labor/earnings channel exists | It does not observe every task, family division, health outcome, or forced/voluntary choice |
 | HBS/work accounts | Workers describe rigid schedules and care coordination as work constraints | Employer and schedule-control mechanism | Accounts are not a representative causal estimate |
 | HHS policy review | States have begun introducing and enacting caregiver tax-credit programs | Policy recognition and institutional response | A bill or enactment is not take-up, respite, time, or better care |
 | HRSA/provider capacity | Formal shortage designations can coexist with visible health-sector establishments | Presence and adequacy are different | Primary-care shortage is not complete long-term-care supply or a family outcome |
@@ -38,7 +38,9 @@ They do not yet balance paid care avoided, earnings lost, recipient safety, and
 the cost of public or employer relief for the same family. The new published
 table layer strengthens the scale and time-intensity part of that proposition;
 the same-respondent displacement and recovery test remains an acquisition
-question.
+question. The NBER record closes only the labor/earnings segment: it does not
+show whether another family member, paid provider, employer, or public program
+absorbed the care, nor whether the caregiver or recipient later recovered.
 
 ## Keep the units separate
 

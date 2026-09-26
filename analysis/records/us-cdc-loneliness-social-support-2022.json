@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cdc-loneliness-social-support-2022",
+  "title": "Social support is unevenly distributed and associated with mental-health burden",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "CDC 2022 Behavioral Risk Factor Surveillance System analysis using the Social Determinants and Health Equity and Sexual Orientation and Gender Identity modules",
+  "geography": "26 U.S. states; noninstitutionalized adults aged 18 or older",
+  "observations": [
+    {
+      "period": "2022 BRFSS; published June 2024",
+      "denominator": {
+        "value": 218915,
+        "unit": "analytic-sample adults in 26 states after exclusions",
+        "value_type": "survey_analytic_sample"
+      },
+      "measures": {
+        "loneliness": {
+          "value": 32.1,
+          "unit": "percent reporting always, usually, or sometimes feeling socially isolated",
+          "value_type": "weighted_prevalence"
+        },
+        "lack_of_social_emotional_support": {
+          "value": 24.1,
+          "unit": "percent reporting sometimes, rarely, or never getting needed social and emotional support",
+          "value_type": "weighted_prevalence"
+        },
+        "loneliness_age_18_to_34": {
+          "value": 43.3,
+          "unit": "percent weighted prevalence",
+          "value_type": "subgroup_prevalence"
+        },
+        "loneliness_income_below_25000": {
+          "value": 47.9,
+          "unit": "percent weighted prevalence among households below $25,000",
+          "value_type": "subgroup_prevalence"
+        },
+        "loneliness_bisexual": {
+          "value": 56.7,
+          "unit": "percent weighted prevalence",
+          "value_type": "subgroup_prevalence"
+        },
+        "loneliness_transgender_range": {
+          "value": "56.4% to 63.9%",
+          "unit": "percent weighted prevalence across reported transgender groups",
+          "value_type": "subgroup_range"
+        },
+        "adjusted_prevalence_ratio_loneness_to_stress": {
+          "value": 3.6,
+          "unit": "adjusted prevalence ratio comparing adults reporting loneliness with those who did not",
+          "value_type": "adjusted_association"
+        },
+        "adjusted_prevalence_ratio_loneliness_to_frequent_mental_distress": {
+          "value": 3.0,
+          "unit": "adjusted prevalence ratio",
+          "value_type": "adjusted_association"
+        },
+        "adjusted_prevalence_ratio_loneliness_to_depression_history": {
+          "value": 2.4,
+          "unit": "adjusted prevalence ratio",
+          "value_type": "adjusted_association"
+        },
+        "later_belonging_action_recovery": {
+          "value": "not observed",
+          "unit": "support received, care use, belonging, civic participation, trust, recovery, and persistence",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Weighted prevalence estimates and adjusted prevalence ratios from the 2022 BRFSS Social Determinants and Health Equity and Sexual Orientation and Gender Identity modules; social connection and mental-health measures are kept as distinct cross-sectional outcomes.",
+      "uncertainty": "Only 26 states reported both modules, responses are self-reported, response rates varied, missingness was material for some measures, and the 2022 question measured feeling socially isolated rather than the direct loneliness wording used in 2023.",
+      "subgroup": "Adults by age, income, race and ethnicity, sex, household structure, sexual orientation, and gender identity; subgroup differences are descriptive and adjusted associations do not establish mechanisms.",
+      "counterinterpretation": "Loneliness and mental-health measures may share causes, and mental-health difficulty may also shape perceived connection. A higher prevalence ratio is not a causal effect of loneliness, and social contact is not automatically needed support.",
+      "source_url": "https://www.cdc.gov/mmwr/volumes/73/wr/mm7324a1.htm",
+      "retrieval_hash": "sha256:a3d957439189ab26453f6e276b0c28fb312e8bbe639fdf7b76325c82a6a3869d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds unequal social-connection prevalence and adjusted cross-sectional associations with mental-health measures. It does not follow the same person through social disruption, support received, care, belonging, trust, civic action, recovery, or persistence, and it does not establish causation."
+}

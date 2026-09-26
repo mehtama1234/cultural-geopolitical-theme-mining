@@ -15,3 +15,8 @@ Housing is not only a place to live. A short-term payment may protect the time a
 ## Decision rule
 
 Move on after one study links housing-crisis aid to tax-record work outcomes, one source measures housing stability, and one next dataset can follow the same family through both. Do not infer job quality or lasting security from earnings alone.
+
+The [bounded finding](findings/us-emergency-assistance-work-path-001.md)
+now records the NBER linked-hotline/tax-record study. It advances the
+assistance-to-labor-market arrow while preserving the missing housing
+continuity, adequacy, job-quality, and lived-recovery fields.

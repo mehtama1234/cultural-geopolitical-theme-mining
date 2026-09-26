@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cppa-drop-status-contestability-2026",
+  "title": "A deletion system can make requests contestable without publicly proving complete data control",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "California Privacy Protection Agency official DROP consumer guidance, data-broker processing guidance, and July 2026 explainer",
+  "geography": "California residents and data brokers participating in the Delete Request and Opt-out Platform",
+  "observations": [
+    {
+      "period": "January-August 2026 launch and initial processing framework",
+      "denominator": {
+        "value": 1,
+        "unit": "official DROP workflow and processing-rule description, not a request-level outcome sample",
+        "value_type": "source_defined_program_description"
+      },
+      "measures": {
+        "reachable_data_brokers": {"value": ">600", "unit": "data brokers reachable through one DROP request", "value_type": "reported_approximation"},
+        "consumer_tracking_identifier": {"value": "8-digit DROP ID", "unit": "request tracking identifier", "value_type": "reported_system_feature"},
+        "visible_status_categories": {"value": 5, "unit": "deleted, exempted, opted out, record not found, and pending", "value_type": "reported_system_feature"},
+        "broker_processing_cycle": {"value": 45, "unit": "days; minimum access/processing cycle", "value_type": "reported_requirement"},
+        "maximum_initial_status_reporting_window": {"value": 90, "unit": "days; time that status updates may take", "value_type": "reported_guidance"},
+        "aggregate_deletion_completion": {"value": "not publicly reported on the official pages reviewed", "unit": "request-level completion, downstream deletion, and reappearance", "value_type": "unmeasured"}
+      },
+      "method": "Review of California Privacy Protection Agency consumer and broker workflow pages; system features, legal timing, and status categories are kept separate from actual request outcomes.",
+      "uncertainty": "The public pages describe a newly operating process and do not provide an aggregate request ledger, broker-level completion rates, match rates, downstream contractor audits, residual copies, reappearance, consumer harm, or trust outcomes. Early statuses may be incomplete within the 90-day reporting window.",
+      "subgroup": "California residents submitting DROP requests and data brokers subject to California's accessible deletion mechanism; the system is not a national platform or a representative survey.",
+      "counterinterpretation": "A trackable request, recurring suppression duty, per-broker status, and ability to add identifiers may create real consumer leverage even without a public aggregate completion table. Lack of aggregate outcome data is a measurement boundary, not proof that the system fails.",
+      "source_url": "https://privacy.ca.gov/drop/how-drop-works/",
+      "retrieval_hash": "sha256:bd916cc04387ada4437f775d52dc06e43ea1d741d311a5b98811596353686a60",
+      "status": "reported"
+    },
+    {
+      "period": "August 25, 2026 implementation follow-up",
+      "denominator": {"value": 500000, "unit": "approximately California consumers registered for DROP; agency-reported milestone", "value_type": "reported_participant_count"},
+      "measures": {
+        "profile_deleted_by_at_least_one_broker": {"value": 99.9, "unit": "percent of consumers reported by CalPrivacy as having a profile deleted by at least one broker", "value_type": "reported_share"},
+        "typical_broker_deletion_reach": {"value": 40, "unit": "more than 40 brokers for the typical DROP user", "value_type": "reported_typical_user_result"},
+        "registered_data_brokers": {"value": 654, "unit": "data brokers in the system", "value_type": "reported_system_scope"},
+        "brokers_reporting_processing": {"value": 25, "unit": "approximately percent of brokers reported as having processed deletion requests", "value_type": "reported_share"},
+        "all_broker_deletion_and_durable_control": {"value": "not established", "unit": "missing all-broker status distribution, permanent re-collection check, exemption validity, trust, switching, or wellbeing outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official California Privacy Protection Agency implementation follow-up; agency-reported typical-user and at-least-one-broker results are retained separately from the broker-level processing share and from verified all-broker deletion.",
+      "uncertainty": "The announcement does not publish the full consumer-broker status matrix, define the typical-user calculation in detail, show how many of the 654 brokers matched each person, verify deletion across every broker, establish exemption or not-found rates, or measure re-collection, trust, switching, or wellbeing.",
+      "subgroup": "California DROP registrants and participating data brokers; the 99.9% and typical-user figures are agency-reported aggregate implementation outcomes, not a person-level audit sample.",
+      "counterinterpretation": "Deletion by at least one broker and deletion from more than 40 brokers can represent meaningful reduction in exposure while leaving unmatched, exempted, pending, opted-out, or re-collected records at other brokers; implementation progress is not the same as complete privacy control.",
+      "source_url": "https://privacy.ca.gov/2026/08/half-a-million-californians-have-signed-up-for-drop-to-delete-their-personal-information-from-data-brokers/",
+      "retrieval_hash": "sha256:3f67696b901544515cbec992dfff494937ce50824f9e0720ef71d06a5a7c470e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://privacy.ca.gov/drop-for-data-brokers/process-drop-requests/",
+      "claim": "Data brokers must process requests, report status, repeat the cycle at least every 45 days, and direct service providers or contractors to take the required action.",
+      "status": "official-processing-context",
+      "retrieval_hash": "sha256:7c3dbebc6adf764271f9daacf76a2ed266f4c2e121594a3e32241f5a42784524"
+    },
+    {
+      "source_url": "https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/",
+      "claim": "CalPrivacy describes the more-than-600-broker route and visible status categories.",
+      "status": "official-explainer-context"
+    }
+  ],
+  "boundary": "This record measures the visibility and rules of California's DROP deletion process. It does not establish a deletion success rate, complete downstream control, broker compliance, reappearance, reduced harm, trust, wellbeing, or durable consumer exit.",
+  "retrieval_hash": "sha256:bd916cc04387ada4437f775d52dc06e43ea1d741d311a5b98811596353686a60"
+}

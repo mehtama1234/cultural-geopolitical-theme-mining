@@ -1,95 +1,64 @@
-# Local capacity and immigration meaning do not move on one automatic axis
+# Finding 001: New residents can add workers and customers, while local housing and public capacity remain separate questions
 
-**Status:** provisional place/culture cross-source finding · **Checked:** 2026-09-14
+**Status:** bounded migration, local-demand, and place finding · **Checked:** 2026-09-22
 
 ## The bounded finding
 
-The current place evidence separates local capacity from local meaning:
+Immigration changes a place through more than labor supply. An NBER study using
+U.S. Census data from 1980 to 2000 estimates that each immigrant created about
+1.2 local jobs for local workers, with about 62% of those jobs in non-traded
+services.
 
-1. In a 620-county frame of places above 100,000 residents, 2020–2023
-   population growth and 2023 foreign-born share are distinct axes. The highest
-   growth quartile has lower health/social-assistance employment per 10,000
-   residents than the lowest-growth quartile in every foreign-born-share
-   quartile shown. The low-growth/high-foreign-born cell has 663.49 health/
-   social-assistance employees per 10,000 residents, compared with 436.23 in
-   the high-growth/high-foreign-born cell.
-2. The foreign-born-share axis is not monotonic within growth groups. The
-   third foreign-born quartile is often higher-capacity than the highest-share
-   quartile, and sector patterns differ between health, retail, and food.
-3. A separate 2026 Chicagoland survey reports support for a conditional
-   citizenship pathway at 66% in Chicago, 52% in suburban Cook County, and 61%
-   in Lake County. These are local respondent meaning measures, not outcomes
-   derived from the county capacity screen.
+A newer NBER study examines the large U.S. immigration surge from 2021 through
+2024. It describes new immigrants as relatively low-skilled compared with the
+existing workforce and more likely to consume income close to when it arrives.
+Its model finds that immigration's supply and demand effects roughly cancel in
+their effect on national inflation.
 
-The safe conclusion is that place capacity and immigration meaning must be
-measured as separate but potentially interacting layers. Neither population
-growth nor foreign-born share is a sufficient proxy for service access,
-belonging, trust, or political action.
-
-## What the sources measure
-
-| Layer | Unit and denominator | What it adds | Boundary |
-|---|---|---|---|
-| Joint capacity screen | 620 US counties above 100,000 residents; quartile cells | CBP health/social-assistance, retail, and food establishments/employment per resident | Population growth is a mixed demographic proxy; foreign-born share is a stock; capacity is employer presence, not lived access |
-| Rurality sensitivity | 593 metro and 27 nonmetro counties | Shows the pooled growth/capacity pattern is concentrated in the metro part of the thresholded frame | Nonmetro cell is small; RUCC is not access or service quality |
-| Chicagoland survey | 758 Chicago, 742 suburban Cook, and 400 Lake County respondents for the citizenship item | Direct local policy meaning with reported margins of error | Cross-sectional opinion; no respondent-level join to county capacity, material exposure, or later action |
-
-The county measures and respondent measures are not pooled. A county stock
-cannot be assigned to a respondent's service experience, and a survey attitude
-cannot be used as proof of a capacity bottleneck.
-
-## Mechanism under test
+The route is:
 
 ```text
-resident growth and population composition
-  -> customers, workers, service demand, and housing pressure
-  -> provider/employer capacity, travel, wait, price, and quality
-  -> different exposure for new and existing residents
-  -> belonging, fairness, trust, attribution, and political action
+new residents arrive
+  -> more workers and customers
+  -> local labor demand, services, wages, and businesses respond
+  -> housing, schools, healthcare, transport, and belonging may also respond
+  -> [open] who gains, who pays, who feels welcome, and what politics changes
 ```
 
-The current evidence reaches population/capacity context and direct local
-meaning separately. It does not establish the middle lived-access link or a
-causal path to attitude.
+The simple takeaway is not that immigration is good or bad for every place. It
+is that labor supply, consumer demand, national prices, and local lived
+capacity are different parts of the story.
 
-## Counterexamples and safeguards
+## What this adds to the broader atlas
 
-- High foreign-born share does not uniformly correspond to low health-service
-  capacity; the joint cells are non-monotonic.
-- High population growth can coexist with lower per-capita provider employment,
-  but the timing and mechanism are not established and growth is not migration.
-- Chicago's higher reported support than suburban Cook County does not show
-  that capacity differences caused the opinion gap.
-- Employer presence and employment per resident do not measure appointment
-  availability, language access, price, quality, travel, or unmet need.
-- Support for a citizenship pathway is not support for every immigration level,
-  admission rule, or local enforcement policy, and is not political action.
+This finding adds a cultural and place dimension to the economic map. New
+residents are not only workers competing for jobs; they are also consumers,
+neighbors, service users, business founders, and participants in local meaning.
+The same arrival can create jobs and demand while exposing a shortage of homes,
+schools, clinics, transit, or social trust.
 
-## Next end-to-end test
+The two sources are deliberately not combined into one current estimate. The
+older study measures local labor-demand effects; the newer study models national
+inflation channels. Neither directly measures current neighborhood experience.
 
-Build a matched local-place panel with a defined population/arrival window and
-align county or commuting-zone measures for housing supply, rents, wages,
-travel, provider capacity, language access, school/clinic workload, business
-formation, and public-agency response. Then collect respondent-level local
-meaning/action measures with place identifiers and exposure questions. Compare
-places where demand rose while capacity expanded against places where capacity
-lagged, retaining high-capacity/high-pressure and low-capacity/low-pressure
-countercells.
+## Limits and next test
 
-The decisive outcome is not whether a place has more residents or a more
-favorable attitude. It is whether measured exposure, alternatives, and service
-experience explain differences in belonging, fairness, trust, participation,
-or policy response after timing and place are aligned.
+- The local-jobs estimate uses 1980-2000 data.
+- The recent surge study's inflation result is a national model implication,
+  not a local rent or service-capacity estimate.
+- Neither source follows the same immigrant or resident through housing,
+  healthcare, schools, work quality, belonging, or political action.
+- The next decisive comparison is a place-level panel joining arrivals,
+  housing supply and rents, jobs and wages, school and healthcare capacity,
+  business entry and survival, resident attitudes, and local political response.
 
-## Reproduction and sources
+## Sources
 
-- [Joint growth/nativity/capacity layer](../migration-growth-nativity-joint-capacity-layer-v1.md)
-- [Rurality sensitivity layer](../capacity-rurality-sensitivity-v1.md)
-- [Chicagoland local meaning source record](../chicagoland-local-immigration-attitude-case-v1.md)
-- [Machine-readable Chicagoland record](../../../records/us-chicagoland-immigration-belonging-action-2026.json)
-- [Global Affairs Chicago immigration survey](https://globalaffairs.org/research/public-opinion-survey/chicagoland-immigration-survey)
-- [American Community Survey](https://www.census.gov/programs-surveys/acs)
+- [NBER local-demand study](https://www.nber.org/papers/w21123)
+- [NBER postpandemic-surge study](https://www.nber.org/papers/w35168)
+- [NBER Macroeconomics Annual chapter](https://www.nber.org/books-and-chapters/nber-macroeconomics-annual-2026-volume-41/postpandemic-us-immigration-surge-new-facts-and-inflationary-implications)
+- [Machine-readable trend record](../../../records/us-nber-immigration-local-demand-supply-place-1980-2024.json)
 
-**Evidence status:** county capacity and local respondent-attitude layers
-compared without pooling; no migration causal estimate, lived-access estimate,
-belonging mechanism, or political-action effect is claimed.
+**Evidence status:** local labor demand and national inflation channels are
+measured separately; current place-level housing, services, belonging, and
+political effects remain open.

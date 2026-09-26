@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-interim-economic-outlook-september-2026-energy-inflation-consumer-room",
+  "title": "Energy shocks are being absorbed by supply substitution and reserves, but renewed inflation and depleted buffers narrow household and policy room",
+  "theme_ids": ["cost", "energy", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "geopolitical_state_consequences", "public_systems_feedback", "firm_sector_market_power", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "OECD Economic Outlook, Interim Report September 2026: Weathering Successive Shocks",
+  "geography": "Global, G20, OECD, United States, euro area, China, energy markets, firms, governments, and households exposed to energy and inflation shocks",
+  "observations": [
+    {
+      "period": "2026-2027; global growth and energy-shock baseline",
+      "denominator": {"value": 1, "unit": "OECD Interim Economic Outlook global forecast frame", "value_type": "global_macro_forecast_frame"},
+      "measures": {
+        "global_growth_2026": {"value": 2.9, "unit": "percent projected global growth in 2026", "value_type": "forecast_global_growth"},
+        "global_growth_2027": {"value": 3.0, "unit": "percent projected global growth in 2027", "value_type": "forecast_global_growth"},
+        "us_growth_2026": {"value": 2.2, "unit": "percent projected United States growth in 2026", "value_type": "forecast_country_growth"},
+        "us_growth_2027": {"value": 2.1, "unit": "percent projected United States growth in 2027", "value_type": "forecast_country_growth"},
+        "shock_absorption": {"value": "alternative supply routes, inventory drawdowns, coordinated strategic-reserve releases, additional production outside the Gulf, and lower oil demand", "unit": "reported energy-shock buffer set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD macroeconomic forecasting using information available through 16 September 2026, with energy, trade, inflation, investment, and policy assumptions.",
+      "uncertainty": "Forecasts depend on conflict evolution, oil and gas supply, inventories, demand, policy, trade, financial conditions, and AI investment; they are not realized household or firm outcomes.",
+      "subgroup": "Energy importers and exporters, households, firms, workers, governments, consumers, and economies with different reserves and substitution capacity.",
+      "counterinterpretation": "Supply substitution and reserves can cushion a shock, while lower demand may reflect efficiency or reduced activity; headline growth does not reveal distributional burden or purchasing-power loss.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+      "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2027; consumer-price inflation and purchasing power",
+      "denominator": {"value": 1, "unit": "G20 consumer-price and inflation forecast frame", "value_type": "g20_inflation_forecast_frame"},
+      "measures": {
+        "g20_inflation_2025": {"value": 3.4, "unit": "percent G20 headline inflation in 2025", "value_type": "reported_inflation"},
+        "g20_inflation_2026": {"value": 4.1, "unit": "percent projected G20 headline inflation in 2026", "value_type": "forecast_inflation"},
+        "g20_inflation_2027": {"value": 3.6, "unit": "percent projected G20 headline inflation in 2027", "value_type": "forecast_inflation"},
+        "advanced_g20_inflation_2026": {"value": 3.2, "unit": "percent projected headline inflation in advanced G20 economies in 2026", "value_type": "forecast_inflation"},
+        "price_pressure_mechanism": {"value": "renewed energy prices are raising headline inflation while core pressures remain relatively contained", "unit": "reported consumer-price mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD comparison of headline and core inflation, online retail-price measures, energy-price developments, and G20 projections.",
+      "uncertainty": "Headline inflation is not the same as household-specific cost-of-living change; exposure varies by energy use, food, housing, wages, transfers, savings, and access to support.",
+      "subgroup": "Households, renters, homeowners, commuters, energy-intensive firms, workers, consumers, central banks, and governments providing price support.",
+      "counterinterpretation": "Energy prices may ease as supply recovers, while targeted temporary support, energy savings, wage adjustment, and substitution can limit lasting purchasing-power loss; support can also delay adaptation.",
+      "source_url": "https://www.oecd.org/en/about/news/press-releases/2026/09/global-growth-holds-up-despite-successive-shocks-but-risks-persist.html",
+      "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; fiscal, monetary, and consumer-support response",
+      "denominator": {"value": 1, "unit": "OECD policy-response and energy-shock management frame", "value_type": "policy_response_frame"},
+      "measures": {
+        "support_design": {"value": "energy-shock support should be targeted and temporary", "unit": "reported policy-design recommendation", "value_type": "reported_policy_recommendation"},
+        "energy_savings_incentive": {"value": "support design should maintain incentives for energy savings", "unit": "reported policy constraint", "value_type": "reported_policy_constraint"},
+        "monetary_policy_endpoint": {"value": "central banks should remain vigilant and keep inflation expectations well anchored", "unit": "reported macro-policy endpoint", "value_type": "reported_policy_endpoint"},
+        "public_finance_endpoint": {"value": "stronger efforts are needed to ensure public-finance sustainability as long-term sovereign yields rise", "unit": "reported fiscal-policy endpoint", "value_type": "reported_policy_endpoint"}
+      },
+      "method": "OECD interpretation of energy-price transmission, inflation expectations, fiscal pressures, and support-policy tradeoffs.",
+      "uncertainty": "Recommendations are not evaluations of a specific support program and do not establish who receives aid, how sufficient it is, or how households change behavior.",
+      "subgroup": "Low-income and energy-exposed households, firms, taxpayers, central banks, fiscal authorities, and energy users deciding whether to conserve or substitute.",
+      "counterinterpretation": "Broad support may be faster to administer during a shock, while targeting can miss eligible households or add administrative burden; temporary measures may become politically difficult to unwind.",
+      "source_url": "https://www.oecd.org/en/about/news/press-releases/2026/09/global-growth-holds-up-despite-successive-shocks-but-risks-persist.html",
+      "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2027; AI investment, trade, and financial-risk interaction",
+      "denominator": {"value": 1, "unit": "OECD growth and technology-investment outlook frame", "value_type": "technology_macro_frame"},
+      "measures": {
+        "ai_growth_support": {"value": "strong investment in artificial intelligence continues to support trade and economic growth", "unit": "reported macroeconomic mechanism", "value_type": "reported_mechanism"},
+        "ai_external_financing": {"value": "rapid AI investment is increasingly relying on external financing", "unit": "reported financial mechanism", "value_type": "reported_mechanism"},
+        "market_correction_risk": {"value": "a market correction could be amplified if expected AI returns do not materialize", "unit": "reported downside risk", "value_type": "reported_risk"},
+        "long_term_foundations": {"value": "stronger skills, diversified energy supplies, and faster AI adoption", "unit": "reported growth-foundation set", "value_type": "reported_policy_mechanism_set"}
+      },
+      "method": "OECD synthesis of AI-related goods shipments, investment, external financing, productivity expectations, and macro-financial risks.",
+      "uncertainty": "The report identifies a risk channel rather than a probability or realized correction; AI returns, financing, productivity, and distribution across firms and workers remain uncertain.",
+      "subgroup": "AI firms, investors, workers, consumers, technology suppliers, energy and data-center infrastructure, governments, and financial institutions.",
+      "counterinterpretation": "AI investment can raise productivity, trade, and service capacity, while external financing can accelerate useful deployment; diversification and skills may reduce concentration and downside exposure.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-economic-outlook-interim-report-september-2026_f751d02b-en/full-report.html",
+      "retrieval_hash": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/about/news/press-releases/2026/09/global-growth-holds-up-despite-successive-shocks-but-risks-persist.html", "claim": "OECD press release with growth, inflation, shock-buffer, support-targeting, and AI-investment summary."},
+    {"source_url": "https://doi.org/10.1787/f751d02b-en", "claim": "Official OECD DOI for the September 2026 Interim Economic Outlook."}
+  ],
+  "boundary": "This record adds an energy-shock-to-inflation-to-purchasing-power and policy-response route, with AI investment as a concurrent growth and financial-risk channel. It is not household respondent data, a consumer-price index for every household, a causal estimate of support, or a forecast of realized financial correction.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD September 2026 Interim Economic Outlook landing page, full report, and press release were reviewed; growth, inflation, shock-buffer, support-design, public-finance, AI-investment, and uncertainty claims were cross-checked.",
+    "source_url_sha256": "sha256:a7955a6fbb47102c92644dc18ade89eed8fdb40241276786f3da3e850d251606",
+    "checked": "2026-09-26"
+  }
+}

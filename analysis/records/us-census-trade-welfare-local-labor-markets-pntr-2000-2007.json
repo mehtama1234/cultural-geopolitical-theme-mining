@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-trade-welfare-local-labor-markets-pntr-2000-2007",
+  "title": "Trade welfare depends on unemployment, participation, sector switching, and where workers can live—not wages alone",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper developing a local-labor-market welfare measure and applying it to China's permanent normal trade relations shock",
+  "geography": "United States commuting zones; workers observed in 2000 with outcomes measured over 2000-2007",
+  "observations": [
+    {
+      "period": "2000-2007 worker outcomes; China PNTR trade shock; paper published February 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined workers starting in U.S. commuting zones in 2000; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "welfare_measure": {
+          "value": "a first-order sufficient statistic combines frictional unemployment, labor-force participation, sectors to which workers apply, and regions in which workers choose to live",
+          "unit": "theoretical local-labor-market welfare measure",
+          "value_type": "theoretical_measure"
+        },
+        "heterogeneity_allowed": {
+          "value": "the framework allows heterogeneity in productivity and non-pecuniary returns across unemployment, non-participation, sectors, and regions",
+          "unit": "model scope",
+          "value_type": "reported_method_scope"
+        },
+        "local_application": {
+          "value": "the framework is applied to welfare changes from 2000-2007 across workers starting in different U.S. commuting zones",
+          "unit": "empirical application",
+          "value_type": "reported_application"
+        },
+        "pntr_shock": {
+          "value": "the study identifies differential commuting-zone impacts of granting China permanent normal trade relations",
+          "unit": "trade-shock application",
+          "value_type": "reported_application"
+        },
+        "welfare_scope": {
+          "value": "the empirical comparison measures relative welfare changes across regions rather than a complete national welfare level",
+          "unit": "reported scope boundary",
+          "value_type": "reported_boundary"
+        }
+      },
+      "method": "Census CES working paper develops a sufficient-statistic approach to worker welfare that includes unemployment, participation, sector applications, and residential location, then applies it across commuting zones to the China PNTR trade shock between 2000 and 2007.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the commuting-zone estimates, welfare rankings, parameter values, sample construction, or full treatment of household and non-market outcomes. A first-order welfare measure depends on model assumptions and does not directly observe each worker's subjective wellbeing.",
+      "subgroup": "Workers starting in different U.S. commuting zones in 2000, compared across local exposure to the China PNTR trade shock and adjustment margins.",
+      "counterinterpretation": "A worker's move, non-participation, sector change, or unemployment can carry different costs and meanings across people and places. The framework allows heterogeneity but does not make every amenity, family constraint, identity, or political response directly visible. Relative regional welfare effects do not establish the national level, causal household wellbeing, or one policy remedy.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-16.html",
+      "retrieval_hash": "sha256:3b34ef4546869e2a34834d16bd90b038341575d0b543f1a08f2841a4aa71344e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1404",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the local welfare framework and PNTR application.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-16.pdf",
+      "claim": "The official paper PDF provides the model and trade-shock application context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a model-based local welfare framework for trade adjustment and a China PNTR application. It does not establish a complete national welfare level, subjective wellbeing, universal causal effects, or a single remedy for trade-exposed places.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-16 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying confidential worker and commuting-zone records are not retained",
+    "checked": "2026-09-22"
+  }
+}

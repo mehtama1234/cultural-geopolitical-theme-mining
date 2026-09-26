@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-jail-healthcare-accreditation-mortality-2026",
+  "title": "Voluntary jail healthcare accreditation improves care standards and reduces mortality without added capital or labor inputs",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 33357, randomized offer of healthcare accreditation across 46 U.S. jails",
+  "geography": "United States; 46 midsized jails with average daily populations between 100 and 3,000",
+  "observations": [
+    {
+      "period": "Accreditation experiment; paper issued January 2025 and revised May 2026",
+      "denominator": {
+        "value": 46,
+        "unit": "midsized U.S. jails randomized to immediate or delayed offer of National Commission on Correctional Health Care accreditation",
+        "value_type": "randomized_facility_count"
+      },
+      "measures": {
+        "quality_standard_compliance": {
+          "value": "improved",
+          "unit": "compliance with prespecified healthcare quality standards, especially training and patient care",
+          "value_type": "experimental_effect"
+        },
+        "twelve_month_mortality": {
+          "value": "substantially reduced",
+          "unit": "12-month jail mortality; public abstract does not state the exact percentage estimate",
+          "value_type": "experimental_effect"
+        },
+        "capital_or_labor_inputs": {
+          "value": "no increase detected",
+          "unit": "capital or labor inputs associated with the accreditation offer",
+          "value_type": "experimental_null"
+        },
+        "operating_mechanisms": {
+          "value": "coordination, screening, and oversight improved",
+          "unit": "reported mechanism evidence across staff, records, and medical audits",
+          "value_type": "mechanism_evidence"
+        },
+        "institutional_route": {
+          "value": "external accreditation offer",
+          "unit": "standardized expertise and compliance assessment for publicly financed jail healthcare delivered by private contractors",
+          "value_type": "randomized_intervention"
+        }
+      },
+      "method": "Randomized offer of NCCHC accreditation to 46 jails, comparing immediate versus delayed offer; compliance, organizational practice, mortality, staff, leadership, and medical-record measures were collected.",
+      "uncertainty": "The abstract reports improvements and mortality reduction but does not disclose every effect size, confidence interval, implementation cost, or long-run post-release outcome. The experiment identifies the offer pathway in selected midsized jails, not all correctional facilities or all forms of accreditation.",
+      "subgroup": "People detained in participating midsized jails, jail healthcare and custody staff, leadership, and contracted healthcare providers; people in custody rely on the institution for care and cannot freely switch providers.",
+      "counterinterpretation": "Accreditation may improve measured compliance without improving every unmeasured dimension of care; standards may redirect effort, impose administrative burden, or work differently where staffing, vendor, legal, or population conditions differ. A mortality effect does not establish post-release health, trust, or reduced detention exposure.",
+      "source_url": "https://www.nber.org/papers/w33357",
+      "retrieval_hash": "sha256:dc1ca8206c9b8286f24013ec89c55e3553046e9842f20787fa68e33fbda8d27f",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w33357",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    },
+    {
+      "source_url": "https://www.nber.org/reporter/2026number2/innovative-investments-local-jails",
+      "claim": "NBER Reporter provides additional institutional and mechanism context for the accreditation experiment.",
+      "status": "official-research-summary"
+    }
+  ],
+  "boundary": "This record establishes an experimental institutional-practice-to-care-and-mortality route in selected U.S. jails. It does not establish post-release health, recidivism, household outcomes, trust, fairness of detention, contractor-wide performance, or general correctional-system effects."
+}

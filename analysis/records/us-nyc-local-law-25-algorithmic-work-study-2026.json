@@ -8,13 +8,13 @@
   "geography": "New York City municipal civil service and algorithmic employment decision context",
   "observations": [
     {
-      "period": "2026-01-17 enactment; effective 30 days after enactment; current study/report status checked 2026-09-18",
+      "period": "2026-01-17 enactment; effective 30 days after enactment; current study/report status checked 2026-09-21",
       "denominator": {"value": 1, "unit": "New York City local law and mandated study/report route", "value_type": "institutional_case_count"},
       "measures": {
         "institutional_response": {"value": "Local Law 25 of 2026 mandates a Department of Information Technology and Telecommunications study of algorithmic tools and automated employment decision tools", "unit": "enacted municipal law", "value_type": "reported_rule"},
         "required_scope": {"value": "hiring impacts, impacts on regular employee work functions, and employee feedback", "unit": "study requirements", "value_type": "reported_rule"},
         "report_requirement": {"value": "report findings and recommendations to the mayor and City Council speaker within three months after study completion", "unit": "reporting requirement", "value_type": "reported_rule"},
-        "study_report_published": {"value": "not located in the reviewed official public routes as of 2026-09-18", "unit": "bounded public-source search", "value_type": "nonobservation"},
+        "study_report_published": {"value": "not located in the reviewed official public routes as of 2026-09-21", "unit": "bounded public-source search", "value_type": "nonobservation"},
         "worker_outcome": {"value": "not observed", "unit": "no named tool, employee decision change, appeal, correction, compensation, workload, pay, or exit endpoint", "value_type": "unmeasured"}
       },
       "method": "Review of the certified Local Law 25 PDF, City Council enactment record, and NYC DCWP AEDT implementation/complaint page; legal mandate, study scope, and missing report/outcome stages are kept separate.",
@@ -24,12 +24,31 @@
       "source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=5C590780-9794-44C0-B489-91241AA1C626&ID=15301247&M=F",
       "retrieval_hash": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150",
       "status": "reported"
+    },
+    {
+      "period": "2026-09-21 official implementation recheck",
+      "denominator": {"value": 1, "unit": "New York City Local Law 25 implementation process", "value_type": "institutional_case_count"},
+      "measures": {
+        "implementation_stage": {"value": "planning stages", "unit": "reported city implementation status", "value_type": "reported_institutional_stage"},
+        "coordination_actors": {"value": "NYC Office of Technology and Innovation, Department of Citywide Administrative Services, and Office of Labor Relations", "unit": "named city implementation actors", "value_type": "reported_actor_set"},
+        "completed_study": {"value": "not observed", "unit": "official public implementation record reviewed", "value_type": "nonobservation"},
+        "published_report": {"value": "not observed", "unit": "official public implementation record reviewed", "value_type": "nonobservation"},
+        "worker_outcome": {"value": "not observed", "unit": "no worker-level protection, remedy, or employment change identified", "value_type": "unmeasured"}
+      },
+      "method": "Official NYC Office of Technology and Innovation testimony recheck, read against the enacted law and existing AEDT implementation context; planning-stage evidence is kept separate from completed-study and worker-outcome evidence.",
+      "uncertainty": "The testimony reports planning-stage implementation and names coordinating agencies, but does not provide a completed study, public report, instrument inventory, respondent count, completion date, worker notice, appeal, correction, compensation, workload/pay change, or exit endpoint.",
+      "subgroup": "New York City municipal implementation actors and workers/applicants potentially affected by covered algorithmic tools; no exposed-worker denominator is published in this record.",
+      "counterinterpretation": "Planning coordination may be an ordinary early implementation step and may later produce useful evidence, but it is not itself worker protection or proof of changed employment conditions.",
+      "source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=2F774383-05BD-4EE8-AAA9-CBA978AA0FAC&ID=15322898&M=F",
+      "retrieval_hash": "official_testimony_url:sha256:f78d4edbf16dc9c5d19fcc2393e73e52305f87173824f0b301d66d6ff36196a6",
+      "status": "reported"
     }
   ],
   "related_sources": [
     {"source_url": "https://legistar.council.nyc.gov/LegislationDetail.aspx?GUID=0B6A4E8B-4D49-437B-BB70-50B898D2BD7F&ID=6874682", "claim": "City Council record identifies the enactment date, law number, study scope, and report requirement.", "status": "official-enactment-record"},
+    {"source_url": "https://legistar.council.nyc.gov/View.ashx?GUID=2F774383-05BD-4EE8-AAA9-CBA978AA0FAC&ID=15322898&M=F", "claim": "NYC Office of Technology and Innovation testimony reports that the city was in planning stages of implementing Local Law 25 with DCAS and OLR.", "status": "official-implementation-status"},
     {"source_url": "https://home4.nyc.gov/site/dca/about/automated-employment-decision-tools.page", "claim": "NYC DCWP provides the existing AEDT bias-audit, notice, and complaint architecture.", "status": "official-implementation-context"}
   ],
-  "boundary": "This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate. It does not establish study completion, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.",
-  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF retrieved from the official City Council Legistar route", "retrieval_hash": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-09-18"}
+  "boundary": "This record advances the AI/work chain from rule and complaint architecture to an enacted municipal measurement mandate and reported planning-stage implementation. It does not establish study completion, a published report, named employer or tool implementation, worker notice or appeal, decision correction, compensation, workload/pay change, trust, or exit.",
+  "reproduction_audit": {"retrieval_hash_scope": "Certified Local Law 25 PDF retrieved from the official City Council Legistar route; implementation status rechecked against official NYC OTI testimony", "retrieval_hash": "sha256:5aca30c589287acfc1c03022f6be8ca57b904f6c78a2c482967fbad962959150", "checked": "2026-09-21"}
 }

@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "reported_firm_ai_expectation_record",
+  "purpose": "Bounded NBER executive-survey route from firm AI adoption through retrospective impact and forward productivity, output, and employment expectations, preserving worker-control, household, and realized-outcome gaps.",
+  "events": [
+    {
+      "event_id": "NBER-FIRM-AI-EXPECTATIONS-2026",
+      "unit": "case",
+      "geography": "United States, United Kingdom, Germany, and Australia; executive firm survey",
+      "actor_initiating_change": "firm",
+      "event_date": "2026-01-01",
+      "date_precision": "2026 survey publication; retrospective three-year and forward three-year windows, exact firm observation dates not retained",
+      "denominator": "Nearly 6,000 senior business executives at firms in four countries; measure-specific valid bases may differ",
+      "method": "Executive survey reported in NBER Working Paper 34836, with firm AI use, retrospective own-firm effects, and forward expectations in a common instrument",
+      "missingness": "Occupation, task assignment, worker subgroup, pay, hours, training, monitoring, bargaining, household effects, implementation dates, and realized post-survey outcomes are not retained",
+      "condition_or_decision": "firm_strategy",
+      "exposure": "69% of firms reported actively using AI; more than two thirds of executives reported regular use, averaging 1.5 hours per week",
+      "alternatives_before_action": "Firms' non-AI production options, worker alternatives, implementation choices, and bargaining or voice routes are not observed",
+      "immediate_burden_or_benefit": "90% of executives reported no employment or productivity impact at their own firm over the prior three years; this is a firm-reported retrospective perception, not an administrative outcome",
+      "choice_or_response": "Executives reported expected next-three-year productivity growth of 1.4%, output growth of 0.8%, and employment change of -0.7% from employers versus +0.5% from employees",
+      "person_or_actor_with_control": "Firm executives report adoption and expectations; control over task allocation, monitoring, pay, schedule, training, and worker voice is not identified",
+      "remedy_or_institutional_response": "No worker consultation, bargaining response, public rule, correction, or remedy is observed",
+      "immediate_outcome": "The survey establishes a firm-side adoption/expectation surface with a gap between limited reported retrospective impact and stronger expected future effects",
+      "protected_outcome": "Expected productivity or output gains could protect firm capacity or jobs, but no realized worker or household protection is measured",
+      "sacrificed_outcome": "Expected employment effects may place worker income, task discretion, or bargaining power at risk, but no realized sacrifice is measured",
+      "cost_risk_transfer": "The source does not identify whether AI costs, productivity gains, employment risk, or implementation risk transfer among firms, workers, households, or the public",
+      "later_outcome": "No linked realized productivity, employment, pay, hours, training, worker-control, household-security, trust, political, or geopolitical outcome is observed",
+      "meaning_and_attribution": "Employer and employee expectation differences may reflect information, incentives, or definitions of employment rather than realized conflict or causal disagreement",
+      "public_or_collective_response": "No bargaining, worker organizing, public response, switching, or exit outcome is linked",
+      "counterexample": "Low retrospective impact can coexist with high adoption and forward expectations; expected productivity gains need not become employment loss or reach workers",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Reported NBER executive survey; four-country sample is not a US-only estimate, expectations may not be realized, and no common worker-firm unit or causal treatment is retained",
+      "source_url": "https://www.nber.org/papers/w34836"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "NBER-FIRM-AI-A-01",
+      "from": "firm AI adoption and executive use",
+      "to": "reported retrospective firm impact",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The common executive instrument reports 69% active firm AI use alongside 90% reporting no own-firm employment or productivity impact over the prior three years",
+      "status": "reported",
+      "counterexample": "Use may be shallow, recent, or concentrated in firms/tasks not captured by aggregate impact perception",
+      "remaining_gap": "Firm-level implementation dates, task exposure, administrative productivity, employment, pay, and worker-level outcomes"
+    },
+    {
+      "arrow_id": "NBER-FIRM-AI-A-02",
+      "from": "current firm AI adoption",
+      "to": "expected future productivity and output",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Executives reported average expected next-three-year productivity growth of 1.4% and output growth of 0.8% at their own firms",
+      "status": "reported",
+      "counterexample": "Forward expectations are not realized outcomes and may reflect strategy, optimism, or survey framing",
+      "remaining_gap": "Realized productivity/output, investment, implementation, and distribution of gains"
+    },
+    {
+      "arrow_id": "NBER-FIRM-AI-A-03",
+      "from": "firm AI adoption and expected productivity",
+      "to": "expected employment divergence",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The survey reports expected employment change of -0.7% from employers versus +0.5% from employees over the next three years",
+      "status": "reported",
+      "counterexample": "The employer/employee contrast may reflect different definitions or information rather than a realized distributional conflict",
+      "remaining_gap": "Matched firm-worker expectations, actual hiring/separation, occupations, tasks, pay, hours, and bargaining"
+    },
+    {
+      "arrow_id": "NBER-FIRM-AI-A-04",
+      "from": "expected employment/productivity change",
+      "to": "worker control, household security, bargaining, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The executive survey ends at firm-reported expectations and contains no linked worker, household, institutional, or later behavioral endpoint",
+      "status": "open",
+      "counterexample": "Productivity gains may coexist with stable employment, changed tasks, higher monitoring, training, or unequal distribution rather than one employment pathway",
+      "remaining_gap": "Matched firm-worker panel with adoption, task allocation, pay/hours, training, monitoring, voice, alternatives, household effects, correction, and later exit"
+    },
+    {
+      "arrow_id": "NBER-FIRM-AI-A-05",
+      "from": "firm AI implementation",
+      "to": "public or geopolitical capability and dependence",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey does not observe infrastructure, supplier concentration, public capacity, domestic production, or international leverage",
+      "status": "open",
+      "counterexample": "Firm adoption can expand local capability while increasing dependence on concentrated cloud, chip, data, or labor suppliers",
+      "remaining_gap": "Firm implementation linked to sector, infrastructure, supplier, workforce, public-capacity, and cross-border capability outcomes"
+    }
+  ],
+  "boundary": "This ledger formalizes a firm-side AI adoption and expectation layer. It does not establish realized employment loss, worker control, pay, household security, political response, or geopolitical leverage, and it must not be pooled with worker-level evidence without a common unit and period.",
+  "storage_boundary": "Only the published NBER record's aggregate estimates, source metadata, and interpretation limits are retained; no executive microdata are stored."
+}

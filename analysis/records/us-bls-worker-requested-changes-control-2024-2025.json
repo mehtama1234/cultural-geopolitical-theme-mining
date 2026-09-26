@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-worker-requested-changes-control-2024-2025",
+  "title": "Workers can request changes to make work usable, but employer granting and job-level control remain uneven",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "firm_sector_market_power",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "BLS Current Population Survey July 2024 work-limiting-condition supplement and 2025 Occupational Requirements Survey",
+  "geography": "United States wage and salary workers and nationally representative civilian-job requirements",
+  "observations": [
+    {
+      "period": "July 2024; wage and salary workers ages 16–75",
+      "denominator": {"value": 5900000, "unit": "wage and salary workers who ever requested or made a change in their current job to help do it better", "value_type": "reported_count"},
+      "measures": {
+        "share_of_employed": {"value": 4.1, "unit": "percent of employed people ages 16–75", "value_type": "reported_share"},
+        "schedule_requests": {"value": 2609000, "unit": "workers requesting or making a schedule change", "value_type": "reported_count"},
+        "equipment_requests": {"value": 1477000, "unit": "workers requesting or making a new or modified equipment change", "value_type": "reported_count"},
+        "task_requests": {"value": 1412000, "unit": "workers requesting or making a work-task change", "value_type": "reported_count"},
+        "telework_requests": {"value": 802000, "unit": "workers requesting or making a work-from-home change", "value_type": "reported_count"},
+        "training_requests": {"value": 550000, "unit": "workers requesting or making a training change", "value_type": "reported_count"},
+        "accessibility_requests": {"value": 147000, "unit": "workers requesting or making increased workplace/building accessibility", "value_type": "reported_count"},
+        "transport_requests": {"value": 73000, "unit": "workers requesting or making special transportation arrangements", "value_type": "reported_count"}
+      },
+      "method": "BLS summary of the July 2024 Current Population Survey supplement on people with work-limiting health conditions or difficulties; categories can overlap because workers could request more than one type of change.",
+      "uncertainty": "The summary does not identify the worker's exact condition, employer, job duration, wage, care situation, reason for request, or whether the requested change persisted or improved health, productivity, pay, or retention.",
+      "subgroup": "Wage and salary workers ages 16–75; the measures are not restricted to workers reporting a work-limiting condition despite the supplement's subject.",
+      "counterinterpretation": "A request can reflect preference, productivity, health, accessibility, care, or another need; the count is not a prevalence of disability or a measure of unmet accommodation alone.",
+      "source_url": "https://www.bls.gov/opub/ted/2026/5-9-million-wage-and-salary-workers-requested-a-change-to-help-them-do-their-job-better.htm",
+      "retrieval_hash": "sha256:5f9afc4361830cab762e41224ef57b2812acb2d1ecb5e04f68a4271091c6ce1c",
+      "status": "reported"
+    },
+    {
+      "period": "July 2024; outcome of worker-requested changes",
+      "denominator": {"value": null, "unit": "workers requesting each change type; categories and response bases differ", "value_type": "not_disclosed"},
+      "measures": {
+        "schedule_fully_granted": {"value": 70.1, "unit": "percent of schedule requests", "value_type": "reported_share"},
+        "schedule_partially_granted": {"value": 21.9, "unit": "percent of schedule requests", "value_type": "reported_share"},
+        "schedule_not_granted": {"value": 7.5, "unit": "percent of schedule requests", "value_type": "reported_share"},
+        "telework_fully_granted": {"value": 69.2, "unit": "percent of telework requests", "value_type": "reported_share"},
+        "equipment_fully_granted": {"value": 67.8, "unit": "percent of equipment requests", "value_type": "reported_share"},
+        "tasks_fully_granted": {"value": 66.0, "unit": "percent of task requests", "value_type": "reported_share"},
+        "training_fully_granted": {"value": 61.0, "unit": "percent of training requests", "value_type": "reported_share"},
+        "accessibility_fully_granted": {"value": 59.1, "unit": "percent of accessibility requests", "value_type": "reported_share"}
+      },
+      "method": "BLS reported outcome distribution for requested changes in the July 2024 supplement; full, partial, and no-grant outcomes are retained rather than treating any request as a successful accommodation.",
+      "uncertainty": "The reported outcome is whether the request was fully, partially, or not granted, not whether the change was usable, adequate, timely, maintained, or sufficient for continued employment. Percentages may not sum to 100 because of nonresponse.",
+      "subgroup": "Workers who requested each type of change; workers can appear in multiple request categories.",
+      "counterinterpretation": "A fully granted change may still be insufficient or may carry pay, schedule, stigma, or workload trade-offs; partial granting may be enough for some workers and not others.",
+      "source_url": "https://www.bls.gov/opub/ted/2026/5-9-million-wage-and-salary-workers-requested-a-change-to-help-them-do-their-job-better.htm",
+      "retrieval_hash": "sha256:5f9afc4361830cab762e41224ef57b2812acb2d1ecb5e04f68a4271091c6ce1c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; Occupational Requirements Survey job-level control and schedule structure",
+      "denominator": {"value": 148672800, "unit": "civilian workers represented by preliminary 2025 ORS estimates", "value_type": "reported_population"},
+      "measures": {
+        "pause_control": {"value": 53.5, "unit": "percent of workers whose jobs had ability to pause work", "value_type": "reported_share"},
+        "self_paced_workload": {"value": 18.5, "unit": "percent of workers whose workload was self-paced", "value_type": "reported_share"},
+        "schedule_variability": {"value": 48.3, "unit": "percent of workers whose employer changed days, times, or hours from week to week", "value_type": "reported_share"},
+        "sample_establishments": {"value": 27100, "unit": "establishments in the probability sample", "value_type": "reported_sample"},
+        "occupational_observations": {"value": 50600, "unit": "occupational observations approximately", "value_type": "reported_sample"}
+      },
+      "method": "BLS 2025 Occupational Requirements Survey establishment-based estimates. ORS job requirements are kept separate from CPS worker-request and employer-grant outcomes; estimates are preliminary and not a time series.",
+      "uncertainty": "ORS describes job requirements and structure, not each worker's experienced control, request, accommodation, pay, health, or household outcome. BLS advises against comparing these estimates with previously published ORS estimates.",
+      "subgroup": "Civilian workers and occupations; occupational examples show wide differences, including self-paced workload of 65.8% for software developers versus 0.7% for electricians and schedule variability of 65.1% for electricians.",
+      "counterinterpretation": "A self-paced workload does not guarantee bargaining power or low workload, and schedule variability can be employer-driven or compatible with flexibility in some jobs; job-level structure is not a worker-level welfare score.",
+      "source_url": "https://www.bls.gov/news.release/ors.htm",
+      "retrieval_hash": "sha256:83fdc61527b441d5d40fad9a68afa834c8be32ba045092ae664f3337e81b5dfc",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-federal-reserve-employment-ai-control-2025.json", "claim": "The SHED record provides a separate worker-reported AI use and task-control surface; it does not observe request/grant outcomes or ORS job requirements.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.bls.gov/news.release/archives/ors_01162026.pdf", "claim": "The ORS PDF is an alternate official presentation of the same 2025 job-requirement release and is not pooled as a separate observation.", "status": "official-alternate-format"}
+  ],
+  "boundary": "This record establishes worker requests and employer granting outcomes for changes intended to make work better, alongside job-level pause, pace, and schedule structure. It does not establish request adequacy, persistence, pay, health, productivity, discrimination, bargaining power, household security, or exit, and it does not join the same worker to the ORS job-level estimates.",
+  "reproduction_audit": {"retrieval_hash_scope": "BLS Economics Daily HTML and BLS ORS news-release HTML retrieved and retained temporarily for extraction", "retrieval_hashes": ["sha256:5f9afc4361830cab762e41224ef57b2812acb2d1ecb5e04f68a4271091c6ce1c", "sha256:83fdc61527b441d5d40fad9a68afa834c8be32ba045092ae664f3337e81b5dfc"], "checked": "2026-09-23"}
+}

@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-american-neighbor-survey-social-infrastructure-belonging-2026",
+  "title": "Neighborhood social infrastructure is unevenly available and connected to belonging and mutual aid",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "housing_place_mobility", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "Survey Center on American Life American Neighbor Survey, Ipsos KnowledgePanel probability-based panel",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "October 10-17, 2025 survey; published April 27, 2026",
+      "denominator": {"value": 5357, "unit": "US adults age 18 and older in the qualified weighted survey sample", "value_type": "survey_respondents"},
+      "measures": {
+        "regular_neighbor_conversation": {"value": 40, "unit": "percent talking with neighbors at least a few times a week", "value_type": "published_share"},
+        "worked_with_neighbors": {"value": 40, "unit": "percent working with neighborhood residents in the prior 12 months to fix a problem or improve the community", "value_type": "published_share"},
+        "neighbor_trust": {"value": 72, "unit": "percent reporting a great or fair amount of trust that neighborhood residents do the right thing", "value_type": "published_share"},
+        "neighbor_trust_high_school_or_less": {"value": 64, "unit": "percent among adults with a high school degree or less", "value_type": "published_share"},
+        "neighbor_trust_college_graduate": {"value": 81, "unit": "percent among college graduates", "value_type": "published_share"},
+        "third_places_none": {"value": 10, "unit": "percent reporting no listed neighborhood amenity within a 20-minute walk", "value_type": "published_share"},
+        "third_places_six_or_more": {"value": 44, "unit": "percent reporting six or more listed neighborhood amenities within a 20-minute walk", "value_type": "published_share"},
+        "weekly_neighbor_conversation_no_third_places": {"value": 27, "unit": "percent among adults reporting no listed neighborhood amenities", "value_type": "published_share"},
+        "weekly_neighbor_conversation_six_or_more_third_places": {"value": 43, "unit": "percent among adults reporting six or more listed neighborhood amenities", "value_type": "published_share"},
+        "comfortable_neighbor_childcare_college_parents": {"value": 56, "unit": "percent of parents with a college degree comfortable asking a neighbor to watch a child in an emergency", "value_type": "published_share"},
+        "comfortable_neighbor_childcare_noncollege_parents": {"value": 39, "unit": "percent of parents without a college degree", "value_type": "published_share"}
+      },
+      "method": "Weighted descriptive estimates from a probability-based online panel recruited through address-based sampling; interviews were conducted in English and Spanish, with weighting for gender, race and ethnicity, education, region, income, language dominance, race by age, race by education, and 2024 presidential vote.",
+      "uncertainty": "The survey is cross-sectional and relies on self-reports and stated comfort or trust. The third-place, education, housing, age, and religious-attendance comparisons are associations; the source does not establish that amenities, education, homeownership, or religion causes interaction, trust, or mutual aid. The 2012 comparison is an aggregate survey comparison, not a recontact panel.",
+      "subgroup": "Education, age, housing tenure/type, religious attendance, and neighborhood-amenity categories as reported by the source; the source reports a qualified-sample margin of sampling error of plus or minus 1.55 percentage points and design effect 1.35.",
+      "counterinterpretation": "People with stronger resources, longer residence, different life stages, or greater willingness to walk may both select into better-connected places and report more neighborhood interaction; observed amenity gradients may therefore reflect selection, mobility, safety, or unmeasured place conditions rather than a direct third-place effect.",
+      "source_url": "https://www.americansurveycenter.org/research/strangers-next-door-the-decline-of-neighborhood-socializing-and-the-class-divide-in-belonging/",
+      "retrieval_hash": "sha256:6aa33ffedeb7ac1441cb1087b0212443259ec56d7747c1d31fa3ff7dcf8eadb4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/short-reads/2025/05/08/how-connected-do-americans-feel-to-their-neighbors/", "claim": "Pew provides a complementary local-trust and stated mutual-aid layer using a different survey and question set.", "status": "cross-source-context"},
+    {"source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html", "claim": "Census HTOPS provides a current household social-connectedness route but is a separate survey design and should not be pooled with this panel.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record describes neighborhood interaction, trust, amenities, stated mutual aid, and belonging-related preferences. It does not observe a dated shock, actual assistance delivered, time or money transferred, adequacy, formal-service interaction, recovery, later political action, or a causal effect of social infrastructure.",
+  "retrieval_hash": "sha256:6aa33ffedeb7ac1441cb1087b0212443259ec56d7747c1d31fa3ff7dcf8eadb4"
+}

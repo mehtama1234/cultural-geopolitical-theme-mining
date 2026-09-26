@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-transitory-income-durable-purchases-vehicle-financing-2008",
+  "title": "A temporary income boost can become a durable purchase and a future loan obligation",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NBER Working Paper 35026, using variation from the 2008 Economic Stimulus Act to estimate household durable-goods spending and vehicle financing responses",
+  "geography": "United States; households and consumer expenditures exposed to the 2008 stimulus payment, with vehicle-financing response estimates",
+  "observations": [
+    {
+      "period": "Within three months of the 2008 stimulus payment",
+      "denominator": {"value": null, "unit": "households in the study's Consumer Expenditure Survey and stimulus-payment variation; exact analytic denominator not disclosed in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "durable_spending": {"value": "households spent about 80% of the stimulus payment on durable goods", "unit": "estimated share of stimulus payment spent on durables within three months", "value_type": "reported_estimate"},
+        "vehicle_share": {"value": "most of the durable-goods response was on motor vehicles", "unit": "reported spending composition", "value_type": "reported_pattern"},
+        "smaller_durables": {"value": "about 20% of the total durable response was on smaller items", "unit": "share of durable-goods response", "value_type": "reported_share"}
+      },
+      "method": "The study uses variation from the Economic Stimulus Act of 2008 to estimate how a transitory income shock affected durable-goods spending.",
+      "uncertainty": "The estimate identifies a spending response, not whether the purchase was necessary, affordable, welfare-improving, or protective of work and care access.",
+      "subgroup": "U.S. households in the study's expenditure data; detailed subgroup and purchase-need mechanisms are not extracted here.",
+      "counterinterpretation": "A durable purchase can replace a failing essential, reduce travel or repair costs, or preserve work access; high spending is not automatically overconsumption.",
+      "source_url": "https://www.nber.org/papers/w35026",
+      "retrieval_hash": "sha256:05ac7819949a536e159420571dae10756432aab8f8cebdf57fbb84822e7c3fa3",
+      "status": "estimated"
+    },
+    {
+      "period": "Motor-vehicle purchases following the stimulus payment",
+      "denominator": {"value": null, "unit": "households with estimated vehicle response; exact financing denominator not disclosed in the bounded extraction", "value_type": "not_disclosed"},
+      "measures": {
+        "vehicle_financing": {"value": "the average household borrowed about 40 cents per dollar of stimulus to purchase motor vehicles", "unit": "vehicle-loan leverage relative to stimulus dollars", "value_type": "reported_estimate"},
+        "purchase_form": {"value": "vehicles were often financed, used, or both", "unit": "reported vehicle-purchase characterization", "value_type": "reported_pattern"},
+        "future_obligation": {"value": "loan payment, interest, insurance, fuel, repairs, and later resale were not measured in the bounded extraction", "unit": "missing post-purchase household-cost domains", "value_type": "unmeasured"}
+      },
+      "method": "Study decomposition of the vehicle response and associated financing using consumer-expenditure and vehicle-financing information.",
+      "uncertainty": "The 40-cent leverage estimate is an average response and does not reveal loan terms, delinquency, repayment burden, or how borrowing differed by income or credit access.",
+      "subgroup": "Households purchasing motor vehicles in the study period; no same-household later repayment panel is used here.",
+      "counterinterpretation": "Borrowing can spread a necessary cost over time and provide mobility; the same loan can also reduce later cash margin if income or vehicle costs change.",
+      "source_url": "https://www.nber.org/papers/w35026",
+      "retrieval_hash": "sha256:05ac7819949a536e159420571dae10756432aab8f8cebdf57fbb84822e7c3fa3",
+      "status": "estimated"
+    },
+    {
+      "period": "Conversion boundary from temporary income to durable household room",
+      "denominator": {"value": 1, "unit": "study-defined transitory-income shock to durable-purchase conversion route", "value_type": "route_denominator"},
+      "measures": {
+        "observed": {"value": "payment receipt, durable spending, vehicle purchases, and average vehicle-loan leverage", "unit": "measured stages", "value_type": "bounded_measure_set"},
+        "open": {"value": "purchase need, work or care access, monthly payment, delinquency, repair, insurance, fuel, cash buffer, and later household security", "unit": "unmeasured stages", "value_type": "unmeasured"}
+      },
+      "method": "Structured extraction of the paper's measured conversion stages and explicit separation of later household outcomes not established by the abstract or bounded review.",
+      "uncertainty": "The 2008 policy and vehicle market are unusual; the route should not be treated as a universal response to every temporary payment or current financing market.",
+      "subgroup": "U.S. households in the source-specific expenditure and financing universe.",
+      "counterinterpretation": "The same observed purchase can be relief, investment, consumption, or future strain depending on the household's need, terms, and later income path.",
+      "source_url": "https://www.nber.org/papers/w35026",
+      "retrieval_hash": "sha256:05ac7819949a536e159420571dae10756432aab8f8cebdf57fbb84822e7c3fa3",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/working_papers/w35026/w35026.pdf", "claim": "Official NBER PDF used for the paper's abstract and method context.", "status": "official-paper-context"}
+  ],
+  "boundary": "This record shows a large durable-spending response to a temporary income shock and substantial vehicle-loan leverage. It does not establish that the purchases improved access, protected work or care, caused later strain, or produced durable household security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; Consumer Expenditure Survey microdata and vehicle-financing data are not locally reproduced.",
+    "pdf_sha256": "sha256:05ac7819949a536e159420571dae10756432aab8f8cebdf57fbb84822e7c3fa3",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "gao_chips_rd_capacity_governance_record",
+  "purpose": "Structured GAO ledger separating semiconductor program authorization, awards, disbursement, milestones, workforce activity, R&D governance, qualified output, customer delivery, and dependence.",
+  "events": [
+    {
+      "event_id": "GAO-CHIPS-RD-CAPACITY-GOVERNANCE-2026",
+      "unit": "institution",
+      "geography": "United States; semiconductor manufacturing, materials, packaging, workforce, and advanced microelectronics R&D",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-17",
+      "date_precision": "GAO-26-109121; reported award, disbursement, milestone, workforce, and governance vintages are retained separately",
+      "denominator": "About $50 billion in semiconductor-related programs; 49 projects across 24 companies; milestone and R&D figures use report-specific denominators and are not one completion rate",
+      "method": "Structured extraction from GAO review, preserving program finance, project, milestone, workforce, governance, and realization stages as separate events",
+      "missingness": "No project-level yield, accepted output, customer delivery, worker retention, local incidence, import substitution, or external-response panel is retained",
+      "condition_or_decision": "policy",
+      "exposure": "Commerce oversees about $50 billion, including $39 billion for facilities/equipment incentives and $11 billion for advanced microelectronics R&D; GAO reports active project and governance exposure",
+      "alternatives_before_action": "Projects and institutions may use alternate suppliers, research vehicles, workforce pipelines, private financing, allied coordination, or foreign capacity; project-level alternative availability is not observed",
+      "immediate_burden_or_benefit": "Awards and disbursements can fund facilities, equipment, research, and workforce activity while cancellation, redesign, delay, local infrastructure needs, and dependence remain possible",
+      "choice_or_response": "By July 2026, 49 projects across 24 companies had been awarded; by April 2026, $13.1 billion had been disbursed; 24 milestones were complete, 125 in progress, and 9 past anticipated dates",
+      "person_or_actor_with_control": "Commerce, awardees, research institutions, workforce partners, suppliers, customers, and state/local hosts control different stages; no actor controls the complete capacity-to-delivery chain",
+      "remedy_or_institutional_response": "Commerce disbursed against award and milestone activity; GAO also reports cancellation or revision of about $7.8 billion in advanced-microelectronics R&D awards and insufficiently detailed plans for NSTC, NAPMP, and the Industrial Advisory Committee",
+      "immediate_outcome": "Program commitment, disbursement, milestone activity, workforce funding, and governance transition are visible without being treated as production or autonomy",
+      "protected_outcome": "Qualified domestic production, research capability, skilled-worker retention, supply continuity, and strategic room could be protected if later output, delivery, and alternatives materialize; none is verified here",
+      "sacrificed_outcome": "Delay, duplicated transition costs, local infrastructure burden, workforce attrition, or continued foreign exposure cannot be assigned to a project, worker, customer, or place from this aggregate review",
+      "cost_risk_transfer": "Implementation and dependence risk can shift among public budgets, firms, workers, host communities, customers, and foreign suppliers; distribution is not measured",
+      "later_outcome": "Facility qualification, yield, accepted output, worker hiring and retention, customer delivery, import substitution, supplier switching, alliance coordination, and external response remain open",
+      "meaning_and_attribution": "GAO frames governance and R&D implementation as capacity and dependence issues; affected workers, communities, customers, firms, and foreign partners are not interviewed or linked to these program stages",
+      "public_or_collective_response": "Federal oversight and program redesign are observed; downstream firm, worker, local, customer, allied, or adversarial response is not linked",
+      "counterexample": "A project can receive a disbursement after a completed milestone while production remains in qualification; cancellation of one R&D vehicle can also coexist with capability transfer or redesign elsewhere",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GAO-26-109121; reported program and governance figures are not a causal investment estimate, output measure, or autonomy result",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109121/index.html"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-CHIPS-RD-A-01",
+      "from": "appropriation and statutory design",
+      "to": "award and program commitment",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO reports about $50 billion in semiconductor-related programs and 49 awarded projects across 24 companies",
+      "status": "reported",
+      "counterexample": "Authorization or award is not an operating facility, qualified output, or reduced import exposure",
+      "remaining_gap": "Project-level construction, qualification, ownership, and production records"
+    },
+    {
+      "arrow_id": "GAO-CHIPS-RD-A-02",
+      "from": "award and milestone activity",
+      "to": "disbursement and intermediate capability",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "$13.1 billion was disbursed by April 2026; 24 milestones were complete and 125 remained in progress",
+      "status": "reported",
+      "counterexample": "Payment and milestone completion do not establish yield, accepted output, customer delivery, or worker retention",
+      "remaining_gap": "Facility/equipment qualification, output, acceptance, workforce retention, and customer records"
+    },
+    {
+      "arrow_id": "GAO-CHIPS-RD-A-03",
+      "from": "R&D governance vehicle and workforce funding",
+      "to": "usable domestic research and production capability",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Four awardees received workforce funding; GAO reports R&D cancellations/revisions and insufficiently detailed governance plans",
+      "status": "open",
+      "counterexample": "Training or a governance reset can improve future capability, but neither proves skilled-worker retention, qualified research output, or production continuity",
+      "remaining_gap": "Project-year workforce retention, research output, governance execution, facility qualification, and operating yield"
+    },
+    {
+      "arrow_id": "GAO-CHIPS-RD-A-04",
+      "from": "qualified domestic capability",
+      "to": "customer supply continuity and reduced foreign dependence",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The reviewed GAO route does not link a named project to accepted product, customer shipment, import displacement, or substitute qualification",
+      "status": "open",
+      "counterexample": "Domestic capacity can grow while refined inputs, specialized equipment, customers, or second-source capability remain externally controlled",
+      "remaining_gap": "Named project, accepted output, customer delivery, input provenance, supplier switch, and import-exposure change"
+    },
+    {
+      "arrow_id": "GAO-CHIPS-RD-A-05",
+      "from": "continuity or persistent dependence",
+      "to": "local incidence, alliance coordination, or geopolitical leverage",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "No same-project record links program realization to worker/community burden, allied behavior, supplier concession, refusal, or state response",
+      "status": "open",
+      "counterexample": "Capability may create no leverage if alternatives absorb the shock; public spending may create local burden without strategic benefit",
+      "remaining_gap": "Same project/place/customer record with incidence, alternative, switch, negotiation, concession, or external behavior"
+    }
+  ],
+  "boundary": "This ledger formalizes semiconductor program implementation and governance stages. It does not estimate output, jobs, wages, customer supply, autonomy, or geopolitical leverage.",
+  "storage_boundary": "No project database, company archive, facility file, or workforce microdata is retained; only bounded GAO findings and explicit open links are represented."
+}

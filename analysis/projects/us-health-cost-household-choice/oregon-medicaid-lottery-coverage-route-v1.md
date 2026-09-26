@@ -25,6 +25,30 @@ follow-up windows. More care use and lower financial exposure therefore do not
 collapse into one outcome: coverage can protect household finances and expand
 access while objective health or employment responds on a different clock.
 
+## Political participation follow-up
+
+The lottery was also linked to Oregon statewide voter records. Medicaid
+coverage increased November 2008 presidential-election turnout by about 2.5
+percentage points, or roughly 7% relative to the control mean. The estimated
+increase was larger among men and residents of Democratic counties, and the
+authors report suggestive evidence that new registration contributed to the
+turnout result. There was no evidence of increased turnout in later elections
+through the November 2010 midterm.
+
+This adds a causal coverage-to-turnout stage, but not a complete legitimacy
+path. The data do not identify whether financial relief, health, administrative
+contact, registration, or another mechanism produced the response, and they do
+not show issue choice, attribution, trust, policy delivery, or recovery.
+
+## Household spillover follow-up
+
+The Oregon results also report a child-enrollment spillover in administrative
+data: for every nine adults induced to enroll by the lottery, about one
+additional child enrolled at the same time. The direct adult and child effects
+were modest and transitory, with the spillover fading over the following year.
+This is a household-diffusion result, not evidence of completed child care,
+durable coverage, household security, or intergenerational political action.
+
 ## End-to-end implication
 
 ```text
@@ -43,4 +67,4 @@ provider response, trust, or political action.
 
 ## Source
 
-[NBER Oregon Health Insurance Experiment](https://www.nber.org/papers/w17190), [NBER results summary](https://www.nber.org/programs-projects/projects-and-centers/oregon-health-insurance-experiment/oregon-health-insurance-experiment-results), and [clinical-outcomes publication](https://doi.org/10.1056/NEJMsa1212321).
+[NBER Oregon Health Insurance Experiment](https://www.nber.org/papers/w17190), [NBER results summary](https://www.nber.org/programs-projects/projects-and-centers/oregon-health-insurance-experiment/oregon-health-insurance-experiment-results), [voter-participation publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC8021132/), and [clinical-outcomes publication](https://doi.org/10.1056/NEJMsa1212321).

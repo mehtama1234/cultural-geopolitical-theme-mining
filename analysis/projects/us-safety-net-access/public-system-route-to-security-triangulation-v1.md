@@ -13,7 +13,8 @@ The public-system lane now has several evidence types. They answer different que
 2. respondent reports of notice, time, paperwork, interview, and interruption;
 3. administrative or experimental studies that change route design and observe participation;
 4. SIPP person-month transitions paired with following rent/mortgage and utility hardship;
-5. WBNS charitable-food participation, access, treatment, and unmet need as a mixed-safety-net route.
+5. WBNS charitable-food participation, access, treatment, and unmet need as a mixed-safety-net route;
+6. SIPP same-person child-care payment, assistance, and work-prevention fields compared across adjacent SNAP status.
 
 The end-to-end program needs these layers read together without pretending they are one dataset. The synthesis below preserves the chain while keeping units, years, denominators, and designs visible.
 
@@ -36,6 +37,7 @@ need / eligibility / rule exposure
 | Material security after transition | Census SIPP 2024 reference-year person-month pairs | Following-month hardship differs across SNAP entry, exit, stable receipt, and stable nonreceipt; exit is not equivalent to recovery | Same person’s notice, route, amount, remedy, interpretation, and causal program effect |
 | Mixed public/private route | Urban 2025 WBNS charitable-food analysis | 16.7% of working-age adults reported charitable-food participation in 2025; 39.5% of food-insecure adults reported participation, while 28.8% reported unmet need; hours, awareness, comfort, variety, transport, safety, and treatment constrain usable access | Provider capacity, exact food adequacy, same-episode SNAP/charitable timing, remedy, trust, and political response |
 | Meaning and action | No sufficiently linked public-system layer yet | The specification identifies the needed fields | Fairness, trust, blame, complaint, appeal, turnout, vote, organizing, and agency response |
+| Care/work constraint around SNAP status | SIPP same-person stable-state comparison | Paid care, child-care assistance, and work-prevention shares differ across SNAP-status cells | Care timing, benefit amount, employer response, child outcome, adequacy, trust, and durable recovery are not joined for the same episode |
 
 ## What the combined evidence supports
 
@@ -54,6 +56,16 @@ The NBER evidence provides stronger mechanism leverage than cross-sectional comp
 ### 4. Receipt and material security remain separate stages
 
 The SIPP person-month layer found following-month rent/mortgage hardship of 16.40% after no-to-yes SNAP transitions, 11.53% after yes-to-no transitions, 11.98% after yes-to-yes pairs, and 3.86% after no-to-no pairs. Utility hardship was 20.80%, 20.83%, 18.61%, and 5.86%, respectively. The transition groups differ in need and composition; these are not program effects. But the pattern is a direct counterexample to reading exit as recovery or continued receipt as complete security.
+
+The SIPP child-care bridge adds a household-capacity layer to that same-person
+route. Among stable-state records, SNAP records showed lower paid child-care
+use than no-SNAP records (23.9% versus 31.0%), but higher receipt of
+child-care assistance (14.6% versus 5.2%) and a higher share reporting that
+child-care arrangements prevented work or more work (7.4% versus 3.4%). These
+are different universes and reference periods, and the comparison is not a
+SNAP effect. It does show why benefit participation, paid care, assistance,
+work capacity, and household security must remain separate stages: a household
+can be receiving help and still face a constrained work/care option set.
 
 ### 5. A private or charitable route can supplement help without closing the gap
 
@@ -106,6 +118,7 @@ Until that exists, the atlas should keep the material-to-institutional chain as 
 - [Urban WBNS lived-route layer](urban-wbns-snap-recertification-interruption-layer-v1.md)
 - [SNAP administrative-burden paper scan](snap-administrative-burden-paper-scan-v1.md)
 - [SIPP transition × following hardship](sipp-snap-transition-outcome-fay-brr-layer-v1.md)
+- [SIPP SNAP stable-state and child-care bridge](sipp-snap-stable-state-childcare-bridge-v1.md)
 - [SIPP transition reason × following hardship](sipp-snap-transition-reason-outcome-fay-brr-layer-v1.md)
 - [WBNS food-insecurity persistence layer](wbns-food-insecurity-persistence-layer-v1.md)
 - [WBNS charitable-food access layer](wbns-charitable-food-access-layer-v1.md)

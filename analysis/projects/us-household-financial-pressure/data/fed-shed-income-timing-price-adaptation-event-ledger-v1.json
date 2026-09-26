@@ -1,0 +1,44 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_descriptive_record",
+  "purpose": "Bounded Federal Reserve SHED record connecting income timing, outside help, price pressure, and household adaptation while keeping exact triggers, protected outcomes, and later room open.",
+  "events": [
+    {
+      "event_id": "FED-SHED-INCOME-TIMING-PRICE-ADAPTATION-2025",
+      "unit": "person",
+      "geography": "United States; Federal Reserve Survey of Household Economics and Decisionmaking 2025",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-12-01",
+      "date_precision": "2025 survey/reference year; no dated bill, price, employer, or policy episode is identified",
+      "denominator": "U.S. adults; question-specific samples and subgroup denominators vary across income, help, variability, and adaptation measures",
+      "method": "Structured extraction from the Federal Reserve's official 2025 SHED published household-finance tables and report",
+      "missingness": "Respondent identity across a dated episode, bill or price, receipt timing, liquid balance, debt terms, family-help amount, care obligations, schedule control, provider response, remedy, trust, switching, and exit are not retained",
+      "condition_or_decision": "income",
+      "exposure": "30% of adults reported income varying at least occasionally; 11% reported that variability made it difficult to pay bills; 23% reported outside help with a listed expense; 41% said money was left over always or often, falling to 19% below $25,000 family income and rising to 59% at $100,000 or more",
+      "alternatives_before_action": "Households reported or could use cheaper products, reduced use, delayed purchases, reduced saving, borrowing, working more, outside help, public assistance, or family support; the survey does not identify the feasible set for one episode",
+      "immediate_burden_or_benefit": "Price-response reports included switching to cheaper products (62%), using less or stopping use (60%), delaying a major purchase (46%), reducing saving (41%), borrowing more (16%), and working more or getting another job (17%); categories can overlap",
+      "choice_or_response": "Respondents reported combinations of switching, reducing use, delaying, saving less, borrowing, working more, and receiving help; these may represent smoothing, deprivation, preference, or mixed motives",
+      "person_or_actor_with_control": "Households make adaptations, while employers, pay schedules, prices, lenders, providers, family networks, and public programs shape the available room; the survey does not identify control in a specific case",
+      "remedy_or_institutional_response": "The published survey reports income, help, and adaptation conditions but does not link a provider, employer, lender, agency, or firm remedy to a particular respondent episode",
+      "immediate_outcome": "Financial pressure is converted into different combinations of visible spending, reduced consumption, delayed purchases, lower saving, borrowing, extra work, and outside help",
+      "protected_outcome": "Adaptations may protect current food, housing, health, or consumption, and outside help may prevent an immediate missed expense; the protected outcome is not identified for each respondent",
+      "sacrificed_outcome": "Households may sacrifice quality, savings, time, care, rest, health, future flexibility, or independence; the survey does not assign each sacrifice to a named person or adaptation",
+      "cost_risk_transfer": "A bill or price constraint can transfer risk into depleted savings, debt, additional labor, unpaid family support, lower-quality consumption, or delayed care; the source does not identify the full balance",
+      "later_outcome": "The survey does not follow a dated household episode to later cash room, repayment, health, housing, care, work, trust, switching, or exit",
+      "meaning_and_attribution": "The source measures financial condition and reported adaptation, not fairness, blame, dignity, institutional trust, or cultural meaning for the same episode",
+      "public_or_collective_response": "No respondent-linked complaint, organizing, policy demand, political action, or collective response is joined to the adaptation reports",
+      "counterexample": "Working more can protect current consumption while reducing care or rest; low paid spending can reflect inability to buy an alternative rather than low need; outside help can buffer a bill without creating durable room",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Federal Reserve 2025 SHED published estimates, https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-expenses.htm; descriptive self-reports, not a dated event study or causal estimate",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-expenses.htm"
+    }
+  ],
+  "arrows": [
+    {"arrow_id":"FED-SHED-ROOM-A-01","from":"income timing, price pressure, or limited budget margin","to":"difficulty paying bills or need for outside help","unit_held_constant":false,"time_order_valid":false,"evidence":"The SHED tables report income variability, bill difficulty attributed to variability, outside help, and income-patterned budget margin","status":"reported","counterexample":"Income variability can be absorbed by savings, benefits, credit, or flexible timing; outside help can be ordinary sharing rather than crisis relief","remaining_gap":"Dated bill, amount, receipt timing, liquid buffer, and household-specific mechanism"},
+    {"arrow_id":"FED-SHED-ROOM-A-02","from":"price pressure or limited room","to":"switching, reduced use, delay, lower saving, borrowing, or working more","unit_held_constant":false,"time_order_valid":false,"evidence":"The official 2025 SHED report publishes each of these price-response categories","status":"reported","counterexample":"Categories overlap and do not reveal whether an adaptation was strategic smoothing, deprivation, or preference","remaining_gap":"Specific trigger, feasible alternative, effort/time cost, and adaptation order"},
+    {"arrow_id":"FED-SHED-ROOM-A-03","from":"adaptation or outside help","to":"protected consumption or immediate bill payment","unit_held_constant":false,"time_order_valid":false,"evidence":"The survey measures adaptation and help receipt but does not link either to a named protected expense or successful payment","status":"reported","counterexample":"Borrowing or working more can preserve current consumption while moving cost into debt, care, health, or future time","remaining_gap":"Payment completion, amount, quality, time, debt, care, and protected/sacrificed outcome"},
+    {"arrow_id":"FED-SHED-ROOM-A-04","from":"adaptation and outside help","to":"restored financial room, later security, trust, switching, or exit","unit_held_constant":false,"time_order_valid":false,"evidence":"The published cross-sectional SHED layer does not follow a dated episode to later room, repayment, trust, or exit","status":"open","counterexample":"A household can report a current surplus while lacking the room to absorb a health, care, housing, or provider shock","remaining_gap":"Same-unit dated follow-up with amount, adequacy, repayment, later security, attribution, trust, switching, and exit"}
+  ],
+  "boundary": "This ledger formalizes household financial room as a set of distinct buffers and adaptations. It does not establish a dated causal shock, a household recovery rate, or whether any adaptation protected long-term security.",
+  "storage_boundary": "No SHED microdata or respondent identifiers are retained; only compact official published estimates and explicit open downstream arrows are represented."
+}

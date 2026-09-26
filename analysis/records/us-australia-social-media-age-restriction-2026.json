@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-australia-social-media-age-restriction-2026",
+  "title": "Large platform account actions can coexist with substantial residual access under an age restriction",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Australian eSafety Commissioner March 2026 Social Media Minimum Age Compliance Update, January 2026 implementation release, and March 2026 compliance-concerns release; platform responses, regulator monitoring, and pulse survey are kept separate",
+  "geography": "Australia; children aged under 16, parents/carers, age-restricted platforms, and the eSafety regulator; comparative evidence for U.S.-centered platform-governance analysis",
+  "observations": [
+    {
+      "period": "December 10, 2025 through March 2026 implementation and early compliance monitoring",
+      "denominator": {
+        "value": null,
+        "unit": "platform-reported age-restricted accounts, plus 898 parent/carer pulse-survey respondents and platform-specific parent-reported account universes",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "accounts_removed_or_restricted": {
+          "value": 4700000,
+          "unit": "age-restricted accounts as at mid-December 2025",
+          "value_type": "platform_reported_aggregate"
+        },
+        "additional_accounts_prevented": {
+          "value": ">300000",
+          "unit": "additional accounts prevented from sign-in by start of March 2026",
+          "value_type": "platform_reported_aggregate"
+        },
+        "parent_reported_account_ownership_before": {
+          "value": 49.7,
+          "unit": "percent of 898 parent/carer respondents reporting a child aged 8-15 had an account on at least one measured platform before the restriction",
+          "value_type": "pulse_survey_share"
+        },
+        "parent_reported_account_ownership_after": {
+          "value": 31.3,
+          "unit": "percent of the same pulse-survey respondent universe reporting account ownership after implementation",
+          "value_type": "pulse_survey_share"
+        },
+        "retained_account_by_platform": {
+          "value": "Facebook 63.6%, Instagram 69.1%, Snapchat 69.4%, TikTok 69.3%, YouTube 48.5%",
+          "unit": "percent of parents reporting a pre-existing account on each platform who reported it remained",
+          "value_type": "platform_specific_pulse_comparison"
+        },
+        "retention_reason_not_asked_to_verify": {
+          "value": 66.8,
+          "unit": "percent of parents reporting a retained account who selected that the platform had not yet asked the child to verify age",
+          "value_type": "pulse_survey_share"
+        },
+        "platforms_flagged_for_compliance_concerns": {
+          "value": 5,
+          "unit": "Facebook, Instagram, Snapchat, TikTok, and YouTube",
+          "value_type": "regulatory_action_cohort"
+        }
+      },
+      "method": "Descriptive synthesis of official eSafety platform-provided figures, regulator monitoring and testing, and a pulse survey of 898 parents/carers; account counts, reported family experience, and regulatory concerns are not pooled into one compliance rate.",
+      "uncertainty": "Account totals are not unique children or successful age-verification rates. The parent pulse is not a representative child panel or platform telemetry and before/after reports may reflect recall, selection, or platform-specific differences. eSafety states that actioned-account counts alone do not establish compliance and that longer-term impact requires longitudinal evaluation.",
+      "subgroup": "Australian children aged 8-15, parents/carers, platform-specific account users, age-assurance providers, and five platforms flagged by eSafety; platform-specific denominators differ.",
+      "counterinterpretation": "A reduction in reported account ownership may still represent meaningful exposure reduction even if some accounts remain. Retained accounts may reflect legitimate age, successful correction, uncompleted verification, multiple-account structure, or platform-specific process differences. Platform action can improve while broader safety or wellbeing effects remain unknown.",
+      "source_url": "https://www.esafety.gov.au/sites/default/files/2026-03/SocialMediaMinimumAgeComplianceUpdateMarch2026.pdf",
+      "retrieval_hash": "sha256:efef4cd45746337643d99a2edc77c638565a9de8f0343e94697c58e092c024e8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
+      "claim": "eSafety's current regulatory page describes the age-restricted-platform obligation and links the March 2026 implementation update.",
+      "status": "official-regulatory-context"
+    },
+    {
+      "source_url": "https://www.oaic.gov.au/privacy/your-privacy-rights/social-media-minimum-age",
+      "claim": "The Australian privacy regulator supplies a separate age-assurance and privacy-governance context; it does not establish account action or safety outcomes.",
+      "status": "official-privacy-context"
+    }
+  ],
+  "boundary": "This comparative record adds a policy-to-platform-action-to-residual-access pathway. It does not establish a U.S. effect, unique-child exposure, successful age assurance, privacy cost, false-positive appeal, migration, child safety, wellbeing, trust, or durable cultural change. Account action, family report, regulator concern, and verified individual outcome remain separate stages. The retrieval hash covers the committed official-source extract linked in the project notes."
+}

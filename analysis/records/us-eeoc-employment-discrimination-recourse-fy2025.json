@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eeoc-employment-discrimination-recourse-fy2025",
+  "title": "Employment-discrimination enforcement can show relief without proving durable workplace change",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Equal Employment Opportunity Commission FY 2025 Agency Performance Report",
+  "geography": "United States employment-discrimination enforcement system",
+  "observations": [
+    {
+      "period": "Fiscal year 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "EEOC-reported inquiries, charges, resolutions, and systemic investigations",
+        "value_type": "source_defined_administrative_universe"
+      },
+      "measures": {
+        "field_office_inquiries": {"value": 269755, "unit": "inquiries", "value_type": "reported_total"},
+        "new_charges": {"value": 88201, "unit": "charges", "value_type": "reported_total"},
+        "charges_resolved": {"value": 90743, "unit": "charges", "value_type": "reported_total"},
+        "pending_charges_end_year": {"value": 49807, "unit": "charges", "value_type": "reported_inventory"},
+        "prelitigation_monetary_relief": {"value": 528, "unit": "million US dollars; more than", "value_type": "reported_total"},
+        "conciliation_agreements_with_targeted_equitable_relief": {"value": 99, "unit": "percent", "value_type": "reported_share"},
+        "systemic_investigations_resolved": {"value": 444, "unit": "investigations", "value_type": "reported_total"},
+        "systemic_workers_with_monetary_benefits": {"value": 1823, "unit": "workers", "value_type": "reported_total"},
+        "systemic_monetary_benefits": {"value": 55, "unit": "million US dollars; more than", "value_type": "reported_total"}
+      },
+      "method": "Review of EEOC FY 2025 Agency Performance Report and enforcement-performance measures, preserving inquiry, charge, resolution, relief, and systemic-investigation stages as separate administrative outputs.",
+      "uncertainty": "Administrative categories have different universes and timing; reported relief is not necessarily received at the same time as resolution; totals and percentages do not establish individual adequacy or later workplace status.",
+      "subgroup": "Individuals, charging parties, employers, private-sector charges, federal-sector and systemic enforcement activities within EEOC reporting boundaries.",
+      "counterinterpretation": "Higher resolutions can reflect capacity, settlement timing, case mix, or backlog management rather than lower discrimination; high equitable-relief shares can coexist with weak monitoring or later noncompliance.",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-04/EEOC_APR_FY2025_APP_FY2027_508.pdf",
+      "retrieval_hash": "sha256:4bf6dc9581d06151eaf5e742596cd91fdb0b911bc9a8ea054edf831190685361",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+      "claim": "EEOC publishes charge and litigation tables by statute, basis, state, and resolution type through FY 2025.",
+      "status": "official-data-context"
+    },
+    {
+      "source_url": "https://www.eeoc.gov/fiscal-year-2025-agency-financial-report",
+      "claim": "EEOC's FY 2025 financial report describes agency performance measures and management controls.",
+      "status": "official-method-context"
+    }
+  ],
+  "boundary": "This record measures EEOC administrative demand, throughput, and reported relief. It does not establish discrimination prevalence, individual receipt or adequacy of relief, employer compliance, continued employment, retaliation, workplace safety, trust, or durable recovery.",
+  "retrieval_hash": "sha256:4bf6dc9581d06151eaf5e742596cd91fdb0b911bc9a8ea054edf831190685361"
+}

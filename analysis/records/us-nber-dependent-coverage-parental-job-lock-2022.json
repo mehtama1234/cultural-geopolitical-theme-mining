@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-dependent-coverage-parental-job-lock-2022",
+  "title": "Dependent health coverage can keep parents in jobs",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["care_health_reproduction", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "time_hidden_price"],
+  "source_unit": "NBER Working Paper 30200; employer-based insurance claims linked to a proxy for parental job retention, using an Affordable Care Act eligibility discontinuity",
+  "geography": "United States parents, dependents, employers, and employer-sponsored insurance; Affordable Care Act dependent-eligibility change",
+  "observations": [{
+    "period": "U.S. employer-sponsored dependent coverage and parental job retention; 2022 paper",
+    "denominator": {"value": 1, "unit": "U.S. employer-insurance claims panel and parental job-retention study", "value_type": "study_unit"},
+    "measures": {
+      "dependent_take_up": {"value": "additional dependent-insurance eligibility increased dependent take-up", "unit": "dependent enrollment", "value_type": "reported_effect"},
+      "parental_job_retention": {"value": "additional dependent-insurance eligibility increased parental job retention", "unit": "parental labor-market retention proxy", "value_type": "reported_effect"},
+      "effect_heterogeneity": {"value": "the job-lock effect was strongest among parents more likely to be near a job exit, families placing higher value on dependent coverage, and employees of firms offering a broader range of insurance options", "unit": "reported subgroup pattern", "value_type": "reported_subgroup_effect"},
+      "identification": {"value": "the study exploits a sharp birth-month change in the duration of dependent eligibility under the Affordable Care Act", "unit": "regression-discontinuity design", "value_type": "reported_method"}
+    },
+    "method": "The authors analyze a large panel of employer-based insurance claims linking dependent enrollment to a proxy for parental job retention and use a regression-discontinuity design based on a sharp change in dependent-eligibility duration by birth month under the Affordable Care Act.",
+    "uncertainty": "The public abstract does not follow the same family's full plan terms, premiums, network, deductible, care use, wages, job quality, training, later mobility, or household welfare. The retention measure does not establish whether staying was desired, harmful, or the best available choice.",
+    "subgroup": "Parents and dependents in employer-sponsored insurance, with stronger estimated effects among parents near a job-exit margin, families valuing dependent coverage more, and employees of firms offering more insurance options; the abstract does not establish equal effects by income, race, disability, health condition, or state.",
+    "counterinterpretation": "Job retention can reflect valued coverage and a deliberate choice rather than coercive lock. The result is specific to dependent eligibility and the ACA design; it does not show that portable coverage would change every job decision, or that a retained job had worse pay, safety, schedule, or quality.",
+    "source_url": "https://www.nber.org/papers/w30200",
+    "retrieval_hash": "sha256:4f05f138cc64507327e4e4f5614bd09f64f970454d3cefbdc394a3821b54b03a",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w30200", "claim": "NBER DOI record for Working Paper 30200", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a coverage-to-job-retention finding: dependent insurance can influence a parent's labor-market decision. It does not establish full job lock, current household welfare, treatment continuity, portability effects, or the quality of the job retained."
+}

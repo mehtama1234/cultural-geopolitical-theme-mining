@@ -1,7 +1,7 @@
 {
   "format": "us-trend-observation-record-v1",
   "trend_id": "us-htops-expense-difficulty-cross-lagged-2025",
-  "title": "Baseline expense difficulty predicts a later material-pressure gradient without a clean confidence shift",
+  "title": "Baseline expense difficulty carries a later material-pressure gradient without one universal confidence shift",
   "theme_ids": ["cost", "voice", "work"],
   "program_theme_ids": [
     "household_room_consumption",
@@ -28,12 +28,24 @@
         "later_job_loss_expense_difficult": {"value": 11.7, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.16, "unweighted_valid_n": 2582},
         "later_job_loss_expense_not_difficult": {"value": 2.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 0.36, "unweighted_valid_n": 3960},
         "later_high_confidence_in_congress_expense_difficult": {"value": 17.2, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.38, "unweighted_valid_n": 2574},
-        "later_high_confidence_in_congress_expense_not_difficult": {"value": 16.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.03, "unweighted_valid_n": 3952}
+        "later_high_confidence_in_congress_expense_not_difficult": {"value": 16.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.03, "unweighted_valid_n": 3952},
+        "later_high_confidence_in_presidency_expense_difficult": {"value": 24.3, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.69, "unweighted_valid_n": 2582},
+        "later_high_confidence_in_presidency_expense_not_difficult": {"value": 30.8, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.31, "unweighted_valid_n": 3955},
+        "later_high_confidence_in_military_expense_difficult": {"value": 57.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.87, "unweighted_valid_n": 2580},
+        "later_high_confidence_in_military_expense_not_difficult": {"value": 71.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.38, "unweighted_valid_n": 3958},
+        "later_high_confidence_in_police_expense_difficult": {"value": 44.6, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.94, "unweighted_valid_n": 2581},
+        "later_high_confidence_in_police_expense_not_difficult": {"value": 62.9, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.42, "unweighted_valid_n": 3953},
+        "later_high_confidence_in_supreme_court_expense_difficult": {"value": 29.2, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.84, "unweighted_valid_n": 2579},
+        "later_high_confidence_in_supreme_court_expense_not_difficult": {"value": 38.3, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.35, "unweighted_valid_n": 3955},
+        "later_high_confidence_in_public_schools_expense_difficult": {"value": 42.8, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.76, "unweighted_valid_n": 2581},
+        "later_high_confidence_in_public_schools_expense_not_difficult": {"value": 52.0, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.52, "unweighted_valid_n": 3957},
+        "later_high_confidence_in_statistical_agencies_expense_difficult": {"value": 57.7, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 2.23, "unweighted_valid_n": 2576},
+        "later_high_confidence_in_statistical_agencies_expense_not_difficult": {"value": 69.6, "unit": "percent; April PWEIGHT weighted share", "value_type": "cross_lagged_share", "standard_error": 1.25, "unweighted_valid_n": 3954}
       },
       "method": "Exact SCRAMID intersection of April and June HTOPS public-use files; baseline PWEIGHT and 80 April replicate weights retained for the descriptive cross-lagged cells.",
       "uncertainty": "April weights and replicate weights are not documented as attrition-adjusted longitudinal weights. Expense difficulty is self-reported, follow-up outcomes are descriptive, item universes differ, and no causal effect or national transition estimate is claimed.",
-      "subgroup": "Linked respondents classified by April usual-expense difficulty; later June food, energy, job-loss, and Congress-confidence outcomes use their own valid universes.",
-      "counterinterpretation": "Baseline expense difficulty may proxy prior income, health, housing, debt, family, or other shocks. Later hardship can reflect intervening events, and the near-equal Congress-confidence shares do not identify attribution, trust change, or political action.",
+      "subgroup": "Linked respondents classified by April usual-expense difficulty; later June food, energy, job-loss, and institution-specific confidence outcomes use their own valid universes.",
+      "counterinterpretation": "Baseline expense difficulty may proxy prior income, health, housing, debt, family, or other shocks. Later hardship can reflect intervening events, and the selective confidence profile does not identify attribution, trust change, or political action.",
       "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html",
       "retrieval_hash": "baseline_puf:sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93; followup_puf:sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
       "status": "compared"
@@ -48,6 +60,6 @@
     "retrieval_hash_scope": "Retained HTOPS cross-lagged audit and its April/June public-use file hashes; no new raw files downloaded in this pass",
     "baseline_puf_sha256": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
     "followup_puf_sha256": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2",
-    "checked": "2026-09-18"
+    "checked": "2026-09-19"
   }
 }

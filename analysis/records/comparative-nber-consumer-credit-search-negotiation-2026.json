@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-consumer-credit-search-negotiation-2026",
+  "title": "Better information about loan prices can change search, negotiation, and borrowing decisions",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35605, randomized consumer-credit trial conducted with Chile's financial regulator using administrative loan data",
+  "geography": "Chile consumer-credit market; 112,063 loan seekers in the regulator-linked randomized trial",
+  "observations": [
+    {
+      "period": "Randomized trial of loan seekers and price-comparison information in the Chilean consumer-credit market",
+      "denominator": {
+        "value": 112063,
+        "unit": "Loan seekers in the randomized trial",
+        "value_type": "reported_trial_sample"
+      },
+      "measures": {
+        "initial_beliefs": {
+          "value": "most participants underestimated both interest-rate levels and the dispersion of rates",
+          "unit": "reported belief pattern",
+          "value_type": "reported_pattern"
+        },
+        "belief_elicitation": {
+          "value": "randomly eliciting beliefs led participants to search more and obtain lower interest rates",
+          "unit": "reported randomized-treatment effect",
+          "value_type": "reported_effect"
+        },
+        "comparison_tool": {
+          "value": "a price-comparison tool built from administrative data updated beliefs, increased negotiation, and produced lower rates without increasing search, while making participants more likely to take out a loan",
+          "unit": "reported randomized-treatment effect",
+          "value_type": "reported_effect"
+        },
+        "later_financial_security": {
+          "value": "not observed in the public abstract",
+          "unit": "missing repayment, delinquency, refinancing, total interest, consumption, and household-security outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Randomized controlled trial with 112,063 loan seekers, conducted with Chile's financial regulator; treatments elicited beliefs or showed a price-comparison tool using administrative data on the universe of consumer loans.",
+      "uncertainty": "The public abstract does not disclose treatment effect sizes, the exact credit products, follow-up horizon, or the complete borrower composition. Lower rates and higher loan take-up can be beneficial or risky depending on repayment capacity, loan purpose, fees, and later delinquency.",
+      "subgroup": "Chilean consumer-credit loan seekers; the abstract does not provide a complete breakdown by income, prior debt, age, gender, credit history, or financial distress.",
+      "counterinterpretation": "Better information may improve bargaining while also encouraging additional borrowing. Search and negotiation behavior may not survive outside the trial, and lower interest rates do not guarantee lower total cost if maturity, fees, or loan size change.",
+      "source_url": "https://www.nber.org/papers/w35605",
+      "retrieval_hash": "sha256:0f7e5d7d68ee9985539e25a7c949c7691d72c1a2e5482075a5a39615043d9840",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record measures belief updating, search, negotiation, interest rates, and loan take-up in Chile. It does not establish a U.S. effect, lower total borrowing cost, improved repayment, or better household financial security."
+}

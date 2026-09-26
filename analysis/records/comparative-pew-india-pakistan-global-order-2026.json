@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-india-pakistan-global-order-2026",
+  "title": "Rival publics assign threat and alliance roles differently across the same global order",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center Spring 2026 Global Attitudes Survey; India, Pakistan, Bangladesh, and Sri Lanka comparative samples",
+  "geography": "South Asia, with detailed India-Pakistan comparison",
+  "observations": [
+    {
+      "period": "India fieldwork February 8-April 27, 2026; Pakistan fieldwork April 8-May 7, 2026; report August 13, 2026",
+      "denominator": {
+        "value": 3566,
+        "unit": "Indian adults surveyed; separate samples include 1039 Pakistani, 1044 Bangladeshi, and 2513 Sri Lankan adults",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "bilateral_unfavorable_views": {
+          "value": "78% of Indians view Pakistan unfavorably; roughly 90% of Pakistanis view India unfavorably, including 73% very unfavorable",
+          "unit": "percent of adults by country",
+          "value_type": "published_group_comparison"
+        },
+        "greatest_threat": {
+          "value": "54% of Indians name Pakistan as greatest threat; 43% of Pakistanis name India; 21% of Indians name China, while 24% of Pakistanis name Israel and 24% name the U.S. as next-greatest threats",
+          "unit": "percent naming country as greatest or next-greatest geopolitical threat",
+          "value_type": "published_group_comparison"
+        },
+        "most_important_ally": {
+          "value": "75% of Pakistanis name China as their most important ally; 36% of Indians name Russia and 16% name the U.S.",
+          "unit": "percent naming country as most important ally",
+          "value_type": "published_group_comparison"
+        },
+        "within_india_difference": {
+          "value": "34% of Indian Muslims versus 57% of Hindus name Pakistan as India's greatest threat; 21% of Indian Muslims versus 6% of Hindus view Pakistan favorably",
+          "unit": "percent within Indian religious groups",
+          "value_type": "published_subgroup_comparison"
+        }
+      },
+      "method": "Face-to-face nationally designed surveys asking bilateral favorability, perceived threat, important ally, commitment to good relations, and views of major powers and leaders.",
+      "uncertainty": "The surveys are cross-sectional and field periods differed across countries. Threat and ally labels are perceptions, not measures of military capability, dependence, treaty reliability, or actual diplomatic behavior.",
+      "subgroup": "Adults in India, Pakistan, Bangladesh, and Sri Lanka; India results are also separated by religion, and the source reports country-specific views of the U.S., China, and Russia.",
+      "counterinterpretation": "Public threat judgments may reflect recent conflict, national identity, media environments, or survey timing rather than stable alliance preferences. Favorable views of a power do not establish policy alignment or material dependence.",
+      "source_url": "https://www.pewresearch.org/global/2026/08/13/india-and-pakistan-rivals-with-divergent-views-of-the-global-order/",
+      "retrieval_hash": "sha256:073eafac1e6f9883b205b00d78afad8bf04b10e00d605beef35fa416c9fa7cc6",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a comparative geopolitical-public-opinion layer. It does not infer alliance behavior, strategic dependence, military balance, or causal effects from perceived threat and partner rankings.",
+  "retrieval_hash": "sha256:073eafac1e6f9883b205b00d78afad8bf04b10e00d605beef35fa416c9fa7cc6"
+}

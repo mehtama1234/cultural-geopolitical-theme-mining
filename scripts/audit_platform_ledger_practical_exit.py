@@ -69,7 +69,7 @@ def main() -> int:
     result = {
         "format": "practical-exit-platform-ledger-dry-run-v1",
         "status": "coverage_audit_only",
-        "checked": "2026-09-16",
+        "checked": "2026-09-20",
         "source_ledger": str(args.ledger.relative_to(root)),
         "contract": "practical-exit-observation-contract-v1",
         "source_record_count": len(audits),

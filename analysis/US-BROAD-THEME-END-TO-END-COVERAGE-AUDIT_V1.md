@@ -1,6 +1,6 @@
 # US broad theme end-to-end coverage audit v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-24
 **Status:** program-control audit; not a new trend estimate  
 **Input:** [US broad theme coverage matrix](US-BROAD-THEME-COVERAGE-MATRIX_V1.md)
 
@@ -23,20 +23,20 @@ end-to-end completion.
 
 | Theme | Current matrix status | Evidence anchors | Explicit open status |
 |---|---|---:|---|
-| Household room and consumption | Compared / Reported | 14 | No |
+| Household room and consumption | Compared / Reported | 15 | No |
 | Time as a hidden price | Reported / Compared | 10 | No |
-| Consumer power and recourse | Compared / Reported / Open | 18 | Yes |
-| Platforms, data, and attention | Reported / Compared / Inferred | 10 | No |
-| Work, control, and bargaining | Compared / Reported | 15 | No |
-| Care, health, and social reproduction | Reported / Compared | 14 | No |
+| Consumer power and recourse | Compared / Reported / Open | 21 | Yes |
+| Platforms, data, and attention | Reported / Compared / Inferred | 11 | No |
+| Work, control, and bargaining | Compared / Reported | 18 | No |
+| Care, health, and social reproduction | Reported / Compared | 15 | No |
 | Housing, place, and mobility | Compared / Reported | 15 | No |
 | Unequal exposure and status | Compared / Open | 15 | Yes |
-| Trust, identity, and cultural meaning | Reported / Compared / Open | 13 | Yes |
+| Trust, identity, and cultural meaning | Reported / Compared / Open | 17 | Yes |
 | Public systems and policy feedback | Compared / Reported | 14 | No |
 | Political judgment and collective action | Compared / Open | 14 | Yes |
 | Firm, sector, and market power | Reported / Compared / Inferred | 16 | No |
 | Infrastructure, technology, and dependency | Reported / Compared / Inferred | 9 | No |
-| Geopolitical and state consequences | Reported / Compared / Open | 11 | Yes |
+| Geopolitical and state consequences | Reported / Compared / Open | 12 | Yes |
 
 “Evidence anchors” counts the linked Markdown anchors in each matrix row. It
 is a breadth indicator, not a quality score, sample size, or causal-strength
@@ -58,11 +58,42 @@ The audit makes five program-wide facts operational:
 4. **Inference is concentrated in platform, firm, infrastructure, and market
    interpretation.** Three themes contain `Inferred` status tokens, so the
    mechanism must be stated as a hypothesis rather than a measured result.
-5. **The open downstream chain is broader than the four explicit Open rows.**
+5. **The open downstream chain is broader than the five explicit Open rows.**
    The next-test field in every row names an unresolved link. The recurring
    missing stages are dated exposure, alternatives, control, remedy or
    recovery, attribution, trust, political action, replaceability, and
    external response.
+
+6. **Recovery has two clocks.** Across themes, formal response should be
+   coded separately from lived status:
+
+   ```text
+   formal: offered / ordered / approved / reported delivered
+   lived: received / usable / adequate / durable / trusted
+   ```
+
+   This applies equally to a consumer refund, public benefit, worker remedy,
+   medical correction, infrastructure award, or strategic supply project. A
+   formal endpoint is not an end-to-end endpoint unless the affected unit can
+   use, sustain, or replace what was provided.
+
+   The latest worker and product cases make the durability stage more
+   concrete without closing it: Cartisano reports payment without practical
+   return, Aitken reports return followed by later dismissal, and Sauna360
+   reports a first repair later described as ineffective. These are observed
+   durability or rupture signals at case/product level, not a durable-recovery
+   rate; later livelihood, safe use, household security, trust, and exit still
+   require unit-level follow-up.
+
+   The retained same-case stage audit makes the bottleneck measurable: across
+   34 local source surfaces, 30 show a dated event and 30 show an institutional
+   or firm response, but only 8 show an observed alternative or non-use stage,
+   3 show an observed individual remedy or defined outcome follow-up, 1 shows
+   an observed meaning/trust/action stage, and none has a fully observed
+   recovery/persistence/exit stage. These are stage-availability counts, not
+   failure rates; they explain why another exposure or aggregate response
+   count would add less end-to-end value than one lawful episode with a stable
+   identifier and later follow-up.
 
 ## Priority order for the next broad passes
 
@@ -93,7 +124,7 @@ python3 scripts/audit_broad_theme_end_to_end_coverage.py \
 ```
 
 The current input SHA-256 is
-`77394dfe5fc7246881aa9429421939ac78d13ad0b4c6d772955b813140bd2bd4`.
+`b65d76bdd750ebe0fdcbbaa218e7e40b1789666b2bc17431568ee2c72e9e22fa`.
 The row-level machine-readable output is [the coverage audit JSON](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json).
 
 This is a control artifact. It should be rerun whenever the theme matrix

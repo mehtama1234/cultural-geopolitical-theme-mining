@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-reuters-digital-news-report-2026-platform-attention-trust-action",
+  "title": "Platform-mediated news is becoming the default encounter while attention, trust, and civic interpretation fragment",
+  "theme_ids": ["voice", "time", "cost", "work"],
+  "program_theme_ids": ["platforms_data_attention", "political_judgment_action", "trust_identity_meaning", "public_systems_feedback", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "Reuters Institute for the Study of Journalism, Digital News Report 2026",
+  "geography": "48 international news markets, with age, platform, political, and trust comparisons",
+  "observations": [
+    {
+      "period": "2026; platform-mediated news discovery",
+      "denominator": {"value": 48, "unit": "international news markets in the Digital News Report survey", "value_type": "multi_market_survey_frame"},
+      "measures": {
+        "platform_news_use": {"value": 54, "unit": "percent of respondents using social media and video networks for news", "value_type": "reported_share"},
+        "owned_news_use": {"value": 51, "unit": "percent using news organisations' own websites and apps for news", "value_type": "reported_share"},
+        "main_source": {"value": 30, "unit": "percent identifying social media and video networks as their main source of news", "value_type": "reported_share"}
+      },
+      "method": "Reuters Institute Digital News Report 2026, based on a YouGov survey of almost 100,000 respondents across 48 markets.",
+      "uncertainty": "Cross-market survey estimates describe reported news behavior and attitudes, not passive exposure, algorithmic causality, or actual political action; market samples and online survey modes affect comparability.",
+      "subgroup": "News users by age, market, political leaning, platform, education, and degree of interest in news.",
+      "counterinterpretation": "Platform use can still deliver journalism from established providers and may broaden access even when it weakens direct publisher relationships.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary",
+      "retrieval_hash": "sha256:928bf75d640fc58a6bca9112ad1f4d59f430e75dfcce573bb4b945de2ada05e2",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2026; incidental and passive news exposure",
+      "denominator": {"value": 1, "unit": "respondents in the Digital News Report longitudinal comparison", "value_type": "survey_comparison_frame"},
+      "measures": {
+        "platform_only_news": {"value": 12, "unit": "percent using only social media and video networks for news in 2026", "value_type": "reported_share"},
+        "platform_only_change": {"value": 6, "unit": "percent using only social media and video networks for news in 2020", "value_type": "reported_baseline"},
+        "casual_users": {"value": 25, "unit": "percent described as casual or passive news users in 2026, up from 16 percent in 2021", "value_type": "reported_share"}
+      },
+      "method": "Reuters Institute repeated cross-market survey questions on news interest, frequency, and source mix.",
+      "uncertainty": "Self-reported frequency and source use do not reveal whether low-intent encounters change beliefs, discussion, voting, protest, or other behavior.",
+      "subgroup": "Casual users, people encountering news while doing other online activities, younger audiences, and people disengaging from direct news sources.",
+      "counterinterpretation": "Passive encounter may still expose people to important information and can sometimes prompt later search, discussion, or action.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary",
+      "retrieval_hash": "sha256:928bf75d640fc58a6bca9112ad1f4d59f430e75dfcce573bb4b945de2ada05e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; trust, misinformation concern, and platform reliance",
+      "denominator": {"value": 48, "unit": "international news markets reporting trust and misinformation attitudes", "value_type": "trust_comparison_frame"},
+      "measures": {
+        "overall_trust": {"value": 37, "unit": "percent saying they trust news most of the time", "value_type": "reported_share"},
+        "social_news_trust": {"value": 22, "unit": "percent saying they trust news on social media most of the time", "value_type": "reported_share"},
+        "ai_news_trust": {"value": 20, "unit": "percent saying they trust news from AI chatbots most of the time", "value_type": "reported_share"},
+        "fake_news_concern": {"value": 62, "unit": "percent concerned about fake or misleading news online", "value_type": "reported_share"}
+      },
+      "method": "Reuters Institute survey measures of trust in news overall and by source, plus concern about online misinformation.",
+      "uncertainty": "Trust and concern are subjective evaluations; they may reflect political identity, institutional conditions, media content, or broader social anxiety rather than source accuracy alone.",
+      "subgroup": "Users of social media, video networks, AI chatbots, traditional news, and groups divided by political leaning and market context.",
+      "counterinterpretation": "Low trust can reflect healthy skepticism; high trust does not prove accurate understanding or protection from manipulation.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary",
+      "retrieval_hash": "sha256:928bf75d640fc58a6bca9112ad1f4d59f430e75dfcce573bb4b945de2ada05e2",
+      "status": "reported"
+    },
+    {
+      "period": "2026; generational platform and AI-news transition",
+      "denominator": {"value": 1, "unit": "respondents aged 18-24 and wider age groups in the multi-market survey", "value_type": "age_platform_frame"},
+      "measures": {
+        "young_main_source": {"value": 52, "unit": "percent of 18-24-year-olds whose main news route is social media, video networks, or AI chatbots", "value_type": "reported_share"},
+        "ai_weekly_news": {"value": 10, "unit": "percent using AI chatbots for news weekly in 2026, up from 7 percent year-on-year", "value_type": "reported_share"},
+        "online_video_news": {"value": 77, "unit": "percent consuming online news video", "value_type": "reported_share"}
+      },
+      "method": "Reuters Institute age-stratified survey comparisons of news sources, AI use, and online video consumption.",
+      "uncertainty": "Age differences do not identify life-cycle versus cohort effects, and reported source preference does not establish exposure quality, political learning, or collective action.",
+      "subgroup": "Gen Z and younger adults, millennials, older audiences, video users, AI-chatbot users, and people relying on direct publisher products.",
+      "counterinterpretation": "Younger audiences may use multiple sources opportunistically; platform-first discovery does not imply rejection of professional journalism or stable ideological effects.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/dnr-executive-summary",
+      "retrieval_hash": "sha256:928bf75d640fc58a6bca9112ad1f4d59f430e75dfcce573bb4b945de2ada05e2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026", "claim": "Reuters Institute Digital News Report 2026 landing page and chapter structure for global news-consumption trends."},
+    {"source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/emerging-uses-ai-chatbots-news-and-what-it-means-for-journalism", "claim": "Companion analysis of emerging AI-chatbot use for news and implications for journalism."}
+  ],
+  "boundary": "This record adds a platform-mediated encounter-to-trust-and-attention route. It is not passive behavioral telemetry, an algorithmic causal study, an individual political-action panel, or a claim that news exposure caused voting, protest, polarization, or belief change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Reuters Institute 2026 executive summary and report landing page were reviewed; platform use, passive exposure, trust, misinformation concern, age differences, AI use, and video-news claims were cross-checked.",
+    "source_url_sha256": "sha256:928bf75d640fc58a6bca9112ad1f4d59f430e75dfcce573bb4b945de2ada05e2",
+    "checked": "2026-09-26"
+  }
+}

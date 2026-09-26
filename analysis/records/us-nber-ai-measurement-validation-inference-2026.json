@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-measurement-validation-inference-2026",
+  "title": "AI makes measurement scalable while moving the bottleneck to construct definition and validation",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "platforms_data_attention"
+  ],
+  "source_unit": "NBER Working Paper 35744, a methodological review of AI-generated variables and credible inference",
+  "geography": "Economics research and AI-enabled measurement; general methodological evidence with implications for U.S. public, firm, and institutional measurement",
+  "observations": [
+    {
+      "period": "Paper issued September 14, 2026; methodological review",
+      "denominator": {
+        "value": null,
+        "unit": "AI-generated measurement pipelines and validation settings; exact study count is not disclosed in the abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "scalable_measurement": {
+          "value": "expanded",
+          "unit": "feasibility of converting unstructured text and images into structured variables at low cost",
+          "value_type": "reported_methodological_claim"
+        },
+        "measurement_bottleneck": {
+          "value": "shifted",
+          "unit": "from finding any scalable measure toward choosing among plausible measures that can support different conclusions",
+          "value_type": "reported_methodological_claim"
+        },
+        "pipeline_stages": {
+          "value": "three",
+          "unit": "discovery, construct definition, and observation stages where AI enters measurement",
+          "value_type": "reported_framework"
+        },
+        "validation_requirement": {
+          "value": "explicit criteria and designed validation",
+          "unit": "credible inference from AI-generated variables",
+          "value_type": "reported_methodological_requirement"
+        },
+        "institutional_boundary": {
+          "value": "measurement scale can increase while interpretive and legitimacy risk also increases",
+          "unit": "measurement-to-inference governance distinction",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "Methodological review distinguishing discovery, construct definition, observation, validation samples, biased prediction, and settings without a random validation sample.",
+      "uncertainty": "This is a methodological review rather than a population estimate or causal evaluation of a specific AI system. The abstract does not disclose a systematic-review corpus count, and the framework does not by itself establish how a particular agency, firm, or public will implement validation.",
+      "subgroup": "Researchers, public agencies, firms, platforms, and communities whose classification, eligibility, risk, or performance may be represented through AI-generated variables; affected populations may experience consequences without seeing the construct or validation criteria.",
+      "counterinterpretation": "Lower-cost measurement can improve visibility and enable measurement of previously inaccessible phenomena. Disagreement among plausible proxies may reflect legitimate multidimensionality rather than error, and explicit validation cannot eliminate all normative choices about what should be measured.",
+      "source_url": "https://www.nber.org/papers/w35744",
+      "retrieval_hash": "sha256:04449ef4eb4edfaedcd4a85ff3ef3bf3b3d323aac40e9b25769b264b9cd36b42",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35744",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a methodological trend: AI can lower the cost of producing structured measures while increasing the importance of construct definition, validation, and interpretive governance. It does not establish accuracy, bias, discrimination, trust, policy effects, or outcomes for any particular U.S. population or institution."
+}

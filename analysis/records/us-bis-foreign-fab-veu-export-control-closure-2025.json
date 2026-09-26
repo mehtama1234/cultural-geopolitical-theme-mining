@@ -1,0 +1,130 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-foreign-fab-veu-export-control-closure-2025",
+  "title": "BIS closed a foreign-fab export-control exception while preserving existing operation and restricting expansion",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS August 29, 2025 action and September 2, 2025 Federal Register final rule revising Validated End-User treatment for foreign-owned semiconductor fabs in China",
+  "geography": "United States, foreign-owned semiconductor fabs in China, and the advanced-semiconductor supply chain",
+  "observations": [
+    {
+      "period": "August 29, 2025 BIS announcement; 120-day license transition after Federal Register publication",
+      "denominator": {
+        "value": null,
+        "unit": "foreign-owned semiconductor fabs previously covered by the VEU exception",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "policy_change": {"value": "former VEU participants must obtain export licenses for covered U.S.-origin goods, software, and technology", "unit": "reported regulatory change", "value_type": "reported_policy_response"},
+        "existing_fab_operation": {"value": "BIS intends to grant licenses allowing former VEU participants to operate existing fabs in China", "unit": "reported continuity authorization", "value_type": "reported_policy_intent"},
+        "capacity_expansion_or_upgrade": {"value": "BIS does not intend to grant licenses to expand capacity or upgrade technology at the affected fabs in China", "unit": "reported restriction on future capability expansion", "value_type": "reported_policy_restriction"},
+        "foreign_fab_response": {"value": "license applications, operating continuity, and any capacity or sourcing change were not yet observed in the announcement", "unit": "missing implementation and external-response endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing change in PRC capability, substitution, partner alignment, deterrence, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS official announcement review. The rule change, transition clock, intended operating authorization, and expansion restriction are coded as separate administrative and capability stages; no downstream firm, shipment, production, or strategic effect is inferred.",
+      "uncertainty": "The announcement does not disclose the complete affected-fab denominator, license applications or decisions, actual shipments, production, technology upgrades, substitution, prices, employment, or partner response. It reports BIS intent and policy conditions rather than realized operational outcomes.",
+      "subgroup": "Foreign-owned semiconductor fabs in China previously covered by VEU treatment, their owners and suppliers, U.S. technology exporters, PRC semiconductor firms, allied governments, and downstream semiconductor users.",
+      "counterinterpretation": "Closing an exception can narrow a technology route while preserving existing operations, and may shift sourcing or investment without reducing capability. Conversely, a licensing transition can create compliance cost without proving a strategic gain or a generalized supply-chain disruption.",
+      "source_url": "https://media.bis.gov/sites/default/files/documents/Commerce%20Closes%20Export%20Controls%20Loophole%20for%20Foreign-Owned%20Semiconductor%20Fabs%20in%20China%20%281%29.pdf",
+      "retrieval_hash": "sha256:2d2a8032400759e76dec97a3055549c07999a7456a9b2dcf774a0d9afab01868",
+      "status": "reported"
+    },
+    {
+      "period": "September 2, 2025 final rule; effective December 31, 2025",
+      "denominator": {
+        "value": 3,
+        "unit": "named PRC semiconductor facilities removed from the VEU authorization list",
+        "value_type": "reported_entity_count"
+      },
+      "measures": {
+        "formal_veu_revocations": {"value": "Intel Semiconductor (Dalian) Ltd, Samsung China Semiconductor Co. Ltd, and SK hynix Semiconductor (China) Ltd removed from the VEU list", "unit": "named facilities removed by final rule", "value_type": "reported_regulatory_action"},
+        "effective_date": {"value": "December 31, 2025", "unit": "effective date of VEU authorization removals", "value_type": "reported_effective_date"},
+        "license_or_operating_outcome": {"value": "not established by the final rule; it removes general VEU authorization but does not report subsequent individual license decisions, shipments, or facility operations", "unit": "missing downstream implementation endpoint", "value_type": "unmeasured"},
+        "capacity_expansion_or_upgrade": {"value": "BIS's accompanying policy stated that expansion or technology-upgrade licenses would not be granted", "unit": "reported capability boundary", "value_type": "reported_policy_restriction"},
+        "strategic_effect": {"value": "not observed", "unit": "missing change in PRC capability, substitution, partner alignment, deterrence, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS final-rule and official Federal Register review. The named removals and effective date establish formal policy implementation; no license issuance, production change, or strategic effect is inferred.",
+      "uncertainty": "The rule identifies three named facilities but does not disclose their later license applications or approvals, operating continuity, shipments, production, capacity, technology changes, sourcing substitution, or response by South Korea, China, or other partners.",
+      "subgroup": "Intel Semiconductor (Dalian), Samsung China Semiconductor, SK hynix Semiconductor (China), their suppliers and workers, U.S. technology exporters, PRC semiconductor users, and Korean/U.S. policy authorities.",
+      "counterinterpretation": "Formal removal can equalize authorization treatment without immediately stopping existing operations; the rule may alter future investment or technology access while leaving current production largely unchanged. Conversely, individual licensing or supply-chain changes could create effects not visible in the rule itself.",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2025-09-02/pdf/2025-16735.pdf",
+      "retrieval_hash": "sha256:256036a657ca0b4a9e8c1133e991c156f6cbd283c2ce75ad144498f8aac6f6e4",
+      "status": "reported"
+    },
+    {
+      "period": "Samsung China Semiconductor Xi'an certification valid October 15, 2023 through October 14, 2026; checked September 25, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "Samsung China Semiconductor Xi'an certified manufacturing site",
+        "value_type": "reported_site_count"
+      },
+      "measures": {
+        "certified_scope": {"value": "manufacture of 12-inch flash-memory chips, packaging and testing of embedded-memory chips, and SSD assembly", "unit": "certified operational scope", "value_type": "certified_scope"},
+        "certificate_validity": {"value": "valid through October 14, 2026 subject to surveillance audits", "unit": "third-party certification validity", "value_type": "reported_validity"},
+        "post_revocation_operating_status": {"value": "certified scope remains listed after the December 31, 2025 VEU-removal effective date", "unit": "bounded continuity signal, not a production series", "value_type": "reported_continuity_signal"},
+        "output_and_license_status": {"value": "not observed", "unit": "missing actual output, shipment, individual-license, upgrade, and utilization endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Samsung-hosted third-party certification review. The certificate's stated site scope and validity are treated as an operational-continuity signal, not as proof of actual production volume, license approval, or unchanged technology.",
+      "uncertainty": "A management-system certificate can remain valid while output, utilization, ownership, staffing, shipments, technology level, and individual export-license status vary. The certificate does not attribute any change to the VEU revocation.",
+      "subgroup": "Samsung China Semiconductor Xi'an site, Samsung workers and suppliers, U.S. technology exporters, PRC semiconductor customers, and Korean/U.S. policy authorities.",
+      "counterinterpretation": "Certification may reflect a maintained management system rather than current production; it can coexist with reduced utilization, altered inputs, or constrained future upgrades.",
+      "source_url": "https://www.samsung.com/sec/sustainability/policy-file/AYTGjawqBEEAIyDc/2-1%20_ISO%2014001_%20ISO%2045001_%20ISO%2050001.pdf",
+      "retrieval_hash": "sha256:3bb2a563584a3c9f1e2e31e8ae844925d52b13a1dd386b2dd4ee483af3757748",
+      "status": "reported"
+    },
+    {
+      "period": "SK hynix Wuxi certification current through August 2, 2027; page checked September 25, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "SK hynix Wuxi certified manufacturing site",
+        "value_type": "reported_site_count"
+      },
+      "measures": {
+        "certified_scope": {"value": "manufacture of 12-inch integrated circuits", "unit": "certified operational scope", "value_type": "certified_scope"},
+        "certificate_validity": {"value": "valid through August 2, 2027 subject to certification conditions", "unit": "third-party certification validity", "value_type": "reported_validity"},
+        "post_revocation_operating_status": {"value": "certified scope remains listed after the December 31, 2025 VEU-removal effective date", "unit": "bounded continuity signal, not a production series", "value_type": "reported_continuity_signal"},
+        "output_and_license_status": {"value": "not observed", "unit": "missing actual output, shipment, individual-license, upgrade, and utilization endpoint", "value_type": "unmeasured"}
+      },
+      "method": "SK hynix official quality-page review reporting a third-party certification entry. The listed site scope and validity are treated as an operational-continuity signal, not as proof of actual production volume, license approval, or unchanged technology.",
+      "uncertainty": "The certification page does not report production, capacity utilization, shipments, individual export licenses, technology upgrades, or whether the listed scope was affected by the VEU revocation.",
+      "subgroup": "SK hynix Wuxi site, workers and suppliers, U.S. technology exporters, PRC semiconductor customers, and Korean/U.S. policy authorities.",
+      "counterinterpretation": "A current certification can coexist with lower utilization, changed product mix, constrained technology access, or future investment relocation; it is not evidence of strategic continuity or policy failure.",
+      "source_url": "https://m.skhynix.com/quality/UI-FR-QT01_T2/",
+      "retrieval_hash": "sha256:99630419239c91d70df2908d0dfd6404f4c7ce519545ee8c65ecc80bf4ae0b74",
+      "status": "reported"
+    },
+    {
+      "period": "September 4, 2025 Ministry of Commerce response to the VEU removals",
+      "denominator": {
+        "value": 3,
+        "unit": "named semiconductor companies operating in China whose VEU authorizations were revoked",
+        "value_type": "reported_company_count"
+      },
+      "measures": {
+        "official_response": {"value": "China's Ministry of Commerce opposed the U.S. move and characterized it as harmful to global semiconductor industrial and supply-chain stability", "unit": "official government response", "value_type": "reported_external_response"},
+        "requested_action": {"value": "China urged the United States to correct the action and protect global industrial and supply-chain stability", "unit": "official diplomatic request", "value_type": "reported_request"},
+        "stated_follow_on": {"value": "China stated it would take necessary measures to safeguard the legitimate rights and interests of its enterprises", "unit": "officially stated possible follow-on response", "value_type": "reported_policy_intent"},
+        "implemented_countermeasure": {"value": "not established in this response", "unit": "missing enacted countermeasure, license, shipment, production, or negotiation outcome", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing change in U.S. policy, PRC capability, partner alignment, deterrence, or leverage", "value_type": "unmeasured"}
+      },
+      "method": "Ministry of Commerce official spokesperson response reviewed as an attributed state reaction to the named VEU revocations. Stated opposition, request, and possible follow-on measures are kept separate from enacted countermeasures and strategic results.",
+      "uncertainty": "The statement records official position and intent, not the implementation of a countermeasure. It does not identify affected transactions, firm-level losses, licensing outcomes, production changes, negotiation concessions, or changes in either side's strategic behavior.",
+      "subgroup": "Chinese Ministry of Commerce, Intel Dalian, Samsung China Semiconductor, SK hynix China, Chinese and allied semiconductor firms, and U.S. export-control authorities.",
+      "counterinterpretation": "A strong official objection may be signaling or bargaining posture rather than an operational response; supply-chain harm can be asserted without a measured disruption, and stated necessary measures may never be enacted or may be redirected through negotiation.",
+      "source_url": "https://exportcontrol.mofcom.gov.cn/article/gndt/202509/1159.html",
+      "retrieval_hash": "sha256:98c2f78c6954f0f64f310c3ed193fbc451345c4c81971a635c746dc3066e923f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO implementation review documents the prior multi-agency and private-sector compliance stage and leaves partner response and strategic effect open.", "status": "official-comparator"},
+    {"source_url": "https://www.bis.gov/press-release/bis-publishes-assessment-use-mature-node-chips", "claim": "BIS mature-node assessment provides a supply-chain exposure and pricing-pressure comparator for semiconductor dependence beyond the advanced-chip control route.", "status": "official-comparator"},
+    {"source_url": "https://www.bis.gov/90fr-42321-revocation-validated-end-user-authorizations-peoples-republic-china", "claim": "BIS official summary of the final rule removing the three named PRC semiconductor facilities from the VEU list.", "status": "official-rule-summary"}
+  ],
+  "boundary": "This record adds a named control adjustment with a transition clock and a distinction between operating existing fabs and permitting capacity expansion. It does not establish license completion, foreign-firm compliance, PRC substitution, altered production, allied adoption, domestic incidence, deterrence, or geopolitical leverage."
+}

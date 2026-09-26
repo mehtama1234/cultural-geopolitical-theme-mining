@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-zero-sum-thinking-ancestry-political-preferences-2023-2026",
+  "title": "Zero-sum beliefs connect perceived group competition with U.S. political preferences and historical experience",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 31688, published in the 2026 American Economic Review, using a survey of 20,400 U.S. residents and ancestral information",
+  "geography": "United States; contemporary survey respondents with individual and four-generation ancestral measures",
+  "observations": [
+    {
+      "period": "Survey and ancestral measures; working paper 2023-2025, published 2026",
+      "denominator": {
+        "value": 20400,
+        "unit": "U.S. resident survey respondents",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "zero_sum_mindset": {
+          "value": "belief that gains for one individual or group tend to come at the cost of others",
+          "unit": "survey-measured mindset construct",
+          "value_type": "reported_construct"
+        },
+        "policy_preferences": {
+          "value": "more zero-sum thinking is strongly associated with greater support for redistribution and race- and gender-based affirmative action, and more restrictive immigration policies",
+          "unit": "reported survey association",
+          "value_type": "reported_association"
+        },
+        "historical_experience": {
+          "value": "the mindset is related to individual and ancestral experiences including intergenerational mobility, immigration, local immigrant exposure, enslavement, and local exposure to enslavement",
+          "unit": "reported individual and four-generation association structure",
+          "value_type": "reported_association"
+        },
+        "causal_political_action": {
+          "value": "not observed as a same-person causal path to voting, organizing, policy change, or intergroup behavior",
+          "unit": "missing longitudinal action and institutional-outcome ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Large U.S. survey measuring zero-sum beliefs, political preferences, policy views, and ancestral information across four generations; the public abstract reports associations and historical predictors, not a randomized intervention or longitudinal causal estimate.",
+      "uncertainty": "The mindset and policy measures are survey constructs; associations may reflect ideology, current conditions, identity, local context, reporting, or common causes. Ancestral correlations do not identify one mechanism of transmission or prove that historical exposure caused an individual's current belief.",
+      "subgroup": "U.S. respondents differentiated by individual and ancestral mobility, immigration, local immigrant exposure, enslavement, and local historical exposure; exact subgroup effects and causal pathways are not retained in this abstract-level record.",
+      "counterinterpretation": "Seeing competition as zero-sum may sometimes reflect real scarcity, unequal gains, or institutional exclusion rather than a mistaken mindset. Support for restrictive immigration and support for redistribution can coexist because people may apply competition beliefs differently across groups or policy domains. Shared historical exposure does not produce identical beliefs.",
+      "source_url": "https://www.nber.org/papers/w31688",
+      "retrieval_hash": "sha256:7b2d7afff9cf8837b708851bf598f8084b7eff4e861af62cd94c21857668e4c1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://topcat.aeaweb.org/articles?id=10.1257/aer.20240692",
+      "claim": "Published American Economic Review version, volume 116(3), pages 1052-1096, 2026.",
+      "status": "published-version-context"
+    }
+  ],
+  "boundary": "This finding measures a zero-sum belief construct and its associations with policy preferences and ancestral experience in a large U.S. survey. It does not establish that zero-sum thinking is the cause of polarization, that historical experience transmits through one pathway, that scarcity is perceived incorrectly, or that beliefs became votes or policy outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER abstract and published-version metadata reviewed for sample size, construct, associations, and ancestral scope; underlying survey microdata are not retained here.",
+    "source_response_sha256": "sha256:7b2d7afff9cf8837b708851bf598f8084b7eff4e861af62cd94c21857668e4c1",
+    "checked": "2026-09-23"
+  }
+}

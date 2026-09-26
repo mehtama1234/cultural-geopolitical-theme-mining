@@ -21,7 +21,9 @@ set used by the R4 screen.
 | Inpatient | 60.13% / 33.03% | 62.18% / 33.90% | 11.83% / 9.40% | 2.61% / 5.51% | 6.34% / 7.31% |
 
 The event and comparison values are weighted percentages; each outcome has its
-own valid denominator and BRR uncertainty in the source outputs. The acute
+own valid denominator and BRR uncertainty in the source outputs. The retained
+inputs contain grouped results only, with no stable person-level key linking
+the R4/2 and R5/3 event groups. The acute
 event groups begin with much higher R4/2 nonemployment, remain higher at R5/3,
 and show mixed resolution/onset patterns. The office level is nearly flat at
 R4/2, while its onset estimate is higher than the comparison. These are

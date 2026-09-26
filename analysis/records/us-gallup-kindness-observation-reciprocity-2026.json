@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-kindness-observation-reciprocity-2026",
+  "title": "Observed kindness is common but comfort initiating it is age- and exposure-structured",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Values in Action/Gallup web survey of more than 2,000 U.S. adults interviewed March 2–18, 2026 through the Gallup Panel",
+  "geography": "United States; adults ages 18 and older",
+  "observations": [
+    {
+      "period": "March 2–18, 2026; recent kindness exposure",
+      "denominator": {"value": null, "unit": "More than 2,000 U.S. adults in the Gallup Panel web survey; exact count not disclosed on the source page", "value_type": "not_disclosed"},
+      "measures": {
+        "often_or_very_often_see_kindness": {"value": 60, "unit": "percent saying they see people treating others with kindness and respect often or very often", "value_type": "published_share"},
+        "received_kindness_past_week_many_or_few": {"value": 65, "unit": "percent saying they personally experienced an act of kindness in their community many or a few times in the past seven days", "value_type": "published_share"},
+        "received_no_kindness_past_week": {"value": 18, "unit": "percent saying they experienced no act of kindness in their community in the past seven days", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional web survey with published descriptive shares and subgroup comparisons.",
+      "uncertainty": "The estimates are self-reported and the article does not disclose the exact pooled respondent count, margin of error, or whether the same people supplied the observation and initiation measures.",
+      "subgroup": "U.S. adults; age and recent-exposure comparisons are reported separately.",
+      "counterinterpretation": "Commonly observed or received kindness does not establish reliable aid, adequate support, institutional trust, or later civic participation; the 18% with no recent act is a recent-exposure measure, not a social-isolation prevalence estimate.",
+      "source_url": "https://news.gallup.com/poll/708569/americans-think-kindness-prevails.aspx",
+      "retrieval_hash": "sha256:ad6933311fa94a56c106e5966ffb7d531698d3e6c0e74595b1932793f757463c",
+      "status": "reported"
+    },
+    {
+      "period": "March 2–18, 2026; comfort initiating kindness",
+      "denominator": {"value": null, "unit": "More than 2,000 U.S. adults in the Gallup Panel web survey; exact count not disclosed on the source page", "value_type": "not_disclosed"},
+      "measures": {
+        "very_comfortable_initiating_kindness_overall": {"value": 52, "unit": "percent very comfortable initiating a kind act toward a stranger", "value_type": "published_share"},
+        "very_comfortable_age_65_plus": {"value": 64, "unit": "percent of adults ages 65 and older very comfortable initiating a kind act toward a stranger", "value_type": "published_share"},
+        "very_comfortable_age_30_49": {"value": 49, "unit": "percent of adults ages 30–49 very comfortable initiating a kind act toward a stranger", "value_type": "published_share"},
+        "very_comfortable_age_18_29": {"value": 35, "unit": "percent of adults ages 18–29 very comfortable initiating a kind act toward a stranger", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional web survey; age-conditioned descriptive estimates.",
+      "uncertainty": "Age differences may reflect life-cycle, cohort, safety, opportunity, or reporting differences. The source does not identify the kind act, setting, risk, or whether comfort becomes behavior.",
+      "subgroup": "Adults ages 18–29, 30–49, and 65 and older; ages 50–64 are not needed for the reported contrast.",
+      "counterinterpretation": "Lower reported comfort among young adults does not mean lower concern for others or lower actual helping; older adults may have different opportunities, norms, or interpretations of initiating kindness.",
+      "source_url": "https://news.gallup.com/poll/708569/americans-think-kindness-prevails.aspx",
+      "retrieval_hash": "sha256:ad6933311fa94a56c106e5966ffb7d531698d3e6c0e74595b1932793f757463c",
+      "status": "reported"
+    },
+    {
+      "period": "March 2–18, 2026; recent kindness exposure and initiation comfort",
+      "denominator": {"value": null, "unit": "More than 2,000 U.S. adults in the Gallup Panel web survey; conditional subgroup counts not disclosed on the source page", "value_type": "not_disclosed"},
+      "measures": {
+        "very_comfortable_after_many_received": {"value": 80, "unit": "approximately percent of adults who received kindness many times in the past week who are very comfortable initiating a kind act", "value_type": "published_approximation"},
+        "very_comfortable_after_few_received": {"value": 54, "unit": "percent of adults who received kindness a few times in the past week who are very comfortable initiating a kind act", "value_type": "published_share"},
+        "very_comfortable_after_once_or_none_received": {"value": 40, "unit": "upper-bound approximate percent of adults who received kindness once or not at all who are very comfortable initiating a kind act; source reports under 40%", "value_type": "published_upper_bound"},
+        "young_adults_multiple_acts_vs_older": {"value": 40, "unit": "percent of adults ages 18–29 receiving multiple recent kind acts who are very comfortable initiating kindness; source reports 72% among adults ages 50 and older", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional conditional comparison of recent reported kindness receipt and willingness to initiate kindness.",
+      "uncertainty": "The relationship is associational and may reflect personality, social opportunity, safety, age, selection into interaction, or reverse reinforcement. It is not a panel or an experiment.",
+      "subgroup": "Adults grouped by number of recent kindness experiences, with an age interaction for young adults and adults ages 50 and older.",
+      "counterinterpretation": "Reciprocity may be one mechanism, but the same pattern could arise because socially connected or more outgoing people both receive and initiate more kindness; the source does not observe actual help delivered.",
+      "source_url": "https://news.gallup.com/poll/708569/americans-think-kindness-prevails.aspx",
+      "retrieval_hash": "sha256:ad6933311fa94a56c106e5966ffb7d531698d3e6c0e74595b1932793f757463c",
+      "status": "reported"
+    },
+    {
+      "period": "March 2–18, 2026; perceived national kindness",
+      "denominator": {"value": null, "unit": "More than 2,000 U.S. adults in the Gallup Panel web survey; exact conditional subgroup counts not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "say_most_adults_are_at_least_somewhat_kind": {"value": 73, "unit": "percent saying U.S. adults are very or somewhat kind", "value_type": "published_share"},
+        "perceive_kindness_after_very_often_observing": {"value": 92, "unit": "percent among those who very often see kindness who say most Americans are kind", "value_type": "published_share"},
+        "perceive_kindness_after_sometimes_observing": {"value": 58, "unit": "percent among those who sometimes see kindness who say most Americans are kind", "value_type": "published_share"},
+        "perceive_kindness_after_never_observing": {"value": 1, "unit": "percent among those who never see kindness who say most Americans are kind", "value_type": "published_share"}
+      },
+      "method": "Gallup cross-sectional comparison of observed kindness and perceived kindness of U.S. adults.",
+      "uncertainty": "The association may reflect general outlook, local conditions, selective attention, or common-method reporting. It does not measure actual national behavior or establish that observation changes belief.",
+      "subgroup": "Adults by reported frequency of observing kindness; party and geography differences are described as limited in the source.",
+      "counterinterpretation": "A positive local social lens can coexist with weak national institutional confidence, low actual reciprocity, or uneven treatment; perceived kindness is not a substitute for safety, material support, or public-system performance.",
+      "source_url": "https://news.gallup.com/poll/708569/americans-think-kindness-prevails.aspx",
+      "retrieval_hash": "sha256:ad6933311fa94a56c106e5966ffb7d531698d3e6c0e74595b1932793f757463c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/social-trends/2025/05/15/neighbors-and-neighborhood-life-in-the-u-s/", "claim": "Pew's neighbor survey supplies a separate local-trust and stated-help comparison.", "status": "cross-source-context"},
+    {"source_url": "https://news.gallup.com/poll/712436/confidence-institutions-remains-near-time-low.aspx", "claim": "Gallup's institutional-confidence series supplies a separate national-institution benchmark.", "status": "cross-source-context"}
+  ],
+  "boundary": "This record identifies a cross-sectional association between recent kindness exposure, perceived kindness, and comfort initiating kindness, with age gradients. It does not establish causal reciprocity, actual aid delivery, adequacy, institutional response, durable social trust, or later civic or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup article webpage retrieved and hashed; survey field dates, sample description, kindness exposure, age comparisons, conditional association, and perception boundaries cross-checked against the published page.",
+    "html_sha256": "sha256:ad6933311fa94a56c106e5966ffb7d531698d3e6c0e74595b1932793f757463c",
+    "checked": "2026-09-25"
+  }
+}

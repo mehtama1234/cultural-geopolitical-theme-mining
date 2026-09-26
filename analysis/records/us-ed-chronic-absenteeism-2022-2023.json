@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ed-chronic-absenteeism-2022-2023",
+  "title": "School access can be interrupted at population scale without a single explanation",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Department of Education Ed Data Express chronic-absenteeism administrative file for school year 2022-23",
+  "geography": "United States and state education agencies; school year 2022-23",
+  "observations": [
+    {
+      "period": "SY 2022-23; United States",
+      "denominator": {"value": 48268200, "unit": "students in the national state-level chronic-absenteeism file", "value_type": "reported_count"},
+      "measures": {
+        "chronically_absent": {"value": 13406900, "unit": "students absent at least 10% of enrolled school days", "value_type": "reported_count"},
+        "chronic_absence_rate": {"value": 27.8, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Department of Education state-level administrative reporting under the ESEA/ESSA chronic-absenteeism data collection; chronic absence is defined as absence for 10% or more of school days.",
+      "uncertainty": "The file is an aggregate administrative measure and does not identify each student's reason, support, learning, safety, belonging, or later attendance outcome.",
+      "subgroup": "Students reported by state education agencies; the file includes state and subgroup data with privacy protections.",
+      "counterinterpretation": "A high chronic-absence count does not prove permanent departure, academic failure, school failure, or one common cause.",
+      "source_url": "https://eddataexpress.ed.gov/sites/default/files/2024-11/SY2223%20Chronic%20Absenteeism%20EDE%20110724.zip",
+      "retrieval_hash": "sha256:b5bc5efd387a1c9efaa15345e78c2cc193c78195f46f42536ef3f11f54cb0050",
+      "status": "reported"
+    },
+    {
+      "period": "SY 2022-23; selected state education agencies",
+      "denominator": {"value": 1, "unit": "state-level chronic-absence percentages", "value_type": "source_defined_comparison"},
+      "measures": {
+        "reported_range_examples": {"value": "22.6% Alabama; 27.7% California; 41.2% Arizona; 43.1% New Mexico; 46.7% District of Columbia", "unit": "percent chronically absent", "value_type": "reported_comparison"}
+      },
+      "method": "Descriptive comparison of state-level percentages in the Department of Education chronic-absence file.",
+      "uncertainty": "Differences can reflect reporting, enrollment, calendar, policy, student composition, and lived conditions; the comparison does not identify causes or rank school quality.",
+      "subgroup": "State education agencies reporting all-student chronic-absence percentages.",
+      "counterinterpretation": "A state percentage is not a causal estimate and cannot show that a particular transportation, housing, safety, or engagement intervention would change attendance.",
+      "source_url": "https://eddataexpress.ed.gov/sites/default/files/2024-11/SY2223%20Chronic%20Absenteeism%20EDE%20110724.zip",
+      "retrieval_hash": "sha256:b5bc5efd387a1c9efaa15345e78c2cc193c78195f46f42536ef3f11f54cb0050",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://eddataexpress.ed.gov/resources/reports-and-files/chronic-absenteeism-data",
+      "claim": "The Department of Education defines chronic absence and publishes the underlying state, local, and school files with data notes.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record measures aggregate chronic absence and descriptive state variation for SY 2022-23. It does not establish causes, school response, learning, safety, belonging, or durable student return.",
+  "retrieval_hash": "sha256:b5bc5efd387a1c9efaa15345e78c2cc193c78195f46f42536ef3f11f54cb0050"
+}

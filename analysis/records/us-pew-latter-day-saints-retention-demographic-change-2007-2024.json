@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-latter-day-saints-retention-demographic-change-2007-2024",
+  "title": "A durable religious community is becoming more diverse and less institutionally retained while preserving a conservative core",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center Religious Landscape Study analysis, 2007-2023/24, published September 22, 2026",
+  "geography": "United States; adults identifying as current or former Latter-day Saints",
+  "observations": [
+    {
+      "period": "2007, 2014, and 2023-24 Religious Landscape Study comparisons",
+      "denominator": {
+        "value": 36908,
+        "unit": "randomly sampled U.S. adults in the Religious Landscape Study; subgroup includes 565 current and 316 former Latter-day Saints",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "retention": {
+          "value": "Among adults raised Latter-day Saint, current identification fell from 70% in 2007 to 64% in 2014 and 54% in 2023-24; religious unaffiliation rose from 14% to 21% to 28%",
+          "unit": "percent of adults raised Latter-day Saint",
+          "value_type": "published_time_series"
+        },
+        "demographic_diversity": {
+          "value": "The share of current Latter-day Saints who are White fell from 85% in 2007 to 72% in 2023-24; Hispanic share rose from 6% to 12% and Black share from 2% to 6%",
+          "unit": "percent of current Latter-day Saint adults",
+          "value_type": "published_time_series"
+        },
+        "religious_practice": {
+          "value": "Religion very important fell from 83% in 2007 to 72% in 2023-24; daily prayer fell from 82% to 73%; certainty in belief in God or a universal spirit fell from 90% to 76%",
+          "unit": "percent of current Latter-day Saint adults",
+          "value_type": "published_time_series"
+        },
+        "social_attitude_change": {
+          "value": "Support for social acceptance of homosexuality rose from 24% in 2007 to 46% in 2023-24; saying more women in the workforce is a change for the better rose from 49% in 2014 to 61%",
+          "unit": "percent of current Latter-day Saint adults",
+          "value_type": "published_time_series"
+        },
+        "institutional_continuity": {
+          "value": "About three-quarters of members identify as Republican or lean Republican, even as demographic, religious-practice, and selected social-attitude measures changed",
+          "unit": "reported partisan-identity profile",
+          "value_type": "published_group_pattern"
+        }
+      },
+      "method": "Pew comparison of the 2007, 2014, and 2023-24 Religious Landscape Studies, supplemented by a 2011 Latter-day Saint survey; the 2023-24 RLS was conducted mainly online and on paper while earlier surveys were by telephone.",
+      "uncertainty": "The report notes mode differences and subgroup margins of error. Repeated cross-sectional comparisons do not track the same people, and retention, demographic change, religious practice, political identity, and social attitudes are not a causal sequence.",
+      "subgroup": "Current Latter-day Saints, adults raised Latter-day Saint, former members, converts, and demographic groups within the RLS; Asian and foreign-born estimates have source-specific language and Spanish/English coverage limits.",
+      "counterinterpretation": "Lower retention can coexist with strong communal ties among remaining members, and greater demographic diversity may reflect conversion, migration, differential retention, or identification changes. Political conservatism does not imply uniform views on every social issue.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-us/",
+      "retrieval_hash": "sha256:653c3fd35e48472d39ed2bebbc20c33be2af94a60d2166902449ee96e7fb21ad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a within-community cultural-demographic change layer. It does not generalize Latter-day Saint trends to U.S. religion overall, establish causes of retention or attitude change, or infer future institutional strength, political behavior, or group cohesion from descriptive comparisons.",
+  "retrieval_hash": "sha256:653c3fd35e48472d39ed2bebbc20c33be2af94a60d2166902449ee96e7fb21ad"
+}

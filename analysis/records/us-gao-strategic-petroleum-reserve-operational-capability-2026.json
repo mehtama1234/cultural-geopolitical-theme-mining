@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-strategic-petroleum-reserve-operational-capability-2026",
+  "title": "Strategic reserve capacity can remain below design capability while drawdown obligations are still met",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "household_room_consumption"
+  ],
+  "source_unit": "GAO-26-106918 review of U.S. Strategic Petroleum Reserve infrastructure, inventory, fill, drawdown, and distribution capability",
+  "geography": "United States Strategic Petroleum Reserve sites in Louisiana and Texas; national emergency-energy capability",
+  "observations": [
+    {
+      "period": "Capability and inventory status as of December 2025; report published 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Strategic Petroleum Reserve site and system design rates; operational and inventory denominators differ by measure",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "effective_drawdown_rate": {
+          "value": 61,
+          "unit": "percent of design drawdown rate",
+          "value_type": "reported_operational_estimate"
+        },
+        "effective_fill_rate": {
+          "value": 56,
+          "unit": "percent of design fill rate",
+          "value_type": "reported_operational_estimate"
+        },
+        "drawdown_directives": {
+          "value": "the reserve has met drawdown directives to date",
+          "unit": "reported emergency-response history",
+          "value_type": "reported_record"
+        },
+        "capacity_constraints": {
+          "value": "construction outages, aging infrastructure, and low inventory constrain fill and distribution capability",
+          "unit": "reported operational constraints",
+          "value_type": "reported_mechanism"
+        },
+        "commercial_spare_capacity": {
+          "value": "the commercial sector has little spare pipeline and storage capacity, limiting the incremental market impact of a reserve release",
+          "unit": "reported market- and infrastructure-context finding",
+          "value_type": "reported_context"
+        }
+      },
+      "method": "GAO review of DOE estimates, reserve-site operating data, construction and maintenance information, inventory, and commercial-sector pipeline and storage context.",
+      "uncertainty": "The reported percentages are DOE estimates of effective rates at a point in time and do not establish the capability available during a particular future emergency. Meeting past drawdown directives does not identify the duration, product mix, market effect, or household and firm incidence of a future release. The report does not estimate the probability or cost of a supply disruption.",
+      "subgroup": "Four Strategic Petroleum Reserve storage sites, DOE reserve operations, commercial pipeline and storage operators, refiners, energy markets, and downstream households and firms; downstream incidence is not measured in this record.",
+      "counterinterpretation": "Operating below design rates can coexist with adequate emergency capability for a particular directive, and ongoing life-extension work or inventory changes can improve the rates. A reserve release may also have limited market effect because of commercial bottlenecks, demand conditions, or the scale and timing of the release rather than reserve failure alone.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-106918/index.html",
+      "retrieval_hash": "sha256:1cf3256e6d6f22f260737722c9eab8448f4b0285adf7f1d59bc99ac783a4a5c8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "claim": "DOE's transmission-needs study supplies a separate electricity-network capacity and reliability context; it is not pooled with petroleum-reserve operating rates.",
+      "status": "cross-source-comparator-kept-separate"
+    },
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107772/index.html",
+      "claim": "GAO's Puerto Rico grid review supplies a separate place-level recovery and disbursement pathway; it does not establish SPR capability.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds an operational state-capacity and energy-security stage between reserve infrastructure and potential emergency response. It does not establish an actual shortage, release-specific price effect, refinery or household incidence, national energy independence, deterrence, or geopolitical leverage. Design rate, current effective rate, inventory, emergency use, market effect, and downstream burden must remain separate."
+}

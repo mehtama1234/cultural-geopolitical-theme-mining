@@ -56,6 +56,11 @@ def main() -> int:
             "r4_screen": {"path": str(args.r4), "sha256": digest(args.r4)},
             "r5_followup": {"path": str(args.r5), "sha256": digest(args.r5)},
         },
+        "identifier_boundary": {
+            "r4_screen_has_stable_person_rows": False,
+            "r5_followup_has_stable_person_rows": False,
+            "statement": "The retained inputs contain grouped percentages, valid-record counts, and event-window denominators only; they do not retain a person-level stable key that can prove the R4/2 and R5/3 event groups are the same rows.",
+        },
         "boundary": "The R4/2 endpoint is a level of valid EMPST42=4; the R5/3 outcomes add descriptive status-change, onset, and resolution screens. Neither identifies job loss cause, hours, earnings, schedule control, treatment continuity, remedy, household recovery, trust, political action, or exit.",
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)

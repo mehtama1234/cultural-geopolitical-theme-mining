@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-school-facility-disruption-2026",
+  "title": "School buildings can interrupt learning before their long-term effects are visible",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107970 nationwide survey and interviews on public school facility issues in school year 2024–25",
+  "geography": "United States public school districts",
+  "observations": [
+    {
+      "period": "2024–25 school year",
+      "denominator": {
+        "value": 1,
+        "unit": "national public school district survey estimate universe described by GAO",
+        "value_type": "source_defined_survey_universe"
+      },
+      "measures": {
+        "districts_with_facility_cancellation": {
+          "value": 19,
+          "unit": "percent of districts that canceled school for at least one day because of a facility issue",
+          "value_type": "estimated_share"
+        },
+        "students_affected": {
+          "value": 2000000,
+          "unit": "estimated students affected by facility-related cancellations",
+          "value_type": "estimated_count"
+        },
+        "learning_days_affected": {
+          "value": 3500000,
+          "unit": "estimated days of learning lost through reported facility-related cancellations",
+          "value_type": "estimated_count"
+        },
+        "districts_with_chronic_facility_issue": {
+          "value": 47,
+          "unit": "percent of districts with a chronic facility issue in at least one school",
+          "value_type": "estimated_share"
+        },
+        "serious_facility_challenge": {
+          "value": 55,
+          "unit": "percent of districts considering chronic facility problems a serious or very serious challenge to meeting facility needs",
+          "value_type": "estimated_share"
+        },
+        "reported_disruption_types": {
+          "value": "plumbing emergencies and extreme classroom temperatures among leading reasons for cancellation",
+          "unit": "district-reported facility disruption causes",
+          "value_type": "reported_summary"
+        },
+        "student_and_family_outcomes": {
+          "value": "not observed",
+          "unit": "student learning, attendance recovery, health, family work/care disruption, repair effectiveness, and later opportunity",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO nationwide survey of public school districts, review of district reports, interviews with district leaders and officials, and selected site visits; national estimates are kept separate from student-level outcomes.",
+      "uncertainty": "The cancellation, student, and learning-day figures are survey-based estimates. The report does not measure actual learning loss, make-up instruction, student health, family burden, repair completion, or later outcomes at the individual level.",
+      "subgroup": "Public school districts and students affected by facility-related cancellations; selected district visits and interviews are not nationally generalizable for mechanisms.",
+      "counterinterpretation": "Closing a school can protect students from unsafe heat, plumbing, air, or other conditions, and districts may provide make-up instruction; a scheduled-day cancellation is not automatically a measured learning loss.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107970/index.html",
+      "retrieval_hash": "sha256:ccb257d4dfdd1b245d37ae573206380c7bc9ba07a9e243dfba642b0c9dbd089b",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record captures district-reported facility disruption and national estimates of affected students and learning days. It does not establish student-level learning loss, unequal causal effects, family income or care burden, repair effectiveness, public trust, or durable educational outcomes.",
+  "retrieval_hash": "sha256:ccb257d4dfdd1b245d37ae573206380c7bc9ba07a9e243dfba642b0c9dbd089b"
+}

@@ -57,6 +57,35 @@ payment received        != payment cashed
 payment cashed          != restored security or practical exit
 ```
 
+## Public-only depth audit — 2026-09-20
+
+I rechecked this route against the retained CFPB named-redress ledger. The
+case remains useful because it is one of the few public records that holds the
+same anonymized recipient through failed receipt, recipient effort, and
+institutional escalation. The public record still ends before the decisive
+outcome.
+
+| Question | Result | Why it matters |
+|---|---|---|
+| Was a payment route visible? | Yes, reported | Establishes the formal remedy channel |
+| Did the recipient experience a failed or incomplete payment path? | Yes, reported | Shows that issuance or eligibility is not the same as access |
+| Did the recipient make an effort? | Yes, reported | Adds recipient-side time and friction |
+| Did an institution intervene? | Yes, reported | Shows an escalation and reissue mechanism |
+| Was the reissued payment received or cashed? | Not reported | The practical remedy cannot be promoted to verified recovery |
+| Was the underlying loss or account state corrected? | Not reported | Payment access is not the same as restored security |
+| Did trust, continued use, switching, non-use, or exit change? | Not reported | The consumer-to-market and political meaning links remain open |
+
+The broader ledger supplies useful comparators—aggregate cashing rates and
+aggregate reissue or redistribution totals—but those are not recipient-level
+follow-up for this person. They therefore cannot close this route by
+substitution.
+
+**Audit result:** retain as a high-value recipient-side remedy example, but
+keep it `not_qualified` for same-case end-to-end promotion. The decisive next
+evidence would be an administrator payment log or recipient confirmation that
+records reissue date, amount, delivery or cashing, any remaining loss, and a
+later account or behavior outcome.
+
 ## Source and boundary
 
 Primary source: [CFPB Ombudsman’s Office FY2025 Annual Report](https://files.consumerfinance.gov/f/documents/cfpb_ombudsman-annual-report_2025.pdf),

@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ustr-taiwan-reciprocal-trade-capacity-response-2026",
+  "title": "Taiwan's reciprocal-trade commitments convert U.S. pressure into a planned capacity and procurement response",
+  "theme_ids": ["work", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Trade Representative fact sheet on the U.S.-Taiwan Agreement on Reciprocal Trade",
+  "geography": "United States and Taiwan bilateral trade, semiconductor, energy, and strategic-technology relationship",
+  "observations": [
+    {
+      "period": "February 2026; announced U.S.-Taiwan Agreement on Reciprocal Trade",
+      "denominator": {"value": 1, "unit": "bilateral agreement announcement", "value_type": "documented_policy_agreement"},
+      "measures": {
+        "taiwan_tariff_action": {"value": "Taiwan will eliminate or reduce 99 percent of tariff barriers and provide preferential access for named U.S. industrial and agricultural exports", "unit": "reported agreement commitment", "value_type": "reported_commitment"},
+        "taiwan_non_tariff_action": {"value": "Taiwan committed to resolve or prevent named non-tariff barriers for U.S. vehicles, medical devices, pharmaceuticals, and agricultural products", "unit": "reported agreement commitment", "value_type": "reported_commitment"},
+        "us_tariff_treatment": {"value": "U.S. treatment of originating Taiwanese goods will apply the higher of the MFN rate or a 15 percent tariff rate, subject to stated exceptions", "unit": "reported U.S. tariff framework", "value_type": "reported_policy"},
+        "bilateral_trade_context": {"value": 185, "unit": "US dollars billions; 2024 two-way goods and services trade, more than", "value_type": "reported_context"}
+      },
+      "method": "Bounded extraction from the official USTR fact sheet. Agreement terms are coded as a dated external-response and policy-implementation stage, not as observed trade-flow or firm-level outcomes.",
+      "uncertainty": "The fact sheet does not establish legislative approval, implementation dates, realized tariff collections, export quantities, firm-level incidence, or whether the commitments changed Taiwanese or U.S. behavior relative to a counterfactual.",
+      "subgroup": "U.S. and Taiwanese governments, exporters, manufacturers, farmers, firms, and consumers; no individual firm or household is followed.",
+      "counterinterpretation": "An announced reciprocal framework can signal bargaining accommodation and market opening while later domestic formalities, exemptions, enforcement, or political change alter its practical effect.",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+      "retrieval_hash": "sha256:772a7440ccd5b31a8e240b4693eb738a550a469e19725dc1ebc5042b592d5ee8",
+      "status": "reported"
+    },
+    {
+      "period": "January 15, 2026 MOU referenced in the agreement fact sheet; planned Taiwan-linked U.S. capacity response",
+      "denominator": {"value": 1, "unit": "AIT-TECRO memorandum and related industrial-park commitment", "value_type": "documented_policy_mou"},
+      "measures": {
+        "planned_us_industrial_parks": {"value": "Taiwan side promises to work with the United States to establish industrial parks and industry clusters", "unit": "reported policy commitment", "value_type": "reported_commitment"},
+        "planned_sector_scope": {"value": "semiconductors supply chain, electronics manufacturing services including AI applications, energy, and other sectors", "unit": "reported sector scope", "value_type": "reported_scope"},
+        "planned_taiwan_investment": {"value": "Taiwan companies are expected to significantly increase investment in the United States, with financial support from Taiwan", "unit": "reported direction of investment", "value_type": "reported_commitment"},
+        "section_232_treatment": {"value": "U.S. preferential treatment for Taiwan was contemplated in semiconductor and semiconductor-equipment Section 232 measures, taking alignment and strategic partnership into account", "unit": "reported policy linkage", "value_type": "reported_policy"}
+      },
+      "method": "The USTR fact sheet's cross-reference to the AIT-TECRO MOU is kept separate from the existing Taiwan semiconductor record's investment and TSMC Arizona production observations. This is a planned bilateral-capacity response, not an independently audited output measure.",
+      "uncertainty": "The source does not provide project-level investors, disbursements, construction, production, ownership, workforce quality, energy or water burden, or measured reduction in Taiwan-centered supply dependence.",
+      "subgroup": "Taiwanese technology firms, U.S. semiconductor and energy firms, workers, host communities, and public agencies; project-level incidence is not observed.",
+      "counterinterpretation": "Partner investment can increase local resilience while leaving critical tools, materials, design, ownership, and operating knowledge externally concentrated; a policy promise is not replaceability.",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+      "retrieval_hash": "sha256:772a7440ccd5b31a8e240b4693eb738a550a469e19725dc1ebc5042b592d5ee8",
+      "status": "reported"
+    },
+    {
+      "period": "2025–2029; planned Taiwanese purchases under the agreement",
+      "denominator": {"value": 1, "unit": "reported bilateral purchasing plan", "value_type": "documented_plan"},
+      "measures": {
+        "planned_lng_crude_purchases": {"value": 44.4, "unit": "US dollars billions; planned LNG and crude-oil purchases", "value_type": "reported_plan"},
+        "planned_aircraft_engine_purchases": {"value": 15.2, "unit": "US dollars billions; planned civil aircraft and engine purchases", "value_type": "reported_plan"},
+        "planned_power_and_equipment_purchases": {"value": 25.2, "unit": "US dollars billions; planned power equipment, grids, materials, generators, storage, marine, steel-making, and other equipment", "value_type": "reported_plan"},
+        "planned_total_named_purchases": {"value": 84.8, "unit": "US dollars billions; arithmetic sum of three named plan categories, not independently reported total", "value_type": "derived_sum"},
+        "realized_purchases": {"value": "not observed", "unit": "missing delivery, payment, and trade-flow endpoint", "value_type": "unmeasured"}
+      },
+      "method": "The three USTR-reported purchase categories are retained as planned bilateral-demand commitments. The combined figure is a transparent arithmetic sum and is not treated as realized U.S. exports or Taiwanese dependence.",
+      "uncertainty": "The fact sheet does not disclose contracts, delivery schedules by product, financing, counterparties, actual purchases, substitution, or whether the plan persists through 2029.",
+      "subgroup": "U.S. energy, aerospace, power-equipment, materials, and manufacturing sectors and Taiwanese public or private buyers; affected workers and households are not followed.",
+      "counterinterpretation": "A large purchasing plan can support U.S. sector demand and bargaining alignment without proving firm revenue, domestic job quality, household prices, or durable strategic leverage.",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/fact-sheets/2026/february/fact-sheet-us-taiwan-agreement-reciprocal-trade",
+      "retrieval_hash": "sha256:772a7440ccd5b31a8e240b4693eb738a550a469e19725dc1ebc5042b592d5ee8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-commerce-taiwan-semiconductor-investment-2026.json", "claim": "The prior Taiwan semiconductor record establishes a separate investment, first-fab production, workforce, and staged-expansion lane; this record adds the bilateral agreement and planned external-response layer.", "status": "follow-on-record"},
+    {"source_url": "https://www.ustr.gov/sites/default/files/files/Issue_Areas/Enforcement/Section%20301/Initiation%20Notice%202026-05214.pdf", "claim": "The related USTR Section 301 notice supplies a separate trade-policy investigation context and is not pooled with this agreement-stage response.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes an announced Taiwan policy and market response to a U.S.-Taiwan reciprocal-trade framework, including planned U.S. capacity investment and purchases. It does not establish implementation, delivered output, firm or household incidence, supply-chain replacement, Taiwanese dependence, changed external behavior beyond the agreement commitments, or U.S. geopolitical leverage.",
+  "reproduction_audit": {"retrieval_hash_scope": "USTR fact-sheet HTML retrieved and retained temporarily for extraction", "retrieval_hash": "sha256:772a7440ccd5b31a8e240b4693eb738a550a469e19725dc1ebc5042b592d5ee8", "checked": "2026-09-23"}
+}

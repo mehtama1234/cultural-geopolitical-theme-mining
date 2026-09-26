@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-germany-lithuania-brigade-staffing-social-capacity-2026",
+  "title": "Alliance capability depends on staffing and social capacity before deterrence is tested",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Bundeswehr account of staffing and personnel measures for Panzerbrigade 45 Lithuania",
+  "geography": "Germany and Lithuania; German brigade stationed at NATO's eastern flank",
+  "observations": [
+    {
+      "period": "September 14, 2026; staffing update for brigade planned to be operational by end-2027",
+      "denominator": {
+        "value": 1,
+        "unit": "named German armored brigade staffing and readiness program",
+        "value_type": "institutional_capacity_episode"
+      },
+      "measures": {
+        "voluntary_staffing": {"value": 80, "unit": "percent of positions reportedly filled by volunteers", "value_type": "reported_staffing_share"},
+        "personnel_response": {"value": "additional mandatory measures decided in selected areas because the brigade needs further personnel to fulfill its mission", "unit": "reported personnel-policy response", "value_type": "reported_workforce_control"},
+        "readiness_timeline": {"value": "planned as an operational combat brigade at NATO's eastern flank by the end of 2027", "unit": "reported future capability target", "value_type": "reported_future_target"},
+        "social_capacity_surface": {"value": "the account describes personnel, maintenance, and support roles as necessary to make the equipment operational", "unit": "reported capability dependency", "value_type": "reported_operating_dependency"},
+        "external_response_and_public_legitimacy": {"value": "not observed", "unit": "missing adversary adaptation, deterrence, local burden acceptance, family experience, and durable public support", "value_type": "unmeasured"}
+      },
+      "method": "Official Bundeswehr personnel update; volunteer staffing, mandatory measures, readiness target, and support-role dependency are retained as separate stages from operational performance, public consent, and external response.",
+      "uncertainty": "The public account does not disclose the brigade's authorized personnel denominator, the number or legal form of mandatory measures, the affected specialties, retention, family burden, local labor effects, or whether staffing changes produce operational capability.",
+      "subgroup": "German brigade personnel, prospective and current service members, support and maintenance staff, military families, Lithuanian host communities, and NATO allies; subgroup experience is not reported.",
+      "counterinterpretation": "Mandatory measures may be a limited administrative tool inside a largely voluntary force rather than broad coercive mobilization. Staffing progress can improve readiness while creating work, family, or legitimacy costs that are not visible in the capability headline.",
+      "source_url": "https://www.bundeswehr.de/de/auftrag/verteidigung/aufgaben/bundeswehr-litauen-grosse-schritte-deutsche-kampfbrigade/brigade-litauen-verpflichtende-massnahmen-6151408",
+      "related_source_url": "https://www.bundeswehr.de/en/mission-and-tasks/exercises/quadriga/quadriga-2025/grand-eagle",
+      "retrieval_hash": "sha256:86a118f53b13749421efc7b1aec2cf15abf33e16bfbc20538cdc4a3684c5a414",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.bundeswehr.de/en/mission-and-tasks/exercises/quadriga/quadriga-2025/grand-eagle",
+      "claim": "The brigade's wider operating concept depends on multinational training, civilian infrastructure, logistics, and readiness before full operational capability.",
+      "status": "official-context",
+      "access_boundary": "The exercise context does not establish the later staffing outcome, family experience, public acceptance, or external response."
+    }
+  ],
+  "boundary": "This record establishes a social-capacity and workforce stage in a named alliance capability program: most positions are reportedly filled by volunteers, while mandatory measures are introduced in selected areas before the 2027 readiness target. It does not establish operational performance, deterrence, adversary adaptation, host-country consent, family burden, or durable alliance legitimacy."
+}

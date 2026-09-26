@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-dark-patterns-consumer-choice-2024",
+  "title": "Online commerce is expanding while manipulative choice architecture turns consumer autonomy, privacy, and cancellation into market risks",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback"
+  ],
+  "source_unit": "OECD consumer-policy evidence on dark commercial patterns and digital consumer vulnerability, including preliminary 2024 survey findings across 20 countries",
+  "geography": "OECD countries; survey and prior e-commerce detriment estimates use their specified country samples",
+  "observations": [
+    {
+      "period": "2024 preliminary OECD survey across 20 countries, summarized in OECD consumer-policy materials",
+      "denominator": {
+        "value": 20,
+        "unit": "countries in the preliminary OECD survey of consumers' exposure to manipulative online design",
+        "value_type": "multi_country_survey"
+      },
+      "measures": {
+        "encountered_dark_commercial_patterns": {"value": 90, "unit": "percent of consumers reporting encounters with online manipulative design techniques", "value_type": "reported_survey_share"},
+        "online_purchase_prevalence": {"value": 70, "unit": "percent of consumers in OECD countries having made purchases online, as shown in the OECD consumer-policy context", "value_type": "reported_country_average"},
+        "dark_pattern_harm_scope": {"value": "financial loss, privacy breaches, emotional distress, and wasted time", "unit": "reported harm categories associated with manipulative online design", "value_type": "reported_harm_scope"},
+        "ai_and_data_risk_route": {"value": "increasing", "unit": "reported policy concern: pervasive data collection and AI may enable invasive tracking, exploitative targeted ads, and discriminatory algorithms", "value_type": "reported_policy_pattern"}
+      },
+      "method": "OECD consumer-policy synthesis drawing on preliminary cross-country survey findings and prior work on online consumer detriment, digital vulnerability, choice architecture, data practices, and enforcement responses.",
+      "uncertainty": "The 90% result is preliminary and self-reported; encountering a dark pattern is not the same as being deceived, paying more, losing privacy, or being unable to exit. The survey's weighting, country composition, question wording, and tactic classification should be checked before country comparisons.",
+      "subgroup": "Online consumers, with heightened policy concern for children, less educated people, people with low digital literacy, and consumers facing financial or situational vulnerability.",
+      "counterinterpretation": "Some defaults, personalization, or urgency cues can improve convenience without causing detriment. Consumers may notice or resist manipulation, and stronger regulation can itself create compliance, privacy, or access trade-offs.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-issues/consumer-policy/oecd-protecting-and-empowering-consumers-for-a-better-tomorrow.pdf",
+      "retrieval_hash": "sha256:6f8d7ee30ac223a6f991fd808cd389ea45e35745c8d6c6b13773931bf919a777",
+      "status": "reported"
+    },
+    {
+      "period": "2021 OECD survey of online consumer problems and 2022 e-commerce detriment analysis",
+      "denominator": {
+        "value": 13,
+        "unit": "countries in the OECD survey of financial consumer detriment in e-commerce",
+        "value_type": "multi_country_survey"
+      },
+      "measures": {
+        "online_consumers_with_prior_year_problem": {"value": 50, "unit": "percent of online consumers reporting a problem when shopping online in the prior year, including scams, fraud, or unfair/misleading practices", "value_type": "reported_survey_share"},
+        "cumulative_ecommerce_detriment": {"value": 22, "unit": "billion US dollars or more in cumulative cost of the most severe online-shopping problem across OECD consumers, according to OECD's cited 2022 study", "value_type": "reported_macro_estimate"},
+        "choice_architecture_tactics": {"value": "defaults, false urgency, misleading social proof, forced disclosure, hidden fees, and hard-to-cancel services", "unit": "reported tactic set", "value_type": "reported_mechanism_set"},
+        "information_alone_sufficiency": {"value": "insufficient", "unit": "OECD policy finding: disclosure alone may not protect consumers from manipulative choice architecture", "value_type": "reported_policy_finding"}
+      },
+      "method": "OECD survey and analytical synthesis of online-shopping problems, financial consumer detriment, common interface tactics, behavioral vulnerability, and consumer-policy enforcement options.",
+      "uncertainty": "The $22 billion estimate concerns the cited study's severe problem and country/sample definitions; it is not total online fraud, total consumer loss, or a causal estimate of dark patterns. Problem reports combine distinct harms and may be underreported.",
+      "subgroup": "Online shoppers, digital-market firms, consumer and data-protection authorities, and consumers with differing literacy, age, income, device, and bargaining conditions.",
+      "counterinterpretation": "Consumer education, standardized disclosures, technical tools, and fair design may reduce harm, but no single intervention is shown here to improve outcomes. A reported problem does not establish intentional manipulation or firm liability.",
+      "source_url": "https://www.oecd.org/en/topics/consumer-policy-and-digital-technologies.html",
+      "retrieval_hash": "sha256:6f8d7ee30ac223a6f991fd808cd389ea45e35745c8d6c6b13773931bf919a777",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/topics/dark-commercial-patterns.html", "claim": "OECD defines dark commercial patterns and describes prevalence, harms, and enforcement challenges."},
+    {"source_url": "https://www.oecd.org/en/publications/dark-commercial-patterns_44f5e846-en.html", "claim": "OECD's foundational policy paper documents tactic categories, evidence, and consumer-policy responses."}
+  ],
+  "boundary": "This record adds a consumer-choice, interface-design, privacy, time, and recourse route distinct from rental scams and financial-fraud records. It does not measure one person's purchase, prove a tactic caused loss, establish platform intent or liability, or treat online exposure as universal harm.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD consumer-policy brief, digital consumer-policy topic page, dark-patterns topic page, and foundational policy paper retrieved; preliminary 2024 survey, prior online-problem estimate, $22 billion detriment estimate, tactic categories, and enforcement caveats cross-checked against OECD materials.",
+    "pdf_sha256": "sha256:6f8d7ee30ac223a6f991fd808cd389ea45e35745c8d6c6b13773931bf919a777",
+    "checked": "2026-09-26"
+  }
+}

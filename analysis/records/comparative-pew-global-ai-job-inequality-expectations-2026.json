@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-global-ai-job-inequality-expectations-2026",
+  "title": "Public expectations of AI job loss and inequality are stronger in higher-income countries",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "political_judgment_action"
+  ],
+  "source_unit": "Pew Research Center Spring 2026 Global Attitudes Survey; 36-country public-opinion study with high- and middle-income comparisons",
+  "geography": "36 countries across high- and middle-income groups, including the United States",
+  "observations": [
+    {
+      "period": "February 8-May 13, 2026 fieldwork; report September 17, 2026",
+      "denominator": {
+        "value": 42151,
+        "unit": "adults surveyed across 36 countries; U.S. results come from separate 5119- and 3488-person surveys",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "job_loss_expectation_income_group": {
+          "value": "Median 55% in 18 high-income countries versus 36% in 18 middle-income countries say AI will lead to fewer jobs over the next 20 years",
+          "unit": "median percent by World Bank income grouping",
+          "value_type": "published_group_comparison"
+        },
+        "uncertainty_income_group": {
+          "value": "Median 22% in high-income countries versus 34% in middle-income countries are unsure how AI will affect jobs",
+          "unit": "median percent by income grouping",
+          "value_type": "published_group_comparison"
+        },
+        "inequality_expectation": {
+          "value": "Median 35% in high-income countries versus 22% in middle-income countries say AI will increase the rich-poor gap; U.S. share is 46%",
+          "unit": "percent or median percent saying AI increases inequality",
+          "value_type": "published_group_comparison"
+        },
+        "u_s_youth_concern_change": {
+          "value": "Among U.S. adults ages 18-34, primarily concerned rather than excited about AI rose from 40% in 2024 to 55% in 2026",
+          "unit": "percent of U.S. young adults in repeated survey comparisons",
+          "value_type": "published_change"
+        },
+        "global_concern_excitement": {
+          "value": "Across 37 countries, median 37% are more concerned than excited and 41% are equally concerned and excited",
+          "unit": "median percent across countries",
+          "value_type": "published_distribution"
+        }
+      },
+      "method": "Comparative public-opinion survey with country samples designed to represent adult populations; income-group medians classify 18 high-income and 18 middle-income countries using World Bank lending groups.",
+      "uncertainty": "Expectations are perceptions, not forecasts or observed labor-market effects. Cross-country medians conceal within-country variation, and the U.S. repeated comparison uses different survey field periods and samples. Income classification is not a causal mechanism.",
+      "subgroup": "Adults by country income group, age, education, household income, AI awareness, and political ideology where measured.",
+      "counterinterpretation": "Higher-income publics may be more aware of AI, more exposed to white-collar automation, or more willing to answer the question; lower uncertainty in middle-income countries may reflect awareness differences rather than optimism.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/globally-more-people-expect-ai-to-cause-job-loss-than-growth/",
+      "retrieval_hash": "sha256:a992f2c407d34fb40716939df7bf7da6cffb6bd69087756754d418e4e85208a7",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/global/2026/09/17/concerns-about-ai-are-especially-widespread-in-high-income-countries/",
+      "claim": "Detailed income-group comparisons for job loss, inequality, concern, and AI awareness.",
+      "status": "companion-analysis"
+    }
+  ],
+  "boundary": "This record adds a comparative perception-and-expectation layer for AI. It does not measure actual job loss, productivity, wage change, firm adoption, or whether concern becomes political action.",
+  "retrieval_hash": "sha256:a992f2c407d34fb40716939df7bf7da6cffb6bd69087756754d418e4e85208a7"
+}

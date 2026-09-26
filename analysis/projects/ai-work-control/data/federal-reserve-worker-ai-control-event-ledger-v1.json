@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_worker_ai_control_record",
+  "purpose": "Bounded Federal Reserve 2025 SHED route from labor-market mobility and worker-reported generative-AI use through task control and perceived benefit, preserving employer policy, realized productivity, household, and exit gaps.",
+  "events": [
+    {
+      "event_id": "FED-SHED-WORKER-AI-CONTROL-2025",
+      "unit": "case",
+      "geography": "United States; Federal Reserve 2025 Survey of Household Economics and Decisionmaking",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-01-01",
+      "date_precision": "2025 survey release; measures cover prior-month AI use and current work conditions, exact episode dates not retained",
+      "denominator": "Published worker and employee bases; AI use, education, task-control, work-location, and schedule measures have distinct denominators",
+      "method": "Federal Reserve published descriptive SHED estimates for employment movement, worker-reported generative-AI use, perceived benefit, education, task control, location, and schedule variation",
+      "missingness": "Tool, task, intensity, employer policy, implementation date, pay, hours, training, monitoring, bargaining, household effect, and later outcome are not retained",
+      "condition_or_decision": "technology",
+      "exposure": "25% of workers reported using generative AI in the prior month; use was 10% among workers with high-school education or less versus 43% among workers with graduate degrees, and 30% among employees with high task control versus 20% with lower task control",
+      "alternatives_before_action": "Alternative tools, training, employer permission, non-AI work routes, worker voice, and job-switching options are not observed for the same respondent",
+      "immediate_burden_or_benefit": "Among workers, 44% agreed generative AI saves time in their job; among AI users, 52% said it improved quality. These are perceived benefits, not measured productivity or pay",
+      "choice_or_response": "The survey also reports labor-market friction and work-organization conditions: 7% of adults reported a layoff in 2025, 8% voluntarily left a job, and 39% of workers worked from home during the prior week",
+      "person_or_actor_with_control": "Workers report task control and AI use, but employer permission, deployment rules, monitoring, training, and control over resulting data or evaluation are not identified",
+      "remedy_or_institutional_response": "No employer correction, bargaining response, public rule, complaint, or remedy is observed",
+      "immediate_outcome": "The SHED layer establishes unequal worker access/control and perceived AI benefit alongside labor mobility and work-organization conditions",
+      "protected_outcome": "AI time or quality gains could protect worker capacity, but no realized earnings, hours, health, or household protection is measured",
+      "sacrificed_outcome": "Unequal access or lower task control could limit gains or increase monitoring/dependence, but no realized sacrifice is measured",
+      "cost_risk_transfer": "The source does not identify whether technology cost, productivity gain, training burden, or employment risk transfers among firms and workers",
+      "later_outcome": "No same-worker later productivity, pay, job quality, household security, trust, political response, switching, or exit is observed",
+      "meaning_and_attribution": "Workers' perceived benefit and control measures describe experience but do not identify employer intent, fairness, attribution, or bargaining meaning",
+      "public_or_collective_response": "No organizing, bargaining, complaint, policy response, or collective action endpoint is linked",
+      "counterexample": "AI use can be higher where workers have more control and education, but that may reflect task fit, job composition, employer permission, or resources rather than control causing adoption",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Federal Reserve 2025 SHED published estimates; cross-sectional subgroup comparisons do not establish causality, worker-level transition, or realized AI effects",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FED-SHED-AI-A-01",
+      "from": "worker education and task control",
+      "to": "reported generative-AI use",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Published subgroup shares show 43% use among workers with graduate degrees versus 10% with high school or less, and 30% use among employees with high task control versus 20% with lower task control",
+      "status": "reported",
+      "counterexample": "Education and task-control groups are not a worker panel; occupation, industry, employer permission, and task fit may explain the difference",
+      "remaining_gap": "Same-worker timing, task exposure, employer policy, training, and causal access mechanism"
+    },
+    {
+      "arrow_id": "FED-SHED-AI-A-02",
+      "from": "reported generative-AI use",
+      "to": "perceived time or quality benefit",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "Among workers, 44% agreed AI saves time; among AI users, 52% agreed it improved work quality",
+      "status": "reported",
+      "counterexample": "Perceived benefit may reflect self-selection, task fit, or expectations and is not measured output, pay, or time release",
+      "remaining_gap": "Tool/task intensity, objective productivity, hours, pay, quality verification, and distribution of gains"
+    },
+    {
+      "arrow_id": "FED-SHED-AI-A-03",
+      "from": "AI access and task control",
+      "to": "worker autonomy, bargaining, and job mobility",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey places AI use and task-control subgroups beside job movement and work-organization measures, but does not link them within a worker-level panel",
+      "status": "open",
+      "counterexample": "Higher task control may accompany occupations with different labor demand, education, and employer policies rather than produce AI use or mobility",
+      "remaining_gap": "Matched worker episodes with task change, employer rule, training, monitoring, pay/hours, retention, switching, and exit"
+    },
+    {
+      "arrow_id": "FED-SHED-AI-A-04",
+      "from": "AI use or restricted access",
+      "to": "household security, health, trust, or political action",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The published SHED layer does not link worker AI use/control to later household, health, trust, or political outcomes",
+      "status": "open",
+      "counterexample": "AI use can save time without improving financial room, or reduce task burden while increasing monitoring or insecurity",
+      "remaining_gap": "Same-worker and household follow-up with material outcome, institutional response, trust, action, and exit"
+    },
+    {
+      "arrow_id": "FED-SHED-AI-A-05",
+      "from": "unequal worker AI access and control",
+      "to": "sector capability, concentration, or geopolitical leverage",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The survey contains no firm, supplier, infrastructure, public-capacity, or cross-border capability link",
+      "status": "open",
+      "counterexample": "Worker-level access differences can reflect local capability gaps, but the survey cannot assign sector or state consequences",
+      "remaining_gap": "Worker-firm-sector linkage to infrastructure, supplier dependence, public capacity, and international response"
+    }
+  ],
+  "boundary": "This ledger formalizes worker-reported AI access, control, perceived benefit, and labor-mobility context. It does not establish causal AI effects, realized productivity, bargaining power, household welfare, political response, or geopolitical leverage.",
+  "storage_boundary": "Only published Federal Reserve aggregate estimates and source metadata are retained; no respondent microdata are stored."
+}

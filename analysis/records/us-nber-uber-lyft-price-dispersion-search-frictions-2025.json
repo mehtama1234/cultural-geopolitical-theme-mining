@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-uber-lyft-price-dispersion-search-frictions-2025",
+  "title": "Rideshare comparison friction can preserve platform booking volume",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "housing_place_mobility", "firm_sector_market_power", "unequal_exposure_status", "infrastructure_technology_dependency"],
+  "source_unit": "NBER Working Paper 34441; audit of identical trips on Uber and Lyft with device-level app-opening data",
+  "geography": "New York City rideshare market; Uber and Lyft identical-trip price comparison",
+  "observations": [{
+    "period": "New York City Uber and Lyft price dispersion and consumer app comparison; paper issued 2025",
+    "denominator": {"value": 1, "unit": "matched rideshare-trip and device-level app-opening audit", "value_type": "study_unit"},
+    "measures": {
+      "price_dispersion": {"value": "price differences exist for identical trips on Uber and Lyft", "unit": "same-trip platform fare comparison", "value_type": "reported_finding"},
+      "cross_app_search": {"value": "only about 16.1% of consumers opening one app also open the other", "unit": "cross-platform app-opening share", "value_type": "reported_estimate"},
+      "booking_volume": {"value": "comparison frictions are estimated to increase platforms' gross booking volume by more than $300 million annually in New York City alone", "unit": "modeled annual gross booking volume", "value_type": "reported_model_estimate"},
+      "comparison_constraint": {"value": "Uber API terms of use limit price-comparison services", "unit": "platform-access constraint", "value_type": "reported_institutional_fact"}
+    },
+    "method": "The authors audit identical trips on Uber and Lyft and combine the price audit with device-level data on whether consumers open both apps, then estimate the booking-volume effect of comparison frictions and examine platform API terms.",
+    "uncertainty": "The study does not observe each rider's wait, cancellation, safety, accessibility, trip purpose, income, transit alternative, quote expiration, completed-trip quality, or household budget. Modeled booking-volume effects are not the same as rider welfare or an individual's avoidable overpayment.",
+    "subgroup": "New York City rideshare users and matched Uber/Lyft trips in the audit; the abstract does not establish equal search frictions for riders with different deadlines, disability access, phone access, income, language, or backup transportation.",
+    "counterinterpretation": "Riders may open only one app because of trust, availability, reliability, account history, accessibility, or a deliberate preference rather than search failure. A lower fare may come with longer waits, cancellation, or lower service fit. Platform API limits may protect security or commercial interests, though they also restrict comparison services in the authors' account.",
+    "source_url": "https://www.nber.org/papers/w34441",
+    "retrieval_hash": "sha256:15a2dfc669b6e174227a42159d64d48d580debcdbd1c514b124529e028954164",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34441", "claim": "NBER DOI record for Working Paper 34441", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a rideshare search-friction finding: identical-trip price dispersion and limited cross-app comparison can increase platform booking volume in the New York City model. It does not establish individual harm, trip-quality differences, equal access to alternatives, or universal effects outside the studied market."
+}

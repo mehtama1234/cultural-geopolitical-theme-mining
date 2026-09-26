@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nyserda-champlain-hudson-power-express-operation-2026",
+  "title": "Cross-border transmission can reach commercial operation before household affordability is visible",
+  "theme_ids": ["energy", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NYSERDA and New York State announcement of commercial operation of the Champlain Hudson Power Express transmission project",
+  "geography": "Quebec, Canada; New York State; New York City Zone J",
+  "observations": [
+    {
+      "period": "June 16, 2026 announcement; commercial operation reported May 13, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "named cross-border transmission project",
+        "value_type": "institutional_project_count"
+      },
+      "measures": {
+        "operating_stage": {"value": "commercial operation reached", "unit": "reported project milestone", "value_type": "reported_operation"},
+        "physical_delivery": {"value": 10.4, "unit": "terawatt-hours of clean energy expected per year delivered into the New York metro area", "value_type": "reported_expected_annual_delivery"},
+        "system_reach": {"value": 20, "unit": "percent of New York City's energy needs the project is expected to meet", "value_type": "reported_expected_share"},
+        "cross_border_dependency": {"value": "Hydro-Québec power delivered through a 339-mile transmission line into NYISO Zone J", "unit": "reported cross-border operating arrangement", "value_type": "reported_infrastructure_dependency"},
+        "public_claims": {"value": "37 million metric tons of carbon emissions expected to be reduced through 2040 and more than 1,400 construction and operations jobs supported", "unit": "reported projected public and labor effects", "value_type": "reported_projection"},
+        "household_bill_effect_and_local_acceptance": {"value": "not observed", "unit": "missing customer-level bill, affordability, reliability, burden, and durable acceptance outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official NYSERDA/New York State project announcement and NYSERDA Tier Four program page; commercial operation, delivered-energy route, cross-border dependency, and projected public effects are coded separately from realized household bills, rate allocation, reliability, and acceptance.",
+      "uncertainty": "The announcement reports commercial operation and expected annual delivery, but does not provide customer-level bill changes, rate-class allocation, actual monthly delivery series, reliability outcomes, project cost incidence, or later public acceptance. The public-health and emissions figures are projections or modeled effects rather than person-level outcomes.",
+      "subgroup": "New York City and New York State electricity customers, communities along the route, Hydro-Québec and New York system operators, construction and operations workers, and communities described as disadvantaged; subgroup-level realized effects are not reported.",
+      "counterinterpretation": "A cross-border project can create real operating capacity and reduce emissions while its costs, benefits, and reliability effects are distributed unevenly. Commercial operation does not show that a household received cheaper or more reliable service, or that host communities accepted the project over time.",
+      "source_url": "https://www.nyserda.ny.gov/About/Newsroom/2026-Announcements/2026-06-16-Governor-Hochul-Celebrates-Completion-Of-Champlain-Hudson-Power-Express-Project",
+      "comparison_source_url": "https://www.nyserda.ny.gov/All-Programs/Large-Scale-Renewables/Tier-Four",
+      "retrieval_hash": "sha256:5478d4275c76320d2fd520f7e323fc83117939fbc5dcdfa0b7286111efd3f152",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nyserda.ny.gov/All-Programs/Clean-Energy-Standard/LSE-Obligations",
+      "claim": "New York load-serving entities have a 2026 obligation tied to Tier 4 renewable energy certificates delivered through the project into NYISO Zone J.",
+      "status": "official-source",
+      "access_boundary": "The obligation and delivered-energy accounting route do not establish a household bill change or individual receipt."
+    }
+  ],
+  "boundary": "This record establishes a cross-border infrastructure project reaching commercial operation and a reported route for clean electricity delivery into New York. It does not establish realized household affordability, customer-class allocation, reliability improvement, host-community acceptance, or durable geopolitical leverage. It is an infrastructure and state-dependence realization case, not a household benefit estimate."
+}

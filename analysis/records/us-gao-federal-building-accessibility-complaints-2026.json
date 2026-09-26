@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-building-accessibility-complaints-2026",
+  "title": "A formal accessibility complaint route can exist while the people who need it do not know about it",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "GAO-26-108575 review of Architectural Barriers Act accessibility complaints concerning General Services Administration office buildings",
+  "geography": "United States federal office buildings owned or leased by GSA",
+  "observations": [
+    {
+      "period": "October 2022-June 2026; GAO report September 2026",
+      "denominator": {"value": 41, "unit": "Architectural Barriers Act complaints received about GSA office buildings", "value_type": "reported_complaint_universe"},
+      "measures": {
+        "complaints_received": {"value": 41, "unit": "ABA complaints about GSA office buildings", "value_type": "reported_count"},
+        "complaints_closed": {"value": 25, "unit": "complaints closed by the Access Board during the period", "value_type": "reported_count"},
+        "complaints_in_process": {"value": 16, "unit": "complaints still in process at the end of the reviewed period", "value_type": "reported_count"},
+        "public_awareness": {"value": "industry stakeholders, federal employee unions, and disability advocates generally said the public was unaware of the complaint route", "unit": "reported interview finding", "value_type": "reported_finding"},
+        "accessibility_endpoint": {"value": "not observed", "unit": "building-level barrier correction, user access, or later use of federal services", "value_type": "unmeasured"}
+      },
+      "method": "GAO reviewed statutes, agency documents, six GSA building sites, Access Board complaint data from October 2022 through June 2026, and interviews with GSA, Access Board, industry, union, and disability-advocacy stakeholders.",
+      "uncertainty": "The complaint counts describe reports received by a complaint-dependent enforcement system, not the prevalence of accessibility barriers. The stakeholder interviews are not a representative survey, and closure does not by itself establish timely correction, usability, or equal access.",
+      "subgroup": "People with physical disabilities, federal employees, members of the public, GSA, the Access Board, unions, industry stakeholders, and disability advocates; individual complainants and building users are not followed.",
+      "counterinterpretation": "Low complaint volume may reflect few barriers, underreporting, alternative resolution routes, or lack of awareness. Limited public awareness does not prove that every building was inaccessible or that closed complaints lacked a remedy.",
+      "source_url": "https://www.gao.gov/products/gao-26-108575",
+      "retrieval_hash": "sha256:60a2b465fa4a22e9f9e5a93fd3386f187400b0dc79794962838f65ff12c7554c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-108575/index.html", "claim": "GAO full report and accessible version for the accessibility complaint review.", "status": "official-report-context"}
+  ],
+  "boundary": "This record shows a visibility-and-contestability gap in a formal accessibility enforcement route. It does not estimate the national prevalence of barriers, prove that a particular building was corrected, or establish equal access to employment or government services.",
+  "retrieval_hash": "sha256:60a2b465fa4a22e9f9e5a93fd3386f187400b0dc79794962838f65ff12c7554c"
+}

@@ -23,7 +23,7 @@ longitudinal weight.
 
 ## Linkage and groups
 
-The April PUF has 8,850 rows and the June PUF has 8,850 rows. The exact-ID
+The April PUF has 8,850 rows and the June PUF has 7,485 rows. The exact-ID
 intersection contains 6,564 respondents. Within that linked intersection, the
 unweighted group counts are:
 

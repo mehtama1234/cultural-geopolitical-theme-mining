@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-wic-access-measurement-2026",
+  "title": "WIC reach depends on how eligibility and access are measured across places and groups",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Census-FNS-ERS Joint Project linking restricted WIC administrative records with American Community Survey data",
+  "geography": "United States; state, county, demographic, and socioeconomic estimates",
+  "observations": [
+    {
+      "period": "Current linked-data estimation program; paper published July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "WIC-eligible women, infants, children, and households estimated from linked WIC administrative and ACS data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "geographic_resolution": {
+          "value": "state and county estimates, with demographic and socioeconomic disaggregation",
+          "unit": "reported estimation scope",
+          "value_type": "reported_scope"
+        },
+        "eligibility_and_access": {
+          "value": "the project estimates who is eligible, who participates, and who remains eligible but does not access WIC",
+          "unit": "linked administrative-survey estimation targets",
+          "value_type": "reported_measurement_target"
+        },
+        "method_comparison": {
+          "value": "Census estimates and USDA/FNS estimates differ in methodology and measurement scope",
+          "unit": "reported cross-method comparison",
+          "value_type": "reported_boundary"
+        },
+        "reliability": {
+          "value": "the paper reports that the Census estimates meet high statistical reliability standards",
+          "unit": "reported estimate-quality assessment",
+          "value_type": "reported_assessment"
+        }
+      },
+      "method": "Census-FNS-ERS Joint Project linking restricted WIC administrative records with American Community Survey data to estimate WIC eligibility and access at state and county levels and by demographic and socioeconomic characteristics.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not provide the numeric state, county, or subgroup rates, linkage error, noncoverage, denominator construction, or the exact differences between Census and USDA/FNS estimates. Estimated access is not the same as application completion, benefit adequacy, food security, or child health.",
+      "subgroup": "WIC-eligible women, infants, children, and households, disaggregated by geography, demographic characteristics, and socioeconomic characteristics where the linked estimates support it.",
+      "counterinterpretation": "A lower estimated access rate can reflect true nonparticipation, program rules, clinic capacity, transportation, measurement mismatch, linkage error, or different definitions of eligibility and participation. Agreement on statistical reliability does not make the administrative and survey measures interchangeable.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-44.html",
+      "retrieval_hash": "sha256:843e029abd2cfba3206d788346e6d846694abbd3cfbac85f2d260b253ec9d43f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1433",
+      "claim": "The Census research profile identifies state/substate reach and the comparison between Census and USDA/FNS measurement scopes.",
+      "status": "official-profile-context"
+    }
+  ],
+  "boundary": "This record adds a measurement and reach layer for WIC. It does not provide numeric access rates in this extraction, establish a causal access barrier, or show benefit adequacy, nutrition, child health, household security, or political response.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official research profile reviewed; restricted WIC administrative and linked ACS microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

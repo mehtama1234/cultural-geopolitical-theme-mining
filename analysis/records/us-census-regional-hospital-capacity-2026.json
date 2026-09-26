@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-regional-hospital-capacity-2026",
+  "title": "Hospital employment can rise while the number of local hospital establishments falls",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper on U.S. hospital establishments, employment, size, and regional concentration",
+  "geography": "United States; national, regional, and rurality comparisons over roughly three decades",
+  "observations": [
+    {
+      "period": "Approximately three decades through the study period; paper published August 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. hospital establishments, employment, regions, and rural/urban comparisons; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "hospital_establishments": {
+          "value": "declining hospital counts over the study period",
+          "unit": "hospital establishments and openings/closings",
+          "value_type": "reported_trend"
+        },
+        "industry_employment": {
+          "value": "increasing employment within the hospital industry",
+          "unit": "hospital-industry employment",
+          "value_type": "reported_trend"
+        },
+        "establishment_size": {
+          "value": "increasing employees per establishment",
+          "unit": "employees per hospital establishment",
+          "value_type": "reported_trend"
+        },
+        "regional_difference": {
+          "value": "trends differ across regions and rurality; rural localities face greater access challenges, particularly in the South",
+          "unit": "regional and rurality comparison",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Census CES working paper examining hospital openings, closings, employment, employees per establishment, regional concentration, and rural/urban differences over three decades; the public abstract reports descriptive trends and relates them to the policy environment.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not provide all counts, geographic definitions, hospital types, access measures, or causal estimates. Establishment and employment trends do not directly measure travel time, service lines, prices, quality, staffing adequacy, patient outcomes, or household care burden.",
+      "subgroup": "U.S. hospital establishments, industry employment, regions, and rural/urban localities, with particular concern for rural and Southern access.",
+      "counterinterpretation": "Fewer establishments with more employees can reflect consolidation, specialization, efficiency, or hospital-system reorganization rather than uniformly worse care. More industry employment can coexist with fewer local emergency, maternity, or specialty services, but the abstract does not identify which services changed.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-51.html",
+      "retrieval_hash": "sha256:c5beaf41530732dfd7ac2b1541d203677ca9ac20fc3510d254d1ae359a6aa8ad",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/topics/research/library/working-papers.html",
+      "claim": "The Census working-paper catalog identifies the study as a national and regional hospital-establishment, employment, and concentration analysis.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a public-health infrastructure capacity pattern: fewer hospital establishments can coexist with more hospital-industry employment and larger establishments. It does not establish local access loss, care-quality change, patient outcomes, affordability, or household burden.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page and official working-paper catalog reviewed; underlying restricted establishment and employment data are not retained",
+    "checked": "2026-09-22"
+  }
+}

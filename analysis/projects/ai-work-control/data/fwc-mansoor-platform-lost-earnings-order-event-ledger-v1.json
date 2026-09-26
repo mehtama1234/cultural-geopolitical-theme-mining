@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_platform_lost_earnings_record",
+  "purpose": "Bounded Fair Work Commission case linking long-term platform work, complaint-triggered deactivation, alternative earnings, a defined lost-earnings calculation, and an ordered monetary remedy without treating the order as receipt.",
+  "events": [
+    {
+      "event_id": "FWC-MANSOOR-PLATFORM-LOST-EARNINGS-2025-10-17",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Commission UDE2025/141, Uber Driver Platform",
+      "actor_initiating_change": "platform",
+      "event_date": "2025-06-13",
+      "date_precision": "deactivation on 13 June 2025; decision and order dated 17 October 2025; reactivation ordered within 7 days",
+      "denominator": "One publicly adjudicated platform worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission decision [2025] FWC 3111",
+      "missingness": "Worker household records, exact payment execution, post-order account activity, later earnings, health, trust, recurrence, and exit are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "A driver who had worked through the Uber Driver Platform since February 2016 was deactivated after a 2025 rider complaint and older complaints were treated as a pattern, despite the Commission finding the evidence insufficient for a valid reason",
+      "alternatives_before_action": "The public record does not identify feasible alternatives before deactivation; after deactivation the worker earned $9,000 from Baysec and increased Didi earnings, which were treated as substitute earnings in the remedy calculation",
+      "immediate_burden_or_benefit": "The worker lost his primary platform income and reported severe financial hardship, distress, humiliation, and reputational damage; the Commission calculated lost earnings before substitute-earnings deductions",
+      "choice_or_response": "The worker responded to the preliminary notice, requested a discussion, gave evidence, and pursued the unfair-deactivation remedy route",
+      "person_or_actor_with_control": "Uber controlled platform access and complaint processing; riders supplied complaints; the worker controlled response and application; the Commission controlled the remedy and lost-earnings calculation",
+      "remedy_or_institutional_response": "The Commission found deactivation unfair, ordered reactivation on the same terms within 7 days, and ordered $6,073.23 gross less tax for lost earnings within 14 days",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The decision orders a defined gross amount and deadline, but no worker-confirmed receipt or bank/payment record is public",
+      "durability_followup": "The decision establishes long prior platform tenure and an ordered return route, but not post-order access, payment, recurrence, or later work",
+      "immediate_outcome": "A formal reactivation and defined lost-earnings order converted a platform-access failure into a quantified remedy, while execution remained unobserved",
+      "protected_outcome": "The order protected a route back to the platform and recognized a bounded income loss; actual cash recovery and durable earning capacity remain unknown",
+      "sacrificed_outcome": "The worker lost platform access, income, and reputational security during the dispute and had to rely partly on other work",
+      "cost_risk_transfer": "The platform's deactivation shifted income risk to the worker; the Commission shifted a quantified portion of the loss back to the platform while leaving payment execution to the order",
+      "later_outcome": "The public decision ends at the reactivation and $6,073.23 order; later receipt, account activity, earnings, trust, switching, and exit are unknown",
+      "meaning_and_attribution": "The Commission rejected a simple platform belief standard and required evidence of conduct and fair process; the worker's reported distress and reputational harm add a meaning/status dimension without a standardized trust measure",
+      "public_or_collective_response": "Individual self-represented participation and formal adjudication are observed; no later collective or political action is reported",
+      "counterexample": "A tribunal can quantify and order lost earnings while the public record still cannot show that the worker received the money or regained durable security",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2025] FWC 3111, https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf; the decision orders $6,073.23 gross less tax within 14 days but does not provide payment confirmation or later account evidence",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3111.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-MANSOOR-PLATFORM-A-01",
+      "from": "long-term platform work and complaint-triggered deactivation",
+      "to": "worker response and unfair-deactivation application",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records platform work from 2016, deactivation, a written response, discussion request, hearing evidence, and application",
+      "status": "observed",
+      "counterexample": "A formal response route does not establish that other workers can safely or effectively use it",
+      "remaining_gap": "Effort, delay, representation, household buffer, and alternative access"
+    },
+    {
+      "arrow_id": "FWC-MANSOOR-PLATFORM-A-02",
+      "from": "deactivation and primary-income loss",
+      "to": "substitute work and quantified earnings calculation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Commission used $951.03 average weekly earnings, $9,000 Baysec earnings, and an estimated $1,760 incremental Didi amount to calculate lost earnings",
+      "status": "observed",
+      "counterexample": "Substitute earnings can reduce an ordered loss without showing equivalent work, control, stability, or household adequacy",
+      "remaining_gap": "Work quality, hours, expenses, duration, household incidence, and equivalence"
+    },
+    {
+      "arrow_id": "FWC-MANSOOR-PLATFORM-A-03",
+      "from": "unfair-deactivation finding",
+      "to": "reactivation order and $6,073.23 lost-earnings order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision orders same-terms reactivation within 7 days and $6,073.23 gross less tax within 14 days",
+      "status": "observed",
+      "counterexample": "A defined order and deadline are not a verified payment or durable return",
+      "remaining_gap": "Order compliance, payment channel, receipt, taxation, account restoration, and later work"
+    },
+    {
+      "arrow_id": "FWC-MANSOOR-PLATFORM-A-04",
+      "from": "reactivation and defined lost-earnings order",
+      "to": "cash recovery, durable work, trust, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public decision does not report payment execution, later platform work, recurrence, trust, switching, or exit",
+      "status": "open",
+      "counterexample": "Quantified remedy can coexist with unobserved receipt and practical recovery",
+      "remaining_gap": "Payment receipt, post-order account activity, earnings, household security, recurrence, trust, switching, and exit"
+    }
+  ],
+  "boundary": "This case advances the platform lane from formal reactivation to a quantified lost-earnings order and substitute-work accounting. It does not establish payment receipt, durable work, or recovery.",
+  "storage_boundary": "No worker account, bank, trip, household, or platform-internal file is retained; only bounded public decision fields, dates, calculations, remedy terms, uncertainty, and open downstream arrows are represented."
+}

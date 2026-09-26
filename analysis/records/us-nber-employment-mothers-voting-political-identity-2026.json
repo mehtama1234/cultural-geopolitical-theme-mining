@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-employment-mothers-voting-political-identity-2026",
+  "title": "Employment policy can change political participation and policy preferences among lower-income mothers",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 34980; five decades of EITC expansions and 1990s welfare reform used as instruments for employment, linked to voting, registration, knowledge, civic engagement, and policy-preference outcomes",
+  "geography": "United States; lower-income mothers represented in the study's policy-induced employment design",
+  "observations": [
+    {
+      "period": "Five decades of EITC expansions and 1990s welfare reform; study-specific political-outcome follow-up",
+      "denominator": {
+        "value": null,
+        "unit": "study-specific lower-income mothers and policy-induced employment variation; denominator not reported in the NBER abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "voter_turnout": {
+          "value": "decreases when employment increases under the study's instrumented variation",
+          "unit": "reported causal direction",
+          "value_type": "reported_direction"
+        },
+        "registration_knowledge_engagement": {
+          "value": "voter registration, political knowledge, and civic engagement decline",
+          "unit": "reported political outcomes",
+          "value_type": "reported_direction"
+        },
+        "conservative_policy_preferences": {
+          "value": "increase",
+          "unit": "reported policy-preference direction",
+          "value_type": "reported_direction"
+        },
+        "largest_effect_groups": {
+          "value": "unmarried, younger, and less-educated mothers; effects are stronger outside metropolitan areas",
+          "unit": "reported heterogeneous-effect pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "racial_concentration": {
+          "value": "political shifts are concentrated among White women despite larger employment gains among non-White women",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "household_mechanism": {
+          "value": "not fully observed in the abstract",
+          "unit": "time, care, income, workplace environment, coworker network, and household-security pathway",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "The paper uses five decades of EITC expansions and 1990s welfare reform as instruments for employment and estimates political outcomes including turnout, registration, political knowledge, civic engagement, and policy preferences.",
+      "uncertainty": "The abstract does not provide the full denominator, first-stage estimates, exact effect sizes, or all design details. The result identifies the paper's policy-induced employment variation, not a universal effect of any job on every mother.",
+      "subgroup": "Lower-income mothers, with reported heterogeneity by marital status, age, education, metropolitan status, race, and prior family work exposure.",
+      "counterinterpretation": "Work can increase income, autonomy, and social contact while reducing time for voting, registration, or civic learning. Lower turnout is not automatically political apathy, and the political shift may reflect care/time strain, workplace networks, selection into jobs, or other mechanisms that require separate measurement.",
+      "source_url": "https://www.nber.org/papers/w34980",
+      "retrieval_hash": "sha256:4390009e94f15df8dbcc754b9f500d1e98d7728d4de6e1d9b6de14dfb5b71863",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w35319",
+      "claim": "Student-loan policy uncertainty is a separate belief-to-payment-and-spending route and is not pooled with the employment-to-politics estimate.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a policy-induced employment-to-political-outcome finding for lower-income mothers. It does not establish the same mother's complete work, care, income, workplace, household-security, trust, or long-term political journey, nor does it show that employment generally causes one political identity. The political endpoint is measured, but the mechanism and wider generalization remain open."
+}

@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sage-social-media-nonuse-exit-2026",
+  "title": "Social-media non-use is a reversible practice shaped by platform and social pressure",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Kim and Kim, Social Media + Society (2026), semi-structured interviews with 20 young Korean adults in their 20s who used, limited, deactivated, or deleted Instagram accounts",
+  "geography": "Republic of Korea; young adults in their 20s, used as comparative evidence for U.S.-centered platform-governance and practical-exit analysis",
+  "observations": [
+    {
+      "period": "Interviews conducted in February and March 2024; article first published March 27, 2026",
+      "denominator": {
+        "value": 20,
+        "unit": "young Korean adults in their 20s interviewed about Instagram use and intentional non-use",
+        "value_type": "qualitative_interview_sample"
+      },
+      "measures": {
+        "account_status_at_interview": {
+          "value": "11 active users; 2 deactivated; 5 deleted; 1 inactive; 1 partially deactivated",
+          "unit": "20 interview participants",
+          "value_type": "sample_composition"
+        },
+        "nonuse_process": {
+          "value": "participants described spatial-temporal limits, app-level tactics, account-level actions, and personal-use changes; attempts were nonlinear and reversible",
+          "unit": "reported non-use strategies and experiences",
+          "value_type": "qualitative_thematic_finding"
+        },
+        "exit_and_continuity_friction": {
+          "value": "participants reported platform-specific resource and UX challenges, psychological discomfort, social pressure, exclusion, incomplete disconnection, and compensating use of other platforms",
+          "unit": "reported barriers and consequences of Instagram non-use",
+          "value_type": "qualitative_thematic_finding"
+        },
+        "political_translation": {
+          "value": "participants generally did not frame personal non-use as collective or political action despite criticism of platform monetization and attention capture",
+          "unit": "reported interpretation of non-use",
+          "value_type": "qualitative_thematic_finding"
+        }
+      },
+      "method": "Semi-structured, in-depth interviews conducted in Korean and analyzed through thematic analysis; recruitment primarily used snowball sampling, with efforts to vary gender, age, occupation, and account status. The researchers report peer debriefing, negative-case analysis, and theoretical saturation after the 15th interview.",
+      "uncertainty": "This is a small, purposive qualitative sample and is not a prevalence estimate, representative user panel, platform audit, or causal evaluation. The study captures reported experience and meaning, not verified deletion completion, account reactivation telemetry, data erasure, wellbeing change, or population-level political effects.",
+      "subgroup": "20 Korean adults aged 20–29; 9 male and 11 female; occupations include students, job seekers, employed people, and career soldiers; account status differs within the sample.",
+      "counterinterpretation": "Non-use can produce meaningful relief, stronger offline relationships, and a sense of control even when it is reversible. Reported friction may reflect the social value of Instagram, ordinary ambivalence about giving up useful features, or selective recall rather than deliberate platform obstruction alone. Continued use of other platforms may preserve connection without implying equivalent harm.",
+      "source_url": "https://journals.sagepub.com/doi/10.1177/20563051261419391",
+      "retrieval_hash": "sha256:bb32f182788cf7bd0969db413beef6473e54f5cf305d2bf88b5094799fe47257",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1145/3555142",
+      "claim": "The cited CSCW account-deletion study supplies a separate interface and dark-pattern account-deletion literature context; this record does not combine its platform audit with the interview sample.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This comparative record adds a lived practical-exit and non-use mechanism: platform utility and connectivity norms can make intended exit nonlinear, reversible, socially costly, and redirected to other platforms. It does not establish U.S. prevalence, platform-wide deletion friction, successful data erasure, durable non-use, wellbeing, consumer remedy, or collective political change. Interview accounts, account-status composition, platform UX, and broader platform governance remain separate stages. The retrieval hash covers the committed official-source extract linked in the project notes."
+}

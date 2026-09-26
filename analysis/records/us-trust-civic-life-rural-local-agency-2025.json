@@ -1,0 +1,84 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-trust-civic-life-rural-local-agency-2025",
+  "title": "Rural local trust and agency can remain strong while confidence in national politics falls",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Trust for Civic Life second community survey conducted through participating Civic Hub networks",
+  "geography": "United States; rural communities represented by 24 participating Civic Hub grantee networks",
+  "observations": [
+    {
+      "period": "October 2025 survey; local and national trust, agency, and belonging",
+      "denominator": {
+        "value": 1029,
+        "unit": "survey respondents recruited through 24 Civic Hub grantee networks; 922 new and 107 returning respondents",
+        "value_type": "network_recruited_survey_sample"
+      },
+      "measures": {
+        "trust_local_organizations": {"value": 70, "unit": "average percent expressing a great deal or a lot of trust in local organizations", "value_type": "reported_average"},
+        "trust_national_organizations": {"value": 25, "unit": "average percent expressing trust in national organizations", "value_type": "reported_average"},
+        "personal_local_agency": {"value": 90, "unit": "percent saying they have power as individuals to make a positive difference where they live", "value_type": "reported_share"},
+        "collective_local_agency": {"value": 75, "unit": "approximately percent saying neighbors and local organizations can come together to solve community problems", "value_type": "reported_share"},
+        "national_voice": {"value": 11, "unit": "percent saying national leaders ensure their voice matters in the nation's direction", "value_type": "reported_share"},
+        "community_problem_solving": {"value": 75, "unit": "approximately percent saying their community comes together to solve problems", "value_type": "reported_share"}
+      },
+      "method": "Descriptive survey conducted through Civic Hub networks; source reports averages and associations between local organization/problem-solving, trust, agency, and belonging.",
+      "uncertainty": "The sample was recruited through participating grantee networks using a snowball approach and is not a probability sample of rural Americans. Reported averages mix local institutions and source-defined question frames; no causal effect is estimated.",
+      "subgroup": "Respondents connected to 24 rural community networks; the report also describes 107 respondents returning from the first survey, but most second-year respondents were new.",
+      "counterinterpretation": "People who already feel connected or capable may be more likely to join Civic Hub networks and report agency. Local trust may reflect selection, institution familiarity, community composition, or the organizations' presence rather than a general rural condition.",
+      "source_url": "https://trustforciviclife.org/6-key-findings-from-second-community-survey-report/",
+      "retrieval_hash": "sha256:072fb6d43e564f44ec71907013f9aa92a1a0a3c61b4031857ca4b5d7191c8f0c",
+      "status": "reported"
+    },
+    {
+      "period": "Fall 2024 to fall 2025; same-respondent national political trust comparison",
+      "denominator": {
+        "value": 90,
+        "unit": "returning respondents with pre-post comparisons reported in the study",
+        "value_type": "same_respondent_subsample"
+      },
+      "measures": {
+        "national_political_trust_change": {"value": -46, "unit": "percent decline in mean trust in national political institutions", "value_type": "reported_change"},
+        "local_trust_change": {"value": "held steady at robust levels", "unit": "source-reported comparison", "value_type": "reported_comparison"},
+        "local_agency_belonging_change": {"value": "held steady", "unit": "source-reported comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Descriptive pre-post comparison among the returning respondent subset; the public report does not provide a full attrition-adjusted panel design.",
+      "uncertainty": "The returning group is small and network-recruited; the transition overlaps a change in national political context. The reported percent decline is not a causal estimate of political events.",
+      "subgroup": "107 respondents returned from year one; the report presents n=90 for the displayed national/local trust comparison.",
+      "counterinterpretation": "The divergence may reflect the level of the institution being rated, local relationships, question framing, selective return, or different experiences rather than a general national-local split for all rural residents.",
+      "source_url": "https://trustforciviclife.org/wp-content/uploads/2026/06/Trust-for-Civic-Life_The-Local-Advantage_Web.pdf",
+      "retrieval_hash": "sha256:58d499da4c5a23857d9a4ed220800baecbec2d571214a71f6dfab4745e810b12",
+      "status": "compared"
+    },
+    {
+      "period": "October 2025 survey; local institution and civic-contribution pattern",
+      "denominator": {
+        "value": 1029,
+        "unit": "network-recruited respondents across 24 rural communities",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "trust_libraries_nonprofits_foundations": {"value": 80, "unit": "more than 80% average trust in each of three local institution categories", "value_type": "reported_average"},
+        "action_across_differences": {"value": 33, "unit": "approximately one-third reporting work to improve the community with people of different political viewpoints or backgrounds", "value_type": "reported_share"},
+        "agency_linked_to_leadership_not_hours": {"value": "leadership responsibility was associated with higher agency, while volunteer hours alone were not", "unit": "reported association", "value_type": "reported_association"}
+      },
+      "method": "Descriptive cross-sectional associations and source-reported participation comparisons; no intervention assignment or outcome follow-up.",
+      "uncertainty": "The categories, denominators, and association models are defined in the source report; action and leadership are self-reported and may reflect prior capacity or selection.",
+      "subgroup": "Rural respondents connected to the participating Civic Hub networks; local institution trust averages are not a national local-institution estimate.",
+      "counterinterpretation": "Leadership may be taken up by people who already possess time, confidence, status, or organizational access. Crossing political differences may mean informal contact rather than durable cooperation or agreement.",
+      "source_url": "https://trustforciviclife.org/6-key-findings-from-second-community-survey-report/",
+      "retrieval_hash": "sha256:072fb6d43e564f44ec71907013f9aa92a1a0a3c61b4031857ca4b5d7191c8f0c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://trustforciviclife.org/wp-content/uploads/2026/06/Trust-for-Civic-Life_The-Local-Advantage_Web.pdf", "claim": "Full report documents the survey recruitment, returning subset, measures, and local/national comparisons.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a network-recruited rural local-civic-capacity layer. It does not estimate rural national prevalence, establish that civic organizations caused trust or agency, show delivered material support, or prove durable political action, policy influence, or cross-community generalization.",
+  "retrieval_hash": "sha256:072fb6d43e564f44ec71907013f9aa92a1a0a3c61b4031857ca4b5d7191c8f0c"
+}

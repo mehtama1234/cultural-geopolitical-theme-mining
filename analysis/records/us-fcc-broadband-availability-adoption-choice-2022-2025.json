@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fcc-broadband-availability-adoption-choice-2022-2025",
+  "title": "Broadband availability, subscription, and provider choice are separate access stages",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Federal Communications Commission Section 706 broadband report and Connect2Health broadband data definitions",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Year-end 2023; fixed terrestrial broadband adoption",
+      "denominator": {
+        "value": 100,
+        "unit": "households in which fixed terrestrial service was available at the stated speed threshold",
+        "value_type": "published_conditional_denominator"
+      },
+      "measures": {
+        "adoption_100_20_when_available": {"value": 53, "unit": "percent of households subscribing when 100/20 Mbps service was available", "value_type": "published_estimate"},
+        "adoption_940_500_when_available": {"value": 26, "unit": "percent of households subscribing when 940/500 Mbps service was available", "value_type": "published_estimate"}
+      },
+      "method": "FCC Section 706 report calculation of fixed terrestrial connections divided by households in locations where the corresponding fixed service was available; speed thresholds are 100/20 Mbps and 940/500 Mbps.",
+      "uncertainty": "The conditional adoption denominator excludes households without qualifying availability and does not measure price, device ownership, installation success, reliability, or actual use. The report's adoption and availability data use different administrative and location-based sources.",
+      "subgroup": "United States overall, with FCC comparisons for urban, non-urban, and Tribal areas and multiple speed thresholds.",
+      "counterinterpretation": "Non-subscription can reflect affordability, information, digital literacy, preferences, device access, or measurement differences; adoption is not a pure demand or exclusion measure.",
+      "source_url": "https://docs.fcc.gov/public/attachments/FCC-24-136A1.pdf",
+      "retrieval_hash": "sha256:0690923e701baee9238c5131fcf966631fef2ffdaddf475db59277f0acdcab30",
+      "status": "reported"
+    },
+    {
+      "period": "Year-end 2022; provider choice at 100/20 Mbps",
+      "denominator": {
+        "value": 100,
+        "unit": "U.S. households under the FCC's combined wireline and terrestrial fixed-wireless provider-count comparison",
+        "value_type": "published_provider_choice_base"
+      },
+      "measures": {
+        "zero_providers": {"value": 7.9, "unit": "percent of households with no terrestrial fixed provider offering 100/20 Mbps", "value_type": "published_share"},
+        "one_provider": {"value": 37.4, "unit": "percent of households with one provider offering 100/20 Mbps", "value_type": "published_share"},
+        "two_providers": {"value": 36.6, "unit": "percent of households with two providers offering 100/20 Mbps", "value_type": "published_share"},
+        "three_or_more_providers": {"value": 18.2, "unit": "percent of households with three or more providers offering 100/20 Mbps", "value_type": "published_share"}
+      },
+      "method": "FCC Section 706 provider-count comparison using FCC broadband availability data; fixed-wireless inclusion and the report's denominator are retained.",
+      "uncertainty": "Provider count does not establish price, quality, coverage at the exact address, meaningful substitutability, or a household's ability to switch. The comparison is from 2022 while adoption is reported for 2023.",
+      "subgroup": "U.S. households, with separate FCC comparisons for wireline-only and geographic categories.",
+      "counterinterpretation": "A household with multiple advertised providers may still face a practical monopoly because of price, contract, quality, installation, or lack of a close substitute.",
+      "source_url": "https://docs.fcc.gov/public/attachments/FCC-24-136A1.pdf",
+      "retrieval_hash": "sha256:0690923e701baee9238c5131fcf966631fef2ffdaddf475db59277f0acdcab30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://c2h.fcc.gov/bh-data.html", "claim": "FCC distinguishes broadband access, adoption, speed, provider count, device ownership, and rural access in its current data platform.", "status": "official-definition-context"},
+    {"source_url": "https://docs.fcc.gov/public/attachments/FCC-24-92A1.pdf", "claim": "FCC describes the 2024 Section 706 goals and 100/20 Mbps benchmark.", "status": "official-policy-context"}
+  ],
+  "boundary": "This record adds a digital-infrastructure conversion boundary: advertised availability, subscription, provider choice, price, devices, reliability, actual use, and downstream benefit are separate stages. It does not estimate household affordability, service quality, meaningful use, or social/economic benefit.",
+  "retrieval_hash": "sha256:0690923e701baee9238c5131fcf966631fef2ffdaddf475db59277f0acdcab30"
+}

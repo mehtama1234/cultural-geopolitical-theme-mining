@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ny-psc-transmission-ratepayer-refund-2025-2026",
+  "title": "Transmission cost oversight can create a ratepayer refund route before individual bill impact is visible",
+  "theme_ids": ["cost", "voice", "energy"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "consumer_power_recourse", "public_systems_feedback", "household_room_consumption", "firm_sector_market_power"],
+  "source_unit": "New York State Department of Public Service settlement announcement concerning a transmission developer's proposal and operating costs",
+  "geography": "New York State ratepayers and transmission customers",
+  "observations": [
+    {
+      "period": "June 2, 2025 announcement; refund expected in 2026",
+      "denominator": {"value": 1, "unit": "named transmission developer settlement", "value_type": "institutional_event_count"},
+      "measures": {
+        "ratepayer_refund": {"value": 13000000, "unit": "US dollars plus interest", "value_type": "reported_refund_amount"},
+        "refund_timing": {"value": "expected in 2026", "unit": "reported future implementation timing", "value_type": "reported_timing"},
+        "identified_cost_issue": {"value": "operating and maintenance expenses appeared abnormally high; proposal-preparation costs were collected from customers", "unit": "regulatory finding/concern described by the agency", "value_type": "reported_cost_governance_issue"},
+        "forward_rule": {"value": "future proposal costs cannot automatically enter rates and require federal authorization where recovery is sought", "unit": "settlement governance condition", "value_type": "reported_control_change"},
+        "individual_bill_effect": {"value": "not yet observed", "unit": "missing customer-level outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official New York Department of Public Service announcement; settlement amount, implementation timing, regulatory finding, and forward-looking cost rule are coded separately from individual bill credits, refund receipt, adequacy, and later trust or switching.",
+      "uncertainty": "The announcement reports an expected future refund and does not identify affected customers, allocation by customer class, bill-period posting, cash or bill-credit receipt, or whether the remedy changes affordability or provider choice.",
+      "subgroup": "New York ratepayers and customers bearing transmission-related charges; customer-class distribution is not disclosed in the announcement.",
+      "counterinterpretation": "Regulatory review can protect customers and improve cost discipline while still leaving other transmission costs, rates, and household burdens unchanged; a refund may correct one charge without restoring all prior loss.",
+      "source_url": "https://dps.ny.gov/node/24921",
+      "retrieval_hash": "sha256:57d43a22785b8024087f2880b48d0147e83d9ffce01dbaaad578a676472c80b2",
+      "status": "reported"
+    },
+    {
+      "period": "June 18–24, 2026 FERC institution and refund-effective-date notice",
+      "denominator": {"value": 1, "unit": "FERC Section 206 proceeding, docket EL26-69-000", "value_type": "regulatory_proceeding"},
+      "measures": {
+        "federal_procedural_stage": {"value": "FERC instituted an investigation into whether the NYISO tariff was unjust, unreasonable, discriminatory, preferential, or otherwise unlawful", "unit": "official federal regulatory action", "value_type": "reported_procedural_action"},
+        "refund_effective_date": {"value": "June 24, 2026 Federal Register publication date", "unit": "date establishing the Section 206 refund-effective date", "value_type": "reported_regulatory_date"},
+        "bill_posting_or_receipt": {"value": "not observed", "unit": "missing customer-level bill credit, payment, allocation, and adequacy endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official FERC decisions-and-notices page and Federal Register notice rechecked against the New York DPS settlement route; federal institution and refund-effective date are retained as procedural implementation stages, not as proof of settlement payment or household receipt.",
+      "uncertainty": "The federal notice establishes the proceeding and refund-effective date but does not identify customer allocations, utility bill-period posting, cash or bill-credit receipt, or adequacy. The proceeding remains distinct from a completed retail refund.",
+      "subgroup": "New York transmission customers and utilities named in docket EL26-69-000; individual residential and commercial bill records are not present.",
+      "counterinterpretation": "A refund-effective date creates a legal and accounting pathway for later relief; it does not show that a customer saw a credit, understood it, or experienced improved household affordability.",
+      "source_url": "https://www.ferc.gov/news-events/news/decisions-notices/06182026-06182026",
+      "comparison_source_url": "https://www.federalregister.gov/documents/2026/06/24/2026-12707/new-york-independent-system-operator-inc-central-hudson-gas-electric-corporation-consolidated",
+      "retrieval_hash": "sha256:5a84868d71e2afab585c17790add5677212626511b0198d1c3b899925b6ed674",
+      "status": "reported"
+    },
+    {
+      "period": "June 2025 settlement implementation explanation; 2026 expected credit route",
+      "denominator": {
+        "value": 1,
+        "unit": "municipal-utility association explanation of the named New York transmission refund",
+        "value_type": "implementation_context"
+      },
+      "measures": {
+        "credit_mechanism": {
+          "value": "the refund is expected to appear as credits to monthly transmission charges on a load-ratio-share basis",
+          "unit": "reported wholesale/transmission charge allocation route",
+          "value_type": "reported_implementation_mechanism"
+        },
+        "itemization_limit": {
+          "value": "individual systems may not see the credit separately itemized on an invoice while receiving a pro-rata share of the benefit",
+          "unit": "reported bill-visibility limitation",
+          "value_type": "reported_observability_boundary"
+        },
+        "household_bill_or_receipt": {
+          "value": "not observed",
+          "unit": "missing retail bill-period credit, customer allocation, receipt, adequacy, and durable affordability",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Implementation-context extraction from a municipal-utility association newsletter hosted by the Village of Skaneateles; the expected transmission-charge credit mechanism is retained separately from verified utility filing, bill posting, and customer receipt.",
+      "uncertainty": "The explanation describes the anticipated allocation route but does not provide utility-by-utility credit calculations, a filed bill-period schedule, customer-class amounts, or evidence that the expected credits were posted or received.",
+      "subgroup": "New York municipal and other electric utilities and their transmission-charge customers; no customer-level billing sample is supplied.",
+      "counterinterpretation": "A pro-rata wholesale credit can reduce system costs without appearing as a labeled household credit; conversely, a non-itemized credit can make the consumer benefit difficult to observe or contest.",
+      "source_url": "https://www.villageofskaneateles.gov/media/15416",
+      "retrieval_hash": "sha256:7bcd14e1777c9e92854a9cfee3c41fc251a78c39085d7bee837e29f6f806415b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nypa.gov/News/Press-Releases/2026/20260622-smarthpath", "claim": "Smart Path Connect provides a separate physical-realization and reported system-savings comparison for transmission infrastructure.", "status": "related", "access_boundary": "The NYPA project and the NextEra NY settlement concern different transmission routes and cannot be pooled into one customer outcome."}
+  ],
+  "boundary": "This record establishes a regulatory cost-review and expected ratepayer-refund stage for a named transmission developer. It does not establish the affected customer denominator, bill posting, cash receipt, adequacy, correction of residual loss, reliability change, trust, switching, or durable household affordability. The case is a consumer-power and infrastructure-governance bridge, not a household recovery estimate.",
+  "retrieval_hash": "sha256:57d43a22785b8024087f2880b48d0147e83d9ffce01dbaaad578a676472c80b2"
+}

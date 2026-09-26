@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ai-diffusion-firm-function-task-btos-2026",
+  "title": "AI adoption is layered: firm use, business deployment, and worker task use do not always move together",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Census Center for Economic Studies Working Paper CES-26-25, The Microstructure of AI Diffusion: Evidence From Firms, Business Functions, and Worker Tasks",
+  "geography": "United States; nationally representative 2026 Business Trends and Outlook Survey AI supplement",
+  "observations": [
+    {
+      "period": "November 2025–January 2026 supplement reference period; expected adoption within six months; working paper April 2026",
+      "denominator": {
+        "value": null,
+        "unit": "nationally representative BTOS firms and employment-weighted firm measures; public abstract does not disclose the analytic sample size",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "firm_function_use": {
+          "value": "18% of firms used AI in at least one business function; 32% on an employment-weighted basis",
+          "unit": "share of firms or workers represented by firms using AI in a business function",
+          "value_type": "reported_share"
+        },
+        "expected_adoption": {
+          "value": "22% of firms expected to use AI within six months",
+          "unit": "share of firms",
+          "value_type": "reported_expectation"
+        },
+        "large_firm_sector_gap": {
+          "value": "use reached 50%–60% of very large firms, or 60%–70% employment-weighted, in Information, Professional Services, and Finance",
+          "unit": "firm and employment-weighted AI-use share by firm size and sector",
+          "value_type": "reported_comparison"
+        },
+        "worker_task_use": {
+          "value": "23% of firms, or 41% employment-weighted, had workers using AI in work-related tasks",
+          "unit": "share of firms or workers represented by firms reporting work-related AI task use",
+          "value_type": "reported_share"
+        },
+        "limited_scope": {
+          "value": "57% of adopting firms used AI in three or fewer business functions, and 65% limited use to three or fewer tasks",
+          "unit": "share of adopting firms",
+          "value_type": "reported_share"
+        },
+        "augmentation": {
+          "value": "66% of users relied on AI solely to augment tasks",
+          "unit": "share of AI users",
+          "value_type": "reported_share"
+        },
+        "employment_decreases": {
+          "value": "AI-related employment decreases were reported by 2% of firms; functional breadth and operational investment were positively associated with employment decreases, while worker-task integration was not significantly linked to headcount reduction after controls",
+          "unit": "firm-reported employment change and regression association",
+          "value_type": "reported_association"
+        },
+        "worker_control": {
+          "value": "not observed as a linked worker-level path through task change, monitoring, pay, bargaining, job quality, or exit",
+          "unit": "missing worker outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "The study uses nationally representative data from the 2026 Census Business Trends and Outlook Survey AI supplement and describes AI use across firm adoption, business functions, and worker tasks. It also estimates associations between integration breadth, operational investment, commercial performance, and employment decreases.",
+      "uncertainty": "This is a working paper based on firm reports during an early AI diffusion window. Adoption, expected adoption, task use, and employment decrease are different measures and are not a person-level causal panel. The abstract does not provide the analytic sample size, and the regression associations do not establish that AI caused employment changes or commercial performance.",
+      "subgroup": "Firms and employment-weighted firms by size, sector, business function, and worker-task use; the strongest adoption appears in large firms and knowledge-intensive sectors.",
+      "counterinterpretation": "Employment decreases may reflect restructuring, demand, or other technology and business changes rather than AI alone. Worker-task use without formal firm adoption may reflect informal experimentation, while firm adoption without task use may reflect planning or unused capability. High employment-weighted adoption reflects workers in larger firms, not the experience of a typical small firm.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+      "retrieval_hash": "sha256:e5d921baf5fb09d4e2fd29fd24c3471552581455452cc04ea2fd2fad550ad802",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf",
+      "claim": "Official Census CES paper provides the three-layer AI diffusion measures and firm-level employment associations.",
+      "status": "official-working-paper"
+    }
+  ],
+  "boundary": "This record adds a multi-layer AI diffusion measurement: firm adoption, functional deployment, worker task use, augmentation, and employment change are separate surfaces. It does not estimate individual AI use, worker control, causal job loss, household welfare, or long-run productivity.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census CES landing-page abstract and working-paper PDF reviewed; restricted-use BTOS microdata are not retained.",
+    "pdf_sha256": "sha256:e5d921baf5fb09d4e2fd29fd24c3471552581455452cc04ea2fd2fad550ad802",
+    "checked": "2026-09-23"
+  }
+}

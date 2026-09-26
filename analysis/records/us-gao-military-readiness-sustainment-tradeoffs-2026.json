@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-military-readiness-sustainment-tradeoffs-2026",
+  "title": "Military modernization and operational demand can coexist with readiness and sustainment gaps",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108888, Military Readiness: DOD Should Take Further Actions to Address Challenges Across the Air, Sea, Ground, and Space Domains",
+  "geography": "United States Department of Defense; air, sea, ground, and space readiness evidence summarized from GAO work since 2022",
+  "observations": [
+    {
+      "period": "GAO readiness work summarized in March 2026",
+      "denominator": {"value": 200, "unit": "approximately the number of GAO recommendations across the readiness reports summarized; more than 150 still required additional DOD action", "value_type": "reported_approximate_count"},
+      "measures": {
+        "availability_goals": {"value": "generally not met", "unit": "DOD current-force availability goals for aircraft, ships, vehicles, and personnel required to operate and maintain them", "value_type": "reported_assessment"},
+        "sustainment": {"value": "persistent challenges", "unit": "maintenance, logistics, repair, personnel, training, and data problems across domains", "value_type": "reported_assessment"},
+        "quality_of_life": {"value": "poor housing and fatigue identified as readiness factors", "unit": "reported personnel and institutional conditions affecting readiness", "value_type": "reported_mechanism"}
+      },
+      "method": "GAO testimony synthesizing published readiness, operations, maintenance, personnel, and training reviews across the military services, with interviews of responsible officials.",
+      "uncertainty": "This is a cross-report oversight synthesis, not one common readiness denominator or a new causal estimate. Availability measures differ by service and system; classified information and ongoing work are not fully visible in the public testimony.",
+      "subgroup": "Air, sea, ground, and space domains; military services and readiness functions differ in goals, measures, and constraints.",
+      "counterinterpretation": "A readiness gap in one fleet or function does not mean the entire force is unusable. Some recommendations may be implemented after the testimony, and operational risk depends on mission, location, substitution, allies, and time horizon.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108888/index.html",
+      "retrieval_hash": "sha256:8e05fad56fc94f1a5b0d0a5e119891e16ca5dfa992c4ff8da8024fdfbed81f8b",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal years 2020–2024; Army watercraft fleet",
+      "denominator": {"value": 70, "unit": "Army watercraft in the fleet discussed by GAO", "value_type": "reported_fleet_count"},
+      "measures": {
+        "fully_mission_capable_rate_2020": {"value": 75, "unit": "percent of Army watercraft fleet fully mission capable in 2020", "value_type": "reported_rate"},
+        "fully_mission_capable_rate_2024": {"value": "less than 40", "unit": "percent of Army watercraft fleet fully mission capable in 2024", "value_type": "reported_rate"},
+        "policy_goal": {"value": 90, "unit": "percent fully mission capable goal identified in Army policy for ground equipment including watercraft", "value_type": "reported_policy_goal"}
+      },
+      "method": "GAO summary of Army watercraft readiness and maintenance findings, including fleet size, mission-capable rates, maintenance delays, handwritten maintenance systems, and governance gaps.",
+      "uncertainty": "The watercraft series is one fleet example and does not represent all Army or DOD equipment. A mission-capable rate is not the same as combat effect, availability at the point of need, crew readiness, or partner contribution.",
+      "subgroup": "Army watercraft fleet used for transport, exercises, and humanitarian missions, including Indo-Pacific requirements.",
+      "counterinterpretation": "Modernization or acquisition could change future readiness, and the reported rate does not show whether other assets substituted for watercraft missions or how operational priorities changed.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108888/index.html",
+      "retrieval_hash": "sha256:8e05fad56fc94f1a5b0d0a5e119891e16ca5dfa992c4ff8da8024fdfbed81f8b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-108888", "claim": "GAO product page identifies the testimony, scope, and publication details for the military-readiness synthesis.", "status": "official-summary"}
+  ],
+  "boundary": "This record shows a readiness-conversion problem: military activity, modernization, and strategic demand can coexist with maintenance, personnel, quality-of-life, data, and availability gaps. It does not establish overall military weakness, deterrence failure, combat performance, ally willingness, or an attributed geopolitical outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO public testimony HTML report retrieved and hashed; underlying service readiness data and classified reports not retained",
+    "html_sha256": "sha256:8e05fad56fc94f1a5b0d0a5e119891e16ca5dfa992c4ff8da8024fdfbed81f8b",
+    "checked": "2026-09-22"
+  }
+}

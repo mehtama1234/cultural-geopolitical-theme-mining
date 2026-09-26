@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-americorps-civic-reach-time-2023",
+  "title": "Civic participation can rebound in reach while thinning in time",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau Current Population Survey Civic Engagement and Volunteering Supplement, analyzed by Census Bureau and AmeriCorps",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "September 2022 through September 2023; formal volunteering",
+      "denominator": {
+        "value": 100,
+        "unit": "U.S. population age 16 and older",
+        "value_type": "published_survey_base"
+      },
+      "measures": {
+        "formal_volunteering_2023": {"value": 28.3, "unit": "percent", "value_type": "published_share"},
+        "formal_volunteering_2021": {"value": 23.2, "unit": "percent", "value_type": "published_comparison"},
+        "informal_neighbor_help_2023": {"value": 54.2, "unit": "percent reporting help or exchanged favors with neighbors", "value_type": "published_share"},
+        "informal_neighbor_help_2019": {"value": 51.7, "unit": "percent", "value_type": "published_comparison"}
+      },
+      "method": "Published summary statistics from the 2023 CPS Civic Engagement and Volunteering Supplement; formal organizational volunteering and informal neighbor help are retained as separate activities.",
+      "uncertainty": "The activity windows and denominators differ across measures. Repeated cross-sectional estimates do not identify matched-person change, causal drivers, or whether help was adequate or sustained.",
+      "subgroup": "U.S. population age 16 and older; the source also reports virtual or hybrid volunteering among formal volunteers.",
+      "counterinterpretation": "The rebound may partly reflect recovery from pandemic lows rather than a durable increase in civic capacity; informal help may substitute for or supplement formal organizations.",
+      "source_url": "https://www.census.gov/library/stories/2024/11/civic-engagement-and-volunteerism.html",
+      "retrieval_hash": "sha256:f604d1fb164750dbd1a54b8c38a616ff50e6c07f7c69ce12ddc0497c597a7c34",
+      "status": "reported"
+    },
+    {
+      "period": "2017 through 2023; annual time intensity among formal volunteers",
+      "denominator": {
+        "value": 100,
+        "unit": "formal volunteers in the relevant CPS supplement estimates",
+        "value_type": "published_activity_denominator"
+      },
+      "measures": {
+        "mean_hours_2017": {"value": 96.5, "unit": "hours in prior year", "value_type": "published_comparison"},
+        "mean_hours_2023": {"value": 70.0, "unit": "hours in prior year", "value_type": "published_estimate"},
+        "median_hours_2017": {"value": 40.0, "unit": "hours in prior year", "value_type": "published_comparison"},
+        "median_hours_2023": {"value": 24.0, "unit": "hours in prior year", "value_type": "published_estimate"},
+        "online_or_hybrid_2023": {"value": 18.0, "unit": "percent of formal volunteers", "value_type": "published_share"},
+        "online_or_hybrid_mean_hours": {"value": 95.0, "unit": "hours in prior year", "value_type": "published_estimate"},
+        "in_person_only_mean_hours": {"value": 64.0, "unit": "hours in prior year", "value_type": "published_comparison"}
+      },
+      "method": "Published comparison of volunteer time intensity and online or hybrid participation; hours are not interpreted as service quality or organizational effectiveness.",
+      "uncertainty": "The comparison does not reveal who reduced hours, why hours changed, whether online work replaced travel, or whether shorter commitments reduced or improved local capacity.",
+      "subgroup": "Formal volunteers, with an online/hybrid versus in-person-only comparison; subgroup composition and task mix may differ.",
+      "counterinterpretation": "Lower average hours can reflect broader entry into volunteering, changing task design, more flexible participation, or reduced capacity caused by work, care, health, money, or transport constraints.",
+      "source_url": "https://www.census.gov/library/stories/2024/11/civic-engagement-and-volunteerism.html",
+      "retrieval_hash": "sha256:f604d1fb164750dbd1a54b8c38a616ff50e6c07f7c69ce12ddc0497c597a7c34",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/newsroom/press-releases/2024/civic-engagement-volunteering-supplement.html", "claim": "The Census Bureau released the 2023 CEV microdata and describes its civic-engagement measures.", "status": "official-method-context"},
+    {"source_url": "https://americorps.gov/sites/default/files/document/CEV2023_HeadlineReport_11052024_final_508.pdf", "claim": "AmeriCorps headline tables provide the reported participation and time-intensity comparisons.", "status": "official-analysis-context"}
+  ],
+  "boundary": "This record establishes a broad participation-and-time pattern, not a matched-person panel or a measure of civic efficacy, trust, belonging, policy influence, local repair, volunteer retention, or later political action. Formal volunteering and informal neighbor help are separate denominators.",
+  "retrieval_hash": "sha256:f604d1fb164750dbd1a54b8c38a616ff50e6c07f7c69ce12ddc0497c597a7c34"
+}

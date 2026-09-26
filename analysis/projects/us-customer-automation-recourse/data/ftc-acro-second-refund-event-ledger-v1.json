@@ -1,0 +1,96 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_recipient_conditioned_consumer_refund_record",
+  "purpose": "Preserve a repeat FTC refund route conditioned on prior payment acceptance without converting checks sent into checks cashed or debt recovery.",
+  "events": [
+    {
+      "event_id": "FTC-ACRO-SECOND-REFUND-2026",
+      "unit": "case",
+      "geography": "United States; ACRO Services debt-relief refund route",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-19",
+      "date_precision": "Current official FTC refund page; first-payment month is January 2025 and second-round timing is not separately dated on the page",
+      "denominator": "5,685 second-round checks sent to people who accepted the first payment; more than $6.2 million in second-round checks; first round reported as more than $3.8 million",
+      "method": "Structured extraction from the current official FTC ACRO Services refund page",
+      "missingness": "No recipient identifiers, individual amount, second-check cashing, debt balance, account correction, residual fees, household outcome, trust, switching, or exit",
+      "condition_or_decision": "payment",
+      "exposure": "ACRO Services allegedly charged large upfront fees while falsely promising credit-card debt relief and sometimes told consumers to stop making payments",
+      "alternatives_before_action": "Consumers could continue dealing with card issuers, seek other debt-relief or complaint routes, or remain with the debt and fees; person-level alternatives are not published",
+      "immediate_burden_or_benefit": "The first refund was accepted by the second-round recipient universe, but the underlying debt and account position are not measured",
+      "choice_or_response": "The FTC sent a second check to prior first-payment recipients; individual cashing, non-use, or reissue is not observed",
+      "person_or_actor_with_control": "FTC and refund administrator control the distribution route; recipients control whether and when to cash within the payment conditions",
+      "remedy_or_institutional_response": "A second refund round is reported for 5,685 people who accepted the first payment, totaling more than $6.2 million",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "Prior first-payment acceptance is reported for the eligible second-round universe; the second-check receipt or cashing is not verified",
+      "durability_followup": "Debt/account correction, residual burden, continued provider use, trust, switching, and exit remain open",
+      "immediate_outcome": "A repeat remedy is targeted to a recipient-conditioned group",
+      "protected_outcome": "Prior recipients received an additional payment offer by check; complete financial restoration is not established",
+      "sacrificed_outcome": "Remaining debt, fees, credit effects, and any uncashed second payment are not observed",
+      "cost_risk_transfer": "The payment route still places cashing, timing, and account-level recovery risk with recipients",
+      "later_outcome": "Second-check cashing, account correction, residual loss, household security, trust, switching, and exit remain open",
+      "meaning_and_attribution": "No recipient-level fairness, trust, or legitimacy response is observed",
+      "public_or_collective_response": "FTC enforcement and refund administration are visible; consumer organizing or political action is not",
+      "counterexample": "A repeat check sent to prior recipients is stronger than an aggregate fund announcement but does not prove the second payment was received or the debt problem was repaired",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Current FTC ACRO Services refund page; checks sent and prior acceptance are reported program-level facts, not individual second-payment receipt or recovery",
+      "source_url": "https://www.ftc.gov/enforcement/refunds/acro-services-refunds"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-ACRO-A-01",
+      "from": "debt-relief deception and upfront fees",
+      "to": "first refund acceptance",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC states that the first refund round produced more than $3.8 million and the second round targeted people who accepted the first payment",
+      "status": "reported",
+      "counterexample": "The public page does not provide the harmed population, individual loss, or first-payment amount",
+      "remaining_gap": "Claimant-level original harm and first-payment linkage"
+    },
+    {
+      "arrow_id": "FTC-ACRO-A-02",
+      "from": "first refund acceptance",
+      "to": "second refund check sent",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC reports 5,685 second-round checks totaling more than $6.2 million to people who accepted their first payment",
+      "status": "reported",
+      "counterexample": "A second check sent is not a second check cashed or an adequate recovery",
+      "remaining_gap": "Recipient-level second-payment issuance, receipt, cashing, and amount"
+    },
+    {
+      "arrow_id": "FTC-ACRO-A-03",
+      "from": "repeat refund",
+      "to": "debt or account correction and restored financial room",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC page reports refund payments but no debt-balance or account-correction outcome",
+      "status": "open",
+      "counterexample": "A refund can coexist with remaining debt, fees, credit effects, or inadequate recovery",
+      "remaining_gap": "Debt/account correction, residual burden, household adaptation, and security"
+    },
+    {
+      "arrow_id": "FTC-ACRO-A-04",
+      "from": "second refund receipt",
+      "to": "trust, switching, continued use, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official page supplies no later consumer behavior or trust follow-up",
+      "status": "open",
+      "counterexample": "Receiving a second payment does not reveal whether consumers changed providers or regained trust",
+      "remaining_gap": "Same-consumer later financial behavior, trust, switching, and exit"
+    },
+    {
+      "arrow_id": "FTC-ACRO-A-05",
+      "from": "second refund checks sent to prior first-payment acceptors",
+      "to": "second refund checks cashed",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The FTC reports that 5,685 second-round checks were sent and instructs recipients to cash them within 90 days; the public page does not report later cashing",
+      "status": "open",
+      "counterexample": "Prior first-payment acceptance does not establish receipt or cashing of the second check",
+      "remaining_gap": "Second-check delivery, cashing, amount, timing, and any failed or returned payment"
+    }
+  ]
+}

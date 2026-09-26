@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-tunisia-water-scarcity-growth-jobs-2026",
+  "title": "Tunisia’s water scarcity is a macroeconomic, labor, infrastructure, and household-security constraint rather than only an environmental risk",
+  "theme_ids": ["cost", "energy", "work", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "World Bank Tunisia Economic Monitor press release, Tunisia's Water Challenge: From Scarcity to Resilience, published September 22, 2026",
+  "geography": "Tunisia",
+  "observations": [
+    {
+      "period": "2025-2050; water scarcity, growth, labor exposure, and economic risk",
+      "denominator": {
+        "value": null,
+        "unit": "Tunisia national macroeconomic, water, labor, and sector indicators; no single respondent or firm denominator is used",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "renewable_freshwater_availability": {
+          "value": 380,
+          "unit": "cubic meters of renewable freshwater available per person per year",
+          "value_type": "reported_resource_indicator"
+        },
+        "growth_path": {
+          "value": "Real GDP growth reached 2.7% in 2025 and 2.4% year-on-year in the first half of 2026; growth is projected at 2.3% in 2026 and an average 2.1% over 2027-2028",
+          "unit": "percent real GDP growth",
+          "value_type": "reported_and_projected_macro_series"
+        },
+        "water_scarcity_gdp_risk": {
+          "value": 6.4,
+          "unit": "percent potential GDP reduction by 2050 under water-scarcity conditions, as estimated by the World Bank report",
+          "value_type": "modeled_long_run_risk"
+        },
+        "agricultural_labor_exposure": {
+          "value": "Agriculture employs 14% of the national workforce and up to half of rural workers; without action, water and climate stress could eliminate at least 30% of agricultural jobs by mid-century",
+          "unit": "reported employment shares and modeled job-risk estimate",
+          "value_type": "reported_and_modeled_labor_exposure"
+        },
+        "spillover_sectors": {
+          "value": "The report identifies potential consequences beyond farms for tourism, agro-processing, industry, and other water-dependent sectors",
+          "unit": "named sector exposure route",
+          "value_type": "reported_cross_sector_mechanism"
+        }
+      },
+      "method": "World Bank economic-monitor synthesis combining water-resource conditions, macroeconomic indicators, labor-market data, sector exposure, climate and demand pressures, and modeled long-run risk estimates.",
+      "uncertainty": "The 6.4% GDP and 30% agricultural-job figures are modeled or estimated long-run risks, not observed losses. The release does not specify the full model, counterfactual, geographic distribution, adaptation assumptions, or which workers and households absorb the risk.",
+      "subgroup": "Tunisian agricultural workers, rural workers, water-dependent sectors, women workers, and households exposed to water and price pressures; women’s unemployment was 21.6% in the second quarter of 2026 versus 14.9% overall unemployment as reported in the release.",
+      "counterinterpretation": "Rainfall and reservoir improvements provided short-term relief, and sector recovery can coexist with structural scarcity. Adaptation, imports, technology, labor reallocation, and water governance may reduce realized losses relative to modeled risks, while also redistributing costs.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-stronger-water-management-could-unlock-growth-protect-jobs",
+      "retrieval_hash": "sha256:a4ade5a7e0a02ac7c02bc830b939739247def8c984a82e0a3d971f70425775c4",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2050; water-governance, infrastructure, provider-finance, and adaptation route",
+      "denominator": {
+        "value": 2050,
+        "unit": "target year for Tunisia's Plan Eau 2050",
+        "value_type": "planning_horizon"
+      },
+      "measures": {
+        "planned_annual_investment": {
+          "value": 900,
+          "unit": "millions of U.S. dollars in envisioned annual Plan Eau 2050 investment through mid-century",
+          "value_type": "published_planning_target"
+        },
+        "reseau_job_expectation": {
+          "value": "The World Bank-supported RESEau program is expected to generate around 4,000 permanent jobs and 13,400 temporary jobs during its first phase",
+          "unit": "planned jobs",
+          "value_type": "published_program_expectation"
+        },
+        "governance_and_finance_route": {
+          "value": "The report says infrastructure investment must be paired with stronger water governance, financial sustainability, and service-provider performance",
+          "unit": "reported implementation condition",
+          "value_type": "reported_policy_mechanism"
+        },
+        "identified_reform_measures": {
+          "value": "Modernize the Water Code, establish treated-wastewater reuse, improve cost recovery while protecting vulnerable households, reduce network losses, expand digitalization, and strengthen irrigation management",
+          "unit": "named reform measures",
+          "value_type": "reported_reform_agenda"
+        }
+      },
+      "method": "Extraction of the monitor's planning horizon, investment scale, RESEau employment expectation, and governance/service-provider reform route; these are kept as planned inputs and conditions rather than realized outcomes.",
+      "uncertainty": "The release does not provide disbursement, project completion, leakage reduction, tariff changes, service reliability, household affordability, or job verification. Cost recovery may strengthen providers while increasing burdens for users unless protection is implemented and reaches vulnerable households.",
+      "subgroup": "Water-service providers, agricultural water users, vulnerable households, irrigation users, workers in resilience projects, and sectors dependent on water reliability.",
+      "counterinterpretation": "Digitalization, reuse, and cost recovery can improve sustainability but may create exclusion, price, or maintenance risks. Planned investment and temporary jobs do not establish durable service access, permanent livelihoods, or equitable water allocation.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/22/world-bank-stronger-water-management-could-unlock-growth-protect-jobs",
+      "retrieval_hash": "sha256:a4ade5a7e0a02ac7c02bc830b939739247def8c984a82e0a3d971f70425775c4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record adds a water-scarcity, macroeconomic, labor-exposure, infrastructure-finance, service-provider, and household-protection layer. It does not infer realized water shortages, tariff incidence, household deprivation, job losses, project completion, provider performance, or successful climate adaptation from modeled risks and policy plans.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Tunisia water-management press-release page retrieved and hashed; freshwater availability, growth path, modeled GDP and agricultural-job risk, employment exposure, Plan Eau 2050 investment, RESEau job expectations, and reform conditions cross-checked against the publication.",
+    "html_sha256": "sha256:a4ade5a7e0a02ac7c02bc830b939739247def8c984a82e0a3d971f70425775c4",
+    "checked": "2026-09-26"
+  }
+}

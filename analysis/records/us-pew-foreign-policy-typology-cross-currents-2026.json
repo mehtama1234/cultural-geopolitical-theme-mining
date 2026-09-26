@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-foreign-policy-typology-cross-currents-2026",
+  "title": "Foreign-policy values cross-cut U.S. political coalitions",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "geopolitical_state_consequences", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center 2026 Political Typology survey of the American Trends Panel",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "November 17-30, 2025; nine-group political typology",
+      "denominator": {"value": 10357, "unit": "U.S. adults in the American Trends Panel", "value_type": "survey_sample"},
+      "measures": {
+        "superpower_importance_national": {"value": 71, "unit": "percent saying sole military superpower status is at least somewhat important", "value_type": "published_share"},
+        "allies_compromise_national": {"value": 62, "unit": "percent saying the U.S. should consider allies' interests even when compromise is required", "value_type": "published_share"},
+        "leftward_progressives_superpower": {"value": 14, "unit": "percent saying sole-superpower status is at least somewhat important", "value_type": "published_share"},
+        "leftward_progressives_allies": {"value": "overwhelming majority", "unit": "group position favoring consideration of allies' interests even with compromise", "value_type": "reported_group_pattern"},
+        "no_apologies_right_own_interests": {"value": "overwhelming majority", "unit": "group position favoring following U.S. interests when allies disagree", "value_type": "reported_group_pattern"},
+        "nato_group_split": {"value": "most groups favorable; seven-in-ten or more unfavorable in No Apologies Right and Faith First Conservatives", "unit": "reported typology contrast", "value_type": "reported_group_pattern"}
+      },
+      "method": "Descriptive comparison of foreign-policy questions across nine cluster-derived political typology groups; the typology uses 30 value and attitude questions.",
+      "uncertainty": "The survey measures stated judgments at one field period. Cluster boundaries, question wording, partisan composition, and current events can shape the group contrasts; the source does not identify causal mechanisms or durable identities.",
+      "subgroup": "Nine Pew political typology groups, including groups that are internally cross-pressured and groups with different partisan orientations.",
+      "counterinterpretation": "Support for military primacy can coexist with support for alliances, and opposition to primacy can coexist with strong alliance support. A stated preference does not establish defense spending, burden sharing, willingness to fight, government policy, alliance durability, or foreign reaction.",
+      "source_url": "https://www.pewresearch.org/politics/2026/06/10/how-foreign-policy-values-and-issues-cut-across-the-political-typology-groups/",
+      "retrieval_hash": "sha256:7f7e7d3f8b1cb1f7e3aa8e08d0d80fa9b7bf3e9c5d8c4b1e7d0a6ef9a9a7be77",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/06/PP_2026.5.10_political-typology_report.pdf", "claim": "The companion report documents the survey design, nine-group typology, and detailed tables.", "status": "official-report-context"}],
+  "boundary": "This record adds a cross-pressure map of U.S. foreign-policy values within domestic political coalitions. It does not follow respondents into voting, protest, defense spending, military service, alliance burden sharing, government decisions, partner consent, or external geopolitical behavior.",
+  "retrieval_hash": "sha256:7f7e7d3f8b1cb1f7e3aa8e08d0d80fa9b7bf3e9c5d8c4b1e7d0a6ef9a9a7be77"
+}

@@ -19,3 +19,5 @@ Move on after one source identifies a policy-driven change in sentiment, one sou
 ## Matched evidence pass
 
 The first matched check is [A cash benefit can change the household budget and the economic mood](../../findings/us-cash-policy-matched-evidence-001.md), with its [HTML reading page](../../../site/us-cash-policy-matched-evidence-001.html) and [claims ledger](claims-ledger-v1.md). It confirms changes in spending, housing room, living arrangements, and sentiment while leaving trust and voting open.
+
+The bounded CTC pass adds [Finding 002](findings/us-policy-sentiment-cash-benefit-002.md): losing the expanded 2021 Child Tax Credit was associated with a lower consumer-sentiment score, especially for lower-income families with multiple children. It does not establish a change in voting, trust, or spending.

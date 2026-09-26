@@ -4,15 +4,31 @@
 
 This is the execution queue for the broader societal, cultural, consumer, financial, institutional, and political program. It is not a one-household study. The household calendar is one possible longitudinal instrument; the main work compares populations, places, customers, workers, firms, markets, agencies, and political measures across source families.
 
-## Current restart checkpoint — 2026-09-17
+Use the [theme/subtheme map](US-BROAD-THEME-SUBTHEME-MAP_V1.md) to preserve
+the full 14-theme scope, the [theme crosswalk](US-BROAD-THEME-CROSSWALK_V1.md)
+to translate between the five reader umbrellas and those 14 themes. The
+[current 14-theme readout](US-BROAD-CURRENT-14-THEME-READOUT_V1.md) gives the
+plain-language picture of what appears to be changing across the full program;
+the [current societal, cultural, and political readout](US-BROAD-CURRENT-SOCIETAL-CULTURAL-POLITICAL-READOUT_V1.md)
+is the integrated broad answer, and the [broad data-source map](US-BROAD-DATA-SOURCE-MAP_V1.md)
+records what each evidence family can and cannot show. The [societal subtheme
+concept register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md) collects
+the recurring interpretations, representative source anchors, and next tests;
+the
+[current theme pulse](US-BROAD-CURRENT-THEME-PULSE_V1.md) plus [interesting
+findings brief](US-BROAD-INTERESTING-FINDINGS_V1.md) to choose the next
+cross-domain question. A depth lane may strengthen one arrow, but it must not
+become the definition of the program.
+
+## Current restart checkpoint — 2026-09-21
 
 The broad program remains active across all 14 themes. The current audit finds
 evidence anchors in every theme, with `Compared` present in all 14 rows,
 `Reported` in 12, `Inferred` in 3, and an explicitly `Open` end-to-end link in
-4. These counts describe the evidence map; they do not imply that any theme
+5. These counts describe the evidence map; they do not imply that any theme
 has a completed same-unit causal chain.
 
-The highest-value unresolved bridge remains:
+The highest-value **depth** bridge remains:
 
 ```text
 dated material or institutional exposure
@@ -22,14 +38,50 @@ dated material or institutional exposure
   -> persistence, recovery, switching, non-use, or exit
 ```
 
-The storage-aware next action is an authenticated PSID 2019/2021/2023
-structural extract, or one compact event-compatible public/administrative
-ledger that preserves a stable unit through the same stages. Existing SIPP,
-MEPS, SHED, CFPB, workplace, place, and geopolitical layers remain valuable
-context and counterexamples, but they must not be pooled into a fictitious
-same-person chain. No bulk download is authorized by this checkpoint; if the
-next candidate lacks timing, alternatives, remedy, or follow-up, record the
-gap and rotate to the next lane.
+The starting action is source-led discovery across the available registry:
+extract each source's observed condition, affected unit, mechanism, subgroup
+difference, response, counterexample, and limit; cluster compatible evidence
+into social, cultural, consumer, institutional, political, firm,
+infrastructure, and geopolitical **subthemes**; then test whether a recurring
+pattern warrants promotion to the trend register. The [source map](US-BROAD-DATA-SOURCE-MAP_V1.md), [subtheme concept register](US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md),
+and [trend-extraction protocol](US-BROAD-TREND-EXTRACTION-PROTOCOL_V1.md) are
+the primary operating instruments. SIPP, MEPS, SHED, CFPB, workplace, place,
+and geopolitical layers are evidence inputs in this core work—not merely
+fallback context—and must retain their distinct units and limits.
+
+The registration-gated UAS health-cost route, with PSID as a separate
+authorized alternative, is a later **depth** queue. UAS's public codebook
+documents stable `uasid`/`wave` keys, `final_weight`, dated employment,
+health, and financial-shock fields, and later health, work, wellbeing, food,
+and meaning measures. Before any estimate, the acquired files must pass the
+identity, overlap, timing, weight, missingness, and choice/remedy gates in the
+[minimum UAS episode manifest](projects/us-household-constraint-cascade/data/uas-minimum-episode-field-manifest-v1.json).
+No bulk download is authorized by this checkpoint; if the next candidate lacks
+timing, alternatives, remedy, or follow-up, record the gap and rotate to the
+next source/subtheme lane rather than treating the gate as a program-wide stop.
+
+The current UAS terms add a compliance condition: automated access and LLM
+management, processing, or analysis of distributed UAS data require express
+written authorization. Until an authorized account holder supplies compliant
+files and audit artifacts, UAS remains a documented acquisition route rather
+than an executable analysis lane. The program should continue using retained
+MEPS, SIPP, SHED, and public administrative evidence without representing that
+route as same-person closure.
+
+The retained MEPS event spine is the active public fallback, but its role is
+bounded. Month-ordered medical events and later health/work status can test a
+descriptive conversion stage; they do not supply event-specific alternatives,
+obligation, claim or appeal, remedy receipt, household sacrifice, or verified
+recovery. The raw MEPS files needed for a new rerun are currently absent, so
+the committed result must remain a descriptive bridge until the approved
+inputs are restored.
+
+The breadth reader now contains 367 numbered plain-language findings spanning
+the full atlas: household room, time, consumer power, platforms, work, care,
+place, unequal status, identity, public systems, political action, firms,
+infrastructure, and geopolitical/state consequences. The latest integration
+pass adds the realization-clock rule across the theme matrix and confirms that
+the examples remain evidence-linked rather than a pooled causal narrative.
 
 Use the [US broad evidence matrix](US-BROAD-EVIDENCE-MATRIX_V1.md) to assign each arrow to a source, unit, and next test before adding another topic packet.
 

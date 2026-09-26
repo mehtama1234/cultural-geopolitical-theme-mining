@@ -1,7 +1,7 @@
 {
   "schema": "strategic-capability-realization-ledger-v1",
   "case_id": "poland-jassm-er-2024-order",
-  "checked": "2026-09-16",
+  "checked": "2026-09-19",
   "scope": "Public-source realization ledger for Poland's May 2024 JASSM-ER order; comparator rows are explicitly not direct case events.",
   "events": [
     {
@@ -70,6 +70,21 @@
       "boundary": "A planned window is not evidence that any shipment or delivery occurred."
     },
     {
+      "event_id": "jassm-er-planned-delivery-2028-2030-briefing",
+      "event_type": "delivery",
+      "event_date": "2024-12-02",
+      "date_precision": "day",
+      "actor": "Polish Ministry of National Defence",
+      "recipient": "Polish Armed Forces / public record",
+      "object": "JASSM-family missile delivery schedule described in a modernization briefing",
+      "quantity": null,
+      "quantity_unit": null,
+      "status": "planned",
+      "source_locator": "Polish MOD modernization briefing, 2 December 2024",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/modernizacja-sz-rp-to-nasz-priorytet",
+      "boundary": "The briefing gives a 2028-2030 planning window and attributes it to supply-chain alignment with expanded-fleet operational readiness; it does not establish a contract amendment, delay, shipment, acceptance, fielding, training, or operational availability for the May 2024 order."
+    },
+    {
       "event_id": "jassm-er-control-gap-2022-audit",
       "event_type": "audit_control",
       "event_date": "2022-01-01/2022-09-30",
@@ -115,6 +130,36 @@
       "boundary": "The response confirms only that JASSM-ER appears in a broad delivered-equipment list; it gives no quantity, date, customer unit, acceptance record, or linkage to the May 2024 order. It is baseline/comparator evidence, not current-order realization evidence."
     },
     {
+      "event_id": "jassm-er-first-delivery-2026-plan-announcement",
+      "event_type": "delivery",
+      "event_date": "2024-05-28",
+      "date_precision": "day",
+      "actor": "Polish Ministry of National Defence",
+      "recipient": "Polish Armed Forces",
+      "object": "First JASSM-ER deliveries planned for 2026",
+      "quantity": null,
+      "quantity_unit": null,
+      "status": "planned",
+      "source_locator": "Polish MOD announcement, Nowoczesne pociski dalekiego zasięgu JASSM-ER dla Wojska Polskiego",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/nowoczesne-pociski-dalekiego-zasiegu-jassm-er-dla-wojska-polskiego",
+      "boundary": "The announcement is a planned first-delivery milestone, not a shipment, receiving-unit, acceptance, training, inventory, or operational-use record."
+    },
+    {
+      "event_id": "jassm-family-first-delivery-2017-comparator",
+      "event_type": "comparator",
+      "event_date": "2017-01-20",
+      "date_precision": "day",
+      "actor": "Polish Ministry of National Defence",
+      "recipient": "Polish F-16 base at Poznan-Krzesiny",
+      "object": "First reported delivery of JASSM missiles; separate 2016 JASSM-ER procurement baseline",
+      "quantity": null,
+      "quantity_unit": null,
+      "status": "observed_comparator",
+      "source_locator": "Polish MOD page, Pociski JASSM dla F-16, 20 January 2017",
+      "source_url": "https://www.gov.pl/web/obrona-narodowa/pociski-jassm-dla-f-16-2",
+      "boundary": "The page reports first JASSM delivery to the F-16 base and separately describes the JASSM-ER agreement; it does not establish quantity or realization of the May 2024 JASSM-ER order. It is historical family/platform context, not current-order shipment, acceptance, or geopolitical leverage evidence."
+    },
+    {
       "event_id": "f35-fms-timing-comparator-2024-2025",
       "event_type": "comparator",
       "event_date": "2024-12-01/2025-01-31",
@@ -129,17 +174,49 @@
       "source_url": "https://www.nik.gov.pl/kontrole/wyniki-kontroli-nik/pobierz,kon~p_25_001_202502181310531739880653~id1~01,typ,kj.pdf",
       "local_source": "data/nik-2024-fms-realization-source-note.md",
       "boundary": "The comparator shows that schedule, physical delivery, and settlement can occur on different clocks; it is not evidence about the JASSM-ER order."
+    },
+    {
+      "event_id": "f35-first-arrival-2026-05-22",
+      "event_type": "delivery",
+      "event_date": "2026-05-22",
+      "date_precision": "day",
+      "actor": "Polish Armed Forces / Lockheed Martin F-35 program",
+      "recipient": "32nd Tactical Air Base at Łask",
+      "object": "First three Polish F-35 aircraft arrived in Poland",
+      "quantity": 3,
+      "quantity_unit": "aircraft",
+      "status": "observed_comparator",
+      "source_locator": "Polish National Security Bureau ceremony record, lines 67–70",
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10408,Prezydent-RP-na-ceremonii-przyjecia-samolotow-F-35-quotHusarzquot.html",
+      "boundary": "This is a separate F-35 comparator. Arrival does not by itself establish formal acceptance, training completion, combat readiness, or operational effect for the JASSM-ER order."
+    },
+    {
+      "event_id": "f35-official-acceptance-2026-06-12",
+      "event_type": "acceptance",
+      "event_date": "2026-06-12",
+      "date_precision": "day",
+      "actor": "Polish National Security Bureau / Polish Armed Forces",
+      "recipient": "Polish Armed Forces",
+      "object": "Ceremonial official acceptance of F-35 aircraft into Polish Armed Forces equipment",
+      "quantity": 3,
+      "quantity_unit": "aircraft",
+      "status": "observed_comparator",
+      "source_locator": "Polish National Security Bureau ceremony record, lines 45–49 and 67",
+      "source_url": "https://www.bbn.gov.pl/pl/wydarzenia/10408,Prezydent-RP-na-ceremonii-przyjecia-samolotow-F-35-quotHusarzquot.html",
+      "boundary": "This comparator demonstrates a public acceptance milestone for a separate platform; it does not establish training completion, full operational availability, geopolitical leverage, or any JASSM-ER order stage."
     }
   ],
   "promotion_status": {
     "authorization": "observed",
     "agreement": "observed",
     "planned_delivery": "observed_as_plan",
+    "first_delivery_announcement": "observed_as_2026_plan",
     "production_or_capacity_for_specific_polish_order": "not_observed",
     "shipment": "not_observed",
     "acceptance": "not_observed",
     "training_or_fielding": "not_observed",
     "inventory_or_operational_availability": "not_observed",
+    "historical_jassm_platform_delivery": "observed_as_2017_ministry_reported_baseline",
     "prior_baseline_jassm_er_delivery": "observed_as_broad_official_list_entry",
     "external_response_or_geopolitical_leverage": "open"
   },

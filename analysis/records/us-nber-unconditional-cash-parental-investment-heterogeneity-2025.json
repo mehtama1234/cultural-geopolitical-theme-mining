@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-unconditional-cash-parental-investment-heterogeneity-2025",
+  "title": "Unconditional cash transfers can shift parental investment through money or time differently across racialized groups",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. families in a large-scale multisite randomized unconditional-cash-transfer study, analyzed by race and ethnicity",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Monthly unconditional cash-transfer intervention; NBER Working Paper issued May 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "randomized study frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "net_household_income_earnings_expenditures": {
+          "value": "similar effects across racial and ethnic groups",
+          "unit": "reported treatment pattern for net household income, earnings, and household expenditures",
+          "value_type": "reported_effect_pattern"
+        },
+        "latino_child_focused_expenditures": {
+          "value": "increased by an amount equivalent to nearly one-third of the cash transfer",
+          "unit": "share of monthly cash transfer",
+          "value_type": "reported_effect_magnitude"
+        },
+        "latino_maternal_work_and_child_time": {
+          "value": "no effect on maternal employment or time spent with children",
+          "unit": "reported treatment direction",
+          "value_type": "reported_null"
+        },
+        "black_maternal_work_hours": {
+          "value": "decreased",
+          "unit": "reported treatment direction for maternal work hours",
+          "value_type": "reported_effect_direction"
+        },
+        "black_child_early_learning_time": {
+          "value": "increased",
+          "unit": "reported treatment direction for time spent with children on early-learning activities",
+          "value_type": "reported_effect_direction"
+        },
+        "income_source_signal": {
+          "value": "marginal propensity to consume child-specific goods differed by income source: higher from government income than maternal income among Latino families, with the opposite pattern among Black families",
+          "unit": "reported heterogeneous source-of-income pattern",
+          "value_type": "reported_heterogeneity"
+        }
+      },
+      "method": "NBER Working Paper 33737 analyzes a large-scale, multisite U.S. randomized study of monthly unconditional cash transfers and estimates heterogeneous effects on monetary and time investments in children by race and ethnicity.",
+      "uncertainty": "This record retains the official abstract-level treatment patterns rather than reproduced coefficients, sample construction, treatment amount, compliance, or full robustness results. Race and ethnicity are analytic subgroup dimensions, not biological mechanisms; the abstract does not identify the household's complete care substitution, stress, political response, or later child outcome.",
+      "subgroup": "Families analyzed as Latino and Black subgroups in the randomized study; the abstract also notes initial differences in family structure, government-benefit receipt, and employment.",
+      "counterinterpretation": "Similar effects on total income and expenditures can coexist with different time and child-investment responses. A fall in maternal work hours may represent reallocation toward care, but the abstract does not establish whether it reflects schedule control, reduced labor demand, stress, childcare constraints, or a durable employment change.",
+      "source_url": "https://www.nber.org/papers/w33737",
+      "retrieval_hash": "sha256:e01d062d0edb4262433a4dd37859352c53b343febae887808329b21061d115f4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w33737",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a randomized U.S. transfer-to-parental-investment result with heterogeneous subgroup pathways, not a universal cash-transfer effect or a complete household-welfare, care-quality, labor-market, trust, or political-action estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 33737 page downloaded and hashed; title, date, randomized-study design, subgroup treatment patterns, and source-of-income qualification checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

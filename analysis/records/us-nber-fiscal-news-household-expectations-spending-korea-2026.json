@@ -1,0 +1,27 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-fiscal-news-household-expectations-spending-korea-2026",
+  "title": "Fiscal news can change inflation expectations and spending before a policy is received",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 35009; randomized fiscal-news information treatments linked to high-frequency spending data for approximately 11,000 Korean individuals",
+  "geography": "South Korea; international comparison mechanism for the U.S.-centered atlas, not a U.S. household estimate",
+  "observations": [{
+    "period": "Fiscal-news experiment; paper issued March 2026",
+    "denominator": {"value": 11000, "unit": "approximately Korean individuals in the survey and spending panel", "value_type": "reported_sample"},
+    "measures": {
+      "future_debt": {"value": "information that increased expected future public debt raised expected inflation and consumer spending", "unit": "randomized information treatment response", "value_type": "reported_estimate"},
+      "fiscal_balance": {"value": "information that increased expected fiscal balance raised expected output growth but had no significant effect on consumer spending", "unit": "randomized information treatment response", "value_type": "reported_comparison"},
+      "data_linkage": {"value": "survey beliefs were linked to automatically collected high-frequency spending data", "unit": "measurement design", "value_type": "reported_method"}
+    },
+    "method": "The authors randomly provide one of five pieces of information about current debt, deficits, and deficit-reduction plans, elicit fiscal and macroeconomic beliefs, and link the survey to automatically collected high-frequency spending data.",
+    "uncertainty": "This is Korean evidence and does not estimate a U.S. household response. It does not establish a completed purchase, tax, benefit, rate, political action, or later policy realization for the same household. Spending data and beliefs do not reveal every liquidity constraint, messenger, trust judgment, or household need.",
+    "subgroup": "Korean survey participants with linked spending records; liquidity, debt, income, access to credit, homeownership, and trust in fiscal institutions may produce different responses, but the public abstract does not establish a full U.S.-comparable subgroup path.",
+    "counterinterpretation": "A spending increase after higher expected debt may reflect bringing purchases forward, changed prices, or a different composition of spending rather than improved welfare. Null spending response to fiscal-balance news does not mean households ignored it; they may have changed saving, borrowing, prices expected, or political judgments instead.",
+    "source_url": "https://www.nber.org/papers/w35009",
+    "retrieval_hash": "sha256:d66f630ae997e6f6e8e539e73347da45fff9252709c3432f30a40f581d952ce6",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://www.nber.org/papers/w28485", "claim": "U.S. randomized fiscal-news evidence supplies a separate expectation-stage comparison: current debt or deficit information had little effect while future-debt news raised expected inflation, spending, and government-debt interest expectations.", "status": "official-comparison-source"}, {"source_url": "https://doi.org/10.3386/w35009", "claim": "NBER DOI record for Working Paper 35009", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a cross-country mechanism test: fiscal information can move expectations and spending before a household receives a policy. The Korean result is not a U.S. estimate, and neither source alone establishes a same-household path from news through trust, liquidity, policy realization, final bill, or political action."
+}

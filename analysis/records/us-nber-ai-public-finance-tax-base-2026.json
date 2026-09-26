@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-public-finance-tax-base-2026",
+  "title": "Advanced AI can move the fiscal bottleneck from taxing labor and consumption toward taxing autonomous productive systems",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "NBER Working Paper 34873 theoretical primer on public finance under AI transformation",
+  "geography": "General public-finance framework with implications for advanced economies and U.S.-relevant labor, consumption, and AI tax bases",
+  "observations": [
+    {
+      "period": "2026; two-stage theoretical AI-transformation framework",
+      "denominator": {
+        "value": 1,
+        "unit": "theoretical public-finance model and policy framework",
+        "value_type": "study_artifact"
+      },
+      "measures": {
+        "current_tax_base_risk": {
+          "value": "if AI displaces human labor, labor-income and human-consumption tax bases can erode",
+          "unit": "modeled fiscal mechanism",
+          "value_type": "modeled_mechanism"
+        },
+        "stage_one_tax_response": {
+          "value": "in an early displacement stage, consumption taxation can become a primary revenue instrument and differential commodity taxation can become more relevant",
+          "unit": "modeled policy implication",
+          "value_type": "modeled_policy_result"
+        },
+        "stage_two_tax_base": {
+          "value": "when autonomous AI systems produce most economic value and absorb a growing share of resources, taxing human consumption may become inadequate",
+          "unit": "modeled fiscal condition",
+          "value_type": "modeled_mechanism"
+        },
+        "autonomous_system_tax": {
+          "value": "taxing autonomous AI production is framed as an optimal-harvesting problem, with the tax rate depending on the human rate of time preference",
+          "unit": "modeled tax-design framework",
+          "value_type": "modeled_policy_result"
+        }
+      },
+      "method": "Theoretical public-finance analysis of optimal taxation in two stages of AI transformation, distinguishing labor displacement from autonomous systems producing most economic value.",
+      "uncertainty": "This is a conceptual and model-based primer, not an observed adoption estimate, revenue forecast, welfare estimate, or implemented policy analysis. Results depend on assumptions about AI capability, displacement, production, ownership, consumption, and political feasibility.",
+      "subgroup": "Workers, consumers, firms owning or deploying AI systems, taxpayers, beneficiaries of public spending, and governments choosing tax and redistribution instruments.",
+      "counterinterpretation": "AI may complement labor, create new tasks, expand the tax base, or be taxed through existing firm and capital systems; ownership, bargaining, transfers, and international coordination can alter the modeled incidence.",
+      "source_url": "https://www.nber.org/papers/w34873",
+      "retrieval_hash": "sha256:b4ca1494cf64851480892a717dc9aad4aa5ced001855fa45b14bceece6151717",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34873",
+      "claim": "NBER DOI record for the working paper.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w34873/w34873.pdf",
+      "claim": "Official working-paper PDF for the theoretical tax framework.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record adds a theoretical AI-to-tax-base and state-capacity mechanism. It does not establish realized AI displacement, a U.S. revenue loss, a feasible autonomous-system tax, ownership concentration, household incidence, or international tax coordination.",
+  "retrieval_hash": "sha256:b4ca1494cf64851480892a717dc9aad4aa5ced001855fa45b14bceece6151717"
+}

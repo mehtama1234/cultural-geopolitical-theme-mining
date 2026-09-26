@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-health-affairs-safety-net-stigma-government-perceptions-2024",
+  "title": "Safety-net participation was associated with greater social stigma but not different government perceptions in a California low-income caregiver sample",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Low-income California caregivers of young children surveyed during the first COVID-19 pandemic year, with SNAP and EITC participation measures",
+  "geography": "California, United States",
+  "observations": [
+    {
+      "period": "August 2020–May 2021; Health Affairs Scholar article published December 2023 / Volume 2 Issue 1 (2024)",
+      "denominator": {
+        "value": 497,
+        "unit": "caregivers of young children in the ACCESS survey; analytic subsamples 489 SNAP-eligible and 326 EITC-eligible respondents",
+        "value_type": "survey_sample"
+      },
+      "measures": {
+        "snap_social_stigma": {
+          "value": "OR 1.24 (95% CI 1.05–1.47) for greater reported social stigma",
+          "unit": "adjusted odds ratio, SNAP participants versus eligible nonparticipants",
+          "value_type": "reported_effect_range"
+        },
+        "eitc_social_stigma": {
+          "value": "OR 1.39 (95% CI 1.05–1.84) for greater reported social stigma",
+          "unit": "adjusted odds ratio, EITC recipients versus eligible nonrecipients",
+          "value_type": "reported_effect_range"
+        },
+        "government_perceptions": {
+          "value": "no statistically significant difference for SNAP participation or EITC receipt",
+          "unit": "adjusted association with government-perception components",
+          "value_type": "reported_null"
+        },
+        "program_stigma_and_discrimination": {
+          "value": "no overall difference; among food-insecure respondents, SNAP participation was additionally associated with program stigma and discrimination",
+          "unit": "adjusted association and subgroup pattern",
+          "value_type": "reported_heterogeneity"
+        }
+      },
+      "method": "Health Affairs Scholar study of the ACCESS cross-sectional survey, using multivariable logistic regression among low-income California caregivers and separate SNAP-eligible and EITC-eligible analytic samples to relate participation/receipt to government perceptions, social and program stigma, and discrimination.",
+      "uncertainty": "This is a cross-sectional, convenience/snowball-recruited California sample during COVID-19, not a causal program effect or national estimate. Reverse causation and unmeasured confounding are possible; social stigma is not the same as institutional distrust, approval, or political action.",
+      "subgroup": "Low-income caregivers of children ages 0–8; food-insecure SNAP-eligible respondents formed a nonrepresentative sensitivity subgroup.",
+      "counterinterpretation": "Participation may be selected by prior stigma, hardship, service contact, or discrimination rather than causing stigma. The absence of a government-perception difference does not establish positive trust, and reported stigma may affect take-up without producing turnout or exit.",
+      "source_url": "https://academic.oup.com/healthaffairsscholar/article/2/1/qxad084/7486464",
+      "retrieval_hash": "sha256:a190af43c8ee08691786d0232362a7e185f7294b2deccd3431abd96eab7c1cca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.1093/haschl/qxad084",
+      "claim": "Health Affairs Scholar DOI and publication metadata identify the article.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a California cross-sectional association between safety-net participation and stigma/government-perception measures, not a causal trust effect, national estimate, or completed take-up-to-action pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Oxford Academic article-minimal page downloaded and hashed; title, publication date, sample, analytic subsamples, odds ratios, null government-perception result, food-insecurity subgroup, and cross-sectional limitations checked against the article text.",
+    "checked": "2026-09-25"
+  }
+}

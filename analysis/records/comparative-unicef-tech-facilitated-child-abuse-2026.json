@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unicef-tech-facilitated-child-abuse-2026",
+  "title": "Digital platforms are becoming an abuse-enablement and reporting-governance layer for children",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNICEF Through Children's Eyes: How Digital Technologies Enable Child Sexual Abuse and Disrupting Harm research",
+  "geography": "21 countries; internet-using children aged 12-17, with research conducted across two survey rounds",
+  "observations": [
+    {
+      "period": "Single-year prevalence estimates reported September 2026; two Disrupting Harm research rounds",
+      "denominator": {
+        "value": 21000,
+        "unit": "approximately nationally representative surveyed internet-using children aged 12-17 across 21 countries; precise country weighting and pooled denominator are source-defined",
+        "value_type": "multi_country_survey_sample_approximate"
+      },
+      "measures": {
+        "any_technology_facilitated_exploitation_or_abuse": {"value": 20, "unit": "percent of surveyed internet-using children aged 12-17 estimated to have experienced at least one form in a single year", "value_type": "reported_prevalence_approximate"},
+        "unwanted_sexual_content": {"value": 15000000, "unit": "children estimated to have been exposed to unwanted sexual content, rounded as reported", "value_type": "reported_population_count"},
+        "unwanted_sexual_conversations_or_images": {"value": 9000000, "unit": "children estimated to have been asked to engage in sexual conversations or share sexual images against their will, rounded as reported", "value_type": "reported_population_count"},
+        "images_shared_without_consent": {"value": 4000000, "unit": "children estimated to have had sexual images of themselves shared without consent, rounded as reported", "value_type": "reported_population_count"},
+        "mainstream_social_media_cases": {"value": 60, "unit": "approximately percent of cases occurring on mainstream social-media platforms", "value_type": "reported_share_approximate"},
+        "online_game_cases": {"value": 14, "unit": "percent of cases occurring in online games", "value_type": "reported_share"}
+      },
+      "method": "UNICEF's Disrupting Harm research combines nationally representative surveys of approximately 21,000 internet-using children aged 12-17 across 21 countries with interviews and two research rounds, primarily 2020-2021 and 2024-2025. The source explicitly limits representativeness to internet-using children, not all children.",
+      "uncertainty": "The prevalence estimate is not representative of children without internet access, and underreporting likely makes observed experience a lower bound. The country mix, field periods, definitions, question wording, and pooling approach limit direct global extrapolation; exposure or experience does not by itself establish perpetrator identity, platform liability, or clinical outcome.",
+      "subgroup": "Internet-using children aged 12-17 across 21 countries, with country-specific connectivity, reporting, gender, cultural, and institutional differences.",
+      "counterinterpretation": "Digital access can also provide education, connection, and support. Platform prevalence does not mean platforms alone caused abuse; offline relationships, household conditions, peer dynamics, and broader social norms can be part of the pathway.",
+      "source_url": "https://www.unicef.org/press-releases/1-5-children-across-21-countries-have-experienced-tech-facilitated-sexual",
+      "retrieval_hash": "sha256:06eb2ee9969bc5eb20866be928dfdb039473610cf56122d72e891e3ad55a9d06",
+      "status": "reported"
+    },
+    {
+      "period": "Two Disrupting Harm research rounds; platform pathway, disclosure, and institutional-response endpoint",
+      "denominator": {
+        "value": 1,
+        "unit": "reported experience cases in the UNICEF cross-country research; percentages are case-level comparisons and not a platform-wide incident census",
+        "value_type": "case_experience_comparison"
+      },
+      "measures": {
+        "known_perpetrator": {"value": 57, "unit": "percent of cases involving someone the child already knew, including peers, partners, friends, or family", "value_type": "reported_case_share"},
+        "first_encountered_online": {"value": 38, "unit": "percent of cases in which children first encountered the perpetrator online, as reported by UNICEF", "value_type": "reported_case_share"},
+        "never_shared": {"value": 40, "unit": "more than percent of cases never shared with anyone", "value_type": "reported_case_share_lower_bound"},
+        "reported_to_authorities": {"value": 1, "unit": "less than percent of cases reported to authorities such as police, social workers, or helplines", "value_type": "reported_case_share_upper_bound"},
+        "mental_health_association": {"value": 4, "unit": "times higher likelihood of reporting suicidal thoughts or behaviours and self-harm among children who experienced abuse, as an association reported by the analysis", "value_type": "reported_association"},
+        "policy_response": {"value": "UNICEF calls for safer-by-design platforms, stronger privacy and reporting systems, regulation and accountability, trusted child-protection and support services, and shifting protection burdens away from children", "unit": "reported institutional response priorities", "value_type": "reported_policy_priority"}
+      },
+      "method": "UNICEF combines child survey data, testimony from 100 young people who experienced abuse in childhood, and cross-country analysis of platform, disclosure, and support patterns. The report includes association estimates and policy recommendations, not a causal evaluation of platforms or services.",
+      "uncertainty": "The reported fourfold mental-health association does not establish that technology-facilitated abuse caused the outcome or exclude prior trauma and other confounders. Low reporting can reflect fear, shame, uncertainty, inaccessible services, or differing legal definitions; case percentages are not incident rates for every platform.",
+      "subgroup": "Children experiencing technology-facilitated exploitation or abuse, known and unknown perpetrators, families, schools, child-protection services, police and helplines, platforms, regulators, and support organizations.",
+      "counterinterpretation": "A low authority-reporting rate can coexist with disclosure to trusted peers or family, informal resolution, or reporting channels not counted by the source. Safer design and enforcement may reduce abuse but can also create privacy, surveillance, moderation, or access trade-offs.",
+      "source_url": "https://www.unicef.org/press-releases/1-5-children-across-21-countries-have-experienced-tech-facilitated-sexual",
+      "retrieval_hash": "sha256:06eb2ee9969bc5eb20866be928dfdb039473610cf56122d72e891e3ad55a9d06",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a digital child-safety and institutional-trust route connecting platform design, abuse enablement, disclosure, reporting, child protection, mental-health association, and regulation. It does not identify individual victims, perpetrators, platforms' legal liability, causal effects, or all-child prevalence beyond the source's internet-using sample.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNICEF 3 September 2026 press release retrieved; survey coverage, 20% estimate, experience counts, platform shares, perpetrator relationship, disclosure/reporting, association, research rounds, internet-user limitation, and policy priorities cross-checked against the publication.",
+    "html_sha256": "sha256:06eb2ee9969bc5eb20866be928dfdb039473610cf56122d72e891e3ad55a9d06",
+    "checked": "2026-09-26"
+  }
+}

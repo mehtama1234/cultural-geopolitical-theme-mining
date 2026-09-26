@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-child-age-assurance-services-2025",
+  "title": "Child-safety rules are common on paper, but systematic age assurance remains rare across online services",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "OECD Age assurance practices of 50 online services used by children, service-level public-information benchmark",
+  "geography": "50 online services used by children; services operate across jurisdictions and the report compares publicly stated policies and practices rather than country populations",
+  "observations": [
+    {
+      "period": "Publicly available service information reviewed for OECD report published 25 June 2025",
+      "denominator": {
+        "value": 50,
+        "unit": "online services used by children",
+        "value_type": "service_cross_section"
+      },
+      "measures": {
+        "systematic_age_assurance_at_account_creation": {"value": 2, "unit": "services systematically assuring age at account creation", "value_type": "reported_service_count"},
+        "any_age_assurance_mechanism": {"value": 26, "unit": "services with some age-assurance mechanism, often triggered only in specific circumstances", "value_type": "reported_service_count"},
+        "no_systematic_account_creation_assurance": {"value": 48, "unit": "services not systematically assuring age at account creation", "value_type": "derived_service_count"},
+        "systematic_share": {"value": 4, "unit": "percent of benchmarked services systematically assuring age at account creation", "value_type": "derived_service_share"}
+      },
+      "method": "OECD review of publicly available age-related policies and practices for 50 online services used by children, with feedback sought from profiled services. The benchmark describes service design and stated practice, not observed user-level enforcement.",
+      "uncertainty": "Public information may omit internal controls, vary in detail, or change after publication. The benchmark does not test whether age assurance is accurate, privacy-preserving, accessible, effective against evasion, or consistently enforced across countries and products.",
+      "subgroup": "Online services used by children, their child and adolescent users, parents, regulators, service providers, and child-rights organisations.",
+      "counterinterpretation": "A service may use risk-based or feature-specific checks rather than universal account-creation assurance; universal checks can also create privacy, exclusion, bias, and access costs. The count therefore identifies implementation gaps, not a complete safety ranking.",
+      "source_url": "https://www.oecd.org/en/publications/age-assurance-practices-of-50-online-services-used-by-children_a19853ab-en.html",
+      "retrieval_hash": "sha256:2cbf2d24126dd7bb8d449d99d4b630b64235b8dd6eb0ae6427d65277916f715c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 OECD benchmark of age-related policy and practice across the same 50 services",
+      "denominator": {
+        "value": 50,
+        "unit": "online services used by children",
+        "value_type": "service_cross_section"
+      },
+      "measures": {
+        "minimum_age_basis": {"value": "often privacy or contract law rather than safety", "unit": "reported policy basis", "value_type": "reported_policy_pattern"},
+        "geographic_variation": {"value": "minimum ages can vary by geographic location", "unit": "reported policy pattern", "value_type": "reported_policy_pattern"},
+        "age_tiered_safeguards": {"value": "many services", "unit": "reported service-practice pattern; safeguards may be turned off or rely on parental controls", "value_type": "reported_policy_pattern"},
+        "cross_border_implementation": {"value": "complex", "unit": "reported implementation condition for services operating across jurisdictions", "value_type": "reported_institutional_constraint"}
+      },
+      "method": "OECD qualitative comparison of terms, age thresholds, age-tiered safeguards, parental controls, triggering conditions, and jurisdictional variation in publicly available service information.",
+      "uncertainty": "Qualitative categories such as 'many' do not provide a complete service count in the public summary. A stated minimum age, parental control, or age tier is not proof that a child receives a safe or age-appropriate experience.",
+      "subgroup": "Children of different ages, parents and caregivers, services with different risk profiles, cross-border regulators, and online-safety and privacy institutions.",
+      "counterinterpretation": "Age assurance is only one control. Safety-by-design, reporting, moderation, data minimisation, education, parental support, and remedy channels may reduce risk even where age is not verified at sign-up; conversely, assurance can introduce new data and discrimination risks.",
+      "source_url": "https://www.oecd.org/en/publications/age-assurance-practices-of-50-online-services-used-by-children_a19853ab-en.html",
+      "retrieval_hash": "sha256:2cbf2d24126dd7bb8d449d99d4b630b64235b8dd6eb0ae6427d65277916f715c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/the-legal-and-policy-landscape-of-age-assurance-online-for-child-safety-and-well-being_509d6e7a-en.html", "claim": "OECD companion analysis maps legal and policy variation in age assurance across OECD countries."},
+    {"source_url": "https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en.html", "claim": "OECD child digital-wellbeing report supplies the adjacent exposure and well-being context."}
+  ],
+  "boundary": "This record adds a service-level implementation and cross-border governance route to the child-digital lane. It does not establish that any service is safe or unsafe, identify individual children, evaluate age-assurance accuracy, or resolve the privacy and inclusion trade-offs of stronger verification.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD publication page and official report summary retrieved; 50-service denominator, 2 systematic account-creation checks, 26 services with some mechanism, and caveats on age tiers, parental controls, legal basis, and geography cross-checked against OECD materials.",
+    "html_sha256": "sha256:2cbf2d24126dd7bb8d449d99d4b630b64235b8dd6eb0ae6427d65277916f715c",
+    "checked": "2026-09-26"
+  }
+}

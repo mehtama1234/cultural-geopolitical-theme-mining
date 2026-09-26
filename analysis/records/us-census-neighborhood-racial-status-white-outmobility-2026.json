@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-neighborhood-racial-status-white-outmobility-2026",
+  "title": "Residential exit is linked to relative racial and socioeconomic status, not composition alone",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption", "political_judgment_action"],
+  "source_unit": "Census CES Working Paper CES-26-19; American Community Survey data and multilevel linear probability models of White residential out-mobility by tract-level racial composition and relative socioeconomic status",
+  "geography": "United States census tracts; White residents and neighborhood composition involving Black, Hispanic, and Asian residents",
+  "observations": [{
+    "period": "U.S. neighborhood racial status and White residential out-mobility; ACS-based study, paper published March 2026",
+    "denominator": {"value": 1, "unit": "study-defined ACS tract and White-resident mobility analysis", "value_type": "study_unit"},
+    "measures": {
+      "status_disadvantage": {"value": "White residents lacking advantaged socioeconomic status were generally more likely to move out", "unit": "modeled residential out-mobility association", "value_type": "reported_model_result"},
+      "black_concentration_interaction": {"value": "the positive association between Black concentration and White departure was weaker among status-disadvantaged White residents", "unit": "interaction in multilevel linear probability model", "value_type": "reported_model_result"},
+      "asian_concentration_interaction": {"value": "the association between Asian concentration and White departure was also weaker among status-disadvantaged White residents", "unit": "interaction in multilevel linear probability model", "value_type": "reported_model_result"},
+      "hispanic_concentration_interaction": {"value": "the negative association with Hispanic concentration was stronger among status-disadvantaged White residents", "unit": "interaction in multilevel linear probability model", "value_type": "reported_model_result"},
+      "interpretive_comparison": {"value": "the reported interaction patterns lend greater support to contact theory than group-competition theory, while showing that racial and socioeconomic mechanisms are intertwined", "unit": "authors' theoretical interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The study uses American Community Survey data and multilevel linear probability models. It defines racial status through White residents' income rank relative to the subgroup status of Black, Hispanic, and Asian residents at the census-tract level and estimates associations with White out-mobility.",
+    "uncertainty": "The study is observational and does not randomly assign neighborhood composition or status. Out-mobility does not reveal whether a move was voluntary, beneficial, forced, affordable, or followed by improved housing, safety, work, belonging, or political capacity. Racial concentration is not itself a complete measure of contact, discrimination, competition, institutions, or culture.",
+    "subgroup": "White residents and census tracts in the ACS-based analysis; the result does not describe the residential mobility of Black, Hispanic, Asian, Indigenous, multiracial, or immigrant residents, and subgroup experiences within each category may differ.",
+    "counterinterpretation": "The weaker or stronger associations by relative status do not prove that contact caused a move or that group competition was absent. Income rank, neighborhood composition, housing prices, schools, safety, discrimination, employment, family ties, and unmeasured preferences may move together.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-19.html",
+    "retrieval_hash": "sha256:804d1ba02ab60296f5780e14ac16fed11555894ec1dc3bf74c09c6ca34966127",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-19.pdf", "claim": "Official Census PDF for CES Working Paper 26-19", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a relative-status and residential-exit mechanism: neighborhood composition may carry different meaning depending on a person's socioeconomic position. It does not establish racial motivation, causal contact effects, forced or beneficial mobility, or a complete account of segregation, belonging, household security, or political action."
+}

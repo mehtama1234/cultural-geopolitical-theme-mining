@@ -146,6 +146,23 @@ The present SIPP result is therefore a calibration layer, not a substitute for
 this ledger. It identifies plausible transition strata and material outcomes
 for the pilot while leaving the route fields genuinely open.
 
+## Current input recheck — 2026-09-20
+
+The post-crash workspace recheck found no retained raw or staged respondent
+directory at `/tmp/us-broad-sipp-2025`, `/tmp/cgtm-meps-2024`,
+`/tmp/cgtm-uas`, or `/tmp/us-broad-psid`. The committed SIPP event ledgers and
+Fay-BRR outputs remain usable as bounded derived evidence, but they do not
+restore the route-level fields listed above. No new microdata download is
+authorized by this specification.
+
+The next executable pass therefore begins only when an authorized file or
+lawful linked episode is supplied. Its first checks are: stable person or case
+key, date ordering, notice/route fields, benefit amount and timing, appeal or
+correction, missingness and denominator, and any later material or
+meaning/action follow-up. If those checks fail, retain the result as a public
+transition comparator rather than promoting it to a same-episode security or
+political-action finding.
+
 ## Promotion and stop rules
 
 Promote a public-system arrow only when the unit and time order are explicit,

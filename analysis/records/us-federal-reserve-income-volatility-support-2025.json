@@ -20,6 +20,28 @@
       "status": "reported"
     },
     {
+      "period": "2025 SHED; outside-household help by age and expense type",
+      "denominator": {"value": 1, "unit": "weighted adult population estimate; published percentages by age and expense category", "value_type": "survey_population"},
+      "measures": {
+        "any_outside_help_age_18_29": {"value": 47, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "any_outside_help_age_30_44": {"value": 26, "unit": "percent of adults ages 30-44", "value_type": "subgroup_share"},
+        "any_outside_help_age_45_plus": {"value": 13, "unit": "percent of adults ages 45 and older", "value_type": "subgroup_share"},
+        "phone_bill_help_age_18_29": {"value": 30, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "general_expense_help_age_18_29": {"value": 26, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "housing_help_age_18_29": {"value": 23, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "car_help_age_18_29": {"value": 19, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "medical_help_age_18_29": {"value": 14, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"},
+        "education_help_age_18_29": {"value": 12, "unit": "percent of adults ages 18-29", "value_type": "subgroup_share"}
+      },
+      "method": "Federal Reserve 2025 SHED Table 14; expense categories allow multiple responses and are retained as distinct routes rather than summed into a single support amount.",
+      "uncertainty": "The survey does not identify provider, dollar amount, timing, reciprocity, eligibility, adequacy, whether help prevented hardship, or whether the recipient experienced stigma, control, or later repayment. The new question is not directly comparable with earlier regular-support questions.",
+      "subgroup": "Adults ages 18-29, 30-44, and 45+; expense-specific percentages among the applicable age groups.",
+      "counterinterpretation": "Outside help may be chosen and reciprocal, or may reveal unequal access to family networks; the age gradient is descriptive and does not establish that family support caused better or worse financial outcomes.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm",
+      "retrieval_hash": "sha256:445460b830931eaee95313b145a0f968de4410ec9e4e72b03f3242271726cca7",
+      "status": "reported"
+    },
+    {
       "period": "2023 to 2025 SHED; monthly income variability and hardship",
       "denominator": {"value": 1, "unit": "weighted adult population estimate; income-variability questions use the applicable adult respondent frame", "value_type": "survey_population"},
       "measures": {"income_varies_at_least_occasionally_2025": {"value": 30, "unit": "percent of adults", "value_type": "share"}, "income_varies_at_least_occasionally_2023": {"value": 28, "unit": "percent of adults", "value_type": "share"}, "bill_struggle_due_to_income_variability": {"value": 11, "unit": "percent of adults in 2025", "value_type": "share"}, "self_employed_income_variability": {"value": 58, "unit": "percent of self-employed adults", "value_type": "subgroup_share"}, "self_employed_bill_struggle": {"value": 22, "unit": "percent of self-employed adults", "value_type": "subgroup_share"}, "employee_income_variability": {"value": 28, "unit": "percent of adults working for someone else in month before survey", "value_type": "subgroup_share"}, "employee_bill_struggle": {"value": 10, "unit": "percent of that employee subgroup", "value_type": "subgroup_share"}},

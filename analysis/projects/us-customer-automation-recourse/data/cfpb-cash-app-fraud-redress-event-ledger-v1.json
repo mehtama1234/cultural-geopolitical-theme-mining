@@ -1,0 +1,96 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_enforcement_consumer_redress_record",
+  "purpose": "Structured CFPB Cash App fraud-process enforcement ledger linking reported consumer loss, dispute-control failure, formal correction, and ordered redress while preserving individual receipt, recovery, trust, and exit as open.",
+  "events": [
+    {
+      "event_id": "CFPB-CASH-APP-FRAUD-REDRESS-2025-01-16",
+      "unit": "case",
+      "geography": "United States; Block Inc. and Cash App users",
+      "actor_initiating_change": "agency",
+      "event_date": "2025-01-16",
+      "date_precision": "CFPB enforcement action date; underlying user incidents span an unreported period",
+      "denominator": "Consumers and fraud-related disputes described in the CFPB enforcement action; no population incidence or individual redress denominator is retained",
+      "method": "Structured extraction from the official CFPB enforcement action and case/payment-status recheck",
+      "missingness": "No completed redress-plan report, affected-consumer list, per-person refund amount, transaction date, disputed amount by person, investigation timeline, payment date, receipt confirmation, remaining loss, account correction, or later behavior is retained",
+      "condition_or_decision": "policy",
+      "exposure": "The CFPB reported that Block's dispute-investigation and security practices exposed Cash App users to fraud risk and that some reported fraud was not handled through required investigation processes",
+      "alternatives_before_action": "Users could seek Block dispute review, other payment-provider or banking routes, law-enforcement help, private recovery, or stop using the service; actual feasible alternatives and switching are not observed",
+      "immediate_burden_or_benefit": "Fraud loss and dispute-control dependence could impose money, time, documentation, and access burdens, but the case does not quantify individual burden",
+      "choice_or_response": "Users reported or disputed losses and Block operated the investigation process; the CFPB's current case page says consumers do not need to take action at this time to obtain redress, while publishing a phone, email, and mail route for redress inquiries. Individual repeat contact, abandonment, or channel switching is not retained",
+      "person_or_actor_with_control": "Block controlled account security and dispute investigation; CFPB controlled enforcement; users had limited control over correction after a reported loss",
+      "remedy_or_institutional_response": "The CFPB ordered operational changes, a separate $55 million civil penalty, and at least $75 million and up to $120 million in consumer redress; the consent order also requires a post-plan report identifying consumers and accounts receiving redress and the total amount paid. The current case page says consumers do not need to take action at this time and provides a direct redress contact route",
+      "remedy_stage": "remedy_ordered",
+      "immediate_outcome": "Formal enforcement and a defined consumer-redress obligation are documented",
+      "protected_outcome": "Operational changes and redress may protect or compensate some users, but no individual account correction or payment is verified",
+      "sacrificed_outcome": "Unrecovered loss, effort, access, and trust costs for affected users cannot be identified from the public case record",
+      "cost_risk_transfer": "Weak dispute controls can shift fraud and correction risk from the payment platform to users; the enforcement order redistributes some prospective and financial responsibility back toward the firm",
+      "later_outcome": "The current public case page still provides a redress contact route and says consumers do not need to take action at this time, but no completed recipient-level report is retained; individual eligibility, payment, receipt, residual loss, continued use, switching, trust, and exit remain open",
+      "meaning_and_attribution": "The agency attributes process failures to Block, but user-level fairness, blame, legitimacy, and trust change are not measured",
+      "public_or_collective_response": "Enforcement is observed; user organizing, complaint persistence, political action, and collective response are not linked",
+      "counterexample": "A redress pool, an order requiring a final affected-consumer list, and a payment-reporting requirement do not prove that every affected user was identified, paid, made whole, or able to leave",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official CFPB enforcement record and Block consent order (https://files.consumerfinance.gov/f/documents/cfpb_block-inc-consent-order_2025-01.pdf); the current Block case page was rechecked 2026-09-19 and provides a redress contact route while saying consumers do not need to take action at this time. The post-plan reporting requirement remains a measurement contract, not a completed recipient-level recovery study",
+      "source_url": "https://www.consumerfinance.gov/archive/newsroom/cfpb-orders-operator-of-cash-app-to-pay-175-million-and-fix-its-failures-on-fraud/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CFPB-CASH-APP-A-01",
+      "from": "reported fraud-related consumer loss",
+      "to": "dispute-control and investigation failure",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The CFPB enforcement record describes fraud exposure and failures to handle some reported fraud through required investigations",
+      "status": "reported",
+      "counterexample": "The enforcement record is not a population incidence estimate and does not identify every affected user",
+      "remaining_gap": "User-level transaction, dispute, amount, timing, and investigation records"
+    },
+    {
+      "arrow_id": "CFPB-CASH-APP-A-02",
+      "from": "dispute-control failure",
+      "to": "CFPB enforcement and operational correction",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The CFPB issued an enforcement action requiring fraud-handling and security-practice changes",
+      "status": "reported",
+      "counterexample": "An ordered process change does not establish implementation quality or user-level correction",
+      "remaining_gap": "Implementation audit, user account correction, recurrence, and accessible override route"
+    },
+    {
+      "arrow_id": "CFPB-CASH-APP-A-03",
+      "from": "enforcement finding",
+      "to": "consumer redress obligation",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The order requires at least $75 million and up to $120 million in consumer redress, a separate $55 million civil penalty, and a post-plan report identifying consumers/accounts receiving redress and total amount paid",
+      "status": "reported",
+      "counterexample": "An ordered pool is not an issued payment, recipient receipt, or adequate recovery",
+      "remaining_gap": "Eligibility, distribution route, payment date, amount, receipt, and remaining loss"
+    },
+    {
+      "arrow_id": "CFPB-CASH-APP-A-04",
+      "from": "ordered consumer redress",
+      "to": "individual financial recovery and restored account control",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public case and payment-status recheck do not expose a user-level distribution or receipt record",
+      "status": "open",
+      "counterexample": "The absence of a public listing does not prove that no payment or company-administered distribution has occurred",
+      "remaining_gap": "Privacy-approved account/payment follow-up with receipt, adequacy, correction time, and residual loss"
+    },
+    {
+      "arrow_id": "CFPB-CASH-APP-A-05",
+      "from": "financial recovery or unresolved loss",
+      "to": "continued use, switching, trust, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "No user-level later-use, alternative-provider, trust, or exit outcome is linked to the enforcement record",
+      "status": "open",
+      "counterexample": "Continued use can reflect dependence or convenience, while non-use can reflect friction or inability to switch",
+      "remaining_gap": "Same-user follow-up on account access, alternatives, repeat effort, trust, switching, and exit reason"
+    }
+  ],
+  "boundary": "This ledger establishes a formal consumer-protection and redress stage. It does not estimate Cash App user harm, payment receipt, recovery, trust change, or exit.",
+  "storage_boundary": "No user-level account, payment, or transaction file is retained; the ledger contains only bounded official enforcement facts, the public distribution-status boundary, and explicit open links."
+}

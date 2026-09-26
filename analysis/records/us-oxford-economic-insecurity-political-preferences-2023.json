@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-oxford-economic-insecurity-political-preferences-2023",
+  "title": "Panel-measured economic insecurity predicted participation and right-leaning presidential preference",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "Understanding America Study panel respondents with repeated household-income observations and 2016 presidential preference reports",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "UAS income observations from May 2014 to November 2016; 2016 U.S. presidential election poll",
+      "denominator": {"value": 2367, "unit": "UAS respondents ages 18–65, not retired, with at least five household-income observations and participation in the Election Poll Study", "value_type": "reported_panel_analytic_sample"},
+      "measures": {
+        "economic_insecurity_and_vote_probability": {"value": "greater economic insecurity predicted a higher probability of voting in the presidential election", "unit": "reported probability of voting; observational panel association", "value_type": "reported_association"},
+        "economic_insecurity_and_trump_probability": {"value": "greater economic insecurity predicted greater support for Donald Trump", "unit": "reported candidate-vote probability; observational panel association", "value_type": "reported_association"},
+        "economic_insecurity_and_clinton_probability": {"value": "greater economic insecurity predicted lower support for Hillary Clinton", "unit": "reported candidate-vote probability; observational panel association", "value_type": "reported_association"}
+      },
+      "method": "Constructed individual economic-insecurity measures from the time profile of repeated banded household income in the UAS, then related the last five pre-election income observations to reported probabilities of voting and candidate choice while conditioning on current resources and demographic/labor-market covariates.",
+      "uncertainty": "This is an observational panel association, not a randomized shock or causal estimate. The insecurity index depends on modeled income-band values, observation timing, discounting, and sample retention; candidate and turnout outcomes are reported probabilities rather than validated ballots.",
+      "subgroup": "UAS adults ages 18–65, not retired, with sufficient income-history observations; the UAS panel is described as representative of the United States, but the analytic restrictions reduce the source population.",
+      "counterinterpretation": "Economic insecurity may mobilize or polarize through perceived risk, identity, partisan attribution, or concern about future resources rather than through reduced material capacity; the positive participation association contrasts with hardship-to-withdrawal results from other designs.",
+      "source_url": "https://academic.oup.com/oep/article/75/3/802/6693580?login=true",
+      "retrieval_hash": "sha256:d10ada80baf622142e3a476229d240da262bee8a78d93a596193e8030564dd4e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1093/oep/gpac037", "claim": "Published Oxford Economic Papers article identifier", "status": "official-paper-identifier"},
+    {"source_url": "https://orbilu.uni.lu/bitstream/10993/52315/1/OEP_Published.pdf", "claim": "Author-hosted published-version PDF used to inspect UAS design and sample construction", "status": "author-hosted-paper"}
+  ],
+  "boundary": "This record adds a panel-measured economic-insecurity-to-political-preference contrast: insecurity predicted greater reported voting probability and Trump support in the 2016 U.S. presidential context, conditional on current resources. It does not establish causality, generalized distrust, ballot-validated turnout, or a universal hardship-to-mobilization mechanism."
+}

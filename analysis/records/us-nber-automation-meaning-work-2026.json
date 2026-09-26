@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-automation-meaning-work-2026",
+  "title": "Automation can reduce the meaning of retained work before it eliminates jobs",
+  "theme_ids": ["work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "trust_identity_meaning", "firm_sector_market_power", "infrastructure_technology_dependency"],
+  "source_unit": "NBER Working Paper 35559, a theoretical model of automation, worker contribution, compensation, and work meaning",
+  "geography": "Conceptual mechanism with implications for workers and firms; no country-specific outcome sample",
+  "observations": [
+    {
+      "period": "Working paper issued July 2026",
+      "denominator": {"value": null, "unit": "theoretical model; no worker or firm observation denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "retained_job_meaning": {"value": "A credible machine alternative can lower the value workers place on their own contribution even when the firm retains them", "unit": "modeled mechanism", "value_type": "theoretical_result"},
+        "compensation_condition": {"value": "If wages adjust fully, the model predicts compensation can rise to offset part of the meaning loss; with partial adjustment, workers bear some of the loss", "unit": "modeled comparative static", "value_type": "theoretical_result"},
+        "automation_feedback": {"value": "Reduced value of the human alternative can make automation more likely", "unit": "modeled feedback", "value_type": "theoretical_result"}
+      },
+      "method": "Economic model in which workers value both useful output and knowing that output depends on their own contribution; the model studies machine alternatives, wage adjustment, automation incentives, and public salience.",
+      "uncertainty": "This is a theoretical NBER working paper, not an estimate of how many workers experience meaning loss, a causal estimate of automation effects, or evidence of realized wage, health, identity, or exit outcomes.",
+      "subgroup": "Modeled workers whose utility includes contribution-based meaning; no observed subgroup estimates are reported in the abstract.",
+      "counterinterpretation": "Automation can also remove dangerous or tedious tasks, increase worker agency, improve output quality, or create new sources of meaning. The model's result depends on the assumed value workers place on contribution and the wage/technology structure.",
+      "source_url": "https://www.nber.org/papers/w35559",
+      "retrieval_hash": "sha256:f1b98d13bd3af87b8522bea302462e99845bc8f8101db2c0b37fe50597ba0bf9",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a mechanism between automation exposure and cultural meaning: retained employment does not guarantee retained contribution-based meaning. It does not establish observed worker harm, displacement, compensation, productivity, political action, or firm adoption rates."
+}

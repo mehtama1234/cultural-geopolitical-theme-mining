@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-global-aging-foreign-policy-implications-2026",
+  "title": "Global aging can reshape security, labor, and health interests before U.S. policy treats it as a dedicated foreign-policy issue",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "care_health_reproduction", "unequal_exposure_status", "firm_sector_market_power", "political_judgment_action"],
+  "source_unit": "GAO-26-108732 literature review and expert interviews on global aging and U.S. foreign-policy interests, plus review of DOD, HHS, and State Department efforts",
+  "geography": "Global demographic change and U.S. foreign-policy, security, economic, health, and humanitarian interests",
+  "observations": [
+    {
+      "period": "2020-2050 demographic projection; GAO review published September 2026",
+      "denominator": {"value": 2100000000, "unit": "projected people age 60 and over worldwide in 2050", "value_type": "international_projection"},
+      "measures": {
+        "older_population_projection": {"value": "global population age 60 and over is projected to rise from about 1.0 billion in 2020 to 2.1 billion in 2050", "unit": "people worldwide", "value_type": "reported_projection"},
+        "foreign_policy_channels": {"value": "national security, economic competitiveness, and global health and humanitarian assistance", "unit": "three U.S. foreign-policy interest areas identified by GAO", "value_type": "reported_framework"},
+        "ally_resource_tradeoff": {"value": "aging allies may spend more on health care and have fewer resources available for defense", "unit": "expert/literature-based implication", "value_type": "reported_implication"},
+        "agency_response": {"value": "DOD, HHS, and State address some implications indirectly through research, partner engagement, health or humanitarian assistance, and workforce preparation; no dedicated older-population foreign-assistance program was identified", "unit": "agency-program review", "value_type": "reported_finding"},
+        "geopolitical_endpoint": {"value": "not observed", "unit": "changed defense budgets, alliance behavior, migration, labor competition, or U.S. strategic outcomes", "value_type": "unmeasured"}
+      },
+      "method": "GAO conducted a literature review, interviewed selected academic and nongovernmental experts, reviewed DOD, HHS, and State documents and guidance, and interviewed agency officials.",
+      "uncertainty": "The report identifies plausible policy implications rather than estimating their size or causal timing. Expert and literature evidence does not establish country-specific defense tradeoffs, migration responses, alliance decisions, firm outcomes, or the effect of a dedicated U.S. program.",
+      "subgroup": "Older populations, U.S. allies and adversaries, labor markets, defense establishments, health systems, U.S. foreign-assistance agencies, and partner governments.",
+      "counterinterpretation": "Older populations may also contribute skills, care, savings, and social stability; defense spending can be shaped by threat, politics, and technology rather than aging alone. Countries may adapt through productivity, immigration, retirement reform, or other policies.",
+      "source_url": "https://www.gao.gov/products/gao-26-108732",
+      "retrieval_hash": "sha256:ccb95c684654dd0875e41a6bd7dc67845aecd174814c70dfa5bda436b8a24a23",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-108732/index.html", "claim": "GAO full report and accessible version for global-aging implications and agency efforts.", "status": "official-report-context"}
+  ],
+  "boundary": "This record maps a demographic trend to U.S. foreign-policy interest areas and records current agency attention. It does not estimate country-level causal effects, changed alliances, defense budgets, migration, labor markets, health outcomes, or U.S. strategic leverage.",
+  "retrieval_hash": "sha256:ccb95c684654dd0875e41a6bd7dc67845aecd174814c70dfa5bda436b8a24a23"
+}

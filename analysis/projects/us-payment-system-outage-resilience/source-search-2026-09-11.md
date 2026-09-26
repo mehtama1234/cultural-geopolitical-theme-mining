@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States, with comparison evidence from Spain and Sweden  
-**Status:** opening pass; payment resilience is measured, essential-needs effects remain open
+**Status:** bounded pass completed; payment resilience is measured, essential-needs effects remain open
 
 ## Working question
 
@@ -25,6 +25,9 @@ storm or infrastructure failure
 ```
 
 The source supports payment failure and cash's backup role. It does not show the complete cost of a missed purchase for each household.
+
+The completed finding is [A digital payment system can be widespread while cash
+remains a practical backup during outages](findings/us-payment-system-outage-resilience-001.md).
 
 ## Counterpoint to keep visible
 

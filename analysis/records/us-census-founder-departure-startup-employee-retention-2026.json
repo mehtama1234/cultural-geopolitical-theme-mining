@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-founder-departure-startup-employee-retention-2026",
+  "title": "Founder departure can disrupt startup retention after workers build shared relationships and culture",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "trust_identity_meaning", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "Census CES Working Paper CES-26-21; matched U.S. employer-employee data with founder premature-death cases used as plausibly exogenous founder exits",
+  "geography": "United States startups and their employees; matched Census employer-employee records",
+  "observations": [{
+    "period": "U.S. startup founder departure and employee retention; matched administrative study, paper published March 2026",
+    "denominator": {"value": 1, "unit": "study-defined matched startup and employee analysis", "value_type": "study_unit"},
+    "measures": {
+      "founder_departure": {"value": "founder departures significantly increased employee turnover", "unit": "employee turnover response", "value_type": "reported_effect"},
+      "firm_age_size": {"value": "the turnover effect was stronger in older and larger startups", "unit": "heterogeneous effect by startup age and size", "value_type": "reported_comparison"},
+      "shared_tenure": {"value": "the departure effect was more salient among employees with longer shared tenure with the founder", "unit": "employee-founder tenure comparison", "value_type": "reported_comparison"},
+      "same_sex": {"value": "the departure effect was more salient among employees who had the same sex as the founder", "unit": "employee-founder subgroup comparison", "value_type": "reported_comparison"},
+      "proposed_mechanism": {"value": "the patterns suggest complementarities in skills, relationships, or culture develop between founders and employees over time", "unit": "authors' mechanism interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The paper uses matched employer-employee Census data and focuses on premature founder deaths as plausibly exogenous exits to study employee turnover after founder departure. It compares effects by startup age, size, shared tenure, and employee-founder sex.",
+    "uncertainty": "The source measures turnover, not whether leaving was voluntary, beneficial, harmful, or caused by worsening conditions. Founder death is an unusual departure and may differ from resignation, acquisition, conflict, or planned succession. The abstract does not observe pay, job quality, worker voice, replacement leadership, firm survival, household effects, or later careers.",
+    "subgroup": "Employees and startups in the matched U.S. Census analysis; effects may differ by occupation, founder role, ownership, industry, worker identity, firm governance, local labor market, and type of founder departure.",
+    "counterinterpretation": "Higher turnover after founder death may reflect grief, uncertainty, leadership replacement, firm strategy, financing, or other disruption rather than a positive founder-employee cultural bond. Longer tenure or same-sex matching may proxy role, hierarchy, occupation, or selection rather than shared culture.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-21.html",
+    "retrieval_hash": "sha256:278dafe492fe0f6ce55adbf6ad09721afbdd36e42febdbe49cac3ee07e7536cd",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/ces/wp/2026/CES-WP-26-21.pdf", "claim": "Official Census PDF for CES Working Paper CES-26-21", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a founder-culture and retention mechanism: a firm can depend on relationships, skills, and meaning built around a person. It does not establish that founder influence is good or bad, that turnover reflects worker harm, or that founder departure changes firm survival, worker control, household security, or broader culture."
+}

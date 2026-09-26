@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-gig-economy-outside-options-labor-supply-2026",
+  "title": "A competing platform can give gig workers more leverage over the first platform",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "NBER Working Paper 35626, randomized pay experiments among Uber drivers paired with a natural experiment in access to a competing platform",
+  "geography": "United States gig-economy drivers; the public abstract does not fully specify the study-area frame",
+  "observations": [
+    {
+      "period": "Study-period Uber driver pay experiments and competitor-access variation",
+      "denominator": {
+        "value": null,
+        "unit": "Participating Uber drivers and experiment observations; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "firm_specific_labor_supply_elasticity": {
+          "value": "access to a single competing platform nearly doubled drivers' elasticity to the firm",
+          "unit": "reported experimental and natural-experiment comparison",
+          "value_type": "reported_effect"
+        },
+        "implied_monopsony_markdown": {
+          "value": "fell from about 68% to about 50% when competitor access increased",
+          "unit": "implied labor-market markdown estimate",
+          "value_type": "reported_estimate"
+        },
+        "sex_difference": {
+          "value": "women were about twice as elastic to the market as men, while being no less elastic to their employer",
+          "unit": "reported subgroup comparison",
+          "value_type": "reported_comparison"
+        },
+        "worker_security": {
+          "value": "not observed in the public abstract",
+          "unit": "missing realized earnings, hours stability, expenses, benefits, household security, and later switching outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Randomized pay experiments among Uber drivers combined with a natural experiment in access to a competing platform; the study separates market-hours response from substitution away from the focal firm.",
+      "uncertainty": "The public abstract does not disclose the exact driver count, study-area coverage, treatment timing, or full distribution of effects. Elasticity and an implied markdown are model-based labor-market measures, not direct estimates of each driver's income, welfare, or bargaining experience.",
+      "subgroup": "Uber drivers, with reported comparisons by sex; the abstract does not establish whether effects vary by race, caregiving, vehicle ownership, local demand, immigration status, or dependence on driving income.",
+      "counterinterpretation": "A second platform may increase a worker's ability to shift labor without improving net pay after fuel, vehicle, insurance, waiting, taxes, or unpaid time. Access can also be formally available but practically unusable if demand, account rules, location, or scheduling constraints limit switching.",
+      "source_url": "https://www.nber.org/papers/w35626",
+      "retrieval_hash": "sha256:226b528821ea27834ce30be60e398d0084b0867fcb43649e27a887ae0153a2d3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures how competitor access changes labor supply to Uber and the implied firm markdown in a gig-work setting. It does not establish durable worker control, net household income, job quality, benefits, safety, or a general result for all independent contractors or U.S. workers."
+}

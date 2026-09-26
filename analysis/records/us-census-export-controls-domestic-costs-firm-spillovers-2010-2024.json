@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-export-controls-domestic-costs-firm-spillovers-2010-2024",
+  "title": "Export controls can restrict the targeted trade while spilling into firms' other markets and payroll",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-50 using export transactions, product control classifications, and firm-level outcomes",
+  "geography": "United States exporters, controlled products, Russia-related export restriction in 2014, firms, products, and destinations",
+  "observations": [{
+    "period": "2010-2024 export-control prevalence; 2014 Russia restriction natural experiment",
+    "denominator": {"value": 1, "unit": "firm-product-destination export transaction and firm-outcome analysis", "value_type": "study_unit"},
+    "measures": {
+      "control_prevalence": {"value": "the share of U.S. exports subject to controls doubled between 2010 and 2024", "unit": "share of exports", "value_type": "reported_trend"},
+      "firm_distribution": {"value": "firms exporting controlled products have a skewed size distribution", "unit": "firm-size comparison", "value_type": "reported_comparison"},
+      "targeted_market": {"value": "the 2014 restriction reduced affected firms' probability of exporting targeted goods to Russia", "unit": "firm export outcome", "value_type": "reported_relationship"},
+      "spillover_exports": {"value": "affected firms also reduced exports of other products and to other destinations", "unit": "indirect firm export outcome", "value_type": "reported_relationship"},
+      "payroll": {"value": "affected firms' average payroll fell", "unit": "firm labor-cost outcome", "value_type": "reported_relationship"},
+      "interpretation": {"value": "domestic costs of export controls extend beyond the directly restricted transactions", "unit": "study interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors combine export transactions with product classifications used to administer controls and exploit the 2014 U.S. restriction on exports to Russia as a natural experiment for firm-level outcomes.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The abstract identifies firm-level export and payroll effects but does not establish the national welfare balance, security effectiveness, consumer incidence, worker layoffs, or whether firms later adapted through new products or destinations.",
+    "subgroup": "U.S. firms exporting controlled products, with skewed firm-size distribution; effects may differ by product, technology, destination, supply chain, ownership, worker composition, and preexisting market power.",
+    "counterinterpretation": "Export controls may achieve security, diplomatic, or technology-protection goals not captured by firm exports or payroll. Spillovers can reflect demand, sanctions, macroeconomic conditions, compliance costs, substitution, or strategic firm response; lower payroll is not identical to layoffs or household harm.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-50.html",
+    "retrieval_hash": "sha256:6390377bde1c6f1952abffd608ab5eefab8bc054957f7ebe4a346d7654331d0f",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-50.pdf", "claim": "The official paper provides the export-transaction design, control classifications, 2014 Russia restriction, targeted and indirect export effects, and payroll outcome.", "status": "official-paper-context"}],
+  "boundary": "This record adds a geopolitical restriction-to-domestic-firm-spillover pathway. It does not measure the policy's security success, diplomatic effect, national welfare, worker-level job loss, consumer prices, or durable firm adaptation.",
+  "retrieval_hash": "sha256:6390377bde1c6f1952abffd608ab5eefab8bc054957f7ebe4a346d7654331d0f"
+}

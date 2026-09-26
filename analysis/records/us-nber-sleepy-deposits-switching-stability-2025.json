@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-sleepy-deposits-switching-stability-2025",
+  "title": "Banking inertia can weaken competition while supporting deposit stability",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 34267; account-opening and account-closure data at more than 900 banks with an empirical model of deposit competition and stability",
+  "geography": "United States banks and depositors; account openings, closures, competition, and the 2023 banking turmoil",
+  "observations": [{
+    "period": "U.S. deposit accounts and banks; paper issued 2025",
+    "denominator": {"value": 1, "unit": "U.S. bank-account opening and closure study", "value_type": "study_unit"},
+    "measures": {
+      "new_account_rate": {"value": "only about 5% to 15% of depositors open new accounts per year", "unit": "annual depositor account-opening share", "value_type": "reported_estimate"},
+      "closure_reason": {"value": "more account closures are driven by moving or death than by rate-shopping", "unit": "account closure reason", "value_type": "reported_comparison"},
+      "deposit_franchise_value": {"value": "depositor sleepiness accounts for about 57% of average deposit franchise value", "unit": "modeled deposit franchise value", "value_type": "reported_model_estimate"},
+      "competition": {"value": "depositor sleepiness softens competition, particularly for banks in low-concentration markets and banks with low-quality services", "unit": "modeled competitive effect", "value_type": "reported_model_result"},
+      "financial_stability": {"value": "sleepiness enhances financial stability and significantly reduced modeled default probabilities during the 2023 banking turmoil", "unit": "modeled bank default probability", "value_type": "reported_model_result"}
+    },
+    "method": "The authors combine account-opening and account-closure data from more than 900 banks with an empirical dynamic model in which banks choose between investing to attract deposits and harvesting existing deposit relationships.",
+    "uncertainty": "The public abstract does not observe each depositor's rate gap, fees, service use, switching effort, fraud experience, branch need, household budget, or reason for staying. The stability and competition findings are model-based and do not establish that any individual depositor benefited or was harmed by staying.",
+    "subgroup": "Depositors and banks across the observed U.S. banking system, with modeled differences by market concentration and service quality; the abstract does not establish equal switching barriers for older, disabled, rural, low-income, or digitally limited customers.",
+    "counterinterpretation": "Low switching can reflect trust, useful service, deliberate choice, moving or death, rather than inattention or exploitation. Stable deposits may support lending and reduce bank runs, but they can also reduce pressure to improve rates or service. A model result during the 2023 turmoil is not proof that all customer inertia is socially beneficial.",
+    "source_url": "https://www.nber.org/papers/w34267",
+    "retrieval_hash": "sha256:16cddc8c19e75a5f76c47bde0ceaa2b10ffeb387863ad306f99cdc81176a3cb1",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34267", "claim": "NBER DOI record for Working Paper 34267", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a banking conversion finding: account relationships can turn customer staying into both a competition effect and a stability effect. It does not establish the welfare of individual depositors, the value of branch or digital service, the causes of any customer's inertia, or equal access to safe switching."
+}

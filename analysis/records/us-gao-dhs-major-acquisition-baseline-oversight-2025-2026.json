@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dhs-major-acquisition-baseline-oversight-2025-2026",
+  "title": "A national-security program can meet a revised baseline while its cost, schedule, and oversight frame moves",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108118, DHS Annual Assessment: Dynamic Environment Affects Efforts to Manage Acquisition Risks",
+  "geography": "United States; Department of Homeland Security major acquisition programs",
+  "observations": [
+    {
+      "period": "FY2025 portfolio status as of September 30, 2025; oversight changes through May 2026; report June 2026",
+      "denominator": {
+        "value": 27,
+        "unit": "DHS major acquisition programs selected for the annual assessment; 19 had approved baselines and 8 had not reached the approval stage",
+        "value_type": "selected_program_portfolio"
+      },
+      "measures": {
+        "approved_baselines": {
+          "value": 19,
+          "unit": "programs with DHS-approved cost, schedule, and performance baselines",
+          "value_type": "reported_count"
+        },
+        "revised_baselines": {
+          "value": 15,
+          "unit": "of 19 baselined programs that revised their baseline goals at least once",
+          "value_type": "reported_count"
+        },
+        "current_baseline_status": {
+          "value": 18,
+          "unit": "of 19 baselined programs meeting their most recent baseline goals",
+          "value_type": "reported_count"
+        },
+        "projected_cost_growth": {
+          "value": "$11.4 billion, or 26%",
+          "unit": "collective increase in baselined projected costs since initial baselines",
+          "value_type": "reported_aggregate"
+        },
+        "portfolio_planned_spending": {
+          "value": "over $55 billion",
+          "unit": "DHS planned investment in major acquisition programs",
+          "value_type": "reported_aggregate"
+        },
+        "staff_reduction": {
+          "value": 8,
+          "unit": "programs with at least a 20% staff reduction in FY2025, with lost subject-matter expertise or technical skills",
+          "value_type": "reported_count"
+        },
+        "oversight_reorganization": {
+          "value": "DHS dissolved a department-level acquisition oversight office in October 2025; officials were unsure in January 2026 what level of oversight would continue, and at least part was reconstituted by May 2026",
+          "unit": "oversight-structure change",
+          "value_type": "reported_sequence"
+        },
+        "fielded_capability": {
+          "value": "not observed as a linked route from baseline revision through operational delivery, user performance, mission effect, or external response",
+          "unit": "missing capability-outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO selected 27 of DHS's largest acquisition programs, reviewed key documents and cost, schedule, and performance information, and interviewed DHS officials. It compared initial and current baselines and described staffing, funding, and acquisition-oversight changes.",
+      "uncertainty": "The portfolio is selected rather than a random sample. Meeting a current baseline does not show that the original promise was met, nor does a revised baseline necessarily mean concealment or failure; it may reflect better information or changed requirements. The assessment does not provide one comparable operational outcome across programs or establish causal effects of staff cuts or oversight reorganization.",
+      "subgroup": "Coast Guard, Customs and Border Protection, and other DHS components; programs differ in technology, mission, acquisition stage, cost, and baseline maturity.",
+      "counterinterpretation": "Rebaselining can improve realism and make management more transparent. Eighteen of 19 baselined programs meeting their most recent goals is evidence of current-plan performance, even though it does not erase earlier cost or schedule movement. Staff changes may be temporary or offset by other expertise, and the report does not show that the oversight reorganization caused a missed milestone.",
+      "source_url": "https://www.gao.gov/products/gao-26-108118",
+      "retrieval_hash": "sha256:15971d56423de16e0b1140017f8163121bd18128cd26a674535d9db2c54a0ff9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/assets/gao-26-108118.pdf",
+      "claim": "Official GAO report provides the 27-program portfolio, baseline revisions, cost growth, staffing changes, and oversight reorganization.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds a national-security acquisition realization layer: current performance can look on track against a revised baseline while the original cost, schedule, staffing, and oversight frame changes. It does not establish failed capability, waste, unsafe systems, or changed external deterrence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and full report PDF reviewed; underlying DHS program records are not retained.",
+    "pdf_sha256": "sha256:15971d56423de16e0b1140017f8163121bd18128cd26a674535d9db2c54a0ff9",
+    "checked": "2026-09-23"
+  }
+}

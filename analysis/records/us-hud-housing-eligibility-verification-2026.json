@@ -1,0 +1,99 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-hud-housing-eligibility-verification-2026",
+  "title": "Housing assistance security can become an identity-verification and status-contestation route before household housing security is known",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "HUD nationwide eligibility-verification announcement and PHA implementation letter; administrative policy and reported audit counts, not a household outcome sample",
+  "geography": "United States HUD-funded public housing and Housing Choice Voucher programs",
+  "observations": [
+    {
+      "period": "January 23, 2026 HUD announcement",
+      "denominator": {
+        "value": 1,
+        "unit": "one HUD/DHS audit of HUD-funded tenants; the covered tenant denominator is not published and agency-reported category counts appear in the measures",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "reported_audit_counts": {
+          "value": "nearly 200,000 tenants requiring eligibility verification; nearly 25,000 deceased tenants; nearly 6,000 ineligible non-American tenants",
+          "unit": "agency-reported audit findings",
+          "value_type": "reported_administrative_counts"
+        },
+        "corrective_action_window": {
+          "value": 30,
+          "unit": "days for PHAs and participating owners to review match reports and initiate corrective action",
+          "value_type": "reported_deadline"
+        },
+        "funding_response": {
+          "value": "HUD says it will recapture funding for payments made on behalf of ineligible and deceased tenants",
+          "unit": "reported agency control",
+          "value_type": "reported_control"
+        },
+        "household_housing_effect": {
+          "value": "not observed",
+          "unit": "missing household notice, appeal, proration, termination, displacement, rent, homelessness, or housing-quality outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official HUD announcement review; agency-reported counts and corrective-action instructions are preserved as reported administrative stages, not independently audited prevalence estimates or person-level housing outcomes.",
+      "uncertainty": "The announcement does not publish the underlying tenant-level match file, error rate, verification status by household, notice or appeal outcomes, or housing consequences. The phrase ineligible non-American tenants is an agency characterization and is not treated as a legal finding for each individual without case-level evidence.",
+      "subgroup": "HUD-funded tenants, public housing authorities, participating owners, mixed-status families, people with pending or difficult-to-verify records, and households affected by correction or proration; subgroup outcomes are not reported.",
+      "counterinterpretation": "Improved identity and eligibility controls may reduce improper payments while also creating verification delay, documentation burden, false matches, or fear of contact for eligible households; the public announcement cannot measure the balance.",
+      "source_url": "https://www.hud.gov/news/hud-no-26-008",
+      "retrieval_hash": "sha256:9744f4956a3de7acd2d4ad266003b4c1120b69f6cfdd1571a927984e780ecaab",
+      "status": "reported"
+    },
+    {
+      "period": "PHA implementation letter issued in 2025; requirements and appeal route reviewed September 21, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "national PHA implementation letter covering public housing and Housing Choice Voucher admission and continued-assistance procedures",
+        "value_type": "policy_document_count"
+      },
+      "measures": {
+        "verification_route": {
+          "value": "PHAs must document and verify citizenship or eligible immigration status before admission or adding a household member; SAVE is the primary automated route",
+          "unit": "reported eligibility-control process",
+          "value_type": "reported_process"
+        },
+        "secondary_review": {
+          "value": "if SAVE cannot confirm status, the PHA must request secondary or additional verification within 10 days; the family may request a USCIS appeal within 30 days after notification",
+          "unit": "reported procedural deadlines",
+          "value_type": "reported_deadline_route"
+        },
+        "mixed_status_route": {
+          "value": "eligible mixed-status households may receive continued, temporary-deferral, or prorated assistance based on eligible household members",
+          "unit": "reported housing-assistance rule",
+          "value_type": "reported_policy_option"
+        },
+        "termination_condition": {
+          "value": "the letter describes possible lease termination and a 24-month readmission bar when a family knowingly permits an ineligible noncitizen to permanently reside in the unit",
+          "unit": "reported policy consequence",
+          "value_type": "reported_policy_consequence"
+        },
+        "housing_security_and_due_process_outcome": {
+          "value": "not observed",
+          "unit": "missing case-level verification accuracy, notice comprehension, appeal resolution, proration amount, continued occupancy, displacement, and later housing stability",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official HUD PHA letter and Section 214 implementation guidance review; the formal verification, secondary-review, appeal, proration, and consequence routes are retained separately from household receipt or loss of assistance.",
+      "uncertainty": "The policy document does not report implementation rates, false-positive rates, processing time, appeal success, PHA variation, or household-level housing outcomes. It also states that assistance may not be delayed, denied, reduced, or terminated solely because of a verification delay unless the family causes the delay, but actual application of that protection is not observed.",
+      "subgroup": "Applicants and assisted households with citizenship, immigration, SSN, identity, mixed-status, pending-verification, or alternate-ID issues; no linked case sample is supplied.",
+      "counterinterpretation": "A formal appeal and proration route can preserve some assistance while status is resolved, but it may still change the amount, timing, paperwork, privacy exposure, or perceived safety of the housing relationship.",
+      "source_url": "https://www.hud.gov/sites/dfiles/PIH/documents/PHA-Letter-on-Citizenship-and-Immigration-Status-Verification.pdf",
+      "retrieval_hash": "sha256:cb72130538f7e714ce31256111eb61c739a453e65fa86cb3d915191ba4be2da2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a housing-assistance eligibility, identity-verification, appeal, proration, and possible-termination stage. It does not independently verify HUD's reported audit counts or establish a household's eligibility, notice, appeal, payment, displacement, homelessness, housing quality, trust, or durable housing security."
+}

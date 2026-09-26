@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-ai-privacy-guidance-gaps-2026",
+  "title": "Federal AI use is advancing faster than complete privacy guidance",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107681 review of expert-identified AI privacy risks and OMB government-wide AI guidance as of January 2026",
+  "geography": "United States federal agencies and members of the public whose personal information is collected or used in government AI systems",
+  "observations": [
+    {
+      "period": "January 2026; expert-identified AI privacy challenges",
+      "denominator": {"value": 10, "unit": "selected privacy-related challenges identified by GAO's expert panel for comparison with OMB guidance", "value_type": "reported_challenges"},
+      "measures": {
+        "challenge_scope": {"value": "security, data-use transparency, algorithmic-decision transparency, secondary use, consent, privacy technology, performance measurement, privacy impact assessment, workforce capability, and privacy-performance tradeoffs", "unit": "expert-identified challenge set", "value_type": "reported_scope"},
+        "sensitive_data_risk": {"value": "AI use can reveal personal and private information in raw data sets and increase exposure through collection, sharing, or repurposing", "unit": "reported risk mechanism", "value_type": "reported_risk"},
+        "public_control_boundary": {"value": "people may not understand or control how their data are used in AI systems", "unit": "privacy and consent boundary", "value_type": "reported_boundary"}
+      },
+      "method": "GAO convened an expert panel, compiled a non-exhaustive challenge list, and compared the selected challenges with OMB AI-related government-wide guidance.",
+      "uncertainty": "The expert list is non-exhaustive and does not estimate the prevalence, likelihood, or realized harm of each risk in a particular agency or system.",
+      "subgroup": "Federal agencies using AI and members of the public whose sensitive personal information enters federal data or decision systems.",
+      "counterinterpretation": "A documented risk is not a documented privacy breach; agencies may use controls not visible in government-wide guidance or in GAO's selected comparison.",
+      "source_url": "https://www.gao.gov/products/gao-26-107681",
+      "retrieval_hash": "sha256:57de3923784afae79156ce0cea3c218ed4a549acbd1da8b820a097305dbad8d8",
+      "status": "reported"
+    },
+    {
+      "period": "As of January 2026; OMB guidance coverage",
+      "denominator": {"value": 10, "unit": "selected expert-identified privacy challenges assessed against OMB government-wide AI guidance", "value_type": "comparison_set"},
+      "measures": {
+        "fully_addressed": {"value": 2, "unit": "selected challenges the guidance addressed: workforce skills and accelerating/scaling AI with privacy protections", "value_type": "reported_count"},
+        "not_fully_addressed": {"value": 8, "unit": "selected challenges not fully addressed by the guidance", "value_type": "reported_count"},
+        "coverage_share": {"value": 20, "unit": "percent of the selected challenge set fully addressed, calculated as 2 of 10", "value_type": "derived_share"},
+        "guidance_gap": {"value": "OMB guidance did not specify the types of known privacy risks agencies should consider when making privacy policies", "unit": "governance finding", "value_type": "reported_finding"}
+      },
+      "method": "GAO content comparison of OMB government-wide AI guidance with the selected ten expert-identified privacy challenges.",
+      "uncertainty": "The 2-of-10 comparison is not a score for agency compliance, privacy performance, or risk severity; challenge definitions and guidance can change over time.",
+      "subgroup": "OMB guidance and federal agency AI implementation practices; selected challenge set only.",
+      "counterinterpretation": "Partial guidance can still support useful controls, and agencies may address gaps through laws, privacy impact assessments, procurement terms, or internal policies.",
+      "source_url": "https://www.gao.gov/products/gao-26-107681",
+      "retrieval_hash": "sha256:57de3923784afae79156ce0cea3c218ed4a549acbd1da8b820a097305dbad8d8",
+      "status": "reported"
+    },
+    {
+      "period": "March 2026; recommended correction",
+      "denominator": {"value": 2, "unit": "GAO recommendations to OMB", "value_type": "reported_recommendations"},
+      "measures": {
+        "recommendations": {"value": "update guidance or facilitate information sharing so agencies address the remaining identified privacy risks and challenges", "unit": "open recommendations", "value_type": "reported_recommendation"},
+        "omb_comment": {"value": "OMB did not provide comments on the report", "unit": "agency response", "value_type": "reported_response"},
+        "correction_status": {"value": "open; GAO will follow up on actions", "unit": "recommendation status", "value_type": "reported_status"}
+      },
+      "method": "GAO recommendation and status review following the comparison of expert-identified risks and OMB guidance.",
+      "uncertainty": "An open recommendation is a governance signal, not evidence that privacy protections are absent in every agency or that a later update will reduce actual risk.",
+      "subgroup": "OMB and federal agencies implementing or overseeing AI systems.",
+      "counterinterpretation": "Future guidance, agency controls, or technical privacy tools may close some gaps without producing a measurable public outcome in the near term.",
+      "source_url": "https://www.gao.gov/products/gao-26-107681",
+      "retrieval_hash": "sha256:57de3923784afae79156ce0cea3c218ed4a549acbd1da8b820a097305dbad8d8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107681/index.html", "claim": "Official full GAO report provides the expert-panel challenge list, guidance comparison, and recommendations.", "status": "official-report"},
+    {"source_url": "https://www.gao.gov/products/gao-26-109063", "claim": "GAO privacy-enhancing-technology assessment supplies a complementary implementation and resource-cost layer; this record does not pool the technology assessment with the guidance comparison.", "status": "official-complementary-source"}
+  ],
+  "boundary": "This record identifies a federal AI privacy-governance gap between technology use, expert-identified risk, guidance, and public control. It does not establish a privacy breach, individual harm, agency noncompliance, causal trust change, political action, or successful deletion or remedy for any person.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for extracted challenge, guidance, and recommendation findings; full report is linked but not retained in this record.",
+    "html_sha256": "sha256:57de3923784afae79156ce0cea3c218ed4a549acbd1da8b820a097305dbad8d8",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-ukraine-assistance-monitoring-evaluation-2023-2026",
+  "title": "Oversight can improve while wartime data still delay proof of strategic results",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-26-107860 review of the State Department MEASURE monitoring and evaluation contract for Ukraine assistance",
+  "geography": "Ukraine assistance programs implemented in Ukraine; U.S. State Department and five selected implementing entities; contract initiated June 2023 and reviewed through November 2025",
+  "observations": [
+    {
+      "period": "June 2023-November 2025 MEASURE contract implementation; GAO report published January 2026",
+      "denominator": {
+        "value": 6.1,
+        "unit": "billions of dollars in supplemental Ukraine appropriations overseen with MEASURE assistance as of September 30, 2025",
+        "value_type": "reported_oversight_scope"
+      },
+      "measures": {
+        "assistance_scope": {
+          "value": "nonhumanitarian, nonmilitary programs including training police and border guards and supporting nuclear-safety operations",
+          "unit": "program scope",
+          "value_type": "reported_scope"
+        },
+        "information_use": {
+          "value": "State used some MEASURE information for oversight and budgeting decisions, particularly project oversight",
+          "unit": "reported management use",
+          "value_type": "reported_use"
+        },
+        "data_constraint": {
+          "value": "data access and varied timeframes for outcomes limited analysis and evaluation",
+          "unit": "reported monitoring constraint",
+          "value_type": "reported_constraint"
+        },
+        "report_change": {
+          "value": "progress reports were streamlined, made more analytical, and changed from quarterly to semiannual delivery",
+          "unit": "oversight-process adjustment",
+          "value_type": "reported_adjustment"
+        },
+        "strategic_evaluation_status": {
+          "value": "cross-project evaluations and selection of strategic outcome indicators were not complete as of November 2025",
+          "unit": "uncompleted oversight deliverables",
+          "value_type": "reported_gap"
+        }
+      },
+      "method": "GAO reviewed the MEASURE contract and deliverables and interviewed EUR/ACE officials, contractor representatives, and five U.S. government implementing entities selected partly by assistance amount.",
+      "uncertainty": "The report assesses oversight design and information use, not the causal effectiveness of Ukraine assistance. Wartime access, delayed outcomes, and a changing assistance strategy limit comparability. The $6.1 billion figure is oversight scope, not verified benefit or strategic success.",
+      "subgroup": "Nonhumanitarian, nonmilitary assistance programs and selected U.S. implementing entities; police, border guards, nuclear-safety operators, Ukrainian institutions, and residents are not followed as one outcome panel.",
+      "counterinterpretation": "Delayed evaluation may reflect legitimate wartime difficulty and the time needed for outcomes to appear, not poor assistance. State changed reporting to make information more useful, and GAO removed draft recommendations after additional agency information showed the recommendations had been addressed.",
+      "source_url": "https://www.gao.gov/products/gao-26-107860",
+      "retrieval_hash": "sha256:7525abb82a6ce31726b56adfcb8421a5c91973f7c3c29b9812782576fb83183d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107860",
+      "claim": "Official GAO landing page and report summary for Ukraine assistance monitoring and evaluation.",
+      "status": "official-report-context"
+    },
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107860/index.html",
+      "claim": "Official GAO full-report page for the MEASURE contract review.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures an oversight system for U.S. assistance to Ukraine and a change in reporting practice. It does not establish assistance effectiveness, Ukrainian public legitimacy, battlefield or nuclear-safety outcomes, deterrence, or changed Russian behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page reviewed; underlying contract deliverables and wartime program records are not retained",
+    "checked": "2026-09-22"
+  }
+}

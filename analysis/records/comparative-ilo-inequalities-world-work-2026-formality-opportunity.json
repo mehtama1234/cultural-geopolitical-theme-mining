@@ -1,0 +1,91 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-inequalities-world-work-2026-formality-opportunity",
+  "title": "Work inequality is organized through sector, formality, own-account status, and circumstances beyond individual control rather than only headline wage gaps",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "International Labour Organization, Inequalities in the World of Work, published June 2026",
+  "geography": "Global labor markets with comparative analysis across Sub-Saharan Africa, Latin America, demographic groups, sectors, employment forms, and formal/informal work",
+  "observations": [
+    {
+      "period": "2026 publication; multidimensional earnings inequality framework",
+      "denominator": {
+        "value": 1,
+        "unit": "ILO harmonized labor-market evidence and global inequality-analysis frame",
+        "value_type": "global_work_inequality_frame"
+      },
+      "measures": {
+        "inequality_dimensions": {"value": "vertical inequality, horizontal disparities, and inequality of opportunity", "unit": "reported analytical dimensions", "value_type": "reported_framework"},
+        "vertical_measures": {"value": "relative and absolute earnings inequality", "unit": "reported measurement set", "value_type": "reported_measurement_set"},
+        "horizontal_measures": {"value": "differences across demographic and labour-market groups", "unit": "reported measurement set", "value_type": "reported_measurement_set"},
+        "opportunity_mechanism": {"value": "circumstances beyond individual control account for a measurable share of wage dispersion", "unit": "reported structural mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO multidimensional analysis using harmonized ILO microdata, relative and absolute earnings measures, group comparisons, and decomposition of inequality of opportunity.",
+      "uncertainty": "The publication is a comparative synthesis of harmonized data and decompositions; it does not establish a universal causal effect of any single circumstance, sector, or policy on an individual's earnings.",
+      "subgroup": "Workers across demographic groups, sectors, employment forms, formal and informal economies, own-account work, employers, and labor institutions.",
+      "counterinterpretation": "Observed earnings inequality can reflect skill, experience, occupation, hours, geography, selection, firm composition, or compensation differences as well as structural barriers; no single decomposition captures the whole mechanism.",
+      "source_url": "https://www.ilo.org/publications/inequalities-world-work",
+      "retrieval_hash": "sha256:536e98a33980f300fbb124e8b3e9c203787cdaa97c85dacd0befc6b556721f49",
+      "status": "reported"
+    },
+    {
+      "period": "2026 publication; sectoral, regional, and employment-form inequality",
+      "denominator": {
+        "value": 1,
+        "unit": "global earnings-inequality comparison across regions and work forms",
+        "value_type": "cross_region_work_comparison_frame"
+      },
+      "measures": {
+        "high_inequality_regions": {"value": "Sub-Saharan Africa and Latin America consistently exhibit high earnings inequality", "unit": "reported regional pattern", "value_type": "reported_regional_pattern"},
+        "absolute_gap_signal": {"value": "absolute earnings measures reveal particularly wide material gaps", "unit": "reported material-inequality pattern", "value_type": "reported_distributional_pattern"},
+        "sector_formality_role": {"value": "sectoral differences and employment form account for a large role in inequality of opportunity", "unit": "reported decomposition finding", "value_type": "reported_decomposition_finding"},
+        "own_account_within_group": {"value": "own-account workers show substantial within-group earnings inequality, especially in the informal economy", "unit": "reported work-form pattern", "value_type": "reported_work_form_pattern"}
+      },
+      "method": "ILO regional, sectoral, and employment-form comparisons using harmonized earnings data and decomposition results.",
+      "uncertainty": "Regional and work-form patterns do not identify all country-specific mechanisms, earnings trajectories, working conditions, or household consequences; harmonization and coverage vary across sources.",
+      "subgroup": "Informal workers, own-account workers, employees, women and men, workers in different sectors, and labor markets in Sub-Saharan Africa and Latin America.",
+      "counterinterpretation": "Own-account work can offer autonomy and entry when wage employment is scarce; informal activity can provide income and flexibility even while exposing workers to weaker protection and greater volatility.",
+      "source_url": "https://www.ilo.org/publications/inequalities-world-work",
+      "retrieval_hash": "sha256:536e98a33980f300fbb124e8b3e9c203787cdaa97c85dacd0befc6b556721f49",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy and institutional implications for decent work",
+      "denominator": {
+        "value": 1,
+        "unit": "ILO work-inequality policy and labor-market segmentation frame",
+        "value_type": "work_policy_frame"
+      },
+      "measures": {
+        "structural_policy_set": {"value": "comprehensive labor-market policies, formal-employment expansion, and improved access to decent work", "unit": "reported policy response set", "value_type": "reported_policy_mechanism_set"},
+        "segmentation_endpoint": {"value": "sectoral segmentation and employment form shape access to earnings and protections", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "gender_intersection": {"value": "sex contributes less to between-group inequality in the decomposition but remains important when intersecting disadvantages are considered", "unit": "reported demographic finding", "value_type": "reported_intersectional_finding"},
+        "decent_work_endpoint": {"value": "earnings, formality, opportunity, and protection must be considered together to assess inclusive work", "unit": "reported evaluation endpoint", "value_type": "reported_framework"}
+      },
+      "method": "ILO interpretation of decomposition results and policy implications for formalization, decent work, labor-market segmentation, and intersecting disadvantage.",
+      "uncertainty": "Policy priorities are not implementation evaluations; formalization alone does not guarantee adequate earnings, bargaining power, safety, flexibility, or household recovery.",
+      "subgroup": "Workers in informal and formal employment, own-account workers, employers, labor ministries, social-protection institutions, and worker organizations.",
+      "counterinterpretation": "Some formalization policies can exclude marginal workers or reduce flexible earning routes if they raise compliance costs without support; policy should distinguish protection from employment status alone.",
+      "source_url": "https://www.ilo.org/publications/inequalities-world-work",
+      "retrieval_hash": "sha256:536e98a33980f300fbb124e8b3e9c203787cdaa97c85dacd0befc6b556721f49",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.54394/00033742", "claim": "Official ILO DOI for Inequalities in the World of Work."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "ILO Employment and Social Trends 2026 provides a separate global jobs-gap and job-quality context; it is not treated as the same inequality mechanism here."}
+  ],
+  "boundary": "This record adds a published structural work-inequality route linking earnings dispersion, sector, formality, own-account work, inequality of opportunity, policy, and decent-work access. It is not new respondent-level analysis, an individual wage estimate, a causal decomposition for every country, or proof that formalization or policy reform improves household outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official ILO publication page and DOI metadata were reviewed; multidimensional inequality, regional and employment-form patterns, inequality-of-opportunity decomposition, intersectional interpretation, and policy boundaries were cross-checked.",
+    "source_url_sha256": "sha256:536e98a33980f300fbb124e8b3e9c203787cdaa97c85dacd0befc6b556721f49",
+    "checked": "2026-09-26"
+  }
+}

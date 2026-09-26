@@ -1,27 +1,61 @@
 # US broad program current-status audit v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-24
 **Scope:** the full 14-theme societal, cultural, consumer, institutional,
 financial, political, firm, infrastructure, and geopolitical program
 
-**Current registry state:** 344 machine-readable records, 1214 observations,
-103 source packets, and 14 program themes. The published link-validated site
-currently has 669 link-validated HTML pages; these counts describe coverage and publication, not completion
+**Program orientation:** this is a broad cultural-social-consumer-political
+atlas, not a single health-cost, consumer-remedy, or AI-work study. The
+empirical core is U.S.-anchored, while comparative and global evidence is used
+to test capability, inequality, institutional capacity, dependence, state
+power, and geopolitical consequences. Those layers are kept separate: a
+global comparison is context or a mechanism test, not a U.S. household result;
+an observed domestic capability is not automatically external leverage. The
+program's central task is to map how conditions, rules, prices, technologies,
+and shocks move through money, time, access, control, status, culture,
+institutions, political action, firm strategy, infrastructure, and state
+power—and to mark the missing links rather than collapse them into one story.
+
+**Current registry state:** 1012 machine-readable records, 2353 observations,
+The registry contains 1003 `us-trend-observation-record-v1` records plus 2
+explicitly accepted compatibility-format records.
+164 source packets, and 14 program themes. The published link-validated site
+currently has 1151 link-validated HTML pages; these counts describe coverage and publication, not completion
 of the end-to-end causal arrows.
+
+The new [theme balance audit](US-BROAD-THEME-BALANCE-AUDIT_V1.md) shows that
+record density is uneven: platforms/data/attention has 75 records,
+time/care/social reproduction 133, and geopolitical/state consequences 134,
+compared with 416 in household room and 562 in unequal exposure/status.
+This is a routing signal only. A thinner theme should receive the next pass
+when it can add a missing unit or conversion stage, not merely to equalize
+counts.
+
+**Current reader state — 2026-09-21:** the plain-language broad reader contains
+367 contiguous numbered findings. The reader count is a communication-layer
+measure and is separate from the 97-ledger event portfolio; adding a finding
+does not imply that a new same-unit causal arrow has been closed.
 
 This is a recovery and decision document. It records what is covered, what has
 been deepened, and what still prevents an end-to-end claim. The program is not
 defined by the latest SIPP, SHED, CFPB, SNAP, or AI-infrastructure pass.
+
+**Continuity recheck — 2026-09-21:** the workspace count audit found 367 reader
+headings in strict numeric order. The reader duplication audit records the
+title-level cleanup and source-path reuse separately; count references in the
+recovery brief, start page, research pass, queue, and broad-goal restatement
+must remain synchronized with the current 367-heading reader state.
 
 All new external-data work follows the [acquisition resource policy](../ACQUISITION-RESOURCE-POLICY_V1.md);
 large archives are not retrieved by default, and existing local artifacts are
 checked before any new acquisition.
 
 For a compact reader route through the current evidence, use the [current
-themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links twelve
-representative routes from household pressure through institutional, political,
-and geopolitical consequences. Its new [14-theme coverage index](../REVIEW-PACKET_CURRENT-THEMES_V1.md)
-maps every governing theme to one or more of the thirteen representative routes;
+themes review packet](../REVIEW-PACKET_CURRENT-THEMES_V1.md), which links a
+compact set of representative routes from household pressure through
+institutional, political, and geopolitical consequences. Its new [14-theme
+coverage index](../REVIEW-PACKET_CURRENT-THEMES_V1.md)
+maps every governing theme to one or more of the fourteen representative routes;
 the packet remains a navigation layer rather than a claim that any route is
 causally complete.
 
@@ -92,6 +126,13 @@ party, concern, and expected-job-loss boundaries for later same-worker testing.
 Its new cross-source synthesis frames confidence, payment,
 platform attention, charitable-food access, and digital recourse as distinct
 currencies of participation under unequal optionality.
+The refreshed [unequal-optionality/status/meaning synthesis](projects/us-cost-trust-politics/unequal-optionality-status-meaning-synthesis-v1.md)
+now makes the cultural mechanism explicit: a nominal option becomes a real
+option only when language, mobility, family obligation, identity, status, and
+institutional history allow it to be used. Latino mobility/identity evidence,
+the Alam worker-remedy case, employment alongside public benefits, and the
+formal-remedy/lived-recovery audit all reinforce this as a cross-domain
+mechanism rather than a demographic or attitude claim.
 The practical-exit observability audit now adds a cross-domain status
 vocabulary: institutional exit, access restoration, continued use, switching,
 non-use, household move/stay, and practical exit are separate labels. It
@@ -122,14 +163,22 @@ confirms that all 14 themes have evidence anchors and explicit next tests,
 while no theme should be read as fully closed merely because its status is
 reported or compared.
 
-The latest [machine-readable coverage control audit](data/us-broad-theme-end-to-end-coverage-audit-2026-09-17.json)
+The [ranked strongest-chain register](US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.md)
+now identifies the ranked retained routes toward a complete end-to-end
+result. The leading route is the single-worker remedy case because it holds
+the most stages in one compatible record; it still lacks final receipt and
+later stability. The largest same-person route is MEPS, but it lacks the
+event-specific alternatives and remedy middle.
+
+The latest [machine-readable coverage control audit](US-BROAD-THEME-END-TO-END-COVERAGE-AUDIT_V1.json)
 rechecks the matrix without new acquisition: all 14 themes are represented,
 with 14 Compared, 12 Reported, 5 Open, and 3 Inferred status tokens; five
 themes explicitly declare an open same-unit end-to-end link. These are matrix
 control counts, not population rates or completed causal arrows. The next
-executable step remains the authenticated PSID wave-file gate, followed by
-retention, missingness, and weight checks; no PSID archive is to be fetched
-before account access is available.
+executable step remains a lawful event-compatible or repeated design that can
+add alternatives, attribution, remedy, recovery, or action; the authenticated
+PSID/UAS wave-file gates remain acquisition-dependent, and no restricted archive
+is to be fetched before account access and permitted use are available.
 
 The [latest counterexample register](US-BROAD-COUNTEREXAMPLE-REGISTER_V1.md)
 adds six bounded reversals to the current status: fraud exposure is not
@@ -498,17 +547,27 @@ The [attrition audit](projects/us-cost-trust-politics/data/htops-2025-panel-attr
 shows lower retention in several material-pressure cells, while the
 [cross-lagged audit](projects/us-cost-trust-politics/data/htops-2025-cross-lagged-panel-audit.json)
 shows materially higher later food, energy, and job-loss shares among baseline
-expense-difficulty respondents, without a parallel Congress-confidence
-difference. These are selected-panel associations, not causal or population
-transition estimates.
+expense-difficulty respondents. Congress confidence is nearly flat, while the
+same screen shows lower confidence in the presidency, military, police,
+Supreme Court, public schools, and statistical agencies. These are selected-
+panel associations, not causal or population transition estimates.
 
 The new [HTOPS expense cross-lagged finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-042.md)
 promotes that audit as a separate canonical record. It adds item-specific
 standard errors and valid counts, and makes the political counterexample
-explicit: later material-pressure shares diverge sharply while high confidence
-in Congress is nearly flat. The result remains selected-panel association;
+explicit: later material-pressure shares diverge sharply while institutional
+confidence moves selectively rather than universally—Congress is nearly flat,
+while several other targets are lower in the difficult group. The result remains selected-panel association;
 dated bills, responsible actors, alternatives, remedies, recovery, and action
-are unobserved.
+are unobserved. A separate [HTOPS wave-overlap audit](projects/us-cost-trust-politics/htops-wave-overlap-audit-2025-2026.md)
+checked retained February 2025, June 2025, and March 2026 files before any
+further panel extension: all pairwise `SCRAMID` intersections were zero. Those
+waves therefore remain cross-sectional context, not a new longitudinal result.
+The [structured HTOPS material-pressure ledger](projects/us-cost-trust-politics/data/htops-material-pressure-confidence-event-ledger-v1.json)
+now carries this bridge into the broad event inventory: same linked respondents
+are retained from April expense difficulty to June household burden and a
+multi-institution confidence profile. It advances the material-to-meaning lane without
+turning confidence into trust change, political action, or recovery.
 
 The [SIPRI military-expenditure record](records/us-sipri-military-expenditure-state-capacity-2015-2024.json)
 adds a geopolitical resource-allocation baseline: global, US, and NATO spending
@@ -625,7 +684,15 @@ boundary: September 2026 first-wafer and sampling milestones are reported, but
 the SEC-filed company update places the broader US 8-inch ramp in 2027–28 and
 leaves customer qualification pending. This advances the downstream route
 without establishing scaled output, customer use, upstream gallium provenance,
-import displacement, or geopolitical autonomy.
+import displacement, or geopolitical autonomy. The corresponding [broad event
+ledger](projects/ai-work-control/data/gao-critical-minerals-substitution-dependence-event-ledger-v1.json)
+keeps import reliance, application-specific substitution, recycling potential,
+and open leverage as separate stages.
+The new [CHIPS R&D capacity and governance ledger](projects/ai-work-control/data/gao-chips-rd-capacity-governance-event-ledger-v1.json)
+adds the adjacent implementation chain: awards, disbursement, milestones,
+workforce activity, R&D governance, qualified output, customer delivery, and
+dependence. It preserves the boundary that program money and milestone
+activity are not accepted production, supply continuity, or autonomy.
 The follow-on [JASSM/LRASM subaward control-surface audit](projects/ai-work-control/jassm-subaward-control-surface-audit-v1.md)
 adds 74 returned rows, 51 named recipients, UEI/location fields, and $1.1427B
 in returned subaward amount. The top five recipients comprise 49.5004% of this
@@ -1825,25 +1892,109 @@ market-transition or household result.
 ## Current evidence-control health
 
 The latest control pass confirms that the atlas is internally publishable at
-the current checkpoint: 344 trend records and 1214 observations pass the
-structural and provenance validators; all 103 source-search packets pass their
+the current checkpoint: 1012 trend records and 2353 observations pass the
+structural and provenance validators; all 164 source-search packets pass their
 record checks; the source registry represents all 114 registered source
-families; 1,340 local Markdown links and 668 published HTML pages pass link
-validation; and the program-control synchronization reports 14 themes, 174
-connections, 85 paths, 25 public episode events, and 2 episode arrows. The
+families; 2,258 local Markdown links and 1,150 published HTML pages pass link
+validation; and the program-control synchronization reports 14 themes, 229
+connections, 93 paths, 25 public episode events, and 2 episode arrows. The
 simulated broad event ledger also passes as explicitly labeled test data. These
 are reproducibility and coverage controls, not evidence that the open
 material-to-action, remedy-to-exit, worker-control, or capability-to-leverage
 arrows have been closed.
-The committed [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
-now inventories 42 schema-valid ledgers totaling 222 events and 175 arrows,
-including 52 explicitly open arrows;
+The canonical [real broad event-ledger index](data/us-broad-event-ledger-index-v1.json)
+now inventories 98 schema-valid ledgers totaling 302 events and 454 arrows,
+including 163 explicitly open arrows;
 the publication gate validates that inventory separately from the simulated
 fixture and keeps non-contract recheck artifacts out of the count. The
 [portfolio summary](data/us-broad-event-ledger-portfolio-summary-v1.json)
-records 158 observed, 42 reported, and 7 estimated event records, with 52
-arrows explicitly open. These are portfolio counts, not pooled effects; the
+records 169 observed, 94 reported, and 18 estimated event records, with 136
+arrows explicitly open, 75 observed, and 149 reported. These are portfolio counts, not pooled effects; the
 units and denominators remain heterogeneous.
+
+The new [ANES worry/trust/vote ledger](projects/us-cost-trust-politics/data/anes-worry-trust-vote-event-ledger-v1.json)
+makes one political route machine-readable: pre-election financial worry is
+followed by federal-government trust and a post-election reported vote. The
+bounded [finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-045.md)
+keeps the important limit visible: material pressure enters politics through
+judgment and identity, not as a simple automatic ladder, and the policy,
+remedy, recovery, and exit links remain open.
+
+The new [firm-AI expectation ledger](projects/ai-work-control/data/nber-firm-ai-expectations-event-ledger-v1.json)
+adds the firm-side transition boundary: widespread reported adoption and
+limited retrospective impact coexist with forward productivity and employment
+expectations that differ between employers and employees. The bounded
+[finding](projects/ai-work-control/findings/ai-work-control-108.md) keeps
+implementation, worker control, pay, household security, and realized
+geopolitical capability separate from executive expectations.
+
+The companion [Federal Reserve worker-AI ledger](projects/ai-work-control/data/federal-reserve-worker-ai-control-event-ledger-v1.json)
+adds the worker-side access boundary: AI use is higher among workers with
+graduate education and higher task control, while reported time and quality
+benefits remain perception measures. The bounded [finding](projects/ai-work-control/findings/ai-work-control-109.md)
+shows why firm expectations and worker experience cannot yet be treated as one
+same-episode employment or household outcome.
+
+The new [GAO work–safety-net ledger](projects/us-safety-net-access/data/gao-working-adults-medicaid-snap-employer-event-ledger-v1.json)
+adds a non-AI labor-system bridge: work, Medicaid/SNAP participation, and
+selected-state employer concentration coexist, but wages, benefit continuity,
+household recovery, employer intent, and worker choice remain unobserved. The
+bounded [finding](projects/us-safety-net-access/findings/us-safety-net-access-014.md)
+keeps employment separate from material independence.
+
+The new [GAO disability-workforce ledger](projects/us-safety-net-access/data/gao-disability-workforce-access-event-ledger-v1.json)
+adds a usable-access stage beneath formal workforce eligibility: reported
+disability, lower training use and post-exit employment/earnings, local
+accommodation barriers, and oversight gaps are now machine-readable. The
+bounded [finding](projects/us-safety-net-access/findings/us-safety-net-access-015.md)
+keeps those comparisons separate from causal accommodation effects, durable
+retention, household recovery, trust, and exit.
+
+The new [GAO disability health-care ledger](projects/us-aging-care-strain/data/gao-disability-healthcare-access-event-ledger-v1.json)
+extends the interface finding into care: formal coverage or provider capacity
+can fail to become usable, completed, continuous treatment when equipment,
+communication, sensory, digital, or provider-interaction barriers intervene.
+The bounded [finding](projects/us-aging-care-strain/findings/us-aging-care-strain-016.md)
+keeps barrier descriptions separate from encounter completion, health,
+family-time, correction, trust, and exit.
+
+The [World Bank AI capability/dependence ledger](projects/ai-work-control/data/world-bank-ai-capability-dependence-event-ledger-v1.json)
+extends the chain to state and geopolitical consequences: local complements,
+value-chain concentration, public capacity, replaceability, and external
+response are now separated as distinct stages. The bounded [finding](projects/ai-work-control/findings/ai-work-control-111.md)
+keeps capability and dependence from being misread as realized leverage.
+
+The new [Grubhub multi-sided remedy ledger](projects/us-customer-automation-recourse/data/ftc-grubhub-multisided-remedy-event-ledger-v1.json)
+adds a platform-response route spanning drivers, diners, and restaurants:
+court authority, aggregate payment distribution, and prospective controls are
+visible, while individual receipt, restored income/access/visibility,
+switching, trust, and exit remain open.
+
+The new [Cash App fraud-redress ledger](projects/us-customer-automation-recourse/data/cfpb-cash-app-fraud-redress-event-ledger-v1.json)
+adds a named consumer-protection response: the CFPB documented dispute-control
+failures, ordered operational changes, and required up to $120 million in
+consumer redress. Individual eligibility, payment, account correction,
+recovery, trust, and exit remain open.
+
+The new [Doxo bill-payment route ledger](projects/us-customer-automation-recourse/data/ftc-doxo-bill-payment-route-event-ledger-v1.json)
+adds a household-payment interface mechanism: alleged search/channel confusion,
+fees, subscription friction, and payment-timing risk are separated from the
+pending proposed disclosure controls. Individual bill status, service
+continuity, relief, and switching remain unobserved.
+
+The new [Pew economy-attribution ledger](projects/us-cost-trust-politics/data/pew-midterm-economy-attribution-event-ledger-v1.json)
+adds a political-meaning route: economic and affordability concerns are highly
+salient, while party economic attribution is nearly balanced and AI policy has
+large neither-party representation. The bounded [finding](projects/us-cost-trust-politics/findings/us-cost-trust-politics-046.md)
+keeps salience, blame, representation, action, policy delivery, and recovery
+as separate stages.
+
+The [firm-worker-distribution synthesis](projects/ai-work-control/findings/ai-work-control-110.md)
+now makes the cross-source mechanism explicit: the distribution problem begins
+with access, permission, task control, training, and ownership before it can be
+read as displacement or productivity. It joins the firm, worker, and modeled
+distribution layers for interpretation only; the same-firm/same-worker,
+household, remedy, trust, and geopolitical links remain open.
 
 The platform-work remedy lane now has a focused [restoration and dependence
 synthesis](projects/ai-work-control/platform-remedy-restoration-dependence-synthesis-v1.md).
@@ -1860,6 +2011,15 @@ lost remuneration in 3, and durable recurrence prevention and worker exit in
 none. These overlapping counts expose the institutional-stage gap; they do not
 estimate remedy effectiveness, payment receipt, worker welfare, dependence, or
 U.S. prevalence.
+
+The new [NYC Local Law 52 finding](projects/ai-work-control/findings/ai-work-control-116.md)
+adds the legal-availability stage to that platform lane. The law specifies
+notice, data access, challenge, possible reinstatement, and back pay for
+high-volume FHV drivers, but a federal court preliminarily enjoined enforcement
+in full and the public docket shows an interlocutory appeal pending. The route
+therefore remains enacted text → proposed rules → injunction/appeal → live
+driver remedy; no driver-level restoration, payment, continued work, trust, or
+exit result is claimed.
 
 The new [Kyei merits follow-up](projects/ai-work-control/uber-kyei-merits-followup-recheck-2026-09-18.md)
 adds a counterexample: the Commission found process deficiencies but dismissed
@@ -1943,7 +2103,7 @@ company-reported and partly corroborated at product level.
 
 The new [broad same-case episode availability audit](broad-same-case-episode-availability-audit-v1.md)
 tests the shared open middle across consumer, public-system, household,
-health, political, and worker routes. Twenty-seven local source surfaces cover
+health, political, and worker routes. Thirty-four local source surfaces cover
 different stages—route handling, adaptation, person-level timing, selected
 remedy, aggregate payment implementation, or institutional confidence—but no
 source supplies the full sequence from dated actor and alternatives through
@@ -1955,16 +2115,31 @@ are different remedy clocks, and none establishes restored opportunity or
 household recovery. This is a
 program-wide measurement boundary, not evidence that those outcomes did not
 occur.
+
+The new [remedy-reachability selection synthesis](US-REMEDY-REACHABILITY-SELECTION-SYNTHESIS_V1.md)
+adds a cross-domain mechanism to this boundary. Later refunds, redress,
+benefit continuity, disaster assistance, or worker remedies often condition
+visibility on an earlier successful notice, application, complaint, contact,
+acceptance, or cashing step. The atlas must therefore retain both the full
+exposed/eligible denominator and the shrinking group that reaches each later
+stage; later receipt or continued use cannot be read as population recovery.
 The [structured IER remedy ledger](projects/ai-work-control/data/ier-individual-employment-remedy-event-ledger-v1.json)
 now makes the five dated case summaries machine-readable while preserving the
 distinction between agency-reported payment, a back-pay offer, and worker-level
 receipt or restored employment.
 The [structured IER telephone-intervention ledger](projects/ai-work-control/data/ier-telephone-intervention-remedy-event-ledger-v1.json)
-adds nine selected cases with a tighter agency-reported chronology from an
+adds fourteen selected cases with a tighter agency-reported chronology from an
 employment-document barrier through worker or advocate contact, IER
 intervention, employer correction, and reported back pay or rehire. It still
 does not prove worker-confirmed receipt, accepted restoration, household
 recovery, trust, or exit.
+Its FY2026 extension adds an Alexandria case with a reported $30,000 back-pay
+payment and reinstatement offer, plus a New York case with reported $8,000
+front/back pay and employer Form I-9/E-Verify corrections. These deepen the
+money-and-firm-response stages but do not establish accepted reemployment,
+durable security, household recovery, trust, or exit. The [bounded worker-
+remedy finding](projects/ai-work-control/findings/ai-work-control-107.md)
+keeps those limits explicit.
 The new [IER DACA wage-and-seniority case](projects/ai-work-control/ier-daca-rehire-wage-seniority-record-v1.md)
 adds a stronger same-episode remedy endpoint: a lower-wage rehire was followed
 by a signed bilateral agreement restoring the prior hourly wage, reporting
@@ -2015,6 +2190,13 @@ The [structured Meadley enforcement ledger](projects/ai-work-control/data/fwc-me
 adds the first official follow-up that reports a compensation payment while
 also reporting failed reinstatement and later court enforcement. It closes a
 payment-implementation endpoint without closing restoration or recovery.
+The [structured Kaur pregnancy-linked reinstatement ledger](projects/ai-work-control/data/fwc-kaur-pregnancy-dismissal-reinstatement-event-ledger-v1.json)
+adds a different same-worker span: regular full-time casual work, pregnancy
+disclosure and lifting restrictions, withdrawn shifts and training, two weeks
+of alternative work, worker challenge, and a quantified reinstatement and
+$14,830.40 lost-pay order. The post-deadline public recheck found no payment,
+actual return, later shifts, or durable recovery record, so the order remains
+separate from implementation and lived security.
 The [structured Apple PERM ledger](projects/ai-work-control/data/apple-perm-backpay-implementation-event-ledger-v1.json)
 adds the adjacent aggregate-completion clock: DOJ-reported exhaustion of an
 $18.25 million back-pay fund and recruitment controls, without individual
@@ -2152,6 +2334,12 @@ helpline reachability, eligibility-letter interpretation, direct-housing
 bottlenecks, and delivery redesign. It strengthens the public-system response
 map while leaving survivor receipt, placement, recovery, trust, and political
 action unobserved.
+
+The new [Los Angeles wildfire FEMA stage ledger](projects/us-repeat-energy-crises/data/fema-la-wildfire-ihp-stage-event-ledger-v1.json)
+adds a current disaster-specific administrative route from registration through
+referral, eligibility, and reported assistance amount. It does not convert
+those stages into unique-person approval, payment receipt, stable housing, or
+survivor recovery.
 
 The [structured EDA disaster-economic-recovery ledger](projects/us-repeat-energy-crises/data/gao-eda-disaster-economic-recovery-event-ledger-v1.json)
 adds five institution/project events and four typed arrows for federal
@@ -3121,6 +3309,23 @@ recovery, meaning/trust, action, and exit with units, weights, missingness, and
 counterexamples preserved. Until then, the atlas remains a living 14-theme
 mechanism map with open arrows rather than a closed universal causal story.
 
+The [Virginia insurance settlement finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-029.md)
+adds three state-reported insurance-remedy episodes: pricing/notice errors,
+filed-rate mismatches, and health-network/claims problems followed by reported
+restitution and prospective controls. It strengthens the institutional
+response stage while preserving individual receipt, account or premium
+correction, coverage/care restoration, recurrence, trust, and switching as
+open. The [structured insurance settlement ledger](projects/us-customer-automation-recourse/data/virginia-scc-insurance-settlement-remedy-event-ledger-v1.json)
+keeps the matters separate from verified household recovery.
+
+The [CCES insurance-status political follow-up](projects/us-cost-trust-politics/findings/us-cost-trust-politics-043.md)
+adds a same-panel material-to-action counterexample: respondents reporting no
+health insurance in 2012 had lower 2014 congressional contact and local
+political action, but slightly higher favorable Congress approval than insured
+respondents. The result separates action, contact, and institution-specific
+judgment; it does not establish a dated coverage shock, causality, remedy,
+trust change, or withdrawal.
+
 The [targeted CFPB monetary-relief response slice](projects/us-customer-automation-recourse/cfpb-credit-card-monetary-relief-event-ledger-recheck-2026-09-18.md)
 adds a current credit-card sample conditioned on the published `Closed with
 monetary relief` label: 25 of 21,425 matching records were mapped and passed
@@ -3139,9 +3344,13 @@ distributions with the matter closed. These sharpen compensation-versus-
 restoration and closed-distribution boundaries without establishing individual
 receipt or recovery.
 The [structured named-redress ledger](projects/us-customer-automation-recourse/data/cfpb-named-redress-route-event-ledger-v1.json)
-now preserves those three distribution states and three typed arrows for the
-indexed portfolio; recipient receipt, account correction, residual loss, trust,
-switching, and exit remain open.
+now preserves those three distribution states plus three completed FY2024
+distributions with aggregate funds-cashed rates of 69%, 86%, and 88%. This is
+the first consumer-remedy layer here that moves beyond an open route to
+aggregate cashing evidence, while recipient-level adequacy, account
+correction, residual loss, trust, switching, and exit remain open. The new
+[consumer cashing-stage finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-030.md)
+keeps aggregate funds cashed separate from full consumer recovery.
 
 The [February 2025 HTOPS linkage recheck](projects/us-cost-trust-politics/htops-2025-february-linkage-recheck-2026-09-18.md)
 tested the official February PUF against the April and June files and found no
@@ -3158,4 +3367,80 @@ formal representation before the still-open worker-control arrow; the
 places care foregoing, household adaptation, credit, randomized coverage/debt
 relief evidence, and institutional confidence beside one another without
 claiming a same-episode legitimacy pathway. These additions strengthen the
-map's cross-theme coverage without changing the 18-surface promotion gate.
+map's cross-theme coverage without changing the same-case promotion gate.
+
+The 2026-09-19 infrastructure/state-power pass adds the [Virginia large-load
+safeguard finding](projects/ai-work-control/findings/ai-work-control-103.md)
+and a structured implementation-policy event. The Virginia SCC record now
+separates operational load stress, rate-class reform, explicit minimum-demand
+and collateral obligations, interconnection review, modeled residential
+allocation, and actual payment/compliance. The new stage strengthens the
+state-capacity chain while keeping household incidence, energized load,
+public legitimacy, and geopolitical leverage open. The same pass also records
+that Poland's JASSM-ER public schedule has two official planning windows;
+those remain planning evidence rather than shipment, acceptance, or fielding.
+
+The same infrastructure pass adds the [Virginia public-response finding](projects/ai-work-control/findings/ai-work-control-104.md):
+more than 600 registered speakers and hundreds of written comments preceded a
+transmission route decision involving property, landscape, appearance, and
+health concerns. This closes a public-participation-to-institutional-decision
+stage at project level while leaving construction, compensation, resident
+acceptance, trust, and later action open.
+
+The [Golden-Mars route-realization finding](projects/ai-work-control/findings/ai-work-control-105.md)
+adds a concrete institutional consequence: Route 4 required Loudoun County
+School Board consent, consent was not given, and the SCC approved Route 3A on
+June 29, 2026. This moves the infrastructure chain from public participation
+to a changed approved route, while construction, easements, compensation,
+energization, property effects, and public acceptance remain open.
+
+The follow-on [Northern Virginia realization comparator](projects/ai-work-control/findings/ai-work-control-106.md)
+records Dominion's report that the separate Wishing Star–Mars project reached
+500-kV GIS energization in January 2026 and construction completion in May
+2026. This adds a reported approval-to-operation stage without falsely treating
+that project as evidence that Golden–Mars is built or that households received
+a reliability benefit. Delivered capacity, cost incidence, and public
+acceptance remain open.
+
+The current place/public-system/political rotation is consolidated in the
+[place, public systems, and political feedback synthesis](US-BROAD-PLACE-PUBLIC-SYSTEMS-POLITICAL-FEEDBACK-SYNTHESIS_V1.md).
+It clarifies that place distributes the practical cost of using a public route,
+while political action depends on both institutional judgment and the capacity
+to act. The same-unit middle remains actual receipt, sacrifice, adequacy, and
+persistence.
+The FY2025 follow-up now adds the next persistence stage: the CFPB reports
+$20,809 in direct Premier reissue payments and $129,729/$174,178 in later
+redistributions for U.S. Equity Advantage and SMART Payment Plan. This shows
+that unclaimed or unresolved payment access can trigger continued
+administrative work, while individual receipt, account correction, adequacy,
+and later financial behavior remain open. See the [redress persistence
+finding](projects/us-customer-automation-recourse/findings/us-customer-automation-recourse-031.md).
+
+## 2026-09-19 synchronized continuation checkpoint
+
+The current broad matrix now also carries the financial-access, care-capacity,
+worker-remedy, consumer-redress, infrastructure, and defense-schedule passes
+completed in this continuation. Their shared result is a conversion boundary:
+formal access, staffing, payment, reinstatement, route approval, or delivery
+planning can be observed without proving usable care, recovered money, durable
+security, resident acceptance, or realized geopolitical leverage. The program
+therefore keeps the missing same-unit fields explicit—alternative or non-use,
+effort/time cost, verified receipt or outcome, durability, trust/action, and
+exit—and does not treat the growing evidence count as end-to-end completion.
+
+The central theme-coverage audit was regenerated against the current matrix
+and its displayed hash synchronized. The publication gate remains the
+authoritative regression check; the latest verified portfolio is 98 ledgers,
+302 events, 454 typed arrows, and 164 explicitly open arrows.
+
+The latest continuation adds three control refinements. First, the
+counterexample register now has 26 rows and explicitly includes durability
+ruptures: payment without practical return, return followed by dismissal, and
+repair followed by reported repair failure. Second, the Cash App ledger now
+records the consent order's required affected-consumer list, per-person refund
+calculation, payment process, and post-plan report as a measurement contract,
+while preserving the absence of a completed recipient report. Third, the
+plain-language political route now states the CCES capacity/meaning split:
+earlier job loss was followed by lower local action but not uniformly lower
+Congress approval. These additions sharpen what the atlas can say without
+closing the same-unit recovery, attribution, or exit arrows.

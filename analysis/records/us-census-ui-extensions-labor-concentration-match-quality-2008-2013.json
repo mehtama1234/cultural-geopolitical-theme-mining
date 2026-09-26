@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ui-extensions-labor-concentration-match-quality-2008-2013",
+  "title": "Extra unemployment-insurance search time may improve job matches less where employers have more market power",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Census Center for Economic Studies Working Paper CES-26-24, Unemployment Insurance Extensions, Labor Market Concentration, and Match Quality",
+  "geography": "United States; local labor markets during the Great Recession, using matched employer-employee LEHD data",
+  "observations": [
+    {
+      "period": "Great Recession unemployment-insurance extension variation; working paper April 2026",
+      "denominator": {
+        "value": null,
+        "unit": "matched employer-employee records of workers exposed to quasi-random variation in UI duration",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "nonemployment_duration": {
+          "value": "UI extensions lengthened nonemployment by about one week",
+          "unit": "weeks of nonemployment",
+          "value_type": "reported_estimate"
+        },
+        "earnings_effect": {
+          "value": "economically meaningful positive earnings effect, but not statistically significant overall",
+          "unit": "post-unemployment earnings",
+          "value_type": "reported_estimate"
+        },
+        "concentration_gradient": {
+          "value": "the positive UI-earnings effect was significantly lower at higher levels of local labor-market concentration",
+          "unit": "heterogeneous treatment effect by employer concentration",
+          "value_type": "reported_heterogeneity"
+        },
+        "duration_gradient": {
+          "value": "no difference in the UI-duration effect by concentration",
+          "unit": "nonemployment-duration treatment effect across concentration levels",
+          "value_type": "reported_null_comparison"
+        },
+        "match_quality": {
+          "value": "the paper interprets the pattern as match improvements from UI being attenuated at higher concentration; the lower earnings effect is driven by the extremes of the concentration distribution",
+          "unit": "job-match quality inferred from earnings response",
+          "value_type": "reported_interpretation"
+        },
+        "household_security": {
+          "value": "not observed as a linked path through benefit adequacy, debt, household room, job quality, retention, or later security",
+          "unit": "missing household outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "The study uses matched employer-employee data from the Census Longitudinal Employer-Household Dynamics program and exploits measurement error in state unemployment rates that generated quasi-random assignment of unemployment-insurance durations during the Great Recession. It compares duration and earnings effects across local labor-market concentration.",
+      "uncertainty": "This is a working-paper result from a historical policy setting. The public abstract does not report the analytic sample size. Employer concentration is a local-market measure and the earnings response is used as evidence about match quality; the public summary does not establish job quality, worker wellbeing, household adequacy, retention, or applicability to current UI rules or labor markets.",
+      "subgroup": "Workers exposed to different local labor-market concentration levels during the Great Recession; the paper emphasizes the extremes of the concentration distribution.",
+      "counterinterpretation": "Longer UI duration may allow workers to search longer without necessarily improving earnings in all markets. The concentration gradient could reflect differences in industries, workers, places, or job opportunities that the design does not fully translate into a household-welfare estimate. A statistically insignificant overall earnings effect is not evidence of no benefit for every subgroup.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-24.html",
+      "retrieval_hash": "sha256:b0c4235737f9f9768b094efe28b7471c8b4c25743d298ba2052704be08c06c1d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-24.pdf",
+      "claim": "Official Census PDF provides the abstract and study method using LEHD matched employer-employee data.",
+      "status": "official-working-paper"
+    }
+  ],
+  "boundary": "This record adds a firm-power boundary to unemployment insurance: extra search time may produce weaker earnings gains where local employers have more market power. It does not estimate current UI effects, household welfare, job quality, retention, or a universal concentration mechanism.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census CES landing page and working-paper PDF reviewed; restricted-use LEHD records are not retained.",
+    "pdf_sha256": "sha256:b0c4235737f9f9768b094efe28b7471c8b4c25743d298ba2052704be08c06c1d",
+    "checked": "2026-09-23"
+  }
+}

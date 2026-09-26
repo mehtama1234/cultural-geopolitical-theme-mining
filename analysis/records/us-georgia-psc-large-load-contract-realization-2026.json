@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-georgia-psc-large-load-contract-realization-2026",
+  "title": "Georgia's large-load protections reached actual contract filings while customer incidence remains open",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "Georgia Public Service Commission docket 44280 and related large-load filings; executed contract submissions and Commission review are distinct regulatory events",
+  "geography": "Georgia Power service territory; Georgia Public Service Commission large-load and data-center contract oversight",
+  "observations": [
+    {
+      "period": "January-August 2026; executed large-load contract filings visible in PSC docket 44280",
+      "denominator": {"value": 4, "unit": "identified executed large-load contract filings dated January 23, April 17, May 15, and August 27, 2026; lower bound from the official docket search", "value_type": "published_lower_bound"},
+      "measures": {
+        "executed_contract_filings": {"value": "at least four identified", "unit": "Georgia Power large-load contract submissions marked executed in the docket search", "value_type": "reported_lower_bound"},
+        "regulatory_stage": {"value": "contracts were filed with the Commission for review under the large-load oversight framework", "unit": "reported regulatory stage", "value_type": "reported_implementation"},
+        "customer_class": {"value": "new or expanding large-load customers, including data-center-scale users", "unit": "regulated customer category", "value_type": "reported_category"},
+        "household_cost_or_reliability": {"value": "not observed", "unit": "residential bill, reliability, local service, or customer acceptance outcome", "value_type": "unmeasured"}
+      },
+      "method": "Review of official Georgia PSC docket search entries for executed large-load contracts and related review filings; contract submission, Commission review, and later customer outcomes are kept separate.",
+      "uncertainty": "The public docket search identifies filings and review stages but does not disclose the commercial terms, load profile, construction status, payment performance, or whether the contracts were finally approved and performed as planned.",
+      "subgroup": "Georgia Power, large-load customers, residential and small-business ratepayers, Commission staff, and communities affected by generation and transmission expansion; incidence is not linked to individual customers.",
+      "counterinterpretation": "A contract filing can place cost-protection terms under regulatory review without proving the terms are sufficient, enforceable, or paid; large-load customers may bring revenue or system value as well as risk.",
+      "source_url": "https://psc.ga.gov/search/facts-document/?documentId=228177",
+      "retrieval_hash": "sha256:ae500abff5ffebb87bf5f97cc41caaa4aa33971a2041742d8a723dd6150775d3",
+      "status": "reported"
+    },
+    {
+      "period": "July-August 2026; large-load contract review and Commission oversight",
+      "denominator": {"value": 1, "unit": "Georgia Power large-load contract review episode identified in the official docket", "value_type": "institutional_episode"},
+      "measures": {
+        "contract_deemed_filed": {"value": "July 27, 2026", "unit": "reported filing status", "value_type": "reported_regulatory_event"},
+        "review_extension": {"value": "August 13, 2026", "unit": "reported extension-letter date", "value_type": "reported_regulatory_event"},
+        "executed_contract_filing": {"value": "August 27, 2026", "unit": "official docket entry for an executed large-load contract", "value_type": "reported_contract_stage"},
+        "final_execution_or_customer_realization": {"value": "not observed", "unit": "approved terms, construction, load energization, payment, household cost, and reliability", "value_type": "unmeasured"}
+      },
+      "method": "Docket-level review of the Commission/Georgia Power joint statement, review-extension filing, and executed-contract filing; procedural visibility is not treated as approval or performance.",
+      "uncertainty": "The docket metadata does not by itself disclose the final Commission disposition, contract-specific minimum billing, security, cost allocation, or actual load behavior.",
+      "subgroup": "Georgia PSC, Georgia Power, a named large-load contract route, and affected rate classes; no household or community survey is included.",
+      "counterinterpretation": "A review extension may reflect ordinary diligence rather than a dispute or failure; a filed executed contract may still be subject to conditions, amendments, or later nonperformance.",
+      "source_url": "https://psc.ga.gov/search/facts-document/?documentId=228126",
+      "retrieval_hash": "sha256:b20a785274f0ca77156cfff342611b42d6840538f180fcd33e779f6f0810a654",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://psc.ga.gov/site/downloads/datacenterfactsheet.pdf",
+      "claim": "The Georgia PSC factsheet describes the 100 MW threshold, minimum billing and longer contract terms, contract review, and the Commission's stated ratepayer-protection rationale.",
+      "status": "official-policy-context"
+    },
+    {
+      "source_url": "https://psc.ga.gov/search/facts-document/?documentId=228337",
+      "claim": "The official docket search lists a September 8, 2026 large-load contract summary filing, extending the visible contract-reporting sequence.",
+      "status": "official-follow-up"
+    }
+  ],
+  "boundary": "This record advances the Georgia large-load route from rule and forecast to actual contract filings and regulatory review. It does not establish contract terms, final approval, construction, energization, payment, cost allocation, residential bills, reliability, local acceptance, or durable ratepayer protection.",
+  "retrieval_hash": "sha256:ae500abff5ffebb87bf5f97cc41caaa4aa33971a2041742d8a723dd6150775d3"
+}

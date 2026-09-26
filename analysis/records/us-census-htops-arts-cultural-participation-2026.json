@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-arts-cultural-participation-2026",
+  "title": "Recent arts participation is common but unevenly distributed across age and local cultural opportunity",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Census Bureau Household Trends and Outlook Pulse Survey topical 2607, July 15-August 3, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 15-August 3, 2026; adults ages 18 and older",
+      "denominator": {
+        "value": 261534494,
+        "unit": "weighted U.S. population age 18 and older represented in the arts tables",
+        "value_type": "published_weighted_population"
+      },
+      "measures": {
+        "recent_in_person_participation": {
+          "value": "20.5% attended live music, dance, or theater; 9.5% attended an art exhibit; 22.6% went to the movies in the prior four weeks",
+          "unit": "percent of weighted U.S. adults",
+          "value_type": "derived_from_published_weighted_counts"
+        },
+        "personal_art_practice": {
+          "value": "17.9% created, practiced, or performed personal art in the prior four weeks",
+          "unit": "percent of weighted U.S. adults",
+          "value_type": "derived_from_published_weighted_counts"
+        },
+        "local_cultural_opportunity": {
+          "value": "62.9% strongly agree or agree that there are plenty of arts and cultural opportunities in their neighborhood or community",
+          "unit": "percent of weighted U.S. adults",
+          "value_type": "derived_from_published_weighted_counts"
+        },
+        "age_contrasts": {
+          "value": "Personal art creation was 26.2% among adults ages 18-34 versus 13.8% among adults 65 and older; agreement that local opportunities are plentiful was 52.3% versus 71.5%",
+          "unit": "percent within age group",
+          "value_type": "derived_subgroup_comparison"
+        }
+      },
+      "method": "Experimental Census HTOPS weighted estimates from tables of recent arts attendance, personal art creation/practice/performance, and perceived neighborhood or community cultural opportunities; subgroup contrasts use published weighted counts.",
+      "uncertainty": "HTOPS is an experimental product and the Census Bureau warns that estimates for subpopulations may have small sample sizes and large standard errors. Four-week recall and weighted counts measure recent reported activity, not frequency, spending, quality, access barriers, social meaning, or durable participation.",
+      "subgroup": "U.S. adults ages 18 and older, with age-conditioned contrasts for adults ages 18-34 and 65 and older.",
+      "counterinterpretation": "Older adults report more plentiful local opportunities while younger adults report more personal art creation, so perceived supply does not map directly onto use. The attendance measures also do not establish whether cost, time, distance, health, preference, or social invitation explains the differences.",
+      "source_url": "https://www.census.gov/data/tables/2026/demo/hhp/2607.html",
+      "retrieval_hash": "sha256:a39cefbc179c6ec950cea1efdfa8b12ba514670925342a3b6ae7bfc044f48821",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts1.xlsx",
+      "claim": "Official weighted table for in-person arts and entertainment attendance.",
+      "status": "official-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts2.xlsx",
+      "claim": "Official weighted table for personal creation, practice, and performance of art.",
+      "status": "official-table"
+    },
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/arts3.xlsx",
+      "claim": "Official weighted table for neighborhood or community arts and cultural opportunities.",
+      "status": "official-table"
+    }
+  ],
+  "boundary": "This record adds a recent cultural-participation and local-opportunity layer. It does not infer durable cultural identity, cultural-sector revenue, causal access barriers, social cohesion, or long-run participation from the experimental four-week estimates.",
+  "retrieval_hash": "sha256:a39cefbc179c6ec950cea1efdfa8b12ba514670925342a3b6ae7bfc044f48821"
+}

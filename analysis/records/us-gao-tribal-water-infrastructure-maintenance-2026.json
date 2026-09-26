@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-tribal-water-infrastructure-maintenance-2026",
+  "title": "Tribal water infrastructure can be funded for construction while eligibility and maintenance limit durable service",
+  "theme_ids": ["cost", "time", "energy"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "housing_place_mobility"
+  ],
+  "source_unit": "GAO-26-107178; federal tribal water and wastewater infrastructure assistance, eligibility, administration, and operation-and-maintenance observations",
+  "geography": "United States; selected Tribal communities, with site visits in Alaska and Arizona",
+  "observations": [
+    {
+      "period": "GAO review published September 22, 2026; federal tribal water infrastructure assistance",
+      "denominator": {
+        "value": null,
+        "unit": "Agency program documents, site visits, and interviewed Tribes, tribal organizations, and officials; no common household denominator disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "estimated_need": {
+          "value": 6,
+          "unit": "billion dollars estimated by IHS as of November 2025 to ensure all tribal communities have safe-water access",
+          "value_type": "reported_agency_estimate"
+        },
+        "eligibility_boundary": {
+          "value": "IHS eligibility interpretation can exclude homes occupied by tribal members when ownership, lease, or service-provider conditions do not fit the funding rule",
+          "unit": "reported program-eligibility boundary",
+          "value_type": "reported_access_constraint"
+        },
+        "administrative_burden": {
+          "value": 80,
+          "unit": "hours reported spent helping one Tribe obtain an $8,000 grant, before additional reporting time",
+          "value_type": "reported_case_burden"
+        }
+      },
+      "method": "GAO review of agency data and program documents, site visits in Alaska and Arizona, and interviews with Tribes, tribal organizations, and agency officials.",
+      "uncertainty": "The selected sites and interviews are not a national prevalence sample; the $6 billion figure is an agency estimate and the 80-hour example is a case illustration, not an average.",
+      "subgroup": "Selected Tribal communities and organizations navigating IHS, EPA, USDA, HUD, and related water-assistance routes.",
+      "counterinterpretation": "Eligibility limits may reflect statutory authority, project scope, or safety controls rather than arbitrary exclusion; other funding routes may sometimes resolve ineligible-property costs.",
+      "source_url": "https://www.gao.gov/products/gao-26-107178",
+      "retrieval_hash": "gao-accessible-report:sha256:262ef77f1cabd97a2f8755740f27e246765163b75160278ebab6e8ab49564e84",
+      "status": "reported"
+    },
+    {
+      "period": "Post-construction operation and maintenance boundary; GAO review published September 22, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Tribal water systems and agency observations; national system-level count not disclosed in the review summary",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "routine_om_support": {
+          "value": "IHS generally does not provide routine operation-and-maintenance funding",
+          "unit": "reported program-design condition",
+          "value_type": "reported_program_boundary"
+        },
+        "capacity_risk": {
+          "value": "Limited Tribal financial capacity and difficulty hiring or retaining certified operators can contribute to deterioration and early failure",
+          "unit": "reported implementation risk",
+          "value_type": "reported_risk"
+        },
+        "downstream_cost": {
+          "value": "Early deterioration can increase federal repair or replacement costs and create Tribal health risks",
+          "unit": "reported consequence pathway",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "GAO synthesis of agency studies, interviews, and program review concerning post-construction operation, maintenance, staffing, and funding authority.",
+      "uncertainty": "The report does not estimate failure rates, household service interruptions, health effects, or the fiscal return of an O&M pilot.",
+      "subgroup": "Tribal water systems with differing operator, financial, and maintenance capacity.",
+      "counterinterpretation": "Some Tribes may maintain systems successfully through local revenue, other grants, technical assistance, or shared operators; the reported route does not establish universal failure.",
+      "source_url": "https://www.gao.gov/products/gao-26-107178",
+      "retrieval_hash": "gao-accessible-report:sha256:262ef77f1cabd97a2f8755740f27e246765163b75160278ebab6e8ab49564e84",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-107178/index.html",
+      "claim": "Accessible GAO report edition used for the extracted eligibility, administrative, and O&M findings.",
+      "status": "accessible-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-109173",
+      "claim": "Separate Native housing and homelessness context; not pooled with the water-infrastructure observations.",
+      "status": "comparative-context"
+    }
+  ],
+  "boundary": "This record shows how federal construction assistance can coexist with eligibility exclusions, administrative burden, and weak post-construction O&M capacity in selected Tribal settings. It does not estimate national access, household service continuity, health effects, failure rates, trust, or durable recovery. Funding, connection, usable service, maintenance, and health protection remain separate stages."
+}

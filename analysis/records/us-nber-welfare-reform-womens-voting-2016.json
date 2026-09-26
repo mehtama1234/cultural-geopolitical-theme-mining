@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-welfare-reform-womens-voting-2016",
+  "title": "1990s welfare reform reduced the decline in voting among exposed low-income women",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Low-income U.S. women observed in Current Population Survey Voting and Registration Supplements during 1990s welfare reform",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "1990–2004 CPS Voting and Registration Supplements; NBER Working Paper issued 2016",
+      "denominator": {
+        "value": 1,
+        "unit": "repeated CPS state-year study frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "voting_effect": {
+          "value": "about 4 percentage points higher voting relative to less-exposed comparison women, approximately 10% relative to baseline",
+          "unit": "percentage points and relative-to-baseline change in voting participation",
+          "value_type": "reported_effect_range"
+        },
+        "registration_and_voting_scope": {
+          "value": "effects largely confined to presidential elections",
+          "unit": "reported outcome heterogeneity",
+          "value_type": "reported_pattern"
+        },
+        "state_and_policy_heterogeneity": {
+          "value": "stronger in Democratic states and states with stronger work-incentive policies",
+          "unit": "reported heterogeneity by political and policy context",
+          "value_type": "reported_heterogeneity"
+        },
+        "proposed_pathway": {
+          "value": "appeared to operate through employment, education, and income",
+          "unit": "reported mediation pattern; not a same-person mechanism ledger",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "NBER Working Paper 22052 uses November Current Population Survey Voting and Registration Supplements from 1990–2004 and changes in welfare policy across states and over time, with comparison groups of women less exposed to welfare reform, to estimate voting registration and participation effects.",
+      "uncertainty": "This is a policy-exposure difference-in-differences design, not random assignment or a direct measure of individual benefit receipt. The abstract does not retain the full sample, policy exposure construction, parallel-trend diagnostics, or exact mediator estimates. Voting is not trust, approval, attribution, or broader civic action.",
+      "subgroup": "Low-income women at risk of relying on welfare, with heterogeneity by state political context and strength of work incentives.",
+      "counterinterpretation": "The positive voting result may reflect employment, education, income, composition, state policy environments, or selection into exposure together; it cannot be directly compared as an opposite estimate to the EITC employment-instrument paper without harmonizing treatment, population, period, and estimand.",
+      "source_url": "https://www.nber.org/papers/w22052",
+      "retrieval_hash": "sha256:822678b1d0c90c3f0899c11e57849f18b3945f08a9746cb06dcb41d4c843bf03",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w22052",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors.",
+      "status": "official-metadata"
+    },
+    {
+      "source_url": "https://doi.org/10.1111/ecin.12433",
+      "claim": "Published Economic Inquiry version identifies the peer-reviewed article and reports the corresponding welfare-reform voting estimates.",
+      "status": "published-version"
+    }
+  ],
+  "boundary": "This is a U.S. welfare-reform policy-exposure estimate for low-income women's voting, not a universal work effect, a contemporaneous cash-transfer effect, or a complete political-trust and institutional-legitimacy pathway.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 22052 page downloaded and hashed; title, date, CPS Voting and Registration Supplement design, 1990–2004 frame, voting magnitude, presidential-election scope, state heterogeneity, and proposed mediators checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

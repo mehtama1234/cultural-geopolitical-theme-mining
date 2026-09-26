@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-broadband-deployment-targeting-sustainability-2026",
+  "title": "Broadband funding can move before targeting and long-term service are verified",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "U.S. Government Accountability Office review of nine federal broadband deployment programs",
+  "geography": "United States; federal broadband programs, states, territories, Tribes, and underserved locations",
+  "observations": [
+    {
+      "period": "2020-February 2026; nine selected federal broadband deployment programs",
+      "denominator": {"value": 9, "unit": "federal broadband programs reviewed by GAO", "value_type": "selected_review_universe"},
+      "measures": {
+        "fund_distribution": {"value": "all nine programs had begun distributing funds by February 2026", "unit": "program status", "value_type": "reported_status"},
+        "completed_project_data": {"value": "available for only three of the nine programs", "unit": "programs with completion data", "value_type": "reported_count"},
+        "bead_scale": {"value": 42500000000, "unit": "dollars appropriated for BEAD", "value_type": "reported_amount"},
+        "bead_timeline": {"value": "expected completion in 2030 and beyond", "unit": "planned program timeline", "value_type": "reported_timeline"}
+      },
+      "method": "GAO review of agency program documents, funding maps, timelines, and interviews with FCC, NTIA, USDA, Treasury, states, and stakeholders.",
+      "uncertainty": "Program completion data availability is not a completion rate; planned timelines can change and the review does not measure household subscription or use.",
+      "subgroup": "Underserved locations, smaller communities and providers, Tribal governments, states, territories, and broadband providers.",
+      "counterinterpretation": "Funds can be distributed before projects are complete as part of a normal multiyear deployment process; missing completion data does not prove projects failed.",
+      "source_url": "https://www.gao.gov/assets/gao-26-107725.pdf",
+      "retrieval_hash": "sha256:7af87ea7e11ebca494af4d8eb4291480d9f4cba8d174a00222760f0302b134f7",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; FCC map challenges and BEAD sustainability oversight",
+      "denominator": {"value": 1, "unit": "federal broadband targeting and sustainability process reviewed by GAO", "value_type": "named_program_case"},
+      "measures": {
+        "map_basis": {"value": "provider-reported FCC map data are used to identify locations with and without broadband", "unit": "targeting method", "value_type": "reported_method"},
+        "challenge_burden": {"value": "some stakeholders described the public challenge process as burdensome and unclear, especially for smaller communities and providers", "unit": "reported process barrier", "value_type": "reported_finding"},
+        "sustainability_rule": {"value": "BEAD providers certify no other federal funding for deployment or operating costs at funded locations for at least 10 years", "unit": "provider certification requirement", "value_type": "reported_requirement"},
+        "monitoring_detail": {"value": "NTIA had not detailed when states could request provider financial data to monitor sustainability", "unit": "oversight specification", "value_type": "reported_gap"}
+      },
+      "method": "GAO comparison of FCC and NTIA targeting and sustainability documentation with stakeholder evidence.",
+      "uncertainty": "A burdensome challenge process does not show that a particular map is wrong, and an oversight gap does not show that a network will become financially unsustainable.",
+      "subgroup": "Smaller communities, smaller providers, underserved locations, BEAD subrecipients, and states administering grants.",
+      "counterinterpretation": "Public challenges, provider certifications, and state monitoring remain safeguards; the issue is whether they are accessible and sufficiently specified.",
+      "source_url": "https://www.gao.gov/assets/gao-26-107725.pdf",
+      "retrieval_hash": "sha256:7af87ea7e11ebca494af4d8eb4291480d9f4cba8d174a00222760f0302b134f7",
+      "status": "reported"
+    },
+    {
+      "period": "April-June 2026; Tribal Broadband Connectivity Program rounds one and two",
+      "denominator": {"value": 3000000000, "unit": "dollars appropriated for the Tribal Broadband Connectivity Program", "value_type": "reported_amount"},
+      "measures": {
+        "awarded": {"value": 1800000000, "unit": "dollars awarded", "value_type": "reported_amount"},
+        "projects": {"value": 147, "unit": "broadband infrastructure deployment projects", "value_type": "reported_count"},
+        "locations": {"value": 165000, "unit": "intended locations to be served", "value_type": "reported_target"},
+        "round_status": {"value": "second funding round ongoing as of June 2026", "unit": "program status", "value_type": "reported_status"}
+      },
+      "method": "GAO analysis of NTIA Tribal Broadband Connectivity Program award and project data.",
+      "uncertainty": "Intended locations and awards do not establish completed connections, affordability, subscription, reliability, or lasting operation.",
+      "subgroup": "Tribal governments, organizations, colleges and universities, Alaska Native corporations, and Department of Hawaiian Home Lands projects.",
+      "counterinterpretation": "Awards and intended locations may represent meaningful deployment progress even before final service data are available.",
+      "source_url": "https://www.gao.gov/assets/gao-26-107725.pdf",
+      "retrieval_hash": "sha256:7af87ea7e11ebca494af4d8eb4291480d9f4cba8d174a00222760f0302b134f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures federal broadband funding, targeting, completion-data availability, sustainability oversight, and one Tribal program's awards and intended locations. It does not establish completed connections, price, subscription, reliability, meaningful use, or financial failure.",
+  "retrieval_hash": "sha256:7af87ea7e11ebca494af4d8eb4291480d9f4cba8d174a00222760f0302b134f7"
+}

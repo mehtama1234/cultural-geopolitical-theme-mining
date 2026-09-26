@@ -1,6 +1,6 @@
 # Safety-net access, administrative burden, and household security layer v1
 
-**Checked:** 2026-09-12  
+**Checked:** 2026-09-20
 **Sources:** NBER linked administrative and place-based studies, USDA SNAP research, and the existing matched-evidence record  
 **Unit:** program participant, parent, census tract, office, household, and policy setting  
 **Status:** causal participation/access evidence; same-household downstream outcomes remain open
@@ -25,6 +25,12 @@ food or income need
 - A study of a SNAP work requirement found a 23-percentage-point increase in
   exits among incumbent participants after 18 months, with no employment
   effect in that setting. Exit is therefore not interchangeable with work.
+- A newer five-state Census CES study using linked SNAP and employment records
+  finds that work requirements reduced participation by about 7% without
+  increasing labor supply, with disproportionate screening of lower-income
+  people. This strengthens the design-specific counterexample but remains a
+  working-paper estimate, not a universal national effect or a household-food
+  security result.
 - A study of parents found no work increase but substantially lower SNAP
   receipt, identifying administrative burden as the main mechanism in that
   policy setting.

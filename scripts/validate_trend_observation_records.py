@@ -13,9 +13,14 @@ SCHEMA = json.loads((ROOT / "manifests/us-trend-observation-schema-v1.json").rea
 
 def main() -> int:
     failures: list[str] = []
+    format_counts: dict[str, int] = {}
     records = sorted((ROOT / "analysis/records").glob("*.json"))
     for path in records:
         data = json.loads(path.read_text(encoding="utf-8"))
+        record_format = data.get("format", "(missing)")
+        format_counts[record_format] = format_counts.get(record_format, 0) + 1
+        if record_format not in SCHEMA.get("accepted_record_formats", []):
+            failures.append(f"{path.relative_to(ROOT)}: unsupported record format: {record_format}")
         for field in SCHEMA["required_record_fields"]:
             if field not in data:
                 failures.append(f"{path.relative_to(ROOT)}: missing {field}")
@@ -62,7 +67,8 @@ def main() -> int:
         print("\n".join(failures))
         print(f"Checked {len(records)} trend records; {len(failures)} failures", file=sys.stderr)
         return 1
-    print(f"VALID trend observation records: {len(records)} records checked")
+    formats = ", ".join(f"{name}={count}" for name, count in sorted(format_counts.items()))
+    print(f"VALID trend observation records: {len(records)} records checked ({formats})")
     return 0
 
 

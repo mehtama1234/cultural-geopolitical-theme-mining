@@ -1,0 +1,64 @@
+{
+  "format": "americorps-cev-2023-civic-participation-screen-v1",
+  "title": "Formal volunteering, informal helping, and civic time intensity",
+  "checked": "2026-09-20",
+  "source_unit": "Census Bureau Current Population Survey Civic Engagement and Volunteering Supplement, analyzed by Census Bureau and AmeriCorps",
+  "geography": "United States",
+  "field_window": "September 17-26, 2023; retrospective activity windows vary by measure",
+  "observations": [
+    {
+      "measure": "formal_volunteering",
+      "period": "September 2022 through September 2023",
+      "value": 28.3,
+      "unit": "percent of population age 16 and older",
+      "comparison": {"period": "2021", "value": 23.2, "unit": "percent"},
+      "status": "reported"
+    },
+    {
+      "measure": "informal_neighbor_help",
+      "period": "September 2022 through September 2023",
+      "value": 54.2,
+      "unit": "percent of population age 16 and older",
+      "comparison": {"period": "2019", "value": 51.7, "unit": "percent"},
+      "status": "reported"
+    },
+    {
+      "measure": "mean_hours_per_formal_volunteer",
+      "period": "2023",
+      "value": 70.0,
+      "unit": "hours in prior year",
+      "comparison": {"period": "2017", "value": 96.5, "unit": "hours"},
+      "status": "reported"
+    },
+    {
+      "measure": "median_hours_per_formal_volunteer",
+      "period": "2023",
+      "value": 24.0,
+      "unit": "hours in prior year",
+      "comparison": {"period": "2017", "value": 40.0, "unit": "hours"},
+      "status": "reported"
+    },
+    {
+      "measure": "online_or_hybrid_formal_volunteering",
+      "period": "2023",
+      "value": 18.0,
+      "unit": "percent of formal volunteers",
+      "status": "reported"
+    },
+    {
+      "measure": "virtual_or_hybrid_mean_hours",
+      "period": "2023",
+      "value": 95.0,
+      "unit": "hours in prior year",
+      "comparison": {"group": "in-person-only formal volunteers", "value": 64.0, "unit": "hours"},
+      "status": "reported"
+    }
+  ],
+  "method": "Published Census Bureau and AmeriCorps summary statistics from the 2023 CEV supplement; no microdata re-estimation is claimed here.",
+  "boundary": "Repeated cross-sectional activity estimates do not identify matched-person change, causal drivers, service adequacy, organizational continuity, time constraints, political efficacy, trust, later action, or volunteer retention.",
+  "source_urls": [
+    "https://www.census.gov/library/stories/2024/11/civic-engagement-and-volunteerism.html",
+    "https://www.census.gov/newsroom/press-releases/2024/civic-engagement-volunteering-supplement.html",
+    "https://americorps.gov/sites/default/files/document/CEV2023_HeadlineReport_11052024_final_508.pdf"
+  ]
+}

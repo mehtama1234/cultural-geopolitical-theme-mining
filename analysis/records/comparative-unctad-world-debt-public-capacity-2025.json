@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-world-debt-public-capacity-2025",
+  "title": "Debt service is becoming a public-capacity and everyday-development constraint, especially in developing economies",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "household_room_consumption",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNCTAD A World of Debt 2025, global and developing-country public-debt analysis",
+  "geography": "Global public debt and developing-country comparisons; the report's country counts and regional shares follow UNCTAD's debt datasets",
+  "observations": [
+    {
+      "period": "2024 public-debt stock and interest-payment indicators; report published 26 June 2025",
+      "denominator": {
+        "value": 102000000000000,
+        "unit": "US dollars of global public debt in 2024",
+        "value_type": "global_macro_total"
+      },
+      "measures": {
+        "global_public_debt": {"value": 102, "unit": "trillion US dollars in 2024, up from $97 trillion in 2023", "value_type": "reported_global_total"},
+        "developing_country_public_debt": {"value": 31, "unit": "trillion US dollars in 2024", "value_type": "reported_country_group_total"},
+        "developing_country_interest_payments": {"value": 921, "unit": "billion US dollars in net public-debt interest payments in 2024, up 10% from 2023", "value_type": "reported_country_group_total"},
+        "countries_over_ten_percent_revenue_interest": {"value": 61, "unit": "developing countries allocating at least 10% of government revenue to net interest payments in 2024", "value_type": "reported_country_count"},
+        "people_in_countries_interest_exceeds_health_or_education": {"value": 3400000000, "unit": "people living in countries where interest payments exceed spending on either health or education", "value_type": "reported_population_exposure"}
+      },
+      "method": "UNCTAD synthesis of public-debt, interest-payment, government-revenue, and public-expenditure indicators, with regional and income-group comparisons and international-financial-architecture analysis.",
+      "uncertainty": "Debt and expenditure concepts use the report's definitions and may not be directly comparable across countries. Interest exceeding health or education spending is a country-level budget comparison, not proof that an individual lost a service or that debt alone caused a spending decision.",
+      "subgroup": "Developing countries, least-developed and vulnerable economies, national governments, creditors, public services, and populations exposed to constrained health, education, infrastructure, or climate spending.",
+      "counterinterpretation": "Public debt can finance productive investment and protect people; high interest burdens can coexist with effective service delivery. A high aggregate interest bill does not identify the quality, composition, or distribution of public spending.",
+      "source_url": "https://unctad.org/publication/world-of-debt",
+      "retrieval_hash": "sha256:d6fac51fa45c31281d45116bf633bc8b5b40f39aa562a354cce6247d5ca92197",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2024 borrowing-cost, external-debt-service, and resource-transfer context",
+      "denominator": {
+        "value": 100,
+        "unit": "percent of developing-country comparison group for reported shares and ranges",
+        "value_type": "country_group_comparison"
+      },
+      "measures": {
+        "borrowing_rate_multiple_us": {"value": "2-4", "unit": "times US borrowing rates: average rates paid by developing regions since 2020", "value_type": "reported_relative_comparison"},
+        "external_public_debt_service": {"value": 487, "unit": "billion US dollars paid by developing countries to service external public debt in 2023", "value_type": "reported_country_group_total"},
+        "countries_at_least_6_5_percent_exports_external_debt_service": {"value": 50, "unit": "percent of developing countries spending at least 6.5% of export revenues on external public-debt service", "value_type": "reported_country_group_share"},
+        "negative_net_resource_transfer": {"value": 25, "unit": "billion US dollars more paid to external creditors than received in fresh disbursements in 2023", "value_type": "reported_country_group_total"},
+        "international_finance_reform_route": {"value": "inclusive governance, crisis liquidity, effective debt workouts, concessional finance, and technical assistance", "unit": "reported reform pathway", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNCTAD comparison of borrowing costs, external debt service, export-revenue exposure, fresh disbursements, and net resource transfers, linked to proposed reforms of the international financial architecture.",
+      "uncertainty": "The relative borrowing-cost comparison is an average across developing regions and does not describe every sovereign. Net transfers and debt-service measures are macro aggregates; they do not measure household incidence, default probability, or whether reform would improve a particular public programme.",
+      "subgroup": "Developing-country governments, exporters, public borrowers, creditors, multilateral institutions, and residents affected by fiscal trade-offs and external financing conditions.",
+      "counterinterpretation": "External borrowing can support investment and countercyclical protection when terms and projects are sustainable. A negative net transfer in one year does not establish insolvency or rule out future development gains.",
+      "source_url": "https://unctad.org/news/developing-countries-face-record-high-public-debt-burdens-now-time-reform",
+      "retrieval_hash": "sha256:d6fac51fa45c31281d45116bf633bc8b5b40f39aa562a354cce6247d5ca92197",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/system/files/official-document/osgttinf2025d4_en.pdf", "claim": "UNCTAD provides the official full A World of Debt 2025 report and source notes."},
+    {"source_url": "https://unctad.org/news/unctad16-time-overhaul-global-finance-rescue-sustainable-development-goals", "claim": "UNCTAD connects debt service to health, education, development financing, and public-capacity trade-offs."}
+  ],
+  "boundary": "This record adds a macro-finance-to-public-capacity route. It does not estimate household incidence, attribute service cuts to debt alone, evaluate a specific debt restructuring, or treat national debt totals as individual economic outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNCTAD A World of Debt 2025 publication page, official report materials, and official news summary retrieved; debt stocks, interest payments, public-revenue shares, population exposure, borrowing-cost comparison, external debt service, resource transfer, and reform pathways cross-checked against UNCTAD materials.",
+    "html_sha256": "sha256:d6fac51fa45c31281d45116bf633bc8b5b40f39aa562a354cce6247d5ca92197",
+    "checked": "2026-09-26"
+  }
+}

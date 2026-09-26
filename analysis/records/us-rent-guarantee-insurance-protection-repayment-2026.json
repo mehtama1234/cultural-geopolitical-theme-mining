@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-rent-guarantee-insurance-protection-repayment-2026",
+  "title": "Rent guarantee products can open a housing door while leaving the renter with the repayment risk",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER quantitative rent-guarantee model and TheGuarantors public renter/operator descriptions; separate model and provider-document units",
+  "geography": "United States housing market model and US provider terms, with state availability caveats",
+  "observations": [
+    {
+      "period": "NBER model; calibrated US housing and income/health shock setting",
+      "denominator": {
+        "value": null,
+        "unit": "quantitative-equilibrium model population and calibrated states; no survey denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "modeled_welfare": {
+          "value": "increases with rent guarantee insurance",
+          "unit": "model result",
+          "value_type": "reported_model_result"
+        },
+        "modeled_security_deposit": {
+          "value": "decreases",
+          "unit": "model result",
+          "value_type": "reported_model_result"
+        },
+        "modeled_homelessness": {
+          "value": "decreases",
+          "unit": "model result",
+          "value_type": "reported_model_result"
+        },
+        "access_viability": {
+          "value": "unrestricted access is not financially viable; restricted access can restore viability",
+          "unit": "private/public insurance model result",
+          "value_type": "reported_model_result"
+        },
+        "targeting_split": {
+          "value": "private insurers must target better-off renters to break even, while public insurers focus on households most at risk of homelessness",
+          "unit": "model implication",
+          "value_type": "reported_model_result"
+        }
+      },
+      "method": "NBER quantitative equilibrium model of rent guarantee insurance after negative income or health-expenditure shocks, including moral hazard and adverse selection; it is not an evaluation of a broad US rollout.",
+      "uncertainty": "The model's welfare, deposit, and homelessness effects depend on calibration and assumed insurance design. It does not measure actual premiums, take-up, claims, landlord behavior, or later tenant outcomes.",
+      "subgroup": "Modeled renters and households differentiated by risk and insurance-provider type; exact model groups and calibration govern interpretation.",
+      "counterinterpretation": "A public insurance design may improve risk sharing but require public funding and targeting; a private product may be available to a renter who can pay while excluding or burdening the highest-risk renter.",
+      "source_url": "https://www.nber.org/papers/w32582",
+      "retrieval_hash": "sha256:4be1d4b42903e4185ef80b68588e4193bccef3b61dab08aa4cee6e574a885644",
+      "status": "reported"
+    },
+    {
+      "period": "Current provider terms checked 2026-09-22; TheGuarantors renter and operator descriptions",
+      "denominator": {
+        "value": null,
+        "unit": "provider product terms and FAQs; no approval, take-up, claim, or tenant-outcome denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "entry_function": {
+          "value": "a renter purchases a lease guarantee to qualify for a home they may not otherwise qualify to rent",
+          "unit": "provider-described product function",
+          "value_type": "reported_product_term"
+        },
+        "beneficiary": {
+          "value": "landlord or property operator",
+          "unit": "provider-described policy beneficiary",
+          "value_type": "reported_product_term"
+        },
+        "premium": {
+          "value": "personalized, upfront, and non-refundable if the lease proceeds",
+          "unit": "provider-described payment term",
+          "value_type": "reported_product_term"
+        },
+        "claim_repayment": {
+          "value": "if the provider pays the landlord for covered rent or damage, the renter remains liable to reimburse the provider",
+          "unit": "provider-described repayment term",
+          "value_type": "reported_product_term"
+        },
+        "availability": {
+          "value": "not every building accepts the product; coverage and pricing vary by state, property, lease, and financial profile",
+          "unit": "provider-described availability boundary",
+          "value_type": "reported_product_term"
+        }
+      },
+      "method": "Review of the provider's public renter FAQ, operator FAQ, and help page; these are product descriptions, not independent performance data.",
+      "uncertainty": "Public terms do not show approval rates, premium distribution, claims frequency, repayment success, credit consequences, eviction outcomes, housing stability, or whether the product improved access for a defined renter population.",
+      "subgroup": "Renters who do not meet a property's usual requirements, including some self-employed, recent-graduate, international, or lower-credit applicants; this is provider-described targeting, not an independently measured subgroup.",
+      "counterinterpretation": "A landlord-facing guarantee can still help a renter obtain a lease and avoid a larger deposit. A claim being repayable does not prove that every renter experiences it as harmful debt, and provider terms do not establish actual claim frequency.",
+      "source_url": "https://www.theguarantors.com/faq-for-renters",
+      "retrieval_hash": "sha256:8d2eda0305d25e461cc2276a86750b4aa5f9b64287afafbcda35c6d7536cc8f9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://help.theguarantors.com/im-behind-on-rent.-can-you-help-me-pay",
+      "claim": "The provider separately states that rent coverage is not monthly tenant relief and that a landlord claim can leave the renter responsible for reimbursement.",
+      "status": "official-product-companion",
+      "retrieval_hash": "sha256:1eb4ad80ce1947074234ab001eed6246fd65f673b73d03fed84fb748eb6ffee3"
+    }
+  ],
+  "boundary": "The model and provider documents support a protection-versus-repayment boundary, not a measured tenant outcome. Formal lease access, landlord protection, premium payment, claim payment, renter reimbursement, housing stability, credit, and later exit must remain separate stages. The NBER model is not a rollout evaluation, and the provider documents are not independent evidence of market performance."
+}

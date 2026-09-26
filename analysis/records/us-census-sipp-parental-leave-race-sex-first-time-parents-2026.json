@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-sipp-parental-leave-race-sex-first-time-parents-2026",
+  "title": "Parental leave is not one shared work-family experience",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "work_control_bargaining", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "Census SEHSD/SIPP Working Paper using the 2023 Survey of Income and Program Participation public-use file and first-time-parent leave histories",
+  "geography": "United States; nationally representative SIPP source, with analysis restricted to first-time parents who worked before and after the birth of their first biological child",
+  "observations": [
+    {
+      "period": "Birth cohorts before 1994 through 2014-2023; paper published February 2026",
+      "denominator": {"value": 1, "unit": "study-defined first-time parents who worked before and after first birth; subgroup-specific weighted estimates", "value_type": "study_defined_universe"},
+      "measures": {
+        "recent_any_leave": {"value": "Among the 2014-2023 birth cohort, any leave was reported by 89.2% of mothers and 63.9% of fathers", "unit": "share of employed first-time parents in cohort", "value_type": "reported_estimate"},
+        "recent_paid_leave": {"value": "Among the 2014-2023 birth cohort, paid leave was reported by 51.6% of mothers and 49.3% of fathers", "unit": "share of employed first-time parents in cohort", "value_type": "reported_estimate"},
+        "recent_paid_leave_by_group": {"value": "Paid leave among 2014-2023 first-time parents was 54.3% for White mothers, 45.5% for Black mothers, 42.1% for Hispanic mothers, and 62.3% for Asian mothers; for fathers it was 52.1%, 37.7%, 39.4%, and 64.5%, respectively", "unit": "share within race/ethnicity and sex subgroup", "value_type": "reported_comparison"},
+        "pooled_no_leave": {"value": "Across pooled birth years, 69.7% of Black fathers and 65.9% of Hispanic fathers did not take leave, compared with 53.6% of White fathers and 39.8% of Asian fathers; among mothers the corresponding shares were 19.3%, 21.4%, 14.6%, and 7.2%", "unit": "share of first-time parents reporting no leave", "value_type": "reported_comparison"},
+        "early_return": {"value": "Among mothers, 15.2% of Black and 15.6% of Hispanic first-time parents returned to work in less than a month, compared with 13.4% of White and 9.3% of Asian mothers", "unit": "share returning within less than one month after first birth", "value_type": "reported_comparison"}
+      },
+      "method": "Descriptive analysis of 2023 SIPP fertility, work, leave, and return-to-work measures across first-birth cohorts and race/ethnicity-by-sex groups. Leave categories include paid, unpaid, other leave, quitting or being let go, and no leave; comparisons are reported at the 90% significance level unless otherwise noted.",
+      "uncertainty": "The analysis is descriptive and restricted to first-time parents who worked before and after the birth, so it excludes people who were not working in both periods and does not estimate access among all new parents. The paper does not adjust the racial/ethnic comparisons for education, occupation, wage, firm size, job type, household resources, or policy eligibility, and smaller subgroup estimates can fluctuate or be suppressed for disclosure avoidance.",
+      "subgroup": "Non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, and Hispanic first-time parents, analyzed separately for mothers and fathers and across first-birth cohorts; the paper excludes an all-other race category because of insufficient sample sizes.",
+      "counterinterpretation": "Differences in leave use may reflect occupation, wage, education, employer policy, job protection, household resources, health, partner support, or selection into remaining employed—not race or ethnicity alone. Reporting that someone quit or was let go does not establish unlawful termination or a causal childbirth penalty. More leave use does not by itself prove better care, health, pay, or household security.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-04.html",
+      "retrieval_hash": "sha256:730d7810b071f8e23419217d6c1486acf99443203d84250cc5d4cb7dd1a348a2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a work-family-time and unequal-optionality pattern. It does not identify the causal mechanism behind group differences, measure all parents, establish employer discrimination or legal violations, or show later child health, caregiver wellbeing, earnings, household security, trust, or political action."
+}

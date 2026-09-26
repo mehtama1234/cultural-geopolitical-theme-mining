@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-medicaid-acs-question-content-test-cms-measurement-2022",
+  "title": "A redesigned ACS Medicaid question did not measure coverage better than the old version against CMS records",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["public_systems_feedback", "care_health_reproduction", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency"],
+  "source_unit": "Census SEHSD Working Paper 2026-18 using the 2022 ACS Content Test linked to CMS Medicaid enrollment records",
+  "geography": "United States; ACS survey respondents, redesigned and control health-insurance questions, CMS enrollment records, and Medicaid measurement",
+  "observations": [{
+    "period": "2022 ACS Content Test; paper published September 2026",
+    "denominator": {"value": 1, "unit": "ACS content-test respondents linked to CMS Medicaid enrollment records", "value_type": "study_unit"},
+    "measures": {
+      "historical_problem": {"value": "the ACS has historically undercounted Medicaid coverage compared with CMS enrollment records", "unit": "survey-administrative discrepancy", "value_type": "reported_fact"},
+      "question_versions": {"value": "the test compared a redesigned health-insurance question with the previous control version", "unit": "survey experiment", "value_type": "reported_method"},
+      "measurement_result": {"value": "both question versions performed equally well in measuring Medicaid relative to linked CMS enrollment records", "unit": "measurement comparison", "value_type": "reported_comparison"},
+      "design_change": {"value": "the recommendation concerned question format, wording of response options, and response-option order", "unit": "survey design", "value_type": "reported_definition"},
+      "interpretation": {"value": "a redesigned interface alone did not resolve the survey-administrative coverage gap", "unit": "bounded interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The paper compares control and test versions of the 2022 ACS health-insurance question against linked CMS Medicaid enrollment records to evaluate Medicaid measurement.",
+    "uncertainty": "This is a Census SEHSD working paper and measurement evaluation. Equal performance in this content test does not establish that either version is unbiased for every subgroup, state, enrollment type, survey mode, or year, nor does it measure actual coverage continuity or care use.",
+    "subgroup": "ACS respondents and CMS Medicaid enrollees represented in the 2022 content-test linkage; differential reporting and linkage by age, race, language, disability, poverty, churn, managed care, state, and survey mode require separate analysis.",
+    "counterinterpretation": "Equal test performance may reflect limits of the benchmark, timing mismatch between survey and enrollment, question comprehension, recall, administrative coding, or true survey improvement too small to detect. CMS enrollment is not the same as active care, affordability, continuity, or health outcome.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/demo/sehsd-wp2026-18.html",
+    "retrieval_hash": "sha256:b17cad959ab39951780c323954f38bf3ceb6a6cf3e8058076ceee15cffb06028",
+    "status": "compared"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/demo/sehsd-wp2026-18.pdf", "claim": "The official paper provides the 2022 ACS Content Test design, control and test question versions, CMS linkage, and equal-performance result.", "status": "official-paper-context"}],
+  "boundary": "This record adds a survey-question-to-administrative-benchmark measurement pathway. It does not establish complete Medicaid coverage measurement, actual care access, coverage continuity, health, or trust.",
+  "retrieval_hash": "sha256:b17cad959ab39951780c323954f38bf3ceb6a6cf3e8058076ceee15cffb06028"
+}

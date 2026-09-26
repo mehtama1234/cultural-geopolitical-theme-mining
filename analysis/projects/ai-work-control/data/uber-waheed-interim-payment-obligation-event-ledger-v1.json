@@ -1,0 +1,97 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_case_record",
+  "purpose": "De-identified event ledger for the Waheed platform-deactivation, reactivation, appeal-stay, and conditional interim-payment sequence; it distinguishes a payment obligation from receipt and lived recovery.",
+  "events": [
+    {
+      "event_id": "AU-WAHEED-2026-06-16",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Commission matter UDE2025/160 and appeal C2026/7842",
+      "actor_initiating_change": "platform",
+      "event_date": "2026-06-16",
+      "date_precision": "day; merits decision and consent stay order preserve the sequence",
+      "denominator": "one publicly identified adjudicated case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission merits decision and appeal-stay order, with targeted official document-search recheck",
+      "missingness": "The public packet does not disclose interim-payment receipt, final lost-pay quantum, actual account restoration, continued work, alternative work, household recovery, recurrence, trust, or exit",
+      "condition_or_decision": "job_rule",
+      "exposure": "Rasier Pacific deactivated the worker's Uber access; the Commission later found the deactivation unfair and inconsistent with the Digital Labour Platform Deactivation Code",
+      "alternatives_before_action": "Alternative work, savings, support, or practical non-use choice are not observed",
+      "immediate_burden_or_benefit": "The merits record identifies household dependence on Uber income and a lost-remuneration consequence; the stay order creates a conditional interim payment obligation of A$259.38 per week",
+      "choice_or_response": "The worker pursued the Fair Work Commission route; the appeal stay preserved interim payments while the merits remedy remained under appeal",
+      "person_or_actor_with_control": "Rasier Pacific controlled platform access; the Fair Work Commission controlled the merits and stay orders",
+      "remedy_or_institutional_response": "The merits decision ordered reactivation and lost remuneration in principle; the 2026-06-16 consent stay stayed those orders pending appeal while conditioning the platform to pay A$259.38 per week from 2026-05-28 and not seek repayment",
+      "remedy_stage": "remedy_offered",
+      "remedy_receipt": "An interim payment obligation is observed; receipt is not observed",
+      "durability_followup": "Actual access, continued work, final appeal outcome, recurrence, and later security are unknown",
+      "immediate_outcome": "The case advances from adjudicated entitlement to a conditional legal payment obligation, without verified money receipt or restored work access",
+      "protected_outcome": "A temporary legal income floor was specified by the stay condition, but whether it protected the worker in practice is unknown",
+      "sacrificed_outcome": "Lost work access, final compensation adequacy, and household security remain unresolved",
+      "cost_risk_transfer": "The stay condition allocates an interim payment obligation to the platform while appeal risk and payment execution remain open",
+      "later_outcome": "No public receipt, final quantum, account restoration, continued work, non-retaliation, trust, switching, or exit record was located",
+      "meaning_and_attribution": "The case identifies platform and tribunal roles but does not measure worker-reported fairness, dignity, trust, or action",
+      "public_or_collective_response": "An individual application, merits adjudication, and appeal-stay process are observed; no later organizing or political action is measured",
+      "counterexample": "A court or tribunal can impose a conditional interim payment obligation while the public record still lacks evidence that money arrived or that the original work route became usable",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission merits decision [2026] FWC 1801, consent appeal-stay order PR811047, and official document-search recheck on 2026-09-18; an obligation is not a receipt and public non-observation does not prove nonpayment"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "WAHEED-A-01",
+      "from": "platform deactivation",
+      "to": "unfair-deactivation and reactivation orders",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The 2026-05-21 merits decision found Code non-compliance and unfair deactivation, ordered reactivation within seven days, and ordered lost remuneration in principle",
+      "status": "observed",
+      "counterexample": "An order does not establish actual account restoration or payment",
+      "remaining_gap": "Actual access, final quantum, payment, and continued work"
+    },
+    {
+      "arrow_id": "WAHEED-A-02",
+      "from": "reactivation and lost-remuneration orders",
+      "to": "appeal stay",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The 2026-06-16 consent stay order stayed the merits orders pending appeal",
+      "status": "observed",
+      "counterexample": "A stay changes legal implementation timing; it does not resolve the underlying merits or lived outcome",
+      "remaining_gap": "Appeal outcome, final remedy, and practical access"
+    },
+    {
+      "arrow_id": "WAHEED-A-03",
+      "from": "appeal stay",
+      "to": "conditional interim payment obligation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The consent stay conditions Rasier Pacific to pay A$259.38 per week from 2026-05-28 and not seek repayment",
+      "status": "observed",
+      "counterexample": "A specified obligation is not evidence that a bank transfer occurred or was usable",
+      "remaining_gap": "Payment execution, timing, tax/net amount, and adequacy"
+    },
+    {
+      "arrow_id": "WAHEED-A-04",
+      "from": "conditional interim payment obligation",
+      "to": "interim payment receipt and household protection",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official recheck found no public bank-side receipt, final quantum, or household outcome record",
+      "status": "open",
+      "counterexample": "Legal payment conditions can coexist with unknown receipt, adequacy, and remaining hardship",
+      "remaining_gap": "Receipt, net amount, adequacy, household bills, and recovery"
+    },
+    {
+      "arrow_id": "WAHEED-A-05",
+      "from": "stayed reactivation order",
+      "to": "actual access, durable protection, and exit",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The public record does not establish actual account restoration, continued work, recurrence protection, switching, or non-use",
+      "status": "open",
+      "counterexample": "A formal access order can be stayed while the worker's practical work route remains unknown",
+      "remaining_gap": "Actual access, continued work, recurrence, trust, switching, non-use, and exit"
+    }
+  ],
+  "boundary": "This ledger establishes a partial public case chain from unfair platform exclusion through a stayed remedy and conditional interim-payment obligation. It does not establish payment receipt, actual access, final compensation, household recovery, trust, action, or exit.",
+  "storage_boundary": "No personal exhibits or bulk case files; only official decision/order metadata, hashes, bounded stage statuses, and compact derived fields are represented."
+}

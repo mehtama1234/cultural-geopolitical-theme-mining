@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-wipo-global-innovation-cluster-concentration-2025",
+  "title": "Innovation capacity is concentrating in metropolitan ecosystems even as breakthrough technology advances coexist with slower investment growth",
+  "theme_ids": ["work", "voice", "energy"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "public_systems_feedback"
+  ],
+  "source_unit": "WIPO, Global Innovation Index 2025: Innovation at a Crossroads",
+  "geography": "139 economies and global science-and-technology innovation clusters, including cross-border metropolitan regions",
+  "observations": [
+    {
+      "period": "2025 Global Innovation Index; economy-level innovation systems",
+      "denominator": {
+        "value": 139,
+        "unit": "economies assessed in the Global Innovation Index 2025",
+        "value_type": "multi_economy_comparative_frame"
+      },
+      "measures": {
+        "leading_economies": {"value": "Switzerland, Sweden, United States, Republic of Korea, Singapore, United Kingdom, Finland, Netherlands, Denmark, and China occupy the top ten", "unit": "GII economy ranking", "value_type": "reported_ranking"},
+        "innovation_system_direction": {"value": "AI and quantum technologies advance rapidly while innovation-investment growth slows, venture-capital activity moderates, and patenting gains remain modest", "unit": "reported global innovation trend", "value_type": "reported_trend"},
+        "measurement_scope": {"value": "investment patterns, technological progress, adoption rates, and socioeconomic impacts", "unit": "reported index dimensions", "value_type": "reported_measurement_scope"}
+      },
+      "method": "WIPO composite index and tracker using innovation inputs and outputs, investment patterns, technological progress, adoption, and socioeconomic-impact indicators across 139 economies.",
+      "uncertainty": "A composite ranking depends on indicator selection, imputation, weights, time lags, and cross-country data quality. It does not identify causal effects of innovation policy, explain within-country inequality, or equate rank with broad social welfare.",
+      "subgroup": "Economies by income and region, national innovation systems, firms, universities, inventors, workers, investors, and communities affected by technology diffusion.",
+      "counterinterpretation": "Slower aggregate investment growth can coexist with high-value breakthroughs or diffusion in particular sectors; a lower-ranked economy may generate important innovation not captured equally by the index.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2025/en/index.html",
+      "retrieval_hash": "sha256:c526501ba1f4462de24294b9dac8c7dd100bf299fdc25ae458297e2e6ad07e11",
+      "status": "reported"
+    },
+    {
+      "period": "2025 innovation-cluster ranking; patents, publications, and venture capital",
+      "denominator": {
+        "value": 100,
+        "unit": "top 100 global innovation clusters ranked by combined science, patent, and venture-capital activity",
+        "value_type": "cluster_comparative_frame"
+      },
+      "measures": {
+        "top_100_pct_share": {"value": 70, "unit": "approximately percent of global PCT filings and venture-capital deal activity represented by the top 100 clusters", "value_type": "reported_global_share"},
+        "top_100_publication_share": {"value": 50, "unit": "approximately percent of global scientific publications represented by the top 100 clusters", "value_type": "reported_global_share"},
+        "top_10_concentration": {"value": "about 40% of PCT filings, 35% of venture-capital deal activity, and more than 15% of global scientific publications", "unit": "reported share of global activity", "value_type": "reported_concentration_pattern"}
+      },
+      "method": "WIPO bottom-up, data-driven cluster method using the geographic density and global share of inventors, scientific authors, patent filings, and venture-capital deals, with VC added as a metric in 2025.",
+      "uncertainty": "Cluster boundaries can cross municipal, subnational, or national borders; patent, publication, and VC measures capture different innovation stages and may overrepresent formal, investable, or internationally visible activity. Concentration is not ownership or benefit incidence.",
+      "subgroup": "Metropolitan regions, cross-border corridors, universities, R&D firms, startups, venture investors, public research systems, and local labour and housing markets.",
+      "counterinterpretation": "Cluster concentration can support knowledge spillovers, specialized infrastructure, and global collaboration, while innovation may diffuse beyond cluster boundaries or arise in less VC-intensive forms.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2025/en/cluster-ranking.html",
+      "retrieval_hash": "sha256:c526501ba1f4462de24294b9dac8c7dd100bf299fdc25ae458297e2e6ad07e11",
+      "status": "reported"
+    },
+    {
+      "period": "2025 innovation-cluster ranking; national and regional concentration",
+      "denominator": {
+        "value": 100,
+        "unit": "top 100 global innovation clusters and represented economies",
+        "value_type": "cluster_geography_frame"
+      },
+      "measures": {
+        "china_clusters": {"value": 24, "unit": "top-100 clusters associated with China", "value_type": "reported_cluster_count"},
+        "us_clusters": {"value": 22, "unit": "top-100 clusters associated with the United States", "value_type": "reported_cluster_count"},
+        "middle_income_presence": {"value": "clusters from Brazil, Egypt, India, Iran, Malaysia/Singapore, Mexico, and Türkiye appear in the top 100", "unit": "reported regional and income-group pattern", "value_type": "reported_subgroup_pattern"},
+        "cross_border_unit": {"value": "many clusters span municipal, sub-federal, or national borders", "unit": "reported geographic structure", "value_type": "reported_geographic_pattern"}
+      },
+      "method": "WIPO cluster ranking and economy-level mapping, including cross-border cluster identification and intensity measures normalized by population.",
+      "uncertainty": "Cluster affiliation and counts are sensitive to methodology, data availability, and the inclusion of venture-capital activity. Presence in the top 100 does not establish equal regional access, local employment, public revenue, or community benefit.",
+      "subgroup": "Countries, metropolitan regions, middle-income economies, cross-border innovation corridors, and local populations exposed to concentrated investment and talent demand.",
+      "counterinterpretation": "A geographically concentrated ecosystem can coexist with distributed production, remote collaboration, public research, and innovation outside formal cluster rankings; concentration is a structural signal, not a complete account of innovation opportunity.",
+      "source_url": "https://www.wipo.int/web-publications/global-innovation-index-2025/en/cluster-ranking.html",
+      "retrieval_hash": "sha256:c526501ba1f4462de24294b9dac8c7dd100bf299fdc25ae458297e2e6ad07e11",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.wipo.int/en/web/global-innovation-index/2025/index", "claim": "WIPO ranking and economy-level GII 2025 results."},
+    {"source_url": "https://www.wipo.int/pressroom/en/articles/2025/article_0009.html", "claim": "WIPO companion release on leaders, investment slowdown, and innovation-system findings."},
+    {"source_url": "https://doi.org/10.34667/tind.50196", "claim": "WIPO persistent publication identifier, where available."}
+  ],
+  "boundary": "This record adds innovation-system and cluster-concentration evidence to the firm, infrastructure, work, and geopolitical map. It is not firm-level causal evidence, does not estimate local distribution or household outcomes, and does not establish that innovation concentration produces or reduces inequality, political legitimacy, or state power.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official WIPO GII 2025 publication, at-a-glance, cluster-ranking, and results pages were retrieved; economy scope, investment slowdown, cluster shares, top-country counts, and geographic boundaries were cross-checked against official WIPO material. The hash is a source-URL fingerprint for the publication landing page.",
+    "source_url_sha256": "sha256:c526501ba1f4462de24294b9dac8c7dd100bf299fdc25ae458297e2e6ad07e11",
+    "checked": "2026-09-26"
+  }
+}

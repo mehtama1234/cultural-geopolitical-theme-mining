@@ -1,0 +1,44 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-international-defense-arrangements-2021-2025",
+  "title": "Defense cooperation can be valuable on paper while its review and coordination system slows the route to joint capability",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["geopolitical_state_consequences", "firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "GAO review of selected Department of Defense acquisition-related international arrangements and internal coordination for fiscal years 2021-2025",
+  "geography": "United States and foreign defense partners; Department of Defense international arrangements",
+  "observations": [
+    {
+      "period": "Fiscal years 2021-2025; selected DOD acquisition-related international arrangements",
+      "denominator": {"value": 303, "unit": "acquisition-related international arrangements established by DOD in the reviewed data", "value_type": "reported_count"},
+      "measures": {
+        "associated_value": {"value": 64, "unit": "billion dollars", "value_type": "reported_associated_value"},
+        "portfolio_direction": {"value": "both arrangement count and dollar value declined over FY2021-FY2025", "unit": "reported trend", "value_type": "reported_trend"},
+        "reported_friction": {"value": "personnel shortages and lengthy review and approval timelines", "unit": "official/interview-based explanation", "value_type": "reported_factor"}
+      },
+      "method": "GAO analysis of military department data for selected arrangements established during FY2021-FY2025, relevant statutes, regulations, DOD policies, and interviews with DOD officials.",
+      "uncertainty": "The reviewed arrangement data are not a complete causal model of international cooperation; counts and associated dollars do not establish capability, delivery, partner acceptance, or strategic effect.",
+      "subgroup": "DOD acquisition-related international arrangements; selected arrangement data across military departments.",
+      "counterinterpretation": "A decline can reflect selectivity, consolidation, changed priorities, or arrangements outside the selected data; slower review may also protect legal, financial, or security interests.",
+      "source_url": "https://www.gao.gov/products/gao-26-108249",
+      "retrieval_hash": "sha256:782a5c1b75290025ea77a6d3af8498ecd5c1330bc40d282e80a1121461bbcc64",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal years 2021-2025; DOD coordination process",
+      "denominator": {"value": 1, "unit": "reviewed DOD international-arrangement coordination system", "value_type": "source_defined_process_universe"},
+      "measures": {
+        "responsibility_structure": {"value": "military departments develop and negotiate; Under Secretary-level offices review and approve", "unit": "reported process structure", "value_type": "reported_description"},
+        "timely_communication": {"value": "varied; some key policy changes were not communicated broadly or timely", "unit": "reported process finding", "value_type": "reported_finding"},
+        "proactive_challenge_management": {"value": "not systematic", "unit": "reported organizational assessment", "value_type": "reported_finding"}
+      },
+      "method": "GAO review of DOD coordination and communication practices and assessment against a tailored challenge-management framework.",
+      "uncertainty": "The process assessment does not quantify the number of delayed arrangements, the cost of each delay, or whether any specific partner capability failed.",
+      "subgroup": "DOD offices, military departments, and stakeholders involved in acquisition-related international arrangements.",
+      "counterinterpretation": "Distributed responsibility can provide specialized review and legal or security safeguards; a coordination gap is not equivalent to alliance failure or strategic defeat.",
+      "source_url": "https://www.gao.gov/products/gao-26-108249",
+      "retrieval_hash": "sha256:782a5c1b75290025ea77a6d3af8498ecd5c1330bc40d282e80a1121461bbcc64",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record establishes a selected DOD international-arrangement portfolio and internal review/coordination friction. It does not establish implementation, delivery, joint use, partner consent, readiness, deterrence, legitimacy, or external strategic response."
+}

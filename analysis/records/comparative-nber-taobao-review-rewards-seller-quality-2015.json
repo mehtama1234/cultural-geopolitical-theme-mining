@@ -1,0 +1,27 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-taobao-review-rewards-seller-quality-2015",
+  "title": "Rewarding buyer feedback can increase sales and signal seller quality in an online marketplace",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "firm_sector_market_power", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 22584; Taobao reward-for-feedback mechanism and online-marketplace seller outcomes",
+  "geography": "China's Taobao online marketplace; comparative platform evidence for a U.S.-centered mechanism atlas",
+  "observations": [{
+    "period": "Taobao online marketplace reward-for-feedback mechanism; paper issued 2016",
+    "denominator": {"value": 1, "unit": "Taobao online-marketplace feedback and seller-quality study", "value_type": "study_unit"},
+    "measures": {
+      "rewarded_sales": {"value": "items with buyer-feedback rewards generated nearly 30% higher sales", "unit": "sales comparison for rewarded items", "value_type": "reported_estimate"},
+      "seller_quality": {"value": "rewarded items were sold by higher-quality sellers", "unit": "seller-quality comparison", "value_type": "reported_comparison"},
+      "mechanism": {"value": "the reward-for-feedback mechanism can help sellers build reputations and signal quality when truthful feedback is a public good", "unit": "market-design mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The paper analyzes Taobao's reward-for-feedback mechanism through the relationship between rewards, sales, and seller quality, using signaling theory to interpret why higher-quality sellers may use rewards for truthful buyer feedback.",
+    "uncertainty": "This is comparative evidence from Taobao, not a U.S. marketplace estimate. The abstract does not follow buyers through product quality, returns, refunds, complaints, review edits, or long-term trust, and the sales relationship does not establish full consumer welfare or universal causal effects across platform designs.",
+    "subgroup": "Taobao items, buyers, and sellers using or exposed to the reward-for-feedback mechanism; effects may differ by product, seller, platform rules, buyer resources, and marketplace culture.",
+    "counterinterpretation": "Higher sales may reflect selection into rewards, visibility, product category, or other seller behavior rather than the reward alone. Higher seller quality does not mean every rewarded product worked better for every buyer, and a reward can alter review volume without making negative information easier to see.",
+    "source_url": "https://www.nber.org/papers/w22584",
+    "retrieval_hash": "sha256:4e391880a6e39ae18933d298c1c3addcbcf541cd510d44cd6c343812f7763fad",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w22584", "claim": "NBER DOI record for Working Paper 22584", "status": "official-paper-identifier"}],
+  "boundary": "This record adds comparative platform evidence: buyer-feedback rewards on Taobao were associated with higher sales and higher-quality sellers. It does not establish a U.S. effect, consumer welfare, review accuracy, return recovery, or that rewards improve every marketplace."
+}

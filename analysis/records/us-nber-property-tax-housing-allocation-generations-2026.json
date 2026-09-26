@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-property-tax-housing-allocation-generations-2026",
+  "title": "Property-tax design reallocates housing access across generations under financial constraints",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35587, overlapping-generations model of property taxation, housing allocation, and financial constraints",
+  "geography": "United States housing policy with a California-to-Texas property-tax counterfactual; intergenerational housing allocation",
+  "observations": [
+    {
+      "period": "Paper issued August 10, 2026; model counterfactual for California property taxes and housing tenure",
+      "denominator": {
+        "value": 1,
+        "unit": "overlapping-generations housing-allocation model and California-to-Texas tax-rate counterfactual",
+        "value_type": "study_model"
+      },
+      "measures": {
+        "property_tax_rate_counterfactual": {
+          "value": "0.8% to 2%",
+          "unit": "California property-tax rate raised to Texas-level rate in the model",
+          "value_type": "modeled_counterfactual"
+        },
+        "house_price_change": {
+          "value": "-12.6%",
+          "unit": "modeled California house-price change under the counterfactual",
+          "value_type": "modeled_effect"
+        },
+        "older_homeownership_change": {
+          "value": "-7.6 percentage points",
+          "unit": "modeled change in homeownership among adults age 75 and older",
+          "value_type": "modeled_effect"
+        },
+        "young_homeownership": {
+          "value": "increased",
+          "unit": "modeled homeownership among adults age 25–34",
+          "value_type": "modeled_direction"
+        },
+        "allocation_mechanism": {
+          "value": "two channels",
+          "unit": "lower capitalized prices reduce downpayments for constrained young buyers; higher tax obligations raise older owners' holding costs",
+          "value_type": "reported_model_mechanism"
+        },
+        "step_up_basis": {
+          "value": "removing it lowers elderly homeownership",
+          "unit": "modeled housing-tenure response to a tax-treatment change",
+          "value_type": "modeled_direction"
+        }
+      },
+      "method": "Overlapping-generations model with financially constrained households, housing capitalization, property-tax obligations, and tax treatment of bequests; California-to-Texas rate counterfactual and step-up-basis counterfactual.",
+      "uncertainty": "These are model-generated counterfactuals rather than observed policy effects from a California tax reform. Results depend on the model's demographic, financial-constraint, housing-supply, tax-incidence, and bequest assumptions; the abstract does not establish neighborhood displacement, rental effects, service quality, or actual political feasibility.",
+      "subgroup": "Young financially constrained prospective homeowners, older homeowners, and households whose housing tenure is affected by property-tax and bequest-tax treatment; age groups and tenure states are not interchangeable.",
+      "counterinterpretation": "Higher property taxes can reduce prices and help some constrained buyers while imposing higher holding costs on existing owners. Supply responses, rental-market adjustment, exemptions, local public-service benefits, mobility, family transfers, and political resistance could alter the modeled incidence.",
+      "source_url": "https://www.nber.org/papers/w35587",
+      "retrieval_hash": "sha256:540194e00ed978c5e79988803663efaff2e8af100cea7bf4d71de9c1bf84e087",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35587",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a modeled intergenerational housing-allocation mechanism. It does not establish an observed California policy effect, individual displacement, rental burden, local-service change, household wealth change, or political response."
+}

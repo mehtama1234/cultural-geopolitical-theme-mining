@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-global-risk-perception-multilateral-capacity-2026",
+  "title": "Global risk priorities are shifting toward geopolitical conflict while perceived multilateral response capacity lags",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "United Nations Global Risk Report 2026",
+  "geography": "Stakeholders from 155 countries across governments, business, civil society, and the United Nations system",
+  "observations": [
+    {
+      "period": "2026 UN Global Risk Report; comparison with the prior 2024 risk-perception exercise",
+      "denominator": {
+        "value": 1300,
+        "unit": "approximately stakeholders across 155 countries participating in the UN risk-perception survey",
+        "value_type": "multi_country_stakeholder_survey_approximate"
+      },
+      "measures": {
+        "global_risks_assessed": {"value": 28, "unit": "global risks assessed across political, technological, economic, environmental, and societal categories", "value_type": "reported_risk_inventory"},
+        "large_scale_war_expected_within_one_year": {"value": 36, "unit": "percent of survey respondents expecting large-scale war within one year", "value_type": "reported_expectation_share"},
+        "climate_inaction_top_risk": {"value": "ranked first", "unit": "perceived importance among the 28 global risks", "value_type": "reported_rank"},
+        "joint_government_action_effective_response": {"value": "most effective", "unit": "perceived response option for global risks", "value_type": "reported_response_preference"}
+      },
+      "method": "The UN report uses a multi-stakeholder risk-perception survey and comparative assessment to rank risks by perceived likelihood, severity, speed of materialization, interactions, and perceived preparedness of the multilateral system.",
+      "uncertainty": "These are expert and stakeholder perceptions, not event probabilities, measured casualties, market forecasts, or public opinion estimates. The source page reports rounded counts and shares; respondent composition, weighting, question wording, and the full risk-by-risk distribution should be consulted in the report for detailed comparisons.",
+      "subgroup": "Government, business, civil-society, and UN-system stakeholders across 155 countries; the measure is not representative of all residents or households in those countries.",
+      "counterinterpretation": "Perceived geopolitical urgency can reflect attention cycles and salient events rather than a lasting change in objective risk. The continued top ranking of climate inaction shows that geopolitical salience does not eliminate environmental or societal risk.",
+      "source_url": "https://www.un.org/en/global-risk-report",
+      "retrieval_hash": "sha256:794d7401304c63d8555c2e1add98e3738d6746cfbc702d7e5aca9767e952ef9b",
+      "status": "reported"
+    },
+    {
+      "period": "Change between the 2024 and 2026 UN Global Risk Report exercises",
+      "denominator": {
+        "value": 2,
+        "unit": "survey waves or comparable UN global-risk assessment rounds, 2024 and 2026",
+        "value_type": "comparative_rounds"
+      },
+      "measures": {
+        "risk_map_shift": {"value": "geopolitical risks moved to the center", "unit": "reported change in relative risk salience between rounds", "value_type": "reported_directional_shift"},
+        "earlier_top_concerns": {"value": "environmental risks, disinformation, and pandemics", "unit": "risk areas highlighted in the 2024 comparison", "value_type": "reported_comparison"},
+        "2026_rising_concerns": {"value": "large-scale war, political risk, AI and frontier-technology power concentration, and economic risks", "unit": "risk areas highlighted in the 2026 comparison", "value_type": "reported_comparison"},
+        "global_vulnerability_definition": {"value": "gap between risk importance and perceived multilateral response capacity", "unit": "reported analytical construct", "value_type": "reported_framework"}
+      },
+      "method": "The UN compares the current risk-perception exercise with the earlier round and frames vulnerability as a mismatch between the importance assigned to a risk and perceived institutional capacity to respond.",
+      "uncertainty": "A change in perceived salience is not proof that underlying hazards changed by the same amount, and lower perceived response capacity is not a direct audit of institutional performance. The comparison is bounded by differences in context, participation, and measurement across rounds.",
+      "subgroup": "Multilateral decision-makers and stakeholders assessing global risks, preparedness, and response coordination.",
+      "counterinterpretation": "Perceived institutional weakness may increase calls for cooperation rather than produce disengagement; the report says joint government action remains the most effective response, so concern and support for multilateral coordination can coexist.",
+      "source_url": "https://brasil.un.org/pt-br/322942-relat%C3%B3rio-sobre-riscos-globais-2026",
+      "retrieval_hash": "sha256:794d7401304c63d8555c2e1add98e3738d6746cfbc702d7e5aca9767e952ef9b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global risk-perception and multilateral-capacity route. It does not establish actual war probability, causal geopolitical effects, public sentiment, institutional failure, or a country-specific policy forecast; the survey is stakeholder-level context rather than respondent-level evidence for the US atlas.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN Global Risk Report 2026 landing page and linked report PDF retrieved through the UN Brazil publication page; 155-country coverage, approximately 1,300 stakeholders, 28 risks, 36% one-year war expectation, risk-map shift, climate ranking, and joint-action response claims cross-checked against official UN publication summaries.",
+    "pdf_sha256": "sha256:794d7401304c63d8555c2e1add98e3738d6746cfbc702d7e5aca9767e952ef9b",
+    "checked": "2026-09-26"
+  }
+}

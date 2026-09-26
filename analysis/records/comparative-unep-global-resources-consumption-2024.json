@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-global-resources-consumption-2024",
+  "title": "Material consumption is rising faster than ecological capacity, with high-income demand and built-environment systems driving unequal impacts",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UNEP-hosted International Resource Panel Global Resources Outlook 2024",
+  "geography": "Global; resource-use, material-footprint, income-group, regional, sectoral, and scenario comparisons as specified by the report",
+  "observations": [
+    {
+      "period": "1970-2024 historical material-use trend summarized in Global Resources Outlook 2024",
+      "denominator": {
+        "value": 106600000000,
+        "unit": "metric tonnes of global material extraction in 2024",
+        "value_type": "global_material_flow_total"
+      },
+      "measures": {
+        "global_material_extraction": {"value": 106.6, "unit": "billion tonnes in 2024, up from 30 billion tonnes in 1970", "value_type": "reported_global_total"},
+        "per_capita_material_demand": {"value": 13.2, "unit": "tonnes per person in 2024, up from 8.4 tonnes in 1970", "value_type": "reported_global_average"},
+        "high_income_vs_low_income_resource_use": {"value": 6, "unit": "times: material consumption rate in high-income countries compared with low-income countries", "value_type": "reported_group_ratio"},
+        "built_environment_mobility_food_energy_share": {"value": 90, "unit": "percent approximate share of global material demand attributed collectively to built environment, mobility, food, and energy", "value_type": "reported_sector_share"},
+        "asia_pacific_consumption_share": {"value": 60, "unit": "percent approximate share of global material consumption attributed to Asia and the Pacific by 2017", "value_type": "reported_regional_share"}
+      },
+      "method": "International Resource Panel assessment of material extraction, domestic material consumption, material footprints, trade, sectoral drivers, productivity, waste, emissions, and inequality across historical global data.",
+      "uncertainty": "Material extraction, consumption, and footprint measures capture different stages and responsibility allocations; regional shares and income-group ratios should not be read as household consumption or direct causal climate impacts. Historical estimates depend on national accounts, trade data, and modeling assumptions.",
+      "subgroup": "High-, upper-middle-, lower-middle-, and low-income countries; regions, sectors, producers, consumers, infrastructure systems, and populations exposed to resource extraction and environmental impacts.",
+      "counterinterpretation": "Rising material use has accompanied poverty reduction and infrastructure build-out. Higher resource use does not automatically imply wasteful consumption, and efficiency or circularity can alter the link between material demand, welfare, and environmental pressure.",
+      "source_url": "https://www.unep.org/index.php/resources/Global-Resource-Outlook-2024",
+      "retrieval_hash": "sha256:976abd73bc2cc5156dfc62546ff8073a3ce4a6e7ec8f8b95c8257943a42befc1",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2060 scenarios in Global Resources Outlook 2024",
+      "denominator": {
+        "value": 100,
+        "unit": "2020 baseline index for scenario comparisons",
+        "value_type": "scenario_baseline"
+      },
+      "measures": {
+        "historical_trends_resource_extraction_2060": {"value": 160, "unit": "index relative to 2020 under the Historical Trends scenario, approximately 60% higher by 2060", "value_type": "reported_scenario_projection"},
+        "historical_trends_primary_energy_2060": {"value": 150, "unit": "index relative to 2020 under the Historical Trends scenario, approximately 50% higher by 2060", "value_type": "reported_scenario_projection"},
+        "historical_trends_food_fibre_biomass_2060": {"value": 180, "unit": "index relative to 2020 under the Historical Trends scenario, approximately 80% higher by 2060", "value_type": "reported_scenario_projection"},
+        "historical_trends_net_greenhouse_gas_emissions": {"value": 120, "unit": "index relative to 2020 under the Historical Trends scenario, more than 20% higher by 2060", "value_type": "reported_scenario_projection"},
+        "sustainability_transition_direction": {"value": "resource pressures and environmental impacts fall below current levels while global inequalities decline", "unit": "reported scenario direction", "value_type": "reported_scenario_pathway"},
+        "policy_route": {"value": "resource productivity, circularity, sustainable provisioning, financial and trade incentives, and social equity", "unit": "reported policy pathway", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UNEP/International Resource Panel scenario analysis comparing a Historical Trends pathway with a Sustainability Transition pathway across resource, energy, land, emissions, biodiversity, and inequality indicators.",
+      "uncertainty": "Scenarios are conditional pathways, not forecasts; outcomes depend on policy implementation, technology, behavior, population, income, trade, and model assumptions. The index values do not identify who bears transition costs or whether services improve for a particular community.",
+      "subgroup": "Governments, firms, households, cities, infrastructure and mobility systems, food and energy sectors, workers, communities near extraction, and populations affected by climate and pollution.",
+      "counterinterpretation": "A sustainability-transition scenario can reduce aggregate pressure without guaranteeing local justice, affordability, labor protections, or equal access. Circularity and efficiency can also generate rebound effects if total consumption continues to grow.",
+      "source_url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/44901/Global-Resource-Outlook_2024.pdf?sequence=5",
+      "retrieval_hash": "sha256:976abd73bc2cc5156dfc62546ff8073a3ce4a6e7ec8f8b95c8257943a42befc1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/news-and-stories/press-release/rich-countries-use-six-times-more-resources-generate-10-times", "claim": "UNEP summarizes the income-group resource-use and climate-impact inequality findings."},
+    {"source_url": "https://www.unep.org/news-and-stories/speech/global-resources-outlook-press-statement-unep-executive-director", "claim": "UNEP describes circularity, sustainable provisioning, and decoupling as policy routes."}
+  ],
+  "boundary": "This record adds a global resource-consumption, sectoral-demand, environmental-inequality, and transition-policy route. It does not measure household consumption, local extraction harm, causal climate effects, or the distributional incidence of a particular sustainability policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNEP Global Resources Outlook 2024 landing page, official International Resource Panel PDF, press materials, and scenario sections retrieved; historical extraction, per-capita demand, income-group ratio, sectoral share, regional shift, scenario indices, and policy caveats cross-checked against UNEP materials.",
+    "pdf_sha256": "sha256:976abd73bc2cc5156dfc62546ff8073a3ce4a6e7ec8f8b95c8257943a42befc1",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-flood-disaster-creative-destruction-government-spending-2026",
+  "title": "Federal disaster spending can change which firms survive and expand after floods",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "firm_sector_market_power", "public_systems_feedback", "housing_place_mobility", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-52 using confidential plant-level Census microdata and federally declared flood event studies",
+  "geography": "United States; plants affected by large federally declared floods, surviving and entering firms, machinery, employment, and federal disaster spending",
+  "observations": [{
+    "period": "Large federally declared floods and post-disaster recovery; paper published August 2026",
+    "denominator": {"value": 1, "unit": "plant-level event-study analysis of flood-affected U.S. firms", "value_type": "study_unit"},
+    "measures": {
+      "exit": {"value": "exits were concentrated among the least productive plants", "unit": "plant survival pattern", "value_type": "reported_comparison"},
+      "asset_reallocation": {"value": "used machines from exiting plants were acquired by higher-productivity entrants", "unit": "plant and machinery transition", "value_type": "reported_relationship"},
+      "survivor_upgrade": {"value": "surviving plants upgraded machinery as they rebuilt and experienced productivity gains", "unit": "plant recovery pattern", "value_type": "reported_relationship"},
+      "federal_spending": {"value": "federal disaster spending expanded financing access for nimble young and small firms and facilitated productive reallocation", "unit": "policy mechanism", "value_type": "reported_interpretation"},
+      "fiscal_result": {"value": "the study reports relative income gains from federal disaster assistance generating tax revenues exceeding upfront policy cost", "unit": "study-specific fiscal interpretation", "value_type": "reported_estimate"}
+    },
+    "method": "The author uses confidential plant-level Census microdata and an event-study design around large federally declared floods to trace plant exits, machinery transfers, survivor investment, productivity, financing access, and federal disaster spending.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. Plant productivity and reallocation do not establish household recovery, worker welfare, local service continuity, or that every closure was socially beneficial; the fiscal conclusion depends on the study's model and measured income effects.",
+    "subgroup": "Flood-affected plants, less productive exits, higher-productivity entrants, survivors, young and small firms, and places receiving federal disaster spending; effects may differ by industry, local labor market, ownership, household exposure, and disaster severity.",
+    "counterinterpretation": "Creative destruction can coexist with bankruptcy, lost jobs, debt, displacement, market concentration, delayed rebuilding, or public-service loss. Entrant productivity does not guarantee local hiring or shared gains, and federal financing can select some firms while leaving others behind.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-52.html",
+    "retrieval_hash": "sha256:b66894f0467863c4a4c0d04cc210d49fb8cea90c4f44c275af21f8b9ed368db2",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-52.pdf", "claim": "The official paper provides the plant-level event-study design, exit and machinery reallocation evidence, survivor productivity, financing mechanism, and fiscal interpretation.", "status": "official-paper-context"}],
+  "boundary": "This record adds a disaster-to-firm-reallocation and public-finance pathway. It does not establish household recovery, worker welfare, equal rebuilding, local service continuity, or that creative destruction is beneficial for every affected community.",
+  "retrieval_hash": "sha256:b66894f0467863c4a4c0d04cc210d49fb8cea90c4f44c275af21f8b9ed368db2"
+}

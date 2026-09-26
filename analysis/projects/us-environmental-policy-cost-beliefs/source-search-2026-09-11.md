@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; policy beliefs and a political-choice model are described, actual household bills and environmental results remain open
+**Status:** bounded pass completed; policy beliefs, an information effect, and a political-choice model are described, actual household bills and environmental results remain open
 
 ## Working question
 
@@ -25,6 +25,9 @@ policy tool
 ```
 
 The source supports a difference in cost beliefs and a model of policy choice. It does not establish the full household result.
+
+The completed finding is [People can support strong environmental goals while
+rejecting a policy they think will raise their bills](findings/us-environmental-policy-cost-beliefs-001.md).
 
 ## Counterpoint to keep visible
 

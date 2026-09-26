@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-refund-cashing-reissue-funnel-2024",
+  "title": "FTC refund programs reveal a cashing and reissue funnel between formal remedy and usable payment",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Federal Trade Commission 2024 Annual Report on Refunds to Consumers; case-level refund distributions and administrative funnel",
+  "geography": "United States FTC consumer-refund programs, with international and electronic payments retained as separate report categories",
+  "observations": [
+    {
+      "period": "Calendar year 2024; first distributions in 33 FTC cases",
+      "denominator": {"value": 4350411, "unit": "eligible consumers in 2024 first-distribution case table", "value_type": "reported_eligible_population"},
+      "measures": {
+        "first_distribution_amount": {"value": 314837561.91, "unit": "US dollars sent in first distributions", "value_type": "reported_amount"},
+        "consumers_sent_payment": {"value": 4350411, "unit": "consumers sent a payment in the first-distribution table", "value_type": "reported_count"},
+        "consumers_cashed_payment": {"value": 2794012, "unit": "consumers who cashed a payment to date in the first-distribution table", "value_type": "reported_count"},
+        "cashing_rate": {"value": 64.2, "unit": "percent of consumers in the first-distribution table who cashed a payment to date", "value_type": "reported_share"},
+        "overall_program_cashing_context": {"value": 59, "unit": "percent of eligible consumers reported by FTC as having cashed their payment as of December 31, 2024 across the direct-payment cases described in the report", "value_type": "reported_share"}
+      },
+      "method": "Extraction from the FTC annual report's first-distribution table and narrative. The table's 64.2% is kept distinct from the report's broader 59% narrative estimate because their denominators and scopes are not identical.",
+      "uncertainty": "Cashing is an aggregate payment-status endpoint, not proof of adequate compensation, correction of the underlying harm, debt reduction, or durable household recovery. Case timing, payment channel, contact quality, and eligibility definitions vary.",
+      "subgroup": "Consumers eligible for FTC first-distribution programs in the report; cases are not pooled into one harm type or household population.",
+      "counterinterpretation": "A payment can be cashed while remaining too small, delayed, or unrelated to the consumer's continuing loss; an uncashed payment can reflect address, channel, timing, or administrative friction rather than rejection of the remedy.",
+      "source_url": "https://search.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "retrieval_hash": "sha256:14cb059063eda15e5de03cb651a340296a9a20ae2ac4aa31b2c1a342e67fea84",
+      "status": "reported"
+    },
+    {
+      "period": "Calendar year 2024; closed FTC refund programs",
+      "denominator": {"value": 1770214, "unit": "consumers sent a payment across 25 programs closed in 2024", "value_type": "reported_population"},
+      "measures": {
+        "closed_programs": {"value": 25, "unit": "FTC refund programs closed in 2024", "value_type": "reported_count"},
+        "funds_returned": {"value": 148337472.49, "unit": "US dollars returned to consumers in closed programs", "value_type": "reported_amount"},
+        "consumers_cashed_at_least_one": {"value": 1162743, "unit": "consumers who cashed at least one payment", "value_type": "reported_count"},
+        "closed_program_cashing_rate": {"value": 65.7, "unit": "percent of consumers sent a payment who cashed at least one", "value_type": "reported_share"},
+        "average_return_per_person": {"value": 127.58, "unit": "US dollars average returned per person in closed programs", "value_type": "reported_average"},
+        "average_administrative_cost_per_person": {"value": 5.79, "unit": "US dollars average administrative cost per person in closed programs", "value_type": "reported_average"}
+      },
+      "method": "FTC report table of cases closed in 2024; returned funds, administrative cost, payment sent, cashing, and leftover funds remain separate measures.",
+      "uncertainty": "Closure is an administrative endpoint and does not establish full compensation, individual adequacy, later account or service correction, trust, switching, or household security. The cases differ in harm, payment size, and elapsed time.",
+      "subgroup": "25 FTC refund programs closed in 2024; the report does not provide a common household or harm denominator.",
+      "counterinterpretation": "A program may close because additional payments are infeasible or consumers received full refunds under the program's rules; neither necessarily means the original harm or financial pressure ended.",
+      "source_url": "https://search.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "retrieval_hash": "sha256:14cb059063eda15e5de03cb651a340296a9a20ae2ac4aa31b2c1a342e67fea84",
+      "status": "reported"
+    },
+    {
+      "period": "2024; Amazon Flex reissue using Zelle after prior payment channel",
+      "denominator": {"value": 130952, "unit": "Amazon Flex drivers reported by FTC as having received full compensation by December 31, 2024", "value_type": "reported_recipient_population"},
+      "measures": {
+        "successful_zelle_payments": {"value": 2806, "unit": "successful additional payments to drivers", "value_type": "reported_count"},
+        "participation_before_reissue": {"value": 90.3, "unit": "percent of eligible drivers participating before Zelle reissue", "value_type": "reported_share"},
+        "participation_after_reissue": {"value": 92.3, "unit": "percent of eligible drivers participating after Zelle reissue", "value_type": "reported_share"},
+        "full_compensation_amount": {"value": 58500000, "unit": "US dollars; more than, for drivers reported as fully compensated", "value_type": "reported_amount"},
+        "payment_channel_change": {"value": "Zelle used to reach additional drivers after uncashed checks went void", "unit": "reported reissue mechanism", "value_type": "reported_process"}
+      },
+      "method": "FTC report's named case example; it links an uncashed or voided-check route to a changed payment channel and aggregate participation increase. Driver-level reason, adequacy, continued work, and household outcome are not published.",
+      "uncertainty": "The report does not show which individual drivers received the Zelle payment, why others remained outside participation, whether full compensation restored lost income, or whether drivers continued, switched, or exited platform work.",
+      "subgroup": "Amazon Flex drivers in the FTC 2021 settlement refund program; this is a named case example and is not pooled with the 2024 first-distribution table.",
+      "counterinterpretation": "A payment-channel change can improve administrative reach without proving that the underlying employment or platform harm was corrected or that the recipient considered the remedy adequate.",
+      "source_url": "https://search.ftc.gov/system/files/ftc_gov/pdf/ftc-refunds-consumers-2024.pdf",
+      "retrieval_hash": "sha256:14cb059063eda15e5de03cb651a340296a9a20ae2ac4aa31b2c1a342e67fea84",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-ftc-amazon-flex-driver-tip-refunds-2026.json", "claim": "The existing Amazon Flex record supplies a separate current reissue and worker-remedy layer; this annual report provides the earlier named funnel context and aggregate participation change.", "status": "follow-on-comparator"},
+    {"source_url": "https://www.ftc.gov/enforcement/refunds", "claim": "The FTC active refund-program page supplies a current program-status route that changes over time and is not pooled with the 2024 closed-program statistics.", "status": "official-current-context"}
+  ],
+  "boundary": "This record establishes a multi-case administrative funnel from eligibility and payment through cashing, reissue, additional distribution, and closure. It does not establish individual receipt for every eligible consumer, remedy adequacy, correction of the underlying harm, continued work or service use, trust, switching, exit, or durable household recovery.",
+  "reproduction_audit": {"retrieval_hash_scope": "FTC annual report PDF retrieved and retained temporarily for extraction", "retrieval_hash": "sha256:14cb059063eda15e5de03cb651a340296a9a20ae2ac4aa31b2c1a342e67fea84", "checked": "2026-09-23"}
+}

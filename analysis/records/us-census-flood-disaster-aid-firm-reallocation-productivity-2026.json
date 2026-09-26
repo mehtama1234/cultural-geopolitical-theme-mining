@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-flood-disaster-aid-firm-reallocation-productivity-2026",
+  "title": "Federal disaster finance can change which firms and machines survive a flood",
+  "theme_ids": ["cost", "work", "time", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "housing_place_mobility", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "CES-26-52 event-study of large federally declared floods using Census ASM, LBD, MOPS, credit, and county-income data",
+  "geography": "United States; flood-affected counties and manufacturing plants, with additional non-tradable-sector and county-income analyses, 1977-2017 window",
+  "observations": [
+    {
+      "period": "Large federally declared floods observed in 1977-2017; paper published August 2026",
+      "denominator": {"value": 1, "unit": "study-defined manufacturing plants, entrants, survivors, counties, and flood events; estimates use separate event-study universes", "value_type": "study_defined_multiple_universes"},
+      "measures": {
+        "plant_exit": {"value": "The probability that a plant shut down within two years rose by 3.6 percentage points after flooding, more than a 30% increase over the pre-flood baseline; exits were concentrated among the least productive plants", "unit": "plant exit probability", "value_type": "reported_estimate"},
+        "survivor_productivity": {"value": "Surviving plants' productivity reached more than 11% above the pre-flood baseline by the sixth year after flooding", "unit": "revenue-based total factor productivity", "value_type": "reported_estimate"},
+        "entrant_productivity": {"value": "Post-flood entrants had about 14% higher productivity than pre-flood entrants", "unit": "entrant plant productivity comparison", "value_type": "reported_comparison"},
+        "credit_channel": {"value": "Bank loans increased by about 3.1% after declared floods, particularly in the smallest loan categories, with evidence of private-credit crowd-in for young and small firms", "unit": "business lending change", "value_type": "reported_estimate"},
+        "counterfactual_flood": {"value": "After severe non-declared floods, aggregate TFP declined by about 0.73% and exits rose without the same productivity selection", "unit": "aggregate manufacturing total factor productivity", "value_type": "reported_comparison"},
+        "income_recovery": {"value": "Per-capita income declined about 0.9% after large non-declared floods but rose suggestively about 0.7% after declared disasters", "unit": "county per-capita income change", "value_type": "reported_comparison"}
+      },
+      "method": "Event-study comparison of plant, industry, and county outcomes before and after large floods, contrasting federally declared floods with severe non-declared floods and denied declaration requests. The study uses Census Annual Survey of Manufactures output, productivity, capital, and investment data; Longitudinal Business Database entry, exit, employment, and payroll histories; Management and Organizational Practices Survey evidence; business credit; and county income. Frequently flooded coastal regions are excluded to focus on infrequent inland events.",
+      "uncertainty": "The identification relies on plausibly exogenous flood timing and comparison groups, but disaster declarations, financing, plant survival, and local recovery are complex. Manufacturing is the cleanest setting because it is tradable and less tied to local demand; non-tradable results and county-income recovery do not establish every household pathway. Revenue-based TFP, plant exit, investment, and income do not directly measure worker welfare, displacement, health, housing, or community meaning. The fiscal return calculation is model-based and depends on estimated income and tax channels.",
+      "subgroup": "Least versus more productive plants, young and small versus older and larger firms, survivors versus exits, entrants versus incumbents, manufacturing versus non-tradable sectors, declared versus non-declared or denied-request floods, and affected counties; coastal high-frequency disaster areas are excluded.",
+      "counterinterpretation": "Post-flood productivity gains can reflect selective exit, capital reallocation, reconstruction, demand or migration changes, reporting and measurement choices, or survivor composition rather than every firm becoming more capable. Federal assistance may crowd in private credit in this setting but could have different effects where relocation, repeated flooding, labor shortages, or household displacement dominate. A higher county income estimate is not proof that every resident recovered.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-52.html",
+      "retrieval_hash": "sha256:d902bdaa098d4781981c02be8e892c0d125ef48669d7d3899eb6e74bfcb468e1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a disaster-shock-to-firm-reallocation and public-finance channel. It does not establish universal disaster recovery, household welfare, worker continuity, relocation, health, political trust, or that federal assistance is always fiscally self-financing."
+}

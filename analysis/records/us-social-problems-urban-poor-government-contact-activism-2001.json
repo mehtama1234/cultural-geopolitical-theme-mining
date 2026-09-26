@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-social-problems-urban-poor-government-contact-activism-2001",
+  "title": "Among urban poor respondents, hardship and formative government contact could coincide with political activism",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status"],
+  "source_unit": "462 low-income men and women in one of the poorest congressional districts in the United States",
+  "geography": "United States; one poor urban congressional district",
+  "observations": [
+    {
+      "period": "Study survey; published in Social Problems 48(3), 2001",
+      "denominator": {"value": 462, "unit": "low-income men and women surveyed in one poor congressional district", "value_type": "reported_survey_sample"},
+      "measures": {
+        "material_resources_and_activism": {"value": "material resources and demographic attributes associated with political activism", "unit": "reported political-activism outcome", "value_type": "reported_association"},
+        "severe_hardship_and_participation": {"value": "severe economic hardship associated with greater willingness to participate in the political system", "unit": "reported participation/willingness outcome", "value_type": "reported_association"},
+        "government_contact_and_participation": {"value": "formative contact with government agents associated with greater willingness to participate", "unit": "reported government-contact and participation relationship", "value_type": "reported_association"}
+      },
+      "method": "Survey analysis of low-income residents combining economic hardship, material resources, political attitudes, interactions with government agents, and political activism; the study develops a contextual account of how citizens encounter the political system.",
+      "uncertainty": "The source is observational and geographically narrow. The abstract does not provide a causal design, complete coefficient table, dated hardship episode, named agency route, or validated later vote. Contact may reflect prior activism, need, institutional exposure, or selection into government interactions.",
+      "subgroup": "Low-income men and women in one of the poorest congressional districts; not a national representative sample.",
+      "counterinterpretation": "Hardship and government contact may mobilize grievance or efficacy in some contexts rather than reduce action; the direction can differ from time/resource scarcity findings when the outcome is willingness or activism rather than administrative contact or turnout.",
+      "source_url": "https://academic.oup.com/socpro/article-abstract/48/3/362/2276162",
+      "retrieval_hash": "sha256:b9687107169b82b9e92db59b42e1c27a1bce76f4470ca41fbbb1ceccff56cc0f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1525/sp.2001.48.3.362", "claim": "Published Social Problems article identifier", "status": "official-paper-identifier"}
+  ],
+  "boundary": "This record adds an observational hardship-and-government-contact-to-activism surface among low-income urban respondents. It does not establish causality, national prevalence, a specific agency remedy, generalized trust change, validated turnout, or a universal hardship-to-mobilization effect."
+}

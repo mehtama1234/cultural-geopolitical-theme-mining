@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-trust-public-institutions-2026-agency-socioeconomic-ai",
+  "title": "Institutional trust tracks perceived voice, socioeconomic security, partisan alignment, and the governance of public-sector AI",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "infrastructure_technology_dependency", "care_health_reproduction"],
+  "source_unit": "OECD, OECD Survey on Drivers of Trust in Public Institutions 2026 Results: Navigating Rising Expectations and New Horizons",
+  "geography": "OECD and participating partner countries in the 2025 Trust Survey and comparative institutional-trust analysis",
+  "observations": [
+    {
+      "period": "2021-2025; partisan trust gaps in public institutions",
+      "denominator": {"value": 18, "unit": "OECD countries with comparable trust information across the 2021, 2023, and 2025 survey waves", "value_type": "multi_wave_trust_frame"},
+      "measures": {
+        "civil_service_gap": {"value": 15, "unit": "percentage-point average partisan trust gap in the national civil service in 2025", "value_type": "reported_gap"},
+        "gap_baseline": {"value": 10, "unit": "percentage-point average partisan trust gap in 2021", "value_type": "reported_baseline"},
+        "non_supporter_trust": {"value": 42, "unit": "percent trust among respondents who did not vote for the government in 2025, down from 47 percent in 2021", "value_type": "reported_share"}
+      },
+      "method": "OECD comparative analysis of repeated Trust Survey waves and political alignment, trust, and civil-service measures.",
+      "uncertainty": "Partisan trust gaps are descriptive associations and do not identify whether government performance, political messaging, identity, media, or policy disagreement caused the divergence.",
+      "subgroup": "Government supporters and non-supporters, people with different political agency, socioeconomic status, education, age, gender, and perceived discrimination.",
+      "counterinterpretation": "Some partisan differentiation can reflect legitimate disagreement or scrutiny rather than institutional failure; a common trust level is not automatically desirable.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/socioeconomic-conditions-political-agency-and-trust_bb385ad9.html",
+      "retrieval_hash": "sha256:b3e9545c8a97c9808ae899c4caa154796cd322bb78243fb92652a68c7658db00",
+      "status": "reported"
+    },
+    {
+      "period": "2025; socioeconomic status, discrimination, and trust",
+      "denominator": {"value": 1, "unit": "OECD participating-country comparison of national-government trust groups", "value_type": "socioeconomic_trust_frame"},
+      "measures": {
+        "discrimination_group_trust": {"value": 31, "unit": "percent with high or moderately high trust among people identifying with a discriminated-against group", "value_type": "reported_share"},
+        "non_discrimination_group_trust": {"value": 45, "unit": "percent with high or moderately high trust among people not identifying with such a group", "value_type": "reported_share"},
+        "trust_gap": {"value": 14, "unit": "percentage-point trust gap associated with perceived discrimination", "value_type": "reported_gap"}
+      },
+      "method": "OECD cross-country comparison of national-government trust by perceived discrimination and socioeconomic characteristics.",
+      "uncertainty": "Group differences are not causal estimates and may reflect overlapping income, education, political, institutional, and lived-experience factors.",
+      "subgroup": "People identifying with discriminated-against groups, people with financial concerns, lower- and higher-education groups, and marginalized populations.",
+      "counterinterpretation": "Trust gaps can narrow when institutions improve access, representation, impartiality, and material security, but the report does not establish one universal remedy.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/socioeconomic-conditions-political-agency-and-trust_bb385ad9.html",
+      "retrieval_hash": "sha256:b3e9545c8a97c9808ae899c4caa154796cd322bb78243fb92652a68c7658db00",
+      "status": "reported"
+    },
+    {
+      "period": "2025; interpersonal trust as an institutional-trust baseline",
+      "denominator": {"value": 1, "unit": "OECD comparison of people with high versus low interpersonal trust", "value_type": "interpersonal_institutional_trust_frame"},
+      "measures": {
+        "police_trust_high_interpersonal": {"value": 75, "unit": "percent trusting police among people with high interpersonal trust", "value_type": "reported_share"},
+        "police_trust_low_interpersonal": {"value": 38, "unit": "percent trusting police among people with low interpersonal trust", "value_type": "reported_share"},
+        "government_trust_high_interpersonal": {"value": 54, "unit": "percent trusting national government among people with high interpersonal trust", "value_type": "reported_share"},
+        "government_trust_low_interpersonal": {"value": 14, "unit": "percent trusting national government among people with low interpersonal trust", "value_type": "reported_share"}
+      },
+      "method": "OECD comparison of interpersonal trust and trust in public institutions across participating countries.",
+      "uncertainty": "Interpersonal and institutional trust are measured together in survey data; the gradient may reflect shared dispositions, social conditions, institutional experience, or reverse influence.",
+      "subgroup": "People with high or low interpersonal trust, users of public services, and groups with different experiences of government and police.",
+      "counterinterpretation": "Low interpersonal trust may be a rational response to social or institutional conditions rather than a stable individual trait.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/socioeconomic-conditions-political-agency-and-trust_bb385ad9.html",
+      "retrieval_hash": "sha256:b3e9545c8a97c9808ae899c4caa154796cd322bb78243fb92652a68c7658db00",
+      "status": "reported"
+    },
+    {
+      "period": "2026; political agency, public-sector AI, and institutional legitimacy",
+      "denominator": {"value": 1, "unit": "OECD trust-policy framework covering participation and public-sector AI", "value_type": "agency_governance_frame"},
+      "measures": {
+        "agency_trust_link": {"value": "the share trusting national government is more than three times as high among people who feel people like them have a say in government decisions", "unit": "reported association", "value_type": "reported_mechanism"},
+        "ai_attitude": {"value": "most people remain sceptical of AI deployed in the public sector, while views vary across population groups", "unit": "reported public-governance pattern", "value_type": "reported_pattern"},
+        "policy_lever": {"value": "responsiveness, participation, transparency, and governance choices are identified as levers for strengthening trust", "unit": "reported policy direction", "value_type": "reported_policy_set"}
+      },
+      "method": "OECD synthesis of trust drivers, political-agency measures, day-to-day institutional interactions, and public-sector AI governance.",
+      "uncertainty": "The association between perceived voice and trust does not establish a causal effect; attitudes toward public-sector AI may change with use, performance, safeguards, and political context.",
+      "subgroup": "People with different perceived political voice, socioeconomic position, trust levels, and exposure to automated public services.",
+      "counterinterpretation": "Greater participation does not guarantee agreement, and public-sector AI can improve consistency or access when human oversight, explanation, and recourse are credible.",
+      "source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/socioeconomic-conditions-political-agency-and-trust_bb385ad9.html",
+      "retrieval_hash": "sha256:b3e9545c8a97c9808ae899c4caa154796cd322bb78243fb92652a68c7658db00",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/9eb63fec-en", "claim": "Canonical OECD publication record for the 2026 Survey on Drivers of Trust in Public Institutions."},
+    {"source_url": "https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report/", "claim": "Full OECD report covering trust over time, public-service interactions, complex policy decisions, public-sector AI, political voice, and legislative trust."}
+  ],
+  "boundary": "This record adds a publication-level socioeconomic-conditions-to-political-agency-to-institutional-trust route, including public-sector AI legitimacy. It is not a respondent-level survey analysis in this atlas, a causal trust model, an individual political-behavior panel, or a universal measure of institutional quality.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official OECD 2026 report chapter and full-report navigation were reviewed; partisan trust gaps, socioeconomic and discrimination gaps, interpersonal trust gradients, political agency, and public-sector AI claims were cross-checked.",
+    "source_url_sha256": "sha256:b3e9545c8a97c9808ae899c4caa154796cd322bb78243fb92652a68c7658db00",
+    "checked": "2026-09-26"
+  }
+}

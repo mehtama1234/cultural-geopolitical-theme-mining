@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-women-time-use-social-inequality-2026",
+  "title": "Time poverty and gendered care allocation remain hidden constraints on work, mobility, leisure, and well-being",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "UN Women Data Hub, Time Use and Social Inequality: A Gendered Perspective",
+  "geography": "Ten countries covered by harmonized time-use survey analysis, with comparisons by gender, age, education, employment, and household composition",
+  "observations": [
+    {
+      "period": "2026; harmonized time-use comparison",
+      "denominator": {"value": 10, "unit": "countries analyzed using harmonized time-use survey microdata", "value_type": "multi_country_time_use_frame"},
+      "measures": {
+        "activity_set": {"value": "paid work, unpaid domestic and care activities, leisure, mobility, and other daily tasks", "unit": "reported time-allocation domains", "value_type": "reported_measure_set"},
+        "inequality_frame": {"value": "everyday time allocation continues to shape social and economic inequality", "unit": "reported analytical finding", "value_type": "reported_mechanism"},
+        "policy_use": {"value": "harmonized indicators can inform gender-responsive time policies and more equitable sharing of responsibilities", "unit": "reported policy application", "value_type": "reported_policy_direction"}
+      },
+      "method": "UN Women comparative analysis of harmonized time-use survey microdata and a companion technical framework.",
+      "uncertainty": "The report covers ten countries and harmonized survey measures; cross-country comparability remains shaped by fieldwork, activity coding, recall or diary design, and non-covered populations.",
+      "subgroup": "Women and men by age, education, employment status, household composition, mobility, and presence of children.",
+      "counterinterpretation": "Time allocation is constrained by institutions and household needs but also reflects preferences, norms, bargaining, available services, and changing life stages.",
+      "source_url": "https://data.unwomen.org/publications/time-use-and-social-inequality-gendered-perspective",
+      "retrieval_hash": "sha256:c8f576b00af9eea1b7ee1a8267cd372b4c22edfff74b960c23a9a5e3301498d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; time poverty and gender inequality",
+      "denominator": {"value": 10, "unit": "countries in the UN Women time-poverty comparison", "value_type": "time_poverty_frame"},
+      "measures": {
+        "time_poverty": {"value": "time poverty emerges as a critical and measurable dimension of gender inequality", "unit": "reported analytical finding", "value_type": "reported_pattern"},
+        "hidden_constraint": {"value": "multitasking and mobility patterns reveal constraints that conventional labour statistics can miss", "unit": "reported measurement mechanism", "value_type": "reported_boundary"},
+        "life_course": {"value": "time pressures vary across age, education, employment, and household-composition groups", "unit": "reported heterogeneity frame", "value_type": "reported_pattern"}
+      },
+      "method": "UN Women application of time-poverty, multitasking, mobility, and well-being indicators to harmonized time-use data.",
+      "uncertainty": "Time-poverty thresholds and indicator construction are analytical choices; measured scarcity does not alone identify which policy or household change would relieve it.",
+      "subgroup": "People combining paid work with unpaid care, women facing multiple simultaneous tasks, parents, caregivers, students, and people with constrained mobility.",
+      "counterinterpretation": "Multitasking can sometimes be adaptive or chosen, and mobility can increase opportunity; the same pattern can have different welfare meanings by context.",
+      "source_url": "https://data.unwomen.org/publications/time-use-and-social-inequality-gendered-perspective",
+      "retrieval_hash": "sha256:c8f576b00af9eea1b7ee1a8267cd372b4c22edfff74b960c23a9a5e3301498d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; household composition and care continuity",
+      "denominator": {"value": 10, "unit": "countries with harmonized household-composition and time-use comparisons", "value_type": "household_time_frame"},
+      "measures": {
+        "children_link": {"value": "living with children is identified as a key driver of time inequality", "unit": "reported household-composition mechanism", "value_type": "reported_mechanism"},
+        "care_tradeoff": {"value": "unpaid domestic and care activities compete with paid work, leisure, rest, mobility, and social participation", "unit": "reported time-allocation tradeoff", "value_type": "reported_mechanism"},
+        "policy_endpoint": {"value": "existing time-use statistics can support care, leave, service, and responsibility-sharing policy design", "unit": "reported policy application", "value_type": "reported_policy_direction"}
+      },
+      "method": "UN Women comparison of time allocation by household composition and daily activity domains.",
+      "uncertainty": "Household composition is not a complete measure of caregiving intensity, care quality, kin support, service availability, or intra-household bargaining.",
+      "subgroup": "Parents, single-adult households, multigenerational households, children, adult dependents, and people providing unpaid domestic support.",
+      "counterinterpretation": "Living with children can also provide support, meaning, shared labor, and social connection; burden depends on resources and care infrastructure.",
+      "source_url": "https://data.unwomen.org/publications/time-use-and-social-inequality-gendered-perspective",
+      "retrieval_hash": "sha256:c8f576b00af9eea1b7ee1a8267cd372b4c22edfff74b960c23a9a5e3301498d8",
+      "status": "reported"
+    },
+    {
+      "period": "2026; measurement and policy capacity for time inequality",
+      "denominator": {"value": 1, "unit": "UN Women harmonized time-use indicator framework", "value_type": "measurement_framework"},
+      "measures": {
+        "indicator_set": {"value": "time poverty, multitasking, gendered task segregation, mobility, and well-being", "unit": "reported indicator set", "value_type": "reported_method"},
+        "comparability": {"value": "harmonized measures extend the analytical value of existing time-use data", "unit": "reported statistical application", "value_type": "reported_application"},
+        "implementation": {"value": "companion guidance provides calculation scripts that countries can apply to national time-use data", "unit": "reported capacity-building route", "value_type": "reported_policy_application"}
+      },
+      "method": "UN Women methodological guidance for producing comparable, policy-relevant time-use indicators.",
+      "uncertainty": "Better indicators improve visibility but do not guarantee services, redistribution, or policy implementation; missing countries and non-covered activities remain important limits.",
+      "subgroup": "National statistical offices, policy designers, donors, care organizations, researchers, and communities whose unpaid work is undercounted.",
+      "counterinterpretation": "Standardization can improve comparison while still requiring local interpretation of norms, care systems, work schedules, and well-being.",
+      "source_url": "https://data.unwomen.org/publications/time-use-and-social-inequality-gendered-perspective",
+      "retrieval_hash": "sha256:c8f576b00af9eea1b7ee1a8267cd372b4c22edfff74b960c23a9a5e3301498d8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://data.unwomen.org/publications/harmonized-measures-and-practical-guidance-towards-increased-comparability-time-use", "claim": "UN Women companion guidance on harmonized time-use measures and comparability."},
+    {"source_url": "https://www.ilo.org/topics-and-sectors/care-economy", "claim": "ILO care-economy framework provides complementary context on paid and unpaid care work, care jobs, and policy response."}
+  ],
+  "boundary": "This record adds a cross-country time-use and social-reproduction route linking time poverty, unpaid care, multitasking, mobility, household composition, paid work, leisure, and policy capacity. It reports publication-level findings from harmonized survey analysis; it is not a respondent-level microdata analysis, causal household study, or individual time diary release in this atlas.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UN Women 2026 publication page and companion guidance were reviewed; ten-country scope, time-poverty, multitasking, mobility, household-composition, and measurement claims were cross-checked.",
+    "source_url_sha256": "sha256:c8f576b00af9eea1b7ee1a8267cd372b4c22edfff74b960c23a9a5e3301498d8",
+    "checked": "2026-09-26"
+  }
+}

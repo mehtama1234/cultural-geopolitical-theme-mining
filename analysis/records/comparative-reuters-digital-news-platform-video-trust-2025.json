@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-reuters-digital-news-platform-video-trust-2025",
+  "title": "News consumption is moving toward social video and personality-led platforms while trust and verification remain contested",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Reuters Institute for the Study of Journalism, Digital News Report 2025",
+  "geography": "48 markets across six continents, with specific United States and cross-market comparisons",
+  "observations": [
+    {
+      "period": "2020-2025; cross-market online news use",
+      "denominator": {
+        "value": 48,
+        "unit": "markets covered by the Digital News Report 2025 online-news-consumer study",
+        "value_type": "multi_market_comparative_frame"
+      },
+      "measures": {
+        "social_video_news": {"value": 65, "unit": "percent of the global sample consuming social-video news in 2025, up from 52% in 2020", "value_type": "reported_trend_share"},
+        "any_video_news": {"value": 75, "unit": "percent consuming any online news video in 2025, up from 67% in 2020", "value_type": "reported_trend_share"},
+        "platform_fragmentation": {"value": "six online networks now reach more than 10% weekly with news, compared with two a decade ago", "unit": "reported platform-reach pattern", "value_type": "reported_trend"}
+      },
+      "method": "Reuters Institute comparative survey analysis across 48 markets, with longitudinal comparisons of digital news use and platform reach; the record uses published aggregate estimates rather than respondent-level files.",
+      "uncertainty": "Online samples are not nationally representative in every market and platform-use questions measure reported exposure, not attention quality, comprehension, persuasion, or causal political behavior. Platform algorithms and definitions change over time.",
+      "subgroup": "Online news users by market, age, platform, format preference, political orientation, and relationship to legacy media and creators.",
+      "counterinterpretation": "Video and social platforms can widen access, support local or niche voices, and complement rather than replace trusted publishers; increased reach does not automatically mean lower-quality information.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/dnr-executive-summary",
+      "retrieval_hash": "sha256:6f5b1bb64283364eaf618097004e7e971d744d5a4744e38ebfc6bf2823b2f177",
+      "status": "reported"
+    },
+    {
+      "period": "2025; United States news-source and personality ecosystem",
+      "denominator": {
+        "value": 1,
+        "unit": "United States online-news-consumer comparison frame in the Digital News Report",
+        "value_type": "country_comparative_frame"
+      },
+      "measures": {
+        "social_video_news_us": {"value": 54, "unit": "percent accessing news via social media and video networks in the United States, versus 50% TV news and 48% news websites/apps", "value_type": "reported_country_share"},
+        "young_adult_social_video_main_source": {"value": "54% of 18-24s and 50% of 25-34s in the US say social/video networks are their main news source", "unit": "reported age-group pattern", "value_type": "reported_subgroup_share"},
+        "creator_exposure": {"value": 22, "unit": "percent of the US sample encountering Joe Rogan discussing or commenting on news in the prior week", "value_type": "reported_country_share"}
+      },
+      "method": "Reuters Institute country analysis using the 2025 comparative online-news-consumer survey and platform/source questions.",
+      "uncertainty": "The figures describe reported exposure and main-source designation, not endorsement, persuasion, or voting. The US field period and political context may affect estimates, and named-person exposure does not establish influence.",
+      "subgroup": "US online news users by age, political orientation, gender, trust in mainstream media, and platform or personality exposure.",
+      "counterinterpretation": "Personality-led media may reach audiences traditional outlets do not, and users can combine creators with trusted news brands, official sources, and fact-checkers rather than substituting one for another.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/dnr-executive-summary",
+      "retrieval_hash": "sha256:6f5b1bb64283364eaf618097004e7e971d744d5a4744e38ebfc6bf2823b2f177",
+      "status": "reported"
+    },
+    {
+      "period": "2025; online news trust, verification, and AI mediation",
+      "denominator": {
+        "value": 48,
+        "unit": "markets in the Digital News Report comparative trust and misinformation frame",
+        "value_type": "multi_market_comparative_frame"
+      },
+      "measures": {
+        "concern_real_vs_false": {"value": 58, "unit": "percent expressing concern about telling what is true from false online news", "value_type": "reported_global_share"},
+        "weekly_ai_news_use": {"value": 7, "unit": "percent using AI chatbots for news in a typical week overall, rising to 15% among under-25s", "value_type": "reported_global_share"},
+        "overall_news_trust": {"value": 40, "unit": "percent saying they trust most news most of the time; stable for the third consecutive year", "value_type": "reported_global_share"},
+        "verification_routes": {"value": "trusted news outlets 38%, official sources 35%, fact-checkers 25%, and social media 14% as first routes to check suspected false information", "unit": "reported verification-route shares", "value_type": "reported_comparison_set"}
+      },
+      "method": "Reuters Institute aggregate cross-market survey analysis of trust, misinformation concerns, verification behavior, AI news use, and attitudes toward platform moderation and personalization.",
+      "uncertainty": "Concern about misinformation may partly reflect disagreement or perceived bias rather than objectively false content. Reported verification intentions are not verified behavior, and trust is not accuracy or institutional legitimacy.",
+      "subgroup": "Online news users by age, market, political orientation, news-literacy training, platform use, and trust in news, official institutions, influencers, and AI systems.",
+      "counterinterpretation": "Stable aggregate trust can coexist with severe country and group differences; AI summaries may improve accessibility while reducing transparency or perceived accuracy, and social verification can supplement rather than displace formal sources.",
+      "source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/dnr-executive-summary",
+      "retrieval_hash": "sha256:6f5b1bb64283364eaf618097004e7e971d744d5a4744e38ebfc6bf2823b2f177",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reutersinstitute.politics.ox.ac.uk/news/digital-news-report-2025-was-published-tuesday-17-june", "claim": "Reuters Institute publication and methodology announcement for the 48-market report."},
+    {"source_url": "https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2025", "claim": "Digital News Report 2025 navigation and chapter materials."}
+  ],
+  "boundary": "This record adds a cross-market news-platform, trust, creator, and AI-mediation route. It is based on published aggregate survey estimates, not a local respondent-level analysis; it does not establish individual persuasion, voting effects, misinformation exposure, creator influence, platform causality, or institutional legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Reuters Institute executive summary and publication page were retrieved; market scope, social-video trend, US platform shares, trust, verification, AI-use, and uncertainty notes were cross-checked against the official report pages. The hash is a source-URL fingerprint for the executive-summary page.",
+    "source_url_sha256": "sha256:6f5b1bb64283364eaf618097004e7e971d744d5a4744e38ebfc6bf2823b2f177",
+    "checked": "2026-09-26"
+  }
+}

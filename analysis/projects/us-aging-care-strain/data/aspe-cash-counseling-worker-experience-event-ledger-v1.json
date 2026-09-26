@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "randomized_medicaid_consumer_direction_paid_worker_followup_record",
+  "purpose": "Bounded paid-worker episode under consumer-directed Medicaid care, showing compensation, training, satisfaction, unpaid carryover, and durability concerns without pooling worker and beneficiary outcomes.",
+  "events": [
+    {
+      "event_id": "ASPE-CASH-COUNSELING-PAID-WORKER-FOLLOWUP-2000-2003",
+      "unit": "worker",
+      "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+      "actor_initiating_change": "agency",
+      "event_date": "2002-01-01",
+      "date_precision": "study-period reference date; worker interviews and wage measures were collected around nine to ten months after beneficiary random assignment with state-specific timing",
+      "denominator": "Directly hired workers under consumer direction compared with agency workers; state and adult/child outcome universes vary",
+      "method": "ASPE/Mathematica follow-up survey comparing directly hired Cash and Counseling workers with agency workers on hours, wages, benefits, training, satisfaction, strain, and preparedness",
+      "missingness": "Worker identifiers, beneficiary linkage, exact care plan, long-run retention, replacement worker, household income, later wage path, collective voice, and exit are not retained in this compact record",
+      "condition_or_decision": "care_need",
+      "exposure": "A Medicaid beneficiary used consumer direction and hired a worker directly, often a family member or friend, rather than relying only on an agency worker",
+      "alternatives_before_action": "Agency employment, unpaid family care, another paid worker, backup care, or no-care routes were possible; individual feasible alternatives are not fully observed",
+      "immediate_burden_or_benefit": "Direct hiring created paid care work and scheduling flexibility, but many directly hired workers continued substantial unpaid care and had less formal training or benefits than agency workers",
+      "choice_or_response": "Workers accepted direct employment, provided paid and unpaid care, and reported on wages, conditions, supervision, training, and preparedness",
+      "person_or_actor_with_control": "The beneficiary was the formal employer and controlled hiring/scheduling within program rules; fiscal agents and counselors supported payroll and administrative tasks",
+      "remedy_or_institutional_response": "Consumer-directed Medicaid support created an alternative worker/payment route with fiscal counseling and payroll assistance",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "Worker interviews observe reported wages and working conditions at follow-up; individual payment completeness and timeliness are not verified in this compact record",
+      "durability_followup": "Workers reported high satisfaction but the study raises concerns about wellbeing and willingness to continue over a longer period",
+      "immediate_outcome": "Directly hired workers were generally satisfied with working conditions, supervision, and compensation; more than 40% were very satisfied with wages/fringe benefits, while many continued unpaid care",
+      "protected_outcome": "Some family or friend caregivers converted part of existing unpaid work into paid work with flexible scheduling and reported preparedness despite limited formal training",
+      "sacrificed_outcome": "Workers could receive lower benefits, less formal training, unpaid carryover, emotional/physical strain, and uncertain backup care compared with agency employment",
+      "cost_risk_transfer": "Consumer direction transfers hiring, supervision, payroll, and continuity risk toward the beneficiary-worker relationship and household",
+      "later_outcome": "The follow-up measures short-run worker experience but not retention, replacement, wage progression, injury persistence, beneficiary continuity, trust, action, or exit",
+      "meaning_and_attribution": "Worker satisfaction and reported strain are measured; broader fairness, dignity, institutional legitimacy, and collective voice are not",
+      "public_or_collective_response": "No worker organizing or political response is measured",
+      "counterexample": "Worker satisfaction with a flexible paid role can coexist with modest wages, limited benefits, unpaid care, and uncertainty about continuing",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "ASPE, Experiences of Workers Hired Under Cash and Counseling, 2005; worker and agency comparison universes are study-specific and direct-hire workers are often relatives/friends who previously provided unpaid care",
+      "source_url": "https://aspe.hhs.gov/reports/experiences-workers-hired-under-cash-counseling-findings-arkansas-new-jersey-florida-1"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "ASPE-CASH-WORKER-A-01",
+      "from": "consumer-directed Medicaid support",
+      "to": "direct hire and flexible worker-control route",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The ASPE report describes beneficiaries directly hiring and paying workers, deciding who provides care, when it occurs, and how it is delivered",
+      "status": "estimated",
+      "counterexample": "Not every treatment beneficiary received an allowance, hired a worker, or could find a worker",
+      "remaining_gap": "Take-up, worker availability, beneficiary-worker linkage, plan completion, and backup care"
+    },
+    {
+      "arrow_id": "ASPE-CASH-WORKER-A-02",
+      "from": "direct-hire care work",
+      "to": "reported worker compensation and job satisfaction",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The report finds directly hired workers generally satisfied with working conditions and compensation, with more than 40% very satisfied with wages and fringe benefits across the states",
+      "status": "estimated",
+      "counterexample": "Satisfaction can reflect payment for work previously done unpaid and may not indicate adequate wage, benefits, or household security",
+      "remaining_gap": "Individual wage adequacy, payment regularity, household dependence, and later wage path"
+    },
+    {
+      "arrow_id": "ASPE-CASH-WORKER-A-03",
+      "from": "direct-hire care work",
+      "to": "unpaid care carryover and training/strain trade-off",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The report states most directly hired workers continued substantial unpaid care; many received less formal training while generally feeling prepared, and the study identifies wellbeing concerns",
+      "status": "estimated",
+      "counterexample": "Lower formal training did not appear to compromise consumer safety in the cited health-outcome comparisons",
+      "remaining_gap": "Paid/unpaid hours, physical and emotional strain, training quality, supervision, and care quality"
+    },
+    {
+      "arrow_id": "ASPE-CASH-WORKER-A-04",
+      "from": "worker satisfaction and flexible direct-hire arrangement",
+      "to": "durable worker retention and beneficiary care continuity",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "ASPE identifies concerns about worker wellbeing and willingness to continue over a longer period, and notes that difficulty finding or keeping a worker is a primary dropout reason",
+      "status": "open",
+      "counterexample": "High short-run satisfaction does not prove long-run retention or a reliable replacement if the worker leaves",
+      "remaining_gap": "Same worker-beneficiary follow-up, retention, replacement, care interruption, later wages, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger adds the paid-worker/provider side of the Cash and Counseling system. It is not a pooled beneficiary or caregiver result and does not establish long-run worker retention, adequate pay, completed care, or household recovery.",
+  "storage_boundary": "Only published ASPE study-level worker findings are retained; no worker, beneficiary, payroll, or Medicaid microdata are stored."
+}

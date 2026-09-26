@@ -1,0 +1,72 @@
+{
+  "record_id": "hrsa-hpwo-allen-county-named-site-access-2026-09-19",
+  "checked": "2026-09-19",
+  "question": "How far can a designated primary-care shortage record be followed toward usable care for a named organization and site?",
+  "unit_boundary": "Organization/site administrative and public patient-facing records; no person-level appointment, care, or recovery outcome is claimed.",
+  "hpsa": {
+    "name": "HEALTH PARTNERS OF WESTERN OHIO",
+    "hpsa_id": "139999392B",
+    "designation_type": "Federally Qualified Health Center",
+    "status": "Designated",
+    "organization_id": "0516380",
+    "address": "329 N West St, Lima, OH 45801",
+    "county": "Allen County, OH",
+    "coordinates": {"latitude": 40.74361439, "longitude": -84.10795461},
+    "source": "analysis/projects/us-local-business-place/data/hrsa-primary-care-hpsa.csv"
+  },
+  "named_service_site": {
+    "site_name": "North Lima Community Health Center",
+    "address": "2001 N Cole St, Lima, OH 45801-2426",
+    "hrsa_telephone": "419-516-0327",
+    "organization_id": "0516380",
+    "status": "Active",
+    "hours_per_week": 72.0,
+    "location_type": "Permanent",
+    "clinic_type": "All Other Clinic Types",
+    "schedule": "Unknown",
+    "calendar": "Unknown",
+    "source": "/tmp/hrsa-health-center-sites-2026-09-19.csv",
+    "official_patient_facing_page": "https://hpwohio.org/location/north-lima-community-health-center",
+    "official_page_phone": "419-549-5982",
+    "official_page_services": ["medical", "oral health", "behavioral health", "pharmacy", "social services and outreach", "substance use treatment"],
+    "official_page_hours_display": [
+      "Monday-Friday 8:00 a.m.-8:00 p.m.",
+      "Tuesday-Friday 8:00 a.m.-5:30 p.m.",
+      "Monday-Saturday 8:00 a.m.-8:00 p.m."
+    ],
+    "official_page_hours_interpretation": "The page displays multiple overlapping hour lines without clearly labeling each service. It confirms a patient-facing schedule exists, but does not support one unambiguous medical appointment schedule.",
+    "contact_route": "HPWO's contact page says appointments are not scheduled through its general email form and directs patients to call the location or use the patient portal.",
+    "contact_route_url": "https://hpwohio.org/contact-us",
+    "phone_reconciliation": "HRSA lists 419-516-0327 for the site row, while the current HPWO site page lists 419-549-5982. The records are not reconciled here.",
+    "patient_portal": "https://www.myhealthrecord.com/Portal/SSO",
+    "patient_portal_public_observation": "The linked portal exposes sign-in fields and no public appointment slots, wait times, or new-patient availability."
+  },
+  "organization_policy": {
+    "new_patients": "Health Partners says it is always accepting new adult and pediatric patients and asks patients to call to set a first appointment.",
+    "same_day": "Health Partners says every location has a limited number of same-day appointments and asks patients to call the nearest location.",
+    "insurance": "The organization says it accepts Medicare, Medicaid, Medicaid managed care, and most commercial insurance.",
+    "affordability": "The organization says inability to pay will not result in being turned away, and describes payment plans and a sliding-fee scale.",
+    "source_url": "https://hpwohio.org/service/medical",
+    "source_scope": "Organization-level patient-facing policy; not proof that the named site has an open appointment, accepts every listed plan, or completed care for a person."
+  },
+  "stage_status": {
+    "named_shortage_or_designation": "observed",
+    "organization_link": "observed",
+    "named_active_site": "observed",
+    "listed_operating_hours": "observed",
+    "organization_level_new_patient_route": "reported",
+    "organization_level_affordability_route": "reported",
+    "site_specific_appointment_availability": "open",
+    "site_specific_wait_time": "open",
+    "site_specific_hours_clarity": "open",
+    "public_booking_route": "open",
+    "site_phone_reconciliation": "open",
+    "portal_public_booking_visibility": "open",
+    "person_insurance_acceptance": "open",
+    "completed_care": "open",
+    "continuity_or_health_recovery": "open",
+    "household_time_or_money_burden": "open",
+    "trust_action_switching_or_exit": "open"
+  },
+  "interpretation": "This advances the chain from county/organization designation to a named active service site and an official organization-level route for new patients and affordability. It does not establish usable access, completed care, adequacy, or recovery."
+}

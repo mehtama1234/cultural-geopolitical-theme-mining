@@ -1,6 +1,6 @@
 # Pew 2026 public-life engagement groups and action layer v1
 
-**Checked:** 2026-09-17  
+**Checked:** 2026-09-25
 **Source:** Pew Research Center Pew-Knight Initiative  
 **Field dates:** Cross-Sectional Engagement Survey, July 9–December 5, 2025; American Trends Panel, September 8–14, 2025  
 **Status:** current published action-structure layer; no causal participation claim
@@ -81,6 +81,6 @@ fairness, persuasion, causal trust formation, turnout effects, or the material
 conditions that make participation possible. No PDF, CSV, detailed table, or
 microdata was downloaded.
 
-**Official report:** <https://www.pewresearch.org/journalism/2026/07/16/engagement-in-public-life-is-linked-with-americans-views-of-politics-news/>
+**Official report:** <https://www.pewresearch.org/journalism/2026/07/16/how-americans-are-engaged-with-news-politics-religion-and-civic-life/>
 
 **Machine record:** [Pew public-life engagement record](../../records/us-pew-public-life-engagement-groups-2025.json)

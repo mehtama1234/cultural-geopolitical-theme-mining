@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-us-china-global-role-comparison-2026",
+  "title": "In many surveyed countries, China is now viewed more favorably or reliably than the United States",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center Spring 2026 Global Attitudes Survey comparing public views of the United States and China",
+  "geography": "36 surveyed countries; country publics' views of the U.S. and China",
+  "observations": [
+    {
+      "period": "Spring 2026 survey; 36 countries",
+      "denominator": {
+        "value": 36,
+        "unit": "countries surveyed; country-specific adult samples",
+        "value_type": "country_comparison"
+      },
+      "measures": {
+        "comparative_favorability": {
+          "value": "China is viewed more positively than the U.S. in most surveyed countries",
+          "unit": "reported country comparison",
+          "value_type": "reported_pattern"
+        },
+        "comparative_reliability": {
+          "value": "people in many middle-income countries are more likely to describe China than the U.S. as a reliable partner",
+          "unit": "reported country comparison",
+          "value_type": "reported_pattern"
+        },
+        "south_africa_example": {
+          "value": "72% say China is a reliable partner versus 46% saying the same of the U.S.; 64% say China contributes to peace and stability versus 42% for the U.S.",
+          "unit": "percent of South African adults",
+          "value_type": "reported_share_comparison"
+        },
+        "pakistan_example": {
+          "value": "84% say China is a reliable partner versus 36% for the U.S.",
+          "unit": "percent of Pakistani adults",
+          "value_type": "reported_share_comparison"
+        },
+        "philippines_counterexample": {
+          "value": "81% say the U.S. is a reliable partner versus 42% for China",
+          "unit": "percent of Philippine adults",
+          "value_type": "reported_share_comparison"
+        },
+        "behavior_and_influence": {
+          "value": "not observed",
+          "unit": "missing government decisions, alliance operations, economic switching, military cooperation, or strategic outcome linkage",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Pew cross-national survey comparing favorable views, leader confidence, reliability, contribution to peace and stability, and perceived consideration of other countries' interests for the United States and China.",
+      "uncertainty": "Country medians and paired public judgments are not measures of material influence, state capacity, dependence, alliance behavior, or future alignment. Results may reflect current leaders, conflicts, economic ties, media, historical memory, and differences in question interpretation.",
+      "subgroup": "Adults in 36 countries, including middle-income countries, Asia-Pacific publics, Latin American publics, and U.S.-aligned partners; the source reports strong country variation.",
+      "counterinterpretation": "A country can view China more favorably while retaining security ties with the U.S., or view the U.S. more favorably while disagreeing with its policies. The Philippines is a clear counterexample to a universal China advantage. Favorability, reliability, peace contribution, and interest-respect are separate judgments.",
+      "source_url": "https://www.pewresearch.org/global/2026/07/15/people-in-many-countries-now-view-china-more-positively-than-the-us/",
+      "retrieval_hash": "sha256:e4dd001e83cf910cdd735a963271b0079ce9bff076f37e0611d86aa936bd7a71",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/global/2026/06/23/trump-gets-negative-reviews-internationally-as-fewer-say-u-s-is-a-reliable-partner/",
+      "claim": "Pew's companion report provides the wider U.S. reliability, interests, freedoms, and peace-stability measures.",
+      "status": "official-companion"
+    }
+  ],
+  "boundary": "This record adds a comparative public-reception layer between the U.S. and China. It does not show that China has greater material influence everywhere, that public opinion changed government alignment, or that favorable views imply trust, dependence, policy compliance, or strategic success.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Pew official comparative report reviewed for 36-country scope, headline comparison, named-country examples, and limitations; country-level microdata and behavioral outcomes are not retained here.",
+    "source_response_sha256": "sha256:e4dd001e83cf910cdd735a963271b0079ce9bff076f37e0611d86aa936bd7a71",
+    "checked": "2026-09-23"
+  }
+}

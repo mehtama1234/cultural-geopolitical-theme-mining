@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doe-transmission-facilitation-realization-2023-2026",
+  "title": "Federal transmission support can be real while the line is still unbuilt, withdrawn, or not yet delivering service",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Department of Energy Transmission Facilitation Program selection, financing, and project-status pages",
+  "geography": "United States interregional transmission projects selected through DOE capacity-contract rounds",
+  "observations": [
+    {
+      "period": "2023-2026 project selections and status notices",
+      "denominator": {
+        "value": 8,
+        "unit": "capacity-contract projects listed across DOE first and second selection rounds",
+        "value_type": "source_defined_project_listing"
+      },
+      "measures": {
+        "listed_capacity_contract_projects": {"value": 8, "unit": "projects across two DOE selection rounds", "value_type": "reported_total"},
+        "second_round_commitment_context": {"value": 1.5, "unit": "billion dollars; approximate DOE commitment context reported for second-round selections", "value_type": "reported_approximation"},
+        "projects_with_termination_or_withdrawal_notice": {"value": 4, "unit": "listed projects: SWIP-N, Cross-Tie, Twin States, and Cimarron Link", "value_type": "reported_total"},
+        "remaining_projects_described_with_planned_capacity_or_award": {"value": 4, "unit": "Southline, Aroostook, Southern Spirit, and Southline Phase 2", "value_type": "reported_listing"},
+        "energized_transmission_service": {"value": "not established for the listed project set", "unit": "construction complete and line energized and ready for service", "value_type": "unmeasured"}
+      },
+      "method": "Review of DOE program rules and current project-selection/status pages; project names and status notices are kept as listed by DOE and are not treated as a construction or operating dataset.",
+      "uncertainty": "The selections page does not provide a complete project-level denominator for construction or energization, and a termination or withdrawal can be followed by replacement financing or a redesigned project. Planned capacity and award amounts do not establish delivered electricity, rate effects, reliability, or household benefit.",
+      "subgroup": "DOE Transmission Facilitation Program capacity-contract selections in the first and second rounds; projects span multiple states and regional transmission contexts.",
+      "counterinterpretation": "Status changes may be normal portfolio management in a revolving program rather than evidence of program failure. DOE can repurpose conditional funds, and projects without a termination notice may still be progressing through permitting, financing, or construction.",
+      "source_url": "https://www.energy.gov/edf/transmission-facilitation-program-selections",
+      "retrieval_hash": "sha256:a698f019be348f1a51fec4f107bdd8d9f13bcaecec2ae4a83dccdc010dcb058a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.energy.gov/edf/transmission-facilitation-program",
+      "claim": "DOE describes conditional selection, capacity contracts, cost recovery, and payment only after an energized line is ready to provide service.",
+      "status": "official-program-method-context"
+    }
+  ],
+  "boundary": "This record measures DOE's federal support mechanism and listed project-status changes. It does not establish a national transmission completion rate, project failure rate, construction or energization for each remaining project, delivered electricity, rate incidence, reliability, local consent, environmental impact, or household benefit.",
+  "retrieval_hash": "sha256:a698f019be348f1a51fec4f107bdd8d9f13bcaecec2ae4a83dccdc010dcb058a"
+}

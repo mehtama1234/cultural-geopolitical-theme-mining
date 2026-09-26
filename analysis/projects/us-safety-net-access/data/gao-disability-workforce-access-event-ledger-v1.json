@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "gao_reported_disability_workforce_access_record",
+  "purpose": "Bounded GAO-26-107473 route from disability disclosure and workforce-program access through service use and post-exit employment/earnings comparisons, preserving accommodation, completion, remedy, and retention gaps.",
+  "events": [
+    {
+      "event_id": "GAO-DISABILITY-WORKFORCE-ACCESS-2026",
+      "unit": "case",
+      "geography": "United States DOL workforce programs; selected state/local agencies and 12 visited job centers",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-01-21",
+      "date_precision": "GAO report published January 21, 2026; participant data July 2023–June 2024 and recommendation status updated July 2026",
+      "denominator": "Selected DOL workforce-program participants; 7% reported a disability, 43% of those did not report disability type; outcome bases vary by program and quarter",
+      "method": "GAO participant-data analysis, interviews, document review, selected visits to 12 job centers, and review of DOL monitoring and guidance",
+      "missingness": "Accommodation request/receipt, wait time, functional need, service completion, placement, hours, wages, retention, benefit transition, complaint, and participant-reported experience are not linked in the retained record",
+      "condition_or_decision": "job_rule",
+      "exposure": "People reporting disabilities entered selected workforce-program records; GAO also reports more than 500,000 people with disabilities were unemployed and actively seeking work in each year from 2021 through 2024",
+      "alternatives_before_action": "Alternative job centers, training providers, transportation, informal support, disclosure choices, and non-program routes are not observed for the same participant",
+      "immediate_burden_or_benefit": "Selected local officials reported challenges providing sign-language interpreters and accessible outside training; assistive technology availability was reported but successful use was not verified",
+      "choice_or_response": "Participants reporting disabilities had lower post-exit employment and median second-quarter earnings in each core program; Adult training-service use was 33% versus 47% among participants reporting no disability",
+      "person_or_actor_with_control": "Job centers, training providers, state agencies, and DOL control parts of the route; participants control disclosure and may request accommodation, but individual authority and choice conditions are not retained",
+      "remedy_or_institutional_response": "DOL monitoring and three GAO recommendations are visible; DOL did not routinely aggregate monitoring reports, and recommendation implementation was not shown to improve participant outcomes",
+      "immediate_outcome": "The record connects formal workforce-program access inputs to a measured post-exit employment/earnings comparison while leaving conversion mechanisms unresolved",
+      "protected_outcome": "Accessible services could protect labor-market entry and earnings opportunity, but completion, placement, and durable retention are not verified",
+      "sacrificed_outcome": "Access barriers, non-disclosure, lower training use, or local implementation gaps may sacrifice time and employment opportunity, but individual sacrifice is not measured",
+      "cost_risk_transfer": "The record does not identify whether accommodation, transport, technology, or failed-service costs transfer to participants, providers, employers, or public agencies",
+      "later_outcome": "No same-participant job retention, wage trajectory, household security, benefit transition, trust, political action, or exit is observed",
+      "meaning_and_attribution": "Non-disclosure may protect privacy or reflect distrust, but the record does not identify participant interpretation, dignity, fairness, or blame",
+      "public_or_collective_response": "Oversight and recommendations are observed; participant complaint, organizing, collective action, and later institutional response are not linked",
+      "counterexample": "Lower outcomes may reflect disability type, prior work history, local labor demand, service mix, selection, or voluntary non-disclosure rather than inaccessible services alone",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GAO participant comparison and selected implementation review; sites are non-generalizable, disability status is reported, and the outcome gap is not a causal estimate",
+      "source_url": "https://www.gao.gov/products/gao-26-107473"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-DISABILITY-A-01",
+      "from": "reported disability in workforce-program participation",
+      "to": "post-exit employment and earnings comparison",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO reports lower employment rates and median second-quarter earnings for participants reporting disabilities in each core program; Adult second-quarter employment was 60% versus 76% and median earnings $7,048 versus $8,872",
+      "status": "reported",
+      "counterexample": "Disability type, severity, prior work, local demand, selection, and service mix may explain the gap; the comparison is not causal",
+      "remaining_gap": "Accommodation, service completion, placement, hours, wage rate, retention, and same-participant follow-up"
+    },
+    {
+      "arrow_id": "GAO-DISABILITY-A-02",
+      "from": "reported disability",
+      "to": "training-service use",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "In the Adult program, 33% of participants reporting disabilities used training services versus 47% of participants reporting no disability",
+      "status": "reported",
+      "counterexample": "Service selection may reflect participant goals, disability type, prior training, provider availability, or disclosure rather than access failure",
+      "remaining_gap": "Requested service, accommodation, wait, completion, credential, provider, and reason for non-use"
+    },
+    {
+      "arrow_id": "GAO-DISABILITY-A-03",
+      "from": "formal accessible-service obligation",
+      "to": "local implementation capacity",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO's selected visits found reported interpreter and outside-training accessibility challenges, while DOL did not routinely aggregate local monitoring reports",
+      "status": "reported",
+      "counterexample": "The 12 visited centers were selected for variation and are not representative; local staff may resolve barriers that are not visible in aggregate monitoring",
+      "remaining_gap": "Comparable site measures, participant encounter records, correction, and later service completion"
+    },
+    {
+      "arrow_id": "GAO-DISABILITY-A-04",
+      "from": "workforce-program access and service use",
+      "to": "durable placement, retention, earnings, and household security",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The report has post-exit employment and earnings comparisons but does not link accommodation, completion, placement, retention, or household outcomes for the same participant",
+      "status": "open",
+      "counterexample": "A participant can complete a service and still face local labor demand or health constraints; employment at one quarter is not durable security",
+      "remaining_gap": "Same-participant route from accommodation and completion through placement, hours, wages, retention, benefits, and recovery"
+    },
+    {
+      "arrow_id": "GAO-DISABILITY-A-05",
+      "from": "monitoring finding or access failure",
+      "to": "correction, trust, voice, political action, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "GAO records recommendations and an oversight aggregation gap but no participant-level correction, complaint resolution, trust, organizing, or exit outcome",
+      "status": "open",
+      "counterexample": "A formal recommendation may change agency practice without improving a participant's usable route; non-disclosure or non-use may be privacy protection rather than withdrawal",
+      "remaining_gap": "Participant-reported experience, complaint/appeal, agency correction, later trust, repeat use, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a disability-access and workforce-program implementation stage beneath formal eligibility and above employment outcomes. It does not establish causal accommodation effects, service abandonment, placement, durable retention, household recovery, trust, or exit.",
+  "storage_boundary": "Only GAO-published aggregate comparisons, selected implementation findings, recommendation status, and interpretation limits are retained; DOL participant files and local job-center records are not stored."
+}

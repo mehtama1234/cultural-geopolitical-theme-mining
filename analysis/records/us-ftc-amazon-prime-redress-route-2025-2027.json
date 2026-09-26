@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-amazon-prime-redress-route-2025-2027",
+  "title": "Automatic subscription redress can reduce claim burden while receipt and correction remain unobserved",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "platforms_data_attention",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Eligible Amazon Prime consumers in the FTC/Amazon redress program; aggregate program payments",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Settlement payment program, November 2025–April 2027 scheduled",
+      "denominator": {
+        "value": null,
+        "unit": "Eligible Prime consumers; the official September 2026 update describes millions of additional eligible consumers but does not give a usable program denominator for issued or accepted payments.",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "redress_issued_by_september_2026": {
+          "value": 845000000,
+          "unit": "dollars in redress payments Amazon had issued to eligible consumers by September 2026",
+          "value_type": "official_reported_aggregate_payment"
+        },
+        "maximum_total_payment": {
+          "value": 200,
+          "unit": "dollars per eligible consumer under the revised settlement order",
+          "value_type": "official_payment_cap"
+        },
+        "automatic_payment_channels": {
+          "value": "mailed check, PayPal, or Venmo",
+          "unit": "officially stated automatic payment channels; no claim form, notice response, or additional paperwork is required for future automatic payments",
+          "value_type": "official_program_design"
+        }
+      },
+      "method": "FTC September 2026 settlement update describes Amazon's aggregate redress issuance, revised eligibility, automatic distribution design, payment channels, and scheduled future payment stages. The source is an administrative program update, not a consumer follow-up survey or account-level payment file.",
+      "uncertainty": "The $845 million figure is aggregate amount issued, not a count of consumers paid, accepted payments, net losses corrected, or benefit received. The number and characteristics of eligible, reached, paid, and accepting consumers are not provided in a common denominator. Future payment stages remained scheduled at the update date.",
+      "subgroup": "Eligible Prime consumers affected by the challenged enrollment or cancellation flows; later eligibility expands to consumers who used 11–20 Prime benefits in a year. Individual exposure, need, payment acceptance, and subscription status are not reported.",
+      "counterinterpretation": "Automatic payment removes some claim-form and notice-response burden, but it does not demonstrate that a consumer received, accepted, or could use the payment; nor does it establish correction of enrollment/cancellation, restored control, continued use, switching, non-use, trust, or household recovery.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
+      "retrieval_hash": "ftc-press-release:sha256:8b0b07e1dc046f922f0bbb4b2e774e567bafa7d991bb23138db4f97e9e518937",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds/amazon-refunds",
+      "claim": "FTC consumer-facing program page describes eligibility, automatic payment channels, payment expiration, and the April 2027 completion schedule.",
+      "status": "official-program-page"
+    }
+  ],
+  "boundary": "This record adds an aggregate redress-issuance and low-burden distribution stage after a named subscription practice. It does not show individual receipt, acceptance, account correction, subscription cancellation, continued use, switching, trust, or household recovery; issued redress must not be read as completed remedy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "SHA-256 is of the official FTC press-release HTML retrieved on 2026-09-24. No customer data, payment file, or claim-level data was acquired.",
+    "checked": "2026-09-24"
+  }
+}

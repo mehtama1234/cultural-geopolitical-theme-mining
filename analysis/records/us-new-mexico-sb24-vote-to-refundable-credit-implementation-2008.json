@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-new-mexico-sb24-vote-to-refundable-credit-implementation-2008",
+  "title": "The New Mexico constituency-information experiment was followed by enacted but reduced tax-credit implementation",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "time_hidden_price"
+  ],
+  "source_unit": "New Mexico 2008 second special-session Senate Bill 24 and Legislative Council Service implementation summary, linked to the Butler-Nickerson vote study",
+  "geography": "New Mexico; statewide tax law and state House special-session vote",
+  "observations": [
+    {
+      "period": "August 2008; Senate Bill 24 enacted during the second special session",
+      "denominator": {
+        "value": 1,
+        "unit": "named enacted state bill providing a refundable personal income tax credit for 2007 taxable-year filers",
+        "value_type": "statutory_program_unit"
+      },
+      "measures": {
+        "eligibility": {"value": "full-year or first-year New Mexico residents filing a 2007 state income-tax return, with exclusions specified in the act", "unit": "statutory eligibility rule", "value_type": "enacted_rule"},
+        "credit_schedule": {"value": "up to $240 for married joint filers plus $48 per qualifying dependent, or up to $120 for single/head-of-household/separate/surviving-spouse filers plus $48 per dependent, with lower amounts in higher income bands", "unit": "dollar tax-credit schedule", "value_type": "enacted_benefit_rule"},
+        "administrative_appropriation": {"value": 1000000, "unit": "dollars appropriated to the Taxation and Revenue Department for administration", "value_type": "enacted_appropriation"},
+        "refundability": {"value": "credit excess over tax liability was refundable", "unit": "statutory payment rule", "value_type": "enacted_rule"}
+      },
+      "method": "Official New Mexico bill text records the enacted statutory rule, eligibility, credit schedule, refundability, and administrative appropriation. The companion Legislative Council Service summary describes the enacted package as a less-than-$60-million refundable-credit program with up to $100 for a taxpayer and spouse and $50 per dependent in its summary framing.",
+      "uncertainty": "The bill text and legislative summary establish legal authorization and program design, not the number of taxpayers who claimed or received credits, payment timing, take-up, adequacy, tax incidence, household spending, or later trust. The summary's rounded benefit framing differs from the bill's detailed table, so the enacted schedule is retained as the authoritative measure here.",
+      "subgroup": "Eligible 2007 New Mexico tax filers, with benefit levels varying by filing status, adjusted gross income, dependents, and tax liability.",
+      "counterinterpretation": "Enactment can be driven by fiscal compromise, legislative bargaining, or administrative feasibility rather than the information intervention alone. A refundable credit can be legally available without being claimed, delivered on time, sufficient for household need, or equally usable by all eligible filers.",
+      "source_url": "https://www.nmlegis.gov/Sessions/08%20Special/bills/senate/SB0024.pdf",
+      "retrieval_hash": "sha256:07aadce7310bb06817fe8db57acb275412c0fcbed1fa80f2c560277b99cb404f",
+      "status": "reported"
+    },
+    {
+      "period": "2009 Legislative Council Service implementation summary of the 2008 second special session",
+      "denominator": {
+        "value": 1,
+        "unit": "named Senate Floor Substitute for Senate Bill 24 (Chapter 3) in the official session highlights",
+        "value_type": "official_program_summary"
+      },
+      "measures": {
+        "reported_program_scale": {"value": "less than $60 million", "unit": "dollars; Legislative Council Service summary of rebate package", "value_type": "reported_program_scale"},
+        "reported_maximums": {"value": "up to $100 for a taxpayer and spouse and up to $50 for each dependent", "unit": "dollars; rounded official summary framing", "value_type": "reported_summary_rule"},
+        "administration_summary": {"value": 750000, "unit": "dollars; administrative appropriation reported in session highlights", "value_type": "reported_appropriation_summary"}
+      },
+      "method": "Official legislative highlights summarize the enacted chapter and place it among the ten bills enacted in the 2008 second special session. This is a statute/implementation-design check, not an individual payment or tax-return administrative file.",
+      "uncertainty": "The summary uses rounded program and administration figures that do not exactly match all details of the introduced/enacted bill text. It does not report claims, refunds, processing time, distribution, or household outcomes.",
+      "subgroup": "New Mexico taxpayers eligible under the enacted refundable-credit rule; the summary emphasizes lower- and middle-income families but does not provide realized subgroup take-up.",
+      "counterinterpretation": "A formal chapter and administrative appropriation demonstrate implementation authority, not realized receipt or material relief.",
+      "source_url": "https://www.nmlegis.gov/Publications/Session/09/highlights.pdf",
+      "retrieval_hash": "sha256:83166d0868d68d2fd582451473c2cb9bb2b65aa40fd3c8361c41c565fadd2cee",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://sites.temple.edu/nickerson/files/2017/07/Butler_Nickerson.QJPS11.pdf",
+      "claim": "The paired field experiment measures district-opinion information and the subsequent SB 24 vote; this record separately measures enacted statutory design.",
+      "status": "paired-policy-source"
+    }
+  ],
+  "boundary": "This record adds a vote-to-enacted-program-design arrow for the New Mexico tax-rebate episode. It does not establish that the information treatment caused enactment, that eligible households claimed or received the credit, that timing and amount were adequate, or that the episode changed later trust, political action, or material security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official New Mexico bill PDF and Legislative Council Service highlights PDF downloaded and hashed; paired Butler-Nickerson study cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

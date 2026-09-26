@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_adjudicated_employment_followup_record",
+  "purpose": "Bounded Fair Work Commission case preserving a worker's return after a serious psychological breakdown, union-supported back pay and service recognition, subsequent work-period safety conflict, and later dismissal as a durability and trust counterexample.",
+  "events": [
+    {
+      "event_id": "FWC-AITKEN-RETURN-BACKPAY-LATER-DISMISSAL-2016-08-01",
+      "unit": "worker",
+      "geography": "Melbourne, Australia; Fair Work Commission C2016/3720",
+      "actor_initiating_change": "employer",
+      "event_date": "2014-03-06",
+      "date_precision": "return-to-work agreement dated 6 March 2014; later safety incidents in October 2015, dismissal decision in April 2016, and appeal decision 1 August 2016",
+      "denominator": "One publicly adjudicated worker case; no population denominator",
+      "method": "Structured extraction from the primary Fair Work Commission Full Bench decision [2016] FWCFB 4104 and the earlier decision cited within it",
+      "missingness": "Private medical and household records, exact back-pay amount, payment instrument, work conditions after return, later alternative work, household recovery, and post-dismissal employment are not retained; the decision records a later dismissal but not longer-term livelihood or trust outcomes",
+      "condition_or_decision": "job_rule",
+      "exposure": "After a serious psychological breakdown, the worker resigned in December 2013; following union intervention, the employer and union reached a return-to-work arrangement that included three months of back pay and recognition of prior service",
+      "alternatives_before_action": "The public decision does not identify the worker's alternative employment, household resources, treatment choices, or practical options before resignation or return",
+      "immediate_burden_or_benefit": "The return restored employment access and service recognition, but the arrangement did not restore leave accrual for the absence and included explicit expectations about safety and future conduct",
+      "choice_or_response": "The worker resigned, later sought to return, accepted a negotiated re-engagement context, and challenged the later dismissal through a Fair Work Commission appeal; union intervention was the observed support route",
+      "person_or_actor_with_control": "The employer controlled re-engagement, workplace conditions, discipline, and dismissal; the union supported negotiation; the worker controlled resignation, return, and appeal participation; the Commission controlled adjudication",
+      "remedy_or_institutional_response": "The employer agreed to re-engage the worker, pay three months of back pay, and acknowledge prior service; the later Commission decision upheld dismissal after safety-policy incidents and a finding of valid reason",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "The decision reports back pay and prior-service recognition as part of the 2014 agreement; exact payment receipt and terms are not independently audited",
+      "durability_followup": "Return to work is reported, followed by safety incidents in October 2015 and later dismissal; the case therefore observes continued access for a period and later employment rupture, but not post-dismissal recovery",
+      "immediate_outcome": "Employment access, back pay, and prior service were restored after union intervention, followed approximately 18 months later by dismissal and unsuccessful appeal",
+      "protected_outcome": "The agreement protected a return path, income replacement for three months, and service continuity; durable employment and protection from later dismissal were not achieved",
+      "sacrificed_outcome": "The worker experienced a long absence, did not receive leave accrual for the absence, later lost the job, and faced safety and trust conflict; household and later-career effects are unknown",
+      "cost_risk_transfer": "The negotiated arrangement shifted some lost-income and continuity liability back to the employer, while the worker retained health, workplace-fit, recurrence, and later-employment risk",
+      "later_outcome": "The worker returned and worked after the 2014 agreement, but the employer later dismissed him after safety-policy incidents; the appeal was refused and no later employment or household endpoint is public",
+      "meaning_and_attribution": "The decision records a dispute over whether the return arrangement created a special trust expectation and treats trust and safety as part of the later employment relationship; it does not provide a standardized worker trust measure",
+      "public_or_collective_response": "Union intervention and individual Commission appeal are observed; no later collective action or political response is reported",
+      "counterexample": "A negotiated return with back pay and service recognition can produce real interim restoration while later workplace conflict and dismissal still undo durable employment security",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "Primary Fair Work Commission decision [2016] FWCFB 4104, https://www.fwc.gov.au/documents/decisionssigned/html/2016fwcfb4104.htm; it records the return agreement, back pay, service recognition, later safety incidents, dismissal, and appeal outcome, but not private payment or post-dismissal recovery",
+      "source_url": "https://www.fwc.gov.au/documents/decisionssigned/html/2016fwcfb4104.htm"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-AITKEN-A-01",
+      "from": "serious psychological breakdown and resignation",
+      "to": "union-supported return-to-work negotiation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records resignation in December 2013 followed by CFMEU intervention and an agreement for return",
+      "status": "observed",
+      "counterexample": "A supported return route does not show that return was medically, financially, or socially easy",
+      "remaining_gap": "Health recovery, alternatives, household resources, and return conditions"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-A-02",
+      "from": "return-to-work agreement",
+      "to": "back pay and prior-service recognition",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision reports three months of back pay and acknowledgment of prior service, while leave accrual for the absence was not restored",
+      "status": "observed",
+      "counterexample": "A remedy can restore some money and status while leaving another continuity currency unrepaired",
+      "remaining_gap": "Exact payment, net recovery, benefits, leave, and adequacy"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-A-03",
+      "from": "restored employment with explicit safety expectations",
+      "to": "later safety-policy conflict and dismissal",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The decision records the 2014 return context, October 2015 smoking/safety incidents, later dismissal, and finding of a valid reason",
+      "status": "observed",
+      "counterexample": "The later dismissal outcome does not establish that the earlier return agreement caused the conflict or that the worker's conduct was entirely undisputed",
+      "remaining_gap": "Workplace comparison, health context, treatment, accommodation, and causal attribution"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-A-04",
+      "from": "later dismissal",
+      "to": "individual appeal and refusal of appeal permission",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Full Bench decision records the appeal grounds and refused permission to appeal",
+      "status": "observed",
+      "counterexample": "A formal appeal route can be used without restoring employment or later security",
+      "remaining_gap": "Appeal cost, representation, alternative work, and household effect"
+    },
+    {
+      "arrow_id": "FWC-AITKEN-A-05",
+      "from": "return, back pay, and later dismissal",
+      "to": "durable livelihood, trust, recovery, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public record follows the worker through return and later dismissal but stops before post-dismissal work, household recovery, trust change, or exit",
+      "status": "open",
+      "counterexample": "Interim restoration and a later job rupture can coexist; neither alone establishes long-term recovery or failure",
+      "remaining_gap": "Post-dismissal employment, income, health, household security, trust, recurrence, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger adds a rare later-work follow-up: a real return, back pay, and service restoration are followed by a later dismissal and appeal outcome. It advances durability and trust-stage visibility without claiming causal failure, final livelihood recovery, or population prevalence.",
+  "storage_boundary": "No private medical, payroll, household, or employment file is retained; only bounded public decision fields, dates, remedy terms, later employment rupture, uncertainty, and open downstream arrows are represented."
+}

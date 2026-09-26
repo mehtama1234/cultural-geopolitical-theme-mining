@@ -1,0 +1,113 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-pisa-2025-future-ready-students-learning-digital-equity",
+  "title": "Education systems are facing simultaneous learning decline, socioeconomic gaps, digital distraction, and pressure to make AI use purposeful",
+  "theme_ids": ["time", "voice", "work", "cost"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "OECD, PISA 2025 Results (Volume I): Future-Ready Students, published 8 September 2026",
+  "geography": "15-year-old students and education systems across 91 countries and economies, with OECD and non-OECD comparisons",
+  "observations": [
+    {
+      "period": "2025 assessment; global PISA coverage",
+      "denominator": {
+        "value": 33000000,
+        "unit": "15-year-olds represented by the PISA 2025 assessment across 91 countries and economies, approximately",
+        "value_type": "reported_assessment_population"
+      },
+      "measures": {
+        "students_assessed": {"value": 760000, "unit": "students who took the PISA science, mathematics, and reading test in 2025, more than", "value_type": "reported_assessment_sample"},
+        "countries_economies": {"value": 91, "unit": "countries and economies participating in PISA 2025", "value_type": "reported_assessment_coverage"},
+        "oecd_performance_direction": {"value": "lowest average levels ever observed in science, reading, and mathematics across OECD countries", "unit": "reported system-level performance direction", "value_type": "reported_trend"},
+        "assessment_endpoint": {"value": "science, reading, mathematics, computational problem solving, engagement, school belonging, digital-device environment, and socioeconomic disparities", "unit": "reported measurement domains", "value_type": "reported_domain_set"}
+      },
+      "method": "OECD standardized international assessment and comparative reporting across participating education systems; this record uses the published report and aggregate tables only.",
+      "uncertainty": "PISA is an assessment sample and does not measure every student, classroom, school, or later-life outcome; cross-country comparisons depend on coverage, sampling, translation, and contextual conditions.",
+      "subgroup": "15-year-old students, advantaged and disadvantaged students, immigrant and non-immigrant students, schools, teachers, families, and education systems.",
+      "counterinterpretation": "Aggregate declines coexist with systems and countries that improved; performance is shaped by curriculum, teaching, health, family resources, school climate, and assessment conditions, not a single cause.",
+      "source_url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
+      "retrieval_hash": "sha256:e7939e8931585d093f790ad81e01a7469097088356cc946332588ce9c057357c",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; OECD learning-performance change",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD participating education-system performance comparison",
+        "value_type": "oecd_system_comparison_frame"
+      },
+      "measures": {
+        "reading_change": {"value": -28, "unit": "PISA points change in average OECD reading scores from 2015 to 2025", "value_type": "reported_score_change"},
+        "mathematics_change": {"value": -22, "unit": "PISA points change in average OECD mathematics scores from 2015 to 2025", "value_type": "reported_score_change"},
+        "low_performer_share": {"value": 20, "unit": "percent of OECD 15-year-olds now low performers in science, mathematics, and reading, approximately one in five", "value_type": "reported_performance_share"},
+        "hasty_reading": {"value": 9, "unit": "percent of reading responses classified as fast and incorrect in 2025, nearly double the 2018 level", "value_type": "reported_response_pattern"}
+      },
+      "method": "OECD comparison of PISA 2015, 2018, 2022, and 2025 assessment results and performance thresholds.",
+      "uncertainty": "Score changes are system-level comparisons, not individual learning trajectories or causal estimates of COVID-19, technology, curriculum, or family conditions; a point change is not itself a household or labor-market outcome.",
+      "subgroup": "OECD students, low-performing students, reading and mathematics learners, schools, teachers, families, and education policymakers.",
+      "counterinterpretation": "Some systems improved and science was more stable than reading or mathematics; targeted support, teacher investment, curriculum choices, and school-level conditions can produce different trajectories.",
+      "source_url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+      "retrieval_hash": "sha256:e7939e8931585d093f790ad81e01a7469097088356cc946332588ce9c057357c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; socioeconomic disparities and school belonging",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD PISA 2025 science-performance and school-environment comparison frame",
+        "value_type": "education_inequality_comparison_frame"
+      },
+      "measures": {
+        "science_advantage_gap": {"value": 85, "unit": "PISA science-score difference between socioeconomically advantaged and disadvantaged students across OECD countries", "value_type": "reported_group_gap"},
+        "science_variance_explained_by_status": {"value": 11.6, "unit": "percent of OECD science-performance variance explained by socioeconomic status, average", "value_type": "reported_association"},
+        "school_belonging": {"value": 76, "unit": "percent of OECD students who feel they belong at school", "value_type": "reported_school_climate_share"},
+        "digital_distraction": {"value": 28, "unit": "percent of OECD students reporting that classmates are distracted by digital devices during most or every science class", "value_type": "reported_school_environment_share"}
+      },
+      "method": "OECD PISA 2025 comparison of science performance by socioeconomic status and reported school-environment indicators.",
+      "uncertainty": "Group gaps and reported school conditions do not establish causal effects of family status, belonging, or digital distraction; the narrowing of the gap since 2022 partly reflected lower performance among advantaged students.",
+      "subgroup": "Socioeconomically advantaged and disadvantaged students, schools, families, teachers, students experiencing digital distraction, and students with different belonging conditions.",
+      "counterinterpretation": "A high average belonging level can coexist with exclusion for some students, and digital tools can support learning when used purposefully; school climate and socioeconomic context vary widely across systems.",
+      "source_url": "https://www.oecd.org/en/about/news/press-releases/2026/09/pisa-2025-students-reading-and-mathematics-performance-declined-sharply-across-the-oecd.html",
+      "retrieval_hash": "sha256:e7939e8931585d093f790ad81e01a7469097088356cc946332588ce9c057357c",
+      "status": "reported"
+    },
+    {
+      "period": "2025; AI and digital-tool use in learning",
+      "denominator": {
+        "value": 1,
+        "unit": "OECD PISA 2025 students and digital-learning comparison frame",
+        "value_type": "education_technology_comparison_frame"
+      },
+      "measures": {
+        "weekly_ai_chatbot_use": {"value": 46, "unit": "percent of OECD students using AI chatbots weekly or more to help them learn", "value_type": "reported_student_use_share"},
+        "ai_task_performance_pattern": {"value": "students using AI for specified schoolwork tasks such as summarising, drafting, or research scored lower in science on average than students who did not", "unit": "reported comparative performance pattern", "value_type": "reported_association"},
+        "guided_ai_pattern": {"value": "frequent AI users who were taught to assess AI-generated information tended to perform better than frequent users without that guidance", "unit": "reported conditional association", "value_type": "reported_association"},
+        "computational_problem_solving": {"value": "almost two-thirds reached the relevant computational-problem-solving proficiency level, but only half also demonstrated basic proficiency in science, reading, and mathematics", "unit": "reported combined-capability pattern", "value_type": "reported_performance_pattern"}
+      },
+      "method": "OECD PISA 2025 assessment and questionnaire comparisons of AI use, digital distraction, computational problem solving, and core-subject performance.",
+      "uncertainty": "These are aggregate associations from an assessment publication, not causal effects of AI use; selection, prior achievement, instruction, access, and family or school context may explain part of the pattern.",
+      "subgroup": "Students using AI for learning, students receiving AI-evaluation guidance, teachers, schools, families, education technology providers, and policymakers.",
+      "counterinterpretation": "AI can support learning when used for defined purposes and with evaluation guidance; non-use is not automatically superior, and digital capability requires both tools and strong foundational knowledge.",
+      "source_url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en.html",
+      "retrieval_hash": "sha256:e7939e8931585d093f790ad81e01a7469097088356cc946332588ce9c057357c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/pisa-2025-results-volume-i_73451bc5-en/full-report/executive-summary_3701b0ef.html", "claim": "OECD executive summary and aggregate tables for PISA 2025 performance, disparities, engagement, school climate, and digital learning."},
+    {"source_url": "https://doi.org/10.1787/73451bc5-en", "claim": "Official OECD DOI for PISA 2025 Results Volume I."}
+  ],
+  "boundary": "This record adds a publication-level education-to-digital-learning route linking system performance, socioeconomic status, school belonging, digital distraction, AI guidance, and future-ready capability. It does not acquire PISA microdata, conduct respondent-level analysis, or establish causal effects on later education, work, wellbeing, or political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD PISA 2025 Volume I landing page, press release, executive summary, and aggregate tables were reviewed; assessment coverage, performance changes, socioeconomic gap, school belonging, digital distraction, AI-use, and computational-problem-solving claims were cross-checked.",
+    "source_url_sha256": "sha256:e7939e8931585d093f790ad81e01a7469097088356cc946332588ce9c057357c",
+    "checked": "2026-09-26"
+  }
+}

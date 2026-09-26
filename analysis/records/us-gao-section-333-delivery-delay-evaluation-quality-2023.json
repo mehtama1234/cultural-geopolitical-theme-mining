@@ -1,0 +1,48 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-section-333-delivery-delay-evaluation-quality-2023",
+  "title": "Most Section 333 deliverables were delayed and project evaluations did not reliably establish capability gains",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "public_systems_feedback", "infrastructure_technology_dependency", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "Department of Defense Section 333 project-delivery data and six completed project evaluations reviewed by GAO",
+  "geography": "United States security-cooperation system and foreign partner security forces; Section 333 projects in at least 90 partner nations",
+  "observations": [
+    {
+      "period": "Fiscal years 2018–2022; GAO-23-106275, August 2023; recommendation follow-up through July 2025",
+      "denominator": {"value": null, "unit": "Section 333 project activities with estimated delivery dates in DOD data", "value_type": "not_disclosed"},
+      "measures": {
+        "late_deliveries": {"value": 75, "unit": "percent of deliveries delayed relative to DOD estimated dates as of the end of FY2022", "value_type": "reported_program_share"},
+        "program_scale": {"value": 5.6, "unit": "billion U.S. dollars allocated through Section 333 in FY2018–2022; projects reached at least 90 partner nations", "value_type": "reported_program_total"},
+        "aggregate_timeliness_measure": {"value": "not established by DOD at the time of GAO review", "unit": "program performance measure", "value_type": "reported_missing_measure"}
+      },
+      "method": "GAO analysis of DOD Section 333 allocation and delivery data, review of DOD evaluation policies and documents, and interviews with DOD officials and contractors.",
+      "uncertainty": "The source reports delays relative to DOD's estimated dates, not absolute delivery failure or nonuse. DOD did not monitor aggregate timeliness or analyze delay causes at the time of review. The program total is not a delivery or operational-readiness measure, and the source does not provide a matched partner-level outcome for every delivery.",
+      "subgroup": "Section 333 project activities with estimated delivery dates across partner countries; operation types and country allocations are not treated as a common causal subgroup.",
+      "counterinterpretation": "Estimated dates may change as projects are revised, and a delayed delivery can still produce usable capability. Conversely, on-time delivery does not establish training completion, sustainment, reliability, or strategic effect.",
+      "source_url": "https://www.gao.gov/products/gao-23-106275",
+      "retrieval_hash": "sha256:d26d8d4264cc4b781b99a4b29e1bae5fe3db249ed328262caedf906a6f97dd41",
+      "status": "reported"
+    },
+    {
+      "period": "FY2017–2022 completed projects; six DOD Section 333 project evaluations reviewed by GAO",
+      "denominator": {"value": 6, "unit": "completed Section 333 project evaluations reviewed for outcomes and evaluation quality", "value_type": "reported_evaluation_sample"},
+      "measures": {
+        "evaluated_capability_result": {"value": "four evaluations concluded that projects improved partner security-force capabilities; two concluded they did not because equipment was unsuitable or unreliable", "unit": "project-evaluation outcome classification", "value_type": "reported_evaluation_summary"},
+        "evaluation_quality": {"value": "evaluations generally did not meet GAO quality criteria; they partially met six of seven criteria and generally met one", "unit": "evaluation design, implementation, and conclusion criteria", "value_type": "reported_quality_assessment"},
+        "equipment_reliability_examples": {"value": "a $7.6 million ground-sensor project functioned for approximately three months; a $12 million mobile border-security-trailer project was operational for approximately three months total during 2019–2022", "unit": "reported project-level operational duration", "value_type": "reported_project_example"}
+      },
+      "method": "GAO compared six DOD project evaluations with evaluation-quality criteria and reviewed the evaluations' evidence, methods, conclusions, and reported project results.",
+      "uncertainty": "The six evaluations are not a representative sample of all Section 333 projects. The classifications are conclusions reported in DOD evaluations whose evidence and methods GAO found weak; they are not independent field measurements. The equipment examples are bounded project cases and do not establish a general failure rate.",
+      "subgroup": "Six completed projects implemented in 2017–2022; examples include border-security sensors, mobile border-security trailers, Humvees, helicopter training, services, and construction.",
+      "counterinterpretation": "Some projects improved capability despite weak evaluation design, and later DOD templates and monitoring reforms may improve future evidence. A poor evaluation does not prove no capability gain; a favorable evaluation does not prove durable readiness or deterrence.",
+      "source_url": "https://www.gao.gov/products/gao-23-106275",
+      "retrieval_hash": "sha256:d26d8d4264cc4b781b99a4b29e1bae5fe3db249ed328262caedf906a6f97dd41",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-23-105842", "claim": "Companion GAO review documents planning, absorptive-capacity, sustainment, and measurable-objective gaps in 46 selected proposals", "status": "related-official-review"},
+    {"source_url": "https://samm.dsca.mil/program/S333", "claim": "DSCA program guidance specifies absorptive-capacity, delivery-timeline, and sustainment information for Section 333 notifications", "status": "official-program-guidance"}
+  ],
+  "boundary": "This record adds delivery timing, equipment reliability, and evaluation-quality stages after Section 333 funding and planning. It does not establish a causal effect on partner security, local legitimacy, alliance behavior, deterrence, or adversary choices; the project evaluation sample is small and nongeneralizable."
+}

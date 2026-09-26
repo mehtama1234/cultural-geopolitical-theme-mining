@@ -124,6 +124,15 @@ June 2026; reported insured exposure rose from approximately $160.6 billion to
 $768 billion. This is a growth in residual-market stock and exposure, not a
 measure of affordable, adequate, or easy-to-claim coverage.
 
+The backstop's size and its usability are separate questions. California's
+Department of Insurance reported reviewing 259 smoke-damage claims and finding
+118 violations tied to claim denials. That establishes a documented
+claim-handling problem in the reviewed cases; it does not mean that every FAIR
+Plan claim was denied, that every violation caused a household loss, or that
+the current review measures recovery. The end-to-end gap is therefore visible:
+market continuity can expand while the household still has to navigate a
+claim, obtain payment, repair the property, and remain housed.
+
 A public backstop can keep a property technically insurable while leaving
 premiums, deductibles, exclusions, repair capacity, and disaster recovery
 unresolved. It may protect market continuity without restoring the household's
@@ -183,6 +192,8 @@ set.
 - [Treasury/FEMA hazard context](../../records/us-treasury-fio-fema-nri-hazard-context-2022.json)
 - [RECS energy-burden layer](../../records/us-recs-energy-burden-income-assistance-2020.json)
 - [Housing/insurance project route](README.md)
+- [California FAIR Plan current statistics](https://www.cfpnet.com/key-statistics-data/)
+- [California DOI smoke-damage claim review](https://www.insurance.ca.gov/0400-news/0100-press-releases/2025/release054-2025.cfm)
 
 **Evidence status:** non-pooled survey, market-place, hazard-context, and
 household-energy synthesis. Payment, coverage, hazard, energy, mobility,

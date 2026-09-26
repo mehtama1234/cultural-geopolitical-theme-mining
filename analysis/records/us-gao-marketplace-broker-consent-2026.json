@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-marketplace-broker-consent-2026",
+  "title": "A formal broker relationship can exist without verified consumer control",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office review of CMS controls over agents and brokers in federal health-insurance Marketplaces",
+  "geography": "United States federal Marketplace; comparison with selected state-based Marketplaces in California, Georgia, and New Mexico",
+  "observations": [
+    {
+      "period": "2024-2026; federal Marketplace agent and broker controls",
+      "denominator": {"value": 1, "unit": "CMS federal Marketplace consent and access-control system reviewed by GAO", "value_type": "named_program_case"},
+      "measures": {
+        "registration_control": {"value": "agents and brokers must be licensed and registered; CMS restricts system access to registered agents and brokers", "unit": "formal control", "value_type": "reported_status"},
+        "consent_control": {"value": "consent processes were weak, access was not limited to the broker already associated with an enrollment, and consumers were not informed of all actions", "unit": "reported control gap", "value_type": "reported_finding"},
+        "2024_procedure": {"value": "newer consent procedures were not always used and CMS took limited steps to confirm consumer identity", "unit": "implementation condition", "value_type": "reported_finding"}
+      },
+      "method": "GAO comparison of CMS controls with regulations and policies, review of CMS documentation, and interviews with CMS, stakeholders, agents, brokers, regulators, consumers, and three selected state Marketplaces.",
+      "uncertainty": "The control review does not estimate the share of all enrollments or plan changes that were unauthorized.",
+      "subgroup": "Consumers using agents or brokers in the federal Marketplace; agents and brokers registered with CMS.",
+      "counterinterpretation": "Registration and licensing remain useful safeguards, and stronger consent controls in selected state Marketplaces show that improvement is possible.",
+      "source_url": "https://www.gao.gov/products/gao-26-108041",
+      "retrieval_hash": "sha256:030117e62fd33867576559d977826af1e0a312a5d1e259334439a8dc48c66d00",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; federal Marketplace confirmed unauthorized-enrollment and plan-switch complaints",
+      "denominator": {"value": 1, "unit": "confirmed consumer complaints tied to unauthorized enrollments or plan switches", "value_type": "source_defined_complaint_series"},
+      "measures": {
+        "complaint_trend": {"value": "grew more than fourfold from 2023 through 2025", "unit": "confirmed complaint trend", "value_type": "reported_trend"},
+        "likely_unauthorized_applications": {"value": "at least 160,000 federal Marketplace applications in plan year 2024 had likely unauthorized changes", "unit": "applications", "value_type": "reported_estimate"},
+        "possible_consequence": {"value": "consumers may be unaware of plan changes or lose coverage", "unit": "reported risk", "value_type": "reported_risk"}
+      },
+      "method": "GAO review of CMS complaint and investigative information concerning unauthorized enrollments and plan changes.",
+      "uncertainty": "Confirmed complaints are not the prevalence of all unauthorized activity; likely unauthorized changes are an investigative estimate and do not show final resolution or coverage duration.",
+      "subgroup": "Federal Marketplace consumers affected by suspected unauthorized broker actions.",
+      "counterinterpretation": "The increase may partly reflect improved detection or reporting rather than a proportional increase in underlying activity; some changes may be corrected without lasting coverage loss.",
+      "source_url": "https://www.gao.gov/products/gao-26-108041",
+      "retrieval_hash": "sha256:030117e62fd33867576559d977826af1e0a312a5d1e259334439a8dc48c66d00",
+      "status": "reported"
+    },
+    {
+      "period": "2026; selected state-based Marketplace controls",
+      "denominator": {"value": 3, "unit": "selected state-based Marketplaces reviewed by GAO", "value_type": "selected_review_universe"},
+      "measures": {
+        "stronger_consent": {"value": "selected states used controls beyond CMS, including one-time passcodes to verify consent for agent or broker actions", "unit": "control practice", "value_type": "reported_counterexample"}
+      },
+      "method": "GAO review and interviews concerning California, Georgia, and New Mexico state-based Marketplaces.",
+      "uncertainty": "The review does not establish that these controls eliminated unauthorized actions or produced better coverage continuity.",
+      "subgroup": "Consumers and brokers in selected state-based Marketplaces.",
+      "counterinterpretation": "State controls may have different costs, technical systems, or legal authorities and may not transfer directly to the federal Marketplace.",
+      "source_url": "https://www.gao.gov/products/gao-26-108041",
+      "retrieval_hash": "sha256:030117e62fd33867576559d977826af1e0a312a5d1e259334439a8dc48c66d00",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures Marketplace broker controls, confirmed complaint trends, a reported estimate of likely unauthorized changes, and selected state safeguards. It does not establish national prevalence, final coverage loss, care disruption, financial harm, or post-correction trust.",
+  "retrieval_hash": "sha256:030117e62fd33867576559d977826af1e0a312a5d1e259334439a8dc48c66d00"
+}

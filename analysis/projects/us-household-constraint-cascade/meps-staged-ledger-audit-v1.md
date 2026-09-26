@@ -1,7 +1,7 @@
 # MEPS staged household-cascade ledger audit v1
 
 **Checked:** 2026-09-16  
-**Status:** local staging only; not a promoted finding  
+**Status:** historical local staging run; not a promoted finding
 **Source location:** existing local MEPS 2024 files under `/tmp`; no new acquisition
 
 ## What was staged
@@ -44,6 +44,12 @@ and passed the ledger validator in events-only mode. The exact local output
 hash was `8ebaf499e161e8f7f034f6661ae35ad94de6a6e02c8baaae1c30c7e12803f320`.
 The keyed salt is intentionally not committed or recorded, so a rerun with a
 different ephemeral salt will have a different row hash.
+
+**Current retention recheck (2026-09-19):** the `/tmp/cgtm-meps-2024`
+directory and staged JSONL are not currently present after the workspace crash.
+The committed bounded outputs and historical hash remain authoritative for the
+reported pass, but no local rerun should be claimed until authorized MEPS source
+files are restored and the staging audit is run again.
 
 ## Reproduction
 

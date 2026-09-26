@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-water-development-gender-access-2026",
+  "title": "Water insecurity converts unequal infrastructure and governance into gendered time, safety, health, and livelihood costs",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "UN World Water Development Report 2026: Water for All People – Equal Rights and Opportunities",
+  "geography": "Global water, sanitation, hygiene, water governance, and water-sector workforce systems",
+  "observations": [
+    {
+      "period": "2026 report; global drinking-water access and household water-collection burden",
+      "denominator": {
+        "value": 8100000000,
+        "unit": "approximate global population reference for contextualizing water-access estimates",
+        "value_type": "global_population_reference"
+      },
+      "measures": {
+        "people_without_safely_managed_drinking_water": {"value": 2100000000, "unit": "people lacking safely managed drinking water", "value_type": "reported_population_estimate"},
+        "daily_water_collection_hours": {"value": 250000000, "unit": "hours per day women and girls spend collecting water globally, estimated", "value_type": "reported_time_burden_estimate"},
+        "rural_collection_responsibility": {"value": 80, "unit": "percent-plus of rural households without direct water access in which women are responsible for collection", "value_type": "reported_household_share_lower_bound"},
+        "downstream_costs": {"value": "Unequal water and sanitation access affects health, education, livelihoods, safety, food security, and opportunities for productive and social activity", "unit": "reported cross-domain mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "The UN World Water Development Report synthesizes global SDG 6 monitoring, water and sanitation statistics, gender-disaggregated evidence, sector analysis, and policy and governance case material.",
+      "uncertainty": "Global access estimates and time burdens combine different definitions, survey sources, and local conditions. A reported collection burden does not measure every household's experience, water quality, safety, or the full opportunity cost of time.",
+      "subgroup": "Women and girls, rural households without direct water access, children, low-income and climate-vulnerable communities, people using water and sanitation services, and households managing water collection and care.",
+      "counterinterpretation": "Water access has improved in many places, and shared collection, infrastructure, community management, and safer services can reduce burdens. Women’s involvement in water management can also provide valuable local knowledge; the constraint is unequal burden and unequal decision power, not participation itself.",
+      "source_url": "https://www.unwater.org/publications/un-world-water-development-report-2026",
+      "retrieval_hash": "sha256:752df13347c8986ce183606ee95ab176f8a99d7ffca46f375c90e5c8b7aae6f2",
+      "status": "reported"
+    },
+    {
+      "period": "2026 report; water-sector governance and workforce participation",
+      "denominator": {
+        "value": 100,
+        "unit": "water-sector workforce percentage reference for reported formal-utility gender representation",
+        "value_type": "sector_workforce_percent_base"
+      },
+      "measures": {
+        "women_formal_water_utility_workers": {"value": 20, "unit": "less than percent of formal workers in water utilities worldwide who are women", "value_type": "reported_workforce_share_upper_bound"},
+        "governance_gap": {"value": "Women are underrepresented in water governance, leadership, financing, technical roles, and infrastructure decision-making", "unit": "reported institutional pattern", "value_type": "reported_mechanism"},
+        "climate_and_disaster_route": {"value": "Climate change, water scarcity, floods, droughts, and disasters intensify existing access and gender inequalities", "unit": "reported climate-governance mechanism", "value_type": "reported_mechanism"},
+        "recommended_response": {"value": "Inclusive water governance, gender-responsive policies, sex-disaggregated data, and sustainable water infrastructure are identified as response routes", "unit": "reported policy set", "value_type": "reported_policy_options"}
+      },
+      "method": "The report links water access and use to governance, workforce, finance, infrastructure, climate risk, disaster management, and gender-responsive monitoring.",
+      "uncertainty": "The workforce share is a global summary and does not measure pay, authority, occupational segregation, informal water work, or representation in every country or utility. Policy recommendations are not causal evaluations.",
+      "subgroup": "Women water-utility workers, community water managers, rural and urban users, infrastructure providers, public agencies, private firms, climate-exposed populations, and decision-makers.",
+      "counterinterpretation": "More women in water leadership may improve representativeness and system knowledge but cannot substitute for infrastructure finance, reliable operations, or broader accountability. Gender-responsive governance can coexist with difficult distributional tradeoffs over scarce water.",
+      "source_url": "https://www.unesco.org/en/articles/executive-summary-united-nations-world-water-development-report-2026-water-all-people-equal-rights?hub=68313",
+      "retrieval_hash": "sha256:752df13347c8986ce183606ee95ab176f8a99d7ffca46f375c90e5c8b7aae6f2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://www.unesco.org/en/reports/wwdr"],
+  "boundary": "This record adds a global water-access, gendered-time, governance, workforce, climate, and infrastructure route. It is not respondent-level time-use data, does not estimate individual health or education effects, and does not establish that water access or representation caused any specific household, migration, or political outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UN-Water and UNESCO official 2026 report summaries and executive-summary materials retrieved; drinking-water gap, water-collection time, rural responsibility, workforce representation, governance, and climate mechanisms cross-checked. Direct local capture was restricted, so the digest records the retrieved evidence summary rather than a claimed local PDF hash.",
+    "web_evidence_digest_sha256": "sha256:752df13347c8986ce183606ee95ab176f8a99d7ffca46f375c90e5c8b7aae6f2",
+    "checked": "2026-09-26"
+  }
+}

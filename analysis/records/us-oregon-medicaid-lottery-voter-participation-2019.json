@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-oregon-medicaid-lottery-voter-participation-2019",
+  "title": "Randomized Medicaid access increased one presidential-election turnout but not later turnout",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "public_systems_feedback", "political_judgment_action", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Low-income uninsured Oregon adults selected or not selected by the 2008 Medicaid lottery, linked to statewide voter records",
+  "geography": "Oregon, United States",
+  "observations": [
+    {
+      "period": "2008 Oregon Medicaid lottery; November 2008 presidential election",
+      "denominator": {"value": 1, "unit": "randomized lottery treatment-control voter-record contrast; published instrumental-variable estimate", "value_type": "reported_experiment_estimate"},
+      "measures": {
+        "medicaid_coverage_effect_on_turnout": {"value": 2.5, "unit": "percentage points; approximately 7% relative to 34% control-group turnout", "value_type": "causal_estimate"},
+        "male_turnout_effect": {"value": 5.4, "unit": "percentage points; approximately 18% relative increase", "value_type": "causal_subgroup_estimate"},
+        "democratic_county_turnout_effect": {"value": 3.6, "unit": "percentage points; approximately 10% relative increase", "value_type": "causal_subgroup_estimate"},
+        "registration": {"value": "suggestive increase, statistically insignificant", "unit": "voter registration as of June 2010", "value_type": "reported_experimental_pattern"}
+      },
+      "method": "Randomized selection in the Oregon Medicaid lottery used as an instrument for Medicaid coverage, linked to Oregon statewide voter registration and turnout records; analyses were prespecified.",
+      "uncertainty": "The estimate is local to low-income previously uninsured Oregon adults and the 2008 Medicaid expansion; the study cannot observe individual health, financial-relief, trust, attribution, or registration mechanisms directly. The registration increase is suggestive rather than statistically significant.",
+      "subgroup": "Lottery-eligible low-income uninsured adults ages 19–64; effects were concentrated among men and residents of Democratic counties.",
+      "counterinterpretation": "Coverage may have changed administrative access, health security, or eligibility-related contact rather than generalized political trust; the early turnout result may reflect new registration or election-specific mobilization.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8021132/",
+      "retrieval_hash": "sha256:1ddc5140761232e6a11f8a0dd1a1243a17d76fe531a9908f4711fd8e11af2ba1",
+      "status": "reported"
+    },
+    {
+      "period": "Post-lottery elections through November 2010",
+      "denominator": {"value": 1, "unit": "randomized lottery treatment-control voter-record contrasts across subsequent statewide, local, primary, and special elections", "value_type": "reported_experiment_null"},
+      "measures": {
+        "later_turnout": {"value": "no evidence of increased turnout", "unit": "elections after November 2008 through November 2010", "value_type": "causal_null_summary"}
+      },
+      "method": "Same Oregon Medicaid lottery design and statewide voter-record linkage as the 2008 turnout estimate.",
+      "uncertainty": "The experiment ended as a clean contrast after control-group members received a later opportunity to enter a new lottery; the follow-up does not establish durable political change beyond the observed election window.",
+      "subgroup": "Same lottery-eligible low-income uninsured Oregon adults.",
+      "counterinterpretation": "A short-lived turnout response can coexist with persistent coverage or financial effects; null later turnout does not rule out changes in other political actions, trust, or institutional use.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8021132/",
+      "retrieval_hash": "sha256:1ddc5140761232e6a11f8a0dd1a1243a17d76fe531a9908f4711fd8e11af2ba1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1561/100.00019026", "claim": "Published Quarterly Journal of Political Science article identifier", "status": "official-paper-identifier"},
+    {"source_url": "https://www.nber.org/oregon", "claim": "Official Oregon Health Insurance Experiment overview and results context", "status": "official-project-page"}
+  ],
+  "boundary": "This record adds a randomized Medicaid-access-to-voter-participation route: coverage increased turnout in the November 2008 presidential election but not subsequent turnout through November 2010. It does not establish a causal trust effect, a universal Medicaid-to-voting effect, a specific household recovery mechanism, or durable political realignment."
+}

@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-party-affiliation-npor-2026",
+  "title": "Party identity shifts at the edges while gender, race, and education keep the coalition lines uneven",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Pew Research Center National Public Opinion Reference Survey (NPORS), 2020-2026 partisan-affiliation fact sheet",
+  "geography": "United States; adults surveyed Jan. 30-June 18, 2026",
+  "observations": [
+    {
+      "period": "2026 NPORS; 5,511 U.S. adults",
+      "denominator": {
+        "value": 5511,
+        "unit": "survey respondents",
+        "value_type": "reported_sample"
+      },
+      "measures": {
+        "democrat_or_lean_democrat": {
+          "value": 47,
+          "unit": "percent of U.S. adults",
+          "value_type": "reported_share"
+        },
+        "republican_or_lean_republican": {
+          "value": 43,
+          "unit": "percent of U.S. adults",
+          "value_type": "reported_share"
+        },
+        "no_lean_or_refused": {
+          "value": 10,
+          "unit": "percent of U.S. adults",
+          "value_type": "reported_share"
+        },
+        "self_identified_independent_or_something_else": {
+          "value": 44,
+          "unit": "percent of U.S. adults before leaners are assigned",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Pew's multimode, address-based NPORS estimates partisan identification and party leaning across 2020-2026; Republicans and Democrats in the combined measures include leaners.",
+      "uncertainty": "The data are repeated cross-sectional surveys, not a panel following the same people. Partisan identification is not a vote, ideological position, policy preference, turnout, or durable identity, and the 2026 field period may reflect the political context at that time.",
+      "subgroup": "U.S. adults, with comparisons by gender, race and ethnicity, education, age, and birth cohort; Asian estimates are representative of English speakers and some subgroup samples are smaller.",
+      "counterinterpretation": "A small national party-affiliation shift can reflect sampling, response, political context, or movement among leaners rather than durable coalition realignment. A person who calls themselves independent may still lean and behave like a partisan, while a partisan label does not predict every issue view or action.",
+      "source_url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "retrieval_hash": "sha256:5dfa4b6895fbb7bb79c0ea45b4dbd0d5e648ee49786d8cc12c4dd6becdbef406",
+      "status": "reported"
+    },
+    {
+      "period": "2026 NPORS; selected subgroup comparisons",
+      "denominator": {
+        "value": 100,
+        "unit": "percent within each Pew subgroup",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "men_republican_or_lean_republican": {
+          "value": 49,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "women_democrat_or_lean_democrat": {
+          "value": 52,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "black_democrat_or_lean_democrat": {
+          "value": 73,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "hispanic_democrat_or_lean_democrat": {
+          "value": 57,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "no_college_republican_or_lean_republican": {
+          "value": 45,
+          "unit": "percent",
+          "value_type": "reported_share"
+        },
+        "college_grad_democrat_or_lean_democrat": {
+          "value": 54,
+          "unit": "percent",
+          "value_type": "reported_share"
+        }
+      },
+      "method": "Published Pew subgroup comparisons from the 2026 NPORS; values describe affiliation within demographic groups and do not estimate causes of the differences.",
+      "uncertainty": "Group differences can reflect age, place, religion, income, education, race, gender, cohort, political events, and survey measurement together. They do not identify an individual-level mechanism.",
+      "subgroup": "Men and women; Black, Hispanic, and other race/ethnicity groups; adults with and without a college degree.",
+      "counterinterpretation": "The same subgroup can contain substantial internal variation, and group affiliation can move without corresponding movement in turnout, issue positions, or political action.",
+      "source_url": "https://www.pewresearch.org/politics/fact-sheet/party-affiliation-fact-sheet-npors/",
+      "retrieval_hash": "sha256:5dfa4b6895fbb7bb79c0ea45b4dbd0d5e648ee49786d8cc12c4dd6becdbef406",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/methods/fact-sheet/national-public-opinion-reference-survey-npors/",
+      "claim": "Pew's NPORS methodology and sample design provide context for the repeated cross-sectional estimates.",
+      "status": "official-method-context"
+    }
+  ],
+  "boundary": "This record adds a current coalition-identity layer to the atlas. It shows how partisan affiliation and leaning differ across social groups and over time; it does not establish why people changed, how identity became a vote or policy demand, or whether a coalition shift will persist.",
+  "retrieval_hash": "sha256:5dfa4b6895fbb7bb79c0ea45b4dbd0d5e648ee49786d8cc12c4dd6becdbef406"
+}

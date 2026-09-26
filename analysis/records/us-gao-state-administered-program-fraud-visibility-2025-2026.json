@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-state-administered-program-fraud-visibility-2025-2026",
+  "title": "Federal aid can reach more places through state delivery while becoming harder to see and protect",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-109100, Combating Fraud: Managing Risks in Federally Funded, State-Administered Programs, reissued with revisions August 7, 2026",
+  "geography": "United States; federally funded programs administered by states and other nonfederal entities",
+  "observations": [
+    {
+      "period": "FY2025 program obligations; fraud-loss estimate based on FY2018–2022 data; report July 2026, revised August 2026",
+      "denominator": {
+        "value": 20,
+        "unit": "selected large federally funded programs administered by states and other government entities; among 203 programs with obligations above $100 million",
+        "value_type": "selected_program_sample"
+      },
+      "measures": {
+        "federal_obligations": {
+          "value": "about $1.1 trillion, nearly 90% of obligations among the qualifying programs",
+          "unit": "FY2025 federal obligations for the 20 selected programs",
+          "value_type": "reported_aggregate"
+        },
+        "delivery_layers": {
+          "value": "funds may pass from federal agencies through states to subrecipients, contractors, subcontractors, Tribes, territories, local governments, or other entities",
+          "unit": "reported delivery and oversight structure",
+          "value_type": "reported_structure"
+        },
+        "risk_assessment_documentation": {
+          "value": "5 of 20 programs documented evidence consistent with identifying and assessing fraud risks to prioritize action; 15 did not",
+          "unit": "selected programs",
+          "value_type": "reported_count"
+        },
+        "open_recommendations": {
+          "value": 22,
+          "unit": "open GAO recommendations related to fraud-risk management among reviewed programs",
+          "value_type": "reported_count"
+        },
+        "government_wide_fraud_estimate": {
+          "value": "$233 billion to $521 billion annually, or 3% to 7% of average federal obligations",
+          "unit": "GAO estimate based on FY2018–2022 government-wide data, not a loss estimate for the 20 selected programs",
+          "value_type": "reported_range"
+        },
+        "recipient_outcome": {
+          "value": "not measured as a linked person- or household-level route from eligibility or payment through fraud exposure, remedy, service continuity, and later trust",
+          "unit": "missing outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO used USAspending.gov FY2025 data to select 20 large programs, reviewed agency and program documents, GAO, Congressional Research Service, Inspector General, state-audit, and Department of Justice materials, and compared practices with fraud-risk frameworks and research. The review describes administration, oversight, identified risks, cases, and controls; it does not pool a common beneficiary outcome.",
+      "uncertainty": "The 20 programs are selected for size and are not a random sample. The $1.1 trillion obligation total is not money received by households, and the government-wide fraud range is not an estimate of losses in these programs. Missing risk assessments do not prove that a program had more fraud, and open recommendations do not prove that controls failed or losses occurred.",
+      "subgroup": "Federal agencies, states, Tribes, territories, local governments, subrecipients, contractors, beneficiaries, and taxpayers; program structures and legal oversight relationships differ.",
+      "counterinterpretation": "Decentralized delivery can be useful because state and local entities may know local needs and can prioritize projects. Multiple delivery partners can expand reach and specialized capacity. A documented risk assessment is not the same as effective fraud prevention, and a missing assessment may reflect documentation or timing rather than realized loss.",
+      "source_url": "https://www.gao.gov/products/gao-26-109100",
+      "retrieval_hash": "sha256:b54e1749bdaafd813a682718e920fcb8d067fdb2ff02837331c7468e84c366a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-109100.pdf",
+      "claim": "Official GAO report provides the program selection, obligation total, delivery layers, risk-assessment counts, examples, and open recommendations.",
+      "status": "official-report"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-109093",
+      "claim": "Earlier GAO fraud-risk review supplies broader recommendation and public-trust context but is not pooled with this 20-program observation.",
+      "status": "related-context"
+    }
+  ],
+  "boundary": "This record adds a public-systems visibility layer: federal aid can be delivered through flexible state and local networks while oversight becomes more distributed. It does not estimate program-specific fraud prevalence, beneficiary loss, service denial, recovery, or public-trust change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and full report PDF reviewed; underlying USAspending.gov extract and program records are not retained.",
+    "pdf_sha256": "sha256:b54e1749bdaafd813a682718e920fcb8d067fdb2ff02837331c7468e84c366a4",
+    "checked": "2026-09-23"
+  }
+}

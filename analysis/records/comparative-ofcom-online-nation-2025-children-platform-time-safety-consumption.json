@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ofcom-online-nation-2025-children-platform-time-safety-consumption",
+  "title": "Children’s online lives combine connection and learning with late-night platform exposure, harmful content, and purchase regret",
+  "theme_ids": ["time", "cost", "voice", "work"],
+  "program_theme_ids": ["platforms_data_attention", "household_room_consumption", "consumer_power_recourse", "care_health_reproduction", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Ofcom, From apps to AI search: how the UK goes online in 2025 / Online Nation 2025",
+  "geography": "United Kingdom children and adults, with detailed online-use, safety, well-being, and spending findings for children aged 8-17",
+  "observations": [
+    {
+      "period": "2025; children’s daily online time and platform concentration",
+      "denominator": {"value": 1, "unit": "UK children aged 8-14 in Ofcom online-use estimates", "value_type": "child_online_time_frame"},
+      "measures": {
+        "daily_time": {"value": "children aged 8-14 spend almost three hours online daily; 13-14-year-olds spend about four hours", "unit": "reported daily online-time pattern", "value_type": "reported_measure"},
+        "youtube_time": {"value": 48, "unit": "minutes per day spent on YouTube by children aged 8-14", "value_type": "reported_minutes"},
+        "snapchat_time": {"value": 45, "unit": "minutes per day spent on Snapchat by children aged 8-14", "value_type": "reported_minutes"},
+        "platform_reach": {"value": "YouTube is used by 96 percent of children aged 8-14 and Google Search by 95 percent", "unit": "reported platform-use shares", "value_type": "reported_share"}
+      },
+      "method": "Ofcom Online Nation 2025 analysis of UK online-service use and time estimates across children’s devices and platforms.",
+      "uncertainty": "Time estimates depend on measurement systems, device coverage, account use, shared devices, and platform categorization; they do not establish quality, compulsion, or harm from time alone.",
+      "subgroup": "Children aged 8-14, younger Gen Z and Gen Alpha, and users of YouTube, Snapchat, WhatsApp, TikTok, and Google Search.",
+      "counterinterpretation": "The same time supports friendship, schoolwork, relaxation, learning, creativity, and access to information; concentrated use is not automatically harmful.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025",
+      "retrieval_hash": "sha256:289bdd37e886f3fef1ac4ef269612ddf6cdab043f2aeffdefa2253e5143fb084",
+      "status": "reported"
+    },
+    {
+      "period": "2025; late-night platform exposure",
+      "denominator": {"value": 1, "unit": "UK children aged 8-14 using YouTube, Snapchat, TikTok, and WhatsApp", "value_type": "late_night_use_frame"},
+      "measures": {
+        "evening_to_morning_share": {"value": "15 to 24 percent of time on the four main services occurs between 9pm and 5am", "unit": "reported share of platform time", "value_type": "reported_range"},
+        "after_11pm_share": {"value": "4 to 10 percent of usage occurs after 11pm depending on the platform", "unit": "reported share of platform time", "value_type": "reported_range"},
+        "time_tradeoff": {"value": "late-night platform use creates a potential tradeoff with sleep, school, family routines, and recovery time", "unit": "reported interpretation boundary", "value_type": "reported_mechanism"}
+      },
+      "method": "Ofcom platform-time analysis by time of day for children’s main online services.",
+      "uncertainty": "The data describe timing, not sleep duration, health outcomes, parental context, or whether late use is active, passive, educational, or socially necessary.",
+      "subgroup": "Children aged 8-14, families managing device rules, and children using different platform mixes during evening and overnight hours.",
+      "counterinterpretation": "Some late-night use may reflect asynchronous communication, time-zone differences, household schedules, or low-intensity background use.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025",
+      "retrieval_hash": "sha256:289bdd37e886f3fef1ac4ef269612ddf6cdab043f2aeffdefa2253e5143fb084",
+      "status": "reported"
+    },
+    {
+      "period": "2025; harmful-content exposure and child response",
+      "denominator": {"value": 1, "unit": "UK children aged 11-17 in Ofcom harmful-content and response measures", "value_type": "online_harm_response_frame"},
+      "measures": {
+        "harmful_content_exposure": {"value": 70, "unit": "percent saying they had seen or heard harmful content online in the prior four weeks", "value_type": "reported_share"},
+        "took_action": {"value": 64, "unit": "percent taking some action after encountering harmful content", "value_type": "reported_share"},
+        "action_set": {"value": "dislike, report, block, or tell an adult were among the reported responses", "unit": "reported response set", "value_type": "reported_actions"}
+      },
+      "method": "Ofcom Online Nation 2025 survey and qualitative research on children’s harmful-content experiences and responses before Protection of Children Codes came into force.",
+      "uncertainty": "Self-reported exposure and action do not measure severity, repeat exposure, platform effectiveness, downstream harm, or whether responses produced a remedy.",
+      "subgroup": "Children aged 11-17, children encountering harmful content, families, platforms, schools, and safety regulators.",
+      "counterinterpretation": "High reported action may indicate emerging user agency and safety literacy, though it can also reflect a burden shifted from platforms onto children.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025",
+      "retrieval_hash": "sha256:289bdd37e886f3fef1ac4ef269612ddf6cdab043f2aeffdefa2253e5143fb084",
+      "status": "reported"
+    },
+    {
+      "period": "2025; online spending, influence, and consumer regret",
+      "denominator": {"value": 1, "unit": "UK children aged 8-17 reporting recent online spending", "value_type": "child_digital_consumption_frame"},
+      "measures": {
+        "recent_spending": {"value": 58, "unit": "percent spending money online in the past month", "value_type": "reported_share"},
+        "purchase_prompts": {"value": "character customization, adverts, friends or family recommendations, and influencer content were reported spending prompts", "unit": "reported influence set", "value_type": "reported_mechanism"},
+        "purchase_regret": {"value": "32 percent regretted in-game purchases and 43 percent regretted social-media purchases", "unit": "reported regret shares", "value_type": "reported_share"},
+        "unclear_purchase": {"value": 42, "unit": "percent unclear what they were buying in games", "value_type": "reported_share"}
+      },
+      "method": "Ofcom Online Nation 2025 research on children’s online spending across social media, video-sharing, and gaming environments.",
+      "uncertainty": "Reported spending and regret do not establish monetary amounts, parental consent, contract enforceability, manipulation, or the causal role of influencers, advertising, or game design.",
+      "subgroup": "Children aged 8-17, young consumers, parents, gamers, social-media users, influencers, advertisers, and platform marketplaces.",
+      "counterinterpretation": "Online purchases can be voluntary, social, creative, or useful; regret and unclear product understanding indicate a need for age-appropriate choice and protection rather than proof that all digital spending is harmful.",
+      "source_url": "https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/from-apps-to-ai-search-how-the-uk-goes-online-in-2025",
+      "retrieval_hash": "sha256:289bdd37e886f3fef1ac4ef269612ddf6cdab043f2aeffdefa2253e5143fb084",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ofcom.org.uk/online-safety/protecting-children", "claim": "Ofcom 2026 children’s online-safety research and protection-measure updates provide regulatory follow-up context."},
+    {"source_url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world/outcome/government-response-july-2026", "claim": "UK government response provides complementary policy context on age assurance, overnight platform restrictions, and digital resilience."}
+  ],
+  "boundary": "This record adds a child-platform-time, safety-response, and digital-consumption route. It reports Ofcom publication aggregates and summaries; it is not child-level respondent analysis, device telemetry, a clinical sleep or mental-health study, or a causal estimate of platform design effects.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Ofcom Online Nation 2025 publication page was reviewed; children’s time, late-night use, harmful-content response, online spending, influence, regret, and uncertainty claims were cross-checked.",
+    "source_url_sha256": "sha256:289bdd37e886f3fef1ac4ef269612ddf6cdab043f2aeffdefa2253e5143fb084",
+    "checked": "2026-09-26"
+  }
+}

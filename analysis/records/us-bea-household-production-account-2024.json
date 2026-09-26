@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bea-household-production-account-2024",
+  "title": "Unpaid household production is a large part of the economy even when GDP leaves it out",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "household_room_consumption", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "BEA household production statistics integrated with market activities and supply-and-use framework",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024; household production integrated with market activities",
+      "denominator": {"value": 1, "unit": "U.S. consumption and total-output accounting framework", "value_type": "national-account denominator"},
+      "measures": {
+        "household_production_share_of_consumption": {"value": 30, "unit": "percent", "value_type": "reported_approximate_share"},
+        "household_production_share_of_total_output": {"value": 16, "unit": "percent", "value_type": "reported_approximate_share"}
+      },
+      "method": "BEA household-production statistics integrated with market activities; the measures estimate the contribution of unpaid household activities in an expanded accounting framework.",
+      "uncertainty": "The source reports approximate national shares; account definitions, valuation choices, source data, and integration with supply-and-use tables shape the estimates.",
+      "subgroup": "U.S. national economy; household production across seven activity types in the expanded update.",
+      "counterinterpretation": "A large measured share does not establish that the work was fairly distributed, freely chosen, high quality, or a burden rather than a valued activity.",
+      "source_url": "https://www.bea.gov/news/blog/2026-09-14/whats-economic-value-mowing-your-own-lawn",
+      "retrieval_hash": "sha256:f6a6426835f7c7ff3c96d6c3aee81189916af0f9040890dac3efbf98d9c02267",
+      "status": "reported"
+    },
+    {
+      "period": "approximately 2004-2024; U.S. household production account",
+      "denominator": {"value": 1, "unit": "BEA household-production share series", "value_type": "national-account trend denominator"},
+      "measures": {
+        "consumption_share_direction": {"value": "gradual decline", "unit": "direction over roughly 20 years", "value_type": "reported_trend"},
+        "total_output_share_direction": {"value": "gradual decline", "unit": "direction over roughly 20 years", "value_type": "reported_trend"}
+      },
+      "method": "BEA summary of the updated household-production statistics and long-run share movement.",
+      "uncertainty": "The summary does not identify the contribution of prices, household composition, market substitution, activity definitions, or changes in unpaid-work volume to the declining shares.",
+      "subgroup": "U.S. national accounting series.",
+      "counterinterpretation": "A lower household-production share can mean more market production or different accounting composition, not necessarily less unpaid work or more household freedom.",
+      "source_url": "https://www.bea.gov/news/blog/2026-09-14/whats-economic-value-mowing-your-own-lawn",
+      "retrieval_hash": "sha256:f6a6426835f7c7ff3c96d6c3aee81189916af0f9040890dac3efbf98d9c02267",
+      "status": "reported"
+    },
+    {
+      "period": "June 2026 update; household-production account design",
+      "denominator": {"value": 7, "unit": "household activity types with expanded value-added detail", "value_type": "account-coverage count"},
+      "measures": {
+        "expanded_activity_types": {"value": 7, "unit": "activity types", "value_type": "reported_count"},
+        "new_measure_layers": {"value": "spending and gross output in addition to value added", "unit": "accounting layers", "value_type": "reported_design_change"}
+      },
+      "method": "BEA description of the June 2026 update, including childcare and shopping and integration within the supply-and-use framework.",
+      "uncertainty": "This is an accounting-coverage improvement, not evidence that household outcomes or measurement of individual burden improved.",
+      "subgroup": "U.S. household-production account.",
+      "counterinterpretation": "More detailed accounting can make an activity visible without changing who controls, performs, or benefits from it.",
+      "source_url": "https://www.bea.gov/news/blog/2026-09-14/whats-economic-value-mowing-your-own-lawn",
+      "retrieval_hash": "sha256:f6a6426835f7c7ff3c96d6c3aee81189916af0f9040890dac3efbf98d9c02267",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record makes unpaid household production visible in national accounting and records a long-run share direction. It does not measure who performs the work, choice, exhaustion, quality, substitution, distribution, wellbeing, care adequacy, or household security, and it is not a same-household outcome estimate."
+}

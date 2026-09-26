@@ -1,6 +1,6 @@
 # When material pressure reaches political meaning—and when it does not
 
-**Status:** reader-facing synthesis of linked US survey evidence · **Checked:** 2026-09-16
+**Status:** reader-facing synthesis of linked US survey evidence · **Checked:** 2026-09-19
 **Scope:** household expense pressure, food and energy security, work, institutional confidence, identity, attribution, and political action
 
 ## The question
@@ -55,6 +55,41 @@ The evidence therefore strengthens the material-to-meaning research program by
 showing that later hardship and institutional judgment can separate. It does
 not prove that hardship caused trust change or political behavior.
 
+## Latest extension: meaning is distributed across several political currencies
+
+The newer political and cultural records sharpen the middle of the chain. They
+show that people can agree that something is getting worse while disagreeing
+about who is responsible, what authority should do, and whether action is
+worth taking:
+
+- In the ANES panel, financial worry is followed by different reported trust
+  and vote patterns, but the underlying bill, actor, and prior identity are
+  unknown. Worry enters politics through interpretation, not an automatic
+  hardship-to-withdrawal ladder.
+- In the Pew economy survey, affordability is highly salient while party
+  advantage on economic policy is nearly balanced. People can recognize a
+  problem without seeing one institution or party as a credible remedy.
+- In the Gallup values survey, moral decline is widely perceived and
+  government influence is widely acknowledged, yet the public is split over
+  whether government should promote moral values. Shared diagnosis does not
+  create shared authority or repair.
+- In the Pew neighbor survey, willingness to help is higher than expected
+  reciprocal help. Social resilience therefore includes not only goodwill but
+  whether support is believed to be available and usable during a real shock.
+- In the CCES insurance panel, people without insurance reported less later
+  contact and local action but slightly more favorable Congress approval than
+  insured respondents. Material insecurity, institutional judgment, and
+  participation can diverge in the same panel.
+
+Taken together, the current cultural insight is not simply that hardship
+creates distrust. It is that pressure is translated through attribution,
+identity, perceived reciprocity, institutional fit, and beliefs about who has
+legitimate authority to repair the problem. Those translations can produce
+participation, non-use, adaptation, or quiet endurance. The records still do
+not observe one person's complete episode from burden through remedy and later
+action, so this remains a bounded synthesis rather than a pooled cultural
+effect.
+
 ## 1. The linked respondent design
 
 The April 2025 HTOPS public-use file contains 8,850 respondents and the June
@@ -108,10 +143,14 @@ Congress in June was 17.2% among respondents with April expense difficulty and
 16.9% among those without it.
 
 This near similarity is not evidence that material pressure has no political
-meaning. It is evidence against a mechanical translation rule. Several paths
-remain possible:
+meaning. The expanded institutional screen shows why: Congress is nearly flat,
+while confidence in the presidency, military, police, Supreme Court, public
+schools, and statistical agencies is lower in the expense-difficulty group.
+That is a selective institutional pattern, not one automatic “anti-government”
+reaction. Several paths remain possible:
 
-- people can experience pressure while retaining confidence in Congress;
+- people can experience pressure while retaining confidence in Congress or
+  directing judgment toward a different institution;
 - they can blame firms, employers, prices, health costs, or local institutions
   rather than Congress;
 - party identity and prior institutional judgment can dominate the short
@@ -221,6 +260,11 @@ self-reported items and a short follow-up window.
 - [Baseline retention audit](data/htops-2025-panel-attrition-audit.json)
 - [Cross-lagged audit](data/htops-2025-cross-lagged-panel-audit.json)
 - [July expense-to-confidence finding](findings/us-cost-trust-politics-027.md)
+- [ANES worry/trust/vote finding](findings/us-cost-trust-politics-045.md)
+- [Pew neighbor mutual-aid finding](findings/us-cost-trust-politics-044.md)
+- [CCES insurance political-followup finding](findings/us-cost-trust-politics-043.md)
+- [Pew economy-attribution finding](findings/us-cost-trust-politics-046.md)
+- [Gallup moral-values finding](findings/us-cost-trust-politics-047.md)
 - [SHED income × financial-condition path layer](../us-household-financial-pressure/shed-panel-income-condition-path-layer-v1.md)
 - [Census HTOPS/HPS public-use data](https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2025.html)
 

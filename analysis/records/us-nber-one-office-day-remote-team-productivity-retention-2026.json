@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-one-office-day-remote-team-productivity-retention-2026",
+  "title": "A coordinated office day can improve communication and retention while shifting time costs to workers",
+  "theme_ids": ["time", "work", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "firm_sector_market_power", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35331; randomized trial of 248 customer-service employees assigned to fully remote work or one coordinated office day per month",
+  "geography": "Multinational firm's customer-service workforce; trial setting and firm-specific, not a representative U.S. labor-market estimate",
+  "observations": [{
+    "period": "Randomized monthly office-day intervention; paper issued June 2026",
+    "denominator": {"value": 248, "unit": "customer-service employees in the randomized trial", "value_type": "reported_sample"},
+    "measures": {
+      "productivity": {"value": "treated employees handled 7.8% more calls per hour in the post-intervention period", "unit": "calls per hour", "value_type": "reported_estimate"},
+      "communication": {"value": "treated employees spent 36 additional minutes communicating with colleagues in the week after an office visit", "unit": "minutes of coworker communication", "value_type": "reported_estimate"},
+      "neighbor_contact": {"value": "randomly assigned desk neighbors were 11 percentage points more likely to communicate afterward", "unit": "probability of subsequent communication", "value_type": "reported_estimate"},
+      "retention": {"value": "monthly office days reduced attrition by about one-third", "unit": "employee attrition", "value_type": "reported_estimate"}
+    },
+    "method": "The authors randomly assign customer-service employees to remain fully remote or work together at the office one day per month and measure calls per hour, communication, manager feedback, and attrition after the intervention.",
+    "uncertainty": "The trial is small and firm-specific, and the public abstract does not measure commute time, travel cost, care, disability, household stress, pay, promotion, long-run career outcomes, or whether an online meeting could create the same contact. The benefit-cost ratio is specific to the study's firm costs and measured outcomes.",
+    "subgroup": "Customer-service employees in one multinational firm; new versus experienced workers, commute distance, disability, caregiving, health, local alternatives, and household resources may change the net value of attendance.",
+    "counterinterpretation": "The productivity and retention effects may reflect the coordinated shared activity, novelty, managerial attention, or specific team design rather than office presence in general. Staying may not equal worker wellbeing, and more communication does not establish better ideas, pay, promotion, or household security.",
+    "source_url": "https://www.nber.org/papers/w35331",
+    "retrieval_hash": "sha256:bdcb02db6c2d5467df1d45f7b760a853f4a4c2a775da44f3aa856bb8c961ee88",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35331", "claim": "NBER DOI record for Working Paper 35331", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a coordinated-contact finding: one planned office day can improve measured communication, productivity, and retention in a specific team. It does not establish a universal office mandate, worker welfare, promotion, household cost, disability access, or the best schedule for other jobs."
+}

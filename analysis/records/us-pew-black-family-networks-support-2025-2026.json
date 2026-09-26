@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-black-family-networks-support-2025-2026",
+  "title": "Family support networks can extend beyond legal and household ties",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": ["time_hidden_price", "care_health_reproduction", "trust_identity_meaning", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Pew Research Center survey of U.S. adults, including 4,271 Black adults, fielded June 16-29, 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "June 16-29, 2025 survey",
+      "denominator": {"value": 4271, "unit": "Black U.S. adults surveyed; comparison sample included in total survey", "value_type": "survey_sample"},
+      "measures": {
+        "black_close_to_nonrelative_family": {"value": 73, "unit": "percent among Black adults with such a person", "value_type": "reported_share"},
+        "black_close_to_partner": {"value": 77, "unit": "percent among Black adults with a spouse or partner", "value_type": "reported_share"},
+        "black_close_to_parent": {"value": 66, "unit": "percent among Black adults with a living parent", "value_type": "reported_share"},
+        "black_close_to_sibling": {"value": 63, "unit": "percent among Black adults with a living sibling", "value_type": "reported_share"},
+        "black_close_to_grandparent": {"value": 48, "unit": "percent among Black adults with a living grandparent; 33% among non-Black adults", "value_type": "reported_comparison"},
+        "black_close_to_cousin": {"value": 42, "unit": "percent among Black adults with a living cousin; 20% among non-Black adults", "value_type": "reported_comparison"},
+        "black_close_to_aunt_uncle": {"value": 36, "unit": "percent among Black adults with a living aunt or uncle; 19% among non-Black adults", "value_type": "reported_comparison"}
+      },
+      "method": "Pew Research Center survey of 6,871 U.S. adults, including 4,271 Black adults, using the American Trends Panel and SSRS Opinion Panel; closeness measures are conditional on having the named relationship.",
+      "uncertainty": "This is a cross-sectional survey of reported closeness and family definition. It does not measure delivered care, financial transfers, household co-residence, burden, or causal effects. Relationship-specific denominators differ.",
+      "subgroup": "Black adults compared with non-Black adults; family includes birth, marriage, law, and chosen/non-relative ties as defined by the survey.",
+      "counterinterpretation": "Broad family recognition and closeness can provide support, but can also coexist with obligation, unequal labor, conflict, distance, or limited material capacity.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/02/25/black-americans-have-close-relationships-with-many-family-members/",
+      "retrieval_hash": "sha256:122062cbb512aa59f542ab95382b4659b887ba3b2a2e34865645011b3a539ca7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/02/RE_2026.02.25_Black-Families_REPORT.pdf", "claim": "Pew report materials provide the questionnaire, topline, methodology, and detailed family-network analysis.", "status": "official-report-material"}
+  ],
+  "boundary": "This record adds a cultural and social-network layer: family can be defined through birth, law, marriage, and choice, with reported closeness extending beyond the nuclear household. It does not establish care delivery, financial support, burden, household security, identity causation, trust, political action, or later durability."
+}

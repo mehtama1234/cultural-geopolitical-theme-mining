@@ -1,0 +1,114 @@
+{
+  "checked": "2026-09-26",
+  "record_count": 1012,
+  "theme_count": 14,
+  "rows": [
+    {
+      "rank_by_record_density": 1,
+      "theme_id": "platforms_data_attention",
+      "theme": "Platforms, data, and attention",
+      "records": 123,
+      "observations": 294
+    },
+    {
+      "rank_by_record_density": 2,
+      "theme_id": "time_hidden_price",
+      "theme": "Time, care, and social reproduction",
+      "records": 172,
+      "observations": 434
+    },
+    {
+      "rank_by_record_density": 3,
+      "theme_id": "consumer_power_recourse",
+      "theme": "Consumer power and recourse",
+      "records": 185,
+      "observations": 427
+    },
+    {
+      "rank_by_record_density": 4,
+      "theme_id": "housing_place_mobility",
+      "theme": "Housing, place, and mobility",
+      "records": 225,
+      "observations": 531
+    },
+    {
+      "rank_by_record_density": 5,
+      "theme_id": "geopolitical_state_consequences",
+      "theme": "Geopolitical and state consequences",
+      "records": 260,
+      "observations": 628
+    },
+    {
+      "rank_by_record_density": 6,
+      "theme_id": "care_health_reproduction",
+      "theme": "Care, health, and reproduction",
+      "records": 295,
+      "observations": 758
+    },
+    {
+      "rank_by_record_density": 7,
+      "theme_id": "work_control_bargaining",
+      "theme": "Work, control, and bargaining",
+      "records": 308,
+      "observations": 769
+    },
+    {
+      "rank_by_record_density": 8,
+      "theme_id": "infrastructure_technology_dependency",
+      "theme": "Infrastructure, technology, and dependency",
+      "records": 314,
+      "observations": 689
+    },
+    {
+      "rank_by_record_density": 9,
+      "theme_id": "political_judgment_action",
+      "theme": "Political judgment and collective action",
+      "records": 378,
+      "observations": 901
+    },
+    {
+      "rank_by_record_density": 10,
+      "theme_id": "firm_sector_market_power",
+      "theme": "Firm, sector, and market power",
+      "records": 429,
+      "observations": 1000
+    },
+    {
+      "rank_by_record_density": 11,
+      "theme_id": "trust_identity_meaning",
+      "theme": "Trust, identity, and meaning",
+      "records": 550,
+      "observations": 1158
+    },
+    {
+      "rank_by_record_density": 12,
+      "theme_id": "household_room_consumption",
+      "theme": "Household room and consumption",
+      "records": 556,
+      "observations": 1353
+    },
+    {
+      "rank_by_record_density": 13,
+      "theme_id": "public_systems_feedback",
+      "theme": "Public systems and policy feedback",
+      "records": 695,
+      "observations": 1519
+    },
+    {
+      "rank_by_record_density": 14,
+      "theme_id": "unequal_exposure_status",
+      "theme": "Unequal exposure and status",
+      "records": 804,
+      "observations": 1856
+    }
+  ],
+  "interpretation": {
+    "purpose": "coverage-balance control, not a quality or causal-strength score",
+    "lowest_density_themes": [
+      "platforms_data_attention",
+      "time_hidden_price",
+      "consumer_power_recourse"
+    ],
+    "next_rotation_rule": "prioritize a distinct unit or conversion stage in a low-density theme; do not add another aggregate endpoint merely to equalize counts"
+  }
+}

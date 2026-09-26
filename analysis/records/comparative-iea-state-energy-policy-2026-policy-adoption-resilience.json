@@ -1,0 +1,114 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-state-energy-policy-2026-policy-adoption-resilience",
+  "title": "Energy shocks are widening the policy response from transition deployment to reserves, affordability, access, and supply-chain resilience",
+  "theme_ids": ["energy", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "International Energy Agency, State of Energy Policy 2026",
+  "geography": "Global energy-policy landscape across 84 countries, with policy, affordability, access, regulatory, and supply-chain examples across regions",
+  "observations": [
+    {
+      "period": "2025-2026; global policy inventory and crisis response",
+      "denominator": {
+        "value": 1,
+        "unit": "IEA global energy-policy landscape reviewed through the Global Energy Policies Hub",
+        "value_type": "global_policy_inventory_frame"
+      },
+      "measures": {
+        "policy_measures_tracked": {"value": 6500, "unit": "energy-policy measures tracked across the IEA inventory, more than", "value_type": "reported_policy_inventory"},
+        "countries_covered": {"value": 84, "unit": "countries covered by the policy inventory", "value_type": "reported_policy_inventory"},
+        "policy_types_covered": {"value": 200, "unit": "policy types covered, more than", "value_type": "reported_policy_inventory"},
+        "dominant_policy_themes": {"value": "cost of living, competitiveness, resilient supply chains, energy security, efficiency, and sustainability", "unit": "reported policy-theme set", "value_type": "reported_policy_orientation"}
+      },
+      "method": "IEA synthesis of the Global Energy Policies Hub, policy changes, emergency responses, and longer-run energy-policy trends.",
+      "uncertainty": "A policy inventory establishes government action or announcement, not implementation quality, fiscal execution, public acceptance, energy-system performance, or household benefit.",
+      "subgroup": "Governments, energy firms, infrastructure providers, households, workers, consumers, importing states, and communities exposed to energy-price or supply disruptions.",
+      "counterinterpretation": "A broad policy response can reflect institutional learning and resilience, but it can also produce fragmented, costly, or contradictory measures across jurisdictions.",
+      "source_url": "https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary",
+      "retrieval_hash": "sha256:d024f073f7b0c4ef43518689c4e7987478f8e02115eca51fe0528dd40b840a61",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; emergency reserves, demand restraint, and energy-system preparedness",
+      "denominator": {
+        "value": 1,
+        "unit": "global oil and natural-gas emergency-preparedness policy frame",
+        "value_type": "global_resilience_policy_frame"
+      },
+      "measures": {
+        "countries_with_oil_gas_emergency_measures": {"value": 60, "unit": "countries with emergency measures for oil and natural-gas supply disruptions", "value_type": "reported_country_count"},
+        "oil_import_coverage": {"value": 95, "unit": "percent of global oil imports accounted for by countries with stockholding and emergency-response legislation", "value_type": "reported_global_coverage"},
+        "gas_storage_requirement_countries": {"value": 30, "unit": "countries that adopted gas-storage requirements or strategic buffers since 2022, close to", "value_type": "reported_country_count"},
+        "demand_restraint_measures": {"value": "energy-conservation campaigns, work-from-home policies, and fuel rationing", "unit": "reported crisis-response measure set", "value_type": "reported_policy_mechanism_set"}
+      },
+      "method": "IEA comparison of emergency legislation, strategic stocks, gas buffers, and crisis-response measures across importing and exposed countries.",
+      "uncertainty": "Legal preparedness and stockholding coverage do not establish reserve adequacy, release speed, equitable access, or whether demand-restraint measures are sustained.",
+      "subgroup": "Energy-importing governments, utilities, firms, commuters, households, workers, and users of transport, heating, and electricity systems.",
+      "counterinterpretation": "Reserves and demand restraint can reduce disruption exposure, while maintaining them may impose fiscal, storage, or distributional costs and may not protect all places equally.",
+      "source_url": "https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary",
+      "retrieval_hash": "sha256:d024f073f7b0c4ef43518689c4e7987478f8e02115eca51fe0528dd40b840a61",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; affordability support and targeting",
+      "denominator": {
+        "value": 1,
+        "unit": "government energy-affordability interventions and vehicle incentives reviewed by IEA",
+        "value_type": "policy_targeting_frame"
+      },
+      "measures": {
+        "household_support_2022_2023": {"value": 220000000000, "unit": "US dollars disbursed to households through emergency energy-affordability support between 2022 and 2023, approximately", "value_type": "reported_policy_spending"},
+        "vulnerable_household_targeting": {"value": 25, "unit": "percent of short-term interventions since 2022 targeted at vulnerable households most exposed to price shocks", "value_type": "reported_policy_targeting_share"},
+        "targeted_vehicle_incentives_2025": {"value": 25, "unit": "percent of 2025 incentives for efficient or alternative-fuel vehicles that were targeted, about", "value_type": "reported_policy_targeting_share"},
+        "support_mechanism_shift": {"value": "movement toward auctions and market-based support for solar and wind", "unit": "reported policy-design shift", "value_type": "reported_policy_mechanism_set"}
+      },
+      "method": "IEA review of emergency energy-affordability support, transport incentives, and renewable-support mechanisms.",
+      "uncertainty": "Spending and targeting shares do not measure take-up, adequacy, incidence, household energy burden, or whether market-based support lowers final consumer costs.",
+      "subgroup": "Low-income households, energy-intensive households and firms, vehicle buyers, renewable developers, taxpayers, and public-budget managers.",
+      "counterinterpretation": "Broad support may stabilize markets quickly, while targeted support can miss eligible households or impose administrative barriers; market-based schemes may lower fiscal exposure over time.",
+      "source_url": "https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary",
+      "retrieval_hash": "sha256:d024f073f7b0c4ef43518689c4e7987478f8e02115eca51fe0528dd40b840a61",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; regulation, access, and transition implementation",
+      "denominator": {
+        "value": 1,
+        "unit": "global energy-efficiency, electrification, access, and supply-chain policy frame",
+        "value_type": "global_transition_policy_frame"
+      },
+      "measures": {
+        "renewable_nuclear_policy_countries": {"value": 150, "unit": "countries with active policies to advance renewable and nuclear deployment as of April 2026", "value_type": "reported_country_count"},
+        "efficiency_electrification_policy_countries": {"value": 130, "unit": "countries with energy-efficiency and electrification policies as of April 2026", "value_type": "reported_country_count"},
+        "supply_chain_resilience_policy_countries": {"value": 32, "unit": "countries with policies incentivising supply-chain resilience and diversification across critical minerals and clean-energy technologies as of April 2026", "value_type": "reported_country_count"},
+        "energy_access_policy_activity": {"value": "56 electricity-access policies and 64 clean-cooking initiatives implemented or announced since the 2024 IEA Summit on Clean Cooking in Africa", "unit": "reported policy activity", "value_type": "reported_policy_activity"},
+        "efficiency_regulatory_balance": {"value": "30 percent of regulated energy consumption experienced a rollback compared with 17 percent subject to new, stricter rules in 2025", "unit": "reported balance of regulatory change", "value_type": "reported_regulatory_change"}
+      },
+      "method": "IEA synthesis of deployment, efficiency, electrification, clean-cooking, energy-access, supply-chain, and regulatory-policy changes.",
+      "uncertainty": "Country policy counts and regulatory direction do not establish actual deployment, access, emissions, affordability, reliability, or durable implementation; aggregate counts can conceal reversals and uneven coverage.",
+      "subgroup": "Energy users, households without electricity or clean cooking, firms, workers, regulators, technology suppliers, importing states, and communities exposed to infrastructure decisions.",
+      "counterinterpretation": "Policy foundations may enable faster transition and access gains, while regulatory rollbacks, delayed standards, fiscal constraints, and supply-chain concentration can slow or unevenly distribute those gains.",
+      "source_url": "https://www.iea.org/reports/state-of-energy-policy-2026/executive-summary",
+      "retrieval_hash": "sha256:d024f073f7b0c4ef43518689c4e7987478f8e02115eca51fe0528dd40b840a61",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.iea.org/reports/state-of-energy-policy-2026", "claim": "Official IEA report landing page and citation metadata for State of Energy Policy 2026."},
+    {"source_url": "https://www.iea.org/reports/state-of-energy-policy-2026/overview-dashboard", "claim": "IEA overview dashboard for the policy inventory and report findings."}
+  ],
+  "boundary": "This record adds a policy-adoption and implementation route linking geopolitical shocks to reserves, demand restraint, affordability support, regulation, energy access, transition deployment, and supply-chain resilience. It is not respondent-level data, household survey evidence, proof of implementation quality, realized consumer benefit, or a forecast of emissions or energy-system outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official IEA State of Energy Policy 2026 executive summary and report landing page were reviewed; policy-inventory scope, emergency preparedness, affordability targeting, market-based support, energy access, regulatory changes, and April 2026 policy counts were cross-checked.",
+    "source_url_sha256": "sha256:d024f073f7b0c4ef43518689c4e7987478f8e02115eca51fe0528dd40b840a61",
+    "checked": "2026-09-26"
+  }
+}

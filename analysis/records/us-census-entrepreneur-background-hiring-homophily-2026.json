@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-entrepreneur-background-hiring-homophily-2026",
+  "title": "Entrepreneur background can shape who gets hired and which wage opportunities persist",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Census Bureau and LinkedIn profile data on entrepreneurs, startup employees, wages, and social-background similarity",
+  "geography": "United States startups and workers",
+  "observations": [
+    {
+      "period": "Startup cohorts and worker outcomes; paper published July 2026; persistence observed at least 20 years",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. entrepreneurs, startups, and employees in linked Census and LinkedIn data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "female_employee_share_difference": {
+          "value": 36.4,
+          "unit": "percentage-point higher female employee share at female-founded startups after industry-by-metro-area-by-cohort controls",
+          "value_type": "reported_adjusted_difference"
+        },
+        "black_employee_share_difference": {
+          "value": 51.2,
+          "unit": "percentage-point corresponding estimate for Black employees",
+          "value_type": "reported_adjusted_difference"
+        },
+        "hispanic_employee_share_difference": {
+          "value": 37.3,
+          "unit": "percentage-point corresponding estimate for Hispanic employees",
+          "value_type": "reported_adjusted_difference"
+        },
+        "noncollege_employee_share_difference": {
+          "value": 11.3,
+          "unit": "percentage-point corresponding estimate for non-college employees",
+          "value_type": "reported_adjusted_difference"
+        },
+        "persistence": {
+          "value": "differences remain stable across new firm cohorts and persist at least 20 years",
+          "unit": "reported worker and firm-composition persistence",
+          "value_type": "reported_trend"
+        },
+        "wage_mechanism": {
+          "value": "demand drives the relative differences; new firms pay higher relative wages to workers from backgrounds similar to the entrepreneur",
+          "unit": "reported wage-decomposition interpretation",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "Census and LinkedIn profiles linked to worker and wage data; industry-by-metro-area-by-cohort fixed effects estimate background similarity in hiring. An AKM wage research design and group-specific wage decompositions are used to separate labor-demand and labor-supply explanations; a calibrated model assesses reduced entrepreneurship-access barriers.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not disclose all linkage, sample, founder-identification, measurement, or selection details. Similarity in founder and worker backgrounds does not by itself distinguish network trust, discrimination, preferences, information, geography, or occupational sorting.",
+      "subgroup": "Startup employees grouped by gender, race, ethnicity, age, education, and similarity to the entrepreneur; estimates are reported for female, Black, Hispanic, and non-college employees.",
+      "counterinterpretation": "Founders may recruit from familiar networks because of information, location, shared skills, or worker supply, not only exclusion. Similar-background hiring can coexist with higher relative wages for those workers, and the observed composition does not establish that other groups were rejected or harmed in every firm.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-45.html",
+      "retrieval_hash": "sha256:ec9d22e69866eaf285cf9445cef31f8e63492a8d5f8cf3dc9f4a4e305ab39eb8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6902858",
+      "claim": "The author-posted paper provides additional abstract context on persistence and modeled relative-wage effects; the Census landing page remains the primary source for this record.",
+      "status": "author-posted-context"
+    }
+  ],
+  "boundary": "This record adds a founder-background-to-hiring and wage-opportunity pathway. It does not establish discriminatory intent, unequal productivity, firm performance, worker wellbeing, intergenerational mobility, or a complete causal effect of entrepreneurship access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census working-paper landing page reviewed; linked Census, LinkedIn, and wage microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

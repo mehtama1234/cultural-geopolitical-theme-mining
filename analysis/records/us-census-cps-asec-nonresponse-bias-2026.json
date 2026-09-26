@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-cps-asec-nonresponse-bias-2026",
+  "title": "Survey nonresponse can make income look higher and poverty look lower even when year-to-year direction is mostly preserved",
+  "theme_ids": ["cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Census Bureau CPS ASEC administrative-record nonresponse-bias evaluation",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "CPS ASEC survey years 2017-2026; 2026 evaluation published September 15, 2026",
+      "denominator": {
+        "value": 100,
+        "unit": "CPS ASEC survey and linked occupied-address comparison frame; percentage and percentage-point measures are source-defined",
+        "value_type": "source_defined_comparison_base"
+      },
+      "measures": {
+        "weighted_response_rate_2026": {
+          "value": 61.3,
+          "unit": "percent weighted CPS ASEC response rate in 2026",
+          "value_type": "reported_rate"
+        },
+        "survey_only_income_upward_bias_since_2020": {
+          "value": "approximately 2% to 4%",
+          "unit": "difference between survey-only and nonresponse-adjusted income estimates across the distribution",
+          "value_type": "reported_range"
+        },
+        "median_income_bias_2026": {
+          "value": 2.8,
+          "unit": "percent by which survey-only median income exceeded the alternative nonresponse-adjusted estimate",
+          "value_type": "reported_estimate"
+        },
+        "poverty_rate_difference_2026": {
+          "value": 0.6,
+          "unit": "percentage points by which the survey-only poverty rate was lower than the alternative-weight estimate",
+          "value_type": "reported_difference"
+        },
+        "directional_trend_bias": {
+          "value": "year-to-year income and poverty changes were generally not significantly biased except for the 2019-2020 comparison",
+          "unit": "trend interpretation boundary",
+          "value_type": "reported_methodological_conclusion"
+        }
+      },
+      "method": "Census linked CPS ASEC responses to IRS earnings and income records, SSA Numident, the 2010 Census, and American Community Survey information; it compared standard survey-only estimates with alternative nonresponse-adjusted weights.",
+      "uncertainty": "Linked administrative data can only correct differences observed in the linked fields. Census describes the alternative weights as a benchmark for evaluating bias, not definitive truth; the 2026 adjustment uses 2024 records because 2025 administrative records were unavailable.",
+      "subgroup": "CPS ASEC respondents and nonrespondents compared through occupied-address and linked administrative records; the source reports distribution-wide and all-family estimates rather than a complete causal subgroup account.",
+      "counterinterpretation": "Lower response rates do not automatically create bias if respondents and nonrespondents are similar. The stable post-2020 bias means many year-to-year directions remain usable even though levels are shifted; adjusted estimates may also retain unmeasured bias.",
+      "source_url": "https://www.census.gov/newsroom/blogs/research-matters/2026/09/evaluating-nonresponse-bias.html",
+      "retrieval_hash": "sha256:7d315075f07963dcdb5e2656361ea25ba96e7f0677efd73ad48724f1b3abb745",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/programs-surveys/cps/technical-documentation/complete.html",
+      "claim": "CPS ASEC technical documentation supplies the survey design and weighting context for the nonresponse evaluation.",
+      "status": "method-context"
+    }
+  ],
+  "boundary": "This record establishes a measurement and nonresponse-bias boundary for national CPS ASEC income and poverty estimates. It does not identify each nonrespondent's experience, establish the true population values, or invalidate every year-to-year trend.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census Research Matters page retrieved and URL hash recorded; linked microdata and alternative weights are not retained",
+    "html_sha256": "sha256:7d315075f07963dcdb5e2656361ea25ba96e7f0677efd73ad48724f1b3abb745",
+    "checked": "2026-09-22"
+  }
+}

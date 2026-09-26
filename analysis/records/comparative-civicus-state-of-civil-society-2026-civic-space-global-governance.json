@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-civicus-state-of-civil-society-2026-civic-space-global-governance",
+  "title": "Shrinking civic space and contested global rules are shifting the cost of dissent toward civil society while resistance adapts",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": ["geopolitical_state_consequences", "political_judgment_action", "public_systems_feedback", "platforms_data_attention", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "CIVICUS, 2026 State of Civil Society Report",
+  "geography": "Global civil-society, civic-space, technology-governance, conflict, climate, migration, and gender-rights analysis",
+  "observations": [
+    {
+      "period": "2026; civic-space and civil-society operating conditions",
+      "denominator": {"value": 1, "unit": "global civil-society and civic-space assessment frame", "value_type": "civic_space_frame"},
+      "measures": {
+        "restriction_pattern": {"value": "civic space is described as increasingly restricted while activists, journalists, and ordinary people face rising costs of speaking out", "unit": "reported global pattern", "value_type": "reported_pattern"},
+        "funding_pressure": {"value": "civil-society organizations face a funding crisis as state and philanthropic support collapses or becomes more conditional", "unit": "reported institutional pressure", "value_type": "reported_mechanism"},
+        "trust_link": {"value": "disconnection from communities can weaken support and make civic-space restrictions easier to impose", "unit": "reported civic-capacity mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "CIVICUS global advocacy and civil-society synthesis drawing on country experiences, activist input, and thematic analysis.",
+      "uncertainty": "The report has an explicit civil-society advocacy standpoint and is not a probability sample or neutral causal index; country coverage, source selection, and normative framing shape comparisons.",
+      "subgroup": "Activists, journalists, human-rights defenders, community organizations, marginalized groups, funders, and people facing restrictions on association, expression, or assembly.",
+      "counterinterpretation": "Restrictions and funding pressure can coexist with legal wins, public mobilization, community support, and new forms of collective organization.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/download-report/",
+      "retrieval_hash": "sha256:1454d5ed815adf01d31b4bd163b21bd009c15196b3a511e10411826b2508442e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; technology governance and transnational power",
+      "denominator": {"value": 1, "unit": "global technology-governance assessment in the CIVICUS report", "value_type": "technology_governance_frame"},
+      "measures": {
+        "governance_gap": {"value": "rapid generative-AI expansion has exposed a fragmented regulatory landscape", "unit": "reported governance condition", "value_type": "reported_pattern"},
+        "risk_set": {"value": "AI and digital systems are linked to electoral disinformation, surveillance, military targeting, deepfake pornography, and hate-speech amplification", "unit": "reported risk set", "value_type": "reported_mechanism"},
+        "oversight_route": {"value": "civil society is calling for human-rights-based global standards and a central role in oversight", "unit": "reported governance response", "value_type": "reported_policy_direction"}
+      },
+      "method": "CIVICUS thematic analysis of technology, AI governance, civic rights, corporate accountability, and civil-society responses.",
+      "uncertainty": "The report identifies risks and political claims rather than estimating the prevalence or causal effect of each technology application; examples are selected for advocacy relevance.",
+      "subgroup": "Women and girls targeted by digital abuse, journalists, activists, conflict-affected communities, technology workers, states, corporations, and regulators.",
+      "counterinterpretation": "Digital tools can support fact-checking, war-crime documentation, missing-person identification, and civic coordination when rights and accountability protections exist.",
+      "source_url": "https://www.civicus.org/documents/reports-and-publications/SOCS/2026/state-of-civil-society-report-2026_en.pdf",
+      "retrieval_hash": "sha256:1454d5ed815adf01d31b4bd163b21bd009c15196b3a511e10411826b2508442e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; global governance, international rules, and state power",
+      "denominator": {"value": 1, "unit": "CIVICUS global-governance and international-rules assessment", "value_type": "global_rules_frame"},
+      "measures": {
+        "rules_pressure": {"value": "global governance rules and institutions are described as being tested by powerful states pursuing self-interest and disregarding international law", "unit": "reported geopolitical pattern", "value_type": "reported_pattern"},
+        "institutional_withdrawal": {"value": "state withdrawals and reduced financial support are described as weakening multilateral and human-rights functions", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"},
+        "civil_society_response": {"value": "civil society calls for stronger accountability, broader representation, Security Council reform, and systematic participation in global processes", "unit": "reported response set", "value_type": "reported_policy_direction"}
+      },
+      "method": "CIVICUS analysis of global governance, conflict, international law, multilateral institutions, and civil-society advocacy.",
+      "uncertainty": "Claims about state motives, legal compliance, and institutional decline are interpretive and advocacy-oriented; the report does not provide a standardized causal measure of global-order effectiveness.",
+      "subgroup": "States with different power positions, international institutions, civil-society groups, human-rights defenders, conflict-affected populations, and communities dependent on multilateral protection.",
+      "counterinterpretation": "International institutions can adapt, states can cooperate selectively, and civil-society pressure can produce legal and policy gains even during geopolitical contestation.",
+      "source_url": "https://www.civicus.org/documents/reports-and-publications/SOCS/2026/state-of-civil-society-report-2026_en.pdf",
+      "retrieval_hash": "sha256:1454d5ed815adf01d31b4bd163b21bd009c15196b3a511e10411826b2508442e",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; resistance, youth mobilization, and external response",
+      "denominator": {"value": 1, "unit": "global civil-society resistance and movement-response synthesis", "value_type": "collective_action_frame"},
+      "measures": {
+        "movement_change": {"value": "Gen Z movements are described as using collective leadership, decentralized decision-making, social media, and creative communications", "unit": "reported movement pattern", "value_type": "reported_pattern"},
+        "response_tools": {"value": "civil society uses fact-checking, litigation, early-warning systems, secure platforms, and community documentation to resist repression and misinformation", "unit": "reported response set", "value_type": "reported_mechanism"},
+        "sustainability": {"value": "sustaining resistance requires protecting people on the frontlines and avoiding movement exhaustion", "unit": "reported organizational constraint", "value_type": "reported_boundary"}
+      },
+      "method": "CIVICUS case synthesis of civic resistance, youth mobilization, technology use, litigation, and community-level responses.",
+      "uncertainty": "Examples of successful resistance do not establish generalizability, durability, or population-level political effects; movement visibility can be shaped by media and advocacy selection.",
+      "subgroup": "Gen Z activists, local organizers, journalists, human-rights defenders, communities targeted by disinformation, and civil-society networks.",
+      "counterinterpretation": "Decentralization can improve resilience but may also create coordination, accountability, safety, and resource challenges.",
+      "source_url": "https://publications.civicus.org/publications/2026-state-of-civil-society-report/download-report/",
+      "retrieval_hash": "sha256:1454d5ed815adf01d31b4bd163b21bd009c15196b3a511e10411826b2508442e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.civicus.org/index.php/media-resources/newsletters/8233-e-civicus-24-march-2026", "claim": "CIVICUS launch summary emphasizes rising repression, shrinking civic space, and adaptive resistance."},
+    {"source_url": "https://monitor.civicus.org/publications/", "claim": "CIVICUS Monitor provides complementary civic-space conditions and country-focused reporting."}
+  ],
+  "boundary": "This record adds an advocacy-informed geopolitical and state-consequences route linking civic space, technology governance, multilateral rules, repression, resistance, and external accountability. It is not a neutral country index, incident census, respondent political-attitudes dataset, or causal estimate of civic action or state behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official CIVICUS 2026 report and launch materials were reviewed; civic-space, technology-governance, global-rules, resistance, and methodological-standpoint claims were cross-checked.",
+    "source_url_sha256": "sha256:1454d5ed815adf01d31b4bd163b21bd009c15196b3a511e10411826b2508442e",
+    "checked": "2026-09-26"
+  }
+}

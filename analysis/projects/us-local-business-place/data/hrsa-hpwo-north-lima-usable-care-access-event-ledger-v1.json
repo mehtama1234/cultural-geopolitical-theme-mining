@@ -1,0 +1,44 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_provider_and_public_health_access_record",
+  "purpose": "Bounded organization/site access record tracing a primary-care shortage designation toward a named service route while preserving the open person-level booking and care stages.",
+  "events": [
+    {
+      "event_id": "HRSA-HPWO-NORTH-LIMA-ACCESS-2026-09-19",
+      "unit": "case",
+      "geography": "Allen County and Lima, Ohio; North Lima Community Health Center",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-19",
+      "date_precision": "current source snapshot date; administrative records and patient-facing pages have different publication clocks",
+      "denominator": "One named Ohio HPSA organization and one linked active service site; no patient or appointment denominator",
+      "method": "Structured extraction from HRSA administrative files and official Health Partners of Western Ohio patient-facing pages",
+      "missingness": "No person-level appointment, travel, wait, insurance adjudication, completed care, treatment continuity, health, household time/money, trust, or exit record is retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "A designated primary-care shortage organization is linked to an active named site with 72 listed weekly hours, while site schedule fields are unknown",
+      "alternatives_before_action": "The public route identifies phone and portal options and organization-level same-day, insurance, sliding-fee, and payment-plan policies; it does not show a patient-specific alternative provider or completed booking",
+      "immediate_burden_or_benefit": "Nominal service presence and a public contact route are visible; overlapping hour displays, inconsistent listed phone numbers, login-gated booking, unknown wait times, a limited/non-substitutive same-day policy, and proof-of-income requirements for continuing a discount create unresolved access friction",
+      "choice_or_response": "The organization directs patients to call the location or use the portal; its general email form does not schedule appointments. The medical page reports limited same-day appointments at each location but says Health Partners does not fill in for another community provider when that provider is unavailable",
+      "person_or_actor_with_control": "HRSA controls designation and site-record publication; the organization controls scheduling, phone/portal routing, insurance handling, and payment-plan implementation; the patient-level outcome is unobserved",
+      "remedy_or_institutional_response": "The public system and provider expose a named site, listed hours, services, contact route, organization-level affordability/new-patient policies, and a cost page with discounted and non-discounted medical estimates plus income-documentation rules",
+      "immediate_outcome": "The chain advances from shortage designation to organization identity, named active site, nominal hours, patient-facing services, and a phone/portal handoff",
+      "protected_outcome": "A potential care route and organization-level affordability policy are publicly visible",
+      "sacrificed_outcome": "Usable appointment access, schedule clarity, wait-time visibility, and completed care remain unverified; any health, work, or household burden is unknown",
+      "cost_risk_transfer": "Patients carry call, portal, waiting, travel, paperwork, and insurance-verification effort unless the organization absorbs it; the record cannot measure that transfer",
+      "later_outcome": "No later person-level care, continuity, health, or household recovery endpoint is public in this route",
+      "meaning_and_attribution": "The record supports an administrative-access interpretation but contains no patient-reported trust, dignity, blame, or meaning measure",
+      "public_or_collective_response": "Provider policy and public contact routes are observed; patient use, switching, complaint, or political action is not observed",
+      "counterexample": "An active provider with listed hours, affordability policies, limited same-day appointments, and published price estimates can coexist with unknown discount take-up, site-specific booking, wait, fallback, insurance, and completed-use stages",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "HRSA HPSA and service-site records plus official HPWO pages linked in the retained named-site access record; administrative and provider statements are not person-level utilization evidence",
+      "source_url": "https://hpwohio.org/location/north-lima-community-health-center"
+    }
+  ],
+  "arrows": [
+    {"arrow_id": "HRSA-HPWO-A-01", "from": "primary-care shortage designation", "to": "named Health Partners organization", "unit_held_constant": true, "time_order_valid": true, "evidence": "The HRSA HPSA row names Health Partners of Western Ohio, organization ID 0516380, in Allen County", "status": "observed", "counterexample": "A designation is not a person-level unmet-care or usable-access measure", "remaining_gap": "Patient need, attempted access, and completed care"},
+    {"arrow_id": "HRSA-HPWO-A-02", "from": "named organization", "to": "active North Lima service site", "unit_held_constant": true, "time_order_valid": true, "evidence": "The HRSA service-site record shares organization ID 0516380 and lists North Lima Community Health Center as active and permanent", "status": "observed", "counterexample": "An active site is not proof of an available appointment", "remaining_gap": "Site-specific scheduling, wait, insurance handling, and completed use"},
+    {"arrow_id": "HRSA-HPWO-A-03", "from": "active site with listed hours and provider policy", "to": "public phone/portal route", "unit_held_constant": true, "time_order_valid": true, "evidence": "The provider page lists services and phone contact; the contact page directs appointment requests to the location or login-gated patient portal", "status": "reported", "counterexample": "A contact route can exist without a visible slot, reconciled phone, or completed booking", "remaining_gap": "Phone reconciliation, public slot visibility, wait, and appointment completion"},
+    {"arrow_id": "HRSA-HPWO-A-04", "from": "public phone/portal route", "to": "completed care and later health or household recovery", "unit_held_constant": false, "time_order_valid": true, "evidence": "No person-level appointment, care, or later outcome record is retained", "status": "open", "counterexample": "Nominal capacity and organization policy do not establish usable care or recovery", "remaining_gap": "Patient insurance, appointment, wait, travel, completed care, continuity, health, work, household burden, trust, switching, and exit"}
+  ],
+  "boundary": "This ledger closes an administrative and patient-facing route from shortage designation to named site and contact handoff. It does not estimate access, utilization, care adequacy, or recovery.",
+  "storage_boundary": "No patient, appointment, portal, or clinical data is retained; only bounded public administrative/provider fields and explicit open stages are represented."
+}

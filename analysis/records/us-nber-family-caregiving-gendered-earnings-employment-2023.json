@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-family-caregiving-gendered-earnings-employment-2023",
+  "title": "Family caregiving is followed by different labor-market paths for women and men",
+  "theme_ids": ["time", "work", "cost"],
+  "program_theme_ids": ["care_health_reproduction", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "housing_place_mobility"],
+  "source_unit": "NBER Working Paper 31450; survey responses about family caregiving linked to administrative earnings records",
+  "geography": "United States family caregivers and matched comparison workers; long-term-care and labor-market trajectories",
+  "observations": [{
+    "period": "U.S. family caregiving and employment trajectories over a 25-year window around reported caregiving onset; paper issued 2023",
+    "denominator": {"value": 25, "unit": "years around reported caregiving-episode start", "value_type": "reported_followup_window"},
+    "measures": {
+      "data_linkage": {"value": "survey responses about family caregiving roles are linked to administrative earnings records", "unit": "caregiving-to-earnings longitudinal linkage", "value_type": "reported_method"},
+      "women_trajectory": {"value": "relative to a matched comparison group, family caregiving precedes a drop in both earnings and employment for women", "unit": "caregiving-associated labor trajectory", "value_type": "reported_comparison"},
+      "men_trajectory": {"value": "men enter family caregiving after experiencing significant labor-supply disruptions", "unit": "caregiving-entry timing and prior labor disruption", "value_type": "reported_comparison"},
+      "gender_difference": {"value": "employment trajectories around caregiving vary significantly by gender", "unit": "gender-differentiated labor trajectory", "value_type": "reported_finding"}
+    },
+    "method": "The authors link survey-reported family caregiving roles to administrative earnings records and estimate employment trajectories over a 25-year period around the reported start of a caregiving episode, using a matched comparison group.",
+    "uncertainty": "The abstract does not observe each caregiver's task, hours, care recipient outcome, paid-care alternative, leave, schedule, health, household support, savings, housing, or reason for labor change. Reported caregiving onset and labor trajectories do not alone establish that caregiving caused every earnings or employment change.",
+    "subgroup": "U.S. family caregivers and matched comparison workers, with gender-differentiated trajectories; effects may vary by care intensity, recipient relationship, income, race, disability, household structure, employer, and place.",
+    "counterinterpretation": "Women may reduce work after caregiving begins, while men may enter caregiving after prior labor disruption; these patterns can reflect selection, health, family roles, job structure, or care intensity rather than a single causal pathway. A labor decline is not a complete measure of caregiver or recipient welfare, and continued employment does not prove care was manageable.",
+    "source_url": "https://www.nber.org/papers/w31450",
+    "retrieval_hash": "sha256:20befac88bb6a965a9e3d767283485a5f7ed1b6a812e3e0911384ed5a5d7e027",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w31450", "claim": "NBER DOI record for Working Paper 31450", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a gender-differentiated caregiving-to-labor trajectory: women show earnings and employment declines relative to a matched comparison after reported caregiving onset, while men enter caregiving after prior labor-supply disruption. It does not identify the full care burden, recipient outcome, causal mechanism, household welfare, or best policy response."
+}

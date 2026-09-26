@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-consumption-wedges-low-liquidity-2026",
+  "title": "Low-liquidity households can spend both below and above a frictionless benchmark for different reasons",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "work_control_bargaining"],
+  "source_unit": "NBER Working Paper 34891; administrative transaction data linked to surveyed expectations for middle-income, low-liquidity U.S. consumers",
+  "geography": "United States; middle-income consumers with low liquid wealth in the study population",
+  "observations": [{
+    "period": "Study issued February 2026",
+    "denominator": {"value": 1, "unit": "U.S. transaction-and-expectations study population", "value_type": "study_unit"},
+    "measures": {
+      "median_wedge": {"value": "the median consumption wedge was 40% of frictionless consumption in absolute value", "unit": "absolute observed-minus-counterfactual consumption wedge", "value_type": "reported_estimate"},
+      "under_consumption": {"value": "49% of consumers had negative wedges, spending below the frictionless benchmark", "unit": "share of study consumers", "value_type": "reported_estimate"},
+      "over_consumption": {"value": "51% of consumers had positive wedges, spending above the frictionless benchmark", "unit": "share of study consumers", "value_type": "reported_estimate"},
+      "model_diagnosis": {"value": "borrowing constraints alone cannot explain both directions; present bias with borrowing constraints or consumption adjustment costs better fit the wedge properties", "unit": "diagnostic model comparison", "value_type": "reported_model_result"}
+    },
+    "method": "The authors develop a sufficient-statistics measure of individual wedges between observed and counterfactual frictionless consumption, using administrative transaction data linked to surveyed expectations, and compare how different models could generate the observed wedge pattern.",
+    "uncertainty": "The frictionless benchmark is model-based, not a bill or direct welfare measure. The study population is middle-income and low-liquidity rather than all U.S. households; transaction data do not identify every need, deadline, informal transfer, health or work consequence, or whether a positive wedge reflects necessary defensive spending.",
+    "subgroup": "Middle-income U.S. consumers with low liquid wealth; cash, credit, income timing, present bias, adjustment costs, household structure, and access to family support can differ within the study population.",
+    "counterinterpretation": "Under-consumption may reflect a cheaper choice or a deliberate adjustment, while over-consumption may reflect a needed repair, unavoidable price, or defensive purchase rather than excess demand. The model diagnosis narrows plausible mechanisms but does not identify the reason for a particular household transaction.",
+    "source_url": "https://www.nber.org/papers/w34891",
+    "retrieval_hash": "sha256:7b02b5c02f05cd4533be367257a5b84f18d263f5ea765142053477170cdc742f",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34891", "claim": "NBER DOI record for Working Paper 34891", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a low-liquidity measurement and mechanism finding: similar spending totals can conceal opposite deviations from a modeled benchmark. It does not identify each purchase's need, sacrifice, welfare effect, or later health, work, housing, debt, or political consequence."
+}

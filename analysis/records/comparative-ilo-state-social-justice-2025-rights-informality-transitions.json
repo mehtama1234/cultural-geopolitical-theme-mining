@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-ilo-state-social-justice-2025-rights-informality-transitions",
+  "title": "Social justice gains coexist with persistent informality, unequal power, weak bargaining rights, and transition risks",
+  "theme_ids": ["work", "cost", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "care_health_reproduction"
+  ],
+  "source_unit": "International Labour Organization, The State of Social Justice 2025: A Work in Progress",
+  "geography": "Global comparison of social-justice indicators, with qualitative findings from 17 countries",
+  "observations": [
+    {
+      "period": "1995-2024; poverty, child labour, and social capability",
+      "denominator": {"value": 1, "unit": "global population and worker/child-labour indicators summarized by the ILO", "value_type": "global_indicator_frame"},
+      "measures": {
+        "child_labour_1995": {"value": 20.6, "unit": "percent of children in child labour in 1995", "value_type": "reported_share"},
+        "child_labour_2024": {"value": 7.8, "unit": "percent of children in child labour in 2024", "value_type": "reported_share"},
+        "extreme_poverty": {"value": "fell from roughly four in ten people in 1995 to roughly one in ten in 2023", "unit": "reported global poverty trend", "value_type": "reported_change"},
+        "working_poverty_2024": {"value": 6.9, "unit": "percent of workers in working poverty in 2024", "value_type": "reported_share"}
+      },
+      "method": "ILO synthesis of global labour, poverty, education, rights, and capability indicators across multiple data systems and reference years.",
+      "uncertainty": "Indicators use different definitions, sources, and reference periods; global progress does not show distribution within countries or prove that social-justice institutions caused the changes.",
+      "subgroup": "Children, workers, people in poverty, countries and regions with different income and labour-market structures.",
+      "counterinterpretation": "Aggregate progress can coexist with insecurity, exclusion, and reversible gains; falling prevalence does not mean harms have disappeared or that affected groups experience equal access to rights.",
+      "source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025",
+      "retrieval_hash": "sha256:eb92d09a3cb85feb7e348412c2356cbf95ac1c9f411372a6da3a234173ff304f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2025; distribution, informality, and bargaining power",
+      "denominator": {"value": 1, "unit": "global working population and income/wealth distribution indicators", "value_type": "global_distribution_frame"},
+      "measures": {
+        "people_below_three_dollars": {"value": 800, "unit": "millions of people living on less than 3 US dollars per day", "value_type": "reported_estimate"},
+        "top_one_percent_income": {"value": 20, "unit": "percent of global income held by the top 1 percent", "value_type": "reported_share"},
+        "top_one_percent_wealth": {"value": 38, "unit": "percent of global wealth held by the top 1 percent", "value_type": "reported_share"},
+        "informal_employment": {"value": 58, "unit": "percent of workers in informal employment", "value_type": "reported_share"},
+        "collective_bargaining": {"value": "compliance scores for freedom of association and collective bargaining rights are deteriorating", "unit": "ILO reported rights trend", "value_type": "reported_status"}
+      },
+      "method": "ILO compilation of income, wealth, poverty, employment-status, and labour-rights indicators with analysis of distribution and institutions.",
+      "uncertainty": "Income and wealth shares, informality, and rights scores have different measurement frameworks and country coverage; they do not identify individual earnings, bargaining episodes, or enforcement outcomes.",
+      "subgroup": "Informal workers, low-income workers, workers lacking collective voice, and populations affected by wealth and income concentration.",
+      "counterinterpretation": "Informal work can provide entry and income where formal jobs are scarce, while formal status alone does not guarantee decent work, voice, or security.",
+      "source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025",
+      "retrieval_hash": "sha256:eb92d09a3cb85feb7e348412c2356cbf95ac1c9f411372a6da3a234173ff304f",
+      "status": "reported"
+    },
+    {
+      "period": "2025; justice, trust, and formal protections",
+      "denominator": {"value": 17, "unit": "countries contributing qualitative interviews and lived-justice evidence to the report", "value_type": "qualitative_country_frame"},
+      "measures": {
+        "institutional_trust": {"value": "interview evidence points to a widespread crisis of institutional trust", "unit": "report qualitative synthesis", "value_type": "reported_pattern"},
+        "formal_lived_gap": {"value": "workers report exclusion, mistreatment, and neglect despite strong legal frameworks", "unit": "report qualitative synthesis", "value_type": "reported_pattern"},
+        "justice_as_institutional_choice": {"value": "economic growth does not automatically produce justice; political will, institutional reform, and inclusive governance shape outcomes", "unit": "report analytical conclusion", "value_type": "reported_mechanism"}
+      },
+      "method": "ILO report synthesis of interviews from 17 countries alongside global social-justice indicators and labour-rights analysis.",
+      "uncertainty": "Interview findings are qualitative and purposive rather than representative of all workers; reported experiences should not be generalized into respondent-level prevalence or causal estimates.",
+      "subgroup": "Workers and institutions in 17 countries, with attention to exclusion, mistreatment, neglect, legal protections, and trust.",
+      "counterinterpretation": "Formal rights can provide an important platform for remedy even when implementation is incomplete; perceived injustice can vary with expectations, sector, identity, and local institutions.",
+      "source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025",
+      "retrieval_hash": "sha256:eb92d09a3cb85feb7e348412c2356cbf95ac1c9f411372a6da3a234173ff304f",
+      "status": "reported"
+    },
+    {
+      "period": "2025 onward; climate, technology, and demographic transitions",
+      "denominator": {"value": 3, "unit": "major societal transitions identified by the ILO report", "value_type": "transition_frame"},
+      "measures": {
+        "transitions": {"value": "climate, technological, and demographic transitions are expected to reshape work and justice", "unit": "report analytical scope", "value_type": "reported_framework"},
+        "institutional_response": {"value": "labour institutions should be applied, adapted, and amplified across transition policy silos", "unit": "report recommendation", "value_type": "reported_recommendation"},
+        "fair_distribution": {"value": "fair transition requires attention to how opportunities and risks are distributed across groups", "unit": "report analytical principle", "value_type": "reported_framework"}
+      },
+      "method": "ILO synthesis of labour institutions, social-justice indicators, and transition policy analysis.",
+      "uncertainty": "The framework identifies policy directions rather than estimating the effects of a specific reform; transition impacts vary by sector, geography, gender, age, skill, and institutional capacity.",
+      "subgroup": "Workers, employers, governments, social partners, communities, and people exposed to climate, technology, and demographic change.",
+      "counterinterpretation": "Existing institutions may be too rigid or unevenly accessible to manage new transitions; adaptation can expand inclusion but can also dilute protections if bargaining power is weak.",
+      "source_url": "https://www.ilo.org/research-and-publications/state-social-justice-2025",
+      "retrieval_hash": "sha256:eb92d09a3cb85feb7e348412c2356cbf95ac1c9f411372a6da3a234173ff304f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/employment-and-social-trends-2026", "claim": "ILO Employment and Social Trends 2026 provides complementary current labour-market and job-quality estimates."},
+    {"source_url": "https://www.ilo.org/publications/flagship-reports/world-social-protection-report-2024-26", "claim": "ILO World Social Protection Report 2024-26 provides complementary coverage and just-transition evidence."}
+  ],
+  "boundary": "This record adds a social-justice route linking poverty, informality, distribution, labour rights, institutional trust, and climate, technological, and demographic transitions. It uses aggregate indicators and a report-level qualitative synthesis, not respondent-level interview analysis, individual worker histories, causal institutional estimates, or claims that legal protection guarantees lived justice.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official ILO State of Social Justice 2025 page and report summary were reviewed for poverty, child labour, informality, distribution, bargaining rights, interview scope, institutional trust, and fair-transition claims.",
+    "source_url_sha256": "sha256:eb92d09a3cb85feb7e348412c2356cbf95ac1c9f411372a6da3a234173ff304f",
+    "checked": "2026-09-26"
+  }
+}

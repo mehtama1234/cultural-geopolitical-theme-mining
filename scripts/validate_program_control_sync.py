@@ -95,6 +95,13 @@ def main() -> int:
     next_queue = (ROOT / "analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md").read_text(encoding="utf-8")
     review_packet = (ROOT / "REVIEW-PACKET_CURRENT-THEMES_V1.md").read_text(encoding="utf-8")
     recovery_brief = (ROOT / "END_TO_END_PROGRAM_RECOVERY_BRIEF_V1.md").read_text(encoding="utf-8")
+    reader = (ROOT / "analysis/US-BROAD-INTERESTING-FINDINGS_V1.md").read_text(encoding="utf-8")
+    plain_summary = (ROOT / "analysis/US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.md").read_text(encoding="utf-8")
+    research_pass = (ROOT / "analysis/US-BROAD-RESEARCH-PASS_V1.md").read_text(encoding="utf-8")
+    duplication_audit = (ROOT / "analysis/US-BROAD-READER-DUPLICATION-AUDIT_V1.md").read_text(encoding="utf-8")
+    theme_pulse = (ROOT / "analysis/US-BROAD-CURRENT-THEME-PULSE_V1.md").read_text(encoding="utf-8")
+    current_status_site = (ROOT / "site/US-BROAD-CURRENT-STATUS-AUDIT_V1.html").read_text(encoding="utf-8")
+    signals = (ROOT / "analysis/US-BROAD-LATEST-CROSS-DOMAIN-SIGNALS_2026-09-20.md").read_text(encoding="utf-8")
     big_picture = (ROOT / "analysis/us-big-picture-synthesis.md").read_text(encoding="utf-8")
     big_picture_site = (ROOT / "site/us-big-picture-synthesis.html").read_text(encoding="utf-8")
     connections = json.loads((ROOT / "manifests/us-theme-connections.json").read_text(encoding="utf-8"))
@@ -146,6 +153,30 @@ def main() -> int:
         validate_local_markdown_count(current_status, markdown_files)
     except ValueError as error:
         raise SystemExit(str(error)) from error
+    finding_count = len(re.findall(r"^## \d+\. ", reader, re.M))
+    expected_reader_phrase = f"{finding_count} contiguous numbered findings"
+    if expected_reader_phrase not in current_status or expected_reader_phrase not in current_status_site:
+        raise SystemExit("current-status reader finding count is stale")
+    if f"plain-language reader has {finding_count}" not in theme_pulse:
+        raise SystemExit("theme pulse reader finding count is stale")
+    if f"companion [{finding_count}-finding\nreader]" not in plain_summary:
+        raise SystemExit("plain-language atlas reader count is stale")
+    if f"The breadth reader now contains {finding_count} numbered plain-language findings" not in research_pass:
+        raise SystemExit("research-pass reader finding count is stale")
+    if f"The reader contains **{finding_count} numbered headings** and **{finding_count} distinct heading" not in duplication_audit:
+        raise SystemExit("reader-duplication audit finding count is stale")
+    if f"current reader contains {finding_count}\nnumbered findings" not in next_queue:
+        raise SystemExit("next-pass queue reader finding count is stale")
+    signal_count = sum(
+        1
+        for line in signals.splitlines()
+        if line.startswith("| ") and not line.startswith("| Signal |") and not line.startswith("|---")
+    )
+    expected_signal_heading = f"## {number_words(signal_count).capitalize()} signals now visible"
+    if expected_signal_heading not in signals:
+        raise SystemExit("cross-domain signal count is stale")
+    if f"latest cross-domain memo contains {signal_count} bounded signals" not in next_queue:
+        raise SystemExit("next-pass queue signal count is stale")
     expected_big_picture = f"{edge_count} recorded cross-topic links"
     if expected_big_picture not in big_picture:
         raise SystemExit("big-picture synthesis connection count is stale")

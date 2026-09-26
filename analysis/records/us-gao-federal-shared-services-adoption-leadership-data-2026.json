@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-shared-services-adoption-leadership-data-2026",
+  "title": "A centralized federal service marketplace can exist while adoption, leadership, and performance evidence remain uneven",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108014 review of government-wide federal shared-service adoption, Quality Service Management Offices, GSA coordination, and selected agency questionnaires",
+  "geography": "United States federal government; shared cybersecurity, financial-management, grants-management, and human-resources services",
+  "observations": [
+    {
+      "period": "As of July 2025 adoption picture and February 2026 GAO review",
+      "denominator": {
+        "value": 8,
+        "unit": "Agencies questioned: six randomly selected agencies and two selected for extensive shared-service experience; government-wide adoption records were also reviewed",
+        "value_type": "surveyed_agency_count"
+      },
+      "measures": {
+        "adoption": {
+          "value": "agency and component adoption varied by functional area across cybersecurity, financial management, grants management, and human resources",
+          "unit": "government-wide adoption comparison",
+          "value_type": "reported_variation"
+        },
+        "reported_benefits": {
+          "value": "agencies reported operational efficiencies and cost savings as potential or experienced benefits",
+          "unit": "agency-reported benefit categories",
+          "value_type": "reported_pattern"
+        },
+        "adoption_challenges": {
+          "value": "agencies cited difficulty finding services that met legal, technical, and operational needs, legacy IT systems, and integration challenges",
+          "unit": "agency-reported challenge categories",
+          "value_type": "reported_pattern"
+        },
+        "governance_and_data": {
+          "value": "key leadership roles remained unfilled and GSA and agencies lacked comprehensive data on how well shared services met agency needs",
+          "unit": "GAO governance and measurement finding",
+          "value_type": "reported_gap"
+        },
+        "realized_savings": {
+          "value": "not established by the review; the 2019 OMB estimate of $1.25-$7.5 billion in possible savings is not an observed outcome here",
+          "unit": "missing validated government-wide savings and service-quality result",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO analysis of GSA and Quality Service Management Office documentation, government-wide adoption records, questionnaires to six randomly selected and two experienced agencies, comparison with OMB guidance, and interviews with agency officials.",
+      "uncertainty": "The agency questionnaire is not a complete census of user experience, and reported benefits and challenges are not standardized performance measures. Adoption can reflect agency need, legal requirements, legacy systems, service availability, or leadership rather than a single efficiency effect.",
+      "subgroup": "Federal customer agencies and components across four shared-service functional areas; lead agencies, GSA, OMB, and agencies with different operational and legal requirements.",
+      "counterinterpretation": "Centralization may reduce duplication or costs while also reducing local fit, flexibility, or accountability. An unfilled leadership role or missing performance data limits learning, but does not prove that shared services are ineffective or that local systems would perform better.",
+      "source_url": "https://www.gao.gov/products/gao-26-108014",
+      "retrieval_hash": "sha256:214748443067e07c589da1a41096731d5f5135f478d3918c2adf03394fd3b8a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures federal shared-service adoption, reported challenges, governance gaps, and missing performance data. It does not establish realized savings, service quality, employee experience, mission performance, or a universal advantage of centralization."
+}

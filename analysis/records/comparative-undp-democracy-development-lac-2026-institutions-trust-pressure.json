@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-democracy-development-lac-2026-institutions-trust-pressure",
+  "title": "Democratic resilience in Latin America and the Caribbean depends on converting representation, state capacity, and development into legitimate results under compound pressure",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "public_systems_feedback", "trust_identity_meaning", "geopolitical_state_consequences", "unequal_exposure_status"],
+  "source_unit": "UNDP Latin America and the Caribbean, Democracies Under Pressure: Democracy and Development Report 2026",
+  "geography": "Latin America and the Caribbean, with regional comparisons of democratic institutions, state capacity, human development, information, security, mobility, and climate pressures",
+  "observations": [
+    {
+      "period": "2026; regional democratic baseline",
+      "denominator": {"value": 1, "unit": "people and countries in Latin America and the Caribbean covered by the UNDP regional report", "value_type": "regional_democracy_frame"},
+      "measures": {
+        "people_living_in_democracy": {"value": 80, "unit": "percent or more of the regional population living in democracy", "value_type": "reported_regional_share_lower_bound"},
+        "regional_position": {"value": "Latin America and the Caribbean is the most democratic region in the developing world", "unit": "reported comparative position", "value_type": "reported_comparative_pattern"},
+        "democracy_development_triangle": {"value": "democracy, the State, and human development form an interdependent triangle", "unit": "reported analytical framework", "value_type": "reported_mechanism"}
+      },
+      "method": "UNDP regional synthesis of democratic institutions, human development, state capacity, and political pressures in Latin America and the Caribbean.",
+      "uncertainty": "The regional baseline is a broad comparative description; living in a democracy does not establish equal representation, state performance, personal security, or satisfaction with institutions.",
+      "subgroup": "Countries, subnational governments, political institutions, communities, civil society, and populations experiencing different levels of development and state reach.",
+      "counterinterpretation": "A strong democratic baseline can provide institutional resources for renewal even when democratic quality is uneven; institutional weakness does not imply inevitable democratic breakdown.",
+      "source_url": "https://www.undp.org/latin-america/democracy-and-development-report-2026",
+      "retrieval_hash": "sha256:bb28fb7a8fff0e178ea8ce9730f6b7f9e4d5614225403a57c23cd471a2c7b5e4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; gradual democratic weakening and institutional conversion",
+      "denominator": {"value": 1, "unit": "democratic systems and institutional processes examined in the UNDP report", "value_type": "institutional_erosion_frame"},
+      "measures": {
+        "weakening_pattern": {"value": "questioning of elections, erosion of electoral authorities, concentration of power in personalist leaderships, and weakening checks and balances", "unit": "reported institutional pressure set", "value_type": "reported_mechanism"},
+        "structural_deficits": {"value": "political inequality, weak representation, and fragmented state capacities reinforce one another", "unit": "reported structural relationship", "value_type": "reported_mechanism"},
+        "legitimacy_conversion": {"value": "strong democracy turns votes into legitimate decisions, institutions into results, and development into trust", "unit": "reported end-to-end political pathway", "value_type": "reported_framework"}
+      },
+      "method": "UNDP institutional and development analysis of democratic consolidation, weakening processes, representation, state capacity, and legitimacy.",
+      "uncertainty": "The report identifies interacting mechanisms rather than estimating a single causal effect or predicting the timing of institutional change in a particular country.",
+      "subgroup": "Voters, parties, electoral authorities, legislatures, executives, courts, civil society, and populations facing unequal political representation or state services.",
+      "counterinterpretation": "Checks can be rebuilt through electoral reforms, social organization, judicial independence, local capacity, and successful service delivery; institutional stress can produce adaptation as well as erosion.",
+      "source_url": "https://www.undp.org/latin-america/democracy-and-development-report-2026",
+      "retrieval_hash": "sha256:bb28fb7a8fff0e178ea8ce9730f6b7f9e4d5614225403a57c23cd471a2c7b5e4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; compound pressures redistributing political power",
+      "denominator": {"value": 1, "unit": "regional political and social systems covered by the UNDP report", "value_type": "compound_pressure_frame"},
+      "measures": {
+        "pressure_set": {"value": "political polarization, transformation of the information ecosystem, organized crime, human mobility, and the triple planetary crisis", "unit": "reported concurrent pressure set", "value_type": "reported_mechanism"},
+        "power_redistribution": {"value": "the pressures change who holds power, how it is exercised, and how it shapes public life", "unit": "reported political mechanism", "value_type": "reported_mechanism"},
+        "interaction": {"value": "new pressures intensify pre-existing political inequality, weak representation, and fragmented state capacities", "unit": "reported interaction pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "UNDP cross-domain regional synthesis linking democratic institutions to information, security, migration, and planetary pressures.",
+      "uncertainty": "The pressure set is analytically broad and does not assign uniform effects across countries, groups, or institutional levels; correlations among pressures do not identify a single driver.",
+      "subgroup": "Political institutions, media and information systems, communities affected by organized crime, migrants, climate-vulnerable populations, and public authorities.",
+      "counterinterpretation": "Mobility, information networks, and social mobilization can also widen voice, accountability, and problem-solving capacity when institutional channels remain open.",
+      "source_url": "https://www.undp.org/latin-america/democracy-and-development-report-2026",
+      "retrieval_hash": "sha256:bb28fb7a8fff0e178ea8ce9730f6b7f9e4d5614225403a57c23cd471a2c7b5e4",
+      "status": "reported"
+    },
+    {
+      "period": "2026; strategic institutional response",
+      "denominator": {"value": 1, "unit": "UNDP regional democracy-and-development response framework", "value_type": "institutional_response_frame"},
+      "measures": {
+        "strategic_priority": {"value": "guarantee electoral integrity", "unit": "reported strategic priority", "value_type": "reported_policy_priority"},
+        "critical_nodes": {"value": "rebuild political representation; restrain economic power; recover state control; revitalize deliberation and the information ecosystem; reinforce institutional checks and balances", "unit": "five reported critical nodes", "value_type": "reported_policy_framework"},
+        "delivery_test": {"value": "transform pressure into renewal and promises into results", "unit": "reported implementation test", "value_type": "reported_framework"}
+      },
+      "method": "UNDP report recommendations and strategic response framework for democratic resilience and human development.",
+      "uncertainty": "Recommended nodes are not evidence that reforms have been implemented or will have equal effects; political feasibility, sequencing, and local capacity vary by country.",
+      "subgroup": "Electoral authorities, political parties, legislatures, executives, courts, media, civil society, local governments, and communities seeking accountable development.",
+      "counterinterpretation": "Different countries may require different sequencing, and formal institutional reform may fail without social coalitions, resources, security, and visible improvements in daily public life.",
+      "source_url": "https://www.undp.org/latin-america/democracy-and-development-report-2026",
+      "retrieval_hash": "sha256:bb28fb7a8fff0e178ea8ce9730f6b7f9e4d5614225403a57c23cd471a2c7b5e4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-04/score_2025-executive_summary.pdf", "claim": "UNDP SCORE social-cohesion evidence provides a complementary trust, legitimacy, and institutional-cohesion measurement route."},
+    {"source_url": "https://www.undp.org/latin-america/democracy-and-development-report-2026", "claim": "Official report page and regional Democracy and Development Report 2026 materials."}
+  ],
+  "boundary": "This record adds a regional institutional route linking electoral integrity, representation, state capacity, information, organized crime, mobility, climate pressure, development, and trust. It uses the report’s aggregate institutional analysis only; it does not analyze the optional public quiz, the underlying citizen responses, or respondent-level microdata.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP Democracy and Development Report 2026 page and report framing were reviewed; democratic baseline, erosion mechanisms, compound pressures, critical nodes, and the democracy-to-results pathway were cross-checked.",
+    "source_url_sha256": "sha256:bb28fb7a8fff0e178ea8ce9730f6b7f9e4d5614225403a57c23cd471a2c7b5e4",
+    "checked": "2026-09-26"
+  }
+}

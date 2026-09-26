@@ -113,6 +113,13 @@ and work prevention but lower paid child care than stable nonreceipt. This is a
 composition-sensitive care/work boundary, not evidence that receipt caused the
 constraint; entry and exit cells are too sparse for promotion.
 
+The [work-capacity and children finding](findings/us-safety-net-access-018.md)
+adds a second capacity-sensitive comparison. Among stable SNAP records, the
+work-limiting/children-present group reports higher following-month
+rent/mortgage and utility hardship than the stable-SNAP group with neither
+marker. The comparison is descriptive and selected, but it shows why a benefit
+status must be read together with usable work capacity and household demands.
+
 The [SNAP administrative-burden paper scan](snap-administrative-burden-paper-scan-v1.md)
 adds route-level evidence from experiments, administrative records, and
 quasi-experimental office changes. Flexible interviews, office proximity,

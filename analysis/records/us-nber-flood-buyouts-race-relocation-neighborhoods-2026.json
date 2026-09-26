@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-flood-buyouts-race-relocation-neighborhoods-2026",
+  "title": "Flood buyouts can reduce physical exposure while distributing compensation and relocation gains unequally",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "public_systems_feedback", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 35726; federal property acquisitions, housing sales, restricted-use Census microdata, and individual movement records",
+  "geography": "United States; nationwide federal flood-property buyouts and post-buyout neighborhood movement",
+  "observations": [{
+    "period": "federal flood buyouts and longer-run moves studied through 2026; paper issued September 2026",
+    "denominator": {"value": 1, "unit": "nationwide federal-buyout and mobility study", "value_type": "study_unit"},
+    "measures": {
+      "compensation_gap": {"value": "households of color received at least 6% lower buyout compensation than White households", "unit": "compensation relative to property fair-market value", "value_type": "reported_estimate"},
+      "white_relocation": {"value": "White participants relocated to higher-quality neighborhoods and were better off than White nonparticipants", "unit": "post-buyout neighborhood comparison", "value_type": "reported_comparison"},
+      "black_relocation": {"value": "Black participants moved to worse neighborhoods and were worse off than Black nonparticipants", "unit": "post-buyout neighborhood comparison", "value_type": "reported_comparison"},
+      "policy_interface": {"value": "the study treats buyouts as a climate-adaptation policy whose compensation and relocation route can shape longer-run neighborhood outcomes", "unit": "policy-to-mobility mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors combine nationwide administrative data on federal property acquisitions, housing sales transactions, restricted-use Census microdata, and a database tracking individual movement over time. They compare buyout compensation with fair-market value and examine neighborhood outcomes by race and participation.",
+    "uncertainty": "This is a working paper and the public abstract does not provide every specification, sample restriction, or mechanism. The reported comparisons do not by themselves establish why compensation differs, whether every participant had a comparable alternative, or whether all later wellbeing outcomes moved with neighborhood quality.",
+    "subgroup": "White, Black, and other households of color participating or not participating in federal flood-property buyouts; race, property characteristics, local housing markets, program administration, and destination neighborhoods vary.",
+    "counterinterpretation": "Differences may reflect property appraisal, bargaining, timing, selection into buyouts, prior wealth, local market conditions, eligibility, or unmeasured household constraints. A move to a higher- or lower-quality neighborhood is not the same as improved or worsened health, security, belonging, or political trust.",
+    "source_url": "https://www.nber.org/papers/w35726",
+    "retrieval_hash": "sha256:30e795cc18963c6b7e5ca2816515731b50da5a96d309f5d867af0cdb8e7301cd",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35726", "claim": "NBER DOI record for Working Paper 35726", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a climate-adaptation and unequal-mobility finding: leaving physical flood exposure can still involve unequal compensation and destination outcomes. It does not establish a universal racial mechanism, a causal effect of every buyout program, or complete household wellbeing after relocation."
+}

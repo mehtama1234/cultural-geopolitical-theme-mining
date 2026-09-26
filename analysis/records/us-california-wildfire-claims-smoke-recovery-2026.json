@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-california-wildfire-claims-smoke-recovery-2026",
+  "title": "Wildfire insurance payments and new smoke rules can advance before safe household recovery is visible",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "California Department of Insurance wildfire claims tracker, State Farm claim investigation, and Smoke Damage Recovery Act announcement; aggregate claims, sampled regulatory review, and statewide legal response are separate units",
+  "geography": "Los Angeles County Eaton and Palisades wildfire claims and California statewide insurance regulation",
+  "observations": [
+    {
+      "period": "Updated July 6, 2026; Eaton and Palisades wildfire claims",
+      "denominator": {"value": 41727, "unit": "reported claims across home, business, living-expense, auto, and other disaster-related claims", "value_type": "published_count"},
+      "measures": {
+        "claims_filed": {"value": 41727, "unit": "reported claims", "value_type": "published_count"},
+        "claims_partially_paid": {"value": 40482, "unit": "reported claims partially paid", "value_type": "published_count"},
+        "claims_paid_to_date": {"value": 25200000000, "unit": "dollars paid to date", "value_type": "published_total"},
+        "claim_payment_stage": {"value": "partial payments and advance payments are visible; final adequacy, repair, and safe return are not", "unit": "claims-tracker status boundary", "value_type": "reported_boundary"}
+      },
+      "method": "California Department of Insurance claims tracker reports insurer-supplied aggregate claims and payment totals; the categories include multiple claim types and are not a unique-household or completed-recovery panel.",
+      "uncertainty": "The source says claims payments will grow as rebuilding progresses. It does not show claim-level payment adequacy, final settlement, repair completion, safe occupancy, renewal, or a stay/move outcome.",
+      "subgroup": "Eaton and Palisades fire-related claims across residential, commercial, living-expense, auto, and other disaster-related categories; the published aggregate does not identify household resources or property-level outcomes.",
+      "counterinterpretation": "Partial payment may be an appropriate interim step rather than an inadequate settlement, and aggregate dollars cannot establish either a recovery rate or a typical household experience.",
+      "source_url": "https://www.insurance.ca.gov/01-consumers/180-climate-change/Wildfire-Claims-Tracker.cfm",
+      "retrieval_hash": "sha256:10a5c5239fec5f04b5c779cc905be2dda43b427c477d2e84ceacb7e8d5d63e1e",
+      "status": "reported"
+    },
+    {
+      "period": "2026; State Farm investigation and statewide smoke-damage rule",
+      "denominator": {"value": 220, "unit": "State Farm claims reviewed in the Department's investigation sample", "value_type": "published_sample_count"},
+      "measures": {
+        "sampled_claim_violations": {"value": 398, "unit": "violations identified across 114 reviewed claims", "value_type": "published_count"},
+        "reported_problem_types": {"value": "underpayment, delayed investigation, adjuster changes, smoke-damage disputes, and inadequate communication", "unit": "regulatory findings", "value_type": "reported_categories"},
+        "smoke_damage_recovery_act": {"value": "signed into law", "unit": "statewide legal response establishing smoke-damage claim and inspection standards", "value_type": "reported_legal_action"},
+        "household_recovery": {"value": "not observed", "unit": "property-level safe repair, occupancy, and stable housing outcome", "value_type": "unmeasured"}
+      },
+      "method": "California Department of Insurance investigation and official law announcement; the investigation sample, aggregate tracker, and statewide legal response are not pooled into one denominator.",
+      "uncertainty": "A regulatory sample is not a statewide violation rate. Enacting a standard does not establish compliance, contractor availability, payment, testing, remediation, or safe return at any property.",
+      "subgroup": "State Farm policyholders in the reviewed sample and California wildfire survivors covered by the new statewide smoke-damage framework; the records do not follow the same claim through the law's implementation.",
+      "counterinterpretation": "The investigation may identify serious problems in selected claims while many other claims proceed adequately; a new legal standard may improve future handling even before property-level outcomes are measurable.",
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/2026/release019-2026.cfm",
+      "retrieval_hash": "sha256:f3daabab7d333257ba827b4002de53f5ee12dce965ef1647808a9c698a6a0c18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.insurance.ca.gov/0400-news/0100-press-releases/release031-2026.cfm",
+      "claim": "California announced that AB 1795 was signed and described its smoke-damage presumption and inspection and claim-handling timelines.",
+      "status": "official-implementation-context"
+    }
+  ],
+  "boundary": "This record establishes aggregate insurance payments, a sampled claim-handling investigation, and a statewide smoke-damage legal response. It does not establish a property-level payment rate, repair completion, safe occupancy, health result, renewed coverage, displacement, trust, or political action.",
+  "retrieval_hash": "sha256:10a5c5239fec5f04b5c779cc905be2dda43b427c477d2e84ceacb7e8d5d63e1e"
+}

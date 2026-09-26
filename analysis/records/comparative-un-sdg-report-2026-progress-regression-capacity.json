@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg-report-2026-progress-regression-capacity",
+  "title": "Public systems can deliver large-scale gains, but uneven progress and compounding crises are pushing many development outcomes off track",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "housing_place_mobility",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "political_judgment_action"
+  ],
+  "source_unit": "UN DESA, The Sustainable Development Goals Report 2026",
+  "geography": "Global and regional monitoring of the 2030 Agenda using the UN global indicator framework",
+  "observations": [
+    {
+      "period": "2015-2025; public-system gains across selected global SDG indicators",
+      "denominator": {
+        "value": 1,
+        "unit": "global SDG monitoring frame with selected indicators and regional aggregates",
+        "value_type": "global_indicator_monitoring_frame"
+      },
+      "measures": {
+        "safely_managed_water_gain": {"value": 1000000000, "unit": "approximately additional people gaining access to safely managed drinking water since 2015", "value_type": "reported_global_gain"},
+        "safely_managed_sanitation_gain": {"value": 1200000000, "unit": "approximately additional people gaining access to safely managed sanitation since 2015", "value_type": "reported_global_gain"},
+        "electricity_access": {"value": 92, "unit": "percent of the world's population with electricity access", "value_type": "reported_global_share"},
+        "internet_access_change": {"value": "from 40% to 74%", "unit": "global population internet-access share change since 2015", "value_type": "reported_global_change"},
+        "social_protection_coverage": {"value": "more than half", "unit": "share of global population covered by at least one social-protection benefit, reported as a first historical majority", "value_type": "reported_global_share"}
+      },
+      "method": "UN DESA compilation of the latest available official and international-agency data under the global SDG indicator framework, with selected global and regional aggregates.",
+      "uncertainty": "Indicator definitions, time coverage, data availability, and national reporting quality differ across goals; aggregate access does not establish reliability, affordability, adequacy, quality, or equal use.",
+      "subgroup": "Populations gaining or lacking water, sanitation, electricity, internet, and social-protection access across countries, regions, income groups, and other unequal exposure categories.",
+      "counterinterpretation": "Coverage gains can coexist with intermittent service, exclusion, unaffordable use, unsafe quality, weak remedy, or unequal distribution; access is not the same as usable outcome.",
+      "source_url": "https://desapublications.un.org/publications/sustainable-development-goals-report-2026",
+      "retrieval_hash": "sha256:d4fcaffc3008a4cb6b1d720cf71324403aa080ad673ece37095c5e2486aa3bbf",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2026; global SDG target trajectory",
+      "denominator": {
+        "value": 139,
+        "unit": "SDG targets with sufficient trend data for the report's global progress assessment",
+        "value_type": "global_target_monitoring_frame"
+      },
+      "measures": {
+        "on_track_or_moderate": {"value": 36, "unit": "percent of targets on track or showing moderate progress", "value_type": "reported_target_share"},
+        "too_slow": {"value": 49, "unit": "percent of targets advancing too slowly", "value_type": "reported_target_share"},
+        "regressed": {"value": 15, "unit": "percent of targets regressed below 2015 baselines", "value_type": "reported_target_share"}
+      },
+      "method": "UN DESA assessment of available trend data for 139 SDG targets, compared with 2015 baselines and target trajectories.",
+      "uncertainty": "Only targets with sufficient trend data enter this assessment; percentages summarize target trajectories and should not be read as a single population-weighted welfare score.",
+      "subgroup": "Countries, regions, institutions, and populations affected by different SDG trajectories, data availability, conflict, climate, debt, financing, and implementation capacity.",
+      "counterinterpretation": "The aggregate trajectory does not mean every goal is stalled: progress can be rapid in some sectors and places while regression or stagnation persists elsewhere.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/",
+      "retrieval_hash": "sha256:d4fcaffc3008a4cb6b1d720cf71324403aa080ad673ece37095c5e2486aa3bbf",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; development pressure, exclusion, and implementation capacity",
+      "denominator": {
+        "value": 1,
+        "unit": "global SDG challenge and implementation-capacity frame",
+        "value_type": "global_development_pressure_frame"
+      },
+      "measures": {
+        "out_of_school": {"value": 273000000, "unit": "children and young people remaining out of school globally", "value_type": "reported_global_estimate"},
+        "youth_neet": {"value": 20, "unit": "approximately percent of young people aged 15-24 not in employment, education, or training", "value_type": "reported_global_share"},
+        "oda_decline": {"value": -23.1, "unit": "percent change in official development assistance in 2025, reported as a record annual decline", "value_type": "reported_global_change"},
+        "urban_informal_settlement": {"value": 1160000000, "unit": "approximately people living in slums or informal settlements", "value_type": "reported_global_estimate"},
+        "forcibly_displaced": {"value": 117800000, "unit": "people forcibly displaced as of December 2025", "value_type": "reported_global_estimate"}
+      },
+      "method": "UN DESA synthesis of education, youth transition, development finance, housing, displacement, conflict, climate, and institutional implementation indicators.",
+      "uncertainty": "These indicators use different reference dates and definitions and cannot be summed into one composite burden; causation and local implementation pathways require separate evidence.",
+      "subgroup": "Children and youth, informal-settlement residents, displaced populations, aid-dependent countries, conflict-affected communities, and governments with constrained fiscal or institutional capacity.",
+      "counterinterpretation": "Aggregate pressure can be reduced through targeted investment, peace, data systems, technology access, international cooperation, and scaling proven interventions; the report is not a claim of inevitable failure.",
+      "source_url": "https://www.un.org/sustainabledevelopment/blog/2026/07/press-release-sdgs-report-2026/",
+      "retrieval_hash": "sha256:d4fcaffc3008a4cb6b1d720cf71324403aa080ad673ece37095c5e2486aa3bbf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/file/22600/download", "claim": "Official UN DESA report PDF."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/note-to-reader/", "claim": "Indicator framework, data vintage, and interpretation notes."}
+  ],
+  "boundary": "This record adds a public-system-results-to-uneven-progress, implementation-capacity, and crisis-pressure route. It is not a respondent-level dataset, does not measure service reliability or individual benefit receipt, and does not establish that any single crisis caused a specific SDG trajectory.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA publication page, UN SDG report platform, press release, report PDF URL, and note-to-reader were retrieved; global gains, target trajectory shares, out-of-school, youth transition, aid, informal-settlement, and displacement claims were cross-checked against official materials.",
+    "source_url_sha256": "sha256:d4fcaffc3008a4cb6b1d720cf71324403aa080ad673ece37095c5e2486aa3bbf",
+    "checked": "2026-09-26"
+  }
+}

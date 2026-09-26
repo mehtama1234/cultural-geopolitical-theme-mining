@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-medicaid-renewal-outreach-administrative-burden-2026",
+  "title": "Navigator outreach can convert administrative help into Medicaid renewal, with uneven contact reach",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 34191, Navigating Medicaid: Experimental Evidence on Administrative Burden and Coverage Loss; J-PAL evaluation summary of the Wisconsin field experiment",
+  "geography": "United States research context; Wisconsin Medicaid fee-for-service renewal population",
+  "observations": [
+    {
+      "period": "June 2023–June 2024 Medicaid renewal deadlines; NBER revision July 2026; J-PAL evaluation page checked September 2026",
+      "denominator": {
+        "value": 92957,
+        "unit": "fee-for-service Medicaid beneficiaries in 80,016 households facing renewal deadlines",
+        "value_type": "field_experiment_participants"
+      },
+      "measures": {
+        "randomized_call_sample": {
+          "value": 62499,
+          "unit": "individuals in 55,310 households for whom receipt of a prerecorded assistance call was randomized; call arm stopped early after effectiveness evidence",
+          "value_type": "randomized_sample"
+        },
+        "renewal_effect": {
+          "value": "+1.0 percentage point, from a 67.8% baseline; 1.5% relative increase",
+          "unit": "Medicaid renewal rate, prerecorded-call assignment versus no prerecorded call",
+          "value_type": "experimental_effect"
+        },
+        "procedural_denial_effect": {
+          "value": "-1.1 percentage points from a 22.3% baseline; 5.0% relative decrease",
+          "unit": "procedural denial rate, prerecorded-call assignment versus no prerecorded call",
+          "value_type": "experimental_effect"
+        },
+        "subgroup_effects": {
+          "value": "renewal increased 4.0 percentage points for Tribal members, 2.1 points for children, 1.9 points for people with chronic conditions, 1.4 points for people below the sample-median income, and 1.5 points for adults age 50–64",
+          "unit": "reported subgroup experimental effects; subgroup estimands and baseline populations are source-specific",
+          "value_type": "experimental_subgroup_effect"
+        },
+        "receipt_effect": {
+          "value": "+1.6 percentage points for people who successfully received the prerecorded call, with a -1.8 point procedural-denial effect",
+          "unit": "receipt-conditioned comparison; not the same as assignment-to-call effect",
+          "value_type": "experimental_receipt_effect"
+        },
+        "contact_reach": {
+          "value": "at most about 61% of prerecorded calls were estimated to reach the correct person; only about half of phone numbers or addresses could be confirmed as likely correct in a contact-information search",
+          "unit": "estimated delivery/record-validity context",
+          "value_type": "reported_reach_limit"
+        },
+        "downstream_outcome": {
+          "value": "not observed as a linked path from renewal to plan continuity, care use, medical bills, health, work, trust, or later recovery",
+          "unit": "missing post-renewal outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Large-scale field experiment with Wisconsin Department of Health Services and Covering Wisconsin. Participants received written outreach; a randomized arm also received a prerecorded call offering free one-on-one navigator assistance. Administrative Medicaid records measured renewal and procedural denial outcomes.",
+      "uncertainty": "The study covers Wisconsin fee-for-service enrollees facing renewal deadlines and does not represent managed-care enrollees or all Medicaid populations. The call arm stopped early, assignment and successful receipt are different estimands, contact information was outdated, and the intervention changes renewal process support rather than eligibility. Renewal is not proof of continuous care, health improvement, or household security.",
+      "subgroup": "Wisconsin fee-for-service Medicaid beneficiaries in renewal; reported heterogeneity includes Tribal members, children, adults with chronic conditions, lower-income participants, and adults age 50–64. Participants spoke English or Spanish; about 12% were Tribal community members.",
+      "counterinterpretation": "Some nonrenewal may reflect ineligibility, changed circumstances, or voluntary exit rather than administrative burden. Written outreach may already have improved outcomes for everyone, and call delivery failure can attenuate assignment effects. A higher renewal rate does not establish that every renewed person needed care or that outreach improved health.",
+      "source_url": "https://www.nber.org/papers/w34191",
+      "retrieval_hash": "sha256:01eb46b735b735613e17ec4cb874a29477e127631cfa97793b2885d554067f4a",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.povertyactionlab.org/evaluation/impact-outreach-and-assistance-navigators-medicaid-renewals-united-states",
+      "claim": "J-PAL evaluation page supplies participant counts, randomization scope, subgroup effects, baseline rates, and contact-reach limits.",
+      "status": "evaluation-summary"
+    },
+    {
+      "source_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5426708",
+      "claim": "Author-posted abstract describes the field experiment as an intervention that simplifies renewal without changing eligibility.",
+      "status": "author-posted-version"
+    }
+  ],
+  "boundary": "This is an experimental Wisconsin renewal-assistance result, not a national Medicaid retention rate or a complete household health outcome. It closes assignment-to-renewal and assignment-to-procedural-denial arrows while leaving contact reach, care continuity, health, cost, trust, and later security open.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER landing page and J-PAL evaluation summary reviewed; underlying Wisconsin administrative data and working-paper PDF were not retained.",
+    "nber_page_sha256": "sha256:01eb46b735b735613e17ec4cb874a29477e127631cfa97793b2885d554067f4a",
+    "jpal_page_sha256": "sha256:4f411757f00b3b975e328c90c5bfa8a8004970e61ba5d757e285ea2916819344",
+    "checked": "2026-09-23"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-jockey-club-membership-political-office-2026",
+  "title": "Elite club membership can open a route to political office when personal networks matter",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35611, historical family-level records on Buenos Aires Jockey Club membership and legislative office",
+  "geography": "Buenos Aires, Argentina; historical elite families and legislative careers",
+  "observations": [
+    {
+      "period": "Historical family entry and legislative careers before and after the 1912 Sáenz Peña reforms",
+      "denominator": {
+        "value": null,
+        "unit": "Study families and legislative-office outcomes; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "political_office": {
+          "value": "Jockey Club membership increased the probability of holding legislative office by approximately four percentage points, more than twice the control-group mean",
+          "unit": "reported difference-in-differences estimate",
+          "value_type": "reported_effect"
+        },
+        "elite_marriage_network": {
+          "value": "membership increased families' centrality in elite marriage networks",
+          "unit": "reported network outcome",
+          "value_type": "reported_effect"
+        },
+        "institutional_condition": {
+          "value": "the electoral advantage declined substantially after the 1912 democratizing reforms",
+          "unit": "reported change across institutional context",
+          "value_type": "reported_comparison"
+        },
+        "later_governance": {
+          "value": "not observed in the public abstract",
+          "unit": "missing legislative behavior, policy influence, public legitimacy, and later office performance",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Historical family records with staggered family entry into the Buenos Aires Jockey Club, analyzed using difference-in-differences; elite marriage centrality is examined as a network-based mechanism and the 1912 reform as an institutional boundary.",
+      "uncertainty": "The public abstract does not disclose the exact sample, full outcome construction, all robustness checks, or the extent to which club entry was independent of pre-existing family status and political ambition. The evidence is historical and Argentine, not a contemporary U.S. estimate.",
+      "subgroup": "Elite families, club members and nonmembers, and legislative-office outcomes before and after the 1912 reform; the abstract does not provide a complete account of gender, class, party, or non-elite political participation.",
+      "counterinterpretation": "Families entering the club may already have had wealth, status, kinship, or political connections that also increased office-holding. The reform-period decline is consistent with democratization reducing the value of elite networks, but it does not prove that the club alone caused the earlier advantage or that the pattern transfers directly to the United States.",
+      "source_url": "https://www.nber.org/papers/w35611",
+      "retrieval_hash": "sha256:7ff893429c8d7432251c4790cd6de7db55fc84234076073d76fbb244198006fe",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record measures an association between historical elite social-club membership, network position, and legislative office in Buenos Aires. It does not establish a contemporary U.S. effect, prove a single causal mechanism, measure ordinary club participation, or show whether office produced representative governance, public trust, or durable democratic inclusion."
+}

@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dcpsc-solar-for-all-monthly-credit-receipt-2025",
+  "title": "A utility filing reports monthly community-solar credit receipt at project level without exposing individual bills",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "District of Columbia Public Service Commission filing reporting community-renewable-energy facility subscriber and monthly-credit fields; project-level billing implementation, not individual customer bills",
+  "geography": "Washington, D.C.; Solar for All/community-renewable-energy facilities and Pepco billing",
+  "observations": [
+    {
+      "period": "2025 filing; project rows reporting subscriber and monthly-credit status",
+      "denominator": {
+        "value": 4,
+        "unit": "listed project rows with both subscriber and monthly-credit counts visible in the retained filing excerpt",
+        "value_type": "project_row_observation_universe"
+      },
+      "measures": {
+        "reported_subscribers_and_monthly_credit_recipients": {
+          "value": "309/309, 303/303, 297/297, and 260/260 subscribers/recipients on four listed project rows",
+          "unit": "project-level counts; subscribers / subscribers receiving monthly credit",
+          "value_type": "reported_monthly_credit_receipt"
+        },
+        "credit_status": {
+          "value": "each of the four cited rows reports all listed subscribers receiving a monthly credit",
+          "unit": "project-row implementation status",
+          "value_type": "reported_credit_reach"
+        },
+        "billing_and_savings_amount": {
+          "value": "not observed in the cited rows",
+          "unit": "missing individual credit amount, net bill, subscription charge, arrears, and energy-burden effect",
+          "value_type": "unmeasured"
+        },
+        "persistence_and_household_outcome": {
+          "value": "not observed",
+          "unit": "missing later-month continuation, household security, health, mobility, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "DCPSC official filing review; project-level subscriber and monthly-credit-recipient fields are retained as a bounded billing implementation endpoint and are not interpreted as individual receipt or net savings.",
+      "uncertainty": "The cited rows are a selected project-level slice of the filing, not a complete program denominator. Counts do not disclose the credit dollar amount, whether the credit was applied to each individual bill, or whether any charges or billing errors offset it.",
+      "subgroup": "Subscribers assigned to the listed D.C. community-renewable-energy projects; project selection, housing/account status, income eligibility, and billing conditions may differ across participants.",
+      "counterinterpretation": "A project can report every listed subscriber as receiving a monthly credit while individual credits vary, arrive late, be offset by other charges, or fail to resolve arrears; project-level receipt is therefore stronger than a program promise but weaker than customer-level bill verification.",
+      "source_url": "https://edocket.dcpsc.org/apis/api/Filing/download?attachId=231182&guidFileName=f8e79b1b-f57a-4c90-b284-62dc6f35f109.pdf",
+      "retrieval_hash": "sha256:9d4f7a2c6e8b1a3d5f7c9e2b4a6d8f0c1e3b5a7d9f2c4e6b8a0d1f3c5e7b9a2d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doee.dc.gov/service/solarterms",
+      "claim": "DOEE terms describe the customer-facing bill-credit calculation and subscription route.",
+      "status": "official-program-terms"
+    },
+    {
+      "source_url": "https://doee.dc.gov/release/doee-launches-next-phase-solar-all-epa-award",
+      "claim": "DOEE reports program-level household reach and average savings.",
+      "status": "official-program-update"
+    }
+  ],
+  "boundary": "This record adds a project-level monthly-credit-receipt stage to the Solar for All route. It does not establish an individual customer's bill credit, credit amount, net savings, billing accuracy, arrears reduction, persistence, or energy security. The four project rows must not be treated as a representative program sample or pooled with DOEE's cumulative household count.",
+  "retrieval_hash": "sha256:9d4f7a2c6e8b1a3d5f7c9e2b4a6d8f0c1e3b5a7d9f2c4e6b8a0d1f3c5e7b9a2d"
+}

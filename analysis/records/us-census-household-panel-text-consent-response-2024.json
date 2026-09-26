@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-household-panel-text-consent-response-2024",
+  "title": "Text invitations can speed survey response, but access and consent differ across groups",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "Census Research Report Series methodology paper using Census Household Panel paradata and survey responses from the May 2024 topical",
+  "geography": "United States; nationally representative Census Household Panel members and approximately 10,000 May 2024 topical respondents",
+  "observations": [
+    {
+      "period": "May 2024 Census Household Panel topical; paper published September 2026",
+      "denominator": {"value": 10000, "unit": "approximately 10,000 topical respondents; study-specific consent and access denominators vary", "value_type": "reported_approximation"},
+      "measures": {
+        "response_timing": {"value": "text invitations appeared to bolster initial response in the hours immediately after receipt", "unit": "survey response timing", "value_type": "reported_relationship"},
+        "text_access": {"value": "propensity to access the survey through text differed by age, race/ethnicity, education, family income, and respondent type", "unit": "group comparison", "value_type": "reported_difference"},
+        "consent": {"value": "text-message consent was approximately 50%, comparable to existing literature", "unit": "consent share", "value_type": "reported_approximation"},
+        "consent_differences": {"value": "consent behavior differed by race/ethnicity, age, family income, education, marital status, region, and respondent type", "unit": "group comparison", "value_type": "reported_difference"}
+      },
+      "method": "The paper analyzes paradata and survey responses from a probability-based longitudinal Census Household Panel, comparing text and email invitation behavior and modeling text-message consent and access patterns.",
+      "uncertainty": "This is a Census methodology working paper, not a Census Bureau policy endorsement. The result concerns survey contact and response behavior, not political participation or general digital access; the topical, consent, and access universes differ and the abstract does not establish why each person consented or responded.",
+      "subgroup": "Census Household Panel members and May 2024 topical respondents, separated by demographic and respondent-type characteristics reported in the study.",
+      "counterinterpretation": "Text can lower contact time and cost for some people while creating privacy, device, language, disability, or message-trust barriers for others. Faster response may improve data collection without proving lower burden, representative participation, or greater trust in government.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html",
+      "retrieval_hash": "sha256:74b3f85b626149f96998939c57cf2204b170e6e4c07f9169b30d2ce17850d75b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2026/acs/2026_Poehler_01.html", "claim": "A separate Census evaluation documents longer-run changes in ACS self-response contact strategies; it is related institutional context, not the same panel or text-consent estimate.", "status": "related-distinct-source"}
+  ],
+  "boundary": "This record adds a digital-contact-to-institutional-response pathway. It does not establish household trust, equal burden, population representativeness, political participation, policy responsiveness, or a same-person route from message receipt to later civic outcome."
+}

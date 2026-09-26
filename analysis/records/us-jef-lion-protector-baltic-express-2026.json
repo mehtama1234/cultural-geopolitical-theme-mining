@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-jef-lion-protector-baltic-express-2026",
+  "title": "A flexible alliance moved from planned response options into a cross-border operating rehearsal without proving deterrence",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Joint Expeditionary Force official accounts of Exercise LION PROTECTOR 26, BALTIC EXPRESS, and LION APEX 26",
+  "geography": "Baltic Sea, Latvia, Norway, Iceland, Danish Straits, and the JEF northern European operating area",
+  "observations": [
+    {
+      "period": "2026-08-07 to 2026-08-12; BALTIC EXPRESS opening activity of LION PROTECTOR 26",
+      "denominator": {
+        "value": 1,
+        "unit": "reported multinational JEF maritime escort rehearsal",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "movement_supported": {
+          "value": "the Ark Germania, a Danish strategic roll-on/roll-off vessel carrying heavy military equipment for a routine Danish deployment to Latvia, was escorted safely through the Baltic Sea",
+          "unit": "reported protected military movement",
+          "value_type": "reported_operational_output"
+        },
+        "participating_capabilities": {
+          "value": "ships and aircraft from Denmark, Latvia, Sweden, and the United Kingdom, together with port-protection and space capabilities, were brought into the rehearsal",
+          "unit": "reported multinational capability integration",
+          "value_type": "reported_integration_stage"
+        },
+        "command_and_alliance_interface": {
+          "value": "the activity was led by Denmark and coordinated through the JEF Operational Headquarters, supported Denmark's reinforcement of NATO's eastern flank, and strengthened cohesion with the German/NATO Baltic headquarters",
+          "unit": "reported operational coordination and partner interface",
+          "value_type": "reported_operational_integration"
+        },
+        "external_effect_or_public_acceptance": {
+          "value": "not observed beyond the reported exercise output",
+          "unit": "missing deterrence, adversary response, resident acceptance, cost incidence, and durable alliance behavior",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official JEF account of the BALTIC EXPRESS rehearsal; the movement, participating capabilities, command interface, and strategic-effect boundary are retained as separate stages.",
+      "uncertainty": "The account does not identify a real crisis response, adversary behavior, mission cost, host-community burden, public opinion, or whether the rehearsal changed later operational choices.",
+      "subgroup": "JEF forces and headquarters, Danish and allied maritime/air units, Latvia as host and receiving ally, and communities along the movement route; no person-level or public-opinion outcome is reported.",
+      "counterinterpretation": "A safe exercise escort can demonstrate coordination and movement capacity without proving that the same response would work under attack or change an adversary's behavior.",
+      "source_url": "https://jefnations.org/2026/08/12/lion-protector-26-launches-with-multinational-ro-ro-escort-rehearsal-in-the-baltic-sea/",
+      "retrieval_hash": "sha256:f5a3dab4eaf06c1579686b742c184ff7b27219d59ae709fdaa9e7db36ebcef98",
+      "status": "reported"
+    },
+    {
+      "period": "2026-09-11; LION APEX 26 in northern Norway",
+      "denominator": {
+        "value": 1,
+        "unit": "reported forward-deployed JEF headquarters exercise episode",
+        "value_type": "reported_operational_event"
+      },
+      "measures": {
+        "forward_headquarters": {
+          "value": "the UK's Standing Joint Force Headquarters deployed above the Arctic Circle and established a forward-deployed JEF Operational Headquarters",
+          "unit": "reported deployable command capability",
+          "value_type": "reported_operational_output"
+        },
+        "host_nation_interface": {
+          "value": "Norway hosted the exercise and provided support, while personnel rehearsed planning, information sharing, and multinational coordination",
+          "unit": "reported host-nation and coordination stage",
+          "value_type": "reported_host_support"
+        },
+        "nato_integration": {
+          "value": "the exercise account says the activity strengthened integration with NATO plans and procedures and demonstrated JEF readiness and responsiveness",
+          "unit": "reported alliance-integration stage",
+          "value_type": "reported_integration_stage"
+        },
+        "external_response_or_durable_legitimacy": {
+          "value": "not observed",
+          "unit": "missing adversary response, local acceptance, cost, incident change, and durable alliance leverage",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from the official JEF account of LION APEX 26; headquarters deployment, host support, NATO integration, and later strategic effect are coded separately.",
+      "uncertainty": "The exercise account reports readiness and cooperation claims but does not identify operational necessity in a real incident, host-community burden, public consent, or changed behavior by another actor.",
+      "subgroup": "JEF headquarters personnel, UK forces, Norway as host, participating allies and partners, and affected High North communities; no person-level or public-opinion outcome is reported.",
+      "counterinterpretation": "A forward headquarters and host support can show deployability and coordination while leaving actual crisis performance, acceptance, and deterrence unresolved.",
+      "source_url": "https://jefnations.org/2026/09/11/into-the-high-north-jef-hq-tests-its-agility-and-readiness-in-arctic-norway/",
+      "retrieval_hash": "sha256:5565f50d44ad8b7a112925e3bb3886bdb2b5fc6793728bc4fae205efcb7786d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/government/news/joint-statement-from-the-leaders-of-the-joint-expeditionary-force-26-march-2026",
+      "claim": "JEF leaders described the Ukraine Enhanced Partnership and planned Ukrainian participation in the LION exercise series.",
+      "status": "official-context"
+    },
+    {
+      "source_url": "https://jefnations.org/2026/08/12/lion-protector-26-launches-with-multinational-ro-ro-escort-rehearsal-in-the-baltic-sea/",
+      "claim": "JEF reports a multinational BALTIC EXPRESS escort rehearsal supporting movement of Danish equipment to Latvia.",
+      "status": "official-operational-source"
+    },
+    {
+      "source_url": "https://jefnations.org/2026/09/11/into-the-high-north-jef-hq-tests-its-agility-and-readiness-in-arctic-norway/",
+      "claim": "JEF reports a forward headquarters deployment and host-nation-supported LION APEX activity in northern Norway.",
+      "status": "official-operational-source"
+    }
+  ],
+  "boundary": "This record adds a later geopolitical realization stage: a flexible multinational framework conducted a cross-border escort rehearsal, deployed a forward headquarters, and used host-nation and NATO interfaces. It does not establish a real crisis response, deterrence, adversary adaptation, public consent, community burden, cost distribution, or durable alliance leverage.",
+  "status": "reported"
+}

@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "agency_reported_whistleblower_remedy_record",
+  "purpose": "Bounded OSHA whistleblower episode connecting hazardous post-disaster work, worker safety voice, retaliatory termination, formal investigation, reinstatement order, and open lived recovery.",
+  "events": [
+    {
+      "event_id": "OSHA-TEXAS-ASBESTOS-WHISTLEBLOWER-2026-02-12",
+      "unit": "worker",
+      "geography": "Houston, Texas, United States; hotel repair after Hurricane Beryl",
+      "actor_initiating_change": "worker",
+      "event_date": "2026-02-12",
+      "date_precision": "official OSHA release date; underlying repair, complaints, terminations, and investigation occurred earlier and exact worker-level dates are not reported",
+      "denominator": "Two workers named in the agency episode; no prevalence denominator",
+      "method": "Structured extraction from the official U.S. Department of Labor OSHA whistleblower remedy release",
+      "missingness": "Worker names, exact exposure and injury, hours, complaint effort, alternatives, individual payment allocation, payment date, actual return, job conditions, safety controls, household effects, recurrence, trust, and exit are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "Workers on a post-Hurricane Beryl hotel-repair project raised concerns about missing asbestos training and certification, inadequate PPE, and illegal asbestos dumping",
+      "alternatives_before_action": "The public record does not report whether the workers had safer alternative work, financial buffers, representation, or a realistic non-use option before raising concerns",
+      "immediate_burden_or_benefit": "Raising safety and environmental concerns was followed by reported termination, shifting lost-income and retaliation risk onto the workers while potentially surfacing public environmental risk",
+      "choice_or_response": "The workers raised concerns and filed protected whistleblower complaints; OSHA investigated and found the terminations retaliatory under three environmental statutes",
+      "person_or_actor_with_control": "The employers controlled work assignment and termination; the workers controlled whether to raise concerns and complain; OSHA controlled investigation and the administrative order",
+      "remedy_or_institutional_response": "OSHA ordered reinstatement of both workers and more than $200,000 in back wages, interest, compensatory damages, and punitive damages",
+      "remedy_stage": "remedy_ordered",
+      "remedy_receipt": "The agency release reports an order but provides no worker-confirmed payment, receipt, allocation, return, or safety-restoration evidence",
+      "durability_followup": "The public episode ends at the agency order; employer compliance, actual return, recurrence, safe work, later employment, household recovery, trust, and exit are unknown",
+      "immediate_outcome": "Worker safety voice produced a formal retaliation finding and reinstatement/compensation order after reported termination",
+      "protected_outcome": "The institutional remedy formally recognized protected safety and environmental reporting and ordered restoration of employment and monetary compensation",
+      "sacrificed_outcome": "Workers bore termination, lost-income, complaint, and uncertainty costs; community exposure, cleanup, and actual workplace safety improvement are not observed",
+      "cost_risk_transfer": "Employer retaliation shifted the cost of public-safety voice onto workers; the OSHA order attempted to move financial and employment risk back toward the employers",
+      "later_outcome": "The official record documents the order but not payment, reinstatement, safe return, deterrence, community protection, household security, trust, or exit",
+      "meaning_and_attribution": "OSHA attributes the terminations to retaliation for protected complaints; worker-reported dignity, fear, legitimacy, or trust are not measured",
+      "public_or_collective_response": "An agency enforcement response is observed; no later worker collective action, political response, or community response is reported",
+      "counterexample": "Formal protection for worker voice can exist alongside retaliation and an unresolved question of whether the remedy was received and whether speaking up became safer afterward",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official U.S. Department of Labor OSHA release dated 2026-02-12; order and facts are agency-reported, not independently audited here",
+      "source_url": "https://www.dol.gov/newsroom/releases/osha/osha20260212"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "OSHA-TEXAS-ASBESTOS-A-01",
+      "from": "hazardous post-disaster work and safety concern",
+      "to": "worker safety/environmental voice",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "OSHA reports that two workers raised concerns about asbestos training, certification, PPE, and dumping",
+      "status": "reported",
+      "counterexample": "The public record does not show whether other workers noticed the hazard or stayed silent",
+      "remaining_gap": "Individual exposure, injury, effort, alternatives, representation, and reason for speaking"
+    },
+    {
+      "arrow_id": "OSHA-TEXAS-ASBESTOS-A-02",
+      "from": "protected safety/environmental complaint",
+      "to": "termination and lost-work risk",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official release states that the two workers were fired after raising concerns and that OSHA found the terminations retaliatory",
+      "status": "reported",
+      "counterexample": "The agency release does not provide exact timing, wage loss, or a counterfactual work path",
+      "remaining_gap": "Termination timing, lost wages, health effects, alternatives, and household burden"
+    },
+    {
+      "arrow_id": "OSHA-TEXAS-ASBESTOS-A-03",
+      "from": "retaliatory termination",
+      "to": "whistleblower complaint and OSHA investigation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "OSHA reports investigating a whistleblower complaint by the terminated employees",
+      "status": "reported",
+      "counterexample": "A complaint route does not show that similarly exposed workers can access it safely",
+      "remaining_gap": "Complaint effort, delay, legal support, fear, route accessibility, and unobserved non-use"
+    },
+    {
+      "arrow_id": "OSHA-TEXAS-ASBESTOS-A-04",
+      "from": "OSHA retaliation finding",
+      "to": "reinstatement and monetary remedy order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official release reports an order to reinstate both workers and pay more than $200,000 in back wages, interest, and compensatory and punitive damages",
+      "status": "reported",
+      "counterexample": "An order is not payment, actual reinstatement, or proof of safe work conditions",
+      "remaining_gap": "Order compliance, individual allocation, payment date, receipt, return acceptance, and job conditions"
+    },
+    {
+      "arrow_id": "OSHA-TEXAS-ASBESTOS-A-05",
+      "from": "reinstatement and compensation order",
+      "to": "safe durable work, household recovery, trust, community protection, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The public record ends at the agency order and does not report later payment, return, employer compliance, safety improvement, or worker outcomes",
+      "status": "open",
+      "counterexample": "Formal protection can coexist with nonpayment, nonreturn, unsafe conditions, unresolved fear, or exit",
+      "remaining_gap": "Payment, actual return, safe conditions, recurrence, community cleanup, household outcome, trust, continued work, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a bounded worker-voice, retaliation, investigation, and remedy-order segment. It does not establish payment, reinstatement, safe return, deterrence, community protection, prevalence, or durable recovery.",
+  "storage_boundary": "No worker names, complaint files, payroll, health, or restricted records are retained; only the official episode summary and explicit unresolved downstream stages are represented."
+}

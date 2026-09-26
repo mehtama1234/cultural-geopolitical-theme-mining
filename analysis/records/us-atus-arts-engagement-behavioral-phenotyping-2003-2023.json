@@ -1,0 +1,45 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-atus-arts-engagement-behavioral-phenotyping-2003-2023",
+  "title": "U.S. daily arts engagement was stable overall while participatory and receptive forms diverged",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "political_judgment_action"
+  ],
+  "source_unit": "Behavioral Phenotyping of Arts Engagement Using 20 Years of the American Time Use Survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2003 through 2023, excluding 2020 from trend comparisons",
+      "denominator": {
+        "value": 236270,
+        "unit": "nationally representative ATUS respondents",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "overall_daily_arts_engagement": {"value": "stable", "unit": "daily participation trend across 2003-2023", "value_type": "reported_trend"},
+        "participatory_engagement": {"value": "small increase", "unit": "daily participation trend for dancing, performing, arts, crafts, and writing", "value_type": "reported_trend"},
+        "receptive_engagement": {"value": "slight decline", "unit": "daily participation trend for attending performing arts or museums and watching dancing", "value_type": "reported_trend"},
+        "arts_activity_setting": {"value": "increasingly alone at home", "unit": "trend in where and with whom arts activities occurred", "value_type": "reported_trend"},
+        "subgroup_pattern": {"value": "differing trends by sex, age, and income", "unit": "reported subgroup heterogeneity", "value_type": "reported_pattern"}
+      },
+      "method": "Repeated cross-sectional analysis of the American Time Use Survey, a continuous 24-hour activity diary survey. The study estimated daily participation, time spent, activity companions, setting, subgroup differences, and time trends.",
+      "uncertainty": "This is descriptive repeated-cross-sectional evidence, not a panel or causal estimate. A daily diary does not measure durable cultural membership, organizational continuity, meaning, belonging, access quality, or later civic and political action. The paper reports trend divergence but not a single mechanism explaining it.",
+      "subgroup": "U.S. respondents with comparisons by sex, age, race, education, family income, metropolitan status, and disability status.",
+      "counterinterpretation": "Stable aggregate engagement may conceal substitution from public or receptive activities toward private or participatory activities, as well as compositional change. More arts activity alone at home does not by itself establish cultural withdrawal, reduced social connection, or weaker political voice.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13104588/",
+      "retrieval_hash": "sha256:a81ff2c0375a302bca710d8d70004c6e171f7b4be0c2aa22702c97ecaafd2261",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://pubmed.ncbi.nlm.nih.gov/42023709/", "claim": "PubMed record for the 2026 Annals of the New York Academy of Sciences article and abstract.", "status": "official-index"},
+    {"source_url": "https://www.bls.gov/tus/", "claim": "BLS maintains the American Time Use Survey program and data context.", "status": "official-survey-context"}
+  ],
+  "boundary": "This record establishes a national descriptive cultural-participation baseline and a public/private activity distinction. It does not establish a causal arts effect, durable belonging, community repair, institutional trust, or political mobilization.",
+  "retrieval_hash": "sha256:a81ff2c0375a302bca710d8d70004c6e171f7b4be0c2aa22702c97ecaafd2261"
+}

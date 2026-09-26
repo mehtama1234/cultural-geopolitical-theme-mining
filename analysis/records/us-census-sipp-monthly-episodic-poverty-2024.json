@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-sipp-monthly-episodic-poverty-2024",
+  "title": "A steady monthly poverty rate can hide long and unequal poverty spells",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Census Bureau Current Population Reports P70BR-216, using the 2025 Survey of Income and Program Participation for the 2024 reference year",
+  "geography": "United States; nationally representative SIPP population and reported age, race/Hispanic-origin, sex, and educational-attainment groups",
+  "observations": [
+    {
+      "period": "2024",
+      "denominator": {
+        "value": null,
+        "unit": "SIPP people in the relevant monthly or episodic poverty universe",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "monthly_poverty_rate": {
+          "value": "11.9% in January; no significant month-to-month change through 2024",
+          "unit": "share of people in monthly official poverty",
+          "value_type": "reported_estimate"
+        },
+        "episodic_poverty_rate": {
+          "value": "15.1%",
+          "unit": "share of people in poverty for at least two consecutive months",
+          "value_type": "reported_estimate"
+        },
+        "full_year_share_among_episodic": {
+          "value": "59.2%",
+          "unit": "share of people who experienced episodic poverty and were poor all 12 months",
+          "value_type": "reported_estimate"
+        },
+        "child_episodic_rate": {
+          "value": "18.9%",
+          "unit": "share of children under 18 experiencing episodic poverty",
+          "value_type": "reported_estimate"
+        },
+        "older_adult_duration": {
+          "value": "approximately 11 months mean duration; 79.4% poor all 12 months among older adults experiencing episodic poverty",
+          "unit": "poverty duration among people age 65 and over experiencing episodic poverty",
+          "value_type": "reported_estimate"
+        },
+        "race_episodic_rates": {
+          "value": "20.8% non-Hispanic Black; 21.3% Hispanic; 11.6% non-Hispanic White; 12.7% non-Hispanic Asian",
+          "unit": "share of each reported race/Hispanic-origin group experiencing episodic poverty",
+          "value_type": "reported_estimate"
+        },
+        "downstream_outcomes": {
+          "value": "not observed in this finding",
+          "unit": "assistance receipt, housing, food hardship, health, work, care, trust, and later recovery linked to a poverty spell",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official Census brief using monthly family income-to-poverty ratios and the official pre-tax money-income poverty measure; episodic poverty is defined as poverty for at least two consecutive months, with the episodic universe limited to people observed in the poverty universe for all 12 months.",
+      "uncertainty": "The source reports estimates and 90% confidence margins of error, but the public brief does not provide a retained person-level extract for this record. Poverty status uses pre-tax money income, family composition, and monthly CPI-U-adjusted thresholds that do not vary geographically. The estimates do not identify the event that caused a spell or the resources that buffered it.",
+      "subgroup": "Children, adults 18-64, adults 65 and over, men, women, mutually exclusive non-Hispanic White, non-Hispanic Black, non-Hispanic Asian, Hispanic, and educational-attainment groups.",
+      "counterinterpretation": "A long official-poverty spell is not identical to constant material deprivation: assets, informal support, noncash benefits, consumption, debt, housing costs, geography, and measurement timing may differ. Group differences describe exposure and duration, not a single causal mechanism.",
+      "source_url": "https://www2.census.gov/library/publications/2026/demo/p70br-216.pdf",
+      "retrieval_hash": "sha256:8890013e4d30585f9ea06648e140a08e69828716f561351fe9744c60668184df",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p70br-216.html",
+      "claim": "Census publication page identifies the brief, author, date, and SIPP basis.",
+      "status": "official-publication-page"
+    },
+    {
+      "source_url": "https://www.census.gov/data/datasets/2025/demo/sipp/2025-data.html",
+      "claim": "Census documents the 2025 SIPP primary file, replicate weights, longitudinal weights, and data-quality caution.",
+      "status": "official-data-documentation"
+    }
+  ],
+  "boundary": "This record adds a measured distinction between a monthly poverty rate and the duration and concentration of poverty spells. It does not establish causes, assistance take-up, material hardship, household coping, trust, political action, or later recovery for the same people."
+}

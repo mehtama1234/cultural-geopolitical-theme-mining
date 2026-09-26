@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-rural-firm-innovation-endowments-2026",
+  "title": "Rural firms' innovation gap may reflect missing complements more than rural location itself",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using confidential 2018 Annual Business Survey firm data and an Oaxaca-Blinder decomposition",
+  "geography": "United States; firms in rural and urban counties",
+  "observations": [
+    {
+      "period": "2018 Annual Business Survey; paper published July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. firms in rural and urban counties in the study's Annual Business Survey sample; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "innovation_gap": {
+          "value": "rural firms report less innovation activity than urban firms in the study comparison",
+          "unit": "self-reported firm innovation activity",
+          "value_type": "reported_comparison"
+        },
+        "endowment_contribution": {
+          "value": "the catalog summary attributes most of the rural innovation gap to deficits in digital infrastructure, R&D, and human capital rather than rural location itself",
+          "unit": "reported decomposition interpretation",
+          "value_type": "reported_decomposition"
+        },
+        "decomposition_dimensions": {
+          "value": "firm characteristics, owner characteristics, and county-level factors",
+          "unit": "Oaxaca-Blinder decomposition dimensions",
+          "value_type": "study_method"
+        }
+      },
+      "method": "Census CES working paper using confidential firm-level data from the 2018 Annual Business Survey and an Oaxaca-Blinder decomposition to compare self-reported innovation activity in rural and urban counties and identify possible endowment deficiencies.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract and catalog summary do not disclose all innovation measures, sample construction, decomposition assumptions, or effect sizes. The decomposition describes explained differences under the study model; it does not by itself establish that infrastructure, R&D, or human capital investments would cause a particular firm to innovate.",
+      "subgroup": "Firms in rural and urban U.S. counties, with firm, owner, and county characteristics considered separately in the decomposition.",
+      "counterinterpretation": "Unmeasured industry mix, demand, finance, firm strategy, reporting differences, local networks, or selection may contribute to the gap. Rural firms can innovate in ways not captured by the survey measure, and equalizing one input may not produce equal outcomes.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-48.html",
+      "retrieval_hash": "sha256:bc8c2228e83832f6d3503d5a3f6b84e265c1f175d08caa5c97f522776065e60e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1437",
+      "claim": "The Census research profile supplies the paper's decomposition framing and the reported endowment-deficiency interpretation.",
+      "status": "official-profile-context"
+    }
+  ],
+  "boundary": "This record adds a place-based firm-innovation comparison and a possible complements mechanism. It does not establish a causal broadband, R&D, or human-capital treatment effect, firm survival, jobs, wages, regional convergence, or community wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census paper landing page, official working-paper catalog, and official research profile reviewed; confidential Annual Business Survey microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iom-world-migration-report-2026-mobility-pathways-climate",
+  "title": "International mobility is widespread but still selective, while climate disruption and pathway design redistribute migration risk",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "IOM World Migration Report 2026, chapters on global migration, regular pathways, climate mobility, and internal displacement",
+  "geography": "Global international migration, climate mobility, regular migration pathways, and internal displacement",
+  "observations": [
+    {
+      "period": "Mid-2024 stock and end-2024 displacement; World Migration Report 2026 global overview",
+      "denominator": {
+        "value": 8300000000,
+        "unit": "approximate world population reference for contextualizing the international-migrant stock",
+        "value_type": "global_population_reference"
+      },
+      "measures": {
+        "international_migrants_mid_2024": {"value": 304000000, "unit": "international migrants worldwide around mid-2024", "value_type": "reported_population_estimate"},
+        "internal_displacement_end_2024": {"value": 83000000, "unit": "people living in internal displacement globally by the end of 2024, approximately", "value_type": "reported_population_estimate"},
+        "international_migration_share_context": {"value": 3.7, "unit": "approximate percent of world population represented by 304 million international migrants", "value_type": "derived_context_estimate"},
+        "mobility_pattern": {"value": "Cross-border movement remains the exception rather than the norm; most people live in their country of birth and internal migration is more common", "unit": "reported structural pattern", "value_type": "reported_trend"}
+      },
+      "method": "IOM synthesizes UN and other official migration and displacement statistics, migrant-group data, regional evidence, and thematic analysis in its flagship World Migration Report.",
+      "uncertainty": "Migrant stocks and internal-displacement counts use different definitions, reference dates, and reporting systems. Aggregate stocks do not measure legal status, route risk, duration, household welfare, or whether movement was voluntary.",
+      "subgroup": "International migrants, migrant workers, students, refugees, asylum-seekers, internally displaced people, origin and destination communities, and governments managing mobility.",
+      "counterinterpretation": "Migration can expand income, skills, family security, cultural exchange, and development, while most international movement occurs through regular and relatively safe conditions. The global stock is not itself evidence of a crisis or a uniform trend in mobility.",
+      "source_url": "https://publications.iom.int/books/world-migration-report-2026-chapter-2",
+      "retrieval_hash": "sha256:09ed2fdf9b6b2f8ce0b6da7efab54dd1304e0405d0a95a54cda36992a5fb2e1f",
+      "status": "reported"
+    },
+    {
+      "period": "2026 thematic analysis of regular pathways and climate mobility",
+      "denominator": {
+        "value": 1,
+        "unit": "global migration-governance and climate-mobility policy framework",
+        "value_type": "policy_analysis_universe"
+      },
+      "measures": {
+        "pathway_distribution": {"value": "Regular migration pathways are increasingly selective and unequally distributed across regions, countries, and groups, reflecting development inequalities, visa regimes, and geopolitical relations", "unit": "reported governance mechanism", "value_type": "reported_mechanism"},
+        "restrictive_policy_route": {"value": "Restrictive policies can displace rather than reduce mobility, pushing people toward riskier, more precarious, and irregular journeys", "unit": "reported pathway mechanism", "value_type": "reported_mechanism"},
+        "climate_mobility_route": {"value": "Climate change reshapes mobility through sudden disasters and slow-onset degradation; responses remain too reactive and disconnected from long-term adaptation planning", "unit": "reported climate-mobility mechanism", "value_type": "reported_mechanism"},
+        "local_governance_route": {"value": "Local governments, communities, Indigenous peoples, diasporas, civil society, and private actors are identified as central to climate-mobility responses", "unit": "reported institutional response route", "value_type": "reported_policy_mechanism"}
+      },
+      "method": "IOM combines global evidence, regional case studies, migration-governance analysis, climate-mobility scholarship, and local/community perspectives across thematic chapters.",
+      "uncertainty": "Global projections and thematic summaries do not identify a universal climate-migration effect or prove that pathway restrictions caused a particular route. Local conditions, adaptation, wealth, conflict, legal status, and data gaps shape outcomes.",
+      "subgroup": "People considering or undertaking migration, marginalized and climate-exposed communities, migrants using regular or irregular pathways, local governments, Indigenous peoples, diasporas, employers, and civil society.",
+      "counterinterpretation": "Regular pathways can widen rights, health access, labour-market opportunity, remitting, and investment, while local adaptation can reduce forced movement. Restriction may sometimes address genuine protection or administrative constraints even if it also shifts risk elsewhere.",
+      "source_url": "https://publications.iom.int/books/world-migration-report-2026-chapter-5",
+      "retrieval_hash": "sha256:09ed2fdf9b6b2f8ce0b6da7efab54dd1304e0405d0a95a54cda36992a5fb2e1f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": ["https://publications.iom.int/books/world-migration-report-2026-chapter-6", "https://publications.iom.int/books/world-migration-report-2026-chapter-7"],
+  "boundary": "This record adds international-migrant stocks, pathway governance, climate mobility, local action, and internal-displacement framing. It is not respondent-level migration data, does not infer individual motives or route choices, and does not establish causal effects of climate or migration policy on displacement, welfare, or political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "IOM World Migration Report 2026 official chapter summaries retrieved through the IOM Publications Platform and search-indexed official pages; migrant-stock, internal-displacement, regular-pathway, restrictive-policy, climate-mobility, and local-governance claims cross-checked. Direct local page capture was restricted, so the digest records the retrieved evidence summary rather than a claimed local PDF hash.",
+    "web_evidence_digest_sha256": "sha256:09ed2fdf9b6b2f8ce0b6da7efab54dd1304e0405d0a95a54cda36992a5fb2e1f",
+    "checked": "2026-09-26"
+  }
+}

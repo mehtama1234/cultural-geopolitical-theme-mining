@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-local-demand-shocks-employment-migration-2026",
+  "title": "The measured shock changes the measured story of local employment and migration",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "household_room_consumption"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper harmonizing annual commuting-zone-level local labor-demand shocks and comparing employment and migration responses",
+  "geography": "United States commuting zones",
+  "observations": [
+    {
+      "period": "Annual commuting-zone shocks studied across the paper's harmonized historical panel; paper published February 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined commuting-zone-year shock measures and local employment/migration outcomes; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "shock_measure_correlation": {
+          "value": "different shock measures have different geographic and temporal patterns and are generally weakly correlated",
+          "unit": "reported comparison of harmonized shock measures",
+          "value_type": "reported_comparison"
+        },
+        "trade_shock_response": {
+          "value": "trade-related shocks show little response in employment or migration",
+          "unit": "reported local adjustment response",
+          "value_type": "reported_relationship"
+        },
+        "bartik_shock_response": {
+          "value": "more general Bartik-style shocks are associated with economically meaningful changes in employment and migration",
+          "unit": "reported local adjustment response",
+          "value_type": "reported_relationship"
+        },
+        "same_shock_story": {
+          "value": "worker adjustment is not consistent across shock definitions",
+          "unit": "reported methodological finding",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Census CES working paper creates a harmonized set of annual commuting-zone-level shocks following major approaches in the local labor-demand literature and compares employment and migration responses across shock types.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the complete shock formulas, geographic coverage, estimates, time windows, migration definitions, or all robustness tests. The differences may reflect what each shock measure captures rather than one simple disagreement about the same event.",
+      "subgroup": "United States commuting zones, compared across trade-related, general Bartik-style, and other harmonized local-demand shock measures.",
+      "counterinterpretation": "A weak migration response can coexist with commuting, household adaptation, sector switching, lower participation, or unmeasured mobility. A meaningful response to one shock measure does not prove that residents moved because of that mechanism. Different measures may encode different local exposures, anticipation, industry mix, or time horizons rather than merely noisy versions of one shock.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-10.html",
+      "retrieval_hash": "sha256:ea3e6010ee7f031003ea14ecd226113c0848bc9266b6a88123a5a807382ae6a1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1398",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the harmonized shock comparison.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-10.pdf",
+      "claim": "The official paper PDF provides the CES working-paper status and commuting-zone shock context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a measurement-sensitive local-shock-to-employment-and-migration comparison. It does not establish one universal local-shock effect, individual migration motives, household welfare, commuting adaptation, or the causal mechanism for every shock type.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-10 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying harmonized shock data and linked records are not retained",
+    "checked": "2026-09-22"
+  }
+}

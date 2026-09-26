@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-osu-telephone-townhall-field-experiment-platform-member-trust-2019",
+  "title": "Telephone town-hall participation can improve evaluations of the forum and Member, while deliberative design mainly improves the forum evaluation",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "Abernathy, Esterling, Freebourn, Kennedy, Minozzi, Neblo, and Solis field experiment with Members of Congress",
+  "geography": "United States congressional districts; four Members of Congress and eight telephone town-hall sessions",
+  "observations": [
+    {
+      "period": "2019 publication; fieldwork conducted in congressional districts before publication",
+      "denominator": {
+        "value": 1005,
+        "unit": "constituents who consented, enrolled, and completed the pretest after recruitment for eight sessions; 222 completed both pretest and posttest",
+        "value_type": "enrolled_and_analyzed_panel"
+      },
+      "measures": {
+        "participation_effect": {"value": "attendance at a standard telephone town hall produced statistically significant pre/post improvements in evaluations of the telephone-town-hall platform and the participating Member", "unit": "reported causal before-after estimate among selected participants", "value_type": "reported_causal_effect"},
+        "platform_change": {"value": 0.06, "unit": "approximately 6% of the 0-1 response scale", "value_type": "reported_causal_effect"},
+        "member_trust_approval_change": {"value": 0.04, "unit": "approximately 4% of the 0-1 response scale for trust and approval", "value_type": "reported_causal_effect"},
+        "modified_design_effect": {"value": 0.05, "unit": "approximately 5% of the response scale additional effect on evaluations of the town-hall platform; Cohen's d=0.25", "value_type": "reported_difference_in_differences"},
+        "modified_design_member_effect": {"value": "no statistically significant improvement relative to the standard design in attitudes toward Members; estimates were at most small declines of about 0.02 on the 0-1 scale", "unit": "difference-in-differences comparison", "value_type": "reported_null_or_small_effect"}
+      },
+      "method": "Four Members each hosted one standard telephone town hall and one modified session. The modified session focused on one topic and sent two-page nonpartisan briefing materials beforehand; the standard session followed an open-topic format. Constituents selected which session to attend, and the study estimated pre/post changes plus a difference-in-differences comparison across designs.",
+      "uncertainty": "The source enrolled 1,005 people but analyzed only 222 pre/post respondents after about 78% attrition. All participating Members were Democrats; only 35 analyzed respondents were Republicans in the reported party subsample. The study lacked a true no-event control, used self-selection into the two sessions, and estimates a local effect for participating Members and constituents rather than a national population effect.",
+      "subgroup": "Constituents who opted into telephone town halls hosted by four Democratic Members; the study reports larger point estimates among respondents starting below the midpoint of the attitude scales, but those respondents had already agreed to participate.",
+      "counterinterpretation": "Improved evaluations may reflect attention, familiarity, or demand effects rather than durable institutional legitimacy or policy responsiveness. A better-designed forum improved perceptions of the forum itself without clearly improving perceptions of the Member, separating procedural satisfaction from representative trust.",
+      "source_url": "https://polisci.osu.edu/sites/default/files/LSQfinal.pdf",
+      "retrieval_hash": "sha256:30e11db170cfc95ae0fe5a71efb041d0727ea16e699126d8094af5e1c7b5a6c0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/lsq.12242",
+      "claim": "Publisher abstract and metadata identify the article, field-experiment design, and headline findings.",
+      "status": "publisher-record"
+    }
+  ],
+  "boundary": "This record adds a causal communication-design layer between constituent interaction and perceived forum/Member evaluation. It does not establish present-day national prevalence, actual office response, issue resolution, policy influence, durable trust, or equal access to two-way representation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Ohio State-hosted paper PDF downloaded and hashed; publisher record cross-checked.",
+    "checked": "2026-09-25"
+  }
+}

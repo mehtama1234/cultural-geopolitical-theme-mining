@@ -21,7 +21,17 @@ from pathlib import Path
 
 
 GROUPS = ("1", "2", "3", "4")
-OUTCOMES = ("lonely", "support", "talk", "food")
+OUTCOMES = (
+    "lonely",
+    "support",
+    "talk",
+    "food",
+    "art_exhibit",
+    "create_art",
+    "arts_opportunity",
+    "club_meeting",
+    "public_meeting",
+)
 AGE_BANDS = ("25_44", "45_64", "65_plus")
 
 
@@ -61,6 +71,11 @@ def outcomes(row: dict[str, str]) -> dict[str, tuple[bool, bool]]:
         "support": (row["SOC_SUPPORT"] in {"4.0", "5.0"}, row["SOC_SUPPORT"] in {"1.0", "2.0", "3.0", "4.0", "5.0"}),
         "talk": (row["SOC_TALK"] == "4.0", row["SOC_TALK"] in {"1.0", "2.0", "3.0", "4.0"}),
         "food": (row["FD_SUFF"] in {"3.0", "4.0"}, row["FD_SUFF"] in {"1.0", "2.0", "3.0", "4.0"}),
+        "art_exhibit": (row["ARTEXHIBIT"] == "1.0", row["ARTEXHIBIT"] in {"1.0", "2.0"}),
+        "create_art": (row["CREATEART"] == "1.0", row["CREATEART"] in {"1.0", "2.0"}),
+        "arts_opportunity": (row["PARTINARTS"] in {"1.0", "2.0"}, row["PARTINARTS"] in {"1.0", "2.0", "3.0", "4.0"}),
+        "club_meeting": (row["SOC_CLUBS"] in {"2.0", "3.0", "4.0"}, row["SOC_CLUBS"] in {"1.0", "2.0", "3.0", "4.0"}),
+        "public_meeting": (row["ATTENDMEETING"] == "1.0", row["ATTENDMEETING"] in {"1.0", "2.0"}),
     }
 
 
@@ -80,7 +95,7 @@ def main() -> None:
         duplicate_main = 0
         with archive.open(args.puf_member) as raw:
             reader = csv.DictReader(io.TextIOWrapper(raw, encoding="utf-8"))
-            required = {"SCRAMID", "PWEIGHT", "EXPENSE_DIFFICULT", "TAGE", "SOC_LONELY", "SOC_SUPPORT", "SOC_TALK", "FD_SUFF"}
+            required = {"SCRAMID", "PWEIGHT", "EXPENSE_DIFFICULT", "TAGE", "SOC_LONELY", "SOC_SUPPORT", "SOC_TALK", "FD_SUFF", "ARTEXHIBIT", "CREATEART", "PARTINARTS", "SOC_CLUBS", "ATTENDMEETING"}
             missing = required - set(reader.fieldnames or [])
             if missing:
                 raise SystemExit(f"PUF missing fields: {sorted(missing)}")

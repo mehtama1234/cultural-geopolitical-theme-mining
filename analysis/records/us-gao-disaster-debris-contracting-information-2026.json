@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-disaster-debris-contracting-information-2026",
+  "title": "Disaster recovery capacity can be prepared before a disaster while public information and oversight lag",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["public_systems_feedback", "infrastructure_technology_dependency", "housing_place_mobility", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "GAO-26-108121 review of FEMA and Army Corps advance debris-removal contracting, information sharing, reimbursement oversight, and fraud-risk management",
+  "geography": "United States disaster response; selected state, local, and Tribal governments and debris-removal grants",
+  "observations": [
+    {
+      "period": "Selected disasters and grants through 2025; GAO report June 2026",
+      "denominator": {"value": 16, "unit": "selected state, local, and Tribal governments reviewed for advance debris-removal contract use", "value_type": "selected_case_universe"},
+      "measures": {
+        "advance_contract_use": {"value": 6, "unit": "selected governments that had awarded advance debris-removal contracts", "value_type": "reported_count"},
+        "information_timing": {"value": "Army Corps shared real-time debris data in Los Angeles within about six weeks, while county-specific infographics for Hurricane Helene in North Carolina arrived after about four months", "unit": "reported disaster-information timing comparison", "value_type": "reported_comparison"},
+        "role_confusion": {"value": "FEMA procurement training and regional offices were confused about roles for encouraging advance contracts", "unit": "reported coordination gap", "value_type": "reported_finding"},
+        "fraud_risk_management": {"value": "FEMA controls existed but were not aligned with leading practices for regularly assessing evolving fraud, waste, and abuse risks", "unit": "reported oversight gap", "value_type": "reported_finding"},
+        "recovery_endpoint": {"value": "not observed", "unit": "household cleanup, safe return, local business recovery, or durable community recovery", "value_type": "unmeasured"}
+      },
+      "method": "GAO reviewed FEMA and Army Corps policies, selected grants, advance-contract practices, information-sharing processes, cost-eligibility reviews, and fraud-risk controls across selected governments and disasters.",
+      "uncertainty": "Selected governments and grants are not a representative national sample. Advance contracts can speed debris removal but do not guarantee contractor performance, sufficient capacity, cost control, equitable service, or household recovery. Differences in public reporting may reflect operational or security choices as well as management variation.",
+      "subgroup": "Selected states, localities, Tribes, FEMA, Army Corps, contractors, and disaster-affected communities; individual households and businesses are not followed.",
+      "counterinterpretation": "A government without an advance contract may still remove debris quickly through another route, and delayed public reporting does not prove delayed field work. Controls that are not aligned with leading practices may still prevent some losses; fraud risk is not observed fraud.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108121/index.html",
+      "retrieval_hash": "sha256:01c92af6a9fe1ea96e12b9c442462c6498f3911082a641ef5c0bea4e87ced58a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www.gao.gov/products/gao-26-108121", "claim": "GAO landing page and report metadata for disaster contracting and debris removal oversight.", "status": "official-report-context"}],
+  "boundary": "This record measures advance contracting, interagency roles, debris-removal information sharing, reimbursement oversight, and fraud-risk management. It does not establish completed cleanup, equitable recovery, household safety, local economic recovery, or public trust.",
+  "retrieval_hash": "sha256:01c92af6a9fe1ea96e12b9c442462c6498f3911082a641ef5c0bea4e87ced58a"
+}

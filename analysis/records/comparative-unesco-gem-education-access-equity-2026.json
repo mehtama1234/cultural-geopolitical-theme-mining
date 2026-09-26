@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-gem-education-access-equity-2026",
+  "title": "Education access has expanded, but exclusion, delayed completion, and weakly targeted equity capacity are slowing progress toward 2030",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "UNESCO 2026 Global Education Monitoring Report: Access and equity, countdown to 2030",
+  "geography": "Global education systems, with comparisons by income, gender, location, wealth, disability, conflict exposure, and country policy context",
+  "observations": [
+    {
+      "period": "2000-2024; UNESCO 2026 GEM Report access and equity estimates",
+      "denominator": {
+        "value": 1400000000,
+        "unit": "students enrolled in primary and secondary education globally in 2024, as reported by UNESCO",
+        "value_type": "global_enrolment_count"
+      },
+      "measures": {
+        "enrolment_growth_since_2000": {"value": 30, "unit": "percent increase in primary and secondary enrolment since 2000, equal to 327 million additional students", "value_type": "reported_growth_rate"},
+        "out_of_school_population_2024": {"value": 273000000, "unit": "children, adolescents, and youth estimated to be out of school in 2024", "value_type": "reported_population_count"},
+        "out_of_school_change_since_2015": {"value": 3, "unit": "percent increase in the out-of-school population since 2015", "value_type": "reported_growth_rate"},
+        "primary_completion_2000": {"value": 77, "unit": "percent global primary completion rate in 2000", "value_type": "reported_completion_rate"},
+        "primary_completion_2024": {"value": 88, "unit": "percent global primary completion rate in 2024", "value_type": "reported_completion_rate"},
+        "lower_secondary_completion_2024": {"value": 78, "unit": "percent global lower-secondary completion rate in 2024", "value_type": "reported_completion_rate"},
+        "upper_secondary_completion_2024": {"value": 61, "unit": "percent global upper-secondary completion rate in 2024", "value_type": "reported_completion_rate"},
+        "upper_secondary_95_percent_projection": {"value": 2105, "unit": "projected year in which the world would reach 95% upper-secondary completion at current expansion rates", "value_type": "reported_projection_year"}
+      },
+      "method": "UNESCO's GEM Report combines internationally comparable education indicators, country case studies, policy reviews, and inequality monitoring across access, completion, equity, financing, and institutional capacity.",
+      "uncertainty": "Enrollment, completion, and out-of-school estimates use different denominators and can conceal delayed entry, repetition, late completion, conflict-related data gaps, and within-country disparities. A higher completion rate does not measure learning quality, wellbeing, or equitable experience.",
+      "subgroup": "Children, adolescents, and youth by education level, income country group, gender, location, wealth, disability, and conflict exposure; education ministries, schools, households, and communities are institutional actors in the pathway.",
+      "counterinterpretation": "Access expansion and completion gains are substantial even while exclusion persists. Stagnant out-of-school counts can coexist with improved completion because late enrollment and repetition change the timing of progression.",
+      "source_url": "https://www.unesco.org/reports/gem-report/en/2026",
+      "retrieval_hash": "sha256:e00c5611a9faa96e151802cb26bd927d34241b726015b5edd544b999a2437db3",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025 policy and monitoring evidence summarized in the 2026 GEM Report",
+      "denominator": {
+        "value": 100,
+        "unit": "country or education-policy percentage base; each measure uses its own country coverage",
+        "value_type": "country_policy_share_base"
+      },
+      "measures": {
+        "countries_communicating_2030_targets": {"value": 80, "unit": "percent of countries communicating national targets for eight education indicators since 2022", "value_type": "reported_country_share"},
+        "countries_reporting_no_urban_rural_disparity": {"value": 67, "unit": "approximate percent implied by one in three countries not reporting disparity by urban-rural location", "value_type": "reported_country_share_approximate"},
+        "countries_reporting_no_wealth_disparity": {"value": 50, "unit": "approximate percent implied by one in two countries not reporting disparity by wealth", "value_type": "reported_country_share_approximate"},
+        "countries_with_inclusive_education_laws_2000": {"value": 1, "unit": "percent of countries with inclusive education laws in 2000", "value_type": "reported_country_share"},
+        "countries_with_inclusive_education_laws_2025": {"value": 24, "unit": "percent of countries with inclusive education laws in 2025", "value_type": "reported_country_share"},
+        "countries_with_sufficient_equity_policy_focus": {"value": 10, "unit": "less than percent of countries with sufficiently strong intended coverage and volume of equity-oriented policies", "value_type": "reported_country_share_upper_bound"},
+        "inclusive_education_definition_countries_2025": {"value": 84, "unit": "percent of countries adopting a definition of inclusive education in 2025", "value_type": "reported_country_share"},
+        "digital_skills_programming_median_country": {"value": 6, "unit": "percent of adults with programming skills in the median country among available 2022-2024 data", "value_type": "reported_median_country_share"}
+      },
+      "method": "The report compares education laws, national targets, disparity reporting, equity-oriented financing mechanisms, inclusive-education definitions, and available digital-skills indicators.",
+      "uncertainty": "Missing disparity reporting is not equivalent to absence of disparity. Policy laws and target communication do not establish implementation, funding adequacy, learning outcomes, or effective inclusion. Digital-skills estimates are not globally representative because 85% of reporting countries are upper-middle- or high-income.",
+      "subgroup": "Disadvantaged regions and schools, low-income learners, students with disabilities, rural and poor households, education ministries, schools, teachers, and populations with limited digital access.",
+      "counterinterpretation": "Countries may have strong equity practices that are not captured by the index, and reporting gaps may reflect statistical capacity rather than deliberate concealment. Resource transfers, school meals, transport, housing, and tuition support can buffer exclusion even when national equity scores are weak.",
+      "source_url": "https://www.unesco.org/reports/gem-report/en/2026-monitoring-sdg4",
+      "retrieval_hash": "sha256:e00c5611a9faa96e151802cb26bd927d34241b726015b5edd544b999a2437db3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global education-access, equity, financing, data-capacity, and human-capital route. It does not measure individual learning, classroom quality, causal policy effects, respondent trajectories, or the social value of education outside the reported indicators.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNESCO 2026 GEM Report landing page and SDG 4 monitoring page retrieved; enrollment, exclusion, completion, projection, target, disparity-reporting, law, equity-policy, inclusion, and digital-skills claims cross-checked against official UNESCO summaries.",
+    "report_page_html_sha256": "sha256:e00c5611a9faa96e151802cb26bd927d34241b726015b5edd544b999a2437db3",
+    "checked": "2026-09-26"
+  }
+}

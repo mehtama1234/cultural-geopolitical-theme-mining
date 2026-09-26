@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-fed-shed-economic-wellbeing-2025",
+  "title": "Personal financial well-being, local economic judgment, and national economic judgment move on different tracks",
+  "theme_ids": ["cost", "voice"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "Federal Reserve Survey of Household Economics and Decisionmaking 2025; nearly 13,000 U.S. adults surveyed in October 2025",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "October 2025; U.S. adults",
+      "denominator": {"value": 1, "unit": "U.S. adult SHED survey population", "value_type": "survey population denominator"},
+      "measures": {
+        "doing_okay_or_comfortable": {"value": 73, "unit": "percent", "value_type": "reported_share"},
+        "worse_off_than_year_ago": {"value": 28, "unit": "percent", "value_type": "reported_share"},
+        "prices_major_concern": {"value": 53, "unit": "percent", "value_type": "reported_share"},
+        "local_economy_good_or_excellent": {"value": 45, "unit": "percent", "value_type": "reported_share"},
+        "national_economy_good_or_excellent": {"value": 25, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Federal Reserve SHED 2025 weighted survey estimates; personal financial well-being, price concern, local-economy judgment, and national-economy judgment are retained as separate questions and denominators.",
+      "uncertainty": "The survey is cross-sectional and self-reported; the measures capture conditions at or around October 2025 and do not identify causal attribution or subsequent behavior.",
+      "subgroup": "U.S. adults age 18 and older.",
+      "counterinterpretation": "Respondents can use different reference points and information for personal, local, and national judgments; a gap does not prove inaccuracy, misinformation, or policy failure.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm",
+      "retrieval_hash": "sha256:63cb7a5cb2eb2cc171823d6656716d47473da41eccd2d7c402163fe44307ca74",
+      "status": "reported"
+    },
+    {
+      "period": "2025; personal financial well-being by education, race/ethnicity, and age",
+      "denominator": {"value": 1, "unit": "adults within each SHED subgroup", "value_type": "subgroup denominator"},
+      "measures": {
+        "bachelors_or_more_okay_or_comfortable": {"value": 86, "unit": "percent", "value_type": "reported_share"},
+        "less_than_high_school_okay_or_comfortable": {"value": 41, "unit": "percent", "value_type": "reported_share"},
+        "asian_okay_or_comfortable": {"value": 82, "unit": "percent", "value_type": "reported_share"},
+        "white_okay_or_comfortable": {"value": 79, "unit": "percent", "value_type": "reported_share"},
+        "hispanic_okay_or_comfortable": {"value": 62, "unit": "percent", "value_type": "reported_share"},
+        "black_okay_or_comfortable": {"value": 60, "unit": "percent", "value_type": "reported_share"},
+        "age_18_29_okay_or_comfortable": {"value": 63, "unit": "percent", "value_type": "reported_share"},
+        "age_60_plus_okay_or_comfortable": {"value": 83, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Federal Reserve SHED 2025 subgroup estimates for self-reported financial well-being.",
+      "uncertainty": "Subgroup differences are descriptive and may reflect income, wealth, employment, education, health, family structure, prices, and other correlated conditions.",
+      "subgroup": "Adults by education, race/ethnicity, and age.",
+      "counterinterpretation": "A subgroup share does not identify the mechanism of financial experience or imply that all members of a group share the same material position or political meaning.",
+      "source_url": "https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-overall-financial-well-being.htm",
+      "retrieval_hash": "sha256:63cb7a5cb2eb2cc171823d6656716d47473da41eccd2d7c402163fe44307ca74",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record establishes separate personal, local, and national economic judgments and descriptive subgroup differences in the 2025 SHED. It does not establish causal attribution, objective local performance, voting, trust change, spending, policy demand, or later persistence."
+}

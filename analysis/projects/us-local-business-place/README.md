@@ -196,6 +196,12 @@ separate from the capacity cells because the CES respondent frame, place frame,
 and measures differ; it strengthens the political-context stage without claiming
 that local capacity or growth caused political response.
 
+The [named-clinic access finding](findings/us-local-business-place-014.md)
+advances the place lane from shortage designation to a linked organization,
+active service site, listed hours, patient-facing route, and affordability
+policy. It keeps the actual appointment, wait, completed care, continuity, and
+household-relief stages open.
+
 The [capacity/mobility and political-context comparison](findings/us-local-business-place-005.md)
 now makes the county-keyed join directly: CES trust, civic action, and reported
 voting are compared across the four CBP/ACS capacity cells. The result is
@@ -216,3 +222,16 @@ political layers into one long-term research chain. It makes the central
 interpretive rule explicit: applications are not durable firms, establishments
 are not access, shortage designations are not patient episodes, and place
 conditions are not political meaning without measured exposure and attribution.
+
+The [third-place and startup finding](findings/us-local-business-place-015.md)
+adds a place-linked firm outcome: Starbucks entry was followed by more startup
+registrations in neighborhoods without existing cafés, while the effect was not
+significant where cafés were already present. Startup survival, jobs, prices,
+housing change, and resident access remain open.
+
+The [Black-neighborhood startup finding](findings/us-local-business-place-016.md)
+adds a broader racialized place pattern: a long-standing startup deficit
+reversed sharply in 2020 and remained relatively elevated through 2024,
+especially in high-deficit neighborhoods. Registration activity is not yet
+evidence of durable firms, jobs, financing, resident security, or reduced
+inequality.

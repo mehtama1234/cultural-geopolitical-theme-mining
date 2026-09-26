@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ai-diffusion-firm-function-task-2026",
+  "title": "AI adoption happens at separate firm, business-function, and worker-task layers",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "firm_sector_market_power", "work_control_bargaining", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-25 using the 2026 AI supplement to the Business Trends and Outlook Survey",
+  "geography": "United States; firms, business functions, employment-weighted firms, and worker tasks",
+  "observations": [{
+    "period": "BTOS AI supplement reference period November 2025-January 2026; paper published April 2026",
+    "denominator": {"value": 1, "unit": "nationally representative firm survey with employment-weighted comparisons", "value_type": "study_unit"},
+    "measures": {
+      "firm_function_use": {"value": "18% of firms used AI in a business function; 32% employment-weighted", "unit": "share of firms", "value_type": "reported_estimate"},
+      "expected_adoption": {"value": "adoption was expected to reach 22% within six months", "unit": "share of firms", "value_type": "reported_estimate"},
+      "worker_task_use": {"value": "23% of firms reported workers using AI in work-related tasks; 41% employment-weighted", "unit": "share of firms", "value_type": "reported_estimate"},
+      "limited_scope": {"value": "57% of adopting firms used AI in three or fewer business functions and 65% used it in three or fewer tasks", "unit": "share of adopting firms", "value_type": "reported_estimate"},
+      "augmentation": {"value": "66% of users relied on AI solely to augment tasks; AI-related employment decreases occurred in 2% of firms", "unit": "share of users or firms", "value_type": "reported_estimate"},
+      "layer_divergence": {"value": "worker task use sometimes occurred without formal firm adoption, and firm adoption sometimes occurred without worker task use", "unit": "diffusion relationship", "value_type": "reported_comparison"},
+      "performance": {"value": "broader AI integration was positively correlated with commercial performance; functional breadth and operational investment were associated with employment decreases, while worker-task integration was not significantly linked to headcount reduction after controls", "unit": "regression associations", "value_type": "reported_relationship"}
+    },
+    "method": "The authors use nationally representative BTOS AI-supplement data to measure firm use, business-function deployment, and worker-task use, then estimate correlations with commercial performance and employment outcomes.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The survey is mainly a firm-level cross-section for the stated reference period; the correlations do not establish that AI caused performance or employment changes, and employment-weighted and firm-weighted rates answer different questions.",
+    "subgroup": "Firms by size and sector, especially Information, Professional Services, and Finance; functional and task differences are reported, but worker-level exposure, wages, schedules, job quality, and unequal effects by race, gender, age, or occupation are not fully identified in the abstract.",
+    "counterinterpretation": "Larger firms may both adopt AI and have greater resources, performance, or reporting capacity. AI use can augment, reorganize, or replace work; low observed employment decreases may reflect timing, measurement, internal reassignment, or later effects. Commercial performance is not worker wellbeing or consumer benefit.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+    "retrieval_hash": "sha256:e5d921baf5fb09d4e2fd29fd24c3471552581455452cc04ea2fd2fad550ad802",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-25.pdf", "claim": "The official paper provides the BTOS design, layer definitions, adoption rates, and firm-performance and employment associations.", "status": "official-paper-context"}],
+  "boundary": "This record adds a three-layer AI diffusion map from firms to functions to tasks. It does not establish causality, worker-level wellbeing, job displacement, productivity sharing, consumer outcomes, or durable control over AI systems.",
+  "retrieval_hash": "sha256:e5d921baf5fb09d4e2fd29fd24c3471552581455452cc04ea2fd2fad550ad802"
+}

@@ -1,0 +1,173 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nypa-smart-path-connect-realization-2026",
+  "title": "A completed transmission project can make infrastructure capacity visible before household savings are verified",
+  "theme_ids": ["energy", "cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "New York Power Authority Smart Path Connect project announcement; named public transmission project and reported system-level savings, not a household billing sample",
+  "geography": "New York North Country transmission corridor between Clinton and Massena, United States",
+  "observations": [
+    {
+      "period": "June 17, 2026; NYPA-reported Smart Path Connect completion and energization",
+      "denominator": {"value": 1, "unit": "named transmission project", "value_type": "infrastructure_project_count"},
+      "measures": {
+        "new_transmission_lines": {"value": 45, "unit": "miles of new transmission lines", "value_type": "reported_project_output"},
+        "new_substations_energized": {"value": 3, "unit": "substations", "value_type": "reported_project_output"},
+        "existing_substations_modified": {"value": 6, "unit": "substations", "value_type": "reported_project_output"},
+        "reported_annual_savings": {"value": 438000000, "unit": "US dollars per year; NYPA/governor-reported projected or attributed savings", "value_type": "reported_system_savings"},
+        "upgraded_corridor": {"value": 200, "unit": "nearly uninterrupted miles of upgraded 345-kV transmission when linked with the earlier Smart Path project", "value_type": "reported_network_extent"},
+        "household_bill_change_and_distribution": {"value": "not observed", "unit": "missing customer-level bill, rate, outage, geographic incidence, and affordability outcome", "value_type": "unmeasured"}
+      },
+      "method": "NYPA project announcement review; construction completion, energization, physical outputs, network extent, and reported savings are coded separately from customer-level incidence and realized bill effects.",
+      "uncertainty": "The public announcement does not provide a household or ratepayer denominator, bill-level savings, counterfactual method, allocation by customer class or place, reliability-event effect, or long-term maintenance and affordability outcome. Reported annual savings are not treated as a household savings rate.",
+      "subgroup": "North Country transmission users and New York ratepayers are named beneficiary populations, but no customer-level or rate-class subgroup outcome is reported in the source.",
+      "counterinterpretation": "A completed and energized project can expand transfer capability and reduce modeled or system-level costs while savings are absorbed by market conditions, utility rates, maintenance, generation mix, or customer-specific usage. Physical completion is not equal to universal affordability or equal benefit.",
+      "source_url": "https://www.nypa.gov/News/Press-Releases/2026/20260622-smarthpath",
+      "retrieval_hash": "sha256:595f459183983478faac420ec0e5ca3a5ddd2770b86fa959213819c85d5079ea",
+      "status": "reported"
+    },
+    {
+      "period": "June 17, 2026; customer-facing benefit language in the same NYPA completion announcement",
+      "denominator": {"value": 1, "unit": "named transmission project announcement", "value_type": "infrastructure_project_count"},
+      "measures": {
+        "customer_benefit_claim": {"value": "monthly savings on electric bills for households and businesses", "unit": "officially stated expected customer benefit", "value_type": "reported_claim"},
+        "per_household_savings": {"value": "not stated", "unit": "project announcement", "value_type": "unmeasured"},
+        "rate_class_incidence": {"value": "not stated", "unit": "project announcement", "value_type": "unmeasured"},
+        "observed_bills": {"value": "not stated", "unit": "household billing records", "value_type": "unmeasured"}
+      },
+      "method": "Official NYPA project announcement language is coded as a customer-facing benefit claim, separate from the reported system-level annual savings and from observed household billing outcomes.",
+      "uncertainty": "The announcement does not provide a per-household amount, utility or rate-class allocation, timing, counterfactual, bill records, or distribution across customers. The wording establishes an expected or reported benefit claim, not verified household receipt.",
+      "subgroup": "New York households and businesses described by the project announcement; no customer-level sample is supplied.",
+      "counterinterpretation": "A project can generate system-wide congestion benefits while customer savings vary by utility, usage, rate class, geography, and later supply or transmission charges.",
+      "source_url": "https://www.nypa.gov/News/Press-Releases/2026/20260622-smarthpath",
+      "retrieval_hash": "sha256:595f459183983478faac420ec0e5ca3a5ddd2770b86fa959213819c85d5079ea",
+      "status": "reported"
+    },
+    {
+      "period": "NYISO Schedule 18, current tariff mechanism reviewed September 2026",
+      "denominator": {"value": 1, "unit": "formal transmission cost-recovery schedule", "value_type": "tariff_mechanism_count"},
+      "measures": {
+        "cost_recovery_route": {"value": "SPC-FC facilities charge", "unit": "formal NYISO tariff mechanism", "value_type": "institutional_implementation"},
+        "billing_unit": {"value": "actual energy withdrawals", "unit": "load-serving-entity withdrawal units", "value_type": "allocation_rule"},
+        "billed_entities": {"value": "all responsible load-serving entities serving load in the New York Control Area", "unit": "named payer class", "value_type": "institutional_incidence"},
+        "offset_route": {"value": "incremental transmission-rights auction revenue and related payments", "unit": "specified tariff offset", "value_type": "revenue_adjustment"},
+        "household_bill_change_and_distribution": {"value": "not observed", "unit": "missing utility rate, customer-class, household bill, outage, and affordability outcome", "value_type": "unmeasured"}
+      },
+      "method": "NYISO Open Access Transmission Tariff Schedule 18 review; cost-recovery formula, billing unit, responsible payer class, and revenue offset are coded separately from downstream utility and household incidence.",
+      "uncertainty": "The tariff establishes a formal wholesale cost-recovery and allocation mechanism, but the public schedule does not establish the amount charged in a particular billing period, how a load-serving entity passes it through, any retail-rate change, household distribution, reliability outcome, or realized savings.",
+      "subgroup": "Load-serving entities and their served load are the formal incidence units; household, business, municipal, geographic, and rate-class incidence remain unobserved.",
+      "counterinterpretation": "A formal charge can allocate project costs while congestion or transmission-rights benefits offset some of the requirement; neither the charge nor the offset alone proves lower retail bills, equal benefits, or durable affordability.",
+      "source_url": "https://www.nyiso.com/documents/20142/40004830/OATT%206.18%20-%20AAR%20Congestion%20Settlements%20ER23-973%20Redline%20v1.pdf/96beb0bd-feaa-5170-2ed4-52195bbe9d71",
+      "retrieval_hash": "sha256:b9a79291e6b8526460b4aa8131f4ad95395fc255ce1254884545c8f4a8403b32",
+      "status": "reported"
+    },
+    {
+      "period": "Year ending December 31, 2023; NYPA 2024 Annual Update filed in 2024",
+      "denominator": {"value": 1, "unit": "populated Smart Path Connect project-specific annual-update line", "value_type": "accounting_schedule_count"},
+      "measures": {
+        "project_gross_plant": {"value": 117658586, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "project_accumulated_depreciation": {"value": 1055377, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "project_net_plant": {"value": 116603209, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "annual_revenue_requirement_before_incentive": {"value": 20165009, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "incentive_return": {"value": 291508, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "total_annual_revenue_requirement": {"value": 20456517, "unit": "US dollars", "value_type": "reported_accounting_value"},
+        "retail_pass_through_and_household_bill": {"value": "not observed", "unit": "missing retail utility and household billing records", "value_type": "unmeasured"}
+      },
+      "method": "NYPA 2024 Annual Update Schedule F1 extraction; the populated Smart Path Connect line is retained as a project-specific accounting/revenue-requirement stage and not treated as a retail charge or household savings amount.",
+      "uncertainty": "The schedule reports project accounting values for the year ending December 31, 2023, but does not identify later billing-period collection, LSE pass-through, retail rate design, customer class, geography, household bill change, or realized savings. The relationship between this historical project line and later completion/energization must be preserved rather than assumed.",
+      "subgroup": "Smart Path Connect project accounting line; formal incidence remains at the transmission/revenue-requirement level.",
+      "counterinterpretation": "A populated revenue requirement establishes a cost-recovery amount in the filed accounting architecture, not a net social cost, customer payment, or household benefit; offsets, later updates, and retail treatment remain separate.",
+      "source_url": "https://www.nyiso.com/documents/20142/45595515/NYPA-2024-Annual-Update-PDF.pdf/68f288ba-e0c5-028f-7e8f-1613695050d4",
+      "retrieval_hash": "sha256:8f2ccbaa6dbd3f60dbdbaf51822179e30044d1525bbb517b87e4eacc8326bcf1",
+      "status": "reported"
+    },
+    {
+      "period": "NY DPS Article VII proceeding; applicant economic-benefit analysis reviewed September 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "named Smart Path Connect project economic-benefit analysis",
+        "value_type": "project_model"
+      },
+      "measures": {
+        "single_year_production_cost_savings": {
+          "value": 99000000,
+          "unit": "US dollars in 2025 dollars; applicant analysis",
+          "value_type": "modeled_project_estimate"
+        },
+        "annual_congestion_cost_savings": {
+          "value": 450000000,
+          "unit": "US dollars; applicant analysis for Northern New York",
+          "value_type": "modeled_project_estimate"
+        },
+        "annual_statewide_load_payment_savings": {
+          "value": 214000000,
+          "unit": "US dollars; applicant analysis",
+          "value_type": "modeled_project_estimate"
+        },
+        "renewable_curtailment_elimination": {
+          "value": 7.5,
+          "unit": "terawatt-hours; approximate modeled estimate",
+          "value_type": "modeled_project_estimate"
+        },
+        "household_bill_and_rate_class_effect": {
+          "value": "not observed",
+          "unit": "missing customer-level billing and distribution data",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of the New York Department of Public Service Article VII proceeding exhibit; applicant economic-benefit estimates are retained as modeled projections and kept separate from NYPA's public completion claim, NYISO cost allocation, and observed customer bills.",
+      "uncertainty": "The proceeding document presents project modeling assumptions and multiple benefit concepts with different geographic and accounting scopes. It does not provide a customer denominator, realized billing-period savings, rate-class distribution, reliability result, or independent post-operation evaluation.",
+      "subgroup": "Northern New York production and congestion context, statewide load-payment context, and New York transmission users as described by the applicant; household and business incidence are not identified.",
+      "counterinterpretation": "Different modeled savings categories cannot be added together or compared as if they were one realized benefit. Actual outcomes can differ with load, generation, congestion, market prices, curtailment, financing, and pass-through rules.",
+      "source_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7BDE740793-F563-4761-A1ED-0094868CD95B%7D",
+      "retrieval_hash": "sha256:13328262f5490dc7ab749e966a22585e31242ec69319ead0e2428cddc104e40e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nypa.gov/News/Press-Releases/2026/20260622-smarthpath",
+      "claim": "NYPA reports completion, energization, physical outputs, network extent, and annual savings for Smart Path Connect.",
+      "status": "official-project-announcement"
+    },
+    {
+      "source_url": "https://www.nypa.gov/Power/Transmission/Transmission-Projects/Smart-Path-Connect",
+      "claim": "NYPA's project page characterizes the approximately $438 million annual figure as an estimate and says congestion savings are expected to be reflected in costs for its customers, including municipalities, businesses, and other public-power customers.",
+      "status": "official-project-page; expected-customer-cost-channel"
+    },
+    {
+      "source_url": "https://www.nyiso.com/documents/20142/45595515/NYPA-2024-Annual-Update-PDF.pdf/68f288ba-e0c5-028f-7e8f-1613695050d4",
+      "claim": "NYPA's year-end 2023 Schedule F1 contains populated Smart Path Connect project-specific gross plant, net plant, annual revenue requirement, and incentive-return values; retail pass-through and household billing remain unobserved.",
+      "status": "official-annual-update; populated-accounting-stage"
+    },
+    {
+      "source_url": "https://www.nyiso.com/documents/20142/40004830/OATT%206.18%20-%20AAR%20Congestion%20Settlements%20ER23-973%20Redline%20v1.pdf/96beb0bd-feaa-5170-2ed4-52195bbe9d71",
+      "claim": "NYISO Schedule 18 establishes a Smart Path Connect Facilities Charge, bills responsible load-serving entities based on actual energy withdrawals, and applies specified transmission-rights revenues and payments as offsets.",
+      "status": "official-tariff; formal-cost-allocation-stage"
+    },
+    {
+      "source_url": "https://nyisoviewer.etariff.biz/ViewerDocLibrary/MasterTariffs/9TariffSections/OATT%2014.2-14.2.1%20FID5405%20redline_38645.htm",
+      "claim": "The filed Smart Path Connect cost-containment schedule sets a $481.8 million cost cap and provides for no return on equity on 20% of the equity portion of eligible costs above the cap, while the actual-cost input fields remain to be populated from company records.",
+      "status": "filed-tariff-schedule; cost-governance-stage"
+    },
+    {
+      "source_url": "https://nyisoviewer.etariff.biz/viewerdoclibrary/Filing/Filing5405/5405FilingSections/OATT%2014.2-14.2.1%20FID5405%20redline_38439.pdf",
+      "claim": "The effective January 24, 2026 annual-update filing exposes Smart Path Connect project-specific revenue-requirement schedules, but the project gross plant in service and project-return inputs are blank or sourced to company workpapers rather than populated public charge amounts.",
+      "status": "filed-annual-update; populated-amount-open"
+    },
+    {
+      "source_url": "https://www.energy.gov/oe/national-transmission-needs-study",
+      "claim": "DOE describes current and near-term transmission needs from load growth, congestion, and reliability requirements.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a completed and energized transmission project to the infrastructure/state-capacity lane. It establishes physical realization, a reported system-level savings claim, and an official customer-facing monthly-bill-savings claim, not observed customer-level bill savings, equal ratepayer benefit, outage reduction, local acceptance, maintenance durability, or geopolitical leverage. The next test is a project or ratepayer-linked realization ledger preserving service, rate, reliability, geography, customer class, and later affordability separately.",
+  "retrieval_hash": "sha256:595f459183983478faac420ec0e5ca3a5ddd2770b86fa959213819c85d5079ea"
+}

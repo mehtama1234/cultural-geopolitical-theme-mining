@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-eitc-employment-mothers-voting-identity-2026",
+  "title": "Policy-induced employment can reduce political participation and shift political identity among lower-income mothers",
+  "theme_ids": ["cost", "work", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Lower-income U.S. mothers observed across historical EITC expansions and 1990s welfare-reform employment instruments",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Five decades of EITC expansions and 1990s welfare reform; working-paper estimate issued March 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "study design and historical data frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "employment_effect_on_voter_turnout": {
+          "value": "negative",
+          "unit": "reported causal direction of employment instrument estimates among lower-income mothers",
+          "value_type": "reported_effect_direction"
+        },
+        "employment_effect_on_registration_knowledge_engagement": {
+          "value": "decline",
+          "unit": "reported direction for voter registration, political knowledge, and civic engagement",
+          "value_type": "reported_effect_direction"
+        },
+        "employment_effect_on_conservatism": {
+          "value": "increase",
+          "unit": "reported direction of political-identity and conservative-policy-preference estimates",
+          "value_type": "reported_effect_direction"
+        },
+        "heterogeneity": {
+          "value": "largest among unmarried, younger, and less-educated mothers; stronger outside metropolitan areas",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "workplace_social_environment": {
+          "value": "political shifts are concentrated among White women despite larger employment gains among non-White women, with coworker environments proposed as one mechanism",
+          "unit": "reported subgroup/mechanism pattern",
+          "value_type": "reported_pattern"
+        }
+      },
+      "method": "NBER Working Paper 34980 uses five decades of Earned Income Tax Credit expansions and 1990s welfare reform as instruments for employment, then examines turnout, registration, political knowledge, civic engagement, political identity, and policy preferences among lower-income mothers.",
+      "uncertainty": "This is a working-paper abstract, not a reproduced full-paper estimate in this record; coefficient magnitudes, first-stage strength, exclusion assumptions, sample construction, and robustness are not retained here. Employment induced by policy is not the same as a general employment status, and the instrument estimates a policy-specific local effect.",
+      "subgroup": "Lower-income mothers, with reported heterogeneity by marital status, age, education, metropolitan status, race, prior maternal work exposure, and coworker environment.",
+      "counterinterpretation": "The employment instrument may change income, schedule, childcare, workplace networks, time pressure, benefit eligibility, and policy exposure together. The paper's mechanism discussion does not establish one universal route from work to ideology, nor does the abstract identify household material recovery, employer remedy, source exposure, or individual attribution.",
+      "source_url": "https://www.nber.org/papers/w34980",
+      "retrieval_hash": "sha256:e6309cfc7f925cd114a66d5294d7e7acda532bfa0ebcafef26292a6a96f5d342",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34980",
+      "claim": "NBER DOI and working-paper metadata identify the study and author.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a U.S. policy-induced-employment mechanism among lower-income mothers, not a universal employment effect or a household-level material-recovery ledger. It reports political participation and identity outcomes but does not establish the exact bill, time tradeoff, childcare route, responsible actor, remedy, source environment, or later switching/exit for the same person.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 34980 page downloaded and hashed; title, date, instrument description, outcome directions, heterogeneity, and working-paper limitations checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

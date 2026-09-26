@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-incentive-payment-preferences-digital-cash-2026",
+  "title": "Digital incentives are preferred by most people, but physical cash remains important for a smaller lower-income group",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["consumer_power_recourse", "unequal_exposure_status", "infrastructure_technology_dependency", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "Census Research Report Series nonprobability survey experiment asking preferences for $5 and $40 incentive payments",
+  "geography": "United States; large nonprobability survey of adults",
+  "observations": [
+    {
+      "period": "2026 survey of promised incentive preferences; paper published May 2026",
+      "denominator": {"value": null, "unit": "large nonprobability survey respondents; exact sample count not disclosed in the landing-page abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "cash_preference": {"value": "about 5% preferred physical cash for either the $5 or $40 incentive", "unit": "share of respondents", "value_type": "reported_approximation"},
+        "digital_preference": {"value": "most respondents preferred electronic bank transfers or digital gift cards", "unit": "preferred incentive type", "value_type": "reported_pattern"},
+        "cash_subgroup": {"value": "the small group preferring cash was mostly young, low-income, and without a college degree", "unit": "subgroup composition", "value_type": "reported_subgroup_pattern"},
+        "incentive_options": {"value": "vignettes compared cash, digital gift cards, physical gift cards, checks, and electronic bank transfers for $5 and $40", "unit": "survey design", "value_type": "reported_definition"}
+      },
+      "method": "A large nonprobability survey asked respondents which of five payment forms they would prefer for two incentive amounts; the study compares preference patterns across respondent subgroups.",
+      "uncertainty": "This is a Census survey-methods working paper using a nonprobability survey. The landing-page abstract does not disclose the exact sample count, weighting, response process, actual payment behavior, device access, bank access, fees, or whether stated preferences predict completed receipt.",
+      "subgroup": "Respondents grouped by age, income, and educational attainment; the abstract identifies the cash-preferring subgroup as mostly young, low-income, and without a college degree.",
+      "counterinterpretation": "A preference for digital transfer or gift cards may reflect convenience, but could also reflect the specific options, amount, trust, fees, bank access, phone access, or inability to use cash in a particular setting. Stated preference is not successful receipt or household benefit.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-05.html",
+      "retrieval_hash": "sha256:5bde824ecd7d204c1c9a86085eabde62c58377336948c663d7af15d5111c99d1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html", "claim": "The Census Household Panel text-contact study adds a separate digital-access and consent layer; it does not measure incentive-payment preference or receipt.", "status": "related-distinct-source"}
+  ],
+  "boundary": "This record adds a stated-payment-preference and digital-access pathway. It does not establish actual payment receipt, affordability, bank or device access, privacy, incentive effectiveness, survey response, or household security."
+}

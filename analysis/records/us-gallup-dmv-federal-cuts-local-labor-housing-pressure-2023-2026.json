@@ -1,0 +1,101 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-dmv-federal-cuts-local-labor-housing-pressure-2023-2026",
+  "title": "Federal workforce reductions weaken local job confidence while housing costs remain the main exit pressure in the Washington region",
+  "theme_ids": ["cost", "time", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "2026 Greater Washington Community Foundation-Gallup Community Insights report and September 23, 2026 Gallup summary",
+  "geography": "Greater Washington region: District of Columbia, Maryland, and Virginia",
+  "observations": [
+    {
+      "period": "2026; household exposure to federal job cuts and regional conditions",
+      "denominator": {
+        "value": null,
+        "unit": "DMV resident survey; exact respondent count is not disclosed on the published summary page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "household_impact_of_federal_cuts": {
+          "value": "55% say they or someone in their household has been negatively impacted by federal job cuts; the share is 66% among D.C. residents and 62% in Arlington County and Alexandria",
+          "unit": "percent of surveyed residents or households",
+          "value_type": "published_share_and_geographic_comparison"
+        },
+        "good_job_availability": {
+          "value": "51% rate the availability of good jobs in the region excellent or good, down 14 percentage points from 65% in 2023",
+          "unit": "percent of surveyed residents; percentage-point change",
+          "value_type": "published_comparison"
+        },
+        "regional_amenity_stability": {
+          "value": "Residents continue to rate grocery availability at 84%, healthcare at 73%, restaurants and nightlife at 71%, transportation at 70%, and the region as a place to raise children at 69% as excellent or good",
+          "unit": "percent of surveyed residents",
+          "value_type": "published_amenity_ratings"
+        },
+        "housing_affordability_rating": {
+          "value": "Availability of affordable housing is the lowest-rated regional aspect at 11%, with no improvement since 2023",
+          "unit": "percent of surveyed residents rating the aspect excellent or good",
+          "value_type": "published_share_and_comparison"
+        }
+      },
+      "method": "Gallup summary of the 2026 Greater Washington Community Foundation-Gallup Community Insights report, comparing regional quality-of-life ratings with the 2023 wave and reporting selected local-area contrasts.",
+      "uncertainty": "The summary page does not disclose the exact respondent count, sampling frame, weighting, or questionnaire-level design. Reported negative impact is not a verified layoff, income loss, program denial, or firm closure, and the 2023-to-2026 change is descriptive rather than a causal estimate of federal downsizing.",
+      "subgroup": "Residents of the Greater Washington region, with selected comparisons for D.C., Arlington County and Alexandria, renters versus homeowners, and residents planning to leave the region.",
+      "counterinterpretation": "Residents may attribute effects to federal job cuts even when the pathway is lost clients, business demand, program access, or local amenities rather than direct job loss. The stable ratings for many amenities alongside worsening job ratings may reflect domain-specific exposure, not a generalized collapse in regional quality of life.",
+      "source_url": "https://news.gallup.com/poll/714599/majority-dmv-residents-negatively-impacted-federal-job-cuts.aspx",
+      "retrieval_hash": "sha256:de4be7c329ec6c4962ea94ad7c6583a58a664a94df20fc26fb7345bc8664ce10",
+      "status": "reported"
+    },
+    {
+      "period": "2026; housing payment worry and reasons residents plan to leave",
+      "denominator": {
+        "value": null,
+        "unit": "DMV resident survey; exact respondent count is not disclosed on the published summary page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "rent_or_mortgage_worry": {
+          "value": "33% are very or somewhat worried about being able to pay rent or a mortgage, including 48% of renters and 25% of homeowners; the overall level is near 30% in 2020 and below 52% in 2023",
+          "unit": "percent of surveyed residents or subgroup",
+          "value_type": "published_time_comparison_and_subgroup_comparison"
+        },
+        "planned_leavers_housing_cost_reason": {
+          "value": "Among residents planning to leave the region, 58% cite rising housing costs as a major reason and 59% cite the broader cost of living",
+          "unit": "percent of residents planning to leave",
+          "value_type": "published_subgroup_share"
+        },
+        "housing_and_labor_pressure_link": {
+          "value": "The report places low affordable-housing ratings, payment worry, planned-leaver cost reasons, and declining job-market confidence in the same regional exposure context",
+          "unit": "cross-measure descriptive configuration",
+          "value_type": "published_cross_measure_pattern"
+        }
+      },
+      "method": "Descriptive comparison of reported housing-payment worry, tenure differences, prior survey waves, and reasons given by residents planning to leave; the source does not estimate a causal housing-to-migration model.",
+      "uncertainty": "The planning-to-leave subgroup is selected and may differ in income, tenure, employment, family, or duration of residence. The data do not show whether respondents actually move, whether housing costs caused the decision, or how federal employment exposure changes the route.",
+      "subgroup": "DMV renters, homeowners, and residents planning to leave the region; exact subgroup bases are not disclosed on the summary page.",
+      "counterinterpretation": "Housing cost and general cost of living may be correlated labels for broader affordability pressure. A resident can report payment worry without moving, and a planned move can reflect school, family, commute, or career considerations not captured by the two cost categories.",
+      "source_url": "https://news.gallup.com/poll/714599/majority-dmv-residents-negatively-impacted-federal-job-cuts.aspx",
+      "retrieval_hash": "sha256:de4be7c329ec6c4962ea94ad7c6583a58a664a94df20fc26fb7345bc8664ce10",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gallup.com/analytics/714071/gwcf-community-insights.aspx",
+      "claim": "The Greater Washington Community Foundation-Gallup research hub identifies the 2026 report scope as community wellbeing, opportunity, quality of life, housing, economic security, and federal workforce reductions, and reports the 55%, 51%, and 11% headline figures.",
+      "status": "primary-context"
+    }
+  ],
+  "boundary": "This record adds a place-specific public-sector shock, local labor-market confidence, housing-payment pressure, and prospective mobility layer. It does not infer verified layoffs, income changes, firm closures, regional migration, causal federal-workforce effects, household recovery, or local policy effectiveness.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup summary and Greater Washington Community Foundation-Gallup research-hub pages retrieved and hashed; headline regional, housing, job-market, amenity, and subgroup claims cross-checked against the published pages.",
+    "html_sha256": "sha256:de4be7c329ec6c4962ea94ad7c6583a58a664a94df20fc26fb7345bc8664ce10",
+    "related_context_html_sha256": "sha256:45474808e2c90aeb6d324dc8c58067bd6d5440e1af045e0f6dfcca56159a4ffe",
+    "checked": "2026-09-26"
+  }
+}

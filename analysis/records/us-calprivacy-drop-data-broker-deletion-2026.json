@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-calprivacy-drop-data-broker-deletion-2026",
+  "title": "A centralized privacy request can scale consumer control while leaving broker-level deletion unresolved",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "California Privacy Protection Agency public explanation of the Delete Request and Opt-out Platform (DROP)",
+  "geography": "California consumers and registered data brokers",
+  "observations": [
+    {
+      "period": "January-July 2026; implementation beginning August 1, 2026",
+      "denominator": {"value": 325000, "unit": "consumers reported by CalPrivacy as having signed up and submitted deletion requests; approximate lower-bound wording", "value_type": "reported_participant_count"},
+      "measures": {
+        "data_broker_coverage": {"value": 600, "unit": "over 600 active data brokers covered by one request", "value_type": "reported_system_scope"},
+        "consumer_request": {"value": "one request to delete personal information and stop sale", "unit": "centralized privacy-control route", "value_type": "reported_access_route"},
+        "raw_data_storage": {"value": "DROP hashes entered information and says raw data is not stored or shared with brokers", "unit": "reported privacy-by-design feature", "value_type": "reported_control_design"},
+        "status_visibility": {"value": "deleted, exempted, opted out of sale, not found, or pending", "unit": "reported broker-level status categories", "value_type": "reported_status_surface"},
+        "broker_response_deadline": {"value": 45, "unit": "days after a matched request, subject to exemptions", "value_type": "reported_deadline"},
+        "verified_deletion_and_lived_outcome": {"value": "not established in the source", "unit": "missing consumer-level completion, residual exposure, trust, switching, or wellbeing outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official California Privacy Protection Agency implementation explanation; participation, system scope, privacy-by-design, status categories, and response timing are retained separately from matched deletion, exemption, residual data, and downstream consumer outcomes.",
+      "uncertainty": "The public page reports submissions and the designed status route but does not provide the distribution of statuses across brokers, actual completion rates, exemptions, duplicate matching failures, re-collection, or consumer-level trust and behavior change.",
+      "subgroup": "California residents eligible for DROP and data brokers covered by the system; status outcomes may differ by information supplied and broker records.",
+      "counterinterpretation": "A centralized route can lower effort and increase consumer agency even if some records are not found or exempted; a deletion status can also reduce sale without removing the underlying data.",
+      "source_url": "https://privacy.ca.gov/2026/07/drop-data-broker-deletions-how-do-they-work/",
+      "retrieval_hash": "sha256:027644d8dbc6cdfaad3e11509ed5b18d4fce7cf034454b0d0fc04cc8ef1f8786",
+      "status": "reported"
+    }
+    ,
+    {
+      "period": "August 2026 follow-up after mandatory processing began",
+      "denominator": {"value": 500000, "unit": "approximately California consumers registered for DROP", "value_type": "reported_participant_count"},
+      "measures": {
+        "registered_data_brokers": {"value": 654, "unit": "data brokers in the DROP system", "value_type": "reported_system_scope"},
+        "brokers_reporting_processing": {"value": 25, "unit": "approximately percent of data brokers reporting that they processed deletion requests", "value_type": "reported_share"},
+        "request_status_route": {"value": "consumers can log in and check broker-level deletion status after processing begins", "unit": "reported status-access route", "value_type": "reported_access_route"},
+        "consumer_level_deletion_and_residual_exposure": {"value": "not published", "unit": "missing broker-match, deletion, exemption, re-collection, and lived-outcome detail", "value_type": "unmeasured"}
+      },
+      "method": "Official California Privacy Protection Agency follow-up announcement reviewed as a later implementation observation for the same DROP route.",
+      "uncertainty": "The agency reports registrations, broker participation, and the share reporting processing, but not the number of requests processed, status distribution, deletion completion, exemptions, record matching, repeat collection, or consumer-level privacy and trust outcomes.",
+      "subgroup": "California DROP registrants and registered data brokers; the reported processing share is broker-level and is not a consumer-level completion rate.",
+      "counterinterpretation": "A quarter of brokers reporting processing is meaningful implementation progress, but reporting activity may precede completed deletion and does not show that the remaining brokers failed to comply or that a registrant's data was removed.",
+      "source_url": "https://privacy.ca.gov/2026/08/half-a-million-californians-have-signed-up-for-drop-to-delete-their-personal-information-from-data-brokers/",
+      "retrieval_hash": "sha256:21ca3463268477087b13a5aecd6c7e5eb6b8c7e4f50e912df970d73f0f83e6cc",
+      "status": "reported"
+    },
+    {
+      "period": "Current DROP implementation timeline checked September 21, 2026",
+      "denominator": {"value": null, "unit": "consumer deletion requests and broker-level status updates in the DROP production route", "value_type": "not_disclosed"},
+      "measures": {
+        "broker_processing_interval": {"value": 45, "unit": "days; data brokers must access DROP at least once every 45 days to process requests", "value_type": "reported_requirement"},
+        "status_update_delay": {"value": 90, "unit": "days; status updates may take up to 90 days to appear depending on broker workflows", "value_type": "reported_timing_boundary"},
+        "status_categories": {"value": "record deleted, record exempted, record opted out of sale, record not found, or pending", "unit": "broker-level status outcomes", "value_type": "reported_status_categories"},
+        "match_sensitivity": {"value": "adding optional identifiers such as mobile advertising ID, connected-TV ID, or VIN may improve matching", "unit": "reported request-design condition", "value_type": "reported_match_condition"},
+        "verified_deletion_and_residual_exposure": {"value": "not established", "unit": "status visibility and processing rules do not independently prove complete deletion, exemption validity, re-collection prevention, or durable consumer control", "value_type": "unmeasured"}
+      },
+      "method": "Official California Privacy Protection Agency DROP implementation and status-route pages reviewed as a temporal follow-up; processing cadence, status delay, outcome categories, and matching conditions are retained separately from consumer-level deletion and residual exposure.",
+      "uncertainty": "The public route does not disclose the distribution of statuses, how many requests remain pending beyond the stated timeline, the share of records not found or exempted, whether brokers re-collect information after deletion, or whether a consumer's status accurately describes all data held.",
+      "subgroup": "California DROP users and registered data brokers; status timing varies by broker workflow and information supplied by the consumer.",
+      "counterinterpretation": "A 90-day status window may reflect a designed processing cycle rather than institutional failure, and a not-found or opt-out-of-sale result may be correct under the data held or legal scope. Neither interpretation establishes durable privacy for the individual.",
+      "source_url": "https://privacy.ca.gov/drop/",
+      "retrieval_hash": "sha256:74966a169861327dbb3edc888ca292ad41e71cd8bf18a8777d6bee7f77e580f0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers", "claim": "The GM/OnStar order supplies a separate product-level data-control comparison with request and deletion routes.", "status": "related", "access_boundary": "DROP is a California multi-broker route and cannot be pooled with GM/OnStar request completion or vehicle switching."}
+  ],
+  "boundary": "This record establishes a large-scale centralized privacy-request route with participant volume, broker coverage, privacy-preserving intake, status categories, and response timing. It does not establish broker-level match or deletion rates, exemptions, residual data, re-collection, actual user trust, switching, wellbeing, or durable privacy. The route is an implementation and contestability stage, not a verified privacy outcome.",
+  "retrieval_hash": "sha256:027644d8dbc6cdfaad3e11509ed5b18d4fce7cf034454b0d0fc04cc8ef1f8786"
+}

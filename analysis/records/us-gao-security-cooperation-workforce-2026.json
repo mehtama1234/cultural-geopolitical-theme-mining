@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-security-cooperation-workforce-2026",
+  "title": "Security cooperation commitments depend on a workforce that is still being counted, trained, and staffed",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107976 review of the Department of Defense Security Cooperation Workforce Development Program",
+  "geography": "United States and overseas U.S. security-cooperation organizations; DOD workforce provisions and partner-capacity activities",
+  "observations": [
+    {
+      "period": "As of May 2026; FY2024 NDAA workforce provisions",
+      "denominator": {"value": 66, "unit": "security-cooperation workforce provisions GAO identified for analysis under 10 U.S.C. section 384", "value_type": "reported_legal_scope"},
+      "measures": {
+        "completed_provisions": {"value": 46, "unit": "provisions for which GAO found DOD work complete", "value_type": "reported_count"},
+        "human_capital_completed": {"value": 23, "unit": "of 36 Human Capital Initiative provisions completed", "value_type": "reported_count"},
+        "human_capital_in_progress": {"value": 11, "unit": "of 36 Human Capital Initiative provisions in progress", "value_type": "reported_count"},
+        "human_capital_not_started": {"value": 2, "unit": "of 36 Human Capital Initiative provisions not started", "value_type": "reported_count"},
+        "planned_completion": {"value": "end of FY2028", "unit": "DSCA estimate for completing remaining workforce tasks", "value_type": "reported_target_date"}
+      },
+      "method": "GAO reviewed DSCA documents and interviewed officials responsible for workforce provisions; GAO classified provisions as complete, in progress, or not started based on evidence available as of May 2026.",
+      "uncertainty": "A provision classified complete is an implementation-status judgment, not proof that the workforce has sufficient capacity, that training changed field performance, or that partner capabilities improved.",
+      "subgroup": "DSCA teams, the Human Capital Initiative, overseas security-cooperation organizations, the Defense Security Cooperation University, the FMS Center of Excellence, and related DOD components.",
+      "counterinterpretation": "Formal certification, workforce coding, and phased reforms can improve professionalization even before all tasks are complete; a long implementation horizon does not by itself imply failed security cooperation.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107976/index.html",
+      "retrieval_hash": "sha256:3ef0fb4a41bd83938b17913e691487e9c1109edb649fa8f63f326a78f4a0460e",
+      "status": "reported"
+    },
+    {
+      "period": "October 2025–April 2026; identified positions and staffing constraints",
+      "denominator": {"value": 19379, "unit": "security-cooperation workforce positions DSCA identified across nine functional areas as of October 2025", "value_type": "reported_position_count"},
+      "measures": {
+        "identified_positions": {"value": 19379, "unit": "positions across nine functional areas", "value_type": "reported_count"},
+        "fms_center_vacancies": {"value": 5, "unit": "approximately five of 15 FMS Center of Excellence positions reported unfilled", "value_type": "reported_estimate"},
+        "sco_positions": {"value": 736, "unit": "Security Cooperation Organization functional-area positions in DSCA data; distinct from 1,320 SCO personnel cited in a different workforce count", "value_type": "reported_count"},
+        "research_grants": {"value": 7, "unit": "DSCU Young Institute grants awarded in FY2024, plus one cooperative agreement", "value_type": "reported_count"}
+      },
+      "method": "GAO reviewed DSCA workforce data and implementation documents and reported official explanations of staffing and research-capacity challenges.",
+      "uncertainty": "Position counts are not filled-person counts, and the report uses different scopes for workforce positions and SCO personnel. Staffing gaps do not directly measure partner outcomes, end-use monitoring quality, or operational readiness.",
+      "subgroup": "DOD civilian and military personnel, overseas security-cooperation organizations, FMS Center of Excellence staff, training and research personnel, and support enablers.",
+      "counterinterpretation": "Some unfilled positions may be temporary or intentionally managed through other personnel, contractors, or existing expertise; reported shortfalls identify capacity risk, not a quantified mission failure.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107976/index.html",
+      "retrieval_hash": "sha256:3ef0fb4a41bd83938b17913e691487e9c1109edb649fa8f63f326a78f4a0460e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107976/index.html", "claim": "Official GAO report supplies workforce-provision status, position counts, certification, staffing, training, and research-capacity findings.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes an institutional workforce and professionalization stage beneath U.S. security cooperation. It does not establish partner capability, equipment delivery, end-use compliance, alliance trust, deterrence, battlefield effect, or external behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO accessible HTML report retrieved and hashed; underlying DOD personnel systems, workforce survey, partner records, and operational assessments not retained",
+    "html_sha256": "sha256:3ef0fb4a41bd83938b17913e691487e9c1109edb649fa8f63f326a78f4a0460e",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-performance-management-strategic-review-2025-2026",
+  "title": "A federal performance framework can exist while agencies still lack complete strategic review and learning practice",
+  "theme_ids": ["voice", "work", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "political_judgment_action",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "GAO-26-108516 review of the Federal Agency Performance Act of 2024, OMB implementation, and selected agency strategic-review processes",
+  "geography": "United States federal government; OMB and four selected agencies: DHS, State, Treasury, and GSA",
+  "observations": [
+    {
+      "period": "2025 implementation and June 2026 GAO review",
+      "denominator": {
+        "value": 4,
+        "unit": "selected agencies from a population of 13 previously reviewed for strategic reviews",
+        "value_type": "selected_agency_sample"
+      },
+      "measures": {
+        "agency_requirement_completion": {
+          "value": "none of the four selected agencies fully addressed the new statutory strategic-review requirements in 2025",
+          "unit": "selected agencies",
+          "value_type": "reported_count"
+        },
+        "omb_guidance_coverage": {
+          "value": "OMB's August 2025 guidance addressed 10 of 15 FAPA requirements for strategic reviews",
+          "unit": "statutory requirements assessed",
+          "value_type": "reported_count"
+        },
+        "cross_agency_goal_visibility": {
+          "value": "as of June 2026, OMB had not designated which President's Management Agenda goals were the new cross-agency priority goals or released related implementation details",
+          "unit": "Performance.gov and OMB implementation status",
+          "value_type": "reported_gap"
+        },
+        "annual_learning_review": {
+          "value": "DHS, Treasury, and GSA had plans for 2026 strategic reviews; State would not confirm plans, leaving leadership without the required annual opportunity to assess what worked and what did not",
+          "unit": "selected agency planning status",
+          "value_type": "reported_comparison"
+        },
+        "outcome_improvement": {
+          "value": "not observed as a common agency or public outcome",
+          "unit": "missing review completion, decision change, program result, cross-agency contribution, and service or public-benefit ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO reviewed Performance.gov, OMB guidance and policies, and interviewed performance-management officials at four selected agencies; it assessed statutory requirements and strategic-review process documentation.",
+      "uncertainty": "The four agencies were selected from a prior-review population and are not a representative sample of all agencies. Documentation and planned actions do not establish actual review quality, decision use, program improvement, or public outcome.",
+      "subgroup": "OMB, DHS, State, Treasury, GSA, agency performance officials, goal leaders, data and evaluation officials, and cross-agency priority-goal processes.",
+      "counterinterpretation": "Agencies may use additional internal review practices not visible in the documents GAO assessed, and incomplete formal compliance does not prove that managers learned nothing or that programs performed poorly. New requirements may also need transition time before their value can be measured.",
+      "source_url": "https://www.gao.gov/assets/gao-26-108516.pdf",
+      "retrieval_hash": "sha256:8718c4ea494744d207ca72e18a9de5e785f82f4c3006e8e5c551b05666f155c1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures implementation of federal performance-management requirements and selected agency review documentation. It does not establish agency incompetence, program failure, or the effect of strategic reviews on public outcomes."
+}

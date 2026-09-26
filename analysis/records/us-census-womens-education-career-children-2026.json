@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-womens-education-career-children-2026",
+  "title": "Some college can improve women's careers and children's early-life conditions across the life cycle",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using a school-entry birthdate regression discontinuity and linked administrative records on women, jobs, and children",
+  "geography": "United States women and their children in the study's linked administrative data",
+  "observations": [
+    {
+      "period": "Women affected by school-entry birthdate cutoff; paper published January 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined women near the school-entry birthdate cutoff and their children; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "college_attendance": {
+          "value": "women born just before the school-entry cutoff were more likely to complete some college",
+          "unit": "reported first-stage discontinuity",
+          "value_type": "reported_relationship"
+        },
+        "career_outcomes": {
+          "value": "greater employment and earnings, more professional and higher-status jobs, more socially meaningful work, and better working conditions",
+          "unit": "reported life-cycle outcomes for women induced into some college",
+          "value_type": "reported_relationship"
+        },
+        "child_early_life": {
+          "value": "children's early-life health and prenatal inputs improved in tandem with mothers' career improvements",
+          "unit": "reported intergenerational outcome",
+          "value_type": "reported_relationship"
+        },
+        "education_margin": {
+          "value": "career gains were concentrated in jobs requiring exactly some college, the schooling margin shifted by the cutoff",
+          "unit": "reported mechanism-consistency pattern",
+          "value_type": "reported_subgroup_pattern"
+        }
+      },
+      "method": "Census CES working paper using a regression discontinuity at the school-entry birthdate cutoff to estimate the causal effect of women's education on wages, employment, job amenities, and spillovers to children, with linked administrative records.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full sample, cutoff rules, estimates, bandwidth, outcome definitions, or all subgroup details. Regression-discontinuity results apply most directly to women near the cutoff and to the education margin shifted by that design; they do not establish equal effects for every woman or every child.",
+      "subgroup": "Women near the school-entry birthdate cutoff who were induced into some college and their children; career gains concentrate in jobs requiring exactly some college.",
+      "counterinterpretation": "The design identifies a local effect of additional schooling near the cutoff, not the effect of all forms of college or all women. Job quality and social meaning are measured outcomes under the study's definitions, not complete autonomy or workplace control. Child health and prenatal inputs may reflect income, time, information, job schedules, health care, or other channels; the abstract does not fully separate them.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-09.html",
+      "retrieval_hash": "sha256:dc9e08edddbe335dc3af91b5a11485d9700000c9c0f772b0789a2798d61c2fef",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1395",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and describes the local education, career, and child-health results.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-09.pdf",
+      "claim": "The official paper PDF states the CES working-paper status and regression-discontinuity design context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a local causal education-to-career and child early-life pathway. It does not establish universal returns to college, complete maternal or child wellbeing, workplace autonomy, political participation, or the same mechanism in every population.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-09 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying linked administrative records are not retained",
+    "checked": "2026-09-22"
+  }
+}

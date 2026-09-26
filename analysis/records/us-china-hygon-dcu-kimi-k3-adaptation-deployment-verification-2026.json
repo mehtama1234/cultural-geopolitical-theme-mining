@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hygon-dcu-kimi-k3-adaptation-deployment-verification-2026",
+  "title": "A 2026 listed-company report stated that Hygon completed full-process Kimi K3 adaptation, deployment, and performance verification on its DCU platform",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Shenzhen Demingli Technology 2026 interim report's account of domestic AI-model and accelerator ecosystem adaptation",
+  "geography": "China, Hygon DCU, Kimi K3, domestic AI-model ecosystem, and listed technology firms",
+  "observations": [
+    {
+      "period": "2026 interim report published August 28, 2026; describing 2026 model and accelerator ecosystem developments",
+      "denominator": {
+        "value": 1,
+        "unit": "Kimi K3 model adaptation pathway on Hygon DCU as described in the reporting company's ecosystem account",
+        "value_type": "reported_model_platform_event"
+      },
+      "measures": {
+        "model": {"value": "Kimi K3", "unit": "named large model", "value_type": "reported_model"},
+        "adaptation_status": {"value": "Hygon Information reported as having completed full-process adaptation on its DCU platform", "unit": "reported ecosystem status", "value_type": "reported_adaptation"},
+        "deployment_status": {"value": "Hygon Information reported as having completed deployment of Kimi K3 on the DCU platform", "unit": "reported deployment status", "value_type": "reported_deployment"},
+        "verification_status": {"value": "Hygon Information reported as having completed performance verification", "unit": "reported verification status; benchmark values not disclosed", "value_type": "reported_verification"},
+        "comparison_context": {"value": "the same report describes parallel adaptation activity involving Ascend and Alibaba Zhenwu platforms", "unit": "reported multi-platform ecosystem context", "value_type": "reported_comparison_context"},
+        "independent_performance": {"value": "not observed", "unit": "no benchmark results, workload duration, throughput, energy, cost, or customer acceptance disclosed", "value_type": "unmeasured"}
+      },
+      "method": "Review of a listed company's official interim report. The source is coded as a second-party corporate report of Hygon's model-platform adaptation, deployment, and performance-verification status. The record does not treat the statement as independent testing and does not infer that Kimi K3 displaced another accelerator.",
+      "uncertainty": "The report does not name the Hygon customer or deployment site, identify whether deployment was production or validation, provide performance metrics, or reproduce the verification. The statement is embedded in a broader industry discussion and may summarize company or media information rather than a filing by Hygon itself.",
+      "subgroup": "Hygon Information, Kimi K3 developers, Demingli and other listed technology firms, domestic AI-model developers, system integrators, and competing accelerator platforms",
+      "counterinterpretation": "Full-process adaptation can reduce migration friction without changing accelerator choice, performance leadership, or market share. Parallel Ascend and Zhenwu adaptation indicates a multi-platform ecosystem in which Hygon may coexist with, rather than replace, other accelerators.",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225522456.PDF",
+      "retrieval_hash": "sha256:585906e234be26ad879b5529a7012259f53baa4bb5f0b66700db61813214e684",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "http://gxt.hunan.gov.cn/gxt/xhtml/pdfjs/web/images/pdf_rgzn02.pdf",
+      "claim": "Hunan's AI-supply inventory describes a mixed Ascend/Hygon Changsha center supporting named model applications.",
+      "status": "official-public-system-comparator"
+    },
+    {
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-14/1225472510.PDF",
+      "claim": "Hygon's interim report describes DCU adaptation to more than 400 mainstream models and deployment across key industries and application scenarios.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a reported model-specific adaptation, deployment, and performance-verification stage for Hygon DCU. It does not establish independent benchmark performance, production duration, customer acceptance, market share, substitution, or a causal effect of export controls."
+}

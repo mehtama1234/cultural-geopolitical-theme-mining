@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-local-national-democracy-gap-2026",
+  "title": "Americans judge local democracy more positively than national democracy while democratic commitment persists",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "2026 Democracy for All Project survey by Gallup and the Charles F. Kettering Foundation, April 24-June 10, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026; national and local democratic performance judgments",
+      "denominator": {
+        "value": 23683,
+        "unit": "U.S. adults surveyed",
+        "value_type": "published_sample"
+      },
+      "measures": {
+        "national_democracy_performance": {
+          "value": "56% say U.S. democracy is doing very or moderately poorly; 19% say it is doing very or moderately well",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_distribution"
+        },
+        "local_democracy_performance": {
+          "value": "34% say democracy in their own city or town is doing very or moderately well; 21% say it is doing very or moderately poorly",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_distribution"
+        },
+        "democratic_commitment_and_direction": {
+          "value": "60% say U.S. democracy was stronger 50 years ago than today; 45% expect it to become weaker over the next 50 years versus 31% expecting it to become stronger",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_expectation_comparison"
+        },
+        "accountability_and_power": {
+          "value": "28% trust political leaders to be held accountable to the nation's laws and Constitution; 59% say the executive branch has too much power",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_share"
+        },
+        "rule_of_law_and_equal_treatment": {
+          "value": "56% say the rule of law is weaker than 10 years ago, versus 14% saying it is stronger; 60% rate equal treatment under the law as working very or moderately poorly, up from 55%",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_comparison"
+        }
+      },
+      "method": "Large national survey measuring perceived democratic performance at national and local levels, historical and future direction, accountability, institutional power, rule of law, and equal treatment; the source also reports that local trust in leaders and neighbors is associated with more positive democratic views.",
+      "uncertainty": "The estimates are cross-sectional perceptions and associations, not measures of institutional performance, local government outputs, causal trust effects, or actual participation. The national-local comparison may reflect different experiences, salience, question framing, or geographic selection.",
+      "subgroup": "U.S. adults surveyed April 24-June 10, 2026; the public report includes broad background and engagement comparisons, while this record retains the national/local performance contrast as the primary unit.",
+      "counterinterpretation": "Positive local ratings may indicate proximity and greater observability rather than stronger local institutions. National dissatisfaction can coexist with local engagement or democratic commitment, and local trust in leaders or neighbors is not proof that trust causes better evaluations.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:5104a79f1dc2846c0ea3f016d8fa84749f2c47fba48f14a0e4d4e7ea086aa182",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a local-versus-national legitimacy and democratic-meaning layer. It does not infer democratic performance, institutional causality, local government effectiveness, participation, electoral behavior, or durable democratic decline from the survey judgments.",
+  "retrieval_hash": "sha256:5104a79f1dc2846c0ea3f016d8fa84749f2c47fba48f14a0e4d4e7ea086aa182"
+}

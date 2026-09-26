@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-dod-installation-maintenance-backlog-readiness-quality-2026",
+  "title": "Defense installation maintenance shortfalls create an infrastructure-to-readiness and quality-of-life risk",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-107255 review of Department of Defense installation maintenance funding, workforce, data, and oversight",
+  "geography": "United States; Department of Defense installations in states and territories, with a non-generalizable sample of eight installations",
+  "observations": [
+    {
+      "period": "Fiscal year 2025 maintenance estimates; GAO report published August 21, 2026",
+      "denominator": {
+        "value": 8,
+        "unit": "selected installations visited or examined in a non-generalizable GAO sample",
+        "value_type": "reported_selected_sample"
+      },
+      "measures": {
+        "deferred_maintenance_backlog": {
+          "value": 285,
+          "unit": "billion dollars of estimated DOD deferred maintenance requirements in fiscal year 2025",
+          "value_type": "reported_estimate"
+        },
+        "maintenance_funding_rate": {
+          "value": 80,
+          "unit": "percent of identified facility maintenance needs funded on average, compared with DOD's 90 percent goal",
+          "value_type": "reported_estimate"
+        },
+        "mission_quality_risk": {
+          "value": "DOD has not fully determined the risks to mission and personnel quality of life from funding below the goal",
+          "unit": "oversight and risk-assessment gap",
+          "value_type": "reported_gap"
+        },
+        "maintenance_data_effectiveness": {
+          "value": "work-order data systems are not reliable enough to determine overall maintenance effectiveness across installations and services",
+          "unit": "institutional measurement and oversight condition",
+          "value_type": "reported_gap"
+        },
+        "facility_consequence_path": {
+          "value": "neglected mission-critical infrastructure can harm readiness, while deficient HVAC, plumbing, and other facility systems can affect personnel health and safety and recruitment or retention",
+          "unit": "reported infrastructure-to-mission and quality-of-life pathway",
+          "value_type": "reported_mechanism"
+        }
+      },
+      "method": "GAO analyzed DOD policies, budgets, maintenance data, and interviews with officials and maintenance customers, and observed a non-generalizable sample of eight installations to assess funding, workforce sufficiency, data reliability, and oversight.",
+      "uncertainty": "The backlog and funding figures are department-level estimates, while the site observations are non-generalizable. A maintenance shortfall and an identified risk are not the same as measured readiness degradation, health harm, recruitment loss, or geopolitical failure. The report does not provide a complete causal estimate of which backlog dollars generate which outcomes.",
+      "subgroup": "DOD services, installations, maintenance workforces, service members, civilian personnel, and installation users; exposure varies by facility type, mission criticality, climate, geography, and maintenance system.",
+      "counterinterpretation": "Some deferred work may be low priority, and installations may manage risk through prioritization, temporary repair, relocation, or mission substitution. The 80 percent average can conceal fully funded sites and severely underfunded sites, while poor data may reflect reporting design rather than poor maintenance itself.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107255/index.html",
+      "retrieval_hash": "sha256:eb3dd13898d549aea7db791dc6b8433b772d94df50d0295a78f0b60f4013b146",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107255",
+      "claim": "GAO landing page identifies the report and publication date.",
+      "status": "official-report-identifier"
+    }
+  ],
+  "boundary": "This record establishes an infrastructure-funding, workforce, data, and oversight risk surface for DOD installations. It does not establish a national readiness decline, measured service-member health effect, recruitment or retention effect, household burden, public legitimacy, or adversary response."
+}

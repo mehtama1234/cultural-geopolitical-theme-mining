@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-capture-recapture-administrative-coverage-2026",
+  "title": "Administrative and third-party records can help estimate who official systems miss",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency", "political_judgment_action"],
+  "source_unit": "Census CES Working Paper 26-38, an evaluation of experimental capture-recapture estimation using 2020 Census administrative and third-party records",
+  "geography": "United States; 2020 Census address canvassing and nonresponse-followup operations, administrative records, third-party data, and post-enumeration coverage estimation",
+  "observations": [{
+    "period": "2020 Census evaluation experiments; paper published June 2026",
+    "denominator": {"value": 1, "unit": "methodological evaluation of experimental administrative-record coverage estimation", "value_type": "study_unit"},
+    "measures": {
+      "administrative_use": {"value": "the 2020 Census used administrative and third-party data in address canvassing and nonresponse followup", "unit": "operational use", "value_type": "reported_fact"},
+      "coverage_method": {"value": "the report evaluates whether administrative and third-party records can support capture-recapture coverage estimates", "unit": "methodological objective", "value_type": "reported_definition"},
+      "estimation_approach": {"value": "Expectation Maximization Log Linear Modeling was used, building on research from Statistics Netherlands and Statistics New Zealand", "unit": "estimation method", "value_type": "reported_method"},
+      "coverage_boundary": {"value": "the work is experimental and documents evaluation results rather than a complete replacement for the independent post-enumeration survey and dual-system estimation approach", "unit": "coverage-estimation status", "value_type": "reported_boundary"},
+      "social_meaning": {"value": "better record linkage may make undercount more visible, but it does not itself make a person counted, represented, protected, or able to contest an administrative decision", "unit": "program interpretation", "value_type": "bounded_interpretation"}
+    },
+    "method": "The report evaluates an experimental capture-recapture approach using Census administrative and third-party data, with Expectation Maximization Log Linear Modeling, in the 2020 Census Program for Evaluation, Experiments, and Assessments.",
+    "uncertainty": "This is a Census CES working paper and methodological evaluation. The abstract does not provide a single national undercount estimate or establish that administrative records are complete, equally accurate across groups, privacy-neutral, or sufficient for official coverage measurement.",
+    "subgroup": "Addresses and people encountered through 2020 Census operations, administrative records, third-party data, and independent post-enumeration coverage methods; differential linkage and missingness by place, race, age, housing type, language, mobility, and legal or administrative status require separate audits.",
+    "counterinterpretation": "More records can improve coverage estimation while also importing stale, duplicated, mislinked, or unevenly available information. A better estimate of who was missed is not the same as successful enumeration, service access, political representation, or public trust.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-38.html",
+    "retrieval_hash": "sha256:7d64ec08217d843756a018f880540a5f87315aae1cbee761c2815b36143364f3",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-38.pdf", "claim": "The official report provides the experimental design, administrative and third-party data context, modeling approach, and evaluation boundaries.", "status": "official-paper-context"}],
+  "boundary": "This record adds a measurement-governance pathway from administrative records to coverage estimation. It does not establish a final population count, individual inclusion, privacy safety, equal linkage quality, representation, or downstream public protection.",
+  "retrieval_hash": "sha256:7d64ec08217d843756a018f880540a5f87315aae1cbee761c2815b36143364f3"
+}

@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; household spillovers are measured, health meaning remains open
+**Status:** bounded pass completed; household spillovers are measured, health meaning and post-payment durability remain open
 
 ## Working question
 
@@ -27,6 +27,9 @@ one household member receives regular cash
 ```
 
 The NBER experiment shows that cash can affect people other than the recipient. The health-care result is not simple: more reported forgone care may mean more unmet need, more care-seeking that exposes a need, or both. It needs follow-up rather than a quick label.
+
+The completed finding is [Cash paid to one person can change the work, care,
+and relationships of the whole household](findings/us-guaranteed-income-household-dynamics-001.md).
 
 ## Counterpoint to keep visible
 

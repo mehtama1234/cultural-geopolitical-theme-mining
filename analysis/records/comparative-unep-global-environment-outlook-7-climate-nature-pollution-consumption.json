@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unep-global-environment-outlook-7-climate-nature-pollution-consumption",
+  "title": "Climate, nature, land, pollution, and consumption pressures are converging into a planetary-health and economic-choice problem",
+  "theme_ids": ["cost", "energy", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction"
+  ],
+  "source_unit": "UN Environment Programme, Global Environment Outlook 7: A Future We Choose",
+  "geography": "Global environmental assessment prepared by 287 scientists from 82 countries with more than 800 reviewers",
+  "observations": [
+    {
+      "period": "2025 onward; planetary crisis and development pathways",
+      "denominator": {"value": 1, "unit": "global environmental assessment and scenario framework", "value_type": "global_assessment_frame"},
+      "measures": {
+        "crisis_domains": {"value": "climate change, biodiversity and nature loss, land degradation and desertification, pollution, and resource pressures are treated as interacting crises", "unit": "GEO-7 analytical scope", "value_type": "reported_framework"},
+        "current_pathway": {"value": "continuing current development pathways would bring catastrophic climate change, ecosystem devastation, land degradation, and persistent deadly pollution", "unit": "report scenario assessment", "value_type": "reported_scenario"},
+        "assessment_authors": {"value": 287, "unit": "multidisciplinary scientists from 82 countries", "value_type": "reported_count"}
+      },
+      "method": "UNEP global scientific assessment synthesizing environmental evidence, scenario analysis, and integrated systems modeling.",
+      "uncertainty": "Scenario conclusions depend on assumptions about policy, technology, behavior, finance, and ecological response; the assessment is not a deterministic forecast or a country-specific impact estimate.",
+      "subgroup": "People, ecosystems, economies, cities, communities, governments, businesses, and populations differentially exposed to environmental degradation.",
+      "counterinterpretation": "Environmental pathways are not fixed; local restoration, regulation, indigenous and local knowledge, and coordinated action can change trajectories even when global risks remain high.",
+      "source_url": "https://www.unep.org/resources/global-environment-outlook-7",
+      "retrieval_hash": "sha256:4c6a56061f11350dc361a96f2cef29624f4b519dcb145f5095f279a128ee321a",
+      "status": "reported"
+    },
+    {
+      "period": "2050-2070; transformation benefits and economic returns",
+      "denominator": {"value": 1, "unit": "GEO-7 integrated transformation scenario", "value_type": "global_scenario_frame"},
+      "measures": {
+        "annual_macro_benefits_2070": {"value": 20, "unit": "trillion US dollars per year in projected global macroeconomic benefits by 2070 under transformation pathways", "value_type": "reported_scenario"},
+        "benefit_timing": {"value": 2050, "unit": "approximate year when global macroeconomic benefits begin to appear in the report's transformation scenario", "value_type": "reported_scenario"},
+        "health_poverty_benefits": {"value": "investment can avoid millions of deaths and lift hundreds of millions of people out of hunger and poverty over coming decades", "unit": "report scenario synthesis", "value_type": "reported_scenario"}
+      },
+      "method": "UNEP integrated modeling of climate, nature, land, pollution, food, energy, materials, finance, and development pathways.",
+      "uncertainty": "Projected returns are scenario outputs, not guaranteed market gains; timing and scale depend on implementation, distribution, discounting, valuation, and ecological feedback assumptions.",
+      "subgroup": "Governments, households, workers, firms, cities, food and energy systems, and populations affected by health, hunger, poverty, and environmental conditions.",
+      "counterinterpretation": "Aggregate GDP and mortality gains can coexist with transition costs, stranded assets, job displacement, unequal access, or localized environmental burdens unless distribution is governed explicitly.",
+      "source_url": "https://www.unep.org/resources/global-environment-outlook-7",
+      "retrieval_hash": "sha256:4c6a56061f11350dc361a96f2cef29624f4b519dcb145f5095f279a128ee321a",
+      "status": "reported"
+    },
+    {
+      "period": "2025 onward; systems of production, consumption, and behavior",
+      "denominator": {"value": 5, "unit": "interconnected systems emphasized by GEO-7: economy and finance, materials and waste, energy, food, and environment", "value_type": "systems_frame"},
+      "measures": {
+        "system_transformation": {"value": "whole-of-government and whole-of-society transformation is required across economy and finance, materials and waste, energy, food, and environmental systems", "unit": "report policy framework", "value_type": "reported_framework"},
+        "behavioral_change": {"value": "behavioral, social, and cultural shifts, including respect for Indigenous and Local Knowledge, are part of the proposed pathway", "unit": "report policy framework", "value_type": "reported_mechanism"},
+        "upfront_costs": {"value": "transformation has up-front costs even where long-run returns are projected to exceed the cost of inaction", "unit": "report economic framing", "value_type": "reported_tradeoff"}
+      },
+      "method": "UNEP synthesis connecting environmental scenarios with policy, finance, production, consumption, behavior, and knowledge systems.",
+      "uncertainty": "The framework identifies interacting levers rather than measuring the effect of a single behavioral or policy intervention; cultural and institutional change is difficult to quantify consistently.",
+      "subgroup": "Consumers, producers, governments, financial institutions, Indigenous peoples, local communities, workers, and civil-society organizations.",
+      "counterinterpretation": "Calls for lifestyle change can shift responsibility onto households without changing infrastructure, prices, corporate incentives, or political power; system change must address those upstream conditions.",
+      "source_url": "https://www.unep.org/resources/global-environment-outlook-7",
+      "retrieval_hash": "sha256:4c6a56061f11350dc361a96f2cef29624f4b519dcb145f5095f279a128ee321a",
+      "status": "reported"
+    },
+    {
+      "period": "2025 onward; public governance and environmental justice",
+      "denominator": {"value": 1, "unit": "GEO-7 integrated governance framework", "value_type": "governance_frame"},
+      "measures": {
+        "policy_integration": {"value": "co-designed and integrated policies across climate, nature, land, pollution, food, energy, finance, and health are emphasized", "unit": "report recommendation", "value_type": "reported_recommendation"},
+        "justice_dimension": {"value": "environmental action should account for unequal health, hunger, poverty, livelihood, and cultural effects", "unit": "report analytical principle", "value_type": "reported_framework"},
+        "decision_capacity": {"value": "governments, businesses, communities, and citizens must coordinate across levels and sectors", "unit": "report governance framework", "value_type": "reported_framework"}
+      },
+      "method": "UNEP assessment synthesis of environmental evidence, public policy, social outcomes, and governance responses.",
+      "uncertainty": "Integrated governance recommendations are normative and implementation-dependent; they do not prove policy effectiveness or specify a universal institutional design.",
+      "subgroup": "National and subnational governments, cities, businesses, communities, citizens, Indigenous peoples, and populations bearing disproportionate environmental harms.",
+      "counterinterpretation": "Coordination can improve coherence but can also dilute accountability; integrated plans require measurable targets, financing, participation, and mechanisms for resolving distributional conflict.",
+      "source_url": "https://wedocs.unep.org/bitstream/handle/20.500.11822/46618/GEO-7_EXECUTIVE_SUMMARY.pdf",
+      "retrieval_hash": "sha256:4c6a56061f11350dc361a96f2cef29624f4b519dcb145f5095f279a128ee321a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance", "claim": "UNEP Limiting Overshoot provides a complementary climate-trajectory and adaptation pathway."},
+    {"source_url": "https://unstats.un.org/sdgs/report/2026/Goal-15/", "claim": "UN SDG 15 reporting provides complementary biodiversity and forest indicators."}
+  ],
+  "boundary": "This record adds a planetary-health and systems-transformation route linking climate, biodiversity, land, pollution, production, consumption, health, poverty, finance, and governance. It uses a global scientific assessment and scenario findings, not household environmental behavior, individual health records, causal policy estimates, or a deterministic forecast.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNEP GEO-7 publication page and executive-summary materials were reviewed for the scientific-author frame, current-pathway assessment, transformation benefits, system scope, cultural and behavioral shifts, and integrated-governance claims.",
+    "source_url_sha256": "sha256:4c6a56061f11350dc361a96f2cef29624f4b519dcb145f5095f279a128ee321a",
+    "checked": "2026-09-26"
+  }
+}

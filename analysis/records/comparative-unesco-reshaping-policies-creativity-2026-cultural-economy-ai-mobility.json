@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-reshaping-policies-creativity-2026-cultural-economy-ai-mobility",
+  "title": "Cultural production is becoming more digital and globally valuable while creator income, mobility, skills, and artistic freedom remain unevenly protected",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["trust_identity_meaning", "unequal_exposure_status", "political_judgment_action", "public_systems_feedback", "geopolitical_state_consequences"],
+  "source_unit": "UNESCO, Re|Shaping Policies for Creativity 2026 and related UNESCO cultural-policy and creative-skills reporting",
+  "geography": "More than 120 reporting countries and global cultural and creative industries, with comparisons by development status",
+  "observations": [
+    {
+      "period": "2026 publication; national cultural-policy commitments and implementation",
+      "denominator": {"value": 1, "unit": "reporting countries covered by UNESCO cultural and creative industries monitoring", "value_type": "cross_country_policy_frame"},
+      "measures": {
+        "development_plan_inclusion": {"value": 85, "unit": "percent of reporting countries including cultural and creative industries in national development plans", "value_type": "reported_policy_share"},
+        "specific_cultural_objectives": {"value": 56, "unit": "percent of reporting countries setting specific cultural objectives", "value_type": "reported_policy_share"},
+        "policy_measures": {"value": 8100, "unit": "cultural policies and measures adopted by Parties to the 2005 Convention", "value_type": "reported_policy_count"},
+        "commitment_action_gap": {"value": "broad recognition of culture exceeds specific operational objectives", "unit": "reported governance pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO global monitoring report compiling policy information from more than 120 countries and reviewing implementation of the 2005 Convention.",
+      "uncertainty": "Country reporting and policy classifications are not a common impact evaluation; inclusion in a plan does not establish funding, enforcement, access, or cultural outcomes.",
+      "subgroup": "National and local cultural authorities, artists, cultural workers, communities, educators, creative firms, and reporting countries at different income levels.",
+      "counterinterpretation": "A specific-objective gap may reflect differences in planning systems or reporting capacity rather than absence of cultural action; broad plans can still coordinate meaningful support.",
+      "source_url": "https://www.unesco.org/en/articles/creators-face-projected-global-revenue-losses-24-2028-new-unesco-report-shows?hub=80094",
+      "retrieval_hash": "sha256:9a4dd0c153ce03d4952d051f59fd43c1b9c49c038ae7b3588f4f00080ec0d52f",
+      "status": "reported"
+    },
+    {
+      "period": "2023; cultural goods and services trade",
+      "denominator": {"value": 1, "unit": "global trade in cultural goods and cultural services as reported by UNESCO", "value_type": "global_cultural_trade_frame"},
+      "measures": {
+        "cultural_goods_trade": {"value": 254, "unit": "billion US dollars in global trade in cultural goods", "value_type": "reported_trade_value"},
+        "developing_country_goods_exports": {"value": 46, "unit": "percent of cultural-goods exports originating in developing countries", "value_type": "reported_trade_share"},
+        "developing_country_services_trade": {"value": 20, "unit": "percent or slightly more of global cultural-services trade accounted for by developing countries", "value_type": "reported_trade_share_lower_bound"},
+        "market_shift": {"value": "digital formats are widening access while shifting advantage toward unequal service, platform, and skills capacity", "unit": "reported structural pattern", "value_type": "reported_mechanism"}
+      },
+      "method": "UNESCO synthesis of global cultural-goods and cultural-services trade statistics in the 2026 Re|Shaping Policies for Creativity report.",
+      "uncertainty": "Goods and services trade measures do not identify creator earnings, local cultural access, platform margins, or the distribution of value within countries.",
+      "subgroup": "Developed and developing economies, cultural exporters, creative firms, platforms, artists, and audiences.",
+      "counterinterpretation": "Strong goods exports can support local creative ecosystems, and services shares may rise as measurement improves; trade concentration alone does not establish cultural homogenization.",
+      "source_url": "https://www.unesco.org/en/articles/creators-face-projected-global-revenue-losses-24-2028-new-unesco-report-shows?hub=80094",
+      "retrieval_hash": "sha256:9a4dd0c153ce03d4952d051f59fd43c1b9c49c038ae7b3588f4f00080ec0d52f",
+      "status": "reported"
+    },
+    {
+      "period": "2018-2028 projections; digital revenue, skills, and generative-AI exposure",
+      "denominator": {"value": 1, "unit": "creators, creative industries, and people in developed and developing countries covered by UNESCO indicators and projections", "value_type": "digital_creative_economy_frame"},
+      "measures": {
+        "digital_creator_income": {"value": 35, "unit": "percent of creators' income represented by digital revenues, compared with 17 percent in 2018", "value_type": "reported_income_share"},
+        "music_creator_ai_loss": {"value": 24, "unit": "percent projected global revenue loss for music creators by 2028 from generative-AI outputs", "value_type": "reported_projection"},
+        "audiovisual_creator_ai_loss": {"value": 21, "unit": "percent projected global revenue loss for audiovisual creators by 2028 from generative-AI outputs", "value_type": "reported_projection"},
+        "essential_digital_skills_developed": {"value": 67, "unit": "percent of people in developed countries with essential digital skills", "value_type": "reported_skill_share"},
+        "essential_digital_skills_developing": {"value": 28, "unit": "percent of people in developing countries with essential digital skills", "value_type": "reported_skill_share"}
+      },
+      "method": "UNESCO compilation of digital-revenue indicators, skills comparisons, and modeled 2028 generative-AI exposure for creative sectors.",
+      "uncertainty": "The AI figures are projections, not realized losses; digital income shares do not show net income, bargaining power, or whether new tools create offsetting opportunities.",
+      "subgroup": "Music and audiovisual creators, creative workers, audiences, digital platforms, and people in developed and developing countries.",
+      "counterinterpretation": "AI may lower production costs, expand audiences, and create new forms of authorship; skills gaps and revenue exposure may narrow through training, collective bargaining, licensing, and public policy.",
+      "source_url": "https://www.unesco.org/en/articles/creators-face-projected-global-revenue-losses-24-2028-new-unesco-report-shows?hub=80094",
+      "retrieval_hash": "sha256:9a4dd0c153ce03d4952d051f59fd43c1b9c49c038ae7b3588f4f00080ec0d52f",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; artistic freedom, mobility, and institutional inclusion",
+      "denominator": {"value": 1, "unit": "countries and cultural institutions covered by UNESCO cultural-policy monitoring", "value_type": "cultural_institutional_protection_frame"},
+      "measures": {
+        "independent_artistic_freedom_monitoring": {"value": 61, "unit": "percent of countries maintaining independent monitoring bodies for artistic freedom", "value_type": "reported_country_share"},
+        "creator_protection_in_conflict": {"value": 37, "unit": "percent of countries reporting initiatives to protect cultural professionals exposed to political instability, conflict, or displacement", "value_type": "reported_country_share"},
+        "inward_mobility_support_developed": {"value": 38, "unit": "percent of developed countries facilitating inward artistic mobility from developing nations", "value_type": "reported_country_share"},
+        "women_cultural_institution_leaders": {"value": 46, "unit": "percent of national cultural-institution leaders who were women in 2024, up from 31 percent in 2017", "value_type": "reported_leadership_share"},
+        "development_gap": {"value": "women represented 64 percent of leaders in developed countries and 30 percent in developing countries", "unit": "reported leadership comparison", "value_type": "reported_subgroup_gap"}
+      },
+      "method": "UNESCO reporting on artistic-freedom institutions, protection initiatives, visa and mobility rules, and gender representation in national cultural institutions.",
+      "uncertainty": "Institutional presence is not the same as independence, enforcement, safety, or actual mobility; leadership shares do not establish authority or creative-sector equality.",
+      "subgroup": "Artists, cultural professionals, displaced creators, women leaders, cultural institutions, visa authorities, and countries with different political and income conditions.",
+      "counterinterpretation": "Monitoring bodies, mobility programs, and rising women’s leadership can create durable protection and access even where coverage is incomplete; some informal support is not captured in national reporting.",
+      "source_url": "https://www.unesco.org/en/articles/creators-face-projected-global-revenue-losses-24-2028-new-unesco-report-shows?hub=80094",
+      "retrieval_hash": "sha256:9a4dd0c153ce03d4952d051f59fd43c1b9c49c038ae7b3588f4f00080ec0d52f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/culture/global-report", "claim": "UNESCO Global Report on Cultural Policies provides the wider culture-as-public-policy and participation frame."},
+    {"source_url": "https://www.unesco.org/en/articles/skills-and-employment-culture-and-creative-industries-strategic-frameworks-and-promising-initiatives", "claim": "UNESCO 2026 creative-skills publication adds the labor, informality, and training route."},
+    {"source_url": "https://www.unesco.org/creativity/en/re-shaping-policies-creativity", "claim": "UNESCO creative-policy publication hub for the Re|Shaping Policies for Creativity series."}
+  ],
+  "boundary": "This record adds a cultural-production and creative-economy route linking policy commitment, trade, digital distribution, generative-AI exposure, skills, mobility, artistic freedom, and institutional inclusion. It is not a causal estimate of individual creator income, audience preferences, cultural consumption, or AI job displacement, and it does not use respondent-level microdata.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO 2026 Re|Shaping Policies for Creativity reporting and related official cultural-policy and skills pages were reviewed; policy, trade, digital-revenue, AI-projection, skills, mobility, artistic-freedom, and gender claims were cross-checked.",
+    "source_url_sha256": "sha256:9a4dd0c153ce03d4952d051f59fd43c1b9c49c038ae7b3588f4f00080ec0d52f",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-central-american-police-training-human-rights-controls-2014-2025",
+  "title": "Central American police-training programs lacked consistent human-rights objectives and consolidated outcome data",
+  "theme_ids": ["voice", "work", "time", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "trust_identity_meaning", "public_systems_feedback", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "22 State- and USAID-funded police-training projects in El Salvador, Guatemala, and Honduras, with DOD training discussed separately",
+  "geography": "Central America's Northern Triangle; U.S.-funded police training in El Salvador, Guatemala, and Honduras",
+  "observations": [
+    {
+      "period": "FY2014–2017 projects reviewed; GAO-18-618 published 2018; implementation follow-up through August 2025",
+      "denominator": {"value": 22, "unit": "State and USAID-funded police-training projects identified by agencies as including police assistance; 14 State and 8 USAID projects reviewed", "value_type": "reported_project_sample"},
+      "measures": {
+        "human_rights_objectives": {"value": "none of the 14 State projects and none of the 8 USAID projects reviewed had explicit human-rights objectives, although broader professionalization strategies highlighted human rights", "unit": "project-document review", "value_type": "reported_document_count"},
+        "training_data_quality": {"value": "State lacked readily available reliable data on the number of police trained because tracking was decentralized and not consolidated; FY2017 data omitted some implementers", "unit": "program data-control status", "value_type": "reported_process_gap"},
+        "funding_context": {"value": 37, "unit": "million U.S. dollars allocated by State for Northern Triangle police training in FY2014–2017", "value_type": "reported_program_total"},
+        "followup_control": {"value": "State later required additional human-rights language in Central America law-enforcement training agreements in an August 2025 cable and developed indicators for police trained", "unit": "implementation follow-up", "value_type": "reported_reform_status"}
+      },
+      "method": "GAO review of agency data and project documents for 22 State and USAID projects, fieldwork in El Salvador, interviews with officials in all three Northern Triangle countries and Washington, and later recommendation follow-up reported by GAO.",
+      "uncertainty": "The review does not measure trainee conduct, abuse rates, public trust, complaint resolution, civilian safety, or causal effects of training. Absence of explicit project objectives does not prove that no human-rights content was delivered, and later agreement language does not prove implementation quality or changed police behavior.",
+      "subgroup": "State-funded projects, USAID-funded projects, and DOD police training are reported as separate institutional routes; El Salvador, Guatemala, and Honduras are not pooled as identical contexts.",
+      "counterinterpretation": "Broad professionalization objectives may have included human-rights content through curricula or implementation even when project documents did not state it. More explicit controls and indicators can improve accountability without changing underlying police incentives or local political conditions.",
+      "source_url": "https://www.gao.gov/products/gao-18-618",
+      "retrieval_hash": "sha256:dcae3d716339c3b3cf70642190bfe32dd7768f78ba1626c229d97080dfe2b229",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-19-554", "claim": "GAO's broader DOD and State human-rights training oversight review supplies a separate security-assistance tracking and evaluation comparator", "status": "related-official-review"},
+    {"source_url": "https://www.gao.gov/products/gao-18-618", "claim": "GAO recommendation follow-up reports State's 2025 Central America training-control language and police-training indicators", "status": "official-follow-up-page"}
+  ],
+  "boundary": "This record adds a local policing and human-rights-content stage to U.S. security assistance. It does not establish that training caused police professionalization, human-rights compliance, civilian protection, public trust, or changed geopolitical behavior."
+}

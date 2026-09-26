@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-native-housing-homelessness-2026",
+  "title": "Federal housing support can exist while Native housing insecurity remains hard to count and underfunded",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-109173 preliminary observations on federal Native housing and homelessness programs, Tribal and TDHE perspectives, and selected site work",
+  "geography": "American Indian, Alaska Native, and Native Hawaiian communities; Tribes and Tribal Designated Housing Entities",
+  "observations": [
+    {
+      "period": "September 2025–September 2026 preliminary review",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO preliminary review of federal housing support targeted to Native communities",
+        "value_type": "source_defined_preliminary_review_universe"
+      },
+      "measures": {
+        "federal_programs_identified": {
+          "value": 30,
+          "unit": "federal programs that can provide housing support targeted to AI/AN and Native Hawaiian populations",
+          "value_type": "reported_program_count"
+        },
+        "funding_adequacy": {
+          "value": "nearly all Tribes and TDHEs contacted said funding was not sufficient to keep pace with construction, rehabilitation, or maintenance needs",
+          "unit": "reported Tribal and Tribal Designated Housing Entity perspective",
+          "value_type": "reported_qualitative_summary"
+        },
+        "doubled_up_housing": {
+          "value": "widespread in the preliminary evidence and may not align with federal homelessness definitions",
+          "unit": "temporarily staying with friends or family; prevalence and duration not estimated nationally",
+          "value_type": "reported_definition_boundary"
+        },
+        "housing_security": {
+          "value": "not observed",
+          "unit": "household-level prevalence, duration, safety, privacy, stability, repair, and later stay/move outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of GAO preliminary testimony and related work, including identification of federal programs, interviews with Tribes and Tribal Designated Housing Entities, and selected site observations; preliminary qualitative findings are kept separate from national prevalence estimates.",
+      "uncertainty": "The testimony is preliminary. The program count does not establish usable coverage, and the reported funding and definition concerns do not measure every Tribe, doubled-up household, application, or housing outcome.",
+      "subgroup": "American Indian, Alaska Native, and Native Hawaiian communities; Tribes, Tribal organizations, Tribal Designated Housing Entities, and households experiencing sheltered, unsheltered, or doubled-up housing insecurity.",
+      "counterinterpretation": "Doubling up can be a culturally meaningful and protective form of family support, and a federal definition may be intended to target a specific program purpose; the source does not show that every doubled-up arrangement is unsafe or that definitions alone caused the access gap.",
+      "source_url": "https://www.gao.gov/products/gao-26-109173",
+      "retrieval_hash": "sha256:f6f4b35833db2a5402e41d3233baed4ea145bafc06cdc469d0002c1926571599",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-109173/index.html",
+      "claim": "Official accessible report edition provides the preliminary observations and source context.",
+      "status": "official-report-edition"
+    }
+  ],
+  "boundary": "This record captures a preliminary federal-program landscape, reported funding inadequacy, and a possible mismatch between federal homelessness definitions and doubled-up housing insecurity in Native communities. It does not estimate national prevalence, duration, safety, tribal control, application success, construction completion, or durable housing outcomes.",
+  "retrieval_hash": "sha256:f6f4b35833db2a5402e41d3233baed4ea145bafc06cdc469d0002c1926571599"
+}

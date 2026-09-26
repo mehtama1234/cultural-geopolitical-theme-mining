@@ -1,0 +1,51 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-doj-cadence-eda-export-enforcement-2025",
+  "title": "Cadence enforcement exposed repeated semiconductor-design-tool exports through a PRC front company and produced parallel criminal and civil remedies",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS and Department of Justice July 28, 2025 coordinated Cadence Design Systems export-control enforcement actions",
+  "geography": "United States, PRC, PRC military-linked university and semiconductor-design ecosystem",
+  "observations": [
+    {
+      "period": "February 2015 through February 2021 conduct; coordinated BIS and DOJ resolution announced July 28, 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "Cadence Design Systems Inc. and its indirectly owned PRC subsidiary covered by the coordinated resolution",
+        "value_type": "reported_company_group_count"
+      },
+      "measures": {
+        "controlled_technology": {"value": "EDA hardware, software, and semiconductor design intellectual-property technology subject to the EAR", "unit": "reported controlled technology class", "value_type": "reported_item_class"},
+        "recipient_and_alias": {"value": "National University of Defense Technology (NUDT) was the reported end user; exports were made through Central South CAD Center (CSCC), described as an alias, and later involved Phytium Technology", "unit": "reported end-user and routing structure", "value_type": "reported_route"},
+        "bis_violations": {"value": 56, "unit": "EAR violations admitted in the BIS settlement between September 2015 and September 2020", "value_type": "reported_violation_count"},
+        "doj_export_count": {"value": "at least 59", "unit": "exports or caused exports reported by DOJ through September 2020; not pooled with BIS's 56-violation count", "value_type": "reported_export_count"},
+        "technology_value": {"value": 45305317.41, "unit": "U.S. dollars; EDA products and semiconductor design technology valued by BIS", "value_type": "reported_transaction_value"},
+        "bis_penalty": {"value": 95000000, "unit": "U.S. dollars; administrative penalty imposed by BIS", "value_type": "reported_penalty_value"},
+        "doj_criminal_penalty": {"value": "nearly 118000000", "unit": "U.S. dollars; criminal penalties described by DOJ", "value_type": "reported_penalty_value"},
+        "doj_forfeiture": {"value": 45000000, "unit": "U.S. dollars; forfeitures included in the concurrent DOJ resolution", "value_type": "reported_forfeiture_value"},
+        "aggregate_resolution": {"value": "more than 140000000 net criminal and civil penalties and forfeiture after agency credits", "unit": "U.S. dollars; coordinated net resolution amount reported by DOJ", "value_type": "reported_resolution_value"},
+        "post_violation_company_actions": {"value": "Cadence froze the CSCC account in 2020, later placed Phytium on export hold in March 2021, discontinued transactions, and reported enhanced export-compliance remediation", "unit": "reported firm response and remediation stages", "value_type": "reported_firm_response"},
+        "production_or_capability_effect": {"value": "not observed", "unit": "missing NUDT or Phytium capability change, supercomputer output, production, or military-use endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing deterrence, substitution, PRC response, partner response, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS and DOJ official release review. Agency-specific violation, export, value, penalty, forfeiture, routing, account-freeze, export-hold, and remediation claims are kept as separate measures because the two releases use different counting frames and resolution components.",
+      "uncertainty": "The releases summarize the resolution rather than provide a complete transaction ledger, technology inventory, end-use record, later audit results, or capability assessment. The BIS count of 56 violations and DOJ description of at least 59 exports are not treated as interchangeable. The DOJ plea agreement was subject to federal court approval at the time of the release.",
+      "subgroup": "Cadence and Cadence China employees, PRC sales and compliance personnel, NUDT, CSCC, Phytium, U.S. export-control and law-enforcement agencies, and semiconductor-design customers",
+      "counterinterpretation": "The case demonstrates a serious firm-level enforcement and remediation episode, but one prosecution does not establish the prevalence of front-company routing or the deterrent effect of monetary penalties. Account freezes and export holds can reduce one route while leaving broader demand, substitution, or capability unchanged.",
+      "source_url": "https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development",
+      "retrieval_hash": "sha256:b24c0a78244902cd5952de47c0cf3293d7ec784989f8a43a7e37d4b0f4aac425",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.justice.gov/opa/pr/cadence-design-systems-agrees-plead-guilty-and-pay-over-140-million-unlawfully-exporting", "claim": "DOJ official account of the criminal resolution, at-least-59-export description, parallel BIS action, contract reassignment, and remediation.", "status": "official-doj-release", "retrieval_hash": "sha256:7dc9c24f19a99a7a7f93b419f5cf2c80bd51f9d8797448c601ce9ed6a856c975"},
+    {"source_url": "https://media.bis.gov/sites/default/files/documents/Final%20Cadence%20Press%20Release.pdf", "claim": "BIS PDF version of the administrative settlement announcement, including 56 violations and $95 million penalty.", "status": "official-release-pdf", "retrieval_hash": "sha256:1ae18edc01f38fd5dbf538b97b8e724848ad017eb1db220742e06c87aae0df39"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO implementation comparator for compliance challenges before named semiconductor enforcement.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a semiconductor-design-tool enforcement route: Entity List restriction -> front-company exports -> repeated violations -> coordinated criminal/civil resolution -> account freeze, export hold, and compliance remediation. It does not establish future compliance, audit completion, PRC capability change, substitution, deterrence, or geopolitical leverage."
+}

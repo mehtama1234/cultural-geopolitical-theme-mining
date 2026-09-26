@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-mortgage-lockin-housing-mobility-2022-2024",
+  "title": "Mortgage lock-in can turn higher rates into constrained staying and a more expensive housing ladder",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35237; individual-level mortgage data and spatial housing-ladder model",
+  "geography": "United States housing market, mortgage borrowers, and modeled spatial housing ladder",
+  "observations": [
+    {
+      "period": "2022–2024; U.S. existing-home market context",
+      "denominator": {"value": null, "unit": "U.S. existing-home sales series; abstract does not provide the level denominator", "value_type": "not_disclosed"},
+      "measures": {
+        "existing_home_sales_change": {"value": -40, "unit": "percent change in U.S. existing-home sales between 2022 and 2024 as reported in the abstract", "value_type": "reported_change"},
+        "mechanism": {"value": "borrowers with low-rate mortgages forgo selling while potential buyers also do not buy elsewhere", "unit": "housing-market mechanism", "value_type": "reported_mechanism"},
+        "downsizer_staying": {"value": "missing downsizers stay in larger homes, particularly in expensive areas", "unit": "reported housing-demand channel", "value_type": "reported_pattern"}
+      },
+      "method": "NBER study combines individual-level mortgage data with a spatial housing-ladder model; this observation retains the reported market context separately from the causal mobility and modeled equilibrium estimates.",
+      "uncertainty": "The existing-sales change is aggregate context and does not identify each household's mortgage rate, desired move, financial condition, or reason for staying. The paper's model and sample restrictions determine how far the result generalizes.",
+      "subgroup": "Mortgage borrowers and housing-market participants, with attention to downsizers and expensive areas; no single household is followed through a complete move decision and later security outcome here.",
+      "counterinterpretation": "Low sales can also reflect prices, inventory, income, credit, expectations, or other market conditions; staying in a larger home may be voluntary, constrained, or both.",
+      "source_url": "https://www.nber.org/papers/w35237",
+      "retrieval_hash": "sha256:4d51893c81a57460a2fad23da089888a22eeb63d44dd4a0e4a5c10529226c8aa",
+      "status": "reported"
+    },
+    {
+      "period": "Study's individual-mortgage analysis; higher-rate period",
+      "denominator": {"value": null, "unit": "individual-level mortgage records; public abstract does not disclose the analytic count", "value_type": "not_disclosed"},
+      "measures": {
+        "mobility_effect": {"value": -25, "unit": "percent causal reduction in mortgage-borrower mobility in the reported analysis", "value_type": "estimated_causal_effect"},
+        "mobility_margin": {"value": "moves down the housing ladder were disproportionately reduced", "unit": "reported heterogeneous mobility effect", "value_type": "reported_comparison"},
+        "identification": {"value": "individual-level mortgage data used to provide causal evidence of lock-in's mobility effect", "unit": "study design", "value_type": "reported_method"}
+      },
+      "method": "The paper uses individual-level mortgage data and a spatial housing-ladder model to estimate the effect of mortgage lock-in on mobility, retaining the reported 25% effect as study-specific rather than a universal household move probability.",
+      "uncertainty": "The abstract does not provide the exact treatment definition, full event timing, all borrower subgroups, moving costs, rental alternatives, household composition, or post-stay housing quality, wealth, care, and work outcomes.",
+      "subgroup": "Mortgage borrowers, especially households considering moves down the housing ladder; the public summary does not identify all income, race, age, or place interactions.",
+      "counterinterpretation": "Reduced mobility may protect borrowers from selling into an unfavorable market or reflect preference for the current home; a causal reduction in moves does not by itself establish welfare loss.",
+      "source_url": "https://www.nber.org/papers/w35237",
+      "retrieval_hash": "sha256:4d51893c81a57460a2fad23da089888a22eeb63d44dd4a0e4a5c10529226c8aa",
+      "status": "estimated"
+    },
+    {
+      "period": "Model counterfactual; temporary mortgage-rate hike",
+      "denominator": {"value": 1, "unit": "spatial housing-ladder model counterfactual relative to no lock-in", "value_type": "model_counterfactual"},
+      "measures": {
+        "house_price_effect": {"value": 4.4, "unit": "percent increase in aggregate house prices relative to counterfactual without lock-in", "value_type": "modeled_effect"},
+        "rent_effect": {"value": 1.5, "unit": "percent increase in aggregate rents relative to counterfactual without lock-in", "value_type": "modeled_effect"},
+        "marginal_move_cost": {"value": 650000, "unit": "US dollars estimated cost per marginal move in the model", "value_type": "modeled_cost"},
+        "starter_home_tax_credit": {"value": "$10,000 tax credit modestly increases mobility but raises trade-up home prices", "unit": "modeled policy comparison", "value_type": "modeled_comparison"}
+      },
+      "method": "Spatial housing-ladder equilibrium model calibrated to the reported mortgage-lock-in and mobility evidence; modeled prices, rents, policy comparisons, and move costs are not observed household payments.",
+      "uncertainty": "The modeled effects depend on the housing ladder, borrower sorting, rate path, supply response, and policy calibration. They do not establish a specific household's rent, mortgage payment, repair, move, or security outcome.",
+      "subgroup": "Modeled borrowers, renters, sellers, buyers, downsizers, and trade-up households across spatial housing markets.",
+      "counterinterpretation": "A policy that raises mobility can redistribute prices across buyers and sellers; an aggregate price or rent effect is not equivalent to a uniform household burden.",
+      "source_url": "https://www.nber.org/papers/w35237",
+      "retrieval_hash": "sha256:4d51893c81a57460a2fad23da089888a22eeb63d44dd4a0e4a5c10529226c8aa",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "../../records/us-nber-flood-buyouts-race-relocation-neighborhoods-2026.json", "claim": "The flood-buyout record provides a separate risk-to-relocation route; this record adds constrained staying and housing-ladder mobility under mortgage-rate lock-in.", "status": "cross-source-comparator"},
+    {"source_url": "https://www.nber.org/papers/w34848", "claim": "The homeowner-insurance credit-pricing record supplies a separate protection-cost pathway and is not pooled with mortgage mobility estimates.", "status": "cross-source-comparator"}
+  ],
+  "boundary": "This record establishes a mortgage-rate-to-lock-in-to-mobility pathway with modeled housing-price and rent consequences. It does not establish that every household's staying was involuntary, or measure repair, insurance, health, care, work, trust, or durable housing security after the move decision.",
+  "reproduction_audit": {"retrieval_hash_scope": "NBER Working Paper 35237 official HTML page retrieved for abstract extraction", "retrieval_hash": "sha256:4d51893c81a57460a2fad23da089888a22eeb63d44dd4a0e4a5c10529226c8aa", "checked": "2026-09-23"}
+}

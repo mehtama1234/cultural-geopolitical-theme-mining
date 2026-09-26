@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-geoeconomic-coercion-government-firm-targets-2026",
+  "title": "Geoeconomic coercion can target foreign governments, private firms, or both",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 35343; theoretical model of great-power geoeconomic coercion through trade and financial linkages",
+  "geography": "United States/China-style hegemonic relationships with foreign governments and private firms",
+  "observations": [
+    {
+      "period": "Model framework; trade and financial-linkage coercion scenarios",
+      "denominator": {
+        "value": null,
+        "unit": "theoretical model entities and equilibrium scenarios; no observed-country or event denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "target_entities": {
+          "value": "foreign governments and foreign private firms",
+          "unit": "modeled coercion targets",
+          "value_type": "reported_model_structure"
+        },
+        "private_target_advantage": {
+          "value": "private entities internalize less than their government the equilibrium consequences of acquiescing",
+          "unit": "model mechanism",
+          "value_type": "reported_model_result"
+        },
+        "government_target_advantage": {
+          "value": "a targeted government can potentially influence domestic firms that the hegemon has limited direct power to coerce",
+          "unit": "model mechanism",
+          "value_type": "reported_model_result"
+        },
+        "optimal_target_mix": {
+          "value": "depends on the relative strength of private-target and government-influence channels",
+          "unit": "model implication",
+          "value_type": "reported_model_result"
+        },
+        "observed_compliance": {
+          "value": "not measured",
+          "unit": "firm response, government response, public cost, alliance behavior, and strategic outcome",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Theoretical geoeconomic model in which great powers use existing trade and financial linkages to pressure foreign private entities and governments; the model compares the incentive and influence channels for each target type.",
+      "uncertainty": "The model identifies mechanisms and optimal-target conditions, not empirical frequencies or success rates. It does not estimate a particular sanction, export-control, investment-screening, or coercion episode.",
+      "subgroup": "Modeled foreign governments and private firms in countries connected to a hegemonic power through trade and finance.",
+      "counterinterpretation": "Private targeting may reduce national internalization of the consequence but can impose concentrated firm costs; government targeting may reach more firms but may also provoke resistance or coalition formation. The model does not determine which occurs in a real case.",
+      "source_url": "https://www.nber.org/papers/w35343",
+      "retrieval_hash": "sha256:f0222f5281ec4e3016b97a414e85359db6286327cf21a4380dfc16298d683f4f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w35307",
+      "claim": "Carbon-tariff policy is a separate climate-trade model and is not pooled with the target-selection theory.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a model-based target-selection mechanism for geoeconomic coercion. It does not establish which target type is used more often, whether a target complies, who bears the cost, how domestic publics respond, whether alliances change, or whether coercion achieves a strategic objective."
+}

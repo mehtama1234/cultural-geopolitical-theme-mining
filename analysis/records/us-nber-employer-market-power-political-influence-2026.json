@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-employer-market-power-political-influence-2026",
+  "title": "A dominant local employer can turn job dependence into political influence",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 35676, Firms as Electoral Monopsonies, using original worker survey evidence, a model of employer influence, and U.S. individual-level voting data with a shift-share design",
+  "geography": "United States; local labor markets, major local employers, individual voting data, national industry concentration shocks, and predetermined local employment shares",
+  "observations": [
+    {
+      "period": "Original worker survey evidence",
+      "denominator": {"value": null, "unit": "workers in the study's original survey; exact public-abstract denominator not disclosed", "value_type": "not_disclosed"},
+      "measures": {
+        "employer_political_communication": {"value": "workers at major local employers were more likely to experience employer political communication", "unit": "reported survey comparison", "value_type": "reported_comparison"},
+        "reported_influence": {"value": "workers at major local employers were more likely to report employer influence on voting behavior and career expectations", "unit": "reported survey comparison", "value_type": "reported_comparison"}
+      },
+      "method": "Original survey evidence comparing workers connected to major local employers; the public abstract does not provide the full questionnaire, sample count, or message-timing details.",
+      "uncertainty": "Reported communication or influence is not the same as changed private belief, vote choice, turnout, or coercion; workers may hear a firm's view without accepting it.",
+      "subgroup": "Workers at major local employers compared with other workers in the study survey; detailed subgroup estimates are not extracted here.",
+      "counterinterpretation": "Large employers may provide useful local economic information or stable jobs, and reported influence may reflect workers' preexisting views of the firm rather than a new political effect.",
+      "source_url": "https://www.nber.org/papers/w35676",
+      "retrieval_hash": "sha256:63b14c7563f492de61bd6def0ea4a8152a40241378866027fca0da80e53b2e05",
+      "status": "reported"
+    },
+    {
+      "period": "U.S. local labor-market concentration and individual voting data",
+      "denominator": {"value": null, "unit": "individual-level voting observations and local labor markets in the study's shift-share analysis", "value_type": "not_disclosed"},
+      "measures": {
+        "identification": {"value": "national industry concentration shocks interacted with predetermined local employment shares", "unit": "shift-share research design", "value_type": "reported_method"},
+        "republican_turnout": {"value": "greater electoral monopsony power increased Republican voter turnout", "unit": "reported estimated relationship", "value_type": "reported_effect"},
+        "political_channel": {"value": "labor-market power can shape expectations about how wages and employment depend on electoral outcomes", "unit": "model mechanism", "value_type": "modeled_mechanism"}
+      },
+      "method": "The paper combines individual-level voting data with a shift-share design based on national industry concentration shocks and predetermined local employment shares; the model distinguishes passive internalization from active employer influence.",
+      "uncertainty": "The design is not a record of one employer message followed by the same worker's belief and vote; interpretation depends on the shift-share assumptions and the distinction between local concentration and other local political changes.",
+      "subgroup": "Voters in U.S. local labor markets with differing exposure to employer concentration; the abstract reports the Republican-turnout result without a complete subgroup decomposition.",
+      "counterinterpretation": "Concentrated employment may correlate with industry, place, migration, education, media, or party composition that also affects turnout; the study's design addresses some confounding but does not make every local mechanism visible.",
+      "source_url": "https://www.nber.org/papers/w35676",
+      "retrieval_hash": "sha256:63b14c7563f492de61bd6def0ea4a8152a40241378866027fca0da80e53b2e05",
+      "status": "estimated"
+    },
+    {
+      "period": "Model counterfactuals for presidential elections",
+      "denominator": {"value": 2, "unit": "presidential election counterfactuals discussed in the public abstract", "value_type": "reported_counterfactual_count"},
+      "measures": {
+        "2016_and_2024": {"value": "reducing electoral monopsony power could have narrowly changed the outcomes of the 2016 and 2024 presidential elections", "unit": "model-based counterfactual implication", "value_type": "reported_counterfactual"},
+        "political_scope": {"value": "turnout and modeled electoral outcomes are visible; policy demand, worker welfare, and institutional correction are not", "unit": "measurement boundary", "value_type": "bounded_scope"}
+      },
+      "method": "Counterfactual estimates generated from the paper's empirical and modeled relationship; they are not observed alternative elections.",
+      "uncertainty": "Counterfactual results depend on the model, estimated relationship, and assumptions about reducing local employer power; they should not be read as a forecast or proof of a single employer changing an election.",
+      "subgroup": "National presidential-election counterfactuals, not a household or worker panel.",
+      "counterinterpretation": "A modeled narrow electoral margin can coexist with workers' independent political judgment, cross-pressures, or benefits from local employment; the result does not measure whether workers felt coerced or better informed.",
+      "source_url": "https://www.nber.org/papers/w35676",
+      "retrieval_hash": "sha256:63b14c7563f492de61bd6def0ea4a8152a40241378866027fca0da80e53b2e05",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/working_papers/w35676/w35676.pdf", "claim": "Official NBER PDF used for the paper's method and abstract context.", "status": "official-paper-context"}
+  ],
+  "boundary": "This record shows a measured association and modeled mechanism linking local employer concentration to reported employer influence and Republican turnout. It does not show the same worker's message, belief change, vote, job dependence, coercion, welfare, or later willingness to act in one linked record.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; survey microdata, individual voting data, and full replication are not locally reproduced.",
+    "pdf_sha256": "sha256:63b14c7563f492de61bd6def0ea4a8152a40241378866027fca0da80e53b2e05",
+    "checked": "2026-09-22"
+  }
+}

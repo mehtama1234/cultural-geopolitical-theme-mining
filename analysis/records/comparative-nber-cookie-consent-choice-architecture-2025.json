@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-cookie-consent-choice-architecture-2025",
+  "title": "Cookie-consent interface friction changes data-sharing choices and time cost",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "household_room_consumption", "trust_identity_meaning", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 34025; field experiment randomizing cookie-consent banners plus structural analysis of site-specific and browser-level consent",
+  "geography": "Comparative online consumer and website setting; policy and interface experiment",
+  "observations": [
+    {
+      "period": "2025 working paper; field-experiment and structural-model results",
+      "denominator": {"value": null, "unit": "online users and consent-banner interactions; exact experiment denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "baseline_acceptance": {"value": "more than half", "unit": "share accepting all cookies absent design manipulation", "value_type": "reported_experimental_result"},
+        "extra_click_effect": {"value": "shifts users toward more accessible alternatives", "unit": "observed effect of placing options behind extra clicks", "value_type": "reported_experimental_effect"},
+        "explicit_choice_gap": {"value": "many users dismiss banners without making an explicit choice", "unit": "reported consent-interface behavior", "value_type": "reported_behavior"},
+        "browser_level_time_cost": {"value": "browser-level consent has larger modeled welfare gains than optimizing site-specific design because it eliminates repeated decisions", "unit": "structural-model comparison", "value_type": "modeled_estimate"}
+      },
+      "method": "Field experiment randomizing cookie-consent-banner design, defaults, and site-versus-browser-level consent, combined with survey evidence on understanding and a structural model of consumer surplus and repeated decision time.",
+      "uncertainty": "The abstract does not disclose the full experiment denominator or all site/user sample details. Observed acceptance and dismissal are not informed consent, privacy protection, data-use comprehension, or durable welfare. The browser-level and default recommendations are structural-model outputs and depend on assumptions about preferences, time costs, and data value.",
+      "subgroup": "Online users, consent-banner/interface conditions, and site-specific versus browser-level consent; effects should not be generalized to all websites, devices, accessibility contexts, or privacy regimes.",
+      "counterinterpretation": "A lower acceptance rate can reflect confusion, fatigue, or nonresponse rather than a deliberate privacy choice. Browser-level consent may reduce repeated effort but can also hide meaningful site-specific differences or reduce access to services that depend on data sharing.",
+      "source_url": "https://www.nber.org/papers/w34025",
+      "retrieval_hash": "sha256:e09b1b06371254b57a44da95d9c8d7c82f79c84ea398e4d20c391a4a2ad4de62",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds an interface-friction and repeated-attention-cost mechanism to the platform/data lane. It does not establish informed consent, actual privacy protection, U.S. population generalization, downstream fraud or welfare, or durable platform exit."
+}

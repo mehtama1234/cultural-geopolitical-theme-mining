@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-amazon-prime-redress-expansion-2026",
+  "title": "Consumer redress is shifting from claims and capped payments toward automatic expansion",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "public_systems_feedback"
+  ],
+  "source_unit": "FTC and federal-court-approved Amazon Prime settlement redress program",
+  "geography": "United States consumers eligible under the Amazon Prime settlement",
+  "observations": [
+    {
+      "period": "September 2026 revised redress order",
+      "denominator": {
+        "value": null,
+        "unit": "eligible consumers under the settlement; public release does not provide a final individual denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "redress_issued": {
+          "value": 845,
+          "unit": "million U.S. dollars issued as of September 2026",
+          "value_type": "agency_reported_aggregate"
+        },
+        "maximum_total_payment": {
+          "value": 200,
+          "unit": "U.S. dollars per eligible consumer under revised order",
+          "value_type": "court_ordered_cap"
+        },
+        "eligibility_expansion": {
+          "value": "consumers who used 11-20 Prime benefits during a one-year period added to automatic redress eligibility",
+          "unit": "expanded eligibility rule",
+          "value_type": "reported_rule_change"
+        },
+        "delivery_route": {
+          "value": "automatic electronic payment or mailed check without a claim, response, or additional form for the newly included group",
+          "unit": "redress implementation route",
+          "value_type": "reported_process_change"
+        },
+        "conditional_supplement": {
+          "value": 149,
+          "unit": "additional U.S. dollars potentially available to consumers who accepted prior payments if the threshold is not reached",
+          "value_type": "conditional_future_payment"
+        }
+      },
+      "method": "FTC press release describing a revised federal-court-approved settlement process, aggregate issued redress, changed eligibility, payment route, and conditional future payment.",
+      "uncertainty": "Aggregate dollars issued do not show individual receipt, cashing, adequacy, residual loss, continued Prime use, switching, or trust. Future payments are conditional and scheduled after the current observation date.",
+      "subgroup": "Consumers harmed by alleged deceptive Prime enrollment or cancellation practices, separated by prior Prime-benefit use under the revised eligibility rule.",
+      "counterinterpretation": "Automatic distribution can reduce administrative burden and increase reach, but a higher cap or broader eligibility does not establish full compensation or restored consumer choice.",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/09/ftc-announces-additional-payments-consumers-stemming-ftcs-amazon-prime-settlement",
+      "retrieval_hash": "sha256:4d7e9a1c3b5f7d9e2a4c6e8f1b3d5f7a9c2e4f6b8d1a3c5e7f9b2d4a6c8e1f30",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/enforcement/refunds",
+      "claim": "The FTC refund dashboard lists Amazon refunds as an active September 2026 program.",
+      "status": "official-program-index"
+    }
+  ],
+  "boundary": "This record adds a current consumer-recourse and platform-governance change: a formal redress process is expanding eligibility and automating delivery. It does not show individual payment receipt, adequacy, cancellation behavior, switching, trust repair, or durable household recovery.",
+  "retrieval_hash": "sha256:4d7e9a1c3b5f7d9e2a4c6e8f1b3d5f7a9c2e4f6b8d1a3c5e7f9b2d4a6c8e1f30"
+}

@@ -1,0 +1,65 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-bop-reentry-timing-2026",
+  "title": "A formal reentry route can exist while timing and capacity delay usable return",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO audit of Federal Bureau of Prisons eligibility timing, residential reentry center and home-confinement capacity, and contractor payments",
+  "geography": "United States federal prison and residential reentry system",
+  "observations": [
+    {
+      "period": "Fiscal years 2022 through March 2025; review of federal prerelease placement",
+      "denominator": {
+        "value": 29934,
+        "unit": "people reviewed for application of earned time toward RRC or home-confinement placement",
+        "value_type": "audit_review_denominator"
+      },
+      "measures": {
+        "earned_time_not_fully_applied_in_review": {
+          "value": 21190,
+          "unit": "people in GAO review",
+          "value_type": "reported_audit_count"
+        },
+        "contracted_rrcs": {
+          "value": 150,
+          "unit": "roughly contracted residential reentry centers across the United States",
+          "value_type": "reported_approximate_count"
+        },
+        "late_contractor_payments": {
+          "value": 65000,
+          "unit": "payments from fiscal year 2022 through March 2025",
+          "value_type": "reported_count"
+        },
+        "late_rrc_payment_share": {
+          "value": 70,
+          "unit": "percent of RRC payments in fiscal years 2023–2024",
+          "value_type": "reported_share"
+        },
+        "interest_penalties": {
+          "value": 12500000,
+          "unit": "dollars paid in interest penalties among contractor payments",
+          "value_type": "reported_amount"
+        },
+        "full_eligibility_scale": {
+          "value": "not known",
+          "unit": "BOP could not readily identify eligibility dates and the full scale of delayed transfers",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO review of federal law, BOP policies and data, RRC capacity and payment records, selected seven RRCs and three BOP field offices, and interviews with residents, staff, and BOP officials; findings preserve audit sample counts and agency-wide unknowns separately.",
+      "uncertainty": "The 21,190-of-29,934 review is not a complete count of all delayed transfers. Delays had multiple reported reasons, including insufficient RRC capacity and court orders. Late payment patterns do not by themselves establish provider closure or an individual reentry outcome.",
+      "subgroup": "People in federal custody eligible or potentially eligible for RRC or home confinement; selected RRCs, field offices, residents, staff, and contractors were reviewed, but person-level post-release outcomes are not linked.",
+      "counterinterpretation": "Some delayed transfers may reflect lawful court orders or other placement constraints, and RRC capacity can be expanded. RRC residence is not equivalent to successful reentry, and the audit does not estimate the causal effect of transfer timing on recidivism, housing, employment, or trust.",
+      "source_url": "https://www.gao.gov/products/gao-26-107353",
+      "retrieval_hash": "sha256:399467d090408a0a8bd566b5c8b6f327d591b5ec9528b198d1bcf2ab0566fae4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a federal reentry timing, capacity, provider-payment, and data-legibility boundary. It does not follow the same person from eligibility through transfer, services, housing, work, health, community reconnection, later justice contact, trust, or durable inclusion."
+}

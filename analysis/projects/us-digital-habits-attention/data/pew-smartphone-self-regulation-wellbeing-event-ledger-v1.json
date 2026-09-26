@@ -1,0 +1,84 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "Bounded Pew American Trends Panel record connecting perceived smartphone excess to attempted self-regulation, reported success, and competing utility/wellbeing meanings.",
+  "events": [
+    {
+      "event_id": "PEW-SMARTPHONE-SELF-REGULATION-2026-06-01",
+      "unit": "person",
+      "geography": "United States; Pew American Trends Panel survey fielded May 26–June 1, 2026",
+      "actor_initiating_change": "platform",
+      "event_date": "2026-06-01",
+      "date_precision": "survey field end date; questions include past-12-month cutback attempts",
+      "denominator": "9,750 U.S. adults in the American Trends Panel; displayed item denominators exclude nonresponse and, for several measures, people without smartphones",
+      "method": "Structured extraction from Pew Research Center's official survey article and published tables",
+      "missingness": "No logged minutes, app or notification exposure, work/school obligation, content, platform identity, clinical sleep, observed productivity, privacy choice, purchase, or later repeated behavioral outcome is retained",
+      "condition_or_decision": "technology",
+      "exposure": "53% of adults who answered the smartphone-time item said they spend too much time on their smartphone; 26% said they use it almost constantly, with higher reported excess and near-constant use among younger adults",
+      "alternatives_before_action": "The survey does not identify replacement devices, offline social routes, work/school alternatives, notification controls, feature changes, or the practical cost of reducing use",
+      "immediate_burden_or_benefit": "Smartphones were reported as helping information access (73%) and connection (51%), while productivity judgments were divided and 41% said smartphone use hurts sleep; the same device therefore carried utility and perceived cost",
+      "choice_or_response": "45% said they had tried to cut back in the prior 12 months; among those trying, 25% said they were extremely or very successful, 52% somewhat successful, and 23% not too or not at all successful",
+      "person_or_actor_with_control": "Respondents attempted self-regulation, but platform design, notifications, social obligations, work or school demands, and device dependence may shape the feasible control surface; the survey does not identify control for each person",
+      "remedy_or_institutional_response": "No platform, employer, school, health, or policy intervention is observed; the measured response is personal cutback effort and perceived effect",
+      "immediate_outcome": "Concern, attempted reduction, partial or failed self-regulation, and competing information/connection benefits coexist in the same national survey surface",
+      "protected_outcome": "Information access, social connection, and possibly work or daily coordination may be protected by continued use; the source does not measure whether those benefits were actually delivered to each respondent",
+      "sacrificed_outcome": "Respondents may sacrifice sleep, productivity, time control, or mood while retaining utility; the survey reports perceptions rather than measured losses",
+      "cost_risk_transfer": "Control and wellbeing costs may be shifted onto individuals who must self-regulate around a device that also supplies information and connection; platform revenue, design responsibility, and user-level trade-offs are not measured",
+      "later_outcome": "Durable cutback, logged use, platform switching, non-use, sleep change, productivity change, later trust, and civic or consumer action are not followed",
+      "meaning_and_attribution": "The same device is interpreted as useful, connective, excessive, sleep-disrupting, and sometimes productivity-reducing; the survey does not establish whether respondents attribute those effects to the platform, their own habits, or social demands",
+      "public_or_collective_response": "No later complaint, organizing, policy demand, platform response, or collective action is linked",
+      "counterexample": "High perceived excess can coexist with high informational and social utility; concern does not automatically produce successful reduction or exit",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Pew Research Center article, https://www.pewresearch.org/short-reads/2026/09/01/about-half-of-americans-say-they-spend-too-much-time-on-their-smartphone/; self-reported cross-sectional panel survey, not a device-use log or causal estimate",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/01/about-half-of-americans-say-they-spend-too-much-time-on-their-smartphone/"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "PEW-SMARTPHONE-A-01",
+      "from": "smartphone availability and habitual use",
+      "to": "perceived utility and perceived excess",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The same survey reports information/connection benefits alongside perceived excess and sleep/productivity concerns",
+      "status": "reported",
+      "counterexample": "Frequent use is not identical to excessive use, dependence, or harm",
+      "remaining_gap": "Observed use, content, notification exposure, obligation, and individual attribution"
+    },
+    {
+      "arrow_id": "PEW-SMARTPHONE-A-02",
+      "from": "perceived excess",
+      "to": "attempted self-regulation",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Pew reports that 62% of those saying they spend too much time had tried to cut back, within the past-12-month question frame",
+      "status": "reported",
+      "counterexample": "A reported association does not establish that perceived excess caused the attempt or that all attempts were contemporaneous",
+      "remaining_gap": "Attempt timing, method, effort cost, social/work constraint, and alternative route"
+    },
+    {
+      "arrow_id": "PEW-SMARTPHONE-A-03",
+      "from": "cutback attempt",
+      "to": "reported success, partial success, or failure",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Among those who tried, 25% reported high success, 52% some success, and 23% little or no success",
+      "status": "reported",
+      "counterexample": "Self-rated success is not logged behavioral change, durable non-use, or reduced sleep/productivity harm",
+      "remaining_gap": "Observed duration, repeated follow-up, causal mechanism, and practical control"
+    },
+    {
+      "arrow_id": "PEW-SMARTPHONE-A-04",
+      "from": "reported cutback success or failure",
+      "to": "durable use change, switching, non-use, wellbeing, trust, or action",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The cross-sectional article ends at self-reported cutback success and perceived effects",
+      "status": "open",
+      "counterexample": "A person can fail to cut back because the phone is socially or economically necessary, not because of simple preference",
+      "remaining_gap": "Repeated behavior, replacement use, platform response, wellbeing, privacy choice, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a bounded self-reported consumer self-regulation chain. It does not establish addiction, logged behavior, platform causality, clinical harm, or a later switching/exit outcome.",
+  "storage_boundary": "No respondent-level panel file or device log is retained; only the official published survey results and explicit open downstream arrows are represented."
+}

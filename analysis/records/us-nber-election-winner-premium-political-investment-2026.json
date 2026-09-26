@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-election-winner-premium-political-investment-2026",
+  "title": "Narrow election wins can direct later political investment and turn prior support into durable local advantage",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 34585, revised September 2026; U.S. county presidential-election results, local officeholding, voter support, news coverage, and political-investment evidence",
+  "geography": "United States; counties during presidential-election realignment from 1940 through 1968",
+  "observations": [{
+    "period": "1940–1968 presidential elections and subsequent local political outcomes; paper revised September 2026",
+    "denominator": {"value": 1, "unit": "historical U.S. county-election study using close presidential outcomes", "value_type": "study_unit"},
+    "measures": {
+      "narrow_win_followup": {"value": "counties where Democrats narrowly won subsequently experienced pronounced increases in Democratic local officeholding and voter support", "unit": "close-election county comparison", "value_type": "reported_comparison"},
+      "political_investment": {"value": "advertising, direct voter outreach, and civil-rights organizing are reported as channels of the post-election advantage", "unit": "political-investment mechanism", "value_type": "reported_interpretation"},
+      "winner_loser_salience": {"value": "local post-election news treated outcomes as binary, celebrating winners and mourning losers", "unit": "local-news framing comparison", "value_type": "reported_comparison"},
+      "heterogeneous_effects": {"value": "the reported effects were largest in urban, Black, and union areas", "unit": "historical subgroup comparison", "value_type": "reported_comparison"}
+    },
+    "method": "The paper studies counties with narrow presidential outcomes and follows later local officeholding and voter support, combining election results with local news and evidence on political investment during the 1940–1968 realignment period.",
+    "uncertainty": "The evidence is historical and context-specific. Close-election comparisons address some selection around the margin but do not establish that every later outcome was caused by the presidential result or isolate all effects of national party strategy, migration, repression, economic change, media, or civil-rights conflict. The study does not directly measure current voters, household material conditions, trust, or national policy.",
+    "subgroup": "U.S. counties and historical urban, Black, and union areas; these subgroup patterns do not automatically generalize to current geography, parties, coalitions, or demographic groups.",
+    "counterinterpretation": "Narrow winners may differ in unobserved local conditions, campaign intensity, candidate quality, or preexisting organizing capacity; subsequent investment may reflect national realignment that also affected the election outcome. Increased local officeholding and voter support do not by themselves establish improved material welfare or democratic legitimacy.",
+    "source_url": "https://www.nber.org/papers/w34585",
+    "retrieval_hash": "sha256:d54437676a1228029d87ac50507b59a7ebee218c9bc67318a55e176b2743699e",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34585", "claim": "NBER DOI record for Working Paper 34585", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a historical election-result-to-political-investment mechanism. It does not establish current U.S. effects, household outcomes, national policy, trust, or a universal winner/loser response."
+}

@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-public-pension-private-equity-productivity-2026",
+  "title": "Public-pension funding pressure can shape private-equity matching and the productivity of financed firms",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Census CES working paper linking U.S. public-pension investments, private-equity funds, target firms, and confidential Census firm data",
+  "geography": "United States public pensions, private-equity funds, and financed firms",
+  "observations": [
+    {
+      "period": "Public-pension private-equity investments and financed-firm outcomes; paper published July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. public pensions, private-equity funds, and target firms in linked investment and Census data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "pension_funding_and_returns": {
+          "value": "more severely underfunded public pensions receive lower average private-equity returns",
+          "unit": "reported pension-level return comparison",
+          "value_type": "reported_comparison"
+        },
+        "general_partner_matching": {
+          "value": "more severely underfunded pensions match with smaller general partners on average",
+          "unit": "reported pension-to-private-equity-fund matching comparison",
+          "value_type": "reported_comparison"
+        },
+        "financed_firm_productivity": {
+          "value": "firms financed by the most underfunded pensions and smallest private-equity funds face labor-productivity decreases",
+          "unit": "reported firm-level productivity pattern",
+          "value_type": "reported_effect"
+        },
+        "identification_context": {
+          "value": "public unionization is used as an instrument related to pension underfunding positions",
+          "unit": "reported identification strategy",
+          "value_type": "study_method"
+        }
+      },
+      "method": "Census CES working paper traces public-pension private-equity investments to target firms using private-investment microdata linked with confidential Census data; it uses public unionization as an instrument supporting the underfunding position and evaluates alternate mechanisms.",
+      "uncertainty": "This is a Census working paper and has not undergone the review and editorial process of an official Census publication. The public abstract does not disclose all sample construction, return definitions, fund-selection details, effect sizes, or productivity measures. The reported patterns do not by themselves establish effects on pension beneficiaries, employment, wages, firm survival, or public budgets.",
+      "subgroup": "Public pensions differentiated by funding status, private-equity funds differentiated by general-partner size, and firms financed by those funds.",
+      "counterinterpretation": "Underfunding, fund size, returns, and productivity may be jointly shaped by pension governance, risk tolerance, investment policy, firm selection, sector, macro conditions, or unmeasured fund quality. A productivity decrease does not identify whether workers lost jobs, wages, hours, control, or security.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-47.html",
+      "retrieval_hash": "sha256:84c136964c1a9684272c315cd5c5a98290babe2fed387fd2030588113dfa2e8b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a public-pension-to-private-equity-to-firm-productivity pathway. It does not establish pension solvency, beneficiary security, worker harm, firm failure, or whether a different investment policy would improve public outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census working-paper landing page reviewed; private-investment and confidential Census firm microdata are not retained",
+    "checked": "2026-09-22"
+  }
+}

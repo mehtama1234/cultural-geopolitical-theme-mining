@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-platform-data-neutrality-market-competition-2026",
+  "title": "Equal platform-data access can strengthen competition while reducing the incentive to produce data",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["firm_sector_market_power", "platforms_data_attention", "public_systems_feedback", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "NBER Working Paper 35159; theoretical model of data-neutrality rules, affiliated and unaffiliated sellers, platform data supply, competition, and consumer welfare",
+  "geography": "Platform-market model; used as a mechanism test for U.S.-relevant digital-market governance, not an observed U.S. firm estimate",
+  "observations": [{
+    "period": "Model published April 2026",
+    "denominator": {"value": 1, "unit": "platform data-neutrality model", "value_type": "study_unit"},
+    "measures": {
+      "weak_neutrality": {"value": "requiring equal data amounts can remain largely ineffective when the platform restores exclusion through discriminatory pricing", "unit": "modeled competition and access result", "value_type": "reported_model_result"},
+      "strong_neutrality": {"value": "requiring equal data amounts and equal prices broadens access and intensifies downstream competition", "unit": "modeled competition result", "value_type": "reported_model_result"},
+      "data_supply": {"value": "strong neutrality can reduce the platform's incentive to refine and produce data, reducing the equilibrium amount of data", "unit": "modeled data-supply result", "value_type": "reported_model_result"},
+      "welfare": {"value": "the data-reduction effect can dominate the competition benefit, so stronger neutrality does not necessarily raise consumer welfare", "unit": "modeled welfare comparison", "value_type": "reported_model_result"}
+    },
+    "method": "The authors build a theoretical platform-market model in which affiliated and unaffiliated sellers seek access to platform data and compare weak neutrality, which equalizes data quantity, with strong neutrality, which also equalizes price.",
+    "uncertainty": "This is a model-based mechanism test, not an observed estimate for a named U.S. platform, seller, household, or regulator. Results depend on assumptions about data production, affiliation, pricing, competition, and welfare; the model does not measure privacy loss, data accuracy, implementation cost, or enforcement.",
+    "subgroup": "Affiliated and unaffiliated downstream sellers and platform consumers in the model; real-world effects may differ by seller size, data sensitivity, market concentration, consumer alternatives, and the type of data shared.",
+    "counterinterpretation": "A platform may produce data for reasons other than seller access, and regulation could stimulate independent data sources or improve trust enough to raise participation. Equal access may also have privacy or security costs not represented in the model. A modeled welfare tradeoff is not evidence that a particular neutrality rule succeeds or fails in practice.",
+    "source_url": "https://www.nber.org/papers/w35159",
+    "retrieval_hash": "sha256:cc98e24546d6ca0ebc7da58b437af78a2f7f7319a8e4a5eecaadb1ebf682401a",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35159", "claim": "NBER DOI record for Working Paper 35159", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a model-based platform-governance tradeoff: fairer data access can improve competition while weakening incentives to create data. It does not establish the size, direction, privacy effect, or consumer-welfare result of a neutrality rule in any particular U.S. market."
+}

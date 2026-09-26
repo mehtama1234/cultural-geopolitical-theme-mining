@@ -33,6 +33,41 @@ records the current cross-source interpretation.
 The [current-status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 records the 14-theme coverage, recent depth, open arrows, and next queue in one
 place.
+The [current 14-theme readout](analysis/US-BROAD-CURRENT-14-THEME-READOUT_V1.md)
+is the plain-language summary of what appears to be changing across the full
+societal, cultural, political, institutional, firm, infrastructure, and
+geopolitical map.
+
+### Source-led entry points
+
+For a direct route from the source records to substantive subthemes, begin
+with the [source-led evidence maps index](analysis/US-BROAD-SOURCE-LED-MAPS-INDEX_V1.md)
+or one of the focused evidence maps:
+
+- [consumer power and recourse](analysis/US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [platforms, data, and attention](analysis/US-BROAD-PLATFORM-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [care, health, and social reproduction](analysis/US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [work, control, and bargaining](analysis/US-BROAD-WORK-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [housing, place, and mobility](analysis/US-BROAD-HOUSING-PLACE-MOBILITY-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [unequal exposure and status](analysis/US-BROAD-UNEQUAL-EXPOSURE-STATUS-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [household room and consumption](analysis/US-BROAD-HOUSEHOLD-ROOM-CONSUMPTION-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [firm, sector, and market power](analysis/US-BROAD-FIRM-SECTOR-MARKET-POWER-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [infrastructure, technology, and dependency](analysis/US-BROAD-INFRASTRUCTURE-TECHNOLOGY-DEPENDENCY-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [time as a hidden price](analysis/US-BROAD-TIME-HIDDEN-PRICE-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [public systems and policy feedback](analysis/US-BROAD-PUBLIC-SYSTEMS-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [cultural meaning, trust, and political action](analysis/US-BROAD-CULTURAL-POLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [state capacity and geopolitical consequence](analysis/US-BROAD-GEOPOLITICAL-SOURCE-LED-SUBTHEME-MAP_V1.md)
+
+Each map groups source records into measured subthemes, names the direct
+evidence, and keeps the next unmeasured stage visible.
+
+The [current societal, cultural, and political readout](site/US-BROAD-CURRENT-SOCIETAL-CULTURAL-POLITICAL-READOUT_V1.html)
+is the shortest answer to what appears to be happening across those themes.
+The [societal subtheme concept register](site/US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.html)
+collects the recurring concepts, source boundaries, and next tests in one
+place.
+The [broad data-source map](analysis/US-BROAD-DATA-SOURCE-MAP_V1.md) explains
+which source families support the map and what each one can and cannot show.
 The [broad program focus brief](BROAD-PROGRAM-FOCUS_V1.md) is the short
 restart document: it keeps societal, cultural, political, consumer, firm,
 institutional, infrastructure, and geopolitical trend mining as the governing

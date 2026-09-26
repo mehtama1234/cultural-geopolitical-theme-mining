@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-medicaid-managed-ltss-health-spillovers-2026",
+  "title": "Managed Medicaid long-term services can spill into Medicare-financed health outcomes differently across states",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35055 using Medicare claims, Medicaid managed-LTSS rollout timing, and county-level differences-in-differences",
+  "geography": "Florida and New York dual-eligible Medicare-Medicaid beneficiaries age 65 and older; Pennsylvania and California counties provide comparison counties",
+  "observations": [
+    {
+      "period": "2008–2019 administrative claims and staggered county rollouts, with managed-LTSS transitions between 2012 and 2015",
+      "denominator": {
+        "value": 4,
+        "unit": "state settings: Florida and New York treatment states with Pennsylvania and California comparison counties; individual claims denominator is not disclosed in the abstract",
+        "value_type": "state_comparison_frame"
+      },
+      "measures": {
+        "florida_hospitalization": {
+          "value": 4.2,
+          "unit": "percent increase in quarterly hospitalization risk, equivalent to a 0.9 percentage-point increase",
+          "value_type": "estimated_effect"
+        },
+        "new_york_hospitalization": {
+          "value": "no significant change",
+          "unit": "hospitalization outcome after managed-LTSS transition",
+          "value_type": "estimated_null"
+        },
+        "florida_flu_vaccination": {
+          "value": -10,
+          "unit": "percent decline in likelihood of influenza vaccination, equivalent to a 3.2 percentage-point decline",
+          "value_type": "estimated_effect"
+        },
+        "cross_program_spillover": {
+          "value": "Medicare-financed hospitalizations increased after a Medicaid delivery change",
+          "unit": "health outcome outside the managed-LTSS payer incentive boundary",
+          "value_type": "reported_interpretation"
+        },
+        "state_heterogeneity": {
+          "value": "Florida effect differs from New York",
+          "unit": "state-specific managed-LTSS implementation and health outcome comparison",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Differences-in-differences using staggered county-by-county managed-LTSS rollouts and administrative Medicare claims for dual-eligible older adults, with comparison counties in Pennsylvania and California.",
+      "uncertainty": "The abstract does not disclose the individual claims denominator or all rollout and robustness details. The Florida and New York differences may reflect program design, case management, provider networks, baseline health, implementation timing, or other state-specific factors; the study does not establish a universal managed-care effect.",
+      "subgroup": "Dual-eligible Medicare-Medicaid beneficiaries age 65 and older in counties affected by managed LTSS; Florida and New York implementation settings must remain separate.",
+      "counterinterpretation": "Hospitalization increases may reflect improved detection, coding, access, or changes unrelated to deteriorating health; the vaccination decline is a possible mechanism, not a complete causal explanation. No New York effect does not prove equivalent quality, and no change in nursing-home use or quality does not rule out other care shifts.",
+      "source_url": "https://www.nber.org/papers/w35055",
+      "retrieval_hash": "sha256:2df86d655c1bdbfd5c314806ed5b1ccf5e71166b38dfb366f8e70d34733eb425",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35055",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    },
+    {
+      "source_url": "https://www.nber.org/bh/20262/health-effects-managed-care-delivery-medicaids-long-term-services-and-support",
+      "claim": "NBER health bulletin provides the reported state-specific effects and mechanism context.",
+      "status": "official-research-summary"
+    }
+  ],
+  "boundary": "This record establishes a state-heterogeneous managed-LTSS-to-health route and a possible cross-payer spillover. It does not establish universal managed-care effects, individual care quality, household cost, long-term functional status, mortality, trust, or why Florida and New York differ in full."
+}

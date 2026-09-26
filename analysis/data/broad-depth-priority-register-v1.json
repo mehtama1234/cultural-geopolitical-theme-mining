@@ -1,0 +1,70 @@
+{
+  "schema": "us-broad-depth-priority-register-v1",
+  "checked": "2026-09-20",
+  "scope": "Depth priorities inside the 14-theme societal, cultural, consumer, political, institutional, firm, infrastructure, and geopolitical atlas",
+  "interpretation": "This register chooses high-value next tests; it is not a claim that one dataset should answer the whole program.",
+  "execution_rule": {
+    "broad_atlas_first": "PSID authenticated family/person extract for the material/time/care bridge",
+    "health_cost_alternative": "UAS Older Ages or Monthly Panel only for the narrower dated health-cost episode",
+    "public_record_stage_first": "Worker remedy receipt and later stability when an identifier-bearing follow-up is available",
+    "fallbacks": ["recipient/account-level remedy follow-up", "identifier-bearing worker/project/defense follow-up"],
+    "boundary": "Do not pool PSID, UAS, MEPS, SIPP, or administrative routes as if they were one same-unit episode."
+  },
+  "priorities": [
+    {
+      "rank": 1,
+      "name": "Household pressure and care",
+      "themes": ["household_room_consumption", "time_hidden_price", "care_health_reproduction", "housing_place_mobility"],
+      "unit": "same person or household episode",
+      "required_stages": ["dated bill health or care event", "alternative or non-use", "money/time/work trade-off", "later security", "persistence or recovery"],
+      "current_evidence": "SIPP same-person monthly screens and MEPS dated health-event scaffolds",
+      "open_blocker": "event-specific alternatives, obligation, institutional response, and later recovery are not linked in one retained unit",
+      "next_route": "authorized MEPS restoration or UAS/PSID respondent file",
+      "status": "open_acquisition_or_restoration"
+    },
+    {
+      "rank": 2,
+      "name": "Consumer remedy and practical exit",
+      "themes": ["consumer_power_recourse", "platforms_data_attention", "firm_sector_market_power"],
+      "unit": "same customer, account, or case episode",
+      "required_stages": ["access or exposure", "complaint and effort", "correction or remedy", "receipt and adequacy", "continued use switching or non-use"],
+      "current_evidence": "CFPB, FTC, recall, fraud, and 27-case platform-remedy ledgers",
+      "open_blocker": "alternatives, verified receipt, durability, and protected or sacrificed outcome are sparse",
+      "next_route": "small account-level or remedy-contact follow-up ledger",
+      "status": "coverage_audit_only"
+    },
+    {
+      "rank": 3,
+      "name": "Work and control",
+      "themes": ["work_control_bargaining", "unequal_exposure_status", "household_room_consumption"],
+      "unit": "same worker or workplace episode",
+      "required_stages": ["notice or system exposure", "understanding refusal or appeal", "pay safety or schedule response", "bargaining and household effect", "later job or exit"],
+      "current_evidence": "AI/work surveys, adjudicated platform cases, worker-voice and wage-remedy ledgers",
+      "open_blocker": "worker-side receipt, durable control, household outcome, and free alternative work remain uncommon",
+      "next_route": "identifier-bearing post-remedy worker follow-up",
+      "status": "comparative_stage_evidence"
+    },
+    {
+      "rank": 4,
+      "name": "Care and public-system usability",
+      "themes": ["care_health_reproduction", "public_systems_feedback", "unequal_exposure_status"],
+      "unit": "same person, appointment, or benefit episode",
+      "required_stages": ["need", "travel price or coverage", "completed care or received benefit", "continuity", "unpaid substitution and later security"],
+      "current_evidence": "MEPS, SIPP, SHED, HRSA named-site, SNAP, Medicaid, and disability-access layers",
+      "open_blocker": "appointment completion, adequacy, notice/route effort, and continuity are not consistently observed",
+      "next_route": "privacy-approved appointment or benefit episode ledger",
+      "status": "bounded_public_layers_open_middle"
+    },
+    {
+      "rank": 5,
+      "name": "Infrastructure and state consequence",
+      "themes": ["infrastructure_technology_dependency", "geopolitical_state_consequences", "firm_sector_market_power"],
+      "unit": "identifiable project, contract, capability, place, or state episode",
+      "required_stages": ["approval or contract", "acceptance and operation", "reliability or local burden", "replaceability", "public or external response"],
+      "current_evidence": "data-center, grid, defense, critical-materials, alliance-response, and state-capacity ledgers",
+      "open_blocker": "realized user benefit, replacement, affected-actor response, and leverage are usually separate from the capability record",
+      "next_route": "identifier-bearing project-year or incident-response follow-up",
+      "status": "comparative_realization_evidence"
+    }
+  ]
+}

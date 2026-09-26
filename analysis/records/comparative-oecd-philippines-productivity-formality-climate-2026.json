@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-philippines-productivity-formality-climate-2026",
+  "title": "Philippine growth capacity depends on competition, formalization, social protection, and climate adaptation as one institutional package",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "OECD Economic Survey: Philippines 2026",
+  "geography": "Philippines; comparative OECD and regional context",
+  "observations": [
+    {
+      "period": "2024-2027; macroeconomic and productivity outlook in OECD Economic Surveys: Philippines 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "national economy and OECD survey assessment; country estimates and forecasts",
+        "value_type": "country_economic_unit"
+      },
+      "measures": {
+        "real_gdp_growth": {"value": "5.7% in 2024, 4.4% in 2025, 5.1% forecast for 2026, and 5.8% forecast for 2027", "unit": "annual real GDP growth", "value_type": "reported_and_forecast_series"},
+        "public_debt": {"value": "60.7% of GDP in 2024, 62.2% in 2025, 62.4% forecast in 2026, and 61.6% forecast in 2027", "unit": "general-government public debt as percent of GDP", "value_type": "reported_and_forecast_series"},
+        "productivity_requirement": {"value": 0.75, "unit": "approximately additional percentage points of average annual productivity growth above the pre-pandemic average needed to reach the 2040 income-per-capita target", "value_type": "modeled_requirement"},
+        "telecom_competition": {"value": "fixed broadband and mobile internet prices significantly exceed regional peers and the OECD, with a small number of incumbents and limited transparent access to critical infrastructure", "unit": "market-structure assessment", "value_type": "reported_qualitative_assessment"},
+        "electricity_competition": {"value": "high electricity prices and vertical integration by dominant distribution firms that also own generation and retail assets are identified as constraints on business", "unit": "sector competition assessment", "value_type": "reported_qualitative_assessment"}
+      },
+      "method": "OECD country-survey synthesis using Philippine national statistics, United Nations population projections, CEIC, policy review, sector analysis, and OECD forecasts. Forecasts and policy recommendations are retained separately from observed historical values.",
+      "uncertainty": "Country forecasts depend on global trade, investment, demographics, inflation, policy implementation, and climate conditions. Market-competition assessments identify mechanisms and reform priorities, not measured firm-level causal effects or guaranteed price reductions.",
+      "subgroup": "Philippine national economy, network sectors, firms, households, investors, and workers; distributional implications are discussed for low-productivity regions and vulnerable groups.",
+      "counterinterpretation": "Strong aggregate growth can coexist with weak competition, high prices, informal employment, and unequal protection. Forecast growth and proposed open-access or structural-separation reforms are not realized outcomes.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/oecd-economic-surveys-philippines-2026_cc282bc0/f0e0c581-en.pdf",
+      "retrieval_hash": "sha256:ef68e42fb1feac6923605df232827269e1a12b735b4e331e177eaf8f06509de8",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2026; labor-market formality, social protection, and climate-capacity exposure",
+      "denominator": {
+        "value": 1,
+        "unit": "Philippine labor market and national climate-policy system; source uses country-level indicators",
+        "value_type": "country_system_unit"
+      },
+      "measures": {
+        "formal_employment": {"value": 33, "unit": "approximately percent of employed people in formal-sector jobs with comprehensive social and labor protections", "value_type": "reported_share"},
+        "informal_employment": {"value": 67, "unit": "approximately percent of employed people working informally with limited protection", "value_type": "reported_share"},
+        "mandatory_social_contributions": {"value": 23, "unit": "approximately percent of gross wages in mandatory social contributions cited as a formalization cost", "value_type": "reported_share"},
+        "us_tariff_exposure": {"value": 2.5, "unit": "approximately percent of Philippine GDP represented by merchandise exports to the United States", "value_type": "reported_share"},
+        "climate_response": {"value": "The survey calls for stronger adaptation in high-risk areas, improved natural-resource governance, more consistent carbon pricing, and expanded social protection", "unit": "policy-capacity assessment", "value_type": "reported_policy_assessment"}
+      },
+      "method": "OECD country-survey comparison of labor-market structure, social-contribution incentives, social-protection coverage, trade exposure, and climate adaptation. The formality and contribution figures are country-level indicators, not matched worker transitions.",
+      "uncertainty": "The survey's country indicators use different years, definitions, and administrative or modeled sources. Formality is not identical to job quality or actual benefit receipt, and policy recommendations do not establish implementation or household welfare effects.",
+      "subgroup": "Formal and informal workers, low-wage workers, employers, vulnerable households, and high-risk climate-exposed areas in the Philippines.",
+      "counterinterpretation": "Reducing formalization costs may expand coverage but could also weaken protections if not paired with a universal basic tier; expanding social protection may require fiscal tradeoffs, and climate adaptation can vary sharply across places and sectors.",
+      "source_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/oecd-economic-surveys-philippines-2026_cc282bc0/f0e0c581-en.pdf",
+      "retrieval_hash": "sha256:ef68e42fb1feac6923605df232827269e1a12b735b4e331e177eaf8f06509de8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.oecd.org/en/publications/oecd-economic-surveys-philippines-2026_f0e0c581-en/full-report/executive-summary_e27fd6d6.html"
+  ],
+  "boundary": "This comparative record tests institutional-capacity mechanisms relevant to the broad atlas—competition, infrastructure access, formalization, social protection, fiscal room, and climate adaptation. It does not turn Philippine country-level indicators into U.S. household evidence, establish causal policy effects, or claim that OECD recommendations were implemented.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD Philippines 2026 survey PDF and HTML executive summary retrieved; growth, debt, productivity requirement, market competition, formal/informal employment, contribution, trade-exposure, and climate-adaptation facts cross-checked against the publication.",
+    "pdf_sha256": "sha256:ef68e42fb1feac6923605df232827269e1a12b735b4e331e177eaf8f06509de8",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-world-trends-expression-media-information-integrity-2026",
+  "title": "Freedom of expression and information integrity are becoming public-infrastructure conditions for democratic accountability, while platforms and AI reshape who controls discourse",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UNESCO, World Trends in Freedom of Expression and Media Development: Global Report 2022/2025",
+  "geography": "Global freedom of expression, journalism, media development, information integrity, digital platforms, AI, and public access to information",
+  "observations": [
+    {
+      "period": "2012-2025; global freedom-of-expression trend",
+      "denominator": {
+        "value": 1,
+        "unit": "global Freedom of Expression Index trend reported by UNESCO from V-Dem-based analysis",
+        "value_type": "global_index_frame"
+      },
+      "measures": {
+        "freedom_expression_decline": {"value": 10, "unit": "percent global decline in the Freedom of Expression Index since 2012", "value_type": "reported_global_index_change"},
+        "information_role": {"value": "information as a public good and information integrity", "unit": "two analytical lenses of the World Trends Report", "value_type": "reported_framework_set"},
+        "democratic_function": {"value": "public access to information, accountability, human rights, electoral integrity, and informed citizenship", "unit": "reported public-function set", "value_type": "reported_outcome_set"},
+        "positive_countertrends": {"value": "expanded social-media access, collaborative investigative journalism, subscription models, and legal recognition of community media", "unit": "reported countertrend set", "value_type": "reported_countertrend_set"}
+      },
+      "method": "UNESCO synthesis of global media-development evidence and Freedom of Expression Index analysis based on V-Dem data.",
+      "uncertainty": "An index trend summarizes dimensions of freedom and information access; it does not establish the same experience for every country, group, journalist, audience, or platform user.",
+      "subgroup": "Journalists, media organizations, community media, public audiences, youth, vulnerable groups, governments, platforms, and civil-society monitors.",
+      "counterinterpretation": "Some access, investigative collaboration, subscription, and community-media developments can improve information availability even while aggregate freedom indicators decline.",
+      "source_url": "https://www.unesco.org/en/articles/world-trends-freedom-expression-and-media-development-global-report-2022/2025",
+      "retrieval_hash": "sha256:8c0fda551a83368bc17fadf188424dcf2c979f6b43ed85ee2774449aa93f25c0",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; institutional checks, journalism, and democratic accountability",
+      "denominator": {
+        "value": 1,
+        "unit": "global media and rule-of-law institutional frame",
+        "value_type": "global_institutional_media_frame"
+      },
+      "measures": {
+        "institutional_protectors": {"value": "pluralistic legislatures, independent judiciaries, media independence, government transparency, and accountability mechanisms", "unit": "reported safeguards for freedom of expression", "value_type": "reported_safeguard_set"},
+        "reported_pressures": {"value": "weakened governance, hostility toward journalists, digital repression, attacks, and information distortion", "unit": "reported pressure set", "value_type": "reported_risk_set"},
+        "journalism_function": {"value": "free, independent, pluralistic, and professional journalism as a cornerstone of democratic life and peace", "unit": "reported institutional role", "value_type": "reported_role"},
+        "policy_need": {"value": "international norms, information integrity, trusted information, and public access to information", "unit": "reported policy priorities", "value_type": "reported_policy_set"}
+      },
+      "method": "UNESCO report chapter synthesis connecting journalism, rule of law, media independence, public accountability, and information access.",
+      "uncertainty": "The report identifies institutional mechanisms and trends but does not prove that a specific safeguard caused a change in trust, voting, protest, peace, or government accountability.",
+      "subgroup": "Journalists, courts, legislatures, regulators, media owners, public institutions, political actors, and audiences exposed to public information.",
+      "counterinterpretation": "Independent journalism and institutional checks can coexist with political contestation or low trust; information availability alone does not guarantee shared facts or collective action.",
+      "source_url": "https://www.unesco.org/en/world-media-trends/2025/journalism-rule-law",
+      "retrieval_hash": "sha256:8c0fda551a83368bc17fadf188424dcf2c979f6b43ed85ee2774449aa93f25c0",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; platforms, AI, and information integrity",
+      "denominator": {
+        "value": 1,
+        "unit": "global digital-information and journalism technology frame",
+        "value_type": "digital_information_system_frame"
+      },
+      "measures": {
+        "technology_duality": {"value": "technology both amplifies and constrains freedom of expression", "unit": "reported digital-information mechanism", "value_type": "reported_mechanism"},
+        "ai_information_risk": {"value": "synthetic or altered content and rapid dissemination disrupt information integrity at scale", "unit": "reported AI-related risk", "value_type": "reported_risk"},
+        "platform_power": {"value": "economic and political interests of platform-controlling companies shape the information ecosystem", "unit": "reported market-governance mechanism", "value_type": "reported_mechanism"},
+        "concentration_risk": {"value": "opaque training, operating costs, algorithmic manipulation, targeted advertising, and moderation-policy abuse can concentrate or distort discourse", "unit": "reported technology-governance risk set", "value_type": "reported_risk_set"}
+      },
+      "method": "UNESCO chapter analysis of digital platforms, generative AI, journalism, content creation, information integrity, platform governance, and power concentration.",
+      "uncertainty": "The chapter is an analytical and policy synthesis; it does not estimate a single causal effect of AI or platforms on persuasion, voting, trust, or journalism employment.",
+      "subgroup": "Journalists, media workers, platform firms, AI developers, users, advertisers, regulators, and communities affected by synthetic or manipulated information.",
+      "counterinterpretation": "AI and platforms can lower production costs, expand expression, support journalism, and enable new participation when transparency, accountability, and user agency are strengthened.",
+      "source_url": "https://www.unesco.org/en/world-media-trends/2025/journalism-technology?hub=612",
+      "retrieval_hash": "sha256:8c0fda551a83368bc17fadf188424dcf2c979f6b43ed85ee2774449aa93f25c0",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2025; safety, gender, climate, and public-information vulnerability",
+      "denominator": {
+        "value": 1,
+        "unit": "global journalism and public-information vulnerability frame",
+        "value_type": "media_vulnerability_frame"
+      },
+      "measures": {
+        "journalist_safety": {"value": "journalists and media workers increasingly targeted despite international humanitarian and human-rights protections", "unit": "reported safety trend", "value_type": "reported_trend"},
+        "digital_repression": {"value": "biometric databases, spyware, AI-driven monitoring, and platform-policy weaponization", "unit": "reported repression mechanism set", "value_type": "reported_mechanism_set"},
+        "gender_and_inclusion": {"value": "progress on gender equality has stalled and women face discrimination and violence", "unit": "reported inclusion trend", "value_type": "reported_trend"},
+        "environmental_information": {"value": "press freedom, disinformation, attacks on science, and safety of environmental journalists intersect with the climate crisis", "unit": "reported climate-information mechanism", "value_type": "reported_mechanism_set"},
+        "public_effect": {"value": "fragmented public spheres can weaken democratic dialogue and institutional checks", "unit": "reported public consequence", "value_type": "reported_consequence"}
+      },
+      "method": "UNESCO thematic synthesis across journalism safety, gender, technology, climate, science, and information-as-public-good chapters.",
+      "uncertainty": "The report identifies risks and mechanisms but does not observe every journalist's exposure, every audience's access, or a verified downstream political or social outcome.",
+      "subgroup": "Women journalists, environmental and science journalists, dissenting voices, vulnerable populations, youth, researchers, media organizations, and public audiences.",
+      "counterinterpretation": "Safety mechanisms, community media, public-interest funding, digital literacy, and trusted information initiatives can buffer vulnerability and widen participation.",
+      "source_url": "https://www.unesco.org/en/articles/world-trends-freedom-expression-and-media-development-global-report-2022/2025",
+      "retrieval_hash": "sha256:8c0fda551a83368bc17fadf188424dcf2c979f6b43ed85ee2774449aa93f25c0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/world-media-trends/2025/journalism-technology?hub=612", "claim": "UNESCO technology chapter on platforms, AI, information integrity, journalism, and power concentration."},
+    {"source_url": "https://www.unesco.org/en/world-media-trends/2025/journalism-rule-law", "claim": "UNESCO rule-of-law chapter on institutional checks, journalist protection, digital repression, and public trust."},
+    {"source_url": "https://unesdoc.unesco.org/in/rest/annotationSVC/DownloadWatermarkedAttachment/attach_import_9b29e1e0-1c8d-4700-acd9-b6611e9713f0?_=380618eng.pdf", "claim": "UNESCO World Trends Report PDF publication source."}
+  ],
+  "boundary": "This record adds an information-as-public-good route linking press freedom, journalism, institutional checks, platforms, AI, information integrity, safety, public access, and democratic accountability. It is not individual media-use, persuasion, voting, trust, journalist respondent, or audience-level data, and it does not establish that the reported global index decline caused any particular political behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNESCO global report page and rule-of-law and technology chapter pages were reviewed; index decline, journalism/public-good framing, institutional safeguards, digital and AI mechanisms, safety, gender, climate, and information-integrity claims were cross-checked.",
+    "source_url_sha256": "sha256:8c0fda551a83368bc17fadf188424dcf2c979f6b43ed85ee2774449aa93f25c0",
+    "checked": "2026-09-26"
+  }
+}

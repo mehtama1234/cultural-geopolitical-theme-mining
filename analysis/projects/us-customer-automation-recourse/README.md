@@ -19,6 +19,17 @@ firm cost or growth goal
 
 This is one durable lane in the long-term atlas. Its depth increases as records show what the system did and what happened to customers afterward.
 
+The [Bilt bank-partner transition ledger](data/cfpb-bilt-bank-partner-transition-event-ledger-v1.json)
+adds a current consumer-system route: a firm migration produced fees and
+technical problems, followed by proactive outreach, reported reimbursement,
+and claimed technical repair. Individual receipt, account correction,
+adequacy, repeat failure, trust, and switching remain open.
+
+The [Instacart pricing and refund finding](findings/us-customer-automation-recourse-036.md)
+adds a delivery-platform case: alleged fee and subscription practices produced
+an announced $60 million refund route and a later marketwide FTC fee inquiry,
+while individual recovery and future shopping behavior remain open.
+
 ## First working idea
 
 Automation may improve service for simple questions while making repeated problems harder to solve. The key issue may not be whether a bot is friendly; it may be whether a customer can get a clear answer, a human review, and a remedy. This is a working idea, not a conclusion.

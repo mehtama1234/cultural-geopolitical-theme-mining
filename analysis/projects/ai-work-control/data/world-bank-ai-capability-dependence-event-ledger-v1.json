@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "world_bank_reported_ai_capability_governance_record",
+  "purpose": "Bounded World Bank WDR2026 route from AI adoption through local complements and value-chain concentration to public capacity and state-dependence questions, preserving realized capability and external-response gaps.",
+  "events": [
+    {
+      "event_id": "WORLD-BANK-AI-CAPABILITY-DEPENDENCE-2026",
+      "unit": "case",
+      "geography": "Global/developing-country analytical frame with US-relevant value-chain and institutional comparison implications",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-01-01",
+      "date_precision": "World Development Report 2026 framework and chapter synthesis; exact country adoption dates and external responses are not retained",
+      "denominator": "One World Bank flagship analytical framework and chapter-level evidence; technology, country, firm, and agency units are not pooled",
+      "method": "World Bank synthesis of research, country evidence, technology-diffusion comparisons, value-chain analysis, and public-sector capability discussion",
+      "missingness": "Realized country adoption, supplier switching, infrastructure outage, public-service outcome, worker/household incidence, ownership, bargaining, and external actor response are not retained",
+      "condition_or_decision": "technology",
+      "exposure": "The report frames AI capability through adopt–adapt–advance pathways and identifies infrastructure, skills, institutions, data, and local-language fit as complements",
+      "alternatives_before_action": "Alternative providers, open standards, local adaptation, procurement choices, replacement time, and ability to refuse or switch are identified as questions rather than observed episode fields",
+      "immediate_burden_or_benefit": "AI tools can expand access and public/firm capability, while hardware, infrastructure, models, and applications remain concentrated across countries and companies",
+      "choice_or_response": "The report identifies dependency, capital concentration, surveillance, propaganda, public-budget pressure, and regulatory-capacity gaps as governance risks; it does not observe a specific state response",
+      "person_or_actor_with_control": "Countries, governments, firms, public agencies, and individuals hold different positions in the value chain; control over models, chips, data centers, data, procurement, and enforcement is not measured for one case",
+      "remedy_or_institutional_response": "Adopt–adapt–advance policy and governance recommendations are visible, but no completed procurement correction, public-service remedy, or accountability outcome is linked",
+      "immediate_outcome": "The framework establishes a capability/dependence mechanism in which local complements and concentrated value chains jointly shape usable AI capacity",
+      "protected_outcome": "Local adaptation and public capacity could improve service or productive capability, but no realized household, worker, or state protection is measured",
+      "sacrificed_outcome": "Dependency and concentration could reduce replaceability, bargaining room, privacy, or public control, but no realized loss or affected actor is measured",
+      "cost_risk_transfer": "The report does not identify how infrastructure, capital, data, energy, governance, or correction costs transfer among firms, households, governments, and foreign suppliers",
+      "later_outcome": "No linked country capability, public-service quality, outage/switching, alliance, trade, bargaining, or geopolitical behavior outcome is observed",
+      "meaning_and_attribution": "The framework makes control, dependency, and capability political questions but does not measure public legitimacy, trust, blame, or identity in a named episode",
+      "public_or_collective_response": "Policy recommendations and governance categories are reported; public action, regulatory enforcement, supplier response, and external actor behavior remain open",
+      "counterexample": "Imported tools can deliver useful capability without frontier-model production, and concentration can lower entry costs even while dependency risk persists",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "World Bank analytical framework and report synthesis; no single effect size, US estimate, supplier concentration measure, or realized geopolitical response is established",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2026"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "WORLD-BANK-AI-A-01",
+      "from": "AI exposure or provider availability",
+      "to": "adoption through infrastructure, skills, institutions, data, and local fit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The report's adopt–adapt–advance framework identifies local complements as conditions for productive capability rather than treating exposure alone as adoption",
+      "status": "reported",
+      "counterexample": "Imported tools may provide useful capability without local frontier production, and complements may be present without effective adoption",
+      "remaining_gap": "Country/firm episode with adoption date, complements, task/service use, cost, and realized output"
+    },
+    {
+      "arrow_id": "WORLD-BANK-AI-A-02",
+      "from": "concentrated AI value chain",
+      "to": "dependency and reduced replaceability risk",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The report identifies concentration across hardware, infrastructure, models, and applications and names dependency as a governance risk",
+      "status": "reported",
+      "counterexample": "Open standards, procurement diversity, local adaptation, and cooperation may reduce dependency without eliminating concentration",
+      "remaining_gap": "Supplier concentration, switching time/cost, outage or substitution event, ownership/control, and affected actor"
+    },
+    {
+      "arrow_id": "WORLD-BANK-AI-A-03",
+      "from": "AI capability and public-sector deployment",
+      "to": "public-service quality, legitimacy, and household outcome",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The report lists public-service applications and a front-end evaluation gap but does not observe a service recipient outcome",
+      "status": "open",
+      "counterexample": "Back-end analytical capacity can improve while front-end access, correction, or trust remains unchanged or worsens",
+      "remaining_gap": "Named agency/service episode with procurement, staff capacity, user access, error, correction, outcome, and trust"
+    },
+    {
+      "arrow_id": "WORLD-BANK-AI-A-04",
+      "from": "domestic AI capability and infrastructure dependence",
+      "to": "state bargaining room and external response",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The report identifies political power relationships among states, firms, governments, and individuals but no dated change in another actor's choice",
+      "status": "open",
+      "counterexample": "Capability can expand while a state remains dependent, or cooperation can turn dependence into mutual benefit rather than leverage",
+      "remaining_gap": "Realized capability, replaceability, affected partner/supplier, and dated concession, refusal, substitution, or policy response"
+    },
+    {
+      "arrow_id": "WORLD-BANK-AI-A-05",
+      "from": "capability/dependence change",
+      "to": "worker, household, public legitimacy, or geopolitical consequence",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The framework supplies mechanisms and policy questions but no same-unit worker, household, public, or external response endpoint",
+      "status": "open",
+      "counterexample": "Higher capability may coexist with lower local control or burden, while dependency may coexist with useful access and welfare gains",
+      "remaining_gap": "Linked domestic incidence, institutional remedy, trust/action, and external behavior after realized capability"
+    }
+  ],
+  "boundary": "This ledger formalizes a World Bank capability/dependence framework. It does not establish a US AI adoption rate, realized public-service improvement, supplier switching cost, state bargaining leverage, household benefit, or geopolitical consequence.",
+  "storage_boundary": "Only the published World Bank framework, qualitative mechanisms, source metadata, and interpretation limits are retained; report inputs and restricted country/firms files are not stored."
+}

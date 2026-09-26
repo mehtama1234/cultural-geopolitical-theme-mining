@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-puerto-rico-grid-recovery-disbursement-stability-2017-2026",
+  "title": "Grid recovery funding can be large while disbursement, completion, and stability remain limited",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107772 review of federal support for Puerto Rico electricity-grid recovery and modernization since 2017",
+  "geography": "Puerto Rico; FEMA, HUD, DOE, PREPA, COR3, LUMA Energy, Genera PR, and approximately 1.5 million grid customers",
+  "observations": [
+    {
+      "period": "2017–2026; federal grid-recovery and modernization funding",
+      "denominator": {"value": null, "unit": "federal obligations and disbursements for Puerto Rico grid recovery; agency and project denominators differ", "value_type": "not_disclosed"},
+      "measures": {
+        "total_obligated": {"value": 14, "unit": "billion dollars obligated by FEMA, HUD, and DOE since 2017", "value_type": "reported_total"},
+        "fema_obligated": {"value": 11.1, "unit": "billion dollars obligated by FEMA", "value_type": "reported_total"},
+        "fema_disbursed": {"value": 2.7, "unit": "billion dollars disbursed from FEMA obligations", "value_type": "reported_total"},
+        "other_agency_obligations": {"value": "HUD about $2.3 billion; DOE about $937 million", "unit": "reported agency obligations", "value_type": "reported_comparison"},
+        "solar_funds_reallocated_or_canceled": {"value": 715, "unit": "million dollars originally for community and low-income household solar projects", "value_type": "reported_total"}
+      },
+      "method": "GAO review of federal and Puerto Rico documents and data, agency interviews, a site visit, and interviews with officials, contractors, and operators.",
+      "uncertainty": "Obligations and disbursements do not establish usable service, household bill effects, reliability, project completion, or equitable access; agency accounting and project stages differ.",
+      "subgroup": "Puerto Rico grid recovery and modernization, including FEMA, HUD, and DOE programs and selected utility operators.",
+      "counterinterpretation": "Slow disbursement can reflect reimbursement rules, project sequencing, review requirements, or prudent controls rather than waste; some funded capacity may be valuable before final completion.",
+      "source_url": "https://www.gao.gov/products/gao-26-107772",
+      "retrieval_hash": "sha256:e2d3726bb562823f82dba48f43d31c74601032c4bb75247569372f113cae8723",
+      "status": "reported"
+    },
+    {
+      "period": "As of February 2026; project and vegetation-clearing realization",
+      "denominator": {"value": 16000, "unit": "miles of transmission and distribution lines planned for vegetation clearing", "value_type": "reported_planned_scope"},
+      "measures": {
+        "miles_cleared": {"value": 400, "unit": "miles cleared with federal funds", "value_type": "reported_progress"},
+        "large_fema_projects_complete": {"value": 9, "unit": "large FEMA projects reported complete", "value_type": "reported_count"},
+        "clearance_share": {"value": 2.5, "unit": "percent of planned miles cleared, calculated from reported 400 and 16000", "value_type": "derived_share"},
+        "grid_stability": {"value": "limited progress in key areas; outages had become more frequent, including an almost two-day total blackout in April 2025", "unit": "reported operational context", "value_type": "reported_context"}
+      },
+      "method": "GAO comparison of planned and completed project information, stakeholder reports, and documented outage and recovery context.",
+      "uncertainty": "The mileage comparison does not measure all grid work or reliability causes; nine completed projects are not a completion rate for the full portfolio and outage frequency is not attributed to one project or agency.",
+      "subgroup": "Transmission and distribution vegetation management and selected large FEMA projects.",
+      "counterinterpretation": "Clearing miles is only one part of grid stability; generation, transmission, finance, operations, fuel, weather, and maintenance can matter independently.",
+      "source_url": "https://www.gao.gov/products/gao-26-107772",
+      "retrieval_hash": "sha256:e2d3726bb562823f82dba48f43d31c74601032c4bb75247569372f113cae8723",
+      "status": "reported"
+    },
+    {
+      "period": "2017–2026; institutional coordination and implementation conditions",
+      "denominator": {"value": 5, "unit": "GAO recommendations to FEMA and DOE on guidance, staffing, roles, and coordination", "value_type": "reported_recommendations"},
+      "measures": {
+        "implementation_barriers": {"value": "project review processes, staff turnover, complex funding, PREPA's financial condition, and uncertainty among recovery entities", "unit": "reported stakeholder and audit themes", "value_type": "reported_finding"},
+        "coordination_gap": {"value": "a formal coordination mechanism including all relevant Puerto Rico and federal entities did not exist", "unit": "governance condition", "value_type": "reported_finding"},
+        "recommendation_status": {"value": "FEMA and DOE agreed with the recommendations; implementation remains open", "unit": "agency response", "value_type": "reported_response"}
+      },
+      "method": "GAO assessment of program roles, guidance, review processes, staffing, financial conditions, and interagency coordination.",
+      "uncertainty": "A documented coordination gap does not by itself establish the size of the delay or a causal effect on any customer's outage, bill, health, business, or political judgment.",
+      "subgroup": "Federal agencies, Puerto Rico entities, PREPA, grid operators, contractors, and recovery stakeholders.",
+      "counterinterpretation": "Multiple agencies and operators can provide useful specialization; adding a formal mechanism may improve clarity without guaranteeing faster or more reliable service.",
+      "source_url": "https://www.gao.gov/products/gao-26-107772",
+      "retrieval_hash": "sha256:e2d3726bb562823f82dba48f43d31c74601032c4bb75247569372f113cae8723",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107772/index.html", "claim": "Official full GAO report provides the project, funding, disbursement, operating, and coordination detail behind this bounded record.", "status": "official-report"},
+    {"source_url": "https://www.gao.gov/products/gao-20-141", "claim": "Earlier GAO review supplies historical context on Puerto Rico grid recovery and coordination; this record does not pool its older estimates with the 2026 figures.", "status": "official-historical-context"}
+  ],
+  "boundary": "This record identifies a conversion gap between federal obligations, disbursement, project completion, grid operations, and household electricity stability. It does not establish a same-customer outage, bill, health, business, migration, trust, or political-action outcome, and it does not attribute all grid conditions to federal implementation.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for extracted aggregate and bounded progress figures; full report is linked but not retained in this record.",
+    "html_sha256": "sha256:e2d3726bb562823f82dba48f43d31c74601032c4bb75247569372f113cae8723",
+    "checked": "2026-09-22"
+  }
+}

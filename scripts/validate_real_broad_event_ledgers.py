@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 
 from validate_us_broad_event_ledger import validate
+from audit_open_middle_blockers import validate_scope as validate_open_middle_scope
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,9 +41,11 @@ def main() -> int:
         total_events += events
         total_arrows += arrows
         print(f"VALID {path_text}: {events} event(s), {arrows} arrow(s), class={evidence_class}")
+    open_scope = validate_open_middle_scope()
     print(
         f"VALID real broad event-ledger index: {len(entries)} ledgers, "
-        f"{total_events} events, {total_arrows} arrows"
+        f"{total_events} events, {total_arrows} arrows; "
+        f"open-middle scope {open_scope['open_arrow_count']} open arrows"
     )
     return 0
 

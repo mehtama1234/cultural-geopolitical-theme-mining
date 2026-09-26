@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-property-disposal-realization-2026",
+  "title": "Federal property disposal can produce realized sale proceeds while funding constraints slow the wider asset-release route",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108451 review of the Federal Assets Sale and Transfer Act temporary federal-property disposal process",
+  "geography": "United States federal civilian real property; FASTA implementation through August 2026",
+  "observations": [
+    {
+      "period": "2019-August 2026; final FASTA round expected before December 2026",
+      "denominator": {
+        "value": 23,
+        "unit": "properties recommended and approved for disposal through the 2019 and 2025 FASTA rounds",
+        "value_type": "reported_property_universe"
+      },
+      "measures": {
+        "properties_disposed": {
+          "value": 14,
+          "unit": "properties sold through the temporary disposal process as of August 2026",
+          "value_type": "reported_count"
+        },
+        "sale_proceeds": {
+          "value": 576000000,
+          "unit": "dollars in reported sale proceeds",
+          "value_type": "reported_total"
+        },
+        "disposal_route": {
+          "value": "GSA leads implementation after Board recommendation and approval; timeframes for many 2025-round properties were unclear",
+          "unit": "reported implementation status",
+          "value_type": "reported_finding"
+        },
+        "revolving_fund_constraint": {
+          "value": "proceeds can support future disposal costs, but Congress has not consistently made the fund available",
+          "unit": "reported financing and authorization condition",
+          "value_type": "reported_gap"
+        },
+        "public_capacity_endpoint": {
+          "value": "realized sale proceeds are observed; maintenance avoided, future disposal speed, service effects, and public-value outcome remain unmeasured",
+          "unit": "asset-disposition outcome boundary",
+          "value_type": "partially_observed"
+        }
+      },
+      "method": "GAO analyzed GSA disposal data from January 2020 through August 5, 2025, reviewed FASTA implementation and fund information, and conducted site visits to four selected 2025-round properties.",
+      "uncertainty": "The 14-property and $576 million figures describe the temporary FASTA process, not all federal property sales. The report does not estimate counterfactual maintenance costs, net fiscal savings, neighborhood effects, or the effect of funding availability on each property's schedule.",
+      "subgroup": "GSA, the Public Buildings Reform Board, federal agencies holding civilian properties, prospective buyers, surrounding communities, and taxpayers; individual users and local effects are not followed.",
+      "counterinterpretation": "Disposal can reduce operating and maintenance burdens and generate proceeds, but sale timing and proceeds do not by themselves establish net savings or improved public service. Delays may reflect property condition, market conditions, approvals, cost estimates, or funding rather than one bottleneck alone.",
+      "source_url": "https://www.gao.gov/products/gao-26-108451",
+      "retrieval_hash": "sha256:62771e678361ceb5cc3d958001d97974a71e61df9c323dbc16d70c6d6244aff5; full-report:sha256:e1a8adc3ed8151a929ce9a97c8c62fcceea59cf117142ee6eadb1dfa9c2d06f3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/reports/GAO-26-108451/index.html",
+      "claim": "Official GAO full report provides the FASTA property, proceeds, timing, funding, and site-visit evidence.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record establishes realized disposals and proceeds within the FASTA process plus a funding constraint on future implementation. It does not establish net federal savings, neighborhood welfare, public-service effects, or the success of the remaining disposal pipeline."
+}

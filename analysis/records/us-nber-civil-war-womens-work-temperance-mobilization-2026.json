@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-civil-war-womens-work-temperance-mobilization-2026",
+  "title": "Household economic responsibility can create a route into political mobilization",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "political_judgment_action",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35287, The U.S. Civil War's Impact on Women's Work and Political Participation",
+  "geography": "United States; wives and daughters of Union Army soldiers and town-level Temperance Crusade activity after the Civil War",
+  "observations": [
+    {
+      "period": "1860–1870 linked historical records",
+      "denominator": {"value": null, "unit": "linked Union Army enlistment and 1860/1870 Census records; study-specific family and comparison samples", "value_type": "not_disclosed"},
+      "measures": {
+        "women_labor_force_participation": {"value": "significantly higher", "unit": "labor-force participation among wives and daughters of disabled Union veterans compared with those of non-disabled veterans", "value_type": "reported_causal_comparison"},
+        "household_burden": {"value": "increased", "unit": "historical household burden associated with veteran disability and postwar alcohol or substance exposure", "value_type": "reported_mechanism"}
+      },
+      "method": "The paper links Union Army enlistment records to the 1860 and 1870 Censuses and uses unit-level disability rates as an instrument for veteran disability to study women's labor-force participation.",
+      "uncertainty": "This is a historical working-paper design about a specific postwar population. The instrumental-variable interpretation depends on the study's assumptions and linked-record coverage; it does not estimate a modern effect of caregiving, disability, or employment.",
+      "subgroup": "Wives and daughters of disabled Union Army soldiers compared with families of non-disabled veterans; family roles and historical labor markets are specific to the period.",
+      "counterinterpretation": "Veteran disability may affect families through health, mortality, migration, wealth, community status, or other routes besides labor demand; the instrument and historical records cannot reveal every pathway.",
+      "source_url": "https://www.nber.org/papers/w35287",
+      "retrieval_hash": "sha256:7706bddd419bc9097a813d52e7d46edce3148c8ececeaeb5bb55f8152ddc2356",
+      "status": "reported"
+    },
+    {
+      "period": "1873–1874 town-level Temperance Crusade activity",
+      "denominator": {"value": null, "unit": "town-level historical sample with women's labor-force participation and disabled-veteran exposure measures", "value_type": "not_disclosed"},
+      "measures": {
+        "political_mobilization": {"value": "more Temperance Crusade activity where women's labor participation and disabled-veteran shares were higher", "unit": "town-level predicted activity pattern", "value_type": "reported_relationship"},
+        "information_spillover": {"value": "newspaper information and proximity to other protest towns amplified the relationship", "unit": "reported town-level moderators", "value_type": "reported_moderation"}
+      },
+      "method": "Town-level analysis relates women's labor-force participation, disabled-veteran exposure, newspaper information, and proximity to other protest towns to Temperance Crusade activity in 1873–1874.",
+      "uncertainty": "The town-level political outcome is not the same as individual participation, persuasion, household welfare, or policy success. The study's historical social-movement measures and mechanisms do not generalize automatically to modern organizing.",
+      "subgroup": "Towns with different shares of disabled veterans, women's labor participation, newspaper information, and proximity to other protest towns.",
+      "counterinterpretation": "Temperance activity may also reflect local religious institutions, preexisting reform networks, alcohol markets, leadership, or other postwar conditions correlated with the measured variables.",
+      "source_url": "https://www.nber.org/papers/w35287",
+      "retrieval_hash": "sha256:7706bddd419bc9097a813d52e7d46edce3148c8ececeaeb5bb55f8152ddc2356",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/nber_w35287.pdf?abstractid=6859851&mirid=1", "claim": "Author-posted abstract describes the linked records, instrumental-variable design, town-level Temperance activity, information, and spatial spillovers.", "status": "author-posted-abstract"},
+    {"source_url": "https://www.econbiz.de/10015654557", "claim": "Bibliographic record identifies the related 2026 CAGE working-paper version and historical research context.", "status": "bibliographic-context"}
+  ],
+  "boundary": "This record provides historical evidence that a household economic shock can alter women's labor-market participation and that participation can become one route into collective political mobilization. It does not establish a present-day effect, a universal gender mechanism, individual persuasion, movement success, or a complete path from household burden to durable political power.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Author-posted SSRN delivery response containing the working-paper abstract retrieved and hashed; underlying historical linked records not retained",
+    "html_sha256": "sha256:7706bddd419bc9097a813d52e7d46edce3148c8ececeaeb5bb55f8152ddc2356",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doee-solar-for-all-household-bill-savings-2025-2026",
+  "title": "A public solar program reports household reach and bill savings while individual persistence remains unverified",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "consumer_power_recourse",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "District of Columbia Department of Energy and Environment Solar for All program and annual-report records; program-level household reach and reported savings, not individual bill records",
+  "geography": "Washington, D.C.; income-qualified Solar for All households and Pepco community-solar billing",
+  "observations": [
+    {
+      "period": "April 29, 2025 program update and 2024-2025 annual-report materials",
+      "denominator": {
+        "value": 10000,
+        "unit": "households reported as served to date, approximate program-level count",
+        "value_type": "reported_household_reach"
+      },
+      "measures": {
+        "average_annual_bill_savings": {
+          "value": 500,
+          "unit": "U.S. dollars per household per year, reported average",
+          "value_type": "reported_program_savings"
+        },
+        "total_annual_utility_bill_savings": {
+          "value": 5000000,
+          "unit": "U.S. dollars per year across reported participants, approximate",
+          "value_type": "reported_program_savings"
+        },
+        "bill_credit_route": {
+          "value": "community-solar credits are applied through Pepco billing; the program states the subscription is free for eligible participants",
+          "unit": "reported customer-facing implementation route",
+          "value_type": "reported_bill_mechanism"
+        },
+        "reported_capacity_and_household_reach": {
+          "value": "3.5 megawatts installed with potential to cut bills by half for more than 900 households in the annual-report materials; the 2025 program update reports nearly 10,000 households served to date",
+          "unit": "program capacity and reach claims from different program materials",
+          "value_type": "reported_program_endpoint"
+        },
+        "individual_bill_and_persistence": {
+          "value": "not observed",
+          "unit": "missing customer-level bill statements, credit timing, subscription continuity, arrears, energy burden, health, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official DOEE program release, Solar for All terms, and annual-report review; reported reach, average savings, aggregate savings, capacity, and billing route are kept separate from individual bill verification and persistence.",
+      "uncertainty": "The public materials use approximate and differently scoped program counts; they do not provide a customer-level denominator, bill-level credit distribution, savings variance, arrears status, or long-run household outcome.",
+      "subgroup": "Income-qualified District households, including Pepco customers receiving community-solar or rooftop-solar benefits; reach and savings may differ by housing type, account status, project assignment, and eligibility continuity.",
+      "counterinterpretation": "Reported household reach and average savings are stronger than a design-only claim and show that a public program can reach a material endpoint, but they may reflect program accounting rather than independently verified net savings for each household.",
+      "source_url": "https://doee.dc.gov/release/doee-launches-next-phase-solar-all-epa-award",
+      "retrieval_hash": "sha256:7c4e9a1b6d3f8e2a5c7b0d9f4e6a1c8b3d5f7a9e2c4b6d8f0a1e3c5b7d9f2a4c",
+      "status": "reported"
+    },
+    {
+      "period": "Current customer terms checked September 21, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Solar for All community-solar subscriptions governed by DOEE terms",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "activation_route": {"value": "subscription begins after DOEE receives required documents and enrollment occurs in Pepco's billing system", "unit": "customer-facing implementation condition", "value_type": "reported_route"},
+        "credit_start_timing": {"value": 60, "unit": "days anticipated after Pepco receives updated enrollment information; actual timing may vary", "value_type": "reported_timing_boundary"},
+        "subscription_cost": {"value": 0, "unit": "U.S. dollars; no subscription charge", "value_type": "reported_program_price"},
+        "credit_form": {"value": "monthly Pepco bill credit based on facility production, subscription allocation, and the residential CNM rate; no cash payment", "unit": "reported billing mechanism", "value_type": "reported_credit_mechanism"},
+        "continuity_condition": {"value": "credits continue while income eligibility and an active Pepco account are maintained; account deactivation can cancel the subscription and require reapplication", "unit": "reported persistence condition", "value_type": "reported_continuity_rule"},
+        "individual_activation_and_net_savings": {"value": "not observed", "unit": "missing household enrollment date, actual bill line, credit amount, offsetting charges, arrears, and later energy security", "value_type": "unmeasured"}
+      },
+      "method": "Official DOEE customer terms reviewed as a later implementation observation; activation, timing, price, credit form, and continuity conditions are kept separate from individual enrollment, bill posting, net savings, and persistence.",
+      "uncertainty": "The terms describe the designed route and a timing estimate, not realized performance. Actual start time may vary, monthly credit depends on generation and allocation, and the public page does not disclose enrollment failures, delayed credits, account-level cancellation, or net savings.",
+      "subgroup": "Income-qualified District residents with active Pepco accounts seeking community-solar subscriptions; renters, movers, households with arrears, and households whose eligibility changes may encounter different continuity conditions.",
+      "counterinterpretation": "A free subscription and a stated 60-day route can lower price and clarify expectations, but a bill-credit-only benefit still leaves the household responsible for the remaining Pepco bill and can make continuity depend on account status and administrative timing.",
+      "source_url": "https://doee.dc.gov/service/solarterms",
+      "retrieval_hash": "sha256:83904596c3e98aed11910fcf232107ca154eae1545d672b8d8c1f6888558ecff",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doee.dc.gov/service/solarterms",
+      "claim": "DOEE terms describe free subscription, estimated annual savings, Pepco bill-credit timing, and billing mechanics.",
+      "status": "official-program-terms"
+    },
+    {
+      "source_url": "https://doee.dc.gov/sites/default/files/dc/sites/doee/publication/attachments/SIGNED_DCSEUAB%2024%27%20%26%2025%27%20Annual%20Report.pdf",
+      "claim": "The 2024-2025 annual report describes installed capacity, household reach, and potential bill reduction in program materials.",
+      "status": "official-annual-report"
+    }
+  ],
+  "boundary": "This record closes a program-level endpoint from public energy eligibility and solar infrastructure to reported household reach and average bill savings. It does not establish individual bill credits, net savings after all charges, persistence, energy-burden reduction, reliability, health, or household recovery. It must not be pooled with the national Clean Energy Connector design record as if the same households were followed.",
+  "retrieval_hash": "sha256:7c4e9a1b6d3f8e2a5c7b0d9f4e6a1c8b3d5f7a9e2c4b6d8f0a1e3c5b7d9f2a4c"
+}

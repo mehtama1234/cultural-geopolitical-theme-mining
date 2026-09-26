@@ -1,0 +1,109 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-iija-ira-funding-obligation-disbursement-review-2022-2026",
+  "title": "Infrastructure and climate funding moves through a wide obligation-to-disbursement gap and politically variable award review",
+  "theme_ids": ["cost", "time", "energy", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-108434 review of selected EPA, Interior, NTIA, and DOT Infrastructure Investment and Jobs Act and Inflation Reduction Act funding, fiscal years 2022-2025 with review-status dates through February 2026",
+  "geography": "United States federal infrastructure, telecommunications, transportation, environmental, and interior programs",
+  "observations": [
+    {
+      "period": "Fiscal years 2022-2025; selected agencies' IIJA and IRA funding status",
+      "denominator": {
+        "value": 4,
+        "unit": "selected federal agencies: EPA, Interior, NTIA, and DOT",
+        "value_type": "agency_coverage"
+      },
+      "measures": {
+        "iija_budget_authority": {
+          "value": 574.7,
+          "unit": "billions of U.S. dollars in IIJA budget authority included in the selected-agency review",
+          "value_type": "reported_budget_authority"
+        },
+        "iija_obligated": {
+          "value": 434.2,
+          "unit": "billions of U.S. dollars; 76% of selected-agency IIJA budget authority",
+          "value_type": "reported_obligation"
+        },
+        "iija_disbursed": {
+          "value": 235.6,
+          "unit": "billions of U.S. dollars; 54% of obligated IIJA funds and 41% of budget authority",
+          "value_type": "reported_disbursement"
+        },
+        "iija_agency_variation": {
+          "value": "EPA: $60.9 billion authority, $38.7 billion obligated, $12.2 billion disbursed; Interior: $28.3 billion, $12.6 billion, $7.1 billion; NTIA: $47.7 billion, $45.1 billion, $1.1 billion; DOT: $437.8 billion, $337.8 billion, $215.2 billion",
+          "unit": "billions of U.S. dollars by selected agency",
+          "value_type": "reported_agency_comparison"
+        },
+        "ira_obligation_disbursement": {
+          "value": "Of $53.7 billion in IRA authority for EPA, Interior, and DOT, $38.8 billion was obligated (72%) and $23.3 billion disbursed (60% of obligated funds; 43% of authority)",
+          "unit": "billions of U.S. dollars and shares",
+          "value_type": "reported_budget_execution"
+        }
+      },
+      "method": "GAO analysis of statutes, agency accounting data, USAspending.gov, agency policies and guidance, review-status data, and interviews; the audit selected four agencies with among the highest combined IIJA and IRA funding and retained agency-specific data vintages.",
+      "uncertainty": "The selected agencies are not the entire federal portfolio. Data dates differ, especially for NTIA, which did not provide a full fiscal-year 2025 obligation and disbursement update. Obligations and reported disbursements are administrative stages and may not equal completed infrastructure, recipient use, or public benefit.",
+      "subgroup": "EPA, Interior, NTIA, and DOT, with agency and program variation; no respondent-level denominator is used.",
+      "counterinterpretation": "A low disbursement share may reflect project timing, statutory obligation schedules, environmental review, or awards not yet at implementation rather than administrative failure. Conversely, a reported disbursement may not mean funds were usable by recipients, as GAO notes for nearly $20 billion associated with EPA Greenhouse Gas Reduction Fund programs held at a private financial agent and subject to litigation.",
+      "source_url": "https://www.gao.gov/products/gao-26-108434",
+      "retrieval_hash": "sha256:93d8ba5650488bfccc6c114380e5c6600e7b0d84f89e113ce7f284f350c2df9c",
+      "status": "reported"
+    },
+    {
+      "period": "January 2025-February 2026; agency review and award-status pathway",
+      "denominator": {
+        "value": 4,
+        "unit": "selected federal agencies reporting review processes and award status",
+        "value_type": "agency_coverage"
+      },
+      "measures": {
+        "reviewed_awards": {
+          "value": "About 9,500 awards totaling more than $128 billion were approved, with or without modification",
+          "unit": "awards and billions of U.S. dollars",
+          "value_type": "reported_review_outcome"
+        },
+        "pending_awards": {
+          "value": "2,528 awards totaling about $33.6 billion had no final decision as of dates ranging from June 2025 to February 25, 2026",
+          "unit": "awards and billions of U.S. dollars",
+          "value_type": "reported_pending_status"
+        },
+        "canceled_awards": {
+          "value": "About 800 awards totaling about $17.8 billion were reported canceled; cancellation includes terminated, rescinded, withdrawn, or discontinued awards",
+          "unit": "awards and billions of U.S. dollars",
+          "value_type": "reported_review_outcome"
+        },
+        "review_process_variation": {
+          "value": "Three of four agencies developed new review processes after January 20, 2025; three paused some obligations or disbursements, while NTIA continued obligating and disbursing during review and DOT continued disbursing already-obligated awards but held announced unobligated awards pending approval",
+          "unit": "agency process comparison",
+          "value_type": "reported_process_comparison"
+        },
+        "ira_rescissions": {
+          "value": "At least $6.4 billion of the $53.7 billion in selected-agency IRA authority was reported rescinded, including $2.3 billion for DOT Neighborhood Access and Equity, $479 million for EPA Environmental and Climate Justice Block Grants, and $414 million for Interior National Park Service hiring",
+          "unit": "billions of U.S. dollars and named program amounts",
+          "value_type": "reported_rescission"
+        }
+      },
+      "method": "GAO comparison of agency-reported funding reviews, approval, modification, cancellation, pending status, pauses, and rescissions, with agency interviews and documentation review.",
+      "uncertainty": "Review-status dates vary by agency and some status data could not be independently corroborated beyond agency reporting. Canceled, pending, approved, and modified awards are not equivalent to completed projects, and the report does not measure effects on recipients, construction, service access, emissions, or local economies.",
+      "subgroup": "Agency review processes and award categories; the observation preserves the implementation and governance stages rather than pooling them into a single completion rate.",
+      "counterinterpretation": "Approval of most reviewed funding can coexist with substantial pending or canceled awards because review scope, award timing, and program structure differ. A pause or rescission can change timing and authority without showing whether the underlying project would have produced public value.",
+      "source_url": "https://www.gao.gov/products/gao-26-108434",
+      "retrieval_hash": "sha256:93d8ba5650488bfccc6c114380e5c6600e7b0d84f89e113ce7f284f350c2df9c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a federal infrastructure implementation and review-governance layer. It does not infer completed construction, recipient-level receipt, service access, project quality, emissions, jobs, local economic effects, environmental justice, or public benefit from budget authority, obligations, disbursements, approvals, cancellations, or pending status.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO full report PDF retrieved from the official GAO report file; selected-agency funding totals, agency comparisons, review outcomes, process variation, rescissions, and administrative-stage boundaries cross-checked against the report.",
+    "html_index_sha256": "sha256:56f8d3a7a266075b6d043532637d55e0395bc0e47468e3706535e8f82a7a2b02",
+    "checked": "2026-09-26"
+  }
+}

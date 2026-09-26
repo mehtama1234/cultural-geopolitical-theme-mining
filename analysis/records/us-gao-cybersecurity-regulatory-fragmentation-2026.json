@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-cybersecurity-regulatory-fragmentation-2026",
+  "title": "Overlapping cybersecurity rules can shift critical-infrastructure capacity into redundant compliance and incident reporting",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "consumer_power_recourse",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office panel-based review of cybersecurity-regulation harmonization across critical-infrastructure sectors",
+  "geography": "United States; federal and nonfederal critical infrastructure, with industry perspectives gathered across selected sectors",
+  "observations": [
+    {
+      "period": "September 2025 panel; report published March 2026",
+      "denominator": {
+        "value": 7,
+        "unit": "industry representatives participating in GAO's panel discussion",
+        "value_type": "selected_panel_universe"
+      },
+      "measures": {
+        "regulatory_overlap": {
+          "value": "participants reported potentially burdensome and duplicative cybersecurity requirements across multiple regulatory frameworks",
+          "unit": "reported industry perspective",
+          "value_type": "reported_finding"
+        },
+        "definition_and_control_conflict": {
+          "value": "similar controls and reporting requirements can differ in small ways across federal frameworks, creating overlap and confusion",
+          "unit": "reported regulatory condition",
+          "value_type": "reported_finding"
+        },
+        "incident_reporting_burden": {
+          "value": "different reporting detail, time frames, and thresholds can make rapid incident reporting technically burdensome",
+          "unit": "reported operational burden",
+          "value_type": "reported_finding"
+        },
+        "coordination_progress": {
+          "value": "of 12 earlier GAO recommendations to improve federal coordination, agencies had implemented 11 and partially addressed one",
+          "unit": "recommendations and implementation status",
+          "value_type": "reported_count"
+        },
+        "proposed_governance_tools": {
+          "value": "participants identified deconflicting rules, standardizing terminology, shared metrics, a federal working group, confidential information sharing, and streamlined incident reporting as possible improvements",
+          "unit": "policy options discussed",
+          "value_type": "reported_option_set"
+        }
+      },
+      "method": "GAO summary of a panel discussion with seven industry representatives from different critical-infrastructure sectors, supplemented by prior GAO work and agency materials.",
+      "uncertainty": "The panel is a selected industry perspective, not a prevalence estimate or causal test. The report does not quantify compliance hours, dollars, breach reduction, reporting quality, consumer harm, or security improvement.",
+      "subgroup": "Privately owned critical-infrastructure operators, federal and state agencies, cybersecurity and legal/compliance teams, incident reporters, and communities dependent on the services.",
+      "counterinterpretation": "Multiple rules can reflect real sector-specific risks, and harmonization may improve consistency without reducing substantive safeguards; burden reports do not prove that regulation caused an incident or weakened security.",
+      "source_url": "https://www.gao.gov/products/gao-26-108685",
+      "retrieval_hash": "sha256:3b7052acbdc49194d2176017c04f0d07c875c41f6436347d2988b61f1dbe6136",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-108685.pdf",
+      "claim": "Full GAO report on cybersecurity-regulation harmonization.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record establishes a selected industry-reported regulatory-fragmentation and incident-reporting burden pathway. It does not establish the national prevalence of overlap, reduced cybersecurity, an incident, consumer loss, compliance cost, or the effectiveness of harmonization.",
+  "retrieval_hash": "sha256:3b7052acbdc49194d2176017c04f0d07c875c41f6436347d2988b61f1dbe6136"
+}

@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "ftc_court_and_refund_multisided_platform_record",
+  "purpose": "Bounded Grubhub route from alleged platform conduct through worker, diner, and restaurant remedy stages, preserving group-specific receipt, restoration, implementation, switching, trust, and exit gaps.",
+  "events": [
+    {
+      "event_id": "FTC-GRUBHUB-MULTISIDED-REMEDY-2026",
+      "unit": "case",
+      "geography": "United States federal and Illinois consumer-protection enforcement involving Grubhub drivers, diners, and restaurants",
+      "actor_initiating_change": "platform",
+      "event_date": "2026-08-01",
+      "date_precision": "2024-12-31 court-entered order and August 2026 payment administration; exact participant exposure dates are not retained",
+      "denominator": "640,038 identified consumers sent checks or PayPal payments; drivers and diners are not separated and restaurants are a distinct prospective-control group",
+      "method": "FTC court-entered order, refund-program page, payment announcement, and active program listing; court payment, administrator distribution, and recipient acceptance are separate stages",
+      "missingness": "Individual exposure, amount, group, payment receipt, account correction, restored income/visibility, implementation quality, alternatives, continued use, switching, trust, and exit are not retained",
+      "condition_or_decision": "service_failure",
+      "exposure": "FTC and Illinois alleged deceptive driver-earnings claims, blocked diner accounts or gift-card funds, hidden delivery-cost presentation, and restaurant listings without permission",
+      "alternatives_before_action": "Alternative platforms, restaurants, delivery routes, payment methods, account remedies, and worker income options are not observed for affected units",
+      "immediate_burden_or_benefit": "Potential worker income, diner price/account, and restaurant listing/consent harms are named, but individual losses and counterfactual choices are not measured",
+      "choice_or_response": "The court-entered order records a $140 million judgment, $24.8 million FTC payment, $200,000 Illinois contribution, and prospective driver-pay, account-dispute, fee, cancellation, and restaurant-consent controls; FTC later reports more than $23.8 million sent in 640,038 payments",
+      "person_or_actor_with_control": "Grubhub controlled platform claims, account/listing rules, fees, and pay presentation; FTC, Illinois, the court, administrator, drivers, diners, and restaurants hold different response powers",
+      "remedy_or_institutional_response": "Court authority, administrator-sent checks/PayPal payments, cash-in/acceptance windows, and prospective operational controls are reported; individual cashing and correction are not verified",
+      "immediate_outcome": "The record closes a visible multi-sided institutional-response stage while leaving lived recovery and practical exit open",
+      "protected_outcome": "Money and contestability/consent controls may protect some consumers, workers, or restaurants, but restored access, income, or visibility is not observed",
+      "sacrificed_outcome": "Residual loss, blocked access, lost earnings, or lost listing visibility may remain, but individual adequacy and durability are not measured",
+      "cost_risk_transfer": "The record does not identify whether platform costs, payment loss, dispute effort, or compliance burden transfer among users, restaurants, Grubhub, or public institutions",
+      "later_outcome": "No linked continued use, switching, alternative income/sales, trust, collective action, or exit is observed",
+      "meaning_and_attribution": "The case creates formal accountability and contestability signals, but affected users' fairness, dignity, blame, and trust interpretations are not measured",
+      "public_or_collective_response": "Enforcement and court response are observed; group-specific complaints, organizing, later policy response, and market substitution are not linked",
+      "counterexample": "Aggregate payment can resolve some monetary loss while leaving account access, platform visibility, or worker opportunity unchanged; formal controls may not be used or enforced consistently",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official FTC/Illinois enforcement and refund-program records; group denominators, recipient receipt, and downstream outcomes are not public in the checked materials",
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-sends-more-238-million-drivers-diners-harmed-grubhubs-deceptive-earnings-claims-other"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FTC-GRUBHUB-A-01",
+      "from": "platform design or earnings/account/listing conduct",
+      "to": "driver, diner, or restaurant exposure",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The court and FTC materials name distinct alleged driver, diner, and restaurant conduct and remedies",
+      "status": "reported",
+      "counterexample": "The public record does not establish individual exposure, amount, prevalence, or the counterfactual platform choice",
+      "remaining_gap": "Group-specific participant, account, income, price, listing, and alternative records"
+    },
+    {
+      "arrow_id": "FTC-GRUBHUB-A-02",
+      "from": "enforcement and court order",
+      "to": "aggregate redress and prospective platform controls",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The order records monetary judgment/payment and controls; FTC reports more than $23.8 million sent to 640,038 identified consumers",
+      "status": "reported",
+      "counterexample": "Court authority and administrator-sent payments are not individual receipt, correction, or implementation quality",
+      "remaining_gap": "Group-specific allocation, administrator completion, control use, enforcement, and recipient outcome"
+    },
+    {
+      "arrow_id": "FTC-GRUBHUB-A-03",
+      "from": "payment sent or control offered",
+      "to": "individual cashing, account/income/visibility restoration, or protected outcome",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The public program provides cash-in or acceptance windows but does not report individual cashing, PayPal acceptance, account correction, restored income, or restaurant visibility",
+      "status": "open",
+      "counterexample": "Recipients may cash payments without using dispute controls, or controls may restore access without restoring income or sales",
+      "remaining_gap": "Individual receipt, correction, adequacy, durability, and group-specific material outcome"
+    },
+    {
+      "arrow_id": "FTC-GRUBHUB-A-04",
+      "from": "prospective pay, account, fee, cancellation, or consent control",
+      "to": "continued platform use, worker bargaining, restaurant visibility, or diner access",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Operational controls are required or reported, but no affected-unit implementation or later platform-use outcome is linked",
+      "status": "open",
+      "counterexample": "A contestability rule can exist while users lack time, knowledge, or alternatives to use it",
+      "remaining_gap": "Control invocation, response time, alternative quality, continued use, sales/earnings, and dependence"
+    },
+    {
+      "arrow_id": "FTC-GRUBHUB-A-05",
+      "from": "multi-sided remedy",
+      "to": "trust, switching, collective action, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The enforcement record ends at institutional remedy and aggregate distribution, with no linked trust, switching, organizing, or exit measure",
+      "status": "open",
+      "counterexample": "Payment or formal accountability may coexist with continued dependence, while non-switching may reflect cost or lack of alternatives rather than trust",
+      "remaining_gap": "Later group-specific meaning, alternative use, switching, repeat exposure, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes a multi-sided platform-remedy response across drivers, diners, and restaurants. It does not establish group-specific harm, individual receipt, restored income/access/visibility, implementation quality, switching, trust, or exit.",
+  "storage_boundary": "Only official FTC/Illinois court and refund-program aggregates, stage metadata, and interpretation limits are retained; raw recipient, account, payment, and platform records are not stored."
+}

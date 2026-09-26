@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-american-indian-heterogeneity-human-capital-2026",
+  "title": "American Indian outcomes require disaggregated measurement of place, history, governance, and identity",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility"
+  ],
+  "source_unit": "NBER Working Paper 35730, a methodological and historical essay on economic, educational, health, and human-capital heterogeneity among American Indians",
+  "geography": "United States; American Indian populations and descendants of later arrivals, with urban-rural, tribal, resource, and historical-policy distinctions",
+  "observations": [
+    {
+      "period": "Paper issued September 2026; historical and contemporary measurement and policy context",
+      "denominator": {
+        "value": 1,
+        "unit": "NBER methodological and historical essay; no single pooled population estimate",
+        "value_type": "source_unit"
+      },
+      "measures": {
+        "outcome_heterogeneity": {
+          "value": "substantial",
+          "unit": "variation in economic, educational, and health outcomes across American Indian populations",
+          "value_type": "reported_pattern"
+        },
+        "structural_dimensions": {
+          "value": "multiple",
+          "unit": "urban-rural location, resource endowments, tribal governance, and historical experiences with federal policy",
+          "value_type": "reported_dimensions"
+        },
+        "historical_policy_persistence": {
+          "value": "negative long-lasting effects",
+          "unit": "forced relocation, boarding schools, and assimilation policies on human-capital development and intergenerational mobility",
+          "value_type": "reported_historical_interpretation"
+        },
+        "self_governance_and_development": {
+          "value": "improvements in some areas",
+          "unit": "recent outcomes where tribes exercise greater self-governance and implement economic-development strategies",
+          "value_type": "reported_pattern"
+        },
+        "measurement_boundary": {
+          "value": "one-size-fits-all analysis is inadequate",
+          "unit": "racial and tribal identification, changing definitions, and data limitations can obscure trends and policy effectiveness",
+          "value_type": "reported_methodological_requirement"
+        }
+      },
+      "method": "Methodological and historical synthesis of economic, educational, health, and human-capital evidence, emphasizing identification, tribal and racial classification, geography, historical policy, and governance heterogeneity.",
+      "uncertainty": "This paper is an essay and measurement critique rather than a single causal estimate or new pooled population survey. The abstract does not provide one common denominator, effect size, or policy evaluation across all American Indian populations; tribal identity, data coverage, and changing definitions limit direct comparison.",
+      "subgroup": "American Indian populations and descendants of later arrivals, differentiated by tribal affiliation, urban or rural location, resource endowments, historical exposure, self-governance, and economic-development strategy; these groups must not be pooled without an explicit estimand.",
+      "counterinterpretation": "Disaggregation can improve accuracy but may reduce comparability, sample size, privacy, and policy simplicity. Differences may reflect selection, geography, reporting, or institutional measurement as well as historical policy, and self-governance capacity is not uniform across tribes.",
+      "source_url": "https://www.nber.org/papers/w35730",
+      "retrieval_hash": "sha256:e6862e6f5a27df2d056a81b5d84300b9385e1bfa8da6387160eaf69bd6ada8a4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35730",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a measurement and governance boundary: American Indian outcomes are heterogeneous and historically conditioned, and data definitions can obscure both disparities and improvement. It does not provide a single causal estimate, rank tribes, establish current policy effectiveness, or substitute for tribal-specific evidence and sovereignty-aware interpretation."
+}

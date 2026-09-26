@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-environmental-lender-liability-pollution-1992-1999",
+  "title": "Changing who bears environmental cleanup risk changes firms' pollution and loan terms",
+  "theme_ids": ["cost", "work", "voice", "energy"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "CES-26-05 using EPA environmental data matched to Census establishment and firm microdata and Dealscan loan records",
+  "geography": "United States; establishments inside and outside the Eleventh Circuit before and after the 1996 federal Lender Liability Act",
+  "observations": [{
+    "period": "1992-1999 establishment and loan outcomes around the 1996 Lender Liability Act; paper published January 2026",
+    "denominator": {"value": 1, "unit": "study-defined establishment-chemical-year and loan-facility-year universes", "value_type": "study_defined_multiple_universes"},
+    "measures": {
+      "pollution": {"value": "After lender environmental liability was narrowed, treated establishments increased on-site CERCLA pollution by about 15% on the intensive margin and 2% on the extensive margin", "unit": "relative pollution estimate", "value_type": "reported_estimate"},
+      "abatement": {"value": "Treated establishments reduced process-related abatement activity by about 14.7%", "unit": "relative abatement estimate", "value_type": "reported_estimate"},
+      "unexpected_release": {"value": "Treated establishments were about 25% more likely to experience an unexpected environmental release relative to baseline", "unit": "relative release-risk estimate", "value_type": "reported_estimate"},
+      "loan_contract": {"value": "Following the legal change, secured-debt maturity increased about 17% for affected firms; higher lender liability is associated with less favorable pricing and shorter maturity that can support monitoring", "unit": "loan contract and mechanism estimates", "value_type": "reported_estimate"},
+      "economic_distortion": {"value": "The paper reports small production and employment distortions from lender environmental responsibility", "unit": "firm production and employment outcome", "value_type": "reported_relationship"},
+      "air_pollution_counterexample": {"value": "Effects are close to zero and statistically insignificant for air releases, which are outside the CERCLA contamination mechanism used in the design", "unit": "placebo or mechanism boundary", "value_type": "reported_null"}
+    },
+    "method": "The paper uses a difference-in-differences design comparing establishments inside the Eleventh Circuit, where a 1990 capacity-to-control standard had expanded lender liability, with establishments elsewhere before and after the 1996 federal Lender Liability Act. EPA, Census, and Dealscan records are linked at establishment-chemical-year and loan-facility-year levels with fixed effects and firm controls.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The legal shock identifies a specific secured-lending and CERCLA setting in 1990s establishments; it does not measure all pollution, all lenders, household exposure, local health, cleanup completion, or current sustainable-finance practice. Establishment records do not identify the same residents or workers over time.",
+    "subgroup": "Establishments by Eleventh Circuit status, secured-debt use, asset location, financial distress, chemical, industry, and pollution type; loan outcomes distinguish secured facilities and high-pollution firms.",
+    "counterinterpretation": "The estimates are consistent with lender incentives and monitoring, but other circuit-specific or post-1996 changes could matter; the paper uses pre-trends, unaffected air pollution, secured-debt intensity, and adjacent-circuit checks to strengthen the design. More favorable credit terms or longer maturity can support production while weakening environmental discipline; reported production and employment distortions do not establish worker or community wellbeing.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-05.html",
+    "retrieval_hash": "sha256:959c3dc807512f74eba0251f650dbe2b0d6ad5adbab406be2340a59f575ed6e7",
+    "status": "reported"
+  }],
+  "related_sources": [],
+  "boundary": "This record adds a bounded lender-liability-to-firm-environmental-practice pathway. It does not establish current pollution exposure, health harm, cleanup outcomes, household burden, or a universal role for finance in environmental governance."
+}

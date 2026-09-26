@@ -1,0 +1,59 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-latter-day-saints-communal-trust-volunteering-2026",
+  "title": "A strong communal institution can show high volunteering and trust while internal access remains unequal",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Pew Research Center analysis of the 2023-24 Religious Landscape Study, Tradition and Change Among Latter-day Saints in the U.S.",
+  "geography": "United States; 2023-24 Religious Landscape Study with 36,908 randomly sampled U.S. adults, including 565 current Latter-day Saints and 316 former members",
+  "observations": [
+    {
+      "period": "July 17, 2023–March 4, 2024 Religious Landscape Study",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint respondents in the RLS analysis; 414 lifelong members and 151 converts", "value_type": "published_subgroup_count"},
+      "measures": {
+        "volunteering": {"value": 72, "unit": "percent of Latter-day Saint adults reporting volunteer activity in the previous 12 months", "value_type": "published_share"},
+        "us_adult_comparison": {"value": 41, "unit": "percent of all U.S. adults reporting volunteer activity in the previous 12 months", "value_type": "published_comparison"},
+        "education_gap": {"value": "91% with a bachelor's degree or more versus 61% with less education", "unit": "volunteering share within Latter-day Saint education groups", "value_type": "published_subgroup_comparison"},
+        "regional_gap": {"value": "80% in the Mountain region versus 62% elsewhere in the U.S.", "unit": "volunteering share within Latter-day Saint regional groups", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Pew analysis of RLS survey responses, comparing current Latter-day Saints with all U.S. adults and reporting subgroup differences by education, region, and age.",
+      "uncertainty": "This is a cross-sectional religious-affiliation comparison. Volunteering is self-reported and does not identify hours, recipient, congregational versus non-congregational work, burden, or later civic action. The subgroup is not a causal sample of church participation.",
+      "subgroup": "Current Latter-day Saints, divided by education, region, and age; the study also distinguishes lifelong members, converts, and former members in its broader project.",
+      "counterinterpretation": "Age, education, geography, family structure, selection into membership, local congregation practices, and reporting differences may contribute to the observed gap. High volunteering does not prove equal social power, universal belonging, or lower burden.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-have-strong-communal-ties-and-high-social-trust/",
+      "retrieval_hash": "sha256:e7f7637f38211568617d85555ab8475f3b19437b368641a2aa9835f4e4d218d2",
+      "status": "reported"
+    },
+    {
+      "period": "July 17, 2023–March 4, 2024 Religious Landscape Study",
+      "denominator": {"value": 565, "unit": "current Latter-day Saint respondents in the RLS analysis; trust question has source-specific valid responses", "value_type": "published_subgroup_count"},
+      "measures": {
+        "generalized_trust": {"value": 48, "unit": "percent of Latter-day Saints saying most people can be trusted", "value_type": "published_share"},
+        "us_adult_comparison": {"value": 34, "unit": "percent of all U.S. adults saying most people can be trusted", "value_type": "published_comparison"},
+        "education_gap": {"value": "about 60% with a bachelor's degree versus about 40% without a college diploma", "unit": "generalized-trust share within Latter-day Saint education groups", "value_type": "published_subgroup_comparison"}
+      },
+      "method": "Pew comparison of the RLS generalized-trust question across religious groups and within the Latter-day Saint subgroup by education.",
+      "uncertainty": "Generalized trust is one survey judgment, not observed cooperation, institutional trust, political trust, or a measure of safety. The comparison is descriptive and cannot show whether communal ties caused higher trust.",
+      "subgroup": "Latter-day Saint respondents compared with other religious groups and all U.S. adults; education differences are reported within the Latter-day Saint group.",
+      "counterinterpretation": "Trust may reflect selection, family and neighborhood composition, education, region, age, or survey response patterns rather than congregation-based social infrastructure alone. A high group average can coexist with exclusion or unequal role access.",
+      "source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-have-strong-communal-ties-and-high-social-trust/",
+      "retrieval_hash": "sha256:e7f7637f38211568617d85555ab8475f3b19437b368641a2aa9835f4e4d218d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.pewresearch.org/religion/2026/09/22/latter-day-saints-have-strong-communal-ties-and-high-social-trust/", "claim": "Pew reports the RLS sample, volunteering comparison, education and regional gaps, and generalized-trust comparison.", "status": "official-survey-analysis"},
+    {"source_url": "https://www.pewresearch.org/religion/2026/09/22/tradition-and-change-among-latter-day-saints-in-the-u-s/", "claim": "Pew's broader project contains the religious, social, family, and political context for the subgroup analysis.", "status": "project-context"}
+  ],
+  "boundary": "This record shows a descriptive association between Latter-day Saint affiliation and reported volunteering and generalized trust, with important internal differences by education and region. It does not establish that religious membership caused trust or volunteering, that service was equally distributed or non-burdensome, or that the pattern produces political influence, durable belonging, or public benefit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Pew report webpage retrieved and hashed; underlying RLS microdata not retained",
+    "html_sha256": "sha256:e7f7637f38211568617d85555ab8475f3b19437b368641a2aa9835f4e4d218d2",
+    "checked": "2026-09-22"
+  }
+}

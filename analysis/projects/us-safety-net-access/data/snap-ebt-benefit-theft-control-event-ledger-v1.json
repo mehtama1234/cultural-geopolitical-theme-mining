@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_gao_snap_ebt_security_record",
+  "purpose": "Bounded GAO route from SNAP benefit issuance through EBT theft, replacement, security response, and open food-security recovery.",
+  "events": [
+    {
+      "event_id": "GAO-SNAP-EBT-BENEFIT-THEFT-2025",
+      "unit": "case",
+      "geography": "United States; state SNAP agencies and federal USDA/FNS oversight",
+      "actor_initiating_change": "unknown",
+      "event_date": "2025-09-25",
+      "date_precision": "GAO report issued September 25, 2025; replacement data cover October 1, 2022 through December 20, 2024; prevention status reviewed through May 2025",
+      "denominator": "Approved replacement claims reported by state SNAP agencies during the statutory replacement period; more than $320 million for nearly 679,000 households, not a prevalence denominator for all theft",
+      "method": "GAO review of FNS and state materials, interviews, reported replacement data, security measures, pilots, and federal oversight; claims data include only approved reported cases",
+      "missingness": "Individual recipient identity, theft date, claim effort, denial or approval timing, replacement receipt, interim food access, next-month balance, benefit adequacy, trust, reporting, and exit are not linked in the retained record",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "SNAP benefits were issued through EBT accounts exposed to skimming, cloning, phishing, algorithmic attacks, or unauthorized terminals; theft can leave recipients without means to purchase food",
+      "alternatives_before_action": "Card locking, PIN change, balance monitoring, claim filing, emergency food, borrowing, charitable food, or other household substitutions may be routes, but the public record does not identify which were feasible or used by each recipient",
+      "immediate_burden_or_benefit": "The benefit provides intended food-purchasing capacity when usable; theft removes account control and can shift detection, reporting, security, and replacement work to the recipient",
+      "choice_or_response": "States reported approved replacement claims; USDA/FNS and states pursued chip cards, mobile payments, transaction blocking, monitoring, processor controls, and fraud-prevention grants, while many recipient controls required individual action",
+      "person_or_actor_with_control": "State SNAP agencies, USDA/FNS, EBT processors, retailers, and third-party processors control parts of the payment architecture; recipients control some protective actions but do not control system security or liability rules",
+      "remedy_or_institutional_response": "Federal replacement authority covered theft through December 20, 2024; GAO recommended comprehensive assessment of state prevention measures; later theft eligibility, implementation, and recipient-level correction are not retained",
+      "immediate_outcome": "The official record establishes a recognized loss-of-control route and aggregate replacement response while leaving individual food access and recovery unresolved",
+      "protected_outcome": "Food purchasing, household nutrition, and short-term budget capacity could be protected by secure delivery and timely replacement, but no recipient-level protected outcome is verified",
+      "sacrificed_outcome": "Food access, money, time, dignity, privacy, and household stability may be sacrificed after theft; the aggregate record does not measure the individual trade-off",
+      "cost_risk_transfer": "Security and replacement design can transfer fraud, monitoring, administrative, and food-gap risk between recipients, states, federal agencies, processors, retailers, and households; the public record does not quantify who bears it",
+      "later_outcome": "No same-recipient replacement receipt, interim food route, next-month security, repeat theft, durable food access, household recovery, or exit is observed",
+      "meaning_and_attribution": "A recipient may interpret theft as personal exposure, retailer or processor failure, government failure, or an incentive to monitor more closely; blame, fairness, trust, and attribution are not measured",
+      "public_or_collective_response": "GAO oversight, FNS pilots, state prevention measures, and an assessment recommendation are observed; recipient organizing, complaints, political action, and later program behavior are not linked",
+      "counterexample": "Approved replacement claims do not represent all theft, and a recipient may recover through food or cash substitution even when a claim is not filed; theft data cannot establish a food-insecurity rate or agency-wide failure",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official GAO review of SNAP EBT theft prevention; replacement data are limited to approved claims during a statutory period, may omit unknown or unfiled theft, and do not establish individual receipt or recovery",
+      "source_url": "https://www.gao.gov/products/gao-25-107964"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-SNAP-EBT-A-01",
+      "from": "SNAP benefit issuance",
+      "to": "EBT account theft and loss of food-purchasing control",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO documents skimming, cloning, phishing, algorithmic attacks, and unauthorized terminals that can take control of EBT accounts and leave recipients without means to purchase food",
+      "status": "reported",
+      "counterexample": "The report documents mechanisms and recognized cases but does not estimate all recipients exposed or attribute every food-access problem to EBT theft",
+      "remaining_gap": "Recipient-level theft date, account balance, food gap, and responsible channel"
+    },
+    {
+      "arrow_id": "GAO-SNAP-EBT-A-02",
+      "from": "reported stolen SNAP benefits",
+      "to": "approved replacement response",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "States reported replacing more than $320 million in stolen benefits for nearly 679,000 households during October 1, 2022 through December 20, 2024",
+      "status": "reported",
+      "counterexample": "The data include only approved claims, some recipients may not know to file, and federal replacement authority was time-limited; aggregate replacement is not individual receipt",
+      "remaining_gap": "Claim timing, decision, replacement issuance, delivery, cash/use, and rejected or unfiled claims"
+    },
+    {
+      "arrow_id": "GAO-SNAP-EBT-A-03",
+      "from": "EBT theft exposure",
+      "to": "recipient security work and system modernization",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO reports recipient lock/PIN tools and federal/state chip-card, mobile-payment, transaction-blocking, processor, and monitoring efforts",
+      "status": "reported",
+      "counterexample": "A security control can reduce theft while adding steps, access friction, false positives, or cross-state and online-use constraints",
+      "remaining_gap": "Recipient usability, accessibility, false blocks, protection effectiveness, and effort/time cost"
+    },
+    {
+      "arrow_id": "GAO-SNAP-EBT-A-04",
+      "from": "replacement or security response",
+      "to": "restored food access and durable household security",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The public review reports aggregate replacements and prevention measures but no same-recipient food, cash, balance, or next-month outcome",
+      "status": "open",
+      "counterexample": "A household may use charitable food, borrowing, or other resources and avoid an observed food gap, while another may remain insecure despite replacement",
+      "remaining_gap": "Replacement receipt, interim substitution, next benefit, food security, repeat theft, adequacy, and household recovery"
+    },
+    {
+      "arrow_id": "GAO-SNAP-EBT-A-05",
+      "from": "theft and replacement experience",
+      "to": "trust, reporting, continued participation, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "GAO documents oversight and prevention response but no recipient-level trust, complaint, reporting, continued use, political response, or exit outcome",
+      "status": "open",
+      "counterexample": "Continued SNAP use may reflect need and dependence rather than trust; non-reporting may reflect lack of knowledge, time, safety, or expected value",
+      "remaining_gap": "Direct recipient interpretation, reporting, repeat participation, switching food routes, trust, and exit"
+    }
+  ],
+  "boundary": "This ledger formalizes an official SNAP EBT theft and aggregate replacement route. It does not estimate theft prevalence, establish individual replacement receipt, measure a food gap, prove agency or retailer liability, or close durable food security, trust, or exit.",
+  "storage_boundary": "Only GAO-published aggregate replacement figures, security mechanisms, prevention efforts, and interpretation limits are retained; recipient transaction files and state administrative records are not stored."
+}

@@ -2,7 +2,7 @@
 
 **Search date:** 2026-09-11  
 **Geography:** United States  
-**Status:** opening pass; employer power and reported political influence are measured, the actual vote path remains open
+**Status:** bounded pass completed; employer power, reported influence, and turnout are measured at separate layers, the same-worker belief-and-vote path remains open
 
 ## Working question
 
@@ -25,6 +25,8 @@ local employer power
 ```
 
 The source supports reported influence and a proposed model of the channel. It does not establish the actual vote effect.
+
+The completed finding is [A dominant local employer can turn job dependence into political influence](findings/us-employer-political-influence-001.md).
 
 ## Counterpoint to keep visible
 

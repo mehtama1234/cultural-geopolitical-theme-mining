@@ -1,0 +1,33 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-information-source-topic-diversity-2026",
+  "title": "Americans use different information routes for different public and consumer topics",
+  "theme_ids": ["voice", "cost", "energy"],
+  "program_theme_ids": ["platforms_data_attention", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "consumer_power_recourse", "geopolitical_state_consequences"],
+  "source_unit": "Pew Research Center survey of U.S. adults, March 6-9, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "March 6-9, 2026 survey",
+      "denominator": {"value": 1, "unit": "U.S. adults; topic-specific valid percentage bases", "value_type": "survey_population"},
+      "measures": {
+        "healthcare_news_government_social_family": {"value": "37 / 18 / 13 / 13", "unit": "percent naming news media / government / social media / friends-family as main source", "value_type": "reported_topic_distribution"},
+        "elections_news_government_social_school": {"value": "37 / 21 / 14 / 12", "unit": "percent naming news media / government / social media / school as main source", "value_type": "reported_topic_distribution"},
+        "immigration_news_government_social_family": {"value": "46 / 19 / 14 / 6", "unit": "percent naming news media / government / social media / friends-family as main source", "value_type": "reported_topic_distribution"},
+        "economy_news_government_social_family": {"value": "44 / 16 / 13 / 8", "unit": "percent naming news media / government / social media / friends-family as main source", "value_type": "reported_topic_distribution"},
+        "social_security_news_government_social_family": {"value": "31 / 31 / 10 / 10", "unit": "percent naming news media / government / social media / friends-family as main source", "value_type": "reported_topic_distribution"},
+        "foreign_policy_news_government_social_family": {"value": "51 / 13 / 13 / 4", "unit": "percent naming news media / government / social media / friends-family as main source", "value_type": "reported_topic_distribution"},
+        "technology_media_regulation_news_government_social": {"value": "44 / 10 / 19", "unit": "percent naming news media / government / social media as main source", "value_type": "reported_topic_distribution"}
+      },
+      "method": "Pew Research Center topic-specific survey question asking U.S. adults for their main information source among news media, government sources, social media, friends/family/acquaintances, school/formal education, other, or no information.",
+      "uncertainty": "Cross-sectional self-reported source choice does not measure accuracy, trust quality, exposure frequency, algorithmic ranking, persuasion, or later behavior. Topic bases and nonresponse differ.",
+      "subgroup": "U.S. adults; topic-specific distributions across information-source categories.",
+      "counterinterpretation": "Naming a source as primary does not mean exclusive use, trust, agreement, or reliance for a decision; source choice may reflect topic complexity, personal experience, or availability.",
+      "source_url": "https://www.pewresearch.org/chart/americans-main-sources-of-information-on-various-topics-are-diverse/",
+      "retrieval_hash": "sha256:f99f8c24ac2acb01e6b1b079512b3f5c69c966a366c921a177f74309623620cf",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record establishes topic-specific information-source distributions. It does not establish source accuracy, trust, political persuasion, consumer action, policy understanding, platform causality, or durable institutional legitimacy."
+}

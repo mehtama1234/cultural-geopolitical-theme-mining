@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-immigrant-student-firm-placement-2001-2020",
+  "title": "Immigrant college students sort toward both very large and very small firms through different routes",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using linked Census and longitudinal employment data to trace college students' jobs and firm placement",
+  "geography": "United States college students in 2000 followed through 2001-2020 employment records",
+  "observations": [
+    {
+      "period": "College students in 2000 followed during 2001-2020; paper published January 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined immigrant college students and comparison students in linked Census-longitudinal employment records; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "firm_size_sorting": {
+          "value": "immigrant students were disproportionately employed in either large firms, especially multinationals, or small firms and self-employment",
+          "unit": "reported firm-placement pattern",
+          "value_type": "reported_relationship"
+        },
+        "large_firm_mechanisms": {
+          "value": "degree fields predict placement in large firms and multinational enterprises",
+          "unit": "reported mechanism association",
+          "value_type": "reported_relationship"
+        },
+        "small_firm_mechanisms": {
+          "value": "ethnic specialization explains small-firm sorting in the study's analysis",
+          "unit": "reported mechanism association",
+          "value_type": "reported_relationship"
+        },
+        "staying_in_us_earnings": {
+          "value": "immigrant students who remain in the United States earn more than native peers",
+          "unit": "reported earnings comparison",
+          "value_type": "reported_comparison"
+        },
+        "evaluated_mechanisms": {
+          "value": "geographic clustering, degree specialization, firm capabilities and visas, and ethnic self-employment specialization",
+          "unit": "study's four mechanism groups",
+          "value_type": "reported_method_scope"
+        }
+      },
+      "method": "Census CES working paper linking Census and longitudinal employment data to trace jobs taken by college students in 2000 during 2001-2020 and evaluate mechanisms associated with sector and firm-size placement.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full sample, immigrant definition, visa categories, firm-size thresholds, earnings estimates, or all controls. Sorting patterns and earnings comparisons do not by themselves establish equal opportunity, blocked opportunity, causal mechanisms, or outcomes for students who leave the United States.",
+      "subgroup": "Immigrant students who attended U.S. colleges in 2000, followed through 2020; comparisons include native peers and large-firm, multinational, small-firm, and self-employment placements.",
+      "counterinterpretation": "Large- and small-firm placement may reflect degree fields, geography, visa or work authorization, firm demand, networks, ethnic specialization, selection, or preferences. Higher earnings among those who remain may reflect selection into staying, location, occupation, or unobserved resources rather than a general immigrant advantage. Small-firm or self-employment sorting can be opportunity, constraint, or both.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-08.html",
+      "retrieval_hash": "sha256:d9cda3795a3440fa9a5521abd0051715c40b646a70a3f417f9e3578b4fe0f1a5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1394",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the firm-placement mechanisms.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-08.pdf",
+      "claim": "The official paper PDF provides the CES working-paper status and linked-data context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded immigrant-student-to-firm-placement and earnings pattern. It does not establish blocked opportunity, equal treatment, visa causality, firm productivity, household welfare, or outcomes for students who leave the United States.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-08 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying linked Census employment records are not retained",
+    "checked": "2026-09-22"
+  }
+}

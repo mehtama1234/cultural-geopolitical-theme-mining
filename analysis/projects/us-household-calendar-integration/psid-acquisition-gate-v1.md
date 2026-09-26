@@ -1,9 +1,16 @@
 # PSID acquisition gate
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-24
 **Status:** open account-controlled acquisition gate; no PSID estimate published
 
-**Current documentation recheck:** 2026-09-19 — official PSID pages continue
+**Route-selection rule — 2026-09-20:** PSID is the first authenticated
+acquisition for the broad atlas because its family/person longitudinal design
+matches the material, work, care, wellbeing, and household-room bridge. UAS
+remains the preferred route for the separate dated health-cost episode because
+its monthly event and billing modules are more direct for that narrower case.
+The two routes must not be silently pooled or treated as interchangeable.
+
+**Current documentation recheck:** 2026-09-20 — official PSID pages continue
 to state that public-use data are available after researcher registration and
 acceptance of the Conditions of Use. This confirms an account-controlled
 distribution route, not a substantive data absence.
@@ -15,6 +22,16 @@ longitudinal and cross-sectional weights. The Data Center is the preferred
 first route because it can create a customized multi-wave extract; the first
 authenticated pass should request a minimal field cart rather than download
 all packaged files by default.
+
+**Current public-route recheck — 2026-09-20:** the official [PSID Getting
+Started page](https://psidonline.isr.umich.edu/GettingStarted.aspx) still says
+that public-use data are available to researchers who register and accept the
+Conditions of Use. It describes the Data Center and packaged-data routes and
+continues to expose longitudinal family, employment, income, health, and
+wellbeing content. This makes PSID the preferred first authenticated route for
+the broad atlas's material/time/care bridge, ahead of the more restrictive UAS
+route, subject to account access and the same structural audit. No PSID file
+was downloaded or analyzed in this recheck.
 
 ## What is available
 
@@ -58,6 +75,13 @@ small smoke-audit outputs; no target PSID package was present. No package was
 downloaded during this check, and the absence of a local package is not
 evidence that the substantive relationship is absent.
 
+**Current local recheck — 2026-09-24:** a fresh repository/workspace inventory
+again found only access notes, manifests, scripts, and compiled test artifacts;
+there is no authorized 2019, 2021, or 2023 PSID package, UAS respondent file,
+HRS file, or event-compatible restricted input. This confirms the operational
+boundary, not a substantive null result. Do not retry an unauthenticated route
+or treat documentation as respondent data.
+
 The current official [PSID documentation page](https://psidonline.isr.umich.edu/Guide/documents.aspx)
 continues to expose 2023 Main Study documentation and links to the Data Center
 and registration routes. The official [Getting Started page](https://psidonline.isr.umich.edu/GettingStarted.aspx)
@@ -89,6 +113,11 @@ the four public-use packages or create the minimal multi-wave Data Center
 extract specified in the [public-route recheck](psid-public-route-recheck-2026-09-19.json).
 Then run the [wave-file structural audit](psid-wave-file-audit-protocol-v1.md)
 against the downloaded files and preserve its JSON output.
+
+The [account-holder request card](psid-account-holder-request-v1.md) is the
+minimal operational handoff for the first authenticated extract. It keeps the
+request small, preserves raw labels and weights, and states what must be
+returned before analysis.
 
 The structural pass must be followed by separate checks for:
 

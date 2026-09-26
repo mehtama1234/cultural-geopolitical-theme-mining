@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-social-security-intergenerational-migration-2026",
+  "title": "Social Security support for parents changed children’s long-run migration, earnings, and neighborhood trajectories",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 35456, linked parent-child administrative records and historical Social Security coverage",
+  "geography": "United States; early Social Security program and linked later-life outcomes",
+  "observations": [
+    {
+      "period": "early Social Security coverage and children’s later-life outcomes; paper issued July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "linked parent-child families in the study sample; study-specific coverage and outcome denominators",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "parental_support": {
+          "value": "greater predicted parental Social Security coverage",
+          "unit": "within-occupation, cross-industry predicted coverage variation",
+          "value_type": "estimated_exposure"
+        },
+        "sons_migration": {
+          "value": "sons moved farther from childhood homes",
+          "unit": "later-life geographic distance from childhood home",
+          "value_type": "estimated_effect"
+        },
+        "sons_earnings_neighborhood": {
+          "value": "sons earned more and lived in better neighborhoods later in life",
+          "unit": "later-life earnings and neighborhood outcomes",
+          "value_type": "estimated_effect"
+        },
+        "gender_difference": {
+          "value": "the migration, earnings, and neighborhood effects were not found for daughters, who provided less easily replaceable support",
+          "unit": "reported sex-differentiated outcome pattern",
+          "value_type": "estimated_heterogeneity"
+        },
+        "family_adaptation": {
+          "value": "migration to better-matched labor markets is identified as a likely mechanism",
+          "unit": "intergenerational adaptation mechanism",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "Historical quasi-experimental variation in Social Security coverage across industries within occupations, linked to parent-child later-life outcomes and interpreted through an intergenerational support framework.",
+      "uncertainty": "The paper estimates long-run effects of early-program coverage and proposes migration as a mechanism. It does not directly observe every caregiving exchange, household negotiation, destination choice, or present-day Social Security effect.",
+      "subgroup": "Parents and their sons and daughters in linked historical U.S. families; effects differ by child sex and by the extent to which support can be replaced through migration.",
+      "counterinterpretation": "Greater parental coverage may affect children through several channels besides migration, including direct family resources and caregiving substitution. The historical program and labor market differ from contemporary U.S. conditions, and the daughter null result does not mean daughters experienced no effects.",
+      "source_url": "https://www.nber.org/papers/w35456",
+      "retrieval_hash": "sha256:c5286ce56d8f61755897cc1012586fbfe831d26db904a0c4728747c779ec8164",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35456",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record links historical parental Social Security coverage to estimated long-run child migration, earnings, and neighborhood outcomes. It does not establish a contemporary national effect, observe every caregiving exchange, or prove that migration alone caused the later outcomes."
+}

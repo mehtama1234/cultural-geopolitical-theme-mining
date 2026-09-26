@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-rural-water-funding-coordination-unserved-communities-2026",
+  "title": "Rural water infrastructure can be financially available while the path to funding remains unusable",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "public_systems_feedback", "housing_place_mobility", "unequal_exposure_status", "care_health_reproduction"],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107355 review of USDA and EPA assistance for rural unserved water and wastewater communities",
+  "geography": "United States; rural unserved communities, 10 selected states, three site-visit states, and one Tribe",
+  "observations": [{
+    "period": "2022-December 2025 program and community review; published June 2026",
+    "denominator": {"value": 28, "unit": "USDA and EPA programs identified as able to provide financial or technical assistance", "value_type": "reported_program_universe"},
+    "measures": {
+      "assistance_programs": {"value": 28, "unit": "programs offering financial or technical assistance", "value_type": "reported_count"},
+      "data_boundary": {"value": "USDA and EPA had limited data on rural unserved communities but could obtain some information through programs and datasets", "unit": "agency information condition", "value_type": "reported_gap"},
+      "application_complexity": {"value": "communities often needed multiple applications across federal and state sources with different deadlines and use restrictions", "unit": "reported access barrier", "value_type": "reported_finding"},
+      "funding_timing": {"value": "one community did not receive a federal grant in time to obtain a matching state grant", "unit": "named timing example", "value_type": "reported_case"},
+      "coordination_status": {"value": "USDA and EPA had not updated and monitored their 2017 joint memorandum", "unit": "interagency coordination condition", "value_type": "reported_gap"},
+      "local_knowledge": {"value": "EPA technical-assistance providers lacked agency guidance ensuring awareness of local capacity and incorporation of local knowledge", "unit": "technical-assistance condition", "value_type": "reported_gap"}
+    },
+    "method": "GAO reviewed USDA and EPA program documents and data, interviewed federal officials and officials from 10 selected states, and visited rural unserved communities in three states and one Tribe.",
+    "uncertainty": "The review identifies program and access barriers but does not estimate the share of unserved communities that fail to obtain assistance, the causal effect of coordination, or household-level health outcomes. Selected states and site visits are not a national probability sample.",
+    "subgroup": "Rural unserved communities, unincorporated areas, small utilities, Tribes, state and local applicants, federal technical-assistance providers, and communities with limited financial or administrative capacity.",
+    "counterinterpretation": "Multiple programs and technical assistance can still provide real routes to infrastructure, and a missed match example does not establish a general failure rate. Communities may use local, state, private, or onsite solutions not captured as one federal funding path.",
+    "source_url": "https://www.gao.gov/products/gao-26-107355",
+    "retrieval_hash": "sha256:bc71bd901e088d46133318f713918ce07b126589fe34ea734265cb1da78478c3",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://www.gao.gov/assets/gao-26-107355.pdf", "claim": "The full GAO report contains program tables, community profiles, project-cost information, and methodology.", "status": "official-report-context"}],
+  "boundary": "This record measures whether rural communities can identify and navigate federal and state financial or technical assistance for water infrastructure. It does not establish that a community received an award, built a system, obtained safe water or wastewater service, reduced household costs, or improved health.",
+  "retrieval_hash": "sha256:bc71bd901e088d46133318f713918ce07b126589fe34ea734265cb1da78478c3"
+}

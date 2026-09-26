@@ -1,0 +1,108 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cross-source-supreme-court-legitimacy-approval-favorability-2000-2026",
+  "title": "Supreme Court legitimacy remains historically weak while approval, favorability, ideology, and power judgments split by party and measure",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup July 1-19, 2026 job-approval poll and Pew Research Center July 6-12, 2026 American Trends Panel survey of Supreme Court legitimacy",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "July 2026; Gallup job approval after the 2025-2026 Supreme Court term",
+      "denominator": {
+        "value": null,
+        "unit": "Gallup national adult poll; exact respondent count is not disclosed on the article page",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "job_approval": {
+          "value": 33,
+          "unit": "percent approving of the job the Supreme Court is doing",
+          "value_type": "published_share"
+        },
+        "job_disapproval": {
+          "value": 61,
+          "unit": "percent disapproving of the job the Supreme Court is doing",
+          "value_type": "published_share"
+        },
+        "long_run_approval_change": {
+          "value": "Approval was 62% in Gallup's initial 2000 reading and had typically been at majority levels through 2010; the 2026 reading is the lowest in the 26-year trend",
+          "unit": "percent and historical trend description",
+          "value_type": "published_longitudinal_comparison"
+        },
+        "party_approval": {
+          "value": "Republican approval fell from 79% in September 2025 to 58% in July 2026; Democratic approval was 12% and independent approval 35%",
+          "unit": "percent within party-identification groups",
+          "value_type": "published_subgroup_comparison"
+        },
+        "party_gap_trend": {
+          "value": "The average party gap in Supreme Court approval rose from 18 points in 2000-2010 to 32 points since 2010",
+          "unit": "average percentage-point party gap",
+          "value_type": "published_longitudinal_comparison"
+        }
+      },
+      "method": "Gallup repeated cross-sectional job-approval trend, with the latest poll conducted July 1-19, 2026 immediately after the Supreme Court term; the article relates the current partisan movement to notable rulings but does not estimate a causal ruling-level effect.",
+      "uncertainty": "The article page does not disclose the exact national respondent count or margin of error. Approval is a job-performance judgment, not a direct measure of legal quality, case outcomes, constitutional agreement, institutional compliance, or actual court behavior.",
+      "subgroup": "U.S. adults overall, with Republican, Democratic, and independent comparisons; historical party gaps are repeated cross-sectional comparisons.",
+      "counterinterpretation": "Republican approval may reflect disappointment with particular rulings, broader presidential-party expectations, or general institutional sentiment. Low overall approval does not establish judicial noncompliance, loss of authority, or uniform rejection of specific decisions.",
+      "source_url": "https://news.gallup.com/poll/713096/supreme-court-job-approval-slumps-record-low.aspx",
+      "retrieval_hash": "sha256:c2a922e8e25cd9e6fc9ec9c7ec0d53eb08558de996bd10c0f14973b81640ca10",
+      "status": "reported"
+    },
+    {
+      "period": "July 6-12, 2026; Pew favorability, ideology, and perceived power of the Supreme Court",
+      "denominator": {
+        "value": 3554,
+        "unit": "U.S. adults in Pew Research Center's American Trends Panel",
+        "value_type": "published_sample"
+      },
+      "measures": {
+        "favorability": {
+          "value": "45% have a favorable opinion of the Supreme Court and 53% an unfavorable opinion; favorable views are down from 65% in April 2021",
+          "unit": "percent of U.S. adults",
+          "value_type": "published_share_and_longitudinal_comparison"
+        },
+        "party_favorability": {
+          "value": "69% of Republicans and Republican leaners view the court favorably, versus 25% of Democrats and Democratic leaners",
+          "unit": "percent within party-identification groups",
+          "value_type": "published_subgroup_comparison"
+        },
+        "perceived_ideology": {
+          "value": "43% view the court as conservative, 44% as middle of the road, and 9% as liberal; 67% of Democrats call it conservative versus 19% of Republicans",
+          "unit": "percent of U.S. adults and party groups",
+          "value_type": "published_distribution_and_subgroup_comparison"
+        },
+        "perceived_power": {
+          "value": "56% say the court has the right amount of power, 32% too much, and 10% too little; Republicans saying right amount are 71% versus 44% among Democrats",
+          "unit": "percent of U.S. adults and party groups",
+          "value_type": "published_distribution_and_subgroup_comparison"
+        },
+        "demographic_contrast": {
+          "value": "Unfavorable views are 67% among Black adults, 60% among ages 18-29, and 50% among adults 65 and older; favorable views are 69% among Republicans and 25% among Democrats",
+          "unit": "percent within demographic or party group",
+          "value_type": "published_subgroup_comparison"
+        }
+      },
+      "method": "Pew Research Center analysis of a nationally representative survey of American Trends Panel members fielded July 6-12, 2026, with repeated survey comparisons back to 1987 for favorability and 2020 for ideology and power.",
+      "uncertainty": "Pew favorability and Gallup job approval are different questions, samples, modes, and field periods and should not be treated as identical estimates. Subgroup results are descriptive; they do not establish why a person holds a view or whether the view changes legal compliance, voting, participation, or court authority.",
+      "subgroup": "U.S. adults overall, with party, race and ethnicity, age, gender, education, ideology, and perceived-power comparisons; estimates for Asian adults are representative of English speakers only as noted by Pew.",
+      "counterinterpretation": "A person can disapprove of the court's job while accepting its authority, or see its ideology as conservative while viewing its power as appropriate. The gap between favorability and job approval is a measurement distinction, not evidence of contradictory respondents or institutional collapse.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/07/30/favorable-views-of-supreme-court-remain-near-historic-low/",
+      "retrieval_hash": "sha256:84ae375e4fc1c8f5cbddc7a717d11ca1b0efb338412d68fc1289c117bf54df34",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a cross-source judicial-legitimacy and institutional-meaning layer. It does not infer legal correctness, compliance, judicial independence, voting behavior, participation, court authority, constitutional stability, or causal effects of specific rulings from approval, favorability, ideology, or power judgments.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Gallup and Pew publication pages retrieved and hashed; current and historical approval/favorability, party comparisons, ideology, power judgments, sample information, and measurement boundaries cross-checked against the published pages.",
+    "gallup_html_sha256": "sha256:c2a922e8e25cd9e6fc9ec9c7ec0d53eb08558de996bd10c0f14973b81640ca10",
+    "pew_html_sha256": "sha256:84ae375e4fc1c8f5cbddc7a717d11ca1b0efb338412d68fc1289c117bf54df34",
+    "checked": "2026-09-26"
+  }
+}

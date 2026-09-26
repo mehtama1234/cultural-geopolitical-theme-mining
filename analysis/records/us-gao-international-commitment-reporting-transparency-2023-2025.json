@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-international-commitment-reporting-transparency-2023-2025",
+  "title": "An international commitment can be formally reported while congressional and public visibility arrives late or incomplete",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "GAO-26-108186 review of State Department reporting and publication of international agreements and qualifying nonbinding instruments",
+  "geography": "United States executive-branch international commitments; reporting and publication between October 2023 and March 2025, with website review through April 2026",
+  "observations": [
+    {
+      "period": "October 2023-March 2025 reporting; website status as of July 2025 and April 2026",
+      "denominator": {
+        "value": 311,
+        "unit": "international agreements and qualifying nonbinding instruments State reported to Congress, excluding classified items from the timeliness analysis",
+        "value_type": "reported_commitment_count"
+      },
+      "measures": {
+        "reported_on_time": {
+          "value": "221 of 311 were reported on time",
+          "unit": "agreements and instruments reported to Congress",
+          "value_type": "reported_count"
+        },
+        "reported_late": {
+          "value": "90 of 311 were late at one or both reporting points; late items averaged 2.3 reporting cycles late",
+          "unit": "agreements and instruments reported to Congress",
+          "value_type": "reported_count"
+        },
+        "public_publishing": {
+          "value": "an estimated 86% of items subject to publication requirements had text and legal-authority information published",
+          "unit": "generalizable sample estimate; 95% CI 81%-91%",
+          "value_type": "estimated_rate"
+        },
+        "public_publishing_on_time": {
+          "value": "an estimated 53% met the 120-day publication deadline; instruments were estimated at 78% and agreements at 38%",
+          "unit": "estimated rate among items subject to publication requirements",
+          "value_type": "estimated_rate"
+        },
+        "discoverability": {
+          "value": "text and legal-authority information were spread across webpages with different designs and identifiers, and users often had to know dates or identifiers to locate and match records",
+          "unit": "reported public-access condition",
+          "value_type": "reported_gap"
+        },
+        "commitment_effect": {
+          "value": "not observed as a common implementation, partner, burden-sharing, legitimacy, or changed foreign-behavior outcome",
+          "unit": "missing commitment-to-operation and public-judgment ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO audited State reporting and publication against the Case-Zablocki Act, regulations, and federal internal-control standards; it analyzed 311 reported items, a generalizable publication sample of 156 items, agency and Treaty Office processes, and website discoverability.",
+      "uncertainty": "The 311-item timeliness frame excludes classified items and reflects State's reported universe. Publication estimates have sampling uncertainty and statutory exemptions. Late or hard-to-find information does not by itself establish concealment, bad faith, invalid commitments, or lack of congressional awareness through other channels.",
+      "subgroup": "International agreements versus qualifying nonbinding instruments; State bureaus and offices and more than 100 potentially reporting federal agencies; classified and exempt instruments follow different visibility routes.",
+      "counterinterpretation": "Reporting and publication can be delayed by translation, diplomatic notes, physical documents, classification, legal review, administrative errors, or uncertainty about whether an instrument qualifies. A searchable public record may improve oversight without changing the underlying commitment or partner behavior.",
+      "source_url": "https://www.gao.gov/assets/gao-26-108186.pdf",
+      "retrieval_hash": "sha256:755c824dcec72968f9033d37ce2b50725e60c592493bb4b52d81d0a4bb495123",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108186",
+      "claim": "GAO report landing page and official PDF metadata identify the June 2026 audit and recommendations.",
+      "status": "official-primary-source"
+    }
+  ],
+  "boundary": "This record measures reporting timeliness, publication completeness, and discoverability for selected international commitments. It does not establish commitment quality, implementation, partner consent, legitimacy, strategic effect, or executive intent."
+}

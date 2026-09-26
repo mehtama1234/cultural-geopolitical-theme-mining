@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-children-digital-wellbeing-2025",
+  "title": "Children's digital access is near-universal, while platform activity and safety risks make protection, empowerment, and child voice institutional problems",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "OECD How's Life for Children in the Digital Age?, cross-national synthesis of PISA, HBSC, and PIRLS data",
+  "geography": "OECD countries, with indicators using the report's specified international country subsets and survey years",
+  "observations": [
+    {
+      "period": "2021-2022 international data summarized in OECD 2025 report",
+      "denominator": {
+        "value": 38,
+        "unit": "OECD-country comparison frame; individual indicators use their own survey country subsets",
+        "value_type": "multi_country_cross_section"
+      },
+      "measures": {
+        "fifteen_year_old_home_device_access": {"value": 96, "unit": "percent of 15-year-olds with access to a desktop computer, laptop, or tablet at home", "value_type": "reported_country_average"},
+        "fifteen_year_old_smartphone_internet_access": {"value": 98, "unit": "percent of 15-year-olds with a smartphone and Internet connection", "value_type": "reported_country_average"},
+        "fifteen_year_old_thirty_plus_device_hours": {"value": 50, "unit": "at least half of 15-year-olds in most OECD countries spending 30 or more hours per week on digital devices", "value_type": "reported_country_pattern"},
+        "fifteen_year_old_sixty_plus_online_range": {"value": "10-43", "unit": "percent of 15-year-olds spending 60 or more hours online, ranging from Japan to Latvia", "value_type": "reported_country_range"},
+        "ten_year_old_own_smartphone": {"value": 70, "unit": "approximate OECD average percent of 10-year-olds owning a smartphone", "value_type": "reported_country_average"}
+      },
+      "method": "OECD compiles cross-national indicators from PISA 2022, Health Behaviour in School-aged Children 2021-22, and PIRLS 2021 to describe device access, time, activities, and differences by age, gender, socio-economic status, and family context.",
+      "uncertainty": "Country coverage and question wording vary by indicator, and access is not equivalent to quality, safety, learning, or well-being. Reported averages conceal large country and household differences and do not establish that device time causes a particular outcome.",
+      "subgroup": "Children and adolescents, especially 10-year-olds and 15-year-olds; comparisons include gender, socio-economic status, migrant background, and family structure where reported.",
+      "counterinterpretation": "Near-universal access can expand learning, information, play, and connection. High device time can be productive or social; the report stresses activity type, service design, and offline context rather than screen time alone.",
+      "source_url": "https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en.html",
+      "retrieval_hash": "sha256:0135771517d4bc6a57f05dba1fe09864c7f1b25b1305cf6952e7041cb712a52b",
+      "status": "reported"
+    },
+    {
+      "period": "2017-18 to 2021-22 HBSC comparison and 2022 OECD digital-wellbeing synthesis",
+      "denominator": {
+        "value": 11,
+        "unit": "adolescents aged 11, 13, and 15 across OECD comparison countries; country and age coverage follows HBSC reporting",
+        "value_type": "multi_country_repeated_cross_section"
+      },
+      "measures": {
+        "problematic_social_media_use": {"value": 10, "unit": "approximately percent of adolescents reporting problematic social-media use in 2021-22, up from less than 7% in 2017-18", "value_type": "reported_survey_share"},
+        "problematic_use_girls": {"value": 12, "unit": "percent of girls reporting problematic social-media use", "value_type": "reported_subgroup_share"},
+        "problematic_use_boys": {"value": 8, "unit": "percent of boys reporting problematic social-media use", "value_type": "reported_subgroup_share"},
+        "problematic_use_migrant_background": {"value": 14, "unit": "percent of adolescents with a migrant background reporting problematic social-media use, compared with 10% among native-born adolescents", "value_type": "reported_subgroup_comparison"},
+        "three_plus_hours_social_media_weekday": {"value": "65 girls; 55 boys", "unit": "percent of 15-year-olds spending at least three hours on social media on a typical weekday", "value_type": "reported_subgroup_share"}
+      },
+      "method": "OECD interprets HBSC repeated cross-sectional indicators alongside evidence on digital activity type, passive versus active engagement, platform design, social comparison, cyberbullying, family context, and offline vulnerabilities.",
+      "uncertainty": "Problematic-use measures are self-reported and do not diagnose addiction, depression, anxiety, or causal harm. The time-series comparison is not a single longitudinal cohort, and the report emphasizes that population-average effects can be modest while risks remain concentrated in vulnerable groups.",
+      "subgroup": "Adolescents by gender, age, migration background, socio-economic status, family structure, and patterns of social-media use.",
+      "counterinterpretation": "Higher reported exposure among girls or migrant-background adolescents may reflect different use, disclosure, measurement, or social context rather than uniformly greater harm. Regulation, parental guidance, education, and platform design can change the risk environment.",
+      "source_url": "https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/the-impact-of-digital-activities-on-children-s-lives_4df70664.html",
+      "retrieval_hash": "sha256:0135771517d4bc6a57f05dba1fe09864c7f1b25b1305cf6952e7041cb712a52b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.oecd.org/en/publications/how-s-life-for-children-in-the-digital-age_0854b900-en/full-report/introduction-and-main-findings_67c79516.html", "claim": "OECD summarizes device access, time, activities, problematic use, and its rights-based policy framing."},
+    {"source_url": "https://www.oecd.org/en/publications/age-assurance-practices-of-50-online-services-used-by-children_a19853ab-en.html", "claim": "OECD separately examines age-assurance practices as a platform and institutional-control route."}
+  ],
+  "boundary": "This record adds a child digital-access, activity, exposure, and institutional-protection route distinct from the UNICEF abuse/reporting record and the broader adult social-connection and internet-wellbeing records. It does not diagnose children, estimate platform causality, or treat device time as a standalone harm measure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD publication page, executive summary, introduction/main-findings chapter, and digital-activities chapter retrieved; device access, time, activity, problematic-use, subgroup, and uncertainty statements cross-checked against official OECD materials.",
+    "html_sha256": "sha256:0135771517d4bc6a57f05dba1fe09864c7f1b25b1305cf6952e7041cb712a52b",
+    "checked": "2026-09-26"
+  }
+}

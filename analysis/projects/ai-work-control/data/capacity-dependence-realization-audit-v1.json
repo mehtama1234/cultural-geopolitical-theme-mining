@@ -137,7 +137,7 @@
     },
     {
       "case_id": "poland-jassm-er-2024-order",
-      "event_count": 8,
+      "event_count": 13,
       "events": [
         {
           "boundary": "A possible-sale authorization is not a signed order, production record, delivery, acceptance, or operational availability.",
@@ -172,6 +172,14 @@
           "stage": "delivery_or_operation"
         },
         {
+          "boundary": "The briefing gives a 2028-2030 planning window and attributes it to supply-chain alignment with expanded-fleet operational readiness; it does not establish a contract amendment, delay, shipment, acceptance, fielding, training, or operational availability for the May 2024 order.",
+          "event_date": "2024-12-02",
+          "event_id": "jassm-er-planned-delivery-2028-2030-briefing",
+          "event_type": "delivery",
+          "source_status": "planned",
+          "stage": "delivery_or_operation"
+        },
+        {
           "boundary": "The audit documents missing numeric support and unreliable advance recording in the cited settlement context; it does not establish production, delay, non-delivery, acceptance, or fielding for the 2024 order.",
           "event_date": "2022-01-01/2022-09-30",
           "event_id": "jassm-er-control-gap-2022-audit",
@@ -196,12 +204,44 @@
           "stage": "counterexample"
         },
         {
+          "boundary": "The announcement is a planned first-delivery milestone, not a shipment, receiving-unit, acceptance, training, inventory, or operational-use record.",
+          "event_date": "2024-05-28",
+          "event_id": "jassm-er-first-delivery-2026-plan-announcement",
+          "event_type": "delivery",
+          "source_status": "planned",
+          "stage": "delivery_or_operation"
+        },
+        {
+          "boundary": "The page reports first JASSM delivery to the F-16 base and separately describes the JASSM-ER agreement; it does not establish quantity or realization of the May 2024 JASSM-ER order. It is historical family/platform context, not current-order shipment, acceptance, or geopolitical leverage evidence.",
+          "event_date": "2017-01-20",
+          "event_id": "jassm-family-first-delivery-2017-comparator",
+          "event_type": "comparator",
+          "source_status": "observed_comparator",
+          "stage": "counterexample"
+        },
+        {
           "boundary": "The comparator shows that schedule, physical delivery, and settlement can occur on different clocks; it is not evidence about the JASSM-ER order.",
           "event_date": "2024-12-01/2025-01-31",
           "event_id": "f35-fms-timing-comparator-2024-2025",
           "event_type": "comparator",
           "source_status": "observed_comparator",
           "stage": "counterexample"
+        },
+        {
+          "boundary": "This is a separate F-35 comparator. Arrival does not by itself establish formal acceptance, training completion, combat readiness, or operational effect for the JASSM-ER order.",
+          "event_date": "2026-05-22",
+          "event_id": "f35-first-arrival-2026-05-22",
+          "event_type": "delivery",
+          "source_status": "observed_comparator",
+          "stage": "delivery_or_operation"
+        },
+        {
+          "boundary": "This comparator demonstrates a public acceptance milestone for a separate platform; it does not establish training completion, full operational availability, geopolitical leverage, or any JASSM-ER order stage.",
+          "event_date": "2026-06-12",
+          "event_id": "f35-official-acceptance-2026-06-12",
+          "event_type": "acceptance",
+          "source_status": "observed_comparator",
+          "stage": "unclassified"
         }
       ],
       "promotion_status": {
@@ -209,6 +249,8 @@
         "agreement": "observed",
         "authorization": "observed",
         "external_response_or_geopolitical_leverage": "open",
+        "first_delivery_announcement": "observed_as_2026_plan",
+        "historical_jassm_platform_delivery": "observed_as_2017_ministry_reported_baseline",
         "inventory_or_operational_availability": "not_observed",
         "planned_delivery": "observed_as_plan",
         "prior_baseline_jassm_er_delivery": "observed_as_broad_official_list_entry",
@@ -220,15 +262,16 @@
       "stage_counts": {
         "commitment": 3,
         "control_or_replaceability": 1,
-        "counterexample": 2,
-        "delivery_or_operation": 1,
-        "missing_stage": 1
+        "counterexample": 3,
+        "delivery_or_operation": 4,
+        "missing_stage": 1,
+        "unclassified": 1
       },
       "status_counts": {
         "not_observed": 1,
         "observed": 4,
-        "observed_comparator": 2,
-        "planned": 1
+        "observed_comparator": 5,
+        "planned": 3
       }
     }
   ],

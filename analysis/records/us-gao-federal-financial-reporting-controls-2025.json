@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-financial-reporting-controls-2025",
+  "title": "The federal government can publish a financial report while the control system behind it remains unfinished",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-109081 audit of Treasury processes used to prepare the FY2025 consolidated financial statements",
+  "geography": "United States federal government",
+  "observations": [
+    {
+      "period": "FY2025 audit; report released September 15, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO audit of Treasury processes used to prepare the federal consolidated financial statements",
+        "value_type": "source_defined_review_universe"
+      },
+      "measures": {
+        "new_control_deficiencies": {"value": 3, "unit": "new deficiencies identified in FY2025 audit", "value_type": "reported_total"},
+        "prior_recommendations_open": {"value": 6, "unit": "prior recommendations still open as of March 11, 2026", "value_type": "reported_total"},
+        "prior_recommendations_closed": {"value": 3, "unit": "prior recommendations closed after corrective action", "value_type": "reported_total"},
+        "opinion_status": {"value": "GAO has not expressed an opinion on the federal government's accrual-based consolidated financial statements since the first audit in FY1997", "unit": "audit status", "value_type": "reported_status"},
+        "specific_errors": {"value": "corrected in the final FY2025 statements", "unit": "errors identified in draft legal-contingency and note disclosures", "value_type": "reported_correction"}
+      },
+      "method": "GAO audit of Treasury's financial-reporting preparation procedures, internal controls, corrective actions, and recommendation status; the report is an oversight review rather than a population survey or audit of every federal transaction.",
+      "uncertainty": "The report identifies risks and control deficiencies but does not establish that all published figures are wrong, quantify the effect on any program or household, or measure how users interpret the financial statements.",
+      "subgroup": "Treasury processes and federal entities contributing to the consolidated financial statements; no citizen or household subgroup is observed.",
+      "counterinterpretation": "Corrected draft errors and closed recommendations show real institutional repair. Continuing weaknesses may reflect a difficult government-wide consolidation process rather than universal reporting failure or fiscal collapse.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-109081/index.html",
+      "retrieval_hash": "sha256:19524daaa98b644c314dd5324ef9aec01e780accdb2b2dff8204a568d49a7be1",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-109081",
+      "claim": "GAO's product listing provides the official report metadata and recommendation context.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures federal financial-reporting control deficiencies, corrective actions, and audit status. It does not establish universal misstatement, fiscal collapse, citizen-level burden, public trust change, political action, or geopolitical effect.",
+  "retrieval_hash": "sha256:19524daaa98b644c314dd5324ef9aec01e780accdb2b2dff8204a568d49a7be1"
+}

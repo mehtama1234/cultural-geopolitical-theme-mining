@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nvidia-h200-china-license-no-revenue-2026",
+  "title": "NVIDIA disclosed a February 2026 H200 license for small shipments to specific China customers, but no H200 revenue or China import was realized by filing date",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NVIDIA fiscal-year 2026 Form 10-K filed with the U.S. Securities and Exchange Commission",
+  "geography": "United States, China, NVIDIA, U.S. export-control authorities, and advanced-computing customers",
+  "observations": [
+    {
+      "period": "February 2026 license disclosure; NVIDIA fiscal year ended January 25, 2026 and Form 10-K signed February 25, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "H200 licensing-program disclosure by NVIDIA; shipment quantity and license value not disclosed",
+        "value_type": "reported_program_event"
+      },
+      "measures": {
+        "license_granted": {"value": "U.S. government granted a license allowing small amounts of H200 products to specific China-based customers", "unit": "reported administrative approval", "value_type": "reported_license_grant"},
+        "h200_revenue_under_program": {"value": 0, "unit": "H200 revenue generated under the licensing program as of filing", "value_type": "reported_zero_to_date"},
+        "china_import_status": {"value": "not known whether any imports would be allowed into China", "unit": "reported unresolved import outcome", "value_type": "reported_uncertainty"},
+        "pre_export_inspection": {"value": "H200 products must undergo inspection in the United States before shipment to the customer", "unit": "required pre-shipment control", "value_type": "reported_condition"},
+        "us_import_tariff": {"value": 25, "unit": "percent tariff applicable upon importation into the United States for H200 shipped under the new program", "value_type": "reported_tariff_condition"},
+        "market_reopening": {"value": "not established", "unit": "no disclosed shipment, China import, H200 program revenue, or competitive-market recovery", "value_type": "unmeasured"}
+      },
+      "method": "Review of NVIDIA's SEC-filed Form 10-K. The license grant is coded as a realized administrative event; the absence of H200 program revenue and unresolved China-import status are coded as reported endpoint limits. The separate August 2025 H20 revenue disclosure is not treated as H200 evidence.",
+      "uncertainty": "The filing does not identify the customers, license quantity or value, inspection results, shipment date, Chinese import decision, or any capability effect. It also states that NVIDIA was effectively foreclosed from China's data-center compute market at fiscal-year end, so the license disclosure does not by itself establish commercial reopening.",
+      "subgroup": "U.S. export-control authorities, NVIDIA, specific China-based customers, U.S. inspectors, Chinese import authorities, and downstream data-center users",
+      "counterinterpretation": "The license may be an initial bridge to resumed trade, or may authorize so little or face enough downstream uncertainty that it has no material market effect. A granted U.S. license is not equivalent to shipment, Chinese import approval, revenue, capability transfer, or restored competition.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "retrieval_hash": "sha256:a67bf005fe138d05d5ac6c00a6d38ad016a6ac693e1072315ff2137d8de18c13",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "claim": "NVIDIA Form 10-K lines describing the February 2026 H200 license, zero H200 program revenue to date, unresolved China imports, U.S. inspection requirement, and tariff exposure.",
+      "status": "official-sec-filing"
+    }
+  ],
+  "boundary": "This record adds a realized licensing-approval stage after BIS conditional case-by-case policy, while preserving the gap between approval and trade realization. It does not establish shipment, China import approval, revenue, Chinese capability change, U.S. supply protection, or geopolitical leverage."
+}

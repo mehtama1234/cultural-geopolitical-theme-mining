@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-water-works-safe-drinking-water-health-2026",
+  "title": "Safe-drinking-water investment can reduce pollution and older-adult mortality while household exposure remains separate",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35288; drinking-water pollution readings, water systems/areas, Safe Drinking Water Act loans, and linked administrative Medicare outcomes for older Americans",
+  "geography": "United States; 48 states, national and place-level water-quality measures, and older-American health outcomes",
+  "observations": [
+    {
+      "period": "2003-2019; drinking-water pollution trend and place differences",
+      "denominator": {"value": 266000000, "unit": "drinking-water pollutant readings from 48 states", "value_type": "published_count"},
+      "measures": {
+        "pollution_above_current_standards": {"value": "fell by about half", "unit": "share of readings above current health standards", "value_type": "reported_estimate"},
+        "pollutants_covered": {"value": 1250, "unit": "pollutants measured over the study period", "value_type": "published_count"},
+        "low_income_area_pollution": {"value": "higher", "unit": "relative pollution pattern across areas", "value_type": "reported_comparison"},
+        "population_reaching_standards": {"value": "about 10%-20% of Americans still receive drinking water that violates standards", "unit": "reported national context", "value_type": "reported_range"}
+      },
+      "method": "The authors assemble water-quality readings obtained from 48 states through Freedom of Information Act and related requests, measure trends and place differences, and link pollution measures to administrative Medicare data for older Americans.",
+      "uncertainty": "The abstract reports broad trends and socioeconomic patterns but does not provide a household-level exposure measure, a complete explanation for every place difference, or a measure of each household's water use, treatment, or private spending.",
+      "subgroup": "Water-quality readings and areas; low-income areas show higher pollution, while Black and Hispanic communities have more complex patterns in the study's reported comparisons.",
+      "counterinterpretation": "A fall in the share of readings above standards can coexist with persistent local hotspots, unregulated pollutants, different monitoring intensity, or unequal ability to avoid exposure; an area comparison is not a household harm estimate.",
+      "source_url": "https://www.nber.org/papers/w35288",
+      "retrieval_hash": "sha256:bf7fa0b0b40bcb2dc38097824de90bdfb616835c66f96298adfe7a92ef1501ec",
+      "status": "reported"
+    },
+    {
+      "period": "Study period; Safe Drinking Water Act loan effects",
+      "denominator": {"value": null, "unit": "water-system loan observations and linked older-American Medicare outcomes; study-specific denominator not stated in the abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "safe_drinking_water_act_loans": {"value": "reduced pollution", "unit": "estimated loan effect on drinking-water pollution", "value_type": "reported_estimate"},
+        "older_american_mortality": {"value": "reduced", "unit": "estimated loan effect on mortality rates of older Americans", "value_type": "reported_estimate"},
+        "estimated_cost_to_remove_excess_pollution": {"value": 46, "unit": "dollars per person per year at the estimated average loan cost-effectiveness", "value_type": "reported_estimate"}
+      },
+      "method": "The paper estimates the effect of Safe Drinking Water Act loans on water pollution and links pollution to administrative Medicare outcomes; the authors report both pollution and mortality reductions and a cost-effectiveness estimate.",
+      "uncertainty": "This is a working paper and has not been peer-reviewed by the NBER Board. The abstract does not establish which individual households received a loan-funded improvement, their exposure or treatment, or whether the estimated cost applies uniformly across places.",
+      "subgroup": "Water systems and older Americans represented in linked Medicare outcomes; the result is not a same-household panel from exposure through later health, spending, trust, or political action.",
+      "counterinterpretation": "Loan effects may vary with system capacity, baseline pollution, implementation, local conditions, and the pollutants measured; average mortality effects do not prove that every funded system or household improved equally.",
+      "source_url": "https://www.nber.org/papers/w35288",
+      "retrieval_hash": "sha256:bf7fa0b0b40bcb2dc38097824de90bdfb616835c66f96298adfe7a92ef1501ec",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w35288/revisions/w35288.rev0.pdf",
+      "claim": "The working-paper PDF provides the authors' methods, estimates, tables, and limitations behind the abstract.",
+      "status": "primary-working-paper"
+    }
+  ],
+  "boundary": "This record adds a measured place-to-health and public-loan result: pollution declined, loans reduced pollution, and linked older-American mortality fell in the study's estimates. It does not follow the same household from exposure through bottled-water or filter spending, home value, health care, trust, political action, or durable local acceptance.",
+  "retrieval_hash": "sha256:bf7fa0b0b40bcb2dc38097824de90bdfb616835c66f96298adfe7a92ef1501ec"
+}

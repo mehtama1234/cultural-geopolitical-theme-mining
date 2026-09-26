@@ -1,0 +1,130 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-germany-hybrid-response-alliance-posture-2026",
+  "title": "An alliance can translate a hybrid incident into posture and leadership changes before deterrence is verified",
+  "theme_ids": ["voice", "work", "energy", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "infrastructure_technology_dependency", "firm_sector_market_power", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "NATO Secretary General statement on Germany and NATO 3.0; official alliance response and posture record, not an independent incident assessment or public-opinion sample",
+  "geography": "Germany, Lithuania, NATO eastern flank, and the North Atlantic Alliance",
+  "observations": [
+    {
+      "period": "September 10, 2026; NATO Secretary General statement in Berlin",
+      "denominator": {"value": 1, "unit": "named NATO institutional statement", "value_type": "institutional_event_count"},
+      "measures": {
+        "permanent_armoured_brigade": {"value": "new German armoured brigade permanently stationed in Lithuania", "unit": "reported allied force-posture change", "value_type": "reported_posture_change"},
+        "command_role": {"value": "First German-Netherlands Corps taking a new command role on NATO's eastern flank", "unit": "reported alliance-command change", "value_type": "reported_institutional_change"},
+        "allied_assets": {"value": "German aircraft and ships supporting NATO deterrence and defence", "unit": "reported allied contribution", "value_type": "reported_force_contribution"},
+        "incident_response": {"value": "NATO Secretary General described solidarity with Germany following a reported Russian hybrid attack at Leipzig airport and linked the response to further support for Ukraine", "unit": "officially described political response", "value_type": "reported_alliance_response"},
+        "deterrence_and_public_consent": {"value": "not observed", "unit": "missing deterrence effect, adversary adaptation, public acceptance, alliance durability, and later policy outcome", "value_type": "unmeasured"}
+      },
+      "method": "NATO official statement review; force posture, command role, allied contribution, and institutionally described response are coded separately from independent incident verification, causal deterrence, and public legitimacy.",
+      "uncertainty": "The page is an alliance communication and does not independently establish the nature or effect of the reported hybrid attack, the operational readiness of the brigade, the durability of the command arrangement, or whether Russia changed behavior.",
+      "subgroup": "NATO member governments, allied forces, eastern-flank populations, Germany, Lithuania, and external audiences addressed by the alliance statement.",
+      "counterinterpretation": "A visible posture and solidarity message can reassure allies, signal resolve, or support industrial mobilization while still leaving internal burden-sharing, public consent, escalation risk, and adversary interpretation unresolved.",
+      "source_url": "https://nato.int/en/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-3.0-strengthening-europe-delivering-for-the-alliance",
+      "retrieval_hash": "sha256:fabbc52a671749cae0f626ad2dfda67442e9a61c4e75781ebbab77b81d56c432",
+      "status": "reported"
+    },
+    {
+      "period": "September 19, 2026; NATO joint press conference in Copenhagen",
+      "denominator": {"value": 1, "unit": "named NATO institutional follow-up statement", "value_type": "institutional_event_count"},
+      "measures": {
+        "post_summit_follow_up": {"value": "NATO military leadership reported reviewing progress after the Ankara Summit", "unit": "officially described follow-up", "value_type": "reported_institutional_followup"},
+        "commitment_to_implementation": {"value": "NATO described allies as translating summit commitments into military reality and prioritized ready forces, fielded capabilities, executable plans, readiness, and multi-domain operations", "unit": "official alliance implementation claim", "value_type": "reported_implementation_stage"},
+        "industrial_demand": {"value": "NATO reported rising investment and demand for defense-industry delivery", "unit": "official alliance-industry signal", "value_type": "reported_industrial_signal"},
+        "civil_society_and_critical_infrastructure": {"value": "NATO linked resilience of undersea cables, energy networks, and digital systems to deterrence and said civil society engagement was required", "unit": "officially described governance linkage", "value_type": "reported_governance_link"},
+        "operational_effect_and_external_response": {"value": "not observed", "unit": "missing independent readiness measurement, mission performance, public consent, adversary adaptation, deterrence, and durable alliance behavior", "value_type": "unmeasured"}
+      },
+      "method": "Official NATO press-conference review; the statement is coded as a later institutional implementation claim after the Ankara Summit, not as independent evidence that forces were ready, capabilities were fielded, or an adversary changed behavior.",
+      "uncertainty": "The source is an official alliance communication. It does not provide unit-level readiness data, operational test results, country-specific implementation, public burden or consent, or an attributed external response.",
+      "subgroup": "NATO military leadership, allied governments and forces, defense industry, civil-society audiences, and external audiences addressed by the alliance statement.",
+      "counterinterpretation": "A later institutional claim that commitments are becoming military reality may signal coordination and procurement demand while still leaving actual capability, distribution of burden, public legitimacy, and deterrence unresolved.",
+      "source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/09/19/joint-press-conference-by-the-chair-of-the-nato-military-committee-and-the-chief-of-defence-of-denmark",
+      "retrieval_hash": "sha256:2ce041f4e736b1685c208655f17d04a1732694c99c91a34537b7e894716cb8a7",
+      "status": "reported"
+    },
+    {
+      "period": "2025 population survey; published by the Bundeswehr Center for Military History and Social Sciences",
+      "denominator": {"value": 2000, "unit": "German residents; population survey sample as reported by the source", "value_type": "survey_sample"},
+      "measures": {
+        "support_higher_defense_spending": {"value": 64, "unit": "percent", "value_type": "reported_share"},
+        "support_more_personnel": {"value": 65, "unit": "percent", "value_type": "reported_share"},
+        "support_common_european_security_policy": {"value": 73, "unit": "percent", "value_type": "reported_share"},
+        "support_european_defense_projects": {"value": 62, "unit": "percent", "value_type": "reported_share"},
+        "support_german_eu_defense_actor": {"value": 58, "unit": "percent", "value_type": "reported_share"},
+        "trust_us_reliable_partner": {"value": 37, "unit": "percent", "value_type": "reported_share"},
+        "see_us_policy_as_nato_cohesion_risk": {"value": 43, "unit": "percent", "value_type": "reported_share"},
+        "support_stronger_eastern_flank_engagement": {"value": 47, "unit": "percent", "value_type": "reported_share"},
+        "know_lithuania_mission": {"value": 22, "unit": "percent; respondents saying they know something about the mission", "value_type": "reported_share"},
+        "feel_well_informed_about_foreign_missions": {"value": 10, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Official Bundeswehr population-survey summary; public support, alliance trust, threat interpretation, and mission knowledge are retained as separate measures and are not treated as support for the specific September 2026 Leipzig incident or brigade arrangement.",
+      "uncertainty": "This is a 2025 cross-sectional public-opinion context record. The page summary does not provide a person-level linkage to the September 2026 NATO posture, and low mission knowledge limits any inference from general defense support to informed consent for a specific deployment.",
+      "subgroup": "German population; subgroup and fieldwork details remain as reported in the official survey publication.",
+      "counterinterpretation": "Support for defense spending and European cooperation may reflect threat perception or concern about U.S. reliability without implying support for every mission, cost allocation, escalation risk, or specific force posture.",
+      "source_url": "https://zms.bundeswehr.de/de/publikationen-ueberblick/bevoelkerungsbefragung-2025-deutschland-fuehrungsrolle--5990790",
+      "retrieval_hash": "sha256:60744f4034f61d506afa68683de01f1c14e255f2248fcea6a8188bc3e057290e",
+      "status": "reported"
+    },
+    {
+      "period": "November 17-29, 2023; published December 19, 2023",
+      "denominator": {"value": null, "unit": "Lithuanian public-opinion poll summary", "value_type": "not_disclosed"},
+      "measures": {
+        "approve_permanent_german_brigade": {"value": 82, "unit": "percent", "value_type": "reported_share"},
+        "positive_view_german_military": {"value": 83, "unit": "percent", "value_type": "reported_share"}
+      },
+      "method": "Official Lithuanian Armed Forces summary of a Spinter Research poll commissioned by the Strategic Communications Department; host-country attitude toward the named German brigade is kept separate from German public opinion and from later operational readiness.",
+      "uncertainty": "The poll predates the September 2026 NATO statement and the later physical integration of the brigade. The published summary does not establish actual local experience, distribution across municipalities, durable support, or whether approval translates into consent for future combat use or local burdens.",
+      "subgroup": "Lithuanian population as described by the official poll summary.",
+      "counterinterpretation": "High approval of stationing can reflect threat perception and demand for allied protection without implying approval of every exercise, land-use burden, cost, escalation risk, or future mission.",
+      "source_url": "https://kariuomene.lt/en/newsevents/82-percent-of-poll-respondents-in-lithuania-support-the-stationing-of-a-german-brigade/25718",
+      "retrieval_hash": "sha256:bd87c7bb88c4f9729645801c8addf7bfa2d0d33f9e47dad8c9c19f36449e71ed",
+      "status": "reported"
+    },
+    {
+      "period": "May-June 2026; Freedom Shield 26-I in Pabradė, Lithuania",
+      "denominator": {"value": 1, "unit": "named multinational brigade exercise", "value_type": "institutional_event_count"},
+      "measures": {
+        "first_brigade_exercise_in_lithuania": {"value": 1, "unit": "first reported brigade-level combat exercise on Lithuanian soil", "value_type": "reported_operational_milestone"},
+        "participating_nations": {"value": 8, "unit": "NATO nations participating", "value_type": "reported_exercise_scope"},
+        "personnel": {"value": 2900, "unit": "approximate military personnel", "value_type": "reported_exercise_scope"},
+        "tactical_vehicles": {"value": 800, "unit": "approximate tactical vehicles", "value_type": "reported_exercise_scope"},
+        "training_stages": {"value": "force movement, tactical training, and live firing", "unit": "reported exercise stages", "value_type": "reported_operational_activity"},
+        "full_operational_capability": {"value": "not yet observed; full relocation and capability remain future milestones", "unit": "missing endpoint", "value_type": "unmeasured"}
+      },
+      "method": "Official Bundeswehr and Lithuanian Armed Forces exercise reports; physical deployment, multinational training, and live-fire activity are coded as an operational-readiness milestone, not as combat capability, deterrence, or external behavioral change.",
+      "uncertainty": "The exercise demonstrates training and integration under reported conditions, but the official sources do not establish sustained full operational capability, wartime performance, local burden distribution, adversary adaptation, or deterrence.",
+      "subgroup": "Panzerbrigade 45, Lithuanian Land Force, NATO multinational units, and the host-country training environment.",
+      "counterinterpretation": "A large exercise can improve interoperability and reassurance while consuming local land, infrastructure, money, and attention; exercise performance does not guarantee performance under attack or durable public support.",
+      "source_url": "https://www.bundeswehr.de/de/organisation/heer/aktuelles/freedom-shield-2026-gefechtsuebung-litauen",
+      "retrieval_hash": "sha256:726a869cf4b6f5a9e9e369fce039c9336ffa6a34b5efcd7b56512a93657795f7",
+      "status": "reported"
+    },
+    {
+      "period": "September 10, 2025; NATO response to reported airspace violations and Eastern Sentry announcement",
+      "denominator": {"value": 1, "unit": "reported NATO airspace-response episode", "value_type": "institutional_event_count"},
+      "measures": {
+        "participating_allied_assets": {"value": "Polish F-16s, Dutch F-35s, Italian AWACS, NATO transport aircraft, and German Patriot systems were identified in the reported response context", "unit": "named allied assets", "value_type": "reported_response_scope"},
+        "alliance_action": {"value": "NATO described solidarity with Poland, condemned the airspace violations, and announced Eastern Sentry to reinforce the eastern flank", "unit": "officially described alliance response", "value_type": "reported_alliance_response"},
+        "article_4_consultation": {"value": "Poland requested consultations under Article 4 and NATO described the response as coordinated allied action", "unit": "reported political-procedural response", "value_type": "reported_institutional_action"},
+        "deterrence_and_durability": {"value": "not observed", "unit": "missing causal attribution, adversary adaptation, deterrence effect, public consent, and durable alliance behavior", "value_type": "unmeasured"}
+      },
+      "method": "NATO official transcript review; named participating assets, condemnation, consultation, and the announced defensive posture are coded as reported alliance-response measures. The record does not infer that the response was caused by Poland's later F-35 acceptance or that it changed Russian behavior.",
+      "uncertainty": "The transcript is an official alliance account and does not independently verify every incident detail, establish operational performance, measure Polish or allied public acceptance, or show deterrence. The reported response cannot be attributed specifically to the F-35 acceptance described in the separate Polish government record.",
+      "subgroup": "Poland, NATO eastern-flank allies, allied air and air-defense forces, and external audiences addressed by the NATO statement.",
+      "counterinterpretation": "A rapid, visible alliance response can reassure members and create a stronger defensive posture while still leaving escalation risk, burden distribution, adversary interpretation, and long-run alliance durability unresolved.",
+      "source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2025/09/10/statement",
+      "retrieval_hash": "sha256:5e9998fc35790dbadb31984b4f08d23387ed970c4094d9aed9b2c9e731d74da8",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://nato.int/en/what-we-do/deterrence-and-defence/strengthening-natos-eastern-flank", "claim": "NATO describes the broader eastern-flank posture and Forward Land Forces Finland established in June 2026.", "status": "official-context"},
+    {"source_url": "https://nato.int/en/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-3.0-strengthening-europe-delivering-for-the-alliance", "claim": "NATO describes Germany's brigade, command role, allied contributions, and institutional response to the reported hybrid attack.", "status": "official-statement"},
+    {"source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2025/09/10/statement", "claim": "NATO describes the reported airspace-response episode, allied assets, Article 4 consultation context, solidarity, condemnation, and Eastern Sentry announcement.", "status": "official-transcript", "access_boundary": "The transcript does not establish that the response was caused by Poland's later F-35 acceptance, deterrence, adversary adaptation, public consent, or durable alliance behavior."},
+    {"source_url": "https://kariuomene.lt/en/newsevents/the-german-brigade-kicked-of-its-first-exercise-freedom-shield-26-i-in-pabrade/27016", "claim": "Lithuanian Armed Forces describes the first Freedom Shield exercise, multinational participation, live-fire stages, and readiness milestone.", "status": "official-exercise-report"},
+    {"source_url": "https://www.nato.int/en/news-and-events/events/transcripts/2026/09/19/joint-press-conference-by-the-chair-of-the-nato-military-committee-and-the-chief-of-defence-of-denmark", "claim": "NATO military leadership describes post-Ankara implementation, readiness, fielded capabilities, executable plans, industrial demand, and critical-infrastructure resilience priorities.", "status": "official-follow-up", "access_boundary": "The statement does not independently establish unit-level readiness, operational performance, public consent, adversary adaptation, deterrence, or durable alliance behavior."}
+  ],
+  "boundary": "This record adds a current alliance posture and institutional-response stage, a later post-summit implementation claim, a bounded operational-readiness exercise stage, and dated German and Lithuanian public-legitimacy context layers to the geopolitical/state lane. German support for defense strengthening and European cooperation, lower trust in the United States, limited mission knowledge, and Lithuanian support for the named brigade are separate survey surfaces rather than event-specific consent for the September 2026 posture. The exercise and later NATO statement demonstrate reported training, integration, implementation, and industrial-demand stages but do not establish full operational capability, combat performance, changed adversary behavior, deterrence, local burden acceptance, or durable alliance unity. The next test is an event-country-party-year ledger joining incident verification, allied action, domestic attribution, operational performance, public response, adversary adaptation, and later policy behavior.",
+  "retrieval_hash": "sha256:fabbc52a671749cae0f626ad2dfda67442e9a61c4e75781ebbab77b81d56c432"
+}

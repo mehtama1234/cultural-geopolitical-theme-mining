@@ -5,6 +5,7 @@
 **Case:** Tanzeel Ur Rehman v Portier Pacific Pty Ltd, UDE2025/384
 **Machine record:** [Rehman remedy record](data/uber-rehman-remedy-record-v1.json)
 **Broad event ledger:** [Rehman end-to-end event ledger](data/uber-rehman-end-to-end-event-ledger-v1.json)
+**Current follow-up:** [Rehman order follow-up recheck v2](uber-rehman-order-followup-recheck-2026-09-21.md)
 
 ## Why this case matters
 

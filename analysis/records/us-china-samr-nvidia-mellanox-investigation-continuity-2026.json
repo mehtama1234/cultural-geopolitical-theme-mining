@@ -1,0 +1,52 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-samr-nvidia-mellanox-investigation-continuity-2026",
+  "title": "China's market regulator continued to list NVIDIA's antitrust investigation after alleging noncompliance with Mellanox acquisition conditions",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "China State Administration for Market Regulation notices and 2026 antitrust-enforcement review",
+  "geography": "China, United States, NVIDIA, Mellanox acquisition commitments, and semiconductor/data-center markets",
+  "observations": [
+    {
+      "period": "September 15, 2025 investigation notice; April 10, 2026 SAMR enforcement review",
+      "denominator": {
+        "value": 1,
+        "unit": "NVIDIA antitrust investigation concerning compliance with conditions attached to approval of its Mellanox acquisition",
+        "value_type": "reported_regulatory_case"
+      },
+      "measures": {
+        "initial_finding": {"value": "SAMR stated that a preliminary investigation found NVIDIA violated China's Anti-Monopoly Law and the conditions in the Mellanox acquisition approval decision", "unit": "reported preliminary regulatory finding", "value_type": "reported_preliminary_finding"},
+        "investigation_stage": {"value": "further investigation initiated in September 2025 and still listed by SAMR in its April 2026 enforcement review", "unit": "reported procedural stage", "value_type": "reported_continuing_investigation"},
+        "alleged_conduct": {"value": "NVIDIA's compliance with U.S. export controls required degraded products for the China market and was described in the related company disclosure as discriminating against China customers", "unit": "reported allegation as summarized by NVIDIA and linked regulatory context", "value_type": "reported_allegation"},
+        "final_penalty_or_remedy": {"value": "not observed in the cited official continuation sources", "unit": "no final decision, fine, restriction, or remedy identified", "value_type": "unmeasured"},
+        "market_or_capability_effect": {"value": "not established", "unit": "no causal estimate of product access, competition, customer welfare, or Chinese capability", "value_type": "unmeasured"}
+      },
+      "method": "Cross-read the official September 2025 SAMR investigation notice with SAMR's April 2026 review of 2025 antitrust enforcement. The record treats the September notice as a formal investigation initiation and the April review as evidence that the case remained an enforcement matter; it does not convert a preliminary finding into a final adjudication.",
+      "uncertainty": "The continuation review does not report the investigative record, respondent submissions, final legal qualification, penalty, remedy, settlement, or closure date. The record does not determine whether the investigation caused shipment restrictions, changed NVIDIA's products, or affected Chinese customers or competitors.",
+      "subgroup": "SAMR, NVIDIA, Chinese data-center customers, Mellanox-related networking customers, Chinese competitors, and U.S. export-control authorities",
+      "counterinterpretation": "The continuing investigation may be ordinary procedural follow-through, a bargaining instrument connected to export-control friction, or a serious competition case. Without a final decision or remedy, none of those interpretations is established.",
+      "source_url": "https://www.samr.gov.cn/xw/zj/art/2025/art_66b8363c3a194ba0a394a843d6cf3fd1.html",
+      "retrieval_hash": "sha256:23ec107674681842a740cd9a23c46131cffb3758321c5d52515048984b1853d9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.samr.gov.cn/fldes/sjdt/gzdt/art/2026/art_de48f2bf0dcb4ba5bfefd11988206612.html",
+      "claim": "SAMR's April 2026 review of 2025 antitrust work says the authority continued its further investigation of NVIDIA.",
+      "status": "official-continuation-source",
+      "retrieval_hash": "sha256:2c84c46cd99a063c0d0b0713ef79438458f34b1a72b412141d0977b83907fc44"
+    },
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA's Q2 fiscal-year 2027 filing describes the related Chinese regulatory inquiry and preliminary finding as a continuing business risk.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a formal Chinese antitrust investigation and its continued listing in an official 2026 enforcement review. It does not establish a final violation, penalty, remedy, shipment restriction, customer harm, capability change, or causal connection to H200 sales."
+}

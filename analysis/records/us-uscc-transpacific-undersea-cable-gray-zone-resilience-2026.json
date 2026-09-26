@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-uscc-transpacific-undersea-cable-gray-zone-resilience-2026",
+  "title": "Undersea cable redundancy is a geopolitical and economic-continuity dependency, not only a bandwidth issue",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S.-China Economic and Security Review Commission contracted research report on China, trans-Pacific cables, vulnerability, and disruption modeling",
+  "geography": "United States, Taiwan, Japan, Philippines, Hawaii, Guam, and trans-Pacific cable networks",
+  "observations": [
+    {
+      "period": "September 2026 report; strategic capability and gray-zone exposure assessment",
+      "denominator": {
+        "value": 25,
+        "unit": "operational trans-Pacific cable systems included in the report's network modeling",
+        "value_type": "modeled_network_universe"
+      },
+      "measures": {
+        "cable_system_universe": {"value": 25, "unit": "operational trans-Pacific cable systems modeled", "value_type": "reported_network_count"},
+        "fcc_lit_capacity_coverage": {"value": 83.5, "unit": "percent of trans-Pacific cable capacity accounted for by U.S. operator lit-capacity data", "value_type": "reported_coverage_share"},
+        "repair_vessels": {"value": 62, "unit": "cable vessels globally, with up to 36 potentially unavailable for repairs at a given time according to the report", "value_type": "reported_global_count"},
+        "china_hmn_new_system_share": {"value": 10, "unit": "percent of new cable systems built between 2020 and 2024 supplied by HMN Technologies", "value_type": "reported_industry_share"},
+        "china_hmn_planned_kilometer_share": {"value": 4, "unit": "percent of planned cable kilometers through 2026 attributed to HMN Technologies", "value_type": "reported_industry_share"}
+      },
+      "method": "Descriptive synthesis of the USCC-posted contracted research report's capability review, cable-industry evidence, vulnerability index, and network modeling. The report is presented as research prepared for the Commission's deliberations and is not necessarily endorsed by the Commission or its staff.",
+      "uncertainty": "The report distinguishes accidental or natural breakages from suspected sabotage but does not establish future attack probability. Industry shares, vessel availability, cable capacity, and network exposure are time-sensitive; some lit-capacity and demand inputs are estimated, and the report's analytical judgments are not observed incidents.",
+      "subgroup": "Trans-Pacific cable systems, cable operators, repair fleets, U.S.-connected island routes, Chinese undersea technology firms, and U.S. economic users reliant on low-latency connections.",
+      "counterinterpretation": "China's reduced share of planned cable kilometers may reflect geopolitical exclusion from projects rather than reduced technical capability; cable breakage is usually accidental or natural, and redundancy can improve through capacity upgrades, new routes, repair, and coordination.",
+      "source_url": "https://www.uscc.gov/sites/default/files/2026-09/China_Gray_Zone_Threats_to_Trans_Pacific_Undersea_Cables.pdf",
+      "retrieval_hash": "sha256:942a7e60b0294ac79f796eafb3601d313958afe85b044e483339f206038fceee",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026; modeled peak-demand residual-capacity scenarios",
+      "denominator": {
+        "value": 5,
+        "unit": "illustrative multi-cable disruption scenarios in the report's peak-demand residual-headroom table",
+        "value_type": "modeled_scenarios"
+      },
+      "measures": {
+        "top_three_highest_risk_cables": {"value": 21.96, "unit": "percent residual headroom to lit capacity under peak demand when TPE, PLCN, and NCP are disrupted", "value_type": "modeled_headroom"},
+        "top_five_highest_risk_cables": {"value": 0.0, "unit": "percent residual headroom to lit capacity under peak demand when TPE, PLCN, NCP, AAG, and FASTER are disrupted", "value_type": "modeled_headroom"},
+        "taiwan_contingency": {"value": 1.76, "unit": "percent residual headroom to lit capacity under peak demand when four direct U.S.-Taiwan connections are disrupted", "value_type": "modeled_headroom"},
+        "top_two_largest_cables": {"value": -69.76, "unit": "percent residual headroom to lit capacity under peak demand when JUNO and PLCN are disrupted; negative indicates modeled overload", "value_type": "modeled_headroom"},
+        "guam_single_cable_design_headroom": {"value": 0.1, "unit": "less than percent headroom if one of Guam's two continental-U.S. cables is broken even after maximum-design-capacity upgrades", "value_type": "modeled_headroom_bound"}
+      },
+      "method": "Scenario model using published design capacity for 25 operational trans-Pacific systems, estimated lit capacity, high- and low-stress demand assumptions, and alternative-routing analysis. Peak demand is modeled at 70%-80% of lit capacity; the report separately models latency and average-demand conditions.",
+      "uncertainty": "This is a scenario exercise, not a forecast or observed outage record. Demand between routes is not publicly observed, some lit capacity is estimated, the network snapshot is primarily current to end-2024, and cable upgrades or repairs could change the result. Negative headroom is modeled overload, not a measured service outage.",
+      "subgroup": "Trans-Pacific routes linking the United States with Taiwan, Japan, and the Philippines, plus domestic Pacific connections to Hawaii and Guam; downstream users include internet, financial, cloud, AI, and communications services.",
+      "counterinterpretation": "A modeled capacity shortfall need not become a realized consumer or firm outage if traffic is rerouted, demand is lower, capacity is upgraded, repair fleets respond quickly, or alternative systems enter service.",
+      "source_url": "https://www.uscc.gov/sites/default/files/2026-09/China_Gray_Zone_Threats_to_Trans_Pacific_Undersea_Cables.pdf",
+      "retrieval_hash": "sha256:942a7e60b0294ac79f796eafb3601d313958afe85b044e483339f206038fceee",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    "https://www.uscc.gov/research/chinas-gray-zone-threats-trans-pacific-undersea-cables"
+  ],
+  "boundary": "This record adds an external geopolitical-infrastructure dependency and scenario-model layer. It does not establish Chinese intent, a sabotage event, future attack probability, realized connectivity loss, consumer harm, firm loss, or U.S. strategic leverage; modeled capacity and latency effects must remain separate from observed outages and downstream outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "USCC research page and linked 72-page PDF retrieved; operational cable universe, FCC coverage, repair-vessel context, HMN industry shares, disruption scenarios, Guam/Hawaii exposure, model assumptions, and endorsement disclaimer cross-checked against the publication.",
+    "html_sha256": "sha256:3fd19aeda14753418d0020ee6048b6c7031b6b8977717590e6b192caa44adffa",
+    "pdf_sha256": "sha256:942a7e60b0294ac79f796eafb3601d313958afe85b044e483339f206038fceee",
+    "checked": "2026-09-26"
+  }
+}

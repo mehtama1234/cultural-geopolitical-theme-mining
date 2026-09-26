@@ -1,0 +1,27 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-uber-occupational-licensing-consumer-outcomes-2026",
+  "title": "Licensing changed the driver pool without showing a consistent improvement in measured ride outcomes",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "public_systems_feedback", "household_room_consumption", "unequal_exposure_status", "infrastructure_technology_dependency"],
+  "source_unit": "NBER Working Paper 35635; trip-level Uber data, driver ratings, telematics-based driving measures, a New York City/New Jersey comparison, and a Houston deregulation event",
+  "geography": "United States; New York City/New Jersey and Houston Uber markets",
+  "observations": [{
+    "period": "Two quasi-experimental licensing settings; paper issued August 2026",
+    "denominator": {"value": 1, "unit": "U.S. Uber occupational-licensing study", "value_type": "study_unit"},
+    "measures": {
+      "consumer_outcomes": {"value": "no consistent evidence that licensing improved the measured consumer outcomes across settings and specifications", "unit": "trip-level ratings and telematics-based driving outcomes", "value_type": "reported_comparison"},
+      "houston_entry": {"value": "after Houston deregulation, entrants were indistinguishable from previously licensed drivers on ratings and driving behavior despite differences in age and experience", "unit": "entrant versus previously licensed driver comparison", "value_type": "reported_comparison"},
+      "licensing_scope": {"value": "the study compares licensed and unlicensed drivers using proximity-based dispatch and instrumental-variable specifications", "unit": "identification design", "value_type": "reported_method"}
+    },
+    "method": "The authors use trip-level Uber data and quasi-random assignment from proximity-based dispatch in a New York City/New Jersey cross-border comparison and a Houston deregulation event, with instrumental-variable estimates.",
+    "uncertainty": "The public abstract and finding do not measure fares, wait times, cancellations, entry cost, worker income, disability access, serious safety incidents, or every customer outcome. Results cover two settings whose enforcement, transit alternatives, and driver supply may differ from other U.S. cities.",
+    "subgroup": "Uber riders and drivers in the studied New York City/New Jersey and Houston settings; age, experience, access to other work, neighborhood transit, and proximity to the licensing boundary can differ within the comparison.",
+    "counterinterpretation": "Licensing could reduce rare severe incidents or improve checks without changing average ratings or telematics, while also reducing supply or raising entry cost. A null result for measured outcomes is not evidence that licensing has no value, and a driver-pool change is not itself proof of better or worse safety.",
+    "source_url": "https://www.nber.org/papers/w35635",
+    "retrieval_hash": "sha256:28dc628f6844d3f1696202af9936fb8978e1a5b6409d180de9807b2e8cea41a2",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35635", "claim": "NBER DOI record for Working Paper 35635", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a regulation-to-entry-and-service finding: a protective rule can change who enters without changing the measured average ride outcomes. It does not establish effects on serious incidents, ordinary ride access, fares, waits, worker income, disability service, or customer trust across all cities."
+}

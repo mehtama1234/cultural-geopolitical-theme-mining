@@ -1,6 +1,6 @@
 # UAS health-cost episode and legitimacy acquisition audit v1
 
-**Checked:** 2026-09-18
+**Checked:** 2026-09-20
 **Status:** official documentation route verified; registration-gated microdata not acquired; public terms restrict automated/LLM handling; no estimate promoted
 
 ## Why this is the next acquisition
@@ -153,6 +153,51 @@ actual file overlap, observed value domains, usable weights after filtering,
 or a verified remedy, trust, action, or recovery endpoint. The dataset remains
 registration-gated and no respondent data were downloaded.
 
+### Current official page recheck — 2026-09-20
+
+The official [UAS Monthly Surveys page](https://uasdata.usc.edu/index.php?pid=Monthly+Surveys&type=3)
+was rechecked through the current public documentation route. It still
+describes the Older Ages Monthly Events panel as 52 waves from June 2019
+through September 2023, with prior-month event, health, work, earnings, and
+medical-expenditure measures; the download remains explicitly registration
+required. The same page describes the ongoing Monthly Panel as October 2023
+to the present and identifies one respondent-by-wave record with prior-month
+employment, health, financial, life-satisfaction, pain, stress, and
+meaning/purpose measures.
+
+The current [Comprehensive File and Panel Dataset page](https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3)
+also confirms that the June 2026 Comprehensive Panel Dataset is long-format,
+respondent-by-wave, linked by `uasid`, and available only to registered users.
+The current [terms page](https://uasdata.usc.edu/index.php?pid=Terms+and+conditions&type=3)
+requires a UAS account and data-user agreement and prohibits automated
+extraction; it also states that LLMs may not manage, process, or analyze CESR
+data without express written authorization.
+
+This recheck strengthens acquisition readiness but changes no evidence status:
+the respondent files remain unavailable in this workspace, and no estimate is
+promoted. The first authorized acquisition remains Older Ages plus its
+codebook, followed by structural, weight, missingness, and event/outcome
+overlap checks.
+
+### Current route clarification — 2026-09-19
+
+The official [UAS Comprehensive File and Comprehensive Panel Dataset page](https://uasdata.usc.edu/index.php?pid=Comprehensive+File&type=3)
+was rechecked on 2026-09-19. It now clearly presents the June 2026
+Comprehensive Panel Dataset as available to registered users: a long-format
+respondent-by-wave file with harmonized core survey content, quarterly updates,
+and `uasid` linkage to additional UAS files. This makes the CPD a more concrete
+person-over-time backbone for the broad atlas than the earlier page-level
+description alone.
+
+The boundary is unchanged. Registration and the applicable data-use terms are
+still required; no respondent file is present locally; and the public page does
+not prove that a dated health-cost event, usable alternative, remedy receipt,
+trust/action measure, or durable recovery endpoint will overlap for the same
+person. The operational order therefore remains: acquire Older Ages plus its
+codebook for the narrow event-first test, then use CPD as the harmonized
+person-wave backbone if authorized and structurally compatible. No estimate is
+promoted from this route update.
+
 ### Overall-workspace retention search — 2026-09-17
 
 Before treating registration-gated access as the only explanation for the
@@ -257,12 +302,17 @@ monthly health/financial event or special-module medical-cost experience
 The questionnaire pages expose additional field-level anchors for the
 acquisition script. In UAS 537 these include `avoidcare_cost` (needed care not
 obtained because it was unaffordable), `hcb_ever` (a household medical bill
-that was unaffordable or disputed), `afford_services`, `hrsntrust_hosp`, and
-`hrsntrust_ins`. In UAS 698 the documented anchors include `N215` (money help
-for medical expenses), `N333` (out-of-pocket amount for other medical
-expenses), `N235` (overall satisfaction with health-care quality, cost, and
-convenience), `N492` (needed medical care but did not get it), `N493` (reasons
-for that gap), and `N295` (whether care preferences were taken into account).
+that was unaffordable or disputed), `hcb_reach`, `hcb_who`, `hcb_whynot`,
+`hcb_time`, and `hcb_result` (whether and how the household pursued billing
+help, the effort and result), `hcb_comfort`, `hcb_respect`,
+`afford_services`, `hrsntrust_hosp`, and `hrsntrust_ins`. In UAS 698 the
+documented anchors include `N212`/`N215` (whether someone helped with medical
+costs and how much), `N333` (out-of-pocket amount for other medical expenses),
+`N235` (overall satisfaction with health-care quality, cost, and convenience),
+`N492` (needed medical care but did not get it), `N493` (reasons for that gap,
+including cost, appointment delay, work/care conflict, scheduling, wait time,
+and transportation), and `N295` (whether care preferences were taken into
+account).
 These names are acquisition targets, not yet verified local columns.
 
 The September 1, 2026 monthly-panel codebook adds a particularly useful

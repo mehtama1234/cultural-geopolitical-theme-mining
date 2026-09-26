@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-states-fragility-2025-poverty-conflict-displacement",
+  "title": "Extreme poverty, conflict, displacement, and weak recovery are concentrating in high-fragility contexts with limited capacity to absorb shocks",
+  "theme_ids": ["cost", "voice", "time", "energy"],
+  "program_theme_ids": ["geopolitical_state_consequences", "unequal_exposure_status", "public_systems_feedback", "household_room_consumption", "political_judgment_action", "care_health_reproduction"],
+  "source_unit": "OECD, States of Fragility 2025, chapter on the state of fragility in 2025",
+  "geography": "177 global contexts assessed by the OECD multidimensional fragility framework, with detailed attention to 43 high-fragility and 18 extreme-fragility contexts",
+  "observations": [
+    {
+      "period": "2025; multidimensional fragility classification",
+      "denominator": {"value": 177, "unit": "global contexts analyzed by the OECD multidimensional fragility framework", "value_type": "global_fragility_frame"},
+      "measures": {
+        "high_fragility_contexts": {"value": 43, "unit": "contexts identified as experiencing high fragility", "value_type": "reported_context_count"},
+        "extreme_fragility_contexts": {"value": 18, "unit": "contexts identified as experiencing extreme fragility", "value_type": "reported_context_count"},
+        "population_in_high_extreme": {"value": 25, "unit": "percent of the world population living in high- or extreme-fragility contexts", "value_type": "reported_population_share"},
+        "extreme_poverty_concentration": {"value": 72, "unit": "percent of the world’s extreme poor living in high- or extreme-fragility contexts in 2024", "value_type": "reported_population_share"}
+      },
+      "method": "OECD multidimensional fragility framework covering political, security, economic, environmental, societal, and human dimensions across 177 contexts.",
+      "uncertainty": "Fragility is a multidimensional classification rather than a single causal variable; context boundaries, data coverage, and thresholds shape estimates and do not describe every locality or household.",
+      "subgroup": "Populations in high- and extreme-fragility contexts, extreme-poor households, governments, communities exposed to conflict, and people with unequal access to services and security.",
+      "counterinterpretation": "High fragility is not a permanent identity: some contexts have reduced exposure since 2015, and institutional reform, social cohesion, peacebuilding, and service delivery can change trajectories.",
+      "source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en/full-report/the-state-of-fragility-in-2025_7cb5662b.html",
+      "retrieval_hash": "sha256:f0e4c750c1a99e6aec2b67a0cc65f59fc801300cfaaa707b2312459df0571fee",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2040; poverty concentration and recovery outlook",
+      "denominator": {"value": 1, "unit": "global extreme-poverty projection under OECD fragility scenarios", "value_type": "poverty_fragility_projection_frame"},
+      "measures": {
+        "extreme_poor_2040_projection": {"value": 92, "unit": "percent of the world’s extreme poor potentially living in high- or extreme-fragility contexts by 2040", "value_type": "reported_projection"},
+        "median_per_capita_growth_high_fragility": {"value": 2, "unit": "percent median per-capita growth stabilizing in high-fragility contexts", "value_type": "reported_growth_pattern"},
+        "median_per_capita_growth_extreme_fragility": {"value": "negative", "unit": "median per-capita growth pattern in extreme-fragility contexts", "value_type": "reported_growth_pattern"},
+        "poverty_security_link": {"value": "fragility, poverty, inequality, food insecurity, and forced displacement reinforce one another", "unit": "reported cross-domain mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD projections and comparative analysis of fragility, extreme poverty, growth, inequality, food insecurity, and displacement.",
+      "uncertainty": "The 2040 figure is a projection contingent on demographic, conflict, growth, policy, and classification assumptions; it is not a forecast of inevitable geographic concentration.",
+      "subgroup": "Extreme-poor populations, high- and extreme-fragility contexts, low-income and middle-income countries, and public systems recovering from conflict and crisis.",
+      "counterinterpretation": "Targeted development, peacebuilding, social protection, inclusive growth, and institutional recovery can shift projected poverty concentration; low growth averages conceal successful local and national reforms.",
+      "source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en/full-report/the-state-of-fragility-in-2025_7cb5662b.html",
+      "retrieval_hash": "sha256:f0e4c750c1a99e6aec2b67a0cc65f59fc801300cfaaa707b2312459df0571fee",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2025; conflict, displacement, and external-resource access",
+      "denominator": {"value": 61, "unit": "high- and extreme-fragility contexts identified by the OECD", "value_type": "fragility_displacement_finance_frame"},
+      "measures": {
+        "organized_violence_contexts": {"value": 27, "unit": "high- or extreme-fragility contexts affected by organized violence in 2023", "value_type": "reported_context_count"},
+        "forcibly_displaced_origin_host": {"value": 100000000, "unit": "refugees and internally displaced persons originating in high- or extreme-fragility contexts, approximately", "value_type": "reported_population_estimate"},
+        "fdi_share": {"value": 5, "unit": "percent or less of global net foreign-direct-investment inflows received by high- and extreme-fragility contexts in 2023", "value_type": "reported_finance_share_upper_bound"},
+        "recovery_constraint": {"value": "fragile contexts face simultaneous security, financing, governance, and service-delivery constraints", "unit": "reported institutional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "OECD analysis of organized violence, forced displacement, foreign direct investment, economic recovery, and multidimensional fragility.",
+      "uncertainty": "Displacement and FDI measures use different sources and definitions; low FDI may reflect conflict, market size, risk, data, or other conditions rather than fragility alone.",
+      "subgroup": "Conflict-affected communities, refugees, internally displaced people, host communities, investors, governments, and service providers in fragile contexts.",
+      "counterinterpretation": "External finance is not the only route to recovery; domestic resource mobilization, diaspora transfers, local enterprise, public institutions, and peace agreements can matter substantially.",
+      "source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en/full-report/the-state-of-fragility-in-2025_7cb5662b.html",
+      "retrieval_hash": "sha256:f0e4c750c1a99e6aec2b67a0cc65f59fc801300cfaaa707b2312459df0571fee",
+      "status": "reported"
+    },
+    {
+      "period": "2025; gender, institutions, and compounded fragility",
+      "denominator": {"value": 61, "unit": "high- and extreme-fragility contexts in the OECD framework", "value_type": "gender_institutional_fragility_frame"},
+      "measures": {
+        "widest_gender_gap_contexts": {"value": 8, "unit": "of the 10 contexts with the widest gender gaps exposed to high or extreme fragility", "value_type": "reported_context_count"},
+        "sdg_progress": {"value": "no high- or extreme-fragility context is on track to achieve critical SDGs related to peace, hunger, health, and gender equality", "unit": "reported development pattern", "value_type": "reported_outcome_pattern"},
+        "policy_delivery": {"value": "safety nets, rural development, gender-income-gap reduction, and equitable revenue generation depend on navigating combinations of fragility", "unit": "reported policy-delivery mechanism", "value_type": "reported_mechanism"},
+        "fragility_dynamic": {"value": "fragility should be treated as a dynamic risk and resilience spectrum rather than a fixed label", "unit": "reported analytical recommendation", "value_type": "reported_framework"}
+      },
+      "method": "OECD multidimensional analysis of gender equality, violence, democratic backsliding, SDG progress, policy delivery, and fragility combinations.",
+      "uncertainty": "Context-level associations do not show that fragility caused a specific gender or SDG outcome; institutional quality, conflict history, social norms, and data availability vary widely.",
+      "subgroup": "Women and girls, marginalized groups, public institutions, civil society, safety-net users, and communities facing overlapping political, economic, security, and societal risks.",
+      "counterinterpretation": "Gender-responsive institutions and inclusive service delivery can be sources of resilience; worsening indicators are not proof that reform is impossible.",
+      "source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en/full-report/the-state-of-fragility-in-2025_7cb5662b.html",
+      "retrieval_hash": "sha256:f0e4c750c1a99e6aec2b67a0cc65f59fc801300cfaaa707b2312459df0571fee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://reproducibility.worldbank.org/catalog/578", "claim": "World Bank 2026 fragility-and-poverty reproducibility package provides a complementary extreme-poverty concentration route."},
+    {"source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en.html", "claim": "Official OECD States of Fragility 2025 publication landing page and framework context."},
+    {"source_url": "https://www.oecd.org/en/publications/states-of-fragility-2025_81982370-en/full-report/the-state-of-fragility-in-2025_7cb5662b.html", "claim": "Official OECD chapter containing the fragility, poverty, displacement, finance, gender, and SDG findings."}
+  ],
+  "boundary": "This record adds a fragility-to-poverty concentration and state-capacity route linking conflict, inequality, food insecurity, displacement, FDI, gender, SDG progress, and policy delivery. It is not a household poverty survey, a causal conflict estimate, a forecast of any individual’s welfare, or respondent-level microdata analysis.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD States of Fragility 2025 chapter and publication pages were reviewed; context counts, population and poverty concentration, 2040 projection, displacement, FDI, gender, SDG, and dynamic-fragility claims were cross-checked.",
+    "source_url_sha256": "sha256:f0e4c750c1a99e6aec2b67a0cc65f59fc801300cfaaa707b2312459df0571fee",
+    "checked": "2026-09-26"
+  }
+}

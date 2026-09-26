@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "openfema_aggregate_disaster_assistance_stage_record",
+  "purpose": "Structured current FEMA Los Angeles wildfire aggregate ledger linking registration, referral, eligibility, and reported assistance stages while preserving individual receipt, housing recovery, and later trust or action as open.",
+  "events": [
+    {
+      "event_id": "FEMA-LA-WILDFIRE-IHP-STAGES-2025-2026",
+      "unit": "institution",
+      "geography": "Los Angeles County, California; 2025 wildfires, FEMA disaster 4856",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-19",
+      "date_precision": "Current API snapshot retrieved 2026-09-19; rows are aggregate city/ZIP program stages rather than person-level dated episodes",
+      "denominator": "621 city/ZIP rows in the OpenFEMA Registration Intake and Individuals Household Program dataset; aggregate categories are not a unique-survivor longitudinal denominator",
+      "method": "Structured extraction from the retained OpenFEMA API snapshot, with descriptive ratios calculated from published aggregate fields",
+      "missingness": "No applicant or household identifier, application sequence, appeal, payment issuance or receipt, amount adequacy, repair or housing completion, insurance interaction, or later recovery is retained",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "The snapshot reports 261117 valid registrations, 98459 IHP referrals, 35165 IHP-eligible records, and 182773747.01 USD in IHP amounts across 267 cities and 347 ZIP codes",
+      "alternatives_before_action": "Survivors could use insurance, local or nonprofit aid, household resources, rental or hotel options, or other federal channels; the feasible alternative set and channel switching are not observed",
+      "immediate_burden_or_benefit": "Registration, referral, eligibility, and reported amount stages make administrative reach visible, but they do not establish payment timing, adequacy, or usable housing",
+      "choice_or_response": "Survivors and institutions moved through registration and program stages, but the aggregate rows do not show individual pursuit, non-use, appeal, or acceptance",
+      "person_or_actor_with_control": "FEMA and intergovernmental partners control program rules, channel design, decisions, and disbursement processes; survivors navigate those constraints",
+      "remedy_or_institutional_response": "FEMA reported referral, eligibility, housing-assistance, and other-needs-assistance stages and amounts; individual award, payment, repair, and placement remain unverified",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "FEMA program-level assistance amounts are reported, but no individual award issuance, payment receipt, amount adequacy, or completed repair is observed",
+      "durability_followup": "No person-level follow-up shows housing completion, stable placement, repeat crisis, unresolved loss, trust, or later action",
+      "immediate_outcome": "The current disaster-specific administrative delivery surface is visible: IHP referrals equal 37.7069% of valid registrations and IHP eligibility equals 35.7154% of referrals in the published aggregate snapshot",
+      "protected_outcome": "Some affected households may have received assistance; no individual protected housing, safety, income, health, or agency outcome is established",
+      "sacrificed_outcome": "Unmet loss, delay, inaccessible application, or unstable housing cannot be identified from the aggregate rows",
+      "cost_risk_transfer": "The gap between registration, eligibility, payment, and recovery can leave navigation, timing, and residual-loss risks with survivors, but their distribution is not measured",
+      "later_outcome": "Payment receipt, repair or placement completion, next housing need, repeat crisis, trust, complaint, political action, and exit remain open",
+      "meaning_and_attribution": "No survivor-level fairness judgment, blame, legitimacy, or trust change is observed",
+      "public_or_collective_response": "Program administration is observed; survivor organizing, public input, and political action are not",
+      "counterexample": "A low or high aggregate stage ratio may reflect timing, category definitions, duplicate or invalid records, or differing denominators; it is not an approval or recovery rate",
+      "evidence_status": "observed",
+      "source_and_uncertainty": "OpenFEMA aggregate API snapshot; categories are stage-specific and not a person-level funnel or unique-household count",
+      "source_url": "https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms?$filter=disasterNumber%20eq%204856&$top=100000"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FEMA-LA-IHP-A-01",
+      "from": "wildfire exposure and need",
+      "to": "registration and administrative visibility",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The snapshot reports 261117 valid registrations across 621 city/ZIP rows",
+      "status": "observed",
+      "counterexample": "The aggregate registration count does not identify unique survivors, damage severity, or unmet need",
+      "remaining_gap": "Applicant identity, damage, insurance, channel effort, and application timing"
+    },
+    {
+      "arrow_id": "FEMA-LA-IHP-A-02",
+      "from": "registration",
+      "to": "IHP referral",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The snapshot reports 98459 IHP referrals and a descriptive 37.7069% referral-to-registration ratio",
+      "status": "observed",
+      "counterexample": "The ratio is not a person-level referral probability because categories and timing are aggregate",
+      "remaining_gap": "Same-applicant referral reason, timing, appeal, channel sequence, and later decision"
+    },
+    {
+      "arrow_id": "FEMA-LA-IHP-A-03",
+      "from": "IHP referral",
+      "to": "eligibility decision",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The snapshot reports 35165 IHP-eligible records and a descriptive 35.7154% eligible-to-referral ratio",
+      "status": "observed",
+      "counterexample": "Eligibility is not payment, receipt, adequacy, or completed repair and the denominator is not a unique applicant panel",
+      "remaining_gap": "Decision reason, correction or appeal, award issuance, payment receipt, and residual loss"
+    },
+    {
+      "arrow_id": "FEMA-LA-IHP-A-04",
+      "from": "eligibility and program stage",
+      "to": "reported assistance amount",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The snapshot reports 182773747.01 USD in IHP amounts, including separate housing-assistance and other-needs-assistance fields",
+      "status": "reported",
+      "counterexample": "A reported aggregate amount does not establish individual receipt, amount adequacy, repair completion, or housing stability",
+      "remaining_gap": "Payment date, recipient receipt, amount relative to loss, repair or placement, and later recovery"
+    }
+  ],
+  "boundary": "This ledger adds a current disaster-specific administrative stage route. It does not estimate survivor approval, payment receipt, housing recovery, trust, or political action.",
+  "storage_boundary": "Only aggregate API rows and derived stage ratios are retained; no survivor identifiers, application file, payment file, or personally identifying information is included."
+}

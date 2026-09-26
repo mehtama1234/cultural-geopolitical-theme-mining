@@ -1,0 +1,36 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-tribal-federal-shared-decision-making-agreements-2026",
+  "title": "Consultation is not the same as shared control over ancestral lands and waters",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["public_systems_feedback", "trust_identity_meaning", "political_judgment_action", "infrastructure_technology_dependency", "geopolitical_state_consequences", "unequal_exposure_status"],
+  "source_unit": "GAO-26-106626, Federal Land and Water Management: Additional Actions Would Strengthen Agreements with Tribes",
+  "geography": "United States; federal land and water management agreements involving Tribes or Native Hawaiian communities and agencies including BLM, Forest Service, FWS, NOAA, and NPS",
+  "observations": [
+    {
+      "period": "2023–January 2026 audit; agreements developed over multiple years",
+      "denominator": {"value": 5, "unit": "shared decision-making agreements selected for in-depth analysis from about 40 agreements provided by agencies and Tribes", "value_type": "study_sample_descriptor"},
+      "measures": {
+        "strengthening_features": {"value": 11, "unit": "features GAO identified as strengthening written shared decision-making agreements", "value_type": "reported_count"},
+        "additional_interviews": {"value": "10 Tribes and one Alaska Native Corporation beyond the selected agreement signatories", "unit": "interviewed entities", "value_type": "reported_count"},
+        "agreement_authority": {"value": "legal authority, senior and field leadership, tribal advocacy, and established personal relationships facilitated agreement development", "unit": "interview-derived factors", "value_type": "reported_qualitative_finding"},
+        "authority_gap": {"value": "Forest Service and NOAA had more limited authority than Interior agencies to enter some self-governance-type agreements", "unit": "institutional constraint", "value_type": "reported_comparison"},
+        "workforce_capacity": {"value": "agencies had not assessed workforce capacity for developing agreements after major workforce changes began in 2025", "unit": "implementation capacity", "value_type": "reported_gap"},
+        "recommendations": {"value": "3 congressional matters for consideration and 8 executive recommendations", "unit": "open recommendations and matters", "value_type": "reported_count"}
+      },
+      "method": "GAO reviewed agreements, laws, agency documents, academic and congressional materials, and interviews. It selected five agreements for in-depth analysis, visited Alaska, Arizona, Hawaii, and Minnesota, interviewed signatories, and separately interviewed additional Tribes and one Alaska Native Corporation about factors that impeded agreement development.",
+      "uncertainty": "The five agreements and their signatories are illustrative and are not generalizable to all federal-Tribal agreements. The report identifies features and reported implementation conditions; it does not measure the share of decisions actually changed, the distribution of land or water outcomes, community consent, cultural restoration, environmental results, or durable trust. Federal agencies retain final reviewing authority where required by law, so the phrase shared decision-making does not mean equal legal sovereignty in every agreement.",
+      "subgroup": "Selected agreements involving BLM, Forest Service, FWS, NOAA, or NPS and Tribes or the Office of Hawaiian Affairs; additional interviews included geographically diverse Tribes and one Alaska Native Corporation.",
+      "counterinterpretation": "A written agreement with consensus language or dispute procedures can strengthen a relationship without guaranteeing that disputed management decisions change. Conversely, uneven formal authority does not mean tribal input has no effect; the report describes substantive long-term input and examples of relationship-building. Advocacy, leadership, and in-person trust may enable agreements while also placing extra time and organizational burden on Tribes.",
+      "source_url": "https://www.gao.gov/products/gao-26-106626",
+      "retrieval_hash": "sha256:02e104ed362ce3ae22917bdfb0a4dff4cadf056527a9b4cffb199a031c2b2bee",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/assets/gao-26-106626.pdf", "claim": "Official GAO report PDF contains the methodology, selected-agreement boundaries, 11 features, authority differences, capacity findings, and recommendations.", "status": "official-report"},
+    {"source_url": "https://www.gao.gov/products/gao-26-108965", "claim": "Follow-on GAO report identifies implementation lessons including mutual understanding, trust, clear implementation, and available resources.", "status": "follow-on-context"}
+  ],
+  "boundary": "This record adds a political-cultural control layer: consultation and a formal partnership can provide substantive input while legal authority, staffing, communication, and dispute routes still determine how much control is usable. It does not estimate equal power, agreement success, ecological or cultural outcomes, community-wide consent, or geopolitical behavior.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GAO landing page and full report PDF; interview materials and underlying agreement files are not retained.", "pdf_sha256": "sha256:02e104ed362ce3ae22917bdfb0a4dff4cadf056527a9b4cffb199a031c2b2bee", "checked": "2026-09-23"}
+}

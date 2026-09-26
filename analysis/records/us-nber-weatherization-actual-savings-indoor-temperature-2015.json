@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-weatherization-actual-savings-indoor-temperature-2015",
+  "title": "Weatherization savings can be much smaller than engineering projections",
+  "theme_ids": ["energy", "cost", "time"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "household_room_consumption", "care_health_reproduction", "public_systems_feedback", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "NBER Working Paper 21331; experimental evaluation of the U.S. Weatherization Assistance Program involving more than 30,000 households",
+  "geography": "United States residential Weatherization Assistance Program households",
+  "observations": [{
+    "period": "U.S. residential weatherization evaluation; paper issued 2015",
+    "denominator": {"value": 30000, "unit": "households in the experimental evaluation, approximately", "value_type": "reported_sample_size"},
+    "measures": {
+      "actual_vs_projected_savings": {"value": "model-projected energy savings were roughly 2.5 times actual savings", "unit": "projected-to-realized energy savings ratio", "value_type": "reported_estimate"},
+      "upfront_cost_vs_savings": {"value": "upfront investment costs were about twice the actual energy savings", "unit": "cost-to-realized-savings comparison", "value_type": "reported_comparison"},
+      "indoor_temperature": {"value": "the study found no evidence of significantly higher indoor temperatures in weatherized homes", "unit": "indoor temperature outcome", "value_type": "reported_null"},
+      "estimated_return": {"value": "including broader societal benefits, the average estimated annual rate of return was approximately negative 9.5%", "unit": "annual rate of return", "value_type": "reported_model_estimate"}
+    },
+    "method": "The authors experimentally evaluate the nation's largest residential energy-efficiency program using a sample of more than 30,000 households, comparing realized energy use with engineering-model projections and investment costs.",
+    "uncertainty": "The abstract does not identify which measures, homes, climates, contractors, landlords, or household conditions explain the projection gap. It does not join each home's bill, indoor temperature, air quality, equipment safety, health, work, care, or housing stability. The estimated return depends on the study's cost and broader-benefit assumptions.",
+    "subgroup": "Low-income residential Weatherization Assistance Program households in the evaluation; the abstract does not establish equal effects for renters, owners, manufactured homes, rural homes, climates, or households with different energy needs.",
+    "counterinterpretation": "Lower-than-projected energy savings do not prove that a particular home became less safe or that weatherization has no value. Comfort, equipment safety, air quality, reduced emissions, or reduced energy insecurity may improve without a large bill reduction, while a household may also use more energy after an upgrade without experiencing a measured temperature increase.",
+    "source_url": "https://www.nber.org/papers/w21331",
+    "retrieval_hash": "sha256:f085f0c37dd527e1ff837a5c43d555cb753221d46780090f72ec53b45d559573",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w21331", "claim": "NBER DOI record for Working Paper 21331", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a measured infrastructure-performance finding: weatherization's realized energy savings were substantially below engineering projections in this evaluation. It does not establish the health, comfort, safety, bill, housing, or welfare outcome for each household, nor does it show that every weatherization project has the same return."
+}

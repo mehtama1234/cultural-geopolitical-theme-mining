@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-international-power-negotiation-2025",
+  "title": "Asymmetric import dependence can create bargaining power that changes engagement and trade adjustment",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 34006; model-implied bilateral import-dependence measure combined with bilateral engagement events and a high-frequency geopolitical-relationship measure",
+  "geography": "Global country pairs over roughly the prior 20 years, with implications for U.S.-linked trade and geopolitical dependence treated as comparative context",
+  "observations": [
+    {
+      "period": "Country-pair trade and engagement panel covering approximately the 20 years before the July 2025 working-paper issue date",
+      "denominator": {
+        "value": null,
+        "unit": "country-pair and sector trade relationships; exact pair-year and event denominators are source-specific",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "international_power_measure": {
+          "value": "asymmetric bilateral import dependence weighted inversely by sectoral trade elasticities",
+          "unit": "model-implied country-pair power measure",
+          "value_type": "modeled_measure"
+        },
+        "engagement_response": {
+          "value": "increases in measured international power induce more bilateral engagement and negotiations",
+          "unit": "country-pair engagement and negotiation events",
+          "value_type": "estimated_association"
+        },
+        "strategic_trade_adjustment": {
+          "value": "worsened geopolitical relationships prompt countries to build greater international power by adjusting trade activities in anticipation of future disputes",
+          "unit": "trade-activity response to geopolitical deterioration",
+          "value_type": "estimated_association"
+        },
+        "threat_credibility_channel": {
+          "value": "import asymmetry raises the credibility of threats to disrupt trade in the model",
+          "unit": "coercive bargaining mechanism",
+          "value_type": "modeled_mechanism"
+        }
+      },
+      "method": "Illustrative hold-up and dispute model; construct a model-implied power measure from asymmetric bilateral import dependence and sectoral trade elasticities; combine it with comprehensive bilateral engagement events and a high-frequency geopolitical relationship measure.",
+      "uncertainty": "The power index is model-implied rather than an observed willingness or capacity to coerce. Engagement and trade-adjustment results are empirical relationships within a cross-country panel and do not by themselves establish a successful threat, concession, retaliation, household incidence, or U.S.-specific effect. Sectoral elasticities, anticipation, reverse causality, event coding, and country-pair selection shape interpretation.",
+      "subgroup": "Country pairs, sectors, trading governments, and firms whose import dependence differs by direction and substitutability; no household or worker distribution is reported in the abstract.",
+      "counterinterpretation": "Countries may engage more when dependence rises because they seek cooperation, manage ordinary trade, or respond to common shocks rather than because threats become credible. Trade adjustment may reflect efficiency, diversification, domestic politics, or supply conditions rather than deliberate preparation for conflict.",
+      "source_url": "https://www.nber.org/papers/w34006",
+      "retrieval_hash": "sha256:3c965ac46ff73f898333a7e4955db1df8499ebfd8c93925749e31a4d55918019",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w35077",
+      "claim": "The bilateral conflict-risk paper measures hostility layers and trade disruption; this record supplies a separate dependence-to-engagement mechanism and does not pool the two estimates.",
+      "status": "cross-source-comparator-kept-separate"
+    },
+    {
+      "source_url": "https://www.nber.org/papers/w34177",
+      "claim": "The reserves, sanctions, and tariffs study supplies a separate financial-reserve response channel for uncertainty and sanctions.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a modeled dependence-to-negotiation and anticipatory-trade-adjustment pathway. It does not establish observed coercive leverage in a named episode, a policy concession, successful deterrence, U.S.-specific incidence, firm substitution, household cost, alliance behavior, or durable geopolitical change. Keep model-implied power, engagement, trade adjustment, retaliation, and strategic outcome as separate stages."
+}

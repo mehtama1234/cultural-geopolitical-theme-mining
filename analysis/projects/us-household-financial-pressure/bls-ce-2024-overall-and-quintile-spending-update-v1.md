@@ -67,3 +67,5 @@ Do not read the result as a welfare index, a liquidity measure, a within-unit
 panel transition, a causal price response, or evidence of political judgment.
 The existing [income-quintile distribution layer](ce-2024-income-quintile-distribution-layer-v1.md)
 contains the earlier bounded comparison and its detailed next-test boundary.
+The machine-readable [BLS consumer-expenditures record](../../records/us-bls-consumer-expenditures-income-quintile-2024.json)
+preserves this source as a two-observation atlas layer.

@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-vigorous-warrior-civil-military-medical-readiness-2026",
+  "title": "A multinational medical exercise can turn alliance readiness into civilian-military coordination before crisis performance is known",
+  "theme_ids": ["voice", "work", "energy", "cost"],
+  "program_theme_ids": ["geopolitical_state_consequences", "care_health_reproduction", "infrastructure_technology_dependency", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NATO official report on Vigorous Warrior 2026, an exercise report rather than an independent evaluation of wartime medical outcomes",
+  "geography": "Estonia, NATO member and partner countries, and the Alliance's eastern-flank medical-readiness network",
+  "observations": [
+    {
+      "period": "June 8-20, 2026; Vigorous Warrior 2026 concluded in Estonia",
+      "denominator": {"value": 38, "unit": "Allied and partner nations participating", "value_type": "reported_exercise_scope"},
+      "measures": {
+        "multinational_medical_exercise": {"value": 1, "unit": "named NATO medical-readiness exercise", "value_type": "reported_operational_milestone"},
+        "civilian_institutions": {"value": "Estonia Health Board, hospitals, Rescue Board, Police and Border Guard Board, and ambulance services participated", "unit": "reported civilian-participant network", "value_type": "reported_civil_military_integration"},
+        "tested_capabilities": {"value": "large-scale combat medical support, casualty evacuation, underground treatment facilities, unmanned evacuation systems, and reduced thermal/electronic signatures", "unit": "reported exercise activities", "value_type": "reported_operational_activity"},
+        "alliance_readiness": {"value": "NATO reports strengthened interoperability, innovation, civil-military cooperation, and medical preparedness", "unit": "official exercise assessment", "value_type": "reported_institutional_effect"},
+        "crisis_performance_and_public_outcome": {"value": "not observed", "unit": "missing wartime performance, patient outcome, civilian burden, public acceptance, and adversary response", "value_type": "unmeasured"}
+      },
+      "method": "NATO official exercise report; participation, tested procedures, civilian integration, and reported readiness effects are coded separately from actual crisis performance, patient outcomes, and public legitimacy.",
+      "uncertainty": "The report is an institutional account of a completed exercise. It does not provide independent performance scoring, casualty outcomes, resource allocation, local burden, continuity under attack, or evidence that exercise readiness changed an adversary's behavior.",
+      "subgroup": "NATO medical forces, partner forces, Estonian civilian health and emergency institutions, and populations that could depend on civil-military medical coordination during crisis.",
+      "counterinterpretation": "Exercise integration can strengthen preparedness while consuming public resources, exposing civilian institutions to military priorities, or leaving unresolved bottlenecks in staffing, supplies, evacuation, and care continuity.",
+      "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
+      "retrieval_hash": "sha256:cbf94c4ce1b1973bb73cde84b919677362f460f70307e439767ead04df6200a1",
+      "status": "reported"
+    },
+    {
+      "period": "June 8-20, 2026; exercise continuity and civilian-interface detail",
+      "denominator": {
+        "value": 1,
+        "unit": "named multinational medical exercise in Estonia",
+        "value_type": "reported_exercise_case"
+      },
+      "measures": {
+        "care_sequence_tested": {"value": "point of injury through stabilization, evacuation, higher-level treatment, and continuity across units and nations", "unit": "reported exercise sequence", "value_type": "reported_operational_activity"},
+        "civilian_interface": {"value": "Estonia Health Board, hospitals, Rescue Board, Police and Border Guard Board, ambulance services, and civilian representatives from partner countries participated", "unit": "reported civilian-military network", "value_type": "reported_coordination"},
+        "host_novelty": {"value": "first exercise of this scale and type in Estonia since 2002", "unit": "reported host-country milestone", "value_type": "reported_context"},
+        "crisis_or_patient_result": {"value": "not observed", "unit": "missing real-crisis performance, patient survival, care continuity under attack, resource burden, public acceptance, and adversary response", "value_type": "unmeasured"}
+      },
+      "method": "Follow-up of the official NATO exercise account, separating the tested care sequence and civilian interface from the exercise sponsor's readiness and deterrence assessment.",
+      "uncertainty": "NATO's report does not provide independent scoring, failed-task counts, civilian resource costs, patient-level outcomes, local consent measures, or evidence that the exercise changed operational or adversary behavior.",
+      "subgroup": "NATO and partner medical forces, Estonian civilian health and emergency institutions, and populations potentially dependent on civil-military medical coordination in crisis.",
+      "counterinterpretation": "Training the full care sequence and involving civilian institutions can improve resilience; it may also reveal or create competition for staff, facilities, evacuation assets, and public attention that the report does not measure.",
+      "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
+      "retrieval_hash": "sha256:a57c678af720dada6ee4024f2152f64c52ae1763e58358ed9777d5b51c4bff48",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/16/guidance-for-enhancing-public-private-cooperation-for-resilience", "claim": "NATO guidance calls for civilian and private-sector coordination, recurring exercises, and supply-assurance mechanisms for resilience.", "status": "official-context"}
+  ],
+  "boundary": "This record adds an operational exercise and civil-military coordination stage to the geopolitical/state lane. It does not establish actual crisis medical performance, patient survival or continuity, local burden distribution, public consent, strategic deterrence, or changed adversary behavior. It is distinct from the Germany/Lithuania brigade exercise because its unit is multinational medical and civilian emergency coordination rather than brigade combat integration.",
+  "retrieval_hash": "sha256:cbf94c4ce1b1973bb73cde84b919677362f460f70307e439767ead04df6200a1"
+}

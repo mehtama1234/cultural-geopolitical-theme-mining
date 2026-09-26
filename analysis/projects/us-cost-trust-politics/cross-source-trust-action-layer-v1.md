@@ -81,6 +81,32 @@ The broad working interpretation is therefore:
 This is a provisional synthesis across source populations, not a measured
 causal model.
 
+## Political efficacy is a conversion gate
+
+The CIRCLE/When We All Vote youth layer makes one intermediate step more
+visible. Financially struggling young adults are less likely to say voting
+matters and less likely to report voting readiness, but they also identify
+housing, groceries, health care, and wages as urgent political concerns. The
+same material condition can therefore weaken efficacy or create a demand for
+action, depending on whether a person sees a credible route from participation
+to improvement.
+
+The expanded chain is:
+
+```text
+material pressure or institutional encounter
+  -> meaning and attribution
+  -> perceived efficacy / belief that action can matter
+  -> action route: vote, contact, organize, share, complain, switch, or withdraw
+  -> response and later trust [open]
+```
+
+Efficacy is not the same as optimism, trust, or turnout. A person may distrust
+an institution yet organize against it; may support a policy but not vote; or
+may believe voting matters while lacking time, access, or information. The
+current sources support the gate as a useful cross-theme hypothesis, not as a
+same-person causal estimate.
+
 The April–June 2025 HTOPS linked panel adds a bounded counterexample to the
 idea that institutional contact or reported recovery automatically restores
 security. Among the retained respondents, retrospective exposure alone was

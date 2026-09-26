@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-atus-leave-access-unmet-need-2024-2025",
+  "title": "Formal leave access does not guarantee usable time when workers need it",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "time_hidden_price",
+    "care_health_reproduction",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BLS American Time Use Survey 2024-25 Leave and Job Flexibilities Module; wage and salary workers' main jobs, excluding self-employed workers",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2024-2025 annual averages",
+      "denominator": {
+        "value": 6600,
+        "unit": "approximately 6,600 respondents in the 2024-25 Leave and Job Flexibilities Module",
+        "value_type": "study_sample"
+      },
+      "measures": {
+        "paid_leave_access": {
+          "value": 71,
+          "unit": "percent of wage and salary workers",
+          "value_type": "reported_share"
+        },
+        "unpaid_leave_access": {
+          "value": 78,
+          "unit": "percent of wage and salary workers; an additional 8% were unsure",
+          "value_type": "reported_share"
+        },
+        "either_paid_or_unpaid_access": {
+          "value": 94,
+          "unit": "percent of wage and salary workers",
+          "value_type": "reported_share"
+        },
+        "needed_but_did_not_take": {
+          "value": 8,
+          "unit": "percent who needed leave during an average month but did not take it",
+          "value_type": "reported_share"
+        },
+        "need_reasons": {
+          "value": "among workers with unmet leave need, about 40% needed leave for their own illness or medical care, 24% for illness or care of a family member, and 21% for errands or personal reasons",
+          "unit": "percent distribution among workers with unmet leave need",
+          "value_type": "reported_distribution"
+        },
+        "nonuse_reasons": {
+          "value": "among workers with unmet leave need, 29% cited too much work, 14% feared negative employment consequences or had a denied request, and 13% could not afford the income loss",
+          "unit": "percent distribution among workers with unmet leave need",
+          "value_type": "reported_distribution"
+        },
+        "access_gap": {
+          "value": "paid-leave access was 90% in management, business, and financial operations occupations versus 45% in service occupations; 81% in the public sector versus 69% in the private sector; and 81% for full-time versus 32% for part-time single jobholders",
+          "unit": "reported subgroup comparison",
+          "value_type": "reported_comparison"
+        },
+        "later_outcome": {
+          "value": "not measured",
+          "unit": "care completion, health, pay loss, job retention, family stability, or household recovery",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "BLS descriptive analysis of the ATUS Leave and Job Flexibilities Module collected January 2024 through December 2025; weighted annual averages for wage and salary workers at their sole or main job.",
+      "uncertainty": "The module measures worker knowledge and self-report, not verified employer policy or actual care completion. It excludes self-employed workers, covers the main job, has no interviews during the 2025 federal shutdown period, and does not link unmet leave to later outcomes.",
+      "subgroup": "Wage and salary workers age 15 and older, with comparisons by sex, occupation, sector, full- or part-time status, earnings, work-at-home ability, and family characteristics.",
+      "counterinterpretation": "Not taking leave can reflect alternate arrangements, saved leave, changed need, or a worker's preference, not only employer pressure or unaffordable income loss. Access percentages also reflect workers' understanding of their policy and do not guarantee approval at the moment of need.",
+      "source_url": "https://www.bls.gov/news.release/leave.htm",
+      "retrieval_hash": "sha256:d497e48833268fb5856d20fbcb36417062b2846018b12541476ba56bf892d7dd",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.dol.gov/agencies/wb/data/leave-job-flexibilities",
+      "claim": "The Department of Labor Women’s Bureau provides the leave and job-flexibility data route and subgroup tables; the BLS release is the underlying 2024-25 statistical source.",
+      "status": "official-program-context"
+    }
+  ],
+  "boundary": "This record adds a national work-time and care-access boundary: formal leave access can coexist with unmet need because work, job-risk, and income constraints remain. It does not establish why any one worker did not take leave, whether care or illness was resolved, or whether leave policy changed later job, health, family, trust, or political outcomes."
+}

@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-jef-ukraine-enhanced-partnership-aurora-2026",
+  "title": "A partner's battlefield experience moved into a multinational exercise without proving alliance membership or deterrence",
+  "theme_ids": ["voice", "work", "energy"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "Official Ukrainian and Joint Expeditionary Force accounts of the Ukraine-JEF Enhanced Partnership and Ukrainian participation in Exercise AURORA 26",
+  "geography": "Ukraine, Sweden, and the Joint Expeditionary Force northern European operating area",
+  "observations": [
+    {
+      "period": "February 11, 2026; Ukrainian interagency implementation meeting",
+      "denominator": {
+        "value": 1,
+        "unit": "reported Ukrainian interagency meeting on implementing the JEF Enhanced Partnership",
+        "value_type": "reported_partner_implementation_event"
+      },
+      "measures": {
+        "partner_action": {
+          "value": "Ukraine coordinated formats for Ukrainian-unit participation in scheduled JEF training and joint exercises",
+          "unit": "reported partner implementation step",
+          "value_type": "reported_partner_action"
+        },
+        "knowledge_exchange": {
+          "value": "Ukraine identified combat experience, unmanned systems, and modern battlefield technology as areas for specialist exchange",
+          "unit": "reported capability-sharing priority",
+          "value_type": "reported_partner_contribution"
+        },
+        "durable_external_effect": {
+          "value": "not observed at this stage",
+          "unit": "missing completed exercise participation, later partner behavior, maintenance, public consent, deterrence, and strategic leverage",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Bounded extraction from Ukraine's official Ministry of Foreign Affairs account; planned coordination, proposed contribution, and later exercise output are kept separate.",
+      "uncertainty": "The meeting account reports coordination and priorities, not completed unit participation, operational effect, resource cost, or a changed decision by an ally or adversary.",
+      "subgroup": "Ukrainian security and defense institutions, JEF member states, and prospective exercise participants; no public-opinion or unit-level outcome sample is reported.",
+      "counterinterpretation": "A partner can use a multinational framework to exchange experience and seek access to technology without becoming a member, receiving a binding security guarantee, or changing an adversary's behavior.",
+      "source_url": "https://mfa.gov.ua/en/news/oleksandr-mishchenko-proviv-mizhvidomchu-naradu-z-predstavnikami-sektoru-bezpeki-i-oboroni-ukrayini",
+      "retrieval_hash": "sha256:44d04b90d914b517e73b5e2807ce688c34fbb176563ff23304b9bfe55a4f9f35",
+      "status": "reported"
+    },
+    {
+      "period": "2026; Exercise AURORA 26 in Sweden",
+      "denominator": {
+        "value": 1,
+        "unit": "reported multinational exercise with Ukrainian drone operators and specialists",
+        "value_type": "reported_exercise_event"
+      },
+      "measures": {
+        "accepted_partner_capability": {
+          "value": "Ukrainian drone operators and specialists took part in live exercises in Sweden as part of AURORA 26",
+          "unit": "reported partner participation and capability-sharing output",
+          "value_type": "reported_operational_participation"
+        },
+        "framework_conversion": {
+          "value": "the Enhanced Partnership moved from political agreement and coordination into a named exercise with practical Ukrainian participation",
+          "unit": "reported partnership-conversion stage",
+          "value_type": "reported_conversion"
+        },
+        "external_behavior_or_durability": {
+          "value": "not observed",
+          "unit": "missing adversary adaptation, later joint operations, sustained access, funding, public burden, or reversal",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Extraction from an official JEF activity account describing Ukrainian participation in AURORA 26; exercise participation is retained separately from operational deployment, deterrence, and changed external behavior.",
+      "uncertainty": "The account does not provide the number of Ukrainian personnel, specific tasks completed, cost, classified outputs, follow-on access, or evidence that the exercise changed a Russian or other external actor's choices.",
+      "subgroup": "Ukrainian drone operators and specialists, Swedish hosts, JEF members, and exercise participants; no local public-acceptance or civilian-impact measure is reported.",
+      "counterinterpretation": "Participation can be a meaningful contribution and learning channel while remaining a bounded exercise relationship rather than alliance membership, combat deployment, or proof of deterrence.",
+      "source_url": "https://myemail.constantcontact.com/Looking-back-on-two-years-leading-the-JEF.html?aid=o9Jb5agFVmo&soid=1140529642182",
+      "retrieval_hash": "sha256:2d83e2124e15be86365088ab7b269d1e9bd96f51777319254c0b7f1e9c7342e5",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gov.uk/government/news/joint-expeditionary-force-launches-enhanced-partnership-with-ukraine-as-allies-step-up-further",
+      "claim": "The UK described the Enhanced Partnership as covering training, critical-infrastructure protection, drones, battlefield medicine, and counter-disinformation cooperation.",
+      "status": "official-partnership-context"
+    },
+    {
+      "source_url": "https://www.government.se/contentassets/995055042dc84c84984e7d6fbf273bf2/joint-statement-the-joint-expeditionary-force-leaders-summit/",
+      "claim": "JEF leaders stated that Ukrainian units would participate in the LION exercise series and that Ukraine's operational experience would be integrated into wider JEF activity.",
+      "status": "official-leaders-context"
+    }
+  ],
+  "boundary": "This record adds an observed partner-integration stage: Ukraine moved from Enhanced Partnership coordination into reported participation by drone operators and specialists in AURORA 26. It does not establish JEF membership, combat deployment, a security guarantee, deterrence, adversary adaptation, public consent, cost sustainability, or durable strategic leverage."
+}

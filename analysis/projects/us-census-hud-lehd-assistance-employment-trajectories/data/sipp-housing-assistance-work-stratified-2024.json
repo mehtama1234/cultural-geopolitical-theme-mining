@@ -1,0 +1,32 @@
+{
+  "schema": "us-sipp-housing-assistance-work-stratified-summary-v1",
+  "checked": "2026-09-25",
+  "source": {
+    "reference_period": "January-December 2024",
+    "primary_archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+    "replicate_archive_sha256": "3bf35c17723de10697d581d1122fda4d7cdecb34c6f9e9dfcb18ddc561c7c6b6"
+  },
+  "design": {
+    "exposure": "EOTHAS_MNYN at month t",
+    "outcome": "EAWBMORT at month t+1; yes means unable to pay rent or mortgage",
+    "strata": "ETENURE context at month t crossed with THINCPOV band at month t",
+    "weight": "WPFINWGT from month t",
+    "variance": "240 Fay-BRR replicates; perturbation factor 0.5",
+    "interpretation": "Tenure is an interview-period context field, not a monthly tenure transition."
+  },
+  "housing_difficulty_cells": {
+    "renter|below_1x": {"yes": {"pairs": 2042, "share_percent": 8.8933517460, "approx_95_ci": [4.2156475530, 13.5710559389]}, "no": {"pairs": 12325, "share_percent": 15.1135059697, "approx_95_ci": [11.8168343621, 18.4101775773]}},
+    "renter|1_to_2x": {"yes": {"pairs": 1216, "share_percent": 9.7810995754, "approx_95_ci": [3.8044704217, 15.7577287292]}, "no": {"pairs": 16131, "share_percent": 12.4019072540, "approx_95_ci": [9.9329812466, 14.8708332615]}},
+    "renter|2_to_4x": {"yes": {"pairs": 490, "share_percent": 11.0101534151, "approx_95_ci": [1.8742038772, 20.1461029530]}, "no": {"pairs": 23478, "share_percent": 8.0880720669, "approx_95_ci": [6.1598405369, 10.0163035969]}},
+    "renter|4x_or_more": {"yes": {"pairs": 158, "share_percent": 13.9390665948, "approx_95_ci": [0.0, 38.3395835061]}, "no": {"pairs": 22667, "share_percent": 3.9151388913, "approx_95_ci": [2.6474349856, 5.1828427960]}},
+    "owner_or_buyer|below_1x": {"yes": {"pairs": 95, "share_percent": 5.1091510353, "approx_95_ci": [0.0, 11.8844266658]}, "no": {"pairs": 12773, "share_percent": 6.4650585567, "approx_95_ci": [4.3231336386, 8.6069834749]}},
+    "owner_or_buyer|1_to_2x": {"yes": {"pairs": 191, "share_percent": 10.5477201878, "approx_95_ci": [0.0, 23.1805297716]}, "no": {"pairs": 24437, "share_percent": 4.8436174716, "approx_95_ci": [3.4409990028, 6.2462359403]}},
+    "owner_or_buyer|2_to_4x": {"yes": {"pairs": 116, "share_percent": 10.0029559364, "approx_95_ci": [0.0, 27.5124735963]}, "no": {"pairs": 57647, "share_percent": 2.6124346918, "approx_95_ci": [1.9313152050, 3.2935541790]}},
+    "owner_or_buyer|4x_or_more": {"yes": {"pairs": 135, "share_percent": 0.0, "approx_95_ci": [0.0, 0.0]}, "no": {"pairs": 115331, "share_percent": 1.2779123331, "approx_95_ci": [0.8807772524, 1.6750474137]}}
+  },
+  "interpretation": {
+    "pooled_signal_check": "The pooled exposed/non-exposed difference is composition-sensitive and does not persist in one direction across poverty and tenure strata.",
+    "strongest_counterexample": "Among renters below 1x poverty, the exposed cell is 8.89% versus 15.11% unexposed; among renters at 1-2x, it is 9.78% versus 12.40%.",
+    "boundary": "Stratification reduces but does not remove selection, measurement, or sparse-cell concerns; it is not an adjusted causal estimate and does not identify program, amount, adequacy, response, recovery, trust, or political action."
+  }
+}

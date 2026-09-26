@@ -1,0 +1,83 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-apsr-acute-financial-hardship-turnout-germany-2021",
+  "title": "Acute short-term financial hardship can reduce turnout among poor German voters",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "political_judgment_action",
+    "time_hidden_price",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "German individual survey respondents and elections observed under long-month-after-short bank-calendar timing",
+  "geography": "Germany; comparative mechanism, not a United States estimate",
+  "observations": [
+    {
+      "period": "German surveys since the 1990s; individual turnout-intention results",
+      "denominator": {
+        "value": 3000000,
+        "unit": "more than three million individuals across several large-scale opinion surveys",
+        "value_type": "reported_sample_size"
+      },
+      "measures": {
+        "poor_end_month_turnout_intention_effect": {
+          "value": -4,
+          "unit": "approximately percentage-point effect on turnout intention among poor respondents interviewed toward the end of an LMAS month",
+          "value_type": "reported_effect_estimate"
+        },
+        "poor_turnout_intention_range": {
+          "value": -5,
+          "unit": "upper-end percentage-point reduction range for poor respondents under LMAS across included surveys; reported range approximately 1–5 points",
+          "value_type": "reported_effect_estimate"
+        }
+      },
+      "method": "Natural-experiment design using the irregular interaction between German bank-working-day timing and monthly payment conventions: long-month-after-short months temporarily stretch the same income across a longer interval. Survey regressions and robustness checks estimate effects on turnout intentions, with qualitative interviews used to examine mechanisms.",
+      "uncertainty": "The design identifies a Germany-specific, short-duration income-timing mechanism and the article reports heterogeneous effects concentrated among poor and working-poor respondents. The study does not establish the same magnitude in the United States, nor does it close a household remedy, attribution, or long-term political-action pathway.",
+      "subgroup": "Poor respondents, especially working-poor respondents and poor respondents interviewed near the end of the month; effects differ by partnership, inequality, and election context.",
+      "counterinterpretation": "The timing instrument may operate through stress, liquidity, social contact, political efficacy, or other correlated end-of-month constraints; the qualitative and mechanism evidence is not a complete mediation estimate. Institutional membership can cushion the effect in some analyses.",
+      "source_url": "https://www.cambridge.org/core/journals/american-political-science-review/article/acute-financial-hardship-and-voter-turnout-theory-and-evidence-from-the-sequence-of-bank-working-days/5B5A872CA63098D5B6A3FCC53B9B6C29",
+      "retrieval_hash": "sha256:bbb5e3658390efb5b760bf21392491ce3417f8de024d4b1cdf4f51b207d6d596",
+      "status": "reported"
+    },
+    {
+      "period": "German elections, 1945–2019; election-level turnout results",
+      "denominator": {
+        "value": 1089,
+        "unit": "elections in the compiled German electoral-turnout dataset",
+        "value_type": "reported_election_count"
+      },
+      "measures": {
+        "all_elections_lmas_turnout_effect": {
+          "value": -2,
+          "unit": "percentage-point turnout difference for elections held in LMAS versus non-LMAS conditions",
+          "value_type": "reported_effect_estimate"
+        },
+        "late_month_elections_lmas_turnout_effect": {
+          "value": -5,
+          "unit": "percentage-point turnout difference for elections held in the last week of an LMAS month",
+          "value_type": "reported_effect_estimate"
+        }
+      },
+      "method": "Multilevel election-level comparison of turnout under LMAS versus non-LMAS timing, with election-level controls and separate analysis of elections near the end of the month.",
+      "uncertainty": "Election-level effects are not individual votes, and the ecological estimates do not identify which person abstained or why. The paper reports a narrower approximately four-point effect for major elections and notes contextual heterogeneity.",
+      "subgroup": "All compiled elections, end-of-month elections, and major elections; reported election counts and samples remain separate.",
+      "counterinterpretation": "Election scheduling, composition, local context, and broader time trends may contribute to election-level differences even with the study's design and controls; this result is not a universal poverty-turnout coefficient.",
+      "source_url": "https://www.cambridge.org/core/journals/american-political-science-review/article/acute-financial-hardship-and-voter-turnout-theory-and-evidence-from-the-sequence-of-bank-working-days/5B5A872CA63098D5B6A3FCC53B9B6C29",
+      "retrieval_hash": "sha256:bbb5e3658390efb5b760bf21392491ce3417f8de024d4b1cdf4f51b207d6d596",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.7910/DVN/ZCEQPS",
+      "claim": "The article identifies a replication-data archive for its quantitative analyses.",
+      "status": "replication-resource"
+    }
+  ],
+  "boundary": "This is a Germany-specific comparative causal mechanism: short-term bank-calendar-induced income scarcity reduced turnout intentions and election turnout, especially among poor respondents. It is not a United States estimate, does not measure trust change or a specific responsible actor, and does not observe remedy, recovery, switching, non-use, or durable political realignment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "American Political Science Review article page downloaded and hashed; abstract, design, individual effects, election-level effects, subgroup, and transfer-boundary statements checked against the published article.",
+    "checked": "2026-09-25"
+  }
+}

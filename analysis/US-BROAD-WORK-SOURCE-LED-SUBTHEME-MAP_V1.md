@@ -1,0 +1,668 @@
+# Work, control, and bargaining: source-led subtheme map v1
+
+**Checked:** 2026-09-24  
+**Scope:** 248 current registry records carry the
+`work_control_bargaining` program-theme label. This map separates labor-market
+entry, job risk, workplace control, firm technology, household credit, care,
+and collective representation instead of treating employment as one outcome.
+
+## What the source material supports
+
+The evidence does not support a single story in which new technology,
+employment, or flexibility is uniformly good or bad. It supports a more
+specific pattern:
+
+> A job's practical value depends on its entry route, risk, credit access,
+> control over time and tasks, ability to accommodate care, and ability to
+> contest management—not only on whether it exists.
+
+## 1. Technology can alter the first career rung before long-run effects are known
+
+The [AI-exposed graduates record](records/us-census-ai-exposed-college-graduate-entry-disruption-2026.json)
+uses 6.67 million PSEO graduate records and linked employment data. After
+ChatGPT's release, graduates in the most AI-exposed major decile had about a
+five-percentage-point lower probability of observed employment immediately
+after graduation and about 13% lower earnings two quarters later than the
+least-exposed comparison. About half of the earnings difference was attributed
+to movement toward lower-paying retail and accommodation/food-service
+industries. Effects attenuated but remained lower around two years out.
+
+Exposure is assigned from pre-period occupation-task measures, not actual AI
+use. The selected institutions cover about 29% of bachelor's degrees and the
+study does not establish national displacement, long-run scarring, household
+security, or discrimination.
+
+## 1a. A minimum-wage start does not define one later career, and later-career policy effects can be null
+
+The [minimum-wage-worker career record](records/us-census-minimum-wage-worker-careers-1992-2016.json)
+merges 1992–2016 SIPP panels with longitudinal employer-household records.
+It reports that younger workers starting at the minimum wage had strong
+subsequent earnings growth and became indistinguishable from peers who began
+modestly above the minimum; the authors attribute most aggregate growth to
+these younger trajectories. Older minimum-wage workers instead showed a
+modest earnings dip around the minimum-wage observation. In its policy
+analysis, state minimum-wage increases did not significantly change the later
+careers of workers who were on the minimum wage when the increase occurred.
+
+**Supported subtheme:** initial wage level, age, later earnings trajectory,
+and the longer-run career effect of a state wage increase are distinct work
+surfaces. Neither a low-wage start nor a later-career policy null establishes
+one common life-course or policy result.  
+**Not established:** job quality, stable hours, benefits, household security,
+the mechanism behind young-worker growth, short-run employment or firm effects,
+prices, bargaining power, or the absence of unequal policy effects. This is a
+working paper whose public abstract omits the full sample, comparison, timing,
+and estimate ledger.
+
+## 1b. AI-exposed entry markets can lose hires before later recovery restores the employment base
+
+The [AI-exposed early-career hiring record](records/us-census-ai-early-career-hiring-qwi-2026.json)
+uses matched employer-employee administrative data and Quarterly Workforce
+Indicators in industry-state exposure cells. For workers ages 22–24, adjusted
+employment declined 12% in the most AI-exposed quintile over the ten quarters
+after ChatGPT's introduction, while less-exposed industries remained stable;
+the paper identifies lower hiring as the primary mechanism. Hiring largely
+recovered by early 2025, but from a smaller employment base, and earnings
+growth slowed slightly relative to less-exposed industries.
+
+**Supported subtheme:** technology-exposure classification → entry hiring →
+early-career employment base and relative earnings path. A recovery in hiring
+does not erase a preceding cohort's smaller entry base, but neither it nor the
+exposure classification proves permanent displacement.
+**Not established:** firm-level AI use, individual automation, causal effects
+of ChatGPT rather than demand, interest rates, remote work, education, or
+sector shifts; lifetime scarring, occupation movement, household security, or
+the distribution by race, gender, education, family resources, or place. This
+is a CES working paper, not a Census Bureau endorsement.
+
+## 1c. Earnings assimilation and remaining in a country are separate migrant work outcomes
+
+The [immigrant earnings/return-migration record](records/us-nber-immigrant-earnings-return-migration-2026.json)
+uses longitudinal administrative earnings histories for U.S. immigrant arrival
+cohorts from 1981–2010. Roughly one-fifth to one-third of cohorts returned
+within ten years; return migrants had slower earnings growth than permanent
+migrants. Among immigrants who remained, cohorts arriving since the mid-1990s
+reached near-convergence with native-born earnings within ten years in the
+paper's measure. The NBER summary reports different parity timing by gender:
+about eight years for men and 19 for women.
+
+**Supported subtheme:** arrival → earnings path and return-or-remain selection
+are distinct longitudinal outcomes. A stayer's earnings convergence cannot be
+used as an all-immigrant outcome when return migration changes the observed
+composition.
+**Not established:** why anyone returned or remained; causal assimilation,
+wealth, job quality, legal security, benefits, household wellbeing, belonging,
+or political action. Return can reflect family, health, legal status, planned
+temporary migration, discrimination, or opportunity elsewhere rather than a
+failed U.S. labor-market outcome.
+
+## 2. Job security has an economic value because workers cannot fully insure risk
+
+The [job-security and mobility record](records/us-nber-job-security-mobility-incomplete-markets-2026.json)
+finds that employed U.S. workers demanded a 1.63% pay raise for each
+additional percentage point of annual unemployment risk in a new job. Its
+calibrated model estimates that complete markets would raise mobility 12% and
+productivity 0.19%, while unemployment insurance can encourage acceptance of
+riskier higher-productivity offers and also increase job loss and unemployment.
+
+The first result is a stated wage-risk tradeoff and the latter are model
+results. Neither demonstrates actual job switching, household security, or a
+universal unemployment-insurance effect.
+
+## 2a. A usable competing platform can reduce a focal platform's labor-market power without proving better work
+
+The [gig-platform outside-options record](records/us-nber-gig-economy-outside-options-labor-supply-2026.json)
+combines randomized pay experiments among Uber drivers with variation in access
+to a competing platform. It reports that access to one competitor nearly
+doubled drivers' labor-supply elasticity to Uber and reduced the study's
+implied firm markdown from about 68% to about 50%. The source also reports
+women were about twice as elastic to the market as men while no less elastic
+to their employer. These are labor-supply and model-implied market-power
+measures, not logged welfare outcomes for any particular driver.
+
+**Supported subtheme:** an outside option can make platform-work dependence
+more contestable even without a union, a formal appeal, or a change in the
+focal platform's stated rules. Market responsiveness and firm-specific
+dependence are distinct from one another.  
+**Not established:** net earnings after vehicle and waiting costs, hours
+stability, benefit/safety effects, successful sustained switching, household
+security, or whether nominal competitor access was equally usable across places
+and drivers. The public abstract does not disclose the full analytic
+denominator or study-area frame.
+
+## 3. Firm automation is a technology choice before it is a worker outcome
+
+The [minimum-wage and robot-adoption record](records/us-census-minimum-wage-robot-adoption-2026.json)
+finds that a 10% higher minimum wage was associated with about 8% more
+industrial-robot adoption relative to the mean in the paper's state-border
+design. The public source does not report the worker outcomes needed to decide
+whether adoption meant displacement, safer work, higher productivity, wages,
+hours, or greater worker control.
+
+**Supported subtheme:** policy and firm technology decisions can move before
+the distribution of their worker consequences is visible.  
+**Not established:** who gained or lost work, pay, safety, or bargaining power.
+
+## 3a. AI access can change the timing of retained work before it changes the work's task structure
+
+The [generative-AI work-pattern record](records/us-nber-shifting-work-patterns-generative-ai-2025.json)
+is a six-month randomized field experiment across 7,137 knowledge workers at
+66 participating firms. About 80% of treated workers used the integrated tool.
+The current abstract reports about two fewer weekly email hours among treated
+users and reduced after-hours work; the revised public abstract reports 3.6
+fewer email hours for frequent users and a 1.3-hour assignment-based estimate.
+Those are different estimands and are not pooled. It reports moderately faster
+document completion, no significant meeting-time change, and no detected shift
+in task quantity or composition from individual-level provision.
+
+**Supported subtheme:** a technology intervention can alter a bounded
+time-of-work surface before it produces detectable task redesign. Access,
+take-up, email time, after-hours work, meeting time, and task composition are
+different worker outcomes.
+
+**Not established:** lower total workload, who retained the saved time, care or
+rest use, performance expectations, pay, job security, autonomy, firm
+productivity, health, long-run job redesign, or generalization beyond the
+participating knowledge-worker firms.
+
+## 3b. AI coding activity can scale far faster than shipped and used output
+
+The [AI coding production-stage record](records/us-nber-ai-coding-productivity-shipping-output-2026.json)
+uses a matched event study covering more than 500,000 GitHub developers and
+four software marketplaces. It reports cumulative commit increases of 30% for
+autocomplete tools, 180% for interactive agents, and 240% for autonomous
+agents. For autonomous agents, projects rose 80% and actual releases 30%,
+while total usage across the four marketplaces did not increase despite more
+new apps.
+
+**Supported subtheme:** AI-assisted task activity, project creation, software
+release, and user adoption are separate production stages. An increase in code
+or projects can attenuate before it becomes a shipped and used product, so it
+cannot by itself establish productivity, revenue, or a worker gain.  
+**Not established:** code quality, security, user value, firm profitability,
+wages, displacement, workload, bargaining power, or economy-wide productivity.
+The associations may also reflect developer selection, task mix, quality
+control, demand, discovery, or measurement timing; the study is not an
+all-firm causal welfare evaluation.
+
+## 3c. A retained job can lose contribution-based meaning before automation eliminates it
+
+The [automation-and-work-meaning record](records/us-nber-automation-meaning-work-2026.json)
+is a theoretical NBER model in which workers value both output and knowing that
+their contribution is needed. A credible machine alternative can reduce that
+contribution-based meaning even while a firm retains the worker. If wages adjust
+fully, model compensation can offset part of the loss; with partial adjustment,
+workers bear part of it. The model also produces a feedback loop where reduced
+value of the human alternative makes automation more likely.
+
+**Supported subtheme:** job retention, contribution-based meaning,
+compensation, and automation adoption are conceptually distinct. A headcount
+or employment-rate result alone cannot settle whether retained work retains the
+same social and psychological value.
+**Not established:** how many workers experience this mechanism, observed
+wage/health/identity or exit effects, actual automation adoption, productivity,
+displacement, or political action. Automation can also remove dangerous or
+tedious work and create different sources of agency or meaning; these are model
+comparative statics, not empirical estimates.
+
+## 4. Temporary work can restrict both earnings security and the credit needed for adulthood
+
+The [temporary-work and credit record](records/us-nber-temporary-work-dual-credit-market-2024.json)
+reports that temporary workers face higher income risk than permanent workers,
+including within occupation and at similar wages, and that lenders ration
+credit to them. The study frames mortgages, smoothing credit, and durable-good
+loans as a second barrier alongside labor-market insecurity.
+
+It does not identify an individual application, credit score, lender decision,
+household support, desired contract, or later housing and family outcome.
+
+## 5. Worker voice has a request stage, a grant stage, and a job-structure stage
+
+The [worker-request and control record](records/us-bls-worker-requested-changes-control-2024-2025.json)
+reports that 5.9 million wage and salary workers ages 16–75—4.1% of employed
+people—requested or made a change to do their job better in July 2024. The
+most common requests concerned schedules (2.61 million), equipment (1.48
+million), and tasks (1.41 million). Among schedule requests, 70.1% were fully
+granted, 21.9% partly granted, and 7.5% not granted.
+
+The same record separately shows job structure: 53.5% of workers had an
+ability to pause work, 18.5% had self-paced workloads, and 48.3% had employer
+changes to days, times, or hours from week to week. A grant is not proof that
+a change was adequate, timely, durable, non-stigmatizing, or sufficient for
+retention.
+
+## 6. Collective representation is limited and cannot stand in for practical control
+
+The [union-representation record](records/us-bls-union-representation-2024-2025.json)
+reports 10.0% union membership and 11.2% representation among employed wage
+and salary workers in 2025. The 2025 annual estimate excludes October because
+of the federal shutdown, limiting strict year-over-year comparison.
+
+Representation can matter while still leaving schedule control, appeal,
+autonomy, accommodation, and exit unmeasured.
+
+## 7. Care shocks reveal how workplace tolerance conditions employment resilience
+
+The [wildfire-smoke and maternal employment record](records/us-nber-wildfire-smoke-caregiving-mothers-employment-2026.json)
+uses plausibly exogenous smoke variation to show school closures and absenteeism
+creating intermittent caregiving demand. The study finds substantial
+contemporaneous maternal labor-market costs and employment loss when shocks
+accumulated; losses were fully offset among mothers outside male-dominated
+industries. Industry composition is a proxy for workplace tolerance, not a
+direct employer-policy or bargaining measure.
+
+**Supported subtheme:** the ability to keep a job during a care shock depends
+on the social and organizational design around the job, not solely on formal
+childcare availability.  
+**Not established:** the household income, care substitution, health,
+recovery, or national employment effects.
+
+## 8. Voice and remedy have request, charge, resolution, receipt, and durability stages
+
+The [BLS worker-request record](records/us-bls-worker-requested-changes-control-2024-2025.json)
+reports 5.9 million workers requested or made a change to do their job better;
+schedule requests were fully granted 70.1% of the time, but a grant is not
+proof it was adequate, timely, maintained, or sufficient to retain the job.
+Its separate job-structure data show pause control, self-paced work, and
+schedule variability are not evenly distributed.
+
+The [NLRB administration record](records/us-nlrb-worker-voice-administration-fy2025.json)
+records 19,754 unfair-labor-practice charges, 32.8% found meritorious, and
+96.8% of meritorious cases settled; it separately reports representation
+petitions and Board-quorum constraints. Charges, merits, settlements, and
+decisions are administrative stages rather than measures of durable power.
+
+The [EEOC recourse record](records/us-eeoc-employment-discrimination-recourse-fy2025.json)
+reports inquiries, charges, resolutions, and more than $528 million in
+prelitigation monetary relief. Aggregate relief does not show individual
+receipt, adequacy, employer compliance, retaliation, continued employment, or
+workplace change.
+
+The [OpenAI/Statsig PERM-recruitment settlement record](records/us-doj-openai-statsig-perm-recruitment-settlement-2026.json)
+puts that distinction inside one named access case. The August 2026 DOJ
+agreement identifies five OpenAI and one Statsig PERM-related recruitments in
+which U.S. workers had to apply by mail while others could apply electronically.
+It requires a $1.2 million Treasury payment, reserves $2 million for potential
+back pay, and specifies electronic posting/application, applicant-tracking,
+review, reporting, and three years of oversight controls. Those are formal
+route repair and potential recovery, not observed recovery: the agreement does
+not disclose affected-worker or applicant counts, payments made, completed
+implementation, or restored employment opportunity, and it is not an admission
+of liability.
+
+The [union-representation record](records/us-bls-union-representation-2024-2025.json)
+reports 10.0% membership and 11.2% representation among wage/salary workers
+in 2025. Formal coverage contextualizes collective voice; it does not reveal
+whether a worker can alter pace, schedule, pay, safety, grievance outcome, or
+exit risk.
+
+The [USMCA rapid-response remedy record](records/usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026.json)
+adds a named cross-border enforcement route at a San Luis Potosí facility. A
+petition reached the U.S. interagency review process in October 2025; after a
+U.S. request to Mexico, USTR reported two workers reinstated under their former
+terms with full backpay and benefits, plus union-access, neutrality,
+collective-bargaining, anti-retaliation, training, and Mexican-monitoring
+measures. The United States then resumed liquidation of unliquidated facility
+entries. The official announcement is not an independent worker follow-up.
+
+**Supported subtheme:** worker power is a chain of practical conversion from
+need through request, institutional route, decision, remedy receipt, and a
+durable changed job—not a filing, settlement, or membership rate. Cross-border
+trade enforcement can reach a reported reinstatement-and-facility-rule stage
+without thereby proving durable worker power.  
+**Not established:** independent payment receipt, whether all affected workers
+were remedied, later non-retaliation, effective union access/bargaining,
+safety, recurrence, household security, trust, or general USMCA performance.
+
+## 8a. AI-generated recruiting language can create an exclusion before an institutional correction reaches an applicant
+
+The [Elegant AI-hiring settlement record](records/us-doj-elegant-ai-generated-job-ad-settlement-2026.json)
+documents two AI-generated job advertisements at a Virginia IT-services
+provider that restricted some positions by citizenship status, including
+consideration only of H-1B, OPT, or H-4 visa holders, without legal
+justification. A February 2026 DOJ settlement imposed a $9,460 civil penalty,
+training, a three-year prohibition on future unlawful exclusion, bilingual
+rights posters, policy revision, attendance records, and a monitoring/cure
+process under which IER can request reports, inspect, interview personnel, and
+allow 30 days to cure a suspected violation before further enforcement.
+
+**Supported subtheme:** recruiting automation can enter a worker-access route
+before a hiring decision: tool-generated language, ad posting, applicant
+exposure, institutional charge, correction rule, monitoring, and later job
+opportunity are separate stages. A settlement can create a concrete
+institutional control loop without proving an applicant's access was restored.
+**Not established:** ad reach, number of affected applicants, a particular job
+denial, whether the tool independently created the restriction, back pay,
+individual receipt, completed controls, later compliance, restored job
+consideration, or the prevalence of AI-mediated discrimination. The public
+agreement's charging party and affected positions are redacted.
+
+## 8b. A recruitment remedy can complete individualized back-pay administration without restoring a job opportunity
+
+The [Apple PERM back-pay record](records/us-doj-apple-perm-backpay-distribution-2026.json)
+tracks the implementation of a 2023 DOJ recruitment-discrimination settlement.
+DOJ reported that Apple had not posted PERM positions on its external site and
+required paper applications by mail while allowing electronic applications for
+other jobs, a practice it said deterred protected workers. The $25 million
+agreement included a $6.75 million civil penalty and an $18.25 million back-pay
+fund. In May 2026, DOJ reported the back-pay fund had been processed and
+exhausted after individualized review of thousands of potential claimants'
+lost income, with qualifying workers compensated. External posting,
+electronic-application, applicant-searchability, training, and three years of
+monitoring were required; DOJ reported some measures were implemented after the
+investigation began.
+
+**Supported subtheme:** a recruitment barrier can travel through investigation,
+settlement, claimant review, individualized payment administration, and
+prospective access controls. Exhaustion of a fund is stronger payment-stage
+evidence than a reserved fund, but payment completion and restored opportunity
+remain different endpoints.
+**Not established:** number of workers paid, individual amounts, adequacy,
+restored consideration or hiring, recurrence, long-term compliance, worker
+voice, household security, or trust. The implementation statement is DOJ's
+official account, not an independent worker follow-up.
+
+## 8c. A formal access-restoration order is stronger than a complaint route but weaker than verified earnings recovery
+
+The comparative [Rehman platform-remedy record](records/au-rehman-platform-remedy-2026.json)
+preserves the complete public sequence for one Australian employee-like
+platform worker rather than implying that an order is a typical result. After
+an alleged failed background check, the worker's account was deactivated;
+following an application, the platform communicated voluntary reactivation on
+20 February 2026. On 20 March, the Fair Work Commission issued concurrent
+formal reactivation and gross lost-remuneration orders. The remuneration order
+was A$7,096.96, calculated using a 9.5-week gap.
+
+**Supported subtheme:** a digital-work exclusion can move through account loss,
+application, voluntary reactivation, adjudicated access restoration, and an
+ordered pay amount. Those steps make remedy architecture visible and separate
+from a complaint intake or a bare policy commitment.
+
+**Not established:** payment receipt or net recovery, avoided expenses,
+alternative work, continued account access, recurrence prevention, household
+security, trust, collective action, practical exit, U.S. applicability, or
+platform-worker incidence. One Australian case cannot identify typical worker
+outcomes.
+
+## 8d. A large worker-redress distribution identifies a payment route without showing restored earnings
+
+The [Handy worker-earnings redress record](records/us-ftc-handy-worker-earnings-redress-2026.json)
+follows a U.S. worker-facing enforcement route through payment distribution.
+The FTC reported alleged deceptive earnings claims and undisclosed fees and
+fines that withheld money from Handy/Angi platform workers' wages. In July
+2026, the agency reported sending more than $2.7 million in checks to 62,893
+eligible people, with a 90-day cashing instruction. The cited recipient count
+is an enforcement-program population, not a prevalence estimate of platform
+worker exposure.
+
+**Supported subtheme:** a remedy can move from alleged workplace practice to
+identified eligibility, administrator distribution, and a cashing window. A
+large check-sent count is materially stronger than a reserved settlement fund,
+but distribution, cashing, and recovered earnings remain separate stages.
+
+**Not established:** individual payment amount, check receipt or cashing,
+remaining loss, net wage restoration, ongoing platform access, alternative
+work, bargaining power, recurrence, trust, switching, or exit. The FTC page
+does not publish an aggregate accepted, returned, or expired-check total.
+
+## 9. Retraining can raise earnings by moving workers away from exposed work, not necessarily by making them more AI-intensive
+
+The [AI retraining record](records/us-nber-ai-worker-retraining-returns-2026.json)
+compares WIOA occupational-training users with matched job-search-only service
+users. For workers starting in highly AI-exposed occupations, estimated
+quarterly earnings returns rose from about $1,000 in 2012–2019 to about $3,000
+in 2022–2024. The source attributes most gains to transitions into less
+AI-exposed occupations, with a smaller AI-complementary-training role.
+
+**Supported subtheme:** adaptation to technological exposure can be an
+occupational-mobility route, rather than a simple upskilling-within-the-same-job
+route. Earnings are an observed endpoint, but transition feasibility is
+unequally distributed.
+**Not established:** training completion, causal gains for every participant,
+job quality, hours, benefits, stability, household security, or who could
+access and afford the transition.
+
+## 9a. Public workforce participation does not ensure an equally usable training or transition route for older workers
+
+The [older-worker workforce-development record](records/us-gao-older-worker-workforce-development-digital-age-2023.json)
+reports 769,265 participants age 55 or older across six selected federal
+workforce programs in program year 2023--24, about 22% of their participants.
+Older participants used training less often than younger participants in each
+compared adult program—for example, 23% versus 45% in WIOA Adult and 14%
+versus 25% in WIOA Dislocated Worker. Reported second-quarter post-exit
+employment was about 60% for older adults versus 69% for ages 40--54 and 73%
+for ages 16--39 in selected DOL programs; vocational-rehabilitation figures
+were similarly lower. Interviews with 41 older workers at 10 job centers give
+context on digital literacy, application, skills, openings, and possible
+age-discrimination challenges, but are not a prevalence measure.
+
+**Supported subtheme:** a workforce system can reach many older adults while
+training uptake, post-exit employment, and local practice-sharing remain
+separate conversion stages. Entry and an administrative post-exit status do not
+establish a viable late-career transition.  
+**Not established:** age discrimination, program causality, training quality or
+completion, earnings, job quality, retention, retirement timing, or household
+security. The selected programs and sites do not represent every workforce
+route.
+
+## 9b. An average long-run employment gain can conceal negative worker trajectories and uneven housing protection
+
+The [Nevada job-search-assistance record](records/us-nber-job-search-assistance-long-run-homeownership-2018.json)
+follows a randomized 2009 unemployment-insurance intervention through up to
+eight years of tax, UI, disability-insurance, and housing records. Among 32,751
+UI recipients, 4,673 were offered a required individualized meeting combining
+eligibility review, skills assessment, work-search planning, resume help, and
+referrals. The offer increased long-run employment and earnings, reduced
+short-run UI receipt, and reduced homeownership loss on average; positive
+housing effects were concentrated among people with positive employment
+effects. Yet the paper estimates negative long-run employment effects for about
+40% of the sample, corroborated by higher disability-insurance entry for that
+subgroup.
+
+**Supported subtheme:** a work-search intervention can reach later employment,
+earnings, benefit, and ownership stages in linked administrative evidence, but
+an average gain is not a universal recovery pathway.  
+**Not established:** which component of counseling/enforcement/referral drove
+the effect; job quality, voluntary job choice, housing adequacy, health, care
+burden, durable security, or applicability beyond the Nevada UI setting.
+
+## 9c. Extra job-search time can have a weaker earnings payoff where local employer power is higher
+
+The [UI-duration and concentration record](records/us-census-ui-extensions-labor-market-concentration-match-quality-2026.json)
+uses quasi-random unemployment-insurance duration assignment during the Great
+Recession and matched employer-employee data. Extensions lengthened
+nonemployment by about one week. The paper reports economically meaningful but
+statistically nonsignificant earnings increases overall, while the positive
+earnings effect was significantly lower in more concentrated local labor
+markets. Local concentration did not change the extension effect on
+nonemployment duration.
+
+**Supported subtheme:** a benefit can purchase additional job-search time
+without purchasing the same match-quality return in every labor market. Search
+duration, later earnings, and employer concentration therefore occupy distinct
+stages; a longer spell is not automatically a worse or better outcome.
+
+**Not established:** a universal monopsony effect, the precise mechanism behind
+the concentration interaction, job quality, bargaining, household budget,
+health/care constraints, long-run mobility, or whether a worker's extra search
+time was voluntary and adequately supported. The result is a Great Recession
+working-paper estimate, not a current national UI effect.
+
+## 10. The explanation for digital monitoring can matter as much as the monitoring itself
+
+The [digital-surveillance record](records/us-nber-digital-surveillance-managerial-clarity-2025.json)
+randomizes monitoring and explanations in an online labor market. Surveillance
+had no statistically significant average performance effect, but failing to
+explain why monitoring was present or removed significantly reduced output; the
+response varied with the justification offered to lower- and higher-productivity
+workers.
+
+**Supported subtheme:** managerial transparency is a work-control condition,
+not merely communications style. The same tool can carry different
+consequences depending on whether workers can understand the rule governing
+them.
+**Not established:** workplace prevalence, pay, autonomy, health, appeal,
+retention, collective action, or effects outside the online experiment.
+
+## 11. Employer-linked dependent coverage can retain workers without revealing whether staying is voluntary or constraining
+
+The [dependent-coverage record](records/us-nber-dependent-coverage-parental-job-lock-2022.json)
+uses an ACA birth-month eligibility discontinuity in employer-insurance claims.
+Additional dependent coverage increased both dependent take-up and parental job
+retention, with stronger effects for parents near a job-exit margin, families
+placing more value on dependent coverage, and employees with more employer
+insurance options.
+
+**Supported subtheme:** health coverage is part of a job's practical exit cost.
+Retention can represent valued insurance continuity, constrained mobility, or
+both; employment retention alone cannot distinguish them.
+**Not established:** the job's pay/schedule/safety quality, family care use,
+premium/network burden, portability, household welfare, or the effect of a
+different coverage system.
+
+## 12. A short public job can become a longer labor-market attachment for a bounded group
+
+The [temporary-public-hiring record](records/us-census-temporary-public-hiring-long-run-employment-2010-2023.json)
+links 2010 Census applicant/hiring records to W-2 outcomes through 2023. For
+applicants near the required test-score threshold, receiving a temporary Census
+job increased 2010 W-2 employment by 61 points and 2023 employment by 28
+points, with nearly $6,000 higher annual W-2 earnings due to greater likelihood
+of working. Conditional wages did not significantly differ; the longer-run
+effect was concentrated among men, and broader-applicant effects faded by
+2011.
+
+**Supported subtheme:** a temporary public employment route can provide labor
+attachment, credentialing, or other pathway value beyond its duration for a
+specific marginal applicant group.
+**Not established:** a general job-guarantee effect, job quality, displacement
+of other work, equal benefit, household wellbeing, or political legitimacy.
+
+## 13. Formal leave access can coexist with an unmet need for usable time
+
+The [leave-access record](records/us-bls-atus-leave-access-unmet-need-2024-2025.json)
+finds that 71% of wage and salary workers reported paid leave access, 78%
+unpaid access, and 94% either, yet 8% said they needed leave in an average
+month but did not take it. Among workers with unmet need, about 40% needed it
+for their own illness/care and 24% for a family member; 29% cited too much
+work, 14% feared job consequences or had a request denied, and 13% could not
+afford income loss. Paid-leave access ranged from 90% in management/business/
+financial occupations to 45% in service occupations and from 81% of full-time
+to 32% of part-time single jobholders.
+
+**Supported subtheme:** a policy listed as available is not necessarily usable
+at the moment of care need; workload, job risk, and income loss create a
+second practical-control layer.  
+**Not established:** why an individual did not take leave, whether care was
+resolved, or later health, job retention, family stability, and recovery.
+
+## 14. A work incentive can redistribute family eldercare without a measured replacement
+
+The [EITC parent-care record](records/us-nber-eitc-parent-care-gap-2026.json)
+estimates that a $500 increase in EITC generosity reduced care from eligible
+daughters to older parents by 13–24 hours per month, driven by less intensive
+(40+-hour) care. The study found no increase in financial transfers, other
+children's/spouses' care, or paid care that filled the observed gap. It uses a
+simulated-benefit approach in a working paper and does not measure care quality,
+safety, health, or long-run work effects.
+
+**Supported subtheme:** work and income incentives can move unpaid care time
+across generations, with the replacement-care question distinct from the labor
+incentive itself.  
+**Not established:** that reduced care harmed parents, that all families lacked
+alternatives, or the policy's aggregate welfare effect.
+
+## 15. Whistleblowing requires usable protection and processing capacity, not simply a reporting channel
+
+The [whistleblower-protection record](records/us-gao-whistleblower-disclosure-protection-agency-capacity-2026.json)
+finds selected agencies use different combinations of confidentiality,
+retaliation investigation/relief, and monetary awards. It reports that trust
+can encourage disclosure while fear of adverse outcomes discourages it, and
+that agencies face high report volumes and difficulty protecting identity when
+witness participation is needed. The review does not connect a reporter to
+case validity, retaliation, enforcement, correction, or later trust.
+
+**Supported subtheme:** workplace/public voice is an institutional sequence of
+exposure, confidence, reporting, identity protection, triage, investigation,
+and correction—not a tip count.  
+**Not established:** reporting prevalence, retaliation rate, typical reporter
+safety, enforcement effectiveness, or durable institutional learning.
+
+## 16. Workforce-program eligibility does not guarantee an accessible route to labor-market attachment
+
+The [disability workforce-access record](records/us-gao-disability-workforce-program-access-2026.json)
+finds 7% of participants in selected DOL programs reported a disability, but
+43% of those did not report a disability type. Their post-exit employment and
+median earnings were lower in each core program; for example, second-quarter
+Adult-program employment was 60% versus 76% for participants not reporting a
+disability, and training use 33% versus 47%. Visits to 12 nonrepresentative
+job centers found interpreter and accessible off-site training challenges, and
+GAO found DOL did not routinely analyze local monitoring reports in aggregate.
+
+**Supported subtheme:** legal eligibility and nominal accessibility sit before
+data visibility, accommodation, service completion, training receipt, and job
+attachment; each can distribute opportunity differently.  
+**Not established:** the causal role of access barriers, accommodation request
+or receipt, completion, placement, retention, or a specific participant's
+outcome.
+
+## 16a. Multiple disability-employment funding streams can widen formal support while creating handoff gaps
+
+The [disability employment-coordination record](records/us-gao-disability-employment-coordination-funds-2026.json)
+examines the boundary between vocational rehabilitation (VR) and Medicaid
+home- and community-based services for people with intellectual or
+developmental disabilities. GAO cites about $3.7 billion in FY2023 VR grants
+and a separate estimate of about $1.5 billion in employment services for this
+population, mostly through Medicaid HCBS; the figures have different scopes.
+In three selected states, six of 12 interviewed providers reported service
+gaps from coordination burden or confusion and four reported reimbursement
+delays during transitions. A Washington provider association described some
+job-placement authorizations taking six to nine months rather than a week or
+less; a Georgia provider described continuing services for three months without
+reimbursement during a transition.
+
+The report also supplies non-universal counterexamples: Georgia used
+specialist staff, dual providers, weekly case tracking, and monthly
+troubleshooting, while Pennsylvania allowed some cases to proceed with
+Medicaid HCBS employment services when VR had not decided eligibility within
+120 days. These are selected practices, not comparative effectiveness results.
+
+**Supported subtheme:** eligibility, service authorization, provider payment,
+and employment support can sit in different administrative systems. Coordinated
+funding may enlarge the formal menu while the transfer between systems becomes
+a practical access and continuity gate.
+
+**Not established:** national gap prevalence, individual referral-to-service
+timing, job placement, retention, wages, provider solvency, whether a named
+delay caused a job loss, or durable autonomy and household security.
+
+## Cross-subtheme finding and next test
+
+The [AI exposure/adaptive-capacity record](records/us-nber-ai-exposure-adaptive-capacity-2026.json)
+adds a distinct technology-risk boundary: the published revision estimates 3.3
+million workers in highly AI-exposed occupations with lower expected adaptive
+capacity, concentrated in clerical and support roles. Exposure is potential
+task change, not realized displacement; the revision's changed coverage means
+its figures cannot be pooled with the earlier working-paper counts. Neither
+version measures layoffs, retraining completion, wages, bargaining power, or
+household security.
+
+```text
+entry route, work rule, automation, coverage tie, training, care shock, or reporting route
+  -> income risk, control, credit access, time constraint, mobility cost, or retaliation risk
+  -> job search, accommodation request, training, adjustment, retention, or exit
+  -> employer, lender, union, or public-system response
+  -> later career, household, community, and political consequence
+```
+
+The corpus measures portions of this chain but seldom follows a worker through
+all stages. The next decisive evidence should retain the worker's job and
+employment terms, task or care event, requested accommodation or alternative,
+pay and hours, employer/lender/union response, continued work or exit, and
+later household outcome.
+
+## Related atlas surfaces
+
+- [14-theme readout](US-BROAD-CURRENT-14-THEME-READOUT_V1.md)
+- [source-led care map](US-BROAD-CARE-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [source-led consumer map](US-BROAD-CONSUMER-SOURCE-LED-SUBTHEME-MAP_V1.md)
+- [source-promotion audit](US-BROAD-SOURCE-PROMOTION-AUDIT_V1.md)

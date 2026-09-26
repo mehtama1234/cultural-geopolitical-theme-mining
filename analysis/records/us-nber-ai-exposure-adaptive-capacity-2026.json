@@ -1,0 +1,61 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-exposure-adaptive-capacity-2026",
+  "title": "AI exposure is not the same as workers' ability to adapt",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "occupation-level estimates of worker exposure and adaptive capacity",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "January 2026 working-paper version",
+      "denominator": {"value": 356, "unit": "occupations representing 95.9% of the U.S. workforce", "value_type": "reported_scope"},
+      "measures": {
+        "high_ai_exposure_workers": {"value": 37.1, "unit": "million workers in the top quartile of AI exposure", "value_type": "reported_estimate"},
+        "high_exposure_above_median_capacity": {"value": 26.5, "unit": "million workers in highly exposed occupations with above-median adaptive capacity", "value_type": "reported_estimate"},
+        "high_exposure_low_capacity": {"value": 6.1, "unit": "million workers; 4.2% of the study workforce", "value_type": "reported_estimate"},
+        "concentration": {"value": "clerical and administrative roles", "unit": "occupational concentration of the high-exposure, low-capacity group", "value_type": "reported_pattern"}
+      },
+      "method": "Occupation-level adaptive-capacity index combined with an AI-exposure measure and workforce counts; the study separates exposure to possible task change from the ability to navigate a job transition if displacement occurs.",
+      "uncertainty": "The estimates are occupation-level proxies, not person-level measures of actual resilience or realized displacement. AI exposure means potential task change, not inevitable job loss. The study does not observe later layoffs, retraining completion, wages, household security, or worker bargaining power.",
+      "subgroup": "Workers in highly exposed occupations with above-median versus low expected adaptive capacity; the low-capacity overlap is concentrated in clerical and administrative occupations.",
+      "counterinterpretation": "Adaptive capacity may reflect measured education, skills, mobility, or related characteristics without capturing cash reserves, care responsibilities, discrimination, local labor demand, employer support, or the quality and cost of available retraining.",
+      "source_url": "https://www.nber.org/papers/w34705",
+      "retrieval_hash": "sha256:daf26d7c1ead48c6fa7ee8a503e5853c5d6650f04feda5a01801ee32aa5624a0",
+      "status": "reported"
+    },
+    {
+      "period": "September 2026 published chapter revision",
+      "denominator": {"value": 300, "unit": "occupations representing 91.9% of the U.S. workforce", "value_type": "reported_scope"},
+      "measures": {
+        "high_ai_exposure_workers": {"value": 34.7, "unit": "million workers in the top quartile of AI exposure", "value_type": "reported_estimate"},
+        "high_exposure_above_median_capacity": {"value": 23.9, "unit": "million workers in highly exposed occupations with above-median adaptive capacity", "value_type": "reported_estimate"},
+        "high_exposure_low_capacity": {"value": 3.3, "unit": "million workers; 2.5% of the study workforce", "value_type": "reported_estimate"},
+        "concentration": {"value": "clerical, administrative support, and assistance roles", "unit": "occupational concentration of the high-exposure, low-capacity group", "value_type": "reported_pattern"}
+      },
+      "method": "Published chapter revision of the same occupation-level framework, with a revised occupation coverage and workforce classification.",
+      "uncertainty": "The published revision changes the covered occupations and headline counts, so its figures should not be pooled with the working-paper version. Neither version establishes actual displacement or the causal effect of adaptive capacity on later outcomes.",
+      "subgroup": "Workers in highly exposed occupations with above-median versus low expected adaptive capacity; the vulnerable overlap remains concentrated in clerical and support roles.",
+      "counterinterpretation": "A lower exposed-low-capacity count in the revision may reflect revised coverage or classification rather than an improvement in workers' real-world ability to adapt.",
+      "source_url": "https://www.nber.org/books-and-chapters/economics-transformative-ai/how-adaptable-are-american-workers-ai-induced-job-displacement",
+      "retrieval_hash": "sha256:daf26d7c1ead48c6fa7ee8a503e5853c5d6650f04feda5a01801ee32aa5624a0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/system/files/chapters/c15313/c15313.pdf", "claim": "Full published chapter and methods underlying the revised headline estimates.", "status": "primary-pdf"},
+    {"source_url": "https://back.nber.org/appendix/c15313/appendix.pdf", "claim": "Appendix describes occupation crosswalks, sample construction, adaptive-capacity components, geographic distribution, and robustness checks.", "status": "primary-appendix"}
+  ],
+  "boundary": "This finding adds an exposure-versus-adaptation distinction to the work and technology atlas. It does not show that AI has displaced these workers, that retraining will succeed, or that adaptive capacity is equally available to people with the same occupation. It supports a broader hypothesis that technological risk depends on both the pressure imposed and the usable options available afterward.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Published NBER chapter PDF retrieved and hashed; the working-paper and published-version figures are recorded separately because the source reports revised coverage and counts.",
+    "pdf_sha256": "sha256:daf26d7c1ead48c6fa7ee8a503e5853c5d6650f04feda5a01801ee32aa5624a0",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-technology-modernization-fund-realized-savings-2026",
+  "title": "Federal technology modernization produces a small realized-savings base alongside much larger projections",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-107737 review of Technology Modernization Fund projects and related contract actions",
+  "geography": "United States; federal agencies receiving Technology Modernization Fund investments",
+  "observations": [
+    {
+      "period": "Projects funded through June 2025; report published July 23, 2026",
+      "denominator": {
+        "value": 68,
+        "unit": "Technology Modernization Fund projects with agency investment",
+        "value_type": "study_defined_project_universe"
+      },
+      "measures": {
+        "investment": {
+          "value": 1030000000,
+          "unit": "dollars invested across 68 projects",
+          "value_type": "reported_total"
+        },
+        "projects_with_actual_savings": {
+          "value": 11,
+          "unit": "projects reporting $13.5 million in savings to date",
+          "value_type": "reported_project_count_and_savings"
+        },
+        "projects_with_expected_savings": {
+          "value": 24,
+          "unit": "projects expecting $1.06 billion in combined savings",
+          "value_type": "reported_project_count_and_projection"
+        },
+        "future_savings": {
+          "value": "many projects anticipate additional savings later, while some have not saved money and do not expect to",
+          "unit": "reported project-status pattern",
+          "value_type": "reported_pattern"
+        }
+      },
+      "method": "GAO summarized Technology Modernization Fund investment, project documentation, expected and actual savings, and contract actions; for applicable completed projects it compared expected and realized savings against OMB's 10-percent variance threshold.",
+      "uncertainty": "Investment and project-reported savings are not a causal estimate of agency productivity, service quality, worker time, public access, or taxpayer welfare. Expected savings are projections, project completion and reporting dates differ, and the public summary does not identify the distribution of savings or implementation burden across agencies and users.",
+      "subgroup": "Federal agencies, modernization projects, completed and ongoing projects, contract actions, agency staff, and users of modernized public services.",
+      "counterinterpretation": "Modernization can generate nonfinancial benefits or avert failure even when savings are not yet realized; reported savings may reflect agency accounting and project scope rather than independent public value. A projected saving is not a realized budget reduction or household benefit.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107737/index.html",
+      "retrieval_hash": "sha256:deb99345e676eccd2a44bb6bc428a3d664ed922b6d15aaf4b5f0e77bd7fccf8e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107737",
+      "claim": "GAO bibliographic and summary page for the Technology Modernization Fund review.",
+      "status": "primary-bibliographic-record"
+    },
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-107737.pdf",
+      "claim": "GAO accessible PDF for the report.",
+      "status": "primary-report"
+    }
+  ],
+  "boundary": "This finding separates federal IT investment, project-reported realized savings, and projected savings. It does not establish agency service improvement, worker or user time saved, equitable access, budget availability, household benefit, cybersecurity improvement, or durable public trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "GAO accessible report page reviewed for project universe, investment, actual and expected savings, and contract-method context; underlying project files are not retained here.",
+    "source_response_sha256": "sha256:deb99345e676eccd2a44bb6bc428a3d664ed922b6d15aaf4b5f0e77bd7fccf8e",
+    "checked": "2026-09-23"
+  }
+}

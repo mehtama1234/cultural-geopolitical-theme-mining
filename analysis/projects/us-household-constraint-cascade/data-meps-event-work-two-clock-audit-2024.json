@@ -274,6 +274,11 @@
     }
   },
   "format": "meps-event-work-two-clock-audit-v1",
+  "identifier_boundary": {
+    "r4_screen_has_stable_person_rows": false,
+    "r5_followup_has_stable_person_rows": false,
+    "statement": "The retained inputs contain grouped percentages, valid-record counts, and event-window denominators only; they do not retain a person-level stable key that can prove the R4/2 and R5/3 event groups are the same rows."
+  },
   "period": "2024 MEPS; strict R3/1-to-R4/2 event window with R4/2 and R5/3 work endpoints",
   "source_outputs": {
     "r4_screen": {

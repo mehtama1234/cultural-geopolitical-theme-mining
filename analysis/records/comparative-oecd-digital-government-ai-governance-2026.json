@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-digital-government-ai-governance-2026",
+  "title": "Government AI adoption is widespread, but operational accountability, procurement, evaluation, and user feedback lag",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "OECD Digital Government Outlook 2026, chapter Adopting and governing AI in government",
+  "geography": "36 OECD countries in the 2025 OECD Survey on Digital Government 3.0; Germany and the United States were not available for the 2025 DGI measures",
+  "observations": [
+    {
+      "period": "2025 OECD Digital Government Index and AI Annex; data cover 1 January 2023 to 31 December 2024 where stated",
+      "denominator": {
+        "value": 36,
+        "unit": "OECD countries",
+        "value_type": "country_cross_section"
+      },
+      "measures": {
+        "government_ai_use_any_area": {"value": 97, "unit": "percent of OECD countries using AI in at least one government area (35 of 36)", "value_type": "reported_country_share"},
+        "ai_governance_institution": {"value": 83, "unit": "percent of OECD countries with at least one institution responsible for governing public-sector AI (30 of 36)", "value_type": "reported_country_share"},
+        "ai_training_programmes": {"value": 89, "unit": "percent of OECD countries with training programmes supporting AI in government (32 of 36)", "value_type": "reported_country_share"},
+        "central_ai_procurement_support": {"value": 58, "unit": "percent of OECD countries providing central support for procuring AI goods and services (21 of 36)", "value_type": "reported_country_share"},
+        "role_specific_public_service_training": {"value": 36, "unit": "percent of OECD countries offering training on using AI in public services (13 of 36)", "value_type": "reported_country_share"},
+        "role_specific_policy_training": {"value": 36, "unit": "percent of OECD countries offering training on using AI in policymaking (13 of 36)", "value_type": "reported_country_share"}
+      },
+      "method": "The OECD combines the 2025 Digital Government Index with a qualitative AI Annex to compare national government AI adoption, enabling conditions, training, funding, procurement, guardrails, transparency, impact measurement, and engagement.",
+      "uncertainty": "These are country-level institutional indicators, not measures of AI quality, effectiveness, public-service outcomes, or citizen experience. Percentages describe reported national arrangements and may conceal major differences in scope, enforcement, maturity, and implementation. Germany and the United States were unavailable for the 2025 DGI measures.",
+      "subgroup": "Central or federal government administrations, public servants, AI suppliers, service users, oversight bodies, and national digital-government institutions across OECD countries.",
+      "counterinterpretation": "Broad adoption and high-level strategies can coexist with responsible experimentation, informal controls, or strong safeguards not captured by the indicators. Lower reported procurement or training coverage may also reflect decentralized arrangements rather than an absence of capability.",
+      "source_url": "https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en/full-report/adopting-and-governing-ai-in-government_7ef312a9.html",
+      "retrieval_hash": "sha256:b1156327d702bc32bd14a0dd212a613619dfa399f9404460729f5ca1047b2d15",
+      "status": "reported"
+    },
+    {
+      "period": "2025 OECD Digital Government Index and AI Annex",
+      "denominator": {
+        "value": 36,
+        "unit": "OECD countries",
+        "value_type": "country_cross_section"
+      },
+      "measures": {
+        "pre_deployment_risk_assessment": {"value": 39, "unit": "percent of OECD countries requiring pre-deployment AI risk assessments (14 of 36)", "value_type": "reported_country_share"},
+        "internal_ai_review_committee": {"value": 33, "unit": "percent of OECD countries with internal AI review committees (12 of 36)", "value_type": "reported_country_share"},
+        "post_deployment_ai_audit": {"value": 31, "unit": "percent of OECD countries conducting post-deployment AI audits (11 of 36)", "value_type": "reported_country_share"},
+        "formal_algorithmic_transparency_standard": {"value": 31, "unit": "percent of OECD countries with a formal algorithmic-transparency standard (11 of 36)", "value_type": "reported_country_share"},
+        "open_algorithm_register": {"value": 17, "unit": "percent of OECD countries with an open algorithm register (6 of 36)", "value_type": "reported_country_share"},
+        "ai_use_case_impact_measurement": {"value": 28, "unit": "percent of OECD countries reporting any financial or non-financial impact measurement of government AI use cases (10 of 36)", "value_type": "reported_country_share"},
+        "service_user_engagement": {"value": 42, "unit": "percent of OECD countries engaging service users in government AI implementation (15 of 36)", "value_type": "reported_country_share"},
+        "citizen_feedback_or_complaint_mechanism": {"value": 22, "unit": "percent of OECD countries with citizen feedback or complaint mechanisms for government AI (8 of 36)", "value_type": "reported_country_share"}
+      },
+      "method": "The OECD compares reported governance instruments and implementation practices across the same 36-country survey frame, distinguishing high-level guardrails from operational controls, impact measurement, and user engagement.",
+      "uncertainty": "The indicators do not establish whether a control is effective, independently enforced, consistently used, or accessible to affected people. The source notes that activity often focuses on guidance rather than enforcement and that limited impact evidence constrains scaling decisions.",
+      "subgroup": "People affected by government AI services and decisions, public servants, procurement officials, auditors, regulators, civil-society organizations, and technology vendors.",
+      "counterinterpretation": "Formal audits, registers, or complaint channels are not the only routes to accountability; general administrative law, data-protection regimes, ombuds institutions, and informal review may supplement the measured instruments.",
+      "source_url": "https://www.oecd.org/en/publications/digital-government-outlook_0496b2bc-en/full-report/adopting-and-governing-ai-in-government_7ef312a9.html",
+      "retrieval_hash": "sha256:b1156327d702bc32bd14a0dd212a613619dfa399f9404460729f5ca1047b2d15",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a government-AI adoption and accountability route connecting public-sector deployment, procurement, skills, guardrails, transparency, impact evidence, and user feedback. It does not measure individual respondents, algorithmic performance, causal effects, or the quality of any country's specific AI system.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "OECD Digital Government Outlook 2026 chapter page and linked official PDF retrieved; country counts, adoption, training, procurement, guardrail, transparency, impact-measurement, and engagement indicators cross-checked against the chapter's key messages.",
+    "pdf_sha256": "sha256:b1156327d702bc32bd14a0dd212a613619dfa399f9404460729f5ca1047b2d15",
+    "checked": "2026-09-26"
+  }
+}

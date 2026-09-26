@@ -1,0 +1,111 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-dcpsc-solar-credit-error-rate-remedy-2025",
+  "title": "A billing audit can expose crediting uncertainty before a proposed remedy reaches subscribers",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "District of Columbia Public Service Commission docket filings concerning Pepco community-net-metering credit reconciliation and a proposed Solar for All subscriber error-rate remedy; regulatory remedy-stage record, not a customer sample",
+  "geography": "Washington, D.C.; Pepco, Solar for All subscribers, and community-renewable-energy facilities",
+  "observations": [
+    {
+      "period": "2024-2025 audit/reconciliation and September 25, 2025 remedy recommendation",
+      "denominator": {
+        "value": 1,
+        "unit": "regulatory crediting-audit and remedy-recommendation route",
+        "value_type": "institutional_case_route"
+      },
+      "measures": {
+        "crediting_audit_status": {
+          "value": "the audit focused on community-renewable-energy production and did not resolve whether Pepco properly credited subscribers on their electricity bills; required billing data were not provided in time for a core audit purpose",
+          "unit": "regulatory finding",
+          "value_type": "reported_audit_boundary"
+        },
+        "proposed_error_rate_remedy": {
+          "value": 5.70,
+          "unit": "U.S. dollars per month per Solar for All subscriber for each month of participation during the audit period",
+          "value_type": "proposed_remedy_amount"
+        },
+        "institutional_response": {
+          "value": "DOEE/consumer-side parties proposed an error-rate method to make subscribers or facilities whole despite unresolved customer-level billing records",
+          "unit": "regulatory remedy design",
+          "value_type": "reported_remedy_design"
+        },
+        "remedy_adoption_and_receipt": {
+          "value": "not established in the cited filings",
+          "unit": "missing final commission adoption, subscriber-level correction, payment or bill credit, adequacy, and later trust or exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "DCPSC docket filing review; audit limitation, data-timeliness failure, proposed error-rate amount, and unresolved adoption/receipt are coded as separate remedy stages.",
+      "uncertainty": "The proposed error rate is not an observed customer loss, final order, or verified payment. The filing describes a regulatory dispute and remedy design; it does not identify affected subscribers, individual months, or final credits.",
+      "subgroup": "Solar for All subscribers and community-renewable-energy participants during the audit period; exposure may differ by project, participation duration, account, and billing history.",
+      "counterinterpretation": "An error-rate remedy can be a practical way to compensate when account-level data are incomplete, but it may over- or under-compensate particular customers and cannot be treated as proof that the original credits or later correction were received.",
+      "source_url": "https://edocket.dcpsc.org/apis/api/Filing/download?attachId=232090&guidFileName=a2c0004c-540e-4ec7-a081-3b04e819e37e.pdf",
+      "retrieval_hash": "sha256:b192c779732d07b852f7b339097f29eae735b13e488df6f377cc43ba8e3045a3",
+      "status": "reported"
+    },
+    {
+      "period": "June-July billing-error episode; DOEE customer guidance",
+      "denominator": {
+        "value": 1,
+        "unit": "customer-guidance route for a reported community-solar billing-error episode",
+        "value_type": "institutional_case_route"
+      },
+      "measures": {
+        "credit_timing_error": {
+          "value": "community-solar credits were front-loaded into June and July statements, producing too many credits on some affected bills",
+          "unit": "customer-guidance description",
+          "value_type": "reported_billing_error"
+        },
+        "customer_notice": {
+          "value": "affected customers received a debit letter explaining the billing issue",
+          "unit": "customer-guidance description",
+          "value_type": "reported_notice"
+        },
+        "planned_correction": {
+          "value": "DOEE guidance said the September bill would be adjusted to account for excess credits",
+          "unit": "planned bill adjustment",
+          "value_type": "reported_planned_correction"
+        },
+        "expected_annual_savings": {
+          "value": 500,
+          "unit": "U.S. dollars per household per year, up to",
+          "value_type": "program_claim"
+        },
+        "actual_adjusted_bill_and_later_outcome": {
+          "value": "not observed in the cited guidance",
+          "unit": "missing customer-level adjusted bill, correction receipt, adequacy, arrears, trust, and exit",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "DOEE customer FAQ review; the reported billing error, notice, and planned September adjustment are coded separately from verified later receipt.",
+      "uncertainty": "The guidance describes a planned adjustment, not a verified later bill or customer-level correction. It does not establish how many customers were affected, the amount adjusted for each account, or whether the correction was adequate.",
+      "subgroup": "Affected Solar for All customers described in DOEE customer guidance; the guidance does not provide a complete affected-customer denominator.",
+      "counterinterpretation": "A customer notice and planned bill adjustment may represent a functioning correction pathway, but without later account evidence the atlas cannot treat the correction as received or sufficient.",
+      "source_url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/SfA%20Frequently%20Asked%20Questions.pdf",
+      "retrieval_hash": "sha256:b192c779732d07b852f7b339097f29eae735b13e488df6f377cc43ba8e3045a3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://edocket.dcpsc.org/apis/api/Filing/download?attachId=230494&guidFileName=b566be82-6e0c-4c65-85fb-8028e24574ed.pdf",
+      "claim": "The related filing describes the unresolved crediting audit and missing billing-data problem.",
+      "status": "official-related-filing"
+    },
+    {
+      "source_url": "https://doee.dc.gov/sites/default/files/dc/sites/ddoe/service_content/attachments/SfA%20Frequently%20Asked%20Questions.pdf",
+      "claim": "DOEE customer guidance describes prior community-solar billing errors and a planned bill adjustment.",
+      "status": "official-customer-guidance"
+    }
+  ],
+  "boundary": "This record adds a public-system and consumer-remedy stage from billing-data failure to a proposed error-rate correction. It does not establish the final legal decision, subscriber-level bill correction, cash or credit receipt, adequacy, residual loss, trust, switching, or household energy security. It must remain separate from the project-level monthly-credit receipt record and the program-level household-savings record.",
+  "retrieval_hash": "sha256:b192c779732d07b852f7b339097f29eae735b13e488df6f377cc43ba8e3045a3"
+}

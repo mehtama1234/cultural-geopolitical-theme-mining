@@ -1,0 +1,43 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-mofcom-integrated-circuit-antidiscrimination-investigation-2025",
+  "title": "China opened a formal anti-discrimination investigation into U.S. integrated-circuit measures",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency"
+  ],
+  "source_unit": "Chinese Ministry of Commerce September 19, 2025 spokesperson remarks on an anti-discrimination investigation into U.S. integrated-circuit measures",
+  "geography": "China, United States, and the integrated-circuit and advanced-computing supply chain",
+  "observations": [
+    {
+      "period": "September 19, 2025 MOFCOM announcement; investigation initiation stage",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. measures targeting China in the integrated-circuit sector, including export controls and Section 301 investigations",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "institutional_action": {"value": "China decided to initiate an anti-discrimination investigation under Articles 7, 36, and 37 of its Foreign Trade Law", "unit": "formal state investigation", "value_type": "reported_institutional_action"},
+        "covered_policy_domain": {"value": "U.S. restrictive measures targeting China in advanced computing chips, artificial intelligence, and the integrated-circuit sector", "unit": "stated investigation scope", "value_type": "reported_policy_scope"},
+        "stated_claim": {"value": "MOFCOM said the measures were suspected of discrimination and disrupted global semiconductor industrial and supply chains", "unit": "official allegation under investigation", "value_type": "reported_claim"},
+        "participation_route": {"value": "interested parties affected by the U.S. measures were invited to participate", "unit": "formal evidence/participation route", "value_type": "reported_process_feature"},
+        "final_finding_or_countermeasure": {"value": "not observed at initiation", "unit": "missing investigation finding, remedy, retaliation, negotiation outcome, or firm response", "value_type": "unmeasured"}
+      },
+      "method": "MOFCOM official spokesperson statement reviewed as a formal institutional response to a broader U.S.-China integrated-circuit policy conflict. Investigation initiation, legal basis, scope, and participation route are kept separate from findings and remedies.",
+      "uncertainty": "The statement does not disclose the investigation timetable, evidence record, affected firms, specific U.S. rules under review, final legal determination, or any measure that followed. It records the Chinese government's process and allegation, not an independently established violation.",
+      "subgroup": "Chinese domestic semiconductor firms, U.S. technology and chip firms, MOFCOM investigators, affected supply-chain companies, and parties submitting evidence.",
+      "counterinterpretation": "The investigation may be a legal and bargaining channel rather than a precursor to retaliation; formal participation can increase visibility without producing a remedy or changing another actor's choices.",
+      "source_url": "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_5840109850204506adc8b6bb63185fb8.html",
+      "retrieval_hash": "sha256:2b028edebf7a7eee3f8e5d7dc52172e4903a6502963946ab4ad2176b65eb7086",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_267bddaf8d52497289627453b3d5636a.html", "claim": "MOFCOM separately opposed the VEU removals and stated that China would take necessary measures to protect its enterprises.", "status": "official-context"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO documents U.S. advanced-semiconductor export-control implementation and compliance before the external-response stages.", "status": "official-comparator"}
+  ],
+  "boundary": "This record advances from diplomatic opposition to a formal Chinese investigation of U.S. integrated-circuit measures. It does not establish discrimination, a final violation, a remedy, direct causation by the VEU removals, firm behavior, supply-chain disruption, or strategic leverage."
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-rental-proptech-screening-pricing-privacy-2025",
+  "title": "Rental technology can widen housing access while shifting screening, pricing, and surveillance power",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-25-107196 review of rental advertising platforms, tenant-screening tools, rent-setting software, and facial-recognition technology",
+  "geography": "United States private and subsidized rental housing; selected companies, public housing agencies, federal agencies, industry groups, and advocacy organizations",
+  "observations": [
+    {
+      "period": "2019–2025 GAO review; selected rental property-technology tools",
+      "denominator": {"value": 4, "unit": "selected rental proptech types reviewed", "value_type": "reported_product_scope"},
+      "measures": {
+        "product_types": {"value": "advertising platforms, tenant-screening tools, rent-setting software, and facial-recognition technology", "unit": "rental-housing function coverage", "value_type": "reported_scope"},
+        "functions": {"value": "advertising, touring, leasing, financial management, screening, rent setting, and building access", "unit": "rental process stages", "value_type": "reported_scope"},
+        "benefit_route": {"value": "tools can make it easier to search, view, lease, manage, and secure rental housing", "unit": "reported potential benefit", "value_type": "reported_benefit"}
+      },
+      "method": "GAO review of federal, academic, industry, and advocacy reports; agency guidance, legal cases, and enforcement; and interviews with four federal agencies, 12 companies, 10 public housing agencies, industry associations, and advocacy organizations.",
+      "uncertainty": "The company, agency, and stakeholder samples were purposively selected and are not generalizable to all rental tools, landlords, public housing agencies, or renters.",
+      "subgroup": "Private and subsidized rental housing, with selected advertising, screening, pricing, and access technologies.",
+      "counterinterpretation": "Digital tools can reduce search and management costs or improve building safety; their presence does not establish a renter's loss of access or control.",
+      "source_url": "https://www.gao.gov/products/gao-25-107196",
+      "retrieval_hash": "sha256:c591bfd63a7c99c701fff7c3fdabbf8a292c47870930ebad92bbc22f2032601c",
+      "status": "reported"
+    },
+    {
+      "period": "2019–2025; rental screening, pricing, advertising, and privacy risks",
+      "denominator": {"value": 4, "unit": "selected rental proptech types assessed for benefits and risks", "value_type": "reported_product_scope"},
+      "measures": {
+        "screening_accuracy_risk": {"value": "inaccurate or outdated criminal, eviction, credit, or other records can lead to unwarranted denials and housing instability", "unit": "reported risk mechanism", "value_type": "reported_risk"},
+        "pricing_power_risk": {"value": "rent-setting algorithms may reduce bargaining power and may be associated with higher rents or lower occupancy during some market conditions", "unit": "reported risk mechanism", "value_type": "reported_risk"},
+        "surveillance_risk": {"value": "facial recognition may misidentify demographic groups or allow surveillance information to be used without renter consent", "unit": "reported risk mechanism", "value_type": "reported_risk"},
+        "advertising_risk": {"value": "algorithmic targeting or listing language may steer or discourage protected groups before they can apply", "unit": "fair-housing risk mechanism", "value_type": "reported_risk"}
+      },
+      "method": "GAO synthesis of reviewed studies and interviews; reported pricing associations and potential risks are kept separate from national prevalence or causal estimates.",
+      "uncertainty": "The report does not estimate how often inaccurate screening, algorithmic price effects, surveillance misuse, or discriminatory steering occurs across the rental market.",
+      "subgroup": "Renters and applicants, especially people affected by criminal, eviction, disability, familial-status, race, sex, or other protected-status classifications.",
+      "counterinterpretation": "Screening can help owners verify information, facial recognition can improve security, and algorithms may improve matching or reduce fraud; risk mechanisms are not proof of unlawful treatment in every case.",
+      "source_url": "https://www.gao.gov/products/gao-25-107196",
+      "retrieval_hash": "sha256:c591bfd63a7c99c701fff7c3fdabbf8a292c47870930ebad92bbc22f2032601c",
+      "status": "reported"
+    },
+    {
+      "period": "As of May 2026; federal oversight and public-housing guidance",
+      "denominator": {"value": 10, "unit": "public housing agencies interviewed by GAO about facial-recognition technology", "value_type": "reported_interview_sample"},
+      "measures": {
+        "additional_direction_requested": {"value": 10, "unit": "public housing agencies saying they would benefit from additional facial-recognition guidance", "value_type": "reported_count"},
+        "hud_guidance": {"value": "HUD guidance was high-level and did not provide specific direction on privacy risks, law-enforcement data sharing, permitted uses, consent, data management, or accuracy", "unit": "governance finding", "value_type": "reported_finding"},
+        "correction_status": {"value": "HUD reported that technical assistance was being developed and estimated written guidance would be completed in December 2026", "unit": "prospective correction timeline", "value_type": "reported_status"},
+        "enforcement_visibility": {"value": "federal agencies pursued actions on alleged discriminatory advertising and inaccurate screening data, including settlements and enforcement", "unit": "reported institutional response", "value_type": "reported_response"}
+      },
+      "method": "GAO comparison of federal oversight, public-housing-agency interviews, agency guidance, settlements, and enforcement actions.",
+      "uncertainty": "The ten-agency interview result is not a national public-housing census; planned guidance is not completed implementation, and enforcement actions do not measure all affected renters.",
+      "subgroup": "Public housing agencies and renters subject to facial-recognition access or other rental proptech controls.",
+      "counterinterpretation": "Agency enforcement and forthcoming guidance can provide meaningful correction even while standardized operational rules remain incomplete.",
+      "source_url": "https://www.gao.gov/products/gao-25-107196",
+      "retrieval_hash": "sha256:c591bfd63a7c99c701fff7c3fdabbf8a292c47870930ebad92bbc22f2032601c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-25-107196/index.html", "claim": "Official full GAO report provides tool descriptions, risk mechanisms, oversight actions, and methodological boundaries.", "status": "official-report"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107201", "claim": "Related GAO homebuying proptech review supplies a separate buyer and mortgage-market comparison; this record does not pool its findings.", "status": "official-complementary-source"}
+  ],
+  "boundary": "This record identifies a rental-housing digital interface where search, screening, pricing, advertising, surveillance, privacy, and fair-housing oversight meet. It does not establish a national discrimination, rent-increase, privacy-loss, denial, eviction, housing-instability, trust, or political-action rate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO product page used for extracted product, risk, oversight, and recommendation findings; full report is linked but not retained in this record.",
+    "html_sha256": "sha256:c591bfd63a7c99c701fff7c3fdabbf8a292c47870930ebad92bbc22f2032601c",
+    "checked": "2026-09-22"
+  }
+}

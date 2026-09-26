@@ -109,6 +109,18 @@ measured time or engagement changes become durable human control, rather than
 assuming that adoption, productivity, or continued use means empowerment or
 dependence.
 
+The ninth detailed finding is [AI trust can be learned through use while privacy control remains costly and incomplete](findings/us-digital-habits-attention-013.md).
+It adds task-specific platform choice, multihoming, experiential trust,
+privacy-policy knowledge, and hypothetical willingness to pay for safeguards.
+It keeps concern, understanding, protective action, switching, and durable data
+control as separate stages.
+
+The [Take It Down enforcement finding](findings/us-digital-habits-attention-020.md)
+adds the regulator-escalation stage: the FTC warned 12 nudify websites and
+opened a route for reporting missing or failed removal processes. It makes
+platform failure more contestable without proving individual removal,
+recurrence prevention, survivor safety, or practical exit.
+
 ## First working idea
 
 The important product feature may be the user's ability to leave. A tool can be useful and still make exit costly by using personal knowledge, social pressure, or repeated prompts. This is a working idea, not a conclusion.

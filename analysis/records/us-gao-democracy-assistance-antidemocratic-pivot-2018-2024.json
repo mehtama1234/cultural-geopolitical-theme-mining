@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-democracy-assistance-antidemocratic-pivot-2018-2024",
+  "title": "Democracy assistance can pivot away from a host government faster than institutions can adapt",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-108754 review of USAID and State democracy assistance and responses to reported antidemocratic actions",
+  "geography": "El Salvador, Georgia, Sri Lanka, and Tunisia selected for review; worldwide U.S. democracy assistance allocations, fiscal years 2018-2023, with pivots observed during fiscal years 2021-2024",
+  "observations": [
+    {
+      "period": "Fiscal years 2018-2023 allocations; fiscal years 2021-2024 assistance pivots; GAO public report March 2026",
+      "denominator": {
+        "value": 4,
+        "unit": "selected countries with reported democratic erosion reviewed through agency and implementing-partner discussion groups",
+        "value_type": "selected_case_universe"
+      },
+      "measures": {
+        "democracy_assistance_allocations": {
+          "value": 14,
+          "unit": "billions of dollars allocated by USAID and State worldwide in fiscal years 2018-2023",
+          "value_type": "reported_allocation"
+        },
+        "government_entity_exposure": {
+          "value": 4.5,
+          "unit": "billions of dollars intended to encourage democratic practices within host-country government institutions",
+          "value_type": "reported_allocation"
+        },
+        "implementation_challenges": {
+          "value": "host-government harassment or persecution of civil society and media, weak operating capacity, and competing U.S. or donor priorities were reported as major challenges",
+          "unit": "discussion-group reported challenge categories",
+          "value_type": "reported_qualitative_pattern"
+        },
+        "pivot_route": {
+          "value": "after reported antidemocratic actions, assistance benefiting government entities was shifted, paused, or ceased and some activities moved toward civil society, independent media, or the private sector",
+          "unit": "reported implementation response",
+          "value_type": "reported_response"
+        },
+        "pivot_planning": {
+          "value": "none of the 12 reviewed awards had plans to mitigate the risk of shifting, pausing, or ceasing government-entity activities",
+          "unit": "reviewed awards",
+          "value_type": "reported_gap"
+        },
+        "pivot_consequence": {
+          "value": "agency officials reported loss of programmatic momentum and confusion about how to proceed after redirection",
+          "unit": "reported implementation consequence",
+          "value_type": "reported_consequence"
+        }
+      },
+      "method": "GAO analyzed Foreign Assistance Coordination and Tracking System allocation data, reviewed agency guidance and awards, visited four selected countries, and held nine discussion groups with U.S. officials and implementing-partner representatives.",
+      "uncertainty": "Allocations are not the same as money received, completed activity, or democratic change. The four countries were selected because of democratic erosion and assistance, so they are not a representative global sample. The public report omits sensitive information and does not estimate causal effects of assistance or pivots.",
+      "subgroup": "USAID and State awards across six democracy-assistance categories, with selected-country implementing partners and agency managers; government entities, civil society, media, and private-sector recipients can face different risks, but the report does not follow each recipient over time.",
+      "counterinterpretation": "Redirecting funds away from a host government can protect civil society or reduce complicity with repression, even if it disrupts institutional work. Loss of momentum may reflect a necessary response to changed conditions rather than poor program design alone. Democracy can also change for reasons outside U.S. assistance.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108754/index.html",
+      "retrieval_hash": "sha256:e45da1fcaa274415650ed9e5650b7b305b096cf546d3cf4c94add8c49868548d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108754",
+      "claim": "GAO landing page and report metadata for the democracy-assistance review.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures U.S. democracy-assistance allocations, implementation challenges, and documented pivots away from host-government entities. It does not establish democratic change, public legitimacy, partner safety, recipient adequacy, or causal U.S. influence.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO public report reviewed; underlying award files and sensitive report material are not retained",
+    "checked": "2026-09-22"
+  }
+}

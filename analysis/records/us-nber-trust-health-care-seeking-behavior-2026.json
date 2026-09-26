@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-trust-health-care-seeking-behavior-2026",
+  "title": "Domain-specific health-care trust is associated with care seeking and care avoidance",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 32028 revised April 2026; nationally representative U.S. adult survey with trust, care-seeking, and mechanism measures",
+  "geography": "United States; adult respondents and health-care entities including doctors, nurses, hospitals, insurers, and public-health authorities",
+  "observations": [
+    {
+      "period": "January 2024 paper; revised April 2026; survey fielding and analytic period are study-defined",
+      "denominator": {
+        "value": 1,
+        "unit": "nationally representative U.S. adult survey; respondent count and individual scenario universes are not stated in the official abstract",
+        "value_type": "study_defined_survey_universe"
+      },
+      "measures": {
+        "care_seeking": {
+          "value": "Higher trust in the health-care system is strongly associated with greater retrospective and anticipated preventive and elective care-seeking and lower care avoidance",
+          "unit": "reported association across care-seeking scenarios",
+          "value_type": "reported_association"
+        },
+        "relative_magnitude": {
+          "value": "The reported association is comparable in magnitude to gradients associated with education and income",
+          "unit": "comparative association magnitude",
+          "value_type": "reported_comparison"
+        },
+        "trust_composition": {
+          "value": "Trust components are relatively substitutable across health-care entities, while within-domain components are more complementary, especially among individual providers",
+          "unit": "structural model implication",
+          "value_type": "estimated_model_result"
+        },
+        "entity_difference": {
+          "value": "Counterfactual trust losses have different predicted behavioral consequences, with trust in doctors playing the largest role in the reported simulations",
+          "unit": "counterfactual care-seeking consequence",
+          "value_type": "model_simulation"
+        },
+        "heterogeneity": {
+          "value": "The relationship differs by age and political affiliation; the paper reports no differential relationship for Black respondents",
+          "unit": "subgroup association pattern",
+          "value_type": "reported_subgroup_comparison"
+        }
+      },
+      "method": "Nationally representative U.S. survey guided by a theoretical model in which care-seeking depends on perceived usefulness, expected disutility, out-of-pocket costs, and claim denials; the paper measures overall and entity-specific trust, retrospective and prospective care-seeking, and mechanism variables, with structural estimates and counterfactual simulations.",
+      "uncertainty": "The source is primarily survey and model evidence: association does not establish that a trust change caused a later care decision. Anticipated care-seeking is not realized treatment, completion, health improvement, affordability, or durable trust. Structural estimates depend on the model and measured beliefs; the official abstract does not provide a full denominator or all fielding details.",
+      "subgroup": "Adult respondents; trust in the overall system, doctors, nurses, hospitals, insurers, CDC, and other public-health entities; age, political affiliation, race, income, and education comparisons; preventive, elective, vaccination, and other study-defined care scenarios.",
+      "counterinterpretation": "People who expect better care, face fewer barriers, or have more resources may both report greater trust and seek care more often. Trust can be a proxy for prior experience or access, and lower care seeking may reflect appropriate choice, cost, time, transportation, provider availability, or health status rather than distrust alone.",
+      "source_url": "https://www.nber.org/papers/w32028",
+      "retrieval_hash": "sha256:4188e4bc1c1b8d7d9f7578c322963083e84be7bda564aad7c7bbcd8dbc94e70f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w32028/w32028.pdf",
+      "claim": "Revised official NBER paper PDF and abstract context.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.socialscienceregistry.org/trials/11214",
+      "claim": "Pre-registration associated with the survey study.",
+      "status": "study-registration"
+    }
+  ],
+  "boundary": "This record adds a trust-to-care-seeking and care-avoidance pathway. It does not establish a causal trust shock, realized treatment, affordability, health outcome, patient-provider encounter, remedy, durable trust change, or political action.",
+  "retrieval_hash": "sha256:4188e4bc1c1b8d7d9f7578c322963083e84be7bda564aad7c7bbcd8dbc94e70f"
+}

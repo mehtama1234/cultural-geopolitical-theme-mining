@@ -1,0 +1,92 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-wesp-mid-2026-energy-inflation-supply-chain-shock",
+  "title": "Geopolitical energy disruption is transmitting through inflation, supply chains, household purchasing power, and developing-country fiscal space",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "political_judgment_action",
+    "housing_place_mobility"
+  ],
+  "source_unit": "United Nations DESA, World Economic Situation and Prospects as of mid-2026",
+  "geography": "Global economy with developed, developing, regional, and vulnerable-country outlooks",
+  "observations": [
+    {
+      "period": "2026-2027; global growth and inflation outlook after the mid-2026 energy shock",
+      "denominator": {
+        "value": 1,
+        "unit": "global macroeconomic forecast frame",
+        "value_type": "global_forecast_frame"
+      },
+      "measures": {
+        "global_growth_2026": {"value": 2.5, "unit": "percent projected global GDP growth in 2026", "value_type": "reported_forecast"},
+        "global_growth_2027": {"value": 2.8, "unit": "percent projected global GDP growth in 2027", "value_type": "reported_forecast"},
+        "global_inflation_2026": {"value": 3.9, "unit": "percent projected global inflation in 2026", "value_type": "reported_forecast"},
+        "global_inflation_2027": {"value": 3.1, "unit": "percent projected global inflation in 2027", "value_type": "reported_forecast"}
+      },
+      "method": "UN DESA Global Economic Monitoring Branch update using the World Economic Forecasting Model, revised after the energy and supply-chain shock.",
+      "uncertainty": "The forecast depends heavily on the duration and scale of the conflict, energy-market disruption, commodity prices, policy responses, and financial conditions; a faster resolution and a prolonged disruption imply materially different paths.",
+      "subgroup": "Global economy, developed and developing economies, households, firms, governments, and regions with different exposure to energy, food, trade, and financing shocks.",
+      "counterinterpretation": "Aggregate growth can remain positive while households face falling real purchasing power, firms face higher costs, or vulnerable countries lose development capacity; growth is not a welfare measure by itself.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-mid-2026",
+      "retrieval_hash": "sha256:8378e3ff2c091660e0830923e62a7d20a3b94ad6590cc4f487afb79709dd15a8",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; energy, freight, fertilizer, food, and supply-chain transmission",
+      "denominator": {
+        "value": 1,
+        "unit": "global energy and supply-chain shock transmission frame",
+        "value_type": "global_shock_transmission_frame"
+      },
+      "measures": {
+        "energy_route": {"value": "constrained energy supply and closure of a major transit route", "unit": "reported geopolitical-to-energy transmission mechanism", "value_type": "reported_mechanism"},
+        "transit_share": {"value": 20, "unit": "approximately percent of global oil and LNG supplies normally passing through the Strait of Hormuz", "value_type": "reported_share"},
+        "cost_channels": {"value": "fuel, fertilizer, food, freight, insurance, transport, and import costs", "unit": "reported supply-chain and price channels", "value_type": "reported_channel_set"},
+        "food_energy_burden": {"value": "low-income households bear the heaviest burden because food and energy take a larger share of their budgets", "unit": "reported distributional mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN DESA analysis of energy-market disruption, transit exposure, commodity prices, supply chains, import costs, and household purchasing-power channels.",
+      "uncertainty": "The scale and persistence of pass-through depend on inventories, substitution, market structure, policy support, transport rerouting, and the conflict's duration; the report does not estimate every household's realized incidence.",
+      "subgroup": "Food- and fuel-importing developing economies, low-income households, energy-intensive firms, transport and logistics systems, and populations exposed to food insecurity.",
+      "counterinterpretation": "Some producers and energy companies may receive windfall gains, while subsidies, stockpiles, alternative routes, or targeted support can buffer pass-through for particular places or groups.",
+      "source_url": "https://desapublications.un.org/file/22009/download",
+      "retrieval_hash": "sha256:8378e3ff2c091660e0830923e62a7d20a3b94ad6590cc4f487afb79709dd15a8",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; fiscal, financial, labour, and development-capacity consequences",
+      "denominator": {
+        "value": 1,
+        "unit": "global public-capacity and development-finance response frame",
+        "value_type": "global_policy_forecast_frame"
+      },
+      "measures": {
+        "external_finance": {"value": "tighter external financing conditions and possible portfolio outflows", "unit": "reported financial transmission mechanism", "value_type": "reported_mechanism"},
+        "fiscal_pressure": {"value": "weaker growth plus crisis-cushioning expenditures increase fiscal pressure", "unit": "reported public-capacity mechanism", "value_type": "reported_mechanism"},
+        "policy_dilemma": {"value": "higher rates may contain inflation while weakening growth; holding rates may entrench price pressure", "unit": "reported monetary-policy trade-off", "value_type": "reported_policy_tradeoff"},
+        "development_risk": {"value": "food insecurity, poverty, debt vulnerability, and slower SDG progress", "unit": "reported development-risk set", "value_type": "reported_risk_set"}
+      },
+      "method": "UN DESA synthesis of monetary, fiscal, trade, labour, industrial, financial, and international-cooperation channels.",
+      "uncertainty": "These are forecast mechanisms and risks, not measured causal effects or uniform country outcomes; policy choices and international coordination can alter the path.",
+      "subgroup": "Developing-country governments, central banks, workers, firms, households, lenders, aid recipients, and populations already facing debt or food insecurity.",
+      "counterinterpretation": "Resilient labour markets, consumer demand, AI-related investment, fiscal support, and international coordination may offset part of the shock, but their benefits can be unevenly distributed.",
+      "source_url": "https://desapublications.un.org/publications/world-economic-situation-and-prospects-mid-2026",
+      "retrieval_hash": "sha256:8378e3ff2c091660e0830923e62a7d20a3b94ad6590cc4f487afb79709dd15a8",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/file/22009/download", "claim": "Official UN DESA mid-year update PDF."},
+    {"source_url": "https://www.un.org/en/desa-en/introductory-remarks-wesp-2026-new-york-launch", "claim": "UN DESA launch context for the January 2026 WESP baseline."}
+  ],
+  "boundary": "This record adds a geopolitical-shock-to-energy, inflation, supply-chain, household-purchasing-power, financial, fiscal, and development-capacity route. It is not household-level incidence data, a price pass-through estimate for a specific product, a causal geopolitical evaluation, or proof of realized poverty, political action, or state failure.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA publication page and mid-year PDF were retrieved; growth, inflation, Strait of Hormuz exposure, household purchasing-power, financing, fiscal, and development-risk claims were cross-checked against the report summary and PDF sections.",
+    "source_url_sha256": "sha256:8378e3ff2c091660e0830923e62a7d20a3b94ad6590cc4f487afb79709dd15a8",
+    "checked": "2026-09-26"
+  }
+}

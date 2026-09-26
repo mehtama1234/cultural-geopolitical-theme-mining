@@ -107,6 +107,12 @@ silently for the missing tables. Do not use a staging URL, stale spreadsheet
 path, or PUF without revalidating the release, dictionary, weighting note, and
 table contents.
 
+The bounded March PUF screen is now reproduced in the [machine-readable
+social/cultural/civic record](data/htops-2026-social-cultural-civic-screen-v1.json).
+It uses `EXPENSE_DIFFICULT` with `ARTEXHIBIT`, `CREATEART`, `PARTINARTS`,
+`SOC_CLUBS`, and `ATTENDMEETING`, preserves the corrected-file hash and
+replicate-weight alignment, and keeps the result same-round and descriptive.
+
 **Official table page:** <https://www.census.gov/data/tables/2026/demo/hhp/2603.html>
 **Official release note:** <https://www.census.gov/newsroom/press-releases/2026/htops-data-tables.html>
 **Official PUF page:** <https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html>

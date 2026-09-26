@@ -1,0 +1,120 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-landscape-development-trends-multilateralism-conflict-distrust-2026",
+  "title": "Development is being shaped by interacting fractures in multilateral cooperation, conflict, digital capacity, debt, and civic trust",
+  "theme_ids": ["voice", "cost", "energy", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "UNDP, The Landscape of Development: UNDP Trends Update 2026",
+  "geography": "Global development, multilateral cooperation, conflict, gender, health, digital systems, prosperity, migration, trust, debt, sustainable finance, energy, and environment",
+  "observations": [
+    {
+      "period": "2024-2026; multilateral cooperation and geopolitical capacity",
+      "denominator": {
+        "value": 1,
+        "unit": "global multilateral-cooperation and development-finance frame",
+        "value_type": "global_geopolitical_development_frame"
+      },
+      "measures": {
+        "military_spending_change": {"value": 9.4, "unit": "percent growth in global military expenditure from 2023 to 2024", "value_type": "reported_global_change"},
+        "military_spending_gdp": {"value": 2.5, "unit": "percent of global GDP represented by military expenditure", "value_type": "reported_global_share"},
+        "oda_2024": {"value": 212100000000, "unit": "US dollars in official development assistance in 2024", "value_type": "reported_global_flow"},
+        "oda_projected_change": {"value": "-9 to -17", "unit": "percent projected change in ODA from 2024 to 2025", "value_type": "reported_projection"},
+        "support_international_cooperation": {"value": 55, "unit": "percent of people reported as supporting international cooperation even when it requires compromising national interests", "value_type": "reported_aggregate_attitude"}
+      },
+      "method": "UNDP Strategy and Futures Team synthesis of global development indicators, geopolitical trends, public-attitude evidence, and emerging policy signals.",
+      "uncertainty": "This is a cross-domain trends update rather than a harmonized causal dataset; figures use source-specific years, definitions, and methods and do not establish that military or aid changes caused public trust or development outcomes.",
+      "subgroup": "States, international organizations, donors, developing countries, populations affected by aid or security spending, and publics evaluating international cooperation.",
+      "counterinterpretation": "Security spending and new forms of cooperation can sometimes protect infrastructure, create human-security investment, or support a reconfigured rather than absent multilateral order.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/2026-undp-trends-update-final_0.pdf",
+      "retrieval_hash": "sha256:df851d330585d6b8ea1512d4b3f501234b72571d556fde923d04defe9b1a9bc6",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; conflict cascades and cross-border exposure",
+      "denominator": {
+        "value": 1,
+        "unit": "global state-based conflict and violence-impact frame",
+        "value_type": "global_conflict_frame"
+      },
+      "measures": {
+        "active_state_conflicts": {"value": 59, "unit": "active state-based conflicts worldwide", "value_type": "reported_global_count"},
+        "cross_border_conflict_involvement": {"value": 78, "unit": "UN member states involved in conflicts beyond their borders, approximately 40 percent", "value_type": "reported_country_count"},
+        "violence_economic_impact": {"value": 20000000000000, "unit": "US dollars of global economic impact of violence in 2024, approximately 12 percent of global GDP", "value_type": "reported_global_cost"},
+        "conflict_exposure": {"value": 1, "unit": "in 6 people exposed to conflict in 2025", "value_type": "reported_global_exposure_ratio"},
+        "prevention_return": {"value": "26-103", "unit": "US dollars of possible conflict-related costs potentially saved per dollar invested in prevention, according to the report synthesis", "value_type": "reported_modeled_range"}
+      },
+      "method": "UNDP synthesis of conflict, violence, exposure, economic-cost, humanitarian, and prevention evidence.",
+      "uncertainty": "Global conflict counts and economic-cost estimates depend on definitions and source methods; the prevention range is modeled and does not identify a universal return on any particular intervention.",
+      "subgroup": "Civilians, states, non-state armed groups, host communities, humanitarian actors, workers, firms, and populations exposed to direct or spillover violence.",
+      "counterinterpretation": "Conflict exposure can decline in some places, and prevention, institutions, early warning, and peace agreements can reduce harm even while the global aggregate remains severe.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/2026-undp-trends-update-final_0.pdf",
+      "retrieval_hash": "sha256:df851d330585d6b8ea1512d4b3f501234b72571d556fde923d04defe9b1a9bc6",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; digital capacity, AI exposure, and identity infrastructure",
+      "denominator": {
+        "value": 1,
+        "unit": "global digital development, AI, and identity-infrastructure frame",
+        "value_type": "global_digital_capacity_frame"
+      },
+      "measures": {
+        "offline_population": {"value": 2200000000, "unit": "people remaining offline in 2025, approximately", "value_type": "reported_global_count"},
+        "ai_job_exposure_advanced": {"value": 34, "unit": "percent of jobs in advanced economies exposed to AI according to the report synthesis", "value_type": "reported_job_share"},
+        "ai_job_exposure_low_income": {"value": 11, "unit": "percent of jobs in low-income countries exposed to AI according to the report synthesis", "value_type": "reported_job_share"},
+        "organizations_ai_agents": {"value": 62, "unit": "percent of organizations across 105 countries experimenting with or scaling AI agents", "value_type": "reported_organization_share"},
+        "no_digital_id": {"value": 2900000000, "unit": "people without access to a digital identity in 2025, approximately", "value_type": "reported_global_count"},
+        "no_legal_identity": {"value": 800000000, "unit": "people lacking a legal identity, approximately", "value_type": "reported_global_count"},
+        "data_center_power_growth": {"value": 165, "unit": "percent potential increase in global data-centre power demand by 2030", "value_type": "reported_projection"}
+      },
+      "method": "UNDP synthesis of connectivity, AI exposure, organization adoption, digital public infrastructure, identity, and data-centre energy indicators.",
+      "uncertainty": "AI exposure is not job loss or realized productivity; adoption and digital identity counts do not establish usable access, safety, ownership, or service receipt, and the power estimate is a projection.",
+      "subgroup": "Offline populations, workers, public agencies, firms, women, low-income countries, people without legal identity, digital-platform users, and communities affected by data-centre infrastructure.",
+      "counterinterpretation": "Digital public infrastructure, open models, connectivity, and identity systems can expand access and state capacity if governance, privacy, affordability, and local capability keep pace.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/2026-undp-trends-update-final_0.pdf",
+      "retrieval_hash": "sha256:df851d330585d6b8ea1512d4b3f501234b72571d556fde923d04defe9b1a9bc6",
+      "status": "reported"
+    },
+    {
+      "period": "2025-2026; distrust, grievance, and civic action",
+      "denominator": {
+        "value": 26,
+        "unit": "countries represented in the report's aggregate grievance and trust evidence",
+        "value_type": "cross_country_attitude_frame"
+      },
+      "measures": {
+        "authoritarian_rule": {"value": 39, "unit": "percent of people worldwide living under authoritarian rule according to the report synthesis", "value_type": "reported_global_share"},
+        "hybrid_authoritarian_tendency": {"value": 15, "unit": "percent of people worldwide living in hybrid regimes with authoritarian tendencies", "value_type": "reported_global_share"},
+        "rule_of_law_decline": {"value": 68, "unit": "percent of countries where rule-of-law conditions declined in 2025, compared with 57 percent in 2024", "value_type": "reported_country_share"},
+        "grievance": {"value": 57, "unit": "percent of people across 26 countries with moderate or high grievance", "value_type": "reported_aggregate_attitude"},
+        "protest_increase_countries": {"value": 88, "unit": "countries where protest activity increased in 2025", "value_type": "reported_country_count"},
+        "hostile_activism_approval": {"value": 40, "unit": "percent across 28 countries approving at least one form of hostile activism, according to the report synthesis", "value_type": "reported_aggregate_attitude"}
+      },
+      "method": "UNDP synthesis of democracy, rule-of-law, grievance, protest, trust, and civic-participation indicators and public-attitude evidence.",
+      "uncertainty": "The reported aggregate attitudes and country counts do not establish that grievance caused protest, hostile activism, authoritarianism, or durable institutional change; country coverage and question wording vary by source.",
+      "subgroup": "Young people, national and local institutions, protesters, nonparticipants, marginalized groups, political actors, businesses, and publics evaluating fairness and voice.",
+      "counterinterpretation": "High grievance can coexist with constructive participation, local governance innovation, citizens' assemblies, and reforms that rebuild trust rather than produce destabilization.",
+      "source_url": "https://www.undp.org/sites/g/files/zskgke326/files/2026-02/2026-undp-trends-update-final_0.pdf",
+      "retrieval_hash": "sha256:df851d330585d6b8ea1512d4b3f501234b72571d556fde923d04defe9b1a9bc6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.undp.org/future-development/publications/landscape-development-undp-trends-update-2026", "claim": "Official UNDP publication page, date, purpose, and report provenance."},
+    {"source_url": "https://hdr.undp.org/reports-and-publications/towards-2026-human-development-report", "claim": "Related UNDP human-development horizon work on planetary systems and development."}
+  ],
+  "boundary": "This record adds an integrated development-landscape route linking multilateralism, conflict, digital capacity, identity, debt, energy, distrust, grievance, and civic action. It is a cross-domain public synthesis with source-specific aggregate indicators, not respondent-level evidence, a pooled causal model, individual political behavior, or proof that any reported trend caused a later outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNDP Trends Update 2026 publication page and PDF were reviewed; multilateralism, conflict, digital capacity, AI exposure, identity, distrust, grievance, protest, and rule-of-law claims were cross-checked against the report's 12-theme structure.",
+    "source_url_sha256": "sha256:df851d330585d6b8ea1512d4b3f501234b72571d556fde923d04defe9b1a9bc6",
+    "checked": "2026-09-26"
+  }
+}

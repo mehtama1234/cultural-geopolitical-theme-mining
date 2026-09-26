@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-head-start-full-day-maternal-work-2026",
+  "title": "Extending Head Start hours increased maternal work outcomes in targeted areas",
+  "theme_ids": ["time", "work", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "time_hidden_price", "work_control_bargaining", "household_room_consumption", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 34831; 2016 federal Head Start full-day expansion, administrative program data, geocoded centers, and household employment outcomes",
+  "geography": "United States; Head Start grantees and mothers in treated and untreated areas",
+  "observations": [
+    {
+      "period": "2016 federal funding initiative; working paper issued February 2026 and revised August 2026",
+      "denominator": {"value": null, "unit": "mothers and Head Start grantees in treated and untreated areas; exact analytic denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "full_day_enrollment": {"value": 19, "unit": "percent increase in full-day Head Start enrollment", "value_type": "reported_difference_in_differences_estimate"},
+        "single_mother_employment": {"value": 2.5, "unit": "percent increase in employment among single mothers", "value_type": "reported_difference_in_differences_estimate"},
+        "single_mother_full_time": {"value": 3.2, "unit": "percent increase in full-time employment among single mothers", "value_type": "reported_difference_in_differences_estimate"},
+        "single_mother_hours": {"value": 2.9, "unit": "percent increase in hours among single mothers", "value_type": "reported_difference_in_differences_estimate"},
+        "single_mother_earnings": {"value": 7, "unit": "percent increase in earnings among single mothers", "value_type": "reported_difference_in_differences_estimate"}
+      },
+      "method": "Difference-in-differences comparing mothers in areas affected by the 2016 federal funding initiative with mothers in untreated areas, linking administrative Head Start program data, geocoded center locations, and household employment data.",
+      "uncertainty": "The treatment targets grantees with low full-day enrollment and is not a random national expansion. The abstract does not disclose the complete analytic denominator or all subgroup estimates. Employment, hours, and earnings do not establish childcare quality, child outcomes, maternal wellbeing, schedule control, or equal access.",
+      "subgroup": "Single mothers and mothers in treated versus untreated Head Start areas; effects should not be generalized to partnered mothers, all childcare programs, or all childcare constraints.",
+      "counterinterpretation": "Targeted areas may differ in local labor demand, center capacity, transportation, or family need; the expansion may change selection into Head Start or work without resolving affordability, irregular schedules, illness, school closures, or care quality.",
+      "source_url": "https://www.nber.org/papers/w34831",
+      "retrieval_hash": "sha256:2968393a2807a589f6bcce44ab74bfa64bfb12b39c2dd2f8832020d914979e29",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds an experimental-policy-to-formal-care-to-maternal-work conversion. It does not establish universal childcare effects, childcare quality, child wellbeing, maternal time satisfaction, equal access, household recovery, or durable political meaning."
+}

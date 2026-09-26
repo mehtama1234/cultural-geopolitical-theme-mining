@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-communities-in-schools-personalized-supports-long-run-2026",
+  "title": "Personalized school-based supports can connect non-cognitive change to long-run educational and earnings outcomes",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "work_control_bargaining"
+  ],
+  "source_unit": "NBER Working Paper 35740, staggered rollout of Communities In Schools in high-poverty U.S. schools",
+  "geography": "United States; high-poverty schools participating in Communities In Schools and linked student education and adult earnings outcomes",
+  "observations": [
+    {
+      "period": "Staggered Communities In Schools rollout with long-run student follow-up; paper issued September 14, 2026",
+      "denominator": {
+        "value": 2000000,
+        "unit": "students reached annually by the U.S. Communities In Schools program, as reported in the NBER abstract; study estimation sample may differ",
+        "value_type": "reported_program_reach"
+      },
+      "measures": {
+        "support_model": {
+          "value": "school coordinators connect struggling students with personalized academic, behavioral, mental-health, and basic-needs resources including housing stabilization",
+          "unit": "personalized school-based support intervention",
+          "value_type": "reported_program_design"
+        },
+        "test_scores": {
+          "value": "higher for struggling students",
+          "unit": "standardized test-score outcome after staggered rollout",
+          "value_type": "reported_treatment_effect"
+        },
+        "high_school_completion": {
+          "value": "higher",
+          "unit": "high-school completion outcome in long-run follow-up",
+          "value_type": "reported_long_run_effect"
+        },
+        "adult_earnings": {
+          "value": "higher",
+          "unit": "adult earnings outcome in long-run follow-up",
+          "value_type": "reported_long_run_effect"
+        },
+        "noncognitive_pathway": {
+          "value": "test-score improvements explain about half of the program's impact on high-school graduation; the remainder reflects attendance and behavior progress",
+          "unit": "reported decomposition of the graduation pathway",
+          "value_type": "reported_mechanism"
+        },
+        "personalization_pattern": {
+          "value": "students with different needs experience comparable long-run gains when coordinators tailor services to need",
+          "unit": "heterogeneous-needs and long-run outcome pattern",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Uses the staggered rollout of Communities In Schools and links school intervention exposure to student test scores, attendance and behavior, high-school completion, and adult earnings outcomes.",
+      "uncertainty": "The paper is a working paper and the abstract does not disclose the exact estimation-sample denominator, treatment intensity, or every long-run outcome definition. Program reach is not the same as causal exposure for every student. Adult earnings are not the full measure of wellbeing, health, trust, safety, or household security.",
+      "subgroup": "Struggling students in high-poverty U.S. schools, students with different academic, behavioral, mental-health, and basic-needs profiles, participating schools, coordinators, and linked adult outcomes; treatment effects may vary by school and service mix.",
+      "counterinterpretation": "Staggered rollout timing may correlate with school need, local capacity, or concurrent reforms. Coordinators may improve outcomes through trust, attendance, behavior, academic support, housing stabilization, or other bundled routes that the abstract does not separately identify. Long-run earnings differences may reflect selection, schooling, health, or labor-market channels beyond the measured intervention.",
+      "source_url": "https://www.nber.org/papers/w35740",
+      "retrieval_hash": "sha256:1d50ececed8437b6ceda2b765c1e5d396337426b0b657e198f062f16ddabacc0",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35740",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a U.S. personalized school-support-to-long-run-outcome pathway. It does not establish that every student reached receives the same service, identify the separate causal role of each support, measure household trust or wellbeing, or prove general transfer to all schools or communities."
+}

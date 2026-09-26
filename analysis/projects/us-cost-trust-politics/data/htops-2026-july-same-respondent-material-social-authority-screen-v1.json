@@ -1,0 +1,97 @@
+{
+  "format": "htops-2026-july-same-respondent-material-social-authority-screen-v1",
+  "field_window": "July 15-August 3, 2026",
+  "source": "U.S. Census Bureau Household Trends and Outlook Pulse Survey topical 2607 public-use file",
+  "main_rows": 12755,
+  "valid_expense_rows": 12088,
+  "unweighted_n_by_expense_group": {
+    "1_not_at_all_difficult": 7536,
+    "2_a_little_difficult": 2847,
+    "3_somewhat_difficult": 1178,
+    "4_very_difficult": 527
+  },
+  "weight": "PWEIGHT with PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
+  "estimand": "Same-round descriptive respondent-weighted conditional shares by household-reported expense difficulty; standard errors use the 80 replicate weights.",
+  "outcomes": {
+    "lonely_always_or_usually": {
+      "1_not_at_all_difficult": {"pct": 1.70, "se_pct_points": 0.16},
+      "2_a_little_difficult": {"pct": 11.39, "se_pct_points": 1.19},
+      "3_somewhat_difficult": {"pct": 22.52, "se_pct_points": 3.09},
+      "4_very_difficult": {"pct": 22.83, "se_pct_points": 2.11}
+    },
+    "support_always_or_usually": {
+      "1_not_at_all_difficult": {"pct": 75.12, "se_pct_points": 0.73},
+      "2_a_little_difficult": {"pct": 60.69, "se_pct_points": 1.09},
+      "3_somewhat_difficult": {"pct": 43.12, "se_pct_points": 2.20},
+      "4_very_difficult": {"pct": 39.48, "se_pct_points": 2.05}
+    },
+    "club_12_or_more_times": {
+      "1_not_at_all_difficult": {"pct": 19.31, "se_pct_points": 0.51},
+      "2_a_little_difficult": {"pct": 12.12, "se_pct_points": 0.59},
+      "3_somewhat_difficult": {"pct": 5.89, "se_pct_points": 0.53},
+      "4_very_difficult": {"pct": 9.28, "se_pct_points": 1.12}
+    },
+    "food_sometimes_or_often_not_enough": {
+      "1_not_at_all_difficult": {"pct": 1.62, "se_pct_points": 0.54},
+      "2_a_little_difficult": {"pct": 4.64, "se_pct_points": 0.57},
+      "3_somewhat_difficult": {"pct": 20.81, "se_pct_points": 3.27},
+      "4_very_difficult": {"pct": 33.04, "se_pct_points": 2.27}
+    },
+    "doctor_trust_great_deal_or_quite_lot": {
+      "1_not_at_all_difficult": {"pct": 74.05, "se_pct_points": 0.74},
+      "2_a_little_difficult": {"pct": 69.86, "se_pct_points": 1.46},
+      "3_somewhat_difficult": {"pct": 60.23, "se_pct_points": 2.90},
+      "4_very_difficult": {"pct": 54.79, "se_pct_points": 2.60}
+    },
+    "ai_trust_great_deal_or_quite_lot": {
+      "1_not_at_all_difficult": {"pct": 16.07, "se_pct_points": 0.63},
+      "2_a_little_difficult": {"pct": 16.23, "se_pct_points": 1.12},
+      "3_somewhat_difficult": {"pct": 17.02, "se_pct_points": 1.65},
+      "4_very_difficult": {"pct": 13.75, "se_pct_points": 1.28}
+    },
+    "federal_statistics_trust": {
+      "1_not_at_all_difficult": {"pct": 53.91, "se_pct_points": 0.68},
+      "2_a_little_difficult": {"pct": 44.73, "se_pct_points": 1.32},
+      "3_somewhat_difficult": {"pct": 36.65, "se_pct_points": 2.49},
+      "4_very_difficult": {"pct": 29.59, "se_pct_points": 1.69}
+    },
+    "congress_confidence_great_deal_or_quite_lot": {
+      "1_not_at_all_difficult": {"pct": 19.33, "se_pct_points": 0.62},
+      "2_a_little_difficult": {"pct": 13.11, "se_pct_points": 0.64},
+      "3_somewhat_difficult": {"pct": 12.81, "se_pct_points": 1.43},
+      "4_very_difficult": {"pct": 9.21, "se_pct_points": 0.91}
+    }
+  },
+  "age_conditioned_contrasts": {
+    "note": "Same estimand and replicate-weight standard errors; arrays are [percent, standard_error_percentage_points, unweighted_n] for no difficulty and very difficult groups.",
+    "18_34": {
+      "lonely": [[2.59, 0.36, 551], [41.53, 4.39, 95]],
+      "support": [[63.64, 2.75, 551], [38.68, 4.00, 95]],
+      "doctor_trust": [[75.25, 2.36, 551], [60.19, 4.97, 95]],
+      "ai_trust": [[15.06, 1.71, 551], [11.66, 2.94, 95]]
+    },
+    "35_49": {
+      "lonely": [[2.13, 0.35, 1225], [10.92, 1.77, 173]],
+      "support": [[72.36, 1.46, 1225], [32.00, 2.91, 173]],
+      "doctor_trust": [[69.37, 1.63, 1225], [48.86, 3.60, 173]],
+      "ai_trust": [[18.85, 1.70, 1225], [12.88, 2.36, 173]]
+    },
+    "50_64": {
+      "lonely": [[1.69, 0.31, 2001], [12.99, 2.09, 148]],
+      "support": [[75.93, 1.03, 2001], [45.29, 4.09, 148]],
+      "doctor_trust": [[72.98, 1.21, 2001], [53.22, 3.97, 148]],
+      "ai_trust": [[18.74, 1.20, 2001], [21.46, 2.77, 148]]
+    },
+    "65_plus": {
+      "lonely": [[0.93, 0.12, 3759], [15.97, 2.76, 111]],
+      "support": [[82.66, 0.64, 3759], [62.21, 4.44, 111]],
+      "doctor_trust": [[77.14, 0.98, 3759], [60.66, 4.42, 111]],
+      "ai_trust": [[12.91, 0.55, 3759], [10.01, 2.24, 111]]
+    }
+  },
+  "boundary": "This is a same-round cross-sectional bridge. Expense difficulty is household-reported and social, food, trust, and confidence outcomes are respondent-reported. It does not identify a dated bill, cause, attribution, help received, remedy, recovery, political action, or exit.",
+  "input_sha256": "sha256:43980716428de1b6e2a215973f31b0f0a0af4317107a97ef889dbf569d207a31",
+  "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+  "reproduction": "scripts/analyze_htops_2026_july_material_social_authority.py; temporary official CSV PUF plus replicate-weight member; source files are not committed.",
+  "checked": "2026-09-25"
+}

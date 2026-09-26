@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-htops-autonomous-features-2026",
+  "title": "Autonomous driving features are already part of reported everyday mobility for a large share of adults",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "household_room_consumption",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Census Bureau Household Trends and Outlook Pulse Survey topical 2607, Transportation Table 3",
+  "geography": "United States adults age 18 and older",
+  "observations": [
+    {
+      "period": "July 15-August 3, 2026 HTOPS topical 2607",
+      "denominator": {
+        "value": 261534494,
+        "unit": "estimated U.S. population age 18 and older represented in the table",
+        "value_type": "published_weighted_population"
+      },
+      "measures": {
+        "autonomous_feature_use_count": {
+          "value": 129408710,
+          "unit": "estimated adults reporting that they drove a vehicle with autonomous features in the last week, such as speed adjustment, lane steering, or braking",
+          "value_type": "published_weighted_population"
+        },
+        "autonomous_feature_use_share": {
+          "value": 49.5,
+          "unit": "percent of represented adults; calculated from published weighted counts",
+          "value_type": "derived_share"
+        },
+        "reported_nonuse_share": {
+          "value": 39.3,
+          "unit": "percent of represented adults reporting no such driving in the last week; calculated from published weighted counts",
+          "value_type": "derived_share"
+        },
+        "age_pattern": {
+          "value": "18-34: 49.4%; 35-49: 42.0%; 50-64: 50.3%; 65+: 56.5% reporting use",
+          "unit": "percent within age group; calculated from published weighted counts",
+          "value_type": "derived_subgroup_comparison"
+        }
+      },
+      "method": "Experimental HTOPS weighted population table; the source defines autonomous features broadly as vehicle functions including adjusting speed, steering within a lane, or braking. Shares are calculated from the published Total, Yes, No, and Did not report count columns.",
+      "uncertainty": "Census warns that these experimental estimates may have small subgroup sample sizes and large standard errors. The measure captures reported exposure/use of driver-assistance features, not fully autonomous travel, safety, trust, purchase decisions, or whether the respondent was driving rather than merely riding in a vehicle.",
+      "subgroup": "U.S. adults by age and other select characteristics in the topical HTOPS table.",
+      "counterinterpretation": "A high reported share may reflect the broad feature definition, vehicle prevalence, survey interpretation, or riding in a vehicle rather than adoption of autonomous vehicles as a cultural preference. It does not establish replacement of human control or equal access to the technology.",
+      "source_url": "https://www.census.gov/data/tables/2026/demo/hhp/2607.html",
+      "retrieval_hash": "sha256:3b7b22c5dfccb0f02925329a05a285b8fbc83837d2818123f5a716630f73b76a",
+      "status": "observed"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/programs-surveys/demo/tables/hhp/2026/2607/transportation3.xlsx",
+      "claim": "Official workbook containing the published weighted counts and experimental-use warning.",
+      "status": "official-table"
+    }
+  ],
+  "boundary": "This record adds an everyday mobility-technology exposure signal. It does not measure fully autonomous vehicles, safety outcomes, consumer welfare, infrastructure readiness, trust, or causal age differences.",
+  "retrieval_hash": "sha256:3b7b22c5dfccb0f02925329a05a285b8fbc83837d2818123f5a716630f73b76a"
+}

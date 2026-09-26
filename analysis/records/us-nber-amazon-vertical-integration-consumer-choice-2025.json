@@ -1,0 +1,41 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-amazon-vertical-integration-consumer-choice-2025",
+  "title": "A platform-owned product can help today's customer while changing tomorrow's choice set",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "platforms_data_attention", "firm_sector_market_power", "household_room_consumption", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34135 field experiment and model-based counterfactuals on Amazon private labels",
+  "geography": "United States online retail; selected Amazon product categories",
+  "observations": [
+    {
+      "period": "2025 field experiment; paper revised March 2026",
+      "denominator": {"value": 1, "unit": "randomized field experiment on Amazon shoppers and selected product categories", "value_type": "experiment_scope"},
+      "measures": {"private_label_hidden": {"value": "Amazon-owned brands hidden from shoppers", "unit": "treatment condition", "value_type": "experimental_condition"}, "similar_product_substitution": {"value": "consumers chose products similar along most observable dimensions", "unit": "observed choice response", "value_type": "experimental_result"}, "search_effort_change": {"value": "no increase", "unit": "search-effort response", "value_type": "experimental_result"}, "cross_platform_substitution_change": {"value": "no increase", "unit": "shopping at other retail websites", "value_type": "experimental_result"}},
+      "method": "Field experiment hiding Amazon-owned brands, with observed shopping and choice outcomes.",
+      "uncertainty": "The experiment covers selected categories and short-run behavior; it does not measure long-run seller entry, exit, platform dependence, or all customer groups.",
+      "subgroup": "Amazon shoppers and products in the tested categories",
+      "counterinterpretation": "Similar observable products can still differ in unmeasured fit, trust, delivery, return experience, or brand value.",
+      "source_url": "https://www.nber.org/papers/w34135",
+      "retrieval_hash": "sha256:a2f1420cba6279c1a4b5e799c78fe940733cfbc476df95c10a79b5db9ff66043",
+      "status": "observed"
+    },
+    {
+      "period": "2025 field experiment; model-based short-run counterfactual",
+      "denominator": {"value": 1, "unit": "same experiment and selected categories", "value_type": "experiment_scope"},
+      "measures": {"estimated_consumer_surplus_change_when_private_labels_removed": {"value": -5.4, "unit": "percent short-run consumer surplus estimate", "value_type": "model_based_estimate"}, "category_heterogeneity": {"value": "consumer-surplus reductions exceeded 10% in some categories and were much smaller in others", "unit": "category variation", "value_type": "model_based_comparison"}, "demotion_welfare_gain": {"value": "not detected", "unit": "estimated consumer-surplus effect of demoting private labels in search", "value_type": "model_based_result"}},
+      "method": "Model-based counterfactuals calibrated to the field experiment and heterogeneous consumer preferences.",
+      "uncertainty": "Consumer-surplus estimates depend on model specification, selected categories, short-run substitution, and the assumption that observed preferences transport to the counterfactual.",
+      "subgroup": "Consumers and categories represented in the experiment",
+      "counterinterpretation": "A short-run consumer benefit from availability or prominence does not establish fair ranking, durable seller competition, or long-run consumer welfare.",
+      "source_url": "https://www.nber.org/papers/w34135",
+      "retrieval_hash": "sha256:a2f1420cba6279c1a4b5e799c78fe940733cfbc476df95c10a79b5db9ff66043",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34135", "claim": "NBER supplies the field experiment, search/substitution results, and model-based short-run welfare estimates.", "status": "research-paper"},
+    {"source_url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/1910129-1910130-amazoncom-inc-amazon-ecommerce", "claim": "Separate FTC/state Amazon marketplace case supplies an institutional platform-control comparator; it is not pooled with the experiment.", "status": "official-comparator"}
+  ],
+  "boundary": "This record separates product availability, search placement, observed substitution, search effort, cross-platform substitution, and model-based short-run consumer surplus. It does not establish long-run seller entry or exit, platform self-preferencing, data use, future prices, product quality, durable consumer dependence, or household welfare.",
+  "retrieval_hash": "sha256:a2f1420cba6279c1a4b5e799c78fe940733cfbc476df95c10a79b5db9ff66043"
+}

@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-beyond-gdp-progress-dashboard-2026",
+  "title": "Global policy institutions are shifting from GDP-only progress toward dashboards that measure well-being, equity, sustainability, resilience, and social cohesion",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "care_health_reproduction",
+    "housing_place_mobility"
+  ],
+  "source_unit": "United Nations Secretary-General's High-Level Expert Group on Beyond GDP, Counting What Counts: A Compass of Progress for People and Planet",
+  "geography": "Global framework for country-owned and universally applicable progress indicators, with UNCTAD implementation and pilot context",
+  "observations": [
+    {
+      "period": "2026; proposed global beyond-GDP dashboard",
+      "denominator": {
+        "value": 31,
+        "unit": "headline and dashboard indicators proposed by the UN High-Level Expert Group on Beyond GDP",
+        "value_type": "global_indicator_framework_count"
+      },
+      "measures": {
+        "dashboard_pillars": {"value": 4, "unit": "foundational principles; current well-being; equity and inclusion; sustainability and resilience", "value_type": "reported_framework_count"},
+        "current_wellbeing_domains": {"value": "material conditions and work, health, education, security, subjective well-being", "unit": "dashboard domain set", "value_type": "reported_domain_set"},
+        "equity_and_inclusion_domains": {"value": "wealth inequality, income inequality, poverty, work inclusion, regional inequalities, overlapping deprivations, social cohesion", "unit": "dashboard domain set", "value_type": "reported_domain_set"},
+        "sustainability_and_resilience_domains": {"value": "produced, human, social, institutional, and natural capital plus environmental quality", "unit": "dashboard domain set", "value_type": "reported_domain_set"}
+      },
+      "method": "UN High-Level Expert Group synthesis of existing statistical systems, SDG indicators, well-being measurement, distributional analysis, sustainability, resilience, and foundational principles.",
+      "uncertainty": "The dashboard is a proposed framework rather than a completed global time series; indicator availability, comparability, country ownership, and political adoption remain implementation questions.",
+      "subgroup": "Governments, statistical offices, multilateral institutions, civil society, media, communities, and populations whose well-being is not captured by aggregate economic output.",
+      "counterinterpretation": "GDP remains useful for measuring economic activity; a broader dashboard should complement rather than replace output measures, and multiple indicators can create trade-offs or political contestation.",
+      "source_url": "https://www.un.org/sites/un2.un.org/files/high-level_expert_group_on_beyond_gdp_final_report_260504_v1.pdf",
+      "retrieval_hash": "sha256:4cd550da860e6383beefa1f2f86615b84f14def106a87edb14407e04bedc55ff",
+      "status": "reported"
+    },
+    {
+      "period": "2026; measurement, legitimacy, and policy-decision pathway",
+      "denominator": {
+        "value": 1,
+        "unit": "global policy-measurement framework and decision-use case",
+        "value_type": "global_policy_measurement_frame"
+      },
+      "measures": {
+        "gdp_blind_spot": {"value": "economic growth can coexist with deteriorating safety, environmental quality, inequality, health, education, or peace", "unit": "reported measurement and policy-risk mechanism", "value_type": "reported_mechanism"},
+        "foundational_principles": {"value": "human rights, peace, and respect for the planet", "unit": "principles proposed as foundations for progress measurement", "value_type": "reported_principle_set"},
+        "policy_use": {"value": "country-owned dashboards embedded in policy-making and decision-making", "unit": "recommended implementation route", "value_type": "reported_policy_recommendation"}
+      },
+      "method": "UN expert-group framework connecting measurement choices to policy priorities, public communication, accountability, and institutional decision-making.",
+      "uncertainty": "Changing indicators does not automatically change budgets, distribution, political incentives, or lived outcomes; implementation can be selective, symbolic, or contested.",
+      "subgroup": "People affected by poverty, inequality, environmental degradation, insecurity, weak public services, regional disparities, and undercounted non-market contributions.",
+      "counterinterpretation": "A dashboard can improve visibility without resolving value conflicts; democratic deliberation and policy capacity are still required to decide which trade-offs are acceptable.",
+      "source_url": "https://www.un.org/sustainabledevelopment/blog/2026/05/press-release-united-nations-proposes-new-global-dashboard-to-measure-progress-beyond-gdp/",
+      "retrieval_hash": "sha256:4cd550da860e6383beefa1f2f86615b84f14def106a87edb14407e04bedc55ff",
+      "status": "reported"
+    },
+    {
+      "period": "2026; international statistical implementation and cross-border spillovers",
+      "denominator": {
+        "value": 1,
+        "unit": "UN and country implementation pathway for beyond-GDP indicators",
+        "value_type": "global_statistical_implementation_frame"
+      },
+      "measures": {
+        "country_ownership": {"value": "recommended", "unit": "country-owned and universally applicable indicator approach", "value_type": "reported_policy_principle"},
+        "cross_border_spillovers": {"value": "included", "unit": "recognition that well-being in one country can be influenced by decisions and activities in other countries", "value_type": "reported_framework_feature"},
+        "implementation_role": {"value": "UNCTAD pilots proposed indicators and supports country-level adoption through statistical and policy expertise", "unit": "reported institutional implementation role", "value_type": "reported_institutional_route"}
+      },
+      "method": "UN and UNCTAD implementation description covering country pilots, official statistics, the Global Alliance of Beyond GDP, and multilateral reporting.",
+      "uncertainty": "Pilots and proposed indicators do not establish harmonized adoption, data quality, financing, or sustained use in national decisions; cross-border effects are difficult to attribute to individual countries.",
+      "subgroup": "National statistical systems, international organizations, development-finance institutions, policymakers, civil society, media, and communities affected by transnational economic and environmental spillovers.",
+      "counterinterpretation": "Country ownership can improve relevance and legitimacy but may reduce comparability; universal indicators can improve comparability but risk missing culturally specific values and local priorities.",
+      "source_url": "https://unctad.org/statistics/beyond-gdp",
+      "retrieval_hash": "sha256:4cd550da860e6383beefa1f2f86615b84f14def106a87edb14407e04bedc55ff",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/en/node/229864", "claim": "UN Beyond GDP documents and full-report landing page."},
+    {"source_url": "https://www.un.org/sustainabledevelopment/blog/2026/05/press-release-united-nations-proposes-new-global-dashboard-to-measure-progress-beyond-gdp/", "claim": "UN launch summary and policy rationale for the dashboard."}
+  ],
+  "boundary": "This record adds a measurement-to-policy-legitimacy route: how institutions define progress, make inequality and environmental conditions visible, and potentially change decision criteria. It is not a well-being survey, respondent-level outcome, causal policy evaluation, or claim that dashboard adoption has already changed public behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN HLEG report, UN launch release, Beyond GDP documents page, and UNCTAD implementation page were retrieved; dashboard pillars, domains, indicator count, foundational principles, country ownership, spillovers, and pilot claims were cross-checked.",
+    "source_url_sha256": "sha256:4cd550da860e6383beefa1f2f86615b84f14def106a87edb14407e04bedc55ff",
+    "checked": "2026-09-26"
+  }
+}

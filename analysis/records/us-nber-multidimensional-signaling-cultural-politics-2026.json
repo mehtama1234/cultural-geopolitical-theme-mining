@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-multidimensional-signaling-cultural-politics-2026",
+  "title": "When voters cannot see all candidate preferences, cultural issues can become especially useful political signals",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 34909, a formal model of multidimensional political signaling",
+  "geography": "Political model with relevance to U.S. campaign communication; no U.S. respondent or election sample",
+  "observations": [
+    {
+      "period": "2026 working-paper model",
+      "denominator": {
+        "value": 1,
+        "unit": "formal model, not a population sample",
+        "value_type": "model_scope"
+      },
+      "measures": {
+        "political_labels": {
+          "value": "labels become less informative when voters cannot observe politicians' full policy preferences or resistance to special interests",
+          "unit": "modeled information problem",
+          "value_type": "model_mechanism"
+        },
+        "cultural_signaling": {
+          "value": "if cultural signals are more precise, politicians signal more on culture even when economic issues matter more to voters",
+          "unit": "modeled campaign-rhetoric response",
+          "value_type": "model_prediction"
+        },
+        "pooling_and_separation": {
+          "value": "less popular types try to pool with more popular types, while more popular types seek to separate themselves",
+          "unit": "modeled equilibrium behavior",
+          "value_type": "model_prediction"
+        },
+        "current_us_behavior": {
+          "value": "not observed",
+          "unit": "missing voter panel, campaign-content sample, persuasion measure, and policy-outcome link",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Formal theoretical model of campaign rhetoric, multidimensional signals, politician types, and voter information processing. It is recorded as a mechanism source rather than as an estimate of current U.S. political behavior.",
+      "uncertainty": "The result depends on the model's assumptions about politician types, signal precision, voter information processing, popularity, and special-interest influence. It supplies no effect size, prevalence estimate, or direct test of present-day U.S. campaigns.",
+      "subgroup": "Modeled politician types and voters with different information-processing conditions; no observed demographic or partisan subgroup is identified.",
+      "counterinterpretation": "Cultural issues may be prominent because voters genuinely care about them, because parties need coalition signals, because media systems reward them, or because institutions make them actionable. Greater cultural rhetoric does not by itself show manipulation, voter confusion, or reduced economic concern.",
+      "source_url": "https://www.nber.org/papers/w34909",
+      "retrieval_hash": "sha256:723cb33d33d4988201e438485133d253d5e8e90566955c5e349d70ded23dd6ac",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a formal mechanism for why cultural political signals may become prominent when broader preferences are hard to observe. It does not show that current U.S. voters are uninformed, that cultural politics is replacing economic politics, that candidates caused voter beliefs, or that rhetoric produced policy change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER working-paper page reviewed for the abstract and model claim; no underlying empirical dataset is claimed.",
+    "source_response_sha256": "sha256:723cb33d33d4988201e438485133d253d5e8e90566955c5e349d70ded23dd6ac",
+    "checked": "2026-09-23"
+  }
+}

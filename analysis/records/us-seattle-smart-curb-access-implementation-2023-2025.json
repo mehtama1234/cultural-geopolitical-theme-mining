@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-seattle-smart-curb-access-implementation-2023-2025",
+  "title": "A named transportation technology project reached operation after procurement and reporting delays, without yet proving better public service",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Seattle Department of Transportation SMART Stage One final implementation report for Last Mile Freight Curb Access",
+  "geography": "Seattle, Washington; commercial-vehicle permitting and digital curb-management project",
+  "observations": [
+    {
+      "period": "SMART Stage One project; 2023–2025 implementation and final report",
+      "denominator": {
+        "value": 1,
+        "unit": "named Seattle SMART Stage One project",
+        "value_type": "reported_project_unit"
+      },
+      "measures": {
+        "federal_award": {
+          "value": 1996000,
+          "unit": "U.S. dollars in SMART Stage One funding",
+          "value_type": "reported_award"
+        },
+        "digital_curb_inventory": {
+          "value": "completed",
+          "unit": "project milestone for a digital commercial-loading-place inventory",
+          "value_type": "reported_completion"
+        },
+        "v2x_infrastructure": {
+          "value": "installed and operational in Q4 2024",
+          "unit": "reported vehicle-to-curb infrastructure output",
+          "value_type": "reported_operating_status"
+        },
+        "commercial_vehicle_permit_system": {
+          "value": "digital commercial-vehicle permit and curb-management system implemented",
+          "unit": "reported project implementation",
+          "value_type": "reported_completion"
+        },
+        "implementation_delay": {
+          "value": "procurement, deployment, survey, and camera-reporting milestones finished later than originally planned",
+          "unit": "reported schedule and implementation boundary",
+          "value_type": "reported_delay"
+        },
+        "public_service_effect": {
+          "value": "not observed",
+          "unit": "missing delivery reliability, curb-user time, enforcement, access, price, safety, equity, and durable continuation outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review of Seattle DOT's official final implementation report submitted to USDOT, retaining planned and actual milestone dates, procurement and technology problems, stakeholder-engagement limits, and implementation outputs as separate fields.",
+      "uncertainty": "The report is a grantee account of one Stage One project. It documents implementation and reported operation but does not provide a representative curb-user sample, independent performance audit, baseline-to-follow-up service comparison, enforcement data, user costs, or evidence that the system continued after the reporting period.",
+      "subgroup": "Seattle DOT, commercial-vehicle permit holders, local businesses, non-permit holders, delivery operators, and curb users in the project area; the report does not quantify each group's exposure or outcome.",
+      "counterinterpretation": "A completed digital inventory and operational infrastructure can be valuable institutional capacity or learning even when direct user benefits are not measured; later outreach or Stage Two work could change the practical result.",
+      "source_url": "https://www.transportation.gov/sites/dot.gov/files/2026-06/Seattle%20DOT_SMART_Grant_Implementation_Report_v3508%20compliant%20.pdf",
+      "retrieval_hash": "sha256:08e62c8ef7cb0a1478b8eb00aff9eeabd7edda1186906bebf3e412fbd108572d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.transportation.gov/grants/smart/stage-1-smart-grants-final-implementation-reports",
+      "claim": "USDOT lists Seattle's $1,996,000 SMART project and links its final implementation report.",
+      "status": "official-program-index"
+    },
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107841",
+      "claim": "GAO provides the cross-program context on SMART awards, delays, and incomplete conversion to usable public service.",
+      "status": "official-program-context"
+    }
+  ],
+  "boundary": "This record adds a named project from grant award through digital inventory, procurement, installation, operational infrastructure, and final reporting. It does not establish better freight movement, shorter curb-search time, fairer access, safety, affordability, enforcement, user acceptance, or durable public service."
+}

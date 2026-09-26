@@ -1,0 +1,54 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-social-media-data-retention-control-2024",
+  "title": "Platform privacy controls can exist while practical data control remains uncertain",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "FTC Section 6(b) staff report based on responses from nine large social-media and video-streaming companies",
+  "geography": "United States platform market and companies reviewed by the FTC",
+  "observations": [
+    {
+      "period": "FTC report published September 2024; company practices reviewed through the 6(b) inquiry period",
+      "denominator": {
+        "value": 9,
+        "unit": "large social-media and video-streaming companies responding to FTC 6(b) orders",
+        "value_type": "source_defined_company_universe"
+      },
+      "measures": {
+        "data_subject_scope": {"value": "users and non-users", "unit": "reported collection and observation scope", "value_type": "reported_scope"},
+        "retention": {"value": "companies could indefinitely retain large amounts of data", "unit": "reported practice", "value_type": "reported_practice"},
+        "sharing": {"value": "broad data sharing with third parties and affiliates was reported", "unit": "reported practice", "value_type": "reported_practice"},
+        "deletion": {"value": "some companies did not delete all user data after deletion requests", "unit": "reported practice", "value_type": "reported_practice"},
+        "control_quality": {"value": "privacy, data minimization, and retention practices were described as inadequate", "unit": "FTC staff assessment", "value_type": "agency_assessment"}
+      },
+      "method": "FTC Section 6(b) review of company responses concerning data collection, retention, sharing, privacy controls, and user and non-user information.",
+      "uncertainty": "The inquiry is a company-practice review, not a census of platforms or users and not an independent audit of every data store, deletion request, affiliate, inference, or downstream recipient.",
+      "subgroup": "Nine large social-media and video-streaming companies; users, non-users, children, and other data subjects appear within the reviewed practices but are not a single prevalence denominator.",
+      "counterinterpretation": "Legal, security, and trust-and-safety retention exceptions can be legitimate; a reported practice gap does not prove that every request failed or that every person experienced harm.",
+      "source_url": "https://www.ftc.gov/system/files/ftc_gov/pdf/Social-Media-6b-Report-9-11-2024.pdf",
+      "retrieval_hash": "sha256:ced0e09d2f5f4d33b412449b1eb0ec0f5f15f0d0df30d7c9920d992c98ed50ae",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/news-events/news/press-releases/2024/09/ftc-staff-report-finds-large-social-media-video-streaming-companies-have-engaged-vast-surveillance",
+      "claim": "FTC summarizes the findings of its 6(b) review of nine companies and their data practices.",
+      "status": "official-summary-context"
+    },
+    {
+      "source_url": "https://www.ftc.gov/news-events/topics/protecting-consumer-privacy-security/privacy-security-enforcement",
+      "claim": "FTC describes its privacy and security enforcement authority and current case context.",
+      "status": "official-enforcement-context"
+    }
+  ],
+  "boundary": "This record measures reported platform practices and FTC staff assessment for nine companies. It does not establish a user-level deletion failure rate, individual harm, downstream data use, actual reappearance, safety, trust, or durable exit.",
+  "retrieval_hash": "sha256:ced0e09d2f5f4d33b412449b1eb0ec0f5f15f0d0df30d7c9920d992c98ed50ae"
+}

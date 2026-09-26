@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-temporary-work-dual-credit-market-2024",
+  "title": "Temporary work can create a second credit barrier alongside income risk",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "housing_place_mobility", "firm_sector_market_power", "unequal_exposure_status", "public_systems_feedback"],
+  "source_unit": "NBER Working Paper 32858; study of temporary and permanent workers, income risk, household debt, and credit access",
+  "geography": "United States young employees and household credit markets; temporary versus permanent work",
+  "observations": [{
+    "period": "U.S. temporary work, income risk, and household credit; paper issued 2024",
+    "denominator": {"value": 1, "unit": "U.S. temporary-versus-permanent worker and credit-market study", "value_type": "study_unit"},
+    "measures": {
+      "income_risk": {"value": "temporary workers face significantly greater income risk than permanent workers, including in the same occupation and at similar wages", "unit": "work-status income uncertainty", "value_type": "reported_comparison"},
+      "credit_rationing": {"value": "lenders ration credit to temporary workers", "unit": "household credit access", "value_type": "reported_effect"},
+      "life_stage": {"value": "credit rationing occurs when young adults may otherwise use mortgages for housing and loans to smooth consumption and purchase durable goods", "unit": "household financial-independence stage", "value_type": "reported_mechanism"},
+      "dual_market": {"value": "labor-market insecurity creates a corresponding dual credit market alongside the dual labor market", "unit": "labor-finance relationship", "value_type": "reported_interpretation"}
+    },
+    "method": "The study compares temporary and permanent workers' income risk and household credit outcomes, examining how labor-market security affects lender behavior and access to mortgages, consumption-smoothing credit, and durable-goods loans.",
+    "uncertainty": "The public abstract does not identify each worker's full contract, credit score, lender, application, denial reason, household support, housing need, family plan, or later outcome. It does not establish that all temporary workers want permanent work or that all credit rationing is inaccurate underwriting.",
+    "subgroup": "Young employees in temporary and permanent work, including comparisons within occupation and at similar wages; the abstract does not establish equal effects by race, gender, place, disability, family structure, or type of temporary contract.",
+    "counterinterpretation": "Temporary work may provide flexibility, entry, or other value, and lenders may be responding to genuine income uncertainty rather than status alone. A denied mortgage or loan can reflect repayment risk, while lack of credit can itself prevent housing, family formation, or durable consumption; the abstract does not resolve the direction of every pathway.",
+    "source_url": "https://www.nber.org/papers/w32858",
+    "retrieval_hash": "sha256:4a78c3153ef567bc4b71cef8bd24620aa0d7ed1df91f66b6252bc766db1bb08a",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w32858", "claim": "NBER DOI record for Working Paper 32858", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a labor-status-to-credit-access finding: temporary work can raise income risk and reduce access to the credit used for housing, consumption smoothing, and durable purchases. It does not establish individual lender discrimination, household welfare, preferred work arrangement, or the long-term effect for every temporary worker."
+}

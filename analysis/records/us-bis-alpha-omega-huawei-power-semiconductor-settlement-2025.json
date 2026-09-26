@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-alpha-omega-huawei-power-semiconductor-settlement-2025",
+  "title": "Alpha and Omega's Huawei power-semiconductor settlement records samples, in-country transfers, a business-unit exit, and conditional export privileges",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS June 27, 2025 final order and July 2, 2025 announcement for Alpha and Omega Semiconductor Incorporated",
+  "geography": "United States, Taiwan-linked and PRC operations, Huawei, and power-semiconductor supply chains",
+  "observations": [
+    {
+      "period": "May 28 through November 22, 2019 conduct; final BIS order June 27, 2025",
+      "denominator": {
+        "value": 1,
+        "unit": "Alpha and Omega Semiconductor Incorporated administrative settlement",
+        "value_type": "reported_company_count"
+      },
+      "measures": {
+        "company_and_product": {"value": "AOS designs, develops, and supplies power semiconductors; the order concerns power controllers, smart power stages, and related accessories", "unit": "reported firm and item class", "value_type": "reported_item_class"},
+        "huawei_entity_list_date": {"value": "May 16, 2019", "unit": "date Huawei and listed non-U.S. affiliates were added to the Entity List", "value_type": "reported_regulatory_date"},
+        "unauthorized_occurrences": {"value": 15, "unit": "occasions on which AOS forwarded items from the United States without BIS authorization", "value_type": "reported_violation_count"},
+        "items_forwarded": {"value": 1650, "unit": "approximately power controllers, smart power stages, and related accessories", "value_type": "reported_item_count"},
+        "transfer_structure": {"value": "items were exported to an AOS facility in China and AOS believes its employees there transferred them to Huawei; four occasions involved approximately 600 items and eleven involved approximately 1,056 items", "unit": "reported export and in-country transfer route", "value_type": "reported_route"},
+        "civil_penalty": {"value": 4250000, "unit": "U.S. dollars; civil penalty ordered by BIS", "value_type": "reported_penalty_value"},
+        "payment_condition": {"value": "full and timely payment was made a condition to granting, restoring, or continuing export licenses, license exceptions, permissions, or privileges; nonpayment could lead to one year of export-privilege denial", "unit": "reported administrative condition", "value_type": "reported_remediation_requirement"},
+        "business_unit_outcome": {"value": "the Digital Power business unit was eliminated in 2021 because it never generated significant revenue", "unit": "reported firm/business-unit outcome", "value_type": "reported_firm_response"},
+        "production_or_capability_effect": {"value": "not observed", "unit": "missing Huawei product qualification, downstream use, production, revenue, worker, or capability endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing deterrence, substitution, PRC response, partner response, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS final-order and official announcement review. The order's admitted conduct, item count, transfer route, penalty, export-privilege condition, and separately reported business-unit outcome are coded as distinct stages; the business-unit elimination is not attributed causally to the enforcement action.",
+      "uncertainty": "The order reports approximate item counts and states that AOS believed China-based employees transferred the items to Huawei; it does not establish Huawei's testing result, commercial qualification, final use, or production effect. The 2021 business-unit elimination is temporally later but the source does not attribute its cause to the violations or settlement.",
+      "subgroup": "Alpha and Omega Semiconductor, its Digital Power business unit and China affiliate, Huawei, export-control counsel and staff, U.S. authorities, and power-semiconductor customers",
+      "counterinterpretation": "A conditional export-privilege remedy may improve compliance incentives without changing product demand or foreign capability. The business-unit elimination may reflect commercial underperformance rather than enforcement, and this single order does not establish a general relationship between export controls and firm exit.",
+      "source_url": "https://www.bis.gov/press-release/bis-reaches-administrative-enforcement-settlement-alpha-omega-semiconductor-incorporated-order",
+      "retrieval_hash": "sha256:ab7c946a5b8c9fbd98588456045fa644a146cd41ee78384fc8ac54972de7de2e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bis.gov/media/documents/e2995-alpha-omega", "claim": "BIS final order and settlement text for Alpha and Omega Semiconductor, including the fifteen charges, approximately 1,650 items, penalty, conditional export privileges, and business-unit statement.", "status": "official-order-pdf", "retrieval_hash": "sha256:e14efacf8fa9ba875fc490aba6e385b643064b12b8d90eac58d1069f0d86ec35"},
+    {"source_url": "https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment", "claim": "Related named semiconductor-equipment enforcement case for comparison of penalty, compliance obligations, and China route.", "status": "official-comparator"},
+    {"source_url": "https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development", "claim": "Related named semiconductor-design-tool enforcement case for comparison of entity-list routing and remediation.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a power-semiconductor enforcement route: Entity List addition -> sample and in-country transfer route -> civil penalty -> conditional export privileges, alongside a temporally later but non-causally attributed business-unit elimination. It does not establish Huawei capability change, future compliance, deterrence, or geopolitical leverage."
+}

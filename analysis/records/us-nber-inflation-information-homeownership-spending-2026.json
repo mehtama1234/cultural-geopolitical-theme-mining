@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-inflation-information-homeownership-spending-2026",
+  "title": "Homeowners and renters translate inflation information into different spending responses",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "trust_identity_meaning", "public_systems_feedback", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 33595, revised July 2026; randomized inflation-information treatments among U.S. households with homeowner/renter comparison",
+  "geography": "United States; household information experiment and homeowner/renter subgroups",
+  "observations": [
+    {
+      "period": "2025 working paper, revised July 2026; randomized information-treatment results",
+      "denominator": {"value": null, "unit": "U.S. household experiment participants; exact analytic denominator is source-specific", "value_type": "not_disclosed"},
+      "measures": {
+        "renter_expectation_update": {"value": "stronger revision of inflation expectations", "unit": "reported treatment response among renters", "value_type": "reported_experimental_result"},
+        "renter_durable_spending": {"value": "no detected adjustment in durable purchases", "unit": "reported spending response among renters", "value_type": "reported_experimental_result"},
+        "homeowner_expectation_update": {"value": "more modest revision of inflation expectations", "unit": "reported treatment response among homeowners", "value_type": "reported_experimental_result"},
+        "homeowner_durable_spending": {"value": "significant increase in durable spending", "unit": "reported spending response among homeowners", "value_type": "reported_experimental_result"},
+        "mechanism": {"value": "attention and available adjustment margins differ by homeownership status; renters are more likely to be liquidity constrained", "unit": "reported interpretation of heterogeneous response", "value_type": "reported_mechanism"}
+      },
+      "method": "Randomized information treatments on U.S. household inflation information, comparing belief updating and durable-spending responses by homeownership status; the study interprets the negative covariance between belief updating and spending response through attention and adjustment margins.",
+      "uncertainty": "The abstract does not disclose the full experiment denominator or all treatment details. Expectations and durable spending are not total welfare, household security, political attribution, trust, or voting. Homeownership is a resource and balance-sheet position, not a complete measure of liquidity or adjustment capacity.",
+      "subgroup": "Homeowners versus renters in the experiment; the contrast should not be generalized to all tenure, wealth, age, debt, or housing-market contexts.",
+      "counterinterpretation": "Homeowners may respond through housing wealth, credit, or durable-goods timing, while renters may adjust through nondurable spending, work, or delayed purchases not captured by the reported outcome. Different attention or trust in the information source may also contribute.",
+      "source_url": "https://www.nber.org/papers/w33595",
+      "retrieval_hash": "sha256:bded15ba579b629df559b8271e14aef7f86a886e3644493b5dbe41b6f2583052",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a controlled belief-to-spending and unequal-adjustment-margin mechanism. It does not establish a political action effect, total welfare, realized inflation exposure, or a complete household event-to-recovery path."
+}

@@ -1,0 +1,115 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-eu-commission-semiconductor-dual-use-control-list-update-2025",
+  "title": "The EU adopted a common dual-use list update covering semiconductor manufacturing equipment and advanced computing items",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "European Commission Directorate-General for Trade and Economic Security 2025 update to the EU dual-use export-control list",
+  "geography": "European Union member states, United States-related technology-security coordination, and the global semiconductor supply chain",
+  "observations": [
+    {
+      "period": "September 8, 2025 Commission adoption; EU-level scrutiny and implementation stage",
+      "denominator": {
+        "value": 1,
+        "unit": "EU common dual-use export-control list update under Regulation (EU) 2021/821",
+        "value_type": "reported_regulatory_action_count"
+      },
+      "measures": {
+        "allied_regulatory_action": {"value": "European Commission adopted a Delegated Regulation updating Annex I of the EU dual-use export-control regime", "unit": "formal EU regulatory action", "value_type": "reported_institutional_action"},
+        "semiconductor_manufacturing_items_added": {"value": "new controls include semiconductor manufacturing and testing equipment and materials, including deposition, lithography, pellicles, masks, scanning-electron-microscope, and etching items", "unit": "reported control categories", "value_type": "reported_policy_scope"},
+        "advanced_computing_items_added": {"value": "advanced-computing integrated circuits and electronic assemblies, including field-programmable logic devices and systems", "unit": "reported control category", "value_type": "reported_policy_scope"},
+        "coordination_basis": {"value": "Commission stated the update aligns with 2024 decisions in Wassenaar, MTCR, Australia Group, and Nuclear Suppliers Group and with member-state commitments", "unit": "reported multilateral and member-state basis", "value_type": "reported_coordination_basis"},
+        "member_state_enforcement": {"value": "not observed in the Commission announcement", "unit": "missing licensing, denial, shipment, enforcement, or firm-level implementation endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing partner alignment beyond the common-list action, PRC response, substitution, deterrence, or leverage", "value_type": "unmeasured"}
+      },
+      "method": "European Commission official announcement review. The common-list action, controlled item categories, and stated multilateral basis are coded as formal partner-regulatory alignment; national implementation and strategic effects are not inferred.",
+      "uncertainty": "The announcement does not report member-state licenses, denials, enforcement, affected firms, shipment changes, coordination with the United States specifically, or external response. Adoption of a common list is not a measure of enforcement intensity or strategic success.",
+      "subgroup": "EU member-state export authorities, semiconductor-equipment and advanced-computing firms, U.S. and allied technology suppliers, Chinese firms, and downstream industrial users.",
+      "counterinterpretation": "The EU update may reflect multilateral regime commitments and internal common-market harmonization rather than U.S.-led alignment; common controls can improve consistency while imposing costs or leaving national licensing practice heterogeneous.",
+      "source_url": "https://policy.trade.ec.europa.eu/news/2025-update-eu-control-list-dual-use-items-2025-09-08_en",
+      "retrieval_hash": "sha256:31af2b0ec257361fd506cc3f8957000d45418eb4cc29ba3c9e33006d1109b73e",
+      "status": "reported"
+    },
+    {
+      "period": "2024 EU Member State dual-use export data reported June 25, 2026; aggregate implementation stage",
+      "denominator": {
+        "value": null,
+        "unit": "EU Member State dual-use export authorizations and security-risk denials across all controlled-item categories",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "authorized_export_value": {"value": 77.6, "unit": "billion euros; dual-use exports authorized by EU Member States in 2024", "value_type": "reported_aggregate_value"},
+        "security_risk_denials": {"value": 487, "unit": "transactions denied by EU Member States in 2024 on account of security risks associated with end use", "value_type": "reported_denial_count"},
+        "top_destination_china": {"value": 25, "unit": "percent of authorized dual-use export value; China was the largest reported destination in 2024", "value_type": "reported_destination_share"},
+        "top_destination_united_states": {"value": 21, "unit": "percent of authorized dual-use export value; United States was the second-largest reported destination in 2024", "value_type": "reported_destination_share"},
+        "semiconductor_specific_enforcement": {"value": "not isolated in the report summary", "unit": "missing semiconductor-category license, denial, shipment, or firm-response breakdown", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing partner enforcement convergence, Chinese substitution, deterrence, or leverage", "value_type": "unmeasured"}
+      },
+      "method": "European Commission implementation-report summary review. Aggregate authorized value, security-risk denials, and destination shares are treated as system-level enforcement visibility; they are not assigned to the 2025 semiconductor-list update or to any individual member state.",
+      "uncertainty": "The aggregate report does not identify which denials or authorizations involved semiconductor items, how many were connected to China, the United States, or specific firms, or whether the figures represent changed behavior caused by the 2025 list update.",
+      "subgroup": "EU Member State licensing authorities, dual-use exporters and importers, China and U.S. destination markets, and firms handling semiconductor and other controlled items.",
+      "counterinterpretation": "Large authorized trade and a finite denial count can coexist with meaningful controls, because authorization values aggregate heterogeneous items and general authorizations; neither measure is a success rate or a strategic outcome.",
+      "source_url": "https://policy.trade.ec.europa.eu/news/report-highlights-eus-continued-efforts-improve-effective-control-exports-sensitive-items-2026-06-25_en",
+      "retrieval_hash": "sha256:3f9eda8be518f5de5c0aaef33166292d25f078ed999133a31a693db79a5d9240",
+      "status": "reported"
+    },
+    {
+      "period": "2024 EU Member State individual export authorizations by item category; reported June 25, 2026",
+      "denominator": {
+        "value": 9,
+        "unit": "EU Member States reporting non-zero or zero 3EC4 individual export-authorisation rows in the Commission dataset",
+        "value_type": "reported_member_state_row_count"
+      },
+      "measures": {
+        "semiconductor_equipment_authorized_value": {"value": 721054330, "unit": "euros; reported 2024 individual export-authorisation value for 3EC4 equipment for manufacturing and testing semiconductor devices or materials", "value_type": "reported_category_value"},
+        "semiconductor_equipment_authorization_count": {"value": 156, "unit": "reported individual export authorizations for 3EC4 across the listed Member State rows", "value_type": "reported_category_count"},
+        "member_state_value_rows": {"value": "AT €260,958,621 (14); CZ €0 (0); DE €265,609,651 (67); DK €0 (0); FI €5,215,395 (7); FR €21,862,400 (31); IT €136,909,521 (16); NL €27,760,522 (20); SE €2,738,220 (1)", "unit": "reported Member State value and authorization-count rows", "value_type": "reported_breakdown"},
+        "destination_breakdown": {"value": "not captured in this item-category table", "unit": "missing destination-level, denial-level, firm-level, and shipment-level linkage for the 3EC4 total", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing evidence of changed sourcing, production, substitution, deterrence, or geopolitical leverage", "value_type": "unmeasured"}
+      },
+      "method": "European Commission official 2024 dual-use dataset review. The 3EC4 rows in Report 2 are summed across the listed Member States; the Member State row values and counts are preserved for auditability. The total is treated as an authorization observation, not a shipment, denial, enforcement, or strategic-effect measure.",
+      "uncertainty": "The dataset table reports individual export authorizations by item and Member State, but the cited rows do not identify destination, exporter, end user, denial counterpart, shipment completion, or whether any authorization was connected to the 2025 common-list update. Zero rows are retained as reported rather than treated as missing.",
+      "subgroup": "EU Member State licensing authorities, semiconductor-equipment exporters, and recipients of 3EC4 controlled equipment",
+      "counterinterpretation": "The reported 3EC4 authorization value may reflect recurring general or individual licensing practice and does not show permissiveness, export completion, or a policy effect; large authorized value can coexist with meaningful controls and unresolved security screening.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026SC0162",
+      "retrieval_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "reported"
+    },
+    {
+      "period": "2024 EU dual-use control administration and enforcement; reported June 25, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "EU Member State dual-use control administration and enforcement system",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "direct_control_staff": {"value": 415, "unit": "full-time-equivalent staff directly involved in EU control administration", "value_type": "reported_system_capacity"},
+        "outreach_events": {"value": 154, "unit": "outreach events organized in 2024", "value_type": "reported_administration_count"},
+        "compliance_audits": {"value": 1353, "unit": "compliance audits conducted, including customs or other agencies", "value_type": "reported_enforcement_count"},
+        "reported_infringements": {"value": 270, "unit": "reported infringements of export-control regulations", "value_type": "reported_enforcement_count"},
+        "penalties_or_fines": {"value": 144, "unit": "administrative and criminal penalties or fines imposed by relevant national enforcement agencies", "value_type": "reported_enforcement_count"},
+        "semiconductor_specific_enforcement": {"value": "not isolated", "unit": "missing 3EC4-specific audits, infringements, penalties, destinations, firms, and shipments", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing deterrence, substitution, partner convergence, or geopolitical leverage", "value_type": "unmeasured"}
+      },
+      "method": "European Commission official 2024 dual-use dataset review of Reports 18 and 19. Administration, outreach, audit, infringement, and penalty counts are coded as EU control-system implementation endpoints; they are not assigned to the 2025 semiconductor-list update or to 3EC4 equipment.",
+      "uncertainty": "The report does not identify the item categories, destinations, firms, cases, legal outcomes, or causal connection represented by these system-wide counts. Reported infringements and imposed penalties are not equivalent to successful deterrence or completed remediation.",
+      "subgroup": "EU Member State export-control authorities, customs and enforcement agencies, exporters, and dual-use recipients",
+      "counterinterpretation": "More audits, reported infringements, or penalties can reflect stronger detection, more underlying noncompliance, reporting differences, or administrative practice; the counts do not yield an enforcement rate or strategic-effect estimate.",
+      "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX%3A52026SC0162",
+      "retrieval_hash": "sha256:fe671f2d4df8d45b085833923d864798c31d8b884ed43013ecf3f74c2931b24b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://eur-lex.europa.eu/eli/reg_del/2025/2003/oj/eng", "claim": "EUR-Lex legal text for Commission Delegated Regulation (EU) 2025/2003.", "status": "official-legal-text"},
+    {"source_url": "https://www.gao.gov/products/gao-25-107386", "claim": "GAO identifies foreign-partner engagement as a distinct stage not measured in the U.S. implementation review.", "status": "official-comparator"},
+    {"source_url": "https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-enhance-foundry-due-diligence-prevent", "claim": "BIS official U.S. semiconductor-control context for comparison with the EU common-list update.", "status": "official-comparator"},
+    {"source_url": "https://policy.trade.ec.europa.eu/news/report-highlights-eus-continued-efforts-improve-effective-control-exports-sensitive-items-2026-06-25_en", "claim": "European Commission aggregate 2024 dual-use authorization and denial data provide a system-level enforcement comparator.", "status": "official-implementation-report"}
+  ],
+  "boundary": "This record advances a partner-regulatory alignment stage: the EU adopted common controls covering semiconductor manufacturing and advanced-computing items. It does not establish U.S.-EU policy identity, member-state enforcement, firm or shipment effects, Chinese substitution, deterrence, or geopolitical leverage."
+}

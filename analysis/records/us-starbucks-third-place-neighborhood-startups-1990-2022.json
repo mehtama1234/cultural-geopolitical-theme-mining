@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-starbucks-third-place-neighborhood-startups-1990-2022",
+  "title": "A neighborhood gathering place can be followed by more local startups where comparable social venues were absent",
+  "theme_ids": ["voice", "work", "cost"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "housing_place_mobility",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. census tract and business-registration comparison in NBER Working Paper 32604 using the Startup Cartography Project",
+  "geography": "United States census tracts; neighborhoods without existing coffee shops at the comparison baseline",
+  "observations": [
+    {
+      "period": "1990–2022 business-registration data; seven years after Starbucks entry",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. census tracts scheduled to receive a Starbucks compared with tracts that did not receive the planned café; exact analytical count not stated in the public abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "startup_change": {
+          "value": "9.1%–22.5% increase, or about 2.9–6.4 additional firms per year",
+          "unit": "reported difference in annual startup count over the seven years after entry",
+          "value_type": "reported_estimate"
+        },
+        "under_resourced_partnership": {
+          "value": "the Starbucks–Magic Johnson partnership in underprivileged neighborhoods produced larger effects",
+          "unit": "reported subgroup comparison",
+          "value_type": "reported_pattern"
+        },
+        "existing_cafe_counterexample": {
+          "value": "no significant entrepreneurship effect where cafés already existed",
+          "unit": "reported comparison condition",
+          "value_type": "reported_null_pattern"
+        },
+        "mechanism": {
+          "value": "analyses suggest networks are part of the pathway",
+          "unit": "reported mechanism interpretation",
+          "value_type": "suggested_mechanism"
+        },
+        "durable_firm_or_household_welfare": {
+          "value": "not observed",
+          "unit": "missing firm survival, jobs, wages, owner income, customer prices, displacement, housing, and household outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Comparison of business-registration outcomes in census tracts receiving a first Starbucks with tracts scheduled to receive one but not receiving it, using Startup Cartography Project data; the public abstract reports estimated startup differences and mechanism analyses.",
+      "uncertainty": "The public abstract does not expose the full sample, exact treatment-selection process, all effect sizes, standard errors, or firm-level survival and quality outcomes. Startup formation is a local economic indicator, not proof that the new firms survived or improved resident welfare.",
+      "subgroup": "Census tracts without existing coffee shops, with separate attention to under-resourced neighborhoods and tracts where cafés already existed; neighborhood and founder-level distributions are not fully reported in the abstract.",
+      "counterinterpretation": "Starbucks entry may signal expected growth or bring customers and foot traffic rather than create networks directly; the null effect where cafés already exist supports a missing-third-place interpretation but does not prove a single mechanism.",
+      "source_url": "https://www.nber.org/papers/w32604",
+      "retrieval_hash": "sha256:dfb2ff0951833b1ef408ecbcbce0918407272619d31e778e4d6a58056039f93a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/be/20242/third-places-boost-local-economic-activity",
+      "claim": "NBER's summary reports localized startup increases, larger effects in an under-resourced-neighborhood partnership, no significant effect where cafés already existed, and distance patterns consistent with a network mechanism.",
+      "status": "official-research-summary"
+    }
+  ],
+  "boundary": "This record adds a place-linked firm-formation result and an important counterexample: a new gathering venue was associated with more startups where comparable cafés were absent, while entry did not show the same effect where cafés already existed. It does not establish firm survival, job quality, customer welfare, housing affordability, displacement, or individual social connection."
+}

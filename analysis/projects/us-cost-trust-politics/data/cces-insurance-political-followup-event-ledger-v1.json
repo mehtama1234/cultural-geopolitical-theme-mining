@@ -1,0 +1,96 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "public_survey_panel_record",
+  "purpose": "Bounded 2010-2012-2014 CCES panel ledger connecting earlier health-insurance status to later institutional approval, congressional contact, and local political action while preserving coverage timing, attribution, remedy, recovery, and exit as open.",
+  "events": [
+    {
+      "event_id": "CCES-2012-NOINSURANCE-POLITICAL-FOLLOWUP-2014",
+      "unit": "case",
+      "geography": "United States; retained 2010-2012-2014 CCES panel respondents",
+      "actor_initiating_change": "unknown",
+      "event_date": "2012-01-01",
+      "date_precision": "2012 panel wave; insurance status is a survey status and not a dated coverage-loss event",
+      "denominator": "912 respondents reporting no insurance and 8,587 reporting some insurance; outcome-specific valid counts vary",
+      "method": "Same-respondent weighted descriptive comparison using the supplied CCES panel weight; no replicate-weight variance or causal estimate",
+      "missingness": "Coverage start/end, bill, denial, care need, income, employment, alternatives, attribution, remedy, recovery, prior political identity, and exit are not retained",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "Reported no health insurance in 2012 versus some form of insurance",
+      "alternatives_before_action": "Employer coverage, public coverage, private purchase, family coverage, care non-use, and household resources are not observed for the same respondent",
+      "immediate_burden_or_benefit": "The screen identifies insurance status but not a bill, care delay, financial loss, or health outcome",
+      "choice_or_response": "In 2014, 31.75% of the no-insurance group reported congressional contact and 21.81% reported local political action, versus 40.29% and 32.48% among insured respondents",
+      "person_or_actor_with_control": "Employers, insurers, public programs, households, and Congress may shape coverage and political routes, but authority for an individual status is not identified",
+      "remedy_or_institutional_response": "2014 Congress approval, congressional contact, and local political action are observed as separate downstream measures; no coverage remedy or institutional correction is verified",
+      "durability_followup": "No later coverage restoration, health care use, household security, trust change, continued dependence, switching, or exit is linked",
+      "immediate_outcome": "The same panel places insurance status before later institution-specific judgment, contact, and local political action",
+      "protected_outcome": "Political contact or action may express voice, but no protected health, financial, or institutional outcome is verified",
+      "sacrificed_outcome": "Lower observed contact and action may reflect constrained time, resources, access, or competing pressures, but the mechanism is not measured",
+      "cost_risk_transfer": "The panel does not identify whether coverage costs or care risks shifted to the household, employer, insurer, or public system",
+      "later_outcome": "Favorable Congress approval was 11.51% after no insurance versus 10.23% among insured respondents; unfavorable approval was 74.77% versus 83.07%",
+      "meaning_and_attribution": "Congress approval is institution-specific and may reflect prior identity or expectations; blame, fairness, control, and trust change are not identified",
+      "public_or_collective_response": "Congressional contact and a composite of local meeting, sign, campaign work, or donation are reported; issue, organizing sequence, and response are not observed",
+      "counterexample": "Lower contact/action alongside slightly higher favorable approval does not prove withdrawal, distrust, or a health-policy mechanism",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "Retained 9,499-row CCES panel reproduction and canonical trend record; supplied panel weight is descriptive, attrition and causal identification are unresolved, and insurance status is not a dated shock",
+      "source_url": "https://doi.org/10.7910/DVN/TOE8I1"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "CCES-NOINSURANCE-A-01",
+      "from": "reported no-insurance status",
+      "to": "later material-security or care condition",
+      "unit_held_constant": true,
+      "time_order_valid": false,
+      "evidence": "The panel classifies insurance status but does not contain a dated bill, care episode, or later household-security measure in this compact route",
+      "status": "open",
+      "counterexample": "Noncoverage may be stable status, temporary transition, or a result of other resources rather than a shock",
+      "remaining_gap": "Coverage timing, bill/denial, care need, payment, non-use, health outcome, and recovery"
+    },
+    {
+      "arrow_id": "CCES-NOINSURANCE-A-02",
+      "from": "earlier no-insurance status",
+      "to": "later Congress approval",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same retained respondents are observed in 2014 on favorable and unfavorable Congress approval",
+      "status": "reported",
+      "counterexample": "Approval may reflect prior party identity, national events, or expectations rather than coverage status",
+      "remaining_gap": "Prior approval/identity, attribution, fairness, and a dated coverage-to-judgment design"
+    },
+    {
+      "arrow_id": "CCES-NOINSURANCE-A-03",
+      "from": "earlier no-insurance status",
+      "to": "later congressional contact",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "Any congressional contact is observed in 2014 for the same panel respondents: 31.75% versus 40.29%",
+      "status": "reported",
+      "counterexample": "Contact purpose, access, institutional response, and resolution are not observed",
+      "remaining_gap": "Issue, effort, recipient response, remedy, and subsequent trust or repeat contact"
+    },
+    {
+      "arrow_id": "CCES-NOINSURANCE-A-04",
+      "from": "earlier no-insurance status",
+      "to": "later local political action",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The same panel reports local meeting, sign, campaign-work, or donation activity in 2014: 21.81% versus 32.48%",
+      "status": "reported",
+      "counterexample": "A lower composite action share does not identify time scarcity, issue mismatch, withdrawal, or lack of alternatives",
+      "remaining_gap": "Action sequence, issue attribution, organizing, voting, withdrawal, and mechanism"
+    },
+    {
+      "arrow_id": "CCES-NOINSURANCE-A-05",
+      "from": "later judgment, contact, or action",
+      "to": "coverage remedy, care recovery, trust change, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The retained panel screen ends at 2014 political outcomes and contains no linked remedy, recovery, trust-change, switching, or exit endpoint",
+      "status": "open",
+      "counterexample": "Political contact or action can coexist with unresolved coverage, and non-action can reflect constraint rather than satisfaction",
+      "remaining_gap": "Dated institutional response, coverage/care recovery, later trust, continued dependence, switching, withdrawal, and exit"
+    }
+  ],
+  "boundary": "This ledger strengthens the same-panel insurance-status to institutional-judgment-and-action bridge, but it does not establish a dated coverage loss, causal effect, attribution, remedy, recovery, trust change, switching, or exit.",
+  "storage_boundary": "Only compact published/reproduced panel estimates, source URL, denominators, and interpretation limits are retained; the local raw panel file remains outside Git."
+}

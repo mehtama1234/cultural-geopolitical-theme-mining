@@ -1,0 +1,55 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-senate-peer-proximity-voting-2026",
+  "title": "Physical proximity and repeated peer contact can shape legislative voting",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 34925, The Micro-Geography of Persuasion: Randomized Peer Exposure and Legislative Outcomes",
+  "geography": "United States Senate; randomized seating and legislative-voting records across a 30-year study sample",
+  "observations": [
+    {
+      "period": "Study sample; randomly assigned Senate seating",
+      "denominator": {"value": 1, "unit": "study-defined U.S. Senate seating and legislative-voting sample", "value_type": "study_defined_scope"},
+      "measures": {
+        "voting_shift": {"value": "11.9 percentage points", "unit": "reported shift in Congressional voting associated with randomized peer exposure", "value_type": "reported_estimate"},
+        "distance_pattern": {"value": "up to about 19.6 feet", "unit": "closest-peer range where the reported effect was concentrated before dissipating", "value_type": "reported_spatial_pattern"},
+        "aisle_crossing": {"value": "about 8 times larger", "unit": "reported relative size of close-peer effect on cross-aisle final-bill voting", "value_type": "reported_comparison"}
+      },
+      "method": "The paper uses randomized Senate seating to study peer exposure, legislative voting records, and video-observed interaction; it also reports a counterfactual analysis of consequential bill outcomes.",
+      "uncertainty": "This is a working paper about Senators and a highly institutional setting. Randomized seating identifies a proximity effect in that setting, while observed interaction and video measures have their own limits. The estimates do not measure ordinary-voter persuasion, all face-to-face contact, or durable public trust.",
+      "subgroup": "Senators assigned to different seating proximities; effects are reported as strongest among closest peers and in interaction with pending votes.",
+      "counterinterpretation": "Proximity may change access, timing, conversation, or coalition opportunity rather than belief in a simple psychological sense. Senate rules, staff, party leadership, issue salience, and selective interaction may shape the observed pathway; a voting shift is not proof of broad deliberative legitimacy.",
+      "source_url": "https://www.nber.org/papers/w34925",
+      "retrieval_hash": "sha256:fe09f6b11d33161974e3b5dbc94a349e5748c1dda579ede46e19dbd929728c65",
+      "status": "reported"
+    },
+    {
+      "period": "30-year counterfactual analysis reported by the paper",
+      "denominator": {"value": 1, "unit": "study-defined set of consequential Senate bills", "value_type": "study_defined_scope"},
+      "measures": {
+        "switched_outcomes": {"value": "59 bills", "unit": "counterfactual consequential bill outcomes that would have switched under random seating", "value_type": "reported_counterfactual"},
+        "pending_vote_link": {"value": "significant reported association", "unit": "face-to-face interaction and immediately pending votes", "value_type": "reported_association"}
+      },
+      "method": "The paper combines the randomized seating design with legislative outcomes and video-observed face-to-face interaction, then estimates a counterfactual under random seating across the study period.",
+      "uncertainty": "The counterfactual is model- and sample-dependent. It does not say that 59 bills would change in every Senate or that contact alone determines outcomes; it also does not observe later public opinion, implementation, or social consequences.",
+      "subgroup": "Consequential bills and votes occurring near observed interaction; the study's Senate sample is not a population survey.",
+      "counterinterpretation": "The result can reflect institutional access and coordination around pending votes, not only persuasion. Bill selection, measurement of interaction, and the paper's working-paper status limit claims beyond the studied setting.",
+      "source_url": "https://www.nber.org/papers/w34925",
+      "retrieval_hash": "sha256:fe09f6b11d33161974e3b5dbc94a349e5748c1dda579ede46e19dbd929728c65",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/papers/w34925", "claim": "NBER working paper reports randomized seating, peer proximity, video-observed interaction, voting effects, and a 59-bill counterfactual.", "status": "primary-research-summary"}
+  ],
+  "boundary": "This record adds a measured institutional mechanism: repeated physical proximity and face-to-face contact can affect legislative behavior in the U.S. Senate. It does not establish a general public persuasion effect, durable ideological change, democratic legitimacy, or a complete path from social contact to public trust and collective action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER Working Paper 34925 PDF retrieved and hashed; underlying Senate and video data not retained",
+    "pdf_sha256": "sha256:fe09f6b11d33161974e3b5dbc94a349e5748c1dda579ede46e19dbd929728c65",
+    "checked": "2026-09-22"
+  }
+}

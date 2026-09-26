@@ -1,0 +1,124 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-hud-lehd-assistance-employment-trajectories-2026",
+  "title": "Housing-assistance entry and exit are followed by different employment and earnings trajectories",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "household_room_consumption",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Census CES Working Paper CES-26-31, Employment and Earnings Trajectories of HUD Program Participants",
+  "geography": "United States; HUD program participants linked to employee-employer earnings records through Census LEHD infrastructure",
+  "observations": [
+    {
+      "period": "First entry cohorts, 2005 Q1–2014 Q1; outcomes observed up to 40 quarters after entry",
+      "denominator": {
+        "value": 2086000,
+        "unit": "working-age adults entering a HUD program for the first time",
+        "value_type": "linked_administrative_entry_sample"
+      },
+      "measures": {
+        "pre_entry_earnings_trend": {
+          "value": -112,
+          "unit": "2022 dollars per year average earnings trend in four years before entry",
+          "value_type": "reported_trend_slope"
+        },
+        "post_entry_earnings_trend": {
+          "value": 174,
+          "unit": "2022 dollars per year average earnings trend in ten years after entry",
+          "value_type": "reported_trend_slope"
+        },
+        "earnings_trend_break": {
+          "value": 286,
+          "unit": "2022 dollars per year change in earnings slope after entry",
+          "value_type": "reported_trend_difference"
+        },
+        "adjusted_acs_earnings_gap": {
+          "value": 228,
+          "unit": "2022 dollars per year; entrant trend break exceeded adjusted low-income ACS comparator trend break by this amount",
+          "value_type": "reported_comparative_difference"
+        },
+        "employment_trend_break": {
+          "value": 1.45,
+          "unit": "percentage points per year change in employment slope after entry",
+          "value_type": "reported_trend_difference"
+        },
+        "adjusted_acs_employment_gap": {
+          "value": 2.33,
+          "unit": "percentage points per year; entrant employment trend change exceeded adjusted ACS comparator change",
+          "value_type": "reported_comparative_difference"
+        },
+        "baseline_context": {
+          "value": "Entrants averaged 50% employment and $2,620 quarterly earnings over the 16 quarters before entry; adjusted ACS comparators averaged about 61% employment and $4,860 quarterly earnings",
+          "unit": "linked entry-sample baseline context",
+          "value_type": "reported_baseline_comparison"
+        }
+      },
+      "method": "Census linked HUD PIC/TRACS administrative participation records from 2005–2022 to LEHD earnings records from 2000–2023, followed entrants over 16 quarters before and 40 quarters after entry, and compared them with low-income ACS renters reweighted by inverse probability tilting across entry cohorts and observed characteristics.",
+      "uncertainty": "This is a longitudinal comparison, not a randomized treatment estimate. Entrants differ from low-income nonparticipants on baseline employment, earnings, disability, sex, race, household income, and other dimensions; the paper notes some characteristics could not be balanced. The public study uses rounded disclosure-protected counts and restricted linked data.",
+      "subgroup": "Working-age adults entering Housing Choice Voucher, public housing, project-based Section 8, or other multifamily HUD assistance for the first time; adjusted low-income ACS renters without a HUD record are a separate comparison group.",
+      "counterinterpretation": "Entry may coincide with other recovery, household, labor-market, or eligibility changes. The post-entry reversal is consistent with housing assistance supporting labor-market trajectories, but it does not isolate assistance from selection or concurrent change.",
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1419",
+      "retrieval_hash": "sha256:3f563c6242537e0ce14c233153e68fe1fee6a5cc7fb175ee85bc3364ef06d7f6",
+      "status": "reported"
+    },
+    {
+      "period": "Final exit cohorts, 2005 Q1–2011 Q1; outcomes observed up to 40 quarters after exit",
+      "denominator": {
+        "value": 1233000,
+        "unit": "working-age adults leaving a HUD program for the last time",
+        "value_type": "linked_administrative_exit_sample"
+      },
+      "measures": {
+        "pre_exit_context": {
+          "value": "Leavers averaged more than 59% employment and $3,745 quarterly earnings before exit, versus about 47% employment and $2,391 for stayers",
+          "unit": "linked exit-sample baseline comparison",
+          "value_type": "reported_baseline_comparison"
+        },
+        "post_exit_employment_trend_break": {
+          "value": -1.05,
+          "unit": "percentage points per year change in employment slope after exit",
+          "value_type": "reported_trend_difference"
+        },
+        "post_exit_earnings_trend_break": {
+          "value": -244,
+          "unit": "2022 dollars per year change in earnings slope after exit",
+          "value_type": "reported_trend_difference"
+        },
+        "stayer_comparison_gap": {
+          "value": "Exiters' employment and earnings trend breaks were 2.06 percentage points and $268 per year lower than adjusted stayer comparison trend breaks",
+          "unit": "reported leaver-versus-stayer trend comparison",
+          "value_type": "reported_comparative_difference"
+        }
+      },
+      "method": "Census followed final HUD exits over 16 quarters before and 40 quarters after exit and compared them with HUD stayers who had entered at least 16 quarters earlier and showed no exit during the follow-up; stayers were reweighted by exit cohort and observed characteristics.",
+      "uncertainty": "Exiters and stayers differ before exit in employment, earnings, age, demographics, program type, and time in assistance. Exit can reflect improved income, homeownership, relocation, health, disability, or loss of support; the design does not identify the exit reason or a causal effect of leaving.",
+      "subgroup": "Working-age adults leaving a HUD program for the last time, compared with HUD participants who remain through the analysis window; program types and exit selection differ across groups.",
+      "counterinterpretation": "The post-exit flattening may reflect who exits and why rather than the effect of losing assistance. Some exits are positive transitions and others are negative; aggregate exit status cannot distinguish them.",
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1419",
+      "retrieval_hash": "sha256:3f563c6242537e0ce14c233153e68fe1fee6a5cc7fb175ee85bc3364ef06d7f6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-31.pdf",
+      "claim": "Official Census PDF provides the study abstract, linked-data design, entry and exit trajectory results, and disclosure context.",
+      "status": "official-paper"
+    },
+    {
+      "source_url": "https://www.census.gov/programs-surveys/ces/data/research.html",
+      "claim": "Census CES research context for working papers and linked administrative-data research.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record adds a linked longitudinal housing-assistance-to-labor-outcome stage. It does not establish causal program effects, rent burden or housing stability for the same unit, alternatives or non-use, benefit adequacy, claim/remedy receipt, health, trust, political action, or durable household security.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Census CES profile and PDF reviewed; restricted HUD/LEHD microdata and analysis code are not retained.",
+    "checked": "2026-09-24"
+  }
+}

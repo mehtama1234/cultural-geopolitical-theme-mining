@@ -111,6 +111,38 @@ lived interruption, SIPP reason-specific food security, and institution-specific
 confidence while keeping receipt, recovery, trust, blame, and political action
 as separate outcomes.
 
+The [benefit-control finding](findings/us-safety-net-access-019.md) adds a
+different failure point: SNAP benefits can be issued but become unusable when
+an EBT account is stolen. GAO reports more than $320 million in approved
+replacement benefits for nearly 679,000 households during the covered period,
+while warning that the figures understate theft and do not show household
+replacement timing, food gaps, or durable recovery. The finding keeps fraud
+prevention, recipient effort, usable access, and recovery as separate stages.
+The companion [event ledger](data/snap-ebt-benefit-theft-control-event-ledger-v1.json)
+now places the route in the canonical broad portfolio.
+
+The [housing-status verification finding](findings/us-safety-net-access-024.md)
+adds a separate housing-safety-net control route: assistance can move from
+eligibility and occupancy into identity matching, secondary review, appeal,
+proration, or possible termination. It keeps HUD's reported audit counts and
+formal rules separate from household notice, payment, displacement, and durable
+housing security.
+
+The [victimization and police-visibility finding](findings/us-safety-net-access-025.md)
+adds a public-safety route: BJS estimated more violent victimizations than
+violent incidents reported to police in 2024, with fear, privacy, perceived
+futility, and personal interpretation among recorded reasons for nonreporting.
+It keeps experienced harm, reporting, police response, remedy, safety, trust,
+and later action as separate stages.
+
+The [work-capacity and children finding](findings/us-safety-net-access-018.md)
+adds a same-person subgroup test to the SIPP route. Among stable SNAP records,
+work-limiting conditions plus children are associated with a different
+following-month rent and utility hardship pattern than stable SNAP records with
+neither marker. This is descriptive subgroup evidence, not a SNAP effect or a
+caregiving-hours estimate; it makes household capacity an explicit modifier of
+usable protection.
+
 The next measurement instrument is the [safety-net event ledger](../../templates/US-SAFETY-NET-EVENT-LEDGER_V1.md), which records the same program episode from notice and effort through benefit interruption, household outcomes, interpretation, and public response.
 
 The [same-episode event-ledger design](same-episode-event-ledger-design-v1.md)
@@ -136,6 +168,12 @@ The [state route-performance finding](findings/us-safety-net-access-002.md)
 adds FY2025 application and recertification timeliness plus the 2023 Program
 Access Index, preserving the distinction between population participation and
 case-route handling.
+
+The [benefit-denial credit finding](findings/us-safety-net-access-026.md) adds
+linked administrative and credit-report evidence that process-related SNAP
+denials can increase debt and delinquencies and lower credit scores in the
+studied California settings. It does not establish a national effect or later
+food security, health, trust, or recovery.
 
 The [WBNS lived-route finding](findings/us-safety-net-access-003.md) adds
 recipient-reported notice, time, paperwork, interview, interruption, and help
@@ -172,3 +210,8 @@ need, time and transport constraints, awareness, comfort, safety, food variety,
 and perceived unfair treatment. The [charitable-food finding](findings/us-safety-net-access-006.md)
 keeps these access and meaning measures separate from provider capacity and
 political response.
+
+The [SNAP sugary-drink restriction finding](findings/us-safety-net-access-027.md)
+adds a short-run consumer-behavior and meaning result: excluded-drink
+purchases fell while SNAP recipients reported more stigma. Modeled health
+benefits and long-run food security remain open.

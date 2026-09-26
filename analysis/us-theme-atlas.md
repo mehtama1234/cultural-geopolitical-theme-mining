@@ -1030,6 +1030,88 @@ Still missing: The US experiment measures belief changes but does not show the s
 
 [Read the complete connected memo](../site/us-fiscal-news-household-path-001.html)
 
+### When care becomes a contestable route
+
+Follow formal care coverage into appeal or correction effort, then ask whether the public route produces timely usable care or only a recorded decision.
+
+1. [Care capacity can fail at the appeal and household interface](#care_health_reproduction)
+2. [A remedy is a route, not proof of recovery](#consumer_power_recourse)
+3. [A public route can filter experience before it becomes institutional knowledge](#public_systems_feedback)
+
+Still missing: The current records report aggregate denials, appeals, and system controls but do not follow one patient or caregiver through delay, receipt, adequacy, and later trust or exit.
+
+### When technical capacity becomes state leverage
+
+Follow a technical or cross-border capability through authorization and operation, then ask whether local legitimacy and external response turn it into durable leverage.
+
+1. [Technical capacity becomes shared infrastructure only through operating rules](#infrastructure_technology_dependency)
+2. [Domestic capacity becomes state leverage only after external response](#geopolitical_state_consequences)
+3. [The same capacity can mean protection, dependence, unfairness, or futility](#trust_identity_meaning)
+
+Still missing: The current records show operating and coordination milestones but not household incidence, durable acceptance, deterrence, adversary adaptation, or changed bargaining power.
+
+### When alliance readiness depends on social capacity
+
+Follow alliance staffing and family or social capacity into formal readiness, then ask who bears the burden and whether the result is accepted as legitimate protection.
+
+1. [Domestic capacity becomes state leverage only after external response](#geopolitical_state_consequences)
+2. [Capability can raise output while leaving control unsettled](#work_control_bargaining)
+3. [The same capacity can mean protection, dependence, unfairness, or futility](#trust_identity_meaning)
+
+Still missing: The staffing evidence does not establish family burden, retention, operational performance, public acceptance, deterrence, or adversary response.
+
+### When public liquidity stabilizes a firm before it stabilizes a place
+
+Follow public liquidity into firm survival and employment, then ask whether workers, customers, owners, and communities share the recovery or remain exposed to the next shock.
+
+1. [A public route can filter experience before it becomes institutional knowledge](#public_systems_feedback)
+2. [Public support can stabilize firms before it changes market power](#firm_sector_market_power)
+3. [Capability can raise output while leaving control unsettled](#work_control_bargaining)
+
+Still missing: The causal firm evidence does not establish equal access, loan burden, worker security, customer affordability, owner recovery, or durable local power.
+
+### When care capacity becomes state capacity
+
+Follow medical care, evacuation, and civilian emergency institutions into alliance readiness, then ask whether care continuity becomes usable protection in a real crisis.
+
+1. [Care capacity can fail at the appeal and household interface](#care_health_reproduction)
+2. [Domestic capacity becomes state leverage only after external response](#geopolitical_state_consequences)
+
+Still missing: The exercise evidence does not show patient outcomes, civilian burden, sustained readiness, public consent, deterrence, or changed external behavior.
+
+### When defense buying becomes industrial bargaining
+
+Follow a defense purchase into reciprocal production, domestic work, supplier control, public legitimacy, and eventual external leverage rather than treating an agreement as autonomy.
+
+1. [A defense relationship can move from buying capability toward building reciprocal industrial room](#defense_industrial_reciprocity)
+2. [Domestic capacity becomes state leverage only after external response](#geopolitical_state_consequences)
+3. [Capability can raise output while leaving control unsettled](#work_control_bargaining)
+4. [Public support can stabilize firms before it changes market power](#firm_sector_market_power)
+
+Still missing: The current agreements do not show commissioned production, output, worker outcomes, supplier replaceability, public acceptance, operational readiness, or changed external behavior.
+
+### When a platform remedy becomes practical recovery
+
+Follow a multisided platform remedy from formal payment and prospective controls into worker, customer, and restaurant receipt, restored access, trust, alternatives, and exit.
+
+1. [A platform remedy can distribute money without restoring every relationship](#platform_remedy_redress)
+2. [A remedy is a route, not proof of recovery](#consumer_power_recourse)
+3. [Public support can stabilize firms before it changes market power](#firm_sector_market_power)
+4. [Capability can raise output while leaving control unsettled](#work_control_bargaining)
+5. [The same capacity can mean protection, dependence, unfairness, or futility](#trust_identity_meaning)
+
+Still missing: The public remedy record does not identify group-specific receipt, adequacy, restored relationships, alternative quality, continued use, switching, or durable legitimacy.
+
+### When presence becomes usable membership
+
+Follow a person's or family's presence in a place through work, customer life, housing, documentation, language, safety, institutional voice, and political participation, then ask when belonging becomes usable membership.
+
+1. [New residents are workers and customers at once](#immigration_local_demand)
+2. [Business counts do not tell us who belongs to a place](#place)
+3. [Personal finances and national mood can move apart](#politics)
+
+Still missing: The current immigration, place, identity, and political records are complementary surfaces; they do not follow one person or place through stable status, service access, safe participation, local influence, and durable civic action.
+
 ## What families give up to pay the bills
 
 Compare money spent with care or protection left out.
@@ -1306,6 +1388,9 @@ Connections:
 - Question to test: Unclear debt rules can make a household hold back spending even before a payment is due. Related topic: A promise about debt can change spending before the rule is settled. The current evidence does not show the same borrower's full budget, payment path and later spending.
 - Question to test: The form and timing of public help can change how much spending room reaches the household. Related topic: The form of public help changes what families buy. The current evidence does not show the same family's full transfer, spending and saving path.
 - Comparison: Electoral response can distinguish lost purchasing power from price growth and from the household's actual budget response. Related topic: The vote may respond more to lost buying power than inflation alone. The NBER county study does not identify the same household's bill, adaptation, attribution, or vote; county and respondent evidence remain separate.
+- Comparison: Material insecurity can reduce observed political contact or local action without producing one predictable movement in institutional approval. Related topic: Personal finances and national mood can move apart. The CCES panel comparisons use broad prior job-loss and insurance-status measures rather than dated bills or remedies; they are descriptive same-panel associations and do not identify attribution, recovery, or causality.
+- Comparison: Public or private firm continuity can protect employment, revenue, or transactions while household financial recovery and residual burden remain separate. Related topic: Public support can stabilize firms before it changes market power. Disaster-liquidity evidence reports firm survival, employment, revenue, and credit outcomes but does not establish owner-household room, worker security, customer affordability, or durable household recovery.
+- Comparison: A named transmission project can reach energization and a formal cost or savings route before household bill relief, equal ratepayer benefit, or durable reliability is visible. Related topic: Technical capacity becomes shared infrastructure only through operating rules. The Smart Path Connect record reports project realization and an official allocation or savings claim but does not identify retail pass-through, individual bills, household affordability, or durable service quality.
 
 ### Keeping a home also means paying to protect it
 
@@ -1361,6 +1446,10 @@ Connections:
 - Question to test: Water quality is part of what a household receives from a home and a place, not only a bill or building condition. Related topic: A public water fix can become a health and place benefit. The current water study does not measure home value, rent, bottled-water cost or the same household's housing choice.
 - Question to test: If a score makes credit harder to get, it may also change access to a home or the cost of keeping one. Related topic: A score can help cause the default it predicts. The current study does not measure rent, mortgage approval, insurance, moving or home loss.
 - Question to test: A credit record can change access to housing and the terms attached to keeping it. Related topic: A payment record can become a gate to a home. The current evidence shows that records may be used in housing decisions but does not follow one person's later rent, mortgage or move outcome.
+- Comparison: The meaning of housing-assistance exit depends on whether the transition preserves a usable home or transfers housing risk back to the household. Related topic: A housing-assistance exit is not one outcome. HUD HEARS observes classified exit type and one-year housing-stability outcomes in two King County housing authorities, but does not identify national rent burden, assistance adequacy, or a causal exit effect.
+- Comparison: The timing of a reentry placement can determine whether a person reaches a usable housing bridge rather than returning to the community after the opportunity has narrowed. Related topic: A formal reentry route can exist while timing and capacity delay usable return. The GAO audit identifies RRC and home-confinement timing and capacity problems but does not observe housing receipt, stability, affordability, or alternatives for reviewed people.
+- Comparison: Supervision conditions and exit categories can shape the practical ability to secure and keep housing, while a population count cannot show the household-level housing route. Related topic: Freedom can still mean continuing state contact. BJS reports supervision scale and movement categories but does not observe housing access, affordability, stability, alternatives, or post-supervision homelessness.
+- Comparison: Housing security depends on whether federal categories and funding recognize the actual household, cultural, and place-based conditions through which people stay housed. Related topic: Native housing insecurity can be undercounted when family support does not fit the federal definition. The preliminary GAO review identifies program and definition gaps but does not estimate Native housing insecurity, safety, affordability, repair, or durable stay/move outcomes.
 
 ### Credit can be a bridge and a later bill
 
@@ -2398,6 +2487,86 @@ Connections:
 
 - Question to test: The time cost of a platform is carried through the attention it holds. Related topic: A useful app can still make leaving difficult. The current experiments do not show how time use changes work, care, sleep or well-being for the same user.
 - Question to test: A platform's design can change the service received and the time needed to use it. Related topic: A quicker reply may still leave a problem open. The current study measures ad load and substitution, not the full quality or value of the service.
+- Comparison: A platform can compete through time and attention as well as money price, making opportunity cost part of the market power and switching question. Related topic: Public support can stabilize firms before it changes market power. The Facebook/Instagram experiments and model measure ad response, time cost, and substitution but do not establish long-run welfare, household burden, actual switching, or firm conduct after a real platform separation.
+
+### Care capacity can fail at the appeal and household interface
+
+Care systems support social capacity only when households can navigate them without unmeasured time, work, money, or health loss.
+
+**Question:** Who supplies the effort when formal care exists but access is contested?
+
+**Subthemes:** Appeal and coordination effort; Care, work, and household capacity
+
+**Limit:** Aggregate eligibility, denial, or receipt does not prove timely adequate care or household recovery.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve: economic hardships](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-economic-hardships.htm)
+- [CMS National Health Expenditure fact sheet](https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet)
+- [CFPB medical collections report](https://www.consumerfinance.gov/data-research/research-reports/paid-and-low-balance-medical-collections-on-consumer-credit-reports/)
+- [CFPB medical-information rule record](https://www.consumerfinance.gov/rules-policy/final-rules/consumer-reporting-regulation-v/)
+- [NBER household finance search starting point](https://www.nber.org/papers)
+- [Dependent Coverage and Parental Job Lock](https://www.nber.org/papers/w30200)
+
+#### Evidence check: Care capacity can fail at the appeal and household interface
+
+Covered care, childcare, health insurance, and reproductive or family-support routes can require time, documentation, appeal, unpaid coordination, and work tradeoffs before formal eligibility becomes usable care.
+
+Working interpretation: care reproduces social and economic capacity only when the route is reachable, timely, adequate, and compatible with the household's other obligations.
+
+**Counterpoint:** Formal coverage, public support, and family care can prevent much larger harm even when the full burden is not measured.
+[Related study](https://oig.hhs.gov/)
+
+The current records do not consistently observe patient or caregiver effort, delay, substitution, recovery, and later work or household stability in the same case.
+
+[HHS-OIG, childcare, health-insurance, and household-care records, checked 2026-09-21.](https://oig.hhs.gov/reports/)
+
+
+Connections:
+
+- Comparison: A formally covered post-acute care route can depend on patient or provider appeal effort before access is realized. Related topic: A remedy is a route, not proof of recovery. The HHS-OIG review reports aggregate denial, appeal, and overturn rates but does not show patient-level delay, actual care receipt, nonappeal outcomes, or household burden.
+- Comparison: Medical and civilian emergency capacity can become part of alliance readiness when a multinational exercise joins care continuity, evacuation, hospitals, rescue services, and military support. Related topic: Domestic capacity becomes state leverage only after external response. The NATO exercise account reports coordination and tested procedures but does not establish real-crisis patient outcomes, civilian burden, public consent, sustained readiness, deterrence, or changed adversary behavior.
+- Comparison: An AI support tool can provide private short-run relief when human care is hard to reach, while raising questions about safe escalation, substitution, and continuity of care. Related topic: An AI support app can comfort and hold attention. The AI support and companion evidence does not follow the same person into human treatment, crisis response, long-term wellbeing, care adequacy, or durable exit.
+- Comparison: A housing exit can redistribute residual risk into emergency care and behavioral-health systems, making housing policy part of the health-capacity route. Related topic: A housing-assistance exit is not one outcome. The linked study reports one-year emergency-department and behavioral-health associations, but does not establish mechanism, treatment adequacy, or durable household health and care outcomes.
+- Comparison: Nonprofit compensation and retention can shape the staffing capacity behind care, health, education, and social-support routes. Related topic: Social infrastructure can depend on work that pays less on average. The nonprofit labor study measures pay and worker-firm components, not staffing vacancies, service quality, client access, care continuity, or health outcomes.
+- Comparison: Health limitations can convert social support from an available relationship into a constrained participation route, making care and access conditions part of belonging. Related topic: Support can be present while participation remains difficult. CDC indicators report support and health-related participation difficulty separately and do not identify the barrier, attempted participation, care route, or recovery.
+- Comparison: Physical access to federal buildings can condition access to employment, benefits, and health-related services before any formal care outcome is measured. Related topic: A formal accessibility complaint route can exist while the people who need it do not know about it. The GAO review does not link building barriers to service use, employment, health, care continuity, or a person's alternative route.
+- Comparison: Coverage and provider capacity become usable care only when equipment, communication, sensory conditions, digital interfaces, and accommodations convert them into a completed safe encounter. Related topic: Formal health-care coverage can fail at the accessibility interface. GAO identifies barrier domains and federal measurement gaps but does not observe encounter completion, treatment continuity, health, family coordination, or work consequences.
+- Comparison: Doubled-up housing can provide family support and care while also concentrating privacy, space, health, and coordination burdens that formal homelessness counts may miss. Related topic: Native housing insecurity can be undercounted when family support does not fit the federal definition. The source does not measure whether doubled-up arrangements are protective or harmful for particular households, nor their health, care, work, or school outcomes.
+
+### Formal health-care coverage can fail at the accessibility interface
+
+Usable care depends on equipment, communication, sensory environment, digital access, provider interaction, and accommodation—not coverage alone.
+
+**Question:** When does a covered service become safely usable for the person who needs it?
+
+**Subthemes:** Usability beneath coverage; Accessibility and hidden coordination cost
+
+**Limit:** The evidence identifies accessibility mechanisms and measurement gaps but does not establish encounter-level harm, correction, continuity, or later health and work outcomes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+
+#### Evidence check: Formal health-care coverage can fail at the accessibility interface
+
+GAO identifies physical equipment and facility, sensory, communication, cognitive and digital, and provider-bias barriers; none of 12 HHS population-health surveys measured most health-care accessibility barriers nationally. GAO also found HHS accessibility plans lacked detailed implementation steps and timelines at publication.
+
+Working interpretation: coverage, appointment supply, or a digital check-in route is not automatically usable care. The conversion cost may be paid in extra time, family coordination, failed or delayed encounters, work loss, or avoided care.
+
+**Counterpoint:** A barrier described in literature or stakeholder testimony may be accommodated in a particular encounter, and limited national measurement can coexist with effective local correction.
+[Related study](https://www.gao.gov/products/gao-26-107120)
+
+GAO does not estimate specific barrier prevalence or follow people through failed encounters, accommodation receipt, health outcomes, work loss, remedy, trust, or provider exit.
+
+[GAO-26-107120 disability health-care accessibility and oversight review, reviewed 2026-09-18.](https://www.gao.gov/products/gao-26-107120)
+
+
+Connections:
+
+- Comparison: Health-care accessibility and federal-building accessibility share a conversion problem: formal rights require usable environments and visible correction routes. Related topic: A formal accessibility complaint route can exist while the people who need it do not know about it. The GAO reports use different settings and do not link a person's health-care and federal-building access episodes or outcomes.
+- Comparison: Coverage and provider capacity become usable care only when equipment, communication, sensory conditions, digital interfaces, and accommodations convert them into a completed safe encounter. Related topic: Care capacity can fail at the appeal and household interface. GAO identifies barrier domains and federal measurement gaps but does not observe encounter completion, treatment continuity, health, family coordination, or work consequences.
+- Comparison: Digital check-in and survey contact can reduce friction for some people while creating accessibility, privacy, language, or device barriers for others. Related topic: Faster contact is not the same as equal public voice. The GAO health-care review and Census contact study do not share a person-level unit or establish which digital design changes improve accessible care.
+- Comparison: Repeated inaccessible encounters can shift the meaning of coverage from protection to unusable entitlement, although the oversight record does not measure that trust transition. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The source does not measure perceived dignity, provider fairness, institutional trust, care avoidance, switching, or later civic action.
 
 ## Who can get an answer or change a decision
 
@@ -2437,6 +2606,7 @@ Connections:
 
 - Question to test: Emotional support can change both how long a person stays and whether leaving feels possible. Related topic: A useful app can still make leaving difficult. The current evidence does not show whether longer use reflects benefit, dependence or a failure to reach human care.
 - Question to test: An AI support product is also a service whose safety, remedy and route to human care must be judged. Related topic: A quicker reply may still leave a problem open. The current studies do not measure the same user's support app, service failure, human-care access and later well-being.
+- Comparison: An AI support tool can provide private short-run relief when human care is hard to reach, while raising questions about safe escalation, substitution, and continuity of care. Related topic: Care capacity can fail at the appeal and household interface. The AI support and companion evidence does not follow the same person into human treatment, crisis response, long-term wellbeing, care adequacy, or durable exit.
 
 ### Older consumers are not one market
 
@@ -2603,6 +2773,8 @@ Connections:
 - Comparison: The same-county capacity and mobility cells carry non-monotonic trust and civic-action patterns rather than one political response. Related topic: Business counts do not tell us who belongs to a place. The CES join does not observe respondent service use, local meaning, attribution, or causal exposure; the four cells are sampling context, not political causes.
 - Comparison: Party identity conditions how the same place-capacity context appears in trust and civic-action measures. Related topic: Business counts do not tell us who belongs to a place. The subgroup comparison is descriptive and does not identify whether identity, place experience, information, selection, or another factor produced the difference.
 - Comparison: A buyer-side defense relationship can become a political claim about reciprocal access and regional industrial autonomy. Related topic: A defense relationship can move from buying capability toward building reciprocal industrial room. The official agreements show institutional intent, not realized production, public reception, supplier replaceability, bargaining leverage, or changed external behavior.
+- Comparison: Place distributes the practical cost of using a public route, while political action depends on both institutional judgment and the capacity to act. Related topic: Business counts do not tell us who belongs to a place. The place, public-system, and political records are complementary units; they do not follow one person or household from local exposure through route effort, receipt, material sacrifice, trust, and action.
+- Comparison: Material insecurity can reduce observed political contact or local action without producing one predictable movement in institutional approval. Related topic: The price on the screen is only part of the cost. The CCES panel comparisons use broad prior job-loss and insurance-status measures rather than dated bills or remedies; they are descriptive same-panel associations and do not identify attribution, recovery, or causality.
 
 ### Help can exist but be hard to keep
 
@@ -2727,6 +2899,7 @@ Connections:
 - Comparison: Population-change context can coincide with different federal trust while civic action and reported voting remain comparatively stable. Related topic: Personal finances and national mood can move apart. The CES county context does not identify the respondent's business/service exposure, belonging, attribution, or a causal place-to-political pathway; its frame is separate from the capacity cells.
 - Comparison: The same-county capacity and mobility cells carry non-monotonic trust and civic-action patterns rather than one political response. Related topic: Personal finances and national mood can move apart. The CES join does not observe respondent service use, local meaning, attribution, or causal exposure; the four cells are sampling context, not political causes.
 - Comparison: Party identity conditions how the same place-capacity context appears in trust and civic-action measures. Related topic: Personal finances and national mood can move apart. The subgroup comparison is descriptive and does not identify whether identity, place experience, information, selection, or another factor produced the difference.
+- Comparison: Place distributes the practical cost of using a public route, while political action depends on both institutional judgment and the capacity to act. Related topic: Personal finances and national mood can move apart. The place, public-system, and political records are complementary units; they do not follow one person or household from local exposure through route effort, receipt, material sacrifice, trust, and action.
 
 ### A quicker reply may still leave a problem open
 
@@ -3440,6 +3613,7 @@ Connections:
 
 - Comparison: A platform that sells its own product also controls the data and search conditions outside sellers need. Related topic: Equal data access can open competition and reduce data investment. The current studies examine product placement and data rules separately and do not show their joint effect.
 - Question to test: A platform-owned product can change the choices and service fit customers see at search. Related topic: A quicker reply may still leave a problem open. The current experiment measures product choice and estimated welfare, not long-run service quality or seller competition.
+- Comparison: A platform-owned product can create real short-run customer value while the gatekeeper still shapes seller access, search conditions, and the future choice set. Related topic: Public support can stabilize firms before it changes market power. The Amazon field experiment measures product choice and estimated consumer welfare in tested categories but does not establish long-run seller entry, foreclosure, prices, platform investment, or durable dependence.
 
 ### Competition can protect the customers most able to leave
 
@@ -3510,6 +3684,530 @@ Connections:
 
 - Comparison: A buyer-side defense relationship can become a political claim about reciprocal access and regional industrial autonomy. Related topic: Personal finances and national mood can move apart. The official agreements show institutional intent, not realized production, public reception, supplier replaceability, bargaining leverage, or changed external behavior.
 - Comparison: Regional co-production can turn an alliance purchase into a claim about domestic industrial work and technical skill. Related topic: The same job can contain different AI access. The agreement does not establish plant commissioning, jobs, wages, skills transfer, production, or who controls critical inputs and design authority.
+- Comparison: Planned reciprocal defense production can move an alliance relationship from purchasing capability toward industrial state capacity before autonomy, delivery, readiness, or external leverage is demonstrated. Related topic: Domestic capacity becomes state leverage only after external response. The Polish agreements describe potential buyer/seller roles and planned regional production but do not establish commissioned plants, output, delivery, local burden, supplier independence, public reception, or changed external behavior.
+
+### A remedy is a route, not proof of recovery
+
+Consumer power depends on reaching, surviving, and using a remedy route, not only on an agency announcement.
+
+**Question:** When does formal redress become usable power?
+
+**Subthemes:** Complaint and redress routes; Receipt, adequacy, and exit
+
+**Limit:** The opening evidence does not follow the same person through receipt, adequacy, durability, trust, and exit.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
+- [HBS: Can I Please Speak to an Actual Person?](https://www.library.hbs.edu/working-knowledge/infographic-can-i-please-speak-to-an-actual-person)
+- [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
+- [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
+- [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
+- [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html)
+
+#### Evidence check: A remedy is a route, not proof of recovery
+
+Consumer and platform records show payments, complaint routes, reissues, and prospective controls, but each route can stop before a person receives adequate correction or can leave safely.
+
+Working interpretation: practical consumer power depends on whether a person can identify the problem, reach the channel, survive its screening, receive a usable remedy, and change providers if needed.
+
+**Counterpoint:** Formal redress can still return money, change rules, and make future abuse less likely even when individual recovery is not fully visible.
+[Related study](https://www.consumerfinance.gov/about-us/newsroom/)
+
+The current map joins different cases and does not follow one person from loss through submission, receipt, recovery, trust, and exit.
+
+[CFPB complaint and redress records plus FTC platform-remedy records, checked 2026-09-21.](https://www.consumerfinance.gov/complaint/)
+
+
+Connections:
+
+- Comparison: A consumer product can sell an aspiration of future income while refund conditions make recourse difficult, linking consumer loss to work expectations and practical exit. Related topic: The same job can contain different AI access. The FTC final-order announcement reports allegations, a $1.5 million payment, and prospective controls but does not identify buyer-level income, refund receipt, adequacy, trust, switching, or exit.
+- Comparison: A formally covered post-acute care route can depend on patient or provider appeal effort before access is realized. Related topic: Care capacity can fail at the appeal and household interface. The HHS-OIG review reports aggregate denial, appeal, and overturn rates but does not show patient-level delay, actual care receipt, nonappeal outcomes, or household burden.
+- Comparison: Consumer voice is shaped by complaint-channel screening, identity controls, routing, and response categories before a problem becomes a public institutional record. Related topic: A public route can filter experience before it becomes institutional knowledge. The CFPB describes system-level problems and controls but does not establish an individual correction, submission burden, exclusion error, trust change, or practical exit outcome.
+- Comparison: Firm continuity or replacement can preserve local consumer access while changing travel, prices, service quality, and the practical ability to switch. Related topic: Public support can stabilize firms before it changes market power. The Hurricane Harvey study reports localized firm turnover and consumer travel/welfare changes but does not identify each consumer's completed trip, affordability, substitute quality, or durable local access.
+- Comparison: A multisided platform remedy becomes consumer recourse only when the affected person can identify the route, receive the money or restored access, and use an alternative if the relationship remains damaged. Related topic: A platform remedy can distribute money without restoring every relationship. The Grubhub remedy reports aggregate payment and prospective controls but does not identify individual receipt, restored access, alternative quality, switching, trust, or exit.
+
+### A platform remedy can distribute money without restoring every relationship
+
+Platform enforcement can reach several market sides while leaving worker, customer, and restaurant recovery partly unobserved.
+
+**Question:** Who is actually restored when a platform remedy is announced?
+
+**Subthemes:** Multi-sided remedies; Unequal recovery clocks
+
+**Limit:** Aggregate payment and prospective controls are not the same as individual recovery or practical exit.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
+- [HBS: Can I Please Speak to an Actual Person?](https://www.library.hbs.edu/working-knowledge/infographic-can-i-please-speak-to-an-actual-person)
+- [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
+- [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
+- [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
+- [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html)
+
+#### Evidence check: A platform remedy can distribute money without restoring every relationship
+
+The Grubhub remedy combines aggregate payment and prospective platform controls across workers, consumers, and restaurants, but the affected parties may experience different recovery clocks.
+
+Working interpretation: a multi-sided platform remedy should be read separately for each side of the market rather than as one completed recovery.
+
+**Counterpoint:** A single order can still reduce future harm and return money at scale even when the public record cannot identify every recipient outcome.
+[Related study](https://www.ftc.gov/news-events/news/press-releases/2026/)
+
+The record does not establish individual receipt, restored earnings or access, alternative quality, switching, trust, or exit.
+
+[FTC Grubhub multisided remedy record, checked 2026-09-21.](https://www.ftc.gov/legal-library/browse/cases-proceedings/)
+
+
+Connections:
+
+- Comparison: A multi-sided platform remedy can distribute money while leaving worker income, customer access, and restaurant market position on separate recovery clocks. Related topic: The same job can contain different AI access. The Grubhub record reports aggregate payment and prospective controls but does not identify group-specific exposure, individual receipt, restored earnings or access, alternative quality, switching, trust, or exit.
+- Comparison: A multisided platform remedy becomes consumer recourse only when the affected person can identify the route, receive the money or restored access, and use an alternative if the relationship remains damaged. Related topic: A remedy is a route, not proof of recovery. The Grubhub remedy reports aggregate payment and prospective controls but does not identify individual receipt, restored access, alternative quality, switching, trust, or exit.
+- Comparison: A platform remedy can improve formal legitimacy across workers, customers, and restaurants while each side forms a different judgment about fairness, recognition, and whether to remain. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The Grubhub record does not measure recipient-level trust, dignity, continued use, worker return, restaurant dependence, or durable public legitimacy.
+
+### A public route can filter experience before it becomes institutional knowledge
+
+The state can only respond to what its intake, identity, data, and review systems can recognize and route.
+
+**Question:** Which lived problems become legible enough for a public system to correct?
+
+**Subthemes:** Intake and classification; Data matching and correction; Administrative legibility
+
+**Limit:** System visibility does not prove individual correction, adequate remedy, or trust.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HBS: When AI Chatbots Help People Act More Human](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [NBER Working Paper 31161](https://www.nber.org/papers/w31161)
+- [HBS: Can I Please Speak to an Actual Person?](https://www.library.hbs.edu/working-knowledge/infographic-can-i-please-speak-to-an-actual-person)
+- [FTC order on DoNotPay](https://www.ftc.gov/news-events/news/press-releases/2025/02/ftc-finalizes-order-donotpay-prohibits-deceptive-ai-lawyer-claims-imposes-monetary-relief-requires)
+- [FTC inquiry into AI companion chatbots](https://search.ftc.gov/news-events/news/press-releases/2025/09/ftc-launches-inquiry-ai-chatbots-acting-companions)
+- [Federal agency joint statement on automated systems](https://www.ftc.gov/system/files/ftc_gov/pdf/EEOC-CRT-FTC-CFPB-AI-Joint-Statement%28final%29.pdf)
+- [Federal Reserve 2025 employment and job-quality findings](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-employment-and-job-quality.htm)
+- [HBS AI and customer service experiment](https://www.library.hbs.edu/working-knowledge/when-ai-chatbots-help-people-be-more-human)
+- [CFPB 2025 Consumer Response Annual Report](https://www.consumerfinance.gov/data-research/research-reports/2025-consumer-response-annual-report/)
+- [CFPB Consumer Complaint Database](https://www.consumerfinance.gov/data-research/consumer-complaints/)
+- [CFPB complaint database API documentation](https://cfpb.github.io/api/ccdb/api.html)
+
+#### Evidence check: A public route can filter experience before it becomes institutional knowledge
+
+Complaint intake, eligibility data, payment oversight, and regulatory response all depend on routing, identity, matching, classification, and review choices before a public system can act on a problem.
+
+Working interpretation: public capacity includes the ability to hear, match, verify, correct, and learn—not only the formal program or rule.
+
+**Counterpoint:** Standardization and screening can protect privacy, reduce fraud, and make a large system more manageable.
+[Related study](https://www.gao.gov/)
+
+The current evidence shows system-level routes and aggregate problems but rarely follows one submission or recipient through correction and later trust.
+
+[CFPB, GAO, HUD, clinic-access, privacy, and platform-remedy records, plus the administrative-legibility layer, checked 2026-09-21.](https://www.consumerfinance.gov/complaint/)
+
+
+Connections:
+
+- Comparison: A large-load operating event can expose shared grid dependence and trigger new reliability rules for private computational facilities. Related topic: Technical capacity becomes shared infrastructure only through operating rules. The PJM account reports an aggregate event and proposed standards but does not identify facility-level behavior, household interruption or cost, final adoption, durable compliance, or local acceptance.
+- Comparison: Federal payment oversight depends on interoperable eligibility data and governance authority, not merely on the number of programs or records available. Related topic: Technical capacity becomes shared infrastructure only through operating rules. GAO identifies system-level data-quality and matching problems but does not show an individual improper payment, correction, recipient harm, or whether a future standard would improve lived access.
+- Comparison: Consumer voice is shaped by complaint-channel screening, identity controls, routing, and response categories before a problem becomes a public institutional record. Related topic: A remedy is a route, not proof of recovery. The CFPB describes system-level problems and controls but does not establish an individual correction, submission burden, exclusion error, trust change, or practical exit outcome.
+- Comparison: Disaster recovery loans can convert public liquidity into firm survival, employment, revenue, and private-credit recovery before worker, customer, owner-household, or community outcomes are known. Related topic: Public support can stabilize firms before it changes market power. The revised NBER study reports causal firm-level outcomes but does not establish equal loan access, loan burden, worker security, customer affordability, owner recovery, or durable local political meaning.
+- Comparison: A public institution can improve the speed of its feedback channel without proving that every group can access, trust, or shape the resulting data. Related topic: Faster contact is not the same as equal public voice. The Census study measures contact, consent, and response behavior, not accurate representation, policy use, public responsiveness, or institutional legitimacy.
+- Comparison: A legal eligibility route becomes public capacity only when agencies apply it on time, maintain usable data, and fund the providers who deliver the transition. Related topic: A formal reentry route can exist while timing and capacity delay usable return. GAO observes eligibility-data gaps, delayed application of earned time, RRC capacity limits, and late payments, but not individual transfer receipt or post-release outcomes.
+- Comparison: A formal accessibility right becomes public-system feedback only when affected people know the route, can contest the barrier, and receive a usable correction. Related topic: A formal accessibility complaint route can exist while the people who need it do not know about it. GAO reports complaint counts and stakeholder awareness concerns, but not barrier prevalence, user-level route completion, correction, or equal access.
+
+### Domestic capacity becomes state leverage only after external response
+
+Operational, alliance, and infrastructure capacity can precede visible deterrence, autonomy, legitimacy, or external adaptation.
+
+**Question:** When does capacity become leverage beyond the institution that built it?
+
+**Subthemes:** Readiness and legitimacy; External response and leverage
+
+**Limit:** The current records stop before durable external response and changed bargaining power.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [From P&G to Microsoft, How Companies Are Speeding AI Adoption](https://www.library.hbs.edu/working-knowledge/from-pg-to-microsoft-how-companies-speed-ai-adoption)
+- [Generative AI at Work](https://www.nber.org/papers/w31161)
+- [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
+- [Still Waters, Rapid Currents](https://www.nber.org/papers/w33777)
+- [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677)
+- [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984)
+- [Generative AI and Firm Values](https://www.nber.org/papers/w31222)
+- [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
+- [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [BLS Job Openings and Labor Turnover Survey](https://www.bls.gov/jlt/)
+- [field definitions](https://www.bls.gov/help/def/jt.htm)
+- [ILOSTAT data catalog](https://ilostat.ilo.org/data/)
+- [bulk-download
+documentation](https://ilostat.ilo.org/data/bulk/)
+- [Rilostat workflow
+documentation](https://ilostat.github.io/Rilostat/reference/get_ilostat.html)
+- [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html)
+- [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
+- [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
+- [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
+- [Organizational Incentives and the Returns to Technology Adoption](https://www.nber.org/papers/w35445)
+- [Empowering Inclusive Work](https://www.nber.org/papers/w35372)
+- [Women in the Platform Economy](https://www.nber.org/papers/w35467)
+- [Quantifying the Jobs Potential of AI in Latin America and the Caribbean](https://www.worldbank.org/en/results/2025/04/15/quantifying-the-jobs-potential-of-ai-in-latin-america-and-the-caribbean)
+- [Global case studies of social dialogue on AI and algorithmic management](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management)
+- [2023 TV/Theatrical Contracts](https://www.sagaftra.org/contracts-industry-resources/contracts/2023-tvtheatrical-contracts)
+- [Digital Replicas 101](https://www.sagaftra.org/sites/default/files/sa_documents/DigitalReplicas.pdf)
+- [Deutsche Telekom Digital Ethics](https://www.telekom.com/en/company/digital-responsibility/details/our-action-areas-digital-ethics-1008324)
+- [Telekom AI manifesto](https://www.telekom.com/de/konzern/details/telekom-verpflichtet-sich-auf-ki-ethik-1025794)
+- [ver.di workplace AI examples](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1152/eng%402024-09-20/source)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1262/eng%402024-09-20/source)
+- [IBM Central Holding / Group Works Council AI framework](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence)
+- [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
+- [Methodology of the AIM-WORK survey](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933)
+- [Algorithmic management and working conditions in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729)
+- [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms)
+- [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)
+- [Energy and AI](https://www.iea.org/reports/energy-and-ai)
+- [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai)
+- [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
+- [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
+- [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates)
+- [WDR 2026 reproducibility catalog](https://reproducibility.worldbank.org/catalog/624)
+- [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
+- [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
+- [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
+- [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/)
+
+#### Evidence check: Domestic capacity becomes state leverage only after external response
+
+Alliance staffing, local security integration, cross-border power delivery, and AI command authorization show real capacity-building stages without yet proving deterrence, autonomy, legitimacy, or changed adversary behavior.
+
+Working interpretation: geopolitical consequence is a later stage of a domestic or alliance capability, not an automatic property of an announcement or operating milestone.
+
+**Counterpoint:** Visible capacity and coordination can still change bargaining expectations before a measurable external response appears.
+[Related study](https://www.nato.int/)
+
+The current evidence does not follow a capability through public burden, local acceptance, durable readiness, external adaptation, and changed leverage.
+
+[NATO, Bundeswehr, and cross-border infrastructure records, checked 2026-09-21.](https://www.nato.int/en/what-we-do)
+
+
+Connections:
+
+- Comparison: A NATO AI command platform becomes more usable state capacity when it crosses classified-network authorization and exercise-integration gates. Related topic: Technical capacity becomes shared infrastructure only through operating rules. Technical capability and simulated exercise responses do not establish mission effectiveness, operator legitimacy, supplier independence, deterrence, or changed adversary behavior.
+- Comparison: A multinational security mission can adjust posture through local institutional integration before public legitimacy or changed external behavior is established. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The NATO account reports posture and coordination stages but does not establish local consent, reduced incidents, burden distribution, durable trust, or changed actor behavior.
+- Comparison: A cross-border transmission project can move from construction into commercial operation and deliver state capacity before household affordability or durable external leverage is visible. Related topic: Technical capacity becomes shared infrastructure only through operating rules. The NYSERDA account reports commercial operation and expected delivery but does not establish household bills, rate allocation, host-community acceptance, reliability, cost incidence, or durable Canadian/U.S. leverage.
+- Comparison: Alliance capability depends on staffing, maintenance, family capacity, and social willingness before formal readiness becomes operational leverage. Related topic: Capability can raise output while leaving control unsettled. The Bundeswehr reports volunteer staffing and selected mandatory measures but does not disclose the personnel denominator, family burden, operational performance, public acceptance, deterrence, or adversary response.
+- Comparison: Medical and civilian emergency capacity can become part of alliance readiness when a multinational exercise joins care continuity, evacuation, hospitals, rescue services, and military support. Related topic: Care capacity can fail at the appeal and household interface. The NATO exercise account reports coordination and tested procedures but does not establish real-crisis patient outcomes, civilian burden, public consent, sustained readiness, deterrence, or changed adversary behavior.
+- Comparison: Planned reciprocal defense production can move an alliance relationship from purchasing capability toward industrial state capacity before autonomy, delivery, readiness, or external leverage is demonstrated. Related topic: A defense relationship can move from buying capability toward building reciprocal industrial room. The Polish agreements describe potential buyer/seller roles and planned regional production but do not establish commissioned plants, output, delivery, local burden, supplier independence, public reception, or changed external behavior.
+- Comparison: Federal housing programs intersect with Tribal authority and state capacity, making coordination and definition choices part of sovereignty and public legitimacy. Related topic: Native housing insecurity can be undercounted when family support does not fit the federal definition. The preliminary review does not establish Tribal control over each program, federalism effects, political legitimacy, or changed state or external behavior.
+
+### The same capacity can mean protection, dependence, unfairness, or futility
+
+Material conditions become political and cultural consequences through interpretation, attribution, trust, and perceived ability to act.
+
+**Question:** When does a lived condition become trust, action, switching, or exit?
+
+**Subthemes:** Attribution and fairness; Trust, action, and exit
+
+**Limit:** The evidence does not yet follow the same person from material exposure to durable meaning and action.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Federal Reserve household report](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
+- [Federal Reserve income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
+- [Pew: public trust in government](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/)
+- [Pew: 2026 economic views](https://www.pewresearch.org/short-reads/2026/02/23/state-of-the-union-2026-where-americans-stand-on-key-issues-facing-the-nation/)
+- [NBER: Child Tax Credit and consumer sentiment](https://www.nber.org/papers/w35059)
+- [NBER: central-bank communication and trust](https://www.nber.org/papers/w33524)
+- [NBER: Do Voters Punish Inflation or Pay Cuts?](https://www.nber.org/papers/w35301)
+- [Federal Reserve 2025 household survey](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-executive-summary.htm)
+- [Federal Reserve 2025 income and expenses](https://www.federalreserve.gov/publications/2026-economic-well-being-of-us-households-in-2025-income-and-expenses.htm)
+- [Pew long-run public-trust series](https://www.pewresearch.org/politics/2025/12/04/public-trust-in-government-1958-2025/)
+
+#### Evidence check: The same capacity can mean protection, dependence, unfairness, or futility
+
+Across consumer, work, care, public-system, and alliance records, practical outcomes are filtered through identity, respect, attribution, perceived fairness, and whether people believe action can change the result.
+
+Working interpretation: meaning is not decoration after material change; it helps determine trust, use, contestation, organizing, switching, and exit.
+
+**Counterpoint:** Material benefits can be real even when people disagree about the institution, and distrust does not always prevent use.
+[Related study](https://www.pewresearch.org/)
+
+The current map mostly joins different surveys and cases; it does not follow one person from exposure through interpretation and later action.
+
+[Pew, Gallup, CFPB, NATO, and household adaptation records, checked 2026-09-21.](https://www.pewresearch.org/social-trends/)
+
+
+Connections:
+
+- Comparison: The same workplace AI exposure can signify capability or replaceability depending on perceived respect, wellbeing support, and organizational communication. Related topic: Capability can raise output while leaving control unsettled. Gallup reports repeated-worker associations but does not establish actual job loss, causal management effects, bargaining change, household security, organizing, or exit.
+- Comparison: A multinational security mission can adjust posture through local institutional integration before public legitimacy or changed external behavior is established. Related topic: Domestic capacity becomes state leverage only after external response. The NATO account reports posture and coordination stages but does not establish local consent, reduced incidents, burden distribution, durable trust, or changed actor behavior.
+- Comparison: A platform remedy can improve formal legitimacy across workers, customers, and restaurants while each side forms a different judgment about fairness, recognition, and whether to remain. Related topic: A platform remedy can distribute money without restoring every relationship. The Grubhub record does not measure recipient-level trust, dignity, continued use, worker return, restaurant dependence, or durable public legitimacy.
+- Comparison: Mission meaning may help sustain nonprofit work under lower average pay, but community trust and worker commitment are not interchangeable with compensation. Related topic: Social infrastructure can depend on work that pays less on average. The administrative earnings study does not measure mission identity, worker wellbeing, client trust, public legitimacy, or later civic action.
+- Comparison: Reported support is not the same as belonging, reliable reciprocity, institutional trust, or the ability to act with others. Related topic: Support can be present while participation remains difficult. The CDC summary does not measure relationship quality, adequacy, reciprocity, belonging, civic action, or durable connection in the same respondent.
+- Comparison: A contact channel can lower time cost for some respondents while creating privacy or message-trust concerns for others, making participation design part of institutional meaning. Related topic: Faster contact is not the same as equal public voice. The study does not identify why people consented or refused, whether response reflected trust, or whether contact changed later civic judgment or action.
+- Comparison: A delayed or unreadable transition can make formal eligibility feel like institutional abandonment, while the audit does not yet measure trust or perceived legitimacy. Related topic: A formal reentry route can exist while timing and capacity delay usable return. The source reports administrative delay and capacity conditions, not the affected person's attribution, dignity, trust, community acceptance, or later action.
+- Comparison: Being formally free while still monitored can shape identity, legitimacy, and willingness to engage with institutions, but administrative exits do not measure that meaning. Related topic: Freedom can still mean continuing state contact. The BJS report does not measure perceived fairness, dignity, trust, stigma, community acceptance, political action, or later institutional exit.
+- Comparison: An invisible or ineffective accessibility route can shape whether an institution is experienced as reachable and legitimate, even when formal compliance exists. Related topic: A formal accessibility complaint route can exist while the people who need it do not know about it. The audit does not measure perceived fairness, dignity, trust, public legitimacy, or later civic action among building users or complainants.
+- Comparison: Repeated inaccessible encounters can shift the meaning of coverage from protection to unusable entitlement, although the oversight record does not measure that trust transition. Related topic: Formal health-care coverage can fail at the accessibility interface. The source does not measure perceived dignity, provider fairness, institutional trust, care avoidance, switching, or later civic action.
+- Comparison: A category that fails to recognize a community's housing reality can shape whether federal support feels protective, misfitted, or extractive, even when programs exist. Related topic: Native housing insecurity can be undercounted when family support does not fit the federal definition. The preliminary report does not measure household interpretation, trust, cultural identity, application behavior, political action, or exit.
+
+### A housing-assistance exit is not one outcome
+
+Leaving assistance can mean stable autonomy, administrative transition, or loss of housing support; the exit reason changes the residual-risk path.
+
+**Question:** When does leaving public support become security, and when does it become exposure?
+
+**Subthemes:** Positive and negative exits; Housing stability and institutional judgment
+
+**Limit:** The regional linked study does not yet show a national, causal, or durable household pathway through rent burden, care, trust, and action.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [HUD HEARS final report](https://www.huduser.gov/portal/portal/sites/default/files/pdf/HUD-HEARS-Study.pdf)
+
+#### Evidence check: A housing-assistance exit is not one outcome
+
+HUD HEARS links classified positive, neutral, and negative exits in two King County housing authorities to one-year housing-stability, health, behavioral-health, and wage outcomes. Homelessness or unstable housing occurred for 3.1% after positive exits and 25.4% after negative exits.
+
+Working interpretation: institutional exit should be read as a pathway, not a success label. The same administrative transition can transfer autonomy or residual risk depending on why and how it occurs.
+
+**Counterpoint:** The separation may partly reflect pre-existing health, homelessness, income, and housing-market conditions that influence both exit type and later outcomes.
+[Related study](https://www.huduser.gov/portal/portal/sites/default/files/pdf/HUD-HEARS-Study.pdf)
+
+The study is observational and limited to two King County housing authorities; it does not establish a national or causal exit effect, later trust, or durable security.
+
+[HUD Health, Economic, and Residential Stability Study final report, reviewed 2026-09-24.](https://www.huduser.gov/portal/portal/sites/default/files/pdf/HUD-HEARS-Study.pdf)
+
+
+Connections:
+
+- Comparison: The meaning of housing-assistance exit depends on whether the transition preserves a usable home or transfers housing risk back to the household. Related topic: Keeping a home also means paying to protect it. HUD HEARS observes classified exit type and one-year housing-stability outcomes in two King County housing authorities, but does not identify national rent burden, assistance adequacy, or a causal exit effect.
+- Comparison: A housing exit can redistribute residual risk into emergency care and behavioral-health systems, making housing policy part of the health-capacity route. Related topic: Care capacity can fail at the appeal and household interface. The linked study reports one-year emergency-department and behavioral-health associations, but does not establish mechanism, treatment adequacy, or durable household health and care outcomes.
+
+### Support can be present while participation remains difficult
+
+Social support is a resource, but health, time, transport, and access determine whether connection becomes usable participation.
+
+**Question:** When does having support become the practical ability to belong and participate?
+
+**Subthemes:** Support as resource; Participation as access
+
+**Limit:** The cross-year indicators do not establish a same-person path through support quality, participation, trust, health recovery, or civic action.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [CDC Community & Connection](https://www.cdc.gov/mental-health/about-data/community-connection.html)
+
+#### Evidence check: Support can be present while participation remains difficult
+
+CDC indicators report needed social and emotional support for 58% of youth in 2021–2023 and 82% of adults in 2021, while a separate 2024 indicator reports 12% of adults had difficulty participating in social activities because of a physical, mental, or emotional condition.
+
+Working interpretation: connection has both a resource side and an access side. Having people who care does not guarantee that a person can attend, travel, communicate, or sustain a social role.
+
+**Counterpoint:** The support and participation measures come from different years and survey systems; support can be adequate for some people even when a separate health limitation makes participation difficult.
+[Related study](https://www.cdc.gov/mental-health/about-data/community-connection.html)
+
+The CDC summary does not follow the same person across support, health, participation, belonging, and later action.
+
+[CDC Mental Health Data Channel, Community & Connection, reviewed 2026-09-23.](https://www.cdc.gov/mental-health/about-data/community-connection.html)
+
+
+Connections:
+
+- Comparison: Health limitations can convert social support from an available relationship into a constrained participation route, making care and access conditions part of belonging. Related topic: Care capacity can fail at the appeal and household interface. CDC indicators report support and health-related participation difficulty separately and do not identify the barrier, attempted participation, care route, or recovery.
+- Comparison: Reported support is not the same as belonging, reliable reciprocity, institutional trust, or the ability to act with others. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The CDC summary does not measure relationship quality, adequacy, reciprocity, belonging, civic action, or durable connection in the same respondent.
+- Comparison: Usable social participation may depend on both informal relationships and the nonprofit, health, cultural, and civic institutions that make connection reachable. Related topic: Social infrastructure can depend on work that pays less on average. The CDC and nonprofit records use different units and do not establish that nonprofit staffing conditions changed individual support or participation.
+- Comparison: Digital contact is another access condition for social and civic participation, but faster messaging does not guarantee usable inclusion or belonging. Related topic: Faster contact is not the same as equal public voice. The contact and social-support records use separate survey systems and do not follow a person from message access through participation or connection.
+
+### Faster contact is not the same as equal public voice
+
+Digital survey contact can reduce response time while distributing consent, access, privacy, and trust costs unevenly.
+
+**Question:** When does easier public contact become more inclusive participation, and when does it only move the burden?
+
+**Subthemes:** Digital contact and consent; Response, representation, and trust
+
+**Limit:** The evidence does not yet connect contact mode to accurate representation, public decision use, trust, or later civic action for the same household.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Census working paper](https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html)
+
+#### Evidence check: Faster contact is not the same as equal public voice
+
+Census Household Panel evidence suggests text invitations can bolster initial response timing, while access and consent differ by age, race/ethnicity, education, income, region, and respondent type; text consent is approximately 50% in the studied topical context.
+
+Working interpretation: public institutions can reduce response time and contact friction through digital design, but the same channel can redistribute privacy, device, language, and trust costs across groups.
+
+**Counterpoint:** A faster response route may improve data collection and reduce follow-up cost even if it does not establish equal representation or greater institutional trust.
+[Related study](https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html)
+
+The study observes survey contact and response behavior, not political participation, accurate representation, policy responsiveness, or later civic action.
+
+[Census Research Report Series methodology paper on Household Panel text consent and response, reviewed 2026-09-23.](https://www.census.gov/library/working-papers/2026/adrm/rsm2026-09.html)
+
+
+Connections:
+
+- Comparison: A public institution can improve the speed of its feedback channel without proving that every group can access, trust, or shape the resulting data. Related topic: A public route can filter experience before it becomes institutional knowledge. The Census study measures contact, consent, and response behavior, not accurate representation, policy use, public responsiveness, or institutional legitimacy.
+- Comparison: Digital contact is another access condition for social and civic participation, but faster messaging does not guarantee usable inclusion or belonging. Related topic: Support can be present while participation remains difficult. The contact and social-support records use separate survey systems and do not follow a person from message access through participation or connection.
+- Comparison: A contact channel can lower time cost for some respondents while creating privacy or message-trust concerns for others, making participation design part of institutional meaning. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The study does not identify why people consented or refused, whether response reflected trust, or whether contact changed later civic judgment or action.
+- Comparison: Complaint-route visibility and digital-contact design both determine whether a formal institution can hear from people who face access barriers. Related topic: A formal accessibility complaint route can exist while the people who need it do not know about it. The accessibility and Census contact studies use different systems and do not show whether a particular contact design improves accessibility complaints or correction.
+- Comparison: Digital check-in and survey contact can reduce friction for some people while creating accessibility, privacy, language, or device barriers for others. Related topic: Formal health-care coverage can fail at the accessibility interface. The GAO health-care review and Census contact study do not share a person-level unit or establish which digital design changes improve accessible care.
+
+### A formal reentry route can exist while timing and capacity delay usable return
+
+Reentry rights become lived opportunities only when eligibility is applied on time, placement capacity exists, and providers can operate reliably.
+
+**Question:** When does a formal transition become usable return rather than a delayed promise?
+
+**Subthemes:** Eligibility and timing; Capacity and provider reliability
+
+**Limit:** The audit does not show person-level housing, work, health, justice, trust, or community outcomes after transfer timing changes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [GAO-26-107353: Bureau of Prisons: Actions Needed to Better Achieve Financial and Other Benefits of Moving Individuals to Halfway Houses on Time](https://www.gao.gov/products/gao-26-107353)
+
+#### Evidence check: A formal reentry route can exist while timing and capacity delay usable return
+
+GAO found that earned time was not fully applied toward residential reentry center or home-confinement placement for 21,190 of 29,934 people reviewed. BOP reported roughly 150 contracted RRCs, about 65,000 late contractor payments, and late RRC payments about 70% of the time in fiscal years 2023–2024.
+
+Working interpretation: a formal eligibility route is not the same as a usable transition. Timing, placement capacity, payment administration, and data legibility determine whether people can reach housing, work, treatment, and community reconnection while those opportunities still matter.
+
+**Counterpoint:** Some delays reflected court orders or limited space, and RRC residence is not itself successful reentry; the audit does not establish that every delayed transfer caused a later individual harm.
+[Related study](https://www.gao.gov/products/gao-26-107353)
+
+The audit does not link the same person from eligibility through transfer, services, housing, employment, health, later justice contact, trust, or durable inclusion.
+
+[GAO-26-107353, reviewed 2026-09-22.](https://www.gao.gov/products/gao-26-107353)
+
+
+Connections:
+
+- Comparison: A legal eligibility route becomes public capacity only when agencies apply it on time, maintain usable data, and fund the providers who deliver the transition. Related topic: A public route can filter experience before it becomes institutional knowledge. GAO observes eligibility-data gaps, delayed application of earned time, RRC capacity limits, and late payments, but not individual transfer receipt or post-release outcomes.
+- Comparison: The timing of a reentry placement can determine whether a person reaches a usable housing bridge rather than returning to the community after the opportunity has narrowed. Related topic: Keeping a home also means paying to protect it. The GAO audit identifies RRC and home-confinement timing and capacity problems but does not observe housing receipt, stability, affordability, or alternatives for reviewed people.
+- Comparison: Residential reentry capacity depends on provider labor and payment reliability, so contractor administration can become a hidden condition of community reintegration. Related topic: Social infrastructure can depend on work that pays less on average. Late payments and RRC counts do not establish provider closure, worker conditions, service quality, or successful community reconnection.
+- Comparison: A delayed or unreadable transition can make formal eligibility feel like institutional abandonment, while the audit does not yet measure trust or perceived legitimacy. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The source reports administrative delay and capacity conditions, not the affected person's attribution, dignity, trust, community acceptance, or later action.
+- Comparison: Residential reentry timing can be an early transition within a longer period of community supervision, so release is not one clean break from state contact. Related topic: Freedom can still mean continuing state contact. GAO and BJS use different administrative systems and do not link placement timing to supervision conditions, later violations, completion, or inclusion for the same person.
+
+### Freedom can still mean continuing state contact
+
+Community supervision remains a large everyday institution even as its population declines, making reintegration a route of conditions and monitoring rather than a single release event.
+
+**Question:** When does release become durable inclusion rather than a different form of state contact?
+
+**Subthemes:** Supervision and everyday control; Exit categories and inclusion
+
+**Limit:** The aggregate data do not show supervision intensity, condition burden, service quality, housing/work effects, trust, or durable reintegration.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [BJS: Probation and Parole in the United States, 2024](https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024)
+
+#### Evidence check: Freedom can still mean continuing state contact
+
+BJS estimated 3,681,900 adults were under probation or parole at the end of 2024. Among comparable agencies, the supervision population fell 24% from yearend 2014 to yearend 2024, while exits remained administratively divided among completion, incarceration, absconding, and other unsatisfactory outcomes.
+
+Working interpretation: a falling incarcerated or supervised population is not automatically a transition to less state contact. Conditions, monitoring, services, and violation exposure can shape everyday movement, work, family obligations, and the meaning of being free in the community.
+
+**Counterpoint:** A smaller supervision population may reflect real reductions in criminal-legal control or changes in sentencing and release; aggregate counts cannot determine the lived burden for each person.
+[Related study](https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024)
+
+BJS does not follow the same person from supervision conditions through service use, completion or violation, housing, work, health, family life, trust, or political participation.
+
+[BJS Probation and Parole in the United States, 2024, reviewed 2026-09-22.](https://bjs.ojp.gov/library/publications/probation-and-parole-united-states-2024)
+
+
+Connections:
+
+- Comparison: Residential reentry timing can be an early transition within a longer period of community supervision, so release is not one clean break from state contact. Related topic: A formal reentry route can exist while timing and capacity delay usable return. GAO and BJS use different administrative systems and do not link placement timing to supervision conditions, later violations, completion, or inclusion for the same person.
+- Comparison: Supervision conditions and exit categories can shape the practical ability to secure and keep housing, while a population count cannot show the household-level housing route. Related topic: Keeping a home also means paying to protect it. BJS reports supervision scale and movement categories but does not observe housing access, affordability, stability, alternatives, or post-supervision homelessness.
+- Comparison: Being formally free while still monitored can shape identity, legitimacy, and willingness to engage with institutions, but administrative exits do not measure that meaning. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The BJS report does not measure perceived fairness, dignity, trust, stigma, community acceptance, political action, or later institutional exit.
+
+### A formal accessibility complaint route can exist while the people who need it do not know about it
+
+Accessibility rights depend on route visibility, contestability, and actual correction—not merely on a complaint form or closed case.
+
+**Question:** When does a formal accessibility right become usable access to work and public services?
+
+**Subthemes:** Complaint visibility; Accessibility and contestability
+
+**Limit:** The evidence does not establish barrier prevalence, correction quality, equal access, or a same-person path from complaint to restored participation.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [GAO-26-108575: Federal Real Property—GSA Should Publicize Accessibility Complaint Process for Its Office Buildings](https://www.gao.gov/products/gao-26-108575)
+- [GAO full report](https://files.gao.gov/reports/GAO-26-108575/index.html)
+
+#### Evidence check: A formal accessibility complaint route can exist while the people who need it do not know about it
+
+GAO reviewed 41 Architectural Barriers Act complaints about GSA office buildings from October 2022 through June 2026; 25 were closed and 16 remained in process. Stakeholders generally reported that the public was unaware of the complaint route.
+
+Working interpretation: a formal right becomes usable access only when people can identify the route, reach it, and obtain a correction. Complaint volume and closure are not the same as barrier prevalence, awareness, correction, or equal access.
+
+**Counterpoint:** Low complaint volume may reflect few barriers, alternative resolution routes, or limited need; limited awareness does not prove every building was inaccessible or every closed complaint lacked a remedy.
+[Related study](https://www.gao.gov/products/gao-26-108575)
+
+The audit does not follow individual complainants or building users through correction, access to employment or services, trust, or later action.
+
+[GAO-26-108575, reviewed 2026-09-23.](https://www.gao.gov/products/gao-26-108575)
+
+
+Connections:
+
+- Comparison: A formal accessibility right becomes public-system feedback only when affected people know the route, can contest the barrier, and receive a usable correction. Related topic: A public route can filter experience before it becomes institutional knowledge. GAO reports complaint counts and stakeholder awareness concerns, but not barrier prevalence, user-level route completion, correction, or equal access.
+- Comparison: Complaint-route visibility and digital-contact design both determine whether a formal institution can hear from people who face access barriers. Related topic: Faster contact is not the same as equal public voice. The accessibility and Census contact studies use different systems and do not show whether a particular contact design improves accessibility complaints or correction.
+- Comparison: Physical access to federal buildings can condition access to employment, benefits, and health-related services before any formal care outcome is measured. Related topic: Care capacity can fail at the appeal and household interface. The GAO review does not link building barriers to service use, employment, health, care continuity, or a person's alternative route.
+- Comparison: An invisible or ineffective accessibility route can shape whether an institution is experienced as reachable and legitimate, even when formal compliance exists. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The audit does not measure perceived fairness, dignity, trust, public legitimacy, or later civic action among building users or complainants.
+- Comparison: Health-care accessibility and federal-building accessibility share a conversion problem: formal rights require usable environments and visible correction routes. Related topic: Formal health-care coverage can fail at the accessibility interface. The GAO reports use different settings and do not link a person's health-care and federal-building access episodes or outcomes.
+
+### Native housing insecurity can be undercounted when family support does not fit the federal definition
+
+Federal housing programs and Tribal delivery systems can coexist with underfunding and a measurement gap around doubled-up housing and culturally specific security.
+
+**Question:** When does a federal housing category recognize need, and when does it erase a culturally meaningful housing condition?
+
+**Subthemes:** Definitions and cultural housing security; Tribal capacity and federal coordination
+
+**Limit:** The preliminary evidence does not establish prevalence, safety, Tribal sovereignty, program access, or durable stay/move outcomes.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [GAO-26-109173: Native American Issues—Preliminary Observations on Housing and Homelessness](https://www.gao.gov/products/gao-26-109173)
+
+#### Evidence check: Federal housing support can exist while Native housing insecurity remains hard to count and underfunded
+
+GAO's preliminary review identifies 30 federal programs that can provide housing support targeted to Native communities; nearly all contacted Tribes and Tribal Designated Housing Entities said funding was insufficient for construction, rehabilitation, or maintenance. The review also reports that widespread doubled-up housing may not align with federal homelessness definitions.
+
+Working interpretation: a housing system can have many programs while still missing culturally meaningful forms of insecurity and underfunding the places responsible for housing delivery. Doubling up may be protective family support, not automatically homelessness, but an exclusion from a federal definition can still make need less visible.
+
+**Counterpoint:** Doubled-up arrangements can be safe, chosen, and culturally meaningful, and program definitions may intentionally target a narrower homelessness condition; the preliminary evidence does not classify every arrangement as harm.
+[Related study](https://www.gao.gov/products/gao-26-109173)
+
+The preliminary review does not estimate national prevalence, duration, safety, application success, construction completion, Tribal control, or durable housing outcomes.
+
+[GAO-26-109173 preliminary observations, reviewed 2026-09-22.](https://www.gao.gov/products/gao-26-109173)
+
+
+Connections:
+
+- Comparison: Housing security depends on whether federal categories and funding recognize the actual household, cultural, and place-based conditions through which people stay housed. Related topic: Keeping a home also means paying to protect it. The preliminary GAO review identifies program and definition gaps but does not estimate Native housing insecurity, safety, affordability, repair, or durable stay/move outcomes.
+- Comparison: Federal housing programs intersect with Tribal authority and state capacity, making coordination and definition choices part of sovereignty and public legitimacy. Related topic: Domestic capacity becomes state leverage only after external response. The preliminary review does not establish Tribal control over each program, federalism effects, political legitimacy, or changed state or external behavior.
+- Comparison: Doubled-up housing can provide family support and care while also concentrating privacy, space, health, and coordination burdens that formal homelessness counts may miss. Related topic: Care capacity can fail at the appeal and household interface. The source does not measure whether doubled-up arrangements are protective or harmful for particular households, nor their health, care, work, or school outcomes.
+- Comparison: A category that fails to recognize a community's housing reality can shape whether federal support feels protective, misfitted, or extractive, even when programs exist. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The preliminary report does not measure household interpretation, trust, cultural identity, application behavior, political action, or exit.
 
 ## Who controls the work and gets the gain
 
@@ -3687,6 +4385,8 @@ Connections:
 - Question to test: A worker's job conditions and dependence may shape how an economic policy is judged. Related topic: Personal finances and national mood can move apart. The current atlas does not follow the same worker from job condition through political belief and vote.
 - Comparison: Monthly work and resource movement can coexist with a separate care-time and health-cost burden. Related topic: A family can pay for care with time. SIPP, ATUS, and MEPS measure complementary stages but do not follow the same person through a dated care or health event, recovery, trust, or action.
 - Comparison: Regional co-production can turn an alliance purchase into a claim about domestic industrial work and technical skill. Related topic: A defense relationship can move from buying capability toward building reciprocal industrial room. The agreement does not establish plant commissioning, jobs, wages, skills transfer, production, or who controls critical inputs and design authority.
+- Comparison: A multi-sided platform remedy can distribute money while leaving worker income, customer access, and restaurant market position on separate recovery clocks. Related topic: A platform remedy can distribute money without restoring every relationship. The Grubhub record reports aggregate payment and prospective controls but does not identify group-specific exposure, individual receipt, restored earnings or access, alternative quality, switching, trust, or exit.
+- Comparison: A consumer product can sell an aspiration of future income while refund conditions make recourse difficult, linking consumer loss to work expectations and practical exit. Related topic: A remedy is a route, not proof of recovery. The FTC final-order announcement reports allegations, a $1.5 million payment, and prospective controls but does not identify buyer-level income, refund receipt, adequacy, trust, switching, or exit.
 
 ### Fit can decide who gets heard at work
 
@@ -4104,6 +4804,169 @@ Connections:
 - Comparison: A licensing rule can change the driver pool behind the prices and service choices customers compare. Related topic: Two apps can show different prices while customers still compare rarely. The current studies examine licensing and price search separately and do not show their joint market effect.
 - Comparison: A driver rule is useful to customers only if it changes the safety, reliability or service they receive. Related topic: A quicker reply may still leave a problem open. The current studies do not measure all three customer outcomes in one setting over time.
 
+### Capability can raise output while leaving control unsettled
+
+Work capacity and institutional readiness can improve without proving who controls the gain or carries the new risk.
+
+**Question:** Who gets more control when an organization gets more capable?
+
+**Subthemes:** Control and voice; Capacity and distribution
+
+**Limit:** Aggregate organizational outcomes do not establish worker-level bargaining or durable security.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [From P&G to Microsoft, How Companies Are Speeding AI Adoption](https://www.library.hbs.edu/working-knowledge/from-pg-to-microsoft-how-companies-speed-ai-adoption)
+- [Generative AI at Work](https://www.nber.org/papers/w31161)
+- [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
+- [Still Waters, Rapid Currents](https://www.nber.org/papers/w33777)
+- [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677)
+- [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984)
+- [Generative AI and Firm Values](https://www.nber.org/papers/w31222)
+- [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
+- [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [BLS Job Openings and Labor Turnover Survey](https://www.bls.gov/jlt/)
+- [field definitions](https://www.bls.gov/help/def/jt.htm)
+- [ILOSTAT data catalog](https://ilostat.ilo.org/data/)
+- [bulk-download
+documentation](https://ilostat.ilo.org/data/bulk/)
+- [Rilostat workflow
+documentation](https://ilostat.github.io/Rilostat/reference/get_ilostat.html)
+- [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html)
+- [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
+- [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
+- [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
+- [Organizational Incentives and the Returns to Technology Adoption](https://www.nber.org/papers/w35445)
+- [Empowering Inclusive Work](https://www.nber.org/papers/w35372)
+- [Women in the Platform Economy](https://www.nber.org/papers/w35467)
+- [Quantifying the Jobs Potential of AI in Latin America and the Caribbean](https://www.worldbank.org/en/results/2025/04/15/quantifying-the-jobs-potential-of-ai-in-latin-america-and-the-caribbean)
+- [Global case studies of social dialogue on AI and algorithmic management](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management)
+- [2023 TV/Theatrical Contracts](https://www.sagaftra.org/contracts-industry-resources/contracts/2023-tvtheatrical-contracts)
+- [Digital Replicas 101](https://www.sagaftra.org/sites/default/files/sa_documents/DigitalReplicas.pdf)
+- [Deutsche Telekom Digital Ethics](https://www.telekom.com/en/company/digital-responsibility/details/our-action-areas-digital-ethics-1008324)
+- [Telekom AI manifesto](https://www.telekom.com/de/konzern/details/telekom-verpflichtet-sich-auf-ki-ethik-1025794)
+- [ver.di workplace AI examples](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1152/eng%402024-09-20/source)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1262/eng%402024-09-20/source)
+- [IBM Central Holding / Group Works Council AI framework](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence)
+- [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
+- [Methodology of the AIM-WORK survey](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933)
+- [Algorithmic management and working conditions in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729)
+- [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms)
+- [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)
+- [Energy and AI](https://www.iea.org/reports/energy-and-ai)
+- [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai)
+- [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
+- [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
+- [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates)
+- [WDR 2026 reproducibility catalog](https://reproducibility.worldbank.org/catalog/624)
+- [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
+- [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
+- [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
+- [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/)
+
+#### Evidence check: Capability can raise output while leaving control unsettled
+
+AI work exposure, alliance staffing, and firm recovery can increase organizational capacity while leaving worker control, bargaining position, family burden, and distribution of gains open.
+
+Working interpretation: work is not only employment or productivity; it is also who decides, who absorbs risk, and who can refuse or leave.
+
+**Counterpoint:** New tools and public support can create real jobs, skills, income, and organizational resilience even when bargaining power is not measured.
+[Related study](https://www.gallup.com/)
+
+The current records do not establish a common worker-level change in control, pay, organizing, security, or exit.
+
+[Gallup, disaster-liquidity, and alliance-staffing records, checked 2026-09-21.](https://www.gallup.com/workplace/)
+
+
+Connections:
+
+- Comparison: The same workplace AI exposure can signify capability or replaceability depending on perceived respect, wellbeing support, and organizational communication. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. Gallup reports repeated-worker associations but does not establish actual job loss, causal management effects, bargaining change, household security, organizing, or exit.
+- Comparison: Alliance capability depends on staffing, maintenance, family capacity, and social willingness before formal readiness becomes operational leverage. Related topic: Domestic capacity becomes state leverage only after external response. The Bundeswehr reports volunteer staffing and selected mandatory measures but does not disclose the personnel denominator, family burden, operational performance, public acceptance, deterrence, or adversary response.
+- Comparison: Firm survival and employment recovery can preserve organizational capacity without showing that workers gained control, security, bargaining power, or an ability to refuse the next risk. Related topic: Public support can stabilize firms before it changes market power. The revised disaster-liquidity study reports causal firm-level outcomes but does not establish worker pay, job quality, retention, bargaining, owner-household recovery, or worker-level choice.
+
+### Public support can stabilize firms before it changes market power
+
+A firm can survive, hire, earn, or regain credit while the effects on workers, customers, owners, and local power remain open.
+
+**Question:** When does firm capacity become shared security rather than private recovery?
+
+**Subthemes:** Firm survival and public liquidity; Market power and distribution
+
+**Limit:** Causal firm outcomes do not establish equal access, fair burden, worker security, affordability, or durable local control.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [After the Storm: How Emergency Liquidity Helps Small Businesses Following Natural Disasters](https://www.nber.org/papers/w32326)
+- [Revenue Collapses and the Consumption of Small Business Owners](https://www.nber.org/papers/w28151)
+- [After the Storm: Direct and Spillover Benefits from Disaster Loans to Small Businesses](https://afajof.org/management/viewp.php?n=42000)
+- [Rebuilding After the Storm: Firm Turnover and Consumer Welfare After Hurricane Harvey](https://benklopack.github.io/files/2024_12_11_Harvey.pdf)
+- [One Year After the Storm: Texas Gulf Coast Residents' Views and Experiences with Hurricane Harvey Recovery](https://www.kff.org/mental-health/one-year-after-storm-texas-gulf-coast-residents-views-experiences-hurricane-harvey-recovery/)
+
+#### Evidence check: Public support can stabilize firms before it changes market power
+
+Disaster loans, platform remedies, large-load rules, and infrastructure projects can protect or expand firm capacity while leaving access, burden, competition, and distribution unsettled.
+
+Working interpretation: firm survival or sector capacity is a real outcome, but it is not the same as worker security, customer affordability, household recovery, or public control.
+
+**Counterpoint:** Firm survival can preserve jobs, services, local supply, and future investment even when the distribution of gains requires separate evidence.
+[Related study](https://www.nber.org/)
+
+The current evidence does not consistently measure firm support alongside worker pay, customer price, owner burden, market concentration, or durable local power.
+
+[NBER disaster-liquidity, FTC platform, PJM/FERC, and infrastructure records, checked 2026-09-21.](https://www.nber.org/)
+
+
+Connections:
+
+- Comparison: Disaster recovery loans can convert public liquidity into firm survival, employment, revenue, and private-credit recovery before worker, customer, owner-household, or community outcomes are known. Related topic: A public route can filter experience before it becomes institutional knowledge. The revised NBER study reports causal firm-level outcomes but does not establish equal loan access, loan burden, worker security, customer affordability, owner recovery, or durable local political meaning.
+- Comparison: Firm survival and employment recovery can preserve organizational capacity without showing that workers gained control, security, bargaining power, or an ability to refuse the next risk. Related topic: Capability can raise output while leaving control unsettled. The revised disaster-liquidity study reports causal firm-level outcomes but does not establish worker pay, job quality, retention, bargaining, owner-household recovery, or worker-level choice.
+- Comparison: Firm continuity or replacement can preserve local consumer access while changing travel, prices, service quality, and the practical ability to switch. Related topic: A remedy is a route, not proof of recovery. The Hurricane Harvey study reports localized firm turnover and consumer travel/welfare changes but does not identify each consumer's completed trip, affordability, substitute quality, or durable local access.
+- Comparison: Public or private firm continuity can protect employment, revenue, or transactions while household financial recovery and residual burden remain separate. Related topic: The price on the screen is only part of the cost. Disaster-liquidity evidence reports firm survival, employment, revenue, and credit outcomes but does not establish owner-household room, worker security, customer affordability, or durable household recovery.
+- Comparison: A platform can compete through time and attention as well as money price, making opportunity cost part of the market power and switching question. Related topic: A free service can have time as its real price. The Facebook/Instagram experiments and model measure ad response, time cost, and substitution but do not establish long-run welfare, household burden, actual switching, or firm conduct after a real platform separation.
+- Comparison: A platform-owned product can create real short-run customer value while the gatekeeper still shapes seller access, search conditions, and the future choice set. Related topic: A platform-owned product can help some customers and still raise competition concerns. The Amazon field experiment measures product choice and estimated consumer welfare in tested categories but does not establish long-run seller entry, foreclosure, prices, platform investment, or durable dependence.
+- Comparison: A socially valuable organizational form can depend on a labor market that prices mission work differently from for-profit work, making institutional capacity a compensation and retention question. Related topic: Social infrastructure can depend on work that pays less on average. Average pay differences do not identify total compensation, worker bargaining power, organizational productivity, service substitution, or who receives the resulting value.
+
+### Social infrastructure can depend on work that pays less on average
+
+Nonprofit care, cultural, and civic capacity rests on a large labor force whose pay and retention conditions differ sharply by sector.
+
+**Question:** When does mission-supported work become a hidden subsidy from workers to social infrastructure?
+
+**Subthemes:** Mission work and compensation; Staffing capacity and public value
+
+**Limit:** The evidence does not yet connect nonprofit pay to staffing, service quality, household access, trust, or durable community capacity.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [Census CES landing page](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-33.html)
+- [Census CES paper PDF](https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-33.pdf)
+
+#### Evidence check: Social infrastructure can depend on work that pays less on average
+
+Census CES reports that nonprofits employ roughly 10% of the American workforce and that nonprofit earnings are about 12% lower than for-profit earnings on average, with large industry heterogeneity and most of the gap estimated as causal under the worker-firm model.
+
+Working interpretation: care, cultural, and civic capacity can be materially supported by workers whose compensation differs from comparable private-sector work. Mission value and pay are separate currencies, but pay can shape staffing capacity and retention.
+
+**Counterpoint:** Nonprofit work may carry non-wage meaning, flexibility, benefits, or security, and some nonprofit industries pay comparably or more; lower earnings do not establish worse service or lower community value.
+[Related study](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-33.html)
+
+The paper does not observe service quality, worker wellbeing, staffing gaps, client outcomes, community trust, or political action.
+
+[Census CES Working Paper 26-33, reviewed 2026-09-23.](https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-33.html)
+
+
+Connections:
+
+- Comparison: Nonprofit compensation and retention can shape the staffing capacity behind care, health, education, and social-support routes. Related topic: Care capacity can fail at the appeal and household interface. The nonprofit labor study measures pay and worker-firm components, not staffing vacancies, service quality, client access, care continuity, or health outcomes.
+- Comparison: A socially valuable organizational form can depend on a labor market that prices mission work differently from for-profit work, making institutional capacity a compensation and retention question. Related topic: Public support can stabilize firms before it changes market power. Average pay differences do not identify total compensation, worker bargaining power, organizational productivity, service substitution, or who receives the resulting value.
+- Comparison: Mission meaning may help sustain nonprofit work under lower average pay, but community trust and worker commitment are not interchangeable with compensation. Related topic: The same capacity can mean protection, dependence, unfairness, or futility. The administrative earnings study does not measure mission identity, worker wellbeing, client trust, public legitimacy, or later civic action.
+- Comparison: Usable social participation may depend on both informal relationships and the nonprofit, health, cultural, and civic institutions that make connection reachable. Related topic: Support can be present while participation remains difficult. The CDC and nonprofit records use different units and do not establish that nonprofit staffing conditions changed individual support or participation.
+- Comparison: Residential reentry capacity depends on provider labor and payment reliability, so contractor administration can become a hidden condition of community reintegration. Related topic: A formal reentry route can exist while timing and capacity delay usable return. Late payments and RRC counts do not establish provider closure, worker conditions, service quality, or successful community reconnection.
+
 ## A home can be costly to heat before anything else changes
 
 Read energy bills as part of the home's condition and the household's room to absorb other costs.
@@ -4252,6 +5115,92 @@ Connections:
 - Question to test: A payment outage can decide whether a household can turn money into a completed purchase. Related topic: The price on the screen is only part of the cost. The current evidence does not identify which essential purchase failed or which household carried the largest loss.
 - Question to test: Electricity and network reliability can shape whether digital money remains usable during a disaster. Related topic: A home can be costly to heat before anything else changes. The current evidence does not show which local infrastructure failure caused each payment problem or how long the effect lasted.
 - Comparison: A disaster can create both a payment-access problem and a need for liquidity. Related topic: Well-timed credit can keep a disaster from becoming bankruptcy. The current studies examine different disaster channels and do not follow one household from payment failure to loan receipt and recovery.
+
+### Technical capacity becomes shared infrastructure only through operating rules
+
+A capability becomes dependable public or strategic capacity only after it crosses operating, cost, authorization, and maintenance gates.
+
+**Question:** When does a technical system become usable shared power?
+
+**Subthemes:** Operating gates; Shared dependence and cost
+
+**Limit:** Operation or authorization does not by itself prove affordability, reliability, legitimacy, or durable independence.
+
+Sources collected in the opening pass; listing a source does not mean its full study has been reviewed.
+
+- [From P&G to Microsoft, How Companies Are Speeding AI Adoption](https://www.library.hbs.edu/working-knowledge/from-pg-to-microsoft-how-companies-speed-ai-adoption)
+- [Generative AI at Work](https://www.nber.org/papers/w31161)
+- [The Rapid Adoption of Generative AI](https://www.nber.org/papers/w32966)
+- [Still Waters, Rapid Currents](https://www.nber.org/papers/w33777)
+- [What Work Does Generative AI Do?](https://www.nber.org/papers/w35677)
+- [Artificial Intelligence, Productivity, and the Workforce](https://www.nber.org/papers/w34984)
+- [Generative AI and Firm Values](https://www.nber.org/papers/w31222)
+- [The Effects of Digital Surveillance and Managerial Clarity on Performance](https://www.nber.org/papers/w33348)
+- [Shifting Work Patterns with Generative AI](https://www.nber.org/papers/w33795)
+- [BLS Job Openings and Labor Turnover Survey](https://www.bls.gov/jlt/)
+- [field definitions](https://www.bls.gov/help/def/jt.htm)
+- [ILOSTAT data catalog](https://ilostat.ilo.org/data/)
+- [bulk-download
+documentation](https://ilostat.ilo.org/data/bulk/)
+- [Rilostat workflow
+documentation](https://ilostat.github.io/Rilostat/reference/get_ilostat.html)
+- [Algorithmic management in the workplace](https://www.oecd.org/en/publications/algorithmic-management-in-the-workplace_287c13c4-en.html)
+- [Exploring win-win outcomes of algorithmic management](https://www.oecd.org/en/publications/exploring-win-win-outcomes-of-algorithmic-management_84b59397-en.html)
+- [Algorithmic management practices in regular workplaces](https://www.ilo.org/publications/algorithmic-management-practices-regular-workplaces-case-studies-logistics)
+- [Capgemini 2025 Integrated Annual Report](https://reports.capgemini.com/2025/en/)
+- [Algorithmic management and digital monitoring of work](https://joint-research-centre.ec.europa.eu/projects-and-activities/employment/algorithmic-management-and-digital-monitoring-work_en)
+- [Organizational Incentives and the Returns to Technology Adoption](https://www.nber.org/papers/w35445)
+- [Empowering Inclusive Work](https://www.nber.org/papers/w35372)
+- [Women in the Platform Economy](https://www.nber.org/papers/w35467)
+- [Quantifying the Jobs Potential of AI in Latin America and the Caribbean](https://www.worldbank.org/en/results/2025/04/15/quantifying-the-jobs-potential-of-ai-in-latin-america-and-the-caribbean)
+- [Global case studies of social dialogue on AI and algorithmic management](https://www.ilo.org/publications/global-case-studies-social-dialogue-ai-and-algorithmic-management)
+- [2023 TV/Theatrical Contracts](https://www.sagaftra.org/contracts-industry-resources/contracts/2023-tvtheatrical-contracts)
+- [Digital Replicas 101](https://www.sagaftra.org/sites/default/files/sa_documents/DigitalReplicas.pdf)
+- [Deutsche Telekom Digital Ethics](https://www.telekom.com/en/company/digital-responsibility/details/our-action-areas-digital-ethics-1008324)
+- [Telekom AI manifesto](https://www.telekom.com/de/konzern/details/telekom-verpflichtet-sich-auf-ki-ethik-1025794)
+- [ver.di workplace AI examples](https://publik.verdi.de/ausgabe-202304/mensch-vor-maschine/)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1152/eng%402024-09-20/source)
+- [Kenya Court of Appeal judgment](https://new.kenyalaw.org/akn/ke/judgment/keca/2024/1262/eng%402024-09-20/source)
+- [IBM Central Holding / Group Works Council AI framework](https://wageindicator.org/de-de/arbeiten-in-deutschland/tarifvertrag/konzernbetriebsvereinbarung-uber-die-einfuhrung-und-den-einsatz-von-systemen-der-kunstlichen-intelligenz-artificial-intelligence)
+- [BTQ Kassel interview with IBM Group Works Council representative](https://www.btq-kassel.de/interview_frank_remers/)
+- [Methodology of the AIM-WORK survey](https://publications.jrc.ec.europa.eu/repository/handle/JRC143933)
+- [Algorithmic management and working conditions in Europe](https://publications.jrc.ec.europa.eu/repository/handle/JRC147505)
+- [AI Adoption and Inequality](https://www.imf.org/en/publications/wp/issues/2025/04/04/ai-adoption-and-inequality-565729)
+- [AI adoption, productivity and employment](https://www.bis.org/publications/working-paper-1325-ai-adoption-productivity-and-employment-evidence-european-firms)
+- [AI Expectations and Outcomes](https://bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)
+- [Energy and AI](https://www.iea.org/reports/energy-and-ai)
+- [Key Questions on Energy and AI](https://www.iea.org/reports/key-questions-on-energy-and-ai)
+- [2025 Annual Report](https://www.financialresearch.gov/annual-reports/files/OFR-AR-2025.pdf)
+- [World Development Report 2026](https://www.worldbank.org/en/publication/wdr2026)
+- [Building Data Infrastructure for AI Readiness](https://www.worldbank.org/en/results/2026/05/06/data-infrastructure-for-ai)
+- [Enterprise Surveys data update](https://www.enterprisesurveys.org/en/data/data-updates)
+- [WDR 2026 reproducibility catalog](https://reproducibility.worldbank.org/catalog/624)
+- [Authority for Digitalization: cloud migration](https://www.adr.gov.ro/en/investitia-2-dezvoltarea-cloudului-si-migrarea-in-cloud)
+- [IFC project disclosure](https://disclosures.ifc.org/project-detail/SII/49145/yondr-my-dc-2023)
+- [Yondr sale](https://www.yondrgroup.com/newsroom/press-release/yondr-group-completes-sale-of-johor-campus-to-vantage-data-centers)
+- [Vantage investment](https://vantage-dc.com/news/vantage-data-centers-completes-1-6b-investment-in-apac-platform-from-gic-and-adia-closes-acquisition-of-yondrs-300mw-hyperscale-campus-in-johor-malaysia/)
+
+#### Evidence check: Technical capacity becomes shared infrastructure only through operating rules
+
+Large-load computing, transmission, and AI command systems move from technical promise toward public capacity through authorization, interconnection, reliability, cost, and operating gates.
+
+Working interpretation: infrastructure is not just a machine or project; it is the shared rule-and-maintenance system that makes a capability usable.
+
+**Counterpoint:** A project can deliver genuine regional capacity before household incidence, affordability, or long-run dependence is fully visible.
+[Related study](https://www.pjm.com/)
+
+The current records do not consistently identify household cost, local acceptance, durable reliability, supplier independence, or who can exit the dependency.
+
+[PJM, FERC, NYSERDA, and NATO technical-integration records, checked 2026-09-21.](https://www.ferc.gov/)
+
+
+Connections:
+
+- Comparison: A large-load operating event can expose shared grid dependence and trigger new reliability rules for private computational facilities. Related topic: A public route can filter experience before it becomes institutional knowledge. The PJM account reports an aggregate event and proposed standards but does not identify facility-level behavior, household interruption or cost, final adoption, durable compliance, or local acceptance.
+- Comparison: A NATO AI command platform becomes more usable state capacity when it crosses classified-network authorization and exercise-integration gates. Related topic: Domestic capacity becomes state leverage only after external response. Technical capability and simulated exercise responses do not establish mission effectiveness, operator legitimacy, supplier independence, deterrence, or changed adversary behavior.
+- Comparison: Federal payment oversight depends on interoperable eligibility data and governance authority, not merely on the number of programs or records available. Related topic: A public route can filter experience before it becomes institutional knowledge. GAO identifies system-level data-quality and matching problems but does not show an individual improper payment, correction, recipient harm, or whether a future standard would improve lived access.
+- Comparison: A cross-border transmission project can move from construction into commercial operation and deliver state capacity before household affordability or durable external leverage is visible. Related topic: Domestic capacity becomes state leverage only after external response. The NYSERDA account reports commercial operation and expected delivery but does not establish household bills, rate allocation, host-community acceptance, reliability, cost incidence, or durable Canadian/U.S. leverage.
+- Comparison: A named transmission project can reach energization and a formal cost or savings route before household bill relief, equal ratepayer benefit, or durable reliability is visible. Related topic: The price on the screen is only part of the cost. The Smart Path Connect record reports project realization and an official allocation or savings claim but does not identify retail pass-through, individual bills, household affordability, or durable service quality.
 
 ## Reading rule
 

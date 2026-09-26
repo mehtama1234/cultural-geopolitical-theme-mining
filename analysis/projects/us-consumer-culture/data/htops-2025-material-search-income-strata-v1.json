@@ -1,0 +1,559 @@
+{
+  "format": "htops-2025-material-search-income-strata-v1",
+  "period": "April 15-29 to June 16-25, 2025",
+  "unit": "same SCRAMID respondent; April expense difficulty and household-income band carried to June topical outcomes",
+  "income_field": "RFAM_INCOME; under $50,000 = codes 1-3, $50,000-$99,999 = codes 4-5, $100,000+ = codes 6-7",
+  "linked_ids": 6564,
+  "weight": "April PWEIGHT and April PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
+  "strata": {
+    "under_50k": {
+      "linked_unweighted_n": 1492,
+      "search_load_among_expense_difficulty": {
+        "unweighted_valid_n": 880,
+        "weighted_valid": 39599634,
+        "mean_search_domains": 1.342,
+        "se_domains": 0.042,
+        "two_or_more_domains_pct": 40.263,
+        "two_or_more_domains_se_pct_points": 1.267,
+        "three_or_more_domains_pct": 19.691,
+        "three_or_more_domains_se_pct_points": 1.133,
+        "zero_search_domains_pct": 40.055,
+        "zero_search_domains_se_pct_points": 1.475
+      },
+      "search_load_among_not_difficult": {
+        "unweighted_valid_n": 610,
+        "weighted_valid": 20878261,
+        "mean_search_domains": 0.723,
+        "se_domains": 0.042,
+        "two_or_more_domains_pct": 21.802,
+        "two_or_more_domains_se_pct_points": 1.435,
+        "three_or_more_domains_pct": 9.24,
+        "three_or_more_domains_se_pct_points": 1.067,
+        "zero_search_domains_pct": 62.967,
+        "zero_search_domains_se_pct_points": 1.647
+      },
+      "search_load_by_june_ai_use": {
+        "ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 415,
+            "weighted_valid": 16463152,
+            "mean_search_domains": 1.815,
+            "se_domains": 0.057,
+            "two_or_more_domains_pct": 55.988,
+            "two_or_more_domains_se_pct_points": 2.13,
+            "three_or_more_domains_pct": 28.821,
+            "three_or_more_domains_se_pct_points": 1.701,
+            "zero_search_domains_pct": 24.481,
+            "zero_search_domains_se_pct_points": 1.703
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 257,
+            "weighted_valid": 7993570,
+            "mean_search_domains": 0.863,
+            "se_domains": 0.06,
+            "two_or_more_domains_pct": 23.236,
+            "two_or_more_domains_se_pct_points": 2.121,
+            "three_or_more_domains_pct": 12.161,
+            "three_or_more_domains_se_pct_points": 1.492,
+            "zero_search_domains_pct": 53.598,
+            "zero_search_domains_se_pct_points": 2.824
+          }
+        },
+        "not_ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 465,
+            "weighted_valid": 23136482,
+            "mean_search_domains": 1.005,
+            "se_domains": 0.054,
+            "two_or_more_domains_pct": 29.074,
+            "two_or_more_domains_se_pct_points": 1.611,
+            "three_or_more_domains_pct": 13.194,
+            "three_or_more_domains_se_pct_points": 1.364,
+            "zero_search_domains_pct": 51.137,
+            "zero_search_domains_se_pct_points": 1.967
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 353,
+            "weighted_valid": 12884691,
+            "mean_search_domains": 0.637,
+            "se_domains": 0.06,
+            "two_or_more_domains_pct": 20.913,
+            "two_or_more_domains_se_pct_points": 2.13,
+            "three_or_more_domains_pct": 7.428,
+            "three_or_more_domains_se_pct_points": 1.42,
+            "zero_search_domains_pct": 68.78,
+            "zero_search_domains_se_pct_points": 2.215
+          }
+        }
+      },
+      "estimates_among_expense_difficulty": {
+        "job_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 39.769,
+          "se_pct_points": 1.596
+        },
+        "food_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 24.006,
+          "se_pct_points": 1.052
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 20.349,
+          "se_pct_points": 1.246
+        },
+        "credit_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 16.229,
+          "se_pct_points": 1.117
+        },
+        "housing_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 18.307,
+          "se_pct_points": 0.95
+        },
+        "medical_search": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 15.518,
+          "se_pct_points": 1.144
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 41.574,
+          "se_pct_points": 1.389
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 880,
+          "weighted_valid": 39599634,
+          "estimate_pct": 21.589,
+          "se_pct_points": 1.299
+        }
+      },
+      "estimates_among_not_difficult": {
+        "job_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 16.252,
+          "se_pct_points": 1.329
+        },
+        "food_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 15.586,
+          "se_pct_points": 1.28
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 10.138,
+          "se_pct_points": 1.002
+        },
+        "credit_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 10.137,
+          "se_pct_points": 1.193
+        },
+        "housing_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 11.858,
+          "se_pct_points": 1.148
+        },
+        "medical_search": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 8.362,
+          "se_pct_points": 0.752
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 38.287,
+          "se_pct_points": 1.865
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 610,
+          "weighted_valid": 20878261,
+          "estimate_pct": 20.343,
+          "se_pct_points": 1.459
+        }
+      }
+    },
+    "50k_to_99k": {
+      "linked_unweighted_n": 1912,
+      "search_load_among_expense_difficulty": {
+        "unweighted_valid_n": 834,
+        "weighted_valid": 29503479,
+        "mean_search_domains": 1.594,
+        "se_domains": 0.044,
+        "two_or_more_domains_pct": 45.727,
+        "two_or_more_domains_se_pct_points": 1.212,
+        "three_or_more_domains_pct": 25.497,
+        "three_or_more_domains_se_pct_points": 1.422,
+        "zero_search_domains_pct": 29.129,
+        "zero_search_domains_se_pct_points": 1.245
+      },
+      "search_load_among_not_difficult": {
+        "unweighted_valid_n": 1074,
+        "weighted_valid": 28242237,
+        "mean_search_domains": 0.844,
+        "se_domains": 0.038,
+        "two_or_more_domains_pct": 27.112,
+        "two_or_more_domains_se_pct_points": 1.882,
+        "three_or_more_domains_pct": 9.282,
+        "three_or_more_domains_se_pct_points": 0.876,
+        "zero_search_domains_pct": 55.223,
+        "zero_search_domains_se_pct_points": 1.72
+      },
+      "search_load_by_june_ai_use": {
+        "ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 537,
+            "weighted_valid": 17835120,
+            "mean_search_domains": 1.839,
+            "se_domains": 0.068,
+            "two_or_more_domains_pct": 50.571,
+            "two_or_more_domains_se_pct_points": 1.886,
+            "three_or_more_domains_pct": 31.753,
+            "three_or_more_domains_se_pct_points": 2.124,
+            "zero_search_domains_pct": 22.876,
+            "zero_search_domains_se_pct_points": 1.582
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 586,
+            "weighted_valid": 14949239,
+            "mean_search_domains": 1.133,
+            "se_domains": 0.052,
+            "two_or_more_domains_pct": 37.494,
+            "two_or_more_domains_se_pct_points": 2.867,
+            "three_or_more_domains_pct": 12.058,
+            "three_or_more_domains_se_pct_points": 0.941,
+            "zero_search_domains_pct": 41.873,
+            "zero_search_domains_se_pct_points": 2.452
+          }
+        },
+        "not_ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 297,
+            "weighted_valid": 11668359,
+            "mean_search_domains": 1.219,
+            "se_domains": 0.055,
+            "two_or_more_domains_pct": 38.323,
+            "two_or_more_domains_se_pct_points": 1.898,
+            "three_or_more_domains_pct": 15.936,
+            "three_or_more_domains_se_pct_points": 1.844,
+            "zero_search_domains_pct": 38.687,
+            "zero_search_domains_se_pct_points": 2.027
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 488,
+            "weighted_valid": 13292998,
+            "mean_search_domains": 0.519,
+            "se_domains": 0.052,
+            "two_or_more_domains_pct": 15.436,
+            "two_or_more_domains_se_pct_points": 1.9,
+            "three_or_more_domains_pct": 6.161,
+            "three_or_more_domains_se_pct_points": 1.79,
+            "zero_search_domains_pct": 70.236,
+            "zero_search_domains_se_pct_points": 1.813
+          }
+        }
+      },
+      "estimates_among_expense_difficulty": {
+        "job_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 46.24,
+          "se_pct_points": 1.752
+        },
+        "food_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 25.09,
+          "se_pct_points": 1.393
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 22.51,
+          "se_pct_points": 1.436
+        },
+        "credit_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 25.139,
+          "se_pct_points": 1.107
+        },
+        "housing_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 18.801,
+          "se_pct_points": 0.974
+        },
+        "medical_search": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 21.569,
+          "se_pct_points": 1.363
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 60.451,
+          "se_pct_points": 1.256
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 834,
+          "weighted_valid": 29503479,
+          "estimate_pct": 14.934,
+          "se_pct_points": 1.007
+        }
+      },
+      "estimates_among_not_difficult": {
+        "job_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 21.368,
+          "se_pct_points": 1.815
+        },
+        "food_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 17.212,
+          "se_pct_points": 1.051
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 8.97,
+          "se_pct_points": 0.536
+        },
+        "credit_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 11.512,
+          "se_pct_points": 1.122
+        },
+        "housing_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 14.845,
+          "se_pct_points": 1.765
+        },
+        "medical_search": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 10.529,
+          "se_pct_points": 0.615
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 52.932,
+          "se_pct_points": 1.652
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 1074,
+          "weighted_valid": 28242237,
+          "estimate_pct": 18.43,
+          "se_pct_points": 1.115
+        }
+      }
+    },
+    "100k_or_more": {
+      "linked_unweighted_n": 3077,
+      "search_load_among_expense_difficulty": {
+        "unweighted_valid_n": 847,
+        "weighted_valid": 21359721,
+        "mean_search_domains": 1.387,
+        "se_domains": 0.043,
+        "two_or_more_domains_pct": 39.379,
+        "two_or_more_domains_se_pct_points": 1.758,
+        "three_or_more_domains_pct": 17.499,
+        "three_or_more_domains_se_pct_points": 1.021,
+        "zero_search_domains_pct": 31.564,
+        "zero_search_domains_se_pct_points": 1.693
+      },
+      "search_load_among_not_difficult": {
+        "unweighted_valid_n": 2228,
+        "weighted_valid": 45686905,
+        "mean_search_domains": 0.917,
+        "se_domains": 0.019,
+        "two_or_more_domains_pct": 26.466,
+        "two_or_more_domains_se_pct_points": 0.763,
+        "three_or_more_domains_pct": 10.983,
+        "three_or_more_domains_se_pct_points": 0.435,
+        "zero_search_domains_pct": 51.712,
+        "zero_search_domains_se_pct_points": 0.841
+      },
+      "search_load_by_june_ai_use": {
+        "ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 646,
+            "weighted_valid": 15269192,
+            "mean_search_domains": 1.476,
+            "se_domains": 0.046,
+            "two_or_more_domains_pct": 40.668,
+            "two_or_more_domains_se_pct_points": 1.963,
+            "three_or_more_domains_pct": 18.02,
+            "three_or_more_domains_se_pct_points": 1.174,
+            "zero_search_domains_pct": 26.471,
+            "zero_search_domains_se_pct_points": 1.675
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 1645,
+            "weighted_valid": 32768438,
+            "mean_search_domains": 1.062,
+            "se_domains": 0.024,
+            "two_or_more_domains_pct": 31.045,
+            "two_or_more_domains_se_pct_points": 0.977,
+            "three_or_more_domains_pct": 13.163,
+            "three_or_more_domains_se_pct_points": 0.566,
+            "zero_search_domains_pct": 45.839,
+            "zero_search_domains_se_pct_points": 0.916
+          }
+        },
+        "not_ai_user": {
+          "expense_difficulty": {
+            "unweighted_valid_n": 201,
+            "weighted_valid": 6090529,
+            "mean_search_domains": 1.163,
+            "se_domains": 0.088,
+            "two_or_more_domains_pct": 36.145,
+            "two_or_more_domains_se_pct_points": 3.591,
+            "three_or_more_domains_pct": 16.193,
+            "three_or_more_domains_se_pct_points": 1.876,
+            "zero_search_domains_pct": 44.331,
+            "zero_search_domains_se_pct_points": 3.484
+          },
+          "not_difficult": {
+            "unweighted_valid_n": 583,
+            "weighted_valid": 12918467,
+            "mean_search_domains": 0.55,
+            "se_domains": 0.026,
+            "two_or_more_domains_pct": 14.85,
+            "two_or_more_domains_se_pct_points": 0.957,
+            "three_or_more_domains_pct": 5.454,
+            "three_or_more_domains_se_pct_points": 0.562,
+            "zero_search_domains_pct": 66.608,
+            "zero_search_domains_se_pct_points": 1.415
+          }
+        }
+      },
+      "estimates_among_expense_difficulty": {
+        "job_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 37.049,
+          "se_pct_points": 1.463
+        },
+        "food_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 30.107,
+          "se_pct_points": 2.08
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 15.39,
+          "se_pct_points": 0.862
+        },
+        "credit_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 23.574,
+          "se_pct_points": 1.644
+        },
+        "housing_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 17.673,
+          "se_pct_points": 1.136
+        },
+        "medical_search": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 14.864,
+          "se_pct_points": 0.828
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 71.486,
+          "se_pct_points": 1.445
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 847,
+          "weighted_valid": 21359721,
+          "estimate_pct": 13.222,
+          "se_pct_points": 1.177
+        }
+      },
+      "estimates_among_not_difficult": {
+        "job_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 25.149,
+          "se_pct_points": 0.799
+        },
+        "food_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 16.631,
+          "se_pct_points": 0.536
+        },
+        "public_benefit_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 13.022,
+          "se_pct_points": 0.455
+        },
+        "credit_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 12.081,
+          "se_pct_points": 0.647
+        },
+        "housing_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 13.113,
+          "se_pct_points": 0.536
+        },
+        "medical_search": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 11.728,
+          "se_pct_points": 0.395
+        },
+        "any_ai_use": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 71.724,
+          "se_pct_points": 0.82
+        },
+        "high_confidence_in_congress": {
+          "unweighted_valid_n": 2228,
+          "weighted_valid": 45686905,
+          "estimate_pct": 14.322,
+          "se_pct_points": 0.639
+        }
+      }
+    }
+  },
+  "source_sha256": {
+    "baseline": "sha256:d5d20018f62e64216ff506d2a6f59538ea8ea7959784a0ed78668cf3b60e0b93",
+    "baseline_replicate": "sha256:84b8a33865beddccef3c80494ff07d609e27c2248b4c3adb525f8458ffa9788c",
+    "followup": "sha256:938e2a667469cc4e81067f01269967608282f31be0bc0814b07e2667ab0cfba2"
+  },
+  "boundary": "Income is a baseline household-income band, not available cash or a causal moderator. Expense difficulty is self-reported; June outcomes are descriptive follow-up among linked respondents. April weights are not documented as attrition-adjusted longitudinal weights. Search is navigation effort, not a completed alternative, remedy, recovery, or exit; no causal effect is estimated."
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-autonomy-labor-risk-prevention-2022",
+  "title": "Higher worker autonomy increased preventative risk-management effort in an online labor experiment",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "time_hidden_price", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "476 U.S.-located online labor-market workers randomly assigned to high- or low-autonomy transcription conditions",
+  "geography": "United States; online labor market experiment",
+  "observations": [
+    {
+      "period": "Online labor-market field experiment; NBER Working Paper 30793, 2022 (revised 2026)",
+      "denominator": {"value": 476, "unit": "workers who successfully completed the HIT; U.S. location verified", "value_type": "reported_experiment_sample"},
+      "measures": {
+        "prevention_takeup_high_autonomy": {"value": "9.7 percentage points higher than low-autonomy condition", "unit": "take-up of preventative effort to reduce expected total task length", "value_type": "causal_estimate_summary"},
+        "autonomy_condition": {"value": "high-autonomy workers could allocate skipped receipts across two sets; low-autonomy workers had prescribed allocation", "unit": "randomized task-control treatment", "value_type": "reported_experimental_design"}
+      },
+      "method": "Randomized online labor-market experiment in which workers transcribed scanned receipts and were assigned different flexibility in allocating skipped tasks; prevention required extra effort but reduced expected task length.",
+      "uncertainty": "The experiment uses a short online transcription task and a selected U.S.-located worker pool; it does not measure long-run earnings, occupational autonomy, health, household time, bargaining, or actual gig-platform employment. The prevention effect is task-specific and may not generalize to all forms of discretion.",
+      "subgroup": "U.S.-located online labor-market workers who completed the task; 476 completed the HIT from an initial target of 500.",
+      "counterinterpretation": "Higher autonomy may reduce the effective cost of prevention by allowing workers to redistribute effort rather than increase intrinsic motivation; greater discretion can therefore change risk management without improving overall work conditions.",
+      "source_url": "https://www.nber.org/papers/w30793",
+      "retrieval_hash": "sha256:83a27f20d5780f304ce3ef8f50543513c7d9af3e1573af3d4a9b0fbd192cc4d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w30793", "claim": "NBER DOI and working-paper identifier", "status": "official-paper-identifier"}
+  ],
+  "boundary": "This record adds a causal task-autonomy-to-risk-management route: high autonomy increased preventative effort in a short online labor task. It does not establish durable worker control, earnings, household security, bargaining power, health, or broad gig-work effects."
+}

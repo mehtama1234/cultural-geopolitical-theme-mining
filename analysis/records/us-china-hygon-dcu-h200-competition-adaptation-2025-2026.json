@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-china-hygon-dcu-h200-competition-adaptation-2025-2026",
+  "title": "Chinese DCU supplier Hygon described H200 entry as intensifying domestic competition and responded with performance, ecosystem, compliance, and cost positioning",
+  "theme_ids": ["work", "cost", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Hygon Information investor Q&A published through China's CNINFO disclosure platform",
+  "geography": "China's high-end AI-accelerator market, Hygon Information, NVIDIA H200, Chinese data-center customers, and domestic AI-compute ecosystem",
+  "observations": [
+    {
+      "period": "December 10, 2025 investor Q&A; company outlook for 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Hygon DCU business and domestic high-end AI-compute market; product-market share and customer revenue not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "competitive_pressure": {"value": "Hygon said H200 entry into China would intensify competition in the domestic high-end-chip market", "unit": "issuer-reported competitive assessment", "value_type": "reported_competitive_effect"},
+        "firm_adaptation": {"value": "Hygon said it would strengthen performance benchmarking and ecosystem compatibility, emphasize security compliance and cost-performance, focus on tailored submarkets, and deepen customer reference cases and industry penetration", "unit": "reported firm response", "value_type": "reported_adaptation"},
+        "current_application_status": {"value": "Hygon said its DCU had entered important industry and internet applications and was adapted to major domestic large-model systems", "unit": "issuer-reported deployment/application status", "value_type": "reported_application"},
+        "expected_share_direction": {"value": "Hygon said its 2026 share was expected to increase and positioned the DCU as a core supplier in AI-compute competition", "unit": "issuer outlook; no share percentage disclosed", "value_type": "reported_outlook"},
+        "ecosystem_scale": {"value": "more than 6,000 partners, more than 15,000 software/hardware tests, and more than 15,000 joint solutions were reported across Hygon's broader CPU/DCU ecosystem", "unit": "reported cumulative ecosystem counts; not H200-specific", "value_type": "reported_company_scale"},
+        "nvidia_displacement": {"value": "not observed", "unit": "no customer switching, unit sales, revenue share, price, performance, or H200 replacement estimate", "value_type": "unmeasured"}
+      },
+      "method": "Review of Hygon Information's investor Q&A on CNINFO. The source is coded as company-reported competitor adaptation and deployment status. Broader ecosystem counts are kept separate from H200-specific competition, and the company's expected share gain is not treated as realized market displacement.",
+      "uncertainty": "The Q&A does not disclose Hygon's revenue, unit shipments, market share, customer names, H200 purchase volumes, comparative benchmark results, pricing, or whether any stated adaptation changed customer choices. The response is an investor-facing expectation and strategy statement, not an independent causal estimate.",
+      "subgroup": "Hygon Information, Chinese AI-compute customers, domestic large-model developers, internet and industry users, NVIDIA, and other Chinese accelerator suppliers",
+      "counterinterpretation": "H200 availability could intensify competition while also validating demand for a larger domestic market. Hygon's compatibility, compliance, cost, and reference-case strategy may support substitution, coexistence, or merely defensive positioning; the source cannot distinguish among these outcomes.",
+      "source_url": "https://dataclouds.cninfo.com.cn/shgonggao/investor/2025/20251210/0d17c6e844b64a66ab07bf268afaa827.PDF",
+      "retrieval_hash": "sha256:59dcc1391423526c3353db0bdb2e3a9b78ba8de9c9b1b5618d49c48982574e87",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
+      "claim": "NVIDIA later reported that PRC restrictions blocked all licensed H200 sales, while a fraction of allowed shipments occurred and the China data-center market remained effectively foreclosed.",
+      "status": "official-company-comparator"
+    }
+  ],
+  "boundary": "This record establishes a Chinese competitor's reported adaptation and application claims in response to H200 competition. It does not establish domestic substitution, market-share change, customer switching, capability gain, or that export controls caused Hygon's strategy."
+}

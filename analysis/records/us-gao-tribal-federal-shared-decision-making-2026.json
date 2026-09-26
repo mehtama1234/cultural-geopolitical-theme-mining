@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-tribal-federal-shared-decision-making-2026",
+  "title": "Formal Tribal consultation can exist without equal shared decision-making authority",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "public_systems_feedback", "geopolitical_state_consequences", "unequal_exposure_status", "housing_place_mobility"],
+  "source_unit": "GAO-26-106626 review of federal-Tribal shared decision-making agreements for public lands and waters",
+  "geography": "United States federal public lands and waters, including national forests, parks, marine sanctuaries, and ancestral Tribal territories",
+  "observations": [
+    {
+      "period": "Agreements and agency practice reviewed through January 2026; five agreements selected for in-depth analysis",
+      "denominator": {"value": 5, "unit": "shared decision-making agreements selected for in-depth GAO analysis", "value_type": "selected_case_universe"},
+      "measures": {
+        "agreement_features": {"value": 11, "unit": "features GAO identified as strengthening shared decision-making agreements, including consensus and dispute resolution", "value_type": "reported_framework_count"},
+        "congressional_matters": {"value": 3, "unit": "open matters for Congress to authorize additional self-governance-type agreement mechanisms", "value_type": "reported_recommendation_count"},
+        "executive_recommendations": {"value": 8, "unit": "open executive recommendations to incorporate agreement features and assess staffing or skills", "value_type": "reported_recommendation_count"},
+        "authority_gap": {"value": "Forest Service and NOAA marine-sanctuary authorities do not provide the same self-governance-type agreement route available in some Interior programs", "unit": "reported legal-authority difference", "value_type": "reported_gap"},
+        "capacity_gap": {"value": "agencies had not conducted workforce planning to assess capacity for developing agreements amid workforce reductions beginning in 2025", "unit": "reported implementation gap", "value_type": "reported_gap"}
+      },
+      "method": "GAO reviewed federal-Tribal agreements, laws, academic reports, and agency documents, selected five agreements for in-depth analysis, and interviewed involved federal and Tribal officials.",
+      "uncertainty": "The review identifies agreement design and implementation conditions but does not estimate the causal effect of shared decision-making on resource outcomes, Tribal wellbeing, public acceptance, or agency performance. Selected agreements are not a representative national sample.",
+      "subgroup": "Tribal and federal officials involved in shared decision-making agreements across Agriculture, Commerce, and Interior agencies; affected communities and resource users are not followed as individual units.",
+      "counterinterpretation": "A formal consultation or agreement without all 11 features does not prove that Tribal input was ignored or that an agreement is ineffective. Agencies may collaborate through authorities or practices not captured as the same agreement type, and open recommendations do not establish failed resource management.",
+      "source_url": "https://www.gao.gov/products/gao-26-106626",
+      "retrieval_hash": "sha256:a85fed27bbd76c76308093f28eedbfadef42a01385d28845b1cc7c67047d55d6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [{"source_url": "https://files.gao.gov/reports/GAO-26-106626/index.html", "claim": "The full GAO report provides the agreement cases, legal context, and recommendation details.", "status": "official-report-context"}],
+  "boundary": "This record measures the design, legal authority, staffing, and oversight conditions of shared Tribal-federal decision-making agreements. It does not establish equal power, cultural legitimacy, resource outcomes, public acceptance, or durable self-governance in any specific community.",
+  "retrieval_hash": "sha256:a85fed27bbd76c76308093f28eedbfadef42a01385d28845b1cc7c67047d55d6"
+}

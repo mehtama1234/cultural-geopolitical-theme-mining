@@ -1,0 +1,112 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-data-center-electricity-tax-federalism-2026",
+  "title": "States are turning data-center electricity growth into explicit tax and reporting bargains before household incidence is known",
+  "theme_ids": ["energy", "cost", "voice"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "geopolitical_state_consequences",
+    "household_room_consumption"
+  ],
+  "source_unit": "Comparative official state policy records for Virginia and North Carolina data-center electricity taxation and reporting; these are policy instruments, not a representative facility or household sample",
+  "geography": "Virginia and North Carolina, United States",
+  "observations": [
+    {
+      "period": "Virginia 2026 Special Session budget; effective July 1, 2026 with first collection scheduled for September 2026",
+      "denominator": {
+        "value": null,
+        "unit": "qualifying Virginia data-center operators and self-supplied facilities; complete operator denominator not published in the budget item",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "electricity_consumption_tax": {
+          "value": 0.011,
+          "unit": "US dollars per kWh consumed at each qualifying data center per month",
+          "value_type": "enacted_tax_rate"
+        },
+        "collection_route": {
+          "value": "monthly collection by the State Corporation Commission; utility-supplied power appears as a separate billing line, while self-supplied power is reported by the operator",
+          "unit": "statutory administration route",
+          "value_type": "enacted_reporting_route"
+        },
+        "excess_revenue_rule": {
+          "value": "up to $600 million per fiscal year may enter the general fund; excess revenue after administration is placed in a nonreverting fund for later operator refunds",
+          "unit": "statutory allocation rule",
+          "value_type": "enacted_revenue_allocation"
+        },
+        "household_and_local_result": {
+          "value": "not observed",
+          "unit": "missing operator remittance, locality receipt, household bill, reliability, environmental burden, and public-acceptance endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official Virginia budget item reviewed September 21, 2026; tax rate, effective date, payment path, revenue cap, refund mechanism, and missing lived outcomes are retained as separate stages.",
+      "retrieval_hash": "sha256:8a57c883ea928e90227cc6eb95840508fa88cce1f3cf106c9507f9834d0bc824",
+      "uncertainty": "The budget item does not identify facility-level consumption, operator compliance, actual remittance, revenue distribution, ratepayer pass-through, or local acceptance.",
+      "subgroup": "Qualifying Virginia data-center operators, utility providers, self-supplied facilities, and later refund recipients under the statutory route.",
+      "counterinterpretation": "A tax can make a large load legible and assign a payment obligation without proving that the assigned amount covers grid, environmental, or community costs or that the public receives a durable benefit.",
+      "source_url": "https://budget.lis.virginia.gov/item/2026/2/HB30/Reenrolled/3/3-5.24/",
+      "status": "reported"
+    },
+    {
+      "period": "North Carolina notice issued July 23, 2026; first reporting and tax-payment obligations begin after July 1, 2026",
+      "denominator": {
+        "value": null,
+        "unit": "qualifying North Carolina data centers using electricity; complete facility denominator not published in the notice",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "exemption_change": {
+          "value": "the state notice describes repeal of specified electricity exemptions for qualifying data centers",
+          "unit": "state tax policy change",
+          "value_type": "reported_policy_action"
+        },
+        "reporting_requirement": {
+          "value": "data centers must report tax paid on electricity by October 30, 2026 under the notice's implementation schedule",
+          "unit": "state reporting deadline",
+          "value_type": "reported_reporting_requirement"
+        },
+        "facility_accountability": {
+          "value": "the notice defines covered facilities and explains tax treatment and reporting examples",
+          "unit": "administrative classification and compliance route",
+          "value_type": "reported_administrative_route"
+        },
+        "household_and_local_result": {
+          "value": "not observed",
+          "unit": "missing facility payment, local revenue, utility bill, reliability, environmental burden, and public-acceptance endpoint",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Official North Carolina Department of Revenue notice reviewed September 21, 2026; preserve policy change, reporting route, and missing facility/household outcomes as separate stages.",
+      "retrieval_hash": "sha256:4a2a93fe950f072101d28b38db846506b986e84e074234600e8c995b683dfc53",
+      "uncertainty": "The notice does not publish facility-level consumption, tax payment, local fiscal use, customer bills, grid reliability, or public response.",
+      "subgroup": "Qualifying North Carolina data centers and electricity transactions covered by the notice; affected operators and local communities are not individually tracked.",
+      "counterinterpretation": "Repealing an exemption and requiring a return can shift formal responsibility without establishing who ultimately absorbs the cost or whether the state bargain is viewed as legitimate.",
+      "source_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/other-sales-and-use-tax-resources/important-notices-issued-sales-and-use-tax-division/important-notice-repeal-exemptions-electricity-used-datacenters",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+      "claim": "Virginia SCC publishes the operator registration, monthly report, collection, and penalty route.",
+      "status": "official-administration-context"
+    },
+    {
+      "source_url": "https://www.eia.gov/TODAYINENERGY/detail.php?id=67664",
+      "claim": "EIA reports rapid Virginia commercial electricity-sales growth associated in part with data centers and a large PJM forecasted demand increase.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This comparative record establishes state-level policy responses that make data-center electricity consumption taxable, reportable, or less exempt. It does not establish operator compliance, collected revenue, household bills, reliability, environmental burden, local acceptance, or whether the rules produce strategic autonomy or geopolitical leverage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Virginia budget HTML and North Carolina Department of Revenue notice HTML routes hashed without retaining source copies",
+    "retrieval_hashes": [
+      "sha256:8a57c883ea928e90227cc6eb95840508fa88cce1f3cf106c9507f9834d0bc824",
+      "sha256:4a2a93fe950f072101d28b38db846506b986e84e074234600e8c995b683dfc53"
+    ],
+    "checked": "2026-09-21"
+  }
+}

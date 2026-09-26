@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-tariff-pass-through-consumer-prices-2025",
+  "title": "Tariffs can reach domestic prices indirectly and with a long delay",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": ["household_room_consumption", "firm_sector_market_power", "infrastructure_technology_dependency", "geopolitical_state_consequences", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35561; 2025 U.S. tariffs, consumer prices, imported inputs, domestic markups, and less-exposed comparison goods",
+  "geography": "United States; consumer goods and domestic producers exposed to the 2025 tariff changes",
+  "observations": [{
+    "period": "2025 tariff changes; paper issued July 2026",
+    "denominator": {"value": 1, "unit": "U.S. tariff pass-through study", "value_type": "study_unit"},
+    "measures": {
+      "consumer_pass_through": {"value": "about 26% of the tariff increase passed through to consumer prices relative to less-exposed goods", "unit": "consumer-price pass-through share", "value_type": "reported_estimate"},
+      "direct_share": {"value": "64% of the consumer-price increase was direct through higher prices of foreign varieties", "unit": "share of estimated consumer-price effect", "value_type": "reported_decomposition"},
+      "indirect_share": {"value": "36% arose through imported-input costs and higher domestic markups as imports became less competitive", "unit": "share of estimated consumer-price effect", "value_type": "reported_decomposition"},
+      "timing": {"value": "the indirect effect took approximately nine to twelve months to work through supply chains", "unit": "lag from tariff change to indirect consumer-price effect", "value_type": "reported_timing"}
+    },
+    "method": "The authors study 2025 U.S. tariffs, compare exposed goods with less-exposed goods while holding aggregate conditions fixed, and decompose consumer-price effects into direct import-price and indirect input-cost and domestic-markup channels.",
+    "uncertainty": "The public abstract does not identify each household's full basket, wages, debt, quantity, package size, quality, store choice, or political response. The estimate is relative to less-exposed goods and depends on the study's exposure and timing design; the nine-to-twelve-month lag is an aggregate supply-chain pattern, not a universal household schedule.",
+    "subgroup": "U.S. consumer goods and domestic producers with different import exposure, imported-input dependence, competition, inventory, and supplier relationships; household burden can differ by product basket and ability to substitute.",
+    "counterinterpretation": "Firms may absorb some costs, change suppliers, reduce package size or quality, or use existing inventory before raising prices. A domestic markup increase can reflect changed competitive conditions rather than a direct tariff charge, and a later price increase can also reflect unrelated shocks. A higher price does not by itself establish the household's welfare loss or policy judgment.",
+    "source_url": "https://www.nber.org/papers/w35561",
+    "retrieval_hash": "sha256:8f7efff574ff5ca34b5c11bc6403d708ca6e5a2c6d83b35725a475c91b88b9ef",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35561", "claim": "NBER DOI record for Working Paper 35561", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a tariff-to-price pathway with separate direct and delayed indirect channels. It does not establish a particular household's total cost, quantity or quality loss, wage or job effect, political blame, or whether any later domestic production benefit offsets the consumer burden."
+}

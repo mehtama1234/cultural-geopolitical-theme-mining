@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unesco-creative-industries-skills-employment-2026",
+  "title": "Creative-sector growth is constrained by low pay, informality, gender gaps, and skills systems that lag changing work",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning", "infrastructure_technology_dependency", "public_systems_feedback"],
+  "source_unit": "UNESCO, Skills and employment in the culture and creative industries: Strategic frameworks and promising initiatives",
+  "geography": "Global cultural and creative industries across music, fashion, film, heritage crafts, and related creative fields",
+  "observations": [
+    {
+      "period": "2026; global creative-sector labor conditions",
+      "denominator": {"value": 1, "unit": "global culture and creative industries labor frame", "value_type": "sector_labor_frame"},
+      "measures": {
+        "below_minimum_wage": {"value": 40, "unit": "percent of creative-industry workers earning less than their national minimum wage", "value_type": "reported_share"},
+        "sector_scope": {"value": "music, fashion, film, heritage crafts, and related cultural and creative fields", "unit": "reported sector coverage", "value_type": "reported_scope"},
+        "labor_quality": {"value": "informality, precarity, and gender disparities remain entrenched", "unit": "reported labor-condition pattern", "value_type": "reported_pattern"}
+      },
+      "method": "UNESCO global report synthesis of creative-industry skills and employment systems, policy frameworks, and initiatives across regions.",
+      "uncertainty": "The global percentage is a report-level synthesis rather than a harmonized respondent microdata estimate; national minimum-wage definitions, informal work coverage, and sector boundaries vary.",
+      "subgroup": "Artists, cultural workers, freelancers, informal workers, women, early-career workers, heritage practitioners, and workers in lower-income settings.",
+      "counterinterpretation": "Creative work can provide autonomy, identity, and new income routes even where earnings and protections are unstable.",
+      "source_url": "https://www.unesco.org/en/articles/skills-and-employment-culture-and-creative-industries-strategic-frameworks-and-promising-initiatives",
+      "retrieval_hash": "sha256:c4046827bb3ba09332a83df7679e570c36655aaf244f62ca253d5110621ae225",
+      "status": "reported"
+    },
+    {
+      "period": "2026; skills mismatch and education-to-work transition",
+      "denominator": {"value": 1, "unit": "creative-industry education and employment systems assessed by UNESCO", "value_type": "skills_system_frame"},
+      "measures": {
+        "curriculum_lag": {"value": "educational curricula lag behind rapidly evolving creative-industry needs", "unit": "reported skills-system gap", "value_type": "reported_gap"},
+        "qualification_lag": {"value": "outdated qualifications and fragmented policies obstruct alignment between training and work", "unit": "reported institutional constraint", "value_type": "reported_pattern"},
+        "teacher_shortage": {"value": "teacher shortages are identified as a systemic obstacle", "unit": "reported education constraint", "value_type": "reported_pattern"}
+      },
+      "method": "UNESCO comparative review of skills-development systems, curricula, qualifications, and creative-sector employer needs.",
+      "uncertainty": "A skills mismatch diagnosis does not identify the relative contribution of education, demand, financing, platform change, or labor-market power in a particular country.",
+      "subgroup": "Students, apprentices, teachers, employers, creative freelancers, vocational providers, and workers changing fields.",
+      "counterinterpretation": "Formal curricula are not the only learning route; peer learning, practice, networks, and self-directed digital learning can fill gaps.",
+      "source_url": "https://www.unesco.org/en/articles/skills-and-employment-culture-and-creative-industries-strategic-frameworks-and-promising-initiatives",
+      "retrieval_hash": "sha256:c4046827bb3ba09332a83df7679e570c36655aaf244f62ca253d5110621ae225",
+      "status": "reported"
+    },
+    {
+      "period": "2026; emerging institutional responses",
+      "denominator": {"value": 1, "unit": "creative-sector skills initiatives highlighted by UNESCO", "value_type": "policy_initiative_frame"},
+      "measures": {
+        "response_set": {"value": "innovative pedagogies, microcredentials, intergenerational learning, and public-private partnerships", "unit": "reported intervention set", "value_type": "reported_policy_set"},
+        "geographic_examples": {"value": "initiatives are documented across regions, including Colombia and the Republic of Korea", "unit": "reported example coverage", "value_type": "reported_examples"},
+        "resilience_goal": {"value": "skills systems should support creative economies that are skilled, inclusive, and resilient", "unit": "reported policy objective", "value_type": "reported_policy_direction"}
+      },
+      "method": "UNESCO case synthesis of skills-development frameworks and promising initiatives.",
+      "uncertainty": "Promising initiatives are not equivalent to evaluated causal programs; transferability depends on funding, institutions, labor protections, and local creative ecosystems.",
+      "subgroup": "Creative workers, training providers, employers, cultural institutions, public agencies, and communities supporting intergenerational practice.",
+      "counterinterpretation": "Microcredentials and partnerships can expand access but may also shift training costs and risk onto workers without improving bargaining power.",
+      "source_url": "https://www.unesco.org/en/articles/skills-and-employment-culture-and-creative-industries-strategic-frameworks-and-promising-initiatives",
+      "retrieval_hash": "sha256:c4046827bb3ba09332a83df7679e570c36655aaf244f62ca253d5110621ae225",
+      "status": "reported"
+    },
+    {
+      "period": "2026; creative work, technology, and social inclusion",
+      "denominator": {"value": 1, "unit": "culture and creative industries facing technological and market change", "value_type": "creative_work_transition_frame"},
+      "measures": {
+        "change_pressure": {"value": "creative work is reshaped by changing industry needs, digital tools, and evolving production practices", "unit": "reported transition pressure", "value_type": "reported_mechanism"},
+        "inclusion_risk": {"value": "persistent informality, precarity, and gender disparities can determine who converts creative skill into sustainable work", "unit": "reported inequality mechanism", "value_type": "reported_mechanism"},
+        "data_gap": {"value": "significant data gaps limit visibility into creative-sector employment and skills conditions", "unit": "reported measurement gap", "value_type": "reported_boundary"}
+      },
+      "method": "UNESCO cross-sector synthesis connecting skills, employment, technology, inclusion, and measurement conditions.",
+      "uncertainty": "The report identifies system-level pathways but does not estimate how technology changes earnings, identity, or employment for individual creators.",
+      "subgroup": "Creators using digital tools, cultural organizations, platform-dependent workers, women, informal workers, and communities with limited training access.",
+      "counterinterpretation": "Digital distribution and new tools can reduce entry barriers and broaden cultural participation when infrastructure, rights, and income supports are available.",
+      "source_url": "https://www.unesco.org/en/articles/skills-and-employment-culture-and-creative-industries-strategic-frameworks-and-promising-initiatives",
+      "retrieval_hash": "sha256:c4046827bb3ba09332a83df7679e570c36655aaf244f62ca253d5110621ae225",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.unesco.org/en/culture/global-report", "claim": "UNESCO Global Report on Cultural Policies provides complementary macro context on cultural policy, digital transformation, and creative-industry scale."},
+    {"source_url": "https://unctad.org/system/files/official-document/ditctsce2024d2_en.pdf", "claim": "UNCTAD Creative Economy Outlook provides complementary trade and economic-diversification context for creative industries."}
+  ],
+  "boundary": "This record adds a global creative-labor and skills-system route linking cultural production, work quality, pay, informality, gender, training, technology, and inclusion. It is not an individual creator panel, earnings microdata analysis, causal program evaluation, or respondent-level survey record.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNESCO 2026 skills-and-employment publication page was reviewed; pay, informality, skills mismatch, institutional response, technology, inclusion, and data-gap claims were cross-checked.",
+    "source_url_sha256": "sha256:c4046827bb3ba09332a83df7679e570c36655aaf244f62ca253d5110621ae225",
+    "checked": "2026-09-26"
+  }
+}

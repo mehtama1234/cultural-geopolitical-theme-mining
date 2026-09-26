@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bls-atus-job-flexibility-family-time-2024-2025",
+  "title": "Schedule flexibility and family-time access are widespread but uneven across U.S. workers",
+  "theme_ids": ["work", "time", "cost", "voice"],
+  "program_theme_ids": ["work_control_bargaining", "time_hidden_price", "care_health_reproduction", "unequal_exposure_status", "household_room_consumption"],
+  "source_unit": "About 6,600 wage-and-salary workers in the 2024–25 ATUS Leave and Job Flexibilities Module, with estimates weighted to the U.S. wage-and-salary worker population",
+  "geography": "United States; workers age 15 and over at their sole or main job",
+  "observations": [
+    {
+      "period": "2024–2025; BLS American Time Use Survey Leave and Job Flexibilities Module, released September 24, 2026",
+      "denominator": {"value": 6600, "unit": "approximately 6,600 module respondents; published estimates use statistical weights", "value_type": "reported_survey_sample"},
+      "measures": {
+        "flexible_schedule": {"value": 57, "unit": "percent of wage-and-salary workers able to vary start and stop times", "value_type": "weighted_population_share"},
+        "time_off_access": {"value": 69, "unit": "percent saying it would not be difficult to take an hour or two off during work hours", "value_type": "weighted_population_share"},
+        "schedule_notice": {"value": 9, "unit": "percent learning their work schedule one day or less in advance", "value_type": "weighted_population_share"},
+        "home_work_and_family": {"value": 34, "unit": "percent who worked at home at least occasionally; 12 percent of home workers did so to coordinate with personal or family needs", "value_type": "weighted_population_share"},
+        "parent_work_home": {"value": 38, "unit": "percent of parents living with children under 18 who worked at home at least occasionally, versus 32 percent of nonparents", "value_type": "weighted_subgroup_share"},
+        "low_education_short_notice": {"value": "19 percent of workers age 25 and over with less than a high school diploma learned schedules one day or less in advance, versus 7 percent with a bachelor's degree or higher", "unit": "weighted subgroup comparison", "value_type": "weighted_subgroup_share"}
+      },
+      "method": "Descriptive estimates from the BLS American Time Use Survey 2024–25 Leave and Job Flexibilities Module; questions cover schedule control, schedule notice, difficulty taking short time off for personal or family matters, work at home, and reasons for non-daytime schedules.",
+      "uncertainty": "This is a weighted cross-sectional module, not a causal estimate and not a panel of the same workers. It covers wage-and-salary workers at their sole or main job and excludes self-employed workers. The 2025 field period missed October 1–November 12 because of the federal shutdown, so published values combine a 12-month 2024 average with an 11-month 2025 average. Reported access is not actual use, adequate care coverage, higher pay, lower stress, or improved child outcomes.",
+      "subgroup": "Workers are split by sex, age, education, parent status, occupation, earnings, schedule flexibility, and workplace flexibility; parents with children under 18 and workers with lower education show distinct access and notice profiles.",
+      "counterinterpretation": "A worker can have flexible start and stop times yet still face unpaid care, low pay, unpredictable hours, or employer control over total workload. Conversely, a fixed schedule known far in advance can provide more usable stability than nominal flexibility. The survey cannot determine whether flexibility reduces or relocates household burden.",
+      "source_url": "https://www.bls.gov/news.release/flex2.htm",
+      "retrieval_hash": "sha256:42873c2ea942fdc925d721255a46f41ba0f2d2f85ce0f850b9fd1ae04cd7e512",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.bls.gov/news.release/flex2.tn.htm", "claim": "BLS technical note defines the module population, field dates, questions, weights, and comparability boundary", "status": "official-method"},
+    {"source_url": "https://www.bls.gov/tus/modules/modules.htm", "claim": "BLS lists the 2024–25 Leave and Job Flexibilities Module and its release timing", "status": "official-program-page"}
+  ],
+  "boundary": "This U.S. official-statistics record supplies a current descriptive access layer for the flexibility-to-household route. It does not show that schedule control causes family welfare, earnings, care adequacy, worker autonomy, or durable household security, and it should not be pooled numerically with the comparative Dutch structural study or the NBER experiment."
+}

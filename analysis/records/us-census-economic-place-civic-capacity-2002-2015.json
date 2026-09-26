@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-economic-place-civic-capacity-2002-2015",
+  "title": "Economic place conditions can narrow civic capacity without making community life disappear",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "time_hidden_price",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Census Center for Economic Studies working paper CES-25-41 using Current Population Survey Volunteering Supplement observations",
+  "geography": "United States rural and urban places; individual respondents observed in CPS Volunteering Supplement 2002-2015",
+  "observations": [
+    {
+      "period": "2002-2015; includes the Great Recession period",
+      "denominator": {
+        "value": 990000,
+        "unit": "CPS Volunteering Supplement respondent observations",
+        "value_type": "reported_approximation"
+      },
+      "measures": {
+        "place_disadvantage_association": {"value": "higher local economic disadvantage was associated with lower volunteering", "unit": "estimated place/respondent relationship", "value_type": "reported_estimated_association"},
+        "place_inequality_association": {"value": "higher local income inequality was associated with lower volunteering", "unit": "estimated place/respondent relationship", "value_type": "reported_estimated_association"},
+        "recession_effect": {"value": "the Great Recession dampened volunteering overall", "unit": "reported modeled relationship", "value_type": "reported_estimated_association"},
+        "rural_urban_pattern": {"value": "rural volunteering advantage before the recession disappeared after the recession", "unit": "rural/urban comparison across periods", "value_type": "reported_comparison"},
+        "individual_civic_followup": {"value": "not observed", "unit": "later informal help, belonging, political action, trust, and persistence for the same respondent", "value_type": "unmeasured"}
+      },
+      "method": "Census CES working-paper analysis of CPS Volunteering Supplement observations with local economic context measures and interactions involving the Great Recession and rural/urban place; the public record is summarized at the working-paper profile and PDF.",
+      "uncertainty": "The study reports modeled associations in a place and individual survey design, not a randomized shock. Economic disadvantage, inequality, growth, organizational density, religiosity, selection, individual resources, and changing civic norms may be related. The period ends in 2015 and the public abstract does not expose a single national percentage or complete individual mechanism.",
+      "subgroup": "Respondents in rural and urban places across the CPS Volunteering Supplement 2002-2015; effects vary by individual and place characteristics.",
+      "counterinterpretation": "Economic strain may reduce time and resources for formal volunteering, but local organizations, religiosity, networks, informal helping, protest, voting, and survey norms may change separately. Lower formal volunteering is not proof that community life or political capacity disappeared.",
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1346",
+      "retrieval_hash": "sha256:24f21b1a46cfd4b7736c617232283d19f02045fe9af6145cac7a88f2366b2229",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2025/adrm/ces/CES-WP-25-41.pdf",
+      "claim": "The official PDF contains the working paper's methods, CPS Volunteering Supplement design, place-economic measures, and modeled results.",
+      "status": "official-research-artifact"
+    }
+  ],
+  "boundary": "This record measures reported associations between local economic context, the Great Recession, rural/urban place, and formal volunteering in CPS Volunteering Supplement observations. It does not establish one-person causality, replacement forms of help, belonging, political action, trust, current post-2015 trends, or community collapse.",
+  "retrieval_hash": "sha256:24f21b1a46cfd4b7736c617232283d19f02045fe9af6145cac7a88f2366b2229"
+}

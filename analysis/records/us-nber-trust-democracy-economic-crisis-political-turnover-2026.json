@@ -1,0 +1,66 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-trust-democracy-economic-crisis-political-turnover-2026",
+  "title": "Interpersonal trust may buffer democratic political stability during economic crises",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "NBER Working Paper 24187, revised August 2026, using country, subnational, and individual panels",
+  "geography": "Democratic countries over roughly six decades, with subnational Europe, U.S. counties, and individuals in U.S. counties represented in separate analyses",
+  "observations": [
+    {
+      "period": "Long-run country, subnational, and individual panels; revised 2026",
+      "denominator": {
+        "value": null,
+        "unit": "country-year, subnational, and individual panel samples; public abstract does not disclose one common analytic denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "economic_crisis_and_turnover": {
+          "value": "recessions are more likely to be followed by political turnover in democracies with lower generalized interpersonal trust",
+          "unit": "reported trust-conditioned association with leader turnover",
+          "value_type": "reported_pattern"
+        },
+        "democratic_procedure": {
+          "value": "the relationship appears for regular political turnover and scheduled elections, not coups",
+          "unit": "reported turnover-type comparison",
+          "value_type": "reported_comparison"
+        },
+        "us_subnational_analogs": {
+          "value": "analogous relationships are reported across U.S. counties and among individuals in U.S. counties",
+          "unit": "reported subnational and individual replication context",
+          "value_type": "reported_replication"
+        },
+        "same_person_mechanism": {
+          "value": "not fully observed as a single crisis-to-trust-to-vote-to-turnover pathway",
+          "unit": "missing complete individual event ledger and institutional implementation outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Annual country-level panel analysis over six decades, with analogous subnational and individual analyses in Europe and the United States; the public abstract reports trust-conditioned relationships but not a single pooled U.S. causal estimate.",
+      "uncertainty": "The finding depends on the construction of generalized trust, recession and turnover measures, panel controls, timing, country and county comparability, and the interpretation of associations across levels. Trust may reflect institutions, prosperity, conflict, social networks, or prior political experience rather than independently causing stability.",
+      "subgroup": "Democratic countries, subnational regions, U.S. counties, and individuals in U.S. counties; democratic versus autocratic settings and regular versus irregular turnover are compared, but affected households and institutions are not followed through a common crisis episode.",
+      "counterinterpretation": "High trust may be a result of stable institutions rather than a buffer that causes stability. Recessions, leader turnover, and trust may share omitted historical or institutional causes. County-level or individual analogies do not automatically establish the same mechanism nationally or in every crisis.",
+      "source_url": "https://www.nber.org/papers/w24187",
+      "retrieval_hash": "sha256:e31a68e7dc76646fddff1bd5dae019eabf1f93dbec521c649c3821f2aa713c9e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w24187",
+      "claim": "NBER DOI record for the revised working paper.",
+      "status": "primary-bibliographic-record"
+    }
+  ],
+  "boundary": "This finding adds a trust-conditioned political-stability relationship across country, subnational, and individual analyses. It does not prove that trust alone prevents democratic turnover, identify a universal crisis mechanism, establish current U.S. national effects, or measure household recovery, institutional performance, or later public action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER working-paper page reviewed for the revised date, abstract, geographic layers, and headline trust-turnover relationship; underlying panels are not retained here.",
+    "source_response_sha256": "sha256:e31a68e7dc76646fddff1bd5dae019eabf1f93dbec521c649c3821f2aa713c9e",
+    "checked": "2026-09-23"
+  }
+}

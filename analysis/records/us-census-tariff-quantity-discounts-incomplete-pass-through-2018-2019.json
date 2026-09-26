@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-tariff-quantity-discounts-incomplete-pass-through-2018-2019",
+  "title": "Tariffs can appear fully passed through while transaction scale changes who actually absorbs the cost",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["geopolitical_state_consequences", "household_room_consumption", "firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-17 using administrative U.S. import transaction microdata for the 2018-2019 tariff episode",
+  "geography": "United States import transactions, foreign exporters, and U.S. tariff-affected product markets",
+  "observations": [{
+    "period": "2018-2019 U.S. tariff episode",
+    "denominator": {"value": 1, "unit": "administrative transaction-level import-price study of U.S. tariff exposure", "value_type": "study_unit"},
+    "measures": {
+      "observed_import_prices": {"value": "rose one-for-one with the tariffs", "unit": "import-price movement", "value_type": "reported_relationship"},
+      "transaction_scale": {"value": "transaction sizes collapsed, reducing quantity discounts", "unit": "transaction-level scale response", "value_type": "reported_mechanism"},
+      "scale_free_pass_through": {"value": 0.60, "unit": "share of tariff passed through to scale-free prices", "value_type": "reported_estimate"},
+      "foreign_exporter_burden": {"value": "foreign exporters absorbed a significant share through reduced markups", "unit": "estimated tariff incidence", "value_type": "reported_direction"},
+      "interpretive_boundary": {"value": "quantity discounts reflect transaction-level scale economies rather than market power in the paper's account", "unit": "price mechanism interpretation", "value_type": "reported_mechanism"}
+    },
+    "method": "The authors use administrative transaction-level import data and separate strategic price pass-through from price changes caused by lost quantity discounts and transaction-level scale economies.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The estimate concerns scale-free import prices and foreign-exporter incidence; it does not directly measure retail prices, household budgets, domestic producer adjustment, employment, or political response.",
+    "subgroup": "Tariff-affected U.S. import transactions, foreign exporters, products with quantity discounts, and buyers or suppliers whose transaction scale changed.",
+    "counterinterpretation": "A 60% pass-through estimate does not mean households paid only 60% of a tariff: wholesalers, retailers, domestic firms, exchange rates, and quantities can redistribute costs. Quantity discounts may coexist with market power or other pricing mechanisms not captured by the simplified interpretation.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-17.html",
+    "retrieval_hash": "sha256:eccda3e40c0ef1f7af30971ed612d315e7d9b98ed0b9ad76d308d26ced6d50be",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-17.pdf", "claim": "The official paper provides the administrative import data, tariff episode, scale-economy decomposition, and pass-through estimates.", "status": "official-paper-context"}],
+  "boundary": "This record adds a tariff-to-transaction-scale and foreign-exporter-incidence pathway. It does not establish retail price pass-through, household burden, domestic firm effects, employment, welfare, strategic success, or political acceptance.",
+  "retrieval_hash": "sha256:eccda3e40c0ef1f7af30971ed612d315e7d9b98ed0b9ad76d308d26ced6d50be"
+}

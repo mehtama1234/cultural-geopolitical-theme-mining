@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-shopping-from-home-consumer-prices-2026",
+  "title": "Remote work changes shopping mode and can raise prices paid through household shopping reallocation",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "time_hidden_price",
+    "work_control_bargaining",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "NBER Working Paper 34883; Nielsen consumer-panel survey and shopping data on work-from-home households",
+  "geography": "United States consumer households and retail purchases",
+  "observations": [
+    {
+      "period": "2026 working paper; consumer-panel evidence around work-from-home adoption",
+      "denominator": {
+        "value": null,
+        "unit": "Nielsen consumer-panel households and purchase records; public abstract does not disclose the analytic sample count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "shopping_mode": {
+          "value": "work from home increased online shopping and the share of store trips occurring on weekdays",
+          "unit": "reported treatment effect pattern",
+          "value_type": "reported_effect"
+        },
+        "shopping_quantity_range": {
+          "value": "work from home increased total spending through greater product quantity and range, shifting toward food and general merchandise and away from health and beauty products",
+          "unit": "reported expenditure composition effect",
+          "value_type": "reported_effect"
+        },
+        "prices_paid": {
+          "value": "work-from-home households paid higher prices and used fewer deals; grocery prices rose about 1% in the paper's estimate",
+          "unit": "reported consumer-price effect",
+          "value_type": "reported_estimate"
+        },
+        "time_tradeoff": {
+          "value": "remote workers made more shopping trips but spent fewer minutes shopping",
+          "unit": "reported time and trip effect",
+          "value_type": "reported_effect"
+        },
+        "household_mechanism": {
+          "value": "price effect concentrated among married households and was linked to redistribution of shopping responsibility, especially when the new remote worker was male",
+          "unit": "reported subgroup mechanism",
+          "value_type": "reported_subgroup_pattern"
+        }
+      },
+      "method": "NBER analysis using a new survey and Nielsen consumer-panel data; shopping mode, quantities, prices, deals, trips, minutes, and household composition are analyzed as distinct outcomes.",
+      "uncertainty": "The source is a working paper and uses proprietary panel data. The findings do not establish that remote work caused all household changes for every family, nor do they measure welfare, food hardship, time stress, or retailer strategy directly.",
+      "subgroup": "Work-from-home households, married households, and households where the new remote worker was male; product-category effects vary.",
+      "counterinterpretation": "Households choosing remote work may differ in income, location, schedule, preferences, or shopping access; higher prices can reflect convenience and product mix rather than pure consumer harm.",
+      "source_url": "https://www.nber.org/papers/w34883",
+      "retrieval_hash": "sha256:6a9c2e5f8b1d4a7c0e3f6b9d2a5c8e1f4b7d0a3c6e9f2b5d8a1c4f7e0b3d6000",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a consumer-work mechanism: remote work reallocates shopping time and responsibility and can change prices paid. It does not establish household welfare, retailer market power, food security, or a universal remote-work effect.",
+  "retrieval_hash": "sha256:6a9c2e5f8b1d4a7c0e3f6b9d2a5c8e1f4b7d0a3c6e9f2b5d8a1c4f7e0b3d6000"
+}

@@ -1,0 +1,85 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-sdg1-2026-poverty-social-protection-cost-shocks",
+  "title": "Extreme poverty remains widespread as social protection expands unevenly against rising costs and compound shocks",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "care_health_reproduction", "public_systems_feedback", "geopolitical_state_consequences", "work_control_bargaining"],
+  "source_unit": "United Nations Statistics Division, Sustainable Development Goals Report 2026, Goal 1: No Poverty",
+  "geography": "Global country and regional SDG 1 reporting across poverty, social protection, aid, and vulnerability indicators",
+  "observations": [
+    {
+      "period": "2026; global extreme poverty estimate",
+      "denominator": {"value": 1, "unit": "world population under the 2021 PPP extreme-poverty line", "value_type": "global_poverty_frame"},
+      "measures": {
+        "extreme_poverty_share": {"value": 10, "unit": "percent of the world population estimated to live in extreme poverty", "value_type": "reported_share"},
+        "extreme_poverty_count": {"value": 826, "unit": "million people estimated to live in extreme poverty", "value_type": "reported_count"},
+        "threshold": {"value": 3, "unit": "US dollars per person per day in 2021 purchasing-power-parity terms", "value_type": "poverty_line"}
+      },
+      "method": "UNSD compilation of global and regional SDG 1 poverty estimates using the internationally comparable monetary poverty line.",
+      "uncertainty": "Global poverty estimates depend on survey coverage, purchasing-power adjustments, interpolation, modeling, and the selected threshold; they do not measure multidimensional deprivation or insecurity completely.",
+      "subgroup": "People in low-income and fragile settings, children, rural populations, workers with low or unstable earnings, and households exposed to conflict or climate shocks.",
+      "counterinterpretation": "The estimate is a global benchmark rather than a complete account of material living standards; progress can occur above or below the line without changing other dimensions of well-being.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:941f704723f8aa5a33b1397b0f833b93c012a71034b2922cbae3969f88362101",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2026; non-contributory social assistance coverage",
+      "denominator": {"value": 1, "unit": "people classified as vulnerable in countries reporting social-assistance coverage", "value_type": "social_protection_frame"},
+      "measures": {
+        "coverage": {"value": 37.3, "unit": "percent of vulnerable persons covered by social assistance in 2026", "value_type": "reported_share"},
+        "change_since_2015": {"value": 10.6, "unit": "percentage-point increase in coverage since 2015", "value_type": "reported_change"},
+        "policy_role": {"value": "non-contributory, tax-financed benefits are identified as a tool for reducing poverty and vulnerability", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNSD synthesis of SDG social-protection and social-assistance indicators.",
+      "uncertainty": "Coverage does not establish adequacy, duration, take-up, delivery quality, exclusion errors, or whether benefits keep pace with food, housing, energy, and care costs.",
+      "subgroup": "Low-income households, children, older people, people with disabilities, unemployed workers, caregivers, migrants, and people outside contributory systems.",
+      "counterinterpretation": "A 10.6-point expansion represents meaningful institutional growth even if coverage remains incomplete and uneven across countries.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:941f704723f8aa5a33b1397b0f833b93c012a71034b2922cbae3969f88362101",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2024; external financing for poverty reduction",
+      "denominator": {"value": 1, "unit": "official-development-assistance grants targeting poverty reduction", "value_type": "aid_flow_frame"},
+      "measures": {
+        "grant_change": {"value": -8.7, "unit": "percent change in poverty-reduction ODA grants between 2023 and 2024", "value_type": "reported_change"},
+        "level": {"value": "2024 grants returned to 2015 levels", "unit": "reported financing comparison", "value_type": "reported_level"},
+        "delivery_implication": {"value": "financing constraints can narrow fiscal room for social protection and poverty-reduction programs", "unit": "reported policy mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UNSD compilation of official-development-assistance flows classified for poverty reduction.",
+      "uncertainty": "Aid classification and annual flows do not reveal program effectiveness, domestic financing substitution, allocation quality, or longer-term fiscal capacity.",
+      "subgroup": "Low-income countries, fragile settings, social-protection agencies, communities dependent on externally financed services, and households facing crisis shocks.",
+      "counterinterpretation": "Domestic revenue, borrowing, remittances, and redesigned programs can partly offset lower grants in particular countries.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:941f704723f8aa5a33b1397b0f833b93c012a71034b2922cbae3969f88362101",
+      "status": "reported"
+    },
+    {
+      "period": "2026; compound drivers of poverty persistence",
+      "denominator": {"value": 1, "unit": "global SDG 1 risk and policy frame", "value_type": "poverty_risk_frame"},
+      "measures": {
+        "driver_set": {"value": "inequality, climate shocks, conflict, and rising living costs continue to push people into poverty", "unit": "reported driver set", "value_type": "reported_mechanism"},
+        "policy_set": {"value": "inclusive economic opportunity and stronger social protection are identified as core responses", "unit": "reported policy direction", "value_type": "reported_policy_set"},
+        "data_boundary": {"value": "poverty monitoring depends on timely, comparable, and sufficiently covered household and administrative data", "unit": "reported measurement condition", "value_type": "reported_boundary"}
+      },
+      "method": "UNSD SDG 1 synthesis linking poverty, distribution, social protection, shocks, living costs, and statistical capacity.",
+      "uncertainty": "The report describes cross-domain risk pathways but does not estimate a single causal contribution for each shock or policy response.",
+      "subgroup": "Households with low buffers, informal workers, people in conflict-affected or climate-exposed places, and populations missed by statistical systems.",
+      "counterinterpretation": "Growth, labor-market access, public services, transfers, and resilience investments can interact to reduce poverty even when one channel deteriorates.",
+      "source_url": "https://unstats.un.org/sdgs/report/2026/goal-01/",
+      "retrieval_hash": "sha256:941f704723f8aa5a33b1397b0f833b93c012a71034b2922cbae3969f88362101",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.worldbank.org/en/publication/poverty-prosperity-and-planet", "claim": "World Bank Poverty, Prosperity, and Planet provides complementary poverty, inequality, climate-risk, and shared-prosperity context."},
+    {"source_url": "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines", "claim": "World Bank poverty-line update provides complementary methodology for global income and consumption thresholds."}
+  ],
+  "boundary": "This record adds a current aggregate poverty-and-protection route linking consumption thresholds, social assistance, aid, living costs, climate, conflict, and data capacity. It is not a household panel, individual benefit-take-up study, respondent-level consumption dataset, or causal estimate of any single shock.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official UNSD 2026 Goal 1 page was reviewed; poverty, social-assistance, aid, compound-shock, and data-capacity claims were cross-checked.",
+    "source_url_sha256": "sha256:941f704723f8aa5a33b1397b0f833b93c012a71034b2922cbae3969f88362101",
+    "checked": "2026-09-26"
+  }
+}

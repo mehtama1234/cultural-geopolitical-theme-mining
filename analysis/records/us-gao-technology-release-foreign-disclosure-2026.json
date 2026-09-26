@@ -1,0 +1,60 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-technology-release-foreign-disclosure-2026",
+  "title": "Foreign defense technology sharing depends on a specialized permission system whose speed and trust vary by request",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108435 review of Department of Defense technology release and foreign disclosure processes",
+  "geography": "United States and foreign governments or international organizations requesting U.S. defense articles, services, or sensitive military technology",
+  "observations": [
+    {
+      "period": "2024–2026; foreign military sales and technology-release process context",
+      "denominator": {"value": 100, "unit": "more than 100 foreign governments and international organizations that request U.S. defense articles or services", "value_type": "reported_program_scope"},
+      "measures": {
+        "annual_trfd_cases": {"value": 7000, "unit": "foreign military sales cases that DOD reported undergo technology-release and foreign-disclosure review each year, approximately", "value_type": "reported_estimate"},
+        "follow_on_or_existing_precedent": {"value": 70, "unit": "percent of TRFD cases officials estimated represent continuation of existing sales and are generally approved under existing policy or precedent", "value_type": "official_estimate"},
+        "discovery_duration": {"value": "a few days to a year", "unit": "official estimate of time from request to determining whether applicable policy or precedent exists", "value_type": "reported_range"},
+        "delay_frequency": {"value": "less than 10%", "unit": "official estimate of requests delayed during the discovery phase", "value_type": "official_estimate"}
+      },
+      "method": "GAO reviewed DOD documents and training materials, met with DOD and State officials and operational personnel, and attended a foreign-disclosure-officer course; reported volumes and timing are official estimates rather than independently validated administrative counts.",
+      "uncertainty": "The source does not provide a public case-level dataset, complete request denominator, partner-by-partner approval rate, delivery result, or outcome after a technology transfer.",
+      "subgroup": "Foreign partners and international organizations, existing-policy or precedent cases, new or sensitive technology cases, and requests involving multiple military departments or specialized interagency reviews.",
+      "counterinterpretation": "Long or specialized review can protect security and preserve technological advantage; most cases reportedly move through existing pathways, so the presence of a complex approval system does not by itself show dysfunction or partner distrust.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108435/index.html",
+      "retrieval_hash": "sha256:c48f3258b60c7533b2f58fc23df42c130a298755b84d3c3d764aa999de0e5844",
+      "status": "reported"
+    },
+    {
+      "period": "November 2025–May 2026; DOD reform implementation",
+      "denominator": {"value": 33, "unit": "TRFD reform action items in the DOD implementation plan", "value_type": "reported_reform_scope"},
+      "measures": {
+        "completed_reforms": {"value": 26, "unit": "action items officials reported completed as of May 2026", "value_type": "reported_count"},
+        "planned_completion": {"value": "November 2026", "unit": "DOD officials' target to complete the current reform set", "value_type": "reported_target_date"},
+        "urgent_ukraine_example": {"value": "reviews that typically took a year were completed within weeks, and some within hours, after urgent prioritization for Ukraine; officials said this relied heavily on overtime and deprioritized other work", "unit": "reported process example", "value_type": "reported_case_context"},
+        "partner_visibility": {"value": "limited visibility into causes of delayed approvals can cause frustration for foreign partners awaiting a response", "unit": "reported partner-interface issue", "value_type": "reported_qualitative_finding"}
+      },
+      "method": "GAO assessed the reform plan and obtained written and oral updates from DOD officials on progress as of May 2026.",
+      "uncertainty": "Reform completion is reported by DOD officials and does not establish that request times improved, that partners received requested technology, or that urgent prioritization produced durable alliance or industrial effects.",
+      "subgroup": "TRFD policy stakeholders, military departments, foreign-disclosure officers, foreign partners, and urgent versus ordinary requests.",
+      "counterinterpretation": "Prioritizing urgent cases can be appropriate during war or crisis; deprioritized routine work may reflect a deliberate allocation choice rather than administrative failure.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108435/index.html",
+      "retrieval_hash": "sha256:c48f3258b60c7533b2f58fc23df42c130a298755b84d3c3d764aa999de0e5844",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-108435/index.html", "claim": "Official GAO report supplies request volume, review timing, distributed decision-making, partner-visibility, urgent prioritization, and reform-progress findings.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a permission and administrative-timing layer between a foreign partner's request and possible defense-technology transfer. It does not establish approval or denial for a named partner, delivery, use, partner consent, deterrence, battlefield effect, export revenue, or durable trust.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO accessible HTML report retrieved and hashed; underlying classified or controlled DOD reports, case files, and partner records not retained",
+    "html_sha256": "sha256:c48f3258b60c7533b2f58fc23df42c130a298755b84d3c3d764aa999de0e5844",
+    "checked": "2026-09-22"
+  }
+}

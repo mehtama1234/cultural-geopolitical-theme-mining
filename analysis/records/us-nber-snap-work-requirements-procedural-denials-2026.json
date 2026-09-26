@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-snap-work-requirements-procedural-denials-2026",
+  "title": "SNAP work requirements increase procedural denials through administrative burden",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "NBER Working Paper 34698, administrative SNAP data analyzed with age-based exemption and waiver-period difference-in-differences designs",
+  "geography": "United States SNAP administrative-policy setting; study-selected jurisdictions and Able-Bodied Adults Without Dependents (ABAWDs), not a national participation rate",
+  "observations": [
+    {
+      "period": "2026 NBER Working Paper 34698; study-defined waiver and work-requirement periods",
+      "denominator": {
+        "value": null,
+        "unit": "SNAP administrative records for study-selected jurisdictions and ABAWD age-exemption comparisons; exact public abstract denominator is not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "procedural_denials": {
+          "value": "Work requirements significantly increase procedural denials",
+          "unit": "administrative SNAP denial outcome",
+          "value_type": "difference_in_differences_effect"
+        },
+        "overall_denials": {
+          "value": "Work requirements significantly increase overall denials",
+          "unit": "administrative SNAP denial outcome",
+          "value_type": "difference_in_differences_effect"
+        },
+        "participation_deterrence": {
+          "value": "The results indicate that work requirements deter participation through imposed administrative burdens",
+          "unit": "policy-to-participation mechanism",
+          "value_type": "reported_mechanism"
+        },
+        "comparison_design": {
+          "value": "Age-based exemptions for people aged 50 and older and waiver periods provide the identifying comparisons",
+          "unit": "policy eligibility and timing contrast",
+          "value_type": "identification_design"
+        }
+      },
+      "method": "Administrative-data study using difference-in-differences models that exploit age-based exemptions applying to ABAWDs aged 50 and older and periods in which work-requirement waivers apply.",
+      "uncertainty": "The public abstract does not disclose the full administrative-record denominator, selected jurisdictions, effect magnitudes, or every implementation detail. The design identifies policy-associated denial changes under its assumptions; it does not show individual intent, notice receipt, administrative effort, appeal, benefit restoration, food security, health, work quality, or later political action.",
+      "subgroup": "SNAP ABAWDs around the study's age-exemption boundary, waiver versus work-requirement periods, and study-selected administrative jurisdictions.",
+      "counterinterpretation": "Denial changes could reflect concurrent policy, labor-market, or administrative changes if the identifying assumptions fail. A procedural denial may represent incomplete paperwork, failure to document an exemption, or another process route rather than a final loss of eligibility; deterrence is a mechanism interpretation, not proof of every claimant's reason for nonparticipation.",
+      "source_url": "https://www.nber.org/papers/w34698",
+      "retrieval_hash": "sha256:f914d526fadadc328f77bcfe976cd1491b77a31306177666a47ce8abf1df3e56",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34698",
+      "claim": "NBER DOI and paper metadata.",
+      "status": "official-metadata"
+    },
+    {
+      "source_url": "https://www.nber.org/papers/w32441",
+      "claim": "Related NBER SNAP work-requirement participation and labor-supply study; not pooled with this procedural-denial design.",
+      "status": "related-record-context"
+    }
+  ],
+  "boundary": "This record adds a policy-to-administrative-denial and participation-deterrence mechanism. It does not establish a national denial rate, individual notice or effort, appeal, restored benefits, food security, health, durable hardship, trust, or political action.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER landing-page HTML and abstract reviewed; the underlying administrative data are not retained.",
+    "official_page_sha256": "sha256:f914d526fadadc328f77bcfe976cd1491b77a31306177666a47ce8abf1df3e56",
+    "checked": "2026-09-23"
+  }
+}

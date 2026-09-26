@@ -1,0 +1,32 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-nonprofit-sector-pay-differential-2001-2023",
+  "title": "Nonprofit work supplies social infrastructure while carrying a sector-specific earnings penalty",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "work_control_bargaining", "care_health_reproduction", "trust_identity_meaning", "public_systems_feedback", "household_room_consumption"],
+  "source_unit": "Census CES Working Paper 26-33, Employees in the US Nonprofit Sector, using linked administrative tax, employer, ACS, LEHD, and IRS Form 990 data",
+  "geography": "United States; near-universe of US workers in administrative tax data, with descriptive earnings series 2001–2022 and tax coverage through 2023",
+  "observations": [
+    {
+      "period": "2001–2023 administrative labor-market evidence; earnings comparisons shown through 2022",
+      "denominator": {"value": null, "unit": "Near-universe of US workers in administrative tax data; exact public-abstract analytical counts are not retained", "value_type": "not_disclosed"},
+      "measures": {
+        "nonprofit_workforce_share": {"value": "roughly 10%", "unit": "share of the American workforce", "value_type": "reported_estimate"},
+        "unconditional_earnings_penalty": {"value": -12, "unit": "percent nonprofit earnings relative to for-profit workers", "value_type": "reported_estimate"},
+        "selection_adjusted_penalty": {"value": "Most of the earnings penalty is estimated as causal rather than explained by worker selection", "unit": "worker-firm job-ladder estimate", "value_type": "causal_estimate"},
+        "industry_variation": {"value": "Large industry heterogeneity; nonprofit health and education pay can be comparable or higher, while publishing and arts show larger penalties", "unit": "industry comparison", "value_type": "reported_heterogeneity"},
+        "time_pattern": {"value": "Nonprofit and for-profit earnings have converged over time", "unit": "reported trend", "value_type": "reported_trend"}
+      },
+      "method": "Linked administrative tax data covering the near-universe of workers, supplemented by ACS, LEHD, and IRS Form 990 data; an AKM worker-firm job-ladder model separates worker, firm, and match components under an exogenous-mobility assumption.",
+      "uncertainty": "The paper is a Census CES working paper and not a Census Bureau publication endorsement. The causal interpretation depends on the worker-firm mobility model and excludes some workers and employers from particular data components; the public abstract does not establish service quality, worker wellbeing, household outcomes, or consumer effects.",
+      "subgroup": "Nonprofit and for-profit workers across industries, with heterogeneity in worker selection and firm premia; health, education, publishing, and arts contrasts are reported, but full subgroup estimates are not extracted here.",
+      "counterinterpretation": "Lower nonprofit pay may coexist with non-wage benefits, mission value, flexibility, community meaning, or different hours and job security. Higher pay in a for-profit comparison does not automatically mean better service or greater social value.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-33.html",
+      "retrieval_hash": "sha256:a1b87ce08da75f2ba1253efd55f648a5b1ee3c596292cab7db4b1cb8be0b477a",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-33.pdf", "claim": "Official paper PDF provides the administrative-data linkage, AKM method, sector shares, pay estimates, and industry heterogeneity.", "status": "official-paper"}],
+  "boundary": "This record adds a firm-sector and social-infrastructure pattern: nonprofit employment is large and socially consequential while average pay is lower and highly heterogeneous. It does not show that nonprofit workers are less committed, that services are worse, that households are less secure, or that nonprofit compensation caused later community outcomes.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official Census CES landing page and paper PDF; confidential linked administrative data and replication code are not retained.", "pdf_sha256": "sha256:a1b87ce08da75f2ba1253efd55f648a5b1ee3c596292cab7db4b1cb8be0b477a", "checked": "2026-09-23"}
+}

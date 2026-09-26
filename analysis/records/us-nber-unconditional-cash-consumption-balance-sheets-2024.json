@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-unconditional-cash-consumption-balance-sheets-2024",
+  "title": "Large temporary cash transfers raised consumption and financial health without clear persistent net-worth gains",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. low-income adults in a randomized three-year unconditional-cash-transfer experiment in two states",
+  "geography": "United States; two states",
+  "observations": [
+    {
+      "period": "Three-year transfer experiment; NBER Working Paper issued August 2024 and revised July 2025",
+      "denominator": {
+        "value": 3000,
+        "unit": "randomized individuals: 1,000 assigned to $1,000 monthly and 2,000 assigned to $50 monthly",
+        "value_type": "randomized_assignment"
+      },
+      "measures": {
+        "monthly_transfer_contrast": {
+          "value": "$950",
+          "unit": "monthly difference between treatment and comparison assignment",
+          "value_type": "treatment_contrast"
+        },
+        "household_expenditures": {
+          "value": "increased by at least $300 per month",
+          "unit": "U.S. dollars per month",
+          "value_type": "reported_effect_magnitude"
+        },
+        "spending_composition": {
+          "value": "positive effects in most categories, largest for housing, food, and car expenses",
+          "unit": "reported treatment pattern",
+          "value_type": "reported_effect_pattern"
+        },
+        "mobility": {
+          "value": "increased housing-unit and neighborhood mobility",
+          "unit": "reported treatment direction",
+          "value_type": "reported_effect_direction"
+        },
+        "net_worth": {
+          "value": "near-zero effect",
+          "unit": "asset-value gains were offset by higher debt",
+          "value_type": "reported_effect_pattern"
+        },
+        "financial_health": {
+          "value": "increased self-reported financial health and credit scores, without effects on credit limits, delinquencies, utilization, bankruptcies, or foreclosures",
+          "unit": "reported treatment pattern",
+          "value_type": "reported_effect_pattern"
+        },
+        "marginal_propensity_to_spend": {
+          "value": "0.38–0.50 for nondurables and 0.18–0.24 for durables and semidurables; marginal propensity to delever near zero",
+          "unit": "dollars spent per dollar of transfer, reported adjusted estimates",
+          "value_type": "reported_effect_range"
+        }
+      },
+      "method": "NBER Working Paper 32784 exploits random assignment to $1,000-per-month versus $50-per-month unconditional transfers for three years and examines consumption, balance sheets, and financial outcomes.",
+      "uncertainty": "This record retains the official abstract-level findings and reported ranges rather than reproducing the full analysis, attrition, survey response, or administrative linkage. The transfer is temporary and the sample is a young, low-income population in two states; observed financial-health improvements do not establish durable security or political response.",
+      "subgroup": "Young, low-income U.S. adults in the two-state randomized experiment; the abstract does not provide the full subgroup denominator or heterogeneity profile.",
+      "counterinterpretation": "Higher spending and mobility can represent relief, catch-up consumption, housing repair, or displacement rather than durable asset accumulation. Near-zero net-worth effects and higher debt show why short-run financial health, consumption, and balance-sheet recovery must remain separate currencies.",
+      "source_url": "https://www.nber.org/papers/w32784",
+      "retrieval_hash": "sha256:5f1700f8c73330c4281bcea3a0d3f8b62105647f2a04643f67440703f4215a3d",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w32784",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a randomized U.S. transfer-to-consumption and balance-sheet result, not a universal cash-transfer effect or a complete household recovery, care, employment, trust, political-action, or long-run welfare estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 32784 page downloaded and hashed; title, date, random assignment, transfer contrast, spending, mobility, financial-health, debt, and net-worth findings checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

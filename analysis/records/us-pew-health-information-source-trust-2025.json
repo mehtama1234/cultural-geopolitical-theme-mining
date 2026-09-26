@@ -1,0 +1,97 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-health-information-source-trust-2025",
+  "title": "Americans use many health-information sources while trust and accuracy remain unsettled",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center American Trends Panel survey of U.S. adults",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "October 20–26, 2025 survey; report published April 2026",
+      "denominator": {
+        "value": 5111,
+        "unit": "U.S. adults in the Pew American Trends Panel survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "provider_use": {
+          "value": 85,
+          "unit": "percent who get health information from health care providers at least sometimes",
+          "value_type": "published_share"
+        },
+        "similar_experience_use": {
+          "value": 66,
+          "unit": "percent who get health information at least sometimes from people with a similar health issue",
+          "value_type": "published_share"
+        },
+        "social_media_use": {
+          "value": 36,
+          "unit": "percent who get health information from social media at least sometimes",
+          "value_type": "published_share"
+        },
+        "ai_chatbot_use": {
+          "value": 22,
+          "unit": "percent who get health information from AI chatbots at least sometimes",
+          "value_type": "published_share"
+        },
+        "accuracy_difficulty": {
+          "value": 50,
+          "unit": "percent who say it is at least somewhat difficult to judge whether health information is accurate",
+          "value_type": "published_share"
+        },
+        "conflicting_information": {
+          "value": 76,
+          "unit": "percent who see conflicting health information at least sometimes",
+          "value_type": "published_share"
+        },
+        "trust_difficulty": {
+          "value": 54,
+          "unit": "percent who say it is at least somewhat difficult to know which information to trust when information conflicts",
+          "value_type": "published_share"
+        },
+        "provider_accuracy": {
+          "value": 65,
+          "unit": "percent of people who use provider information who rate it extremely or very accurate",
+          "value_type": "published_conditional_share"
+        },
+        "social_media_accuracy": {
+          "value": 7,
+          "unit": "percent of people who use social-media health information who rate it highly accurate; 47% rate it not too or not at all accurate",
+          "value_type": "published_conditional_share"
+        },
+        "health_action": {
+          "value": "not observed as a linked path from source exposure through advice, care-seeking, treatment, adherence, or health outcome",
+          "unit": "missing information-to-action chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Weighted descriptive survey of 5,111 U.S. adults in Pew's American Trends Panel, conducted October 20–26, 2025. Respondents reported how often they use seven health-information sources and rated accuracy, convenience, personalization, and trust difficulty.",
+      "uncertainty": "This is a cross-sectional self-report survey. Source use is not verified exposure, accuracy ratings are perceptions rather than clinical validation, and the study does not observe the specific claim encountered, the decision made, clinician confirmation, health behavior, or outcome. Conditional accuracy denominators differ by source use.",
+      "subgroup": "U.S. adults with comparisons by age, education, income, party, and health-insurance status; younger adults report more social-media and AI use, while uninsured adults are more likely than insured adults to turn to those sources.",
+      "counterinterpretation": "People may use social media or AI because they are convenient, available, or useful for questions they feel uncomfortable asking elsewhere, not because they trust them more than clinicians. Provider information can be highly rated while still being inaccessible, costly, delayed, or absent for people without coverage. Seeing conflicting information does not show that every claim is false or that people made a harmful decision.",
+      "source_url": "https://www.pewresearch.org/science/2026/04/07/where-do-americans-get-health-information-and-what-do-they-trust/",
+      "retrieval_hash": "sha256:cad630f87b14ed990b188103cd94e4eb2206cbb824c466a1c275a627a8428a4c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/04/PS_2026.4.7_health-information_REPORT.pdf",
+      "claim": "Pew report PDF provides the survey design, source-use shares, accuracy ratings, and subgroup comparisons.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds an information-legitimacy layer to the health and digital lanes: people combine institutional, peer, platform, and AI sources while many find accuracy and conflict difficult to judge. It does not estimate misinformation prevalence, medical decisions, treatment quality, or health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew report page and report PDF reviewed; microdata are not retained.",
+    "pdf_sha256": "sha256:cad630f87b14ed990b188103cd94e4eb2206cbb824c466a1c275a627a8428a4c",
+    "checked": "2026-09-23"
+  }
+}

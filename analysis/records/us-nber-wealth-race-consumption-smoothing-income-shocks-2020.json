@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-wealth-race-consumption-smoothing-income-shocks-2020",
+  "title": "Liquid wealth changes how households absorb ordinary income shocks",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "unequal_exposure_status", "work_control_bargaining", "care_health_reproduction", "public_systems_feedback", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 27552; administrative banking data and an instrument based on firm-wide changes in labor income",
+  "geography": "United States households and typical month-to-month labor-income fluctuations",
+  "observations": [{
+    "period": "U.S. household consumption response to typical labor-income shocks; paper issued 2020",
+    "denominator": {"value": 1, "unit": "U.S. administrative banking-data household study", "value_type": "study_unit"},
+    "measures": {
+      "average_elasticity": {"value": "average consumption elasticity with respect to typical labor-income shocks was approximately 0.21", "unit": "consumption response to labor-income shock", "value_type": "reported_estimate"},
+      "liquidity_gradient": {"value": "consumption sensitivity was much higher for low-liquidity households and close to zero for high-liquidity households", "unit": "liquidity-group response pattern", "value_type": "reported_comparison"},
+      "racial_difference": {"value": "Black and Hispanic households were about twice as sensitive to typical income shocks as White households", "unit": "relative consumption sensitivity", "value_type": "reported_comparison"},
+      "wealth_explanation": {"value": "racial wealth inequality explained nearly all of the racial difference in statistical analysis", "unit": "statistical decomposition", "value_type": "reported_interpretation"},
+      "welfare_model": {"value": "a calibrated model implies large welfare costs from temporary income volatility, especially for low-liquidity households, with costs about twice as high for Black and Hispanic households as for White households", "unit": "modeled welfare cost", "value_type": "reported_model_estimate"}
+    },
+    "method": "The authors use administrative banking data and an instrument based on firm-wide changes in labor income to study typical month-to-month labor-income shocks, then calibrate a stylized model to estimate welfare costs and statistically decompose racial differences.",
+    "uncertainty": "The study does not identify which bill, need, or purchase each household protected or delayed, nor does it observe the full roles of informal support, credit terms, health, care, housing, work choice, or later recovery. The welfare results depend on the calibrated model and the estimated shock design.",
+    "subgroup": "U.S. households observed in administrative banking data, grouped by liquid wealth and reported racial categories including Black, Hispanic, and White households; the abstract does not establish equal effects across place, disability, age, family structure, or income source.",
+    "counterinterpretation": "A larger spending response can reflect necessary bills, a deliberate use of cash, debt substitution, or a forced cut; the study does not identify the meaning of each adjustment. Statistical explanation by wealth inequality does not mean race has no independent institutional or historical pathway, and near-zero average response among high-liquidity households does not mean their welfare is unaffected.",
+    "source_url": "https://www.nber.org/papers/w27552",
+    "retrieval_hash": "sha256:88f6e4205c33bd6e8d6d74c8577e5a7638bca8484558449be44cfee2748d70d7",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w27552", "claim": "NBER DOI record for Working Paper 27552", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a liquidity-and-race consumption-smoothing finding: liquid wealth changes how strongly households respond to ordinary labor-income shocks, with larger estimated sensitivity and modeled welfare costs for Black and Hispanic households in the study. It does not identify each household's first sacrifice, prove a specific causal mechanism beyond the study design, or establish political action or long-term security."
+}

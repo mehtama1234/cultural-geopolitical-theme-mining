@@ -1,0 +1,38 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-uk-platform-safety-control-satisfaction-2026",
+  "title": "Platform safety controls show a gap between user action and confidence that the platform will respond",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "trust_identity_meaning", "unequal_exposure_status", "political_judgment_action"],
+  "source_unit": "Nationally representative UK adult survey of platform safety-technology awareness, use, and satisfaction; published 2026",
+  "geography": "United Kingdom social-media users; comparative digital-culture evidence, not a US population estimate",
+  "observations": [
+    {
+      "period": "Data collected January 2023; 1,067 usable UK adult responses; published 2026",
+      "denominator": {"value": 1067, "unit": "usable UK adult survey responses after removing respondents reporting no daily social-media use", "value_type": "survey_sample"},
+      "measures": {
+        "harm_witnessed": {"value": 67, "unit": "percent reporting they had witnessed harmful online content", "value_type": "reported_share"},
+        "harm_directly_received": {"value": 31, "unit": "percent reporting they had directly received harmful online content", "value_type": "reported_share"},
+        "used_at_least_one_safety_tool": {"value": ">80", "unit": "percent of respondents", "value_type": "reported_share"},
+        "aware_block_or_unfollow": {"value": ">90", "unit": "percent aware of the feature", "value_type": "reported_share"},
+        "aware_feed_deactivation": {"value": 31, "unit": "percent aware of the feature", "value_type": "reported_share"},
+        "unfollow_use_among_aware": {"value": ">85", "unit": "percent who had used the feature among those aware", "value_type": "reported_share"},
+        "block_use_among_aware": {"value": ">80", "unit": "percent who had used the feature among those aware", "value_type": "reported_share"},
+        "report_use_among_aware": {"value": 60, "unit": "approximately percent who had used the feature among those aware", "value_type": "reported_share"},
+        "always_satisfied_block_or_unfollow": {"value": ">60", "unit": "percent reporting always satisfied with outcome", "value_type": "reported_share"},
+        "always_satisfied_report": {"value": 18, "unit": "percent reporting always satisfied with outcome", "value_type": "reported_share"},
+        "satisfied_feed_controls": {"value": "30-35", "unit": "percent satisfied with altering/deactivating feed or hiding engagements", "value_type": "reported_range"}
+      },
+      "method": "Peer-reviewed survey separating awareness, self-reported use, and satisfaction for seven user-facing safety technologies; the study used a nationally representative UK adult design and logistic models for predictors of use.",
+      "uncertainty": "The survey is UK-based, collected in 2023, and measures self-reported use and satisfaction rather than platform logs, independently verified harm reduction, wellbeing, or durable exit. Tool availability varies by platform and satisfaction is outcome-specific.",
+      "subgroup": "UK adults who use social media; analyses also examine harm concern, prior exposure, digital literacy, gender, political orientation, age, and education.",
+      "counterinterpretation": "High use of blocking or unfollowing can represent active control, repeated exposure, or the burden of self-protection; low satisfaction with reporting may reflect platform responsiveness, severe harms, or mismatched expectations rather than the absence of any benefit.",
+      "source_url": "https://doi.org/10.1177/20563051261431383",
+      "retrieval_hash": "sha256:ae0c2a6fe27ba82866cdba4f9a6943cf008d43dbf71ce98ec2314a6dc784e960",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a user-action and perceived-outcome stage to the platform/data lane: awareness, safety-tool use, and satisfaction are separated. It is comparative UK evidence and does not establish US prevalence, causal harm reduction, platform responsibility, mental-health improvement, or durable account exit.",
+  "retrieval_hash": "sha256:ae0c2a6fe27ba82866cdba4f9a6943cf008d43dbf71ce98ec2314a6dc784e960"
+}

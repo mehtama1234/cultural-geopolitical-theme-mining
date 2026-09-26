@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-electorate-racial-ethnic-composition-2026",
+  "title": "A more diverse eligible electorate does not automatically mean more political power",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center analysis of American Community Survey/IPUMS data and Census-based population projections",
+  "geography": "United States citizens age 18 and older in the 50 states and District of Columbia",
+  "observations": [
+    {
+      "period": "2006-2026; national eligible-voter composition",
+      "denominator": {
+        "value": 1,
+        "unit": "U.S. eligible voters; group shares use Pew's displayed four-group reporting universe",
+        "value_type": "source_defined_eligible_voter_universe"
+      },
+      "measures": {
+        "white_share_2006": {"value": 74, "unit": "percent of eligible voters", "value_type": "published_share"},
+        "white_share_2026": {"value": 61, "unit": "percent of eligible voters; projection", "value_type": "projected_share"},
+        "hispanic_share_2006": {"value": 9, "unit": "percent of eligible voters", "value_type": "published_share"},
+        "hispanic_share_2026": {"value": 16, "unit": "percent of eligible voters; projection", "value_type": "projected_share"},
+        "black_share_2006_to_2026": {"value": "about 12% to about 12%", "unit": "percent of eligible voters", "value_type": "published_comparison"},
+        "asian_share_2006": {"value": 3, "unit": "percent of eligible voters", "value_type": "published_share"},
+        "asian_share_2026": {"value": 5, "unit": "percent of eligible voters; projection", "value_type": "projected_share"}
+      },
+      "method": "Pew analysis of ACS/IPUMS data for 2006-2024 with 2026 projections based on Census Vintage 2025 population estimates and Census population projections.",
+      "uncertainty": "2026 national figures are projections; displayed four-group shares omit other or multiple-race categories, and the analysis does not incorporate citizens abroad or all state-specific disenfranchisement rules.",
+      "subgroup": "White, Hispanic, Black, and Asian eligible voters as defined by Pew; Hispanics may be of any race, while White, Black, and Asian groups are non-Hispanic single-race categories.",
+      "counterinterpretation": "A changing eligible-voter composition changes the formal electorate but does not by itself change registration, turnout, representation, party alignment, policy influence, or legitimacy.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/10/the-u-s-electorates-changing-racial-and-ethnic-makeup/",
+      "retrieval_hash": "sha256:4f6e9391c6f6544ac619ac579281690dded322da54476a57e94a11980cb51957",
+      "status": "estimated"
+    },
+    {
+      "period": "2022-2026; change in eligible-voter counts",
+      "denominator": {
+        "value": 249750000,
+        "unit": "projected U.S. eligible voters in 2026",
+        "value_type": "projected_population_count"
+      },
+      "measures": {
+        "all_eligible_voters_2026": {"value": 249750000, "unit": "people; rounded projection", "value_type": "projected_count"},
+        "all_growth_2022_to_2026": {"value": 8450000, "unit": "people; rounded increase", "value_type": "projected_change"},
+        "hispanic_growth": {"value": 5250000, "unit": "people; rounded increase; about 16%", "value_type": "projected_change"},
+        "asian_growth": {"value": 2250000, "unit": "people; rounded increase; about 20%", "value_type": "projected_change"},
+        "black_growth": {"value": 1650000, "unit": "people; rounded increase; about 6%", "value_type": "projected_change"},
+        "white_change": {"value": -2600000, "unit": "people; rounded change; about -2%", "value_type": "projected_change"}
+      },
+      "method": "Pew comparison of 2022 ACS-based counts with 2026 Census-based projections; counts are rounded and percentages use unrounded values.",
+      "uncertainty": "The source attributes growth to adulthood and naturalization patterns but does not follow individuals into registration, voting, or political representation.",
+      "subgroup": "Eligible-voter groups defined by Pew's racial and ethnic reporting categories.",
+      "counterinterpretation": "Population growth or naturalization can expand formal electoral presence without equal political voice if registration, access, turnout, representation, or issue alignment differs.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/10/the-u-s-electorates-changing-racial-and-ethnic-makeup/",
+      "retrieval_hash": "sha256:4f6e9391c6f6544ac619ac579281690dded322da54476a57e94a11980cb51957",
+      "status": "estimated"
+    },
+    {
+      "period": "2024; share of adults eligible to vote by group",
+      "denominator": {
+        "value": 1,
+        "unit": "adults in each Pew racial and ethnic reporting group",
+        "value_type": "group_specific_adult_universe"
+      },
+      "measures": {
+        "white_eligible_share": {"value": 81, "unit": "percent of White adults eligible to vote", "value_type": "published_share"},
+        "black_eligible_share": {"value": 74, "unit": "percent of Black adults eligible to vote", "value_type": "published_share"},
+        "hispanic_eligible_share": {"value": 52, "unit": "percent of Hispanic adults eligible to vote", "value_type": "published_share"},
+        "asian_eligible_share": {"value": 60, "unit": "percent of Asian adults eligible to vote", "value_type": "published_share"}
+      },
+      "method": "Pew analysis of 2024 ACS data using age and citizenship to define eligibility.",
+      "uncertainty": "Eligibility shares reflect age and citizenship composition and do not identify barriers, preferences, registration, or turnout.",
+      "subgroup": "Pew racial and ethnic reporting groups among U.S. adults.",
+      "counterinterpretation": "Different eligibility shares do not by themselves show unequal political commitment or exclusion; they describe who is a citizen adult and therefore in the formal electorate.",
+      "source_url": "https://www.pewresearch.org/race-and-ethnicity/2026/09/10/the-u-s-electorates-changing-racial-and-ethnic-makeup/",
+      "retrieval_hash": "sha256:4f6e9391c6f6544ac619ac579281690dded322da54476a57e94a11980cb51957",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/programs-surveys/acs",
+      "claim": "The analysis uses American Community Survey data as a major historical source.",
+      "status": "official-data-context"
+    }
+  ],
+  "boundary": "This record measures the changing racial and ethnic composition of the formal eligible electorate and group-specific eligibility shares. It does not measure registration, ballot access, turnout, representation, party preference, policy influence, political efficacy, or legitimacy; 2026 national values are projections and four-group displays omit other or multiple-race categories.",
+  "retrieval_hash": "sha256:4f6e9391c6f6544ac619ac579281690dded322da54476a57e94a11980cb51957"
+}

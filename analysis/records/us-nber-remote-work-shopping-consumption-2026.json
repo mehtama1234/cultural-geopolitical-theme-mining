@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-remote-work-shopping-consumption-2026",
+  "title": "Remote work changes shopping mode, household spending, and who carries the shopping task",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["household_room_consumption", "work_control_bargaining", "housing_place_mobility", "firm_sector_market_power", "platforms_data_attention", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 34883; new survey combined with Nielsen Consumer panel and NielsenIQ marketing data",
+  "geography": "United States households and consumers; remote-work and shopping comparisons",
+  "observations": [{
+    "period": "2026 paper using remote-work and consumer-panel evidence",
+    "denominator": {"value": 1, "unit": "U.S. remote-work and shopping study", "value_type": "study_unit"},
+    "measures": {
+      "shopping_modes": {"value": "working from home increased online shopping and the fraction of store trips occurring on weekdays", "unit": "shopping mode and trip timing", "value_type": "reported_effect"},
+      "spending_basket": {"value": "working from home increased total spending through greater product quantity and range, with spending tilting toward food and general merchandise and away from health and beauty products", "unit": "household consumer-panel spending and basket composition", "value_type": "reported_effect"},
+      "prices_and_deals": {"value": "working from home increased prices paid and lowered price elasticities through movement toward higher-cost products and lower deal usage", "unit": "prices paid, deal use, and price sensitivity", "value_type": "reported_effect"},
+      "household_responsibility": {"value": "the price increase was concentrated among married households and associated with redistribution of shopping responsibility, especially when the new remote worker was male", "unit": "married-household shopping responsibility pattern", "value_type": "reported_subgroup_effect"},
+      "shopping_time": {"value": "remote workers made more shopping trips but spent fewer minutes shopping", "unit": "shopping trips and minutes", "value_type": "reported_effect"},
+      "grocery_price": {"value": "the paper estimates that remote work increased prices paid for groceries by about 1%", "unit": "estimated grocery-price change", "value_type": "reported_estimate"}
+    },
+    "method": "The authors conduct a new survey and analyze Nielsen Consumer panel data, with analyses based in part on NielsenIQ marketing databases, to compare shopping behavior associated with working from home.",
+    "uncertainty": "The public abstract does not join each household's commute time, shopping time, shopper identity, delivery, returns, unpaid planning, full household welfare, local store outcomes, or longer-run work arrangement in one longitudinal record. The reported shopping and price changes do not by themselves establish whether households were better or worse off.",
+    "subgroup": "U.S. consumers with remote-work exposure, including married households and comparisons involving the gender of the new remote worker; the abstract does not establish equal effects for workers who cannot work remotely.",
+    "counterinterpretation": "Higher spending, wider product range, and higher prices may reflect convenience, product choice, household needs, or a change in shopping responsibility rather than simple consumer harm. Fewer shopping minutes can mean efficiency even when trips increase. The study does not establish that remote work caused local store closures, downtown decline, delivery burdens, or unequal access across occupations.",
+    "source_url": "https://www.nber.org/papers/w34883",
+    "retrieval_hash": "sha256:00832e31e8076d4530b5e1cce5100b2325a20ffa6d2ecb05fa41273aca5ed1cc",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34883", "claim": "NBER DOI record for Working Paper 34883", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a work-location-to-shopping conversion finding: remote work changes when and how households shop, what they buy, prices paid, and who handles shopping. It does not establish full household welfare, unpaid care or return work, local business survival, neighborhood change, or the experience of workers without remote-work access."
+}

@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-neighborhoods-firms-intergenerational-mobility-2026",
+  "title": "Childhood neighborhoods transmit both social opportunity and access to jobs",
+  "theme_ids": ["voice", "time", "work"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "work_control_bargaining", "household_room_consumption", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "Census CES Working Paper CES-26-18; Longitudinal Employer-Household Dynamics linked to the 2000 Census, with intergenerational earnings models and person-effect/establishment-premium decompositions",
+  "geography": "United States; childhood neighborhoods and adult earnings, using linked Census and administrative employment data",
+  "observations": [{
+    "period": "U.S. intergenerational earnings mobility; 2000 Census-linked study, paper published March 2026",
+    "denominator": {"value": 1, "unit": "study-defined linked parent-child and neighborhood earnings analysis", "value_type": "study_unit"},
+    "measures": {
+      "neighborhood_relationship": {"value": "the between-neighborhood intergenerational earnings relationship was about twice as strong as the within-neighborhood relationship after adjustment for measurement error in parent earnings", "unit": "intergenerational earnings association", "value_type": "reported_comparison"},
+      "absolute_mobility_variation": {"value": "mean earnings of parents in a neighborhood captured more than 80% of the variation in unrestricted neighborhood effects reflecting differences in absolute mobility", "unit": "share of modeled neighborhood-effect variation", "value_type": "reported_model_result"},
+      "channels": {"value": "children's person effects were mainly influenced by parents' and neighbors' person effects, while children's establishment premiums were mainly influenced by parents' and neighbors' establishment premiums", "unit": "person-effect and establishment-premium decomposition", "value_type": "reported_model_result"},
+      "black_white_gap": {"value": "neighborhoods explained about 30% of the Black–White earnings gap among children conditional on parent earnings, largely through gaps in average person effects", "unit": "conditional adult-earnings gap decomposition", "value_type": "reported_model_result"},
+      "black_share_counterpattern": {"value": "conditional on neighborhood average earnings, children from neighborhoods with higher Black shares achieved higher adult earnings", "unit": "conditional neighborhood comparison", "value_type": "reported_comparison"}
+    },
+    "method": "The authors augment an intergenerational earnings model with childhood-neighborhood parent earnings and use an AKM framework to separate person effects from establishment premiums. The paper studies linked administrative and Census data rather than a randomized neighborhood assignment.",
+    "uncertainty": "The abstract reports modeled relationships and decompositions, not a randomized neighborhood intervention. Neighborhood selection, family resources, local institutions, discrimination, school and social networks, firm access, mobility, and other unobserved factors may contribute to the associations. Adult earnings are not the same as wellbeing, culture, political participation, health, safety, or household security.",
+    "subgroup": "U.S. parent-child linked records with neighborhood and race comparisons; the reported Black–White and neighborhood racial-composition patterns do not represent every racial, ethnic, tribal, immigrant, or place-specific experience.",
+    "counterinterpretation": "A stronger between-neighborhood relationship does not prove that moving a family to a higher-earnings neighborhood would produce the same result. Higher Black-share neighborhoods can have unmeasured institutions, networks, selection, or local labor-market features that matter; the conditional pattern is not evidence that race itself causes higher earnings.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-18.html",
+    "retrieval_hash": "sha256:ef25e5683e9387ce124aff09d7d54467033ead186897515706d301c3e5eae159",
+    "status": "reported"
+  }],
+  "related_sources": [
+    {"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-18.pdf", "claim": "Official Census PDF for CES Working Paper 26-18", "status": "official-paper"}
+  ],
+  "boundary": "This record adds a place-and-firm mechanism to the mobility atlas: childhood neighborhoods may transmit both human-capital conditions and access to establishments and jobs. It does not establish a universal causal effect of moving, a complete explanation of racial earnings gaps, or a direct path from neighborhood conditions to cultural belonging, political action, or durable household security."
+}

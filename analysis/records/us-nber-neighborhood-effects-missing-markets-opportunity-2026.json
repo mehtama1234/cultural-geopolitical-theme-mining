@@ -1,0 +1,58 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-neighborhood-effects-missing-markets-opportunity-2026",
+  "title": "Where a child lives can shape later opportunity because housing markets do not price or finance all opportunity well",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "time_hidden_price"
+  ],
+  "source_unit": "NBER Working Paper 35419, U.S.-centered review of experimental and quasi-experimental neighborhood-effects evidence and opportunity-market failures",
+  "geography": "United States; childhood neighborhoods, residential sorting, housing mobility, and mixed-income policy",
+  "observations": [
+    {
+      "period": "Review of experimental and quasi-experimental evidence on childhood neighborhoods and long-term socioeconomic outcomes",
+      "denominator": {
+        "value": null,
+        "unit": "Multiple studies and policy settings summarized in a review; no single pooled-person denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "neighborhood_effects": {
+          "value": "the reviewed evidence finds substantial causal impacts of childhood neighborhoods on adult earnings and other long-term socioeconomic outcomes",
+          "unit": "reviewed experimental and quasi-experimental evidence",
+          "value_type": "reported_review_conclusion"
+        },
+        "market_failures": {
+          "value": "capital-market limits on borrowing against children's future earnings, neighbor spillovers, behavioral biases, and housing-search frictions can support excessive income-based segregation and under-supply of mixed-income neighborhoods",
+          "unit": "reviewed mechanism classification",
+          "value_type": "reported_mechanism"
+        },
+        "policy_routes": {
+          "value": "customized housing-mobility services combined with subsidized vouchers can help low-income families move to higher-opportunity areas; place-based mixed-income policies appear to improve long-term outcomes for less-advantaged children",
+          "unit": "reviewed policy evidence and interpretation",
+          "value_type": "reported_policy_pattern"
+        },
+        "household_conversion": {
+          "value": "not observed as one common outcome in the review",
+          "unit": "missing same-family search effort, lease-up, school experience, safety, cost, continuity, and adult outcome ledger",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Review and synthesis of experimental and quasi-experimental studies on neighborhood exposure, residential sorting, housing mobility, and place-based policy; the paper is not a single new pooled experiment.",
+      "uncertainty": "The public abstract does not provide a common denominator, one effect size, or a single policy implementation estimate. The mechanisms and policy conclusions combine findings from different studies, places, cohorts, and interventions that should not be treated as one pooled result.",
+      "subgroup": "Children and families differentiated by parental income and residential opportunity; the abstract does not provide a complete common breakdown by race, disability, family structure, transportation, or local housing market.",
+      "counterinterpretation": "Neighborhood selection, school access, family resources, and policy implementation can differ across studies. A move to a higher-opportunity area may impose search, transport, care, social-network, rent, or safety costs, and a place-based intervention may improve some long-term outcomes without producing immediate household stability.",
+      "source_url": "https://www.nber.org/papers/w35419",
+      "retrieval_hash": "sha256:1d37818a07cf69dfa6a1f42d805f7c80c81ac978ea897ef71e170a258d91e840",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.huduser.gov/portal/pdredge/pdr-edge-featd-article-072425.html", "claim": "HUD voucher administrative evidence supplies a separate lease-up and search-time conversion boundary.", "status": "comparative-context"}
+  ],
+  "boundary": "This review record summarizes U.S.-centered evidence that neighborhood exposure and housing-market failures can shape long-term opportunity. It does not provide one pooled causal estimate, show that every voucher or mobility service improves outcomes, or follow one family from housing search through durable adult security."
+}

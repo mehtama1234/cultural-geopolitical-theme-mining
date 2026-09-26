@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-world-urbanization-prospects-cities-towns-rural-2025",
+  "title": "Urban growth is concentrating in cities and towns while smaller settlements and rural systems carry distinct infrastructure and service burdens",
+  "theme_ids": ["time", "energy", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "UN DESA Population Division, World Urbanization Prospects 2025: Summary of Results",
+  "geography": "237 countries or areas; standardized city, town, and rural settlement categories with estimates from 1950 to 2025 and projections to 2050",
+  "observations": [
+    {
+      "period": "1950-2050; global settlement structure",
+      "denominator": {
+        "value": 237,
+        "unit": "countries or areas covered by the 2025 Revision of World Urbanization Prospects",
+        "value_type": "global_settlement_projection_frame"
+      },
+      "measures": {
+        "city_share_2025": {"value": 45, "unit": "percent of the world's 8.2 billion people living in cities in 2025", "value_type": "reported_global_share"},
+        "town_share_2025": {"value": 36, "unit": "percent of global population living in towns in 2025", "value_type": "reported_global_share"},
+        "rural_share_2025": {"value": 19, "unit": "percent of global population living in rural communities in 2025", "value_type": "reported_global_share"},
+        "city_growth_to_2050": {"value": 66.7, "unit": "approximately two-thirds of global population growth projected between 2025 and 2050 occurring in cities", "value_type": "reported_projection"}
+      },
+      "method": "UN DESA standardized Degree of Urbanization methodology using population size, density, spatial data, and country-level estimates and projections for cities, towns, and rural areas.",
+      "uncertainty": "Settlement categories are harmonized analytical definitions and may differ from national urban/rural labels. Projections depend on population, migration, density, land-use, and boundary assumptions; urban share does not measure service quality or lived experience.",
+      "subgroup": "Cities, towns, rural communities, countries and regions at different stages of urbanization, and populations exposed to different infrastructure, housing, transport, health, and environmental conditions.",
+      "counterinterpretation": "Urban growth can improve access to jobs, services, and social networks, while towns and rural areas can retain important economic, ecological, and cultural functions; concentration is not automatically prosperity or deprivation.",
+      "source_url": "https://www.un.org/development/desa/pd/node/4442",
+      "retrieval_hash": "sha256:169af1fe2152f0642321224758feafc9b16b2163512882d73a71bee693c7476c",
+      "status": "estimated"
+    },
+    {
+      "period": "1975-2050; megacity and metropolitan concentration",
+      "denominator": {
+        "value": 1,
+        "unit": "global city population and megacity comparison frame",
+        "value_type": "global_city_projection_frame"
+      },
+      "measures": {
+        "megacities_1975": {"value": 8, "unit": "cities with 10 million or more inhabitants in 1975", "value_type": "reported_historical_count"},
+        "megacities_2025": {"value": 33, "unit": "cities with 10 million or more inhabitants in 2025", "value_type": "reported_count"},
+        "megacities_2050": {"value": 37, "unit": "megacities projected globally by 2050", "value_type": "reported_projection"},
+        "asia_megacity_share": {"value": 19, "unit": "megacities located in Asia in 2025", "value_type": "reported_count"}
+      },
+      "method": "UN DESA estimates and projections of city populations under the standardized settlement framework, with city-size and regional comparisons.",
+      "uncertainty": "Megacity counts depend on the standardized definition and projection assumptions; very large city populations can span administrative boundaries and do not capture inequality within metropolitan areas.",
+      "subgroup": "Megacities, metropolitan regions, fast-growing and shrinking cities, urban residents, and governments planning infrastructure, housing, transport, energy, and climate resilience.",
+      "counterinterpretation": "Most urban residents do not live in megacities; large-city growth does not imply that all investment, cultural influence, or population movement follows the largest metropolitan areas.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2025_wup2025_summary_of_results.pdf",
+      "retrieval_hash": "sha256:169af1fe2152f0642321224758feafc9b16b2163512882d73a71bee693c7476c",
+      "status": "estimated"
+    },
+    {
+      "period": "2025-2050; small and medium-sized city growth and geographic concentration",
+      "denominator": {
+        "value": 12000,
+        "unit": "approximately cities identified globally in 2025",
+        "value_type": "global_city_inventory_frame"
+      },
+      "measures": {
+        "small_city_share": {"value": 96, "unit": "percent of cities with fewer than 1 million inhabitants", "value_type": "reported_city_share"},
+        "under_250k_share": {"value": 81, "unit": "percent of cities with fewer than 250,000 inhabitants", "value_type": "reported_city_share"},
+        "city_growth_concentration": {"value": 7, "unit": "countries expected to account for more than half of the projected 986 million increase in global city dwellers by 2050", "value_type": "reported_country_count"},
+        "concentration_countries": {"value": "India, Nigeria, Pakistan, Democratic Republic of the Congo, Egypt, Bangladesh, and Ethiopia", "unit": "reported countries accounting for over 500 million additional city residents", "value_type": "reported_geographic_concentration"}
+      },
+      "method": "UN DESA city-inventory estimates and projections combining settlement size, population density, country growth, and standardized spatial classification.",
+      "uncertainty": "City counts, size thresholds, and projected population growth are sensitive to geospatial definitions, data availability, migration, fertility, and national development trajectories. Growth concentration does not measure planning capacity consistently across countries.",
+      "subgroup": "Small and medium-sized cities, rapidly growing cities in Africa and Asia, local governments, residents, service providers, and rural-to-urban or inter-urban movers.",
+      "counterinterpretation": "Smaller cities can be more adaptable and less congested than megacities, and growth can strengthen local economies; planning gaps are risks identified by the report, not proof of universal service failure.",
+      "source_url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2025_wup2025_summary_of_results.pdf",
+      "retrieval_hash": "sha256:169af1fe2152f0642321224758feafc9b16b2163512882d73a71bee693c7476c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.un.org/development/desa/pd/content/world-urbanization-prospects-2025-ten-key-messages", "claim": "UN DESA key messages for the 2025 urbanization revision."},
+    {"source_url": "https://population.un.org/wup/", "claim": "UN DESA World Urbanization Prospects data portal and methodology resources."},
+    {"source_url": "https://desapublications.un.org/un-desa-voice/more-from-undesa/december-2025/new-look-urbanization-whats-changing-and-why-it", "claim": "UN DESA explanation of the Degree of Urbanization method and policy relevance."}
+  ],
+  "boundary": "This record adds city-town-rural settlement structure and urban-growth concentration to the place, infrastructure, care, and state-capacity map. It is not local housing, service, migration, climate, or household-outcome evidence and does not establish that urbanization causes any specific cultural, political, consumer, or health behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA urbanization report page, summary PDF search result, key-message material, and data portal were retrieved; city/town/rural shares, growth projection, megacity counts, city-size distribution, and seven-country concentration were cross-checked against official UN materials. The hash is a source-URL fingerprint for the report landing page.",
+    "source_url_sha256": "sha256:169af1fe2152f0642321224758feafc9b16b2163512882d73a71bee693c7476c",
+    "checked": "2026-09-26"
+  }
+}

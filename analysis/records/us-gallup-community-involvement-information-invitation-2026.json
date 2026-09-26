@@ -1,0 +1,86 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-community-involvement-information-invitation-2026",
+  "title": "Community participation is constrained by information and invitation as well as time",
+  "theme_ids": ["voice", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "time_hidden_price",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup and Charles F. Kettering Foundation community-involvement study",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2026 publication; study of more than 20,000 U.S. adults",
+      "denominator": {
+        "value": 100,
+        "unit": "published percentage base for U.S. adults and relevant free-time/want-to-participate groups",
+        "value_type": "published_percentage_base"
+      },
+      "measures": {
+        "volunteered_or_participated": {
+          "value": 31,
+          "unit": "percent who volunteered or actively participated in organizations intended to improve community conditions in the past year",
+          "value_type": "published_share"
+        },
+        "wanted_but_did_not_participate": {
+          "value": 36,
+          "unit": "percent who wanted to volunteer or participate but did not",
+          "value_type": "published_share"
+        },
+        "regular_free_time": {
+          "value": 69,
+          "unit": "percent reporting at least six hours of free time on weekdays, weekends, or both",
+          "value_type": "published_share"
+        },
+        "ample_free_time_group_participated": {
+          "value": 31,
+          "unit": "percent of adults with at least six hours of free time on weekdays or weekends who participated",
+          "value_type": "published_conditional_share"
+        },
+        "would_be_participants_unsure_how": {
+          "value": 54,
+          "unit": "percent of would-be volunteers with ample free time who say they are unsure how to get involved",
+          "value_type": "published_conditional_share"
+        },
+        "would_be_participants_not_invited": {
+          "value": 51,
+          "unit": "percent of would-be volunteers with ample free time who say they have not been invited or encouraged to participate",
+          "value_type": "published_conditional_share"
+        },
+        "work_family_barrier_would_be_participants": {
+          "value": 46,
+          "unit": "percent of would-be volunteers reporting work or family obligations as a barrier",
+          "value_type": "published_conditional_share"
+        },
+        "work_family_barrier_participants": {
+          "value": 45,
+          "unit": "percent of volunteers reporting work or family obligations as a barrier",
+          "value_type": "published_conditional_share"
+        }
+      },
+      "method": "Gallup and Kettering Foundation descriptive study of more than 20,000 Americans using self-reported free-time, participation, desire, and barrier measures.",
+      "uncertainty": "The public article does not provide the full sample size, weighting details, subgroup standard errors, or questionnaire microdata. The free-time and participation measures are self-reports and the article does not establish a causal effect of information or invitation.",
+      "subgroup": "Adults grouped by reported free time, participation status, desire to participate, and stated barriers.",
+      "counterinterpretation": "Knowledge and invitation may be proxies for organizational access, social networks, local opportunity, health, transportation, safety, or prior belonging. People may also report wanting to participate after the opportunity was unavailable, so the direction of selection is unknown.",
+      "source_url": "https://news.gallup.com/poll/708566/free-time-not-predict-americans-community-involvement.aspx",
+      "retrieval_hash": "sha256:9486ee2d131ad278cd6ff7f1537b972b2666881cd3f43f1d2dd27f0da8574ffe",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "claim": "The Democracy for All Project provides a separate local-national democratic-legitimacy comparison.",
+      "status": "cross-source-context"
+    }
+  ],
+  "boundary": "This record supports an access-and-translation subtheme for community participation. It does not prove that free time is irrelevant, estimate the effect of invitations, measure objective opportunity, or establish a causal path from participation to democratic legitimacy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Gallup article reviewed; the underlying full dataset is not retained.",
+    "checked": "2026-09-25"
+  }
+}

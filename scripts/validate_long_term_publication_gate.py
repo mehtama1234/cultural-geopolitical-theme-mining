@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 CHECKS = [
+    ("macro tension register", ["scripts/validate_macro_tension_register.py"]),
     ("program control sync", ["scripts/validate_program_control_sync.py"]),
     (
         "strategic realization ledger",
@@ -27,12 +28,17 @@ CHECKS = [
         ],
     ),
     ("source registry coverage", ["scripts/audit_source_registry_coverage.py"]),
+    ("broad source-promotion audit", ["scripts/audit_source_promotion.py"]),
     ("source-search records", ["scripts/validate_source_search_records.py"]),
     ("trend provenance", ["scripts/validate_trend_provenance.py"]),
     ("trend observation records", ["scripts/validate_trend_observation_records.py"]),
     ("finding Markdown/HTML parity", ["scripts/validate_us_finding_parity.py"]),
     ("watchlist Markdown/HTML parity", ["scripts/validate_watchlist_parity.py"]),
     ("broad counterexample register", ["scripts/validate_broad_counterexample_register.py"]),
+    ("broad priority register", ["scripts/validate_broad_priority_register.py"]),
+    ("PSID wave-file audit", ["scripts/test_psid_wave_file_audit.py"]),
+    ("broad theme pulse sections", ["scripts/validate_broad_theme_pulse_sections.py"]),
+    ("source-first theme map", ["scripts/validate_source_first_theme_map.py"]),
     ("broad-goal integrity", ["scripts/test_broad_goal_integrity.py"]),
     (
         "broad event-ledger contract",
@@ -45,6 +51,14 @@ CHECKS = [
     (
         "broad event-ledger portfolio summary",
         ["scripts/validate_broad_event_ledger_portfolio_summary.py"],
+    ),
+    (
+        "broad remedy-stage coverage",
+        ["scripts/validate_broad_remedy_stage_coverage.py"],
+    ),
+    (
+        "recovery brief current state",
+        ["scripts/validate_recovery_brief_current_state.py"],
     ),
     (
         "broad same-case availability guards",

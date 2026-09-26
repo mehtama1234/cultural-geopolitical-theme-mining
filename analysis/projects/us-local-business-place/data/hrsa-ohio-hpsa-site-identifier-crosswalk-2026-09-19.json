@@ -1,0 +1,42 @@
+{
+  "schema": "hrsa-ohio-hpsa-site-identifier-crosswalk-v1",
+  "checked": "2026-09-19",
+  "sources": {
+    "hpsa_file": "analysis/projects/us-local-business-place/data/hrsa-primary-care-hpsa.csv",
+    "site_file_temp": "/tmp/hrsa-health-center-sites-2026-09-19.csv",
+    "site_file_sha256": "316658d0e620fcc3d8660a27f10450fe1d413f076a8e88f484c56595e081dd95",
+    "site_file_url": "https://data.hrsa.gov/DataDownload/DD_Files/Health_Center_Service_Delivery_and_LookAlike_Sites.csv"
+  },
+  "method": {
+    "hpsa_rows": "Ohio, HPSA Status != Withdrawn, nonmissing HPSA Latitude/Longitude",
+    "site_rows": "Ohio, nonmissing site geocoding X/Y",
+    "identifier_join": "normalized BHCMIS Organization Identification Number",
+    "distance": "minimum haversine distance from each HPSA coordinate to a site with the same BHCMIS organization identifier",
+    "earth_radius_km": 6371.0088
+  },
+  "result": {
+    "hpsa_coordinate_rows": 94,
+    "hpsa_rows_with_bhcmis_identifier": 61,
+    "hpsa_rows_with_shared_bhcmis_identifier": 61,
+    "shared_identifier_rows_with_site_coordinates": 61,
+    "same_identifier_nearest_distance_km": {
+      "min": 0.0,
+      "median": 0.0,
+      "mean": 0.4305542638,
+      "max": 15.0225083630
+    },
+    "same_identifier_distance_thresholds": {
+      "within_0_1_km": 56,
+      "within_1_km": 57,
+      "within_5_km": 59,
+      "within_10_km": 60
+    },
+    "designation_type_breakdown": {
+      "Federally Qualified Health Center": {"rows": 51, "within_0_1_km": 48, "within_1_km": 49, "within_5_km": 50, "within_10_km": 50, "median_km": 0.0, "max_km": 15.0225083630},
+      "Federally Qualified Health Center Look A Like": {"rows": 10, "within_0_1_km": 8, "within_1_km": 8, "within_5_km": 9, "within_10_km": 10, "median_km": 0.0, "max_km": 5.7191269341}
+    }
+  },
+  "interpretation": "The shared BHCMIS identifier is stronger than geographic proximity and supports an administrative organization-level crosswalk for 61 HPSA coordinate rows. It does not establish that a specific site is the designated service location, offers the designated primary-care service, accepts a patient, has an appointment, or produced completed care.",
+  "next_test": "Use the shared identifier and site IDs to inspect service type, active hours, operating schedule, insurance/patient acceptance, appointment wait, and travel assumptions. Keep the 33 coordinate rows without a shared identifier and all non-coordinate population/geographic HPSA rows as explicit missingness.",
+  "storage_boundary": "Retains compact counts and distance summaries only; the downloaded site CSV remains outside the repository."
+}

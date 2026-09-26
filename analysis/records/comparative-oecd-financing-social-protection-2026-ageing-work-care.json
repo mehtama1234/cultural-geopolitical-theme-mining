@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-oecd-financing-social-protection-2026-ageing-work-care",
+  "title": "Aging, nonstandard work, and technology are changing who finances social protection and who is covered",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": ["care_health_reproduction", "public_systems_feedback", "work_control_bargaining", "household_room_consumption", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "OECD, Financing of Social Protection, published 9 September 2026",
+  "geography": "OECD and European Union countries, with comparative analysis of social-protection financing, aging, work forms, labor income, pensions, health, long-term care, and family benefits",
+  "observations": [
+    {
+      "period": "2023-2045; social-protection spending and aging pressures",
+      "denominator": {"value": 1, "unit": "OECD and EU social-protection financing comparison frame", "value_type": "cross_country_social_protection_frame"},
+      "measures": {
+        "social_protection_spending": {"value": 23, "unit": "percent of GDP accounted for by social-protection expenditure in the OECD and EU, approximately", "value_type": "reported_spending_share"},
+        "oecd_pension_spending_change": {"value": 1.1, "unit": "percentage-point projected increase in OECD pension spending as a share of GDP between 2023 and 2045", "value_type": "forecast_spending_change"},
+        "oecd_health_ltc_spending_change": {"value": 1.5, "unit": "percentage-point projected increase in OECD health and long-term-care spending as a share of GDP between 2023 and 2045", "value_type": "forecast_spending_change"},
+        "spending_pressure_set": {"value": "population ageing, structural change, technology-driven job reallocation, and fiscal constraints", "unit": "reported social-protection pressure set", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD comparative analysis of public and private social-protection expenditure, financing mixes, demographic projections, labor income, and policy scenarios.",
+      "uncertainty": "Projected spending changes are scenario-dependent and do not establish future benefit adequacy, service quality, tax incidence, or household access in any specific country.",
+      "subgroup": "Older people, workers, caregivers, families, people needing health and long-term care, taxpayers, employers, pension institutions, and public budgets.",
+      "counterinterpretation": "Healthy aging, higher employment, productivity growth, prevention, family support, and better care organization could change spending paths; higher spending can also reflect expanded protection rather than deterioration.",
+      "source_url": "https://www.oecd.org/en/publications/financing-of-social-protection_b384fd31-en.html",
+      "retrieval_hash": "sha256:fda5f279369cd84b1f7903dc9061078892ea25e23ed992ab39303b04c432ba23",
+      "status": "estimated"
+    },
+    {
+      "period": "1995-2023; contribution mix and employment-linked financing",
+      "denominator": {"value": 1, "unit": "OECD and EU public social-spending financing frame", "value_type": "social_contribution_comparison_frame"},
+      "measures": {
+        "social_security_contribution_share_2023": {"value": 43, "unit": "percent of OECD social spending financed through social-security contributions in 2023", "value_type": "reported_financing_share"},
+        "social_security_contribution_share_1995": {"value": 47, "unit": "percent of OECD social spending financed through social-security contributions in 1995", "value_type": "reported_financing_share"},
+        "eu_employer_contribution_share": {"value": 60, "unit": "percent of EU social contributions paid by employers, more than half", "value_type": "reported_financing_share"},
+        "employment_risk_financing": {"value": "social-security contributions finance 63 percent of earnings-related old-age and unemployment benefits versus 23 percent of family benefits", "unit": "reported financing difference", "value_type": "reported_financing_comparison"}
+      },
+      "method": "OECD comparison of social-security contributions, general revenues, employer and employee financing, and benefit categories over time.",
+      "uncertainty": "Financing shares do not measure the ultimate incidence of contributions, benefit adequacy, labor-market effects, or the political feasibility of shifting financing sources.",
+      "subgroup": "Employees, employers, self-employed workers, families, pensioners, unemployed people, taxpayers, and social-insurance institutions.",
+      "counterinterpretation": "Contribution-linked financing can strengthen insurance and accountability, while general revenue can better fund benefits not tied to employment and protect people with unstable careers.",
+      "source_url": "https://www.oecd.org/en/publications/financing-of-social-protection_b384fd31-en.html",
+      "retrieval_hash": "sha256:fda5f279369cd84b1f7903dc9061078892ea25e23ed992ab39303b04c432ba23",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2060; self-employment, work hours, and the financing base",
+      "denominator": {"value": 1, "unit": "EU and OECD labor-income and social-protection financing frame", "value_type": "work_financing_base_frame"},
+      "measures": {
+        "eu_self_employment_share": {"value": 14, "unit": "percent of EU employment accounted for by self-employed workers", "value_type": "reported_employment_share"},
+        "eu_self_employed_contribution_share": {"value": 4, "unit": "percent of EU social-protection contributions accounted for by self-employed workers", "value_type": "reported_contribution_share"},
+        "oecd_hours_worked_change": {"value": -9, "unit": "percent projected decline in total hours worked across the OECD between 2024 and 2060 under the report's scenario", "value_type": "forecast_work_change"},
+        "eu_hours_worked_change": {"value": -20, "unit": "percent projected decline in total hours worked across the EU over the same scenario", "value_type": "forecast_work_change"},
+        "coverage_mechanism": {"value": "formal coverage gaps, low take-up of voluntary schemes, incomplete risk pooling, and weaker unemployment-benefit coverage among self-employed workers", "unit": "reported work-to-protection mechanism", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD comparison of employment status, contribution records, coverage gaps, voluntary schemes, demographic projections, and total-hours scenarios.",
+      "uncertainty": "The hours scenarios do not forecast individual retirement, care, income, or labor-supply decisions; coverage patterns vary by country and work form.",
+      "subgroup": "Self-employed and platform workers, part-time workers, employees, older people, caregivers, employers, and people with unstable work histories.",
+      "counterinterpretation": "Self-employment can provide autonomy and entry, while expanded coverage and contribution subsidies can improve protection; higher employment among under-represented groups could offset aggregate hours decline, though not everywhere.",
+      "source_url": "https://www.oecd.org/en/publications/financing-of-social-protection_b384fd31-en.html",
+      "retrieval_hash": "sha256:fda5f279369cd84b1f7903dc9061078892ea25e23ed992ab39303b04c432ba23",
+      "status": "estimated"
+    },
+    {
+      "period": "2026; financing redesign, capital income, inheritance, and care services",
+      "denominator": {"value": 1, "unit": "OECD policy-options and social-protection financing frame", "value_type": "policy_redesign_frame"},
+      "measures": {
+        "private_social_spending_eu": {"value": 2.3, "unit": "percent of GDP represented by private social spending in the EU in 2021, average", "value_type": "reported_private_spending_share"},
+        "labor_income_tax_base": {"value": "about half of tax revenue is raised from labor income", "unit": "reported tax-base relationship", "value_type": "reported_financing_relationship"},
+        "policy_options": {"value": "general revenues, capital and inheritance taxation, property taxation, contribution subsidies, formalization, and expanded coverage for self-employed workers", "unit": "reported financing-policy set", "value_type": "reported_policy_mechanism_set"},
+        "care_endpoint": {"value": "health, long-term care, child benefits, poverty prevention, and care-leave credits may require financing less dependent on employment", "unit": "reported social-reproduction endpoint", "value_type": "reported_mechanism_set"}
+      },
+      "method": "OECD policy analysis of alternative social-protection financing bases, demographic change, labor and capital income, inheritance, property, informality, and care-related benefits.",
+      "uncertainty": "Policy options involve distributional, administrative, behavioral, and political tradeoffs; the report does not identify a universally optimal financing mix or realized reform effects.",
+      "subgroup": "Workers, caregivers, families, pensioners, self-employed people, firms, asset holders, local governments, and recipients of health, long-term-care, family, and anti-poverty services.",
+      "counterinterpretation": "Broader financing bases can improve resilience but may create new compliance and fairness disputes; capital and property taxes also face valuation, mobility, and administration constraints.",
+      "source_url": "https://www.oecd.org/en/publications/financing-of-social-protection_b384fd31-en.html",
+      "retrieval_hash": "sha256:fda5f279369cd84b1f7903dc9061078892ea25e23ed992ab39303b04c432ba23",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.1787/b384fd31-en", "claim": "Official OECD DOI for Financing of Social Protection."},
+    {"source_url": "https://www.oecd.org/en/topics/ageing-and-long-term-care.html", "claim": "OECD aging and long-term-care topic context for informal care and system adaptation."}
+  ],
+  "boundary": "This record adds an aging-and-work-to-social-protection-financing route linking care, pensions, health, long-term care, labor income, self-employment, technology, taxes, and public budgets. It is not respondent-level household data, an individual care or pension trajectory, a universal tax recommendation, or proof that any financing reform was implemented or improved access.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official OECD Financing of Social Protection publication page and executive summary were reviewed; spending projections, contribution shares, self-employed coverage, total-hours scenarios, financing-base options, and care-related boundaries were cross-checked.",
+    "source_url_sha256": "sha256:fda5f279369cd84b1f7903dc9061078892ea25e23ed992ab39303b04c432ba23",
+    "checked": "2026-09-26"
+  }
+}

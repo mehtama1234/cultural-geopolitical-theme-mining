@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-female-teachers-female-students-lifetime-2026",
+  "title": "A local role model can alter girls' education and family trajectories decades later",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "work_control_bargaining",
+    "housing_place_mobility"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using historical U.S. Census data linked to IRS records, later censuses, and death records",
+  "geography": "Rural United States circa 1940, with linked later-life outcomes",
+  "observations": [
+    {
+      "period": "Rural school exposure circa 1940; later-life outcomes observed through linked records; paper published June 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined girls exposed to female primary-school teachers and comparison groups; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "educational_attainment": {
+          "value": "exposure to female teachers significantly improved girls' educational attainment",
+          "unit": "reported long-run relationship",
+          "value_type": "reported_relationship"
+        },
+        "stronger_effect_context": {
+          "value": "effects were particularly pronounced among girls with poorly educated parents and in places with limited labor-market opportunities for women",
+          "unit": "reported heterogeneity",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "family_and_household_path": {
+          "value": "educational gains translated into delayed marriage and childbearing, marriage to better-educated husbands, and higher household income",
+          "unit": "reported linked later-life outcomes",
+          "value_type": "reported_relationship"
+        },
+        "longevity": {
+          "value": "exposure increased women's longevity relative to men's",
+          "unit": "reported linked mortality outcome",
+          "value_type": "reported_relationship"
+        }
+      },
+      "method": "Census CES working paper linking historical U.S. Census data to IRS records, later censuses, and death records to study girls' exposure to female primary-school teachers in rural America circa 1940 and later educational, family, household-income, and longevity outcomes.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full sample, teacher-assignment design, exposure measurement, estimates, or all controls. The historical rural setting limits direct transfer to current schools, urban places, boys, or other countries. The linked outcomes show a long-run relationship under the study design, not a complete account of the mechanisms or every student's experience.",
+      "subgroup": "Girls in rural America circa 1940, with stronger reported effects for those with poorly educated parents and in places with limited labor-market opportunities for women.",
+      "counterinterpretation": "Female-teacher exposure may capture school quality, local labor markets, family selection, community institutions, or other changes correlated with having more women teachers. The paper's broader design may address some confounding, but the public abstract does not establish which mechanism drove each later outcome. Higher household income or longevity does not by itself prove autonomy, safety, equal treatment, or political participation.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-39.html",
+      "retrieval_hash": "sha256:dad1796f8e4280bcbfde8f7dd13a6e7198ffbc12219b86967d11a11bb09c7ec2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/topics/research/library/working-papers.html",
+      "claim": "The Census working-paper catalog summarizes the linked-record study's education, family, household-income, and longevity findings.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a bounded school-exposure-to-later-life pathway in historical rural America. It does not establish current school effects, universal gender effects, the exact mechanism, political behavior, individual autonomy, or a same-period estimate for present-day communities.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-39 landing page and official working-paper catalog reviewed; underlying linked administrative records and paper PDF are not retained",
+    "checked": "2026-09-22"
+  }
+}

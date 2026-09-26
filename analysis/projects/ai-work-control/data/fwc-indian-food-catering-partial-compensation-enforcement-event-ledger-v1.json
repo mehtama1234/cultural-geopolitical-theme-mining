@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_institutional_enforcement_followup_record",
+  "purpose": "Bounded Fair Work Commission and court-enforcement case preserving partial compensation payment, residual unpaid loss, enforcement, and penalty as separate remedy stages.",
+  "events": [
+    {
+      "event_id": "FWC-INDIAN-FOOD-CATERING-2019-05-30",
+      "unit": "worker",
+      "geography": "Australia; Fair Work Division of the Federal Circuit Court, Fair Work Commission enforcement example",
+      "actor_initiating_change": "employer",
+      "event_date": "2019-05-30",
+      "date_precision": "court judgment date; Commission compensation order ran from September 2018 through February 2019",
+      "denominator": "One publicly summarized adjudicated enforcement case; no population denominator",
+      "method": "Structured extraction from the official Fair Work Commission enforcement page",
+      "missingness": "Worker identity beyond the public case, original dismissal circumstances, alternatives, household effects, payment instrument, later employment, trust, recurrence, and exit are not retained; payment amounts are reported by the institution rather than independently audited here",
+      "condition_or_decision": "job_rule",
+      "exposure": "The worker was found unfairly dismissed and the Commission ordered $18,000 compensation, payable in six instalments from September 2018 through February 2019",
+      "alternatives_before_action": "The public enforcement summary does not report substitute employment, non-use, bargaining alternatives, or household buffers",
+      "immediate_burden_or_benefit": "The employer did not make the ordered instalments as required; at the enforcement application only $5,000 had been paid, and later payments brought the total to $7,000 while $5,008 remained outstanding after tax",
+      "choice_or_response": "The Fair Work Ombudsman applied to the Court in March 2019 to enforce the order; the employer's financial difficulty and cooperation were considered in the enforcement outcome",
+      "person_or_actor_with_control": "The employer controlled instalment execution; the worker bore the consequences of delay; the Fair Work Ombudsman and Court controlled enforcement and penalty routes",
+      "remedy_or_institutional_response": "The Court ordered payment of the outstanding $5,008 plus interest and imposed a $5,000 fine, after the employer had made only partial payments",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "The official summary reports $7,000 paid against the order and $5,008 outstanding after tax at the enforcement stage; later receipt is not observed",
+      "durability_followup": "The record ends at partial payment, enforcement, and penalty; later work, household recovery, recurrence, trust, switching, and exit are unknown",
+      "immediate_outcome": "Partial compensation implementation and a residual unpaid balance are reported, followed by court enforcement and a further payment order",
+      "protected_outcome": "Some monetary compensation was delivered and the enforcement route preserved a claim to the remaining amount; restored employment and durable livelihood are not verified",
+      "sacrificed_outcome": "Payment delay and the outstanding balance left the worker exposed to residual income loss and enforcement delay; later household effects are unknown",
+      "cost_risk_transfer": "The worker and public enforcement system carried delay and enforcement effort while employer financial difficulty affected payment timing; the Court transferred a further legal obligation and penalty to the employer",
+      "later_outcome": "The institution reports partial payment, an outstanding balance, and a subsequent order for the balance plus interest; no later lived recovery endpoint is public",
+      "meaning_and_attribution": "The enforcement record attributes the unresolved balance to noncompliance and financial difficulty; it contains no worker-reported trust or meaning measure",
+      "public_or_collective_response": "Public enforcement by the Fair Work Ombudsman is observed; no later collective action or political response is reported",
+      "counterexample": "A compensation order can produce real partial payment while leaving a material balance unpaid and employment restoration unaddressed",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Fair Work Commission enforcement page, https://www.fwc.gov.au/role-court-unfair-dismissal-cases; it reports the order, payment totals, outstanding balance, employer financial difficulty, further order, and fine, but is not a payment-instrument audit or claimant follow-up",
+      "source_url": "https://www.fwc.gov.au/role-court-unfair-dismissal-cases"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWC-INDIAN-FOOD-CATERING-A-01",
+      "from": "Commission compensation order with scheduled instalments",
+      "to": "partial payment and residual balance",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official summary reports $5,000 paid at the enforcement application, $7,000 paid after the Court's April orders, and $5,008 still outstanding after tax",
+      "status": "reported",
+      "counterexample": "A scheduled payment plan and some payment do not establish full or timely receipt",
+      "remaining_gap": "Payment instrument, exact timing, worker confirmation, and final receipt"
+    },
+    {
+      "arrow_id": "FWC-INDIAN-FOOD-CATERING-A-02",
+      "from": "residual unpaid compensation",
+      "to": "Fair Work Ombudsman court enforcement",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The Fair Work Ombudsman applied to the Court in March 2019 after the ordered instalments were not made as required",
+      "status": "reported",
+      "counterexample": "Enforcement access is visible in this institutional record but is not evidence that every affected worker can use it",
+      "remaining_gap": "Worker effort, delay cost, representation, and alternative enforcement routes"
+    },
+    {
+      "arrow_id": "FWC-INDIAN-FOOD-CATERING-A-03",
+      "from": "enforcement application",
+      "to": "further balance order, interest, and fine",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official page reports an order for the outstanding $5,008 plus interest and a $5,000 fine",
+      "status": "reported",
+      "counterexample": "A further order and penalty do not establish final payment or livelihood recovery",
+      "remaining_gap": "Post-judgment payment, net receipt, later employment, and household outcome"
+    },
+    {
+      "arrow_id": "FWC-INDIAN-FOOD-CATERING-A-04",
+      "from": "partial compensation and enforcement",
+      "to": "durable recovery, trust, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official institutional record ends at partial payment, outstanding balance, further order, and fine",
+      "status": "open",
+      "counterexample": "Enforcement can improve monetary remedy while leaving employment access, later security, and trust unobserved",
+      "remaining_gap": "Final receipt, later work, household recovery, trust, recurrence, collective action, switching, and exit"
+    }
+  ],
+  "boundary": "This ledger adds an official partial-payment enforcement endpoint. It demonstrates that reported receipt can be incomplete and delayed, without establishing final payment, restored employment, adequate recovery, or general prevalence.",
+  "storage_boundary": "No claimant file, payment instrument, direct personal data beyond the public case reference, or bulk archive is retained; only bounded institutional summary fields, remedy sequence, uncertainty, and open downstream arrows are represented."
+}

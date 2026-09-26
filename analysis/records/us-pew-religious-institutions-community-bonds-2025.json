@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-religious-institutions-community-bonds-2025",
+  "title": "Religious institutions retain a community-service legitimacy that is unevenly shared",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": ["trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status", "time_hidden_price"],
+  "source_unit": "Pew Research Center 2023-24 Religious Landscape Study of U.S. adults",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "2023-24 Religious Landscape Study; published February 26, 2025",
+      "denominator": {"value": 1, "unit": "U.S. adult survey population; published subgroup estimates use question-specific denominators", "value_type": "survey_population"},
+      "measures": {
+        "religious_orgs_bring_people_together": {"value": 80, "unit": "percent saying religious organizations help bring people together and strengthen community bonds", "value_type": "reported_share"},
+        "religious_orgs_help_poor": {"value": 78, "unit": "percent saying religious institutions play an important role in helping the poor and needy", "value_type": "reported_share"},
+        "unaffiliated_net_positive_view": {"value": 23, "unit": "percent of religiously unaffiliated adults expressing a net positive view in the 2023-24 comparison reported by Pew", "value_type": "reported_share"},
+        "monthly_religious_participation": {"value": 40, "unit": "percent participating in religious services in person and/or online at least monthly", "value_type": "reported_share"},
+        "religious_congregation_membership": {"value": 37, "unit": "percent personally belonging to a church, synagogue, mosque, or other house of worship", "value_type": "reported_share"}
+      },
+      "method": "Pew Research Center Religious Landscape Study extraction; public evaluations of community and anti-poverty roles are retained separately from participation and membership.",
+      "uncertainty": "Cross-sectional self-reports do not measure services actually delivered, recipient adequacy, institutional trust over time, political action, or whether favorable evaluations reflect personal use, identity, or general social judgment. Survey-mode differences limit direct comparison with older studies.",
+      "subgroup": "U.S. adults, with published comparisons by religious affiliation and religiously unaffiliated status.",
+      "counterinterpretation": "People may value religious organizations' community role without belonging to them, attending services, accepting their political influence, or trusting every institution. Membership and participation also do not prove receipt of aid or social support.",
+      "source_url": "https://www.pewresearch.org/religion/2025/02/26/religious-landscape-study-religions-role-in-public-life/",
+      "retrieval_hash": "sha256:eb1be360d7b1966954e60de1f412e79251b04c18bd3eb5fd3116ed6153aa6ac4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a religious-institution community and legitimacy layer. It does not establish service delivery, material relief, political influence, causal participation, or durable trust, and it should not be treated as a general measure of religiosity."
+}

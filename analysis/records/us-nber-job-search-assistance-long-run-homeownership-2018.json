@@ -1,0 +1,53 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-job-search-assistance-long-run-homeownership-2018",
+  "title": "Randomized job-search assistance produced long-run employment gains with heterogeneous downside and housing effects",
+  "theme_ids": ["work", "cost", "time"],
+  "program_theme_ids": ["work_control_bargaining", "household_room_consumption", "housing_place_mobility", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 24422, randomized Nevada unemployment-insurance job-search assistance linked to administrative tax and housing outcomes",
+  "geography": "Nevada, United States",
+  "observations": [
+    {
+      "period": "July-December 2009 Nevada UI intervention; follow-up population described by NBER Digest",
+      "denominator": {"value": 32751, "unit": "people receiving unemployment insurance during the intervention period", "value_type": "reported_population"},
+      "measures": {
+        "offered_assistance": {"value": 4673, "unit": "people randomly selected/offered an individualized meeting and job-search assistance", "value_type": "reported_program_count"},
+        "assistance_content": {"value": null, "unit": "eligibility review, skills assessment, work-search plan, resume assistance, and direct job referrals", "value_type": "reported"},
+        "administrative_route": {"value": null, "unit": "attendance and active-search requirements were enforced through the unemployment-insurance system", "value_type": "reported"}
+      },
+      "method": "Randomized offer of a required one-on-one UI meeting with personalized job counseling, analyzed using administrative tax records and program data; nonparticipants were other UI recipients not offered the intervention.",
+      "uncertainty": "The intervention combines counseling, eligibility review, job-search enforcement, and referrals, so the separate contribution of each component is not identified. An offer is not the same as attendance, counseling completion, job acceptance, or a preferred job.",
+      "subgroup": "UI beneficiaries in Nevada; the later paper studies heterogeneous treatment effects, including baseline earnings and estimated individual long-run effects.",
+      "counterinterpretation": "The intervention may accelerate compliance or exit from UI rather than improve job quality; enforcement and counseling are jointly delivered, and aggregate gains can coexist with negative effects for a substantial subgroup.",
+      "source_url": "https://www.nber.org/papers/w24422",
+      "retrieval_hash": "sha256:21b8afd8f25bae86a7baf1ae88ee51619bd8439cacc062e9fb9570c159afa5f7",
+      "status": "reported"
+    },
+    {
+      "period": "Up to eight years after the 2009 intervention",
+      "denominator": {"value": null, "unit": "randomized UI participants linked to administrative tax, UI, disability-insurance, and housing outcomes; disclosure-compliant study estimates", "value_type": "not_disclosed"},
+      "measures": {
+        "long_run_employment": {"value": null, "unit": "employment increased over the eight-year follow-up", "value_type": "reported_experimental_effect"},
+        "long_run_earnings": {"value": null, "unit": "earnings increased over the eight-year follow-up", "value_type": "reported_experimental_effect"},
+        "short_term_ui": {"value": null, "unit": "short-term unemployment-insurance receipt decreased", "value_type": "reported_experimental_effect"},
+        "homeownership_loss": {"value": null, "unit": "loss of homeownership decreased; positive impacts concentrated among people with positive employment effects", "value_type": "reported_experimental_effect"},
+        "tax_filing_and_receipts": {"value": null, "unit": "federal tax filing and tax receipts increased", "value_type": "reported_experimental_effect"},
+        "negative_long_run_employment_share": {"value": 40, "unit": "percent of the sample estimated to have negative individual treatment effects on long-term employment", "value_type": "estimated_share"},
+        "disability_insurance_spillover": {"value": null, "unit": "positive treatment effects on entry into disability insurance corroborated the estimated negative employment effects for the subgroup", "value_type": "reported_heterogeneous_effect"}
+      },
+      "method": "Longitudinal administrative tax and program records compare randomized offer and non-offer groups over multiple years; the paper estimates heterogeneous individual treatment effects and links positive homeownership effects to positive employment effects.",
+      "uncertainty": "Administrative earnings and ownership outcomes do not measure job quality, work satisfaction, health, care burden, housing adequacy, or meaning. Estimated individual treatment-effect shares depend on the model and do not identify fixed personal types.",
+      "subgroup": "Positive homeownership effects are concentrated among people with positive employment treatment effects; roughly 40% are estimated to have negative long-run employment effects.",
+      "counterinterpretation": "An average employment or earnings gain can hide displacement, disability entry, benefit loss, worse job quality, or negative effects for people whose search or health constraints made the intervention harmful.",
+      "source_url": "https://www.nber.org/papers/w24422",
+      "retrieval_hash": "sha256:21b8afd8f25bae86a7baf1ae88ee51619bd8439cacc062e9fb9570c159afa5f7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/digest/jun18/long-term-effects-nevadas-job-search-assistance", "claim": "NBER's nontechnical summary reports the 32,751-person UI population, 4,673 offers, and intermediate employment, earnings, and UI comparisons.", "status": "official-summary-context"},
+    {"source_url": "https://www.nber.org/system/files/working_papers/w24422/w24422.pdf", "claim": "The official paper supplies the experimental design and heterogeneous long-run administrative-outcome analysis.", "status": "official-full-paper-context"}
+  ],
+  "boundary": "This record supports a randomized offer-to-long-run administrative-outcome bridge. It does not establish that counseling alone caused the effects, that jobs were higher quality, that housing became adequate, that health or care improved, or that participants experienced durable trust, meaning, or political action.",
+  "retrieval_hash": "sha256:8ac0e8cfbed777a78d8b051e789854047f8f146a191cc248592646d0940469be"
+}

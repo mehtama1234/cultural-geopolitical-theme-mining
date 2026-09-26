@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-status-inconsistency-neighborhood-mobility-acs-2026",
+  "title": "Where a household stands relative to its neighborhood is linked to how far it moves",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["trust_identity_meaning", "housing_place_mobility", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback"],
+  "source_unit": "Census CES Working Paper 26-20 using restricted-use American Community Survey data and multinomial mobility models",
+  "geography": "United States; census tracts, counties, households, and short- versus long-distance residential mobility",
+  "observations": [{
+    "period": "Restricted-use ACS residential mobility analysis; paper published March 2026",
+    "denominator": {"value": 1, "unit": "household-level multinomial mobility analysis using restricted-use American Community Survey data", "value_type": "study_unit"},
+    "measures": {
+      "neighborhood_status": {"value": "tract median family income relative to demographically similar reference neighborhoods", "unit": "contextual status measure", "value_type": "reported_definition"},
+      "individual_status": {"value": "household income rank within its tract", "unit": "positional status measure", "value_type": "reported_definition"},
+      "low_neighborhood_high_individual": {"value": "disadvantaged neighborhood status paired with high individual status increases within-county mobility", "unit": "modeled mobility relationship", "value_type": "reported_relationship"},
+      "high_neighborhood_low_individual": {"value": "low individual status in high-status neighborhoods heightens mobility", "unit": "modeled mobility relationship", "value_type": "reported_relationship"},
+      "distance_pattern": {"value": "neighborhood status primarily shapes short-distance mobility; status mismatch is linked to both within- and between-county mobility patterns", "unit": "mobility geography", "value_type": "reported_comparison"},
+      "interpretation": {"value": "patterns are consistent with spatial assimilation and relative deprivation mechanisms", "unit": "theoretical interpretation", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors construct contextual and positional status measures from restricted-use ACS data and estimate multinomial logistic models for within-county and between-county moves.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The reported model relationships do not establish that status mismatch caused a move, identify the household's reason for moving, or measure housing quality, cost, discrimination, belonging, safety, or later wellbeing.",
+    "subgroup": "Households classified by tract status, within-tract income rank, and short- versus long-distance residential mobility; race, family, tenure, and life-course mechanisms require separate analysis.",
+    "counterinterpretation": "Moves may reflect rent, jobs, family, school, safety, discrimination, illness, or housing supply rather than status comparison. A move can be an improvement, forced displacement, strategic adaptation, or an unresolved transition; the same status pattern can contain different experiences.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-20.html",
+    "retrieval_hash": "sha256:fb6d2d3871a5704d132321b1f3504431467e437d852afdb3129047b886c6beb6",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-20.pdf", "claim": "The official paper provides the status definitions, mobility categories, multinomial models, and theoretical interpretation.", "status": "official-paper-context"}],
+  "boundary": "This record adds a relative-status-to-residential-mobility pathway. It does not establish causal status effects, household motives, housing affordability, discrimination, belonging, safety, wellbeing, or whether moving represents exit, opportunity, or displacement.",
+  "retrieval_hash": "sha256:fb6d2d3871a5704d132321b1f3504431467e437d852afdb3129047b886c6beb6"
+}

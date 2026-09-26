@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-transfer-design-household-spending-2026",
+  "title": "The form and timing of a transfer change how quickly households spend it",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35698; pandemic-era transfers, high-frequency household scanner data, harmonized difference-in-differences and event studies",
+  "geography": "United States; low-income households with children receiving one-time or recurring cash or food benefits",
+  "observations": [{
+    "period": "Pandemic-era transfer changes; paper issued September 2026",
+    "denominator": {"value": 1, "unit": "U.S. transfer-design study", "value_type": "study_unit"},
+    "measures": {
+      "in_kind_food_response": {"value": "food-store spending response was 0.18 for one-time in-kind benefits and 0.38 for recurring in-kind benefits", "unit": "short-run food-store marginal propensity to consume", "value_type": "reported_estimate"},
+      "cash_response": {"value": "food-store spending response was 0.06 for one-time cash and 0.20 for recurring cash", "unit": "short-run food-store marginal propensity to consume", "value_type": "reported_estimate"},
+      "design_comparison": {"value": "households spent more in food stores out of in-kind benefits than similar-value cash transfers, and more out of recurring than one-time transfers", "unit": "transfer-form and timing comparison", "value_type": "reported_comparison"},
+      "mechanism": {"value": "patterns were consistent with mental accounting, labeling, and forward-looking responses", "unit": "proposed behavioral mechanism", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors link sharp changes in the timing and amount of four pandemic-era transfers to high-frequency NielsenIQ household scanner data and estimate harmonized difference-in-differences and event-study models.",
+    "uncertainty": "Food-store spending is not total consumption, food security, diet quality, health, debt reduction, rent payment, or durable household security. Scanner coverage and the study population do not identify every household need, access constraint, fee, or administrative interruption. The mechanism interpretation is not a direct test of each household's reasoning.",
+    "subgroup": "Low-income U.S. families with children; one-time versus recurring and cash versus food benefits are compared, but household liquidity, store access, transportation, debt, and competing bills can differ within each group.",
+    "counterinterpretation": "A lower food-store response to cash may mean the household used cash for rent, medicine, transport, debt, or another urgent need rather than that cash was less valuable. A higher in-kind response may reflect the label, timing, food need, or store-access conditions; it does not establish better overall welfare.",
+    "source_url": "https://www.nber.org/papers/w35698",
+    "retrieval_hash": "sha256:9b300b0c3890137a48e7098652f002b7bb85499969819d3439260c8fdb88911b",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35698", "claim": "NBER DOI record for Working Paper 35698", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a transfer-design finding: amount, label, and schedule can change the first observable spending response. It does not rank cash against food aid, establish lasting food security, or show how transfer design changes trust, political support, or durable household security."
+}

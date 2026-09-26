@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-affirmative-action-contracting-mwbe-2026",
+  "title": "A contracting ban can leave existing minority- and women-owned firms alive while shrinking the route into the market",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper using restricted Census business records on minority- and women-owned business enterprises in state contracting",
+  "geography": "United States states that ended affirmative action in state contracting and comparison states",
+  "observations": [
+    {
+      "period": "State affirmative-action contracting bans; paper published July 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined minority- and women-owned business enterprises and contractors; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "existing_mwbe_size": {
+          "value": "gradual downsizing after affirmative-action contracting ended",
+          "unit": "reported firm-level outcome",
+          "value_type": "reported_relationship"
+        },
+        "black_owned_and_large_mwbe_exposure": {
+          "value": "the most pronounced reductions in force occurred among Black-owned businesses and larger MWBEs",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "existing_mwbe_shutdown": {
+          "value": "existing MWBEs were no more likely to shut down than other businesses",
+          "unit": "reported firm-survival comparison",
+          "value_type": "reported_null"
+        },
+        "new_mwbe_entry": {
+          "value": "new MWBEs were relatively less common after a state ban",
+          "unit": "reported entry/composition outcome",
+          "value_type": "reported_relationship"
+        },
+        "modeled_productivity_and_scrap_value": {
+          "value": "the calibrated model treats bans as equivalent to considerable reductions in MWBE productivity and scrap values",
+          "unit": "model-implied equivalence, not a direct observed outcome",
+          "value_type": "calibrated_model_result"
+        }
+      },
+      "method": "Census CES working paper using restricted Census business records to study minority- and women-owned business enterprises before and after states ended affirmative action in state contracting. The public abstract reports firm size, survival, new-firm composition, subgroup patterns, and a calibrated model.",
+      "uncertainty": "This is a working paper. The public page does not provide the full state list, sample construction, treatment timing, contract values, procurement alternatives, detailed estimates, or worker-level and community-level outcomes. The model-implied productivity and scrap-value result is not the same as a directly observed productivity loss.",
+      "subgroup": "Minority- and women-owned business enterprises, with especially pronounced reported force reductions among Black-owned businesses and larger MWBEs; the public abstract does not disclose exact subgroup counts.",
+      "counterinterpretation": "A ban can change the mix of contracts, qualification, competition, procurement behavior, or business entry without one mechanism explaining every firm result. Existing-firm survival can coexist with downsizing and weaker new entry. Other public or private markets may offset some contracting loss, while the abstract does not establish whether replacement contracts, prices, workers, or public-service quality changed.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-41.html",
+      "retrieval_hash": "sha256:b6ea6cae3c80e959a481a6b5ee4d9e4c5b4bcec79711bab0fa5ba822da73c156",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1429",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and repeats the bounded abstract findings.",
+      "status": "official-catalog-context"
+    }
+  ],
+  "boundary": "This record adds a bounded policy-to-firm-entry and firm-scale relationship in state contracting. It does not establish the legal merits of affirmative action, individual discrimination, total contracting demand, worker welfare, community prosperity, public-service quality, or the full causal mechanism behind the observed firm patterns.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-41 landing page and official CREAT profile reviewed; underlying restricted business records and paper PDF are not retained",
+    "checked": "2026-09-22"
+  }
+}

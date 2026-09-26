@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-fao-global-forest-resources-assessment-2025-restoration-livelihoods",
+  "title": "Forest loss is slowing but land, commodity, conservation, and community-use pressures remain unevenly distributed",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "work_control_bargaining"
+  ],
+  "source_unit": "FAO, Global Forest Resources Assessment 2025",
+  "geography": "236 countries and areas, with forest extent, change, condition, management, ownership, use, disturbance, and carbon estimates for 1990-2025",
+  "observations": [
+    {
+      "period": "1990-2025; global forest extent and net forest change",
+      "denominator": {
+        "value": 236,
+        "unit": "countries and areas covered by FAO Global Forest Resources Assessment 2025",
+        "value_type": "global_forest_assessment_frame"
+      },
+      "measures": {
+        "forest_area_2025": {"value": 4140000000, "unit": "hectares of global forest area in 2025, approximately", "value_type": "reported_global_estimate"},
+        "forest_land_share": {"value": 32, "unit": "percent of global land area covered by forests", "value_type": "reported_global_share"},
+        "net_forest_loss_1990_2000": {"value": 10700000, "unit": "hectares per year of annual net forest loss in 1990-2000", "value_type": "reported_historical_rate"},
+        "net_forest_loss_2015_2025": {"value": 4120000, "unit": "hectares per year of annual net forest loss in 2015-2025", "value_type": "reported_recent_rate"}
+      },
+      "method": "FAO assessment based on official national data, remote sensing, country reporting, expert review, and standardized definitions across 236 countries and areas.",
+      "uncertainty": "National data quality, definitions, monitoring methods, and update timing differ; net forest-area change combines deforestation, forest expansion, and natural regeneration and is not identical to ecological condition or biodiversity.",
+      "subgroup": "Forest-dependent communities, Indigenous peoples, agricultural and commodity-producing regions, forest owners and managers, biodiversity, climate, water, and land-use systems.",
+      "counterinterpretation": "Slower net loss is meaningful but does not mean forests are recovering everywhere; replacement forests, degraded forests, and plantations may not provide the same ecological or cultural functions as primary forests.",
+      "source_url": "https://www.fao.org/forest-resources-assessment/past-assessments/fra-2025/en",
+      "retrieval_hash": "sha256:6160b64e5064ca1de6512a4943fcf079f6d3f4178e8733b8c2a48b6fdd9e3832",
+      "status": "reported"
+    },
+    {
+      "period": "2015-2025; deforestation, forest expansion, and natural-regeneration pathways",
+      "denominator": {
+        "value": 1,
+        "unit": "global forest-change and forest-type assessment frame",
+        "value_type": "global_forest_change_frame"
+      },
+      "measures": {
+        "deforestation_rate_2015_2025": {"value": 10900000, "unit": "hectares per year of deforestation in 2015-2025", "value_type": "reported_recent_rate"},
+        "forest_expansion_rate_2015_2025": {"value": 6780000, "unit": "hectares per year of forest expansion in 2015-2025", "value_type": "reported_recent_rate"},
+        "naturally_regenerating_share": {"value": 92, "unit": "percent of global forest area that is naturally regenerating", "value_type": "reported_global_share"},
+        "primary_forest_area": {"value": 1180000000, "unit": "hectares of primary forest, at least, representing about 29% of total forest area", "value_type": "reported_global_estimate"}
+      },
+      "method": "FAO comparison of deforestation, forest expansion, naturally regenerating forest, and primary-forest estimates across the 1990-2025 assessment period.",
+      "uncertainty": "Definitions of primary forest, natural regeneration, expansion, and deforestation are operational categories; area change does not by itself measure habitat quality, carbon permanence, local access, or cultural meaning.",
+      "subgroup": "Tropical and subtropical forest regions, agricultural frontiers, forest-dependent livelihoods, conservation institutions, restoration projects, and communities affected by land-use change.",
+      "counterinterpretation": "Expansion and restoration can improve landscape function and livelihoods when locally governed, but they cannot automatically substitute for intact primary forests or secure community rights.",
+      "source_url": "https://www.fao.org/interactive/2025/forest-resources-assessment/en/",
+      "retrieval_hash": "sha256:6160b64e5064ca1de6512a4943fcf079f6d3f4178e8733b8c2a48b6fdd9e3832",
+      "status": "reported"
+    },
+    {
+      "period": "2020-2025; forest ownership, management, protection, and social-use allocation",
+      "denominator": {
+        "value": 1,
+        "unit": "global forest governance and management assessment frame",
+        "value_type": "global_forest_governance_frame"
+      },
+      "measures": {
+        "public_ownership": {"value": 71, "unit": "percent of global forest area publicly owned as of 2020", "value_type": "reported_global_share"},
+        "private_ownership": {"value": 24, "unit": "percent of global forest area privately owned as of 2020", "value_type": "reported_global_share"},
+        "protected_area_share": {"value": 20, "unit": "approximately percent of global forest area in legally established protected areas in 2025", "value_type": "reported_global_share"},
+        "management_plan_share": {"value": 55, "unit": "percent of global forest area covered by long-term management plans in 2025", "value_type": "reported_global_share"},
+        "social_services_objective": {"value": 5, "unit": "percent of global forest area designated primarily for social services such as recreation, culture, and education", "value_type": "reported_global_share"}
+      },
+      "method": "FAO synthesis of forest ownership, legal protection, management-plan coverage, and primary management objectives.",
+      "uncertainty": "Formal ownership, protection, and management designation do not prove enforcement, local consent, benefit sharing, access, safety, or effective stewardship; social-service categories may undercount multifunctional use.",
+      "subgroup": "Public agencies, private owners, forest managers, Indigenous and local communities, recreation and cultural users, conservation organizations, and downstream water and climate beneficiaries.",
+      "counterinterpretation": "Formal plans and protected status can provide institutional leverage for conservation and public benefits, but outcomes depend on governance, financing, monitoring, and community rights.",
+      "source_url": "https://www.fao.org/newsroom/detail/global-deforestation-slows--but-forests-remain-under-pressure--fao-report-shows/en",
+      "retrieval_hash": "sha256:6160b64e5064ca1de6512a4943fcf079f6d3f4178e8733b8c2a48b6fdd9e3832",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://openknowledge.fao.org/items/090d2fbb-32a6-412b-a3b8-1ce5c5905df2", "claim": "FAO Global Forest Resources Assessment 2025 digital report record."},
+    {"source_url": "https://www.fao.org/statistics/highlights-archive/highlights-detail/forest-emissions-and-removals.-global--regional-and-country-trends/", "claim": "FAO forest carbon emissions and removals derived from FRA 2025."}
+  ],
+  "boundary": "This record adds a forest-land-use-to-livelihoods, commodity, public-ownership, conservation, cultural-use, and climate-capacity route. It is not local property or benefit-incidence data, does not establish household dependence or community consent, and does not equate forest area with ecological or social well-being.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official FAO FRA 2025 assessment page, interactive key-facts page, newsroom release, digital report record, and forest carbon release were retrieved; forest extent, net loss, deforestation, expansion, forest type, ownership, protection, management, and social-use claims were cross-checked.",
+    "source_url_sha256": "sha256:6160b64e5064ca1de6512a4943fcf079f6d3f4178e8733b8c2a48b6fdd9e3832",
+    "checked": "2026-09-26"
+  }
+}

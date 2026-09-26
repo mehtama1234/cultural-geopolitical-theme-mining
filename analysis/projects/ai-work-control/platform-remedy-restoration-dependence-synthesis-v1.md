@@ -86,6 +86,7 @@ effectiveness:
 | Rehman / Portier Pacific | Deactivation on 15 Dec 2025 over an alleged failed background check; application on 30 Dec | Voluntary reactivation on 20 Feb 2026; formal reactivation order on 20 Mar | A$7,096.96 gross lost remuneration ordered, payable within 14 days | Payment receipt, post-order work, durable access, and recurrence prevention not observed | Alternatives, reason for return, trust/action, persistence, and exit not observed |
 | Mansoor / Uber | Complaint-based deactivation; substitute Baysec and Didi work documented | Reactivation ordered; substitute earnings visible during the interruption | A$6,073.23 gross lost-earnings order after substitute earnings were deducted | Receipt, practical restoration, and durable access not observed | Whether substitute work was equivalent or freely chosen, trust/action, and exit not observed |
 | Bandameeda / Amazon Flex | Suspension and permanent deactivation after customer complaint | Reactivation on prior terms ordered | A$12,126.31 lost remuneration ordered | Receipt, continued access, recurrence prevention, and anti-retaliation not observed | Alternatives, reason for return, trust/action, persistence, and exit not observed |
+| Waheed / Uber | Deactivation found unfair after inadequate notice/inquiry; appeal followed | Reactivation order stayed pending appeal | A$259.38 per week interim payment obligation from 28 May 2026; final quantum remains open | Receipt, actual access, appeal outcome, and durable protection not observed | Household recovery, trust/action, switching, and exit not observed |
 
 The Hotak and Rehman ledgers preserve the full observed event sequence and its
 open arrows in machine-readable form: [Hotak event ledger](data/uber-hotak-end-to-end-event-ledger-v1.json)
@@ -93,6 +94,8 @@ and [Rehman event ledger](data/uber-rehman-end-to-end-event-ledger-v1.json).
 Their common boundary is important: formal access restoration and a monetary
 order can be observed without observing payment receipt, durable protection,
 the worker's alternatives, or the later relationship to the platform.
+The Waheed stay adds a sharper intermediate stage: a conditional legal payment
+obligation can exist while receipt and actual work access remain unknown.
 
 These are not pooled estimates. They are a deliberately small set of public
 case records whose unit is a proceeding or named worker, with uneven follow-up

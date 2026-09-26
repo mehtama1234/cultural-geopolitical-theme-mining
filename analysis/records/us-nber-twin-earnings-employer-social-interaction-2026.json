@@ -1,0 +1,67 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-twin-earnings-employer-social-interaction-2026",
+  "title": "Employer sorting and same-firm social interaction can inflate apparent heritability of U.S. earnings",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35746, linked U.S. Census twin and earnings records",
+  "geography": "United States; twins observed as adolescents in the 2000 Census and linked to earnings about 20 years later",
+  "observations": [
+    {
+      "period": "2000 Census adolescence to earnings about 20 years later; paper issued September 2026",
+      "denominator": {
+        "value": 44000,
+        "unit": "twin pairs in the linked U.S. population study, approximate",
+        "value_type": "reported_study_sample"
+      },
+      "measures": {
+        "earnings_heritability": {
+          "value": 0.36,
+          "unit": "estimated heritability h-squared of log earnings",
+          "value_type": "estimated_parameter"
+        },
+        "employer_premium_heritability": {
+          "value": "employer-specific pay premiums are heritable in the baseline decomposition",
+          "unit": "AKM employer-pay-premium component of earnings",
+          "value_type": "estimated_pattern"
+        },
+        "same_firm_social_interaction": {
+          "value": "the employer-premium component is mainly driven by same-sex twins who work at the same firm",
+          "unit": "social-interaction heterogeneity in employer premiums",
+          "value_type": "estimated_pattern"
+        },
+        "adjusted_heritability": {
+          "value": -15,
+          "unit": "percent reduction in estimated earnings heritability when siblings who work together are excluded",
+          "value_type": "estimated_sensitivity"
+        },
+        "inequality_mechanism": {
+          "value": "family-linked traits, social interaction, employer sorting, and firm-specific pay are not interchangeable explanations of earnings persistence",
+          "unit": "interpretive boundary",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "Extended classical twin design using linked Census and earnings data, combined with an AKM decomposition of person-specific and employer-specific pay components and a sensitivity analysis excluding siblings who work together.",
+      "uncertainty": "Heritability is a population-statistical parameter, not an individual destiny or immutable genetic share. The study does not establish which social mechanisms create same-firm sorting, nor does it directly observe hiring networks, discrimination, skills, or worker control.",
+      "subgroup": "Same-sex and opposite-sex twin pairs and siblings in the linked U.S. population; firm, occupation, sex, and social-network patterns differ across workers.",
+      "counterinterpretation": "The same-firm sensitivity result can reflect social interaction, shared preferences, shared constraints, employer selection, or measurement structure. Excluding co-workers reduces one source of bias but does not identify a single causal social-network mechanism.",
+      "source_url": "https://www.nber.org/papers/w35746",
+      "retrieval_hash": "sha256:9092ba33326bb60fc5ce898236b3f2449f5aa5e2825f91f4ce4f2d380a2db87f",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35746",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record measures population-level earnings heritability and same-firm social-interaction sensitivity in linked U.S. twin data. It does not establish individual genetic destiny, a causal hiring-network mechanism, present-day mobility policy effects, or worker-level bargaining power."
+}

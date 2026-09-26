@@ -36,6 +36,34 @@ systems, infrastructure, and geopolitical themes.
 
 ## The detailed end-to-end goal to pursue
 
+### The goal we should pursue now
+
+Build the clearest broad explanation of what is happening beneath visible
+events in American life: how material pressure, technology, institutions,
+culture, politics, firms, infrastructure, and international commitments are
+changing people's real choices and society's capacity to act.
+
+For every major pattern, connect the evidence far enough to answer in plain
+language: what changed; who felt it; what choices were actually available;
+what people or organizations gave up to cope; who carried the cost and risk;
+whether institutions repaired the problem or only recorded it; how trust,
+identity, legitimacy, behavior, or political action shifted; and what this
+means for firm power, public capacity, dependence, state power, or geopolitical
+room to maneuver.
+
+The central product is a broad, cross-source map of recurring societal,
+cultural, and political subthemes. It is not a fake single-person story and
+not a pile of disconnected statistics. Different surveys, administrative
+records, studies, public records, company evidence, opinion data, and
+geopolitical sources can reveal the same underlying pattern when their units,
+dates, measures, and limits are kept visible. Same-person or same-household
+tracking is an optional deeper test, not the definition of success.
+
+The program should especially look for the hidden trade: when a benefit,
+technology, job, service, or public capability appears to work, what money,
+time, health, dignity, privacy, trust, autonomy, or future flexibility is being
+spent to make it work—and who has enough alternatives to refuse that trade?
+
 The research objective is to explain, with disciplined evidence, how ordinary
 conditions in American life become durable changes in culture, social
 behavior, institutional legitimacy, firm strategy, public capacity, political
@@ -75,6 +103,24 @@ source, estimated, experimentally identified, longitudinally associated,
 compared across populations or places, inferred across separate sources, or
 still open. A persuasive interpretation is useful only when the reader can
 see which of those statuses it has.
+
+### Breadth is the primary product; same-unit depth is optional
+
+The main deliverable is a broad map of recurring themes and subthemes across
+diverse source families. Surveys, administrative records, research studies,
+company and platform records, public proceedings, cultural and opinion data,
+infrastructure records, and geopolitical sources will usually describe
+different people, places, institutions, and time windows. They may still
+reveal a shared social pattern when the comparison is explicit and the limits
+are preserved.
+
+The program must not pretend that these separate sources follow one person or
+household from the original problem through the later outcome. A same-person,
+same-household, matched, or event-linked record is a valuable depth route when
+it is lawfully available, but it is not a prerequisite for discovering a broad
+societal, cultural, political, institutional, firm, infrastructure, or
+geopolitical trend. When no shared unit exists, publish the layered comparison
+as the result and name the missing join.
 
 ### What the program should discover
 
@@ -142,6 +188,11 @@ should show not only where pressure is high, but who has alternatives; not
 only where institutions are present, but whether they are reachable and
 effective; not only where firms or states invest, but whether capability is
 realized, portable, replaceable, and connected to actual power.
+
+The current interpretation layer is maintained in the [societal subtheme
+concept register](analysis/US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.md).
+It is a guide to recurring patterns and source boundaries, not a substitute
+for the underlying records or for the open tests that could disconfirm them.
 
 The program should gradually close the most important open middle: a dated
 event linked to exposure, alternatives, money and time substitution, a

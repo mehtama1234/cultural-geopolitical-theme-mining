@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-declining-occupations-career-earnings-2000-2020",
+  "title": "Occupational mobility does not fully erase the long-run earnings cost of starting in a declining occupation",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "household_room_consumption", "housing_place_mobility", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35614; 2000 Decennial Census linked to U.S. administrative employment and earnings records through 2020",
+  "geography": "United States; workers initially employed in occupations that later contracted and their career and family outcomes",
+  "observations": [{
+    "period": "initial occupation in 2000 linked to outcomes through 2020; paper issued August 2026",
+    "denominator": {"value": 1, "unit": "linked worker life-course study of more than 2.4 million workers", "value_type": "study_unit"},
+    "measures": {
+      "sample": {"value": "more than 2.4 million workers were followed", "unit": "linked workers", "value_type": "reported_sample"},
+      "occupation_decline": {"value": "initial employment in an occupation that later contracted by at least 25% was associated with about 5% lower cumulative earnings", "unit": "cumulative earnings association through 2020", "value_type": "reported_estimate"},
+      "employment_duration": {"value": "affected workers had slightly more quarters worked despite lower cumulative earnings", "unit": "quarters worked", "value_type": "reported_comparison"},
+      "mobility": {"value": "occupational mobility was substantial but incomplete", "unit": "career adjustment", "value_type": "reported_trend"},
+      "children": {"value": "children's later occupational destinations were much less tied to household heads' 2000 occupational-growth categories", "unit": "intergenerational occupational association", "value_type": "reported_comparison"}
+    },
+    "method": "The authors link the 2000 Decennial Census to U.S. administrative employment and earnings records through 2020 and compare long-run outcomes for workers whose initial occupations subsequently contracted, with cross-country evidence used as context.",
+    "uncertainty": "This is a working paper and the public abstract does not provide every control, occupation definition, selection rule, or mechanism. The reported association does not by itself establish that occupation decline caused each worker's earnings loss; technology, industry, place, health, education, employer, and worker selection may overlap.",
+    "subgroup": "Workers initially employed in 2000 occupations with different later growth paths; occupation, education, age, industry, place, race, gender, employer, and mobility options vary.",
+    "counterinterpretation": "Workers who leave declining occupations may differ in motivation, health, skills, or local opportunities. Slightly more quarters worked can coexist with lower pay, but earnings are not the whole of job quality, identity, family security, or community continuity. Children's weaker occupational tie does not prove equal mobility or equal opportunity.",
+    "source_url": "https://www.nber.org/papers/w35614",
+    "retrieval_hash": "sha256:e033afa7bee85c196e90dad67595d1f4d1c6637252a5405f7180ae983e2811e5",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35614", "claim": "NBER DOI record for Working Paper 35614", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a labor-transition and life-course finding: occupational mobility can be real while long-run earnings losses remain. It does not establish a universal causal effect of occupational decline, complete worker wellbeing, or equal intergenerational opportunity."
+}

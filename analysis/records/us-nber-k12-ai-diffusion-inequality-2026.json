@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-k12-ai-diffusion-inequality-2026",
+  "title": "K–12 AI integration is lower in more disadvantaged schools while policy, training, and guidance lag adoption",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "trust_identity_meaning",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35347 national survey of K–12 school principals",
+  "geography": "United States; K–12 schools and school-level AI integration",
+  "observations": [
+    {
+      "period": "2026; national survey of K–12 school principals",
+      "denominator": {
+        "value": null,
+        "unit": "surveyed K–12 school principals; public abstract does not disclose the full respondent count",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "adoption_pattern": {
+          "value": "AI use has spread rapidly; students mainly use AI for homework help and writing, while educators use it primarily for lesson planning and administrative tasks",
+          "unit": "reported school-use pattern",
+          "value_type": "reported_finding"
+        },
+        "governance_lag": {
+          "value": "teacher training, guidance for student use, and school policies lagged AI adoption",
+          "unit": "institutional integration condition",
+          "value_type": "reported_finding"
+        },
+        "disadvantage_gap": {
+          "value": "a one-standard-deviation increase in student disadvantage is associated with a 0.07–0.11 standard-deviation lower AI-integration index",
+          "unit": "standard deviations of school AI-integration index",
+          "value_type": "reported_association"
+        },
+        "school_type_gap": {
+          "value": "private and charter schools score 0.23–0.44 standard deviations lower than traditional public schools on the AI-integration index",
+          "unit": "standard deviations of school AI-integration index",
+          "value_type": "reported_association"
+        },
+        "district_size_explanation": {
+          "value": "district size accounts for roughly one-third of the disadvantage gap between public schools",
+          "unit": "share of observed gap explained by district size",
+          "value_type": "reported_decomposition"
+        }
+      },
+      "method": "National survey of K–12 school principals measuring policies, teacher training, student guidance, leadership engagement, tool availability, and AI integration; abstract reports associations and a district-size decomposition.",
+      "uncertainty": "The public abstract does not disclose the full sample count, response rate, instrument details, or causal identification. The integration index is not a measure of learning, safety, teacher workload, or student welfare.",
+      "subgroup": "Schools by student disadvantage, sector, district size, school leaders, teachers, educators, and students.",
+      "counterinterpretation": "Lower measured integration may reflect deliberate caution, limited appropriate use, or differences in school mission rather than a harmful access gap; more AI integration is not automatically better education.",
+      "source_url": "https://www.nber.org/papers/w35347",
+      "retrieval_hash": "sha256:5a51d80974f18ca33f14d1aeecffa0e1e7d7fd96889b17f71a99633bbe9def8f",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35347",
+      "claim": "NBER DOI record for the working paper.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w35347/w35347.pdf",
+      "claim": "Official working-paper PDF for survey and index details.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record measures school-level AI integration and institutional support gaps. It does not establish a causal technology-access effect, learning outcome, teacher or student wellbeing effect, privacy or safety incident, or household inequality outcome.",
+  "retrieval_hash": "sha256:5a51d80974f18ca33f14d1aeecffa0e1e7d7fd96889b17f71a99633bbe9def8f"
+}

@@ -1,0 +1,46 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-advanced-semiconductor-export-control-compliance-2022-2024",
+  "title": "Advanced-semiconductor export controls moved into multi-agency and private-sector compliance, while foreign response remained unmeasured",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "political_judgment_action"
+  ],
+  "source_unit": "GAO-25-107386 review of Commerce/BIS implementation of 2022-2023 advanced-semiconductor export-control rules",
+  "geography": "United States, China-related semiconductor controls, foreign partners, and affected private-sector firms",
+  "observations": [
+    {
+      "period": "October 2022 through September 2024; implementation and rule-update stage",
+      "denominator": {
+        "value": 3,
+        "unit": "advanced-semiconductor and related manufacturing-equipment export-control rules reviewed by GAO",
+        "value_type": "reported_rule_count"
+      },
+      "measures": {
+        "interagency_implementation": {"value": 6, "unit": "other federal agencies working with Commerce on technical review, licensing, outreach, border verification, investigations, and enforcement", "value_type": "reported_agency_count"},
+        "private_sector_compliance_challenges": {"value": 10, "unit": "reported compliance challenges identified by GAO from public comments, BIS documents, interviews, and industry materials", "value_type": "reported_challenge_count"},
+        "rule_updates": {"value": "April 2024 and September 2024 updates plus technical clarifications, briefings, and seminars", "unit": "reported administrative response to implementation challenges", "value_type": "reported_policy_response"},
+        "company_compliance": {"value": "companies updated compliance programs and self-reported potential violations", "unit": "reported private-sector implementation behavior", "value_type": "reported_firm_response"},
+        "foreign_partner_response": {"value": "not established in this review; a forthcoming report was to examine BIS engagement with key foreign partners", "unit": "missing external-response stage", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing change in PRC capability, substitution, military modernization, deterrence, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "GAO Q&A review of Commerce/BIS documents, public comments, agency processes, and interviews with Commerce, four advanced-semiconductor companies, and two industry associations. The source describes implementation and compliance evidence rather than estimating export-control effects.",
+      "uncertainty": "The selected company and association interviews are not a census of affected firms, and the report does not measure all shipments, denied licenses, violations, foreign substitution, or strategic outcomes. Rule clarity problems and reported compliance actions do not establish that controls succeeded or failed in constraining advanced-computing capability.",
+      "subgroup": "Commerce/BIS and six cooperating federal agencies; advanced-semiconductor manufacturers, equipment firms, exporters, foreign partners, and entities subject to the rules.",
+      "counterinterpretation": "Rule refinement and private compliance can improve administrability without reducing foreign capability, while strict controls can create supply-chain disruption or commercial cost without producing measurable geopolitical leverage. Multilateral alignment and partner enforcement remain separate from U.S. rule issuance.",
+      "source_url": "https://www.gao.gov/products/gao-25-107386",
+      "retrieval_hash": "sha256:e25e8f73d808b6fe757e7adefe8b1a12fdb55e320232ea7d59d72353856af123",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/assets/gao-25-107386.pdf", "claim": "GAO full report PDF for the advanced-semiconductor export-control implementation review.", "status": "official-report", "access_boundary": "Direct PDF retrieval may be access-restricted; the official GAO landing page and accessible report text remain the authoritative source surface."},
+    {"source_url": "https://www.bis.gov/press-release/commerce-strengthens-restrictions-advanced-computing-semiconductors-enhance-foundry-due-diligence-prevent", "claim": "BIS official context for the control objective, rule changes, and compliance rationale.", "status": "official-agency-context"}
+  ],
+  "boundary": "This record adds the implementation and compliance stage between an export-control decision and any strategic result. It does not establish foreign-partner adoption, Chinese substitution, changed military capability, domestic incidence, deterrence, or durable U.S. geopolitical leverage.",
+  "retrieval_hash": "sha256:e25e8f73d808b6fe757e7adefe8b1a12fdb55e320232ea7d59d72353856af123"
+}

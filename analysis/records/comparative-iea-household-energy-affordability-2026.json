@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-iea-household-energy-affordability-2026",
+  "title": "Energy affordability is a household-cost, infrastructure, health, and policy-targeting problem rather than only a price problem",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "International Energy Agency Household Energy Affordability report and Household Energy Affordability: Data and Indicators framework",
+  "geography": "Global; advanced economies, emerging markets and developing economies, sub-Saharan Africa, and IEA member/association-country comparison",
+  "observations": [
+    {
+      "period": "2019-2025 estimated; global household energy affordability and expenditure",
+      "denominator": {
+        "value": 1,
+        "unit": "global and regional household energy expenditure estimates; values combine residential energy and individual transport fuels",
+        "value_type": "modeled_household_expenditure_account"
+      },
+      "measures": {
+        "real_bill_change_2024_vs_2019": {"value": 4, "unit": "percent higher real household energy bills in 2024 than in 2019 on average globally", "value_type": "reported_change"},
+        "crisis_peak_2022_vs_2019": {"value": 16, "unit": "percent year-on-year increase in household energy bills at the 2022 crisis peak", "value_type": "reported_change"},
+        "advanced_economy_average_2024": {"value": 3800, "unit": "2024 US dollars per household spent on energy on average in advanced economies", "value_type": "modeled_average"},
+        "emerging_developing_average_2024": {"value": 600, "unit": "2024 US dollars per household spent on energy on average in emerging markets and developing economies", "value_type": "modeled_average"},
+        "electricity_share_residential_energy": {"value": 30, "unit": "approximate share of global residential energy use represented by electricity today, up from less than 20% in 2000", "value_type": "reported_share"},
+        "electricity_spending_2024": {"value": 1000000000000, "unit": "U.S. dollars in total household electricity spending globally in 2024, rounded", "value_type": "reported_total"}
+      },
+      "method": "IEA analysis using household expenditure and end-use data, energy prices, and modeled regional estimates. Household energy includes residential energy use and individual transport fuels; 2025 values are identified by the IEA as estimates. The publication separates wholesale fuel conditions from retail bills shaped by network charges, taxes, levies, subsidies, and market design.",
+      "uncertainty": "These are modeled averages and account totals, not observed hardship or respondent-level spending. Cross-country averages conceal income, housing, transport, climate, and efficiency differences; a lower bill does not necessarily mean improved affordability or adequate energy service.",
+      "subgroup": "Households in advanced economies and emerging markets/developing economies, with lower-income households and households in less efficient housing identified as more exposed groups.",
+      "counterinterpretation": "Energy expenditure can fall because of lower prices, reduced consumption, fuel switching, or mobility changes; each has different welfare implications. Electrification may reduce oil and gas use while increasing electricity bills, grid charges, and upfront equipment costs.",
+      "source_url": "https://www.iea.org/reports/household-energy-affordability",
+      "retrieval_hash": "sha256:8f1516680682a60fcd74c1011e362c0bf8576efe97ebe59b5100e550f08c221c",
+      "status": "reported"
+    },
+    {
+      "period": "2025 policy tracking and 2026 monitoring framework; affordability response and measurement",
+      "denominator": {
+        "value": 45,
+        "unit": "countries accounting for about half of global energy demand in the IEA's tracked 2025 policy set",
+        "value_type": "policy_country_coverage"
+      },
+      "measures": {
+        "tracked_affordability_policies": {"value": 120, "unit": "new or updated demand-side energy-affordability policies tracked by the IEA in 2025, rounded as reported", "value_type": "policy_count_lower_bound"},
+        "targeted_policy_share": {"value": 33.3333333333, "unit": "approximately one-third of tracked demand-side affordability policies specifically targeting households most in need", "value_type": "reported_share_approximate"},
+        "advanced_economy_households_over_10_percent": {"value": 120000000, "unit": "households in advanced economies spending more than 10% of income on residential heating, cooling, and appliances", "value_type": "reported_population_count"},
+        "sub_saharan_africa_without_electricity_unaffordable": {"value": 40, "unit": "percent of people without electricity in sub-Saharan Africa estimated unlikely to afford a basic level of electricity provision", "value_type": "modeled_share"},
+        "clean_cooking_upfront_burden": {"value": 60, "unit": "percent of households without clean cooking access estimated to need more than 10% of income for upfront costs", "value_type": "modeled_share"},
+        "monitoring_framework": {"value": "The IEA's 2026 framework organizes affordability monitoring around drivers, impacts, population groups, indicators, data, dissemination, and policy feedback", "unit": "reported methodological architecture", "value_type": "reported_framework"}
+      },
+      "method": "IEA review of more than 120 affordability policies introduced or updated in 2025, plus a separate expert consultation and methodological review across IEA member countries. The framework emphasizes nationally relevant dimensions and explicitly notes that definitions and indicators remain conceptually different across countries.",
+      "uncertainty": "Policy counts show announced or tracked instruments, not implementation, take-up, distribution, bill reduction, health improvement, or durability. The IEA states that differences in definitions and methods limit cross-region comparability; the modeled access estimates are not household survey outcomes.",
+      "subgroup": "Lower-income households, households in inefficient homes, people without electricity or clean cooking, vulnerable geographies, utilities, governments, and energy-transition beneficiaries.",
+      "counterinterpretation": "Untargeted measures can still reduce prices broadly or build infrastructure with longer-run benefits; targeting can also introduce administrative exclusion or miss households with high needs but atypical incomes. Better measurement does not itself resolve fiscal, utility-revenue, or supply constraints.",
+      "source_url": "https://www.iea.org/reports/household-energy-affordability-data-and-indicators",
+      "retrieval_hash": "sha256:d6435cbf858eb4abf76a4f2e46eac5196a6a2617fc32fe1b37a848a9595ea331",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    "https://www.iea.org/reports/household-energy-affordability",
+    "https://www.iea.org/reports/household-energy-affordability-data-and-indicators"
+  ],
+  "boundary": "This record adds a comparative household-energy affordability route connecting geopolitical price shocks, retail bill design, housing and appliance efficiency, energy access, health, clean cooking, and policy targeting. It does not infer individual hardship, energy deprivation, causal health effects, policy effectiveness, or household welfare from modeled averages and policy counts.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "IEA Household Energy Affordability and Household Energy Affordability: Data and Indicators PDFs downloaded from IEA publication pages; the recorded expenditure, price, access, policy-count, targeting, and framework claims were cross-checked against the executive summaries and methodological sections.",
+    "household_energy_affordability_pdf_sha256": "sha256:8f1516680682a60fcd74c1011e362c0bf8576efe97ebe59b5100e550f08c221c",
+    "household_energy_indicators_pdf_sha256": "sha256:d6435cbf858eb4abf76a4f2e46eac5196a6a2617fc32fe1b37a848a9595ea331",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-rural-housing-service-coordination-data-outcomes-2026",
+  "title": "Affordable housing service coordinators can be social infrastructure that public data cannot fully see",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-107802 review of rural service coordination in federally assisted affordable rental housing",
+  "geography": "United States; rural federally assisted affordable housing, with GAO site visits in Louisiana, New Hampshire, Washington, and Wisconsin",
+  "observations": [
+    {
+      "period": "Fiscal and calendar years 2024-2026; rural service-coordination data and selected evidence reviewed through June 2026",
+      "denominator": {
+        "value": null,
+        "unit": "Federally assisted affordable-housing properties and service-coordination programs; no complete national property-level denominator is available",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "rural_housing_scale": {
+          "value": "approximately 56,000 federally subsidized affordable-housing properties containing more than 4 million units; about 19% of properties and 9% of units were rural in the reviewed inventory",
+          "unit": "National Housing Preservation Database property and unit context as of January 2026",
+          "value_type": "reported_context"
+        },
+        "service_coordination_funding": {
+          "value": "$152 million combined FY2025 appropriations for two HUD service-coordinator programs",
+          "unit": "reported federal appropriation",
+          "value_type": "reported_amount"
+        },
+        "rural_program_reach": {
+          "value": "in 2024, ROSS funded 50 service coordinators at 49 rural-headquartered entities; the multifamily program funded approximately 113 rural grant recipients",
+          "unit": "reported program counts, not all service coordinators or properties",
+          "value_type": "reported_count"
+        },
+        "resident_path": {
+          "value": "site-visit stakeholders reported coordinators helped residents avoid eviction and apply for Medicaid; four of five reviewed studies found mixed effects on selected health, financial, or housing outcomes",
+          "unit": "reported stakeholder accounts and selected-study review",
+          "value_type": "reported_mixed_evidence"
+        },
+        "data_visibility": {
+          "value": "HUD cannot accurately determine how many multifamily properties have service coordinators or routinely analyze required performance reports",
+          "unit": "reported administrative-data limitation",
+          "value_type": "reported_gap"
+        }
+      },
+      "method": "GAO review of statutes, HUD administrative data for 2024-2025, the National Housing Preservation Database, selected studies, agency and stakeholder interviews, and site visits to four rural locations.",
+      "uncertainty": "The rural site interviews were nongeneralizable, the five-study review found varied effects, and incomplete or unreliable HUD data prevent a national estimate of coordinator prevalence or resident outcomes. Reported help with eviction and Medicaid navigation is not a measured causal effect.",
+      "subgroup": "Residents of federally assisted rural housing, including older adults and people with disabilities; property owners and managers, HUD/USDA/Treasury programs, service coordinators, and local service providers. Individual residents are not followed longitudinally.",
+      "counterinterpretation": "Missing or poor administrative data do not mean service coordination is absent or ineffective. Local coordinators and providers may still deliver meaningful help, and mixed study findings can reflect different programs, populations, outcomes, or implementation conditions.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107802/index.html",
+      "retrieval_hash": "sha256:8b9c659b651bda021cc31a98ab5060fea8d3f1b1a7472b6a7e4412530100f771",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-107802",
+      "claim": "GAO landing page and report metadata for rural service coordination and HUD data-quality findings.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures the scale, funding, administrative visibility, and mixed evidence around service coordination in rural federally assisted housing. It does not establish a national coordinator rate, causal eviction prevention, Medicaid enrollment effect, health improvement, or durable housing stability."
+}

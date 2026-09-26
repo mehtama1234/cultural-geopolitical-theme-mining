@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-corporate-pac-reputational-risk-temporary-divestment-2026",
+  "title": "Corporate PACs temporarily reduce visible political giving when reputational risk spikes",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "consumer_power_recourse"
+  ],
+  "source_unit": "NBER Working Paper 35494; panel of corporate PAC contributions to US House candidates from 2000-2024",
+  "geography": "United States; corporate PACs and US House candidate contributions",
+  "observations": [
+    {
+      "period": "2000-2024; fatal school shootings and mass shootings as issue-salience shocks",
+      "denominator": {
+        "value": null,
+        "unit": "study-specific corporate-PAC and candidate-race panel; denominator not reported in the NBER abstract",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "competitive_district_republican_contribution_change": {
+          "value": -70.3,
+          "unit": "percent change in corporate PAC contributions after fatal school shootings in competitive districts",
+          "value_type": "reported_estimate"
+        },
+        "safe_democratic_district_republican_contribution_change": {
+          "value": -60.9,
+          "unit": "percent change in corporate PAC contributions after fatal school shootings in safe Democratic districts",
+          "value_type": "reported_estimate"
+        },
+        "safe_republican_district_change": {
+          "value": "absent in the reported abstract result",
+          "unit": "corporate PAC contribution response after fatal school shootings",
+          "value_type": "reported_counterexample"
+        },
+        "substitution_to_democrats": {
+          "value": "none detected",
+          "unit": "reported contribution response",
+          "value_type": "reported_nonobservation"
+        },
+        "return_to_baseline": {
+          "value": "within nine months",
+          "unit": "reported duration of temporary divestment",
+          "value_type": "reported_persistence"
+        },
+        "consumer_exposure_heterogeneity": {
+          "value": "divestment is stronger for firms with greater consumer exposure",
+          "unit": "reported heterogeneous-effect pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "long_run_policy_change": {
+          "value": "not established",
+          "unit": "lobbying, policy influence, and durable political reallocation",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Staggered difference-in-differences on a 2000-2024 panel of corporate PAC contributions to US House candidates, using fatal school shootings and mass shootings as shocks to gun-violence salience.",
+      "uncertainty": "The NBER abstract does not provide the full sample denominator or all specification details. PAC contributions are one visible form of firm political activity and may not capture lobbying, trade associations, informal access, or policy outcomes.",
+      "subgroup": "Corporate PACs, House candidate races, competitive and safe districts, Republican and Democratic candidates, industries, and firms differing in consumer exposure.",
+      "counterinterpretation": "Firms may reduce visible contributions to manage reputational exposure while preserving lobbying, access, trade-group activity, or long-run policy goals. A temporary PAC decline is not evidence that public pressure changed policy.",
+      "source_url": "https://www.nber.org/papers/w35494",
+      "retrieval_hash": "sha256:7bb49395eef29062305f02977bc9dad74aa54be5b462bfacff79490adfd3e868",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w34980",
+      "claim": "Employment policy and mothers' political behavior is a separate citizen-side pathway and is not pooled with the firm PAC response.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record supports a temporary, selective firm response in visible corporate-PAC giving when reputational risk rises. It does not establish a change in lobbying, policy influence, consumer behavior, public legitimacy, or durable corporate political strategy. The safe-district counterexample and lack of substitution remain part of the finding."
+}

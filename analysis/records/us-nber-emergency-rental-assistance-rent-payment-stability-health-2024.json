@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-emergency-rental-assistance-rent-payment-stability-health-2024",
+  "title": "Emergency rental aid can improve immediate payment without changing average housing stability",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "household_room_consumption", "public_systems_feedback", "consumer_power_recourse", "care_health_reproduction", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 32463; five emergency-rental-assistance programs distributing more than $200 million through lottery, using administrative and survey data",
+  "geography": "United States emergency rental assistance programs in four cities during the COVID-19 pandemic",
+  "observations": [{
+    "period": "U.S. emergency rental assistance during the COVID-19 pandemic; programs evaluated 2020–2022, paper revised 2025",
+    "denominator": {"value": 200000000, "unit": "dollars distributed across the evaluated programs, more than", "value_type": "reported_program_scale"},
+    "measures": {
+      "assignment": {"value": "five programs distributing assistance were evaluated using lottery assignment", "unit": "experimental program evaluation", "value_type": "reported_method"},
+      "rent_payment": {"value": "assistance increased rent payment", "unit": "rent-payment outcome", "value_type": "reported_effect"},
+      "eviction_concern": {"value": "assistance reduced concerns about eviction", "unit": "self-reported eviction concern", "value_type": "reported_effect"},
+      "health": {"value": "assistance produced suggestive improvements in self-reported mental and physical health", "unit": "self-reported health outcome", "value_type": "reported_suggestive_effect"},
+      "housing_stability": {"value": "assistance had little effect on average housing stability", "unit": "housing-stability outcome", "value_type": "reported_null"},
+      "financial_distress": {"value": "assistance had little effect on average financial distress", "unit": "financial-distress outcome", "value_type": "reported_null"},
+      "context": {"value": "eviction moratoria, expanded safety-net programs, and a softer rental market may have weakened the measured connection between rent and displacement", "unit": "study interpretation of muted effects", "value_type": "reported_interpretation"}
+    },
+    "method": "The authors evaluate five emergency rental assistance programs in four cities using lottery assignment, administrative records, and survey data to measure rent payment, housing stability, financial distress, and health.",
+    "uncertainty": "The study does not follow every household through first missed payment, application barriers, landlord response, legal help, court, next rent, later move, work, debt, credit, or care. Pandemic moratoria, safety-net expansion, and rental-market conditions limit direct comparison with ordinary periods or current programs.",
+    "subgroup": "U.S. renters applying to emergency rental assistance programs in four cities during the COVID-19 pandemic; effects may differ by timing, arrears, landlord, local market, household health, income, race, disability, and access to legal or informal support.",
+    "counterinterpretation": "Little average effect on housing stability does not mean no household was protected; the aid may have increased payment, reduced fear, or improved health while other protections prevented measurable displacement. Conversely, increased rent payment does not prove lasting affordability or that the household avoided later debt or a move.",
+    "source_url": "https://www.nber.org/papers/w32463",
+    "retrieval_hash": "sha256:a2f74e5ab42ed797be53a207953b0a2ccf4978c528a954fcf97e27e5ec424304",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w32463", "claim": "NBER DOI record for Working Paper 32463", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a lottery-based rental-assistance finding: aid increased rent payment and reduced eviction concern, with suggestive health gains, but had little average effect on housing stability or financial distress in the pandemic setting. It does not establish lasting affordability, universal effects, or the best intervention outside that context."
+}

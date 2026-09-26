@@ -15,3 +15,9 @@ Water quality may sit underneath both household health and the value of a place.
 ## Decision rule
 
 Move on after one source measures water quality and health, one source measures household spending or home value, and one local record shows who gets a fix. Do not treat a system average as one family's exposure.
+
+The [rural water funding-coordination finding](findings/us-gao-rural-water-funding-coordination-unserved-communities-2026-001.md)
+adds an earlier institutional stage: water programs may exist while deadlines,
+matching funds, application rules, limited data, and local administrative
+capacity make the route difficult for unserved communities. This is separate
+from water quality, maintenance, construction, household exposure, and health.

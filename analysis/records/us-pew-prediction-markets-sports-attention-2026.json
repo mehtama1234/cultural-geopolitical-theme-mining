@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-prediction-markets-sports-attention-2026",
+  "title": "Prediction-market activity expands through sports and speculative attention more than politics",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "Pew Research Center analysis of The Block data on Kalshi and Polymarket trading, July 2024-July 2026",
+  "geography": "Global platform trading volume; U.S. and international platform activity",
+  "observations": [
+    {
+      "period": "May-July 2026; monthly global notional trading volume",
+      "denominator": {
+        "value": 2,
+        "unit": "leading prediction-market platforms, Kalshi and Polymarket (including Polymarket US)",
+        "value_type": "platform_coverage"
+      },
+      "measures": {
+        "combined_volume": {
+          "value": "$25.7 billion in May, $47.7 billion in June, and $53.0 billion in July; the May-to-July total more than doubled",
+          "unit": "monthly global notional trading volume in U.S. dollars",
+          "value_type": "published_platform_time_series"
+        },
+        "sports_concentration": {
+          "value": "In July, sports volume was $31.4 billion on Kalshi and $10.6 billion on Polymarket, making sports the largest category on both platforms",
+          "unit": "monthly notional volume by platform and topic",
+          "value_type": "published_topic_platform_comparison"
+        },
+        "politics_and_crypto_contrast": {
+          "value": "July politics volume was $169 million on Kalshi and $727 million on Polymarket, while cryptocurrency volume was $6.1 billion on Kalshi and $1.2 billion on Polymarket",
+          "unit": "monthly notional volume by platform and topic",
+          "value_type": "published_topic_platform_comparison"
+        },
+        "polymarket_us_share": {
+          "value": "Polymarket US rose from 4% of Polymarket's total trading volume in January 2026 to 39% in July",
+          "unit": "share of Polymarket volume",
+          "value_type": "published_platform_comparison"
+        },
+        "contract_mechanism": {
+          "value": "Event contracts have binary outcomes priced between $0 and $1; the contract price is intended to represent the market-implied likelihood and a winning contract resolves to $1",
+          "unit": "platform contract mechanism",
+          "value_type": "documented_market_rule"
+        }
+      },
+      "method": "Pew computational analysis of The Block's platform-reported notional taker-volume data, using comparable topic categories across Kalshi, Polymarket International, and Polymarket US; analysis covers July 2024 through July 2026.",
+      "uncertainty": "Trading volume is not the number of users, unique participants, net money lost or gained, or political influence. Notional volume counts contracts at $1 rather than trade price, topic tagging differs across platforms, and the analysis stops at July because of category-data limitations.",
+      "subgroup": "Platform and topic categories, with separate Kalshi, Polymarket, sports, politics, cryptocurrency, and other-volume comparisons; no respondent-level demographic denominator is used.",
+      "counterinterpretation": "The volume surge may reflect repeated high-frequency trading by a subset of users, seasonal sports events, platform expansion, or contract turnover rather than broad public adoption. Sports dominance does not imply that prediction markets have displaced elections or conventional sports books.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/23/prediction-markets-trading-volume-doubled-between-may-and-july-largely-driven-by-sports/",
+      "retrieval_hash": "sha256:48bc3c4077f63f7dd72ead1cd4cf95239799856f5d21b4b7cc92e73dd00a618a",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a platform-mediated speculative-attention and consumer-participation layer. It does not estimate user counts, gambling prevalence, legality, financial welfare, political persuasion, market accuracy, or causal effects of sports trading on civic behavior.",
+  "retrieval_hash": "sha256:48bc3c4077f63f7dd72ead1cd4cf95239799856f5d21b4b7cc92e73dd00a618a"
+}

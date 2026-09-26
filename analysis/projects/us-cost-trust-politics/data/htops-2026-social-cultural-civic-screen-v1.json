@@ -1,0 +1,32 @@
+{
+  "format": "htops-2026-social-cultural-civic-screen-v1",
+  "field_window": "March 13-30, 2026",
+  "source": "Census Household Trends and Outlook Pulse Survey corrected March 2026 PUF",
+  "input_sha256": "sha256:7bcd56139bf3997901db78dbf75f20f0aeb0fa919b188c2d5b6ae9350df9c6d1",
+  "rows": 12521,
+  "valid_expense_rows": 11759,
+  "weight": "PWEIGHT with PWEIGHT1-PWEIGHT80 successive-difference replicate weights",
+  "alignment": {
+    "duplicate_main_ids": 0,
+    "duplicate_replicate_ids": 0,
+    "missing_replicate_ids": 0,
+    "extra_replicate_ids": 0,
+    "max_abs_primary_weight_difference": 0.0
+  },
+  "group_definition": "EXPENSE_DIFFICULT: 1 not at all, 2 a little, 3 somewhat, 4 very difficult",
+  "outcome_definitions": {
+    "art_exhibit": "ARTEXHIBIT=1 yes in prior four weeks",
+    "create_art": "CREATEART=1 yes in prior four weeks",
+    "arts_opportunity": "PARTINARTS=1 or 2 strongly agree/agree",
+    "club_meeting": "SOC_CLUBS=2, 3, or 4 at least one meeting in prior year",
+    "public_meeting": "ATTENDMEETING=1 yes public meeting for local issue in prior year"
+  },
+  "weighted_estimates_pct": {
+    "1": {"art_exhibit": 10.387, "create_art": 21.498, "arts_opportunity": 78.554, "club_meeting": 41.205, "public_meeting": 8.802},
+    "2": {"art_exhibit": 10.902, "create_art": 24.007, "arts_opportunity": 66.138, "club_meeting": 36.783, "public_meeting": 11.038},
+    "3": {"art_exhibit": 5.291, "create_art": 18.111, "arts_opportunity": 61.248, "club_meeting": 29.255, "public_meeting": 10.590},
+    "4": {"art_exhibit": 7.182, "create_art": 21.228, "arts_opportunity": 45.698, "club_meeting": 27.202, "public_meeting": 10.064}
+  },
+  "boundary": "Same-round descriptive respondent-weighted conditional shares; expense difficulty is household-reported, cultural and civic outcomes are respondent-reported, and March 2026 is cross-sectional. No causal, longitudinal, household-level, or practical-exit estimate is implied.",
+  "reproduction": "scripts/analyze_htops_2026_social_connection.py"
+}

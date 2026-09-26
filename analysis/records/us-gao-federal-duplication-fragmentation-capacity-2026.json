@@ -1,0 +1,64 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-federal-duplication-fragmentation-capacity-2026",
+  "title": "Federal duplication and fragmentation remain a public-capacity problem even after large realized savings",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "household_room_consumption",
+    "firm_sector_market_power",
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences"
+  ],
+  "source_unit": "U.S. Government Accountability Office 16th annual duplication, overlap, and fragmentation review",
+  "geography": "United States federal programs and agencies; matters for congressional and administrative action",
+  "observations": [
+    {
+      "period": "May 2026; federal duplication, overlap, and fragmentation portfolio",
+      "denominator": {
+        "value": 610,
+        "unit": "remaining matters and recommendations identified by GAO for congressional or agency consideration",
+        "value_type": "reported_portfolio_count"
+      },
+      "measures": {
+        "new_matters": {
+          "value": 97,
+          "unit": "new matters and recommendations identified in the 2026 annual report",
+          "value_type": "reported_count"
+        },
+        "realized_savings": {
+          "value": 774.3,
+          "unit": "billion dollars in reported cumulative cost savings and revenue increases from congressional and agency action",
+          "value_type": "reported_amount"
+        },
+        "future_potential": {
+          "value": ">100",
+          "unit": "billion dollars in potential additional savings or revenue increases if remaining suggestions are addressed",
+          "value_type": "reported_potential"
+        },
+        "capacity_consequence": {
+          "value": "remaining duplication, overlap, and fragmentation can reduce efficiency and effectiveness and complicate service delivery and oversight",
+          "unit": "reported institutional implication",
+          "value_type": "reported_interpretation"
+        }
+      },
+      "method": "GAO annual cross-government review of prior recommendations and new matters involving duplicative, overlapping, or fragmented federal programs, goals, or actions.",
+      "uncertainty": "Reported savings and potential are GAO portfolio estimates and do not identify household incidence, implementation cost, service quality, or whether every remaining matter is politically or administratively feasible.",
+      "subgroup": "Federal agencies, Congress, state and local implementers, firms receiving or complying with federal programs, and households relying on public services or transfers.",
+      "counterinterpretation": "Some overlap can provide redundancy, specialization, or access points; eliminating programs may create transition costs or remove valuable local, sector-specific, or resilience capacity.",
+      "source_url": "https://www.gao.gov/products/gao-26-108505",
+      "retrieval_hash": "sha256:8986e9fe9843236afa5bb1d8c67431943a213904cb7be746b25ca62e2faff365",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/assets/gao-26-108505.pdf",
+      "claim": "Full GAO annual report on duplication, overlap, and fragmentation.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record measures a GAO portfolio of federal duplication, overlap, and fragmentation matters and reported fiscal potential. It does not establish a national service-failure rate, household savings, agency productivity, public trust, or the causal effect of consolidating any program.",
+  "retrieval_hash": "sha256:8986e9fe9843236afa5bb1d8c67431943a213904cb7be746b25ca62e2faff365"
+}

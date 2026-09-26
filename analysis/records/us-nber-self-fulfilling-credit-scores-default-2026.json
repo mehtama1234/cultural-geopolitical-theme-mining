@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-self-fulfilling-credit-scores-default-2026",
+  "title": "A credit-score change can help produce later default for borrowers already near trouble",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "public_systems_feedback", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35508; credit-inquiry counting rule, score changes, and two-year default outcomes",
+  "geography": "United States; consumers around a fourteen-day credit-inquiry scoring cutoff",
+  "observations": [{
+    "period": "Credit records and two-year outcomes; paper issued July 2026",
+    "denominator": {"value": 1, "unit": "U.S. credit-score regression-discontinuity study", "value_type": "study_unit"},
+    "measures": {
+      "score_change": {"value": "an additional counted inquiry lowered credit scores by about five points without changing the rest of the credit report", "unit": "credit-score points", "value_type": "reported_estimate"},
+      "clean_record_default": {"value": "default did not respond among consumers with clean records", "unit": "two-year default response", "value_type": "reported_comparison"},
+      "prior_derogatory_default": {"value": "default rose by 3.2 percentage points over two years among consumers with prior derogatory marks", "unit": "two-year default probability", "value_type": "reported_estimate"},
+      "self_fulfilling_share": {"value": "at least 13% of the score-default relationship for consumers with prior derogatories was self-fulfilling", "unit": "share of score-default relationship", "value_type": "reported_estimate"}
+    },
+    "method": "The authors use a rule that counts multiple credit inquiries within fourteen days as one and estimate a regression discontinuity around the cutoff, treating the resulting score movement as a change that does not add a new credit-report fact.",
+    "uncertainty": "The public abstract does not identify which lender changed an approval, rate, limit, or timing decision, nor does it follow rent, insurance, work, utilities, recovery, or later applications. The self-fulfilling share is specific to the study population and design; it is not a universal effect of every score movement.",
+    "subgroup": "Consumers near the fourteen-day inquiry-counting cutoff, separated by clean records versus prior derogatory marks; liquidity, alternative lenders, income, housing, and proximity to approval thresholds can differ within those groups.",
+    "counterinterpretation": "A lender may ignore a five-point movement, or another unmeasured decision may carry the effect. A higher default rate can reflect changed terms, reduced credit supply, borrower self-withdrawal, or another channel; the study establishes the score-to-default effect but not the exact contract path.",
+    "source_url": "https://www.nber.org/papers/w35508",
+    "retrieval_hash": "sha256:cc0ae80c9874688ef0a8c44ec6d73581455c2a36ef0db20c3d6c9b73a500264c",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35508", "claim": "NBER DOI record for Working Paper 35508", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a feedback finding: a financial signal can become part of the risk it predicts for a defined higher-risk group. It does not establish a particular lender action, monthly price, housing or job consequence, recovery path, or political response for any individual borrower."
+}

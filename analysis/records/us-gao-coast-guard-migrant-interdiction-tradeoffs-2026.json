@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-coast-guard-migrant-interdiction-tradeoffs-2026",
+  "title": "A maritime migration surge redirected Coast Guard capacity and changed the balance among missions",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "housing_place_mobility",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107440 review of Coast Guard maritime migrant and drug interdiction missions and DHS Operation Vigilant Sentry",
+  "geography": "Caribbean Sea, Florida Straits, Southeast District, and other U.S. Coast Guard districts; fiscal years 2015–2024 with surge operation beginning August 2022",
+  "observations": [
+    {
+      "period": "Fiscal years 2021–2024; maritime migration surge and Coast Guard mission resources",
+      "denominator": {"value": 11, "unit": "Coast Guard statutory missions considered in operational-hour and expense comparisons", "value_type": "mission_scope"},
+      "measures": {
+        "migrant_operational_hours_change": {"value": 66, "unit": "percent increase in vessel and aircraft operational hours for migrant interdiction from FY2021 to FY2023", "value_type": "reported_change"},
+        "drug_operational_hours_change": {"value": -62, "unit": "percent decrease in vessel and aircraft operational hours for drug interdiction from FY2021 to FY2023", "value_type": "reported_change"},
+        "migrant_flow_change": {"value": 311, "unit": "percent increase in known annual maritime migrant flow from the FY2015–2021 average to approximately 34,000 in each of FY2022 and FY2023", "value_type": "reported_change"},
+        "migrant_interdiction_2022_2023": {"value": 37, "unit": "percent of known maritime migrant flow interdicted by the Coast Guard in both FY2022 and FY2023, approximately 12,500 of 34,000", "value_type": "reported_share"},
+        "surge_cutters": {"value": 80, "unit": "cutters deployed to Operation Vigilant Sentry in the Southeast District from August 2022 through September 2024; 38 redirected from other missions and 29 mixed-use", "value_type": "reported_count"}
+      },
+      "method": "GAO analyzed Coast Guard operational-hour, expense, drug-interdiction, and migrant-interdiction data; reviewed mission documents; and interviewed headquarters, field, and partner-agency officials. GAO assessed the main data as sufficiently reliable for the stated measures.",
+      "uncertainty": "Operational hours and interdiction shares show resource allocation and recorded outcomes, not total migration, deterrence, migrant safety after interception, drug availability, or causal effects of any single policy.",
+      "subgroup": "Coast Guard drug and migrant interdiction missions, Operation Vigilant Sentry, Southeast District assets, other statutory missions, and foreign or federal partner agencies.",
+      "counterinterpretation": "Migrant interdiction was described as partly life-saving and may reasonably receive higher priority; lower drug or other mission activity can reflect deliberate prioritization, asset readiness, partner substitution, or changing flows rather than simple institutional failure.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107440/index.html",
+      "retrieval_hash": "sha256:70bf5d2b029c57b00ad591022494d7cfbbae263af565a4a0706a1720b5c684d2",
+      "status": "reported"
+    },
+    {
+      "period": "Fiscal years 2021–2024; partner substitution and performance measurement",
+      "denominator": {"value": 1, "unit": "Operation Vigilant Sentry and Coast Guard/DHS maritime migrant-interdiction coordination route", "value_type": "named_operation_scope"},
+      "measures": {
+        "jiatf_cutter_support": {"value": "50% of requested cutter support in FY2023 versus 96% in FY2021", "unit": "Coast Guard contribution to JIATF-South requests", "value_type": "reported_comparison"},
+        "partner_share_drug_interdictions": {"value": "54% in FY2021 and 67% in FY2023", "unit": "share of drug interdictions attributed to partner nations in JIATF-South data", "value_type": "reported_share_comparison"},
+        "drug_seizures": {"value": "218 in FY2021 versus 112 in FY2023", "unit": "Coast Guard drug seizures", "value_type": "reported_count_comparison"},
+        "drug_mass_seized": {"value": "approximately 143,000 kilograms in FY2021 versus 110,000 kilograms in FY2023", "unit": "drugs seized by the Coast Guard", "value_type": "reported_amount_comparison"},
+        "lessons_learned": {"value": "the task force generally followed 7 of 8 leading collaboration practices but did not fully share lessons learned", "unit": "interagency collaboration assessment", "value_type": "reported_finding"}
+      },
+      "method": "GAO compared Coast Guard and JIATF-South operational and performance records and assessed DHS task-force documentation and interviews against prior collaboration practices.",
+      "uncertainty": "The comparison does not establish that Coast Guard resource redirection alone caused drug-seizure changes; partner contributions, route changes, asset readiness, enforcement by other agencies, and measurement definitions also matter.",
+      "subgroup": "Coast Guard, JIATF-South, United Kingdom and Netherlands partner forces, DHS agencies, and Operation Vigilant Sentry participants.",
+      "counterinterpretation": "Increased partner participation may represent successful burden sharing rather than loss of U.S. influence; the task force's incomplete lessons-sharing process does not mean coordination was absent.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107440/index.html",
+      "retrieval_hash": "sha256:70bf5d2b029c57b00ad591022494d7cfbbae263af565a4a0706a1720b5c684d2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/reports/GAO-26-107440/index.html", "claim": "Official GAO report supplies maritime-flow, resource-tradeoff, Operation Vigilant Sentry, partner-substitution, performance, and collaboration findings.", "status": "official-report"}
+  ],
+  "boundary": "This record establishes a named maritime-interdiction operation and a resource-tradeoff route across Coast Guard missions. It does not establish deterrence, migrant safety or later status, total drug supply, criminal adaptation, public legitimacy, or a causal effect of one policy.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO accessible HTML report retrieved and hashed; underlying Coast Guard case files, migrant records, partner logs, and classified operational materials not retained",
+    "html_sha256": "sha256:70bf5d2b029c57b00ad591022494d7cfbbae263af565a4a0706a1720b5c684d2",
+    "checked": "2026-09-22"
+  }
+}

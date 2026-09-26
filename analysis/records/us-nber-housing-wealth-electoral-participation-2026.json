@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-housing-wealth-electoral-participation-2026",
+  "title": "Homeowners with greater electoral participation also accumulate housing wealth more effectively",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["housing_place_mobility", "political_judgment_action", "household_room_consumption", "unequal_exposure_status", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 35731; nationwide voter-property dataset, property transactions, and original survey evidence",
+  "geography": "United States; homeowners and property transactions in a nationwide voter-property dataset",
+  "observations": [{
+    "period": "Nationwide property and voter records; paper issued September 2026",
+    "denominator": {"value": 1, "unit": "nationwide linked voter-property study and original survey", "value_type": "study_unit"},
+    "measures": {
+      "participation_appreciation_gradient": {"value": "realized housing appreciation increases monotonically with electoral participation among homeowners", "unit": "reported observational relationship", "value_type": "reported_comparison"},
+      "wealth_building_behaviors": {"value": "more politically engaged homeowners are reported to purchase undervalued properties, invest more in improvements, and sell at a premium", "unit": "property-market behavior comparison", "value_type": "reported_comparison"},
+      "adjustment_set": {"value": "the relationship is robust to controls for geography, partisanship, demographics, wealth proxies, and income", "unit": "conditional association", "value_type": "reported_comparison"},
+      "personality_difference": {"value": "the original survey reports systematic personality differences among homeowners with different political engagement and housing-market performance", "unit": "survey association", "value_type": "reported_comparison"}
+    },
+    "method": "The authors link voter participation to property transactions and realized appreciation, condition on observed geography, partisanship, demographics, wealth proxies, and income, and use an original survey to examine personality differences.",
+    "uncertainty": "The evidence is observational and does not establish that voting causes housing appreciation or that participation independently creates wealth. Homeownership selection, financial sophistication, time, networks, risk tolerance, local opportunity, unmeasured wealth, and reverse causality may remain. The study does not measure renters, nonowners, housing affordability, displacement, public policy influence, or household political action beyond participation.",
+    "subgroup": "Homeowners in the linked voter-property data and survey respondents; homeowner selection and the reported engagement groups do not represent all voters, renters, prospective buyers, or households with limited housing access.",
+    "counterinterpretation": "People with greater wealth, time, education, networks, or housing-market opportunity may both participate electorally and make more profitable property decisions. Housing appreciation may increase civic incorporation or resources for participation rather than the reverse. Controls do not eliminate unobserved selection.",
+    "source_url": "https://www.nber.org/papers/w35731",
+    "retrieval_hash": "sha256:31b39d8659f437d63ec49d89776f28855f559d16a73c9fdf3eae01a0af31f46e",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35731", "claim": "NBER DOI record for Working Paper 35731", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a politically engaged homeowner-to-housing-wealth association. It does not establish a causal effect of voting, explain renter outcomes, measure affordability or displacement, or show that wealth accumulation produces broader representation, trust, or political power."
+}

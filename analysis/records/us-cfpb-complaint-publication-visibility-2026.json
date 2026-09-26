@@ -1,0 +1,49 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-cfpb-complaint-publication-visibility-2026",
+  "title": "A complaint system can improve intake integrity while reducing public narrative visibility",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": ["platforms_data_attention", "consumer_power_recourse", "public_systems_feedback", "trust_identity_meaning", "unequal_exposure_status"],
+  "source_unit": "Consumer Financial Protection Bureau official 2026 announcements about complaint-portal integrity and public complaint publication",
+  "geography": "United States consumer-finance complaint system",
+  "observations": [
+    {
+      "period": "June 24, 2026 portal-integrity correction announcement",
+      "denominator": {"value": 1, "unit": "named federal complaint portal and its administrative publication system", "value_type": "institutional_case_count"},
+      "measures": {
+        "reported_integrity_problems": {"value": "complaint misuse by credit-repair organizations, social-media influencers, questionable expertise, AI tools acting as agents, and businesses disputing accurate credit-report information", "unit": "agency-described portal risks", "value_type": "reported_institutional_assessment"},
+        "identity_control": {"value": "two-factor authentication requiring email and phone verification for new online accounts", "unit": "reported portal-control change", "value_type": "reported_control_change"},
+        "response_route_changes": {"value": "revised manual, standardized CRA handling, statutory alignment, and possible new administrative response categories", "unit": "reported process changes", "value_type": "reported_process_change"},
+        "verified_consumer_remedy": {"value": "not established", "unit": "missing account-level correction, financial recovery, repeat effort, trust, switching, or exit outcome", "value_type": "unmeasured"}
+      },
+      "method": "Bounded extraction from the CFPB's official portal-integrity announcement; agency-described risks and controls are kept separate from complaint validity, company response, remedy, and consumer outcome.",
+      "uncertainty": "The announcement describes institutional concerns and planned or implemented controls but does not quantify how many submissions were invalid, how many consumers were affected, or whether the changes improved correction, recovery, or trust.",
+      "subgroup": "Users of the CFPB complaint portal, third-party submitters, credit-repair organizations, AI-assisted submitters, and companies receiving complaints; no representative consumer sample is provided.",
+      "counterinterpretation": "Additional identity and routing controls may reduce manipulation and improve usefulness while also adding effort or excluding some legitimate users; the announcement does not measure either effect.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and-utility-of-the-consumer-complaint-system/",
+      "retrieval_hash": "sha256:183cc67f6d9c17db0d19c9bb7e5bd338251a99e39ae7bcbb01ec190cef27070c",
+      "status": "reported"
+    },
+    {
+      "period": "August 14, 2026 public-narrative and visualization publication change",
+      "denominator": {"value": 1, "unit": "CFPB public complaint database publication policy", "value_type": "institutional_policy_change"},
+      "measures": {
+        "public_narrative_publication": {"value": "discontinued at agency discretion", "unit": "publication-policy change for unverified complaint narratives and visualizations", "value_type": "reported_policy_change"},
+        "agency_reason": {"value": "narratives are one-sided and unverified, may not describe legal violations, and can provide a misleading picture of company compliance", "unit": "agency-stated rationale", "value_type": "reported_rationale"},
+        "complaint_collection_and_response": {"value": "CFPB says it will continue collecting, monitoring, responding, sharing securely with regulators, and disclosing some data through FOIA", "unit": "reported retained institutional functions", "value_type": "reported_process_boundary"},
+        "public_understanding_and_consumer_remedy": {"value": "not established", "unit": "missing effect on consumer voice, company accountability, public interpretation, correction, recovery, trust, or exit", "value_type": "unmeasured"}
+      },
+      "method": "Official CFPB policy announcement reviewed as a dated follow-up to the portal-integrity correction; publication, collection, routing, and remedy are coded as separate stages.",
+      "uncertainty": "The announcement does not quantify changes in public access, complaint use, company behavior, correction, or consumer outcomes after narrative publication changes. Continued collection is not equivalent to continued public visibility.",
+      "subgroup": "Consumers submitting complaints, companies receiving them, regulators using shared information, researchers, journalists, and members of the public using the published database; no linked user-level panel is provided.",
+      "counterinterpretation": "Removing unverified narratives may reduce misleading public inference and protect complainants, while also reducing observable consumer voice and independent scrutiny; both effects remain open.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-to-cease-discretionary-publication-of-complaint-narratives-and-visualizations/",
+      "retrieval_hash": "sha256:450dd93402d3bc993016e596177604f51149e9d526c8e317c9e53d13d750a578",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/", "claim": "The complaint database describes published complaint records and company-response publication rules; published records are not representative harm or remedy rates.", "status": "official-context"}
+  ],
+  "boundary": "This record establishes a dated change in complaint-portal controls and public narrative visibility. It does not establish complaint validity, consumer harm, company liability, verified correction or payment, representative public opinion, trust change, switching, or practical exit. It adds an institutional visibility boundary to the consumer-power and platform/data lanes."
+}

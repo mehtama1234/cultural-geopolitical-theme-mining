@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-unpaid-household-work-2026",
+  "title": "Unpaid household work is a multi-trillion-dollar social capacity that ordinary economic totals only partly show",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107871 analysis of 2021–2024 American Time Use Survey and 2024 Current Population Survey wage data",
+  "geography": "United States; nationally representative time-use and labor-market estimates",
+  "observations": [
+    {
+      "period": "2021–2024 time use; 2024 replacement-value estimate",
+      "denominator": {
+        "value": 1,
+        "unit": "national estimate of unpaid household work based on ATUS time and CPS wage proxies",
+        "value_type": "source_defined_estimate_universe"
+      },
+      "measures": {
+        "daily_time": {
+          "value": "almost 4",
+          "unit": "hours per day spent on unpaid household work by most people",
+          "value_type": "reported_estimate"
+        },
+        "daily_replacement_value": {
+          "value": 70,
+          "unit": "approximately dollars per day using selected wage proxies",
+          "value_type": "estimated_replacement_value"
+        },
+        "national_annual_value": {
+          "value": "at least $5.6–$6.0 trillion",
+          "unit": "2024 dollars; estimated national market value of unpaid household work",
+          "value_type": "estimated_range"
+        },
+        "gdp_equivalent": {
+          "value": "19.2–20.2",
+          "unit": "percent of 2024 GDP equivalent",
+          "value_type": "estimated_range"
+        },
+        "women_share_of_workers": {
+          "value": 54,
+          "unit": "percent of people doing unpaid household work, 2021–2024",
+          "value_type": "reported_share"
+        },
+        "women_population_share": {
+          "value": 51,
+          "unit": "percent of U.S. population used as comparison, 2021–2024",
+          "value_type": "reported_share"
+        },
+        "care_burden_comparison": {
+          "value": "women and married people spent more time on childcare than men and unmarried people",
+          "unit": "reported demographic comparison",
+          "value_type": "reported_comparison"
+        },
+        "later_outcomes": {
+          "value": "not observed",
+          "unit": "care quality, exhaustion, pay, employment, health, household security, and political action",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO analysis of nationally representative ATUS data from 2021–2024 and 2024 CPS median hourly wages; replacement-value estimates use selected lower and higher wage proxies for types of unpaid work.",
+      "uncertainty": "The estimate depends on activity classification, time-diary reporting, wage proxies, and valuation choices. It does not measure emotional meaning, care quality, exhaustion, choice, household bargaining, or later outcomes.",
+      "subgroup": "People performing unpaid household work; demographic comparisons include sex, marital status, and childcare-related groups described by GAO.",
+      "counterinterpretation": "Replacement-cost accounting makes hidden work visible but cannot capture reciprocity, meaning, quality, or the possibility that households prefer some unpaid care; a large estimated value is not itself a welfare loss or a case for universal outsourcing.",
+      "source_url": "https://www.gao.gov/products/gao-26-107871",
+      "retrieval_hash": "sha256:0237ba6a7455904d5464fc30ad15722d7f42ba57bfd04560abb2213d8775c915",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record estimates the time and replacement value of unpaid household work and reports selected demographic differences. It does not establish causal effects on poverty, gender inequality, health, wellbeing, labor supply, household bargaining, political action, or social welfare, and it does not follow the same household to later outcomes.",
+  "retrieval_hash": "sha256:0237ba6a7455904d5464fc30ad15722d7f42ba57bfd04560abb2213d8775c915"
+}

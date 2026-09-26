@@ -1,6 +1,6 @@
 # US program dashboard v1
 
-**Checked:** 2026-09-19
+**Checked:** 2026-09-26
 **Status:** active long-term program control view
 
 The program maintains a US-centered, cross-source living atlas of cultural,
@@ -20,9 +20,9 @@ a source and next test.
 ## Current scale
 
 - **14** program themes
-- **344** validated machine-readable trend records
-- **1214** period-specific observations
-- **103** source-search packets
+- **1012** validated machine-readable trend records
+- **2353** period-specific observations
+- **164** source-search packets
 
 ## Source ecosystem
 
@@ -37,6 +37,15 @@ a source and next test.
 The source families are used for triangulation. Every result keeps its unit,
 date, geography, denominator, method, uncertainty, subgroup, counterexample,
 and open arrow visible.
+
+## Four rotating research lanes
+
+1. **Culture and meaning:** identity, belonging, trust, attention, norms, and political judgment.
+2. **Household, care, and time:** money, health, caregiving, mobility, work, and social reproduction.
+3. **Consumer, worker, and institutional power:** voice, remedy, switching, bargaining, administration, and practical exit.
+4. **Firm, infrastructure, and state consequence:** capacity, dependency, concentration, technology, fiscal choice, and geopolitical leverage.
+
+These lanes are connected, but no single dataset is expected to close the entire chain.
 
 ## Open arrows
 

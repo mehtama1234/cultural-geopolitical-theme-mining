@@ -1,0 +1,87 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-health-wellness-influencer-authority-2025",
+  "title": "Health influence online is built from credentials, coaching, business, and lived experience rather than one authority route",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "care_health_reproduction",
+    "consumer_power_recourse",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Pew Research Center analysis of prominent health and wellness influencer profiles plus American Trends Panel surveys",
+  "geography": "United States audience; English-language Instagram, TikTok, YouTube, and top-ranked health podcasts",
+  "observations": [
+    {
+      "period": "Influencer profiles analyzed in mid-2025; surveys June and October 2025; report published May 2026",
+      "denominator": {
+        "value": 6828,
+        "unit": "prominent health and wellness influencers with at least 100,000 followers on Instagram, TikTok, or YouTube, or hosts of a top-ranked podcast",
+        "value_type": "profile_analysis_count"
+      },
+      "measures": {
+        "accounts_analyzed": {
+          "value": 12800,
+          "unit": "social media accounts belonging to the 6,828 influencers",
+          "value_type": "profile_account_count"
+        },
+        "self_described_health_professional": {
+          "value": 41,
+          "unit": "percent of analyzed influencers whose bios mention a health care profession",
+          "value_type": "published_profile_share"
+        },
+        "self_described_coach": {
+          "value": 31,
+          "unit": "percent of analyzed influencers whose bios describe them as coaches",
+          "value_type": "published_profile_share"
+        },
+        "self_described_entrepreneur": {
+          "value": 28,
+          "unit": "percent of analyzed influencers whose bios describe them as entrepreneurs",
+          "value_type": "published_profile_share"
+        },
+        "consumer_reach": {
+          "value": 40,
+          "unit": "percent of U.S. adults who ever get health and wellness information from social media influencers or podcasts; 50% among adults under 50",
+          "value_type": "published_survey_share"
+        },
+        "trust_distribution": {
+          "value": "10% trust all or most, 65% trust some, and 24% trust not too much or none of the information",
+          "unit": "health and wellness influencer consumers",
+          "value_type": "published_survey_distribution"
+        },
+        "understanding_and_worry": {
+          "value": "54% say influencer information helped them better understand how to be healthy; 12% say it made them more confused; 26% say it made them more worried and 22% less worried",
+          "unit": "health and wellness influencer consumers",
+          "value_type": "published_survey_distribution"
+        },
+        "health_outcome": {
+          "value": "not observed as a linked path from influencer exposure through claim verification, care, treatment, spending, adherence, or health outcome",
+          "unit": "missing information-to-action chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Pew analyzed 12,800 social-media accounts belonging to 6,828 prominent English-language health and wellness influencers aimed at a U.S. audience, using profile descriptions and platform presence. It paired that analysis with two American Trends Panel surveys of U.S. adults: 5,023 in June 2025 and 5,111 in October 2025.",
+      "uncertainty": "Influencer categories are based on self-description in bios and do not verify credentials, scientific accuracy, sponsorship, or commercial incentives. The profile sample focuses on large accounts and excludes smaller or private communities. The consumer survey combines social-media influencers and podcasts, is cross-sectional and self-reported, and does not observe specific claims or downstream health behavior.",
+      "subgroup": "U.S. adults who get health and wellness information from influencers or podcasts, with comparisons by age and other demographics; adults under 50 are more likely to use these sources, and older consumers are more skeptical.",
+      "counterinterpretation": "Lived experience, parenting, coaching, or entrepreneurship can make health information relatable and may help people understand healthy practices. Low trust does not mean no influence, and high audience size does not establish authority. A consumer may use an influencer for motivation or practical habit advice rather than diagnosis or treatment.",
+      "source_url": "https://www.pewresearch.org/2026/05/07/trust-in-health-and-wellness-influencers/",
+      "retrieval_hash": "sha256:fd271df7e990936a711fab6e5a348f1de8353678d4be0ab4e225b55774a5e30b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/wp-content/uploads/sites/20/2026/05/PL_2026.05.07_Wellness-Influencers_REPORT.pdf",
+      "claim": "Pew report provides the influencer profile analysis, survey samples, self-description categories, trust distribution, and perceived effects.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds a platform-mediated health-authority layer: online health influence mixes professional identity, coaching, business, and lived experience. It does not verify credentials, accuracy, commercial incentives, medical decisions, or health outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Pew report page and report PDF reviewed; platform account data and survey microdata are not retained.",
+    "pdf_sha256": "sha256:fd271df7e990936a711fab6e5a348f1de8353678d4be0ab4e225b55774a5e30b",
+    "checked": "2026-09-23"
+  }
+}

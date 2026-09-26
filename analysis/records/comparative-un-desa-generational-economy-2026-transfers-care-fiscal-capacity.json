@@ -1,0 +1,89 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-desa-generational-economy-2026-transfers-care-fiscal-capacity",
+  "title": "The hidden generational economy links paid production, public transfers, unpaid care, and fiscal sustainability across the life course",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["care_health_reproduction", "household_room_consumption", "public_systems_feedback", "unequal_exposure_status", "work_control_bargaining"],
+  "source_unit": "UN DESA Population Division, Policy Brief No. 187: Revealing the Generational Economy: An Essential System at Risk",
+  "geography": "Global demographic and social systems, with examples and methodological applications spanning low-, middle-, and high-income countries",
+  "observations": [
+    {
+      "period": "2026; generational economy conceptual frame",
+      "denominator": {"value": 1, "unit": "society-wide life-course system of intergenerational production, consumption, sharing, and allocation", "value_type": "generational_economy_frame"},
+      "measures": {
+        "flow_set": {"value": "monetary transfers, time transfers, caregiving, domestic services, public programs, taxes, savings, production, and consumption", "unit": "reported intergenerational flow set", "value_type": "reported_framework"},
+        "life_course_roles": {"value": "people move between receiving and providing support over the life course", "unit": "reported social-economic mechanism", "value_type": "reported_mechanism"},
+        "gdp_boundary": {"value": "conventional economic measures such as GDP do not fully capture the resource flows connecting generations", "unit": "reported measurement boundary", "value_type": "reported_boundary"}
+      },
+      "method": "UN DESA policy synthesis defining the generational economy through social institutions, markets, public institutions, monetary flows, time transfers, and life-course roles.",
+      "uncertainty": "The framework identifies resources and relationships that standard accounts omit or separate; it does not assign a single monetary value or causal effect to every family, public, or market transfer.",
+      "subgroup": "Children, working-age adults, older persons, caregivers, families, employers, public institutions, and people moving between support-provider and support-recipient roles.",
+      "counterinterpretation": "GDP and national accounts remain essential for many macroeconomic purposes; complementary generational accounts deepen rather than replace existing economic measurement.",
+      "source_url": "https://www.un.org/development/desa/pd/content/revealing-generational-economy-essential-system-risk",
+      "retrieval_hash": "sha256:190551f202f5a3898085f969f0b37b1fb1f512d631a94f624afb772c91ab2fde",
+      "status": "reported"
+    },
+    {
+      "period": "2026; demographic transition and intergenerational strain",
+      "denominator": {"value": 1, "unit": "countries experiencing changing fertility, working-age populations, or population ageing", "value_type": "demographic_transition_frame"},
+      "measures": {
+        "younger_country_opportunity": {"value": "declining fertility and expanding working-age populations can create a demographic dividend if human-capital investment and employment are sufficient", "unit": "reported demographic-economic mechanism", "value_type": "reported_mechanism"},
+        "ageing_pressure": {"value": "rising shares of older persons increase demand for health and long-term care and pressure pension and public-finance systems", "unit": "reported demographic-fiscal mechanism", "value_type": "reported_mechanism"},
+        "ageing_before_rich": {"value": "many countries face the prospect of growing old before growing rich", "unit": "reported comparative pattern", "value_type": "reported_risk_pattern"},
+        "equity_questions": {"value": "fiscal sustainability, intergenerational equity, inclusive growth, and social cohesion", "unit": "reported policy question set", "value_type": "reported_policy_frame"}
+      },
+      "method": "UN DESA synthesis of demographic transition, population ageing, public finance, care demand, human-capital investment, and intergenerational resource flows.",
+      "uncertainty": "Demographic structure changes gradually but its economic effects depend on employment, migration, health, productivity, policy design, and family and community institutions.",
+      "subgroup": "Young and older populations, working-age contributors, caregivers, pensioners, health and long-term-care users, and countries with different fiscal and demographic capacities.",
+      "counterinterpretation": "Ageing can coincide with longer healthy lives, continued work, productivity, and social contribution; a demographic dividend is possible but never automatic.",
+      "source_url": "https://desapublications.un.org/policy-briefs/un-desa-policy-brief-no-187-revealing-generational-economy-essential-system-risk",
+      "retrieval_hash": "sha256:190551f202f5a3898085f969f0b37b1fb1f512d631a94f624afb772c91ab2fde",
+      "status": "reported"
+    },
+    {
+      "period": "2026; accounting tools and national statistical capacity",
+      "denominator": {"value": 1, "unit": "national accounting and population-statistics systems covered by UN DESA methodology", "value_type": "accounting_capacity_frame"},
+      "measures": {
+        "accounting_frameworks": {"value": "National Transfer Accounts, National Time Transfer Accounts, and National Inclusion Accounts", "unit": "three complementary accounting frameworks", "value_type": "reported_method_set"},
+        "nta_scope": {"value": "production, consumption, asset income, and transfers by age group", "unit": "NTA measurement scope", "value_type": "reported_method_scope"},
+        "ntta_scope": {"value": "unpaid caregiving and domestic services within households", "unit": "NTTA measurement scope", "value_type": "reported_method_scope"},
+        "ntai_scope": {"value": "economic flows disaggregated by age and socioeconomic status", "unit": "National Inclusion Accounts measurement scope", "value_type": "reported_method_scope"}
+      },
+      "method": "UN DESA methodological description of NTA, NTTA, and NTA-I/National Inclusion Accounts as complementary extensions to national accounting.",
+      "uncertainty": "Accounting frameworks improve visibility but depend on survey, administrative, time-use, income, expenditure, and demographic data quality; estimates are not direct observation of every transfer.",
+      "subgroup": "National statistical offices, fiscal planners, care systems, households, unpaid caregivers, public programs, and social groups distributed across age and socioeconomic status.",
+      "counterinterpretation": "Disaggregated accounts can reveal patterns without resolving normative choices about redistribution, and they should be interpreted with qualitative, institutional, and rights-based evidence.",
+      "source_url": "https://www.un.org/development/desa/pd/node/4434",
+      "retrieval_hash": "sha256:190551f202f5a3898085f969f0b37b1fb1f512d631a94f624afb772c91ab2fde",
+      "status": "reported"
+    },
+    {
+      "period": "2026; policy and planning implication",
+      "denominator": {"value": 1, "unit": "public budget, social-protection, care, health, education, and development-planning systems", "value_type": "intergenerational_policy_frame"},
+      "measures": {
+        "planning_use": {"value": "integrated accounts can support inclusive and sustainable fiscal-budget planning under population ageing", "unit": "reported policy use", "value_type": "reported_policy_application"},
+        "life_course_finance": {"value": "education, health, income security, pensions, and care allocate resources across the life course", "unit": "reported public-private allocation mechanism", "value_type": "reported_mechanism"},
+        "future_orientation": {"value": "long-term and intergenerational perspectives should be embedded in decision-making", "unit": "reported governance recommendation", "value_type": "reported_policy_recommendation"},
+        "social_cohesion_link": {"value": "how societies distribute resources and risks across generations affects inequality reduction and social cohesion", "unit": "reported downstream pathway", "value_type": "reported_mechanism"}
+      },
+      "method": "UN DESA policy brief linking generational accounting to fiscal planning, social protection, care, public services, inclusive growth, and intergenerational decision-making.",
+      "uncertainty": "Better measurement does not guarantee politically feasible or equitable policy; implementation depends on institutions, budgets, gender relations, labor markets, and public choices.",
+      "subgroup": "Public finance ministries, social-protection and care systems, families, workers, older persons, children, women performing unpaid care, and future generations.",
+      "counterinterpretation": "Intergenerational framing should not pit age groups against one another: people can be both contributors and recipients, and universal systems may create reciprocal benefits across the life course.",
+      "source_url": "https://www.un.org/development/desa/pd/content/revealing-generational-economy-essential-system-risk",
+      "retrieval_hash": "sha256:190551f202f5a3898085f969f0b37b1fb1f512d631a94f624afb772c91ab2fde",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/publications/national-inclusion-accounts-manual-measuring-and-analysing-social-group-differences", "claim": "UN DESA National Inclusion Accounts Manual extends generational accounting to age and socioeconomic-status differences."},
+    {"source_url": "https://www.un.org/development/desa/pd/node/4434", "claim": "UN DESA National Transfer Accounts page describes NTA, NTTA, and National Inclusion Accounts and their policy use."},
+    {"source_url": "https://desapublications.un.org/policy-briefs/sdgs/65/year/2026", "claim": "UN DESA publication index provides the 2026 policy-brief framing for generational economy and ageing."}
+  ],
+  "boundary": "This record adds a generational-economy and measurement-capacity route linking paid production, public transfers, unpaid care, age structure, fiscal planning, and intergenerational equity. It is not a respondent-level time-use analysis, an individual care trajectory, a forecast of fiscal solvency, or proof that one age group causes another group’s outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA policy brief, National Transfer Accounts page, publication index, and National Inclusion Accounts Manual page were reviewed; generational-flow, demographic-strain, accounting-framework, and planning claims were cross-checked.",
+    "source_url_sha256": "sha256:190551f202f5a3898085f969f0b37b1fb1f512d631a94f624afb772c91ab2fde",
+    "checked": "2026-09-26"
+  }
+}

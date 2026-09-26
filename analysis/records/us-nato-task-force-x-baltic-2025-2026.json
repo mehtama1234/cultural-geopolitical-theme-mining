@@ -1,0 +1,125 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nato-task-force-x-baltic-2025-2026",
+  "title": "A NATO technology experiment became a multinational capability commitment without proving deterrence",
+  "theme_ids": ["voice", "energy", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NATO Allied Command Transformation account of Task Force X-Baltic testing, allied Phase II commitment, and follow-on procurement",
+  "geography": "Baltic Sea; NATO Allies and critical undersea infrastructure",
+  "observations": [
+    {
+      "period": "June 2025 live test",
+      "denominator": {
+        "value": 70,
+        "unit": "more than 70 air, surface, and subsurface systems fielded during three weeks",
+        "value_type": "reported_approximate_system_count"
+      },
+      "measures": {
+        "average_availability": {
+          "value": 75,
+          "unit": "percent availability for eight hours per day during the test",
+          "value_type": "reported_operational_measure"
+        },
+        "reported_activity": {
+          "value": "persistent intelligence, surveillance and reconnaissance patrols, choke-point monitoring, undersea-infrastructure surveillance, and opportunity intercept missions",
+          "unit": "reported test activities",
+          "value_type": "reported_operation"
+        },
+        "reported_vessel_tracking": {
+          "value": "hundreds of vessels daily",
+          "unit": "reported surveillance activity",
+          "value_type": "reported_activity"
+        },
+        "cost_comparison": {
+          "value": "one-third the cost of comparable crewed-frigate coverage",
+          "unit": "NATO-reported comparative operating cost",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "NATO Allied Command Transformation institutional account of a three-week live test; system count, availability, mission activity, vessel tracking, and comparative cost are kept separate from independent validation and later operation.",
+      "uncertainty": "NATO's account does not provide the underlying availability log, full cost denominator, independent performance evaluation, false-positive or coverage rate, or a public record of the tracked vessels and resulting actions.",
+      "subgroup": "NATO and national maritime systems participating in the test; commercial providers and participating Allies are identified, but burden and local effects are not measured.",
+      "counterinterpretation": "A live demonstration can show technical and organizational feasibility without showing crisis reliability, persistent coverage, deterrence, or a changed adversary decision.",
+      "source_url": "https://www.act.nato.int/activities/tfx-b/",
+      "retrieval_hash": "sha256:2506c1b8a77488b24014f3fd9c009860b767e47357a8f77863969f02bb6e7fbb",
+      "status": "reported"
+    },
+    {
+      "period": "February 2026 Phase II commitment and follow-on procurement",
+      "denominator": {
+        "value": 8,
+        "unit": "NATO Allies signing a letter of intent to carry Task Force X-Baltic into Phase II",
+        "value_type": "reported_allied_count"
+      },
+      "measures": {
+        "phase_ii_model": {
+          "value": "nationally owned capabilities that can be tasked by NATO and provide persistent Baltic coverage",
+          "unit": "reported institutionalization model",
+          "value_type": "reported_commitment"
+        },
+        "participating_allies": {
+          "value": "Denmark, Estonia, Finland, Germany, Latvia, Lithuania, Poland, and Sweden",
+          "unit": "named Allies",
+          "value_type": "reported_membership"
+        },
+        "follow_on_actions": {
+          "value": "United Kingdom and United States contracts, German procurement, and continued Danish experimentation",
+          "unit": "reported national procurement or experimentation actions",
+          "value_type": "reported_follow_on"
+        },
+        "external_response": {
+          "value": "not observed",
+          "unit": "missing attributed adversary response, deterrence, refusal, substitution, or escalation change",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "NATO Allied Command Transformation and NATO News reports on the Phase II letter of intent and follow-on national actions; cooperation and procurement are kept separate from deployed persistent coverage and external effect.",
+      "uncertainty": "A letter of intent, contracts, and procurement do not establish delivery, maintenance, tasking, continuous coverage, cost sharing, public consent, or deterrence. The source is institutional reporting rather than an independent evaluation.",
+      "subgroup": "Eight Allies signing the Phase II letter of intent, plus named national follow-on actions; local communities, commercial operators, and publics are not surveyed.",
+      "counterinterpretation": "Institutional commitment can reflect alliance coordination and experimentation value without implying that the capability is ready for crisis use or that the threat environment changed.",
+      "source_url": "https://www.nato.int/en/news-and-events/articles/news/2026/02/12/nato-allies-agree-to-expedite-innovation-adoption-and-integration-for-baltic-sea-security",
+      "retrieval_hash": "sha256:2506c1b8a77488b24014f3fd9c009860b767e47357a8f77863969f02bb6e7fbb",
+      "status": "reported"
+    },
+    {
+      "period": "July 2026 Phase II deployment and operational-integration account",
+      "denominator": {
+        "value": null,
+        "unit": "NATO Task Force X-Baltic participating systems and nations; deployment and procurement counts are source-specific",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "operational_transition": {
+          "value": "participating nations moved from demonstration toward procurement and deployment of uncrewed systems in the Baltic Sea",
+          "unit": "reported capability-transition stage",
+          "value_type": "reported_transition"
+        },
+        "real_world_conditions": {
+          "value": "direct deployment into real-world conditions across NATO's European area of responsibility",
+          "unit": "reported operational environment",
+          "value_type": "reported_deployment"
+        },
+        "external_effect": {
+          "value": "not observed",
+          "unit": "missing attributed adversary response, deterrence, mission result, or durable coverage measure",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "NATO Allied Command Transformation institutional account of the Task Force X-Baltic progression from experimentation to participating-nation procurement and deployment; the account is retained as an operational-transition report rather than independent performance evidence.",
+      "uncertainty": "The account does not disclose a common deployment denominator, repeated availability series, mission success rate, maintenance burden, cost allocation, local public response, or adversary behavior. Deployment into real-world conditions is not the same as sustained crisis capability or deterrence.",
+      "subgroup": "Participating NATO nations, commercial uncrewed-system providers, and Baltic operational settings; individual missions, communities, and external actors are not linked.",
+      "counterinterpretation": "A transition from demonstration to deployment can reflect experimentation and learning without producing durable coverage, interoperability, or strategic effect. Public institutional reporting may emphasize successful progression and omit failed or reversed deployments.",
+      "source_url": "https://www.act.nato.int/article/tfx-from-technology-to-operations/",
+      "retrieval_hash": "sha256:ef68c3f57b7701cc57d6e84d47e2c8f3799cb23ee4ad703358858a0787b2e273",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a geopolitical conversion from live autonomous-systems testing to multinational institutional commitment, national ownership, and NATO tasking. It does not establish persistent operation, independent performance, adversary response, deterrence, cost sharing, public consent, or durable legitimacy."
+}

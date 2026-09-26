@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-environmental-lender-liability-pollution-abatement-1996-2026",
+  "title": "Lender responsibility can change both firms' environmental investment and the price of credit",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["firm_sector_market_power", "infrastructure_technology_dependency", "public_systems_feedback", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "Census CES Working Paper 26-05 using EPA and confidential Census microdata around the 1996 U.S. Lender Liability Act",
+  "geography": "United States; firms with lender exposure to environmental cleanup liability and their lenders, estimated with EPA and Census microdata",
+  "observations": [{
+    "period": "1996 lender-liability reform and subsequent firm, loan, and environmental outcomes",
+    "denominator": {"value": 1, "unit": "difference-in-differences study of a U.S. lender-liability policy change using EPA and Census microdata", "value_type": "study_unit"},
+    "measures": {
+      "policy_change": {"value": "the 1996 U.S. Lender Liability Act reduced lenders' exposure to cleanup costs attached to some debtor collateral", "unit": "legal change", "value_type": "reported_policy_change"},
+      "pollution": {"value": "firms whose lenders faced lower environmental liability risks increased pollution", "unit": "firm environmental outcome", "value_type": "reported_direction"},
+      "abatement_investment": {"value": "investment in abatement technologies fell by 14.7% for affected firms", "unit": "firm abatement investment", "value_type": "reported_estimate"},
+      "production_employment": {"value": "affected firms experienced small production and employment distortions", "unit": "firm outcomes", "value_type": "reported_direction"},
+      "loan_terms": {"value": "lenders facing higher environmental liability risk offered less favorable pricing and may have used shorter maturities to monitor borrowers", "unit": "credit-market response", "value_type": "reported_mechanism"}
+    },
+    "method": "The author uses difference-in-differences specifications around the 1996 legal change, combining EPA environmental measures with confidential Census firm microdata and credit-market evidence.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. The abstract does not establish household exposure, health effects, local cleanup costs, long-run firm survival, or how all credit constraints changed; the policy estimates depend on the study's treatment definition and identifying assumptions.",
+    "subgroup": "Firms whose lenders were exposed to environmental cleanup liability, their lenders, affected collateral, and communities downstream or near those firms; household and community units are not directly followed.",
+    "counterinterpretation": "Higher lender liability can raise financing costs or restrict credit, so weaker liability may ease borrowing even as it reduces cleanup incentives. Pollution changes may reflect production, technology, regulation, or lender monitoring channels; firm-level pollution is not automatically household exposure or health harm.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-05.html",
+    "retrieval_hash": "sha256:959c3dc807512f74eba0251f650dbe2b0d6ad5adbab406be2340a59f575ed6e7",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-05.pdf", "claim": "The official paper provides the legal setting, EPA/Census data construction, difference-in-differences design, and firm/credit outcomes.", "status": "official-paper-context"}],
+  "boundary": "This record adds a lender-liability-to-firm-environmental-behavior pathway. It does not establish household exposure, health effects, local cleanup, long-run employment, universal credit effects, or whether the policy's net welfare effect was positive.",
+  "retrieval_hash": "sha256:959c3dc807512f74eba0251f650dbe2b0d6ad5adbab406be2340a59f575ed6e7"
+}

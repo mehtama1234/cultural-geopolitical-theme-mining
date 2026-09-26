@@ -1,0 +1,76 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-eitc-maternal-time-use-children-2020",
+  "title": "EITC expansions increased maternal work while reducing some time with children",
+  "theme_ids": ["cost", "work", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "work_control_bargaining",
+    "time_hidden_price",
+    "care_health_reproduction",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. mothers observed in American Time Use Surveys across EITC expansions since 2003",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "EITC expansions since 2003; working paper issued August 2020 and revised January 2021",
+      "denominator": {
+        "value": 1,
+        "unit": "study design and American Time Use Survey analysis; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "eitc_effect_on_maternal_work": {
+          "value": "increase",
+          "unit": "reported direction of EITC effect on maternal work",
+          "value_type": "reported_effect_direction"
+        },
+        "eitc_effect_on_home_production_and_leisure": {
+          "value": "decrease",
+          "unit": "reported direction of EITC effect on time devoted to home production and leisure",
+          "value_type": "reported_effect_direction"
+        },
+        "eitc_effect_on_time_with_children": {
+          "value": "decrease",
+          "unit": "reported direction of EITC effect on time spent with children",
+          "value_type": "reported_effect_direction"
+        },
+        "active_investment_time": {
+          "value": "almost none of the reduction in time with children came from active investment-related activities",
+          "unit": "reported composition of time change",
+          "value_type": "reported_pattern"
+        },
+        "heterogeneity": {
+          "value": "effects concentrated among socioeconomically disadvantaged mothers, especially unmarried mothers and mothers of young children",
+          "unit": "reported subgroup pattern",
+          "value_type": "reported_heterogeneity"
+        }
+      },
+      "method": "NBER Working Paper 27717 uses American Time Use Surveys to study time allocation around EITC expansions since 2003, with attention to work, home production, leisure, and time with children.",
+      "uncertainty": "This record retains the official abstract-level directional findings rather than reproduced coefficients, sample construction, or full robustness results. The abstract does not establish a single household's exact schedule, childcare substitute, material recovery, or later political response.",
+      "subgroup": "U.S. mothers, with reported concentration among socioeconomically disadvantaged mothers, especially unmarried mothers and mothers of young children.",
+      "counterinterpretation": "The EITC may increase income while also changing work schedules, childcare needs, benefit interactions, and the composition of time. A reduction in total time with children is not equivalent to a reduction in developmental or active-learning time, which the abstract says accounts for almost none of the reduction.",
+      "source_url": "https://www.nber.org/papers/w27717",
+      "retrieval_hash": "sha256:6e0b119a1530bb2cf237c62249a3907b1c5422c7cc8bddd2d158875b1d70ea18",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w27717",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors Jacob Bastian and Lance Lochner.",
+      "status": "official-metadata"
+    },
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w27717/w27717.pdf",
+      "claim": "Official NBER PDF contains the working-paper abstract and revision metadata.",
+      "status": "official-full-text"
+    }
+  ],
+  "boundary": "This is a U.S. policy-induced time-allocation mechanism, not a universal employment effect or a complete care ledger. It does not identify the exact household's childcare alternative, employer, remedy, civic response, source environment, or political switching/exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 27717 page downloaded and hashed; title, date, data source, directional findings, subgroup pattern, and active-investment qualification checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

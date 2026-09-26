@@ -1,0 +1,73 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-ftc-social-media-scam-losses-2025",
+  "title": "Social media is a growing route for reported consumer scam losses",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "platforms_data_attention",
+    "consumer_power_recourse",
+    "household_room_consumption",
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "FTC Consumer Protection Data Spotlight using Consumer Sentinel Network reports that indicate social media as the scam contact method",
+  "geography": "United States; public fraud reports to the FTC and its reporting partners",
+  "observations": [
+    {
+      "period": "2020-2025, with detailed categories for 2025",
+      "denominator": {
+        "value": null,
+        "unit": "Consumer Sentinel fraud reports indicating a loss and identifying social media as the contact method; report counts and coverage are not a full population denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "reported_social_media_loss_2025": {
+          "value": 2.1,
+          "unit": "billion U.S. dollars in reported losses",
+          "value_type": "reported_aggregate"
+        },
+        "reported_social_media_loss_2020": {
+          "value": 0.261,
+          "unit": "billion U.S. dollars in reported losses",
+          "value_type": "reported_aggregate"
+        },
+        "loss_reports_contact_share_2025": {
+          "value": 28,
+          "unit": "percent of fraud reports indicating a loss that identified social media as the contact method",
+          "value_type": "reported_share"
+        },
+        "shopping_route": {
+          "value": "more than 40% of people reporting a social-media scam loss said it began with an advertisement for a product or service",
+          "unit": "share within social-media loss reports",
+          "value_type": "reported_share"
+        },
+        "investment_route": {
+          "value": 1.1,
+          "unit": "billion U.S. dollars in reported 2025 losses from investment scams initiated on social media",
+          "value_type": "reported_aggregate"
+        },
+        "recovery": {
+          "value": "not measured",
+          "unit": "individual refund, chargeback, platform correction, household recovery, or durable trust",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "FTC descriptive analysis of Consumer Sentinel Network reports submitted by the public and partner organizations; contact method, scam type, and reported loss are coded from the reports.",
+      "uncertainty": "The data are selected reports, not a census of scams or consumers. The FTC notes that most scams are not reported. Changes in reporting, platform use, coding, awareness, and reporting-partner coverage can affect the trend. Reported loss is not verified household loss or a causal estimate of platform responsibility.",
+      "subgroup": "People submitting reports that identify social media as the contact method; age, scam-type, and platform-specific patterns are descriptive within the reporting data.",
+      "counterinterpretation": "The rise in reported losses can reflect more incidents, more people using social platforms for commerce and relationships, improved reporting, larger loss amounts, or changing classification. A social-media contact does not by itself establish that the platform caused the fraud or could have prevented it.",
+      "source_url": "https://www.ftc.gov/news-events/data-visualizations/data-spotlight/2026/04/reported-losses-scams-social-media-eight-times-higher-2020",
+      "retrieval_hash": "sha256:27abc2e14124dfccf35b4a0cc2b4ca78905159694d8e7c52a780a639d04029d3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.ftc.gov/reports/consumer-sentinel-network-data-book-2024",
+      "claim": "The Consumer Sentinel Data Book explains that Sentinel aggregates reports from consumers and partner agencies; this social-media spotlight is a separate 2025 contact-method analysis.",
+      "status": "official-method-context"
+    }
+  ],
+  "boundary": "This record adds a reported material-loss and trust-risk route through social platforms. It does not estimate true fraud prevalence, platform causation, individual exposure, recoverability, household security, or the effect of reporting or enforcement. Reported losses and platform use are not the same denominator."
+}

@@ -1,0 +1,35 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-faa-flight-simulator-oversight-workload-1990-2025",
+  "title": "A safety oversight system can stretch evaluation intervals as the technology it covers expands",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "public_systems_feedback", "care_health_reproduction", "unequal_exposure_status", "firm_sector_market_power"],
+  "source_unit": "GAO-26-107726, Flight Simulators: FAA Should Take Steps to Ensure Oversight Efforts Address Increased Workload",
+  "geography": "United States; FAA National Simulator Program oversight of flight simulators used by airlines and flight schools",
+  "observations": [
+    {
+      "period": "1990–2025 simulator inventory; evaluation activity 2019–2024; report September 2026",
+      "denominator": {"value": 10, "unit": "selected flight-simulator sponsors interviewed; they owned or operated over 62% of all simulators", "value_type": "nongeneralizable_interview_sample"},
+      "measures": {
+        "workload": {"value": "simulators increased by more than 500% while National Simulator Program staff remained steady", "unit": "FAA oversight workload and staffing trend", "value_type": "reported_comparison"},
+        "evaluation_activity": {"value": "number and type of evaluations remained relatively steady from 2019 through 2024", "unit": "annual simulator evaluations", "value_type": "reported_trend"},
+        "evaluation_interval": {"value": "Extended Evaluation Interval program permits 12-month intervals to extend up to 36 months for qualifying simulators", "unit": "months between evaluations", "value_type": "reported_policy"},
+        "communication": {"value": "6 of 10 selected sponsors raised concerns about communication; 2 cited potential safety issues from longer intervals", "unit": "interview responses", "value_type": "reported_count"},
+        "skills": {"value": "FAA identified staffing and mission-critical skills gaps, including standards development, but had not addressed all of them", "unit": "oversight workforce capacity", "value_type": "reported_gap"},
+        "recommendations": {"value": 2, "unit": "open recommendations to improve sponsor feedback and address mission-critical skills gaps", "value_type": "reported_count"}
+      },
+      "method": "GAO reviewed FAA policies, guidance, data, laws, regulations, evaluation activity, and workforce-planning material; interviewed FAA officials and a nongeneralizable sample of 10 sponsors; and conducted two site visits to a simulator manufacturer and flight-training organization.",
+      "uncertainty": "The sponsor sample is not generalizable, though it covers over 62% of simulators. The report does not estimate accident risk, simulator-specific error, pilot performance, or the causal effect of longer evaluation intervals. Stable evaluation counts can reflect an effective risk-based program, workload constraints, or both. Simulator oversight is one part of aviation safety and does not represent all FAA safety functions.",
+      "subgroup": "Major and regional airlines, flight schools, simulator and aircraft manufacturers, and FAA National Simulator Program staff; simulator technologies and operator types differ.",
+      "counterinterpretation": "Extending evaluation intervals for consistently high-performing simulators may be an efficient risk-based strategy rather than a safety reduction. Sponsor concerns may reflect communication gaps without proving unsafe determinations. Steady staff can become more productive through improved processes, and the report does not quantify uncompleted evaluations.",
+      "source_url": "https://www.gao.gov/products/gao-26-107726",
+      "retrieval_hash": "sha256:88d17905a07fe59909a174184eb02670a81b0dc3e34f663120a1c49fa975a946",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://files.gao.gov/assets/gao-26-107726.pdf", "claim": "Official GAO report PDF provides the workload trend, evaluation intervals, sponsor interviews, skills gaps, and recommendations.", "status": "official-report"}
+  ],
+  "boundary": "This record adds a physical-safety infrastructure layer: oversight coverage can be maintained through risk-based interval extensions while workload, communication, and specialist skills remain under pressure. It does not establish unsafe simulators, pilot error, accident risk, or a causal effect of evaluation intervals on aviation safety.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official GAO landing page and full report PDF; FAA simulator inventory and sponsor records are not retained.", "pdf_sha256": "sha256:88d17905a07fe59909a174184eb02670a81b0dc3e34f663120a1c49fa975a946", "checked": "2026-09-23"}
+}

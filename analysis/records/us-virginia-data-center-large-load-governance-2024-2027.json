@@ -83,9 +83,27 @@
       "source_url": "https://www.scc.virginia.gov/docketsearch/DOCS/84sc01%21.PDF",
       "retrieval_hash": "sha256:7f3d2716f14aa43f238e39c6c186fd346c63444bbb131a0756aa78f5085a42d2",
       "status": "reported"
+    },
+    {
+      "period": "2026-09-21 tax-administration follow-up",
+      "denominator": {"value": 1, "unit": "Virginia SCC data-center electricity-consumption-tax administration route", "value_type": "reported_implementation_route"},
+      "measures": {
+        "data_center_electricity_tax": {"value": 0.011, "unit": "USD per kWh", "value_type": "reported_tax_rate"},
+        "operator_registration_deadline": {"value": "2026-09-01", "unit": "date", "value_type": "reported_deadline"},
+        "monthly_report_due": {"value": "last day of following month", "unit": "reporting schedule", "value_type": "reported_requirement"},
+        "late_payment_penalty": {"value": 10, "unit": "percent", "value_type": "reported_penalty"}
+      },
+      "method": "Current review of the Virginia SCC taxes-and-fees and public-taxation forms pages.",
+      "uncertainty": "The pages specify the registration, collection, reporting, payment, and penalty route but do not identify a named operator's registration, measured facility consumption, remittance, locality receipt, refund, household bill, or reliability outcome.",
+      "subgroup": "Certain Virginia data-center operators; grid-supplied and self-supplied facilities follow different reporting/payment paths.",
+      "counterinterpretation": "A defined filing and penalty route can improve administrative accountability without proving collection, full cost recovery, or a fair household bargain.",
+      "source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/taxes-and-fees/",
+      "retrieval_hash": "sha256:b14d24fc587a3ec6fb2e3e83b8705890aa7ff530c6378699c984a4c673110a69",
+      "status": "reported"
     }
   ],
   "related_sources": [
+    {"source_url": "https://www.scc.virginia.gov/regulated-industries/public-taxation/forms/", "claim": "The SCC lists the data-center operator registration form and monthly electricity-consumption-tax report with their submission cadence.", "status": "official-context"},
     {"source_url": "https://www.scc.virginia.gov/about-the-scc/newsreleases/release/scc-issues-order-on-dev-biennial-review-2025/scc-rules-in-dev-biennial-review-case.html", "claim": "The SCC describes the final order and its residential-rate context.", "status": "official-context"},
     {"source_url": "https://www.dominionenergy.com/about/delivering-energy/electric-projects/power-line-projects/hornbaker-devlin", "claim": "Dominion identifies a Prince William transmission project supporting data-center growth and reliability.", "status": "context"},
     {"source_url": "../../projects/ai-work-control/prince-william-data-center-fiscal-capacity-bridge-v1.md", "claim": "County fiscal/capacity context remains a separate local layer.", "status": "context"}

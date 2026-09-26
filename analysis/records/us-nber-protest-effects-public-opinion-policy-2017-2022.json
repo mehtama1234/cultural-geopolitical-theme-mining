@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-protest-effects-public-opinion-policy-2017-2022",
+  "title": "U.S. protests can create attention without usually producing broad opinion or policy change",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 32342, a database of U.S. protest waves linked to digital, survey, election, and policy measures",
+  "geography": "United States; protest waves and local exposure, 2017-2022",
+  "observations": [
+    {
+      "period": "2017-2022 protest waves",
+      "denominator": {
+        "value": 14,
+        "unit": "protest waves covering environmental, gender, racial, gun, immigration, national, and international politics",
+        "value_type": "study_defined_event_count"
+      },
+      "measures": {
+        "internet_activity": {
+          "value": "protests generated substantial internet activity",
+          "unit": "reported digital-attention response",
+          "value_type": "reported_pattern"
+        },
+        "broader_effects": {
+          "value": "most protest waves had minimal effects on other measured outcomes",
+          "unit": "reported aggregate and local outcome comparison",
+          "value_type": "reported_null_pattern"
+        },
+        "black_lives_matter_exception": {
+          "value": "the protests after George Floyd's death increased Democratic support and legislative activity on racial issues",
+          "unit": "reported event-specific exception",
+          "value_type": "reported_effect"
+        },
+        "violence_and_backlash": {
+          "value": "protests generally did not generate political backlash unless they became violent",
+          "unit": "reported protest-wave comparison",
+          "value_type": "reported_pattern"
+        },
+        "durable_individual_path": {
+          "value": "not observed as a same-person pathway",
+          "unit": "missing individual exposure, interpretation, organizing, vote, and later behavior linkage",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Database and event-study analysis combining a near-universe of U.S. protests with Twitter activity, Google search volumes, high-frequency surveys, official election results, politician behavior, national event studies, and difference-in-differences using local variation in protest intensity.",
+      "uncertainty": "The study's effects depend on protest-wave definition, timing, local exposure, measurement of online and political outcomes, and the identification assumptions of the event-study and difference-in-differences designs. Digital attention and legislative activity are not the same as durable public opinion, representation, or material policy implementation.",
+      "subgroup": "Protest waves and local areas with different protest intensity; individual protesters, nonparticipants, organizers, targets, and affected communities are not followed as one linked population.",
+      "counterinterpretation": "Minimal average effects can coexist with large effects for particular communities, organizers, or issue-specific institutions. The BLM exception may reflect movement scale, event severity, coalition structure, media attention, or policy context rather than a universal protest formula. Nonviolent protest may influence agenda setting or identity even when the measured outcomes do not move.",
+      "source_url": "https://www.nber.org/papers/w32342",
+      "retrieval_hash": "sha256:396d2cf81f54f8506414b09efbdda517f945dcae1c535e7aa33cba1f582358f9",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w32342",
+      "claim": "NBER DOI record for the revised working paper.",
+      "status": "primary-bibliographic-record"
+    }
+  ],
+  "boundary": "This finding separates protest visibility and digital attention from broader opinion, electoral, legislative, and policy effects. It does not establish that protest is ineffective, that violence is necessary for influence, that the Black Lives Matter exception generalizes, or that protest participants experienced no local or personal change.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "NBER working-paper page reviewed for the abstract, study scope, linked measures, and headline findings; underlying event and survey files are not retained here.",
+    "source_response_sha256": "sha256:396d2cf81f54f8506414b09efbdda517f945dcae1c535e7aa33cba1f582358f9",
+    "checked": "2026-09-23"
+  }
+}

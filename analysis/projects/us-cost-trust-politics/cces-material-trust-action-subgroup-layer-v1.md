@@ -31,7 +31,12 @@ records in 48 cells.
   stable subgroup estimates.
 
 The script is [analyze_cces_material_trust_action_subgroups.py](../../../scripts/analyze_cces_material_trust_action_subgroups.py).
-The machine-readable output was produced at `/tmp/cces-material-trust-action-subgroups.json`.
+The full machine-readable output was regenerated from the official public CSV
+on 2026-09-25 (60,000 rows; 21,560 valid records; 48 cells). The compact
+committed [reproduction audit](data/cces-material-trust-action-subgroups-2024-v9-audit.json)
+retains the Dataverse file identifier, MD5, generated-output hash, valid
+universe, and all extrema reported below; the full 48-cell output remains a
+temporary derived artifact rather than a committed raw-data copy.
 
 ## What the screen shows
 
@@ -46,7 +51,26 @@ Among cells with at least 100 unweighted respondents, the observed ranges are:
 The range is a deliberately compact screen, not a ranking of groups. Several
 gig-work/student-debt/race intersections are smaller than 100 respondents and
 should not carry a strong substantive interpretation. The full 48-cell output
-retains counts and weighted numerators for audit.
+retains counts and weighted numerators for audit, while the committed audit
+artifact preserves the range screen and its exact source/output hashes.
+
+## Vote is a separate outcome and a separate valid universe
+
+The same official CSV contains `CC24_401`, where code 5 is the self-reported
+answer “I definitely voted.” A separate audit retains valid codes 1–5 and
+recomputes the 48 material/work/race cells with `commonpostweight`. It reads
+60,000 rows and retains 26,231 valid vote answers, versus 21,560 valid records
+in the trust/action screen. Among cells with at least 100 unweighted records,
+the reported definite-vote share ranges from 82.29% in the lower-income-code
+Black, gig-work, no-student-debt cell to 99.96% in the higher-income-code
+Black, no-gig-work, student-debt cell.
+
+The [separate vote audit](data/cces-material-vote-audit-2024-v9.json) is kept
+apart for three reasons: the valid denominator differs, self-reported voting
+is not the same as validated turnout, and voting is not interchangeable with
+the six selected civic-action items or with trust. The comparison is therefore
+useful mainly as a denominator and outcome-boundary check, not as evidence that
+the material proxies caused turnout or vote choice.
 
 ## Broad interpretation
 
@@ -73,4 +97,5 @@ uniform predictor of distrust or withdrawal.
 The next stronger test is a repeated or event-based design with timing,
 attribution, prior political identity, source environment, and a valid variance
 procedure. The required outcomes remain separate: trust, civic action, turnout,
-vote, consumer exit, and later material security.
+vote, consumer exit, and later material security. The vote audit makes the
+separation operational in the current CCES release.

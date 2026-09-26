@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-spectrum-repacking-network-feasibility-2026",
+  "title": "Network feasibility may require removing a constrained node rather than relaxing one link",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["infrastructure_technology_dependency", "firm_sector_market_power", "public_systems_feedback", "consumer_power_recourse"],
+  "source_unit": "NBER Working Paper 35757, a theoretical graph model of spectrum repacking, station buyouts, and pairwise engineering waivers",
+  "geography": "Conceptual spectrum-market and network-design mechanism; no observed U.S. auction or station outcome sample",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026",
+      "denominator": {"value": 1, "unit": "theoretical graph/network model", "value_type": "study_artifact"},
+      "measures": {
+        "node_removal": {"value": "Buying out any one station can reduce the number of channels needed in the model", "unit": "network-feasibility result", "value_type": "theoretical_result"},
+        "single_edge_relaxation": {"value": "Relaxing any one interference restriction need not reduce the channels needed", "unit": "network-feasibility result", "value_type": "theoretical_result"},
+        "general_result": {"value": "For every k at least 4, some k-vertex-critical graph has no critical edge", "unit": "graph-theoretic construction", "value_type": "theoretical_result"}
+      },
+      "method": "Graph model representing stations as vertices and pairwise interference restrictions as edges; the paper combines a construction resolving a graph-theoretic conjecture with implications for spectrum-repacking market design.",
+      "uncertainty": "This is a theoretical result, not an estimate of auction prices, station value, consumer access, broadcaster exit, or realized channel availability. The translation from graph feasibility to a particular regulatory proceeding requires engineering, legal, financial, and public-interest evidence.",
+      "subgroup": "Modeled stations/vertices and interference restrictions/edges in k-vertex-critical networks; no observed station subgroup is estimated.",
+      "counterinterpretation": "A buyout can impose concentration, service, employment, local-media, or public-interest costs. Relaxing multiple edges, redesigning technology, sharing spectrum, or changing geographic assignments may be better in a real system even when a single-edge audit fails.",
+      "source_url": "https://www.nber.org/papers/w35757",
+      "retrieval_hash": "sha256:114735a1946283fa36e19d4adf5bc229fdd99b1f5a4b62a9c07f494befdcfde3",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a network-remedy-design mechanism: local link-by-link relaxation can miss node-level complementarity. It does not establish a realized spectrum remedy, consumer benefit, broadcaster outcome, market concentration effect, or U.S. policy success."
+}

@@ -1,5 +1,11 @@
 # Start here
 
+**Original long-term orientation:** read the [cross-source mining brief](ORIGINAL-LONG-TERM-GOAL_AND_CROSS-SOURCE-MINING_BRIEF_2026-09-25.md)
+for the governing objective: identify recurring social, cultural, political,
+institutional, firm, infrastructure, and geopolitical themes across the full
+source universe. The same-unit episode lane below is a depth test inside that
+broader program, not its definition.
+
 **Crash-recovery first:** the project is a broad 14-theme program about US
 societal, cultural, consumer, financial, political, institutional, firm,
 infrastructure, and geopolitical change. It is not a one-household study.
@@ -9,26 +15,83 @@ the [full broad-program reader map](site/us-broad-program-map.html), and the
 choosing a dataset.
 Then check the [current broad-program status audit](analysis/US-BROAD-CURRENT-STATUS-AUDIT_V1.md)
 for the latest coverage and open arrows.
+For the broad conceptual map, read the [theme and subtheme map](analysis/US-BROAD-THEME-SUBTHEME-MAP_V1.md)
+and the [current theme pulse](analysis/US-BROAD-CURRENT-THEME-PULSE_V1.md).
+For the first plain-language synthesis of recurring societal, cultural,
+political, institutional, firm, infrastructure, and geopolitical patterns,
+read the [initial broad subtheme readout](analysis/US-BROAD-INITIAL-SUBTHEME-READOUT_V1.md).
+The next focused lane is the [platform and digital-life subtheme synthesis](analysis/US-BROAD-PLATFORM-DIGITAL-SUBTHEME-SYNTHESIS_V1.md), which examines
+digital use, privacy control, platform recourse, AI support, civic meaning,
+and the ability to leave.
+The following state-power lane is the [geopolitical and state-power subtheme synthesis](analysis/US-BROAD-GEOPOLITICAL-STATE-SUBTHEME-SYNTHESIS_V1.md), which separates procurement, operation, legitimacy, alliance behavior, and actual external leverage.
+The infrastructure lane is covered by the existing [infrastructure bargains synthesis](analysis/US-BROAD-INFRASTRUCTURE-BARGAIN-SYNTHESIS_V1.md), which follows capacity, cost allocation, public voice, operation, and realized benefit.
+The cultural and political layer is the [cultural and political meaning synthesis](analysis/US-BROAD-CULTURAL-POLITICAL-MEANING-SUBTHEME-SYNTHESIS_V1.md), which separates material pressure, identity, trust, information, participation, and legitimacy.
+For the one-page view of what appears to be changing across all 14 themes, read the [current 14-theme readout](analysis/US-BROAD-CURRENT-14-THEME-READOUT_V1.md).
+For the plain-language answer to “what appears to be happening in American society,” read the [current societal, cultural, and political readout](site/US-BROAD-CURRENT-SOCIETAL-CULTURAL-POLITICAL-READOUT_V1.html).
+For the recurring concepts behind that readout, read the [societal subtheme concept register](site/US-BROAD-SOCIETAL-SUBTHEME-CONCEPT-REGISTER_V1.html), which keeps each concept tied to evidence, limits, and a next test.
+For a plain-language explanation of the data sources and what each can actually show, read the [broad data-source map](analysis/US-BROAD-DATA-SOURCE-MAP_V1.md).
+For concrete plain-language examples of what the atlas is finding, read the
+[interesting findings brief](analysis/US-BROAD-INTERESTING-FINDINGS_V1.md).
+The [reader duplication and source-reuse audit](analysis/US-BROAD-READER-DUPLICATION-AUDIT_V1.md)
+records how heading breadth differs from distinct evidence files.
+The [theme crosswalk](analysis/US-BROAD-THEME-CROSSWALK_V1.md) explains why
+the reader has five navigation umbrellas while the research program has 14
+themes.
+The [theme relationship matrix](analysis/US-BROAD-THEME-RELATIONSHIP-MATRIX_V1.md)
+shows how those 14 themes connect through material life, consumer systems,
+care/work, place/capacity, and identity/legitimacy.
+The [six deep tensions synthesis](analysis/US-BROAD-MACRO-TENSIONS-SYNTHESIS_V1.md)
+compresses the recurring patterns into capacity/control, usability,
+contestability, burden transfer, durability, and exit.
+The [offered-versus-usable alternatives synthesis](analysis/US-BROAD-OFFERED-VERSUS-USABLE-ALTERNATIVES-SYNTHESIS_V1.md)
+applies that lens across workers, consumers, public benefits, care, platforms,
+family networks, infrastructure, and geopolitics.
+The [social-infrastructure lens](analysis/US-BROAD-SOCIAL-INFRASTRUCTURE-LENS_V1.md)
+maps how family, public, digital, community, and civil-military support can
+protect people while shifting hidden labor, risk, or control.
+The [lane maturity and next-action map](analysis/US-BROAD-LANE-MATURITY-AND-NEXT-ACTION_V1.md)
+shows where the atlas has breadth, where it has middle-stage evidence, and
+which next records would materially advance the broad goal.
+The [low-density theme conversion map](analysis/US-BROAD-LOW-DENSITY-CONVERSION-MAP_V1.md)
+compares the missing lived/operating stages in platforms, infrastructure, and
+geopolitical/state consequences.
+The [connection-graph audit](analysis/US-BROAD-CONNECTION-GRAPH-AUDIT_V1.md)
+records the current bridge-topic integrity issue and the next repair pass.
+The [dependence, control, and leverage synthesis](analysis/US-BROAD-DEPENDENCE-CONTROL-AND-LEVERAGE-SYNTHESIS_V1.md)
+connects labor, platforms, infrastructure, and geopolitical supply while
+keeping dependence separate from demonstrated leverage.
+These are the organizing layer for the cultural, social, political, consumer,
+institutional, financial, firm, infrastructure, and geopolitical program.
 The [program continuity ledger](analysis/US-BROAD-PROGRAM-CONTINUITY-LEDGER_V1.md)
 is the durable control record for the long-term objective, active lanes,
 acquisition gates, and session handoffs.
 
-**Current operating checkpoint — 2026-09-19:** the atlas has 14 themes, 344
-machine-readable records, 1,214 observations, 103 source packets, 25 public
-episode events, and 2 validated episode arrows, with 669 published HTML pages
-checked by the publication gate. The active depth objective is
-still a storage-light same-case episode route through alternatives,
-effort/payment, institutional response, remedy/recovery, meaning/trust, action,
-and exit. The CPSC and HRS route rechecks are now current: CPSC's one-key
+**Current operating checkpoint — 2026-09-25:** the atlas has 14 themes, 793
+machine-readable records, 1,869 observations, 164 source packets, 1,127
+generated finding pages, and 1,149 published HTML pages checked by the
+publication gate. The source-promotion audit directly names 553 records in
+broad readers; its count is a navigation control, not a quality score. The
+broad event-ledger portfolio currently contains 97 ledgers, 300 events, 450
+arrows, and 163 open middle-stage arrows. One active depth lane is a
+storage-light same-case episode route through alternatives, effort/payment,
+institutional response, remedy/recovery, meaning/trust, action, and exit; it
+is a depth lane inside the broader 14-theme atlas, not the definition of the
+program. The CPSC and HRS route rechecks are now current: CPSC's one-key
 workbook refresh reproduced the existing VRURC snapshot, while HRS downloads
 require login at the moved [HRS Data Downloads host](https://hrsdata.isr.umich.edu/data-products).
-Neither result is a purchaser- or respondent-level outcome. Start the next
-session with the [next-pass queue](analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md) and
+Neither result is a purchaser- or respondent-level outcome. The next depth
+step needs an authorized PSID or UAS respondent extract; neither is currently
+present in the workspace, so no same-unit estimate is being claimed. UAS is
+also an authorization-gated human/account-holder route under its current
+terms; it is not an autonomous retrieval or analysis lane. Start the
+next session with the [next-pass queue](analysis/US-BROAD-NEXT-PASS-QUEUE_V1.md) and
 the [ranked episode selection](analysis/broad-next-episode-selection-v1.md);
 do not treat another aggregate refresh as closure of the open arrows.
 The [server-visible program dashboard](site/us-program-dashboard.html) is the
 quick operating view of the 14 themes, source ecosystem, current evidence
 volume, active depth lane, acquisition gate, and open arrows.
+For a plain-language read of the newest cross-domain signals, see the [latest
+cross-domain signals memo](analysis/US-BROAD-LATEST-CROSS-DOMAIN-SIGNALS_2026-09-20.md).
 
 For a human review of what has actually been written and which themes are
 active, open the [current themes review packet](REVIEW-PACKET_CURRENT-THEMES_V1.md)
@@ -61,6 +124,8 @@ Check that the continuity ledger and generated registries agree with their sourc
 For the complete long-term publication gate, run `python3 scripts/validate_long_term_publication_gate.py`. It checks program synchronization, source coverage, provenance, observation records, finding Markdown/HTML parity, published links, local Markdown links, and whitespace integrity together.
 
 The [big-picture synthesis](site/us-big-picture-synthesis.html) pulls the five reader umbrellas together, while the [full broad-program map](site/us-broad-program-map.html) covers the complete 14-theme scope. Together they show which links are supported, which are comparisons, and which still need a stronger test.
+
+For the simplest orientation, start with the [plain-language end-to-end atlas](site/US-BROAD-PLAIN-LANGUAGE-ATLAS-SUMMARY_V1.html), then use the [strongest-chain register](site/US-BROAD-STRONGEST-END-TO-END-CHAINS_V1.html) to see exactly where the evidence is strong and where the lived middle remains open.
 
 The [matched-evidence index](site/us-matched-evidence.html) collects the deeper checks completed after the opening source packets and shows the open link in each one.
 

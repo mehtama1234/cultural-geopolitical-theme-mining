@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "gao_usgs_critical_materials_dependence_record",
+  "purpose": "Structured GAO and USGS critical-minerals ledger linking import reliance, application-specific substitution and recycling limits, domestic recovery research, and open geopolitical leverage without treating capability announcements as strategic independence.",
+  "events": [
+    {
+      "event_id": "GAO-USGS-CRITICAL-MINERALS-SUBSTITUTION-2025-2026",
+      "unit": "institution",
+      "geography": "United States; battery, semiconductor, defense, grid, and consumer-electronics supply chains",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-09-17",
+      "date_precision": "GAO-26-108687 and USGS Mineral Commodity Summaries 2026; reported 2025 reliance and 2026 assessment/research stages",
+      "denominator": "60 minerals designated critical; selected mineral/application and supply-chain measures differ and are not one resilience denominator",
+      "method": "Structured extraction from GAO technology assessment and USGS 2026 mineral summaries, with separate treatment of import reliance, China exposure, recycling potential, substitution limits, and research-stage responses",
+      "missingness": "No firm contract, inventory, shipment, substitute qualification, operating recycling output, product price, worker/community incidence, or realized state bargaining outcome is retained",
+      "condition_or_decision": "technology",
+      "exposure": "USGS reports 100% net import reliance for selected materials including arsenic, gallium, graphite, indium, and manganese; China is a major source for 14 of the 33 critical minerals on which the United States most depends",
+      "alternatives_before_action": "Firms and agencies may use alternative suppliers, inventories, material substitution, recycling, redesign, or delayed production; feasibility depends on application, purity, performance, price, volume, and time and is not observed by firm",
+      "immediate_burden_or_benefit": "Import concentration creates potential price, quality, shipment, and production risk, while GAO identifies battery recycling as a possible 2–3 year import-reliance reduction route and demanding semiconductor substitution limits",
+      "choice_or_response": "DOE recovery research and industrial projects are visible, including TRACE-Ga selections and a company-reported gallium prototype/production target; produced material, yield, customer qualification, and import displacement are not observed",
+      "person_or_actor_with_control": "Foreign processors, US agencies, firms, manufacturers, recyclers, and application owners control different stages; no single actor controls the full mineral-to-product loop",
+      "remedy_or_institutional_response": "GAO identifies recycling, substitution, and R&D as response options; the public record shows assessment and award/research stages rather than a functioning domestic alternative supply loop",
+      "immediate_outcome": "Material dependence and response capacity are separated by mineral-application-process rather than collapsed into a national independence score",
+      "protected_outcome": "A mature, qualified alternative could protect production continuity, price, and strategic room; no such outcome is verified across the selected applications",
+      "sacrificed_outcome": "Supply disruption, delayed redesign, higher cost, environmental burden, or local processing exposure cannot be assigned to a firm, worker, consumer, or place from these aggregate sources",
+      "cost_risk_transfer": "Dependence can shift disruption and substitution costs among firms, states, workers, communities, and consumers; the distribution is not measured",
+      "later_outcome": "Operating recycling volume, substitute qualification, supplier switching, product output, employment, prices, alliance behavior, concession, and geopolitical leverage remain open",
+      "meaning_and_attribution": "Agency and industry records frame dependence as an economic/security issue; affected-firm, worker, community, consumer, or public legitimacy judgments are not observed",
+      "public_or_collective_response": "Federal assessment and research coordination are observed; downstream firm, worker, community, alliance, or political response is not linked",
+      "counterexample": "Domestic production value can rise while import reliance remains high, and a mineral can be replaceable in batteries but difficult to substitute in a semiconductor; mineral-level autonomy is therefore not a safe inference",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GAO-26-108687 and USGS 2026 summaries; reported dependence and technology assessment are not a realized shortage, firm-impact, or strategic-leverage estimate",
+      "source_url": "https://www.gao.gov/products/gao-26-108687"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-CRITICAL-MATERIAL-A-01",
+      "from": "foreign processing concentration and import reliance",
+      "to": "potential input, price, quality, and shipment exposure",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "USGS reports high or 100% net import reliance for selected materials and major Chinese sourcing for 14 of 33 highly dependent critical minerals",
+      "status": "reported",
+      "counterexample": "Import reliance is apparent consumption, not a cutoff, shortage, coercion, or realized downstream loss",
+      "remaining_gap": "Application-specific contracts, inventory, shipment, price, purity, and firm exposure"
+    },
+    {
+      "arrow_id": "GAO-CRITICAL-MATERIAL-A-02",
+      "from": "material dependence",
+      "to": "recycling as a possible alternative",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO assesses that battery recycling could reduce import reliance on some minerals in about 2–3 years if collection, processing, feedstock, and demand conditions operate",
+      "status": "reported",
+      "counterexample": "A time-horizon assessment is not operating capacity, output, yield, price parity, or reduced import reliance",
+      "remaining_gap": "Collected feedstock, recovery yield, qualified output, cost, permitting, and customer uptake"
+    },
+    {
+      "arrow_id": "GAO-CRITICAL-MATERIAL-A-03",
+      "from": "material dependence",
+      "to": "application-specific substitution constraint",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "GAO reports that near-term semiconductor substitution and recycling may not reduce import reliance because substitutes must meet demanding performance requirements",
+      "status": "reported",
+      "counterexample": "Future research or application redesign may change the constraint; the assessment is not a permanent impossibility result",
+      "remaining_gap": "Material-application qualification, performance, volume, price, and time-to-switch"
+    },
+    {
+      "arrow_id": "GAO-CRITICAL-MATERIAL-A-04",
+      "from": "federal recovery research and project selection",
+      "to": "usable domestic supply capability",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "DOE selections, a company-reported gallium award, and R&D partnerships are visible, but no produced quantity, operating yield, customer qualification, or import displacement is reported",
+      "status": "open",
+      "counterexample": "A prototype or award can improve knowledge without becoming a commercial, qualified, or scalable supply route",
+      "remaining_gap": "Operating facility, output, purity, yield, customer qualification, cost, and second-source continuity"
+    },
+    {
+      "arrow_id": "GAO-CRITICAL-MATERIAL-A-05",
+      "from": "usable alternative or persistent dependence",
+      "to": "firm output, local burden, alliance behavior, or geopolitical leverage",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The retained GAO/USGS layer does not link material stages to a firm, worker, community, product, defense, alliance, or state-response outcome",
+      "status": "open",
+      "counterexample": "Dependence can create no leverage if inventories, allies, substitutes, or supplier switching absorb the shock; capability can create no leverage without external response",
+      "remaining_gap": "Same application and firm, downstream output, local incidence, supplier switch, negotiation, refusal, concession, or external response"
+    }
+  ],
+  "boundary": "This ledger formalizes critical-material dependence and response capacity as application-specific stages. It does not estimate a shortage, firm or household harm, domestic mineral independence, or geopolitical leverage.",
+  "storage_boundary": "No mineral dataset, company file, contract, shipment record, or community microdata is retained; only bounded GAO/USGS findings, response stages, and open links are represented."
+}

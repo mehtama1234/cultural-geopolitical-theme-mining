@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-flood-risk-insurance-household-exposure-2026",
+  "title": "Household flood exposure is shaped by property, ownership, and insurance rather than income alone",
+  "theme_ids": ["cost", "energy", "time"],
+  "program_theme_ids": ["housing_place_mobility", "unequal_exposure_status", "household_room_consumption", "public_systems_feedback", "infrastructure_technology_dependency"],
+  "source_unit": "Census CES Working Paper 26-37 using parcel-level flood risk and confidential linked survey and administrative data",
+  "geography": "United States; households, parcels, Census blocks, floodplains, building types, homeownership, and property ownership",
+  "observations": [{
+    "period": "Recent US flood-risk distribution and migration; paper published June 2026",
+    "denominator": {"value": 1, "unit": "household- and parcel-level linked Census analysis", "value_type": "study_unit"},
+    "measures": {
+      "block_migration": {"value": "net migration to Census blocks in floodplains increased", "unit": "net migration pattern", "value_type": "reported_trend"},
+      "parcel_migration": {"value": "there was essentially no net migration to parcels with flood risk and no change in the overall household share living in floodplains", "unit": "net migration pattern", "value_type": "reported_comparison"},
+      "income_gradient": {"value": "income gradients were slightly negative for the bottom 90 income percentiles but were dwarfed by disproportionate exposure in the top decile, especially for multiple property owners", "unit": "household flood-risk gradient", "value_type": "reported_comparison"},
+      "mechanism": {"value": "building type and homeownership within narrow income groups largely drove the nonlinear pattern", "unit": "reported mechanism", "value_type": "reported_interpretation"},
+      "protection": {"value": "households in floodplains were less disadvantaged and increasingly protected in the household-level analysis, while low-income uninsured homeowners remained vulnerable", "unit": "household exposure and protection pattern", "value_type": "reported_comparison"}
+    },
+    "method": "The authors combine parcel-level flood-risk measures with confidential linked Census survey and administrative data to estimate household exposure, migration, income gradients, property ownership, building type, homeownership, and insurance-related protection.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. Flood risk, insurance, and protection are not one outcome; the abstract does not establish whether households experienced flooding, received claims, repaired damage, moved, or achieved durable security.",
+    "subgroup": "Households by income percentile, homeownership, building type, multiple property ownership, floodplain location, and insurance status; the low-income uninsured-homeowner subgroup is specifically identified as vulnerable.",
+    "counterinterpretation": "Observed location can reflect amenities, inherited property, prices, credit, risk perception, zoning, insurance availability, or limited alternatives. Increasing protection may reflect insurance, structures, public investment, selection, or measurement. No net parcel migration does not mean no displacement, forced stay, or within-parcel change.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-37.html",
+    "retrieval_hash": "sha256:2efcb3d44b9af1ab99e796acaa9bf3229a232a1a96e49e82a206ebf37003da19",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-37.pdf", "claim": "The official paper provides the parcel-level flood-risk construction, linked-data method, household gradients, migration comparisons, and protection analysis.", "status": "official-paper-context"}],
+  "boundary": "This record adds a household-level flood-risk distribution and protection pathway. It does not establish flood incidence, claims or repairs, causal migration, insurance adequacy, displacement, health, or durable housing security.",
+  "retrieval_hash": "sha256:2efcb3d44b9af1ab99e796acaa9bf3229a232a1a96e49e82a206ebf37003da19"
+}

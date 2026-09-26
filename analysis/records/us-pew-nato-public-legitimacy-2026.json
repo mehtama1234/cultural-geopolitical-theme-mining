@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-pew-nato-public-legitimacy-2026",
+  "title": "NATO can remain popular while permission for U.S. leadership is divided",
+  "theme_ids": ["voice", "cost"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center 2026 survey of adults in 37 countries, including 13 NATO member states in the alliance-favorability comparison",
+  "geography": "United States and 36 comparison countries; U.S. partisan estimates and cross-national NATO-member comparisons",
+  "observations": [
+    {
+      "period": "February 8-May 13, 2026",
+      "denominator": {
+        "value": 45658,
+        "unit": "adult survey respondents across 37 countries",
+        "value_type": "reported_survey_sample"
+      },
+      "measures": {
+        "nato_member_median_favorability": {
+          "value": "65% favorable and 30% unfavorable median across 13 NATO member states surveyed",
+          "unit": "adult respondents in country surveys",
+          "value_type": "reported_cross_country_median"
+        },
+        "us_partisan_nato_favorability": {
+          "value": "75% of Democrats and Democratic leaners favorable versus 42% of Republicans and Republican leaners",
+          "unit": "U.S. adult partisan-group estimates",
+          "value_type": "reported_subgroup_comparison"
+        },
+        "us_leader_confidence_split": {
+          "value": "69% of Democrats versus 34% of Republicans confident in Zelenskyy; confidence in Putin was 7% versus 14%",
+          "unit": "U.S. adult partisan-group estimates",
+          "value_type": "reported_subgroup_comparison"
+        },
+        "country_counterexample": {
+          "value": "59% unfavorable opinion of NATO in both Greece and Turkey",
+          "unit": "adult respondents in country surveys",
+          "value_type": "reported_country_comparison"
+        },
+        "institutional_to_action_conversion": {
+          "value": "not observed",
+          "unit": "willingness to fund, host, deploy, accept risk, change policy, or sustain a specific alliance commitment",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Pew Research Center survey of nationally representative adult populations in 37 countries, fielded February 8-May 13, 2026; the report presents country estimates, a median across 13 NATO member states, U.S. partisan comparisons, and leader-confidence measures.",
+      "uncertainty": "Attitudes are measured at one field period and are not behavior. Country medians are not pooled individual-level estimates. Partisan differences may reflect party identity, leader evaluations, ideology, war preferences, question wording, or material interests; the report does not identify the causal source of the gap.",
+      "subgroup": "U.S. Democrats and Democratic leaners, Republicans and Republican leaners, adults in 13 NATO member states, and adults in 37 surveyed countries; age and ideological comparisons are reported separately.",
+      "counterinterpretation": "People may support NATO as a security institution while opposing a specific U.S. administration, war, budget, base, or operation. Unfavorable opinion in one country may coexist with treaty compliance or operational cooperation, and favorable opinion may not survive a future cost or risk.",
+      "source_url": "https://www.pewresearch.org/global/2026/07/06/nato-gets-high-marks-from-member-states/",
+      "retrieval_hash": "sha256:80735048a0ea6f64d272a8386859d4fcd58a0d4d6f928652f9b6a7667ab149d7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/2025/04/17/how-americans-view-nato-and-u-s-nato-membership/",
+      "claim": "Pew's prior U.S. survey supplies a comparison point for NATO favorability and partisan differences.",
+      "status": "prior-survey-context"
+    },
+    {
+      "source_url": "https://www.pewresearch.org/global/2026/07/06/nato-gets-high-marks-from-member-states/#methodology",
+      "claim": "Pew documents the survey field period, country coverage, and sampling approach.",
+      "status": "official-methodology"
+    }
+  ],
+  "boundary": "This record adds current public legitimacy and relational-trust measures around NATO. It does not establish alliance operation, defense burden sharing, host-country consent, strategic success, willingness to bear risk, later political action, or durable alignment."
+}

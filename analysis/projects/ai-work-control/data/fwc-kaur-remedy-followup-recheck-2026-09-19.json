@@ -1,0 +1,38 @@
+{
+  "format": "employment-remedy-followup-recheck-v1",
+  "checked": "2026-09-19",
+  "case_id": "FWC-KAUR-PREGNANCY-REINSTATEMENT-2025-12-19",
+  "matter": "U2025/9780",
+  "scope": "Targeted Fair Work Commission public-document search for post-order reinstatement, payment, and later work after Kaur v Adecco Industrial Australia.",
+  "sources_reviewed": [
+    {
+      "url": "https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc3646.pdf",
+      "role": "primary_decision",
+      "result": "unfair dismissal finding; reinstatement by 19 December 2025; continuity; $14,830.40 less tax plus superannuation ordered"
+    },
+    {
+      "url": "https://www.fwc.gov.au/documents/bulletin/bulletin-ending-2025-11-30.htm",
+      "role": "official_bulletin",
+      "result": "repeats the case outcome and reinstatement/payment order; no later implementation detail"
+    },
+    {
+      "url": "https://www.fwc.gov.au/hearings-decisions/find-decisions-and-orders",
+      "role": "official_search_route",
+      "result": "targeted search by case name, matter number, applicant/employer terms, and remedy terms located no later public implementation record in the checked route"
+    }
+  ],
+  "stages": {
+    "regular_work_exposure": "observed_adjudicated",
+    "alternative_employment": "observed_bounded_two_week_episode",
+    "worker_response": "observed_adjudicated",
+    "reinstatement_order": "observed_adjudicated",
+    "lost_pay_order": "observed_adjudicated",
+    "payment_receipt": "not_observed",
+    "actual_reinstatement": "not_observed",
+    "later_shifts_or_employment": "not_observed",
+    "household_outcome": "not_observed",
+    "trust_recurrence_or_exit": "not_observed"
+  },
+  "boundary": "A targeted public-document non-observation after the 19 December 2025 deadline does not prove that private payment, reinstatement, later work, or recovery did not occur.",
+  "storage_boundary": "No private claimant file or bulk archive was retained; only official source URLs, stage statuses, and the bounded search result are stored."
+}

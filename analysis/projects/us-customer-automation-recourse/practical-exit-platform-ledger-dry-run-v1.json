@@ -1,5 +1,5 @@
 {
-  "checked": "2026-09-16",
+  "checked": "2026-09-20",
   "contract": "practical-exit-observation-contract-v1",
   "episodes": [
     {
@@ -175,7 +175,7 @@
       },
       "decision": {
         "evidence_status": "observed",
-        "value": "timing_extension_granted_merits_relisted"
+        "value": "merits_dismissal_after_timing_extension_process_defect_and_safety_reason_observed"
       },
       "denominator": {
         "evidence_status": "observed",
@@ -211,9 +211,9 @@
         "value": "unknown"
       },
       "remedy_verification": {
-        "evidence_status": "unknown",
+        "evidence_status": "observed",
         "value": {
-          "correction_or_restoration": "not_observed",
+          "correction_or_restoration": "not_observed_no_remedy_ordered",
           "durability": "unknown",
           "payment_compensation": "not_observed",
           "receipt_verified": "unknown"
@@ -224,11 +224,11 @@
         "value": "unknown"
       },
       "source_and_uncertainty": {
-        "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. The decision did not determine unfairness, restoration, payment, or later access.",
+        "boundary": "[2025] FWC 2269 granted an extension despite a 60-day filing delay because the worker pursued internal review and raised an arguable Code-process issue. [2025] FWC 3550 later found that the requested discussion was not provided and a further inquiry was warranted, but held that numerous safety complaints supplied a valid reason and that the deactivation was not unfair. No reactivation, payment, later access, continued work, alternative work, recurrence, or exit outcome is observed.",
         "value": "Fair_Work_Commission_primary_timing_decision"
       },
       "source_id": "PR-025",
-      "source_implementation_stage": "timing_extension_granted_merits_relisted",
+      "source_implementation_stage": "merits_dismissal_after_timing_extension_process_defect_and_safety_reason_observed",
       "threatened_resource": {
         "evidence_status": "inferred",
         "value": "platform access, work opportunity, or remuneration"
@@ -412,7 +412,7 @@
       },
       "decision": {
         "evidence_status": "observed",
-        "value": "adjudicated_unfair_deactivation_reactivation_and_lost_pay_entitlement_quantum_open"
+        "value": "appeal_stay_order_and_interim_payment_obligation_observed_reactivation_and_quantum_open"
       },
       "denominator": {
         "evidence_status": "observed",
@@ -450,9 +450,9 @@
       "remedy_verification": {
         "evidence_status": "observed",
         "value": {
-          "correction_or_restoration": "observed_adjudicated_reactivation_ordered",
+          "correction_or_restoration": "observed_adjudicated_reactivation_ordered_stayed_pending_appeal",
           "durability": "unknown",
-          "payment_compensation": "observed_adjudicated_lost_remuneration_in_principle_quantum_open",
+          "payment_compensation": "observed_adjudicated_lost_remuneration_in_principle_interim_payment_obligation_quantum_open",
           "receipt_verified": "unknown"
         }
       },
@@ -461,18 +461,18 @@
         "value": "unknown"
       },
       "source_and_uncertainty": {
-        "boundary": "[2026] FWC 1801 found the Code process deficient and deactivation unfair, ordered reactivation within 7 days, and ordered lost remuneration in principle. Quantum, payment, actual access, recurrence prevention, and anti-retaliation are not observed.",
+        "boundary": "[2026] FWC 1801 found the Code process deficient and deactivation unfair, ordered reactivation and lost remuneration in principle. The 16 June 2026 consent stay stayed those orders pending appeal, conditioned on Rasier paying $259.38 per week from 28 May 2026 and not seeking repayment. The public record does not establish that the weekly payments were received, that access was restored in practice, the final quantum, appeal outcome, recurrence prevention, or anti-retaliation.",
         "value": "Fair_Work_Commission_primary_merits_decision"
       },
       "source_id": "PR-022",
-      "source_implementation_stage": "adjudicated_unfair_deactivation_reactivation_and_lost_pay_entitlement_quantum_open",
+      "source_implementation_stage": "appeal_stay_order_and_interim_payment_obligation_observed_reactivation_and_quantum_open",
       "threatened_resource": {
         "evidence_status": "inferred",
         "value": "platform access, work opportunity, or remuneration"
       },
       "trigger": {
         "evidence_status": "observed",
-        "value": "rider_complaints, warnings, platform_access, complaint_history, lost_remuneration"
+        "value": "rider_complaints, warnings, platform_access, complaint_history, lost_remuneration, appeal_stay, interim_payment_obligation"
       },
       "unit": "case"
     },
@@ -1510,7 +1510,7 @@
       },
       "attempted_route": {
         "evidence_status": "observed",
-        "value": "Worker response, statutory unfair-deactivation application, reactivation and payment order"
+        "value": "Worker response, statutory unfair-deactivation application, substitute work through Baysec and Didi, reactivation and payment order"
       },
       "counterexample": {
         "evidence_status": "open",
@@ -1567,7 +1567,7 @@
         "value": "unknown"
       },
       "source_and_uncertainty": {
-        "boundary": "PR792727 orders reactivation on prior terms and $6,073.23 gross less tax for lost earnings, payable within 14 days. Receipt, actual access, continued work, recurrence prevention, and anti-retaliation are not observed.",
+        "boundary": "The merits decision documents $9,000 in new Baysec earnings and an increase in Didi earnings after deactivation; those substitute earnings were deducted in calculating a $6,073.23 gross lost-earnings order under PR792727. The record does not establish whether the work was a freely chosen equivalent, whether Uber access was restored in practice, whether the ordered amount was received, or whether access and income were durable.",
         "value": "Fair_Work_Commission_primary_decision_and_order"
       },
       "source_id": "PR-020",
@@ -1578,7 +1578,7 @@
       },
       "trigger": {
         "evidence_status": "observed",
-        "value": "complaint_based_deactivation, platform_access, lost_earnings"
+        "value": "complaint_based_deactivation, platform_access, alternative_work, lost_earnings"
       },
       "unit": "case"
     },
@@ -2120,8 +2120,8 @@
         "value": "unknown"
       },
       "source_and_uncertainty": {
-        "boundary": "The Commission recorded voluntary reactivation but still made a formal order, including $7,096.96 gross lost remuneration. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified.",
-        "value": "Fair_Work_Commission_bulletin_and_primary_decision"
+        "boundary": "The primary decision records voluntary reactivation on 20 February 2026, no paid work reported during the deactivation gap to the hearing, and a $5,500 settlement offer that did not resolve the matter. The concurrent order requires reactivation if not already done and $7,096.96 gross lost remuneration within 14 days. Receipt, continued access, recurrence prevention, and anti-retaliation remain unverified.",
+        "value": "Fair_Work_Commission_primary_decision_and_order"
       },
       "source_id": "PR-018",
       "source_implementation_stage": "adjudicated_remedy_and_payment_order",
@@ -2131,7 +2131,7 @@
       },
       "trigger": {
         "evidence_status": "observed",
-        "value": "background_check, deactivation, voluntary_reactivation, lost_remuneration"
+        "value": "background_check, deactivation, voluntary_reactivation, lost_remuneration, settlement_offer, payment_deadline"
       },
       "unit": "case"
     }

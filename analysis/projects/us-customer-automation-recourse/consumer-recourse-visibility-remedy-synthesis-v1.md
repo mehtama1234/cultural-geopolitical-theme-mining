@@ -239,10 +239,27 @@ correction route, not evidence that each borrower received adequate restitution
 or recovered the missed tax, payment, credit, household, trust, or exit
 outcome. See the [Citibank servicing-remedy finding](findings/us-customer-automation-recourse-018.md).
 
+Bilt adds a distinct **collaborative implementation** stage. In June 2026,
+the CFPB reported that Bilt had proactively contacted potentially affected
+customers after a bank-partner transition, offered reimbursement for related
+overdraft, late, and insufficient-funds fees, and was reviewing requests for
+more than 500 newly identified customers. The Bureau said it would continue
+monitoring until satisfied that full redress would be provided. This is
+stronger than a dormant order because outreach, reimbursement activity, and
+ongoing oversight are visible. It still does not publish the individual fee,
+payment, receipt, adequacy, account-restoration, or later-use outcomes.
+
+The CFPB Ombudsman report supplies the person-side counterpoint: its FY2025
+examples include consumers needing help to update an address, obtain a
+reissued redress check, or navigate a third-party administrator after a check
+expired. An institution can therefore monitor a program and still encounter
+individual reachability failures during delivery.
+
 | Case | Formal response | Public distribution surface | Still unknown |
 |---|---|---|---|
 | Cash App/Block | Operational correction plus up to $120M redress | Case contact route; no current payment-by-case listing located | Eligibility, payment, receipt, remaining loss, repeat effort, trust, switching, exit |
 | BrightSpeed | Enforcement action against payment processing for fraudsters | 122,507 eligible consumers, $53.9M compensable harm, administrator, ongoing distribution | Issuance, delivery, amount received, residual loss, recovery, trust, exit |
+| Bilt | CFPB-directed collaborative outreach, reimbursement process, and continued monitoring | Bilt reported outreach and more than 500 newly identified customers slated for reimbursement | Individual fee amount, payment receipt, account correction, adequacy, later use, trust, switching, exit |
 
 ### Formal redress has multiple clocks
 
@@ -340,6 +357,8 @@ ANES, or political action is claimed.
 - [Federal Reserve fraud/recovery source](../../records/us-federal-reserve-household-fraud-recovery-2024.json)
 - [Rehman platform remedy record](../ai-work-control/uber-rehman-formal-reactivation-lost-remuneration-record-v1.md)
 - [Medical-debt API filtering audit](../us-health-cost-household-choice/cfpb-medical-debt-event-ledger-audit-v1.md)
+- [CFPB Bilt collaborative redress update](https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-works-to-ensure-bilt-consumers-are-made-whole/)
+- [CFPB Ombudsman FY2025 redress-reissuance examples](https://files.consumerfinance.gov/f/documents/cfpb_ombudsman-annual-report_2025.pdf)
 - [Consumer-recourse project](README.md)
 
 **Evidence status:** cross-source household and administrative synthesis. It

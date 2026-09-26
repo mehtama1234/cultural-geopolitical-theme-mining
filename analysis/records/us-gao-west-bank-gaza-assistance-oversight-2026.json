@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-west-bank-gaza-assistance-oversight-2026",
+  "title": "Strategic foreign assistance can continue after program transfer while oversight ownership and anti-terrorism controls remain unfinished",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "trust_identity_meaning",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "GAO-26-107939, West Bank and Gaza: State Should Incorporate Leading Practices and Lessons Learned into Anti-Terrorism Oversight",
+  "geography": "United States foreign assistance to the West Bank and Gaza; State Department and USAID administration, awardees, the East Jerusalem Hospital Network, and congressional oversight",
+  "observations": [{
+    "period": "FY2022–2025 assistance and oversight transition; GAO report publicly released September 23, 2026",
+    "denominator": {
+      "value": 37,
+      "unit": "USAID prime awards funded by $624 million in Economic Support Fund assistance for FY2022–2024",
+      "value_type": "reported_award_universe"
+    },
+    "measures": {
+      "long_run_assistance": {
+        "value": "the United States provided more than $7.8 billion in assistance to the West Bank and Gaza since 1993",
+        "unit": "cumulative assistance scale",
+        "value_type": "reported_scale"
+      },
+      "program_transition": {
+        "value": "State took over administration of the FY2022–2024 Economic Support Fund assistance from USAID in July 2025; all 37 awards had ended except support for the East Jerusalem Hospital Network",
+        "unit": "agency and award-status transition",
+        "value_type": "reported_transition"
+      },
+      "oversight_boundary": {
+        "value": "State had not determined which offices would be responsible for future assistance and had not finalized policies and procedures to prevent assistance from being diverted to terrorism",
+        "unit": "future-assistance control status",
+        "value_type": "reported_gap"
+      },
+      "leading_practice": {
+        "value": "GAO identified mandatory anti-terrorism provisions in award agreements and timely compliance-audit schedules as practices State could adopt from USAID lessons",
+        "unit": "recommended oversight mechanism",
+        "value_type": "reported_recommendation"
+      },
+      "downstream_outcome": {
+        "value": "the report does not establish award-level service continuity, beneficiary outcomes, partner legitimacy, diversion, regional security effects, or changed geopolitical behavior",
+        "unit": "missing assistance-to-outcome continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "GAO reviewed USAID and State policies and data, compliance reports and third-party financial audits, prime awards and a random generalizable sample of subaward actions, and interviewed officials during fieldwork in Israel and the West Bank.",
+    "uncertainty": "The report evaluates award administration and oversight controls, not the full causal or beneficiary effect of assistance. An unfinished policy or open recommendation is not proof of diversion, misuse, or terrorist financing. Aggregate assistance and award counts do not show delivery, use, service quality, partner response, or public legitimacy.",
+    "subgroup": "State and USAID offices, 37 FY2022–2024 prime awards, selected subawards, the East Jerusalem Hospital Network, Palestinian and regional counterpart institutions, awardees, and congressional overseers.",
+    "counterinterpretation": "Most reviewed USAID assistance complied with anti-terrorism policies and procedures, and a remaining hospital-network program can provide continuing health support. Stronger controls can improve accountability without proving that all assistance should stop or that every transfer is unsafe.",
+    "source_url": "https://www.gao.gov/products/gao-26-107939",
+    "retrieval_hash": "sha256:395a5aea789646fcb29fab5ca1d749ef25bd8e9ff435cb3dc8db67fb67db64ef",
+    "status": "reported"
+  }],
+  "related_sources": [{
+    "source_url": "https://files.gao.gov/assets/gao-26-107939.pdf",
+    "claim": "Official GAO report supplies award counts, funding, agency transition, remaining hospital support, control gaps, method, and recommendations.",
+    "status": "official-report"
+  }],
+  "boundary": "This record adds a geopolitical assistance-control and state-capacity layer: strategic funding can be transferred and administratively reassigned while future oversight ownership, anti-terrorism procedures, audit timing, beneficiary outcomes, and partner or public response remain incomplete. It does not establish misuse, diversion, service failure, or changed geopolitical behavior.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page reviewed and retained as a source-page hash; the report PDF, award files, subaward sample, and underlying compliance records were not retained.",
+    "gao_page_sha256": "sha256:395a5aea789646fcb29fab5ca1d749ef25bd8e9ff435cb3dc8db67fb67db64ef",
+    "checked": "2026-09-23"
+  }
+}

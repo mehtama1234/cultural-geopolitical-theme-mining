@@ -1,0 +1,72 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-carbon-tariff-domestic-emissions-global-coordination-2026",
+  "title": "A US carbon tariff alone can shift emissions abroad without delivering the full climate result",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35307; quantitative trade and emissions model comparing US carbon tariffs with and without a domestic carbon tax",
+  "geography": "United States and foreign trade partners in the model's carbon-intensive, trade-exposed sectors",
+  "observations": [
+    {
+      "period": "Model scenarios; US carbon tariff alone, combined tariff and domestic carbon tax, and multilateral tariff-only agreements",
+      "denominator": {
+        "value": null,
+        "unit": "model scenario baseline and counterfactuals; no observed-country or household denominator",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "us_emissions_tariff_only": {
+          "value": "increase",
+          "unit": "modeled direction relative to baseline",
+          "value_type": "reported_model_result"
+        },
+        "foreign_emissions_tariff_only": {
+          "value": "decrease",
+          "unit": "modeled direction relative to baseline",
+          "value_type": "reported_model_result"
+        },
+        "global_reduction_tariff_only_relative_to_combined": {
+          "value": 0.5,
+          "unit": "approximately half the global emissions reduction of the combined tariff-and-domestic-carbon-tax policy",
+          "value_type": "reported_model_result"
+        },
+        "us_gdp_and_welfare": {
+          "value": "increase under both tariff-only and combined policies; combined policy has the larger modeled effect",
+          "unit": "model result",
+          "value_type": "reported_model_result"
+        },
+        "tariff_only_membership_effect": {
+          "value": "global emissions reductions are modest and do not increase monotonically with greater membership",
+          "unit": "multilateral tariff-only model result",
+          "value_type": "reported_model_result"
+        },
+        "observed_implementation": {
+          "value": "not measured",
+          "unit": "actual tariffs, emissions, firm relocation, household incidence, retaliation, and partner acceptance",
+          "value_type": "unmeasured_boundary"
+        }
+      },
+      "method": "Quantitative trade model comparing US carbon tariffs with and without a domestic carbon tax in carbon-intensive, trade-exposed sectors, plus multilateral tariff-only and combined-policy scenarios.",
+      "uncertainty": "Results depend on model structure, calibration, sector coverage, policy assumptions, and modeled trade responses. The paper is not an observed policy evaluation and does not identify real implementation, distribution, retaliation, or public legitimacy.",
+      "subgroup": "US and foreign sectors exposed to the model's carbon-intensive trade; scenario-specific countries and membership sets rather than observed household groups.",
+      "counterinterpretation": "A tariff-only policy can still improve modeled US terms of trade, GDP, and welfare even if it is a weaker global emissions instrument than the combined policy. Greater participation does not guarantee a larger result under the tariff-only design.",
+      "source_url": "https://www.nber.org/papers/w35307",
+      "retrieval_hash": "sha256:6f87e2657bb1979efba2d6dc87553bebfa1dac4c2e76da8d1a54f647a5648a40",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.nber.org/papers/w35073",
+      "claim": "A separate study examines how beliefs shape support for environmental policy instruments; it is not pooled with this trade-and-emissions model.",
+      "status": "cross-source-comparator-kept-separate"
+    }
+  ],
+  "boundary": "This record adds a modeled distinction between domestic emissions, foreign emissions, global climate effect, US welfare, and international coordination. It does not establish real tariff incidence, emissions, firm adaptation, household bills, retaliation, partner acceptance, or durable geopolitical leverage. Model results are not observed outcomes."
+}

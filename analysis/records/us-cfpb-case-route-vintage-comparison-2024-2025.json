@@ -689,6 +689,28 @@
       "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/api/v1/",
       "retrieval_hash": "sha256:3ac0f49d2b679b4e63bad71a98dfad8507c2dc7ad338511985d633c9d0e168a2",
       "status": "compared"
+    },
+    {
+      "period": "June 24, 2026 CFPB complaint-system correction announcement",
+      "product": "Consumer complaint system and credit-reporting complaints",
+      "denominator": {
+        "value": 1,
+        "unit": "CFPB complaint-portal correction and governance intervention",
+        "value_type": "institutional_process_count"
+      },
+      "measures": {
+        "identified_system_problem": {"value": "CFPB said flaws limited the complaint portal's effectiveness and practical utility of its information", "unit": "reported institutional diagnosis", "value_type": "reported_system_diagnosis"},
+        "process_changes": {"value": "standardized CRA response process, stronger identity protections, alignment with statutory obligations, substantive-response prioritization, consumer education, and efficiency work", "unit": "reported governance interventions", "value_type": "reported_control_change"},
+        "technology_surface": {"value": "CFPB identified credit-repair organizations, social-media-driven submissions, and AI tools acting as individual agents as factors affecting complaint quality and scale", "unit": "reported data-quality and access context", "value_type": "reported_context"},
+        "consumer_correction_and_trust": {"value": "not observed", "unit": "missing individual correction, repeat effort, financial recovery, switching, trust, and exit outcome", "value_type": "unmeasured"}
+      },
+      "method": "Official CFPB announcement reviewed as a later institutional-process observation; system diagnosis, governance controls, technology context, and individual outcome are kept separate.",
+      "uncertainty": "The announcement describes institutional actions and asserted problems but does not quantify how many consumers were affected, whether the changes improved case accuracy or correction, or whether firms changed outcomes for a particular consumer.",
+      "subgroup": "Consumers submitting complaints, credit-reporting companies, firms receiving complaints, credit-repair organizations, and users or operators of automated submission tools; subgroup-level effects are not reported.",
+      "counterinterpretation": "Filtering and identity controls may reduce noise and protect the complaint channel, but they may also increase submission friction or exclude legitimate cases; a standardized response process does not by itself prove substantive correction.",
+      "source_url": "https://www.consumerfinance.gov/about-us/newsroom/the-cfpb-is-correcting-flaws-to-restore-integrity-and-utility-to-the-consumer-complaint-system/",
+      "retrieval_hash": "sha256:23870a862da3f666c7671e7b46c1ade4b6a6150249e04b4abc4e06c0bf00a9bb",
+      "status": "reported"
     }
   ],
   "reproduction_audit": {

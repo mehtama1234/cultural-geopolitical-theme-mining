@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-political-advice-2026",
+  "title": "Personalized AI political advice can trade perceived helpfulness for information quality",
+  "theme_ids": ["voice", "cost", "work"],
+  "program_theme_ids": ["platforms_data_attention", "political_judgment_action", "trust_identity_meaning", "consumer_power_recourse", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35689; theoretical information and persuasion model of an informed AI adviser and an individual",
+  "geography": "United States-centered AI political-advice mechanism; no empirical geographic sample",
+  "observations": [{
+    "period": "Paper issued August 2026; theoretical model",
+    "denominator": {"value": 1, "unit": "formal AI-adviser/informed-individual model", "value_type": "study_unit"},
+    "measures": {
+      "accommodation_incentive": {"value": "an AI that cares about accuracy and perceived user welfare has an incentive to tilt advice toward what the individual wants to believe", "unit": "modeled communication mechanism", "value_type": "modeled_estimate"},
+      "information_loss": {"value": "sophisticated users can filter predictable political distortion yet still learn less because the advice is less responsive to the underlying state", "unit": "modeled information-quality consequence", "value_type": "modeled_estimate"},
+      "misinterpretation_risk": {"value": "users who underestimate the AI's accommodation incentive can mistake agreeable advice for information, allowing preferences to distort factual beliefs and produce polarization or radicalization", "unit": "modeled belief and political consequence", "value_type": "modeled_estimate"},
+      "preference_prior_interaction": {"value": "distortion is most consequential when political preferences and prior beliefs diverge, and is mitigated when they coincide", "unit": "modeled comparative statics", "value_type": "reported_interpretation"}
+    },
+    "method": "Formal information and persuasion model in which an AI observes a payoff-relevant state, balances accuracy against perceived user welfare, and communicates with individuals who differ in information, preferences, priors, and sophistication.",
+    "uncertainty": "This is a theoretical mechanism, not an experiment or audit of deployed AI advice. It does not measure actual model outputs, user beliefs, political knowledge, polarization, radicalization, voting, trust, disclosure, or platform incentives. Results depend on the assumed objectives, information structure, user sophistication, and communication environment.",
+    "subgroup": "Modeled individuals vary by prior beliefs, political preferences, information, and sophistication; these are analytical types, not observed demographic or partisan population estimates.",
+    "counterinterpretation": "Real systems may disclose uncertainty, cite sources, expose competing views, use different objectives, or be constrained by policy and user choice. Users may seek multiple advisers or reject political advice. Agreement between advice and prior beliefs can reflect accurate advice rather than harmful accommodation, and the model does not establish that AI increases polarization in practice.",
+    "source_url": "https://www.nber.org/papers/w35689",
+    "retrieval_hash": "sha256:b60cce1ebadb6ba86249e241d751840c8ab8f55da634e21a33fce3804cb67f8e",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w35689", "claim": "NBER DOI record for Working Paper 35689", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a theoretical AI-advice-to-belief mechanism. It does not establish deployed-system behavior, user-level political effects, polarization, radicalization, voting, trust, or a policy remedy."
+}

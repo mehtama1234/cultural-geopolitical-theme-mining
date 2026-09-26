@@ -1,9 +1,14 @@
 # Worker control is a layered option structure, not a single job-quality measure
 
 **Status:** provisional cross-source synthesis  
-**Checked:** 2026-09-18  
+**Checked:** 2026-09-20
 **Scope:** US labor mobility and AI-control evidence joined to comparative
 worker-remedy records; no same-worker or pooled effect estimate
+
+**Endpoint audit recheck (2026-09-20):** the local audit validates seven
+source rows. It does not add a worker-side receipt, durable-control,
+household-outcome, or free-alternative-work endpoint, so the synthesis remains
+comparative stage evidence rather than a closed worker episode.
 
 ## The question
 
@@ -68,10 +73,71 @@ The remedy records prevent “formal protection” from becoming a single score:
 - A platform worker can regain access while a lost-remuneration order remains
   unpaid or otherwise unverified; access restoration and financial restoration
   are separate clocks.
+- An employer or tribunal can classify a replacement as objectively acceptable
+  while the worker experiences it as practically unacceptable because of
+  commute, transport, health, workplace conditions, or loss of local
+  attachment. In **Pavitt, [2025] FWC 1448**, a proposed relocation included a
+  10% salary increase and travel allowances, but required a much longer trip;
+  the Commission reduced the redundancy entitlement to six weeks while also
+  recognizing the loss of an 18-year workplace and the need to consider the
+  worker's circumstances. The case does not establish whether the worker
+  accepted the job or received the payment. It does show why “alternative
+  offered” is not the same field as “alternative usable.”
 
 These are selected case counterexamples, not prevalence estimates. Their value
 is diagnostic: they show why “stayed,” “switched,” “appealed,” “compensated,”
 and “recovered” must be coded separately.
+
+## Four-case comparison: remedy currencies move asynchronously
+
+The named Fair Work records make the pattern more precise without creating a
+common effect estimate:
+
+| Case | What the record shows | What does not follow automatically |
+|---|---|---|
+| Cartisano | Back pay and continuity were reported, while the conditional remedy did not produce actual practical return | Money or legal continuity is not restored workplace access |
+| Aitken | A negotiated return, back pay, and service recognition were followed by later dismissal after a safety conflict | Interim restoration is not durable security or proof of causal failure |
+| Alam Shah | Injury, language/mobility constraints, interpreter access, reinstatement, continuity, translation, and lost-pay order were documented | An ordered remedy is not verified payment, accepted return, or the worker's preferred outcome |
+| Mudiyanselage | Persistent underpayment led to complaints, FWO assistance, forced exit, new employment, partial payment, compensation order, and refusal to return because trust broke | New employment and compensation are not equivalent security, final recovery, or recovered trust |
+| Pavitt | A proposed relocation offered higher pay and travel allowances, but moved an 18-year job to a materially longer commute and raised health, transport, and workplace-condition objections; redundancy was reduced to six weeks | An objectively acceptable offer is not proof of acceptance, usability, payment receipt, preserved local attachment, later work, or household recovery |
+
+The comparison supports a stronger mechanism claim: **worker recovery is
+multi-currency and path-dependent**. Payment, status, actual access, safety,
+trust, and the ability to leave can move in different directions and on
+different clocks. In these cases, the public record is unusually good at
+showing institutional recognition and formal remedy, but still weak at showing
+what happened to the worker's household after the case. The cases therefore
+advance the broad atlas's end-to-end logic while remaining selected examples,
+not evidence that any one remedy route generally succeeds or fails.
+
+Pavitt adds a particularly important definition of “alternative.” A job can be
+objectively comparable on pay and duties while still imposing a large time,
+transport, health, or place-attachment cost. The atlas should therefore code
+alternative availability in at least three separate states: offered,
+reachable, and usable by the affected unit. Treating an offer as a usable
+alternative would erase the very costs that determine whether a worker can
+stay, refuse, or leave.
+
+## Latest official-case extension
+
+The [Fair Work later-outcome search](fwc-later-outcome-search-2026-09-19.md)
+adds a useful remedy ladder. Public decisions can show a lower-paid or
+longer-commute alternative, an unsuccessful search, a compensation
+calculation, or even an order for reinstatement and backpay. These are not
+equivalent worker outcomes:
+
+```text
+alternative job/search
+  -> compensation calculation or order
+  -> reinstatement/backpay order
+  -> actual payment and return
+  -> durable work, household security, trust, bargaining, or exit [open]
+```
+
+The key correction is that an increasingly detailed remedy record does not
+automatically become a recovery record. A tribunal may establish what should
+happen while the public trail remains silent on compliance, receipt, actual
+return, or what the worker did next.
 
 ## Arrow ledger
 
@@ -119,6 +185,8 @@ counterexample register, not as a worker-power index.
 - [Machine-readable SHED observation record](../../records/us-federal-reserve-employment-ai-control-2025.json)
 - [Remedy spectrum: from explanation to collective control](remedy-spectrum-cross-domain-synthesis-v1.md)
 - [Anticipatory to remedial worker control synthesis](anticipatory-to-remedial-worker-control-synthesis-v1.md)
+- [Fair Work later-outcome search memo](fwc-later-outcome-search-2026-09-19.md)
+- [Pavitt, [2025] FWC 1448](https://www.fwc.gov.au/documents/decisionssigned/pdf/2025fwc1448.pdf)
 
 **Evidence status:** cross-source mechanism synthesis with selected case
 counterexamples; no pooled worker-control, AI-productivity, welfare, trust,

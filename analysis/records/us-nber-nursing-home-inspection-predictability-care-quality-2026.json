@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nursing-home-inspection-predictability-care-quality-2026",
+  "title": "Predictable nursing-home inspections can make care effort rise and fall around the inspection window",
+  "theme_ids": ["time", "cost", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "unequal_exposure_status",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 34491, revised June 2026, using U.S. nursing-home inspection records and patient outcomes; NBER Bulletin summary supplies reported model estimates",
+  "geography": "United States Medicare- and Medicaid-certified nursing homes; inspections 2006-2019 and patient outcomes 2013-2019",
+  "observations": [
+    {
+      "period": "Inspection cycles and patient outcomes, 2006-2019 inspections and 2013-2019 patient outcomes",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. certified nursing homes, inspection events, and patients; exact public summary denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "inspection_timing": {
+          "value": "74% of inspections occurred 40-60 weeks after the previous inspection; the average gap was about 53 weeks",
+          "unit": "reported inspection-cycle timing",
+          "value_type": "reported_pattern"
+        },
+        "facility_effort": {
+          "value": "care effort was highest around inspection and declined afterward before rising again as the next inspection approached",
+          "unit": "composite effort index using payroll staffing and care inputs",
+          "value_type": "reported_pattern"
+        },
+        "mortality_association": {
+          "value": "a 1 standard deviation increase in effort was associated with a 0.2 percentage-point, or 5.4%, lower patient mortality rate",
+          "unit": "reported patient-outcome association",
+          "value_type": "reported_effect"
+        },
+        "inspection_model": {
+          "value": "the current inspection system was modeled to save 886 lives per year relative to no inspections; making timing unpredictable was modeled to save about 92 additional lives per year, comparable to a 10% frequency increase",
+          "unit": "model-based annual lives-saved estimates",
+          "value_type": "modeled_estimate"
+        },
+        "regulator_information": {
+          "value": "under the current regime regulators had modeled access to 56.3% of the information available under continuous monitoring; less predictable timing carries an information cost",
+          "unit": "model-based share of continuous-monitoring information",
+          "value_type": "modeled_estimate"
+        },
+        "resident_wellbeing": {
+          "value": "not observed as a complete outcome",
+          "unit": "missing quality of life, complaints, family experience, staffing stability, discharge, and long-term resident outcomes",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "Analysis of U.S. nursing-home inspection timing, payroll-based staffing and care-input measures, patient outcomes, and a dynamic model of effort, quality information, inspection frequency, and predictability.",
+      "uncertainty": "The public summary reports associations between effort and mortality and model-based policy estimates; it does not establish that every effort change was caused only by inspection timing or that modeled lives saved equal independently observed deaths avoided. The composite effort index and patient outcomes cover selected measurable dimensions of care.",
+      "subgroup": "Medicare- and Medicaid-certified nursing homes and patients; facility ownership, staffing, resident acuity, inspection findings, and local market conditions may differ.",
+      "counterinterpretation": "Facilities may change staffing or measured care inputs for reasons that also predict inspections, and the apparent survival pattern may not capture all resident selection or unmeasured care. More randomness could improve continuous effort while making recent quality information less current or harder to interpret.",
+      "source_url": "https://www.nber.org/papers/w34491",
+      "retrieval_hash": "sha256:a86dee1b7370ee9e2e2b38ee83078b44829edf9a38717a34401d5f532ee0d0f4",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.nber.org/bh/20262/how-inspection-timing-affects-care-quality-us-nursing-homes", "claim": "NBER Bulletin provides the plain-language inspection-cycle, survival, and model-estimate summary.", "status": "official-summary-context"}
+  ],
+  "boundary": "This record measures inspection timing, facility effort, selected patient survival outcomes, and model-based inspection designs in U.S. nursing homes. It does not establish complete care quality, resident wellbeing, causal effects for every facility, or the final impact of any adopted inspection reform."
+}

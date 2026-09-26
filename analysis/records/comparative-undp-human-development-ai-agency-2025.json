@@ -1,0 +1,71 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-undp-human-development-ai-agency-2025",
+  "title": "AI is framed as a human-development choice: broad expectations of augmentation meet unequal access and agency risks",
+  "theme_ids": ["work", "voice", "time", "cost"],
+  "program_theme_ids": [
+    "infrastructure_technology_dependency",
+    "work_control_bargaining",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "care_health_reproduction",
+    "trust_identity_meaning",
+    "platforms_data_attention"
+  ],
+  "source_unit": "UNDP Human Development Report 2025 and 2025 Global Survey on AI and Human Development; public aggregate findings across 21 countries and 36 languages",
+  "geography": "21 countries representing 63% of the world population; findings are reported by HDI group, occupation, life stage, and language where specified",
+  "observations": [
+    {
+      "period": "Survey fielded November 2024-January 2025; pooled 21-country public-opinion results reported in the 2025 Human Development Report",
+      "denominator": {
+        "value": 21000,
+        "unit": "more than 21,000 public-opinion respondents across 21 countries",
+        "value_type": "multi_country_survey"
+      },
+      "measures": {
+        "expect_ai_positive_employment_effect": {"value": 60, "unit": "percent expecting AI to affect employment positively by creating opportunities in jobs that may not exist today", "value_type": "reported_survey_share"},
+        "expect_current_job_automation": {"value": 50, "unit": "percent expecting their job could be automated by AI", "value_type": "reported_survey_share"},
+        "fear_ai_job_losses": {"value": 13, "unit": "percent fearing AI could lead to job losses", "value_type": "reported_survey_share"},
+        "expect_ai_use_in_lower_medium_hdi": {"value": 67, "unit": "percent in lower-human-development countries anticipating AI use in education, health, or work within one year", "value_type": "reported_survey_share"},
+        "expect_productivity_in_low_medium_hdi": {"value": 70, "unit": "percent in low- and medium-HDI countries expecting AI to increase productivity", "value_type": "reported_survey_share"}
+      },
+      "method": "UNDP pooled public-opinion survey findings summarized in the Human Development Report 2025 press release and Human Development Reports materials; results are compared across HDI groups and employment expectations.",
+      "uncertainty": "These are expectations and stated perceptions, not observed AI adoption, employment transitions, productivity, or causal forecasts. Published headline values are rounded, and the survey's country composition, wording, weighting, and subgroup denominators should be checked before making country-level comparisons.",
+      "subgroup": "Adults and older adolescents in 21 countries, with HDI-group and occupation comparisons where reported.",
+      "counterinterpretation": "Hope for augmentation can coexist with automation anxiety, weak institutional capacity, and unequal access. Positive expectations do not establish that AI will create net jobs or improve living standards.",
+      "source_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_PR_EN.pdf",
+      "retrieval_hash": "sha256:6bf5e33d04b7b52f262aa3fd60d24f9eb2f678057500fd30bd9b1e8cbca1a1f2",
+      "status": "reported"
+    },
+    {
+      "period": "2025 Human Development Report framing and 2025 global survey main findings",
+      "denominator": {
+        "value": 21,
+        "unit": "countries in the UNDP global survey; report-level policy and development analysis covers countries by HDI group",
+        "value_type": "country_cross_section"
+      },
+      "measures": {
+        "human_agency_as_policy_choice": {"value": 1, "unit": "report-level framing: AI outcomes depend on choices about design, deployment, institutions, and human agency", "value_type": "qualitative_report_finding"},
+        "personalization_route_health_education": {"value": 1, "unit": "report-level pathway: AI personalization could improve access and effectiveness in health and education, especially in low-resource settings", "value_type": "qualitative_report_pathway"},
+        "online_access_as_distribution_condition": {"value": 1, "unit": "report-level boundary: people unable to get online face a larger disadvantage as AI diffuses", "value_type": "qualitative_report_boundary"}
+      },
+      "method": "Synthesis of the 2025 Human Development Report's human-centered AI framework and the UNDP survey main-findings page, linking public expectations to development, service, infrastructure, and agency conditions.",
+      "uncertainty": "The report describes plausible mechanisms and policy choices, not measured effects of a specific AI system. It does not show that personalization improves outcomes, that agency is preserved in practice, or that access gaps are the only source of unequal benefit.",
+      "subgroup": "Countries and populations differentiated by human-development level, connectivity, work, health, education, language, and institutional context.",
+      "counterinterpretation": "Infrastructure access may be necessary but insufficient: electricity, connectivity, skills, affordability, local-language fit, data governance, service capacity, and accountability can all mediate whether AI expands or constrains choice.",
+      "source_url": "https://hdr.undp.org/content/human-development-report-2025",
+      "retrieval_hash": "sha256:6bf5e33d04b7b52f262aa3fd60d24f9eb2f678057500fd30bd9b1e8cbca1a1f2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://hdr.undp.org/2025-global-survey-ai-and-human-development-main-findings", "claim": "UNDP publishes the global survey's main findings, including AI-use expectations, job expectations, agency, and cultural alignment."},
+    {"source_url": "https://hdr.undp.org/content/envisioning-human-development-opportunity-ai", "claim": "UNDP explains the augmentation, automation, health, education, access, and human-agency pathways in the report."}
+  ],
+  "boundary": "This record adds a broad public-publication signal about AI expectations, human agency, access, work, health, and education. It is not a respondent-level dataset analysis, a causal AI evaluation, a country forecast, or evidence that expected augmentation will occur.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNDP Human Development Report 2025 press release, report landing page, global survey main-findings page, and explanatory article; headline survey values and report-level pathways cross-checked against official UNDP materials.",
+    "pdf_sha256": "sha256:6bf5e33d04b7b52f262aa3fd60d24f9eb2f678057500fd30bd9b1e8cbca1a1f2",
+    "checked": "2026-09-26"
+  }
+}

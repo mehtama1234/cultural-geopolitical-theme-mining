@@ -1,0 +1,50 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bis-bosch-foreign-produced-mems-huawei-settlement-2026",
+  "title": "BIS applied the Foreign Direct Product Rule to a German firm's foreign-produced MEMS and software shipments to Huawei",
+  "theme_ids": ["cost", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "public_systems_feedback"
+  ],
+  "source_unit": "BIS June 17, 2026 settlement announcement with Robert Bosch GmbH",
+  "geography": "Germany, foreign production sites, United States export-control jurisdiction, China/Huawei, and consumer-sensor supply chains",
+  "observations": [
+    {
+      "period": "September 16, 2020 through September 26, 2024 shipments; settlement announced June 17, 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "Robert Bosch GmbH settlement covering foreign-produced items exported from abroad",
+        "value_type": "reported_company_count"
+      },
+      "measures": {
+        "foreign_produced_items": {"value": "MEMS sensor products and automotive software subject to the EAR under the Foreign Direct Product Rule", "unit": "reported controlled item classes", "value_type": "reported_item_class"},
+        "recipient": {"value": "Huawei Technologies Co. and its affiliates on the Entity List", "unit": "reported restricted recipient group", "value_type": "reported_recipient"},
+        "foreign_shipment_value": {"value": 72369361, "unit": "U.S. dollars; approximate value of items exported from abroad", "value_type": "reported_transaction_value"},
+        "shipment_period": {"value": "September 16, 2020 through September 26, 2024", "unit": "reported shipment interval", "value_type": "reported_period"},
+        "license_or_authorization": {"value": "BIS reported exports without the required license or other authorization", "unit": "reported export-control violation", "value_type": "reported_enforcement_finding"},
+        "voluntary_self_disclosure": {"value": "Bosch filed a Voluntary Self-Disclosure and cooperated with the investigation", "unit": "reported firm response", "value_type": "reported_firm_response"},
+        "bis_penalty": {"value": 36184680, "unit": "U.S. dollars; penalty agreed with BIS", "value_type": "reported_penalty_value"},
+        "doj_disgorgement": {"value": 3600000, "unit": "U.S. dollars; approximate actual payment after partial suspension of DOJ disgorgement", "value_type": "reported_disgorgement_value"},
+        "bis_penalty_credit": {"value": 3600000, "unit": "U.S. dollars; approximately suspended from the BIS penalty as credit for disgorgement", "value_type": "reported_penalty_credit"},
+        "consumer_or_production_effect": {"value": "not observed", "unit": "missing Huawei product use, Bosch production, customer, worker, sensor availability, or downstream consumer endpoint", "value_type": "unmeasured"},
+        "strategic_effect": {"value": "not observed", "unit": "missing deterrence, substitution, PRC capability change, partner response, or U.S. leverage", "value_type": "unmeasured"}
+      },
+      "method": "BIS official settlement announcement and PDF review. The foreign-produced route, Foreign Direct Product Rule basis, recipient, shipment value and period, self-disclosure, penalty, disgorgement, and credit are coded as separate cross-border enforcement and remediation stages.",
+      "uncertainty": "The announcement does not disclose shipment quantities, exact production locations, item-level classifications, Huawei end uses, the number of transactions, later compliance measures, or production/customer effects. The penalty and self-disclosure establish a realized enforcement resolution, not an enforcement rate or deterrence estimate.",
+      "subgroup": "Robert Bosch GmbH, foreign production and compliance teams, Huawei and affiliates, MEMS and automotive-software customers, BIS, DOJ, and German/U.S. authorities",
+      "counterinterpretation": "Foreign Direct Product Rule enforcement can extend U.S. jurisdiction across an allied firm's overseas supply chain while creating compliance and commercial costs; voluntary disclosure may reflect detection and cooperation rather than prior prevention, and the case does not show a change in Huawei capability or broader allied behavior.",
+      "source_url": "https://www.bis.gov/press-release/robert-bosch-gmbh-bosch-pay-36-million-penalty-bis-violations-pertaining-shipments-huawei",
+      "retrieval_hash": "sha256:33bb80932fae2d627e9de5820b3e0aa66475952339aec4bc674e7ab1dc030cb3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://media.bis.gov/sites/default/files/documents/Bosch%20Press%20Release%2006.12.26%20(OCCIS)_0.pdf", "claim": "BIS PDF version of the Bosch settlement announcement.", "status": "official-release-pdf", "retrieval_hash": "sha256:19f9370d4d39a8fd7758ce29bd08dd556436201e898eac16205b7fb3b637bdcd"},
+    {"source_url": "https://www.bis.gov/press-release/applied-materials-pay-252-million-penalty-bis-illegally-exporting-semiconductor-manufacturing-equipment", "claim": "U.S.-origin semiconductor-equipment enforcement comparator.", "status": "official-comparator"},
+    {"source_url": "https://www.bis.gov/press-release/cadence-design-systems-pay-95-million-penalty-bis-unauthorized-exports-chinese-entities-tied-development", "claim": "Semiconductor-design-tool enforcement comparator.", "status": "official-comparator"}
+  ],
+  "boundary": "This record adds a foreign-produced-item enforcement route: allied firm overseas shipment -> Foreign Direct Product Rule jurisdiction -> voluntary self-disclosure -> BIS penalty and DOJ disgorgement credit. It does not establish later compliance, production or consumer effects, Chinese substitution, deterrence, or geopolitical leverage."
+}

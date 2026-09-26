@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-immigrant-earnings-return-migration-2026",
+  "title": "Immigrant earnings assimilation and return migration are separate outcomes",
+  "theme_ids": ["work", "cost", "time", "voice"],
+  "program_theme_ids": ["housing_place_mobility", "work_control_bargaining", "unequal_exposure_status", "trust_identity_meaning", "political_judgment_action"],
+  "source_unit": "NBER Working Paper 35582 using longitudinal administrative earnings records for immigrant workers and native-born comparison workers, 1981-2021",
+  "geography": "United States; immigrant arrival cohorts 1981-2010 and native-born earnings comparison",
+  "observations": [
+    {
+      "period": "1981-2021 earnings histories; paper issued August 2026",
+      "denominator": {"value": null, "unit": "immigrant workers observed in longitudinal administrative earnings records; exact paper sample denominator not disclosed in abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "return_migration_within_ten_years": {"value": "roughly one-fifth to one-third", "unit": "share of immigrant arrival cohorts returning from the United States within 10 years", "value_type": "reported_estimate"},
+        "permanent_immigrant_convergence": {"value": "within 10 years for cohorts arriving since the mid-1990s", "unit": "earnings convergence or near-convergence with native-born workers among immigrants who remain", "value_type": "reported_longitudinal_result"},
+        "gender_timing_context": {"value": "about 8 years for men and 19 years for women", "unit": "NBER summary timing to earnings parity among immigrants who remain in the United States", "value_type": "reported_summary_estimate"},
+        "return_migrant_growth": {"value": "slower than permanent migrants", "unit": "earnings-growth comparison after entry", "value_type": "reported_comparison"}
+      },
+      "method": "Longitudinal administrative earnings records beginning in an immigrant's first year of U.S. residence and continuing thereafter identify whether workers eventually leave. The paper compares earnings assimilation for return migrants and permanent migrants across arrival cohorts and discusses selection in repeated cross-sectional estimates.",
+      "uncertainty": "The paper is a working paper and its abstract does not disclose the exact sample denominator, full subgroup denominators, or all parity definitions. Earnings are not the same as wealth, job quality, legal security, benefits, household wellbeing, belonging, or political action. The return-migrant comparison is informative about selection but does not by itself identify why people leave or whether departure improved their lives.",
+      "subgroup": "Immigrant arrival cohorts, return migrants versus immigrants who remain, gender timing reported in the NBER summary, and native-born earnings comparison; cohort and gender estimates should not be pooled into one average.",
+      "counterinterpretation": "Return migration may reflect family obligations, retirement, health, legal status, discrimination, exchange rates, temporary migration plans, or improved opportunities elsewhere rather than failed U.S. assimilation. Faster earnings convergence among stayers may partly reflect selective retention; earnings parity can coexist with unequal wealth, insecurity, or belonging.",
+      "source_url": "https://www.nber.org/papers/w35582",
+      "retrieval_hash": "sha256:dc60e02a2f89bdae6a3f003b019c84f90a8ab8c4e79431e76af980dd3e146b22",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This record adds a migration-selection and earnings-convergence layer to the belonging and mobility themes. It does not establish a causal assimilation effect, the reasons for return, earnings parity in every subgroup, household security, legal inclusion, belonging, or political action. Stayers and return migrants must remain separate outcomes rather than being treated as one immigrant trajectory."
+}

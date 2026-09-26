@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-2025-income-poverty-insurance-divergence",
+  "title": "Headline income and official poverty improved while supplemental poverty and full-year insurance coverage stayed broadly flat",
+  "theme_ids": ["cost", "work", "energy"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining"
+  ],
+  "source_unit": "U.S. Census Bureau CPS ASEC 2025 income, poverty, and health-insurance estimates released September 15, 2026",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Calendar year 2025; comparison with 2024 estimates",
+      "denominator": {
+        "value": null,
+        "unit": "U.S. population and households represented by the 2026 CPS Annual Social and Economic Supplement; no single pooled respondent denominator is reported in the release",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "real_median_household_income": {
+          "value": "$87,460 in 2025, up 2.6% from $85,210 in 2024 and the highest recorded level in the series dating to 1967",
+          "unit": "2025 dollars per household",
+          "value_type": "published_time_series"
+        },
+        "official_poverty": {
+          "value": "Official poverty fell 0.5 percentage points to 10.2%, or 34.5 million people; the child poverty rate fell to a historic low of 13.4%",
+          "unit": "percent and people in official poverty",
+          "value_type": "published_comparison"
+        },
+        "supplemental_poverty": {
+          "value": "Supplemental Poverty Measure was 13.1% in 2025, not statistically different from 2024",
+          "unit": "percent of U.S. population under the SPM",
+          "value_type": "published_comparison"
+        },
+        "health_insurance": {
+          "value": "26.7 million people, or 7.9%, were uninsured for the entire year, not statistically different from 2024; public coverage was 35.8%, also not statistically different",
+          "unit": "percent and people without full-year insurance or with public coverage",
+          "value_type": "published_comparison"
+        },
+        "coverage_route_shift": {
+          "value": "Public coverage for adults ages 19-64 declined 0.5 percentage points to 17.3%, driven by a 0.6-point Medicaid decline; employment-based insurance covered 53.5% of the population for some or all of the year",
+          "unit": "percent of relevant population",
+          "value_type": "published_route_comparison"
+        },
+        "distribution_context": {
+          "value": "Income at the 90th percentile rose 1.7%, while income at the 10th percentile did not change significantly; the Gini index was not significantly different",
+          "unit": "published income-distribution comparison",
+          "value_type": "published_distribution_comparison"
+        }
+      },
+      "method": "Census Bureau national estimates from the Current Population Survey Annual Social and Economic Supplement, with separate pretax money-income, official-poverty, Supplemental Poverty Measure, and health-insurance concepts.",
+      "uncertainty": "The measures use different resource concepts and universes: official poverty excludes many transfers, while the SPM includes taxes, transfers, work and medical expenses, and geographic housing costs. Year-to-year comparisons are subject to sampling and nonsampling error, population controls, and the release's stated statistical-significance tests.",
+      "subgroup": "U.S. households and individuals overall, with reported contrasts by age, race and ethnicity, earnings, and insurance route; this record retains the national divergence rather than making subgroup causal claims.",
+      "counterinterpretation": "A record median income and lower official poverty can reflect real improvement without eliminating material strain captured by the SPM, health costs, housing costs, or coverage transitions. Flat national insurance coverage does not mean stable access for every age, state, or income group.",
+      "source_url": "https://cdn.www.census.gov/newsroom/press-releases/2026/income-poverty-health-insurance-coverage.html",
+      "retrieval_hash": "sha256:7117e731d5b9b1f76330fd00894a2a0409f672e7877fd20fd30b25ff745bb4bb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.census.gov/library/publications/2026/demo/p60-291.html",
+      "claim": "Official health-insurance report provides the coverage definitions and 2025 estimates.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds a realized household-material and coverage layer. It does not infer household wellbeing from median income alone, estimate causal policy effects, resolve state or subgroup heterogeneity, or treat official poverty and the SPM as interchangeable measures.",
+  "retrieval_hash": "sha256:7117e731d5b9b1f76330fd00894a2a0409f672e7877fd20fd30b25ff745bb4bb"
+}

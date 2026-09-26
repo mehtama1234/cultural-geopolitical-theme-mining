@@ -25,6 +25,22 @@
       "status": "reported"
     },
     {
+      "period": "2026 Census CES working paper; five-state SNAP and employment administrative data",
+      "denominator": {"value": 5, "unit": "states in linked SNAP and employment administrative-data study", "value_type": "study_scope"},
+      "measures": {
+        "snap_participation_change": {"value": -7, "unit": "percent; reported reduction in SNAP participation", "value_type": "causal_estimate"},
+        "labor_supply_response": {"value": "no increase", "unit": "reported employment/labor-supply outcome", "value_type": "causal_null_summary"},
+        "low_income_screening": {"value": "disproportionately screened out", "unit": "reported subgroup pattern", "value_type": "causal_subgroup_pattern"}
+      },
+      "method": "Triple-differences design using linked SNAP and employment data from five states, exploiting policy timing and an age-based threshold.",
+      "uncertainty": "This is a working-paper estimate tied to the studied states, policy implementation, age cutoff, and administrative definitions; it does not observe full household food, debt, health, trust, political, or later recovery outcomes.",
+      "subgroup": "SNAP participants subject to work requirements, with lower-income subgroup comparisons.",
+      "counterinterpretation": "A participation decline can reflect screening, reporting, or eligibility enforcement rather than changed work capacity; no labor-supply increase does not by itself establish the household food-security effect.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-46.html",
+      "retrieval_hash": "sha256:14d3817c5cafc64e0de20f3537ca00fb6a65e408f4961235df144f1203010be9",
+      "status": "reported"
+    },
+    {
       "period": "Study-specific period; Los Angeles SNAP applicant field experiment",
       "denominator": {"value": 65000, "unit": "approximately 65,000 SNAP applicants in the reported field experiment", "value_type": "reported_study_sample"},
       "measures": {
@@ -99,6 +115,22 @@
       "counterinterpretation": "Reentry can reflect changing need, corrected records, ordinary eligibility changes, or other unobserved routes; failure and reentry should not be treated as a single causal churn estimate without the underlying case definitions.",
       "source_url": "https://www.nber.org/reporter/2024number3/snap-eligibility-enforcement-and-program-adoption",
       "retrieval_hash": "sha256:19ad36bcbd2674c7ff0761b8ade92c9b6f03c8903d223ee90e02a562560f2dbc",
+      "status": "reported"
+    },
+    {
+      "period": "Study-specific application period; Los Angeles and San Francisco SNAP cases linked to credit records",
+      "denominator": {"value": null, "unit": "study-specific marginally excluded SNAP households linked to administrative cases and consumer credit reports; exact count not disclosed in the public abstract", "value_type": "not_disclosed"},
+      "measures": {
+        "process_denial_debt": {"value": "increased", "unit": "reported downstream debt outcome after process-related SNAP denial", "value_type": "causal_estimate"},
+        "process_denial_delinquency": {"value": "increased", "unit": "reported downstream credit-delinquency outcome after process-related SNAP denial", "value_type": "causal_estimate"},
+        "process_denial_credit_score": {"value": "decreased", "unit": "reported consumer-credit-score outcome after process-related SNAP denial", "value_type": "causal_estimate"}
+      },
+      "method": "Experimental and quasi-random variation in the flexibility of mandatory SNAP intake interviews, linked to administrative SNAP records and consumer credit reports.",
+      "uncertainty": "The public abstract reports the direction of downstream financial effects but not the full effect sizes or every case definition. The study concerns marginally excluded households in Los Angeles and San Francisco and does not establish national effects, food security, health, trust, political action, or durable recovery.",
+      "subgroup": "Marginally excluded SNAP households in the study's Los Angeles and San Francisco administrative settings; the credit linkage is not a representative national household panel.",
+      "counterinterpretation": "The design isolates administrative-denial exposure within the study setting, but local labor markets, other benefits, unmeasured shocks, and the distinction between short-term credit stress and later recovery still limit broader interpretation.",
+      "source_url": "https://www.nber.org/papers/w34434",
+      "retrieval_hash": "sha256:4ba64d02cf06da66d608e3bbdacdb3af727d0e9087b947d9ba2f719593d5e2ca",
       "status": "reported"
     }
   ],

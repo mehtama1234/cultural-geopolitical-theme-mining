@@ -25,6 +25,25 @@ optionality**: people can appear to choose while the feasible cost of refusing,
 contesting, or leaving differs sharply by resources, identity, information,
 payment route, transport, time, and institutional authority.
 
+## The consumer-option ladder
+
+For consumer and public-help routes, the practical ladder is:
+
+```text
+route exists
+  -> person can notice and understand it
+  -> person can afford the effort, privacy, time, and social cost
+  -> person can use it or choose a real alternative
+  -> result is adequate and durable
+  -> person can trust, contest, switch, or leave
+```
+
+This explains why “available,” “used,” and “continued use” are weak endpoints
+by themselves. Continued use can mean value, dependence, or the high cost of
+exit. Non-use can mean satisfaction, dignity protection, stigma, futility, or
+lack of access. The atlas therefore treats practical optionality as an outcome
+to measure, not an assumption behind observed participation.
+
 The newer [remedy-stage comparison](../us-customer-automation-recourse/remedy-durability-cross-domain-synthesis-v1.md)
 adds a crucial consumer-cultural distinction: an institution can make a remedy
 visible, distribute money, restore access, or repeat a repair without showing
@@ -42,6 +61,16 @@ produce active search without producing a usable alternative. Search is effort
 and navigation, not proof of access, remedy, or exit; the fraud timing is
 retrospective and the group is not attrition-adjusted.
 
+The new [April-to-June material-search cross-lag](findings/us-consumer-culture-004.md)
+strengthens the timing boundary without closing the outcome: among 6,564
+linked respondents, April expense difficulty was followed by higher June job,
+food, benefit, credit, housing, and medical search, while any AI use and high
+Congress confidence were close or lower. This is stronger than a same-round
+association for the navigation arrow, but still does not identify the search
+result, application, transaction, remedy, recovery, or exit. The retained
+March 2026 archive cannot extend this route: its `SCRAMID` set has zero overlap
+with June 2025 and it lacks the comparable `AI4_*` and `TRUST2_CONGRESS` fields.
+
 ## Evidence matrix
 
 | Surface | What the local record measures | Safe interpretation | Missing arrow |
@@ -51,7 +80,7 @@ retrospective and the group is not attrition-adjusted.
 | News and civic platforms | News-source use/trust and descriptive participation types | Attention, trust, and civic action are distinct participation styles | Platform exposure, prior identity, belief change, action cause, and durable engagement |
 | Charitable food | Receipt, unmet need, access barriers, safety, treatment, and reasons for nonreceipt | Help can be available yet socially, physically, temporally, or informationally unusable | Dated need, provider alternative, actual food/security outcome, dignity, and later trust |
 | Digital fraud and recourse | Reported loss, recovery time, unrecovered money, complaint routing, and response labels | Exposure and institutional visibility do not establish recovery, remedy, or exit | Same customer, originating contact, correction adequacy, repeat effort, trust, and switching |
-| Material pressure and option-search | Same-round expense difficulty and targeted online search; linked fraud exposure/loss and later search | Pressure is associated with searching for options, but search does not show that an option was found or usable | Dated need, search result, alternative quality, institutional response, and later recovery or exit |
+| Material pressure and option-search | Same-round expense difficulty and targeted online search; April-to-June same-respondent expense/search cross-lag; linked fraud exposure/loss and later search | Pressure is associated with later searching for options, but search does not show that an option was found or usable | Dated need, search result, alternative quality, institutional response, and later recovery or exit |
 
 These records deliberately retain different units, denominators, clocks, and
 uncertainty. Their convergence justifies a research priority; it does not

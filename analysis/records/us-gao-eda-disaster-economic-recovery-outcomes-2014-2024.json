@@ -1,0 +1,78 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-eda-disaster-economic-recovery-outcomes-2014-2024",
+  "title": "Disaster recovery funding and projects do not by themselves show a working local recovery",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "infrastructure_technology_dependency",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "work_control_bargaining",
+    "household_room_consumption",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-107742 review of EDA disaster-recovery grants, Economic Recovery Support Function missions, appropriations, and grantee outcome reporting",
+  "geography": "United States; EDA disaster-recovery portfolio and selected disaster-affected communities",
+  "observations": [
+    {
+      "period": "FY2014–FY2024; EDA disaster-recovery grant portfolio",
+      "denominator": {"value": null, "unit": "EDA disaster-recovery award portfolio; award and project denominators differ from communities, firms, households, and residents", "value_type": "not_disclosed"},
+      "measures": {
+        "award_total": {"value": 2.1, "unit": "billion dollars in disaster-recovery grants", "value_type": "reported_total"},
+        "infrastructure_share": {"value": 45, "unit": "percent of award dollars for utilities, roadways, and other public infrastructure", "value_type": "reported_share"},
+        "facility_share": {"value": 36, "unit": "percent of award dollars for business, medical, training, and other facilities", "value_type": "reported_share"},
+        "supplemental_appropriations": {"value": 3.2, "unit": "billion dollars in EDA disaster supplemental appropriations, FY2018–FY2025", "value_type": "reported_total"}
+      },
+      "method": "GAO review of EDA documentation and data on appropriations, grant awards, disbursements, and project categories, supplemented by interviews and site visits.",
+      "uncertainty": "Awards and appropriations are not disbursements, completed assets, usable services, or community recovery; no complete project-to-place-to-household linkage is retained.",
+      "subgroup": "EDA disaster-recovery grants, primarily infrastructure, construction, facilities, planning, and capacity-building projects.",
+      "counterinterpretation": "A large public investment portfolio may produce real local benefits even when the available data do not show completion, access, quality, or durable economic function.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107742/index.html",
+      "retrieval_hash": "sha256:ed5cfa0564ec2fabf16bbfd998d7cc512a601c2662c089b2dccc4b6b64f26630",
+      "status": "reported"
+    },
+    {
+      "period": "2013–2025; Economic Recovery Support Function missions",
+      "denominator": {"value": 45, "unit": "Economic Recovery Support Function missions after severe storms, floods, and other disasters", "value_type": "reported_missions"},
+      "measures": {
+        "mission_count": {"value": 45, "unit": "missions coordinated by EDA", "value_type": "reported_count"},
+        "median_duration": {"value": 5, "unit": "months per mission, median", "value_type": "reported_median"},
+        "coordination_stage": {"value": "federal coordination and staffing are visible, while local implementation and economic outcomes are not consistently connected", "unit": "recovery-stage boundary", "value_type": "stage_boundary"},
+        "funding_delay_example": {"value": "Hawaii stakeholders reported planning and implementation problems when supplemental funds arrived about two years after the disaster", "unit": "selected stakeholder account", "value_type": "reported_example"}
+      },
+      "method": "GAO review of Economic Recovery Support Function coordination records, agency interviews, and stakeholder interviews in Florida, Hawaii, and Oklahoma.",
+      "uncertainty": "Mission duration does not establish speed or success; selected stakeholder accounts are not a national delay estimate and do not quantify lost output, jobs, services, or household effects.",
+      "subgroup": "EDA-led Economic Recovery Support Function missions and selected disaster-affected communities.",
+      "counterinterpretation": "Coordination can reduce fragmentation and help communities even when the record does not identify the later project or resident outcome.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107742/index.html",
+      "retrieval_hash": "sha256:ed5cfa0564ec2fabf16bbfd998d7cc512a601c2662c089b2dccc4b6b64f26630",
+      "status": "reported"
+    },
+    {
+      "period": "FY2014–FY2024; grants with available three-year outcome reporting",
+      "denominator": {"value": 292, "unit": "construction and revolving-loan grants with available three-year reported outcomes", "value_type": "reported_subset"},
+      "measures": {
+        "no_jobs_or_private_investment": {"value": 55, "unit": "percent of grantees reporting neither jobs created or retained nor private investment after three years", "value_type": "grantee_reported_share"},
+        "validation_status": {"value": "EDA performance measures could not assess intended disaster-recovery outcomes, and validation of grantee-reported job data had been suspended", "unit": "measurement-governance finding", "value_type": "reported_finding"},
+        "outcome_boundary": {"value": "the 55% result is not a failure rate for all EDA grants or all disaster-recovery projects", "unit": "interpretive boundary", "value_type": "boundary"}
+      },
+      "method": "GAO audit of EDA performance measures and grantee-reported three-year outcomes for the subset of construction and revolving-loan grants with available data.",
+      "uncertainty": "The reports were not independently validated and do not capture all possible infrastructure, service, household, or community outcomes; there is no comparable place counterfactual or resident/firm panel.",
+      "subgroup": "292 construction and revolving-loan grants with available reporting; not all EDA disaster-recovery awards.",
+      "counterinterpretation": "No reported jobs or private investment can mean the selected measure missed benefits, timing, or other intended outcomes; it cannot distinguish unmeasured success from nonachievement.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-107742/index.html",
+      "retrieval_hash": "sha256:ed5cfa0564ec2fabf16bbfd998d7cc512a601c2662c089b2dccc4b6b64f26630",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.gao.gov/products/gao-26-107742", "claim": "Official GAO summary states the grant scale, mission count, outcome-measurement problem, and recommendations for assessing results and validating grantee data.", "status": "official-summary"}
+  ],
+  "boundary": "This record identifies a public-investment and measurement boundary between disaster funding, coordination, projects, and proven local economic recovery. It does not establish that EDA caused or failed to cause jobs, business survival, wages, housing, services, household security, trust, or political action, and it does not follow the same person or community through every stage.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO HTML report URL used for the extracted aggregate and bounded audit figures; no full report archive retained in this record.",
+    "html_sha256": "sha256:ed5cfa0564ec2fabf16bbfd998d7cc512a601c2662c089b2dccc4b6b64f26630",
+    "checked": "2026-09-22"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-lehd-founder-background-hiring-homophily-2026",
+  "title": "Who gets hired into a new firm can reflect who founded it",
+  "theme_ids": ["work", "voice", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "firm_sector_market_power", "unequal_exposure_status", "trust_identity_meaning", "household_room_consumption"],
+  "source_unit": "CES-26-45 study using Census LEHD data and a complementary Crunchbase-LinkedIn/Revelio Labs startup sample to compare founder and worker backgrounds",
+  "geography": "United States; primary LEHD analysis covers 30 states and the District of Columbia, with industry, metropolitan-area, and founding-cohort comparisons",
+  "observations": [
+    {
+      "period": "New-firm cohorts observed 1992-2014 in the balanced LEHD sample; paper published July 2026",
+      "denominator": {"value": 825000, "unit": "rounded new-firm observations in the primary balanced LEHD sample", "value_type": "reported_count"},
+      "measures": {
+        "founder_worker_similarity": {"value": "After industry-by-metro-area-by-cohort controls, female-founded firms had a 36.4 percentage-point higher female employee share; corresponding differences were 51.2 points for Black workers, 37.3 points for Hispanic workers, and 11.3 points for non-college workers", "unit": "percentage-point founder-background/employee-share difference", "value_type": "reported_estimate"},
+        "persistence": {"value": "Founder-background differences remained visible across firm age and persisted to at least 20 years in the unbalanced LEHD analysis", "unit": "years after founding", "value_type": "reported_trend"},
+        "relative_wage_effect": {"value": "Group-specific firm wage decompositions show relative wage effects for workers sharing founder characteristics ranging from approximately 2.9% to 12.9% across demographic dimensions", "unit": "relative firm wage effect", "value_type": "reported_estimate"},
+        "sample_structure": {"value": "The balanced LEHD sample contains about 825,000 firms and 4.947 million firm-by-year observations; the complementary balanced Crunchbase-LinkedIn sample contains about 44,545 firms and 267,270 firm-by-year observations", "unit": "rounded study sample counts", "value_type": "reported_count"}
+      },
+      "method": "The primary analysis identifies new firms in Census LEHD business and wage records, uses the top three earners in a firm's first year as a founder proxy, measures employee demographic shares over firm age, and compares firms with detailed industry, metropolitan-area, and founding-cohort controls. An AKM-style wage decomposition is used to examine firm labor-demand versus worker-supply explanations. A separate LinkedIn/Crunchbase sample supplies founder-role and job-role information but has different coverage and selection.",
+      "uncertainty": "The LEHD data cover 30 states and D.C., not the entire country, and the balanced sample requires non-founder employees in years 0-5, MSA and industry information, and sufficient disclosure-safe observations, which selects larger or surviving firms. Founder identity is proxied by top earners in the LEHD data. LinkedIn users self-select, LinkedIn demographic measures are name-constructed, and the startup sample is skewed toward college-educated and venture-backed firms. The wage decomposition and calibrated model are not direct observations of discrimination or worker wellbeing.",
+      "subgroup": "Female, Black, Hispanic, Asian, age, and college-education founder/worker groups, with heterogeneity by industry, metro, founding cohort, firm growth, occupation, seniority, and wage group; the primary data and complementary LinkedIn data have different units and coverage.",
+      "counterinterpretation": "Founder-worker similarity could reflect founder labor demand, worker supply, networks, geographic sorting, skills, firm production needs, or unobserved selection; the paper's wage decomposition favors a demand explanation but does not identify one social mechanism for every group. Similar hiring does not prove a good workplace, higher productivity, worker preference, discrimination, or durable employee security.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-45.html",
+      "retrieval_hash": "sha256:9c56ec076043263fb87f5c61a5ae1b6e534d6dce45de5cd8ae791c2a25974e01",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a founder-background-to-firm-hiring and wage-opportunity pathway. It does not establish a national employer rate, individual discrimination, worker preference, causal entrepreneurship access effects, firm culture quality, or downstream household, political, or wellbeing outcomes."
+}

@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-ai-early-career-hiring-qwi-2026",
+  "title": "Early-career hiring fell in the most AI-exposed industry-state markets after ChatGPT",
+  "theme_ids": ["work", "time", "cost"],
+  "program_theme_ids": ["work_control_bargaining", "infrastructure_technology_dependency", "unequal_exposure_status", "household_room_consumption", "firm_sector_market_power"],
+  "source_unit": "Census CES Working Paper 26-27 using matched employer-employee administrative data and Quarterly Workforce Indicators tabulations",
+  "geography": "United States; industry-state cells, early-career workers ages 22-24, older workers, and AI-exposure quintiles",
+  "observations": [{
+    "period": "ChatGPT introduction through 2025 Q2; paper published April 2026",
+    "denominator": {"value": 1, "unit": "industry-state cell and worker-age-group administrative-data analysis", "value_type": "study_unit"},
+    "measures": {
+      "early_career_employment": {"value": "regression-adjusted employment declined 12% in the most AI-exposed quintile over the 10 quarters after ChatGPT's introduction", "unit": "employment level change", "value_type": "reported_estimate"},
+      "hiring": {"value": "the decline in hires was the primary cause of the subsequent employment decline", "unit": "reported mechanism", "value_type": "reported_relationship"},
+      "comparison": {"value": "employment in less AI-exposed industries remained stable over the comparison period", "unit": "relative employment pattern", "value_type": "reported_comparison"},
+      "recovery": {"value": "hiring largely recovered by early 2025, but from a smaller employment base", "unit": "later labor-market pattern", "value_type": "reported_trend"},
+      "earnings": {"value": "earnings growth for early-career workers in the most exposed industries slowed slightly relative to less exposed industries", "unit": "relative earnings growth", "value_type": "reported_comparison"},
+      "alternative_explanations": {"value": "COVID-era trend shifts, remote work, educational attainment, and monetary-policy shocks may explain part of the pattern but do not explain the rapid relative hiring decline in the most exposed firms", "unit": "study qualification", "value_type": "reported_interpretation"}
+    },
+    "method": "The author uses matched employer-employee administrative data, detailed industry-state AI-exposure cells, event studies, triple differences, local projections, and historical decomposition to compare early-career and older workers.",
+    "uncertainty": "This is a Census CES working paper and not a Census Bureau endorsement. AI exposure is an industry-state classification rather than verified firm-level AI use; the timing is consistent with an effect after ChatGPT but the paper also identifies earlier trend shifts and other macro explanations.",
+    "subgroup": "Early-career workers ages 22-24 compared with older workers in the same industries; effects vary by industry exposure and the source does not establish the full experience by race, gender, education, family resources, occupation, or local place.",
+    "counterinterpretation": "Hiring can respond to demand, interest rates, remote work, education, sector composition, or other post-pandemic changes. Lower entry hiring is not automatically permanent displacement; later recovery from a smaller base may represent delayed entry, sorting, scarring, or substitution, which this record does not resolve.",
+    "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-27.html",
+    "retrieval_hash": "sha256:bc4c7e6da652f79fd796aecc008ff1219138eff9c4a1cf44d3411160eec039c6",
+    "status": "estimated"
+  }],
+  "related_sources": [{"source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-27.pdf", "claim": "The official paper provides the QWI construction, event-study comparisons, exposure definition, and alternative-explanation tests.", "status": "official-paper-context"}],
+  "boundary": "This record adds an entry-to-work AI-exposure pathway distinct from firm adoption and college-major exposure. It does not establish individual automation, permanent displacement, lifetime scarring, or the distribution of gains and losses across households.",
+  "retrieval_hash": "sha256:bc4c7e6da652f79fd796aecc008ff1219138eff9c4a1cf44d3411160eec039c6"
+}

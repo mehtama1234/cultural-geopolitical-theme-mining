@@ -1,0 +1,98 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "randomized_medicaid_consumer_direction_caregiver_followup_record",
+  "purpose": "Bounded randomized support episode from Medicaid consumer-directed allowance to informal-caregiver wellbeing and financial-strain outcomes, preserving care-recipient, household, durability, and cultural-response gaps.",
+  "events": [
+    {
+      "event_id": "ASPE-CASH-COUNSELING-CAREGIVER-FOLLOWUP-2000-2003",
+      "unit": "person",
+      "geography": "United States; Arkansas, Florida, and New Jersey Medicaid demonstration",
+      "actor_initiating_change": "agency",
+      "event_date": "2002-01-01",
+      "date_precision": "study-period reference date; beneficiaries were randomized after baseline interviews and primary informal caregivers were interviewed about 10 months later across state-specific field periods",
+      "denominator": "Primary informal caregivers identified by participating beneficiaries at baseline; published state caregiver interview counts were 1,433 Arkansas, 1,193 Florida, and 1,042 New Jersey",
+      "method": "HHS/ASPE report using the Cash and Counseling randomized design, beneficiary-identified primary caregiver baseline information, and caregiver follow-up interviews",
+      "missingness": "Caregiver task hours, exact paid amount, recipient clinical outcome, employment/earnings, household buffers, provider alternatives, long-run persistence, trust, collective action, and exit are not retained in this compact record",
+      "condition_or_decision": "care_need",
+      "exposure": "A Medicaid beneficiary with a primary informal caregiver was randomized to consumer-directed Cash and Counseling support or usual personal-care/home-and-community-based services",
+      "alternatives_before_action": "Usual services, consumer-directed hiring, other family help, paid replacement, respite, and non-use were possible routes; the compact record does not observe each caregiver's feasible option set",
+      "immediate_burden_or_benefit": "The consumer-directed allowance changed the service-control and payment route available to the beneficiary and caregiver",
+      "choice_or_response": "Treatment beneficiaries could adjust service amount, timing, and type, hire the primary caregiver, name the caregiver as decision maker, or purchase assistive devices/home modifications",
+      "person_or_actor_with_control": "The program and beneficiary controlled the allowance and service direction; caregivers could be hired or remain unpaid, while the recipient's needs and household alternatives constrained practical control",
+      "remedy_or_institutional_response": "Medicaid consumer direction supplied a monthly allowance and counseling/support route in place of relying only on usual service delivery",
+      "remedy_stage": "remedy_implemented",
+      "remedy_receipt": "Treatment assignment and caregiver follow-up are observed at study level; individual allowance receipt, spending, payment timing, and completed service use are not retained in this compact record",
+      "durability_followup": "Caregiver outcomes were measured about 10 months later; longer-run care continuity, household security, recipient health, and recurrence remain open",
+      "immediate_outcome": "Across the three states, treatment and paid-caregiver routes improved selected caregiver wellbeing, satisfaction, and perceived financial-strain measures relative to usual-service controls; effects were not uniform across every outcome",
+      "protected_outcome": "Consumer direction could reduce caregiver strain, improve control over service timing/type, and make some caregivers' physical or emotional burden more manageable",
+      "sacrificed_outcome": "Residual unpaid labor, care coordination, health risk, household time, and financial exposure may remain; the study does not establish that all burdens disappeared",
+      "cost_risk_transfer": "Consumer direction can move control toward the beneficiary and caregiver, but it can also leave service coordination and care risk inside the household",
+      "later_outcome": "The report supplies a roughly 10-month caregiver follow-up but not long-run employment, earnings, recipient safety/health, care continuity, trust, political action, or exit",
+      "meaning_and_attribution": "Caregiver satisfaction and perceived strain are measured, but broader fairness, dignity, identity, blame, or institutional legitimacy are not retained as a cultural-response endpoint",
+      "public_or_collective_response": "No collective or political response is measured",
+      "counterexample": "A support program can improve caregiver wellbeing without proving restored caregiver employment, complete recipient recovery, or elimination of unpaid care",
+      "evidence_status": "estimated",
+      "source_and_uncertainty": "HHS/ASPE, How Cash and Counseling Affects Informal Caregivers: Findings from Arkansas, Florida and New Jersey, 2005; randomized assignment supports treatment contrasts, but caregiver outcomes and state-specific implementation are study-bound",
+      "source_url": "https://aspe.hhs.gov/sites/default/files/migrated_legacy_files/41886/ICaffect.pdf"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "ASPE-CASH-COUNSELING-A-01",
+      "from": "randomized consumer-directed Medicaid allowance",
+      "to": "beneficiary/caregiver control over service amount, timing, and type",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The ASPE report describes random assignment to Cash and Counseling or usual services and identifies the treatment mechanisms as hiring, decision-making, service adjustment, and assistive-device/home-modification purchase",
+      "status": "estimated",
+      "counterexample": "Assignment does not mean every beneficiary used the allowance or changed service use in the same way",
+      "remaining_gap": "Individual take-up, spending, service use, payment timing, and care-plan completion"
+    },
+    {
+      "arrow_id": "ASPE-CASH-COUNSELING-A-02",
+      "from": "consumer-directed support",
+      "to": "caregiver wellbeing and perceived financial-strain improvement",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "ASPE reports that treatment caregivers fared better than controls on at least half of 15 key wellbeing and satisfaction measures and that the intervention alleviated perceived financial strain in all three states",
+      "status": "estimated",
+      "counterexample": "Effects differed across outcomes and states; the intervention did not discernibly change caregiver household income",
+      "remaining_gap": "Outcome-specific effect sizes, take-up, caregiver task intensity, and household resource mediation"
+    },
+    {
+      "arrow_id": "ASPE-CASH-COUNSELING-A-03",
+      "from": "consumer-directed support with caregiver payment",
+      "to": "larger emotional-strain and physical-health improvement",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The report states that paid treatment-group caregivers showed better outcomes than controls on important emotional-strain and physical-health measures, with effects generally larger than among unpaid treatment caregivers",
+      "status": "estimated",
+      "counterexample": "Payment may select or enable different care arrangements; the compact public result does not identify the mechanism or exact amount",
+      "remaining_gap": "Paid hours, wage/allowance amount, care substitution, task reduction, and longer-term health/work outcomes"
+    },
+    {
+      "arrow_id": "ASPE-CASH-COUNSELING-A-04",
+      "from": "caregiver support and reduced perceived strain",
+      "to": "care-recipient continuity, household security, and durable recovery",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The caregiver follow-up measures caregiver outcomes, but the compact report does not join caregiver change to recipient clinical outcomes, household earnings, later care continuity, or long-run security",
+      "status": "open",
+      "counterexample": "Caregiver relief can coexist with unmet recipient need, new household costs, or later service loss",
+      "remaining_gap": "Same beneficiary-caregiver pair, completed service, recipient safety/health, household resources, and persistence"
+    },
+    {
+      "arrow_id": "ASPE-CASH-COUNSELING-A-05",
+      "from": "consumer-directed care support",
+      "to": "trust, collective action, switching, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The ASPE report does not measure institutional attribution, political response, collective organizing, provider switching, or care-route exit",
+      "status": "open",
+      "counterexample": "A recipient or caregiver may experience improved control without changing institutional trust or public behavior",
+      "remaining_gap": "Meaning, legitimacy, action, provider choice, non-use, and exit"
+    }
+  ],
+  "boundary": "This ledger adds a randomized care-support-to-caregiver-wellbeing segment. It does not establish that every beneficiary or caregiver took up the allowance, that recipient care was completed or adequate, or that household recovery, trust, action, or exit followed.",
+  "storage_boundary": "Only the public ASPE report's study-level design, sample counts, and bounded outcome statements are retained; no beneficiary, caregiver, Medicaid, or claims microdata are stored."
+}

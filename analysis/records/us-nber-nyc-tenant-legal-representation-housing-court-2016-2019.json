@@ -1,0 +1,75 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-nyc-tenant-legal-representation-housing-court-2016-2019",
+  "title": "A lawyer can change an eviction case even when the rent problem remains",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "public_systems_feedback",
+    "consumer_power_recourse",
+    "unequal_exposure_status",
+    "time_hidden_price",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 29836, Cassidy and Currie, using detailed New York City housing-court records and the staggered rollout of the Universal Access to Counsel program from 2016 through 2019",
+  "geography": "New York City housing-court cases filed at addresses in rollout and comparison zip codes; low-income tenants targeted by the program",
+  "observations": [
+    {
+      "period": "2016-2019 New York City housing-court cases",
+      "denominator": {"value": 727692, "unit": "housing-court cases in the main administrative sample", "value_type": "reported_case_count"},
+      "measures": {
+        "program": {"value": "free legal representation for tenants at or below 200% of the federal poverty guideline", "unit": "Universal Access to Counsel eligibility and rollout", "value_type": "reported_program_rule"},
+        "identification": {"value": "program rollout in a tenant's zip code at the time of filing used to identify the effect of gaining counsel", "unit": "instrumental-variable design", "value_type": "reported_method"},
+        "data": {"value": "address-level court records with case outcomes", "unit": "administrative source", "value_type": "reported_data_source"}
+      },
+      "method": "The study combines housing-court records with staggered program rollout and estimates the effect of tenant counsel using ordinary least squares and instrumental-variable specifications with fixed effects.",
+      "uncertainty": "The causal estimates apply to the cases and rollout setting observed in New York City; the main and instrumental-variable samples differ, and the design does not cover tenants who never entered court.",
+      "subgroup": "Low-income tenants in New York City housing court; effects are examined across neighborhood poverty and noncitizen composition.",
+      "counterinterpretation": "Court representation may change case processing or delay a judgment without solving arrears, rent affordability, landlord conditions, or the household's later housing situation.",
+      "source_url": "https://www.nber.org/papers/w29836",
+      "retrieval_hash": "sha256:3300944e6d94bfda3b80f8fd02126aca32605b2ea87c933e95742dd3a51526de",
+      "status": "estimated"
+    },
+    {
+      "period": "Universal Access rollout and housing-court outcomes",
+      "denominator": {"value": 456788, "unit": "cases in the address-fixed-effects instrumental-variable sample", "value_type": "reported_case_count"},
+      "measures": {
+        "judgment_with_possession": {"value": "tenant counsel reduced the probability by about 33.4 percentage points in the main IV specification", "unit": "estimated case-outcome effect", "value_type": "reported_iv_estimate"},
+        "log_judgment_amount": {"value": "tenant counsel reduced log judgment amount by about 2.519 in the main IV specification", "unit": "estimated monetary-judgment effect", "value_type": "reported_iv_estimate"},
+        "warrant_issued": {"value": "tenant counsel reduced the probability by about 34.0 percentage points in the main IV specification", "unit": "estimated eviction-warrant effect", "value_type": "reported_iv_estimate"},
+        "warrant_executed": {"value": "the estimated reduction was smaller and not consistently statistically significant in the full sample", "unit": "estimated physical-eviction effect", "value_type": "reported_mixed_effect"}
+      },
+      "method": "Instrumental-variable estimates use program rollout as the instrument for receiving tenant counsel and include address, zip-code, borough-by-month, and other covariate controls as specified by the paper.",
+      "uncertainty": "The figures are model estimates, not simple percentages of all New York tenants; the execution result is less stable than the earlier court stages.",
+      "subgroup": "Tenant defendants in the study's linked housing-court sample; possession judgments, monetary judgments, warrants, and executed warrants are separate stages.",
+      "counterinterpretation": "A lower warrant or judgment rate does not establish that every represented tenant remained housed, paid less overall, or avoided a later move or debt.",
+      "source_url": "https://www.nber.org/system/files/working_papers/w29836/w29836.pdf",
+      "retrieval_hash": "sha256:3300944e6d94bfda3b80f8fd02126aca32605b2ea87c933e95742dd3a51526de",
+      "status": "estimated"
+    },
+    {
+      "period": "Neighborhood differences in the estimated counsel effect",
+      "denominator": {"value": null, "unit": "study subgroups defined by neighborhood poverty and noncitizen composition", "value_type": "not_disclosed"},
+      "measures": {
+        "heterogeneity": {"value": "effects were larger in poorer places and places with larger shares of noncitizens", "unit": "reported subgroup comparison", "value_type": "reported_heterogeneity"},
+        "later_household_path": {"value": "not observed after the housing-court records end", "unit": "missing rent, move, work, health, credit, and later housing outcomes", "value_type": "unmeasured"}
+      },
+      "method": "Subgroup analysis within the New York City court-record study; the source does not link the court cases to a later household panel.",
+      "uncertainty": "The subgroup pattern may reflect differences in case mix, neighborhood institutions, landlord behavior, counsel access, or other place characteristics; it is not a universal estimate of program targeting returns.",
+      "subgroup": "Cases in relatively poorer neighborhoods and neighborhoods with larger shares of noncitizen residents.",
+      "counterinterpretation": "Stronger court effects in some neighborhoods do not prove that those tenants had better long-term housing security; a court win can coexist with unaffordable rent or later displacement.",
+      "source_url": "https://www.nber.org/papers/w29836",
+      "retrieval_hash": "sha256:3300944e6d94bfda3b80f8fd02126aca32605b2ea87c933e95742dd3a51526de",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://economics.princeton.edu/working-papers/the-effects-of-legal-representation-on-tenant-outcomes-in-housing-court-evidence-from-new-york-citys-universal-access-program/", "claim": "Princeton's research summary describes the rollout, court outcomes, and larger effects in poorer and higher-noncitizen neighborhoods.", "status": "research-summary-context"}
+  ],
+  "boundary": "This record shows that tenant legal representation changed measured housing-court judgments, monetary judgments, and eviction-warrant outcomes in New York City. It does not show that the underlying rent problem disappeared, that every tenant remained housed, or what happened to the same tenants' later work, health, credit, schooling, or housing choices.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER working-paper PDF used for the extracted findings; the address-level court data and full replication are not locally reproduced.",
+    "pdf_sha256": "sha256:3300944e6d94bfda3b80f8fd02126aca32605b2ea87c933e95742dd3a51526de",
+    "checked": "2026-09-22"
+  }
+}

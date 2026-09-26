@@ -15,3 +15,11 @@ Transportation is the part of household energy cost that the basic LEAD measure 
 ## Decision rule
 
 Move on after one spending measure, one time or access measure, one place comparison and a clear next test. Do not treat a national average as the cost faced by every household.
+
+## Added finding
+
+The [congestion-pricing and EMS finding](findings/us-transportation-household-access-002.md)
+shows that New York City's congestion charge reduced measured emergency medical
+service travel time near the pricing-zone boundary. The result is a service-
+speed improvement, not proof of better patient outcomes or fair household
+burden.

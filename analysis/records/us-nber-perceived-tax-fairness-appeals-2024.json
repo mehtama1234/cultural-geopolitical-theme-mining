@@ -1,0 +1,31 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-perceived-tax-fairness-appeals-2024",
+  "title": "Perceived fairness of others' tax payments changes tax appeals and willingness to contribute",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": ["household_room_consumption", "trust_identity_meaning", "political_judgment_action", "public_systems_feedback", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 32588; U.S. property-tax information-disclosure field experiment",
+  "geography": "United States; households subject to a local property-tax appeal process",
+  "observations": [
+    {
+      "period": "Property-tax information experiment; working paper issued June 2024 and revised July 2025",
+      "denominator": {"value": null, "unit": "households in the study's property-tax field experiment; exact denominator is source-defined", "value_type": "not_disclosed"},
+      "measures": {
+        "fairness": {"value": "higher perceived average tax rates paid by others increased perceived fairness", "unit": "reported experimental perception effect", "value_type": "reported_experimental_effect"},
+        "tax_appeal": {"value": "higher perceived average tax rates reduced the likelihood of filing a tax appeal", "unit": "reported institutional-action effect", "value_type": "reported_experimental_effect"},
+        "contribution_elasticity": {"value": 0.43, "unit": "additional dollars an individual taxpayer was willing to contribute for each additional dollar paid by the average household", "value_type": "reported_estimate"}
+      },
+      "method": "Natural field experiment disclosing information about the average tax rate paid by other households; the treatment shifted perceptions of peer contribution and was linked to tax-appeal behavior.",
+      "uncertainty": "The experiment studies a local property-tax setting and a specific information treatment. Reduced appeal is not the same as higher payment, compliance, trust, political participation, or improved household welfare. The treatment informs respondents about average rates but not why rates differ from their own, and the source does not establish durable belief change or generalization to other taxes.",
+      "subgroup": "U.S. property-tax households in the study setting; treatment and local institutional context define the relevant population.",
+      "counterinterpretation": "Information about others' average payments may change comparative fairness perceptions without changing beliefs about public services, ability to pay, assessment accuracy, or the tax system's legitimacy. A lower appeal rate could reflect acceptance, resignation, or a different route of contestation.",
+      "source_url": "https://www.nber.org/papers/w32588",
+      "retrieval_hash": "sha256:6dd2f1968677a1b7c2ecb3f5f01663495775fc5b2348d93a376ed0470c948cca",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w32588", "claim": "NBER DOI record for Working Paper 32588", "status": "official-paper-identifier"}
+  ],
+  "boundary": "This record adds a fairness-perception-to-institutional-action pathway: information about others' tax contributions changes perceived fairness and tax-appeal behavior in a property-tax setting. It does not establish payment, tax compliance, public-service trust, political participation, durable legitimacy, or household security."
+}

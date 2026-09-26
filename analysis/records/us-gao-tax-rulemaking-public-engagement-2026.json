@@ -1,0 +1,110 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-tax-rulemaking-public-engagement-2026",
+  "title": "A public comment route can exist while participation and agency learning remain uneven",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "platforms_data_attention",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. Government Accountability Office GAO-26-108115 review of Treasury and IRS tax rulemaking, economic analysis, and taxpayer engagement",
+  "geography": "United States Treasury and Internal Revenue Service rulemaking",
+  "observations": [
+    {
+      "period": "January 21, 2017-March 31, 2026; tax regulations",
+      "denominator": {
+        "value": 1,
+        "unit": "Treasury and IRS rulemaking activity reviewed by GAO",
+        "value_type": "source_defined_review_universe"
+      },
+      "measures": {
+        "regulations_proposed": {"value": 236, "unit": "proposed tax regulations", "value_type": "reported_count"},
+        "regulations_finalized": {"value": 231, "unit": "finalized tax regulations", "value_type": "reported_count"},
+        "economically_significant_regulations": {"value": 28, "unit": "regulations designated economically significant in the period", "value_type": "reported_count"},
+        "comment_route": {"value": "generally provided", "unit": "agency opportunity for public comment", "value_type": "reported_status"}
+      },
+      "method": "GAO quantitative review of tax regulations, review of four selected economic analyses, random sample of 10 proposed regulations, and comparison of public engagement procedures with leading practices.",
+      "uncertainty": "Counts describe the reviewed rulemaking universe, while the detailed economic-analysis and engagement findings come from selected samples; the report does not provide a national representation or influence estimate.",
+      "subgroup": "Treasury and IRS rulemaking officials, public commenters, hearing participants, and taxpayers as the affected public; individual participation characteristics are not fully observed.",
+      "counterinterpretation": "A formal comment route can still provide meaningful input for some rules even when hearing access, documentation, and analytical practices are uneven.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108115/index.html",
+      "retrieval_hash": "sha256:48b10b1ee8991fa536be1c68f120334f48793c38b508d659b783a69274bd09b6",
+      "status": "reported"
+    },
+    {
+      "period": "2017-2026; random sample of 10 proposed tax regulations",
+      "denominator": {
+        "value": 10,
+        "unit": "proposed regulations randomly selected by GAO from 231 proposed regulations",
+        "value_type": "selected_sample"
+      },
+      "measures": {
+        "notice_and_comment": {"value": "10 of 10", "unit": "sampled proposed regulations with notice-and-comment procedures", "value_type": "reported_count"},
+        "median_comment_period": {"value": 61.5, "unit": "days", "value_type": "reported_median"},
+        "comment_volume_range": {"value": "five or fewer to 11,050", "unit": "comments received across sampled regulations", "value_type": "reported_range"},
+        "hearing_virtual_access": {"value": "dial-in rather than broadly available video conferencing", "unit": "reported participation condition", "value_type": "reported_status"},
+        "hearing_documentation": {"value": "not always documented", "unit": "reported public-hearing record condition", "value_type": "reported_status"}
+      },
+      "method": "GAO random sample of proposed regulations and review of notice, comment, and hearing procedures.",
+      "uncertainty": "The sample does not show who participated, who could not participate, the substance or representativeness of comments, or whether any comment changed a final rule.",
+      "subgroup": "Public commenters and hearing participants in the selected rulemaking sample.",
+      "counterinterpretation": "A 61.5-day formal period and comment opportunity can provide a real avenue for input; access and documentation weaknesses do not prove that no public influence occurred.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108115/index.html",
+      "retrieval_hash": "sha256:48b10b1ee8991fa536be1c68f120334f48793c38b508d659b783a69274bd09b6",
+      "status": "reported"
+    },
+    {
+      "period": "2017-2026; four selected economically significant tax regulations",
+      "denominator": {
+        "value": 4,
+        "unit": "selected final regulations reviewed against OMB economic-analysis practices",
+        "value_type": "selected_sample"
+      },
+      "measures": {
+        "alternatives_analysis": {"value": "consistently used", "unit": "OMB-recommended practice", "value_type": "reported_status"},
+        "specific_cost_benefit_estimates": {"value": "less consistently used", "unit": "OMB-recommended practice", "value_type": "reported_status"},
+        "specific_revenue_estimates": {"value": "less consistently used", "unit": "OMB-recommended practice", "value_type": "reported_status"},
+        "summary_accounting_statement": {"value": "not addressed for the four reviewed regulations", "unit": "recommended practice", "value_type": "reported_status"}
+      },
+      "method": "GAO comparison of four selected final tax regulations with OMB Circular A-4 recommended economic-analysis practices.",
+      "uncertainty": "The four cases were selected for relevance and are not a representative sample; analytical practice does not itself establish which regulatory design was socially or fiscally best.",
+      "subgroup": "Economically significant Treasury and IRS regulations reviewed by GAO.",
+      "counterinterpretation": "Consistent analysis of alternatives can improve regulatory design even when cost, benefit, and revenue estimates are incomplete.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108115/index.html",
+      "retrieval_hash": "sha256:48b10b1ee8991fa536be1c68f120334f48793c38b508d659b783a69274bd09b6",
+      "status": "reported"
+    },
+    {
+      "period": "2026; AI-assisted and mass public comments",
+      "denominator": {
+        "value": 1,
+        "unit": "GAO oversight assessment of Treasury and IRS preparedness for emerging comment-volume and AI-writing conditions",
+        "value_type": "source_defined_review_universe"
+      },
+      "measures": {
+        "mass_comment_policy": {"value": "not developed", "unit": "policy for identifying and documenting mass comments, including AI-assisted comments", "value_type": "reported_status"},
+        "administrative_challenge": {"value": "near-duplicate comments can be harder to identify", "unit": "reported consequence of AI-assisted comment generation", "value_type": "reported_finding"},
+        "recommendations": {"value": 6, "unit": "GAO recommendations to improve analysis, comment handling, virtual participation, and documentation", "value_type": "reported_count"}
+      },
+      "method": "GAO review of rulemaking procedures and emerging technology implications.",
+      "uncertainty": "The report does not measure the prevalence of AI-generated comments, distinguish genuine independent views from coordinated submissions, or show how agencies would respond in a particular rule.",
+      "subgroup": "Treasury and IRS rulemaking administrators and members of the public submitting comments.",
+      "counterinterpretation": "AI can lower participation costs and enable more people to express a view; the administrative problem is how to preserve meaningful representation while processing scale.",
+      "source_url": "https://files.gao.gov/reports/GAO-26-108115/index.html",
+      "retrieval_hash": "sha256:48b10b1ee8991fa536be1c68f120334f48793c38b508d659b783a69274bd09b6",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gao.gov/products/gao-26-108115",
+      "claim": "GAO's product page provides report metadata and recommendation status.",
+      "status": "official-report-context"
+    }
+  ],
+  "boundary": "This record measures formal rulemaking opportunity, selected comment and hearing conditions, economic-analysis practices, and AI/mass-comment preparedness. It does not establish public representation, comment influence on final rules, taxpayer burden or benefit, trust change, or political legitimacy.",
+  "retrieval_hash": "sha256:48b10b1ee8991fa536be1c68f120334f48793c38b508d659b783a69274bd09b6"
+}

@@ -1,0 +1,79 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-economic-forecast-policy-preferences-2026",
+  "title": "AI forecasts differ mainly over economic consequences and produce distinct policy preferences across expert and public groups",
+  "theme_ids": ["work", "voice", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "NBER Working Paper 35046 survey of five groups forecasting the economic effects of AI",
+  "geography": "United States; forecasts and policy preferences from academic economists, AI-company employees, AI policy researchers, highly accurate forecasters, and the general public",
+  "observations": [
+    {
+      "period": "2026; forecasts elicited across five respondent groups",
+      "denominator": {
+        "value": 5,
+        "unit": "respondent groups compared in the forecasting study",
+        "value_type": "selected_group_universe"
+      },
+      "measures": {
+        "near_term_ai_expectation": {
+          "value": "the median respondent in each group expects substantial advances in AI capabilities by 2030",
+          "unit": "forecast consensus across five groups",
+          "value_type": "reported_forecast"
+        },
+        "baseline_growth_expectation": {
+          "value": "2.5% annual GDP growth expected by the median respondent, above typical medium-run 2.0% and long-run 1.7% government/private forecasts",
+          "unit": "annual GDP growth forecast",
+          "value_type": "reported_forecast"
+        },
+        "rapid_progress_growth": {
+          "value": "around 4% annualized GDP growth under a rapid-AI-progress scenario",
+          "unit": "conditional annualized GDP growth forecast",
+          "value_type": "conditional_forecast"
+        },
+        "rapid_progress_labor_force": {
+          "value": "labor-force participation forecast to fall from 62% currently to 55% by 2050, with roughly half the decline attributed to AI and equivalent to about 10 million lost jobs",
+          "unit": "conditional labor-market forecast",
+          "value_type": "conditional_forecast"
+        },
+        "disagreement_source": {
+          "value": "expert disagreement is driven primarily by beliefs about the economic effects of highly capable AI rather than disagreement about the pace of AI progress",
+          "unit": "variance-decomposition result",
+          "value_type": "reported_inference"
+        },
+        "policy_preference_split": {
+          "value": "experts strongly favor targeted worker retraining, while the general public supports targeted programs plus broader interventions including a job guarantee and universal basic income",
+          "unit": "reported policy-preference contrast",
+          "value_type": "reported_comparison"
+        }
+      },
+      "method": "Survey-based elicitation of forecasts and policy preferences across five respondent groups, with a variance decomposition of disagreement and conditional rapid-progress scenario analysis.",
+      "uncertainty": "These are beliefs and conditional forecasts, not observed AI effects. The abstract does not establish the full response counts, question wording, calibration error, policy implementation, or whether forecasts change behavior.",
+      "subgroup": "Academic economists, AI-company employees, AI policy researchers, highly accurate forecasters, and the general public; workers and households appear as forecasted populations rather than linked outcomes.",
+      "counterinterpretation": "Forecast disagreement can reflect informed uncertainty rather than ideology, and policy preferences may respond to values or distributional concerns unrelated to the numerical forecast; rapid-progress assumptions may not occur.",
+      "source_url": "https://www.nber.org/papers/w35046",
+      "retrieval_hash": "sha256:1ae63028259b62e4fe941b3b3b8b732e74fe6fefa265740966d7b34ba35363f6",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35046",
+      "claim": "NBER DOI record for the working paper.",
+      "status": "primary-source"
+    },
+    {
+      "source_url": "https://www.nber.org/system/files/working_papers/w35046/w35046.pdf",
+      "claim": "Official working-paper PDF for survey and forecast details.",
+      "status": "primary-source"
+    }
+  ],
+  "boundary": "This record measures expectations, disagreement, and policy preferences about AI under stated scenarios. It does not establish realized productivity, employment, labor-force participation, GDP, retraining, job-guarantee, UBI, household welfare, or political action.",
+  "retrieval_hash": "sha256:1ae63028259b62e4fe941b3b3b8b732e74fe6fefa265740966d7b34ba35363f6"
+}

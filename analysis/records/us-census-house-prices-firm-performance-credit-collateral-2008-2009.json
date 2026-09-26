@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-census-house-prices-firm-performance-credit-collateral-2008-2009",
+  "title": "A housing crash can reach young firms through both bank credit and owners' collateral",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "housing_place_mobility",
+    "firm_sector_market_power",
+    "household_room_consumption",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "work_control_bargaining"
+  ],
+  "source_unit": "Census Bureau Center for Economic Studies working paper combining confidential business microdata with housing and banking data during the Great Recession",
+  "geography": "United States local housing and banking markets during the Great Recession",
+  "observations": [
+    {
+      "period": "Great Recession; paper published January 2026",
+      "denominator": {
+        "value": null,
+        "unit": "study-defined U.S. businesses, including young and older firms, in linked business, housing, and banking data; exact public abstract denominator not disclosed",
+        "value_type": "not_disclosed"
+      },
+      "measures": {
+        "small_business_employment": {
+          "value": "local house prices had large and persistent effects on employment at small businesses",
+          "unit": "reported local firm outcome",
+          "value_type": "reported_relationship"
+        },
+        "young_firm_exposure": {
+          "value": "young businesses were disproportionately affected, with entry and exit important to the pattern",
+          "unit": "reported firm-age heterogeneity",
+          "value_type": "reported_subgroup_pattern"
+        },
+        "personal_assets_and_home_equity": {
+          "value": "reliance on personal assets or home equity was associated with increased sensitivity to house prices",
+          "unit": "reported channel evidence",
+          "value_type": "reported_relationship"
+        },
+        "local_credit_shock": {
+          "value": "young and old firms were sensitive to local credit shocks, with some evidence of a larger effect on young firms",
+          "unit": "reported banking-channel evidence",
+          "value_type": "reported_relationship"
+        },
+        "channels": {
+          "value": "the model is consistent with both a bank credit-supply channel and a housing-collateral channel",
+          "unit": "reported model interpretation",
+          "value_type": "model_consistent_channels"
+        }
+      },
+      "method": "Census CES working paper combining confidential business-level microdata with housing and banking data to estimate local house-price effects on firm outcomes, survey evidence on personal assets and home equity, local bank balance-sheet evidence on credit shocks, and a macroeconomic model.",
+      "uncertainty": "This is a working paper. The public abstract does not provide the full geographic sample, house-price measure, firm definitions, estimates, or all identification assumptions. The model's two channels are an interpretation consistent with the evidence, not proof that every firm experienced both channels equally.",
+      "subgroup": "Small and young U.S. businesses, compared with older firms, in local housing and banking markets during the Great Recession.",
+      "counterinterpretation": "House prices may proxy for local demand, construction, migration, expectations, or other shocks. Personal assets and home equity can affect both firm choice and resilience. Firm employment effects do not establish worker pay, survival for every firm, consumer outcomes, or household welfare. Credit relief, fiscal support, or alternative finance may alter the route.",
+      "source_url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-03.html",
+      "retrieval_hash": "sha256:9a5f08a391c6d8dcb771f224f876aaa6ac5b0151ff7afb65fee961af2c601528",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://lehd.ces.census.gov/applications/creat/paper-profile/1388",
+      "claim": "The Census Research Exploration and Analysis Tool provides the paper profile and summarizes the collateral and local-bank channels.",
+      "status": "official-catalog-context"
+    },
+    {
+      "source_url": "https://www2.census.gov/library/working-papers/2026/adrm/ces/CES-WP-26-03.pdf",
+      "claim": "The official paper PDF provides the Great Recession and linked-data context.",
+      "status": "official-paper-context"
+    }
+  ],
+  "boundary": "This record adds a bounded house-price-to-firm-employment pathway through credit and collateral. It does not establish one universal housing-crash mechanism, worker welfare, firm survival for all businesses, consumer effects, or household recovery.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Census CES-26-03 landing page, official CREAT profile, and paper PDF metadata reviewed; underlying confidential business, housing, and banking records are not retained",
+    "checked": "2026-09-22"
+  }
+}

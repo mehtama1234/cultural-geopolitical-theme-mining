@@ -1,0 +1,34 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-elite-political-selection-family-origins-2026",
+  "title": "Political office has remained socially selective across US history",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": ["political_judgment_action", "trust_identity_meaning", "unequal_exposure_status", "public_systems_feedback", "firm_sector_market_power"],
+  "source_unit": "NBER Working Paper 35569, Fortunate Sons: Elite Political Selection in American History, linking historical Members of Congress and family records",
+  "geography": "United States; Members of Congress born 1830–1950 and matched historical census records",
+  "observations": [
+    {
+      "period": "1830–1950 birth cohorts; historical congressional selection",
+      "denominator": {"value": null, "unit": "Historical Members of Congress and matched census controls; exact public-abstract counts are not retained", "value_type": "not_disclosed"},
+      "measures": {
+        "economic_origin": {"value": "Future Members of Congress were economic outliers and came from more advantaged families than matched controls", "unit": "historical comparative association", "value_type": "reported_comparison"},
+        "education_gap": {"value": "By 1940, close to 60% of Members aged 18–40 held a college degree versus under 5% of comparable young men outside Congress", "unit": "share comparison", "value_type": "reported_estimate"},
+        "family_background_gap": {"value": "The family-background gap held or widened across cohorts; roughly half of the adult economic premium was shared with a brother and half was individual", "unit": "historical family comparison", "value_type": "reported_pattern"},
+        "reform_test": {"value": "Women's suffrage, secret ballot, direct primaries, and direct election of senators produced no detectable shift in who reached Congress in the study's tests", "unit": "historical reform estimate", "value_type": "reported_null"}
+      },
+      "method": "The study links Members of Congress, parents, and brothers to complete-count censuses and tests reforms using historical comparisons and close-election designs; this record retains the abstract-level results without reconstructing the full sample or estimates.",
+      "uncertainty": "The public abstract does not expose all sample construction, measurement choices, effect sizes, or the full set of controls. Historical selection patterns do not identify present-day mechanisms, and a reform null does not prove that institutions never changed access through other channels.",
+      "subgroup": "Members of Congress by birth cohort, family background, education, wealth, and reform-era comparison; matched controls and exact subgroup counts remain paper-specific.",
+      "counterinterpretation": "Family resources may reflect education, information, networks, geographic opportunity, or selection into politics rather than a single inherited mechanism. Elite origins do not by themselves show poor representation, corruption, or identical policy views across parties.",
+      "source_url": "https://www.nber.org/papers/w35569",
+      "retrieval_hash": "sha256:14e65cb15ae61e4827f7bcd05ab84d5ac0d80032bb333383d1e2d678d5396688",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://doi.org/10.3386/w35569", "claim": "NBER DOI and working-paper metadata.", "status": "official-metadata"},
+    {"source_url": "projects/comparative-elite-networks-political-access/findings/us-nber-elite-political-selection-family-origins-2026-001.md", "claim": "Repository finding preserves the historical selection result and its transfer boundary.", "status": "repository-finding"}
+  ],
+  "boundary": "This record supports a historical US political-selection pattern: family origin and socioeconomic advantage are overrepresented among Members of Congress, and selected Progressive-Era reforms did not visibly alter that composition in the study's tests. It does not establish current representativeness, present-day causal mechanisms, constituent treatment, policy quality, public trust, or political action by ordinary citizens.",
+  "reproduction_audit": {"retrieval_hash_scope": "Official NBER working-paper landing page and public abstract; full paper, code, historical microdata, and linked census extracts are not retained.", "page_sha256": "sha256:14e65cb15ae61e4827f7bcd05ab84d5ac0d80032bb333383d1e2d678d5396688", "checked": "2026-09-23"}
+}

@@ -1,0 +1,70 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-creative-economy-digital-cultural-trade-2024",
+  "title": "Creative trade is expanding through digital services while cultural production and value capture remain concentrated",
+  "theme_ids": ["voice", "time", "cost"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "UN Trade and Development Creative Economy Outlook 2024",
+  "geography": "Global creative goods and services trade, with developing-country and sector comparisons",
+  "observations": [
+    {
+      "period": "2010 to 2022; UNCTAD creative economy trade comparison",
+      "denominator": {
+        "value": 100,
+        "unit": "global creative-goods and services export share base; definitions and reference years vary by indicator",
+        "value_type": "comparative_trade_share_base"
+      },
+      "measures": {
+        "developing_country_share_creative_exports_2010": {"value": 10, "unit": "percent of global creative-goods and services exports in 2010", "value_type": "reported_global_share"},
+        "developing_country_share_creative_exports_2022": {"value": 20, "unit": "percent of global creative-goods and services exports in 2022", "value_type": "reported_global_share"},
+        "creative_services_software_export_share": {"value": 41.3, "unit": "percent of most-exported creative services in 2022 attributed to software services", "value_type": "reported_sector_share"},
+        "creative_services_rd_export_share": {"value": 30, "unit": "percent of most-exported creative services in 2022 attributed to research and development", "value_type": "reported_sector_share_approximate"},
+        "creative_services_advertising_architecture_share": {"value": 15.5, "unit": "percent of most-exported creative services in 2022 attributed to advertising, market research, and architecture", "value_type": "reported_sector_share"},
+        "creative_services_cultural_recreational_heritage_share": {"value": 0.6, "unit": "percent of most-exported creative services in 2022 attributed to cultural, recreational, and heritage services", "value_type": "reported_sector_share"}
+      },
+      "method": "UNCTAD compiles creative-economy trade statistics and sectoral comparisons across countries, distinguishing creative goods and services and emphasizing definitional and data-availability limits.",
+      "uncertainty": "Creative-economy definitions, classifications, data coverage, and reference years are not fully comparable across countries. Export share is not the same as domestic cultural participation, worker income, firm profitability, creative autonomy, or equitable value capture.",
+      "subgroup": "Developing and developed economies, creative-service sectors, creative firms and workers, cultural producers, digital platforms, and consumers of creative goods and services.",
+      "counterinterpretation": "A rising developing-country export share can reflect software and business services rather than locally controlled cultural production. Digital exports can widen market access while also increasing platform dependence, IP concentration, and exposure to demand or infrastructure shocks.",
+      "source_url": "https://unctad.org/publication/creative-economy-outlook-2024",
+      "retrieval_hash": "sha256:c56b120660b664817a67306a186760d14aac0fa2940fabd345c8c312c54015e3",
+      "status": "reported"
+    },
+    {
+      "period": "2022 and recent digitalization trends summarized in UNCTAD Creative Economy Outlook 2024",
+      "denominator": {
+        "value": 100,
+        "unit": "global creative-industry revenue or digital-use comparison base; source-specific measures use distinct denominators",
+        "value_type": "source_defined_market_share_base"
+      },
+      "measures": {
+        "streaming_share_global_music_revenue": {"value": 67.3, "unit": "percent of global music revenue streams attributed to streaming services", "value_type": "reported_market_share"},
+        "creative_economy_ai_pathway": {"value": "creation, distribution, and consumption", "unit": "reported digital-transformation pathways affected by AI", "value_type": "reported_mechanism"},
+        "newsroom_ai_illustrative_art_use": {"value": 41, "unit": "percent of news teams reported as using AI to create illustrative art in the cited source", "value_type": "reported_sector_share"},
+        "newsroom_ai_social_content_use": {"value": 39, "unit": "percent of news teams reported as using AI for social-media content in the cited source", "value_type": "reported_sector_share"},
+        "newsroom_ai_article_generation_use": {"value": 38, "unit": "percent of news teams reported as using AI for writing or generating articles in the cited source", "value_type": "reported_sector_share"}
+      },
+      "method": "The report reviews digital distribution, streaming, AI use, creative business models, and changing production and consumption relationships across creative sectors.",
+      "uncertainty": "The digital indicators draw on different sector studies and may not represent all firms or countries. Reported AI use does not show output quality, labor displacement, compensation, copyright outcomes, audience welfare, or consumer choice.",
+      "subgroup": "Music and audiovisual markets, newsrooms, software and creative-service firms, creative workers, platform intermediaries, and audiences or consumers.",
+      "counterinterpretation": "Streaming and AI can reduce distribution costs, enable new creators, and support audience discovery; concentration or labor risk is a testable possibility, not an automatic outcome of digitalization.",
+      "source_url": "https://unctad.org/publication/creative-economy-outlook-2024",
+      "retrieval_hash": "sha256:c56b120660b664817a67306a186760d14aac0fa2940fabd345c8c312c54015e3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a global creative-economy, digital-cultural trade, platform, and firm-value route. It does not equate creative exports with cultural identity, participation, worker wellbeing, or consumer benefit, and it does not infer causal effects from sector shares or illustrative AI-use rates.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "UNCTAD Creative Economy Outlook 2024 official publication page and indexed official report extracts retrieved; because direct UNCTAD HTML/PDF delivery was access-restricted during retrieval, the hash covers a normalized evidence digest preserving the publication title, trade shares, sector composition, streaming, AI-use, and comparability caveats rather than a downloaded binary.",
+    "normalized_evidence_digest_sha256": "sha256:c56b120660b664817a67306a186760d14aac0fa2940fabd345c8c312c54015e3",
+    "checked": "2026-09-26"
+  }
+}

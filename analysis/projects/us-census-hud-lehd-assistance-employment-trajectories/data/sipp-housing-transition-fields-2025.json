@@ -1,0 +1,83 @@
+{
+  "schema": "us-sipp-housing-transition-field-manifest-v1",
+  "checked": "2026-09-25",
+  "source": {
+    "name": "2025 Survey of Income and Program Participation public-use file",
+    "data_page": "https://www.census.gov/programs-surveys/sipp/data/datasets/2025-data/2025.html",
+    "api_variable_catalog": "https://api.census.gov/data/2025/sipp/variables.html",
+    "reference_period": "January-December 2024"
+  },
+  "access": {
+    "schema_verified": true,
+    "raw_file_present_locally": false,
+    "api_record_query_tested": true,
+    "api_record_query_result": "missing_api_key",
+    "official_archive_streamed_for_timing_audit": true,
+    "archive_sha256": "570798a6f512c8f82af311ee01a1668d178063c9076c18a05bc3a5a0039b67ed",
+    "substantive_estimate_authorized": false
+  },
+  "fields": {
+    "assistance": [
+      "EHOUSE_ANY",
+      "EEHC_RENTSUB",
+      "EEHC_VOUCHER",
+      "ERENTSUB",
+      "EVOUCHER",
+      "EOTHAS_MNYN"
+    ],
+    "residence_spell": [
+      "EEHC_MVMO",
+      "EEHC_WHY",
+      "EEHC_TEN",
+      "EEHC_PVTEN",
+      "TEHC_MVYR",
+      "ERH_BMONTH",
+      "ERH_EMONTH"
+    ],
+    "housing_cost": [
+      "TRENTMORT",
+      "EAWBMORT",
+      "EUTILITIES"
+    ],
+    "status_flags": [
+      "AHOUSE_ANY",
+      "AEHC_RENTSUB",
+      "AEHC_VOUCHER",
+      "AEHC_WHY",
+      "AEHC_MVMO",
+      "AEHC_TEN",
+      "AEHC_PVTEN",
+      "ARH_BMONTH",
+      "ARH_EMONTH",
+      "ARENTMORT",
+      "ARENTSUB",
+      "AVOUCHER",
+      "AOTHAS_MNYN",
+      "AAWBMORT"
+    ],
+    "existing_work_and_resources": [
+      "THTOTINC",
+      "TPEARN",
+      "THINCPOV",
+      "RMNUMJOBS",
+      "RWKSPERM",
+      "WPFINWGT"
+    ]
+  },
+  "promotion_boundary": {
+    "minimum_same_unit_fields": [
+      "assistance_or_residence_transition",
+      "housing_cost_or_difficulty",
+      "work_or_income_outcome",
+      "following_period_or_spell_outcome"
+    ],
+    "not_observed_by_manifest": [
+      "HUD_program_identity",
+      "benefit_amount_and_adequacy",
+      "landlord_response",
+      "housing_quality",
+      "verified_recovery",
+      "trust_or_political_action"
+    ]
+  }
+}

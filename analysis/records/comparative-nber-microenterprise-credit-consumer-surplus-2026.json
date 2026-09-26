@@ -1,0 +1,29 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-nber-microenterprise-credit-consumer-surplus-2026",
+  "title": "Microenterprise credit can create customer surplus beyond the borrowing firm",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": ["consumer_power_recourse", "firm_sector_market_power", "household_room_consumption", "unequal_exposure_status"],
+  "source_unit": "NBER Working Paper 35729 randomized evaluation of large loans to microenterprises in Chile, with treated firms, customer surveys, and a market comparison of more than 125,000 non-treated firms",
+  "geography": "Chile; comparative international evidence used to test a firm-credit-to-consumer-welfare mechanism, not a U.S. estimate",
+  "observations": [
+    {
+      "period": "Working paper issued September 2026; randomized loan expansion and customer outcomes in Chile",
+      "denominator": {"value": 125000, "unit": "more than 125,000 non-treated firms operating in the same markets; exact count not stated in abstract", "value_type": "reported_approximation"},
+      "measures": {
+        "treated_firm_profit": {"value": 292, "unit": "USD per month increase in treated-firm profits", "value_type": "reported_effect"},
+        "treated_firm_profit_percent": {"value": 13.4, "unit": "percent increase in treated-firm profits", "value_type": "reported_effect"},
+        "customer_surplus": {"value": 494, "unit": "USD per month gain in customer consumer surplus", "value_type": "reported_effect"},
+        "business_stealing": {"value": "little evidence of business stealing among non-treated firms in the same markets", "unit": "market comparison", "value_type": "reported_null"}
+      },
+      "method": "Randomized controlled trial of large loans to microenterprises, paired with customer survey data and a comparison of more than 125,000 non-treated firms in the same markets.",
+      "uncertainty": "The source is a working paper and the abstract does not disclose the customer-survey denominator, loan terms, exact randomization unit, confidence intervals, or all mechanisms producing consumer surplus. Chilean market and firm conditions may not generalize to U.S. consumers or lenders.",
+      "subgroup": "Treated microenterprises, their customers, and non-treated firms operating in the same Chilean markets; customer-level heterogeneity is not available in the abstract.",
+      "counterinterpretation": "Customer surplus may reflect improved variety, quality, availability, prices, convenience, or relationships rather than a uniform gain for all customers. Limited business stealing does not establish equal access, durable firm survival, worker gains, or long-run market competition.",
+      "source_url": "https://www.nber.org/papers/w35729",
+      "retrieval_hash": "sha256:89af5983697b9140e4f133ee5df61d1a984d3a9b77f25baaea46fd518c3b7595",
+      "status": "reported"
+    }
+  ],
+  "boundary": "This comparative record adds a credit-to-firm-to-customer-welfare pathway. It does not establish a U.S. consumer effect, a universal microenterprise-credit result, worker benefit, durable firm survival, or long-run inequality change."
+}

@@ -1,0 +1,77 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-ai-coding-productivity-shipping-output-2026",
+  "title": "AI coding gains attenuate from task activity to shipped and used software",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "platforms_data_attention",
+    "household_room_consumption"
+  ],
+  "source_unit": "NBER Working Paper 35275 using GitHub developer data, AI usage telemetry, and four software marketplaces",
+  "geography": "Software development and software marketplaces; U.S.-anchored firm and labor-market relevance with global platform evidence",
+  "observations": [
+    {
+      "period": "2026 paper using developer and marketplace data; successive generations of coding tools",
+      "denominator": {
+        "value": 500000,
+        "unit": "GitHub developers in the matched event-study sample; marketplace sample covers four major software marketplaces",
+        "value_type": "reported_lower_bound"
+      },
+      "measures": {
+        "autocomplete_coding_activity": {
+          "value": "30%",
+          "unit": "cumulative increase in commits associated with autocomplete tools",
+          "value_type": "estimated_effect"
+        },
+        "interactive_agent_coding_activity": {
+          "value": "180%",
+          "unit": "cumulative increase in commits associated with interactive coding agents",
+          "value_type": "estimated_effect"
+        },
+        "autonomous_agent_coding_activity": {
+          "value": "240%",
+          "unit": "cumulative increase in commits associated with autonomous coding agents",
+          "value_type": "estimated_effect"
+        },
+        "autonomous_agent_projects": {
+          "value": "80%",
+          "unit": "cumulative increase in projects associated with autonomous coding agents",
+          "value_type": "estimated_effect"
+        },
+        "autonomous_agent_releases": {
+          "value": "30%",
+          "unit": "cumulative increase in actual releases associated with autonomous coding agents",
+          "value_type": "estimated_effect"
+        },
+        "marketplace_usage": {
+          "value": "no increase",
+          "unit": "total usage across four software marketplaces despite an increase in new apps",
+          "value_type": "reported_result"
+        },
+        "human_ai_substitution": {
+          "value": "0.23",
+          "unit": "estimated elasticity of substitution between AI and human effort",
+          "value_type": "estimated_parameter"
+        }
+      },
+      "method": "Matched event-study design combining GitHub developer outcomes with AI usage telemetry, supplemented by checks across four major software marketplaces.",
+      "uncertainty": "The study estimates associations around tool adoption and reports attenuation across production stages; the abstract does not establish that all task gains are causal for every developer or firm. Commit, project, release, and usage measures capture different production stages and do not measure code quality, worker wellbeing, pay, bargaining power, consumer value, or long-run firm survival.",
+      "subgroup": "Developers using autocomplete, interactive agents, or autonomous agents; software projects and releases; users of four major software marketplaces. Tool generation, developer selection, task mix, firm process, and marketplace composition may differ.",
+      "counterinterpretation": "Lower release growth can reflect intentional quality control, review, security, product-market demand, or a shift toward experimentation rather than a simple human bottleneck. More apps without more usage may indicate low demand, discovery constraints, duplication, or measurement timing rather than failed productivity.",
+      "source_url": "https://www.nber.org/papers/w35275",
+      "retrieval_hash": "sha256:ece453a0f387f3aca24d277188c07632ed8f8bcacd0deb991d5e9258f68084f2",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w35275",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record establishes a production-stage gap between AI-assisted coding activity and shipped or used software. It does not establish worker displacement, wage effects, code quality, consumer welfare, firm profitability, bargaining power, or general economy-wide productivity."
+}

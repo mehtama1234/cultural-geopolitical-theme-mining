@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-brazil-democracy-trading-partners-2026",
+  "title": "Brazilian democratic satisfaction, institutional confidence, and partner preference move on different tracks before an election",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "trust_identity_meaning",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power"
+  ],
+  "source_unit": "Pew Research Center survey of Brazilian adults, February 20-April 15, 2026",
+  "geography": "Brazil",
+  "observations": [
+    {
+      "period": "Spring 2026 pre-election survey; report September 22, 2026",
+      "denominator": {
+        "value": 1054,
+        "unit": "Brazilian adults surveyed",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "democratic_satisfaction": {
+          "value": "37% satisfied and 59% not satisfied in spring 2026; satisfaction was 66% in 2013 and 16% in 2018",
+          "unit": "percent of Brazilian adults across survey years",
+          "value_type": "published_time_series"
+        },
+        "confidence_in_actors": {
+          "value": "68% have not too much or no confidence in elected officials and 57% in business leaders; 73% express a lot or some confidence in professors and 70% in scientists",
+          "unit": "percent by institutional or social actor",
+          "value_type": "published_distribution"
+        },
+        "partner_favorability": {
+          "value": "47% favorable toward the U.S. and 46% favorable toward China in spring 2026; U.S. favorability fell from 64% in 2024 while China rose from 39% in 2023",
+          "unit": "percent favorable by country and year",
+          "value_type": "published_time_series"
+        },
+        "ideological_partner_split": {
+          "value": "China favorable: 57% left versus 40% right; U.S. favorable: 30% left versus 58% right",
+          "unit": "percent within ideological group",
+          "value_type": "published_subgroup_comparison"
+        }
+      },
+      "method": "Nationally designed survey of Brazilian adults measuring democracy satisfaction, confidence in institutions and social actors, favorability toward China and the U.S., and ideological differences.",
+      "uncertainty": "The source is cross-sectional in 2026; comparisons across years may reflect political events, question context, or sample and field-period differences. Favorability toward trading partners does not establish trade behavior, policy alignment, or election choice.",
+      "subgroup": "Brazilian adults, with comparisons by ideological self-placement and support for the governing party coalition.",
+      "counterinterpretation": "Low confidence in elected officials can coexist with stable democratic preferences, and equal favorability toward China and the U.S. can reflect diversification rather than geopolitical neutrality or realignment.",
+      "source_url": "https://www.pewresearch.org/short-reads/2026/09/22/how-brazilians-view-their-country-ahead-of-2026-elections/",
+      "retrieval_hash": "sha256:f53bd9e1c4057172d6c01060779dfeed0bbb0b6c8051185f05ff12ca4745f0d7",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a pre-election public-meaning and partner-perception layer. It does not infer electoral outcomes, democratic performance, causal institutional decline, or foreign-policy alignment from opinion measures.",
+  "retrieval_hash": "sha256:f53bd9e1c4057172d6c01060779dfeed0bbb0b6c8051185f05ff12ca4745f0d7"
+}

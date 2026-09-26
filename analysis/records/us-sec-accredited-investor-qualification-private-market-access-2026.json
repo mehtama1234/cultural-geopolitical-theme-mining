@@ -1,0 +1,68 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-sec-accredited-investor-qualification-private-market-access-2026",
+  "title": "Private-market eligibility is expanding, but access and realized participation remain concentrated",
+  "theme_ids": ["cost", "voice", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "unequal_exposure_status",
+    "firm_sector_market_power",
+    "public_systems_feedback",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "SEC Office of the Investor Advocate working paper using longitudinal THRIVE survey data",
+  "geography": "United States, adult population and accredited-investor population",
+  "observations": [
+    {
+      "period": "January 2024 to January 2026; accredited-investor qualification",
+      "denominator": {
+        "value": 5025,
+        "unit": "individuals completing both THRIVE waves; results weighted to the U.S. adult population",
+        "value_type": "longitudinal_panel_sample"
+      },
+      "measures": {
+        "accredited_share_2024": {"value": 12.1, "unit": "percent of the U.S. population qualifying under measured criteria in the paired longitudinal sample", "value_type": "weighted_share"},
+        "accredited_share_2026": {"value": 14.2, "unit": "percent of the U.S. population qualifying under measured criteria in the paired longitudinal sample", "value_type": "weighted_share"},
+        "net_worth_route_2026": {"value": 12.1, "unit": "percent of the U.S. population qualifying through the net-worth criterion in cross-sectional January 2026 weights", "value_type": "weighted_share"},
+        "status_loss": {"value": 21.3, "unit": "percent of people accredited in 2024 who were no longer accredited in 2026", "value_type": "transition_share"},
+        "status_gain": {"value": 5.3, "unit": "percent of people not accredited in 2024 who became accredited in 2026", "value_type": "transition_share"}
+      },
+      "method": "SEC OIAD working paper analyzing the January 2024 and January 2026 THRIVE waves. The same 7,500 people were invited in each wave; 6,392 completed 2024, 5,444 completed 2026, and 5,025 responded to both. Results use survey weights and measure legal qualification criteria rather than a census of private-market access.",
+      "uncertainty": "Qualification is a threshold-based survey construct and can change with reported income or net worth; the paper notes that the most common route is net worth and that status shifts are dynamic. Eligibility is not equivalent to an offer, account, investment opportunity, wealth gain, or realized participation.",
+      "subgroup": "U.S. adults classified by accredited-investor status in 2024 and 2026; no respondent-level data are reproduced in this record.",
+      "counterinterpretation": "The increase in the qualifying share may reflect asset-price and net-worth changes, including the paper's noted S&P 500 increase, rather than broad democratization of private-market opportunity. Qualification can also be lost as financial circumstances change.",
+      "source_url": "https://www.sec.gov/files/trends-accredited-investor-qualification-individual-level.pdf",
+      "retrieval_hash": "sha256:be9bbc10f82c830f017b05dd448e5abaa114a2df56514488cd90368d12f396ff",
+      "status": "reported"
+    },
+    {
+      "period": "January 2026; private-market ownership, interest, and financial-intermediation pathway",
+      "denominator": {
+        "value": 1,
+        "unit": "accredited-investor population estimate in the January 2026 THRIVE wave; subgroup standard errors are reported by the SEC",
+        "value_type": "weighted_population_subgroup"
+      },
+      "measures": {
+        "private_market_ownership": {"value": 5.8, "unit": "percent of accredited investors reporting private-market securities ownership", "value_type": "reported_share"},
+        "private_market_interest_or_plan": {"value": 11.5, "unit": "percent of accredited investors reporting plans to invest in private markets in the next 12 months", "value_type": "reported_share"},
+        "newly_qualified_ownership": {"value": 1.8, "unit": "percent of people qualifying only in 2026 who reported private-market securities ownership", "value_type": "reported_share"},
+        "persistent_qualified_ownership": {"value": 7.8, "unit": "percent of people qualifying in both 2024 and 2026 who reported private-market securities ownership", "value_type": "reported_share"},
+        "financial_professional_use_persistent": {"value": 38.0, "unit": "percent of people accredited in both 2024 and 2026 who used a financial professional for investment decisions in both years", "value_type": "reported_share"}
+      },
+      "method": "SEC OIAD working paper comparing ownership, investment plans, and financial-professional use across accreditation-status groups. Private-market ownership was self-reported using randomized wording variants that the paper found did not produce statistically significant ownership differences.",
+      "uncertainty": "The measures do not establish transaction volume, portfolio value, returns, private-fund availability, advice quality, or why eligible people do not invest. Interest and plans are not realized purchases, and the survey's private-market wording does not capture every offering type.",
+      "subgroup": "Accredited investors, including people newly qualifying in 2026 and people qualifying in both waves; professional-advice use is measured for household investment decisions.",
+      "counterinterpretation": "Low ownership relative to eligibility may reflect deliberate nonparticipation, risk aversion, illiquidity, limited supply, or measurement limits rather than a single access barrier. Higher professional use among persistent accredited investors may track wealth and continuity rather than cause participation.",
+      "source_url": "https://www.sec.gov/files/trends-accredited-investor-qualification-individual-level.pdf",
+      "retrieval_hash": "sha256:be9bbc10f82c830f017b05dd448e5abaa114a2df56514488cd90368d12f396ff",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record adds a financial-access and participation signal to the broader trend program. It does not infer household welfare, inequality causation, private-market democratization, investment performance, advice quality, or respondent-level behavior beyond the aggregate estimates reported by the SEC.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "SEC working-paper PDF retrieved through the SEC publication listing and PDF viewer; qualification shares, transition rates, net-worth route, ownership, interest/plans, financial-professional use, THRIVE sample, weighting, and survey limitations cross-checked against the publication.",
+    "normalized_evidence_sha256": "sha256:be9bbc10f82c830f017b05dd448e5abaa114a2df56514488cd90368d12f396ff",
+    "checked": "2026-09-26"
+  }
+}

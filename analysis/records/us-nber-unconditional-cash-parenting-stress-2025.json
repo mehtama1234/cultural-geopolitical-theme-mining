@@ -1,0 +1,81 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-unconditional-cash-parenting-stress-2025",
+  "title": "Large unconditional cash transfers improved reported parenting while increasing some reported child stress signals",
+  "theme_ids": ["cost", "time", "work"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "care_health_reproduction",
+    "time_hidden_price",
+    "housing_place_mobility",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "U.S. families in a randomized three-year unconditional-cash-transfer experiment, with child, parenting, care, and household outcomes",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "Three-year transfer experiment; NBER Working Paper issued July 2025 and revised February 2026",
+      "denominator": {
+        "value": 1,
+        "unit": "randomized study frame; abstract does not state one pooled respondent denominator",
+        "value_type": "study_frame"
+      },
+      "measures": {
+        "transfer_contrast": {
+          "value": "$1,000 per month versus $50 per month",
+          "unit": "monthly randomized assignment for three years",
+          "value_type": "treatment_contrast"
+        },
+        "child_expenditures": {
+          "value": "increased",
+          "unit": "reported treatment direction for monthly spending on children",
+          "value_type": "reported_effect_direction"
+        },
+        "parenting_behavior": {
+          "value": "improved, including closer supervision",
+          "unit": "reported treatment direction",
+          "value_type": "reported_effect_direction"
+        },
+        "reported_child_developmental_difficulties_and_stress": {
+          "value": "increased",
+          "unit": "reported treatment direction; authors note possible connection to closer monitoring",
+          "value_type": "reported_effect_direction"
+        },
+        "lowest_income_parenting_and_nonparental_care": {
+          "value": "largest parenting improvements; increased use and quality of non-parental childcare",
+          "unit": "reported subgroup and care pattern",
+          "value_type": "reported_heterogeneity"
+        },
+        "null_outcomes": {
+          "value": "no meaningful effect on most administrative educational outcomes, home-environment characteristics, child food security, homelessness exposure, or parental satisfaction",
+          "unit": "reported null pattern",
+          "value_type": "reported_null"
+        },
+        "mobility": {
+          "value": "families were more likely to move, with no detected change in most neighborhood-quality measures",
+          "unit": "reported treatment pattern",
+          "value_type": "reported_effect_pattern"
+        }
+      },
+      "method": "NBER Working Paper 34040 studies a large randomized unconditional cash transfer of $1,000 per month for three years versus $50 per month and examines parenting, child investment, developmental outcomes, care, housing, and family wellbeing.",
+      "uncertainty": "This record retains the official abstract-level findings rather than reproduced coefficients, sample construction, attrition, measurement instruments, or full robustness results. The reported child-developmental-difficulty result may reflect increased observation from closer monitoring; it is not by itself a clinical deterioration estimate.",
+      "subgroup": "Families in the randomized study, with reported largest parenting improvements among those with the lowest baseline incomes.",
+      "counterinterpretation": "More spending, supervision, and non-parental childcare can coexist with more reported child difficulty or stress and no change in parental satisfaction. A transfer can improve some care inputs without producing uniform wellbeing or educational gains.",
+      "source_url": "https://www.nber.org/papers/w34040",
+      "retrieval_hash": "sha256:7edff90e7acc25068f4c4d79c6069cbc8035c87e9018fdad1e935c32b63e842e",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34040",
+      "claim": "NBER DOI and working-paper metadata identify the study and authors.",
+      "status": "official-metadata"
+    }
+  ],
+  "boundary": "This is a randomized U.S. transfer-to-parenting and care result, not a universal cash-transfer effect or a complete child-development, household-welfare, employment, trust, political-action, or long-run recovery estimate.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official NBER Working Paper 34040 page downloaded and hashed; title, date, randomized transfer contrast, parenting, child-stress, care, mobility, subgroup, and null-outcome findings checked against the abstract.",
+    "checked": "2026-09-25"
+  }
+}

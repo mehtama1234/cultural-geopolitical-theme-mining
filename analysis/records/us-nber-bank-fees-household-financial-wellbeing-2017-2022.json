@@ -1,0 +1,28 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-bank-fees-household-financial-wellbeing-2017-2022",
+  "title": "Removing bank fees helps immediately, but wider recovery depends on household liquidity",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": ["household_room_consumption", "consumer_power_recourse", "public_systems_feedback", "unequal_exposure_status", "firm_sector_market_power", "trust_identity_meaning"],
+  "source_unit": "NBER Working Paper 34993; individual transaction data and large-bank policy changes that eliminated NSF fees or relaxed overdraft policies from 2017-2022",
+  "geography": "United States; customers of large banks exposed to NSF-fee and overdraft-policy changes",
+  "observations": [{
+    "period": "2017-2022 bank policy changes",
+    "denominator": {"value": 1, "unit": "U.S. transaction-level household-finance study", "value_type": "study_unit"},
+    "measures": {
+      "nsf_fees": {"value": "eliminating NSF fees immediately reduced NSF charges across the income distribution", "unit": "NSF charges", "value_type": "reported_comparison"},
+      "overdraft_fees": {"value": "relaxing overdraft policies reduced overdraft fees mainly for wealthier and more liquid households", "unit": "overdraft-fee response by income and liquidity", "value_type": "reported_comparison"},
+      "later_recovery": {"value": "only the more liquid households later showed declines in late fees, interest payments, account-maintenance fees, and alternative financial-service use such as payday loans", "unit": "subsequent account and alternative-credit outcomes", "value_type": "reported_comparison"},
+      "financial_stress": {"value": "the policy changes did not substantially reduce financial stress among more vulnerable households", "unit": "financial-stress outcome", "value_type": "reported_comparison"}
+    },
+    "method": "The authors use individual transaction-level data and staggered large-bank policy changes, implementing a stacked event-study estimator to compare elimination of NSF fees and relaxation of overdraft policies.",
+    "uncertainty": "Account records do not identify every original bill, merchant response, need protected or delayed, family support, affordable-credit option, disability, or household tradeoff. The setting includes multiple treatments and treatment intensities; lower fees do not prove the shortage ended or that a successful payment improved the household month.",
+    "subgroup": "Customers of large U.S. banks divided by income and liquidity; pay timing, liquid savings, debt, access to family money, affordable credit, and essential bills can differ within those groups.",
+    "counterinterpretation": "A fee reduction can prevent a larger merchant or service loss, and a successful overdraft can be a useful short bridge rather than a harmful cycle. The weaker later effect for vulnerable households may reflect a larger underlying cash gap, not that the policy harmed them.",
+    "source_url": "https://www.nber.org/papers/w34993",
+    "retrieval_hash": "sha256:aa8d33b99f25704f851e29ee223611a480f08464039c934345925fb591bec648",
+    "status": "reported"
+  }],
+  "related_sources": [{"source_url": "https://doi.org/10.3386/w34993", "claim": "NBER DOI record for Working Paper 34993", "status": "official-paper-identifier"}],
+  "boundary": "This record adds a liquidity-stratified financial-protection finding: removing a visible fee can be broadly immediate while later recovery differs by household room. It does not establish the original bill, complete household welfare, a universal overdraft effect, or whether payment success prevented or shifted harm."
+}

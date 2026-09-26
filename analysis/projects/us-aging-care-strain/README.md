@@ -6,6 +6,13 @@ Who supplies care when an older family member needs help, and what happens to th
 
 ## Short end-to-end goal
 
+The new [Cash and Counseling multi-currency realization synthesis](cash-counseling-multi-currency-realization-synthesis-v1.md)
+adds a bounded randomized intervention-to-follow-up layer. It keeps
+beneficiary, informal-caregiver, and paid-worker outcomes separate: the same
+consumer-direction design improved selected short-run access, satisfaction,
+wellbeing, and strain measures, while completed care, household recovery,
+worker adequacy, durability, trust, and exit remain open.
+
 Trace care from the need for help to the time and money supplied by a family, then to work, savings, health, and pressure on employers and public programs.
 
 ## Matched evidence pass
@@ -43,6 +50,17 @@ now connects household child-care adaptation, a same-person following-hardship
 signal, unpaid-care time, and provider-workforce pressure. It preserves the
 central boundary: paid care, benefits, and incentives are not automatically a
 dependable staffed slot or a preserved household work outcome.
+
+The [2025 cultural-time finding](findings/us-aging-care-strain-020.md) adds a
+separate everyday-life layer: socializing, religious activity, and volunteering
+have different reach and weekday/weekend timing. It does not treat recorded
+time as belonging, organizational success, or political action.
+
+The [probable-dementia coverage finding](findings/us-nber-dementia-medicare-supplemental-coverage-2026-001.md)
+adds a pre-onset insurance layer: older adults with probable dementia were more
+likely to have Medicare without supplemental coverage before onset, while
+Medicaid eligibility rose without higher take-up. Coverage completeness and
+enrollment are therefore separate from care received and caregiver burden.
 
 ## First working idea
 

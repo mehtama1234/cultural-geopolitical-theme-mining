@@ -1,0 +1,87 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "official_institutional_enforcement_followup_record",
+  "purpose": "Bounded official worker-remedy record preserving court enforcement, release of funds held in trust, and reported worker-level back-pay receipt without inferring later recovery.",
+  "events": [
+    {
+      "event_id": "FWO-ATKINS-TRUCK-DRIVERS-2018-01-17",
+      "unit": "worker",
+      "geography": "Australia; Adelaide transport company and Federal Court appeal",
+      "actor_initiating_change": "employer",
+      "event_date": "2018-01-17",
+      "date_precision": "official Fair Work Ombudsman follow-up release date; underpayment occurred 2007-2009 and appeal was dismissed before the release",
+      "denominator": "Ten named-in-the-record truck drivers; no population denominator",
+      "method": "Structured extraction from the official Fair Work Ombudsman enforcement follow-up record",
+      "missingness": "Worker identities, payment instruments, household effects, later employment, trust, recurrence, health, and exit are not retained; adequacy is not assessed against each worker's losses or household needs",
+      "condition_or_decision": "job_rule",
+      "exposure": "Ten truck drivers were underpaid minimum wages and other entitlements by Atkins Freight Services between 2007 and 2009",
+      "alternatives_before_action": "The public record does not report substitute employment, bargaining alternatives, household buffers, or non-use before enforcement",
+      "immediate_burden_or_benefit": "Underpayment created a reported wage and superannuation shortfall; the company appealed after a court ordered back-pay and paid funds into Court pending the appeal",
+      "choice_or_response": "The Fair Work Ombudsman pursued legal action; the company appealed; the Federal Court dismissed the appeal and ordered release of the funds from trust",
+      "person_or_actor_with_control": "The employer controlled original payment; the courts controlled the trust and release process; the Fair Work Ombudsman controlled the public enforcement route",
+      "remedy_or_institutional_response": "After the appeal was dismissed, the Federal Court allowed approximately $468,000 held in trust to be released and paid to the drivers; the official record reports $374,487 in ordered back-pay plus superannuation and interest",
+      "remedy_stage": "remedy_reported_received",
+      "remedy_receipt": "The Fair Work Ombudsman reports that all ten truck drivers received back-payments ranging from $8,012 to $91,566",
+      "durability_followup": "The public record ends at reported payment receipt; later work, household security, adequacy, trust, recurrence, health, and exit are unknown",
+      "immediate_outcome": "Reported worker-level receipt of court-enforced back-pay after appeal funds were released",
+      "protected_outcome": "The ordered wage, superannuation, and interest remedy reached the ten drivers according to the official follow-up",
+      "sacrificed_outcome": "Payment was delayed through litigation and appeal; any residual loss, household strain, or lost trust is unmeasured",
+      "cost_risk_transfer": "Workers carried the initial underpayment and delay; public enforcement and court processes transferred a payment obligation and legal risk back to the employer",
+      "later_outcome": "The official institution reports final release and receipt of the back-payments, but no later lived-recovery endpoint",
+      "meaning_and_attribution": "The enforcement record attributes the payment obligation to underpayment and rejects an attempt to reduce compensation through private deeds of release; it contains no worker-reported trust or meaning measure",
+      "public_or_collective_response": "Public Fair Work Ombudsman enforcement and appellate court action are observed; no later collective or political response is reported",
+      "counterexample": "A formal remedy can reach every worker in a small public case while leaving adequacy, trust, later livelihood, and durable recovery unobserved",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "Official Fair Work Ombudsman release, https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed; payment receipt is institutionally reported, not independently audited here",
+      "source_url": "https://www.fairwork.gov.au/newsroom/media-releases/2018-media-releases/january-2018/20180117-atkins-appeal-dismissed"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "FWO-ATKINS-A-01",
+      "from": "underpayment of wages and entitlements",
+      "to": "Fair Work Ombudsman legal action and court back-pay order",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official record reports underpayment, investigation, legal action, penalties, and a back-pay order",
+      "status": "reported",
+      "counterexample": "A formal order does not by itself prove payment receipt",
+      "remaining_gap": "Worker-level payment before the appeal process"
+    },
+    {
+      "arrow_id": "FWO-ATKINS-A-02",
+      "from": "appeal and funds held in trust",
+      "to": "Federal Court release of funds",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official record reports that the company paid approximately $468,000 to Court pending appeal and that the Federal Court later allowed release after dismissing the appeal",
+      "status": "reported",
+      "counterexample": "Institutional release is not identical to worker receipt",
+      "remaining_gap": "Individual transfer timing and payment instrument"
+    },
+    {
+      "arrow_id": "FWO-ATKINS-A-03",
+      "from": "funds released from trust",
+      "to": "ten truck drivers receive back-payments",
+      "unit_held_constant": true,
+      "time_order_valid": true,
+      "evidence": "The official Fair Work Ombudsman release states that the drivers had received payments ranging from $8,012 to $91,566",
+      "status": "reported",
+      "counterexample": "Reported receipt does not establish adequacy, net household effect, or restored trust",
+      "remaining_gap": "Independent receipt confirmation, adequacy, household recovery, and later security"
+    },
+    {
+      "arrow_id": "FWO-ATKINS-A-04",
+      "from": "reported back-pay receipt",
+      "to": "durable security, trust, later work, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": true,
+      "evidence": "The official follow-up ends after reporting the payments",
+      "status": "open",
+      "counterexample": "Payment can be complete while later livelihood and trust remain unknown",
+      "remaining_gap": "Later employment, household outcome, adequacy, recurrence, trust, health, and exit"
+    }
+  ],
+  "boundary": "This ledger closes a reported payment-receipt endpoint for ten workers in one enforcement case. It does not establish adequacy, durable recovery, prevalence, or a general enforcement success rate.",
+  "storage_boundary": "No claimant file, payment instrument, or restricted data is retained; only bounded official summary fields and explicitly open downstream arrows are represented."
+}

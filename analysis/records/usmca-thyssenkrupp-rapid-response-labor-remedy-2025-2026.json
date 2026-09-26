@@ -1,0 +1,47 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "usmca-thyssenkrupp-rapid-response-labor-remedy-2025-2026",
+  "title": "Cross-border labor enforcement can produce a reported remedy without proving durable worker power",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "work_control_bargaining",
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action"
+  ],
+  "source_unit": "U.S. Trade Representative official resolution announcement for a USMCA Rapid Response Labor Mechanism matter at ThyssenKrupp Springs & Stabilizers de México",
+  "geography": "San Luis Potosí, Mexico; U.S.-Mexico USMCA labor enforcement and facility response",
+  "observations": [
+    {
+      "period": "October 2025 petition through March 16, 2026 resolution",
+      "denominator": {
+        "value": 1,
+        "unit": "named USMCA Rapid Response Labor Mechanism matter at one facility",
+        "value_type": "source_defined_case_unit"
+      },
+      "measures": {
+        "petition_date": {"value": "October 14, 2025", "unit": "date the interagency committee received the petition", "value_type": "reported_date"},
+        "us_review_request_date": {"value": "November 13, 2025", "unit": "date USTR submitted a request to Mexico", "value_type": "reported_date"},
+        "workers_reinstated": {"value": 2, "unit": "workers reinstated under former terms and conditions", "value_type": "reported_total"},
+        "backpay_and_benefits": {"value": "full payment reported", "unit": "backpay and benefits for the two reinstated workers", "value_type": "reported_remedy"},
+        "facility_remediation": {"value": "union access protocol, neutrality and collective-bargaining rules, zero-tolerance policy, and personnel training", "unit": "reported facility measures", "value_type": "reported_actions"},
+        "mexican_monitoring": {"value": "in-person training and monitoring throughout the review period", "unit": "reported government actions", "value_type": "reported_actions"},
+        "trade_response": {"value": "U.S. resumed liquidation of unliquidated entries from the facility", "unit": "reported institutional trade response", "value_type": "reported_action"},
+        "durable_worker_outcome": {"value": "not observed", "unit": "later receipt verification, non-retaliation, bargaining power, safety, and recurrence", "value_type": "unmeasured"}
+      },
+      "method": "Review of USTR's official resolution announcement, which reports the petition, intergovernmental review, facility actions, Mexican monitoring, and tariff-liquidation decision; no independent worker-level follow-up is included.",
+      "uncertainty": "The announcement is an official enforcement account and does not independently verify payment receipt, whether all affected workers were remedied, the later operation of the union-access protocol, recurrence of retaliation, or durable facility compliance. One case cannot estimate USMCA-wide performance.",
+      "subgroup": "Two reinstated workers, the named ThyssenKrupp facility, La Liga Sindical Obrera Mexicana, Mexican government monitors, and U.S. trade/labor enforcement institutions.",
+      "counterinterpretation": "A formal resolution and resumed tariff liquidation can coexist with real improvement, but agency closure does not prove durable worker power. The result may reflect facility-specific negotiation and monitoring rather than a general cross-border labor mechanism effect.",
+      "source_url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/march/united-states-announces-successful-resolution-rapid-response-labor-mechanism-matter-thyssenkrupp",
+      "retrieval_hash": "sha256:4178336a51f03cbd7d8121587284e2753164ed344d8b828f5acf4b9e6dcb8323",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This record measures one official USMCA labor-enforcement case and its reported institutional response. It does not establish worker receipt, durable bargaining power, non-retaliation, sector-wide compliance, causal leverage, or general performance of the Rapid Response Labor Mechanism.",
+  "retrieval_hash": "sha256:4178336a51f03cbd7d8121587284e2753164ed344d8b828f5acf4b9e6dcb8323"
+}

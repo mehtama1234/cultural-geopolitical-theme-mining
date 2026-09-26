@@ -1,0 +1,95 @@
+{
+  "schema": "us-broad-event-ledger-schema-v1",
+  "evidence_class": "gao_reported_work_public_benefit_employer_record",
+  "purpose": "Bounded GAO-26-108703 route from working-age adults' labor attachment through Medicaid/SNAP interaction and selected-state employer concentration, preserving wages, benefit continuity, household recovery, and employer-intent gaps.",
+  "events": [
+    {
+      "event_id": "GAO-WORKING-ADULTS-MEDICAID-SNAP-EMPLOYER-2026",
+      "unit": "case",
+      "geography": "United States national Census estimates for 2024 plus selected data from 15 state agencies across 11 states through September 2025",
+      "actor_initiating_change": "agency",
+      "event_date": "2026-08-24",
+      "date_precision": "GAO report reissued August 24, 2026; national estimates reference 2024 and selected employer data reference September 2025",
+      "denominator": "About 28 million Medicaid-enrolled adults ages 19–64 and about 20 million adults ages 19–64 living in SNAP-receiving households; employer component is a separate selected-state universe",
+      "method": "GAO analysis of Census labor characteristics and selected state administrative employer data; national program estimates and employer analysis are not pooled",
+      "missingness": "Wages, hours volatility, schedule predictability, employer health coverage, benefit amount, eligibility churn, household composition, worker choice, remedy, trust, action, and exit are not retained",
+      "condition_or_decision": "benefit_rule",
+      "exposure": "About 13.8 million Medicaid-enrolled adults and 10.6 million adults in SNAP-receiving households worked at some point in 2024; about 88% of working adults in each reported private-sector employment",
+      "alternatives_before_action": "Alternative jobs, employer benefits, public-program alternatives, informal support, savings, and household work/care choices are not observed for the same adult",
+      "immediate_burden_or_benefit": "Medicaid and SNAP can protect medical or food budgets while work is attached to the household; working at some point does not establish adequate or stable income",
+      "choice_or_response": "Working adults in both program-related groups were less likely than comparison wage earners to work full-time hours for 50 or more weeks per year; selected-state data identify 46 companies appearing among top employers in at least two states",
+      "person_or_actor_with_control": "Households, employers, and public programs jointly shape the observed environment, but the report does not assign control over eligibility, wages, schedules, or employer benefit policy",
+      "remedy_or_institutional_response": "Program enrollment and public benefit receipt are observed as institutional protection surfaces; no same-worker correction, continuity remedy, or employer response is verified",
+      "immediate_outcome": "The report establishes work and public-benefit participation as coexisting parts of one labor and household-security system, with selected employer concentration",
+      "protected_outcome": "Public benefits may protect food or health-cost capacity and make work or household continuity possible, but protected household security is not measured",
+      "sacrificed_outcome": "Short annual attachment, low hours, or benefit uncertainty may expose households to insecurity, but the report does not observe individual sacrifice or reason",
+      "cost_risk_transfer": "The report does not establish whether wages, employer benefits, medical costs, food needs, or public resources are shifted between firms, workers, households, and government",
+      "later_outcome": "No same-person job retention, benefit churn, food or health outcome, mobility, complaint, political response, or exit is observed",
+      "meaning_and_attribution": "Work-plus-benefit participation can be interpreted as support, constraint, or ordinary household management; blame, fairness, and employer attribution are not measured",
+      "public_or_collective_response": "The report supplies a policy and employer-concentration signal, not worker organizing, complaint, bargaining, voting, or collective action",
+      "counterexample": "Program use does not imply nonwork or employer wrongdoing; large employers may appear because of workforce size, sector, occupation, or place composition",
+      "evidence_status": "reported",
+      "source_and_uncertainty": "GAO national Census estimates and selected-state administrative analysis; universes differ, state definitions vary, and the report was reissued with Rhode Island corrections",
+      "source_url": "https://www.gao.gov/products/gao-26-108703"
+    }
+  ],
+  "arrows": [
+    {
+      "arrow_id": "GAO-WORK-SAFETYNET-A-01",
+      "from": "working-age labor attachment",
+      "to": "Medicaid enrollment or SNAP-receiving household status",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "GAO reports about 13.8 million Medicaid-enrolled adults and 10.6 million adults living in SNAP-receiving households worked at some point in 2024",
+      "status": "reported",
+      "counterexample": "Work and program status can be jointly shaped by health, household composition, wages, hours, and eligibility; the result is coexistence, not a causal employment-to-benefit path",
+      "remaining_gap": "Same-person job, eligibility, benefit amount, household need, and timing record"
+    },
+    {
+      "arrow_id": "GAO-WORK-SAFETYNET-A-02",
+      "from": "work and public-benefit participation",
+      "to": "annual labor attachment and household security",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Working adults connected to Medicaid or SNAP were less likely than comparison wage earners to work full-time hours for 50 or more weeks per year; the report does not measure security directly",
+      "status": "reported",
+      "counterexample": "Shorter attachment can reflect schooling, care, disability, health, preference, or labor demand rather than benefit dependence",
+      "remaining_gap": "Wages, schedule, household food/health security, churn, medical costs, and worker choice"
+    },
+    {
+      "arrow_id": "GAO-WORK-SAFETYNET-A-03",
+      "from": "employer concentration in benefit-connected workforce",
+      "to": "firm/public-system interaction",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "Selected data from 15 agencies across 11 states identify 46 companies among the top 25 employers of Medicaid enrollees or SNAP beneficiaries in at least two states",
+      "status": "reported",
+      "counterexample": "Top-employer overlap can reflect firm size, sector, occupation, or place and does not establish deliberate benefit shifting or per-worker incidence",
+      "remaining_gap": "Comparable wages, hours, employer benefits, turnover, eligibility transitions, and employer policy"
+    },
+    {
+      "arrow_id": "GAO-WORK-SAFETYNET-A-04",
+      "from": "work/public-benefit interaction",
+      "to": "durable household security, health continuity, food security, or mobility",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The GAO report identifies program and labor attachment scales but contains no same-person follow-up on benefit continuity, material outcome, or mobility",
+      "status": "open",
+      "counterexample": "Program receipt can buffer a household while administrative churn or low hours still leaves security fragile",
+      "remaining_gap": "Same-household benefit amount, notice, effort, churn, health/food outcome, work retention, and recovery"
+    },
+    {
+      "arrow_id": "GAO-WORK-SAFETYNET-A-05",
+      "from": "firm/public-benefit interaction",
+      "to": "employer response, worker voice, trust, political action, or exit",
+      "unit_held_constant": false,
+      "time_order_valid": false,
+      "evidence": "The selected-state employer signal does not observe firm intent, worker bargaining, complaint, policy response, institutional trust, or exit",
+      "status": "open",
+      "counterexample": "A concentrated employer can coexist with adequate compensation, worker preference, public support, or high mobility; concentration alone is not exploitation",
+      "remaining_gap": "State-year worker-employer episode with benefits, alternatives, voice, response, household outcome, trust, and movement"
+    }
+  ],
+  "boundary": "This ledger formalizes work and public-benefit coexistence plus a selected-state employer-concentration signal. It does not establish employer intent, benefit shifting, causal program effects, household recovery, worker power, political response, or exit.",
+  "storage_boundary": "Only GAO-published aggregate figures, universes, revision metadata, and interpretation limits are retained; Census microdata and state administrative files are not stored."
+}

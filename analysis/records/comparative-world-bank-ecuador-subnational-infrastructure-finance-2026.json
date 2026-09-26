@@ -1,0 +1,104 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-world-bank-ecuador-subnational-infrastructure-finance-2026",
+  "title": "Ecuador’s subnational infrastructure strategy routes external finance through a development bank, project preparation, and local-government capacity",
+  "theme_ids": ["cost", "energy", "work", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "firm_sector_market_power",
+    "unequal_exposure_status",
+    "household_room_consumption"
+  ],
+  "source_unit": "World Bank Group press release on Ecuador subnational infrastructure finance, published September 24, 2026",
+  "geography": "Ecuador; local governments, provincial governments, public service providers, and national development-bank intermediary",
+  "observations": [
+    {
+      "period": "2026-2036; financing architecture and implementation route",
+      "denominator": {
+        "value": 3,
+        "unit": "program phases in the World Bank Multiphase Programmatic Approach",
+        "value_type": "program_phase_coverage"
+      },
+      "measures": {
+        "total_financing_envelope": {
+          "value": 800,
+          "unit": "millions of U.S. dollars across three phases over ten years",
+          "value_type": "approved_program_envelope"
+        },
+        "first_phase_world_bank_financing": {
+          "value": 200,
+          "unit": "millions of U.S. dollars in first-phase World Bank financing",
+          "value_type": "approved_phase_financing"
+        },
+        "parallel_cofinancing": {
+          "value": 50,
+          "unit": "millions of U.S. dollars in first-phase parallel co-financing from AECID",
+          "value_type": "announced_parallel_financing"
+        },
+        "intermediary_route": {
+          "value": "Banco de Desarrollo del Ecuador B.P. will implement the program, channeling finance to municipalities, provincial governments, and public service providers while strengthening its institutional capacity",
+          "unit": "documented financing and institutional route",
+          "value_type": "reported_implementation_architecture"
+        },
+        "project_preparation_and_capacity": {
+          "value": "The first phase includes project preparation and technical and institutional capacity support for BDE B.P. and subnational governments to improve planning and implementation of high-quality investments",
+          "unit": "reported program component",
+          "value_type": "reported_capacity_component"
+        }
+      },
+      "method": "Extraction from the World Bank Group's program announcement; the record retains approved financing, co-financing, implementation intermediary, phase structure, project-preparation, and capacity-building components as planned program stages.",
+      "uncertainty": "This is an approval and design announcement, not evidence of disbursement, completed projects, local-government borrowing, service improvement, private-capital mobilization, job creation, or household benefit. The ten-year envelope and phase outcomes depend on later approvals, implementation, procurement, safeguards, and local capacity.",
+      "subgroup": "Ecuadorian municipalities, provincial governments, public service providers, BDE B.P., World Bank, and AECID; no respondent-level denominator is used.",
+      "counterinterpretation": "Routing finance through a national development bank may improve coordination and project preparation, but it can also concentrate gatekeeping, create debt or fiscal exposure, and leave lower-capacity local governments behind unless allocation and safeguards are tracked.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/24/world-bank-group-expands-subnational-infrastructure-finance-in-ecuador",
+      "retrieval_hash": "sha256:2160634225b26f3445afa18f4c99109914f7add46835fe77e544b468bb9bbbb3",
+      "status": "reported"
+    },
+    {
+      "period": "2026-2036; stated reach, sectors, and mobilization targets",
+      "denominator": {
+        "value": 800,
+        "unit": "millions of U.S. dollars in total program financing envelope",
+        "value_type": "approved_program_envelope"
+      },
+      "measures": {
+        "expected_people_reached": {
+          "value": "More than 3 million people are expected to benefit over the life of the program",
+          "unit": "people; program expectation",
+          "value_type": "published_program_target"
+        },
+        "private_capital_mobilization_target": {
+          "value": 750,
+          "unit": "millions of U.S. dollars in private capital the program expects to mobilize",
+          "value_type": "published_mobilization_target"
+        },
+        "first_phase_sector_scope": {
+          "value": "Energy, transport and sustainable mobility, urban development, disaster-risk management, and affordable housing",
+          "unit": "named first-phase sectors",
+          "value_type": "published_sector_scope"
+        },
+        "resilience_and_quality_of_life_claim": {
+          "value": "The announcement frames resilient infrastructure finance as a route to improved essential services, climate resilience, jobs, productivity, connectivity, energy access, urban infrastructure, and housing",
+          "unit": "stated program objectives",
+          "value_type": "published_program_objectives"
+        }
+      },
+      "method": "The observation preserves the program's stated reach, mobilization target, sector list, and objectives as forward-looking targets rather than realized outcomes.",
+      "uncertainty": "The source does not provide baseline service coverage, beneficiary allocation, local-government eligibility, project pipeline, disbursement schedule, leverage definition, or outcome indicators. Expected people reached and private-capital mobilization are not verified achievements.",
+      "subgroup": "Potential beneficiaries and local service users across Ecuador, with sector and local-government routes still to be specified in implementation data.",
+      "counterinterpretation": "A large financing envelope can coexist with uneven territorial reach, delayed procurement, debt-service pressure, or projects that improve infrastructure without improving affordability or access for exposed households.",
+      "source_url": "https://www.worldbank.org/en/news/press-release/2026/09/24/world-bank-group-expands-subnational-infrastructure-finance-in-ecuador",
+      "retrieval_hash": "sha256:2160634225b26f3445afa18f4c99109914f7add46835fe77e544b468bb9bbbb3",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [],
+  "boundary": "This comparative record adds a subnational finance, intermediary-capacity, project-preparation, and infrastructure-target layer. It does not infer disbursement, construction, service access, affordability, local-government fiscal sustainability, private investment, job creation, climate resilience, or household benefit from the announcement.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "World Bank Group Ecuador press-release page retrieved and hashed; financing envelope, co-financing, implementation intermediary, phases, sector scope, expected reach, mobilization target, and planned-capacity stages cross-checked against the publication.",
+    "html_sha256": "sha256:2160634225b26f3445afa18f4c99109914f7add46835fe77e544b468bb9bbbb3",
+    "checked": "2026-09-26"
+  }
+}

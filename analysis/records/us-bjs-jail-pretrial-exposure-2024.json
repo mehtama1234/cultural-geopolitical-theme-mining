@@ -1,0 +1,57 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-bjs-jail-pretrial-exposure-2024",
+  "title": "Aggregate jail decline can coexist with heavy and unequal pretrial exposure",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "household_room_consumption",
+    "political_judgment_action",
+    "care_health_reproduction"
+  ],
+  "source_unit": "Bureau of Justice Statistics Census of Jails and Annual Survey of Jails estimates",
+  "geography": "United States local jails",
+  "observations": [
+    {
+      "period": "Midyear 2024 and July 2023-June 2024 admissions",
+      "denominator": {
+        "value": 1,
+        "unit": "local jail custody and admission estimates from BJS Census of Jails and Annual Survey of Jails",
+        "value_type": "source_defined_administrative_universe"
+      },
+      "measures": {
+        "midyear_jail_population": {"value": 658700, "unit": "persons held", "value_type": "reported_total"},
+        "average_daily_population": {"value": 667700, "unit": "persons", "value_type": "reported_estimate"},
+        "annual_admissions": {"value": 7900000, "unit": "admissions", "value_type": "reported_estimate"},
+        "unconvicted_share": {"value": 68, "unit": "percent of persons held at midyear", "value_type": "reported_share"},
+        "average_days_before_release": {"value": 31, "unit": "days among persons admitted", "value_type": "reported_estimate"},
+        "black_jail_incarceration_rate": {"value": 566, "unit": "per 100,000 Black residents", "value_type": "reported_rate"},
+        "white_jail_incarceration_rate": {"value": 149, "unit": "per 100,000 white residents", "value_type": "reported_rate"},
+        "change_from_2014": {"value": "midyear population down 12%; admissions down 31%", "unit": "reported comparison", "value_type": "reported_trend"}
+      },
+      "method": "BJS 2024 Census of Jails and 2014-2018 and 2020-2023 Annual Survey of Jails; custody counts, admissions, rates, conviction status, and stay estimates are kept as separate administrative measures.",
+      "uncertainty": "Admissions are not unique people; midyear custody and annual flow use different denominators; estimates and state comparisons reflect reporting, facility coverage, definitions, and timing boundaries.",
+      "subgroup": "Local jail inmates and admissions; race and ethnicity, conviction status, sex, age, state, and jurisdiction comparisons are reported.",
+      "counterinterpretation": "Lower population and admissions than 2014 indicate long-run contraction in some aggregate measures; high admissions and unconvicted share do not establish wrongful detention, cause of crime, or later harm.",
+      "source_url": "https://bjs.ojp.gov/library/publications/jail-inmates-2024-statistical-tables/web-report",
+      "retrieval_hash": "sha256:9bf0654d3719a3da960331af0b3fa942675a0b23fcaaae92a9c6bee376f7457c",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://bjs.ojp.gov/data-collection/census-jails-coj",
+      "claim": "BJS describes the Census of Jails coverage and the move to annual collection beginning in 2024.",
+      "status": "official-method-context"
+    },
+    {
+      "source_url": "https://bjs.ojp.gov/library/publications/correctional-populations-united-states-2023-statistical-tables",
+      "claim": "BJS publishes the broader correctional-populations context for prisons, jails, probation, and parole.",
+      "status": "official-context"
+    }
+  ],
+  "boundary": "This record measures local-jail custody, admissions, conviction status, stay, and unequal exposure. It does not follow unique people through court disposition, release conditions, housing, work, health, reentry, later justice contact, or trust.",
+  "retrieval_hash": "sha256:9bf0654d3719a3da960331af0b3fa942675a0b23fcaaae92a9c6bee376f7457c"
+}

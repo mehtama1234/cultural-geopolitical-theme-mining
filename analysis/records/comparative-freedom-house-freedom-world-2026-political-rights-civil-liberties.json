@@ -1,0 +1,93 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-freedom-house-freedom-world-2026-political-rights-civil-liberties",
+  "title": "Global freedom declines continue as conflict, coups, institutional erosion, and repression narrow political and civil space",
+  "theme_ids": ["voice", "cost", "time", "work"],
+  "program_theme_ids": [
+    "political_judgment_action",
+    "public_systems_feedback",
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Freedom House, Freedom in the World 2026: The Growing Shadow of Autocracy",
+  "geography": "195 countries and 13 territories assessed for calendar year 2025",
+  "observations": [
+    {
+      "period": "2005-2025; global freedom trajectory",
+      "denominator": {"value": 208, "unit": "countries and territories assessed in Freedom in the World 2026", "value_type": "global_index_frame"},
+      "measures": {
+        "consecutive_global_decline": {"value": 20, "unit": "consecutive years in which global freedom declined", "value_type": "reported_count"},
+        "countries_declining_2025": {"value": 54, "unit": "countries with deterioration in political rights and civil liberties during 2025", "value_type": "reported_count"},
+        "countries_improving_2025": {"value": 35, "unit": "countries with improvements in political rights and civil liberties during 2025", "value_type": "reported_count"},
+        "population_affected_decline": {"value": 40, "unit": "more than percent of the world's population living in countries whose freedom scores declined in 2025", "value_type": "reported_share_boundary"}
+      },
+      "method": "Freedom House assessment of political rights and civil liberties using 25 indicators scored from 0 to 4 and aggregated into a 100-point scale.",
+      "uncertainty": "The assessment is an expert-coded comparative index with methodological judgments and country narratives; score changes do not measure every lived experience or establish a single cause of decline.",
+      "subgroup": "Countries and territories classified as Free, Partly Free, or Not Free, and populations affected by changes in political rights and civil liberties.",
+      "counterinterpretation": "Global decline coexists with country-level improvement, institutional resilience, and peaceful transfers of power; index movement can miss local organizing and informal protections.",
+      "source_url": "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20%281%29.pdf",
+      "retrieval_hash": "sha256:d5942a41af9b14e0d8d5151cdf2f11f936a1f90398dff7f5cd59610a5f1d12b2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; status distribution and population exposure",
+      "denominator": {"value": 195, "unit": "countries assessed for political rights and civil liberties, plus 13 territories", "value_type": "status_frame"},
+      "measures": {
+        "free_countries": {"value": 88, "unit": "countries rated Free", "value_type": "reported_count"},
+        "partly_free_countries": {"value": 48, "unit": "countries rated Partly Free", "value_type": "reported_count"},
+        "not_free_countries": {"value": 59, "unit": "countries rated Not Free", "value_type": "reported_count"},
+        "free_population_share": {"value": 21, "unit": "percent of the world's population living in Free countries", "value_type": "reported_share"}
+      },
+      "method": "Freedom House classification from equally weighted political-rights and civil-liberties totals.",
+      "uncertainty": "Status categories compress multidimensional scores and can hide within-country regional, group, and institutional variation; population shares rely on external population estimates.",
+      "subgroup": "Populations living under Free, Partly Free, and Not Free country conditions, including minority and opposition groups whose experiences may diverge from national averages.",
+      "counterinterpretation": "A national status is not a complete description of every institution or person; some Not Free or Partly Free settings contain meaningful civic spaces and reform openings.",
+      "source_url": "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20%281%29.pdf",
+      "retrieval_hash": "sha256:d5942a41af9b14e0d8d5151cdf2f11f936a1f90398dff7f5cd59610a5f1d12b2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; drivers and institutional pathways of decline",
+      "denominator": {"value": 1, "unit": "Freedom House global trend synthesis", "value_type": "comparative_framework"},
+      "measures": {
+        "main_decline_drivers": {"value": "armed conflicts, coups, erosion of democratic institutions, and authoritarian crackdowns are identified as major drivers", "unit": "report trend synthesis", "value_type": "reported_mechanism"},
+        "heaviest_impact_areas": {"value": "media freedom, personal expression, and due process have suffered especially heavy impacts over the twenty-year decline", "unit": "report trend synthesis", "value_type": "reported_pattern"},
+        "partly_free_transition": {"value": "19 countries that were Partly Free in 2005 declined to Not Free by 2025, while 9 improved to Free", "unit": "reported twenty-year status transitions", "value_type": "reported_comparison"}
+      },
+      "method": "Freedom House longitudinal comparison of country scores, status transitions, and indicator-level narratives.",
+      "uncertainty": "Driver categories overlap and are not experimental causes; status transitions summarize country-level classification rather than institutional sequences or individual harms.",
+      "subgroup": "Countries with coups, armed conflict, authoritarian repression, democratic-institutional erosion, media restrictions, or due-process failures.",
+      "counterinterpretation": "Institutional decline can be interrupted by elections, judicial independence, civil resistance, or reform coalitions; causal pathways differ across regions and regimes.",
+      "source_url": "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20%281%29.pdf",
+      "retrieval_hash": "sha256:d5942a41af9b14e0d8d5151cdf2f11f936a1f90398dff7f5cd59610a5f1d12b2",
+      "status": "reported"
+    },
+    {
+      "period": "2025; resilience and reform exceptions",
+      "denominator": {"value": 87, "unit": "countries rated Free in 2005 used for the twenty-year resilience comparison", "value_type": "longitudinal_status_frame"},
+      "measures": {
+        "free_status_persistence": {"value": 76, "unit": "countries, more than 85 percent of the 2005 Free group, that remained Free through 2025", "value_type": "reported_count_share"},
+        "partly_to_free_upgrades": {"value": 3, "unit": "countries upgraded from Partly Free to Free in 2025", "value_type": "reported_count"},
+        "upgrade_mechanisms": {"value": "competitive elections, judicial independence, and stronger rule of law contributed to the highlighted upgrades", "unit": "report country-case synthesis", "value_type": "reported_mechanism"}
+      },
+      "method": "Freedom House longitudinal status comparison and country-level narrative assessment.",
+      "uncertainty": "The persistence and upgrade comparisons describe status outcomes, not causal effect sizes; selected country narratives may not represent all reform pathways.",
+      "subgroup": "Democratic systems, reforming countries, electoral institutions, judiciaries, civil society, and populations benefiting from improved rights protections.",
+      "counterinterpretation": "Resilience is not permanence, and formal status upgrades can coexist with unresolved inequality, exclusion, or localized rights violations.",
+      "source_url": "https://freedomhouse.org/sites/default/files/2026-03/FIW2026_final_digital%20%281%29.pdf",
+      "retrieval_hash": "sha256:d5942a41af9b14e0d8d5151cdf2f11f936a1f90398dff7f5cd59610a5f1d12b2",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://www.idea.int/publications/catalogue/global-state-democracy-2026-democracy-age-conflict", "claim": "International IDEA provides a complementary democracy-performance and conflict lens."},
+    {"source_url": "https://freedomhouse.org/report/freedom-world/research-methodology", "claim": "Freedom House methodology documents the indicator and classification framework."}
+  ],
+  "boundary": "This record adds an independent political-rights and civil-liberties route linking freedom decline, conflict, coups, institutional erosion, media and expression, due process, and reform resilience. It uses an expert-coded country and territory index, not respondent-level political attitudes, individual rights histories, causal repression estimates, or a replacement for the International IDEA assessment.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "The official Freedom House Freedom in the World 2026 PDF and methodology summary were reviewed for the 208-country-and-territory frame, 2025 score changes, status distribution, longitudinal drivers, and resilience findings.",
+    "source_url_sha256": "sha256:d5942a41af9b14e0d8d5151cdf2f11f936a1f90398dff7f5cd59610a5f1d12b2",
+    "checked": "2026-09-26"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gallup-kettering-democracy-local-national-legitimacy-2026",
+  "title": "Democratic commitment persists while national performance judgments weaken and local legitimacy is stronger",
+  "theme_ids": ["voice"],
+  "program_theme_ids": [
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "public_systems_feedback",
+    "unequal_exposure_status"
+  ],
+  "source_unit": "Gallup and Charles F. Kettering Foundation Democracy for All Project survey",
+  "geography": "United States",
+  "observations": [
+    {
+      "period": "April 24–June 10, 2026",
+      "denominator": {
+        "value": 23683,
+        "unit": "U.S. adults in the Democracy for All Project survey",
+        "value_type": "survey_respondent_count"
+      },
+      "measures": {
+        "national_democracy_doing_poorly": {
+          "value": 56,
+          "unit": "percent saying U.S. democracy is doing very or moderately poorly",
+          "value_type": "published_share"
+        },
+        "national_democracy_doing_well": {
+          "value": 19,
+          "unit": "percent saying U.S. democracy is doing very or moderately well",
+          "value_type": "published_share"
+        },
+        "trust_political_leaders_accountability": {
+          "value": 28,
+          "unit": "percent trusting political leaders to be held accountable to the nation's laws and Constitution",
+          "value_type": "published_share"
+        },
+        "local_democracy_doing_well": {
+          "value": 34,
+          "unit": "percent saying democracy in their own city or town is doing very or moderately well",
+          "value_type": "published_share"
+        },
+        "local_democracy_doing_poorly": {
+          "value": 21,
+          "unit": "percent saying democracy in their own city or town is doing very or moderately poorly",
+          "value_type": "published_share"
+        },
+        "executive_branch_too_much_power": {
+          "value": 59,
+          "unit": "percent saying the executive branch has too much power",
+          "value_type": "published_share"
+        },
+        "rule_of_law_weaker_than_ten_years_ago": {
+          "value": 56,
+          "unit": "percent saying the rule of law is weaker than 10 years ago",
+          "value_type": "published_share"
+        }
+      },
+      "method": "Gallup and Kettering Foundation survey of 23,683 U.S. adults; the published page reports a margin of sampling error of plus or minus 1 percentage point at the 95% confidence level.",
+      "uncertainty": "The national-versus-local comparison uses different evaluative referents and is descriptive, not a within-person causal or geographic estimate. Local positivity may reflect familiarity, specific leaders, community ties, or different expectations. The page does not establish that local trust causes national democratic commitment or action.",
+      "subgroup": "U.S. adults; the public page reports overall results and does not provide the complete subgroup microdata without a data-access form.",
+      "counterinterpretation": "Local and national ratings may be responding to different political objects rather than showing a relocation of legitimacy. Negative national judgments can coexist with local satisfaction because local government and national government perform different functions and have different visibility.",
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "retrieval_hash": "sha256:bc23add63777360f7a9f8240ccd717cfafca9fda8fdaa10efd2c2b0b6230efdb",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.gallup.com/analytics/697985/democracy-for-all.aspx",
+      "claim": "Official Gallup/Kettering project page with report figures and methodology.",
+      "status": "official-report-page"
+    }
+  ],
+  "boundary": "This record supports a descriptive local-national legitimacy contrast. It does not measure democratic performance objectively, prove institutional failure, identify a causal source of frustration, or observe later voting, organizing, trust change, or exit.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official Gallup/Kettering project page reviewed; the downloadable dataset is access-gated by a contact form and is not retained.",
+    "checked": "2026-09-25"
+  }
+}

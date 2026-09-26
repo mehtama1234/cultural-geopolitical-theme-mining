@@ -1,0 +1,90 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-un-financing-sustainable-development-fragmentation-2026",
+  "title": "Geopolitical fragmentation is tightening development finance and narrowing public room to absorb shocks",
+  "theme_ids": ["cost", "energy", "voice"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "public_systems_feedback",
+    "firm_sector_market_power",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "political_judgment_action"
+  ],
+  "source_unit": "United Nations Inter-agency Task Force on Financing for Development, Financing for Sustainable Development Report 2026: Implementing the Sevilla Commitment",
+  "geography": "Global, with emphasis on developing countries, vulnerable economies, and international financing systems",
+  "observations": [
+    {
+      "period": "2026 report; annual development-finance requirement",
+      "denominator": {
+        "value": 1,
+        "unit": "developing-country sustainable-development financing frame",
+        "value_type": "global_policy_estimate_frame"
+      },
+      "measures": {
+        "annual_sdg_financing_gap": {"value": 4000000000000, "unit": "US dollars per year; over $4 trillion estimated gap to achieve the Sustainable Development Goals", "value_type": "reported_global_estimate"},
+        "investment_direction": {"value": "annual investment growth in developing countries fell from 8% to 4% between 2007 and 2020", "unit": "reported growth-rate comparison", "value_type": "reported_trend"},
+        "priority_route": {"value": "scale financing and investment while aligning it with country priorities and sustainable-development impact", "unit": "reported policy priority", "value_type": "reported_policy_pathway"}
+      },
+      "method": "UN Inter-agency Task Force synthesis of macroeconomic conditions, development finance, investment, debt, trade, international financial architecture, and early implementation of the Sevilla Commitment.",
+      "uncertainty": "The financing gap is an aggregate requirement estimate, not a guaranteed funding shortfall for every country or project. It depends on SDG costing, growth, prices, investment assumptions, policy choices, and the definition of development needs.",
+      "subgroup": "Developing countries, least-developed and vulnerable economies, public institutions, private investors, multilateral development banks, and communities relying on public investment.",
+      "counterinterpretation": "Large aggregate financing needs can coexist with effective domestic or local projects; additional money does not automatically produce equitable outcomes without country ownership, implementation capacity, and accountability.",
+      "source_url": "https://desapublications.un.org/publications/financing-sustainable-development-report-2026",
+      "retrieval_hash": "sha256:b92c568a68c618fd1e7588548a8b202b80e4c16260a8f0f1dbb0856e1b58d534",
+      "status": "estimated"
+    },
+    {
+      "period": "2024-2026; developing-country fiscal and external-finance pressure",
+      "denominator": {
+        "value": 1,
+        "unit": "developing-country public-finance and development-cooperation comparison frame",
+        "value_type": "multi_country_policy_comparison"
+      },
+      "measures": {
+        "debt_service_burden": {"value": "reached 20-year highs in developing countries and Small Island Developing States in 2024", "unit": "reported fiscal trend", "value_type": "reported_trend"},
+        "low_tax_revenue_countries": {"value": 70, "unit": "more than developing countries collecting tax revenue below 15% of GDP", "value_type": "reported_country_count"},
+        "oda_change": {"value": -23.1, "unit": "percent change in official development assistance from 2024 to 2025", "value_type": "reported_annual_change"}
+      },
+      "method": "UN report and companion official summaries comparing debt service, domestic resource mobilization, and official development assistance across developing-country settings.",
+      "uncertainty": "The indicators use different country and accounting frames; they do not establish that debt service or aid changes caused a particular service cut, household loss, or political response. ODA totals can reflect timing, exchange rates, and exceptional flows.",
+      "subgroup": "Developing countries, Small Island Developing States, low-tax-capacity governments, aid recipients, public-service users, and creditors or development-finance providers.",
+      "counterinterpretation": "Fiscal stress can prompt tax reform, concessional finance, debt restructuring, or more efficient public delivery; a low tax-to-GDP ratio alone does not measure state effectiveness or service quality.",
+      "source_url": "https://www.un.org/en/desa/fsdr-2026",
+      "retrieval_hash": "sha256:b92c568a68c618fd1e7588548a8b202b80e4c16260a8f0f1dbb0856e1b58d534",
+      "status": "reported"
+    },
+    {
+      "period": "2024-2026; fragmentation, energy transition, and resilience",
+      "denominator": {
+        "value": 1,
+        "unit": "global development-finance, trade, climate, and investment system frame",
+        "value_type": "global_system_analysis_universe"
+      },
+      "measures": {
+        "renewable_energy_investment_2024": {"value": 2200000000000, "unit": "US dollars in renewable-energy capital spending in 2024", "value_type": "reported_global_flow"},
+        "renewable_vs_fossil_investment": {"value": 2, "unit": "renewable-energy investment was approximately twice fossil-fuel investment in 2024", "value_type": "reported_relative_comparison"},
+        "fragmentation_route": {"value": "geopolitical considerations are diverting trade and investment, discouraging cross-border capital flows, and increasing volatility", "unit": "reported geopolitical-finance mechanism", "value_type": "reported_mechanism"}
+      },
+      "method": "UN inter-agency assessment of international finance, trade and investment conditions, climate-related shocks, energy investment, and multilateral cooperation.",
+      "uncertainty": "Investment flows and geopolitical associations do not by themselves identify ownership, local employment, affordability, resilience, or distributional effects. Renewable investment totals include global projects with different technologies, financing structures, and access outcomes.",
+      "subgroup": "States, firms, investors, energy systems, communities exposed to climate and price shocks, and countries dependent on external capital, trade, or technology.",
+      "counterinterpretation": "Fragmentation can sometimes diversify supply, strengthen domestic capability, or redirect investment toward resilience; multilateral coordination is a route to reduce volatility, not proof that every cross-border flow is beneficial.",
+      "source_url": "https://www.un.org/en/desa/fsdr-2026",
+      "retrieval_hash": "sha256:b92c568a68c618fd1e7588548a8b202b80e4c16260a8f0f1dbb0856e1b58d534",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://desapublications.un.org/sites/default/files/publications/2026-04/FSDR2026.pdf", "claim": "Official UN publication PDF for the report."},
+    {"source_url": "https://www.un.org/en/desa/development-finance-gap-risks-reversing-decades-of-progress", "claim": "UN companion summary of the financing gap and geopolitical fragmentation findings."},
+    {"source_url": "https://unctad.org/publication/financing-sustainable-development-report-2026-implementing-sevilla-commitment", "claim": "UN Trade and Development publication landing page for the same report."}
+  ],
+  "boundary": "This record adds a development-finance-to-public-capacity and geopolitical-fragmentation route. It is not a US household result, does not estimate a country-specific service cut or political reaction, and does not establish that financing conditions caused any particular consumer, migration, health, or legitimacy outcome.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UN DESA publication and companion summary pages were retrieved; the financing-gap, investment, debt-service, tax, ODA, renewable-investment, and fragmentation claims were cross-checked against official UN materials. The hash is a source-URL fingerprint because the publication host rejected automated PDF retrieval.",
+    "source_url_sha256": "sha256:b92c568a68c618fd1e7588548a8b202b80e4c16260a8f0f1dbb0856e1b58d534",
+    "checked": "2026-09-26"
+  }
+}

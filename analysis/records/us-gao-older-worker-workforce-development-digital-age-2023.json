@@ -1,0 +1,82 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-older-worker-workforce-development-digital-age-2023",
+  "title": "Older workers can enter public job programs while training and follow-through remain uneven",
+  "theme_ids": ["work", "time", "voice"],
+  "program_theme_ids": [
+    "care_health_reproduction",
+    "public_systems_feedback",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "GAO-26-107439, Older Workers: Department of Labor Should Help State and Local Partners Share Promising Practices",
+  "geography": "United States; six federal workforce development programs and job centers in five states",
+  "observations": [
+    {
+      "period": "Program year 2023, July 2023–June 2024; interviews conducted for GAO review published January 2026",
+      "denominator": {
+        "value": 769265,
+        "unit": "participants age 55 or older across six selected federal workforce development programs",
+        "value_type": "administrative_program_participant_count"
+      },
+      "measures": {
+        "older_participant_share": {
+          "value": "about 22%",
+          "unit": "share of participants in the six selected programs age 55 or older",
+          "value_type": "reported_share"
+        },
+        "post_exit_employment_wioa": {
+          "value": "about 60% for older adults versus 69% for ages 40–54 and 73% for ages 16–39",
+          "unit": "reported having a job in the second quarter after exiting selected DOL-administered programs",
+          "value_type": "reported_comparison"
+        },
+        "post_exit_employment_vocational_rehabilitation": {
+          "value": "about 50% for older adults versus 54% for ages 40–54 and 58% for ages 16–39",
+          "unit": "reported having a job after exiting Education vocational rehabilitation",
+          "value_type": "reported_comparison"
+        },
+        "training_use": {
+          "value": "older participants used training less often than younger participants in each compared adult program; for example 23% versus 45% in WIOA Adult and 14% versus 25% in WIOA Dislocated Worker",
+          "unit": "share using any training services in program year 2023",
+          "value_type": "reported_comparison"
+        },
+        "participant_voice": {
+          "value": "41 older workers at 10 job centers in five states described digital-literacy and employment benefits alongside application, skills, limited openings, and possible age-discrimination challenges",
+          "unit": "non-generalizable interviews and group discussions",
+          "value_type": "qualitative_sample"
+        },
+        "coordination": {
+          "value": "promising older-worker practices existed in some state and local sites but were described as ad hoc; GAO made one open recommendation for DOL to facilitate information sharing",
+          "unit": "state/local partner coordination",
+          "value_type": "reported_finding"
+        },
+        "durable_security": {
+          "value": "not observed as a linked path from program entry through job quality, earnings, household security, retention, or retirement timing",
+          "unit": "missing longer-term outcome chain",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "GAO analyzed Department of Labor and Education data for six selected programs, compared older and younger participants' services and post-exit employment, reviewed all 50 WIOA State Plans for program year 2024, and conducted nine non-generalizable discussions with 41 older workers at 10 job centers in five states.",
+      "uncertainty": "The six programs are selected from 38 adult-serving programs and the interviewed workers and sites are not generalizable. Post-exit employment is descriptive and does not adjust here for health, disability, prior work, occupation, caregiving, retirement plans, local labor demand, age discrimination, or program selection. Exit generally occurs after 90 days without services and no plan for future services, so it is not a common employment endpoint for every participant.",
+      "subgroup": "Participants age 55 or older compared with ages 16–39 and 40–54 across selected DOL and Education programs; programs include WIOA, Wagner-Peyser, SCSEP, TAA, and vocational rehabilitation.",
+      "counterinterpretation": "Lower training use may reflect family or financial commitments, preference for immediate work, or proximity to planned retirement rather than program failure. Older workers may face different job targets and health or disability constraints. A shared-practice recommendation could improve learning across sites without proving that every local initiative works.",
+      "source_url": "https://www.gao.gov/products/gao-26-107439",
+      "retrieval_hash": "sha256:3c8f54ce79dbe38dbfd132d13d58be189cb6f16ec159e26c87a2df226f73aec7",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://files.gao.gov/assets/gao-26-107439.pdf",
+      "claim": "Official GAO report provides participant counts, service use, post-exit employment comparisons, interviews, and the DOL coordination recommendation.",
+      "status": "official-report"
+    }
+  ],
+  "boundary": "This record adds an aging-workforce and public-service usability layer: a large older-worker participant group can coexist with lower training use, lower post-exit employment, and locally useful but poorly shared practices. It does not establish age discrimination, program causality, durable earnings, retirement security, or household wellbeing.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page and full report PDF reviewed; underlying DOL and Education microdata are not retained.",
+    "pdf_sha256": "sha256:3c8f54ce79dbe38dbfd132d13d58be189cb6f16ec159e26c87a2df226f73aec7",
+    "checked": "2026-09-23"
+  }
+}

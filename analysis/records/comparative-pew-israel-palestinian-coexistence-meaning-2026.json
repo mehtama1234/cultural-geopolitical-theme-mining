@@ -1,0 +1,63 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-pew-israel-palestinian-coexistence-meaning-2026",
+  "title": "Geopolitical coexistence judgments combine shared distrust with different attributed obstacles",
+  "theme_ids": ["voice", "cost", "time"],
+  "program_theme_ids": [
+    "geopolitical_state_consequences",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "unequal_exposure_status",
+    "public_systems_feedback"
+  ],
+  "source_unit": "Pew Research Center Spring 2026 Global Attitudes Survey; Israeli adults and Palestinians in the West Bank and East Jerusalem",
+  "geography": "Israel and West Bank/East Jerusalem; Gaza not surveyed",
+  "observations": [
+    {
+      "period": "Israeli fieldwork April 5-May 6, 2026; West Bank/East Jerusalem fieldwork March 30-April 28, 2026; report September 15, 2026",
+      "denominator": {
+        "value": 1001,
+        "unit": "Israeli adults surveyed; separate West Bank/East Jerusalem sample n=1038",
+        "value_type": "survey_respondents"
+      },
+      "measures": {
+        "coexistence_possible_israel": {
+          "value": 17,
+          "unit": "percent of Israeli adults saying Israel and an independent Palestinian state could coexist peacefully",
+          "value_type": "published_share"
+        },
+        "coexistence_possible_west_bank_east_jerusalem": {
+          "value": 21,
+          "unit": "percent of Palestinians in the West Bank and East Jerusalem saying coexistence could be peaceful",
+          "value_type": "published_share"
+        },
+        "coexistence_not_possible": {
+          "value": "Israel 56%; West Bank/East Jerusalem 68%",
+          "unit": "percent saying peaceful coexistence is not possible",
+          "value_type": "published_group_comparison"
+        },
+        "attributed_obstacles": {
+          "value": "Open-ended explanations include land and identity conflict, historical and recent violence, distrust, perceived existential threat among Israelis, and occupation/control, checkpoints, and lack of security or political rights among Palestinians",
+          "unit": "coded themes in respondents' own explanations",
+          "value_type": "qualitative_coding_summary"
+        }
+      },
+      "method": "Face-to-face survey under Gallup direction in Hebrew and Arabic, followed by an open-ended request for respondents to explain their coexistence judgment; Pew coded the explanations into recurring themes.",
+      "uncertainty": "Fieldwork occurred during the Iran war and around an initial ceasefire. Gaza was not surveyed. Open-ended coding captures stated explanations, not a causal test of why attitudes formed or whether they predict behavior.",
+      "subgroup": "Israeli adults, including Jewish and Arab Israelis, and Palestinians in the West Bank and East Jerusalem; Pew also reports differences by political coalition support and ethnicity.",
+      "counterinterpretation": "Pessimism may reflect wartime salience and immediate security conditions rather than a permanent cultural disposition. Shared categories such as distrust do not imply that the two populations attribute responsibility, risk, or a feasible remedy in the same way.",
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/many-israelis-and-palestinians-say-they-cannot-coexist-peacefully-and-explain-why/",
+      "retrieval_hash": "sha256:f3f37016228dc0c649ded475ff212fe7a69d46fcd21af0dd635c58d2800e5ba8",
+      "status": "compared"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.pewresearch.org/global/2026/09/15/appendix-b-coding-methodology-coexistence/",
+      "claim": "Pew's open-ended response coding methodology and sample details.",
+      "status": "methodology"
+    }
+  ],
+  "boundary": "This record adds a geopolitical meaning and attribution layer. It does not establish a causal effect of war, occupation, leadership, aid, or identity on attitudes, and it does not measure later political action, reconciliation, or counterpart behavior.",
+  "retrieval_hash": "sha256:f3f37016228dc0c649ded475ff212fe7a69d46fcd21af0dd635c58d2800e5ba8"
+}

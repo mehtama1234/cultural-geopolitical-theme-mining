@@ -1,0 +1,35 @@
+{
+  "schema": "hrsa-ohio-coordinate-availability-audit-v1",
+  "checked": "2026-09-19",
+  "source": {
+    "local_file": "analysis/projects/us-local-business-place/data/hrsa-primary-care-hpsa.csv",
+    "official_url": "https://data.hrsa.gov/DataDownload/DD_Files/BCD_HPSA_FCT_DET_PC.csv",
+    "vintage_field_observed": "2026-09-14",
+    "filter": "Common State Abbreviation == OH; HPSA Status != Withdrawn"
+  },
+  "unit": "Ohio primary-care HPSA component row",
+  "result": {
+    "rows_after_filter": 1342,
+    "rows_with_latitude_and_longitude": 94,
+    "coordinate_share": 0.0700447094,
+    "county_fips_present": 1342,
+    "distinct_county_fips": 82,
+    "status_breakdown": {
+      "Designated": {"rows": 1139, "rows_with_coordinates": 92},
+      "Proposed For Withdrawal": {"rows": 203, "rows_with_coordinates": 2}
+    },
+    "designation_type_breakdown": {
+      "HPSA Population": {"rows": 1081, "rows_with_coordinates": 0},
+      "Geographic HPSA": {"rows": 87, "rows_with_coordinates": 0},
+      "High Needs Geographic HPSA": {"rows": 80, "rows_with_coordinates": 0},
+      "Federally Qualified Health Center": {"rows": 51, "rows_with_coordinates": 51},
+      "Correctional Facility": {"rows": 24, "rows_with_coordinates": 24},
+      "Federally Qualified Health Center Look A Like": {"rows": 10, "rows_with_coordinates": 10},
+      "Rural Health Clinic": {"rows": 7, "rows_with_coordinates": 7},
+      "Other Facility": {"rows": 2, "rows_with_coordinates": 2}
+    }
+  },
+  "interpretation": "The retained file can support a bounded coordinate-based follow-up for facility-type rows, but not resident travel time or reachable care for population/geographic HPSA rows. HPSA designation is not appointment availability, insurance acceptance, wait, completed use, or recovery.",
+  "next_test": "For the 94 coordinate-bearing rows, validate active facility identity, service type, hours, accepting patients/insurance, and travel-time assumptions; keep the 1248 non-coordinate rows as an explicit missingness boundary and do not assign their county label to every resident. The official HRSA Health Center Service Delivery and Look-Alike Sites CSV is the next controlled site-identity route: it lists more than 16,200 sites, is refreshed daily, and was listed at approximately 10.5 MB on the 2026-08-26 catalog entry; acquire only the Ohio-filtered slice or use a documented query/export.",
+  "storage_boundary": "Uses the already retained public aggregate/component file; no patient or appointment records are retained."
+}

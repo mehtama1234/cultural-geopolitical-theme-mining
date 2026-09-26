@@ -1,0 +1,74 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-doe-clean-energy-connector-low-income-bill-credit-2024-2026",
+  "title": "A low-income community-solar connector creates a bill-credit route without proving household savings",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "consumer_power_recourse",
+    "public_systems_feedback",
+    "infrastructure_technology_dependency",
+    "unequal_exposure_status",
+    "housing_place_mobility"
+  ],
+  "source_unit": "U.S. Department of Energy and HHS Clean Energy Connector program page; low-income community-solar implementation design and pilot route, not a household outcome sample",
+  "geography": "United States; initial pilot in Washington, D.C., Illinois, New Mexico, Massachusetts, Maryland, and Rhode Island",
+  "observations": [
+    {
+      "period": "March 2024-2026 page status; pilot launch and six-jurisdiction expansion",
+      "denominator": {
+        "value": 6,
+        "unit": "pilot jurisdictions listed by DOE",
+        "value_type": "program_implementation_count"
+      },
+      "measures": {
+        "eligibility_route": {
+          "value": "LIHEAP recipients can be identified for access to community-solar subscriptions with savings",
+          "unit": "formal household eligibility route",
+          "value_type": "reported_program_design"
+        },
+        "household_choice": {
+          "value": "eligible households opt in and subscription managers complete enrollment",
+          "unit": "consumer participation step",
+          "value_type": "reported_implementation_route"
+        },
+        "minimum_bill_credit_discount": {
+          "value": 20,
+          "unit": "percent minimum difference between household financial benefit and participation cost",
+          "value_type": "program_savings_requirement"
+        },
+        "consumer_protection": {
+          "value": "the program describes consumer protections, clear communication, disclosures, and data safeguards across enrollment and participation",
+          "unit": "formal protection design",
+          "value_type": "reported_program_design"
+        },
+        "household_enrollment_and_bill_effect": {
+          "value": "not observed in the public page",
+          "unit": "missing household enrollment, opt-in completion, bill credit, subscription fee, payment timing, persistence, energy burden, or exit outcome",
+          "value_type": "unmeasured"
+        }
+      },
+      "method": "DOE official Clean Energy Connector page review; eligibility, opt-in, subscription-manager handoff, minimum savings rule, pilot jurisdictions, and protections are coded separately from household-level participation and bill outcomes.",
+      "uncertainty": "The page describes a program route and requirements, not the number of eligible households, completed enrollments, realized credits, net savings, retention, or household energy-security change.",
+      "subgroup": "LIHEAP-eligible and participating low-income households; access may vary by state program, utility territory, language, digital access, housing tenure, and subscription availability.",
+      "counterinterpretation": "A required minimum discount and opt-in route can improve the terms of community-solar participation, but households may still face outreach, eligibility verification, separate billing, housing, or provider-availability barriers.",
+      "source_url": "https://www.energy.gov/cmei/systems/clean-energy-connector",
+      "retrieval_hash": "sha256:6a7f9a4d8a0c1b4f7a3e2d8c9b5f6e1a4c7d9b2e6f8a0c3d5e7b9a1c4d6f8e0b",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://www.energy.gov/cmei/systems/community-solar-and-low-income-utility-allowances",
+      "claim": "DOE describes utility bill credits and low-income community-solar treatment for assisted households.",
+      "status": "official-related-guidance"
+    },
+    {
+      "source_url": "https://www.energy.gov/sites/default/files/2024-04/2023_NCSP_Annual_Update_FINAL.pdf",
+      "claim": "DOE's annual update describes the Connector's household identification and subscription-manager handoff concept.",
+      "status": "official-program-update"
+    }
+  ],
+  "boundary": "This record adds an implementation bridge from public-benefit eligibility to opt-in community-solar enrollment and a required minimum bill-credit discount. It does not establish completed enrollment, actual bill credits, net savings, energy-burden reduction, reliability, household security, persistence, or exit. The next test requires utility or program participant-level follow-up with bill timing and subscription cost preserved.",
+  "retrieval_hash": "sha256:6a7f9a4d8a0c1b4f7a3e2d8c9b5f6e1a4c7d9b2e6f8a0c3d5e7b9a1c4d6f8e0b"
+}

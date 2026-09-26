@@ -1,0 +1,62 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-nber-chicago-remote-learning-engagement-rcts-2026",
+  "title": "Personalized school outreach increased program take-up while generic digital engagement tools produced mixed learning results",
+  "theme_ids": ["time", "voice", "cost"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "household_room_consumption",
+    "trust_identity_meaning"
+  ],
+  "source_unit": "NBER Working Paper 34996, three randomized field experiments in Chicago Public Schools during remote learning",
+  "geography": "Chicago Public Schools, United States; remote and summer learning interventions",
+  "observations": [
+    {
+      "period": "three randomized trials during the remote-learning period; paper issued March 2026",
+      "denominator": {
+        "value": 3,
+        "unit": "randomized field experiments testing phone outreach, weekly text messages, and instructional-aide support",
+        "value_type": "reported_experiment_count"
+      },
+      "measures": {
+        "personalized_outreach": {
+          "value": "personalized phone calls increased families' likelihood of registering for a virtual summer-school program",
+          "unit": "pre-specified registration outcome",
+          "value_type": "estimated_effect"
+        },
+        "weekly_texts": {
+          "value": "weekly text messages had no effect on summer days absent or Khan Academy use, while a secondary math-course outcome improved",
+          "unit": "engagement and course outcomes",
+          "value_type": "mixed_effect"
+        },
+        "instructional_aide": {
+          "value": "adding an instructional aide had no effect on primary summer attendance or platform-use outcomes, with beneficial effects reported in following-year math grades and passing rates",
+          "unit": "primary and later academic outcomes",
+          "value_type": "mixed_effect"
+        },
+        "realized_learning": {
+          "value": "some interventions changed take-up or later performance, but effects did not consistently extend across attendance, platform use, and learning outcomes",
+          "unit": "implementation-to-learning boundary",
+          "value_type": "partially_observed"
+        }
+      },
+      "method": "Three randomized controlled field experiments in Chicago Public Schools testing personalized phone calls, weekly text messages, and an instructional aide, with pre-specified primary outcomes and secondary/later outcomes.",
+      "uncertainty": "The interventions occurred in specific remote-learning and summer-school settings. Mixed primary and secondary results should not be collapsed into one engagement effect, and the record does not establish long-run attainment, family burden, or generalization to other districts.",
+      "subgroup": "Chicago public-school students and families; intervention, course, grade, and remote-learning conditions differ across the three experiments.",
+      "counterinterpretation": "Personalized calls may change registration through information or social support without improving learning; null platform-use effects may coexist with learning gains; secondary and later outcomes require separate interpretation from pre-specified primary outcomes.",
+      "source_url": "https://www.nber.org/papers/w34996",
+      "retrieval_hash": "sha256:93803b1fe3e94afe5a8afb2e2356c32a9bc642908c86952c7c518713f20255e1",
+      "status": "estimated"
+    }
+  ],
+  "related_sources": [
+    {
+      "source_url": "https://doi.org/10.3386/w34996",
+      "claim": "Official NBER DOI identifies the working paper.",
+      "status": "official-paper-identifier"
+    }
+  ],
+  "boundary": "This record measures randomized intervention effects on school registration, attendance, platform use, and selected later academic outcomes in Chicago Public Schools. It does not establish national effects, durable educational attainment, household burden, or a single universal digital-engagement mechanism."
+}

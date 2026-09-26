@@ -1,0 +1,94 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "comparative-unctad-digital-economy-environmental-footprint-2024",
+  "title": "Digital expansion is intensifying demand for energy, water, minerals, and devices while distributing ecological costs unevenly",
+  "theme_ids": ["cost", "voice", "time"],
+  "program_theme_ids": [
+    "household_room_consumption",
+    "geopolitical_state_consequences",
+    "unequal_exposure_status",
+    "public_systems_feedback",
+    "work_control_bargaining",
+    "housing_place_mobility",
+    "political_judgment_action"
+  ],
+  "source_unit": "UNCTAD, Digital Economy Report 2024: Shaping an environmentally sustainable and inclusive digital future",
+  "geography": "Global digital economy, ICT devices and infrastructure, digital trade, critical-mineral supply chains, and developing-country ecological and economic exposure",
+  "observations": [
+    {
+      "period": "2010-2029; digital-device, e-commerce, and infrastructure expansion",
+      "denominator": {
+        "value": 1,
+        "unit": "global digital-economy and ICT infrastructure frame",
+        "value_type": "global_digital_economy_frame"
+      },
+      "measures": {
+        "smartphone_shipments_2023": {"value": 1200000000, "unit": "annual smartphone shipments in 2023, approximately", "value_type": "reported_global_volume"},
+        "iot_devices_2029": {"value": 39000000000, "unit": "projected Internet-of-Things devices by 2029", "value_type": "reported_projection"},
+        "business_ecommerce_2022": {"value": 27000000000000, "unit": "US dollars in business e-commerce sales in 2022 across 43 countries, approximately", "value_type": "reported_trade_value"},
+        "digital_electricity_share": {"value": "6-12", "unit": "percent estimated share of global electricity use from digital devices, data centres, and ICT networks", "value_type": "reported_global_range"}
+      },
+      "method": "UNCTAD synthesis of device shipments, e-commerce statistics, ICT infrastructure, energy-use estimates, and digitalization life-cycle analysis.",
+      "uncertainty": "Digital-footprint estimates vary with system boundaries, device lifetimes, electricity mixes, indirect effects, and data availability; projections are scenario-dependent.",
+      "subgroup": "Consumers, firms, data-centre operators, ICT networks, e-commerce markets, device workers, connected and unconnected populations, and places hosting digital infrastructure.",
+      "counterinterpretation": "Digital services can reduce some travel, material, or transaction costs and improve access, but rebound effects, device turnover, and infrastructure growth can offset efficiency gains.",
+      "source_url": "https://unctad.org/publication/digital-economy-report-2024",
+      "retrieval_hash": "sha256:95799249830302967a77974c6c060612fb65fb36a49ac236977347f3117a6efa",
+      "status": "reported"
+    },
+    {
+      "period": "2022-2026; data-centre energy and water intensity",
+      "denominator": {
+        "value": 1,
+        "unit": "global data-centre and digital-infrastructure resource-use frame",
+        "value_type": "global_infrastructure_resource_frame"
+      },
+      "measures": {
+        "data_centres_energy_2022": {"value": 460, "unit": "terawatt-hours of estimated data-centre electricity consumption globally in 2022", "value_type": "reported_global_estimate"},
+        "data_centres_energy_2026": {"value": 1000, "unit": "terawatt-hours of projected data-centre electricity consumption globally in 2026", "value_type": "reported_projection"},
+        "google_water_2022": {"value": 21000000, "unit": "cubic metres of water consumed by Google data centres and offices in 2022, approximately", "value_type": "reported_company_total"},
+        "water_stress_exposure": {"value": 20, "unit": "percent of direct data-centre server water footprint in the United States reportedly sourced from moderately to highly water-stressed watersheds", "value_type": "reported_share"}
+      },
+      "method": "UNCTAD compilation of data-centre energy and water estimates, company disclosures, and location-specific water-stress analysis.",
+      "uncertainty": "Energy and water footprints depend on accounting boundaries, cooling technology, grid mix, siting, climate, and company disclosure; global projections are not local service-incidence estimates.",
+      "subgroup": "Data-centre host communities, electricity and water utilities, households sharing local infrastructure, technology firms, regulators, and water-stressed regions.",
+      "counterinterpretation": "Improved efficiency, low-carbon power, water recycling, alternative cooling, and careful siting can reduce local and global impacts; digital infrastructure is not uniformly harmful.",
+      "source_url": "https://unctad.org/system/files/official-document/der2024_en.pdf",
+      "retrieval_hash": "sha256:95799249830302967a77974c6c060612fb65fb36a49ac236977347f3117a6efa",
+      "status": "reported"
+    },
+    {
+      "period": "2023-2050; critical-mineral concentration and digital-waste inequality",
+      "denominator": {
+        "value": 1,
+        "unit": "global critical-mineral, digital-waste, and circularity frame",
+        "value_type": "global_digital_materials_frame"
+      },
+      "measures": {
+        "critical_mineral_demand_change": {"value": 500, "unit": "percent projected increase by 2050 in demand for cobalt, graphite, and lithium cited by the report", "value_type": "reported_projection"},
+        "cobalt_production_concentration": {"value": 74, "unit": "percent of global cobalt production from the Democratic Republic of the Congo in 2023", "value_type": "reported_production_share"},
+        "lithium_production_concentration": {"value": 72, "unit": "percent of global lithium production from Australia and Chile in 2023", "value_type": "reported_production_share"},
+        "developing_country_e_waste_collection": {"value": 7.5, "unit": "percent of digital waste formally collected in developing countries in 2022", "value_type": "reported_collection_share"},
+        "developed_country_e_waste_collection": {"value": 47, "unit": "percent of digital waste formally collected in developed countries in 2022", "value_type": "reported_collection_share"},
+        "global_circularity": {"value": 7.2, "unit": "percent estimated share of the global economy considered circular", "value_type": "reported_global_estimate"}
+      },
+      "method": "UNCTAD analysis of critical-mineral supply concentration, digital-waste flows, formal collection, value-chain position, and circular-economy indicators.",
+      "uncertainty": "Mineral concentration and waste statistics use different years, definitions, and reporting systems; projected demand is sensitive to technology, substitution, recycling, and policy assumptions.",
+      "subgroup": "Mineral-rich developing countries, mining and processing communities, device consumers, informal waste workers, recyclers, farmers and households competing for water, and downstream technology firms.",
+      "counterinterpretation": "Mineral demand can create value-chain and employment opportunities when countries add value and protect rights; formal collection and repair can improve recovery, jobs, and material efficiency.",
+      "source_url": "https://unctad.org/system/files/official-document/der2024_overview_en.pdf",
+      "retrieval_hash": "sha256:95799249830302967a77974c6c060612fb65fb36a49ac236977347f3117a6efa",
+      "status": "reported"
+    }
+  ],
+  "related_sources": [
+    {"source_url": "https://unctad.org/meeting/launch-digital-economy-report-2024", "claim": "UNCTAD report launch and environmental-footprint framing."},
+    {"source_url": "https://unctad.org/press-material/un-trade-and-development-calls-sustainable-and-equitable-strategies-mitigate-digital", "claim": "UNCTAD summary of unequal digital ecological burdens and circularity recommendations."}
+  ],
+  "boundary": "This record adds a digital-consumption-to-energy, water, minerals, e-waste, value-chain, and geopolitical-resource route. It is not household device-use data, local environmental-impact measurement, individual consumer behavior, or proof of causal effects from digitalization on communities.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official UNCTAD Digital Economy Report publication page, full report, overview, launch page, and press material were retrieved; device, e-commerce, electricity, data-centre, water, mineral, e-waste, and circularity claims were cross-checked.",
+    "source_url_sha256": "sha256:95799249830302967a77974c6c060612fb65fb36a49ac236977347f3117a6efa",
+    "checked": "2026-09-26"
+  }
+}

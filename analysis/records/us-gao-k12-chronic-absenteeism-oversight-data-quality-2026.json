@@ -1,0 +1,69 @@
+{
+  "format": "us-trend-observation-record-v1",
+  "trend_id": "us-gao-k12-chronic-absenteeism-oversight-data-quality-2026",
+  "title": "Chronic-absence measurement and federal monitoring can fail together when school funding depends on the data",
+  "theme_ids": ["cost", "time", "voice"],
+  "program_theme_ids": [
+    "public_systems_feedback",
+    "care_health_reproduction",
+    "unequal_exposure_status",
+    "trust_identity_meaning",
+    "political_judgment_action",
+    "household_room_consumption"
+  ],
+  "source_unit": "GAO-26-107920, K-12 Education: Actions to Improve Oversight of Key Federal Programs and Address High Chronic Absenteeism; Education Department monitoring and school-year 2022–2023 data review",
+  "geography": "United States K-12 public education and ESEA-funded states and schools",
+  "observations": [{
+    "period": "School year 2022–2023 chronic-absence data; federal monitoring status in 2026; ESEA funding context FY2025",
+    "denominator": {
+      "value": 50,
+      "unit": "states receiving Title I/ESEA funding; all are required to report chronic absenteeism, and 36 include it in statewide accountability systems",
+      "value_type": "reported_state_universe"
+    },
+    "measures": {
+      "student_absence_scale": {
+        "value": "at least one-quarter of K-12 students were chronically absent, defined as missing 10% or more of school days",
+        "unit": "estimated student prevalence in recent years",
+        "value_type": "reported_estimate"
+      },
+      "federal_funding_exposure": {
+        "value": "ESEA funding was nearly $27 billion in FY2025; about two-thirds was subject to higher undetected fraud, waste, or abuse risk after comprehensive monitoring was discontinued",
+        "unit": "federal funding and oversight exposure",
+        "value_type": "reported_scale_and_risk"
+      },
+      "monitoring_change": {
+        "value": "the Department of Education discontinued its most comprehensive monitoring of ESEA programmatic and fiscal requirements in 2026",
+        "unit": "federal oversight status",
+        "value_type": "reported_change"
+      },
+      "data_quality": {
+        "value": "Education's chronic-absence calculation can mismatch the school-year numerator with a single-date enrollment denominator; over 30% of low-performing and shared-time schools had implausible rates compared with under 2% of other schools, including rates over 100%",
+        "unit": "school-level data-quality comparison",
+        "value_type": "reported_comparison"
+      },
+      "downstream_outcome": {
+        "value": "the report does not link a specific student's absence to family care, transportation, health, work, intervention receipt, learning, wellbeing, or later persistence",
+        "unit": "missing student and household continuation",
+        "value_type": "unmeasured"
+      }
+    },
+    "method": "GAO reviewed federal laws, Education guidance, and monitoring reports since 2019 and analyzed the Department of Education's school-year 2022–2023 chronic-absence data, including school-level rate construction and accountability-system use.",
+    "uncertainty": "At least one-quarter is an estimated broad prevalence statement, while implausible-rate comparisons concern selected school categories and a specific data construction problem. Data unreliability does not mean every chronic-absence report is false. The report does not estimate causal effects of monitoring suspension or interventions on attendance or learning.",
+    "subgroup": "States, low-performing schools, shared-time schools such as career and technical education programs, other schools, and students counted as chronically absent under state reporting rules.",
+    "counterinterpretation": "States may still operate accountability systems and interventions even when federal monitoring is reduced; a flawed aggregate rate can coexist with valid local attendance records. Chronic absence is associated with academic and wellbeing risk, but the report does not establish the cause for each student or school.",
+    "source_url": "https://www.gao.gov/products/gao-26-107920",
+    "retrieval_hash": "sha256:7d3a37f7672190950316c5f99b24a69bf81bc730afd3d2c5ab4867da0d5541e9",
+    "status": "reported"
+  }],
+  "related_sources": [{
+    "source_url": "https://files.gao.gov/assets/gao-26-107920.pdf",
+    "claim": "Official GAO report supplies chronic-absence prevalence, ESEA funding exposure, monitoring change, data-quality findings, method, and recommendations.",
+    "status": "official-report"
+  }],
+  "boundary": "This record closes a public-data-quality-to-accountability arrow: federal funds and chronic-absence reporting can coexist with suspended comprehensive monitoring and mismatched rate construction, especially in low-performing and shared-time schools. It does not establish individual causes, intervention effects, fraud, learning loss, or household outcomes.",
+  "reproduction_audit": {
+    "retrieval_hash_scope": "Official GAO landing page reviewed and retained as a source-page hash; the report PDF, school records, and student-level attendance data were not retained.",
+    "gao_page_sha256": "sha256:7d3a37f7672190950316c5f99b24a69bf81bc730afd3d2c5ab4867da0d5541e9",
+    "checked": "2026-09-23"
+  }
+}
